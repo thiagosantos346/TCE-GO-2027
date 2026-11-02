@@ -5,10 +5,7 @@
 > **Arquivo:** `05_governo_digital_lei_14129_e_engd_2024_2027.md`  
 > **Atos Normativos Centrais:** Lei Federal nº 14.129, de 29 de março de 2021 (Lei do Governo Digital) e Decreto Federal nº 12.069, de 21 de junho de 2024 (Estratégia Nacional de Governo Digital – ENGD 2024–2027)
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Transformação digital, inovação e modernização administrativa no setor público
@@ -67,50 +64,6 @@ A Lei do Governo Digital aplica-se obrigatoriamente a todos os entes e Poderes d
 
 ---
 
-### Teste 505
-**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
-A Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ) tem sua regulamentação instituída pela Resolução CNJ nº 396/2021 e pela Portaria CNJ nº 162/2021. Quanto às definições de eventos Cibernéticos do Poder Judiciário, assinale V para a afirmativa verdadeira e F para a falsa. I. Na Prevenção de Incidentes Cibernéticos do Poder Judiciário são princípios críticos que asseguram a construção de sistema de segurança cibernética eficaz: base de conhecimento de vírus, diagnóstico contínuo e automação. II. Na Investigação para Ilícitos Cibernéticos do Poder Judiciário o protocolo tem por finalidade estabelecer os procedimentos básicos para coleta e preservação de evidências e para comunicação obrigatória dos fatos penalmente relevantes ao Ministério Público e ao órgão de polícia judiciária com atribuição para o início da persecução penal. III. Considerando a Prevenção e Mitigação de Ameaças Cibernéticas e Confiança Digital, na etapa de recuperação espera-se que a organização conte com plano que preveja ações a serem executadas durante ou após um incidente e que incorpore as lições aprendidas, bem como que exista gerenciamento de comunicação com o público e um plano de recuperação de reputação após incidentes. As afirmativas são, respectivamente,
-
-* **A)** F, V e V.
-* **B)** F, F e V.
-* **C)** V, F e F.
-* **D)** V, V e F.
-* **E)** V, F e V.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Níveis de Autenticação na Plataforma GOV.BR (Bronze, Prata e Ouro)* deste guia, ouro: Validação biométrica facial na base da Justiça Eleitoral (TSE / Carteira de Identidade Nacional - CIN); ou validação por Certificado Digital padrão ICP-Brasil (A1 ou A3). — Nível máximo de segurança: acesso irrestrito a todos os serviços críticos, sigilosos, declaração pré-preenchida do Imposto de Renda e assinaturas eletrônicas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "F, V e V".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, F e V". De acordo com a teoria estudada em *1. A Lei do Governo Digital (Lei Federal nº 14.129/2021)*, a Lei nº 14.129/2021 instituiu o marco regulatório para a prestação digital dos serviços públicos no Brasil, fixando princípios, regras e instrumentos para o aumento da eficiência pública e a desburocratização das relações entre o Estado e a sociedade.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, F e F". De acordo com a teoria estudada em *2. A Estratégia Nacional de Governo Digital – ENGD 2024–2027 (Decreto nº 12.069/2024)*, o Decreto Federal nº 12.069, de 21 de junho de 2024, promulgou a nova Estratégia Nacional de Governo Digital (ENGD) para o quadriênio 2024 a 2027.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, V e F". De acordo com a teoria estudada em *1.3 Níveis de Autenticação na Plataforma GOV.BR (Bronze, Prata e Ouro)*, bronze: Cadastro presencial simplificado ou validação de dados cadastrais básicos junto à base do INSS ou da Receita Federal (perguntas cadastrais simples). — Acesso a serviços digitais básicos de baixo risco e consultas cadastrais simples.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, F e V". De acordo com a teoria estudada em *2.2 Os 5 Eixos Estratégicos da ENGD 2024–2027*, eixo 2 - Governo Confiável e Seguro: Resiliência cibernética de infraestruturas críticas, proteção de dados pessoais (LGPD) e segurança da informação governamental.
->
-> **Gabarito: A**
-
----
-
-```mermaid
-flowchart TD
-    LEI["Lei Federal nº 14.129/2021<br/>(Lei do Governo Digital)"]
-    
-    LEI --> FED["União, Estados, DF e Municípios"]
-    LEI --> POD["Executivo, Legislativo e Judiciário"]
-    LEI --> TC["Tribunais de Contas e Ministério Público"]
-    
-    subgraph PILARES["Pilares Centrais da Lei"]
-        P1["Digital por Padrão (com inclusão física)"]
-        P2["'Não Peça Duas Vezes' (Once-Only Principle)"]
-        P3["Interoperabilidade e Compartilhamento de Bases"]
-        P4["Dados Abertos e Transparência Ativa"]
-    end
-    
-    LEI --> PILARES
-```
-
----
-
 ## 1.2 Princípios e Diretrizes Marcantes
 
 #### 1. Vedação Expressa à Exigência de Documento em Posse do Estado (*Once-Only Principle*)
@@ -121,68 +74,6 @@ O Art. 5º, inciso VI e o Art. 12 da Lei nº 14.129/2021 consagram expressamente
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A FCC adora cobrar a regra: Se o cidadão solicita um serviço em uma Secretaria Estadual, o órgão **não pode** exigir certidão de regularidade fiscal emitida pela própria Fazenda Estadual ou certidão de nascimento civil emitida pelo Estado; o órgão deve consumir esses dados eletronicamente via barramento de interoperabilidade.
-
----
-
-### Teste 506
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Atuariais)**
-O Regime Próprio de Previdência Social (RPPS) de uma grande capital, buscando reduzir custos com taxas de administração, decide reformular sua estrutura de investimentos respeitando as diretrizes da Resolução CMN nº 5.272/2025. A diretoria propõe que o próprio comitê de investimentos do instituto passe a comprar e vender ativos diretamente no mercado financeiro e de capitais, implementando a chamada “gestão própria” da carteira de investimentos, sem a necessidade de contratar gestoras externas. Considerando as normas de segurança e governança, assinale a opção que descreve corretamente as condições ou obrigações para que esse RPPS busque a implementação de tal medida.
-
-* **A)** A gestão de recursos do RPPS deve ser obrigatoriamente transferida para bancos oficiais (controlados pelo Poder Público), sendo vedada a gestão própria direta, para evitar conflitos de interesse.
-* **B)** O RPPS com certificação Nível IV do Pró-Gestão goza de dispensa quanto à contratação de gestores externos, estando autorizado a acumular as funções de custodiante de seus próprios ativos, sob o fundamento da economicidade.
-* **C)** O RPPS deve obrigatoriamente contratar uma instituição autorizada pelo Banco Central do Brasil ou pela Comissão de Valores Mobiliários para realizar a custódia e o depósito dos ativos, garantindo a segregação de funções.
-* **D)** O RPPS pode realizar a gestão própria de 100% dos seus recursos, desde que todos os conselheiros possuam certificação profissional e formação em Administração, Atuária, Contabilidade, Direito ou Economia.
-* **E)** O RPPS que realiza gestão própria fica dispensado de seguir os limites de concentração por emissor, pois o controle é feito internamente pelo próprio ente.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A gestão de recursos do RPPS deve ser obrigatoriamente transferida para bancos oficiais (controlados pelo Poder...". De acordo com a teoria estudada em *4. Transparência Ativa e Dados Abertos*, os dados governamentais não sigilosos devem ser abertos ativamente em sítios oficiais.
-> - **B)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "O RPPS com certificação Nível IV do Pró-Gestão goza de dispensa quanto à contratação de gestores externos, estando...". De acordo com a teoria estudada em *1. Vedação Expressa à Exigência de Documento em Posse do Estado (Once-Only Principle)*, o Art. 5º, inciso VI e o Art. 12 da Lei nº 14.129/2021 consagram expressamente a vedação de exigir do cidadão informações, documentos ou certidões que já constem na posse da própria Administração Pública.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O RPPS deve obrigatoriamente contratar uma instituição autorizada pelo Banco Central do Brasil ou pela Comissão de...". De acordo com a teoria estudada em *1. Vedação Expressa à Exigência de Documento em Posse do Estado (Once-Only Principle)*, o órgão público não pode transferir para o usuário o ônus de buscar uma certidão emitida por outro órgão do mesmo ente ou da administração governamental.
-> - **D)** **Correta.** Conforme fundamentado na seção *1. Vedação Expressa à Exigência de Documento em Posse do Estado (Once-Only Principle)* deste guia, a FCC adora cobrar a regra: Se o cidadão solicita um serviço em uma Secretaria Estadual, o órgão não pode exigir certidão de regularidade fiscal emitida pela própria Fazenda Estadual ou certidão de nascimento civil emitida pelo Estado; o órgão deve consumir esses dados eletronicamente via barramento de interoperabilidade. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "O RPPS pode realizar a gestão própria de 100% dos seus recursos, desde que todos os conselheiros possuam...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O RPPS que realiza gestão própria fica dispensado de seguir os limites de concentração por emissor, pois o...". De acordo com a teoria estudada em *3. Presunção de Boa-Fé e Desburocratização*, fica dispensado o reconhecimento de firma em cartório e a autenticação de cópias em papel, bastando que o servidor público confira a cópia com o documento original apresentado ou valide os dados por meio de assinatura e identificação digital oficial.
->
-> **Gabarito: D**
-
----
-
-#### 2. Digital por Padrão (*Digital by Default*) com Garantia de Inclusão
-Os serviços públicos devem ser prioritariamente concebidos e ofertados em formato digital. Todavia, para resguardar os cidadãos em situação de vulnerabilidade ou sem letramento digital, a Administração deve manter canais de atendimento presencial humanizados e acessíveis.
-
-#### 3. Presunção de Boa-Fé e Desburocratização
-Fica dispensado o reconhecimento de firma em cartório e a autenticação de cópias em papel, bastando que o servidor público confira a cópia com o documento original apresentado ou valide os dados por meio de assinatura e identificação digital oficial.
-
-#### 4. Transparência Ativa e Dados Abertos
-Os dados governamentais não sigilosos devem ser abertos ativamente em sítios oficiais:
-
-- Devem estar em formatos **abertos, não proprietários e estruturados** (como CSV, JSON, XML), legíveis por máquina.
-- É vedado publicar dados abertos exclusivamente em arquivos fechados ou formatos de imagem (como PDF rasterizado ou JPG), que impossibilitam a análise algorítmica.
-
----
-
-### Teste 507
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Controle Externo)**
-Os princípios de governança pública são fundamentos orientadores que promovem a transparência, a responsabilidade, a eficácia e a equidade nas ações e decisões do setor público, visando ao interesse público e ao desenvolvimento sustentável. Assinale, dentre as opções a seguir, a que compreende princípios de governança pública.
-
-* **A)** Integridade, melhoria regulatória e transparência.
-* **B)** Competência, responsabilidade e transparência.
-* **C)** Integridade, liderança e motivação.
-* **D)** Competência, integridade e liderança.
-* **E)** Integridade, melhoria regulatória e liderança.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Integridade, melhoria regulatória e transparência". De acordo com a teoria estudada em *4. Transparência Ativa e Dados Abertos*, os dados governamentais não sigilosos devem ser abertos ativamente em sítios oficiais.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Competência, responsabilidade e transparência". De acordo com a teoria estudada em *4. Transparência Ativa e Dados Abertos*, devem estar em formatos abertos, não proprietários e estruturados (como CSV, JSON, XML), legíveis por máquina.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.2 Os 5 Eixos Estratégicos da ENGD 2024–2027* deste guia, eixo 3 - Governo Aberto e Transparente: Fomento à transparência ativa, ampliação do catálogo de dados abertos para pesquisa e controle social, e integridade pública. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "Integridade, liderança e motivação".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Competência, integridade e liderança". De acordo com a teoria estudada em *4. Transparência Ativa e Dados Abertos*, é vedado publicar dados abertos exclusivamente em arquivos fechados ou formatos de imagem (como PDF rasterizado ou JPG), que impossibilitam a análise algorítmica.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Integridade, melhoria regulatória e liderança". De acordo com a teoria estudada em *1. A Lei do Governo Digital (Lei Federal nº 14.129/2021)*, a Lei nº 14.129/2021 instituiu o marco regulatório para a prestação digital dos serviços públicos no Brasil, fixando princípios, regras e instrumentos para o aumento da eficiência pública e a desburocratização das relações entre o Estado e a sociedade.
->
-> **Gabarito: C**
 
 ---
 
@@ -201,30 +92,6 @@ flowchart TD
 | **Bronze** | Cadastro presencial simplificado ou validação de dados cadastrais básicos junto à base do INSS ou da Receita Federal (perguntas cadastrais simples). | Acesso a serviços digitais básicos de baixo risco e consultas cadastrais simples. |
 | **Prata** | Validação biométrica facial contra a base da CNH (Senatran); login por meio de credenciais bancárias (Open Finance / Bancos Credenciados); ou validação via SIGEPE (servidores públicos). | Acesso à grande maioria dos serviços públicos digitais federais e estaduais, emissão de certidões e uso de assinatura eletrônica avançada. |
 | **Ouro** | Validação biométrica facial na base da Justiça Eleitoral (TSE / Carteira de Identidade Nacional - CIN); ou validação por Certificado Digital padrão ICP-Brasil (A1 ou A3). | Nível máximo de segurança: acesso irrestrito a todos os serviços críticos, sigilosos, declaração pré-preenchida do Imposto de Renda e assinaturas eletrônicas. |
-
----
-
-### Teste 508
-**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
-O governo eletrônico (e-gov) consiste no uso de tecnologia da informação e comunicação (TICs) combinado com mudanças organizacionais para aperfeiçoar as estruturas e operações do governo. Com relação ao e-gov, analise as afirmativas a seguir. I. O e-gov é uma alternativa mais rápida e prática para os cidadãos no acesso a serviços governamentais. II. A percepção de risco pelos cidadãos, como em questões de privacidade e segurança, pode desencorajá-los a utilizar os sistemas de e-gov. III. O uso de serviços presenciais tradicionais tende a aumentar quando os cidadãos percebem o uso de e-gov como arriscado. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.3 Níveis de Autenticação na Plataforma GOV.BR (Bronze, Prata e Ouro)*, prata: Validação biométrica facial contra a base da CNH (Senatran); login por meio de credenciais bancárias (Open Finance / Bancos Credenciados); ou validação via SIGEPE (servidores públicos). — Acesso à grande maioria dos serviços públicos digitais federais e estaduais, emissão de certidões e uso de assinatura eletrônica avançada.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.3 Níveis de Autenticação na Plataforma GOV.BR (Bronze, Prata e Ouro)*, ouro: Validação biométrica facial na base da Justiça Eleitoral (TSE / Carteira de Identidade Nacional - CIN); ou validação por Certificado Digital padrão ICP-Brasil (A1 ou A3). — Nível máximo de segurança: acesso irrestrito a todos os serviços críticos, sigilosos, declaração pré-preenchida do Imposto de Renda e assinaturas eletrônicas.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.2 Os 5 Eixos Estratégicos da ENGD 2024–2027*, eixo 2 - Governo Confiável e Seguro: Resiliência cibernética de infraestruturas críticas, proteção de dados pessoais (LGPD) e segurança da informação governamental.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.3 Níveis de Autenticação na Plataforma GOV.BR (Bronze, Prata e Ouro)*, o ecossistema GOV.BR classifica as contas de identificação dos cidadãos em três níveis progressivos de confiabilidade cadastral.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Níveis de Autenticação na Plataforma GOV.BR (Bronze, Prata e Ouro)* deste guia, bronze: Cadastro presencial simplificado ou validação de dados cadastrais básicos junto à base do INSS ou da Receita Federal (perguntas cadastrais simples). — Acesso a serviços digitais básicos de baixo risco e consultas cadastrais simples. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "I, II e III".
->
-> **Gabarito: E**
 
 ---
 
@@ -254,30 +121,6 @@ flowchart LR
 
 ---
 
-### Teste 509
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
-“Para além de promover o interesse público, essa diretriz demonstra a importância da antecipação das necessidades da sociedade e da superação das limitações orçamentárias – especialmente a partir de práticas inovadoras. A ideia de que a atuação pública deve se pautar pela busca de soluções integradas, inovadoras e personalizadas já se tornou uma premissa em diversos países do mundo, que reconhecem e tentam lidar com demandas cada vez mais complexas por parte de quem financia o Estado”. (BRASIL, GPGP, 2018) O trecho acima foi retirado do Guia da Política de Governança Pública, elaborado pelo Governo Federal. Assinale o princípio de governança que corresponde ao preceito contido no excerto.
-
-* **A)** Accountability.
-* **B)** Efetividade.
-* **C)** Capacidade de resposta.
-* **D)** Integridade.
-* **E)** Participação social.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Accountability". De acordo com a teoria estudada em *1. A Lei do Governo Digital (Lei Federal nº 14.129/2021)*, a Lei nº 14.129/2021 instituiu o marco regulatório para a prestação digital dos serviços públicos no Brasil, fixando princípios, regras e instrumentos para o aumento da eficiência pública e a desburocratização das relações entre o Estado e a sociedade.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Efetividade". De acordo com a teoria estudada em *Tabela Comparativa: Assinaturas Eletrônicas na Administração Pública*, é o nível mais alto. — Atos normativos de chefes de Poder (Presidente, Governadores, Prefeitos); transferência e registro de imóveis públicos; atos que impliquem sigilo fiscal/bancário gravíssimo onde a lei exigir expressamente.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Propósito e Abrangência Federativa* deste guia, a ENGD 2024–2027 é uma política pública de amplitude nacional federativa, coordenada para articular a transformação digital integrada de todos os entes federativos (União, 26 Estados, DF e Municípios), promovendo a interoperabilidade e reduzindo disparidades regionais de infraestrutura e capacidade de atendimento digital. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Capacidade de resposta".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Integridade". De acordo com a teoria estudada em *2.2 Os 5 Eixos Estratégicos da ENGD 2024–2027*, eixo 3 - Governo Aberto e Transparente: Fomento à transparência ativa, ampliação do catálogo de dados abertos para pesquisa e controle social, e integridade pública.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Participação social". De acordo com a teoria estudada em *Tabela Comparativa: Assinaturas Eletrônicas na Administração Pública*, qualificada: Utiliza certificado digital emitido por Autoridade Certificadora credenciada na Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).
->
-> **Gabarito: C**
-
----
-
 ## 1.5 Governo Como Plataforma (GaaP) e Interoperabilidade
 
 O paradigma de **Governo Como Plataforma** (*Government as a Platform - GaaP*) redefine o papel da tecnologia pública. Em vez de construir aplicações verticais monolíticas isoladas para cada órgão, o governo desenvolve blocos compartilhados de infraestrutura tecnológica aberta:
@@ -285,30 +128,6 @@ O paradigma de **Governo Como Plataforma** (*Government as a Platform - GaaP*) r
 - Criação de APIs padronizadas e barramentos centrais (como a plataforma **ConectaGov** no Brasil);
 - Disponibilização de serviços públicos digitais interoperáveis que conversam em tempo real;
 - Racionalização de custos de TIC e eliminação de duplicação de dados entre a União, Estados e Municípios.
-
----
-
-### Teste 510
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
-As opções a seguir apresentam objetivos do governo eletrônico, à exceção de uma. Assinale-a.
-
-* **A)** Inclusão digital.
-* **B)** Modernizar a máquina pública.
-* **C)** Reduzir custos e melhorar a eficiência da administração pública no que se refere aos seus processos internos.
-* **D)** Aumentar a transparência, o controle social e a accountability.
-* **E)** Fomento econômico do setor de tecnologia da informação.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Inclusão digital". De acordo com a teoria estudada em *2.2 Os 5 Eixos Estratégicos da ENGD 2024–2027*, eixo 5 - Governo Inclusivo e Centrado nas Pessoas: Inclusão digital ampla, design universal, linguagem simples, multicanalidade e adoção do modelo de Serviços Públicos Proativos.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Modernizar a máquina pública". De acordo com a teoria estudada em *2.2 Os 5 Eixos Estratégicos da ENGD 2024–2027*, eixo 2 - Governo Confiável e Seguro: Resiliência cibernética de infraestruturas críticas, proteção de dados pessoais (LGPD) e segurança da informação governamental.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Reduzir custos e melhorar a eficiência da administração pública no que se refere aos seus processos internos". De acordo com a teoria estudada em *Tabela Comparativa: Assinaturas Eletrônicas na Administração Pública*, produzida tipicamente pelas contas GOV.BR Prata e Ouro. — Processos administrativos regulares, termos de posse, contratos administrativos ordinários, manifestações processuais em Tribunais de Contas e órgãos fiscais.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aumentar a transparência, o controle social e a accountability". De acordo com a teoria estudada em *2.2 Os 5 Eixos Estratégicos da ENGD 2024–2027*, eixo 3 - Governo Aberto e Transparente: Fomento à transparência ativa, ampliação do catálogo de dados abertos para pesquisa e controle social, e integridade pública.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.5 Governo Como Plataforma (GaaP) e Interoperabilidade* deste guia, o paradigma de Governo Como Plataforma (*Government as a Platform - GaaP*) redefine o papel da tecnologia pública. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Fomento econômico do setor de tecnologia da informação".
->
-> **Gabarito: E**
 
 ---
 
@@ -321,30 +140,6 @@ O **Decreto Federal nº 12.069, de 21 de junho de 2024**, promulgou a nova **Est
 ## 2.1 Propósito e Abrangência Federativa
 
 A ENGD 2024–2027 é uma política pública de **amplitude nacional federativa**, coordenada para articular a transformação digital integrada de todos os entes federativos (União, 26 Estados, DF e Municípios), promovendo a interoperabilidade e reduzindo disparidades regionais de infraestrutura e capacidade de atendimento digital.
-
----
-
-### Teste 511
-**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
-A Portaria 252/2020 do Conselho Nacional de Justiça dispõe sobre o Modelo de Governança e Gestão da Plataforma Digital do Poder Judiciário (PDPJ-Br). A respeito das atribuições que competem ao Comitê Gestor Nacional do PDPJ-Br, que exerce a supervisão geral da Plataforma, avalie as afirmativas a seguir. I. Homologar e propor ajustes aos projetos de desenvolvimento de microsserviços sugeridos pela Gerência Executiva e pelos Comitês Gestores dos tribunais. II. Propor à Presidência, mediante sugestão do Comitê Gestor Nacional da PDPJ, a política de tecnologia da informação a ser seguida pela PDPJ-Br. III. Propor normas regulamentadoras à Comissão Permanente de Tecnologia da Informação e Infraestrutura do Conselho Nacional de Justiça. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e III, apenas.
-* **E)** II e III, apenas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.3 Níveis de Autenticação na Plataforma GOV.BR (Bronze, Prata e Ouro)*, ouro: Validação biométrica facial na base da Justiça Eleitoral (TSE / Carteira de Identidade Nacional - CIN); ou validação por Certificado Digital padrão ICP-Brasil (A1 ou A3). — Nível máximo de segurança: acesso irrestrito a todos os serviços críticos, sigilosos, declaração pré-preenchida do Imposto de Renda e assinaturas eletrônicas.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.5 Governo Como Plataforma (GaaP) e Interoperabilidade*, o paradigma de Governo Como Plataforma (*Government as a Platform - GaaP*) redefine o papel da tecnologia pública.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *2. Infraestrutura Pública Digital (DPI - Digital Public Infrastructure)*, identificação Digital Unificada: Acesso único por meio do CPF e da plataforma GOV.BR.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.1 Propósito e Abrangência Federativa* deste guia, a ENGD 2024–2027 é uma política pública de amplitude nacional federativa, coordenada para articular a transformação digital integrada de todos os entes federativos (União, 26 Estados, DF e Municípios), promovendo a interoperabilidade e reduzindo disparidades regionais de infraestrutura e capacidade de atendimento digital. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "I e III, apenas".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2. Infraestrutura Pública Digital (DPI - Digital Public Infrastructure)*, sistema de Pagamentos Instantâneos: Utilização do Pix e da plataforma PagTesouro para recebimento ágil de taxas e repasses sociais diretos.
->
-> **Gabarito: D**
 
 ---
 
@@ -375,54 +170,6 @@ flowchart TD
 
 ---
 
-### Teste 512
-**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
-Alunos de um curso de Direito participaram de um evento organizado pelo Governo do Estado do Amazonas sobre os direitos das pessoas com deficiência. A primeira discussão tratou dos seguintes temas relacionados à Política Nacional para a Integração da Pessoa Portadora de Deficiência: I. O desenvolvimento de ação conjunta do Estado e da sociedade civil, de modo a assegurar a plena integração da pessoa portadora de deficiência no contexto socioeconômico e cultural. II. A adoção de estratégias de articulação com órgãos e entidades públicos e privados, bem assim com organismos inter- nacionais e estrangeiros para a implantação da Política Nacional para a Integração da Pessoa Portadora de Deficiência. III. O desenvolvimento de programas setoriais destinados ao atendimento das necessidades especiais da pessoa portadora de deficiência. IV. O fomento da tecnologia de bioengenharia voltada para a pessoa portadora de deficiência, bem como a facilitação da importação de equipamentos. V. A fiscalização do cumprimento da legislação pertinente à pessoa portadora de deficiência. Para a Política Nacional para a Integração da Pessoa Portadora de Deficiência e nos termos do Decreto no 3.298/1999, esses temas são conceituados, respectivamente, como:
-
-* **A)** diretriz, princípio, instrumento, princípio e objetivo.
-* **B)** objetivo, princípio, princípio, diretriz e diretriz.
-* **C)** instrumento, princípio, diretriz, objetivo e instrumento.
-* **D)** princípio, diretriz, objetivo, instrumento e instrumento.
-* **E)** princípio, princípio, diretriz, instrumento e objetivo.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "diretriz, princípio, instrumento, princípio e objetivo". De acordo com a teoria estudada em *2.1 Propósito e Abrangência Federativa*, a ENGD 2024–2027 é uma política pública de amplitude nacional federativa, coordenada para articular a transformação digital integrada de todos os entes federativos (União, 26 Estados, DF e Municípios), promovendo a interoperabilidade e reduzindo disparidades regionais de infraestrutura e capacidade de atendimento digital.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "objetivo, princípio, princípio, diretriz e diretriz". De acordo com a teoria estudada em *2. A Estratégia Nacional de Governo Digital – ENGD 2024–2027 (Decreto nº 12.069/2024)*, o Decreto Federal nº 12.069, de 21 de junho de 2024, promulgou a nova Estratégia Nacional de Governo Digital (ENGD) para o quadriênio 2024 a 2027.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "instrumento, princípio, diretriz, objetivo e instrumento". De acordo com a teoria estudada em *2.2 Os 5 Eixos Estratégicos da ENGD 2024–2027*, eixo 3 - Governo Aberto e Transparente: Fomento à transparência ativa, ampliação do catálogo de dados abertos para pesquisa e controle social, e integridade pública.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.2 Os 5 Eixos Estratégicos da ENGD 2024–2027* deste guia, eixo 5 - Governo Inclusivo e Centrado nas Pessoas: Inclusão digital ampla, design universal, linguagem simples, multicanalidade e adoção do modelo de Serviços Públicos Proativos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "princípio, diretriz, objetivo, instrumento e instrumento".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "princípio, princípio, diretriz, instrumento e objetivo". De acordo com a teoria estudada em *Tabela Comparativa: Assinaturas Eletrônicas na Administração Pública*, produzida tipicamente pelas contas GOV.BR Prata e Ouro. — Processos administrativos regulares, termos de posse, contratos administrativos ordinários, manifestações processuais em Tribunais de Contas e órgãos fiscais.
->
-> **Gabarito: D**
-
----
-
-### Teste 513
-**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia Da Informacao)**
-A plataforma digital do Poder Judiciário brasileiro (PDPJ-Br) é composta por um conjunto de aplicações e microsserviços que devem funcionar de forma harmônica. O TRF1 coordena um sistema processual público que pretende manter e aprimorar para se adequar à PDPJ-Br. Juntamente com os coordenadores dos projetos vigentes do sistema de tramitação processual eletrônica, o TRF1 deverá:
-
-* **A)** promover ações que possibilitem a troca de informações com os demais sistemas e redução dos custos de tecnologia da informação;
-* **B)** estabelecer planos de trabalho para descontinuar seus sistemas de tramitação processual eletrônica e adotar o sistema padronizado para uso na PDPJ-Br;
-* **C)** adequar as regras de negócio que atendem às peculiaridades regionais contempladas pelo sistema do tribunal para substituí-lo pelo sistema padronizado da PDPJ-Br;
-* **D)** hospedar o sistema do tribunal na PDPJ-Br na forma de um módulo ou microsserviço para uso exclusivo do tribunal e uso compartilhado dos recursos de nuvem da PDPJ-Br;
-* **E)** evoluir o sistema de tramitação processual do tribunal para os requisitos e conceitos da PDPJ-Br, com custos rateados entre os integrantes da rede do Poder Judiciário nacional.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "promover ações que possibilitem a troca de informações com os demais sistemas e redução dos custos de tecnologia...". De acordo com a teoria estudada em *2. Infraestrutura Pública Digital (DPI - Digital Public Infrastructure)*, barramento Seguro de Dados: Troca segura de informações via APIs e ConectaGov, com rastreabilidade e controle estrito de acessos.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Níveis de Autenticação na Plataforma GOV.BR (Bronze, Prata e Ouro)* deste guia, prata: Validação biométrica facial contra a base da CNH (Senatran); login por meio de credenciais bancárias (Open Finance / Bancos Credenciados); ou validação via SIGEPE (servidores públicos). — Acesso à grande maioria dos serviços públicos digitais federais e estaduais, emissão de certidões e uso de assinatura eletrônica avançada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "estabelecer planos de trabalho para descontinuar seus sistemas de tramitação processual eletrônica e adotar o...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "adequar as regras de negócio que atendem às peculiaridades regionais contempladas pelo sistema do tribunal para...". De acordo com a teoria estudada em *Tabela Comparativa: Assinaturas Eletrônicas na Administração Pública*, fALSO! A legislação autorizou amplamente o uso da Assinatura Eletrônica Avançada (como a provida pelo GOV.BR Prata e Ouro) para a esmagadora maioria dos atos e processos administrativos cotidianos.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "hospedar o sistema do tribunal na PDPJ-Br na forma de um módulo ou microsserviço para uso exclusivo do tribunal e...". De acordo com a teoria estudada em *2. Infraestrutura Pública Digital (DPI - Digital Public Infrastructure)*, sistema de Pagamentos Instantâneos: Utilização do Pix e da plataforma PagTesouro para recebimento ágil de taxas e repasses sociais diretos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "evoluir o sistema de tramitação processual do tribunal para os requisitos e conceitos da PDPJ-Br, com custos...". De acordo com a teoria estudada em *Tabela Comparativa: Assinaturas Eletrônicas na Administração Pública*, é o nível mais alto. — Atos normativos de chefes de Poder (Presidente, Governadores, Prefeitos); transferência e registro de imóveis públicos; atos que impliquem sigilo fiscal/bancário gravíssimo onde a lei exigir expressamente.
->
-> **Gabarito: B**
-
----
-
 ## 2.3 Serviços Públicos Proativos e Infraestrutura Pública Digital (DPI)
 
 #### 1. Serviços Públicos Proativos
@@ -437,30 +184,6 @@ A ENGD 2024–2027 estrutura a evolução digital do país em três pilares fund
 1. **Identificação Digital Unificada:** Acesso único por meio do CPF e da plataforma GOV.BR.
 2. **Sistema de Pagamentos Instantâneos:** Utilização do Pix e da plataforma PagTesouro para recebimento ágil de taxas e repasses sociais diretos.
 3. **Barramento Seguro de Dados:** Troca segura de informações via APIs e ConectaGov, com rastreabilidade e controle estrito de acessos.
-
----
-
-### Teste 514
-**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
-Uma escola do setor público, por política administrativa, costuma manter estoque de folha de papel para seis meses em seu almoxarifado. Em dezembro de 2024, uma tubulação estourou e molhou todo o estoque de folhas, que estava avaliado por R$10.000. O valor era considerado material pela escola. De acordo com os termos apresentados no Manual de Informações de Custos do Governo Federal, a baixa no valor, em dezembro, representa um(a)
-
-* **A)** custo.
-* **B)** gasto.
-* **C)** perda.
-* **D)** despesa.
-* **E)** desembolso.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "custo". De acordo com a teoria estudada em *2.1 Propósito e Abrangência Federativa*, a ENGD 2024–2027 é uma política pública de amplitude nacional federativa, coordenada para articular a transformação digital integrada de todos os entes federativos (União, 26 Estados, DF e Municípios), promovendo a interoperabilidade e reduzindo disparidades regionais de infraestrutura e capacidade de atendimento digital.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "gasto". De acordo com a teoria estudada em *2. Infraestrutura Pública Digital (DPI - Digital Public Infrastructure)*, barramento Seguro de Dados: Troca segura de informações via APIs e ConectaGov, com rastreabilidade e controle estrito de acessos.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.2 Os 5 Eixos Estratégicos da ENGD 2024–2027* deste guia, eixo 1 - Governo Integrado e Eficiente: Fortalecimento da interoperabilidade federativa via ConectaGov, racionalização de custos de TIC e eliminação de cadastros redundantes. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "perda".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "despesa". De acordo com a teoria estudada em *1.5 Governo Como Plataforma (GaaP) e Interoperabilidade*, o paradigma de Governo Como Plataforma (*Government as a Platform - GaaP*) redefine o papel da tecnologia pública.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desembolso". De acordo com a teoria estudada em *1.5 Governo Como Plataforma (GaaP) e Interoperabilidade*, racionalização de custos de TIC e eliminação de duplicação de dados entre a União, Estados e Municípios.
->
-> **Gabarito: C**
 
 ---
 

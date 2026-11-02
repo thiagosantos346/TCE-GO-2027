@@ -5,10 +5,7 @@
 > **Arquivo:** `06_redacao_reescrita_e_equivalencia_de_estruturas.md`  
 > **Referência Temática:** Confronto de Frases, Paralelismo Sintático, Paráfrase e Reorganização Textual na FCC
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Redação: confronto e reconhecimento de frases corretas e incorretas segundo a norma culta;
@@ -112,30 +109,6 @@ A língua culta formal não admite o uso de pronomes pessoais do caso reto (*ele
 
 ---
 
-### Teste 052
-**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
-Uma marca que mostra um traço da língua falada e não da língua escrita, é
-
-* **A)** a predominância de frases complexas.
-* **B)** o uso frequente da voz passiva.
-* **C)** o uso de interrupções para melhoria da expressão.
-* **D)** o apelo a variadas estratégias de produção textual.
-* **E)** a continuidade na expressão textual.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a predominância de frases complexas". De acordo com a teoria estudada em *5.3 Matriz de Substituição e Equivalência de Conectivos*, proporcionais equivalentes: *à medida que, à proporção que, ao passo que*. Cuidado: a expressão *"à medida em que"* é considerada híbrida e incorreta pela norma padrão; a forma aceita é *à medida que*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o uso frequente da voz passiva". De acordo com a teoria estudada em *5.5 Transposição de Vozes Verbais na Reescrita*, a equivalência sintática frequentemente explora a alternância entre voz ativa e passiva analítica ou sintética.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Pronomes Retos Usados Indevidamente como Objetos* deste guia, a língua culta formal não admite o uso de pronomes pessoais do caso reto (*ele, ela, eles, elas*) na posição de complemento verbal direto. O pronome reto possui vocação exclusivamente subjetiva (função de sujeito da oração). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "o uso de interrupções para melhoria da expressão".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o apelo a variadas estratégias de produção textual". De acordo com a teoria estudada em *3. Ambiguidade e Vícios de Construção Frasal*, a ambiguidade (ou anfibologia) ocorre quando uma frase admite duas ou mais interpretações lógicas distintas em decorrência da má ordenação de suas palavras ou do uso impreciso de termos relacionais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a continuidade na expressão textual". De acordo com a teoria estudada em *3.4 O Emprego Vicioso do Vocábulo O Mesmo*, o Manual de Redação da Presidência da República e a boa gramática normativa condenam expressamente o uso das formas *o mesmo, a mesma, os mesmos, as mesmas* como pronomes anafóricos para substituir pessoas ou coisas.
->
-> **Gabarito: C**
-
----
-
 ## 2. Paralelismo Sintático e Semântico
 
 O paralelismo (ou simetria de construção) é o princípio gramatical e estilístico que determina que elementos coordenados entre si, desempenhando a mesma função sintática no período, devem apresentar **estruturas morfológicas e gramaticais idênticas ou equivalentes**.
@@ -163,48 +136,6 @@ Nas estruturas formadas por pares de conectivos correlativos (*não só... mas t
 | *"A auditoria constatou **o desvio** de verbas e **que faltavam** documentos."* | Coordenou um substantivo simples (*o desvio*) com uma oração desenvolvida (*que faltavam*). | *"A auditoria constatou **o desvio** de verbas e **a falta** de documentos."* |
 | *"O tribunal tem como atribuição **fiscalizar** as contas e **a emissão** de pareceres."* | Coordenou forma verbal no infinitivo (*fiscalizar*) com substantivo abstrato (*a emissão*). | *"O tribunal tem como atribuição **fiscalizar** as contas e **emitir** pareceres."* |
 | *"A comissão propôs **a revisão** das medições e **que se fizesse** nova perícia."* | Coordenou frase nominal com oração subordinada substantiva. | *"A comissão propôs **a revisão** das medições e **a realização** de nova perícia."* |
-
----
-
-### Teste 053
-**(FCC – TRT 1ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-Deseja-se que uma página criada a partir da linguagem HTML, apresente o seguinte texto e figura: Casa térrea em terreno de 500 m2, 180 m2 de área construída, com 3 quartos (1 suíte), banheiro, salas para 3 ambientes, lavabo, copa-cozinha, área de serviço, quintal e vaga para 3 carros. Para tanto, elaborou-se o seguinte programa: <html> <body> comando x <p>Casa térrea em terreno de 500 m2, 180 m2 de área construída, com 3 quartos (1 suite), banheiro, salas para 3 ambientes, lavabo, copa-cozinha, área de serviço, quintal e vaga para 3 carros.</p> </body> </html> Supondo que a imagem da casa se encontre no arquivo casa123.jpg, um comando que poderia ser colocado no lugar do comando x, para apresentar o resultado desejado é:
-
-* **A)** <input type="button" text="Nova Página" click="window.location='P1.html'">
-* **B)** <input type="button" text="Nova Página" onclick="window.location='P1.html'">
-* **C)** <input type="onbutton" text="Nova Página" onclick="window.location='P1.html'">
-* **D)** <input type="button" value="Nova Página" onclick="window.location='P1.html'">
-* **E)** <input type="onbutton" value="Nova Página" click="window.location='P1.html'">
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<input type="button" text="Nova Página" click="window.location='P1.html'">". De acordo com a teoria estudada em *1.3 Pronomes Retos Usados Indevidamente como Objetos*, ao ler uma alternativa da FCC, desconfie sumariamente de sentenças que terminam com construções do tipo: *"A nova lei orçamentária trouxe regras rígidas e o gestor deve cumprir elas"*.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.3 Casos Típicos de Quebra de Paralelismo e Métodos de Correção* deste guia, *"A comissão propôs a revisão das medições e que se fizesse nova perícia."*: Coordenou frase nominal com oração subordinada substantiva. — *"A comissão propôs a revisão das medições e a realização de nova perícia."*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 1ª/2014) ao estabelecer que "<input type="button" text="Nova Página" onclick="window.location='P1.html'">".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<input type="onbutton" text="Nova Página" onclick="window.location='P1.html'">". De acordo com a teoria estudada em *2. Paralelismo Sintático e Semântico*, o paralelismo (ou simetria de construção) é o princípio gramatical e estilístico que determina que elementos coordenados entre si, desempenhando a mesma função sintática no período, devem apresentar estruturas morfológicas e gramaticais idênticas ou equivalentes.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<input type="button" value="Nova Página" onclick="window.location='P1.html'">". De acordo com a teoria estudada em *2.2 Paralelismo em Estruturas Correlativas*, nas estruturas formadas por pares de conectivos correlativos (*não só... mas também*, *não apenas... como também*, *tanto... quanto*, *seja... seja*, *quer... quer*, *ora... ora*), a exigência de simetria é rigorosa: o que vier imediatamente após o primeiro termo correlativo deve ter a mesma natureza sintática do que vier após o segundo polo.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<input type="onbutton" value="Nova Página" click="window.location='P1.html'">". De acordo com a teoria estudada em *2.1 Princípio da Simetria Estrutural em Termos Coordenados*, se o primeiro termo for um substantivo, os seguintes devem ser substantivos (*"Exige-se probidade, competência e lealdade"*).
->
-> **Gabarito: B**
-
----
-
-### Teste 054
-**(CEBRASPE – TJ/DFT – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-O direito é um produto histórico que resulta de constante luta de uma coletividade ou de um indivíduo. o início do período — escrevendo-se Se define — prejudicaria a correção gramatical do texto.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC* deste guia, nelas, o enunciado costuma indagar: *"A frase redigida de modo inteiramente claro, correto e condizente com a norma-padrão é:"* ou *"O período que expressa com correção e concisão as ideias do texto é:"*. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TJ/DFT/2015) ao afirmar que "O direito é um produto histórico que resulta de constante luta de uma coletividade ou de um indivíduo. o...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *3.1 Ambiguidade Estrutural vs. Ambiguidade Lexical*, segundo a qual ambiguidade Estrutural: Resulta do mau posicionamento sintático de adjuntos, orações ou pronomes no interior do período, gerando dúvida sobre qual elemento está sendo modificado.
->
-> **Gabarito: C**
 
 ---
 
@@ -243,54 +174,6 @@ O Manual de Redação da Presidência da República e a boa gramática normativa
 
 ---
 
-### Teste 055
-**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
-“tanto os homens quanto os animais”; “todos os que saíam da trilha ou tropeçavam em algo”. Nesses dois segmentos do texto 4, os conectores tanto/quanto e ou indicam, respectivamente:
-
-* **A)** comparação e alternância;
-* **B)** semelhança e alternância;
-* **C)** adição e adição;
-* **D)** comparação e adição;
-* **E)** adição e alternância.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "comparação e alternância". De acordo com a teoria estudada em *5.5 Transposição de Vozes Verbais na Reescrita*, a equivalência sintática frequentemente explora a alternância entre voz ativa e passiva analítica ou sintética.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "semelhança e alternância". De acordo com a teoria estudada em *6.5 Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A*, afim (junto): adjetivo que expressa parentesco, semelhança ou afinidade de interesses: *"Possuíam ideias afins sobre auditoria"*; *"Parentes afins"*.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Ambiguidade pelo Mau Emprego de Pronomes Possessivos (Seu/Sua)* deste guia, no português moderno, os pronomes possessivos de terceira pessoa (*seu, sua, seus, suas*) podem referir-se tanto à pessoa de quem se fala (ele/ela) quanto à pessoa com quem se fala (você / o interlocutor), ou gerar dúvida entre dois sujeitos de terceira pessoa já mencionados. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "adição e adição".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "comparação e adição". De acordo com a teoria estudada em *2.2 Paralelismo em Estruturas Correlativas*, nas estruturas formadas por pares de conectivos correlativos (*não só... mas também*, *não apenas... como também*, *tanto... quanto*, *seja... seja*, *quer... quer*, *ora... ora*), a exigência de simetria é rigorosa: o que vier imediatamente após o primeiro termo correlativo deve ter a mesma natureza sintática do que vier após o segundo polo.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "adição e alternância". De acordo com a teoria estudada em *1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC*, nelas, o enunciado costuma indagar: *"A frase redigida de modo inteiramente claro, correto e condizente com a norma-padrão é:"* ou *"O período que expressa com correção e concisão as ideias do texto é:"*.
->
-> **Gabarito: C**
-
----
-
-### Teste 056
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Engenharia)**
-Orçamento de uma obra compõe-se pela identificação, descrição, quantificação e valoração da mão de obra, equipamentos e materiais utilizados na obra, custos financeiros, impostos, riscos e margem de lucro desejada, para a adequada previsão do preço final. A elaboração do orçamento requer o conhecimento de conceitos, que são fundamentais para a utilização das referências dos Sistemas de Custo disponíveis. Associe os conceitos listados a seguir com as respectivas descrições: 1. Bonificação 2. Despesa Fixa 3. Despesa Variável 4. Custo Indireto 5. Custo Direto ( ) Mobilização e desmobilização; ( ) Tributação sobre faturamento; ( ) Manutenção da sede da empresa; ( ) Materiais usados na obra; ( ) Remuneração da empresa pelo desenvolvimento de sua atividade econômica A sequência correta da numeração, na ordem apresentada é
-
-* **A)** 5 – 1 – 4 – 3 – 2.
-* **B)** 4 – 3 – 2 – 5 – 1.
-* **C)** 3 – 4 – 2 – 5 – 1.
-* **D)** 3 – 4 – 1 – 5 – 2.
-* **E)** 5 – 3 – 2 – 4 – 1.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5 – 1 – 4 – 3 – 2". De acordo com a teoria estudada em *1.1 Estratégia de Varredura e Identificação de Vícios Gramaticais*, sintaxe de Pontuação e Ordem SVC: Verifique se não houve a colocação de uma vírgula simples entre o sujeito e o predicado, ou entre o verbo e seus complementos diretos/indiretos.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Pronomes Retos Usados Indevidamente como Objetos* deste guia, a língua culta formal não admite o uso de pronomes pessoais do caso reto (*ele, ela, eles, elas*) na posição de complemento verbal direto. O pronome reto possui vocação exclusivamente subjetiva (função de sujeito da oração). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "4 – 3 – 2 – 5 – 1".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 4 – 2 – 5 – 1". De acordo com a teoria estudada em *6.5 Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A*, de encontro a: indica colisão, choque, oposição, contrariedade: *"O reajuste salarial sem previsão orçamentária vai de encontro às determinações da LRF"*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 4 – 1 – 5 – 2". De acordo com a teoria estudada em *5.2 Transposição entre Orações Desenvolvidas e Reduzidas*, desenvolvida Concessiva: *"Embora o conselheiro conhecesse os riscos da decisão, manteve seu voto."*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5 – 3 – 2 – 4 – 1". De acordo com a teoria estudada em *5.2 Transposição entre Orações Desenvolvidas e Reduzidas*, reduzida de Infinitivo: *"Apesar de conhecer os riscos da decisão, o conselheiro manteve seu voto."*.
->
-> **Gabarito: B**
-
----
-
 ## 4. Organização e Reorganização de Orações e Períodos
 
 A estruturação eficiente de um texto formal exige domínio sobre a arquitetura da frase, equilibrando clareza semântica, expressividade e conformidade às regras de pontuação.
@@ -317,30 +200,6 @@ A reorganização de um período não pode corromper a progressão tópica. Os c
 
 * Preservar os operadores argumentativos que introduzem argumentos mais fortes (*mas, inclusive, até mesmo*);
 * Evitar parágrafos construídos por acúmulo excessivo de orações adjetivas encaixadas em cadeia (*que... que... que...* — vício do "queísmo"), saneando-as por meio de nominalizações ou transformações em orações reduzidas.
-
----
-
-### Teste 057
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Economia)**
-Considere as seguintes afirmativas Em relação à análise de risco de mercado, avalie cada afirmativa a seguir e assinale (V), se for verdadeira, e (F), se for falsa. ( ) O Valor em Risco (VaR) estima um limite potencial de perda de uma carteira, para dado horizonte de tempo e nível de confiança, em condições normais de mercado.. ( ) Os testes de estresse são úteis para avaliar perdas potenciais em situações extremas, inclusive fora do padrão histórico usual, complementando as limitações do VaR. ( ) A análise de cenários difere do teste de estresse porque se restringe a pequenas variações em fatores de risco, não contemplando choques severos e combinados. As afirmativas são, respectivamente,
-
-* **A)** F – F – V.
-* **B)** F – V – F.
-* **C)** F – V – V.
-* **D)** V – F – F.
-* **E)** V – V – F.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *6.4 Porquê: Substantivo com Artigo ou Determinante*, apresenta-se compulsoriamente antecedido por um artigo definido (*o porquê*), pronome demonstrativo (*este porquê*), pronome possessivo (*seu porquê*) ou numeral (*dois porquês*), admitindo inclusive flexão de plural (*os porquês*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – F". De acordo com a teoria estudada em *4.3 Coesão Sequencial e Encadeamento Lógico de Argumentos*, preservar os operadores argumentativos que introduzem argumentos mais fortes (*mas, inclusive, até mesmo*).
-> - **C)** **Correta.** Conforme fundamentado na seção *6.3 Porque: Conjunção Causal ou Explicativa* deste guia, a grafia junta e sem acento corresponde a uma conjunção subordinativa causal ou conjunção coordenativa explicativa, equivalendo a *pois, já que, visto que, porquanto, dado que*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "F – V – V".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC*, nelas, o enunciado costuma indagar: *"A frase redigida de modo inteiramente claro, correto e condizente com a norma-padrão é:"* ou *"O período que expressa com correção e concisão as ideias do texto é:"*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *2.1 Princípio da Simetria Estrutural em Termos Coordenados*, quando se coordenam termos em enumeração (ligados por vírgula ou pela conjunção *e*), todos devem pertencer à mesma classe gramatical ou seguir o mesmo padrão frasal.
->
-> **Gabarito: C**
 
 ---
 
@@ -409,42 +268,6 @@ A equivalência sintática frequentemente explora a alternância entre voz ativa
 
 ---
 
-### Teste 058
-**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-Na linha 12, a vírgula que se segue ao vocábulo “Talionis” representa a elipse da forma verbal “significando”.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Na linha 12, a vírgula que se segue ao vocábulo “Talionis” representa a elipse da forma verbal “significando”". De acordo com a teoria estudada em *2.3 Casos Típicos de Quebra de Paralelismo e Métodos de Correção*, *"O tribunal tem como atribuição fiscalizar as contas e a emissão de pareceres."*: Coordenou forma verbal no infinitivo (*fiscalizar*) com substantivo abstrato (*a emissão*). — *"O tribunal tem como atribuição fiscalizar as contas e emitir pareceres."*.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *3.4 O Emprego Vicioso do Vocábulo O Mesmo* deste guia, forma escorreita: Deve-se substituir por pronome oblíquo (*"encaminhou-o ao plenário"*), por pronome demonstrativo (*"encaminhou este ao plenário"*) ou por elipse pura (*"assinou o parecer e encaminhou ao plenário"*). Portanto, a assertiva examinada pela banca (CEBRASPE – STJ/2015) viola os preceitos técnicos do tópico.
->
-> **Gabarito: E**
-
----
-
-### Teste 059
-**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-Em tempos de globalização, as disputas esportivas, sobretudo aquelas que envolvem as modalidades de maior apelo popular, também se subordinam aos mecanismos da economia de mercado, o que implica altos investimentos, grandes estruturas e possibilidades de lucros expressivos. A figura acima ilustra uma janela do Windows XP, denominada Atividades, que contém uma pasta e dois arquivos. Com relação a essa figura e ao Windows XP, julgue os itens a seguir.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2.2 Paralelismo em Estruturas Correlativas* deste guia, construção Perfeita: *"O tribunal busca aprimorar os mecanismos de fiscalização não só para conferir transparência, mas também para garantir a legalidade."* (ambos estruturados por oração subordinada final reduzida de infinitivo: *para conferir* $\leftrightarrow$ *para garantir*). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STF/2008) ao afirmar que "Em tempos de globalização, as disputas esportivas, sobretudo aquelas que envolvem as modalidades de maior...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *2.2 Paralelismo em Estruturas Correlativas*, segundo a qual construção Defeituosa (Quebra de Paralelismo): *"O tribunal busca aprimorar os mecanismos não só para conferir transparência, mas garantindo a legalidade."* (misturou oração com preposição + infinitivo com oração reduzida no gerúndio).
->
-> **Gabarito: C**
-
----
-
 ## 6. O Emprego Correto das Quatro Formas dos Porquês
 
 A distinção ortográfica e sintática entre as quatro formas da grafia dos porquês decorre do papel morfológico exercido pela palavra na frase.
@@ -497,48 +320,6 @@ Para garantir a perfeição no confronto de frases da FCC:
 2. **Ao Encontro De vs. De Encontro A:**
     * **Ao encontro de:** indica concordância, harmonia, aproximação favorável: *"A decisão do pleno foi **ao encontro dos** anseios da sociedade"*.
     * **De encontro a:** indica colisão, choque, oposição, contrariedade: *"O reajuste salarial sem previsão orçamentária vai **de encontro às** determinações da LRF"*.
-
----
-
-### Teste 060
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Engenharia Civil)**
-Em um telhado, as tesouras são vigas de treliça, normalmente triangulares, e que visam suportar a cobertura e sobrecargas do telhado, por meio de um vigamento secundário. Os esforços suportados pelas tesouras são essencialmente de
-
-* **A)** torção e flexão.
-* **B)** flexão e extensão.
-* **C)** torção e compressão.
-* **D)** compressão e flexão.
-* **E)** compressão e extensão. Realização
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "torção e flexão". De acordo com a teoria estudada em *6.4 Porquê: Substantivo com Artigo ou Determinante*, apresenta-se compulsoriamente antecedido por um artigo definido (*o porquê*), pronome demonstrativo (*este porquê*), pronome possessivo (*seu porquê*) ou numeral (*dois porquês*), admitindo inclusive flexão de plural (*os porquês*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "flexão e extensão". De acordo com a teoria estudada em *4.3 Coesão Sequencial e Encadeamento Lógico de Argumentos*, evitar parágrafos construídos por acúmulo excessivo de orações adjetivas encaixadas em cadeia (*que... que... que...* — vício do "queísmo"), saneando-as por meio de nominalizações ou transformações em orações reduzidas.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "torção e compressão". De acordo com a teoria estudada em *5. Equivalência, Transformação de Estruturas e Paráfrase*, a paráfrase é a reescrita de um texto ou segmento mantendo com fidelidade absoluta o sentido e as relações lógicas da mensagem original, expressando-a por meio de novos recursos vocabulares e sintáticos.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "compressão e flexão". De acordo com a teoria estudada em *6. O Emprego Correto das Quatro Formas dos Porquês*, a distinção ortográfica e sintática entre as quatro formas da grafia dos porquês decorre do papel morfológico exercido pela palavra na frase.
-> - **E)** **Correta.** Conforme fundamentado na seção *2.3 Casos Típicos de Quebra de Paralelismo e Métodos de Correção* deste guia, *"A comissão propôs a revisão das medições e que se fizesse nova perícia."*: Coordenou frase nominal com oração subordinada substantiva. — *"A comissão propôs a revisão das medições e a realização de nova perícia."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "compressão e extensão. Realização".
->
-> **Gabarito: E**
-
----
-
-### Teste 061
-**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-Infere-se do texto que países ricos, emergentes ou pobres, além de organismos multilaterais e de especialistas em geral, concordam quanto à identificação da causa comum determinante para o quadro de inflação dos alimentos hoje existente no mundo.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Infere-se do texto que países ricos, emergentes ou pobres, além de organismos multilaterais e de...". De acordo com a teoria estudada em *2.3 Casos Típicos de Quebra de Paralelismo e Métodos de Correção*, frase com Quebra de Paralelismo (Incorreta): Causa do Desvio — Frase com Paralelismo Perfeito (Correta).
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *2.2 Paralelismo em Estruturas Correlativas* deste guia, nas estruturas formadas por pares de conectivos correlativos (*não só... mas também*, *não apenas... como também*, *tanto... quanto*, *seja... seja*, *quer... quer*, *ora... ora*), a exigência de simetria é rigorosa: o que vier imediatamente após o primeiro termo correlativo deve ter a mesma natureza sintática do que vier após o segundo polo. Portanto, a assertiva examinada pela banca (CEBRASPE – STF/2008) viola os preceitos técnicos do tópico.
->
-> **Gabarito: E**
 
 ---
 

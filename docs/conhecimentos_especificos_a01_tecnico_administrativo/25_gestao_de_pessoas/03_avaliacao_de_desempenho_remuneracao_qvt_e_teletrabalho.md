@@ -4,10 +4,7 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo (TCE-GO)  
 > **Conteúdo Oficial:** Gestão e Avaliação de Desempenho no Setor Público; Métodos Tradicionais e Modernos de Avaliação; Erros e Vieses Cognitivos do Avaliador; Estrutura Remuneratória e o Regime de Subsídio Constitucional; Qualidade de Vida no Trabalho (Modelo das 8 Dimensões de Richard Walton); Novas Modalidades de Trabalho (Teletrabalho, Gestão por Resultados e Direito à Desconexão).
 
-
-
 ---
-
 
 ## 📌 Ementa & Delimitação do Conteúdo
 
@@ -112,54 +109,6 @@ flowchart TD
 
 ---
 
-### Teste 450
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-Na empresa ABC, a área de Gestão de Pessoas consolidou os resultados do ciclo anual de avaliação de desempenho. Após a etapa de consolidação, o gestor de uma equipe é convocado pelo especialista da área para receber subsídios estruturados sobre cada um de seus liderados, de modo a conduzir, ao longo do próximo ciclo, sessões individuais de orientação profissional, com utilização de técnicas de coaching e mentoring adaptadas a cada perfil identificado. Considerando as razões pelas quais as organizações avaliam o desempenho de seus talentos, a finalidade da avaliação a que essa entrega de subsídios está diretamente associada é denominada
-
-* **A)** recompensa.
-* **B)** retroação.
-* **C)** aconselhamento.
-* **D)** percepção.
-* **E)** potencial de desenvolvimento.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "recompensa". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, pesquisa de Campo: Um analista técnico de Gestão de Pessoas vai até cada setor e entrevista o chefe imediato para avaliar conjuntamente cada colaborador. — Alta padronização, profundo rigor técnico, orienta a chefia sobre planos de melhoria. — Método de altíssimo custo, extrema lentidão e inviável para quadros muito volumosos.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "retroação". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, avaliação por Objetivos (APO Participativa): Chefia e servidor sentam juntos, negociam metas quantitativas/qualitativas para o ciclo, acompanham periodicamente e realizam autoavaliação final. — Alto engajamento, estímulo à autonomia, foco em entregas futuras e resultados concretos. — Risco de conflito na fixação de metas; exige elevada maturidade gerencial; foco excessivo no quantitativo em detrimento de valores.
-> - **C)** **Correta.** Conforme fundamentado na seção *1. Gestão e Métodos de Avaliação de Desempenho* deste guia, a avaliação de desempenho é uma apreciação sistemática do comportamento e da entrega funcional do servidor no exercício de suas atribuições. Integra o macroprocesso de Aplicar Pessoas (Chiavenato). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "aconselhamento".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "percepção". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, relevância Social do Trabalho: Percepção e orgulho do servidor de que o trabalho de sua instituição gera valor real, protege o interesse público e contribui para o bem comum da sociedade.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "potencial de desenvolvimento". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, utilização e Desenvolvimento de Capacidades: Oportunidade dada ao colaborador de exercer autonomia intelectual, aplicar habilidades cognitivas, planejar seu trabalho e obter feedback claro.
->
-> **Gabarito: C**
-
----
-
-### Teste 451
-**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Sem Especialidade)**
-A gestão de pessoas no setor público envolve processos integrados de recrutamento, seleção, capacitação, desenvolvimento, avaliação de desempenho e gestão de carreiras, com foco na valorização dos servidores e na melhoria da qualidade dos serviços prestados à sociedade. Assinale a opção que apresenta corretamente uma das bases fundamentais da gestão do desempenho no setor público.
-
-* **A)** Concentra-se exclusivamente na avaliação de resultados, sem considerar o planejamento ou o apoio ao servidor.
-* **B)** A revisão do desempenho não deve conter feedbacks ao servidor, para preservar a imparcialidade da avaliação.
-* **C)** O foco está apenas no cumprimento das metas organizacionais, não sendo necessário alinhar objetivos departamentais.
-* **D)** A definição de objetivos departamentais ocorre após a avaliação de desempenho, para garantir o cumprimento dos planos de desenvolvimento.
-* **E)** A condução do desempenho envolve ações como apoio e supervisão, coaching e mentoring, com o objetivo de promover o desenvolvimento contínuo do servidor.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Concentra-se exclusivamente na avaliação de resultados, sem considerar o planejamento ou o apoio ao servidor". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, avaliação por Objetivos (APO Participativa): Chefia e servidor sentam juntos, negociam metas quantitativas/qualitativas para o ciclo, acompanham periodicamente e realizam autoavaliação final. — Alto engajamento, estímulo à autonomia, foco em entregas futuras e resultados concretos. — Risco de conflito na fixação de metas; exige elevada maturidade gerencial; foco excessivo no quantitativo em detrimento de valores.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A revisão do desempenho não deve conter feedbacks ao servidor, para preservar a imparcialidade da avaliação". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, pesquisa de Campo: Um analista técnico de Gestão de Pessoas vai até cada setor e entrevista o chefe imediato para avaliar conjuntamente cada colaborador. — Alta padronização, profundo rigor técnico, orienta a chefia sobre planos de melhoria. — Método de altíssimo custo, extrema lentidão e inviável para quadros muito volumosos.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O foco está apenas no cumprimento das metas organizacionais, não sendo necessário alinhar objetivos departamentais". De acordo com a teoria estudada em *Dinâmica dos Planos de Cargos e Carreiras*, progressão: Passagem do servidor de um padrão remuneratório para o seguinte, dentro da mesma classe de seu cargo efetivo (foco na senioridade e avaliações periódicas).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A definição de objetivos departamentais ocorre após a avaliação de desempenho, para garantir o cumprimento dos...". De acordo com a teoria estudada em *1. Gestão e Métodos de Avaliação de Desempenho*, a avaliação de desempenho é uma apreciação sistemática do comportamento e da entrega funcional do servidor no exercício de suas atribuições. Integra o macroprocesso de Aplicar Pessoas (Chiavenato).
-> - **E)** **Correta.** Conforme fundamentado na seção *Comparativo Completo dos Métodos de Avaliação de Desempenho* deste guia, a banca frequentemente afirma que o método da Escolha Forçada é o mais indicado quando o objetivo central do órgão é promover sessões ricas de *feedback* individual entre o chefe e o subordinado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "A condução do desempenho envolve ações como apoio e supervisão, coaching e mentoring, com o objetivo de promover o...".
->
-> **Gabarito: E**
-
----
-
 ## 2. Erros, Vieses e Distorções Cognitivas do Avaliador
 
 A subjetividade humana constitui o maior obstáculo à precisão da avaliação de desempenho:
@@ -189,54 +138,6 @@ flowchart LR
 
 ---
 
-### Teste 452
-**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Sem Especialidade)**
-O processo cíclico da gestão do desempenho pode ser entendido como um ecossistema integrado composto por oito etapas. Assinale a opção que apresenta, corretamente, a etapa na qual se pergunta “para que fazer?”.
-
-* **A)** Planejamento do desempenho.
-* **B)** Definição de objetivos de desempenho.
-* **C)** Modelagem do trabalho.
-* **D)** Definição do local de trabalho.
-* **E)** Revisão do desempenho.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Planejamento do desempenho". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, avaliação por Objetivos (APO Participativa): Chefia e servidor sentam juntos, negociam metas quantitativas/qualitativas para o ciclo, acompanham periodicamente e realizam autoavaliação final. — Alto engajamento, estímulo à autonomia, foco em entregas futuras e resultados concretos. — Risco de conflito na fixação de metas; exige elevada maturidade gerencial; foco excessivo no quantitativo em detrimento de valores.
-> - **B)** **Correta.** Conforme fundamentado na seção *2. Erros, Vieses e Distorções Cognitivas do Avaliador* deste guia, erro de Contraste: O avaliador julga o servidor comparando-o diretamente com o indivíduo avaliado logo antes, e não confrontando seu desempenho com os padrões objetivos do cargo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "Definição de objetivos de desempenho".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Modelagem do trabalho". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, avaliação 360 Graus (Circular): O servidor é avaliado por múltiplos observadores: superior imediato, pares/colegas, subordinados diretos, usuários/cidadãos e sua própria autoavaliação. — Visão global, abrangente e democrática; atenua preconceitos de um único avaliador. — Muito trabalhosa de tabular; pode gerar pactos de conivência ("eu dou nota 10 para você e você para mim") ou vinganças internas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Definição do local de trabalho". De acordo com a teoria estudada em *1. Gestão e Métodos de Avaliação de Desempenho*, a avaliação de desempenho é uma apreciação sistemática do comportamento e da entrega funcional do servidor no exercício de suas atribuições. Integra o macroprocesso de Aplicar Pessoas (Chiavenato).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Revisão do desempenho". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, pesquisa de Campo: Um analista técnico de Gestão de Pessoas vai até cada setor e entrevista o chefe imediato para avaliar conjuntamente cada colaborador. — Alta padronização, profundo rigor técnico, orienta a chefia sobre planos de melhoria. — Método de altíssimo custo, extrema lentidão e inviável para quadros muito volumosos.
->
-> **Gabarito: B**
-
----
-
-### Teste 453
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
-A gestão de carreiras é o processo pelo qual organizações e colaboradores planejam e desenvolvem o percurso profissional dentro da organização. A gestão de carreira muitas vezes enfrenta o dilema entre priorizar o desempenho atual dos colaboradores ou focar no potencial de desenvolvimento do talento. Enquanto o desempenho atual garante resultados imediatos e contribui para a eficácia operacional, investir no potencial de desenvolvimento pode promover inovação e sustentabilidade a longo prazo. As organizações precisam equilibrar essas duas abordagens, reconhecendo e recompensando o desempenho, enquanto criam oportunidades para o crescimento e desenvolvimento futuro. Essa estratégia híbrida não apenas maximiza o engajamento dos funcionários, mas também assegura que a empresa esteja preparada para enfrentar desafios futuros com uma equipe qualificada e motivada. Assinale a opção que apresenta a avaliação de elevado potencial e alto desempenho ideal para a sucessão em cargos sêniores.
-
-* **A)** Enigma.
-* **B)** Dilema.
-* **C)** Colaborador do centro.
-* **D)** Futuro líder.
-* **E)** Profissional confiável.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Enigma". De acordo com a teoria estudada em *Dinâmica dos Planos de Cargos e Carreiras*, promoção: Elevação do servidor de uma classe para a classe imediatamente superior dentro da mesma carreira, dependendo de merecimento, capacitação continuada e vacância. *Não se confunde com ascensão ou transposição (formas de provimento derivado banidas pela CF/88).*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Dilema". De acordo com a teoria estudada em *Dinâmica dos Planos de Cargos e Carreiras*, progressão: Passagem do servidor de um padrão remuneratório para o seguinte, dentro da mesma classe de seu cargo efetivo (foco na senioridade e avaliações periódicas).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Colaborador do centro". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, pesquisa de Campo: Um analista técnico de Gestão de Pessoas vai até cada setor e entrevista o chefe imediato para avaliar conjuntamente cada colaborador. — Alta padronização, profundo rigor técnico, orienta a chefia sobre planos de melhoria. — Método de altíssimo custo, extrema lentidão e inviável para quadros muito volumosos.
-> - **D)** **Correta.** Conforme fundamentado na seção *Comparativo Completo dos Métodos de Avaliação de Desempenho* deste guia, avaliação por Objetivos (APO Participativa): Chefia e servidor sentam juntos, negociam metas quantitativas/qualitativas para o ciclo, acompanham periodicamente e realizam autoavaliação final. — Alto engajamento, estímulo à autonomia, foco em entregas futuras e resultados concretos. — Risco de conflito na fixação de metas; exige elevada maturidade gerencial; foco excessivo no quantitativo em detrimento de valores. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Futuro líder".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Profissional confiável". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, escolha Forçada: Blocos de duas ou quatro frases descritivas (positivas/neutras).
->
-> **Gabarito: D**
-
----
-
 ## 3. Remuneração e Planos de Carreira no Setor Público
 
 A remuneração no serviço público subordina-se a rígidos parâmetros constitucionais de legalidade e moralidade:
@@ -262,54 +163,6 @@ flowchart LR
 
 > 📌 **NOTA EXPLICATIVA — SUBSÍDIO CONSTITUCIONAL:**  
 > O subsídio em parcela única (art. 39, § 4º da CF/88) **proíbe gratificações e adicionais de natureza remuneratória**, mas **NÃO impede verbas estritamente indenizatórias** (como diárias de viagem a serviço e ajuda de custo para transporte), visto que verbas indenizatórias apenas ressarcem despesas extraordinárias do agente e não integram a base remuneratória.
-
----
-
-### Teste 454
-**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
-João, servidor público civil estadual ocupante de cargo efetivo, com o objetivo de colaborar com sua irmã Maria, igualmente servidora pública estadual, que sofreu um acidente e estava impossibilitada de se locomover, atuou como seu procurador junto a determinada repartição pública estadual, para tratar de assunto relativo à percepção de remuneração e benefícios assistenciais em favor dela. Pelos fatos narrados, de acordo com a Lei Estadual nº 6.677/94 da Bahia, em matéria de sanção disciplinar, João:
-
-* **A)** não praticou falta funcional, mas está sujeito a ser advertido;
-* **B)** praticou falta funcional e está sujeito à pena de multa;
-* **C)** praticou falta funcional e está sujeito à pena de suspensão;
-* **D)** praticou falta funcional e está sujeito à pena de demissão;
-* **E)** não praticou falta funcional, porque existe autorização legal expressa para tal hipótese.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não praticou falta funcional, mas está sujeito a ser advertido". De acordo com a teoria estudada em *3. Remuneração e Planos de Carreira no Setor Público*, qualquer valor excedente deve ser retido pela aplicação do instituto do abate-teto.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "praticou falta funcional e está sujeito à pena de multa". De acordo com a teoria estudada em *3. Remuneração e Planos de Carreira no Setor Público*, vencimento Básico: Retribuição pecuniária fixada em lei devida ao servidor pelo efetivo exercício de cargo público.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "praticou falta funcional e está sujeito à pena de suspensão". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, oportunidade de Crescimento Contínuo e Segurança: Perspectiva concreta de progressão na carreira, investimento institucional em capacitação e garantia de estabilidade funcional no emprego.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "praticou falta funcional e está sujeito à pena de demissão". De acordo com a teoria estudada em *3. Remuneração e Planos de Carreira no Setor Público*, remuneração: O vencimento do cargo efetivo acrescido das vantagens pecuniárias permanentes estabelecidas em lei (adicionais por tempo de serviço, gratificações de titulação, etc.).
-> - **E)** **Correta.** Conforme fundamentado na seção *1. Gestão e Métodos de Avaliação de Desempenho* deste guia, a avaliação de desempenho é uma apreciação sistemática do comportamento e da entrega funcional do servidor no exercício de suas atribuições. Integra o macroprocesso de Aplicar Pessoas (Chiavenato). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "não praticou falta funcional, porque existe autorização legal expressa para tal hipótese".
->
-> **Gabarito: E**
-
----
-
-### Teste 455
-**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Sem Especialidade)**
-A Qualidade de Vida no Trabalho (QVT) no setor público visa promover um ambiente organizacional saudável, equilibrado e motivador, que valorize o servidor, melhore o desempenho institucional e fortaleça o compromisso com o serviço à sociedade. Assinale a opção que apresenta corretamente um fator-chave da QVT no setor público, relacionado à satisfação de clientes internos e externos.
-
-* **A)** Compensação: associada à inovação, variedade e ritmo de trabalho.
-* **B)** Moral: envolve bonificações, benefícios sociais e participação nos lucros.
-* **C)** Organização do trabalho: relaciona-se à saúde ocupacional e à educação preventiva.
-* **D)** Participação: refere-se à criatividade, à expressão pessoal e aos programas de capacitação.
-* **E)** Comunicação: está ligada ao apoio psicossocial, à orientação técnica e ao gerenciamento pelo exemplo.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Compensação: associada à inovação, variedade e ritmo de trabalho". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, oportunidade de Crescimento Contínuo e Segurança: Perspectiva concreta de progressão na carreira, investimento institucional em capacitação e garantia de estabilidade funcional no emprego.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Moral: envolve bonificações, benefícios sociais e participação nos lucros". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, espaço Total de Vida: Equilíbrio sadio entre a dedicação às atividades profissionais e o tempo reservado ao convívio familiar, lazer, descanso e vida pessoal (prevenção ao esgotamento).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Organização do trabalho: relaciona-se à saúde ocupacional e à educação preventiva". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, condições de Segurança e Saúde no Trabalho: Instalações físicas saudáveis, equipamentos ergonômicos, prevenção de acidentes, ausência de insalubridade e limites saudáveis de jornada laboral.
-> - **D)** **Correta.** Conforme fundamentado na seção *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton* deste guia, constitucionalismo na Organização: Vigência das garantias do Estado de Direito dentro da instituição: respeito à intimidade e privacidade do servidor, liberdade de expressão e direito à ampla defesa e contraditório contra atos punitivos internos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "Participação: refere-se à criatividade, à expressão pessoal e aos programas de capacitação".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Comunicação: está ligada ao apoio psicossocial, à orientação técnica e ao gerenciamento pelo exemplo". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, integração Social na Organização: Clima colaborativo e acolhedor, ausência de discriminações de raça, gênero ou orientação sexual, respeito interpessoal e senso de pertencimento grupal.
->
-> **Gabarito: D**
 
 ---
 
@@ -345,30 +198,6 @@ flowchart TD
 
 ---
 
-### Teste 456
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
-Uma boa qualidade de vida no trabalho (QVT) aumenta a satisfação e o engajamento dos funcionários, contribuindo para a produtividade e retenção de talentos. Os fatores de QVT são elementos que contribuem para o bem-estar dos colaboradores no ambiente profissional. Assinale a opção que apresenta uma dimensão do fator de garantias constitucionais.
-
-* **A)** Equidade interna.
-* **B)** Identidade da tarefa.
-* **C)** Equidade externa.
-* **D)** Relacionamentos interpessoais.
-* **E)** Respeito aos direitos trabalhistas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Equidade interna". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, compensação Justa e Adequada: Remuneração que garanta uma vida digna ao trabalhador e que observe a equidade interna (mesmo valor para atribuições equivalentes) e externa (mercado).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Identidade da tarefa". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, ela significa assegurar os direitos civis do trabalhador dentro dos muros da repartição (privacidade de dados, liberdade de discordância respeitosa, equidade e devido processo em sindicâncias).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Equidade externa". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, o modelo formulado por Richard Walton (1973) é a principal referência doutrinária exigida em provas sobre o bem-estar no ambiente corporativo e público. Walton estruturou a QVT em oito dimensões conceituais.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Relacionamentos interpessoais". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, integração Social na Organização: Clima colaborativo e acolhedor, ausência de discriminações de raça, gênero ou orientação sexual, respeito interpessoal e senso de pertencimento grupal.
-> - **E)** **Correta.** Conforme fundamentado na seção *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton* deste guia, constitucionalismo na Organização: Vigência das garantias do Estado de Direito dentro da instituição: respeito à intimidade e privacidade do servidor, liberdade de expressão e direito à ampla defesa e contraditório contra atos punitivos internos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Respeito aos direitos trabalhistas".
->
-> **Gabarito: E**
-
----
-
 ## 5. Teletrabalho e Trabalho Híbrido no Setor Público
 
 A consolidação do regime de teletrabalho transformou a dinâmica das instituições de controle externo (como os Tribunais de Contas):
@@ -386,78 +215,6 @@ A consolidação do regime de teletrabalho transformou a dinâmica das institui�
     - **Sensação de Isolamento Social e Afastamento Cultural:** Risco de o servidor perder o senso de identidade e comunhão com a missão do órgão;
     - **Segurança da Informação e Sigilo de Processos:** Necessidade de criptografia avançada, redes privadas virtuais (VPN) e certificação digital;
     - **Direito à Desconexão e Síndrome de *Burnout*:** Risco de o servidor trabalhar ininterruptamente no espaço doméstico. A administração pública deve estabelecer políticas rígidas de respeito aos períodos de repouso e desconexão digital fora do expediente pactuado.
-
----
-
-### Teste 457
-**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
-No MPS.BR o nível de maturidade F (Gerenciado) é composto pelos processos do nível de maturidade anterior (G) acrescidos dos processos Aquisição, Garantia da Qualidade, Gerência de Portfólio de Projetos, Medição e
-
-* **A)** Gerência da Conformidade, cujo propósito é assegurar que os produtos de trabalho e a execução dos processos estejam em conformidade com os planos, procedimentos e padrões estabelecidos.
-* **B)** Gerência de Reutilização, cujo propósito é gerenciar o ciclo de vida dos ativos reutilizáveis.
-* **C)** Desenvolvimento de Requisitos, cujo propósito é definir os requisitos do cliente, do produto e dos componentes do produto.
-* **D)** Projeto e Construção do Produto, cujo propósito é projetar, desenvolver e implementar soluções para atender aos requisitos.
-* **E)** Gerência de Configuração, cujo propósito é estabelecer e manter a integridade de todos os produtos de trabalho de um processo ou projeto e disponibilizá-los a todos os envolvidos.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerência da Conformidade, cujo propósito é assegurar que os produtos de trabalho e a execução dos processos...". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, ela significa assegurar os direitos civis do trabalhador dentro dos muros da repartição (privacidade de dados, liberdade de discordância respeitosa, equidade e devido processo em sindicâncias).
-> - **B)** **Correta.** Conforme fundamentado na seção *Comparativo Completo dos Métodos de Avaliação de Desempenho* deste guia, avaliação por Objetivos (APO Participativa): Chefia e servidor sentam juntos, negociam metas quantitativas/qualitativas para o ciclo, acompanham periodicamente e realizam autoavaliação final. — Alto engajamento, estímulo à autonomia, foco em entregas futuras e resultados concretos. — Risco de conflito na fixação de metas; exige elevada maturidade gerencial; foco excessivo no quantitativo em detrimento de valores. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "Gerência de Reutilização, cujo propósito é gerenciar o ciclo de vida dos ativos reutilizáveis".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Desenvolvimento de Requisitos, cujo propósito é definir os requisitos do cliente, do produto e dos componentes do...". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, utilização e Desenvolvimento de Capacidades: Oportunidade dada ao colaborador de exercer autonomia intelectual, aplicar habilidades cognitivas, planejar seu trabalho e obter feedback claro.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Projeto e Construção do Produto, cujo propósito é projetar, desenvolver e implementar soluções para atender aos...". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, oportunidade de Crescimento Contínuo e Segurança: Perspectiva concreta de progressão na carreira, investimento institucional em capacitação e garantia de estabilidade funcional no emprego.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerência de Configuração, cujo propósito é estabelecer e manter a integridade de todos os produtos de trabalho de...". De acordo com a teoria estudada em *5. Teletrabalho e Trabalho Híbrido no Setor Público*, direito à Desconexão e Síndrome de *Burnout*: Risco de o servidor trabalhar ininterruptamente no espaço doméstico. A administração pública deve estabelecer políticas rígidas de respeito aos períodos de repouso e desconexão digital fora do expediente pactuado.
->
-> **Gabarito: B**
-
----
-
-### Teste 458
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
-Alguns indicadores derivados dos modelos de qualidade de vida no trabalho (QVT) influenciam fortemente a satisfação dos colaboradores. Assinale a opção que apresenta o indicador que trata de um agradável ambiente de amizades e camaradagem.
-
-* **A)** Integração social.
-* **B)** Autonomia.
-* **C)** Retroação recebida.
-* **D)** Heteronomia.
-* **E)** Compensação justa e adequada.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton* deste guia, integração Social na Organização: Clima colaborativo e acolhedor, ausência de discriminações de raça, gênero ou orientação sexual, respeito interpessoal e senso de pertencimento grupal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Integração social".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Autonomia". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, utilização e Desenvolvimento de Capacidades: Oportunidade dada ao colaborador de exercer autonomia intelectual, aplicar habilidades cognitivas, planejar seu trabalho e obter feedback claro.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Retroação recebida". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, relevância Social do Trabalho: Percepção e orgulho do servidor de que o trabalho de sua instituição gera valor real, protege o interesse público e contribui para o bem comum da sociedade.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Heteronomia". De acordo com a teoria estudada em *5. Teletrabalho e Trabalho Híbrido no Setor Público*, sensação de Isolamento Social e Afastamento Cultural: Risco de o servidor perder o senso de identidade e comunhão com a missão do órgão.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Compensação justa e adequada". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, compensação Justa e Adequada: Remuneração que garanta uma vida digna ao trabalhador e que observe a equidade interna (mesmo valor para atribuições equivalentes) e externa (mercado).
->
-> **Gabarito: A**
-
----
-
-### Teste 459
-**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
-Ao analisar o ciclo da gestão de desempenho por competências delineado na Resolução TJRR/TP nº 28/2023, João concluiu corretamente que
-
-* **A)** o planejamento anual das qualificações a serem oferecidas pela Escola do Poder Judiciário deverá contemplar o conteúdo dos planos de desenvolvimento individual (PDI).
-* **B)** a gestão de desempenho por competências é realizada em ciclos mensais, composto das seguintes fases: acordo de desempenho, avaliação do desempenho, feedback pós-avaliação; e planos de desenvolvimento.
-* **C)** o feedback poderá ser realizado de forma individual ou por grupo de servidores sob a mesma chefia, sendo vedada a alteração das notas inicialmente atribuídas na avaliação de desempenho.
-* **D)** os planos de desenvolvimento consistem em compromissos firmados entre servidor e chefia imediata quanto aos resultados e comportamentos esperados no período a ser avaliado.
-* **E)** a avaliação de desempenho é a aferição sistemática das competências das pessoas, expressadas pelo conjunto de aptidões e conhecimentos demonstrados no ambiente de trabalho, não podendo ser composta da autoavaliação.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *3. Remuneração e Planos de Carreira no Setor Público* deste guia, obrigatório para membros de Poder, detentores de mandato eletivo, Ministros/Secretários e membros da Magistratura, Ministério Público, Defensoria Pública e carreiras policiais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "o planejamento anual das qualificações a serem oferecidas pela Escola do Poder Judiciário deverá contemplar o...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a gestão de desempenho por competências é realizada em ciclos mensais, composto das seguintes fases: acordo de...". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, a banca frequentemente afirma que o método da Escolha Forçada é o mais indicado quando o objetivo central do órgão é promover sessões ricas de *feedback* individual entre o chefe e o subordinado.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o feedback poderá ser realizado de forma individual ou por grupo de servidores sob a mesma chefia, sendo vedada a...". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, pesquisa de Campo: Um analista técnico de Gestão de Pessoas vai até cada setor e entrevista o chefe imediato para avaliar conjuntamente cada colaborador. — Alta padronização, profundo rigor técnico, orienta a chefia sobre planos de melhoria. — Método de altíssimo custo, extrema lentidão e inviável para quadros muito volumosos.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os planos de desenvolvimento consistem em compromissos firmados entre servidor e chefia imediata quanto aos...". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, avaliação por Objetivos (APO Participativa): Chefia e servidor sentam juntos, negociam metas quantitativas/qualitativas para o ciclo, acompanham periodicamente e realizam autoavaliação final. — Alto engajamento, estímulo à autonomia, foco em entregas futuras e resultados concretos. — Risco de conflito na fixação de metas; exige elevada maturidade gerencial; foco excessivo no quantitativo em detrimento de valores.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a avaliação de desempenho é a aferição sistemática das competências das pessoas, expressadas pelo conjunto de...". De acordo com a teoria estudada em *1. Gestão e Métodos de Avaliação de Desempenho*, a avaliação de desempenho é uma apreciação sistemática do comportamento e da entrega funcional do servidor no exercício de suas atribuições. Integra o macroprocesso de Aplicar Pessoas (Chiavenato).
->
-> **Gabarito: A**
 
 ---
 

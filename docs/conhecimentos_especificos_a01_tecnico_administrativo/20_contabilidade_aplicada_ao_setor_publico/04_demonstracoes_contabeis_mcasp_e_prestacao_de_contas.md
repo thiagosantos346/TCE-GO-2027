@@ -4,10 +4,7 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `04_demonstracoes_contabeis_mcasp_e_prestacao_de_contas.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 
@@ -89,53 +86,31 @@ $$\text{Resultado Orçamentário} = \text{Receitas Realizadas} - \text{Despesas 
 
 ---
 
-### Teste 290
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Direito)**
-O Balanço Orçamentário de uma entidade do setor público é composto por três quadros. O quadro principal irá apresentar
+### Teste 001
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+Um cidadão solicitou um pedido de acesso à informação para verificar a adequação da Dívida Consolidada Líquida (DCL) do município em que reside. Sua solicitação decorre de um conjunto de matérias jornalísticas indicando que o referido ente teria comprometido cerca de 250% da Receita Corrente Líquida (RCL) com tais rubricas. Na resposta ao cidadão, a prefeitura indicou corretamente que a informação demandada está disponível para consulta pública no portal da transparência por meio do:
 
-* **A)** o confronto entre as receitas e as despesas, de acordo com os valores brutos.
-* **B)** os restos a pagar não processados inscritos até o exercício anterior e suas respectivas fases de execução.
-* **C)** as receitas e despesas previstas em confronto com as realizadas, apresentadas conforme a classificação por natureza.
-* **D)** a utilização do superávit financeiro e da reabertura de créditos especiais e extraordinários e as suas influências no resultado orçamentário.
-* **E)** os restos a pagar processados inscritos até o exercício anterior nas respectivas fases de execução e os restos a pagar inscritos na condição de não processados que tenham sido liquidados em exercício anterior.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o confronto entre as receitas e as despesas, de acordo com os valores brutos". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, quadro Principal: Desagrega receitas e despesas por categorias econômicas (Correntes e de Capital), origens e grupos de natureza da despesa (GND).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os restos a pagar não processados inscritos até o exercício anterior e suas respectivas fases de execução". De acordo com a teoria estudada em *2.1 Estrutura de Ingressos e Dispêndios*, o Balanço Financeiro (BF) demonstra as receitas e despesas orçamentárias bem como os recebimentos e os pagamentos de natureza extraorçamentária, conjugados com os saldos em espécie provenientes do exercício anterior e os que se transferem para o exercício seguinte (art. 103 da Lei nº 4.320/1964).
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Estrutura e Quadros Demonstrativos* deste guia, o Balanço Orçamentário (BO) demonstra as receitas e despesas previstas em confronto com as realizadas, consoante determina o art. 102 da Lei Federal nº 4.320/1964 e a Parte V do Manual de Contabilidade Aplicada ao Setor Público (MCASP). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "as receitas e despesas previstas em confronto com as realizadas, apresentadas conforme a classificação por natureza".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a utilização do superávit financeiro e da reabertura de créditos especiais e extraordinários e as suas influências...". De acordo com a teoria estudada em *1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)*, $$\text{Resultado Orçamentário} = \text{Receitas Realizadas} - \text{Despesas Executadas (Empenhadas)}$$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os restos a pagar processados inscritos até o exercício anterior nas respectivas fases de execução e os restos a...". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, quadros de Restos a Pagar: Evidenciam a execução dos passivos orçamentários transferidos de exercícios anteriores, separando os processados dos não processados.
->
-> **Gabarito: C**
-
----
-
-### Teste 291
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
-Leia o texto a seguir: A Lei no 4.320, de 1964, traz normas para elaboração dos orçamentos e balanços do setor público em seus três níveis. De acordo com esse dispositivo, é possível identificarmos despesas que foram empenhadas pelo ente público, mas que não serão pagas até o dia 31 de dezembro do ano corrente, assim como também há a possibilidade de autorizações de despesas não computadas ou insuficientemente dotadas na Lei de Orçamento. O texto trata, respectivamente, dos conceitos de
-
-* **A)** Despesas de Exercícios Anteriores (DEA) e Restos a Pagar.
-* **B)** Restos a Pagar e Créditos Adicionais.
-* **C)** Despesas Liquidadas e Créditos Adicionais.
-* **D)** Despesas Empenadas e Restos a Pagar.
-* **E)** Restos a Pagar e Despesas Extraordinárias.
+* **A)** balanço patrimonial;
+* **B)** balanço orçamentário;
+* **C)** balanço financeiro;
+* **D)** relatório de gestão fiscal;
+* **E)** relatório resumido de execução orçamentária.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Despesas de Exercícios Anteriores (DEA) e Restos a Pagar". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, quadros de Restos a Pagar: Evidenciam a execução dos passivos orçamentários transferidos de exercícios anteriores, separando os processados dos não processados.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)* deste guia, $$\mathbf{\text{Superávit Financeiro}} = AF - PF - \text{Créditos Adicionais Reabertos} - \text{Disponibilidades Vinculadas}$$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Restos a Pagar e Créditos Adicionais".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Despesas Liquidadas e Créditos Adicionais". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, o Balanço Orçamentário (BO) demonstra as receitas e despesas previstas em confronto com as realizadas, consoante determina o art. 102 da Lei Federal nº 4.320/1964 e a Parte V do Manual de Contabilidade Aplicada ao Setor Público (MCASP).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Despesas Empenadas e Restos a Pagar". De acordo com a teoria estudada em *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar*, como a despesa orçamentária é registrada na coluna de dispêndios pelo valor empenhado total, a parcela que não foi paga até 31 de dezembro (inscrita em Restos a Pagar) deve figurar nos ingressos extraorçamentários como artifício contábil compensatório para fechar o balanço financeiro do ano.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Restos a Pagar e Despesas Extraordinárias". De acordo com a teoria estudada em *3.2 Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)*, o Superávit Financeiro é a principal fonte legal para abertura de créditos suplementares e especiais autorizada pelo art. 43 da Lei Federal nº 4.320/1964. Ele é apurado exclusivamente no Balanço Patrimonial do exercício anterior.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "balanço patrimonial". De acordo com a teoria estudada em *5.2 Composição Documental Obrigatória e Papel do Controle Interno*, relatório e Certificado de Auditoria emitidos pelo Órgão Central do Sistema de Controle Interno estadual, com parecer conclusivo sobre a regularidade da gestão examinada.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "balanço orçamentário". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, o Balanço Orçamentário (BO) demonstra as receitas e despesas previstas em confronto com as realizadas, consoante determina o art. 102 da Lei Federal nº 4.320/1964 e a Parte V do Manual de Contabilidade Aplicada ao Setor Público (MCASP). É composto por três quadros integrados.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "balanço financeiro". De acordo com a teoria estudada em *1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)*, a banca frequentemente afirma que o Resultado Orçamentário apurado no BO serve de fonte para a abertura de créditos suplementares. FALSO! O superávit orçamentário é um fluxo anual de execução. A fonte legal autorizada pelo art. 43, § 1º, I da Lei nº 4.320/1964 é o Superávit Financeiro apurado no Balanço Patrimonial!.
+> - **D)** **Correta.** Conforme fundamentado na seção *5.2 Composição Documental Obrigatória e Papel do Controle Interno* deste guia, os relatórios fiscais previstos na LRF: Relatório Resumido da Execução Orçamentária (RREO) e Relatório de Gestão Fiscal (RGF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "relatório de gestão fiscal".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "relatório resumido de execução orçamentária". De acordo com a teoria estudada em *5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)*, consubstanciam o balanço geral anual do Estado e a prestação macroeconômica da execução orçamentária e financeira.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
+
+
 
 ## 2. Balanço Financeiro (BF - Art. 103 da Lei nº 4.320/1964)
 
@@ -177,54 +152,6 @@ A diferença entre o somatório das entradas e das saídas é exatamente equilib
 
 ---
 
-### Teste 292
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
-O Demonstrativo da Disponibilidade de Caixa e dos Restos a Pagar é parte integrante do Relatório de Gestão Fiscal. Em relação a este demonstrativo, analise as contas a seguir. I. Caixa II. Bancos III. Aplicações Financeiras de Liquidez Imediata IV. Obrigações Financeiras V. Restos a pagar A disponibilidade de caixa bruta é composta pelo somatório dos seguintes itens, relativos ao saldo total, em 31 de dezembro do exercício de referência:
-
-* **A)** I e II, somente.
-* **B)** I e III, somente.
-* **C)** I, II e III, somente.
-* **D)** I, II, III e IV, somente.
-* **E)** I, II, III, IV e V. Realização
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, somente". De acordo com a teoria estudada em *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar*, como a despesa orçamentária é registrada na coluna de dispêndios pelo valor empenhado total, a parcela que não foi paga até 31 de dezembro (inscrita em Restos a Pagar) deve figurar nos ingressos extraorçamentários como artifício contábil compensatório para fechar o balanço financeiro do ano.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, somente". De acordo com a teoria estudada em *5.2 Composição Documental Obrigatória e Papel do Controle Interno*, os relatórios fiscais previstos na LRF: Relatório Resumido da Execução Orçamentária (RREO) e Relatório de Gestão Fiscal (RGF).
-> - **C)** **Correta.** Conforme fundamentado na seção *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar* deste guia, a diferença entre o somatório das entradas e das saídas é exatamente equilibrada pelo saldo de disponibilidades financeiras transportado para o exercício seguinte. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I, II e III, somente".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, II, III e IV, somente". De acordo com a teoria estudada em *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar*, $$\mathbf{\text{Total dos Ingressos} = \text{Total dos Dispêndios}}$$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II, III, IV e V. Realização". De acordo com a teoria estudada em *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar*, igualdade Matemática Rigorosa: No Balanço Financeiro, não existe resultado de superávit ou déficit na última linha! Ele sempre fecha em perfeita igualdade.
->
-> **Gabarito: C**
-
----
-
-### Teste 293
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Contabilidade)**
-Leia o fragmento a seguir. O Demonstrativo da Disponibilidade de Caixa e dos Restos a Pagar é parte integrante do Relatório de Gestão Fiscal e visa a dar transparência ao equilíbrio entre _____ e a disponibilidade de caixa, bem como ao equilíbrio entre a inscrição em Restos a Pagar Não Processados e ______. Assinale a opção que completa corretamente as lacunas do fragmento acima, de acordo com o Manual de Demonstrativos Fiscais (MDF).
-
-* **A)** o resultado obtido – a disponibilidade de caixa
-* **B)** o resultado obtido – o resultado esperado.
-* **C)** a geração de obrigações de despesa – a disponibilidade de caixa
-* **D)** a geração de obrigações de despesa – em restos a pagar processados.
-* **E)** a geração de origens de receitas – em restos a pagar processados. Realização
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o resultado obtido – a disponibilidade de caixa". De acordo com a teoria estudada em *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar*, igualdade Matemática Rigorosa: No Balanço Financeiro, não existe resultado de superávit ou déficit na última linha! Ele sempre fecha em perfeita igualdade.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o resultado obtido – o resultado esperado". De acordo com a teoria estudada em *5.2 Composição Documental Obrigatória e Papel do Controle Interno*, os relatórios fiscais previstos na LRF: Relatório Resumido da Execução Orçamentária (RREO) e Relatório de Gestão Fiscal (RGF).
-> - **C)** **Correta.** Conforme fundamentado na seção *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar* deste guia, como a despesa orçamentária é registrada na coluna de dispêndios pelo valor empenhado total, a parcela que não foi paga até 31 de dezembro (inscrita em Restos a Pagar) deve figurar nos ingressos extraorçamentários como artifício contábil compensatório para fechar o balanço financeiro do ano. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "a geração de obrigações de despesa – a disponibilidade de caixa".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a geração de obrigações de despesa – em restos a pagar processados". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, quadros de Restos a Pagar: Evidenciam a execução dos passivos orçamentários transferidos de exercícios anteriores, separando os processados dos não processados.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a geração de origens de receitas – em restos a pagar processados. Realização". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, quadro Principal: Desagrega receitas e despesas por categorias econômicas (Correntes e de Capital), origens e grupos de natureza da despesa (GND).
->
-> **Gabarito: C**
-
----
-
 ## 3. Balanço Patrimonial (BP - Art. 105 da Lei nº 4.320/1964 e NBC TSP 11)
 
 ### 3.1 Estrutura Dual: Lei nº 4.320/1964 vs. Normas Internacionais (NBC TSP)
@@ -261,30 +188,6 @@ flowchart LR
 
 ---
 
-### Teste 294
-**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
-Em 2024, uma sociedade empresária programou um treinamento para a sua equipe com o intuito de implementar as normas de sustentabilidade em sua estrutura. Em 2024 foram realizados treinamentos no valor de R$ 50.000, cujo pagamento estava previsto para 31/01/2025. Além disso, foram programados novos treinamentos a serem oferecidos em 2025, que custarão R$ 80.000. Assinale a opção que indica o saldo na conta “Provisão para Treinamento” no balanço patrimonial da sociedade empresária em 31/12/2024.
-
-* **A)** Zero.
-* **B)** R$ 30.000.
-* **C)** R$ 50.000.
-* **D)** R$ 80.000.
-* **E)** R$ 130.000.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Estrutura Dual: Lei nº 4.320/1964 vs. Normas Internacionais (NBC TSP)* deste guia, o Balanço Patrimonial convive com duas estruturas conceituais distintas e complementares. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "Zero".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 30.000". De acordo com a teoria estudada em *3.2 Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)*, o Superávit Financeiro é a principal fonte legal para abertura de créditos suplementares e especiais autorizada pelo art. 43 da Lei Federal nº 4.320/1964. Ele é apurado exclusivamente no Balanço Patrimonial do exercício anterior.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 50.000". De acordo com a teoria estudada em *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar*, como a despesa orçamentária é registrada na coluna de dispêndios pelo valor empenhado total, a parcela que não foi paga até 31 de dezembro (inscrita em Restos a Pagar) deve figurar nos ingressos extraorçamentários como artifício contábil compensatório para fechar o balanço financeiro do ano.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 80.000". De acordo com a teoria estudada em *4.1 Estrutura da DVP e Resultado Patrimonial por Competência*, a Demonstração das Variações Patrimoniais (DVP) evidencia as alterações verificadas no patrimônio público resultantes ou independentes da execução orçamentária, aplicando rigorosamente o regime de competência pura.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 130.000". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, o Balanço Orçamentário (BO) demonstra as receitas e despesas previstas em confronto com as realizadas, consoante determina o art. 102 da Lei Federal nº 4.320/1964 e a Parte V do Manual de Contabilidade Aplicada ao Setor Público (MCASP).
->
-> **Gabarito: A**
-
----
-
 ## 4. Demonstração das Variações Patrimoniais (DVP) e Outras Demonstrações
 
 ### 4.1 Estrutura da DVP e Resultado Patrimonial por Competência
@@ -318,54 +221,6 @@ flowchart TD
 
 ---
 
-### Teste 295
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
-Uma entidade do setor público elaborou a sua Demonstração das Variações Patrimoniais. Nela, estavam apresentadas todas as variações patrimoniais aumentativas e diminutivas do período, em conformidade às normas contábeis. No entanto, na determinação das políticas contábeis com impacto nas variações patrimoniais aumentativas, optou-se por utilizar políticas contábeis que resultassem em maior valor, com o intuito de apresentar um superávit alto e, como consequência, uma melhor avaliação da administração da entidade. Em relação à aplicação da característica qualitativa da representação fidedigna, é correto afirmar que a informação
-
-* **A)** é fidedigna, uma vez que é completa.
-* **B)** é fidedigna, uma vez que é livre de erros.
-* **C)** é fidedigna, uma vez que é completa e livre de erros.
-* **D)** não é fidedigna, uma vez que não é neutra, apesar de completa.
-* **E)** não é fidedigna, uma vez que não é neutra, completa e nem livre de erros.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é fidedigna, uma vez que é completa". De acordo com a teoria estudada em *4.1 Estrutura da DVP e Resultado Patrimonial por Competência*, a Demonstração das Variações Patrimoniais (DVP) evidencia as alterações verificadas no patrimônio público resultantes ou independentes da execução orçamentária, aplicando rigorosamente o regime de competência pura.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é fidedigna, uma vez que é livre de erros". De acordo com a teoria estudada em *4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas*, dMPL (NBC TSP 11): Evidencia a movimentação de todas as contas integrantes do Patrimônio Líquido durante o exercício (Patrimônio Social, Reservas de Capital, Ajustes de Avaliação Patrimonial e Resultados Acumulados de exercícios anteriores).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é fidedigna, uma vez que é completa e livre de erros". De acordo com a teoria estudada em *4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto*, normatizada pela NBC TSP 12 e pelo MCASP, a DFC no setor público deve ser elaborada compulsoriamente pelo Método Direto para os fluxos das atividades operacionais.
-> - **D)** **Correta.** Conforme fundamentado na seção *4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas* deste guia, notas Explicativas: Peça textual analítica obrigatória e indissociável de todas as DCASP, fornecendo detalhes sobre as premissas e políticas contábeis adotadas, contingências judiciais e critérios de mensuração e depreciação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "não é fidedigna, uma vez que não é neutra, apesar de completa".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é fidedigna, uma vez que não é neutra, completa e nem livre de erros". De acordo com a teoria estudada em *5.2 Composição Documental Obrigatória e Papel do Controle Interno*, o conjunto completo das Demonstrações Contábeis Aplicadas ao Setor Público (DCASP) acompanhadas das respectivas Notas Explicativas.
->
-> **Gabarito: D**
-
----
-
-### Teste 296
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Contábeis)**
-Em novembro de 2025, a Cia X detectou erro de escrituração no estoque, ocorrido no primeiro semestre do ano. O procedimento inadequado foi realizado intencionalmente para produzir um resultado melhor no ano. Como o erro foi considerado imaterial, a administração não pretende efetuar correção. O procedimento é considerado tecnicamente
-
-* **A)** correto, uma vez que apenas erros materiais precisam ser corrigidos.
-* **B)** correto, uma vez que não houve exigência de correção pela auditoria externa.
-* **C)** correto, uma vez que será necessário corrigir a escrituração apenas a partir do ano seguinte.
-* **D)** incorreto, uma vez que a administração não pode tomar decisões sem consultar o Conselho de Administração.
-* **E)** incorreto, uma vez que o erro deve ser corrigido antes de as demonstrações contábeis serem autorizadas para publicação.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "correto, uma vez que apenas erros materiais precisam ser corrigidos". De acordo com a teoria estudada em *5.2 Composição Documental Obrigatória e Papel do Controle Interno*, o conjunto completo das Demonstrações Contábeis Aplicadas ao Setor Público (DCASP) acompanhadas das respectivas Notas Explicativas.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correto, uma vez que não houve exigência de correção pela auditoria externa". De acordo com a teoria estudada em *4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas*, notas Explicativas: Peça textual analítica obrigatória e indissociável de todas as DCASP, fornecendo detalhes sobre as premissas e políticas contábeis adotadas, contingências judiciais e critérios de mensuração e depreciação.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "correto, uma vez que será necessário corrigir a escrituração apenas a partir do ano seguinte". De acordo com a teoria estudada em *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar*, como a despesa orçamentária é registrada na coluna de dispêndios pelo valor empenhado total, a parcela que não foi paga até 31 de dezembro (inscrita em Restos a Pagar) deve figurar nos ingressos extraorçamentários como artifício contábil compensatório para fechar o balanço financeiro do ano.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "incorreto, uma vez que a administração não pode tomar decisões sem consultar o Conselho de Administração". De acordo com a teoria estudada em *5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)*, o Tribunal de Contas julga diretamente e em definitivo a regularidade dessas contas, proferindo acórdão que pode imputar débito ou aplicar multas com eficácia de título executivo extrajudicial (art. 71, § 3º da CF/88).
-> - **E)** **Correta.** Conforme fundamentado na seção *4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto* deste guia, normatizada pela NBC TSP 12 e pelo MCASP, a DFC no setor público deve ser elaborada compulsoriamente pelo Método Direto para os fluxos das atividades operacionais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "incorreto, uma vez que o erro deve ser corrigido antes de as demonstrações contábeis serem autorizadas para...".
->
-> **Gabarito: E**
-
----
-
 ## 5. Prestação de Contas ao Tribunal de Contas (TCE-GO)
 
 No Estado de Goiás e nos termos dos arts. 70 e 71 da CF/88 c/c a Lei Orgânica do TCE-GO (Lei Complementar Estadual nº 161/2020), o controle externo exercido pelo Tribunal de Contas opera sob dois ritos processuais com naturezas jurídicas inteiramente distintas:
@@ -396,78 +251,6 @@ Os processos de prestação de contas enviados anualmente ao TCE-GO devem conter
 - Os relatórios fiscais previstos na LRF: Relatório Resumido da Execução Orçamentária (RREO) e Relatório de Gestão Fiscal (RGF);
 - Demonstrativo do cumprimento dos limites constitucionais mínimos de aplicação em **Saúde (12% para os Estados)** e em **Educação (25%)**;
 - **Relatório e Certificado de Auditoria emitidos pelo Órgão Central do Sistema de Controle Interno estadual**, com parecer conclusivo sobre a regularidade da gestão examinada.
-
----
-
-### Teste 297
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Contábeis)**
-A administração pública e uma organização da sociedade civil realizaram uma parceria em regime de mútua cooperação para a consecução de finalidades de interesse público e recíproco, mediante a execução de atividades ou de projetos previamente estabelecidos em planos de trabalho inseridos em termos de colaboração, conforme a Lei nº 13.019/2014. A organização da sociedade civil apresentou a sua prestação de contas com elementos que permitiram ao gestor da parceria avaliar o seu andamento. Os dados financeiros foram analisados com o intuito principal de
-
-* **A)** verificar o grau de produtividade.
-* **B)** detectar possíveis casos de fraudes ou erros.
-* **C)** avaliar a variação dos elementos patrimoniais.
-* **D)** estabelecer o nexo de causalidade entre a receita e a despesa realizada.
-* **E)** comparar as remunerações oferecidas com aquelas praticadas pelo mercado.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "verificar o grau de produtividade". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, quadro Principal: Desagrega receitas e despesas por categorias econômicas (Correntes e de Capital), origens e grupos de natureza da despesa (GND).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "detectar possíveis casos de fraudes ou erros". De acordo com a teoria estudada em *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar*, como a despesa orçamentária é registrada na coluna de dispêndios pelo valor empenhado total, a parcela que não foi paga até 31 de dezembro (inscrita em Restos a Pagar) deve figurar nos ingressos extraorçamentários como artifício contábil compensatório para fechar o balanço financeiro do ano.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "avaliar a variação dos elementos patrimoniais". De acordo com a teoria estudada em *4.1 Estrutura da DVP e Resultado Patrimonial por Competência*, a Demonstração das Variações Patrimoniais (DVP) evidencia as alterações verificadas no patrimônio público resultantes ou independentes da execução orçamentária, aplicando rigorosamente o regime de competência pura.
-> - **D)** **Correta.** Conforme fundamentado na seção *5. Prestação de Contas ao Tribunal de Contas (TCE-GO)* deste guia, no Estado de Goiás e nos termos dos arts. 70 e 71 da CF/88 c/c a Lei Orgânica do TCE-GO (Lei Complementar Estadual nº 161/2020), o controle externo exercido pelo Tribunal de Contas opera sob dois ritos processuais com naturezas jurídicas inteiramente distintas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "estabelecer o nexo de causalidade entre a receita e a despesa realizada".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "comparar as remunerações oferecidas com aquelas praticadas pelo mercado". De acordo com a teoria estudada em *5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)*, consubstanciam o balanço geral anual do Estado e a prestação macroeconômica da execução orçamentária e financeira.
->
-> **Gabarito: D**
-
----
-
-### Teste 298
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Ciências Atuariais)**
-Assinale a alternativa que apresenta uma orientação da NBASP 200 – Princípios de Auditoria Financeira, aplicável a um trabalho dessa natureza realizado pelo TCE-AP em um órgão da administração pública estadual.
-
-* **A)** Terá por objeto os dados contábeis e financeiros relacionados a uma entidade, bem como os programas, sistemas e processos governamentais.
-* **B)** O “usuário” das demonstrações contábeis no setor público é primariamente Tribunal de Contas e o Governador do Estado.
-* **C)** A auditoria financeira será um trabalho de asseguração razoável, que é um alto nível de asseguração.
-* **D)** Caso a equipe realize um trabalho de asseguração limitada, esse trabalho também será abrangido pelas NBASP atuais que tratam da auditoria financeira.
-* **E)** O auditor é responsável pela elaboração da informação do objeto e pela implementação das transações contábeis subjacentes.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Terá por objeto os dados contábeis e financeiros relacionados a uma entidade, bem como os programas, sistemas e...". De acordo com a teoria estudada em *5.2 Composição Documental Obrigatória e Papel do Controle Interno*, os processos de prestação de contas enviados anualmente ao TCE-GO devem conter obrigatoriamente.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O “usuário” das demonstrações contábeis no setor público é primariamente Tribunal de Contas e o Governador do...". De acordo com a teoria estudada em *5.2 Composição Documental Obrigatória e Papel do Controle Interno*, o conjunto completo das Demonstrações Contábeis Aplicadas ao Setor Público (DCASP) acompanhadas das respectivas Notas Explicativas.
-> - **C)** **Correta.** Conforme fundamentado na seção *5.2 Composição Documental Obrigatória e Papel do Controle Interno* deste guia, relatório e Certificado de Auditoria emitidos pelo Órgão Central do Sistema de Controle Interno estadual, com parecer conclusivo sobre a regularidade da gestão examinada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "A auditoria financeira será um trabalho de asseguração razoável, que é um alto nível de asseguração".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Caso a equipe realize um trabalho de asseguração limitada, esse trabalho também será abrangido pelas NBASP atuais...". De acordo com a teoria estudada em *5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)*, consubstanciam o balanço geral anual do Estado e a prestação macroeconômica da execução orçamentária e financeira.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O auditor é responsável pela elaboração da informação do objeto e pela implementação das transações contábeis...". De acordo com a teoria estudada em *5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)*, referem-se aos atos de gestão patrimonial, orçamentária e financeira praticados individualmente pelos secretários de Estado, dirigentes de autarquias, fundações e fundos especiais.
->
-> **Gabarito: C**
-
----
-
-### Teste 299
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-Um analista deseja calcular o indicador de imobilização do patrimônio líquido de uma empresa em 31/12/2023. O analista recebeu as demonstrações contábeis completas de 31/12/2022 e apenas as notas explicativas de 2023. Dentre as informações divulgadas pela empresa em 2023, para tentar se aproximar dos valores utilizados para obtenção do indicador, será útil
-
-* **A)** a origem dos ativos imobilizados adquiridos.
-* **B)** o modo de pagamento das aquisições do ativo imobilizado.
-* **C)** o valor contábil bruto do ativo imobilizado e a depreciação acumulada no início e no final do período.
-* **D)** o valor dos compromissos contratuais advindos da aquisição de ativos imobilizados.
-* **E)** o valor das indenizações de terceiros por itens do ativo imobilizado que tenham sido desvalorizados, perdidos ou abandonados, incluído no resultado. Realização T C E RIBUNAL DE ONTAS DO STADO G DE OIÁS CONCURSO PÚBLICO – EDITAL 01/2024 TARDE ANALISTA DE CONTROLE EXTERNO CIENCIAS CONTABEIS NÍVEL SUPERIOR TIPO 1 – BRANCA SUA PROVA INFORMAÇÕES GERAIS • Além deste caderno contendo 2 (duas) • Verifique se seu caderno de questões está completo, discursivas você receberá do fiscal de sala a folha sem repetição de questões ou falhas. Caso contrário, de texto definitivo; notifique imediatamente o fiscal da sala, para que • As questões discursivas deverão ser redigidas em sejam tomadas as devidas providências; até 20 (vinte) linhas. • Confira seus dados pessoais, especialmente nome, número de inscrição e documento de identidade e leia atentamente as instruções para preencher a folha de • texto definitivo; TEMPO • Para o preenchimento das folhas de textos definitivos, use somente caneta esferográfica, fabricada em • Você dispõe de 2 (duas) horas para a realização material transparente, com tinta preta ou azul; da prova, já incluído o tempo para o preenchimento • Assine seu nome apenas nos espaços reservados nas das folhas de textos definitivos; folhas de textos definitivos; • 1 (uma) hora após o início da prova, é possível retirar-se da sala, sem levar o caderno de questões; • Confira seu cargo, cor e tipo do caderno de questões. Caso tenha recebido caderno de cargo ou cor ou tipo • A partir dos 30 (trinta) minutos anteriores ao diferente do impresso em suas folhas de textos término da prova é possível retirar-se da sala definitivos, o fiscal de sala deve ser obrigatoriamente levando o caderno de questões. informado para o devido registro na ata da sala; • Reserve tempo suficiente para o preenchimento das suas folhas de textos definitivos. O preenchimento é de sua responsabilidade e não será permitida a troca das folhas de textos definitivos em caso de erro NÃO SERÁ PERMITIDO cometido pelo candidato; • Para fins de avaliação, serão levadas em consideração • Qualquer tipo de comunicação entre os candidatos apenas as marcações realizadas nas folhas de textos durante a aplicação da prova; definitivos; • Anotar informações relativas às respostas em • A FGV coletará as impressões digitais dos candidatos qualquer outro meio que não seja o caderno de na lista de presença; questões; • Levantar da cadeira sem autorização do fiscal de • Os candidatos serão submetidos ao sistema de sala; detecção de metais quando do ingresso e da saída de sanitários durante a realização das provas. • Usar o sanitário ao término da prova, após deixar a sala. • Boa prova! Ciências Contábeis - Discursiva
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a origem dos ativos imobilizados adquiridos". De acordo com a teoria estudada em *4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto*, fluxos das Atividades de Investimento: Desembolsos para aquisição de bens do ativo imobilizado (obras, prédios, viaturas) e entradas decorrentes da alienação de ativos públicos.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o modo de pagamento das aquisições do ativo imobilizado". De acordo com a teoria estudada em *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar*, como a despesa orçamentária é registrada na coluna de dispêndios pelo valor empenhado total, a parcela que não foi paga até 31 de dezembro (inscrita em Restos a Pagar) deve figurar nos ingressos extraorçamentários como artifício contábil compensatório para fechar o balanço financeiro do ano.
-> - **C)** **Correta.** Conforme fundamentado na seção *4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas* deste guia, notas Explicativas: Peça textual analítica obrigatória e indissociável de todas as DCASP, fornecendo detalhes sobre as premissas e políticas contábeis adotadas, contingências judiciais e critérios de mensuração e depreciação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "o valor contábil bruto do ativo imobilizado e a depreciação acumulada no início e no final do período".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o valor dos compromissos contratuais advindos da aquisição de ativos imobilizados". De acordo com a teoria estudada em *5.2 Composição Documental Obrigatória e Papel do Controle Interno*, o conjunto completo das Demonstrações Contábeis Aplicadas ao Setor Público (DCASP) acompanhadas das respectivas Notas Explicativas.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "o valor das indenizações de terceiros por itens do ativo imobilizado que tenham sido desvalorizados, perdidos ou...". De acordo com a teoria estudada em *4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas*, dMPL (NBC TSP 11): Evidencia a movimentação de todas as contas integrantes do Patrimônio Líquido durante o exercício (Patrimônio Social, Reservas de Capital, Ajustes de Avaliação Patrimonial e Resultados Acumulados de exercícios anteriores).
->
-> **Gabarito: C**
 
 ---
 

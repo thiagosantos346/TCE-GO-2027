@@ -5,10 +5,7 @@
 > **Arquivo:** `01_conjuntos_numericos_fracoes_e_aritmetica.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Números inteiros e racionais: operações (adição, subtração, multiplicação, divisão, potenciação).
@@ -110,53 +107,400 @@ Propriedades críticas da divisão inteira:
 
 ---
 
-### Teste 072
-**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-São vários os tipos de dados numéricos no PostgreSQL. O tipo
+### Teste 001
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Seguranca Da Informacao)**
+A equipe de gestão de riscos de um órgão público está atualizando seu Plano de Gestão de Riscos (PGR). Na atual fase de trabalho, a equipe está executando o processo de avaliação de riscos das atividades constantes do escopo do PGR, descrevendo, analisando e avaliando os riscos identificados. Durante a identificação dos riscos, a equipe deve considerar o fator:
 
-* **A)** smallint tem tamanho de armazenamento de 1 byte, que permite armazenar a faixa de valores inteiros de −128 a 127.
-* **B)** bigint é a escolha usual para números inteiros, pois oferece o melhor equilíbrio entre faixa de valores, tamanho de armazenamento e desempenho.
-* **C)** integer tem tamanho de armazenamento de 4 bytes e pode armazenar valores na faixa de −32768 a 32767.
-* **D)** numeric pode armazenar números com precisão variável de, no máximo, 100 dígitos.
-* **E)** serial é um tipo conveniente para definir colunas identificadoras únicas, semelhante à propriedade auto incremento.
+* **A)** mudanças nos contextos externo e interno do órgão;
+* **B)** natureza e magnitude das consequências;
+* **C)** probabilidade de eventos e consequências;
+* **D)** opções existentes para tratamento de riscos;
+* **E)** recursos requeridos, incluindo contingências.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "smallint tem tamanho de armazenamento de 1 byte, que permite armazenar a faixa de valores inteiros de −128 a 127". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, *Adição de Inteiros com Sinais Opostos:* Conserva-se o sinal do termo de maior valor absoluto (módulo) e subtraem-se os valores: $(-15) + (+9) = -(15 - 9) = -6$.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "bigint é a escolha usual para números inteiros, pois oferece o melhor equilíbrio entre faixa de valores, tamanho...". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, $$\text{Fração Geratriz} = \frac{(\text{Antiperíodo seguido do Período}) - (\text{Antiperíodo})}{(\text{tantos 9 quantos forem os dígitos do período}) \times 10^{(\text{dígitos do antiperíodo})}}$$.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "integer tem tamanho de armazenamento de 4 bytes e pode armazenar valores na faixa de −32768 a 32767". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, palavras-chave: "Quando voltarão a se encontrar?", "periodicidade", "ciclos", "simultaneamente" — "Maior tamanho possível", "sem sobras", "dividir igualmente", "menor número de caixas".
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas* deste guia, $$0,75 = \frac{75}{100} = \frac{3}{4} \quad (4 = 2^2); \qquad 0,35 = \frac{35}{100} = \frac{7}{20} \quad (20 = 2^2 \times 5)$$. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "numeric pode armazenar números com precisão variável de, no máximo, 100 dígitos".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "serial é um tipo conveniente para definir colunas identificadoras únicas, semelhante à propriedade auto incremento". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, todo número racional pode ser transcrito sob representação decimal, dividindo-se o numerador pelo denominador, resultando em apenas duas possibilidades formais.
+> - **A)** **Correta.** Conforme fundamentado na seção *5.2 Problemas de Trabalho Conjunto e Torneiras* deste guia, quando dois agentes executam uma mesma tarefa de forma cooperativa em ritmos constantes, somam se as suas taxas unitárias horárias de produtividade. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "mudanças nos contextos externo e interno do órgão".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "natureza e magnitude das consequências". De acordo com a teoria estudada em *5.2 Problemas de Trabalho Conjunto e Torneiras*, atenção à Conversão de Tempo: Se o resultado da divisão em horas for decimal, como $2,4\text{ horas}$, a parte inteira corresponde a $2\text{ horas}$ e a parte decimal $0,4$ deve ser multiplicada por $60\text{ minutos}$ ($0,4 \times 60 = 24\text{ minutos}$). Logo, $2,4\text{ h} = 2\text{ horas e } 24\text{ minutos}$ (e nunca 2h40min!).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "probabilidade de eventos e consequências". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, o problema exige MMC sempre que veicular ideias de coincidência temporal futura, reencontro de eventos periódicos, ciclos de rondas/inspeções ou questões que indaguem: "quando voltarão a se encontrar simultaneamente?".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "opções existentes para tratamento de riscos". De acordo com a teoria estudada em *2.1 Ordem de Precedência das Operações e Delimitadores*, a avaliação de expressões aritméticas complexas exige obediência à ordem universal de precedência matemática (mnemônico PEMDAS / PDMAS).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "recursos requeridos, incluindo contingências". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, por 11: A diferença entre a soma dos algarismos de ordem ímpar e a soma dos algarismos de ordem par é múltipla de 11 (incluindo o zero).
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 002
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Telecomunicacoes)**
+Em contraste com as redes conectadas fisicamente, as redes sem fio são ruidosas e pouco confiáveis. Um dos padrões mais famosos para redes sem fio é o IEEE 802.11. Dentre as características das redes que usam o protocolo IEEE 802.11, é correto afirmar que:
+
+* **A)** o protocolo IEEE 802.11 tenta resolver os problemas das estações expostas, ocultas ou transparentes;
+* **B)** em ambientes abertos e sem obstáculos, quanto maior a frequência do sinal, menor a atenuação do sinal;
+* **C)** o IEEE 802.11, para o acesso ao meio, procura detectar as colisões, escutando o canal durante as transmissões;
+* **D)** a probabilidade de um quadro trafegar por essas redes com sucesso aumenta com o aumento do tamanho do quadro;
+* **E)** o IEEE 802.11, para o acesso ao meio, procura evitar as colisões, enviando quadros de aviso antes das transmissões.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o protocolo IEEE 802.11 tenta resolver os problemas das estações expostas, ocultas ou transparentes". De acordo com a teoria estudada em *5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais*, em problemas que constroem sequências infinitas repetindo ciclicamente um conjunto finito de $k$ elementos ($x 1, x 2, \dots, x k$).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em ambientes abertos e sem obstáculos, quanto maior a frequência do sinal, menor a atenuação do sinal". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, adição de Inteiros com Sinais Opostos: Conserva se o sinal do termo de maior valor absoluto (módulo) e subtraem se os valores: $( 15) + (+9) = (15 9) = 6$.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o IEEE 802.11, para o acesso ao meio, procura detectar as colisões, escutando o canal durante as transmissões". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, o Mínimo Múltiplo Comum (MMC) entre dois ou mais inteiros é o menor número natural não nulo que é divisível simultaneamente por todos eles.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a probabilidade de um quadro trafegar por essas redes com sucesso aumenta com o aumento do tamanho do quadro". De acordo com a teoria estudada em *5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais*, divide se $P$ pelo tamanho do ciclo $k$, obtendo o quociente $q$ e o resto $r$ ($P = k \cdot q + r$).
+> - **E)** **Correta.** Conforme fundamentado na seção *1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais* deste guia, o estudo dos conjuntos numéricos estabelece as bases conceituais sobre as quais repousa toda a aritmética e o raciocínio quantitativo exigido nos concursos da área fiscal e de controle. A estruturação desses conjuntos desenvolveu se historicamente para sanar impossibilidades operatórias verificadas em conjuntos mais restritos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "o IEEE 802.11, para o acesso ao meio, procura evitar as colisões, enviando quadros de aviso antes das transmissões".
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 003
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
+A Gestão de Riscos busca identificar, analisar e mitigar ameaças potenciais, garantindo a resiliência e a sustentabilidade da organização. Assinale a opção que apresenta, corretamente, o risco de conformidade.
+
+* **A)** Trata-se do risco de perdas financeiras geradas por falhas tecnológicas, como interrupções em sistemas e ataques cibernéticos.
+* **B)** Representa a probabilidade de perdas decorrentes do não cumprimento de leis, normas e regulamentos, internos ou externos, podendo afetar financeiramente a organização.
+* **C)** Refere-se ao risco associado à variação de mercado e às flutuações cambiais, que impactam diretamente o desempenho financeiro da organização.
+* **D)** Diz respeito aos riscos operacionais relacionados à má alocação de recursos humanos e à deficiência na comunicação interna.
+* **E)** Está ligado exclusivamente à gestão de contratos e ao descumprimento de cláusulas contratuais por parte de fornecedores terceirizados.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Trata se do risco de perdas financeiras geradas por falhas tecnológicas, como interrupções em sistemas e ataques...". De acordo com a teoria estudada em *4. Álgebra Fracionária e Operações com Frações*, uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $b$ assinala em quantas partes iguais a unidade inteira foi particionada, e o numerador $a$ indica quantas dessas partes foram tomadas.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Conjunto dos Números Naturais e Inteiros* deste guia, representa o conjunto de contagem primitiva e ordenação de elementos discretos. É fechado sob as operações de adição e multiplicação (a soma ou produto de dois naturais é sempre um natural), mas falha no fechamento da subtração quando o minuendo é menor que o subtraendo ($3 8 \notin \mathbb{N}$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "Representa a probabilidade de perdas decorrentes do não cumprimento de leis, normas e regulamentos, internos ou...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Refere se ao risco associado à variação de mercado e às flutuações cambiais, que impactam diretamente o desempenho...". De acordo com a teoria estudada em *4.1 Conceito, Tipologias e Equivalência de Frações*, fração Própria: O numerador é menor que o denominador ($a < b$). Representa um valor estritamente menor que a unidade inteira ($\frac{2}{5}, \frac{7}{9}$).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diz respeito aos riscos operacionais relacionados à má alocação de recursos humanos e à deficiência na comunicação...". De acordo com a teoria estudada em *4.1 Conceito, Tipologias e Equivalência de Frações*, fração Imprópria: O numerador é maior ou igual ao denominador ($a \ge b$). Representa um valor maior ou igual à unidade inteira ($\frac{7}{4}, \frac{11}{3}$). Podem ser convertidas em números mistos: $\frac{7}{4} = 1 \frac{3}{4}$.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Está ligado exclusivamente à gestão de contratos e ao descumprimento de cláusulas contratuais por parte de...". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, decimais Exatos (ou Finitos): Apresentam um número finito de casas decimais após a vírgula. Isso ocorre quando a fração irredutível $\frac{a}{b}$ possui um denominador $b$ decomposto exclusivamente em fatores primos iguais a $2$ e/ou $5$.
+>
+> **Gabarito: B**
+
+---
+
+
+### Teste 004
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Sem Especialidade)**
+Um problema importante em inferência estatística decorre da necessidade de se obter uma amostra de uma determinada população para se estudar determinado fenômeno. Nesse caso, um problema crucial é se obter uma mostra que seja, em algum sentido, representativa da população em estudo, o que nos leva a pensar em como nossa amostra pode ser obtida. Um método importante, nesse sentido, é a amostragem aleatória simples, na qual
+
+* **A)** a população apresenta uma subdivisão em pequenos grupos, e é possível e conveniente sortear um número suficiente desses grupos, cujos elementos constituirão a amostra.
+* **B)** a população se divide em subpopulações, de tal modo que podemos especificar quantos elementos da amostra serão retirados em cada subpopulação.
+* **C)** todos os elementos da população têm igual probabilidade de pertencer à amostra, e todas as possíveis amostras têm também igual probabilidade de ocorrer.
+* **D)** a população pode ser ordenada e cada elemento da amostra é obtido a partir de uma escolha sistemática e periódica.
+* **E)** a amostra é retirada em diversas etapas sucessivas e, dependendo dos resultados obtidos, etapas suplementares são necessárias ou dispensadas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a população apresenta uma subdivisão em pequenos grupos, e é possível e conveniente sortear um número suficiente...". De acordo com a teoria estudada em *1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais*, o estudo dos conjuntos numéricos estabelece as bases conceituais sobre as quais repousa toda a aritmética e o raciocínio quantitativo exigido nos concursos da área fiscal e de controle. A estruturação desses conjuntos desenvolveu se historicamente para sanar impossibilidades operatórias verificadas em conjuntos mais restritos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a população se divide em subpopulações, de tal modo que podemos especificar quantos elementos da amostra serão...". De acordo com a teoria estudada em *4.1 Conceito, Tipologias e Equivalência de Frações*, fração Imprópria: O numerador é maior ou igual ao denominador ($a \ge b$). Representa um valor maior ou igual à unidade inteira ($\frac{7}{4}, \frac{11}{3}$). Podem ser convertidas em números mistos: $\frac{7}{4} = 1 \frac{3}{4}$.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos* deste guia, o resto máximo possível na divisão por um divisor $d$ é sempre igual a $d 1$. Se um problema indagar o resto máximo obtido na divisão por $15$, esse valor é inequivocamente $15 1 = 14$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "todos os elementos da população têm igual probabilidade de pertencer à amostra, e todas as possíveis amostras têm...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a população pode ser ordenada e cada elemento da amostra é obtido a partir de uma escolha sistemática e periódica". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, todo número racional pode ser transcrito sob representação decimal, dividindo se o numerador pelo denominador, resultando em apenas duas possibilidades formais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a amostra é retirada em diversas etapas sucessivas e, dependendo dos resultados obtidos, etapas suplementares são...". De acordo com a teoria estudada em *Quantidade Total de Divisores Positivos:*, o número total de divisores inteiros positivos de $N$ é obtido somando se uma unidade a cada expoente da fatoração canônica e multiplicando se os resultados.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 005
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+Recentemente, o Supremo Tribunal Federal determinou a prorrogação da vigência da Lei de Cotas em concursos públicos federais até que o Congresso Nacional aprove uma nova norma sobre a matéria, diante da proximidade do respectivo termo. Tal orientação teve por fundamento determinado princípio implícito na Constituição da República, tendo em vista os certames ainda em andamento, dentre outros aspectos, o que importaria na probabilidade de multiplicação de litígios judiciais. É correto afirmar que o referido princípio é o da:
+
+* **A)** moralidade;
+* **B)** publicidade;
+* **C)** impessoalidade;
+* **D)** segurança jurídica;
+* **E)** eficiência.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "moralidade". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, adição de Inteiros com Sinais Opostos: Conserva se o sinal do termo de maior valor absoluto (módulo) e subtraem se os valores: $( 15) + (+9) = (15 9) = 6$.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "publicidade". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, representa o conjunto de contagem primitiva e ordenação de elementos discretos. É fechado sob as operações de adição e multiplicação (a soma ou produto de dois naturais é sempre um natural), mas falha no fechamento da subtração quando o minuendo é menor que o subtraendo ($3 8 \notin \mathbb{N}$).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "impessoalidade". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, regra de Sinais na Multiplicação e Divisão: Sinais iguais geram resultado positivo ($+ \cdot + = +$; $ \cdot = +$); sinais contrários geram resultado negativo ($+ \cdot = $; $ \cdot + = $).
+> - **D)** **Correta.** Conforme fundamentado na seção *1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais* deste guia, o estudo dos conjuntos numéricos estabelece as bases conceituais sobre as quais repousa toda a aritmética e o raciocínio quantitativo exigido nos concursos da área fiscal e de controle. A estruturação desses conjuntos desenvolveu se historicamente para sanar impossibilidades operatórias verificadas em conjuntos mais restritos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "segurança jurídica".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eficiência". De acordo com a teoria estudada em *5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais*, se o resto $r 0$: O termo procurado é exatamente o $r$ ésimo elemento do ciclo padrão.
 >
 > **Gabarito: D**
 
 ---
 
-### Teste 073
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-Gabriel fez um sorteio dos seis primeiros números naturais e obteve a sequência: 6 3 5 1 4 2 Essa sequência poderá ser alterada mediante uma sucessão de movimentos. Realizar um movimento significa escolher um dos números da sequência e fazê-lo pular o número que está imediatamente à sua direita. A partir da sequência dada, após 𝑛 movimentos, Gabriel obteve esta sequência natural: 1 2 3 4 5 6. O menor valor possível de 𝑛 é
 
-* **A)** 10.
-* **B)** 11.
-* **C)** 12.
-* **D)** 13.
-* **E)** 14. Ética no Serviço Público
+### Teste 006
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
+A analista Maria é a gerente de um projeto do TRF1 em que foi identificado grande número de riscos, com elevada gravidade. A fim de diminuir o risco, a gerente solicitou que a equipe do projeto confeccionasse um conjunto de respostas para cada um dos riscos identificados. Após a confecção do conjunto de respostas, Maria determinou que o risco residual fosse revisado. A gerente do projeto deve solicitar a revisão do planejamento de respostas aos riscos até que:
+
+* **A)** o risco residual seja baixo;
+* **B)** todos os riscos tenham baixo impacto;
+* **C)** todos os riscos tenham baixa probabilidade;
+* **D)** todos os riscos tenham sido mitigados;
+* **E)** o risco residual seja compatível com o apetite ao risco da organização.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "10". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, dízima Periódica Simples: O período principia imediatamente após a vírgula.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Conjunto dos Números Naturais e Inteiros* deste guia, é fechado sob as operações de adição e multiplicação (a soma ou produto de dois naturais é sempre um natural), mas falha no fechamento da subtração quando o minuendo é menor que o subtraendo ($3 - 8 \notin \mathbb{N}$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "11".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "12". De acordo com a teoria estudada em *3.2 Decomposição em Fatores Primos e Contagem de Divisores Positivos*, pelo Teorema Fundamental da Aritmética, qualquer número natural maior que 1 pode ser decomposto de forma única (a menos da ordem dos fatores) em um produto de potências de números primos.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "13". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, decimais Exatos (ou Finitos): Apresentam um número finito de casas decimais após a vírgula. Isso ocorre quando a fração irredutível $\frac{a}{b}$ possui um denominador $b$ decomposto exclusivamente em fatores primos iguais a $2$ e/ou $5$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "14. Ética no Serviço Público". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, o Mínimo Múltiplo Comum (MMC) entre dois ou mais inteiros é o menor número natural não nulo que é divisível simultaneamente por todos eles.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o risco residual seja baixo". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, dízima Periódica Simples: O período principia imediatamente após a vírgula.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todos os riscos tenham baixo impacto". De acordo com a teoria estudada em *5.2 Problemas de Trabalho Conjunto e Torneiras*, atenção à Conversão de Tempo: Se o resultado da divisão em horas for decimal, como $2,4\text{ horas}$, a parte inteira corresponde a $2\text{ horas}$ e a parte decimal $0,4$ deve ser multiplicada por $60\text{ minutos}$ ($0,4 \times 60 = 24\text{ minutos}$). Logo, $2,4\text{ h} = 2\text{ horas e } 24\text{ minutos}$ (e nunca 2h40min!).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todos os riscos tenham baixa probabilidade". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, todo número racional pode ser transcrito sob representação decimal, dividindo se o numerador pelo denominador, resultando em apenas duas possibilidades formais.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todos os riscos tenham sido mitigados". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, em problemas de particionamento (como arquivar pastas em caixas de maior tamanho possível), o cálculo do MDC fornece a capacidade de cada caixa, e não a quantidade total de caixas! Para achar a quantidade de caixas, deve se somar a divisão de cada lote pelo valor do MDC encontrado.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas* deste guia, decimais Exatos (ou Finitos): Apresentam um número finito de casas decimais após a vírgula. Isso ocorre quando a fração irredutível $\frac{a}{b}$ possui um denominador $b$ decomposto exclusivamente em fatores primos iguais a $2$ e/ou $5$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "o risco residual seja compatível com o apetite ao risco da organização".
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 007
+**(CEBRASPE – STF – 2013 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Incidente de segurança da informação é um evento simples ou uma série de eventos indesejados ou inesperados, que tenham uma grande probabilidade de comprometer as operações do negócio e ameaçar a segurança da informação.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, dízima Periódica Simples: O período principia imediatamente após a vírgula. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STF/2013) ao afirmar que "Incidente de segurança da informação é um evento simples ou uma série de eventos indesejados ou inesperados...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 008
+**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+Um analista da área de Tecnologia da Informação criou uma Matriz de Probabilidade e Impacto para classificar os riscos e priorizar as respostas a eles. Como esse Analista segue à risca o PMBoK 4a edição, esta matriz foi utilizada como técnica (ou ferramenta) do processo
+
+* **A)** ANS pode ser formal ou informal, realizado entre o provedor de serviços de TI e o cliente.
+* **B)** ANS descreve os serviços de TI e documenta metas de nível de serviço, mas não especifica as responsabilidades das partes envolvidas.
+* **C)** único ANS pode cobrir múltiplos serviços de TI ou múltiplos clientes.
+* **D)** ANS cobre um serviço para todos os clientes desse serviço, neste caso, sendo chamado de ANS multi-nível baseado em Cliente.
+* **E)** ANS é firmado, exclusivamente, entre o provedor de serviços de TI e outra parte da mesma organização.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas* deste guia, todo número racional pode ser transcrito sob representação decimal, dividindo se o numerador pelo denominador, resultando em apenas duas possibilidades formais. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "ANS pode ser formal ou informal, realizado entre o provedor de serviços de TI e o cliente".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ANS descreve os serviços de TI e documenta metas de nível de serviço, mas não especifica as responsabilidades das...". De acordo com a teoria estudada em *3.2 Decomposição em Fatores Primos e Contagem de Divisores Positivos*, pelo Teorema Fundamental da Aritmética, qualquer número natural maior que 1 pode ser decomposto de forma única (a menos da ordem dos fatores) em um produto de potências de números primos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "único ANS pode cobrir múltiplos serviços de TI ou múltiplos clientes". De acordo com a teoria estudada em *4.1 Conceito, Tipologias e Equivalência de Frações*, fração Imprópria: O numerador é maior ou igual ao denominador ($a \ge b$). Representa um valor maior ou igual à unidade inteira ($\frac{7}{4}, \frac{11}{3}$). Podem ser convertidas em números mistos: $\frac{7}{4} = 1 \frac{3}{4}$.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ANS cobre um serviço para todos os clientes desse serviço, neste caso, sendo chamado de ANS multi nível baseado em...". De acordo com a teoria estudada em *5.2 Problemas de Trabalho Conjunto e Torneiras*, para o caso específico de dois agentes que levam tempos individuais $t 1$ e $t 2$.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "ANS é firmado, exclusivamente, entre o provedor de serviços de TI e outra parte da mesma organização". De acordo com a teoria estudada em *5.2 Problemas de Trabalho Conjunto e Torneiras*, atenção à Conversão de Tempo: Se o resultado da divisão em horas for decimal, como $2,4\text{ horas}$, a parte inteira corresponde a $2\text{ horas}$ e a parte decimal $0,4$ deve ser multiplicada por $60\text{ minutos}$ ($0,4 \times 60 = 24\text{ minutos}$). Logo, $2,4\text{ h} = 2\text{ horas e } 24\text{ minutos}$ (e nunca 2h40min!).
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 009
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+Diferentes técnicas de classificação são utilizadas em aprendizado de máquina para organizar e categorizar dados de acordo com características predefinidas. Com respeito a técnicas de classificação em aprendizado de máquina, analise as afirmativas a seguir. I. A regressão logística determina um hiperplano no espaço 𝑛- dimensional para separar as instâncias de dados de entrada em partições de acordo com suas classes. II. As máquinas de vetores de suporte (Support Vector Machines - SVM) consistem em uma abordagem probabilística, determinando uma distribuição de probabilidades de que uma nova instância de dados de entrada pertença as respectivas classes. III. O algoritmo K vizinhos mais próximos (K Nearest Neighbors - KNN) classifica uma nova instância de dados de entrada conforme a classe das instâncias mais próximas já observadas. Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** I, II e III.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais*, o estudo dos conjuntos numéricos estabelece as bases conceituais sobre as quais repousa toda a aritmética e o raciocínio quantitativo exigido nos concursos da área fiscal e de controle. A estruturação desses conjuntos desenvolveu se historicamente para sanar impossibilidades operatórias verificadas em conjuntos mais restritos.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *3. Teoria dos Números: Divisibilidade, Primos, MMC e MDC*, a teoria dos números fornece o ferramental algébrico para lidar com divisões inteiras, periodicidade de escalas e otimização de lotes em logística e auditoria.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos* deste guia, o Máximo Divisor Comum (MDC) é o maior número inteiro capaz de dividir exatamente todos os números dados, sem deixar resto. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "III, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos*, para quaisquer dois números inteiros $D$ (dividendo) e $d$ (divisor não nulo), existem inteiros únicos $q$ (quociente) e $r$ (resto) tais que.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos*, $$D = d \cdot q + r, \quad \text{onde } 0 \le r < |d|$$.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 010
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Telecomunicação)**
+Considerando o processo de gerenciamento de risco de acordo com a Norma ABNT NBR ISO 31000:2018, leia o seguinte fragmento: Seu propósito é compreender a natureza do risco e suas características, incluindo o nível de risco. Além disso, envolve a consideração detalhada de incertezas, fontes de risco, consequências, probabilidade, eventos, cenários, controles e sua eficácia. A definição acima se refere ao conceito de
+
+* **A)** Análise de riscos
+* **B)** Identificação de riscos
+* **C)** Tratamento de riscos
+* **D)** Monitoramento e registro de riscos
+* **E)** Avaliação de riscos
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Critérios de Divisibilidade Aplicados* deste guia, por 11: A diferença entre a soma dos algarismos de ordem ímpar e a soma dos algarismos de ordem par é múltipla de 11 (incluindo o zero). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Análise de riscos".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Identificação de riscos". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, a["Identificação do Problema"] B{"Qual é a ideia do enunciado?"}.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tratamento de riscos". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, o problema exige MMC sempre que veicular ideias de coincidência temporal futura, reencontro de eventos periódicos, ciclos de rondas/inspeções ou questões que indaguem: "quando voltarão a se encontrar simultaneamente?".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Monitoramento e registro de riscos". De acordo com a teoria estudada em *4.1 Conceito, Tipologias e Equivalência de Frações*, fração Própria: O numerador é menor que o denominador ($a < b$). Representa um valor estritamente menor que a unidade inteira ($\frac{2}{5}, \frac{7}{9}$).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Avaliação de riscos". De acordo com a teoria estudada em *2.1 Ordem de Precedência das Operações e Delimitadores*, a avaliação de expressões aritméticas complexas exige obediência à ordem universal de precedência matemática (mnemônico PEMDAS / PDMAS).
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 011
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
+Trata-se de uma importante fonte de receita do setor público, que decorre, dentre outros possíveis determinantes, da incapacidade de pagamento dos contribuintes ou da ineficiência do setor público em arrecadar os tributos lançados no prazo previsto. O texto se refere à:
+
+* **A)** Receita da Dívida Ativa.
+* **B)** Receita de Autos de Infração.
+* **C)** Receita Patrimonial.
+* **D)** Receita de Serviços.
+* **E)** Receita da Sonegação.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais* deste guia, o estudo dos conjuntos numéricos estabelece as bases conceituais sobre as quais repousa toda a aritmética e o raciocínio quantitativo exigido nos concursos da área fiscal e de controle. A estruturação desses conjuntos desenvolveu se historicamente para sanar impossibilidades operatórias verificadas em conjuntos mais restritos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Receita da Dívida Ativa".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Receita de Autos de Infração". De acordo com a teoria estudada em *1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais*, n["Naturais (N)<br/ 0, 1, 2, 3..."] Z["Inteiros (Z)<br/ ... 2, 1, 0, 1, 2..."].
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Receita Patrimonial". De acordo com a teoria estudada em *1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais*, z Q["Racionais (Q)<br/ a/b com b ≠ 0"].
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Receita de Serviços". De acordo com a teoria estudada em *1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais*, q R["Reais (R)<br/ Q união Irracionais"].
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Receita da Sonegação". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, conjunto dos Números Naturais ($\mathbb{N}$).
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 012
+**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
+Numa determinada população, 40% das famílias moram em locais sem acesso a saneamento básico. Se quatro famílias dessa população forem sorteadas ao acaso, sem reposição, a probabilidade de que duas morem em locais sem saneamento básico é, aproximadamente, igual a
+
+* **A)** 0,25.
+* **B)** 0,30.
+* **C)** 0,35.
+* **D)** 0,40.
+* **E)** 0,45.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,25". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, todo número racional pode ser transcrito sob representação decimal, dividindo se o numerador pelo denominador, resultando em apenas duas possibilidades formais.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,30". De acordo com a teoria estudada em *1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos*, o resto máximo possível na divisão por um divisor $d$ é sempre igual a $d 1$. Se um problema indagar o resto máximo obtido na divisão por $15$, esse valor é inequivocamente $15 1 = 14$.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas* deste guia, $$\text{Fração Geratriz} = \frac{(\text{Antiperíodo seguido do Período}) (\text{Antiperíodo})}{(\text{tantos 9 quantos forem os dígitos do período}) \times 10^{(\text{dígitos do antiperíodo})}}$$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "0,35".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,40". De acordo com a teoria estudada em *4.1 Conceito, Tipologias e Equivalência de Frações*, frações Equivalentes e Irredutibilidade: Duas frações são equivalentes quando representam a mesma grandeza fracionária ($\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$). Obtém se a fração irredutível simplificando numerador e denominador pelo seu MDC.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,45". De acordo com a teoria estudada em *3.5 Relação Fundamental entre MMC e MDC*, para quaisquer dois números inteiros positivos $a$ e $b$, o produto entre o seu MMC e o seu MDC é rigorosamente igual ao produto entre os próprios números.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 013
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Atuariais)**
+Um plano de benefícios adota o regime financeiro de Repartição de Capitais de Cobertura para a renda vitalícia de aposentadoria por invalidez. Considere que o benefício é devido no início do ano da entrada em invalidez. Para um grupo de segurados de idade x, dispõe-se das seguintes informações: Salários no ano (base de contribuição): R$ 1.000.000,00 • Probabilidade de entrada em Invalidez: i = 0,005 x • Probabilidade de mortalidade de inválido: 𝑞𝑖 = 0,01 𝑥 • Anuidade vitalícia de inválido 𝑎̈𝑖 =: 12,000 𝑥 O custo normal (em R$) necessário para financiar o capital de cobertura dos eventos que ocorrerão no ano para esses participantes de idade x é de
+
+* **A)** 50.
+* **B)** 600.
+* **C)** 5.000.
+* **D)** 60.000.
+* **E)** 500.000.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "50". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, dízima Periódica Composta: Existe um segmento decimal que não se repete (o antiperíodo) posicionado entre a vírgula e o início do período.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "600". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, o problema exige MMC sempre que veicular ideias de coincidência temporal futura, reencontro de eventos periódicos, ciclos de rondas/inspeções ou questões que indaguem: "quando voltarão a se encontrar simultaneamente?".
+> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Critérios de Divisibilidade Aplicados* deste guia, por 8: O número formado pelos três últimos algarismos é divisível por 8 ou termina em $000$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "5.000".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "60.000". De acordo com a teoria estudada em *2.2 Potenciação: Propriedades Operatórias e Notação Científica*, produto de potências de mesma base: $a^m \cdot a^n = a^{m+n}$.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "500.000". De acordo com a teoria estudada em *2.2 Potenciação: Propriedades Operatórias e Notação Científica*, divisão de potências de mesma base: $\frac{a^m}{a^n} = a^{m n} \quad (a \neq 0)$.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 014
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Atuariais)**
+Um atuário realizou testes de aderência Qui-Quadrado para avaliar qual tábua de mortalidade de determinado sexo melhor se ajusta aos dados históricos de um regime de Previdência. Para o teste “por ano de ocorrência”, foi adotado um nível de significância de 5%, com 10 graus de liberdade na distribuição de probabilidade, o que resultou em um valor crítico de aproximadamente 18,3070. Tábua Qui-Quadrado p-valor AT-2000 35,5662 0,0001 BR-EMSmt 2021 18,2258 0,0513 BR-EMSsb 2021 18,4231 0,0482 IBGE 2021 20,4697 0,0251 IBGE 2024 20,2690 0,0268 A tábua biométrica a ser escolhida, a partir dos números obtidos nesse teste, é a
+
+* **A)** AT-2000.
+* **B)** BR-EMSmt 2021.
+* **C)** BR-EMSsb 2021.
+* **D)** IBGE 2021.
+* **E)** IBGE 2024.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "AT 2000". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, dízimas Periódicas: Apresentam infinitas casas decimais que se repetem de maneira cíclica a partir de um bloco repetitivo denominado período.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BR EMSmt 2021". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, todo número racional pode ser transcrito sob representação decimal, dividindo se o numerador pelo denominador, resultando em apenas duas possibilidades formais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BR EMSsb 2021". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, adição de Inteiros com Sinais Opostos: Conserva se o sinal do termo de maior valor absoluto (módulo) e subtraem se os valores: $( 15) + (+9) = (15 9) = 6$.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IBGE 2021". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, o Máximo Divisor Comum (MDC) é o maior número inteiro capaz de dividir exatamente todos os números dados, sem deixar resto.
+> - **E)** **Correta.** Conforme fundamentado na seção *4.1 Conceito, Tipologias e Equivalência de Frações* deste guia, fração Imprópria: O numerador é maior ou igual ao denominador ($a \ge b$). Representa um valor maior ou igual à unidade inteira ($\frac{7}{4}, \frac{11}{3}$). Podem ser convertidas em números mistos: $\frac{7}{4} = 1 \frac{3}{4}$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "IBGE 2024".
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 015
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
+O Tribunal quer reduzir o número de incidentes repetitivos em sua Central de Serviços. O Auditor sugere focar na identificação da causa raiz desses incidentes. No ITIL 4, a prática que tem como objetivo principal reduzir a probabilidade e o impacto de incidentes por meio da identificação de suas causas reais e do gerenciamento de soluções de contorno é o(a)
+
+* **A)** Gerenciamento de Incidentes.
+* **B)** Gerenciamento de Problemas.
+* **C)** Gerenciamento de Mudanças.
+* **D)** Central de Serviços.
+* **E)** Gerenciamento de Nível de Serviço.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerenciamento de Incidentes". De acordo com a teoria estudada em *1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos*, em problemas que envolvem ciclos e restos de divisão (dias da semana, rodízio de equipes, posições de algarismos), o divisor corresponde ao tamanho do ciclo. Se o resto for zero, significa que a divisão foi exata e que a posição procurada corresponde rigorosamente ao último elemento do ciclo periódico, e não ao primeiro!.
+> - **B)** **Correta.** Conforme fundamentado na seção *5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais* deste guia, toma se o número da posição requerida $P$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Gerenciamento de Problemas".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerenciamento de Mudanças". De acordo com a teoria estudada em *1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais*, o estudo dos conjuntos numéricos estabelece as bases conceituais sobre as quais repousa toda a aritmética e o raciocínio quantitativo exigido nos concursos da área fiscal e de controle. A estruturação desses conjuntos desenvolveu se historicamente para sanar impossibilidades operatórias verificadas em conjuntos mais restritos.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Central de Serviços". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, ideia central: Coincidência, repetição, sincronia periódica — Divisão, partição equitativa, corte em partes iguais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerenciamento de Nível de Serviço". De acordo com a teoria estudada em *1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais*, q R["Reais (R)<br/ Q união Irracionais"].
 >
 > **Gabarito: B**
 
 ---
+
+
+### Teste 016
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Agente Da Policia Judicial)**
+Seis homens e oito mulheres estão reunidos. Uma comissão de três pessoas será formada, entre essas pessoas, para compor um grupo de trabalho. A probabilidade de que a comissão seja composta por duas mulheres e um homem é igual a
+
+* **A)** 3/8.
+* **B)** 5/12.
+* **C)** 6/13.
+* **D)** 8/15.
+* **E)** 9/16.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3/8". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, todo número racional pode ser transcrito sob representação decimal, dividindo se o numerador pelo denominador, resultando em apenas duas possibilidades formais.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5/12". De acordo com a teoria estudada em *1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos*, o resto máximo possível na divisão por um divisor $d$ é sempre igual a $d 1$. Se um problema indagar o resto máximo obtido na divisão por $15$, esse valor é inequivocamente $15 1 = 14$.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas* deste guia, dízima Periódica Composta: Existe um segmento decimal que não se repete (o antiperíodo) posicionado entre a vírgula e o início do período. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "6/13".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "8/15". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, por 8: O número formado pelos três últimos algarismos é divisível por 8 ou termina em $000$.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "9/16". De acordo com a teoria estudada em *4.1 Conceito, Tipologias e Equivalência de Frações*, frações Equivalentes e Irredutibilidade: Duas frações são equivalentes quando representam a mesma grandeza fracionária ($\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$). Obtém se a fração irredutível simplificando numerador e denominador pelo seu MDC.
+>
+> **Gabarito: C**
+
+---
+
+
 
 ## 2. Operações Aritméticas e Expressões Numéricas
 
@@ -186,30 +530,6 @@ A potenciação traduz o produto de fatores idênticos repetidos ($a^n = \underb
 * Expoente nulo: $a^0 = 1 \quad (a \neq 0)$
 * Expoente negativo: $a^{-n} = \frac{1}{a^n} = \left(\frac{1}{a}\right)^n \quad (a \neq 0)$
 * Expoente fracionário (Radiciação): $a^{\frac{m}{n}} = \sqrt[n]{a^m}$
-
----
-
-### Teste 074
-**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
-OKR é utilizado em diversas organizações. É uma abordagem simples para criar alinhamento e engajamento em torno de metas e resultados mensuráveis. Os tipos de resultados esperados no OKR são classificados como
-
-* **A)** teóricos e experimentais.
-* **B)** regulatórios, estratégicos e táticos.
-* **C)** textuais, sinalizações visuais e métricas numéricas.
-* **D)** baseline, milestone, métricas positivas e negativas e threshold.
-* **E)** financeiros, engineering, operations, resources, saúde e tecnológicos.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "teóricos e experimentais". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, dízima Periódica Simples: O período principia imediatamente após a vírgula.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "regulatórios, estratégicos e táticos". De acordo com a teoria estudada em *Quantidade Total de Divisores Positivos:*, o número total de divisores inteiros positivos de $N$ é obtido somando-se uma unidade a cada expoente da fatoração canônica e multiplicando-se os resultados.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "textuais, sinalizações visuais e métricas numéricas". De acordo com a teoria estudada em *2.1 Ordem de Precedência das Operações e Delimitadores*, a avaliação de expressões aritméticas complexas exige obediência à ordem universal de precedência matemática (mnemônico PEMDAS / PDMAS).
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Conjunto dos Números Naturais e Inteiros* deste guia, incorpora os opostos simétricos (negativos) aos números naturais, viabilizando o fechamento irrestrito da subtração. Na reta numérica, os inteiros organizam-se ordenadamente em torno da origem zero. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "baseline, milestone, métricas positivas e negativas e threshold".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "financeiros, engineering, operations, resources, saúde e tecnológicos". De acordo com a teoria estudada em *2.1 Ordem de Precedência das Operações e Delimitadores*, ordem dos Delimitadores de Escopo (de dentro para fora).
->
-> **Gabarito: D**
 
 ---
 
@@ -278,78 +598,6 @@ $$\text{MMC}(a, b) \times \text{MDC}(a, b) = a \times b$$
 
 ---
 
-### Teste 075
-**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Agente Da Policia Judicial)**
-Um palíndromo numérico, ou capicua, é um número que lido de trás para a frente é igual ao número original. Por exemplo: 121, 35653, 8778, 108801 são palíndromos. Entre os números de seis algarismos, a quantidade de palíndromos numéricos é igual a
-
-* **A)** 600.
-* **B)** 900.
-* **C)** 8.100.
-* **D)** 18.000.
-* **E)** 180.000.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "600". De acordo com a teoria estudada em *Quantidade Total de Divisores Positivos:*, o número total de divisores inteiros positivos de $N$ é obtido somando-se uma unidade a cada expoente da fatoração canônica e multiplicando-se os resultados.
-> - **B)** **Correta.** Conforme fundamentado na seção *Quantidade Total de Divisores Positivos:* deste guia, *Exemplo:* Para encontrar quantos divisores possui o número 360. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "900".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "8.100". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, $$0,75 = \frac{75}{100} = \frac{3}{4} \quad (4 = 2^2); \qquad 0,35 = \frac{35}{100} = \frac{7}{20} \quad (20 = 2^2 \times 5)$$.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "18.000". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, por 8: O número formado pelos três últimos algarismos é divisível por 8 ou termina em $000$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "180.000". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, por 4: O número formado pelos dois últimos algarismos é divisível por 4 ou termina em $00$.
->
-> **Gabarito: B**
-
----
-
-### Teste 076
-**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
-A soma de 2 números naturais é 22253. Um dos números é divisível por 10 e se retirarmos o algarismo das unidades desse número obtém-se o outro número. A diferença entre o maior e o menor número é
-
-* **A)** 13222.
-* **B)** 14644.
-* **C)** 15876.
-* **D)** 17732.
-* **E)** 18207.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "13222". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, é fechado sob as operações de adição e multiplicação (a soma ou produto de dois naturais é sempre um natural), mas falha no fechamento da subtração quando o minuendo é menor que o subtraendo ($3 - 8 \notin \mathbb{N}$).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "14644". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, o Mínimo Múltiplo Comum (MMC) entre dois ou mais inteiros é o menor número natural não nulo que é divisível simultaneamente por todos eles.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "15876". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, palavras-chave: "Quando voltarão a se encontrar?", "periodicidade", "ciclos", "simultaneamente" — "Maior tamanho possível", "sem sobras", "dividir igualmente", "menor número de caixas".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "17732". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, por 11: A diferença entre a soma dos algarismos de ordem ímpar e a soma dos algarismos de ordem par é múltipla de 11 (incluindo o zero).
-> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Critérios de Divisibilidade Aplicados* deste guia, permitem verificar se um número inteiro $N$ é divisível por outro sem executar a divisão longa. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "18207".
->
-> **Gabarito: E**
-
----
-
-### Teste 077
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-A figura a seguir representa uma operação de adição entre dois números naturais: ABA e DCCD. Cada letra representa um algarismo, letras diferentes representam algarismos diferentes, A ≠ 0 e D ≠ 0. A B A + D C C D 2 0 2 6 O valor de A + B + C é
-
-* **A)** 13.
-* **B)** 14.
-* **C)** 15.
-* **D)** 16.
-* **E)** 17.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "13". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, é fechado sob as operações de adição e multiplicação (a soma ou produto de dois naturais é sempre um natural), mas falha no fechamento da subtração quando o minuendo é menor que o subtraendo ($3 - 8 \notin \mathbb{N}$).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "14". De acordo com a teoria estudada em *4.1 Conceito, Tipologias e Equivalência de Frações*, fração Imprópria: O numerador é maior ou igual ao denominador ($a \ge b$). Representa um valor maior ou igual à unidade inteira ($\frac{7}{4}, \frac{11}{3}$). Podem ser convertidas em números mistos: $\frac{7}{4} = 1 \frac{3}{4}$.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "15". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, por 4: O número formado pelos dois últimos algarismos é divisível por 4 ou termina em $00$.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "16". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, representa o conjunto de contagem primitiva e ordenação de elementos discretos.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Conjunto dos Números Naturais e Inteiros* deste guia, *Adição de Inteiros com Sinais Opostos:* Conserva-se o sinal do termo de maior valor absoluto (módulo) e subtraem-se os valores: $(-15) + (+9) = -(15 - 9) = -6$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "17".
->
-> **Gabarito: E**
-
----
-
 ## 4. Álgebra Fracionária e Operações com Frações
 
 Uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $b$ assinala em quantas partes iguais a unidade inteira foi particionada, e o numerador $a$ indica quantas dessas partes foram tomadas.
@@ -372,30 +620,6 @@ Uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $
    A preposição "de" na matemática denota multiplicação: $\frac{2}{3}$ *de* $\frac{4}{5} = \frac{2}{3} \times \frac{4}{5} = \frac{8}{15}$.
 3. **Divisão:** Conserva-se a primeira fração e multiplica-se pela fração inversa da segunda:
    $$\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c} = \frac{a \cdot d}{b \cdot c} \quad (c, d \neq 0)$$
-
----
-
-### Teste 078
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-Em janeiro de 2023, uma empresa de consultoria prestou um serviço a um cliente por R$20.000. O valor deveria ser recebido em junho de 2023, de modo que a empresa contabilizou o montante como ativo circulante. Em agosto de 2023, o cliente comunicou à empresa que estava encerrando as suas operações e não pagaria o que era devido. Os administradores da empresa preferiram não entrar na justiça contra o cliente e não consideravam mais a expectativa de recebimento. No balanço patrimonial da empresa de consultoria, em agosto de 2023, o montante deve ser:
-
-* **A)** baixado, tendo como contrapartida um débito no resultado.
-* **B)** baixado, tendo como contrapartida um débito no passivo.
-* **C)** mantido em ativo circulante.
-* **D)** classificado como ativo intangível.
-* **E)** classificado como ativo realizável a longo prazo.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *5.2 Problemas de Trabalho Conjunto e Torneiras* deste guia, *Atenção à Conversão de Tempo:* Se o resultado da divisão em horas for decimal, como $2,4\text{ horas}$, a parte inteira corresponde a $2\text{ horas}$ e a parte decimal $0,4$ deve ser multiplicada por $60\text{ minutos}$ ($0,4 \times 60 = 24\text{ minutos}$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "baixado, tendo como contrapartida um débito no resultado".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "baixado, tendo como contrapartida um débito no passivo". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, *Regra de Sinais na Multiplicação e Divisão:* Sinais iguais geram resultado positivo ($+ \cdot + = +$; $- \cdot - = +$); sinais contrários geram resultado negativo ($+ \cdot - = -$; $- \cdot + = -$).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mantido em ativo circulante". De acordo com a teoria estudada em *4.1 Conceito, Tipologias e Equivalência de Frações*, fração Imprópria: O numerador é maior ou igual ao denominador ($a \ge b$). Representa um valor maior ou igual à unidade inteira ($\frac{7}{4}, \frac{11}{3}$). Podem ser convertidas em números mistos: $\frac{7}{4} = 1 \frac{3}{4}$.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "classificado como ativo intangível". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, em problemas de particionamento (como arquivar pastas em caixas de maior tamanho possível), o cálculo do MDC fornece a capacidade de cada caixa, e não a quantidade total de caixas! Para achar a quantidade de caixas, deve-se somar a divisão de cada lote pelo valor do MDC encontrado.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "classificado como ativo realizável a longo prazo". De acordo com a teoria estudada em *4.1 Conceito, Tipologias e Equivalência de Frações*, fração Própria: O numerador é menor que o denominador ($a < b$). Representa um valor estritamente menor que a unidade inteira ($\frac{2}{5}, \frac{7}{9}$).
->
-> **Gabarito: A**
 
 ---
 
@@ -429,78 +653,6 @@ Em problemas que constroem sequências infinitas repetindo ciclicamente um conju
 2. Divide-se $P$ pelo tamanho do ciclo $k$, obtendo o quociente $q$ e o resto $r$ ($P = k \cdot q + r$);
 3. **Se o resto $r > 0$:** O termo procurado é exatamente o $r$-ésimo elemento do ciclo padrão;
 4. **Se o resto $r = 0$:** O termo procurado é o último elemento do ciclo (o $k$-ésimo elemento).
-
----
-
-### Teste 079
-**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
-Sejam A, B e C números inteiros e positivos tais que A  B = 20 e A  C = 36. A soma A + B + C vale
-
-* **A)** 20.
-* **B)** 30.
-* **C)** 40.
-* **D)** 50.
-* **E)** 60. Conhecimentos Específicos Básicos
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "20". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, é fechado sob as operações de adição e multiplicação (a soma ou produto de dois naturais é sempre um natural), mas falha no fechamento da subtração quando o minuendo é menor que o subtraendo ($3 - 8 \notin \mathbb{N}$).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos* deste guia, para quaisquer dois números inteiros $D$ (dividendo) e $d$ (divisor não nulo), existem inteiros únicos $q$ (quociente) e $r$ (resto) tais que. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "30".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "40". De acordo com a teoria estudada em *3.5 Relação Fundamental entre MMC e MDC*, para quaisquer dois números inteiros positivos $a$ e $b$, o produto entre o seu MMC e o seu MDC é rigorosamente igual ao produto entre os próprios números.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "50". De acordo com a teoria estudada em *Quantidade Total de Divisores Positivos:*, o número total de divisores inteiros positivos de $N$ é obtido somando-se uma unidade a cada expoente da fatoração canônica e multiplicando-se os resultados.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "60. Conhecimentos Específicos Básicos". De acordo com a teoria estudada em *3.2 Decomposição em Fatores Primos e Contagem de Divisores Positivos*, pelo Teorema Fundamental da Aritmética, qualquer número natural maior que 1 pode ser decomposto de forma única (a menos da ordem dos fatores) em um produto de potências de números primos.
->
-> **Gabarito: B**
-
----
-
-### Teste 080
-**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
-Considere os conjuntos 𝐴, 𝐵 e 𝐶 tais que: 𝐴={conjunto dos múltiplos inteiros e positivos de 3}; 𝐵={conjunto dos múltiplos inteiros e positivos de 8}; 𝐶={conjunto dos múltiplos inteiros e positivos de 12}. É correto afirmar que 𝐴∩𝐶−𝐵 corresponde ao conjunto
-
-* **A)** dos múltiplos inteiros e positivos de 12.
-* **B)** dos múltiplos inteiros e positivos de 24.
-* **C)** dos números inteiros e positivos que, divididos por 24, deixam resto 12.
-* **D)** dos números inteiros e positivos que, divididos por 24, deixam resto 6.
-* **E)** vazio.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dos múltiplos inteiros e positivos de 12". De acordo com a teoria estudada em *1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos*, para quaisquer dois números inteiros $D$ (dividendo) e $d$ (divisor não nulo), existem inteiros únicos $q$ (quociente) e $r$ (resto) tais que.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dos múltiplos inteiros e positivos de 24". De acordo com a teoria estudada em *Quantidade Total de Divisores Positivos:*, o número total de divisores inteiros positivos de $N$ é obtido somando-se uma unidade a cada expoente da fatoração canônica e multiplicando-se os resultados.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.5 Relação Fundamental entre MMC e MDC* deste guia, para quaisquer dois números inteiros positivos $a$ e $b$, o produto entre o seu MMC e o seu MDC é rigorosamente igual ao produto entre os próprios números. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "dos números inteiros e positivos que, divididos por 24, deixam resto 12".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dos números inteiros e positivos que, divididos por 24, deixam resto 6". De acordo com a teoria estudada em *3.2 Decomposição em Fatores Primos e Contagem de Divisores Positivos*, pelo Teorema Fundamental da Aritmética, qualquer número natural maior que 1 pode ser decomposto de forma única (a menos da ordem dos fatores) em um produto de potências de números primos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "vazio". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, conjunto dos Números Naturais ($\mathbb{N}$).
->
-> **Gabarito: C**
-
----
-
-### Teste 081
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-Sejam 𝑋 e 𝑌 dois números inteiros maiores do que zero, tais que 2𝑋𝑌−𝑌=36. A soma dos possíveis valores de 𝑋 é
-
-* **A)** 8.
-* **B)** 10.
-* **C)** 12.
-* **D)** 15.
-* **E)** 21.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos* deste guia, para quaisquer dois números inteiros $D$ (dividendo) e $d$ (divisor não nulo), existem inteiros únicos $q$ (quociente) e $r$ (resto) tais que. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "8".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "10". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, é fechado sob as operações de adição e multiplicação (a soma ou produto de dois naturais é sempre um natural), mas falha no fechamento da subtração quando o minuendo é menor que o subtraendo ($3 - 8 \notin \mathbb{N}$).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "12". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, *Adição de Inteiros com Sinais Opostos:* Conserva-se o sinal do termo de maior valor absoluto (módulo) e subtraem-se os valores: $(-15) + (+9) = -(15 - 9) = -6$.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "15". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, por 3: A soma dos valores absolutos dos seus algarismos é um múltiplo de 3 (ex.: $7.458 \rightarrow 7 + 4 + 5 + 8 = 24$, que é divisível por 3).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "21". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, incorpora os opostos simétricos (negativos) aos números naturais, viabilizando o fechamento irrestrito da subtração. Na reta numérica, os inteiros organizam-se ordenadamente em torno da origem zero.
->
-> **Gabarito: A**
 
 ---
 

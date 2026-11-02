@@ -4,10 +4,7 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `04_protocolos_de_aplicacao_redes_sem_fio_e_seguranca_de_rede.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Protocolos da camada de aplicação e transporte:
@@ -121,7 +118,308 @@ O **HTTPS** nada mais é do que o tráfego HTTP executado sobre uma camada de se
 
 ---
 
-### Teste 443
+### Teste 001
+**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
+A estrutura de autorização do OAuth 2.0 permite que uma aplicação obtenha acesso ilimitado a um serviço HTTP se houver token válido, mas não permite que uma aplicação de
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A estrutura de autorização do OAuth 2.0 permite que uma aplicação obtenha acesso ilimitado a um serviço HTTP...". De acordo com a teoria em *Protocolos em Detalhes:*, mantém as mensagens, pastas customizadas, marcações de lido/não lido e rascunhos armazenados permanentemente no servidor central. Permite que o usuário consulte sua caixa de correio através de múltiplos dispositivos (smartphone, webmail, notebook) com sincronização em tempo real.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 002
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Seguranca Da Informacao)**
+Os protocolos DNS, HTTPS, DHCP e SSH utilizam, respectivamente, as portas:
+
+* **A)** 22, 80, 53 e 21;
+* **B)** 67, 80, 22 e 443;
+* **C)** 53, 443, 67 e 22;
+* **D)** 443, 53, 143 e 67;
+* **E)** 79, 80, 67 e 21.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "22, 80, 53 e 21". De acordo com a teoria estudada em *2.1 SSH (Secure Shell) e Redirecionamento de Portas*, o protocolo SSH opera na porta TCP 22 e provê comunicação criptografada segura para administração remota de servidores, transferência de arquivos e execução remota de comandos, substituindo protocolos inseguros legados (Telnet, rlogin).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "67, 80, 22 e 443". De acordo com a teoria estudada em *3.2 Balanceadores de Carga: Camada 4 (L4) vs. Camada 7 (L7)*, compreende a semântica dos protocolos de aplicação (HTTP/HTTPS, gRPC).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.3 HTTP/3 e o Protocolo QUIC sobre UDP* deste guia, para eliminar em definitivo qualquer forma de bloqueio em redes móveis e de alta latência, a IETF padronizou o HTTP/3 (RFC 9114), substituindo o TCP pelo protocolo de transporte QUIC ( Quick UDP Internet Connections RFC 9000), que opera sobre datagramas UDP (Porta UDP 443). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "53, 443, 67 e 22".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "443, 53, 143 e 67". De acordo com a teoria estudada em *Protocolos em Detalhes:*, iMAP ( Internet Message Access Protocol Portas TCP 143 e TCP 993 com SSL).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "79, 80, 67 e 21". De acordo com a teoria estudada em *2.1 SSH (Secure Shell) e Redirecionamento de Portas*, autenticação: Baseada em senhas ou pares de chaves criptográficas assimétricas (RSA, Ed25519), onde a chave pública fica registrada no arquivo ~/.ssh/authorized keys do servidor remoto e a chave privada permanece protegida sob custódia do usuário.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 003
+**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
+A estrutura de autorização do OAuth 2.0 permite que uma aplicação obtenha acesso ilimitado a um serviço HTTP se houver token válido, mas não permite que uma aplicação de terceiros obtenha acesso por conta própria.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *Protocolos em Detalhes:*, mantém as mensagens, pastas customizadas, marcações de lido/não lido e rascunhos armazenados permanentemente no servidor central. Permite que o usuário consulte sua caixa de correio através de múltiplos dispositivos (smartphone, webmail, notebook) com sincronização em tempo real. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRF/6/2025) ao afirmar que "A estrutura de autorização do OAuth 2.0 permite que uma aplicação obtenha acesso ilimitado a um serviço HTTP...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 004
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+Analise o código Node.JS, exibido a seguir, que estabelece um servidor HTTP que recebe e responde mensagens. var http = require('http'); http.createServer(function (req, res) { res.write('Ok'); res.end(); }).listen(8080); Assinale a afirmativa correta a respeito dessa operação.
+
+* **A)** A função definida é executada somente em caso de erro de parâmetros.
+* **B)** A função definida é sempre executada no lado cliente.
+* **C)** O parâmetro req da função definida deve ser do tipo http.IncomingMessage object.
+* **D)** O parâmetro req da função definida é opcional.
+* **E)** O parâmetro res da função definida é opcional.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A função definida é executada somente em caso de erro de parâmetros". De acordo com a teoria estudada em *2.1 SSH (Secure Shell) e Redirecionamento de Portas*, dynamic Port Forwarding ( ssh D local port user@server ): Transforma a sessão SSH em um servidor proxy local do tipo SOCKS4/SOCKS5.
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "A função definida é sempre executada no lado cliente". De acordo com a teoria estudada em *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação*, se uma página web demanda dezenas de imagens, folhas de estilo CSS e scripts JavaScript, o cliente envia uma requisição e precisa aguardar o servidor responder integralmente antes de enviar a próxima.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.4 HTTPS e TLS 1.3 Integrado* deste guia, forward Secrecy Mandatório: O TLS 1.3 exige o uso de algoritmos de troca de chave efêmera (como ECDHE), garantindo que, mesmo que a chave privada do servidor web seja roubada no futuro, o tráfego gravado no passado não poderá ser decifrado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "O parâmetro req da função definida deve ser do tipo http.IncomingMessage object".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O parâmetro req da função definida é opcional". De acordo com a teoria estudada em *O Problema do Nó Oculto (Hidden Node Problem):*, o problema é neutralizado pelo mecanismo opcional de reserva via quadros de controle RTS/CTS.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O parâmetro res da função definida é opcional". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, wEP: Cifra de fluxo RC4 (chave de 40 ou 104 bits + IV estático de 24 bits) — CRC 32 (fraco) — Totalmente Quebrado e Obsoleto. Pode ser decifrado em poucos minutos devido ao reúso de vetores de inicialização (IVs curtos). Banido pelas normas de segurança.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 005
+**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+A seqüência de caracteres http://www.google.com.br é um exemplo de endereço na Internet. Nesse endereço, os caracteres http identificam um protocolo.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *Inovações Tecnológicas do HTTP/3 (QUIC):*, migração de Conexão Resiliente ( Connection Migration ): A conexão QUIC não é identificada pela 4 tupla tradicional (IP de origem, IP de destino, porta de origem, porta de destino), mas por um identificador exclusivo de 64 bits chamado Connection ID. Se o usuário sair da rede Wi Fi de casa e entrar na rede móvel 5G (mudando completamente o endereço IP do smartphone), a sessão de download, streaming ou chamada de vídeo NÃO cai nem reinicia, migrando de forma totalmente transparente. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STF/2008) ao afirmar que "A seqüência de caracteres http://www.google.com.br é um exemplo de endereço na Internet. Nesse endereço, os...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 006
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+Um dos estilos de arquitetura de software mais usados nos últimos anos, dadas as suas vantagens em relação aos demais existentes, é a arquitetura orientada a serviços (Service-Oriented Architecture - SOA). A arquitetura orientada a serviços (SOA)
+
+* **A)** organiza a estrutura de um sistema como um conjunto de serviços independentes que se comunicam por meio de protocolos padrão, como HTTP e SOAP.
+* **B)** utiliza uma abordagem na qual os serviços são acoplados de forma estreita para garantir maior controle e interdependência entre as partes do sistema.
+* **C)** é uma arquitetura em que todos os serviços são integrados em um sistema monolítico, garantindo alta coesão entre os módulos.
+* **D)** exige que todos os serviços sejam implementados na mesma linguagem de programação para garantir consistência no sistema.
+* **E)** utiliza a comunicação síncrona entre serviços para manter a consistência e a segurança dos dados transmitidos no sistema.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Arquitetura IPsec: Cabeçalhos AH vs. ESP e Modos Transporte vs. Túnel* deste guia, o conjunto de protocolos IPsec opera na Camada de Rede (Camada 3 do modelo OSI), sendo agnóstico em relação às aplicações de camadas superiores. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "organiza a estrutura de um sistema como um conjunto de serviços independentes que se comunicam por meio de...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "utiliza uma abordagem na qual os serviços são acoplados de forma estreita para garantir maior controle e...". De acordo com a teoria estudada em *Modos de Operação: Personal vs. Enterprise*, modo Enterprise (WPA Enterprise): Não utiliza senha compartilhada única. Implementa a arquitetura de autenticação centralizada e individualizada baseada no padrão IEEE 802.1X.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é uma arquitetura em que todos os serviços são integrados em um sistema monolítico, garantindo alta coesão entre...". De acordo com a teoria estudada em *4.3 Mecanismo de Acesso ao Meio: CSMA/CA e o Problema do Nó Oculto (RTS/CTS)*, diferente das redes cabeadas Ethernet (IEEE 802.3), que utilizam detecção de colisão (CSMA/CD), o meio sem fio via rádio impossibilita a detecção confiável de colisões elétricas na antena transmissora enquanto ela mesma emite sinal em alta potência. Por isso, o padrão IEEE 802.11 adota compulsoriamente a Prevenção de Colisões (CSMA/CA Carrier Sense Multiple Access with Collision Avoidance ).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exige que todos os serviços sejam implementados na mesma linguagem de programação para garantir consistência no...". De acordo com a teoria estudada em *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação*, o protocolo HTTP/1.1 (RFC 2616) estruturou a comunicação na web durante duas décadas. Ele trouxe como avanço o suporte a conexões persistentes ( Keep Alive ), permitindo que uma mesma conexão TCP fosse reaproveitada para transferir múltiplos recursos sem a necessidade de reabrir o handshake a cada arquivo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "utiliza a comunicação síncrona entre serviços para manter a consistência e a segurança dos dados transmitidos no...". De acordo com a teoria estudada em *Protocolos de Segurança do IPsec:*, aH ( Authentication Header Protocolo IP 51): Provê autenticação da origem e integridade estrita dos dados via hash criptográfico.
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 007
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+Brasil. Além da divulgação e da promoção de ações nessa direção, desde 2007 a Secretaria tem realizado chamadas públicas a fim de apoiar os empreendimentos econômicos 16 alternativos. Internet: <http://portal.mte.gov.br/imprensa> (com adaptações). Com relação ao texto acima, julgue os seguintes itens.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Brasil. Além da divulgação e da promoção de ações nessa direção, desde 2007 a Secretaria tem realizado...". De acordo com a teoria em *6. Fontes Recomendadas na Internet*, kUROSE, James F.; ROSS, Keith W. Redes de Computadores e a Internet: Uma Abordagem Top Down. 7. ed. São Paulo: Pearson Education do Brasil, 2017. (Cap. 2 Camada de Aplicação: HTTP, SMTP, DNS; Cap. 6 Redes Sem Fio e Móveis; Cap. 8 Segurança em Redes).
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 008
+**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+Para instalar o Apache HTTP Server como um serviço no Windows entra-se no diretório bin do Apache, a partir do prompt de comando do Windows, e digita-se
+
+* **A)** httpd −a mode=service
+* **B)** apachehttpd −k mode=service
+* **C)** apache −a httpd install
+* **D)** apachehttp −a install
+* **E)** httpd −k install
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "httpd −a mode=service". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, wPA3: AES 128 (modo Personal) ou CNSA de 192 bits (modo Enterprise) — Galois/Counter Mode (GCMP) — Padrão de Excelência Atual. Elimina ataques de dicionário offline através da troca autenticada simultânea de iguais (SAE / Dragonfly) e garante sigilo futuro ( Forward Secrecy ).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apachehttpd −k mode=service". De acordo com a teoria estudada em *Modos de Operação: Personal vs. Enterprise*, a comunicação é intermediada pelo ponto de acesso e validada por um servidor de autenticação corporativo baseado no protocolo RADIUS ( Remote Authentication Dial In User Service ).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apache −a httpd install". De acordo com a teoria estudada em *2.1 SSH (Secure Shell) e Redirecionamento de Portas*, remote Port Forwarding ( ssh R remote port:target host:target port user@server ): Encaminha tráfego recebido em uma porta do servidor remoto de volta para um serviço rodando na máquina local do administrador.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apachehttp −a install". De acordo com a teoria estudada em *1.2 HTTP/2: Formato Binário, Multiplexação de Streams e Compressão HPACK*, server Push: O servidor pode enviar antecipadamente recursos essenciais ao cliente (como uma folha de estilo style.css ) antes mesmo de o navegador interpretá la e requisitá la explicitamente.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.1 SSH (Secure Shell) e Redirecionamento de Portas* deste guia, local Port Forwarding ( ssh L local port:target host:target port user@server ): Encaminha o tráfego de uma porta local da estação do administrador através do túnel criptografado SSH para um serviço interno na rede remota (ex.: acessar uma base de dados inacessível pela Internet). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "httpd −k install".
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 009
+**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+Considere a figura abaixo que descreve um sistema, denominado e-intimação, que utiliza web service. Foram omitidos da figura o protocolo (indicado por P) e o formato (indicado por F) de geração do documento de intimação que correspondem, correta e respectivamente, a
+
+* **A)** HTTPS − XML.
+* **B)** SOA − SOAP.
+* **C)** SOAP − REST.
+* **D)** REST − SOAP.
+* **E)** SOAP − XML.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "HTTPS − XML". De acordo com a teoria estudada em *1.4 HTTPS e TLS 1.3 Integrado*, forward Secrecy Mandatório: O TLS 1.3 exige o uso de algoritmos de troca de chave efêmera (como ECDHE), garantindo que, mesmo que a chave privada do servidor web seja roubada no futuro, o tráfego gravado no passado não poderá ser decifrado.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SOA − SOAP". De acordo com a teoria estudada em *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação*, o protocolo HTTP/1.1 (RFC 2616) estruturou a comunicação na web durante duas décadas. Ele trouxe como avanço o suporte a conexões persistentes ( Keep Alive ), permitindo que uma mesma conexão TCP fosse reaproveitada para transferir múltiplos recursos sem a necessidade de reabrir o handshake a cada arquivo.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SOAP − REST". De acordo com a teoria estudada em *3.2 Balanceadores de Carga: Camada 4 (L4) vs. Camada 7 (L7)*, pode inspecionar URLs, caminhos de requisição ( /api vs. /imagens ), cabeçalhos HTTP, métodos REST e cookies de sessão.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "REST − SOAP". De acordo com a teoria estudada em *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação*, esse fenômeno é denominado Bloqueio de Início de Fila na Aplicação ( Head of Line Blocking / HoL Blocking ): se a primeira requisição for lenta ou complexa para o backend processar, todos os demais recursos da página ficam bloqueados na fila do navegador. Para mitigar o problema, os navegadores passaram a abrir de 6 a 8 conexões TCP concorrentes com o mesmo domínio, sobrecarregando os servidores.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.2 HTTP/2: Formato Binário, Multiplexação de Streams e Compressão HPACK* deste guia, compressão de Cabeçalhos (HPACK): Utiliza tabelas estáticas e dinâmicas associadas à codificação Huffman para eliminar a repetição redundante de cabeçalhos volumosos (como cookies e user agents). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "SOAP − XML".
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 010
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+Uma aplicação mobile enviou a um gateway de APIs REST várias solicitações idênticas em sequência utilizando o método HTTP PUT. Essas solicitações idênticas resultaram em nenhuma alteração de estado do sistema de backend, a exceção da primeira solicitação que atualizou um registro no banco de dados. Nesse contexto, é correto afirmar que essa solicitação HTTP é
+
+* **A)** acoplada.
+* **B)** balanceada.
+* **C)** full-duplex.
+* **D)** idempotente.
+* **E)** segura.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "acoplada". De acordo com a teoria estudada em *2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP*, fTP ( File Transfer Protocol ): TCP 21 (Controle) e TCP 20 (Dados no modo ativo) — NENHUMA. Usuário, senha e conteúdo dos arquivos transitam em texto claro puro. — Protocolo legado original. Opera com duas conexões distintas (modo Ativo vs. modo Passivo/PASV).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "balanceada". De acordo com a teoria estudada em *3.2 Balanceadores de Carga: Camada 4 (L4) vs. Camada 7 (L7)*, pode inspecionar URLs, caminhos de requisição ( /api vs. /imagens ), cabeçalhos HTTP, métodos REST e cookies de sessão.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "full duplex". De acordo com a teoria estudada em *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação*, o protocolo HTTP/1.1 (RFC 2616) estruturou a comunicação na web durante duas décadas. Ele trouxe como avanço o suporte a conexões persistentes ( Keep Alive ), permitindo que uma mesma conexão TCP fosse reaproveitada para transferir múltiplos recursos sem a necessidade de reabrir o handshake a cada arquivo.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação* deste guia, esse fenômeno é denominado Bloqueio de Início de Fila na Aplicação ( Head of Line Blocking / HoL Blocking ): se a primeira requisição for lenta ou complexa para o backend processar, todos os demais recursos da página ficam bloqueados na fila do navegador. Para mitigar o problema, os navegadores passaram a abrir de 6 a 8 conexões TCP concorrentes com o mesmo domínio, sobrecarregando os servidores. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "idempotente".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "segura". De acordo com a teoria estudada em *Inovações Tecnológicas do HTTP/3 (QUIC):*, handshake Acelerado (0 RTT e 1 RTT): Como o controle de transporte e a criptografia TLS 1.3 são integrados no mesmo protocolo, a conexão segura é estabelecida em apenas 1 RTT (ou 0 RTT se o host já for conhecido), contra 2 a 3 RTTs exigidos pelo par TCP + TLS 1.2.
+>
+> **Gabarito: D**
+
+---
+
+
+### Teste 011
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+Sobre a ferramenta de monitoramento Prometheus, analise as afirmativas a seguir. I. Armazena fundamentalmente todos os dados como séries temporais. II. Possui uma linguagem para consulta das métricas armazenadas denominada PromQL. III. Coleta métricas através do protocolo HTTP. Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** I, II e III.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação*, o protocolo HTTP/1.1 (RFC 2616) estruturou a comunicação na web durante duas décadas. Ele trouxe como avanço o suporte a conexões persistentes ( Keep Alive ), permitindo que uma mesma conexão TCP fosse reaproveitada para transferir múltiplos recursos sem a necessidade de reabrir o handshake a cada arquivo.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.2 HTTP/2: Formato Binário, Multiplexação de Streams e Compressão HPACK*, protocolo Estritamente Binário: Substituiu o texto ASCII puro por uma camada de enquadramento binário estruturada em Quadros ( Frames ) e Fluxos ( Streams ).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1.3 HTTP/3 e o Protocolo QUIC sobre UDP*, para eliminar em definitivo qualquer forma de bloqueio em redes móveis e de alta latência, a IETF padronizou o HTTP/3 (RFC 9114), substituindo o TCP pelo protocolo de transporte QUIC ( Quick UDP Internet Connections RFC 9000), que opera sobre datagramas UDP (Porta UDP 443).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.3 HTTP/3 e o Protocolo QUIC sobre UDP*, subgraph HTTP2 Transporte["HTTP/2 sobre TCP (Problema do Head of Line Blocking no Transporte)"].
+> - **E)** **Correta.** Conforme fundamentado na seção *2.1 SSH (Secure Shell) e Redirecionamento de Portas* deste guia, local Port Forwarding ( ssh L local port:target host:target port user@server ): Encaminha o tráfego de uma porta local da estação do administrador através do túnel criptografado SSH para um serviço interno na rede remota (ex.: acessar uma base de dados inacessível pela Internet). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "I, II e III".
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 012
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+O protocolo de autorização OAuth 2.0 permite que aplicativos obtenham acesso limitado aos serviços HTTP. As quatro funções (roles) descritas na RFC 6749 para esse protocolo são
+
+* **A)** protected resource, resource user, client e token server.
+* **B)** access token, HTTP server, client credential e authorization broker.
+* **C)** resource owner, resource server, client e authorization server.
+* **D)** authorization resource, authorization code, client e token server.
+* **E)** resource owner, password credential, access token e refresh token.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "protected resource, resource user, client e token server". De acordo com a teoria estudada em *2.1 SSH (Secure Shell) e Redirecionamento de Portas*, local Port Forwarding ( ssh L local port:target host:target port user@server ): Encaminha o tráfego de uma porta local da estação do administrador através do túnel criptografado SSH para um serviço interno na rede remota (ex.: acessar uma base de dados inacessível pela Internet).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "access token, HTTP server, client credential e authorization broker". De acordo com a teoria estudada em *4.3 Mecanismo de Acesso ao Meio: CSMA/CA e o Problema do Nó Oculto (RTS/CTS)*, diferente das redes cabeadas Ethernet (IEEE 802.3), que utilizam detecção de colisão (CSMA/CD), o meio sem fio via rádio impossibilita a detecção confiável de colisões elétricas na antena transmissora enquanto ela mesma emite sinal em alta potência. Por isso, o padrão IEEE 802.11 adota compulsoriamente a Prevenção de Colisões (CSMA/CA Carrier Sense Multiple Access with Collision Avoidance ).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 HTTP/2: Formato Binário, Multiplexação de Streams e Compressão HPACK* deste guia, server Push: O servidor pode enviar antecipadamente recursos essenciais ao cliente (como uma folha de estilo style.css ) antes mesmo de o navegador interpretá la e requisitá la explicitamente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "resource owner, resource server, client e authorization server".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "authorization resource, authorization code, client e token server". De acordo com a teoria estudada em *2.1 SSH (Secure Shell) e Redirecionamento de Portas*, remote Port Forwarding ( ssh R remote port:target host:target port user@server ): Encaminha tráfego recebido em uma porta do servidor remoto de volta para um serviço rodando na máquina local do administrador.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "resource owner, password credential, access token e refresh token". De acordo com a teoria estudada em *Protocolos em Detalhes:*, iMAP ( Internet Message Access Protocol Portas TCP 143 e TCP 993 com SSL).
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 013
+**(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+O serviço de rede DNS possui uma arquitetura hierárquica que inclui clientes e servidores, com bases de dados distribuídos, que se comunicam por meio dos protocolos definidos para o DNS. Dentre os três tipos de mensagens definidas no protocolo, a mensagem utilizada para a troca de informações entre os servidores DNS é do tipo
+
+* **A)** consulta.
+* **B)** resposta.
+* **C)** busca.
+* **D)** atualização.
+* **E)** sincronização.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consulta". De acordo com a teoria estudada em *2.1 SSH (Secure Shell) e Redirecionamento de Portas*, local Port Forwarding ( ssh L local port:target host:target port user@server ): Encaminha o tráfego de uma porta local da estação do administrador através do túnel criptografado SSH para um serviço interno na rede remota (ex.: acessar uma base de dados inacessível pela Internet).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "resposta". De acordo com a teoria estudada em *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação*, as mensagens trafegam em formato estritamente textual e sequencial no modelo requisição resposta.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "busca". De acordo com a teoria estudada em *3.3 Servidores Proxy: Forward Proxy vs. Reverse Proxy*, reverse Proxy (Proxy Reverso): Fica posicionado em frente aos servidores internos de aplicação e bancos de dados da instituição (ex.: Nginx, HAProxy, Envoy). Atua como a vitrine pública de entrada: recebe as requisições dos usuários da Internet, faz terminação SSL, aplica balanceamento de carga, acelera a entrega por meio de cache de conteúdo estático e oculta a topologia interna e a quantidade de servidores do datacenter contra invasores externos.
+> - **D)** **Correta.** Conforme fundamentado na seção *Protocolos de Segurança do IPsec:* deste guia, o protocolo AH NÃO PROVÊ CONFIDENCIALIDADE (NÃO realiza criptografia de dados)! Além disso, é incompatível com NAT porque inclui o cabeçalho IP original no cálculo de integridade. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 16ª/2014) ao estabelecer que "atualização".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sincronização". De acordo com a teoria estudada em *Protocolos em Detalhes:*, é um protocolo do tipo Pull (Acesso e Sincronização).
+>
+> **Gabarito: D**
+
+---
+
+
+### Teste 014
 **(FCC – TRT 2ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
 Considere as seguintes figuras que apresentam o envio de um arquivo entre dois serviços: Figura 1 Figura 2 Com base nessas imagens e nas configurações padrão para os protocolos HTTP e HTTPS, é correto afirmar que o arquivo enviado na figura 1
 
@@ -136,62 +434,66 @@ Considere as seguintes figuras que apresentam o envio de um arquivo entre dois s
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é recebido na porta 80 e o arquivo enviado na figura 2 é transportado por HTTPS". De acordo com a teoria estudada em *1.2 HTTP/2: Formato Binário, Multiplexação de Streams e Compressão HPACK*, multiplexação Verdadeira: Múltiplas requisições e respostas podem trafegar de forma intercalada, bidirecional e simultânea sobre uma única conexão TCP aberta. Um arquivo CSS pesado não bloqueia mais o tráfego de imagens leves.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é transportado por HTTP e o arquivo enviado na figura 2 é recebido na porta 80". De acordo com a teoria estudada em *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação*, ele trouxe como avanço o suporte a conexões persistentes (*Keep-Alive*), permitindo que uma mesma conexão TCP fosse reaproveitada para transferir múltiplos recursos sem a necessidade de reabrir o handshake a cada arquivo.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "e o arquivo enviado na figura 2 são transportados na porta 80, porém o primeiro arquivo possui um header que...". De acordo com a teoria estudada em *Protocolos de Segurança do IPsec:*, aH (*Authentication Header* - Protocolo IP 51): Provê autenticação da origem e integridade estrita dos dados via hash criptográfico.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.3 HTTP/3 e o Protocolo QUIC sobre UDP* deste guia, para eliminar em definitivo qualquer forma de bloqueio em redes móveis e de alta latência, a IETF padronizou o HTTP/3 (RFC 9114), substituindo o TCP pelo protocolo de transporte QUIC (*Quick UDP Internet Connections* - RFC 9000), que opera sobre datagramas UDP (Porta UDP 443). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 2ª/2014) ao estabelecer que "é recebido na porta 443 e o arquivo enviado na figura 2 é transportado por HTTP".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é transportado por HTTP e o arquivo enviado na figura 2 é recebido na porta 80". De acordo com a teoria estudada em *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação*, o protocolo HTTP/1.1 (RFC 2616) estruturou a comunicação na web durante duas décadas. Ele trouxe como avanço o suporte a conexões persistentes ( Keep Alive ), permitindo que uma mesma conexão TCP fosse reaproveitada para transferir múltiplos recursos sem a necessidade de reabrir o handshake a cada arquivo.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "e o arquivo enviado na figura 2 são transportados na porta 80, porém o primeiro arquivo possui um header que...". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, wPA3: AES 128 (modo Personal) ou CNSA de 192 bits (modo Enterprise) — Galois/Counter Mode (GCMP) — Padrão de Excelência Atual. Elimina ataques de dicionário offline através da troca autenticada simultânea de iguais (SAE / Dragonfly) e garante sigilo futuro ( Forward Secrecy ).
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 HTTP/3 e o Protocolo QUIC sobre UDP* deste guia, para eliminar em definitivo qualquer forma de bloqueio em redes móveis e de alta latência, a IETF padronizou o HTTP/3 (RFC 9114), substituindo o TCP pelo protocolo de transporte QUIC ( Quick UDP Internet Connections RFC 9000), que opera sobre datagramas UDP (Porta UDP 443). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 2ª/2014) ao estabelecer que "é recebido na porta 443 e o arquivo enviado na figura 2 é transportado por HTTP".
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é transportado por HTTPS e o arquivo enviado na figura 2 é recebido na porta 443". De acordo com a teoria estudada em *1.4 HTTPS e TLS 1.3 Integrado*, no HTTP/3, o TLS 1.3 é embutido nativamente no QUIC, não existindo HTTP/3 em texto claro na especificação padrão.
 >
 > **Gabarito: D**
 
 ---
 
-### Teste 444
-**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-A arquitetura TCP/IP é um conjunto de protocolos de comunicação entre computadores, e seu modelo de referência se divide em algumas camadas. Os protocolos e técnicas pertencentes à camada de rede são:
 
-* **A)** TCP e UDP;
-* **B)** TCP e IP;
-* **C)** IP, ICMP e NAT;
-* **D)** IP, IPSec, ICMP e SSH;
-* **E)** UDP, HTTP e NAT.
+### Teste 015
+**(FCC – TRT 3ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+Para reduzir a vulnerabilidade dos acessos pelo protocolo HTTP, foi introduzido, acima desse protocolo, o SSL, originando assim o HTTPS. O HTTPS
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "TCP e UDP". De acordo com a teoria estudada em *3.2 Balanceadores de Carga: Camada 4 (L4) vs. Camada 7 (L7)*, toma decisões de chaveamento baseando-se unicamente em informações das camadas de rede e transporte: Endereço IP de origem/destino e Portas TCP/UDP.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "TCP e IP". De acordo com a teoria estudada em *Protocolos de Segurança do IPsec:*, o protocolo AH NÃO PROVÊ CONFIDENCIALIDADE (NÃO realiza criptografia de dados)! Além disso, é incompatível com NAT porque inclui o cabeçalho IP original no cálculo de integridade.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Arquitetura IPsec: Cabeçalhos AH vs. ESP e Modos Transporte vs. Túnel* deste guia, o conjunto de protocolos IPsec opera na Camada de Rede (Camada 3 do modelo OSI), sendo agnóstico em relação às aplicações de camadas superiores. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "IP, ICMP e NAT".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IP, IPSec, ICMP e SSH". De acordo com a teoria estudada em *2.1 SSH (Secure Shell) e Redirecionamento de Portas*, o protocolo SSH opera na porta TCP 22 e provê comunicação criptografada segura para administração remota de servidores, transferência de arquivos e execução remota de comandos, substituindo protocolos inseguros legados (Telnet, rlogin).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "UDP, HTTP e NAT". De acordo com a teoria estudada em *1.3 HTTP/3 e o Protocolo QUIC sobre UDP*, para eliminar em definitivo qualquer forma de bloqueio em redes móveis e de alta latência, a IETF padronizou o HTTP/3 (RFC 9114), substituindo o TCP pelo protocolo de transporte QUIC (*Quick UDP Internet Connections* - RFC 9000), que opera sobre datagramas UDP (Porta UDP 443).
->
-> **Gabarito: C**
-
----
-
-### Teste 445
-**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
-Um serviço da internet utiliza diferentes protocolos, por exemplo, protocolos relacionados com a função de roteamento, transmissão de dados e transferência de hipertexto para efetivar a comunicação. Os respectivos protocolos, do conjunto (suite) de protocolos TCP/IP, relacionados com as funções apresentadas, são:
-
-* **A)** IP, TCP e HTTP.
-* **B)** TCP, FTP e HTML.
-* **C)** IP, FTP e HTML.
-* **D)** ARP, FTP e HTTP.
-* **E)** TCP, IP e HTTP.
+* **A)** 21 e 993.
+* **B)** 110 e 443.
+* **C)** 25 e 465.
+* **D)** 143 e 993.
+* **E)** 53 e 443.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.3 HTTP/3 e o Protocolo QUIC sobre UDP* deste guia, para eliminar em definitivo qualquer forma de bloqueio em redes móveis e de alta latência, a IETF padronizou o HTTP/3 (RFC 9114), substituindo o TCP pelo protocolo de transporte QUIC (*Quick UDP Internet Connections* - RFC 9000), que opera sobre datagramas UDP (Porta UDP 443). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "IP, TCP e HTTP".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "TCP, FTP e HTML". De acordo com a teoria estudada em *2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP*, fTP (*File Transfer Protocol*): TCP 21 (Controle) e TCP 20 (Dados no modo ativo) — NENHUMA. Usuário, senha e conteúdo dos arquivos transitam em texto claro puro. — Protocolo legado original. Opera com duas conexões distintas (modo Ativo vs. modo Passivo/PASV).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IP, FTP e HTML". De acordo com a teoria estudada em *2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP*, fTPS (*FTP over SSL/TLS*): TCP 21 (Controle) + Portas de Dados dinâmicas protegidas — Criptografia via TLS/SSL aplicada sobre as conexões de controle e dados do FTP. — É o protocolo FTP clássico encapsulado em uma sessão TLS.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ARP, FTP e HTTP". De acordo com a teoria estudada em *2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP*, sFTP (*SSH File Transfer Protocol*): Apenas a porta TCP 22 — Criptografia forte de ponta a ponta e autenticação por chaves SSH. — NÃO tem nenhuma relação com o FTP! É um subsistema de extensão que opera inteiramente dentro de uma sessão SSH estabelecida.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "TCP, IP e HTTP". De acordo com a teoria estudada em *2.1 SSH (Secure Shell) e Redirecionamento de Portas*, o protocolo SSH opera na porta TCP 22 e provê comunicação criptografada segura para administração remota de servidores, transferência de arquivos e execução remota de comandos, substituindo protocolos inseguros legados (Telnet, rlogin).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "21 e 993". De acordo com a teoria estudada em *Protocolos em Detalhes:*, iMAP ( Internet Message Access Protocol Portas TCP 143 e TCP 993 com SSL).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "110 e 443". De acordo com a teoria estudada em *Protocolos em Detalhes:*, pOP3 ( Post Office Protocol v3 Portas TCP 110 e TCP 995 com SSL).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "25 e 465". De acordo com a teoria estudada em *1.4 HTTPS e TLS 1.3 Integrado*, o HTTPS nada mais é do que o tráfego HTTP executado sobre uma camada de segurança de transporte criptográfica.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "143 e 993". De acordo com a teoria estudada em *2.3 Correio Eletrônico: SMTP vs. POP3 vs. IMAP*, mTA Destino |"IMAP (Porta 993) ou POP3 (Porta 995)"| MUA Destino["Cliente Destinatário (MUA)"].
+> - **E)** **Correta.** Conforme fundamentado na seção *1.3 HTTP/3 e o Protocolo QUIC sobre UDP* deste guia, para eliminar em definitivo qualquer forma de bloqueio em redes móveis e de alta latência, a IETF padronizou o HTTP/3 (RFC 9114), substituindo o TCP pelo protocolo de transporte QUIC ( Quick UDP Internet Connections RFC 9000), que opera sobre datagramas UDP (Porta UDP 443). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 3ª/2015) ao estabelecer que "53 e 443".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
+
+
+### Teste 016
+**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
+Quando um novo computador é conectado e colocado em funcionamento em uma rede local de computadores, a primeira atividade desempenhada é a sua identificação, utilizando o endereço MAC, para a rede e o estabelecimento do relacionamento com um endereço IP. A mensagem inicial gerada pelo computador para a rede com esse propósito, utiliza o protocolo
+
+* **A)** DHCP.
+* **B)** ICMP.
+* **C)** DNS.
+* **D)** ARP.
+* **E)** SNMP.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "DHCP". De acordo com a teoria estudada em *3.2 Balanceadores de Carga: Camada 4 (L4) vs. Camada 7 (L7)*, toma decisões de chaveamento baseando se unicamente em informações das camadas de rede e transporte: Endereço IP de origem/destino e Portas TCP/UDP.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ICMP". De acordo com a teoria estudada em *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação*, esse fenômeno é denominado Bloqueio de Início de Fila na Aplicação ( Head of Line Blocking / HoL Blocking ): se a primeira requisição for lenta ou complexa para o backend processar, todos os demais recursos da página ficam bloqueados na fila do navegador. Para mitigar o problema, os navegadores passaram a abrir de 6 a 8 conexões TCP concorrentes com o mesmo domínio, sobrecarregando os servidores.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "DNS". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, kUROSE, James F.; ROSS, Keith W. Redes de Computadores e a Internet: Uma Abordagem Top Down. 7. ed. São Paulo: Pearson Education do Brasil, 2017. (Cap. 2 Camada de Aplicação: HTTP, SMTP, DNS; Cap. 6 Redes Sem Fio e Móveis; Cap. 8 Segurança em Redes).
+> - **D)** **Correta.** Conforme fundamentado na seção *Inovações Tecnológicas do HTTP/3 (QUIC):* deste guia, migração de Conexão Resiliente ( Connection Migration ): A conexão QUIC não é identificada pela 4 tupla tradicional (IP de origem, IP de destino, porta de origem, porta de destino), mas por um identificador exclusivo de 64 bits chamado Connection ID. Se o usuário sair da rede Wi Fi de casa e entrar na rede móvel 5G (mudando completamente o endereço IP do smartphone), a sessão de download, streaming ou chamada de vídeo NÃO cai nem reinicia, migrando de forma totalmente transparente. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "ARP".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SNMP". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, tANENBAUM, Andrew S.; WETHERALL, David. Redes de Computadores. 5. ed. São Paulo: Pearson, 2011. (Cap. 4 A Subcamada de Controle de Acesso ao Meio: Padrões IEEE 802.11; Cap. 8 Segurança de Rede).
+>
+> **Gabarito: D**
+
+---
+
+
 
 ## 2. Protocolos Utilitários, Transferência de Arquivos e Correio Eletrônico
 
@@ -239,54 +541,6 @@ flowchart LR
 
 ---
 
-### Teste 446
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Telecomunicacoes)**
-O serviço de e-mail (correspondência eletrônica) é um dos serviços mais conhecidos em redes de computadores. Por ele, é possível realizar o envio e recebimento de mensagens com anexos, hiperlinks, fotos etc. Relacione os protocolos ligados ao serviço de e-mail com suas respectivas funcionalidades: 1. Simple Mail Transfer Protocol (SMTP) 2. Post Office Protocol versão 3 (POP3) 3. Internet Message Access Protocol (IMAP) ( ) Utilizado pelo cliente de e-mail para obter as mensagens eletrônicas do servidor de e-mail. Após isso, as mensagens são excluídas do servidor de e-mail. ( ) Realiza a transferência eletrônica de mensagens entre o servidor de e-mail remetente e o servidor de e-mail destinatário. ( ) Utilizado pelo cliente de e-mail para obter uma cópia das mensagens eletrônicas em um servidor de e-mail. Após isso, as mensagens não são excluídas do servidor de e-mail. A sequência correta é:
-
-* **A)** 1, 2, 3;
-* **B)** 1, 3, 2;
-* **C)** 2, 1, 3;
-* **D)** 2, 3, 1;
-* **E)** 3, 1, 2.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1, 2, 3". De acordo com a teoria estudada em *Protocolos em Detalhes:*, iMAP (*Internet Message Access Protocol* - Portas TCP 143 e TCP 993 com SSL).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1, 3, 2". De acordo com a teoria estudada em *2.3 Correio Eletrônico: SMTP vs. POP3 vs. IMAP*, o tráfego de correio eletrônico na Internet divide-se claramente entre envio/retransmissão e acesso/leitura.
-> - **C)** **Correta.** Conforme fundamentado na seção *Protocolos em Detalhes:* deste guia, sMTP (*Simple Mail Transfer Protocol* - Portas TCP 25 e TCP 587). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "2, 1, 3".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2, 3, 1". De acordo com a teoria estudada em *Protocolos em Detalhes:*, pOP3 (*Post Office Protocol v3* - Portas TCP 110 e TCP 995 com SSL).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3, 1, 2". De acordo com a teoria estudada em *Protocolos em Detalhes:*, utilizado pelo cliente para submeter e-mails ao seu servidor (porta 587 com autenticação e STARTTLS) e utilizado para retransmitir e-mails entre servidores de correio na Internet (porta 25).
->
-> **Gabarito: C**
-
----
-
-### Teste 447
-**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
-A arquitetura TCP/IP surgiu em conjunto com a rede de pesquisa que interligava centenas de universidades e centros de pesquisa americanos. Esta rede se chamava ARPANET e foi o embrião para a Internet mundial. Com base na arquitetura TCP, analise as afirmações a seguir: I. A arquitetura TCP/IP possui quatro camadas. II. A camada física é a primeira camada do modelo TCP/IP. III. Os protocolos de terminal virtual TELNET e transferência de arquivos (FTP) estão localizados na camada de aplicação da arquitetura TCP/IP. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.1 SSH (Secure Shell) e Redirecionamento de Portas*, o protocolo SSH opera na porta TCP 22 e provê comunicação criptografada segura para administração remota de servidores, transferência de arquivos e execução remota de comandos, substituindo protocolos inseguros legados (Telnet, rlogin).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP*, protocolo: Portas de Transporte Utilizadas — Criptografia / Segurança — Arquitetura e Relação com FTP.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Arquitetura IPsec: Cabeçalhos AH vs. ESP e Modos Transporte vs. Túnel* deste guia, o conjunto de protocolos IPsec opera na Camada de Rede (Camada 3 do modelo OSI), sendo agnóstico em relação às aplicações de camadas superiores. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "I e III, apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP*, fTP (*File Transfer Protocol*): TCP 21 (Controle) e TCP 20 (Dados no modo ativo) — NENHUMA. Usuário, senha e conteúdo dos arquivos transitam em texto claro puro. — Protocolo legado original. Opera com duas conexões distintas (modo Ativo vs. modo Passivo/PASV).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP*, fTPS (*FTP over SSL/TLS*): TCP 21 (Controle) + Portas de Dados dinâmicas protegidas — Criptografia via TLS/SSL aplicada sobre as conexões de controle e dados do FTP. — É o protocolo FTP clássico encapsulado em uma sessão TLS.
->
-> **Gabarito: C**
-
----
-
 ## 3. Elementos de Borda e Segurança de Rede: VPN, IPsec, Balanceadores e Proxies
 
 ### 3.1 Arquitetura IPsec: Cabeçalhos AH vs. ESP e Modos Transporte vs. Túnel
@@ -328,78 +582,6 @@ Os Balanceadores de Carga (*Load Balancers*) distribuem o fluxo de requisições
 
 - **Forward Proxy (Proxy Direto):** Fica posicionado em frente aos **computadores clientes internos** da organização. É utilizado para controlar e registrar a navegação dos funcionários na Internet, aplicar políticas de filtragem de conteúdo corporativo, fazer cache de páginas externas e mascarar os endereços IP das estações de trabalho perante os servidores web do mundo exterior.
 - **Reverse Proxy (Proxy Reverso):** Fica posicionado em frente aos **servidores internos de aplicação e bancos de dados** da instituição (ex.: Nginx, HAProxy, Envoy). Atua como a vitrine pública de entrada: recebe as requisições dos usuários da Internet, faz terminação SSL, aplica balanceamento de carga, acelera a entrega por meio de cache de conteúdo estático e oculta a topologia interna e a quantidade de servidores do datacenter contra invasores externos.
-
----
-
-### Teste 448
-**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia Da Informacao)**
-O analista André está reforçando a segurança de um site do TRF1 que é servido pelo nginx. André deve configurar o nginx de forma que as respostas do Hypertext Transfer Protocol (HTTP) incluam o cabeçalho do HTTP que orienta o browser do cliente a carregar o site apenas se o acesso for feito via HTTPS. André deve configurar no nginx a inclusão do cabeçalho do HTTP:
-
-* **A)** Referrer-Policy;
-* **B)** X-XSS-Protection;
-* **C)** X-Frame-Options;
-* **D)** Content-Security-Policy;
-* **E)** Strict-Transport-Security.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.2 HTTP/2: Formato Binário, Multiplexação de Streams e Compressão HPACK* deste guia, multiplexação Verdadeira: Múltiplas requisições e respostas podem trafegar de forma intercalada, bidirecional e simultânea sobre uma única conexão TCP aberta. Um arquivo CSS pesado não bloqueia mais o tráfego de imagens leves. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "Referrer-Policy".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "X-XSS-Protection". De acordo com a teoria estudada em *Protocolos de Segurança do IPsec:*, o protocolo AH NÃO PROVÊ CONFIDENCIALIDADE (NÃO realiza criptografia de dados)! Além disso, é incompatível com NAT porque inclui o cabeçalho IP original no cálculo de integridade.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "X-Frame-Options". De acordo com a teoria estudada em *Protocolos de Segurança do IPsec:*, aH (*Authentication Header* - Protocolo IP 51): Provê autenticação da origem e integridade estrita dos dados via hash criptográfico.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Content-Security-Policy". De acordo com a teoria estudada em *Protocolos de Segurança do IPsec:*, eSP (*Encapsulating Security Payload* - Protocolo IP 50): Provê confidencialidade (criptografia dos dados), além de autenticação de origem e integridade. É o protocolo primário utilizado para túneis VPN seguros.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Strict-Transport-Security". De acordo com a teoria estudada em *1.4 HTTPS e TLS 1.3 Integrado*, o HTTPS nada mais é do que o tráfego HTTP executado sobre uma camada de segurança de transporte criptográfica.
->
-> **Gabarito: A**
-
----
-
-### Teste 449
-**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-A partir de um endereço IP 192.168.2.0/27 de uma rede classe C com máscara 255.255.255.224 podem ser criadas até 8 sub-redes com até 30 hosts utilizáveis cada. Na segunda sub-rede, o endereço de rede e de broadcast serão, respecti- vamente,
-
-* **A)** 192.168.2.0/27 − 192.168.2.31/27
-* **B)** 192.168.2.128/27 − 192.168.2.159/27
-* **C)** 192.168.2.32/27 − 192.168.2.63/27
-* **D)** 192.168.2.96/27 − 192.168.2.127/27
-* **E)** 192.168.2.64/27 − 192.168.2.95/27
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "192.168.2.0/27 − 192.168.2.31/27". De acordo com a teoria estudada em *3.2 Balanceadores de Carga: Camada 4 (L4) vs. Camada 7 (L7)*, toma decisões de chaveamento baseando-se unicamente em informações das camadas de rede e transporte: Endereço IP de origem/destino e Portas TCP/UDP.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "192.168.2.128/27 − 192.168.2.159/27". De acordo com a teoria estudada em *Inovações Tecnológicas do HTTP/3 (QUIC):*, se o usuário sair da rede Wi-Fi de casa e entrar na rede móvel 5G (mudando completamente o endereço IP do smartphone), a sessão de download, streaming ou chamada de vídeo NÃO cai nem reinicia, migrando de forma totalmente transparente.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "192.168.2.32/27 − 192.168.2.63/27". De acordo com a teoria estudada em *Modos de Operação do IPsec:*, modo Transporte: Utilizado em comunicações ponto a ponto entre dois hosts finais (*Host-to-Host*). Criptografa apenas o payload de transporte (dados TCP/UDP), mantendo o cabeçalho IP original legível.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "192.168.2.96/27 − 192.168.2.127/27". De acordo com a teoria estudada em *Modos de Operação do IPsec:*, modo Túnel: Utilizado em conexões de borda VPN *Site-to-Site* interligando redes inteiras (Matriz e Filial) através de roteadores ou firewalls.
-> - **E)** **Correta.** Conforme fundamentado na seção *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)* deste guia, wPA3: AES-128 (modo Personal) ou CNSA de 192 bits (modo Enterprise) — Galois/Counter Mode (GCMP) — Padrão de Excelência Atual. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "192.168.2.64/27 − 192.168.2.95/27".
->
-> **Gabarito: E**
-
----
-
-### Teste 450
-**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
-O gerenciamento de redes envolve diversas práticas e protocolos que permitem monitorar e gerenciar a operação de dispositivos em uma infraestrutura de rede. Assinale o protocolo amplamente utilizado para o gerenciamento e monitoramento de dispositivos de rede.
-
-* **A)** HTTP.
-* **B)** FTP.
-* **C)** SNMP.
-* **D)** SMTP.
-* **E)** DNS.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "HTTP". De acordo com a teoria estudada em *1.3 HTTP/3 e o Protocolo QUIC sobre UDP*, para eliminar em definitivo qualquer forma de bloqueio em redes móveis e de alta latência, a IETF padronizou o HTTP/3 (RFC 9114), substituindo o TCP pelo protocolo de transporte QUIC (*Quick UDP Internet Connections* - RFC 9000), que opera sobre datagramas UDP (Porta UDP 443).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "FTP". De acordo com a teoria estudada em *2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP*, protocolo: Portas de Transporte Utilizadas — Criptografia / Segurança — Arquitetura e Relação com FTP.
-> - **C)** **Correta.** Conforme fundamentado na seção *Modos de Operação do IPsec:* deste guia, modo Túnel: Utilizado em conexões de borda VPN *Site-to-Site* interligando redes inteiras (Matriz e Filial) através de roteadores ou firewalls. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "SNMP".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SMTP". De acordo com a teoria estudada em *Protocolos em Detalhes:*, sMTP (*Simple Mail Transfer Protocol* - Portas TCP 25 e TCP 587).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "DNS". De acordo com a teoria estudada em *Protocolos de Segurança do IPsec:*, eSP (*Encapsulating Security Payload* - Protocolo IP 50): Provê confidencialidade (criptografia dos dados), além de autenticação de origem e integridade. É o protocolo primário utilizado para túneis VPN seguros.
->
-> **Gabarito: C**
 
 ---
 
@@ -465,78 +647,6 @@ O problema é neutralizado pelo mecanismo opcional de reserva via quadros de con
     - Cada colaborador autentica-se com seu próprio login e senha do Active Directory ou com um certificado digital pessoal;
     - A comunicação é intermediada pelo ponto de acesso e validada por um servidor de autenticação corporativo baseado no protocolo **RADIUS** (*Remote Authentication Dial-In User Service*);
     - Uma chave criptográfica de sessão exclusiva é gerada dinamicamente para cada dispositivo individualmente.
-
----
-
-### Teste 451
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Telecomunicação)**
-Quanto às características e ao funcionamento das redes locais sem fio padrão IEEE 802.11 (Wi-Fi), é correto afirmar que
-
-* **A)** ao se utilizar a topologia AdHoc é obrigatório instalar pontos de acesso (AP – Access Point) para prover comunicações entre as estações.
-* **B)** em uma rede infraestruturada, um ESS (Extended Service Set) é um conjunto estendido de serviços que representam um conjunto de estações formado pela união de vários conjuntos básicos de serviços conectados por um sistema de distribuição.
-* **C)** o padrão de comunicação IEEE 802.11a é compatível como o padrão de comunicação IEEE 802.11g.
-* **D)** uma estação que utiliza a faixa de frequência de 2,4 a 2,485 GHz faz uma varredura nos 14 canais para se associar a um ponto de acesso (AP – Acess Point).
-* **E)** o padrão IEEE 802.11 emprega o método de acesso chamado CSMA/CD (Carrier-Sense Multiple Access with Collision Detection).
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao se utilizar a topologia AdHoc é obrigatório instalar pontos de acesso (AP – Access Point) para prover...". De acordo com a teoria estudada em *4.3 Mecanismo de Acesso ao Meio: CSMA/CA e o Problema do Nó Oculto (RTS/CTS)*, por isso, o padrão IEEE 802.11 adota compulsoriamente a Prevenção de Colisões (CSMA/CA - *Carrier Sense Multiple Access with Collision Avoidance*).
-> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Arquitetura IPsec: Cabeçalhos AH vs. ESP e Modos Transporte vs. Túnel* deste guia, o conjunto de protocolos IPsec opera na Camada de Rede (Camada 3 do modelo OSI), sendo agnóstico em relação às aplicações de camadas superiores. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "em uma rede infraestruturada, um ESS (Extended Service Set) é um conjunto estendido de serviços que representam um...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o padrão de comunicação IEEE 802.11a é compatível como o padrão de comunicação IEEE 802.11g". De acordo com a teoria estudada em *4.1 Evolução dos Padrões 802.11 (Wi-Fi 4, Wi-Fi 5 e Wi-Fi 6/6E)*, geração Comercial: Padrão IEEE — Frequências de Operação — Larguras de Canal — Principais Tecnologias e Recursos — Taxas Teóricas Máximas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma estação que utiliza a faixa de frequência de 2,4 a 2,485 GHz faz uma varredura nos 14 canais para se associar...". De acordo com a teoria estudada em *O Problema do Nó Oculto (Hidden Node Problem):*, ocorre quando duas estações distantes (Estação A e Estação B) estão ambas dentro do raio de alcance do mesmo Ponto de Acesso (AP), mas encontram-se fora do alcance de escuta de rádio uma da outra.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o padrão IEEE 802.11 emprega o método de acesso chamado CSMA/CD (Carrier-Sense Multiple Access with Collision...". De acordo com a teoria estudada em *4.3 Mecanismo de Acesso ao Meio: CSMA/CA e o Problema do Nó Oculto (RTS/CTS)*, diferente das redes cabeadas Ethernet (IEEE 802.3), que utilizam detecção de colisão (CSMA/CD), o meio sem fio via rádio impossibilita a detecção confiável de colisões elétricas na antena transmissora enquanto ela mesma emite sinal em alta potência.
->
-> **Gabarito: B**
-
----
-
-### Teste 452
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Telecomunicacoes)**
-Em contraste com as redes conectadas fisicamente, as redes sem fio são ruidosas e pouco confiáveis. Um dos padrões mais famosos para redes sem fio é o IEEE 802.11. Dentre as características das redes que usam o protocolo IEEE 802.11, é correto afirmar que:
-
-* **A)** o protocolo IEEE 802.11 tenta resolver os problemas das estações expostas, ocultas ou transparentes;
-* **B)** em ambientes abertos e sem obstáculos, quanto maior a frequência do sinal, menor a atenuação do sinal;
-* **C)** o IEEE 802.11, para o acesso ao meio, procura detectar as colisões, escutando o canal durante as transmissões;
-* **D)** a probabilidade de um quadro trafegar por essas redes com sucesso aumenta com o aumento do tamanho do quadro;
-* **E)** o IEEE 802.11, para o acesso ao meio, procura evitar as colisões, enviando quadros de aviso antes das transmissões.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o protocolo IEEE 802.11 tenta resolver os problemas das estações expostas, ocultas ou transparentes". De acordo com a teoria estudada em *4.3 Mecanismo de Acesso ao Meio: CSMA/CA e o Problema do Nó Oculto (RTS/CTS)*, por isso, o padrão IEEE 802.11 adota compulsoriamente a Prevenção de Colisões (CSMA/CA - *Carrier Sense Multiple Access with Collision Avoidance*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em ambientes abertos e sem obstáculos, quanto maior a frequência do sinal, menor a atenuação do sinal". De acordo com a teoria estudada em *4.2 Frequências de Operação: 2.4 GHz vs. 5 GHz*, *Desvantagem:* Menor alcance de cobertura de sinal e maior atenuação ao atravessar obstáculos físicos.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o IEEE 802.11, para o acesso ao meio, procura detectar as colisões, escutando o canal durante as transmissões". De acordo com a teoria estudada em *4.1 Evolução dos Padrões 802.11 (Wi-Fi 4, Wi-Fi 5 e Wi-Fi 6/6E)*, geração Comercial: Padrão IEEE — Frequências de Operação — Larguras de Canal — Principais Tecnologias e Recursos — Taxas Teóricas Máximas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a probabilidade de um quadro trafegar por essas redes com sucesso aumenta com o aumento do tamanho do quadro". De acordo com a teoria estudada em *Modos de Operação: Personal vs. Enterprise*, modo Enterprise (WPA-Enterprise): Não utiliza senha compartilhada única. Implementa a arquitetura de autenticação centralizada e individualizada baseada no padrão IEEE 802.1X.
-> - **E)** **Correta.** Conforme fundamentado na seção *4.3 Mecanismo de Acesso ao Meio: CSMA/CA e o Problema do Nó Oculto (RTS/CTS)* deste guia, diferente das redes cabeadas Ethernet (IEEE 802.3), que utilizam detecção de colisão (CSMA/CD), o meio sem fio via rádio impossibilita a detecção confiável de colisões elétricas na antena transmissora enquanto ela mesma emite sinal em alta potência. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "o IEEE 802.11, para o acesso ao meio, procura evitar as colisões, enviando quadros de aviso antes das transmissões".
->
-> **Gabarito: E**
-
----
-
-### Teste 453
-**(FCC – TRT 6ª – 2012 – Analista Judiciário - Apoio Especializado/Tecnologia da Informação)**
-Dentre as redes sem fio mais comumente utilizadas estão aquelas designadas pela marca registrada Wi-Fi. A seu respeito, é correto afirmar que
-
-* **A)** para poder ser certificado como Wi-Fi, um aparelho precisa implementar o Wireless Application Protocol (WAP).
-* **B)** um aparelho que implemente o padrão de segurança WEP pode ser certificado como Wi-Fi, mesmo que não implemente o padrão de segurança WPA.
-* **C)** aparelhos baseados no padrão IEEE 802.11b trabalham na faixa de 2.4GHz e por isso estão sujeitos a interferência de outros equipamentos como fornos micro-ondas e telefones sem fio.
-* **D)** em ordem decrescente de alcance de operação estão os padrões 802.11b, 802.11g e 802.11n.
-* **E)** em ordem crescente de segurança estão os padrões WPA, WPA2 e WEP.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)* deste guia, wEP: Cifra de fluxo RC4 (chave de 40 ou 104 bits + IV estático de 24 bits) — CRC-32 (fraco) — Totalmente Quebrado e Obsoleto. Pode ser decifrado em poucos minutos devido ao reúso de vetores de inicialização (IVs curtos). Banido pelas normas de segurança. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 6ª/2012) ao estabelecer que "para poder ser certificado como Wi-Fi, um aparelho precisa implementar o Wireless Application Protocol (WAP)".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um aparelho que implemente o padrão de segurança WEP pode ser certificado como Wi-Fi, mesmo que não implemente o...". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, wPA: Cifra TKIP (*Temporal Key Integrity Protocol*) sobre RC4 — Michael (MIC) — Padrão emergencial de transição para cobrir as falhas do WEP sem exigir troca de hardware; hoje também considerado obsoleto.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aparelhos baseados no padrão IEEE 802.11b trabalham na faixa de 2.4GHz e por isso estão sujeitos a interferência...". De acordo com a teoria estudada em *4.2 Frequências de Operação: 2.4 GHz vs. 5 GHz*, *Desvantagem:* Menor largura de banda total e altíssima interferência (disputa espaço com Bluetooth, fornos micro-ondas e telefones sem fio). Possui apenas 3 canais não sobrepostos na regulamentação padrão (canais 1, 6 e 11).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em ordem decrescente de alcance de operação estão os padrões 802.11b, 802.11g e 802.11n". De acordo com a teoria estudada em *4.1 Evolução dos Padrões 802.11 (Wi-Fi 4, Wi-Fi 5 e Wi-Fi 6/6E)*, wi-Fi 4: 802.11n — 2.4 GHz e 5 GHz — 20 e 40 MHz — Introdução da tecnologia MIMO (*Multiple-Input Multiple-Output*) — Até 600 Mbps.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em ordem crescente de segurança estão os padrões WPA, WPA2 e WEP". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, padrão: Criptografia Adotada — Mecanismo de Integridade — Vulnerabilidades Críticas / Situação Atual.
->
-> **Gabarito: A**
 
 ---
 

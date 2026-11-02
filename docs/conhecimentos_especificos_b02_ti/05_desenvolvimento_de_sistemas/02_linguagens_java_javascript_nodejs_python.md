@@ -4,10 +4,7 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `02_linguagens_java_javascript_nodejs_python.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Programação em Java (conceitos básicos)
@@ -307,7 +304,64 @@ Permite o processamento declarativo e funcional de coleções de dados:
 
 ---
 
-### Teste 065
+### Teste 001
+**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
+O Swagger é um conjunto de ferramentas voltado para o desenvolvimento de todo o ciclo de vida da API, incluindo as etapas de design, documentação, teste e implantação. 108 import java.io.*; class Easy { public static void main(String[] args) { int x[] = {1, 3, 7, 22, 51}; for (int size : x) System.out.print(size); } } O resultado da execução do código precedente, desenvolvido em Java, será 6.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRF 6ª/2025) ao afirmar que "O Swagger é um conjunto de ferramentas voltado para o desenvolvimento de todo o ciclo de vida da API...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 002
+**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
+MapStruct é um gerador de código que simplifica a implementação de mapeamentos entre tipos de bean Java.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jDK (Java Development Kit): O kit completo para engenheiros de software. Engloba toda a JRE mais ferramentas de desenvolvimento fundamentais: o compilador javac , empacotador jar , gerador de documentação javadoc , desassemblador javap e utilitários de diagnóstico e depuração ( jconsole , jstack , jps ). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STJ/2024) ao afirmar que "MapStruct é um gerador de código que simplifica a implementação de mapeamentos entre tipos de bean Java".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 003
+**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
+Considere o seguinte código, escrito em Java. class Main { public static void main(String[] args) { int x = 11, y = -7, z = 22; int resultado = (x >= y) ? ((x >= z) ? x : z) : ((y >= z) ? y : z); System.out.println(“Resultado: “ + resultado); } } A partir do código precedente, é correto afirmar que a execução desse código apresentará o seguinte resultado. Resultado: 22
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, a["Código Fonte (.java)"] |"Compilador javac"| B["Bytecode (.class)"]. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STJ/2024) ao afirmar que "Considere o seguinte código, escrito em Java. class Main { public static void main(String[] args) { int x =...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 004
 **(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
 Swagger é uma interface API compatível com Java que permite que dois sistemas computacionais troquem informações com ausência de estado.
 
@@ -318,38 +372,84 @@ Swagger é uma interface API compatível com Java que permite que dois sistemas 
 
 > **Comentário Detalhado:**
 >
-> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Swagger é uma interface API compatível com Java que permite que dois sistemas computacionais troquem...". De acordo com a teoria estudada em *Stream API*, permite o processamento declarativo e funcional de coleções de dados.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré-compilados. Contém a JVM, as bibliotecas padrão da API Java (`rt.jar` ou módulos JPMS) e arquivos de configuração de suporte. Portanto, a assertiva examinada pela banca (CEBRASPE – STJ/2024) viola os preceitos técnicos do tópico.
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Swagger é uma interface API compatível com Java que permite que dois sistemas computacionais troquem...". De acordo com a teoria em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
 >
 > **Gabarito: E**
 
 ---
 
-### Teste 066
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
-Na programação estruturada, os laços de repetição são fundamentais para executar uma determinada sequência de instruções várias vezes, facilitando a automação de tarefas repetitivas. Dois dos laços mais comuns são os comandos "for" e "while", cada um com suas características específicas. Assinale a opção que descreve corretamente as diferenças entre os laços "for" e "while" na programação estruturada.
 
-* **A)** O laço "for" é adequado para situações em que o número de iterações é conhecido antecipadamente, enquanto o laço "while" atende situações em que o número de iterações é desconhecido e depende de uma condição.
-* **B)** O laço "for" é usado quando se deseja percorrer uma coleção de elementos, como uma lista ou um array, enquanto o laço "while" é aplicado em situações em que é necessário repetir uma ação até que uma condição específica seja atendida.
-* **C)** O laço "for" é uma opção mais flexível, pois permite a declaração e inicialização de variáveis de controle dentro da própria estrutura do laço, enquanto o laço "while" exige que essas variáveis sejam definidas antes do laço.
-* **D)** O laço "while" é mais propenso a causar loops infinitos se a condição de parada não for adequadamente definida, enquanto o laço "for" oferece controle sobre o número de iterações devido à sua estrutura mais definida.
-* **E)** O laço "while" é mais eficiente em termos de desempenho do que o laço "for", pois avalia a condição de parada apenas no início de cada iteração, enquanto o laço "for" precisa avaliar a condição a cada iteração.
+### Teste 005
+**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
+O Swagger é um conjunto de ferramentas voltado para o desenvolvimento de todo o ciclo de vida da API, incluindo as etapas de design, documentação, teste e implantação. 97 import java.io.*; class Easy { public static void main(String[] args) { int x[] = {1, 3, 7, 22, 51}; for (int size : x) System.out.print(size); } } O resultado da execução do código precedente, desenvolvido em Java, será 6. 98 [ "Cidades": ( {"Cidade"="Uberaba", "IBGE"="3170107"}, {"Cidade"="Uberlândia", "IBGE"="3170206"}, {"Cidade"="Araguari", "IBGE"="3103504"}) ] A sintaxe precedente descreve corretamente os dados da tabela a seguir na notação JSON, organizando-os como uma lista de objetos. cidade IBGE Uberaba 3170107 Uberlândia 3170206
+
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.2 O Event Loop: Call Stack, Microtasks e Macrotasks* deste guia, o modelo de concorrência do JavaScript e do Node.js é baseado em um laço infinito que orquestra a execução de tarefas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "O laço "for" é adequado para situações em que o número de iterações é conhecido antecipadamente, enquanto o laço...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O laço "for" é usado quando se deseja percorrer uma coleção de elementos, como uma lista ou um array, enquanto o...". De acordo com a teoria estudada em *Operadores Spread e Rest (`..`)*, spread Operator (na expressão): Espalha e desmembra os elementos de um iterável (array, objeto, string) dentro de uma nova estrutura, facilitando clones superficiais (*shallow copies*) e mesclagens.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O laço "for" é uma opção mais flexível, pois permite a declaração e inicialização de variáveis de controle dentro...". De acordo com a teoria estudada em *O Coletor de Lixo (Garbage Collector - GC)*, o GC é uma thread de segundo plano gerenciada pela JVM que monitora o Heap e remove objetos que se tornaram inalcançáveis (*unreachable*), ou seja, objetos para os quais não existe mais nenhuma cadeia ativa de referências partindo das chamadas raízes do sistema (*GC Roots*, que incluem referências ativas na pilha, classes carregadas estáticas e variáveis JNI).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O laço "while" é mais propenso a causar loops infinitos se a condição de parada não for adequadamente definida...". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, engloba toda a JRE mais ferramentas de desenvolvimento fundamentais: o compilador `javac`, empacotador `jar`, gerador de documentação `javadoc`, desassemblador `javap` e utilitários de diagnóstico e depuração (`jconsole`, `jstack`, `jps`).
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O laço "while" é mais eficiente em termos de desempenho do que o laço "for", pois avalia a condição de parada...". De acordo com a teoria estudada em *Usos da Palavra-Chave `final`*, em Variáveis e Parâmetros: A variável torna-se uma constante. Uma vez inicializada com um valor ou referência, seu valor não pode mais ser reatribuído.
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRF/6/2025) ao afirmar que "O Swagger é um conjunto de ferramentas voltado para o desenvolvimento de todo o ciclo de vida da API...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
-### Teste 067
+
+### Teste 006
+**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Considere o código em Java que realiza testes unitários com o framework JUnit: import junit.framework.TestCase; public class MatematicaTest I .. .... { private Matematica math=new Matematica(18, 3); public void testadd() { this.assertTrue(this.math.add()==21); } public void testsubtract() { this.assertTrue(this.math.subtract()=15); } public void testmultiply() { this.assertTrue(this.math.multiply()==54); } public void testdivide() { this.assertTrue(this.math.divide()==6); } public static void main(String[] args) { junit.textui.TestRunner.run( I I ); . ... .. } } As lacunas I e II devem ser, correta e respectivamente, preenchidas com
+
+* **A)** implícito, como o Thread.sleep(), que determina um tempo fixo que alguma ação no teste precisa esperar antes de ser executada. Se este tempo for ultrapassado, o teste não falhará.
+* **B)** explícito, como o Thread.sleep(). Se a ação estiver pronta para ser executada antes do tempo fixado, o teste conti- nuará.
+* **C)** explícito, como o WebDriver.manage().timeouts(), que permite esperar por um certo elemento na tela por um tempo de espera mínimo. Se este tempo for ultrapassado, o teste falhará.
+* **D)** implícito, cujo valor padrão é 0. Este tempo deve ser baixo, para evitar que o Selenium fique esperando por um elemento na tela antes de acusar um erro de tempo de espera excedido.
+* **E)** explícito, cujo valor padrão é 10. Seu valor não deve ser baixo para evitar problemas em controle de tempo entre ações no teste.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "implícito, como o Thread.sleep(), que determina um tempo fixo que alguma ação no teste precisa esperar antes de...". De acordo com a teoria estudada em *Usos da Palavra-Chave `final`*, atenção: Se a variável for uma referência para um objeto ( final List<String itens = new ArrayList< (); ), a referência itens não pode ser apontada para outra lista, mas o estado interno do objeto continua mutável ( itens.add("dado") é válido).
+> - **B)** **Correta.** Conforme fundamentado na seção *A Ordem Rígida de Execução* deste guia, microtask Queue: Imediatamente após a Call Stack esvaziar, o motor drena todas as microtarefas pendentes antes de qualquer macrotarefa. Se uma microtarefa enfileirar outra microtarefa, ela também será executada nesta mesma rodada. No Node.js, process.nextTick tem precedência até mesmo sobre as promessas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "explícito, como o Thread.sleep(). Se a ação estiver pronta para ser executada antes do tempo fixado, o teste conti...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "explícito, como o WebDriver.manage().timeouts(), que permite esperar por um certo elemento na tela por um tempo de...". De acordo com a teoria estudada em *2. Interface `Set` (Conjuntos)*, hashSet : Utiliza internamente uma tabela hash ( HashMap ). Oferece operações básicas ( add , remove , contains ) em tempo constante médio $\mathcal{O}(1)$. Não garante nenhuma ordem dos elementos. Admite um único elemento null.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "implícito, cujo valor padrão é 0. Este tempo deve ser baixo, para evitar que o Selenium fique esperando por um...". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jIT Compiler ( Just In Time ): Para otimizar o desempenho e evitar a lentidão da interpretação instrução por instrução, o motor JIT compila trechos de bytecode frequentemente executados ( hot spots ) diretamente em código de máquina nativo durante o tempo de execução, armazenando os em memória cache.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "explícito, cujo valor padrão é 10. Seu valor não deve ser baixo para evitar problemas em controle de tempo entre...". De acordo com a teoria estudada em *1. `java.lang.Error` (Unchecked)*, representa falhas catastróficas graves de infraestrutura e do ambiente de execução da JVM (como exaustão de memória ou estouro de pilha). Não são tratáveis pelo código de negócio da aplicação e não devem ser capturadas por blocos try catch.
+>
+> **Gabarito: B**
+
+---
+
+
+### Teste 007
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+JUnit é um framework que facilita o desenvolvimento e execução de testes unitários em códigos Java. Ao contrário das versões anteriores, o JUnit 5 é composto por muitos módulos oriundos de três subprojetos diferentes conhecidos como
+
+* **A)** IntelliJ IDEA, Spring Boot e Ant.
+* **B)** Plataforma JUnit, Maven e Eclipse.
+* **C)** Gradle, Jupyter Notebook e Mockito.
+* **D)** Plataforma JUnit, JUnit Jupiter e JUnit Vintage.
+* **E)** Visual Studio Code, Gradle e Plataforma Vintage.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IntelliJ IDEA, Spring Boot e Ant". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jDK (Java Development Kit): O kit completo para engenheiros de software. Engloba toda a JRE mais ferramentas de desenvolvimento fundamentais: o compilador javac , empacotador jar , gerador de documentação javadoc , desassemblador javap e utilitários de diagnóstico e depuração ( jconsole , jstack , jps ).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Plataforma JUnit, Maven e Eclipse". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jIT Compiler ( Just In Time ): Para otimizar o desempenho e evitar a lentidão da interpretação instrução por instrução, o motor JIT compila trechos de bytecode frequentemente executados ( hot spots ) diretamente em código de máquina nativo durante o tempo de execução, armazenando os em memória cache.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gradle, Jupyter Notebook e Mockito". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, a linguagem Java, criada pela Sun Microsystems e atualmente mantida pela Oracle, foi concebida sob o paradigma da independência de plataforma, expresso pelo lema "Write Once, Run Anywhere" (WORA). Essa portabilidade é viabilizada por uma arquitetura em camadas composta por.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "Plataforma JUnit, JUnit Jupiter e JUnit Vintage".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Visual Studio Code, Gradle e Plataforma Vintage". De acordo com a teoria estudada em *2. Requisições HTTP e Web Scraping*, if resposta.status code == 200.
+>
+> **Gabarito: D**
+
+---
+
+
+### Teste 008
 **(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
 Analise o código a seguir em linguagem de programação Java: Ao executar esse programa em um terminal, será escrito na saída padrão:
 
@@ -363,59 +463,167 @@ Analise o código a seguir em linguagem de programação Java: Ao executar esse 
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x = 2". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, a linguagem Java, criada pela Sun Microsystems e atualmente mantida pela Oracle, foi concebida sob o paradigma da independência de plataforma, expresso pelo lema *"Write Once, Run Anywhere"* (WORA).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x = 2". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, a linguagem Java, criada pela Sun Microsystems e atualmente mantida pela Oracle, foi concebida sob o paradigma da independência de plataforma, expresso pelo lema "Write Once, Run Anywhere" (WORA). Essa portabilidade é viabilizada por uma arquitetura em camadas composta por.
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x = 3". De acordo com a teoria estudada em *1.3 Tipos Primitivos vs. Classes Wrapper e Comparação de Objetos*, java é uma linguagem de tipagem estática e fortemente tipada que distingue claramente valores primitivos e referências a objetos.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x = 4". De acordo com a teoria estudada em *Stream API*, operações Intermediárias (Lazy - avaliação preguiçosa): Retornam um novo Stream e não são executadas até que uma operação terminal seja disparada. Exemplos: `.filter()`, `.map()`, `.sorted()`, `.distinct()`, `.flatMap()`.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x = 5". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré-compilados. Contém a JVM, as bibliotecas padrão da API Java (`rt.jar` ou módulos JPMS) e arquivos de configuração de suporte.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, código-Fonte (`.java`): Arquivo de texto contendo as instruções escritas pelo programador em conformidade com as especificações da linguagem. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "x = 6".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x = 4". De acordo com a teoria estudada em *Stream API*, operações Intermediárias (Lazy avaliação preguiçosa): Retornam um novo Stream e não são executadas até que uma operação terminal seja disparada. Exemplos: .filter() , .map() , .sorted() , .distinct() , .flatMap().
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x = 5". De acordo com a teoria estudada em *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8*, python é uma linguagem multiparadigma de alto nível focada na legibilidade do código.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, código Fonte ( .java ): Arquivo de texto contendo as instruções escritas pelo programador em conformidade com as especificações da linguagem. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "x = 6".
 >
 > **Gabarito: E**
 
 ---
 
-#### 3. `java.lang.RuntimeException` e as *Unchecked Exceptions* (Não Checadas)
-Subclasses de `RuntimeException` (ex.: `NullPointerException`, `ArithmeticException`, `ArrayIndexOutOfBoundsException`, `IllegalArgumentException`).
 
-- Decorrem normalmente de falhas de lógica do programador, bugs ou violações de pré-condições.
-- O compilador **não obriga** captura nem declaração com `throws`.
+### Teste 009
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+Ana, servidora aposentada do município Alfa, solicitou à autoridade competente que fossem fornecidas as informações relativas à sua pessoa constantes dos respectivos assentamentos funcionais. Ao preencher o respectivo formulário, informou, no campo da justificativa, que o motivo era “pessoal”, sem especificá-lo. Sua solicitação, no entanto, foi negada em decisão escrita, situação que permaneceu inalterada mesmo após a interposição dos recursos administrativos cabíveis. À luz da sistemática constitucional, é correto afirmar que:
 
-#### Mecanismos de Tratamento: `try-catch-finally` e `try-with-resources`
-- **`try`:** Demarca o bloco de código protegido sujeito a falhas.
-- **`catch`:** Captura e trata exceções do tipo compatível especificado no parâmetro. É possível capturar múltiplos tipos em um único catch (*multi-catch*): `catch (IOException | SQLException e)`.
-- **`finally`:** Bloco que é executado **sempre e incondicionalmente**, tenha ocorrido exceção ou não, tenha havido `return` no `try` ou no `catch`. A única exceção ocorre se a JVM for terminada abruptamente por `System.exit(0)`. Utilizado historicamente para fechamento de conexões, fluxos e arquivos.
-- **`try-with-resources` (Java 7+):** Declara recursos que implementam a interface `java.lang.AutoCloseable` diretamente nos parênteses da instrução `try`. Garante o fechamento automático e determinístico do recurso ao término do bloco, dispensando chamadas manuais a `.close()` no `finally`:
-
-```java
-try (BufferedReader br = new BufferedReader(new FileReader("auditoria.log"))) {
-    String linha = br.readLine();
-} catch (IOException e) {
-    e.printStackTrace();
-}
-```
-
-- **`throw` vs. `throws`:**
-    - `throw`: Palavra-chave utilizada para lançar ativamente uma instância de exceção no fluxo de execução (`throw new IllegalArgumentException("Valor inválido");`).
-    - `throws`: Modificador presente na declaração da assinatura do método que avisa aos chamadores que aquele método pode disparar certas exceções checadas (`public void gravar() throws IOException`).
-
----
-
-### Teste 068
-**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
-Considere o seguinte código, escrito em Java. class Main { public static void main(String[] args) { int x = 11, y = -7, z = 22; int resultado = (x >= y) ? ((x >= z) ? x : z) : ((y >= z) ? y : z); System.out.println(“Resultado: “ + resultado); } } A partir do código precedente, é correto afirmar que a execução desse código apresentará o seguinte resultado. Resultado: 22
-
-* **C)** Certo
-* **E)** Errado
+* **A)** o acesso às informações somente deveria ser assegurado se Ana tivesse declinado a razão pela qual almejava conhecê-las;
+* **B)** como o vínculo funcional foi dissolvido com a aposentadoria, as informações são sigilosas, sendo correta a negativa de acesso;
+* **C)** as informações deveriam ter sido fornecidas a Ana, sendo possível a impetração de habeas data, ação na qual há gratuidade;
+* **D)** o acesso às informações pressupunha prévia autorização judicial, considerando estarem integradas a um banco de dados público; logo, a negativa de acesso foi correta;
+* **E)** como a negativa de acesso à informação está demonstrada em decisão escrita, sendo violado o direito líquido e certo de Ana, é cabível a impetração de mandado de segurança.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *Mecanismos de Tratamento: `try-catch-finally` e `try-with-resources`* deste guia, `throws`: Modificador presente na declaração da assinatura do método que avisa aos chamadores que aquele método pode disparar certas exceções checadas (`public void gravar() throws IOException`). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STJ/2024) ao afirmar que "Considere o seguinte código, escrito em Java. class Main { public static void main(String[] args) { int x =...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, segundo a qual compilador (`javac`): Não traduz o código-fonte diretamente para o código binário da máquina hospedeira. Em vez disso, compila o código-fonte para um formato intermediário, compacto e abstrato denominado Bytecode (arquivos com extensão `.class`).
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "o acesso às informações somente deveria ser assegurado se Ana tivesse declinado a razão pela qual almejava conhecê...". De acordo com a teoria estudada em *Módulos Nativos Essenciais do Node.js*, os : Fornece informações do sistema operacional hospedeiro (CPUs, memória livre/total, arquitetura).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "como o vínculo funcional foi dissolvido com a aposentadoria, as informações são sigilosas, sendo correta a...". De acordo com a teoria estudada em *Expressões Lambda e Interfaces Funcionais (Java 8+)*, uma Interface Funcional é qualquer interface que possua exatamente um único método abstrato (marcada com @FunctionalInterface ), como Runnable , Callable , Comparator e as interfaces padronizadas do pacote java.util.function.
+> - **C)** **Correta.** Conforme fundamentado na seção *Expressões Lambda e Interfaces Funcionais (Java 8+)* deste guia, consumer<T : Recebe T , realiza uma ação e não retorna nada ( accept(T t) ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "as informações deveriam ter sido fornecidas a Ana, sendo possível a impetração de habeas data, ação na qual há...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o acesso às informações pressupunha prévia autorização judicial, considerando estarem integradas a um banco de...". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, non blocking I/O (E/S Não Bloqueante): Chamadas de entrada e saída (rede, banco de dados) não bloqueiam a thread principal de execução. A operação é delegada à camada inferior e, ao ser concluída, o callback ou promessa correspondente é enfileirado para processamento.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "como a negativa de acesso à informação está demonstrada em decisão escrita, sendo violado o direito líquido e...". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, biblioteca libuv : Biblioteca multiplataforma escrita em C que gerencia o loop de eventos ( Event Loop ), abstrai os mecanismos de notificação assíncrona do sistema operacional ( epoll , kqueue , IOCP ) e gerencia uma Thread Pool interna (por padrão com 4 threads) para tarefas que não possuem suporte nativo assíncrono no SO (como operações de sistema de arquivos fs , resolução DNS síncrona e rotinas pesadas de criptografia).
 >
 > **Gabarito: C**
 
 ---
+
+
+### Teste 010
+**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
+Em Java, os métodos declarados sem modificadores em uma interface são implicitamente:
+
+* **A)** públicos e estáticos;
+* **B)** públicos e abstratos;
+* **C)** privados e estáticos;
+* **D)** públicos e finais;
+* **E)** privados e abstratos.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "públicos e estáticos". De acordo com a teoria estudada em *Promises (Promessas)*, métodos Estáticos de Combinação.
+> - **B)** **Correta.** Conforme fundamentado na seção *2. Interface `Set` (Conjuntos)* deste guia, coleção matemática que não permite elementos duplicados (baseia se nos métodos hashCode() e equals() ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "públicos e abstratos".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "privados e estáticos". De acordo com a teoria estudada em *1.4 Modificadores de Acesso e a Palavra-Chave `final`*, o encapsulamento e o design estrutural em Java apoiam se em quatro níveis de visibilidade.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "públicos e finais". De acordo com a teoria estudada em *3. Interface `Map` (Mapas / Dicionários)*, associa chaves exclusivas a valores correspondentes (pares chave valor). Não estende java.util.Collection.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "privados e abstratos". De acordo com a teoria estudada em *Expressões Lambda e Interfaces Funcionais (Java 8+)*, uma Interface Funcional é qualquer interface que possua exatamente um único método abstrato (marcada com @FunctionalInterface ), como Runnable , Callable , Comparator e as interfaces padronizadas do pacote java.util.function.
+>
+> **Gabarito: B**
+
+---
+
+
+### Teste 011
+**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
+A plataforma Java EE define um padrão de arquitetura de três camadas para o desenvolvimento de aplicações web: Camada de Apresentação (Web Tier), Camada de Negócio (Business Tier) e Camada de Integração (EIS Tier). Na camada de Negócio são representados
+
+* **A)** todos os componentes JSF (Java Server Faces).
+* **B)** componentes de persistência de objetos utilizando Hibernate e JPA (Java Persistence API).
+* **C)** os componentes EJB (Enterprise JavaBeans).
+* **D)** todos os componentes JSP.
+* **E)** os bancos de dados.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todos os componentes JSF (Java Server Faces)". De acordo com a teoria estudada em *Flask (Microframework WSGI)*, baseado no padrão WSGI ( Web Server Gateway Interface ) síncrono.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "componentes de persistência de objetos utilizando Hibernate e JPA (Java Persistence API)". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, a linguagem Java, criada pela Sun Microsystems e atualmente mantida pela Oracle, foi concebida sob o paradigma da independência de plataforma, expresso pelo lema "Write Once, Run Anywhere" (WORA). Essa portabilidade é viabilizada por uma arquitetura em camadas composta por.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "os componentes EJB (Enterprise JavaBeans)".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todos os componentes JSP". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jDK (Java Development Kit): O kit completo para engenheiros de software. Engloba toda a JRE mais ferramentas de desenvolvimento fundamentais: o compilador javac , empacotador jar , gerador de documentação javadoc , desassemblador javap e utilitários de diagnóstico e depuração ( jconsole , jstack , jps ).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os bancos de dados". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, non blocking I/O (E/S Não Bloqueante): Chamadas de entrada e saída (rede, banco de dados) não bloqueiam a thread principal de execução. A operação é delegada à camada inferior e, ao ser concluída, o callback ou promessa correspondente é enfileirado para processamento.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 012
+**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
+Uma aplicação que trabalha com Hibernate e EJB possui uma classe POJO − Plain Old Java Object utilizada no mapeamento objeto-relacional com uma tabela do banco de dados. Nessa classe, há um atributo calculado chamado valorTotalPedido que, para ser utilizado apenas em tempo de execução e descartado após finalizar o seu serviço temporário, deverá ser anotado com
+
+* **A)** @Embedded
+* **B)** @TemporaryAttribute
+* **C)** @GeneratedValue
+* **D)** @Transient
+* **E)** @Basic Atenção: Para responder às questões de números 33 e 34, utilize a página HTML abaixo. <html> <head> <title>Prova</title> <script type="text/javascript"> function ver() { var pontos = 0; I if ( ) {  pontos++; } document.getElementById("res").innerHTML = pontos; } </script> </head> <body> <form name="frm"> <p>
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@Embedded". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, non blocking I/O (E/S Não Bloqueante): Chamadas de entrada e saída (rede, banco de dados) não bloqueiam a thread principal de execução. A operação é delegada à camada inferior e, ao ser concluída, o callback ou promessa correspondente é enfileirado para processamento.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@TemporaryAttribute". De acordo com a teoria estudada em *Temporal Dead Zone (TDZ - Zona Morta Temporal)*, para tornar as propriedades de um objeto imutáveis em tempo de execução, deve se utilizar Object.freeze(config).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@GeneratedValue". De acordo com a teoria estudada em *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8*, tipagem Dinâmica: O tipo de dados é associado dinamicamente ao valor do objeto na memória em tempo de execução, e não ao nome da variável.
+> - **D)** **Correta.** Conforme fundamentado na seção *1. `java.lang.Error` (Unchecked)* deste guia, representa falhas catastróficas graves de infraestrutura e do ambiente de execução da JVM (como exaustão de memória ou estouro de pilha). Não são tratáveis pelo código de negócio da aplicação e não devem ser capturadas por blocos try catch. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "@Transient".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@Basic Atenção: Para responder às questões de números 33 e 34, utilize a página HTML abaixo. <html <head <title...". De acordo com a teoria estudada em *2. Requisições HTTP e Web Scraping*, soup = BeautifulSoup(resposta.text, "html.parser").
+>
+> **Gabarito: D**
+
+---
+
+
+### Teste 013
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Contábeis)**
+Em 2025, uma entidade aplicou, antecipadamente, uma nova norma contábil. As normas contábeis previam que a antecipação antes da data de vigência era facultativa e a entidade divulgou, em suas demonstrações contábeis, a adoção. O auditor independente julgou que a aplicação antecipada tinha efeito disseminado de forma generalizada nas demonstrações contábeis, e desejava chamar a atenção para o assunto em seu relatório. Desse modo, ele incluiu, em seu relatório,
+
+* **A)** um anexo.
+* **B)** uma ressalva.
+* **C)** um parágrafo de ênfase.
+* **D)** uma análise comparativa.
+* **E)** um parágrafo de outros assuntos.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um anexo". De acordo com a teoria estudada em *Usos da Palavra-Chave `final`*, atenção: Se a variável for uma referência para um objeto ( final List<String itens = new ArrayList< (); ), a referência itens não pode ser apontada para outra lista, mas o estado interno do objeto continua mutável ( itens.add("dado") é válido).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma ressalva". De acordo com a teoria estudada em *Stream API*, operações Terminais (Eager): Consomem o Stream e geram um resultado ou efeito colateral final. Exemplos: .collect(Collectors.toList()) , .forEach() , .reduce() , .count() , .anyMatch().
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, a FCC frequentemente tenta confundir o candidato afirmando que "o compilador Java gera código de máquina nativo dependente do sistema operacional" ou que "a JRE inclui o compilador javac". Lembre se: o javac gera Bytecode (independente de plataforma); quem gera código nativo é a JVM (específica para cada SO), e o compilador só está presente no JDK, nunca na JRE isolada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "um parágrafo de ênfase".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma análise comparativa". De acordo com a teoria estudada em *2. Requisições HTTP e Web Scraping*, beautifulSoup ( bs4 ): Biblioteca para análise sintática ( parsing ) de documentos HTML e XML em raspagens de dados.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um parágrafo de outros assuntos". De acordo com a teoria estudada em *A Memória Heap*, o tamanho do Heap pode ser configurado na inicialização da aplicação pelos parâmetros Xms (tamanho inicial) e Xmx (tamanho máximo).
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 014
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Agente Da Policia Judicial)**
+Ana, técnica judiciária, área administrativa, em atuação no Tribunal Regional do Trabalho da 24ª Região (TRT-24), e que desenvolve suas atividades na área de segurança e transporte, desejava receber a Gratificação de Atividade Externa (GAE) prevista na Lei nº 11.416/2006, considerando as atividades que praticava regularmente. Após analisar o diploma normativo de regência, Ana concluiu corretamente que
+
+* **A)** faz jus à GAE.
+* **B)** somente fará jus à GAE caso esteja ocupando cargo em comissão.
+* **C)** não faz jus à GAE, que é devida exclusivamente aos analistas judiciários, nas circunstâncias indicadas em lei.
+* **D)** somente faz jus à GAE caso preencha os requisitos previstos no edital publicado anualmente no âmbito do TRT-24.
+* **E)** não faz jus à GAE, que é devida exclusivamente a analistas, técnicos e auxiliares judiciários da área de apoio especializado.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "faz jus à GAE". De acordo com a teoria estudada em *2.4 Escopo Léxico, Closures e Funções de Alta Ordem*, closures (Fechamentos): Uma closure é a combinação de uma função empacotada com as referências ao seu estado léxico circundante ( lexical environment ). Isso permite que uma função interna acerte e memorize variáveis de sua função externa mesmo após a função externa já ter terminado de executar e retornado.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente fará jus à GAE caso esteja ocupando cargo em comissão". De acordo com a teoria estudada em *A Memória Heap*, área global compartilhada por todas as threads ativas do processo JVM.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8* deste guia, indentação Significativa: A hierarquia e a delimitação de blocos lógicos (funções, classes, laços, condicionais) são feitas exclusivamente por recuo de espaços em branco (padronizado em 4 espaços pela PEP 8), dispensando chaves {} ou delimitadores begin..end. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "não faz jus à GAE, que é devida exclusivamente aos analistas judiciários, nas circunstâncias indicadas em lei".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente faz jus à GAE caso preencha os requisitos previstos no edital publicado anualmente no âmbito do TRT 24". De acordo com a teoria estudada em *1. Manipulação de Arquivos e Sistema Operacional*, caminho = Path("documentos") / "tce" / "edital.pdf".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "não faz jus à GAE, que é devida exclusivamente a analistas, técnicos e auxiliares judiciários da área de apoio...". De acordo com a teoria estudada em *O Coletor de Lixo (Garbage Collector - GC)*, old / Tenured Generation (Geração Antiga): Armazena objetos que sobreviveram a vários ciclos de Minor GC . A coleta nesta área é a Major GC ou Full GC.
+>
+> **Gabarito: C**
+
+---
+
+
 
 ## 2. JavaScript Moderno (ECMAScript 6+)
 
@@ -517,75 +725,6 @@ function criarContador(inicial) {
 const contador = criarContador(10);
 console.log(contador.incrementar()); // 11
 ```
-
----
-
-### Teste 069
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
-Com relação ao framework pytest, da linguagem de programação Python, avalie as afirmativas a seguir: I. O comando pytest executa os arquivos no formato test_*.py ou *_test.py no diretório corrente e nos subdiretórios. II. O comando abaixo mostra os 5 testes com maior tempo de duração. >>> pytest -vv --durations=5 III. É possível invocar o framework pytest usando o próprio interpretador do Python por meio do comando abaixo: >>> python -m pytest Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** I e II, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, compilador (`javac`): Não traduz o código-fonte diretamente para o código binário da máquina hospedeira. Em vez disso, compila o código-fonte para um formato intermediário, compacto e abstrato denominado Bytecode (arquivos com extensão `.class`).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1. Manipulação de Arquivos e Sistema Operacional*, `os` e `sys`: Execução de comandos do sistema, inspeção de variáveis de ambiente (`os.environ`) e argumentos de linha de comando (`sys.argv`).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8*, python é uma linguagem multiparadigma de alto nível focada na legibilidade do código.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *Arrow Functions*, funções anônimas concisas com sintaxe de seta `() => {}`. Possuem duas diferenças semânticas cruciais em relação às funções tradicionais declaradas com `function`.
-> - **E)** **Correta.** Conforme fundamentado na seção *FastAPI (Framework Moderno ASGI de Alta Performance)* deste guia, validação com Pydantic: Utiliza *type hints* do Python padrão para realizar validação estrita de dados de entrada, conversão automática e serialização em tempo de execução. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I, II e III".
->
-> **Gabarito: E**
-
----
-
-### Teste 070
-**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
-MapStruct é um gerador de código que simplifica a implementação de mapeamentos entre tipos de bean Java.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, código-Fonte (`.java`): Arquivo de texto contendo as instruções escritas pelo programador em conformidade com as especificações da linguagem. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STJ/2024) ao afirmar que "MapStruct é um gerador de código que simplifica a implementação de mapeamentos entre tipos de bean Java".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, segundo a qual a FCC frequentemente tenta confundir o candidato afirmando que "o compilador Java gera código de máquina nativo dependente do sistema operacional" ou que "a JRE inclui o compilador javac".
->
-> **Gabarito: C**
-
----
-
-### Teste 071
-**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-Aplicações web desenvolvidas com as tecnologias Java Servlet e JSP podem ser executadas no container IIS.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aplicações web desenvolvidas com as tecnologias Java Servlet e JSP podem ser executadas no container IIS". De acordo com a teoria estudada em *Arrow Functions*, não são construtoras: Não possuem método interno `[[Construct]]`, não podem ser chamadas com o operador `new` e não possuem a propriedade `prototype`.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *Arrow Functions* deste guia, vinculação Léxica do `this`: As arrow functions não possuem seu próprio contexto `this`. Elas capturam o valor de `this` do escopo léxico envolvente no momento de sua definição. Não podem ser alteradas por `.bind()`, `.call()` ou `.apply()`. Portanto, a assertiva examinada pela banca (CEBRASPE – STJ/2015) viola os preceitos técnicos do tópico.
->
-> **Gabarito: E**
-
----
-
-#### Arrow Functions
-Funções anônimas concisas com sintaxe de seta `() => {}`. Possuem duas diferenças semânticas cruciais em relação às funções tradicionais declaradas com `function`:
-
-1. **Vinculação Léxica do `this`:** As arrow functions **não possuem seu próprio contexto `this`**. Elas capturam o valor de `this` do escopo léxico envolvente no momento de sua definição. Não podem ser alteradas por `.bind()`, `.call()` ou `.apply()`.
-2. **Não são construtoras:** Não possuem método interno `[[Construct]]`, não podem ser chamadas com o operador `new` e não possuem a propriedade `prototype`.
-3. **Ausência do objeto `arguments`:** Para capturar parâmetros variáveis, deve-se usar a sintaxe rest `(..args)`.
 
 ---
 
@@ -696,54 +835,6 @@ Introduzida no ES2017, funciona como açúcar sintático sobre Promises:
     - `devDependencies`: Ferramentas utilizadas estritamente durante o desenvolvimento e compilação (ex.: `jest`, `eslint`, `typescript`).
 - **`package-lock.json`:** Registra a árvore de dependências exata instalada, com hashes criptográficos e versões fixas, garantindo compilações determinísticas e reproduzíveis entre diferentes ambientes.
 - **`npx` (Node Package Execute):** Utilitário empacotado com o npm que permite baixar e executar binários de pacotes Node.js sob demanda sem precisar instalá-los globalmente no sistema (`npx create-react-app meu-app`).
-
----
-
-### Teste 072
-**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
-A Plataforma Digital do Poder Judiciário Brasileiro (PDPJ-Br) foi criada com o intuito de integrar todos os tribunais brasileiros no que tange à gestão de processo judicial eletrônico. Entre as diretrizes relacionadas ao processo de desenvolvimento de módulos e serviços na PDPJ-Br, cabe salientar o emprego preferencial da linguagem de programação
-
-* **A)** Java.
-* **B)** Julia.
-* **C)** PHP.
-* **D)** Python.
-* **E)** Ruby.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, a linguagem Java, criada pela Sun Microsystems e atualmente mantida pela Oracle, foi concebida sob o paradigma da independência de plataforma, expresso pelo lema *"Write Once, Run Anywhere"* (WORA). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "Java".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Julia". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, código-Fonte (`.java`): Arquivo de texto contendo as instruções escritas pelo programador em conformidade com as especificações da linguagem.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PHP". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré-compilados. Contém a JVM, as bibliotecas padrão da API Java (`rt.jar` ou módulos JPMS) e arquivos de configuração de suporte.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Python". De acordo com a teoria estudada em *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8*, python é uma linguagem multiparadigma de alto nível focada na legibilidade do código.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ruby". De acordo com a teoria estudada em *1.3 Tipos Primitivos vs. Classes Wrapper e Comparação de Objetos*, java é uma linguagem de tipagem estática e fortemente tipada que distingue claramente valores primitivos e referências a objetos.
->
-> **Gabarito: A**
-
----
-
-### Teste 073
-**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
-De acordo com os critérios e diretrizes técnicas para o processo de desenvolvimento de módulos e serviços na Plataforma Digital do Poder Judiciário Brasileiro, portaria CNJ n 253/2020, é correto afirmar que
-
-* **A)** é obrigatória a produção de relatório de cobertura de testes automatizados.
-* **B)** os microsserviços precisam ser coesos e manter a característica statefull para permitir maior escalabilidade.
-* **C)** deve ser adotada, preferencialmente, a linguagem de programação Python para implementar microsserviços.
-* **D)** aplicações monolíticas existentes devem manter suas funcionalidades na íntegra, sem decomposição funcional.
-* **E)** as interfaces de programação de aplicações (APIs) devem ser providas por meio de tecnologia SOAP.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *3.5 Gerenciamento de Dependências com npm* deste guia, `dependencies`: Bibliotecas essenciais para a execução do sistema em ambiente de produção (ex.: `express`, `pg`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "é obrigatória a produção de relatório de cobertura de testes automatizados".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os microsserviços precisam ser coesos e manter a característica statefull para permitir maior escalabilidade". De acordo com a teoria estudada em *Generics (Parametrização de Tipos)*, em tempo de compilação, o Java realiza o Type Erasure (apagamento de tipo), removendo os metadados genéricos para manter compatibilidade binária com versões legadas da JVM.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve ser adotada, preferencialmente, a linguagem de programação Python para implementar microsserviços". De acordo com a teoria estudada em *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8*, python é uma linguagem multiparadigma de alto nível focada na legibilidade do código.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aplicações monolíticas existentes devem manter suas funcionalidades na íntegra, sem decomposição funcional". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, node.js é um ambiente de execução JavaScript construído sobre o motor V8 do Google Chrome, projetado para construir aplicações de rede escaláveis orientadas a eventos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as interfaces de programação de aplicações (APIs) devem ser providas por meio de tecnologia SOAP". De acordo com a teoria estudada em *1. `java.lang.Error` (Unchecked)*, representa falhas catastróficas graves de infraestrutura e do ambiente de execução da JVM (como exaustão de memória ou estouro de pilha). Não são tratáveis pelo código de negócio da aplicação e não devem ser capturadas por blocos `try-catch`.
->
-> **Gabarito: A**
 
 ---
 
@@ -918,54 +1009,6 @@ def obter_processo(id):
 
 ---
 
-### Teste 074
-**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
-A linguagem de programação Python é uma linguagem de alto nível, de tipagem dinâmica e interpretada, conhecida pela sua simplicidade, legibilidade e versatilidade. Criada por Guido van Rossum e lançada pela primeira vez em 1991, Python tem se tornado uma das linguagens mais populares do mundo, devido à sua capacidade de ser usada em diversos tipos de projetos, como desenvolvimento web, automação, análise de dados, inteligência artificial, aprendizado de máquina, automação de tarefas, entre outros. Em Python, o operador //
-
-* **A)** realiza a divisão entre dois números e retorna o resultado com a maior precisão possível.
-* **B)** realiza a divisão entre dois números e sempre retorna um número com ponto decimal, mesmo que o resultado seja inteiro.
-* **C)** eleva o primeiro número ao segundo número, funcionando como um operador de potência.
-* **D)** realiza a divisão inteira entre dois números, retornando apenas a parte inteira do resultado e descartando o resto.
-* **E)** realiza a divisão entre dois números e retorna o resto da divisão, semelhante ao operador %.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realiza a divisão entre dois números e retorna o resultado com a maior precisão possível". De acordo com a teoria estudada em *Promises (Promessas)*, `Promise.allSettled([p1, p2, p3])`: Aguarda a finalização de todas as promessas, independentemente de terem sido cumpridas ou rejeitadas, retornando um array de objetos descrevendo o status e resultado de cada uma.
-> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "realiza a divisão entre dois números e sempre retorna um número com ponto decimal, mesmo que o resultado seja...". De acordo com a teoria estudada em *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8*, se você tentar somar uma string com um número (`"Valor: " + 10`), Python lançará explicitamente um `TypeError` (diferentemente do JavaScript, que realizaria coerção para `"Valor: 10"`).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eleva o primeiro número ao segundo número, funcionando como um operador de potência". De acordo com a teoria estudada em *Comparação Ampla (`==`) vs. Comparação Estrita (`===`)*, operador de Igualdade Ampla (`==`): Realiza coerção implícita de tipos quando os operandos são de tipos diferentes, segundo o algoritmo abstrato de comparação do ECMAScript.
-> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8* deste guia, python é uma linguagem multiparadigma de alto nível focada na legibilidade do código. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "realiza a divisão inteira entre dois números, retornando apenas a parte inteira do resultado e descartando o resto".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realiza a divisão entre dois números e retorna o resto da divisão, semelhante ao operador %". De acordo com a teoria estudada em *Comparação Ampla (`==`) vs. Comparação Estrita (`===`)*, operador de Igualdade Estrita (`===`): Não realiza coerção automática. Retorna `true` apenas se os operandos possuírem o mesmo tipo e o mesmo valor.
->
-> **Gabarito: D**
-
----
-
-### Teste 075
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
-Com relação aos tipos estruturados da linguagem de programação Python 3, avalie as afirmativas a seguir: I. A tentativa de utilizar conjunto (set) como chave de um dicionário (dict) retorna erro. II. O conjunto (set) não permite elementos repetidos. III. O construtor do tipo list retorna erro ao receber uma string como argumento (entrada). Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** I e II, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *Comprehensions (List, Dict e Set Comprehensions)*, notação concisa, elegante e performática para filtrar e transformar iteráveis.
-> - **B)** **Correta.** Conforme fundamentado na seção *3. Formatos Estruturados: JSON e CSV* deste guia, `json.loads(str)`: Analisa string JSON e a converte para dicionário/lista Python. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "II, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos*, `dict`: `{"chave": 10}` — Sim — Sim (desde Python 3.7) — Não (chaves únicas) — Não (acesso por chave) — $\mathcal{O}(1)$.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3. Formatos Estruturados: JSON e CSV*, `json.dumps(obj)`: Converte objeto Python em string formatada JSON.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2. Interface `Set` (Conjuntos)*, coleção matemática que não permite elementos duplicados (baseia-se nos métodos `hashCode()` e `equals()`).
->
-> **Gabarito: B**
-
----
-
 ## 5. Tabela Comparativa Sintética entre as Linguagens
 
 | Critério | Java | JavaScript (Node.js) | Python |
@@ -977,8 +1020,6 @@ Com relação aos tipos estruturados da linguagem de programação Python 3, ava
 | **Tratamento de Exceções** | *Checked Exceptions* obrigatórias e *Unchecked Exceptions* | *Unchecked* via `try-catch` | *Unchecked* via `try-except-else-finally` |
 | **Gerenciamento de Recursos** | Bloco `finally` e `try-with-resources` (`AutoCloseable`) | Bloco `finally` | Bloco `finally` e `with` (`__enter__` / `__exit__`) |
 | **Estrutura de Blocos** | Delimitada por chaves `{ .. }` | Delimitada por chaves `{ .. }` | Delimitada por recuo de espaços (**indentação obrigatória**) |
-
-
 
 ---
 

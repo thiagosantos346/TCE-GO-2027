@@ -4,10 +4,7 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `01_regime_juridico_principios_e_lindb.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Administração Pública: conceito, sentidos subjetivo/orgânico e objetivo/material
@@ -16,8 +13,6 @@
 - Princípios administrativos implícitos/reconhecidos: Razoabilidade, Proporcionalidade, Segurança Jurídica, Continuidade dos Serviços Públicos, Autotutela (Súmulas 346 e 473 do STF) e Motivação
 - Lei de Introdução às normas do Direito Brasileiro (LINDB - Decreto-Lei nº 4.657/1942 com redação dada pela Lei nº 12.376/2010 e alterações da Lei nº 13.655/2018, artigos 20 a 30) e sua aplicação na Administração Pública
 - Responsabilização do agente público segundo o Decreto Federal nº 9.830/2019 e a LINDB (erro grosseiro e dolo)
-
-
 
 ---
 
@@ -114,30 +109,6 @@ Sob o prisma **objetivo, material ou funcional**, a Administração Pública cor
 
 ---
 
-### Teste 001
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-Maria ocupa cargo de primeiro escalão em determinado ente federativo, na condição de Secretária de Estado. As normas afetas à prevenção e ao tratamento do conflito de interesses nesse ente seguem os balizamentos oferecidos pela Lei nº 12.813/2013. Maria pretende exercer determinada atividade privada de cunho econômico. Embora o exercício dessa atividade não seja vedado pelas referidas normas, Maria tem dúvida em relação à sua licitude, pois implicaria na prestação de serviços a pessoas jurídicas que têm interesse em decisões de colegiado administrativo do qual ela participa. Ao analisar a sistemática legal, Maria concluiu corretamente que
-
-* **A)** a ausência de vedação legal ao exercício da atividade afasta a possibilidade de ser configurado o conflito de interesses.
-* **B)** o interesse das pessoas jurídicas nas decisões do colegiado de que Maria participe não configura conflito de interesses.
-* **C)** o conflito de interesses na situação descrita é afastado, caso Maria esteja em gozo de licença ou em período de afastamento.
-* **D)** a situação descrita configura conflito de interesses, devendo ser fiscalizada por Comissão de Ética Pública instituída no âmbito do Poder Executivo do ente federativo ao qual Maria está vinculada.
-* **E)** o conflito de interesses somente estará configurado se Maria divulgar ou fizer uso de informações privilegiadas obtidas no exercício funcional, para viabilizar a prestação do serviço para o qual seja contratada. Noções de Informática e Proteção de Dados
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a ausência de vedação legal ao exercício da atividade afasta a possibilidade de ser configurado o conflito de...". De acordo com a teoria estudada em *A Súmula Vinculante nº 13 do Supremo Tribunal Federal:*, *"A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos poderes da União, dos Estados, do Distrito Federal e dos Municípios, compreendido o ajuste mediante designações recíprocas (nepotismo cruzado), viola a Constituição Federal."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o interesse das pessoas jurídicas nas decisões do colegiado de que Maria participe não configura conflito de...". De acordo com a teoria estudada em *1.3 Critérios Distintivos Adotados pela FCC*, composição: Pessoas jurídicas, órgãos e agentes públicos da Administração Direta e Indireta — Serviços públicos, polícia administrativa, fomento e intervenção.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o conflito de interesses na situação descrita é afastado, caso Maria esteja em gozo de licença ou em período de...". De acordo com a teoria estudada em *2.3 Interesse Público Primário vs. Secundário*, caso o Estado viole direitos fundamentais de cidadãos apenas para auferir vantagem financeira aos cofres públicos, tal ato configura ilicitude e desvio de finalidade.
-> - **D)** **Correta.** Conforme fundamentado na seção *Enunciado da Súmula 473 do STF:* deste guia, autoridade Competente: Administração Pública (autotutela) ou Poder Judiciário — Exclusiva da própria Administração (Judiciário não revoga ato do Executivo). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "a situação descrita configura conflito de interesses, devendo ser fiscalizada por Comissão de Ética Pública...".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "o conflito de interesses somente estará configurado se Maria divulgar ou fizer uso de informações privilegiadas...". De acordo com a teoria estudada em *1.2 Sentido Objetivo, Material ou Funcional*, serviço Público: Prestação direta ou indireta de utilidades e comodidades materiais fruíveis individualmente pelos cidadãos (ex.: transporte coletivo, fornecimento de energia, saúde, saneamento básico).
->
-> **Gabarito: D**
-
----
-
 ## 2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental
 
 O **Regime Jurídico-Administrativo** é o conjunto harmônico de princípios e regras de Direito Público que colocam a Administração Pública em posição especial perante os administrados, conferindo-lhe prerrogativas extraordinárias, ao mesmo tempo em que lhe impõe severas restrições.
@@ -175,29 +146,31 @@ A jurisprudência do STF e do STJ acolhe expressamente a distinção doutrinári
 
 ---
 
-### Teste 002
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
-Monique Gume, servidora pública efetiva lotada na Secretaria de Educação do Estado do Pará, procura uma conceituada advogada paraense e relata que tomou posse no cargo, após o devido concurso, na vigência da Lei Complementar nº XYZ, de 2002. Ocorre que, em 2023, a citada norma jurídica foi extinta pela promulgação da Lei Complementar nº ABC, que extinguiu uma gratificação de cinquenta por cento sobre o vencimento a que ela tinha direito. Destaque-se que o artigo nono da Lei Complementar de 2023 prevê a revogação por inteiro da Lei Complementar de 2002. Monique explica, ainda, que só realizou o concurso devido à gratificação, pois do contrário o cargo não possuiria atrativo suficiente. Com base na situação hipotética, assinale a afirmativa correta.
+### Teste 001
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+NÃO contempla prerrogativa inerente ao regime jurídico de trabalho administrativo:
 
-* **A)** A jurisprudência brasileira consagra a existência de direito adquirido a regime jurídico.
-* **B)** Salvo disposição em contrário, a lei revogada se restaura por ter a lei revogadora perdido a vigência.
-* **C)** Na situação hipotética, com a promulgação da Lei Complementar nº ABC de 2023, a Lei Complementar nº XYZ de 2002 foi ab-rogada expressamente.
-* **D)** O princípio da supremacia do interesse público permite a violação do direito adquirido pela promulgação de uma lei ordinária.
-* **E)** A lei nova que estabeleça disposições gerais ou especiais a par das já existentes revoga a lei anterior.
+* **A)** impenhorabilidade dos bens públicos. desemprego involuntário.
+* **B)** a garantia de irredutibilidade do salário.
+* **C)** o décimo-terceiro salário com base na remuneração integral ou no valor da aposentadoria.
+* **D)** o prazo prescricional para propositura de ação ju- dicial quanto aos créditos resultantes da relação de
+* **E)** a redução dos riscos inerentes ao trabalho, por meio 42. Considere as afirmações abaixo, relativas ao conceito de de normas de saúde, higiene e segurança. serviço público: _________________________________________________________ I. O conceito de serviço público varia no tempo e no
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A jurisprudência brasileira consagra a existência de direito adquirido a regime jurídico". De acordo com a teoria estudada em *2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental*, o Regime Jurídico-Administrativo é o conjunto harmônico de princípios e regras de Direito Público que colocam a Administração Pública em posição especial perante os administrados, conferindo-lhe prerrogativas extraordinárias, ao mesmo tempo em que lhe impõe severas restrições.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Salvo disposição em contrário, a lei revogada se restaura por ter a lei revogadora perdido a vigência". De acordo com a teoria estudada em *2.3 Interesse Público Primário vs. Secundário*, a jurisprudência do STF e do STJ acolhe expressamente a distinção doutrinária entre.
-> - **C)** **Correta.** Conforme fundamentado na seção *5.4 Segurança Jurídica, Transição e Vedação à Retroatividade (Arts. 23 e 24)* deste guia, é expressamente proibido declarar inválidas situações consolidadas com amparo na orientação pretérita com base em mudança jurisprudencial posterior. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Na situação hipotética, com a promulgação da Lei Complementar nº ABC de 2023, a Lei Complementar nº XYZ de 2002...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O princípio da supremacia do interesse público permite a violação do direito adquirido pela promulgação de uma lei...". De acordo com a teoria estudada em *2.1 Princípio da Supremacia do Interesse Público sobre o Privado*, fundamenta a concessão de prerrogativas e privilégios estatais (*poderes de império*). Em situações de conflito genuíno entre o interesse particular e o interesse coletivo, este último deve prevalecer.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A lei nova que estabeleça disposições gerais ou especiais a par das já existentes revoga a lei anterior". De acordo com a teoria estudada em *4.2 Segurança Jurídica e Proteção à Confiança Legítima*, *Vedação à Aplicação Retroativa:* O art. 2º, parágrafo único, inciso XIII, da Lei nº 9.784/1999 veda peremptoriamente a aplicação retroativa de nova interpretação jurídica para alcançar atos pretéritos já consolidados sob a orientação anterior.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "impenhorabilidade dos bens públicos. desemprego involuntário". De acordo com a teoria estudada em *2.2 Princípio da Indisponibilidade do Interesse Público*, representa o contrapeso democrático às prerrogativas estatais, corporificando as sujeições e limitações administrativas. O administrador público não é o proprietário dos bens e interesses que gere; atua como mero curador e gestor fiduciário do patrimônio do povo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a garantia de irredutibilidade do salário". De acordo com a teoria estudada em *Enunciado da Súmula 473 do STF:*, garantia Processual: Exige contraditório e ampla defesa prévios se atingir direito de terceiros — Exige contraditório e ampla defesa se atingir direito constituído.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o décimo terceiro salário com base na remuneração integral ou no valor da aposentadoria". De acordo com a teoria estudada em *5.3 Responsabilização por Dolo ou Erro Grosseiro (Art. 28 da LINDB c/c Dec. 9.830/2019)*, conceito de Erro Grosseiro (Decreto nº 9.830/2019, art. 12): Considera se erro grosseiro aquele manifesto, evidente e inescusável praticado com culpa grave, caracterizado por ação ou omissão com elevado grau de negligência, imprudência ou imperícia, demonstrando desprezo ostensivo às regras elementares de cautela que um profissional com diligência média adotaria nas mesmas circunstâncias fáticas.
+> - **D)** **Correta.** Conforme fundamentado na seção *4.3 Princípio da Autotutela (Súmulas 346 e 473 do STF): Anulação vs. Revogação* deste guia, o princípio da autotutela assegura à Administração Pública o poder dever de controlar diretamente seus próprios atos, revendo os quanto à legalidade ou ao mérito, sem necessidade de autorização judicial prévia. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "o prazo prescricional para propositura de ação ju dicial quanto aos créditos resultantes da relação de".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a redução dos riscos inerentes ao trabalho, por meio 42. Considere as afirmações abaixo, relativas ao conceito de...". De acordo com a teoria estudada em *1.2 Sentido Objetivo, Material ou Funcional*, serviço Público: Prestação direta ou indireta de utilidades e comodidades materiais fruíveis individualmente pelos cidadãos (ex.: transporte coletivo, fornecimento de energia, saúde, saneamento básico).
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
+
+
 
 ## 3. Princípios Constitucionais Expressos (Art. 37, caput, CF/88 - LIMPE)
 
@@ -245,55 +218,7 @@ Inserido formalmente no rol do art. 37 pela Reforma Administrativa (EC nº 19/19
 
 ---
 
-### Teste 003
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Ciências Atuariais)**
-Anaclésio é servidor público estável, ocupante de cargo considerado técnico, integrante de carreira na Administração Direta no Estado do Pará, sendo certo que ele está analisando a viabilidade de acumular aquele que ocupa e exerce com outro cargo, emprego ou função no âmbito da Administração Pública Diante dessa situação hipotética, considerando as disposições constitucionais acerca do tema, é correto afirmar que Anaclésio
-
-* **A)** apenas poderia acumular cargos públicos se fosse profissional da área de saúde.
-* **B)** poderia acumular o cargo em questão com qualquer outro emprego no âmbito da Administração Indireta.
-* **C)** poderia acumular o cargo técnico em questão com outro cargo efetivo de professor.
-* **D)** somente poderia acumular tal cargo com outra função pública, que não se enquadre como cargo ou emprego público.
-* **E)** poderia acumular o cargo que ocupa com qualquer outro cargo, emprego ou função de natureza burocrática.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas poderia acumular cargos públicos se fosse profissional da área de saúde". De acordo com a teoria estudada em *4.5 Princípio da Continuidade dos Serviços Públicos*, inadimplemento contratual do usuário, ressalvadas unidades públicas essenciais (hospitais e postos de saúde não podem ter o fornecimento de energia desligado por falta de pagamento).
-> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "poderia acumular o cargo em questão com qualquer outro emprego no âmbito da Administração Indireta". De acordo com a teoria estudada em *3. Princípios Constitucionais Expressos (Art. 37, caput, CF/88 - LIMPE)*, o art. 37, *caput*, da Constituição Federal estabelece os cinco princípios expressos de observância obrigatória pela Administração Pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios.
-> - **C)** **Correta.** Conforme fundamentado na seção *A Súmula Vinculante nº 13 do Supremo Tribunal Federal:* deste guia, *"A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos poderes da União, dos Estados, do Distrito Federal e dos Municípios, compreendido o ajuste mediante designações recíprocas (nepotismo cruzado), viola a Constituição Federal."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "poderia acumular o cargo técnico em questão com outro cargo efetivo de professor".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente poderia acumular tal cargo com outra função pública, que não se enquadre como cargo ou emprego público". De acordo com a teoria estudada em *1.1 Sentido Subjetivo, Formal ou Orgânico*, responde à indagação: "QUEM exerce a função administrativa?".
-> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "poderia acumular o cargo que ocupa com qualquer outro cargo, emprego ou função de natureza burocrática". De acordo com a teoria estudada em *A Súmula Vinculante nº 13 do Supremo Tribunal Federal:*, ressalva Jurisprudencial Consolidada (Cargos Políticos): O STF firmou tese de que a SV nº 13 não incide de forma automática e absoluta sobre cargos de natureza política (ex.: Ministros de Estado, Secretários Estaduais e Secretários Municipais).
->
-> **Gabarito: C**
-
----
-
-### Teste 004
-**(FCC – TRT 9ª – 2015 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-No que se refere às regras constitucionais aplicáveis à Administração pública, é VEDADO
-
-* **A)** direta, não estando sujeita aos mesmos princípios a Administração pública indireta e o Poder Judiciário, em razão do princípio da separação dos poderes.
-* **B)** pública direta e indireta, não abarcando o Poder Judiciário e Legislativo, mesmo no exercício atípico da função admi- nistrativa, em razão do princípio da estrita legalidade.
-* **C)** pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios.
-* **D)** pública direta e indireta dos Poderes Executivo e Judiciário, excluído o Poder Legislativo, em razão da submissão ao Tribunal de Contas.
-* **E)** pública direta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, excluindo a administração pública indireta, por estar sujeita a regime de direito privado.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "direta, não estando sujeita aos mesmos princípios a Administração pública indireta e o Poder Judiciário, em razão...". De acordo com a teoria estudada em *A Súmula Vinculante nº 13 do Supremo Tribunal Federal:*, *"A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos poderes da União, dos Estados, do Distrito Federal e dos Municípios, compreendido o ajuste mediante designações recíprocas (nepotismo cruzado), viola a Constituição Federal."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pública direta e indireta, não abarcando o Poder Judiciário e Legislativo, mesmo no exercício atípico da função...". De acordo com a teoria estudada em *1.1 Sentido Subjetivo, Formal ou Orgânico*, no ordenamento brasileiro, adota-se o critério estritamente formal: integram a Administração Pública em sentido subjetivo exclusivamente os órgãos e entidades aos quais a lei confere tal condição (União, Estados, DF, Municípios, suas autarquias, fundações públicas, empresas públicas e sociedades de economia mista).
-> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios". De acordo com a teoria estudada em *2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental*, o Regime Jurídico-Administrativo é o conjunto harmônico de princípios e regras de Direito Público que colocam a Administração Pública em posição especial perante os administrados, conferindo-lhe prerrogativas extraordinárias, ao mesmo tempo em que lhe impõe severas restrições.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pública direta e indireta dos Poderes Executivo e Judiciário, excluído o Poder Legislativo, em razão da submissão...". De acordo com a teoria estudada em *Enunciado da Súmula 473 do STF:*, autoridade Competente: Administração Pública (autotutela) ou Poder Judiciário — Exclusiva da própria Administração (Judiciário não revoga ato do Executivo).
-> - **E)** **Correta.** Conforme fundamentado na seção *3. Princípios Constitucionais Expressos (Art. 37, caput, CF/88 - LIMPE)* deste guia, o art. 37, *caput*, da Constituição Federal estabelece os cinco princípios expressos de observância obrigatória pela Administração Pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 9ª/2015) ao estabelecer que "pública direta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, excluindo a...".
->
-> **Gabarito: E**
-
----
-
-### Teste 005
+### Teste 002
 **(FCC – TRT 9ª – 2015 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
 No âmbito federal sobreveio a Lei no 9.784/1999, que foi muito bem recebida, porquanto tem por objetivo a proteção dos direitos dos administrados e o melhor cumprimento dos fins da administração. Para o alcance de referidos objetivos, o diploma legal elenca diversos princípios informadores da atuação da Administração, dentre eles o princípio da
 
@@ -307,39 +232,42 @@ No âmbito federal sobreveio a Lei no 9.784/1999, que foi muito bem recebida, po
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "legalidade estrita, que significa a vinculação do agir administrativo à lei formal, que se sobrepõe, em razão do...". De acordo com a teoria estudada em *2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental*, o Regime Jurídico-Administrativo é o conjunto harmônico de princípios e regras de Direito Público que colocam a Administração Pública em posição especial perante os administrados, conferindo-lhe prerrogativas extraordinárias, ao mesmo tempo em que lhe impõe severas restrições.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "publicidade, que, no entanto, é menos amplo que o que informa o processo judicial, em razão de a Administração...". De acordo com a teoria estudada em *1.2 Sentido Objetivo, Material ou Funcional*, polícia Administrativa: Restrições e condicionamentos impostos a direitos e liberdades individuais e ao uso da propriedade privada em prol do bem-estar coletivo (ex.: fiscalização sanitária, ambiental, trânsito e posturas urbanas).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "oficialidade, que garante ao administrado, com exclusividade, o direito de instaurar o processo administrativo e...". De acordo com a teoria estudada em *3.5 Princípio da Eficiência (Emenda Constitucional nº 19/1998)*, inserido formalmente no rol do art. 37 pela Reforma Administrativa (EC nº 19/1998), impõe à Administração o dever de obter o melhor rendimento funcional, presteza, perfeição técnica, celeridade na tramitação e economicidade, maximizando os resultados com o menor dispêndio possível de recursos públicos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "legalidade estrita, que significa a vinculação do agir administrativo à lei formal, que se sobrepõe, em razão do...". De acordo com a teoria estudada em *3.1 Princípio da Legalidade Estrita*, enquanto o particular goza da autonomia da vontade e da legalidade ampla, podendo fazer tudo o que a lei não proíba (art. 5º, II, CF/88), o administrador público rege se pela legalidade estrita: só pode agir e praticar atos quando houver prévia e expressa autorização ou determinação em lei ( subordinação estrita à lei ). O ato administrativo sem amparo legal é nulo de pleno direito.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "publicidade, que, no entanto, é menos amplo que o que informa o processo judicial, em razão de a Administração...". De acordo com a teoria estudada em *1.2 Sentido Objetivo, Material ou Funcional*, polícia Administrativa: Restrições e condicionamentos impostos a direitos e liberdades individuais e ao uso da propriedade privada em prol do bem estar coletivo (ex.: fiscalização sanitária, ambiental, trânsito e posturas urbanas).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "oficialidade, que garante ao administrado, com exclusividade, o direito de instaurar o processo administrativo e...". De acordo com a teoria estudada em *2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental*, o Regime Jurídico Administrativo é o conjunto harmônico de princípios e regras de Direito Público que colocam a Administração Pública em posição especial perante os administrados, conferindo lhe prerrogativas extraordinárias, ao mesmo tempo em que lhe impõe severas restrições.
 > - **D)** **Correta.** Conforme fundamentado na seção *4.1 Razoabilidade e Proporcionalidade* deste guia, exigem equilíbrio, bom senso, coerência e adequação entre os meios empregados pelo Estado e os fins pretendidos pela lei, vedando restrições desmedidas ou sacrifícios inúteis impostos aos administrados. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 9ª/2015) ao estabelecer que "razoabilidade e proporcionalidade, que impõe à Administração um dever de adequação entre meios e fins, vedando a...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eficiência, que em casos específicos autoriza a Administração a agir de forma contrária ao princípio da...". De acordo com a teoria estudada em *4.1 Razoabilidade e Proporcionalidade*, *Adequação:* O meio escolhido deve ser apto a alcançar o objetivo público.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eficiência, que em casos específicos autoriza a Administração a agir de forma contrária ao princípio da...". De acordo com a teoria estudada em *3.5 Princípio da Eficiência (Emenda Constitucional nº 19/1998)*, inserido formalmente no rol do art. 37 pela Reforma Administrativa (EC nº 19/1998), impõe à Administração o dever de obter o melhor rendimento funcional, presteza, perfeição técnica, celeridade na tramitação e economicidade, maximizando os resultados com o menor dispêndio possível de recursos públicos.
 >
 > **Gabarito: D**
 
 ---
 
-### Teste 006
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
-A Constituição Federal de 1988, nos artigos 37 ao 41, estabelece os princípios e diretrizes para a administração pública, abrangendo as esferas federal, estadual e municipal. Esses artigos também tratam dos direitos e deveres dos servidores públicos, garantindo a transparência, eficiência e legalidade na gestão pública. Com relação aos direitos e deveres dos servidores públicos, avalie as afirmativas a seguir. I. É permitida a incorporação de vantagens de caráter temporário ou vinculadas ao exercício de função de confiança ou de cargo em comissão à remuneração do cargo efetivo. II. É garantido ao servidor público civil o direito à livre associação sindical. III. O direito de greve será exercido nos termos e nos limites definidos em lei específica. Está correto o que se afirma em
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+### Teste 003
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+O processo administrativo abrange planejamento, organização, direção e controle. O planejamento define objetivos e estratégias; a organização estrutura recursos e atividades; a direção lidera e motiva as equipes; e o controle monitora o desempenho, ajustando conforme necessário para garantir o sucesso organizacional. Assinale a base de atuação da função de ideias.
+
+* **A)** Organização.
+* **B)** Controle.
+* **C)** Planejamento.
+* **D)** Direção.
+* **E)** Retroação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *A Súmula Vinculante nº 13 do Supremo Tribunal Federal:*, *"A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos poderes da União, dos Estados, do Distrito Federal e dos Municípios, compreendido o ajuste mediante designações recíprocas (nepotismo cruzado), viola a Constituição Federal."*.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3. Princípios Constitucionais Expressos (Art. 37, caput, CF/88 - LIMPE)*, o art. 37, *caput*, da Constituição Federal estabelece os cinco princípios expressos de observância obrigatória pela Administração Pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.2 Princípio da Impessoalidade e a Vedação à Promoção Pessoal*, vedação à Promoção Pessoal (Art. 37, § 1º, CF/88): A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deve possuir caráter estritamente educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos, slogans ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.5 Princípio da Eficiência (Emenda Constitucional nº 19/1998)* deste guia, *Desdobramentos Constitucionais Práticos:* Avaliação especial de desempenho para aquisição da estabilidade do servidor (art. 41, § 4º, CF); perda do cargo público por avaliação periódica de desempenho (art. 41, § 1º, III, CF); e fixação de metas de desempenho institucional mediante contratos de gestão (art. 37, § 8º, CF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "II e III, apenas".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1. Conceito e Sentidos de Administração Pública*, o Direito Administrativo brasileiro não se encontra codificado em um único diploma legal, fundando-se na Constituição da República de 1988, em leis esparsas e em construções doutrinárias e pretorianas consolidadas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Organização". De acordo com a teoria estudada em *1.2 Sentido Objetivo, Material ou Funcional*, abrange classicamente quatro atividades administrativas basilares.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Controle". De acordo com a teoria estudada em *1.1 Sentido Subjetivo, Formal ou Orgânico*, sob o enfoque subjetivo, formal ou orgânico, a Administração Pública define o complexo estrutural de sujeitos de direito, órgãos e agentes encarregados pelo ordenamento de exercer a função administrativa.
+> - **C)** **Correta.** Conforme fundamentado na seção *A Súmula Vinculante nº 13 do Supremo Tribunal Federal:* deste guia, "A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos poderes da União, dos Estados, do Distrito Federal e dos Municípios, compreendido o ajuste mediante designações recíprocas (nepotismo cruzado), viola a Constituição Federal.". Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Planejamento".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Direção". De acordo com a teoria estudada em *2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental*, conforme consagrado pela doutrina de Celso Antônio Bandeira de Mello, o regime administrativo estrutura se sobre dois pilares axiológicos fundamentais (bipolaridade do direito administrativo).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Retroação". De acordo com a teoria estudada em *4. Princípios Administrativos Implícitos e Regime Sumular*, além dos cinco princípios expressos no art. 37 da CF, o ordenamento constitucional e a legislação infraconstitucional (como a Lei do Processo Administrativo Federal nº 9.784/1999 e a Lei Estadual de Goiás nº 13.800/2001) consagram princípios implícitos de aplicação cogente.
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
+
+
 
 ## 4. Princípios Administrativos Implícitos e Regime Sumular
 
@@ -401,78 +329,6 @@ Os serviços públicos representam a prestação material de necessidades indecl
 
 ---
 
-### Teste 007
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-Os atos de improbidade administrativa são ações ou omissões dolosas que violam os deveres de honestidade, probidade e boa- fé. Considerando as disposições da Lei nº 8.429/1992, com a redação dada pela Lei nº 14.230/2021, a respeito dos referidos atos, é correto afirmar que
-
-* **A)** constitui ato de improbidade administrativa que causa prejuízo ao erário deixar a Assembleia Legislativa de apreciar o parecer prévio de Contas do Governador emitido pelo Tribunal de Contas Estadual, no prazo de 60 dias a contar do seu recebimento.
-* **B)** constitui ato de improbidade administrativa que causa prejuízo ao erário deixar a Câmara Municipal de apreciar o parecer prévio de Contas do Prefeito Municipal emitido pelo Tribunal de Contas do Município, no prazo de 30 dias a contar do seu recebimento.
-* **C)** constitui ato de improbidade administrativa que atenta contra os princípios da administração pública deixar de prestar contas quando esteja obrigado a fazê-lo, desde que disponha das condições para isso, com vistas a ocultar irregularidades
-* **D)** constitui ato de improbidade administrativa que importa enriquecimento ilícito deixar o Tribunal de Contas de proferir provimento final em tomada de contas especial no prazo de 5 anos a contar do fato gerador, desde que o valor não supere o limite de alçada.
-* **E)** constitui ato de improbidade administrativa que causa prejuízo ao erário deixar de prestar contas quando esteja obrigado a fazê-lo, desde que disponha das condições para isso, com vistas a ocultar irregularidades ou permitir a mudança em situação de fato ou de direito.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitui ato de improbidade administrativa que causa prejuízo ao erário deixar a Assembleia Legislativa de...". De acordo com a teoria estudada em *4.2 Segurança Jurídica e Proteção à Confiança Legítima*, *Prazo Decadencial da Autotutela:* Fixação do prazo decadencial de 5 anos para que a Administração anule atos administrativos favoráveis aos administrados praticados de boa-fé (art. 54 da Lei 9.784/99 e art. 54 da Lei Estadual/GO 13.800/2001).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitui ato de improbidade administrativa que causa prejuízo ao erário deixar a Câmara Municipal de apreciar o...". De acordo com a teoria estudada em *Enunciado da Súmula 473 do STF:*, limites Temporais: Prazo decadencial de 5 anos para atos benéficos ao cidadão de boa-fé — Não há prazo pré-fixado, respeitados atos consumados e direito adquirido.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.2 Princípio da Indisponibilidade do Interesse Público* deste guia, *Manifestações Práticas:* Submissão inafastável ao princípio da legalidade estrita; obrigatoriedade de realização de concurso público para provimento de cargos efetivos (art. 37, II, CF); dever inegociável de licitar para obras, compras e serviços (art. 37, XXI, CF); dever de prestar contas aos Tribunais de Contas; e impossibilidade de renúncia graciosa a receitas tributárias ou concessão arbitrária de privilégios a particulares. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "constitui ato de improbidade administrativa que atenta contra os princípios da administração pública deixar de...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitui ato de improbidade administrativa que importa enriquecimento ilícito deixar o Tribunal de Contas de...". De acordo com a teoria estudada em *2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental*, o Regime Jurídico-Administrativo é o conjunto harmônico de princípios e regras de Direito Público que colocam a Administração Pública em posição especial perante os administrados, conferindo-lhe prerrogativas extraordinárias, ao mesmo tempo em que lhe impõe severas restrições.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitui ato de improbidade administrativa que causa prejuízo ao erário deixar de prestar contas quando esteja...". De acordo com a teoria estudada em *4.4 Princípio da Motivação e a Teoria dos Motivos Determinantes*, a motivação consiste na exposição explícita, por escrito, das razões de fato e dos fundamentos de direito que justificam a prática do ato administrativo.
->
-> **Gabarito: C**
-
----
-
-### Teste 008
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
-Acerca da responsabilização com base na Lei de Improbidade Administrativa (Lei nº 8.429/92), levando em conta a moderna orientação dos Tribunais Superiores, após as modificações promovidas pela Lei nº 14.230/2021, assinale a afirmativa correta.
-
-* **A)** Apenas os atos de improbidade que importam em enriquecimento ilícito admitem a responsabilização do agente em razão de culpa grave, nos demais casos é necessário dolo específico para fins de aplicação das penalidades previstas na respectiva norma.
-* **B)** A revogação de conduta constante do rol dos atos de improbidade que atentam contra os princípios da Administração Pública não deve ser considerada nos processos em curso que estiverem em fase recursal, os quais deverão prosseguir com base na redação antiga da lei.
-* **C)** O novo regime prescricional previsto na norma em comento é irretroativo, aplicando-se os novos marcos temporais a partir da publicação da lei, diante da necessidade de observância dos princípios da segurança jurídica, do acesso à Justiça e da proteção da confiança.
-* **D)** O Ministério Público tem legitimidade exclusiva para o ajuizamento da ação de improbidade que importa em prejuízo ao erário, não sendo admitida a propositura da demanda pelo ente ou entidade lesada pela conduta ímproba.
-* **E)** A caracterização do ato de improbidade que causa prejuízo ao erário em razão da conduta de dispensa indevida de processo licitatório independe da comprovação do efetivo prejuízo, pois o dano é presumido (in re ipsa). Direito (Administrativo, Constitucional e Financeiro)
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Apenas os atos de improbidade que importam em enriquecimento ilícito admitem a responsabilização do agente em...". De acordo com a teoria estudada em *5.3 Responsabilização por Dolo ou Erro Grosseiro (Art. 28 da LINDB c/c Dec. 9.830/2019)*, responsabilidade Subjetiva: O servidor público ou parecerista técnico somente pode ser punido pessoalmente (com multas, sanções funcionais ou obrigação de ressarcir o erário) caso tenha atuado com dolo (intenção deliberada de descumprir a lei ou lesar o patrimônio) ou erro grosseiro (culpa grave inescusável).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A revogação de conduta constante do rol dos atos de improbidade que atentam contra os princípios da Administração...". De acordo com a teoria estudada em *4.2 Segurança Jurídica e Proteção à Confiança Legítima*, *Prazo Decadencial da Autotutela:* Fixação do prazo decadencial de 5 anos para que a Administração anule atos administrativos favoráveis aos administrados praticados de boa-fé (art. 54 da Lei 9.784/99 e art. 54 da Lei Estadual/GO 13.800/2001).
-> - **C)** **Correta.** Conforme fundamentado na seção *4.2 Segurança Jurídica e Proteção à Confiança Legítima* deste guia, *Vedação à Aplicação Retroativa:* O art. 2º, parágrafo único, inciso XIII, da Lei nº 9.784/1999 veda peremptoriamente a aplicação retroativa de nova interpretação jurídica para alcançar atos pretéritos já consolidados sob a orientação anterior. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "O novo regime prescricional previsto na norma em comento é irretroativo, aplicando-se os novos marcos temporais a...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Ministério Público tem legitimidade exclusiva para o ajuizamento da ação de improbidade que importa em prejuízo...". De acordo com a teoria estudada em *5.4 Segurança Jurídica, Transição e Vedação à Retroatividade (Arts. 23 e 24)*, regime de Transição (Art. 23): Decisão que estabelece nova interpretação ou novo dever deve prever período de transição quando indispensável para que o novo dever seja cumprido de modo proporcional e sem caos operacional.
-> - **E)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "A caracterização do ato de improbidade que causa prejuízo ao erário em razão da conduta de dispensa indevida de...". De acordo com a teoria estudada em *4. Princípios Administrativos Implícitos e Regime Sumular*, além dos cinco princípios expressos no art. 37 da CF, o ordenamento constitucional e a legislação infraconstitucional (como a Lei do Processo Administrativo Federal nº 9.784/1999 e a Lei Estadual de Goiás nº 13.800/2001) consagram princípios implícitos de aplicação cogente.
->
-> **Gabarito: C**
-
----
-
-### Teste 009
-**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
-Maria forneceu os seus dados pessoais para usufruir determinado benefício assistencial ofertado pelo Estado Alfa. Considerando que Maria figurava como parte interessada em um processo administrativo no qual certo órgão da Administração Pública lhe aplicara a sanção de multa, um servidor constatou que as referidas informações poderiam ser utilizadas, neste último processo, para demonstrar que Maria não tinha razão em suas alegações. À luz da sistemática estabelecida pela Lei Geral de Proteção de Dados (LGPD), é correto afirmar que
-
-* **A)** é vedado que órgão da Administração Pública, enquanto controlador dos dados pessoais, os utilize para qualquer outro fim que não aquele indicado pelo titular.
-* **B)** o princípio da universalidade das provas, contemplado na LGPD, autoriza a utilização dos dados pessoais de Maria para os fins pretendidos pelo servidor.
-* **C)** como os dados pessoais foram apresentados por Maria, para o exercício regular de um direito, não poderiam ser utilizados em seu prejuízo.
-* **D)** a Administração Pública, sempre que figure como operadora dos dados pessoais, pode utilizá-los da forma que melhor lhe aprouver.
-* **E)** a LGPD autoriza a utilização dos dados fornecidos por Maria caso o bem jurídico a ser tutelado seja de interesse público.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "é vedado que órgão da Administração Pública, enquanto controlador dos dados pessoais, os utilize para qualquer...". De acordo com a teoria estudada em *A Súmula Vinculante nº 13 do Supremo Tribunal Federal:*, *"A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos poderes da União, dos Estados, do Distrito Federal e dos Municípios, compreendido o ajuste mediante designações recíprocas (nepotismo cruzado), viola a Constituição Federal."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o princípio da universalidade das provas, contemplado na LGPD, autoriza a utilização dos dados pessoais de Maria...". De acordo com a teoria estudada em *4.1 Razoabilidade e Proporcionalidade*, exigem equilíbrio, bom senso, coerência e adequação entre os meios empregados pelo Estado e os fins pretendidos pela lei, vedando restrições desmedidas ou sacrifícios inúteis impostos aos administrados.
-> - **C)** **Correta.** Conforme fundamentado na seção *5.3 Responsabilização por Dolo ou Erro Grosseiro (Art. 28 da LINDB c/c Dec. 9.830/2019)* deste guia, responsabilidade Subjetiva: O servidor público ou parecerista técnico somente pode ser punido pessoalmente (com multas, sanções funcionais ou obrigação de ressarcir o erário) caso tenha atuado com dolo (intenção deliberada de descumprir a lei ou lesar o patrimônio) ou erro grosseiro (culpa grave inescusável). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "como os dados pessoais foram apresentados por Maria, para o exercício regular de um direito, não poderiam ser...".
-> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "a Administração Pública, sempre que figure como operadora dos dados pessoais, pode utilizá-los da forma que melhor...". De acordo com a teoria estudada em *Enunciado da Súmula 473 do STF:*, *"A administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, porque deles não se originam direitos; ou revogá-los, por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos, e ressalvada, em todos os casos, a apreciação judicial."*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a LGPD autoriza a utilização dos dados fornecidos por Maria caso o bem jurídico a ser tutelado seja de interesse...". De acordo com a teoria estudada em *2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental*, o Regime Jurídico-Administrativo é o conjunto harmônico de princípios e regras de Direito Público que colocam a Administração Pública em posição especial perante os administrados, conferindo-lhe prerrogativas extraordinárias, ao mesmo tempo em que lhe impõe severas restrições.
->
-> **Gabarito: C**
-
----
-
 ## 5. O Direito Público Positivo da LINDB (Arts. 20 a 30) e o Controle Externo
 
 A Lei de Introdução às Normas do Direito Brasileiro (LINDB - Decreto-Lei nº 4.657/1942), com as alterações introduzidas pela Lei nº 13.655/2018 e regulamentadas pelo Decreto Federal nº 9.830/2019, inaugurou uma nova fase de pragmatismo, segurança jurídica e racionalidade no Direito Administrativo sancionador e nas decisões dos Tribunais de Contas.
@@ -503,54 +359,6 @@ A Lei de Introdução às Normas do Direito Brasileiro (LINDB - Decreto-Lei nº 
 
 - **Regime de Transição (Art. 23):** Decisão que estabelece nova interpretação ou novo dever deve prever período de transição quando indispensável para que o novo dever seja cumprido de modo proporcional e sem caos operacional.
 - **Vedação à Retroatividade de Nova Orientação Geral (Art. 24):** A revisão judicial, administrativa ou controladora sobre a validade de atos, contratos ou processos já consumados levará em conta as **orientações gerais vigentes à época**. É expressamente proibido declarar inválidas situações consolidadas com amparo na orientação pretérita com base em mudança jurisprudencial posterior.
-
----
-
-### Teste 010
-**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
-Os Tribunais de Contas são órgãos independentes, de envergadura constitucional, responsáveis pelo controle externo da Administração Pública, ostentando competências próprias e privativas. As decisões proferidas pelas Cortes de Contas têm capacidade de impactar diretamente a esfera jurídica dos órgãos jurisdicionados, definindo deveres e responsabilidades. Nesse contexto, considerando as disposições da Lei de Introdução às Normas do Direito Brasileiro - LINDB, no âmbito de sua atuação, o Tribunal de Contas do Estado do Piauí
-
-* **A)** ao decidir, poderá se basear em valores jurídicos abstratos, mesmo sem considerar as consequências práticas da decisão, desde que o faça de forma motivada.
-* **B)** ao motivar seus atos, demonstrará a necessidade e a adequação da medida imposta ou da invalidação de ato, contrato, ajuste, processo ou norma administrativa, inclusive em face das possíveis alternativas.
-* **C)** ao interpretar normas sobre gestão pública, deverá considerar os obstáculos, as dificuldades reais do gestor e as exigências das políticas públicas a seu cargo, mesmo que com eventual prejuízo dos direitos dos administrados.
-* **D)** ao decretar a invalidação de ato, contrato, ajuste, processo ou norma administrativa, deverá indicar de modo expresso suas consequências administrativas, mas não as jurídicas, em razão do princípio da inafastabilidade do controle jurisdicional.
-* **E)** ao estabelecer interpretação ou orientação nova sobre norma de conteúdo indeterminado, impondo novo dever ou novo condicionamento de direito, dará a ela aplicabilidade imediata, se abstendo, em qualquer caso, de estabelecer regime de transição, aplicável apenas à esfera judicial. Noções de Direito Constitucional
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao decidir, poderá se basear em valores jurídicos abstratos, mesmo sem considerar as consequências práticas da...". De acordo com a teoria estudada em *5.1 Consequencialismo Jurídico e Vedação de Valores Abstratos (Art. 20)*, *"Art. 20. Nas esferas administrativa, controladora e judicial, não se decidirá com base em valores jurídicos abstratos sem que sejam consideradas as consequências práticas da decisão."*.
-> - **B)** **Correta.** Conforme fundamentado na seção *5.1 Consequencialismo Jurídico e Vedação de Valores Abstratos (Art. 20)* deste guia, é vedado ao auditor ou julgador do Tribunal de Contas anular um contrato ou paralisar uma obra pública invocando fórmulas genéricas como "ofensa ao interesse público" ou "afronta à moralidade" sem motivar analiticamente os impactos socioeconômicos, os prejuízos à população e a viabilidade de alternativas de regularização. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "ao motivar seus atos, demonstrará a necessidade e a adequação da medida imposta ou da invalidação de ato...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao interpretar normas sobre gestão pública, deverá considerar os obstáculos, as dificuldades reais do gestor e as...". De acordo com a teoria estudada em *5.2 Obstáculos Reais e Circunstâncias Práticas do Gestor (Art. 22)*, *"Art. 22. Na interpretação de normas sobre gestão pública, serão considerados os obstáculos e as dificuldades reais do gestor e as exigências das políticas públicas a seu cargo, sem prejuízo dos direitos dos administrados."*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao decretar a invalidação de ato, contrato, ajuste, processo ou norma administrativa, deverá indicar de modo...". De acordo com a teoria estudada em *5. O Direito Público Positivo da LINDB (Arts. 20 a 30) e o Controle Externo*, a Lei de Introdução às Normas do Direito Brasileiro (LINDB - Decreto-Lei nº 4.657/1942), com as alterações introduzidas pela Lei nº 13.655/2018 e regulamentadas pelo Decreto Federal nº 9.830/2019, inaugurou uma nova fase de pragmatismo, segurança jurídica e racionalidade no Direito Administrativo sancionador e nas decisões dos Tribunais de Contas.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "ao estabelecer interpretação ou orientação nova sobre norma de conteúdo indeterminado, impondo novo dever ou novo...". De acordo com a teoria estudada em *5.4 Segurança Jurídica, Transição e Vedação à Retroatividade (Arts. 23 e 24)*, regime de Transição (Art. 23): Decisão que estabelece nova interpretação ou novo dever deve prever período de transição quando indispensável para que o novo dever seja cumprido de modo proporcional e sem caos operacional.
->
-> **Gabarito: B**
-
----
-
-### Teste 011
-**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
-Caio, após tomar posse no cargo de analista no Tribunal de Justiça do Estado Alfa, constatou a importância prática da Lei de Introdução às Normas do Direito Brasileiro, em razão de uma atuação legislativa pujante, dando azo à criação de um número elevado de novas leis todos os anos. Nesse cenário, considerando as disposições da Lei de Introdução às Normas do Direito Brasileiro, as seguintes afirmativas estão corretas, à exceção de uma. Assinale-a.
-
-* **A)** Lei nova que estabeleça disposições gerais ou especiais a par das já existentes, não revoga nem modifica a lei anterior.
-* **B)** Salvo disposição contrária, a lei começa a vigorar em todo o país quarenta e cinco dias depois de oficialmente publicada.
-* **C)** A lei revogada se restaura quando a lei revogadora perder a vigência, salvo disposição em sentido contrário.
-* **D)** Não se destinando à vigência temporária, a lei terá vigor até que outra a modifique ou revogue.
-* **E)** As correções a texto de lei já em vigor consideram-se lei nova.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Lei nova que estabeleça disposições gerais ou especiais a par das já existentes, não revoga nem modifica a lei...". De acordo com a teoria estudada em *4.2 Segurança Jurídica e Proteção à Confiança Legítima*, *Vedação à Aplicação Retroativa:* O art. 2º, parágrafo único, inciso XIII, da Lei nº 9.784/1999 veda peremptoriamente a aplicação retroativa de nova interpretação jurídica para alcançar atos pretéritos já consolidados sob a orientação anterior.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Salvo disposição contrária, a lei começa a vigorar em todo o país quarenta e cinco dias depois de oficialmente...". De acordo com a teoria estudada em *4. Princípios Administrativos Implícitos e Regime Sumular*, além dos cinco princípios expressos no art. 37 da CF, o ordenamento constitucional e a legislação infraconstitucional (como a Lei do Processo Administrativo Federal nº 9.784/1999 e a Lei Estadual de Goiás nº 13.800/2001) consagram princípios implícitos de aplicação cogente.
-> - **C)** **Correta.** Conforme fundamentado na seção *5. O Direito Público Positivo da LINDB (Arts. 20 a 30) e o Controle Externo* deste guia, a Lei de Introdução às Normas do Direito Brasileiro (LINDB - Decreto-Lei nº 4.657/1942), com as alterações introduzidas pela Lei nº 13.655/2018 e regulamentadas pelo Decreto Federal nº 9.830/2019, inaugurou uma nova fase de pragmatismo, segurança jurídica e racionalidade no Direito Administrativo sancionador e nas decisões dos Tribunais de Contas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "A lei revogada se restaura quando a lei revogadora perder a vigência, salvo disposição em sentido contrário".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não se destinando à vigência temporária, a lei terá vigor até que outra a modifique ou revogue". De acordo com a teoria estudada em *1.1 Sentido Subjetivo, Formal ou Orgânico*, no ordenamento brasileiro, adota-se o critério estritamente formal: integram a Administração Pública em sentido subjetivo exclusivamente os órgãos e entidades aos quais a lei confere tal condição (União, Estados, DF, Municípios, suas autarquias, fundações públicas, empresas públicas e sociedades de economia mista).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As correções a texto de lei já em vigor consideram-se lei nova". De acordo com a teoria estudada em *4.5 Princípio da Continuidade dos Serviços Públicos*, *Limites Legítimos de Suspensão (Lei nº 8.987/1995, art. 6º, § 3º):* O serviço pode ser suspenso após aviso prévio formal ao usuário por.
->
-> **Gabarito: C**
 
 ---
 

@@ -4,10 +4,7 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo (TCE-GO)  
 > **Conteúdo Oficial:** Lei Estadual de Goiás nº 20.756/2020 (Estatuto dos Servidores Públicos Civis do Estado de Goiás); Formas de Provimento (Nomeação, Posse e Exercício); Estágio Probatório e Estabilidade; Formas Derivadas de Provimento; Vacância; Direitos, Vantagens e Licenças; Regime Disciplinar, Sanções e Prazos de Prescrição; Sindicância e PAD.
 
-
-
 ---
-
 
 ## 📌 Ementa & Delimitação do Conteúdo
 
@@ -204,54 +201,6 @@ O desrespeito aos prazos legais acarreta efeitos administrativos substancialment
 
 ---
 
-### Teste 460
-**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia Da Informacao)**
-Jonas precisa efetuar algumas pesquisas nas entradas de um servidor OpenLDAP utilizado na rede de sua empresa. Algumas das entradas presentes no servidor são replicadas a seguir: cn=Jose, ou=Finanças, o=Matriz, c=BR cn=Luiz, ou=Marketing, o=Matriz, c=BR cn=Maria, ou=Marketing, o=Matriz, c=BR cn=Carlos, ou=Finanças, o=Filial RJ, c=BR cn=Adriana, ou=Marketing, o=Filial RJ, c=BR cn=Vanessa, ou=Marketing, o=Filial MG, c=BR Para encontrar todas as pessoas que trabalham na Matriz, ele utilizou o comando:
-
-* **A)** ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz" "(objectclass=person)" dn
-* **B)** ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz,c=BR" -s one "(|(ou=Marketing)(ou=Finanças))" dn
-* **C)** ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz,c=BR" -s base "(objectclass=person)" dn
-* **D)** ldapsearch -x -H "ldap://localhost:1389" -b "c=BR" -s sub "(|(ou=Marketing)(ou=Finanças))" dn
-* **E)** ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz,c=BR" -s children "(objectclass=person)" dn
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz" "(objectclass=person)" dn". De acordo com a teoria estudada em *2.1 A Trilha Temporal de Investidura*, é o efetivo desempenho das atribuições e encargos do cargo público pelo servidor.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz,c=BR" -s one "(|(ou=Marketing)(ou=Finanças))" dn". De acordo com a teoria estudada em *2.1 A Trilha Temporal de Investidura*, o prazo para o servidor empossado entrar em exercício é de 15 (quinze) dias, contados da data da posse.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz,c=BR" -s base "(objectclass=person)" dn". De acordo com a teoria estudada em *6.1 Responsabilidade Funcional e Independência Relativa das Instâncias*, cuidado com a pegadinha FCC: A absolvição criminal por *ausência de provas suficientes para a condenação* ou por *atipicidade penal da conduta* NÃO vincula a administração, podendo o servidor ser regularmente demitido ou suspenso administrativamente com base nas provas do PAD.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.1 A Trilha Temporal de Investidura* deste guia, a investidura e o início formal do vínculo laboral do servidor com o Estado de Goiás seguem uma rigorosa cadeia cronológica de atos administrativos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "ldapsearch -x -H "ldap://localhost:1389" -b "c=BR" -s sub "(|(ou=Marketing)(ou=Finanças))" dn".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz,c=BR" -s children "(objectclass=person)" dn". De acordo com a teoria estudada em *2.1 A Trilha Temporal de Investidura*, a contagem do tempo de serviço público e do estágio probatório tem início na exata data em que o servidor entra em efetivo exercício.
->
-> **Gabarito: D**
-
----
-
-### Teste 461
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-No Brasil, a legislação de compliance no setor público visa coibir a prática de atos de corrupção e punir objetivamente as empresas que não adotarem políticas internas de prevenção à fraude e à corrupção, especialmente quando possuem contratos firmados com o Poder Público. Sobre esse tema, avalie as afirmativas a seguir considerando as disposições da legislação e das políticas de compliance e combate à corrupção adotadas no Brasil. I. A Convenção da Organização para a Cooperação e Desenvolvimento Econômico (OCDE) sobre o Combate à Corrupção de Funcionários Públicos Estrangeiros em Transações Comerciais Internacionais não influenciou a legislação brasileira de compliance e a prevenção à corrupção. II. Na legislação brasileira, a responsabilização de pessoas jurídicas depende da comprovação de dolo ou culpa dos agentes causadores de atos lesivos ao erário. III. A responsabilização por atos lesivos ao erário abrange os atos praticados contra o patrimônio de instituições públicas nacionais e estrangeiras. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** II e III, apenas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1. Disposições Gerais e Conceitos Estruturais*, a Lei Estadual de Goiás nº 20.756, de 28 de janeiro de 2020, estabeleceu o novo regime jurídico dos servidores públicos civis do Estado de Goiás, das suas autarquias e fundações públicas, modernizando os institutos estatutários e revogando a antiga Lei Estadual nº 10.460/1988.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.3 Requisitos Básicos para Investidura*, exceção única: quando a lei ou edital exigir expressamente a comprovação de tempo de prática forense ou atividade jurídica prévia já no ato da inscrição definitiva em carreiras jurídicas específicas.
-> - **C)** **Correta.** Conforme fundamentado na seção *6.1 Responsabilidade Funcional e Independência Relativa das Instâncias* deste guia, tratando-se de dano causado a particular, o Estado responde objetivamente e move ação de regresso contra o servidor caso este tenha agido com dolo ou culpa (CF/88, art. 37, § 6º). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "III, apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2.2 Consequências Jurídicas do Descumprimento dos Prazos*, ela afirma que o candidato nomeado que não toma posse será *exonerado* (FALSO, pois a nomeação é tornada sem efeito).
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.2 Consequências Jurídicas do Descumprimento dos Prazos*, ela afirma que o empossado que não entra em exercício terá sua posse *anulada* ou será *demitido* (FALSO, a demissão é punição disciplinar que pressupõe PAD, ao passo que a consequência legal é a exoneração de ofício).
->
-> **Gabarito: C**
-
----
-
 ## 3. Estágio Probatório e Estabilidade Constitucional
 
 ### 3.1 Requisitos e Fatores de Avaliação Especial
@@ -311,30 +260,6 @@ Conforme o art. 41, § 1º, e o art. 169, § 4º, da Constituição Federal de 1
 
 ---
 
-### Teste 462
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
-Lucas, servidor público no Estado de Santa Catarina, tomou conhecimento de que ocorrerá remoção por interesse do serviço, fundada na necessidade de pessoal. Preocupado com a informação, Lucas passou a consultar a legislação de regência no ponto que trata sobre a referida temática. Nesse cenário, considerando as disposições da Lei Estadual nº 6.745/1985, Lucas aprendeu que a remoção por interesse do serviço público, quando fundada na necessidade de pessoal, recairá preferencialmente sobre o agente público
-
-* **A)** de menos tempo de serviço; residente em localidade mais próxima; e menos idoso.
-* **B)** de menos tempo de serviço; menos idoso; e residente em localidade mais próxima.
-* **C)** menos idoso; de menos tempo de serviço; e residente em localidade mais próxima.
-* **D)** menos idoso; residente em localidade mais próxima; e de menos tempo de serviço.
-* **E)** residente em localidade mais próxima; de menos tempo de serviço; e menos idoso.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *3.3 Hipóteses Constitucionais de Perda do Cargo do Servidor Estável* deste guia, corte de despesas de pessoal para cumprimento dos limites da LRF (CF/88, art. 169, § 4º): após a redução de pelo menos 20% das despesas com cargos em comissão e funções de confiança e a exoneração prévia de servidores não estáveis, se as despesas ainda superarem os limites da Lei de Responsabilidade Fiscal, o servidor estável poderá perder o cargo, fazendo jus à indenização de 1 (um) mês de remuneração por ano de serviço. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "de menos tempo de serviço; residente em localidade mais próxima; e menos idoso".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de menos tempo de serviço; menos idoso; e residente em localidade mais próxima". De acordo com a teoria estudada em *2.1 A Trilha Temporal de Investidura*, a contagem do tempo de serviço público e do estágio probatório tem início na exata data em que o servidor entra em efetivo exercício.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "menos idoso; de menos tempo de serviço; e residente em localidade mais próxima". De acordo com a teoria estudada em *3.2 Desfechos da Avaliação Especial: Exoneração vs. Recondução*, se um servidor novato, ainda cumprindo estágio probatório no primeiro cargo, passar em outro concurso estadual e for inabilitado neste segundo estágio, ele não terá direito à recondução (será simplesmente exonerado de ofício), visto que jamais adquiriu a estabilidade no serviço público!.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "menos idoso; residente em localidade mais próxima; e de menos tempo de serviço". De acordo com a teoria estudada em *5.1 Sistema Remuneratório: Vencimento, Remuneração e Indenizações*, ajuda de Custo: destina-se a compensar as despesas de instalação e transporte do servidor que passa a ter exercício em nova sede funcional, por necessidade do serviço e com mudança de domicílio em caráter permanente.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "residente em localidade mais próxima; de menos tempo de serviço; e menos idoso". De acordo com a teoria estudada em *5.1 Sistema Remuneratório: Vencimento, Remuneração e Indenizações*, diárias: concedidas ao servidor que se deslocar da sede em caráter eventual ou transitório no interesse do serviço público para cobrir custos de alimentação, transporte urbano e hospedagem.
->
-> **Gabarito: A**
-
----
-
 ## 4. Provimento Derivado e Vacância de Cargos Públicos
 
 ### 4.1 Formas Derivadas de Provimento (Quadro Comparativo)
@@ -384,48 +309,6 @@ Vacância é o ato ou fato administrativo que extingue o provimento, tornando de
 
 ---
 
-### Teste 463
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-No contexto do atendimento ao público, a comunicação assertiva se caracteriza por permitir que o servidor expresse posições, limites e informações de forma clara e respeitosa, sem adotar comportamentos passivos ou agressivos. Com base nesse conceito, assinale a opção que apresenta um exemplo de comunicação assertiva no atendimento ao cidadão.
-
-* **A)** Concordar com todas as solicitações do cidadão, ainda que inviáveis, para evitar qualquer situação de desconforto durante o atendimento.
-* **B)** Interromper o cidadão repetidamente para demonstrar domínio técnico e agilizar a resolução do problema.
-* **C)** Responder de forma monossilábica e sem explicações adicionais, a fim de manter a objetividade e reduzir o tempo de atendimento.
-* **D)** Informar ao cidadão, com clareza e respeito, que sua solicitação não pode ser atendida naquele momento, explicando o motivo e indicando alternativas disponíveis.
-* **E)** Utilizar linguagem técnica e formal em todas as situações, independentemente do perfil do cidadão, para assegurar a precisão das informações transmitidas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Concordar com todas as solicitações do cidadão, ainda que inviáveis, para evitar qualquer situação de desconforto...". De acordo com a teoria estudada em *5.3 Licenças Estatutárias: Capacitação vs. Interesses Particulares*, acúmulo de Períodos: VEDADO o acúmulo: o período não usufruído não pode ser acumulado para o quinquênio seguinte. — Pode ser prorrogada ou solicitada novamente após regular retorno, observado o teto legal.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Interromper o cidadão repetidamente para demonstrar domínio técnico e agilizar a resolução do problema". De acordo com a teoria estudada em *4.1 Formas Derivadas de Provimento (Quadro Comparativo)*, se convocado regularmente e não entrar em exercício (sem motivo de força maior ou doença comprovada), sua disponibilidade é sumariamente cassada.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Responder de forma monossilábica e sem explicações adicionais, a fim de manter a objetividade e reduzir o tempo de...". De acordo com a teoria estudada em *4.1 Formas Derivadas de Provimento (Quadro Comparativo)*, enquanto a nomeação é a única forma de provimento originário (inaugura a relação jurídica do indivíduo com o Estado), o provimento derivado pressupõe um vínculo funcional precedente.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Requisitos Básicos para Investidura* deste guia, a comprovação dos requisitos de investidura (escolaridade, idade, registro em conselho) é exigida no momento da POSSE e não da inscrição no concurso público, em estrita consonância com a Súmula nº 266 do STJ (*"O diploma ou habilitação legal para o exercício do cargo deve ser exigido na posse e não na inscrição para o concurso público"*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Informar ao cidadão, com clareza e respeito, que sua solicitação não pode ser atendida naquele momento, explicando...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Utilizar linguagem técnica e formal em todas as situações, independentemente do perfil do cidadão, para assegurar...". De acordo com a teoria estudada em *2.1 A Trilha Temporal de Investidura*, é o momento solene e formal em que se consuma a investidura no cargo público.
->
-> **Gabarito: D**
-
----
-
-### Teste 464
-**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-Preenchidos os requisitos legais para ocupar cargo público, uma pessoa poderá ocupar cargo de auxiliar no gabinete de um ministro do STF, mesmo não sendo servidor ocupante do cargo efetivo.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Servidor Público e Cargo Público* deste guia, servidor Público: é a pessoa física legalmente investida em cargo público, de provimento efetivo ou em comissão. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STF/2008) ao afirmar que "Preenchidos os requisitos legais para ocupar cargo público, uma pessoa poderá ocupar cargo de auxiliar no...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *5.2 Regime de Férias*, segundo a qual é permitida a fragmentação das férias anuais em até 3 (três) períodos, sendo que nenhum deles poderá ser inferior a 10 (dez) dias, no interesse da administração pública.
->
-> **Gabarito: C**
-
----
-
 ## 5. Direitos, Vantagens Pecuniárias e Licenças Estatutárias
 
 ### 5.1 Sistema Remuneratório: Vencimento, Remuneração e Indenizações
@@ -471,30 +354,6 @@ flowchart TD
         LIP["LICENÇA P/ INTERESSES PARTICULARES<br/>• Exige prévia ESTABILIDADE<br/>• Duração: até 3 ANOS consecutivos<br/>• SEM remuneração<br/>• VEDADA a servidor em probatório"]
     end
 ```
-
----
-
-### Teste 465
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-Nos termos da legislação de regência, o servidor nomeado para cargo efetivo fica sujeito a um período de estágio probatório de três anos de efetivo exercício no cargo para o qual prestou concurso público. Nesse cenário, considerando as disposições da Lei Estadual nº 6.745/1985, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Serão considerados requisitos básicos do estágio probatório a idoneidade moral, a assiduidade e a pontualidade, a disciplina e a eficiência. ( ) A verificação dos requisitos necessários à confirmação no cargo será efetuada por comissão composta de, no mínimo, cinco membros designados pelo titular do órgão. ( ) Será suspensa a contagem do período do estágio probatório do servidor afastado a qualquer título, inclusive férias, e o exercício de cargo comissionado com atribuições afins às do cargo efetivo. As afirmativas são, respectivamente,
-
-* **A)** F – V – F.
-* **B)** V – F – F.
-* **C)** V – V – F.
-* **D)** F – F – F.
-* **E)** V – V – V.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – F". De acordo com a teoria estudada em *6.4 Sindicância e Processo Administrativo Disciplinar (PAD)*, comissão Processante: composta obrigatoriamente por 3 (três) servidores públicos estáveis, designados pela autoridade instauradora, que indicará dentre eles o Presidente (que deve ocupar cargo efetivo de nível igual ou superior ao do indiciado).
-> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Requisitos e Fatores de Avaliação Especial* deste guia, ao entrar em efetivo exercício, o servidor nomeado para cargo de provimento efetivo sujeita-se a estágio probatório pelo período obrigatório de 3 (três) anos (36 meses) de efetivo exercício, durante o qual sua aptidão, capacitação e dedicação funcional serão avaliadas para fins de aquisição da estabilidade. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "V – F – F".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *5.2 Regime de Férias*, o servidor público estadual adquire direito a 30 (trinta) dias consecutivos de férias a cada período de 12 (doze) meses de efetivo exercício funcional (período aquisitivo).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – F". De acordo com a teoria estudada em *2.1 A Trilha Temporal de Investidura*, a contagem do tempo de serviço público e do estágio probatório tem início na exata data em que o servidor entra em efetivo exercício.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – V". De acordo com a teoria estudada em *4.1 Formas Derivadas de Provimento (Quadro Comparativo)*, a Lei Estadual nº 20.756/2020 disciplina cinco modalidades de provimento derivado.
->
-> **Gabarito: B**
 
 ---
 
@@ -609,96 +468,6 @@ flowchart LR
         4. *Julgamento:* decisão proferida pela autoridade competente.
 
 * **Garantias Constitucionais:** asseguram-se ao servidor indiciado o contraditório, ampla defesa, acompanhamento por advogado constituído ou defensor dativo, vista aos autos e o direito de requerer novas provas relevantes e pertinentes.
-
----
-
-### Teste 466
-**(CEBRASPE – TJ/DFT – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-O servidor não efetivo que ocupe cargo em comissão será demitido do cargo nos casos de infração sujeita às penalidades de suspensão e de demissão. Com referência às disposições inscritas no Código de Ética Profissional do Serviço Público, julgue os próximos itens.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *6.2 As Penalidades Disciplinares e Hipóteses de Demissão* deste guia, aplicada a ocupante de cargo comissionado sem vínculo efetivo que praticar infração punível com suspensão ou demissão. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TJ/DFT/2015) ao afirmar que "O servidor não efetivo que ocupe cargo em comissão será demitido do cargo nos casos de infração sujeita às...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *6.2 As Penalidades Disciplinares e Hipóteses de Demissão*, segundo a qual conversão Pecuniária em Multa: quando houver comprovada conveniência para a continuidade do serviço público, a penalidade de suspensão poderá ser convertida em multa pecuniária à razão de 50% (cinquenta por cento) por dia de remuneração, permanecendo o servidor no exercício obrigatório de suas atividades funcionais normais.
->
-> **Gabarito: C**
-
----
-
-### Teste 467
-**(FCC – TRT 1ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-De acordo com a Lei no 8.112/90, a nomeação é uma das formas de provimento de cargo público, aplicável para ocupação de
-
-* **A)** cargo público efetivo, não aplicado para os comis- sionados, exceto os reintegrados.
-* **B)** cargo público efetivo e para cargos de confiança.
-* **C)** cargo ou emprego público efetivos.
-* **D)** função pública de confiança, cargo em comissão efetivo e emprego público.
-* **E)** cargo em comissão, desde que derivado de readap- tação. _________________________________________________________ _________________________________________________________
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cargo público efetivo, não aplicado para os comis- sionados, exceto os reintegrados". De acordo com a teoria estudada em *1.2 Cargos de Provimento Efetivo, em Comissão e Funções de Confiança*, a estrutura de cargos e funções públicas no Estado de Goiás desdobra-se em três modalidades jurídicas distintas, alinhadas ao art. 37, V, da CF/88.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Cargos de Provimento Efetivo, em Comissão e Funções de Confiança* deste guia, declarados em lei de livre nomeação e livre exoneração (*ad nutum*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 1ª/2014) ao estabelecer que "cargo público efetivo e para cargos de confiança".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cargo ou emprego público efetivos". De acordo com a teoria estudada em *1.2 Cargos de Provimento Efetivo, em Comissão e Funções de Confiança*, a legislação goiana exige a destinação de um percentual mínimo desses cargos aos servidores titulares de cargos efetivos de carreira.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "função pública de confiança, cargo em comissão efetivo e emprego público". De acordo com a teoria estudada em *1.2 Cargos de Provimento Efetivo, em Comissão e Funções de Confiança*, exigem aprovação prévia em concurso público de provas ou de provas e títulos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cargo em comissão, desde que derivado de readap- tação. _________________________________________________________...". De acordo com a teoria estudada em *1.2 Cargos de Provimento Efetivo, em Comissão e Funções de Confiança*, destinam-se ao corpo permanente da administração direta, autárquica e fundacional.
->
-> **Gabarito: B**
-
----
-
-### Teste 468
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
-Jorge Ferraz, servidor público do Estado de Santa Catarina, dotado de cargo público de provimento efetivo, é regulamente filiado ao Regime de Previdência Estadual, vertendo suas contribuições normalmente. Jorge, todavia, decide realizar contribuição adicional ao Regime Geral de Previdência Social (RGPS), de forma a acumular aposentadorias de ambos os regimes. Diante da situação hipotética, é correto afirmar que a estratégia de Jorge é
-
-* **A)** válida, desde que requeira inscrição previdenciária no RGPS como facultativo.
-* **B)** inválida, pois não é possível a acumulação de aposentadorias após a EC nº 103/19.
-* **C)** válida, desde que Jorge tenha outra atividade remunerada lícita que o vincule ao RGPS.
-* **D)** inválida, pois a CF/88 impede a vinculação simultânea a dois ou mais regimes previdenciários.
-* **E)** válida, desde que Jorge venha a aderir, também, ao regime de previdência complementar estadual. Realização
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "válida, desde que requeira inscrição previdenciária no RGPS como facultativo". De acordo com a teoria estudada em *6.2 As Penalidades Disciplinares e Hipóteses de Demissão*, aplicada ao servidor aposentado ou posto em disponibilidade remunerada que houver praticado, enquanto ainda em atividade funcional, falta gravíssima punível originariamente com demissão.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inválida, pois não é possível a acumulação de aposentadorias após a EC nº 103/19". De acordo com a teoria estudada em *4.1 Formas Derivadas de Provimento (Quadro Comparativo)*, 3º) Se não houver vaga disponível para recondução ou aproveitamento, é posto em disponibilidade remunerada proporcional ao tempo de contribuição.
-> - **C)** **Correta.** Conforme fundamentado na seção *4.1 Formas Derivadas de Provimento (Quadro Comparativo)* deste guia, reversão: Retorno à atividade do servidor público aposentado. — Ocorre em duas modalidades: 1) *De ofício:* quando a Junta Médica Oficial declarar insubsistentes os motivos determinantes da aposentadoria por incapacidade permanente; 2) *A pedido:* a critério e interesse da administração, desde que a aposentadoria tenha sido voluntária, o servidor fosse estável na atividade, haja cargo vago e conte com idade inferior a 70 anos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "válida, desde que Jorge tenha outra atividade remunerada lícita que o vincule ao RGPS".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inválida, pois a CF/88 impede a vinculação simultânea a dois ou mais regimes previdenciários". De acordo com a teoria estudada em *6.3 Prazos de Prescrição da Pretensão Punitiva*, 2 (dois) anos: para infrações puníveis com suspensão.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "válida, desde que Jorge venha a aderir, também, ao regime de previdência complementar estadual. Realização". De acordo com a teoria estudada em *5.2 Regime de Férias*, o servidor público estadual adquire direito a 30 (trinta) dias consecutivos de férias a cada período de 12 (doze) meses de efetivo exercício funcional (período aquisitivo).
->
-> **Gabarito: C**
-
----
-
-### Teste 469
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-João, servidor público ocupante de cargo em comissão no âmbito do poder Executivo do Estado de Goiás, foi afastado da direção do órgão público X, em razão de permissivo constante da Lei estadual nº 20.756/2020. Maria, por sua vez, que dirigia o órgão público Y, foi informada que iria substituir João. Nessa situação, é correto afirmar que Maria, ao ser designada para substituir João
-
-* **A)** continuará no órgão público Y, e receberá a integralidade da retribuição estipendial do cargo de João, paga proporcionalmente aos dias de efetiva substituição.
-* **B)** continuará no órgão público Y, e poderá optar pela remuneração integral do cargo de João, ao invés daquela correspondente ao cargo que ocupa.
-* **C)** continuará no órgão publico Y, e receberá 60% da retribuição estipendial do cargo de João, paga proporcionalmente aos dias de efetiva substituição.
-* **D)** continuará no órgão público Y, e não fará jus a qualquer retribuição estipendial pela acumulação do órgão público x.
-* **E)** será afastada do órgão público Y, em razão da vedação à acumulação de cargos.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "continuará no órgão público Y, e receberá a integralidade da retribuição estipendial do cargo de João, paga...". De acordo com a teoria estudada em *5.1 Sistema Remuneratório: Vencimento, Remuneração e Indenizações*, vencimento Básico: é a retribuição pecuniária mensal fixada em lei para o exercício de cargo público de acordo com o padrão e classe funcional, sendo irredutível (salvo o disposto em convenções constitucionais do art. 37, XV).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "continuará no órgão público Y, e poderá optar pela remuneração integral do cargo de João, ao invés daquela...". De acordo com a teoria estudada em *6.2 As Penalidades Disciplinares e Hipóteses de Demissão*, conversão Pecuniária em Multa: quando houver comprovada conveniência para a continuidade do serviço público, a penalidade de suspensão poderá ser convertida em multa pecuniária à razão de 50% (cinquenta por cento) por dia de remuneração, permanecendo o servidor no exercício obrigatório de suas atividades funcionais normais.
-> - **C)** **Correta.** Conforme fundamentado na seção *5.3 Licenças Estatutárias: Capacitação vs. Interesses Particulares* deste guia, natureza do Ato: Ato discricionário, condicionado à compatibilidade do curso com os interesses do órgão estadual. — Ato discricionário, condicionado ao juízo de conveniência e oportunidade da administração. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "continuará no órgão publico Y, e receberá 60% da retribuição estipendial do cargo de João, paga proporcionalmente...".
-> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "continuará no órgão público Y, e não fará jus a qualquer retribuição estipendial pela acumulação do órgão público x". De acordo com a teoria estudada em *3.3 Hipóteses Constitucionais de Perda do Cargo do Servidor Estável*, corte de despesas de pessoal para cumprimento dos limites da LRF (CF/88, art. 169, § 4º): após a redução de pelo menos 20% das despesas com cargos em comissão e funções de confiança e a exoneração prévia de servidores não estáveis, se as despesas ainda superarem os limites da Lei de Responsabilidade Fiscal, o servidor estável poderá perder o cargo, fazendo jus à indenização de 1 (um) mês de remuneração por ano de serviço.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "será afastada do órgão público Y, em razão da vedação à acumulação de cargos". De acordo com a teoria estudada em *1.2 Cargos de Provimento Efetivo, em Comissão e Funções de Confiança*, remuneradas mediante gratificação acessória paga enquanto perdurar a designação formal.
->
-> **Gabarito: C**
 
 ---
 

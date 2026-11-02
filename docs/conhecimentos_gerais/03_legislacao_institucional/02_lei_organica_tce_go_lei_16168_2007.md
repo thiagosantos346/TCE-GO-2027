@@ -5,10 +5,7 @@
 > **Arquivo:** `02_lei_organica_tce_go_lei_16168_2007.md`  
 > **Ato Normativo:** Lei Estadual nº 16.168, de 11 de dezembro de 2007 (atualizada pelas Leis Estaduais nº 21.050/2021, 23.120/2024 e 23.413/2025)
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Lei Orgânica do Tribunal de Contas do Estado de Goiás (Lei Estadual nº 16.168/2007 e alterações):
@@ -112,30 +109,6 @@ Nos moldes dos artigos 1º a 3º da Lei nº 16.168/2007, compete privativamente 
 
 ---
 
-### Teste 132
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-O Tribunal de Contas do Estado de Santa Catarina tem jurisdição própria e privativa sobre as pessoas e matérias sujeitas à sua competência. Com base na Lei Orgânica do TCE-SC (LC nº 202/2000), acerca de referida jurisdição é correto afirmar que ela abrange
-
-* **A)** exclusivamente pessoa físicas que utilizem, arrecadem, guardem, gerenciem, ou administrem dinheiros, bens e valores públicos, ou pelos quais o Estado ou o Município respondam, ou que em nome destes, assumam obrigações de natureza pecuniária.
-* **B)** aqueles que derem causa à perda, extravio ou outra irregularidade de que resulte dano ao erário, excetuada a modalidade culposa, hipótese em que terá jurisdição o Tribunal de Justiça do Estado quanto ao ressarcimento ao dano e à aplicação de multa.
-* **C)** os dirigentes ou liquidantes das empresas encampadas ou sob intervenção ou que de qualquer modo venham a integrar, exclusivamente de forma definitiva e irrevogável, o patrimônio do Estado ou do Município ou de outra entidade pública estadual ou municipal.
-* **D)** os responsáveis pela aplicação de quaisquer recursos repassados pela União ao Estado a pessoas jurídicas de direito público ou privado, mediante convênio, acordo, ajuste ou qualquer outro instrumento congênere, e pela aplicação das subvenções por eles concedidas a qualquer entidade de direito privado.
-* **E)** os representantes do Estado ou do Município na Assembleia Geral das empresas estatais e sociedades anônimas de cujo capital as pessoas jurídicas participem, solidariamente com os membros do Conselho Fiscal e de Administração, pela prática de atos de gestão ruinosa ou liberalidade a custa das respectivas sociedades.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "exclusivamente pessoa físicas que utilizem, arrecadem, guardem, gerenciem, ou administrem dinheiros, bens e...". De acordo com a teoria estudada em *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais*, sede e Jurisdição Territorial: Tem sede na Capital do Estado (Goiânia) e exerce jurisdição própria e privativa em todo o território estadual de Goiás, alcançando todos os responsáveis por dinheiros, bens e valores públicos da administração estadual direta e indireta.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aqueles que derem causa à perda, extravio ou outra irregularidade de que resulte dano ao erário, excetuada a...". De acordo com a teoria estudada em *3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis*, irregulares (Art. 19): a) Omissão injustificada na prestação de contas;`<br/>`b) Prática de ato de gestão ilegal, ilegítimo ou antieconômico, ou infração grave a norma legal;`<br/>`c) Dano ao erário resultante de ato de gestão ilegítimo ou desfalque/desvio;`<br/>`d) Reincidência no descumprimento de determinações anteriores do Tribunal. — - Condenação em débito (ressarcimento);`<br/>`- Aplicação de multas simples ou proporcionais;`<br/>`- Inabilitação para cargos comissionados e inidoneidade;`<br/>`- Remessa ao MPE (para ACP por Improbidade);`<br/>`- Envio à Justiça Eleitoral (inelegibilidade da LC 64/90, caso a conduta configure ato doloso de improbidade administrativa).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "os dirigentes ou liquidantes das empresas encampadas ou sob intervenção ou que de qualquer modo venham a integrar...". De acordo com a teoria estudada em *1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores*, dirigentes de autarquias, fundações públicas estaduais, empresas públicas e sociedades de economia mista sob controle acionário do Estado de Goiás.
-> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "os responsáveis pela aplicação de quaisquer recursos repassados pela União ao Estado a pessoas jurídicas de...". De acordo com a teoria estudada em *1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores*, todavia, se o Estado de Goiás repassar recursos voluntários a um Município via convênio, o TCE-GO tem jurisdição sobre o convênio estadual! Quanto aos sucessores, atente-se à pegadinha de afirmar que os herdeiros respondem com seus próprios bens: a responsabilidade é estritamente intra vires hereditatis (limitada ao valor do quinhão hereditário recebido).
-> - **E)** **Correta.** Conforme fundamentado na seção *4.4 Inabilitação para Cargo em Comissão e Declaração de Inidoneidade* deste guia, declaração de Inidoneidade para Licitar e Contratar com a Administração Pública Estadual (Art. 44): Pelo prazo de até cinco (5) anos, imposta a empresas, consórcios e pessoas físicas que tenham perpetrado fraude comprovada em certames licitatórios ou contratos públicos perante órgãos sob controle do TCE-GO. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "os representantes do Estado ou do Município na Assembleia Geral das empresas estatais e sociedades anônimas de...".
->
-> **Gabarito: E**
-
----
-
 ## 2. Instrumentos de Fiscalização Externa (Arts. 5º a 10)
 
 ### 2.1 Quadro Diferencial dos Instrumentos Operacionais de Controle
@@ -162,30 +135,6 @@ O Tribunal fiscaliza procedimentos de licitação, editais, atas de registro de 
 
 - O TCE-GO possui atribuição legal para analisar a minuta de editais de concessões, parcerias público-privadas (PPPs) e grandes contratações públicas, determinando ajustes saneadores quando identificadas cláusulas restritivas da competitividade.
 - Nas parcerias com o Terceiro Setor (Organizações Sociais de Saúde, Educação, etc.), a fiscalização do TCE-GO debruça-se sobre o atingimento de metas pactuadas nos **Contratos de Gestão**, a regularidade dos processos de contratação de terceiros pelas OSs e o cumprimento dos limites de despesas com pessoal e custeio.
-
----
-
-### Teste 133
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-A Lei nº 13.019/2014, conhecida como Marco Regulatório das Organizações da Sociedade Civil (MROSC), estabelece o regime jurídico das parcerias entre a Administração Pública e as Organizações da Sociedade Civil (OSC). Um Município pretende firmar parceria com uma OSC para a execução de atividades de proteção ao meio ambiente de interesse recíproco, com transferência de recursos públicos e metas definidas em plano de trabalho. A assessoria jurídica do Município informou que, para essa finalidade, o instrumento adequado seria o termo de colaboração, por se tratar de iniciativa da própria OSC. Com base na Lei nº 13.019/2014, assinale a afirmativa correta.
-
-* **A)** A assessoria jurídica está incorreta. O termo de colaboração é o instrumento cabível quando a parceria é proposta pela Administração Pública; quando a iniciativa parte da OSC, o instrumento adequado é o termo de fomento.
-* **B)** A assessoria jurídica está incorreta. O instrumento adequado para parcerias que envolvam transferência de recursos públicos e sejam propostas pela OSC é o acordo de cooperação, que independe de plano de trabalho detalhado.
-* **C)** A assessoria jurídica está correta, pois o termo de colaboração é o instrumento cabível quando a parceria é proposta pela OSC, ao passo que o termo de fomento é adotado quando a iniciativa parte da Administração Pública.
-* **D)** A assessoria jurídica está incorreta. Para atividades de interesse recíproco entre Administração e OSC, com transferência de recursos, o instrumento exclusivamente aplicável é o convênio, regulado pela Lei nº 13.019/2014.
-* **E)** A assessoria jurídica está correta, pois tanto o termo de colaboração quanto o termo de fomento podem ser utilizados indistintamente para qualquer parceria entre Administração Pública e OSC, cabendo ao gestor público a escolha discricionária do instrumento mais adequado ao caso concreto.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores* deste guia, dirigentes de entidades privadas recebedoras de recursos estaduais sob qualquer título: subvenções sociais, auxílios, convênios de cooperação, contratos de gestão (Organizações Sociais - OSs), termos de parceria (OSCIPs) ou termos de colaboração e fomento (Marco Regulatório das Organizações da Sociedade Civil - MROSC / Lei Federal nº 13.019/2014). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "A assessoria jurídica está incorreta. O termo de colaboração é o instrumento cabível quando a parceria é proposta...".
-> - **B)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "A assessoria jurídica está incorreta. O instrumento adequado para parcerias que envolvam transferência de recursos...". De acordo com a teoria estudada em *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais*, sede e Jurisdição Territorial: Tem sede na Capital do Estado (Goiânia) e exerce jurisdição própria e privativa em todo o território estadual de Goiás, alcançando todos os responsáveis por dinheiros, bens e valores públicos da administração estadual direta e indireta.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A assessoria jurídica está correta, pois o termo de colaboração é o instrumento cabível quando a parceria é...". De acordo com a teoria estudada em *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais*, autonomias: Goza de autonomia funcional, administrativa e financeira, com autogoverno (eleição de seu Presidente, Vice-Presidente e Corregedor-Geral pelo Tribunal Pleno), iniciativa privativa de leis para organização de seus serviços e cargos de seu quadro técnico, e competência para executar suas dotações orçamentárias de acordo com a programação financeira.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A assessoria jurídica está incorreta. Para atividades de interesse recíproco entre Administração e OSC, com...". De acordo com a teoria estudada em *1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores*, todavia, se o Estado de Goiás repassar recursos voluntários a um Município via convênio, o TCE-GO tem jurisdição sobre o convênio estadual! Quanto aos sucessores, atente-se à pegadinha de afirmar que os herdeiros respondem com seus próprios bens: a responsabilidade é estritamente intra vires hereditatis (limitada ao valor do quinhão hereditário recebido).
-> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "A assessoria jurídica está correta, pois tanto o termo de colaboração quanto o termo de fomento podem ser...". De acordo com a teoria estudada em *2.1 Quadro Diferencial dos Instrumentos Operacionais de Controle*, instrumento Formal: Finalidade e Âmbito de Aplicação — Momento Temporal / Característica.
->
-> **Gabarito: A**
 
 ---
 
@@ -238,54 +187,6 @@ graph TD
 
 ---
 
-### Teste 134
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-A Diretoria da empresa ABC adota uma ferramenta visual que dispõe, em colunas verticais, a variável tempo subdividida em frações regulares (originalmente, cada mês representado por quatro subcolunas correspondentes às semanas) e, em linhas horizontais, as atividades a serem executadas, permitindo o acompanhamento do cronograma sem necessidade de consulta ao calendário convencional. A ferramenta foi originalmente concebida por um engenheiro colaborador de Taylor, voltada ao planejamento e ao controle da produção semanal. A ferramenta de planejamento e controle descrita corresponde ao
-
-* **A)** cronograma.
-* **B)** fluxograma.
-* **C)** diagrama de blocos.
-* **D)** gráfico de Gantt.
-* **E)** análise de Pareto.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cronograma". De acordo com a teoria estudada em *2.1 Quadro Diferencial dos Instrumentos Operacionais de Controle*, acompanhamento: Fiscalização concomitante, simultânea e contínua dos atos de gestão pública ao longo do exercício orçamentário. — Realizado em tempo real no curso do exercício financeiro.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fluxograma". De acordo com a teoria estudada em *3.2 Tomada de Contas Especial: Pressupostos, Solidariedade e Decadência*, decadência Decenal (10 Anos): Salvo expressa determinação em contrário do Tribunal, fica dispensada a instauração da Tomada de Contas Especial quando houver transcorrido prazo superior a 10 (dez) anos entre a data presumida do fato lesivo e a primeira notificação formal válida do responsável pelo órgão administrativo, por restar manifestamente inviabilizado o exercício pleno do contraditório e da ampla defesa pelo longo decurso do tempo.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "diagrama de blocos". De acordo com a teoria estudada em *4.3 Regime das Multas Sancionatórias e Proporcionais ao Dano*, o TCE-GO dispõe de competência legal para impor duas espécies de multas.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis* deste guia, ao julgar as tomadas ou prestações de contas, o TCE-GO proferirá decisão terminativa ou definitiva, classificando as contas em uma das quatro hipóteses taxativas dos artigos 16 a 21 da LOTCE. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "gráfico de Gantt".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "análise de Pareto". De acordo com a teoria estudada em *3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis*, classificação das Contas: Hipóteses Materiais Enquadradas — Consequências Jurídicas e Decisórias.
->
-> **Gabarito: D**
-
----
-
-### Teste 135
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-Maria de Lourdes, Auditora Fiscal de Controle Externo do Tribunal de Contas do Estado de Santa Catarina, no exercício de suas atribuições privativas de fiscalização, analisou minuciosamente as contas de determinado gestor público municipal, tendo emitido ao final sua opinio. Considerando as formas de julgamento das contas, nos termos da Lei Orgânica do Tribunal de Contas de Santa Catarina (LC 202/2000), é correto afirmar que as contas serão julgadas
-
-* **A)** regulares com ressalva, quando evidenciarem impropriedade ou qualquer outra falta de natureza formal de que não resulte dano ao erário.
-* **B)** irregulares, quando comprovada a omissão no dever de prestar contas, desde que a atuação tenha se dado de forma dolosa ou em estado de culpa consciente.
-* **C)** regulares com ressalva, quando evidenciarem impropriedade ou qualquer outra falta de natureza formal de que não resulte dano ao erário ou contrarie os princípios da Administração Pública.
-* **D)** irregulares, se comprovado desfalque, desvio de dinheiro, bens ou valores públicos, desde que não seja objeto de acordo de leniência, transação penal ou outra forma de composição civil dos danos.
-* **E)** regulares, quando expressarem, de forma clara e objetiva, a exatidão dos demonstrativos contábeis, a legalidade, a legitimidade e a economicidade dos atos de gestão do responsável, ainda que evidenciem irregularidades leves e moderadas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis* deste guia, regulares com Ressalva (Art. 18): Evidenciam impropriedades de natureza meramente formal ou falhas burocráticas que não resultaram em dano ao patrimônio público nem revelam conduta de má-fé. — O Tribunal confere quitação, expedindo determinações e recomendações preventivas para que as falhas sejam expurgadas nos períodos seguintes. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "regulares com ressalva, quando evidenciarem impropriedade ou qualquer outra falta de natureza formal de que não...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "irregulares, quando comprovada a omissão no dever de prestar contas, desde que a atuação tenha se dado de forma...". De acordo com a teoria estudada em *3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis*, fique atento: o desaparecimento ou extravio de documentos por desídia, culpa ou desleixo do ordenador de despesas NÃO autoriza a classificação como iliquidável! Se o gestor não comprova força maior cabal, suas contas são julgadas IRREGULARES por omissão e falta de comprovação de gastos.
-> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "regulares com ressalva, quando evidenciarem impropriedade ou qualquer outra falta de natureza formal de que não...". De acordo com a teoria estudada em *3.2 Tomada de Contas Especial: Pressupostos, Solidariedade e Decadência*, prática de qualquer ato ilegal, ilegítimo ou antieconômico do qual resulte comprovado prejuízo financeiro ao erário estadual.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "irregulares, se comprovado desfalque, desvio de dinheiro, bens ou valores públicos, desde que não seja objeto de...". De acordo com a teoria estudada em *3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis*, irregulares (Art. 19): a) Omissão injustificada na prestação de contas;`<br/>`b) Prática de ato de gestão ilegal, ilegítimo ou antieconômico, ou infração grave a norma legal;`<br/>`c) Dano ao erário resultante de ato de gestão ilegítimo ou desfalque/desvio;`<br/>`d) Reincidência no descumprimento de determinações anteriores do Tribunal. — - Condenação em débito (ressarcimento);`<br/>`- Aplicação de multas simples ou proporcionais;`<br/>`- Inabilitação para cargos comissionados e inidoneidade;`<br/>`- Remessa ao MPE (para ACP por Improbidade);`<br/>`- Envio à Justiça Eleitoral (inelegibilidade da LC 64/90, caso a conduta configure ato doloso de improbidade administrativa).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "regulares, quando expressarem, de forma clara e objetiva, a exatidão dos demonstrativos contábeis, a legalidade, a...". De acordo com a teoria estudada em *3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis*, regulares (Art. 17): Demonstram de forma cristalina a exatidão dos demonstrativos, a legalidade, legitimidade e economicidade dos atos de gestão financeira e orçamentária praticados. — O Tribunal confere quitação plena e irrestrita ao gestor, exonerando-o da responsabilidade pelo exercício examinado.
->
-> **Gabarito: A**
-
----
-
 ## 4. Medidas Cautelares e Poder Sancionatório do TCE-GO (Arts. 41 a 47)
 
 ### 4.1 Medidas Cautelares: Suspensão, Afastamento e Indisponibilidade de Bens
@@ -316,54 +217,6 @@ Em casos revestidos de especial gravidade, o Tribunal Pleno do TCE-GO poderá de
 
 - **Inabilitação para o Exercício de Cargo em Comissão ou Função de Confiança (Art. 43, parágrafo único):** Pelo prazo de até **cinco (5) anos**, impedindo a nomeação do apenado para funções de chefia, direção e assessoramento em qualquer órgão ou entidade da administração estadual de Goiás;
 - **Declaração de Inidoneidade para Licitar e Contratar com a Administração Pública Estadual (Art. 44):** Pelo prazo de até **cinco (5) anos**, imposta a empresas, consórcios e pessoas físicas que tenham perpetrado fraude comprovada em certames licitatórios ou contratos públicos perante órgãos sob controle do TCE-GO.
-
----
-
-### Teste 136
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
-José, diretor de uma fundação pública de um órgão estadual jurisdicionado ao TCE-PA, praticou ato ilegítimo e antieconômico do qual não resultou danos ao erário, razão pela qual o Tribunal julgou as suas contas regulares com ressalva, lhe impondo o cumprimento de determinações para execução de medidas necessárias à correção das faltas identificadas e lhe aplicando multa no valor de 5.000 (cinco mil) Unidades Padrão Fiscal do Estado do Pará. Nessa situação, o Tribunal deverá conferir a José certificado de quitação
-
-* **A)** plena do responsável para com o erário estadual
-* **B)** condicionado ao atendimento de medidas necessárias à correção das impropriedades ou faltas identificadas
-* **C)** somente após a comprovação do pagamento integral da multa imposta, alertando-o de que a reincidência poderá acarretar a irregularidade das contas subsequentes.
-* **D)** plena do responsável condicionada ao cumprimento das determinações.
-* **E)** somente após o cumprimento das determinações. Módulo III - Conhecimentos Específicos Avançados
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "plena do responsável para com o erário estadual". De acordo com a teoria estudada em *4.3 Regime das Multas Sancionatórias e Proporcionais ao Dano*, multa Proporcional ao Dano (Art. 42): Nos casos em que o responsável for julgado em débito, o Tribunal poderá aplicar-lhe multa proporcional de até 100% (cem por cento) do valor atualizado do prejuízo financeiro causado ao erário.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "condicionado ao atendimento de medidas necessárias à correção das impropriedades ou faltas identificadas". De acordo com a teoria estudada em *3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis*, regulares com Ressalva (Art. 18): Evidenciam impropriedades de natureza meramente formal ou falhas burocráticas que não resultaram em dano ao patrimônio público nem revelam conduta de má-fé. — O Tribunal confere quitação, expedindo determinações e recomendações preventivas para que as falhas sejam expurgadas nos períodos seguintes.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis* deste guia, irregulares (Art. 19): a) Omissão injustificada na prestação de contas;`<br/>`b) Prática de ato de gestão ilegal, ilegítimo ou antieconômico, ou infração grave a norma legal;`<br/>`c) Dano ao erário resultante de ato de gestão ilegítimo ou desfalque/desvio;`<br/>`d) Reincidência no descumprimento de determinações anteriores do Tribunal. — - Condenação em débito (ressarcimento);`<br/>`- Aplicação de multas simples ou proporcionais;`<br/>`- Inabilitação para cargos comissionados e inidoneidade;`<br/>`- Remessa ao MPE (para ACP por Improbidade);`<br/>`- Envio à Justiça Eleitoral (inelegibilidade da LC 64/90, caso a conduta configure ato doloso de improbidade administrativa). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "somente após a comprovação do pagamento integral da multa imposta, alertando-o de que a reincidência poderá...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "plena do responsável condicionada ao cumprimento das determinações". De acordo com a teoria estudada em *4.1 Medidas Cautelares: Suspensão, Afastamento e Indisponibilidade de Bens*, indisponibilidade Provisória de Bens: Bloqueio acautelatório de bens do responsável, em valor suficiente para garantir a integral recomposição do prejuízo apurado.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente após o cumprimento das determinações. Módulo III - Conhecimentos Específicos Avançados". De acordo com a teoria estudada em *2.1 Quadro Diferencial dos Instrumentos Operacionais de Controle*, monitoramento: Verificação do efetivo cumprimento e do resultado prático das decisões, acórdãos e recomendações emanadas do Tribunal. — Atuação posterior para averiguar a eficácia e obediência às determinações do Pleno.
->
-> **Gabarito: C**
-
----
-
-### Teste 137
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-O Termo de Ajustamento de Gestão (TAG) é instrumento consensual que visa à regularização de atos e procedimentos dos jurisdicionados, considerados, pelo Tribunal de Contas, como irregulares, ilegítimos ou contrários aos princípios do Direito Público. Nos termos da Lei Orgânica do TCE-SC, é correto afirmar, em relação ao TAG, que
-
-* **A)** é vedada a celebração de TAG quando houver celebração prévia de acordo de não persecução cível ou acordo de leniência, nos termos da legislação de regência.
-* **B)** é vedada a celebração de TAG caso estejam previamente configurados o desfalque, desvio de dinheiro, bens e valores públicos.
-* **C)** o TAG poderá ser proposto apenas pelos titulares de Poderes e respectivos órgãos e entidades por ele controlados, do Estado ou dos Municípios, desde que não limite a competência discricionária do gestor.
-* **D)** a assinatura do Termo de Ajustamento de Gestão não suspenderá a aplicação de penalidades ou sanções, relativas às irregularidades abrangidas pelo Termo, mas modulará os efeitos a curto e médio prazo.
-* **E)** o não cumprimento das obrigações previstas no Termo de Ajustamento de Gestão pelas autoridades signatárias enseja sua revogação, cabendo ao corpo instrutivo analisar a oportunidade e a relevância do prosseguimento da instrução, incluindo ou não a aplicação de multa.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é vedada a celebração de TAG quando houver celebração prévia de acordo de não persecução cível ou acordo de...". De acordo com a teoria estudada em *3.2 Tomada de Contas Especial: Pressupostos, Solidariedade e Decadência*, ocorrência de desfalque, desvio, alcance ou extravio de bens ou valores públicos.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores* deste guia, qualquer pessoa que der causa a perda, extravio, desfalque ou desvio de bens e valores públicos estaduais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "é vedada a celebração de TAG caso estejam previamente configurados o desfalque, desvio de dinheiro, bens e valores...".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "o TAG poderá ser proposto apenas pelos titulares de Poderes e respectivos órgãos e entidades por ele controlados...". De acordo com a teoria estudada em *3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis*, irregulares (Art. 19): a) Omissão injustificada na prestação de contas;`<br/>`b) Prática de ato de gestão ilegal, ilegítimo ou antieconômico, ou infração grave a norma legal;`<br/>`c) Dano ao erário resultante de ato de gestão ilegítimo ou desfalque/desvio;`<br/>`d) Reincidência no descumprimento de determinações anteriores do Tribunal. — - Condenação em débito (ressarcimento);`<br/>`- Aplicação de multas simples ou proporcionais;`<br/>`- Inabilitação para cargos comissionados e inidoneidade;`<br/>`- Remessa ao MPE (para ACP por Improbidade);`<br/>`- Envio à Justiça Eleitoral (inelegibilidade da LC 64/90, caso a conduta configure ato doloso de improbidade administrativa).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a assinatura do Termo de Ajustamento de Gestão não suspenderá a aplicação de penalidades ou sanções, relativas às...". De acordo com a teoria estudada em *1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores*, qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens ou valores públicos estaduais ou pelos quais o Estado de Goiás responda.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o não cumprimento das obrigações previstas no Termo de Ajustamento de Gestão pelas autoridades signatárias enseja...". De acordo com a teoria estudada em *1.3 Competências Finalísticas Privativas do TCE-GO*, emitir pronunciamento em caráter normativo em resposta a Consultas formuladas por autoridades legitimadas (sem analisar casos concretos).
->
-> **Gabarito: B**
 
 ---
 
@@ -412,79 +265,7 @@ Em consonância com as teses vinculantes fixadas pelo Supremo Tribunal Federal (
 
 ---
 
-### Teste 138
-**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Agente Da Policia Judicial)**
-João, pessoa com deficiência, é ocupante de cargo de provimento efetivo no âmbito do Tribunal Regional do Trabalho da 24ª Região. Joana, por sua vez, é ocupante exclusiva de cargo em comissão no âmbito da mesma estrutura orgânica. Ambos, por serem muito amigos, decidiram analisar em conjunto a situação previdenciária de cada qual. Assinale a opção que apresenta, corretamente, a conclusão a que eles chegaram, ao fim de suas reflexões.
-
-* **A)** A aposentadoria de ambos observará as regras do regime geral de previdência social.
-* **B)** A aposentadoria de ambos observará as regras do regime próprio de previdência social.
-* **C)** Tanto João como Joana estão sujeitos às regras de aposentadoria compulsória em razão da idade.
-* **D)** Os períodos de férias não gozadas devem ser computados em dobro para fins de contagem do tempo de contribuição.
-* **E)** Qualquer tratamento diferenciado em prol de João, quanto à idade e ao tempo de contribuição, deve ser estabelecido em lei complementar, não tendo sede constitucional.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A aposentadoria de ambos observará as regras do regime geral de previdência social". De acordo com a teoria estudada em *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais*, o Tribunal de Contas do Estado de Goiás (TCE-GO), criado pela ordem constitucional e disciplinado no plano infraconstitucional pela Lei Estadual nº 16.168, de 11 de dezembro de 2007 (Lei Orgânica do TCE-GO), é órgão público constitucional autônomo, investido da missão republicana de controle externo contábil, financeiro, orçamentário, operacional e patrimonial do Estado de Goiás.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A aposentadoria de ambos observará as regras do regime próprio de previdência social". De acordo com a teoria estudada em *1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores*, dirigentes de entidades privadas recebedoras de recursos estaduais sob qualquer título: subvenções sociais, auxílios, convênios de cooperação, contratos de gestão (Organizações Sociais - OSs), termos de parceria (OSCIPs) ou termos de colaboração e fomento (Marco Regulatório das Organizações da Sociedade Civil - MROSC / Lei Federal nº 13.019/2014).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tanto João como Joana estão sujeitos às regras de aposentadoria compulsória em razão da idade". De acordo com a teoria estudada em *5.2 Sistema Recursal Taxativo: Reconsideração, Reexame, Embargos e Revisão*, recurso de Reexame (Art. 53): Cabe contra decisões definitivas proferidas em processos de fiscalização de atos, editais, licitações, contratos administrativos, atos sujeitos a registro (pessoal e aposentadoria), denúncias e representações. — 30 dias — Devolutivo e Suspensivo — Tribunal Pleno.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os períodos de férias não gozadas devem ser computados em dobro para fins de contagem do tempo de contribuição". De acordo com a teoria estudada em *5.2 Sistema Recursal Taxativo: Reconsideração, Reexame, Embargos e Revisão*, embargos de Declaração (Art. 55): Oponíveis contra decisões monocráticas ou acórdãos para suprir omissão, aclarar obscuridade ou eliminar contradição. — 10 dias — Devolutivo próprio; interrompe a contagem do prazo para outros recursos. — O mesmo prolator da deliberação recorrida (Relator ou Colegiado).
-> - **E)** **Correta.** Conforme fundamentado na seção *3.2 Tomada de Contas Especial: Pressupostos, Solidariedade e Decadência* deste guia, dispensa de Encaminhamento por Economia Processual: O Plenário do TCE-GO edita anualmente instruções normativas fixando valor de alçada mínimo (montante mínimo de prejuízo) abaixo do qual a TCE não deve ser remetida à Corte, para evitar que o custo operacional do processamento administrativo supere o próprio montante a ser recuperado (salvo casos de reincidência dolosa do gestor). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "Qualquer tratamento diferenciado em prol de João, quanto à idade e ao tempo de contribuição, deve ser estabelecido...".
->
-> **Gabarito: E**
-
----
-
-### Teste 139
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-A Lei nº 16.168, de 11 de dezembro de 2007, estabelece a Lei Orgânica do TCE-GO, regulamentando suas atribuições e funcionamento. Sobre a jurisdição do TCE-GO, analise os itens a seguir: I. O TCE-GO tem jurisdição própria e privativa em todo o território estadual, sobre as pessoas e matérias sujeitas à sua competência. II. A jurisdição do Tribunal exclui aqueles que derem causa a perda, extravio ou outra irregularidade de que resulte dano ao erário. III. A jurisdição do Tribunal abrange os dirigentes ou liquidantes de autarquias constituídas com recursos do Estado. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais* deste guia, o Tribunal de Contas do Estado de Goiás (TCE-GO), criado pela ordem constitucional e disciplinado no plano infraconstitucional pela Lei Estadual nº 16.168, de 11 de dezembro de 2007 (Lei Orgânica do TCE-GO), é órgão público constitucional autônomo, investido da missão republicana de controle externo contábil, financeiro, orçamentário, operacional e patrimonial do Estado de Goiás. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "I, apenas".
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais*, sede e Jurisdição Territorial: Tem sede na Capital do Estado (Goiânia) e exerce jurisdição própria e privativa em todo o território estadual de Goiás, alcançando todos os responsáveis por dinheiros, bens e valores públicos da administração estadual direta e indireta.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores*, estão expressamente submetidos à jurisdição fiscalizatória do TCE-GO, nos termos do artigo 4º da Lei Estadual nº 16.168/2007.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores*, o TCE-GO possui jurisdição estritamente sobre a esfera ESTADUAL. Ele NÃO fiscaliza recursos municipais próprios dos 246 municípios goianos — estes são de competência privativa do TCM-GO (Tribunal de Contas dos Municípios do Estado de Goiás).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores*, qualquer pessoa que der causa a perda, extravio, desfalque ou desvio de bens e valores públicos estaduais.
->
-> **Gabarito: A**
-
----
-
-### Teste 140
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-Bruno, agente público ordenador de despesas na autarquia estadual Alfa, foi condenado definitivamente em processo de tomada de contas, sendo-lhe imputado o dever de ressarcimento ao erário e pagamento de multa, nos termos do acórdão proferido pelo TCE-SC. Considerando o postulado do devido processo legal e os recursos previstos na Lei Orgânica do TCE-SC, é correto afirmar que, no caso concreto, a impugnação da decisão por Bruno se dará por meio de
-
-* **A)** recurso de reconsideração, sem efeito suspensivo, interposto uma só vez por escrito, dentro do prazo de quarenta e cinco dias, contados da publicação da decisão no Diário Oficial Eletrônico do Tribunal de Contas.
-* **B)** recurso de agravo, sem efeito suspensivo, interposto uma só vez por escrito, dentro do prazo de quinze dias contados da publicação da decisão no Diário Oficial Eletrônico do Tribunal de Contas.
-* **C)** recurso de reexame, sem efeito suspensivo, interposto uma só vez por escrito, dentro do prazo de dez dias contados da publicação da decisão no Diário Oficial Eletrônico do Tribunal de Contas.
-* **D)** recurso de reconsideração, com efeito suspensivo, interposto uma só vez por escrito, dentro do prazo de trinta dias contados da publicação da decisão no Diário Oficial Eletrônico do Tribunal de Contas.
-* **E)** recurso de apelação, com efeito suspensivo, interposto uma só vez por escrito, dentro do prazo de trinta dias contados da publicação da decisão no Diário Oficial Eletrônico do Tribunal de Contas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "recurso de reconsideração, sem efeito suspensivo, interposto uma só vez por escrito, dentro do prazo de quarenta e...". De acordo com a teoria estudada em *2.2 Fiscalização de Atos de Admissão, Concessão de Aposentadorias e Pensões*, o prazo para o exame do ato concessório é de cinco anos, findos os quais, sem decisão do Tribunal, opera-se a estabilização para efeito de garantia do contraditório e ampla defesa (Tema 445 do STF).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "recurso de agravo, sem efeito suspensivo, interposto uma só vez por escrito, dentro do prazo de quinze dias...". De acordo com a teoria estudada em *5.2 Sistema Recursal Taxativo: Reconsideração, Reexame, Embargos e Revisão*, recurso de Reconsideração (Art. 52): Cabe exclusivamente contra deliberação definitiva proferida em processos de tomada ou prestação de contas. Interponível apenas uma vez. — 30 dias — Devolutivo e Suspensivo — Tribunal Pleno.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "recurso de reexame, sem efeito suspensivo, interposto uma só vez por escrito, dentro do prazo de dez dias contados...". De acordo com a teoria estudada em *5.2 Sistema Recursal Taxativo: Reconsideração, Reexame, Embargos e Revisão*, recurso de Reexame (Art. 53): Cabe contra decisões definitivas proferidas em processos de fiscalização de atos, editais, licitações, contratos administrativos, atos sujeitos a registro (pessoal e aposentadoria), denúncias e representações. — 30 dias — Devolutivo e Suspensivo — Tribunal Pleno.
-> - **D)** **Correta.** Conforme fundamentado na seção *5.2 Sistema Recursal Taxativo: Reconsideração, Reexame, Embargos e Revisão* deste guia, recurso de Revisão (Art. 56): Ação rescisória autônoma contra decisão de mérito transitada em julgado, com base restrita em: 1) erro de cálculo; 2) falsidade documental comprovada; 3) surgimento de documentos novos e relevantes supervenientes. — 5 anos (do trânsito em julgado) — Apenas efeito devolutivo (não suspende a cobrança executiva da condenação). — Tribunal Pleno. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "recurso de reconsideração, com efeito suspensivo, interposto uma só vez por escrito, dentro do prazo de trinta...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "recurso de apelação, com efeito suspensivo, interposto uma só vez por escrito, dentro do prazo de trinta dias...". De acordo com a teoria estudada em *5.1 Devido Processo Legal, Contraditório e Prazos de Defesa*, prazo Geral de Resposta / Defesa: Citado o responsável ou notificado o interessado para justificar irregularidades ou recolher o débito, o prazo geral assinado para apresentação de defesa formal é de 30 (trinta) dias.
->
-> **Gabarito: D**
-
----
-
-### Teste 141
+### Teste 001
 **(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
 Joana foi empossada como auditora do Tribunal de Contas do Estado de Goiás. Ciente de que, entre as atribuições afetas ao seu cargo, estava a de substituir os Conselheiros, consultou a Lei Orgânica do Tribunal em relação aos requisitos e às circunstâncias afetas a essa substituição, tendo concluído corretamente que
 
@@ -499,14 +280,191 @@ Joana foi empossada como auditora do Tribunal de Contas do Estado de Goiás. Cie
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a substituição pressupõe que o respectivo Conselheiro a requeira". De acordo com a teoria estudada em *3.2 Tomada de Contas Especial: Pressupostos, Solidariedade e Decadência*, esgotamento das Providências Internas: A instauração formal da TCE pressupõe o insucesso das medidas administrativas internas deflagradas no próprio órgão de origem para notificar o devedor e reaver amigavelmente os valores lesados.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais* deste guia, o Tribunal de Contas do Estado de Goiás (TCE-GO), criado pela ordem constitucional e disciplinado no plano infraconstitucional pela Lei Estadual nº 16.168, de 11 de dezembro de 2007 (Lei Orgânica do TCE-GO), é órgão público constitucional autônomo, investido da missão republicana de controle externo contábil, financeiro, orçamentário, operacional e patrimonial do Estado de Goiás. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "a substituição dos Conselheiros, pelos auditores, observará critérios de rodízio".
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais* deste guia, o Tribunal de Contas do Estado de Goiás (TCE GO), criado pela ordem constitucional e disciplinado no plano infraconstitucional pela Lei Estadual nº 16.168, de 11 de dezembro de 2007 (Lei Orgânica do TCE GO), é órgão público constitucional autônomo, investido da missão republicana de controle externo contábil, financeiro, orçamentário, operacional e patrimonial do Estado de Goiás. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "a substituição dos Conselheiros, pelos auditores, observará critérios de rodízio".
 > - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "há uma vinculação permanente entre ela, Joana, e determinado Conselheiro, para fins de substituição". De acordo com a teoria estudada em *1.3 Competências Finalísticas Privativas do TCE-GO*, apreciar, para fins de registro, a legalidade dos atos de admissão de pessoal e das concessões iniciais de aposentadorias, reformas e pensões.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a sistemática de substituição é integralmente definida na Lei Orgânica do Tribunal de Contas do Estado de Goiás". De acordo com a teoria estudada em *5.2 Sistema Recursal Taxativo: Reconsideração, Reexame, Embargos e Revisão*, o rol recursal da Lei Orgânica do TCE-GO é estritamente legal e desenhado com competências específicas.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é de competência exclusiva do Presidente do Tribunal a convocação dos auditores para substituir Conselheiros". De acordo com a teoria estudada em *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais*, autonomias: Goza de autonomia funcional, administrativa e financeira, com autogoverno (eleição de seu Presidente, Vice-Presidente e Corregedor-Geral pelo Tribunal Pleno), iniciativa privativa de leis para organização de seus serviços e cargos de seu quadro técnico, e competência para executar suas dotações orçamentárias de acordo com a programação financeira.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a sistemática de substituição é integralmente definida na Lei Orgânica do Tribunal de Contas do Estado de Goiás". De acordo com a teoria estudada em *6. Fontes Oficiais e Referências Bibliográficas*, mOTTA, Fabrício. Tribunais de Contas: Controle Externo e Democracia. Belo Horizonte: Fórum, 2020. (Cap. 3 Lei Orgânica e Autonomia dos TCs).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é de competência exclusiva do Presidente do Tribunal a convocação dos auditores para substituir Conselheiros". De acordo com a teoria estudada em *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais*, autonomias: Goza de autonomia funcional, administrativa e financeira, com autogoverno (eleição de seu Presidente, Vice Presidente e Corregedor Geral pelo Tribunal Pleno), iniciativa privativa de leis para organização de seus serviços e cargos de seu quadro técnico, e competência para executar suas dotações orçamentárias de acordo com a programação financeira.
 >
 > **Gabarito: B**
 
 ---
+
+
+### Teste 002
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
+A Constituição do Estado de Goiás estabelece a atuação político- administrativa no estado. Sobre o TCE-GO, analise os itens a seguir: I. Os cargos de Procurador de Contas integram quadro próprio do TCE-GO; II. O TCE-GO, integrado por cinco conselheiros, tem sede na Capital, quadro próprio de pessoal e jurisdição em todo o território estadual; III. Os Conselheiros do TCE-GO têm as mesmas garantias, prerrogativas, impedimentos, vencimentos e vantagens dos Desembargadores do Tribunal de Justiça. Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis*, irregulares (Art. 19): a) Omissão injustificada na prestação de contas;<br/ b) Prática de ato de gestão ilegal, ilegítimo ou antieconômico, ou infração grave a norma legal;<br/ c) Dano ao erário resultante de ato de gestão ilegítimo ou desfalque/desvio;<br/ d) Reincidência no descumprimento de determinações anteriores do Tribunal. — Condenação em débito (ressarcimento);<br/ Aplicação de multas simples ou proporcionais;<br/ Inabilitação para cargos comissionados e inidoneidade;<br/ Remessa ao MPE (para ACP por Improbidade);<br/ Envio à Justiça Eleitoral (inelegibilidade da LC 64/90, caso a conduta configure ato doloso de improbidade administrativa).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores*, o TCE GO possui jurisdição estritamente sobre a esfera ESTADUAL. Ele NÃO fiscaliza recursos municipais próprios dos 246 municípios goianos — estes são de competência privativa do TCM GO (Tribunal de Contas dos Municípios do Estado de Goiás). Todavia, se o Estado de Goiás repassar recursos voluntários a um Município via convênio, o TCE GO tem jurisdição sobre o convênio estadual! Quanto aos sucessores, atente se à pegadinha de afirmar que os herdeiros respondem com seus próprios bens: a responsabilidade é estritamente intra vires hereditatis (limitada ao valor do quinhão hereditário recebido).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais* deste guia, sede e Jurisdição Territorial: Tem sede na Capital do Estado (Goiânia) e exerce jurisdição própria e privativa em todo o território estadual de Goiás, alcançando todos os responsáveis por dinheiros, bens e valores públicos da administração estadual direta e indireta. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "I e III, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.2 Fiscalização de Atos de Admissão, Concessão de Aposentadorias e Pensões*, o TCE GO examina a legalidade dos atos de admissão de pessoal na administração pública estadual (efetivos e empregados públicos), ressalvadas expressamente as nomeações para cargos em comissão de livre nomeação e exoneração.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais*, autonomias: Goza de autonomia funcional, administrativa e financeira, com autogoverno (eleição de seu Presidente, Vice Presidente e Corregedor Geral pelo Tribunal Pleno), iniciativa privativa de leis para organização de seus serviços e cargos de seu quadro técnico, e competência para executar suas dotações orçamentárias de acordo com a programação financeira.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 003
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
+A Lei nº 16.168, de 11 de dezembro de 2007, estabelece a Lei Orgânica do TCE-GO, regulamentando suas atribuições e funcionamento. Sobre a jurisdição do TCE-GO, analise os itens a seguir: I. O TCE-GO tem jurisdição própria e privativa em todo o território estadual, sobre as pessoas e matérias sujeitas à sua competência. II. A jurisdição do Tribunal exclui aqueles que derem causa a perda, extravio ou outra irregularidade de que resulte dano ao erário. III. A jurisdição do Tribunal abrange os dirigentes ou liquidantes de autarquias constituídas com recursos do Estado. Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais* deste guia, o Tribunal de Contas do Estado de Goiás (TCE GO), criado pela ordem constitucional e disciplinado no plano infraconstitucional pela Lei Estadual nº 16.168, de 11 de dezembro de 2007 (Lei Orgânica do TCE GO), é órgão público constitucional autônomo, investido da missão republicana de controle externo contábil, financeiro, orçamentário, operacional e patrimonial do Estado de Goiás. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "I, apenas".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais*, sede e Jurisdição Territorial: Tem sede na Capital do Estado (Goiânia) e exerce jurisdição própria e privativa em todo o território estadual de Goiás, alcançando todos os responsáveis por dinheiros, bens e valores públicos da administração estadual direta e indireta.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores*, o TCE GO possui jurisdição estritamente sobre a esfera ESTADUAL. Ele NÃO fiscaliza recursos municipais próprios dos 246 municípios goianos — estes são de competência privativa do TCM GO (Tribunal de Contas dos Municípios do Estado de Goiás). Todavia, se o Estado de Goiás repassar recursos voluntários a um Município via convênio, o TCE GO tem jurisdição sobre o convênio estadual! Quanto aos sucessores, atente se à pegadinha de afirmar que os herdeiros respondem com seus próprios bens: a responsabilidade é estritamente intra vires hereditatis (limitada ao valor do quinhão hereditário recebido).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores*, estão expressamente submetidos à jurisdição fiscalizatória do TCE GO, nos termos do artigo 4º da Lei Estadual nº 16.168/2007.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *6. Fontes Oficiais e Referências Bibliográficas*, lei Estadual nº 16.168/2007 Lei Orgânica do TCE GO (Casa Civil/GO) Texto integral compilado com competências, prazos processuais e sanções.
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 004
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
+As competências do Tribunal de Contas do Estado estão previstas nos artigos 25 e 26 da Constituição do Estado de Goiás e no art. 1° da Lei n° 16.168, de 11 de dezembro de 2007 Lei Orgânica do Tribunal de Contas do Estado (LOTCE). Sobre as competências do TCE-GO, analise os itens a seguir: I. As decisões do Tribunal de que resulte imputação de débito ou multa terão eficácia de título executivo. II. O TCE-GO terá amplo poder de investigação, cabendo-lhe requisitar e examinar, diretamente ou por meio de seu corpo técnico, a qualquer tempo, todos os elementos necessários ao exercício de suas atribuições, não lhe podendo ser sonegado processo, documento ou informação, a qualquer pretexto, sob pena de responsabilidade. III. O Tribunal de Contas prestará contas anuais à Assembleia Legislativa, bem como encaminhará relatórios mensais e anual de suas atividades. Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais*, o Tribunal de Contas do Estado de Goiás (TCE GO), criado pela ordem constitucional e disciplinado no plano infraconstitucional pela Lei Estadual nº 16.168, de 11 de dezembro de 2007 (Lei Orgânica do TCE GO), é órgão público constitucional autônomo, investido da missão republicana de controle externo contábil, financeiro, orçamentário, operacional e patrimonial do Estado de Goiás.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.2 Imputação de Débito e Eficácia Executiva Extrajudicial* deste guia, a decisão proferida pelo TCE GO que imputa débito ou comina penalidade de multa tem eficácia de título executivo extrajudicial, apto a amparar a propositura direta de Ação de Execução Fiscal pela Procuradoria Geral do Estado (PGE GO). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "I e II, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores*, estão expressamente submetidos à jurisdição fiscalizatória do TCE GO, nos termos do artigo 4º da Lei Estadual nº 16.168/2007.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.3 Competências Finalísticas Privativas do TCE-GO*, nos moldes dos artigos 1º a 3º da Lei nº 16.168/2007, compete privativamente ao TCE GO.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores*, dirigentes de entidades privadas recebedoras de recursos estaduais sob qualquer título: subvenções sociais, auxílios, convênios de cooperação, contratos de gestão (Organizações Sociais OSs), termos de parceria (OSCIPs) ou termos de colaboração e fomento (Marco Regulatório das Organizações da Sociedade Civil MROSC / Lei Federal nº 13.019/2014).
+>
+> **Gabarito: B**
+
+---
+
+
+### Teste 005
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Controle Externo)**
+Sérgio, no exercício de suas atribuições como Analista do Tribunal de Contas do Estado de Goiás, deparou-se com um procedimento administrativo envolvendo o controle externo de legalidade sobre determinado ato discricionário do Poder Executivo. Acerca da aludida temática, é correto afirmar que
+
+* **A)** é possível a revogação do ato administrativo pela Corte de Contas.
+* **B)** não é possível o controle externo de ato discricionário pela Corte de Contas.
+* **C)** é possível sindicar o mérito administrativo no exercício do controle externo pela Corte de Contas.
+* **D)** não é possível que a Corte de Contas substitua o Poder Executivo no exercício da discricionariedade.
+* **E)** é possível anular o ato discricionário em questão por razões de conveniência e oportunidade da Corte de Contas. Administração Financeira e Orçamentária
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *2.2 Fiscalização de Atos de Admissão, Concessão de Aposentadorias e Pensões* deste guia, registro de Aposentadorias e Pensões: Caracteriza se como ato administrativo complexo. O deferimento pelo órgão ou entidade previdenciária de origem constitui apenas etapa inicial, aperfeiçoando se com o registro definitivo concedido pelo Tribunal de Contas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "é possível a revogação do ato administrativo pela Corte de Contas".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é possível o controle externo de ato discricionário pela Corte de Contas". De acordo com a teoria estudada em *3.2 Tomada de Contas Especial: Pressupostos, Solidariedade e Decadência*, dispensa de Encaminhamento por Economia Processual: O Plenário do TCE GO edita anualmente instruções normativas fixando valor de alçada mínimo (montante mínimo de prejuízo) abaixo do qual a TCE não deve ser remetida à Corte, para evitar que o custo operacional do processamento administrativo supere o próprio montante a ser recuperado (salvo casos de reincidência dolosa do gestor).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é possível sindicar o mérito administrativo no exercício do controle externo pela Corte de Contas". De acordo com a teoria estudada em *3.2 Tomada de Contas Especial: Pressupostos, Solidariedade e Decadência*, decadência Decenal (10 Anos): Salvo expressa determinação em contrário do Tribunal, fica dispensada a instauração da Tomada de Contas Especial quando houver transcorrido prazo superior a 10 (dez) anos entre a data presumida do fato lesivo e a primeira notificação formal válida do responsável pelo órgão administrativo, por restar manifestamente inviabilizado o exercício pleno do contraditório e da ampla defesa pelo longo decurso do tempo.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é possível que a Corte de Contas substitua o Poder Executivo no exercício da discricionariedade". De acordo com a teoria estudada em *4.3 Regime das Multas Sancionatórias e Proporcionais ao Dano*, obstrução ao livre exercício de inspeções e auditorias determinadas pela Corte.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é possível anular o ato discricionário em questão por razões de conveniência e oportunidade da Corte de Contas...". De acordo com a teoria estudada em *3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis*, regulares (Art. 17): Demonstram de forma cristalina a exatidão dos demonstrativos, a legalidade, legitimidade e economicidade dos atos de gestão financeira e orçamentária praticados. — O Tribunal confere quitação plena e irrestrita ao gestor, exonerando o da responsabilidade pelo exercício examinado.
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 006
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+Compete ao Tribunal de Contas do Estado de Goiás
+
+* **A)** processual.
+* **B)** disciplinar.
+* **C)** leilão.
+* **D)** tomada de preço.
+* **E)** regulamentar. _________________________________________________________
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *3.2 Tomada de Contas Especial: Pressupostos, Solidariedade e Decadência* deste guia, dispensa de Encaminhamento por Economia Processual: O Plenário do TCE GO edita anualmente instruções normativas fixando valor de alçada mínimo (montante mínimo de prejuízo) abaixo do qual a TCE não deve ser remetida à Corte, para evitar que o custo operacional do processamento administrativo supere o próprio montante a ser recuperado (salvo casos de reincidência dolosa do gestor). Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "processual".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "disciplinar". De acordo com a teoria estudada em *1.3 Competências Finalísticas Privativas do TCE-GO*, nos moldes dos artigos 1º a 3º da Lei nº 16.168/2007, compete privativamente ao TCE GO.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "leilão". De acordo com a teoria estudada em *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais*, o Tribunal de Contas do Estado de Goiás (TCE GO), criado pela ordem constitucional e disciplinado no plano infraconstitucional pela Lei Estadual nº 16.168, de 11 de dezembro de 2007 (Lei Orgânica do TCE GO), é órgão público constitucional autônomo, investido da missão republicana de controle externo contábil, financeiro, orçamentário, operacional e patrimonial do Estado de Goiás.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tomada de preço". De acordo com a teoria estudada em *5.2 Sistema Recursal Taxativo: Reconsideração, Reexame, Embargos e Revisão*, deliberacao ProcessoContas["Em Processos de CONTAS (Prestação ou Tomada de Contas)"].
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "regulamentar". De acordo com a teoria estudada em *4.3 Regime das Multas Sancionatórias e Proporcionais ao Dano*, grave infração a preceito constitucional, legal ou regulamentar de natureza financeira, contábil ou patrimonial.
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 007
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Jurídica)**
+Em uma situação concreta submetida à apreciação do Tribunal de Contas do Estado de Goiás, argumentou o ordenador de despesa de determinada estrutura estatal de poder que agira conforme a interpretação mais adequada do preceito constitucional X. Assim entendia porque, ao analisar o significante interpretado, deparou- se com uma pluralidade de significados que lhe poderiam ser atribuídos, influenciados por distintos vetores axiológicos presentes no ambiente sociopolítico, o que o levou a resolver a conflitualidade intrínseca que se apresentava nesse plano, e a atribuir o significado mais adequado aos distintos aspectos afetos ao caso concreto. A análise da linha argumentativa apresentada pelo ordenador de despesa permite afirmar corretamente que, consoante os balizamentos prevalecentes na realidade brasileira a respeito da interpretação constitucional
+
+* **A)** ao enveredar na própria atividade de criação do direito, usurpou uma atividade que é própria do Poder Legislativo.
+* **B)** a encampação de significados, amparados por vetores axiológicos, transmuda a interpretação, de atividade essencialmente cognoscitiva, em atividade inventiva, o que é vedado ao intérprete.
+* **C)** vetores axiológicos, embora concorram para o surgimento da Constituição formal, fruto do processo constituinte, não podem incursionar na definição da própria normatividade constitucional.
+* **D)** houve influência do pensamento problemático, mas não foi desconsiderada a constatação de que a norma é obtida a partir de um processo intelectivo conduzido pelo intérprete, que promove a interação entre o texto e o contexto.
+* **E)** ao privilegiar aspectos do problema concreto, o ordenador de despesa desconsiderou que a Constituição somente se harmoniza com a unicidade significativa, não podendo apresentar variações de significado em situações concretas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao enveredar na própria atividade de criação do direito, usurpou uma atividade que é própria do Poder Legislativo". De acordo com a teoria estudada em *3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis*, irregulares (Art. 19): a) Omissão injustificada na prestação de contas;<br/ b) Prática de ato de gestão ilegal, ilegítimo ou antieconômico, ou infração grave a norma legal;<br/ c) Dano ao erário resultante de ato de gestão ilegítimo ou desfalque/desvio;<br/ d) Reincidência no descumprimento de determinações anteriores do Tribunal. — Condenação em débito (ressarcimento);<br/ Aplicação de multas simples ou proporcionais;<br/ Inabilitação para cargos comissionados e inidoneidade;<br/ Remessa ao MPE (para ACP por Improbidade);<br/ Envio à Justiça Eleitoral (inelegibilidade da LC 64/90, caso a conduta configure ato doloso de improbidade administrativa).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a encampação de significados, amparados por vetores axiológicos, transmuda a interpretação, de atividade...". De acordo com a teoria estudada em *5.1 Devido Processo Legal, Contraditório e Prazos de Defesa*, os processos perante o Tribunal de Contas observam estritamente o devido processo legal constitucional, com publicidade das pautas de julgamento, intimações regulares e garantia de contraditório e ampla defesa.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "vetores axiológicos, embora concorram para o surgimento da Constituição formal, fruto do processo constituinte...". De acordo com a teoria estudada em *1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais*, o Tribunal de Contas do Estado de Goiás (TCE GO), criado pela ordem constitucional e disciplinado no plano infraconstitucional pela Lei Estadual nº 16.168, de 11 de dezembro de 2007 (Lei Orgânica do TCE GO), é órgão público constitucional autônomo, investido da missão republicana de controle externo contábil, financeiro, orçamentário, operacional e patrimonial do Estado de Goiás.
+> - **D)** **Correta.** Conforme fundamentado na seção *5.3 Regime da Prescrição Punitiva e Ressarcitória no TCE-GO* deste guia, prescrição Intercorrente Trienal (3 anos): Incide a prescrição intercorrente caso o processo administrativo de controle externo permaneça paralisado por mais de três (3) anos ininterruptos, pendente de despacho ou deliberação da autoridade instrutória. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "houve influência do pensamento problemático, mas não foi desconsiderada a constatação de que a norma é obtida a...".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "ao privilegiar aspectos do problema concreto, o ordenador de despesa desconsiderou que a Constituição somente se...". De acordo com a teoria estudada em *3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis*, fique atento: o desaparecimento ou extravio de documentos por desídia, culpa ou desleixo do ordenador de despesas NÃO autoriza a classificação como iliquidável! Se o gestor não comprova força maior cabal, suas contas são julgadas IRREGULARES por omissão e falta de comprovação de gastos. Contas iliquidáveis decorrem estritamente de caso fortuito ou força maior comprovados.
+>
+> **Gabarito: D**
+
+---
+
+
+### Teste 008
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Jurídica)**
+Jeane é servidora de cargo efetivo no Estado de Goiás, mas decidiu se afastar, sem vencimentos, para dedicar-se integralmente aos estudos visando a aprovação no concurso público para o Tribunal de Contas do Estado de Goiás, instituição que almeja integrar como analista de controle externo. Sobre a situação de Jeane, e considerando os termos da Lei Complementar estadual nº 161/2020, marque a alternativa correta em relação ao período de afastamento.
+
+* **A)** Jeane terá, no período de afastamento, direito regular aos benefícios do RPPS/GO durante 6 (seis) meses, mesmo sem contribuir.
+* **B)** Para a servidora em questão ter direito aos benefícios do RPPS/GO, deverá recolher a contribuição previdenciária da parte do servidor.
+* **C)** Somente se Jeane recolher a contribuição previdenciária da parte do servidor e da patronal terá direito aos benefícios do RPPS/GO.
+* **D)** A Lei Complementar estadual nº 161/2020 condiciona o afastamento ou a licença ao pagamento antecipado da contribuição previdenciária da parte do servidor.
+* **E)** Jeane não poderá contribuir no período de afastamento porque não estará no exercício normal de suas atividades e, por isso, não terá direito aos benefícios do RPPS/GO.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Jeane terá, no período de afastamento, direito regular aos benefícios do RPPS/GO durante 6 (seis) meses, mesmo sem...". De acordo com a teoria estudada em *4.1 Medidas Cautelares: Suspensão, Afastamento e Indisponibilidade de Bens*, afastamento Provisório de Responsáveis: Quando comprovado que a permanência do investigado no cargo público poderá embaraçar a colheita de provas ou fraudar a instrução, sem prejuízo de seus vencimentos e subsídios funcionais.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para a servidora em questão ter direito aos benefícios do RPPS/GO, deverá recolher a contribuição previdenciária...". De acordo com a teoria estudada em *5.1 Devido Processo Legal, Contraditório e Prazos de Defesa*, prazo Geral de Resposta / Defesa: Citado o responsável ou notificado o interessado para justificar irregularidades ou recolher o débito, o prazo geral assinado para apresentação de defesa formal é de 30 (trinta) dias.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.2 Fiscalização de Atos de Admissão, Concessão de Aposentadorias e Pensões* deste guia, registro de Aposentadorias e Pensões: Caracteriza se como ato administrativo complexo. O deferimento pelo órgão ou entidade previdenciária de origem constitui apenas etapa inicial, aperfeiçoando se com o registro definitivo concedido pelo Tribunal de Contas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "Somente se Jeane recolher a contribuição previdenciária da parte do servidor e da patronal terá direito aos...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A Lei Complementar estadual nº 161/2020 condiciona o afastamento ou a licença ao pagamento antecipado da...". De acordo com a teoria estudada em *6. Fontes Oficiais e Referências Bibliográficas*, mOTTA, Fabrício. Tribunais de Contas: Controle Externo e Democracia. Belo Horizonte: Fórum, 2020. (Cap. 3 Lei Orgânica e Autonomia dos TCs).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Jeane não poderá contribuir no período de afastamento porque não estará no exercício normal de suas atividades e...". De acordo com a teoria estudada em *4.1 Medidas Cautelares: Suspensão, Afastamento e Indisponibilidade de Bens*, no curso de fiscalizações ou processos de contas, havendo receio fundamentado de dano irreparável ao erário ( periculum in mora ) e plausibilidade jurídica da ilicitude ( fumus boni iuris ), o Relator ou o Tribunal Pleno poderá expedir medidas cautelares preparatórias ou incidentais.
+>
+> **Gabarito: C**
+
+---
+
+
 
 ## 6. Fontes Oficiais e Referências Bibliográficas
 

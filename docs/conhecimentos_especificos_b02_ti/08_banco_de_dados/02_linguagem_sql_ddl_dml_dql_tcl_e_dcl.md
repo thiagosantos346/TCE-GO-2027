@@ -4,10 +4,7 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `02_linguagem_sql_ddl_dml_dql_tcl_e_dcl.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Linguagem SQL (ANSI e extensões procedurais)
@@ -114,77 +111,357 @@ As restrições de integridade garantem a consistência lógica dos dados no ban
 
 ---
 
-### Teste 245
-**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
-A ferramenta Zabbix 6 é amplamente usada para monitoramento de redes; sua instalação e configuração requer pacotes de terceiros. Com relação aos seus requisitos de instalação, analise os itens a seguir. I. O Zabbix é construído em torno de servidores web, servidores de banco de dados e da linguagem de script Python. II. Os servidores de bancos de dados suportados, por padrão, são MySQL, PostreSQL ou MS SQL Server. III. O frontend do Zabbix é suportado, por padrão, por servidores Web Apache. Está correto o que se afirma em
+### Teste 001
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+João, administrador de Banco de Dados Oracle, deverá criar índices para melhorar o desempenho de consultas complexas sobre processos judiciais. Para isso, deverá escolher a estrutura que facilita a busca rápida de informações em operações de junção e intervalo, como: SELECT parte.nome, movimento.descricao, movimento.data FROM parte JOIN movimento ON parte.processoID = movimento.processoID WHERE parte.processoID BETWEEN 10 AND 20; Para tanto, João criou um índice específico na coluna “processoID” da tabela “movimento”: CREATE INDEX idx_movimento_processoID ON movimento(processoID); Após a execução do script apresentado, o tipo de índice criado por João é:
 
-* **A)** I, II e III.
-* **B)** I apenas.
-* **C)** II apenas.
-* **D)** III apenas.
-* **E)** II e III, apenas.
+* **A)** bitmap;
+* **B)** hashing;
+* **C)** espacial;
+* **D)** árvore B;
+* **E)** sequencial.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE*, comportamento Transacional: Suporta `ROLLBACK` em qualquer SGBD compatível com ACID. — Reversível no PostgreSQL/SQL Server; no Oracle efetua COMMIT implícito. — Reversível no PostgreSQL; no Oracle efetua COMMIT implícito.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I apenas". De acordo com a teoria estudada em *1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira*, as restrições de integridade garantem a consistência lógica dos dados no banco.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II apenas". De acordo com a teoria estudada em *5.1 Visões: View Padrão vs. View Materializada (Materialized View)*, não armazena dados físicos em disco; representa apenas uma consulta SQL gravada no dicionário de dados do SGBD.
-> - **D)** **Correta.** Conforme fundamentado na seção *1. Subconjuntos da Linguagem SQL* deste guia, a linguagem SQL (*Structured Query Language*), padronizada internacionalmente pela norma ISO/IEC 9075, é subdividida em conjuntos de comandos com finalidades operacionais distintas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "III apenas".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE*, dimensão de Análise: `DELETE` — `TRUNCATE TABLE` — `DROP TABLE`.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "bitmap". De acordo com a teoria estudada em *1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE*, escopo de Remoção: Linhas filtradas ( WHERE ) ou todas as linhas da tabela. — Todas as linhas da tabela incondicionalmente. — A tabela inteira (estrutura, dados e metadados no catálogo).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "hashing". De acordo com a teoria estudada em *3.2 Operadores de Conjunto (UNION vs. UNION ALL, INTERSECT, EXCEPT)*, uNION : Combina os resultados de duas consultas com compatibilidade de esquema e executa um algoritmo interno de ordenação/hashing para eliminar compulsoriamente linhas duplicadas.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "espacial". De acordo com a teoria estudada em *2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases*, como a cláusula WHERE (etapa 2) é processada muito antes da cláusula SELECT (etapa 6), qualquer apelido de coluna ( alias ) criado no SELECT ainda não existe no catálogo de símbolos durante a avaliação do WHERE.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Classificação ANSI: DDL, DML, DQL, DCL e TCL* deste guia, dDL: Data Definition Language — CREATE , ALTER , DROP , TRUNCATE , RENAME — Criação, modificação estrutural e exclusão física de objetos no catálogo de dados (tabelas, esquemas, índices, visões). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "árvore B".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sequencial". De acordo com a teoria estudada em *4.2 Funções de Ranking: ROW_NUMBER(), RANK() e DENSE_RANK()*, rOW NUMBER() : Atribui um número inteiro sequencial e estritamente exclusivo a cada linha da partição (1, 2, 3, 4..). Desconsidera empates.
 >
 > **Gabarito: D**
 
 ---
 
-### Teste 246
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
-Um Auditor do TCE-SC está analisando uma base de dados de pagamentos governamentais para identificar possíveis duplicidades. Ele precisa criar uma consulta que retorne apenas os pagamentos cujo valor seja superior à média de pagamentos daquele mesmo órgão no mês correspondente. Para realizar essa análise de forma otimizada, legível, utilizando o SQL Server (T-SQL), o recurso de linguagem, entre os apresentados a seguir, mais indicado para isolar a lógica da média por órgão antes da consulta principal, é
 
-* **A)** utilizar uma VIEW temporária indexada.
-* **B)** utilizar uma Common Table Expression.
-* **C)** aplicar um CROSS JOIN entre a tabela de pagamentos e a de órgãos.
-* **D)** criar um CURSOR para iterar sobre cada linha da tabela.
-* **E)** utilizar a função DATEDIFF dentro de um WHERE simples.
+### Teste 002
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+No contexto de administração de conexões no Oracle, Database Link é um objeto do esquema que permite que usuários acessem objetos em bancos de dados diferentes. Observe o seguinte script: ---conexão no banco de dados staging CONNECT staging@staging CREATE PUBLIC DATABASE LINK "PRD_PROCESSO" CONNECT TO staging IDENTIFIED BY <PWD> USING 'PRD_PROCESSO'; SELECT nome FROM processo.tbl_usuario@prd_processo WHERE cpf = 99988877766; Após a execução do script acima, a instrução SELECT:
+
+* **A)** retornará o nome do usuário com o CPF 99988877766 da tabela “tbl_usuario” do banco de dados “prd_processo”;
+* **B)** retornará o nome do usuário com o CPF 99988877766 da tabela “tbl_usuario” do banco de dados “prd_processo”, se o usuário “processo” existir no banco de dados “staging”;
+* **C)** retornará o nome do usuário com o CPF 99988877766 da tabela “tbl_usuario” do banco de dados “prd_processo”, se existir sinônimo público para a tabela “tbl_usuario” no banco de dados “prd_processo”;
+* **D)** não retornará o nome do usuário com o CPF 99988877766 da tabela “tbl_usuario” do banco de dados “prd_processo”, porque o Database Link deve ser criado no banco de dados remoto especificado em USING 'PRD_PROCESSO';
+* **E)** não retornará o nome do usuário com o CPF 99988877766 da tabela “tbl_usuario” do banco de dados “prd_processo”, porque a instrução deve ser executada com o usuário “staging” na cláusula FROM staging.tbl_usuario@prd_processo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "utilizar uma VIEW temporária indexada". De acordo com a teoria estudada em *3.4 Common Table Expressions (CTEs) e Recursividade (WITH RECURSIVE)*, `WITH RECURSIVE`: Permite que a CTE faça referência a si mesma, viabilizando consultas em estruturas hierárquicas e em grafos (como organogramas empresariais ou árvores de dependência de processos).
-> - **B)** **Correta.** Conforme fundamentado na seção *3.4 Common Table Expressions (CTEs) e Recursividade (WITH RECURSIVE)* deste guia, as Expressões de Tabela Comuns (*CTEs*) são conjuntos de resultados temporários nomeados declarados através da cláusula `WITH`. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "utilizar uma Common Table Expression".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aplicar um CROSS JOIN entre a tabela de pagamentos e a de órgãos". De acordo com a teoria estudada em *3.1 Junções (INNER, LEFT, RIGHT, FULL OUTER e CROSS JOIN)*, `LEFT OUTER JOIN` (ou `LEFT JOIN`): Retorna todas as tuplas da tabela à esquerda (`FROM`), combinando com as tuplas da tabela à direita. Caso não haja correspondência na tabela da direita, os atributos da direita são preenchidos com valores nulos (`NULL`).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "criar um CURSOR para iterar sobre cada linha da tabela". De acordo com a teoria estudada em *1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE*, dimensão de Análise: `DELETE` — `TRUNCATE TABLE` — `DROP TABLE`.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "utilizar a função DATEDIFF dentro de um WHERE simples". De acordo com a teoria estudada em *5.2 Stored Procedures vs. User-Defined Functions (UDF)*, controle Transacional: Pode executar `COMMIT` e `ROLLBACK` internamente. — Proibido gerenciar transações dentro da função.
+> - **A)** **Correta.** Conforme fundamentado na seção *5.3 Gatilhos (Triggers): Eventos, Momentos (BEFORE, AFTER, INSTEAD OF) e Pseudorregistros OLD/NEW* deste guia, gatilhos ( Triggers ) são blocos de código procedurais executados automaticamente pelo motor de banco de dados quando eventos DML específicos ocorrem em uma tabela. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "retornará o nome do usuário com o CPF 99988877766 da tabela “tbl usuario” do banco de dados “prd processo”".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "retornará o nome do usuário com o CPF 99988877766 da tabela “tbl usuario” do banco de dados “prd processo”, se o...". De acordo com a teoria estudada em *1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira*, as restrições de integridade garantem a consistência lógica dos dados no banco.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "retornará o nome do usuário com o CPF 99988877766 da tabela “tbl usuario” do banco de dados “prd processo”, se...". De acordo com a teoria estudada em *5.1 Visões: View Padrão vs. View Materializada (Materialized View)*, trade off: Os dados ficam estáticos/defasados até que um comando de atualização explícito seja disparado: REFRESH MATERIALIZED VIEW nome da view;.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não retornará o nome do usuário com o CPF 99988877766 da tabela “tbl usuario” do banco de dados “prd processo”...". De acordo com a teoria estudada em *5.2 Stored Procedures vs. User-Defined Functions (UDF)*, efeitos Colaterais: Permite alterar esquemas e dados via DDL e DML livremente. — Deve evitar efeitos colaterais para manter a integridade referencial.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não retornará o nome do usuário com o CPF 99988877766 da tabela “tbl usuario” do banco de dados “prd processo”...". De acordo com a teoria estudada em *3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL*, considere a consulta: SELECT nome FROM cliente WHERE id NOT IN (SELECT id cliente FROM divida).
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 003
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+João, administrador de banco de dados MySQL, deverá realizar, periodicamente, o backup lógico completo do banco de dados "tjap_db". Para isso, João deverá utilizar o comando:
+
+* **A)** backup -u root -p tjap_db > backup.sql;
+* **B)** mydump -u root -p tjap_db > backup.sql;
+* **C)** mybackup -u root -p tjap_db > backup.sql;
+* **D)** mysqldump -u root -p tjap_db > backup.sql;
+* **E)** select * from tjap_db into outfile backup.sql;
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "backup u root p tjap db backup.sql". De acordo com a teoria estudada em *1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira*, as restrições de integridade garantem a consistência lógica dos dados no banco.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mydump u root p tjap db backup.sql". De acordo com a teoria estudada em *5.1 Visões: View Padrão vs. View Materializada (Materialized View)*, não armazena dados físicos em disco; representa apenas uma consulta SQL gravada no dicionário de dados do SGBD.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mybackup u root p tjap db backup.sql". De acordo com a teoria estudada em *1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE*, "O comando TRUNCATE é uma operação DML porque manipula dados de linhas." $\rightarrow$ ERRADO! O TRUNCATE é formalmente classificado como DDL, pois opera desalocando páginas físicas de armazenamento no catálogo de dados.
+> - **D)** **Correta.** Conforme fundamentado na seção *5.2 Stored Procedures vs. User-Defined Functions (UDF)* deste guia, invocação: Comando explícito CALL procedure name(args); — Invocada inline em comandos SQL: SELECT func(x) FROM tab. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "mysqldump u root p tjap db backup.sql".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "select from tjap db into outfile backup.sql". De acordo com a teoria estudada em *2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases*, código Inválido: SELECT salario 1.1 AS novo salario FROM servidor WHERE novo salario 5000; (Gera erro de coluna inexistente!).
+>
+> **Gabarito: D**
+
+---
+
+
+### Teste 004
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+Observe a estrutura da tabela “Cliente” abaixo: CREATE TABLE cliente ( cliente_ID NUMBER(12) PRIMARY KEY, cidade VARCHAR2(50) NOT NULL, limite_credito NUMBER(13,2) DEFAULT 0 ); Com o objetivo de gerar um relatório que mostre o limite de crédito médio para clientes em “Sao Paulo” e “Belo Horizonte”, a consulta a ser executada é:
+
+* **A)** SELECT cidade, AVG(NVL(limite_credito,0)) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE');
+* **B)** SELECT cidade, AVG(limite_credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY cidade;
+* **C)** SELECT cidade, AVG(limite_credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY cliente_ID;
+* **D)** SELECT cidade, AVG(limite_credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY cidade, limite_credito;
+* **E)** SELECT cidade, AVG(limite_credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY limite_credito, cidade;
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT cidade, AVG(NVL(limite credito,0)) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE')". De acordo com a teoria estudada em *2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases*, código Inválido: SELECT salario 1.1 AS novo salario FROM servidor WHERE novo salario 5000; (Gera erro de coluna inexistente!).
+> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL* deste guia, considere a consulta: SELECT nome FROM cliente WHERE id NOT IN (SELECT id cliente FROM divida). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "SELECT cidade, AVG(limite credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY cidade".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT cidade, AVG(limite credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY cliente ID". De acordo com a teoria estudada em *3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL*, se a tabela divida contiver ao menos UM único registro cujo id cliente seja NULL , a subconsulta retornará o valor NULL.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT cidade, AVG(limite credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY cidade...". De acordo com a teoria estudada em *2. Ordem Lógica de Execução da Consulta SQL (DQL)*, p1["1. FROM / JOIN / ON<br/ (Identifica tabelas e computa junções)"] P2["2. WHERE<br/ (Filtra tuplas brutas linha a linha)"].
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT cidade, AVG(limite credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY limite...". De acordo com a teoria estudada em *1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira*, pRIMARY KEY : Garante unicidade e impede valores nulos ( UNIQUE + NOT NULL ). Cada tabela pode conter apenas uma chave primária.
 >
 > **Gabarito: B**
 
 ---
 
-### Teste 247
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
-Considere um banco de dados relacional de um tribunal, na qual nenhum usuário, a menos do DBA, possua algum privilégio sobre. O DBA concedeu direito de criação de tabelas ao usuário USR_0010, que, por sua vez, criou as tabelas DADOS_PROCESSO e DADOS_PARTE. Logo após a criação, o usuário USR_0010 executou os seguintes comandos da DCL (Data Control Language) da linguagem SQL no sistema gerenciador de banco de dados, referentes aos usuários USR_0011 e USR_0100: GRANT SELECT, UPDATE ON DADO_PARTE TO USR_0011; GRANT SELECT ON DADOS_PARTE TO USR_0100; GRANT SELECT, INSERT, DELETE, UPDATE ON DADOS_PROCESSO TO USR_0011; GRANT SELECT, UPDATE ON DADOS_PROCESSO TO USR_0100 WITH GRANT OPTION; Na sequência, o usuário USR_0100 executou o seguinte comando: GRANT UPDATE ON DADOS_PROCESSO TO USR_00101; Por fim, o DBA executou o comando: REVOKE UPDATE ON DADOS_PROCESSO FROM USR_0100; Considerando esse cenário, qual situação é válida para as permissões referentes às tabelas DADOS_PROCESSO e DADOS_PARTE?
 
-* **A)** O usuário USR_0011 tem direito de inserção na tabela DADOS_PARTE.
-* **B)** O usuário USR_0100 tem direito de atualização na tabela DADOS_PROCESSO, mas sem direito de propagação.
-* **C)** O usuário USR_0100 tem direito de consulta na tabela DADOS_PROCESSO, com direito de propagação.
-* **D)** O usuário USR_0101 tem direito de atualização na tabela DADOS_PROCESSO.
-* **E)** O usuário USR_0101 tem direito de consulta na tabela DADOS_PROCESSO.
+### Teste 005
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+João, administrador de banco de dados, deverá projetar um banco de dados Oracle de registro de alunos que contenha várias tabelas para armazenar informações acadêmicas:  A tabela “Aluno” armazena informações sobre alunos.  A tabela “Notas_Aluno” armazena informações sobre as notas do aluno.  Ambas as tabelas têm uma coluna chamada “Aluno_ID”.  A coluna “Aluno_ID” na tabela “Aluno” é uma chave primária. João deverá criar a chave estrangeira na coluna “aluno_ID” da tabela “Notas_Aluno” para relacionar-se com a coluna “aluno_ID” da tabela “Aluno”. Para isso, João deverá utilizar o seguinte comando:
+
+* **A)** CREATE TABLE notas_aluno (aluno_ID NUMBER(12), media_notas NUMBER(4,3), CONSTRAINT aluno_ID_fk REFERENCES aluno(aluno_ID));
+* **B)** CREATE TABLE notas_aluno (aluno_ID NUMBER(12), media_notas NUMBER(4,3), CONSTRAINT FOREIGN KEY (aluno_ID) REFERENCES aluno (aluno_ID));
+* **C)** CREATE TABLE notas_aluno (aluno_ID NUMBER(12), media_notas NUMBER(4,3), aluno_ID_fk FOREIGN KEY (aluno_ID) REFERENCES aluno(aluno_ID));
+* **D)** CREATE TABLE notas_aluno (aluno_ID NUMBER(12), media_notas NUMBER(4,3), CONSTRAINT aluno_ID_fk FOREIGN KEY (aluno_ID) REFERENCES aluno(aluno_ID));
+* **E)** CREATE TABLE notas_aluno (aluno_ID NUMBER(12), media_notas NUMBER(4,3), CONSTRAINT aluno_ID_fk REFERENCES (aluno_ID) FOREIGN KEY aluno(aluno_ID));
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O usuário USR_0011 tem direito de inserção na tabela DADOS_PARTE". De acordo com a teoria estudada em *1.1 Classificação ANSI: DDL, DML, DQL, DCL e TCL*, dML: *Data Manipulation Language* — `INSERT`, `UPDATE`, `DELETE`, `MERGE` — Inserção, alteração e remoção de registros/tuplas dentro de tabelas existentes.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O usuário USR_0100 tem direito de atualização na tabela DADOS_PROCESSO, mas sem direito de propagação". De acordo com a teoria estudada em *1.1 Classificação ANSI: DDL, DML, DQL, DCL e TCL*, dQL: *Data Query Language* — `SELECT` — Consulta e recuperação de dados estruturados (frequentemente agrupada como subconjunto da DML).
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Classificação ANSI: DDL, DML, DQL, DCL e TCL* deste guia, dCL: *Data Control Language* — `GRANT`, `REVOKE` — Gestão de privilégios de acesso, concessão e revogação de permissões a usuários e papéis (*roles*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "O usuário USR_0100 tem direito de consulta na tabela DADOS_PROCESSO, com direito de propagação".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O usuário USR_0101 tem direito de atualização na tabela DADOS_PROCESSO". De acordo com a teoria estudada em *1.1 Classificação ANSI: DDL, DML, DQL, DCL e TCL*, dDL: *Data Definition Language* — `CREATE`, `ALTER`, `DROP`, `TRUNCATE`, `RENAME` — Criação, modificação estrutural e exclusão física de objetos no catálogo de dados (tabelas, esquemas, índices, visões).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O usuário USR_0101 tem direito de consulta na tabela DADOS_PROCESSO". De acordo com a teoria estudada em *5.1 Visões: View Padrão vs. View Materializada (Materialized View)*, não armazena dados físicos em disco; representa apenas uma consulta SQL gravada no dicionário de dados do SGBD.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CREATE TABLE notas aluno (aluno ID NUMBER(12), media notas NUMBER(4,3), CONSTRAINT aluno ID fk REFERENCES...". De acordo com a teoria estudada em *1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira*, pRIMARY KEY : Garante unicidade e impede valores nulos ( UNIQUE + NOT NULL ). Cada tabela pode conter apenas uma chave primária.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CREATE TABLE notas aluno (aluno ID NUMBER(12), media notas NUMBER(4,3), CONSTRAINT FOREIGN KEY (aluno ID)...". De acordo com a teoria estudada em *1.1 Classificação ANSI: DDL, DML, DQL, DCL e TCL*, dDL: Data Definition Language — CREATE , ALTER , DROP , TRUNCATE , RENAME — Criação, modificação estrutural e exclusão física de objetos no catálogo de dados (tabelas, esquemas, índices, visões).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CREATE TABLE notas aluno (aluno ID NUMBER(12), media notas NUMBER(4,3), aluno ID fk FOREIGN KEY (aluno ID)...". De acordo com a teoria estudada em *1. Subconjuntos da Linguagem SQL*, sQL DDL["DDL (Definição)<br/ CREATE, ALTER, DROP, TRUNCATE"].
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira* deste guia, fOREIGN KEY (Integridade Referencial): Impõe que o valor da coluna exista previamente na chave primária da tabela referenciada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "CREATE TABLE notas aluno (aluno ID NUMBER(12), media notas NUMBER(4,3), CONSTRAINT aluno ID fk FOREIGN KEY (aluno...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CREATE TABLE notas aluno (aluno ID NUMBER(12), media notas NUMBER(4,3), CONSTRAINT aluno ID fk REFERENCES (aluno...". De acordo com a teoria estudada em *1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira*, as restrições de integridade garantem a consistência lógica dos dados no banco.
+>
+> **Gabarito: D**
+
+---
+
+
+### Teste 006
+**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
+A arquitetura de bancos de dados cliente-servidor é caracterizada pela divisão do processamento entre sistemas, e sua implementação requer soluções de software que possibilitem confirmar transações, desfazer transações e disponibilizar linguagens de consultas. SELECT * FROM Produtos WHERE Preco > 0.00;
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases*, código Inválido: SELECT salario 1.1 AS novo salario FROM servidor WHERE novo salario 5000; (Gera erro de coluna inexistente!). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRF/6/2025) ao afirmar que "A arquitetura de bancos de dados cliente servidor é caracterizada pela divisão do processamento entre...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
 >
 > **Gabarito: C**
 
 ---
+
+
+### Teste 007
+**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Uma tabela de um banco de dados Oracle chamada funcionarios possui os campos id, nome e salario. Um Analista deseja realizar uma consulta nesta tabela, que exiba o id, o nome dos funcionários, o salário e o salário acrescido de 12,5%. O salário com o acréscimo deverá ser mostrado como um número inteiro e a coluna deverá ser nomeada Salário Reajustado. A instrução SQL que deverá ser digitada pelo Analista é
+
+* **A)** SELECT id, nome, salario, TO_INT(salario * 1.125,0) AS "Salário Reajustado" FROM funcionarios;
+* **B)** SELECT id, nome, salario, ARRED(salario * 1.125) AS "Salário Reajustado" FROM funcionarios;
+* **C)** SELECT id, nome, salario, ROUND(salario * 1.125, 0) "Salário Reajustado" FROM funcionarios;
+* **D)** SELECT id, nome, salario, TRUNC(salario * 1.125) 'Salário Reajustado' FROM funcionarios;
+* **E)** SELECT id, nome, salario, TO_INTEGER(salario * 1.125) AS "Salário Reajustado" FROM funcionarios;
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL* deste guia, considere a consulta: SELECT nome FROM cliente WHERE id NOT IN (SELECT id cliente FROM divida). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "SELECT id, nome, salario, TO INT(salario 1.125,0) AS "Salário Reajustado" FROM funcionarios".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT id, nome, salario, ARRED(salario 1.125) AS "Salário Reajustado" FROM funcionarios". De acordo com a teoria estudada em *2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases*, código Inválido: SELECT salario 1.1 AS novo salario FROM servidor WHERE novo salario 5000; (Gera erro de coluna inexistente!).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT id, nome, salario, ROUND(salario 1.125, 0) "Salário Reajustado" FROM funcionarios". De acordo com a teoria estudada em *5.1 Visões: View Padrão vs. View Materializada (Materialized View)*, trade off: Os dados ficam estáticos/defasados até que um comando de atualização explícito seja disparado: REFRESH MATERIALIZED VIEW nome da view;.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT id, nome, salario, TRUNC(salario 1.125) 'Salário Reajustado' FROM funcionarios". De acordo com a teoria estudada em *5.2 Stored Procedures vs. User-Defined Functions (UDF)*, invocação: Comando explícito CALL procedure name(args); — Invocada inline em comandos SQL: SELECT func(x) FROM tab.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT id, nome, salario, TO INTEGER(salario 1.125) AS "Salário Reajustado" FROM funcionarios". De acordo com a teoria estudada em *4.2 Funções de Ranking: ROW_NUMBER(), RANK() e DENSE_RANK()*, considere quatro servidores avaliados por salário dentro de uma partição: Ana (10.000), Carlos (10.000), Beatriz (10.000) e Daniel (8.000).
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 008
+**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Para utilizar o OpenSource Selenium, um Analista deve conhecer suas atuais e principais ferramentas. Uma delas é a que permite distribuir os testes em múltiplas máquinas, reduzindo assim o tempo gasto na execução de uma suíte de testes. É ideal para escalonar suítes de testes grandes ou que devem ser executadas em múltiplos ambientes. Essa ferramenta é o Selenium
+
+* **A)** SELECT.
+* **B)** RC.
+* **C)** IDE.
+* **D)** TYPE.
+* **E)** GRID.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *5.1 Visões: View Padrão vs. View Materializada (Materialized View)* deste guia, a cada execução de um SELECT contra a View, o otimizador expande a consulta subjacente e varre as tabelas base em tempo real. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "SELECT".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "RC". De acordo com a teoria estudada em *2. Ordem Lógica de Execução da Consulta SQL (DQL)*, ao escrever uma consulta com a cláusula SELECT , a ordem sintática da escrita (ordem léxica) é muito diferente da ordem lógica de processamento adotada pelo otimizador de consultas do SGBD.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IDE". De acordo com a teoria estudada em *2. Ordem Lógica de Execução da Consulta SQL (DQL)*, p5 P6["6. SELECT<br/ (Calcula expressões e aliases de colunas)"].
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "TYPE". De acordo com a teoria estudada em *1. Subconjuntos da Linguagem SQL*, sQL DQL["DQL (Consulta)<br/ SELECT"].
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "GRID". De acordo com a teoria estudada em *1.1 Classificação ANSI: DDL, DML, DQL, DCL e TCL*, dQL: Data Query Language — SELECT — Consulta e recuperação de dados estruturados (frequentemente agrupada como subconjunto da DML).
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 009
+**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+As características do atributo CEP — numérico, seqüencial e não repetido — permitem utilizá-lo como chave primária em um banco de dados destinado ao cadastro de clientes de uma loja.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As características do atributo CEP — numérico, seqüencial e não repetido — permitem utilizá lo como chave...". De acordo com a teoria em *1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira*, as restrições de integridade garantem a consistência lógica dos dados no banco.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 010
+**(CEBRASPE – STF – 2013 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+No modelo entidade/relacionamento, deve-se incluir a chave estrangeira (chave primária) de uma entidade como campo da outra para modelar o relacionamento entre elas.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No modelo entidade/relacionamento, deve se incluir a chave estrangeira (chave primária) de uma entidade como...". De acordo com a teoria em *1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira*, sET NULL : Atualiza o campo da chave estrangeira dos filhos para NULL quando o pai é excluído (exige que a coluna aceite nulos).
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 011
+**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
+O comando switch da linguagem de programação C é, na linguagem Visual Basic .NET, semelhante ao comando:
+
+* **A)** Select Case;
+* **B)** Exit;
+* **C)** For Each;
+* **D)** Goto;
+* **E)** Continue.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1. Subconjuntos da Linguagem SQL* deste guia, sQL DQL["DQL (Consulta)<br/ SELECT"]. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "Select Case".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Exit". De acordo com a teoria estudada em *5.2 Stored Procedures vs. User-Defined Functions (UDF)*, invocação: Comando explícito CALL procedure name(args); — Invocada inline em comandos SQL: SELECT func(x) FROM tab.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "For Each". De acordo com a teoria estudada em *1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE*, "O comando TRUNCATE aciona gatilhos de auditoria FOR EACH ROW para registrar quem apagou cada linha." $\rightarrow$ ERRADO! O TRUNCATE ignora completamente gatilhos de nível de linha!.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Goto". De acordo com a teoria estudada em *1.1 Classificação ANSI: DDL, DML, DQL, DCL e TCL*, dQL: Data Query Language — SELECT — Consulta e recuperação de dados estruturados (frequentemente agrupada como subconjunto da DML).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Continue". De acordo com a teoria estudada em *2. Ordem Lógica de Execução da Consulta SQL (DQL)*, ao escrever uma consulta com a cláusula SELECT , a ordem sintática da escrita (ordem léxica) é muito diferente da ordem lógica de processamento adotada pelo otimizador de consultas do SGBD.
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 012
+**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
+Analise o diagrama ER apresentado a seguir. Na implementação relacional desse modelo, é necessário que:
+
+* **A)** o relacionamento entre T1 e T2 seja modificado, pois não é possível implementá-lo como descrito;
+* **B)** o atributo C1 da tabela T1 seja declarado como uma chave estrangeira que referencia a tabela T2;
+* **C)** o atributo C da tabela T2 seja declarado com a propriedade unique (com valores nulos ignorados);
+* **D)** o atributo A2 da tabela T2 aceite valores nulos;
+* **E)** o atributo C da tabela T2 seja declarado com a propriedade not null.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o relacionamento entre T1 e T2 seja modificado, pois não é possível implementá lo como descrito". De acordo com a teoria estudada em *1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira*, uNIQUE : Impede valores duplicados, mas permite a inserção de valores nulos ( NULL ), exceto se combinado com NOT NULL.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o atributo C1 da tabela T1 seja declarado como uma chave estrangeira que referencia a tabela T2". De acordo com a teoria estudada em *1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira*, sET NULL : Atualiza o campo da chave estrangeira dos filhos para NULL quando o pai é excluído (exige que a coluna aceite nulos).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira* deste guia, pRIMARY KEY : Garante unicidade e impede valores nulos ( UNIQUE + NOT NULL ). Cada tabela pode conter apenas uma chave primária. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "o atributo C da tabela T2 seja declarado com a propriedade unique (com valores nulos ignorados)".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o atributo A2 da tabela T2 aceite valores nulos". De acordo com a teoria estudada em *3.1 Junções (INNER, LEFT, RIGHT, FULL OUTER e CROSS JOIN)*, lEFT OUTER JOIN (ou LEFT JOIN ): Retorna todas as tuplas da tabela à esquerda ( FROM ), combinando com as tuplas da tabela à direita. Caso não haja correspondência na tabela da direita, os atributos da direita são preenchidos com valores nulos ( NULL ).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o atributo C da tabela T2 seja declarado com a propriedade not null". De acordo com a teoria estudada em *3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL*, solução Recomendada: Utilizar sempre a construção com NOT EXISTS correlacionado, imune a valores nulos.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 013
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+Os índices são chaves secundárias utilizadas para acessar uma tabela mediante forma diferente da utilizada por uma chave primária.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira*, pRIMARY KEY : Garante unicidade e impede valores nulos ( UNIQUE + NOT NULL ). Cada tabela pode conter apenas uma chave primária. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT/10/2013) ao afirmar que "Os índices são chaves secundárias utilizadas para acessar uma tabela mediante forma diferente da utilizada...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 014
+**(FCC – TRT 2ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+No banco de dados MySQL, uma das maneiras de se efetuar uma consulta na qual uma determinada coluna de uma tabela seja igual ao valor máximo de uma coluna de outra tabela é
+
+* **A)** SELECT * FROM t1 WHERE colunaX = (SELECT MAX(colunaY) FROM t2);
+* **B)** SELECT * FROM t1 WHERE COALESCE(t1.colunaY, t2colunaY);
+* **C)** SELECT colunaX from t1 IN MAX(SELECT colunaY from t2);
+* **D)** SELECT CASE WHEN colunaX = (SELECT colunaY from t2) AS c WHERE c = colunaX;
+* **E)** SELECT colunaX, colunaY from t1 WHER colunaX = colunaY;
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases* deste guia, código Inválido: SELECT salario 1.1 AS novo salario FROM servidor WHERE novo salario 5000; (Gera erro de coluna inexistente!). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 2ª/2014) ao estabelecer que "SELECT FROM t1 WHERE colunaX = (SELECT MAX(colunaY) FROM t2)".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT FROM t1 WHERE COALESCE(t1.colunaY, t2colunaY)". De acordo com a teoria estudada em *3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL*, considere a consulta: SELECT nome FROM cliente WHERE id NOT IN (SELECT id cliente FROM divida).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT colunaX from t1 IN MAX(SELECT colunaY from t2)". De acordo com a teoria estudada em *2. Ordem Lógica de Execução da Consulta SQL (DQL)*, p1["1. FROM / JOIN / ON<br/ (Identifica tabelas e computa junções)"] P2["2. WHERE<br/ (Filtra tuplas brutas linha a linha)"].
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT CASE WHEN colunaX = (SELECT colunaY from t2) AS c WHERE c = colunaX". De acordo com a teoria estudada em *2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases*, como a cláusula WHERE (etapa 2) é processada muito antes da cláusula SELECT (etapa 6), qualquer apelido de coluna ( alias ) criado no SELECT ainda não existe no catálogo de símbolos durante a avaliação do WHERE.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT colunaX, colunaY from t1 WHER colunaX = colunaY". De acordo com a teoria estudada em *5.2 Stored Procedures vs. User-Defined Functions (UDF)*, invocação: Comando explícito CALL procedure name(args); — Invocada inline em comandos SQL: SELECT func(x) FROM tab.
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 015
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+O Auditor está operando um banco de dados relacional que contém a tabela CONTRATOS. Ele precisa contar quantos contratos ativos existem para o município de ‘Florianópolis’. O comando SQL que executa essa tarefa corretamente é
+
+* **A)** SELECT SUM(contratos) FROM Contratos WHERE municipio = ‘Florianópolis’;
+* **B)** SELECT COUNT(*) FROM Contratos WHERE municipio = ‘Florianópolis’;
+* **C)** SELECT DISTINCT(*) FROM Contratos WHERE municipio = ‘Florianópolis’;
+* **D)** SELECT ALL FROM Contratos GROUP BY municipio;
+* **E)** SELECT SEARCH contratos WHERE municipio = ‘Florianópolis’;
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT SUM(contratos) FROM Contratos WHERE municipio = ‘Florianópolis’". De acordo com a teoria estudada em *3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL*, considere a consulta: SELECT nome FROM cliente WHERE id NOT IN (SELECT id cliente FROM divida).
+> - **B)** **Correta.** Conforme fundamentado na seção *2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases* deste guia, código Inválido: SELECT salario 1.1 AS novo salario FROM servidor WHERE novo salario 5000; (Gera erro de coluna inexistente!). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "SELECT COUNT( ) FROM Contratos WHERE municipio = ‘Florianópolis’".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT DISTINCT( ) FROM Contratos WHERE municipio = ‘Florianópolis’". De acordo com a teoria estudada em *5.2 Stored Procedures vs. User-Defined Functions (UDF)*, invocação: Comando explícito CALL procedure name(args); — Invocada inline em comandos SQL: SELECT func(x) FROM tab.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT ALL FROM Contratos GROUP BY municipio". De acordo com a teoria estudada em *3.4 Common Table Expressions (CTEs) e Recursividade (WITH RECURSIVE)*, sELECT auditor id, COUNT( ) AS total.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT SEARCH contratos WHERE municipio = ‘Florianópolis’". De acordo com a teoria estudada em *2. Ordem Lógica de Execução da Consulta SQL (DQL)*, p1["1. FROM / JOIN / ON<br/ (Identifica tabelas e computa junções)"] P2["2. WHERE<br/ (Filtra tuplas brutas linha a linha)"].
+>
+> **Gabarito: B**
+
+---
+
+
 
 ## 2. Ordem Lógica de Execução da Consulta SQL (DQL)
 
@@ -228,30 +505,6 @@ Compreender essa cronologia lógica resolve duas das questões mais frequentes d
 2. **`WHERE` vs. `HAVING`:**  
     - O **`WHERE`** filtra registros **individuais** antes da formação dos grupos e **rejeita terminantemente funções agregadas** (ex.: `WHERE SUM(valor) > 100` é sintaticamente inválido).
     - O **`HAVING`** filtra **grupos agregados** já sumarizados pelo `GROUP BY` e aceita funções agregadas (ex.: `HAVING SUM(valor) > 100`).
-
----
-
-### Teste 248
-**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
-O PostgreSQL é um SGBD gratuito de código aberto que suporta consultas relacionais em linguagem SQL. Com relação ao SQL do PostgreSQL, analise as afirmativas a seguir. I. A cláusula GROUP BY agrupa linhas com os mesmos valores em linhas de resumo, sendo frequentemente usada com funções de agregação como, por exemplo, COUNT( ), MAX( ), MIN( ), SUM( ) e AVG( ), para agrupar um conjunto de resultados de uma ou mais colunas. II. O operador HAVING foi adicionado ao SQL porque o WHERE não pode ser usado com funções de agregação, as quais são frequentemente usadas com a cláusula GROUP BY. Ao adicionar o HAVING é possível escrever condições similares às das cláusulas WHERE. III. A expressão CASE testa condições e retorna um valor quando a primeira condição é atendida (como uma instrução if-then- else); quando a condição seja verdadeira, ele parará a leitura e retornará o resultado, mas, se nenhuma condição for verdadeira, ele retornará o valor da cláusula ELSE. Caso não houver nenhum ELSE e nenhuma condição for verdadeira, ele retornará o valor NULL. Está correto o que se afirma em
-
-* **A)** I e II, apenas.
-* **B)** I e III, apenas.
-* **C)** II e III, apenas.
-* **D)** I e IV, apenas.
-* **E)** III e IV, apenas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2. Ordem Lógica de Execução da Consulta SQL (DQL)*, ao escrever uma consulta com a cláusula `SELECT`, a ordem sintática da escrita (ordem léxica) é muito diferente da ordem lógica de processamento adotada pelo otimizador de consultas do SGBD.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases* deste guia, o `HAVING` filtra grupos agregados já sumarizados pelo `GROUP BY` e aceita funções agregadas (ex.: `HAVING SUM(valor) > 100`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "I e III, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases*, o `WHERE` filtra registros individuais antes da formação dos grupos e rejeita terminantemente funções agregadas (ex.: `WHERE SUM(valor) > 100` é sintaticamente inválido).
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e IV, apenas". De acordo com a teoria estudada em *1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE*, comportamento Transacional: Suporta `ROLLBACK` em qualquer SGBD compatível com ACID. — Reversível no PostgreSQL/SQL Server; no Oracle efetua COMMIT implícito. — Reversível no PostgreSQL; no Oracle efetua COMMIT implícito.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III e IV, apenas". De acordo com a teoria estudada em *3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL*, resultado Catastrófico: A consulta retornará ZERO LINHAS (conjunto vazio)!.
->
-> **Gabarito: B**
 
 ---
 
@@ -306,90 +559,6 @@ JOIN AuditoriasRecentes ar ON a.id = ar.auditor_id;
 
 ---
 
-### Teste 249
-**(CEBRASPE – STF – 2013 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-No SQL Server, o uso de variáveis de tabela permite aumentar o desempenho de determinadas consultas.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No SQL Server, o uso de variáveis de tabela permite aumentar o desempenho de determinadas consultas". De acordo com a teoria estudada em *3.4 Common Table Expressions (CTEs) e Recursividade (WITH RECURSIVE)*, `WITH RECURSIVE`: Permite que a CTE faça referência a si mesma, viabilizando consultas em estruturas hierárquicas e em grafos (como organogramas empresariais ou árvores de dependência de processos).
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE* deste guia, comportamento Transacional: Suporta `ROLLBACK` em qualquer SGBD compatível com ACID. — Reversível no PostgreSQL/SQL Server; no Oracle efetua COMMIT implícito. — Reversível no PostgreSQL; no Oracle efetua COMMIT implícito. Portanto, a assertiva examinada pela banca (CEBRASPE – STF/2013) viola os preceitos técnicos do tópico.
->
-> **Gabarito: E**
-
----
-
-### Teste 250
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-O Auditor está operando um banco de dados relacional que contém a tabela CONTRATOS. Ele precisa contar quantos contratos ativos existem para o município de ‘Florianópolis’. O comando SQL que executa essa tarefa corretamente é
-
-* **A)** SELECT SUM(contratos) FROM Contratos WHERE municipio = ‘Florianópolis’;
-* **B)** SELECT COUNT(*) FROM Contratos WHERE municipio = ‘Florianópolis’;
-* **C)** SELECT DISTINCT(*) FROM Contratos WHERE municipio = ‘Florianópolis’;
-* **D)** SELECT ALL FROM Contratos GROUP BY municipio;
-* **E)** SELECT SEARCH contratos WHERE municipio = ‘Florianópolis’;
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT SUM(contratos) FROM Contratos WHERE municipio = ‘Florianópolis’". De acordo com a teoria estudada em *2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases*, *Código Inválido:* `SELECT salario * 1.1 AS novo_salario FROM servidor WHERE novo_salario > 5000;` *(Gera erro de coluna inexistente!)*.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL* deste guia, considere a consulta: `SELECT nome FROM cliente WHERE id NOT IN (SELECT id_cliente FROM divida);`. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "SELECT COUNT(*) FROM Contratos WHERE municipio = ‘Florianópolis’".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT DISTINCT(*) FROM Contratos WHERE municipio = ‘Florianópolis’". De acordo com a teoria estudada em *5.2 Stored Procedures vs. User-Defined Functions (UDF)*, invocação: Comando explícito `CALL procedure_name(args);` — Invocada inline em comandos SQL: `SELECT func(x) FROM tab;`.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT ALL FROM Contratos GROUP BY municipio". De acordo com a teoria estudada em *2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases*, o `HAVING` filtra grupos agregados já sumarizados pelo `GROUP BY` e aceita funções agregadas (ex.: `HAVING SUM(valor) > 100`).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT SEARCH contratos WHERE municipio = ‘Florianópolis’". De acordo com a teoria estudada em *2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases*, como a cláusula `WHERE` (etapa 2) é processada muito antes da cláusula `SELECT` (etapa 6), qualquer apelido de coluna (*alias*) criado no `SELECT` ainda não existe no catálogo de símbolos durante a avaliação do `WHERE`.
->
-> **Gabarito: B**
-
----
-
-### Teste 251
-**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-O uso de stored procedures, que são consultas previamente compiladas e armazenadas em um servidor sob a forma de procedimentos, é um meio de reduzir o custo de comunicação e de compilações SQL em banco de dados do tipo cliente-servidor.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *5.2 Stored Procedures vs. User-Defined Functions (UDF)* deste guia, invocação: Comando explícito `CALL procedure_name(args);` — Invocada inline em comandos SQL: `SELECT func(x) FROM tab;`. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STJ/2015) ao afirmar que "O uso de stored procedures, que são consultas previamente compiladas e armazenadas em um servidor sob a forma...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *5.2 Stored Procedures vs. User-Defined Functions (UDF)*, segundo a qual efeitos Colaterais: Permite alterar esquemas e dados via DDL e DML livremente. — Deve evitar efeitos colaterais para manter a integridade referencial.
->
-> **Gabarito: C**
-
----
-
-### Teste 252
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
-João, administrador de banco de dados MySQL, deverá realizar, periodicamente, o backup lógico completo do banco de dados "tjap_db". Para isso, João deverá utilizar o comando:
-
-* **A)** backup -u root -p tjap_db > backup.sql;
-* **B)** mydump -u root -p tjap_db > backup.sql;
-* **C)** mybackup -u root -p tjap_db > backup.sql;
-* **D)** mysqldump -u root -p tjap_db > backup.sql;
-* **E)** select * from tjap_db into outfile backup.sql;
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "backup -u root -p tjap_db > backup.sql". De acordo com a teoria estudada em *5.1 Visões: View Padrão vs. View Materializada (Materialized View)*, não armazena dados físicos em disco; representa apenas uma consulta SQL gravada no dicionário de dados do SGBD.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mydump -u root -p tjap_db > backup.sql". De acordo com a teoria estudada em *3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL*, em SQL, qualquer comparação direta com valor nulo (`coluna = NULL` ou `coluna != NULL`) avalia como `UNKNOWN` (*Desconhecido*), e não como `TRUE` nem `FALSE`. Para testar nulos, deve-se usar estritamente `IS NULL` ou `IS NOT NULL`.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mybackup -u root -p tjap_db > backup.sql". De acordo com a teoria estudada em *1. Subconjuntos da Linguagem SQL*, a linguagem SQL (*Structured Query Language*), padronizada internacionalmente pela norma ISO/IEC 9075, é subdividida em conjuntos de comandos com finalidades operacionais distintas.
-> - **D)** **Correta.** Conforme fundamentado na seção *5.2 Stored Procedures vs. User-Defined Functions (UDF)* deste guia, invocação: Comando explícito `CALL procedure_name(args);` — Invocada inline em comandos SQL: `SELECT func(x) FROM tab;`. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "mysqldump -u root -p tjap_db > backup.sql".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "select * from tjap_db into outfile backup.sql". De acordo com a teoria estudada em *3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL*, considere a consulta: `SELECT nome FROM cliente WHERE id NOT IN (SELECT id_cliente FROM divida);`.
->
-> **Gabarito: D**
-
----
-
 ## 4. Funções Analíticas de Janela (Window Functions)
 
 Diferente da cláusula `GROUP BY` (que colapsa múltiplas linhas em um único registro agregado por partição), as **funções de janela (*Window Functions*)** realizam cálculos agregados e analíticos **sem colapsar as tuplas**, preservando a identidade e o detalhe de cada linha individual.
@@ -429,54 +598,6 @@ Permitem acessar dados de linhas vizinhas na mesma partição sem necessidade de
 
 - **`LAG(coluna, N, valor_padrao)`:** Retorna o valor da coluna correspondente a $N$ linhas **anteriores** à linha corrente.
 - **`LEAD(coluna, N, valor_padrao)`:** Retorna o valor da coluna correspondente a $N$ linhas **posteriores** à linha corrente.
-
----
-
-### Teste 253
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-Um Auditor está montando um fluxo de dados que extrai informações de um banco de dados SQL, de notas fiscais eletrônicas em formato JSON e de relatórios em PDF com texto livre. Assinale a opção que indica a classificação desses três tipos de dados, respectivamente.
-
-* **A)** Estruturados, Semiestruturados e Não Estruturados.
-* **B)** Não Estruturados, Estruturados e Semiestruturados.
-* **C)** Semiestruturados, Estruturados e Não Estruturados.
-* **D)** Estruturados, Não Estruturados e Semiestruturados.
-* **E)** Todos são classificados como Estruturados após o processo de ETL.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Classificação ANSI: DDL, DML, DQL, DCL e TCL* deste guia, dQL: *Data Query Language* — `SELECT` — Consulta e recuperação de dados estruturados (frequentemente agrupada como subconjunto da DML). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Estruturados, Semiestruturados e Não Estruturados".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não Estruturados, Estruturados e Semiestruturados". De acordo com a teoria estudada em *1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira*, as restrições de integridade garantem a consistência lógica dos dados no banco.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Semiestruturados, Estruturados e Não Estruturados". De acordo com a teoria estudada em *5.3 Gatilhos (Triggers): Eventos, Momentos (BEFORE, AFTER, INSTEAD OF) e Pseudorregistros OLD/NEW*, gatilhos (*Triggers*) são blocos de código procedurais executados automaticamente pelo motor de banco de dados quando eventos DML específicos ocorrem em uma tabela.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estruturados, Não Estruturados e Semiestruturados". De acordo com a teoria estudada em *5.1 Visões: View Padrão vs. View Materializada (Materialized View)*, não armazena dados físicos em disco; representa apenas uma consulta SQL gravada no dicionário de dados do SGBD.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Todos são classificados como Estruturados após o processo de ETL". De acordo com a teoria estudada em *Pseudorregistros de Contexto:*, `NEW`: Representa o estado da linha após a modificação proposta.
->
-> **Gabarito: A**
-
----
-
-### Teste 254
-**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-Uma tabela de um banco de dados Oracle chamada funcionarios possui os campos id, nome e salario. Um Analista deseja realizar uma consulta nesta tabela, que exiba o id, o nome dos funcionários, o salário e o salário acrescido de 12,5%. O salário com o acréscimo deverá ser mostrado como um número inteiro e a coluna deverá ser nomeada Salário Reajustado. A instrução SQL que deverá ser digitada pelo Analista é
-
-* **A)** SELECT id, nome, salario, TO_INT(salario * 1.125,0) AS "Salário Reajustado" FROM funcionarios;
-* **B)** SELECT id, nome, salario, ARRED(salario * 1.125) AS "Salário Reajustado" FROM funcionarios;
-* **C)** SELECT id, nome, salario, ROUND(salario * 1.125, 0) "Salário Reajustado" FROM funcionarios;
-* **D)** SELECT id, nome, salario, TRUNC(salario * 1.125) 'Salário Reajustado' FROM funcionarios;
-* **E)** SELECT id, nome, salario, TO_INTEGER(salario * 1.125) AS "Salário Reajustado" FROM funcionarios;
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL* deste guia, considere a consulta: `SELECT nome FROM cliente WHERE id NOT IN (SELECT id_cliente FROM divida);`. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "SELECT id, nome, salario, TO_INT(salario * 1.125,0) AS "Salário Reajustado" FROM funcionarios".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT id, nome, salario, ARRED(salario * 1.125) AS "Salário Reajustado" FROM funcionarios". De acordo com a teoria estudada em *2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases*, *Código Inválido:* `SELECT salario * 1.1 AS novo_salario FROM servidor WHERE novo_salario > 5000;` *(Gera erro de coluna inexistente!)*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT id, nome, salario, ROUND(salario * 1.125, 0) "Salário Reajustado" FROM funcionarios". De acordo com a teoria estudada em *5.2 Stored Procedures vs. User-Defined Functions (UDF)*, invocação: Comando explícito `CALL procedure_name(args);` — Invocada inline em comandos SQL: `SELECT func(x) FROM tab;`.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT id, nome, salario, TRUNC(salario * 1.125) 'Salário Reajustado' FROM funcionarios". De acordo com a teoria estudada em *5.1 Visões: View Padrão vs. View Materializada (Materialized View)*, trade-off: Os dados ficam estáticos/defasados até que um comando de atualização explícito seja disparado: `REFRESH MATERIALIZED VIEW nome_da_view;`.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT id, nome, salario, TO_INTEGER(salario * 1.125) AS "Salário Reajustado" FROM funcionarios". De acordo com a teoria estudada em *4.2 Funções de Ranking: ROW_NUMBER(), RANK() e DENSE_RANK()*, considere quatro servidores avaliados por salário dentro de uma partição: Ana (10.000), Carlos (10.000), Beatriz (10.000) e Daniel (8.000).
->
-> **Gabarito: A**
 
 ---
 
@@ -520,30 +641,6 @@ Gatilhos (*Triggers*) são blocos de código procedurais executados automaticame
 - **`BEFORE`:** Executado antes que a modificação seja persistida no disco. Ideal para **validação de dados**, enriquecimento de campos e integridade de negócio. Permite alterar os valores de `NEW` antes da gravação.
 - **`AFTER`:** Executado após a modificação ser gravada no disco. Ideal para **gravação em tabelas de auditoria** e disparos de notificações assíncronas.
 - **`INSTEAD OF`:** Intercepta a instrução DML e executa a rotina do gatilho no lugar da operação original. É a solução canônica para permitir operações de `INSERT`, `UPDATE` e `DELETE` em **visões (Views) complexas não-atualizáveis**.
-
----
-
-### Teste 255
-**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
-O administrador de banco de dados MySQL de um certo tribunal precisa restaurar o banco de dados MySQL, chamado "tjdb", usando o arquivo de backup nomeado backup_tjdb.sql". Para isso ele deve acessar o usuário root, usando a senha apropriada. Um comando que poderia ser usado é
-
-* **A)** mysql -u root -p tjdb > backup_tjdb.sql
-* **B)** mysql -u root -p -D tjdb < backup_tjdb.sql
-* **C)** mysql -u root -p -D tjdb > backup_tjdb.sql
-* **D)** mysql -u root -p -h tjdb < backup_tjdb.sql
-* **E)** mysql -u root -p -D tjdb backup_tjdb.sql
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mysql -u root -p tjdb > backup_tjdb.sql". De acordo com a teoria estudada em *3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL*, em SQL, qualquer comparação direta com valor nulo (`coluna = NULL` ou `coluna != NULL`) avalia como `UNKNOWN` (*Desconhecido*), e não como `TRUE` nem `FALSE`. Para testar nulos, deve-se usar estritamente `IS NULL` ou `IS NOT NULL`.
-> - **B)** **Correta.** Conforme fundamentado na seção *5.2 Stored Procedures vs. User-Defined Functions (UDF)* deste guia, invocação: Comando explícito `CALL procedure_name(args);` — Invocada inline em comandos SQL: `SELECT func(x) FROM tab;`. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "mysql -u root -p -D tjdb < backup_tjdb.sql".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mysql -u root -p -D tjdb > backup_tjdb.sql". De acordo com a teoria estudada em *5.1 Visões: View Padrão vs. View Materializada (Materialized View)*, não armazena dados físicos em disco; representa apenas uma consulta SQL gravada no dicionário de dados do SGBD.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mysql -u root -p -h tjdb < backup_tjdb.sql". De acordo com a teoria estudada em *1. Subconjuntos da Linguagem SQL*, a linguagem SQL (*Structured Query Language*), padronizada internacionalmente pela norma ISO/IEC 9075, é subdividida em conjuntos de comandos com finalidades operacionais distintas.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mysql -u root -p -D tjdb backup_tjdb.sql". De acordo com a teoria estudada em *1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE*, comportamento Transacional: Suporta `ROLLBACK` em qualquer SGBD compatível com ACID. — Reversível no PostgreSQL/SQL Server; no Oracle efetua COMMIT implícito. — Reversível no PostgreSQL; no Oracle efetua COMMIT implícito.
->
-> **Gabarito: B**
 
 ---
 

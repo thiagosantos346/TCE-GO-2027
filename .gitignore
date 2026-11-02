@@ -7,3 +7,6 @@ __pycache__/
 *.pyc
 node_modules/
 scratch/
+
+# Documentos brutos de referência
+raw_docs/

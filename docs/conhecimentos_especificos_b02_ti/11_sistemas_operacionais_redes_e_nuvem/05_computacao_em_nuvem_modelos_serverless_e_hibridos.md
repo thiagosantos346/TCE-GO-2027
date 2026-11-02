@@ -4,10 +4,7 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `05_computacao_em_nuvem_modelos_serverless_e_hibridos.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Fundamentos e características essenciais da Computação em Nuvem (NIST SP 800-145)
@@ -84,53 +81,94 @@ Para ser legitimamente classificado como computação em nuvem, um ambiente tecn
 
 ---
 
-### Teste 454
-**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
-Uma das vantagens de serviços providos na nuvem é a possibilidade de utilizar recursos físicos e virtuais compartilhados entre vários consumidores, os quais podem ser atribuídos e retirados dinamicamente de acordo com a demanda do consumidor. De acordo com o NIST SP 800-145, a característica essencial da computação em nuvem descrita é:
+### Teste 001
+**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Em um provedor que fornece um serviço como PaaS (platform-as-a-service), o consumidor consegue configurar a rede e o sistema operacional utilizados.
 
-* **A)** measured service;
-* **B)** rapid elasticity;
-* **C)** broad network Access;
-* **D)** on-demand self-service;
-* **E)** resource pooling.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "measured service". De acordo com a teoria estudada em *1.2 As Cinco Características Essenciais*, 5. Serviço Mensurado (*Measured Service*): Os sistemas em nuvem controlam e otimizam automaticamente o uso de recursos utilizando capacidade de medição (métricas de CPU, armazenamento, largura de banda, contas de usuário).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "rapid elasticity". De acordo com a teoria estudada em *1.2 As Cinco Características Essenciais*, 4. Elasticidade Rápida (*Rapid Elasticity*): Capacidades podem ser provisionadas e liberadas de forma elástica, em alguns casos automaticamente, para escalar rapidamente para fora e para dentro conforme a demanda.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "broad network Access". De acordo com a teoria estudada em *1.2 As Cinco Características Essenciais*, amplo Acesso à Rede (*Broad Network Access*): Os recursos estão disponíveis na rede e são acessíveis por meio de mecanismos padronizados que promovem o uso por plataformas heterogêneas de clientes finos ou espessos. — Acesso corporativo uniforme via navegadores web, celulares, tablets ou estações de trabalho.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "on-demand self-service". De acordo com a teoria estudada em *1.2 As Cinco Características Essenciais*, autoatendimento sob Demanda (*On-Demand Self-Service*): O consumidor pode provisionar recursos computacionais (tempo de CPU, instâncias, armazenamento) de forma unilateral e automática, sem intervenção humana de operadores do provedor. — Administrador cria uma máquina virtual via portal web ou CLI em 2 minutos.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 As Cinco Características Essenciais* deste guia, agrupamento de Recursos em Pool (*Resource Pooling*): Os recursos computacionais do provedor são agrupados para atender múltiplos clientes em um modelo multilocatário (*multi-tenant*), com diferentes recursos físicos e virtuais atribuídos e reatribuídos dinamicamente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "resource pooling".
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em um provedor que fornece um serviço como PaaS (platform as a service), o consumidor consegue configurar a...". De acordo com a teoria em *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle*, paaS ( Platform as a Service ): O provedor entrega uma plataforma de desenvolvimento e execução pronta (runtimes como Node.js, Python, Java, .NET, acompanhados de bancos gerenciados). O desenvolvedor não se preocupa com o sistema operacional, atualizações de segurança ou virtualização; seu foco restringe se exclusivamente ao código da aplicação e às configurações de negócio.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
 >
 > **Gabarito: E**
 
 ---
 
-### Teste 455
-**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
-A computação em nuvem é uma tecnologia que permite o acesso remoto a recursos de computação, como armazenamento, processamento e software, por meio da internet. Existem diversos modelos de serviço em computação em nuvem. A ideia por trás dos Modelos de Serviço em Computação em Nuvem é fornecer diferentes níveis de abstração e gerenciamento de recursos de TI para atender às diversas necessidades das organizações e desenvolvedores. Nos modelos de serviço em computação em nuvem, a Plataforma como Serviço (PaaS)
 
-* **A)** oferece ao usuário controle total sobre a infraestrutura física e virtual, permitindo que configure e gerencie servidores e armazenamento conforme necessário.
-* **B)** disponibiliza um ambiente para desenvolvimento, teste e implementação de aplicações, sem a necessidade de gerenciar a infraestrutura subjacente.
-* **C)** oferece um software completo via internet, pronto para uso, como e-mails e ferramentas de produtividade, sem a necessidade de instalação local.
-* **D)** fornece recursos básicos de armazenamento e rede para que os usuários possam instalar e executar seus próprios sistemas operacionais e aplicações.
-* **E)** permite ao usuário gerenciar somente a camada de segurança e backup, delegando o controle da infraestrutura para o provedor de nuvem.
+### Teste 002
+**(CEBRASPE – TJ/DFT – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Em provedor que fornece serviço como IaaS (infrastructure-as-a-service), o consumidor consegue configurar o sistema operacional utilizado pela nuvem.
+
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "oferece ao usuário controle total sobre a infraestrutura física e virtual, permitindo que configure e gerencie...". De acordo com a teoria estudada em *1.1 Definição Canônica do NIST*, *"Computação em nuvem é um modelo para habilitar acesso de rede ubíquo, conveniente e sob demanda a um conjunto compartilhado de recursos de computação configuráveis (por exemplo, redes, servidores, armazenamento, aplicativos e serviços) que podem ser rapidamente provisionados e liberados com esforço de gerenciamento mínimo ou interação do provedor de serviços."*.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Paradigma: Execução Orientada a Eventos e Abstração de Infraestrutura* deste guia, na computação sem servidor (Serverless / FaaS), o conceito de servidor físico ou máquina virtual é totalmente abstraído para a equipe de tecnologia. O desenvolvimento organiza-se em torno de pequenas funções de código atômicas disparadas em resposta a Eventos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "disponibiliza um ambiente para desenvolvimento, teste e implementação de aplicações, sem a necessidade de...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "oferece um software completo via internet, pronto para uso, como e-mails e ferramentas de produtividade, sem a...". De acordo com a teoria estudada em *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle*, saaS (*Software as a Service*): O provedor disponibiliza um software de aplicação completo e funcional acessível pela Internet (ex.: navegadores web).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fornece recursos básicos de armazenamento e rede para que os usuários possam instalar e executar seus próprios...". De acordo com a teoria estudada em *1.2 As Cinco Características Essenciais*, 5. Serviço Mensurado (*Measured Service*): Os sistemas em nuvem controlam e otimizam automaticamente o uso de recursos utilizando capacidade de medição (métricas de CPU, armazenamento, largura de banda, contas de usuário).
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "permite ao usuário gerenciar somente a camada de segurança e backup, delegando o controle da infraestrutura para o...". De acordo com a teoria estudada em *1.3 Os Quatro Modelos de Implantação (Pública, Privada, Comunitária, Híbrida)*, nuvem Comunitária (*Community Cloud*): Infraestrutura compartilhada exclusivamente por organizações que possuem missões, exigências de segurança, políticas ou conformidades regulatórias comuns (ex.: nuvem compartilhada entre os Tribunais de Contas dos Estados para auditoria concorrente).
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle*, iaaS ( Infrastructure as a Service ): O provedor entrega infraestrutura computacional bruta (máquinas virtuais, capacidade de processamento, armazenamento em bloco e interfaces de rede). O cliente instala, configura e mantém o Sistema Operacional convidado, middlewares, bancos de dados e aplicações. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ/DFT/2015) ao afirmar que "Em provedor que fornece serviço como IaaS (infrastructure as a service), o consumidor consegue configurar o...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
+
+
+### Teste 003
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+Em uma cidade inteligente, diversos dispositivos conectados, como sensores de trânsito, câmeras de segurança e medidores de energia, trocam informações entre si para otimizar o uso de recursos e melhorar a qualidade de vida dos cidadãos. Esse conceito é conhecido como
+
+* **A)** Computação em Nuvem.
+* **B)** Big Data.
+* **C)** Inteligência Artificial.
+* **D)** Internet das Coisas (IoT).
+* **E)** Realidade Aumentada.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Computação em Nuvem". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, governo Digital Computação em Nuvem no Setor Público Diretrizes e estratégia federal de contratação e adoção de infraestrutura em nuvem.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Big Data". De acordo com a teoria estudada em *1.3 Os Quatro Modelos de Implantação (Pública, Privada, Comunitária, Híbrida)*, nuvem Privada ( Private Cloud ): Infraestrutura provisionada para uso exclusivo por uma única organização com múltiplas unidades ou departamentos (ex.: data center corporativo governamental operado com OpenStack ou VMware). Pode ser gerenciada pela própria organização ou por terceiros.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Inteligência Artificial". De acordo com a teoria estudada em *5.1 Conectividade Corporativa Híbrida: VPN IPsec vs. Links Dedicados Diretos*, esse tráfego NÃO PASSA PELA INTERNET PÚBLICA! Fornece largura de banda garantida e previsível (1 Gbps a 100 Gbps), latência determinística mínima e altíssima segurança física.
+> - **D)** **Correta.** Conforme fundamentado na seção *5.1 Conectividade Corporativa Híbrida: VPN IPsec vs. Links Dedicados Diretos* deste guia, vPN IPsec Site to Site: Estabelece um túnel criptografado seguro através da Internet pública. Possui baixo custo e rapidez de implantação, mas fica sujeita a oscilações de latência ( jitter ), perda de pacotes e instabilidades dos provedores de trânsito da Internet. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "Internet das Coisas (IoT)".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Realidade Aumentada". De acordo com a teoria estudada em *1.2 As Cinco Características Essenciais*, 2. Amplo Acesso à Rede ( Broad Network Access ): Os recursos estão disponíveis na rede e são acessíveis por meio de mecanismos padronizados que promovem o uso por plataformas heterogêneas de clientes finos ou espessos. — Acesso corporativo uniforme via navegadores web, celulares, tablets ou estações de trabalho.
+>
+> **Gabarito: D**
+
+---
+
+
+### Teste 004
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
+O TCE-SC decidiu migrar seu sistema de e-mail interno para o Microsoft Office 365, deixando de gerenciar servidores físicos e sistemas operacionais para esse fim. Esse modelo de computação em nuvem, no qual o usuário consome a aplicação final via web, é classificado como
+
+* **A)** IaaS (Infrastructure as a Service).
+* **B)** PaaS (Platform as a Service).
+* **C)** SaaS (Software as a Service).
+* **D)** BaaS (Backend as a Service).
+* **E)** On-premises.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IaaS (Infrastructure as a Service)". De acordo com a teoria estudada em *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle*, subgraph SaaS["SaaS Software as a Service (ex: Microsoft 365, Google Workspace)"].
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PaaS (Platform as a Service)". De acordo com a teoria estudada em *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle*, paaS ( Platform as a Service ): O provedor entrega uma plataforma de desenvolvimento e execução pronta (runtimes como Node.js, Python, Java, .NET, acompanhados de bancos gerenciados). O desenvolvedor não se preocupa com o sistema operacional, atualizações de segurança ou virtualização; seu foco restringe se exclusivamente ao código da aplicação e às configurações de negócio.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle* deste guia, saaS ( Software as a Service ): O provedor disponibiliza um software de aplicação completo e funcional acessível pela Internet (ex.: navegadores web). Toda a pilha técnica (do hardware ao código) é mantida pelo provedor; o cliente gerencia apenas os usuários autorizados e seus dados operacionais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "SaaS (Software as a Service)".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BaaS (Backend as a Service)". De acordo com a teoria estudada em *1.2 As Cinco Características Essenciais*, 5. Serviço Mensurado ( Measured Service ): Os sistemas em nuvem controlam e otimizam automaticamente o uso de recursos utilizando capacidade de medição (métricas de CPU, armazenamento, largura de banda, contas de usuário). O uso é monitorado, controlado e relatado com transparência. — Faturamento transparente no modelo Pay as you go (pague estritamente pelos gigabytes e horas consumidos).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "On premises". De acordo com a teoria estudada em *2.2 Matriz de Responsabilidade Compartilhada (Shared Responsibility Model)*, componente da Pilha: Ambiente Local ( On Premises ) — IaaS — PaaS — SaaS.
+>
+> **Gabarito: C**
+
+---
+
+
 
 ## 2. Modelos de Serviço e Matriz de Responsabilidade Compartilhada
 
@@ -173,48 +211,6 @@ A segurança cibernética em nuvem fundamenta-se na **Responsabilidade Compartil
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A responsabilidade pelos **DADOS e pela Classificação da Informação** pertence **SEMPRE E EXCLUSIVAMENTE AO CLIENTE**, em qualquer modelo (IaaS, PaaS ou SaaS). O provedor de nuvem jamais assume o dever legal sobre as autorizações concedidas pelo próprio cliente dentro de seus sistemas.
-
----
-
-### Teste 456
-**(CEBRASPE – TJ/DFT – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-Em provedor que fornece serviço como IaaS (infrastructure-as-a-service), o consumidor consegue configurar o sistema operacional utilizado pela nuvem.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle* deste guia, iaaS (*Infrastructure as a Service*): O provedor entrega infraestrutura computacional bruta (máquinas virtuais, capacidade de processamento, armazenamento em bloco e interfaces de rede). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TJ/DFT/2015) ao afirmar que "Em provedor que fornece serviço como IaaS (infrastructure-as-a-service), o consumidor consegue configurar o...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle*, segundo a qual o cliente instala, configura e mantém o Sistema Operacional convidado, middlewares, bancos de dados e aplicações.
->
-> **Gabarito: C**
-
----
-
-### Teste 457
-**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
-A equipe de desenvolvimento do TJ-RR precisa de uma solução de computação em nuvem que permita a criação e o gerenciamento de sua própria aplicação, mas prefere concentrar seus esforços exclusivamente no desenvolvimento do software, sem a necessidade de gerenciar detalhes da infraestrutura subjacente, como servidores, balanceamento de carga ou atualizações de sistema operacional. Além disso, essa solução deve oferecer escalabilidade para lidar com picos de demanda, integração com ferramentas de desenvolvimento, e a possibilidade de implantar rapidamente novas versões da aplicação. Assinale a afirmativa correta acerca do modelo de serviço em nuvem mais adequado para esse cenário.
-
-* **A)** Infrastructure as a Service (IaaS) seria o mais indicado, pois possibilita que a equipe de desenvolvimento configure seu ambiente de infraestrutura virtual.
-* **B)** Software as a Service (SaaS) oferece a maior simplicidade, já que a equipe de desenvolvimento pode utilizar aplicações prontas, com mínima necessidade de ajustes na infraestrutura.
-* **C)** Platform as a Service (PaaS) facilita o gerenciamento de servidores e redes, permitindo que a organização desenvolva e execute suas próprias aplicações, sem preocupações com infraestrutura física, mas com responsabilidade total sobre os sistemas operacionais.
-* **D)** Infrastructure as a Service (IaaS) proporciona flexibilidade na configuração de infraestrutura, permitindo à organização adaptar os recursos de hardware virtual conforme as necessidades da aplicação, sem precisar gerenciar balanceamento de carga.
-* **E)** Platform as a Service (PaaS) é a solução mais apropriada, uma vez que disponibiliza um ambiente completo de desenvolvimento e execução, eliminando a necessidade de gerenciamento de servidores, balanceamento de carga e sistemas operacionais, enquanto garante a escalabilidade e integração com ferramentas de desenvolvimento.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Infrastructure as a Service (IaaS) seria o mais indicado, pois possibilita que a equipe de desenvolvimento...". De acordo com a teoria estudada em *3.1 Paradigma: Execução Orientada a Eventos e Abstração de Infraestrutura*, na computação sem servidor (Serverless / FaaS), o conceito de servidor físico ou máquina virtual é totalmente abstraído para a equipe de tecnologia. O desenvolvimento organiza-se em torno de pequenas funções de código atômicas disparadas em resposta a Eventos.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Software as a Service (SaaS) oferece a maior simplicidade, já que a equipe de desenvolvimento pode utilizar...". De acordo com a teoria estudada em *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle*, saaS (*Software as a Service*): O provedor disponibiliza um software de aplicação completo e funcional acessível pela Internet (ex.: navegadores web).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Platform as a Service (PaaS) facilita o gerenciamento de servidores e redes, permitindo que a organização...". De acordo com a teoria estudada em *1.1 Definição Canônica do NIST*, *"Computação em nuvem é um modelo para habilitar acesso de rede ubíquo, conveniente e sob demanda a um conjunto compartilhado de recursos de computação configuráveis (por exemplo, redes, servidores, armazenamento, aplicativos e serviços) que podem ser rapidamente provisionados e liberados com esforço de gerenciamento mínimo ou interação do provedor de serviços."*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Infrastructure as a Service (IaaS) proporciona flexibilidade na configuração de infraestrutura, permitindo à...". De acordo com a teoria estudada em *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle*, iaaS (*Infrastructure as a Service*): O provedor entrega infraestrutura computacional bruta (máquinas virtuais, capacidade de processamento, armazenamento em bloco e interfaces de rede).
-> - **E)** **Correta.** Conforme fundamentado na seção *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle* deste guia, paaS (*Platform as a Service*): O provedor entrega uma plataforma de desenvolvimento e execução pronta (runtimes como Node.js, Python, Java, .NET, acompanhados de bancos gerenciados). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "Platform as a Service (PaaS) é a solução mais apropriada, uma vez que disponibiliza um ambiente completo de...".
->
-> **Gabarito: E**
 
 ---
 
@@ -267,42 +263,6 @@ sequenceDiagram
 
 ---
 
-### Teste 458
-**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-As características da computação na nuvem incluem a elasticidade, que consiste na capacidade de adicionar ou remover recursos para lidar com a variação de demanda.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Definição Canônica do NIST* deste guia, *"Computação em nuvem é um modelo para habilitar acesso de rede ubíquo, conveniente e sob demanda a um conjunto compartilhado de recursos de computação configuráveis (por exemplo, redes, servidores, armazenamento, aplicativos e serviços) que podem ser rapidamente provisionados e liberados com esforço de gerenciamento mínimo ou interação do provedor de serviços."*. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STJ/2015) ao afirmar que "As características da computação na nuvem incluem a elasticidade, que consiste na capacidade de adicionar ou...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.2 As Cinco Características Essenciais*, segundo a qual 5. Serviço Mensurado (*Measured Service*): Os sistemas em nuvem controlam e otimizam automaticamente o uso de recursos utilizando capacidade de medição (métricas de CPU, armazenamento, largura de banda, contas de usuário).
->
-> **Gabarito: C**
-
----
-
-### Teste 459
-**(CEBRASPE – TJ/DFT – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-A possibilidade de monitorar e controlar os recursos utilizados na computação na nuvem proporciona maior transparência tanto para o provedor quanto para o consumidor do serviço.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Definição Canônica do NIST* deste guia, *"Computação em nuvem é um modelo para habilitar acesso de rede ubíquo, conveniente e sob demanda a um conjunto compartilhado de recursos de computação configuráveis (por exemplo, redes, servidores, armazenamento, aplicativos e serviços) que podem ser rapidamente provisionados e liberados com esforço de gerenciamento mínimo ou interação do provedor de serviços."*. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TJ/DFT/2015) ao afirmar que "A possibilidade de monitorar e controlar os recursos utilizados na computação na nuvem proporciona maior...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.2 As Cinco Características Essenciais*, segundo a qual autoatendimento sob Demanda (*On-Demand Self-Service*): O consumidor pode provisionar recursos computacionais (tempo de CPU, instâncias, armazenamento) de forma unilateral e automática, sem intervenção humana de operadores do provedor. — Administrador cria uma máquina virtual via portal web ou CLI em 2 minutos.
->
-> **Gabarito: C**
-
----
-
 ## 4. Arquiteturas de Alta Disponibilidade e Escalabilidade em Nuvem
 
 ### 4.1 Topologia Física Global: Regiões, Zonas de Disponibilidade (AZs) e Pontos de Presença
@@ -328,48 +288,6 @@ A infraestrutura dos grandes provedores de nuvem (AWS, Microsoft Azure, Google C
 
 - **Arquitetura Multi-AZ:** Distribuição de servidores web e instâncias de banco de dados por pelo menos duas Zonas de Disponibilidade distintas dentro da mesma região. Em caso de desastre físico em um data center (alagamento, explosão de subestação), a outra AZ assume a carga imediatamente sem perda de dados.
 - **Recuperação de Desastres Multi-Região:** Utilizada para requisitos de continuidade de negócio críticos onde a perda de uma região geográfica inteira é tolerada através de replicação remota de dados com base nas métricas corporativas de **RTO** (*Recovery Time Objective*) e **RPO** (*Recovery Point Objective*).
-
----
-
-### Teste 460
-**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-A equipe de redes de um órgão público precisa segmentar sua rede local para hospedar seus ambientes produtivos e não produtivos, de forma que o tráfego de uma rede não impacte o outro, devido aos seus distintos comportamentos. Para assegurar a comunicação segura e estável entre ambos os ambientes, a equipe decidiu segmentar a rede por meio de VLANs. A implementação das VLANs assegura:
-
-* **A)** o roteamento entre diferentes comutadores;
-* **B)** que os hosts estejam fisicamente separados;
-* **C)** a segmentação de redes com, no mínimo, dois comutadores;
-* **D)** a restrição do tráfego do segmento a um único comutador;
-* **E)** que hosts conectados em portas com VID diferentes em um comutador estejam em domínios de broadcast diferentes.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o roteamento entre diferentes comutadores". De acordo com a teoria estudada em *4.1 Topologia Física Global: Regiões, Zonas de Disponibilidade (AZs) e Pontos de Presença*, pontos de Presença (*Edge Locations / PoPs*): Data centers distribuídos em centenas de cidades globais responsáveis por aproximar o conteúdo do usuário final por meio de redes de entrega de conteúdo (CDN), realizando cache e terminação SSL próxima ao cliente.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "que os hosts estejam fisicamente separados". De acordo com a teoria estudada em *1.1 Definição Canônica do NIST*, *"Computação em nuvem é um modelo para habilitar acesso de rede ubíquo, conveniente e sob demanda a um conjunto compartilhado de recursos de computação configuráveis (por exemplo, redes, servidores, armazenamento, aplicativos e serviços) que podem ser rapidamente provisionados e liberados com esforço de gerenciamento mínimo ou interação do provedor de serviços."*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a segmentação de redes com, no mínimo, dois comutadores". De acordo com a teoria estudada em *4.1 Topologia Física Global: Regiões, Zonas de Disponibilidade (AZs) e Pontos de Presença*, zona de Disponibilidade (*Availability Zone - AZ*): Cada região abriga múltiplas (no mínimo duas, geralmente três ou mais) Zonas de Disponibilidade.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a restrição do tráfego do segmento a um único comutador". De acordo com a teoria estudada em *1.2 As Cinco Características Essenciais*, para o consumidor, os recursos parecem ilimitados. — Durante picos de tráfego, o *Auto Scaling* adiciona 20 servidores web em minutos e desliga-os à noite quando a demanda cai.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 As Cinco Características Essenciais* deste guia, agrupamento de Recursos em Pool (*Resource Pooling*): Os recursos computacionais do provedor são agrupados para atender múltiplos clientes em um modelo multilocatário (*multi-tenant*), com diferentes recursos físicos e virtuais atribuídos e reatribuídos dinamicamente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "que hosts conectados em portas com VID diferentes em um comutador estejam em domínios de broadcast diferentes".
->
-> **Gabarito: E**
-
----
-
-### Teste 461
-**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
-Na denominada nuvem comunitária, a infraestrutura é disponibilizada ao público em geral ou a um grande grupo industrial e pertence a uma organização que vende serviços de nuvem.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.3 Os Quatro Modelos de Implantação (Pública, Privada, Comunitária, Híbrida)* deste guia, nuvem Pública (*Public Cloud*): Infraestrutura aberta ao público em geral ou a grandes grupos industriais, pertencente e operada por um provedor comercial de nuvem (AWS, Microsoft Azure, Google Cloud, Oracle Cloud). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRF/6/2025) ao afirmar que "Na denominada nuvem comunitária, a infraestrutura é disponibilizada ao público em geral ou a um grande grupo...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.3 Os Quatro Modelos de Implantação (Pública, Privada, Comunitária, Híbrida)*, segundo a qual nuvem Privada (*Private Cloud*): Infraestrutura provisionada para uso exclusivo por uma única organização com múltiplas unidades ou departamentos (ex.: data center corporativo governamental operado com OpenStack ou VMware).
->
-> **Gabarito: C**
 
 ---
 
@@ -408,78 +326,6 @@ flowchart LR
     - *CapEx (Capital Expenditure):* Despesas de capital com aquisição física pesada de hardware, licenças perpétuas, geradores e salas-cofre, depreciados contabilmente ao longo de anos.
     - *OpEx (Operational Expenditure):* Despesas operacionais recorrentes, pagas conforme o uso real (*Pay-as-you-go*), proporcionando agilidade orçamentária e redução de custos ociosos.
 - **Dimensionamento Correto (*Rightsizing*):** Prática sistemática de inspecionar a telemetria de consumo (percentual real de uso de CPU e memória RAM) e redimensionar instâncias superdimensionadas para tipos menores e mais aderentes à necessidade real, eliminando desperdício orçamentário.
-
----
-
-### Teste 462
-**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-O órgão XPTO do Poder Judiciário está implementando tecnologia em nuvem para prover serviços para outros órgãos. Os serviços ofertados consistirão em um ambiente no qual os clientes receberão máquinas virtuais, com suas áreas de armazenamento definidas (storage) e as interfaces de rede de acordo com os ambientes (produtivos ou não produtivos), nas quais poderão instalar os sistemas operacionais e suas aplicações para disponibilizarem serviços para seus clientes. De acordo com a NIST SP 800-145, o modelo de serviço de nuvem implementado pelo órgão XPTO é o:
-
-* **A)** infrastructure as a service;
-* **B)** on-demand self-service;
-* **C)** software as a service;
-* **D)** platform as a service;
-* **E)** measured service.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle* deste guia, iaaS (*Infrastructure as a Service*): O provedor entrega infraestrutura computacional bruta (máquinas virtuais, capacidade de processamento, armazenamento em bloco e interfaces de rede). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "infrastructure as a service".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "on-demand self-service". De acordo com a teoria estudada em *1.2 As Cinco Características Essenciais*, autoatendimento sob Demanda (*On-Demand Self-Service*): O consumidor pode provisionar recursos computacionais (tempo de CPU, instâncias, armazenamento) de forma unilateral e automática, sem intervenção humana de operadores do provedor. — Administrador cria uma máquina virtual via portal web ou CLI em 2 minutos.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "software as a service". De acordo com a teoria estudada em *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle*, saaS (*Software as a Service*): O provedor disponibiliza um software de aplicação completo e funcional acessível pela Internet (ex.: navegadores web).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "platform as a service". De acordo com a teoria estudada em *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle*, paaS (*Platform as a Service*): O provedor entrega uma plataforma de desenvolvimento e execução pronta (runtimes como Node.js, Python, Java, .NET, acompanhados de bancos gerenciados).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "measured service". De acordo com a teoria estudada em *1.2 As Cinco Características Essenciais*, 5. Serviço Mensurado (*Measured Service*): Os sistemas em nuvem controlam e otimizam automaticamente o uso de recursos utilizando capacidade de medição (métricas de CPU, armazenamento, largura de banda, contas de usuário).
->
-> **Gabarito: A**
-
----
-
-### Teste 463
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
-O TCE-SC decidiu migrar seu sistema de e-mail interno para o Microsoft Office 365, deixando de gerenciar servidores físicos e sistemas operacionais para esse fim. Esse modelo de computação em nuvem, no qual o usuário consome a aplicação final via web, é classificado como
-
-* **A)** IaaS (Infrastructure as a Service).
-* **B)** PaaS (Platform as a Service).
-* **C)** SaaS (Software as a Service).
-* **D)** BaaS (Backend as a Service).
-* **E)** On-premises.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IaaS (Infrastructure as a Service)". De acordo com a teoria estudada em *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle*, iaaS (*Infrastructure as a Service*): O provedor entrega infraestrutura computacional bruta (máquinas virtuais, capacidade de processamento, armazenamento em bloco e interfaces de rede).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PaaS (Platform as a Service)". De acordo com a teoria estudada em *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle*, paaS (*Platform as a Service*): O provedor entrega uma plataforma de desenvolvimento e execução pronta (runtimes como Node.js, Python, Java, .NET, acompanhados de bancos gerenciados).
-> - **C)** **Correta.** Conforme fundamentado na seção *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle* deste guia, saaS (*Software as a Service*): O provedor disponibiliza um software de aplicação completo e funcional acessível pela Internet (ex.: navegadores web). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "SaaS (Software as a Service)".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BaaS (Backend as a Service)". De acordo com a teoria estudada em *1.2 As Cinco Características Essenciais*, 5. Serviço Mensurado (*Measured Service*): Os sistemas em nuvem controlam e otimizam automaticamente o uso de recursos utilizando capacidade de medição (métricas de CPU, armazenamento, largura de banda, contas de usuário).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "On-premises". De acordo com a teoria estudada em *2.2 Matriz de Responsabilidade Compartilhada (Shared Responsibility Model)*, componente da Pilha: Ambiente Local (*On-Premises*) — IaaS — PaaS — SaaS.
->
-> **Gabarito: C**
-
----
-
-### Teste 464
-**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
-A computação em nuvem permite armazenamento, processamento e acesso flexível a dados e aplicações remotamente. Sobre os conceitos envolvidos na computação em nuvem, é correto afirmar que
-
-* **A)** em nuvens públicas, os recursos de computação são hospedados em provedores externos, enquanto em nuvens privadas estes recursos devem ser hospedados localmente.
-* **B)** modelos PaaS (Plataform as a Service) e IaaS (Infrastructure as a Service) só podem ser empregados em nuvens públicas.
-* **C)** nuvens públicas permitem maior personalização graças ao acesso compartilhado da plataforma, ao contrário de nuvens privadas.
-* **D)** modelos SaaS na nuvem privada são mais caros que na nuvem pública, porém modelos IaaS e PaaS apresentam custos semelhantes em ambos os tipos de nuvem.
-* **E)** nuvens privadas minimizam ou eliminam o multitenancy, enquanto nas nuvens públicas o multitenancy é um conceito central.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em nuvens públicas, os recursos de computação são hospedados em provedores externos, enquanto em nuvens privadas...". De acordo com a teoria estudada em *1.1 Definição Canônica do NIST*, *"Computação em nuvem é um modelo para habilitar acesso de rede ubíquo, conveniente e sob demanda a um conjunto compartilhado de recursos de computação configuráveis (por exemplo, redes, servidores, armazenamento, aplicativos e serviços) que podem ser rapidamente provisionados e liberados com esforço de gerenciamento mínimo ou interação do provedor de serviços."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "modelos PaaS (Plataform as a Service) e IaaS (Infrastructure as a Service) só podem ser empregados em nuvens...". De acordo com a teoria estudada em *2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle*, iaaS (*Infrastructure as a Service*): O provedor entrega infraestrutura computacional bruta (máquinas virtuais, capacidade de processamento, armazenamento em bloco e interfaces de rede).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nuvens públicas permitem maior personalização graças ao acesso compartilhado da plataforma, ao contrário de nuvens...". De acordo com a teoria estudada em *4.2 Escalabilidade Vertical (Scale-Up) vs. Horizontal (Scale-Out)*, limite Máximo: Possui um teto físico rígido determinado pelo maior tamanho de máquina física existente no catálogo do provedor. — Virtualmente ilimitado. Permite escalar para dezenas, centenas ou milhares de nós computacionais.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "modelos SaaS na nuvem privada são mais caros que na nuvem pública, porém modelos IaaS e PaaS apresentam custos...". De acordo com a teoria estudada em *1.3 Os Quatro Modelos de Implantação (Pública, Privada, Comunitária, Híbrida)*, nuvem Híbrida (*Hybrid Cloud*): Composição de duas ou mais infraestruturas de nuvem distintas (privada, comunitária ou pública) que permanecem entidades independentes, mas são integradas por tecnologias padronizadas que asseguram a portabilidade de dados e aplicações (ex.: manter o banco de dados sigiloso na nuvem privada interna e expandir servidores web para a nuvem pública durante picos sazonais - técnica conhecida como *cloud bursting*).
-> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Paradigma: Execução Orientada a Eventos e Abstração de Infraestrutura* deste guia, na computação sem servidor (Serverless / FaaS), o conceito de servidor físico ou máquina virtual é totalmente abstraído para a equipe de tecnologia. O desenvolvimento organiza-se em torno de pequenas funções de código atômicas disparadas em resposta a Eventos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "nuvens privadas minimizam ou eliminam o multitenancy, enquanto nas nuvens públicas o multitenancy é um conceito...".
->
-> **Gabarito: E**
 
 ---
 

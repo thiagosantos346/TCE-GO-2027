@@ -5,10 +5,7 @@
 > **Arquivo:** `03_regimento_interno_tce_go_resolucao_22_2008.md`  
 > **Ato Normativo:** Resolução nº 22, de 04 de setembro de 2008 (atualizada pelas Resoluções Normativas e Administrativas posteriores)
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Regimento Interno do Tribunal de Contas do Estado de Goiás (Resolução nº 22/2008 e alterações):
@@ -113,7 +110,32 @@ Os Conselheiros Substitutos (Auditores) ingressam na carreira do TCE-GO exclusiv
 
 ---
 
-### Teste 142
+### Teste 001
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
+Determinada Câmara do Tribunal de Contas do Estado de Goiás aplicou sanções a João, ordenador de despesas no âmbito da Administração Pública indireta do poder público estadual, isto por ter constatado ilegalidade na realização de uma despesa. Irresignado com o teor dessa decisão, João almejava obter a sua reforma com a interposição do recurso cabível. À luz do Regimento Interno do Tribunal de Contas do Estado de Goiás, é correto afirmar que
+
+* **A)** não é cabível a interposição de recurso, já que os órgãos internos do Tribunal atuam como se fossem o próprio Tribunal.
+* **B)** pode ser interposto o recurso de reconsideração, a ser julgado pelas Câmaras Reunidas, desde que preenchidos os requisitos exigidos.
+* **C)** pode ser interposto o recurso de embargos infringentes, a ser julgado pelo Plenário, desde que preenchidos os requisitos exigidos.
+* **D)** pode ser interposto o recurso ordinário, a ser julgado pela própria Câmara, desde que preenchidos os requisitos exigidos.
+* **E)** pode ser interposto o recurso de revisão, a ser julgado pelo Plenário, desde que preenchidos os requisitos exigidos.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é cabível a interposição de recurso, já que os órgãos internos do Tribunal atuam como se fossem o próprio...". De acordo com a teoria estudada em *4.1 Processo de Consulta: Legitimidade, Requisitos Rígidos e Efeito Normativo*, efeitos da Resposta do Tribunal Pleno: O julgamento da consulta é competência privativa do Plenário. A resposta proferida tem caráter normativo e constitui pré julgamento da tese, vinculando a Administração e as futuras deliberações do próprio TCE GO, embora não examine a situação fática específica do consulente.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pode ser interposto o recurso de reconsideração, a ser julgado pelas Câmaras Reunidas, desde que preenchidos os...". De acordo com a teoria estudada em *1. Organização Institucional e Colegiados Deliberativos (Arts. 1º a 35)*, pleno PMat["• Parecer Prévio do Governador<br/ • Resposta a Consultas em tese (efeito normativo)<br/ • Julgamento de Recursos (Reconsideração/Reexame/Revisão)<br/ • Súmulas e Reforma do Regimento (Quórum 2/3)<br/ • Eleição dos Dirigentes e Declaração de Inidoneidade"].
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pode ser interposto o recurso de embargos infringentes, a ser julgado pelo Plenário, desde que preenchidos os...". De acordo com a teoria estudada em *3.3 Ordem das Deliberações, Pedido de Vista e Sustentação Oral (15 Minutos)*, pedido de Vista Regimental: Qualquer Conselheiro ou Auditor votante que tenha dúvida sobre a matéria pode pedir vista dos autos. O processo deve ser devolvido impreterivelmente no prazo assinado pelo Regimento (regra geral, até a sessão ordinária subsequente), vedada a retenção indefinida do processo em gabinete.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pode ser interposto o recurso ordinário, a ser julgado pela própria Câmara, desde que preenchidos os requisitos...". De acordo com a teoria estudada em *1.2 Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias*, composição das Câmaras: Cada Câmara é composta por três (3) Conselheiros titulares. O Presidente do Tribunal de Contas não integra nenhuma das Câmaras, atuando exclusivamente na direção geral do órgão e na presidência do Plenário.
+> - **E)** **Correta.** Conforme fundamentado na seção *4.3 Processo de Representação Institucional* deste guia, pode ser formulada por Conselheiros, Auditores, membros do Ministério Público de Contas, órgãos de controle interno, servidores de equipes de auditoria ou autoridades públicas estaduais e municipais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "pode ser interposto o recurso de revisão, a ser julgado pelo Plenário, desde que preenchidos os requisitos exigidos".
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 002
 **(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
 XX foi empossado como Conselheiro do Tribunal de Contas do Estado de Goiás e foi informado que passaria a integrar a Câmara X desse Tribunal. Por ter dúvidas em relação ao tempo em que permaneceria nessa Câmara e ao processo de escolha do respectivo Presidente, XX consultou o Regimento Interno, tendo concluído corretamente que
 
@@ -128,38 +150,41 @@ XX foi empossado como Conselheiro do Tribunal de Contas do Estado de Goiás e fo
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em razão da inamovibilidade, ele permanecerá na Câmara até que faça uma permuta para outra Câmara ou ocorra...". De acordo com a teoria estudada em *1.3 Papel dos Conselheiros Substitutos (Auditores)*, substituição Plena de Conselheiro: Em caso de vacância temporária, férias, licenças regulamentares ou impedimentos formais de Conselheiro titular, o Auditor é convocado pela Presidência para atuar como Conselheiro Substituto com assento no Pleno ou na Câmara respectiva, exercendo a judicância com as mesmas garantias, prerrogativas e deveres inerentes ao cargo titular.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Presidente será escolhido entre os ocupantes do cargo de Vice-Presidente, Corregedor-Geral ou Ouvidor do Tribunal". De acordo com a teoria estudada em *1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas*, eleger o Presidente, o Vice-Presidente e o Corregedor-Geral do Tribunal para mandato bienal.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Presidente será escolhido entre os ocupantes do cargo de Vice Presidente, Corregedor Geral ou Ouvidor do Tribunal". De acordo com a teoria estudada em *1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas*, eleger o Presidente, o Vice Presidente e o Corregedor Geral do Tribunal para mandato bienal.
 > - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Presidente será escolhido livremente, pelo sufrágio dos integrantes da respectiva Câmara". De acordo com a teoria estudada em *1.2 Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias*, composição das Câmaras: Cada Câmara é composta por três (3) Conselheiros titulares. O Presidente do Tribunal de Contas não integra nenhuma das Câmaras, atuando exclusivamente na direção geral do órgão e na presidência do Plenário.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Presidente será escolhido entre os dois Diretores de área da ESCOEX". De acordo com a teoria estudada em *2.4 Ministério Público de Contas (MPC-GO): Intervenção Obrigatória e Nulidade Processual*, nulidade Absoluta: O julgamento colegiado realizado sem prévia oportunidade de manifestação formal e parecer do Ministério Público de Contas é portador de vício de nulidade insanável por afronta ao devido processo legal.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias* deste guia, presidência da Câmara e Rodízio: A presidência de cada Câmara é exercida por um de seus membros efetivos, em sistema de rodízio anual, vedada a recondução imediata na mesma Câmara se houver outro Conselheiro que ainda não tenha exercido a função. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "integrará a Câmara até que seja realizado o rodizio bienal. Controle Externo".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Presidente será escolhido entre os dois Diretores de área da ESCOEX". De acordo com a teoria estudada em *1. Organização Institucional e Colegiados Deliberativos (Arts. 1º a 35)*, tCE C1["PRIMEIRA CÂMARA<br/ • 3 Conselheiros<br/ • Presidência com rodízio anual"].
+> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias* deste guia, presidência da Câmara e Rodízio: A presidência de cada Câmara é exercida por um de seus membros efetivos, em sistema de rodízio anual, vedada a recondução imediata na mesma Câmara se houver outro Conselheiro que ainda não tenha exercido a função. O Regimento prevê a alternância periódica de Conselheiros entre as duas Câmaras. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "integrará a Câmara até que seja realizado o rodizio bienal. Controle Externo".
 >
 > **Gabarito: E**
 
 ---
 
-### Teste 143
-**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
-Ao Ministério Público junto ao TCE-PI (MPC-PI) incumbe a função constitucional de defesa da ordem jurídica, do regime democrático e dos interesses sociais e individuais indisponíveis. Sobre o MPC-PI, avalie as afirmativas a seguir. I. O dispositivo de lei orgânica estadual, que dispensa a formação de lista tríplice para nomeação de Procurador-Geral de Contas do MPC-PI, é constitucional. II. O Ministério Público junto ao Tribunal de Contas não dispõe de fisionomia institucional própria, não integrando o conceito de Ministério Público como ente despersonalizado de função essencial à Justiça. III. Ao MPC-PI compete a iniciativa legislativa para propor projetos de lei que tratem da criação e da extinção de seus cargos e serviços auxiliares, da política remuneratória de seus membros, seus planos de carreira e, especialmente, sobre sua organização e funcionamento. Está correto o que se afirma em
 
-* **A)** I, apenas.
-* **B)** I e II apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+### Teste 003
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+Segundo o Regimento Interno, é vedado ao Conselheiro do Tribunal de Contas do Estado de Goiás
+
+* **A)** serviços de copeiragem.
+* **B)** serviços de apoio administrativo. doria.
+* **C)** serviços de assistência médica. sionárias de serviço público.
+* **D)** locações imobiliárias. Tribunal lhe confiar. _________________________________________________________
+* **E)** serviços de eventos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas*, proposta de criação ou extinção de cargos e funções do quadro do Tribunal, bem como fixação de subsídios.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.4 Ministério Público de Contas (MPC-GO): Intervenção Obrigatória e Nulidade Processual* deste guia, o Ministério Público de Contas atua junto ao TCE-GO como fiscal permanente da ordem jurídica. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "I e II apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *4.1 Processo de Consulta: Legitimidade, Requisitos Rígidos e Efeito Normativo*, rol Taxativo de Autoridades Legitimadas: Governador do Estado; Presidente da Assembleia Legislativa; Presidente do Tribunal de Justiça; Procurador-Geral de Justiça (MPE); Defensor Público-Geral.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.1 Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição*, presidência do TCE-GO: É o órgão de representação política, institucional e legal da Corte perante os demais Poderes.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4.3 Processo de Representação Institucional*, pode ser formulada por Conselheiros, Auditores, membros do Ministério Público de Contas, órgãos de controle interno, servidores de equipes de auditoria ou autoridades públicas estaduais e municipais.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "serviços de copeiragem". De acordo com a teoria estudada em *2.1 Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição*, presidência do TCE GO: É o órgão de representação política, institucional e legal da Corte perante os demais Poderes. Compete lhe dirigir a administração, superintender os serviços e quadro técnico, praticar atos de gestão orçamentária, presidir o Plenário e proferir voto ordinário em matérias administrativas ou de quórum qualificado, bem como o voto de desempate (voto de qualidade) nos julgamentos de processos de controle externo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "serviços de apoio administrativo. doria". De acordo com a teoria estudada em *5. Fontes Oficiais e Referências Bibliográficas*, zYMLER, Benjamin. Direito Administrativo e Controle. 3. ed. Belo Horizonte: Fórum, 2018. (Cap. 5 O Processo nos Tribunais de Contas).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "serviços de assistência médica. sionárias de serviço público". De acordo com a teoria estudada em *2.1 Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição*, vice Presidência: Substitui o Presidente em suas ausências, faltas, férias ou impedimentos, auxiliando na supervisão dos serviços e exercendo atribuições delegadas por ato formal da Presidência.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas* deste guia, o Tribunal Pleno é o órgão supremo de deliberação do Tribunal de Contas do Estado de Goiás, integrado pela totalidade dos sete (7) Conselheiros titulares (ou Conselheiros Substitutos regularmente convocados), contando sempre com a presença obrigatória do Procurador Geral de Contas ou de Procurador de Contas designado. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "locações imobiliárias. Tribunal lhe confiar".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "serviços de eventos". De acordo com a teoria estudada em *2.3 Ouvidoria e Fomento ao Controle Social*, receber sugestões, reclamações, elogios e manifestações sobre os serviços prestados pelo Tribunal.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
+
+
 
 ## 2. Órgãos de Direção Superior e Órgãos Vinculados (Arts. 36 a 70)
 
@@ -191,53 +216,31 @@ O Ministério Público de Contas atua junto ao TCE-GO como fiscal permanente da 
 
 ---
 
-### Teste 144
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-No TCE-SC, a Diretoria-Geral de Controle Externo (DGCE) é o órgão competente para realização de atividades fiscalizatórias, sendo composto, dentre outros, por Auditores Fiscais de Controle Externo, carreira essencial e exclusiva de Estado, competindo-lhe privativamente as atribuições relacionadas ao exercício das competências constitucionais e legais do Tribunal de Contas. Nesse contexto, é correto afirmar que, nos termos da Resolução TC-149-2019, uma competência da DGCE é
+### Teste 004
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
+Pedro, servidor do Tribunal de Contas do Estado de Goiás, foi incumbido, por seu superior hierárquico, de encaminhar determinado expediente ao agente ou órgão competente para aprovar, anualmente, a programação financeira de desembolso do Tribunal. À luz do Regimento Interno do Tribunal de Contas do Estado de Goiás, Pedro concluiu corretamente que o processo deveria ser encaminhado
 
-* **A)** promover pesquisas, seminários, debates, palestras e similares e concursos, com intuito de criar, incentivar e disseminar novas técnicas de gestão e controle da coisa pública.
-* **B)** propor e estimular a realização de pesquisas, seminários e outros eventos sobre assuntos relativos ao exercício da cidadania e sua importância em participar da fiscalização e avaliação das ações da Administração Pública.
-* **C)** propor a elaboração do Plano de Ação do Controle Externo, considerando os objetivos estratégicos do Tribunal de Contas e fatores como risco, relevância e oportunidade, bem como supervisionar a sua execução.
-* **D)** propor e definir critérios junto às unidades do Tribunal de Contas no encaminhamento, exame da demanda e comunicação do resultado da averiguação e das providências requeridas, para garantir ao cidadão o retorno de orientação, informação ou resposta.
-* **E)** receber e registrar comunicações contendo informações relevantes sobre atos administrativos e de gestão praticados por órgãos e entidades da Administração Pública, aptos a subsidiar os procedimentos de controle externo, sem prejuízo da autuação, quando for o caso, de processo de denúncia ou representação junto ao Tribunal de Contas.
+* **A)** ao Plenário.
+* **B)** à Comissão de Finanças.
+* **C)** ao Presidente do Tribunal.
+* **D)** à Auditoria de Controle Interno.
+* **E)** ao Vice-Presidente do Tribunal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "promover pesquisas, seminários, debates, palestras e similares e concursos, com intuito de criar, incentivar e...". De acordo com a teoria estudada em *2.1 Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição*, compete-lhe dirigir a administração, superintender os serviços e quadro técnico, praticar atos de gestão orçamentária, presidir o Plenário e proferir voto ordinário em matérias administrativas ou de quórum qualificado, bem como o voto de desempate (voto de qualidade) nos julgamentos de processos de controle externo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "propor e estimular a realização de pesquisas, seminários e outros eventos sobre assuntos relativos ao exercício da...". De acordo com a teoria estudada em *1.2 Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias*, deliberar sobre processos de auditorias e inspeções ordinárias do Plano Anual de Fiscalização.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.4 Ministério Público de Contas (MPC-GO): Intervenção Obrigatória e Nulidade Processual* deste guia, nulidade Absoluta: O julgamento colegiado realizado sem prévia oportunidade de manifestação formal e parecer do Ministério Público de Contas é portador de vício de nulidade insanável por afronta ao devido processo legal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "propor a elaboração do Plano de Ação do Controle Externo, considerando os objetivos estratégicos do Tribunal de...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "propor e definir critérios junto às unidades do Tribunal de Contas no encaminhamento, exame da demanda e...". De acordo com a teoria estudada em *2.4 Ministério Público de Contas (MPC-GO): Intervenção Obrigatória e Nulidade Processual*, o Ministério Público de Contas atua junto ao TCE-GO como fiscal permanente da ordem jurídica.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "receber e registrar comunicações contendo informações relevantes sobre atos administrativos e de gestão praticados...". De acordo com a teoria estudada em *4.3 Processo de Representação Institucional*, pode ser formulada por Conselheiros, Auditores, membros do Ministério Público de Contas, órgãos de controle interno, servidores de equipes de auditoria ou autoridades públicas estaduais e municipais.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao Plenário". De acordo com a teoria estudada em *1.2 Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias*, composição das Câmaras: Cada Câmara é composta por três (3) Conselheiros titulares. O Presidente do Tribunal de Contas não integra nenhuma das Câmaras, atuando exclusivamente na direção geral do órgão e na presidência do Plenário.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "à Comissão de Finanças". De acordo com a teoria estudada em *1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas*, aplicar as sanções de declaração de inidoneidade para licitar (Art. 44 da LOTCE) e inabilitação para cargo em comissão (Art. 43 da LOTCE).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição* deste guia, a direção superior do TCE GO é composta pelo Presidente, pelo Vice Presidente e pelo Corregedor Geral, eleitos pelo Tribunal Pleno mediante votação secreta na última sessão ordinária do mês de dezembro do ano de término do mandato. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "ao Presidente do Tribunal".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "à Auditoria de Controle Interno". De acordo com a teoria estudada em *4.3 Processo de Representação Institucional*, pode ser formulada por Conselheiros, Auditores, membros do Ministério Público de Contas, órgãos de controle interno, servidores de equipes de auditoria ou autoridades públicas estaduais e municipais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao Vice Presidente do Tribunal". De acordo com a teoria estudada em *2.1 Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição*, vice Presidência: Substitui o Presidente em suas ausências, faltas, férias ou impedimentos, auxiliando na supervisão dos serviços e exercendo atribuições delegadas por ato formal da Presidência.
 >
 > **Gabarito: C**
 
 ---
 
-### Teste 145
-**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
-No tocante a eleição para os cargos de direção do Tribunal Regional do Trabalho da 15a Região, considere: I. A eleição far-se-á mediante escrutínio secreto, em sessão ordinária do Tribunal Pleno, a ser realizada na primeira quinta- feira do mês de outubro dos anos pares. II. Poderão concorrer a cada cargo os cinco Desembargadores mais antigos e elegíveis. III. As eleições obedecerão à seguinte ordem quando realizadas na mesma data: Corregedor Regional e Vice-Corregedor Regional; Presidente; Vice-Presidente Judicial; Vice-Presidente Administrativo. IV. Na hipótese da vacância do cargo de Presidente do Tribunal, a eleição para o preenchimento da vaga correspondente far- se-á em sessão plenária a ser realizada no prazo de sessenta dias, com posse imediata, concluindo o eleito o tempo de mandato do antecessor. De acordo com o Regimento Interno do Tribunal Regional do Trabalho da 15a Região, está correto o que consta APENAS em
 
-* **A)** III e IV.
-* **B)** I, II e III.
-* **C)** II, III e IV.
-* **D)** I, II e IV.
-* **E)** I e II.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição* deste guia, a direção superior do TCE-GO é composta pelo Presidente, pelo Vice-Presidente e pelo Corregedor-Geral, eleitos pelo Tribunal Pleno mediante votação secreta na última sessão ordinária do mês de dezembro do ano de término do mandato. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "III e IV".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *3.3 Ordem das Deliberações, Pedido de Vista e Sustentação Oral (15 Minutos)*, o processo deve ser devolvido impreterivelmente no prazo assinado pelo Regimento (regra geral, até a sessão ordinária subsequente), vedada a retenção indefinida do processo em gabinete.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II, III e IV". De acordo com a teoria estudada em *2.1 Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição*, duração do Mandato: Mandato fixo de dois (2) anos, iniciando-se a posse formal no primeiro dia útil do mês de janeiro subsequente à eleição.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e IV". De acordo com a teoria estudada em *1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas*, eleger o Presidente, o Vice-Presidente e o Corregedor-Geral do Tribunal para mandato bienal.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *3.3 Ordem das Deliberações, Pedido de Vista e Sustentação Oral (15 Minutos)*, o tempo de manifestação é fixado no prazo improrrogável de 15 (quinze) minutos por processo. Não é cabível sustentação oral em matérias de mero expediente, fixação de diligências preliminares ou julgamento de embargos de declaração.
->
-> **Gabarito: A**
-
----
 
 ## 3. Dinâmica Processual, Instrução e Sessões de Julgamento (Arts. 71 a 120)
 
@@ -271,78 +274,6 @@ As deliberações do Pleno e das Câmaras ocorrem em:
     - O tempo de manifestação é fixado no prazo **improrrogável de 15 (quinze) minutos** por processo. Não é cabível sustentação oral em matérias de mero expediente, fixação de diligências preliminares ou julgamento de embargos de declaração.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Questões da FCC frequentemente trazem o prazo de sustentação oral como "10 minutos" ou "20 minutos com prorrogação". O prazo do RITCE-GO é de **15 minutos, improrrogável**. Memorize este número exato!
-
----
-
-### Teste 146
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
-No âmbito do TCE-SC, o Conselheiro Relator Adércio votou pela extinção do processo de prestação de contas, em sede preliminar, por perda superveniente do objeto e ausência de interesse de agir. A Câmara, acompanhando o voto divergente do Conselheiro Romário, afastou a preliminar e determinou o prosseguimento do feito. O gestor fiscalizado impetrou mandado de segurança sustentando que, vencido na questão preliminar, o Conselheiro Adércio deveria ser substituído na relatoria pelo Conselheiro Romário, cujo voto conduziu o afastamento da questão preliminar. Partindo da premissa que o Regimento Interno do TCE-SC é omisso sobre a matéria, à luz da legislação processual civil e da jurisprudência do Superior Tribunal de Justiça, a ordem postulada no mandado de segurança deve ser
-
-* **A)** concedida, pois a derrota do relator em votação colegiada, ainda que em questão preliminar, impõe sua substituição pelo Conselheiro condutor do voto vencedor, diante da ausência de previsão regimental em sentido diverso.
-* **B)** concedida, pois o Código de Processo Civil, aplicado subsidiariamente, determina que o relator vencido em decisão colegiada seja substituído pelo membro que proferiu o primeiro voto vencedor, inclusive em matéria preliminar.
-* **C)** denegada, pois a omissão regimental deve ser suprida por analogia ao Regimento Interno do Tribunal de Contas da União, que prevê a redistribuição do feito ao prolator do voto vencedor em qualquer matéria, incluídas as preliminares.
-* **D)** concedida ou denegada a depender da deliberação sobre a redistribuição da relatoria pela Câmara respectiva, pois a divergência instaurada quanto à questão preliminar exigida, antes do exame do mérito, deliberação formal do colegiado sobre a manutenção ou não da relatoria.
-* **E)** denegada, pois o Conselheiro Adércio deve permanecer como relator para o julgamento do mérito, já que a derrota em decisão interlocutória (preliminar) não enseja a substituição de relator quando ausente previsão regimental ou legal específica.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "concedida, pois a derrota do relator em votação colegiada, ainda que em questão preliminar, impõe sua substituição...". De acordo com a teoria estudada em *3.3 Ordem das Deliberações, Pedido de Vista e Sustentação Oral (15 Minutos)*, pedido de Vista Regimental: Qualquer Conselheiro ou Auditor votante que tenha dúvida sobre a matéria pode pedir vista dos autos.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "concedida, pois o Código de Processo Civil, aplicado subsidiariamente, determina que o relator vencido em decisão...". De acordo com a teoria estudada em *3.1 Distribuição Eletrônica, Prevenção, Impedimentos e Suspeições*, impedimentos e Suspeições: Aplicam-se aos membros do TCE-GO e aos Procuradores do MPC-GO as hipóteses legais de impedimento e suspeição previstas na legislação processual civil (Código de Processo Civil - CPC/2015), tais como parentesco até o terceiro grau com interessados, interesse econômico ou inimizade capital.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Ordem das Deliberações, Pedido de Vista e Sustentação Oral (15 Minutos)* deste guia, o processo deve ser devolvido impreterivelmente no prazo assinado pelo Regimento (regra geral, até a sessão ordinária subsequente), vedada a retenção indefinida do processo em gabinete. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "denegada, pois a omissão regimental deve ser suprida por analogia ao Regimento Interno do Tribunal de Contas da...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "concedida ou denegada a depender da deliberação sobre a redistribuição da relatoria pela Câmara respectiva, pois a...". De acordo com a teoria estudada em *1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas*, quórum Geral de Deliberação: As decisões do Plenário são adotadas por maioria simples dos votos dos membros presentes, cabendo ao Presidente o voto de qualidade (desempate), ressalvados os casos em que a legislação ou o Regimento exigir quórum qualificado.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "denegada, pois o Conselheiro Adércio deve permanecer como relator para o julgamento do mérito, já que a derrota em...". De acordo com a teoria estudada em *4.3 Processo de Representação Institucional*, pode ser formulada por Conselheiros, Auditores, membros do Ministério Público de Contas, órgãos de controle interno, servidores de equipes de auditoria ou autoridades públicas estaduais e municipais.
->
-> **Gabarito: C**
-
----
-
-### Teste 147
-**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
-Em um recurso de apelação julgado por Câmara de Direito Privado do Tribunal de Justiça do Estado de Mato Grosso foram prolatados dois votos favoráveis ao apelante e um voto favorável ao apelado. À luz desse quadro, o Presidente da Câmara informou que procederia em harmonia com o disposto no Regimento Interno do Tribunal de Justiça. Nesse caso, é correto afirmar que
-
-* **A)** o processo deve ser redistribuído à Seção de Direito Privado para a continuidade do julgamento.
-* **B)** os julgadores que já votaram não poderão rever seus votos no momento da complementação do julgamento.
-* **C)** deve ser solicitado ao Presidente do Tribunal de Justiça que designe outros dois Desembargadores para a continuidade do julgamento.
-* **D)** o próprio Presidente da Câmara deve realizar a convocação de outros julgadores junto à Câmara de Direito Privado previamente indicada.
-* **E)** o julgamento deve ser suspenso, para que os julgadores que já proferiram seus votos possam avaliar a possibilidade de alterá- los, e, em caso negativo, convocar outros julgadores.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o processo deve ser redistribuído à Seção de Direito Privado para a continuidade do julgamento". De acordo com a teoria estudada em *3.3 Ordem das Deliberações, Pedido de Vista e Sustentação Oral (15 Minutos)*, o processo deve ser devolvido impreterivelmente no prazo assinado pelo Regimento (regra geral, até a sessão ordinária subsequente), vedada a retenção indefinida do processo em gabinete.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os julgadores que já votaram não poderão rever seus votos no momento da complementação do julgamento". De acordo com a teoria estudada em *1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas*, quórum Geral de Deliberação: As decisões do Plenário são adotadas por maioria simples dos votos dos membros presentes, cabendo ao Presidente o voto de qualidade (desempate), ressalvados os casos em que a legislação ou o Regimento exigir quórum qualificado.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve ser solicitado ao Presidente do Tribunal de Justiça que designe outros dois Desembargadores para a...". De acordo com a teoria estudada em *4.1 Processo de Consulta: Legitimidade, Requisitos Rígidos e Efeito Normativo*, rol Taxativo de Autoridades Legitimadas: Governador do Estado; Presidente da Assembleia Legislativa; Presidente do Tribunal de Justiça; Procurador-Geral de Justiça (MPE); Defensor Público-Geral.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias* deste guia, composição das Câmaras: Cada Câmara é composta por três (3) Conselheiros titulares. O Presidente do Tribunal de Contas não integra nenhuma das Câmaras, atuando exclusivamente na direção geral do órgão e na presidência do Plenário. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "o próprio Presidente da Câmara deve realizar a convocação de outros julgadores junto à Câmara de Direito Privado...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o julgamento deve ser suspenso, para que os julgadores que já proferiram seus votos possam avaliar a possibilidade...". De acordo com a teoria estudada em *1.3 Papel dos Conselheiros Substitutos (Auditores)*, substituição Plena de Conselheiro: Em caso de vacância temporária, férias, licenças regulamentares ou impedimentos formais de Conselheiro titular, o Auditor é convocado pela Presidência para atuar como Conselheiro Substituto com assento no Pleno ou na Câmara respectiva, exercendo a judicância com as mesmas garantias, prerrogativas e deveres inerentes ao cargo titular.
->
-> **Gabarito: D**
-
----
-
-### Teste 148
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
-Durante o julgamento de um processo de tomada de contas em Sessão Ordinária do Plenário do TCE-PA, um dos Conselheiros requereu vistas dos autos para apreciar de forma mais aprofundada o seu conteúdo e formar sua convicção, tendo o seu pedido deferido na forma do Regimento Interno do Tribunal. Nessa hipótese, avalie se o Conselheiro que estiver em posse dos autos para vista poderá: I. determinar a realização de diligências externas. II. requerer a juntada de documentos, independentemente de aprovação do Tribunal Pleno. III. observar o prazo de adiamento do julgamento por, no máximo, duas sessões ordinárias, salvo prorrogação desse prazo por decisão do Tribunal Pleno. IV. na sessão em que o processo retornar à pauta, reabrir a discussão do voto-vista, não sendo possível a concessão de novos pedidos de vista aos demais Conselheiros. Está correto o que se afirma em
-
-* **A)** I e III, apenas.
-* **B)** II, apenas.
-* **C)** I, III e IV, apenas.
-* **D)** III, apenas.
-* **E)** I, apenas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.2 Sessões Ordinárias, Extraordinárias e Plenário Virtual*, plenário Virtual: Julgamento eletrônico assíncrono de processos padronizados ou de menor complexidade jurídica (como registro ordinário de pensões e aposentadorias que contam com parecer convergente da área técnica e do MPC), resguardado às partes o direito de requerer destaque para julgamento em sessão presencial.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *3.3 Ordem das Deliberações, Pedido de Vista e Sustentação Oral (15 Minutos)*, o tempo de manifestação é fixado no prazo improrrogável de 15 (quinze) minutos por processo. Não é cabível sustentação oral em matérias de mero expediente, fixação de diligências preliminares ou julgamento de embargos de declaração.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, III e IV, apenas". De acordo com a teoria estudada em *3.2 Sessões Ordinárias, Extraordinárias e Plenário Virtual*, sessões Extraordinárias: Convocadas pelo Presidente em virtude de relevância, urgência pública ou acúmulo de pauta, com notificação prévia aos Conselheiros.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.3 Ordem das Deliberações, Pedido de Vista e Sustentação Oral (15 Minutos)* deste guia, o processo deve ser devolvido impreterivelmente no prazo assinado pelo Regimento (regra geral, até a sessão ordinária subsequente), vedada a retenção indefinida do processo em gabinete. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "III, apenas".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas*, aprovação e alteração do Regimento Interno do TCE-GO.
->
-> **Gabarito: D**
 
 ---
 
@@ -394,78 +325,6 @@ Os atos de admissão de concursados e as concessões iniciais de aposentadorias,
 
 - A deliberação compete privativamente às **Câmaras Deliberativas** (1ª e 2ª Câmaras);
 - Sendo verificado vício de legalidade insanável, o Tribunal nega o registro do ato e assina prazo de **30 (trinta) dias** para que o órgão de origem cesse o pagamento e recolha aos cofres públicos as quantias indevidamente pagas de má-fé.
-
----
-
-### Teste 149
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
-Com relação às denúncias anônimas, à luz do disposto na Resolução nº 302/2026, do TCE-SC, que institui a Política de Gestão e Controle da Disciplina no âmbito do Tribunal de Contas do Estado de Santa Catarina (TCE/SC), assinale a afirmativa correta.
-
-* **A)** A averiguação ou investigação preliminar sumária decorrente de denúncia anônima destina-se à verificação dos dados do denunciante.
-* **B)** As denúncias anônimas que versem sobre fatos notoriamente inverídicos devem necessariamente ensejar a averiguação ou investigação preliminar sumária.
-* **C)** A denúncia anônima é expressamente vedada, de modo que, em nenhuma hipótese, poderá fundamentar averiguação ou investigação preliminar sumária.
-* **D)** A sindicância acusatória, o procedimento sumário ou o processo administrativo disciplinar podem ser instaurados com base exclusivamente em denúncia anônima.
-* **E)** As denúncias anônimas que forem manifestamente genéricas, vagas ou incoerentes serão arquivadas, de plano, mediante decisão fundamentada do Corregedor Geral. Informática e Análise de Dados
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A averiguação ou investigação preliminar sumária decorrente de denúncia anônima destina-se à verificação dos dados...". De acordo com a teoria estudada em *4.2 Processo de Denúncia: Legitimidade Ampla, Vedação ao Anonimato e Sigilo*, sigilo Protetivo da Identidade do Denunciante: Recebida e admitida a denúncia formal, a Secretaria do Tribunal autuará o processo atribuindo-lhe caráter de sigilo temporário quanto à qualificação do denunciante, resguardando sua integridade funcional e prevenindo perseguições políticas até a decisão definitiva do feito.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As denúncias anônimas que versem sobre fatos notoriamente inverídicos devem necessariamente ensejar a averiguação...". De acordo com a teoria estudada em *4.2 Processo de Denúncia: Legitimidade Ampla, Vedação ao Anonimato e Sigilo*, legitimidade Ativa Ampla: Qualquer cidadão brasileiro no gozo de seus direitos políticos, partido político registrado no TSE, associação legalmente constituída ou sindicato tem legitimidade para representar e denunciar ilegalidades ou irregularidades de gestão perante o TCE-GO.
-> - **C)** **Correta.** Conforme fundamentado na seção *4.2 Processo de Denúncia: Legitimidade Ampla, Vedação ao Anonimato e Sigilo* deste guia, vedação Peremptória ao Anonimato: Em homenagem ao princípio republicano e ao texto expresso da CF/88 (Art. 5º, IV), o TCE-GO não admite denúncias anônimas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "A denúncia anônima é expressamente vedada, de modo que, em nenhuma hipótese, poderá fundamentar averiguação ou...".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A sindicância acusatória, o procedimento sumário ou o processo administrativo disciplinar podem ser instaurados...". De acordo com a teoria estudada em *1.2 Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias*, composição das Câmaras: Cada Câmara é composta por três (3) Conselheiros titulares. O Presidente do Tribunal de Contas não integra nenhuma das Câmaras, atuando exclusivamente na direção geral do órgão e na presidência do Plenário.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As denúncias anônimas que forem manifestamente genéricas, vagas ou incoerentes serão arquivadas, de plano...". De acordo com a teoria estudada em *2.1 Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição*, a direção superior do TCE-GO é composta pelo Presidente, pelo Vice-Presidente e pelo Corregedor-Geral, eleitos pelo Tribunal Pleno mediante votação secreta na última sessão ordinária do mês de dezembro do ano de término do mandato.
->
-> **Gabarito: C**
-
----
-
-### Teste 150
-**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
-João é contador de uma sociedade empresária que comercializa roupas masculinas em um shopping localizado no Município Beta, no Estado do Piauí. Em razão de um pequeno acidente, João precisou ser atendido na emergência de um Hospital da rede pública do Município Beta. No entanto, após aguardar por atendimento por mais de 3 horas, foi informado pela equipe do Hospital de que não havia médicos disponíveis para atendê-lo, pelo que deveria retornar na manhã do dia seguinte. Revoltado, João quebrou um aparelho de diagnóstico e os computadores do laboratório do hospital, causando um prejuízo de R$ 150 mil. Considerando os fatos narrados e a jurisdição e competências constitucionais e regimentais do Tribunal de Contas do Estado do Piauí, é correto afirmar que João
-
-* **A)** não pode ser julgado pelo TCE-PI.
-* **B)** fica sujeito apenas à aplicação de multa pelo TCE-PI.
-* **C)** pode ser sujeito de tomada de contas especial, a ser submetida a julgamento do TCE-PI.
-* **D)** fica sujeito à responsabilização administrativa, que somente poderá ser apurada pelo Poder Judiciário.
-* **E)** não pode ser obrigado a ressarcir os prejuízos causados, tendo em vista que a falha na prestação dos serviços justifica sua conduta.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não pode ser julgado pelo TCE-PI". De acordo com a teoria estudada em *2.4 Ministério Público de Contas (MPC-GO): Intervenção Obrigatória e Nulidade Processual*, obrigatoriedade de Parecer Prévio: Tem vista e intervenção obrigatória em todos os processos de controle externo sujeitos a julgamento pelo Pleno ou pelas Câmaras.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "fica sujeito apenas à aplicação de multa pelo TCE-PI". De acordo com a teoria estudada em *4.1 Processo de Consulta: Legitimidade, Requisitos Rígidos e Efeito Normativo*, a Consulta é o mecanismo pelo qual as autoridades dirigentes do Estado submetem dúvidas jurídicas ao Tribunal de Contas sobre a correta aplicação de normas orçamentárias e financeiras.
-> - **C)** **Correta.** Conforme fundamentado na seção *4.3 Processo de Representação Institucional* deste guia, pode ser formulada por Conselheiros, Auditores, membros do Ministério Público de Contas, órgãos de controle interno, servidores de equipes de auditoria ou autoridades públicas estaduais e municipais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "pode ser sujeito de tomada de contas especial, a ser submetida a julgamento do TCE-PI".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "fica sujeito à responsabilização administrativa, que somente poderá ser apurada pelo Poder Judiciário". De acordo com a teoria estudada em *1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas*, apreciar e emitir o Parecer Prévio sobre as contas prestadas anualmente pelo Chefe do Poder Executivo (Governador do Estado).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não pode ser obrigado a ressarcir os prejuízos causados, tendo em vista que a falha na prestação dos serviços...". De acordo com a teoria estudada em *2.2 Corregedoria-Geral e Fiscalização Correicional*, fiscalização de Prazos e Conduta: Fiscaliza o cumprimento rigoroso dos prazos regimentais de instrução, relatoria e julgamento de processos, além de apurar desvios disciplinares funcionais de servidores da Corte, instaurando sindicâncias e comissões de PAD.
->
-> **Gabarito: C**
-
----
-
-### Teste 151
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
-Ana, estagiária no âmbito do Tribunal de Contas do Estado do Pará, teve acesso a um expediente recém-protocolizado, cujo objeto era uma consulta formulada pelo diretor-presidente de uma autarquia estadual. O supervisor de estágio solicitou que Ana realizasse uma análise inicial, o que a levou a concluir que: I. o consulente carece de legitimidade; II. cabe ao relator sorteado decidir sobre a admissibilidade do seu processamento; III. caso seja admitida para análise, o processo relativo à consulta tramitará em regime de urgência, se, por sua natureza, exija imediata solução. Ao analisar as afirmações de Ana, o supervisor lhe explicou, corretamente, que, à luz do Regimento Interno:
-
-* **A)** todas estão certas.
-* **B)** apenas a afirmação II está certa.
-* **C)** apenas a afirmação III está certa.
-* **D)** apenas as afirmações I e II estão certas.
-* **E)** apenas as afirmações I e III estão certas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todas estão certas". De acordo com a teoria estudada em *4.1 Processo de Consulta: Legitimidade, Requisitos Rígidos e Efeito Normativo*, requisitos de Admissibilidade Indeclináveis (Sob pena de arquivamento sumário).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas a afirmação II está certa". De acordo com a teoria estudada em *4.1 Processo de Consulta: Legitimidade, Requisitos Rígidos e Efeito Normativo*, instrução obrigatória com parecer jurídico: A petição deve ser obrigatoriamente instruída com manifestação formal e fundamentada da assessoria jurídica da autoridade consulente (ex.: Procuradoria-Geral do Estado - PGE-GO ou consultoria jurídica da pasta).
-> - **C)** **Correta.** Conforme fundamentado na seção *4.3 Processo de Representação Institucional* deste guia, pode ser formulada por Conselheiros, Auditores, membros do Ministério Público de Contas, órgãos de controle interno, servidores de equipes de auditoria ou autoridades públicas estaduais e municipais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "apenas a afirmação III está certa".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas as afirmações I e II estão certas". De acordo com a teoria estudada em *4.1 Processo de Consulta: Legitimidade, Requisitos Rígidos e Efeito Normativo*, a resposta proferida tem caráter normativo e constitui pré-julgamento da tese, vinculando a Administração e as futuras deliberações do próprio TCE-GO, embora não examine a situação fática específica do consulente.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas as afirmações I e III estão certas". De acordo com a teoria estudada em *4.1 Processo de Consulta: Legitimidade, Requisitos Rígidos e Efeito Normativo*, vedação absoluta de caso concreto: A consulta jamais pode versar sobre situação fática determinada, contrato específico em execução, edital em andamento ou processo administrativo instaurado.
->
-> **Gabarito: C**
 
 ---
 

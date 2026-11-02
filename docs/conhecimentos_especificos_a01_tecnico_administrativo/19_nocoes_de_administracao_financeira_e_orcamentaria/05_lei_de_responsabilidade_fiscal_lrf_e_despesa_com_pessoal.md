@@ -4,10 +4,7 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `05_lei_de_responsabilidade_fiscal_lrf_e_despesa_com_pessoal.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 
@@ -81,29 +78,81 @@ flowchart TD
 
 ---
 
-### Teste 250
-**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
-De acordo com a Lei de Responsabilidade Fiscal (Lei Complementar nº 101/2000), o incentivo à participação popular e à realização de audiências públicas, durante os processos de elaboração e discussão dos planos, lei de diretrizes orçamentárias e orçamentos e a liberação ao pleno conhecimento e acompanhamento da sociedade, em tempo real, de informações pormenorizadas sobre a execução orçamentária e financeira, em meios eletrônicos de acesso público são mecanismos que asseguram a(o)
+### Teste 001
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
+Além de obedecer às demais normas de contabilidade pública, a escrituração das contas públicas observará algumas normas definidas pela Lei Complementar nº 101/2000. Deste modo, (i) a despesa e a assunção de compromisso e (ii) o resultado dos fluxos financeiros, apurado em caráter complementar, serão registrados, respectivamente, pelos regimes
 
-* **A)** satisfação da população.
-* **B)** transparência da gestão fiscal.
-* **C)** apoio às entidades públicas.
-* **D)** controle do processo decisório.
-* **E)** confiança no Poder Executivo da União.
+* **A)** de caixa e de caixa.
+* **B)** de competência e de caixa.
+* **C)** de caixa e de competência
+* **D)** à critério da entidade e de competência.
+* **E)** de competência e à critério da entidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "satisfação da população". De acordo com a teoria estudada em *2.2 Mecanismos Permanentes de Compensação Fiscal*, declaração do Ordenador de Despesas: Demonstração expressa de que o aumento tem adequação orçamentária e financeira com a LOA e compatibilidade com o PPA e a LDO.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)* deste guia, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal - LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "transparência da gestão fiscal".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apoio às entidades públicas". De acordo com a teoria estudada em *2.2 Mecanismos Permanentes de Compensação Fiscal*, redução permanente de despesas públicas preexistentes.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "controle do processo decisório". De acordo com a teoria estudada em *2.2 Mecanismos Permanentes de Compensação Fiscal*, compensação Financeira Permanente: O ato deve ser acompanhado de medida de compensação financeira contínua, efetivada por meio do.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "confiança no Poder Executivo da União". De acordo com a teoria estudada em *3.2 Repartição dos Limites Globais e a Cota do TCE-GO*, ente Federado: Limite Global Máximo — Poder Executivo — Poder Judiciário — Ministério Público — Poder Legislativo e Tribunais de Contas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de caixa e de caixa". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Normativas Recomendadas*, lei Estadual nº 16.168/2007 (Fiscalização da LRF pelo TCE GO) Competência do Tribunal de Contas para fiscalizar o cumprimento das metas fiscais e limites de gastos de pessoal nos órgãos estaduais.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)* deste guia, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "de competência e de caixa".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de caixa e de competência". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Normativas Recomendadas*, lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal) Texto integral da LRF detalhando limites globais e setoriais com despesa total com pessoal (DTP), limites prudenciais e de alerta.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "à critério da entidade e de competência". De acordo com a teoria estudada em *4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)*, fimMandato Art42["Artigo 42 da LRF (Últimos 2 Quadrimestres 8 Meses)<br/ • É VEDADO contrair despesa sem disponibilidade de caixa suficiente<br/ • O saldo deve cobrir parcelas a pagar no exercício subsequente<br/ • Infração gera crime contra finanças públicas (Art. 359 C do CP)"].
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de competência e à critério da entidade". De acordo com a teoria estudada em *4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)*, artigo 42 da LRF (Últimos 8 Meses do Mandato): É vedado ao titular de Poder ou órgão, nos últimos dois quadrimestres do seu mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito. O descumprimento sujeita o governante ao crime do art. 359 C do Código Penal (pena de reclusão de 1 a 4 anos).
 >
 > **Gabarito: B**
 
 ---
+
+
+### Teste 002
+**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
+De acordo com a Lei Complementar nº 101/2000, acompanharão o Relatório Resumido da Execução Orçamentária, demonstrativos relativos a resultados
+
+* **A)** fixos e variáveis.
+* **B)** correntes e de capital.
+* **C)** contábeis e econômicos.
+* **D)** nominais e primários.
+* **E)** financeiros e patrimoniais.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fixos e variáveis". De acordo com a teoria estudada em *3.1 Conceito, Apuração Quadrimestral e Base da RCL*, definição Ampla (Art. 18): Entende se por despesa total com pessoal o somatório dos gastos do ente com os ativos, inativos e pensionistas, relativos a mandatos eletivos, cargos, funções ou empregos, subsídios e vencimentos, vantagens fixas e variáveis, proventos de aposentadoria e pensões, adicionais, gratificações, horas extras, bem como encargos sociais e contribuições recolhidas pelo ente às entidades de previdência, além dos valores decorrentes de contratos de terceirização de mão de obra que substituam servidores de cargos vagos (art. 18, § 1º).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correntes e de capital". De acordo com a teoria estudada em *4.1 A Regra de Ouro Orçamentária (Art. 167, III da CF/88)*, objetivo Econômico: Impedir que o governante contraia empréstimos públicos ou emita títulos soberanos para pagar despesas correntes de manutenção (salários e diárias), endividando as gerações futuras sem criar capital ou infraestrutura física durável.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contábeis e econômicos". De acordo com a teoria estudada em *1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF*, relatorios RREO["1. RREO (Art. 52 da LRF)<br/ • Relatório Resumido da Execução Orçamentária<br/ • Periodicidade: BIMESTRAL (publicado em até 30 dias)<br/ • Abrangência: Todos os Poderes consolidado pelo Poder Executivo<br/ • Foco: Balanço Orçamentário, metas fiscais e receitas/despesas"].
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)* deste guia, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "nominais e primários".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "financeiros e patrimoniais". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Normativas Recomendadas*, lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal) Texto integral da LRF detalhando limites globais e setoriais com despesa total com pessoal (DTP), limites prudenciais e de alerta.
+>
+> **Gabarito: D**
+
+---
+
+
+### Teste 003
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Ciências Atuariais)**
+Segundo a Lei de Responsabilidade Fiscal (Lei Complementar nº 101/2000), o ente público deverá publicar o demonstrativo da projeção atuarial dos regimes próprios de previdência dos servidores públicos, como um anexo do seguinte instrumento jurídico:
+
+* **A)** jornal de grande circulação.
+* **B)** lei de diretrizes orçamentárias.
+* **C)** lei de orçamento anual.
+* **D)** plano plurianual.
+* **E)** sítio eletrônico do ente público. Realização
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "jornal de grande circulação". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Normativas Recomendadas*, lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal) Texto integral da LRF detalhando limites globais e setoriais com despesa total com pessoal (DTP), limites prudenciais e de alerta.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)* deste guia, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "lei de diretrizes orçamentárias".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "lei de orçamento anual". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Normativas Recomendadas*, gIACOMONI, James. Orçamento Público. 18. ed. São Paulo: Atlas, 2021. (Cap. 11 A Lei de Responsabilidade Fiscal).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "plano plurianual". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Normativas Recomendadas*, tCE GO Resultados e Pareceres de Contas de Governo Acompanhamento dos demonstrativos da Lei de Responsabilidade Fiscal pelo TCE GO.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sítio eletrônico do ente público. Realização". De acordo com a teoria estudada em *2.1 Conceito Legal e Requisitos Formais*, a Despesa Obrigatória de Caráter Continuado (DOCC) é a despesa corrente derivada de lei, medida provisória ou ato administrativo normativo que fixe para o ente público a obrigação legal de sua execução por um período superior a dois (2) anos (art. 17, caput da LRF).
+>
+> **Gabarito: B**
+
+---
+
+
 
 ## 2. Despesa Obrigatória de Caráter Continuado (DOCC - Art. 17)
 
@@ -132,30 +181,6 @@ flowchart TD
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A banca frequentemente tenta igualar a compensação da DOCC com a da renúncia de receita. Na DOCC, **a compensação deve ser estritamente PERMANENTE**! Não basta indicar que há superávit temporário no ano corrente; o governante tem que aumentar receitas contínuas ou cortar outras despesas em caráter definitivo.
-
----
-
-### Teste 251
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Direito)**
-A renúncia de receita, conforme estabelecido pela Lei de Responsabilidade Fiscal (Lei Complementar nº 101/2000), deverá estar acompanhada de estimativa do impacto orçamentário- financeiro no exercício em que deva iniciar sua vigência e nos dois seguintes, atender ao disposto na lei de diretrizes orçamentárias e a pelo menos uma das seguintes condições (i) demonstração pelo proponente de que a renúncia foi considerada na estimativa de receita da lei orçamentária, e de que não afetará as metas de resultados fiscais previstas no anexo próprio da lei de diretrizes orçamentárias; OU (ii) estar acompanhada de medidas de compensação, no período acima mencionado, por meio do aumento de receita, proveniente da elevação de alíquotas, ampliação da base de cálculo, majoração ou criação de tributo ou contribuição. As condições acima para a concessão ou ampliação de incentivo ou benefício de natureza tributária da qual decorra renúncia de receita, por expressa disposição legal, não se aplicam
-
-* **A)** ao cancelamento de débito cujo montante seja inferior ao dos respectivos custos de cobrança.
-* **B)** à anistia.
-* **C)** à remissão.
-* **D)** ao crédito presumido.
-* **E)** à concessão de isenção em caráter não geral.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)* deste guia, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal - LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "ao cancelamento de débito cujo montante seja inferior ao dos respectivos custos de cobrança".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "à anistia". De acordo com a teoria estudada em *2.2 Mecanismos Permanentes de Compensação Fiscal*, estimativa Trienal do Impacto Orçamentário-Financeiro: Aferição do impacto financeiro no exercício em que deva entrar em vigor e nos dois subsequentes.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "à remissão". De acordo com a teoria estudada em *2.2 Mecanismos Permanentes de Compensação Fiscal*, aumento permanente de receitas (elevação de alíquotas ou criação de novos tributos); OU.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao crédito presumido". De acordo com a teoria estudada em *4.1 A Regra de Ouro Orçamentária (Art. 167, III da CF/88)*, ressalva Constitucional: É admitida a realização de operações de crédito em montante superior às despesas de capital caso seja autorizada pelo Poder Legislativo mediante créditos adicionais suplementares ou especiais com finalidade precisa, aprovados por maioria absoluta dos votos dos membros do parlamento.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "à concessão de isenção em caráter não geral". De acordo com a teoria estudada em *3.3 Limite de Alerta, Prudencial e Máximo: Gatilhos e Vedações*, concessão de vantagem, aumento, reajuste ou adequação de remuneração a qualquer título (salvo revisão geral anual do art. 37, X da CF).
->
-> **Gabarito: A**
 
 ---
 
@@ -225,126 +250,6 @@ Ao atingir 95% do limite legal máximo, aplicam-se imediatamente ao Poder ou ór
 
 ---
 
-### Teste 252
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
-O Relatório de Gestão Fiscal contém demonstrativos comparativos com os limites de que trata a Lei de Responsabilidade Fiscal dos montantes de despesa total com pessoal, evidenciando as despesas com ativos, inativos e pensionistas, dívida consolidada líquida, concessão de garantias e contragarantias e operações de crédito. Se a despesa total com pessoal do Poder ou órgão ultrapassar os limites definidos na Lei ao final de um quadrimestre, o excedente deverá ser eliminado nos dois quadrimestres seguintes, sendo pelo menos um terço no primeiro. No entanto, em situação especial, caso o Poder ou órgão ultrapasse seu limite de despesa com pessoal, entende-se que ele disporá automaticamente de quatro quadrimestres para eliminação do excesso, devendo eliminar pelo menos um terço dele nos dois primeiros. Essa situação especial pode ser caracterizada por
-
-* **A)** alta cotação do dólar.
-* **B)** altos índices de inflação.
-* **C)** alta taxa de desemprego.
-* **D)** baixo nível de exportação.
-* **E)** baixo crescimento econômico.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "alta cotação do dólar". De acordo com a teoria estudada em *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)*, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal - LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "altos índices de inflação". De acordo com a teoria estudada em *3.1 Conceito, Apuração Quadrimestral e Base da RCL*, definição Ampla (Art. 18): Entende-se por despesa total com pessoal o somatório dos gastos do ente com os ativos, inativos e pensionistas, relativos a mandatos eletivos, cargos, funções ou empregos, subsídios e vencimentos, vantagens fixas e variáveis, proventos de aposentadoria e pensões, adicionais, gratificações, horas extras, bem como encargos sociais e contribuições recolhidas pelo ente às entidades de previdência, além dos valores decorrentes de contratos de terceirização de mão de obra que substituam servidores de cargos vagos (art. 18, § 1º).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "alta taxa de desemprego". De acordo com a teoria estudada em *4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)*, artigo 42 da LRF (Últimos 8 Meses do Mandato): É vedado ao titular de Poder ou órgão, nos últimos dois quadrimestres do seu mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "baixo nível de exportação". De acordo com a teoria estudada em *4.1 A Regra de Ouro Orçamentária (Art. 167, III da CF/88)*, objetivo Econômico: Impedir que o governante contraia empréstimos públicos ou emita títulos soberanos para pagar despesas correntes de manutenção (salários e diárias), endividando as gerações futuras sem criar capital ou infraestrutura física durável.
-> - **E)** **Correta.** Conforme fundamentado na seção *3.4 Regras de Recondução e Medidas Constitucionais Sucessivas de Corte (Art. 169)* deste guia, se a DTP ultrapassar o Limite Máximo (100%), o excedente deverá ser integralmente eliminado nos dois quadrimestres imediatamente seguintes, devendo ser eliminado pelo menos um terço (1/3) no primeiro quadrimestre (art. 23 da LRF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "baixo crescimento econômico".
->
-> **Gabarito: E**
-
----
-
-### Teste 253
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
-A sociedade empresária Transporta 100% Ltda., com sede no Município Alfa, no ano de 2026, prestou serviço de transporte de 20 toneladas de feijão do Município Beta para o Município Gama. A mercadoria foi entregue sem avarias e integralmente ao destinatário constante no documento fiscal no Município Gama, a saber, a sociedade empresária Recebe 100% Ltda., que tem sua sede no Município Delta. Todos os quatro municípios se situam no mesmo estado da federação. Considerando as regras da Lei Complementar (LC) nº 214/2025 acerca do Imposto sobre Bens e Serviços (IBS), assinale a opção que indica corretamente o local onde se considera realizada essa operação de serviço de transporte de carga para efeitos de IBS:
-
-* **A)** Município Alfa, por ser o local da sede de Transporta 100% Ltda.
-* **B)** Município Beta, por ser o local de início do transporte.
-* **C)** Município Gama, por ser o local da entrega do bem ao destinatário constante no documento fiscal.
-* **D)** Município Delta, por ser o local da sede de Recebe 100% Ltda.
-* **E)** Qualquer um dos quatro municípios, deixando a LC nº 214/2025 à escolha do sujeito passivo tributário.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Município Alfa, por ser o local da sede de Transporta 100% Ltda". De acordo com a teoria estudada em *3.4 Regras de Recondução e Medidas Constitucionais Sucessivas de Corte (Art. 169)*, se a DTP ultrapassar o Limite Máximo (100%), o excedente deverá ser integralmente eliminado nos dois quadrimestres imediatamente seguintes, devendo ser eliminado pelo menos um terço (1/3) no primeiro quadrimestre (art. 23 da LRF).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Município Beta, por ser o local de início do transporte". De acordo com a teoria estudada em *3.3 Limite de Alerta, Prudencial e Máximo: Gatilhos e Vedações*, concessão de vantagem, aumento, reajuste ou adequação de remuneração a qualquer título (salvo revisão geral anual do art. 37, X da CF).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Município Gama, por ser o local da entrega do bem ao destinatário constante no documento fiscal". De acordo com a teoria estudada em *2.2 Mecanismos Permanentes de Compensação Fiscal*, compensação Financeira Permanente: O ato deve ser acompanhado de medida de compensação financeira contínua, efetivada por meio do.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Município Delta, por ser o local da sede de Recebe 100% Ltda". De acordo com a teoria estudada em *3.3 Limite de Alerta, Prudencial e Máximo: Gatilhos e Vedações*, provimento de cargo público, admissão ou contratação de pessoal a qualquer título.
-> - **E)** **Correta.** Conforme fundamentado na seção *3.2 Repartição dos Limites Globais e a Cota do TCE-GO* deste guia, municípios: 60% — 54,0% — *(Não há)* — *(Não há)* — 6,0% (Câmara Municipal de Vereadores). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Qualquer um dos quatro municípios, deixando a LC nº 214/2025 à escolha do sujeito passivo tributário".
->
-> **Gabarito: E**
-
----
-
-### Teste 254
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Ciências Atuariais)**
-Em determinado exercício financeiro, foi detectado, ao fim do primeiro quadrimestre, que a despesa total com pessoal do Poder Executivo do Estado Alfa excedeu a 95% do limite estabelecido para a referida estrutura de poder. Por tal razão, o corpo técnico de uma Secretaria de Estado passou a sustentar que era vedada a progressão funcional dos servidores públicos que preenchessem os requisitos previstos em lei, enquanto perdurasse a não observância do limite vigente, o mesmo ocorrendo em relação à concessão de aumento remuneratório, ressalvada apenas a revisão geral anual. Ainda foi observado que o percentual excedente ao limite deveria ser eliminado nos dois quadrimestres seguintes, sendo pelo menos um terço no primeiro. Ao tomar conhecimento das observações, o Secretário concluiu corretamente que, à luz da Lei Complementar nº 101/2000,
-
-* **A)** todas estão certas.
-* **B)** somente está errada a observação afeta à vedação à progressão funcional.
-* **C)** somente está errada a observação afeta à possibilidade de que seja realizada a revisão geral anual.
-* **D)** somente está errada a observação afeta ao prazo de eliminação do percentual excedente ao limite.
-* **E)** somente está errada a observação afeta ao montante do percentual excedente ao limite, a ser eliminado no primeiro quadrimestre.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todas estão certas". De acordo com a teoria estudada em *3.3 Limite de Alerta, Prudencial e Máximo: Gatilhos e Vedações*, concessão de vantagem, aumento, reajuste ou adequação de remuneração a qualquer título (salvo revisão geral anual do art. 37, X da CF).
-> - **B)** **Correta.** Conforme fundamentado na seção *3.4 Regras de Recondução e Medidas Constitucionais Sucessivas de Corte (Art. 169)* deste guia, se a DTP ultrapassar o Limite Máximo (100%), o excedente deverá ser integralmente eliminado nos dois quadrimestres imediatamente seguintes, devendo ser eliminado pelo menos um terço (1/3) no primeiro quadrimestre (art. 23 da LRF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "somente está errada a observação afeta à vedação à progressão funcional".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente está errada a observação afeta à possibilidade de que seja realizada a revisão geral anual". De acordo com a teoria estudada em *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)*, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal - LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente está errada a observação afeta ao prazo de eliminação do percentual excedente ao limite". De acordo com a teoria estudada em *3.3 Limite de Alerta, Prudencial e Máximo: Gatilhos e Vedações*, alteração de estrutura de carreira que implique aumento de despesa.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente está errada a observação afeta ao montante do percentual excedente ao limite, a ser eliminado no primeiro...". De acordo com a teoria estudada em *4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)*, artigo 42 da LRF (Últimos 8 Meses do Mandato): É vedado ao titular de Poder ou órgão, nos últimos dois quadrimestres do seu mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito.
->
-> **Gabarito: B**
-
----
-
-### Teste 255
-**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
-Um ente público municipal pleiteou uma transferência voluntária junto ao Ministério das Cidades para desenvolvimento de projetos de geração de emprego e renda a partir da exploração sustentável de recursos regionais. À luz da legislação aplicável, o recebimento da transferência voluntária pretendida pelo ente solicitante:
-
-* **A)** depende de previsão expressa no plano plurianual em vigor no âmbito do governo federal;
-* **B)** é vedado no último ano de mandato no âmbito do ente recebedor;
-* **C)** exige previsão orçamentária de contrapartida pelo ente transferidor;
-* **D)** permite alteração da finalidade e do cronograma de aplicação dos recursos;
-* **E)** requer observância dos limites de endividamento e despesa total com pessoal pelo ente recebedor.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "depende de previsão expressa no plano plurianual em vigor no âmbito do governo federal". De acordo com a teoria estudada em *3.2 Repartição dos Limites Globais e a Cota do TCE-GO*, ente Federado: Limite Global Máximo — Poder Executivo — Poder Judiciário — Ministério Público — Poder Legislativo e Tribunais de Contas.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é vedado no último ano de mandato no âmbito do ente recebedor". De acordo com a teoria estudada em *4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)*, artigo 42 da LRF (Últimos 8 Meses do Mandato): É vedado ao titular de Poder ou órgão, nos últimos dois quadrimestres do seu mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exige previsão orçamentária de contrapartida pelo ente transferidor". De acordo com a teoria estudada em *2.1 Conceito Legal e Requisitos Formais*, a Despesa Obrigatória de Caráter Continuado (DOCC) é a despesa corrente derivada de lei, medida provisória ou ato administrativo normativo que fixe para o ente público a obrigação legal de sua execução por um período superior a dois (2) anos (art. 17, *caput* da LRF).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "permite alteração da finalidade e do cronograma de aplicação dos recursos". De acordo com a teoria estudada em *3.3 Limite de Alerta, Prudencial e Máximo: Gatilhos e Vedações*, alteração de estrutura de carreira que implique aumento de despesa.
-> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Conceito, Apuração Quadrimestral e Base da RCL* deste guia, definição Ampla (Art. 18): Entende-se por despesa total com pessoal o somatório dos gastos do ente com os ativos, inativos e pensionistas, relativos a mandatos eletivos, cargos, funções ou empregos, subsídios e vencimentos, vantagens fixas e variáveis, proventos de aposentadoria e pensões, adicionais, gratificações, horas extras, bem como encargos sociais e contribuições recolhidas pelo ente às entidades de previdência, além dos valores decorrentes de contratos de terceirização de mão de obra que substituam servidores de cargos vagos (art. 18, § 1º). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "requer observância dos limites de endividamento e despesa total com pessoal pelo ente recebedor".
->
-> **Gabarito: E**
-
----
-
-### Teste 256
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Atuariais)**
-De acordo com a Portaria nº MTP 1.467/2022, os planos de custeio e de equacionamento de déficit atuarial devem ser estruturados de modo a garantir o equilíbrio do regime próprio, observando também a viabilidade do Ente Federativo. Sob essa ótica, assinale a opção que apresenta a relação correta entre o indicador e o fator de viabilidade institucional.
-
-* **A)** Despesa líquida com pessoal e a viabilidade fiscal.
-* **B)** Dívida consolidada líquida e a viabilidade financeira.
-* **C)** Parcelamentos firmados e a viabilidade orçamentária.
-* **D)** Receita corrente líquida e a viabilidade financeira.
-* **E)** Saldo financeiro acumulado e a viabilidade fiscal.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Conceito, Apuração Quadrimestral e Base da RCL* deste guia, definição Ampla (Art. 18): Entende-se por despesa total com pessoal o somatório dos gastos do ente com os ativos, inativos e pensionistas, relativos a mandatos eletivos, cargos, funções ou empregos, subsídios e vencimentos, vantagens fixas e variáveis, proventos de aposentadoria e pensões, adicionais, gratificações, horas extras, bem como encargos sociais e contribuições recolhidas pelo ente às entidades de previdência, além dos valores decorrentes de contratos de terceirização de mão de obra que substituam servidores de cargos vagos (art. 18, § 1º). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Despesa líquida com pessoal e a viabilidade fiscal".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Dívida consolidada líquida e a viabilidade financeira". De acordo com a teoria estudada em *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)*, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal - LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Parcelamentos firmados e a viabilidade orçamentária". De acordo com a teoria estudada em *4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)*, artigo 21, Parágrafo Único da LRF (Últimos 180 Dias): É nulo de pleno direito o ato que resulte em aumento da despesa com pessoal editado nos cento e oitenta dias anteriores ao final do mandato do titular do respectivo Poder ou órgão.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Receita corrente líquida e a viabilidade financeira". De acordo com a teoria estudada em *3.1 Conceito, Apuração Quadrimestral e Base da RCL*, base de Cálculo: O somatório da Receita Corrente Líquida (RCL) do ente apurada no mês de referência e nos onze meses imediatamente anteriores (período móvel de 12 meses).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Saldo financeiro acumulado e a viabilidade fiscal". De acordo com a teoria estudada em *2.2 Mecanismos Permanentes de Compensação Fiscal*, estimativa Trienal do Impacto Orçamentário-Financeiro: Aferição do impacto financeiro no exercício em que deva entrar em vigor e nos dois subsequentes.
->
-> **Gabarito: A**
-
----
-
 ## 4. Endividamento, Regra de Ouro, ARO e Vedações de Fim de Mandato
 
 ### 4.1 A Regra de Ouro Orçamentária (Art. 167, III da CF/88)
@@ -376,78 +281,6 @@ flowchart TD
 
 1. **Artigo 42 da LRF (Últimos 8 Meses do Mandato):** É vedado ao titular de Poder ou órgão, nos últimos dois quadrimestres do seu mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito. O descumprimento sujeita o governante ao crime do art. 359-C do Código Penal (pena de reclusão de 1 a 4 anos).
 2. **Artigo 21, Parágrafo Único da LRF (Últimos 180 Dias):** É nulo de pleno direito o ato que resulte em aumento da despesa com pessoal editado nos cento e oitenta dias anteriores ao final do mandato do titular do respectivo Poder ou órgão. O descumprimento configura o crime do art. 359-G do Código Penal.
-
----
-
-### Teste 257
-**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Sem Especialidade)**
-Como promessa de campanha no pleito eleitoral de 2024, o Prefeito do município X divulgou, para 2025, a extinção da Taxa de Manejo de Resíduos Sólidos, implementada pelo gestor anterior e já objeto de arrecadação no ano de 2024. Diante dessa situação, à luz da Lei de Responsabilidade Fiscal (LRF), o Prefeito, para cumprir a referida promessa, deverá
-
-* **A)** apresentar a estimativa do impacto orçamentário-financeiro no exercício de 2025 e nos dois seguintes, visto que estará incorrendo em renúncia de receita.
-* **B)** apresentar na sua Lei Orçamentária Anual (LOA) para 2026 o valor não arrecadado com tal extinção, já que a LOA 2025 já fora elaborada pelo gestor anterior.
-* **C)** sancionar a lei no primeiro dia útil de 2025, bem como a estimativa de impacto orçamentário-financeiro apenas no exercício de 2025.
-* **D)** ser penalizado, porque estaria incorrendo em infração e ficaria sujeito às penalidades previstas na LRF pela promessa de extinção de tributos que são de competência municipal.
-* **E)** avaliar os resultados, porque não estará incorrendo em infração à LRF por renúncia de receita se o resultado financeiro previsto para 2025 for superior ao valor arrecadado com a referida taxa.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *2.2 Mecanismos Permanentes de Compensação Fiscal* deste guia, estimativa Trienal do Impacto Orçamentário-Financeiro: Aferição do impacto financeiro no exercício em que deva entrar em vigor e nos dois subsequentes. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "apresentar a estimativa do impacto orçamentário-financeiro no exercício de 2025 e nos dois seguintes, visto que...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresentar na sua Lei Orçamentária Anual (LOA) para 2026 o valor não arrecadado com tal extinção, já que a LOA...". De acordo com a teoria estudada em *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)*, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal - LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "sancionar a lei no primeiro dia útil de 2025, bem como a estimativa de impacto orçamentário-financeiro apenas no...". De acordo com a teoria estudada em *3.4 Regras de Recondução e Medidas Constitucionais Sucessivas de Corte (Art. 169)*, se a DTP ultrapassar o Limite Máximo (100%), o excedente deverá ser integralmente eliminado nos dois quadrimestres imediatamente seguintes, devendo ser eliminado pelo menos um terço (1/3) no primeiro quadrimestre (art. 23 da LRF).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ser penalizado, porque estaria incorrendo em infração e ficaria sujeito às penalidades previstas na LRF pela...". De acordo com a teoria estudada em *4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)*, artigo 42 da LRF (Últimos 8 Meses do Mandato): É vedado ao titular de Poder ou órgão, nos últimos dois quadrimestres do seu mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "avaliar os resultados, porque não estará incorrendo em infração à LRF por renúncia de receita se o resultado...". De acordo com a teoria estudada em *2.1 Conceito Legal e Requisitos Formais*, a Despesa Obrigatória de Caráter Continuado (DOCC) é a despesa corrente derivada de lei, medida provisória ou ato administrativo normativo que fixe para o ente público a obrigação legal de sua execução por um período superior a dois (2) anos (art. 17, *caput* da LRF).
->
-> **Gabarito: A**
-
----
-
-### Teste 258
-**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Sem Especialidade)**
-A Lei Orçamentária Anual deverá compreender todas as receitas do setor público, inclusive as de operações de crédito autorizadas em lei. Desse modo, assinale a opção que apresenta a receita que não compõe o orçamento de uma Prefeitura.
-
-* **A)** Receita do Imposto sobre Serviços (ISS) de um serviço realizado no exercício anterior.
-* **B)** Receita do Imposto sobre a Renda retido na fonte, já que a competência de arrecadação desse imposto é da União.
-* **C)** Receita de Operações de Crédito por Antecipação de Receita Orçamentária (ARO).
-* **D)** Receita da Dívida Ativa Tributária.
-* **E)** Receita de multas de trânsito.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Receita do Imposto sobre Serviços (ISS) de um serviço realizado no exercício anterior". De acordo com a teoria estudada em *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)*, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal - LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Receita do Imposto sobre a Renda retido na fonte, já que a competência de arrecadação desse imposto é da União". De acordo com a teoria estudada em *4.1 A Regra de Ouro Orçamentária (Art. 167, III da CF/88)*, $$\text{Operações de Crédito Realizadas no Exercício} \le \text{Despesas de Capital Fixadas na LOA}$$.
-> - **C)** **Correta.** Conforme fundamentado na seção *4.2 Regime das Operações de Crédito por ARO (Art. 38)* deste guia, a Antecipação de Receita Orçamentária (ARO) é uma operação de crédito de curto prazo autorizada pelo art. 165, § 8º da CF/88 e regulada estritamente pelo art. 38 da LRF. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "Receita de Operações de Crédito por Antecipação de Receita Orçamentária (ARO)".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Receita da Dívida Ativa Tributária". De acordo com a teoria estudada em *4.1 A Regra de Ouro Orçamentária (Art. 167, III da CF/88)*, ressalva Constitucional: É admitida a realização de operações de crédito em montante superior às despesas de capital caso seja autorizada pelo Poder Legislativo mediante créditos adicionais suplementares ou especiais com finalidade precisa, aprovados por maioria absoluta dos votos dos membros do parlamento.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Receita de multas de trânsito". De acordo com a teoria estudada em *4.2 Regime das Operações de Crédito por ARO (Art. 38)*, finalidade Exclusiva: Suprir insuficiência passageira de caixa ao longo do exercício orçamentário.
->
-> **Gabarito: C**
-
----
-
-### Teste 259
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Contábeis)**
-O planejamento é a etapa da despesa orçamentária que abrange, de um modo geral, a análise para a formulação do plano e das ações governamentais que servirão de base para a fixação da despesa orçamentária. A fixação da despesa refere-se aos limites de gastos incluídos nas leis orçamentárias e tem como base
-
-* **A)** a inflação projetada.
-* **B)** as receitas previstas.
-* **C)** as despesas executadas no exercício anterior.
-* **D)** o crescimento estimado do Produto Interno Bruto.
-* **E)** os gastos necessários para o funcionamento da máquina pública.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a inflação projetada". De acordo com a teoria estudada em *3.1 Conceito, Apuração Quadrimestral e Base da RCL*, definição Ampla (Art. 18): Entende-se por despesa total com pessoal o somatório dos gastos do ente com os ativos, inativos e pensionistas, relativos a mandatos eletivos, cargos, funções ou empregos, subsídios e vencimentos, vantagens fixas e variáveis, proventos de aposentadoria e pensões, adicionais, gratificações, horas extras, bem como encargos sociais e contribuições recolhidas pelo ente às entidades de previdência, além dos valores decorrentes de contratos de terceirização de mão de obra que substituam servidores de cargos vagos (art. 18, § 1º).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)* deste guia, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal - LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "as receitas previstas".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as despesas executadas no exercício anterior". De acordo com a teoria estudada em *4.1 A Regra de Ouro Orçamentária (Art. 167, III da CF/88)*, $$\text{Operações de Crédito Realizadas no Exercício} \le \text{Despesas de Capital Fixadas na LOA}$$.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o crescimento estimado do Produto Interno Bruto". De acordo com a teoria estudada em *2.2 Mecanismos Permanentes de Compensação Fiscal*, aumento permanente de receitas (elevação de alíquotas ou criação de novos tributos); OU.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os gastos necessários para o funcionamento da máquina pública". De acordo com a teoria estudada em *2.2 Mecanismos Permanentes de Compensação Fiscal*, na DOCC, a compensação deve ser estritamente PERMANENTE! Não basta indicar que há superávit temporário no ano corrente; o governante tem que aumentar receitas contínuas ou cortar outras despesas em caráter definitivo.
->
-> **Gabarito: B**
 
 ---
 

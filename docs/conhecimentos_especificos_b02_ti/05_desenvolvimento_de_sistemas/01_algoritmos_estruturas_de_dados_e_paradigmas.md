@@ -4,10 +4,7 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `01_algoritmos_estruturas_de_dados_e_paradigmas.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Algoritmos e lógica de programação
@@ -105,13 +102,107 @@ A notação **Big-O ($\mathcal{O}$)** mensura o crescimento do tempo de execuç�
 
 ---
 
-### Teste 054
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Ciências Atuariais)**
-Sobre o Modelo de Referência Cross- Industry Standard Process for Data Mining (CRISP-DM), avalie as afirmativas a seguir: I. Após a fase de “Preparação dos dados” ocorre a fase de “Compreensão dos dados”. II. Durante a fase de “Mineração de Dados” ocorre a aplicação de algoritmos de mineração de dados buscando a extração de padrões. III. Durante a fase de “Preparação dos Dados”, pode ocorrer a construção de novos atributos a partir de outros já existentes. Está correto o que se afirma em
+### Teste 001
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
+Analise o código Python a seguir. L=[0,1,1,2,3] for k in range(4, -4, -1): print (L[k] + L[k % len(L)]) O resultado da execução desse código, na ordem, é:
+
+* **A)** 4, 2, 2, 0, 6, 4;
+* **B)** 6, 4, 2, 2, 0, 6, 4, 2, 2;
+* **C)** 6, 4, 2, 2, 0, 6, 4, 2;
+* **D)** 6, 4, 2, 2, 6, 4, 2;
+* **E)** 6, 4, 2, 0, 6, 4, 2.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4, 2, 2, 0, 6, 4". De acordo com a teoria estudada em *4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)*, funções como Cidadãs de Primeira Classe ( First Class Citizens ): Funções podem ser atribuídas a variáveis, armazenadas em estruturas de dados, passadas como parâmetros e retornadas como resultado de outras funções.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "6, 4, 2, 2, 0, 6, 4, 2, 2". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, composição sobre Herança: A herança gera forte acoplamento de código ( acoplamento de caixa branca ), quebrando o encapsulamento caso a subclasse dependa de detalhes de implementação da superclasse. A composição de objetos ( relação "tem um" ) é amplamente recomendada por promover delegação dinâmica e flexibilidade em tempo de execução.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Recursão e Pilha de Execução (Call Stack)* deste guia, f2Ret F3Ret["fatorial(3) resolve: 3 2 = 6 (Resultado Final)"]. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "6, 4, 2, 2, 0, 6, 4, 2".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "6, 4, 2, 2, 6, 4, 2". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, a notação Big O ($\mathcal{O}$) mensura o crescimento do tempo de execução ou do consumo de memória de um algoritmo à medida que o tamanho da entrada ($n$) tende ao infinito, descrevendo o limite superior assintótico ( pior caso ou caso geral).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "6, 4, 2, 0, 6, 4, 2". De acordo com a teoria estudada em *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)*, passagem por Referência (ou Valor da Referência): Em linguagens modernas como Java e Python, a passagem é estritamente por valor, mas para variáveis de tipos não primitivos (objetos e coleções), o "valor" copiado é o endereço de memória (ponteiro) do objeto. Logo.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 002
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+A ferramenta Zabbix 6 é amplamente usada para monitoramento de redes; sua instalação e configuração requer pacotes de terceiros. Com relação aos seus requisitos de instalação, analise os itens a seguir. I. O Zabbix é construído em torno de servidores web, servidores de banco de dados e da linguagem de script Python. II. Os servidores de bancos de dados suportados, por padrão, são MySQL, PostreSQL ou MS SQL Server. III. O frontend do Zabbix é suportado, por padrão, por servidores Web Apache. Está correto o que se afirma em
+
+* **A)** I, II e III.
+* **B)** I apenas.
+* **C)** II apenas.
+* **D)** III apenas.
+* **E)** II e III, apenas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, composição sobre Herança: A herança gera forte acoplamento de código ( acoplamento de caixa branca ), quebrando o encapsulamento caso a subclasse dependa de detalhes de implementação da superclasse. A composição de objetos ( relação "tem um" ) é amplamente recomendada por promover delegação dinâmica e flexibilidade em tempo de execução.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I apenas". De acordo com a teoria estudada em *5. Fontes Oficiais e Referências Bibliográficas*, python Official Documentation Data Structures Listas, pilhas, filas, tuplas, dicionários, conjuntos e operações fundamentais de dados.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II apenas". De acordo com a teoria estudada em *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)*, passagem por Referência (ou Valor da Referência): Em linguagens modernas como Java e Python, a passagem é estritamente por valor, mas para variáveis de tipos não primitivos (objetos e coleções), o "valor" copiado é o endereço de memória (ponteiro) do objeto. Logo.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Análise Assintótica e a Notação Big-O* deste guia, a Busca Binária exige obrigatoriamente que a estrutura esteja previamente ordenada e suporte acesso aleatório indexado em tempo $\mathcal{O}(1)$ (como arrays e vetores contíguos). Sua complexidade temporal é $\mathcal{O}(\log n)$. Se aplicada em listas encadeadas, mesmo ordenadas, a busca binária perde eficiência porque o acesso ao nó central requer navegação sequencial $\mathcal{O}(n)$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "III apenas".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, a notação Big O ($\mathcal{O}$) mensura o crescimento do tempo de execução ou do consumo de memória de um algoritmo à medida que o tamanho da entrada ($n$) tende ao infinito, descrevendo o limite superior assintótico ( pior caso ou caso geral).
+>
+> **Gabarito: D**
+
+---
+
+
+### Teste 003
+**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
+O DMBOK é organizado em torno de onze Áreas de Conhecimento do Framework de Gerenciamento de Dados DAMA-DMBOK. Essas áreas abrangem o escopo e o contexto de diversos conjuntos de atividades relacionadas ao gerenciamento de dados, incorporando os objetivos e princípios fundamentais dessa disciplina. A área de conhecimento que aborda a definição e o planejamento para a gestão dos ativos de dados, alinhando-os com a estratégia organizacional para estabelecer uma estrutura de dados eficiente, é a de
+
+* **A)** Governança de Dados.
+* **B)** Segurança de Dados.
+* **C)** Arquitetura de Dados.
+* **D)** Metadados.
+* **E)** Documentação e Gestão do Conteúdo.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Governança de Dados". De acordo com a teoria estudada em *5. Fontes Oficiais e Referências Bibliográficas*, python Official Documentation Data Structures Listas, pilhas, filas, tuplas, dicionários, conjuntos e operações fundamentais de dados.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Segurança de Dados". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, a Programação Funcional é um paradigma declarativo que trata a computação como a avaliação de funções matemáticas e evita a mutação de estados e dados.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial* deste guia, imutabilidade: As estruturas de dados não são alteradas após criadas. Qualquer transformação produz uma nova estrutura de dados, deixando a original intacta. Isso elimina problemas de condição de corrida ( race conditions ) em ambientes concorrentes multithread. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "Arquitetura de Dados".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Metadados". De acordo com a teoria estudada em *2.5 Matriz Geral de Complexidade das Estruturas de Dados*, estrutura de Dados: Acesso Médio — Acesso Pior — Busca Média — Busca Pior — Inserção Média — Inserção Pior — Remoção Média — Remoção Pior.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Documentação e Gestão do Conteúdo". De acordo com a teoria estudada em *5. Fontes Oficiais e Referências Bibliográficas*, dROZDEK, Adam. Estrutura de Dados e Algoritmos em C++. 2. ed. São Paulo: Cengage Learning, 2016. (Cap. 3 a 5 Pilhas, Filas e Árvores).
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 004
+**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Em redes frame relay, os quadros são roteados usando-se endereços de rede e não números de conexões; os formatos dos quadros de controle são diferentes do formato dos quadros de dados; os nós inspecionam os quadros para identificar quadros inválidos, descartam quadros inválidos e deixam a recuperação de erros para protocolos em camadas mais altas na pilha de protocolos.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em redes frame relay, os quadros são roteados usando se endereços de rede e não números de conexões; os...". De acordo com a teoria em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, ausência de Efeitos Colaterais ( No Side Effects ): Não modifica variáveis externas ou globais, não altera parâmetros recebidos por referência e não realiza operações de I/O em disco ou rede durante a sua computação pura.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 005
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+Com relação ao framework pytest, da linguagem de programação Python, avalie as afirmativas a seguir: I. O comando pytest executa os arquivos no formato test_*.py ou *_test.py no diretório corrente e nos subdiretórios. II. O comando abaixo mostra os 5 testes com maior tempo de duração. >>> pytest -vv --durations=5 III. É possível invocar o framework pytest usando o próprio interpretador do Python por meio do comando abaixo: >>> python -m pytest Está correto o que se afirma em
 
 * **A)** I, apenas.
-* **B)** III, apenas.
-* **C)** I e III, apenas.
+* **B)** II, apenas.
+* **C)** I e II, apenas.
 * **D)** II e III, apenas.
 * **E)** I, II e III.
 
@@ -119,39 +210,42 @@ Sobre o Modelo de Referência Cross- Industry Standard Process for Data Mining (
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, *Ausência de Efeitos Colaterais (*No Side Effects*):* Não modifica variáveis externas ou globais, não altera parâmetros recebidos por referência e não realiza operações de I/O em disco ou rede durante a sua computação pura.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento* deste guia, *Classe Abstrata:* Não pode ser instanciada diretamente (`new`). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "III, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, imutabilidade: As estruturas de dados não são alteradas após criadas. Qualquer transformação produz uma nova estrutura de dados, deixando a original intacta.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, $\mathcal{O}(2^n)$: Exponencial — Crescimento explosivo impraticável — Algoritmos de força bruta (ex.: subconjuntos).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.5 Matriz Geral de Complexidade das Estruturas de Dados*, *\*Inserção e remoção em lista encadeada são $\mathcal{O}(1)$ se a referência direta ao nó alvo for previamente conhecida.*.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, composição sobre Herança: A herança gera forte acoplamento de código ( acoplamento de caixa branca ), quebrando o encapsulamento caso a subclasse dependa de detalhes de implementação da superclasse. A composição de objetos ( relação "tem um" ) é amplamente recomendada por promover delegação dinâmica e flexibilidade em tempo de execução.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.2 Recursão e Pilha de Execução (Call Stack)*, um algoritmo recursivo decompõe a solução de um problema invocando a si próprio com instâncias menores do mesmo problema.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)*, a lógica de programação orienta a elaboração de sequências finitas, ordenadas e inequívocas de passos para a resolução computacional de problemas.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)*, passagem por Referência (ou Valor da Referência): Em linguagens modernas como Java e Python, a passagem é estritamente por valor, mas para variáveis de tipos não primitivos (objetos e coleções), o "valor" copiado é o endereço de memória (ponteiro) do objeto. Logo.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas* deste guia, desvantagem: Inserções ou remoções no meio do vetor exigem o deslocamento ( shift ) de todos os elementos posteriores, consumindo tempo $\mathcal{O}(n)$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I, II e III".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
-### Teste 055
-**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
-Analise o código Node.JS, exibido a seguir, que estabelece um servidor HTTP que recebe e responde mensagens. var http = require('http'); http.createServer(function (req, res) { res.write('Ok'); res.end(); }).listen(8080); Assinale a afirmativa correta a respeito dessa operação.
 
-* **A)** A função definida é executada somente em caso de erro de parâmetros.
-* **B)** A função definida é sempre executada no lado cliente.
-* **C)** O parâmetro req da função definida deve ser do tipo http.IncomingMessage object.
-* **D)** O parâmetro req da função definida é opcional.
-* **E)** O parâmetro res da função definida é opcional.
+### Teste 006
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+Com relação aos tipos estruturados da linguagem de programação Python 3, avalie as afirmativas a seguir: I. A tentativa de utilizar conjunto (set) como chave de um dicionário (dict) retorna erro. II. O conjunto (set) não permite elementos repetidos. III. O construtor do tipo list retorna erro ao receber uma string como argumento (entrada). Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** I e II, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A função definida é executada somente em caso de erro de parâmetros". De acordo com a teoria estudada em *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)*, iSSO NÃO É SOBRECARGA! Isso é um erro de compilação! O tipo de retorno isolado não desambigua métodos sobrecarregados.
-> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "A função definida é sempre executada no lado cliente". De acordo com a teoria estudada em *4.3 Operações Funcionais sobre Coleções: map, filter e reduce*, método Funcional: Propósito Central da Operação — Cardinalidade de Saída vs. Entrada — Tipo do Retorno.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)* deste guia, variáveis e Tipagem: Uma variável é um espaço nominal alocado na memória para armazenar determinado tipo de dado. O escopo delimita a visibilidade dessa variável. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "O parâmetro req da função definida deve ser do tipo http.IncomingMessage object".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O parâmetro req da função definida é opcional". De acordo com a teoria estudada em *2.2 Tabelas Hash (Hash Tables) e Métodos de Tratamento de Colisão*, uma Tabela Hash associa chaves de busca a índices de um array de tamanho $m$ por meio de uma função de espalhamento (*hash function*): $\text{índice} = h(\text{chave}) \pmod m$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O parâmetro res da função definida é opcional". De acordo com a teoria estudada em *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)*, *Escopo Local de Bloco/Função:* Visível estritamente dentro do corpo da sub-rotina onde foi declarada, sendo liberada da pilha (*stack*) ao término da execução.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *5. Fontes Oficiais e Referências Bibliográficas*, oracle Java Documentation Java Collections Framework Interfaces List, Set, Queue, Deque, Map e implementações em Java.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)* deste guia, passagem por Referência (ou Valor da Referência): Em linguagens modernas como Java e Python, a passagem é estritamente por valor, mas para variáveis de tipos não primitivos (objetos e coleções), o "valor" copiado é o endereço de memória (ponteiro) do objeto. Logo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "II, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)*, a FCC adora afirmar que dois métodos são sobrecarregados se eles tiverem o mesmo nome, os mesmos parâmetros e apenas o tipo de retorno diferente (ex.: int calcular(int x) e double calcular(int x) ). ISSO NÃO É SOBRECARGA! Isso é um erro de compilação! O tipo de retorno isolado não desambigua métodos sobrecarregados.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, herança: Relação estática entre classes onde uma subclasse (filha) estende atributos e comportamentos de uma superclasse (pai), estabelecendo uma taxonomia do tipo "é um" ( is a ).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4.3 Operações Funcionais sobre Coleções: map, filter e reduce*, reduce : Acumula todos os elementos da coleção aplicando iterativamente uma função de combinação. — Exatamente $1$ valor — Valor escalar consolidado ou objeto acumulador único (número, string).
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
+
+
 
 ## 2. Estruturas de Dados Fundamentais
 
@@ -249,102 +343,6 @@ graph TD
 
 ---
 
-### Teste 056
-**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
-Para determinar o tamanho do software, de acordo com a AFP, devem ser seguidos procedimentos de contagem compostos por várias etapas. Na etapa de contagem das funções de transação, são definidas as Entradas Externas (EE), Saídas Externas (SE) e Consultas Externas (CE). Dentre os exemplos de CE estão
-
-* **A)** os dados passados entre online e batch dentro das fronteiras da mesma aplicação.
-* **B)** as informações provenientes de cálculos ou procedimentos para obtenção de dados derivados.
-* **C)** as mensagens de erros ou de confirmação associadas às EE, SE ou CE.
-* **D)** os relatórios de vendas semanais que requerem o uso de algoritmos e cálculos.
-* **E)** as operações de recuperação de e-mail de uma mailbox.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os dados passados entre online e batch dentro das fronteiras da mesma aplicação". De acordo com a teoria estudada em *4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)*, funções como Cidadãs de Primeira Classe (*First-Class Citizens*): Funções podem ser atribuídas a variáveis, armazenadas em estruturas de dados, passadas como parâmetros e retornadas como resultado de outras funções.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as informações provenientes de cálculos ou procedimentos para obtenção de dados derivados". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, alta Coesão e Baixo Acoplamento: Módulos de software de excelência devem ser altamente coesos (cada classe com foco em um propósito único do negócio) e fracamente acoplados (comunicação através de interfaces abstratas, permitindo substituição dinâmica).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as mensagens de erros ou de confirmação associadas às EE, SE ou CE". De acordo com a teoria estudada em *2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas*, aplicações: Spoolers de impressão, filas de mensagens assíncronas (RabbitMQ/Kafka) e algoritmo de busca em largura (BFS) em grafos e árvores.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os relatórios de vendas semanais que requerem o uso de algoritmos e cálculos". De acordo com a teoria estudada em *2.4 Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos*, *Algoritmos de Percurso:* Busca em Profundidade (DFS - usa pilha/recursão) e Busca em Largura (BFS - usa fila).
-> - **E)** **Correta.** Conforme fundamentado na seção *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial* deste guia, *Ausência de Efeitos Colaterais (*No Side Effects*):* Não modifica variáveis externas ou globais, não altera parâmetros recebidos por referência e não realiza operações de I/O em disco ou rede durante a sua computação pura. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "as operações de recuperação de e-mail de uma mailbox".
->
-> **Gabarito: E**
-
----
-
-### Teste 057
-**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
-Se a instrução System.out.print(f(v, 3, 2, d)); for alterada para System.out.print(f(v, 2, 3, d)); e para a variável d for fornecido o valor 51, quando o programa for executado
-
-* **A)** garantir que todos os caminhos independentes dentro de um módulo de software tenham sido exercitados pelo menos uma vez.
-* **B)** exercitar todas as decisões lógicas para valores verdadeiros e falsos.
-* **C)** garantir que todos os laços sejam testados dentro dos limites operacionais do sistema.
-* **D)** encontrar funções incorretas ou ausentes.
-* **E)** exercitar estruturas de dados internas para garantir a sua qualidade e validade.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)* deste guia, *Escopo Global:* Acessível em qualquer parte do módulo ou programa. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "garantir que todos os caminhos independentes dentro de um módulo de software tenham sido exercitados pelo menos...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exercitar todas as decisões lógicas para valores verdadeiros e falsos". De acordo com a teoria estudada em *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)*, reatribuir a variável inteira dentro do método (ex.: `obj = new Objeto()`) altera apenas a cópia local do ponteiro, mantendo a variável original inalterada.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "garantir que todos os laços sejam testados dentro dos limites operacionais do sistema". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, transparência Referencial: Uma expressão pode ser substituída diretamente pelo seu valor resultante em qualquer ponto do programa sem alterar o comportamento global do sistema.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "encontrar funções incorretas ou ausentes". De acordo com a teoria estudada em *2.4 Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos*, menos rígida que a AVL em altura, demandando menor quantidade de rotações em operações frequentes de inserção e exclusão (utilizada internamente no `TreeMap` e `HashMap` do Java).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exercitar estruturas de dados internas para garantir a sua qualidade e validade". De acordo com a teoria estudada em *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)*, *Escopo Local de Bloco/Função:* Visível estritamente dentro do corpo da sub-rotina onde foi declarada, sendo liberada da pilha (*stack*) ao término da execução.
->
-> **Gabarito: A**
-
----
-
-### Teste 058
-**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
-Uma SAN Fibre Channel (SAN FC) usa o protocolo Fibre Channel (FC) para transportar dados, comandos e informações de status entre os sistemas computacionais e os sistemas de armazenamento e também para a transferência de dados entre os sistemas de armazenamento. Considere a arquitetura FC abaixo. A forma de interconectividade da arquitetura FC mostrada na figura é chamada
-
-* **A)** com um sistema operacional de 64 bits, vai operar em modo de 64 bits ou de 32 bits, o que é chamado de modo de compatibilidade. Neste caso todos os drivers do sistema devem ter 32 bits.
-* **B)** que consiga trabalhar com processadores de 64 bits não aceita drivers e aplicativos de 32 bits. Assim todos eles devem ser substituídos pelas versões 64 bits, senão ocorrerão erros de compatibilidade.
-* **C)** com sistema operacional de 64 bits é capaz de reconhecer uma quantidade maior de memória RAM do que um de 32 bits, o qual suporta o máximo de 32 GB de RAM.
-* **D)** que consiga reconhecer memória RAM acima de 2 GB tem que necessariamente ser de 64 bits.
-* **E)** com sistema operacional de 64 bits pode não inicializar um processador de 64 bits se não houver suporte para o BIOS. O BIOS da placa mãe deve ter suporte para processador de 64 bits.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "com um sistema operacional de 64 bits, vai operar em modo de 64 bits ou de 32 bits, o que é chamado de modo de...". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, a notação Big-O ($\mathcal{O}$) mensura o crescimento do tempo de execução ou do consumo de memória de um algoritmo à medida que o tamanho da entrada ($n$) tende ao infinito, descrevendo o limite superior assintótico (*pior caso* ou caso geral).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "que consiga trabalhar com processadores de 64 bits não aceita drivers e aplicativos de 32 bits. Assim todos eles...". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, alta Coesão e Baixo Acoplamento: Módulos de software de excelência devem ser altamente coesos (cada classe com foco em um propósito único do negócio) e fracamente acoplados (comunicação através de interfaces abstratas, permitindo substituição dinâmica).
-> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Recursão e Pilha de Execução (Call Stack)* deste guia, a ausência ou falha no caso base gera recursão infinita e o esgotamento da memória de pilha do sistema operacional (*StackOverflowError*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "com sistema operacional de 64 bits é capaz de reconhecer uma quantidade maior de memória RAM do que um de 32 bits...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "que consiga reconhecer memória RAM acima de 2 GB tem que necessariamente ser de 64 bits". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, transparência Referencial: Uma expressão pode ser substituída diretamente pelo seu valor resultante em qualquer ponto do programa sem alterar o comportamento global do sistema.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "com sistema operacional de 64 bits pode não inicializar um processador de 64 bits se não houver suporte para o...". De acordo com a teoria estudada em *2.4 Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos*, menos rígida que a AVL em altura, demandando menor quantidade de rotações em operações frequentes de inserção e exclusão (utilizada internamente no `TreeMap` e `HashMap` do Java).
->
-> **Gabarito: C**
-
----
-
-### Teste 059
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
-Sobre a Análise Exploratória de Dados (AED), avalie as afirmativas a seguir. I. A AED permite a obtenção do entendimento sobre os dados coletados. II. A AED fornece uma ideia de como os dados se distribuem e sua forma de apresentação. III. Algoritmos de Machine Learning são as principais ferramentas utilizadas na AED. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.4 Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos*, *Algoritmos de Percurso:* Busca em Profundidade (DFS - usa pilha/recursão) e Busca em Largura (BFS - usa fila).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Análise Assintótica e a Notação Big-O* deste guia, $\mathcal{O}(2^n)$: Exponencial — Crescimento explosivo impraticável — Algoritmos de força bruta (ex.: subconjuntos). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I e II, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.5 Matriz Geral de Complexidade das Estruturas de Dados*, estrutura de Dados: Acesso Médio — Acesso Pior — Busca Média — Busca Pior — Inserção Média — Inserção Pior — Remoção Média — Remoção Pior.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.5 Matriz Geral de Complexidade das Estruturas de Dados*, vetor (Array): $\mathcal{O}(1)$ — $\mathcal{O}(1)$ — $\mathcal{O}(n)$ — $\mathcal{O}(n)$ — $\mathcal{O}(n)$ — $\mathcal{O}(n)$ — $\mathcal{O}(n)$ — $\mathcal{O}(n)$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.5 Matriz Geral de Complexidade das Estruturas de Dados*, lista Encadeada: $\mathcal{O}(n)$ — $\mathcal{O}(n)$ — $\mathcal{O}(n)$ — $\mathcal{O}(n)$ — $\mathcal{O}(1)^*$ — $\mathcal{O}(1)^*$ — $\mathcal{O}(1)^*$ — $\mathcal{O}(1)^*$.
->
-> **Gabarito: B**
-
----
-
 ## 3. Paradigma de Programação Orientada a Objetos (POO)
 
 ### 3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo
@@ -376,33 +374,9 @@ Essa comparação é cobrada com frequência máxima pela banca FCC:
 
 ---
 
-### Teste 060
-**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-A modelagem funcional de um sistema pode ser realizada por meio de DFDs que
-
-* **A)** mostram a organização dos valores no interior dos objetos e a sequência em que ocorrem as interações entre os processos.
-* **B)** não mostram informações de controle, como o momento em que os processos são executados, ou decisões entre vias alternativas de dados.
-* **C)** apresentam os relacionamentos funcionais dos valores calculados por um sistema incluindo valores de entrada e saída, mas não inclui valores de depósitos de dados.
-* **D)** mostram as classes, atributos, operações e relacionamentos entre os processos e atores do sistema.
-* **E)** são compostos por processos, fluxo de dados, entidades externas, atributos e métodos.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mostram a organização dos valores no interior dos objetos e a sequência em que ocorrem as interações entre os...". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, polimorfismo: Capacidade de objetos de diferentes classes derivadas responderem a uma mesma mensagem (chamada de método) de maneiras particulares e especializadas.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)* deste guia, momento de Resolução: Tempo de Compilação (*Compile-time* / Ligação Estática / *Early Binding*). — Tempo de Execução (*Runtime* / Ligação Dinâmica / *Late Binding*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "não mostram informações de controle, como o momento em que os processos são executados, ou decisões entre vias...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresentam os relacionamentos funcionais dos valores calculados por um sistema incluindo valores de entrada e...". De acordo com a teoria estudada em *4.3 Operações Funcionais sobre Coleções: map, filter e reduce*, método Funcional: Propósito Central da Operação — Cardinalidade de Saída vs. Entrada — Tipo do Retorno.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mostram as classes, atributos, operações e relacionamentos entre os processos e atores do sistema". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, *Classe Abstrata:* Não pode ser instanciada diretamente (`new`). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são compostos por processos, fluxo de dados, entidades externas, atributos e métodos". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, *Ausência de Efeitos Colaterais (*No Side Effects*):* Não modifica variáveis externas ou globais, não altera parâmetros recebidos por referência e não realiza operações de I/O em disco ou rede durante a sua computação pura.
->
-> **Gabarito: B**
-
----
-
-### Teste 061
-**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
-No editor de apresentações Powerpoint, o slide mestre é um recurso inteligente para detectar imagens, gráficos ou tabelas presentes em um slide em edição, e oferecer sugestões ao usuário sobre como organizar os objetos com um layout otimizado.
+### Teste 007
+**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
+A documentação técnica referente à API dos microsserviços desenvolvidos na PDPJ-Br deve seguir o padrão Swagger 2.0, a fim de garantir a compatibilidade com as especificações legadas dos sistemas antigos.
 
 * **C)** Certo
 * **E)** Errado
@@ -411,14 +385,84 @@ No editor de apresentações Powerpoint, o slide mestre é um recurso inteligent
 
 > **Comentário Detalhado:**
 >
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo* deste guia, polimorfismo: Capacidade de objetos de diferentes classes derivadas responderem a uma mesma mensagem (chamada de método) de maneiras particulares e especializadas. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRF/6/2025) ao afirmar que "No editor de apresentações Powerpoint, o slide mestre é um recurso inteligente para detectar imagens...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, segundo a qual a composição de objetos (*relação "tem um"*) é amplamente recomendada por promover delegação dinâmica e flexibilidade em tempo de execução.
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A documentação técnica referente à API dos microsserviços desenvolvidos na PDPJ Br deve seguir o padrão...". De acordo com a teoria em *2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas*, f In["Fim: Enqueue()"] F 3["Elemento C"] F 2["Elemento B"] F 1["Elemento A"] F Out["Início: Dequeue()"].
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 008
+**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
+Durante a fase de seleção do fornecedor, a equipe de planejamento da contratação é responsável por apoiar o pregoeiro ou a comissão de licitação na análise e no julgamento das propostas e dos recursos apresentados pelas licitantes, bem como na condução de eventual prova de distribuída de microsserviços e à biblioteca Flyway, julgue os próximos itens.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, ausência de Efeitos Colaterais ( No Side Effects ): Não modifica variáveis externas ou globais, não altera parâmetros recebidos por referência e não realiza operações de I/O em disco ou rede durante a sua computação pura. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STJ/2024) ao afirmar que "Durante a fase de seleção do fornecedor, a equipe de planejamento da contratação é responsável por apoiar o...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
 >
 > **Gabarito: C**
 
 ---
 
-### Teste 062
+
+### Teste 009
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Seguranca Da Informacao)**
+Gilberto trabalha no setor de segurança do Tribunal de Justiça do Amapá (TJAP) e está fazendo a modelagem de possíveis ameaças aos seus sistemas, aplicativos, redes e serviços. Após pesquisar alguns modelos, decidiu realizar a modelagem seguindo o STRIDE (Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege). O modelo relaciona as ameaças do acrônimo STRIDE com as propriedades de segurança. Inicialmente, Gilberto trabalhará na propriedade de integridade. Logo, dentro do acrônimo STRIDE, a ameaça a ser trabalhada por Gilberto será:
+
+* **A)** spoofing;
+* **B)** tampering;
+* **C)** repudiation;
+* **D)** information disclosure;
+* **E)** denial of service.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "spoofing". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, alta Coesão e Baixo Acoplamento: Módulos de software de excelência devem ser altamente coesos (cada classe com foco em um propósito único do negócio) e fracamente acoplados (comunicação através de interfaces abstratas, permitindo substituição dinâmica).
+> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento* deste guia, classe Abstrata: Não pode ser instanciada diretamente ( new ). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "tampering".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "repudiation". De acordo com a teoria estudada em *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)*, passagem por Referência (ou Valor da Referência): Em linguagens modernas como Java e Python, a passagem é estritamente por valor, mas para variáveis de tipos não primitivos (objetos e coleções), o "valor" copiado é o endereço de memória (ponteiro) do objeto. Logo.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "information disclosure". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, imutabilidade: As estruturas de dados não são alteradas após criadas. Qualquer transformação produz uma nova estrutura de dados, deixando a original intacta. Isso elimina problemas de condição de corrida ( race conditions ) em ambientes concorrentes multithread.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "denial of service". De acordo com a teoria estudada em *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)*, escopo Local de Bloco/Função: Visível estritamente dentro do corpo da sub rotina onde foi declarada, sendo liberada da pilha ( stack ) ao término da execução.
+>
+> **Gabarito: B**
+
+---
+
+
+### Teste 010
+**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
+A arquitetura em três camadas surgiu no final dos anos 80 e ainda é comum na construção de sistemas de informação corporativos. As três camadas dessa arquitetura são
+
+* **A)** interface com o usuário, lógica de negócio e banco de dados.
+* **B)** interface com o usuário, microsserviços e repositório.
+* **C)** publicador, broker de eventos e assinante.
+* **D)** cliente, web server e banco de dados.
+* **E)** modelo, visão e controle.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo* deste guia, abstração: Foco nos atributos e operações essenciais de uma entidade do domínio de negócio, isolando aspectos acidentais ou supérfluos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "interface com o usuário, lógica de negócio e banco de dados".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "interface com o usuário, microsserviços e repositório". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, alta Coesão e Baixo Acoplamento: Módulos de software de excelência devem ser altamente coesos (cada classe com foco em um propósito único do negócio) e fracamente acoplados (comunicação através de interfaces abstratas, permitindo substituição dinâmica).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "publicador, broker de eventos e assinante". De acordo com a teoria estudada em *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)*, a lógica de programação orienta a elaboração de sequências finitas, ordenadas e inequívocas de passos para a resolução computacional de problemas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cliente, web server e banco de dados". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, encapsulamento: Ocultamento do estado interno e detalhes algorítmicos de um objeto. O acesso às variáveis de instância é protegido por modificadores de visibilidade ( private , protected , public ), expondo apenas operações controladas de interface pública.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "modelo, visão e controle". De acordo com a teoria estudada em *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)*, dependência de Herança: Não depende de herança. — Exige herança ou implementação de interface.
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 011
 **(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
 A utilização de interfaces em projetos de software orientados a objetivo promove a separação de aspectos internos e externos de um objeto, impedindo o acesso direto aos detalhes de seu funcionamento interno. Esse mecanismo de separação também contribui para que o software seja construído como um conjunto de componentes que realizam seu trabalho de forma independente. O uso desse mecanismo em projetos de sistemas de software é um exemplo de:
 
@@ -433,14 +477,110 @@ A utilização de interfaces em projetos de software orientados a objetivo promo
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "abstração". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, abstração: Foco nos atributos e operações essenciais de uma entidade do domínio de negócio, isolando aspectos acidentais ou supérfluos.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo* deste guia, encapsulamento: Ocultamento do estado interno e detalhes algorítmicos de um objeto. O acesso às variáveis de instância é protegido por modificadores de visibilidade (`private`, `protected`, `public`), expondo apenas operações controladas de interface pública. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "encapsulamento".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "herança". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, composição sobre Herança: A herança gera forte acoplamento de código (*acoplamento de caixa-branca*), quebrando o encapsulamento caso a subclasse dependa de detalhes de implementação da superclasse.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "proteção de código". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, herança: Relação estática entre classes onde uma subclasse (filha) estende atributos e comportamentos de uma superclasse (pai), estabelecendo uma taxonomia do tipo "é um" (*is-a*).
+> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo* deste guia, encapsulamento: Ocultamento do estado interno e detalhes algorítmicos de um objeto. O acesso às variáveis de instância é protegido por modificadores de visibilidade ( private , protected , public ), expondo apenas operações controladas de interface pública. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "encapsulamento".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "herança". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, composição sobre Herança: A herança gera forte acoplamento de código ( acoplamento de caixa branca ), quebrando o encapsulamento caso a subclasse dependa de detalhes de implementação da superclasse. A composição de objetos ( relação "tem um" ) é amplamente recomendada por promover delegação dinâmica e flexibilidade em tempo de execução.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "proteção de código". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, herança: Relação estática entre classes onde uma subclasse (filha) estende atributos e comportamentos de uma superclasse (pai), estabelecendo uma taxonomia do tipo "é um" ( is a ).
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "polimorfismo". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, polimorfismo: Capacidade de objetos de diferentes classes derivadas responderem a uma mesma mensagem (chamada de método) de maneiras particulares e especializadas.
 >
 > **Gabarito: B**
 
 ---
+
+
+### Teste 012
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+São consideradas técnicas de elicitação de requisitos as Com relação às características de orientação a objetos, julgue os itens que se seguem.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *5. Fontes Oficiais e Referências Bibliográficas*, oracle Java Documentation Object Oriented Programming Concepts Fundamentos formais de orientação a objetos: classes, objetos, encapsulamento e polimorfismo. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT/10/2013) ao afirmar que "São consideradas técnicas de elicitação de requisitos as Com relação às características de orientação a...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 013
+**(FCC – TRT 3ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+O Administrador de uma rede local de computadores, que utiliza IPs Classe B, identificou que o servidor da rede local recebeu requisições de acesso de um computador da mesma rede local com IP: 192.168.1.1. O tipo de ataque identificado é conhecido como
+
+* **A)** DoS.
+* **B)** Spoofing.
+* **C)** Scanning.
+* **D)** Defacement.
+* **E)** DDoS.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "DoS". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, classe Abstrata: Não pode ser instanciada diretamente ( new ). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)* deste guia, definição: Múltiplos métodos com o mesmo nome declarados na mesma classe. — Redefinição de um método herdado da superclasse na subclasse. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 3ª/2015) ao estabelecer que "Spoofing".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Scanning". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, polimorfismo: Capacidade de objetos de diferentes classes derivadas responderem a uma mesma mensagem (chamada de método) de maneiras particulares e especializadas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Defacement". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, interface: Define um contrato puro de comportamento. Classes de diferentes hierarquias podem implementar a mesma interface, viabilizando o desacoplamento de contratos e a substituição de componentes.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "DDoS". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, herança: Relação estática entre classes onde uma subclasse (filha) estende atributos e comportamentos de uma superclasse (pai), estabelecendo uma taxonomia do tipo "é um" ( is a ).
+>
+> **Gabarito: B**
+
+---
+
+
+### Teste 014
+**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
+O Sistema Gerenciador de Banco de Dados (SGBD)
+
+* **A)** SQL Server 2014 possui várias tecnologias de BI, como o Integration Services, uma plataforma que inclui pacotes que fornecem processamento de extração, transformação e carregamento (ETL) para armazenamento de dados.
+* **B)** PostegreSQL 9.4 utiliza um modelo cliente/servidor. Uma sessão PostgreSQL consiste de 2 processos cooperativos: o processo servidor que executa as operações no BD e o processo usuário-cliente que gerencia os arquivos do BD.
+* **C)** Oracle 11g utiliza o seguinte comando para criar um novo BD, denominado meuBD: $createdatabase meuBD.
+* **D)** PostegreSQL utiliza o pacote DBMS_CONNECTION_POOL para gerenciar o Database Resident Connection Pool, cujos procedimentos são usados pelo Administrador para configurar parâmetros pool como resize e trigger limit.
+* **E)** Oracle 11g permite que o Analysis Services e o Reporting Services possam ser instalados como servidores autônomos em aplicativos de serviço compartilhado em um farm do SharePoint.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial* deste guia, imutabilidade: As estruturas de dados não são alteradas após criadas. Qualquer transformação produz uma nova estrutura de dados, deixando a original intacta. Isso elimina problemas de condição de corrida ( race conditions ) em ambientes concorrentes multithread. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "SQL Server 2014 possui várias tecnologias de BI, como o Integration Services, uma plataforma que inclui pacotes...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PostegreSQL 9.4 utiliza um modelo cliente/servidor. Uma sessão PostgreSQL consiste de 2 processos cooperativos: o...". De acordo com a teoria estudada em *4.3 Operações Funcionais sobre Coleções: map, filter e reduce*, filtro |"map(salario 1.10)"| Mapeado["[4400, 5500]<br/ (Transformação 1:1)"].
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Oracle 11g utiliza o seguinte comando para criar um novo BD, denominado meuBD: $createdatabase meuBD". De acordo com a teoria estudada em *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)*, alterações no estado interno do objeto (ex.: lista.add("item") ou obj.setNome("novo") ) afetam diretamente o objeto original no chamador.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PostegreSQL utiliza o pacote DBMS CONNECTION POOL para gerenciar o Database Resident Connection Pool, cujos...". De acordo com a teoria estudada em *4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)*, funções como Cidadãs de Primeira Classe ( First Class Citizens ): Funções podem ser atribuídas a variáveis, armazenadas em estruturas de dados, passadas como parâmetros e retornadas como resultado de outras funções.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Oracle 11g permite que o Analysis Services e o Reporting Services possam ser instalados como servidores autônomos...". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, transparência Referencial: Uma expressão pode ser substituída diretamente pelo seu valor resultante em qualquer ponto do programa sem alterar o comportamento global do sistema.
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 015
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
+Na modernização dos sistemas de fiscalização, o Tribunal migrou de um sistema monolítico para uma arquitetura de microsserviços. Durante uma auditoria técnica, observou-se que a falha em um serviço de autenticação estava causando a queda em cascata de todos os outros serviços dependentes. O padrão de projeto de arquitetura de software a ser implementado para interromper chamadas a um serviço que está a falhar, permitindo que o sistema degrade graciosamente em vez de colapsar, é o
+
+* **A)** Singleton.
+* **B)** Observer.
+* **C)** Circuit Breaker.
+* **D)** Adapter.
+* **E)** Facade.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Singleton". De acordo com a teoria estudada em *1.2 Recursão e Pilha de Execução (Call Stack)*, caso Base (Condição de Parada): Uma condição booleana explícita que encerra as chamadas subsequentes e retorna um valor constante imediato. A ausência ou falha no caso base gera recursão infinita e o esgotamento da memória de pilha do sistema operacional ( StackOverflowError ).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Observer". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, transparência Referencial: Uma expressão pode ser substituída diretamente pelo seu valor resultante em qualquer ponto do programa sem alterar o comportamento global do sistema.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento* deste guia, alta Coesão e Baixo Acoplamento: Módulos de software de excelência devem ser altamente coesos (cada classe com foco em um propósito único do negócio) e fracamente acoplados (comunicação através de interfaces abstratas, permitindo substituição dinâmica). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Circuit Breaker".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Adapter". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, classe Abstrata: Não pode ser instanciada diretamente ( new ). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Facade". De acordo com a teoria estudada em *2.2 Tabelas Hash (Hash Tables) e Métodos de Tratamento de Colisão*, a complexidade temporal média de busca, inserção e remoção em uma Tabela Hash é $\mathcal{O}(1)$. Todavia, no pior caso (quando todas as chaves colidem no mesmo índice devido a uma função hash deficiente ou ataque de negação de serviço), a complexidade degrada compulsoriamente para $\mathcal{O}(n)$. A FCC frequentemente tenta enganar o candidato afirmando que a busca em tabela hash é $\mathcal{O}(1)$ em qualquer circunstância!.
+>
+> **Gabarito: C**
+
+---
+
+
 
 ## 4. Paradigma de Programação Funcional (PF)
 
@@ -474,54 +614,6 @@ flowchart LR
 | **`filter`** | Seleciona os elementos da coleção que satisfazem um predicado booleano. | $0 \le \text{tamanho} \le n$ | Nova coleção filtrada com elementos do mesmo tipo. |
 | **`map`** | Aplica uma função de transformação individual a cada elemento da coleção. | Rigorosamente igual a $n$ | Nova coleção com elementos transformados (mesmo tamanho). |
 | **`reduce`** | Acumula todos os elementos da coleção aplicando iterativamente uma função de combinação. | Exatamente $1$ valor | Valor escalar consolidado ou objeto acumulador único (número, string). |
-
----
-
-### Teste 063
-**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
-Em sistemas computacionais, diversos componentes desempenham funções essenciais e interagem para assegurar o funcionamento eficiente do sistema. A compreensão de como esses elementos se conectam e colaboram é fundamental para entender o funcionamento do hardware. Nesse contexto, analise as seguintes afirmações. I. O barramento é o canal de comunicação responsável por interligar os componentes, viabilizando a troca de dados entre os diversos dispositivos. Ele pode ser utilizado para a transmissão de sinais de controle, instruções e dados. II. O componente responsável por coordenar e gerenciar toda a atividade de um processador é a Unidade Lógica e Aritmética. III. Os registradores são memórias de média velocidade e alta capacidade de armazenamento, porém seu uso é limitado devido ao alto custo. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial* deste guia, transparência Referencial: Uma expressão pode ser substituída diretamente pelo seu valor resultante em qualquer ponto do programa sem alterar o comportamento global do sistema. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "I, apenas".
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)*, funções como Cidadãs de Primeira Classe (*First-Class Citizens*): Funções podem ser atribuídas a variáveis, armazenadas em estruturas de dados, passadas como parâmetros e retornadas como resultado de outras funções.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, alta Coesão e Baixo Acoplamento: Módulos de software de excelência devem ser altamente coesos (cada classe com foco em um propósito único do negócio) e fracamente acoplados (comunicação através de interfaces abstratas, permitindo substituição dinâmica).
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, *Interface:* Define um contrato puro de comportamento. Classes de diferentes hierarquias podem implementar a mesma interface, viabilizando o desacoplamento de contratos e a substituição de componentes.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)*, funções de Alta Ordem (*Higher-Order Functions*): Funções que recebem uma ou mais funções como argumento ou retornam uma função (como `map`, `filter`, `reduce`).
->
-> **Gabarito: A**
-
----
-
-### Teste 064
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
-Algumas importantes bibliotecas de programação em Python desempenham papel crucial no desenvolvimento de soluções eficientes para uma variedade de problemas em Ciência de Dados e Aprendizado de Máquina. O objetivo principal da biblioteca Pandas no contexto da ciência de dados e análise de dados é
-
-* **A)** facilitar a manipulação e análise de dados estruturados pela disponibilização de opções de estruturas de dados.
-* **B)** fornecer ferramentas para processamento de linguagem natural e textos.
-* **C)** oferecer uma interface de alto nível para construção e treinamento de modelos de redes neurais.
-* **D)** prover funcionalidades para manipulação de datas e horas de forma eficiente.
-* **E)** realizar cálculos numéricos eficientes e manipulação de arrays multidimensionais.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial* deste guia, a Programação Funcional é um paradigma declarativo que trata a computação como a avaliação de funções matemáticas e evita a mutação de estados e dados. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "facilitar a manipulação e análise de dados estruturados pela disponibilização de opções de estruturas de dados".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fornecer ferramentas para processamento de linguagem natural e textos". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, imutabilidade: As estruturas de dados não são alteradas após criadas. Qualquer transformação produz uma nova estrutura de dados, deixando a original intacta.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "oferecer uma interface de alto nível para construção e treinamento de modelos de redes neurais". De acordo com a teoria estudada em *2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos*, percurso em Largura (BFS / Level-Order): Visita os nós nível por nível, de cima para baixo e da esquerda para a direita, utilizando uma Fila auxiliar: `40, 20, 60, 10, 30, 50, 70`.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "prover funcionalidades para manipulação de datas e horas de forma eficiente". De acordo com a teoria estudada em *4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)*, funções como Cidadãs de Primeira Classe (*First-Class Citizens*): Funções podem ser atribuídas a variáveis, armazenadas em estruturas de dados, passadas como parâmetros e retornadas como resultado de outras funções.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realizar cálculos numéricos eficientes e manipulação de arrays multidimensionais". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, a Busca Binária exige obrigatoriamente que a estrutura esteja previamente ordenada e suporte acesso aleatório indexado em tempo $\mathcal{O}(1)$ (como arrays e vetores contíguos). Sua complexidade temporal é $\mathcal{O}(\log n)$.
->
-> **Gabarito: A**
 
 ---
 

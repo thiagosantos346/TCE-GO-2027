@@ -4,10 +4,7 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `05_autenticacao_identidade_oauth2_oidc_jwt.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Autenticação, identidade e autorização
@@ -116,48 +113,6 @@ flowchart TD
 
 ---
 
-### Teste 098
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
-Alguns dos primeiros modelos de linguagem de larga escala desenvolvidos tendiam a gerar resultados incorretos com excesso de confiança, caracterizando o que se convencionou chamar de alucinações dos modelos. Uma estratégia de mitigação das alucinações é o uso da técnica de Geração Aumentada por Recuperação, ou Retrieval-Augmented Generation (RAG). A respeito da RAG, avalie as afirmativas a seguir. I. Baseia-se na combinação de sistemas de recuperação de informações e de modelos generativos capazes de produzir novos textos. II. Permite aos modelos buscarem informações relevantes em bases de dados mais confiáveis durante o processamento das consultas dos usuários (user queries), viabilizando melhor adequação a contextos e melhor qualidade das respostas. III. Não altera os parâmetros dos modelos generativos, e, portanto, não influencia o treinamento das redes neurais com informações recuperadas de bases de dados externas. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.3 Modelos de Controle de Acesso: RBAC e ABAC*, permite regras condicionais refinadas (ex.: "Permitir acesso apenas se o auditor pertencer à 2ª Câmara, o processo for da sua relatoria e o acesso ocorrer em dia útil via VPN do TCE").
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.3 Modelos de Controle de Acesso: RBAC e ABAC*, complexidade de Gestão: Sofre do problema de explosão de papéis (*role explosion*) quando a organização necessita de regras com granularidade muito fina. — Complexidade na escrita e no processamento computacional de políticas dinâmicas (frequentemente expressas em padrões como XACML ou OPA/Rego).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1.3 Modelos de Controle de Acesso: RBAC e ABAC*, uma vez autenticada a entidade, o subsistema de autorização aplica políticas para liberar ou vetar o acesso aos endpoints e bancos de dados.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.3 Modelos de Controle de Acesso: RBAC e ABAC*, aplicação Típica: Sistemas departamentais convencionais e portais corporativos simples. — Ambientes governamentais críticos, controle fiscal e sistemas orientados a microsserviços.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Fatores de Autenticação e MFA* deste guia, fator de Conhecimento (*Something you know*): Informações secretas memorizadas pelo usuário (senhas alfanuméricas, códigos PIN, respostas a perguntas de segurança). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I, II e III".
->
-> **Gabarito: E**
-
----
-
-### Teste 099
-**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
-O OAuth 2.0 utiliza refresh tokens para obter novos tokens de acesso, sem pedir ao usuário para fazer login novamente, e serve de base para o OpenID Connect, que adiciona uma camada de autenticação sobre o protocolo de wireless, julgue os itens subsecutivos.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *3.1 Distinção Essencial: OAuth 2.0 vs. OpenID Connect* deste guia, a afirmação *"OAuth 2.0 é um protocolo de autenticação"* é um dos maiores distratores em concursos públicos!. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STJ/2024) ao afirmar que "O OAuth 2.0 utiliza refresh tokens para obter novos tokens de acesso, sem pedir ao usuário para fazer login...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *3.1 Distinção Essencial: OAuth 2.0 vs. OpenID Connect*, segundo a qual o OpenID Connect (OIDC 1.0) é uma camada de identidade e autenticação federada construída sobre o OAuth 2.0. Ele introduz o escopo obrigatório `openid` e define o padrão para emissão de um token de identidade padronizado: o ID Token.
->
-> **Gabarito: C**
-
----
-
 ## 2. Framework de Autorização OAuth 2.0 (RFC 6749)
 
 ### 2.1 Os Quatro Papéis Fundamentais
@@ -233,90 +188,6 @@ Os **escopos (*scopes*)** no OAuth 2.0 são identificadores textuais que express
 
 ---
 
-### Teste 100
-**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
-De acordo com a especificação OAuth 2.0, o token de acesso, credencial utilizada para acessar recursos protegidos, é uma string que representa uma autorização emitida para o cliente.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2.1 Os Quatro Papéis Fundamentais* deste guia, o framework OAuth 2.0 (padronizado pela IETF na RFC 6749) foi concebido para resolver o problema da concessão delegada de acesso, permitindo que uma aplicação terceira acesse recursos protegidos em nome do usuário sem jamais exigir o compartilhamento de suas credenciais (login e senha). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRF 6ª/2025) ao afirmar que "De acordo com a especificação OAuth 2.0, o token de acesso, credencial utilizada para acessar recursos...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *3.2 Tríade de Tokens no OIDC: ID Token, Access Token e Refresh Token*, segundo a qual finalidade Primária: Provar que o usuário se autenticou com sucesso e fornecer seus atributos básicos de perfil (`sub`, `name`, `email`). — Credencial utilizada para autorizar chamadas às APIs e microsserviços nos cabeçalhos `Authorization: Bearer <token>`. — Credencial de longa duração utilizada para obter um novo *Access Token* quando o atual expirar, sem exigir novas credenciais do usuário.
->
-> **Gabarito: C**
-
----
-
-### Teste 101
-**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
-A estrutura de autorização do OAuth 2.0 permite que uma aplicação obtenha acesso ilimitado a um serviço HTTP se houver token válido, mas não permite que uma aplicação de terceiros obtenha acesso por conta própria.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2.2 Fluxos de Concessão (Grant Types) e Cenários de Aplicação* deste guia, resource Owner Password Credentials (ROPC): O usuário digita suas credenciais corporativas diretamente na tela da aplicação cliente. — Crítico — DEPRECADO E PROIBIDO no OAuth 2.1 (viola a premissa central de não compartilhar senhas com clientes terceiros). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRF/6/2025) ao afirmar que "A estrutura de autorização do OAuth 2.0 permite que uma aplicação obtenha acesso ilimitado a um serviço HTTP...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *3.1 Distinção Essencial: OAuth 2.0 vs. OpenID Connect*, segundo a qual oAuth 2.0 é exclusivamente um framework de autorização delegada. Ele informa que uma aplicação tem autorização para consumir determinadas APIs, mas não padroniza quem é o usuário, qual o formato do token nem como consultar o perfil do usuário.
->
-> **Gabarito: C**
-
----
-
-### Teste 102
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
-O analista João administra o servidor de autenticação Keycloak do TJAP. A aplicação TJApp está registrada como um client OpenID Connect do Keycloak, sob o nome tjapp-client. João recebeu a solicitação de habilitar em tjapp-client o recurso que permite a própria aplicação cliente, TJApp, obter um token de acesso de forma autônoma, sem envolver nenhum usuário final. João habilitou em tjapp-client o recurso:
-
-* **A)** direct grants;
-* **B)** client adapters;
-* **C)** token mappers;
-* **D)** identity brokers;
-* **E)** service accounts.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "direct grants". De acordo com a teoria estudada em *2.1 Os Quatro Papéis Fundamentais*, resource Owner (Proprietário do Recurso): A entidade (normalmente o usuário humano final) capaz de outorgar o acesso aos seus recursos protegidos.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "client adapters". De acordo com a teoria estudada em *2.1 Os Quatro Papéis Fundamentais*, *Public Client (Cliente Público):* Incapaz de proteger um segredo criptográfico estático, pois roda no dispositivo do usuário final (SPAs em JavaScript no navegador, aplicativos móveis para Android/iOS).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "token mappers". De acordo com a teoria estudada em *3.3 Endpoints Padronizados OIDC e Single Sign-On (SSO) Corporativo*, `/userinfo`: Endpoint protegido onde a aplicação cliente apresenta o *Access Token* para obter dados adicionais e detalhados do perfil do usuário autenticado.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "identity brokers". De acordo com a teoria estudada em *3.3 Endpoints Padronizados OIDC e Single Sign-On (SSO) Corporativo*, o OpenID Connect padroniza os endpoints do Provedor de Identidade (*Identity Provider* - IdP).
-> - **E)** **Correta.** Conforme fundamentado na seção *3.3 Endpoints Padronizados OIDC e Single Sign-On (SSO) Corporativo* deste guia, single Sign-On (SSO): Arquitetura corporativa federada que permite ao usuário realizar login uma única vez no Provedor de Identidade (ex.: Keycloak, Microsoft Entra ID / Azure AD, Auth0) e acessar de forma transparente todos os sistemas governamentais integrados sem reinserir senhas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "service accounts".
->
-> **Gabarito: E**
-
----
-
-### Teste 103
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
-Em um Sistema de Gerenciamento de Banco de Dados (SGBD), recursos como Stored Procedures e Triggers são utilizados para dar maior flexibilidade para as aplicações a serem desenvolvidas, com o objetivo de regras e controles serem implementados na camada do banco. No contexto apresentado, assinale a opção que mostra a principal diferença entre Stored Procedures e Triggers.
-
-* **A)** Stored Procedures são usadas para automatizar a execução de tarefas rotineiras, enquanto Triggers são usadas para armazenar procedimentos complexos.
-* **B)** Stored Procedures são acionadas automaticamente em resposta a eventos específicos, enquanto Triggers são procedimentos armazenados que podem ser chamados explicitamente por comandos SQL.
-* **C)** Stored Procedures são sempre escritas em linguagens de programação de alto nível, enquanto Triggers são escritas em SQL puro.
-* **D)** Stored Procedures são armazenadas no disco junto com os dados do banco, enquanto Triggers são armazenadas apenas na memória principal do servidor.
-* **E)** Stored Procedures são executadas apenas uma vez por evento, enquanto Triggers são executadas repetidamente até que o evento seja concluído.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Stored Procedures são usadas para automatizar a execução de tarefas rotineiras, enquanto Triggers são usadas para...". De acordo com a teoria estudada em *4.4 Armazenamento Seguro de Tokens no Cliente e Mitigação de Ataques*, qualquer script malicioso injetado via XSS pode ler `localStorage.getItem("token")` e exfiltrá-lo. — Imune a CSRF (o navegador não anexa dados do localStorage automaticamente às requisições). — Desaconselhado para armazenamento de tokens com privilégios elevados.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.4 Escopos (Scopes) e Autorização Granular* deste guia, o Servidor de Recursos (API) analisa as claims de escopo presentes dentro do token de acesso para autorizar ou barrar endpoints específicos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Stored Procedures são acionadas automaticamente em resposta a eventos específicos, enquanto Triggers são...".
-> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Stored Procedures são sempre escritas em linguagens de programação de alto nível, enquanto Triggers são escritas...". De acordo com a teoria estudada em *2.2 Fluxos de Concessão (Grant Types) e Cenários de Aplicação*, fluxo (*Grant Type*): Cenário Operacional — Nível de Segurança — Situação Normativa Atual.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Stored Procedures são armazenadas no disco junto com os dados do banco, enquanto Triggers são armazenadas apenas...". De acordo com a teoria estudada em *5. Quadro Comparativo Consolidado de Segurança de Acesso*, problema Solucionado: Elimina a necessidade de repassar senhas para aplicações terceiras — Padroniza o Single Sign-On (SSO) e o intercâmbio de perfis — Elimina a necessidade de o backend consultar o banco de dados a cada requisição (*Stateless*).
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Stored Procedures são executadas apenas uma vez por evento, enquanto Triggers são executadas repetidamente até que...". De acordo com a teoria estudada em *Claims Registradas (Registered Claims)*, `nbf` (*Not Before*): Timestamp antes do qual o token não pode ser aceito para processamento.
->
-> **Gabarito: B**
-
----
-
 ## 3. Camada de Identidade OpenID Connect (OIDC 1.0)
 
 ### 3.1 Distinção Essencial: OAuth 2.0 vs. OpenID Connect
@@ -354,30 +225,6 @@ O OpenID Connect padroniza os endpoints do Provedor de Identidade (*Identity Pro
 - **`/token`:** Onde o cliente troca o código de autorização pelos tokens de acesso e identidade.
 - **`/userinfo`:** Endpoint protegido onde a aplicação cliente apresenta o *Access Token* para obter dados adicionais e detalhados do perfil do usuário autenticado.
 - **Single Sign-On (SSO):** Arquitetura corporativa federada que permite ao usuário realizar login uma única vez no Provedor de Identidade (ex.: Keycloak, Microsoft Entra ID / Azure AD, Auth0) e acessar de forma transparente todos os sistemas governamentais integrados sem reinserir senhas.
-
----
-
-### Teste 104
-**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
-Considerando os conceitos e ferramentas relacionados a serviços de autenticação/autorização, webhooks e message brokers, avalie as afirmativas a seguir e assinale (V) para a(s) verdadeira(s) e (F) para a(s) falsa(s). ( ) Um dos principais objetivos do SAML é proporcionar Single-Sign On (SSO), isto é, permitir que um usuário se autentique uma vez e tenha acesso a outros sistemas sem a necessidade de fornecer novamente suas credenciais. ( ) No protocolo MQTT do RabbitMQ, a publicação de mensagens acontece dentro do contexto de um link. ( ) Keycloak permite a implementação de Single-Sign On (SSO) e fornece suporte para OpenID Connect e OAuth 2.0. As afirmativas são, respectivamente,
-
-* **A)** V – F – F.
-* **B)** V – F – V.
-* **C)** V – V – F.
-* **D)** F – F – V.
-* **E)** F – V – V.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *3.1 Distinção Essencial: OAuth 2.0 vs. OpenID Connect*, a afirmação *"OAuth 2.0 é um protocolo de autenticação"* é um dos maiores distratores em concursos públicos!.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Endpoints Padronizados OIDC e Single Sign-On (SSO) Corporativo* deste guia, single Sign-On (SSO): Arquitetura corporativa federada que permite ao usuário realizar login uma única vez no Provedor de Identidade (ex.: Keycloak, Microsoft Entra ID / Azure AD, Auth0) e acessar de forma transparente todos os sistemas governamentais integrados sem reinserir senhas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "V – F – V".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *3.3 Endpoints Padronizados OIDC e Single Sign-On (SSO) Corporativo*, o OpenID Connect padroniza os endpoints do Provedor de Identidade (*Identity Provider* - IdP).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *5. Quadro Comparativo Consolidado de Segurança de Acesso*, problema Solucionado: Elimina a necessidade de repassar senhas para aplicações terceiras — Padroniza o Single Sign-On (SSO) e o intercâmbio de perfis — Elimina a necessidade de o backend consultar o banco de dados a cada requisição (*Stateless*).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *3.3 Endpoints Padronizados OIDC e Single Sign-On (SSO) Corporativo*, `/token`: Onde o cliente troca o código de autorização pelos tokens de acesso e identidade.
->
-> **Gabarito: B**
 
 ---
 
@@ -463,72 +310,6 @@ flowchart TD
 
 ---
 
-### Teste 105
-**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
-A política de segurança da cibernética do Poder Judiciário (PSEC-PJ) tem por finalidade prover princípios, objetivos e instrumentos capazes de assegurar a segurança cibernética no Poder Judiciário. Dentre os instrumentos da PSEC-PJ, foi instituído o protocolo de gerenciamento de crises cibernéticas no âmbito do Poder Judiciário (PGCC-PJ). Considerando o previsto na PSEC-PJ e no PGCC-PJ, ações responsivas devem ser colocadas em prática quando:
-
-* **A)** um incidente de segurança impactar o processo judicial eletrônico;
-* **B)** o computador de um analista judiciário do TRF1 for contaminado por vírus;
-* **C)** a mídia noticiar o comprometimento de credenciais de acesso de um sistema descontinuado;
-* **D)** o servidor de arquivos de backup do TRF1 ficar em manutenção por dois dias consecutivos;
-* **E)** a contratação do serviço da nuvem nacional da plataforma digital do Poder Judiciário brasileiro atrair grande atenção da mídia e da população em geral.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *4.3 Assinatura Digital: Algoritmos Simétricos (HS256) vs. Assimétricos (RS256)* deste guia, *Vulnerabilidade Arquitetural:* Todos os microsserviços que precisam validar tokens devem conhecer a chave secreta. Caso uma API periférica seja violada e a chave vaze, o invasor adquire o poder de forjar tokens legítimos para todo o ecossistema corporativo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "um incidente de segurança impactar o processo judicial eletrônico".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o computador de um analista judiciário do TRF1 for contaminado por vírus". De acordo com a teoria estudada em *4.1 Anatomia Estrutural: Header, Payload e Signature*, o JWT (RFC 7519) é um padrão aberto compacto e autocontido (*stateless*) para transmitir com segurança informações entre partes na forma de um objeto JSON.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a mídia noticiar o comprometimento de credenciais de acesso de um sistema descontinuado". De acordo com a teoria estudada em *1.1 Autenticação (AuthN) vs. Autorização (AuthZ)*, autorização (AuthZ - *Authorization*): Processo de determinar quais direitos, permissões e operações uma entidade previamente autenticada tem legitimidade para exercer sobre um recurso específico no sistema.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o servidor de arquivos de backup do TRF1 ficar em manutenção por dois dias consecutivos". De acordo com a teoria estudada em *1.1 Autenticação (AuthN) vs. Autorização (AuthZ)*, a segurança em sistemas de informação modernos apoia-se na distinção categórica entre dois processos interdependentes.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a contratação do serviço da nuvem nacional da plataforma digital do Poder Judiciário brasileiro atrair grande...". De acordo com a teoria estudada em *1.1 Autenticação (AuthN) vs. Autorização (AuthZ)*, autenticação (AuthN - *Authentication*): Processo de validação e verificação inequívoca da identidade alegada por uma entidade (seja ela um usuário humano, um dispositivo ou um serviço autônomo). Responde à indagação fundamental: "Quem é você?".
->
-> **Gabarito: A**
-
----
-
-### Teste 106
-**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
-A estrutura de autorização do OAuth 2.0 permite que uma aplicação obtenha acesso ilimitado a um serviço HTTP se houver token válido, mas não permite que uma aplicação de
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A estrutura de autorização do OAuth 2.0 permite que uma aplicação obtenha acesso ilimitado a um serviço HTTP...". De acordo com a teoria estudada em *1.1 Autenticação (AuthN) vs. Autorização (AuthZ)*, autenticação (AuthN - *Authentication*): Processo de validação e verificação inequívoca da identidade alegada por uma entidade (seja ela um usuário humano, um dispositivo ou um serviço autônomo). Responde à indagação fundamental: "Quem é você?".
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *3.1 Distinção Essencial: OAuth 2.0 vs. OpenID Connect* deste guia, oAuth 2.0 é exclusivamente um framework de autorização delegada. Ele informa que uma aplicação tem autorização para consumir determinadas APIs, mas não padroniza quem é o usuário, qual o formato do token nem como consultar o perfil do usuário. Portanto, a assertiva examinada pela banca (CEBRASPE – TRF 6ª/2025) viola os preceitos técnicos do tópico.
->
-> **Gabarito: E**
-
----
-
-### Teste 107
-**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
-Observe a declaração abaixo no contexto de páginas Web. <div class="jumbotron"> <h1>Teste</h1> <p>Frase inicial...</p> </div> Assinale o framework usualmente associado à classe utilizada.
-
-* **A)** Angular Material.
-* **B)** Bootstrap.
-* **C)** CSS.
-* **D)** JSON.
-* **E)** SpringBoot.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Angular Material". De acordo com a teoria estudada em *2.2 Fluxos de Concessão (Grant Types) e Cenários de Aplicação*, authorization Code com PKCE: Clientes públicos: Single Page Applications (SPAs em React, Angular) e Apps Mobile nativos. — Máximo — Obrigatório pelas diretrizes contemporâneas (RFC 7636 e OAuth 2.1).
-> - **B)** **Correta.** Conforme fundamentado na seção *4.1 Anatomia Estrutural: Header, Payload e Signature* deste guia, no formato compacto serializado JWS (*JSON Web Signature*), é composto por três seções separadas por pontos (`.`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "Bootstrap".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CSS". De acordo com a teoria estudada em *4.1 Anatomia Estrutural: Header, Payload e Signature*, para manter o conteúdo em sigilo contra interceptadores, deve-se adotar o padrão JWE (*JSON Web Encryption*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "JSON". De acordo com a teoria estudada em *4.3 Assinatura Digital: Algoritmos Simétricos (HS256) vs. Assimétricos (RS256)*, todos os servidores de recursos, APIs e clientes validam a assinatura utilizando unicamente a chave pública, obtida no endpoint padronizado JWKS (*JSON Web Key Set* - `/.well-known/jwks.json`).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SpringBoot". De acordo com a teoria estudada em *3.2 Tríade de Tokens no OIDC: ID Token, Access Token e Refresh Token*, finalidade Primária: Provar que o usuário se autenticou com sucesso e fornecer seus atributos básicos de perfil (`sub`, `name`, `email`). — Credencial utilizada para autorizar chamadas às APIs e microsserviços nos cabeçalhos `Authorization: Bearer <token>`. — Credencial de longa duração utilizada para obter um novo *Access Token* quando o atual expirar, sem exigir novas credenciais do usuário.
->
-> **Gabarito: B**
-
----
-
 ## 5. Quadro Comparativo Consolidado de Segurança de Acesso
 
 | Dimensão | OAuth 2.0 | OpenID Connect (OIDC) | JWT (JWS) |
@@ -537,8 +318,6 @@ Observe a declaração abaixo no contexto de páginas Web. <div class="jumbotron
 | **Token Principal** | *Access Token* (concede acesso aos endpoints) | *ID Token* (contém as informações do perfil do usuário) | É o formato adotado para o ID Token e geralmente para o Access Token |
 | **Problema Solucionado** | Elimina a necessidade de repassar senhas para aplicações terceiras | Padroniza o Single Sign-On (SSO) e o intercâmbio de perfis | Elimina a necessidade de o backend consultar o banco de dados a cada requisição (*Stateless*) |
 | **Norma Técnica** | RFC 6749 / RFC 7636 | OpenID Connect Core 1.0 | RFC 7519 / RFC 7515 |
-
-
 
 ---
 

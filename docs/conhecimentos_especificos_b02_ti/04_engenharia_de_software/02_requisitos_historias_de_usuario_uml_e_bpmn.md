@@ -4,10 +4,7 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `02_requisitos_historias_de_usuario_uml_e_bpmn.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Levantamento, especificação, análise, validação e gerenciamento de requisitos funcionais e não funcionais
@@ -99,53 +96,225 @@ flowchart TD
 
 ---
 
-### Teste 012
-**(FCC – TRT 9ª – 2015 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-A visão estática do RUP, uma variação do UP (Unified Process), prioriza as atividades que ocorrem durante o processo de desenvolvimento. Na descrição do RUP, estas atividades são chamadas de workflows. No workflow
+### Teste 001
+**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
+Paula e Maria estão avaliando as potencialidades dos usos de JSON e XML no desenvolvimento de aplicações Web para uma grande companhia estatal. As analistas sabem que JSON e XML são duas escolhas muito comuns quando se trata de formatos de dados na Web. A esse respeito, assinale a afirmativa correta.
 
-* **A)** Gerenciamento de Configuração e Mudança os atores que interagem com o sistema são identificados e os casos de uso são desenvolvidos para modelar os requisitos do sistema.
-* **B)** Meio Ambiente os processos de negócio são modelados por meio de casos de uso de negócios.
-* **C)** Análise e Projeto um modelo de projeto é criado e documentado com modelos de arquitetura, modelos de componentes, modelos de objetos e modelos de sequência.
-* **D)** Gerenciamento de Projeto, um dos principais do RUP, os componentes do sistema são implementados e estruturados em subsistemas de implementação.
-* **E)** Modelagem de Negócios são disponibilizadas as ferramentas apropriadas para a equipe de desenvolvimento implementar o modelo de projeto do software.
+* **A)** Com relação à legibilidade, Paula informa que ambos são legíveis por humanos, mas os documentos XML são mais detalhados.
+* **B)** Com relação ao volume de dados, Maria informa que o JSON é maior e menos compacto que o XML devido aos elementos extra de marcação.
+* **C)** Com relação as análises, Paula informa que as análises dos documentos JSON são mais complexas que os XML.
+* **D)** Com relação ao apoio à gestão de dados, Maria informa que ambos possuem limitado suporte ao idioma português e que o XML está em desuso.
+* **E)** Com relação aos casos de uso, Paula informa que o JSON é geralmente preterido para aplicações web devido ao seu código binário ser maior o que XML.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerenciamento de Configuração e Mudança os atores que interagem com o sistema são identificados e os casos de uso...". De acordo com a teoria estudada em *1.4 Gerenciamento, Rastreabilidade e Mudança de Requisitos*, matriz de Rastreabilidade: Tabela que mapeia a correlação bidirecional entre requisitos de usuário, requisitos de sistema, diagramas de arquitetura e casos de testes unitários.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Meio Ambiente os processos de negócio são modelados por meio de casos de uso de negócios". De acordo com a teoria estudada em *4.1 Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas*, a notação BPMN 2.0 (*Business Process Model and Notation*), mantida pelo consórcio OMG, é o padrão global para desenho de processos de negócio.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Diagramas de Sequência, Atividades e Máquina de Estados* deste guia, diagrama de Sequência: Representa como os objetos colaboram em uma sequência temporal ordenada. Elementos chave. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 9ª/2015) ao estabelecer que "Análise e Projeto um modelo de projeto é criado e documentado com modelos de arquitetura, modelos de componentes...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerenciamento de Projeto, um dos principais do RUP, os componentes do sistema são implementados e estruturados em...". De acordo com a teoria estudada em *1.4 Gerenciamento, Rastreabilidade e Mudança de Requisitos*, *Rastreabilidade para frente (Forward traceability):* Liga o requisito aos módulos arquiteturais, classes, componentes e casos de teste que o implementam e validam.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Modelagem de Negócios são disponibilizadas as ferramentas apropriadas para a equipe de desenvolvimento implementar...". De acordo com a teoria estudada em *2.3 Critérios de Aceite e o Padrão INVEST*, e: Estimable (Estimável) — A equipe deve compreender a complexidade técnica para estimar seu esforço de desenvolvimento em *Story Points* ou horas.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Ciclo de Vida da Engenharia de Requisitos* deste guia, especificação: Documentação formal dos requisitos levantados por meio de documentos formais (Documento de Requisitos de Software DRS), Casos de Uso ou Histórias de Usuário. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "Com relação à legibilidade, Paula informa que ambos são legíveis por humanos, mas os documentos XML são mais...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Com relação ao volume de dados, Maria informa que o JSON é maior e menos compacto que o XML devido aos elementos...". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, atores: Papéis desempenhados por entidades externas em relação ao sistema. Podem ser Atores Primários (iniciam o caso de uso para atingir um objetivo) ou Atores Secundários (fornecem serviços de apoio ao sistema, como um serviço externo de pagamento).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Com relação as análises, Paula informa que as análises dos documentos JSON são mais complexas que os XML". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, gW OR["Inclusivo (OR Marcador 'O')<br/ • Ativa UM OU MAIS caminhos que satisfaçam as condições booleanas"].
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Com relação ao apoio à gestão de dados, Maria informa que ambos possuem limitado suporte ao idioma português e que...". De acordo com a teoria estudada em *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)*, requisitos Externos: Derivam de fatores externos ao sistema e à organização (ex.: aderência à Lei Geral de Proteção de Dados LGPD, normas de interoperabilidade e regulamentações do Banco Central).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Com relação aos casos de uso, Paula informa que o JSON é geralmente preterido para aplicações web devido ao seu...". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, generalização / Especialização: Relação de herança representada por uma seta com triângulo vazado na ponta. Pode ocorrer entre casos de uso ou entre atores (ex.: Auditor de TI especializa Auditor Geral ).
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 002
+**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
+A UML é usada para facilitar o entendimento de aspectos complexos inerentes a sistemas computacionais e oferece uma família de notações gráficas e diagramas que ajudam na descrição e captura de diferentes visões de um software. Para modelar comportamentos dinâmicos de um sistema de software, é recomendado o diagrama:
+
+* **A)** de objetos;
+* **B)** de componentes;
+* **C)** de casos de uso;
+* **D)** de implantação;
+* **E)** de classes.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de objetos". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, um Caso de Uso descreve uma sequência de interações entre um ator externo (humano ou outro sistema) e o software para atingir um objetivo específico que entregue valor mensurável.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de componentes". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Componentes (módulos executáveis e interfaces de software).
+> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais* deste guia, diagrama de Casos de Uso (interações de atores com funcionalidades). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "de casos de uso".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de implantação". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Implantação ( Deployment ) (arquitetura de hardware, nós de rede e distribuição de artefatos).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de classes". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, especificação: Documentação formal dos requisitos levantados por meio de documentos formais (Documento de Requisitos de Software DRS), Casos de Uso ou Histórias de Usuário.
 >
 > **Gabarito: C**
 
 ---
 
-### Teste 013
-**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-Considere: I. Uma Especificação de Requisitos que reflete todas as decisões que foram tomadas e não contém cláusulas de pendências. Desta forma, contém todos os requisitos significativos relativos a funcionalidade, desempenho, restrições de desenho, atributos e interfaces externas, além de definir as respostas do software para todas as entradas possíveis, válidas e inválidas, em todas as situações possíveis. II. Uma Especificação de Requisitos em que todo requisito presente possui apenas uma única interpretação, aceita tanto pelos desenvolvedores quanto pelos usuários chaves. Em particular, ela é compreensível para todo o seu público alvo e é suficiente para a especificação dos testes de aceitação do produto. Os itens I e II descrevem especificações cujos requisitos contemplam, respectivamente, as qualidades
 
-* **A)** rastreabilidade e consistência.
-* **B)** completeza e precisão.
-* **C)** correção e completeza.
-* **D)** consistência e priorização.
-* **E)** verificabilidade e precisão.
+### Teste 003
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+Requisitos funcionais estão relacionados ao uso de um sistema sob os pontos de vista de desempenho, usabilidade e confiabilidade, entre outros.
+
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "rastreabilidade e consistência". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, análise e Negociação: Detecção de conflitos entre requisitos de diferentes fontes, análise de completude, consistência e priorização de demandas.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)* deste guia, especificam o que o sistema deve fazer em resposta a determinadas entradas, como reagir a situações específicas e quais cálculos realizar (ex.: *"O sistema deve calcular a alíquota previdenciária com base na remuneração bruta"*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "completeza e precisão".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correção e completeza". De acordo com a teoria estudada em *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)*, *Requisitos de Produto:* Especificam o comportamento do produto em tempo de execução (desempenho, tempo de resposta, taxa de ocupação de memória, confiabilidade e disponibilidade mínima de 99,9%).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consistência e priorização". De acordo com a teoria estudada em *1.2 Técnicas de Elicitação de Requisitos*, questionários e Pesquisas: Eficientes para coletar impressões de uma base ampla de usuários geograficamente dispersa, com baixo custo, embora sujeita a respostas superficiais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "verificabilidade e precisão". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, especificação: Documentação formal dos requisitos levantados por meio de documentos formais (Documento de Requisitos de Software - DRS), Casos de Uso ou Histórias de Usuário.
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Requisitos funcionais estão relacionados ao uso de um sistema sob os pontos de vista de desempenho...". De acordo com a teoria em *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)*, rNF RNF PROD["Requisitos de Produto<br/ (Desempenho, Usabilidade, Confiabilidade, Portabilidade, Segurança)"].
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 004
+**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Flávio pretende desenvolver um software seguindo os estágios do modelo em cascata proposto por Sommerville, em razão de ponderações que faz em relação a outros modelos quanto à solução de um problema que se apresenta. Desta forma ele definiu em seu cronograma, na ordem apresentada pelo autor, as seguintes etapas do ciclo de vida de software:
+
+* **A)** Projeto de sistema e software; Definição de requisitos; Implementação e teste de unidade; Integração e teste de sistema; Operação e manutenção.
+* **B)** Projeto de sistema e software; Engenharia de software; Integração e teste de sistema; Análise de requisitos funcionais e técnicos; Operação e manutenção; Implementação e teste de unidade.
+* **C)** Projeto de sistema e software; Análise de requisitos; Engenharia de requisitos; Implantação; Testes de sistemas; Operação e manutenção.
+* **D)** Definição de requisitos; Engenharia de requisitos; Integração e teste de sistema; Projeto de sistema e software; Implementação e teste de unidade; Operação e manutenção; Integração e teste de sistema.
+* **E)** Definição de requisitos; Projeto de sistema e software; Implementação e teste de unidade; Integração e teste de sistema; Operação e manutenção.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Projeto de sistema e software; Definição de requisitos; Implementação e teste de unidade; Integração e teste de...". De acordo com a teoria estudada em *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)*, requisitos Funcionais (RF): Descrevem as funções e comportamentos que o software deve executar. Especificam o que o sistema deve fazer em resposta a determinadas entradas, como reagir a situações específicas e quais cálculos realizar (ex.: "O sistema deve calcular a alíquota previdenciária com base na remuneração bruta" ).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Projeto de sistema e software; Engenharia de software; Integração e teste de sistema; Análise de requisitos...". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, a Engenharia de Requisitos é o processo disciplinado de descobrir, analisar, documentar e verificar os serviços fornecidos pelo sistema e suas restrições operacionais (Ian Sommerville). Divide se em etapas interligadas.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Projeto de sistema e software; Análise de requisitos; Engenharia de requisitos; Implantação; Testes de sistemas...". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, validação: Verificação se os requisitos especificados refletem fielmente as reais necessidades do cliente (revisões técnicas, testes de protótipos e geração de casos de teste).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Definição de requisitos; Engenharia de requisitos; Integração e teste de sistema; Projeto de sistema e software...". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, especificação: Documentação formal dos requisitos levantados por meio de documentos formais (Documento de Requisitos de Software DRS), Casos de Uso ou Histórias de Usuário.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)* deste guia, rEQ["Requisitos de Software"] RF["Requisitos Funcionais (RF)<br/ O QUE o sistema faz (serviços, cálculos, regras de negócio)"]. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "Definição de requisitos; Projeto de sistema e software; Implementação e teste de unidade; Integração e teste de...".
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 005
+**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Revisão de risco Protótipo 1 Simulação, modelos, benchmarks Plano de requisitos Plano de ciclo de vida Conceito de operação I II III Validação de P la n o d e requisitos dese n v o lv i m ento Código Teste de V&V do I n t e g r a ç ã o e projeto unidade p l a n o d e te s te Teste de integração Teste de aceitação Operação Planejar próxima fase Desenvolver, verificar produto de próximo nível Modelo em espiral do processo de software de Boehm (c /EEE,1988). Os itens I, II e III correspondem, respectivamente, a
+
+* **A)** Requisitos de SW - Projeto do produto - Projeto detalhado
+* **B)** Projeto de HW - Codificação de alto nível - Implementação
+* **C)** Requisitos funcionais e não funcionais - Protótipo final - Fluxograma de programa
+* **D)** Levantamento de dados - Fluxograma do sistema - Modelo funcional
+* **E)** Modelo Funcional - Modelo de dados - Codificação de alto nível
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Requisitos de SW Projeto do produto Projeto detalhado". De acordo com a teoria estudada em *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)*, rNF RNF ORG["Requisitos Organizacionais<br/ (Padrões de projeto, Linguagem de programação, Metodologia de entrega)"].
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Projeto de HW Codificação de alto nível Implementação". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, validação: Verificação se os requisitos especificados refletem fielmente as reais necessidades do cliente (revisões técnicas, testes de protótipos e geração de casos de teste).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Requisitos funcionais e não funcionais Protótipo final Fluxograma de programa". De acordo com a teoria estudada em *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)*, requisitos Externos: Derivam de fatores externos ao sistema e à organização (ex.: aderência à Lei Geral de Proteção de Dados LGPD, normas de interoperabilidade e regulamentações do Banco Central).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Levantamento de dados Fluxograma do sistema Modelo funcional". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, elicitação (Levantamento): Identificação e descoberta dos requisitos junto aos clientes, usuários e demais partes interessadas ( stakeholders ).
+> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Ciclo de Vida da Engenharia de Requisitos* deste guia, a Engenharia de Requisitos é o processo disciplinado de descobrir, analisar, documentar e verificar os serviços fornecidos pelo sistema e suas restrições operacionais (Ian Sommerville). Divide se em etapas interligadas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "Modelo Funcional Modelo de dados Codificação de alto nível".
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 006
+**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
+Um Tribunal está modelando: I. os processos de negócio para a construção de um novo sistema orientado a objetos; II. a interação entre os usuários e os requisitos funcionais, na fase de levantamento de requisitos. Nesse contexto, considerando que a linguagem UML foi escolhida como única linguagem de modelagem, os diagramas que devem ser utilizados em I e II são, respectivamente,
+
+* **A)** de Sequência e de Casos de Uso.
+* **B)** Business Process Model and Notation e Diagrama de Comunicação.
+* **C)** de Atividades e de Casos de Uso.
+* **D)** Fluxogramas e Diagramas de Contexto.
+* **E)** de Atividades e de Comunicação.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de Sequência e de Casos de Uso". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, um Caso de Uso descreve uma sequência de interações entre um ator externo (humano ou outro sistema) e o software para atingir um objetivo específico que entregue valor mensurável.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Business Process Model and Notation e Diagrama de Comunicação". De acordo com a teoria estudada em *4.1 Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas*, a notação BPMN 2.0 ( Business Process Model and Notation ), mantida pelo consórcio OMG, é o padrão global para desenho de processos de negócio.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)* deste guia, atores: Papéis desempenhados por entidades externas em relação ao sistema. Podem ser Atores Primários (iniciam o caso de uso para atingir um objetivo) ou Atores Secundários (fornecem serviços de apoio ao sistema, como um serviço externo de pagamento). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "de Atividades e de Casos de Uso".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Fluxogramas e Diagramas de Contexto". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Casos de Uso (interações de atores com funcionalidades).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de Atividades e de Comunicação". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, associação: Linha contínua que conecta um ator a um caso de uso, denotando comunicação direta.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 007
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
+O Tribunal adotou o Test-Driven Development (TDD) para garantir a qualidade do código nos sistemas de cálculo de pensões. Um auditor está revisando o processo de desenvolvimento e quer validar se a equipe segue o ciclo padrão do TDD. A sequência correta de passos no ciclo Red-Green-Refactor do TDD é:
+
+* **A)** escrever o código, testar se funciona e depois documentar.
+* **B)** escrever um teste que falha, escrever o código mínimo para o teste passar e melhorar o código.
+* **C)** refatorar o código antigo, escrever novos testes e apagar os testes que falham.
+* **D)** desenvolver a interface, integrar a base de dados, escrever o teste e realizar testes de carga.
+* **E)** documentar os requisitos, codificar em par e realizar o deploy em produção.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "escrever o código, testar se funciona e depois documentar". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, a Engenharia de Requisitos é o processo disciplinado de descobrir, analisar, documentar e verificar os serviços fornecidos pelo sistema e suas restrições operacionais (Ian Sommerville). Divide se em etapas interligadas.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Ciclo de Vida da Engenharia de Requisitos* deste guia, validação: Verificação se os requisitos especificados refletem fielmente as reais necessidades do cliente (revisões técnicas, testes de protótipos e geração de casos de teste). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "escrever um teste que falha, escrever o código mínimo para o teste passar e melhorar o código".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "refatorar o código antigo, escrever novos testes e apagar os testes que falham". De acordo com a teoria estudada em *1.4 Gerenciamento, Rastreabilidade e Mudança de Requisitos*, rastreabilidade para frente (Forward traceability): Liga o requisito aos módulos arquiteturais, classes, componentes e casos de teste que o implementam e validam.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desenvolver a interface, integrar a base de dados, escrever o teste e realizar testes de carga". De acordo com a teoria estudada em *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)*, requisitos Funcionais (RF): Descrevem as funções e comportamentos que o software deve executar. Especificam o que o sistema deve fazer em resposta a determinadas entradas, como reagir a situações específicas e quais cálculos realizar (ex.: "O sistema deve calcular a alíquota previdenciária com base na remuneração bruta" ).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "documentar os requisitos, codificar em par e realizar o deploy em produção". De acordo com a teoria estudada em *2.3 Critérios de Aceite e o Padrão INVEST*, e: Estimable (Estimável) — A equipe deve compreender a complexidade técnica para estimar seu esforço de desenvolvimento em Story Points ou horas.
 >
 > **Gabarito: B**
 
 ---
+
+
+### Teste 008
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
+Na fase de análise de um novo sistema de gestão de pessoal, o auditor precisa validar as interações entre os atores e o sistema, identificando os limites da aplicação. O diagrama da UML 2 mais indicado para representar as funcionalidades do sistema sob a perspectiva dos atores é o
+
+* **A)** Diagrama de Classes.
+* **B)** Diagrama de Sequência.
+* **C)** Diagrama de Casos de Uso.
+* **D)** Diagrama de Implementação.
+* **E)** Diagrama de Estados.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diagrama de Classes". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, relacionamentos no Diagrama de Casos de Uso (Cobrança Clássica da FCC).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diagrama de Sequência". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, um Caso de Uso descreve uma sequência de interações entre um ator externo (humano ou outro sistema) e o software para atingir um objetivo específico que entregue valor mensurável.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais* deste guia, diagrama de Casos de Uso (interações de atores com funcionalidades). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Diagrama de Casos de Uso".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diagrama de Implementação". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, atores: Papéis desempenhados por entidades externas em relação ao sistema. Podem ser Atores Primários (iniciam o caso de uso para atingir um objetivo) ou Atores Secundários (fornecem serviços de apoio ao sistema, como um serviço externo de pagamento).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diagrama de Estados". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Máquina de Estados (estados e transições de ciclo de vida de objetos).
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 009
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
+As autoridades públicas competentes no Estado de Santa Catarina foram instadas a analisar, de forma fundamentada, a regularidade do edital de licitação publicado pelo Município Alfa, visando à celebração de contrato administrativo de parceria público-privada. Nesse cenário, considerando as disposições da Lei nº 11.079/2004, a abertura do processo licitatório visando à celebração da citada parceria está condicionada à observância, dentre outros, dos seguintes requisitos, exceto um. Assinale-o.
+
+* **A)** Submissão da minuta de edital e de contrato à consulta pública, mediante publicação na imprensa oficial ou por meio eletrônico, que deverá informar a justificativa para a contratação, o prazo de duração do contrato e seu valor estimado, fixando-se prazo mínimo de quinze dias para recebimento de sugestões.
+* **B)** Declaração do ordenador da despesa de que as obrigações contraídas pela Administração Pública, no decorrer do contrato, são compatíveis com a lei de diretrizes orçamentárias e estão previstas na lei orçamentária anual.
+* **C)** Estimativa do fluxo de recursos públicos suficientes para o cumprimento, durante a vigência do contrato e por exercício financeiro, das obrigações contraídas pela Administração Pública.
+* **D)** Licença ambiental prévia ou expedição das diretrizes para o licenciamento ambiental do empreendimento, na forma do regulamento, sempre que o objeto do contrato exigir.
+* **E)** Seu objeto estar previsto no plano plurianual em vigor no âmbito onde o contrato será celebrado.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Submissão da minuta de edital e de contrato à consulta pública, mediante publicação na imprensa oficial ou por...". De acordo com a teoria estudada em *2.2 Histórias de Usuário (User Stories) e os 3 Cs de Ron Jeffries*, card (Cartão): A história é escrita de forma sucinta em um cartão físico ou digital, servindo como lembrete visual de uma funcionalidade a ser construída.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Declaração do ordenador da despesa de que as obrigações contraídas pela Administração Pública, no decorrer do...". De acordo com a teoria estudada em *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)*, requisitos Externos: Derivam de fatores externos ao sistema e à organização (ex.: aderência à Lei Geral de Proteção de Dados LGPD, normas de interoperabilidade e regulamentações do Banco Central).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estimativa do fluxo de recursos públicos suficientes para o cumprimento, durante a vigência do contrato e por...". De acordo com a teoria estudada em *4.1 Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas*, subprocessos: Atividades compostas que podem ser visualizadas de forma colapsada (com marcador de cruz "+") ou expandida.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.3 Critérios de Aceite e o Padrão INVEST* deste guia, n: Negotiable (Negociável) — A história não é um contrato pétreo. Seu escopo de detalhe deve permanecer aberto para negociações e ajustes durante a Sprint. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Licença ambiental prévia ou expedição das diretrizes para o licenciamento ambiental do empreendimento, na forma do...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Seu objeto estar previsto no plano plurianual em vigor no âmbito onde o contrato será celebrado". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, cenários: Compõe se de um Cenário Principal (fluxo básico ou "caminho feliz" onde tudo ocorre com sucesso) e Cenários Alternativos/Exceção (desvios de rota, validações de erro ou falhas).
+>
+> **Gabarito: D**
+
+---
+
+
 
 ## 2. Modelagem por Casos de Uso e Histórias de Usuário
 
@@ -198,78 +367,6 @@ $$\text{"Como [papel de usuário], eu quero [funcionalidade/ação], para que [b
 | **E** | **Estimable** (Estimável) | A equipe deve compreender a complexidade técnica para estimar seu esforço de desenvolvimento em *Story Points* ou horas. |
 | **S** | **Small** (Pequena) | A história deve ser dimensionada adequadamente para ser concluída com folga dentro de uma única iteração/sprint. |
 | **T** | **Testable** (Testável) | A história deve possuir critérios de aceite objetivos e claros que permitam a validação automatizada ou manual de aprovação. |
-
----
-
-### Teste 014
-**(FCC – TRT 2ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-Independentemente do tipo de tecnologia usada, ao se conectar um computador à rede ele pode estar sujeito a diversos tipos de ataques. De acordo com a cartllha CERT. BR, está correto o que se afirma em:
-
-* **A)** Interceptação de tráfego consiste em adivinhar, por tentativa e erro, um nome de usuário e senha e, assim, executar processos e acessar sites, computadores e serviços com o nome e com os mesmos privilégios deste usuário. Apesar deste ataque poder ser realizado manualmente, na grande maioria dos casos, é realizado com o uso de ferramentas automatizadas que permitem tornar o ataque bem mais efetivo.
-* **B)** Varredura em redes é uma técnica que consiste em alterar o conteúdo da página web de um site. Para ganhar mais visibilidade, chamar mais atenção e atingir maior número de visitantes, geralmente os atacantes alteram a página principal do site, porém, páginas internas também podem ser alteradas.
-* **C)** Um ataque de força bruta é uma técnica que consiste em efetuar buscas minuciosas em redes, com o objetivo de identificar computadores ativos e coletar informações. Com base nas informações coletadas é possível associar possíveis vulnerabilidades aos serviços disponibilizados, e aos programas instalados nos computadores ativos detectados.
-* **D)** Desfiguração ou defacement é uma técnica que consiste em inspecionar os dados trafegados em redes de computadores, por meio do uso de programas específicos chamados de sniffers.
-* **E)** Ataque de negação de serviço é uma técnica pela qual um atacante utiliza um computador para tirar de operação um serviço, um computador ou uma rede conectada à Internet. O objetivo é exaurir recursos e causar indisponibilidades ao alvo. Quando isto ocorre, todas as pessoas que dependem dos recursos afetados são prejudicadas, pois ficam impossibilitadas de acessar ou realizar as operações desejadas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Interceptação de tráfego consiste em adivinhar, por tentativa e erro, um nome de usuário e senha e, assim...". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, cenários: Compõe-se de um *Cenário Principal* (fluxo básico ou "caminho feliz" onde tudo ocorre com sucesso) e *Cenários Alternativos/Exceção* (desvios de rota, validações de erro ou falhas).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Varredura em redes é uma técnica que consiste em alterar o conteúdo da página web de um site. Para ganhar mais...". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, um Caso de Uso descreve uma sequência de interações entre um ator externo (humano ou outro sistema) e o software para atingir um objetivo específico que entregue valor mensurável.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Um ataque de força bruta é uma técnica que consiste em efetuar buscas minuciosas em redes, com o objetivo de...". De acordo com a teoria estudada em *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)*, especificam o que o sistema deve fazer em resposta a determinadas entradas, como reagir a situações específicas e quais cálculos realizar (ex.: *"O sistema deve calcular a alíquota previdenciária com base na remuneração bruta"*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Desfiguração ou defacement é uma técnica que consiste em inspecionar os dados trafegados em redes de computadores...". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Implantação (*Deployment*) (arquitetura de hardware, nós de rede e distribuição de artefatos).
-> - **E)** **Correta.** Conforme fundamentado na seção *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)* deste guia, atores: Papéis desempenhados por entidades externas em relação ao sistema. Podem ser *Atores Primários* (iniciam o caso de uso para atingir um objetivo) ou *Atores Secundários* (fornecem serviços de apoio ao sistema, como um serviço externo de pagamento). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 2ª/2014) ao estabelecer que "Ataque de negação de serviço é uma técnica pela qual um atacante utiliza um computador para tirar de operação um...".
->
-> **Gabarito: E**
-
----
-
-### Teste 015
-**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
-Um bom diagrama pode ajudar a comunicar ideias sobre um sistema, principalmente quando deseja-se evitar muitos detalhes. Na UML, uma ferramenta recomendada para esse fim é o Caso de Uso. Acerca dos diagramas de casos de uso, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Casos de uso são uma técnica para capturar os requisitos não funcionais de um software. ( ) Casos de uso representam uma visão externa do sistema, logo não deve haver correlação com as classes internas do sistema. ( ) Raias, atores e transições são elementos comuns em casos de uso. As afirmativas são, respectivamente,
-
-* **A)** F – V – F.
-* **B)** V – V – F.
-* **C)** F – V – V.
-* **D)** F – F – V.
-* **E)** V – F – F.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)* deste guia, atores: Papéis desempenhados por entidades externas em relação ao sistema. Podem ser *Atores Primários* (iniciam o caso de uso para atingir um objetivo) ou *Atores Secundários* (fornecem serviços de apoio ao sistema, como um serviço externo de pagamento). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "F – V – F".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, um Caso de Uso descreve uma sequência de interações entre um ator externo (humano ou outro sistema) e o software para atingir um objetivo específico que entregue valor mensurável.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, generalização / Especialização: Relação de herança representada por uma seta com triângulo vazado na ponta. Pode ocorrer entre casos de uso ou entre atores (ex.: *Auditor de TI* especializa *Auditor Geral*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Casos de Uso (interações de atores com funcionalidades).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *1.4 Gerenciamento, Rastreabilidade e Mudança de Requisitos*, matriz de Rastreabilidade: Tabela que mapeia a correlação bidirecional entre requisitos de usuário, requisitos de sistema, diagramas de arquitetura e casos de testes unitários.
->
-> **Gabarito: A**
-
----
-
-### Teste 016
-**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-Revisão de risco Protótipo 1 Simulação, modelos, benchmarks Plano de requisitos Plano de ciclo de vida Conceito de operação I II III Validação de P la n o d e requisitos dese n v o lv i m ento Código Teste de V&V do I n t e g r a ç ã o e projeto unidade p l a n o d e te s te Teste de integração Teste de aceitação Operação Planejar próxima fase Desenvolver, verificar produto de próximo nível Modelo em espiral do processo de software de Boehm (c /EEE,1988). Os itens I, II e III correspondem, respectivamente, a
-
-* **A)** Requisitos de SW - Projeto do produto - Projeto detalhado
-* **B)** Projeto de HW - Codificação de alto nível - Implementação
-* **C)** Requisitos funcionais e não funcionais - Protótipo final - Fluxograma de programa
-* **D)** Levantamento de dados - Fluxograma do sistema - Modelo funcional
-* **E)** Modelo Funcional - Modelo de dados - Codificação de alto nível
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Requisitos de SW - Projeto do produto - Projeto detalhado". De acordo com a teoria estudada em *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)*, *Requisitos de Produto:* Especificam o comportamento do produto em tempo de execução (desempenho, tempo de resposta, taxa de ocupação de memória, confiabilidade e disponibilidade mínima de 99,9%).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Projeto de HW - Codificação de alto nível - Implementação". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, validação: Verificação se os requisitos especificados refletem fielmente as reais necessidades do cliente (revisões técnicas, testes de protótipos e geração de casos de teste).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Requisitos funcionais e não funcionais - Protótipo final - Fluxograma de programa". De acordo com a teoria estudada em *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)*, *Requisitos Externos:* Derivam de fatores externos ao sistema e à organização (ex.: aderência à Lei Geral de Proteção de Dados - LGPD, normas de interoperabilidade e regulamentações do Banco Central).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Levantamento de dados - Fluxograma do sistema - Modelo funcional". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, elicitação (Levantamento): Identificação e descoberta dos requisitos junto aos clientes, usuários e demais partes interessadas (*stakeholders*).
-> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Ciclo de Vida da Engenharia de Requisitos* deste guia, a Engenharia de Requisitos é o processo disciplinado de descobrir, analisar, documentar e verificar os serviços fornecidos pelo sistema e suas restrições operacionais (Ian Sommerville). Divide-se em etapas interligadas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "Modelo Funcional - Modelo de dados - Codificação de alto nível".
->
-> **Gabarito: E**
 
 ---
 
@@ -340,78 +437,6 @@ classDiagram
 
 ---
 
-### Teste 017
-**(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-Os modelos de processo são uma representação abstrata de um processo de software, que podem ser usados para explicar diferentes abordagens para o desenvolvimento de sistemas. Analise as seguintes abordagens: I Desenvolvimento : intercala as atividades de especificação, desenvolvimento e validação. Um sistema inicial é de-  senvolvido rapidamente baseado em especificações abstratas e depois é refinado com as entradas do cliente para produzir um produto que o satisfaça. II Modelo : considera as atividades fundamentais do processo, compreendendo especificação, desenvolvimento, validação e  evolução e as representa como fases de processo separadas, tais como especificação de requisitos, projeto de software, implementação, teste etc. III : baseia-se na existência de um número significativo de partes reusáveis. O processo de desenvolvimento do sistema  enfoca a integração destas partes, ao invés de desenvolvê-las a partir do zero. Os modelos de processo genéricos descritos em I, II e III são, correta e respectivamente, associados a:
-
-* **A)** em Espiral - Baseado em Componentes - RAD
-* **B)** Evolucionário - em Cascata - Baseado em Componentes
-* **C)** Baseado em Componentes - Sequencial - Refactoring
-* **D)** Ágil - Sequencial - Unified Process
-* **E)** em Cascata - Ágil - Refactoring
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em Espiral - Baseado em Componentes - RAD". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, gateway Baseado em Eventos (Pentágono): O desvio de fluxo depende de qual evento externo intermediário (recebimento de mensagem ou expiração de temporizador) ocorrer primeiro no tempo.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Diagrama de Classes: Visibilidade, Multiplicidade, Agregação e Composição* deste guia, a parte tem ciclo de vida estritamente atrelado ao todo: se o todo for destruído, todas as suas partes constitutivas são destruídas em cascata (ex.: *Processo e Peças dos Autos*; *Nota Fiscal e Itens da Nota*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 16ª/2014) ao estabelecer que "Evolucionário - em Cascata - Baseado em Componentes".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Baseado em Componentes - Sequencial - Refactoring". De acordo com a teoria estudada em *1.4 Gerenciamento, Rastreabilidade e Mudança de Requisitos*, *Rastreabilidade para frente (Forward traceability):* Liga o requisito aos módulos arquiteturais, classes, componentes e casos de teste que o implementam e validam.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ágil - Sequencial - Unified Process". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Componentes (módulos executáveis e interfaces de software).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em Cascata - Ágil - Refactoring". De acordo com a teoria estudada em *2.3 Critérios de Aceite e o Padrão INVEST*, letra: Critério INVEST — Significado Técnico na Prática Ágil.
->
-> **Gabarito: B**
-
----
-
-### Teste 018
-**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
-A UML é usada para facilitar o entendimento de aspectos complexos inerentes a sistemas computacionais e oferece uma família de notações gráficas e diagramas que ajudam na descrição e captura de diferentes visões de um software. Para modelar comportamentos dinâmicos de um sistema de software, é recomendado o diagrama:
-
-* **A)** de objetos;
-* **B)** de componentes;
-* **C)** de casos de uso;
-* **D)** de implantação;
-* **E)** de classes.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de objetos". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, um Caso de Uso descreve uma sequência de interações entre um ator externo (humano ou outro sistema) e o software para atingir um objetivo específico que entregue valor mensurável.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de componentes". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Componentes (módulos executáveis e interfaces de software).
-> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais* deste guia, diagrama de Casos de Uso (interações de atores com funcionalidades). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "de casos de uso".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de implantação". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Implantação (*Deployment*) (arquitetura de hardware, nós de rede e distribuição de artefatos).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de classes". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, evita duplicação de comportamentos comuns compartilhados por múltiplos casos de uso (ex.: *Emitir Relatório* inclui compulsoriamente *Autenticar Usuário*).
->
-> **Gabarito: C**
-
----
-
-### Teste 019
-**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
-Um Tribunal está modelando: I. os processos de negócio para a construção de um novo sistema orientado a objetos; II. a interação entre os usuários e os requisitos funcionais, na fase de levantamento de requisitos. Nesse contexto, considerando que a linguagem UML foi escolhida como única linguagem de modelagem, os diagramas que devem ser utilizados em I e II são, respectivamente,
-
-* **A)** de Sequência e de Casos de Uso.
-* **B)** Business Process Model and Notation e Diagrama de Comunicação.
-* **C)** de Atividades e de Casos de Uso.
-* **D)** Fluxogramas e Diagramas de Contexto.
-* **E)** de Atividades e de Comunicação.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de Sequência e de Casos de Uso". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, um Caso de Uso descreve uma sequência de interações entre um ator externo (humano ou outro sistema) e o software para atingir um objetivo específico que entregue valor mensurável.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Business Process Model and Notation e Diagrama de Comunicação". De acordo com a teoria estudada em *4.1 Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas*, a notação BPMN 2.0 (*Business Process Model and Notation*), mantida pelo consórcio OMG, é o padrão global para desenho de processos de negócio.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)* deste guia, atores: Papéis desempenhados por entidades externas em relação ao sistema. Podem ser *Atores Primários* (iniciam o caso de uso para atingir um objetivo) ou *Atores Secundários* (fornecem serviços de apoio ao sistema, como um serviço externo de pagamento). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "de Atividades e de Casos de Uso".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Fluxogramas e Diagramas de Contexto". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Casos de Uso (interações de atores com funcionalidades).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de Atividades e de Comunicação". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, associação: Linha contínua que conecta um ator a um caso de uso, denotando comunicação direta.
->
-> **Gabarito: C**
-
----
-
 ## 4. Modelagem de Processos de Negócio com BPMN 2.0
 
 ### 4.1 Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas
@@ -455,78 +480,6 @@ flowchart TD
   > 🚨 **REGRA DE OURO DO BPMN:** Um Fluxo de Sequência **NUNCA PODE CRUZAR A BORDA DE UMA POOL PARA OUTRA POOL!** Ele só pode cruzar linhas de Lanes dentro da mesma Pool!
 - **Fluxo de Mensagem (*Message Flow*):** Representado por **linha tracejada com um círculo vazado na origem e uma seta aberta no destino**. Utilizado estritamente para modelar comunicação e troca de mensagens **entre duas Pools distintas**.
 - **Associação:** Linha pontilhada simples, utilizada para associar dados, artefatos ou anotações de texto a objetos de fluxo.
-
----
-
-### Teste 020
-**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
-De acordo com a ITIL v3, um Acordo de Nível de Serviço (ANS) é um compromisso entre um provedor de serviço de TI e um cliente. Um ANS I pode definir de um incidente, problema ou mudança com base em impacto e urgência para identificar os tempos  requeridos para que ações adequadas sejam tomadas. II documenta , um compromisso que é baseado nos requisitos de nível de serviço, necessário para garantir que o desenho do  serviço de TI atenda a seu propósito. As lacunas I e II correspondem, correta e respectivamente, a
-
-* **A)** é baseado em um método de avaliar a organização, permitindo que ela seja pontuada de um nível de maturidade Ad-hoc (0) a Otimizado (4). Este enfoque é igual ao do modelo SEI-CMMI, para medir a maturidade da capacidade de desenvolvimento de software.
-* **B)** provê uma definição genérica para as escalas de maturidade, as quais são iguais às do CMMI, mas interpretadas de acordo com a natureza dos processos de gerenciamento de TI. Um modelo específico é fornecido derivando dessa escala genérica para cada um dos 38 processos COBIT.
-* **C)** assim como o do CMMI, provê escalas bastante granulares, que são mais fáceis de utilizar e sugerem uma desejável precisão, já que o propósito do modelo é identificar onde estão os problemas e como definir prioridades para os aprimoramentos.
-* **D)** da mesma forma que o enfoque original SEI-CMMI, tem a intenção de medir os níveis de maneira precisa, de forma a certificar que aquele nível foi exatamente atingido. A avaliação de maturidade do COBIT espera resultar em um perfil em que todas as condições para diversos níveis de maturidade sejam atingidas.
-* **E)** possui níveis de maturidade, designados como perfis de processos de TI, que a organização reconheceria como descrição de possíveis situações atuais e futuras. Eles não são designados como um modelo em que não se pode avançar para o próximo nível sem antes ter cumprido todas as condições do nível inferior.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é baseado em um método de avaliar a organização, permitindo que ela seja pontuada de um nível de maturidade Ad-hoc...". De acordo com a teoria estudada em *4.3 Estruturas de Separação (Pools e Lanes) e Conectores de Sequência vs. Mensagem*, raia (*Lane*): Subdivisão interna de uma Pool, utilizada para alocar tarefas e agrupar responsabilidades por departamentos, funções, setores ou sistemas daquela mesma organização.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "provê uma definição genérica para as escalas de maturidade, as quais são iguais às do CMMI, mas interpretadas de...". De acordo com a teoria estudada em *4.1 Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas*, a notação BPMN 2.0 (*Business Process Model and Notation*), mantida pelo consórcio OMG, é o padrão global para desenho de processos de negócio.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "assim como o do CMMI, provê escalas bastante granulares, que são mais fáceis de utilizar e sugerem uma desejável...". De acordo com a teoria estudada em *4.3 Estruturas de Separação (Pools e Lanes) e Conectores de Sequência vs. Mensagem*, um Fluxo de Sequência NUNCA PODE CRUZAR A BORDA DE UMA POOL PARA OUTRA POOL! Ele só pode cruzar linhas de Lanes dentro da mesma Pool!.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Técnicas de Elicitação de Requisitos* deste guia, a escolha das técnicas de elicitação depende da maturidade do domínio de negócio e do perfil dos usuários. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "da mesma forma que o enfoque original SEI-CMMI, tem a intenção de medir os níveis de maneira precisa, de forma a...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "possui níveis de maturidade, designados como perfis de processos de TI, que a organização reconheceria como...". De acordo com a teoria estudada em *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)*, especificam o que o sistema deve fazer em resposta a determinadas entradas, como reagir a situações específicas e quais cálculos realizar (ex.: *"O sistema deve calcular a alíquota previdenciária com base na remuneração bruta"*).
->
-> **Gabarito: D**
-
----
-
-### Teste 021
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
-Com base nos conceitos referentes ao Gerenciamento de Processos de Negócio (BPM), analise as afirmativas a seguir. I. O BPMS (Business Process Management System) é um conjunto de símbolos que representam os fluxos dos processos da empresa de forma padronizada para facilitar seu entendimento. II. O BPM é um ciclo contínuo para projetar, modelar, simular, executar, monitorar e melhorar os processos de negócio da organização, automatizados ou não, para alcançar resultados consistentes e alinhados com os objetivos estratégicos da organização. III. O BPMN (Business Process Modeling and Notation) é um software que facilita a implementação de práticas de BPM em todas as suas etapas, mapeando, automatizando, executando e monitorando os processos da empresa. Está correto o que se afirma em
-
-* **A)** II e III, apenas.
-* **B)** II, apenas.
-* **C)** I, II e III.
-* **D)** III, apenas.
-* **E)** I e II, apenas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *4.3 Estruturas de Separação (Pools e Lanes) e Conectores de Sequência vs. Mensagem*, piscina (*Pool*): Representa um participante independente do processo (um ente externo, fornecedor, organização ou empresa). Cada processo de negócio autocontido executa dentro de uma Pool.
-> - **B)** **Correta.** Conforme fundamentado na seção *4.1 Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas* deste guia, a notação BPMN 2.0 (*Business Process Model and Notation*), mantida pelo consórcio OMG, é o padrão global para desenho de processos de negócio. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "II, apenas".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, os Gateways são representados por Losangos e controlam a convergência e divergência dos fluxos.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, concepção / Estudo de Viabilidade: Avalia se o sistema contribui para os objetivos da organização e se é técnica e economicamente viável.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, gerenciamento de Requisitos: Processo contínuo de controle de versões, rastreabilidade e acomodação de mudanças ao longo do ciclo de vida.
->
-> **Gabarito: B**
-
----
-
-### Teste 022
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-A modelagem de processos pode ser realizada por meio de diferentes formatos, cada qual mais adequado a uma finalidade específica. A escolha do formato depende da situação organizacional, do público-alvo e do grau de formalidade exigido. Considere as situações a seguir, vivenciadas por gestores em uma organização. I. "Tenho 15 minutos para explicar o processo a quem nunca o viu." II. "Preciso mapear gargalos com o time de operação." III. "Preciso compreender oportunidades de melhorias, realizar automação, implantar IA ou conduzir projeto de transformação digital ou organizacional." Os formatos de modelagem mais adequados a cada uma dessas situações são, respectivamente,
-
-* **A)** BPMN simplificado, fluxograma tradicional e desenho lúdico.
-* **B)** fluxograma tradicional, desenho lúdico e BPMN simplificado.
-* **C)** desenho lúdico, BPMN simplificado e fluxograma tradicional.
-* **D)** desenho lúdico, fluxograma tradicional e BPMN simplificado.
-* **E)** BPMN simplificado, desenho lúdico e fluxograma tradicional. Gestão de Pessoas e Comportamento Organizacional
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BPMN simplificado, fluxograma tradicional e desenho lúdico". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, gateway Baseado em Eventos (Pentágono): O desvio de fluxo depende de qual evento externo intermediário (recebimento de mensagem ou expiração de temporizador) ocorrer primeiro no tempo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fluxograma tradicional, desenho lúdico e BPMN simplificado". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, os Gateways são representados por Losangos e controlam a convergência e divergência dos fluxos.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desenho lúdico, BPMN simplificado e fluxograma tradicional". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, gateway Exclusivo (XOR - "X"): Seleciona exclusivamente uma única rota entre as disponíveis.
-> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas* deste guia, a notação BPMN 2.0 (*Business Process Model and Notation*), mantida pelo consórcio OMG, é o padrão global para desenho de processos de negócio. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "desenho lúdico, fluxograma tradicional e BPMN simplificado".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BPMN simplificado, desenho lúdico e fluxograma tradicional. Gestão de Pessoas e Comportamento Organizacional". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, modela comportamento acessório, opcional ou excepcional que somente é acionado se determinada condição pré-definida for satisfeita em um ponto de extensão (*extension point*).
->
-> **Gabarito: D**
 
 ---
 

@@ -5,10 +5,7 @@
 > **Arquivo:** `02_direitos_e_garantias_fundamentais_e_politicos.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 
@@ -141,151 +138,7 @@ flowchart TD
 
 ---
 
-### Teste 121
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
-João foi condenado, em primeira e em segunda instâncias da Justiça Estadual, pela prática de ato doloso de improbidade administrativa que importou em lesão ao patrimônio público e em enriquecimento ilícito. Na ocasião, foi condenado às sanções de multa, suspensão dos direitos políticos, por oito anos, e multa. Contra a decisão condenatória proferida em segunda instância, foram interpostos recursos especial e extraordinário, os quais estão em tramitação. Nesse caso, é correto afirmar que, nesse momento, João está
-
-* **A)** inelegível por oito anos.
-* **B)** inelegível por quatro anos.
-* **C)** com os direitos políticos suspensos.
-* **D)** com sua capacidade eleitora passiva preservada.
-* **E)** inelegível de maneira provisória, o que perdurará até o trânsito em julgado da condenação. Realização
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inelegível por oito anos". De acordo com a teoria estudada em *1.4 Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)*, suspensão das Atividades: Interrupção provisória — Exige decisão judicial (mesmo cautelar/liminar).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inelegível por quatro anos". De acordo com a teoria estudada em *1.4 Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)*, dissolução Compulsória: Extinção definitiva da pessoa jurídica — Exige decisão judicial transitada em julgado.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "com os direitos políticos suspensos". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, inexistência de Direitos Absolutos (Relatividade): Nenhum direito fundamental possui caráter absoluto. Todos encontram limites na coexistência harmoniosa com outros direitos fundamentais protegidos pela ordem constitucional.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "com sua capacidade eleitora passiva preservada". De acordo com a teoria estudada em *1.2 Inviolabilidade do Domicílio (Art. 5º, XI)*, flagrante Delito em Tráfico Ilícito de Drogas (Tema 280/STF): O ingresso forçado em domicílio sem mandado judicial, mesmo em caso de crime permanente como o tráfico de drogas, exige fundadas razões (justa causa) devidamente justificadas *a posteriori*, sob pena de nulidade absoluta das provas.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.4 Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)* deste guia, a FCC adora trocar as exigências para suspensão e dissolução compulsória. Memorize: para suspender, basta mera decisão judicial; para dissolver compulsoriamente, exige-se trânsito em julgado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "inelegível de maneira provisória, o que perdurará até o trânsito em julgado da condenação. Realização".
->
-> **Gabarito: E**
-
----
-
-### Teste 122
-**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-A Lei federal nº XX impôs a todos os cidadãos determinada obrigação de caráter cívico, a ser cumprida em certos períodos por aqueles que fossem sorteados. João, em razão de suas convicções políticas, decidiu que não iria cumprir a obrigação. À luz da sistemática constitucional, João:
-
-* **A)** não poderá sofrer consequência desfavorável, por ter exercido plenamente a sua liberdade de consciência, que não pode ser afrontada pelo poder público, sob pena de violação à dignidade da pessoa humana;
-* **B)** preservará o direito de votar, mas ficará inelegível, consequência que será afastada caso cumpra a prestação alternativa fixada em lei;
-* **C)** deverá cumprir a prestação alternativa fixada em lei e, caso se recuse, terá a cidadania suspensa em suas acepções ativa e passiva;
-* **D)** terá os direitos políticos suspensos, os quais serão restabelecidos caso cumpra a prestação alternativa fixada em lei;
-* **E)** deverá cumprir a prestação alternativa fixada em lei e, caso se recuse, ficará inelegível.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não poderá sofrer consequência desfavorável, por ter exercido plenamente a sua liberdade de consciência, que não...". De acordo com a teoria estudada em *1.2 Inviolabilidade do Domicílio (Art. 5º, XI)*, flagrante Delito em Tráfico Ilícito de Drogas (Tema 280/STF): O ingresso forçado em domicílio sem mandado judicial, mesmo em caso de crime permanente como o tráfico de drogas, exige fundadas razões (justa causa) devidamente justificadas *a posteriori*, sob pena de nulidade absoluta das provas.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "preservará o direito de votar, mas ficará inelegível, consequência que será afastada caso cumpra a prestação...". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, nem mesmo o direito à vida é absoluto, haja vista a admissibilidade constitucional da pena de morte em caso de guerra declarada (art. 5º, XLVII, "a").
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)* deste guia, *"É inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "deverá cumprir a prestação alternativa fixada em lei e, caso se recuse, terá a cidadania suspensa em suas acepções...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "terá os direitos políticos suspensos, os quais serão restabelecidos caso cumpra a prestação alternativa fixada em...". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, inexistência de Direitos Absolutos (Relatividade): Nenhum direito fundamental possui caráter absoluto. Todos encontram limites na coexistência harmoniosa com outros direitos fundamentais protegidos pela ordem constitucional.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deverá cumprir a prestação alternativa fixada em lei e, caso se recuse, ficará inelegível". De acordo com a teoria estudada em *1.5 Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC*, racismo & Injúria Racial: Prática de racismo (Lei 7.716/89) e Injúria racial (STF HC 154.248 e Lei 14.532/23) — Inafiançável — Imprescritível — Admite.
->
-> **Gabarito: C**
-
----
-
-### Teste 123
-**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
-Um decreto federal assegurou à pessoa com deficiência tratamento prioritário. Dispôs ele que: 1) ficaria assegurada à pessoa com deficiência física, mental ou sensorial a prioridade de vaga em escola pública que estivesse localizada mais próxima de sua residência; 2) seriam consideradas deficiências todas aquelas que necessitassem de assistência especial, decorrentes de problemas visuais, auditivos, mentais, motores, ou má- formação congênita; 3) as deficiências dos estudantes beneficiados seriam comprovadas por meio de laudo médico fornecido por instituições médico-hospitalares públicas e competentes para prestar tal comprovação; e, 4) ficariam excluídos da prioridade do item 1 os estabelecimentos de ensino que não possuíssem as condições necessárias para educação de portadores de deficiência mental e sensorial. Levando em conta a Agenda 2030 da Organização das Nações Unidas (ONU), os direitos humanos e fundamentais da pessoa com deficiência e a Lei nº 13.146/2015, é correto afirmar que:
-
-* **A)** o referido decreto acerta ao dispor de todos os problemas (visuais, auditivos, mentais, motores, ou má formação congênita) para fins de consideração da pessoa com deficiência, adotando-se o conceito amplo proposto pela Lei nº 13.146/2015;
-* **B)** a exigência de que as deficiências dos estudantes beneficiados sejam comprovadas por meio de laudo médico fornecido por instituições médico-hospitalares públicas e competentes para prestar tal comprovação atende ao que reclama a Lei nº 13.146/2015;
-* **C)** o item 4 se choca com a imposição de assegurar um sistema educacional inclusivo, estabelecido no sistema constitucional e na Lei nº 13.146/2015, e com o amparo no objetivo de desenvolvimento sustentável referente à educação da Agenda 2030 da ONU;
-* **D)** a Agenda 2030 da ONU não trata do tema educação em relação a pessoas com deficiência, de modo que o único objetivo de desenvolvimento sustentável apto a conferir um olhar mais específico à questão é o referente a instituições eficazes;
-* **E)** a exclusão relacionada aos estabelecimentos de ensino estaria corretamente justificada na liberdade de conformação legislativa e na discricionariedade administrativa quando da concretização da política pública.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o referido decreto acerta ao dispor de todos os problemas (visuais, auditivos, mentais, motores, ou má formação...". De acordo com a teoria estudada em *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)*, *"É inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a exigência de que as deficiências dos estudantes beneficiados sejam comprovadas por meio de laudo médico...". De acordo com a teoria estudada em *1.2 Inviolabilidade do Domicílio (Art. 5º, XI)*, *"A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial."*.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.5 Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC* deste guia, racismo & Injúria Racial: Prática de racismo (Lei 7.716/89) e Injúria racial (STF HC 154.248 e Lei 14.532/23) — Inafiançável — Imprescritível — Admite. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "o item 4 se choca com a imposição de assegurar um sistema educacional inclusivo, estabelecido no sistema...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a Agenda 2030 da ONU não trata do tema educação em relação a pessoas com deficiência, de modo que o único objetivo...". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, *Eficácia Vertical:* Relação tradicional entre o indivíduo e o Estado, funcionando como escudo protetor contra o arbítrio estatal.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a exclusão relacionada aos estabelecimentos de ensino estaria corretamente justificada na liberdade de conformação...". De acordo com a teoria estudada em *1.4 Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)*, nenhuma autoridade administrativa tem competência para ordenar a paralisação ou encerramento de associação!.
->
-> **Gabarito: C**
-
----
-
-### Teste 124
-**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
-Acerca dos direitos e deveres individuais e coletivos, analise as afirmativas a seguir: I. É inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal. II. Todos podem reunir-se pacificamente, sem armas, em locais abertos ao público, independentemente de autorização, desde que não frustrem outra reunião anteriormente convocada para o mesmo local, sendo apenas exigido prévio aviso à autoridade competente. III. É assegurado a todos o acesso à informação e resguardado o sigilo da fonte, quando necessário ao exercício profissional. Nesse cenário, considerando as disposições da Constituição Federal de 1988, está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.2 Inviolabilidade do Domicílio (Art. 5º, XI)*, *"A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial."*.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)*, sigilo Fiscal e Bancário: Pode ser quebrado por determinação judicial e também diretamente por Comissões Parlamentares de Inquérito (CPIs federais e estaduais), com base nos poderes de investigação próprios das autoridades judiciais (art. 58, § 3º).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1.2 Inviolabilidade do Domicílio (Art. 5º, XI)*, não existe hipótese de ingresso com ordem judicial durante a noite sem o consentimento do morador! O critério consagrado pela Lei de Abuso de Autoridade (Lei nº 13.869/2019) veda o cumprimento de mandado domiciliar entre 21h e 5h.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)*, o Fisco pode requisitar dados cadastrais e movimentações bancárias diretamente sem prévia autorização judicial (STF, ADI 2.390 e LC 105/2001).
-> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)* deste guia, *"É inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "I, II e III".
->
-> **Gabarito: E**
-
----
-
-### Teste 125
-**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
-Nos termos regulados pela Lei no 8.429/92, a pena de perda dos bens ou valores acrescidos ilicitamente ao patrimônio, res- sarcimento integral do dano, quando houver, perda da função pública, suspensão dos direitos políticos de oito a dez anos, paga- mento de multa civil de até três vezes o valor do acréscimo patrimonial e proibição de contratar com o Poder Público ou receber benefícios ou incentivos fiscais ou creditícios, direta ou indiretamente, ainda que por intermédio de pessoa jurídica da qual seja sócio majoritário, pelo prazo de dez anos, pode ser aplicada quando caracterizado o ato de improbidade administrativa por
-
-* **A)** receber vantagem econômica de qualquer natureza, direta ou indiretamente, para omitir ato de ofício, providência ou declaração a que esteja obrigado.
-* **B)** permitir ou facilitar a aquisição, permuta ou locação de bem ou serviço por preço superior ao de mercado.
-* **C)** ordenar ou permitir a realização de despesas não autorizadas em lei ou regulamento.
-* **D)** negar publicidade aos atos oficiais.
-* **E)** retardar ou deixar de praticar, indevidamente, ato de ofício.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Características Fundamentais e Dimensões de Eficácia* deste guia, *Eficácia Horizontal:* Incidência direta e imediata dos direitos fundamentais nas relações jurídicas entre particulares (ex.: respeito à ampla defesa e ao contraditório para expulsão de sócio de clube ou cooperativa privada - STF). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "receber vantagem econômica de qualquer natureza, direta ou indiretamente, para omitir ato de ofício, providência...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "permitir ou facilitar a aquisição, permuta ou locação de bem ou serviço por preço superior ao de mercado". De acordo com a teoria estudada em *1.5 Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC*, para gabaritar qualquer prova da Fundação Carlos Chagas, a tabela a seguir é de memorização compulsória.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ordenar ou permitir a realização de despesas não autorizadas em lei ou regulamento". De acordo com a teoria estudada em *1.4 Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)*, nenhuma autoridade administrativa tem competência para ordenar a paralisação ou encerramento de associação!.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "negar publicidade aos atos oficiais". De acordo com a teoria estudada em *1.4 Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)*, dissolução Compulsória: Extinção definitiva da pessoa jurídica — Exige decisão judicial transitada em julgado.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "retardar ou deixar de praticar, indevidamente, ato de ofício". De acordo com a teoria estudada em *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)*, contudo, a prova obtida licitamente no juízo criminal pode ser compartilhada como prova emprestada no PAD disciplinar (STJ/STF).
->
-> **Gabarito: A**
-
----
-
-### Teste 126
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Jurídica)**
-A jurisdição é a atividade estatal de solução de conflitos de interesse e tutela de direitos. Ao lado da ação e do processo, a jurisdição constitui o tripé fundamental da teoria geral do processo. Sobre os princípios aplicáveis à jurisdição, assinale a afirmativa correta.
-
-* **A)** O princípio da inevitabilidade aduz que ao juiz não é dado deixar de julgar, ainda que haja lacuna ou obscuridade no ordenamento jurídico.
-* **B)** A improrrogabilidade é absolutamente incompatível com a prorrogação da competência, ainda que se trate de competência relativa.
-* **C)** A indelegabilidade veda peremptoriamente a delegação de atos de instrução a outros juízes, como é o caso das cartas de ordem e precatórias instrutórias, as quais são inadmissíveis.
-* **D)** A investidura dispõe que o juiz deva ser aprovado em concurso público de provas e títulos, motivo pelo qual os membros de tribunais indicados pelo quinto constitucional não possuem investidura.
-* **E)** O princípio do juiz natural assevera que as regras de competência devem ser prévia e abstratamente definidas, vedando-se a designação de juízos ad hoc. Direito Previdenciário
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O princípio da inevitabilidade aduz que ao juiz não é dado deixar de julgar, ainda que haja lacuna ou obscuridade...". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, nem mesmo o direito à vida é absoluto, haja vista a admissibilidade constitucional da pena de morte em caso de guerra declarada (art. 5º, XLVII, "a").
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A improrrogabilidade é absolutamente incompatível com a prorrogação da competência, ainda que se trate de...". De acordo com a teoria estudada em *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)*, interceptação Telefônica: Exige cláusula de reserva de jurisdição estrita (apenas o juiz competente pode determinar). É vedada em processos cíveis ou administrativos disciplinares (PAD).
-> - **C)** **Incorreta.** A opção apresenta vedação ou negativa absoluta incompatível com a regra aplicável ao afirmar que "A indelegabilidade veda peremptoriamente a delegação de atos de instrução a outros juízes, como é o caso das...". De acordo com a teoria estudada em *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)*, *"É inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal."*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A investidura dispõe que o juiz deva ser aprovado em concurso público de provas e títulos, motivo pelo qual os...". De acordo com a teoria estudada em *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)*, o Fisco pode requisitar dados cadastrais e movimentações bancárias diretamente sem prévia autorização judicial (STF, ADI 2.390 e LC 105/2001).
-> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Características Fundamentais e Dimensões de Eficácia* deste guia, inexistência de Direitos Absolutos (Relatividade): Nenhum direito fundamental possui caráter absoluto. Todos encontram limites na coexistência harmoniosa com outros direitos fundamentais protegidos pela ordem constitucional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "O princípio do juiz natural assevera que as regras de competência devem ser prévia e abstratamente definidas...".
->
-> **Gabarito: E**
-
----
-
-### Teste 127
+### Teste 001
 **(FGV – TJ/SC – 2026 – Analista Administrativo)**
 No ordenamento jurídico brasileiro, a proteção dos direitos fundamentais decorre tanto das normas constitucionais quanto dos tratados internacionais de direitos humanos ratificados pelo Brasil. Além disso, os direitos e as garantias fundamentais possuem aplicação imediata, nos termos da Constituição Federal, independentemente de regulamentação para produzirem efeitos. Considerando as disposições da Constituição Federal e dos tratados internacionais de direitos humanos incorporados ao ordenamento jurídico brasileiro, assinale a afirmativa correta.
 
@@ -299,109 +152,34 @@ No ordenamento jurídico brasileiro, a proteção dos direitos fundamentais deco
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os tratados de direitos humanos ratificados após a Emenda Constitucional nº 45/2004 com quórum qualificado (dois...". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, inexistência de Direitos Absolutos (Relatividade): Nenhum direito fundamental possui caráter absoluto. Todos encontram limites na coexistência harmoniosa com outros direitos fundamentais protegidos pela ordem constitucional.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Supremo Tribunal Federal não admite a utilização do Pacto de São José da Costa Rica para servir de fundamentos a...". De acordo com a teoria estudada em *1.5 Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC*, racismo & Injúria Racial: Prática de racismo (Lei 7.716/89) e Injúria racial (STF HC 154.248 e Lei 14.532/23) — Inafiançável — Imprescritível — Admite.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os tratados de direitos humanos ratificados pelo rito comum, por maioria absoluta, possuem hierarquia superior à...". De acordo com a teoria estudada em *1.2 Inviolabilidade do Domicílio (Art. 5º, XI)*, flagrante Delito em Tráfico Ilícito de Drogas (Tema 280/STF): O ingresso forçado em domicílio sem mandado judicial, mesmo em caso de crime permanente como o tráfico de drogas, exige fundadas razões (justa causa) devidamente justificadas *a posteriori*, sob pena de nulidade absoluta das provas.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Características Fundamentais e Dimensões de Eficácia* deste guia, *Eficácia Horizontal:* Incidência direta e imediata dos direitos fundamentais nas relações jurídicas entre particulares (ex.: respeito à ampla defesa e ao contraditório para expulsão de sócio de clube ou cooperativa privada - STF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "Os juízes brasileiros devem verificar se as leis internas estão em conformidade com os tratados internacionais de...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ainda que haja inércia de autoridades estaduais, não é permitido à Justiça Federal assumir a competência para...". De acordo com a teoria estudada em *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)*, sigilo Fiscal e Bancário: Pode ser quebrado por determinação judicial e também diretamente por Comissões Parlamentares de Inquérito (CPIs federais e estaduais), com base nos poderes de investigação próprios das autoridades judiciais (art. 58, § 3º).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os tratados de direitos humanos ratificados após a Emenda Constitucional nº 45/2004 com quórum qualificado (dois...". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, inexistência de Direitos Absolutos (Relatividade): Nenhum direito fundamental possui caráter absoluto. Todos encontram limites na coexistência harmoniosa com outros direitos fundamentais protegidos pela ordem constitucional. Nem mesmo o direito à vida é absoluto, haja vista a admissibilidade constitucional da pena de morte em caso de guerra declarada (art. 5º, XLVII, "a").
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Supremo Tribunal Federal não admite a utilização do Pacto de São José da Costa Rica para servir de fundamentos a...". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, subgraph Eficacia["Eficácia dos Direitos Fundamentais"].
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os tratados de direitos humanos ratificados pelo rito comum, por maioria absoluta, possuem hierarquia superior à...". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, eV |"Garantia contra arbítrio estatal"| DF["Direitos Fundamentais"].
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Características Fundamentais e Dimensões de Eficácia* deste guia, eficácia Horizontal: Incidência direta e imediata dos direitos fundamentais nas relações jurídicas entre particulares (ex.: respeito à ampla defesa e ao contraditório para expulsão de sócio de clube ou cooperativa privada STF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "Os juízes brasileiros devem verificar se as leis internas estão em conformidade com os tratados internacionais de...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ainda que haja inércia de autoridades estaduais, não é permitido à Justiça Federal assumir a competência para...". De acordo com a teoria estudada em *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)*, sigilo Fiscal e Bancário: Pode ser quebrado por determinação judicial e também diretamente por Comissões Parlamentares de Inquérito (CPIs federais e estaduais), com base nos poderes de investigação próprios das autoridades judiciais (art. 58, § 3º). O Fisco pode requisitar dados cadastrais e movimentações bancárias diretamente sem prévia autorização judicial (STF, ADI 2.390 e LC 105/2001).
 >
 > **Gabarito: D**
 
 ---
 
-### Teste 128
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-Os direitos humanos foram consolidados no Brasil mediante a Constituição Federal de 1988, que adotou a dignidade da pessoa humana (Art. 1º, III) como fundamento da República e garantiu a igualdade (Art. 5º) sem distinções. Esses princípios norteiam o Estado Democrático de Direito, assegurando proteção contra arbítrios, além de direitos fundamentais, sociais e mecanismos de inclusão. Considerando as disposições constitucionais relativas aos direitos e garantias individuais, assinale a afirmativa correta.
 
-* **A)** A liberdade de consciência e de crença é inviolável, assegurado o livre exercício dos cultos religiosos, não sendo garantida a prestação de assistência religiosa nas entidades civis e militares de internação coletiva.
-* **B)** A casa é asilo inviolável do indivíduo, ninguém nela podendo adentrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia ou noite, por determinação judicial.
-* **C)** O sigilo da correspondência é inviolável, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal.
-* **D)** Todos podem reunir-se pacificamente, ainda que armados, em locais abertos ao público, independentemente de autorização, desde que não frustrem outra reunião anteriormente convocada para o mesmo local.
-* **E)** É livre a locomoção no território nacional em tempo de paz ou de guerra, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer ou dele sair com seus bens.
+### Teste 002
+**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+A estrutura do documento apresentado é adequada à composição de um ofício. No que concerne aos princípios fundamentais da República Federativa do Brasil e aos direitos fundamentais, julgue os próximos itens.
+
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A liberdade de consciência e de crença é inviolável, assegurado o livre exercício dos cultos religiosos, não sendo...". De acordo com a teoria estudada em *1.5 Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC*, ação de Grupos Armados: Civis ou militares contra a ordem constitucional e o Estado Democrático — Inafiançável — Imprescritível — Admite.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A casa é asilo inviolável do indivíduo, ninguém nela podendo adentrar sem consentimento do morador, salvo em caso...". De acordo com a teoria estudada em *1.2 Inviolabilidade do Domicílio (Art. 5º, XI)*, *"A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial."*.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)* deste guia, *"É inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "O sigilo da correspondência é inviolável, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Todos podem reunir-se pacificamente, ainda que armados, em locais abertos ao público, independentemente de...". De acordo com a teoria estudada em *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)*, sigilo Fiscal e Bancário: Pode ser quebrado por determinação judicial e também diretamente por Comissões Parlamentares de Inquérito (CPIs federais e estaduais), com base nos poderes de investigação próprios das autoridades judiciais (art. 58, § 3º).
-> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "É livre a locomoção no território nacional em tempo de paz ou de guerra, podendo qualquer pessoa, nos termos da...". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, nem mesmo o direito à vida é absoluto, haja vista a admissibilidade constitucional da pena de morte em caso de guerra declarada (art. 5º, XLVII, "a").
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Características Fundamentais e Dimensões de Eficácia*, inexistência de Direitos Absolutos (Relatividade): Nenhum direito fundamental possui caráter absoluto. Todos encontram limites na coexistência harmoniosa com outros direitos fundamentais protegidos pela ordem constitucional. Nem mesmo o direito à vida é absoluto, haja vista a admissibilidade constitucional da pena de morte em caso de guerra declarada (art. 5º, XLVII, "a"). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STJ/2015) ao afirmar que "A estrutura do documento apresentado é adequada à composição de um ofício. No que concerne aos princípios...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
 >
 > **Gabarito: C**
 
 ---
 
-### Teste 129
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-João e Maria, servidores públicos ocupantes de cargos de provimento efetivo no Estado Sigma, que não se conhecem e jamais praticaram qualquer ato em comunhão de ações e desígnios, respondem a ações de improbidade administrativa com base na Lei nº 8.429/1992, cada qual pela prática dos próprios atos. João desviou recursos públicos enquanto atuava como ordenador de despesas. Maria, por sua vez, revelou fato de que tinha ciência em razão de suas atribuições e que deveria permanecer em segredo, colocando em risco a segurança do Estado. À luz da sistemática vigente, é correto afirmar que
 
-* **A)** as condutas de João e Maria podem acarretar a aplicação da sanção de perda da função pública.
-* **B)** as condutas de João e Maria foram enquadradas em uma tipologia legal de caráter exemplificativo, não taxativo.
-* **C)** a conduta de João pode acarretar a aplicação da sanção de suspensão dos direitos políticos por até 14 (quatorze) anos.
-* **D)** a conduta de Maria pode acarretar a aplicação da sanção de vedação ao recebimento de incentivos fiscais por até 12 (doze) anos.
-* **E)** as ações ajuizadas em face de João e Maria são de autoria do Ministério Público, considerando sua legitimidade privativa nessa seara.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as condutas de João e Maria podem acarretar a aplicação da sanção de perda da função pública". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, inexistência de Direitos Absolutos (Relatividade): Nenhum direito fundamental possui caráter absoluto. Todos encontram limites na coexistência harmoniosa com outros direitos fundamentais protegidos pela ordem constitucional.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as condutas de João e Maria foram enquadradas em uma tipologia legal de caráter exemplificativo, não taxativo". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, *Eficácia Horizontal:* Incidência direta e imediata dos direitos fundamentais nas relações jurídicas entre particulares (ex.: respeito à ampla defesa e ao contraditório para expulsão de sócio de clube ou cooperativa privada - STF).
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)* deste guia, sigilo Fiscal e Bancário: Pode ser quebrado por determinação judicial e também diretamente por Comissões Parlamentares de Inquérito (CPIs federais e estaduais), com base nos poderes de investigação próprios das autoridades judiciais (art. 58, § 3º). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "a conduta de João pode acarretar a aplicação da sanção de suspensão dos direitos políticos por até 14 (quatorze)...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a conduta de Maria pode acarretar a aplicação da sanção de vedação ao recebimento de incentivos fiscais por até 12...". De acordo com a teoria estudada em *1.4 Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)*, atividades Paramilitares: Vedação absoluta — Proibição categórica.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as ações ajuizadas em face de João e Maria são de autoria do Ministério Público, considerando sua legitimidade...". De acordo com a teoria estudada em *1.4 Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)*, suspensão das Atividades: Interrupção provisória — Exige decisão judicial (mesmo cautelar/liminar).
->
-> **Gabarito: C**
-
----
-
-### Teste 130
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-Mara, de nacionalidade brasileira, casou com Stevenson, de nacionalidade holandesa, e passou a viver na Áustria. Com o objetivo de facilitar sua integração no país em que residia, não como requisito para a fruição de direitos civis, Mara decidiu se naturalizar austríaca. Após alguns anos, Mara consultou a legislação vigente com o objetivo de verificar a possibilidade de vir a perder à nacionalidade brasileira, tendo concluído corretamente que
-
-* **A)** ao casar com Stevenson, em razão do jus nuptias, ela adquiriu a nacionalidade holandesa, perdendo a brasileira;
-* **B)** ao se naturalizar austríaca, nas circunstâncias indicadas, ela perdeu a nacionalidade brasileira;
-* **C)** não será possível a realização do desiderato de Mara, pois se tornará apátrida, o que é vedado;
-* **D)** a nacionalidade, por estar integrada aos direitos da personalidade, é irrenunciável;
-* **E)** ela terá que fazer pedido expresso à autoridade brasileira.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao casar com Stevenson, em razão do jus nuptias, ela adquiriu a nacionalidade holandesa, perdendo a brasileira". De acordo com a teoria estudada em *1.4 Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)*, nenhuma autoridade administrativa tem competência para ordenar a paralisação ou encerramento de associação!.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao se naturalizar austríaca, nas circunstâncias indicadas, ela perdeu a nacionalidade brasileira". De acordo com a teoria estudada em *1.5 Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC*, ação de Grupos Armados: Civis ou militares contra a ordem constitucional e o Estado Democrático — Inafiançável — Imprescritível — Admite.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não será possível a realização do desiderato de Mara, pois se tornará apátrida, o que é vedado". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, inexistência de Direitos Absolutos (Relatividade): Nenhum direito fundamental possui caráter absoluto. Todos encontram limites na coexistência harmoniosa com outros direitos fundamentais protegidos pela ordem constitucional.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a nacionalidade, por estar integrada aos direitos da personalidade, é irrenunciável". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, *Eficácia Horizontal:* Incidência direta e imediata dos direitos fundamentais nas relações jurídicas entre particulares (ex.: respeito à ampla defesa e ao contraditório para expulsão de sócio de clube ou cooperativa privada - STF).
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Inviolabilidade do Domicílio (Art. 5º, XI)* deste guia, não existe hipótese de ingresso com ordem judicial durante a noite sem o consentimento do morador! O critério consagrado pela Lei de Abuso de Autoridade (Lei nº 13.869/2019) veda o cumprimento de mandado domiciliar entre 21h e 5h. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "ela terá que fazer pedido expresso à autoridade brasileira".
->
-> **Gabarito: E**
-
----
-
-### Teste 131
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-Maria, Joana e Antônio, respectivamente, brasileira nata, brasileira naturalizada e ugandense residente no território brasileiro, consultaram um especialista em relação à existência, ou não, de distinção em relação à situação jurídica de cada qual considerando os direitos fundamentais e os direitos políticos. O especialista respondeu corretamente que, à luz dos balizamentos estabelecidos pela Constituição da República,
-
-* **A)** os três possuem os mesmos direitos fundamentais, mas, atendidos os requisitos exigidos, não há identidade em relação aos direitos políticos.
-* **B)** Maria e Joana possuem os mesmos direitos políticos, apesar de a naturalização desta última poder ser cassada.
-* **C)** diversamente de Maria e Joana, Antônio não possui direitos fundamentais e, por via reflexa, não possui direitos políticos.
-* **D)** somente possuem direitos políticos aqueles que possuem direitos fundamentais, logo, os três os possuem.
-* **E)** Maria e Joana não possuem os mesmos direitos fundamentais, e Antônio não pode usufruir de direitos políticos.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os três possuem os mesmos direitos fundamentais, mas, atendidos os requisitos exigidos, não há identidade em...". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, *Eficácia Diagonal:* Relação entre particulares caracterizada por flagrante assimetria fática e jurídica (ex.: relações de trabalho e contratos de consumo).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Maria e Joana possuem os mesmos direitos políticos, apesar de a naturalização desta última poder ser cassada". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, *Eficácia Horizontal:* Incidência direta e imediata dos direitos fundamentais nas relações jurídicas entre particulares (ex.: respeito à ampla defesa e ao contraditório para expulsão de sócio de clube ou cooperativa privada - STF).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "diversamente de Maria e Joana, Antônio não possui direitos fundamentais e, por via reflexa, não possui direitos...". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, *Eficácia Vertical:* Relação tradicional entre o indivíduo e o Estado, funcionando como escudo protetor contra o arbítrio estatal.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente possuem direitos políticos aqueles que possuem direitos fundamentais, logo, os três os possuem". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, nem mesmo o direito à vida é absoluto, haja vista a admissibilidade constitucional da pena de morte em caso de guerra declarada (art. 5º, XLVII, "a").
-> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Características Fundamentais e Dimensões de Eficácia* deste guia, inexistência de Direitos Absolutos (Relatividade): Nenhum direito fundamental possui caráter absoluto. Todos encontram limites na coexistência harmoniosa com outros direitos fundamentais protegidos pela ordem constitucional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "Maria e Joana não possuem os mesmos direitos fundamentais, e Antônio não pode usufruir de direitos políticos".
->
-> **Gabarito: E**
-
----
 

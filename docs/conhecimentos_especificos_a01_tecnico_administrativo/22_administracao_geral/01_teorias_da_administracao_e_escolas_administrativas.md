@@ -4,10 +4,7 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `01_teorias_da_administracao_e_escolas_administrativas.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Evolução histórica do pensamento administrativo e das escolas da Teoria Geral da Administração (TGA):
@@ -84,53 +81,56 @@ flowchart LR
 
 ---
 
-### Teste 340
+### Teste 001
 **(FGV – TJ/SC – 2026 – Analista Administrativo)**
-A empresa ABC opera sem instalações físicas centralizadas e estrutura hierárquica convencional. Suas atividades são desenvolvidas por meio de módulos e grupos interconectados eletronicamente, articulados por alianças e redes de cooperação que transcendem fronteiras geográficas, tendo a Tecnologia da Informação como principal facilitadora dessa configuração. A estrutura organizacional descrita corresponde à organização
+A Diretoria da empresa ABC adota uma ferramenta visual que dispõe, em colunas verticais, a variável tempo subdividida em frações regulares (originalmente, cada mês representado por quatro subcolunas correspondentes às semanas) e, em linhas horizontais, as atividades a serem executadas, permitindo o acompanhamento do cronograma sem necessidade de consulta ao calendário convencional. A ferramenta foi originalmente concebida por um engenheiro colaborador de Taylor, voltada ao planejamento e ao controle da produção semanal. A ferramenta de planejamento e controle descrita corresponde ao
 
-* **A)** virtual.
-* **B)** divisional.
-* **C)** matricial.
-* **D)** funcional.
-* **E)** linha-staff.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne* deste guia, descoberta da Organização Informal: Paralelamente à estrutura formal e hierárquica desenhada no organograma da empresa, opera uma densa e espontânea organização informal, composta por redes de amizade, antipatias, códigos morais próprios, lideranças naturais e expectativas de cooperação não oficiais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "virtual".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "divisional". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, teoria Clássica: Henri Fayol — Na Estrutura organizacional global. — *Homo Economicus*. — Visão anatômica da empresa; funções do administrador (POCCC); 14 princípios gerais; Unidade de Comando estrita (um só chefe).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "matricial". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, relações Humanas: Elton Mayo — Nas Pessoas e nos grupos informais. — *Homo Socialis* (motivado pelo grupo e integração). — Experiência de Hawthorne; o nível de produção é ditado pela integração social; recompensas e sanções sociais no trabalho; organização informal.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "funcional". De acordo com a teoria estudada em *A) A Organização Racional do Trabalho (ORT) de Taylor:*, supervisão Funcional: Existência de diversos supervisores especializados simultâneos na oficina, cada qual com autoridade funcional sobre determinado aspecto da tarefa do mesmo operário (autoridade funcional fragmentada).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "linha-staff". De acordo com a teoria estudada em *B) A Teoria Clássica de Henri Fayol:*, destaque absoluto em provas para a Unidade de Comando (cada agente tem apenas um chefe imediato de quem recebe ordens), a Unidade de Direção (um só chefe e um só programa para um conjunto de operações com o mesmo objetivo), a Cadeia Escalar / Hierarquia (linha de autoridade do topo à base) e a Divisão do Trabalho.
->
-> **Gabarito: A**
-
----
-
-### Teste 341
-**(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-A estrutura de diretórios do sistema operacional Linux possui uma organização padronizada e adotada por todas as distribuições. Considerando que um novo usuário de nome superior seja criado no Linux, o diretório do usuário será criado em:
-
-* **A)** qualquer usuário pode ler o arquivo abcd.
-* **B)** somente abcd pode executar o arquivo efgh.
-* **C)** efgh pode ler e escrever o arquivo abcd.
-* **D)** somente abcd pode ler o arquivo efgh.
-* **E)** qualquer usuário pode acessar o arquivo efgh.
+* **A)** cronograma.
+* **B)** fluxograma.
+* **C)** diagrama de blocos.
+* **D)** gráfico de Gantt.
+* **E)** análise de Pareto.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "qualquer usuário pode ler o arquivo abcd". De acordo com a teoria estudada em *Comparação Estrutural (Burns & Stalker):*, taylor pregava a existência da "única melhor maneira" (*the one best way*) de executar qualquer trabalho.
-> - **B)** **Correta.** Conforme fundamentado na seção *Conceitos Sistêmicos Fundamentais para Concursos:* deste guia, equifinalidade: Princípio segundo o qual um sistema aberto pode alcançar o mesmo estado final ou meta institucional partindo de condições iniciais distintas e percorrendo caminhos de processamento totalmente diferentes. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 16ª/2014) ao estabelecer que "somente abcd pode executar o arquivo efgh".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "efgh pode ler e escrever o arquivo abcd". De acordo com a teoria estudada em *B) A Teoria Clássica de Henri Fayol:*, unidade de Comando: Defendida categoricamente por Fayol (cada funcionário só pode receber ordens de um único chefe direto, sob pena de gerar desordem, conflito de lealdades e anarquia).
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente abcd pode ler o arquivo efgh". De acordo com a teoria estudada em *Conceitos Sistêmicos Fundamentais para Concursos:*, entropia Negativa (Negentropia): Capacidade exclusiva dos sistemas abertos de importar do ambiente externo recursos energéticos, materiais, financeiros e informacionais para combater a degeneração e preservar sua estrutura operacional viva e organizada.
-> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "qualquer usuário pode acessar o arquivo efgh". De acordo com a teoria estudada em *B) Disfunções da Burocracia (Robert Merton):*, superconformidade e Rigidez Procedimental: Resistência categórica a qualquer inovação, flexibilização ou mudança de contexto.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cronograma". De acordo com a teoria estudada em *A) A Organização Racional do Trabalho (ORT) de Taylor:*, incentivos Salariais e Prêmios de Produção: Pagamento por peça produzida, fundamentado na tese de que o operário é indolente por natureza e reage exclusivamente a estímulos monetários ( Homo Economicus ).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fluxograma". De acordo com a teoria estudada em *3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne*, o Nível de Produção é Fruto da Integração Social: A capacidade de produção não é determinada por limites puramente físicos ou fisiológicos (como acreditava Taylor), mas pela integração social do trabalhador e pelo padrão de normas coletivas estabelecido pelo grupo.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "diagrama de blocos". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, relações Humanas: Elton Mayo — Nas Pessoas e nos grupos informais. — Homo Socialis (motivado pelo grupo e integração). — Experiência de Hawthorne; o nível de produção é ditado pela integração social; recompensas e sanções sociais no trabalho; organização informal.
+> - **D)** **Correta.** Conforme fundamentado na seção *B) A Teoria Clássica de Henri Fayol:* deste guia, as Seis Funções Básicas da Empresa: Funções Técnicas (produção), Comerciais (compra/venda), Financeiras (gestão de capital), de Segurança (proteção dos bens e pessoas), Contábeis (balanços, custos) e Administrativas (que coordenam e presidem as outras cinco). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "gráfico de Gantt".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "análise de Pareto". De acordo com a teoria estudada em *A) A Organização Racional do Trabalho (ORT) de Taylor:*, análise do Trabalho e Estudo dos Tempos e Movimentos: Decomposição de cada tarefa em seus movimentos fundamentais ( therbligs ), eliminando movimentos inúteis para padronizar o método de execução mais rápido ( the one best way ).
+>
+> **Gabarito: D**
+
+---
+
+
+### Teste 002
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+Henri Fayol foi um dos primeiros teóricos a sistematizar as funções do administrador, propondo que prever, organizar, comandar, coordenar e controlar constituem atividades fundamentais presentes em todos os níveis da hierarquia organizacional. No âmbito dessas funções, coordenar significa
+
+* **A)** verificar a conformidade entre os resultados obtidos e as metas, regras e orientações previamente definidas.
+* **B)** harmonizar atividades e esforços coletivos para que a organização atinja seus objetivos de forma coerente.
+* **C)** estabelecer a estrutura material e humana necessária para o funcionamento adequado da organização.
+* **D)** antecipar o futuro por meio da formulação de objetivos, planos e programas de ação.
+* **E)** orientar e conduzir o comportamento das pessoas na execução das atividades sob sua responsabilidade.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "verificar a conformidade entre os resultados obtidos e as metas, regras e orientações previamente definidas". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, teoria Neoclássica: Peter Drucker — Nos Resultados e objetivos práticos. — Homem Organizacional . — Ecletismo teórico; reafirmação dos princípios clássicos ajustados; foco em eficácia; Administração por Objetivos (APO).
+> - **B)** **Correta.** Conforme fundamentado na seção *B) A Teoria Clássica de Henri Fayol:* deste guia, coordenar: Ligar, unir, harmonizar e sincronizar todos os atos e esforços coletivos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "harmonizar atividades e esforços coletivos para que a organização atinja seus objetivos de forma coerente".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estabelecer a estrutura material e humana necessária para o funcionamento adequado da organização". De acordo com a teoria estudada em *4. Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)*, para Max Weber, a burocracia é a forma de organização social humana mais eficiente, técnica e racional para administrar grandes instituições e o Estado moderno.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "antecipar o futuro por meio da formulação de objetivos, planos e programas de ação". De acordo com a teoria estudada em *B) A Teoria Clássica de Henri Fayol:*, prever (ou Planejar): Visualizar o futuro e traçar o programa de ação institucional.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "orientar e conduzir o comportamento das pessoas na execução das atividades sob sua responsabilidade". De acordo com a teoria estudada em *B) A Teoria Clássica de Henri Fayol:*, comandar: Dirigir, orientar e instruir o corpo de funcionários.
 >
 > **Gabarito: B**
 
 ---
+
+
 
 ## 2. A Divergência Clássica: Taylor (Científica) vs. Fayol (Clássica)
 
@@ -184,30 +184,6 @@ Desenvolvida a partir de 1932 nos Estados Unidos, a Teoria das Relações Humana
 
 ---
 
-### Teste 342
-**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-O administrador (root) de um servidor com sistema operacional Linux deseja verificar se a senha do novo usuário, recentemente criado, foi atribuída. Para verificar isso, o administrador pode consultar o arquivo
-
-* **A)** /etc/passwd
-* **B)** /etc/secure
-* **C)** /etc/passwd-
-* **D)** /etc/shadow
-* **E)** /etc/secure-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/etc/passwd". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, teoria Clássica: Henri Fayol — Na Estrutura organizacional global. — *Homo Economicus*. — Visão anatômica da empresa; funções do administrador (POCCC); 14 princípios gerais; Unidade de Comando estrita (um só chefe).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/etc/secure". De acordo com a teoria estudada em *B) A Teoria Clássica de Henri Fayol:*, controlar: Verificar se tudo corre de acordo com o programa aprovado e as ordens expedidas.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/etc/passwd-". De acordo com a teoria estudada em *B) Disfunções da Burocracia (Robert Merton):*, deslocamento de Objetivos (*Goal Displacement*): O apego cego e intransigente aos regulamentos faz com que o cumprimento formal da norma deixe de ser um meio e se torne o objetivo supremo do servidor.
-> - **D)** **Correta.** Conforme fundamentado na seção *Conceitos Sistêmicos Fundamentais para Concursos:* deste guia, equifinalidade: Princípio segundo o qual um sistema aberto pode alcançar o mesmo estado final ou meta institucional partindo de condições iniciais distintas e percorrendo caminhos de processamento totalmente diferentes. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "/etc/shadow".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/etc/secure-". De acordo com a teoria estudada em *Conceitos Sistêmicos Fundamentais para Concursos:*, entropia Negativa (Negentropia): Capacidade exclusiva dos sistemas abertos de importar do ambiente externo recursos energéticos, materiais, financeiros e informacionais para combater a degeneração e preservar sua estrutura operacional viva e organizada.
->
-> **Gabarito: D**
-
----
-
 ## 4. Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)
 
 Para Max Weber, a burocracia é a forma de organização social humana mais eficiente, técnica e racional para administrar grandes instituições e o Estado moderno.
@@ -239,30 +215,6 @@ O sociólogo Robert Merton demonstrou que a tentativa de buscar o máximo de pre
 
 ---
 
-### Teste 343
-**(FCC – TRT 1ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-Versões mais recentes do sistema operacional Windows, como a Windows 7 e a Windows 8, podem ser encontradas para computadores com processadores de 64 bits. Nesses computadores, caso um aplicativo tenha sido desenvolvido para um processador de 16 bits,
-
-* **A)** deve-se utilizar um recurso dessas versões do Windows que recompilam qualquer aplicativo de 16 bits para que possam ser executados em 64 bits.
-* **B)** não poderá mais ser executado no computador de 64 bits.
-* **C)** poderá ser executado apenas no Modo de Segurança do Windows.
-* **D)** poderá ser executado apenas se o usuário possuir privilégios de administrador.
-* **E)** poderá ser executado desde que se instale uma máquina virtual para essa finalidade.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "deve-se utilizar um recurso dessas versões do Windows que recompilam qualquer aplicativo de 16 bits para que...". De acordo com a teoria estudada em *6. Teoria Geral dos Sistemas (TGS): A Organização como Sistema Aberto*, formulada pelo biólogo Ludwig von Bertalanffy e aplicada às organizações por Katz e Kahn, a Teoria dos Sistemas concebe a organização não como uma máquina fechada, mas como um sistema aberto em constante interação e intercâmbio com seu ecossistema externo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não poderá mais ser executado no computador de 64 bits". De acordo com a teoria estudada em *4. Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)*, para Max Weber, a burocracia é a forma de organização social humana mais eficiente, técnica e racional para administrar grandes instituições e o Estado moderno.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "poderá ser executado apenas no Modo de Segurança do Windows". De acordo com a teoria estudada em *B) Disfunções da Burocracia (Robert Merton):*, deslocamento de Objetivos (*Goal Displacement*): O apego cego e intransigente aos regulamentos faz com que o cumprimento formal da norma deixe de ser um meio e se torne o objetivo supremo do servidor.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "poderá ser executado apenas se o usuário possuir privilégios de administrador". De acordo com a teoria estudada em *A) Características do Modelo Burocrático Puro:*, impessoalidade no tratamento: A autoridade vincula-se ao cargo e à lei, nunca à pessoa física que o ocupa. Direitos e deveres são aplicados de maneira uniforme, sem privilégios ou simpatias pessoais.
-> - **E)** **Correta.** Conforme fundamentado na seção *8. Metáforas Organizacionais de Gareth Morgan* deste guia, em sua clássica obra *Imagens da Organização*, Gareth Morgan demonstra que as organizações podem ser concebidas e gerenciadas sob diferentes lentes metafóricas, cada qual ressaltando uma faceta da realidade institucional. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 1ª/2014) ao estabelecer que "poderá ser executado desde que se instale uma máquina virtual para essa finalidade".
->
-> **Gabarito: E**
-
----
-
 ## 5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon
 
 A Teoria Comportamental (Behaviorista) consolidou-se na década de 1950, adotando uma perspectiva realista, empírica e democrática do homem nas organizações:
@@ -276,30 +228,6 @@ A Teoria Comportamental (Behaviorista) consolidou-se na década de 1950, adotand
 
 3. **Herbert Simon (Processo Decisório e Racionalidade Limitada):**
     - Demonstrou que o gestor atua como o **Homem Administrativo**, tomando decisões **satisfatórias** diante da escassez de tempo, imprecisão de dados e limitações de processamento cognitivo, sepultando o mito do *Homem Econômico* maximizador.
-
----
-
-### Teste 344
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-Henry Mintzberg, em estudo clássico sobre as atividades gerenciais, sistematizou as funções do administrador em dez papéis específicos, agrupados em três categorias: interpessoal, informacional e decisorial. Relacione os papéis específicos do administrador às respectivas categorias propostas por Mintzberg. Categoria Papel específico 1. Interpessoal ( ) Disseminação 2. Informacional ( ) Liderança 3. Decisorial ( ) Alocação de recursos ( ) Representação Assinale a opção que indica a relação correta, na ordem apresentada.
-
-* **A)** 1 – 2 – 3 – 1.
-* **B)** 2 – 1 – 3 – 1.
-* **C)** 2 – 3 – 1 – 2.
-* **D)** 3 – 1 – 2 – 3.
-* **E)** 1 – 3 – 2 – 1.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 2 – 3 – 1". De acordo com a teoria estudada em *5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon*, ela só existe efetivamente quando o subordinado decide aceitar a ordem dada pelo superior, dentro de sua "zona de indiferença" (quando entende a ordem, julga-a compatível com os objetivos da organização e com seus valores pessoais).
-> - **B)** **Correta.** Conforme fundamentado na seção *Tabela de Síntese Comparativa das Escolas:* deste guia, teoria Clássica: Henri Fayol — Na Estrutura organizacional global. — *Homo Economicus*. — Visão anatômica da empresa; funções do administrador (POCCC); 14 princípios gerais; Unidade de Comando estrita (um só chefe). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "2 – 1 – 3 – 1".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 3 – 1 – 2". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, teoria Comportamental: McGregor / Simon / Barnard — No Comportamento Humano e Decisão. — *Homo Administrativus* (decisor de racionalidade limitada). — Teoria X vs. Teoria Y; liderança e motivação.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 1 – 2 – 3". De acordo com a teoria estudada em *B) A Teoria Clássica de Henri Fayol:*, as Seis Funções Básicas da Empresa: Funções Técnicas (produção), Comerciais (compra/venda), Financeiras (gestão de capital), de Segurança (proteção dos bens e pessoas), Contábeis (balanços, custos) e Administrativas (que coordenam e presidem as outras cinco).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 3 – 2 – 1". De acordo com a teoria estudada em *Conceitos Sistêmicos Fundamentais para Concursos:*, entropia Negativa (Negentropia): Capacidade exclusiva dos sistemas abertos de importar do ambiente externo recursos energéticos, materiais, financeiros e informacionais para combater a degeneração e preservar sua estrutura operacional viva e organizada.
->
-> **Gabarito: B**
 
 ---
 
@@ -359,48 +287,6 @@ flowchart TD
 
 ---
 
-### Teste 345
-**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
-Na tabela acima, é descrita a organização hierárquica e funcional da estrutura organizacional formal da instituição.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Na tabela acima, é descrita a organização hierárquica e funcional da estrutura organizacional formal da...". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, teoria Clássica: Henri Fayol — Na Estrutura organizacional global. — *Homo Economicus*. — Visão anatômica da empresa; funções do administrador (POCCC); 14 princípios gerais; Unidade de Comando estrita (um só chefe).
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne* deste guia, descoberta da Organização Informal: Paralelamente à estrutura formal e hierárquica desenhada no organograma da empresa, opera uma densa e espontânea organização informal, composta por redes de amizade, antipatias, códigos morais próprios, lideranças naturais e expectativas de cooperação não oficiais. Portanto, a assertiva examinada pela banca (CEBRASPE – TRT/10/2013) viola os preceitos técnicos do tópico.
->
-> **Gabarito: E**
-
----
-
-### Teste 346
-**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
-O administrador do Servidor Host da sessão da Área de Trabalho Remota, do Windows Server 2008 R2, do TRT deve realizar a atividade de verificar as informações sobre as sessões de usuários neste servidor utilizando o comando
-
-* **A)** users
-* **B)** who
-* **C)** logged
-* **D)** quser
-* **E)** lssec
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "users". De acordo com a teoria estudada em *A) A Organização Racional do Trabalho (ORT) de Taylor:*, estudo da Fadiga Humana: A fadiga reduz a produtividade e gera acidentes; a administração deve calibrar períodos de repouso e posturas corporais ergonômicas.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "who". De acordo com a teoria estudada em *B) A Teoria Clássica de Henri Fayol:*, destaque absoluto em provas para a Unidade de Comando (cada agente tem apenas um chefe imediato de quem recebe ordens), a Unidade de Direção (um só chefe e um só programa para um conjunto de operações com o mesmo objetivo), a Cadeia Escalar / Hierarquia (linha de autoridade do topo à base) e a Divisão do Trabalho.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "logged". De acordo com a teoria estudada em *Comparação Estrutural (Burns & Stalker):*, cadeia de Comando: Hierarquia formal rígida; respeito estrito à autoridade escalar. — Autoridade baseada no conhecimento técnico e competência.
-> - **D)** **Correta.** Conforme fundamentado na seção *Tabela de Síntese Comparativa das Escolas:* deste guia, teoria Clássica: Henri Fayol — Na Estrutura organizacional global. — *Homo Economicus*. — Visão anatômica da empresa; funções do administrador (POCCC); 14 princípios gerais; Unidade de Comando estrita (um só chefe). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "quser".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "lssec". De acordo com a teoria estudada em *B) A Teoria Clássica de Henri Fayol:*, controlar: Verificar se tudo corre de acordo com o programa aprovado e as ordens expedidas.
->
-> **Gabarito: D**
-
----
-
 ## 8. Metáforas Organizacionais de Gareth Morgan
 
 Em sua clássica obra *Imagens da Organização*, Gareth Morgan demonstra que as organizações podem ser concebidas e gerenciadas sob diferentes lentes metafóricas, cada qual ressaltando uma faceta da realidade institucional:
@@ -416,72 +302,6 @@ flowchart TD
     Metáforas --> M5["5. Organizações como Sistemas Políticos<br/>(Arenas de disputa por poder, coalizões, alianças, negociação e jogos de influência)"]
     Metáforas --> M6["6. Organizações como Prisões Psíquicas<br/>(Processos inconscientes em que os membros ficam presos em armadilhas cognitivas e dogmas)"]
 ```
-
----
-
-### Teste 347
-**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
-Os controles são classificados em controle de pessoas, controle físico e controle tecnológico e, quando não enquadrados em nenhum desses, devem ser categorizados como organizacionais.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *8. Metáforas Organizacionais de Gareth Morgan* deste guia, em sua clássica obra *Imagens da Organização*, Gareth Morgan demonstra que as organizações podem ser concebidas e gerenciadas sob diferentes lentes metafóricas, cada qual ressaltando uma faceta da realidade institucional. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STJ/2024) ao afirmar que "Os controles são classificados em controle de pessoas, controle físico e controle tecnológico e, quando não...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, segundo a qual relações Humanas: Elton Mayo — Nas Pessoas e nos grupos informais. — *Homo Socialis* (motivado pelo grupo e integração). — Experiência de Hawthorne; o nível de produção é ditado pela integração social; recompensas e sanções sociais no trabalho; organização informal.
->
-> **Gabarito: C**
-
----
-
-### Teste 348
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
-Maria Antônia, advogada privada em atividade autônoma no Estado de Santa Catarina, desempenha suas funções em favor de seus clientes, mediante remuneração contratualmente prevista, não possuindo qualquer outro vínculo laboral ou profissional. Diante da situação hipotética narrada, é correto afirmar que Maria é filiada, obrigatoriamente, ao
-
-* **A)** Regime Geral de Previdência Social, na qualidade de segurada obrigatória.
-* **B)** Regime Geral de Previdência Social, na qualidade de segurada facultativa.
-* **C)** Regime Próprio de Previdência do Estado de Santa Catarina.
-* **D)** Regime Próprio de Previdência da União Federal.
-* **E)** Regime Complementar de Previdência Complementar instituído pela OAB local.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Regime Geral de Previdência Social, na qualidade de segurada obrigatória". De acordo com a teoria estudada em *6. Teoria Geral dos Sistemas (TGS): A Organização como Sistema Aberto*, formulada pelo biólogo Ludwig von Bertalanffy e aplicada às organizações por Katz e Kahn, a Teoria dos Sistemas concebe a organização não como uma máquina fechada, mas como um sistema aberto em constante interação e intercâmbio com seu ecossistema externo.
-> - **B)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "Regime Geral de Previdência Social, na qualidade de segurada facultativa". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, relações Humanas: Elton Mayo — Nas Pessoas e nos grupos informais. — *Homo Socialis* (motivado pelo grupo e integração). — Experiência de Hawthorne; o nível de produção é ditado pela integração social; recompensas e sanções sociais no trabalho; organização informal.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Regime Próprio de Previdência do Estado de Santa Catarina". De acordo com a teoria estudada em *5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon*, demonstrou que o gestor atua como o Homem Administrativo, tomando decisões satisfatórias diante da escassez de tempo, imprecisão de dados e limitações de processamento cognitivo, sepultando o mito do *Homem Econômico* maximizador.
-> - **D)** **Correta.** Conforme fundamentado na seção *1. Síntese Comparativa das Escolas da Teoria Geral da Administração (TGA)* deste guia, a evolução do pensamento administrativo desenvolveu-se ao longo do século XX mediante sucessivas teorias que deslocaram gradualmente o foco de análise das tarefas individuais para a estrutura global, as relações humanas, o processo decisório e a interação dinâmica com o ambiente externo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Regime Próprio de Previdência da União Federal".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Regime Complementar de Previdência Complementar instituído pela OAB local". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, teoria Clássica: Henri Fayol — Na Estrutura organizacional global. — *Homo Economicus*. — Visão anatômica da empresa; funções do administrador (POCCC); 14 princípios gerais; Unidade de Comando estrita (um só chefe).
->
-> **Gabarito: D**
-
----
-
-### Teste 349
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-Durante a redação de um Relatório de Instrução, um Auditor observa que os títulos das seções não estão aparecendo no painel de navegação, dificultando a organização do documento. Ele decide aplicar a formatação correta para permitir a geração automática de um sumário ao final. Para que o Microsoft Word identifique automaticamente a estrutura hierárquica do texto para fins de sumário e navegação, o Auditor deve
-
-* **A)** aumentar o tamanho da fonte e aplicar negrito manualmente em cada título.
-* **B)** inserir uma Caixa de Texto para cada título de seção.
-* **C)** aplicar Estilos de Título aos nomes das seções.
-* **D)** utilizar a Área de Transferência para copiar a formatação de um arquivo externo.
-* **E)** inserir um Marcador Simbólico antes de cada parágrafo do título.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aumentar o tamanho da fonte e aplicar negrito manualmente em cada título". De acordo com a teoria estudada em *A) A Organização Racional do Trabalho (ORT) de Taylor:*, estudo da Fadiga Humana: A fadiga reduz a produtividade e gera acidentes; a administração deve calibrar períodos de repouso e posturas corporais ergonômicas.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inserir uma Caixa de Texto para cada título de seção". De acordo com a teoria estudada em *5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon*, ela só existe efetivamente quando o subordinado decide aceitar a ordem dada pelo superior, dentro de sua "zona de indiferença" (quando entende a ordem, julga-a compatível com os objetivos da organização e com seus valores pessoais).
-> - **C)** **Correta.** Conforme fundamentado na seção *3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne* deste guia, descoberta da Organização Informal: Paralelamente à estrutura formal e hierárquica desenhada no organograma da empresa, opera uma densa e espontânea organização informal, composta por redes de amizade, antipatias, códigos morais próprios, lideranças naturais e expectativas de cooperação não oficiais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "aplicar Estilos de Título aos nomes das seções".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "utilizar a Área de Transferência para copiar a formatação de um arquivo externo". De acordo com a teoria estudada em *Conceitos Sistêmicos Fundamentais para Concursos:*, equifinalidade: Princípio segundo o qual um sistema aberto pode alcançar o mesmo estado final ou meta institucional partindo de condições iniciais distintas e percorrendo caminhos de processamento totalmente diferentes.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inserir um Marcador Simbólico antes de cada parágrafo do título". De acordo com a teoria estudada em *7. Teoria Contingencial: Sistemas Mecanicistas vs. Orgânicos*, surgida no final dos anos 1960 a partir das pesquisas de Joan Woodward, Tom Burns, G. M. Stalker, Paul Lawrence e Jay Lorsch, a Teoria Contingencial estabelece o postulado de que "nada é absoluto nas organizações; tudo é relativo".
->
-> **Gabarito: C**
 
 ---
 

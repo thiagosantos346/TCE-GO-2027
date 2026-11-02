@@ -5,10 +5,7 @@
 > **Arquivo:** `04_relatorios_processo_de_controle_externo_e_sancoes.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 
@@ -86,267 +83,517 @@ As deliberações do Tribunal de Contas proferidas no julgamento de relatórios 
 
 ---
 
-### Teste 198
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-De acordo com o Pronunciamento Técnico CPC 00 (R2)- Estrutura Conceitual para Relatório Financeiro, a Estrutura Conceitual estabelece a base para pronunciamentos que contribuem para a eficiência econômica, ajudando os investidores a
+### Teste 001
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+Sobre as disposições constitucionais referentes ao contro- le externo das entidade governamentais, considere: I. A abrangência dos controles se restringe à lega- lidade e à legitimidade dos atos praticados pelos gestores. II. Qualquer cidadão é parte legítima para, na forma da lei, denunciar irregularidades ou ilegalidades pe- _________________________________________________________ rante o Tribunal de Contas da União. III. Compete ao Tribunal de Contas da União apreciar as contas prestadas anualmente pelo Presidente da República, mediante parecer prévio que deverá ser elaborado em noventa dias a contar de seu rece- bimento. IV. Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegali- dade, dela darão ciência ao Tribunal de Contas da União, sob pena de responsabilidade solidária. Está correto o que se afirma APENAS em
 
-* **A)** conhecer talentos globalmente, aprimorando a qualidade de mão de obra.
-* **B)** identificar oportunidades e riscos em todo o mundo, melhorando a alocação de capital.
-* **C)** aumentar o conhecimento em relação a seus investimentos, diminuindo o risco de oportunidade.
-* **D)** receber informações e relatórios com maior velocidade, aumentando a agilidade em suas escolhas.
-* **E)** melhorar a comunicação com as suas investidas, desenvolvendo um relacionamento mais vantajoso.
+* **A)** I e II.
+* **B)** II e III.
+* **C)** II e IV.
+* **D)** III. _________________________________________________________
+* **E)** III e IV. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "conhecer talentos globalmente, aprimorando a qualidade de mão de obra". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, recomendações: Provimentos pedagógicos e propositivos destinados a orientar o gestor sobre oportunidades de melhoria de desempenho, aprimoramento de rotinas gerenciais e governança pública, no campo da discricionariedade administrativa. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "identificar oportunidades e riscos em todo o mundo, melhorando a alocação de capital".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aumentar o conhecimento em relação a seus investimentos, diminuindo o risco de oportunidade". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "receber informações e relatórios com maior velocidade, aumentando a agilidade em suas escolhas". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, precisão: Informações exatas, lastreadas em evidências idôneas e documentação incontestável.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "melhorar a comunicação com as suas investidas, desenvolvendo um relacionamento mais vantajoso". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, concisão: Foco direto no que é materialmente relevante, sem prolixidade inútil.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "II e IV".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III e IV". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, concisão: Foco direto no que é materialmente relevante, sem prolixidade inútil.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 002
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+A verificação da legalidade dos atos de execução orça- mentária será prévia, concomitante ou subsequente. Uma das formas de se exercer o controle prévio é por meio
+
+* **A)** do Balanço Patrimonial.
+* **B)** do Relatório Resumido da Execução Orçamentária.
+* **C)** do Relatório de Gestão Fiscal.
+* **D)** do Empenho da Despesa.
+* **E)** da Tomada de contas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do Balanço Patrimonial". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do Relatório Resumido da Execução Orçamentária". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, concisão: Foco direto no que é materialmente relevante, sem prolixidade inútil.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do Relatório de Gestão Fiscal". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, precisão: Informações exatas, lastreadas em evidências idôneas e documentação incontestável.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria* deste guia, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "do Empenho da Despesa".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da Tomada de contas". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais.
+>
+> **Gabarito: D**
+
+---
+
+
+### Teste 003
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Jurídica)**
+O Tribunal de Contas do Estado Alfa, ao apreciar as contas de Maria, ordenadora de despesas em determinado ente da Administração Pública indireta sujeito à sua fiscalização, constatou o desvio de recursos públicos. Por tal razão, as contas foram rejeitadas, foi aplicada a sanção de multa a Maria e imputado o débito correspondente. Considerando os balizamentos constitucionais afetos a essa temática, e os efeitos da decisão do Tribunal de Contas, é correto afirmar que.
+
+* **A)** em razão da natureza do ilícito praticado, é imprescritível a pretensão de ressarcimento ao erário fundada nessa decisão.
+* **B)** a decisão do Tribunal de Contas, no exercício de sua competência constitucional, forma um título executivo judicial.
+* **C)** como a decisão analisou as contas, não julgando Maria pelo ilícito praticado, é prescritível a pretensão de ressarcimento ao erário.
+* **D)** a imputação de débito é incompatível com a decisão de rejeição das contas, devendo ser objeto de processo autônomo, o que retira a eficácia do título.
+* **E)** caso não haja o adimplemento voluntário do dever de ressarcir o erário, a decisão deve ser inscrita em dívida ativa, não havendo prazo limite para a sua cobrança.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em razão da natureza do ilícito praticado, é imprescritível a pretensão de ressarcimento ao erário fundada nessa...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a decisão do Tribunal de Contas, no exercício de sua competência constitucional, forma um título executivo judicial". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "como a decisão analisou as contas, não julgando Maria pelo ilícito praticado, é prescritível a pretensão de...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a imputação de débito é incompatível com a decisão de rejeição das contas, devendo ser objeto de processo...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "caso não haja o adimplemento voluntário do dever de ressarcir o erário, a decisão deve ser inscrita em dívida...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, concisão: Foco direto no que é materialmente relevante, sem prolixidade inútil.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 004
+**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Na situação descrita, a comissão de ética do STF, composta por três membros, sendo um deles o secretário de controle interno, que a preside, não tem competência para aplicar sanções administrativas aos servidores envolvidos. organização do órgão, julgue os itens seguintes.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STF/2008) ao afirmar que "Na situação descrita, a comissão de ética do STF, composta por três membros, sendo um deles o secretário de...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 005
+**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+O controle interno exercido pelo CNJ não alcança atos de conteúdo jurisdicional emanados de tribunais.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STJ/2015) ao afirmar que "O controle interno exercido pelo CNJ não alcança atos de conteúdo jurisdicional emanados de tribunais".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 006
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+No exercício de suas atribuições como auditor de controle externo do Tribunal de Contas do Estado do Pará, regularmente investido no cargo, Rozendo entendeu ser necessário averiguar as normas aplicáveis aos servidores no tocante às relações com o fiscalizado, à luz da Resolução nº 18.523/2013 (Código de Ética), vindo a concluir corretamente que, durante os trabalhos de fiscalização a cargo do Tribunal, o servidor deverá:
+
+* **A)** conferir prioridade ao caráter inquisitorial às indagações formuladas ao fiscalizado.
+* **B)** evitar que interesses pessoais e interpretações tendenciosas interfiram na apresentação e nos tratamentos dos fatos levantados.
+* **C)** dar preferência para realização de sugestões sobre assunto administrativo interno do órgão, entidade ou programa fiscalizado durante os trabalhos de campo.
+* **D)** manter atitude de independência em relação ao fiscalizado, deixando clara a sua posição de superioridade.
+* **E)** manter sigilo quanto às sanções aplicáveis em virtude da sonegação de informação e obstrução ao livre exercício das atividades de controle externo, para não prejudicar ulterior procedimento sancionatório.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "conferir prioridade ao caráter inquisitorial às indagações formuladas ao fiscalizado". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, recomendações: Provimentos pedagógicos e propositivos destinados a orientar o gestor sobre oportunidades de melhoria de desempenho, aprimoramento de rotinas gerenciais e governança pública, no campo da discricionariedade administrativa. Não possuem caráter sancionatório direto imediato.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria* deste guia, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "evitar que interesses pessoais e interpretações tendenciosas interfiram na apresentação e nos tratamentos dos...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dar preferência para realização de sugestões sobre assunto administrativo interno do órgão, entidade ou programa...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "manter atitude de independência em relação ao fiscalizado, deixando clara a sua posição de superioridade". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "manter sigilo quanto às sanções aplicáveis em virtude da sonegação de informação e obstrução ao livre exercício...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
 >
 > **Gabarito: B**
 
 ---
 
-### Teste 199
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
-Pérola é servidora estável do Estado Delta e viu sua colega de trabalho Açucena, ocupante de semelhante cargo efetivo, investida após a realização de concurso público, ser demitida, após a garantia do contraditório e da ampla defesa, em decorrência de falta grave funcional por ela cometida após dois anos de efetivo exercício, em decorrência de procedimento instaurado uma semana depois da ocorrência da conduta. Diante dessa situação hipotética, considerando as disposições constitucionais acerca da estabilidade dos servidores públicos, Pérola concluiu, corretamente, que Açucena:
 
-* **A)** apenas poderia ter sido demitida por sentença judicial transitada em julgado em decorrência da garantia da estabilidade a ela assegurada pela Constituição;
-* **B)** poderia ter sido posta em disponibilidade, independentemente do preenchimento de requisitos para a aquisição da estabilidade;
-* **C)** pode, eventualmente, demonstrar a ilegalidade do procedimento que levou à sua demissão, hipótese em que terá direito à recondução ao cargo que ocupava, independentemente da garantia da estabilidade;
-* **D)** tem direito à estabilidade, diante do transcurso do prazo de dois anos de efetivo exercício, em razão do que era necessária a instauração do procedimento administrativo disciplinar pertinente para a sua demissão;
-* **E)** foi demitida com a observância dos princípios do contraditório e da ampla defesa, que é indispensável mesmo para as hipóteses em que o servidor ainda não alcançou a estabilidade.
+### Teste 007
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+Ao estudar a classificação dos atos administrativos, à luz da orientação do Supremo Tribunal Federal, Josiane verificou que é correto indicar como um ato administrativo complexo
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas poderia ter sido demitida por sentença judicial transitada em julgado em decorrência da garantia da...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "poderia ter sido posta em disponibilidade, independentemente do preenchimento de requisitos para a aquisição da...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, concisão: Foco direto no que é materialmente relevante, sem prolixidade inútil.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pode, eventualmente, demonstrar a ilegalidade do procedimento que levou à sua demissão, hipótese em que terá...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tem direito à estabilidade, diante do transcurso do prazo de dois anos de efetivo exercício, em razão do que era...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, precisão: Informações exatas, lastreadas em evidências idôneas e documentação incontestável.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria* deste guia, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "foi demitida com a observância dos princípios do contraditório e da ampla defesa, que é indispensável mesmo para...".
->
-> **Gabarito: E**
-
----
-
-### Teste 200
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
-Leia o fragmento a seguir em relação à evolução da contabilidade de custos. Em um primeiro momento, a contabilidade de custos visava à mensuração monetária _____. Posteriormente, a contabilidade de custos passou a ter duas funções relevantes, o auxílio ao _____ e a ajuda à _____. Assinale a opção que completa corretamente as lacunas do fragmento acima.
-
-* **A)** dos ativos e dos passivos- controle- evidenciação.
-* **B)** dos estoques e do resultado – controle- tomada de decisões.
-* **C)** dos estoques e do resultado – monitoramento – mensuração do resultado.
-* **D)** das receitas e das despesas – controle – mensuração do resultado.
-* **E)** dos ativos e dos passivos – monitoramento – tomada de decisões.
+* **A)** a decisão plenária de certo Tribunal de Contas.
+* **B)** a determinação de ressarcimento ao erário pelo Tribunal de Contas, após o devido processo administrativo.
+* **C)** o registro de aposentadoria de servidores públicos ocupantes de cargo efetivo junto ao respectivo Tribunal de Conta.
+* **D)** a desconsideração da personalidade jurídica em sede administrativa, realizada pelo Tribunal de Contas em determinado processo administrativo.
+* **E)** o reconhecimento de ilegalidade de determinada verba remuneratória paga a servidor público, por decisão do Tribunal de Contas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dos ativos e dos passivos- controle- evidenciação". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem-se em duas categorias fundamentais.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria* deste guia, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "dos estoques e do resultado – controle- tomada de decisões".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dos estoques e do resultado – monitoramento – mensuração do resultado". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "das receitas e das despesas – controle – mensuração do resultado". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dos ativos e dos passivos – monitoramento – tomada de decisões". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, concisão: Foco direto no que é materialmente relevante, sem prolixidade inútil.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a decisão plenária de certo Tribunal de Contas". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a determinação de ressarcimento ao erário pelo Tribunal de Contas, após o devido processo administrativo". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "o registro de aposentadoria de servidores públicos ocupantes de cargo efetivo junto ao respectivo Tribunal de Conta".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a desconsideração da personalidade jurídica em sede administrativa, realizada pelo Tribunal de Contas em...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, recomendações: Provimentos pedagógicos e propositivos destinados a orientar o gestor sobre oportunidades de melhoria de desempenho, aprimoramento de rotinas gerenciais e governança pública, no campo da discricionariedade administrativa. Não possuem caráter sancionatório direto imediato.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o reconhecimento de ilegalidade de determinada verba remuneratória paga a servidor público, por decisão do...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 008
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+Os mecanismos de controle interno e externo são fundamentais para garantir a integridade, eficiência e conformidade das operações de uma organização. Assinale a opção que apresenta um mecanismo de controle estratégico.
+
+* **A)** Controle orçamentário.
+* **B)** Balanço.
+* **C)** Contabilidade de custos.
+* **D)** Just-in-time.
+* **E)** Controle de estoques.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Controle orçamentário". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Balanço".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Contabilidade de custos". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Just in time". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, concisão: Foco direto no que é materialmente relevante, sem prolixidade inútil.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Controle de estoques". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, precisão: Informações exatas, lastreadas em evidências idôneas e documentação incontestável.
 >
 > **Gabarito: B**
 
 ---
 
-### Teste 201
+
+### Teste 009
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Direito)**
+Após perquirir a distinção entre Administração Direta e Indireta e os respectivos órgãos e entidades administrativas, além das questões atinentes à personalidade jurídica em cada caso, Felisbela concluiu corretamente que
+
+* **A)** os Tribunais de Contas são órgãos integrantes da Administração Direta, que não são dotados de personalidade jurídica.
+* **B)** as autarquias são órgãos integrantes da Administração Direta, que tem personalidade jurídica de direito público.
+* **C)** as empresas públicas são entidades integrantes da Administração Indireta dotadas de personalidade jurídica de direito públicos.
+* **D)** os Tribunais de Justiça são entidades integrantes da Administração Indireta dotadas de personalidade jurídica de direito público.
+* **E)** as fundações públicas são órgãos integrantes da Administração Indireta, que não são dotados de personalidade jurídica.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "os Tribunais de Contas são órgãos integrantes da Administração Direta, que não são dotados de personalidade...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as autarquias são órgãos integrantes da Administração Direta, que tem personalidade jurídica de direito público". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as empresas públicas são entidades integrantes da Administração Indireta dotadas de personalidade jurídica de...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os Tribunais de Justiça são entidades integrantes da Administração Indireta dotadas de personalidade jurídica de...". De acordo com a teoria estudada em *Fundamentos Teóricos*, status: 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as fundações públicas são órgãos integrantes da Administração Indireta, que não são dotados de personalidade...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+>
+> **Gabarito: A**
+
+---
+
+
+### Teste 010
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
+João, ordenador de despesas, ao apresentar suas considerações em processo de tomada de conta especial instaurado pelo Tribunal de Contas do Estado Alfa, sustentou que a interpretação de determinado dispositivo constitucional era distinta daquela que estava sendo adotada nos autos. De acordo com João, o significado a ser atribuído pelo intérprete ao dispositivo interpretado é influenciado pelas vicissitudes da realidade. Os argumentos de João
+
+* **A)** não se ajustam ao realismo jurídico.
+* **B)** são compatíveis com o originalismo constitucional.
+* **C)** são compatíveis com a declaração de inconstitucionalidade sem redução de texto.
+* **D)** indicam a existência de uma relação de sobreposição entre texto e norma constitucional.
+* **E)** embora se ajustem à mutação constitucional, não se compatibilizam com a interpretação conforme a constituição.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não se ajustam ao realismo jurídico". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são compatíveis com o originalismo constitucional". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria* deste guia, objetividade: Neutralidade, ausência de juízos emocionais e equilíbrio na ponderação dos argumentos do auditado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "são compatíveis com a declaração de inconstitucionalidade sem redução de texto".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "indicam a existência de uma relação de sobreposição entre texto e norma constitucional". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "embora se ajustem à mutação constitucional, não se compatibilizam com a interpretação conforme a constituição". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 011
 **(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
-Ana, servidora pública estadual ocupante de cargo de provimento efetivo, preencheu os requisitos para a aposentadoria compulsória, o que redundou na expedição do ato de aposentadoria, com a correlata fixação dos seus proventos pela autoridade máxima da estrutura de poder a que estava vinculada. Esse ato foi expedido no dia 10 de setembro de 2018, mas até a presente data ainda não foi analisado pelo Tribunal de Contas. Sobre a hipótese apresentada, à luz da sistemática vigente, assinale a afirmativa correta.
+No curso de auditoria governamental para fiscalização da regularidade dos contratos de fornecimento de merendas escolares para a Escola Municipal Alfa, os auditores de controle externo do TCE-PI verificaram fortes indícios de superfaturamento dos contratos, oriundos de conduta dolosa de agentes públicos, sob a chefia do Secretário Municipal de Educação. Percebendo que o avanço das investigações levaria inexoravelmente à descoberta de seu envolvimento nos danos causados ao erário, o secretário tomou providências para impedir a atuação da equipe de auditores, se negando a permitir sua entrada nas dependências da Secretaria, bem como negando o acesso às informações e aos documentos requisitados por ela. Ante a frustração da execução da auditoria, a equipe de auditores reportou o fato ao corpo deliberativo da Corte de Contas, sugerindo a aplicação de medidas que garantam a continuidade dos trabalhos. Ciente da situação, a Corte de Contas determinará,
 
-* **A)** Pela natureza do ato de aposentação, não é necessário o seu registro no Tribunal de Contas.
-* **B)** Em razão do tempo decorrido desde a expedição do ato, a aposentadoria de Maria tornou-se irreversível.
-* **C)** O Tribunal de Contas pode analisar a qualquer tempo a legalidade do ato inicial de aposentadoria, não se exigindo a observância do contraditório e da ampla defesa.
-* **D)** Em razão do tempo decorrido, eventual negativa de registro, pelo Tribunal de Contas, deve ser antecedida da observância das garantias do contraditório e da ampla defesa.
-* **E)** É possível que o ato seja considerado registrado em razão do decurso do tempo, mas o termo inicial da contagem é o ingresso do processo administrativo no Tribunal de Contas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Pela natureza do ato de aposentação, não é necessário o seu registro no Tribunal de Contas". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem-se em duas categorias fundamentais.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em razão do tempo decorrido desde a expedição do ato, a aposentadoria de Maria tornou-se irreversível". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, o descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
-> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "O Tribunal de Contas pode analisar a qualquer tempo a legalidade do ato inicial de aposentadoria, não se exigindo...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em razão do tempo decorrido, eventual negativa de registro, pelo Tribunal de Contas, deve ser antecedida da...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "É possível que o ato seja considerado registrado em razão do decurso do tempo, mas o termo inicial da contagem é o...".
->
-> **Gabarito: E**
-
----
-
-### Teste 202
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
-Ao realizar uma fiscalização de contas em um órgão de estadual jurisdicionado ao TCE-PA, a equipe de auditoria evidenciou a prática de atos danosos ao erário. No mesmo processo, apurou-se os fatos e atos que resultaram no dano quantificado em R$ 550 mil, bem como o nexo de causalidade entre as condutas dos responsáveis e o dano apurado, sendo-lhes imputado o débito naquele valor após julgamento em que lhes fora assegurado o contraditório e a ampla defesa. Nessa hipótese e considerando as disposições da LOTCE-PA, o Tribunal poderá aplicar aos responsáveis a sanção de:
-
-* **A)** Multa de até R$ 550 mil independentemente do ressarcimento.
-* **B)** Demissão dos agentes públicos envolvidos, caso sejam ocupantes de cargos efetivos.
-* **C)** Multa de até 14.000 (quatorze mil) vezes a Unidade Padrão Fiscal do Estado do Pará
-* **D)** Declaração da irregularidade das contas pela prática de ato antieconômico.
-* **E)** Indisponibilidade dos bens e multa de até 14.000 (quatorze mil) vezes a Unidade Padrão Fiscal do Estado do Pará.
+* **A)** cautelarmente, o julgamento das contas de Bruno irregulares, por deliberação do Conselheiro relator.
+* **B)** cautelarmente, o afastamento temporário de Bruno, por deliberação da maioria absoluta do colegiado competente.
+* **C)** definitivamente, o afastamento de Bruno, por deliberação da maioria relativa do colegiado competente, em voto secreto.
+* **D)** cautelarmente, o ressarcimento ao erário pelos danos decorrentes do superfaturamento dos contratos, ainda que não liquidados.
+* **E)** cautelarmente, a realização de monitoramento, com escolta da equipe de auditores pela polícia militar, visando garantir a continuidade da auditoria.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, o descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Multa de até R$ 550 mil independentemente do ressarcimento".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Demissão dos agentes públicos envolvidos, caso sejam ocupantes de cargos efetivos". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem-se em duas categorias fundamentais.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Multa de até 14.000 (quatorze mil) vezes a Unidade Padrão Fiscal do Estado do Pará". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Declaração da irregularidade das contas pela prática de ato antieconômico". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Indisponibilidade dos bens e multa de até 14.000 (quatorze mil) vezes a Unidade Padrão Fiscal do Estado do Pará". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
->
-> **Gabarito: A**
-
----
-
-### Teste 203
-**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
-Considere a imagem abaixo, que mostra uma arquitetura de armazenamento baseada em informações. Nessa arquitetura, as lacunas I e II são preenchidas, correta e respectivamente, com
-
-* **A)** será necessária a criação de uma tabela entre Advogado e Processo e o relacionamento N:N dará lugar a dois relacionamentos 1:N.
-* **B)** a chave primária da tabela Processo deverá ser chave estrangeira na tabela Advogado.
-* **C)** a chave primária da tabela Advogado deverá ser chave estrangeira na tabela Processo.
-* **D)** ambas as tabelas (Processo e Advogado) deverão ter chave primária composta.
-* **E)** a tabela Advogado deverá ter um campo para especificar o tipo de atuação do advogado em cada processo (defesa ou acusação).
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "será necessária a criação de uma tabela entre Advogado e Processo e o relacionamento N:N dará lugar a dois...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria* deste guia, precisão: Informações exatas, lastreadas em evidências idôneas e documentação incontestável. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "a chave primária da tabela Processo deverá ser chave estrangeira na tabela Advogado".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a chave primária da tabela Advogado deverá ser chave estrangeira na tabela Processo". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ambas as tabelas (Processo e Advogado) deverão ter chave primária composta". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, concisão: Foco direto no que é materialmente relevante, sem prolixidade inútil.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a tabela Advogado deverá ter um campo para especificar o tipo de atuação do advogado em cada processo (defesa ou...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, recomendações: Provimentos pedagógicos e propositivos destinados a orientar o gestor sobre oportunidades de melhoria de desempenho, aprimoramento de rotinas gerenciais e governança pública, no campo da discricionariedade administrativa.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cautelarmente, o julgamento das contas de Bruno irregulares, por deliberação do Conselheiro relator". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria* deste guia, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "cautelarmente, o afastamento temporário de Bruno, por deliberação da maioria absoluta do colegiado competente".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "definitivamente, o afastamento de Bruno, por deliberação da maioria relativa do colegiado competente, em voto...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cautelarmente, o ressarcimento ao erário pelos danos decorrentes do superfaturamento dos contratos, ainda que não...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, precisão: Informações exatas, lastreadas em evidências idôneas e documentação incontestável.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cautelarmente, a realização de monitoramento, com escolta da equipe de auditores pela polícia militar, visando...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, completude: Inclusão de todos os dados necessários para o perfeito entendimento do fato e formulação do juízo de mérito.
 >
 > **Gabarito: B**
 
 ---
 
-### Teste 204
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Ciências Atuariais)**
-Os princípios do processo podem ser considerados como os pilares para a construção de um processo justo e pautado por valores constitucionais, com promoção e proteção dos direitos fundamentais de todos os envolvidos no processo. A respeito do assunto, assinale a afirmativa correta.
 
-* **A)** O princípio do contraditório prévio impede a prolação de decisão contrária à parte sem que essa seja ouvida, ainda que se trate de decisão sobre tutela provisória de urgência.
-* **B)** A ampla defesa é o princípio processual que preconiza a necessidade de que o juízo competente seja definido por regras abstratas e prévias, confundindo-se com o juiz natural.
-* **C)** Como corolário da duração razoável do processo, as partes têm o direito de obter em prazo razoável a solução integral do mérito, excluída a atividade satisfativa.
-* **D)** A observância da proporcionalidade e da razoabilidade no processo civil é decorrência da aplicação do princípio do devido processo legal em sua feição substancial.
-* **E)** A exigência de comportamento processual conforme a boa-fé se aplica somente às partes, sendo prescindível seu cumprimento por parte do órgão julgador e do membro do Ministério Público que nele oficiar.
+### Teste 012
+**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
+José, Diretor-Presidente da Fundação de Educação do Município Beta, localizado no Estado Alfa, foi nomeado para esse cargo em janeiro de 2016, hipótese em que recebeu um montante significativo de recursos necessários à implementação de uma política pública voltada à melhoria da qualidade da educação. Em agosto de 2022, José foi exonerado do cargo, ocasião em que o Tribunal de Contas do Estado Alfa (TCE) iniciou uma auditoria para apurar a falta de aplicação dos recursos e a não realização da referida política pública. Em setembro de 2024, o TCE julgou os fatos apontados no relatório de auditoria, aplicando a José as penalidades de multa e de inabilitação para o exercício de cargo em comissão na administração pública direta e indireta nos entes federativos do Estado Alfa. Nessa hipótese, sobre a decisão do TCE que resultou na aplicação de penalidades, assinale a afirmativa correta.
+
+* **A)** Não está sujeita ao controle jurisdicional.
+* **B)** Tem a prescrição interrompida com a publicação do ato de exoneração de João.
+* **C)** Decai em 10 anos, a contar da prática dos fatos apurados no relatório de auditoria.
+* **D)** É válida, pois a pretensão punitiva do TCE tem seu termo prescricional iniciado em agosto de 2022.
+* **E)** É nula, em razão do advento da prescrição da pretensão punitiva, cujo termo inicial se deu em janeiro de 2016.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O princípio do contraditório prévio impede a prolação de decisão contrária à parte sem que essa seja ouvida, ainda...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem-se em duas categorias fundamentais.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A ampla defesa é o princípio processual que preconiza a necessidade de que o juízo competente seja definido por...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, completude: Inclusão de todos os dados necessários para o perfeito entendimento do fato e formulação do juízo de mérito.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Como corolário da duração razoável do processo, as partes têm o direito de obter em prazo razoável a solução...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, o descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "A observância da proporcionalidade e da razoabilidade no processo civil é decorrência da aplicação do princípio do...".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A exigência de comportamento processual conforme a boa-fé se aplica somente às partes, sendo prescindível seu...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não está sujeita ao controle jurisdicional". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tem a prescrição interrompida com a publicação do ato de exoneração de João". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, completude: Inclusão de todos os dados necessários para o perfeito entendimento do fato e formulação do juízo de mérito.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Decai em 10 anos, a contar da prática dos fatos apurados no relatório de auditoria". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "É válida, pois a pretensão punitiva do TCE tem seu termo prescricional iniciado em agosto de 2022".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É nula, em razão do advento da prescrição da pretensão punitiva, cujo termo inicial se deu em janeiro de 2016". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, recomendações: Provimentos pedagógicos e propositivos destinados a orientar o gestor sobre oportunidades de melhoria de desempenho, aprimoramento de rotinas gerenciais e governança pública, no campo da discricionariedade administrativa. Não possuem caráter sancionatório direto imediato.
 >
 > **Gabarito: D**
 
 ---
 
-### Teste 205
-**(FCC – TRT 2ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-A Administração pública de São Bernardo do Campo tem necessidade de adquirir equipamento de informática que é produzido e comercializado, com exclusividade, por empresa brasileira sediada no Estado do Paraná. Após ampla e detida pesquisa, constatou-se que referido equipamento é o único capaz de atender de forma satisfatória o interesse público, sendo premente sua aquisição. Para tanto, a Administração pública municipal deve comprar referido equipamento por meio de
 
-* **A)** revogar a licitação, por ato devidamente motivado, assegurando-se aos interessados o contraditório e a ampla defesa.
-* **B)** anular o procedimento por razão de interesse público, não havendo obrigação de indenização, porque os licitantes não têm direito subjetivo à contratação.
-* **C)** homologar o ato de resultado final da Comissão de Licitação, confirmando a validade do certame e adjudicando o objeto da licitação ao vencedor do certame, que tem direito subjetivo à contratação.
-* **D)** anular o procedimento por razões de ordem administrativa, ficando a Administração obrigada a indenizar os participantes da licitação.
-* **E)** revogar a licitação, por motivo de legalidade, não havendo obrigação legal de assegurar o contraditório e a ampla defesa, porque os licitantes não têm direito subjetivo à contratação.
+### Teste 013
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+A sigla TCU (Tribunal de Contas da União) mostra a mesma estruturação que a seguinte forma abreviada:
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "revogar a licitação, por ato devidamente motivado, assegurando-se aos interessados o contraditório e a ampla defesa". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, recomendações: Provimentos pedagógicos e propositivos destinados a orientar o gestor sobre oportunidades de melhoria de desempenho, aprimoramento de rotinas gerenciais e governança pública, no campo da discricionariedade administrativa.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "anular o procedimento por razão de interesse público, não havendo obrigação de indenização, porque os licitantes...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "homologar o ato de resultado final da Comissão de Licitação, confirmando a validade do certame e adjudicando o...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 2ª/2014) ao estabelecer que "anular o procedimento por razões de ordem administrativa, ficando a Administração obrigada a indenizar os...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "revogar a licitação, por motivo de legalidade, não havendo obrigação legal de assegurar o contraditório e a ampla...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
->
-> **Gabarito: D**
-
----
-
-### Teste 206
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
-Durante a execução de um contrato de prestação de serviços de TI, celebrado por uma autarquia federal, observou-se que o fornecedor não está cumprindo com os níveis estabelecidos nas Cláusulas de Nível de Serviço (SLA). Para resolver o problema, a administração deve
-
-* **A)** emitir notificação formal ao fornecedor para que seja realizada uma auditoria técnica imediata e ajustes necessários.
-* **B)** cancelar imediatamente o contrato, sem aviso formal, com aplicação de penalidades, visto que o serviço não atende às expectativas.
-* **C)** cancelar o contrato com o fornecedor para evitar mais consequências, uma vez que as métricas de SLA são apenas diretrizes, não obrigatórias.
-* **D)** reportar e aguardar que as falhas, para maior eficácia e esperar que sejam ajustadas no próximo ciclo de renovação contratual automática.
-* **E)** reduzir o pagamento proporcionalmente ao período não conforme, independente do contrato, com comunicação formal ao fornecedor.
+* **A)** PETROBRAS (Petróleo Brasileiro)
+* **B)** STF (Supremo Tribunal Federal)
+* **C)** UNICAMP (Universidade de Campinas)
+* **D)** SUSEPE (Superintendência dos Serviços Penitenciários)
+* **E)** BRADESCO (Banco Brasileiro de Descontos)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria* deste guia, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "emitir notificação formal ao fornecedor para que seja realizada uma auditoria técnica imediata e ajustes...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cancelar imediatamente o contrato, sem aviso formal, com aplicação de penalidades, visto que o serviço não atende...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, completude: Inclusão de todos os dados necessários para o perfeito entendimento do fato e formulação do juízo de mérito.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "cancelar o contrato com o fornecedor para evitar mais consequências, uma vez que as métricas de SLA são apenas...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reportar e aguardar que as falhas, para maior eficácia e esperar que sejam ajustadas no próximo ciclo de renovação...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reduzir o pagamento proporcionalmente ao período não conforme, independente do contrato, com comunicação formal ao...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, concisão: Foco direto no que é materialmente relevante, sem prolixidade inútil.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PETROBRAS (Petróleo Brasileiro)". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "STF (Supremo Tribunal Federal)".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "UNICAMP (Universidade de Campinas)". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SUSEPE (Superintendência dos Serviços Penitenciários)". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BRADESCO (Banco Brasileiro de Descontos)". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, concisão: Foco direto no que é materialmente relevante, sem prolixidade inútil.
+>
+> **Gabarito: B**
+
+---
+
+
+### Teste 014
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+A convocação ocorre nos termos do Estatuto da entidade e tem como pauta o exame de situação institucional envolvendo procedimento disciplinar contra Auditor de Controle Externo, bem como a definição de estratégias políticas e jurídicas voltadas à preservação da independência funcional e das garantias inerentes à função de auditoria. Entre os termos abaixo, aquele que se refere a um termo citado no texto da questão anterior, é:
+
+* **A)** convocação.
+* **B)** situação institucional.
+* **C)** procedimento disciplinar.
+* **D)** estratégias políticas.
+* **E)** independência.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria* deste guia, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "convocação".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "situação institucional". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "procedimento disciplinar". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, concisão: Foco direto no que é materialmente relevante, sem prolixidade inútil.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estratégias políticas". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, precisão: Informações exatas, lastreadas em evidências idôneas e documentação incontestável.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "independência". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, objetividade: Neutralidade, ausência de juízos emocionais e equilíbrio na ponderação dos argumentos do auditado.
 >
 > **Gabarito: A**
 
 ---
 
-### Teste 207
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-O acesso à justiça é direito fundamental, preceituado no artigo 5º, XXXV, da Constituição Federal de 1988, que garante a inafastabilidade da jurisdição. Trata-se de garantia sustentada pelos princípios do contraditório e da ampla defesa, assegurando o devido processo legal. Considerando a legislação em vigor, é correto afirmar que
 
-* **A)** é assegurado a todos, desde que haja o pagamento de taxas, o direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder.
-* **B)** a Constituição Federal veda que haja juízo ou tribunal de exceção, salvo em época de guerra ou estado de sítio decretado.
-* **C)** ninguém será considerado culpado até a publicação da sentença penal condenatória em Diário Oficial, lançado o nome no rol dos culpados.
-* **D)** a lei não prejudicará o ato jurídico perfeito e a coisa julgada, sendo possível que direito adquirido seja alterado por regra resultante de Emenda Constitucional, posterior.
-* **E)** é a todos assegurada a obtenção de certidões em repartições públicas, para defesa de direitos e esclarecimento de situações de interesse pessoal.
+### Teste 015
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+Em uma inspeção, o controle externo do Tribunal de Contas do Estado Alfa constatou que o Município Beta direcionou recursos públicos a uma escola confessional sem fins lucrativos, prosélita da religião X, o que desagradou fiéis vinculados a outras religiões. Na situação descrita, é correto afirmar que o referido direcionamento de recursos é
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é assegurado a todos, desde que haja o pagamento de taxas, o direito de petição aos Poderes Públicos em defesa de...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico.
-> - **B)** **Incorreta.** A opção apresenta vedação ou negativa absoluta incompatível com a regra aplicável ao afirmar que "a Constituição Federal veda que haja juízo ou tribunal de exceção, salvo em época de guerra ou estado de sítio...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, completude: Inclusão de todos os dados necessários para o perfeito entendimento do fato e formulação do juízo de mérito.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ninguém será considerado culpado até a publicação da sentença penal condenatória em Diário Oficial, lançado o nome...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a lei não prejudicará o ato jurídico perfeito e a coisa julgada, sendo possível que direito adquirido seja...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria* deste guia, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "é a todos assegurada a obtenção de certidões em repartições públicas, para defesa de direitos e esclarecimento de...".
->
-> **Gabarito: E**
-
----
-
-### Teste 208
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
-Em determinado processo administrativo, o Tribunal de Contas do Estado do Pará constatou que a sociedade empresária Alfa tinha comprovadamente incorrido em fraude em uma licitação realizada por Beta, ente da Administração Pública indireta do Estado do Pará. Durante o julgamento do caso, foram realizados debates em relação à aplicação da declaração de inidoneidade para licitar e contratar. Por fim, à luz do disposto na Lei Complementar estadual nº 81/2012, conclui-se corretamente que
-
-* **A)** a sanção apresenta caráter puramente administrativo, logo, sua aplicação, ou não, no caso concreto, fica a critério exclusivo da autoridade competente de Beta.
-* **B)** o Tribunal de Contas somente pode aplicar a sanção pelo voto da maioria absoluta dos seus membros, observadas as garantias do contraditório e da ampla defesa.
-* **C)** caso o Tribunal de Contas entenda que é pertinente, deve aplicar a sanção no âmbito do processo administrativo em que constatar a ocorrência da fraude à licitação.
-* **D)** caso o Tribunal de Contas entenda que é pertinente, deve determinar que a autoridade competente de Beta aplique a sanção, e, se a determinação não for atendida em noventa dias, deve aplicá-la.
-* **E)** o Tribunal de Contas deve aplicar a sanção caso a autoridade competente de Beta ainda não a tenha aplicado, requisito não atendido com a mera realização de juízo de valor diverso do que prevaleceu no colegiado.
+* **A)** ilícito, considerando o caráter laico do Estado.
+* **B)** lícito, considerando o dever de o Estado subvencionar atividades religiosas, enquanto manifestação cultural popular.
+* **C)** lícito, caso a escola preencha os requisitos exigidos pela ordem constitucional, ainda que os recursos não sejam destinados a bolsas de estudo.
+* **D)** lícito, desde que os recursos sejam integralmente direcionados a bolsas de estudos e a escola aplique eventuais excedentes financeiros em educação.
+* **E)** ilícito, pois, embora seja possível a celebração de ajustes com as escolas confessionais, recursos públicos devem ser direcionados apenas a escolas públicas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a sanção apresenta caráter puramente administrativo, logo, sua aplicação, ou não, no caso concreto, fica a...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem-se em duas categorias fundamentais.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "o Tribunal de Contas somente pode aplicar a sanção pelo voto da maioria absoluta dos seus membros, observadas as...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "caso o Tribunal de Contas entenda que é pertinente, deve aplicar a sanção no âmbito do processo administrativo em...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, o descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "caso o Tribunal de Contas entenda que é pertinente, deve determinar que a autoridade competente de Beta aplique a...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Tribunal de Contas deve aplicar a sanção caso a autoridade competente de Beta ainda não a tenha aplicado...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, completude: Inclusão de todos os dados necessários para o perfeito entendimento do fato e formulação do juízo de mérito.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ilícito, considerando o caráter laico do Estado". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "lícito, considerando o dever de o Estado subvencionar atividades religiosas, enquanto manifestação cultural popular". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, recomendações: Provimentos pedagógicos e propositivos destinados a orientar o gestor sobre oportunidades de melhoria de desempenho, aprimoramento de rotinas gerenciais e governança pública, no campo da discricionariedade administrativa. Não possuem caráter sancionatório direto imediato. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "lícito, caso a escola preencha os requisitos exigidos pela ordem constitucional, ainda que os recursos não sejam...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "lícito, desde que os recursos sejam integralmente direcionados a bolsas de estudos e a escola aplique eventuais...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "ilícito, pois, embora seja possível a celebração de ajustes com as escolas confessionais, recursos públicos devem...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
+
+
+### Teste 016
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+No que tange à composição do Tribunal de Contas do Estado de Santa Catarina, nos termos da Constituição Estadual, é correto afirmar que os Conselheiros serão nomeados entre brasileiros que satisfaçam os seguintes requisitos, entre outros:
+
+* **A)** mais de trinta e menos de setenta anos de idade, idoneidade moral e reputação ilibada.
+* **B)** mais de trinta e cinco e menos de sessenta e cinco anos de idade, idoneidade moral e reputação ilibada.
+* **C)** notórios conhecimentos, exclusivamente, em Direito, Ciências Contábeis e Administração Pública.
+* **D)** mais de quinze anos de exercício de função ou de efetiva atividade profissional em matéria de Gestão Pública.
+* **E)** mais de cinco anos de exercício de função ou de efetiva atividade profissional em Direito, Administração, Ciências Contábeis e Ciências Econômicas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mais de trinta e menos de setenta anos de idade, idoneidade moral e reputação ilibada". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "mais de trinta e cinco e menos de sessenta e cinco anos de idade, idoneidade moral e reputação ilibada".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "notórios conhecimentos, exclusivamente, em Direito, Ciências Contábeis e Administração Pública". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mais de quinze anos de exercício de função ou de efetiva atividade profissional em matéria de Gestão Pública". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mais de cinco anos de exercício de função ou de efetiva atividade profissional em Direito, Administração, Ciências...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+>
+> **Gabarito: B**
+
+---
+
+
+### Teste 017
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+A conduta ética dos servidores públicos é fundamental para promover integridade, transparência, responsabilidade, imparcialidade, legalidade e efetividade na prestação dos serviços públicos. Durante os trabalhos de fiscalização a cargo do Tribunal, além de observar as normas de auditoria adotadas pelo TCE-SC, o Auditor Fiscal de Controle Externo, nos termos do Código de Ética e Conduta dos Servidores (Resolução nº TC-0252/2024), deverá
+
+* **A)** se utilizar de opiniões preconcebidas, convicções político- partidárias, religiosas ou ideológicas para garantir uma maior receptividade do jurisdicionado, favorecendo o desenvolvimento dos trabalhos e a obtenção de dados.
+* **B)** desde o início, se manter firme com relação às afirmações feitas pelos fiscalizados, no decorrer dos trabalhos de fiscalização, informando ponto a ponto as irregularidades tão logo sejam observadas, sobretudo no curso de fiscalizações in loco.
+* **C)** evitar que interesses pessoais e interpretações tendenciosas interfiram na apresentação e no tratamento dos fatos levantados, bem como abster-se de emitir opinião preconcebida ou induzida por convicções político-partidárias, religiosas ou ideológicas.
+* **D)** evitar denunciar quaisquer ações que venha a sofrer, bem como atos ou fatos que tenha conhecimento, se protelarem a decisão dos feitos, ainda que limitem sua independência ou que criem restrições à sua atuação, desde que não afetem o resultado final da fiscalização.
+* **E)** evitar empreender caráter agressivo às indagações formuladas aos fiscalizados, exceto quando o jurisdicionado se mostrar reativo à fiscalização, ocasião em que deverão ser tomadas medidas mais enérgicas, exclusivamente no limite suficiente para garantir a não frustração da diligência.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "se utilizar de opiniões preconcebidas, convicções político partidárias, religiosas ou ideológicas para garantir...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desde o início, se manter firme com relação às afirmações feitas pelos fiscalizados, no decorrer dos trabalhos de...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria* deste guia, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "evitar que interesses pessoais e interpretações tendenciosas interfiram na apresentação e no tratamento dos fatos...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "evitar denunciar quaisquer ações que venha a sofrer, bem como atos ou fatos que tenha conhecimento, se protelarem...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "evitar empreender caráter agressivo às indagações formuladas aos fiscalizados, exceto quando o jurisdicionado se...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, recomendações: Provimentos pedagógicos e propositivos destinados a orientar o gestor sobre oportunidades de melhoria de desempenho, aprimoramento de rotinas gerenciais e governança pública, no campo da discricionariedade administrativa. Não possuem caráter sancionatório direto imediato.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 018
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+Caio, contador, logra êxito em ser aprovado no concurso de Auditor Fiscal de Controle Externo do TCE-SC, passando a titularizar o concorrido e renomado cargo para o qual estudou por tantos anos. Após o curso de formação e o início efetivo das atividades, o titular da unidade técnica lhe distribuiu dois processos para fins de instrução. Em um deles, processo X, havia como documento anexo à defesa do jurisdicionado uma perícia realizada pelo próprio Caio, quando ainda trabalhava como contador em escritório renomado do Estado, do qual foi desligado antes mesmo da sua nomeação e posse no cargo público em questão. No outro, processo Y, figurava como jurisdicionado seu tio distante, com quem nunca teve laço de afetividade, de amizade ou de inimizade. Considerando as disposições do Código de Conduta Ética dos Servidores do Tribunal de Contas do Estado de Santa Catarina, é correto afirmar, com relação aos processos X e Y, que
+
+* **A)** não está configurado conflito de interesse no exercício do cargo.
+* **B)** está configurado conflito de interesse no exercício do cargo, ainda que Caio não tenha obtido qualquer vantagem ou retribuição.
+* **C)** está configurado conflito de interesse no exercício do cargo com relação ao processo X, mas não em relação ao processo Y.
+* **D)** está configurado conflito de interesse no exercício do cargo com relação ao processo Y, mas não em relação ao processo X.
+* **E)** está configurado conflito de interesse no exercício do cargo, apenas se Caio tiver obtido vantagem ou retribuição mensuráveis.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não está configurado conflito de interesse no exercício do cargo". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "está configurado conflito de interesse no exercício do cargo, ainda que Caio não tenha obtido qualquer vantagem ou...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "está configurado conflito de interesse no exercício do cargo com relação ao processo X, mas não em relação ao...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "está configurado conflito de interesse no exercício do cargo com relação ao processo Y, mas não em relação ao...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "está configurado conflito de interesse no exercício do cargo, apenas se Caio tiver obtido vantagem ou retribuição...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, concisão: Foco direto no que é materialmente relevante, sem prolixidade inútil.
+>
+> **Gabarito: B**
+
+---
+
+
+### Teste 019
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
+No exercício de suas atribuições como auditor fiscal de controle externo do Tribunal de Contas do Estado de Santa Catarina (TCE/SC), Jorge foi questionado sobre as penalidades aplicáveis às pessoas jurídicas em decorrência de processo administrativo de responsabilização perante as autoridades competentes, com base na Lei nº 12.846/2013. Nesse contexto, Jorge indicou corretamente a seguinte sanção:
+
+* **A)** dissolução compulsória da pessoa jurídica.
+* **B)** publicação extraordinária da decisão condenatória
+* **C)** suspensão ou interdição parcial de suas atividades.
+* **D)** perdimento dos bens, direitos ou valores que representem vantagem ou proveito direta ou indiretamente obtidos da infração, ressalvado o direito do lesado ou de terceiro de boa-fé.
+* **E)** proibição de receber incentivos, subsídios, subvenções, doações ou empréstimos de órgãos ou entidades públicas por até 10 (dez) anos.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dissolução compulsória da pessoa jurídica". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "publicação extraordinária da decisão condenatória".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "suspensão ou interdição parcial de suas atividades". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "perdimento dos bens, direitos ou valores que representem vantagem ou proveito direta ou indiretamente obtidos da...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "proibição de receber incentivos, subsídios, subvenções, doações ou empréstimos de órgãos ou entidades públicas por...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+>
+> **Gabarito: B**
+
+---
+
+
+### Teste 020
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
+Analise as condutas a seguir elencadas, praticadas por servidores do Tribunal de Contas do Estado de Santa Catarina (TCE/SC): I. Lucia participou de trabalho de fiscalização em situação envolvendo Inalda, pessoa com quem possui profundo laço afetivo de amizade. II. Milton fez uso de informação privilegiada em benefício de seu irmão Marcos. III. Norma exerceu atividade que prejudicou a realização de tarefas atinentes ao seu cargo junto à Corte de Contas. Considerando o disposto na Resolução nº 252/2024 do TCE-SC, que institui o Código de Conduta Ética dos servidores do Tribunal de Contas do Estado de Santa Catarina (TCE/SC), é correto afirmar que configura(m) conflito(s) de interesses a(s) conduta(s) praticadas por:
+
+* **A)** Lucia, apenas.
+* **B)** Milton, apenas.
+* **C)** Milton e Noma, apenas.
+* **D)** Lucia e Norma, apenas.
+* **E)** Lucia, Milton e Norma
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Lucia, apenas". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Milton, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Milton e Noma, apenas". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Lucia e Norma, apenas". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Lucia, Milton e Norma". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, concisão: Foco direto no que é materialmente relevante, sem prolixidade inútil.
+>
+> **Gabarito: B**
+
+---
+
+
+### Teste 021
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Sem Especialidade)**
+O Tribunal de Contas de um determinado Estado resolveu implementar uma nova metodologia de gestão para melhoria contínua de seus processos. Assim, como responsáveis por área estratégica, nomeou  João para a área de identificação de problemas, definição de metas, elaboração e implementação de planos de ação;  Lúcia para a área onde serão aplicadas as “correções de rumo” e a padronização das melhorias;  Jorge para a área de análise dos resultados obtidos, comparação com os objetivos iniciais e identificação de desvios. Considerando o Ciclo PDCA (P = planejar, D = fazer, C = verificar, A = agir), assinale a opção que mostra, corretamente, as etapas de cada responsável.
+
+* **A)** P = João; D = João; C = Jorge e A = Lúcia.
+* **B)** P = João; D = Jorge; C = Lúcia e A = Lúcia.
+* **C)** P = Lúcia; D = João; C = Lúcia e A = Jorge.
+* **D)** P = Jorge; D = João; C = Lúcia e A = Jorge.
+* **E)** P = Jorge; D = Jorge; C = João e A = Lúcia.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem se em duas categorias fundamentais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "P = João; D = João; C = Jorge e A = Lúcia".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "P = João; D = Jorge; C = Lúcia e A = Lúcia". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "P = Lúcia; D = João; C = Lúcia e A = Jorge". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "P = Jorge; D = João; C = Lúcia e A = Jorge". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, recomendações: Provimentos pedagógicos e propositivos destinados a orientar o gestor sobre oportunidades de melhoria de desempenho, aprimoramento de rotinas gerenciais e governança pública, no campo da discricionariedade administrativa. Não possuem caráter sancionatório direto imediato.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "P = Jorge; D = Jorge; C = João e A = Lúcia". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+>
+> **Gabarito: A**
+
+---
+
+
 

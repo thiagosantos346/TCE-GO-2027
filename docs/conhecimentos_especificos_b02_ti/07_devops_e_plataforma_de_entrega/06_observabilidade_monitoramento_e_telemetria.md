@@ -4,10 +4,7 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `06_observabilidade_monitoramento_e_telemetria.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Conceitos de Monitoramento Tradicional vs. Observabilidade
@@ -116,78 +113,6 @@ Além dos Quatro Sinais Dourados, destacam-se duas metodologias amplamente cobra
 
 ---
 
-### Teste 224
-**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
-Quanto maior a diversidade de dados ou registros de circulação passíveis de serem utilizados em um estudo de
-
-* **A)** menor o esforço a ser dispendido pelos avaliadores.
-* **B)** maior o índice de dúvida (ID) em relação aos resul- da. tados.
-* **C)** maior a margem de erro. for baixa.
-* **D)** bases de dados ocupam pouco espaço na memória dos computadores.
-* **E)** apenas redes de bibliotecas podem ter bases de _________________________________________________________ dados em CD-ROM, se considerada a relação entre os custos e os benefícios.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "menor o esforço a ser dispendido pelos avaliadores". De acordo com a teoria estudada em *2.4 Tabela Comparativa de Propósitos e Custos dos Três Pilares*, métricas: "Quando e onde algo está quebrado?" — Numérica, agregada e contínua (*Time Series*). — Muito Baixo (ótima relação custo/benefício para retenção longa). — Prometheus, Datadog, InfluxDB, Grafana.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "maior o índice de dúvida (ID) em relação aos resul- da. tados". De acordo com a teoria estudada em *2.4 Tabela Comparativa de Propósitos e Custos dos Três Pilares*, pilar: Pergunta que Responde — Granularidade dos Dados — Custo de Armazenamento e Processamento — Ferramentas de Referência.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "maior a margem de erro. for baixa". De acordo com a teoria estudada em *4.2 O Orçamento de Erro (Error Budget) como Equilíbrio entre Inovação e Confiabilidade*, o Error Budget é definido matematicamente como a margem de falha tolerada pelo SLO.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "bases de dados ocupam pouco espaço na memória dos computadores". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, usado para representar o estado momentâneo de um recurso variável: quantidade de memória RAM livre em bytes, temperatura da CPU, número de conexões ativas no pool do banco de dados ou contagem de réplicas de Pods rodando.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)* deste guia, em serviços web e APIs REST, afere-se tipicamente pelo número de requisições HTTP por segundo (RPS); em serviços de banco de dados, pelo volume de transações por segundo (TPS); em redes de streaming, pela quantidade de conexões ativas ou vazão de dados em megabits por segundo. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "apenas redes de bibliotecas podem ter bases de _________________________________________________________ dados em...".
->
-> **Gabarito: E**
-
----
-
-### Teste 225
-**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
-Com relação aos tipos de redes de computadores e suas arquiteturas, considere as afirmativas a seguir. I. Uma rede LAN e uma rede WAN se diferenciam apenas pelo fato de a WAN ser uma rede sem fio. II. As WAN costumam usar meios físicos apropriados para longas distâncias, como fibras óticas, pois os enlaces entre dois nós podem ter que cobrir distâncias grandes. III. A topologia em estrela minimiza o tamanho do cabeamento necessário em uma rede de mais de 8 nós regularmente espaçados pela área de uma WAN. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** II e III, apenas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1. Monitoramento Tradicional vs. Observabilidade Moderna*, em infraestruturas tradicionais monolíticas e hospedadas em datacenters físicos, a gerência de operações baseava-se em monitoramento reativo: checagens periódicas via ping (*heartbeats* ICMP) e disparos de alertas fundamentados em limiares estáticos (*thresholds*, ex.: disparar e-mail de alerta quando o consumo de CPU da VM ultrapassar 80%).
-> - **B)** **Correta.** Conforme fundamentado na seção *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)* deste guia, amostra observações (geralmente latências de requisições ou tamanhos de payloads) e as conta em baldes de tamanho configurável (*buckets*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "II, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1.1 Transição de Sintomas para Estados Internos*, *"Um sistema é observável se o seu estado interno puder ser integralmente inferido a partir do conhecimento de suas saídas externas expostas."*.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)*, em serviços web e APIs REST, afere-se tipicamente pelo número de requisições HTTP por segundo (RPS); em serviços de banco de dados, pelo volume de transações por segundo (TPS); em redes de streaming, pela quantidade de conexões ativas ou vazão de dados em megabits por segundo.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)*, as alternativas incorretas costumam substituir "Saturação" por "Segurança", "Simplicidade" ou "Sincronização" para induzir o candidato ao erro.
->
-> **Gabarito: B**
-
----
-
-### Teste 226
-**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-É sabido que um dos motivantes para a proposição do IPv6 para substituir o IPv4 foi a capacidade limitada de endereçamento do IPv4. Entretanto, e aproveitando a oportunidade para melhorar a funcionalidade do protocolo IP, outros recursos foram modificados ou introduzidos no IPv6. Dentre eles,
-
-* **A)** a introdução do recurso de QoS (Qualidade de Serviço) utilizando o campo Flow Label.
-* **B)** o uso do ARP incorporado no campo EXT do cabeçalho IPv6.
-* **C)** a redução do tamanho dos fragmentos dos pacotes para minimizar os erros de transmissão.
-* **D)** a incorporação do serviço TCP para fragmentar os pacotes no roteador.
-* **E)** o uso de endereços Broadcast ao invés de Multicast para aumentar a eficiência.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *4.1 Distinção Formal entre SLI, SLO e SLA* deste guia, define o nível de qualidade que o serviço deve manter para que os usuários finais estejam plenamente satisfeitos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "a introdução do recurso de QoS (Qualidade de Serviço) utilizando o campo Flow Label".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o uso do ARP incorporado no campo EXT do cabeçalho IPv6". De acordo com a teoria estudada em *2.4 Tabela Comparativa de Propósitos e Custos dos Três Pilares*, traces: "Qual serviço no fluxo causou o atraso ou falha?" — Grafo hierárquico causal de transação distribuída. — Médio (requer uso de amostragem/*sampling* em alta escala). — Jaeger, Zipkin, OpenTelemetry.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a redução do tamanho dos fragmentos dos pacotes para minimizar os erros de transmissão". De acordo com a teoria estudada em *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)*, mede a fração utilizada de um recurso computacional finito e restrito (ex.: percentual de ocupação da memória RAM física, esgotamento do pool de threads do Tomcat, taxa de utilização de discos SSD ou filas de espera em conexões com bancos relacionais). À medida que a saturação se aproxima de 100%, o sistema degrada subitamente seu desempenho.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a incorporação do serviço TCP para fragmentar os pacotes no roteador". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, usado para representar o estado momentâneo de um recurso variável: quantidade de memória RAM livre em bytes, temperatura da CPU, número de conexões ativas no pool do banco de dados ou contagem de réplicas de Pods rodando.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o uso de endereços Broadcast ao invés de Multicast para aumentar a eficiência". De acordo com a teoria estudada em *4. Engenharia de Confiabilidade SRE: O Triângulo SLI, SLO, SLA e Error Budgets*, o modelo de confiabilidade do Google SRE substitui debates subjetivos sobre qualidade por acordos matemáticos e operacionais claros.
->
-> **Gabarito: A**
-
----
-
 ## 2. Os Três Pilares da Observabilidade
 
 A observabilidade moderna estrutura-se sobre a convergência de três tipos de dados de telemetria independentes, porém rigorosamente complementares: **Métricas, Logs e Rastreamento Distribuído (*Traces*)**.
@@ -289,78 +214,6 @@ flowchart TD
 
 ---
 
-### Teste 227
-**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
-Em relação aos eventos e aos artefatos do framework Scrum, analise as afirmativas a seguir. I. O backlog do produto é um documento preenchido antes do início do projeto e que não sofre alterações mesmo que os desejos do cliente mudem ao longo do tempo. II. A reunião diária, daily Scrum, é um evento de curta duração que permite identificar impedimentos, melhorar as comunicações, promover rápida tomada de decisões e reduzir a necessidade de outras reuniões ao longo do dia. III. A reunião de revisão da Sprint é um evento em que são definidas as histórias de usuário que serão trabalhadas naquela Sprint. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** II e III, apenas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, semelhante ao histograma, mas calcula os percentis diretamente na própria aplicação instrumentada (no cliente) sobre uma janela de tempo deslizante, expondo os quantis já prontos.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.3 Rastreamento Distribuído (Distributed Tracing): Traces, Spans e Identificadores Globais* deste guia, timestamps: Horário exato de início e fim da operação (permitindo calcular a duração e latência). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "II, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, as métricas são valores numéricos atômicos agregados ao longo do tempo (*Time Series*), enriquecidos com pares chave-valor denominados rótulos (*labels*). Exemplo no Prometheus: `http_requests_total{method="POST", handler="/pagamento", status="500"}`.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, é um valor numérico instantâneo que pode subir e descer livremente ao longo do tempo.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *4.1 Distinção Formal entre SLI, SLO e SLA*, essa diferença matemática cria uma zona de amortecimento (*buffer de segurança*) que permite à equipe técnica detectar falhas, agir e restaurar o serviço antes que o descumprimento atinja o limite do SLA e gere multas financeiras para a organização.
->
-> **Gabarito: B**
-
----
-
-### Teste 228
-**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-Considere o texto a seguir: Em computadores baseados na arquitetura de Von Neumann, assim que a instrução que vai ser executada é buscada da memória principal para a CPU, o sistema efetiva automaticamente a modificação do conteúdo desse registrador de modo que ele passe a armazenar o endereço da próxima instrução na sequência, sendo crucial para o processo de controle e de sequenciamento da execução dos programas. O texto se refere ao registrador conhecido como
-
-* **A)** Registrador de Dados de Memória − RDM.
-* **B)** Registrador de Decodificação de Instruções − RDI.
-* **C)** Contador de Instruções − CI.
-* **D)** Registrador de Endereçamento de Instruções − REI.
-* **E)** Registrador de Instruções − RI.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Registrador de Dados de Memória − RDM". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, usado para representar o estado momentâneo de um recurso variável: quantidade de memória RAM livre em bytes, temperatura da CPU, número de conexões ativas no pool do banco de dados ou contagem de réplicas de Pods rodando.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Registrador de Decodificação de Instruções − RDI". De acordo com a teoria estudada em *1.1 Transição de Sintomas para Estados Internos*, *"Um sistema é observável se o seu estado interno puder ser integralmente inferido a partir do conhecimento de suas saídas externas expostas."*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Contador de Instruções − CI". De acordo com a teoria estudada em *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)*, mede a fração utilizada de um recurso computacional finito e restrito (ex.: percentual de ocupação da memória RAM física, esgotamento do pool de threads do Tomcat, taxa de utilização de discos SSD ou filas de espera em conexões com bancos relacionais). À medida que a saturação se aproxima de 100%, o sistema degrada subitamente seu desempenho.
-> - **D)** **Correta.** Conforme fundamentado na seção *1. Monitoramento Tradicional vs. Observabilidade Moderna* deste guia, o sistema pode estar com todos os servidores operando em 30% de CPU e, ainda assim, milhares de cidadãos enfrentarem erros HTTP 500 intermitentes devido a travamentos de conexões em banco de dados ou falhas de comunicação em malhas de rede. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "Registrador de Endereçamento de Instruções − REI".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Registrador de Instruções − RI". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, expõe automaticamente métricas auxiliares: contagem total de observações (`_count`) e soma total dos valores (`_sum`).
->
-> **Gabarito: D**
-
----
-
-### Teste 229
-**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
-Os firewalls podem ser um meio eficaz de proteger sistemas e redes contra ameaças de segurança. Com relação às suas limitações, analise os itens a seguir. I. Não são capazes de proteger contra os ataques que contornam o firewall. II. Não protegem contra ameaças internas, como funcionários insatisfeitos ou que cooperam com um atacante externo. III. Não protegem contra a transferência de programas ou arquivos infectados com vírus. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I, II e III.
-* **E)** II e III, apenas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.1 Transição de Sintomas para Estados Internos*, *"Um sistema é observável se o seu estado interno puder ser integralmente inferido a partir do conhecimento de suas saídas externas expostas."*.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.1 Transição de Sintomas para Estados Internos*, viabiliza a investigação aberta e multidimensional de problemas inéditos e imprevistos decorrentes do comportamento caótico de sistemas distribuídos (*unknown unknowns*).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)*, em serviços web e APIs REST, afere-se tipicamente pelo número de requisições HTTP por segundo (RPS); em serviços de banco de dados, pelo volume de transações por segundo (TPS); em redes de streaming, pela quantidade de conexões ativas ou vazão de dados em megabits por segundo.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.4 Tabela Comparativa de Propósitos e Custos dos Três Pilares* deste guia, métricas: "Quando e onde algo está quebrado?" — Numérica, agregada e contínua (*Time Series*). — Muito Baixo (ótima relação custo/benefício para retenção longa). — Prometheus, Datadog, InfluxDB, Grafana. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "I, II e III".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.1 Arquitetura Unificada: OTel API, OTel SDK e OTel Collector*, o código da aplicação instrumentado contra a API OTel não depende de nenhum backend específico e compila sem referenciar ferramentas de terceiros.
->
-> **Gabarito: D**
-
----
-
 ## 3. O Padrão Aberto OpenTelemetry (OTel)
 
 Historicamente, as equipes de TI ficavam presas a bibliotecas proprietárias de telemetria específicas de cada fabricante (*Vendor Lock-in*). Para sanar essa fragmentação, a CNCF fundiu os projetos abertos *OpenTracing* e *OpenCensus*, criando o **OpenTelemetry (OTel)** como o padrão aberto e unificado da indústria para instrumentação de software.
@@ -399,24 +252,6 @@ Para que o `Trace ID` seja preservado quando uma chamada cruza a fronteira de um
     - `4bf92f3577b34da6a3ce929d0e0e4736`: O **`Trace ID`** global compartilhado por todos os serviços.
     - `00f067aa0ba902b7`: O **`Parent Span ID`** da operação que originou o disparo.
     - `01`: Flags de rastreamento (onde `01` indica que a requisição foi selecionada para amostragem/gravação).
-
----
-
-### Teste 230
-**(CEBRASPE – STF – 2013 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-Ataques de negação de serviço distribuído com base em HTTP devem ser mitigados em firewall de camada de aplicação. Nesse caso, se for utilizado o protocolo HTTPS, a mitigação não será possível porque os dados trafegados são cifrados.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ataques de negação de serviço distribuído com base em HTTP devem ser mitigados em firewall de camada de...". De acordo com a teoria estudada em *3.1 Arquitetura Unificada: OTel API, OTel SDK e OTel Collector*, oTel API: A camada de abstração com a qual o código da aplicação interage. Define as interfaces para criar métricas, traces e logs.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *3.1 Arquitetura Unificada: OTel API, OTel SDK e OTel Collector* deste guia, oTel SDK: A implementação concreta da API. Gerencia filas de memória, suporte a amostragem (*sampling*), empacotamento em lotes e conversão dos dados de telemetria no protocolo nativo OTLP (*OpenTelemetry Protocol*) via gRPC ou HTTP. Portanto, a assertiva examinada pela banca (CEBRASPE – STF/2013) viola os preceitos técnicos do tópico.
->
-> **Gabarito: E**
 
 ---
 
@@ -479,54 +314,6 @@ O conceito mais transformador do SRE é o **Orçamento de Erro (*Error Budget*)*
 
 ---
 
-### Teste 231
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Civil)**
-Com base na Lei nº 14.133/2021, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F). ( ) A licitação é inexigível quando for inviável a competição, nos casos em que os serviços só possam ser fornecidos por um produtor. ( ) No caso de obras e serviços de engenharia , o limite estabelecido para dispensa de licitação em obras de engenharia é de R$200mil. ( ) A licitação pode ser dispensada em contratações que tenham como objeto produtos para pesquisa e desenvolvimento, respeitado o limite estabelecido por lei. As afirmativas são, respectivamente,
-
-* **A)** F – V – F.
-* **B)** F – V – V.
-* **C)** V – V – F.
-* **D)** V – F – F.
-* **E)** V – F – V.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – F". De acordo com a teoria estudada em *4.1 Distinção Formal entre SLI, SLO e SLA*, essa diferença matemática cria uma zona de amortecimento (*buffer de segurança*) que permite à equipe técnica detectar falhas, agir e restaurar o serviço antes que o descumprimento atinja o limite do SLA e gere multas financeiras para a organização.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *4.2 O Orçamento de Erro (Error Budget) como Equilíbrio entre Inovação e Confiabilidade*, parte do princípio de que 100% de disponibilidade é um objetivo equivocado e economicamente inviável. Exigir 100% paralisa a capacidade da equipe de inovar e lançar novas funcionalidades, pois qualquer deploy carrega risco residual.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *4.2 O Orçamento de Erro (Error Budget) como Equilíbrio entre Inovação e Confiabilidade*, se o SLO estabelecido é de $99{,}9\%$ ao mês, o Orçamento de Erro é de $0{,}1\%$.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *4.2 O Orçamento de Erro (Error Budget) como Equilíbrio entre Inovação e Confiabilidade*, saldo Positivo no Error Budget: A equipe de desenvolvimento possui "crédito de risco" para acelerar deploys, experimentar novas funcionalidades e aceitar pequenos incidentes controlados.
-> - **E)** **Correta.** Conforme fundamentado na seção *4.1 Distinção Formal entre SLI, SLO e SLA* deste guia, estabelece as obrigações do provedor e as consequências formais (penalidades financeiras, ressarcimentos ou sanções contratuais) caso o nível de serviço seja violado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "V – F – V".
->
-> **Gabarito: E**
-
----
-
-### Teste 232
-**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
-A analista Paula foi designada como responsável por um projeto com as seguintes características: inovação, alto grau de incerteza, não ter sido realizado nenhum outro similar em seu órgão e provavelmente passar por muitas mudanças durante o processo. Considerando essas características do projeto, Paula decidiu pela abordagem ágil usando o framework Scrum. A atividade empregada pelo framework Scrum que Paula deve utilizar, para tratar a alta incerteza do projeto, é:
-
-* **A)** realização de sprints;
-* **B)** manutenção da declaração de escopo;
-* **C)** confecção de documentação abrangente;
-* **D)** revisões periódicas de processos e ferramentas;
-* **E)** acompanhamento permanente da equipe de desenvolvimento.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *4.1 Distinção Formal entre SLI, SLO e SLA* deste guia, define o nível de qualidade que o serviço deve manter para que os usuários finais estejam plenamente satisfeitos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "realização de sprints".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "manutenção da declaração de escopo". De acordo com a teoria estudada em *2.4 Tabela Comparativa de Propósitos e Custos dos Três Pilares*, logs: "Por que exatamente o erro aconteceu?" — Textual individualizada por evento discreto. — Muito Alto (exige compressão e descarte programado por TTL). — Stack ELK, Fluent Bit, Grafana Loki.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "confecção de documentação abrangente". De acordo com a teoria estudada em *3.1 Arquitetura Unificada: OTel API, OTel SDK e OTel Collector*, o código da aplicação instrumentado contra a API OTel não depende de nenhum backend específico e compila sem referenciar ferramentas de terceiros.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "revisões periódicas de processos e ferramentas". De acordo com a teoria estudada em *1. Monitoramento Tradicional vs. Observabilidade Moderna*, em infraestruturas tradicionais monolíticas e hospedadas em datacenters físicos, a gerência de operações baseava-se em monitoramento reativo: checagens periódicas via ping (*heartbeats* ICMP) e disparos de alertas fundamentados em limiares estáticos (*thresholds*, ex.: disparar e-mail de alerta quando o consumo de CPU da VM ultrapassar 80%).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "acompanhamento permanente da equipe de desenvolvimento". De acordo com a teoria estudada em *4.2 O Orçamento de Erro (Error Budget) como Equilíbrio entre Inovação e Confiabilidade*, saldo Positivo no Error Budget: A equipe de desenvolvimento possui "crédito de risco" para acelerar deploys, experimentar novas funcionalidades e aceitar pequenos incidentes controlados.
->
-> **Gabarito: A**
-
----
-
 ## 5. Métricas DORA e Desempenho Operacional em Engenharia
 
 Desenvolvido pelo grupo *DevOps Research and Assessment* (DORA / Google Cloud), este framework científico consolidou os quatro indicadores universais para avaliar o desempenho de entrega e estabilidade de software:
@@ -539,24 +326,6 @@ Desenvolvido pelo grupo *DevOps Research and Assessment* (DORA / Google Cloud), 
 | **Lead Time for Changes (LTTC)** | **Velocidade (*Throughput*)** | O tempo transcorrido desde o primeiro commit no controle de versão até a entrada efetiva em produção. | **Menos de 1 hora**. |
 | **Change Failure Rate (CFR)** | **Estabilidade (*Stability*)** | O percentual de implantações em produção que resultam em falha operacional imediata (exigindo hotfix ou rollback). | **0% a 15%** de falhas. |
 | **Time to Restore Service (MTTR)** | **Estabilidade (*Stability*)** | O tempo médio decorrido para restabelecer a operação plena quando ocorre uma degradação ou indisponibilidade em produção. | **Menos de 1 hora**. |
-
----
-
-### Teste 233
-**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
-A engenharia de software engloba processos, métodos e ferramentas. Um de seus focos é a produção de software de alta qualidade a custos adequados.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2.4 Tabela Comparativa de Propósitos e Custos dos Três Pilares* deste guia, pilar: Pergunta que Responde — Granularidade dos Dados — Custo de Armazenamento e Processamento — Ferramentas de Referência. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRT/10/2013) ao afirmar que "A engenharia de software engloba processos, métodos e ferramentas. Um de seus focos é a produção de software...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *2.4 Tabela Comparativa de Propósitos e Custos dos Três Pilares*, segundo a qual traces: "Qual serviço no fluxo causou o atraso ou falha?" — Grafo hierárquico causal de transação distribuída. — Médio (requer uso de amostragem/*sampling* em alta escala). — Jaeger, Zipkin, OpenTelemetry.
->
-> **Gabarito: C**
 
 ---
 

@@ -4,10 +4,7 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `01_estrategias_de_leitura_skimming_scanning_e_inferencia.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Compreensão e interpretação de textos técnicos e científicos em língua inglesa
@@ -90,29 +87,31 @@ Para maximizar a eficiência, a leitura técnica orientada a concurso estrutura-
 
 ---
 
-### Teste 565
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
-As frases abaixo mostram uma comparação. Assinale a opção em que a comparação não é explicada.
+### Teste 001
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
+The text ends in a note of
 
-* **A)** Ideias são como crianças. As nossas são sempre maravilhosas.
-* **B)** As bibliotecas são como as farmácias: muitos venenos e poucos remédios.
-* **C)** A leitura, como a comida, não alimenta se não digerida.
-* **D)** Os discursos são como as orações copiadas dos textos religiosos.
-* **E)** Os talheres são como o papel higiênico: só ficam limpos se não forem usados.
+* **A)** outrage.
+* **B)** appreciation.
+* **C)** indebtedness.
+* **D)** apprehension.
+* **E)** encouragement. Normas Específicas do Estado de Goiás
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Ideias são como crianças. As nossas são sempre maravilhosas". De acordo com a teoria estudada em *6.1 Anáfora e Catáfora em Textos Técnicos*, referência Anafórica (*Anaphora*): O pronome retoma um termo ou ideia explicitado anteriormente no fluxo textual.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As bibliotecas são como as farmácias: muitos venenos e poucos remédios". De acordo com a teoria estudada em *6.1 Anáfora e Catáfora em Textos Técnicos*, regras Estritas de Concordância Primitiva.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A leitura, como a comida, não alimenta se não digerida". De acordo com a teoria estudada em *1.1 Tripé de Competências Cognitivas*, estratégias Metacognitivas de Leitura (*Metacognitive Reading Strategies*): Capacidade de monitorar conscientemente o ato de ler, selecionando dinamicamente entre *Skimming*, *Scanning*, *Prediction* e *Inferencing* conforme a demanda da banca avaliadora.
-> - **D)** **Correta.** Conforme fundamentado na seção *1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)* deste guia, o Inglês Instrumental (*English for Specific Purposes - ESP*) rege-se pelo princípio da utilidade pragmática: o propósito do candidato ou técnico não é adquirir fluência de conversação, pronúncia nativa ou redação literária, mas sim a decodificação rápida, crítica e exata de textos técnicos especializados no domínio de Tecnologia da Informação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Os discursos são como as orações copiadas dos textos religiosos".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os talheres são como o papel higiênico: só ficam limpos se não forem usados". De acordo com a teoria estudada em *6.1 Anáfora e Catáfora em Textos Técnicos*, it / Its: Retoma substantivos neutros singulares (um protocolo, um sistema, um servidor, um vetor de ataque).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "outrage". De acordo com a teoria estudada em *1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)*, o Inglês Instrumental ( English for Specific Purposes ESP ) rege se pelo princípio da utilidade pragmática: o propósito do candidato ou técnico não é adquirir fluência de conversação, pronúncia nativa ou redação literária, mas sim a decodificação rápida, crítica e exata de textos técnicos especializados no domínio de Tecnologia da Informação.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "appreciation". De acordo com a teoria estudada em *1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)*, em certames públicos organizados pela Fundação Carlos Chagas (FCC) para cargos de Auditoria e Tecnologia de Controle Externo, o tempo médio disponível por questão gira em torno de 3 minutos. Candidatos que adotam a estratégia ingênua de tentar traduzir mentalmente o texto palavra por palavra ( word by word translation ) exaurem o tempo de prova, sobrecarregam a memória de trabalho e perdem a percepção da macroestrutura argumentativa do autor.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "indebtedness". De acordo com a teoria estudada em *1.1 Tripé de Competências Cognitivas*, a proficiência instrumental sólida decorre da integração sinérgica de três dimensões cognitivas.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.2 Identificação de Tipos de Questões FCC* deste guia, "The main purpose of the text is to.." (O objetivo central do texto é..). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "apprehension".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "encouragement. Normas Específicas do Estado de Goiás". De acordo com a teoria estudada em *1.1 Tripé de Competências Cognitivas*, competência Linguística Mínima ( Linguistic Competence ): Domínio de estruturas morfossintáticas centrais (voz passiva abundante em relatórios técnicos, verbos modais que regulam graus de certeza e obrigatoriedade, ordem sintática modificador núcleo e conectivos de coesão lógica).
 >
 > **Gabarito: D**
 
 ---
+
+
 
 ## 2. Skimming: Leitura Rápida Panorâmica (Main Idea & Gist)
 
@@ -137,30 +136,6 @@ A FCC recorre frequentemente a comandos que demandam exclusivamente a aplicaçã
 
 > 💡 **Dica de Prova FCC:**  
 > Ao resolver questões de ideia principal (*Skimming*), elimine imediatamente alternativas que apresentem fatos verdadeiros contidos no texto, mas que se refiram a detalhes secundários ou exemplos pontuais de um único parágrafo. Uma ideia central deve cobrir a totalidade do texto, e não um aspecto isolado.
-
----
-
-### Teste 566
-**(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-Quanto à pontuação, a frase inteiramente correta é:
-
-* **A)** Já pela má fama adquirida já por preconceito, sem- pre haverá por parte de certos leitores, alguma relu- tância diante da leitura de um prefácio.
-* **B)** O autor do texto não hesita honestamente, de re- correr a experiências pessoais, para demonstrar sua tese, favorável em boa parte à existência mesma dos prefácios.
-* **C)** A escritora Cecília Meireles tão talentosa quanto bo- nita, é citada no texto como parâmetro de excelên- cia, na comparação com uma jovem, bela e pouco inspirada poetisa.
-* **D)** Muita gente acabará por confessar tal como fez o autor, que um prefácio pode prender nossa atenção, com muito mais força, do que o texto principal de uma obra.
-* **E)** O autor conclui, não sem razão, que as bibliografias que indicam apenas o prefácio de uma obra per- mitem deduzir, não há dúvida, que o restante do li- pírito das leis, obra clássica do filósofo francês Montesquieu, publicada em 1748. [Do espírito das leis] Falta muito para que o mundo inteligente seja tão bem governado quanto o mundo físico, pois ainda que o mundo inteligente possua também leis que por sua natureza são invariáveis, não as segue constantemente como o mundo físico segue as suas. A razão disso reside no fato de estarem os seres particulares inteligentes limitados por sua natureza e, consequentemente, sujeitos a erro; e, por outro lado, é próprio de sua natureza agirem por si mesmos. (...) O homem, como ser físico, tal como os outros corpos da natureza, é governado por leis invariáveis. Como ser inteligente, _________________________________________________________ viola incessantemente as leis que Deus estabeleceu e modifica as que ele próprio estabeleceu. Tal ser poderia, a todo instante, esquecer seu criador − Deus, pelas leis da religião, chamou-o a si; um tal ser poderia, a todo instante, esquecer-se de si mesmo − os filósofos advertiram-no pelas leis da moral. (Montesquieu − Os Pensadores. São Paulo: Abril Cultural, 1973, p. 33 e 34)
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Já pela má fama adquirida já por preconceito, sem- pre haverá por parte de certos leitores, alguma relu- tância...". De acordo com a teoria estudada em *1.2 Fases do Processo de Leitura Técnica*, pré-leitura (*Pre-reading*): Leitura prévia do enunciado e das alternativas da questão antes de examinar o corpo do texto. Observação rápida do título, subtítulos, autor, fonte bibliográfica e elementos não-verbais (tabelas, figuras, trechos de código).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O autor do texto não hesita honestamente, de re- correr a experiências pessoais, para demonstrar sua tese...". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"Which of the following statements best expresses the primary argument of the author?"* (Qual afirmação melhor resume a tese primordial do autor?).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A escritora Cecília Meireles tão talentosa quanto bo- nita, é citada no texto como parâmetro de excelên- cia, na...". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, definição Direta e Paráfrase (*Definition / Restatement Clues*): O próprio texto elucida o termo desconhecido na sequência, frequentemente isolado por vírgulas, travessões, parênteses ou conjunções explicativas (*that is, in other words, known as, which means, defined as, namely*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Muita gente acabará por confessar tal como fez o autor, que um prefácio pode prender nossa atenção, com muito mais...". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, ao resolver questões de ideia principal (*Skimming*), elimine imediatamente alternativas que apresentem fatos verdadeiros contidos no texto, mas que se refiram a detalhes secundários ou exemplos pontuais de um único parágrafo.
-> - **E)** **Correta.** Conforme fundamentado na seção *2.2 Identificação de Tipos de Questões FCC* deste guia, *"The overall tone of the author can be characterized as.."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 16ª/2014) ao estabelecer que "O autor conclui, não sem razão, que as bibliografias que indicam apenas o prefácio de uma obra per- mitem deduzir...".
->
-> **Gabarito: E**
 
 ---
 
@@ -208,29 +183,25 @@ flowchart TD
 
 ---
 
-### Teste 567
-**(FCC – TRT 3ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
-Compreende-se corretamente do texto: O autor
+### Teste 002
+**(CEBRASPE – TRT/8 – 2016 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
+Monitoring a data processing department’s efficiency and effectiveness is another ongoing task for data processing managers. Producing cost estimates for hardware and software 10 upgrades is another typical job duty for data processing managers. They may also oversee computer systems operations, working with staff to troubleshoot problems and 13 design solutions. Coordinating the installation of hardware, data communications systems and software may also fall under the data processing manager’s job description. A data 16 processing manager is often required to administer the implementation of new or revised systems, evaluate designs, or develop technical standards and procedures for system 19 maintenance and operation. Often, they lead the data processing department; in this capacity, they may recruit, hire, train and supervise staff. Other job duties for data processing 22 managers may include: preparing and administering departmental budgets; preparing and presenting reports related to data processing operations; acting as liaison between staff 25 and management; interfacing with external vendors; and negotiating proposals. Internet: <www.floridatechonline.com> (adapted). In relation to the ideas expressed in the text and to its grammatical aspects, choose the true option. A After getting the organizational needs from the staff the IT professionals fix the best way to get them. B Processing managers are in charge of providing data to contribute to the efficiency and effectiveness of the department. C In the text, the pronoun “them” (R.6) refers to “information technology (IT) professionals” (R.3). D The processing manager is supposed to perform just three activities. E The IT professionals get in touch with staff and senior management to find out the organizational needs. According to the text, the data processing manager is A the head of department and as such he can train and supervise staff. B often asked to evaluate designs. C asked to create the due budget. D required to submit reports to be approved by the staff members. E rarely called to administer the implementation of new or Assinale a opção correta a respeito dos princípios fundamentais na Constituição Federal de 1988 (CF). A A valorização social do trabalho e da livre-iniciativa não alcança, indiscriminadamente, quaisquer manifestações, mas apenas atividades econômicas capazes de impulsionar o desenvolvimento nacional. B O conceito atual de soberania exprime o autorreconhecimento do Estado como sujeito de direito internacional, mas não engloba os conceitos de abertura, cooperação e integração. C A cidadania envolve não só prerrogativas que viabilizem o poder do cidadão de influenciar as decisões políticas, mas também a obrigação de respeitar tais decisões, ainda que delas discorde. D A dignidade da pessoa humana é conceito eminentemente ético-filosófico, insuscetível de detalhada qualificação normativa, de modo que de sua previsão na Constituição não resulta grande eficácia jurídica, em razão de seu conteúdo abstrato. E O valor social do trabalho possui como traço caracterizador primordial e principal a liberdade de escolha profissional, correspondendo à opção pelo modelo capitalista de produção. Conforme o inciso VII do artigo 5.º da CF, “é assegurada, nos termos da lei, a prestação de assistência religiosa nas entidades civis e militares de internação coletiva”. Considerando-se a aplicabilidade das normas constitucionais e os critérios doutrinários de classificação, é correto afirmar que o referido dispositivo constitui norma A de aplicabilidade imediata. B de eficácia plena programática. C de eficácia plena. D de eficácia limitada de princípio institutivo. E de eficácia limitada programática. Assinale a opção correta acerca do que dispõe a CF sobre partidos políticos. A É inconstitucional, por ofensa ao pluripartidarismo e ao pluralismo político, a fixação de proporcionalidade entre a representatividade partidária e a distribuição do fundo partidário e do tempo na televisão e no rádio. B A exigência de caráter nacional dos partidos políticos visa resguardar o princípio federativo da unidade nacional. C A vedação à utilização de organização paramilitar não obsta que os partidos, em razão da autonomia que lhe é constitucionalmente assegurada, convencionem indumentária uniformizada ou que estabeleçam, em seu âmbito interno, relação de comando e obediência baseada em hierarquia rígida e fidelidade partidária. D Os partidos políticos possuem personalidade jurídica de direito público. E A previsão constitucional de que a lei regrará a função parlamentar autoriza o estabelecimento, pela legislação infraconstitucional, de padrões mínimos de desempenho eleitoral como condição para funcionamento do partido nas De acordo com a CF, compete A à União, aos estados, ao Distrito Federal e aos municípios legislar concorrentemente sobre direito agrário. B aos estados elaborar e executar planos regionais de ordenação do território e de desenvolvimento econômico e social. C aos municípios explorar diretamente serviços de radiodifusão. D à União legislar privativamente sobre desapropriação. E à União legislar privativamente sobre direito financeiro. À luz do disposto na CF, assinale a opção correta a respeito do concurso público. A A constitucionalidade da sujeição de candidato a exame psicotécnico em concurso público depende apenas de haver previsão editalícia nesse sentido. B As provas de títulos em concurso público devem possuir caráter eliminatório e classificatório. C É inconstitucional a disposição, em edital, que limite o número de participantes de cada fase de concurso público e que possa, por isso, eliminar eventuais candidatos que, embora aprovados, não alcancem a classificação mínima exigida. D Os serviços sociais autônomos, embora não integrem a administração pública, submetem-se à regra constitucional de exigência de concurso público para provimento de seus quadros. E É constitucional a limitação de idade para inscrição em concurso público quando essa limitação se justificar em razão das atribuições do cargo.
 
-* **A)** defende a ideia de que jornais instigantes são os que contam com um leitor crítico e atualizado, disposto a preencher as involuntárias lacunas das matérias veiculadas.
-* **B)** atribui interpretações grosseiras de notícias e o desejo de enxergar a não-notícia à prática constante de analisá-las sob perspectiva cética, resultado de juízo crítico muito aguçado e resistente à distensão.
-* **C)** considera a leitura de jornais um exercício divertido sempre que a matéria se dispõe a adivinhações, desvendamentos relacionados tanto à construção do texto, quanto aos fatos reais que a teriam inspirado.
-* **D)** mostra que matérias jornalísticas informam não só pelo que explicitamente comunicam, mas também pelo que evitam comunicar; esse modo de noticiar, em sua concretude, permite o desvendamento de propósitos de autores e editores.
-* **E)** expõe a ambiguidade que a imprensa pode manifestar quando é imprecisa no trato do assunto, falta de precisão originada por "palavras cruzadas", isto é, intrincadas conexões na estrutura verbal.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "defende a ideia de que jornais instigantes são os que contam com um leitor crítico e atualizado, disposto a...". De acordo com a teoria estudada em *3. Scanning: Leitura de Varredura Seletiva (Locating Specific Data)*, o Scanning (análogo à operação de busca de um comando `grep` ou ao feixe de um leitor óptico) é a estratégia não-linear de leitura orientada à localização instantânea de uma informação específica pontual, dispensando por completo a leitura integral do texto.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atribui interpretações grosseiras de notícias e o desejo de enxergar a não-notícia à prática constante de...". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, causa e Efeito (*Cause and Effect Clues*): A relação de causalidade expressa por *because, since, as a result, consequently, thereby, thus, leading to* permite inferir o significado a partir do resultado prático.
-> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "considera a leitura de jornais um exercício divertido sempre que a matéria se dispõe a adivinhações...". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, ao resolver questões de ideia principal (*Skimming*), elimine imediatamente alternativas que apresentem fatos verdadeiros contidos no texto, mas que se refiram a detalhes secundários ou exemplos pontuais de um único parágrafo.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Matriz Comparativa: Skimming vs. Scanning* deste guia, modo de Varredura: Linear seletivo (lê os tópicos frasais de cima para baixo) — Totalmente não-linear (olhos movem-se em zigue-zague buscando o padrão gráfico). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 3ª/2015) ao estabelecer que "mostra que matérias jornalísticas informam não só pelo que explicitamente comunicam, mas também pelo que evitam...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "expõe a ambiguidade que a imprensa pode manifestar quando é imprecisa no trato do assunto, falta de precisão...". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The overall tone of the author can be characterized as.."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório).
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *6. Fontes Recomendadas na Internet*, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 1 to 5 Computer Architecture and Technical Reading Skills). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT/8/2016) ao afirmar que "Monitoring a data processing department’s efficiency and effectiveness is another ongoing task for data...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
+
+
 
 ## 4. Predição e Pistas Contextuais de Vocabulário (Context Clues)
 
@@ -281,78 +252,6 @@ Determinados termos técnicos de língua inglesa possuem acepções altamente es
 
 ---
 
-### Teste 568
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Telecomunicação)**
-As técnicas de acesso são essenciais na telefonia celular, permitindo a transmissão simultânea de múltiplos sinais de diferentes usuários por meio de um único meio de transmissão. A principal questão é como combinar esses sinais para transmissão no mesmo meio e separá-los na recepção, de modo a recuperar corretamente as informações individuais de cada usuário. Analise as seguintes afirmativas sobre as técnicas de acesso: I. FDMA: Os sinais de cada canal são transmitidos usando diferentes frequências e em diferentes intervalos de tempo distintos. O objetivo de utilizar diferentes frequências e intervalos de tempo é reduzir a interferência entre símbolos. II. TDMA: Vários canais compartilham a mesma portadora, sendo que cada portadora é utilizada em intervalos de tempo distintos, cada uma correspondendo a um canal de usuário. III. CDMA: Usuários se comunicam usando as mesmas frequências simultaneamente, separados por códigos ortogonais, permitindo que todos transmitam simultaneamente numa mesma banda de frequências. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, ao resolver questões de ideia principal (*Skimming*), elimine imediatamente alternativas que apresentem fatos verdadeiros contidos no texto, mas que se refiram a detalhes secundários ou exemplos pontuais de um único parágrafo.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2. Skimming: Leitura Rápida Panorâmica (Main Idea & Gist)*, o Skimming (derivado do verbo *to skim*, "desnatar", retirar a camada superior) consiste em uma leitura acelerada e panorâmica com o objetivo precípuo de captar a ideia principal (*gist / main idea*), o tema global, o tom e a arquitetura macrotextual, sem deter-se em pormenores secundários, dados numéricos isolados ou termos desconhecidos.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *4. Predição e Pistas Contextuais de Vocabulário (Context Clues)*, o candidato não precisa conhecer previamente todos os verbetes da língua inglesa; precisa, sim, saber utilizar as pistas contextuais (*Context Clues*) para deduzir o significado exato de palavras desconhecidas diretamente da oração em que figuram.
-> - **D)** **Correta.** Conforme fundamentado na seção *5.1 Cognatos Verdadeiros vs. Falsos Amigos* deste guia, os Cognatos Verdadeiros (*True Cognates*) são termos que compartilham a mesma etimologia e significado em português e inglês (ex.: *computation, memory, protocol, infrastructure, terminal, vulnerability*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "II e III, apenas".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, contraste e Antônimos (*Contrast / Antonym Clues*): O termo opõe-se a uma ideia conhecida por meio de conectivos adversativos ou concessivos (*unlike, whereas, while, in contrast to, instead of, on the contrary, but, however*).
->
-> **Gabarito: D**
-
----
-
-### Teste 569
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-Assinale a opção em que a preposição A – sozinha ou combinada - tem valor semântico diferente dos demais.
-
-* **A)** O Presidente, com sua mulher, acompanhou os convidados à sala de música.
-* **B)** O policial atirou-se ao chão, cobrindo a cabeça com as mãos.
-* **C)** O ministro deverá ir a São Paulo ainda hoje para a recepção dos novos diplomatas.
-* **D)** Os seguranças dirigiram-se aos carros dos ministros e os acompanharam no desfile.
-* **E)** O banqueiro é sócio do empresário em um hotel à Rua Santa Clara, em Copacabana. Língua Inglesa READ THE TEXT AND ANSWER QUESTIONS 01 to 08: Artificial intelligence and the future of humanity Thinking and learning about artificial intelligence are the mental equivalent of a fission chain reaction. The questions get really big, really quickly. The most familiar concerns revolve around short-term impacts: the opportunities for economic productivity, health care, manufacturing, education, solving global challenges such as climate change and, on the flip side, the risks of mass unemployment, disinformation, killer robots, and concentrations of economic and strategic power. Each of these is critical, but they’re only the most immediate considerations. The deeper issue is our capacity to live meaningful, fulfilling lives in a world in which we no longer have intelligence supremacy. As long as humanity has existed, we’ve had an effective monopoly on intelligence. We have been, as far as we know, the smartest entities in the universe. At its most noble, this extraordinary gift of our evolution drives us to explore, discover and expand. Over the past roughly 50,000 years—accelerating 10,000 years ago and then even more steeply from around 300 years ago—we’ve built a vast intellectual empire made up of science, philosophy, theology, engineering, storytelling, art, technology and culture. If our civilisations—and in varying ways our individual lives—have meaning, it is found in this constant exploration, discovery and intellectual expansion. Intelligence is the raw material for it all. But what happens when we’re no longer the smartest beings in the universe? We haven’t yet achieved artificial general intelligence (AGI)—the term for an AI that could do anything we can do. But there’s no barrier in principle to doing so, and no reason it wouldn’t quickly outstrip us by orders of magnitude. Even if we solve the economic equality questions through something like a universal basic income and replace notions of ‘paid work’ with ‘meaningful activity’, how are we going to spend our lives in ways that we find meaningful, given that we’ve evolved to strive and thrive and compete? Adapted from https://www.aspistrategist.org.au/artificial- intelligence-and-the-future-of-humanity/
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Presidente, com sua mulher, acompanhou os convidados à sala de música". De acordo com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, realize: Perceber, dar-se conta; concretizar/tornar real — Realizar (fazer uma tarefa ordinária) — *Perform, execute, conduct* — *"The incident response team did not realize that the token had expired."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O policial atirou-se ao chão, cobrindo a cabeça com as mãos". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The distributed service implements an idempotent operation—that is, an action that can be executed multiple times without altering the outcome beyond the initial invocation—thereby preventing accidental billing duplicates."*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O ministro deverá ir a São Paulo ainda hoje para a recepção dos novos diplomatas". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, *Exemplo:* *"Unlike legacy monolithic repositories that are completely intertwined, modern cloud applications are composed of loosely coupled, independent microservices."*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os seguranças dirigiram-se aos carros dos ministros e os acompanharam no desfile". De acordo com a teoria estudada em *4. Predição e Pistas Contextuais de Vocabulário (Context Clues)*, o candidato não precisa conhecer previamente todos os verbetes da língua inglesa; precisa, sim, saber utilizar as pistas contextuais (*Context Clues*) para deduzir o significado exato de palavras desconhecidas diretamente da oração em que figuram.
-> - **E)** **Correta.** Conforme fundamentado na seção *4.1 Pistas de Definição, Paráfrase e Exemplificação* deste guia, *Exemplo:* *"The migration revealed several ephemeral storage configurations, such as temporary in-memory caches and non-persistent container volumes, that caused data loss upon reboot."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "O banqueiro é sócio do empresário em um hotel à Rua Santa Clara, em Copacabana. Língua Inglesa READ THE TEXT AND...".
->
-> **Gabarito: E**
-
----
-
-### Teste 570
-**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-A disponibilização de informações referentes a web services pode ser feita utilizando especificações que usam um modelo centralizado ou um modelo distribuído. A especificação que utiliza um modelo completamente distribuído, de forma que as descrições dos serviços possam ser armazenadas em qualquer localização, e os pedidos para se obter tais informações possam ser processados junto às entidades que prestam tais serviços, é conhecida como
-
-* **A)** Representational State Transfer − REST.
-* **B)** Web Services Description Language − WSDL.
-* **C)** Universal Description Discovery and Integration − UDDI.
-* **D)** Web Services Interoperability − WS-I.
-* **E)** Web Services Inspection Language − WSIL.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Representational State Transfer − REST". De acordo com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, require: Exigir, demandar, ser mandatório — Requerer juridicamente em juízo — *Request, petition, file a motion* — *"Strict data privacy regulations require encryption of data at rest."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Web Services Description Language − WSDL". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The overall tone of the author can be characterized as.."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Universal Description Discovery and Integration − UDDI". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The migration revealed several ephemeral storage configurations, such as temporary in-memory caches and non-persistent container volumes, that caused data loss upon reboot."*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Web Services Interoperability − WS-I". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, contraste e Antônimos (*Contrast / Antonym Clues*): O termo opõe-se a uma ideia conhecida por meio de conectivos adversativos ou concessivos (*unlike, whereas, while, in contrast to, instead of, on the contrary, but, however*).
-> - **E)** **Correta.** Conforme fundamentado na seção *5.2 Quadro Lexical de Falsos Cognatos Críticos* deste guia, a pegadinha com "Eventually" é recorrente na FCC. Em arquitetura de software distribuído, o teorema CAP e o modelo BASE definem a consistência eventual (*eventual consistency*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "Web Services Inspection Language − WSIL".
->
-> **Gabarito: E**
-
----
-
 ## 5. Falsos Cognatos Críticos em TI (False Friends)
 
 ### 5.1 Cognatos Verdadeiros vs. Falsos Amigos
@@ -381,48 +280,6 @@ Já os **Falsos Cognatos (*False Friends / False Cognates*)** possuem grafia e p
 
 > 🚨 **ALERTA MÁXIMO DE PROVA FCC:**  
 > A pegadinha com **"Eventually"** é recorrente na FCC. Em arquitetura de software distribuído, o teorema CAP e o modelo BASE definem a consistência eventual (*eventual consistency*). Isso significa que, na ausência de novas atualizações, todos os nós **obrigatoriamente convergirão e se tornarão consistentes com o passar do tempo** (*ultimately / in the end*). As alternativas da banca insistem em traduzir como se o sistema fosse consistente "apenas às vezes" ou "de maneira imprevisível e esporádica" (*occasionally*). Elimine essa assertiva sem hesitar!
-
----
-
-### Teste 571
-**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
-Um data mart de vendas oferece dados específicos, como metas, desempenho por região, histórico de clientes e sazonalidade de produtos, informações cruciais para que a equipe de vendas faça análises detalhadas e rápidas, comparando o desempenho entre regiões e ajustando estratégias com base em históricos e tendências específicas.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *4.4 Vocabulário Crítico de Engenharia e Arquitetura de Software* deste guia, *Sensitive:* Sensível, delicado, confidencial (*sensitive data*, dados sensíveis sob a LGPD). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRF 6ª/2025) ao afirmar que "Um data mart de vendas oferece dados específicos, como metas, desempenho por região, histórico de clientes e...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, segundo a qual a pegadinha com "Eventually" é recorrente na FCC. Em arquitetura de software distribuído, o teorema CAP e o modelo BASE definem a consistência eventual (*eventual consistency*).
->
-> **Gabarito: C**
-
----
-
-### Teste 572
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Telecomunicação)**
-O sistema de multiplexação por comprimento de onda (WDM) consiste na utilização de múltiplas fontes ópticas que operam em diferentes comprimentos de onda (𝜆 ,𝜆 ,…𝜆 ) que transmitem 1 2 𝑁 fluxos de informações independentes pela mesma fibra simultaneamente, como ilustra a figura abaixo. Essa técnica de multiplexação é equivalente à multiplexação
-
-* **A)** por divisão do tempo (TDM).
-* **B)** por divisão de polarização óptica (OPDM).
-* **C)** por divisão em código (CDM).
-* **D)** por divisão do espaço (SDM).
-* **E)** por divisão de frequência (FDM).
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "por divisão do tempo (TDM)". De acordo com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, eventually: No final das contas, por fim, com o passar do tempo — Eventualmente, de vez em quando, esporadicamente — *Occasionally, intermittently, sporadically* — *"In distributed NoSQL systems, replicas eventually achieve full data consistency."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "por divisão de polarização óptica (OPDM)". De acordo com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, as alternativas da banca insistem em traduzir como se o sistema fosse consistente "apenas às vezes" ou "de maneira imprevisível e esporádica" (*occasionally*). Elimine essa assertiva sem hesitar!.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "por divisão em código (CDM)". De acordo com a teoria estudada em *1.2 Fases do Processo de Leitura Técnica*, pré-leitura (*Pre-reading*): Leitura prévia do enunciado e das alternativas da questão antes de examinar o corpo do texto. Observação rápida do título, subtítulos, autor, fonte bibliográfica e elementos não-verbais (tabelas, figuras, trechos de código).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "por divisão do espaço (SDM)". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, $\rightarrow$ Se os microsserviços são *loosely coupled* (fracamente acoplados / independentes), o conectivo *Unlike* explicita que os monólitos *intertwined* são fortemente entrelaçados ou acoplados.
-> - **E)** **Correta.** Conforme fundamentado na seção *5.1 Cognatos Verdadeiros vs. Falsos Amigos* deste guia, os Cognatos Verdadeiros (*True Cognates*) são termos que compartilham a mesma etimologia e significado em português e inglês (ex.: *computation, memory, protocol, infrastructure, terminal, vulnerability*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "por divisão de frequência (FDM)".
->
-> **Gabarito: E**
 
 ---
 
@@ -464,48 +321,6 @@ flowchart LR
     PluralNoun --> P2
     FullClause --> P3
 ```
-
----
-
-### Teste 573
-**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-Na arquitetura SNMP, estações de gerência podem solicitar informações acerca de objetos nas MIBs enviando mensagens para agentes. Os agentes, sem receber mensagens de solicitação, podem enviar notificações para estações de gerência. Os objetos nas MIBs estão organizados hierarquicamente e cada objeto tem um identificador que informa a sua localização na hierarquia.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)* deste guia, em certames públicos organizados pela Fundação Carlos Chagas (FCC) para cargos de Auditoria e Tecnologia de Controle Externo, o tempo médio disponível por questão gira em torno de 3 minutos. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STF/2008) ao afirmar que "Na arquitetura SNMP, estações de gerência podem solicitar informações acerca de objetos nas MIBs enviando...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.1 Tripé de Competências Cognitivas*, segundo a qual as lacunas no vocabulário em língua inglesa são compensadas e preenchidas pela familiaridade com o objeto computacional discutido.
->
-> **Gabarito: C**
-
----
-
-### Teste 574
-**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-Um web service deve ser visto como a convergência de um conjunto de tecnologias, dentre elas o UDDI, que é um padrão para publicação e localização de web services por meio de consultas (queries) baseadas em mensagens SOAP e documentos XML. O UDDI é responsável por armazenar informações sobre o responsável pelo web service, o que o web service faz, a localização do web service e sobre como acessar seus serviços. Estas informações são divididas e organizadas em grupos semânticos conhecidos como páginas (pages). As páginas que contêm informações técnicas que descrevem o comportamento e as operações suportadas pelo serviço hospedado (incluindo indicadores para a localização do serviço) são conhecidas como
-
-* **A)** 13 e 21.
-* **B)** 8 e 13.
-* **C)** 5 e 10.
-* **D)** 13 e 20.
-* **E)** 8 e 10.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Mecânica de Execução e Tópico Frasal* deste guia, inspeção de Cabeçalho e Metadados: Ler com atenção o título (*title*), subtítulos (*headings*), notas de rodapé e a referência bibliográfica (veículo como IEEE, ACM, Gartner, NIST, data de publicação). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "13 e 21".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "8 e 13". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, uma ideia central deve cobrir a totalidade do texto, e não um aspecto isolado.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5 e 10". De acordo com a teoria estudada em *3.1 Mecânica de Execução e Pistas Tipográficas*, nomes Próprios e Acrônimos: Grafia em caixa alta ou siglas conhecidas (`NIST`, `OAuth 2.0`, `PostgreSQL`, `Kubernetes`).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "13 e 20". De acordo com a teoria estudada em *3.1 Mecânica de Execução e Pistas Tipográficas*, foco Cirúrgico Local: Ao identificar visualmente a âncora, interromper a varredura e realizar uma leitura analítica rigorosa apenas da oração que contém o termo, bem como da oração imediatamente anterior e posterior.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "8 e 10". De acordo com a teoria estudada em *3.2 Matriz Comparativa: Skimming vs. Scanning*, modo de Varredura: Linear seletivo (lê os tópicos frasais de cima para baixo) — Totalmente não-linear (olhos movem-se em zigue-zague buscando o padrão gráfico).
->
-> **Gabarito: A**
 
 ---
 

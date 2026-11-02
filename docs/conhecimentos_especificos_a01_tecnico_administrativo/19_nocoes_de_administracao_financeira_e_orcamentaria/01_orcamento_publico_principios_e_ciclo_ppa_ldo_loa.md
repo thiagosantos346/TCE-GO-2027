@@ -4,10 +4,7 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `01_orcamento_publico_principios_e_ciclo_ppa_ldo_loa.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 
@@ -124,30 +121,6 @@ flowchart LR
 
 ---
 
-### Teste 209
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Direito)**
-Em relação à evolução do orçamento público, relacione a metodologia de elaboração do orçamento público com suas respectivas definições e/ou objetivos principais: Assinale a opção que indica a relação correta, na ordem apresentada. 1. Orçamento de Desempenho 2. Orçamento tradicional ou clássico 3. Orçamento Base Zero - OBZ 4. Orçamento-Programa ( ) peça meramente contábil-financeira, com previsão de receita e de autorização de despesas. ( ) Orçamento como instrumento de gerenciamento do Poder Público, visando especialmente instrumentalizar a ação gerencial. ( ) orientado para o planejamento, com reavaliações periódicas das ações orçamentárias, com despesas estruturadas em atividades ou operações e com a justificativa detalhada dos custos, propósito, benefícios. ( ) possibilita a integração do planejamento com o orçamento, a quantificação de objetivos e a fixação de metas, as relações insumo-produto, as alternativas de programa, o acompanhamento físico-financeiro, a avaliação de resultados e a gerência por objetivos. Assinale a opção que apresenta a relação correta, na ordem apresentada.
-
-* **A)** 2 – 1 – 4 – 3.
-* **B)** 1 – 2 – 3 – 4.
-* **C)** 4 – 3 – 2 – 1.
-* **D)** 3 – 4 – 1 – 2.
-* **E)** 2 – 1 – 3 – 4.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 1 – 4 – 3". De acordo com a teoria estudada em *1.2 Modelos Orçamentários e Comparativo Evolutivo*, a evolução histórica do orçamento público evidencia a transição de um mero instrumento contábil-financeiro de contenção do gasto para um instrumento tático e estratégico de desenvolvimento econômico-social.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 2 – 3 – 4". De acordo com a teoria estudada em *1.2 Modelos Orçamentários e Comparativo Evolutivo*, completa dissociação entre o orçamento e qualquer planejamento de longo prazo; não há mensuração de benefícios sociais ou metas de desempenho.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4 – 3 – 2 – 1". De acordo com a teoria estudada em *1.2 Modelos Orçamentários e Comparativo Evolutivo*, orçamento Base-Zero (OBZ) ou Estratégico.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 4 – 1 – 2". De acordo com a teoria estudada em *1.1 Conceito e Natureza Jurídica do Orçamento Público*, o orçamento público é o ato formal pelo qual o Poder Executivo estima as receitas e fixa e autoriza as despesas governamentais para um período determinado (geralmente coincidente com o ano civil), consubstanciando o plano financeiro de ação do Estado.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Modelos Orçamentários e Comparativo Evolutivo* deste guia, cuidado! O Orçamento de Desempenho deu o primeiro passo ao focar nas atividades/ações, mas pecou por não possuir conexão com o planejamento global integrado. Somente o Orçamento-Programa consolida a tríade *planejamento-programação-orçamento*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "2 – 1 – 3 – 4".
->
-> **Gabarito: E**
-
----
-
 ## 2. Princípios Orçamentários: O Núcleo Normativo e Doutrinário
 
 Os princípios orçamentários constituem diretrizes materiais e processuais que asseguram a higidez, a transparência, a consistência e o controle fiscal da lei orçamentária.
@@ -209,78 +182,6 @@ flowchart TD
 
 ---
 
-### Teste 210
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Economia)**
-Um servidor em início de atuação na área de orçamento precisa compreender, à luz do Manual Técnico do Orçamento (MTO), como se relacionam o orçamento público, a receita pública e a despesa pública. Considerando essas noções básicas, assinale a afirmativa correta.
-
-* **A)** Receita pública é todo ingresso de recursos nos cofres públicos, inclusive os que não pertencem ao Estado, como cauções e depósitos de terceiros.
-* **B)** Despesa pública é todo gasto realizado pelo governo, independentemente de autorização orçamentária.
-* **C)** O orçamento público é o instrumento que estima as receitas e fixa as despesas para determinado exercício financeiro.
-* **D)** As despesas públicas só podem ser realizadas após o pagamento ao fornecedor.
-* **E)** Receita pública e despesa pública são definidas apenas no momento da execução financeira, sem previsão na lei orçamentária.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Receita pública é todo ingresso de recursos nos cofres públicos, inclusive os que não pertencem ao Estado, como...". De acordo com a teoria estudada em *2.2 Princípio da Universalidade*, *Ressalva importante:* As entradas compensatórias puramente financeiras (ingressos extraorçamentários, como fianças, cauções, depósitos judiciais e restos a pagar processados) não se sujeitam à autorização orçamentária prévia, pois não representam receita orçamentária pertencente em definitivo ao patrimônio estatal.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.4 Princípio da Exclusividade Orçamentária* deste guia, previsto expressamente no art. 165, § 8º da CF/88: a LOA não conterá dispositivo estranho à previsão da receita e à fixação da despesa. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Despesa pública é todo gasto realizado pelo governo, independentemente de autorização orçamentária".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O orçamento público é o instrumento que estima as receitas e fixa as despesas para determinado exercício financeiro". De acordo com a teoria estudada em *1.1 Conceito e Natureza Jurídica do Orçamento Público*, o orçamento público é o ato formal pelo qual o Poder Executivo estima as receitas e fixa e autoriza as despesas governamentais para um período determinado (geralmente coincidente com o ano civil), consubstanciando o plano financeiro de ação do Estado.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As despesas públicas só podem ser realizadas após o pagamento ao fornecedor". De acordo com a teoria estudada em *4.1 As Quatro Etapas do Ciclo Orçamentário*, execução Orçamentária e Financeira: Arrecadação de receitas, emissão de empenhos, liquidação e pagamento das despesas públicas.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Receita pública e despesa pública são definidas apenas no momento da execução financeira, sem previsão na lei...". De acordo com a teoria estudada em *5.2 Emendas de Bancada Estadual Impositivas*, percentual Vinculante (Art. 166, § 12): A aprovação e execução orçamentária e financeira das emendas de bancada de parlamentares de Estado ou do DF são obrigatórias até o limite de 1% da Receita Corrente Líquida do exercício anterior.
->
-> **Gabarito: B**
-
----
-
-### Teste 211
-**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
-A CRFB/88 estabelece: “Art. 167. São vedados: [...] IV. A vinculação de receita de impostos a órgão, fundo ou despesa, ressalvadas a repartição do produto da arrecadação dos impostos a que se referem os Arts. 158 e 159, a destinação de recursos para as ações e serviços públicos de saúde, para manutenção e desenvolvimento do ensino e para realização de atividades da administração tributária [...]” Com relação aos impostos e às vinculações, o princípio da Constituição Federal que o texto acima consagra é o
-
-* **A)** do Equilíbrio.
-* **B)** da Exclusividade.
-* **C)** da Uniformidade.
-* **D)** do Orçamento Bruto.
-* **E)** da Não-Afetação das Receitas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do Equilíbrio". De acordo com a teoria estudada em *2.6 Princípio da Não Afetação (Não Vinculação) da Receita de Impostos*, previsto no art. 167, IV da CF/88: é vedada a vinculação de receita de impostos a órgão, fundo ou despesa.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da Exclusividade". De acordo com a teoria estudada em *2.6 Princípio da Não Afetação (Não Vinculação) da Receita de Impostos*, realização de atividades da administração tributária (art. 37, XXII).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da Uniformidade". De acordo com a teoria estudada em *2.6 Princípio da Não Afetação (Não Vinculação) da Receita de Impostos*, manutenção e desenvolvimento do ensino (art. 212).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do Orçamento Bruto". De acordo com a teoria estudada em *2.6 Princípio da Não Afetação (Não Vinculação) da Receita de Impostos*, repartição constitucional de receitas tributárias (FPE, FPM, repartição de ICMS e IPVA).
-> - **E)** **Correta.** Conforme fundamentado na seção *2.6 Princípio da Não Afetação (Não Vinculação) da Receita de Impostos* deste guia, destinação a ações e serviços públicos de saúde (art. 198, § 2º). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "da Não-Afetação das Receitas".
->
-> **Gabarito: E**
-
----
-
-### Teste 212
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
-Assinale a afirmativa correta acerca do Orçamento do Setor Público Brasileiro.
-
-* **A)** O Relatório Resumido de Execução Orçamentária (RREO) é o instrumento do Orçamento Público de periodicidade quadrimestral que o poder Executivo deve publicar até trinta dias após o encerramento de cada quadrimestre.
-* **B)** A Lei Orçamentária Anual (LOA) compreende o orçamento fiscal referente aos Poderes da União, seus fundos, órgãos e entidades, desde que da administração direta.
-* **C)** Previsões de despesas para exercícios seguintes não deverão estar contidas na Lei Orçamentária Anual (LOA).
-* **D)** A grande limitação que persiste na normatização da Lei Orçamentária Anual (LOA) é a lacuna advinda da desconsideração do impacto dos subsídios e benefícios de natureza financeira, tributária e creditícia sobre as receitas e despesas públicas.
-* **E)** Além do Orçamento da União e da Seguridade Social, a Lei Orçamentária Anual (LOA) compreende o orçamento de investimento das empresas em que a União detenha a maioria do capital social com direito a voto.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Relatório Resumido de Execução Orçamentária (RREO) é o instrumento do Orçamento Público de periodicidade...". De acordo com a teoria estudada em *3.3 Lei Orçamentária Anual (LOA): A Estrutura Tríplice Integrada*, orçamento da Seguridade Social: Abrange todas as entidades e órgãos a ela vinculados, da administração direta ou indireta, bem como os fundos e fundações instituídos e mantidos pelo poder público, contemplando as áreas de Saúde, Previdência Social e Assistência Social (Art. 195 da CF/88).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A Lei Orçamentária Anual (LOA) compreende o orçamento fiscal referente aos Poderes da União, seus fundos, órgãos e...". De acordo com a teoria estudada em *3.3 Lei Orçamentária Anual (LOA): A Estrutura Tríplice Integrada*, orçamento Fiscal: Abrange os Poderes do ente federativo, seus fundos, órgãos e entidades da administração direta e indireta, inclusive fundações instituídas e mantidas pelo poder público.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Previsões de despesas para exercícios seguintes não deverão estar contidas na Lei Orçamentária Anual (LOA)". De acordo com a teoria estudada em *2.1 Princípio da Unidade ou Totalidade*, a doutrina moderna (e a banca FCC) distingue a *Unidade clássica* (que defendia a existência física de um só documento) da *Totalidade orçamentária* (prevista no art. 165, § 5º da CF/88): embora a LOA congregue três esferas distintas (Orçamento Fiscal, da Seguridade Social e de Investimento das Estatais), todas integram formal e organicamente uma única e consolidada peça legislativa.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A grande limitação que persiste na normatização da Lei Orçamentária Anual (LOA) é a lacuna advinda da...". De acordo com a teoria estudada em *3.3 Lei Orçamentária Anual (LOA): A Estrutura Tríplice Integrada*, a LOA (art. 165, § 5º da CF/88) materializa o plano anual de receitas e despesas mediante três esferas integradas.
-> - **E)** **Correta.** Conforme fundamentado na seção *3.3 Lei Orçamentária Anual (LOA): A Estrutura Tríplice Integrada* deste guia, orçamento de Investimento das Estatais: Abrange as empresas em que o Estado, direta ou indiretamente, detenha a maioria do capital social com direito a voto. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Além do Orçamento da União e da Seguridade Social, a Lei Orçamentária Anual (LOA) compreende o orçamento de...".
->
-> **Gabarito: E**
-
----
-
 ## 3. O Sistema Orçamentário Constitucional: PPA, LDO e LOA
 
 A Constituição Federal de 1988 estabeleceu um modelo tripartite harmônico de planejamento e finanças públicas estruturado no artigo 165:
@@ -324,77 +225,31 @@ A LOA (art. 165, § 5º da CF/88) materializa o plano anual de receitas e despes
 
 ---
 
-### Teste 213
-**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
-Um servidor, recém-empossado e lotado na Secretaria de Planejamento e Finanças de um ente estadual, foi designado para revisar o Anexo de Metas Fiscais do projeto de Lei de Diretrizes Orçamentárias (LDO) para o exercício de 2025, antes que este fosse submetido à apreciação do Assembleia Legislativa do estado. Ao analisar o quadro de metas anuais, em valores correntes e constantes, o servidor considerou inconsistente a inclusão de metas relativas:
+### Teste 001
+**(FCC – TRT 2ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+No sistema de controle de versões Git, para efetuar o download dos commits de um repositório remoto para o repositório local é utilizado o comando git
 
-* **A)** a despesas primárias ou não financeiras;
-* **B)** à evolução do patrimônio líquido;
-* **C)** ao montante da dívida pública consolidada;
-* **D)** aos dois exercícios seguintes àquele a que o projeto se refere;
-* **E)** a receitas e despesas totais do exercício.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a despesas primárias ou não financeiras". De acordo com a teoria estudada em *2.2 Princípio da Universalidade*, *Ressalva importante:* As entradas compensatórias puramente financeiras (ingressos extraorçamentários, como fianças, cauções, depósitos judiciais e restos a pagar processados) não se sujeitam à autorização orçamentária prévia, pois não representam receita orçamentária pertencente em definitivo ao patrimônio estatal.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF* deste guia, anexo de Metas Fiscais (AMF): Estabelece metas anuais, em valores correntes e constantes, relativas a receitas, despesas, resultado nominal e primário e montante da dívida pública, para o exercício a que se referir e para os dois seguintes (triênio fiscal). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "à evolução do patrimônio líquido".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao montante da dívida pública consolidada". De acordo com a teoria estudada em *3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF*, estabelece as diretrizes de política fiscal e suas metas, em consonância com a trajetória sustentável da dívida pública.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aos dois exercícios seguintes àquele a que o projeto se refere". De acordo com a teoria estudada em *3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF*, anexo de Riscos Fiscais (ARF): Avalia os passivos contingentes e outros riscos capazes de afetar as contas públicas (ex.: demandas judiciais de grande repercussão, avais concedidos), informando as providências a serem tomadas caso se concretizem.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a receitas e despesas totais do exercício". De acordo com a teoria estudada em *2.5 Princípio do Orçamento Bruto*, estatuído no art. 6º da Lei nº 4.320/1964: todas as receitas e despesas constarão da lei de orçamento pelos seus valores brutos totais, vedada qualquer dedução pecuniária preliminar.
->
-> **Gabarito: B**
-
----
-
-### Teste 214
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
-Em setembro de 2026, o Presidente da República encaminhou ao Congresso Nacional o projeto da Lei Orçamentária Anual (LOA) para 2027. O projeto incluiu dotação orçamentária para despesas relativas à continuidade da construção de uma rodovia federal (investimento iniciado em 2024 e com previsão de conclusão em 2028), bem como para o início de um novo investimento de modernização de portos, com execução prevista para os exercícios de 2027 e 2028. Considerando as disposições da Constituição Federal de 1988 sobre elaboração orçamentária, assinale a afirmativa correta.
-
-* **A)** A LOA para 2027 pode prever despesas para investimentos plurianuais e para aqueles já em andamento, mas não pode incluir despesas referentes a novos investimentos com execução prevista para além do exercício de 2027.
-* **B)** A LOA para 2027 pode conter previsões de despesas para exercícios seguintes, desde que se refiram exclusivamente a investimentos já em andamento, vedada a inclusão de novos investimentos plurianuais.
-* **C)** A LOA para 2027 pode conter previsões de despesas para exercícios seguintes, abrangendo tanto investimentos plurianuais já em andamento quanto novos investimentos, com a especificação desses investimentos.
-* **D)** A LOA para 2027 não pode prever despesas para exercícios seguintes, pois a Constituição Federal exige que cada exercício financeiro tenha sua própria lei orçamentária, vedado o comprometimento de receitas futuras.
-* **E)** A LOA para 2027 não pode prever despesas para exercícios seguintes, pois despesas que ultrapassem mais de um exercício financeiro somente podem ser previstas por meio do Plano Plurianual (PPA).
+* **A)** apply.
+* **B)** get.
+* **C)** push.
+* **D)** fetch.
+* **E)** update.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *5.4 Limitações e Impedimentos Técnicos na Execução Obrigatória* deste guia, contingenciamento Proporcional: Se a estimativa de receita e da despesa demonstrar que o cumprimento das metas de resultado primário ou nominal pode ser comprometido, o montante das emendas impositivas poderá ser reduzido na mesma proporção da limitação de empenho aplicada às demais despesas discricionárias (art. 166, § 18 da CF/88). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "A LOA para 2027 pode prever despesas para investimentos plurianuais e para aqueles já em andamento, mas não pode...".
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A LOA para 2027 pode conter previsões de despesas para exercícios seguintes, desde que se refiram exclusivamente a...". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, regra de Bloqueio Orçamentário (Art. 167, § 1º da CF/88): Nenhum investimento cuja execução ultrapasse um exercício financeiro poderá ser iniciado sem prévia inclusão no PPA, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A LOA para 2027 pode conter previsões de despesas para exercícios seguintes, abrangendo tanto investimentos...". De acordo com a teoria estudada em *2.1 Princípio da Unidade ou Totalidade*, a doutrina moderna (e a banca FCC) distingue a *Unidade clássica* (que defendia a existência física de um só documento) da *Totalidade orçamentária* (prevista no art. 165, § 5º da CF/88): embora a LOA congregue três esferas distintas (Orçamento Fiscal, da Seguridade Social e de Investimento das Estatais), todas integram formal e organicamente uma única e consolidada peça legislativa.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A LOA para 2027 não pode prever despesas para exercícios seguintes, pois a Constituição Federal exige que cada...". De acordo com a teoria estudada em *2.7 Princípios do Equilíbrio, Legalidade, Clareza e Publicidade*, equilíbrio Orçamentário: Igualdade formal entre receitas estimadas e despesas fixadas na lei orçamentária. No aspecto material moderno, exige gestão fiscal prudente para geração de superávits primários e controle da dívida consolidada líquida (LRF).
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A LOA para 2027 não pode prever despesas para exercícios seguintes, pois despesas que ultrapassem mais de um...". De acordo com a teoria estudada em *4.3 Prazos Constitucionais de Envio e Devolução (ADCT)*, lDO: Até 8 meses e meio antes do encerramento do exercício financeiro (15 de abril). — Até o encerramento do primeiro período da sessão legislativa (17 de julho - a sessão não pode ser interrompida sem sua aprovação).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apply". De acordo com a teoria estudada em *3. O Sistema Orçamentário Constitucional: PPA, LDO e LOA*, pPA["1. PLANO PLURIANUAL (PPA)<br/ Nível Estratégico (Médio Prazo)<br/ Vigência: 4 anos (2º ano de mandato até 1º ano do subsequente)<br/ Conteúdo: Diretrizes, Objetivos e Metas (DOM)<br/ Despesas de capital e de duração continuada"].
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "get". De acordo com a teoria estudada em *3. O Sistema Orçamentário Constitucional: PPA, LDO e LOA*, lDO["2. LEI DE DIRETRIZES ORÇAMENTÁRIAS (LDO)<br/ Nível Tático (Curto/Médio Prazo)<br/ Vigência: 1 ano (Anual)<br/ Elo entre PPA e LOA<br/ Metas e prioridades, orienta elaboração da LOA<br/ Inovações da LRF: Anexo de Metas Fiscais (AMF) e Anexo de Riscos Fiscais (ARF)"].
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "push". De acordo com a teoria estudada em *3. O Sistema Orçamentário Constitucional: PPA, LDO e LOA*, lOA["3. LEI ORÇAMENTÁRIA ANUAL (LOA)<br/ Nível Operacional (Curto Prazo)<br/ Vigência: 1 ano civil (1º/jan a 31/dez)<br/ Estrutura Tríplice:<br/ • Orçamento Fiscal<br/ • Orçamento da Seguridade Social<br/ • Orçamento de Investimento das Estatais"].
+> - **D)** **Correta.** Conforme fundamentado na seção *3. O Sistema Orçamentário Constitucional: PPA, LDO e LOA* deste guia, a Constituição Federal de 1988 estabeleceu um modelo tripartite harmônico de planejamento e finanças públicas estruturado no artigo 165. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 2ª/2014) ao estabelecer que "fetch".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "update". De acordo com a teoria estudada em *3. O Sistema Orçamentário Constitucional: PPA, LDO e LOA*, pPA |Baliza metas estratégicas| LDO.
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
-### Teste 215
-**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
-Sobre os instrumentos de planejamento orçamentário, avalie as afirmativas a seguir. I. Em consonância com o PPA, compete à Lei de Diretrizes Orçamentárias (LDO), entre outras atribuições, estabelecer as metas e prioridades da administração pública e orientar a elaboração dos orçamentos anuais. II. A Lei de Responsabilidade Fiscal (LRF) conferiu à LDO novas e importantes atribuições, além das constitucionalmente previstas, especialmente no tocante à fixação de metas fiscais. III. À luz do PPA e da LDO, cabe à Lei Orçamentária Anual (LOA) estimar receitas e fixar despesas, de modo a efetivamente autorizar a realização de gastos públicos em determinado exercício financeiro. Está correto o que se afirma em
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF*, estabelece as diretrizes de política fiscal e suas metas, em consonância com a trajetória sustentável da dívida pública.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF*, compreende as metas e prioridades da administração pública.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, matriz Constitucional (Art. 165, § 1º): Estabelece, de forma regionalizada, as Diretrizes, Objetivos e Metas (DOM) da administração pública federal, estadual ou municipal para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, regra de Bloqueio Orçamentário (Art. 167, § 1º da CF/88): Nenhum investimento cuja execução ultrapasse um exercício financeiro poderá ser iniciado sem prévia inclusão no PPA, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade.
-> - **E)** **Correta.** Conforme fundamentado na seção *3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF* deste guia, anexo de Metas Fiscais (AMF): Estabelece metas anuais, em valores correntes e constantes, relativas a receitas, despesas, resultado nominal e primário e montante da dívida pública, para o exercício a que se referir e para os dois seguintes (triênio fiscal). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "I, II e III".
->
-> **Gabarito: E**
-
----
 
 ## 4. Ciclo Orçamentário e Processo Legislativo Orçamentário
 
@@ -437,9 +292,203 @@ Enquanto não editada a Lei Complementar prevista no art. 165, § 9º da CF/88, 
 
 ---
 
-### Teste 216
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
-O ciclo orçamentário é o processo contínuo e sistemático pelo qual os governos planejam, executam, controlam e avaliam a utilização dos recursos públicos ao longo de um período fiscal. Sobre o ciclo orçamentário, avalie as afirmativas a seguir: I. A elaboração da proposta orçamentária envolve a consolidação pelo Poder Legislativo do projeto da lei orçamentária anual, abrangendo as propostas orçamentárias dos demais Poderes, seguida do envio ao Poder Executivo para apreciação. II. A avaliação orçamentária consiste em verificar o cumprimento das metas previstas no PPA, além de analisar a execução dos programas de governo e dos orçamentos da União. III. A execução orçamentária compreende três estágios da receita: empenho, liquidação e pagamento. Está correto o que se afirma em
+### Teste 002
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
+O analista João administra o servidor de autenticação Keycloak do TJAP. A aplicação TJApp está registrada como um client OpenID Connect do Keycloak, sob o nome tjapp-client. João recebeu a solicitação de habilitar em tjapp-client o recurso que permite a própria aplicação cliente, TJApp, obter um token de acesso de forma autônoma, sem envolver nenhum usuário final. João habilitou em tjapp-client o recurso:
+
+* **A)** direct grants;
+* **B)** client adapters;
+* **C)** token mappers;
+* **D)** identity brokers;
+* **E)** service accounts.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "direct grants". De acordo com a teoria estudada em *2.4 Princípio da Exclusividade Orçamentária*, as Duas Únicas Exceções Constitucionais Permitidas na Própria LOA.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "client adapters". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, matriz Constitucional (Art. 165, § 1º): Estabelece, de forma regionalizada, as Diretrizes, Objetivos e Metas (DOM) da administração pública federal, estadual ou municipal para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "token mappers". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, o PPA vigora por 4 anos: inicia se no segundo ano do mandato do governante eleito e encerra se no final do primeiro ano do mandato do sucessor (art. 35, § 2º, I do ADCT). Essa regra assegura a transição republicana e impede descontinuidade administrativa de projetos estratégicos.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "identity brokers". De acordo com a teoria estudada em *5.3 Transferências Especiais ("Emendas PIX") e com Finalidade Definida (Art. 166-A)*, o recurso financeiro é repassado diretamente ao ente federado recebedor, sem a necessidade de celebração de convênio, contrato de repasse ou instrumento congênere.
+> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo* deste guia, regra de Bloqueio Orçamentário (Art. 167, § 1º da CF/88): Nenhum investimento cuja execução ultrapasse um exercício financeiro poderá ser iniciado sem prévia inclusão no PPA, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "service accounts".
+>
+> **Gabarito: E**
+
+---
+
+
+### Teste 003
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+Um ente público estabeleceu, em edital de licitação, a entrega de caução em dinheiro como garantia para assegurar a execução do contrato celebrado com vistas ao fornecimento contínuo de serviços de manutenção. Sabe-se que esse recurso não integra a Lei Orçamentária Anual (LOA) e não reflete no patrimônio líquido da referida entidade. Assim, seu reconhecimento, no momento do depósito, deve ser realizado como:
+
+* **A)** receita contratual;
+* **B)** receita orçamentária;
+* **C)** despesa orçamentária;
+* **D)** receita extraorçamentária;
+* **E)** despesa extraorçamentária.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "receita contratual". De acordo com a teoria estudada em *2.1 Princípio da Unidade ou Totalidade*, cada ente da Federação (União, cada Estado, DF e cada Município) deve possuir uma única lei orçamentária anual para cada exercício financeiro.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "receita orçamentária". De acordo com a teoria estudada em *2.2 Princípio da Universalidade*, ressalva importante: As entradas compensatórias puramente financeiras (ingressos extraorçamentários, como fianças, cauções, depósitos judiciais e restos a pagar processados) não se sujeitam à autorização orçamentária prévia, pois não representam receita orçamentária pertencente em definitivo ao patrimônio estatal.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "despesa orçamentária". De acordo com a teoria estudada em *2.4 Princípio da Exclusividade Orçamentária*, previsto expressamente no art. 165, § 8º da CF/88: a LOA não conterá dispositivo estranho à previsão da receita e à fixação da despesa.
+> - **D)** **Correta.** Conforme fundamentado na seção *5.3 Transferências Especiais ("Emendas PIX") e com Finalidade Definida (Art. 166-A)* deste guia, o recurso financeiro é repassado diretamente ao ente federado recebedor, sem a necessidade de celebração de convênio, contrato de repasse ou instrumento congênere. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "receita extraorçamentária".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "despesa extraorçamentária". De acordo com a teoria estudada em *5.4 Limitações e Impedimentos Técnicos na Execução Obrigatória*, contingenciamento Proporcional: Se a estimativa de receita e da despesa demonstrar que o cumprimento das metas de resultado primário ou nominal pode ser comprometido, o montante das emendas impositivas poderá ser reduzido na mesma proporção da limitação de empenho aplicada às demais despesas discricionárias (art. 166, § 18 da CF/88).
+>
+> **Gabarito: D**
+
+---
+
+
+### Teste 004
+**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
+Considerando os conceitos e ferramentas relacionados a serviços de autenticação/autorização, webhooks e message brokers, avalie as afirmativas a seguir e assinale (V) para a(s) verdadeira(s) e (F) para a(s) falsa(s). ( ) Um dos principais objetivos do SAML é proporcionar Single-Sign On (SSO), isto é, permitir que um usuário se autentique uma vez e tenha acesso a outros sistemas sem a necessidade de fornecer novamente suas credenciais. ( ) No protocolo MQTT do RabbitMQ, a publicação de mensagens acontece dentro do contexto de um link. ( ) Keycloak permite a implementação de Single-Sign On (SSO) e fornece suporte para OpenID Connect e OAuth 2.0. As afirmativas são, respectivamente,
+
+* **A)** V – F – F.
+* **B)** V – F – V.
+* **C)** V – V – F.
+* **D)** F – F – V.
+* **E)** F – V – V.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *2.7 Princípios do Equilíbrio, Legalidade, Clareza e Publicidade*, clareza e Transparência: O orçamento deve ser apresentado em linguagem compreensível para permitir a fiscalização pela sociedade e pelos órgãos de controle externo (art. 48 da LRF).
+> - **B)** **Correta.** Conforme fundamentado na seção *4.1 As Quatro Etapas do Ciclo Orçamentário* deste guia, controle e Avaliação: Fiscalização contábil, financeira, orçamentária, operacional e patrimonial exercida pelos sistemas de controle interno e pelo controle externo (Poder Legislativo auxiliado pelo Tribunal de Contas). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "V – F – V".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF*, anexo de Riscos Fiscais (ARF): Avalia os passivos contingentes e outros riscos capazes de afetar as contas públicas (ex.: demandas judiciais de grande repercussão, avais concedidos), informando as providências a serem tomadas caso se concretizem.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *5.3 Transferências Especiais ("Emendas PIX") e com Finalidade Definida (Art. 166-A)*, o recurso financeiro é repassado diretamente ao ente federado recebedor, sem a necessidade de celebração de convênio, contrato de repasse ou instrumento congênere.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *1.2 Modelos Orçamentários e Comparativo Evolutivo*, foco nas coisas que o governo faz (serviços e produtos) em vez de apenas no que compra — "o que a administração faz".
+>
+> **Gabarito: B**
+
+---
+
+
+### Teste 005
+**(CEBRASPE – STF – 2013 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+É recomendado que a partição /boot esteja fora de um logical volume group, visto que o boot loader não é capaz de fazer sua leitura.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *4.1 As Quatro Etapas do Ciclo Orçamentário*, o ciclo orçamentário é um processo contínuo e dinâmico desdobrado em quatro fases sequenciais. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STF/2013) ao afirmar que "É recomendado que a partição /boot esteja fora de um logical volume group, visto que o boot loader não é...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 006
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+Sobre os comandos da ferramenta de controle de versões Git, é correto afirmar que
+
+* **A)** o comando git add altera simultaneamente os repositórios local e remoto.
+* **B)** o comando git commit envia para o repositório remoto as alterações no espaço de trabalho local.
+* **C)** o comando git status faz o download do repositório remoto para o espaço de trabalho local.
+* **D)** o comando git push somente faz o upload das alterações que já estão em um commit.
+* **E)** o comando git pull resolve automaticamente qualquer conflito entre os códigos dos repositórios local e remoto.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o comando git add altera simultaneamente os repositórios local e remoto". De acordo com a teoria estudada em *1.2 Modelos Orçamentários e Comparativo Evolutivo*, oT["1. Orçamento Tradicional / Clássico<br/ (Foco no Objeto / Insumos)<br/ O que a administração gasta?"] OD["2. Orçamento de Desempenho<br/ (Foco nas Coisas Feitas)<br/ O que a administração faz?"].
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o comando git commit envia para o repositório remoto as alterações no espaço de trabalho local". De acordo com a teoria estudada em *1.2 Modelos Orçamentários e Comparativo Evolutivo*, é a expressão financeira de programas de trabalho do governo voltados para objetivos e metas claros.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o comando git status faz o download do repositório remoto para o espaço de trabalho local". De acordo com a teoria estudada em *1.2 Modelos Orçamentários e Comparativo Evolutivo*, foco nas coisas que o governo faz (serviços e produtos) em vez de apenas no que compra — "o que a administração faz".
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF* deste guia, dispõe sobre as alterações na legislação tributária. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "o comando git push somente faz o upload das alterações que já estão em um commit".
+> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "o comando git pull resolve automaticamente qualquer conflito entre os códigos dos repositórios local e remoto". De acordo com a teoria estudada em *1.2 Modelos Orçamentários e Comparativo Evolutivo*, completa dissociação entre o orçamento e qualquer planejamento de longo prazo; não há mensuração de benefícios sociais ou metas de desempenho.
+>
+> **Gabarito: D**
+
+---
+
+
+### Teste 007
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
+Uma entidade do setor público apresentava os seguintes saldos relacionados a suas despesas orçamentárias em 31/12/2023: Correção Monetária ou Cambial da Dívida R$40.000 Contratual Resgatada: Juros sobre a Dívida por Contrato: R$50.000 Equipamentos e material permanente: R$80.000 Obras públicas e instalações: R$120.000 O total do grupo de natureza da despesa orçamentária Investimentos foi
+
+* **A)** R$80.000.
+* **B)** R$120.000.
+* **C)** R$200.000.
+* **D)** R$250.000.
+* **E)** R$290.000.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$80.000". De acordo com a teoria estudada em *1.2 Modelos Orçamentários e Comparativo Evolutivo*, modelo adotado no ordenamento brasileiro desde o Decreto Lei nº 200/1967 e consolidado na CF/88 e pela Portaria MOG nº 42/1999.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$120.000". De acordo com a teoria estudada em *2.7 Princípios do Equilíbrio, Legalidade, Clareza e Publicidade*, equilíbrio Orçamentário: Igualdade formal entre receitas estimadas e despesas fixadas na lei orçamentária. No aspecto material moderno, exige gestão fiscal prudente para geração de superávits primários e controle da dívida consolidada líquida (LRF).
+> - **C)** **Correta.** Conforme fundamentado na seção *5.3 Transferências Especiais ("Emendas PIX") e com Finalidade Definida (Art. 166-A)* deste guia, mínimo de 70% em Capital: Pelo menos 70% (setenta por cento) das transferências especiais devem ser aplicadas em despesas de capital (investimentos, obras, aquisição de equipamentos), sendo permitido o máximo de 30% em despesas correntes de custeio operacional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "R$200.000".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$250.000". De acordo com a teoria estudada em *1.1 Conceito e Natureza Jurídica do Orçamento Público*, quanto à sua natureza jurídica, vigora no Supremo Tribunal Federal (STF) a compreensão de que as leis orçamentárias (PPA, LDO e LOA) possuem natureza de lei em sentido formal (ou formal material especial).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$290.000". De acordo com a teoria estudada em *4.1 As Quatro Etapas do Ciclo Orçamentário*, execução Orçamentária e Financeira: Arrecadação de receitas, emissão de empenhos, liquidação e pagamento das despesas públicas.
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 008
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
+A classificação por fontes ou destinações de recursos (FR) tem como objetivo agrupar receitas que
+
+* **A)** possuem saldos semelhantes às despesas.
+* **B)** são vinculadas à mesma entidade que a despesa.
+* **C)** têm como contrapartida a respectiva despesa.
+* **D)** possuem as mesmas normas de aplicação na despesa.
+* **E)** apresentam prazo de realização semelhante à despesa.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "possuem saldos semelhantes às despesas". De acordo com a teoria estudada em *5.4 Limitações e Impedimentos Técnicos na Execução Obrigatória*, contingenciamento Proporcional: Se a estimativa de receita e da despesa demonstrar que o cumprimento das metas de resultado primário ou nominal pode ser comprometido, o montante das emendas impositivas poderá ser reduzido na mesma proporção da limitação de empenho aplicada às demais despesas discricionárias (art. 166, § 18 da CF/88).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são vinculadas à mesma entidade que a despesa". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Normativas Recomendadas*, lei Federal nº 4.320/1964 (Normas Gerais de Direito Financeiro) Princípios orçamentários da unidade, universalidade, anualidade, exclusividade e orçamento programa.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "têm como contrapartida a respectiva despesa". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Normativas Recomendadas*, lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal LRF) Estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, transparência e controle.
+> - **D)** **Correta.** Conforme fundamentado na seção *🌐 Fontes Oficiais & Normativas Recomendadas* deste guia, constituição Federal de 1988 Arts. 165 a 169 (Finanças Públicas e Orçamento) Normas constitucionais estruturantes do Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO) e Lei Orçamentária Anual (LOA). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "possuem as mesmas normas de aplicação na despesa".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresentam prazo de realização semelhante à despesa". De acordo com a teoria estudada em *1.1 Conceito e Natureza Jurídica do Orçamento Público*, quanto à sua natureza jurídica, vigora no Supremo Tribunal Federal (STF) a compreensão de que as leis orçamentárias (PPA, LDO e LOA) possuem natureza de lei em sentido formal (ou formal material especial).
+>
+> **Gabarito: D**
+
+---
+
+
+### Teste 009
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
+O Demonstrativo da Disponibilidade de Caixa e dos Restos a Pagar é parte integrante do Relatório de Gestão Fiscal. Em relação a este demonstrativo, analise as contas a seguir. I. Caixa II. Bancos III. Aplicações Financeiras de Liquidez Imediata IV. Obrigações Financeiras V. Restos a pagar A disponibilidade de caixa bruta é composta pelo somatório dos seguintes itens, relativos ao saldo total, em 31 de dezembro do exercício de referência:
+
+* **A)** I e II, somente.
+* **B)** I e III, somente.
+* **C)** I, II e III, somente.
+* **D)** I, II, III e IV, somente.
+* **E)** I, II, III, IV e V. Realização
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, somente". De acordo com a teoria estudada em *4.3 Prazos Constitucionais de Envio e Devolução (ADCT)*, pPA: Até 4 meses antes do encerramento do exercício financeiro (31 de agosto) do primeiro ano de mandato. — Até o encerramento da sessão legislativa (22 de dezembro).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, somente". De acordo com a teoria estudada em *4.3 Prazos Constitucionais de Envio e Devolução (ADCT)*, lOA: Até 4 meses antes do encerramento do exercício financeiro (31 de agosto). — Até o encerramento da sessão legislativa (22 de dezembro).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.2 Princípio da Universalidade* deste guia, ressalva importante: As entradas compensatórias puramente financeiras (ingressos extraorçamentários, como fianças, cauções, depósitos judiciais e restos a pagar processados) não se sujeitam à autorização orçamentária prévia, pois não representam receita orçamentária pertencente em definitivo ao patrimônio estatal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I, II e III, somente".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, II, III e IV, somente". De acordo com a teoria estudada em *2.7 Princípios do Equilíbrio, Legalidade, Clareza e Publicidade*, equilíbrio Orçamentário: Igualdade formal entre receitas estimadas e despesas fixadas na lei orçamentária. No aspecto material moderno, exige gestão fiscal prudente para geração de superávits primários e controle da dívida consolidada líquida (LRF).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II, III, IV e V. Realização". De acordo com a teoria estudada em *2.6 Princípio da Não Afetação (Não Vinculação) da Receita de Impostos*, realização de atividades da administração tributária (art. 37, XXII).
+>
+> **Gabarito: C**
+
+---
+
+
+### Teste 010
+**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
+Sobre os instrumentos de planejamento orçamentário, avalie as afirmativas a seguir. I. Em consonância com o PPA, compete à Lei de Diretrizes Orçamentárias (LDO), entre outras atribuições, estabelecer as metas e prioridades da administração pública e orientar a elaboração dos orçamentos anuais. II. A Lei de Responsabilidade Fiscal (LRF) conferiu à LDO novas e importantes atribuições, além das constitucionalmente previstas, especialmente no tocante à fixação de metas fiscais. III. À luz do PPA e da LDO, cabe à Lei Orçamentária Anual (LOA) estimar receitas e fixar despesas, de modo a efetivamente autorizar a realização de gastos públicos em determinado exercício financeiro. Está correto o que se afirma em
 
 * **A)** I, apenas.
 * **B)** I e II, apenas.
@@ -451,15 +500,42 @@ O ciclo orçamentário é o processo contínuo e sistemático pelo qual os gover
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *4.1 As Quatro Etapas do Ciclo Orçamentário*, execução Orçamentária e Financeira: Arrecadação de receitas, emissão de empenhos, liquidação e pagamento das despesas públicas.
-> - **B)** **Correta.** Conforme fundamentado na seção *4.1 As Quatro Etapas do Ciclo Orçamentário* deste guia, elaboração da Proposta: Competência privativa do Chefe do Poder Executivo, que consolida suas propostas e as demandas orçamentárias dos demais Poderes e órgãos autônomos (Legislativo, Judiciário, Ministério Público e Defensoria Pública), nos limites estipulados pela LDO. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I e II, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *5.4 Limitações e Impedimentos Técnicos na Execução Obrigatória*, contingenciamento Proporcional: Se a estimativa de receita e da despesa demonstrar que o cumprimento das metas de resultado primário ou nominal pode ser comprometido, o montante das emendas impositivas poderá ser reduzido na mesma proporção da limitação de empenho aplicada às demais despesas discricionárias (art. 166, § 18 da CF/88).
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *4.2 Processo Legislativo e a Tramitação na CMO*, no âmbito federal, os projetos de lei do PPA, LDO, LOA e de créditos adicionais são examinados e relatados pela Comissão Mista Permanente de Deputados e Senadores (Comissão Mista de Planos, Orçamentos Públicos e Fiscalização - CMO) (art. 166, § 1º da CF/88).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4.1 As Quatro Etapas do Ciclo Orçamentário*, controle e Avaliação: Fiscalização contábil, financeira, orçamentária, operacional e patrimonial exercida pelos sistemas de controle interno e pelo controle externo (Poder Legislativo auxiliado pelo Tribunal de Contas).
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF*, anexo de Metas Fiscais (AMF): Estabelece metas anuais, em valores correntes e constantes, relativas a receitas, despesas, resultado nominal e primário e montante da dívida pública, para o exercício a que se referir e para os dois seguintes (triênio fiscal).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF*, estabelece as diretrizes de política fiscal e suas metas, em consonância com a trajetória sustentável da dívida pública.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF*, compreende as metas e prioridades da administração pública.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, matriz Constitucional (Art. 165, § 1º): Estabelece, de forma regionalizada, as Diretrizes, Objetivos e Metas (DOM) da administração pública federal, estadual ou municipal para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada.
+> - **E)** **Correta.** Conforme fundamentado na seção *3. O Sistema Orçamentário Constitucional: PPA, LDO e LOA* deste guia, lDO["2. LEI DE DIRETRIZES ORÇAMENTÁRIAS (LDO)<br/ Nível Tático (Curto/Médio Prazo)<br/ Vigência: 1 ano (Anual)<br/ Elo entre PPA e LOA<br/ Metas e prioridades, orienta elaboração da LOA<br/ Inovações da LRF: Anexo de Metas Fiscais (AMF) e Anexo de Riscos Fiscais (ARF)"]. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "I, II e III".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
+
+
+### Teste 011
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Atuariais)**
+De acordo com a Portaria nº MTP 1.467/2022, os planos de custeio e de equacionamento de déficit atuarial devem ser estruturados de modo a garantir o equilíbrio do regime próprio, observando também a viabilidade do Ente Federativo. Sob essa ótica, assinale a opção que apresenta a relação correta entre o indicador e o fator de viabilidade institucional.
+
+* **A)** Despesa líquida com pessoal e a viabilidade fiscal.
+* **B)** Dívida consolidada líquida e a viabilidade financeira.
+* **C)** Parcelamentos firmados e a viabilidade orçamentária.
+* **D)** Receita corrente líquida e a viabilidade financeira.
+* **E)** Saldo financeiro acumulado e a viabilidade fiscal.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *2.7 Princípios do Equilíbrio, Legalidade, Clareza e Publicidade* deste guia, equilíbrio Orçamentário: Igualdade formal entre receitas estimadas e despesas fixadas na lei orçamentária. No aspecto material moderno, exige gestão fiscal prudente para geração de superávits primários e controle da dívida consolidada líquida (LRF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Despesa líquida com pessoal e a viabilidade fiscal".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Dívida consolidada líquida e a viabilidade financeira". De acordo com a teoria estudada em *5.3 Transferências Especiais ("Emendas PIX") e com Finalidade Definida (Art. 166-A)*, pagamento de encargos do serviço da dívida pública consolidada.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Parcelamentos firmados e a viabilidade orçamentária". De acordo com a teoria estudada em *3.3 Lei Orçamentária Anual (LOA): A Estrutura Tríplice Integrada*, orçamento Fiscal: Abrange os Poderes do ente federativo, seus fundos, órgãos e entidades da administração direta e indireta, inclusive fundações instituídas e mantidas pelo poder público.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Receita corrente líquida e a viabilidade financeira". De acordo com a teoria estudada em *5.2 Emendas de Bancada Estadual Impositivas*, percentual Vinculante (Art. 166, § 12): A aprovação e execução orçamentária e financeira das emendas de bancada de parlamentares de Estado ou do DF são obrigatórias até o limite de 1% da Receita Corrente Líquida do exercício anterior.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Saldo financeiro acumulado e a viabilidade fiscal". De acordo com a teoria estudada em *2.3 Princípio da Anualidade ou Periodicidade*, as estimativas de receita e as fixações de despesa devem corresponder a um período determinado de tempo. No Brasil, o exercício financeiro coincide rigorosamente com o ano civil: tem início em 1º de janeiro e encerra se em 31 de dezembro (art. 34 da Lei nº 4.320/1964).
+>
+> **Gabarito: A**
+
+---
+
+
 
 ## 5. Emendas Parlamentares e o Regime do Orçamento Impositivo
 
@@ -502,78 +578,6 @@ A execução obrigatória do orçamento impositivo não é irrestrita:
 
 - **Contingenciamento Proporcional:** Se a estimativa de receita e da despesa demonstrar que o cumprimento das metas de resultado primário ou nominal pode ser comprometido, o montante das emendas impositivas poderá ser reduzido **na mesma proporção da limitação de empenho aplicada às demais despesas discricionárias** (art. 166, § 18 da CF/88);
 - **Impedimentos de Ordem Técnica:** Justificativas formais do Poder Executivo (ex.: ausência de projeto de engenharia, desapropriação pendente, irregularidade cadastral insuperável) suspendem a obrigatoriedade da execução, cabendo ao parlamento indicar remanejamento em prazos legais fixados.
-
----
-
-### Teste 217
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-O Chefe do Poder Executivo do Estado Alfa encaminhou o projeto de lei orçamentária anual, abrangendo todos os Poderes e instituições constitucionais que gozam de autonomia financeira. No âmbito da Comissão competente da Assembleia Legislativa, que deve emitir parecer sobre a temática, os seus integrantes estavam propensos a apresentar emendas, devidamente compatíveis com o plano plurianual e a lei de diretrizes orçamentárias, com o objetivo de aumentar os valores a serem direcionados a certas políticas públicas. Ao consultarem seus assessores a respeito dos balizamentos estabelecidos pela ordem constitucional a respeito da temática, foi-lhes corretamente informado que
-
-* **A)** podem ser utilizados, como fontes de recursos das emendas, valores que seriam direcionados ao pagamento de juros da dívida pública interna mobiliária.
-* **B)** somente podem ser utilizados recursos afetos às transferências tributárias constitucionais para os entes subnacionais.
-* **C)** para que as emendas possam ser apresentadas, é necessário que seja ampliada, de modo justificado, a estimativa da receita para o respectivo exercício financeiro.
-* **D)** é vedada a apresentação de emendas dessa natureza, considerando a iniciativa privativa do Governador do Estado para que seja iniciado o processo legislativo.
-* **E)** é admitida a apresentação das emendas, desde que anulada alguma despesa, a exemplo das despesas de capital.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "podem ser utilizados, como fontes de recursos das emendas, valores que seriam direcionados ao pagamento de juros...". De acordo com a teoria estudada em *5.1 Emendas Individuais Impositivas*, vedação de Compensação: Os recursos de emendas individuais não podem ser utilizados pelo Poder Executivo para abater ou integralizar o piso constitucional mínimo obrigatório que o ente deve aplicar em saúde (art. 166, § 10).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente podem ser utilizados recursos afetos às transferências tributárias constitucionais para os entes...". De acordo com a teoria estudada em *5.3 Transferências Especiais ("Emendas PIX") e com Finalidade Definida (Art. 166-A)*, vedações Constitucionais Absolutas: Não podem ser aplicados em.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "para que as emendas possam ser apresentadas, é necessário que seja ampliada, de modo justificado, a estimativa da...". De acordo com a teoria estudada em *5.4 Limitações e Impedimentos Técnicos na Execução Obrigatória*, contingenciamento Proporcional: Se a estimativa de receita e da despesa demonstrar que o cumprimento das metas de resultado primário ou nominal pode ser comprometido, o montante das emendas impositivas poderá ser reduzido na mesma proporção da limitação de empenho aplicada às demais despesas discricionárias (art. 166, § 18 da CF/88).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é vedada a apresentação de emendas dessa natureza, considerando a iniciativa privativa do Governador do Estado...". De acordo com a teoria estudada em *2.7 Princípios do Equilíbrio, Legalidade, Clareza e Publicidade*, legalidade Orçamentária: A aprovação do orçamento, de seus créditos adicionais e do plano plurianual depende obrigatoriamente de lei formal de iniciativa privativa do Executivo (art. 165 da CF/88).
-> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo* deste guia, matriz Constitucional (Art. 165, § 1º): Estabelece, de forma regionalizada, as Diretrizes, Objetivos e Metas (DOM) da administração pública federal, estadual ou municipal para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "é admitida a apresentação das emendas, desde que anulada alguma despesa, a exemplo das despesas de capital".
->
-> **Gabarito: E**
-
----
-
-### Teste 218
-**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
-A Seção IV do Capítulo II da Lei de Responsabilidade Fiscal trata da Execução Orçamentária e do Cumprimento das Metas no Orçamento Público. Sobre este tema, avalie as afirmativas a seguir. I. A execução orçamentária e financeira identificará os beneficiários de pagamento de sentenças judiciais, por meio de sistema de contabilidade e administração financeira, para fins de observância da ordem cronológica. II. O Ministério da Fazenda é o órgão responsável para, no prazo de noventa dias após o encerramento de cada semestre, avaliar o cumprimento dos objetivos e metas das políticas monetária e creditícia, evidenciando o impacto e o custo fiscal de suas operações e os resultados demonstrados nos balanços. III. Uma vez estabelecida a programação financeira e o cronograma de execução mensal de desembolso pelo Poder Executivo, é possível utilizar recursos legalmente vinculados à finalidade específica para atender ao objeto de sua vinculação, mesmo que seja em exercício diverso daquele em que ocorrer o ingresso. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *5.4 Limitações e Impedimentos Técnicos na Execução Obrigatória*, impedimentos de Ordem Técnica: Justificativas formais do Poder Executivo (ex.: ausência de projeto de engenharia, desapropriação pendente, irregularidade cadastral insuperável) suspendem a obrigatoriedade da execução, cabendo ao parlamento indicar remanejamento em prazos legais fixados.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3.3 Lei Orçamentária Anual (LOA): A Estrutura Tríplice Integrada*, orçamento da Seguridade Social: Abrange todas as entidades e órgãos a ela vinculados, da administração direta ou indireta, bem como os fundos e fundações instituídos e mantidos pelo poder público, contemplando as áreas de Saúde, Previdência Social e Assistência Social (Art. 195 da CF/88).
-> - **C)** **Correta.** Conforme fundamentado na seção *5.3 Transferências Especiais ("Emendas PIX") e com Finalidade Definida (Art. 166-A)* deste guia, os recursos são expressamente vinculados à programação e ao objeto estabelecido na emenda parlamentar. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "I e III, apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, regra de Bloqueio Orçamentário (Art. 167, § 1º da CF/88): Nenhum investimento cuja execução ultrapasse um exercício financeiro poderá ser iniciado sem prévia inclusão no PPA, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *3.3 Lei Orçamentária Anual (LOA): A Estrutura Tríplice Integrada*, orçamento Fiscal: Abrange os Poderes do ente federativo, seus fundos, órgãos e entidades da administração direta e indireta, inclusive fundações instituídas e mantidas pelo poder público.
->
-> **Gabarito: C**
-
----
-
-### Teste 219
-**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Sem Especialidade)**
-As emendas parlamentares são instrumentos previstos na Constituição Federal que permitem aos deputados e senadores propor alterações no Orçamento Público, direcionando recursos para atender demandas específicas de suas bases eleitorais. Questionando a transparência e a legalidade desses instrumentos, recentemente, a Procuradoria-Geral da República (PGR) denunciou deputados federais por suposta comercialização de emendas parlamentares. Neste tema, considere as afirmativas a seguir. I. As Emendas Individuais têm valor limitado de acordo com a Receita Corrente Líquida do setor público, sendo esta aferida no exercício anterior ao do encaminhamento do projeto de Lei Orçamentária. II. Metade do valor aprovado para Emendas Individuais será destinado a ações e serviços públicos de saúde. III. Não existe valor mínimo ou área específica que vincule qualquer valor das Emendas Individuais ao Orçamento. Elas são definidas conforme os interesses dos parlamentares, definidos por suas bases. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** I e III, apenas. Realização
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *5.1 Emendas Individuais Impositivas*, vinculação à Saúde: A metade (50%) desse percentual deve ser destinada obrigatoriamente a ações e serviços públicos de saúde (ASPS).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *5.2 Emendas de Bancada Estadual Impositivas*, percentual Vinculante (Art. 166, § 12): A aprovação e execução orçamentária e financeira das emendas de bancada de parlamentares de Estado ou do DF são obrigatórias até o limite de 1% da Receita Corrente Líquida do exercício anterior.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *5.1 Emendas Individuais Impositivas*, vedação de Compensação: Os recursos de emendas individuais não podem ser utilizados pelo Poder Executivo para abater ou integralizar o piso constitucional mínimo obrigatório que o ente deve aplicar em saúde (art. 166, § 10).
-> - **D)** **Correta.** Conforme fundamentado na seção *5.1 Emendas Individuais Impositivas* deste guia, percentual Vinculante (Art. 166, § 9º): As emendas individuais ao projeto de LOA serão aprovadas no limite de 2% da Receita Corrente Líquida (RCL) do exercício anterior. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "I e II, apenas".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas. Realização". De acordo com a teoria estudada em *2.6 Princípio da Não Afetação (Não Vinculação) da Receita de Impostos*, destinação a ações e serviços públicos de saúde (art. 198, § 2º).
->
-> **Gabarito: D**
 
 ---
 

@@ -4,10 +4,7 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `04_apis_restful_graphql_websockets_documentacao.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 - Desenvolvimento de APIs RESTful
@@ -155,116 +152,6 @@ flowchart LR
 
 ---
 
-### Teste 087
-**(CEBRASPE – STF – 2013 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-A declaração de aplicabilidade deve estar obrigatoriamente incluída na documentação do SGSI.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen* deste guia, swagger UI: Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STF/2013) ao afirmar que "A declaração de aplicabilidade deve estar obrigatoriamente incluída na documentação do SGSI".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *2.2 Modelo Operacional e a Schema Definition Language (SDL)*, segundo a qual tipos de Lista (`[]`): `[String]` indica uma lista de strings. `[String!]!` indica uma lista não nula contendo itens obrigatoriamente não nulos.
->
-> **Gabarito: C**
-
----
-
-### Teste 088
-**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Sem Especialidade)**
-O escopo do projeto define claramente o que precisa ser feito, abrangendo todo o trabalho necessário para produzir as entregas previstas, atender aos requisitos ou critérios de aceitação e satisfazer o cliente, assegurando o alcance dos objetivos estabelecidos para o projeto. Assinale a opção que apresenta corretamente o que são consideradas exigências do cliente em um projeto.
-
-* **A)** As preferências estéticas do cliente, como cor e formato dos produtos.
-* **B)** As referências apenas aos prazos e aos custos acordados para a execução do projeto.
-* **C)** As especificações funcionais, operacionais e de desempenho que o produto final e as demais entregas devem satisfazer.
-* **D)** Os requisitos internos da equipe de gerenciamento para organizar os recursos do projeto.
-* **E)** As sugestões genéricas do cliente, sem impacto direto nas entregas ou na qualidade do projeto.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As preferências estéticas do cliente, como cor e formato dos produtos". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, sistema em Camadas (*Layered System*): A arquitetura pode incluir intermediários transparentes para o cliente (balanceadores de carga, firewalls de aplicação - WAF, proxies reversos e gateways de API), sem que o cliente precise saber se está falando com o servidor final.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "As referências apenas aos prazos e aos custos acordados para a execução do projeto". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, trata-se de um conjunto de restrições arquiteturais coordenadas que, quando seguidas, conferem à web propriedades desejáveis de desempenho, escalabilidade, simplicidade, modificabilidade e visibilidade.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Princípios Arquiteturais do REST (Roy Fielding)* deste guia, cacheabilidade (*Cacheable*): As respostas devem explicitar claramente se podem ou não ser retidas em cache pelo cliente ou por nós intermediários (via cabeçalhos `Cache-Control`, `ETag`, `Last-Modified`), reduzindo a latência e o consumo de banda. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "As especificações funcionais, operacionais e de desempenho que o produto final e as demais entregas devem...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os requisitos internos da equipe de gerenciamento para organizar os recursos do projeto". De acordo com a teoria estudada em *1.3 Métodos HTTP: Semântica, Segurança e Idempotência*, método Idempotente (*Idempotent*): Executar a mesma requisição uma vez ou $N$ vezes consecutivas com os mesmos dados produz exatamente o mesmo efeito final no estado do servidor.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As sugestões genéricas do cliente, sem impacto direto nas entregas ou na qualidade do projeto". De acordo com a teoria estudada em *3.1 Arquitetura Full-Duplex e a RFC 6455*, o protocolo HTTP tradicional baseia-se no modelo *Request-Response* *half-duplex*, no qual toda comunicação precisa ser iniciada pelo cliente.
->
-> **Gabarito: C**
-
----
-
-### Teste 089
-**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
-A documentação técnica referente à API dos microsserviços desenvolvidos na PDPJ-Br deve seguir o padrão Swagger 2.0, a fim de garantir a compatibilidade com as especificações legadas dos sistemas antigos.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A documentação técnica referente à API dos microsserviços desenvolvidos na PDPJ-Br deve seguir o padrão...". De acordo com a teoria estudada em *Faixa 4xx (Erro do Cliente)*, `401 Unauthorized`: Na realidade técnica, significa Não Autenticado (*Unauthenticated*). Faltam credenciais no cabeçalho `Authorization` ou o token expirou/está inválido (*"Eu não sei quem você é"*).
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen* deste guia, swagger UI: Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*). Portanto, a assertiva examinada pela banca (CEBRASPE – TRF 6ª/2025) viola os preceitos técnicos do tópico.
->
-> **Gabarito: E**
-
----
-
-### Teste 090
-**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
-O Swagger Editor é um editor de código aberto usado para projetar, definir e documentar APIs HTTP segundo a especificação OpenAPI. A respeito dos pré-requisitos necessários para o editor ser executado localmente, avalie os itens a seguir. I. Git em qualquer versão. II. Node.js em versão 20.3.0. ou superior. III. Npm em versão 9.6.7 ou superior. IV. OAuth em versão 2.0 ou superior. São pré-requisitos necessários para que o Swagger Editor seja executado localmente os indicados em
-
-* **A)** I e III, apenas.
-* **B)** II e IV, apenas.
-* **C)** I, II e III, apenas.
-* **D)** I, II e IV, apenas.
-* **E)** II, III e IV, apenas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen*, openAPI Generator / Swagger Codegen: Utilitários que leem o arquivo OpenAPI e geram automaticamente o código boilerplate de clientes SDK (em Java, Python, TypeScript) ou esqueletos de servidores backend.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e IV, apenas". De acordo com a teoria estudada em *2.1 Motivação: Resolução de Over-fetching e Under-fetching*, desenvolvido pelo Facebook (Meta) em 2012 e tornado código aberto em 2015, o GraphQL é uma linguagem de consulta para APIs e um ambiente de execução para cumprir essas consultas com dados existentes.
-> - **C)** **Correta.** Conforme fundamentado na seção *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen* deste guia, swagger Editor: Editor visual com validação sintática em tempo real para projetar contratos OpenAPI em YAML/JSON. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "I, II e III, apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, II e IV, apenas". De acordo com a teoria estudada em *5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)*, `openapi`: Versão da especificação OpenAPI empregada.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, III e IV, apenas". De acordo com a teoria estudada em *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen*, swagger UI: Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*).
->
-> **Gabarito: C**
-
----
-
-#### Faixa 5xx (Erro do Servidor)
-- **`500 Internal Server Error`:** Erro genérico e inesperado de execução no servidor (exceção não tratada no código).
-- **`502 Bad Gateway`:** Um servidor intermediário (proxy reverso, gateway de API) recebeu uma resposta inválida ou falha do servidor *upstream* (backend).
-- **`503 Service Unavailable`:** O servidor está temporariamente incapaz de atender requisições por sobrecarga pontual ou manutenção programada.
-- **`504 Gateway Timeout`:** O servidor intermediário esgotou o tempo limite de espera (*timeout*) aguardando uma resposta do servidor backend.
-
----
-
-### Teste 091
-**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
-O Swagger é um conjunto de ferramentas voltado para o desenvolvimento de todo o ciclo de vida da API, incluindo as etapas de design, documentação, teste e implantação. 108 import java.io.*; class Easy { public static void main(String[] args) { int x[] = {1, 3, 7, 22, 51}; for (int size : x) System.out.print(size); } } O resultado da execução do código precedente, desenvolvido em Java, será 6.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen* deste guia, swagger UI: Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRF 6ª/2025) ao afirmar que "O Swagger é um conjunto de ferramentas voltado para o desenvolvimento de todo o ciclo de vida da API...".
-> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *2.1 Motivação: Resolução de Over-fetching e Under-fetching*, segundo a qual desenvolvido pelo Facebook (Meta) em 2012 e tornado código aberto em 2015, o GraphQL é uma linguagem de consulta para APIs e um ambiente de execução para cumprir essas consultas com dados existentes.
->
-> **Gabarito: C**
-
----
-
 ## 2. GraphQL: Arquitetura e Consultas Declarativas
 
 ### 2.1 Motivação: Resolução de Over-fetching e Under-fetching
@@ -340,54 +227,6 @@ mutation CriarProcesso($dados: NovoProcessoInput!) {
 
 ---
 
-### Teste 092
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
-Observe os dados do seguinte documento XML. <?xml version="1.0" encoding="UTF-8" ?> <root> <Pessoa> <Hospede> <Nome>Ana</Nome> <Acompanhantes>Bia</Acompanhantes> <Acompanhantes>Maitê</Acompanhantes> </Hospede> </Pessoa> </root> Os dados no formato JSON correspondente é:
-
-* **A)** {"Pessoa":{"Hospede":[{"Nome":"Thomas"},{"Nome": "Ana","Acompanhantes":["Bia","Maitê"]}]}}
-* **B)** <"Pessoa":<"Hospede":[{"Nome":"Thomas"};{"Nome": "Ana";"Acompanhantes":["Bia";"Maitê"]}]/>/>
-* **C)** ["Pessoa":["Hospede":[["Nome":"Thomas"],["Nome": "Ana","Acompanhantes":["Bia","Maitê"]]]]]
-* **D)** {"Pessoa"{"Hospede"[{"Nome";"Thomas"},{"Nome"; "Ana","Acompanhantes"("Bia";"Maitê")}]}}
-* **E)** <"Pessoa"{"Hospede":[{"Nome";"Thomas"},{"Nome": "Ana","Acompanhantes":("Bia";"Maitê")}]}/>
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Motivação: Resolução de Over-fetching e Under-fetching* deste guia, over-fetching (Excesso de Dados): Ocorre no REST quando um endpoint fixo retorna dezenas de campos complexos, embora a interface do cliente só precise de dois (ex.: renderizar apenas o nome do relator em uma lista móvel consumindo centenas de kilobytes de dados irrelevantes). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "{"Pessoa":{"Hospede":[{"Nome":"Thomas"},{"Nome": "Ana","Acompanhantes":["Bia","Maitê"]}]}}".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<"Pessoa":<"Hospede":[{"Nome":"Thomas"};{"Nome": "Ana";"Acompanhantes":["Bia";"Maitê"]}]/>/>". De acordo com a teoria estudada em *4.2 XML: Estrutura, Validação (DTD/XSD) e Consultas com XPath*, estrutura: Exige prólogo `<?xml version="1.0" encoding="UTF-8"?>`, raiz única (*root element*) e fechamento obrigatório de todas as tags (sensível a maiúsculas/minúsculas).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "["Pessoa":["Hospede":[["Nome":"Thomas"],["Nome": "Ana","Acompanhantes":["Bia","Maitê"]]]]]". De acordo com a teoria estudada em *4.3 Comparativo Prático entre JSON e XML*, formato de Estrutura: Pares chave-valor e listas (`{}`, `[]`) — Árvore de elementos com tags e atributos.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "{"Pessoa"{"Hospede"[{"Nome";"Thomas"},{"Nome"; "Ana","Acompanhantes"("Bia";"Maitê")}]}}". De acordo com a teoria estudada em *4.1 JSON: Tipagem, Sintaxe Estrita e Validação com JSON Schema*, o JSON (*JavaScript Object Notation*, padronizado pela RFC 8259) é o formato dominante no intercâmbio de dados em APIs REST modernas.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<"Pessoa"{"Hospede":[{"Nome";"Thomas"},{"Nome": "Ana","Acompanhantes":("Bia";"Maitê")}]}/>". De acordo com a teoria estudada em *5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)*, `schemas`: Modelos de entidades de dados.
->
-> **Gabarito: A**
-
----
-
-### Teste 093
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
-Os modelos de aprendizado de máquina desempenham um papel fundamental na análise e interpretação de dados em uma variedade de domínios. Uma característica dos modelos de aprendizado de máquina supervisionados e não supervisionados é que modelos supervisionados
-
-* **A)** exploram a detecção de outliers, enquanto modelos não supervisionados usam dados representados em formatos como XML ou JSON para treinamento..
-* **B)** geralmente têm menos tendência ao overfitting do que modelos não supervisionados.
-* **C)** requerem dados rotulados para treinamento, enquanto modelos não supervisionados podem funcionar com dados não rotulados.
-* **D)** são mais adequados para tarefas de análise exploratória de dados, enquanto modelos não supervisionados são mais adequados para previsão de séries temporais.
-* **E)** são usados apenas para classificação, enquanto modelos não supervisionados são usados apenas para agrupamento.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exploram a detecção de outliers, enquanto modelos não supervisionados usam dados representados em formatos como...". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, *Manipulação por Representações:* O cliente manipula o recurso através de sua representação textual (JSON, XML), e não do objeto bruto no banco de dados.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "geralmente têm menos tendência ao overfitting do que modelos não supervisionados". De acordo com a teoria estudada em *2.1 Motivação: Resolução de Over-fetching e Under-fetching*, o backend responde com um JSON espelhado na estrutura exata do pedido, através de um endpoint único (geralmente `/graphql`), operando via requisições HTTP `POST`.
-> - **C)** **Correta.** Conforme fundamentado na seção *5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)* deste guia, `schemas`: Modelos de entidades de dados. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "requerem dados rotulados para treinamento, enquanto modelos não supervisionados podem funcionar com dados não...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são mais adequados para tarefas de análise exploratória de dados, enquanto modelos não supervisionados são mais...". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, cacheabilidade (*Cacheable*): As respostas devem explicitar claramente se podem ou não ser retidas em cache pelo cliente ou por nós intermediários (via cabeçalhos `Cache-Control`, `ETag`, `Last-Modified`), reduzindo a latência e o consumo de banda.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "são usados apenas para classificação, enquanto modelos não supervisionados são usados apenas para agrupamento". De acordo com a teoria estudada em *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen*, swagger UI: Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*).
->
-> **Gabarito: C**
-
----
-
 ## 3. Protocolo WebSocket e Comunicação em Tempo Real
 
 ### 3.1 Arquitetura Full-Duplex e a RFC 6455
@@ -434,48 +273,6 @@ sequenceDiagram
 
 ---
 
-### Teste 094
-**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-Em uma sessão FTP, uma só conexão é usada para transmitir comandos, respostas e dados dos arquivos. Uma sessão FTP se inicia com o estabelecimento dessa conexão entre cliente e servidor. Cada comando do cliente resulta em uma resposta composta por código numérico e texto.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em uma sessão FTP, uma só conexão é usada para transmitir comandos, respostas e dados dos arquivos. Uma...". De acordo com a teoria estudada em *3.3 Comparativo: Polling, Long-Polling, Server-Sent Events (SSE) e WebSocket*, long Polling: Unidirecional (Servidor segura requisição) — HTTP com conexão mantida aberta até haver dado — Alto (reabre conexão HTTP a cada resposta) — Cenários legados sem suporte a WebSockets.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *3.3 Comparativo: Polling, Long-Polling, Server-Sent Events (SSE) e WebSocket* deste guia, server-Sent Events (SSE): Unidirecional (Servidor $\rightarrow$ Cliente) — HTTP padrão (`text/event-stream`) — Baixo (conexão persistente HTTP única) — Painéis de monitoramento, cotações, feeds onde o cliente só recebe dados. Portanto, a assertiva examinada pela banca (CEBRASPE – STF/2008) viola os preceitos técnicos do tópico.
->
-> **Gabarito: E**
-
----
-
-### Teste 095
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
-Maria, analista de TI, observou que o tipo mais primitivo de linguagem de programação é a linguagem que o computador entende diretamente, isto é, as instruções que podem ser diretamente executadas pelo hardware, ou seja, pela UCP (processador). Para criar um programa em linguagem de máquina, Maria deve conhecer todas as instruções disponíveis para aquela máquina e seus respectivos códigos de operação e formatos, assim como os registradores da UCP disponíveis e os endereços das células de memória onde serão armazenadas as instruções e os dados. Nesse contexto, Maria pretende converter para linguagem de máquina um programa escrito em linguagem de mais alto nível do que o da linguagem de montagem e que gera o código-objeto. Para tal Maria utilizará o método:
-
-* **A)** execução;
-* **B)** montagem;
-* **C)** compilação;
-* **D)** interpretação;
-* **E)** linkedição ou ligação.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "execução". De acordo com a teoria estudada em *2.1 Motivação: Resolução de Over-fetching e Under-fetching*, desenvolvido pelo Facebook (Meta) em 2012 e tornado código aberto em 2015, o GraphQL é uma linguagem de consulta para APIs e um ambiente de execução para cumprir essas consultas com dados existentes.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "montagem". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, sem Estado (*Statelessness*): Cada requisição do cliente para o servidor deve conter todas as informações contextuais necessárias para que o servidor a interprete e execute. O servidor não armazena nenhuma sessão em memória entre requisições.
-> - **C)** **Correta.** Conforme fundamentado na seção *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen* deste guia, swagger UI: Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "compilação".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "interpretação". De acordo com a teoria estudada em *1.2 O Modelo de Maturidade de Richardson*, nível 0 (The Swamp of POX): Utiliza HTTP apenas como protocolo de transporte para chamadas RPC remotas sobre um único endpoint (ex.: SOAP ou XML-RPC, onde todas as operações são enviadas via `POST /servico`).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "linkedição ou ligação". De acordo com a teoria estudada em *3.1 Arquitetura Full-Duplex e a RFC 6455*, baixa Latência e Mínimo Overhead: Após a conexão ser aberta, os cabeçalhos HTTP volumosos não são mais transmitidos. As mensagens trafegam divididas em frames levíssimos contendo cabeçalhos de apenas 2 a 10 bytes.
->
-> **Gabarito: C**
-
----
-
 ## 4. Formatos de Representação de Dados: JSON vs. XML
 
 ### 4.1 JSON: Tipagem, Sintaxe Estrita e Validação com JSON Schema
@@ -510,30 +307,6 @@ O XML (*Extensible Markup Language*) é uma linguagem de marcação baseada em t
 | **Tamanho da Mensagem** | Compacto, sem redundância de tags | Verboso devido à duplicação de tags de fechamento |
 | **Validação de Esquema** | JSON Schema | DTD e XML Schema (XSD) |
 | **Linguagem de Consulta** | JSONPath | XPath e XQuery |
-
----
-
-### Teste 096
-**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
-Paula e Maria estão avaliando as potencialidades dos usos de JSON e XML no desenvolvimento de aplicações Web para uma grande companhia estatal. As analistas sabem que JSON e XML são duas escolhas muito comuns quando se trata de formatos de dados na Web. A esse respeito, assinale a afirmativa correta.
-
-* **A)** Com relação à legibilidade, Paula informa que ambos são legíveis por humanos, mas os documentos XML são mais detalhados.
-* **B)** Com relação ao volume de dados, Maria informa que o JSON é maior e menos compacto que o XML devido aos elementos extra de marcação.
-* **C)** Com relação as análises, Paula informa que as análises dos documentos JSON são mais complexas que os XML.
-* **D)** Com relação ao apoio à gestão de dados, Maria informa que ambos possuem limitado suporte ao idioma português e que o XML está em desuso.
-* **E)** Com relação aos casos de uso, Paula informa que o JSON é geralmente preterido para aplicações web devido ao seu código binário ser maior o que XML.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *4.2 XML: Estrutura, Validação (DTD/XSD) e Consultas com XPath* deste guia, dTD (*Document Type Definition*): Mecanismo mais antigo com sintaxe própria. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "Com relação à legibilidade, Paula informa que ambos são legíveis por humanos, mas os documentos XML são mais...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Com relação ao volume de dados, Maria informa que o JSON é maior e menos compacto que o XML devido aos elementos...". De acordo com a teoria estudada em *4.3 Comparativo Prático entre JSON e XML*, tamanho da Mensagem: Compacto, sem redundância de tags — Verboso devido à duplicação de tags de fechamento.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Com relação as análises, Paula informa que as análises dos documentos JSON são mais complexas que os XML". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, *Manipulação por Representações:* O cliente manipula o recurso através de sua representação textual (JSON, XML), e não do objeto bruto no banco de dados.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Com relação ao apoio à gestão de dados, Maria informa que ambos possuem limitado suporte ao idioma português e que...". De acordo com a teoria estudada em *4.2 XML: Estrutura, Validação (DTD/XSD) e Consultas com XPath*, xSD (*XML Schema Definition*): Esquema moderno escrito na própria sintaxe XML, com suporte a tipos de dados ricos e namespaces.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Com relação aos casos de uso, Paula informa que o JSON é geralmente preterido para aplicações web devido ao seu...". De acordo com a teoria estudada em *1.3 Métodos HTTP: Semântica, Segurança e Idempotência*, *\*Nota: Pela RFC 5789, PATCH não é intrinsecamente idempotente, embora possa ser implementado de forma idempotente em certos casos.*.
->
-> **Gabarito: A**
 
 ---
 
@@ -604,30 +377,6 @@ components:
 - **Swagger UI:** Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*).
 - **Swagger Editor:** Editor visual com validação sintática em tempo real para projetar contratos OpenAPI em YAML/JSON.
 - **OpenAPI Generator / Swagger Codegen:** Utilitários que leem o arquivo OpenAPI e geram automaticamente o código boilerplate de clientes SDK (em Java, Python, TypeScript) ou esqueletos de servidores backend.
-
----
-
-### Teste 097
-**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
-O SwaggerEditor permite editar e documentar APIs. Em relação ao tema, assinale V para a afirmativa verdadeira e F para a falsa. I. O editor pode ser utilizado online como uma ferramenta web de código aberto ou ser instalada e executada localmente a partir de um servidor. II. A página inicial da versão online é composta por quatro elementos de interface: um toolbar, um painel de edição de API, um painel de visualização de documentos e um painel para testar os webhooks e chamadas da API. III. O editor, na versão online, salva os códigos da APIs nos formatos das especificações YAML, JSON e XML. As afirmativas são, respectivamente,
-
-* **A)** V, F e F.
-* **B)** V, V e F.
-* **C)** V, F e V.
-* **D)** F, V e V.
-* **E)** F, F e V.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)* deste guia, `info`: Título, descrição, versão e termos da API. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "V, F e F".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, V e F". De acordo com a teoria estudada em *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen*, swagger UI: Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, F e V". De acordo com a teoria estudada em *2.1 Motivação: Resolução de Over-fetching e Under-fetching*, desenvolvido pelo Facebook (Meta) em 2012 e tornado código aberto em 2015, o GraphQL é uma linguagem de consulta para APIs e um ambiente de execução para cumprir essas consultas com dados existentes.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, V e V". De acordo com a teoria estudada em *5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)*, `openapi`: Versão da especificação OpenAPI empregada.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, F e V". De acordo com a teoria estudada em *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen*, swagger Editor: Editor visual com validação sintática em tempo real para projetar contratos OpenAPI em YAML/JSON.
->
-> **Gabarito: A**
 
 ---
 
