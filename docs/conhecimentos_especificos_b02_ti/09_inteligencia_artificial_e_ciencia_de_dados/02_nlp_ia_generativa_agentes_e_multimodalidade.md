@@ -144,7 +144,31 @@ onde $Q$ são as Consultas (*Queries*), $K$ são as Chaves (*Keys*), $V$ são os
 ---
 
 ### Teste 311
-**(FGV – TJ-MT – Analista Judiciario Tecnologia da Informacao – 2024)**
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
+O algoritmo Naive Bayes é amplamente utilizado em problemas de classificação, especialmente em aplicações de processamento de linguagem natural e análise de texto. O princípio fundamental do algoritmo Naive Bayes
+
+* **A)** baseia-se na técnica de clustering para agrupar instâncias semelhantes.
+* **B)** calcula a média ponderada dos atributos para determinar a classe de um exemplo.
+* **C)** considera a independência condicional entre os atributos dos dados.
+* **D)** utiliza redes neurais profundas para modelar relações complexas entre os atributos.
+* **E)** utiliza uma abordagem de força bruta para encontrar a solução ótima de classificação.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "baseia-se na técnica de clustering para agrupar instâncias semelhantes". De acordo com a teoria estudada em *2.1 Fundamentos e Arquiteturas Generativas*, enquanto a IA Discriminativa calcula $P(y \mid X)$ para separar instâncias em classes, a IA Generativa modela os padrões intrínsecos de formação dos dados. As três principais famílias contemporâneas são: GANs, Modelos de Difusão e LLMs Autoregressivos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "calcula a média ponderada dos atributos para determinar a classe de um exemplo". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, análise Morfossintática: Não analisa a classe gramatical.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem* deste guia, os modelos autoregressivos geram textos computando a probabilidade condicional de cada token sucessivo com base em todos os tokens precedentes. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "considera a independência condicional entre os atributos dos dados".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "utiliza redes neurais profundas para modelar relações complexas entre os atributos". De acordo com a teoria estudada em *2.2 Redes Adversárias Generativas (GANs) e Colapso de Modo*, introduzidas por Ian Goodfellow em 2014, as GANs (*Generative Adversarial Networks*) fundamentam-se em duas redes neurais profundas que competem entre si em um jogo de minimax de soma zero da teoria dos jogos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "utiliza uma abordagem de força bruta para encontrar a solução ótima de classificação". De acordo com a teoria estudada em *1.3 A Revolução dos Transformers em PLN: BERT vs. GPT*, ideal para tarefas de compreensão textual profunda: Classificação de Documentos, Reconhecimento de Entidades Nomeadas (NER), Pergunta-Resposta Extrativa e Busca Semântica em Bases Vetoriais.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 312
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
 O Processamento de Linguagem Natural (PLN) é uma subárea da inteligência artificial focada em permitir que máquinas compreendam, interpretem, gerem e respondam à linguagem humana de maneira natural e significativa. O objetivo do PLN é fazer com que sistemas computacionais realizem tarefas que envolvem a linguagem humana, como leitura, escrita e interpretação de forma semelhante à forma como os humanos processam o idioma. Em Processamento de Linguagem Natural (PLN), a tokenização
 
 * **A)** é a técnica que remove todas as palavras de um texto que não são substantivos, para focar apenas em entidades.
@@ -157,18 +181,18 @@ O Processamento de Linguagem Natural (PLN) é uma subárea da inteligência arti
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "é a técnica que remove todas as palavras de um texto que não são substantivos, para focar apenas em entidades". De acordo com a teoria estudada em *1.3 A Revolução dos Transformers em PLN: BERT vs. GPT*, ideal para tarefas de compreensão textual profunda: Classificação de Documentos, Reconhecimento de Entidades Nomeadas (NER), Pergunta-Resposta Extrativa e Busca Semântica em Bases Vetoriais.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consiste em dividir o texto em unidades menores, como palavras ou subpalavras, para facilitar o processamento do...". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, *Por subpalavras (*Subword Tokenization*):* Padrão hegemônico adotado por modelos baseados em Transformers.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é o processo de sintetizar novas palavras com base em um modelo probabilístico, permitindo a expansão do...". De acordo com a teoria estudada em *2. Inteligência Artificial Generativa*, a IA Generativa fundamenta-se em arquiteturas matemáticas capazes de estimar a densidade de probabilidade \$P(X)\$ subjacente a distribuições empíricas de dados, permitindo a amostragem estocástica para sintetizar novos dados fidedignos e inéditos.
-> - **D)** **Correta.** Conforme fundamentado na seção *1. Processamento de Linguagem Natural (PLN / NLP)* deste guia, o Processamento de Linguagem Natural é a disciplina interdisciplinar na fronteira entre a Ciência da Computação, Inteligência Artificial e Linguística Formal voltada a viabilizar a compreensão, interpretação, análise e geração da linguagem humana em formato computacional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-MT/2024) ao estabelecer que "é a técnica que converte palavras em números aleatórios para evitar vieses durante a análise textual".
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "é a técnica que remove todas as palavras de um texto que não são substantivos, para focar apenas em entidades". De acordo com a teoria estudada em *1.3 A Revolução dos Transformers em PLN: BERT vs. GPT*, opera em regime estritamente bidirecional: ao processar um token, as camadas de autoatenção conectam-no simultaneamente a todas as palavras à esquerda e à direita na sentença.
+> - **B)** **Correta.** Conforme fundamentado na seção *1. Processamento de Linguagem Natural (PLN / NLP)* deste guia, o Processamento de Linguagem Natural é a disciplina interdisciplinar na fronteira entre a Ciência da Computação, Inteligência Artificial e Linguística Formal voltada a viabilizar a compreensão, interpretação, análise e geração da linguagem humana em formato computacional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "consiste em dividir o texto em unidades menores, como palavras ou subpalavras, para facilitar o processamento do...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é o processo de sintetizar novas palavras com base em um modelo probabilístico, permitindo a expansão do...". De acordo com a teoria estudada em *1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos*, cria um vocabulário fixo de $V$ palavras a partir da base documental. Cada documento é representado por um vetor esparso de dimensão $V$ contendo a contagem simples de ocorrência de cada palavra.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é a técnica que converte palavras em números aleatórios para evitar vieses durante a análise textual". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, *Por subpalavras (*Subword Tokenization*):* Padrão hegemônico adotado por modelos baseados em Transformers.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é o processo de combinar palavras em frases inteiras para entender o contexto completo de um texto". De acordo com a teoria estudada em *1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos*, *Limitações Graves:* Vetores com dimensionalidade massiva e esparsidade extrema; perda total da sintaxe, contexto e ordem das palavras (as frases *"o réu processou o auditor"* e *"o auditor processou o réu"* produzem vetores exatamente idênticos no BoW).
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
-### Teste 312
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+### Teste 313
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
 Em processamento de linguagem natural (Natural Language Processing - NLP), é fundamental que sejam utilizadas técnicas para representar palavras numericamente como vetores. As representações numéricas são importantes para capturar relações semânticas entre as palavras, permitindo, por exemplo, processamentos para a detecção de similaridades entre palavras e o desenvolvimento de chatbots. Entre as técnicas de NLP para a representação numérica de palavras destacam-se as seguintes:
 
 * **A)** word2vec e GloVe.
@@ -181,37 +205,13 @@ Em processamento de linguagem natural (Natural Language Processing - NLP), é fu
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos* deste guia, estende o Word2Vec ao representar cada palavra como um saco de n-gramas de caracteres (ex.: a palavra *"tribunal"* com \$n=3\$ é decomposta em `<tr`, `tri`, `rib`, `ibu`, `bun`, `una`, `nal`, `al>`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "word2vec e GloVe".
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos* deste guia, estende o Word2Vec ao representar cada palavra como um saco de n-gramas de caracteres (ex.: a palavra *"tribunal"* com $n=3$ é decomposta em `<tr`, `tri`, `rib`, `ibu`, `bun`, `una`, `nal`, `al>`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "word2vec e GloVe".
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "stemming e lemmatization". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, normalização Morfológica: Stemming vs. Lemmatization.
 > - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "segmentation e efficient embedding". De acordo com a teoria estudada em *1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos*, embeddings Estáticos Densos (Word2Vec e FastText).
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "seq2seq e symbolic representation". De acordo com a teoria estudada em *1. Processamento de Linguagem Natural (PLN / NLP)*, o Processamento de Linguagem Natural é a disciplina interdisciplinar na fronteira entre a Ciência da Computação, Inteligência Artificial e Linguística Formal voltada a viabilizar a compreensão, interpretação, análise e geração da linguagem humana em formato computacional.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "text-to-speech (TTS) e part-of-speech (POS)". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, pOS Tagging (*Part-of-Speech Tagging*): Identificação e rotulação sintática da classe gramatical de cada token na oração (Substantivo, Verbo, Adjetivo, Preposição).
 >
 > **Gabarito: A**
-
----
-
-### Teste 313
-**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
-Considere as afirmativas abaixo sobre indexação. I. Entre os propósitos do uso de vocabulários controlados estão a tradução, a consistência e a indicação de relações. A tradução é um meio de converter a linguagem natural em uma linguagem de indexação. II. Na elaboração de vocabulários controlados, a forma verbal dos termos deve prevalecer em relação a outras formas gramaticais como substantivos e adjetivos. III. O processo de seleção de termos para a inclusão em vocabulários controlados envolve a consulta a uma série de fontes e critérios baseados na linguagem natural usada pela literatura da área e pelos usuários, bem como as necessidades e prioridades do sistema. IV. Modificador é um termo usado em um vocabulário controlado para distinguir homógrafos. V. Palavra-chave é uma palavra que ocorre na linguagem natural de um documento que é considerada significativa para indexação e recuperação. Está correto o que se afirma APENAS em
-
-* **A)** I, II e III.
-* **B)** I, III e V.
-* **C)** II, III e IV.
-* **D)** II, III e V.
-* **E)** III, IV e V.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, resultado Produzido: Um radical (*stem*) que frequentemente não é uma palavra válida no léxico da língua portuguesa. — Um lema (*lemma*), que é obrigatoriamente uma palavra canônica válida do vocabulário (ex.: verbos no infinitivo, substantivos no singular masculino).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Pipeline de Pré-Processamento Textual Clássico* deste guia, *Atenção:* Essa técnica é vital para reduzir dimensionalidade e ruído em modelos estatísticos de frequência (*Bag of Words*, TF-IDF); porém, é contraindicada e jamais deve ser aplicada em modelos baseados em Transformers contextuais (BERT, GPT), pois pronomes e preposições são indispensáveis para o cálculo da autoatenção sintática e semântica entre termos na oração. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "I, III e V".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II, III e IV". De acordo com a teoria estudada em *1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos*, cria um vocabulário fixo de \$V\$ palavras a partir da base documental. Cada documento é representado por um vetor esparso de dimensão \$V\$ contendo a contagem simples de ocorrência de cada palavra.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II, III e V". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, abordagem Operacional: Heurística, mecânica e puramente algorítmica. Corta prefixos e sufixos com regras fixas de expressões regulares. — Linguística, sintática e estrutural. Consulta léxicos, dicionários morfológicos oficiais e corpora gramaticais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III, IV e V". De acordo com a teoria estudada em *1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos*, *CBOW (Continuous Bag of Words):* Prevê a palavra central alvo a partir da média dos vetores das palavras contextuais da janela circundante. Mais rápido para treinar e eficiente para vocabulários frequentes.
->
-> **Gabarito: B**
 
 ---
 
@@ -276,32 +276,8 @@ A conversão do vetor de números reais (*logits*) emitido pela rede em tokens t
 ---
 
 ### Teste 314
-**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
-Os achocolatados são misturas compostas por leite desidratado, chocolate em pó, açúcar e aditivos. Em sua composição, o achocolatado X tem 76 gramas de chocolate em pó e 12 gramas de açúcar, que correspondem a 6% da massa total de X. O fabricante do achocolatado X pretende aumentar a massa total do produto acrescentando 50 gramas de leite desidratado e nada mais. Essa modificação na composição do produto fará com que a porcentagem de chocolate em pó, com relação à massa total de X, sofra redução de
-
-* **A)** 7,4%.
-* **B)** 7,5%.
-* **C)** 7,6%.
-* **D)** 7,8%.
-* **E)** 8,0%.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "7,4%". De acordo com a teoria estudada em *2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem*, baixa Temperatura (\$T \to 0\$): Concentra a probabilidade quase inteiramente no token mais provável, gerando respostas determinísticas, rígidas, concisas e factuais.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "7,5%". De acordo com a teoria estudada em *2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem*, alta Temperatura (\$T > 1\$): Suaviza a curva de probabilidades, elevando as chances de tokens menos frequentes serem sorteados, gerando respostas mais criativas, variadas e diversas (com maior propensão a alucinações se excessivamente alta).
-> - **C)** **Correta.** Conforme fundamentado na seção *2.2 Redes Adversárias Generativas (GANs) e Colapso de Modo* deste guia, é a patologia mais célebre no treinamento de GANs. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "7,6%".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "7,8%". De acordo com a teoria estudada em *1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos*, estende o Word2Vec ao representar cada palavra como um saco de n-gramas de caracteres (ex.: a palavra *"tribunal"* com \$n=3\$ é decomposta em `<tr`, `tri`, `rib`, `ibu`, `bun`, `una`, `nal`, `al>`).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "8,0%". De acordo com a teoria estudada em *1.3 A Revolução dos Transformers em PLN: BERT vs. GPT*, a publicação do artigo histórico *"Attention Is All You Need"* (Vaswani et al., 2017) consolidou o mecanismo de Atenção Escalada por Produto Escalar (*Scaled Dot-Product Attention*).
->
-> **Gabarito: C**
-
----
-
-### Teste 315
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
-As arquiteturas de modelos de linguagem de larga escala (Large Language Models - LLM) surgiram recentemente, revolucionando a área de inteligência artificial nas áreas de processamento e geração de texto. A arquitetura desses modelos baseia-se, majoritariamente, nas redes neurais do tipo transformers. Relacione as arquiteturas a seguir com suas características principais: ( ) Utiliza decoders das redes transformer para prever novos tokens a partir de uma sequência, tornando-se ideal para a geração de textos. ( ) Utiliza encoders das redes transformer para "entender" o contexto de frases, tornando-se ideal para classificação de textos. ( ) Utiliza encoders e decoders das redes transformer, sendo adaptável a situações em que seja necessário gerar novos textos ou processar textos para "entender" o contexto das frases. ( ) Em comparação com as outras arquiteturas, 1. BERT 2. GPT 3. T5 tem menor necessidade de fine-tuning para melhora de performance. A relação correta, na ordem apresentada, é
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+As arquiteturas de modelos de linguagem de larga escala (Large Language Models - LLM) surgiram recentemente, revolucionando a área de inteligência artificial nas áreas de processamento e geração de texto. A arquitetura desses modelos baseia-se, majoritariamente, nas redes neurais do tipo transformers. Relacione as arquiteturas a seguir com suas características principais: ( ) Utiliza decoders das redes transformer para prever novos tokens a partir de uma sequência, tornando-se ideal para a geração de textos. ( ) Utiliza encoders das redes transformer para "entender" o contexto de frases, tornando-se 1. BERT ideal para classificação de textos. 2. GPT ( ) Utiliza encoders e decoders das redes transformer, sendo adaptável a situações em 3. T5 que seja necessário gerar novos textos ou processar textos para "entender" o contexto das frases. ( ) Em comparação com as outras arquiteturas, tem menor necessidade de fine-tuning para melhora de performance. A relação correta, na ordem apresentada, é
 
 * **A)** 1 – 3 – 2 – 2.
 * **B)** 2 – 3 – 1 – 3.
@@ -313,25 +289,67 @@ As arquiteturas de modelos de linguagem de larga escala (Large Language Models -
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 3 – 2 – 2". De acordo com a teoria estudada em *2. Inteligência Artificial Generativa*, a IA Generativa fundamenta-se em arquiteturas matemáticas capazes de estimar a densidade de probabilidade \$P(X)\$ subjacente a distribuições empíricas de dados, permitindo a amostragem estocástica para sintetizar novos dados fidedignos e inéditos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 3 – 2 – 2". De acordo com a teoria estudada em *2. Inteligência Artificial Generativa*, a IA Generativa fundamenta-se em arquiteturas matemáticas capazes de estimar a densidade de probabilidade $P(X)$ subjacente a distribuições empíricas de dados, permitindo a amostragem estocástica para sintetizar novos dados fidedignos e inéditos.
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 3 – 1 – 3". De acordo com a teoria estudada em *1.3 A Revolução dos Transformers em PLN: BERT vs. GPT*, opera em regime autoregressivo unidirecional com máscara causal triangular: para preservar a validade da geração contínua, cada token só pode consultar os tokens que o antecederam cronologicamente na sequência (atenção orientada da esquerda para a direita).
 > - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 2 – 1 – 2". De acordo com a teoria estudada em *1.3 A Revolução dos Transformers em PLN: BERT vs. GPT*, ideal para geração criativa e contínua de texto, síntese de minutas processuais, tradução e diálogos interativos.
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 1 – 2 – 2". De acordo com a teoria estudada em *1. Processamento de Linguagem Natural (PLN / NLP)*, o Processamento de Linguagem Natural é a disciplina interdisciplinar na fronteira entre a Ciência da Computação, Inteligência Artificial e Linguística Formal voltada a viabilizar a compreensão, interpretação, análise e geração da linguagem humana em formato computacional.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.3 A Revolução dos Transformers em PLN: BERT vs. GPT* deste guia, pré-treinado via Masked Language Modeling (MLM) (ocultando 15% dos tokens aleatoriamente com a tag `[MASK]` para que o modelo aprenda a reconstruí-los a partir do contexto global) e Next Sentence Prediction (NSP). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "2 – 1 – 3 – 3".
+> - **E)** **Correta.** Conforme fundamentado na seção *1.3 A Revolução dos Transformers em PLN: BERT vs. GPT* deste guia, pré-treinado via Masked Language Modeling (MLM) (ocultando 15% dos tokens aleatoriamente com a tag `[MASK]` para que o modelo aprenda a reconstruí-los a partir do contexto global) e Next Sentence Prediction (NSP). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "2 – 1 – 3 – 3".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 315
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Telecomunicação)**
+As tecnologias celulares móveis têm evoluído rapidamente, impulsionando a conectividade global. Desde as primeiras gerações, que permitiam principalmente chamadas de voz, até as mais recentes, que oferecem alta velocidade, baixa latência e suporte para bilhões de dispositivos conectados. Cada nova geração possui características distintas e traz melhorias significativas, ampliando as possibilidades da comunicação móvel e suas aplicações em diversas áreas da vida cotidiana e industrial. A seguir são apresentadas as tecnologias de telefonia celular com suas respectivas características. 1. 5G 2. UMTS 3. LTE 4. GSM ( ) Utiliza TDMA para chamadas de voz e mensagens SMS com cobertura global. ( ) Baseado em OFDMA, proporciona internet móvel rápida com velocidades de até 100 Mbps. ( ) Usa CDMA para oferecer serviços de dados móveis avançados com velocidades de até 2 Mbps. ( ) Emprega MIMO massivo e mmWave para oferecer velocidades de dados de até 10 Gbps e baixa latência. Assinale a opção que indica a relação correta, na ordem apresentada.
+
+* **A)** 1 – 3 – 2 – 4.
+* **B)** 1 – 4 – 2 – 3.
+* **C)** 4 – 2 – 3 – 1.
+* **D)** 2 – 4 – 3 – 1.
+* **E)** 4 – 3 – 2 – 1.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 3 – 2 – 4". De acordo com a teoria estudada em *2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem*, baixa Temperatura ($T \to 0$): Concentra a probabilidade quase inteiramente no token mais provável, gerando respostas determinísticas, rígidas, concisas e factuais.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 4 – 2 – 3". De acordo com a teoria estudada em *4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)*, oCR Semântico de Documentos Administrativos Legados: Digitalização e leitura ótica inteligente de contratos históricos, certidões com caligrafia manual e processos digitalizados com baixa resolução, onde o modelo de linguagem contextual auxilia o modelo visual na recomposição de termos degradados pelo tempo.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4 – 2 – 3 – 1". De acordo com a teoria estudada em *3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)*, combina o estado interno do mundo com a descrição explícita de uma ou mais Metas/Objetivos. Utiliza algoritmos de busca e planejamento para selecionar trajetórias de ações que conduzam ao estado final desejado.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 4 – 3 – 1". De acordo com a teoria estudada em *2.3 Modelos de Difusão (Diffusion Models)*, tornaram-se o estado da arte na síntese de imagens e mídias de alta fidelidade (DALL-E 3, Midjourney, Stable Diffusion).
+> - **E)** **Correta.** Conforme fundamentado na seção *2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem* deste guia, alta Temperatura ($T > 1$): Suaviza a curva de probabilidades, elevando as chances de tokens menos frequentes serem sorteados, gerando respostas mais criativas, variadas e diversas (com maior propensão a alucinações se excessivamente alta). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "4 – 3 – 2 – 1".
 >
 > **Gabarito: E**
 
 ---
 
 ### Teste 316
-**(FGV – TCE-GO – Analista de Controle Externo Tecnologia da Informacao – 2024)**
+**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Em redes asynchronous transfer mode (ATM), cada célula tem 53 octetos. Como não é necessário rotear as células, elas não possuem cabeçalhos e os octetos têm apenas dados das aplicações. Os protocolos na camada de adaptação ATM definem como empacotar esses dados.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Em redes asynchronous transfer mode (ATM), cada célula tem 53 octetos. Como não é necessário rotear as...". De acordo com a teoria estudada em *2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem*, a conversão do vetor de números reais (*logits*) emitido pela rede em tokens textuais finais é governada por parâmetros de amostragem na camada Softmax.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *2.2 Redes Adversárias Generativas (GANs) e Colapso de Modo* deste guia, gerador ($G$): Mapeia um vetor latente de ruído aleatório $z \sim p_z$ em uma amostra sintética que busca reproduzir com fidelidade a distribuição real dos dados $p_{\text{data}}$. Portanto, a assertiva examinada pela banca (CEBRASPE – STF/2008) viola os preceitos técnicos do tópico.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 317
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
 A inteligência artificial generativa (IA generativa) é um campo da inteligência artificial que se concentra na capacidade de criar novos conteúdos e ideias de forma autônoma. Em vez de simplesmente responder a comandos ou fornecer respostas predefinidas, uma IA generativa tem a capacidade de gerar conteúdos originais em uma variedade de formas, como texto, imagens, áudio e vídeo. São exemplos de categorias amplas de modelos de IA generativa
 
 * **A)** Autocodificadores variacionais e Multilayer Perceptrons.
 * **B)** Transformadores e Algoritmos de retropropagação.
 * **C)** Autocodificadores variacionais e Redes Adversariais.
 * **D)** Algoritmos de retropropagação e ChatGPT.
-* **E)** Gemini e Multilayer Perceptrons.
+* **E)** Gemini e Multilayer Perceptrons. Aquisição de Bens e Serviços de TI
 
 ---
 
@@ -339,33 +357,9 @@ A inteligência artificial generativa (IA generativa) é um campo da inteligênc
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Autocodificadores variacionais e Multilayer Perceptrons". De acordo com a teoria estudada em *4. Modelos Multimodais e Aplicações no Setor Público*, a Multimodalidade representa a capacidade dos sistemas modernos de IA de ingerir, alinhar, correlacionar e sintetizar simultaneamente informações provenientes de múltiplas modalidades sensoriais (texto, imagem, áudio e vídeo).
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Transformadores e Algoritmos de retropropagação". De acordo com a teoria estudada em *2.2 Redes Adversárias Generativas (GANs) e Colapso de Modo*, o Gerador passa então a produzir repetidamente e sempre a mesma saída idêntica, ignorando a riqueza e variedade do restante do espaço amostral.
-> - **C)** **Correta.** Conforme fundamentado na seção *2. Inteligência Artificial Generativa* deste guia, a IA Generativa fundamenta-se em arquiteturas matemáticas capazes de estimar a densidade de probabilidade \$P(X)\$ subjacente a distribuições empíricas de dados, permitindo a amostragem estocástica para sintetizar novos dados fidedignos e inéditos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "Autocodificadores variacionais e Redes Adversariais".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Algoritmos de retropropagação e ChatGPT". De acordo com a teoria estudada em *2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem*, baixa Temperatura (\$T \to 0\$): Concentra a probabilidade quase inteiramente no token mais provável, gerando respostas determinísticas, rígidas, concisas e factuais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gemini e Multilayer Perceptrons". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, nER (*Named Entity Recognition* - Reconhecimento de Entidades Nomeadas): Identificação de termos específicos no texto estruturados em categorias predefinidas de interesse do órgão (Pessoas, Empresas/Organizações, Valores Monetários, Processos, Datas, CPFs e CNPJs), utilizando a notação padronizada BIO: `B-` (*Beginning*, início da entidade), `I-` (*Inside*, continuação interna da entidade) e `O` (*Outside*, fora de qualquer entidade).
->
-> **Gabarito: C**
-
----
-
-### Teste 317
-**(FGV – TRT-24 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2025)**
-O analista Raimundo sabe que a indução de árvores de decisão é uma das formas mais simples, e ainda assim mais bem sucedidas, de aprendizagem de máquina. No entanto, ao aplicá-la em alguns problemas da empresa em que atua, o algoritmo de aprendizagem-em-árvore-de-decisão gera uma grande árvore quando realmente não há padrão a ser encontrado nos dados. O nome do problema encontrado por Raimundo é
-
-* **A)** suposição de estacionaridade.
-* **B)** poda de árvore de decisão.
-* **C)** superadaptação.
-* **D)** hipótese nula.
-* **E)** hiperárvore.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "suposição de estacionaridade". De acordo com a teoria estudada em *2.2 Redes Adversárias Generativas (GANs) e Colapso de Modo*, discriminador (\$D\$): Classificador binário que recebe uma amostra (genuína ou sintética) e emite a probabilidade \$D(x) \in [0, 1]\$ de a imagem ser real.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "poda de árvore de decisão". De acordo com a teoria estudada em *3.2 Propriedades dos Ambientes de Tarefa*, no sequencial, a decisão atual dita as oportunidades de todas as etapas seguintes (ex.: partidas de xadrez, direção autônoma).
-> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Propriedades dos Ambientes de Tarefa* deste guia, estático vs. Dinâmico: É estático se o ambiente não se altera enquanto o agente delibera; é dinâmico se o mundo continua evoluindo e mudando enquanto o algoritmo processa sua decisão. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "superadaptação".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "hipótese nula". De acordo com a teoria estudada em *1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos*, apoiam-se na célebre Hipótese Distribucional de J. R. Firth (1957): *"Você conhecerá uma palavra pela companhia que ela mantém"*. Termos que coocorrem em contextos vizinhos similares situam-se próximos geometricamente no espaço vetorial.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "hiperárvore". De acordo com a teoria estudada em *2. Inteligência Artificial Generativa*, a IA Generativa fundamenta-se em arquiteturas matemáticas capazes de estimar a densidade de probabilidade \$P(X)\$ subjacente a distribuições empíricas de dados, permitindo a amostragem estocástica para sintetizar novos dados fidedignos e inéditos.
+> - **C)** **Correta.** Conforme fundamentado na seção *2. Inteligência Artificial Generativa* deste guia, a IA Generativa fundamenta-se em arquiteturas matemáticas capazes de estimar a densidade de probabilidade $P(X)$ subjacente a distribuições empíricas de dados, permitindo a amostragem estocástica para sintetizar novos dados fidedignos e inéditos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "Autocodificadores variacionais e Redes Adversariais".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Algoritmos de retropropagação e ChatGPT". De acordo com a teoria estudada em *2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem*, baixa Temperatura ($T \to 0$): Concentra a probabilidade quase inteiramente no token mais provável, gerando respostas determinísticas, rígidas, concisas e factuais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gemini e Multilayer Perceptrons. Aquisição de Bens e Serviços de TI". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, nER (*Named Entity Recognition* - Reconhecimento de Entidades Nomeadas): Identificação de termos específicos no texto estruturados em categorias predefinidas de interesse do órgão (Pessoas, Empresas/Organizações, Valores Monetários, Processos, Datas, CPFs e CNPJs), utilizando a notação padronizada BIO: `B-` (*Beginning*, início da entidade), `I-` (*Inside*, continuação interna da entidade) e `O` (*Outside*, fora de qualquer entidade).
 >
 > **Gabarito: C**
 
@@ -441,74 +435,68 @@ A arquitetura e os algoritmos do agente são diretamente moldados pelas caracter
 ---
 
 ### Teste 318
-**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
-Considere as afirmativas a seguir: I. Tesauros são vocabulários controlados formados por termos-descritores semanticamente relacionados que atuam como instrumentos de controle terminológico. Os tesauros podem ser estruturados hierarquicamente (gênero-espécie e todo-parte) e associativamente (aproximação semântica). II. Os tesauros não são utilizados somente pelos especialistas da informação, no momento da indexação, mas também por usuários da informação, no momento da busca de documentos. Ocorre que
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Civil)**
+Para o licenciamento ambiental de uma obra, dois documentos que são produzidos: o EIA e o RIMA. A principal diferença entre eles é que
 
-* **A)** ambas estão corretas; os tesauros são utilizados para indexar e recuperar informações por meio de seu conteúdo.
-* **B)** ambas estão incorretas; as relações em um tesauro são sempre de reciprocidade e o vocabulário é usado apenas na hora de indexar.
-* **C)** a primeira está incorreta; os termos em um tesauro são relacionados sintaticamente.
-* **D)** a segunda está incorreta; os tesauros e outros instrumentos de indexação são de uso exclusivo dos bibliotecários.
-* **E)** a primeira está incompleta; os tesauros são também especificações formais para descrever estruturas conceituais de domínios específicos.
+* **A)** o EIA se destina a obras de grande porte, enquanto o RIMA se destina a obras de grande porte.
+* **B)** o EIA deve ser elaborado antes da execução da obra, enquanto o RIMA é elaborado após a conclusão da obra.
+* **C)** o EIA é mais técnico e complexo, enquanto o RIMA é mais conciso e com linguajar mais adequado ao público geral.
+* **D)** o EIA é elaborado por especialistas em meio ambiente, enquanto o RIMA é realizado por especialistas em engenharia civil.
+* **E)** o EIA aborda os aspectos mais gerais de uma obra, enquanto o RIMA aborda aspectos mais específicos e que necessitam um melhor detalhamento.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)* deste guia, consegue operar com excelência em ambientes parcialmente observáveis, deduzindo informações que não estão diretamente acessíveis nos sensores naquele instante. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "ambas estão corretas; os tesauros são utilizados para indexar e recuperar informações por meio de seu conteúdo".
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "ambas estão incorretas; as relações em um tesauro são sempre de reciprocidade e o vocabulário é usado apenas na...". De acordo com a teoria estudada em *3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)*, decide sua ação baseando-se estritamente na percepção atual imediata por meio de regras de Condição-Ação (\$if \text{ condição } then \text{ ação}\$).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a primeira está incorreta; os termos em um tesauro são relacionados sintaticamente". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, *Atenção:* Essa técnica é vital para reduzir dimensionalidade e ruído em modelos estatísticos de frequência (*Bag of Words*, TF-IDF); porém, é contraindicada e jamais deve ser aplicada em modelos baseados em Transformers contextuais (BERT, GPT), pois pronomes e preposições são indispensáveis para o cálculo da autoatenção sintática e semântica entre termos na oração.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a segunda está incorreta; os tesauros e outros instrumentos de indexação são de uso exclusivo dos bibliotecários". De acordo com a teoria estudada em *3.1 O Framework PEAS e Definição de Agente Racional*, s (Sensors / Sensores): Os instrumentos de entrada pelos quais o agente recolhe dados do ambiente.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a primeira está incompleta; os tesauros são também especificações formais para descrever estruturas conceituais de...". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, nER (*Named Entity Recognition* - Reconhecimento de Entidades Nomeadas): Identificação de termos específicos no texto estruturados em categorias predefinidas de interesse do órgão (Pessoas, Empresas/Organizações, Valores Monetários, Processos, Datas, CPFs e CNPJs), utilizando a notação padronizada BIO: `B-` (*Beginning*, início da entidade), `I-` (*Inside*, continuação interna da entidade) e `O` (*Outside*, fora de qualquer entidade).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o EIA se destina a obras de grande porte, enquanto o RIMA se destina a obras de grande porte". De acordo com a teoria estudada em *4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)*, auditoria de Obras e Engenharia Pública: Uso de Modelos de Visão-Linguagem (VLMs) para inspecionar fotografias de vistorias técnicas, imagens de satélite multiespectrais e vídeos capturados por drones, cruzando automaticamente evidências visuais com o cronograma físico-financeiro e as planilhas orçamentárias de medição da obra pública.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o EIA deve ser elaborado antes da execução da obra, enquanto o RIMA é elaborado após a conclusão da obra". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, *Atenção:* Essa técnica é vital para reduzir dimensionalidade e ruído em modelos estatísticos de frequência (*Bag of Words*, TF-IDF); porém, é contraindicada e jamais deve ser aplicada em modelos baseados em Transformers contextuais (BERT, GPT), pois pronomes e preposições são indispensáveis para o cálculo da autoatenção sintática e semântica entre termos na oração.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Propriedades dos Ambientes de Tarefa* deste guia, estático vs. Dinâmico: É estático se o ambiente não se altera enquanto o agente delibera; é dinâmico se o mundo continua evoluindo e mudando enquanto o algoritmo processa sua decisão. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "o EIA é mais técnico e complexo, enquanto o RIMA é mais conciso e com linguajar mais adequado ao público geral".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o EIA é elaborado por especialistas em meio ambiente, enquanto o RIMA é realizado por especialistas em engenharia...". De acordo com a teoria estudada em *3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)*, decide sua ação baseando-se estritamente na percepção atual imediata por meio de regras de Condição-Ação ($if \text{ condição } then \text{ ação}$).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o EIA aborda os aspectos mais gerais de uma obra, enquanto o RIMA aborda aspectos mais específicos e que...". De acordo com a teoria estudada em *4.1 Alinhamento Semântico Multimodal e a Arquitetura CLIP*, para classificar uma foto inédita, projeta-se o embedding da imagem e compara-se sua similaridade de cosseno contra os embeddings textuais de vários prompts candidatos gerados dinamicamente (ex.: *"uma foto de [obra concluída]"*, *"uma foto de [obra abandonada]"*).
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
 ### Teste 319
-**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
-Observe o esquema a seguir. Base de Dados B “Orçamento público” “Fiscalização financeira” “Controle externo” Base de Dados A “Orçamento público − Fiscalização financeira − Controle externo” Um usuário interessado no assunto “Controle externo e Fiscalização financeira do Orçamento público” faz uma busca usando termos autorizados, conforme indicado no esquema, em duas bases de dados que utilizam diferentes sistemas de indexação. O resultado da busca na base A foi mais consistente e relevante, enquanto o resultado da base B trouxe um número maior de documentos, porque a base
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+A análise de componentes principais (Principal Component Analysis - PCA) é uma técnica de redução de dimensionalidade de dados utilizada em diversas aplicações, tais como em compressão de imagens e em processamento de linguagem natural. Em relação à análise de componentes principais, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas. ( ) Permite a identificação de correlações e de estruturas de menor dimensionalidade na distribuição espacial dos dados, caracterizadas pelas direções onde há maior variância. ( ) Envolve o cálculo de autovalores e autovetores de matrizes de covariâncias, determinando-se as componentes principais das distribuições de dados. ( ) É adequada para identificar correlações não-lineares entre os dados de um conjunto de alta dimensionalidade, projetando estruturas em espaços vetoriais de menores dimensões. As afirmativas são, respectivamente,
 
-* **A)** A usa a indexação alfabética de assuntos, que amplia as possibilidades de pesquisa.
-* **B)** B usa a indexação baseada na linguagem natural, que permite recuperar itens mais específicos.
-* **C)** B usa a indexação automática, que recupera muitos itens devido à ambiguidade dos termos.
-* **D)** B usa a indexação pós-coordenada, que aumenta a revocação e diminui a precisão.
-* **E)** A usa a indexação pré-coordenada, que combina os termos no momento da busca e é mais precisa.
+* **A)** V – F – V.
+* **B)** F – V – V.
+* **C)** F – F – V.
+* **D)** V – V – F.
+* **E)** V – F – F.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A usa a indexação alfabética de assuntos, que amplia as possibilidades de pesquisa". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, pOS Tagging (*Part-of-Speech Tagging*): Identificação e rotulação sintática da classe gramatical de cada token na oração (Substantivo, Verbo, Adjetivo, Preposição).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "B usa a indexação baseada na linguagem natural, que permite recuperar itens mais específicos". De acordo com a teoria estudada em *2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem*, alta Temperatura (\$T > 1\$): Suaviza a curva de probabilidades, elevando as chances de tokens menos frequentes serem sorteados, gerando respostas mais criativas, variadas e diversas (com maior propensão a alucinações se excessivamente alta).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "B usa a indexação automática, que recupera muitos itens devido à ambiguidade dos termos". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, *Vantagem Crítica:* Palavras conhecidas permanecem unificadas em um único token, enquanto termos raros, neologismos ou jargões jurídicos são decompostos em morfemas inteligíveis (ex.: *"anticonstitucionalidade"* \$\rightarrow\$ `anti` + `constitucional` + `idade`), eliminando completamente o problema de palavras fora do vocabulário (*Out-Of-Vocabulary - OOV*).
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Pipeline de Pré-Processamento Textual Clássico* deste guia, aplica as mesmas regras de corte sem considerar se a palavra funciona como verbo, substantivo ou adjetivo. — Analisa a classe gramatical (POS) no contexto da oração para extrair a forma de dicionário correta. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "B usa a indexação pós-coordenada, que aumenta a revocação e diminui a precisão".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A usa a indexação pré-coordenada, que combina os termos no momento da busca e é mais precisa". De acordo com a teoria estudada em *3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)*, combina o estado interno do mundo com a descrição explícita de uma ou mais Metas/Objetivos. Utiliza algoritmos de busca e planejamento para selecionar trajetórias de ações que conduzam ao estado final desejado.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – V". De acordo com a teoria estudada em *2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem*, alta Temperatura ($T > 1$): Suaviza a curva de probabilidades, elevando as chances de tokens menos frequentes serem sorteados, gerando respostas mais criativas, variadas e diversas (com maior propensão a alucinações se excessivamente alta).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *1. Processamento de Linguagem Natural (PLN / NLP)*, o Processamento de Linguagem Natural é a disciplina interdisciplinar na fronteira entre a Ciência da Computação, Inteligência Artificial e Linguística Formal voltada a viabilizar a compreensão, interpretação, análise e geração da linguagem humana em formato computacional.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem*, em vez de fixar uma contagem estática $k$, seleciona dinamicamente o menor conjunto de tokens cuja soma cumulativa de probabilidades atinja o limiar estipulado $p$ (ex.: $p = 0.90$).
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Pipeline de Pré-Processamento Textual Clássico* deste guia, *Atenção:* Essa técnica é vital para reduzir dimensionalidade e ruído em modelos estatísticos de frequência (*Bag of Words*, TF-IDF); porém, é contraindicada e jamais deve ser aplicada em modelos baseados em Transformers contextuais (BERT, GPT), pois pronomes e preposições são indispensáveis para o cálculo da autoatenção sintática e semântica entre termos na oração. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "V – V – F".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)*, auditoria de Obras e Engenharia Pública: Uso de Modelos de Visão-Linguagem (VLMs) para inspecionar fotografias de vistorias técnicas, imagens de satélite multiespectrais e vídeos capturados por drones, cruzando automaticamente evidências visuais com o cronograma físico-financeiro e as planilhas orçamentárias de medição da obra pública.
 >
 > **Gabarito: D**
 
 ---
 
 ### Teste 320
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Desenvolvimento de Sistemas – 2023)**
-Em computação, o sistema numérico hexadecimal ou base 16 é representado por todos os símbolos do conjunto:
+**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
+No processamento de linguagem natural, para transformar texto bruto em um formato mais estruturado e padronizado, utilizam-se técnicas como a remoção de pontuação, a normalização dos dados, a tokenização e a eliminação de stop words.
 
-* **A)** {0, 1}
-* **B)** {0, 1, 2, 3, 4, 5, 6, 7}
-* **C)** {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-* **D)** {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F}
-* **E)** {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, G, H, I, J}
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "{0, 1}". De acordo com a teoria estudada em *1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos*, cria um vocabulário fixo de \$V\$ palavras a partir da base documental. Cada documento é representado por um vetor esparso de dimensão \$V\$ contendo a contagem simples de ocorrência de cada palavra.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "{0, 1, 2, 3, 4, 5, 6, 7}". De acordo com a teoria estudada em *3.2 Propriedades dos Ambientes de Tarefa*, determinístico vs. Estocástico: É determinístico se o próximo estado do sistema é completamente definido pelo estado atual e pela ação empregada pelo agente. Se houver aleatoriedade, incerteza ou ruído externo, é estocástico.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}". De acordo com a teoria estudada em *3.1 O Framework PEAS e Definição de Agente Racional*, na ciência da computação clássica formalizada por Stuart Russell e Peter Norvig, um Agente é qualquer entidade dotada de sensores para apreender percepções e de atuadores para intervir no mundo.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Pipeline de Pré-Processamento Textual Clássico* deste guia, algoritmos como BPE (*Byte-Pair Encoding*), WordPiece e SentencePiece começam na granularidade de caracteres e unem progressivamente pares de símbolos estatisticamente frequentes na base de treino. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F}".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, G, H, I, J}". De acordo com a teoria estudada em *3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)*, substitui metas binárias por uma Função de Utilidade contínua (\$U(s) \in \mathbb{R}\$) que mensura formalmente o grau numérico de desejabilidade de cada estado do mundo.
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Pipeline de Pré-Processamento Textual Clássico* deste guia, limpeza e Normalização: Conversão de caracteres alfanuméricos para minúsculas (*lowercasing*), remoção de tags de marcação (HTML/XML), eliminação de caracteres de controle invisíveis e normalização de diacríticos e acentuações via formatos Unicode (NFC/NFD). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRF 6ª/2025) ao afirmar que "No processamento de linguagem natural, para transformar texto bruto em um formato mais estruturado e...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1. Processamento de Linguagem Natural (PLN / NLP)*, segundo a qual o Processamento de Linguagem Natural é a disciplina interdisciplinar na fronteira entre a Ciência da Computação, Inteligência Artificial e Linguística Formal voltada a viabilizar a compreensão, interpretação, análise e geração da linguagem humana em formato computacional.
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
@@ -545,24 +533,24 @@ O marco fundamental que consolidou a visão-linguagem moderna foi o modelo **CLI
 ---
 
 ### Teste 321
-**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
-Acerca de modelos preditivos e descritivos, assinale a opção correta.
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+O sckit-learn suporta o processamento de algoritmos de aprendizado de máquina do tipo supervisionado como, por exemplo,
 
-* **A)** Com um modelo não supervisionado consegue-se construir um estimador a partir de exemplos rotulados.
-* **B)** Um modelo supervisionado refere-se à identificação de informações relevantes nos dados sem a presença de um elemento externo para orientar o aprendizado.
-* **C)** Com o uso de técnicas do modelo não supervisionado, consegue-se prever com exatidão o resultado de uma eleição utilizando pesquisas como parâmetro.
-* **D)** A análise de agrupamento pertence ao paradigma de aprendizado não supervisionado, em que o aprendizado é dirigido aos dados, não requerendo conhecimento prévio sobre as suas classes ou categorias.
-* **E)** Tendo como objetivo encontrar padrões ou tendências para auxiliar o entendimento dos dados, deve-se usar técnicas do modelo supervisionado.
+* **A)** o SVM e a clusterização.
+* **B)** o BIRCH e o vizinho mais próximo.
+* **C)** o PCA e os gaussian mixture models.
+* **D)** o naive bayes e as árvores de decisão.
+* **E)** o modelo cúbico e a densidade estimada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Com um modelo não supervisionado consegue-se construir um estimador a partir de exemplos rotulados". De acordo com a teoria estudada em *2.1 Fundamentos e Arquiteturas Generativas*, enquanto a IA Discriminativa calcula \$P(y \mid X)\$ para separar instâncias em classes, a IA Generativa modela os padrões intrínsecos de formação dos dados. As três principais famílias contemporâneas são: GANs, Modelos de Difusão e LLMs Autoregressivos.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Um modelo supervisionado refere-se à identificação de informações relevantes nos dados sem a presença de um...". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, nER (*Named Entity Recognition* - Reconhecimento de Entidades Nomeadas): Identificação de termos específicos no texto estruturados em categorias predefinidas de interesse do órgão (Pessoas, Empresas/Organizações, Valores Monetários, Processos, Datas, CPFs e CNPJs), utilizando a notação padronizada BIO: `B-` (*Beginning*, início da entidade), `I-` (*Inside*, continuação interna da entidade) e `O` (*Outside*, fora de qualquer entidade).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Com o uso de técnicas do modelo não supervisionado, consegue-se prever com exatidão o resultado de uma eleição...". De acordo com a teoria estudada em *4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)*, auditoria de Obras e Engenharia Pública: Uso de Modelos de Visão-Linguagem (VLMs) para inspecionar fotografias de vistorias técnicas, imagens de satélite multiespectrais e vídeos capturados por drones, cruzando automaticamente evidências visuais com o cronograma físico-financeiro e as planilhas orçamentárias de medição da obra pública.
-> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Alinhamento Semântico Multimodal e a Arquitetura CLIP* deste guia, o CLIP dispensa retreinamento supervisionado para novas classes. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "A análise de agrupamento pertence ao paradigma de aprendizado não supervisionado, em que o aprendizado é dirigido...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tendo como objetivo encontrar padrões ou tendências para auxiliar o entendimento dos dados, deve-se usar técnicas...". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, *Atenção:* Essa técnica é vital para reduzir dimensionalidade e ruído em modelos estatísticos de frequência (*Bag of Words*, TF-IDF); porém, é contraindicada e jamais deve ser aplicada em modelos baseados em Transformers contextuais (BERT, GPT), pois pronomes e preposições são indispensáveis para o cálculo da autoatenção sintática e semântica entre termos na oração.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o SVM e a clusterização". De acordo com a teoria estudada em *3.2 Propriedades dos Ambientes de Tarefa*, estático vs. Dinâmico: É estático se o ambiente não se altera enquanto o agente delibera; é dinâmico se o mundo continua evoluindo e mudando enquanto o algoritmo processa sua decisão.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o BIRCH e o vizinho mais próximo". De acordo com a teoria estudada em *3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)*, combina o estado interno do mundo com a descrição explícita de uma ou mais Metas/Objetivos. Utiliza algoritmos de busca e planejamento para selecionar trajetórias de ações que conduzam ao estado final desejado.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o PCA e os gaussian mixture models". De acordo com a teoria estudada em *2.3 Modelos de Difusão (Diffusion Models)*, tornaram-se o estado da arte na síntese de imagens e mídias de alta fidelidade (DALL-E 3, Midjourney, Stable Diffusion).
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Propriedades dos Ambientes de Tarefa* deste guia, no sequencial, a decisão atual dita as oportunidades de todas as etapas seguintes (ex.: partidas de xadrez, direção autônoma). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "o naive bayes e as árvores de decisão".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o modelo cúbico e a densidade estimada". De acordo com a teoria estudada em *2. Inteligência Artificial Generativa*, a IA Generativa fundamenta-se em arquiteturas matemáticas capazes de estimar a densidade de probabilidade $P(X)$ subjacente a distribuições empíricas de dados, permitindo a amostragem estocástica para sintetizar novos dados fidedignos e inéditos.
 >
 > **Gabarito: D**
 

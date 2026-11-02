@@ -135,72 +135,66 @@ As métricas DORA resultam de quase uma década de pesquisas empíricas e rigor 
 ---
 
 ### Teste 171
-**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
-Com relação ao ciclo de vida do produto, segundo o PMBOK, considere: I. Geralmente o ciclo de vida de um projeto está contido em um ou mais ciclos de vida do produto. O ciclo de vida do produto consiste em fases do produto, geralmente sequenciais e não sobrepostas, determinadas pela necessidade de produção e controle da organização, sendo que a última fase do ciclo de vida de um produto é a entrega para o cliente final. II. Vários aspectos do ciclo de vida do produto prestam-se à execução como projetos, por exemplo, a realização de um estudo de viabilidade, a condução de pesquisas de mercado, a execução de campanhas publicitárias, a instalação de um produto, realização de dinâmicas de grupo e de avaliações de produtos em mercados de teste. Em cada um destes exemplos, o ciclo de vida do projeto difere do ciclo de vida do produto. III. Quando a saída do projeto está relacionada a um produto, existem muitas relações possíveis. Por exemplo, o desenvolvimento de um novo produto pode ser um projeto em si. Ao mesmo tempo, um produto existente pode se beneficiar de um projeto para o acréscimo de novas funções ou características. Está correto o que se afirma em
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
+Uma empresa pública contratou serviços de desenvolvimento de software, estabelecendo no contrato cláusulas de nível de serviço (SLA) com penalidade e especificações claras sobre o produto final, assim como condições para o seu aceite. Ao final do prazo, a empresa percebeu que o produto final não atendia integralmente às especificações técnicas acordadas. Visando proteger os interesses da empresa e o funcionamento do software, indique a medida correta que protege os interesses da empresa e o funcionamento do software.
 
-* **A)** II e III, apenas.
-* **B)** I, II e III.
-* **C)** I e III, apenas.
-* **D)** I, apenas.
-* **E)** III, apenas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *3.5 Feature Flags / Feature Toggles e Dark Launching* deste guia, um código pode estar rodando em produção com a funcionalidade desligada no servidor de configuração remota, sendo ativada sob demanda sem a necessidade de novo pipeline de deploy. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "II e III, apenas".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1. Fundamentos da Cultura DevOps*, a equipe de Desenvolvimento (Dev) é cobrada por velocidade de entrega, lançamento contínuo de novas funcionalidades e mudanças dinâmicas no sistema.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *1.4 As Quatro Métricas DORA (DevOps Research and Assessment)*, as métricas DORA resultam de quase uma década de pesquisas empíricas e rigor estatístico conduzidas pelo grupo fundado por Nicole Forsgren, Jez Humble e Gene Kim (posteriormente incorporado ao Google Cloud).
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.2 O Framework C.A.L.M.S.*, l (Lean - Princípios Enxutos): Aplicação dos princípios da manufatura enxuta (Sistema Toyota de Produção) ao ciclo de software: redução drástica de desperdícios, entregas frequentes em lotes pequenos (*small batch sizes*), redução do tempo de fila e limitação estrita do trabalho em progresso (*WIP - Work in Progress*).
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1.3 As Três Vias do DevOps*, a Segunda Via (O Princípio do Feedback): Busca encurtar e amplificar continuamente os ciclos de retorno da direita (Operações e Clientes em Produção) para a esquerda (Desenvolvimento).
->
-> **Gabarito: A**
-
----
-
-### Teste 172
-**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
-Dado os três conceitos básicos sobre o ITIL v4 abaixo, assinale a alternativa que corresponda respectivamente a denominação referente a cada um desses conceitos: 1. Acréscimo, modificação ou remoção de qualquer elemento que possa afetar direta ou indiretamente os serviços. 2. É uma interrupção não planejada de um serviço de TI ou uma redução da qualidade de um serviço de TI. 3. Trata-se de uma chamada para a ação de serviço que tenha sido acordada como parte normal da entrega de serviço.
-
-* **A)** 1.INCIDENTE - 2.MUDANÇA - 3.REQUISIÇÃO de SERVIÇO
-* **B)** 1.MUDANÇA - 2.INCIDENTE - 3.REQUISIÇÃO de SERVIÇO
-* **C)** 1.INCIDENTE - 2.REQUISIÇÃO de SERVIÇO - 3.MUDANÇA
-* **D)** 1.MUDANÇA - 2.REQUISIÇÃO de SERVIÇO - 3.INCIDENTE
-* **E)** 1.REQUISIÇÃO de SERVIÇO - 2.INCIDENTE - 3.MUDANÇA
+* **A)** Dispensar o pagamento de penalidades, considerando que houve bastante trabalho feito pela contratada, e esperar uma nova versão.
+* **B)** Exigir a revisão do produto sem custos adicionais, baseando-se nas cláusulas de nível de serviço estipuladas.
+* **C)** Celebrar novos termos aditivos para nova versão do software, independente do aceite da contratada, para estender o prazo, visto que houve esforço por parte da contratada.
+* **D)** Aceitar o produto como está, evitando conflitos judiciais e futuras complicações administrativas.
+* **E)** Rescindir o contrato imediatamente, aplicando as máximas penalidades possíveis devido ao não cumprimento das especificações.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1.INCIDENTE - 2.MUDANÇA - 3.REQUISIÇÃO de SERVIÇO". De acordo com a teoria estudada em *3.5 Feature Flags / Feature Toggles e Dark Launching*, dark Launching: O código novo é implantado em produção e passa a ser executado em segundo plano de forma invisível aos usuários (ex.: para cada requisição recebida, o sistema envia uma chamada assíncrona ao novo algoritmo fiscal em paralelo, comparando os resultados e medindo o impacto em banco de dados sem exibir as saídas na interface do usuário).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.4 As Quatro Métricas DORA (DevOps Research and Assessment)* deste guia, time to Restore Service (MTTR): Stability (Estabilidade) — Tempo médio necessário para restabelecer a operação normal do serviço quando ocorre um incidente de indisponibilidade em produção. — Menos de 1 hora (recuperação ágil via rollback ou fix-forward). — Mais de 1 semana a 1 mês. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "1.MUDANÇA - 2.INCIDENTE - 3.REQUISIÇÃO de SERVIÇO".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1.INCIDENTE - 2.REQUISIÇÃO de SERVIÇO - 3.MUDANÇA". De acordo com a teoria estudada em *2.3 Implantação Contínua (Continuous Deployment): Promoção Automática para Produção*, toda modificação que passa com sucesso em 100% dos estágios automatizados do pipeline (CI + Staging + Gates de Segurança e Qualidade) é promovida de forma instantânea e automática para os servidores de produção.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1.MUDANÇA - 2.REQUISIÇÃO de SERVIÇO - 3.INCIDENTE". De acordo com a teoria estudada em *1.3 As Três Vias do DevOps*, formalizadas por Gene Kim, Kevin Behr e George Spafford nas obras seminais *The Phoenix Project* e *The DevOps Handbook*, as Três Vias estruturam as práticas dinâmicas da entrega contínua.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1.REQUISIÇÃO de SERVIÇO - 2.INCIDENTE - 3.MUDANÇA". De acordo com a teoria estudada em *1.2 O Framework C.A.L.M.S.*, l (Lean - Princípios Enxutos): Aplicação dos princípios da manufatura enxuta (Sistema Toyota de Produção) ao ciclo de software: redução drástica de desperdícios, entregas frequentes em lotes pequenos (*small batch sizes*), redução do tempo de fila e limitação estrita do trabalho em progresso (*WIP - Work in Progress*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Dispensar o pagamento de penalidades, considerando que houve bastante trabalho feito pela contratada, e esperar...". De acordo com a teoria estudada em *3.3 Blue-Green Deployment (Azul-Verde)*, fluxo Operacional: A nova versão do software ($V2$) é instalada no ambiente Green. Nesse ambiente isolado, a equipe executa testes de fumaça (*smoke tests*), testes de carga e validações funcionais completas sem impactar os usuários reais.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.4 As Quatro Métricas DORA (DevOps Research and Assessment)* deste guia, time to Restore Service (MTTR): Stability (Estabilidade) — Tempo médio necessário para restabelecer a operação normal do serviço quando ocorre um incidente de indisponibilidade em produção. — Menos de 1 hora (recuperação ágil via rollback ou fix-forward). — Mais de 1 semana a 1 mês. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "Exigir a revisão do produto sem custos adicionais, baseando-se nas cláusulas de nível de serviço estipuladas".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Celebrar novos termos aditivos para nova versão do software, independente do aceite da contratada, para estender o...". De acordo com a teoria estudada em *3.1 Recreate (Recriação)*, mecanismo: Todas as instâncias da versão antiga ($V1$) são terminadas simultaneamente antes que qualquer instância da nova versão ($V2$) seja inicializada.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aceitar o produto como está, evitando conflitos judiciais e futuras complicações administrativas". De acordo com a teoria estudada em *1. Fundamentos da Cultura DevOps*, a cultura DevOps surgiu como uma resposta essencial à ineficiência e aos conflitos crônicos entre os modelos tradicionais de desenvolvimento de software e de operação de infraestrutura.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Rescindir o contrato imediatamente, aplicando as máximas penalidades possíveis devido ao não cumprimento das...". De acordo com a teoria estudada em *1.4 As Quatro Métricas DORA (DevOps Research and Assessment)*, métrica DORA: Dimensão Operacional — Definição Precisa — Nível de Elite / Alta Performance — Nível Baixo.
 >
 > **Gabarito: B**
 
 ---
 
-### Teste 173
-**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
-Considere: I. Aceitar mudanças de requisitos, mesmo no fim do desenvolvimento. Processos ágeis se adequam a mudanças, para que o cliente possa tirar vantagens competitivas. II. Pessoas relacionadas a negócios e desenvolvedores devem trabalhar separadamente durante todo o curso do projeto. III. O método mais eficiente e eficaz de transmitir informações para e por dentro de um time de desenvolvimento, é por meio do correio eletrônico. IV. A maior prioridade é satisfazer o cliente através da entrega adiantada e contínua de software de valor. É coerente com os princípios que embasam o manifesto ágil (desenvolvimento ágil de software) o que consta APENAS em
+### Teste 172
+**(CEBRASPE – STF – 2013 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Teste contínuo é uma prática do DevOps que, além de permitir a diminuição dos custos finais do teste, ajuda as equipes de desenvolvimento a balancear qualidade e velocidade.
 
-* **A)** I, II e III.
-* **B)** I e III.
-* **C)** I e IV.
-* **D)** II e IV.
-* **E)** III e IV.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.4 As Quatro Métricas DORA (DevOps Research and Assessment)*, time to Restore Service (MTTR): Stability (Estabilidade) — Tempo médio necessário para restabelecer a operação normal do serviço quando ocorre um incidente de indisponibilidade em produção. — Menos de 1 hora (recuperação ágil via rollback ou fix-forward). — Mais de 1 semana a 1 mês.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *1. Fundamentos da Cultura DevOps*, a equipe de Desenvolvimento (Dev) é cobrada por velocidade de entrega, lançamento contínuo de novas funcionalidades e mudanças dinâmicas no sistema.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 As Três Vias do DevOps* deste guia, a Primeira Via (O Princípio do Fluxo): Tem por objetivo acelerar a velocidade com que o valor transita da esquerda (Desenvolvimento e Requisitos) para a direita (Operações e Produção). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "I e IV".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e IV". De acordo com a teoria estudada em *2.2 Entrega Contínua (Continuous Delivery): O Release Candidate Permanente*, característica Definitiva: O software é mantido em um estado permanentemente pronto para entrar em produção (*deployable at any time*).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III e IV". De acordo com a teoria estudada em *1.1 Eliminação do Muro da Confusão e Responsabilidade Compartilhada*, o DevOps quebra essa barreira através da fusão de processos, práticas colaborativas e ferramentas automatizadas, estabelecendo o princípio da responsabilidade compartilhada de ponta a ponta (*"You build it, you run it"*, sintetizado por Werner Vogels, CTO da Amazon).
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1. Fundamentos da Cultura DevOps* deste guia, a equipe de Desenvolvimento (Dev) é cobrada por velocidade de entrega, lançamento contínuo de novas funcionalidades e mudanças dinâmicas no sistema. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STF/2013) ao afirmar que "Teste contínuo é uma prática do DevOps que, além de permitir a diminuição dos custos finais do teste, ajuda...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.3 As Três Vias do DevOps*, segundo a qual a Terceira Via (O Princípio do Aprendizado Contínuo e Experimentação): Fomenta uma cultura organizacional de alta confiança que estimula a experimentação deliberada, a tomada de riscos calculados e o domínio da resiliência através da repetição e da prática.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 173
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
+Avalie as seguintes afirmativas no contexto de práticas e metodologias de deploy em desenvolvimento mobile: I. A aplicação de Continuous Integration (CI) em aplicativos mobile responsivos é uma prática que visa a fusão e teste do código apenas ao final de cada sprint; II. Continuous Delivery (CD) é parte da filosofia "Mobile First" e permite que toda mudança de código seja automaticamente disponibilizada para os usuários finais, sem a necessidade de aprovação das equipes de operações; III. DevSecOps é a integração da segurança no processo de desenvolvimento de software desde o início sem comprometer a velocidade de entrega. Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** II e III, apenas.
+* **C)** III, apenas.
+* **D)** I, II e III.
+* **E)** I e II, apenas. Redes de Computadores e Sistemas Operacionais Redes de Computadores
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, conforme consagrado por Martin Fowler, a Integração Contínua (*Continuous Integration*) é a prática de engenharia na qual os membros de um time integram suas alterações de código-fonte ao branch principal do repositório com alta frequência — preferencialmente ao menos uma vez por dia.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.2 Entrega Contínua (Continuous Delivery): O Release Candidate Permanente*, ela automatiza toda a preparação da aplicação até o limiar de produção.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.4 Tabela Comparativa Detalhada: CI vs. Continuous Delivery vs. Continuous Deployment* deste guia, objetivo Primário: Validar que o código de múltiplos desenvolvedores compila e se integra sem quebrar funcionalidades existentes. — Assegurar que o software está em estado permanente de prontidão para deploy produtivo a qualquer momento. — Disponibilizar novas alterações para os usuários finais em produção de maneira imediata e ininterrupta. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "III, apenas".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.4 As Quatro Métricas DORA (DevOps Research and Assessment)*, lead Time for Changes (LTTC): Throughput (Velocidade) — Intervalo de tempo transcorrido desde o primeiro commit no controle de versão até a entrada efetiva em produção. — Menos de 1 hora (do commit ao deploy produtivo). — Entre 1 mês e 6 meses.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas. Redes de Computadores e Sistemas Operacionais Redes de Computadores". De acordo com a teoria estudada em *1.1 Eliminação do Muro da Confusão e Responsabilidade Compartilhada*, desenvolvedores assumem a corresponsabilidade pelo comportamento da aplicação em produção, projetando sistemas já preparados para observabilidade, diagnóstico e tolerância a falhas.
 >
 > **Gabarito: C**
 
@@ -278,50 +272,44 @@ A **Implantação Contínua (*Continuous Deployment*)** representa o nível máx
 ---
 
 ### Teste 174
-**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
-Existem diversos modelos CMMI disponíveis, gerados a partir do CMMI Framework. Em consequência disso, é preciso estar preparado para decidir qual modelo CMMI melhor atende às necessidades de melhoria de processos de uma organização específica. É possível selecionar uma representação, contínua ou em estágios, e determinar as áreas de conhecimento que serão incluídas no modelo que essa organização irá utilizar. Sobre essas representações, considere: I. Oferecerá uma sequência comprovada de melhorias, começando com práticas básicas de gerenciamento e progredindo por um caminho pré-definido e comprovado de níveis sucessivos, cada um servindo como base para o próximo. II. Oferecerá uma classificação única que resume os resultados de avaliações e permite comparações entre organizações. III. Possibilitará comparações dentro e entre organizações em uma área de processo em termos de área de processo ou pela comparação de resultados através do uso de estágios equivalentes. IV. Permitirá comparação dentro da organização e entre organizações pelo uso de níveis de maturidade. V. Permitirá selecionar a sequência de melhorias que melhor atende aos objetivos de negócios e reduz as áreas de risco da organização. Os itens apresentados referem-se, respectivamente, às representações
+**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
+Continuous delivery (CD) e continuous integration (CI) são práticas afetas ao DevOps: a primeira realiza a implantação automática no repositório da solução após o build; e a segunda realiza implantação automática no ambiente de produção a cada release.
 
-* **A)** contínua, contínua, em estágios, contínua, em estágios.
-* **B)** em estágios, em estágios, contínua, em estágios, contínua.
-* **C)** contínua, em estágios, em estágios, contínua, em estágios.
-* **D)** em estágios, contínua, em estágios, contínua, em estágios.
-* **E)** contínua, em estágios, contínua, em estágios, contínua.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contínua, contínua, em estágios, contínua, em estágios". De acordo com a teoria estudada em *4. Estrutura, Estágios e Segurança de Pipelines (DevSecOps)*, a construção de um pipeline de entrega contínua robusto organiza as atividades em estágios lógicos estritamente encadeados, impedindo o avanço de artefatos defeituosos ou inseguros.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.3 Implantação Contínua (Continuous Deployment): Promoção Automática para Produção* deste guia, toda modificação que passa com sucesso em 100% dos estágios automatizados do pipeline (CI + Staging + Gates de Segurança e Qualidade) é promovida de forma instantânea e automática para os servidores de produção. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "em estágios, em estágios, contínua, em estágios, contínua".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contínua, em estágios, em estágios, contínua, em estágios". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, build Automatizado Autocontido: A compilação da aplicação deve ser disparada automaticamente a cada push ou commit, operando a partir de um único comando de script (ex.: `mvn clean package`, `npm run build`), sem intervenção manual de ambiente.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em estágios, contínua, em estágios, contínua, em estágios". De acordo com a teoria estudada em *1.3 As Três Vias do DevOps*, o conhecimento gerado a partir de sucessos e falhas locais é sistematicamente compartilhado e incorporado às práticas institucionais de toda a organização.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contínua, em estágios, contínua, em estágios, contínua". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, no modelo trunk-based, merges acontecem em ciclos diários.
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Continuous delivery (CD) e continuous integration (CI) são práticas afetas ao DevOps: a primeira realiza a...". De acordo com a teoria estudada em *2.3 Implantação Contínua (Continuous Deployment): Promoção Automática para Produção*, a Implantação Contínua (*Continuous Deployment*) representa o nível máximo de maturidade na automação da esteira de entrega.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line* deste guia, conforme consagrado por Martin Fowler, a Integração Contínua (*Continuous Integration*) é a prática de engenharia na qual os membros de um time integram suas alterações de código-fonte ao branch principal do repositório com alta frequência — preferencialmente ao menos uma vez por dia. Portanto, a assertiva examinada pela banca (CEBRASPE – STJ/2024) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
 ### Teste 175
-**(FGV – TCE-GO – Analista de Controle Externo Tecnologia da Informacao – 2024)**
-Avalie as seguintes afirmativas no contexto de práticas e metodologias de deploy em desenvolvimento mobile: I. A aplicação de Continuous Integration (CI) em aplicativos mobile responsivos é uma prática que visa a fusão e teste do código apenas ao final de cada sprint; II. Continuous Delivery (CD) é parte da filosofia "Mobile First" e permite que toda mudança de código seja automaticamente disponibilizada para os usuários finais, sem a necessidade de aprovação das equipes de operações; III. DevSecOps é a integração da segurança no processo de desenvolvimento de software desde o início sem comprometer a velocidade de entrega. Está correto o que se afirma em
+**(FCC – TRT 6ª – 2012 – Analista Judiciário - Apoio Especializado/Tecnologia da Informação)**
+A perspectiva prática sobre o RUP descreve as boas práticas da engenharia de software que são recomendadas para uso no desenvolvimento de sistemas. Dentre as práticas fundamentais recomendadas incluem-se
 
-* **A)** I, apenas.
-* **B)** II e III, apenas.
-* **C)** III, apenas.
-* **D)** I, II e III.
-* **E)** I e II, apenas. Redes de Computadores e Sistemas Operacionais Redes de Computadores
+* **A)** utilizar a arquitetura em cascata e efetuar programação em pares.
+* **B)** definir a funcionalidade do protótipo e avaliar o protótipo.
+* **C)** definir o esboço dos requisitos e estabelecer objetivos do protótipo.
+* **D)** utilizar arquiteturas baseadas em componentes e modelar os softwares visualmente.
+* **E)** desenvolver teste inicial a partir de cenários e utilizar frameworks de testes automatizados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, conforme consagrado por Martin Fowler, a Integração Contínua (*Continuous Integration*) é a prática de engenharia na qual os membros de um time integram suas alterações de código-fonte ao branch principal do repositório com alta frequência — preferencialmente ao menos uma vez por dia.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.2 Entrega Contínua (Continuous Delivery): O Release Candidate Permanente*, ela automatiza toda a preparação da aplicação até o limiar de produção.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.4 Tabela Comparativa Detalhada: CI vs. Continuous Delivery vs. Continuous Deployment* deste guia, objetivo Primário: Validar que o código de múltiplos desenvolvedores compila e se integra sem quebrar funcionalidades existentes. — Assegurar que o software está em estado permanente de prontidão para deploy produtivo a qualquer momento. — Disponibilizar novas alterações para os usuários finais em produção de maneira imediata e ininterrupta. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "III, apenas".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, build Automatizado Autocontido: A compilação da aplicação deve ser disparada automaticamente a cada push ou commit, operando a partir de um único comando de script (ex.: `mvn clean package`, `npm run build`), sem intervenção manual de ambiente.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas. Redes de Computadores e Sistemas Operacionais Redes de Computadores". De acordo com a teoria estudada em *1.1 Eliminação do Muro da Confusão e Responsabilidade Compartilhada*, desenvolvedores assumem a corresponsabilidade pelo comportamento da aplicação em produção, projetando sistemas já preparados para observabilidade, diagnóstico e tolerância a falhas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "utilizar a arquitetura em cascata e efetuar programação em pares". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, o Princípio *Stop the Line* (Corda de Andon): Inspirado no modelo de produção enxuta, se um commit quebra o build no branch principal, a equipe inteira deve suspender novas tarefas e priorizar a resolução imediata da quebra antes de efetuar novos merges.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line* deste guia, conforme consagrado por Martin Fowler, a Integração Contínua (*Continuous Integration*) é a prática de engenharia na qual os membros de um time integram suas alterações de código-fonte ao branch principal do repositório com alta frequência — preferencialmente ao menos uma vez por dia. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 6ª/2012) ao estabelecer que "definir a funcionalidade do protótipo e avaliar o protótipo".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "definir o esboço dos requisitos e estabelecer objetivos do protótipo". De acordo com a teoria estudada em *1.3 As Três Vias do DevOps*, a Primeira Via (O Princípio do Fluxo): Tem por objetivo acelerar a velocidade com que o valor transita da esquerda (Desenvolvimento e Requisitos) para a direita (Operações e Produção).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "utilizar arquiteturas baseadas em componentes e modelar os softwares visualmente". De acordo com a teoria estudada em *1.2 O Framework C.A.L.M.S.*, sistematizado pioneiramente por Damon Edwards e John Willis (e posteriormente complementado por Jez Humble), o modelo conceitual CALMS define os cinco pilares essenciais para avaliar e evoluir a maturidade DevOps.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desenvolver teste inicial a partir de cenários e utilizar frameworks de testes automatizados". De acordo com a teoria estudada em *4.2 Pirâmide de Testes Automatizados no Pipeline*, meio da Pirâmide - Testes de Integração e de Contrato: Testam a comunicação entre componentes integrados (como a camada de persistência com o banco de dados em contêiner de teste ou contratos de API REST via Pact).
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
@@ -402,72 +390,72 @@ flowchart TD
 ---
 
 ### Teste 176
-**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-A palavra latter, sublinhada no 3o parágrafo, refere-se a
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Telecomunicação)**
+Os sistemas de comunicações celulares são redes de telecomunicações sem fio que utilizam uma infraestrutura distribuída em células para fornecer cobertura e capacidade de comunicação a dispositivos móveis. Cada célula é servida por uma estação rádio base (ERB), que se conecta com os dispositivos dentro da sua área de cobertura. A respeito dos fundamentos teóricos e do princípio da transmissão por células em sistemas de comunicações celulares, analise as seguintes afirmativas: I. Além da divisão em células, o sistema de comunicações celulares pode ainda subdividir cada célula em setores, geralmente 3 ou 6 setores. O principal benefício dessa setorização é a redução da interferência na conexão de cada usuário dentro da célula setorizada. II. O handover é o processo pelo qual é estabelecido o link de comunicação entre dois usuários dentro de uma mesma célula. III. Em sistemas de comunicação celular, cada célula sempre utiliza todos os canais disponíveis para maximizar a capacidade da rede. O objetivo principal de uma infraestrutura distribuída é otimizar o processamento de informações pelas Estações Rádio Base (ERBs), permitindo que cada ERB gerencie um menor número de usuários. Está correto o que se afirma em
 
-* **A)** Dropbox.
-* **B)** OneDrive.
-* **C)** Google Drive.
-* **D)** Docs.
-* **E)** Sheets.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Dropbox". De acordo com a teoria estudada em *5.1 GitHub Actions: Workflows, Events, Jobs, Steps, Runners e Secrets*, para criar dependência sequencial ou construir um grafo acíclico direcionado (DAG), utiliza-se a palavra-chave `needs: [nome_do_job]`.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "OneDrive". De acordo com a teoria estudada em *3. Estratégias Modernas de Publicação (Deployment Strategies)*, em infraestruturas modernas baseadas em contêineres e microsserviços, a substituição de versões deve buscar a eliminação de indisponibilidade (*zero downtime*), a mitigação do raio de impacto (*blast radius*) e a rapidez de reversão (*rollback*).
-> - **C)** **Correta.** Conforme fundamentado na seção *1.4 As Quatro Métricas DORA (DevOps Research and Assessment)* deste guia, as métricas DORA resultam de quase uma década de pesquisas empíricas e rigor estatístico conduzidas pelo grupo fundado por Nicole Forsgren, Jez Humble e Gene Kim (posteriormente incorporado ao Google Cloud). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "Google Drive".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Docs". De acordo com a teoria estudada em *3.1 Recreate (Recriação)*, mecanismo: Todas as instâncias da versão antiga (\$V1\$) são terminadas simultaneamente antes que qualquer instância da nova versão (\$V2\$) seja inicializada.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Sheets". De acordo com a teoria estudada em *3.1 Recreate (Recriação)*, vantagens: É a abordagem mais simples de configurar; não exige retrocompatibilidade de banco de dados, pois nunca coexistem versões diferentes executando simultaneamente.
+> - **A)** **Correta.** Conforme fundamentado na seção *3.5 Feature Flags / Feature Toggles e Dark Launching* deste guia, dark Launching: O código novo é implantado em produção e passa a ser executado em segundo plano de forma invisível aos usuários (ex.: para cada requisição recebida, o sistema envia uma chamada assíncrona ao novo algoritmo fiscal em paralelo, comparando os resultados e medindo o impacto em banco de dados sem exibir as saídas na interface do usuário). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I, apenas".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3.3 Blue-Green Deployment (Azul-Verde)*, mecanismo: Mantêm-se dois ambientes de produção fisicamente idênticos e isolados: o ambiente Blue (que está ativo atendendo 100% das requisições reais dos usuários) e o ambiente Green (que permanece ocioso em modo de espera).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.1 Recreate (Recriação)*, desvantagens: Gera indisponibilidade obrigatória (*downtime*) para os usuários durante o intervalo de desligamento da $V1$ e inicialização completa da $V2$. Inadmissível para sistemas críticos de fiscalização e arrecadação fiscal.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.2 Rolling Update (Atualização Progressiva)*, desvantagens: Durante o processo de transição, instâncias da $V1$ e da $V2$ respondem concomitantemente às requisições dos usuários, exigindo que o banco de dados e as APIs sejam rigorosamente retrocompatíveis.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *3.4 Canary Deployment (Canário)*, o tráfego do canário pode ser roteado por amostragem percentual randômica, por localização geográfica ou por grupos de usuários específicos (ex.: servidores internos).
+>
+> **Gabarito: A**
+
+---
+
+### Teste 177
+**(FCC – TRT 6ª – 2012 – Analista Judiciário - Apoio Especializado/Tecnologia da Informação)**
+A respeito de prevenção e tratamento de ataques a redes de computadores, é correto afirmar que
+
+* **A)** o tipo de ataque conhecido como man in the middle (MITM) consiste em apresentar à vítima a versão adulterada de uma página WWW (de um banco, por exemplo) induzindo-a a informar seus dados.
+* **B)** a política de segurança de rede deve estabelecer restrições sobre o tráfego de dados na rede e não restrições sobre a atividade de indivíduos.
+* **C)** o servidor DHCP é um dos serviços tipicamente instalado em uma DMZ.
+* **D)** o tipo de ataque conhecido como "DoS" consiste em tornar os recursos de um computador ou de uma rede indisponíveis para seus usuários.
+* **E)** o tipo de ataque conhecido como phishing consiste em adulterar os cabeçalhos (headers) de uma mensagem de e-mail induzindo o destinatário da mensagem a crer que foi enviada por alguém diferente do seu real autor.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o tipo de ataque conhecido como man in the middle (MITM) consiste em apresentar à vítima a versão adulterada de...". De acordo com a teoria estudada em *3.1 Recreate (Recriação)*, vantagens: É a abordagem mais simples de configurar; não exige retrocompatibilidade de banco de dados, pois nunca coexistem versões diferentes executando simultaneamente.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a política de segurança de rede deve estabelecer restrições sobre o tráfego de dados na rede e não restrições...". De acordo com a teoria estudada em *4.1 Estágios Canônicos: Lint, Análise Estática (SAST/SCA), Build, Testes e Registry*, deploy e *Smoke Tests*: Implantação nos servidores de destino e disparo de testes de fumaça rápidos para verificar a disponibilidade de portas de rede e rotas de saúde (`/healthz`).
+> - **C)** **Correta.** Conforme fundamentado na seção *3.4 Canary Deployment (Canário)* deste guia, mecanismo: A nova versão ($V2$) é colocada no ar paralelamente à versão estável ($V1$), mas recebe apenas uma fração diminuta do tráfego real dos usuários (tipicamente entre 1% e 5%), enquanto a $V1$ continua atendendo os 95% restantes. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 6ª/2012) ao estabelecer que "o servidor DHCP é um dos serviços tipicamente instalado em uma DMZ".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o tipo de ataque conhecido como "DoS" consiste em tornar os recursos de um computador ou de uma rede indisponíveis...". De acordo com a teoria estudada em *3.2 Rolling Update (Atualização Progressiva)*, vantagens: Garante zero downtime sem a necessidade de alocar o dobro de recursos de infraestrutura. É a estratégia nativa padrão em orquestradores como o Kubernetes (`strategy: RollingUpdate`).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o tipo de ataque conhecido como phishing consiste em adulterar os cabeçalhos (headers) de uma mensagem de e-mail...". De acordo com a teoria estudada em *4.2 Pirâmide de Testes Automatizados no Pipeline*, mais lentos que os testes unitários, demandam inicialização de serviços.
 >
 > **Gabarito: C**
 
 ---
 
-### Teste 177
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
-A navegação segura na internet via protocolo HTTPS (Hypertext Transfer Protocol Secure) exige uma interação complexa entre hardware, software e protocolos de rede. Considerando o fluxo de processamento de uma requisição HTTPS em um sistema computacional moderno, é correto afirmar que
-
-* **A)** o protocolo HTTPS opera exclusivamente na camada de transporte do modelo OSI, substituindo o TCP para garantir que a criptografia seja processada diretamente pelo hardware da placa de rede (NIC).
-* **B)** durante o handshake do TLS, o sistema operacional utiliza chamadas de sistema para acessar funções criptográficas e gerenciar sockets de rede, permitindo que o navegador estabeleça um canal seguro sobre a pilha TCP/IP.
-* **C)** a criptografia assimétrica utilizada no HTTPS é uma função nativa do firmware do roteador, o que desonera a CPU do computador cliente de realizar cálculos matemáticos complexos.
-* **D)** o endereçamento IP (camada de rede do modelo OSI) é o responsável por garantir a integridade dos certificados digitais, enquanto o protocolo HTTPS gerencia o endereçamento físico (MAC Address).
-* **E)** ao utilizar HTTPS, o sistema operacional desativa a memória virtual para impedir que chaves criptográficas sejam gravadas em disco (swap), priorizando o processamento na Unidade de Controle.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "o protocolo HTTPS opera exclusivamente na camada de transporte do modelo OSI, substituindo o TCP para garantir que...". De acordo com a teoria estudada em *4.1 Estágios Canônicos: Lint, Análise Estática (SAST/SCA), Build, Testes e Registry*, deploy e *Smoke Tests*: Implantação nos servidores de destino e disparo de testes de fumaça rápidos para verificar a disponibilidade de portas de rede e rotas de saúde (`/healthz`).
-> - **B)** **Correta.** Conforme fundamentado na seção *3.5 Feature Flags / Feature Toggles e Dark Launching* deste guia, dark Launching: O código novo é implantado em produção e passa a ser executado em segundo plano de forma invisível aos usuários (ex.: para cada requisição recebida, o sistema envia uma chamada assíncrona ao novo algoritmo fiscal em paralelo, comparando os resultados e medindo o impacto em banco de dados sem exibir as saídas na interface do usuário). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "durante o handshake do TLS, o sistema operacional utiliza chamadas de sistema para acessar funções criptográficas...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a criptografia assimétrica utilizada no HTTPS é uma função nativa do firmware do roteador, o que desonera a CPU do...". De acordo com a teoria estudada em *3.3 Blue-Green Deployment (Azul-Verde)*, fluxo Operacional: A nova versão do software (\$V2\$) é instalada no ambiente Green. Nesse ambiente isolado, a equipe executa testes de fumaça (*smoke tests*), testes de carga e validações funcionais completas sem impactar os usuários reais.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o endereçamento IP (camada de rede do modelo OSI) é o responsável por garantir a integridade dos certificados...". De acordo com a teoria estudada em *5.3 Jenkins: Arquitetura Controller-Agent, Declarative Pipeline e Scripted Pipeline*, declarative Pipeline (Estilo Moderno e Padronizado): Utiliza uma sintaxe declarativa estrita e de fácil leitura, iniciando obrigatoriamente pelo bloco raiz `pipeline { .. }`.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao utilizar HTTPS, o sistema operacional desativa a memória virtual para impedir que chaves criptográficas sejam...". De acordo com a teoria estudada em *3.4 Canary Deployment (Canário)*, monitoramento e Expansão: Durante a exposição do canário, sistemas de telemetria analisam ativamente métricas como taxa de erros HTTP 5xx, consumo de memória e latência de resposta.
->
-> **Gabarito: B**
-
----
-
 ### Teste 178
-**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
-Um usuário abriu um chamado questionando por que, ao realizar um download a partir do servidor de arquivos, o tráfego estava sendo encaminhado por dois caminhos distintos. Márcia, analista do TRF, explicou que o protocolo de roteamento utilizado é o OSPF, que identificou dois caminhos com custos iguais. Durante o encaminhamento dos pacotes, o tráfego é distribuído entre esses caminhos, promovendo o balanceamento de carga. A técnica mencionada por Márcia é chamada de:
+**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+O administrador de um servidor com o sistema operacional Linux Red Hat pode utilizar o arquivo /etc/fstab para
 
-* **A)** ICMP;
-* **B)** ECMP;
-* **C)** MOSPF;
-* **D)** roteamento estático;
-* **E)** roteamento dinâmico.
+* **A)** controlar a montagem dos sistemas de arquivos durante o processo de boot.
+* **B)** definir a tabela de roteamento dos pacotes destinados para a rede de computadores.
+* **C)** especificar os sistemas de arquivos utilizáveis pelos usuários padrão.
+* **D)** definir a lista de arquivos disponibilizados por meio do NFS.
+* **E)** listar os sistemas de arquivos disponíveis pela rede de computadores.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ICMP". De acordo com a teoria estudada em *3.5 Feature Flags / Feature Toggles e Dark Launching*, dark Launching: O código novo é implantado em produção e passa a ser executado em segundo plano de forma invisível aos usuários (ex.: para cada requisição recebida, o sistema envia uma chamada assíncrona ao novo algoritmo fiscal em paralelo, comparando os resultados e medindo o impacto em banco de dados sem exibir as saídas na interface do usuário).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ECMP". De acordo com a teoria estudada em *3.5 Feature Flags / Feature Toggles e Dark Launching*, um código pode estar rodando em produção com a funcionalidade desligada no servidor de configuração remota, sendo ativada sob demanda sem a necessidade de novo pipeline de deploy.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "MOSPF". De acordo com a teoria estudada em *3.3 Blue-Green Deployment (Azul-Verde)*, comutação e Rollback: Quando a versão Green é plenamente aprovada, o balanceador de carga (*Load Balancer*) ou controlador de entrada (*Ingress*) chaveia 100% do tráfego para Green, tornando-o o ambiente ativo.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.4 Canary Deployment (Canário)* deste guia, mitigação do Raio de Impacto (*Blast Radius*): Se o canário apresentar anomalias ou falhas, o roteamento para ele é imediatamente interrompido, afetando apenas uma fração insignificante de requisições. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "roteamento estático".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "roteamento dinâmico". De acordo com a teoria estudada em *3.3 Blue-Green Deployment (Azul-Verde)*, mecanismo: Mantêm-se dois ambientes de produção fisicamente idênticos e isolados: o ambiente Blue (que está ativo atendendo 100% das requisições reais dos usuários) e o ambiente Green (que permanece ocioso em modo de espera).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "controlar a montagem dos sistemas de arquivos durante o processo de boot". De acordo com a teoria estudada em *3.1 Recreate (Recriação)*, desvantagens: Gera indisponibilidade obrigatória (*downtime*) para os usuários durante o intervalo de desligamento da $V1$ e inicialização completa da $V2$. Inadmissível para sistemas críticos de fiscalização e arrecadação fiscal.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "definir a tabela de roteamento dos pacotes destinados para a rede de computadores". De acordo com a teoria estudada em *3.4 Canary Deployment (Canário)*, mitigação do Raio de Impacto (*Blast Radius*): Se o canário apresentar anomalias ou falhas, o roteamento para ele é imediatamente interrompido, afetando apenas uma fração insignificante de requisições.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "especificar os sistemas de arquivos utilizáveis pelos usuários padrão". De acordo com a teoria estudada em *5.2 GitLab CI/CD: Stages, Jobs, Artifacts, Cache, Rules e Runners*, gitLab Runners e Tags: Os *runners* são os agentes que processam os trabalhos. Um job pode especificar quais runners têm permissão para executá-lo através de rótulos de identificação (*tags*).
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Rolling Update (Atualização Progressiva)* deste guia, em caso de falha no meio do processo, o rollback demanda tempo para reverter progressivamente os nós alterados. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "definir a lista de arquivos disponibilizados por meio do NFS".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "listar os sistemas de arquivos disponíveis pela rede de computadores". De acordo com a teoria estudada em *4.1 Estágios Canônicos: Lint, Análise Estática (SAST/SCA), Build, Testes e Registry*, deploy e *Smoke Tests*: Implantação nos servidores de destino e disparo de testes de fumaça rápidos para verificar a disponibilidade de portas de rede e rotas de saúde (`/healthz`).
 >
 > **Gabarito: D**
 
@@ -509,26 +497,26 @@ Proposta por Mike Cohn, a pirâmide de testes orienta a distribuição ótima do
 ---
 
 ### Teste 179
-**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
-Usa-se um framework de testes iniciais automatizados para escrever os testes para uma nova funcionalidade antes que ela seja implementada, pois acredita-se que escrever o teste de unidade antes do código, que é escrito em pares, ajuda a escrever códigos com maior qualidade. Esta é uma regra de codificação recomendada pelo método
+**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Um aspecto comum entre o desenvolvimento baseado no UP e no Scrum é que ambos
 
-* **A)** Scrum.
-* **B)** Dynamic Systems Development Method.
-* **C)** Crystal Clear.
-* **D)** Extreme Programming.
-* **E)** Feature Driven Development.
+* **A)** estão sendo representados os 3 processos básicos da metodologia FDD.
+* **B)** os testes estão sendo realizados com o JUnit e o Netbeans.
+* **C)** são etapas do FDD, que tem em comum com o XP o fato de que o desenvolvedor é o único responsável pelo código que ele desenvolve.
+* **D)** refatorar é uma prática comum em XP e também utilizada no TDD.
+* **E)** estas etapas são utilizadas quando se deseja assegurar que um código sempre lance uma exceção.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Scrum". De acordo com a teoria estudada em *4.2 Pirâmide de Testes Automatizados no Pipeline*, meio da Pirâmide - Testes de Integração e de Contrato: Testam a comunicação entre componentes integrados (como a camada de persistência com o banco de dados em contêiner de teste ou contratos de API REST via Pact).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Dynamic Systems Development Method". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, desenvolvimento em Tronco (*Trunk-Based Development*) ou Feature Branches Curtas: Evita-se a criação de branches de desenvolvimento isoladas de longa duração. Branches que duram semanas acumulam conflitos de mesclagem complexos (*merge hell*).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Crystal Clear". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, execução Obrigatória de Testes de Unidade e Linting: A esteira de CI roda linters de código e baterias de testes unitários rápidos. A meta é que a validação de CI execute em menos de 10 minutos para não bloquear o fluxo do desenvolvedor.
-> - **D)** **Correta.** Conforme fundamentado na seção *4.2 Pirâmide de Testes Automatizados no Pipeline* deste guia, base da Pirâmide - Testes de Unidade (Unitários): Representam a esmagadora maioria dos testes (cerca de 70%). Testam classes e funções isoladas com uso de *mocks* e *stubs*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "Extreme Programming".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Feature Driven Development". De acordo com a teoria estudada em *3.5 Feature Flags / Feature Toggles e Dark Launching*, um código pode estar rodando em produção com a funcionalidade desligada no servidor de configuração remota, sendo ativada sob demanda sem a necessidade de novo pipeline de deploy.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estão sendo representados os 3 processos básicos da metodologia FDD". De acordo com a teoria estudada em *3.5 Feature Flags / Feature Toggles e Dark Launching*, um código pode estar rodando em produção com a funcionalidade desligada no servidor de configuração remota, sendo ativada sob demanda sem a necessidade de novo pipeline de deploy.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os testes estão sendo realizados com o JUnit e o Netbeans". De acordo com a teoria estudada em *4.1 Estágios Canônicos: Lint, Análise Estática (SAST/SCA), Build, Testes e Registry*, linting e Verificação de Estilo: Análise léxica rápida para garantir uniformidade e detectar erros sintáticos elementares sem compilar o código (ex.: ESLint, SonarLint, flake8).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são etapas do FDD, que tem em comum com o XP o fato de que o desenvolvedor é o único responsável pelo código que...". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, execução Obrigatória de Testes de Unidade e Linting: A esteira de CI roda linters de código e baterias de testes unitários rápidos. A meta é que a validação de CI execute em menos de 10 minutos para não bloquear o fluxo do desenvolvedor.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "refatorar é uma prática comum em XP e também utilizada no TDD". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, conforme consagrado por Martin Fowler, a Integração Contínua (*Continuous Integration*) é a prática de engenharia na qual os membros de um time integram suas alterações de código-fonte ao branch principal do repositório com alta frequência — preferencialmente ao menos uma vez por dia.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.4 Tabela Comparativa Detalhada: CI vs. Continuous Delivery vs. Continuous Deployment* deste guia, objetivo Primário: Validar que o código de múltiplos desenvolvedores compila e se integra sem quebrar funcionalidades existentes. — Assegurar que o software está em estado permanente de prontidão para deploy produtivo a qualquer momento. — Disponibilizar novas alterações para os usuários finais em produção de maneira imediata e ininterrupta. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "estas etapas são utilizadas quando se deseja assegurar que um código sempre lance uma exceção".
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
@@ -702,31 +690,31 @@ pipeline {
 ---
 
 ### Teste 180
-**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
-Com relação às ferramentas CircleCI e Jenkins, assinale a opção correta.
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+O Swagger é uma plataforma que possui diversas ferramentas, entre as quais o SwaggerHub. Em relação ao SwaggerHub, analise os itens a seguir: I. Permite que os desenvolvedores definam suas APIs no formato OpenAPI ou AsyncAPI. II. É uma plataforma colaborativa capaz de hospedar todas as definições de APIs em um único local. III. Para o AsyncAPI, gera códigos de servidor e cliente e envia-os por push para as plataformas GitHub, GitLab, Bitbucket ou Azure DevOps Services. Está correto apenas o que se afirma em
 
-* **A)** No que tange à segurança, o Jenkins possui camadas adicionais de segurança que protegem o código-fonte, variáveis ambientais e saídas.
-* **B)** O Jenkins suporta maior quantidade de CPU e RAM para trabalhos mais complexos do que o CircleCI.
-* **C)** O CircleCI implementa uma única camada de segurança em torno da frota de CI (integração contínua), com criação manual de segurança adicional.
-* **D)** O Jenkins suporta adicionar usuários, por intermédio da autenticação VCS, utilizando diretamente a interface do usuário.
-* **E)** O CircleCI utiliza-se de dependências do cache e camadas do Docker para melhorar o desempenho e acelerar o tempo de construção.
+* **A)** I.
+* **B)** I e II.
+* **C)** II e III.
+* **D)** I e III.
+* **E)** III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No que tange à segurança, o Jenkins possui camadas adicionais de segurança que protegem o código-fonte, variáveis...". De acordo com a teoria estudada em *4.1 Estágios Canônicos: Lint, Análise Estática (SAST/SCA), Build, Testes e Registry*, build e Compilação: Compilação do código-fonte em artefatos binários executáveis (`.jar`, `.war`, binários Go) ou construção de imagens de contêiner imutáveis via Dockerfile.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Jenkins suporta maior quantidade de CPU e RAM para trabalhos mais complexos do que o CircleCI". De acordo com a teoria estudada em *5.2 GitLab CI/CD: Stages, Jobs, Artifacts, Cache, Rules e Runners*, gitLab Runners e Tags: Os *runners* são os agentes que processam os trabalhos. Um job pode especificar quais runners têm permissão para executá-lo através de rótulos de identificação (*tags*).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O CircleCI implementa uma única camada de segurança em torno da frota de CI (integração contínua), com criação...". De acordo com a teoria estudada em *4. Estrutura, Estágios e Segurança de Pipelines (DevSecOps)*, a construção de um pipeline de entrega contínua robusto organiza as atividades em estágios lógicos estritamente encadeados, impedindo o avanço de artefatos defeituosos ou inseguros.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Jenkins suporta adicionar usuários, por intermédio da autenticação VCS, utilizando diretamente a interface do...". De acordo com a teoria estudada em *3.5 Feature Flags / Feature Toggles e Dark Launching*, dark Launching: O código novo é implantado em produção e passa a ser executado em segundo plano de forma invisível aos usuários (ex.: para cada requisição recebida, o sistema envia uma chamada assíncrona ao novo algoritmo fiscal em paralelo, comparando os resultados e medindo o impacto em banco de dados sem exibir as saídas na interface do usuário).
-> - **E)** **Correta.** Conforme fundamentado na seção *5.2 GitLab CI/CD: Stages, Jobs, Artifacts, Cache, Rules e Runners* deste guia, cache: Mecanismo de armazenamento temporário destinado unicamente a acelerar execuções futuras do pipeline, persistindo diretórios de bibliotecas externas (como `node_modules` ou `.m2/repository`) entre diferentes execuções de pipelines. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "O CircleCI utiliza-se de dependências do cache e camadas do Docker para melhorar o desempenho e acelerar o tempo...".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *5.1 GitHub Actions: Workflows, Events, Jobs, Steps, Runners e Secrets*, o GitHub Actions é uma plataforma de automação e orquestração de pipelines integrada nativamente ao GitHub.
+> - **B)** **Correta.** Conforme fundamentado na seção *5.2 GitLab CI/CD: Stages, Jobs, Artifacts, Cache, Rules e Runners* deste guia, gitLab Runners e Tags: Os *runners* são os agentes que processam os trabalhos. Um job pode especificar quais runners têm permissão para executá-lo através de rótulos de identificação (*tags*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "I e II".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *5.1 GitHub Actions: Workflows, Events, Jobs, Steps, Runners e Secrets*, localização dos Arquivos: Os manifestos são codificados no formato YAML e devem residir estritamente no diretório `.github/workflows/` na raiz do repositório.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *5.2 GitLab CI/CD: Stages, Jobs, Artifacts, Cache, Rules e Runners*, o GitLab CI/CD baseia-se em um único arquivo de manifesto denominado obrigatoriamente `.gitlab-ci.yml`, posicionado na raiz do repositório.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *5.1 GitHub Actions: Workflows, Events, Jobs, Steps, Runners e Secrets*, events (`on:`): Eventos específicos que disparam o workflow. Exemplos: `push` em branches específicas, abertura de `pull_request`, execuções agendadas via cron (`schedule`) ou disparos manuais via interface web (`workflow_dispatch`).
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 
 ### Teste 181
-**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia da Informacao – 2024)**
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia Da Informacao)**
 O analista Maicon deve configurar um novo runner, chamado RunM, no GitLab CI/CD do TRF1. Os jobs executados no RunM devem ser capazes de interagir de forma plena com um dispositivo externo conectado fisicamente ao host do runner. O escalonamento do RunM pelo GitLab deve ser fixo, e não automático. Maicon deve escolher o executor de runner do GitLab que exige a menor quantidade de customização necessária para a execução de RunM. O executor de runner que Maicon deve escolher é:
 
 * **A)** shell;
@@ -741,11 +729,11 @@ O analista Maicon deve configurar um novo runner, chamado RunM, no GitLab CI/CD 
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "shell". De acordo com a teoria estudada em *5.1 GitHub Actions: Workflows, Events, Jobs, Steps, Runners e Secrets*, steps: Tarefas sequenciais executadas dentro de um job. Um step pode executar comandos de shell direto via `run:` ou invocar ações modulares reutilizáveis via `uses:` (como `uses: actions/checkout@v4`).
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "docker". De acordo com a teoria estudada em *5.3 Jenkins: Arquitetura Controller-Agent, Declarative Pipeline e Scripted Pipeline*, agents (antigos Slaves): Instâncias de computação (máquinas virtuais, nós físicos ou contêineres Docker efêmeros) que recebem comandos do Controller para executar fisicamente as etapas do pipeline.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "parallels". De acordo com a teoria estudada em *5.1 GitHub Actions: Workflows, Events, Jobs, Steps, Runners e Secrets*, jobs: Conjunto de passos executados em um mesmo ambiente de runner. Por padrão, múltiplos jobs definidos no mesmo workflow executam em paralelo.
-> - **D)** **Correta.** Conforme fundamentado na seção *5.2 GitLab CI/CD: Stages, Jobs, Artifacts, Cache, Rules e Runners* deste guia, o cache não deve ser utilizado para repassar binários finais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "instance".
+> - **C)** **Correta.** Conforme fundamentado na seção *5.2 GitLab CI/CD: Stages, Jobs, Artifacts, Cache, Rules e Runners* deste guia, o cache não deve ser utilizado para repassar binários finais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "parallels".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "instance". De acordo com a teoria estudada em *5.1 GitHub Actions: Workflows, Events, Jobs, Steps, Runners e Secrets*, jobs: Conjunto de passos executados em um mesmo ambiente de runner. Por padrão, múltiplos jobs definidos no mesmo workflow executam em paralelo.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "virtualbox". De acordo com a teoria estudada em *3.5 Feature Flags / Feature Toggles e Dark Launching*, dark Launching: O código novo é implantado em produção e passa a ser executado em segundo plano de forma invisível aos usuários (ex.: para cada requisição recebida, o sistema envia uma chamada assíncrona ao novo algoritmo fiscal em paralelo, comparando os resultados e medindo o impacto em banco de dados sem exibir as saídas na interface do usuário).
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 

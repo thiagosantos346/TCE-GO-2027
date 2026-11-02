@@ -91,26 +91,26 @@ Para maximizar a eficiência, a leitura técnica orientada a concurso estrutura-
 ---
 
 ### Teste 565
-**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
-Utilizando-se das técnicas de leitura instrumental, especificamente da técnica scanning, a qual consiste em uma leitura atenta e precisa. Analise o excerto a seguir: “They may not understand right from wrong”. Assinale, dentre as alternativas abaixo, a que está mais próxima em significado.
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
+As frases abaixo mostram uma comparação. Assinale a opção em que a comparação não é explicada.
 
-* **A)** Eles talvez não compreendam o que é certo
-* **B)** Eles talvez não consigam compreender o que é errado
-* **C)** Eles não conseguem distinguir o certo do errado
-* **D)** Eles não conseguem entender que só devem fazer o certo
-* **E)** Eles podem compreender o que é certo e o que é errado, mas não têm essa vontade
+* **A)** Ideias são como crianças. As nossas são sempre maravilhosas.
+* **B)** As bibliotecas são como as farmácias: muitos venenos e poucos remédios.
+* **C)** A leitura, como a comida, não alimenta se não digerida.
+* **D)** Os discursos são como as orações copiadas dos textos religiosos.
+* **E)** Os talheres são como o papel higiênico: só ficam limpos se não forem usados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Eles talvez não compreendam o que é certo". De acordo com a teoria estudada em *1.2 Fases do Processo de Leitura Técnica*, pré-leitura (*Pre-reading*): Leitura prévia do enunciado e das alternativas da questão antes de examinar o corpo do texto. Observação rápida do título, subtítulos, autor, fonte bibliográfica e elementos não-verbais (tabelas, figuras, trechos de código).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Eles talvez não consigam compreender o que é errado". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, iETF RFC 2119 - Key words for use in RFCs to Indicate Requirement Levels - Norma seminal em inglês definindo o significado imperativo de termos como MUST, SHALL, SHOULD e MAY na documentação técnica.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Fases do Processo de Leitura Técnica* deste guia, leitura Atenta / Focada (*While-reading*): Aplicação de *skimming* para localização da ideia central ou de *scanning* para rastreamento cirúrgico de evidências pontuais. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "Eles não conseguem distinguir o certo do errado".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Eles não conseguem entender que só devem fazer o certo". De acordo com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, realize: Perceber, dar-se conta; concretizar/tornar real — Realizar (fazer uma tarefa ordinária) — *Perform, execute, conduct* — *"The incident response team did not realize that the token had expired."*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Eles podem compreender o que é certo e o que é errado, mas não têm essa vontade". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, python Official Documentation - Tutorial (English) - Documentação técnica de software amplamente utilizada para treinamento de inferência de significado e leitura estruturada.
+> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Ideias são como crianças. As nossas são sempre maravilhosas". De acordo com a teoria estudada em *6.1 Anáfora e Catáfora em Textos Técnicos*, referência Anafórica (*Anaphora*): O pronome retoma um termo ou ideia explicitado anteriormente no fluxo textual.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As bibliotecas são como as farmácias: muitos venenos e poucos remédios". De acordo com a teoria estudada em *6.1 Anáfora e Catáfora em Textos Técnicos*, regras Estritas de Concordância Primitiva.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A leitura, como a comida, não alimenta se não digerida". De acordo com a teoria estudada em *1.1 Tripé de Competências Cognitivas*, estratégias Metacognitivas de Leitura (*Metacognitive Reading Strategies*): Capacidade de monitorar conscientemente o ato de ler, selecionando dinamicamente entre *Skimming*, *Scanning*, *Prediction* e *Inferencing* conforme a demanda da banca avaliadora.
+> - **D)** **Correta.** Conforme fundamentado na seção *1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)* deste guia, o Inglês Instrumental (*English for Specific Purposes - ESP*) rege-se pelo princípio da utilidade pragmática: o propósito do candidato ou técnico não é adquirir fluência de conversação, pronúncia nativa ou redação literária, mas sim a decodificação rápida, crítica e exata de textos técnicos especializados no domínio de Tecnologia da Informação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Os discursos são como as orações copiadas dos textos religiosos".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os talheres são como o papel higiênico: só ficam limpos se não forem usados". De acordo com a teoria estudada em *6.1 Anáfora e Catáfora em Textos Técnicos*, it / Its: Retoma substantivos neutros singulares (um protocolo, um sistema, um servidor, um vetor de ataque).
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
@@ -141,26 +141,26 @@ A FCC recorre frequentemente a comandos que demandam exclusivamente a aplicaçã
 ---
 
 ### Teste 566
-**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
-Utilizando-se das técnicas de leitura instrumental, mais especificamente da técnica skimming, ou seja, uma leitura rápida e superficial, leia o texto “Crimes” e assinale a alternativa que realmente identifica o assunto geral tratado pelo autor do texto.
+**(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Quanto à pontuação, a frase inteiramente correta é:
 
-* **A)** O autor discute os crimes de uma maneira geral e superficial
-* **B)** O autor afirma que todos os indivíduos são criminosos
-* **C)** O autor expõe que os indivíduos mentalmente insanos não são capazes de cometer crimes
-* **D)** O autor declara que alguns indivíduos não podem ser acusados de cometer crimes
-* **E)** O autor remonta casos de crimes e as complicações legais dos criminosos
+* **A)** Já pela má fama adquirida já por preconceito, sem- pre haverá por parte de certos leitores, alguma relu- tância diante da leitura de um prefácio.
+* **B)** O autor do texto não hesita honestamente, de re- correr a experiências pessoais, para demonstrar sua tese, favorável em boa parte à existência mesma dos prefácios.
+* **C)** A escritora Cecília Meireles tão talentosa quanto bo- nita, é citada no texto como parâmetro de excelên- cia, na comparação com uma jovem, bela e pouco inspirada poetisa.
+* **D)** Muita gente acabará por confessar tal como fez o autor, que um prefácio pode prender nossa atenção, com muito mais força, do que o texto principal de uma obra.
+* **E)** O autor conclui, não sem razão, que as bibliografias que indicam apenas o prefácio de uma obra per- mitem deduzir, não há dúvida, que o restante do li- pírito das leis, obra clássica do filósofo francês Montesquieu, publicada em 1748. [Do espírito das leis] Falta muito para que o mundo inteligente seja tão bem governado quanto o mundo físico, pois ainda que o mundo inteligente possua também leis que por sua natureza são invariáveis, não as segue constantemente como o mundo físico segue as suas. A razão disso reside no fato de estarem os seres particulares inteligentes limitados por sua natureza e, consequentemente, sujeitos a erro; e, por outro lado, é próprio de sua natureza agirem por si mesmos. (...) O homem, como ser físico, tal como os outros corpos da natureza, é governado por leis invariáveis. Como ser inteligente, _________________________________________________________ viola incessantemente as leis que Deus estabeleceu e modifica as que ele próprio estabeleceu. Tal ser poderia, a todo instante, esquecer seu criador − Deus, pelas leis da religião, chamou-o a si; um tal ser poderia, a todo instante, esquecer-se de si mesmo − os filósofos advertiram-no pelas leis da moral. (Montesquieu − Os Pensadores. São Paulo: Abril Cultural, 1973, p. 33 e 34)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O autor discute os crimes de uma maneira geral e superficial". De acordo com a teoria estudada em *1.2 Fases do Processo de Leitura Técnica*, pré-leitura (*Pre-reading*): Leitura prévia do enunciado e das alternativas da questão antes de examinar o corpo do texto. Observação rápida do título, subtítulos, autor, fonte bibliográfica e elementos não-verbais (tabelas, figuras, trechos de código).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O autor afirma que todos os indivíduos são criminosos". De acordo com a teoria estudada em *3.1 Mecânica de Execução e Pistas Tipográficas*, definição da Âncora no Enunciado: Antes de olhar para o texto, o candidato identifica o termo-chave (*anchor word / keyword*) no comando da questão ou nas alternativas (por exemplo: um número de norma ISO/IEC, um percentual de redução, o nome de um algoritmo, uma porta de comunicação, um autor ou uma linha indicada).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O autor expõe que os indivíduos mentalmente insanos não são capazes de cometer crimes". De acordo com a teoria estudada em *1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)*, candidatos que adotam a estratégia ingênua de tentar traduzir mentalmente o texto palavra por palavra (*word-by-word translation*) exaurem o tempo de prova, sobrecarregam a memória de trabalho e perdem a percepção da macroestrutura argumentativa do autor.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.2 Identificação de Tipos de Questões FCC* deste guia, *"The overall tone of the author can be characterized as.."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório). Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "O autor declara que alguns indivíduos não podem ser acusados de cometer crimes".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O autor remonta casos de crimes e as complicações legais dos criminosos". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"Which of the following statements best expresses the primary argument of the author?"* (Qual afirmação melhor resume a tese primordial do autor?).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Já pela má fama adquirida já por preconceito, sem- pre haverá por parte de certos leitores, alguma relu- tância...". De acordo com a teoria estudada em *1.2 Fases do Processo de Leitura Técnica*, pré-leitura (*Pre-reading*): Leitura prévia do enunciado e das alternativas da questão antes de examinar o corpo do texto. Observação rápida do título, subtítulos, autor, fonte bibliográfica e elementos não-verbais (tabelas, figuras, trechos de código).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O autor do texto não hesita honestamente, de re- correr a experiências pessoais, para demonstrar sua tese...". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"Which of the following statements best expresses the primary argument of the author?"* (Qual afirmação melhor resume a tese primordial do autor?).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A escritora Cecília Meireles tão talentosa quanto bo- nita, é citada no texto como parâmetro de excelên- cia, na...". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, definição Direta e Paráfrase (*Definition / Restatement Clues*): O próprio texto elucida o termo desconhecido na sequência, frequentemente isolado por vírgulas, travessões, parênteses ou conjunções explicativas (*that is, in other words, known as, which means, defined as, namely*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Muita gente acabará por confessar tal como fez o autor, que um prefácio pode prender nossa atenção, com muito mais...". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, ao resolver questões de ideia principal (*Skimming*), elimine imediatamente alternativas que apresentem fatos verdadeiros contidos no texto, mas que se refiram a detalhes secundários ou exemplos pontuais de um único parágrafo.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.2 Identificação de Tipos de Questões FCC* deste guia, *"The overall tone of the author can be characterized as.."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 16ª/2014) ao estabelecer que "O autor conclui, não sem razão, que as bibliografias que indicam apenas o prefácio de uma obra per- mitem deduzir...".
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
@@ -209,26 +209,26 @@ flowchart TD
 ---
 
 ### Teste 567
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
-The word “roughly” in “Over the past roughly 50,000 years” (5th paragraph) indicates a(n)
+**(FCC – TRT 3ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+Compreende-se corretamente do texto: O autor
 
-* **A)** prevalence.
-* **B)** estimation.
-* **C)** exactness.
-* **D)** manner.
-* **E)** time.
+* **A)** defende a ideia de que jornais instigantes são os que contam com um leitor crítico e atualizado, disposto a preencher as involuntárias lacunas das matérias veiculadas.
+* **B)** atribui interpretações grosseiras de notícias e o desejo de enxergar a não-notícia à prática constante de analisá-las sob perspectiva cética, resultado de juízo crítico muito aguçado e resistente à distensão.
+* **C)** considera a leitura de jornais um exercício divertido sempre que a matéria se dispõe a adivinhações, desvendamentos relacionados tanto à construção do texto, quanto aos fatos reais que a teriam inspirado.
+* **D)** mostra que matérias jornalísticas informam não só pelo que explicitamente comunicam, mas também pelo que evitam comunicar; esse modo de noticiar, em sua concretude, permite o desvendamento de propósitos de autores e editores.
+* **E)** expõe a ambiguidade que a imprensa pode manifestar quando é imprecisa no trato do assunto, falta de precisão originada por "palavras cruzadas", isto é, intrincadas conexões na estrutura verbal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "prevalence". De acordo com a teoria estudada em *3.2 Matriz Comparativa: Skimming vs. Scanning*, comandos Típicos FCC: *"The main purpose is..", "The author primarily argues.."* — *"According to paragraph 2..", "The latency threshold in 2025 was.."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estimation". De acordo com a teoria estudada em *3.1 Mecânica de Execução e Pistas Tipográficas*, definição da Âncora no Enunciado: Antes de olhar para o texto, o candidato identifica o termo-chave (*anchor word / keyword*) no comando da questão ou nas alternativas (por exemplo: um número de norma ISO/IEC, um percentual de redução, o nome de um algoritmo, uma porta de comunicação, um autor ou uma linha indicada).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exactness". De acordo com a teoria estudada em *1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)*, candidatos que adotam a estratégia ingênua de tentar traduzir mentalmente o texto palavra por palavra (*word-by-word translation*) exaurem o tempo de prova, sobrecarregam a memória de trabalho e perdem a percepção da macroestrutura argumentativa do autor.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "manner". De acordo com a teoria estudada em *3. Scanning: Leitura de Varredura Seletiva (Locating Specific Data)*, o Scanning (análogo à operação de busca de um comando `grep` ou ao feixe de um leitor óptico) é a estratégia não-linear de leitura orientada à localização instantânea de uma informação específica pontual, dispensando por completo a leitura integral do texto.
-> - **E)** **Correta.** Conforme fundamentado na seção *5.2 Quadro Lexical de Falsos Cognatos Críticos* deste guia, actually: Na verdade, de fato, realmente, efetivamente — Atualmente, nos dias de hoje — *Currently, nowadays, presently* — *"The benchmark actually revealed a 30% reduction in query execution time."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "time".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "defende a ideia de que jornais instigantes são os que contam com um leitor crítico e atualizado, disposto a...". De acordo com a teoria estudada em *3. Scanning: Leitura de Varredura Seletiva (Locating Specific Data)*, o Scanning (análogo à operação de busca de um comando `grep` ou ao feixe de um leitor óptico) é a estratégia não-linear de leitura orientada à localização instantânea de uma informação específica pontual, dispensando por completo a leitura integral do texto.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atribui interpretações grosseiras de notícias e o desejo de enxergar a não-notícia à prática constante de...". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, causa e Efeito (*Cause and Effect Clues*): A relação de causalidade expressa por *because, since, as a result, consequently, thereby, thus, leading to* permite inferir o significado a partir do resultado prático.
+> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "considera a leitura de jornais um exercício divertido sempre que a matéria se dispõe a adivinhações...". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, ao resolver questões de ideia principal (*Skimming*), elimine imediatamente alternativas que apresentem fatos verdadeiros contidos no texto, mas que se refiram a detalhes secundários ou exemplos pontuais de um único parágrafo.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Matriz Comparativa: Skimming vs. Scanning* deste guia, modo de Varredura: Linear seletivo (lê os tópicos frasais de cima para baixo) — Totalmente não-linear (olhos movem-se em zigue-zague buscando o padrão gráfico). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 3ª/2015) ao estabelecer que "mostra que matérias jornalísticas informam não só pelo que explicitamente comunicam, mas também pelo que evitam...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "expõe a ambiguidade que a imprensa pode manifestar quando é imprecisa no trato do assunto, falta de precisão...". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The overall tone of the author can be characterized as.."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório).
 >
-> **Gabarito: E**
+> **Gabarito: D**
 
 ---
 
@@ -282,74 +282,74 @@ Determinados termos técnicos de língua inglesa possuem acepções altamente es
 ---
 
 ### Teste 568
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
-The opposite of “the smartest” (4th paragraph) is
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Telecomunicação)**
+As técnicas de acesso são essenciais na telefonia celular, permitindo a transmissão simultânea de múltiplos sinais de diferentes usuários por meio de um único meio de transmissão. A principal questão é como combinar esses sinais para transmissão no mesmo meio e separá-los na recepção, de modo a recuperar corretamente as informações individuais de cada usuário. Analise as seguintes afirmativas sobre as técnicas de acesso: I. FDMA: Os sinais de cada canal são transmitidos usando diferentes frequências e em diferentes intervalos de tempo distintos. O objetivo de utilizar diferentes frequências e intervalos de tempo é reduzir a interferência entre símbolos. II. TDMA: Vários canais compartilham a mesma portadora, sendo que cada portadora é utilizada em intervalos de tempo distintos, cada uma correspondendo a um canal de usuário. III. CDMA: Usuários se comunicam usando as mesmas frequências simultaneamente, separados por códigos ortogonais, permitindo que todos transmitam simultaneamente numa mesma banda de frequências. Está correto o que se afirma em
 
-* **A)** the least naïve.
-* **B)** the most clever.
-* **C)** the most stupid.
-* **D)** the least foolish.
-* **E)** the most sensible.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the least naïve". De acordo com a teoria estudada em *3.2 Matriz Comparativa: Skimming vs. Scanning*, comandos Típicos FCC: *"The main purpose is..", "The author primarily argues.."* — *"According to paragraph 2..", "The latency threshold in 2025 was.."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the most clever". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The distributed service implements an idempotent operation—that is, an action that can be executed multiple times without altering the outcome beyond the initial invocation—thereby preventing accidental billing duplicates."*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the most stupid". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The migration revealed several ephemeral storage configurations, such as temporary in-memory caches and non-persistent container volumes, that caused data loss upon reboot."*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the least foolish". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, contraste e Antônimos (*Contrast / Antonym Clues*): O termo opõe-se a uma ideia conhecida por meio de conectivos adversativos ou concessivos (*unlike, whereas, while, in contrast to, instead of, on the contrary, but, however*).
-> - **E)** **Correta.** Conforme fundamentado na seção *4.4 Vocabulário Crítico de Engenharia e Arquitetura de Software* deste guia, *Sensible:* Sensato, criterioso, razoável, prudente (*a sensible decision*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "the most sensible".
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, ao resolver questões de ideia principal (*Skimming*), elimine imediatamente alternativas que apresentem fatos verdadeiros contidos no texto, mas que se refiram a detalhes secundários ou exemplos pontuais de um único parágrafo.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2. Skimming: Leitura Rápida Panorâmica (Main Idea & Gist)*, o Skimming (derivado do verbo *to skim*, "desnatar", retirar a camada superior) consiste em uma leitura acelerada e panorâmica com o objetivo precípuo de captar a ideia principal (*gist / main idea*), o tema global, o tom e a arquitetura macrotextual, sem deter-se em pormenores secundários, dados numéricos isolados ou termos desconhecidos.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *4. Predição e Pistas Contextuais de Vocabulário (Context Clues)*, o candidato não precisa conhecer previamente todos os verbetes da língua inglesa; precisa, sim, saber utilizar as pistas contextuais (*Context Clues*) para deduzir o significado exato de palavras desconhecidas diretamente da oração em que figuram.
+> - **D)** **Correta.** Conforme fundamentado na seção *5.1 Cognatos Verdadeiros vs. Falsos Amigos* deste guia, os Cognatos Verdadeiros (*True Cognates*) são termos que compartilham a mesma etimologia e significado em português e inglês (ex.: *computation, memory, protocol, infrastructure, terminal, vulnerability*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "II e III, apenas".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, contraste e Antônimos (*Contrast / Antonym Clues*): O termo opõe-se a uma ideia conhecida por meio de conectivos adversativos ou concessivos (*unlike, whereas, while, in contrast to, instead of, on the contrary, but, however*).
+>
+> **Gabarito: D**
+
+---
+
+### Teste 569
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
+Assinale a opção em que a preposição A – sozinha ou combinada - tem valor semântico diferente dos demais.
+
+* **A)** O Presidente, com sua mulher, acompanhou os convidados à sala de música.
+* **B)** O policial atirou-se ao chão, cobrindo a cabeça com as mãos.
+* **C)** O ministro deverá ir a São Paulo ainda hoje para a recepção dos novos diplomatas.
+* **D)** Os seguranças dirigiram-se aos carros dos ministros e os acompanharam no desfile.
+* **E)** O banqueiro é sócio do empresário em um hotel à Rua Santa Clara, em Copacabana. Língua Inglesa READ THE TEXT AND ANSWER QUESTIONS 01 to 08: Artificial intelligence and the future of humanity Thinking and learning about artificial intelligence are the mental equivalent of a fission chain reaction. The questions get really big, really quickly. The most familiar concerns revolve around short-term impacts: the opportunities for economic productivity, health care, manufacturing, education, solving global challenges such as climate change and, on the flip side, the risks of mass unemployment, disinformation, killer robots, and concentrations of economic and strategic power. Each of these is critical, but they’re only the most immediate considerations. The deeper issue is our capacity to live meaningful, fulfilling lives in a world in which we no longer have intelligence supremacy. As long as humanity has existed, we’ve had an effective monopoly on intelligence. We have been, as far as we know, the smartest entities in the universe. At its most noble, this extraordinary gift of our evolution drives us to explore, discover and expand. Over the past roughly 50,000 years—accelerating 10,000 years ago and then even more steeply from around 300 years ago—we’ve built a vast intellectual empire made up of science, philosophy, theology, engineering, storytelling, art, technology and culture. If our civilisations—and in varying ways our individual lives—have meaning, it is found in this constant exploration, discovery and intellectual expansion. Intelligence is the raw material for it all. But what happens when we’re no longer the smartest beings in the universe? We haven’t yet achieved artificial general intelligence (AGI)—the term for an AI that could do anything we can do. But there’s no barrier in principle to doing so, and no reason it wouldn’t quickly outstrip us by orders of magnitude. Even if we solve the economic equality questions through something like a universal basic income and replace notions of ‘paid work’ with ‘meaningful activity’, how are we going to spend our lives in ways that we find meaningful, given that we’ve evolved to strive and thrive and compete? Adapted from https://www.aspistrategist.org.au/artificial- intelligence-and-the-future-of-humanity/
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Presidente, com sua mulher, acompanhou os convidados à sala de música". De acordo com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, realize: Perceber, dar-se conta; concretizar/tornar real — Realizar (fazer uma tarefa ordinária) — *Perform, execute, conduct* — *"The incident response team did not realize that the token had expired."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O policial atirou-se ao chão, cobrindo a cabeça com as mãos". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The distributed service implements an idempotent operation—that is, an action that can be executed multiple times without altering the outcome beyond the initial invocation—thereby preventing accidental billing duplicates."*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O ministro deverá ir a São Paulo ainda hoje para a recepção dos novos diplomatas". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, *Exemplo:* *"Unlike legacy monolithic repositories that are completely intertwined, modern cloud applications are composed of loosely coupled, independent microservices."*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os seguranças dirigiram-se aos carros dos ministros e os acompanharam no desfile". De acordo com a teoria estudada em *4. Predição e Pistas Contextuais de Vocabulário (Context Clues)*, o candidato não precisa conhecer previamente todos os verbetes da língua inglesa; precisa, sim, saber utilizar as pistas contextuais (*Context Clues*) para deduzir o significado exato de palavras desconhecidas diretamente da oração em que figuram.
+> - **E)** **Correta.** Conforme fundamentado na seção *4.1 Pistas de Definição, Paráfrase e Exemplificação* deste guia, *Exemplo:* *"The migration revealed several ephemeral storage configurations, such as temporary in-memory caches and non-persistent container volumes, that caused data loss upon reboot."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "O banqueiro é sócio do empresário em um hotel à Rua Santa Clara, em Copacabana. Língua Inglesa READ THE TEXT AND...".
 >
 > **Gabarito: E**
 
 ---
 
-### Teste 569
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
-According to the text, the word that “this extraordinary gift” (5th paragraph) refers to is our
-
-* **A)** world.
-* **B)** universe.
-* **C)** humanity.
-* **D)** monopoly.
-* **E)** intelligence.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "world". De acordo com a teoria estudada em *6.2 Encapsulamento Conceitual com Demonstrativos*, muitas vezes o pronome demonstrativo neutro singular (this, that) não retoma uma única palavra isolada, mas atua como um mecanismo de encapsulamento conceitual, sintetizando toda a proposição, problema ou processo delineado na oração imediatamente antecedente.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "universe". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The distributed service implements an idempotent operation—that is, an action that can be executed multiple times without altering the outcome beyond the initial invocation—thereby preventing accidental billing duplicates."*.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Matriz Comparativa: Skimming vs. Scanning* deste guia, comandos Típicos FCC: *"The main purpose is..", "The author primarily argues.."* — *"According to paragraph 2..", "The latency threshold in 2025 was.."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "humanity".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "monopoly". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The migration revealed several ephemeral storage configurations, such as temporary in-memory caches and non-persistent container volumes, that caused data loss upon reboot."*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "intelligence". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The main purpose of the text is to.."* (O objetivo central do texto é..).
->
-> **Gabarito: C**
-
----
-
 ### Teste 570
-**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
-According to the author, explaining the brain as a computer is:
+**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+A disponibilização de informações referentes a web services pode ser feita utilizando especificações que usam um modelo centralizado ou um modelo distribuído. A especificação que utiliza um modelo completamente distribuído, de forma que as descrições dos serviços possam ser armazenadas em qualquer localização, e os pedidos para se obter tais informações possam ser processados junto às entidades que prestam tais serviços, é conhecida como
 
-* **A)** inaccurate;
-* **B)** impartial;
-* **C)** faultless;
-* **D)** reliable;
-* **E)** precise.
+* **A)** Representational State Transfer − REST.
+* **B)** Web Services Description Language − WSDL.
+* **C)** Universal Description Discovery and Integration − UDDI.
+* **D)** Web Services Interoperability − WS-I.
+* **E)** Web Services Inspection Language − WSIL.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.2 Matriz Comparativa: Skimming vs. Scanning* deste guia, comandos Típicos FCC: *"The main purpose is..", "The author primarily argues.."* — *"According to paragraph 2..", "The latency threshold in 2025 was.."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "inaccurate".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "impartial". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"Which of the following statements best expresses the primary argument of the author?"* (Qual afirmação melhor resume a tese primordial do autor?).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "faultless". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The overall tone of the author can be characterized as.."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reliable". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 1 to 5 - Computer Architecture and Technical Reading Skills).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "precise". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The distributed service implements an idempotent operation—that is, an action that can be executed multiple times without altering the outcome beyond the initial invocation—thereby preventing accidental billing duplicates."*.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Representational State Transfer − REST". De acordo com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, require: Exigir, demandar, ser mandatório — Requerer juridicamente em juízo — *Request, petition, file a motion* — *"Strict data privacy regulations require encryption of data at rest."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Web Services Description Language − WSDL". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The overall tone of the author can be characterized as.."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Universal Description Discovery and Integration − UDDI". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The migration revealed several ephemeral storage configurations, such as temporary in-memory caches and non-persistent container volumes, that caused data loss upon reboot."*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Web Services Interoperability − WS-I". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, contraste e Antônimos (*Contrast / Antonym Clues*): O termo opõe-se a uma ideia conhecida por meio de conectivos adversativos ou concessivos (*unlike, whereas, while, in contrast to, instead of, on the contrary, but, however*).
+> - **E)** **Correta.** Conforme fundamentado na seção *5.2 Quadro Lexical de Falsos Cognatos Críticos* deste guia, a pegadinha com "Eventually" é recorrente na FCC. Em arquitetura de software distribuído, o teorema CAP e o modelo BASE definem a consistência eventual (*eventual consistency*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "Web Services Inspection Language − WSIL".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
@@ -385,50 +385,44 @@ Já os **Falsos Cognatos (*False Friends / False Cognates*)** possuem grafia e p
 ---
 
 ### Teste 571
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
-In the second paragraph, “on the flip side” means
+**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
+Um data mart de vendas oferece dados específicos, como metas, desempenho por região, histórico de clientes e sazonalidade de produtos, informações cruciais para que a equipe de vendas faça análises detalhadas e rápidas, comparando o desempenho entre regiões e ajustando estratégias com base em históricos e tendências específicas.
 
-* **A)** on purpose.
-* **B)** on principle.
-* **C)** on behalf of.
-* **D)** on no account.
-* **E)** on the other hand.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.2 Matriz Comparativa: Skimming vs. Scanning* deste guia, comandos Típicos FCC: *"The main purpose is..", "The author primarily argues.."* — *"According to paragraph 2..", "The latency threshold in 2025 was.."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "on purpose".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "on principle". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The main purpose of the text is to.."* (O objetivo central do texto é..).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "on behalf of". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, definição Direta e Paráfrase (*Definition / Restatement Clues*): O próprio texto elucida o termo desconhecido na sequência, frequentemente isolado por vírgulas, travessões, parênteses ou conjunções explicativas (*that is, in other words, known as, which means, defined as, namely*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "on no account". De acordo com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, actually: Na verdade, de fato, realmente, efetivamente — Atualmente, nos dias de hoje — *Currently, nowadays, presently* — *"The benchmark actually revealed a 30% reduction in query execution time."*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "on the other hand". De acordo com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, pretend: Fingir, simular, aparentar falsamente — Pretender, ter a intenção de — *Intend, aim to, plan to* — *"The malicious packet pretended to originate from an internal gateway."*.
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *4.4 Vocabulário Crítico de Engenharia e Arquitetura de Software* deste guia, *Sensitive:* Sensível, delicado, confidencial (*sensitive data*, dados sensíveis sob a LGPD). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRF 6ª/2025) ao afirmar que "Um data mart de vendas oferece dados específicos, como metas, desempenho por região, histórico de clientes e...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, segundo a qual a pegadinha com "Eventually" é recorrente na FCC. Em arquitetura de software distribuído, o teorema CAP e o modelo BASE definem a consistência eventual (*eventual consistency*).
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
 ### Teste 572
-**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
-Based on the text, mark the statements below as TRUE (T) or FALSE (F). ( ) Unlike a computer, it is hard for our brain to classify objects according to a specific purpose. ( ) The author rules out the possibility that computers may emulate the human brain someday. ( ) The brain adapts as one both matures and becomes more knowledgeable. The statements are, respectively:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Telecomunicação)**
+O sistema de multiplexação por comprimento de onda (WDM) consiste na utilização de múltiplas fontes ópticas que operam em diferentes comprimentos de onda (𝜆 ,𝜆 ,…𝜆 ) que transmitem 1 2 𝑁 fluxos de informações independentes pela mesma fibra simultaneamente, como ilustra a figura abaixo. Essa técnica de multiplexação é equivalente à multiplexação
 
-* **A)** F – T – T;
-* **B)** T – F – F;
-* **C)** F – T – F;
-* **D)** F – F – T;
-* **E)** T – T – F.
+* **A)** por divisão do tempo (TDM).
+* **B)** por divisão de polarização óptica (OPDM).
+* **C)** por divisão em código (CDM).
+* **D)** por divisão do espaço (SDM).
+* **E)** por divisão de frequência (FDM).
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – T – T". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, *Exemplo:* *"Unlike legacy monolithic repositories that are completely intertwined, modern cloud applications are composed of loosely coupled, independent microservices."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "T – F – F". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The main purpose of the text is to.."* (O objetivo central do texto é..).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – T – F". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"Which of the following statements best expresses the primary argument of the author?"* (Qual afirmação melhor resume a tese primordial do autor?).
-> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Matriz Comparativa: Skimming vs. Scanning* deste guia, comandos Típicos FCC: *"The main purpose is..", "The author primarily argues.."* — *"According to paragraph 2..", "The latency threshold in 2025 was.."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "F – F – T".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "T – T – F". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 1 to 5 - Computer Architecture and Technical Reading Skills).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "por divisão do tempo (TDM)". De acordo com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, eventually: No final das contas, por fim, com o passar do tempo — Eventualmente, de vez em quando, esporadicamente — *Occasionally, intermittently, sporadically* — *"In distributed NoSQL systems, replicas eventually achieve full data consistency."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "por divisão de polarização óptica (OPDM)". De acordo com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, as alternativas da banca insistem em traduzir como se o sistema fosse consistente "apenas às vezes" ou "de maneira imprevisível e esporádica" (*occasionally*). Elimine essa assertiva sem hesitar!.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "por divisão em código (CDM)". De acordo com a teoria estudada em *1.2 Fases do Processo de Leitura Técnica*, pré-leitura (*Pre-reading*): Leitura prévia do enunciado e das alternativas da questão antes de examinar o corpo do texto. Observação rápida do título, subtítulos, autor, fonte bibliográfica e elementos não-verbais (tabelas, figuras, trechos de código).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "por divisão do espaço (SDM)". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, $\rightarrow$ Se os microsserviços são *loosely coupled* (fracamente acoplados / independentes), o conectivo *Unlike* explicita que os monólitos *intertwined* são fortemente entrelaçados ou acoplados.
+> - **E)** **Correta.** Conforme fundamentado na seção *5.1 Cognatos Verdadeiros vs. Falsos Amigos* deste guia, os Cognatos Verdadeiros (*True Cognates*) são termos que compartilham a mesma etimologia e significado em português e inglês (ex.: *computation, memory, protocol, infrastructure, terminal, vulnerability*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "por divisão de frequência (FDM)".
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
@@ -474,50 +468,44 @@ flowchart LR
 ---
 
 ### Teste 573
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
-The expression “such as” in “such as climate change” (2nd paragraph) can be replaced without significant change in meaning by
+**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Na arquitetura SNMP, estações de gerência podem solicitar informações acerca de objetos nas MIBs enviando mensagens para agentes. Os agentes, sem receber mensagens de solicitação, podem enviar notificações para estações de gerência. Os objetos nas MIBs estão organizados hierarquicamente e cada objeto tem um identificador que informa a sua localização na hierarquia.
 
-* **A)** like.
-* **B)** as to.
-* **C)** mostly.
-* **D)** except for.
-* **E)** disregarding.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "like". De acordo com a teoria estudada em *3.2 Matriz Comparativa: Skimming vs. Scanning*, comandos Típicos FCC: *"The main purpose is..", "The author primarily argues.."* — *"According to paragraph 2..", "The latency threshold in 2025 was.."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as to". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The migration revealed several ephemeral storage configurations, such as temporary in-memory caches and non-persistent container volumes, that caused data loss upon reboot."*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mostly". De acordo com a teoria estudada em *6.2 Encapsulamento Conceitual com Demonstrativos*, *Exemplo:* *"Undetected algorithmic bias can unfairly deny social benefits to vulnerable citizens. To prevent this, regulators mandated transparent audit logs."*.
-> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Pistas de Definição, Paráfrase e Exemplificação* deste guia, *Exemplo:* *"The distributed service implements an idempotent operation—that is, an action that can be executed multiple times without altering the outcome beyond the initial invocation—thereby preventing accidental billing duplicates."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "except for".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "disregarding". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The overall tone of the author can be characterized as.."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório).
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)* deste guia, em certames públicos organizados pela Fundação Carlos Chagas (FCC) para cargos de Auditoria e Tecnologia de Controle Externo, o tempo médio disponível por questão gira em torno de 3 minutos. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STF/2008) ao afirmar que "Na arquitetura SNMP, estações de gerência podem solicitar informações acerca de objetos nas MIBs enviando...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.1 Tripé de Competências Cognitivas*, segundo a qual as lacunas no vocabulário em língua inglesa são compensadas e preenchidas pela familiaridade com o objeto computacional discutido.
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
 ### Teste 574
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
-Based on the text, mark the statements below as TRUE (T) or FALSE (F): ( ) The author mentions the fact that AGI may supplant human faculties. ( ) Ways in which we can lead meaningful lives are detailed. ( ) AGI has already solved the problems of economic equality. The statements are, respectively
+**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Um web service deve ser visto como a convergência de um conjunto de tecnologias, dentre elas o UDDI, que é um padrão para publicação e localização de web services por meio de consultas (queries) baseadas em mensagens SOAP e documentos XML. O UDDI é responsável por armazenar informações sobre o responsável pelo web service, o que o web service faz, a localização do web service e sobre como acessar seus serviços. Estas informações são divididas e organizadas em grupos semânticos conhecidos como páginas (pages). As páginas que contêm informações técnicas que descrevem o comportamento e as operações suportadas pelo serviço hospedado (incluindo indicadores para a localização do serviço) são conhecidas como
 
-* **A)** F – T – F.
-* **B)** T – F – F.
-* **C)** T – T – F.
-* **D)** F – T – T.
-* **E)** F – F – T.
+* **A)** 13 e 21.
+* **B)** 8 e 13.
+* **C)** 5 e 10.
+* **D)** 13 e 20.
+* **E)** 8 e 10.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – T – F". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The overall tone of the author can be characterized as.."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "T – F – F". De acordo com a teoria estudada em *6.1 Anáfora e Catáfora em Textos Técnicos*, which / That: Aplica-se a coisas, sistemas e conceitos inanimados.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "T – T – F". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The distributed service implements an idempotent operation—that is, an action that can be executed multiple times without altering the outcome beyond the initial invocation—thereby preventing accidental billing duplicates."*.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.2 Identificação de Tipos de Questões FCC* deste guia, *"Which of the following statements best expresses the primary argument of the author?"* (Qual afirmação melhor resume a tese primordial do autor?). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "F – T – T".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – T". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, *Exemplo:* *"Unlike legacy monolithic repositories that are completely intertwined, modern cloud applications are composed of loosely coupled, independent microservices."*.
+> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Mecânica de Execução e Tópico Frasal* deste guia, inspeção de Cabeçalho e Metadados: Ler com atenção o título (*title*), subtítulos (*headings*), notas de rodapé e a referência bibliográfica (veículo como IEEE, ACM, Gartner, NIST, data de publicação). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "13 e 21".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "8 e 13". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, uma ideia central deve cobrir a totalidade do texto, e não um aspecto isolado.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5 e 10". De acordo com a teoria estudada em *3.1 Mecânica de Execução e Pistas Tipográficas*, nomes Próprios e Acrônimos: Grafia em caixa alta ou siglas conhecidas (`NIST`, `OAuth 2.0`, `PostgreSQL`, `Kubernetes`).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "13 e 20". De acordo com a teoria estudada em *3.1 Mecânica de Execução e Pistas Tipográficas*, foco Cirúrgico Local: Ao identificar visualmente a âncora, interromper a varredura e realizar uma leitura analítica rigorosa apenas da oração que contém o termo, bem como da oração imediatamente anterior e posterior.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "8 e 10". De acordo com a teoria estudada em *3.2 Matriz Comparativa: Skimming vs. Scanning*, modo de Varredura: Linear seletivo (lê os tópicos frasais de cima para baixo) — Totalmente não-linear (olhos movem-se em zigue-zague buscando o padrão gráfico).
 >
-> **Gabarito: D**
+> **Gabarito: A**
 
 ---
 

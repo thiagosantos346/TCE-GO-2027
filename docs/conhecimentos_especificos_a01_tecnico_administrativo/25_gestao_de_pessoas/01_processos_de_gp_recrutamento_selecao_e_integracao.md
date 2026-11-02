@@ -136,8 +136,8 @@ flowchart TD
 ---
 
 ### Teste 430
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
-A qualidade de vida no trabalho (QVT) refere-se ao bem-estar geral dos colaboradores no ambiente organizacional. Isso inclui fatores como condições físicas de trabalho, equilíbrio entre vida pessoal e profissional, reconhecimento, oportunidades de desenvolvimento, e um ambiente de trabalho seguro e saudável. Com relação à QVT, avalie as afirmativas a seguir. I. Concilia duas posições opostas: as demandas dos colaboradores por bem-estar e satisfação e o interesse das organizações nos efeitos positivos sobre a produtividade e a qualidade. II. Representa um intenso movimento em direção ao profundo respeito pelo bem-estar das pessoas do ponto de vista biológico, psicológico e social. III. Almeja uma visão fragmentada do ser humano em seu relacionamento com as organizações. Está correto o que se afirma em
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+A gestão estratégica é um processo que abrange a definição e implementação de estratégias para alcançar objetivos organizacionais. Seus conceitos centrais incluem a análise do ambiente interno e externo, a formulação de planos estratégicos e a alocação eficaz de recursos para execução. Com relação à gestão estratégica, avalie as afirmativas a seguir: I. Na abordagem tradicional de formulação estratégica, o método mais utilizado é o prescritivo, originado da evolução das escolas de planejamento, gestão estratégica e posicionamento. II. Organizações menos focadas na sistematização das atividades de formulação estratégica têm adotado métodos descritivos, como os orientados às escolas de aprendizagem organizacional, à escola cognitiva e à escola empreendedora. III. Em condições imprevisíveis e dinâmicas, as organizações não precisam de métodos de resposta rápida às instabilidades futuras, nem de interação constante com stakeholders ou adaptação frequente. Está correto o que se afirma em
 
 * **A)** I, apenas.
 * **B)** I e II, apenas.
@@ -149,18 +149,18 @@ A qualidade de vida no trabalho (QVT) refere-se ao bem-estar geral dos colaborad
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1. Evolução Histórica dos Paradigmas de Gestão de Pessoas*, a administração do trabalho humano passou por profundas transformações ao longo dos séculos XX e XXI, transitando de uma visão puramente mecanicista e punitiva para uma abordagem estratégica voltada ao desenvolvimento de competências.
-> - **B)** **Correta.** Conforme fundamentado na seção *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)* deste guia, 5. Manter Pessoas: *Como reter os servidores e assegurar bem-estar?* — Clima e cultura organizacional, programas de Qualidade de Vida no Trabalho (QVT), higiene, ergonomia, medicina do trabalho e relações sindicais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I e II, apenas".
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 1. Agregar Pessoas: *Quem deve ingressar na organização?* — Planejamento de recursos humanos, recrutamento (interno/externo), seleção de pessoas e concurso público.
+> - **B)** **Correta.** Conforme fundamentado na seção *1. Evolução Histórica dos Paradigmas de Gestão de Pessoas* deste guia, a administração do trabalho humano passou por profundas transformações ao longo dos séculos XX e XXI, transitando de uma visão puramente mecanicista e punitiva para uma abordagem estratégica voltada ao desenvolvimento de competências. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I e II, apenas".
 > - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)*, prazo de Validade (Art. 37, III): Até dois anos, prorrogável uma vez por igual período (critério de discricionariedade da administração, dentro do período inicial).
 > - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)*, além disso, o art. 37, III da CF/88 estabelece que o concurso terá validade de até 2 anos, prorrogável uma vez por igual período.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4. O Processo de Agregar Pessoas: Recrutamento e Seleção*, o processo de agregar pessoas inicia-se com o diagnóstico de necessidades de pessoal e desdobra-se em duas etapas interdependentes: o recrutamento (atração) e a seleção (escolha).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 2. Aplicar Pessoas: *O que as pessoas farão na organização?* — Desenho organizacional de cargos, descrição e análise de funções, socialização organizacional (integração) e avaliação de desempenho funcional.
 >
 > **Gabarito: B**
 
 ---
 
 ### Teste 431
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
 A gestão estratégica de pessoas é um enfoque que alinha as práticas de gestão de recursos humanos aos objetivos organizacionais. Essa abordagem integra planejamento de carreira, treinamento e desenvolvimento, avaliação de desempenho e recompensas, promovendo um ambiente de trabalho motivador e produtivo. Com relação à gestão estratégica de pessoas, avalie as afirmativas a seguir. I. A gestão estratégica de pessoas integra-se à estratégia organizacional, atendendo a objetivos estratégicos, táticos e operacionais, todos devidamente interconectados. II. Não é necessário ter uma clara ideia do impacto do mercado e do ambiente externo em que a empresa está envolvida; a organização pode focar apenas em seus processos internos sem considerar essas variáveis para a gestão estratégica de pessoas. III. A avaliação do desempenho e dos resultados é a etapa de feedback constante e ágil para medição do que foi planejado e realizado. Está correto o que se afirma em
 
 * **A)** I, apenas.
@@ -175,7 +175,7 @@ A gestão estratégica de pessoas é um enfoque que alinha as práticas de gest�
 >
 > - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 2. Aplicar Pessoas: *O que as pessoas farão na organização?* — Desenho organizacional de cargos, descrição e análise de funções, socialização organizacional (integração) e avaliação de desempenho funcional.
 > - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 4. Desenvolver Pessoas: *Como capacitar e expandir o potencial?* — Diagnóstico de necessidades de treinamento (LNT), programas de capacitação, desenvolvimento gerencial, gestão do conhecimento e planos de carreira.
-> - **C)** **Correta.** Conforme fundamentado na seção *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)* deste guia, 1. Agregar Pessoas: *Quem deve ingressar na organização?* — Planejamento de recursos humanos, recrutamento (interno/externo), seleção de pessoas e concurso público. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I e III, apenas".
+> - **C)** **Correta.** Conforme fundamentado na seção *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)* deste guia, 1. Agregar Pessoas: *Quem deve ingressar na organização?* — Planejamento de recursos humanos, recrutamento (interno/externo), seleção de pessoas e concurso público. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I e III, apenas".
 > - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1. Evolução Histórica dos Paradigmas de Gestão de Pessoas*, a administração do trabalho humano passou por profundas transformações ao longo dos séculos XX e XXI, transitando de uma visão puramente mecanicista e punitiva para uma abordagem estratégica voltada ao desenvolvimento de competências.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, impacto na Motivação: Eleva a motivação interna e valoriza a carreira funcional. — Pode desmotivar servidores internos que almejavam a oportunidade. — Equilibra estímulo interno e ampliação de horizontes.
 >
@@ -251,26 +251,26 @@ flowchart LR
 ---
 
 ### Teste 432
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
-A Gestão da Qualidade, ao analisar percepções equivocadas ou parciais sobre o tema observadas no cotidiano organizacional, costuma reconvertê-las em ações estratégicas, transformando cada limitação em ponto de partida para uma intervenção orientada à produção da qualidade. Relacione as posições consagradas sobre qualidade às respectivas ações estratégicas que a Gestão da Qualidade pode desenvolver a partir delas. Posição sobre Ação estratégica qualidade 1. A qualidade é um aspecto subjetivo. ( ) Priorizar processos produtivos mais confiáveis. 2. A qualidade identifica-se com capacidade de fabricação. ( ) Ampliar o número de clientes, cujas preferências passariam a ser atendidas por essas novas alternativas de produtos ou de itens que os compõem. 3. A qualidade envolve a diversidade de opções que um produto ou serviço pode oferecer a seus clientes. ( ) Investir em melhorias do processo produtivo que evitem o aparecimento de quaisquer defeitos e falhas. 4. A qualidade é considerada como a falta de defeitos no produto ou no serviço prestado. ( ) Desenvolver processos em que o cliente interfira na produção de bens ou serviços da empresa, tornando-os mais adequados às suas necessidades, preferências ou conveniências. Assinale a opção que indica a relação correta, na ordem apresentada.
+**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
+Os princípios da gestão de qualidade incluem os seguintes, à exceção de um. Assinale-o.
 
-* **A)** 1 – 3 – 4 – 2.
-* **B)** 2 – 3 – 4 – 1.
-* **C)** 2 – 4 – 3 – 1.
-* **D)** 4 – 1 – 2 – 3.
-* **E)** 3 – 2 – 1 – 4.
+* **A)** Liderança.
+* **B)** Foco no cliente.
+* **C)** Envolvimento das pessoas.
+* **D)** Abordagem de processo.
+* **E)** Inovação estratégica.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 3 – 4 – 2". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 4. Desenvolver Pessoas: *Como capacitar e expandir o potencial?* — Diagnóstico de necessidades de treinamento (LNT), programas de capacitação, desenvolvimento gerencial, gestão do conhecimento e planos de carreira.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 3 – 4 – 1". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, trata-se da tendência de um órgão ou empresa, ao recrutar exclusivamente membros de seus próprios quadros internos, de perpetuar os mesmos padrões de pensamento, cristalizar defeitos e inibir o surgimento de ideias inovadoras.
-> - **C)** **Correta.** Conforme fundamentado na seção *5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)* deste guia, direito Subjetivo à Nomeação (Jurisprudência Vinculante do STF - Tema 161 / RE 598.099): O candidato aprovado dentro do número de vagas previsto originariamente no edital do concurso público possui direito público subjetivo à nomeação durante o prazo de validade do certame. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "2 – 4 – 3 – 1".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4 – 1 – 2 – 3". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 5. Manter Pessoas: *Como reter os servidores e assegurar bem-estar?* — Clima e cultura organizacional, programas de Qualidade de Vida no Trabalho (QVT), higiene, ergonomia, medicina do trabalho e relações sindicais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 2 – 1 – 4". De acordo com a teoria estudada em *Comparativo Histórico: As Quatro Eras*, concepção das Pessoas: Engrenagens mecânicas, mão de obra braçal e geradoras de custo estrito. — Funcionários tutelados por normas estatais e sindicais. — Recursos produtivos padronizados a serem geridos e alocados. — Parceiras estratégicas, fontes de inteligência, competência e diferenciação.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Liderança". De acordo com a teoria estudada em *Técnicas de Seleção de Pessoas*, simulação de situações reais de trabalho, dramatizações (*role-playing*) e jogos de negócios para observar liderança, trabalho em equipe e comunicação interpessoal.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Foco no cliente". De acordo com a teoria estudada em *1. Evolução Histórica dos Paradigmas de Gestão de Pessoas*, a administração do trabalho humano passou por profundas transformações ao longo dos séculos XX e XXI, transitando de uma visão puramente mecanicista e punitiva para uma abordagem estratégica voltada ao desenvolvimento de competências.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Envolvimento das pessoas". De acordo com a teoria estudada em *3. Rotinas Administrativas do Departamento de Pessoal no Setor Público*, mesmo sob uma ótica estratégica, as rotinas operacionais de pessoal são indispensáveis para garantir a estrita legalidade e conformidade dos atos de gestão pública.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Abordagem de processo". De acordo com a teoria estudada em *Comparativo Histórico: As Quatro Eras*, período Predominante: Início do século XX (Teoria Clássica / Taylorismo). — Décadas de 1930 a 1950 (Pós-Revolução de 30 / CLT). — Décadas de 1960 a 1980 (Abordagem Sistêmica / Contingencial). — Década de 1990 em diante (Era do Conhecimento).
+> - **E)** **Correta.** Conforme fundamentado na seção *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto* deste guia, inovação Cultural: Risco de Endogamia Cultural (*Inbreeding*): cristaliza velhos hábitos e rotinas. — Renovação (*Sangue Novo*): agrega novos saberes e rompe paradigmas. — Permite conciliar estabilidade institucional e inovação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "Inovação estratégica".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
@@ -317,50 +317,50 @@ flowchart TD
 ---
 
 ### Teste 433
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Contabilidade – 2024)**
-Com relação à gestão de custos no setor público, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F). ( ) A gestão de custos no setor público é voltada à administração dos insumos, com ênfase na melhoria da alocação dos recursos e à identificação e mensuração das entregas, com ênfase na avaliação de desempenho. ( ) A informação de custos deve ser útil para subsidiar a avaliação das políticas públicas, apresentando os resultados alcançados, consubstanciados em relatórios contendo seus indicadores de desempenho. ( ) Os gestores operacionais são os responsáveis por prover efetivo apoio à geração da informação de custos, além de responsabilizar os funcionários do departamento de custos pela qualidade dos dados e pelo uso das informações nos processos decisórios. De acordo com a NBC TSP 34 – Custos no Setor Público, as afirmativas são, respectivamente,
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
+Uma sociedade empresária presta serviços de consultoria ambiental. Em julho de 2024, a sociedade empresária reconheceu R$340.000 a título de salários, do seguinte modo: Jurídico: R$15.000; Secretárias: R$20.000; Auditoria Interna: R$30.000; Recursos Humanos: R$35.000; Contadores: R$40.000; Consultores ambientais : R$200.000. A sociedade empresária elabora a sua Demonstração do Resultado do Exercício de acordo com o método da função da despesa. Assinale a opção que indica as despesas de salários reconhecidas como Despesas Gerais e Administrativas no mês.
 
-* **A)** V – V – F.
-* **B)** V – F – V.
-* **C)** F – V – V.
-* **D)** V – F – F.
-* **E)** F – V – F.
+* **A)** R$35.000.
+* **B)** R$65.000.
+* **C)** R$100.000.
+* **D)** R$140.000.
+* **E)** R$340.000.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)* deste guia, 6. Monitorar Pessoas: *Como registrar e acompanhar as informações?* — Bancos de dados funcionais, prontuários do servidor, sistemas integrados de gestão de RH (SIRH) e auditoria de pessoal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "V – V – F".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – V". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, o macroprocesso de Monitorar Pessoas restringe-se a cadastros, bancos de dados, relatórios gerenciais e auditoria de regularidade funcional.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 2. Aplicar Pessoas: *O que as pessoas farão na organização?* — Desenho organizacional de cargos, descrição e análise de funções, socialização organizacional (integração) e avaliação de desempenho funcional.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, a Avaliação de Desempenho pertence ao macroprocesso de APLICAR PESSOAS (e NÃO a "Monitorar pessoas" nem a "Desenvolver pessoas"). Aplicar significa verificar o que as pessoas fazem e como estão desempenhando suas atribuições.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – F". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 1. Agregar Pessoas: *Quem deve ingressar na organização?* — Planejamento de recursos humanos, recrutamento (interno/externo), seleção de pessoas e concurso público.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$35.000". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 1. Agregar Pessoas: *Quem deve ingressar na organização?* — Planejamento de recursos humanos, recrutamento (interno/externo), seleção de pessoas e concurso público.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$65.000". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, impacto na Motivação: Eleva a motivação interna e valoriza a carreira funcional. — Pode desmotivar servidores internos que almejavam a oportunidade. — Equilibra estímulo interno e ampliação de horizontes.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$100.000". De acordo com a teoria estudada em *Técnicas de Seleção de Pessoas*, avaliam o nível de conhecimento teórico e prático exigido para a função.
+> - **D)** **Correta.** Conforme fundamentado na seção *Pessoas como Recursos vs. Pessoas como Parceiras (Idalberto Chiavenato)* deste guia, investimento prioritário da organização para a melhoria dos serviços públicos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "R$140.000".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$340.000". De acordo com a teoria estudada em *Técnicas de Seleção de Pessoas*, r (*Resultado*): impactos qualitativos e quantitativos alcançados.
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
 ### Teste 434
-**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
-A avaliação do custo-benefício de um título permutado com outra instituição ou biblioteca deve considerar, entre outras coisas, o equilíbrio de conteúdo das publicações, os custos reais da publicação da própria entidade, os custos de todos os serviços para abrigar o título recebido e
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Sem Especialidade)**
+A gestão de desempenho é um processo contínuo e estratégico que busca alinhar os objetivos individuais e organizacionais, monitorar resultados e promover melhorias para alcançar a eficiência e a eficácia nas atividades realizadas. Assinale a opção que descreve, corretamente, uma etapa do processo de gestão de desempenho.
 
-* **A)** o processamento do material comparado com o mesmo processamento se fosse adquirido por compra.
-* **B)** o tempo necessário para recebimento do material comparado com o mesmo tempo se fosse adquirido por compra.
-* **C)** o tempo necessário para realização dos contatos visando o estabelecimento da permuta.
-* **D)** o aumento da carga de trabalho devido à ampliação do número de títulos permutados.
-* **E)** a cultura da organização.
+* **A)** A gestão de desempenho começa diretamente com a revisão do desempenho, que organiza os resultados e fornece feedback antes da definição de objetivos organizacionais.
+* **B)** O planejamento do desempenho envolve o foco nos resultados alcançados anteriormente, desconsiderando a articulação de objetivos e a organização de recursos.
+* **C)** A revisão do desempenho tem como principal objetivo redefinir os objetivos organizacionais, sem relação direta com planos de desenvolvimento ou feedback dos resultados.
+* **D)** O processo de gestão de desempenho é linear, e as etapas não possuem relação entre si, sendo executadas de forma independente.
+* **E)** A condução do desempenho está relacionada a atividades como determinar requisitos, proporcionar liderança, oferecer supervisão e implementar práticas de coaching e mentoring.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o processamento do material comparado com o mesmo processamento se fosse adquirido por compra". De acordo com a teoria estudada em *3. Rotinas Administrativas do Departamento de Pessoal no Setor Público*, processamento de justificativas legais, faltas abonadas e desconto em folha decorrente de ausências não justificadas.
-> - **B)** **Correta.** Conforme fundamentado na seção *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto* deste guia, tempo de Execução: Rápido: os colaboradores já são conhecidos e estão cadastrados. — Lento e moroso: prazos de inscrição, recursos e homologação. — Médio a longo. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "o tempo necessário para recebimento do material comparado com o mesmo tempo se fosse adquirido por compra".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o tempo necessário para realização dos contatos visando o estabelecimento da permuta". De acordo com a teoria estudada em *3. Rotinas Administrativas do Departamento de Pessoal no Setor Público*, realização de perícia médica oficial e aferição de aptidão física/mental.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o aumento da carga de trabalho devido à ampliação do número de títulos permutados". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, impacto na Motivação: Eleva a motivação interna e valoriza a carreira funcional. — Pode desmotivar servidores internos que almejavam a oportunidade. — Equilibra estímulo interno e ampliação de horizontes.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a cultura da organização". De acordo com a teoria estudada em *Pessoas como Recursos vs. Pessoas como Parceiras (Idalberto Chiavenato)*, investimento prioritário da organização para a melhoria dos serviços públicos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A gestão de desempenho começa diretamente com a revisão do desempenho, que organiza os resultados e fornece...". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, a Avaliação de Desempenho pertence ao macroprocesso de APLICAR PESSOAS (e NÃO a "Monitorar pessoas" nem a "Desenvolver pessoas"). Aplicar significa verificar o que as pessoas fazem e como estão desempenhando suas atribuições.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O planejamento do desempenho envolve o foco nos resultados alcançados anteriormente, desconsiderando a articulação...". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 1. Agregar Pessoas: *Quem deve ingressar na organização?* — Planejamento de recursos humanos, recrutamento (interno/externo), seleção de pessoas e concurso público.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A revisão do desempenho tem como principal objetivo redefinir os objetivos organizacionais, sem relação direta com...". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 4. Desenvolver Pessoas: *Como capacitar e expandir o potencial?* — Diagnóstico de necessidades de treinamento (LNT), programas de capacitação, desenvolvimento gerencial, gestão do conhecimento e planos de carreira.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O processo de gestão de desempenho é linear, e as etapas não possuem relação entre si, sendo executadas de forma...". De acordo com a teoria estudada em *4. O Processo de Agregar Pessoas: Recrutamento e Seleção*, o processo de agregar pessoas inicia-se com o diagnóstico de necessidades de pessoal e desdobra-se em duas etapas interdependentes: o recrutamento (atração) e a seleção (escolha).
+> - **E)** **Correta.** Conforme fundamentado na seção *Comparativo Histórico: As Quatro Eras* deste guia, papel da Liderança: Fiscalização, vigilância e aplicação de punições regimentais. — Intermediação de acordos e gestão do cumprimento legal. — Supervisão hierárquica e controle burocrático de procedimentos. — Liderança coach, facilitação do desenvolvimento e delegação de autoridade (*empowerment*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "A condução do desempenho está relacionada a atividades como determinar requisitos, proporcionar liderança...".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
@@ -395,50 +395,50 @@ flowchart TD
 ---
 
 ### Teste 435
-**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
-Nos últimos anos, a administração pública brasileira tem dado cada vez mais atenção à gestão da integridade. Programas de integridade, que abrangem ações preventivas e corretivas contra fraudes e corrupção, são fundamentais para promover a confiança pública e criar um ambiente favorável ao desenvolvimento econômico. Assinale a opção que descreve a função suporte da alta administração nos programas de integridade.
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+O ordenador de despesas de um órgão federal verificou, no segundo semestre do exercício financeiro, que os créditos orçamentários originalmente aprovados na Lei Orçamentária Anual (LOA) seriam insuficientes para cobrir despesas essenciais previstas em programa prioritário do Plano Plurianual. Diante disso, o gestor cogitou adotar medidas para adequar a execução orçamentária à nova realidade, observando os limites e procedimentos estabelecidos pela Constituição Federal de 1988 e pela Lei nº 4.320/1964. Considerando os instrumentos de planejamento e gestão orçamentária e os procedimentos de controle financeiro aplicáveis à situação, assinale a afirmativa correta.
 
-* **A)** Desenvolver mecanismos de controle para gerenciar os riscos internos e externos da organização.
-* **B)** Promover a adesão dos colaboradores a um código de conduta específico para prevenir fraudes e corrupção.
-* **C)** Realizar auditorias independentes para detectar violações e garantir a conformidade com as políticas da organização.
-* **D)** Dar aval explícito e apoio incondicional como exemplo a ser seguido, reforçando o compromisso de transformar a cultura da organização.
-* **E)** Monitorar continuamente as operações da organização, garantindo a adaptação dos instrumentos e estruturas às novas demandas. Legislação Aplicável ao Tribunal de Contas do Estado do Piauí
+* **A)** O instrumento adequado para reforçar dotação orçamentária já existente é o crédito especial, aberto por lei específica e destinado a despesas para as quais não haja dotação orçamentária específica na LOA vigente.
+* **B)** O instrumento adequado é o crédito extraordinário, que pode ser aberto por medida provisória no âmbito federal e independe de indicação de fonte de recursos, sendo aplicável a qualquer situação de insuficiência orçamentária verificada durante o exercício.
+* **C)** O instrumento adequado é o crédito suplementar, destinado a reforçar dotação orçamentária já existente na LOA, cuja abertura depende de autorização legislativa e de indicação de fonte de recursos, nos termos do Art. 43 da Lei nº 4.320/1964.
+* **D)** A insuficiência de créditos orçamentários deve ser suprida por remanejamento direto entre dotações de quaisquer órgãos, por ato do ordenador de despesas, independentemente de autorização legislativa, desde que o valor total da LOA não seja alterado.
+* **E)** A situação descrita pode ser resolvida pela revisão do Plano Plurianual (PPA) durante o exercício financeiro, pois a alteração do PPA implica automaticamente a ampliação dos créditos orçamentários correspondentes na LOA vigente, dispensando a abertura de créditos adicionais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto* deste guia, origem dos Candidatos: Colaboradores que já integram a instituição (promoções, relotações). — Candidatos externos disponíveis no mercado ou em outros órgãos. — Combina candidatos internos e externos na mesma disputa. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "Desenvolver mecanismos de controle para gerenciar os riscos internos e externos da organização".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Promover a adesão dos colaboradores a um código de conduta específico para prevenir fraudes e corrupção". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 4. Desenvolver Pessoas: *Como capacitar e expandir o potencial?* — Diagnóstico de necessidades de treinamento (LNT), programas de capacitação, desenvolvimento gerencial, gestão do conhecimento e planos de carreira.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Realizar auditorias independentes para detectar violações e garantir a conformidade com as políticas da organização". De acordo com a teoria estudada em *3. Rotinas Administrativas do Departamento de Pessoal no Setor Público*, mesmo sob uma ótica estratégica, as rotinas operacionais de pessoal são indispensáveis para garantir a estrita legalidade e conformidade dos atos de gestão pública.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Dar aval explícito e apoio incondicional como exemplo a ser seguido, reforçando o compromisso de transformar a...". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 5. Manter Pessoas: *Como reter os servidores e assegurar bem-estar?* — Clima e cultura organizacional, programas de Qualidade de Vida no Trabalho (QVT), higiene, ergonomia, medicina do trabalho e relações sindicais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Monitorar continuamente as operações da organização, garantindo a adaptação dos instrumentos e estruturas às novas...". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, a Avaliação de Desempenho pertence ao macroprocesso de APLICAR PESSOAS (e NÃO a "Monitorar pessoas" nem a "Desenvolver pessoas"). Aplicar significa verificar o que as pessoas fazem e como estão desempenhando suas atribuições.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O instrumento adequado para reforçar dotação orçamentária já existente é o crédito especial, aberto por lei...". De acordo com a teoria estudada em *5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)*, *Cargos em comissão declarados em lei de livre nomeação e exoneração* (destinados exclusivamente às atribuições de direção, chefia e assessoramento — art. 37, II e V).
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "O instrumento adequado é o crédito extraordinário, que pode ser aberto por medida provisória no âmbito federal e...". De acordo com a teoria estudada em *5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)*, direito Subjetivo à Nomeação (Jurisprudência Vinculante do STF - Tema 161 / RE 598.099): O candidato aprovado dentro do número de vagas previsto originariamente no edital do concurso público possui direito público subjetivo à nomeação durante o prazo de validade do certame.
+> - **C)** **Correta.** Conforme fundamentado na seção *5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)* deste guia, exigência Constitucional (Art. 37, II): A investidura em cargo ou emprego público depende de aprovação prévia em concurso público de provas ou de provas e títulos, de acordo com a natureza e a complexidade do cargo ou emprego, na forma prevista em lei. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "O instrumento adequado é o crédito suplementar, destinado a reforçar dotação orçamentária já existente na LOA...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A insuficiência de créditos orçamentários deve ser suprida por remanejamento direto entre dotações de quaisquer...". De acordo com a teoria estudada em *5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)*, a prorrogação deve ser pelo mesmo prazo fixado no edital original (se o edital fixou 1 ano, prorroga-se por mais 1 ano; se fixou 6 meses, prorroga-se por 6 meses).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A situação descrita pode ser resolvida pela revisão do Plano Plurianual (PPA) durante o exercício financeiro, pois...". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, impacto na Motivação: Eleva a motivação interna e valoriza a carreira funcional. — Pode desmotivar servidores internos que almejavam a oportunidade. — Equilibra estímulo interno e ampliação de horizontes.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
 ### Teste 436
-**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
-Os princípios da gestão de qualidade incluem os seguintes, à exceção de um. Assinale-o.
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
+A Gestão de Riscos busca identificar, analisar e mitigar ameaças potenciais, garantindo a resiliência e a sustentabilidade da organização. Assinale a opção que apresenta, corretamente, o risco de conformidade.
 
-* **A)** Liderança.
-* **B)** Foco no cliente.
-* **C)** Envolvimento das pessoas.
-* **D)** Abordagem de processo.
-* **E)** Inovação estratégica.
+* **A)** Trata-se do risco de perdas financeiras geradas por falhas tecnológicas, como interrupções em sistemas e ataques cibernéticos.
+* **B)** Representa a probabilidade de perdas decorrentes do não cumprimento de leis, normas e regulamentos, internos ou externos, podendo afetar financeiramente a organização.
+* **C)** Refere-se ao risco associado à variação de mercado e às flutuações cambiais, que impactam diretamente o desempenho financeiro da organização.
+* **D)** Diz respeito aos riscos operacionais relacionados à má alocação de recursos humanos e à deficiência na comunicação interna.
+* **E)** Está ligado exclusivamente à gestão de contratos e ao descumprimento de cláusulas contratuais por parte de fornecedores terceirizados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Liderança". De acordo com a teoria estudada em *Comparativo Histórico: As Quatro Eras*, papel da Liderança: Fiscalização, vigilância e aplicação de punições regimentais. — Intermediação de acordos e gestão do cumprimento legal. — Supervisão hierárquica e controle burocrático de procedimentos. — Liderança coach, facilitação do desenvolvimento e delegação de autoridade (*empowerment*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Foco no cliente". De acordo com a teoria estudada em *3. Rotinas Administrativas do Departamento de Pessoal no Setor Público*, mesmo sob uma ótica estratégica, as rotinas operacionais de pessoal são indispensáveis para garantir a estrita legalidade e conformidade dos atos de gestão pública.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Envolvimento das pessoas". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, inovação Cultural: Risco de Endogamia Cultural (*Inbreeding*): cristaliza velhos hábitos e rotinas. — Renovação (*Sangue Novo*): agrega novos saberes e rompe paradigmas. — Permite conciliar estabilidade institucional e inovação.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Abordagem de processo". De acordo com a teoria estudada em *Comparativo Histórico: As Quatro Eras*, período Predominante: Início do século XX (Teoria Clássica / Taylorismo). — Décadas de 1930 a 1950 (Pós-Revolução de 30 / CLT). — Décadas de 1960 a 1980 (Abordagem Sistêmica / Contingencial). — Década de 1990 em diante (Era do Conhecimento).
-> - **E)** **Correta.** Conforme fundamentado na seção *1. Evolução Histórica dos Paradigmas de Gestão de Pessoas* deste guia, a administração do trabalho humano passou por profundas transformações ao longo dos séculos XX e XXI, transitando de uma visão puramente mecanicista e punitiva para uma abordagem estratégica voltada ao desenvolvimento de competências. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "Inovação estratégica".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Trata-se do risco de perdas financeiras geradas por falhas tecnológicas, como interrupções em sistemas e ataques...". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, origem dos Candidatos: Colaboradores que já integram a instituição (promoções, relotações). — Candidatos externos disponíveis no mercado ou em outros órgãos. — Combina candidatos internos e externos na mesma disputa.
+> - **B)** **Correta.** Conforme fundamentado na seção *Comparativo Histórico: As Quatro Eras* deste guia, foco de Atuação: Registro mecânico de ponto, livros de registro e apuração de folha. — Cumprimento de leis trabalhistas, contratos coletivos e litígios. — Técnicas operacionais especializadas (cargos, salários, testes). — Alinhamento com a estratégia, geração de valor público e gestão do conhecimento. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "Representa a probabilidade de perdas decorrentes do não cumprimento de leis, normas e regulamentos, internos ou...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Refere-se ao risco associado à variação de mercado e às flutuações cambiais, que impactam diretamente o desempenho...". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 2. Aplicar Pessoas: *O que as pessoas farão na organização?* — Desenho organizacional de cargos, descrição e análise de funções, socialização organizacional (integração) e avaliação de desempenho funcional.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diz respeito aos riscos operacionais relacionados à má alocação de recursos humanos e à deficiência na comunicação...". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 1. Agregar Pessoas: *Quem deve ingressar na organização?* — Planejamento de recursos humanos, recrutamento (interno/externo), seleção de pessoas e concurso público.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Está ligado exclusivamente à gestão de contratos e ao descumprimento de cláusulas contratuais por parte de...". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, trata-se da tendência de um órgão ou empresa, ao recrutar exclusivamente membros de seus próprios quadros internos, de perpetuar os mesmos padrões de pensamento, cristalizar defeitos e inibir o surgimento de ideias inovadoras.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 
@@ -470,7 +470,7 @@ flowchart LR
 ---
 
 ### Teste 437
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**
 Na empresa ABC, a área tradicionalmente denominada "Recursos Humanos" passa por ampla reformulação, refletindo o novo contexto organizacional marcado por mudanças vertiginosas, dinâmicas exponenciais e pela confluência de fatores econômicos, tecnológicos, sociais, culturais, legais, políticos, demográficos e ecológicos. A Diretoria avalia a substituição da nomenclatura por termos que melhor expressem os novos espaços, configurações e propósitos assumidos pela área. Considerando as transformações contemporâneas que afetam a Gestão de Pessoas, assinale a opção que apresenta uma terminologia compatível com essa reformulação.
 
 * **A)** Gestão do Capital Intelectual.
@@ -483,13 +483,13 @@ Na empresa ABC, a área tradicionalmente denominada "Recursos Humanos" passa por
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gestão do Capital Intelectual". De acordo com a teoria estudada em *Pessoas como Recursos vs. Pessoas como Parceiras (Idalberto Chiavenato)*, pessoas como Parceiras (Capital Intelectual).
-> - **B)** **Correta.** Conforme fundamentado na seção *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)* deste guia, 1. Agregar Pessoas: *Quem deve ingressar na organização?* — Planejamento de recursos humanos, recrutamento (interno/externo), seleção de pessoas e concurso público. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "Gestão de Suprimentos".
+> - **A)** **Correta.** Conforme fundamentado na seção *Pessoas como Recursos vs. Pessoas como Parceiras (Idalberto Chiavenato)* deste guia, pessoas como Parceiras (Capital Intelectual). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "Gestão do Capital Intelectual".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gestão de Suprimentos". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 1. Agregar Pessoas: *Quem deve ingressar na organização?* — Planejamento de recursos humanos, recrutamento (interno/externo), seleção de pessoas e concurso público.
 > - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gestão Patrimonial". De acordo com a teoria estudada em *Práticas Institucionais de Socialização no Setor Público*, programa de Boas-Vindas e Ambientação: Acolhida institucional pelos gestores e pela área de Gestão de Pessoas no primeiro dia de trabalho.
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gestão de Compliance". De acordo com a teoria estudada em *1. Evolução Histórica dos Paradigmas de Gestão de Pessoas*, a administração do trabalho humano passou por profundas transformações ao longo dos séculos XX e XXI, transitando de uma visão puramente mecanicista e punitiva para uma abordagem estratégica voltada ao desenvolvimento de competências.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gestão Tributária". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 3. Recompensar Pessoas: *Como remunerar e incentivar o trabalho?* — Remuneração direta (vencimento básico), remuneração indireta, gratificações, adicionais pecuniários e benefícios sociais.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -503,50 +503,44 @@ Na empresa ABC, a área tradicionalmente denominada "Recursos Humanos" passa por
 ---
 
 ### Teste 438
-**(FGV – TRT-24 – Analista Judiciario Area Administrativa Sem Especialidade – 2025)**
-A Qualidade de Vida no Trabalho (QVT) no setor público visa promover um ambiente organizacional saudável, equilibrado e motivador, que valorize o servidor, melhore o desempenho institucional e fortaleça o compromisso com o serviço à sociedade. Assinale a opção que apresenta corretamente um fator-chave da QVT no setor público, relacionado à satisfação de clientes internos e externos.
+**(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Sobre o Planejamento e Gestão Estratégica, descrito na Resolução no 70/2009 do Conselho Nacional de Justiça, está correto afirmar:
 
-* **A)** Compensação: associada à inovação, variedade e ritmo de trabalho.
-* **B)** Moral: envolve bonificações, benefícios sociais e participação nos lucros.
-* **C)** Organização do trabalho: relaciona-se à saúde ocupacional e à educação preventiva.
-* **D)** Participação: refere-se à criatividade, à expressão pessoal e aos programas de capacitação.
-* **E)** Comunicação: está ligada ao apoio psicossocial, à orientação técnica e ao gerenciamento pelo exemplo.
+* **A)** Os tribunais garantirão a participação efetiva de serventuários e de magistrados de primeiro e segundo graus, indicados pelas respectivas entidades de classe, na elaboração e na execução de suas propostas orçamentárias e planejamentos estratégicos.
+* **B)** Os planejamentos estratégicos, alinhados ao Plano Estratégico Nacional, devem ter uma abrangência mínima de quatro anos e deverão ter, pelo menos, um indicador de resultado para cada objetivo estratégico.
+* **C)** As propostas orçamentárias dos tribunais devem ser alinhadas aos respectivos planejamentos táticos para que sejam garantidos os recursos necessários a sua execução.
+* **D)** Os Tribunais promoverão Reuniões de Análise da Estratégia (RAE) semestrais para acompanhamento dos resultados das metas fixadas, oportunidade em que poderão promover ajustes e outras medidas necessárias à melhoria do desempenho.
+* **E)** Um dos objetivos estratégicos é facilitar o acesso à Justiça, com o objetivo de centralizar a relação da população com os órgãos judiciais e garantir equidade no atendimento à sociedade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Compensação: associada à inovação, variedade e ritmo de trabalho". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 4. Desenvolver Pessoas: *Como capacitar e expandir o potencial?* — Diagnóstico de necessidades de treinamento (LNT), programas de capacitação, desenvolvimento gerencial, gestão do conhecimento e planos de carreira.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Moral: envolve bonificações, benefícios sociais e participação nos lucros". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 3. Recompensar Pessoas: *Como remunerar e incentivar o trabalho?* — Remuneração direta (vencimento básico), remuneração indireta, gratificações, adicionais pecuniários e benefícios sociais.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Organização do trabalho: relaciona-se à saúde ocupacional e à educação preventiva". De acordo com a teoria estudada em *Práticas Institucionais de Socialização no Setor Público*, programa de Boas-Vindas e Ambientação: Acolhida institucional pelos gestores e pela área de Gestão de Pessoas no primeiro dia de trabalho.
-> - **D)** **Correta.** Conforme fundamentado na seção *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)* deste guia, 5. Manter Pessoas: *Como reter os servidores e assegurar bem-estar?* — Clima e cultura organizacional, programas de Qualidade de Vida no Trabalho (QVT), higiene, ergonomia, medicina do trabalho e relações sindicais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Participação: refere-se à criatividade, à expressão pessoal e aos programas de capacitação".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Comunicação: está ligada ao apoio psicossocial, à orientação técnica e ao gerenciamento pelo exemplo". De acordo com a teoria estudada em *Técnicas de Seleção de Pessoas*, simulação de situações reais de trabalho, dramatizações (*role-playing*) e jogos de negócios para observar liderança, trabalho em equipe e comunicação interpessoal.
+> - **A)** **Correta.** Conforme fundamentado na seção *Práticas Institucionais de Socialização no Setor Público* deste guia, programa de Boas-Vindas e Ambientação: Acolhida institucional pelos gestores e pela área de Gestão de Pessoas no primeiro dia de trabalho. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 16ª/2014) ao estabelecer que "Os tribunais garantirão a participação efetiva de serventuários e de magistrados de primeiro e segundo graus...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os planejamentos estratégicos, alinhados ao Plano Estratégico Nacional, devem ter uma abrangência mínima de quatro...". De acordo com a teoria estudada em *Pessoas como Recursos vs. Pessoas como Parceiras (Idalberto Chiavenato)*, devem ser rigidamente controladas, padronizadas e subordinadas à hierarquia.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As propostas orçamentárias dos tribunais devem ser alinhadas aos respectivos planejamentos táticos para que sejam...". De acordo com a teoria estudada em *Pessoas como Recursos vs. Pessoas como Parceiras (Idalberto Chiavenato)*, consideradas exclusivamente como centro de custos que consome verbas orçamentárias.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os Tribunais promoverão Reuniões de Análise da Estratégia (RAE) semestrais para acompanhamento dos resultados das...". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 2. Aplicar Pessoas: *O que as pessoas farão na organização?* — Desenho organizacional de cargos, descrição e análise de funções, socialização organizacional (integração) e avaliação de desempenho funcional.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Um dos objetivos estratégicos é facilitar o acesso à Justiça, com o objetivo de centralizar a relação da população...". De acordo com a teoria estudada em *5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)*, no Estado Democrático de Direito, o concurso público é a ferramenta primordial para democratizar o acesso aos cargos públicos e garantir um corpo funcional competente e impessoal.
 >
-> **Gabarito: D**
+> **Gabarito: A**
 
 ---
 
 ### Teste 439
-**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
-Nas atividades culturais realizadas no âmbito da biblioteca são utilizadas várias técnicas e instrumentos combinados. Na perspectiva da ação cultural, como proposta por José Teixeira Coelho Neto, essas atividades devem
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+A criação da estrutura analítica do projeto, o sequenciamento de atividades e a estimativa de recursos para o projeto são atividades do grupo de processos de planejamento.
 
-* **A)** alavancar a produção cultural, em que os participantes são sujeitos do processo.
-* **B)** ter princípio, meio e fim predeterminados, visando a realização de um produto.
-* **C)** partir de um projeto da instituição e envolver os usuários como seus receptores.
-* **D)** divertir o público e promover formas de lazer que incluam programas de leitura e de arte.
-* **E)** facilitar o uso de instalações e meios ao desenvolvimento de eventos culturais.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *6. Processo de Socialização e Integração Organizacional (Onboarding)* deste guia, a socialização organizacional é o processo formativo e cultural por meio do qual o novo servidor aprende os valores essenciais, regras informais, jargões, posturas e competências exigidas pelo órgão. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "alavancar a produção cultural, em que os participantes são sujeitos do processo".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ter princípio, meio e fim predeterminados, visando a realização de um produto". De acordo com a teoria estudada em *As Três Etapas da Socialização Organizacional (Stephen Robbins)*, programas formais de acolhimento reduzem o risco de choque cultural traumático.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "partir de um projeto da instituição e envolver os usuários como seus receptores". De acordo com a teoria estudada em *Pessoas como Recursos vs. Pessoas como Parceiras (Idalberto Chiavenato)*, tratadas como elementos passivos e estáticos de produção.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "divertir o público e promover formas de lazer que incluam programas de leitura e de arte". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, inovação Cultural: Risco de Endogamia Cultural (*Inbreeding*): cristaliza velhos hábitos e rotinas. — Renovação (*Sangue Novo*): agrega novos saberes e rompe paradigmas. — Permite conciliar estabilidade institucional e inovação.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "facilitar o uso de instalações e meios ao desenvolvimento de eventos culturais". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, a FCC adora cobrar o fenômeno da endogamia organizacional (ou cultural).
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)* deste guia, 1. Agregar Pessoas: *Quem deve ingressar na organização?* — Planejamento de recursos humanos, recrutamento (interno/externo), seleção de pessoas e concurso público. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRT/10/2013) ao afirmar que "A criação da estrutura analítica do projeto, o sequenciamento de atividades e a estimativa de recursos para o...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, segundo a qual idalberto Chiavenato estrutura a gestão de pessoas como um sistema integrado composto por seis grandes macroprocessos dinâmicos e interdependentes.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 

@@ -308,74 +308,68 @@ Permite o processamento declarativo e funcional de coleções de dados:
 ---
 
 ### Teste 065
-**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
-A classe Stack da biblioteca Java implementa o tipo abstrato de pilha e as operações push e pop. Considere o exemplo abaixo. import java.util.Stack; public class Pilha { public static void main(String[] args) { Stack`<String>` s = new Stack`<String>`(); s.push("Ana"); s.push("Paulo"); s.push("Pedro"); s.push("Marcos"); while (s.size() > 0) { System.out.println(s.pop()); } } } Sobre a classe Pilha apresentada é correto afirmar:
+**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
+Swagger é uma interface API compatível com Java que permite que dois sistemas computacionais troquem informações com ausência de estado.
 
-* **A)** A instrução s.pop(1); poderia ter sido utilizada antes do comando while para excluir o nome Paulo da pilha s.
-* **B)** Ao término da execução do programa a pilha s estará vazia.
-* **C)** Ocorrerá um erro em tempo de execução, pois o método pop apenas remove o último elemento que entrou na pilha e não retorna valor a ser exibido.
-* **D)** O programa não irá compilar se a instrução Stack`<String>` s = new Stack`<String>`(); for substituída por Stack s = new Stack();
-* **E)** Ao término da execução do programa a pilha s permanecerá com os quatro nomes, pois o método pop apenas retorna o elemento da pilha, sem removê-lo.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A instrução s.pop(1); poderia ter sido utilizada antes do comando while para excluir o nome Paulo da pilha s". De acordo com a teoria estudada em *Mecanismos de Tratamento: `try-catch-finally` e `try-with-resources`*, `throw`: Palavra-chave utilizada para lançar ativamente uma instância de exceção no fluxo de execução (`throw new IllegalArgumentException("Valor inválido");`).
-> - **B)** **Correta.** Conforme fundamentado na seção *A Memória Stack (Pilha)* deste guia, cada thread em execução possui sua própria pilha de execução privativa (*thread-safe*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "Ao término da execução do programa a pilha s estará vazia".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Ocorrerá um erro em tempo de execução, pois o método pop apenas remove o último elemento que entrou na pilha e não...". De acordo com a teoria estudada em *2. Interface `Set` (Conjuntos)*, `HashSet`: Utiliza internamente uma tabela hash (`HashMap`). Oferece operações básicas (`add`, `remove`, `contains`) em tempo constante médio \$\mathcal{O}(1)\$. Não garante nenhuma ordem dos elementos. Admite um único elemento `null`.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O programa não irá compilar se a instrução Stack`<String>` s = new Stack`<String>`(); for substituída por Stack s...". De acordo com a teoria estudada em *A Memória Stack (Pilha)*, possui alocação e liberação ultrarrápida, estritamente alinhada à entrada e saída do escopo do método (LIFO - *Last In, First Out*).
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Ao término da execução do programa a pilha s permanecerá com os quatro nomes, pois o método pop apenas retorna o...". De acordo com a teoria estudada em *O Coletor de Lixo (Garbage Collector - GC)*, o GC é uma thread de segundo plano gerenciada pela JVM que monitora o Heap e remove objetos que se tornaram inalcançáveis (*unreachable*), ou seja, objetos para os quais não existe mais nenhuma cadeia ativa de referências partindo das chamadas raízes do sistema (*GC Roots*, que incluem referências ativas na pilha, classes carregadas estáticas e variáveis JNI).
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Swagger é uma interface API compatível com Java que permite que dois sistemas computacionais troquem...". De acordo com a teoria estudada em *Stream API*, permite o processamento declarativo e funcional de coleções de dados.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré-compilados. Contém a JVM, as bibliotecas padrão da API Java (`rt.jar` ou módulos JPMS) e arquivos de configuração de suporte. Portanto, a assertiva examinada pela banca (CEBRASPE – STJ/2024) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
 ### Teste 066
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Desenvolvimento de Sistemas – 2023)**
-Maria, analista de TI, observou que o tipo mais primitivo de linguagem de programação é a linguagem que o computador entende diretamente, isto é, as instruções que podem ser diretamente executadas pelo hardware, ou seja, pela UCP (processador). Para criar um programa em linguagem de máquina, Maria deve conhecer todas as instruções disponíveis para aquela máquina e seus respectivos códigos de operação e formatos, assim como os registradores da UCP disponíveis e os endereços das células de memória onde serão armazenadas as instruções e os dados. Nesse contexto, Maria pretende converter para linguagem de máquina um programa escrito em linguagem de mais alto nível do que o da linguagem de montagem e que gera o código-objeto. Para tal Maria utilizará o método:
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
+Na programação estruturada, os laços de repetição são fundamentais para executar uma determinada sequência de instruções várias vezes, facilitando a automação de tarefas repetitivas. Dois dos laços mais comuns são os comandos "for" e "while", cada um com suas características específicas. Assinale a opção que descreve corretamente as diferenças entre os laços "for" e "while" na programação estruturada.
 
-* **A)** execução;
-* **B)** montagem;
-* **C)** compilação;
-* **D)** interpretação;
-* **E)** linkedição ou ligação.
+* **A)** O laço "for" é adequado para situações em que o número de iterações é conhecido antecipadamente, enquanto o laço "while" atende situações em que o número de iterações é desconhecido e depende de uma condição.
+* **B)** O laço "for" é usado quando se deseja percorrer uma coleção de elementos, como uma lista ou um array, enquanto o laço "while" é aplicado em situações em que é necessário repetir uma ação até que uma condição específica seja atendida.
+* **C)** O laço "for" é uma opção mais flexível, pois permite a declaração e inicialização de variáveis de controle dentro da própria estrutura do laço, enquanto o laço "while" exige que essas variáveis sejam definidas antes do laço.
+* **D)** O laço "while" é mais propenso a causar loops infinitos se a condição de parada não for adequadamente definida, enquanto o laço "for" oferece controle sobre o número de iterações devido à sua estrutura mais definida.
+* **E)** O laço "while" é mais eficiente em termos de desempenho do que o laço "for", pois avalia a condição de parada apenas no início de cada iteração, enquanto o laço "for" precisa avaliar a condição a cada iteração.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "execução". De acordo com a teoria estudada em *Generics (Parametrização de Tipos)*, introduzidos no Java 5, conferem segurança de tipos em tempo de compilação (*type safety*), eliminando a necessidade de *casts* manuais e prevenindo erros do tipo `ClassCastException` em tempo de execução.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "montagem". De acordo com a teoria estudada em *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos*, tuplas (`tuple`): Estruturas imutáveis mais leves em consumo de memória que listas. Podem ser utilizadas como chaves de dicionários se contiverem apenas elementos imutáveis. Suportam empacotamento e desempacotamento (*tuple unpacking*): `x, y = (10, 20)`.
-> - **C)** **Correta.** Conforme fundamentado na seção *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8* deste guia, python é uma linguagem multiparadigma de alto nível focada na legibilidade do código. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "compilação".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "interpretação". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jIT Compiler (*Just-In-Time*): Para otimizar o desempenho e evitar a lentidão da interpretação instrução por instrução, o motor JIT compila trechos de bytecode frequentemente executados (*hot spots*) diretamente em código de máquina nativo durante o tempo de execução, armazenando-os em memória cache.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "linkedição ou ligação". De acordo com a teoria estudada em *Generics (Parametrização de Tipos)*, em tempo de compilação, o Java realiza o Type Erasure (apagamento de tipo), removendo os metadados genéricos para manter compatibilidade binária com versões legadas da JVM.
+> - **A)** **Correta.** Conforme fundamentado na seção *3.2 O Event Loop: Call Stack, Microtasks e Macrotasks* deste guia, o modelo de concorrência do JavaScript e do Node.js é baseado em um laço infinito que orquestra a execução de tarefas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "O laço "for" é adequado para situações em que o número de iterações é conhecido antecipadamente, enquanto o laço...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O laço "for" é usado quando se deseja percorrer uma coleção de elementos, como uma lista ou um array, enquanto o...". De acordo com a teoria estudada em *Operadores Spread e Rest (`..`)*, spread Operator (na expressão): Espalha e desmembra os elementos de um iterável (array, objeto, string) dentro de uma nova estrutura, facilitando clones superficiais (*shallow copies*) e mesclagens.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O laço "for" é uma opção mais flexível, pois permite a declaração e inicialização de variáveis de controle dentro...". De acordo com a teoria estudada em *O Coletor de Lixo (Garbage Collector - GC)*, o GC é uma thread de segundo plano gerenciada pela JVM que monitora o Heap e remove objetos que se tornaram inalcançáveis (*unreachable*), ou seja, objetos para os quais não existe mais nenhuma cadeia ativa de referências partindo das chamadas raízes do sistema (*GC Roots*, que incluem referências ativas na pilha, classes carregadas estáticas e variáveis JNI).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O laço "while" é mais propenso a causar loops infinitos se a condição de parada não for adequadamente definida...". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, engloba toda a JRE mais ferramentas de desenvolvimento fundamentais: o compilador `javac`, empacotador `jar`, gerador de documentação `javadoc`, desassemblador `javap` e utilitários de diagnóstico e depuração (`jconsole`, `jstack`, `jps`).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O laço "while" é mais eficiente em termos de desempenho do que o laço "for", pois avalia a condição de parada...". De acordo com a teoria estudada em *Usos da Palavra-Chave `final`*, em Variáveis e Parâmetros: A variável torna-se uma constante. Uma vez inicializada com um valor ou referência, seu valor não pode mais ser reatribuído.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
 ### Teste 067
-**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
-Considere as classes a seguir, presentes em uma aplicação Java orientada a objetos: public class Funcionario { private int id; private String nome; private double valorBase; public Funcionario() { } public Funcionario(int id, String nome, double valorBase) { this.id = id; this.nome = nome; this.valorBase=valorBase; } public double getValorBase() { return valorBase; } public double calcularSalario(){ return valorBase; } } public class Mensalista extends Funcionario{ private double descontos; public Mensalista(double descontos, int id, String nome, double valorBase) { super(id, nome, valorBase); this.descontos = descontos; } @Override public double calcularSalario(){ return super.getValorBase() - descontos; } } public class Diarista extends Funcionario { private int diasPorSemana; public Diarista( int diasPorSemana, int id, String nome, double valorBase) { super(id, nome, valorBase); this.diasPorSemana = diasPorSemana; } @Override public double calcularSalario(){ return super.getValorBase() * diasPorSemana; } } Em uma classe principal foram digitadas, no interior do método main, as seguintes linhas: double s; Funcionario f; f=new Diarista(3,10456,"Ana Maria",90); s = f.calcularSalario(); System.out.println(s); f=new Mensalista(298.56,10457,"Pedro Henrique",877.56); s = f.calcularSalario(); System.out.println(s); As linhas que contêm a instrução s = f.calcularSalario(); demonstram um conceito da orientação a objetos conhecido como
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+Analise o código a seguir em linguagem de programação Java: Ao executar esse programa em um terminal, será escrito na saída padrão:
 
-* **A)** encapsulamento.
-* **B)** sobrecarga de métodos.
-* **C)** polimorfismo.
-* **D)** sobrescrita de construtores.
-* **E)** métodos abstratos.
+* **A)** x = 2
+* **B)** x = 3
+* **C)** x = 4
+* **D)** x = 5
+* **E)** x = 6
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "encapsulamento". De acordo com a teoria estudada em *1.4 Modificadores de Acesso e a Palavra-Chave `final`*, o encapsulamento e o design estrutural em Java apoiam-se em quatro níveis de visibilidade.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sobrecarga de métodos". De acordo com a teoria estudada em *Usos da Palavra-Chave `final`*, em Métodos: Impede que subclasses sobrescrevam (*override*) o método, garantindo que o algoritmo implementado na superclasse seja mantido intacto.
-> - **C)** **Correta.** Conforme fundamentado na seção *Classes Wrapper (Invólucros)* deste guia, permitem que tipos básicos sejam armazenados em coleções genéricas (`List<Integer>`, `Map<String, Double>`), pois as coleções Java aceitam estritamente objetos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "polimorfismo".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sobrescrita de construtores". De acordo com a teoria estudada em *Classes Wrapper (Invólucros)*, para cada tipo primitivo, Java fornece uma classe correspondente no pacote `java.lang` (`Boolean`, `Byte`, `Short`, `Character`, `Integer`, `Long`, `Float`, `Double`).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "métodos abstratos". De acordo com a teoria estudada em *Gerenciadores de Contexto com a Instrução `with`*, por debaixo dos panos, o gerenciador de contexto implementa o protocolo de contexto por meio dos métodos especiais `__enter__()` (executado na entrada) e `__exit__()` (executado na saída).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x = 2". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, a linguagem Java, criada pela Sun Microsystems e atualmente mantida pela Oracle, foi concebida sob o paradigma da independência de plataforma, expresso pelo lema *"Write Once, Run Anywhere"* (WORA).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x = 3". De acordo com a teoria estudada em *1.3 Tipos Primitivos vs. Classes Wrapper e Comparação de Objetos*, java é uma linguagem de tipagem estática e fortemente tipada que distingue claramente valores primitivos e referências a objetos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x = 4". De acordo com a teoria estudada em *Stream API*, operações Intermediárias (Lazy - avaliação preguiçosa): Retornam um novo Stream e não são executadas até que uma operação terminal seja disparada. Exemplos: `.filter()`, `.map()`, `.sorted()`, `.distinct()`, `.flatMap()`.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x = 5". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré-compilados. Contém a JVM, as bibliotecas padrão da API Java (`rt.jar` ou módulos JPMS) e arquivos de configuração de suporte.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, código-Fonte (`.java`): Arquivo de texto contendo as instruções escritas pelo programador em conformidade com as especificações da linguagem. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "x = 6".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
@@ -406,26 +400,20 @@ try (BufferedReader br = new BufferedReader(new FileReader("auditoria.log"))) {
 ---
 
 ### Teste 068
-**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
-Considere o código-fonte a seguir: import java.util.Scanner; public class T16 { static int a[] = {1, 6, 9, 10, 12, 18, 21, 34}; public static void main(String[] args) { Scanner in = new Scanner(System.in); System.out.print("Digite um valor:"); int v = in.nextInt(); int r = service(v); if (r == -1) { System.out.println("Sem êxito"); } else { System.out.print(r + " -> " + v); } } public static int service(int valor) { int l = 0; int h = a.length - 1; while (l <= h) { int m = (l + h) / 2; int d = a[m] - valor; if (d == 0) { return m; } else if (d < 0) { l = m + 1; } else { h = m - 1; } } return -1; } } É correto afirmar que a classe Java apresentada implementa uma
+**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
+Considere o seguinte código, escrito em Java. class Main { public static void main(String[] args) { int x = 11, y = -7, z = 22; int resultado = (x >= y) ? ((x >= z) ? x : z) : ((y >= z) ? y : z); System.out.println(“Resultado: “ + resultado); } } A partir do código precedente, é correto afirmar que a execução desse código apresentará o seguinte resultado. Resultado: 22
 
-* **A)** pesquisa linear.
-* **B)** árvore binária.
-* **C)** pilha.
-* **D)** fila.
-* **E)** pesquisa binária.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pesquisa linear". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, compilador (`javac`): Não traduz o código-fonte diretamente para o código binário da máquina hospedeira. Em vez disso, compila o código-fonte para um formato intermediário, compacto e abstrato denominado Bytecode (arquivos com extensão `.class`).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "árvore binária". De acordo com a teoria estudada em *2. Interface `Set` (Conjuntos)*, `TreeSet`: Implementa `NavigableSet` sobre uma Árvore Rubro-Negra (*Red-Black Tree*). Mantém os elementos estritamente ordenados (pela ordem natural `Comparable` ou por um `Comparator` customizado).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pilha". De acordo com a teoria estudada em *A Memória Stack (Pilha)*, possui alocação e liberação ultrarrápida, estritamente alinhada à entrada e saída do escopo do método (LIFO - *Last In, First Out*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fila". De acordo com a teoria estudada em *A Ordem Rígida de Execução*, macrotask Queue: Apenas quando a fila de microtarefas estiver completamente vazia, o Event Loop extrai a primeira macrotarefa (`setTimeout`, `setInterval`, `setImmediate`, eventos de I/O) e a carrega na Call Stack.
-> - **E)** **Correta.** Conforme fundamentado na seção *Generics (Parametrização de Tipos)* deste guia, em tempo de compilação, o Java realiza o Type Erasure (apagamento de tipo), removendo os metadados genéricos para manter compatibilidade binária com versões legadas da JVM. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "pesquisa binária".
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *Mecanismos de Tratamento: `try-catch-finally` e `try-with-resources`* deste guia, `throws`: Modificador presente na declaração da assinatura do método que avisa aos chamadores que aquele método pode disparar certas exceções checadas (`public void gravar() throws IOException`). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STJ/2024) ao afirmar que "Considere o seguinte código, escrito em Java. class Main { public static void main(String[] args) { int x =...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, segundo a qual compilador (`javac`): Não traduz o código-fonte diretamente para o código binário da máquina hospedeira. Em vez disso, compila o código-fonte para um formato intermediário, compacto e abstrato denominado Bytecode (arquivos com extensão `.class`).
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 
@@ -533,74 +521,62 @@ console.log(contador.incrementar()); // 11
 ---
 
 ### Teste 069
-**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
-Analise o trecho de código JavaScript a seguir. const xxxxx = ... let texto = ""; for (const x of xxxxx) { texto += x; } Assinale a definição de xxxxx que não funciona para o código acima.
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+Com relação ao framework pytest, da linguagem de programação Python, avalie as afirmativas a seguir: I. O comando pytest executa os arquivos no formato test_*.py ou *_test.py no diretório corrente e nos subdiretórios. II. O comando abaixo mostra os 5 testes com maior tempo de duração. >>> pytest -vv --durations=5 III. É possível invocar o framework pytest usando o próprio interpretador do Python por meio do comando abaixo: >>> python -m pytest Está correto o que se afirma em
 
-* **A)** const xxxxx = "abcdefghijklmnopqrstuvwxyz";
-* **B)** const xxxxx = [undefined, null];
-* **C)** const xxxxx = {10,12,14};
-* **D)** const xxxxx = new Set(["a","b","c"]);
-* **E)** const xxxxx = new Map([["Um", 1], ["Dois", 2]]);
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** I e II, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "const xxxxx = "abcdefghijklmnopqrstuvwxyz"". De acordo com a teoria estudada em *2.1 Declaração de Variáveis: `var`, `let` e `const`, Escopo e Hoisting*, escopo: De Função ou Global — De Bloco (`{ .. }`) — De Bloco (`{ .. }`).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "const xxxxx = [undefined, null]". De acordo com a teoria estudada em *2.1 Declaração de Variáveis: `var`, `let` e `const`, Escopo e Hoisting*, içamento (*Hoisting*): Sim (inicializada com `undefined`) — Sim (fica inacessível na TDZ) — Sim (fica inacessível na TDZ).
-> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Declaração de Variáveis: `var`, `let` e `const`, Escopo e Hoisting* deste guia, a evolução da especificação ECMAScript padronizou mecanismos determinísticos de vinculação de identificadores. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "const xxxxx = {10,12,14}".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "const xxxxx = new Set(["a","b","c"])". De acordo com a teoria estudada em *2.1 Declaração de Variáveis: `var`, `let` e `const`, Escopo e Hoisting*, zona Morta Temporal (TDZ): Não se aplica — Sim — Sim.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "const xxxxx = new Map([["Um", 1], ["Dois", 2]])". De acordo com a teoria estudada em *2.1 Declaração de Variáveis: `var`, `let` e `const`, Escopo e Hoisting*, redeclaração no mesmo escopo: Permitida — Erro de Sintaxe (*SyntaxError*) — Erro de Sintaxe (*SyntaxError*).
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, compilador (`javac`): Não traduz o código-fonte diretamente para o código binário da máquina hospedeira. Em vez disso, compila o código-fonte para um formato intermediário, compacto e abstrato denominado Bytecode (arquivos com extensão `.class`).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1. Manipulação de Arquivos e Sistema Operacional*, `os` e `sys`: Execução de comandos do sistema, inspeção de variáveis de ambiente (`os.environ`) e argumentos de linha de comando (`sys.argv`).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8*, python é uma linguagem multiparadigma de alto nível focada na legibilidade do código.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *Arrow Functions*, funções anônimas concisas com sintaxe de seta `() => {}`. Possuem duas diferenças semânticas cruciais em relação às funções tradicionais declaradas com `function`.
+> - **E)** **Correta.** Conforme fundamentado na seção *FastAPI (Framework Moderno ASGI de Alta Performance)* deste guia, validação com Pydantic: Utiliza *type hints* do Python padrão para realizar validação estrita de dados de entrada, conversão automática e serialização em tempo de execução. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I, II e III".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
 ### Teste 070
-**(CEBRASPE – TRT-8 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-A respeito da programação em Java, assinale a opção correta. A
+**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
+MapStruct é um gerador de código que simplifica a implementação de mapeamentos entre tipos de bean Java.
 
-* **A)** palavra-chave private é um modificador de acesso e a declaração de uma variável como sendo private dentro de uma instância de um método é conhecida como ocultamento de instância.
-* **B)** As variáveis são divididas em tipos primitivos e tipos por referência. As variáveis do tipo primitivo devem ser declaradas como byte, char, double, int, long ou short. A variável que não for declarada como um desses tipos é do tipo por referência.
-* **C)** Considere a declaração de variáveis e as expressões a seguir. int a = 8, b = 6, c = 4, d = 9 a %= 7, b *= 7, c += 7, d -= 7 Nesse caso, após a execução do código, as variáveis assumirão os seguintes valores: a = 1, b = 42, c = 11, d = 2
-* **D)** Os métodos estáticos, também conhecidos como métodos de classe, dependem diretamente de um objeto instanciado. Para declarar um método como estático, deve-se inserir a palavra-chave static imediatamente após o tipo de retorno na declaração do método.
-* **E)** Considere as instruções a seguir. int[][] vetor = new int [2][]; vetor [0] = new int [4]; vetor [1] = new int [5]; A execução dessas instruções resulta em um array multidimensional com 2 linhas e 5 colunas, totalizando 10 células que podem ser endereçadas.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "palavra-chave private é um modificador de acesso e a declaração de uma variável como sendo private dentro de uma...". De acordo com a teoria estudada em *1.4 Modificadores de Acesso e a Palavra-Chave `final`*, *(default / package-private)*: Sim — Sim — Não — Não.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As variáveis são divididas em tipos primitivos e tipos por referência. As variáveis do tipo primitivo devem ser...". De acordo com a teoria estudada em *Classes Wrapper (Invólucros)*, para cada tipo primitivo, Java fornece uma classe correspondente no pacote `java.lang` (`Boolean`, `Byte`, `Short`, `Character`, `Integer`, `Long`, `Float`, `Double`).
-> - **C)** **Correta.** Conforme fundamentado na seção *2.4 Escopo Léxico, Closures e Funções de Alta Ordem* deste guia, isso permite que uma função interna acerte e memorize variáveis de sua função externa mesmo após a função externa já ter terminado de executar e retornado. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2016) ao estabelecer que "Considere a declaração de variáveis e as expressões a seguir. int a = 8, b = 6, c = 4, d = 9 a %= 7, b *= 7, c +=...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os métodos estáticos, também conhecidos como métodos de classe, dependem diretamente de um objeto instanciado...". De acordo com a teoria estudada em *Sintaxe `async` / `await`*, declarar uma função com a palavra-chave `async` garante que ela sempre retornará uma Promise, empacotando valores primitivos automaticamente com `Promise.resolve()`.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Considere as instruções a seguir. int[][] vetor = new int [2][]; vetor [0] = new int [4]; vetor [1] = new int [5]...". De acordo com a teoria estudada em *Arrow Functions*, não são construtoras: Não possuem método interno `[[Construct]]`, não podem ser chamadas com o operador `new` e não possuem a propriedade `prototype`.
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, código-Fonte (`.java`): Arquivo de texto contendo as instruções escritas pelo programador em conformidade com as especificações da linguagem. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STJ/2024) ao afirmar que "MapStruct é um gerador de código que simplifica a implementação de mapeamentos entre tipos de bean Java".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, segundo a qual a FCC frequentemente tenta confundir o candidato afirmando que "o compilador Java gera código de máquina nativo dependente do sistema operacional" ou que "a JRE inclui o compilador javac".
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 071
-**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
-Considere que o programa foi executado quatro vezes seguidas sendo fornecidos, consecutivamente, os valores 10, 41, 0 e -2 para a variável d. Neste contexto, pode-se concluir corretamente que serão exibidos como resultado destas execuções, consecutivamente, os valores
+**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Aplicações web desenvolvidas com as tecnologias Java Servlet e JSP podem ser executadas no container IIS.
 
-* **A)** true, true, false, true.
-* **B)** true, false, true, true.
-* **C)** true, false, true, false.
-* **D)** false, true, true, false.
-* **E)** false, true, false, true.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "true, true, false, true". De acordo com a teoria estudada em *Tipos Primitivos*, `boolean`: 1 bit (dependente da JVM) — `false` — `true` ou `false`.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "true, false, true, true". De acordo com a teoria estudada em *Comparação de Igualdade: `==` vs. `.equals()` e o String Pool*, contudo, se for instanciado com o operador `new` (`String s3 = new String("tce");`), um novo objeto separado é alocado no Heap, fazendo com que `s1 == s3` seja `false`, embora `s1.equals(s3)` retorne `true`.
-> - **C)** **Correta.** Conforme fundamentado na seção *Comparação Ampla (`==`) vs. Comparação Estrita (`===`)* deste guia, `[] == false` \$\rightarrow\$ `true` (array vazio convertido para string vazia e depois para 0). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "true, false, true, false".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "false, true, true, false". De acordo com a teoria estudada em *Comparação de Igualdade: `==` vs. `.equals()` e o String Pool*, quando aplicado a tipos primitivos, compara diretamente o conteúdo numérico/lógico dos valores (`10 == 10` é `true`).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "false, true, false, true". De acordo com a teoria estudada em *Comparação Ampla (`==`) vs. Comparação Estrita (`===`)*, `0 === ""` \$\rightarrow\$ `false` (number vs string).
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aplicações web desenvolvidas com as tecnologias Java Servlet e JSP podem ser executadas no container IIS". De acordo com a teoria estudada em *Arrow Functions*, não são construtoras: Não possuem método interno `[[Construct]]`, não podem ser chamadas com o operador `new` e não possuem a propriedade `prototype`.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *Arrow Functions* deste guia, vinculação Léxica do `this`: As arrow functions não possuem seu próprio contexto `this`. Elas capturam o valor de `this` do escopo léxico envolvente no momento de sua definição. Não podem ser alteradas por `.bind()`, `.call()` ou `.apply()`. Portanto, a assertiva examinada pela banca (CEBRASPE – STJ/2015) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
@@ -724,50 +700,50 @@ Introduzida no ES2017, funciona como açúcar sintático sobre Promises:
 ---
 
 ### Teste 072
-**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
-Em relação a linguagem de programação Java, analise as afirmativas a seguir e dê valores Verdadeiro (V) ou Falso (F). ( ) Existem vários ambientes de desenvolvimento (IDEs) como: BlueJ, JCreator e jEdit. ( ) Não suporta recursos de alto desempenho, como multithreading e compilação just-intime. ( ) Das diversas bibliotecas da linguagem Java uma das mais utilizadas é o Javascript. Assinale a alternativa que apresenta a sequência correta de cima para baixo.
+**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
+A Plataforma Digital do Poder Judiciário Brasileiro (PDPJ-Br) foi criada com o intuito de integrar todos os tribunais brasileiros no que tange à gestão de processo judicial eletrônico. Entre as diretrizes relacionadas ao processo de desenvolvimento de módulos e serviços na PDPJ-Br, cabe salientar o emprego preferencial da linguagem de programação
 
-* **A)** V - F - F
-* **B)** V - F - V
-* **C)** F - V - V
-* **D)** V - V - F
-* **E)** F - F - V
+* **A)** Java.
+* **B)** Julia.
+* **C)** PHP.
+* **D)** Python.
+* **E)** Ruby.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O* deste guia, motor V8: Compila o código JavaScript em código de máquina de alto desempenho e gerencia a Call Stack e a memória (Heap). Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "V - F - F".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V - F - V". De acordo com a teoria estudada em *3.5 Gerenciamento de Dependências com npm*, `devDependencies`: Ferramentas utilizadas estritamente durante o desenvolvimento e compilação (ex.: `jest`, `eslint`, `typescript`).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F - V - V". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jIT Compiler (*Just-In-Time*): Para otimizar o desempenho e evitar a lentidão da interpretação instrução por instrução, o motor JIT compila trechos de bytecode frequentemente executados (*hot spots*) diretamente em código de máquina nativo durante o tempo de execução, armazenando-os em memória cache.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V - V - F". De acordo com a teoria estudada em *1.3 Tipos Primitivos vs. Classes Wrapper e Comparação de Objetos*, java é uma linguagem de tipagem estática e fortemente tipada que distingue claramente valores primitivos e referências a objetos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F - F - V". De acordo com a teoria estudada em *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos*, tuplas (`tuple`): Estruturas imutáveis mais leves em consumo de memória que listas. Podem ser utilizadas como chaves de dicionários se contiverem apenas elementos imutáveis. Suportam empacotamento e desempacotamento (*tuple unpacking*): `x, y = (10, 20)`.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, a linguagem Java, criada pela Sun Microsystems e atualmente mantida pela Oracle, foi concebida sob o paradigma da independência de plataforma, expresso pelo lema *"Write Once, Run Anywhere"* (WORA). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "Java".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Julia". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, código-Fonte (`.java`): Arquivo de texto contendo as instruções escritas pelo programador em conformidade com as especificações da linguagem.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PHP". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré-compilados. Contém a JVM, as bibliotecas padrão da API Java (`rt.jar` ou módulos JPMS) e arquivos de configuração de suporte.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Python". De acordo com a teoria estudada em *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8*, python é uma linguagem multiparadigma de alto nível focada na legibilidade do código.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ruby". De acordo com a teoria estudada em *1.3 Tipos Primitivos vs. Classes Wrapper e Comparação de Objetos*, java é uma linguagem de tipagem estática e fortemente tipada que distingue claramente valores primitivos e referências a objetos.
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 073
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
-Considere o seguinte código em Java: Map`<String, String>` cidades = Map.of("11","Amapá","13","Itaubal","15","Cutias"); String texto = cidades.entrySet().stream().sorted( (e1, e2) -> e1.getKey().compareTo(e2.getKey())) .map(e-> Arrays.asList(e.getKey(), e.getValue())) .map(e-> String.join(", ", e)) .collect(Collectors.joining(": ")); System.out.println(texto); Ao ser executado com as importações necessárias, o código Java acima imprime na saída padrão:
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+De acordo com os critérios e diretrizes técnicas para o processo de desenvolvimento de módulos e serviços na Plataforma Digital do Poder Judiciário Brasileiro, portaria CNJ n 253/2020, é correto afirmar que
 
-* **A)** Cutias: 15, Amapá: 11, Itaubal: 13
-* **B)** Amapá: 11, Cutias: 15, Itaubal: 13
-* **C)** 11, Amapá: 13, Itaubal: 15, Cutias
-* **D)** 11: Amapá, 13: Itaubal, 15: Cutias
-* **E)** 15: Cutias, 13: Itaubal, 11: Amapá
+* **A)** é obrigatória a produção de relatório de cobertura de testes automatizados.
+* **B)** os microsserviços precisam ser coesos e manter a característica statefull para permitir maior escalabilidade.
+* **C)** deve ser adotada, preferencialmente, a linguagem de programação Python para implementar microsserviços.
+* **D)** aplicações monolíticas existentes devem manter suas funcionalidades na íntegra, sem decomposição funcional.
+* **E)** as interfaces de programação de aplicações (APIs) devem ser providas por meio de tecnologia SOAP.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Cutias: 15, Amapá: 11, Itaubal: 13". De acordo com a teoria estudada em *Stream API*, operações Intermediárias (Lazy - avaliação preguiçosa): Retornam um novo Stream e não são executadas até que uma operação terminal seja disparada. Exemplos: `.filter()`, `.map()`, `.sorted()`, `.distinct()`, `.flatMap()`.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Amapá: 11, Cutias: 15, Itaubal: 13". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, código-Fonte (`.java`): Arquivo de texto contendo as instruções escritas pelo programador em conformidade com as especificações da linguagem.
-> - **C)** **Correta.** Conforme fundamentado na seção *Stream API* deste guia, operações Terminais (Eager): Consomem o Stream e geram um resultado ou efeito colateral final. Exemplos: `.collect(Collectors.toList())`, `.forEach()`, `.reduce()`, `.count()`, `.anyMatch()`. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "11, Amapá: 13, Itaubal: 15, Cutias".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "11: Amapá, 13: Itaubal, 15: Cutias". De acordo com a teoria estudada em *A Memória Stack (Pilha)*, possui alocação e liberação ultrarrápida, estritamente alinhada à entrada e saída do escopo do método (LIFO - *Last In, First Out*).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "15: Cutias, 13: Itaubal, 11: Amapá". De acordo com a teoria estudada em *Mecanismos de Tratamento: `try-catch-finally` e `try-with-resources`*, `finally`: Bloco que é executado sempre e incondicionalmente, tenha ocorrido exceção ou não, tenha havido `return` no `try` ou no `catch`. A única exceção ocorre se a JVM for terminada abruptamente por `System.exit(0)`.
+> - **A)** **Correta.** Conforme fundamentado na seção *3.5 Gerenciamento de Dependências com npm* deste guia, `dependencies`: Bibliotecas essenciais para a execução do sistema em ambiente de produção (ex.: `express`, `pg`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "é obrigatória a produção de relatório de cobertura de testes automatizados".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os microsserviços precisam ser coesos e manter a característica statefull para permitir maior escalabilidade". De acordo com a teoria estudada em *Generics (Parametrização de Tipos)*, em tempo de compilação, o Java realiza o Type Erasure (apagamento de tipo), removendo os metadados genéricos para manter compatibilidade binária com versões legadas da JVM.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve ser adotada, preferencialmente, a linguagem de programação Python para implementar microsserviços". De acordo com a teoria estudada em *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8*, python é uma linguagem multiparadigma de alto nível focada na legibilidade do código.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aplicações monolíticas existentes devem manter suas funcionalidades na íntegra, sem decomposição funcional". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, node.js é um ambiente de execução JavaScript construído sobre o motor V8 do Google Chrome, projetado para construir aplicações de rede escaláveis orientadas a eventos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as interfaces de programação de aplicações (APIs) devem ser providas por meio de tecnologia SOAP". De acordo com a teoria estudada em *1. `java.lang.Error` (Unchecked)*, representa falhas catastróficas graves de infraestrutura e do ambiente de execução da JVM (como exaustão de memória ou estouro de pilha). Não são tratáveis pelo código de negócio da aplicação e não devem ser capturadas por blocos `try-catch`.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
@@ -943,50 +919,50 @@ def obter_processo(id):
 ---
 
 ### Teste 074
-**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
-Em uma rede de comunicação, está sendo implementado um sistema de transmissão de dados que utiliza o código de linha 4B/5B para garantir transições de bits suficientes e minimizar erros. Durante o processo de enquadramento, é necessário garantir que o receptor possa identificar corretamente o início e o fim dos quadros sem a necessidade de adicionar muitos bits extras, otimizando assim o uso da largura de banda disponível. Nesse contexto, o método utilizado por um sistema de transmissão de dados com código de linha 4B/5B para identificar o início e o fim dos quadros, utilizando sinais que não ocorrem em dados regulares, é o:
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+A linguagem de programação Python é uma linguagem de alto nível, de tipagem dinâmica e interpretada, conhecida pela sua simplicidade, legibilidade e versatilidade. Criada por Guido van Rossum e lançada pela primeira vez em 1991, Python tem se tornado uma das linguagens mais populares do mundo, devido à sua capacidade de ser usada em diversos tipos de projetos, como desenvolvimento web, automação, análise de dados, inteligência artificial, aprendizado de máquina, automação de tarefas, entre outros. Em Python, o operador //
 
-* **A)** violações de código;
-* **B)** checksum de quadros;
-* **C)** contagem de caracteres;
-* **D)** bytes de flag com inserção de bytes;
-* **E)** flags iniciais e finais com inserção de bits.
+* **A)** realiza a divisão entre dois números e retorna o resultado com a maior precisão possível.
+* **B)** realiza a divisão entre dois números e sempre retorna um número com ponto decimal, mesmo que o resultado seja inteiro.
+* **C)** eleva o primeiro número ao segundo número, funcionando como um operador de potência.
+* **D)** realiza a divisão inteira entre dois números, retornando apenas a parte inteira do resultado e descartando o resto.
+* **E)** realiza a divisão entre dois números e retorna o resto da divisão, semelhante ao operador %.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "violações de código". De acordo com a teoria estudada em *FastAPI (Framework Moderno ASGI de Alta Performance)*, documentação Automática: Gera documentação interativa completa em conformidade com as especificações OpenAPI e Swagger UI acessível em `/docs` sem necessidade de código adicional.
-> - **B)** **Correta.** Conforme fundamentado na seção *A Memória Stack (Pilha)* deste guia, armazena os quadros de chamada de métodos (*stack frames*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "checksum de quadros".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contagem de caracteres". De acordo com a teoria estudada em *Tipos Primitivos*, `char`: 16 bits (2 bytes) — `'\u0000'` — \$0\$ a \$65.535\$ (caracteres Unicode UTF-16).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "bytes de flag com inserção de bytes". De acordo com a teoria estudada em *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos*, `list`: `[1, 2, "a"]` — Sim — Sim (ordem de inserção) — Sim — Sim (`l[0]`) — \$\mathcal{O}(n)\$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "flags iniciais e finais com inserção de bits". De acordo com a teoria estudada em *2.2 Tipos de Dados, Coerção e Operadores de Igualdade (`==` vs. `===`)*, tipos Primitivos (armazenados por valor): `string`, `number` (ponto flutuante IEEE 754 de 64 bits), `bigint`, `boolean`, `undefined`, `null` e `symbol`.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realiza a divisão entre dois números e retorna o resultado com a maior precisão possível". De acordo com a teoria estudada em *Promises (Promessas)*, `Promise.allSettled([p1, p2, p3])`: Aguarda a finalização de todas as promessas, independentemente de terem sido cumpridas ou rejeitadas, retornando um array de objetos descrevendo o status e resultado de cada uma.
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "realiza a divisão entre dois números e sempre retorna um número com ponto decimal, mesmo que o resultado seja...". De acordo com a teoria estudada em *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8*, se você tentar somar uma string com um número (`"Valor: " + 10`), Python lançará explicitamente um `TypeError` (diferentemente do JavaScript, que realizaria coerção para `"Valor: 10"`).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eleva o primeiro número ao segundo número, funcionando como um operador de potência". De acordo com a teoria estudada em *Comparação Ampla (`==`) vs. Comparação Estrita (`===`)*, operador de Igualdade Ampla (`==`): Realiza coerção implícita de tipos quando os operandos são de tipos diferentes, segundo o algoritmo abstrato de comparação do ECMAScript.
+> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8* deste guia, python é uma linguagem multiparadigma de alto nível focada na legibilidade do código. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "realiza a divisão inteira entre dois números, retornando apenas a parte inteira do resultado e descartando o resto".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realiza a divisão entre dois números e retorna o resto da divisão, semelhante ao operador %". De acordo com a teoria estudada em *Comparação Ampla (`==`) vs. Comparação Estrita (`===`)*, operador de Igualdade Estrita (`===`): Não realiza coerção automática. Retorna `true` apenas se os operandos possuírem o mesmo tipo e o mesmo valor.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
 ### Teste 075
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
-Um Auditor está escrevendo um script em Python para limpar CPFs duplicados em uma lista de milhões de registros. Ele precisa de uma estrutura que garanta a unicidade dos elementos com a melhor performance de busca. A estrutura nativa do Python mais adequada para esse propósito é:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+Com relação aos tipos estruturados da linguagem de programação Python 3, avalie as afirmativas a seguir: I. A tentativa de utilizar conjunto (set) como chave de um dicionário (dict) retorna erro. II. O conjunto (set) não permite elementos repetidos. III. O construtor do tipo list retorna erro ao receber uma string como argumento (entrada). Está correto o que se afirma em
 
-* **A)** list
-* **B)** tuple
-* **C)** set
-* **D)** dict_values
-* **E)** linked_list
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** I e II, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "list". De acordo com a teoria estudada em *Comprehensions (List, Dict e Set Comprehensions)*, notação concisa, elegante e performática para filtrar e transformar iteráveis.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tuple". De acordo com a teoria estudada em *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos*, tuplas (`tuple`): Estruturas imutáveis mais leves em consumo de memória que listas. Podem ser utilizadas como chaves de dicionários se contiverem apenas elementos imutáveis. Suportam empacotamento e desempacotamento (*tuple unpacking*): `x, y = (10, 20)`.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "set". De acordo com a teoria estudada em *2. Interface `Set` (Conjuntos)*, coleção matemática que não permite elementos duplicados (baseia-se nos métodos `hashCode()` e `equals()`).
-> - **D)** **Correta.** Conforme fundamentado na seção *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos* deste guia, dicionários (`dict`): Tabelas hash de alta performance. Métodos principais: `.get(chave, padrao)`, `.keys()`, `.values()`, `.items()`. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "dict_values".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "linked_list". De acordo com a teoria estudada em *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos*, `dict`: `{"chave": 10}` — Sim — Sim (desde Python 3.7) — Não (chaves únicas) — Não (acesso por chave) — \$\mathcal{O}(1)\$.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *Comprehensions (List, Dict e Set Comprehensions)*, notação concisa, elegante e performática para filtrar e transformar iteráveis.
+> - **B)** **Correta.** Conforme fundamentado na seção *3. Formatos Estruturados: JSON e CSV* deste guia, `json.loads(str)`: Analisa string JSON e a converte para dicionário/lista Python. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "II, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos*, `dict`: `{"chave": 10}` — Sim — Sim (desde Python 3.7) — Não (chaves únicas) — Não (acesso por chave) — $\mathcal{O}(1)$.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3. Formatos Estruturados: JSON e CSV*, `json.dumps(obj)`: Converte objeto Python em string formatada JSON.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2. Interface `Set` (Conjuntos)*, coleção matemática que não permite elementos duplicados (baseia-se nos métodos `hashCode()` e `equals()`).
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 

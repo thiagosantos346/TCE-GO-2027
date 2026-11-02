@@ -103,7 +103,7 @@ flowchart LR
 ---
 
 ### Teste 400
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
 A concepção mais antiga de liderança, conhecida como a teoria dos traços, buscava identificar características de personalidade distintivas em líderes notáveis, como Napoleão e Lincoln. Embora esses líderes se destacassem por qualidades pessoais únicas, a teoria dos traços foi desacreditada devido a problemas teóricos, dificuldades de mensuração e a falta de consideração da adequação comportamental em diversas situações. Atualmente, acredita-se que certos traços de personalidade, combinados com outros aspectos da liderança, influenciam a percepção e aprovação dos líderes em muitas organizações. Assinale a opção que descreve um traço de liderança tradicional.
 
 * **A)** Assimilador.
@@ -119,7 +119,7 @@ A concepção mais antiga de liderança, conhecida como a teoria dos traços, bu
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Assimilador". De acordo com a teoria estudada em *Traços Psicológicos Específicos de Alto Impacto Organizacional:*, autoeficácia (Albert Bandura): A convicção pessoal que um colaborador tem em sua própria capacidade de desempenhar com sucesso uma tarefa específica. Servidores com alta autoeficácia reagem a dificuldades com maior perseverança.
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Inovador". De acordo com a teoria estudada em *2. Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos*, a personalidade é a constelação dinâmica de traços psicológicos que determinam a forma única como cada indivíduo se adapta e reage aos ambientes em que vive.
 > - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Mentoring". De acordo com a teoria estudada em *2. Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos*, é condicionada tanto pela hereditariedade (carga genética) quanto pelo ambiente (cultura, educação, experiências de vida).
-> - **D)** **Correta.** Conforme fundamentado na seção *Traços Psicológicos Específicos de Alto Impacto Organizacional:* deste guia, grave o fator que mais cai nas provas da FCC: no modelo dos Cinco Grandes Fatores (*Big Five*), o traço com maior poder preditivo de alto desempenho profissional consistente em praticamente qualquer profissão é a CONSCIENCIOSIDADE (disciplina, foco em resultados, persistência e responsabilidade). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Orientação doméstica".
+> - **D)** **Correta.** Conforme fundamentado na seção *Traços Psicológicos Específicos de Alto Impacto Organizacional:* deste guia, grave o fator que mais cai nas provas da FCC: no modelo dos Cinco Grandes Fatores (*Big Five*), o traço com maior poder preditivo de alto desempenho profissional consistente em praticamente qualquer profissão é a CONSCIENCIOSIDADE (disciplina, foco em resultados, persistência e responsabilidade). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Orientação doméstica".
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Perspectiva global". De acordo com a teoria estudada em *Traços Psicológicos Específicos de Alto Impacto Organizacional:*, locus de Controle Interno: O indivíduo acredita firmemente que é o condutor de seu próprio destino; atribui seus êxitos ou insucessos à sua dedicação pessoal, inteligência e esforço.
 >
 > **Gabarito: D**
@@ -127,7 +127,7 @@ A concepção mais antiga de liderança, conhecida como a teoria dos traços, bu
 ---
 
 ### Teste 401
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**
 A diretoria da empresa ABC tem se preocupado com o desempenho de uma equipe específica. Após análise diagnóstica, a área de Gestão de Pessoas elaborou relatório no qual conclui que o desempenho no trabalho não depende exclusivamente do esforço individual ou do interesse do colaborador em realizar suas atribuições, mas resulta da combinação de três fatores: o desejo do funcionário de fazer bem o trabalho, sua capacidade efetiva de executá-lo e a disponibilidade dos materiais, recursos, equipamentos e informações necessários à execução das tarefas. O relatório destaca, ainda, que a deficiência em qualquer um desses três fatores prejudicará o desempenho. Considerando o modelo apresentado, os três fatores que, conjuntamente, determinam o desempenho no trabalho são
 
 * **A)** liderança, comunicação e cultura.
@@ -140,13 +140,13 @@ A diretoria da empresa ABC tem se preocupado com o desempenho de uma equipe espe
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "liderança, comunicação e cultura". De acordo com a teoria estudada em *2. Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos*, é condicionada tanto pela hereditariedade (carga genética) quanto pelo ambiente (cultura, educação, experiências de vida).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "liderança, comunicação e cultura". De acordo com a teoria estudada em *A) Teoria da Expectativa / Expectância de Victor Vroom (Modelo VIE):*, a motivação resulta de um cálculo mental ponderado que encadeia três elementos fundamentais.
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "competência, comprometimento e clima". De acordo com a teoria estudada em *A) Hierarquia das Necessidades Humanas de Abraham Maslow:*, necessidades Sociais (Amor/Afiliação): Amizades no setor, aceitação pelos pares e clima harmônico de trabalho.
-> - **C)** **Correta.** Conforme fundamentado na seção *B) Teoria dos Dois Fatores de Frederick Herzberg:* deste guia, fatores Higiênicos (Extrínsecos): Referem-se ao contexto do trabalho (salário, condições físicas, segurança, benefícios e tipo de supervisão). Sua presença apenas evita a insatisfação funcional; não tem o poder de gerar motivação duradoura. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "treinamento, supervisão e recompensa".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "motivação, habilidade e ambiente". De acordo com a teoria estudada em *A) Teoria da Expectativa / Expectância de Victor Vroom (Modelo VIE):*, a motivação resulta de um cálculo mental ponderado que encadeia três elementos fundamentais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "engajamento, autonomia e feedback". De acordo com a teoria estudada em *A) Teoria da Expectativa / Expectância de Victor Vroom (Modelo VIE):*, instrumentalidade (\$I\$): Relação Desempenho \$\rightarrow\$ Recompensa. A crença de que a organização realmente cumprirá o acordado e entregará a recompensa prometida se o desempenho for alcançado.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "treinamento, supervisão e recompensa". De acordo com a teoria estudada em *B) Teoria dos Dois Fatores de Frederick Herzberg:*, fatores Higiênicos (Extrínsecos): Referem-se ao contexto do trabalho (salário, condições físicas, segurança, benefícios e tipo de supervisão). Sua presença apenas evita a insatisfação funcional; não tem o poder de gerar motivação duradoura.
+> - **D)** **Correta.** Conforme fundamentado na seção *2. Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos* deste guia, é condicionada tanto pela hereditariedade (carga genética) quanto pelo ambiente (cultura, educação, experiências de vida). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "motivação, habilidade e ambiente".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "engajamento, autonomia e feedback". De acordo com a teoria estudada em *Traços Psicológicos Específicos de Alto Impacto Organizacional:*, autoeficácia (Albert Bandura): A convicção pessoal que um colaborador tem em sua própria capacidade de desempenhar com sucesso uma tarefa específica. Servidores com alta autoeficácia reagem a dificuldades com maior perseverança.
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
@@ -176,31 +176,31 @@ Fenômeno caracterizado por desconforto e tensão psicológica profunda quando o
 ---
 
 ### Teste 402
-**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
-Deve-se entender que a bárbara virtude a que alude Montaigne ao final do segundo parágrafo foi assim qualificada porque Postúmio
+**(FCC – TRT 6ª – 2012 – Analista Judiciário - Apoio Especializado/Tecnologia da Informação)**
+Convém que o documento da política de segurança da informação declare o comprometimento da direção e estabeleça o enfoque da organização para gerenciar a segurança da informação. É INCORRETO dizer que o documento da política deva conter
 
-* **A)** se deixou levar pelos excessos da mocidade.
-* **B)** se mostrou hesitante diante da insolência do jovem.
-* **C)** demonstrou cruel obsessão pelo senso de disciplina.
-* **D)** decidiu punir cruelmente a rebeldia das fileiras.
-* **E)** se revelou um sádico diante das hostes inimigas.
+* **A)** uma breve explanação das políticas, princípios, normas e requisitos de conformidade de segurança da informação específicos para a organização.
+* **B)** uma definição de segurança da informação, suas metas globais, escopo e importância da segurança da informação como um mecanismo que habilita o compartilhamento da informação.
+* **C)** uma declaração do comprometimento da direção, apoiando as metas e princípios da segurança da informação, alinhada com os objetivos e estratégias do negócio.
+* **D)** referências à documentação que possam apoiar a política, por exemplo, políticas e procedimentos de segurança mais detalhados de sistemas de informação específicos ou regras de segurança que os usuários devam seguir.
+* **E)** uma estrutura para coibir os objetivos de controle, incluindo a estrutura de análise/avaliação e gerenciamento de risco, em conformidade com a legislação e com requisitos regulamentares e contratuais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "se deixou levar pelos excessos da mocidade". De acordo com a teoria estudada em *Traços Psicológicos Específicos de Alto Impacto Organizacional:*, grave o fator que mais cai nas provas da FCC: no modelo dos Cinco Grandes Fatores (*Big Five*), o traço com maior poder preditivo de alto desempenho profissional consistente em praticamente qualquer profissão é a CONSCIENCIOSIDADE (disciplina, foco em resultados, persistência e responsabilidade).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "se mostrou hesitante diante da insolência do jovem". De acordo com a teoria estudada em *B) Teoria dos Dois Fatores de Frederick Herzberg:*, herzberg demonstrou que a satisfação e a insatisfação no trabalho são fenômenos governados por dois conjuntos completamente independentes de fatores.
-> - **C)** **Correta.** Conforme fundamentado na seção *As Três Dimensões do Comprometimento Organizacional (Meyer e Allen):* deste guia, comprometimento Normativo: O servidor permanece porque ele sente que deve. É movido por um senso de obrigação moral, gratidão ou lealdade ética perante o órgão público. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "demonstrou cruel obsessão pelo senso de disciplina".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "decidiu punir cruelmente a rebeldia das fileiras". De acordo com a teoria estudada em *As Três Dimensões do Comprometimento Organizacional (Meyer e Allen):*, comprometimento Afetivo: O servidor permanece na instituição pública porque ele quer. Há identificação emocional autêntica, orgulho corporativo e adesão genuína à missão institucional.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "se revelou um sádico diante das hostes inimigas". De acordo com a teoria estudada em *As Três Dimensões do Comprometimento Organizacional (Meyer e Allen):*, comprometimento Instrumental / De Continuação: O servidor permanece porque ele precisa. Pesa racionalmente os custos financeiros, estabilidade e perdas pecuniárias decorrentes de um eventual desligamento.
+> - **A)** **Correta.** Conforme fundamentado na seção *A) Teoria da Expectativa / Expectância de Victor Vroom (Modelo VIE):* deste guia, instrumentalidade ($I$): Relação Desempenho $\rightarrow$ Recompensa. A crença de que a organização realmente cumprirá o acordado e entregará a recompensa prometida se o desempenho for alcançado. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 6ª/2012) ao estabelecer que "uma breve explanação das políticas, princípios, normas e requisitos de conformidade de segurança da informação...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma definição de segurança da informação, suas metas globais, escopo e importância da segurança da informação como...". De acordo com a teoria estudada em *A) Hierarquia das Necessidades Humanas de Abraham Maslow:*, necessidades de Segurança: Estabilidade no cargo, proteção física, remuneração previsível e plano de saúde.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma declaração do comprometimento da direção, apoiando as metas e princípios da segurança da informação, alinhada...". De acordo com a teoria estudada em *C) Teoria do Estabelecimento de Metas de Edwin Locke:*, a participação dos servidores na fixação das metas eleva substancialmente seu nível de comprometimento com o resultado final.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "referências à documentação que possam apoiar a política, por exemplo, políticas e procedimentos de segurança mais...". De acordo com a teoria estudada em *Traços Psicológicos Específicos de Alto Impacto Organizacional:*, grave o fator que mais cai nas provas da FCC: no modelo dos Cinco Grandes Fatores (*Big Five*), o traço com maior poder preditivo de alto desempenho profissional consistente em praticamente qualquer profissão é a CONSCIENCIOSIDADE (disciplina, foco em resultados, persistência e responsabilidade).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma estrutura para coibir os objetivos de controle, incluindo a estrutura de análise/avaliação e gerenciamento de...". De acordo com a teoria estudada em *1. Fundamentos do Comportamento Organizacional (CO)*, stephen Robbins estrutura o estudo do CO em três níveis de análise concêntricos e interdependentes.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
 ### Teste 403
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
 Manifestada no ambiente de trabalho, normas de comunicação, rituais e políticas, uma cultura forte promove identidade, coesão e motivação entre empregados. Contudo, uma cultura inadequada pode levar à baixa moral, resistência a mudanças e diminuição da eficácia organizacional. Com relação à cultura organizacional, avalie as afirmativas a seguir: I. O conceito de cultura implica estabilidade estrutural, profundidade, extensão e padrões, refletindo que a cultura é um fenômeno aprendido para um grupo, assim como a personalidade e o caráter são para um indivíduo. II. A integração é uma característica implícita da cultura, pois sugere a união dos elementos em uma "gestalt" que conecta os diversos componentes em um nível mais profundo. III. Cultura sugere estabilidade estrutural no grupo, significando que algo "cultural" é compartilhado e estável, definindo o grupo. Está correto o que se afirma em
 
 * **A)** I, apenas.
@@ -217,7 +217,7 @@ Manifestada no ambiente de trabalho, normas de comunicação, rituais e polític
 > - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1. Fundamentos do Comportamento Organizacional (CO)*, o Comportamento Organizacional (CO) é um campo interdisciplinar que investiga o impacto que indivíduos, grupos e a estrutura exercem sobre o comportamento dentro das instituições, com a finalidade prática de aprimorar a eficácia, a produtividade e a qualidade de vida no trabalho.
 > - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *Dissonância Cognitiva (Leon Festinger):*, fenômeno caracterizado por desconforto e tensão psicológica profunda quando o indivíduo percebe inconsistência entre duas atitudes ou entre sua atitude pessoal e seu comportamento concreto. Para mitigar essa tensão interna, o sujeito tende a.
 > - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *C) Teoria ERC de Clayton Alderfer:*, *Inovação conceitual:* Alderfer admitiu o princípio da frustração-regressão: quando uma necessidade superior não pode ser satisfeita, a pessoa regride e intensifica o desejo de suprir uma necessidade do nível inferior.
-> - **E)** **Correta.** Conforme fundamentado na seção *2. Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos* deste guia, é condicionada tanto pela hereditariedade (carga genética) quanto pelo ambiente (cultura, educação, experiências de vida). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I, II e III".
+> - **E)** **Correta.** Conforme fundamentado na seção *2. Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos* deste guia, é condicionada tanto pela hereditariedade (carga genética) quanto pelo ambiente (cultura, educação, experiências de vida). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I, II e III".
 >
 > **Gabarito: E**
 
@@ -265,26 +265,26 @@ flowchart TD
 ---
 
 ### Teste 404
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Direito – 2026)**
-Em uma inspeção, agentes do controle externo do Tribunal de Contas do Estado Sigma constataram que a remuneração básica de diversos servidores do pequeno Município Delta, com apenas vinte mil habitantes, era inferior ao salário mínimo, o que gerou dúvidas iniciais em relação à conformidade constitucional desse estado de coisas. Ao fim da análise realizada, os agentes concluíram corretamente que, consoante súmula vinculante do Supremo Tribunal Federal,
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+A qualidade de vida no trabalho (QVT) refere-se ao bem-estar geral dos colaboradores no ambiente organizacional. Isso inclui fatores como condições físicas de trabalho, equilíbrio entre vida pessoal e profissional, reconhecimento, oportunidades de desenvolvimento, e um ambiente de trabalho seguro e saudável. Com relação à QVT, avalie as afirmativas a seguir. I. Concilia duas posições opostas: as demandas dos colaboradores por bem-estar e satisfação e o interesse das organizações nos efeitos positivos sobre a produtividade e a qualidade. II. Representa um intenso movimento em direção ao profundo respeito pelo bem-estar das pessoas do ponto de vista biológico, psicológico e social. III. Almeja uma visão fragmentada do ser humano em seu relacionamento com as organizações. Está correto o que se afirma em
 
-* **A)** a garantia de remuneração não inferior ao salário mínimo não é aplicável aos servidores públicos.
-* **B)** o cálculo de gratificações e outras vantagens do servidor público incide sobre o abono utilizado para atingir o salário mínimo.
-* **C)** a garantia de remuneração não inferior ao salário mínimo deve ser analisada na perspectiva do total da remuneração percebida pelo servidor público.
-* **D)** a remuneração básica do servidor público não pode ser inferior ao salário mínimo, não devendo ser consideradas outras parcelas remuneratórias, com fatos geradores próprios que não o mero vínculo funcional.
-* **E)** a garantia de remuneração não inferior ao salário mínimo deve estar prevista no regime jurídico dos servidores públicos, não decorrendo da norma constitucional de eficácia limitada que dispõe sobre a temática.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a garantia de remuneração não inferior ao salário mínimo não é aplicável aos servidores públicos". De acordo com a teoria estudada em *B) Teoria dos Dois Fatores de Frederick Herzberg:*, pegadinha clássica em provas da FCC: afirmar que na teoria de Herzberg o aumento de remuneração é um fator motivacional primordial. FALSO! Salário é um Fator Higiênico (Extrínseco).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o cálculo de gratificações e outras vantagens do servidor público incide sobre o abono utilizado para atingir o...". De acordo com a teoria estudada em *B) Teoria da Equidade de J. Stacy Adams:*, o servidor compara a relação entre suas contribuições/insumos (*inputs* - esforço, formação, tempo) e suas recompensas (*outcomes* - remuneração, elogios, prestígio) com a relação equivalente observada em colegas de referência.
-> - **C)** **Correta.** Conforme fundamentado na seção *C) Teoria ERC de Clayton Alderfer:* deste guia, *Inovação conceitual:* Alderfer admitiu o princípio da frustração-regressão: quando uma necessidade superior não pode ser satisfeita, a pessoa regride e intensifica o desejo de suprir uma necessidade do nível inferior. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "a garantia de remuneração não inferior ao salário mínimo deve ser analisada na perspectiva do total da remuneração...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a remuneração básica do servidor público não pode ser inferior ao salário mínimo, não devendo ser consideradas...". De acordo com a teoria estudada em *B) Teoria dos Dois Fatores de Frederick Herzberg:*, fatores Higiênicos (Extrínsecos): Referem-se ao contexto do trabalho (salário, condições físicas, segurança, benefícios e tipo de supervisão). Sua presença apenas evita a insatisfação funcional; não tem o poder de gerar motivação duradoura.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a garantia de remuneração não inferior ao salário mínimo deve estar prevista no regime jurídico dos servidores...". De acordo com a teoria estudada em *As Três Dimensões do Comprometimento Organizacional (Meyer e Allen):*, comprometimento Normativo: O servidor permanece porque ele sente que deve. É movido por um senso de obrigação moral, gratidão ou lealdade ética perante o órgão público.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *B) Teoria dos Dois Fatores de Frederick Herzberg:*, fatores Higiênicos (Extrínsecos): Referem-se ao contexto do trabalho (salário, condições físicas, segurança, benefícios e tipo de supervisão). Sua presença apenas evita a insatisfação funcional; não tem o poder de gerar motivação duradoura.
+> - **B)** **Correta.** Conforme fundamentado na seção *1. Fundamentos do Comportamento Organizacional (CO)* deste guia, o Comportamento Organizacional (CO) é um campo interdisciplinar que investiga o impacto que indivíduos, grupos e a estrutura exercem sobre o comportamento dentro das instituições, com a finalidade prática de aprimorar a eficácia, a produtividade e a qualidade de vida no trabalho. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I e II, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *B) Teoria dos Dois Fatores de Frederick Herzberg:*, fatores Motivacionais (Intrínsecos): Referem-se ao conteúdo do trabalho (complexidade da tarefa, realização, responsabilidade, desafios intelectuais e desenvolvimento). São os únicos capazes de provocar satisfação plena e motivação autêntica.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *A) Hierarquia das Necessidades Humanas de Abraham Maslow:*, necessidades de Estima: Reconhecimento profissional, status funcional, prestígio e respeito dos superiores.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *B) Teoria dos Dois Fatores de Frederick Herzberg:*, herzberg demonstrou que a satisfação e a insatisfação no trabalho são fenômenos governados por dois conjuntos completamente independentes de fatores.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
@@ -306,26 +306,26 @@ Afirma que a motivação dos indivíduos é moldada por três necessidades essen
 ---
 
 ### Teste 405
-**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
-Verônica, contratada há dois meses por uma sociedade empresária localizada em Uruçuí/PI, está empolgada por ser o seu primeiro emprego e satisfeita porque terá cobertura previdenciária para diversas situações. Verônica recebe um salário mínimo, mas vê reais perspectivas de crescimento profissional e salarial na sociedade empresária. Dos benefícios previdenciários listados a seguir, assinale aquele que, por exigir carência, não será concedido de imediato a Verônica.
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+Os teóricos da denominada Reforma do Estado incluíram as organizações sociais no que denominam terceiro setor, aquele que é composto por entidades da sociedade civil que exercem atividades de interesse público e não lucrativas. O terceiro setor coexiste com o primeiro setor, que é o Estado, e o segundo, que é o mercado. Na realidade ele caracteriza-se por prestar atividade de interesse público, por iniciativa privada, sem fins lucrativos; precisamente pelo interesse público da atividade, o Estado tem interesse em fazer parceria com as mesmas, dentro da atividade de fomento; para essa parceria, as entidades têm que atender a determinados requisitos impostos por lei e que variam de um caso para outro; uma vez preenchidos os requisitos, a entidade recebe um título, como o de utilidade pública ou o certificado de fins filantrópicos (hoje denominado de certificado da entidade beneficente de assistência social). As entidades do terceiro setor sempre existiram e tradicionalmente formalizavam a parceria com o poder público por meio de convênio; com as Leis números 9.637, de 15-5-1998 (sobre organizações sociais), e 9.790, de 23- 9-1999 (sobre Oscips), os instrumentos de parceria idealizados foram respectivamente, o contrato de gestão e o termo de parceria, que se somaram ao tradicional convênio. (DI PIETRO, 2022, pág. 334. Adaptado.) Em relação às Organizações Sociais e às Organizações da Sociedade Civil de Interesse Público assinale a afirmativa incorreta.
 
-* **A)** Salário-família.
-* **B)** Auxílio-acidente.
-* **C)** Auxílio-reclusão.
-* **D)** Salário-maternidade.
-* **E)** Auxílio por incapacidade temporária acidentário.
+* **A)** A celebração do contrato de gestão deve ser conduzida de forma pública, objetiva e impessoal, com observância dos princípios do caput do Art. 37 da Constituição Federal de 1988.
+* **B)** A execução do objeto do Termo de Parceria firmado com OSCIP será acompanhada e fiscalizada por órgão do Poder Público da área de atuação correspondente à atividade fomentada, e pelos Conselhos de Políticas Públicas das áreas correspondentes de atuação existentes, em cada nível de governo.
+* **C)** Os resultados atingidos com a execução do Termo de Parceria devem ser analisados por comissão de avaliação, composta de comum acordo entre o órgão parceiro e a Organização da Sociedade Civil de Interesse Público.
+* **D)** Os responsáveis pela fiscalização da execução do contrato de gestão, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade na utilização de recursos ou bens de origem pública por organização social, dela darão ciência ao respectivo Tribunal de Contas, sob pena de responsabilidade subsidiária.
+* **E)** Havendo indícios fundados de malversação de bens ou recursos de origem pública por Organização Social, os responsáveis pela fiscalização representarão ao Ministério Público ou à Procuradoria da entidade para que requeira ao juízo competente a decretação da indisponibilidade dos bens da entidade e o sequestro dos bens dos seus dirigentes.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Salário-família". De acordo com a teoria estudada em *B) Teoria dos Dois Fatores de Frederick Herzberg:*, pegadinha clássica em provas da FCC: afirmar que na teoria de Herzberg o aumento de remuneração é um fator motivacional primordial. FALSO! Salário é um Fator Higiênico (Extrínseco).
-> - **B)** **Correta.** Conforme fundamentado na seção *B) Teoria dos Dois Fatores de Frederick Herzberg:* deste guia, fatores Higiênicos (Extrínsecos): Referem-se ao contexto do trabalho (salário, condições físicas, segurança, benefícios e tipo de supervisão). Sua presença apenas evita a insatisfação funcional; não tem o poder de gerar motivação duradoura. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "Auxílio-acidente".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Auxílio-reclusão". De acordo com a teoria estudada em *C) Teoria ERC de Clayton Alderfer:*, *Inovação conceitual:* Alderfer admitiu o princípio da frustração-regressão: quando uma necessidade superior não pode ser satisfeita, a pessoa regride e intensifica o desejo de suprir uma necessidade do nível inferior.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Salário-maternidade". De acordo com a teoria estudada em *B) Teoria dos Dois Fatores de Frederick Herzberg:*, o salário baixo gera insatisfação, mas o salário alto apenas neutraliza o descontentamento; ele não possui o poder de produzir motivação duradoura!.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Auxílio por incapacidade temporária acidentário". De acordo com a teoria estudada em *C) Teoria ERC de Clayton Alderfer:*, crescimento (estima interna e autorrealização).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A celebração do contrato de gestão deve ser conduzida de forma pública, objetiva e impessoal, com observância dos...". De acordo com a teoria estudada em *3. Atitudes, Dissonância Cognitiva e Comprometimento Organizacional*, componente Afetivo: A dimensão emocional ou sentimento em relação ao objeto (ex.: "Tenho orgulho de atuar no Tribunal de Contas").
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A execução do objeto do Termo de Parceria firmado com OSCIP será acompanhada e fiscalizada por órgão do Poder...". De acordo com a teoria estudada em *3. Atitudes, Dissonância Cognitiva e Comprometimento Organizacional*, componente Cognitivo: O saber, a crença, a opinião ou o conhecimento fático sobre o objeto (ex.: "A auditoria pública combate a corrupção").
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os resultados atingidos com a execução do Termo de Parceria devem ser analisados por comissão de avaliação...". De acordo com a teoria estudada em *A) Teoria da Expectativa / Expectância de Victor Vroom (Modelo VIE):*, instrumentalidade ($I$): Relação Desempenho $\rightarrow$ Recompensa. A crença de que a organização realmente cumprirá o acordado e entregará a recompensa prometida se o desempenho for alcançado.
+> - **D)** **Correta.** Conforme fundamentado na seção *Traços Psicológicos Específicos de Alto Impacto Organizacional:* deste guia, grave o fator que mais cai nas provas da FCC: no modelo dos Cinco Grandes Fatores (*Big Five*), o traço com maior poder preditivo de alto desempenho profissional consistente em praticamente qualquer profissão é a CONSCIENCIOSIDADE (disciplina, foco em resultados, persistência e responsabilidade). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Os responsáveis pela fiscalização da execução do contrato de gestão, ao tomarem conhecimento de qualquer...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Havendo indícios fundados de malversação de bens ou recursos de origem pública por Organização Social, os...". De acordo com a teoria estudada em *B) Teoria dos Dois Fatores de Frederick Herzberg:*, fatores Motivacionais (Intrínsecos): Referem-se ao conteúdo do trabalho (complexidade da tarefa, realização, responsabilidade, desafios intelectuais e desenvolvimento). São os únicos capazes de provocar satisfação plena e motivação autêntica.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
@@ -357,26 +357,26 @@ flowchart LR
 ---
 
 ### Teste 406
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Direito – 2024)**
-Um dos princípios constitucionais que regula a Seguridade Social é a seletividade e distributividade, ou seja, em algumas hipóteses a Lei restringirá o recebimento de benefícios previdenciários às pessoas de baixa renda, assim definidas em Lei. Das opções abaixo indicadas, marque aquela que, de acordo com a Constituição Federal, contempla dois benefícios previdenciários que observam esse princípio.
+**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+Considere que Analistas do TRT estejam utilizando as melhores práticas do guia PMBOK 5a edição. Para realizarem o Gerenciamento da Integração do Projeto, os Analistas estão trabalhando em um processo responsável pelo acompanhamento, análise e registro do progresso para atender aos objetivos de desempenho definidos no plano de gerenciamento do projeto. Este processo lida com dois aspectos: I. É executado do início ao término do projeto e inclui a coleta, medição e distribuição das informações de desempenho e a avaliação das medições e tendências para efetuar melhorias no processo. Realizado de forma contínua, fornece à equipe de gerenciamento uma compreensão clara da saúde do projeto, identificando quaisquer áreas que possam requerer atenção especial. II. Inclui a determinação de ações corretivas ou preventivas, ou o replanejamento e acompanhamento dos planos de ação para determinar se as ações tomadas resolveram o problema de desempenho. O processo e os aspectos I e II, no qual os Analistas estão trabalhando, são correta e respectivamente,
 
-* **A)** Aposentadoria especial e Auxílio-reclusão.
-* **B)** Auxílio-acidente e Salário-família.
-* **C)** Salário maternidade e Pensão por morte.
-* **D)** Auxílio-acidente e Aposentadoria especial.
-* **E)** Salário-família e Auxílio-reclusão.
+* **A)** Planejar o gerenciamento do escopo − planejamento − avaliação.
+* **B)** Estimar os recursos das atividades − medição − controle.
+* **C)** Monitorar e controlar o trabalho do projeto − monitoramento − controle.
+* **D)** Orientar e gerenciar o trabalho do projeto − medição − correção.
+* **E)** Desenvolver o plano de gerenciamento do projeto − planejamento − correção.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aposentadoria especial e Auxílio-reclusão". De acordo com a teoria estudada em *B) Teoria dos Dois Fatores de Frederick Herzberg:*, pegadinha clássica em provas da FCC: afirmar que na teoria de Herzberg o aumento de remuneração é um fator motivacional primordial. FALSO! Salário é um Fator Higiênico (Extrínseco).
-> - **B)** **Correta.** Conforme fundamentado na seção *B) Teoria dos Dois Fatores de Frederick Herzberg:* deste guia, fatores Higiênicos (Extrínsecos): Referem-se ao contexto do trabalho (salário, condições físicas, segurança, benefícios e tipo de supervisão). Sua presença apenas evita a insatisfação funcional; não tem o poder de gerar motivação duradoura. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Auxílio-acidente e Salário-família".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Salário maternidade e Pensão por morte". De acordo com a teoria estudada em *B) Teoria dos Dois Fatores de Frederick Herzberg:*, o salário baixo gera insatisfação, mas o salário alto apenas neutraliza o descontentamento; ele não possui o poder de produzir motivação duradoura!.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Auxílio-acidente e Aposentadoria especial". De acordo com a teoria estudada em *C) Teoria ERC de Clayton Alderfer:*, *Inovação conceitual:* Alderfer admitiu o princípio da frustração-regressão: quando uma necessidade superior não pode ser satisfeita, a pessoa regride e intensifica o desejo de suprir uma necessidade do nível inferior.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Salário-família e Auxílio-reclusão". De acordo com a teoria estudada em *3. Atitudes, Dissonância Cognitiva e Comprometimento Organizacional*, uma atitude é um estado mental de prontidão organizado pela experiência, manifestado em juízos avaliativos (favoráveis ou desfavoráveis) sobre objetos, pessoas ou eventos. Estrutura-se em três componentes indissociáveis.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Planejar o gerenciamento do escopo − planejamento − avaliação". De acordo com a teoria estudada em *B) Teoria dos Dois Fatores de Frederick Herzberg:*, herzberg demonstrou que a satisfação e a insatisfação no trabalho são fenômenos governados por dois conjuntos completamente independentes de fatores.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estimar os recursos das atividades − medição − controle". De acordo com a teoria estudada em *B) Teoria dos Dois Fatores de Frederick Herzberg:*, fatores Higiênicos (Extrínsecos): Referem-se ao contexto do trabalho (salário, condições físicas, segurança, benefícios e tipo de supervisão). Sua presença apenas evita a insatisfação funcional; não tem o poder de gerar motivação duradoura.
+> - **C)** **Correta.** Conforme fundamentado na seção *D) Teoria das Necessidades Adquiridas de David McClelland:* deste guia, necessidade de Poder (*nPow*): Desejo de influenciar, liderar, controlar e orientar o comportamento de terceiros. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "Monitorar e controlar o trabalho do projeto − monitoramento − controle".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Orientar e gerenciar o trabalho do projeto − medição − correção". De acordo com a teoria estudada em *C) Teoria do Estabelecimento de Metas de Edwin Locke:*, o fornecimento de feedback constante é indispensável para orientar e sustentar o empenho do indivíduo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Desenvolver o plano de gerenciamento do projeto − planejamento − correção". De acordo com a teoria estudada em *A) Hierarquia das Necessidades Humanas de Abraham Maslow:*, necessidades de Segurança: Estabilidade no cargo, proteção física, remuneração previsível e plano de saúde.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -390,26 +390,26 @@ $$\frac{\text{Recompensas Próprias}}{\text{Insumos Próprios}} \quad \text{vers
 ---
 
 ### Teste 407
-**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
-Consideradas definições da palavra vergonha retiradas do Dicionário Aurélio, a alternativa que contém exemplificação correta é:
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Sem Especialidade)**
+A função administrativa de direção está relacionada com a maneira pela qual os objetivos devem ser alcançados, isto é, por meio da atividade das pessoas e da aplicação dos recursos que compõem a organização. Assinale a opção que apresenta, corretamente, a função da direção.
 
-* **A)** sentimento da própria dignidade, brio, honra (linha 4): “Durante severa discussão, o mais sincero dos amigos indagou-lhe se não tinha ética e vergonha na cara.”
-* **B)** sentimento penoso de desonra, humilhação ou rebaixamento diante de outrem (linhas 2 e 3): “Se tiverem vergonha, honrarão a confiança neles depositada e trabalharão com mais lisura.”
-* **C)** desonra humilhante; opróbrio, ignomínia (linha 2): “Artista talentoso, o jovem pianista contornou a explícita vergonha apresentando vários números antes de dirigir a palavra à audiência”.
-* **D)** sentimento de insegurança provocada pelo medo do ridículo, por escrúpulos etc.; timidez, acanhamento (linhas 3 e 4): “Todos ficaram constrangidos com o comportamento indecoroso do magistrado; foi de fato uma vergonha.”
-* **E)** desonra humilhante; opróbrio, ignomínia (linha 2): “Um profundo sentimento de vergonha o impedia de aceitar elogios sem negar ou diminuir o que nele viam de bom.”
+* **A)** A direção é uma função impessoal, sem relação direta com a interação entre o administrador e seus subordinados, focando exclusivamente nas metas organizacionais.
+* **B)** A direção é a função responsável pela comunicação e pela motivação, essenciais para garantir a eficácia do planejamento e da organização, e está intimamente ligada ao relacionamento interpessoal entre o administrador e a equipe.
+* **C)** A direção não requer habilidades interpessoais, uma vez que ela se baseia apenas em aspectos técnicos e operacionais da organização.
+* **D)** A direção é a função que pode ser substituída pela organização, pois as duas funções têm objetivos semelhantes em termos de influenciar o comportamento das pessoas dentro da organização.
+* **E)** A direção é uma função simples, pois se baseia apenas no controle das tarefas executadas pelos subordinados, sem necessidade de liderança ou motivação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *C) Teoria do Estabelecimento de Metas de Edwin Locke:* deste guia, metas específicas, mensuráveis e desafiadoras conduzem a desempenhos significativamente mais elevados do que metas fáceis ou genéricas ("faça o melhor que puder"). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "sentimento da própria dignidade, brio, honra (linha 4): “Durante severa discussão, o mais sincero dos amigos...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sentimento penoso de desonra, humilhação ou rebaixamento diante de outrem (linhas 2 e 3): “Se tiverem vergonha...". De acordo com a teoria estudada em *3. Atitudes, Dissonância Cognitiva e Comprometimento Organizacional*, componente Afetivo: A dimensão emocional ou sentimento em relação ao objeto (ex.: "Tenho orgulho de atuar no Tribunal de Contas").
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desonra humilhante; opróbrio, ignomínia (linha 2): “Artista talentoso, o jovem pianista contornou a explícita...". De acordo com a teoria estudada em *3. Atitudes, Dissonância Cognitiva e Comprometimento Organizacional*, componente Comportamental: A intenção explícita de agir ou se comportar de determinado modo (ex.: "Vou me dedicar com rigor na elaboração do relatório de fiscalização").
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sentimento de insegurança provocada pelo medo do ridículo, por escrúpulos etc.; timidez, acanhamento (linhas 3 e...". De acordo com a teoria estudada em *As Três Dimensões do Comprometimento Organizacional (Meyer e Allen):*, a dissonância cognitiva (Leon Festinger) ocorre quando um indivíduo tem duas crenças contraditórias ou quando seu comportamento viola sua própria atitude moral.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desonra humilhante; opróbrio, ignomínia (linha 2): “Um profundo sentimento de vergonha o impedia de aceitar...". De acordo com a teoria estudada em *B) Teoria da Equidade de J. Stacy Adams:*, o servidor compara a relação entre suas contribuições/insumos (*inputs* - esforço, formação, tempo) e suas recompensas (*outcomes* - remuneração, elogios, prestígio) com a relação equivalente observada em colegas de referência.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A direção é uma função impessoal, sem relação direta com a interação entre o administrador e seus subordinados...". De acordo com a teoria estudada em *A) Teoria da Expectativa / Expectância de Victor Vroom (Modelo VIE):*, valência ($V$): Relação Recompensa $\rightarrow$ Metas Pessoais. O valor atrativo, positivo ou negativo, que o servidor atribui ao resultado ou recompensa oferecida.
+> - **B)** **Correta.** Conforme fundamentado na seção *A) Teoria da Expectativa / Expectância de Victor Vroom (Modelo VIE):* deste guia, instrumentalidade ($I$): Relação Desempenho $\rightarrow$ Recompensa. A crença de que a organização realmente cumprirá o acordado e entregará a recompensa prometida se o desempenho for alcançado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "A direção é a função responsável pela comunicação e pela motivação, essenciais para garantir a eficácia do...".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A direção não requer habilidades interpessoais, uma vez que ela se baseia apenas em aspectos técnicos e...". De acordo com a teoria estudada em *D) Teoria das Necessidades Adquiridas de David McClelland:*, afirma que a motivação dos indivíduos é moldada por três necessidades essenciais adquiridas ao longo da socialização.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A direção é a função que pode ser substituída pela organização, pois as duas funções têm objetivos semelhantes em...". De acordo com a teoria estudada em *1. Fundamentos do Comportamento Organizacional (CO)*, o Comportamento Organizacional (CO) é um campo interdisciplinar que investiga o impacto que indivíduos, grupos e a estrutura exercem sobre o comportamento dentro das instituições, com a finalidade prática de aprimorar a eficácia, a produtividade e a qualidade de vida no trabalho.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A direção é uma função simples, pois se baseia apenas no controle das tarefas executadas pelos subordinados, sem...". De acordo com a teoria estudada em *C) Teoria ERC de Clayton Alderfer:*, relacionamento (sociais e consideração externa).
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
@@ -431,50 +431,50 @@ Abordagem comportamentalista segundo a qual o comportamento é condicionado por 
 ---
 
 ### Teste 408
-**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Uma afirmação em consonância com as ideias defendidas no texto está em:
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Sem Especialidade)**
+O planejamento estratégico no setor público orienta a gestão por resultados, promovendo ações alinhadas a metas e indicadores que garantem maior eficiência, transparência e foco nas demandas da sociedade. Assinale a opção que apresenta corretamente uma característica do planejamento estratégico no setor público.
 
-* **A)** A responsabilidade pelo outro não apresenta limites óbvios, nem se traduz facilmente em medidas práticas a serem adotadas ou das quais se abster.
-* **B)** Na medida em que o bem e o mal não são discerníveis em sua essência, as ações dos indivíduos devem se espelhar na conduta de figuras de autoridade.
-* **C)** As incertezas estão na raiz dos problemas morais e a única receita infalível para a escolha correta são as regras de bom comportamento aprendidas na infância.
-* **D)** Embora os resultados de uma escolha moral estejam sujeitos a fatores externos à intenção do ator, o esforço de se fazer o bem não é empreendido sem satisfação.
-* **E)** Uma vez que as linhas divisórias entre bem e mal tenham sido previamente traçadas, a ação em prol do outro terá uma consequência facilmente mensurável.
+* **A)** O planejamento estratégico é voltado principalmente para a resolução imediata de problemas operacionais, com foco no curto prazo.
+* **B)** O planejamento estratégico é um processo limitado a algumas áreas da organização, buscando melhorias isoladas e específicas.
+* **C)** O planejamento estratégico ignora o ambiente externo, concentrando-se apenas nos recursos internos da organização.
+* **D)** O planejamento estratégico é um processo centrado exclusivamente na alta administração, sem necessidade de envolvimento de outros atores.
+* **E)** O planejamento estratégico é orientado para o futuro, envolvendo toda a organização, busca consenso entre os atores e promove o aprendizado organizacional.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A responsabilidade pelo outro não apresenta limites óbvios, nem se traduz facilmente em medidas práticas a serem...". De acordo com a teoria estudada em *5. Teorias Motivacionais de Processo (Vroom, Adams, Locke e Skinner)*, as teorias de processo investigam a dinâmica cognitiva e os mecanismos mentais por meio dos quais o comportamento humano é estimulado, direcionado e mantido no tempo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Na medida em que o bem e o mal não são discerníveis em sua essência, as ações dos indivíduos devem se espelhar na...". De acordo com a teoria estudada em *1. Fundamentos do Comportamento Organizacional (CO)*, o Comportamento Organizacional (CO) é um campo interdisciplinar que investiga o impacto que indivíduos, grupos e a estrutura exercem sobre o comportamento dentro das instituições, com a finalidade prática de aprimorar a eficácia, a produtividade e a qualidade de vida no trabalho.
-> - **C)** **Correta.** Conforme fundamentado na seção *2. Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos* deste guia, a personalidade é a constelação dinâmica de traços psicológicos que determinam a forma única como cada indivíduo se adapta e reage aos ambientes em que vive. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "As incertezas estão na raiz dos problemas morais e a única receita infalível para a escolha correta são as regras...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Embora os resultados de uma escolha moral estejam sujeitos a fatores externos à intenção do ator, o esforço de se...". De acordo com a teoria estudada em *Traços Psicológicos Específicos de Alto Impacto Organizacional:*, grave o fator que mais cai nas provas da FCC: no modelo dos Cinco Grandes Fatores (*Big Five*), o traço com maior poder preditivo de alto desempenho profissional consistente em praticamente qualquer profissão é a CONSCIENCIOSIDADE (disciplina, foco em resultados, persistência e responsabilidade).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Uma vez que as linhas divisórias entre bem e mal tenham sido previamente traçadas, a ação em prol do outro terá...". De acordo com a teoria estudada em *D) Teoria do Reforço de B.F. Skinner:*, reforço Negativo: Remoção de uma consequência desagradável quando o indivíduo adota a conduta desejada (ex.: cessação de cobranças diárias quando o servidor entrega o relatório).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O planejamento estratégico é voltado principalmente para a resolução imediata de problemas operacionais, com foco...". De acordo com a teoria estudada em *A) Teoria da Expectativa / Expectância de Victor Vroom (Modelo VIE):*, instrumentalidade ($I$): Relação Desempenho $\rightarrow$ Recompensa. A crença de que a organização realmente cumprirá o acordado e entregará a recompensa prometida se o desempenho for alcançado.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O planejamento estratégico é um processo limitado a algumas áreas da organização, buscando melhorias isoladas e...". De acordo com a teoria estudada em *C) Teoria do Estabelecimento de Metas de Edwin Locke:*, metas específicas, mensuráveis e desafiadoras conduzem a desempenhos significativamente mais elevados do que metas fáceis ou genéricas ("faça o melhor que puder").
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O planejamento estratégico ignora o ambiente externo, concentrando-se apenas nos recursos internos da organização". De acordo com a teoria estudada em *2. Personalidade: O Modelo dos Cinco Grandes Fatores (Big Five) e Traços Específicos*, é condicionada tanto pela hereditariedade (carga genética) quanto pelo ambiente (cultura, educação, experiências de vida).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O planejamento estratégico é um processo centrado exclusivamente na alta administração, sem necessidade de...". De acordo com a teoria estudada em *D) Teoria das Necessidades Adquiridas de David McClelland:*, necessidade de Realização (*nAch*): Busca incessante por excelência, superação de padrões difíceis e assunção de riscos calculados.
+> - **E)** **Correta.** Conforme fundamentado na seção *Traços Psicológicos Específicos de Alto Impacto Organizacional:* deste guia, grave o fator que mais cai nas provas da FCC: no modelo dos Cinco Grandes Fatores (*Big Five*), o traço com maior poder preditivo de alto desempenho profissional consistente em praticamente qualquer profissão é a CONSCIENCIOSIDADE (disciplina, foco em resultados, persistência e responsabilidade). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "O planejamento estratégico é orientado para o futuro, envolvendo toda a organização, busca consenso entre os...".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
 ### Teste 409
-**(FGV – TRT-24 – Analista Judiciario Area Administrativa Sem Especialidade – 2025)**
-A gestão por competências na Administração Pública contribui para o desenvolvimento organizacional ao alinhar as habilidades dos servidores às estratégias institucionais, promovendo maior eficiência, desempenho e qualidade na entrega de serviços à sociedade. Assinale a opção que apresenta corretamente a relação entre conhecimento, habilidade e competência no contexto da gestão por competências.
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Atuariais)**
+Um atuário de um regime próprio analisa a evolução do passivo atuarial e do custo normal de um plano na modalidade Benefício Definido (BD), utilizando quatro métodos de custeio: Agregado, Crédito Unitário Projetado, Idade Normal de Entrada e Prêmio Nivelado Individual. Com base no comportamento esperado ao longo do tempo, assinale a afirmativa correta.
 
-* **A)** Competência refere-se apenas à acumulação de conhecimento técnico e acadêmico.
-* **B)** Habilidade é saber aprender continuamente e transformar o conhecimento em resultado concreto.
-* **C)** Conhecimento é a aplicação prática da habilidade para alcançar resultados e metas organizacionais.
-* **D)** Conhecimento, habilidade e competência são conceitos equivalentes e podem ser usados como sinônimos na gestão pública.
-* **E)** A competência envolve a integração entre conhecimento (saber), habilidade (saber fazer) e a capacidade de alcançar resultados (saber fazer acontecer).
+* **A)** O Método Agregado, por não gerar explicitamente um passivo atuarial inicial de serviço passado, dilui esses valores diretamente no custo normal, futuro, resultando em uma curva de contribuição tipicamente mais volátil e sensível a oscilações da massa de segurados.
+* **B)** O Método Crédito Unitário Projetado apresenta o passivo atuarial mais elevado nas idades iniciais, pois financia o benefício de forma antecipada como um percentual do salário de contribuição.
+* **C)** O Método Idade Normal de Entrada gera um custo normal que tende a ser crescente em relação à idade, assemelhando- se ao comportamento do método Crédito Unitário Projetado aplicado a populações maduras.
+* **D)** O Método Prêmio Nivelado Individual resulta em um custo normal decrescente, conforme o participante se aproxima da idade de aposentadoria.
+* **E)** Para o longo prazo, todos os métodos de custeio convergem para o mesmo valor de Passivo Atuarial, porém o método Idade Normal de Entrada é o único que permite o financiamento de benefícios sem a constituição de reservas prévias.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Competência refere-se apenas à acumulação de conhecimento técnico e acadêmico". De acordo com a teoria estudada em *Traços Psicológicos Específicos de Alto Impacto Organizacional:*, autoeficácia (Albert Bandura): A convicção pessoal que um colaborador tem em sua própria capacidade de desempenhar com sucesso uma tarefa específica. Servidores com alta autoeficácia reagem a dificuldades com maior perseverança.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Habilidade é saber aprender continuamente e transformar o conhecimento em resultado concreto". De acordo com a teoria estudada em *Traços Psicológicos Específicos de Alto Impacto Organizacional:*, grave o fator que mais cai nas provas da FCC: no modelo dos Cinco Grandes Fatores (*Big Five*), o traço com maior poder preditivo de alto desempenho profissional consistente em praticamente qualquer profissão é a CONSCIENCIOSIDADE (disciplina, foco em resultados, persistência e responsabilidade).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Conhecimento é a aplicação prática da habilidade para alcançar resultados e metas organizacionais". De acordo com a teoria estudada em *1. Fundamentos do Comportamento Organizacional (CO)*, o Comportamento Organizacional (CO) é um campo interdisciplinar que investiga o impacto que indivíduos, grupos e a estrutura exercem sobre o comportamento dentro das instituições, com a finalidade prática de aprimorar a eficácia, a produtividade e a qualidade de vida no trabalho.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Conhecimento, habilidade e competência são conceitos equivalentes e podem ser usados como sinônimos na gestão...". De acordo com a teoria estudada em *C) Teoria ERC de Clayton Alderfer:*, *Inovação conceitual:* Alderfer admitiu o princípio da frustração-regressão: quando uma necessidade superior não pode ser satisfeita, a pessoa regride e intensifica o desejo de suprir uma necessidade do nível inferior.
-> - **E)** **Correta.** Conforme fundamentado na seção *3. Atitudes, Dissonância Cognitiva e Comprometimento Organizacional* deste guia, componente Cognitivo: O saber, a crença, a opinião ou o conhecimento fático sobre o objeto (ex.: "A auditoria pública combate a corrupção"). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "A competência envolve a integração entre conhecimento (saber), habilidade (saber fazer) e a capacidade de alcançar...".
+> - **A)** **Correta.** Conforme fundamentado na seção *C) Teoria do Estabelecimento de Metas de Edwin Locke:* deste guia, metas específicas, mensuráveis e desafiadoras conduzem a desempenhos significativamente mais elevados do que metas fáceis ou genéricas ("faça o melhor que puder"). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "O Método Agregado, por não gerar explicitamente um passivo atuarial inicial de serviço passado, dilui esses...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Método Crédito Unitário Projetado apresenta o passivo atuarial mais elevado nas idades iniciais, pois financia o...". De acordo com a teoria estudada em *B) Teoria dos Dois Fatores de Frederick Herzberg:*, fatores Higiênicos (Extrínsecos): Referem-se ao contexto do trabalho (salário, condições físicas, segurança, benefícios e tipo de supervisão). Sua presença apenas evita a insatisfação funcional; não tem o poder de gerar motivação duradoura.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Método Idade Normal de Entrada gera um custo normal que tende a ser crescente em relação à idade, assemelhando-...". De acordo com a teoria estudada em *Dissonância Cognitiva (Leon Festinger):*, fenômeno caracterizado por desconforto e tensão psicológica profunda quando o indivíduo percebe inconsistência entre duas atitudes ou entre sua atitude pessoal e seu comportamento concreto. Para mitigar essa tensão interna, o sujeito tende a.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Método Prêmio Nivelado Individual resulta em um custo normal decrescente, conforme o participante se aproxima da...". De acordo com a teoria estudada em *A) Teoria da Expectativa / Expectância de Victor Vroom (Modelo VIE):*, a motivação resulta de um cálculo mental ponderado que encadeia três elementos fundamentais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para o longo prazo, todos os métodos de custeio convergem para o mesmo valor de Passivo Atuarial, porém o método...". De acordo com a teoria estudada em *D) Teoria das Necessidades Adquiridas de David McClelland:*, afirma que a motivação dos indivíduos é moldada por três necessidades essenciais adquiridas ao longo da socialização.
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
 ---
 

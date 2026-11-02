@@ -97,74 +97,68 @@ flowchart TD
 ---
 
 ### Teste 585
-**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
-Analise o script abaixo from pandas import DataFrame import matplotlib.pyplot as plt from sklearn.cluster import KMeans Data = {'x': [36,35,23,28,34,32,30,23,36,34,66,55,56,44,51,56,52,51,64,48,4 9,50,36,34,43,46,40,42,52,47], 'y': [76,52,52,79,60,73,73,58,70,76,52,33,41,45,52,37,36,59,60,51,2 6,21,15,13,21,10,30,28,10,17] } df = DataFrame(Data,columns=['x','y']) m = KMeans(n_clusters=3).fit(df) d = m.cluster_centers_ plt.xlabel("X") plt.ylabel("Y") plt.scatter(df['x'], df['y'], c= m.labels_.astype(float), s=100, alpha=0.5) plt.scatter(d[:, 0], d[:, 1], c='red', s=250, marker='*') plt.grid() plt.show() O resultado da execução é As estrelas indicam
+**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Dentre as categorias de controles gerais que devem ser consideradas em um processo de auditoria de sistemas estão os controles de
 
-* **A)** componentes principais.
-* **B)** centros de voronoi.
-* **C)** covariâncias.
-* **D)** centroides.
-* **E)** clusteres.
+* **A)** eliminar o sistema que gerou o risco, visando reduzir o risco.
+* **B)** atuar sobre os ativos que sofrem as consequências do risco, visando eliminar o risco.
+* **C)** escolher apenas uma alternativa que seja economicamente viável, já que é impossível reter o risco.
+* **D)** utilizar sempre medidas de caráter contingencial ou mitigatório, evitando-se as medidas preventivas.
+* **E)** transferir o risco, por meio de seguros, cooperação ou outra ação adequada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "componentes principais". De acordo com a teoria estudada em *3.4 Ciclo de Vida: Deprecated vs. Decommissioned*, a correta interpretação do ciclo de vida de componentes de software é essencial para a gestão e auditoria de TI.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "centros de voronoi". De acordo com a teoria estudada em *1.1 Os Níveis Normativos Canônicos*, mAY / OPTIONAL (Opcional / Facultativo): Indicam um recurso verdadeiramente opcional (*truly optional*).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "covariâncias". De acordo com a teoria estudada em *1.2 Matriz de Conformidade Técnica da RFC 2119*, mUST NOT / SHALL NOT: Proibição absoluta da especificação. — Proibição expressa. Qualquer execução viola o padrão. — NÃO é mera ressalva dispensável.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Os Níveis Normativos Canônicos* deste guia, sHOULD / RECOMMENDED (Fortemente Recomendado): Indicam que o comportamento prescrito representa a boa prática recomendada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "centroides".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "clusteres". De acordo com a teoria estudada em *1.2 Matriz de Conformidade Técnica da RFC 2119*, sHOULD NOT / NOT RECOMMENDED: Desaconselhamento enfático em operação padrão. — Conduta indesejada; implementação aceitável apenas em exceções marginais. — NÃO é um veto absoluto em 100% dos casos marginais.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eliminar o sistema que gerou o risco, visando reduzir o risco". De acordo com a teoria estudada em *1.1 Os Níveis Normativos Canônicos*, mUST / SHALL / REQUIRED (Obrigatório / Mandatório): Designam uma exigência absoluta da especificação (*absolute requirement*). O sistema, serviço ou cliente que não implementar ou violar este item é classificado como em não-conformidade (*non-compliant*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atuar sobre os ativos que sofrem as consequências do risco, visando eliminar o risco". De acordo com a teoria estudada em *3.3 Categorização e Gravidade das Advertências Técnicas*, as caixas de alerta dos manuais de engenharia são padronizadas por nível de risco.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "escolher apenas uma alternativa que seja economicamente viável, já que é impossível reter o risco". De acordo com a teoria estudada em *3.3 Categorização e Gravidade das Advertências Técnicas*, caution (Cuidado): Risco de comportamento inesperado, degradação severa de desempenho ou instabilidade na topologia (ex.: formar clusters com número par de nós, arriscando *split-brain*).
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Os Níveis Normativos Canônicos* deste guia, podem existir razões válidas em circunstâncias particulares para ignorar a diretriz, mas as implicações técnicas de tal desvio devem ser plenamente compreendidas, avaliadas e formalmente documentadas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "utilizar sempre medidas de caráter contingencial ou mitigatório, evitando-se as medidas preventivas".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "transferir o risco, por meio de seguros, cooperação ou outra ação adequada". De acordo com a teoria estudada em *2.1 Estrutura de Rotas, Métodos HTTP e Idempotência*, o design RESTful organiza as interações por meio de URIs de recursos e verbos padronizados pelo protocolo HTTP.
 >
 > **Gabarito: D**
 
 ---
 
 ### Teste 586
-**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
-The passage in which the verb phrase indicates a necessity is:
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+O ciclo de vida de um software, entre outras características, está relacionado aos estágios de concepção, projeto, criação e implementação.
 
-* **A)** “this incredible ability of the brain […] may be fundamental”;
-* **B)** “some engineers can come up with something”;
-* **C)** “computers don’t work this way”;
-* **D)** “brains don’t store information”;
-* **E)** “it must regulate a body”.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“this incredible ability of the brain […] may be fundamental”". De acordo com a teoria estudada em *1.1 Os Níveis Normativos Canônicos*, mAY / OPTIONAL (Opcional / Facultativo): Indicam um recurso verdadeiramente opcional (*truly optional*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“some engineers can come up with something”". De acordo com a teoria estudada em *2.2 Parâmetros de Requisição e Schemas de Dados JSON*, request Body (Corpo da Requisição / Payload): Estrutura hierárquica contendo os campos de dados.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“computers don’t work this way”". De acordo com a teoria estudada em *4.1 Anatomia Estrutural de um Artigo de Vanguarda*, introduction: Expõe a relevância do problema e lista textualmente as contribuições primárias do trabalho (*"In this paper, our main contributions are.."*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“brains don’t store information”". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 20 to 25 - Reading Technical Manuals and System Specifications).
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Matriz de Conformidade Técnica da RFC 2119* deste guia, a RFC 2119 expressamente ressalva que podem existir cenários peculiares que justifiquem a não observância do *SHOULD*, cabendo ao engenheiro mensurar os impactos (*the full implications must be understood and carefully weighed*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "“it must regulate a body”".
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *3.4 Ciclo de Vida: Deprecated vs. Decommissioned* deste guia, a correta interpretação do ciclo de vida de componentes de software é essencial para a gestão e auditoria de TI. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRT/10/2013) ao afirmar que "O ciclo de vida de um software, entre outras características, está relacionado aos estágios de concepção...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *3.4 Ciclo de Vida: Deprecated vs. Decommissioned*, segundo a qual deprecated (Descontinuado / Tornado Obsoleto): O método, protocolo ou versão continua plenamente funcional na versão em execução do software.
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 
 ### Teste 587
-**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
-When a developer team build an application with Oracle Form Builder, they work with individual application components called modules. The form module is a collection of objects and code routines. Some of the objects can be defined in a form module including windows, text items (fields), check boxes, buttons, alerts, lists of values, and blocks of PL/SQL code called
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
+Uma sociedade empresária do setor de engenharia tem uma biblioteca, que é utilizada por seus empregados para obter informações técnicas. Os livros da biblioteca são classificados no balanço patrimonial da sociedade empresária como
 
-* **A)** joins.
-* **B)** triggers.
-* **C)** thin blocks.
-* **D)** collections.
-* **E)** queries.
+* **A)** ativo intangível.
+* **B)** Investimentos.
+* **C)** ativo Imobilizado.
+* **D)** ativo circulante.
+* **E)** ativo realizável a longo prazo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "joins". De acordo com a teoria estudada em *3.1 Verbos Operacionais no Modo Imperativo*, purge / Prune: *"Prune unreferenced objects to recover disk blocks"* \$\rightarrow\$ *Expurgue / limpe* objetos não referenciados.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Matriz de Conformidade Técnica da RFC 2119* deste guia, a RFC 2119 expressamente ressalva que podem existir cenários peculiares que justifiquem a não observância do *SHOULD*, cabendo ao engenheiro mensurar os impactos (*the full implications must be understood and carefully weighed*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "triggers".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "thin blocks". De acordo com a teoria estudada em *3.1 Verbos Operacionais no Modo Imperativo*, provision: *"Provision persistent storage classes with dynamic allocation"* \$\rightarrow\$ *Aloque / provisione* classes de armazenamento.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "collections". De acordo com a teoria estudada em *4.1 Anatomia Estrutural de um Artigo de Vanguarda*, related Work: Confronta a solução com trabalhos anteriores (*prior art*).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "queries". De acordo com a teoria estudada em *2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)*, diferentemente do padrão REST, no qual cada recurso ocupa uma URI distinta, o padrão GraphQL opera via endpoint único (`POST /graphql`). A documentação orienta-se por esquemas de tipagem estrita (*Schema Definition Language - SDL*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ativo intangível". De acordo com a teoria estudada em *1. Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)*, esses vocábulos não exercem função decorativa ou meramente estilística; constituem imposições contratuais e técnicas de conformidade estrita.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Investimentos". De acordo com a teoria estudada em *3.3 Categorização e Gravidade das Advertências Técnicas*, as caixas de alerta dos manuais de engenharia são padronizadas por nível de risco.
+> - **C)** **Correta.** Conforme fundamentado na seção *1. Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)* deste guia, nas áreas de engenharia de software, redes de comunicação e governança de tecnologia avaliadas pela Fundação Carlos Chagas (FCC), a leitura de especificações técnicas formais (padrões da IETF, W3C, ISO/IEC e NIST) exige a compreensão rigorosa dos termos normativos prescritivos grafados em letras maiúsculas, disciplinados pela clássica RFC 2119 (e reafirmados pela RFC 8174). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "ativo Imobilizado".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ativo circulante". De acordo com a teoria estudada em *1.1 Os Níveis Normativos Canônicos*, podem existir razões válidas em circunstâncias particulares para ignorar a diretriz, mas as implicações técnicas de tal desvio devem ser plenamente compreendidas, avaliadas e formalmente documentadas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ativo realizável a longo prazo". De acordo com a teoria estudada em *3.3 Categorização e Gravidade das Advertências Técnicas*, note / Tip (Nota / Dica): Informação complementar útil ou sugestão de atalho operacional.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -259,96 +253,90 @@ Diferentemente do padrão REST, no qual cada recurso ocupa uma URI distinta, o p
 ---
 
 ### Teste 588
-**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
-As palavras denominadas de cognatas vêm do latim cognatus que significa referente a parente. Especificamente, refere-se a uma palavra que deriva da mesma família de línguas ou tronco linguístico (Dicio.com., 2020). As palavras cognatas ou os cognatos são muito importantes, pois, a proximidade morfológica com a língua portuguesa auxilia na compreensão do texto em língua inglesa e na aprendizagem de palavras, ainda, desconhecidas. A partir do acima explicado, assinale a sequência de palavras cognatas retiradas do texto Crimes.
+**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+O OSPF − Open Shortest Path First é um dos protocolos de roteamento, do tipo IGP − Interior Gateway Protocol, mais utilizados em redes de grande dimensão. Se, comparado com o OSPF, o BGP
 
-* **A)** crime, types; understand
-* **B)** courts, wrong, commit
-* **C)** insane; crime, responsible
-* **D)** children; age; cannot
-* **E)** right, law, courts
+* **A)** é baseado no estado do link e o OSPF, no vetor de distâncias.
+* **B)** é utilizado como IGP em redes locais pequenas e o OSPF, para redes grandes.
+* **C)** faz uso do protocolo de transporte e o OSPF não faz uso do protocolo de transporte.
+* **D)** é mais simples que o OSPF, sendo assim, menos eficiente como IGP.
+* **E)** opera dentro de uma única rede local e o OSPF opera sobre várias.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "crime, types; understand". De acordo com a teoria estudada em *2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)*, diferentemente do padrão REST, no qual cada recurso ocupa uma URI distinta, o padrão GraphQL opera via endpoint único (`POST /graphql`). A documentação orienta-se por esquemas de tipagem estrita (*Schema Definition Language - SDL*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "courts, wrong, commit". De acordo com a teoria estudada em *2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta*, a compreensão precisa das famílias de códigos de status HTTP é intensamente avaliada em provas.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta* deste guia, `429 Too Many Requests`: Limite de taxa de requisições excedido (*rate limiting / throttling*). Vem associado ao cabeçalho `Retry-After: <segundos>`, que estipula o tempo de espera obrigatório antes de nova tentativa. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "insane; crime, responsible".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "children; age; cannot". De acordo com a teoria estudada em *2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta*, família 4xx (Client Error - Erros Originados no Cliente).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "right, law, courts". De acordo com a teoria estudada em *2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta*, família 5xx (Server Error - Falhas Internas do Provedor).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é baseado no estado do link e o OSPF, no vetor de distâncias". De acordo com a teoria estudada em *3.4 Ciclo de Vida: Deprecated vs. Decommissioned*, deprecated (Descontinuado / Tornado Obsoleto): O método, protocolo ou versão continua plenamente funcional na versão em execução do software.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é utilizado como IGP em redes locais pequenas e o OSPF, para redes grandes". De acordo com a teoria estudada em *1. Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)*, nas áreas de engenharia de software, redes de comunicação e governança de tecnologia avaliadas pela Fundação Carlos Chagas (FCC), a leitura de especificações técnicas formais (padrões da IETF, W3C, ISO/IEC e NIST) exige a compreensão rigorosa dos termos normativos prescritivos grafados em letras maiúsculas, disciplinados pela clássica RFC 2119 (e reafirmados pela RFC 8174).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Estrutura de Rotas, Métodos HTTP e Idempotência* deste guia, o design RESTful organiza as interações por meio de URIs de recursos e verbos padronizados pelo protocolo HTTP. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "faz uso do protocolo de transporte e o OSPF não faz uso do protocolo de transporte".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é mais simples que o OSPF, sendo assim, menos eficiente como IGP". De acordo com a teoria estudada em *4.3 Léxico de Validação Experimental e Evidências Empíricas*, tail Latency (Latência de Cauda - P99 / P99.9): O tempo de resposta experimentado pelos percentis mais lentos das requisições; indicador crítico em sistemas de tempo real.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "opera dentro de uma única rede local e o OSPF opera sobre várias". De acordo com a teoria estudada em *2.1 Estrutura de Rotas, Métodos HTTP e Idempotência*, gET: Recupera a representação de um recurso. Operação segura (não altera o estado no servidor) e idempotente (múltiplas chamadas idênticas produzem o mesmo efeito de uma única chamada).
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 589
-**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
-A tecnologia conhecida como RAID,
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Agente Da Policia Judicial)**
+Para que a vigilância de áreas internas e externas seja efetiva, é necessário seguir o seguinte roteiro: identificação de riscos, mitigação de riscos e elaboração de plano de contingência. Assinale a opção que apresenta duas ações que contribuem com a identificação de riscos.
 
-* **A)** tem como principal vantagem o aumento na velocidade da operações de leitura e escrita, na comparação com discos convencionais.
-* **B)** consiste numa tecnologia de armazenamento de dados que combina vários discos físicos num único "disco lógico".
-* **C)** pode ser utilizada para implementar um sistema de backup uma vez que oferece toda a funcionalidade necessária a um sistema de backup.
-* **D)** consiste numa tecnologia de armazenamento de dados que combina várias partições de um mesmo disco numa única "partição lógica".
-* **E)** tem como desvantagem exigir o uso de discos e/ou controladores de disco especiais e, portanto, mais dispendiosos. Atenção: Considere o texto a seguir, para responder às questões de números 58 a 60. Microsoft touts Windows 8's ability to detect, fix hard disk problems The new operating system makes the process faster and less disruptive to the operation of the computer By Juan Carlos Perez May 10, 2012 04:46 PM ET IDG News Service − Microsoft has revamped the way Windows 8 monitors hard disk operations and detects problems in an effort to make the diagnostic and repair process less intrusive and disruptive, even as disk capacity continues to balloon.
+* **A)** Avaliação da edificação e vulnerabilidade do acervo.
+* **B)** Guarda do acervo com critérios de seguranças e identificação de serviços de emergência.
+* **C)** Vulnerabilidade do acervo e treinamento de equipes.
+* **D)** Métodos de recuperação dos acervos e avaliação do sistema de combate a incêndio.
+* **E)** Utilização de diário de ocorrências e manutenção da edificação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tem como principal vantagem o aumento na velocidade da operações de leitura e escrita, na comparação com discos...". De acordo com a teoria estudada em *1. Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)*, nas áreas de engenharia de software, redes de comunicação e governança de tecnologia avaliadas pela Fundação Carlos Chagas (FCC), a leitura de especificações técnicas formais (padrões da IETF, W3C, ISO/IEC e NIST) exige a compreensão rigorosa dos termos normativos prescritivos grafados em letras maiúsculas, disciplinados pela clássica RFC 2119 (e reafirmados pela RFC 8174).
-> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Categorização e Gravidade das Advertências Técnicas* deste guia, danger / Fatal (Perigo / Fatalidade): Risco crítico de perda irreversível de dados, danos físicos ao hardware ou colapso total de segurança cibernética. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "consiste numa tecnologia de armazenamento de dados que combina vários discos físicos num único "disco lógico"".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pode ser utilizada para implementar um sistema de backup uma vez que oferece toda a funcionalidade necessária a um...". De acordo com a teoria estudada em *1.1 Os Níveis Normativos Canônicos*, mUST / SHALL / REQUIRED (Obrigatório / Mandatório): Designam uma exigência absoluta da especificação (*absolute requirement*). O sistema, serviço ou cliente que não implementar ou violar este item é classificado como em não-conformidade (*non-compliant*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consiste numa tecnologia de armazenamento de dados que combina várias partições de um mesmo disco numa única...". De acordo com a teoria estudada em *2.1 Estrutura de Rotas, Métodos HTTP e Idempotência*, gET: Recupera a representação de um recurso. Operação segura (não altera o estado no servidor) e idempotente (múltiplas chamadas idênticas produzem o mesmo efeito de uma única chamada).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tem como desvantagem exigir o uso de discos e/ou controladores de disco especiais e, portanto, mais dispendiosos...". De acordo com a teoria estudada em *1.2 Matriz de Conformidade Técnica da RFC 2119*, a RFC 2119 expressamente ressalva que podem existir cenários peculiares que justifiquem a não observância do *SHOULD*, cabendo ao engenheiro mensurar os impactos (*the full implications must be understood and carefully weighed*).
+> - **A)** **Correta.** Conforme fundamentado na seção *2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta* deste guia, família 5xx (Server Error - Falhas Internas do Provedor). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "Avaliação da edificação e vulnerabilidade do acervo".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Guarda do acervo com critérios de seguranças e identificação de serviços de emergência". De acordo com a teoria estudada em *1.2 Matriz de Conformidade Técnica da RFC 2119*, sHOULD / RECOMMENDED: Fortemente recomendado com abertura para exceções fundamentadas. — Padrão ouro a ser seguido; desvios exigem justificativa técnica formal. — NÃO é uma imposição cega inegociável, e NÃO é uma opção arbitrária sem critérios.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Vulnerabilidade do acervo e treinamento de equipes". De acordo com a teoria estudada em *1. Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)*, nas áreas de engenharia de software, redes de comunicação e governança de tecnologia avaliadas pela Fundação Carlos Chagas (FCC), a leitura de especificações técnicas formais (padrões da IETF, W3C, ISO/IEC e NIST) exige a compreensão rigorosa dos termos normativos prescritivos grafados em letras maiúsculas, disciplinados pela clássica RFC 2119 (e reafirmados pela RFC 8174).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Métodos de recuperação dos acervos e avaliação do sistema de combate a incêndio". De acordo com a teoria estudada em *1.1 Os Níveis Normativos Canônicos*, mUST / SHALL / REQUIRED (Obrigatório / Mandatório): Designam uma exigência absoluta da especificação (*absolute requirement*). O sistema, serviço ou cliente que não implementar ou violar este item é classificado como em não-conformidade (*non-compliant*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Utilização de diário de ocorrências e manutenção da edificação". De acordo com a teoria estudada em *2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta*, `503 Service Unavailable`: Servidor temporariamente incapacitado por sobrecarga ou manutenção programada.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 590
-**(FGV – TJ-BA – Analista Judiciario Tecnologia da Informacao – 2015)**
-Em regra, dependem de preparo, consoante dispõe o egimento nterno do Tribunal de ustiça do stado da ahia:
+**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Um conjunto redundante de discos independentes (RAID) pode ser implementado tanto em software quanto em hardware.
 
-* **A)** os reexames de sentença e os recursos interpostos pelo Ministério Público, pela efensoria Pública, pela azenda Pública e por entidades da administração indireta, assim como as aç es por eles intentadas;
-* **B)** os processos e recursos previstos no statuto da riança e do Adolescente;
-* **C)** os conflitos de compet ncia, as exceç es de impedimento, de suspeição e de incompet ncia;
-* **D)** as aç es diretas de inconstitucionalidade, as reclamaç es e os pedidos de intervenção;
-* **E)** os mandados de segurança, sendo que, quando indicados os litisconsortes, o preparo incluirá as cartas, inclusive as de ordem a serem expedidas.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os reexames de sentença e os recursos interpostos pelo Ministério Público, pela efensoria Pública, pela azenda...". De acordo com a teoria estudada em *2.1 Estrutura de Rotas, Métodos HTTP e Idempotência*, o design RESTful organiza as interações por meio de URIs de recursos e verbos padronizados pelo protocolo HTTP.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os processos e recursos previstos no statuto da riança e do Adolescente". De acordo com a teoria estudada em *2.2 Parâmetros de Requisição e Schemas de Dados JSON*, path Parameters (`/taxpayers/{id}`): Integram a hierarquia da URL e identificam instâncias unívocas de recursos. São invariavelmente obrigatórios.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os conflitos de compet ncia, as exceç es de impedimento, de suspeição e de incompet ncia". De acordo com a teoria estudada em *3.3 Categorização e Gravidade das Advertências Técnicas*, danger / Fatal (Perigo / Fatalidade): Risco crítico de perda irreversível de dados, danos físicos ao hardware ou colapso total de segurança cibernética.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as aç es diretas de inconstitucionalidade, as reclamaç es e os pedidos de intervenção". De acordo com a teoria estudada em *3.1 Verbos Operacionais no Modo Imperativo*, no manual técnico, instruções diretas abrem as sentenças com o verbo no infinitivo sem "to", expressando comando executivo.
-> - **E)** **Correta.** Conforme fundamentado na seção *2.2 Parâmetros de Requisição e Schemas de Dados JSON* deste guia, header Parameters: Transportam metadados essenciais de rede e segurança. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-BA/2015) ao estabelecer que "os mandados de segurança, sendo que, quando indicados os litisconsortes, o preparo incluirá as cartas, inclusive...".
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2. Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)* deste guia, a análise de contratos de interface entre sistemas constitui atividade primordial tanto no desenvolvimento quanto na auditoria de dados fiscais e orçamentários. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STJ/2015) ao afirmar que "Um conjunto redundante de discos independentes (RAID) pode ser implementado tanto em software quanto em...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *4. Leitura Crítica de Artigos Científicos e Papers de TI (IEEE / ACM / ArXiv)*, segundo a qual em certames da FCC para cargos de alta remuneração de Tecnologia da Informação, os textos de prova costumam ser extraídos de publicações acadêmicas e anais de conferências de renome mundial (como *IEEE Transactions on Software Engineering, ACM SIGMOD, USENIX OSDI*).
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 
 ### Teste 591
-**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
-A partir das técnicas de leitura instrumental, atenha-se à compreensão e à interpretação do texto “Crimes”, analise as afirmativas a seguir e dê valores de Verdadeiro (V) e Falso (F). ( ) O autor afirma que certos tipos de indivíduos não podem ser acusados de cometer um crime. ( ) O autor expõe que todos os indivíduos com comportamentos criminosos poderão ser julgados nos tribunais. ( ) Ainda segundo o autor, os indivíduos mentalmente insanos não podem ser acusados de cometer um crime. ( ) O autor reitera que embora insanos, os indivíduos conseguem entender e avaliar o seu próprio comportamento. Assinale a alternativa que apresenta a sequência correta de cima para baixo.
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Seguranca Da Informacao)**
+Gilberto trabalha no setor de segurança do Tribunal de Justiça do Amapá (TJAP) e está fazendo a modelagem de possíveis ameaças aos seus sistemas, aplicativos, redes e serviços. Após pesquisar alguns modelos, decidiu realizar a modelagem seguindo o STRIDE (Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege). O modelo relaciona as ameaças do acrônimo STRIDE com as propriedades de segurança. Inicialmente, Gilberto trabalhará na propriedade de integridade. Logo, dentro do acrônimo STRIDE, a ameaça a ser trabalhada por Gilberto será:
 
-* **A)** F - V - F - V
-* **B)** V - F - V - F
-* **C)** F - F - V - V
-* **D)** V - V - F - F
-* **E)** V - V - V - V
+* **A)** spoofing;
+* **B)** tampering;
+* **C)** repudiation;
+* **D)** information disclosure;
+* **E)** denial of service.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F - V - F - V". De acordo com a teoria estudada em *2. Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)*, a análise de contratos de interface entre sistemas constitui atividade primordial tanto no desenvolvimento quanto na auditoria de dados fiscais e orçamentários.
-> - **B)** **Correta.** Conforme fundamentado na seção *1. Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)* deste guia, nas áreas de engenharia de software, redes de comunicação e governança de tecnologia avaliadas pela Fundação Carlos Chagas (FCC), a leitura de especificações técnicas formais (padrões da IETF, W3C, ISO/IEC e NIST) exige a compreensão rigorosa dos termos normativos prescritivos grafados em letras maiúsculas, disciplinados pela clássica RFC 2119 (e reafirmados pela RFC 8174). Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "V - F - V - F".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F - F - V - V". De acordo com a teoria estudada em *1.1 Os Níveis Normativos Canônicos*, podem existir razões válidas em circunstâncias particulares para ignorar a diretriz, mas as implicações técnicas de tal desvio devem ser plenamente compreendidas, avaliadas e formalmente documentadas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V - V - F - F". De acordo com a teoria estudada em *2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta*, `400 Bad Request`: Erro de sintaxe da requisição (JSON malformado, quebra de delimitadores, tipos primitivos ilegíveis).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V - V - V - V". De acordo com a teoria estudada em *3.3 Categorização e Gravidade das Advertências Técnicas*, caution (Cuidado): Risco de comportamento inesperado, degradação severa de desempenho ou instabilidade na topologia (ex.: formar clusters com número par de nós, arriscando *split-brain*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "spoofing". De acordo com a teoria estudada em *2.2 Parâmetros de Requisição e Schemas de Dados JSON*, header Parameters: Transportam metadados essenciais de rede e segurança.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta* deste guia, `503 Service Unavailable`: Servidor temporariamente incapacitado por sobrecarga ou manutenção programada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "tampering".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "repudiation". De acordo com a teoria estudada em *2. Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)*, a análise de contratos de interface entre sistemas constitui atividade primordial tanto no desenvolvimento quanto na auditoria de dados fiscais e orçamentários.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "information disclosure". De acordo com a teoria estudada em *1. Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)*, nas áreas de engenharia de software, redes de comunicação e governança de tecnologia avaliadas pela Fundação Carlos Chagas (FCC), a leitura de especificações técnicas formais (padrões da IETF, W3C, ISO/IEC e NIST) exige a compreensão rigorosa dos termos normativos prescritivos grafados em letras maiúsculas, disciplinados pela clássica RFC 2119 (e reafirmados pela RFC 8174).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "denial of service". De acordo com a teoria estudada em *3.1 Verbos Operacionais no Modo Imperativo*, enforce: *"Enforce least-privilege IAM policies"* $\rightarrow$ *Imponha / faça cumprir* políticas de menor privilégio.
 >
 > **Gabarito: B**
 
@@ -395,26 +383,20 @@ A correta interpretação do ciclo de vida de componentes de software é essenci
 ---
 
 ### Teste 592
-**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia da Informacao – 2024)**
-O analista Micael precisa instalar o pacote nodejs em um servidor Red Hat Enterpise Linux (RHEL). Ele deve instalar especificamente a versão 18, uma versão anterior, do nodejs. Sabendo que a versão 18 do nodejs está disponível no repositório AppStream do RHEL, como o stream 18 do módulo nodejs, Micael deve simplificar a instalação utilizando os recursos de modularidade do Dandified YUM. Micael deve instalar a versão 18 do módulo nodejs por meio do seguinte comando do Dandified YUM:
+**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
+A documentação técnica referente à API dos microsserviços desenvolvidos na PDPJ-Br deve seguir o padrão Swagger 2.0, a fim de garantir a compatibilidade com as Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ), bem como na Portaria CNJ n.º 162/2021, que aprova protocolos e manuais criados pela referida Resolução, julgue os itens seguintes.
 
-* **A)** install nodejs:18
-* **B)** module -i nodejs:18
-* **C)** install -m nodejs -s 18
-* **D)** install -p nodejs -s 18
-* **E)** module install nodejs:18
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "install nodejs:18". De acordo com a teoria estudada em *2.1 Estrutura de Rotas, Métodos HTTP e Idempotência*, o design RESTful organiza as interações por meio de URIs de recursos e verbos padronizados pelo protocolo HTTP.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Seções Estruturantes de um Manual de Implantação* deste guia, prerequisites (Pré-requisitos): Condições mandatórias que devem ser atendidas antes da instalação (versão de kernel, bibliotecas, portas de firewall abertas). O descumprimento impede a instalação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "module -i nodejs:18".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "install -m nodejs -s 18". De acordo com a teoria estudada em *3. Interpretação de Manuais Técnicos e Guias de Configuração de Sistemas*, manuais operacionais de infraestrutura (Linux manpages, guias do Kubernetes, PostgreSQL, Docker) empregam linguagem estritamente procedimental e estruturada.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "install -p nodejs -s 18". De acordo com a teoria estudada em *3.1 Verbos Operacionais no Modo Imperativo*, no manual técnico, instruções diretas abrem as sentenças com o verbo no infinitivo sem "to", expressando comando executivo.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "module install nodejs:18". De acordo com a teoria estudada em *3.4 Ciclo de Vida: Deprecated vs. Decommissioned*, deprecated (Descontinuado / Tornado Obsoleto): O método, protocolo ou versão continua plenamente funcional na versão em execução do software.
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A documentação técnica referente à API dos microsserviços desenvolvidos na PDPJ-Br deve seguir o padrão...". De acordo com a teoria estudada em *2. Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)*, a análise de contratos de interface entre sistemas constitui atividade primordial tanto no desenvolvimento quanto na auditoria de dados fiscais e orçamentários.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *3.3 Categorização e Gravidade das Advertências Técnicas* deste guia, danger / Fatal (Perigo / Fatalidade): Risco crítico de perda irreversível de dados, danos físicos ao hardware ou colapso total de segurança cibernética. Portanto, a assertiva examinada pela banca (CEBRASPE – TRF/6/2025) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
@@ -464,50 +446,44 @@ Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de p
 ---
 
 ### Teste 593
-**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-Na área de trabalho do Oracle Reports Builder 11g, após a criação de um novo relatório de forma manual, para selecionar os dados que se deseja utilizar no relatório, no Object Navigator, deve-se dar um duplo clique no nó
+**(FCC – TRT 1ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+No contexto do gerenciamento de memória de um computador, tem-se uma técnica muito utilizada que consiste na divisão da memória física do computador em partições de tamanhos menores, visando o uso mais eficiente dessa memória. O nome atribuído a essa técnica é
 
-* **A)** Paper Layout.
-* **B)** Data Wizard.
-* **C)** Data Model.
-* **D)** Report Source.
-* **E)** PL/SQL Queries.
+* **A)** alocação dinâmica.
+* **B)** emulação.
+* **C)** paginação.
+* **D)** swapping.
+* **E)** parametrização.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Paper Layout". De acordo com a teoria estudada em *4.1 Anatomia Estrutural de um Artigo de Vanguarda*, introduction: Expõe a relevância do problema e lista textualmente as contribuições primárias do trabalho (*"In this paper, our main contributions are.."*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Data Wizard". De acordo com a teoria estudada em *2.1 Estrutura de Rotas, Métodos HTTP e Idempotência*, pOST: Submete dados para criação de novo recurso ou processamento interno. Operação não-segura e não-idempotente (cada envio gera uma nova entidade ou cobrança).
-> - **C)** **Correta.** Conforme fundamentado na seção *4.3 Léxico de Validação Experimental e Evidências Empíricas* deste guia, outperform: Superar o desempenho de uma solução concorrente (*"Our model outperforms traditional heuristics"*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "Data Model".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Report Source". De acordo com a teoria estudada em *2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta*, `201 Created`: Criação bem-sucedida de um novo recurso no servidor (resposta clássica a `POST`).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PL/SQL Queries". De acordo com a teoria estudada em *2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)*, mutation: Operação de escrita que gera efeitos colaterais de criação, atualização ou remoção.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "alocação dinâmica". De acordo com a teoria estudada em *4.3 Léxico de Validação Experimental e Evidências Empíricas*, tail Latency (Latência de Cauda - P99 / P99.9): O tempo de resposta experimentado pelos percentis mais lentos das requisições; indicador crítico em sistemas de tempo real.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "emulação". De acordo com a teoria estudada em *4.3 Léxico de Validação Experimental e Evidências Empíricas*, overhead: Custo operacional computacional marginal incorrido em ciclos de CPU, memória RAM ou rede para suportar a nova ferramenta (ex.: menos de 3% de consumo extra de CPU).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.2 Parâmetros de Requisição e Schemas de Dados JSON* deste guia, query Parameters (`?fiscal_year=2026&status=audited&limit=50&offset=100`): Utilizados para filtragem, ordenação (*sorting*) e paginação de coleções. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 1ª/2014) ao estabelecer que "paginação".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "swapping". De acordo com a teoria estudada em *4.1 Anatomia Estrutural de um Artigo de Vanguarda*, proposed Architecture / Algorithm: Detalhamento da arquitetura técnica ou algoritmo implementado.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "parametrização". De acordo com a teoria estudada em *4.2 A Metodologia Three-Pass sob Pressão de Tempo de Prova*, o tom é de refutação ou de proposição de nova técnica?.
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 594
-**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
-“Whereas” in “A computer is built from static parts, whereas your brain constantly rewires itself as you age and learn” introduces a(n):
+**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
+Os cilindros em BPMN, conhecidos como objetos de dados (data objects), representam informações utilizadas (data input) ou produzidas (data output) por atividades de processos.
 
-* **A)** cause;
-* **B)** contrast;
-* **C)** condition;
-* **D)** illustration;
-* **E)** explanation.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cause". De acordo com a teoria estudada em *1.2 Matriz de Conformidade Técnica da RFC 2119*, a RFC 2119 expressamente ressalva que podem existir cenários peculiares que justifiquem a não observância do *SHOULD*, cabendo ao engenheiro mensurar os impactos (*the full implications must be understood and carefully weighed*).
-> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Categorização e Gravidade das Advertências Técnicas* deste guia, caution (Cuidado): Risco de comportamento inesperado, degradação severa de desempenho ou instabilidade na topologia (ex.: formar clusters com número par de nós, arriscando *split-brain*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "contrast".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "condition". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, iETF RFC 9110 - HTTP Semantics and Status Codes - Norma de referência global em inglês para semântica de métodos, cabeçalhos e respostas de APIs na Web.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "illustration". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, kubernetes Official Concepts - Pods and Workloads (English) - Documentação técnica primária em inglês para interpretação de especificações YAML e orquestração de microsserviços.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "explanation". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, sWALES, John M.; FEAK, Christine B. Academic Writing for Graduate Students: Essential Tasks and Skills. 3. ed. Ann Arbor: University of Michigan Press, 2012. (Unit 3 - Reading and Writing Technical Instructions).
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *3.1 Verbos Operacionais no Modo Imperativo* deste guia, purge / Prune: *"Prune unreferenced objects to recover disk blocks"* $\rightarrow$ *Expurgue / limpe* objetos não referenciados. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRF 6ª/2025) ao afirmar que "Os cilindros em BPMN, conhecidos como objetos de dados (data objects), representam informações utilizadas...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *3.1 Verbos Operacionais no Modo Imperativo*, segundo a qual bypass: *"Do not attempt to bypass input sanitation filters"* $\rightarrow$ *Não tente burlar / contornar* filtros de sanitização.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 

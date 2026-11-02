@@ -87,7 +87,7 @@ flowchart TD
 ---
 
 ### Teste 555
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
 Conjuntos de boas práticas, diretrizes e ferramentas de governança e gestão de TI são mapeados por meio de frameworks para auxiliar a implantação de tais instrumentos nas empresas. Um dos principais frameworks na indústria é o COBIT 2019. O principal objetivo do framework COBIT 2019 na governança e gestão de TI é
 
 * **A)** estabelecer padrões internacionais para desenvolvimento de software.
@@ -101,9 +101,9 @@ Conjuntos de boas práticas, diretrizes e ferramentas de governança e gestão d
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estabelecer padrões internacionais para desenvolvimento de software". De acordo com a teoria estudada em *4.2 Divisão Funcional das Gerências Vinculadas*, gerência de Sistemas de Informação: Análise, desenvolvimento, sustentação e testes de software, empregando metodologias ágeis (Scrum/Kanban) e práticas de DevSecOps.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fornecer metodologias para análise de mercado de TI". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, tCE-GO - Tecnologia da Informação Institucional - Diretrizes, sistemas de processo eletrônico e estrutura de tecnologia da informação do TCE-GO.
-> - **C)** **Correta.** Conforme fundamentado na seção *1. O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)* deste guia, o Comitê Estratégico de Tecnologia da Informação (CETI) do Tribunal de Contas do Estado de Goiás (TCE-GO) é o órgão colegiado permanente que materializa a instância máxima de Governança de TIC no Tribunal, assegurando a necessária segregação entre as decisões estratégicas da alta administração e a gestão operacional da área técnica. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "definir diretrizes para a gestão e controle de tecnologia da informação".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "implementar práticas para otimização de infraestrutura de rede". De acordo com a teoria estudada em *1.1 Natureza e Segregação entre Governança e Gestão*, o CETI Governa: Atua nas funções de avaliar, direcionar e monitorar (*Evaluate, Direct, Monitor*), aprovando formalmente o PDTI, definindo prioridades orçamentárias de TIC e estabelecendo as diretrizes gerais da PSI. O CETI não executa tarefas operacionais.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fornecer metodologias para análise de mercado de TI". De acordo com a teoria estudada em *1.1 Natureza e Segregação entre Governança e Gestão*, o CETI Governa: Atua nas funções de avaliar, direcionar e monitorar (*Evaluate, Direct, Monitor*), aprovando formalmente o PDTI, definindo prioridades orçamentárias de TIC e estabelecendo as diretrizes gerais da PSI. O CETI não executa tarefas operacionais.
+> - **C)** **Correta.** Conforme fundamentado na seção *1. O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)* deste guia, o Comitê Estratégico de Tecnologia da Informação (CETI) do Tribunal de Contas do Estado de Goiás (TCE-GO) é o órgão colegiado permanente que materializa a instância máxima de Governança de TIC no Tribunal, assegurando a necessária segregação entre as decisões estratégicas da alta administração e a gestão operacional da área técnica. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "definir diretrizes para a gestão e controle de tecnologia da informação".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "implementar práticas para otimização de infraestrutura de rede". De acordo com a teoria estudada em *Composição Colegiada*, secretário-Geral de Administração (representando a área de gestão e infraestrutura).
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "padronizar processos para conformidade fiscal em TI". De acordo com a teoria estudada em *3.1 Classificação Corporativa da Informação no TCE-GO*, pública: Informações de livre acesso à sociedade, em cumprimento à LAI e ao princípio da publicidade. — Não exige controle de confidencialidade; exige garantia de integridade e disponibilidade. — Acórdãos transitados em julgado, relatórios de gestão fiscal publicados.
 >
 > **Gabarito: C**
@@ -111,7 +111,7 @@ Conjuntos de boas práticas, diretrizes e ferramentas de governança e gestão d
 ---
 
 ### Teste 556
-**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
+**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
 A Estratégia Nacional de Tecnologia da Informação e Comunicação do Poder Judiciário (ENTIC-JUD) visa ao incremento da governança, da gestão e da colaboração tecnológica no âmbito do Poder Judiciário, com o objetivo de maximizar os resultados com otimização de recursos, pautados em eficiência, eficácia, efetividade e economicidade dos órgãos. A fim de cumprir o objetivo da ENTIC-JUD, todos os órgãos do Poder Judiciário devem constituir um Comitê de Governança de Tecnologia da Informação e Comunicação multidisciplinar. Uma das atribuições desse comitê, de acordo com a Resolução CNJ nº 370/2021, é:
 
 * **A)** acompanhar o andamento das iniciativas estratégicas bem como seus desdobramentos;
@@ -127,8 +127,8 @@ A Estratégia Nacional de Tecnologia da Informação e Comunicação do Poder Ju
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "acompanhar o andamento das iniciativas estratégicas bem como seus desdobramentos". De acordo com a teoria estudada em *1. O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)*, o Comitê Estratégico de Tecnologia da Informação (CETI) do Tribunal de Contas do Estado de Goiás (TCE-GO) é o órgão colegiado permanente que materializa a instância máxima de Governança de TIC no Tribunal, assegurando a necessária segregação entre as decisões estratégicas da alta administração e a gestão operacional da área técnica.
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estabelecer plano de ação para iniciativas de curta duração ou escopo simplificado". De acordo com a teoria estudada em *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)*, conexão com a TIC: A Governança de TI não é uma ilha isolada; os objetivos tecnológicos do PDTI são derivados diretamente dos objetivos estratégicos da RA nº 14/2024 para maximizar o valor público entregue pelo Tribunal à sociedade goiana.
 > - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "monitorar a execução orçamentária e financeira de Tecnologia da Informação e Comunicações (TIC)". De acordo com a teoria estudada em *1.1 Natureza e Segregação entre Governança e Gestão*, o CETI Governa: Atua nas funções de avaliar, direcionar e monitorar (*Evaluate, Direct, Monitor*), aprovando formalmente o PDTI, definindo prioridades orçamentárias de TIC e estabelecendo as diretrizes gerais da PSI. O CETI não executa tarefas operacionais.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aprovar planos táticos e operacionais junto à alta administração, disseminando a importância da área de TIC nos...". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, tCU - Governança Institucional e Fiscalização de TI - Referencial de auditoria e governança de tecnologia adotado em colaboração pelos tribunais de contas.
-> - **E)** **Correta.** Conforme fundamentado na seção *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)* deste guia, princípios Estruturantes: Integridade, confiabilidade, transparência, prestação de contas (*accountability*), tempestividade e foco no cidadão. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "promover ações de transparência, responsabilidade e prestação de conta, possibilitando um maior controle e...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aprovar planos táticos e operacionais junto à alta administração, disseminando a importância da área de TIC nos...". De acordo com a teoria estudada em *1.1 Natureza e Segregação entre Governança e Gestão*, a banca FCC costuma perguntar quem é a autoridade competente para aprovar o PDTI no TCE-GO.
+> - **E)** **Correta.** Conforme fundamentado na seção *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)* deste guia, princípios Estruturantes: Integridade, confiabilidade, transparência, prestação de contas (*accountability*), tempestividade e foco no cidadão. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "promover ações de transparência, responsabilidade e prestação de conta, possibilitando um maior controle e...".
 >
 > **Gabarito: E**
 
@@ -155,26 +155,26 @@ O CETI é composto por membros natos e designados da alta cúpula decisória do 
 ---
 
 ### Teste 557
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
-A Resolução n.º 211/2015 do CNJ trata sobre a estratégia nacional de tecnologia da informação e comunicação (TIC) do Poder Judiciário. De acordo com essa resolução,
+**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
+Os Manuais e Protocolos criados pela Resolução CNJ nº 396/2021, que instituiu a Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ), aprovados pela Portaria nº 162, de 10/06/2021, normatizam diversas atividades na área de segurança cibernética a serem implantadas pelos diversos órgãos do Poder Judiciário. Com base nos Manuais e Protocolos aprovados pela Portaria nº 162 de 10/06/2021, analise as afirmações a seguir. I. Os Protocolos e Manuais serão atualizados a qualquer tempo por indicação do Comitê Gestor de Segurança Cibernética do Poder Judiciário. II. O Protocolo de Investigação de Ilícitos Cibernéticos do Poder Judiciário (PIILC-PJ) deverá ser implementado por todos os órgãos do Poder Judiciário, com exceção do Supremo Tribunal Federal. III. O Manual de Proteção de Infraestruturas de TIC descreve as ações responsivas a serem colocadas em prática quando ficar evidente que um incidente de segurança cibernética não será mitigado rapidamente e poderá durar dias, semanas ou meses. Está correto o que se afirma em
 
-* **A)** cabe exclusivamente à área de TIC estabelecer estratégias, indicadores e metas institucionais, bem como pela orientação das iniciativas e dos investimentos tecnológicos no âmbito institucional.
-* **B)** é vedada a participação de magistrados no comitê de governança de TIC.
-* **C)** o comitê de governança de TIC é responsável pela elaboração de planos táticos e a área de TIC os planos operacionais e pelo estabelecimento de indicadores operacionais do órgão.
-* **D)** cabe ao CNJ classificar os sistemas de informação de cada órgão, identificando os que são estratégicos por meio de inspeção ou a pedido do órgão.
-* **E)** cada órgão deverá elaborar o plano estratégico de TIC e o plano diretor de TIC, em harmonia com as diretrizes estratégicas institucionais e nacionais.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "cabe exclusivamente à área de TIC estabelecer estratégias, indicadores e metas institucionais, bem como pela...". De acordo com a teoria estudada em *5. Plano Diretor de TI - PDTI 2025–2026 (Ordem de Serviço nº 001/2025-CETI)*, aprovado formalmente pelo Comitê Estratégico de TI por meio da Ordem de Serviço nº 001/2025-CETI, o PDTI 2025–2026 é o instrumento tático-operacional de planejamento da TIC que estabelece os rumos tecnológicos do TCE-GO para o biênio 2025–2026.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é vedada a participação de magistrados no comitê de governança de TIC". De acordo com a teoria estudada em *Competências Primordiais do CETI (RN nº 13/2016)*, deliberação Estratégica: Aprovar formalmente o Plano Diretor de TI (PDTI) e suas revisões periódicas, alinhando-o ao Plano Estratégico do TCE-GO.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o comitê de governança de TIC é responsável pela elaboração de planos táticos e a área de TIC os planos...". De acordo com a teoria estudada em *1.1 Natureza e Segregação entre Governança e Gestão*, o CETI Governa: Atua nas funções de avaliar, direcionar e monitorar (*Evaluate, Direct, Monitor*), aprovando formalmente o PDTI, definindo prioridades orçamentárias de TIC e estabelecendo as diretrizes gerais da PSI. O CETI não executa tarefas operacionais.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cabe ao CNJ classificar os sistemas de informação de cada órgão, identificando os que são estratégicos por meio de...". De acordo com a teoria estudada em *5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026*, nenhuma contratação de TIC pode ser iniciada no TCE-GO sem previsão expressa no PDTI vigente e no Plano de Contratações Anual (PCA de TIC), sob pena de nulidade insanável perante a Lei nº 14.133/2021 e normas de controle interno.
-> - **E)** **Correta.** Conforme fundamentado na seção *1. O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)* deste guia, o Comitê Estratégico de Tecnologia da Informação (CETI) do Tribunal de Contas do Estado de Goiás (TCE-GO) é o órgão colegiado permanente que materializa a instância máxima de Governança de TIC no Tribunal, assegurando a necessária segregação entre as decisões estratégicas da alta administração e a gestão operacional da área técnica. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "cada órgão deverá elaborar o plano estratégico de TIC e o plano diretor de TIC, em harmonia com as diretrizes...".
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1. O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)*, o Comitê Estratégico de Tecnologia da Informação (CETI) do Tribunal de Contas do Estado de Goiás (TCE-GO) é o órgão colegiado permanente que materializa a instância máxima de Governança de TIC no Tribunal, assegurando a necessária segregação entre as decisões estratégicas da alta administração e a gestão operacional da área técnica.
+> - **B)** **Correta.** Conforme fundamentado na seção *5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026* deste guia, nenhuma contratação de TIC pode ser iniciada no TCE-GO sem previsão expressa no PDTI vigente e no Plano de Contratações Anual (PCA de TIC), sob pena de nulidade insanável perante a Lei nº 14.133/2021 e normas de controle interno. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "I e II, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026*, eixo Estratégico III - Cibersegurança e Proteção de Dados: Adoção progressiva do paradigma Zero Trust Architecture (ZTA), autenticação multifator em 100% dos serviços e monitoramento 24x7 através de SIEM corporativo.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *Competências Primordiais do CETI (RN nº 13/2016)*, resolução de Conflitos: Dirimir impasses sobre demandas concorrentes entre a área de controle externo e a área administrativa.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *5. Plano Diretor de TI - PDTI 2025–2026 (Ordem de Serviço nº 001/2025-CETI)*, aprovado formalmente pelo Comitê Estratégico de TI por meio da Ordem de Serviço nº 001/2025-CETI, o PDTI 2025–2026 é o instrumento tático-operacional de planejamento da TIC que estabelece os rumos tecnológicos do TCE-GO para o biênio 2025–2026.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 
@@ -193,24 +193,24 @@ A Resolução Administrativa nº 14/2024 consolidou o modelo de Governança Púb
 ---
 
 ### Teste 558
-**(CEBRASPE – TRT-8 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-Na resolução em questão, são assinalados três macrodesafios do Poder Judiciário para 2020: sociedade, processos internos e recursos, os quais se desdobram em uma série de diretrizes que devem nortear as ações do Poder Judiciário. Assinale a opção que apresenta diretriz relacionada ao macrodesafio processo interno.
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+Fundada na dignidade da pessoa humana e no valor social do trabalho, foi instituída, por meio da Resolução N. TC-254/2024, a Política de Prevenção e de Enfrentamento do Assédio Moral, do Assédio Sexual e da Discriminação no TCE/SC. No contexto de referida resolução, os atos de i) manifestar publicamente desdém ou desprezo pelo produto do trabalho, ii) gerir por estresse, por injúria ou por medo e iii) realizar premiações negativas, ameaças e cobranças exageradas, podem configurar, respectivamente:
 
-* **A)** efetividade na prestação jurisdicional
-* **B)** melhoria da gestão de pessoas
-* **C)** garantia aos direitos da cidadania
-* **D)** instituição da governança judiciária
-* **E)** combate à corrupção e à improbidade administrativa
+* **A)** assédio moral, assédio moral e assédio moral organizacional.
+* **B)** assédio moral, assédio sexual e assédio moral organizacional.
+* **C)** assédio moral organizacional, assédio moral organizacional e assédio moral.
+* **D)** assédio institucional, assédio moral organizacional e assédio institucional.
+* **E)** assédio moral, assédio moral organizacional e assédio moral organizacional.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "efetividade na prestação jurisdicional". De acordo com a teoria estudada em *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)*, princípios Estruturantes: Integridade, confiabilidade, transparência, prestação de contas (*accountability*), tempestividade e foco no cidadão.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "melhoria da gestão de pessoas". De acordo com a teoria estudada em *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)*, *1ª Linha (Gestores Operacionais):* Responsáveis pela execução direta das rotinas e pelos controles internos primários em cada unidade.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "garantia aos direitos da cidadania". De acordo com a teoria estudada em *3.1 Classificação Corporativa da Informação no TCE-GO*, pública: Informações de livre acesso à sociedade, em cumprimento à LAI e ao princípio da publicidade. — Não exige controle de confidencialidade; exige garantia de integridade e disponibilidade. — Acórdãos transitados em julgado, relatórios de gestão fiscal publicados.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "instituição da governança judiciária". De acordo com a teoria estudada em *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)*, *3ª Linha (Auditoria Interna):* Fornece avaliação independente e objetiva da eficácia dos processos de governança e controles institucionais.
-> - **E)** **Correta.** Conforme fundamentado na seção *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)* deste guia, conexão com a TIC: A Governança de TI não é uma ilha isolada; os objetivos tecnológicos do PDTI são derivados diretamente dos objetivos estratégicos da RA nº 14/2024 para maximizar o valor público entregue pelo Tribunal à sociedade goiana. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2016) ao estabelecer que "combate à corrupção e à improbidade administrativa".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "assédio moral, assédio moral e assédio moral organizacional". De acordo com a teoria estudada em *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)*, a Resolução Administrativa nº 14/2024 consolidou o modelo de Governança Pública no TCE-GO, alinhado aos referenciais do Tribunal de Contas da União (TCU) e da OCDE (*Organização para a Cooperação e Desenvolvimento Econômico*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "assédio moral, assédio sexual e assédio moral organizacional". De acordo com a teoria estudada em *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)*, princípios Estruturantes: Integridade, confiabilidade, transparência, prestação de contas (*accountability*), tempestividade e foco no cidadão.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "assédio moral organizacional, assédio moral organizacional e assédio moral". De acordo com a teoria estudada em *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)*, *1ª Linha (Gestores Operacionais):* Responsáveis pela execução direta das rotinas e pelos controles internos primários em cada unidade.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "assédio institucional, assédio moral organizacional e assédio institucional". De acordo com a teoria estudada em *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)*, *2ª Linha (Unidades de Riscos e Integridade):* Responsáveis pelo monitoramento de conformidade, desenho de políticas de riscos e suporte metodológico.
+> - **E)** **Correta.** Conforme fundamentado na seção *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)* deste guia, conexão com a TIC: A Governança de TI não é uma ilha isolada; os objetivos tecnológicos do PDTI são derivados diretamente dos objetivos estratégicos da RA nº 14/2024 para maximizar o valor público entregue pelo Tribunal à sociedade goiana. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "assédio moral, assédio moral organizacional e assédio moral organizacional".
 >
 > **Gabarito: E**
 
@@ -245,26 +245,26 @@ flowchart LR
 ---
 
 ### Teste 559
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Seguranca da Informacao – 2023)**
-O diretor do órgão público X instaurou o processo de auditoria interna visando verificar a conformidade de seus processos e atividades com os requisitos legais e regulatórios definidos para os órgãos públicos, bem como com sua própria política interna de segurança da informação. A equipe de auditoria foi formalmente estabelecida para dar legalidade a essa tarefa. Durante a auditoria, a equipe identificou algumas vulnerabilidades nos processos e controles de segurança, atividade constante da etapa de:
+**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
+O Tribunal de Justiça do Estado de Roraima está modernizando sua infraestrutura de rede para melhorar a segurança e a eficiência na comunicação de dados. A equipe de Tecnologia da Informação está implementando mecanismos de Network Address Translation (NAT) e Port Address Translation (PAT) para otimizar o uso de endereços IP públicos e proteger a rede interna. Além disso, estão avaliando quais protocolos e padrões de segurança sem fio devem ser adotados para garantir a confidencialidade e integridade das informações transmitidas. Entre as opções consideradas estão os protocolos WEP, WPA, WPA2, WPA3 e a implementação do padrão IEEE 802.1X em conjunto com o EAP (Extensible Authentication Protocol). Considerando o cenário apresentado, a equipe de TI precisa entender o funcionamento do PAT na rede e selecionar o protocolo de segurança sem fio mais adequado para proteger as comunicações sem comprometer a eficiência. Com base nas informações fornecidas, assinale a opção que interpreta corretamente o papel do PAT na rede e identifica o protocolo de segurança sem fio mais adequado para garantir a confidencialidade e integridade dos dados transmitidos.
 
-* **A)** testes e procedimentos de auditoria;
-* **B)** scanner de redes;
-* **C)** teste de penetração;
-* **D)** coleta de informações;
-* **E)** avaliação de riscos.
+* **A)** O PAT permite que cada dispositivo interno tenha um endereço IP público exclusivo; o protocolo WEP deve ser implementado para proteger a rede sem fio.
+* **B)** O PAT traduz múltiplos endereços IP privados em um único endereço IP público usando números de porta para diferenciar as saídas; o protocolo WPA3 é o mais adequado para proteger a rede sem fio.
+* **C)** O PAT mapeia cada endereço IP privado para um endereço IP público diferente; o protocolo WPA deve ser utilizado para a segurança da rede sem fio.
+* **D)** O PAT não é necessário quando o NAT está em uso; o protocolo EAP é suficiente para proteger a rede sem fio.
+* **E)** O PAT converte endereços IPv4 em IPv6; o padrão IEEE 802.1X deve ser aplicado para garantir a segurança da rede sem fio.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "testes e procedimentos de auditoria". De acordo com a teoria estudada em *4.2 Divisão Funcional das Gerências Vinculadas*, núcleo de Segurança da Informação e Conformidade: Gestão contínua de vulnerabilidades, monitoramento de SOC (*Security Operations Center*), auditoria de logs e conformidade com a PSI e a LGPD.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "scanner de redes". De acordo com a teoria estudada em *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)*, *2ª Linha (Unidades de Riscos e Integridade):* Responsáveis pelo monitoramento de conformidade, desenho de políticas de riscos e suporte metodológico.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "teste de penetração". De acordo com a teoria estudada em *Competências Primordiais do CETI (RN nº 13/2016)*, monitoramento e Avaliação: Analisar relatórios semestrais de execução do PDTI e desempenho dos serviços de tecnologia.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "coleta de informações". De acordo com a teoria estudada em *3.1 Classificação Corporativa da Informação no TCE-GO*, informações preliminares de fiscalização que envolvam dados bancários ou fiscais de jurisdicionados, bem como denúncias anônimas antes da deliberação plenária, recebem o nível Restrita / Sigilosa.
-> - **E)** **Correta.** Conforme fundamentado na seção *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)* deste guia, *3ª Linha (Auditoria Interna):* Fornece avaliação independente e objetiva da eficácia dos processos de governança e controles institucionais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "avaliação de riscos".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O PAT permite que cada dispositivo interno tenha um endereço IP público exclusivo; o protocolo WEP deve ser...". De acordo com a teoria estudada em *5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026*, nenhuma contratação de TIC pode ser iniciada no TCE-GO sem previsão expressa no PDTI vigente e no Plano de Contratações Anual (PCA de TIC), sob pena de nulidade insanável perante a Lei nº 14.133/2021 e normas de controle interno.
+> - **B)** **Correta.** Conforme fundamentado na seção *3. Política de Segurança da Informação - PSI (Resolução Administrativa nº 17/2024)* deste guia, a PSI do TCE-GO estabelece os padrões e comportamentos mandatórios para assegurar a Confidencialidade, Integridade, Disponibilidade, Autenticidade e Não-Repúdio (CIDAN) dos ativos de informação do Tribunal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "O PAT traduz múltiplos endereços IP privados em um único endereço IP público usando números de porta para...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O PAT mapeia cada endereço IP privado para um endereço IP público diferente; o protocolo WPA deve ser utilizado...". De acordo com a teoria estudada em *Competências Primordiais do CETI (RN nº 13/2016)*, política de Segurança: Apreciar e submeter a Política de Segurança da Informação (PSI) e suas normas complementares.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O PAT não é necessário quando o NAT está em uso; o protocolo EAP é suficiente para proteger a rede sem fio". De acordo com a teoria estudada em *3.2 Diretrizes de Uso Seguro, Teletrabalho e Resposta a Incidentes*, senhas pessoais, intransferíveis e secretas com política de complexidade mínima (números, caracteres especiais, maiúsculas e minúsculas).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O PAT converte endereços IPv4 em IPv6; o padrão IEEE 802.1X deve ser aplicado para garantir a segurança da rede...". De acordo com a teoria estudada em *4.1 Competências Executivas Privativas da DTI*, garantir a alta disponibilidade da infraestrutura de servidores, data centers, redes e serviços em nuvem.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 
@@ -289,24 +289,24 @@ O diretor do órgão público X instaurou o processo de auditoria interna visand
 ---
 
 ### Teste 560
-**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
-A formulação de uma política pública envolve definir os objetivos e as estratégias e avaliar as possíveis consequências de cada alternativa. O policymaker usa diferentes mecanismos genéricos para induzir o comportamento desejado em uma política pública. Assinale a opção que exemplifica o uso da coerção como mecanismo de indução de comportamento.
+**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
+O Poder Judiciário adotou o modelo centralizado de governança na segurança cibernética, de acordo com a Resolução Nº 396 de 07/06/2021 que instituiu a Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ). Nesse modelo, o órgão central que coordena as ações para viabilizar a governança na segurança cibernética é
 
-* **A)** Implementar multas para quem descumprir leis de trânsito.
-* **B)** Oferecer incentivos fiscais a empresas que adotam práticas sustentáveis.
-* **C)** Lançar campanhas de conscientização sobre a importância da vacinação.
-* **D)** Distribuir prêmios para os servidores públicos com melhor desempenho anual.
-* **E)** Desenvolver novas tecnologias para facilitar o cumprimento de normas de segurança no trabalho.
+* **A)** o Conselho Nacional de Justiça (CNJ).
+* **B)** o Comitê Gestor de Segurança da Informação do Poder Judiciário (CGSI-PJ).
+* **C)** o Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos do Poder Judiciário (CPTRIC-PJ).
+* **D)** a Equipe de Tratamento e Resposta a Incidentes de Segurança Cibernética (ETIR).
+* **E)** o Sistema de Gestão de Segurança da Informação do Poder Judiciário (SGSI-PJ).
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Classificação Corporativa da Informação no TCE-GO* deste guia, confidencial: Informações cuja divulgação não autorizada possa comprometer operações ou violar direitos de terceiros (LGPD). — Controle rigoroso de privilégios (RBAC), registro de trilhas de auditoria e criptografia em trânsito e repouso. — Folha de pagamento com dados bancários, atestados de saúde, logs de acesso individualizados. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "Implementar multas para quem descumprir leis de trânsito".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Oferecer incentivos fiscais a empresas que adotam práticas sustentáveis". De acordo com a teoria estudada em *4.2 Divisão Funcional das Gerências Vinculadas*, gerência de Sistemas de Informação: Análise, desenvolvimento, sustentação e testes de software, empregando metodologias ágeis (Scrum/Kanban) e práticas de DevSecOps.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Lançar campanhas de conscientização sobre a importância da vacinação". De acordo com a teoria estudada em *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)*, conexão com a TIC: A Governança de TI não é uma ilha isolada; os objetivos tecnológicos do PDTI são derivados diretamente dos objetivos estratégicos da RA nº 14/2024 para maximizar o valor público entregue pelo Tribunal à sociedade goiana.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Distribuir prêmios para os servidores públicos com melhor desempenho anual". De acordo com a teoria estudada em *Competências Primordiais do CETI (RN nº 13/2016)*, monitoramento e Avaliação: Analisar relatórios semestrais de execução do PDTI e desempenho dos serviços de tecnologia.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Desenvolver novas tecnologias para facilitar o cumprimento de normas de segurança no trabalho". De acordo com a teoria estudada em *Competências Primordiais do CETI (RN nº 13/2016)*, política de Segurança: Apreciar e submeter a Política de Segurança da Informação (PSI) e suas normas complementares.
+> - **A)** **Correta.** Conforme fundamentado na seção *1. O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)* deste guia, o Comitê Estratégico de Tecnologia da Informação (CETI) do Tribunal de Contas do Estado de Goiás (TCE-GO) é o órgão colegiado permanente que materializa a instância máxima de Governança de TIC no Tribunal, assegurando a necessária segregação entre as decisões estratégicas da alta administração e a gestão operacional da área técnica. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "o Conselho Nacional de Justiça (CNJ)".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Comitê Gestor de Segurança da Informação do Poder Judiciário (CGSI-PJ)". De acordo com a teoria estudada em *3. Política de Segurança da Informação - PSI (Resolução Administrativa nº 17/2024)*, a PSI do TCE-GO estabelece os padrões e comportamentos mandatórios para assegurar a Confidencialidade, Integridade, Disponibilidade, Autenticidade e Não-Repúdio (CIDAN) dos ativos de informação do Tribunal.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos do Poder Judiciário (CPTRIC-PJ)". De acordo com a teoria estudada em *3.2 Diretrizes de Uso Seguro, Teletrabalho e Resposta a Incidentes*, existência de equipe especializada de resposta a incidentes cibernéticos (CSIRT do TCE-GO).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a Equipe de Tratamento e Resposta a Incidentes de Segurança Cibernética (ETIR)". De acordo com a teoria estudada em *3.2 Diretrizes de Uso Seguro, Teletrabalho e Resposta a Incidentes*, senhas pessoais, intransferíveis e secretas com política de complexidade mínima (números, caracteres especiais, maiúsculas e minúsculas).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Sistema de Gestão de Segurança da Informação do Poder Judiciário (SGSI-PJ)". De acordo com a teoria estudada em *4.2 Divisão Funcional das Gerências Vinculadas*, núcleo de Segurança da Informação e Conformidade: Gestão contínua de vulnerabilidades, monitoramento de SOC (*Security Operations Center*), auditoria de logs e conformidade com a PSI e a LGPD.
 >
 > **Gabarito: A**
 
@@ -329,26 +329,26 @@ A Resolução Administrativa nº 14/2025 modernizou a estrutura organizacional d
 ---
 
 ### Teste 561
-**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-Dentre as categorias de controles gerais que devem ser consideradas em um processo de auditoria de sistemas estão os controles de
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
+Nos termos da ISSAI 20, Accountability e transparência são dois elementos importantes de boa governança. A transparência é uma força poderosa que, quando aplicada de forma consistente, pode ajudar a combater a corrupção, melhorar a governança e promover a accountability. Considerando as disposições da referida norma, analise as afirmativas a seguir sobre os conceitos de accountability, transparência e sobre os princípios nela veiculados: I. É difícil separar accountability de transparência: ambas englobam muitas das mesmas ações, como por exemplo, a comunicação pública. II. A noção de transparência refere-se à informação pública tempestiva, confiável, clara e relevante da EFS sobre sua situação, seu mandato, sua estratégia, suas atividades, sua gestão financeira, suas operações e seus resultados. III. As EFS garantem que esses princípios de accountability e transparência não são comprometidos quando terceirizam suas atividades, inclusive as funções fiscalizadora e sancionadora. IV. O conceito de accountability refere-se à estrutura jurídica e de comunicação, à estrutura organizacional e estratégia, aos procedimentos e às ações para garantir que o dirigente da EFS, os membros (de instituições colegiais) e o servidores da EFS possam ser responsabilizados pelos seus atos, dentre outras iniciativas. Está correto o que se afirma em
 
-* **A)** gestão, que são políticas e procedimentos estabelecidos para organizar as responsabilidades de todos os envolvidos nas atividades relacionadas à alta gerência.
-* **B)** entidade, que oferecem a estrutura para gerência do risco, desenvolvimento de políticas de segurança e supervisão da adequação dos controles gerais da entidade.
-* **C)** riscos, que garantem, na ocorrência de eventos inesperados, que as operações críticas não sejam interrompidas, ou sejam imediatamente retomadas, e os dados críticos sejam protegidos.
-* **D)** acesso, que limitam ou detectam o acesso a recursos computacionais, protegendo-os contra modificação não autorizada, perda e divulgação de informações confidenciais.
-* **E)** riscos, que limitam e supervisionam o acesso aos programas e arquivos críticos para o sistema, prevenindo a implementação ou modificação não autorizada de programas.
+* **A)** I, II e III, somente.
+* **B)** I, II e IV, somente.
+* **C)** I, II, III e IV.
+* **D)** II e IV, somente.
+* **E)** I e II, somente.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "gestão, que são políticas e procedimentos estabelecidos para organizar as responsabilidades de todos os envolvidos...". De acordo com a teoria estudada em *3.1 Classificação Corporativa da Informação no TCE-GO*, pública: Informações de livre acesso à sociedade, em cumprimento à LAI e ao princípio da publicidade. — Não exige controle de confidencialidade; exige garantia de integridade e disponibilidade. — Acórdãos transitados em julgado, relatórios de gestão fiscal publicados.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "entidade, que oferecem a estrutura para gerência do risco, desenvolvimento de políticas de segurança e supervisão...". De acordo com a teoria estudada em *4.2 Divisão Funcional das Gerências Vinculadas*, gerência de Sistemas de Informação: Análise, desenvolvimento, sustentação e testes de software, empregando metodologias ágeis (Scrum/Kanban) e práticas de DevSecOps.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "riscos, que garantem, na ocorrência de eventos inesperados, que as operações críticas não sejam interrompidas, ou...". De acordo com a teoria estudada em *3.2 Diretrizes de Uso Seguro, Teletrabalho e Resposta a Incidentes*, dever funcional de todo servidor de comunicar imediatamente à DTI qualquer indício de infecção por malware, tentativa de *phishing* ou perda de equipamento funcional.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.1 Classificação Corporativa da Informação no TCE-GO* deste guia, confidencial: Informações cuja divulgação não autorizada possa comprometer operações ou violar direitos de terceiros (LGPD). — Controle rigoroso de privilégios (RBAC), registro de trilhas de auditoria e criptografia em trânsito e repouso. — Folha de pagamento com dados bancários, atestados de saúde, logs de acesso individualizados. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "acesso, que limitam ou detectam o acesso a recursos computacionais, protegendo-os contra modificação não...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "riscos, que limitam e supervisionam o acesso aos programas e arquivos críticos para o sistema, prevenindo a...". De acordo com a teoria estudada em *3.1 Classificação Corporativa da Informação no TCE-GO*, restrita / Sigilosa: Informações protegidas por sigilo legal estrito (fiscal, bancário, judicial ou de auditoria preliminar). — Acesso restrito exclusivamente aos auditores designados na portaria; proibição de cópia externa; custódia em pastas seguras com criptografia de disco. — Relatório de auditoria preliminar de fraude antes da notificação do jurisdicionado; denúncias de corrupção protegidas.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, II e III, somente". De acordo com a teoria estudada em *5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026*, eixo Estratégico III - Cibersegurança e Proteção de Dados: Adoção progressiva do paradigma Zero Trust Architecture (ZTA), autenticação multifator em 100% dos serviços e monitoramento 24x7 através de SIEM corporativo.
+> - **B)** **Correta.** Conforme fundamentado na seção *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)* deste guia, princípios Estruturantes: Integridade, confiabilidade, transparência, prestação de contas (*accountability*), tempestividade e foco no cidadão. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I, II e IV, somente".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II, III e IV". De acordo com a teoria estudada em *1.1 Natureza e Segregação entre Governança e Gestão*, a DTI Gere e Opera: Atua nas funções de planejar, construir, entregar e sustentar (*Plan, Build, Run, Monitor*). Desenvolve software, configura roteadores e servidores, gerencia bancos de dados e atende aos chamados dos usuários.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e IV, somente". De acordo com a teoria estudada em *4.1 Competências Executivas Privativas da DTI*, garantir a alta disponibilidade da infraestrutura de servidores, data centers, redes e serviços em nuvem.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, somente". De acordo com a teoria estudada em *5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026*, nenhuma contratação de TIC pode ser iniciada no TCE-GO sem previsão expressa no PDTI vigente e no Plano de Contratações Anual (PCA de TIC), sob pena de nulidade insanável perante a Lei nº 14.133/2021 e normas de controle interno.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
@@ -363,24 +363,24 @@ Dentre as categorias de controles gerais que devem ser consideradas em um proces
 ---
 
 ### Teste 562
-**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
-A estratégia nacional de tecnologia da informação e comunicação do Poder Judiciário (ENTIC-JUD) é o principal instrumento de promoção da governança ágil e da transformação digital do Poder Judiciário. De acordo com a ENTIC-JUD, cada órgão do Poder Judiciário deverá:
+**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
+A Resolução 396/2021 do Conselho Nacional de Justiça institui a Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ). A respeito dos objetivos da ENSEC-PJ, avalie as afirmativas a seguir. I. Baratear a execução das atividades do Judiciário no ambiente digital para reduzir o tempo de atendimento e recuperação de falhas. II. Aumentar a resiliência às ameaças cibernéticas por meio da gestão ativa de permissões de usuários de sistemas informatizados. III. Permitir a manutenção e a continuidade dos serviços, ou o seu restabelecimento em menor tempo possível. IV. Estabelecer governança de segurança cibernética e fortalecer a gestão e coordenação integrada de ações de segurança cibernética nos órgãos do Poder Judiciário. Está correto o que se afirma em
 
-* **A)** classificar seus sistemas de informação, identificando quais são operacionais;
-* **B)** elaborar e aplicar práticas de segurança da informação e proteção de dados a serem informadas para todos os órgãos do Poder Judiciário;
-* **C)** executar ou contatar serviços de desenvolvimento e de sustentação de sistemas de informação obedecendo aos requisitos estabelecidos na ENTIC-JUD;
-* **D)** elaborar o plano de gestão de continuidade de negócios e serviços, objetivando mitigar as ameaças mapeadas para atuar de forma preditiva e preventiva em relação às possíveis incertezas;
-* **E)** elaborar o plano de gestão de riscos de tecnologia da informação e comunicação, no qual estejam estabelecidas as estratégias e os planos de ação que garantam o funcionamento dos serviços essenciais quando da ocorrência de falhas.
+* **A)** I e II, apenas.
+* **B)** II e III, apenas.
+* **C)** III e IV, apenas.
+* **D)** I, III e IV, apenas.
+* **E)** II, III e IV, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "classificar seus sistemas de informação, identificando quais são operacionais". De acordo com a teoria estudada em *3.1 Classificação Corporativa da Informação no TCE-GO*, nível de Classificação: Definição Normativa — Requisitos de Proteção e Tratamento — Exemplo Típico.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "elaborar e aplicar práticas de segurança da informação e proteção de dados a serem informadas para todos os órgãos...". De acordo com a teoria estudada em *5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026*, eixo Estratégico III - Cibersegurança e Proteção de Dados: Adoção progressiva do paradigma Zero Trust Architecture (ZTA), autenticação multifator em 100% dos serviços e monitoramento 24x7 através de SIEM corporativo.
-> - **C)** **Correta.** Conforme fundamentado na seção *4.2 Divisão Funcional das Gerências Vinculadas* deste guia, gerência de Sistemas de Informação: Análise, desenvolvimento, sustentação e testes de software, empregando metodologias ágeis (Scrum/Kanban) e práticas de DevSecOps. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "executar ou contatar serviços de desenvolvimento e de sustentação de sistemas de informação obedecendo aos...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "elaborar o plano de gestão de continuidade de negócios e serviços, objetivando mitigar as ameaças mapeadas para...". De acordo com a teoria estudada em *1. O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)*, o Comitê Estratégico de Tecnologia da Informação (CETI) do Tribunal de Contas do Estado de Goiás (TCE-GO) é o órgão colegiado permanente que materializa a instância máxima de Governança de TIC no Tribunal, assegurando a necessária segregação entre as decisões estratégicas da alta administração e a gestão operacional da área técnica.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "elaborar o plano de gestão de riscos de tecnologia da informação e comunicação, no qual estejam estabelecidas as...". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, tCE-GO - Tecnologia da Informação Institucional - Diretrizes, sistemas de processo eletrônico e estrutura de tecnologia da informação do TCE-GO.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *4.2 Divisão Funcional das Gerências Vinculadas*, gerência de Atendimento e Suporte ao Usuário (Service Desk): Ponto único de contato (SPOC) para suporte a usuários internos e externos, microinformática, gestão de ativos de TI e incidentes operacionais de Nível 1 e 2.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)*, conexão com a TIC: A Governança de TI não é uma ilha isolada; os objetivos tecnológicos do PDTI são derivados diretamente dos objetivos estratégicos da RA nº 14/2024 para maximizar o valor público entregue pelo Tribunal à sociedade goiana.
+> - **C)** **Correta.** Conforme fundamentado na seção *5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026* deste guia, eixo Estratégico III - Cibersegurança e Proteção de Dados: Adoção progressiva do paradigma Zero Trust Architecture (ZTA), autenticação multifator em 100% dos serviços e monitoramento 24x7 através de SIEM corporativo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "III e IV, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, III e IV, apenas". De acordo com a teoria estudada em *5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026*, eixo Estratégico I - Infraestrutura Resiliente e Nuvem Híbrida: Modernização do Data Center primário e consolidação do site de recuperação de desastres (*Disaster Recovery*) em nuvem; metas de disponibilidade global $\ge 99,5\%$ e tempo máximo de recuperação pós-falha (RTO) inferior a 2 horas.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, III e IV, apenas". De acordo com a teoria estudada em *1.1 Natureza e Segregação entre Governança e Gestão*, a DTI Gere e Opera: Atua nas funções de planejar, construir, entregar e sustentar (*Plan, Build, Run, Monitor*). Desenvolve software, configura roteadores e servidores, gerencia bancos de dados e atende aos chamados dos usuários.
 >
 > **Gabarito: C**
 
@@ -415,24 +415,18 @@ flowchart TD
 ---
 
 ### Teste 563
-**(CEBRASPE – TRT-8 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-Considerando que a tecnologia da informação (TI) tem papel imprescindível no contexto das organizações públicas brasileiras e que, por isso, é importante a realização de um bom planejamento de TI que viabilize e potencialize a melhoria contínua do desempenho organizacional, assinale a opção correta.
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+O CMMI 1.3 apresenta três modelos: o CMMI-DEV — para processos de desenvolvimento de produtos e serviços —, o CMMI-ACQ — para processos de aquisição e terceirização de bens e serviços —, e o CMMI-SVC — para processos de prestação de serviços. O planejamento estratégico de tecnologia da informação (PETI) constitui atividade norteadora dos objetivos e estratégias institucionais de longo prazo. Nesse planejamento, a TI é analisada como componente da estratégia geral da organização, sendo importante a identificação de objetivos de TI que estejam alinhados aos objetivos estratégicos organizacionais. Um modelo de referência simples, porém eficaz, para estabelecimento do alinhamento estratégico entre a TI e o negócio corporativo consiste na identificação de necessidades de informação e respectivas necessidades de serviços de TI, a partir das estratégias organizacionais, conforme ilustrado na figura a seguir. Estratégias da Organização demandam alinham-se a Necessidades de Informação são atendidas por atendem Necessidades de TI ENAP. Curso de elaboração do plano diretor de TI. (com adaptações). Tendo como referência as informações acima, julgue os itens a seguir, a respeito desse planejamento e do alinhamento de TI e negócio buscado nesse processo.
 
-* **A)** O planejamento estratégico de negócio refere-se à formalização de metas e metodologias dos objetivos institucionais e descreve, em detalhes, os recursos necessários para o desenvolvimento e a implantação das ações estratégicas.
-* **B)** O planejamento estratégico traduz os objetivos gerais e as estratégias da alta administração em objetivos e atividades específicas a serem realizadas pela alta administração.
-* **C)** O planejamento estratégico institucional determina as políticas e estratégias, os principais objetivos a serem alcançados e o uso e a disponibilização dos recursos para a realização desses objetivos.
-* **D)** O planejamento estratégico de TI é um documento que substitui o plano diretor de TI (PDTI), por meio da inclusão de ações e atividades no nível operacional de TI do órgão.
-* **E)** O PDTI, situado no nível estratégico, deve definir indicadores e conter o planejamento de investimentos necessários, com a identificação de riscos relacionados à TI, mas sem o tratamento desses riscos.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O planejamento estratégico de negócio refere-se à formalização de metas e metodologias dos objetivos...". De acordo com a teoria estudada em *4.2 Divisão Funcional das Gerências Vinculadas*, gerência de Sistemas de Informação: Análise, desenvolvimento, sustentação e testes de software, empregando metodologias ágeis (Scrum/Kanban) e práticas de DevSecOps.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O planejamento estratégico traduz os objetivos gerais e as estratégias da alta administração em objetivos e...". De acordo com a teoria estudada em *1. O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)*, o Comitê Estratégico de Tecnologia da Informação (CETI) do Tribunal de Contas do Estado de Goiás (TCE-GO) é o órgão colegiado permanente que materializa a instância máxima de Governança de TIC no Tribunal, assegurando a necessária segregação entre as decisões estratégicas da alta administração e a gestão operacional da área técnica.
-> - **C)** **Correta.** Conforme fundamentado na seção *5. Plano Diretor de TI - PDTI 2025–2026 (Ordem de Serviço nº 001/2025-CETI)* deste guia, aprovado formalmente pelo Comitê Estratégico de TI por meio da Ordem de Serviço nº 001/2025-CETI, o PDTI 2025–2026 é o instrumento tático-operacional de planejamento da TIC que estabelece os rumos tecnológicos do TCE-GO para o biênio 2025–2026. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2016) ao estabelecer que "O planejamento estratégico institucional determina as políticas e estratégias, os principais objetivos a serem...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O planejamento estratégico de TI é um documento que substitui o plano diretor de TI (PDTI), por meio da inclusão...". De acordo com a teoria estudada em *Competências Primordiais do CETI (RN nº 13/2016)*, deliberação Estratégica: Aprovar formalmente o Plano Diretor de TI (PDTI) e suas revisões periódicas, alinhando-o ao Plano Estratégico do TCE-GO.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O PDTI, situado no nível estratégico, deve definir indicadores e conter o planejamento de investimentos...". De acordo com a teoria estudada em *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)*, *2ª Linha (Unidades de Riscos e Integridade):* Responsáveis pelo monitoramento de conformidade, desenho de políticas de riscos e suporte metodológico.
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)* deste guia, a Resolução Administrativa nº 14/2024 consolidou o modelo de Governança Pública no TCE-GO, alinhado aos referenciais do Tribunal de Contas da União (TCU) e da OCDE (*Organização para a Cooperação e Desenvolvimento Econômico*). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRT/10/2013) ao afirmar que "O CMMI 1.3 apresenta três modelos: o CMMI-DEV — para processos de desenvolvimento de produtos e serviços —, o...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *5. Plano Diretor de TI - PDTI 2025–2026 (Ordem de Serviço nº 001/2025-CETI)*, segundo a qual aprovado formalmente pelo Comitê Estratégico de TI por meio da Ordem de Serviço nº 001/2025-CETI, o PDTI 2025–2026 é o instrumento tático-operacional de planejamento da TIC que estabelece os rumos tecnológicos do TCE-GO para o biênio 2025–2026.
 >
 > **Gabarito: C**
 
@@ -451,26 +445,26 @@ Considerando que a tecnologia da informação (TI) tem papel imprescindível no 
 ---
 
 ### Teste 564
-**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
-De acordo com a Resolução CNJ n.º 370/2021, o Plano de Transformação Digital é um instrumento de planejamento que será elaborado pela unidade competente dos órgãos, respeitandose suas especificidades, e aprovado
+**(FCC – TRT 2ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+A instrução Normativa no 04/2010 (MPOG/SLTI IN 04 2010) dispõe sobre o Processo de Contratação de Soluções de Tecnologia da Informação (TI) pelos órgãos integrantes do Sistema de Administração dos Recursos de Informação e Informática (SISP) do Poder Executivo Federal. No capítulo II, que trata do Processo de Contratação, o Artigo 10 dispõe que a fase de Planejamento da Contratação consiste nas etapas de Análise de Viabilidade da Contratação,
 
-* **A)** pelo magistrado mais antigo do órgão.
-* **B)** pelo presidente do Conselho Nacional de Justiça.
-* **C)** pelo Comitê de Governança de Tecnologia da Informação e Comunicação.
-* **D)** pelo chefe do Departamento de Tecnologia da Informação.
-* **E)** pelo Comissão Permanente de Tecnologia da Informação e Inovação.
+* **A)** Plano de Negócio, Estratégia da Contratação, Análise de Riscos e Termo de Contratação.
+* **B)** Plano de Sustentação, Estratégia da Contratação, Análise de Riscos e Termo de Referência ou Projeto Básico.
+* **C)** Planejamento Estratégico, Planejamento de Governança Corporativa, Planejamento de Gerenciamento de Serviços e Efetivação de Acordo Contratual.
+* **D)** Plano de Sustentação, Plano de Governança Corporativa, Análise de Riscos e Termo de Aceitação do Projeto.
+* **E)** Planejamento Estratégico, Análise de Riscos, Termo de Referência e Projeto Básico.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pelo magistrado mais antigo do órgão". De acordo com a teoria estudada em *5. Plano Diretor de TI - PDTI 2025–2026 (Ordem de Serviço nº 001/2025-CETI)*, aprovado formalmente pelo Comitê Estratégico de TI por meio da Ordem de Serviço nº 001/2025-CETI, o PDTI 2025–2026 é o instrumento tático-operacional de planejamento da TIC que estabelece os rumos tecnológicos do TCE-GO para o biênio 2025–2026.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pelo presidente do Conselho Nacional de Justiça". De acordo com a teoria estudada em *Composição Colegiada*, conselheiro-Presidente (ou Conselheiro formalmente designado para presidir o Comitê).
-> - **C)** **Correta.** Conforme fundamentado na seção *1. O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)* deste guia, o Comitê Estratégico de Tecnologia da Informação (CETI) do Tribunal de Contas do Estado de Goiás (TCE-GO) é o órgão colegiado permanente que materializa a instância máxima de Governança de TIC no Tribunal, assegurando a necessária segregação entre as decisões estratégicas da alta administração e a gestão operacional da área técnica. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "pelo Comitê de Governança de Tecnologia da Informação e Comunicação".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pelo chefe do Departamento de Tecnologia da Informação". De acordo com a teoria estudada em *4. Estrutura e Competências da Diretoria de TI (Resolução Administrativa nº 14/2025)*, a Resolução Administrativa nº 14/2025 modernizou a estrutura organizacional da Diretoria de Tecnologia da Informação (DTI) do TCE-GO.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pelo Comissão Permanente de Tecnologia da Informação e Inovação". De acordo com a teoria estudada em *Composição Colegiada*, diretor de Tecnologia da Informação (membro executivo e relator técnico das matérias).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Plano de Negócio, Estratégia da Contratação, Análise de Riscos e Termo de Contratação". De acordo com a teoria estudada em *5.2 Os Quatro Eixos Estratégicos do PDTI 2025–2026*, nenhuma contratação de TIC pode ser iniciada no TCE-GO sem previsão expressa no PDTI vigente e no Plano de Contratações Anual (PCA de TIC), sob pena de nulidade insanável perante a Lei nº 14.133/2021 e normas de controle interno.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.2 Divisão Funcional das Gerências Vinculadas* deste guia, gerência de Sistemas de Informação: Análise, desenvolvimento, sustentação e testes de software, empregando metodologias ágeis (Scrum/Kanban) e práticas de DevSecOps. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 2ª/2014) ao estabelecer que "Plano de Sustentação, Estratégia da Contratação, Análise de Riscos e Termo de Referência ou Projeto Básico".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Planejamento Estratégico, Planejamento de Governança Corporativa, Planejamento de Gerenciamento de Serviços e...". De acordo com a teoria estudada em *5. Plano Diretor de TI - PDTI 2025–2026 (Ordem de Serviço nº 001/2025-CETI)*, aprovado formalmente pelo Comitê Estratégico de TI por meio da Ordem de Serviço nº 001/2025-CETI, o PDTI 2025–2026 é o instrumento tático-operacional de planejamento da TIC que estabelece os rumos tecnológicos do TCE-GO para o biênio 2025–2026.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Plano de Sustentação, Plano de Governança Corporativa, Análise de Riscos e Termo de Aceitação do Projeto". De acordo com a teoria estudada em *2. Política de Governança Organizacional (Resolução Administrativa nº 14/2024)*, *2ª Linha (Unidades de Riscos e Integridade):* Responsáveis pelo monitoramento de conformidade, desenho de políticas de riscos e suporte metodológico.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Planejamento Estratégico, Análise de Riscos, Termo de Referência e Projeto Básico". De acordo com a teoria estudada em *4.1 Competências Executivas Privativas da DTI*, conduzir o planejamento das contratações de TIC, elaborando os Estudos Técnicos Preliminares (ETP) e Termos de Referência (TR).
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 

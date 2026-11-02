@@ -155,31 +155,55 @@ Os mecanismos de autenticação enfrentam vetores de ataque específicos no cen�
 ---
 
 ### Teste 377
-**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-Utilizando instruções da PL/SQL, no Oracle 11g, é possível conceder ou remover privilégios de objeto a outros usuários. É correto afirmar:
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia Da Informacao)**
+Uma universidade está atualizando sua infraestrutura de rede para melhorar a segurança e a autenticação dos usuários. Eles decidiram implementar o protocolo 802.1X para controlar o acesso à rede local (LAN) em todo o campus. Durante uma reunião de planejamento, a equipe de TI da universidade analisa várias afirmações sobre o protocolo 802.1X para garantir que todos entendam como ele funciona. Acerca do 802.1X, é correto afirmar que:
 
-* **A)** Para repassar a outros usuários um conjunto de privilégios de sistema ou objeto, um usuário deve criar funções usando a instrução CREATE ROLE.
-* **B)** Depois que um usuário cria um objeto, ele não pode repassar qualquer um dos privilégios de objeto disponíveis a outros usuários usando a instrução GRANT.
-* **C)** Se for concedido a um usuário um privilégio com a cláusula WITH GRANT OPTION, esse usuário também poderá conceder o privilégio com a cláusula WITH GRANT OPTION a outros usuários.
-* **D)** Se a conta de um usuário for eliminada sem revogar os privilégios desta conta, os privilégios do sistema concedidos por esse usuário a outros serão afetados por essa ação.
-* **E)** Se um usuário for demitido da empresa e o administrador revogar seus privilégios, não será necessário conceder novamente os privilégios que esse usuário concedeu a outros usuários.
+* **A)** uma porta não controlada permite a troca de PDUs entre o solicitante e os outros AS, independentemente do estado de autenticação do solicitante;
+* **B)** para um IBSS, não há qualquer AP. Para um IBSS, o 802.11i provê uma solução mais complexa, que envolve autenticação par a par entre estação e servidor;
+* **C)** a estrutura do 802.1X, com um protocolo de autenticação de camada superior, ajusta-se muito bem à arquitetura BSS, que inclui apenas uma estação sem fio e um AP;
+* **D)** usa o conceito de portas controladas e não controladas. Portas são entidades lógicas definidas dentro do autenticador e referem-se a conexões lógicas de rede;
+* **E)** para uma WLAN, o autenticador (o AP) pode ter duas portas físicas ou mais, sendo uma a que o conecta ao DS e uma para comunicação sem fio dentro de seu BSS, entre outras possíveis.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para repassar a outros usuários um conjunto de privilégios de sistema ou objeto, um usuário deve criar funções...". De acordo com a teoria estudada em *3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)*, princípio do Menor Privilégio (*Principle of Least Privilege* - PoLP): Diretriz de ouro segundo a qual toda entidade (usuário ou processo) deve receber estritamente o conjunto mínimo de permissões indispensável para a conclusão de suas tarefas regulamentares, pelo menor período de tempo necessário.
-> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Depois que um usuário cria um objeto, ele não pode repassar qualquer um dos privilégios de objeto disponíveis a...". De acordo com a teoria estudada em *Limitação Crítica do DAC:*, se um usuário mal-intencionado convencer o proprietário de um arquivo sigiloso a conceder-lhe permissão de leitura, esse segundo usuário poderá copiar os dados para um novo arquivo de sua propriedade e disponibilizá-lo publicamente, sem que o sistema consiga bloquear o vazamento.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)* deste guia, o criador ou proprietário do objeto tem autonomia total para conceder, delegar ou revogar permissões a outros usuários. — O proprietário (*Owner*) do objeto. — Sistemas de arquivos tradicionais (permissões NTFS no Windows, `chmod`/`chown` no Linux). — Alta flexibilidade e operação descentralizada. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "Se for concedido a um usuário um privilégio com a cláusula WITH GRANT OPTION, esse usuário também poderá conceder...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Se a conta de um usuário for eliminada sem revogar os privilégios desta conta, os privilégios do sistema...". De acordo com a teoria estudada em *3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)*, ao final de uma década, o usuário acumula privilégios desmesurados, transformando-se em um vetor de risco crítico caso sua credencial seja comprometida.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Se um usuário for demitido da empresa e o administrador revogar seus privilégios, não será necessário conceder...". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, os privilégios são vinculados a cargos ou perfis funcionais (ex.: "Auditor Fiscal", "Operador"), e os usuários são associados aos papéis. — Administrador de Segurança Corporativo. — Bancos de dados relacionais (PostgreSQL, Oracle), sistemas ERP, processos eletrônicos de tribunais. — Alinhamento com a estrutura administrativa da organização, simplificação da auditoria e facilidade de escala.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma porta não controlada permite a troca de PDUs entre o solicitante e os outros AS, independentemente do estado...". De acordo com a teoria estudada em *1.2 Os Três Fatores Clássicos de Autenticação*, baseia-se na custódia e no controle físico ou lógico de um artefato tangível exclusivo (cartões inteligentes com chip, *tokens* geradores de códigos de uso único OTP baseados em tempo TOTP ou em evento HOTP, chaves criptográficas físicas FIDO2/U2F conectadas via USB/NFC, ou smartphones autenticados).
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "para um IBSS, não há qualquer AP. Para um IBSS, o 802.11i provê uma solução mais complexa, que envolve...". De acordo com a teoria estudada em *1.1 O Modelo AAA (Authentication, Authorization, Accounting)*, o controle de acesso lógico é a barreira de segurança primordial de qualquer sistema de tecnologia da informação.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "a estrutura do 802.1X, com um protocolo de autenticação de camada superior, ajusta-se muito bem à arquitetura BSS...". De acordo com a teoria estudada em *3.4 Federação de Identidades e Single Sign-On (SSO, SAML 2.0, OpenID Connect)*, openID Connect (OIDC): Camada de autenticação moderna de identidade construída sobre a infraestrutura REST/HTTPS do protocolo OAuth 2.0.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "usa o conceito de portas controladas e não controladas. Portas são entidades lógicas definidas dentro do...". De acordo com a teoria estudada em *1.1 O Modelo AAA (Authentication, Authorization, Accounting)*, ele disciplina e audita a interação entre entidades ativas (sujeitos, como usuários humanos, rotinas de código ou microsserviços) e os bens protegidos (objetos, como arquivos, bancos de dados ou servidores).
+> - **E)** **Correta.** Conforme fundamentado na seção *1.4 Ameaças e Vetores de Ataque contra Credenciais* deste guia, ataque de Força Bruta (*Brute Force*): Tentativas exaustivas de todas as combinações alfanuméricas possíveis até encontrar o valor correto. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "para uma WLAN, o autenticador (o AP) pode ter duas portas físicas ou mais, sendo uma a que o conecta ao DS e uma...".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
 ### Teste 378
-**(FGV – TCE-GO – Analista de Controle Externo Tecnologia da Informacao – 2024)**
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+A arquitetura de sistemas é o design estruturado de um sistema de software que descreve como seus componentes principais se relacionam e interagem para formar um sistema coeso e eficiente. Ela orienta a construção, manutenção e evolução do software, sendo essencial para garantir que o sistema atenda aos requisitos de desempenho, escalabilidade, segurança e usabilidade. Na arquitetura de sistemas cliente-servidor, o cliente
+
+* **A)** é responsável por fornecer serviços de autenticação e controle de acesso, garantindo a segurança do sistema.
+* **B)** processa as requisições e responde diretamente às solicitações do usuário, sem necessidade de comunicação com o servidor.
+* **C)** armazena e gerencia centralmente os dados do sistema, facilitando o acesso pelos dispositivos conectados.
+* **D)** realiza requisições ao servidor, enviando dados e solicitando informações ou serviços específicos, e exibe os resultados ao usuário final.
+* **E)** é responsável por hospedar os serviços principais do sistema, como banco de dados e processos de negócios complexos.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é responsável por fornecer serviços de autenticação e controle de acesso, garantindo a segurança do sistema". De acordo com a teoria estudada em *2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso*, no modelo discricionário, a segurança gira em torno da figura do proprietário (*owner*). Quando um usuário cria um documento, planilha ou banco de dados, o sistema operacional atribui a ele a titularidade do objeto.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "processa as requisições e responde diretamente às solicitações do usuário, sem necessidade de comunicação com o...". De acordo com a teoria estudada em *3.4 Federação de Identidades e Single Sign-On (SSO, SAML 2.0, OpenID Connect)*, sAML 2.0 (*Security Assertion Markup Language*): Padrão aberto baseado em asserções XML assinado digitalmente, muito utilizado na comunicação corporativa entre o Provedor de Identidade (IdP - *Identity Provider*) e o Provedor de Serviços (SP - *Service Provider*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "armazena e gerencia centralmente os dados do sistema, facilitando o acesso pelos dispositivos conectados". De acordo com a teoria estudada em *3.3 Gestão de Acessos Privilegiados (PAM): Cofre, JIT e Sessões Gravadas*, o administrador solicita acesso para realizar uma manutenção pré-agendada; o sistema concede os privilégios com prazo de expiração automático estrito (ex.: 2 horas), revogando-os ao final.
+> - **D)** **Correta.** Conforme fundamentado na seção *Modelo Bell-LaPadula (Foco Exclusivo em CONFIDENCIALIDADE):* deste guia, um sujeito em determinado nível não pode gravar ou transferir dados para um objeto de nível de sensibilidade inferior ao seu ("No Write Down" - Proibido escrever para baixo). *Objetivo:* Evita que um usuário com acesso a dados "Ultrassecretos" copie inadvertidamente ou maliciosamente informações para um documento "Público". Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "realiza requisições ao servidor, enviando dados e solicitando informações ou serviços específicos, e exibe os...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é responsável por hospedar os serviços principais do sistema, como banco de dados e processos de negócios complexos". De acordo com a teoria estudada em *4.4 Microsegmentação e Contenção do Movimento Lateral*, assim, caso um servidor web seja invadido, o atacante é impedido de realizar movimento lateral para alcançar o banco de dados contábil que reside na mesma rede física.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 379
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
 Indique a opção que descreve corretamente a autenticação em múltiplos fatores.
 
 * **A)** Determinar as permissões de acesso dos usuários baseadas em seus papéis dentro da organização.
@@ -194,33 +218,9 @@ Indique a opção que descreve corretamente a autenticação em múltiplos fator
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Determinar as permissões de acesso dos usuários baseadas em seus papéis dentro da organização". De acordo com a teoria estudada em *2.4 RBAC (Role-Based Access Control) na Governança Corporativa*, no modelo RBAC, o controle de acesso é desacoplado dos usuários individuais e atribuído a Papéis (*Roles*) correspondentes a funções de negócio da organização (ex.: `Auditor`, `Gestor de Contratos`, `DBA`).
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Registrar todas as tentativas de acesso ao sistema para revisão futura pela equipe de segurança". De acordo com a teoria estudada em *1.4 Ameaças e Vetores de Ataque contra Credenciais*, ataque de Força Bruta (*Brute Force*): Tentativas exaustivas de todas as combinações alfanuméricas possíveis até encontrar o valor correto.
-> - **C)** **Correta.** Conforme fundamentado na seção *4.3 Pilares Fundamentais da Confiança Zero* deste guia, identidade: Garantia de identificação inequívoca de usuários e contas de serviço com MFA resistente a phishing e análise de risco contextual. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "Minimizar o risco de acesso não autorizado ao exigir que os usuários forneçam múltiplas formas de verificação de...".
+> - **C)** **Correta.** Conforme fundamentado na seção *4.3 Pilares Fundamentais da Confiança Zero* deste guia, identidade: Garantia de identificação inequívoca de usuários e contas de serviço com MFA resistente a phishing e análise de risco contextual. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "Minimizar o risco de acesso não autorizado ao exigir que os usuários forneçam múltiplas formas de verificação de...".
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Definir claramente as permissões de acesso para diferentes grupos de usuários, como desenvolvedores e gerentes de...". De acordo com a teoria estudada em *1.1 O Modelo AAA (Authentication, Authorization, Accounting)*, autorização: Uma vez que a autenticidade foi comprovada, o sistema consulta as matrizes de permissão para definir os privilégios exatos e as ações que aquele sujeito específico está legalmente autorizado a executar sobre os recursos.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Permitir que a equipe de segurança monitore e revise as atividades de acesso dos usuários regularmente. Análise de...". De acordo com a teoria estudada em *No Plano de Controle (Control Plane):*, avalia as políticas organizacionais, sinais de telemetria de segurança, reputação de risco e integridade do cliente para tomar a decisão final de permitir, negar ou revogar o acesso solicitado.
->
-> **Gabarito: C**
-
----
-
-### Teste 379
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Infraestrutura de Tic – 2021)**
-Assinale a opção que apresenta o objeto servlet que atribui um identificador exclusivo para determinado usuário e no qual são mantidas as informações específicas desse usuário em todo o aplicativo.
-
-* **A)** HttpResponse
-* **B)** HttpRequests
-* **C)** HttpSession
-* **D)** HttpsParameters
-* **E)** HttpServer
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "HttpResponse". De acordo com a teoria estudada em *2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso*, no modelo discricionário, a segurança gira em torno da figura do proprietário (*owner*). Quando um usuário cria um documento, planilha ou banco de dados, o sistema operacional atribui a ele a titularidade do objeto.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "HttpRequests". De acordo com a teoria estudada em *Modelo Bell-LaPadula (Foco Exclusivo em CONFIDENCIALIDADE):*, um sujeito em determinado nível de classificação não pode ler um objeto com nível de sensibilidade superior ao seu ("No Read Up" - Proibido ler para cima). *Objetivo:* Evita que um analista com credencial "Secreto" leia documentos "Ultrassecretos".
-> - **C)** **Correta.** Conforme fundamentado na seção *Modelo Bell-LaPadula (Foco Exclusivo em CONFIDENCIALIDADE):* deste guia, um sujeito em determinado nível não pode gravar ou transferir dados para um objeto de nível de sensibilidade inferior ao seu ("No Write Down" - Proibido escrever para baixo). *Objetivo:* Evita que um usuário com acesso a dados "Ultrassecretos" copie inadvertidamente ou maliciosamente informações para um documento "Público". Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "HttpSession".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "HttpsParameters". De acordo com a teoria estudada em *1.4 Ameaças e Vetores de Ataque contra Credenciais*, fadiga de MFA (*MFA Bombing* / *Push Fatigue*): O atacante, tendo obtido a senha do usuário, dispara dezenas de solicitações de notificação *push* para o aplicativo autenticador no smartphone da vítima de forma ininterrupta, até que o usuário, exausto ou confuso, clique em "Autorizar".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "HttpServer". De acordo com a teoria estudada em *1.2 Os Três Fatores Clássicos de Autenticação*, baseia-se exclusivamente na retenção mnemônica de informações secretas pelo usuário (senhas alfanuméricas, frases-passe, números PIN, perguntas secretas).
 >
 > **Gabarito: C**
 
@@ -324,31 +324,55 @@ Padrão internacional aberto formulado pela OASIS que define a linguagem XML/JSO
 ---
 
 ### Teste 380
-**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
-O analista José gerencia o servidor LServer que executa RHEL (Red Hat Enterprise Linux). O servidor LServer possui o sistema de controle de acesso nativo do RHEL, o SELinux (Security-Enhanced Linux), habilitado no modo Enforcing. José precisa mapear o usuário local user10 do LServer para um dos usuários SELinux nativos do RHEL de forma que o SELinux restrinja os direitos de acesso do user10 ao mínimo necessário. O user10 prescinde de qualquer acesso como superusuário, mas necessita efetuar login no ambiente gráfico. O acesso à rede do user10 se dá apenas com o uso de navegadores web. Portanto, José deve mapear user10 para o usuário SELinux:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+Para assegurar que apenas usuários autorizados possam acessar informações sensíveis e realizar atividades específicas dentro do sistema, uma organização deve implementar eficazmente
 
-* **A)** user_u;
-* **B)** staff_u;
-* **C)** sysadm_u;
-* **D)** system_u;
-* **E)** xguest_u.
+* **A)** procedimentos de segurança e segurança física.
+* **B)** auditoria, conformidade e segurança física.
+* **C)** controle de acesso e autenticação.
+* **D)** classificação de informações, métricas e indicadores.
+* **E)** confiabilidade, integridade e disponibilidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "user_u". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, o sistema central impõe regras invioláveis baseadas em rótulos de sensibilidade da informação e credenciais formais de segurança do usuário. — Administrador Central do Sistema / Política global do kernel. — Ambientes militares, de inteligência e servidores de altíssima segurança (SELinux, AppArmor). — Rigidez máxima contra vazamento e cavalos de troia.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "staff_u". De acordo com a teoria estudada em *4.4 Microsegmentação e Contenção do Movimento Lateral*, assim, caso um servidor web seja invadido, o atacante é impedido de realizar movimento lateral para alcançar o banco de dados contábil que reside na mesma rede física.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sysadm_u". De acordo com a teoria estudada em *4.2 Os Três Princípios Norteadores Oficiais do Zero Trust*, toda e qualquer requisição de acesso deve ser autenticada, autorizada e criptografada explicitamente, avaliando em tempo real o contexto da sessão.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "system_u". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, avalia dinamicamente atributos do sujeito, do recurso, da ação solicitada e do ambiente (horário, local, dispositivo, risco) via regras booleanas. — Motor de Políticas Centralizado (ex.: XACML). — Ambientes em nuvem (AWS IAM), microsserviços modernos e arquiteturas Zero Trust. — Concessão granular, dinâmica e sensível ao contexto em tempo real.
-> - **E)** **Correta.** Conforme fundamentado na seção *3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)* deste guia, princípio do Menor Privilégio (*Principle of Least Privilege* - PoLP): Diretriz de ouro segundo a qual toda entidade (usuário ou processo) deve receber estritamente o conjunto mínimo de permissões indispensável para a conclusão de suas tarefas regulamentares, pelo menor período de tempo necessário. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "xguest_u".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "procedimentos de segurança e segurança física". De acordo com a teoria estudada em *2.5 ABAC (Attribute-Based Access Control) e a Norma XACML*, atributos do Ambiente / Contexto: Horário da solicitação, geolocalização física (país/cidade), se a conexão parte da VPN institucional ou rede aberta, conformidade de segurança do dispositivo (*health status*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "auditoria, conformidade e segurança física". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, os privilégios são vinculados a cargos ou perfis funcionais (ex.: "Auditor Fiscal", "Operador"), e os usuários são associados aos papéis. — Administrador de Segurança Corporativo. — Bancos de dados relacionais (PostgreSQL, Oracle), sistemas ERP, processos eletrônicos de tribunais. — Alinhamento com a estrutura administrativa da organização, simplificação da auditoria e facilidade de escala.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.4 Federação de Identidades e Single Sign-On (SSO, SAML 2.0, OpenID Connect)* deste guia, sSO (*Single Sign-On*): Mecanismo de autenticação centralizada que permite a um usuário realizar logon uma única vez e obter acesso autorizado a múltiplos sistemas e portais sem redigitar credenciais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "controle de acesso e autenticação".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "classificação de informações, métricas e indicadores". De acordo com a teoria estudada em *4.3 Pilares Fundamentais da Confiança Zero*, dados: Classificação, inventário e cifragem de informações confidenciais onde quer que residam.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "confiabilidade, integridade e disponibilidade". De acordo com a teoria estudada em *Modelo Biba (Foco Exclusivo em INTEGRIDADE):*, desenvolvido em contraposição ao Bell-LaPadula, com foco estrito na preservação da correção e confiabilidade dos dados.
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 
 ### Teste 381
-**(FGV – TJ-RR – Analista Judiciario Infraestrutura de Tecnologia da Informacao – 2024)**
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+O TCE-PA está revisando suas políticas de segurança da informação para garantir que tanto a segurança física quanto a lógica estejam adequadamente implementadas. O objetivo é proteger os ativos do tribunal contra uma variedade de ameaças, desde intrusões físicas até ataques cibernéticos. Assinale a opção que exemplifica a integração de medidas de segurança física e lógica, respectivamente, para proteger os ativos da organização.
+
+* **A)** Instalar câmeras de vigilância para monitorar áreas de acesso restrito / implementar firewalls para proteger a rede.
+* **B)** Implementar sistemas de backup regulares / utilizar sistemas de controle de versionamento.
+* **C)** Utilizar autenticação multifator para acesso a sistemas críticos / configurar sistemas de detecção de intrusão ao ambiente.
+* **D)** Implementar sistemas de detecção de intrusão / estabelecer procedimentos de criptografia para os dados sensíveis.
+* **E)** Configurar mecanismos de controle de acesso a áreas sensíveis / instalar geradores de energia de reserva.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *4.1 O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")* deste guia, erguia-se uma muralha rígida na borda da rede composta por firewalls perimetrais e concentradores VPN. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Instalar câmeras de vigilância para monitorar áreas de acesso restrito / implementar firewalls para proteger a rede".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Implementar sistemas de backup regulares / utilizar sistemas de controle de versionamento". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, os privilégios são vinculados a cargos ou perfis funcionais (ex.: "Auditor Fiscal", "Operador"), e os usuários são associados aos papéis. — Administrador de Segurança Corporativo. — Bancos de dados relacionais (PostgreSQL, Oracle), sistemas ERP, processos eletrônicos de tribunais. — Alinhamento com a estrutura administrativa da organização, simplificação da auditoria e facilidade de escala.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Utilizar autenticação multifator para acesso a sistemas críticos / configurar sistemas de detecção de intrusão ao...". De acordo com a teoria estudada em *2.5 ABAC (Attribute-Based Access Control) e a Norma XACML*, atributos do Ambiente / Contexto: Horário da solicitação, geolocalização física (país/cidade), se a conexão parte da VPN institucional ou rede aberta, conformidade de segurança do dispositivo (*health status*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Implementar sistemas de detecção de intrusão / estabelecer procedimentos de criptografia para os dados sensíveis". De acordo com a teoria estudada em *4.3 Pilares Fundamentais da Confiança Zero*, dispositivos: Avaliação rigorosa da integridade física e lógica dos endpoints (sistema operacional atualizado, presença de EDR ativo, criptografia de disco ativa).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Configurar mecanismos de controle de acesso a áreas sensíveis / instalar geradores de energia de reserva". De acordo com a teoria estudada em *1.4 Ameaças e Vetores de Ataque contra Credenciais*, os mecanismos de autenticação enfrentam vetores de ataque específicos no cenário de segurança cibernética.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 382
+**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
 Os modelos de Controle de Acesso Obrigatório (Mandatory Access Control - MAC) e Controle de Acesso Discricionário (Discretionary Access Control - DAC) são amplamente utilizados em sistemas de segurança da informação para gerenciar o acesso a dados e recursos. Cada um tem suas características próprias, que os tornam mais adequados para diferentes tipos de ambientes e níveis de segurança. No entanto, a escolha entre MAC e DAC depende das necessidades específicas de controle e gerenciamento de permissões em um determinado contexto. Diante do exposto, assinale a opção que diferencia corretamente os modelos MAC e DAC.
 
 * **A)** O MAC permite que os administradores do sistema definam permissões detalhadas para cada usuário, enquanto no DAC as permissões são automaticamente atribuídas com base nas regras do sistema.
@@ -362,34 +386,10 @@ Os modelos de Controle de Acesso Obrigatório (Mandatory Access Control - MAC) e
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O MAC permite que os administradores do sistema definam permissões detalhadas para cada usuário, enquanto no DAC...". De acordo com a teoria estudada em *2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso*, no modelo discricionário, a segurança gira em torno da figura do proprietário (*owner*). Quando um usuário cria um documento, planilha ou banco de dados, o sistema operacional atribui a ele a titularidade do objeto.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)* deste guia, avalia dinamicamente atributos do sujeito, do recurso, da ação solicitada e do ambiente (horário, local, dispositivo, risco) via regras booleanas. — Motor de Políticas Centralizado (ex.: XACML). — Ambientes em nuvem (AWS IAM), microsserviços modernos e arquiteturas Zero Trust. — Concessão granular, dinâmica e sensível ao contexto em tempo real. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "No modelo MAC, o controle de permissões é centralizado e determinado por políticas de segurança rígidas, enquanto...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O modelo DAC impõe regras de segurança mais restritivas e inalteráveis que o MAC, sendo geralmente aplicado em...". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, o criador ou proprietário do objeto tem autonomia total para conceder, delegar ou revogar permissões a outros usuários. — O proprietário (*Owner*) do objeto. — Sistemas de arquivos tradicionais (permissões NTFS no Windows, `chmod`/`chown` no Linux). — Alta flexibilidade e operação descentralizada.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)* deste guia, avalia dinamicamente atributos do sujeito, do recurso, da ação solicitada e do ambiente (horário, local, dispositivo, risco) via regras booleanas. — Motor de Políticas Centralizado (ex.: XACML). — Ambientes em nuvem (AWS IAM), microsserviços modernos e arquiteturas Zero Trust. — Concessão granular, dinâmica e sensível ao contexto em tempo real. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "No modelo MAC, o controle de permissões é centralizado e determinado por políticas de segurança rígidas, enquanto...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O modelo DAC impõe regras de segurança mais restritivas e inalteráveis que o MAC, sendo geralmente aplicado em...". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, o sistema central impõe regras invioláveis baseadas em rótulos de sensibilidade da informação e credenciais formais de segurança do usuário. — Administrador Central do Sistema / Política global do kernel. — Ambientes militares, de inteligência e servidores de altíssima segurança (SELinux, AppArmor). — Rigidez máxima contra vazamento e cavalos de troia.
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O MAC utiliza permissões dinâmicas baseadas nas necessidades de cada usuário, enquanto o DAC segue um conjunto...". De acordo com a teoria estudada em *2.3 MAC (Mandatory Access Control) e Modelos Multiníveis Formais: Bell-LaPadula vs. Biba*, no modelo obrigatório, nenhum usuário individual tem poder discricionário sobre suas permissões. Todos os sujeitos e objetos recebem rótulos estritos de segurança impostos pela autoridade central.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tanto o MAC quanto o DAC compartilham o mesmo princípio de que as permissões são gerenciadas pelos próprios...". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, os privilégios são vinculados a cargos ou perfis funcionais (ex.: "Auditor Fiscal", "Operador"), e os usuários são associados aos papéis. — Administrador de Segurança Corporativo. — Bancos de dados relacionais (PostgreSQL, Oracle), sistemas ERP, processos eletrônicos de tribunais. — Alinhamento com a estrutura administrativa da organização, simplificação da auditoria e facilidade de escala.
->
-> **Gabarito: B**
-
----
-
-### Teste 382
-**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
-Analise o código a seguir, que descreve a entidade Departamento: Assinale a opção que apresenta as anotações JPA 2.0 que devem ser incluídas na linha 11 para que a JPA utilize o método getNome() como mapeamento para a coluna nome da tabela departamentos nas operações de persistência.
-
-* **A)** @Column(name="nome") @Access(AccessType.PROPERTY)
-* **B)** @Basic(field="nome") @Access(AccessType.PROPERTY)
-* **C)** @Basic(field="nome") @Access(AccessType.FIELD)
-* **D)** @Column(name="nome") @Access(AccessType.FIELD)
-* **E)** @Column(field="nome") @Access(AccessType.FIELD)
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@Column(name="nome") @Access(AccessType.PROPERTY)". De acordo com a teoria estudada em *Modelo Bell-LaPadula (Foco Exclusivo em CONFIDENCIALIDADE):*, propriedade da Segurança Simples (*Simple Security Property* - ss-property).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 O Modelo AAA (Authentication, Authorization, Accounting)* deste guia, identificação: O sujeito declara perante o sistema quem ele alega ser (fornecendo um nome de usuário, login, endereço de e-mail institucional ou CPF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "@Basic(field="nome") @Access(AccessType.PROPERTY)".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@Basic(field="nome") @Access(AccessType.FIELD)". De acordo com a teoria estudada em *Modelo Bell-LaPadula (Foco Exclusivo em CONFIDENCIALIDADE):*, propriedade Estrela (*\*-Property* / Star-Property).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@Column(name="nome") @Access(AccessType.FIELD)". De acordo com a teoria estudada em *Modelo Biba (Foco Exclusivo em INTEGRIDADE):*, propriedade da Integridade Simples (*Simple Integrity Property*).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@Column(field="nome") @Access(AccessType.FIELD)". De acordo com a teoria estudada em *Modelo Biba (Foco Exclusivo em INTEGRIDADE):*, propriedade Estrela de Integridade (*\*-Property*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tanto o MAC quanto o DAC compartilham o mesmo princípio de que as permissões são gerenciadas pelos próprios...". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, o criador ou proprietário do objeto tem autonomia total para conceder, delegar ou revogar permissões a outros usuários. — O proprietário (*Owner*) do objeto. — Sistemas de arquivos tradicionais (permissões NTFS no Windows, `chmod`/`chown` no Linux). — Alta flexibilidade e operação descentralizada.
 >
 > **Gabarito: B**
 
@@ -430,48 +430,48 @@ Para mitigar a fadiga de senhas e a dispersão de credenciais entre múltiplos p
 ---
 
 ### Teste 383
-**(FCC – TRT-23 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-O superusuário de computador com sistema operacional Linux deseja alterar as permissões padrão para que apenas o usuário criador possa listar, ler e escrever em todos os novos diretórios criados no sistema por meio do comando mkdir. Para isso, o superusuário deve executar o comando
+**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
+Disponibilizado inicialmente em 2012, o OAuth2 é um protocolo de autorização cujo objetivo é permitir que os usuários deem acesso aos seus recursos hospedados por um provedor de serviços, sem apresentar credenciais. A respeito do OAuth2, assinale a afirmativa correta.
 
-* **A)** umask 700.
-* **B)** chmod 707.
-* **C)** umask 077.
-* **D)** chmod 700.
-* **E)** umask 707.
+* **A)** Ao contrário dos tokens de acesso, os tokens de atualização são destinados ao uso somente com servidores de autorização e nunca são enviados aos servidores de recursos.
+* **B)** Os clientes não precisam registrar seus redirecionamentos de URI antes de usá-los em um fluxo de autorização.
+* **C)** O servidor de recursos emite tokens de acesso ao cliente após autenticar o proprietário do recurso com sucesso e obter autorização.
+* **D)** Os tokens de atualização devem ser enviados diretamente ao cliente para autenticação, sem necessidade de proteção adicional.
+* **E)** Só existe um tipo de cliente, o confidencial, aquele capaz de manter a confidencialidade de suas credenciais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "umask 700". De acordo com a teoria estudada em *3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)*, princípio do Menor Privilégio (*Principle of Least Privilege* - PoLP): Diretriz de ouro segundo a qual toda entidade (usuário ou processo) deve receber estritamente o conjunto mínimo de permissões indispensável para a conclusão de suas tarefas regulamentares, pelo menor período de tempo necessário.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chmod 707". De acordo com a teoria estudada em *2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso*, no modelo discricionário, a segurança gira em torno da figura do proprietário (*owner*). Quando um usuário cria um documento, planilha ou banco de dados, o sistema operacional atribui a ele a titularidade do objeto.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)* deste guia, o criador ou proprietário do objeto tem autonomia total para conceder, delegar ou revogar permissões a outros usuários. — O proprietário (*Owner*) do objeto. — Sistemas de arquivos tradicionais (permissões NTFS no Windows, `chmod`/`chown` no Linux). — Alta flexibilidade e operação descentralizada. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-23/2016) ao estabelecer que "umask 077".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chmod 700". De acordo com a teoria estudada em *Modelo Biba (Foco Exclusivo em INTEGRIDADE):*, um sujeito não pode gravar dados em objetos que possuam nível de integridade superior ao seu ("No Write Up" - Proibido escrever para cima). *Objetivo:* Impede que um usuário com baixa credencial corrompa ou altere arquivos vitais do sistema.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "umask 707". De acordo com a teoria estudada em *1.1 O Modelo AAA (Authentication, Authorization, Accounting)*, autorização: Uma vez que a autenticidade foi comprovada, o sistema consulta as matrizes de permissão para definir os privilégios exatos e as ações que aquele sujeito específico está legalmente autorizado a executar sobre os recursos.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 O Modelo AAA (Authentication, Authorization, Accounting)* deste guia, autorização: Uma vez que a autenticidade foi comprovada, o sistema consulta as matrizes de permissão para definir os privilégios exatos e as ações que aquele sujeito específico está legalmente autorizado a executar sobre os recursos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "Ao contrário dos tokens de acesso, os tokens de atualização são destinados ao uso somente com servidores de...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os clientes não precisam registrar seus redirecionamentos de URI antes de usá-los em um fluxo de autorização". De acordo com a teoria estudada em *1.2 Os Três Fatores Clássicos de Autenticação*, baseia-se na custódia e no controle físico ou lógico de um artefato tangível exclusivo (cartões inteligentes com chip, *tokens* geradores de códigos de uso único OTP baseados em tempo TOTP ou em evento HOTP, chaves criptográficas físicas FIDO2/U2F conectadas via USB/NFC, ou smartphones autenticados).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O servidor de recursos emite tokens de acesso ao cliente após autenticar o proprietário do recurso com sucesso e...". De acordo com a teoria estudada em *No Plano de Controle (Control Plane):*, avalia as políticas organizacionais, sinais de telemetria de segurança, reputação de risco e integridade do cliente para tomar a decisão final de permitir, negar ou revogar o acesso solicitado.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os tokens de atualização devem ser enviados diretamente ao cliente para autenticação, sem necessidade de proteção...". De acordo com a teoria estudada em *3.1 Ciclo de Vida da Identidade (Onboarding, Movimentação e Offboarding)*, movimentação / Transição: Ajuste imediato e automatizado das permissões quando o servidor é transferido de setor ou assume novas funções de chefia. Privilégios que eram necessários na unidade antiga devem ser revogados imediatamente.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Só existe um tipo de cliente, o confidencial, aquele capaz de manter a confidencialidade de suas credenciais". De acordo com a teoria estudada em *1.4 Ameaças e Vetores de Ataque contra Credenciais*, preenchimento de Credenciais (*Credential Stuffing*): Uso automatizado de listas com pares de login e senha vazados em incidentes de segurança de empresas terceiras, explorando o hábito generalizado dos usuários de reutilizar a mesma senha em múltiplos portais e serviços.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
 ### Teste 384
-**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
-O administrador de um computador com sistema operacional Linux SuSE alterou as permissões do arquivo arq_meu.arq utilizando o seguinte comando. \$ chmod 644 arq_meu.arq O resultado da execução será que o arquivo arq_meu.arq
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Agente Da Policia Judicial)**
+A respeito de controle de situações de conflito, avalie as afirmativas a seguir. I. Um atirador de um pelotão destinado a controlar uma situação de conflito pode proferir disparos sem autorização formal, se perceber a necessidade de realizá-los. II. O escudeiro e o lançador de granadas agem sob o comando da tropa da qual eles fazem parte, sem improvisações. III. O armamento de fogo não deve ser de dotação de todos os militares operando em uma situação de conflito. É correto o que se apresenta em
 
-* **A)** ficará oculto para os outros usuários.
-* **B)** poderá ser modificado e eliminado pelos usuários do grupo.
-* **C)** poderá ser executado pelo usuário que o criou.
-* **D)** poderá ser modificado pelo usuário que o criou.
-* **E)** ficará oculto para os usuários do grupo.
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** I e II, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ficará oculto para os outros usuários". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, o criador ou proprietário do objeto tem autonomia total para conceder, delegar ou revogar permissões a outros usuários. — O proprietário (*Owner*) do objeto. — Sistemas de arquivos tradicionais (permissões NTFS no Windows, `chmod`/`chown` no Linux). — Alta flexibilidade e operação descentralizada.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "poderá ser modificado e eliminado pelos usuários do grupo". De acordo com a teoria estudada em *1.1 O Modelo AAA (Authentication, Authorization, Accounting)*, identificação: O sujeito declara perante o sistema quem ele alega ser (fornecendo um nome de usuário, login, endereço de e-mail institucional ou CPF).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "poderá ser executado pelo usuário que o criou". De acordo com a teoria estudada em *3.1 Ciclo de Vida da Identidade (Onboarding, Movimentação e Offboarding)*, movimentação / Transição: Ajuste imediato e automatizado das permissões quando o servidor é transferido de setor ou assume novas funções de chefia. Privilégios que eram necessários na unidade antiga devem ser revogados imediatamente.
-> - **D)** **Correta.** Conforme fundamentado na seção *Limitação Crítica do DAC:* deste guia, se um usuário mal-intencionado convencer o proprietário de um arquivo sigiloso a conceder-lhe permissão de leitura, esse segundo usuário poderá copiar os dados para um novo arquivo de sua propriedade e disponibilizá-lo publicamente, sem que o sistema consiga bloquear o vazamento. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "poderá ser modificado pelo usuário que o criou".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ficará oculto para os usuários do grupo". De acordo com a teoria estudada em *2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso*, no modelo discricionário, a segurança gira em torno da figura do proprietário (*owner*). Quando um usuário cria um documento, planilha ou banco de dados, o sistema operacional atribui a ele a titularidade do objeto.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)*, princípio do Menor Privilégio (*Principle of Least Privilege* - PoLP): Diretriz de ouro segundo a qual toda entidade (usuário ou processo) deve receber estritamente o conjunto mínimo de permissões indispensável para a conclusão de suas tarefas regulamentares, pelo menor período de tempo necessário.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *3.1 Ciclo de Vida da Identidade (Onboarding, Movimentação e Offboarding)*, movimentação / Transição: Ajuste imediato e automatizado das permissões quando o servidor é transferido de setor ou assume novas funções de chefia. Privilégios que eram necessários na unidade antiga devem ser revogados imediatamente.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.4 Ameaças e Vetores de Ataque contra Credenciais*, ataque de Força Bruta (*Brute Force*): Tentativas exaustivas de todas as combinações alfanuméricas possíveis até encontrar o valor correto.
+> - **D)** **Correta.** Conforme fundamentado na seção *4.2 Os Três Princípios Norteadores Oficiais do Zero Trust* deste guia, toda e qualquer requisição de acesso deve ser autenticada, autorizada e criptografada explicitamente, avaliando em tempo real o contexto da sessão. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "II e III, apenas".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, o sistema central impõe regras invioláveis baseadas em rótulos de sensibilidade da informação e credenciais formais de segurança do usuário. — Administrador Central do Sistema / Política global do kernel. — Ambientes militares, de inteligência e servidores de altíssima segurança (SELinux, AppArmor). — Rigidez máxima contra vazamento e cavalos de troia.
 >
 > **Gabarito: D**
 
@@ -563,74 +563,74 @@ flowchart LR
 ---
 
 ### Teste 385
-**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia da Informacao – 2024)**
-César importou para uma planilha um conjunto de dados contendo o número de identificação, nome e endereço dos funcionários do TFR1. No Microsoft Excel, para encontrar os dados do funcionário pelo nome, César deve usar a fórmula:
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia Da Informacao)**
+Você é um administrador de rede em uma grande empresa que utiliza o protocolo SNMP para monitorar e gerenciar dispositivos de rede, como roteadores, switches e servidores. Recentemente, houve uma preocupação crescente com a segurança das informações trocadas entre esses dispositivos e o servidor de gerenciamento. Para aumentar a segurança, você decide implementar o SNMPv3, que oferece recursos avançados de segurança em comparação com as versões anteriores do protocolo. Durante uma reunião de equipe, seu chefe pergunta sobre as características de segurança específicas do SNMPv3, especialmente no que se refere ao mecanismo de segurança que ele utiliza para fornecer criptografia, autenticação, proteção contra ataques de reprodução e controle de acesso. A segurança SNMPv3 é conhecida como baseada:
 
-* **A)** ÍNDICE
-* **B)** PROCV
-* **C)** TRANSPOR
-* **D)** ENDEREÇO
-* **E)** ESCOLHER
+* **A)** em PGP;
+* **B)** em IPsec;
+* **C)** no usuário;
+* **D)** em SSL/TLS;
+* **E)** na assinatura digital.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 O Modelo AAA (Authentication, Authorization, Accounting)* deste guia, identificação: O sujeito declara perante o sistema quem ele alega ser (fornecendo um nome de usuário, login, endereço de e-mail institucional ou CPF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "ÍNDICE".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PROCV". De acordo com a teoria estudada em *3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)*, princípio do Menor Privilégio (*Principle of Least Privilege* - PoLP): Diretriz de ouro segundo a qual toda entidade (usuário ou processo) deve receber estritamente o conjunto mínimo de permissões indispensável para a conclusão de suas tarefas regulamentares, pelo menor período de tempo necessário.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "TRANSPOR". De acordo com a teoria estudada em *2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso*, no modelo discricionário, a segurança gira em torno da figura do proprietário (*owner*). Quando um usuário cria um documento, planilha ou banco de dados, o sistema operacional atribui a ele a titularidade do objeto.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ENDEREÇO". De acordo com a teoria estudada em *4.1 O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")*, ameaças Internas (*Insider Threats*): Funcionários descontentes ou credenciais internas legítimas roubadas por phishing.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ESCOLHER". De acordo com a teoria estudada em *4.2 Os Três Princípios Norteadores Oficiais do Zero Trust*, toda e qualquer requisição de acesso deve ser autenticada, autorizada e criptografada explicitamente, avaliando em tempo real o contexto da sessão.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em PGP". De acordo com a teoria estudada em *1.3 Autenticação Multifator (MFA / 2FA) e Regras Mandatórias*, smartcard físico (*Posse*) + Leitura de impressão digital (*Inerência*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em IPsec". De acordo com a teoria estudada em *3.1 Ciclo de Vida da Identidade (Onboarding, Movimentação e Offboarding)*, provisionamento (*Onboarding* / Entrada): Criação da identidade digital corporativa e concessão automática das permissões mínimas indispensáveis para o exercício da função comissionada ou cargo de concurso.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "no usuário". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, o sistema central impõe regras invioláveis baseadas em rótulos de sensibilidade da informação e credenciais formais de segurança do usuário. — Administrador Central do Sistema / Política global do kernel. — Ambientes militares, de inteligência e servidores de altíssima segurança (SELinux, AppArmor). — Rigidez máxima contra vazamento e cavalos de troia.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em SSL/TLS". De acordo com a teoria estudada em *4.3 Pilares Fundamentais da Confiança Zero*, dispositivos: Avaliação rigorosa da integridade física e lógica dos endpoints (sistema operacional atualizado, presença de EDR ativo, criptografia de disco ativa).
+> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Os Três Fatores Clássicos de Autenticação* deste guia, *Biometria Comportamental:* Cadência e ritmo de digitação no teclado (*keystroke dynamics*), dinâmica da assinatura manual ou modulação vocal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "na assinatura digital".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 386
-**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
-Durante o planejamento de configuração das aplicações na Google Cloud, foi solicitado que o analista de determinado TRT configurasse recurso do framework de arquitetura de segurança da informação, com vista a conceder às pessoas certas o acesso aos recursos ideais pelos motivos mais coerentes, por meio do acesso granular, conforme o princípio do privilégio mínimo. Nessa situação hipotética, para realizar o que lhe foi solicitado, o analista deverá utilizar o recurso
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
+A equipe de gestão de infraestrutura está analisando equipamentos de armazenamento de dados de diferentes arquiteturas para substituir o atual storage obsoleto. Uma vantagem do equipamento do tipo CAS (Content Addressable Storage) é:
 
-* **A)** chronicle.
-* **B)** identity and access management.
-* **C)** multifactor authentication.
-* **D)** cloud data loss prevention.
-* **E)** cloud identity.
+* **A)** acesso aos dados por meio de WWN (World Wide Name);
+* **B)** eliminação de duplicação de dados;
+* **C)** recuperação dos dados com base no endereço lógico;
+* **D)** hash criptográfico aplicado ao endereço físico do dado;
+* **E)** hash criptográfico aplicado ao endereço lógico do dado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chronicle". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, nIST SP 800-63B - Digital Identity Guidelines: Authentication and Lifecycle Management - Diretrizes técnicas de autenticação de usuários, políticas de senhas e autenticação multifator (MFA).
-> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Ciclo de Vida da Identidade (Onboarding, Movimentação e Offboarding)* deste guia, o IAM (*Identity and Access Management*) gerencia as identidades digitais desde o ingresso do colaborador até sua desvinculação definitiva da instituição. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "identity and access management".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "multifactor authentication". De acordo com a teoria estudada em *3.3 Gestão de Acessos Privilegiados (PAM): Cofre, JIT e Sessões Gravadas*, as ferramentas de PAM (*Privileged Access Management*) eliminam o uso descontrolado dessas credenciais.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cloud data loss prevention". De acordo com a teoria estudada em *No Plano de Dados (Data Plane):*, o PEP intercepta, fiscaliza, permite ou encerra as conexões diretas entre o usuário e o recurso, acatando cegamente as ordens recebidas do PA.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cloud identity". De acordo com a teoria estudada em *4.3 Pilares Fundamentais da Confiança Zero*, conforme estabelecido pela CISA (*Cybersecurity and Infrastructure Security Agency*), o Zero Trust estrutura-se sobre cinco pilares técnicos interligados.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "acesso aos dados por meio de WWN (World Wide Name)". De acordo com a teoria estudada em *4.2 Os Três Princípios Norteadores Oficiais do Zero Trust*, reduza ao máximo o "raio de explosão" (*blast radius*) do ataque por meio de microsegmentação, inspeção detalhada de todo o tráfego e criptografia de dados em trânsito e em repouso.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Gestão de Acessos Privilegiados (PAM): Cofre, JIT e Sessões Gravadas* deste guia, contas que detêm privilégios administrativos elevados (tais como `root` no Linux, `Domain Admins` no Active Directory e `SYS`/`sa` em bancos de dados) constituem o alvo preferencial de cibercriminosos e malwares avançados. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "eliminação de duplicação de dados".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "recuperação dos dados com base no endereço lógico". De acordo com a teoria estudada em *1.1 O Modelo AAA (Authentication, Authorization, Accounting)*, identificação: O sujeito declara perante o sistema quem ele alega ser (fornecendo um nome de usuário, login, endereço de e-mail institucional ou CPF).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "hash criptográfico aplicado ao endereço físico do dado". De acordo com a teoria estudada em *2.5 ABAC (Attribute-Based Access Control) e a Norma XACML*, atributos do Recurso/Objeto: Classificação da informação, projeto vinculado, proprietário do dado.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "hash criptográfico aplicado ao endereço lógico do dado". De acordo com a teoria estudada em *1.1 O Modelo AAA (Authentication, Authorization, Accounting)*, o controle de acesso lógico é a barreira de segurança primordial de qualquer sistema de tecnologia da informação.
 >
 > **Gabarito: B**
 
 ---
 
 ### Teste 387
-**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
-No contexto de análise de dados e cubos OLAP, assinale os quatro tipos de análises que são comuns nesse ambiente.
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+Ana, servidora aposentada do município Alfa, solicitou à autoridade competente que fossem fornecidas as informações relativas à sua pessoa constantes dos respectivos assentamentos funcionais. Ao preencher o respectivo formulário, informou, no campo da justificativa, que o motivo era “pessoal”, sem especificá-lo. Sua solicitação, no entanto, foi negada em decisão escrita, situação que permaneceu inalterada mesmo após a interposição dos recursos administrativos cabíveis. À luz da sistemática constitucional, é correto afirmar que:
 
-* **A)** Drill-down / ETL / Pivot / Roll up.
-* **B)** Drill-down / ETL / Pivot / Slice.
-* **C)** Drill-down / ETL / Roll up / Slice.
-* **D)** Drill-down / Pivot / Roll up / Slice.
-* **E)** ETL / Pivot / Roll up / Slice.
+* **A)** o acesso às informações somente deveria ser assegurado se Ana tivesse declinado a razão pela qual almejava conhecê-las;
+* **B)** como o vínculo funcional foi dissolvido com a aposentadoria, as informações são sigilosas, sendo correta a negativa de acesso;
+* **C)** as informações deveriam ter sido fornecidas a Ana, sendo possível a impetração de habeas data, ação na qual há gratuidade;
+* **D)** o acesso às informações pressupunha prévia autorização judicial, considerando estarem integradas a um banco de dados público; logo, a negativa de acesso foi correta;
+* **E)** como a negativa de acesso à informação está demonstrada em decisão escrita, sendo violado o direito líquido e certo de Ana, é cabível a impetração de mandado de segurança.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Drill-down / ETL / Pivot / Roll up". De acordo com a teoria estudada em *Modelo Biba (Foco Exclusivo em INTEGRIDADE):*, um sujeito não pode ler objetos com nível de integridade inferior ao seu ("No Read Down" - Proibido ler para baixo). *Objetivo:* Evita que um processo de alta integridade seja contaminado por dados corrompidos ou não confiáveis.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Drill-down / ETL / Pivot / Slice". De acordo com a teoria estudada em *Modelo Biba (Foco Exclusivo em INTEGRIDADE):*, bell-LaPadula: Foco em Confidencialidade \$\rightarrow\$ *No Read Up* e *No Write Down*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Drill-down / ETL / Roll up / Slice". De acordo com a teoria estudada em *Modelo Biba (Foco Exclusivo em INTEGRIDADE):*, biba: Foco em Integridade \$\rightarrow\$ *No Read Down* e *No Write Up*.
-> - **D)** **Correta.** Conforme fundamentado na seção *Modelo Bell-LaPadula (Foco Exclusivo em CONFIDENCIALIDADE):* deste guia, um sujeito em determinado nível não pode gravar ou transferir dados para um objeto de nível de sensibilidade inferior ao seu ("No Write Down" - Proibido escrever para baixo). *Objetivo:* Evita que um usuário com acesso a dados "Ultrassecretos" copie inadvertidamente ou maliciosamente informações para um documento "Público". Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "Drill-down / Pivot / Roll up / Slice".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ETL / Pivot / Roll up / Slice". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, kUROSE, James F.; ROSS, Keith W. Redes de Computadores e a Internet: Uma Abordagem Top-Down. 7. ed. São Paulo: Pearson Education do Brasil, 2017. (Cap. 8 - Segurança em Redes de Computadores: Autenticação e Controle de Acesso).
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "o acesso às informações somente deveria ser assegurado se Ana tivesse declinado a razão pela qual almejava...". De acordo com a teoria estudada em *Modelo Bell-LaPadula (Foco Exclusivo em CONFIDENCIALIDADE):*, um sujeito em determinado nível não pode gravar ou transferir dados para um objeto de nível de sensibilidade inferior ao seu ("No Write Down" - Proibido escrever para baixo). *Objetivo:* Evita que um usuário com acesso a dados "Ultrassecretos" copie inadvertidamente ou maliciosamente informações para um documento "Público".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "como o vínculo funcional foi dissolvido com a aposentadoria, as informações são sigilosas, sendo correta a...". De acordo com a teoria estudada em *1.2 Os Três Fatores Clássicos de Autenticação*, baseia-se exclusivamente na retenção mnemônica de informações secretas pelo usuário (senhas alfanuméricas, frases-passe, números PIN, perguntas secretas).
+> - **C)** **Correta.** Conforme fundamentado na seção *4.3 Pilares Fundamentais da Confiança Zero* deste guia, dados: Classificação, inventário e cifragem de informações confidenciais onde quer que residam. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "as informações deveriam ter sido fornecidas a Ana, sendo possível a impetração de habeas data, ação na qual há...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o acesso às informações pressupunha prévia autorização judicial, considerando estarem integradas a um banco de...". De acordo com a teoria estudada em *2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso*, no modelo discricionário, a segurança gira em torno da figura do proprietário (*owner*). Quando um usuário cria um documento, planilha ou banco de dados, o sistema operacional atribui a ele a titularidade do objeto.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "como a negativa de acesso à informação está demonstrada em decisão escrita, sendo violado o direito líquido e...". De acordo com a teoria estudada em *No Plano de Controle (Control Plane):*, avalia as políticas organizacionais, sinais de telemetria de segurança, reputação de risco e integridade do cliente para tomar a decisão final de permitir, negar ou revogar o acesso solicitado.
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 

@@ -87,26 +87,20 @@ Independentemente do ciclo de vida adotado (preditivo, iterativo ou ágil), a li
 ---
 
 ### Teste 001
-**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
-Uma das metas do programa MPS.BR é definir e aprimorar um modelo de melhoria e avaliação de processo de software e serviços. O Modelo de Referência MPS para Software (MR-MPS-SW) define níveis de maturidade que são uma combinação entre processos e sua capacidade. Neste modelo,
+**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
+As várias disciplinas do CMMI são relativas à engenharia de software e visam oferecer uma solução eficaz para a melhoria dos processos da organização.
 
-* **A)** a definição dos processos segue os requisitos para um modelo de referência de processo apresentados na ISO/IEC 20968, declarando o propósito e os resultados esperados de sua execução.
-* **B)** a capacidade do processo é a caracterização da sua habilidade para alcançar os objetivos atuais de negócio. Está relacionada com o atendimento aos requisitos associados aos processos de um determinado nível de capacidade.
-* **C)** a escala de maturidade se inicia no nível A e progride até o nível G. Para cada um destes 7 níveis de maturidade é atribuído um perfil de processos que indicam onde a organização deve colocar o esforço de melhoria.
-* **D)** o progresso e o alcance de um determinado nível de maturidade são obtidos quando são atendidos os propósitos e todos os resultados esperados dos respectivos processos e os resultados esperados dos atributos de processos estabelecidos para aquele nível.
-* **E)** os processos são descritos em termos de propósito e resultados. O propósito estabelece os resultados a serem obtidos com a efetiva implementação do processo. Os resultados descrevem o objetivo geral a ser atingido durante a execução do processo.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a definição dos processos segue os requisitos para um modelo de referência de processo apresentados na ISO/IEC...". De acordo com a teoria estudada em *1.3 Modelos de Maturidade de Processo (CMMI e MPS.BR)*, mPS.BR (Melhoria de Processo do Software Brasileiro): Modelo nacional alinhado às normas ISO/IEC 12207 e 15504, subdividido em 7 níveis de maturidade decrescentes em letras (do nível G - Parcialmente Gerenciado até o nível A - Em Otimização).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a capacidade do processo é a caracterização da sua habilidade para alcançar os objetivos atuais de negócio. Está...". De acordo com a teoria estudada em *1.3 Modelos de Maturidade de Processo (CMMI e MPS.BR)*, cMMI (Capability Maturity Model Integration): Desenvolvido pelo SEI (Software Engineering Institute), estrutura a capacidade e maturidade de organizações em 5 níveis escalonados.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a escala de maturidade se inicia no nível A e progride até o nível G. Para cada um destes 7 níveis de maturidade é...". De acordo com a teoria estudada em *1.3 Modelos de Maturidade de Processo (CMMI e MPS.BR)*, *Nível 3 (Definido):* Processos corporativos padronizados e integrados em toda a organização.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Modelos de Maturidade de Processo (CMMI e MPS.BR)* deste guia, *Nível 5 (Em Otimização):* Foco na melhoria contínua e inovação sistemática de processos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "o progresso e o alcance de um determinado nível de maturidade são obtidos quando são atendidos os propósitos e...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os processos são descritos em termos de propósito e resultados. O propósito estabelece os resultados a serem...". De acordo com a teoria estudada em *1.3 Modelos de Maturidade de Processo (CMMI e MPS.BR)*, *Nível 1 (Inicial):* Processos imprevisíveis, reativos e caóticos; o sucesso depende do esforço heróico individual.
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As várias disciplinas do CMMI são relativas à engenharia de software e visam oferecer uma solução eficaz para...". De acordo com a teoria estudada em *1.3 Modelos de Maturidade de Processo (CMMI e MPS.BR)*, *Nível 5 (Em Otimização):* Foco na melhoria contínua e inovação sistemática de processos.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *1.3 Modelos de Maturidade de Processo (CMMI e MPS.BR)* deste guia, *Nível 3 (Definido):* Processos corporativos padronizados e integrados em toda a organização. Portanto, a assertiva examinada pela banca (CEBRASPE – TRF/6/2025) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
@@ -178,74 +172,62 @@ Reconhecem que o mundo corporativo raramente opera em extremos absolutos. Um pro
 ---
 
 ### Teste 002
-**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
-O desenvolvimento evolucionário baseia-se na ideia de desenvolvimento de uma implementação inicial, expondo o resultado aos comentários do usuário e refinando-o em novas versões até que seja desenvolvido um sistema adequado. As atividades de especificação, desenvolvimento e validação são intercaladas ao invés de separadas, com rápido feedback entre elas. Sommerville define dois tipos fundamentais de desenvolvimento evolucionário. Considere: I. Descrever todos os requisitos não funcionais antes de fazer o protótipo. Descrever os requisitos funcionais e técnicos. Implementar todos requisitos e desenvolver novo protótipo. II. Trabalhar com o cliente para explorar os requisitos e entregar um sistema final. O desenvolvimento começa com as partes do sistema compreendidas. O sistema evolui por meio da adição de novas características propostas pelo cliente. III. Incorporar e implementar todas as mudanças do software no primeiro estágio do desenvolvimento, definindo todos os requisitos técnicos. Formar um protótipo a partir daí. O sistema evolui por meio da adição de novas características propostas pelo cliente. IV. Compreender os requisitos do cliente e, a partir disso, desenvolver melhor definição de requisitos para o sistema. O protótipo se concentra na experimentação dos requisitos mal compreendidos do cliente. De acordo com Sommerville
+**(FCC – TRT 2ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+O modelo de ciclo de vida incremental e iterativo foi proposto como uma resposta aos problemas encontrados no modelo em cascata. Em relação a este tipo de modelo de processo, é INCORRETO afirmar que
 
-* **A)** I é Prototipação throwaway; III é Prototipação incremental.
-* **B)** I é Prototipação incremental; IV é Desenvolvimento exploratório.
-* **C)** II é Desenvolvimento exploratório; IV é Prototipação throwaway.
-* **D)** III é Desenvolvimento exploratório; IV é Prototipação revisional.
-* **E)** II é Prototipação exploratória; III é Prototipação throwaway.
+* **A)** sequência − um método − na classe − objetos e atores.
+* **B)** atividades − um procedimento − no método − classes e objetos.
+* **C)** objetos − uma mensagem − no método − objetos e métodos.
+* **D)** sequência − um método − no método construtor − classes e métodos.
+* **E)** atividades − uma classe − na superclasse − objetos e atores.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I é Prototipação throwaway; III é Prototipação incremental". De acordo com a teoria estudada em *1.2 Atividades Genéricas de Processo de Software*, implantação (Deployment): Disponibilização do software em ambiente operacional, homologação pelo usuário final, suporte técnico e coleta de feedback.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I é Prototipação incremental; IV é Desenvolvimento exploratório". De acordo com a teoria estudada em *5.2 Lean Software Development e Eliminação dos 7 Desperdícios*, adaptado do Sistema Toyota de Produção por Mary e Tom Poppendieck, o desenvolvimento Lean foca na entrega rápida de valor mediante a eliminação sistemática de desperdícios (*Muda*).
-> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V* deste guia, modelo V (Verificação e Validação): Variação direta do modelo cascata que explicita o pareamento simétrico entre cada fase de especificação/desenvolvimento e a sua correspondente fase de testes. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "II é Desenvolvimento exploratório; IV é Prototipação throwaway".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III é Desenvolvimento exploratório; IV é Prototipação revisional". De acordo com a teoria estudada em *5.2 Lean Software Development e Eliminação dos 7 Desperdícios*, 2. Recursos Extras (Gold Plating): Funcionalidades desenvolvidas que nunca serão utilizadas pelo usuário final (excesso de especificação).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II é Prototipação exploratória; III é Prototipação throwaway". De acordo com a teoria estudada em *2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V*, *Vantagens:* Estrutura rígida de fácil controle gerencial para projetos com requisitos absolutamente estáveis, bem compreendidos e sem previsão de mudanças tecnológicas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sequência − um método − na classe − objetos e atores". De acordo com a teoria estudada em *2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V*, modelo Cascata (Royce, 1970): Caracteriza-se por uma progressão linear, estritamente sequencial entre as fases do ciclo de vida.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atividades − um procedimento − no método − classes e objetos". De acordo com a teoria estudada em *1.2 Atividades Genéricas de Processo de Software*, independentemente do ciclo de vida adotado (preditivo, iterativo ou ágil), a literatura clássica de engenharia de software (Pressman e Sommerville) mapeia cinco atividades genéricas de processo.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "objetos − uma mensagem − no método − objetos e métodos". De acordo com a teoria estudada em *4.1 Princípios e Práticas Gerais do Kanban*, concebido por David J. Anderson com base no Sistema Toyota de Produção, o método Kanban é uma abordagem evolucionária e não prescritiva para gestão de fluxos de trabalho do conhecimento.
+> - **D)** **Correta.** Conforme fundamentado na seção *5.1 Extreme Programming: Valores e Práticas de Engenharia* deste guia, design Simples: O código atende a todos os testes, expressa com clareza a intenção, não possui duplicações (DRY - *Don't Repeat Yourself*) e contém o menor número possível de classes e métodos (YAGNI - *You Aren't Gonna Need It*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 2ª/2014) ao estabelecer que "sequência − um método − no método construtor − classes e métodos".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atividades − uma classe − na superclasse − objetos e atores". De acordo com a teoria estudada em *1.1 Escopo da Engenharia de Software e a Crise do Software*, a Engenharia de Software é a disciplina de engenharia dedicada ao estabelecimento e uso de sólidos princípios e métodos sistemáticos, disciplinados e quantificáveis para o desenvolvimento, operação e manutenção de software de alta qualidade dentro de custos e prazos previsíveis.
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
 ### Teste 003
-**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
-Analise o modelo em espiral do processo de software de Boehm representado abaixo: Determinar objetivos, alternativas e restrições Avaliar alternativas, identificar, resolver riscos Análise de risco Revisão Análise de risco Análise de risco Análise de risco Protótipo de operação Protótipo 3 Protótipo 2 Protótipo 1 Simulação, modelos, benchmarks Plano de requisitos Plano de ciclo de vida Conceito de Plano de desenvolvimento Integração e plano de teste operação I II III Validação de requisitos Código Teste de unidade V&V do projeto Teste de integração Teste de aceitação Planejar próxima fase Operação Modelo em espiral do processo de software de Boehm ( /EEE,1988). c Desenvolver, verificar produto de próximo nível Os itens I, II e III correspondem, respectivamente, a
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+No ciclo de vida da primeira versão do modelo em espiral, a etapa de análise de riscos é realizada dentro da fase de desenvolvimento.
 
-* **A)** Requisitos de SW - Projeto do produto - Projeto detalhado
-* **B)** Projeto de HW - Codificação de alto nível - Implementação
-* **C)** Requisitos funcionais e não funcionais - Protótipo final - Fluxograma de programa
-* **D)** Levantamento de dados - Fluxograma do sistema - Modelo funcional
-* **E)** Modelo Funcional - Modelo de dados - Codificação de alto nível
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Modelos de Maturidade de Processo (CMMI e MPS.BR)* deste guia, *Nível 2 (Gerenciado):* Projetos planejados, medidos e controlados em nível de projeto. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "Requisitos de SW - Projeto do produto - Projeto detalhado".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Projeto de HW - Codificação de alto nível - Implementação". De acordo com a teoria estudada em *2.4 Abordagens Híbridas de Desenvolvimento*, abordagem preditiva no planejamento macro de escopo, contratação pública e cronograma de alto nível (governança tradicional).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Requisitos funcionais e não funcionais - Protótipo final - Fluxograma de programa". De acordo com a teoria estudada em *2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V*, requisitos de Negócio \$\longleftrightarrow\$ Testes de Aceitação.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Levantamento de dados - Fluxograma do sistema - Modelo funcional". De acordo com a teoria estudada em *2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V*, requisitos de Sistema \$\longleftrightarrow\$ Testes de Sistema.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Modelo Funcional - Modelo de dados - Codificação de alto nível". De acordo com a teoria estudada em *2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V*, *Desvantagens:* Inflexibilidade severa para absorver mudanças; o software só ganha forma executável nas fases finais do projeto, postergando a percepção de valor e a identificação de defeitos críticos para o encerramento do cronograma.
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No ciclo de vida da primeira versão do modelo em espiral, a etapa de análise de riscos é realizada dentro da...". De acordo com a teoria estudada em *1.2 Atividades Genéricas de Processo de Software*, planejamento: Estimativas de esforço, alocação de recursos, definição de entregáveis, cronograma e análise de riscos.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V* deste guia, modelo Cascata (Royce, 1970): Caracteriza-se por uma progressão linear, estritamente sequencial entre as fases do ciclo de vida. Portanto, a assertiva examinada pela banca (CEBRASPE – TRT/10/2013) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 004
-**(FGV – TJ-BA – Analista Judiciario Tecnologia da Informacao – 2015)**
-O Processo Unificado (Unified Process) é um processo de desenvolvimento de software que compreende um conjunto de atividades para construção de sistemas orientados a objetos e organiza suas iterações em quatro fases principais: Concepção, Elaboração, Construção e Transição. Com relação a essas fases do Processo Unificado, analise as afirmativas a seguir: I. Na fase de Elaboração o projeto de software é detalhado o suficiente para permitir um planejamento acurado para sua construção. II. A maioria dos requisitos são identificados e estimativas mais realistas são elaboradas na fase de Concepção. III. Em fase de Construção, os componentes de software são implementados e colocados à disposição dos usuários para realizaçãos dos testes beta, enquanto na fase de Transição acontece a implantação. Está correto o que se afirma em:
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+O conceito de ciclo de vida de projeto difere do conceito de ciclo de vida de produto, igualando-se esses conceitos em situações em que o produto de um projeto consiste, também, em outro projeto.
 
-* **A)** somente I;
-* **B)** somente II;
-* **C)** somente III;
-* **D)** somente I e II;
-* **E)** I, II e III.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Atividades Genéricas de Processo de Software* deste guia, planejamento: Estimativas de esforço, alocação de recursos, definição de entregáveis, cronograma e análise de riscos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-BA/2015) ao estabelecer que "somente I".
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente II". De acordo com a teoria estudada em *1.2 Atividades Genéricas de Processo de Software*, construção: Atividades conjugadas de codificação (programação) e testes automatizados/manuais de software.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente III". De acordo com a teoria estudada em *1.2 Atividades Genéricas de Processo de Software*, modelagem: Elaboração de arquitetura de software, diagramação de modelos conceituais, fluxos de dados e especificações detalhadas de design.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente I e II". De acordo com a teoria estudada em *1.2 Atividades Genéricas de Processo de Software*, implantação (Deployment): Disponibilização do software em ambiente operacional, homologação pelo usuário final, suporte técnico e coleta de feedback.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.4 Abordagens Híbridas de Desenvolvimento*, abordagem adaptativa/ágil na execução das iterações técnicas pelas equipes de desenvolvimento (com Sprints Scrum, gestão visual Kanban e testes contínuos).
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O conceito de ciclo de vida de projeto difere do conceito de ciclo de vida de produto, igualando-se esses...". De acordo com a teoria estudada em *1.2 Atividades Genéricas de Processo de Software*, independentemente do ciclo de vida adotado (preditivo, iterativo ou ágil), a literatura clássica de engenharia de software (Pressman e Sommerville) mapeia cinco atividades genéricas de processo.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V* deste guia, modelo Cascata (Royce, 1970): Caracteriza-se por uma progressão linear, estritamente sequencial entre as fases do ciclo de vida. Portanto, a assertiva examinada pela banca (CEBRASPE – TRT/10/2013) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
@@ -328,79 +310,79 @@ Cada um dos três artefatos do Scrum contém um **compromisso formal** associado
 ---
 
 ### Teste 005
-**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
-Relacione os tipos de Sprint do SCRUM com as definições dos seus objetivos. 1. Inspecionar o progresso em direção ao Sprint Goal e adaptar o Sprint Backlog conforme necessário, ajustando o próximo trabalho planejado, é um evento de até 15 minutos para os desenvolvedores. 2. Estabelecer o trabalho a ser executado no Sprint. O plano resultante é criado pelo trabalho colaborativo de todo o time. 3. Planejar maneiras de aumentar a qualidade e a eficácia. 4. Inspecionar o resultado do Sprint e determinar futuras adaptações. O time apresenta os resultados do seu trabalho para as principais partes interessadas, sendo discutido o progresso em direção ao Produto. ( ) Sprint de Planejamento ( ) Sprint de Retrospectiva ( ) Reunião Diária ( ) Sprint de Revisão Assinale a opção que indica a relação correta, na ordem apresentada.
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+Observe o seguinte texto: “’Há muita gente atrapalhando a vida do governador, inclusive o próprio governador’, costuma dizer um deputado muito conhecido. Trata-se de um comentário muito comum na Assembleia Legislativa”. A introdução utilizada nesse texto pode ser identificada como
 
-* **A)** 1 – 2 – 4 – 3.
-* **B)** 1 – 3 – 2 – 1.
-* **C)** 2 – 3 – 1 – 4.
-* **D)** 3 – 4 – 1 – 2.
-* **E)** 4 – 1 – 3 – 2.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 2 – 4 – 3". De acordo com a teoria estudada em *3.3 Eventos Formais do Scrum e Regras de Time-box*, sprint Planning: Define o plano de trabalho da Sprint abordando: 1) *Por que a Sprint é valiosa?* 2) *O que pode ser feito?* 3) *Como o trabalho será realizado?* — Máximo de 8 horas.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 3 – 2 – 1". De acordo com a teoria estudada em *3.5 Métricas e Gráficos de Acompanhamento (Burndown e Burnup)*, sprint Burndown Chart: Gráfico que exibe a quantidade de trabalho restante (geralmente em pontos de história ou horas) em relação ao tempo da Sprint. A inclinação da linha decrescente indica se a equipe concluirá as tarefas no prazo.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 3 – 1 – 4". De acordo com a teoria estudada em *3.2 Estrutura do Scrum Team e Responsabilidades*, responsável por maximizar o valor do produto resultante do trabalho do time.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.3 Eventos Formais do Scrum e Regras de Time-box* deste guia, daily Scrum: Evento de alinhamento diário exclusivo dos Desenvolvedores para inspecionar o progresso rumo à Meta da Sprint e adaptar o plano para as próximas 24h. — Exatamente 15 minutos (fixo, independentemente do tamanho da Sprint). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "3 – 4 – 1 – 2".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4 – 1 – 3 – 2". De acordo com a teoria estudada em *3.3 Eventos Formais do Scrum e Regras de Time-box*, sprint Retrospective: Planejamento de melhorias na eficácia do time (pessoas, processos, ferramentas e Definição de Pronto). — Máximo de 3 horas.
->
-> **Gabarito: D**
-
----
-
-### Teste 006
-**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
-Em relação às características do time Scrum, analise as afirmativas a seguir. I. O time Scrum é um pequeno grupo de pessoas em que o dono do produto é o superior hierárquico do Scrum Master e dos desenvolvedores. II. O Scrum Master é o responsável pela efetividade do time Scrum, permitindo que o time melhore suas práticas dentro do framework Scrum. III. Os desenvolvedores são as pessoas comprometidas a criar qualquer aspecto de um incremento utilizável em cada Sprint. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** II e III, apenas.
+* **A)** uma alusão histórica.
+* **B)** uma interrogação.
+* **C)** uma citação.
+* **D)** uma definição.
+* **E)** uma divisão de temas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.3 Eventos Formais do Scrum e Regras de Time-box*, a Sprint: Contêiner maior para todos os demais eventos. É o ciclo no qual o trabalho é executado para criar o incremento. — Até um (1) mês de duração fixa.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *3.2 Estrutura do Scrum Team e Responsabilidades*, no Guia 2020 NÃO existe mais o papel "Time de Desenvolvimento" (Development Team). Existe apenas o *Scrum Team*, formado por PO, Scrum Master e Desenvolvedores. Não há subtimes nem hierarquias internas!.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *3.2 Estrutura do Scrum Team e Responsabilidades*, responsável por maximizar o valor do produto resultante do trabalho do time.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3.1 Pilares do Empirismo e Valores Fundamentais*, o Scrum é um framework leve que ajuda pessoas, times e organizações a gerar valor por meio de soluções adaptativas para problemas complexos. Alicerça-se no Empirismo e no pensamento Lean.
-> - **E)** **Correta.** Conforme fundamentado na seção *3.2 Estrutura do Scrum Team e Responsabilidades* deste guia, pessoas do Scrum Team comprometidas em criar qualquer aspecto de um Incremento utilizável a cada Sprint. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "II e III, apenas".
->
-> **Gabarito: E**
-
----
-
-### Teste 007
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
-Uma equipe de desenvolvimento do Tribunal utiliza Scrum e está no meio de uma Sprint de duas semanas. O Diretor de TI solicita a inclusão imediata de uma funcionalidade crítica que não foi planejada. De acordo com o Guia Scrum, a conduta do Scrum Master deve ser
-
-* **A)** adicionar a tarefa à Sprint Backlog imediatamente para atender à diretoria.
-* **B)** interromper a Sprint atual e iniciar uma nova fase de planejamento.
-* **C)** orientar o Diretor a conversar com o Product Owner para priorizar o item no Product Backlog.
-* **D)** solicitar que os desenvolvedores façam horas extras para entregar o novo item.
-* **E)** cancelar a Daily Scrum para focar na nova funcionalidade.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "adicionar a tarefa à Sprint Backlog imediatamente para atender à diretoria". De acordo com a teoria estudada em *3.3 Eventos Formais do Scrum e Regras de Time-box*, sprint Review: Inspeção do Incremento produzido com os *stakeholders* para adaptar o Product Backlog com base no feedback real. — Máximo de 4 horas.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "interromper a Sprint atual e iniciar uma nova fase de planejamento". De acordo com a teoria estudada em *3.3 Eventos Formais do Scrum e Regras de Time-box*, uma Sprint nunca é prorrogada. Se os itens planejados não forem concluídos dentro do time-box, a Sprint encerra-se normalmente; os itens não finalizados voltam para o Product Backlog.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Eventos Formais do Scrum e Regras de Time-box* deste guia, uma Sprint só pode ser cancelada prematuramente pelo Product Owner, caso a Meta da Sprint (*Sprint Goal*) se torne obsoleta!. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "orientar o Diretor a conversar com o Product Owner para priorizar o item no Product Backlog".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "solicitar que os desenvolvedores façam horas extras para entregar o novo item". De acordo com a teoria estudada em *3.4 Artefatos Oficiais e seus Três Compromissos Formais*, o Incremento é um degrau concreto rumo à Meta do Produto. No momento em que um item do Product Backlog atende à Definição de Pronto, um novo Incremento nasce.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cancelar a Daily Scrum para focar na nova funcionalidade". De acordo com a teoria estudada em *3.2 Estrutura do Scrum Team e Responsabilidades*, única pessoa responsável pela gestão eficaz do Product Backlog (criação, ordenação, clareza e comunicação dos itens de backlog).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma alusão histórica". De acordo com a teoria estudada em *3.3 Eventos Formais do Scrum e Regras de Time-box*, uma Sprint só pode ser cancelada prematuramente pelo Product Owner, caso a Meta da Sprint (*Sprint Goal*) se torne obsoleta!.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma interrogação". De acordo com a teoria estudada em *3.1 Pilares do Empirismo e Valores Fundamentais*, *Transparência:* Processos e artefatos devem ser visíveis para todos os responsáveis pelos resultados.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Eventos Formais do Scrum e Regras de Time-box* deste guia, sprint Planning: Define o plano de trabalho da Sprint abordando: 1) *Por que a Sprint é valiosa?* 2) *O que pode ser feito?* 3) *Como o trabalho será realizado?* — Máximo de 8 horas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "uma citação".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma definição". De acordo com a teoria estudada em *3.2 Estrutura do Scrum Team e Responsabilidades*, adaptam o plano diariamente na Daily Scrum e responsabilizam-se pela qualidade aplicando a Definição de Pronto (*DoD*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma divisão de temas". De acordo com a teoria estudada em *3.1 Pilares do Empirismo e Valores Fundamentais*, *Inspeção:* O progresso rumo aos objetivos deve ser examinado com frequência diligente para identificar anomalias.
 >
 > **Gabarito: C**
 
 ---
 
+### Teste 006
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Mecânica)**
+A figura a seguir apresenta o diagrama de fases para o sistema ferro-carbeto de ferro. (Fonte: CALLISTER, W.D., Fundamentos da Ciência e Engenharia dos Materiais, 2ª ed., Ed. LTC) Para uma liga com composição 99,6%p Fe – 0,40%p C a uma temperatura imediatamente abaixo da eutetoide, as frações das fases ferrita total e cementita valem aproximadamente, nessa ordem:
+
+* **A)** 93,50% e 6,50%
+* **B)** 94,34% e 5,66%
+* **C)** 95,35% e 4,65%
+* **D)** 96,12% e 3,88%
+* **E)** 97,20% e 2,80%
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "93,50% e 6,50%". De acordo com a teoria estudada em *3.5 Métricas e Gráficos de Acompanhamento (Burndown e Burnup)*, burnup Chart: Gráfico com duas linhas: uma demonstrando o crescimento do escopo total ao longo do tempo e outra demonstrando o trabalho efetivamente concluído (*done*). Excelente para detectar expansão de escopo (*scope creep*).
+> - **B)** **Correta.** Conforme fundamentado na seção *5.1 Extreme Programming: Valores e Práticas de Engenharia* deste guia, *Refactor:* Limpar e aprimorar o código-fonte (eliminando duplicações), garantindo que todos os testes continuem passando. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "94,34% e 5,66%".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "95,35% e 4,65%". De acordo com a teoria estudada em *5.1 Extreme Programming: Valores e Práticas de Engenharia*, propriedade Coletiva do Código (*Collective Ownership*): Qualquer desenvolvedor do time tem liberdade e responsabilidade para alterar qualquer módulo do sistema para corrigir defeitos ou implementar melhorias.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "96,12% e 3,88%". De acordo com a teoria estudada em *4.2 Limites de Trabalho em Progresso (WIP) e Gargalos*, efeito Prático: Impede a sobrecarga da equipe, reduz o desperdício de troca de contexto (*context switching*) e torna imediatamente visíveis os gargalos de produção.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "97,20% e 2,80%". De acordo com a teoria estudada em *4.3 Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD*, diagrama de Fluxo Cumulativo (CFD - Cumulative Flow Diagram): Gráfico de áreas empilhadas que ilustra o número cumulativo de itens em cada fase do processo ao longo do tempo.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 007
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+Deve-se entender da leitura do segundo parágrafo que
+
+* **A)** os estudos que levam ao conceito de etnia opõem- se a fundamentos das ciências biológicas.
+* **B)** a palavra de etnia surgiu como uma espécie de alternativa semântica para veicular o conceito de _________________________________________________________ raça.
+* **C)** o conceito de gênero humano estabeleceu-se em função da invariância dos nossos fatores genéticos.
+* **D)** as descobertas científicas foram desconsideradas na formulação do conceito de etnia.
+* **E)** os fatores biológicos não têm relevância determinan- te para a fixação conceitual de etnia. _________________________________________________________
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os estudos que levam ao conceito de etnia opõem- se a fundamentos das ciências biológicas". De acordo com a teoria estudada em *3.1 Pilares do Empirismo e Valores Fundamentais*, *Inspeção:* O progresso rumo aos objetivos deve ser examinado com frequência diligente para identificar anomalias.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a palavra de etnia surgiu como uma espécie de alternativa semântica para veicular o conceito de...". De acordo com a teoria estudada em *3.1 Pilares do Empirismo e Valores Fundamentais*, o Scrum é um framework leve que ajuda pessoas, times e organizações a gerar valor por meio de soluções adaptativas para problemas complexos. Alicerça-se no Empirismo e no pensamento Lean.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o conceito de gênero humano estabeleceu-se em função da invariância dos nossos fatores genéticos". De acordo com a teoria estudada em *3.1 Pilares do Empirismo e Valores Fundamentais*, *Transparência:* Processos e artefatos devem ser visíveis para todos os responsáveis pelos resultados.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as descobertas científicas foram desconsideradas na formulação do conceito de etnia". De acordo com a teoria estudada em *3.1 Pilares do Empirismo e Valores Fundamentais*, *Adaptação:* Havendo desvios inaceitáveis, os ajustes operacionais devem ser implementados no menor tempo viável.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Escopo da Engenharia de Software e a Crise do Software* deste guia, fatores da Complexidade do Software (Frederick Brooks - *No Silver Bullet*): Brooks dividiu a complexidade em duas dimensões. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "os fatores biológicos não têm relevância determinan- te para a fixação conceitual de etnia...".
+>
+> **Gabarito: E**
+
+---
+
 ### Teste 008
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Seguranca da Informacao – 2023)**
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Seguranca Da Informacao)**
 A metodologia Scrum é um framework que apoia o desenvolvimento de soluções adaptativas para problemas complexos utilizando diversos artefatos. O artefato do Scrum composto pela Meta da Sprint (por que), o conjunto de itens do Product Backlog selecionados para a Sprint (o que), bem como um plano de ação para entregar o Incremento (como) é o:
 
 * **A)** kanban;
@@ -415,7 +397,7 @@ A metodologia Scrum é um framework que apoia o desenvolvimento de soluções ad
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "kanban". De acordo com a teoria estudada em *3.3 Eventos Formais do Scrum e Regras de Time-box*, sprint Review: Inspeção do Incremento produzido com os *stakeholders* para adaptar o Product Backlog com base no feedback real. — Máximo de 4 horas.
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "incremento". De acordo com a teoria estudada em *3.4 Artefatos Oficiais e seus Três Compromissos Formais*, o Incremento é um degrau concreto rumo à Meta do Produto. No momento em que um item do Product Backlog atende à Definição de Pronto, um novo Incremento nasce.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.4 Artefatos Oficiais e seus Três Compromissos Formais* deste guia, o Sprint Backlog é composto pela Meta da Sprint (o porquê), o conjunto de itens selecionados do Product Backlog (o quê) e o plano de ação detalhado (o como). A Meta da Sprint é o objetivo único acordado para a iteração, que não muda durante a sua execução. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "sprint backlog".
+> - **C)** **Correta.** Conforme fundamentado na seção *3.4 Artefatos Oficiais e seus Três Compromissos Formais* deste guia, o Sprint Backlog é composto pela Meta da Sprint (o porquê), o conjunto de itens selecionados do Product Backlog (o quê) e o plano de ação detalhado (o como). A Meta da Sprint é o objetivo único acordado para a iteração, que não muda durante a sua execução. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "sprint backlog".
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "product owner". De acordo com a teoria estudada em *3.3 Eventos Formais do Scrum e Regras de Time-box*, uma Sprint só pode ser cancelada prematuramente pelo Product Owner, caso a Meta da Sprint (*Sprint Goal*) se torne obsoleta!.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "meta do produto". De acordo com a teoria estudada em *3.4 Artefatos Oficiais e seus Três Compromissos Formais*, o Product Backlog é a lista ordenada e emergente de tudo o que é necessário para melhorar o produto. A Meta do Produto descreve o estado futuro que serve como alvo de longo prazo para o Scrum Team.
 >
@@ -454,7 +436,25 @@ O Kanban opera como um **sistema puxado (*pull system*)**:
 ---
 
 ### Teste 009
-**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+As métricas de software podem ser classificadas em medidas diretas ou quantitativas e medidas indiretas ou qualitativas.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *4.3 Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD* deste guia, lead Time: É o tempo total decorrido entre a solicitação inicial da demanda pelo cliente (registro no backlog) até a sua efetiva entrega em ambiente de produção. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRT/10/2013) ao afirmar que "As métricas de software podem ser classificadas em medidas diretas ou quantitativas e medidas indiretas ou...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *4.3 Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD*, segundo a qual cycle Time: É o tempo em que a equipe técnica esteve ativamente trabalhando no desenvolvimento do item (desde que o cartão foi puxado para a primeira coluna de execução até a conclusão da tarefa).
+>
+> **Gabarito: C**
+
+---
+
+### Teste 010
+**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
 Considerando a aplicação de metodologias ágeis a projetos de desenvolvimento de software, analise as seguintes afirmativas: I. Mais do que software em funcionamento, documentação abrangente é um dos valores propostos pelo manifesto ágil. II. A limitação do número de tarefas em execução, conhecida como WIP (Work In Progress), favorece um ritmo sustentável para a equipe de desenvolvimento sem impedir o fluxo de trabalho. III. O tempo transcorrido desde o momento em que uma tarefa entra em um quadro Kanban até ser finalizada é conhecido como lead time. Está correto o que se afirma em
 
 * **A)** I, apenas.
@@ -471,33 +471,9 @@ Considerando a aplicação de metodologias ágeis a projetos de desenvolvimento 
 > - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *2.3 Abordagem Adaptativa / Ágil: O Manifesto Ágil de 2001*, software em funcionamento: Documentação abrangente.
 > - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *4.3 Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD*, diagrama de Fluxo Cumulativo (CFD - Cumulative Flow Diagram): Gráfico de áreas empilhadas que ilustra o número cumulativo de itens em cada fase do processo ao longo do tempo.
 > - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *4.3 Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD*, throughput (Vazão): Quantidade de itens entregues e concluídos por unidade de tempo (ex.: 12 tarefas por semana).
-> - **E)** **Correta.** Conforme fundamentado na seção *4.3 Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD* deste guia, cycle Time: É o tempo em que a equipe técnica esteve ativamente trabalhando no desenvolvimento do item (desde que o cartão foi puxado para a primeira coluna de execução até a conclusão da tarefa). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "II e III, apenas".
+> - **E)** **Correta.** Conforme fundamentado na seção *4.3 Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD* deste guia, cycle Time: É o tempo em que a equipe técnica esteve ativamente trabalhando no desenvolvimento do item (desde que o cartão foi puxado para a primeira coluna de execução até a conclusão da tarefa). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "II e III, apenas".
 >
 > **Gabarito: E**
-
----
-
-### Teste 010
-**(FGV – TJ-MT – Analista Judiciario Tecnologia da Informacao – 2024)**
-No método Kanban, uma das práticas centrais ajuda a identificar gargalos e promover a eficiência ao limitar a quantidade de trabalho em progresso. O texto acima se refere à seguinte prática do Kanban:
-
-* **A)** dividir o trabalho em iterações fixas.
-* **B)** estabelecer metas rígidas de entrega.
-* **C)** realizar reuniões diárias de acompanhamento.
-* **D)** aumentar o número de colunas no quadro Kanban.
-* **E)** limitar o WIP (Work in Progress).
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dividir o trabalho em iterações fixas". De acordo com a teoria estudada em *3.5 Métricas e Gráficos de Acompanhamento (Burndown e Burnup)*, burnup Chart: Gráfico com duas linhas: uma demonstrando o crescimento do escopo total ao longo do tempo e outra demonstrando o trabalho efetivamente concluído (*done*). Excelente para detectar expansão de escopo (*scope creep*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estabelecer metas rígidas de entrega". De acordo com a teoria estudada em *4.3 Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD*, lead Time: É o tempo total decorrido entre a solicitação inicial da demanda pelo cliente (registro no backlog) até a sua efetiva entrega em ambiente de produção.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.5 Métricas e Gráficos de Acompanhamento (Burndown e Burnup)* deste guia, sprint Burndown Chart: Gráfico que exibe a quantidade de trabalho restante (geralmente em pontos de história ou horas) em relação ao tempo da Sprint. A inclinação da linha decrescente indica se a equipe concluirá as tarefas no prazo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-MT/2024) ao estabelecer que "realizar reuniões diárias de acompanhamento".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aumentar o número de colunas no quadro Kanban". De acordo com a teoria estudada em *4.1 Princípios e Práticas Gerais do Kanban*, *Visualizar o fluxo de trabalho* (quadro Kanban com colunas de status).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "limitar o WIP (Work in Progress)". De acordo com a teoria estudada em *4.2 Limites de Trabalho em Progresso (WIP) e Gargalos*, limite de WIP (Work In Progress): Cada coluna do quadro possui um teto máximo de itens permitidos simultaneamente (ex.: a coluna "Testes" com WIP = 3).
->
-> **Gabarito: C**
 
 ---
 
@@ -537,26 +513,26 @@ Adaptado do Sistema Toyota de Produção por Mary e Tom Poppendieck, o desenvolv
 ---
 
 ### Teste 011
-**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
-Flávio pretende desenvolver um software seguindo os estágios do modelo em cascata proposto por Sommerville, em razão de ponderações que faz em relação a outros modelos quanto à solução de um problema que se apresenta. Desta forma ele definiu em seu cronograma, na ordem apresentada pelo autor, as seguintes etapas do ciclo de vida de software:
+**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+De acordo com a ITIL v3, atualizada em 2011, o Catálogo de Serviços é
 
-* **A)** Projeto de sistema e software; Definição de requisitos; Implementação e teste de unidade; Integração e teste de sistema; Operação e manutenção.
-* **B)** Projeto de sistema e software; Engenharia de software; Integração e teste de sistema; Análise de requisitos funcionais e técnicos; Operação e manutenção; Implementação e teste de unidade.
-* **C)** Projeto de sistema e software; Análise de requisitos; Engenharia de requisitos; Implantação; Testes de sistemas; Operação e manutenção.
-* **D)** Definição de requisitos; Engenharia de requisitos; Integração e teste de sistema; Projeto de sistema e software; Implementação e teste de unidade; Operação e manutenção; Integração e teste de sistema.
-* **E)** Definição de requisitos; Projeto de sistema e software; Implementação e teste de unidade; Integração e teste de sistema; Operação e manutenção.
+* **A)** parte do Portfólio de Serviço e contém informações sobre serviços de TI: 1. voltados para o cliente, que são visíveis para o negócio e 2. de suporte, requeridos pelo provedor de serviço para entregar serviços voltados para o cliente.
+* **B)** estruturado por um banco de dados com informações sobre todos os serviços de TI já implantados, em produção e obsoletos, sem incluir serviços disponíveis para implantação.
+* **C)** o responsável por fornecer e manter o Portfólio de Serviços e por garantir que esteja disponível àqueles autorizados.
+* **D)** um documento que contém detalhes de um serviço novo ou modificado recentemente.
+* **E)** usado para gerenciar o ciclo de vida completo de todos os serviços de TI, incluindo duas categorias: 1. Funil de Serviço (proposto ou em desenvolvimento) e 2. Portfólio de Serviço (em produção ou disponível para implantação).
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Projeto de sistema e software; Definição de requisitos; Implementação e teste de unidade; Integração e teste de...". De acordo com a teoria estudada em *2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V*, *Desvantagens:* Inflexibilidade severa para absorver mudanças; o software só ganha forma executável nas fases finais do projeto, postergando a percepção de valor e a identificação de defeitos críticos para o encerramento do cronograma.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Projeto de sistema e software; Engenharia de software; Integração e teste de sistema; Análise de requisitos...". De acordo com a teoria estudada em *1.2 Atividades Genéricas de Processo de Software*, planejamento: Estimativas de esforço, alocação de recursos, definição de entregáveis, cronograma e análise de riscos.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Projeto de sistema e software; Análise de requisitos; Engenharia de requisitos; Implantação; Testes de sistemas...". De acordo com a teoria estudada em *2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V*, requisitos de Sistema \$\longleftrightarrow\$ Testes de Sistema.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Definição de requisitos; Engenharia de requisitos; Integração e teste de sistema; Projeto de sistema e software...". De acordo com a teoria estudada em *1.2 Atividades Genéricas de Processo de Software*, independentemente do ciclo de vida adotado (preditivo, iterativo ou ágil), a literatura clássica de engenharia de software (Pressman e Sommerville) mapeia cinco atividades genéricas de processo.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Escopo da Engenharia de Software e a Crise do Software* deste guia, a Engenharia de Software é a disciplina de engenharia dedicada ao estabelecimento e uso de sólidos princípios e métodos sistemáticos, disciplinados e quantificáveis para o desenvolvimento, operação e manutenção de software de alta qualidade dentro de custos e prazos previsíveis. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "Definição de requisitos; Projeto de sistema e software; Implementação e teste de unidade; Integração e teste de...".
+> - **A)** **Correta.** Conforme fundamentado na seção *5.1 Extreme Programming: Valores e Práticas de Engenharia* deste guia, design Simples: O código atende a todos os testes, expressa com clareza a intenção, não possui duplicações (DRY - *Don't Repeat Yourself*) e contém o menor número possível de classes e métodos (YAGNI - *You Aren't Gonna Need It*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "parte do Portfólio de Serviço e contém informações sobre serviços de TI: 1. voltados para o cliente, que são...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estruturado por um banco de dados com informações sobre todos os serviços de TI já implantados, em produção e...". De acordo com a teoria estudada em *1.2 Atividades Genéricas de Processo de Software*, implantação (Deployment): Disponibilização do software em ambiente operacional, homologação pelo usuário final, suporte técnico e coleta de feedback.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o responsável por fornecer e manter o Portfólio de Serviços e por garantir que esteja disponível àqueles...". De acordo com a teoria estudada em *5.2 Lean Software Development e Eliminação dos 7 Desperdícios*, princípios Fundamentais do Lean: Eliminar desperdícios; Amplificar o aprendizado; Decidir o mais tarde possível (manter opções em aberto); Entregar o mais rápido possível; Empoderar o time; Construir integridade intrínseca; e Enxergar o todo (*See the whole*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um documento que contém detalhes de um serviço novo ou modificado recentemente". De acordo com a teoria estudada em *3.4 Artefatos Oficiais e seus Três Compromissos Formais*, o Incremento é um degrau concreto rumo à Meta do Produto. No momento em que um item do Product Backlog atende à Definição de Pronto, um novo Incremento nasce.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "usado para gerenciar o ciclo de vida completo de todos os serviços de TI, incluindo duas categorias: 1. Funil de...". De acordo com a teoria estudada em *1.2 Atividades Genéricas de Processo de Software*, independentemente do ciclo de vida adotado (preditivo, iterativo ou ágil), a literatura clássica de engenharia de software (Pressman e Sommerville) mapeia cinco atividades genéricas de processo.
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
 ---
 

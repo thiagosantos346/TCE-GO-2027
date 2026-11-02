@@ -88,26 +88,26 @@ Essa propriedade é a base algébrica definitiva para solucionar repartições o
 ---
 
 ### Teste 082
-**(FCC – TRT-2 – Analista Judiciario Tecnologia da Informacao – 2014)**
-O número A é composto por 2000 algarismos, todos eles iguais a 1, e o número B é composto por 1000 algarismos, todos eles iguais a 3. Se o número C é igual à soma dos números A e B, então a soma de todos os algarismos que compõem C é igual a
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+A figura a seguir mostra 5 círculos cuja união é formada por 10 regiões disjuntas. Cada região possui um número e a figura mostra os números de três regiões vizinhas. Sabe-se que: • a soma dos três números contidos em cada círculo é 20; • os números das outras sete regiões são: 3, 4, 5, 6, 8, 9, 11, sendo um número em cada região. O número 𝑥 da figura acima é
 
-* **A)** 5000.
-* **B)** 4444.
-* **C)** 4000.
-* **D)** 3333.
-* **E)** 3000.
+* **A)** 2.
+* **B)** 3.
+* **C)** 4.
+* **D)** 6.
+* **E)** 11.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade* deste guia, em uma série de razões iguais, a soma dos antecedentes dividida pela soma dos consequentes é igual a qualquer uma das razões primitivas, correspondendo à constante de proporcionalidade \$k\$. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-2/2014) ao estabelecer que "5000".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4444". De acordo com a teoria estudada em *1.1 Conceito de Razão e Grandezas Comensuráveis*, razão: Dados dois números reais \$a\$ e \$b\$ (com \$b \neq 0\$), a razão entre \$a\$ e \$b\$ (nesta ordem) é o quociente indicado pela divisão.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4000". De acordo com a teoria estudada em *A Propriedade Fundamental das Proporções:*, em qualquer proporção válida, o produto dos extremos é rigorosamente igual ao produto dos meios.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3333". De acordo com a teoria estudada em *1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade*, \$\$\frac{a}{b} = \frac{c}{d} = \frac{e}{f} = k \implies \frac{a + c + e}{b + d + f} = k\$\$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3000". De acordo com a teoria estudada em *1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade*, essa propriedade é a base algébrica definitiva para solucionar repartições orçamentárias e partilhas de bens em auditoria sem necessidade de recorrer a sistemas lineares extensos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2". De acordo com a teoria estudada em *1.1 Conceito de Razão e Grandezas Comensuráveis*, razão: Dados dois números reais $a$ e $b$ (com $b \neq 0$), a razão entre $a$ e $b$ (nesta ordem) é o quociente indicado pela divisão.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3". De acordo com a teoria estudada em *1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade*, em uma série de razões iguais, a soma dos antecedentes dividida pela soma dos consequentes é igual a qualquer uma das razões primitivas, correspondendo à constante de proporcionalidade $k$.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4". De acordo com a teoria estudada em *1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade*, $$\frac{a}{b} = \frac{c}{d} = \frac{e}{f} = k \implies \frac{a + c + e}{b + d + f} = k$$.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta* deste guia, o erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "6".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "11". De acordo com a teoria estudada em *1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade*, essa propriedade é a base algébrica definitiva para solucionar repartições orçamentárias e partilhas de bens em auditoria sem necessidade de recorrer a sistemas lineares extensos.
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
@@ -151,74 +151,74 @@ Reduzem-se as frações resultantes a termos inteiros via MMC e aplica-se o mét
 ---
 
 ### Teste 083
-**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
-Em 2014, para proceder à fusão de suas empresas, os proprietários Antonio, Beto e Carlos decidiram que as partes de cada um, na nova sociedade, deveriam ser proporcionais ao faturamentos de suas empresas no ano de 2013, que foram, respectivamente, de R$ 150.000,00; R$ 150.000,00 e R$ 200.000,00. No final do ano de 2015, entretanto, o sócio Beto estimou que as operações baseadas na estrutura trazida por sua antiga empresa estariam sendo responsáveis por cerca de 65% do faturamento da nova empresa. Assim, pleiteou que sua parte no negócio passasse a 65% e que os 35% restantes fossem divididos proporcionalmente entre os outros dois, de acordo com o faturamento das empresas de Antonio e Carlos em 2013 (ou seja, de acordo com a fração que Antonio e Carlos tinham do faturamento total de suas duas empresas em 2013). A aceitação da proposta de Beto implicaria que a participação percentual de Carlos no negócio diminuísse de
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+Um terreno de 1280 m2 foi dividido em 3 partes, proporcionais aos números: 2, 5/2 e 7/2. A área da maior parte, em m2, é
 
-* **A)** 40% para 20%.
-* **B)** 40% para 15%.
-* **C)** 30% para 10%.
-* **D)** 30% para 20%
-* **E)** 35% para 15%.
+* **A)** 400.
+* **B)** 440.
+* **C)** 480.
+* **D)** 520.
+* **E)** 560.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *2. Divisão em Partes Proporcionais* deste guia, a partilha proporcional consiste em distribuir uma quantia total \$V\$ entre vários beneficiários ou centros de custo em conformidade com critérios predeterminados de mérito, produtividade ou penalidade. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "40% para 20%".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "40% para 15%". De acordo com a teoria estudada em *2.1 Divisão Diretamente Proporcional com a Constante k*, repartir um total \$V\$ em partes \$x, y, z\$ diretamente proporcionais aos pesos \$a, b, c\$.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "30% para 10%". De acordo com a teoria estudada em *2.2 Divisão Inversamente Proporcional e o Método do MMC*, repartir um montante \$V\$ em partes \$x, y, z\$ inversamente proporcionais aos coeficientes \$a, b, c\$ significa repartir diretamente aos seus inversos \$\frac{1}{a}, \frac{1}{b}, \frac{1}{c}\$.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "30% para 20%". De acordo com a teoria estudada em *4.3 Inversão da Base de Referência Percentual*, \$\$\text{Taxa de Redução} = \frac{\text{Diferença}}{\text{Nova Base}} = \frac{125 - 100}{125} = \frac{25}{125} = \frac{1}{5} = 0{,}20 = \mathbf{20\%}\$\$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "35% para 15%". De acordo com a teoria estudada em *1. Razões, Proporções e Propriedades Fundamentais*, o estudo das grandezas proporcionais é um dos temas de maior peso quantitativo nas provas da Fundação Carlos Chagas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "400". De acordo com a teoria estudada em *2.1 Divisão Diretamente Proporcional com a Constante k*, repartir um total $V$ em partes $x, y, z$ diretamente proporcionais aos pesos $a, b, c$.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "440". De acordo com a teoria estudada em *2.2 Divisão Inversamente Proporcional e o Método do MMC*, repartir um montante $V$ em partes $x, y, z$ inversamente proporcionais aos coeficientes $a, b, c$ significa repartir diretamente aos seus inversos $\frac{1}{a}, \frac{1}{b}, \frac{1}{c}$.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "480". De acordo com a teoria estudada em *2.1 Divisão Diretamente Proporcional com a Constante k*, cada parte individual é calculada multiplicando $k$ pelo peso do beneficiário.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "520". De acordo com a teoria estudada em *O Método Rápido do MMC:*, se a partilha for inversamente proporcional a apenas dois números $a$ e $b$, basta inverter diretamente as posições dos pesos: $x = b \cdot k$ e $y = a \cdot k$. Dividir inversamente a 2 e 3 equivale a dividir diretamente a 3 e 2.
+> - **E)** **Correta.** Conforme fundamentado na seção *2. Divisão em Partes Proporcionais* deste guia, a partilha proporcional consiste em distribuir uma quantia total $V$ entre vários beneficiários ou centros de custo em conformidade com critérios predeterminados de mérito, produtividade ou penalidade. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "560".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 084
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Contabilidade – 2024)**
-Em 01/12/2023, uma escola estadual recebeu uma doação de 100.000 pesos, em dinheiro, de entidades argentinas. Na data da doação, um peso argentino era cotado a 0,01352 Reais. Já em 31/12/2023, a cotação de um peso argentino era de R$0,006014. Além disso, sabe-se que em dezembro de 2023, a pior taxa cambial para o peso foi de R$0,005979, enquanto a melhor taxa foi de R$0,01364. Além disso, a taxa cambial média, em dezembro, foi de R$0,008921. No mês de dezembro, não houve movimentação no dinheiro doado. Assinale a opção que indica o valor contabilizado, referente à doação, no balanço patrimonial da escola, em 31/12/2023:
+**(FCC – TRT 1ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Em relação a dispositivos de memória e armazenamento presentes em um computador típico, dispositivos caracterizados como memória principal são, APENAS,
 
-* **A)** R$597,90.
-* **B)** R$601,40.
-* **C)** R$892,10.
-* **D)** R$1.352,00.
-* **E)** R$1.364,00.
+* **A)** consomem mais energia do que os HDs.
+* **B)** possuem custo inferior ao dos HDs.
+* **C)** não possuem partes mecânicas como os HDs.
+* **D)** possuem tempo de acesso equivalente ao tempo de acesso dos HDs.
+* **E)** utilizam memória RAM.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$597,90". De acordo com a teoria estudada em *4. Porcentagem, Fatores Multiplicadores e Variações*, \$\$p\% = \frac{p}{100} = i \quad (\text{taxa unitária ou decimal})\$\$.
-> - **B)** **Correta.** Conforme fundamentado na seção *4.3 Inversão da Base de Referência Percentual* deste guia, a base de referência percentual corresponde ao valor que ocupa o denominador da razão comparativa (\$\text{Base} = 100\%\$). Ao inverter o ponto de vista da comparação, a base numérica altera-se, mudando compulsoriamente a taxa percentual. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "R$601,40".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$892,10". De acordo com a teoria estudada em *4.3 Inversão da Base de Referência Percentual*, \$\$\text{Taxa de Redução} = \frac{\text{Diferença}}{\text{Nova Base}} = \frac{125 - 100}{125} = \frac{25}{125} = \frac{1}{5} = 0{,}20 = \mathbf{20\%}\$\$.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$1.352,00". De acordo com a teoria estudada em *2.1 Divisão Diretamente Proporcional com a Constante k*, define-se cada cota multiplicando o peso respectivo pela constante \$k\$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$1.364,00". De acordo com a teoria estudada em *2.1 Divisão Diretamente Proporcional com a Constante k*, cada parte individual é calculada multiplicando \$k\$ pelo peso do beneficiário.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consomem mais energia do que os HDs". De acordo com a teoria estudada em *1.2 Proporções e a Propriedade Fundamental*, uma proporção é formalmente definida como a igualdade matemática entre duas ou mais razões equivalentes.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "possuem custo inferior ao dos HDs". De acordo com a teoria estudada em *2. Divisão em Partes Proporcionais*, a partilha proporcional consiste em distribuir uma quantia total $V$ entre vários beneficiários ou centros de custo em conformidade com critérios predeterminados de mérito, produtividade ou penalidade.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não possuem partes mecânicas como os HDs". De acordo com a teoria estudada em *1.1 Conceito de Razão e Grandezas Comensuráveis*, quando as grandezas possuem a mesma unidade de medida (ex.: metros por metros, reais por reais), a razão é uma grandeza adimensional pura.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "possuem tempo de acesso equivalente ao tempo de acesso dos HDs". De acordo com a teoria estudada em *2.3 Divisão Proporcional Composta ou Mista*, ocorre quando a partilha obedece simultaneamente a critérios diretos (como tempo de casa, horas trabalhadas) e inversos (como número de faltas, processos pendentes, dias de atraso).
+> - **E)** **Correta.** Conforme fundamentado na seção *O Método Rápido do MMC:* deste guia, despreza-se o denominador comum e utilizam-se os novos numeradores inteiros como os pesos diretos para a constante $k$. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 1ª/2014) ao estabelecer que "utilizam memória RAM".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
 ### Teste 085
-**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
-(E) 13. Um bônus de R$ 47.600,00 foi distribuído, a três funcionários de uma empresa, em partes diretamente proporcionais às respectivas idades. Sabendo que as idades são 23, 35 e 54 anos, a diferença, em reais, entre o valor daquele que recebeu mais e o valor daquele que recebeu menos, é
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
+Em 31/12/2022, uma sociedade empresária apresentava os seguintes saldos em seu balanço patrimonial:  Disponibilidades: R$100.000,00.  Patrimônio Líquido: R$100.000,00. Em 01/01/2023, essa sociedade empresária pagou, antecipadamente, o aluguel de três anos de seu escritório. A sociedade empresária utilizava, internamente, o regime de caixa. Em 2024, ela decidiu utilizar o regime de competência, apenas. Ao reapresentar o balanço patrimonial corrigido de 31/12/2023, assinale a opção que indica um impacto que pode ser observado pela mudança de regime.
 
-* **A)** 13175
-* **B)** 9850
-* **C)** 16650
-* **D)** 8925
-* **E)** 12745
+* **A)** Aumento do ativo e do passivo.
+* **B)** Diminuição do ativo e do passivo.
+* **C)** Aumento do ativo e do patrimônio líquido.
+* **D)** Diminuição do passivo e aumento no patrimônio líquido.
+* **E)** Aumento do passivo e diminuição no patrimônio líquido.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "13175". De acordo com a teoria estudada em *2.1 Divisão Diretamente Proporcional com a Constante k*, repartir um total \$V\$ em partes \$x, y, z\$ diretamente proporcionais aos pesos \$a, b, c\$.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta* deste guia, o erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "9850".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "16650". De acordo com a teoria estudada em *2.2 Divisão Inversamente Proporcional e o Método do MMC*, repartir um montante \$V\$ em partes \$x, y, z\$ inversamente proporcionais aos coeficientes \$a, b, c\$ significa repartir diretamente aos seus inversos \$\frac{1}{a}, \frac{1}{b}, \frac{1}{c}\$.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "8925". De acordo com a teoria estudada em *3. Classificação de Grandezas e Regra de Três Simples*, a regra de três simples é o método algébrico que permite descobrir um quarto valor desconhecido a partir de três valores conhecidos de duas grandezas proporcionais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "12745". De acordo com a teoria estudada em *2.1 Divisão Diretamente Proporcional com a Constante k*, como a soma das partes totaliza o montante global \$V\$.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aumento do ativo e do passivo". De acordo com a teoria estudada em *4.1 Conceito e Fatores de Aumento e Desconto*, $$F = 1 + i \qquad \text{Exemplo: aumento de } 15\% \implies F = 1 + 0{,}15 = 1{,}15$$.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diminuição do ativo e do passivo". De acordo com a teoria estudada em *4.1 Conceito e Fatores de Aumento e Desconto*, $$V_{\text{final}} = V_0 \times 1{,}15$$.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.1 Conceito e Fatores de Aumento e Desconto* deste guia, qualquer acréscimo ou dedução percentual pode ser calculado de modo instantâneo multiplicando o valor primitivo ($V_0$) pelo seu respectivo Fator Multiplicador ($F$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "Aumento do ativo e do patrimônio líquido".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diminuição do passivo e aumento no patrimônio líquido". De acordo com a teoria estudada em *4.1 Conceito e Fatores de Aumento e Desconto*, $$F = 1 - i \qquad \text{Exemplo: desconto de } 10\% \implies F = 1 - 0{,}10 = 0{,}90$$.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aumento do passivo e diminuição no patrimônio líquido". De acordo com a teoria estudada em *4.1 Conceito e Fatores de Aumento e Desconto*, $$V_{\text{final}} = V_0 \times 0{,}90$$.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -256,48 +256,48 @@ Para não errar na prova:
 ---
 
 ### Teste 086
-**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Marlene, Jair, Renata, Alexandre e Patrícia fizeram uma prova de um concurso obtendo cinco pontuações diferentes. Sabe-se ainda que, nessa prova: − Marlene obteve mais pontos do que Alexandre, mas menos pontos do que Patrícia; − Jair obteve mais pontos do que Renata, que por sua vez obteve mais pontos do que Marlene. Sendo assim, é necessariamente correto que
+**(FCC – TRT 24ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+Uma sequência pode ser criada com a seguinte regra: escolhe-se um número natural maior que 100, para ser o primeiro termo dessa sequência. Se o termo da sequência é um número natural PAR, o termo seguinte deverá ser a metade desse número PAR; se o termo da sequência for um número natural ÍMPAR, deve-se somar 13 a esse número ÍMPAR e em seguida calcular a metade dessa soma para obter o termo seguinte. Segue um exemplo: se um termo da sequência é o número 137, que é ÍMPAR, o termo seguinte será 75, que é a metade da soma entre 137 e 13. O 8o termo de uma sequência, criada com essa regra e com termo inicial igual a 4855, é
 
-* **A)** Alexandre foi o que obteve menos pontos.
-* **B)** Patrícia foi a que obteve mais pontos.
-* **C)** Marlene obteve mais pontos do que Renata.
-* **D)** Jair obteve menos pontos do que Patrícia.
-* **E)** Renata obteve menos pontos do que Patrícia.
+* **A)** 49
+* **B)** 93
+* **C)** 35
+* **D)** 75
+* **E)** 118
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta* deste guia, o erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "Alexandre foi o que obteve menos pontos".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Patrícia foi a que obteve mais pontos". De acordo com a teoria estudada em *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta*, como serão necessários menos dias, a relação é inversamente proporcional e a multiplicação deve ser feita obrigatoriamente em linha reta (\$6 \times 8 = 8 \times D \implies D = 6\$).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Marlene obteve mais pontos do que Renata". De acordo com a teoria estudada em *1.2 Proporções e a Propriedade Fundamental*, uma proporção é formalmente definida como a igualdade matemática entre duas ou mais razões equivalentes.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Jair obteve menos pontos do que Patrícia". De acordo com a teoria estudada em *4.4 Diferença entre Pontos Percentuais e Variação Percentual*, pontos Percentuais (p.p.): É a diferença aritmética simples entre duas taxas percentuais (ex.: uma taxa que sobe de \$10\%\$ para \$12\%\$ aumentou \$2\$ pontos percentuais).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Renata obteve menos pontos do que Patrícia". De acordo com a teoria estudada em *4.4 Diferença entre Pontos Percentuais e Variação Percentual*, variação Percentual Relativa (\$\Delta\%\$): É a magnitude do crescimento em relação à taxa original de partida.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "49". De acordo com a teoria estudada em *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta*, o erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "93". De acordo com a teoria estudada em *1.1 Conceito de Razão e Grandezas Comensuráveis*, o primeiro termo $a$ denomina-se antecedente e o segundo termo $b$ é o consequente.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "35". De acordo com a teoria estudada em *4.1 Conceito e Fatores de Aumento e Desconto*, qualquer acréscimo ou dedução percentual pode ser calculado de modo instantâneo multiplicando o valor primitivo ($V_0$) pelo seu respectivo Fator Multiplicador ($F$).
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta* deste guia, como serão necessários menos dias, a relação é inversamente proporcional e a multiplicação deve ser feita obrigatoriamente em linha reta ($6 \times 8 = 8 \times D \implies D = 6$). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 24ª/2017) ao estabelecer que "75".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "118". De acordo com a teoria estudada em *4. Porcentagem, Fatores Multiplicadores e Variações*, a porcentagem (ou percentagem) é uma razão cujo consequente (denominador) é igual a 100.
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
 ### Teste 087
-**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
-Anjos Tronchos (Caetano Veloso) Uns anjos tronchos do Vale do Silício Desses que vivem no escuro em plena luz Disseram: Vai ser virtuoso no vício Das telas dos azuis mais do que azuis Agora a minha história é um denso algoritmo Que vende venda a vendedores reais Neurônios meus ganharam novo outro ritmo E mais, e mais, e mais, e mais, e mais Primavera árabe E logo o horror Querer que o mundo acabe-se Sombras do amor Palhaços líderes brotaram macabros No império e nos seus vastos quintais Ao que revêm impérios já milenares Munidos de controles totais Anjos já mi, ou bi, ou trilionários Comandam só seus mi, bi, trilhões E nós, quando não somos otários Ouvimos Schoenberg, Webern, Cage, canções Ah, morena bela Estás aqui Sem pele, tela a tela Estamos aí Um post vil poderá matar Que é que pode ser salvação? Que nuvem, se nem espaço há? Nem tempo, nem sim, nem não Sim, nem não Mas há poemas como jamais Ou como algum poeta sonhou Nos tempos em que havia tempos atrás E eu vou, por que não? Eu vou, por que não? Eu vou Uns anjos tronchos do Vale do Silício Tocaram fundo o minimíssimo grão E enquanto nós nos perguntamos do início Miss Eilish faz tudo do quarto com o irmão. As afirmativas a seguir, acerca de referências que a letra da música faz, estão corretas, à exceção de uma. Assinale-a.
+**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
+O analista Raimundo sabe que a indução de árvores de decisão é uma das formas mais simples, e ainda assim mais bem sucedidas, de aprendizagem de máquina. No entanto, ao aplicá-la em alguns problemas da empresa em que atua, o algoritmo de aprendizagem-em-árvore-de-decisão gera uma grande árvore quando realmente não há padrão a ser encontrado nos dados. O nome do problema encontrado por Raimundo é
 
-* **A)** “Vale do Silício”, na Califórnia, EUA, é uma das maiores aglomerações de empresas com domínio de tecnologia de ponta do mundo.
-* **B)** “Primavera Árabe” é uma expressão criada para designar a onda de protestos que marcou os países árabes a partir do final do ano de 2010.
-* **C)** “Schoenberg, Webern, Cage” foram compositores eruditos com obra marcante no século XIX.
-* **D)** “E eu vou, por que não? Eu vou, por que não? Eu vou” cita versos do próprio Caetano em Alegria, Alegria.
-* **E)** “Miss Eilish” refere-se a Billie Eilish, jovem compositora e cantora, já ganhadora de Oscar e outros prêmios importantes, que compôs seu álbum de estreia no quarto do irmão, Finneas.
+* **A)** suposição de estacionaridade.
+* **B)** poda de árvore de decisão.
+* **C)** superadaptação.
+* **D)** hipótese nula.
+* **E)** hiperárvore.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Vale do Silício”, na Califórnia, EUA, é uma das maiores aglomerações de empresas com domínio de tecnologia de...". De acordo com a teoria estudada em *1. Razões, Proporções e Propriedades Fundamentais*, seu domínio instrumentaliza a análise de contratos públicos, distribuição orçamentária, cálculo de auditorias e reajustes econômico-financeiros.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Primavera Árabe” é uma expressão criada para designar a onda de protestos que marcou os países árabes a partir do...". De acordo com a teoria estudada em *3. Classificação de Grandezas e Regra de Três Simples*, a regra de três simples é o método algébrico que permite descobrir um quarto valor desconhecido a partir de três valores conhecidos de duas grandezas proporcionais.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta* deste guia, o erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "“Schoenberg, Webern, Cage” foram compositores eruditos com obra marcante no século XIX".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“E eu vou, por que não? Eu vou, por que não? Eu vou” cita versos do próprio Caetano em Alegria, Alegria". De acordo com a teoria estudada em *4.1 Conceito e Fatores de Aumento e Desconto*, qualquer acréscimo ou dedução percentual pode ser calculado de modo instantâneo multiplicando o valor primitivo (\$V_0\$) pelo seu respectivo Fator Multiplicador (\$F\$).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Miss Eilish” refere-se a Billie Eilish, jovem compositora e cantora, já ganhadora de Oscar e outros prêmios...". De acordo com a teoria estudada em *4.2 Aumentos e Descontos Sucessivos Cumulativos*, aumentos e descontos sucessivos incidem sempre em cascata sobre o valor recém-atualizado, e nunca sobre o valor original primitivo. Por esse motivo, taxas percentuais sucessivas jamais podem ser somadas ou subtraídas aritmeticamente.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "suposição de estacionaridade". De acordo com a teoria estudada em *3. Classificação de Grandezas e Regra de Três Simples*, a regra de três simples é o método algébrico que permite descobrir um quarto valor desconhecido a partir de três valores conhecidos de duas grandezas proporcionais.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "poda de árvore de decisão". De acordo com a teoria estudada em *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta*, como serão necessários menos dias, a relação é inversamente proporcional e a multiplicação deve ser feita obrigatoriamente em linha reta ($6 \times 8 = 8 \times D \implies D = 6$).
+> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta* deste guia, o erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "superadaptação".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "hipótese nula". De acordo com a teoria estudada em *1.1 Conceito de Razão e Grandezas Comensuráveis*, razão: Dados dois números reais $a$ e $b$ (com $b \neq 0$), a razão entre $a$ e $b$ (nesta ordem) é o quociente indicado pela divisão.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "hiperárvore". De acordo com a teoria estudada em *1.2 Proporções e a Propriedade Fundamental*, $$\frac{a}{b} = \frac{c}{d} \quad \text{lê-se: 'a está para b assim como c está para d'}$$.
 >
 > **Gabarito: C**
 
@@ -353,98 +353,92 @@ A base de referência percentual corresponde ao valor que ocupa o denominador da
 ---
 
 ### Teste 088
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
-O Departamento de Produção da empresa X apresentava consumo anual de 9.000 materiais diferentes. Após a aplicação da técnica da curva ABC, obteve-se a seguinte distribuição: - 720 itens correspondiam a 70% do valor anual do consumo; - 1.800 itens correspondiam a 20% do valor anual do consumo; - 6.480 itens correspondiam a 10% do valor anual do consumo. Com base nas premissas da curva ABC, assinale a afirmativa correta.
+**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
+No texto 1, a palavra “bem-intencionada” aparece grafada com hífen; o Novo Acordo Ortográfico diz que “Nas palavras em que o primeiro elemento é bem-, a regra geral é o emprego do hífen, não importando se o segundo elemento começa por vogal ou consoante”. Sobre esse caso, a afirmação correta é:
 
-* **A)** Os 6.480 itens compõem a classe A, pois, em razão de sua quantidade expressiva, demandam controles administrativos mais rigorosos.
-* **B)** Os 1.800 itens compõem a classe C, por ocuparem posição intermediária na ordenação dos materiais por valor de consumo.
-* **C)** Os 720 itens compõem a classe A e devem receber atenção especial da administração, por concentrarem a maior parcela do valor anual do consumo.
-* **D)** Para controlar 90% do valor de consumo, é necessário estabelecer controles rigorosos sobre a totalidade dos 9.000 itens da curva.
-* **E)** A classe C, por reunir o maior número de itens, justifica a aplicação das técnicas mais sofisticadas de gestão administrativa.
+* **A)** a palavra foi mal grafada, pois deve ser escrita sem hífen;
+* **B)** a palavra foi bem grafada já que se trata da junção de um advérbio de modo + adjetivo;
+* **C)** a palavra foi bem grafada, pois se trata de um adjetivo composto com um elemento de valor prefixal;
+* **D)** a palavra foi mal grafada, visto que não se trata de um vocábulo, mas de dois;
+* **E)** a palavra foi bem grafada, pois houve mudanças nesse emprego, com as novas regras. Texto 2 - “A saga do rapto de Helena e a subsequente Guerra de Troia continuam sendo um dos melhores exemplos dos perigos da luxúria. No todo, a história sugere quão imprudente é para um hóspede na casa de um homem levar consigo, ao partir, a esposa do anfitrião. Acrescentamos a esse erro crasso a dupla idiotice da raiva e da inveja, agravadas quando o marido abandonado, Menelau, insistiu nos direitos de um velho tratado e arrastou todo o seu reino e os dos vizinhos em missão de vingança. Muitos deles demoraram quase vinte anos na guerra e no retorno, para não falar na maioria que morreu, deixando os lares e as famílias no desamparo e na ruína – mal sobrevivendo, sugerem os registros, a assédios diversos e a desastres naturais.” (Menelau e a esposa perdida, Stephen Weir)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os 6.480 itens compõem a classe A, pois, em razão de sua quantidade expressiva, demandam controles administrativos...". De acordo com a teoria estudada em *4.3 Inversão da Base de Referência Percentual*, a base de referência percentual corresponde ao valor que ocupa o denominador da razão comparativa (\$\text{Base} = 100\%\$). Ao inverter o ponto de vista da comparação, a base numérica altera-se, mudando compulsoriamente a taxa percentual.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada* deste guia, exemplos: Número de auditores e quantidade de processos analisados (mesmo tempo); horas trabalhadas e páginas digitalizadas; consumo de combustível e distância percorrida. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "Os 1.800 itens compõem a classe C, por ocuparem posição intermediária na ordenação dos materiais por valor de...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os 720 itens compõem a classe A e devem receber atenção especial da administração, por concentrarem a maior...". De acordo com a teoria estudada em *4.3 Inversão da Base de Referência Percentual*, se a grandeza \$E\$ é \$25\%\$ maior que a grandeza \$P\$.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para controlar 90% do valor de consumo, é necessário estabelecer controles rigorosos sobre a totalidade dos 9.000...". De acordo com a teoria estudada em *4.1 Conceito e Fatores de Aumento e Desconto*, qualquer acréscimo ou dedução percentual pode ser calculado de modo instantâneo multiplicando o valor primitivo (\$V_0\$) pelo seu respectivo Fator Multiplicador (\$F\$).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A classe C, por reunir o maior número de itens, justifica a aplicação das técnicas mais sofisticadas de gestão...". De acordo com a teoria estudada em *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta*, o erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a palavra foi mal grafada, pois deve ser escrita sem hífen". De acordo com a teoria estudada em *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta*, como serão necessários menos dias, a relação é inversamente proporcional e a multiplicação deve ser feita obrigatoriamente em linha reta ($6 \times 8 = 8 \times D \implies D = 6$).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a palavra foi bem grafada já que se trata da junção de um advérbio de modo + adjetivo". De acordo com a teoria estudada em *4.1 Conceito e Fatores de Aumento e Desconto*, qualquer acréscimo ou dedução percentual pode ser calculado de modo instantâneo multiplicando o valor primitivo ($V_0$) pelo seu respectivo Fator Multiplicador ($F$).
+> - **C)** **Correta.** Conforme fundamentado na seção *4.2 Aumentos e Descontos Sucessivos Cumulativos* deste guia, em geral, um aumento de $i$ seguido de desconto de $i$ gera sempre uma perda real acumulada de $i^2$ (pois $(1+i)(1-i) = 1 - i^2$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "a palavra foi bem grafada, pois se trata de um adjetivo composto com um elemento de valor prefixal".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a palavra foi mal grafada, visto que não se trata de um vocábulo, mas de dois". De acordo com a teoria estudada em *3. Classificação de Grandezas e Regra de Três Simples*, a regra de três simples é o método algébrico que permite descobrir um quarto valor desconhecido a partir de três valores conhecidos de duas grandezas proporcionais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a palavra foi bem grafada, pois houve mudanças nesse emprego, com as novas regras. Texto 2 - “A saga do rapto de...". De acordo com a teoria estudada em *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta*, o erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 089
-**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Considere que em um projeto foi utilizada a métrica com base na contagem de Pontos de Função (PF). O projeto foi estimado em 100 PF. Em uma determinada fase, que corresponde a 20% do projeto: − trabalham 4 pessoas; − a produtividade média é de 20 horas/PF; − a jornada diária é de 8 horas, 5 dias por semana; − o valor por 1 hora de trabalho é R$ 50,00. Com base nos dados relativos à fase, o esforço total em horas, o prazo em dias e o custo do projeto podem ser estimados e correspondem, correta e respectivamente, a:
+**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
+A quantidade de cartuchos de impressora distribuídos mensalmente para os três escritórios (P, Q e R) de uma empresa é diretamente proporcional ao número de impressoras de cada escritório. Sabe-se que P possui três impressoras a mais do que o dobro das impressoras de Q; e que R possui o dobro das impressoras de P. Nessas condições, a quantidade total mensal de cartuchos distribuídos para os três escritórios juntos é um número que, na divisão por 7, deixa resto igual a
 
-* **A)** 500 horas − 12.5 dias − R$ 25.000,00.
-* **B)** 400 horas − 10 dias − R$ 20.000,00.
-* **C)** 480 horas − 12 dias − R$ 24.000,00.
-* **D)** 200 horas − 5 dias − R$ 10.000,00.
-* **E)** 600 horas − 15 dias − R$ 30.000,00.
+* **A)** 4.
+* **B)** 6.
+* **C)** 5.
+* **D)** 2.
+* **E)** 3.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "500 horas − 12.5 dias − R$ 25.000,00". De acordo com a teoria estudada em *2.3 Divisão Proporcional Composta ou Mista*, ocorre quando a partilha obedece simultaneamente a critérios diretos (como tempo de casa, horas trabalhadas) e inversos (como número de faltas, processos pendentes, dias de atraso).
-> - **B)** **Correta.** Conforme fundamentado na seção *4.3 Inversão da Base de Referência Percentual* deste guia, a base de referência percentual corresponde ao valor que ocupa o denominador da razão comparativa (\$\text{Base} = 100\%\$). Ao inverter o ponto de vista da comparação, a base numérica altera-se, mudando compulsoriamente a taxa percentual. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "400 horas − 10 dias − R$ 20.000,00".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "480 horas − 12 dias − R$ 24.000,00". De acordo com a teoria estudada em *3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada*, exemplos: Número de auditores e quantidade de processos analisados (mesmo tempo); horas trabalhadas e páginas digitalizadas; consumo de combustível e distância percorrida.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "200 horas − 5 dias − R$ 10.000,00". De acordo com a teoria estudada em *4.2 Aumentos e Descontos Sucessivos Cumulativos*, aumentos e descontos sucessivos incidem sempre em cascata sobre o valor recém-atualizado, e nunca sobre o valor original primitivo. Por esse motivo, taxas percentuais sucessivas jamais podem ser somadas ou subtraídas aritmeticamente.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "600 horas − 15 dias − R$ 30.000,00". De acordo com a teoria estudada em *2. Divisão em Partes Proporcionais*, a partilha proporcional consiste em distribuir uma quantia total \$V\$ entre vários beneficiários ou centros de custo em conformidade com critérios predeterminados de mérito, produtividade ou penalidade.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4". De acordo com a teoria estudada em *2.1 Divisão Diretamente Proporcional com a Constante k*, repartir um total $V$ em partes $x, y, z$ diretamente proporcionais aos pesos $a, b, c$.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "6". De acordo com a teoria estudada em *3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada*, exemplos: Número de auditores e quantidade de processos analisados (mesmo tempo); horas trabalhadas e páginas digitalizadas; consumo de combustível e distância percorrida.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5". De acordo com a teoria estudada em *2. Divisão em Partes Proporcionais*, a partilha proporcional consiste em distribuir uma quantia total $V$ entre vários beneficiários ou centros de custo em conformidade com critérios predeterminados de mérito, produtividade ou penalidade.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta* deste guia, o erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "2".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3". De acordo com a teoria estudada em *2.3 Divisão Proporcional Composta ou Mista*, ocorre quando a partilha obedece simultaneamente a critérios diretos (como tempo de casa, horas trabalhadas) e inversos (como número de faltas, processos pendentes, dias de atraso).
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
 ### Teste 090
-**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
-A cada vértice de um pentágono convexo é atribuído um valor positivo. O valor de cada lado e de cada diagonal do pentágono é definido como a soma dos valores dos vértices correspondentes. O valor do pentágono é definido como a soma dos valores de todos os seus lados e de todas as suas diagonais. Se a soma dos valores atribuídos aos vértices de um pentágono convexo é igual a 120, o valor do pentágono é:
+**(CEBRASPE – TJ/DFT – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+As partes A e B compartilham a mesma chave criptográfica, também denominada chave secreta.
 
-* **A)** 600;
-* **B)** 540;
-* **C)** 480;
-* **D)** 420;
-* **E)** 360.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "600". De acordo com a teoria estudada em *1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade*, em uma série de razões iguais, a soma dos antecedentes dividida pela soma dos consequentes é igual a qualquer uma das razões primitivas, correspondendo à constante de proporcionalidade \$k\$.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "540". De acordo com a teoria estudada em *4. Porcentagem, Fatores Multiplicadores e Variações*, a porcentagem (ou percentagem) é uma razão cujo consequente (denominador) é igual a 100.
-> - **C)** **Correta.** Conforme fundamentado na seção *3. Classificação de Grandezas e Regra de Três Simples* deste guia, a regra de três simples é o método algébrico que permite descobrir um quarto valor desconhecido a partir de três valores conhecidos de duas grandezas proporcionais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "480".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "420". De acordo com a teoria estudada em *4.1 Conceito e Fatores de Aumento e Desconto*, qualquer acréscimo ou dedução percentual pode ser calculado de modo instantâneo multiplicando o valor primitivo (\$V_0\$) pelo seu respectivo Fator Multiplicador (\$F\$).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "360". De acordo com a teoria estudada em *4.2 Aumentos e Descontos Sucessivos Cumulativos*, aumentos e descontos sucessivos incidem sempre em cascata sobre o valor recém-atualizado, e nunca sobre o valor original primitivo. Por esse motivo, taxas percentuais sucessivas jamais podem ser somadas ou subtraídas aritmeticamente.
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Conceito de Razão e Grandezas Comensuráveis* deste guia, quando as grandezas possuem a mesma unidade de medida (ex.: metros por metros, reais por reais), a razão é uma grandeza adimensional pura. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TJ/DFT/2015) ao afirmar que "As partes A e B compartilham a mesma chave criptográfica, também denominada chave secreta".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada*, segundo a qual duas grandezas são Diretamente Proporcionais (DP) quando a variação de uma acarreta a variação da outra na mesma razão e sentido: duplicando-se uma, a outra dobra; reduzindo-se à metade, a outra também se reduz à metade.
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 091
-**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
-Para produzir 900 catálogos, cada um de 240 páginas, uma gráfica consome 250 kg de papel. Se os catálogos produzidos tivessem 180 páginas cada um, o número de catálogos que poderiam ser produzidos com 780 kg de papel seria igual a
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
+João da Silva ajuizou ação em face do Instituto Nacional do Seguro Social (INSS), autarquia federal vinculada à União, postulando a concessão de benefício de aposentadoria por incapacidade permanente, com pagamento das prestações em atraso desde a data do requerimento administrativo indeferido. A sentença julgou o pedido procedente, fixando como termo inicial o mês do requerimento administrativo, estabelecendo a renda mensal inicial do benefício com base no salário de benefício já apurado pelo INSS e determinando a incidência de correção monetária e juros de mora conforme os índices legalmente previstos. A condenação em parcelas atrasadas, apurável mediante simples cálculos aritméticos com base nos parâmetros da sentença, estimava-se em aproximadamente 380 salários-mínimos, não havendo necessidade de liquidação autônoma ou atividade cognitiva complementar para sua quantificação. O INSS, em sede de impugnação ao cumprimento de sentença promovido por João da Silva, sustentou que a sentença deveria ter sido submetida ao duplo grau obrigatório de jurisdição por força da remessa necessária. Considerando o disposto na legislação processual civil e o entendimento fixado pelo Superior Tribunal de Justiça sob o regime dos recursos repetitivos, é correto afirmar que a sentença em referência
 
-* **A)** 2985.
-* **B)** 3280.
-* **C)** 3744.
-* **D)** 2864.
-* **E)** 3426.
+* **A)** não está sujeita à remessa necessária, pois a condenação imposta ao INSS não ultrapassa 500 salários-mínimos, limite a partir do qual a remessa necessária é exigível nas demandas que envolvam autarquias federais, nos termos do art. 496, § 3º, I, do CPC/2015.
+* **B)** está sujeita à remessa necessária, uma vez que o valor da condenação supera 100 salários-mínimos, limite a partir do qual a remessa necessária é exigível nas demandas que envolvam autarquias federais, nos termos do art. 496, § 3º, I, do CPC/2015.
+* **C)** está sujeita à remessa necessária, pois as condenações impostas ao INSS em demandas previdenciárias são, por sua própria natureza, materialmente ilíquidas, pois dependem da aferição de competências, salários de contribuição e índices de atualização variáveis, razão pela qual se submetem invariavelmente à remessa necessária.
+* **D)** não está sujeita à remessa necessária, pois, havendo parâmetros suficientes fixados no decisum que permitam a apuração imediata da condenação por simples cálculos aritméticos, e sendo possível estimar que o valor não excederá o limite de 1.000 salários-mínimos previsto no art. 496, § 3º, I, do CPC/2015, resta afastado o duplo grau obrigatório de jurisdição.
+* **E)** não está sujeita à remessa necessária, pelo fato de o valor da condenação ser inferior ao limite estabelecido no art. 496, § 3º, I, do CPC/2015, sendo irrelevante, para esse fim, a análise da complexidade exigida na fase de liquidação ou a existência de parâmetros suficientes na sentença para a apuração do quantum debeatur.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2985". De acordo com a teoria estudada em *4. Porcentagem, Fatores Multiplicadores e Variações*, a porcentagem (ou percentagem) é uma razão cujo consequente (denominador) é igual a 100.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3280". De acordo com a teoria estudada em *4.1 Conceito e Fatores de Aumento e Desconto*, qualquer acréscimo ou dedução percentual pode ser calculado de modo instantâneo multiplicando o valor primitivo (\$V_0\$) pelo seu respectivo Fator Multiplicador (\$F\$).
-> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada* deste guia, exemplos: Número de auditores e quantidade de processos analisados (mesmo tempo); horas trabalhadas e páginas digitalizadas; consumo de combustível e distância percorrida. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "3744".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2864". De acordo com a teoria estudada em *4.2 Aumentos e Descontos Sucessivos Cumulativos*, aumentos e descontos sucessivos incidem sempre em cascata sobre o valor recém-atualizado, e nunca sobre o valor original primitivo. Por esse motivo, taxas percentuais sucessivas jamais podem ser somadas ou subtraídas aritmeticamente.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3426". De acordo com a teoria estudada em *A Propriedade Fundamental das Proporções:*, em qualquer proporção válida, o produto dos extremos é rigorosamente igual ao produto dos meios.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não está sujeita à remessa necessária, pois a condenação imposta ao INSS não ultrapassa 500 salários-mínimos...". De acordo com a teoria estudada em *4.3 Inversão da Base de Referência Percentual*, a base de referência percentual corresponde ao valor que ocupa o denominador da razão comparativa ($\text{Base} = 100\%$). Ao inverter o ponto de vista da comparação, a base numérica altera-se, mudando compulsoriamente a taxa percentual.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "está sujeita à remessa necessária, uma vez que o valor da condenação supera 100 salários-mínimos, limite a partir...". De acordo com a teoria estudada em *4.3 Inversão da Base de Referência Percentual*, $$\text{Taxa de Redução} = \frac{\text{Diferença}}{\text{Nova Base}} = \frac{125 - 100}{125} = \frac{25}{125} = \frac{1}{5} = 0{,}20 = \mathbf{20\%}$$.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "está sujeita à remessa necessária, pois as condenações impostas ao INSS em demandas previdenciárias são, por sua...". De acordo com a teoria estudada em *4.4 Diferença entre Pontos Percentuais e Variação Percentual*, pontos Percentuais (p.p.): É a diferença aritmética simples entre duas taxas percentuais (ex.: uma taxa que sobe de $10\%$ para $12\%$ aumentou $2$ pontos percentuais).
+> - **D)** **Correta.** Conforme fundamentado na seção *3. Classificação de Grandezas e Regra de Três Simples* deste guia, a regra de três simples é o método algébrico que permite descobrir um quarto valor desconhecido a partir de três valores conhecidos de duas grandezas proporcionais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "não está sujeita à remessa necessária, pois, havendo parâmetros suficientes fixados no decisum que permitam a...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não está sujeita à remessa necessária, pelo fato de o valor da condenação ser inferior ao limite estabelecido no...". De acordo com a teoria estudada em *4.1 Conceito e Fatores de Aumento e Desconto*, qualquer acréscimo ou dedução percentual pode ser calculado de modo instantâneo multiplicando o valor primitivo ($V_0$) pelo seu respectivo Fator Multiplicador ($F$).
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 

@@ -155,120 +155,108 @@ Estabelecem os pré-requisitos lógicos para que determinada asserção técnica
 ---
 
 ### Teste 575
-**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
-It can be inferred from the third paragraph of text 15A13-I that
+**(FCC – TRT 24ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+Um Analista foi designado para participar como Integrante Técnico na Equipe de Planejamento da Contratação de uma Solução de Tecnologia da Informação e Comunicação. De acordo com a Resolução CNJ no 182/2013, a única atividade, dentre as lista- das abaixo, que NÃO está dentro de sua área de atuação é definir
 
-* **A)** consumers will have a hard time proving that the AI system caused harm to the product they had previously bought.
-* **B)** claimants will be granted compensation for any reason.
-* **C)** consumers will not be compensated unless they can prove that it was the AI system that caused the harm suffered.
-* **D)** claimants will now have to prove both that there was an AI- related problem with their products and that the defendant failed to comply with the AI Act.
-* **E)** the new rules will make it possible for claimants to get compensation even if they do not directly prove that the AI system caused the harm suffered.
+* **A)** como será realizada a manutenção preventiva, corretiva, adaptativa e evolutiva da solução, aspectos que exigem a neces- sidade de serviços complementares.
+* **B)** os critérios de formação acadêmica e experiência profissional da equipe que projetará, implantará e manterá a solução, bem como as respectivas formas de comprovação.
+* **C)** o ambiente tecnológico dos treinamentos, os perfis dos instrutores e o conteúdo técnico envolvidos na solução.
+* **D)** os padrões de interoperabilidade e de acessibilidade, bem como a linguagem de programação e as interfaces da solução.
+* **E)** o projeto de implantação da solução, incluindo a sua disponibilização em ambiente de produção.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consumers will have a hard time proving that the AI system caused harm to the product they had previously bought". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, \$\equiv\$ *"The transaction will not be committed if all distributed replicas do not acknowledge receipt."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "claimants will be granted compensation for any reason". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, *Exemplo:* *"The gateway accepts API requests provided that a valid JWT bearer token is supplied."*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consumers will not be compensated unless they can prove that it was the AI system that caused the harm suffered". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, concessão (Oração): *Although, Even though, Though* — Sujeito + Verbo finito conjugado — *Although \$\leftrightarrow\$ Even though \$\leftrightarrow\$ Though* — *"Although CPU usage was at 90%, throughput did not drop."*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "claimants will now have to prove both that there was an AI- related problem with their products and that the...". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, causa (Oração): *Because, Since, As, Inasmuch as* — Oração com verbo conjugado — *Because \$\leftrightarrow\$ Since \$\leftrightarrow\$ As* — *"The build failed since unit tests did not pass."*.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.6 Relações de Condição e a Lógica do Unless* deste guia, *Exemplo:* *"The transaction will not be committed unless all distributed replicas acknowledge receipt."*. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "the new rules will make it possible for claimants to get compensation even if they do not directly prove that the...".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "como será realizada a manutenção preventiva, corretiva, adaptativa e evolutiva da solução, aspectos que exigem a...". De acordo com a teoria estudada em *1.2 Relações de Concessão e a Regra do Despite*, despite, In spite of (Apesar de, a despeito de, não obstante): Locuções prepositivas que exigem obrigatoriamente um Sintagma Nominal (*Noun Phrase*) ou um verbo na forma nominal de gerúndio (*-ing*).
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Relações de Concessão e a Regra do Despite* deste guia, although, Even though, Though (Embora, ainda que, se bem que): Conjunções subordinativas concessivas que exigem oração completa com Sujeito e Verbo conjugado (*Subject + Finite Verb*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 24ª/2017) ao estabelecer que "os critérios de formação acadêmica e experiência profissional da equipe que projetará, implantará e manterá a...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o ambiente tecnológico dos treinamentos, os perfis dos instrutores e o conteúdo técnico envolvidos na solução". De acordo com a teoria estudada em *2. Morfologia e Formação de Palavras Técnicas (Word Formation)*, a morfologia vocabular em língua inglesa fornece as ferramentas analíticas para decodificar neologismos, jargões técnicos e famílias de palavras sem a necessidade de memorização isolada.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os padrões de interoperabilidade e de acessibilidade, bem como a linguagem de programação e as interfaces da...". De acordo com a teoria estudada em *2.1 Prefixos Técnicos Recorrentes em Computação*, inter- vs. intra-: *interoperability* (interoperabilidade entre sistemas heterogêneos distintos) vs. *intranet* (rede interna privativa).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o projeto de implantação da solução, incluindo a sua disponibilização em ambiente de produção". De acordo com a teoria estudada em *3.3 Computação em Nuvem e Infraestrutura*, on-premises (Infraestrutura Local Própria): Modelo de implantação em que servidores e equipamentos físicos operam fisicamente dentro das dependências prediais da entidade governamental.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 576
+**(CEBRASPE – TJ/DFT – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Em “mas, sobretudo, realizada por todos” (R.51), a palavra “sobretudo” significa especialmente e serve para reforçar a ideia de oposição veiculada pela conjunção “mas”. ***. 118/MJ Em 12 de maio de 2011 À Excelentíssima Sra. Chefe da Gerência de Manutenção e Tecnologia do MJ Assunto: Administração. Pedido de agendamento de manutenção em equipamentos. 1. Com o objetivo de dar cumprimento ao Plano Geral de Reparos e Modernização dos equipamentos de tecnologia deste Órgão, gentilmente, solicito a Você o agendamento de visita técnica a este Departamento. 2. Durante as últimas semanas, foram constatados diversos defeitos nos computadores e nos monitores utilizados pelos funcionários. Será necessário reparos e substituições de alguns equipamentos. Por esta razão, solicitamos que a equipe de manutenção dirija-se ao local com peças de substituição. 3. Os equipamentos a serem substituídos são três teclados e três estabilizadores, conforme relatório produzido pela área técnica do Departamento, que segue anexo. 4. Solicitamos que o agendamento seja realizado o mais rapidamente possível pois a inoperância dos equipamentos ocasiona atraso no andamento dos processos que estão sob nossa responsabilidade. Respeitosamente, Maria Helena Júlia Diretora do Departamento de Comunicação Social do MJ
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em “mas, sobretudo, realizada por todos” (R.51), a palavra “sobretudo” significa especialmente e serve para...". De acordo com a teoria estudada em *3.3 Computação em Nuvem e Infraestrutura*, on-premises (Infraestrutura Local Própria): Modelo de implantação em que servidores e equipamentos físicos operam fisicamente dentro das dependências prediais da entidade governamental.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *3.2 Concorrência e Sistemas Operacionais* deste guia, deadlock (Impasse Mútuo / Travamento Recíproco): Condição anômala em que dois ou mais processos ou threads concorrentes ficam eternamente paralisados aguardando a liberação de recursos bloqueados entre si. Portanto, a assertiva examinada pela banca (CEBRASPE – TJ/DFT/2015) viola os preceitos técnicos do tópico.
 >
 > **Gabarito: E**
 
 ---
 
-### Teste 576
-**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Consider the following BPMN diagram. According to ITIL v3 2011 edition and business modeling principles, this diagram
+### Teste 577
+**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+O Analista de Tecnologia da Informação do TRT da 13a Região participa da comissão que está definindo o projeto de cabeamento de rede a ser utilizado entre o prédio principal e o anexo, localizado à distância de 500 m. Dentre as opções de cabos de fibra óptica, a melhor escolha é a fibra
 
-* **A)** depicts the ITIL´s Release and Deployment Management process in which the account manager should try to handle that request on his own and explain the solution to the customer, then hand over the issue to a 2nd level support agent, who will hand over to upper level support, in a chain.
-* **B)** shows the ITIL´s Service Portfolio Management process of a software manufacturer that is triggered by a customer requesting help from the account manager because of a well defined problem.
-* **C)** isn’t useful to scope the process, get a basic understanding of the flow, and indicate the main steps, but it is relevant for discussing details of process improvements or even software driven support of the process.
-* **D)** is simple because it assumes that a solution is always found to be explained to the customer. The model lacks all details of collaboration between the involved employees, that is important to the ITIL´s Incident Management process.
-* **E)** shows the 2nd level support agent should figure out if the customer can fix the problem on her own, but if the agent is not sure about this he must deliver the responsability to a 3rd level agent or return to the 1st level, as recommended by ITIL.
+* **A)** Rede − Switch L2 / Transporte − Roteador.
+* **B)** Enlace − Switch L2 / Rede − Roteador.
+* **C)** Rede − Bridge / Transporte − Gateway.
+* **D)** Enlace − Gateway / Aplicação − Roteador.
+* **E)** Transporte − Gateway / Aplicação − Bridge.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.6 Relações de Condição e a Lógica do Unless* deste guia, *Exemplo:* *"The gateway accepts API requests provided that a valid JWT bearer token is supplied."*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "depicts the ITIL´s Release and Deployment Management process in which the account manager should try to handle...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "shows the ITIL´s Service Portfolio Management process of a software manufacturer that is triggered by a customer...". De acordo com a teoria estudada em *1.3 Relações de Causa, Explicação e Motivo*, due to, Owing to, Because of, On account of (Devido a, em razão de, em virtude de): Expressões prepositivas que introduzem diretamente sintagmas nominais causais.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "isn’t useful to scope the process, get a basic understanding of the flow, and indicate the main steps, but it is...". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 10 to 15 - Software Engineering Vocabulary and Connectors).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "is simple because it assumes that a solution is always found to be explained to the customer. The model lacks all...". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, *Exemplo:* *"The transaction will not be committed unless all distributed replicas acknowledge receipt."*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "shows the 2nd level support agent should figure out if the customer can fix the problem on her own, but if the...". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, \$\equiv\$ *"The transaction will not be committed if all distributed replicas do not acknowledge receipt."*.
+> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Prefixos Técnicos Recorrentes em Computação* deste guia, inter- vs. intra-: *interoperability* (interoperabilidade entre sistemas heterogêneos distintos) vs. *intranet* (rede interna privativa). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "Rede − Switch L2 / Transporte − Roteador".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Enlace − Switch L2 / Rede − Roteador". De acordo com a teoria estudada em *3.1 Arquitetura e Engenharia de Software*, bottleneck (Gargalo / Ponto de Estrangulamento): Componente, recurso computacional ou enlace que restringe e dita a capacidade máxima de todo o ecossistema.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Rede − Bridge / Transporte − Gateway". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, *Exemplo:* *"The gateway accepts API requests provided that a valid JWT bearer token is supplied."*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Enlace − Gateway / Aplicação − Roteador". De acordo com a teoria estudada em *1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)*, nas avaliações da Fundação Carlos Chagas (FCC) para cargos de Auditoria e Tecnologia da Informação, os testes acerca de conectivos concentram-se em dois formatos essenciais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Transporte − Gateway / Aplicação − Bridge". De acordo com a teoria estudada em *1.2 Relações de Concessão e a Regra do Despite*, a concessão introduz uma circunstância desfavorável, limitação técnica ou obstáculo que, embora real, não impede a realização do fato principal (quebra de expectativa).
 >
 > **Gabarito: A**
-
----
-
-### Teste 577
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
-Com relação aos aspectos linguísticos do primeiro período do texto CG1A1-I, é correto afirmar que o termo “se”,
-
-* **A)** no trecho “se proteger”, remete ao termo “Prática”.
-* **B)** no trecho “se mostrou”, tem como referente o termo “instrumento”.
-* **C)** em ambas as ocorrências, pode, sem prejuízo da correção gramatical do texto, ser deslocado para imediatamente após a forma verbal, escrevendo-se, respectivamente, proteger-se e mostrou-se.
-* **D)** em ambas as ocorrências, pode ser suprimido sem prejuízo dos sentidos e da correção gramatical do texto.
-* **E)** em ambas as ocorrências, expressa a noção de reciprocidade.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "no trecho “se proteger”, remete ao termo “Prática”". De acordo com a teoria estudada em *1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)*, substituição sem Prejuízo de Sentido ou Gramática: Demanda apontar o termo perfeitamente intercambiável (*synonymous transition*) respeitando rigorosamente as exigências de regência sintática (por exemplo, diferenciação entre conjunções seguidas de oração completa vs. preposições seguidas de sintagmas nominais).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "no trecho “se mostrou”, tem como referente o termo “instrumento”". De acordo com a teoria estudada em *2.2 Famílias de Palavras e Sufixos Gramaticais*, os sufixos definem a classe gramatical da palavra (*part of speech*). Saber identificar o sufixo impede que o candidato confunda uma propriedade abstrata (substantivo) com uma qualidade do componente (adjetivo) ou com a forma de execução (advérbio).
-> - **C)** **Correta.** Conforme fundamentado na seção *3.4 Segurança Cibernética e Auditoria de Sistemas* deste guia, flaw / Vulnerability (Falha / Vulnerabilidade): Fragilidade lógica de design ou implementação que pode ser explorada por agentes hostis. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "em ambas as ocorrências, pode, sem prejuízo da correção gramatical do texto, ser deslocado para imediatamente após...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em ambas as ocorrências, pode ser suprimido sem prejuízo dos sentidos e da correção gramatical do texto". De acordo com a teoria estudada em *1.3 Relações de Causa, Explicação e Motivo*, because, Since, As, For, Inasmuch as (Porque, já que, visto que, dado que): Conjunções causais que introduzem orações subordinadas explicativas estruturadas com sujeito e predicado verbal.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em ambas as ocorrências, expressa a noção de reciprocidade". De acordo com a teoria estudada em *1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)*, identificação da Relação Semântica Primária: Exige classificar se a partícula expressa *contraste*, *concessão*, *causa*, *consequência/conclusão*, *condição* ou *adição*.
->
-> **Gabarito: C**
 
 ---
 
 ### Teste 578
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
-The author of text 9A3-I mentions conference agendas and media coverage in order to
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**
+Saúde SC reforça importância da vacinação contra o Vírus Sincicial Respiratório em gestantes Com a aproximação do frio, a Secretaria de Estado da Saúde (SES) reforça a importância da vacinação de gestantes contra o Vírus Sincicial Respiratório (VSR). A imunização tem como principal objetivo reduzir complicações respiratórias em bebês nos primeiros meses de vida, como bronquiolite e pneumonia — doenças que tendem a aumentar durante o inverno e podem levar a internações. https://saude.sc.gov.br A utilização de letras maiúsculas na apresentação do “Vírus Sincicial Respiratório”, em todas as ocorrências no texto, serve para
 
-* **A)** demonstrate that their focus did not reflect the most impactful trend in the field of legal technology in 2018.
-* **B)** show that they focused suficient attention on analytics in the field of legal technology in 2018.
-* **C)** suggest that conferences related to legal technology should not be venues for discussions about analytics.
-* **D)** demonstrate that these events and institutions establish priorities for the field of legal technology.
-* **E)** advertise future events of interst in the field of legal technology.
+* **A)** indicar destaque informativo dentro do texto, relacionado à relevância do tema abordado.
+* **B)** ser uma estratégia de destaque para enfatizar a gravidade da doença mencionada no texto.
+* **C)** apresentar o uso de linguagem técnica, comum em textos da área da saúde.
+* **D)** corresponder à denominação oficial de um agente viral específico, funcionando como nome próprio.
+* **E)** marcar a presença de termos estrangeiros incorporados ao vocabulário científico. Legislação Institucional do PJSC
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis* deste guia, causa (Oração): *Because, Since, As, Inasmuch as* — Oração com verbo conjugado — *Because \$\leftrightarrow\$ Since \$\leftrightarrow\$ As* — *"The build failed since unit tests did not pass."*. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "demonstrate that their focus did not reflect the most impactful trend in the field of legal technology in 2018".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "show that they focused suficient attention on analytics in the field of legal technology in 2018". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, concessão (Oração): *Although, Even though, Though* — Sujeito + Verbo finito conjugado — *Although \$\leftrightarrow\$ Even though \$\leftrightarrow\$ Though* — *"Although CPU usage was at 90%, throughput did not drop."*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "suggest that conferences related to legal technology should not be venues for discussions about analytics". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, *Exemplo:* *"The gateway accepts API requests provided that a valid JWT bearer token is supplied."*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "demonstrate that these events and institutions establish priorities for the field of legal technology". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 10 to 15 - Software Engineering Vocabulary and Connectors).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "advertise future events of interst in the field of legal technology". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, *Exemplo:* *"The transaction will not be committed unless all distributed replicas acknowledge receipt."*.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "indicar destaque informativo dentro do texto, relacionado à relevância do tema abordado". De acordo com a teoria estudada em *3.3 Computação em Nuvem e Infraestrutura*, on-premises (Infraestrutura Local Própria): Modelo de implantação em que servidores e equipamentos físicos operam fisicamente dentro das dependências prediais da entidade governamental.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ser uma estratégia de destaque para enfatizar a gravidade da doença mencionada no texto". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, unless (A não ser que, a menos que): Conjunção que embute semanticamente uma condição negativa, equivalendo estritamente a "if.. not" ou "except if".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresentar o uso de linguagem técnica, comum em textos da área da saúde". De acordo com a teoria estudada em *1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)*, os conectivos lógicos (também categorizados na literatura linguística como *Transition Words*, *Discourse Markers* ou *Connectors*) configuram os nós estruturais que asseguram a coesão referencial e a progressão lógica do pensamento em textos formais.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.2 Famílias de Palavras e Sufixos Gramaticais* deste guia, *-er / -or:* Agente processador, software ou pessoa responsável (*scheduler, compiler, dispatcher, load balancer, auditor*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "corresponder à denominação oficial de um agente viral específico, funcionando como nome próprio".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "marcar a presença de termos estrangeiros incorporados ao vocabulário científico. Legislação Institucional do PJSC". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, however, Nevertheless, Nonetheless (No entanto, todavia, contudo, não obstante): Conectivos coordenados que introduzem ressalvas ou contra-argumentos à declaração precedente.
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
 ### Teste 579
-**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
-According to text 15A13-I, it is correct to infer that
+**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
+O COBIT 2019 estabelece que os recursos de tecnologia da informação devem ser utilizados de forma alinhada aos
 
-* **A)** it is the first time the European Commission has publicized liability rules on digital products and AI.
-* **B)** the new liability rules also encompass products which are not digital or AI-related.
-* **C)** the rules on the liability of manufacturers for faulty goods are possibly not lenient.
-* **D)** the European Commission has come up with a proposal to compensate consumers who damaged their products themselves.
-* **E)** the compensation proposed by the European Commission only applies to the products which came with a manufacturing defect.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "it is the first time the European Commission has publicized liability rules on digital products and AI". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, condição Restritiva: *Provided that, As long as* — Condição mandatória requerida — *Provided that \$\leftrightarrow\$ As long as* — *"Requests succeed provided that rate limits are respected."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the new liability rules also encompass products which are not digital or AI-related". De acordo com a teoria estudada em *1.5 Relações de Adição, Continuidade e Ênfase*, not only.. but also.. (Não apenas.. mas também..): Estrutura correlativa de soma e reforço enfático.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis* deste guia, condição Negativa: *Unless* — Equivale logicamente a *if.. not* — *Unless \$\equiv\$ Except if \$\equiv\$ If not* — *"Data will be deleted unless archives are verified."*. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "the rules on the liability of manufacturers for faulty goods are possibly not lenient".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the European Commission has come up with a proposal to compensate consumers who damaged their products themselves". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, *Exemplo:* *"The transaction will not be committed unless all distributed replicas acknowledge receipt."*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the compensation proposed by the European Commission only applies to the products which came with a manufacturing...". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, \$\equiv\$ *"The transaction will not be committed if all distributed replicas do not acknowledge receipt."*.
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)* deste guia, nas avaliações da Fundação Carlos Chagas (FCC) para cargos de Auditoria e Tecnologia da Informação, os testes acerca de conectivos concentram-se em dois formatos essenciais. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRF/6/2025) ao afirmar que "O COBIT 2019 estabelece que os recursos de tecnologia da informação devem ser utilizados de forma alinhada aos".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, segundo a qual unless (A não ser que, a menos que): Conjunção que embute semanticamente uma condição negativa, equivalendo estritamente a "if.. not" ou "except if".
 >
 > **Gabarito: C**
 
@@ -346,50 +334,50 @@ flowchart RL
 ---
 
 ### Teste 580
-**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia da Informacao – 2024)**
-Durante a análise de uma regra no Snort, um sistema de detecção de intrusões, foi identificada uma ação específica que permanece ociosa até ser ativada por uma regra de ativação, quando então age como uma regra de registro. A ação descrita é a:
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+Observe a estrutura da tabela “Cliente” abaixo: CREATE TABLE cliente ( cliente_ID NUMBER(12) PRIMARY KEY, cidade VARCHAR2(50) NOT NULL, limite_credito NUMBER(13,2) DEFAULT 0 ); Com o objetivo de gerar um relatório que mostre o limite de crédito médio para clientes em “Sao Paulo” e “Belo Horizonte”, a consulta a ser executada é:
 
-* **A)** pass;
-* **B)** drop;
-* **C)** alert;
-* **D)** activate;
-* **E)** dynamic.
+* **A)** SELECT cidade, AVG(NVL(limite_credito,0)) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE');
+* **B)** SELECT cidade, AVG(limite_credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY cidade;
+* **C)** SELECT cidade, AVG(limite_credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY cliente_ID;
+* **D)** SELECT cidade, AVG(limite_credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY cidade, limite_credito;
+* **E)** SELECT cidade, AVG(limite_credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY limite_credito, cidade;
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pass". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, causa (Oração): *Because, Since, As, Inasmuch as* — Oração com verbo conjugado — *Because \$\leftrightarrow\$ Since \$\leftrightarrow\$ As* — *"The build failed since unit tests did not pass."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "drop". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, concessão (Oração): *Although, Even though, Though* — Sujeito + Verbo finito conjugado — *Although \$\leftrightarrow\$ Even though \$\leftrightarrow\$ Though* — *"Although CPU usage was at 90%, throughput did not drop."*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "alert". De acordo com a teoria estudada em *A Regra de Interpretação da Direita para a Esquerda:*, \$\rightarrow\$ 1. *System* (Sistema) \$\rightarrow\$ 2. *provisioning* (de provisionamento) \$\rightarrow\$ 3. *cluster* (de cluster) \$\rightarrow\$ 4. *high-availability* (de alta disponibilidade) \$\rightarrow\$ 5. *fault-tolerant* (tolerante a falhas).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "activate". De acordo com a teoria estudada em *A Regra de Interpretação da Direita para a Esquerda:*, sentido: *Sistema de provisionamento de cluster de alta disponibilidade tolerante a falhas*.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Relações de Contraste e Adversidade* deste guia, *Exemplo:* *"Relational databases enforce strict schemas. In contrast, document stores provide dynamic schemas."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "dynamic".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT cidade, AVG(NVL(limite_credito,0)) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE')". De acordo com a teoria estudada em *1.5 Relações de Adição, Continuidade e Ênfase*, not only.. but also.. (Não apenas.. mas também..): Estrutura correlativa de soma e reforço enfático.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Concorrência e Sistemas Operacionais* deste guia, polling (Sondagem Ativa / Consulta Periódica): Mecanismo síncrono em que um cliente envia requisições repetidas ao servidor para verificar se houve atualização. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "SELECT cidade, AVG(limite_credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY cidade".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT cidade, AVG(limite_credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY cliente_ID". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, unless (A não ser que, a menos que): Conjunção que embute semanticamente uma condição negativa, equivalendo estritamente a "if.. not" ou "except if".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT cidade, AVG(limite_credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY cidade...". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, relação Semântica: Conectivos Canônicos — Estrutura Sintática Requerida — Substitutos Plenamente Equivalentes — Exemplo Prático de TI.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT cidade, AVG(limite_credito) FROM cliente WHERE cidade IN ('SAO PAULO','BELO HORIZONTE') GROUP BY...". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, concessão (Oração): *Although, Even though, Though* — Sujeito + Verbo finito conjugado — *Although $\leftrightarrow$ Even though $\leftrightarrow$ Though* — *"Although CPU usage was at 90%, throughput did not drop."*.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 
 ### Teste 581
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
-In the first sentence of text 9A3-I, the word “it” refers to
+**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+Um analista da área de Tecnologia da Informação criou uma Matriz de Probabilidade e Impacto para classificar os riscos e priorizar as respostas a eles. Como esse Analista segue à risca o PMBoK 4a edição, esta matriz foi utilizada como técnica (ou ferramenta) do processo
 
-* **A)** “media coverage”.
-* **B)** “judge”.
-* **C)** “artificial intelligence”.
-* **D)** “2018’s most important legal technology”.
-* **E)** “conference agendas”.
+* **A)** ANS pode ser formal ou informal, realizado entre o provedor de serviços de TI e o cliente.
+* **B)** ANS descreve os serviços de TI e documenta metas de nível de serviço, mas não especifica as responsabilidades das partes envolvidas.
+* **C)** único ANS pode cobrir múltiplos serviços de TI ou múltiplos clientes.
+* **D)** ANS cobre um serviço para todos os clientes desse serviço, neste caso, sendo chamado de ANS multi-nível baseado em Cliente.
+* **E)** ANS é firmado, exclusivamente, entre o provedor de serviços de TI e outra parte da mesma organização.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“media coverage”". De acordo com a teoria estudada em *2. Morfologia e Formação de Palavras Técnicas (Word Formation)*, a morfologia vocabular em língua inglesa fornece as ferramentas analíticas para decodificar neologismos, jargões técnicos e famílias de palavras sem a necessidade de memorização isolada.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“judge”". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, *Exemplo:* *"The microservices architecture offers superior scalability; nevertheless, it introduces non-trivial operational complexity."*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“artificial intelligence”". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, in contrast, On the contrary, Conversely (Em contrapartida, pelo contrário, inversamente): Estabelecem um contraponto simétrico entre dois paradigmas tecnológicos distintos.
-> - **D)** **Correta.** Conforme fundamentado na seção *6. Fontes Recomendadas na Internet* deste guia, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 10 to 15 - Software Engineering Vocabulary and Connectors). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "“2018’s most important legal technology”".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“conference agendas”". De acordo com a teoria estudada em *1.2 Relações de Concessão e a Regra do Despite*, *Exemplo:* *"Although the cluster experienced hardware failures, no transaction was lost."*.
+> - **A)** **Correta.** Conforme fundamentado na seção *3.4 Segurança Cibernética e Auditoria de Sistemas* deste guia, flaw / Vulnerability (Falha / Vulnerabilidade): Fragilidade lógica de design ou implementação que pode ser explorada por agentes hostis. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "ANS pode ser formal ou informal, realizado entre o provedor de serviços de TI e o cliente".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ANS descreve os serviços de TI e documenta metas de nível de serviço, mas não especifica as responsabilidades das...". De acordo com a teoria estudada em *3.3 Computação em Nuvem e Infraestrutura*, outage (Interrupção Geral de Serviço / Apagão): Período crítico de inatividade em que serviços essenciais ficam completamente inacessíveis aos usuários.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "único ANS pode cobrir múltiplos serviços de TI ou múltiplos clientes". De acordo com a teoria estudada em *2.2 Famílias de Palavras e Sufixos Gramaticais*, *-ity / -ty:* Qualidade, estado ou métrica formal (*availability, elasticity, scalability, integrity, latency*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ANS cobre um serviço para todos os clientes desse serviço, neste caso, sendo chamado de ANS multi-nível baseado em...". De acordo com a teoria estudada em *2.1 Prefixos Técnicos Recorrentes em Computação*, multi- vs. mono-: *multitenant* (arquitetura multilocatária compartilhada) vs. *monolithic* (monolítico unificado).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "ANS é firmado, exclusivamente, entre o provedor de serviços de TI e outra parte da mesma organização". De acordo com a teoria estudada em *1.5 Relações de Adição, Continuidade e Ênfase*, acrescentam argumentos adicionais alinhados à mesma linha de raciocínio, sem introduzir restrições.
 >
-> **Gabarito: D**
+> **Gabarito: A**
 
 ---
 
@@ -436,74 +424,74 @@ In the first sentence of text 9A3-I, the word “it” refers to
 ---
 
 ### Teste 582
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
-In the first sentence of text 9A3-I, the word “judge” is synonymous with
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
+A equipe de tecnologia da informação (TI) de um órgão está enfrentando dificuldades de disponibilidade de seu site de Internet após a divulgação de novos serviços com prazos rígidos para seus clientes. O site de Internet não está suportando o volume de acessos simultâneos. Para incrementar a disponibilidade do site, a equipe de TI replicou os servidores web e contratou uma solução que instalou um equipamento na frente das várias réplicas do site. Esse equipamento recebe as solicitações dos usuários da Internet, direcionando-as para os diversos servidores web internos, balanceando a carga entre eles. O certificado digital foi instalado nele para reduzir o processamento dos servidores web interno. O equipamento da solução contratada é um Proxy:
 
-* **A)** justice.
-* **B)** court.
-* **C)** consider.
-* **D)** examiner.
-* **E)** try.
+* **A)** de encaminhamento;
+* **B)** transparente;
+* **C)** anônimo;
+* **D)** reverso;
+* **E)** de distorção.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "justice". De acordo com a teoria estudada em *2. Morfologia e Formação de Palavras Técnicas (Word Formation)*, a morfologia vocabular em língua inglesa fornece as ferramentas analíticas para decodificar neologismos, jargões técnicos e famílias de palavras sem a necessidade de memorização isolada.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "court". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, *Exemplo:* *"The microservices architecture offers superior scalability; nevertheless, it introduces non-trivial operational complexity."*.
-> - **C)** **Correta.** Conforme fundamentado na seção *1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)* deste guia, substituição sem Prejuízo de Sentido ou Gramática: Demanda apontar o termo perfeitamente intercambiável (*synonymous transition*) respeitando rigorosamente as exigências de regência sintática (por exemplo, diferenciação entre conjunções seguidas de oração completa vs. preposições seguidas de sintagmas nominais). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "consider".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "examiner". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, in contrast, On the contrary, Conversely (Em contrapartida, pelo contrário, inversamente): Estabelecem um contraponto simétrico entre dois paradigmas tecnológicos distintos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "try". De acordo com a teoria estudada em *1.2 Relações de Concessão e a Regra do Despite*, *Exemplo:* *"Although the cluster experienced hardware failures, no transaction was lost."*.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de encaminhamento". De acordo com a teoria estudada em *3.3 Computação em Nuvem e Infraestrutura*, outage (Interrupção Geral de Serviço / Apagão): Período crítico de inatividade em que serviços essenciais ficam completamente inacessíveis aos usuários.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "transparente". De acordo com a teoria estudada em *3.3 Computação em Nuvem e Infraestrutura*, failover (Comutação Automática por Falha): Mecanismo de contingência operacional que transfere a carga de processamento de um nó primário indisponível para um nó secundário em espera de forma autônoma e transparente.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "anônimo". De acordo com a teoria estudada em *3.1 Arquitetura e Engenharia de Software*, throughput (Vazão / Taxa de Processamento): Volume de unidades de trabalho ou requisições processadas com êxito por unidade de tempo (ex.: transações por segundo - TPS).
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Concorrência e Sistemas Operacionais* deste guia, thread-safe (Seguro para Execução Concorrente): Propriedade de classes ou estruturas projetadas para suportar acessos simultâneos por múltiplas threads sem incorrer em corrupção de estado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "reverso".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de distorção". De acordo com a teoria estudada em *1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)*, nas avaliações da Fundação Carlos Chagas (FCC) para cargos de Auditoria e Tecnologia da Informação, os testes acerca de conectivos concentram-se em dois formatos essenciais.
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
 ### Teste 583
-**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
-The purpose of a Data Warehouse (DW) is to consolidate and organize data so it can be analyzed and used to support business decisions. Considering a DW platform, the true statement is:
+**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+João trabalha na área de Tecnologia da Informação de um Tribunal de Justiça e ficou responsável por atribuir as faixas de endereçamento IP de 4 novas varas cíveis, que necessitarão de 126 endereços de hosts cada. Sabe-se que a rede 10.112.0.0/20 está disponível. Para realizar a distribuição com o mínimo de desperdício de endereços, João deve dividir a rede da seguinte forma:
 
-* **A)** DW usually contains historical data, often collected from a variety of sources such as OLAP systems, legacy systems, data marts. A DW combines this data, cleanses it for accuracy and consistency, and organizes it for ease and efficiency of querying.
-* **B)** In large data warehousing applications, data is often segmented into specialized components, called data mining cubes, that address individual components of the organization.
-* **C)** Referential integrity must be maintained when DW data is added, or deleted. Loss of referential integrity can result in errors during cube processing, fact table records being bypassed, or inaccurate OLAP information.
-* **D)** Cube information available online to client applications cannot be affected when data is added to the DW due to interaction between the data and cube partitions. Every DW defines partition filters that avoid this problem.
-* **E)** ROLAP's multidimensional data model answers to a query into historical data and never leads to subsequent queries as the analyst searches for answers or explores possibilities. ROLAP systems provide the speed and flexibility to support the analyst in real time. Atenção: A tabela relativa a Débitos Trabalhistas a seguir deve ser utilizada para responder às questões de números 52 e 53. Considere que a tabela já está criada, os dados iniciais já foram inseridos e o banco de dados a ser utilizado está aberto e funcionando em condições ideais.
+* **A)** nas sub-redes 10.112.0.0 com máscara 255.255.128.0, 10.112.0.128 com máscara 255.255.128.0, 10.112.1.0 com máscara 255.255.128.0 e 10.112.1.128 com máscara 255.255.128.0;
+* **B)** nas sub-redes 10.112.0.0 com máscara 255.255.255.0, 10.112.1.0 com máscara 255.255.255.0, 10.112.2.0 com máscara 255.255.255.0 e 10.112.3.0 com máscara 255.255.255.0;
+* **C)** nas sub-redes 10.112.0.0 com máscara 255.255.255.128, 10.112.0.128 com máscara 255.255.255.128, 10.112.1.0 com máscara 255.255.255.128 e 10.112.1.128 com máscara 255.255.255.128;
+* **D)** nas sub-redes 10.112.0.0/26, 10.112.0.128/26, 10.112.1.0/26 e 10.112.1.128/26;
+* **E)** a rede disponível não atende a demanda de endereços necessária.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "DW usually contains historical data, often collected from a variety of sources such as OLAP systems, legacy...". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, *Exemplo:* *"SQL systems prioritize ACID transactions, whereas NoSQL systems emphasize eventual consistency and horizontal elasticity."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "In large data warehousing applications, data is often segmented into specialized components, called data mining...". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, concessão (Sintagma): *Despite, In spite of* — Apenas Substantivo ou Verbo em *-ing* (NUNCA *despite of*) — *Despite \$\leftrightarrow\$ In spite of* — *"In spite of the replication lag, data consistency held."*.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis* deste guia, condição Negativa: *Unless* — Equivale logicamente a *if.. not* — *Unless \$\equiv\$ Except if \$\equiv\$ If not* — *"Data will be deleted unless archives are verified."*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "Referential integrity must be maintained when DW data is added, or deleted. Loss of referential integrity can...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Cube information available online to client applications cannot be affected when data is added to the DW due to...". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 10 to 15 - Software Engineering Vocabulary and Connectors).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ROLAP's multidimensional data model answers to a query into historical data and never leads to subsequent queries...". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, contraste / Oposição: *However, Nevertheless, Nonetheless* — Seguidos de vírgula ou entre pontuação forte; orações independentes — *However \$\leftrightarrow\$ Nevertheless \$\leftrightarrow\$ Nonetheless* — *"The query returned in 5ms; however, the cache failed."*.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nas sub-redes 10.112.0.0 com máscara 255.255.128.0, 10.112.0.128 com máscara 255.255.128.0, 10.112.1.0 com máscara...". De acordo com a teoria estudada em *1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)*, nas avaliações da Fundação Carlos Chagas (FCC) para cargos de Auditoria e Tecnologia da Informação, os testes acerca de conectivos concentram-se em dois formatos essenciais.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nas sub-redes 10.112.0.0 com máscara 255.255.255.0, 10.112.1.0 com máscara 255.255.255.0, 10.112.2.0 com máscara...". De acordo com a teoria estudada em *3.1 Arquitetura e Engenharia de Software*, deprecate / Deprecated (Descontinuar / Obsoleto): Recurso que permanece temporariamente disponível para fins de compatibilidade retroativa, mas cuja utilização é desaconselhada devido à descontinuação iminente.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Relações de Concessão e a Regra do Despite* deste guia, *Exemplo:* *"Despite the heavy network traffic, the load balancer maintained sub-second response times."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "nas sub-redes 10.112.0.0 com máscara 255.255.255.128, 10.112.0.128 com máscara 255.255.255.128, 10.112.1.0 com...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nas sub-redes 10.112.0.0/26, 10.112.0.128/26, 10.112.1.0/26 e 10.112.1.128/26". De acordo com a teoria estudada em *3.3 Computação em Nuvem e Infraestrutura*, failover (Comutação Automática por Falha): Mecanismo de contingência operacional que transfere a carga de processamento de um nó primário indisponível para um nó secundário em espera de forma autônoma e transparente.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a rede disponível não atende a demanda de endereços necessária". De acordo com a teoria estudada em *2.1 Prefixos Técnicos Recorrentes em Computação*, inter- vs. intra-: *interoperability* (interoperabilidade entre sistemas heterogêneos distintos) vs. *intranet* (rede interna privativa).
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 584
-**(CEBRASPE – TRT-8 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-According to the text, the data processing manager is
+**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+The passage in which the verb phrase indicates a necessity is:
 
-* **A)** the head of department and as such he can train and supervise staff.
-* **B)** often asked to evaluate designs.
-* **C)** asked to create the due budget.
-* **D)** required to submit reports to be approved by the staff members.
-* **E)** rarely called to administer the implementation of new or revised systems.
+* **A)** “this incredible ability of the brain […] may be fundamental”;
+* **B)** “some engineers can come up with something”;
+* **C)** “computers don’t work this way”;
+* **D)** “brains don’t store information”;
+* **E)** “it must regulate a body”. NOÇÕES DE DIREITO ADMINISTRATIVO E DE DIREITO CONSTITUCIONAL
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the head of department and as such he can train and supervise staff". De acordo com a teoria estudada em *A Regra de Interpretação da Direita para a Esquerda:*, o substantivo núcleo (*Head Noun*) situa-se sempre na última posição. Todas as palavras que o precedem funcionam como qualificadores adjetivos. O leitor brasileiro deve localizar o último vocábulo e interpretá-lo lendo de trás para frente.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis* deste guia, concessão (Sintagma): *Despite, In spite of* — Apenas Substantivo ou Verbo em *-ing* (NUNCA *despite of*) — *Despite \$\leftrightarrow\$ In spite of* — *"In spite of the replication lag, data consistency held."*. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2016) ao estabelecer que "often asked to evaluate designs".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "asked to create the due budget". De acordo com a teoria estudada em *1.3 Relações de Causa, Explicação e Motivo*, *Exemplo:* *"The latency degradation occurred due to excessive garbage collection cycles."*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "required to submit reports to be approved by the staff members". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, *Exemplo:* *"The microservices architecture offers superior scalability; nevertheless, it introduces non-trivial operational complexity."*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "rarely called to administer the implementation of new or revised systems". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, *Exemplo:* *"SQL systems prioritize ACID transactions, whereas NoSQL systems emphasize eventual consistency and horizontal elasticity."*.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“this incredible ability of the brain […] may be fundamental”". De acordo com a teoria estudada em *1.4 Relações de Consequência, Efeito e Conclusão*, as a result, For this reason (Como resultado, por este motivo): Locuções conclusivas que fecham cadeias argumentativas de causa e efeito.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“some engineers can come up with something”". De acordo com a teoria estudada em *1.2 Relações de Concessão e a Regra do Despite*, despite, In spite of (Apesar de, a despeito de, não obstante): Locuções prepositivas que exigem obrigatoriamente um Sintagma Nominal (*Noun Phrase*) ou um verbo na forma nominal de gerúndio (*-ing*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“computers don’t work this way”". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, a partícula *Unless* já é inerentemente negativa. Construções que associam *unless* a verbos no negativo (*unless you don't comply*) criam dupla negação confusa, explorada pela banca em itens interpretativos capciosos.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“brains don’t store information”". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, *Exemplo:* *"The microservices architecture offers superior scalability; nevertheless, it introduces non-trivial operational complexity."*.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Relações de Concessão e a Regra do Despite* deste guia, although, Even though, Though (Embora, ainda que, se bem que): Conjunções subordinativas concessivas que exigem oração completa com Sujeito e Verbo conjugado (*Subject + Finite Verb*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "“it must regulate a body”. NOÇÕES DE DIREITO ADMINISTRATIVO E DE DIREITO CONSTITUCIONAL".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 

@@ -93,7 +93,7 @@ Para conciliar o modelo contábil patrimonial moderno com as exigências legais 
 ---
 
 ### Teste 280
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Contabilidade – 2024)**
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
 O Plano de Contas Aplicado ao Setor Público (PCASP) elenca alguns tipos de provisões, que estão apresentadas a seguir, à exceção de uma. Assinale-a.
 
 * **A)** Para riscos cíveis.
@@ -109,7 +109,7 @@ O Plano de Contas Aplicado ao Setor Público (PCASP) elenca alguns tipos de prov
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para riscos cíveis". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, atributo `F` (Financeiro): Identifica os bens, direitos e obrigações cuja realização ou liquidação independe de autorização orçamentária subsequente (ex.: Caixa, Bancos Conta Movimento, Restos a Pagar, depósitos de terceiros e retenções).
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para riscos fiscais". De acordo com a teoria estudada em *3.4 Regra da Autonomia e Fechamento das Partidas Dobradas*, no modelo do PCASP, vigora o princípio da autonomia dos subsistemas contábeis. O fechamento do método das partidas dobradas (Débito = Crédito) dá-se estritamente dentro de cada subsistema.
 > - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para riscos trabalhistas". De acordo com a teoria estudada em *5.1 Aprovação da Lei Orçamentária Anual (Previsão da Receita e Fixação da Despesa)*, `D` - `6.2.2.1.1` Crédito Disponível (Classe 6 - Devedora transitória).
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Objetivos Centrais e Abrangência Federativa Obrigatória* deste guia, o Plano de Contas Aplicado ao Setor Público (PCASP) é a espinha dorsal da escrituração contábil e orçamentária governamental no Brasil. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Para crédito de liquidação duvidosa".
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Objetivos Centrais e Abrangência Federativa Obrigatória* deste guia, o Plano de Contas Aplicado ao Setor Público (PCASP) é a espinha dorsal da escrituração contábil e orçamentária governamental no Brasil. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Para crédito de liquidação duvidosa".
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para repartição de créditos tributários". De acordo com a teoria estudada em *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)*, `D` - `1.1.2.X` Créditos Tributários a Receber (Ativo Circulante).
 >
 > **Gabarito: D**
@@ -150,7 +150,7 @@ flowchart LR
 ---
 
 ### Teste 281
-**(FGV – TCE-PA – Auditor de Controle Externo Fiscalizacao Contabilidade – 2024)**
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Contabilidade)**
 Em uma entidade do setor público, para que as aplicações financeiras sejam incluídas na classificação de Equivalente de Caixa, devem atender aos requisitos listados a seguir, à exceção de um. Assinale-o.
 
 * **A)** Serem realizáveis no curto prazo, como, três meses.
@@ -165,7 +165,7 @@ Em uma entidade do setor público, para que as aplicações financeiras sejam in
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Serem realizáveis no curto prazo, como, três meses". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, compõem o Balanço Patrimonial e não afetam diretamente o superávit financeiro de curto prazo.
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estarem sujeitas a risco insignificante de mudança de valor". De acordo com a teoria estudada em *4.2 Quadro Sinótico Consolidado das Classes*, 3: VPD (Variação Patrimonial Diminutiva) — Patrimonial — Devedora — Transações que diminuem o patrimônio líquido (despesas).
-> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Subsistema de Controle (Classes 7 e 8) e Atos Potenciais* deste guia, são eventos que não afetam de imediato o patrimônio líquido da entidade, mas que criam direitos ou obrigações futuras que poderão vir a modificá-lo (ex.: celebração de contratos administrativos de prestação de serviços continuados, convênios de repasse, concessão de avais e fianças a outros entes). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Serem conversíveis para pagamentos de despesas futuras".
+> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Subsistema de Controle (Classes 7 e 8) e Atos Potenciais* deste guia, são eventos que não afetam de imediato o patrimônio líquido da entidade, mas que criam direitos ou obrigações futuras que poderão vir a modificá-lo (ex.: celebração de contratos administrativos de prestação de serviços continuados, convênios de repasse, concessão de avais e fianças a outros entes). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Serem conversíveis para pagamentos de despesas futuras".
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Serem prontamente conversíveis em quantia conhecida de caixa". De acordo com a teoria estudada em *2.1 Estrutura Numérica Decimal (X.X.X.X.X.XX.XX)*, 3º: Subgrupo — 1 — `1.1.1` — Caixa e Equivalentes de Caixa.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Terem como finalidade atender a compromissos de caixa de curto prazo". De acordo com a teoria estudada em *2.2 Detalhamento Federativo vs. Especificidades do Ente*, níveis 6 e 7 (Item e Subitem): Podem ser abertos, detalhados e personalizados por cada ente federado (como o Estado de Goiás e o TCE-GO) para atender às suas particularidades operacionais e gerenciais de controle interno.
 >
@@ -209,26 +209,26 @@ Destina-se ao registro e monitoramento dos **atos potenciais** praticados pela a
 ---
 
 ### Teste 282
-**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
-Na elaboração do Quadro das Contas de Compensação, que compõe o Balanço Patrimonial, assinale a opção que indica, respectivamente, atos potenciais ativos e atos potenciais passivos.
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
+Em uma entidade do setor público, pode ser caracterizada como mudança de política contábil, a mudança relacionada à alteração de
 
-* **A)** Garantias concedidas e garantias recebidas
-* **B)** Direitos contratuais e obrigações contratuais
-* **C)** Ativos contingentes e provisão para contingências
-* **D)** Reservas para contingências e garantias recebidas
-* **E)** Reservas para contingências e passivos contingentes
+* **A)** regime contábil.
+* **B)** montante de estoque obsoleto.
+* **C)** valor justo de ativos financeiros.
+* **D)** valor justo de passivos financeiros.
+* **E)** obrigações decorrentes de garantias.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Garantias concedidas e garantias recebidas". De acordo com a teoria estudada em *4.2 Quadro Sinótico Consolidado das Classes*, 8: Controles Credores — Controle — Credora — Registro de atos potenciais passivos e DDR executada.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Direitos contratuais e obrigações contratuais". De acordo com a teoria estudada em *3.3 Subsistema de Controle (Classes 7 e 8) e Atos Potenciais*, são eventos que não afetam de imediato o patrimônio líquido da entidade, mas que criam direitos ou obrigações futuras que poderão vir a modificá-lo (ex.: celebração de contratos administrativos de prestação de serviços continuados, convênios de repasse, concessão de avais e fianças a outros entes).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ativos contingentes e provisão para contingências". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, compõem o Balanço Patrimonial e não afetam diretamente o superávit financeiro de curto prazo.
-> - **D)** **Correta.** Conforme fundamentado na seção *4.2 Quadro Sinótico Consolidado das Classes* deste guia, 7: Controles Devedores — Controle — Devedora — Registro de atos potenciais ativos e DDR a executar. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "Reservas para contingências e garantias recebidas".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Reservas para contingências e passivos contingentes". De acordo com a teoria estudada em *3.3 Subsistema de Controle (Classes 7 e 8) e Atos Potenciais*, destina-se ao registro e monitoramento dos atos potenciais praticados pela administração pública.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Objetivos Centrais e Abrangência Federativa Obrigatória* deste guia, o Plano de Contas Aplicado ao Setor Público (PCASP) é a espinha dorsal da escrituração contábil e orçamentária governamental no Brasil. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "regime contábil".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "montante de estoque obsoleto". De acordo com a teoria estudada em *3. Os Três Subsistemas de Informação Contábil e Regra da Autonomia*, o PCASP estrutura a contabilidade em três subsistemas autônomos e integrados.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "valor justo de ativos financeiros". De acordo com a teoria estudada em *3.4 Regra da Autonomia e Fechamento das Partidas Dobradas*, jAMAIS ocorrerá lançamento contábil direto debitando uma conta orçamentária (ex.: Classe 6) e creditando uma conta patrimonial (ex.: Classe 1). Lançamentos cruzados entre subsistemas são terminantemente vedados pelo MCASP!.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "valor justo de passivos financeiros". De acordo com a teoria estudada em *4.2 Quadro Sinótico Consolidado das Classes*, 8: Controles Credores — Controle — Credora — Registro de atos potenciais passivos e DDR executada.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "obrigações decorrentes de garantias". De acordo com a teoria estudada em *3.3 Subsistema de Controle (Classes 7 e 8) e Atos Potenciais*, são eventos que não afetam de imediato o patrimônio líquido da entidade, mas que criam direitos ou obrigações futuras que poderão vir a modificá-lo (ex.: celebração de contratos administrativos de prestação de serviços continuados, convênios de repasse, concessão de avais e fianças a outros entes).
 >
-> **Gabarito: D**
+> **Gabarito: A**
 
 ---
 
@@ -277,7 +277,7 @@ flowchart TD
 ---
 
 ### Teste 283
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Direito – 2024)**
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Direito)**
 Uma escola do setor público apresentava saldo bancário negativo, tendo realizado um saque a descoberto. Em decorrência de uma crise financeira, não há expectativa de recomposição imediata do saldo, mas a previsão é de que isso irá ocorrer em cerca de oito meses. No balanço patrimonial da escola, o saldo bancário deve ser é apresentado em
 
 * **A)** Patrimônio líquido.
@@ -291,17 +291,17 @@ Uma escola do setor público apresentava saldo bancário negativo, tendo realiza
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Patrimônio líquido". De acordo com a teoria estudada em *4.2 Quadro Sinótico Consolidado das Classes*, 2: Passivo e Patrimônio Líquido — Patrimonial — Credora — Obrigações exigíveis e situação líquida residual.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ativo circulante". De acordo com a teoria estudada em *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)*, `D` - `1.1.2.X` Créditos Tributários a Receber (Ativo Circulante).
-> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Estrutura Numérica Decimal (X.X.X.X.X.XX.XX)* deste guia, 2º: Grupo — 1 — `1.1` — Ativo Circulante. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Ativo não circulante".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Passivo circulante". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, para conciliar o modelo contábil patrimonial moderno com as exigências legais da Lei Federal nº 4.320/1964, cada conta contábil das classes de Ativo (Classe 1) e Passivo (Classe 2) possui um atributo conceitual indicador de sua natureza financeira ou permanente.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Passivo não circulante". De acordo com a teoria estudada em *5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)*, a afetação do patrimônio (nascimento do passivo em fornecedores e reconhecimento da VPD ou incorporação de ativo) opera-se exclusivamente no estágio da LIQUIDAÇÃO!.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ativo circulante". De acordo com a teoria estudada em *2.1 Estrutura Numérica Decimal (X.X.X.X.X.XX.XX)*, 2º: Grupo — 1 — `1.1` — Ativo Circulante.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ativo não circulante". De acordo com a teoria estudada em *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)*, `D` - `1.1.2.X` Créditos Tributários a Receber (Ativo Circulante).
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)* deste guia, para conciliar o modelo contábil patrimonial moderno com as exigências legais da Lei Federal nº 4.320/1964, cada conta contábil das classes de Ativo (Classe 1) e Passivo (Classe 2) possui um atributo conceitual indicador de sua natureza financeira ou permanente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Passivo circulante".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Passivo não circulante". De acordo com a teoria estudada em *5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)*, a banca frequentemente afirma que o empenho da despesa gera o nascimento de um passivo exigível ou altera o patrimônio líquido da entidade. FALSO! O empenho é mero ato de reserva orçamentária registrado unicamente na Classe 6.
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
 ### Teste 284
-**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
 No último dia útil do mês, o contador responsável pela gestão de pessoal inicia o processamento da folha de pagamentos para reconhecimento do direito adquirido pelos servidores do recebimento do salário de dezembro, a ser pago no quinto dia útil do mês subsequente. A partir do Plano de Contas Aplicado ao Setor Público (PCASP), o reconhecimento da transação, no último dia útil do mês, apresentará reflexo nas seguintes classes:
 
 * **A)** 1 (Ativo) e 2 (Passivo);
@@ -316,11 +316,11 @@ No último dia útil do mês, o contador responsável pela gestão de pessoal in
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 (Ativo) e 2 (Passivo)". De acordo com a teoria estudada em *5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)*, a afetação do patrimônio (nascimento do passivo em fornecedores e reconhecimento da VPD ou incorporação de ativo) opera-se exclusivamente no estágio da LIQUIDAÇÃO!.
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "7 (Controles Devedores) e 8 (Controles Credores)". De acordo com a teoria estudada em *4.2 Quadro Sinótico Consolidado das Classes*, 7: Controles Devedores — Controle — Devedora — Registro de atos potenciais ativos e DDR a executar.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 (Passivo) e 3 (Variações Patrimoniais Diminutivas)". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, para conciliar o modelo contábil patrimonial moderno com as exigências legais da Lei Federal nº 4.320/1964, cada conta contábil das classes de Ativo (Classe 1) e Passivo (Classe 2) possui um atributo conceitual indicador de sua natureza financeira ou permanente.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.1 Subsistema Patrimonial (Classes 1, 2, 3 e 4)* deste guia, opera sob a ótica da competência pura, reconhecendo variações patrimoniais aumentativas (VPA) e diminutivas (VPD) no instante de ocorrência do fato gerador econômico. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "1 (Ativo) e 4 (Variações Patrimoniais Aumentativas)".
+> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Subsistema Patrimonial (Classes 1, 2, 3 e 4)* deste guia, opera sob a ótica da competência pura, reconhecendo variações patrimoniais aumentativas (VPA) e diminutivas (VPD) no instante de ocorrência do fato gerador econômico. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "2 (Passivo) e 3 (Variações Patrimoniais Diminutivas)".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 (Ativo) e 4 (Variações Patrimoniais Aumentativas)". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, para conciliar o modelo contábil patrimonial moderno com as exigências legais da Lei Federal nº 4.320/1964, cada conta contábil das classes de Ativo (Classe 1) e Passivo (Classe 2) possui um atributo conceitual indicador de sua natureza financeira ou permanente.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5 (Controles da Aprovação do Planejamento e Orçamento) e 6 (Controles da Execução do Planejamento e Orçamento)". De acordo com a teoria estudada em *4.2 Quadro Sinótico Consolidado das Classes*, 6: Execução do Orçamento — Orçamentário — Credora — Acompanhamento da receita arrecadada e despesa executada.
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
@@ -377,120 +377,120 @@ A assinatura de um contrato de prestação de serviços continuados (ex.: segura
 ---
 
 ### Teste 285
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
-Maria aplicou suas reservas financeiras em dois ativos diferentes, A e B, sendo metade das suas reservas em cada um deles. Ao final de um ano, o ativo A deu um prejuízo de 5%, mas as duas aplicações juntas deram um lucro de 10%. O rendimento do ativo B, nesse período, foi de
+**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
+Em uma entidade do setor público, o Regime Orçamentário reconhece as despesas orçamentárias no exercício financeiro
 
-* **A)** 5%.
-* **B)** 10%.
-* **C)** 15%.
-* **D)** 20%.
-* **E)** 25%.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5%". De acordo com a teoria estudada em *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)*, `D` - `1.1.2.X` Créditos Tributários a Receber (Ativo Circulante).
-> - **B)** **Correta.** Conforme fundamentado na seção *5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)* deste guia, a afetação do patrimônio (nascimento do passivo em fornecedores e reconhecimento da VPD ou incorporação de ativo) opera-se exclusivamente no estágio da LIQUIDAÇÃO!. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "10%".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "15%". De acordo com a teoria estudada em *2.2 Detalhamento Federativo vs. Especificidades do Ente*, níveis 1 a 5 (PCASP Federativo): A Secretaria do Tesouro Nacional padroniza de forma cogente e uniforme os níveis de 1 a 5 para toda a República Federativa do Brasil, sendo vedado aos Estados e Municípios criar ou alterar nomenclaturas nesses níveis.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "20%". De acordo com a teoria estudada em *4.2 Quadro Sinótico Consolidado das Classes*, 7: Controles Devedores — Controle — Devedora — Registro de atos potenciais ativos e DDR a executar.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "25%". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, para conciliar o modelo contábil patrimonial moderno com as exigências legais da Lei Federal nº 4.320/1964, cada conta contábil das classes de Ativo (Classe 1) e Passivo (Classe 2) possui um atributo conceitual indicador de sua natureza financeira ou permanente.
->
-> **Gabarito: B**
-
----
-
-### Teste 286
-**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
-Assinale a opção que indica uma conta de natureza devedora.
-
-* **A)** Depreciação acumulada.
-* **B)** Provisão para contingências.
-* **C)** Receita recebida antecipadamente.
-* **D)** Gastos na emissão de valores patrimoniais.
-* **E)** Perdas estimadas com crédito de liquidação duvidosa.
+* **A)** da emissão do empenho.
+* **B)** da arrecadação da receita.
+* **C)** da ocorrência da liquidação.
+* **D)** da realização do pagamento.
+* **E)** do acontecimento do fato gerador.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Depreciação acumulada". De acordo com a teoria estudada em *3.1 Subsistema Patrimonial (Classes 1, 2, 3 e 4)*, opera sob a ótica da competência pura, reconhecendo variações patrimoniais aumentativas (VPA) e diminutivas (VPD) no instante de ocorrência do fato gerador econômico.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Provisão para contingências". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, para conciliar o modelo contábil patrimonial moderno com as exigências legais da Lei Federal nº 4.320/1964, cada conta contábil das classes de Ativo (Classe 1) e Passivo (Classe 2) possui um atributo conceitual indicador de sua natureza financeira ou permanente.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Receita recebida antecipadamente". De acordo com a teoria estudada em *5.1 Aprovação da Lei Orçamentária Anual (Previsão da Receita e Fixação da Despesa)*, `D` - `5.2.1.1.1` Previsão Inicial da Receita (Classe 5 - Devedora).
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)* deste guia, atributo `P` (Permanente): Identifica os bens e obrigações cuja movimentação depende de autorização orçamentária prévia ou que decorrem de mutações patrimoniais duradouras (ex.: Edifícios, Veículos, Dívida Fundada Consolidada e Provisões Judiciais). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Gastos na emissão de valores patrimoniais".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Perdas estimadas com crédito de liquidação duvidosa". De acordo com a teoria estudada em *5.1 Aprovação da Lei Orçamentária Anual (Previsão da Receita e Fixação da Despesa)*, `D` - `6.2.2.1.1` Crédito Disponível (Classe 6 - Devedora transitória).
->
-> **Gabarito: D**
-
----
-
-### Teste 287
-**(FGV – TCE-PA – Auditor de Controle Externo Fiscalizacao Contabilidade – 2024)**
-Em uma entidade do setor público, no Quadro das Contas de Compensação no Balanço Patrimonial, são considerados atos potenciais ativos, de acordo com o Manual de Contabilidade Aplicada ao Setor Público (MCASP):
-
-* **A)** garantias e contragarantias recebidas.
-* **B)** obrigações conveniadas e contratuais.
-* **C)** demandas judiciais e contas a pagar.
-* **D)** variações patrimoniais diminutivas pagas antecipadamente.
-* **E)** variações patrimoniais aumentativas recebidas antecipadamente.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *4.2 Quadro Sinótico Consolidado das Classes* deste guia, 7: Controles Devedores — Controle — Devedora — Registro de atos potenciais ativos e DDR a executar. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "garantias e contragarantias recebidas".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "obrigações conveniadas e contratuais". De acordo com a teoria estudada em *3.3 Subsistema de Controle (Classes 7 e 8) e Atos Potenciais*, são eventos que não afetam de imediato o patrimônio líquido da entidade, mas que criam direitos ou obrigações futuras que poderão vir a modificá-lo (ex.: celebração de contratos administrativos de prestação de serviços continuados, convênios de repasse, concessão de avais e fianças a outros entes).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "demandas judiciais e contas a pagar". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, atributo `F` (Financeiro): Identifica os bens, direitos e obrigações cuja realização ou liquidação independe de autorização orçamentária subsequente (ex.: Caixa, Bancos Conta Movimento, Restos a Pagar, depósitos de terceiros e retenções).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "variações patrimoniais diminutivas pagas antecipadamente". De acordo com a teoria estudada em *3.1 Subsistema Patrimonial (Classes 1, 2, 3 e 4)*, opera sob a ótica da competência pura, reconhecendo variações patrimoniais aumentativas (VPA) e diminutivas (VPD) no instante de ocorrência do fato gerador econômico.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "variações patrimoniais aumentativas recebidas antecipadamente". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, atributo `P` (Permanente): Identifica os bens e obrigações cuja movimentação depende de autorização orçamentária prévia ou que decorrem de mutações patrimoniais duradouras (ex.: Edifícios, Veículos, Dívida Fundada Consolidada e Provisões Judiciais).
+> - **A)** **Correta.** Conforme fundamentado na seção *5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)* deste guia, a banca frequentemente afirma que o empenho da despesa gera o nascimento de um passivo exigível ou altera o patrimônio líquido da entidade. FALSO! O empenho é mero ato de reserva orçamentária registrado unicamente na Classe 6. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "da emissão do empenho".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da arrecadação da receita". De acordo com a teoria estudada em *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)*, *Subsistema Orçamentário:* Nenhum lançamento, pois a receita orçamentária só se realiza na arrecadação (regime misto da Lei nº 4.320/1964).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da ocorrência da liquidação". De acordo com a teoria estudada em *5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)*, a afetação do patrimônio (nascimento do passivo em fornecedores e reconhecimento da VPD ou incorporação de ativo) opera-se exclusivamente no estágio da LIQUIDAÇÃO!.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da realização do pagamento". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, atributo `F` (Financeiro): Identifica os bens, direitos e obrigações cuja realização ou liquidação independe de autorização orçamentária subsequente (ex.: Caixa, Bancos Conta Movimento, Restos a Pagar, depósitos de terceiros e retenções).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do acontecimento do fato gerador". De acordo com a teoria estudada em *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)*, lançamento do Tributo (Fato Gerador / Competência).
 >
 > **Gabarito: A**
 
 ---
 
-### Teste 288
-**(FGV – TCE-PA – Auditor de Controle Externo Fiscalizacao Contabilidade – 2024)**
-Assinale a opção que apresenta um exemplo de Teste de Recálculo.
+### Teste 286
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
+Uma entidade do setor público tem uma creche para os empregados deixarem seus filhos de até 5 anos enquanto estão trabalhando. A creche funciona em um andar do prédio da entidade. Em 2023, a entidade recebeu a doação de um terreno, para ser utilizado pela creche, como parque. Na data, o valor justo do terreno era de R$30.000. Assinale a opção que indica a contabilização do terreno pela entidade do setor público em seu balanço patrimonial.
 
-* **A)** Verificação da consistência do balanço e da conta de resultado com o balancete.
-* **B)** Conferência aritmética de compromissos não contabilizados ou não reconhecidos no balanço.
-* **C)** Confirmação de autorizações, pagamentos e certas rubricas do balanço.
-* **D)** Inspeção do registro e do valor de empenho e declarações de despesas/faturas não pagas até o final do exercício, e as garantias relacionadas recebidas.
-* **E)** Exame de quaisquer alterações das regras de contabilidade.
+* **A)** Ativo imobilizado.
+* **B)** Investimentos.
+* **C)** Passivo circulante.
+* **D)** Passivo não circulante.
+* **E)** Não há contabilização.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Verificação da consistência do balanço e da conta de resultado com o balancete". De acordo com a teoria estudada em *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)*, `C` - `4.1.1.X` VPA - Impostos (Classe 4 - VPA de Resultado).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)* deste guia, essas contas compõem o Balanço Financeiro e servem de base para o cálculo do Superávit Financeiro do art. 43, § 2º da Lei nº 4.320/1964. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Conferência aritmética de compromissos não contabilizados ou não reconhecidos no balanço".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Confirmação de autorizações, pagamentos e certas rubricas do balanço". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, compõem o Balanço Patrimonial e não afetam diretamente o superávit financeiro de curto prazo.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Inspeção do registro e do valor de empenho e declarações de despesas/faturas não pagas até o final do exercício, e...". De acordo com a teoria estudada em *5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)*, a banca frequentemente afirma que o empenho da despesa gera o nascimento de um passivo exigível ou altera o patrimônio líquido da entidade. FALSO! O empenho é mero ato de reserva orçamentária registrado unicamente na Classe 6.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Exame de quaisquer alterações das regras de contabilidade". De acordo com a teoria estudada em *3.2 Subsistema Orçamentário (Classes 5 e 6)*, registra a aprovação da proposta orçamentária (créditos iniciais e adicionais na LOA) e o ciclo de execução da receita e da despesa segundo as regras da Lei nº 4.320/1964.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)* deste guia, para conciliar o modelo contábil patrimonial moderno com as exigências legais da Lei Federal nº 4.320/1964, cada conta contábil das classes de Ativo (Classe 1) e Passivo (Classe 2) possui um atributo conceitual indicador de sua natureza financeira ou permanente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Ativo imobilizado".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Investimentos". De acordo com a teoria estudada em *4.2 Quadro Sinótico Consolidado das Classes*, 1: Ativo — Patrimonial — Devedora — Bens e direitos controlados pelo ente público.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Passivo circulante". De acordo com a teoria estudada em *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)*, `D` - `1.1.2.X` Créditos Tributários a Receber (Ativo Circulante).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Passivo não circulante". De acordo com a teoria estudada em *2.1 Estrutura Numérica Decimal (X.X.X.X.X.XX.XX)*, 2º: Grupo — 1 — `1.1` — Ativo Circulante.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não há contabilização". De acordo com a teoria estudada em *5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)*, a afetação do patrimônio (nascimento do passivo em fornecedores e reconhecimento da VPD ou incorporação de ativo) opera-se exclusivamente no estágio da LIQUIDAÇÃO!.
 >
-> **Gabarito: B**
+> **Gabarito: A**
+
+---
+
+### Teste 287
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
+Em momentos de queda da atividade econômica, como o verificado após o choque da COVID-19, é comum o setor público utilizar medidas contracíclicas para estimular a economia. A concessão de incentivos fiscais é um exemplo. Sobre esse tema e sua relação com a Lei de Responsabilidade Fiscal (LRF), é correto afirmar que
+
+* **A)** a avaliação do chamado “gasto tributário” do setor público é objeto de trabalho dos Tribunais de Contas, que encontram amparo legal em normas específicas, haja vista este tema ser uma lacuna na LRF.
+* **B)** a fim de evitar afronta ao previsto na LRF, resta ao setor público a concessão de incentivos fiscais através da redução da base de cálculo dos tributos, sem alterações de alíquotas.
+* **C)** a LRF disciplina tanto a concessão quanto a ampliação de incentivo ou benefício de natureza tributária da qual decorra renúncia de receita considerando o impacto orçamentário no exercício atual e em exercícios futuros.
+* **D)** a demonstração pelo proponente de que a eventual renúncia fiscal foi considerada na estimativa de receita da lei orçamentária não compreende condição que pode justificar a concessão de incentivos.
+* **E)** a compensação do impacto orçamentário-financeiro no exercício em que deva iniciar a vigência do incentivo fiscal é condição suficiente para adequação da renúncia fiscal à LRF.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a avaliação do chamado “gasto tributário” do setor público é objeto de trabalho dos Tribunais de Contas, que...". De acordo com a teoria estudada em *1.1 Objetivos Centrais e Abrangência Federativa Obrigatória*, o Plano de Contas Aplicado ao Setor Público (PCASP) é a espinha dorsal da escrituração contábil e orçamentária governamental no Brasil.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a fim de evitar afronta ao previsto na LRF, resta ao setor público a concessão de incentivos fiscais através da...". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, essas contas compõem o Balanço Financeiro e servem de base para o cálculo do Superávit Financeiro do art. 43, § 2º da Lei nº 4.320/1964.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Subsistema de Controle (Classes 7 e 8) e Atos Potenciais* deste guia, são eventos que não afetam de imediato o patrimônio líquido da entidade, mas que criam direitos ou obrigações futuras que poderão vir a modificá-lo (ex.: celebração de contratos administrativos de prestação de serviços continuados, convênios de repasse, concessão de avais e fianças a outros entes). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "a LRF disciplina tanto a concessão quanto a ampliação de incentivo ou benefício de natureza tributária da qual...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a demonstração pelo proponente de que a eventual renúncia fiscal foi considerada na estimativa de receita da lei...". De acordo com a teoria estudada em *5.1 Aprovação da Lei Orçamentária Anual (Previsão da Receita e Fixação da Despesa)*, na aprovação da LOA pelo Poder Legislativo, os lançamentos ocorrem exclusivamente no Subsistema Orçamentário.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a compensação do impacto orçamentário-financeiro no exercício em que deva iniciar a vigência do incentivo fiscal é...". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, para conciliar o modelo contábil patrimonial moderno com as exigências legais da Lei Federal nº 4.320/1964, cada conta contábil das classes de Ativo (Classe 1) e Passivo (Classe 2) possui um atributo conceitual indicador de sua natureza financeira ou permanente.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 288
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
+Em uma entidade do setor público, os Balanços Orçamentários não consolidados poderão apresentar desequilíbrio e déficit orçamentário, pois muitos deles não são agentes arrecadadores e executam despesas orçamentárias para prestação de serviços públicos e realização de investimentos. Esse fato não representa irregularidade e deve ser
+
+* **A)** reforçado pela administração em relatório especial específico, que não representa demonstração contábil.
+* **B)** contabilizado, de modo complementar, através do Balanço Financeiro, que mostra a variação financeira entre eles.
+* **C)** apresentado, de modo complementar, em balanço orçamentário adicional, elaborado para ressaltar esse aspecto.
+* **D)** evidenciado, de modo complementar, por nota explicativa que demonstre o montante da movimentação financeira relacionado à execução do orçamento do exercício.
+* **E)** contabilizado, de modo complementar, através da Demonstração das Mutações do Patrimônio Líquido, que inclui as variações entre as contas que compõe este elemento.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reforçado pela administração em relatório especial específico, que não representa demonstração contábil". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, para conciliar o modelo contábil patrimonial moderno com as exigências legais da Lei Federal nº 4.320/1964, cada conta contábil das classes de Ativo (Classe 1) e Passivo (Classe 2) possui um atributo conceitual indicador de sua natureza financeira ou permanente.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contabilizado, de modo complementar, através do Balanço Financeiro, que mostra a variação financeira entre eles". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, atributo `P` (Permanente): Identifica os bens e obrigações cuja movimentação depende de autorização orçamentária prévia ou que decorrem de mutações patrimoniais duradouras (ex.: Edifícios, Veículos, Dívida Fundada Consolidada e Provisões Judiciais).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresentado, de modo complementar, em balanço orçamentário adicional, elaborado para ressaltar esse aspecto". De acordo com a teoria estudada em *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)*, *Subsistema Orçamentário:* Nenhum lançamento, pois a receita orçamentária só se realiza na arrecadação (regime misto da Lei nº 4.320/1964).
+> - **D)** **Correta.** Conforme fundamentado na seção *4.2 Quadro Sinótico Consolidado das Classes* deste guia, 6: Execução do Orçamento — Orçamentário — Credora — Acompanhamento da receita arrecadada e despesa executada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "evidenciado, de modo complementar, por nota explicativa que demonstre o montante da movimentação financeira...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contabilizado, de modo complementar, através da Demonstração das Mutações do Patrimônio Líquido, que inclui as...". De acordo com a teoria estudada em *3.3 Subsistema de Controle (Classes 7 e 8) e Atos Potenciais*, são eventos que não afetam de imediato o patrimônio líquido da entidade, mas que criam direitos ou obrigações futuras que poderão vir a modificá-lo (ex.: celebração de contratos administrativos de prestação de serviços continuados, convênios de repasse, concessão de avais e fianças a outros entes).
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 289
-**(FGV – TJ-BA – Analista Judiciario Tecnologia da Informacao – 2015)**
-De acordo com a ei n 1 . , de 2 de novembro de 2 , que disp e sobre a Organização e ivisão udiciária do stado da Bahia, ao escrivão e ao diretor de Secretaria de Vara compete, de modo geral:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Contabilidade)**
+O Balanço Financeiro de uma entidade do setor público apresentava os seguintes saldos: • Saldo para o Exercício seguinte: R$300.000. • Resultado Financeiro do Exercício: R$120.000. Pode-se afirmar que, o saldo do exercício anterior era de
 
-* **A)** manter o edifício do fórum aberto e em condiç es de funcionamento, nos dias e no horário do expediente;
-* **B)** zelar pelo recolhimento da taxa judiciária e demais exig ncias fiscais;
-* **C)** escriturar, em livro especial, com discriminação de cada uma das aras, a receita e a despesa dos depósitos, remetendo ao juiz competente o balanço mensal de escrituração;
-* **D)** fazer inventário e avaliação de bens e lavrar termos de penhora;
-* **E)** cumprir os mandados, fazendo citaç es, intimaç es, notificaç es e outras dilig ncias emanadas do juiz.
+* **A)** R$120.000.
+* **B)** R$180.000.
+* **C)** R$210.000.
+* **D)** R$420.000.
+* **E)** R$480.000.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "manter o edifício do fórum aberto e em condiç es de funcionamento, nos dias e no horário do expediente". De acordo com a teoria estudada em *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)*, `D` - `1.1.2.X` Créditos Tributários a Receber (Ativo Circulante).
-> - **B)** **Correta.** Conforme fundamentado na seção *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)* deste guia, lançamento do Tributo (Fato Gerador / Competência). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-BA/2015) ao estabelecer que "zelar pelo recolhimento da taxa judiciária e demais exig ncias fiscais".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "escriturar, em livro especial, com discriminação de cada uma das aras, a receita e a despesa dos depósitos...". De acordo com a teoria estudada em *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)*, `C` - `4.1.1.X` VPA - Impostos (Classe 4 - VPA de Resultado).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fazer inventário e avaliação de bens e lavrar termos de penhora". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, atributo `F` (Financeiro): Identifica os bens, direitos e obrigações cuja realização ou liquidação independe de autorização orçamentária subsequente (ex.: Caixa, Bancos Conta Movimento, Restos a Pagar, depósitos de terceiros e retenções).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cumprir os mandados, fazendo citaç es, intimaç es, notificaç es e outras dilig ncias emanadas do juiz". De acordo com a teoria estudada em *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)*, *Subsistema Orçamentário:* Nenhum lançamento, pois a receita orçamentária só se realiza na arrecadação (regime misto da Lei nº 4.320/1964).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$120.000". De acordo com a teoria estudada em *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)*, compõem o Balanço Patrimonial e não afetam diretamente o superávit financeiro de curto prazo.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Os Atributos P/F das Contas Contábeis (Financeiro e Permanente)* deste guia, essas contas compõem o Balanço Financeiro e servem de base para o cálculo do Superávit Financeiro do art. 43, § 2º da Lei nº 4.320/1964. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "R$180.000".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$210.000". De acordo com a teoria estudada em *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)*, `C` - `4.1.1.X` VPA - Impostos (Classe 4 - VPA de Resultado).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$420.000". De acordo com a teoria estudada em *5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)*, a banca frequentemente afirma que o empenho da despesa gera o nascimento de um passivo exigível ou altera o patrimônio líquido da entidade. FALSO! O empenho é mero ato de reserva orçamentária registrado unicamente na Classe 6.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$480.000". De acordo com a teoria estudada em *1.1 Objetivos Centrais e Abrangência Federativa Obrigatória*, o Plano de Contas Aplicado ao Setor Público (PCASP) é a espinha dorsal da escrituração contábil e orçamentária governamental no Brasil.
 >
 > **Gabarito: B**
 

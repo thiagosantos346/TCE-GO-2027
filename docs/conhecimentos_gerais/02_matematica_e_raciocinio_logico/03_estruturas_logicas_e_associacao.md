@@ -78,50 +78,50 @@ As informações fornecidas dividem-se em três modalidades lógicas:
 ---
 
 ### Teste 092
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
-A decomposição em valores singulares (Singular Value Decomposition - SVD) é uma técnica para determinar relações entre dados, sendo utilizada no projeto de sistemas de recomendação. Considere a matriz 𝐴= [2 2 3 3], e sua decomposição em valores singulares dada por 𝐴= 𝑈 Σ 𝑉𝑇. Nesse caso, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F). ( ) Os elementos da diagonal principal de Σ são √26 e √6. ( ) Os elementos da primeira coluna da matriz 𝑈 podem ser dados por 2 √13 e 3 √13 . ( ) Os elementos da primeira coluna da matriz 𝑉 podem ser dados por − 3 √13 e 2 √13 . As afirmativas são, respectivamente,
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+Uma lei impôs aos estabelecimentos federais de ensino a utilização de cadeiras adaptadas para alunos com deficiência física ou mobilidade reduzida. Nela foi determinado que o número de cadeiras adaptadas deve ser, no mínimo, igual ao número de alunos regularmente matriculados em cada sala. Deixou a lei de tratar sobre pessoas com deficiência auditiva e visual. Com relação ao tema do enunciado, à Lei nº 10.098/2000, que trata sobre normas gerais e critérios básicos para a promoção da acessibilidade das pessoas com deficiência ou com mobilidade reduzida, e ao pensamento do Supremo Tribunal Federal (STF), é correto afirmar que:
 
-* **A)** V – V – V.
-* **B)** F – V – V.
-* **C)** F – F – V.
-* **D)** F – F – F.
-* **E)** F – V – F.
+* **A)** a Lei nº 10.098/2000 não tratou dos locais de aula para pessoas que utilizam cadeiras de roda, deixando um vácuo suplementado pela aludida lei, que optou pelo uso de cadeiras adaptadas;
+* **B)** a lei federal, em respeito ao princípio da proporcionalidade, deveria estabelecer que o número de cadeiras adaptadas seria o número de alunos com deficiência regularmente matriculados em cada sala;
+* **C)** a Lei nº 10.098/2000 dispôs sobre lugares específicos para pessoas com deficiência auditiva e visual, mas não sobre a presença do respectivo acompanhante, o que obedece à ideia de autonomia;
+* **D)** o respeito à imposição legal não seria um problema orçamentário, pois o aludido critério do número de alunos regularmente matriculados obedece à lógica da integração social;
+* **E)** a referida imposição aos estabelecimentos federais de ensino viola a não discriminação, porque as pessoas com deficiência receberiam tratamento diferenciado em decorrência dessa condição.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – V". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno \$\times\$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *5.2 Condições Necessárias, Suficientes e Redundantes*, condição Suficiente: Aquela que, por si só, basta para fixar uma conclusão ou determinar o sistema sem necessidade de dados complementares.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *1.2 O Princípio da Correspondência Biunívoca*, não há elementos repetidos nem elementos desprovidos de correspondente no modelo padrão (salvo se o enunciado indicar expressamente o contrário).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – F". De acordo com a teoria estudada em *1.3 Tipologia de Pistas e Classificação de Premissas*, afirmações Diretas (Pistas Positivas): Vinculam dois elementos de modo afirmativo e categórico (*"Alice trabalha no gabinete Z"*, *"O economista é de Goiânia"*).
-> - **E)** **Correta.** Conforme fundamentado na seção *1. Fundamentos da Associação Lógica Biunívoca* deste guia, os problemas de estruturas lógicas e relações arbitrárias exigem do candidato a capacidade de reconstruir uma teia de relações entre elementos de universos disjuntos (pessoas, cargos, salas, cidades, veículos, turnos de plantão) a partir de um conjunto restrito e aparentemente fragmentado de pistas informativas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "F – V – F".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a Lei nº 10.098/2000 não tratou dos locais de aula para pessoas que utilizam cadeiras de roda, deixando um vácuo...". De acordo com a teoria estudada em *4.2 Posições Diametralmente Opostas em Mesas Pares*, em mesas circulares com um número par $N$ de assentos ($N = 6$ ou $N = 8$), diz-se que duas pessoas estão sentadas em frente ou diametralmente opostas quando a linha reta que as une passa pelo centro da mesa.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Natureza das Relações Arbitrárias e Conjuntos Finitos* deste guia, nessas questões, a relação entre os entes não decorre de nenhuma lei física ou científica prévia, mas de um cenário ficcional arbitrariamente desenhado pela banca examinadora. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "a lei federal, em respeito ao princípio da proporcionalidade, deveria estabelecer que o número de cadeiras...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a Lei nº 10.098/2000 dispôs sobre lugares específicos para pessoas com deficiência auditiva e visual, mas não...". De acordo com a teoria estudada em *4.2 Posições Diametralmente Opostas em Mesas Pares*, em uma mesa de 6 cadeiras numeradas de 1 a 6 em sentido horário.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o respeito à imposição legal não seria um problema orçamentário, pois o aludido critério do número de alunos...". De acordo com a teoria estudada em *2.3 Tratamento de Pistas Compostas e Vínculos Indiretos*, se sabemos por outra pista que *Bruno reside em Goiânia*, deduz-se imediatamente que *Bruno NÃO é formado em Direito* (pois se o fosse, deveria residir em Aparecida).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a referida imposição aos estabelecimentos federais de ensino viola a não discriminação, porque as pessoas com...". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno $\times$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 
 ### Teste 093
-**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
-Lucas é um trader profissional que trabalha em uma corretora de valores. Ele efetua muitas operações durante o período em que a bolsa negocia seus ativos. Após fazer uma revisão em suas operações do dia, não validou, como sendo efetuadas por ele, algumas das operações que obtiveram prejuízo. Lucas, então, entrou em contato com a corretora e esta demonstrou, a partir de registros de auditoria e garantia de identidade, que as operações em questão realmente foram executadas por ele. Para que a corretora prove que foi Lucas quem realmente executou as operações, ela deve fazer uso do conceito de segurança chamado:
+**(FCC – TRT 2ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Um banco de dados Oracle pode conter muitos esquemas (schemas). Um esquema é uma estrutura lógica que contém objetos, como segmentos, visualizações, procedures, funções etc. Um segmento é uma estrutura de dados que, dentre outras coisas, pode ser
 
-* **A)** confidencialidade;
-* **B)** autenticidade;
-* **C)** integridade;
-* **D)** disponibilidade;
-* **E)** irretratabilidade.
+* **A)** um gatilho.
+* **B)** um objeto definido pelo usuário.
+* **C)** um índice.
+* **D)** uma coleção de tipos de dados.
+* **E)** um link de um banco de dados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "confidencialidade". De acordo com a teoria estudada em *1.1 Natureza das Relações Arbitrárias e Conjuntos Finitos*, os conjuntos fornecidos são finitos e de mesma cardinalidade (por exemplo: 4 auditores, 4 municípios de auditoria e 4 tipos de licitação fiscalizada).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "autenticidade". De acordo com a teoria estudada em *1. Fundamentos da Associação Lógica Biunívoca*, os problemas de estruturas lógicas e relações arbitrárias exigem do candidato a capacidade de reconstruir uma teia de relações entre elementos de universos disjuntos (pessoas, cargos, salas, cidades, veículos, turnos de plantão) a partir de um conjunto restrito e aparentemente fragmentado de pistas informativas.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "integridade". De acordo com a teoria estudada em *1.3 Tipologia de Pistas e Classificação de Premissas*, afirmações Diretas (Pistas Positivas): Vinculam dois elementos de modo afirmativo e categórico (*"Alice trabalha no gabinete Z"*, *"O economista é de Goiânia"*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "disponibilidade". De acordo com a teoria estudada em *1.3 Tipologia de Pistas e Classificação de Premissas*, negações Diretas (Pistas Negativas): Declaram a incompatibilidade mútua entre dois atributos (*"Bruno não é formado em Contabilidade"*, *"Carlos não trabalha na TI"*).
-> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Tipologia de Pistas e Classificação de Premissas* deste guia, pistas Condicionais ou Compostas: Estabelecem vínculos de causa-efeito ou conexões temporais e espaciais simultâneas (*"Se Lucas cuida da Folha, então Mateus cuida do Portal"*; *"O técnico que mora em Anápolis chegou depois de Carlos"*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "irretratabilidade".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um gatilho". De acordo com a teoria estudada em *1. Fundamentos da Associação Lógica Biunívoca*, os problemas de estruturas lógicas e relações arbitrárias exigem do candidato a capacidade de reconstruir uma teia de relações entre elementos de universos disjuntos (pessoas, cargos, salas, cidades, veículos, turnos de plantão) a partir de um conjunto restrito e aparentemente fragmentado de pistas informativas.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um objeto definido pelo usuário". De acordo com a teoria estudada em *1.2 O Princípio da Correspondência Biunívoca*, a premissa implícita em quase todas as questões de associação lógica da FCC é o princípio da bijeção (correspondência biunívoca).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão* deste guia, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno $\times$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 2ª/2014) ao estabelecer que "um índice".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma coleção de tipos de dados". De acordo com a teoria estudada em *5.2 Condições Necessárias, Suficientes e Redundantes*, condição Suficiente: Aquela que, por si só, basta para fixar uma conclusão ou determinar o sistema sem necessidade de dados complementares.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um link de um banco de dados". De acordo com a teoria estudada em *5.2 Condições Necessárias, Suficientes e Redundantes*, a ementa do edital exige expressamente a *"avaliação das condições usadas para estabelecer a estrutura daquelas relações"*.
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 
@@ -171,50 +171,50 @@ Quando o texto apresenta a pista: *"O servidor formado em Direito reside em Apar
 ---
 
 ### Teste 094
-**(FCC – TRT-15 – Analista Judiciario Tecnologia da Informacao – 2015)**
-Renato comprou um cartucho de tinta e dois pacotes de papel para sua impressora gastando, no total, R$ 69,00. Sabe-se que o cartucho de tinta custou 30% mais caro do que os dois pacotes de papel juntos. Se cada um dos pacotes de papel custou o mesmo preço, então, em R$, o preço do cartucho de tinta superou o de um único pacote de papel em
+**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+O verbo indicado entre parênteses deverá flexionar-se em uma forma do plural para preencher corretamente a lacuna da frase:
 
-* **A)** 24,00.
-* **B)** 21,00.
-* **C)** 28,00.
-* **D)** 26,00.
-* **E)** 23,00.
+* **A)** Nem se ...... (pensar) em dar ouvidos às pessoas que não acreditam no poder da arte de contar histórias.
+* **B)** Aos meninos do bairro ...... (parecer) melhor ouvir histórias do que se entreter com jogos eletrônicos.
+* **C)** Das histórias que ouviram nada os ...... (encantar) mais do que as inflexões do narrador.
+* **D)** É improvável que nos anos futuros ...... (deixar) de haver gratas recordações dessas histórias que ouvimos.
+* **E)** Para a maioria dos alunos ainda se ...... (conservar) os momentos mágicos daquela antiga sessão. Matemática e Raciocínio Lógico-Matemático
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *2. Metodologia das Matrizes Cruzadas de Associação* deste guia, a ferramenta mais confiável e à prova de falhas para solucionar problemas de associação multidimensional é a matriz cruzada de pertinência (tabela lógica). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-15/2015) ao estabelecer que "24,00".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "21,00". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno \$\times\$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "28,00". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, se em uma linha de três atributos surgirem dois NÃO, o terceiro campo vazio torna-se compulsoriamente SIM.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "26,00". De acordo com a teoria estudada em *1.3 Tipologia de Pistas e Classificação de Premissas*, pistas Condicionais ou Compostas: Estabelecem vínculos de causa-efeito ou conexões temporais e espaciais simultâneas (*"Se Lucas cuida da Folha, então Mateus cuida do Portal"*; *"O técnico que mora em Anápolis chegou depois de Carlos"*).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "23,00". De acordo com a teoria estudada em *3.3 O Método das Caixas e Blocos Contíguos*, testa-se cada nicho com as demais restrições para descartar inconsistências (se \$C\$ estivesse no 5º lugar, não poderia superar ninguém, o que violaria a regra de que Caio superou Eduardo).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Nem se ...... (pensar) em dar ouvidos às pessoas que não acreditam no poder da arte de contar histórias". De acordo com a teoria estudada em *2.1 Estruturação da Tabela Bidimensional e Tridimensional*, adiciona-se ainda, se necessário, uma submatriz relacionando diretamente as Formações com as Cidades.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aos meninos do bairro ...... (parecer) melhor ouvir histórias do que se entreter com jogos eletrônicos". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, expressão no Enunciado: Significado Lógico Rigoroso — Implicação Estrutural.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Das histórias que ouviram nada os ...... (encantar) mais do que as inflexões do narrador". De acordo com a teoria estudada em *2. Metodologia das Matrizes Cruzadas de Associação*, a ferramenta mais confiável e à prova de falhas para solucionar problemas de associação multidimensional é a matriz cruzada de pertinência (tabela lógica).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É improvável que nos anos futuros ...... (deixar) de haver gratas recordações dessas histórias que ouvimos". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, "A está antes de B": Precedência estrita na ordenação ($\text{Pos}(A) < \text{Pos}(B)$). — Não exige contiguidade; pode haver zero, uma ou múltiplas pessoas entre $A$ e $B$.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão* deste guia, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno $\times$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "Para a maioria dos alunos ainda se ...... (conservar) os momentos mágicos daquela antiga sessão. Matemática e...".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 095
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
-As amigas Alice, Laura e Catarina foram a um shopping comprar coisas de que necessitavam. Uma delas comprou uma bolsa, outra comprou um par de tênis e a terceira comprou um casaco. Sabe-se que, das afirmações a seguir, apenas uma é verdadeira. • Laura comprou a bolsa. • Catarina não comprou o tênis. • Laura não comprou o casaco. Nesse caso, é correto afirmar que
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+O Chefe do Poder Judiciário do Estado de Mato Grosso recebeu solicitação, do Chefe do Poder Executivo do Município Alfa, situado no território do referido Estado, almejando a cessão de João, servidor daquela estrutura de poder. Considerando a sistemática estabelecida pelo regime jurídico a que João está sujeito, é correto afirmar que
 
-* **A)** Catarina comprou a bolsa.
-* **B)** Laura comprou o par de tênis.
-* **C)** Alice comprou o casaco.
-* **D)** Laura comprou a bolsa.
-* **E)** Alice não comprou o par de tênis.
+* **A)** a cessão é vedada, pois somente pode ocorrer entre órgãos do Poder Executivo.
+* **B)** a cessão deve ser limitada a cinco anos, prorrogáveis por interesse da Administração Pública.
+* **C)** realizada a cessão, o ônus da remuneração de João deve ficar a cargo do Poder Judiciário de Mato Grosso.
+* **D)** realizada a cessão, é vedado que João ocupe cargo em comissão no Poder Executivo do Município Alfa.
+* **E)** somente é permitida a cessão caso o Poder Executivo do Município Alfa não tenha quadro de pessoal próprio. MATEMÁTICA, RACIOCÍNIO LÓGICO E ESTATÍSTICA
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Catarina comprou a bolsa". De acordo com a teoria estudada em *3.3 O Método das Caixas e Blocos Contíguos*, se uma pista estabelece que *"Bernardo ficou em colocação imediatamente anterior à de Caio"*, agrupa-se mentalmente o par em uma caixa única: \$[B, C]\$.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Laura comprou o par de tênis". De acordo com a teoria estudada em *4.2 Posições Diametralmente Opostas em Mesas Pares*, em mesas circulares com um número par \$N\$ de assentos (\$N = 6\$ ou \$N = 8\$), diz-se que duas pessoas estão sentadas em frente ou diametralmente opostas quando a linha reta que as une passa pelo centro da mesa.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Alice comprou o casaco". De acordo com a teoria estudada em *5.1 Dedução Hipotética e Eliminação de Contradições*, formula-se uma hipótese arbitrária para uma célula não preenchida (ex.: *"Suponha que Alice more em Anápolis"*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Laura comprou a bolsa". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno \$\times\$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
-> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Tipologia de Pistas e Classificação de Premissas* deste guia, afirmações Diretas (Pistas Positivas): Vinculam dois elementos de modo afirmativo e categórico (*"Alice trabalha no gabinete Z"*, *"O economista é de Goiânia"*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Alice não comprou o par de tênis".
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "a cessão é vedada, pois somente pode ocorrer entre órgãos do Poder Executivo". De acordo com a teoria estudada em *2.3 Tratamento de Pistas Compostas e Vínculos Indiretos*, se sabemos por outra pista que *Bruno reside em Goiânia*, deduz-se imediatamente que *Bruno NÃO é formado em Direito* (pois se o fosse, deveria residir em Aparecida).
+> - **B)** **Correta.** Conforme fundamentado na seção *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão* deste guia, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno $\times$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "a cessão deve ser limitada a cinco anos, prorrogáveis por interesse da Administração Pública".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realizada a cessão, o ônus da remuneração de João deve ficar a cargo do Poder Judiciário de Mato Grosso". De acordo com a teoria estudada em *2.3 Tratamento de Pistas Compostas e Vínculos Indiretos*, quando o texto apresenta a pista: *"O servidor formado em Direito reside em Aparecida de Goiânia"*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realizada a cessão, é vedado que João ocupe cargo em comissão no Poder Executivo do Município Alfa". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, quando o enunciado afirmar que *"André chegou à frente de Caio"*, jamais presuma que André chegou colado a Caio! Isso significa apenas que André precede Caio no tempo ($t_A < t_C$).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente é permitida a cessão caso o Poder Executivo do Município Alfa não tenha quadro de pessoal próprio...". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, expressão no Enunciado: Significado Lógico Rigoroso — Implicação Estrutural.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 
@@ -251,50 +251,50 @@ Se uma pista estabelece que *"Bernardo ficou em colocação imediatamente anteri
 ---
 
 ### Teste 096
-**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
-Há sete participantes de um torneio de tiro ao alvo, cada um disparando um único tiro. Quatro deles (André, Francisco, Sérgio e José) são experientes, e três deles (Eduardo, Fernando e Gabriel) são novatos. Sabe-se que: − para que um novato dispare seu tiro, ele deve ser antecedido e precedido por um atirador experiente; − Fernando é o segundo a disparar seu tiro, enquanto que Sérgio é o último atirador experiente a disparar um tiro; − Francisco dispara antes do que José dispara seu tiro, mas depois do que André dispara seu tiro. Dentre as opções abaixo, NÃO é necessariamente correto que
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+As frases a seguir mostram locuções adjetivas que foram substituídas por adjetivos, indicados entre parênteses. Entre as substituições propostas, assinale aquela que é possível e adequada.
 
-* **A)** Gabriel dispare seu tiro depois de Fernando.
-* **B)** Sérgio dispare seu tiro depois de todos os atiradores novatos.
-* **C)** Fernando é o primeiro novato a disparar um tiro.
-* **D)** Eduardo dispare seu tiro antes do que José.
-* **E)** José dispare seu tiro entre Eduardo e Gabriel.
+* **A)** O artista tem uma concepção original do infinito (infinita).
+* **B)** A vida da cidade (suburbana) é um inferno, mas ninguém quer mudar-se para o paraíso.
+* **C)** Escrever humor é um método de lucro (lucrativo) engraçado.
+* **D)** O dever da literatura (literário) é levar a pessoa a inserir-se na história.
+* **E)** Fora o cachorro, o livro é o melhor amigo do homem (humano). Matemática Financeira, Estatística e Raciocínio Lógico
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gabriel dispare seu tiro depois de Fernando". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, quando o enunciado afirmar que *"André chegou à frente de Caio"*, jamais presuma que André chegou colado a Caio! Isso significa apenas que André precede Caio no tempo (\$t_A < t_C\$).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Sérgio dispare seu tiro depois de todos os atiradores novatos". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, a FCC é rigorosamente precisa na seleção de seus termos relacionais.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Fernando é o primeiro novato a disparar um tiro". De acordo com a teoria estudada em *3.2 Filas, Andares e Classificações em Concurso*, preenchem-se primeiro as posições fixas garantidas (ex.: *"Daniel obteve o 3º lugar"* \$\implies\$ fixa \$D\$ no 3º traço).
-> - **D)** **Correta.** Conforme fundamentado na seção *3.3 O Método das Caixas e Blocos Contíguos* deste guia, testa-se cada nicho com as demais restrições para descartar inconsistências (se \$C\$ estivesse no 5º lugar, não poderia superar ninguém, o que violaria a regra de que Caio superou Eduardo). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "Eduardo dispare seu tiro antes do que José".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "José dispare seu tiro entre Eduardo e Gabriel". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, expressão no Enunciado: Significado Lógico Rigoroso — Implicação Estrutural.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O artista tem uma concepção original do infinito (infinita)". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno $\times$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
+> - **B)** **Correta.** Conforme fundamentado na seção *3.3 O Método das Caixas e Blocos Contíguos* deste guia, testa-se cada nicho com as demais restrições para descartar inconsistências (se $C$ estivesse no 5º lugar, não poderia superar ninguém, o que violaria a regra de que Caio superou Eduardo). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "A vida da cidade (suburbana) é um inferno, mas ninguém quer mudar-se para o paraíso".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Escrever humor é um método de lucro (lucrativo) engraçado". De acordo com a teoria estudada em *3.3 O Método das Caixas e Blocos Contíguos*, se uma pista estabelece que *"Bernardo ficou em colocação imediatamente anterior à de Caio"*, agrupa-se mentalmente o par em uma caixa única: $[B, C]$.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O dever da literatura (literário) é levar a pessoa a inserir-se na história". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, "A está a duas posições de B": A distância modular entre eles é 2 ($ — \text{Pos}(A) - \text{Pos}(B) — = 2$). — Há exatamente uma pessoa posicionada entre $A$ e $B$.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Fora o cachorro, o livro é o melhor amigo do homem (humano). Matemática Financeira, Estatística e Raciocínio Lógico". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, expressão no Enunciado: Significado Lógico Rigoroso — Implicação Estrutural.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
 ### Teste 097
-**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-Aldo, Daniel e Eduardo são três amigos. Dois deles têm 66 anos, e sempre mentem. O outro deles tem 48 anos e sempre diz a verdade. Se Aldo disse “− A idade de Daniel não é 66 anos”, então, é correto afirmar que
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
+A gramática, a mesma árida gramática, transforma-se em algo parecido a uma feitiçaria evocatória; as palavras ressuscitam revestidas de carne e osso, o substantivo em sua majestade substancial, o adjetivo, roupa transparente que o veste e colore como um verniz, e o verbo, anjo do movimento que dá impulso à frase. (Baudelaire) Sobre essa frase, assinale a afirmativa correta.
 
-* **A)** Eduardo e Daniel dizem a verdade.
-* **B)** Aldo e Eduardo mentem.
-* **C)** Eduardo tem 48 anos.
-* **D)** Aldo diz a verdade.
-* **E)** Aldo tem 48 anos.
+* **A)** Ao dizer que o verbo é o anjo do movimento, o autor se refere a todos os verbos da classe por meio de sua característica básica.
+* **B)** Ao usar a metáfora “roupa transparente”, o autor se refere ao fato de o adjetivo determinar o substantivo, dando-lhe qualidades, características ou relações.
+* **C)** Ao afirmar que o adjetivo veste e colore o substantivo “como um verniz”, Baudelaire se refere à inutilidade semântica do adjetivo.
+* **D)** Ao dizer que o substantivo mostra “majestade substancial”, o autor aponta para o fato de o substantivo ser a palavra mais simples da frase.
+* **E)** Ao empregar a metáfora de “feitiçaria” para o trabalho da gramática, o autor cita a propriedade que tem a gramática de mudar as classes das palavras. Raciocínio Lógico-matemático
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Eduardo e Daniel dizem a verdade". De acordo com a teoria estudada em *3.3 O Método das Caixas e Blocos Contíguos*, em uma fila de 5 posições com o 3º lugar já ocupado por Daniel (\$1, 2, \mathbf{D}, 4, 5\$), o bloco contíguo \$[B, C]\$ só pode caber em dois nichos: nas posições \$\{1, 2\}\$ ou nas posições \$\{4, 5\}\$.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aldo e Eduardo mentem". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, se em uma linha de três atributos surgirem dois NÃO, o terceiro campo vazio torna-se compulsoriamente SIM.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.3 O Método das Caixas e Blocos Contíguos* deste guia, testa-se cada nicho com as demais restrições para descartar inconsistências (se \$C\$ estivesse no 5º lugar, não poderia superar ninguém, o que violaria a regra de que Caio superou Eduardo). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "Eduardo tem 48 anos".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aldo diz a verdade". De acordo com a teoria estudada em *4.2 Posições Diametralmente Opostas em Mesas Pares*, em mesas circulares com um número par \$N\$ de assentos (\$N = 6\$ ou \$N = 8\$), diz-se que duas pessoas estão sentadas em frente ou diametralmente opostas quando a linha reta que as une passa pelo centro da mesa.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aldo tem 48 anos". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, quando o enunciado afirmar que *"André chegou à frente de Caio"*, jamais presuma que André chegou colado a Caio! Isso significa apenas que André precede Caio no tempo (\$t_A < t_C\$).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ao dizer que o verbo é o anjo do movimento, o autor se refere a todos os verbos da classe por meio de sua...". De acordo com a teoria estudada em *5. Dedução Lógica e Avaliação de Suficiência de Condições*, a avaliação das condições de contorno de um problema examina a consistência e a suficiência do conjunto de premissas para determinar uma solução única.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Natureza das Relações Arbitrárias e Conjuntos Finitos* deste guia, os conjuntos fornecidos são finitos e de mesma cardinalidade (por exemplo: 4 auditores, 4 municípios de auditoria e 4 tipos de licitação fiscalizada). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "Ao usar a metáfora “roupa transparente”, o autor se refere ao fato de o adjetivo determinar o substantivo...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ao afirmar que o adjetivo veste e colore o substantivo “como um verniz”, Baudelaire se refere à inutilidade...". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, quando o enunciado afirmar que *"André chegou à frente de Caio"*, jamais presuma que André chegou colado a Caio! Isso significa apenas que André precede Caio no tempo ($t_A < t_C$).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ao dizer que o substantivo mostra “majestade substancial”, o autor aponta para o fato de o substantivo ser a...". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno $\times$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ao empregar a metáfora de “feitiçaria” para o trabalho da gramática, o autor cita a propriedade que tem a...". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, expressão no Enunciado: Significado Lógico Rigoroso — Implicação Estrutural.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
@@ -331,50 +331,50 @@ Todos os demais ocupantes não são vizinhos imediatos.
 ---
 
 ### Teste 098
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
-“Se você escolher a cidade como local de residência, você deve estar preparado para escutar a bela música das buzinas e a respirar um ar saudável, enriquecido de fumaça de todas as espécies. Por outro lado, viver no campo é benéfico porque isso permite que você se aproxime da natureza, que escute os belos cantos dos pássaros, sem contar a solidariedade dos vizinhos em caso de aborrecimento ou doença.” Sobre esse segmento textual, é correto afirmar que:
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
+No gerenciamento de redes, a função do protocolo MIB é criar um conjunto de objetos com nomes, tipos e relações entre si para uma entidade a ser gerenciada. Desses objetos, aquele que tem a função de definir as informações sobre a tabela ARP é o
 
-* **A)** a tese defendida no texto é a de que a vida no campo e na cidade apresentam diferentes vantagens;
-* **B)** o conector “Por outro lado”, empregado entre os dois principais segmentos do texto, indica semelhança entre a vida na cidade e a vida no campo;
-* **C)** o processo utilizado pelo argumentador na desvalorização da vida na cidade é a ironia;
-* **D)** os argumentos utilizados na defesa da tese pelo argumentador se apoiam em valores humanos, sociais e econômicos;
-* **E)** o argumentador apresenta de forma imparcial as vantagens e desvantagens de viver-se no campo e na cidade.
+* **A)** sys.
+* **B)** if.
+* **C)** at.
+* **D)** Ip.
+* **E)** Icmp.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a tese defendida no texto é a de que a vida no campo e na cidade apresentam diferentes vantagens". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, se em uma linha de três atributos surgirem dois NÃO, o terceiro campo vazio torna-se compulsoriamente SIM.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o conector “Por outro lado”, empregado entre os dois principais segmentos do texto, indica semelhança entre a vida...". De acordo com a teoria estudada em *2.3 Tratamento de Pistas Compostas e Vínculos Indiretos*, quando o texto apresenta a pista: *"O servidor formado em Direito reside em Aparecida de Goiânia"*.
-> - **C)** **Correta.** Conforme fundamentado na seção *4.3 Vizinhos Imediatos e Adjacências Direita e Esquerda* deste guia, cada ocupante possui exatamente dois vizinhos imediatos (adjacentes). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "o processo utilizado pelo argumentador na desvalorização da vida na cidade é a ironia".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os argumentos utilizados na defesa da tese pelo argumentador se apoiam em valores humanos, sociais e econômicos". De acordo com a teoria estudada em *4.3 Vizinhos Imediatos e Adjacências Direita e Esquerda*, todos os demais ocupantes não são vizinhos imediatos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o argumentador apresenta de forma imparcial as vantagens e desvantagens de viver-se no campo e na cidade". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno \$\times\$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sys". De acordo com a teoria estudada em *1.1 Natureza das Relações Arbitrárias e Conjuntos Finitos*, os conjuntos fornecidos são finitos e de mesma cardinalidade (por exemplo: 4 auditores, 4 municípios de auditoria e 4 tipos de licitação fiscalizada).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "if". De acordo com a teoria estudada em *1. Fundamentos da Associação Lógica Biunívoca*, os problemas de estruturas lógicas e relações arbitrárias exigem do candidato a capacidade de reconstruir uma teia de relações entre elementos de universos disjuntos (pessoas, cargos, salas, cidades, veículos, turnos de plantão) a partir de um conjunto restrito e aparentemente fragmentado de pistas informativas.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Estruturação da Tabela Bidimensional e Tridimensional* deste guia, quando o problema envolve 3 categorias (por exemplo: Nomes, Formações e Cidades), adota-se um conjunto fixo como eixo vertical (comumente os Nomes) e desdobram-se os outros conjuntos nos eixos horizontais adjacentes. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "at".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ip". De acordo com a teoria estudada em *1.3 Tipologia de Pistas e Classificação de Premissas*, as informações fornecidas dividem-se em três modalidades lógicas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Icmp". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno $\times$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 099
-**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Ricardo e Luiz largaram juntos em uma competição de ciclismo disputada em pista circular. Ricardo sempre dá uma volta completa na pista em 28 segundos, enquanto Luiz sempre leva 30 segundos para completar uma volta. Quando Ricardo tiver completado a 70a volta na pista, Luiz estará percorrendo a volta número
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
+Leia a frase abaixo com atenção: Ninguém fica velho apenas por viver, mas por perder o interesse em viver. Assinale a afirmativa correta o significado ou a estruturação dessa frase.
 
-* **A)** 67.
-* **B)** 64.
-* **C)** 65.
-* **D)** 55.
-* **E)** 66.
+* **A)** A relação entre os segmentos da frase não é de oposição, mas de diferença.
+* **B)** O adjetivo “velho”, no contexto da frase, tem alto valor pejorativo.
+* **C)** O segundo segmento da frase retifica algo dito erradamente no primeiro segmento.
+* **D)** O termo “fica velho” pode ser adequadamente substituído por “envelheceu”.
+* **E)** O emprego de “apenas” mostra uma visão negativa do ato de viver. Matemática Financeira, Estatística e Raciocínio Lógico
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "67". De acordo com a teoria estudada em *4.2 Posições Diametralmente Opostas em Mesas Pares*, em mesas circulares com um número par \$N\$ de assentos (\$N = 6\$ ou \$N = 8\$), diz-se que duas pessoas estão sentadas em frente ou diametralmente opostas quando a linha reta que as une passa pelo centro da mesa.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "64". De acordo com a teoria estudada em *4. Problemas de Ordenação Circular e Mesas Redondas*, o raciocínio espacial em arranjos circulares é recorrente em questões que simulam reuniões deliberativas de colegiados de Tribunais de Contas.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "65". De acordo com a teoria estudada em *4.1 Ponto de Vista Referencial e Orientação Espacial*, a resolução exige que o candidato projete seu olhar a partir da cadeira do ocupante analisado, voltado para o centro da mesa circular.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "55". De acordo com a teoria estudada em *2.3 Tratamento de Pistas Compostas e Vínculos Indiretos*, quando o texto apresenta a pista: *"O servidor formado em Direito reside em Aparecida de Goiânia"*.
-> - **E)** **Correta.** Conforme fundamentado na seção *4.1 Ponto de Vista Referencial e Orientação Espacial* deste guia, a rotação no sentido horário corresponde à esquerda de quem está no topo e à direita de quem está na base. Convém sempre desenhar o círculo com setas indicativas de "olhando para dentro". Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "66".
+> - **A)** **Correta.** Conforme fundamentado na seção *4.2 Posições Diametralmente Opostas em Mesas Pares* deste guia, $$\text{Distância de Oposição} = \frac{N}{2} \text{ posições}$$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "A relação entre os segmentos da frase não é de oposição, mas de diferença".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O adjetivo “velho”, no contexto da frase, tem alto valor pejorativo". De acordo com a teoria estudada em *1.1 Natureza das Relações Arbitrárias e Conjuntos Finitos*, nessas questões, a relação entre os entes não decorre de nenhuma lei física ou científica prévia, mas de um cenário ficcional arbitrariamente desenhado pela banca examinadora.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O segundo segmento da frase retifica algo dito erradamente no primeiro segmento". De acordo com a teoria estudada em *3.2 Filas, Andares e Classificações em Concurso*, preenchem-se primeiro as posições fixas garantidas (ex.: *"Daniel obteve o 3º lugar"* $\implies$ fixa $D$ no 3º traço).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O termo “fica velho” pode ser adequadamente substituído por “envelheceu”". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno $\times$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O emprego de “apenas” mostra uma visão negativa do ato de viver. Matemática Financeira, Estatística e Raciocínio...". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, expressão no Enunciado: Significado Lógico Rigoroso — Implicação Estrutural.
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
 ---
 
@@ -402,50 +402,50 @@ A ementa do edital exige expressamente a *"avaliação das condições usadas pa
 ---
 
 ### Teste 100
-**(FCC – TRT-2 – Analista Judiciario Tecnologia da Informacao – 2014)**
-No próximo ano, uma enfermeira deverá estar de plantão em 210 dos 365 dias do ano. No hospital em que ela trabalha, só se permite que uma enfermeira fique de plantão por, no máximo, 3 dias consecutivos. Nessas condições, combinando adequadamente os dias de plantão e de folga, o número máximo de dias consecutivos que ela poderá tirar de folga nesse ano é igual a
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+Pedro, pessoa com deficiência, após concluir a educação básica, almejava ingressar em uma instituição de ensino superior (IES). Ao se inteirar dos seus direitos, visando à participação no processo seletivo, foi-lhe informado que a Lei nº 13.146/2015 lhe assegurava: (1) disponibilização de provas em formatos acessíveis, para atendimento às suas necessidades especiais; (2) disponibilização, de ofício, pela IES, de recursos de acessibilidade, permitindo que ele possa escolher, entre essas opções, aquela que mais se aproxima da satisfação de suas necessidades; (3) dilação de tempo, em 20%, no exame de seleção, a ser oferecida a todas as pessoas com deficiência, incluindo Pedro; e (4) adoção de critérios de avaliação das provas escritas, discursivas ou de redação, que considerem a singularidade linguística de Pedro no domínio da escrita da língua portuguesa. À luz das informações fornecidas a Pedro, é correto afirmar que
 
-* **A)** 78.
-* **B)** 85.
-* **C)** 87.
-* **D)** 90.
-* **E)** 155.
+* **A)** todas estão corretas.
+* **B)** apenas as informações 1 e 4 estão corretas.
+* **C)** apenas as informações 2 e 3 estão corretas.
+* **D)** apenas as informações 1, 3 e 4 estão corretas.
+* **E)** apenas as informações 2, 3 e 4 estão corretas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "78". De acordo com a teoria estudada em *5.2 Condições Necessárias, Suficientes e Redundantes*, a ementa do edital exige expressamente a *"avaliação das condições usadas para estabelecer a estrutura daquelas relações"*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "85". De acordo com a teoria estudada em *5.2 Condições Necessárias, Suficientes e Redundantes*, condição Suficiente: Aquela que, por si só, basta para fixar uma conclusão ou determinar o sistema sem necessidade de dados complementares.
-> - **C)** **Correta.** Conforme fundamentado na seção *5. Dedução Lógica e Avaliação de Suficiência de Condições* deste guia, a avaliação das condições de contorno de um problema examina a consistência e a suficiência do conjunto de premissas para determinar uma solução única. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-2/2014) ao estabelecer que "87".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "90". De acordo com a teoria estudada em *5.2 Condições Necessárias, Suficientes e Redundantes*, condição Necessária: Requisito sem o qual o sistema não atinge a determinação unívoca, gerando graus de liberdade ou ambiguidade entre múltiplos cenários válidos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "155". De acordo com a teoria estudada em *5.2 Condições Necessárias, Suficientes e Redundantes*, condição Redundante: Informação cuja veracidade já havia sido demonstrada pelo encadeamento das premissas precedentes, nada acrescentando à solução final.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todas estão corretas". De acordo com a teoria estudada em *5.1 Dedução Hipotética e Eliminação de Contradições*, quando as pistas diretas não encerram todas as variáveis, recorre-se ao método da bifurcação hipotética.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Tipologia de Pistas e Classificação de Premissas* deste guia, as informações fornecidas dividem-se em três modalidades lógicas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "apenas as informações 1 e 4 estão corretas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas as informações 2 e 3 estão corretas". De acordo com a teoria estudada em *4.2 Posições Diametralmente Opostas em Mesas Pares*, em mesas circulares com um número par $N$ de assentos ($N = 6$ ou $N = 8$), diz-se que duas pessoas estão sentadas em frente ou diametralmente opostas quando a linha reta que as une passa pelo centro da mesa.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas as informações 1, 3 e 4 estão corretas". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, quando o enunciado afirmar que *"André chegou à frente de Caio"*, jamais presuma que André chegou colado a Caio! Isso significa apenas que André precede Caio no tempo ($t_A < t_C$).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas as informações 2, 3 e 4 estão corretas". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno $\times$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
 ### Teste 101
-**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
-Considere uma tabela relacional com uma coluna, intitulada Cidade, que contém as strings “São Paulo”, “Rio de Janeiro”, “Manaus”, “Sao Paulo”, “Manaus”, dispostas uma em cada linha. A execução dos comandos SQL SELECT Cidade FROM Locations where Cidade COLLATE Latin1_General_CI_AI in ('São Paulo','Rio de Janeiro', 'MANAUS') SELECT Cidade FROM Locations where Cidade COLLATE Latin1_General_CI_AS in ('São Paulo','Rio de Janeiro', 'MANAUS') SELECT Cidade FROM Locations where Cidade COLLATE Latin1_General_CS_AI in ('São Paulo','Rio de Janeiro', 'MANAUS') no MS SQL Server produz resultados que, além da linha de títulos, contêm, respectivamente:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Direito)**
+João contratou o empreiteiro Carlos para construir uma casa no terreno que havia comprado, restando pactuado que Carlos, além do trabalho em si, forneceria os materiais para a obra; que o prazo para a construção era de um ano, contados da assinatura do contrato; e que o pagamento do valor acordado seria feito em parcela única ao final da obra. Tão logo iniciada a obra, toda a região sofreu danos inestimáveis em razão de fortes chuvas que alagaram várias cidades do estado que, inclusive, decretou estado de calamidade pública. Em razão das chuvas imprevisíveis em volume e quantidade, a morfologia do terreno em que a casa seria construída foi alterada, exigindo um acréscimo considerável de trabalho e materiais para a conclusão da obra. Além disso, em razão do alagamento de toda a região, várias estradas foram fechadas, assim como o aeroporto da cidade, impossibilitando a entrega de materiais. Diante das novas condições do terreno, do custo do material e da impossibilidade de cumprimento do prazo originalmente pactuado, Carlos procurou João, requerendo a revisão do contrato, o que foi prontamente negado. Diante dessa situação hipotética, assinale a afirmativa correta.
 
-* **A)** 3, 4 e 5 linhas;
-* **B)** 4, 3 e 5 linhas;
-* **C)** 4, 5 e 3 linhas;
-* **D)** 5, 3 e 4 linhas;
-* **E)** 5, 4 e 3 linhas.
+* **A)** Carlos arcará sozinho com o prejuízo decorrente das chuvas e do alagamento, independentemente de serem caracterizados como eventos extraordinários e imprevisíveis, pois incide o princípio da obrigatoriedade dos efeitos contratuais.
+* **B)** Comprovada a onerosidade excessiva em razão das chuvas e alagamento, Carlos pode pedir judicialmente a resolução do contrato, sendo que os efeitos da sentença retroagirão à data da citação.
+* **C)** Caso Carlos requeira a resolução do contrato, João não poderá evitá-la ainda que ofereça modificar equitativamente as condições do contrato em razão da natureza potestativa do direito de Carlos.
+* **D)** Apesar de o princípio da obrigatoriedade dos efeitos contratuais não ser absoluto, Carlos não poderá pedir a resolução do contrato em razão de seu superveniente desequilíbrio, tendo em vista o princípio da conservação dos efeitos contratuais.
+* **E)** Como Carlos assumiu a obrigação de fornecer os materiais, o contrato celebrado com João assume natureza aleatória, razão pela qual não incide a proteção contra a onerosidade excessiva.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3, 4 e 5 linhas". De acordo com a teoria estudada em *5.1 Dedução Hipotética e Eliminação de Contradições*, se o desdobramento conduzir a uma contradição lógica (uma linha sem nenhum elemento verdadeiro, ou duas pessoas com o mesmo cargo), a hipótese é falsa e seu oposto é compulsoriamente verdadeiro.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4, 3 e 5 linhas". De acordo com a teoria estudada em *3. Problemas de Ordenação Linear e Posicionamento Relativo*, os problemas de ordenação linear lidam com grandezas posicionais dispostas em uma única dimensão orientada (classificação de concurso, andares de um edifício, fila de atendimento, ordem cronológica de chegada).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4, 5 e 3 linhas". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, se em uma coluna surgirem todos os campos preenchidos com NÃO exceto um, esse último é obrigatoriamente preenchido com SIM.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5, 3 e 4 linhas". De acordo com a teoria estudada em *2. Metodologia das Matrizes Cruzadas de Associação*, a ferramenta mais confiável e à prova de falhas para solucionar problemas de associação multidimensional é a matriz cruzada de pertinência (tabela lógica).
-> - **E)** **Correta.** Conforme fundamentado na seção *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão* deste guia, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno \$\times\$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "5, 4 e 3 linhas".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Carlos arcará sozinho com o prejuízo decorrente das chuvas e do alagamento, independentemente de serem...". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno $\times$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
+> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Tipologia de Pistas e Classificação de Premissas* deste guia, negações Diretas (Pistas Negativas): Declaram a incompatibilidade mútua entre dois atributos (*"Bruno não é formado em Contabilidade"*, *"Carlos não trabalha na TI"*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Comprovada a onerosidade excessiva em razão das chuvas e alagamento, Carlos pode pedir judicialmente a resolução...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Caso Carlos requeira a resolução do contrato, João não poderá evitá-la ainda que ofereça modificar equitativamente...". De acordo com a teoria estudada em *5.2 Condições Necessárias, Suficientes e Redundantes*, condição Redundante: Informação cuja veracidade já havia sido demonstrada pelo encadeamento das premissas precedentes, nada acrescentando à solução final.
+> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Apesar de o princípio da obrigatoriedade dos efeitos contratuais não ser absoluto, Carlos não poderá pedir a...". De acordo com a teoria estudada em *4.1 Ponto de Vista Referencial e Orientação Espacial*, a resolução exige que o candidato projete seu olhar a partir da cadeira do ocupante analisado, voltado para o centro da mesa circular.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Como Carlos assumiu a obrigação de fornecer os materiais, o contrato celebrado com João assume natureza aleatória...". De acordo com a teoria estudada em *1.3 Tipologia de Pistas e Classificação de Premissas*, pistas Condicionais ou Compostas: Estabelecem vínculos de causa-efeito ou conexões temporais e espaciais simultâneas (*"Se Lucas cuida da Folha, então Mateus cuida do Portal"*; *"O técnico que mora em Anápolis chegou depois de Carlos"*).
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 

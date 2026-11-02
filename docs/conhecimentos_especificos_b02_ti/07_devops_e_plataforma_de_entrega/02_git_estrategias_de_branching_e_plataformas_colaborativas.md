@@ -163,96 +163,90 @@ O **GitLab Flow** une a simplicidade do GitHub Flow à necessidade corporativa d
 ---
 
 ### Teste 182
-**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
-Em uma pequena fábrica, o gestor precisa decidir o volume de produção para o mês seguinte. A partir de informações sobre os custos de produção, preços e projeções de venda, entre outras, o gestor elaborou a matriz de resultados apresentada abaixo. Vendas (unidades) Produção (unidades) Probabilidade 1000 2000 3000 1000 R$4.000,00 -R$500,00 -R$1.000,00 20% 2000 R$2.000,00 R$5.000,00 R$3.000,00 25% 3000 - R$2.000,00 R$8.000,00 R$12.000,00 50% Pelo critério de maior valor esperado, o gestor deve optar por produzir:
+**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
+A solução Flyway permite que seja realizado o controle de versão de código de banco de dados, estendendo o DevOps aos bancos de dados de modo a permitir que se acompanhem as alterações e se aprimore a confiabilidade das implantações de software.
 
-* **A)** 1000 unidades, com valor esperado de R$2.300,00;
-* **B)** 2000 unidades, com valor esperado de R$2.550,00;
-* **C)** 2000 unidades, com valor esperado de R$5.150,00;
-* **D)** 3000 unidades, com valor esperado de R$5.050,00;
-* **E)** 3000 unidades, com valor esperado de R$9.000,00.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1000 unidades, com valor esperado de R$2.300,00". De acordo com a teoria estudada em *1.4 O Modelo GitLab Flow (Ambientes e Versões)*, utilizado quando uma organização precisa manter suporte a múltiplas versões ativas de um mesmo software distribuído (ex.: versões 1.x, 2.x e 3.x).
-> - **B)** **Correta.** Conforme fundamentado na seção *2. Ramos Temporários de Suporte (Short-Lived / Supporting Branches)* deste guia, `hotfix/*`: Nascem diretamente a partir de `main` para solucionar incidentes críticos de segurança ou bugs impeditivos em produção que não podem aguardar o próximo ciclo formal de release. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "2000 unidades, com valor esperado de R$2.550,00".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2000 unidades, com valor esperado de R$5.150,00". De acordo com a teoria estudada em *1. Ramos Perenes (Long-Lived Branches)*, cada commit na branch `main` representa um release oficial de software e deve ser compulsoriamente etiquetado com uma tag semântica (ex.: `v1.0.0`, `v1.1.0`).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3000 unidades, com valor esperado de R$5.050,00". De acordo com a teoria estudada em *2. Ramos Temporários de Suporte (Short-Lived / Supporting Branches)*, uma vez testada e validada, a branch de hotfix deve ser mesclada na `main` (com nova subversão de patch, ex.: `v1.0.1`) E compulsoriamente na `develop`, impedindo que lançamentos futuros reintroduzam a falha que acabara de ser corrigida.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3000 unidades, com valor esperado de R$9.000,00". De acordo com a teoria estudada em *2. Ramos Temporários de Suporte (Short-Lived / Supporting Branches)*, `feature/*`: Nascem exclusivamente a partir de `develop` e realizam merge de volta obrigatoriamente em `develop`. São utilizadas por equipes para implementar funcionalidades específicas sem interferir no trabalho alheio.
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2.2 Squash and Merge (`git merge --squash`)* deste guia, desvantagens: Suprime o detalhamento granular dos micro-passos dados pelo desenvolvedor durante a confecção da funcionalidade. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STJ/2024) ao afirmar que "A solução Flyway permite que seja realizado o controle de versão de código de banco de dados, estendendo o...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *3.2 O Arquivo `CODEOWNERS` e Revisões Bloqueantes*, segundo a qual o arquivo `CODEOWNERS` (alocado na raiz do repositório, dentro da pasta `.github/` ou em `.gitlab/`) permite estabelecer proprietários técnicos e papéis de governança baseados em diretórios ou extensões de arquivos.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 183
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
-Na empresa ABC, a equipe responsável pela implantação de um novo sistema de gestão documental encontra-se em momento crítico do projeto: o plano-base já foi estruturado e aprovado, e a equipe executa as atividades de trabalho voltadas à produção das entregas. Nessa etapa, o gerente de projeto monitora continuamente o progresso para assegurar que o trabalho permaneça dentro da programação e do orçamento, que o escopo seja integralmente atendido conforme as especificações e que eventuais mudanças sejam documentadas, aprovadas e incorporadas a um plano-base atualizado. Considerando o ciclo de vida genérico do projeto, a fase descrita corresponde à de
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
+Ao revisar a EAP de um contrato de infraestrutura de TI, o auditor percebe que o somatório dos custos dos pacotes de trabalho de um nível inferior é menor do que o custo estimado para o nível pai. De acordo com a Regra dos 100%, assinale a afirmativa correta a respeito da falha na construção desse artefato.
 
-* **A)** iniciação.
-* **B)** planejamento.
-* **C)** realização.
-* **D)** encerramento.
-* **E)** avaliação.
+* **A)** Não há falha, pois o nível pai deve prever uma reserva de contingência oculta.
+* **B)** A EAP deve conter apenas atividades e não pacotes de trabalho.
+* **C)** A EAP está incompleta, pois o nível superior deve representar a soma exata de todo o trabalho dos seus subordinados.
+* **D)** O erro é da ferramenta de software utilizada, que não sincronizou os dados.
+* **E)** A EAP deve ser excluída em favor de uma lista de tarefas sequenciais no Excel.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "iniciação". De acordo com a teoria estudada em *1.3 O Modelo GitHub Flow*, criado pela equipe do GitHub, o GitHub Flow é uma abordagem minimalista e centrada na web, amplamente adotada em arquiteturas de microsserviços e sistemas com entregas contínuas.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.4 O Modelo GitLab Flow (Ambientes e Versões)* deste guia, cria-se uma branch perene para cada ambiente do ciclo de vida: `main` (desenvolvimento/integração), `pre-production` (homologação/staging) e `production` (produção real). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "planejamento".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realização". De acordo com a teoria estudada em *1.3 O Modelo GitHub Flow*, premissa Inviolável: A branch `main` é permanentemente estável e a qualquer momento pronta para entrar em produção (*"Anything in the main branch is deployable"*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "encerramento". De acordo com a teoria estudada em *1.4 O Modelo GitLab Flow (Ambientes e Versões)*, o merge entre essas branches dispara automaticamente o pipeline de implantação no respectivo ambiente físico, garantindo que tudo o que entra em produção passou comprovadamente por homologação.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "avaliação". De acordo com a teoria estudada em *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction*, feature Flags / Feature Toggles: Como integrar ao trunk códigos de histórias de usuário complexas que levam duas semanas para serem construídas? A equipe comita e sobe o código diariamente para produção, mas o mantém envolto em uma condicional booleana (*Feature Flag*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não há falha, pois o nível pai deve prever uma reserva de contingência oculta". De acordo com a teoria estudada em *2. Ramos Temporários de Suporte (Short-Lived / Supporting Branches)*, uma vez testada e validada, a branch de hotfix deve ser mesclada na `main` (com nova subversão de patch, ex.: `v1.0.1`) E compulsoriamente na `develop`, impedindo que lançamentos futuros reintroduzam a falha que acabara de ser corrigida.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A EAP deve conter apenas atividades e não pacotes de trabalho". De acordo com a teoria estudada em *1. Ramos Perenes (Long-Lived Branches)*, cada commit na branch `main` representa um release oficial de software e deve ser compulsoriamente etiquetado com uma tag semântica (ex.: `v1.0.0`, `v1.1.0`).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction* deste guia, branch by Abstraction: Padrão arquitetural em nível de código-fonte utilizado para refatorar subsistemas complexos diretamente no trunk: cria-se uma interface/abstração intermediária entre o chamador e a implementação legada; implementa-se o novo componente gradualmente; redireciona-se o chamador para a nova implementação; e expurga-se o código legado do repositório, sem a necessidade de criar branches paralelas de longa duração. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "A EAP está incompleta, pois o nível superior deve representar a soma exata de todo o trabalho dos seus subordinados".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O erro é da ferramenta de software utilizada, que não sincronizou os dados". De acordo com a teoria estudada em *2.1 Create a Merge Commit (`git merge --no-ff`)*, vantagens: Preserva integralmente o histórico original de todos os commits intermediários e a exata demarcação cronológica de que aquele conjunto de linhas foi concebido em uma branch isolada.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A EAP deve ser excluída em favor de uma lista de tarefas sequenciais no Excel". De acordo com a teoria estudada em *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction*, se houver uso de branches de tarefas, elas devem ser estritamente de vida curtíssima (*short-lived feature branches*), durando poucas horas ou no máximo 1 a 2 dias, sendo submetidas a Pull Requests pequenos e fáceis de revisar.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 184
-**(FGV – TJ-BA – Analista Judiciario Tecnologia da Informacao – 2015)**
-Um projeto pode ser dividido em qualquer número de fases. A fase de um projeto é um conjunto de atividades relacionadas de maneira lógica que culmina na conclusão de uma ou mais entregas. Com relação a projetos iterativos e incrementais, analise as afirmativas a seguir: I- Ciclos de vida iterativos e incrementais são aqueles em que as fases do projeto (também chamadas de iterações) intencionalmente repetem uma ou mais atividades de projeto à medida que a compreensão do produto pela equipe do projeto aumenta. II- As atividades de todos os grupos de processos de gerenciamento de projeto serão executadas durante uma iteração. III - No final de cada iteração, uma entrega ou conjunto de entregas será concluído. As iterações futuras podem aprimorar tais entregas ou criar novas entregas. Está correto o que se afirma em:
+**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+No contexto do Gerenciamento da Integração do Projeto são, respectivamente, uma entrada e uma saída do processo Orientar e Gerenciar o Trabalho do Projeto:
 
-* **A)** somente I;
-* **B)** somente II;
-* **C)** somente III;
-* **D)** somente I e II;
-* **E)** I, II e III.
+* **A)** Termo de abertura do projeto; Fatores ambientais da empresa.
+* **B)** Fatores ambientais da empresa; Dados de desempenho do trabalho.
+* **C)** Relatórios de desempenho do trabalho; Ativos de processos organizacionais.
+* **D)** Dados de desempenho do trabalho; Plano de gerenciamento do projeto.
+* **E)** Especificação do trabalho do projeto; Business case.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente I". De acordo com a teoria estudada em *2. Ramos Temporários de Suporte (Short-Lived / Supporting Branches)*, durante a existência da branch de release, é proibida a adição de novas funcionalidades; realizam-se apenas correções de defeitos identificados em homologação, ajustes finos de documentação e bump de versão.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente II". De acordo com a teoria estudada em *1. Ramos Perenes (Long-Lived Branches)*, permanecem ativos durante todo o ciclo de vida do repositório.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente III". De acordo com a teoria estudada em *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction*, se houver uso de branches de tarefas, elas devem ser estritamente de vida curtíssima (*short-lived feature branches*), durando poucas horas ou no máximo 1 a 2 dias, sendo submetidas a Pull Requests pequenos e fáceis de revisar.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente I e II". De acordo com a teoria estudada em *1.1 O Modelo Git Flow: Ramos Perenes e Ramos Temporários*, formalizado por Vincent Driessen em 2010, o Git Flow foi concebido para produtos de software que operam com ciclos de lançamento formais e programados com versionamento semântico estrito (como distribuições empacotadas para desktop, aplicativos de smartphone em lojas de apps e sistemas legados com janelas mensais ou trimestrais de homologação).
-> - **E)** **Correta.** Conforme fundamentado na seção *1.3 O Modelo GitHub Flow* deste guia, criado pela equipe do GitHub, o GitHub Flow é uma abordagem minimalista e centrada na web, amplamente adotada em arquiteturas de microsserviços e sistemas com entregas contínuas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-BA/2015) ao estabelecer que "I, II e III".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Termo de abertura do projeto; Fatores ambientais da empresa". De acordo com a teoria estudada em *2.2 Squash and Merge (`git merge --squash`)*, desvantagens: Suprime o detalhamento granular dos micro-passos dados pelo desenvolvedor durante a confecção da funcionalidade.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Fatores ambientais da empresa; Dados de desempenho do trabalho". De acordo com a teoria estudada em *1. Ramos Perenes (Long-Lived Branches)*, `develop`: Atua como o ramo integrador do trabalho contínuo de desenvolvimento. Reúne as funcionalidades concluídas e testadas que comporão o próximo lançamento planejado.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Relatórios de desempenho do trabalho; Ativos de processos organizacionais". De acordo com a teoria estudada em *1. Ramos Perenes (Long-Lived Branches)*, permanecem ativos durante todo o ciclo de vida do repositório.
+> - **D)** **Correta.** Conforme fundamentado na seção *2. Estratégias de Integração e Mesclagem (Merge Commit, Squash e Rebase)* deste guia, ao aprovar uma *Pull Request* (no GitHub) ou *Merge Request* (no GitLab), as plataformas oferecem três estratégias fundamentais para integrar os commits da branch de trabalho ao ramo de destino. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "Dados de desempenho do trabalho; Plano de gerenciamento do projeto".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Especificação do trabalho do projeto; Business case". De acordo com a teoria estudada em *2. Ramos Temporários de Suporte (Short-Lived / Supporting Branches)*, `feature/*`: Nascem exclusivamente a partir de `develop` e realizam merge de volta obrigatoriamente em `develop`. São utilizadas por equipes para implementar funcionalidades específicas sem interferir no trabalho alheio.
 >
-> **Gabarito: E**
+> **Gabarito: D**
 
 ---
 
 ### Teste 185
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Seguranca da Informacao – 2023)**
-Um especialista em infraestrutura foi contratado para otimizar a transmissão de dados em uma rede local. Pela premissa de que a camada de rede oferece serviços à camada de transporte, os serviços precisam ser cuidadosamente planejados tendo em vista os objetivos a seguir. 1. Os serviços devem ser independentes da tecnologia presente nos roteadores. 2. A camada de transporte deve ser isolada do número, do tipo e da topologia dos roteadores presentes. 3. Os endereços de rede que tornam os pacotes disponíveis para a camada de transporte devem usar um plano de numeração uniforme, mesmo nas LANs e WANs. A camada de rede deve fornecer serviço orientado a conexões. Para tal, o especialista poderá optar pelas tecnologias:
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+Quanto aos critérios e diretrizes técnicas para o processo de desenvolvimento de módulos e serviços na Plataforma Digital do Poder Judiciário Brasileiro – PDPJ-Br, assinale V para a afirmativa verdadeira e F para a falsa. I. Os módulos estruturantes do PDPJ-Br seguem o modelo arquitetural de microsserviços, que deverão ser obrigatoriamente modelados utilizando-se a metodologia Domain Driven Design (DDD). II. O controle de versionamento de microserviços poderá empregar como sistema de controle de versões: Git, SVN ou CVS. III. O CNJ desenvolveu o UIKit como conjunto de ferramentas de interface gráfica, de adoção opcional, como identidade visual dos módulos desenvolvidos dentro da PDPJ-Br As afirmativas são, respectivamente,
 
-* **A)** MPLS e VLANs;
-* **B)** Rede de datagramas e ATM;
-* **C)** VLANs e Rede de datagramas;
-* **D)** UDP e Rede de circuitos virtuais;
-* **E)** Rede de datagramas e Rede de circuitos virtuais.
+* **A)** F, F e F.
+* **B)** F, F e V.
+* **C)** V, V e F.
+* **D)** V, V e V.
+* **E)** F, V e F.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction* deste guia, se houver uso de branches de tarefas, elas devem ser estritamente de vida curtíssima (*short-lived feature branches*), durando poucas horas ou no máximo 1 a 2 dias, sendo submetidas a Pull Requests pequenos e fáceis de revisar. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "MPLS e VLANs".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Rede de datagramas e ATM". De acordo com a teoria estudada em *1. Ramos Perenes (Long-Lived Branches)*, cada commit na branch `main` representa um release oficial de software e deve ser compulsoriamente etiquetado com uma tag semântica (ex.: `v1.0.0`, `v1.1.0`).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "VLANs e Rede de datagramas". De acordo com a teoria estudada em *2. Ramos Temporários de Suporte (Short-Lived / Supporting Branches)*, uma vez testada e validada, a branch de hotfix deve ser mesclada na `main` (com nova subversão de patch, ex.: `v1.0.1`) E compulsoriamente na `develop`, impedindo que lançamentos futuros reintroduzam a falha que acabara de ser corrigida.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "UDP e Rede de circuitos virtuais". De acordo com a teoria estudada em *1.3 O Modelo GitHub Flow*, premissa Inviolável: A branch `main` é permanentemente estável e a qualquer momento pronta para entrar em produção (*"Anything in the main branch is deployable"*).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Rede de datagramas e Rede de circuitos virtuais". De acordo com a teoria estudada em *1.4 O Modelo GitLab Flow (Ambientes e Versões)*, o GitLab Flow une a simplicidade do GitHub Flow à necessidade corporativa de gerenciar múltiplos ambientes de infraestrutura e suporte a versões legadas.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction* deste guia, branch by Abstraction: Padrão arquitetural em nível de código-fonte utilizado para refatorar subsistemas complexos diretamente no trunk: cria-se uma interface/abstração intermediária entre o chamador e a implementação legada; implementa-se o novo componente gradualmente; redireciona-se o chamador para a nova implementação; e expurga-se o código legado do repositório, sem a necessidade de criar branches paralelas de longa duração. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "F, F e F".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, F e V". De acordo com a teoria estudada em *1.4 O Modelo GitLab Flow (Ambientes e Versões)*, cria-se uma branch perene para cada ambiente do ciclo de vida: `main` (desenvolvimento/integração), `pre-production` (homologação/staging) e `production` (produção real).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, V e F". De acordo com a teoria estudada em *1.1 O Modelo Git Flow: Ramos Perenes e Ramos Temporários*, formalizado por Vincent Driessen em 2010, o Git Flow foi concebido para produtos de software que operam com ciclos de lançamento formais e programados com versionamento semântico estrito (como distribuições empacotadas para desktop, aplicativos de smartphone em lojas de apps e sistemas legados com janelas mensais ou trimestrais de homologação).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, V e V". De acordo com a teoria estudada em *1.4 O Modelo GitLab Flow (Ambientes e Versões)*, correções de bugs são aplicadas primeiro na `main` e depois retroalimentadas (*backported*) nas branches de versão ativas através de comandos `git cherry-pick`.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, V e F". De acordo com a teoria estudada em *1.3 O Modelo GitHub Flow*, criado pela equipe do GitHub, o GitHub Flow é uma abordagem minimalista e centrada na web, amplamente adotada em arquiteturas de microsserviços e sistemas com entregas contínuas.
 >
 > **Gabarito: A**
 
@@ -299,74 +293,74 @@ flowchart TD
 ---
 
 ### Teste 186
-**(FCC – TRT-3 – Analista Judiciario Tecnologia da Informacao – 2015)**
-No MPS.BR (Agosto 2012) − Nível G do MR-MPS-SV − Parcialmente Gerenciado, o processo Gerência de Requisitos − GRE, tem como propósito gerenciar os requisitos de trabalho e dos componentes de trabalho e identificar inconsistências entre os requisitos, os planos de trabalho e os produtos de trabalho. Considere seus resultados esperados: I. A rastreabilidade unidirecional entre os requisitos e os produtos de trabalho é estabelecida e mantida. II. Os requisitos são avaliados com base em critérios objetivos e um comprometimento da equipe técnica com estes requisitos é obtido. III. Mudanças nos requisitos são gerenciadas apenas no final do trabalho. IV. Revisões em planos e produtos derivados do trabalho são realizadas visando identificar e corrigir inconsistências em relação aos requisitos. Está correto o que consta APENAS em
+**(FCC – TRT 2ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+O nível de maturidade B do MPS.BR (Gerenciado Quantitativamente), é composto pelos processos dos níveis de maturidade anteriores (G ao C). Este nível de maturidade
 
-* **A)** II e III.
-* **B)** I, II e IV.
-* **C)** III e IV.
-* **D)** I e III.
-* **E)** II e IV.
+* **A)** deve satisfazer integralmente os atributos de processo AP 4.1, AP 4.2, AP 5.1 e AP 5.2.
+* **B)** possui, dentre seus processos específicos, Gerenciamento de Decisões e Gerência de Riscos.
+* **C)** não possui processos específicos.
+* **D)** possui, dentre seus processos específicos, Desenvolvimento de Requisitos e Validação e Verificação.
+* **E)** possui, dentre seus processos específicos, Gerência de Requisitos e Gerência de Projetos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction*, branch by Abstraction: Padrão arquitetural em nível de código-fonte utilizado para refatorar subsistemas complexos diretamente no trunk: cria-se uma interface/abstração intermediária entre o chamador e a implementação legada; implementa-se o novo componente gradualmente; redireciona-se o chamador para a nova implementação; e expurga-se o código legado do repositório, sem a necessidade de criar branches paralelas de longa duração.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e IV". De acordo com a teoria estudada em *1.3 O Modelo GitHub Flow*, abre-se uma *Pull Request* precocemente para iniciar a discussão técnica e executar pipelines de CI automatizados.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III e IV". De acordo com a teoria estudada em *1.4 O Modelo GitLab Flow (Ambientes e Versões)*, o GitLab Flow une a simplicidade do GitHub Flow à necessidade corporativa de gerenciar múltiplos ambientes de infraestrutura e suporte a versões legadas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *3. Governança, Regras de Proteção de Branches e `CODEOWNERS`*, em instituições governamentais e órgãos de controle externo como o TCE-GO, os repositórios de código constituem ativos estratégicos sujeitos a rígidos requisitos de conformidade, trilhas de auditoria e segregação de funções.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.1 O Modelo Git Flow: Ramos Perenes e Ramos Temporários* deste guia, formalizado por Vincent Driessen em 2010, o Git Flow foi concebido para produtos de software que operam com ciclos de lançamento formais e programados com versionamento semântico estrito (como distribuições empacotadas para desktop, aplicativos de smartphone em lojas de apps e sistemas legados com janelas mensais ou trimestrais de homologação). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-3/2015) ao estabelecer que "II e IV".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve satisfazer integralmente os atributos de processo AP 4.1, AP 4.2, AP 5.1 e AP 5.2". De acordo com a teoria estudada em *2.1 Create a Merge Commit (`git merge --no-ff`)*, vantagens: Preserva integralmente o histórico original de todos os commits intermediários e a exata demarcação cronológica de que aquele conjunto de linhas foi concebido em uma branch isolada.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "possui, dentre seus processos específicos, Gerenciamento de Decisões e Gerência de Riscos". De acordo com a teoria estudada em *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction*, branch by Abstraction: Padrão arquitetural em nível de código-fonte utilizado para refatorar subsistemas complexos diretamente no trunk: cria-se uma interface/abstração intermediária entre o chamador e a implementação legada; implementa-se o novo componente gradualmente; redireciona-se o chamador para a nova implementação; e expurga-se o código legado do repositório, sem a necessidade de criar branches paralelas de longa duração.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Create a Merge Commit (`git merge --no-ff`)* deste guia, operação Subjacente: Executa um merge do tipo *no fast-forward*. Cria um nó de commit especial na árvore do Git que possui dois nós pais: o último commit da branch de destino e o último commit da branch de trabalho. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 2ª/2014) ao estabelecer que "não possui processos específicos".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "possui, dentre seus processos específicos, Desenvolvimento de Requisitos e Validação e Verificação". De acordo com a teoria estudada em *1.3 O Modelo GitHub Flow*, após aprovação em revisão por pares e nos testes automatizados, o código é implantado em produção (para validação imediata).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "possui, dentre seus processos específicos, Gerência de Requisitos e Gerência de Projetos". De acordo com a teoria estudada em *3. Governança, Regras de Proteção de Branches e `CODEOWNERS`*, em instituições governamentais e órgãos de controle externo como o TCE-GO, os repositórios de código constituem ativos estratégicos sujeitos a rígidos requisitos de conformidade, trilhas de auditoria e segregação de funções.
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 
 ### Teste 187
-**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
-A imagem a seguir mostra uma representação das etapas do processo de desenvolvimento de software e os tipos de testes aplicados em cada etapa. Tipo de teste I Tipo de teste II Tipo de teste III Levantamento de Requisitos Codificação Especificação de Classes Manutenção Tipo de teste VI Modelagem de Negócios Prototipagem Projeto e Arquitetura Tipo de teste V Tipo de teste IV O mais adequado para Tipo de Teste II é o teste
+**(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Considere as definições abaixo. I. Uma “constelação” é definida como uma coleção de componentes que são usados para construir modelos, materiais de treinamento e documentos relacionados à avaliação para uma área de interesse. Por exemplo, aquisição, desenvolvimento, serviços. II. Uma de suas metas é definir e aprimorar um modelo de melhoria e avaliação de processo de software, visando preferencialmente às micro, pequenas e médias empresas, de forma a atender as suas necessidades de negócio e ser reconhecido nacional e internacionalmente como um modelo aplicável à indústria de software. As definições I e II referem-se, respectivamente, ao
 
-* **A)** de sistema.
-* **B)** de regressão.
-* **C)** de aceitação.
-* **D)** funcional.
-* **E)** de unidade.
+* **A)** MPS.BR e ao CMMI.
+* **B)** PMBoK e ao CobiT.
+* **C)** CMMI e ao MPS.BR.
+* **D)** CobiT e ao MPS.BR.
+* **E)** PMBoK e ao CMMI.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de sistema". De acordo com a teoria estudada em *2.1 Create a Merge Commit (`git merge --no-ff`)*, desvantagens: Pode transformar o grafo visual do repositório em uma "teia de espaguete" de difícil interpretação, repleta de commits triviais como *"wip"*, *"corrigindo typo"* ou *"ajuste de teste"*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de regressão". De acordo com a teoria estudada em *2.3 Rebase and Merge (`git rebase`)*, operação Subjacente: Pega os commits individuais da branch de trabalho e os reaplica um a um sobre a ponta mais recente da branch de destino, gerando um histórico estritamente linear sem nós de merge intermediários.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Create a Merge Commit (`git merge --no-ff`)* deste guia, operação Subjacente: Executa um merge do tipo *no fast-forward*. Cria um nó de commit especial na árvore do Git que possui dois nós pais: o último commit da branch de destino e o último commit da branch de trabalho. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "de aceitação".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "funcional". De acordo com a teoria estudada em *2.2 Squash and Merge (`git merge --squash`)*, vantagens: Mantém o histórico do branch principal (`main`) estritamente limpo, coeso e legível. Cada commit na `main` corresponde a uma entrega funcional completa (*atomic commit*).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de unidade". De acordo com a teoria estudada em *3. Governança, Regras de Proteção de Branches e `CODEOWNERS`*, em instituições governamentais e órgãos de controle externo como o TCE-GO, os repositórios de código constituem ativos estratégicos sujeitos a rígidos requisitos de conformidade, trilhas de auditoria e segregação de funções.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "MPS.BR e ao CMMI". De acordo com a teoria estudada em *2.2 Squash and Merge (`git merge --squash`)*, desvantagens: Suprime o detalhamento granular dos micro-passos dados pelo desenvolvedor durante a confecção da funcionalidade.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PMBoK e ao CobiT". De acordo com a teoria estudada em *1.4 O Modelo GitLab Flow (Ambientes e Versões)*, cria-se uma branch perene para cada ambiente do ciclo de vida: `main` (desenvolvimento/integração), `pre-production` (homologação/staging) e `production` (produção real).
+> - **C)** **Correta.** Conforme fundamentado na seção *1. Ramos Perenes (Long-Lived Branches)* deste guia, cada commit na branch `main` representa um release oficial de software e deve ser compulsoriamente etiquetado com uma tag semântica (ex.: `v1.0.0`, `v1.1.0`). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 16ª/2014) ao estabelecer que "CMMI e ao MPS.BR".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CobiT e ao MPS.BR". De acordo com a teoria estudada em *1.1 O Modelo Git Flow: Ramos Perenes e Ramos Temporários*, formalizado por Vincent Driessen em 2010, o Git Flow foi concebido para produtos de software que operam com ciclos de lançamento formais e programados com versionamento semântico estrito (como distribuições empacotadas para desktop, aplicativos de smartphone em lojas de apps e sistemas legados com janelas mensais ou trimestrais de homologação).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PMBoK e ao CMMI". De acordo com a teoria estudada em *1.4 O Modelo GitLab Flow (Ambientes e Versões)*, utilizado quando uma organização precisa manter suporte a múltiplas versões ativas de um mesmo software distribuído (ex.: versões 1.x, 2.x e 3.x).
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 188
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Sistemas – 2021)**
-Para apoiar a análise de negócios, o OMG (Object Management Group) publicou uma norma que está disponível para os analistas como DMN (Decision Model and Notation). Essa notação
+**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+Os testes de software podem ser aplicados no ciclo de desenvolvimento de software através de vários níveis que vão desde o mais elementar até o mais geral. Na etapa de planejamento de testes, inicialmente, a partir do documento de requisitos, é planejado o teste de
 
-* **A)** oferece recursos inexistentes na BPMN, como a modelagem de decisões e de regras de negócio.
-* **B)** preenche uma lacuna na UML, que não oferece um diagrama para descrever os processos de negócio.
-* **C)** é voltada para a criação de um modelo de decisão mais detalhado e foi projetada para ser usada juntamente com a notação de processos de negócio BPMN padrão.
-* **D)** é voltada para definir as etapas de um processo de negócio.
-* **E)** tem sua especificação protegida por ser um padrão
+* **A)** <samp> e </samp>
+* **B)** <kbd> e </kbd>
+* **C)** <fixed> e </fixed>
+* **D)** <pre> e </pre>
+* **E)** <operation> e </operation>
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "oferece recursos inexistentes na BPMN, como a modelagem de decisões e de regras de negócio". De acordo com a teoria estudada em *3.1 Regras de Proteção de Branches (Branch Protection Rules)*, revisão Obrigatória por Pares (*Required Approvals*): Condiciona o merge à aprovação formal de ao menos um (ou mais) revisores humanos qualificados, impedindo a auto-aprovação de código pelo próprio autor.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "preenche uma lacuna na UML, que não oferece um diagrama para descrever os processos de negócio". De acordo com a teoria estudada em *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction*, branch by Abstraction: Padrão arquitetural em nível de código-fonte utilizado para refatorar subsistemas complexos diretamente no trunk: cria-se uma interface/abstração intermediária entre o chamador e a implementação legada; implementa-se o novo componente gradualmente; redireciona-se o chamador para a nova implementação; e expurga-se o código legado do repositório, sem a necessidade de criar branches paralelas de longa duração.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.3 Rebase and Merge (`git rebase`)* deste guia, operação Subjacente: Pega os commits individuais da branch de trabalho e os reaplica um a um sobre a ponta mais recente da branch de destino, gerando um histórico estritamente linear sem nós de merge intermediários. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "é voltada para a criação de um modelo de decisão mais detalhado e foi projetada para ser usada juntamente com a...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é voltada para definir as etapas de um processo de negócio". De acordo com a teoria estudada em *1.5 Matriz Comparativa Síntese entre os Modelos de Ramificação*, aderência ao DevOps / CI/CD: Baixa (silos temporais em branches) — Padrão Ouro (Recomendado DORA) — Alta para web e microsserviços — Alta para governança corporativa.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tem sua especificação protegida por ser um padrão". De acordo com a teoria estudada em *1. Ramos Perenes (Long-Lived Branches)*, cada commit na branch `main` representa um release oficial de software e deve ser compulsoriamente etiquetado com uma tag semântica (ex.: `v1.0.0`, `v1.1.0`).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<samp>` e `</samp>`". De acordo com a teoria estudada em *1. Ramos Perenes (Long-Lived Branches)*, `develop`: Atua como o ramo integrador do trabalho contínuo de desenvolvimento. Reúne as funcionalidades concluídas e testadas que comporão o próximo lançamento planejado.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<kbd>` e `</kbd>`". De acordo com a teoria estudada em *1.4 O Modelo GitLab Flow (Ambientes e Versões)*, cria-se uma branch perene para cada ambiente do ciclo de vida: `main` (desenvolvimento/integração), `pre-production` (homologação/staging) e `production` (produção real).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<fixed>` e `</fixed>`". De acordo com a teoria estudada em *1. Ramos Perenes (Long-Lived Branches)*, cada commit na branch `main` representa um release oficial de software e deve ser compulsoriamente etiquetado com uma tag semântica (ex.: `v1.0.0`, `v1.1.0`).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<pre>` e `</pre>`". De acordo com a teoria estudada em *1.4 O Modelo GitLab Flow (Ambientes e Versões)*, o código flui em sentido único: da `main` para `pre-production`, e de `pre-production` para `production`.
+> - **E)** **Correta.** Conforme fundamentado na seção *2. Ramos Temporários de Suporte (Short-Lived / Supporting Branches)* deste guia, `hotfix/*`: Nascem diretamente a partir de `main` para solucionar incidentes críticos de segurança ou bugs impeditivos em produção que não podem aguardar o próximo ciclo formal de release. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "`<operation>` e `</operation>`".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
@@ -417,74 +411,68 @@ O arquivo **`CODEOWNERS`** (alocado na raiz do repositório, dentro da pasta `.g
 ---
 
 ### Teste 189
-**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Ao comparar os servidores de aplicação Red Hat JBoss EAP versões 5 e 6, visando a instalação e configuração da versão 6, um Analista afirma corretamente que
+**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
+O grupo revisor de código-fonte das soluções da PDPJ-Br pode aceitar merge requests no código-fonte sem a necessidade de aprovação de testes, desde que a funcionalidade desenvolvida atenda às necessidades operacionais.
 
-* **A)** no JBoss EAP 6 a fonte de dados é configurada no arquivo de configuração do servidor. Caso a instância do JBoss EAP estiver sendo executada como servidor autônomo, a fonte de dados é configurada no arquivo standalone/ configuration/standalone.xml.
-* **B)** o JBoss Messaging passou a ser incluído no JBoss EAP 6, já que o JBoss EAP 5 usava o HornetQ como provedor messaging.
-* **C)** no JBoss EAP 5 a arquitetura de carregamento de classe era baseado nos JBoss Modules, mas no JBoss EAP6, o carregamento de classe é hierárquico, ocultando as classes de implementação do servidor e carregando apenas as classes que o aplicativo necessita.
-* **D)** no JBoss EAP 5, o servidor podia ser executado em um managed domain, mas no JBoss EAP 6 executa como um servidor autônomo, permitindo configurar todos os grupos dos servidores de uma só vez, mantendo as configurações sincronizadas por toda a rede de servidores.
-* **E)** o JBoss EAP 5 usava perfis baseados na configuração de implantação, localizados no diretório EAP_HOME/ configuration/. No JBoss EAP 6, a configuração da implantação é feita usando um arquivo e um servidor autônomo, que é configurado usando o arquivo EAP_HOME/domain/server/domain.xml.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.2 O Arquivo `CODEOWNERS` e Revisões Bloqueantes* deste guia, mecânica de Aplicação: Quando um desenvolvedor abre uma *Pull Request* alterando qualquer arquivo coberto pelas regras do `CODEOWNERS`, a plataforma Git adiciona automaticamente e de forma obrigatória as equipes ou usuários especificados como revisores bloqueantes. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "no JBoss EAP 6 a fonte de dados é configurada no arquivo de configuração do servidor. Caso a instância do JBoss...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o JBoss Messaging passou a ser incluído no JBoss EAP 6, já que o JBoss EAP 5 usava o HornetQ como provedor...". De acordo com a teoria estudada em *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction*, se houver uso de branches de tarefas, elas devem ser estritamente de vida curtíssima (*short-lived feature branches*), durando poucas horas ou no máximo 1 a 2 dias, sendo submetidas a Pull Requests pequenos e fáceis de revisar.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "no JBoss EAP 5 a arquitetura de carregamento de classe era baseado nos JBoss Modules, mas no JBoss EAP6, o...". De acordo com a teoria estudada em *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction*, branch by Abstraction: Padrão arquitetural em nível de código-fonte utilizado para refatorar subsistemas complexos diretamente no trunk: cria-se uma interface/abstração intermediária entre o chamador e a implementação legada; implementa-se o novo componente gradualmente; redireciona-se o chamador para a nova implementação; e expurga-se o código legado do repositório, sem a necessidade de criar branches paralelas de longa duração.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "no JBoss EAP 5, o servidor podia ser executado em um managed domain, mas no JBoss EAP 6 executa como um servidor...". De acordo com a teoria estudada em *1. Ramos Perenes (Long-Lived Branches)*, `main` (ou `master`): Armazena exclusivamente o código em estado de prontidão para produção ou que já está rodando nos servidores produtivos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o JBoss EAP 5 usava perfis baseados na configuração de implantação, localizados no diretório EAP_HOME/...". De acordo com a teoria estudada em *3.2 O Arquivo `CODEOWNERS` e Revisões Bloqueantes*, o arquivo `CODEOWNERS` (alocado na raiz do repositório, dentro da pasta `.github/` ou em `.gitlab/`) permite estabelecer proprietários técnicos e papéis de governança baseados em diretórios ou extensões de arquivos.
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O grupo revisor de código-fonte das soluções da PDPJ-Br pode aceitar merge requests no código-fonte sem a...". De acordo com a teoria estudada em *1.3 O Modelo GitHub Flow*, após aprovação em revisão por pares e nos testes automatizados, o código é implantado em produção (para validação imediata).
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction* deste guia, branch by Abstraction: Padrão arquitetural em nível de código-fonte utilizado para refatorar subsistemas complexos diretamente no trunk: cria-se uma interface/abstração intermediária entre o chamador e a implementação legada; implementa-se o novo componente gradualmente; redireciona-se o chamador para a nova implementação; e expurga-se o código legado do repositório, sem a necessidade de criar branches paralelas de longa duração. Portanto, a assertiva examinada pela banca (CEBRASPE – TRF 6ª/2025) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 190
-**(FCC – TRT-2 – Analista Judiciario Tecnologia da Informacao – 2014)**
-Considere as seguintes figuras que apresentam o envio de um arquivo entre dois serviços: Figura 1 Figura 2 Com base nessas imagens e nas configurações padrão para os protocolos HTTP e HTTPS, é correto afirmar que o arquivo enviado na figura 1
+**(FCC – TRT 6ª – 2012 – Analista Judiciário - Apoio Especializado/Tecnologia da Informação)**
+O termo malware é uma denominação genérica para designar software projetado para causar danos a quem o executa. Software assim pode ganhar acesso a um computador através dos seguintes meios, EXCETO
 
-* **A)** é recebido na porta 80 e o arquivo enviado na figura 2 é transportado por HTTPS.
-* **B)** é transportado por HTTP e o arquivo enviado na figura 2 é recebido na porta 80.
-* **C)** e o arquivo enviado na figura 2 são transportados na porta 80, porém o primeiro arquivo possui um header que garante sua segurança.
-* **D)** é recebido na porta 443 e o arquivo enviado na figura 2 é transportado por HTTP.
-* **E)** é transportado por HTTPS e o arquivo enviado na figura 2 é recebido na porta 443.
+* **A)** um arquivo .mp3 que infecta o sistema ao ser tocado.
+* **B)** um arquivo .doc que infecta o sistema ao ser aberto no editor.
+* **C)** uma extensão do navegador que infecta o sistema ao ser executada.
+* **D)** um programa executável que infecta o sistema ao ser executado.
+* **E)** uma arquivo .xls que infecta o sistema ao ser aberto.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é recebido na porta 80 e o arquivo enviado na figura 2 é transportado por HTTPS". De acordo com a teoria estudada em *3.2 O Arquivo `CODEOWNERS` e Revisões Bloqueantes*, mecânica de Aplicação: Quando um desenvolvedor abre uma *Pull Request* alterando qualquer arquivo coberto pelas regras do `CODEOWNERS`, a plataforma Git adiciona automaticamente e de forma obrigatória as equipes ou usuários especificados como revisores bloqueantes.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é transportado por HTTP e o arquivo enviado na figura 2 é recebido na porta 80". De acordo com a teoria estudada em *3.2 O Arquivo `CODEOWNERS` e Revisões Bloqueantes*, o merge da PR torna-se tecnicamente impossível até que os proprietários do código tenham revisado e concedido a aprovação.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "e o arquivo enviado na figura 2 são transportados na porta 80, porém o primeiro arquivo possui um header que...". De acordo com a teoria estudada em *2.1 Create a Merge Commit (`git merge --no-ff`)*, operação Subjacente: Executa um merge do tipo *no fast-forward*. Cria um nó de commit especial na árvore do Git que possui dois nós pais: o último commit da branch de destino e o último commit da branch de trabalho.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.2 O Arquivo `CODEOWNERS` e Revisões Bloqueantes* deste guia, o arquivo `CODEOWNERS` (alocado na raiz do repositório, dentro da pasta `.github/` ou em `.gitlab/`) permite estabelecer proprietários técnicos e papéis de governança baseados em diretórios ou extensões de arquivos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-2/2014) ao estabelecer que "é recebido na porta 443 e o arquivo enviado na figura 2 é transportado por HTTP".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é transportado por HTTPS e o arquivo enviado na figura 2 é recebido na porta 443". De acordo com a teoria estudada em *3.3 Comparativo Terminológico e Operacional: GitHub vs. GitLab*, arquivo de Donos de Código: `.github/CODEOWNERS` ou raiz — `.gitlab/CODEOWNERS` ou raiz.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um arquivo .mp3 que infecta o sistema ao ser tocado". De acordo com a teoria estudada em *3.2 O Arquivo `CODEOWNERS` e Revisões Bloqueantes*, o arquivo `CODEOWNERS` (alocado na raiz do repositório, dentro da pasta `.github/` ou em `.gitlab/`) permite estabelecer proprietários técnicos e papéis de governança baseados em diretórios ou extensões de arquivos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um arquivo .doc que infecta o sistema ao ser aberto no editor". De acordo com a teoria estudada em *3.2 O Arquivo `CODEOWNERS` e Revisões Bloqueantes*, mecânica de Aplicação: Quando um desenvolvedor abre uma *Pull Request* alterando qualquer arquivo coberto pelas regras do `CODEOWNERS`, a plataforma Git adiciona automaticamente e de forma obrigatória as equipes ou usuários especificados como revisores bloqueantes.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma extensão do navegador que infecta o sistema ao ser executada". De acordo com a teoria estudada em *2. Ramos Temporários de Suporte (Short-Lived / Supporting Branches)*, ao ser finalizada e homologada, a branch de release é mesclada na `main` (recebendo uma tag) E também na `develop` (para repassar os ajustes de homologação ao fluxo principal).
+> - **D)** **Correta.** Conforme fundamentado na seção *1. Ramos Perenes (Long-Lived Branches)* deste guia, cada commit na branch `main` representa um release oficial de software e deve ser compulsoriamente etiquetado com uma tag semântica (ex.: `v1.0.0`, `v1.1.0`). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 6ª/2012) ao estabelecer que "um programa executável que infecta o sistema ao ser executado".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma arquivo .xls que infecta o sistema ao ser aberto". De acordo com a teoria estudada em *3.2 O Arquivo `CODEOWNERS` e Revisões Bloqueantes*, o merge da PR torna-se tecnicamente impossível até que os proprietários do código tenham revisado e concedido a aprovação.
 >
 > **Gabarito: D**
 
 ---
 
 ### Teste 191
-**(CEBRASPE – TRT-8 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-Acerca do MPLS (multiprotocol label switching), assinale a opção correta.
+**(FCC – TRT 3ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+Para reduzir a vulnerabilidade dos acessos pelo protocolo HTTP, foi introduzido, acima desse protocolo, o SSL, originando assim o HTTPS. O HTTPS
 
-* **A)** O MPLS permite a criação de redes virtuais, sendo capaz de isolar o tráfego por completo com tabelas que utilizam mecanismos de pilhas e de etiquetagem exclusivas para cada VPN.
-* **B)** O MPLS permite a criação de caminhos entre os roteadores por meio das label switchingpaths.
-* **C)** Na rede MPLS, um label é utilizado pelos roteadores para encaminhar um pacote recebido. Nesse caso, o cabeçalho MPLS deve ser posicionado depois de qualquer cabeçalho da camada 1 (física) e antes do cabeçalho da camada 2 (enlace).
-* **D)** Com a utilização de alguns dos protocolos da camada 4 (transporte), o MPLS pode ser empregado para transportar vários tipos de tráfego, como pacotes IP e ATM.
-* **E)** Em situações de falhas e de congestionamentos, apesar de a rede MPLS possuir algoritmos capazes de reduzir perdas ou atrasos, tais avarias ainda serão perceptíveis. Esse é um indicativo de que a capacidade de gestão de tráfego do MPLS é inferior em relação a outros protocolos.
+* **A)** 21 e 993.
+* **B)** 110 e 443.
+* **C)** 25 e 465.
+* **D)** 143 e 993.
+* **E)** 53 e 443.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O MPLS permite a criação de redes virtuais, sendo capaz de isolar o tráfego por completo com tabelas que utilizam...". De acordo com a teoria estudada em *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction*, se houver uso de branches de tarefas, elas devem ser estritamente de vida curtíssima (*short-lived feature branches*), durando poucas horas ou no máximo 1 a 2 dias, sendo submetidas a Pull Requests pequenos e fáceis de revisar.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.2 O Arquivo `CODEOWNERS` e Revisões Bloqueantes* deste guia, o arquivo `CODEOWNERS` (alocado na raiz do repositório, dentro da pasta `.github/` ou em `.gitlab/`) permite estabelecer proprietários técnicos e papéis de governança baseados em diretórios ou extensões de arquivos. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2016) ao estabelecer que "O MPLS permite a criação de caminhos entre os roteadores por meio das label switchingpaths".
-> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Na rede MPLS, um label é utilizado pelos roteadores para encaminhar um pacote recebido. Nesse caso, o cabeçalho...". De acordo com a teoria estudada em *1. Ramos Perenes (Long-Lived Branches)*, cada commit na branch `main` representa um release oficial de software e deve ser compulsoriamente etiquetado com uma tag semântica (ex.: `v1.0.0`, `v1.1.0`).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Com a utilização de alguns dos protocolos da camada 4 (transporte), o MPLS pode ser empregado para transportar...". De acordo com a teoria estudada em *2.1 Create a Merge Commit (`git merge --no-ff`)*, desvantagens: Pode transformar o grafo visual do repositório em uma "teia de espaguete" de difícil interpretação, repleta de commits triviais como *"wip"*, *"corrigindo typo"* ou *"ajuste de teste"*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em situações de falhas e de congestionamentos, apesar de a rede MPLS possuir algoritmos capazes de reduzir perdas...". De acordo com a teoria estudada em *2.2 Squash and Merge (`git merge --squash`)*, facilita drasticamente a identificação de bugs via `git bisect` e a reversão de falhas em produção via um único comando `git revert <hash>`.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "21 e 993". De acordo com a teoria estudada em *3.1 Regras de Proteção de Branches (Branch Protection Rules)*, as configurações de proteção de branch (*Branch Protection Rules* no GitHub ou *Protected Branches* no GitLab) impõem controles automatizados invioláveis sobre ramos críticos (especialmente `main` e `develop`).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "110 e 443". De acordo com a teoria estudada em *3.1 Regras de Proteção de Branches (Branch Protection Rules)*, bloqueio de Push Direto (*Require a pull request before merging*): Impede que qualquer desenvolvedor envie commits diretamente para a branch principal sem a abertura de uma Pull Request formal.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "25 e 465". De acordo com a teoria estudada em *3.1 Regras de Proteção de Branches (Branch Protection Rules)*, bloqueio de Forçamento de Histórico (*Block Force Pushes*): Desativa compulsoriamente a permissão para executar comandos `git push --force`, impedindo a reescrita deliberada ou acidental do histórico versionado.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "143 e 993". De acordo com a teoria estudada em *3.1 Regras de Proteção de Branches (Branch Protection Rules)*, bloqueio de Exclusão (*Prevent Branch Deletion*): Impede que comandos administrativos apaguem a branch principal.
+> - **E)** **Correta.** Conforme fundamentado na seção *3. Governança, Regras de Proteção de Branches e `CODEOWNERS`* deste guia, em instituições governamentais e órgãos de controle externo como o TCE-GO, os repositórios de código constituem ativos estratégicos sujeitos a rígidos requisitos de conformidade, trilhas de auditoria e segregação de funções. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 3ª/2015) ao estabelecer que "53 e 443".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 

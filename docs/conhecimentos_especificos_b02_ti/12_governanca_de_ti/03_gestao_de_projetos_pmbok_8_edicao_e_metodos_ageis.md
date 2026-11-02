@@ -68,26 +68,26 @@ Segundo a padronização do Project Management Institute (PMI), um **Projeto** �
 ---
 
 ### Teste 485
-**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Considere que Analistas do TRT estejam utilizando as melhores práticas do guia PMBOK 5a edição. Para realizarem o Gerenciamento da Integração do Projeto, os Analistas estão trabalhando em um processo responsável pelo acompanhamento, análise e registro do progresso para atender aos objetivos de desempenho definidos no plano de gerenciamento do projeto. Este processo lida com dois aspectos: I. É executado do início ao término do projeto e inclui a coleta, medição e distribuição das informações de desempenho e a avaliação das medições e tendências para efetuar melhorias no processo. Realizado de forma contínua, fornece à equipe de gerenciamento uma compreensão clara da saúde do projeto, identificando quaisquer áreas que possam requerer atenção especial. II. Inclui a determinação de ações corretivas ou preventivas, ou o replanejamento e acompanhamento dos planos de ação para determinar se as ações tomadas resolveram o problema de desempenho. O processo e os aspectos I e II, no qual os Analistas estão trabalhando, são correta e respectivamente,
+**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
+Considerando conceitos de gestão de projetos (PMBOK 7ª Edição), analise as afirmativas a seguir. I. Um risco é um evento ou condição incerta que, caso ocorra, causará um efeito positivo ou negativo a um ou mais objetivos do projeto. II. Cinco estratégias podem ser consideradas para lidar com ameaças: evitar, escalar, transferir, mitigar e aceitar. III. Uma análise SWOT avalia as forças, fraquezas, oportunidades e ameaças de uma organização, projeto ou opção. Está correto o que se afirma em
 
-* **A)** Planejar o gerenciamento do escopo − planejamento − avaliação.
-* **B)** Estimar os recursos das atividades − medição − controle.
-* **C)** Monitorar e controlar o trabalho do projeto − monitoramento − controle.
-* **D)** Orientar e gerenciar o trabalho do projeto − medição − correção.
-* **E)** Desenvolver o plano de gerenciamento do projeto − planejamento − correção.
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Planejar o gerenciamento do escopo − planejamento − avaliação". De acordo com a teoria estudada em *3. Os 8 Domínios de Desempenho do Projeto*, medição (*Measurement*): Avaliação quantitativa e qualitativa do progresso por meio de métricas de desempenho e Análise de Valor Agregado (EVA/EVM).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estimar os recursos das atividades − medição − controle". De acordo com a teoria estudada em *3. Os 8 Domínios de Desempenho do Projeto*, trabalho do Projeto (*Project Work*): Gestão do fluxo diário de atividades, administração de contratos com fornecedores e remoção de impedimentos ao avanço da equipe.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Conceito de Projeto vs. Operação* deste guia, temporário: Possui marco temporal de início e término definidos. O fim é alcançado quando os objetivos foram integralmente atingidos, ou quando o projeto é cancelado por inviabilidade técnica, orçamentária ou perda de alinhamento estratégico. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "Monitorar e controlar o trabalho do projeto − monitoramento − controle".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Orientar e gerenciar o trabalho do projeto − medição − correção". De acordo com a teoria estudada em *5.1 Variáveis Fundamentais (VP, CR e VA)*, valor Planejado (VP ou PV - *Planned Value*): Orçamento aprovado alocado ao trabalho que deveria estar concluído até a data de medição.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Desenvolver o plano de gerenciamento do projeto − planejamento − correção". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, pROJECT MANAGEMENT INSTITUTE. Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK). 7. ed. Newtown Square: PMI, 2021. (Seção 1 - O Padrão de Gerenciamento de Projetos; Seção 2 - Domínios de Desempenho do Projeto).
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *Tabela Comparativa: Portfólio versus Programa versus Projeto versus Operação*, em um Portfólio, os projetos e programas agrupados não precisam ter dependência técnica entre si; o único fator comum é o alinhamento ao mesmo conjunto de objetivos estratégicos da organização.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *2. Os 12 Princípios de Entrega de Projetos*, 10: Otimizar Respostas aos Riscos (*Risk*) — Gerenciar ativamente tanto ameaças (riscos negativos) quanto oportunidades (riscos positivos), aplicando respostas proporcionais.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1.3 O Sistema de Entrega de Valor (System for Value Delivery)*, a partir da transição iniciada na 7ª edição do Guia PMBOK e consolidada nas diretrizes contemporâneas (8ª edição), o PMI abandonou o foco exclusivo no cumprimento mecânico de processos da 6ª edição (que continha 10 Áreas de Conhecimento e 49 Processos rígidos).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.3 O Sistema de Entrega de Valor (System for Value Delivery)*, a gestão de projetos passou a ser compreendida dentro de um Sistema de Entrega de Valor, no qual o foco se desloca dos meros "entregáveis" (*deliverables* físicos) para os resultados e valor de negócio gerados (*outcomes and business value*).
+> - **E)** **Correta.** Conforme fundamentado na seção *5. Análise de Valor Agregado (EVM / EVA)* deste guia, a Análise de Valor Agregado (*Earned Value Management*) integra escopo, cronograma e custo para medir objetivamente o progresso de um projeto. É o cálculo mais cobrado pela FCC em provas de gestão de projetos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "I, II e III".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
@@ -120,26 +120,26 @@ flowchart TD
 ---
 
 ### Teste 486
-**(FGV – TJ-BA – Analista Judiciario Tecnologia da Informacao – 2015)**
-O Guia PMBOK® descreve a natureza dos processos de gerenciamento de projetos em termos da integração entre os processos, suas interações e seus objetivos. Os processos de gerenciamento de projetos são agrupados em cinco categorias conhecidas como grupos de processos de gerenciamento de projetos (ou grupos de processos). Relacione cada um dos grupos de processos de gerenciamento de projetos com as características apresentadas a seguir: 1. Grupo de processos de iniciação. 2. Grupo de processos de planejamento. 3. Grupo de processos de execução. 4. Grupo de processos de monitoramento e controle. 5. Grupo de processos de encerramento. ( ) processos necessários para definir o escopo do projeto, refinar os objetivos e definir a linha de ação necessária para alcançar os objetivos para os quais o projeto foi criado; ( ) processos realizados para executar o trabalho definido no plano de gerenciamento do projeto para satisfazer as especificações do projeto; ( ) processos exigidos para acompanhar, analisar e controlar o progresso e desempenho do projeto, identificar quaisquer áreas nas quais serão necessárias mudanças no plano, e iniciar as mudanças correspondentes; ( ) processos executados para finalizar todas as atividades de todos os grupos de processos, visando encerrar formalmente o projeto ou fase; ( ) processos executados para definir um novo projeto ou uma nova fase de um projeto existente através da obtenção de autorização para iniciar o projeto ou fase. A relação correta, de cima para baixo, é:
+**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+No PMBoK 4a edição, a área de conhecimento em gerenciamento de projetos conhecida como Gerenciamento dos Custos do Projeto contém os processos: Estimar os Custos, Determinar Orçamento e Controlar os Custos. Dentre estes, faz (ou fazem) parte do grupo de processos de planejamento:
 
-* **A)** 3, 2, 5, 1 e 4;
-* **B)** 2, 3, 4, 5 e 1;
-* **C)** 3, 2, 4, 1 e 5;
-* **D)** 2, 3, 5, 4 e 1;
-* **E)** 3, 2, 1, 5 e 4.
+* **A)** Estimar os Custos e Controlar os Custos.
+* **B)** Estimar os Custos, apenas.
+* **C)** Determinar Orçamento e Controlar os Custos.
+* **D)** Estimar os Custos e Determinar Orçamento.
+* **E)** Determinar Orçamento, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3, 2, 5, 1 e 4". De acordo com a teoria estudada em *1.3 O Sistema de Entrega de Valor (System for Value Delivery)*, a partir da transição iniciada na 7ª edição do Guia PMBOK e consolidada nas diretrizes contemporâneas (8ª edição), o PMI abandonou o foco exclusivo no cumprimento mecânico de processos da 6ª edição (que continha 10 Áreas de Conhecimento e 49 Processos rígidos).
-> - **B)** **Correta.** Conforme fundamentado na seção *6. Fontes Recomendadas na Internet* deste guia, pROJECT MANAGEMENT INSTITUTE. Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK). 7. ed. Newtown Square: PMI, 2021. (Seção 1 - O Padrão de Gerenciamento de Projetos; Seção 2 - Domínios de Desempenho do Projeto). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-BA/2015) ao estabelecer que "2, 3, 4, 5 e 1".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3, 2, 4, 1 e 5". De acordo com a teoria estudada em *Tabela Comparativa: Portfólio versus Programa versus Projeto versus Operação*, mudança: Monitora mudanças no ambiente macro e ajusta a alocação de recursos financeiros e prioridades. — Gerencia mudanças no ambiente programático visando maximizar os benefícios do conjunto. — Gerencia desvios de escopo por meio do processo formal de controle de mudanças. — Reage a incidentes e busca manter a estabilidade contínua dos serviços.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2, 3, 5, 4 e 1". De acordo com a teoria estudada em *Tabela Comparativa: Portfólio versus Programa versus Projeto versus Operação*, em um Portfólio, os projetos e programas agrupados não precisam ter dependência técnica entre si; o único fator comum é o alinhamento ao mesmo conjunto de objetivos estratégicos da organização.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3, 2, 1, 5 e 4". De acordo com a teoria estudada em *3. Os 8 Domínios de Desempenho do Projeto*, os Domínios de Desempenho (*Project Performance Domains*) são grupos de atividades correlatas essenciais para a entrega bem-sucedida de projetos.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.3 O Sistema de Entrega de Valor (System for Value Delivery)* deste guia, a partir da transição iniciada na 7ª edição do Guia PMBOK e consolidada nas diretrizes contemporâneas (8ª edição), o PMI abandonou o foco exclusivo no cumprimento mecânico de processos da 6ª edição (que continha 10 Áreas de Conhecimento e 49 Processos rígidos). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "Estimar os Custos e Controlar os Custos".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Estimar os Custos, apenas". De acordo com a teoria estudada em *Índices de Desempenho Relativo*, índice de Desempenho de Custos ($IDC$ ou $CPI$).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Determinar Orçamento e Controlar os Custos". De acordo com a teoria estudada em *Índices de Desempenho Relativo*, $IDC > 1$: Eficiência de custos favorável (gastando menos para cada unidade de entrega).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estimar os Custos e Determinar Orçamento". De acordo com a teoria estudada em *Tabela Diagnóstica Rápida de EVM*, índices: Situação de Prazos — Situação de Custos — Diagnóstico Geral.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Determinar Orçamento, apenas". De acordo com a teoria estudada em *Tabela Diagnóstica Rápida de EVM*, \$IDP > 1\$ e \$IDC < 1\$: Adiantado (\$VA > VP\$) — Acima do Orçamento (\$VA < CR$) — Projeto acelerado, mas estourando orçamento.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -157,26 +157,20 @@ A gestão de projetos passou a ser compreendida dentro de um **Sistema de Entreg
 ---
 
 ### Teste 487
-**(FCC – TRT-2 – Analista Judiciario Tecnologia da Informacao – 2014)**
-No PMBoK, os processos de gerenciamento de projetos são agrupados em diversos grupos de processos. Um destes grupos contém os processos necessários para acompanhar, revisar e regular o progresso e o desempenho do projeto, identificar todas as áreas nas quais serão necessárias mudanças no plano e iniciar as mudanças correspondentes. Este grupo de processo é identificado no Guia PMBoK como Grupo de processos de
+**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
+No PMBOK 7.ª edição, os processos de gerenciamento de projetos estão organizados em grupos de processos e áreas de conhecimento; cada área de conhecimento possui uma série de processos específicos que contribuem para a sua gestão eficaz.
 
-* **A)** avaliação.
-* **B)** monitoramento e controle.
-* **C)** planejamento.
-* **D)** melhoria continuada do projeto.
-* **E)** execução.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "avaliação". De acordo com a teoria estudada em *3. Os 8 Domínios de Desempenho do Projeto*, medição (*Measurement*): Avaliação quantitativa e qualitativa do progresso por meio de métricas de desempenho e Análise de Valor Agregado (EVA/EVM).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.3 O Sistema de Entrega de Valor (System for Value Delivery)* deste guia, a partir da transição iniciada na 7ª edição do Guia PMBOK e consolidada nas diretrizes contemporâneas (8ª edição), o PMI abandonou o foco exclusivo no cumprimento mecânico de processos da 6ª edição (que continha 10 Áreas de Conhecimento e 49 Processos rígidos). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-2/2014) ao estabelecer que "monitoramento e controle".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "planejamento". De acordo com a teoria estudada em *3. Os 8 Domínios de Desempenho do Projeto*, planejamento (*Planning*): Coordenação progressiva de escopo, prazos, orçamentos e alocação de recursos (*elaboração progressiva*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "melhoria continuada do projeto". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, pROJECT MANAGEMENT INSTITUTE. Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK). 7. ed. Newtown Square: PMI, 2021. (Seção 1 - O Padrão de Gerenciamento de Projetos; Seção 2 - Domínios de Desempenho do Projeto).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "execução". De acordo com a teoria estudada em *2. Os 12 Princípios de Entrega de Projetos*, 9: Navegar na Complexidade (*Complexity*) — Abordar a volatilidade, as conexões tecnológicas densas e a incerteza comportamental com flexibilidade e monitoramento contínuo.
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.3 O Sistema de Entrega de Valor (System for Value Delivery)* deste guia, a partir da transição iniciada na 7ª edição do Guia PMBOK e consolidada nas diretrizes contemporâneas (8ª edição), o PMI abandonou o foco exclusivo no cumprimento mecânico de processos da 6ª edição (que continha 10 Áreas de Conhecimento e 49 Processos rígidos). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRF/6/2025) ao afirmar que "No PMBOK 7.ª edição, os processos de gerenciamento de projetos estão organizados em grupos de processos e...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *3. Os 8 Domínios de Desempenho do Projeto*, segundo a qual os Domínios de Desempenho (*Project Performance Domains*) são grupos de atividades correlatas essenciais para a entrega bem-sucedida de projetos.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -202,26 +196,26 @@ Os 12 Princípios do PMBOK orientam a conduta profissional dos gestores e equipe
 ---
 
 ### Teste 488
-**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
-Considere o texto abaixo, adaptado do Guia PMBoK v.4. É uma entidade ou corpo organizacional à qual são atribuídas várias responsabilidades relacionadas ao gerenciamento centralizado e coordenado dos projetos sob seu domínio. Possui responsabilidades que podem variar desde o fornecimento de funções de apoio ao gerenciamento de projetos até a responsabilidade real pelo gerenciamento direto de um projeto. Se tiver responsabilidade direta ou indireta pelo resultado do projeto, pode ser considerada uma parte interessada. Pode oferecer serviços de suporte administrativo, como políticas, metodologias e modelos; treinamento, aconselhamento e orientação de gerentes de projetos; suporte, orientação e treinamento em relação a como gerenciar projetos e usar as ferramentas etc. A entidade organizacional definida no texto acima é conhecida como:
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
+Assinale a opção que descreve corretamente um ponto principal característico de COBIT 2019, ITIL v4 e PMBOK.
 
-* **A)** Gerência de portfólio de projetos.
-* **B)** Fábrica de projetos.
-* **C)** Gerência de Tecnologia da Informação.
-* **D)** Incubadora de projetos.
-* **E)** Escritório de projetos.
+* **A)** COBIT 2019 é centrado na governança de TI, ITIL v4 foca na gestão de serviços de TI e PMBOK orienta sobre a gestão de projetos tradicionais.
+* **B)** COBIT 2019 é um guia para auditoria de TI, ITIL v4 é um framework para desenvolvimento de software, e PMBOK é uma metodologia ágil.
+* **C)** COBIT 2019, ITIL v4 e PMBOK são frameworks que priorizam a implementação de práticas ágeis e DevOps em suas abordagens.
+* **D)** COBIT 2019, ITIL v4 e PMBOK são estruturas voltadas exclusivamente para o controle financeiro de projetos de TI.
+* **E)** COBIT 2019 define princípios de governança corporativa, ITIL v4 prioriza a gestão de serviços de TI focada no cliente, e PMBOK foca na entrega de valor através da gestão de projetos. Desenvolvimento Web e Mobile
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerência de portfólio de projetos". De acordo com a teoria estudada em *Tabela Comparativa: Portfólio versus Programa versus Projeto versus Operação*, mudança: Monitora mudanças no ambiente macro e ajusta a alocação de recursos financeiros e prioridades. — Gerencia mudanças no ambiente programático visando maximizar os benefícios do conjunto. — Gerencia desvios de escopo por meio do processo formal de controle de mudanças. — Reage a incidentes e busca manter a estabilidade contínua dos serviços.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Fábrica de projetos". De acordo com a teoria estudada em *2. Os 12 Princípios de Entrega de Projetos*, 5: Pensamento Sistêmico (*Systems Thinking*) — Reconhecer que o projeto é parte de um ecossistema complexo e que decisões locais repercutem em toda a TI corporativa.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerência de Tecnologia da Informação". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, tCU - Governança e Boas Práticas em Gestão de Projetos - Orientações do Tribunal de Contas da União para fiscalização e governança de projetos e contratos de tecnologia.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Incubadora de projetos". De acordo com a teoria estudada em *2. Os 12 Princípios de Entrega de Projetos*, 7: Adaptação Contextual (*Tailoring*) — Personalizar métodos, ritos, ferramentas e governança ao porte, complexidade e criticidade reais de cada projeto.
-> - **E)** **Correta.** Conforme fundamentado na seção *6. Fontes Recomendadas na Internet* deste guia, pROJECT MANAGEMENT INSTITUTE. Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK). 7. ed. Newtown Square: PMI, 2021. (Seção 1 - O Padrão de Gerenciamento de Projetos; Seção 2 - Domínios de Desempenho do Projeto). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "Escritório de projetos".
+> - **A)** **Correta.** Conforme fundamentado na seção *2. Os 12 Princípios de Entrega de Projetos* deste guia, os 12 Princípios do PMBOK orientam a conduta profissional dos gestores e equipes, aplicando-se indistintamente a abordagens preditivas, híbridas ou ágeis. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "COBIT 2019 é centrado na governança de TI, ITIL v4 foca na gestão de serviços de TI e PMBOK orienta sobre a gestão...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "COBIT 2019 é um guia para auditoria de TI, ITIL v4 é um framework para desenvolvimento de software, e PMBOK é uma...". De acordo com a teoria estudada em *6. Gestão de Portfólio de TI e Governança de Programas*, balanceamento do Portfólio: Equilíbrio equilibrado entre projetos de alta inovação (IA para auditoria), modernização de infraestrutura (migração para nuvem) e sustentação de sistemas legados essenciais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "COBIT 2019, ITIL v4 e PMBOK são frameworks que priorizam a implementação de práticas ágeis e DevOps em suas...". De acordo com a teoria estudada em *4.2 Abordagens Híbridas na Administração Pública*, o desenvolvimento, testes de software e validações com usuários ocorrem por meio de sprints quinzenais ágeis, garantindo adaptação rápida a mudanças.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "COBIT 2019, ITIL v4 e PMBOK são estruturas voltadas exclusivamente para o controle financeiro de projetos de TI". De acordo com a teoria estudada em *6. Gestão de Portfólio de TI e Governança de Programas*, comitê de Governança Digital / Comitê de TI: Órgão colegiado que avalia propostas de novos projetos e programas, priorizando-os de acordo com o impacto fiscal e institucional.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "COBIT 2019 define princípios de governança corporativa, ITIL v4 prioriza a gestão de serviços de TI focada no...". De acordo com a teoria estudada em *2. Os 12 Princípios de Entrega de Projetos*, 5: Pensamento Sistêmico (*Systems Thinking*) — Reconhecer que o projeto é parte de um ecossistema complexo e que decisões locais repercutem em toda a TI corporativa.
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
 ---
 
@@ -255,26 +249,26 @@ flowchart TD
 ---
 
 ### Teste 489
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
-Segundo o Guia PMBOK 7ª edição, um domínio de desempenho do projeto é um grupo de atividades relacionadas, que são críticas para a entrega eficaz dos resultados do projeto. São áreas de foco interativas, inter-relacionadas e interdependentes, que trabalham em coesão para alcançar os resultados do projeto. Nesse contexto, os oito domínios de desempenho abordados no Guia PMBOK, 7ª ed. são
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
+Considerando as metodologias de gestão de projetos e de TI, COBIT, ITIL e PMBOK possuem abordagens distintas para a gestão de riscos. Assinale a opção que descreve corretamente a diferença fundamental entre esses três frameworks.
 
-* **A)** das Partes Interessadas; do Escopo; do Cronograma; do Planejamento; da Abordagem de Desenvolvimento e Ciclo de Vida; dos Riscos; da Qualidade; dos Custos.
-* **B)** do Escopo; do Cronograma; dos Custos; da Qualidade; dos Recursos; das Comunicações; dos Riscos; das Aquisições.
-* **C)** das Partes Interessadas; da Equipe; da Abordagem de Desenvolvimento e Ciclo de Vida; do Planejamento; do Trabalho do Projeto; da Entrega; da Medição; da Incerteza.
-* **D)** do Escopo; do Cronograma; dos Custos; da Qualidade; dos Recursos; das Comunicações; dos Riscos; das Partes Interessadas.
-* **E)** da Colaboração; da Empatia; do Foco no Valor; do Pensamento Sistêmico; da Liderança; da Qualidade; dos Riscos; da Adaptabilidade e Resiliência.
+* **A)** COBIT foca na governança de riscos gerais em TI, enquanto ITIL aborda a gestão de riscos nos serviços de TI e PMBOK se concentra na gestão de projetos em geral, sem especialização em TI.
+* **B)** ITIL é usado para análise quantitativa de riscos, ao contrário do COBIT e do PMBOK, que se concentram em análises qualitativas.
+* **C)** PMBOK não inclui processos de gestão de riscos, diferentemente do COBIT e do ITIL que oferecem guias detalhados sobre o tema.
+* **D)** COBIT, ITIL e PMBOK são equivalentes e intercambiáveis quando se trata de gestão de riscos, sendo uma questão de preferência pessoal a escolha entre eles.
+* **E)** ITIL e COBIT são focados em TI, com ITIL voltado exclusivamente para a gestão de riscos em serviços de TI e COBIT para a governança de riscos TI, enquanto PMBOK é um guia de práticas para a gestão de projetos em geral.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "das Partes Interessadas; do Escopo; do Cronograma; do Planejamento; da Abordagem de Desenvolvimento e Ciclo de...". De acordo com a teoria estudada em *Tabela Comparativa: Portfólio versus Programa versus Projeto versus Operação*, métrica de Sucesso: Retorno do investimento agregado, mitigação de riscos globais e alcance das metas estratégicas. — Realização de benefícios consolidados e integração eficaz dos projetos componentes. — Qualidade técnica da entrega, valor agregado e respeito às restrições de custo e prazo. — Eficiência operacional, cumprimento estrito de SLAs e estabilidade dos sistemas.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do Escopo; do Cronograma; dos Custos; da Qualidade; dos Recursos; das Comunicações; dos Riscos; das Aquisições". De acordo com a teoria estudada em *3. Os 8 Domínios de Desempenho do Projeto*, planejamento (*Planning*): Coordenação progressiva de escopo, prazos, orçamentos e alocação de recursos (*elaboração progressiva*).
-> - **C)** **Correta.** Conforme fundamentado na seção *3. Os 8 Domínios de Desempenho do Projeto* deste guia, abordagem de Desenvolvimento e Ciclo de Vida (*Development Approach & Life Cycle*): Seleção fundamentada da cadência de entrega (preditiva, híbrida ou adaptativa) e das fases do ciclo de vida. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "das Partes Interessadas; da Equipe; da Abordagem de Desenvolvimento e Ciclo de Vida; do Planejamento; do Trabalho...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do Escopo; do Cronograma; dos Custos; da Qualidade; dos Recursos; das Comunicações; dos Riscos; das Partes...". De acordo com a teoria estudada em *3. Os 8 Domínios de Desempenho do Projeto*, partes Interessadas (*Stakeholders*): Relacionamento produtivo, alinhamento de expectativas e engajamento das pessoas afetadas pelo projeto.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da Colaboração; da Empatia; do Foco no Valor; do Pensamento Sistêmico; da Liderança; da Qualidade; dos Riscos; da...". De acordo com a teoria estudada em *1.3 O Sistema de Entrega de Valor (System for Value Delivery)*, a partir da transição iniciada na 7ª edição do Guia PMBOK e consolidada nas diretrizes contemporâneas (8ª edição), o PMI abandonou o foco exclusivo no cumprimento mecânico de processos da 6ª edição (que continha 10 Áreas de Conhecimento e 49 Processos rígidos).
+> - **A)** **Correta.** Conforme fundamentado na seção *6. Gestão de Portfólio de TI e Governança de Programas* deste guia, modelos de Pontuação (*Scoring Models*): Critérios ponderados de priorização (ex.: retorno social, urgência regulatória, complexidade técnica, custo estimado e matriz de riscos). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "COBIT foca na governança de riscos gerais em TI, enquanto ITIL aborda a gestão de riscos nos serviços de TI e...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ITIL é usado para análise quantitativa de riscos, ao contrário do COBIT e do PMBOK, que se concentram em análises...". De acordo com a teoria estudada em *3. Os 8 Domínios de Desempenho do Projeto*, medição (*Measurement*): Avaliação quantitativa e qualitativa do progresso por meio de métricas de desempenho e Análise de Valor Agregado (EVA/EVM).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PMBOK não inclui processos de gestão de riscos, diferentemente do COBIT e do ITIL que oferecem guias detalhados...". De acordo com a teoria estudada em *1.3 O Sistema de Entrega de Valor (System for Value Delivery)*, a partir da transição iniciada na 7ª edição do Guia PMBOK e consolidada nas diretrizes contemporâneas (8ª edição), o PMI abandonou o foco exclusivo no cumprimento mecânico de processos da 6ª edição (que continha 10 Áreas de Conhecimento e 49 Processos rígidos).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "COBIT, ITIL e PMBOK são equivalentes e intercambiáveis quando se trata de gestão de riscos, sendo uma questão de...". De acordo com a teoria estudada em *2. Os 12 Princípios de Entrega de Projetos*, os 12 Princípios do PMBOK orientam a conduta profissional dos gestores e equipes, aplicando-se indistintamente a abordagens preditivas, híbridas ou ágeis.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "ITIL e COBIT são focados em TI, com ITIL voltado exclusivamente para a gestão de riscos em serviços de TI e COBIT...". De acordo com a teoria estudada em *6. Gestão de Portfólio de TI e Governança de Programas*, comitê de Governança Digital / Comitê de TI: Órgão colegiado que avalia propostas de novos projetos e programas, priorizando-os de acordo com o impacto fiscal e institucional.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
@@ -321,24 +315,18 @@ flowchart TD
 ---
 
 ### Teste 490
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
-Na primeira metade dos anos 1970, o programa de desenvolvimento de infraestrutura para essa região foi baseado no conceito de planejamento de “eixos de desenvolvimento” realizado mediante a construção de numerosas estradas de longa distância, como a Transamazônica, a Perimetral Norte, a Cuiabá- Santarém, a Cuiabá-Porto Velho e a ligação Porto Velho-Manaus. Essas rodovias serviram de porta de acesso para a migração para a Amazônia e foram planejadas para o estabelecimento de áreas de atividades econômicas na forma dos chamados corredores de desenvolvimento. O trecho descreve o plano de desenvolvimento para a região amazônica conhecido como
+**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
+O ciclo de vida do projeto, no PMBOK 7.ª edição, é constituído de cinco fases sequenciais e padronizadas que devem ser seguidas rigidamente em todos os projetos.
 
-* **A)** Programa Avança Brasil.
-* **B)** Programa Grande Carajás (PGC).
-* **C)** Programa para a Integração Nacional (PIN).
-* **D)** Programa Piloto para Proteção das Florestas Tropicais do Brasil (PPG-7).
-* **E)** Programa Integrado de Desenvolvimento do Noroeste do Brasil (Polonoroeste).
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Programa Avança Brasil". De acordo com a teoria estudada em *1.1 Conceito de Projeto vs. Operação*, *Operações:* Sustentam o negócio existente, repetem processos padronizados contínuos (atendimento de chamados, manutenção de infraestrutura, rotinas de backup) e não têm data prevista para término.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Programa Grande Carajás (PGC)". De acordo com a teoria estudada em *Tabela Comparativa: Portfólio versus Programa versus Projeto versus Operação*, dimensão: Portfólio — Programa — Projeto — Operação.
-> - **C)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa: Portfólio versus Programa versus Projeto versus Operação* deste guia, métrica de Sucesso: Retorno do investimento agregado, mitigação de riscos globais e alcance das metas estratégicas. — Realização de benefícios consolidados e integração eficaz dos projetos componentes. — Qualidade técnica da entrega, valor agregado e respeito às restrições de custo e prazo. — Eficiência operacional, cumprimento estrito de SLAs e estabilidade dos sistemas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Programa para a Integração Nacional (PIN)".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Programa Piloto para Proteção das Florestas Tropicais do Brasil (PPG-7)". De acordo com a teoria estudada em *Tabela Comparativa: Portfólio versus Programa versus Projeto versus Operação*, escopo: Visão estratégica corporativa; engloba múltiplos projetos e programas correlatos ou independentes. — Escopo abrangente integrando benefícios conjuntos de múltiplos projetos relacionados. — Escopo delimitado, específico e controlado; entrega exclusiva pré-definida. — Escopo contínuo, padronizado, repetitivo e voltado à rotina.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Programa Integrado de Desenvolvimento do Noroeste do Brasil (Polonoroeste)". De acordo com a teoria estudada em *4.2 Abordagens Híbridas na Administração Pública*, o desenvolvimento, testes de software e validações com usuários ocorrem por meio de sprints quinzenais ágeis, garantindo adaptação rápida a mudanças.
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *3. Os 8 Domínios de Desempenho do Projeto* deste guia, abordagem de Desenvolvimento e Ciclo de Vida (*Development Approach & Life Cycle*): Seleção fundamentada da cadência de entrega (preditiva, híbrida ou adaptativa) e das fases do ciclo de vida. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRF/6/2025) ao afirmar que "O ciclo de vida do projeto, no PMBOK 7.ª edição, é constituído de cinco fases sequenciais e padronizadas que...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.3 O Sistema de Entrega de Valor (System for Value Delivery)*, segundo a qual a partir da transição iniciada na 7ª edição do Guia PMBOK e consolidada nas diretrizes contemporâneas (8ª edição), o PMI abandonou o foco exclusivo no cumprimento mecânico de processos da 6ª edição (que continha 10 Áreas de Conhecimento e 49 Processos rígidos).
 >
 > **Gabarito: C**
 
@@ -355,7 +343,7 @@ O princípio do **Tailoring** dita que não existe uma metodologia universal. Ca
 ---
 
 ### Teste 491
-**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
+**(FCC – TRT 6ª – 2012 – Analista Judiciário - Apoio Especializado/Tecnologia da Informação)**
 Segundo o PMBOK, a governança de projetos oferece um método abrangente e consistente de controle e garantia de sucesso do projeto, considerando duas restrições que devem ser observadas. Uma das restrições é que a abordagem da governança do projeto deve ser descrita no plano de gerenciamento do projeto. A outra é que
 
 * **A)** em projetos com várias fases, pode ocorrer mais de uma relação entre elas durante o ciclo de vida do projeto. A governança do projeto deve se restringir às fases isoladas, deixando o tratamento das relações com a equipe de gerenciamento do projeto.
@@ -369,9 +357,9 @@ Segundo o PMBOK, a governança de projetos oferece um método abrangente e consi
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em projetos com várias fases, pode ocorrer mais de uma relação entre elas durante o ciclo de vida do projeto. A...". De acordo com a teoria estudada em *3. Os 8 Domínios de Desempenho do Projeto*, abordagem de Desenvolvimento e Ciclo de Vida (*Development Approach & Life Cycle*): Seleção fundamentada da cadência de entrega (preditiva, híbrida ou adaptativa) e das fases do ciclo de vida.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da mesma maneira que o gerenciamento do projeto, a governança do projeto deve dividir um projeto em duas fases...". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, pROJECT MANAGEMENT INSTITUTE. Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK). 7. ed. Newtown Square: PMI, 2021. (Seção 1 - O Padrão de Gerenciamento de Projetos; Seção 2 - Domínios de Desempenho do Projeto).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da mesma maneira que o gerenciamento do projeto, a governança do projeto deve dividir um projeto em duas fases...". De acordo com a teoria estudada em *Tabela Comparativa: Portfólio versus Programa versus Projeto versus Operação*, métrica de Sucesso: Retorno do investimento agregado, mitigação de riscos globais e alcance das metas estratégicas. — Realização de benefícios consolidados e integração eficaz dos projetos componentes. — Qualidade técnica da entrega, valor agregado e respeito às restrições de custo e prazo. — Eficiência operacional, cumprimento estrito de SLAs e estabilidade dos sistemas.
 > - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a organização da governança do projeto deve estabelecer políticas que padronizam todos os projetos, enquanto a...". De acordo com a teoria estudada em *Tabela Comparativa: Portfólio versus Programa versus Projeto versus Operação*, escopo: Visão estratégica corporativa; engloba múltiplos projetos e programas correlatos ou independentes. — Escopo abrangente integrando benefícios conjuntos de múltiplos projetos relacionados. — Escopo delimitado, específico e controlado; entrega exclusiva pré-definida. — Escopo contínuo, padronizado, repetitivo e voltado à rotina.
-> - **D)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa: Portfólio versus Programa versus Projeto versus Operação* deste guia, em um Portfólio, os projetos e programas agrupados não precisam ter dependência técnica entre si; o único fator comum é o alinhamento ao mesmo conjunto de objetivos estratégicos da organização. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "a governança do projeto deve se adequar ao contexto mais amplo do programa ou da organização patrocinadora".
+> - **D)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa: Portfólio versus Programa versus Projeto versus Operação* deste guia, em um Portfólio, os projetos e programas agrupados não precisam ter dependência técnica entre si; o único fator comum é o alinhamento ao mesmo conjunto de objetivos estratégicos da organização. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 6ª/2012) ao estabelecer que "a governança do projeto deve se adequar ao contexto mais amplo do programa ou da organização patrocinadora".
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a equipe de governança do projeto precisa identificar as partes interessadas, tanto internas quanto externas, a...". De acordo com a teoria estudada em *2. Os 12 Princípios de Entrega de Projetos*, 3: Envolvimento Eficaz dos Stakeholders (*Stakeholders*) — Identificar, compreender e engajar continuamente as partes interessadas para alinhar expectativas e mitigar resistências.
 >
 > **Gabarito: D**
@@ -397,26 +385,26 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 ---
 
 ### Teste 492
-**(FCC – TRT-23 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-No contexto do Gerenciamento da Integração do Projeto são, respectivamente, uma entrada e uma saída do processo Orientar e Gerenciar o Trabalho do Projeto:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
+Na aquisição, a adquirente deve contabilizar cada aquisição aplicando o método de contabilização da aquisição. Avalie se a aplicação do método de contabilização da aquisição exige: I. identificação do adquirente e determinação da data da aquisição. II. reconhecimento e mensuração dos ativos adquiridos e dos passivos assumidos. III. reconhecimento e mensuração do ágio por expectativa de rentabilidade futura, o ganho ou a perda na aquisição. Está correto o que se apresenta em
 
-* **A)** Termo de abertura do projeto; Fatores ambientais da empresa.
-* **B)** Fatores ambientais da empresa; Dados de desempenho do trabalho.
-* **C)** Relatórios de desempenho do trabalho; Ativos de processos organizacionais.
-* **D)** Dados de desempenho do trabalho; Plano de gerenciamento do projeto.
-* **E)** Especificação do trabalho do projeto; Business case.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Termo de abertura do projeto; Fatores ambientais da empresa". De acordo com a teoria estudada em *Índices de Desempenho Relativo*, \$IDC < 1\$: Eficiência desfavorável (gastando mais para entregar o trabalho).
-> - **B)** **Correta.** Conforme fundamentado na seção *3. Os 8 Domínios de Desempenho do Projeto* deste guia, trabalho do Projeto (*Project Work*): Gestão do fluxo diário de atividades, administração de contratos com fornecedores e remoção de impedimentos ao avanço da equipe. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-23/2016) ao estabelecer que "Fatores ambientais da empresa; Dados de desempenho do trabalho".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Relatórios de desempenho do trabalho; Ativos de processos organizacionais". De acordo com a teoria estudada em *1.1 Conceito de Projeto vs. Operação*, *Projetos:* Geram mudanças, criam ativos novos, possuem equipes multidisciplinares temporárias e encerram-se ao concluir a entrega.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Dados de desempenho do trabalho; Plano de gerenciamento do projeto". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, pROJECT MANAGEMENT INSTITUTE. Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK). 7. ed. Newtown Square: PMI, 2021. (Seção 1 - O Padrão de Gerenciamento de Projetos; Seção 2 - Domínios de Desempenho do Projeto).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Especificação do trabalho do projeto; Business case". De acordo com a teoria estudada em *1.1 Conceito de Projeto vs. Operação*, exclusivo (Único): O resultado final (sistema desenvolvido, data center modernizado) difere substancialmente de qualquer outro trabalho previamente executado.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *5.1 Variáveis Fundamentais (VP, CR e VA)*, valor Planejado (VP ou PV - *Planned Value*): Orçamento aprovado alocado ao trabalho que deveria estar concluído até a data de medição.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *5.1 Variáveis Fundamentais (VP, CR e VA)*, custo Real (CR ou AC - *Actual Cost*): Custo efetivamente incorrido e desembolsado para realizar o trabalho entregue até a data de medição.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *1.1 Conceito de Projeto vs. Operação*, temporário: Possui marco temporal de início e término definidos. O fim é alcançado quando os objetivos foram integralmente atingidos, ou quando o projeto é cancelado por inviabilidade técnica, orçamentária ou perda de alinhamento estratégico.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.1 Conceito de Projeto vs. Operação*, *Projetos:* Geram mudanças, criam ativos novos, possuem equipes multidisciplinares temporárias e encerram-se ao concluir a entrega.
+> - **E)** **Correta.** Conforme fundamentado na seção *5.1 Variáveis Fundamentais (VP, CR e VA)* deste guia, valor Agregado (VA ou EV - *Earned Value*): A mensuração do trabalho efetivamente executado, avaliado em termos do orçamento originalmente aprovado para esse trabalho. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I, II e III".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
@@ -454,26 +442,26 @@ No contexto do Gerenciamento da Integração do Projeto são, respectivamente, u
 ---
 
 ### Teste 493
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
-Um contrato de TI de R$ 1.000.000,00 tem duração prevista de 10 meses. No final do 5º mês, o Auditor Fiscal verifica os seguintes dados: Valor Planejado (VP) = 500k; Valor Agregado (VA) = 400k; Custo Real (CR) = 450k. Assinale a opção que indica corretamente o Índice de Desempenho de Custo (IDC/CPI), o Índice de Desempenho de Prazo (IDP/SPI) e o que eles indicam sobre a saúde do contrato.
+**(FCC – TRT 24ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+Uma das técnicas que podem ser usadas para estimar os custos de uma atividade no Gerenciamento dos Custos de um Projeto, segundo o guia PMBOK 5a Edição é a Técnica de Revisão e Avaliação de Programa − PERT. Esta técnica usa três estimativas para definir o custo estimado (C ) de uma atividade: custo mais provável (C ), custo otimista (C ) e custo pessimista (C ). Para E M O P um Analista calcular o custo estimado de uma atividade usando PERT, deverá utilizar a fórmula:
 
-* **A)** CPI = 0,89; SPI = 0,80. O projeto está acima do orçamento e atrasado.
-* **B)** CPI = 1,12; SPI = 1,25. O projeto está abaixo do orçamento e adiantado.
-* **C)** CPI = 0,80; SPI = 0,89. O projeto está com custos controlados, mas muito atrasado.
-* **D)** CPI = 0,90; SPI = 1,00. O projeto está no prazo, mas com leve estouro de custo.
-* **E)** CPI = 0,88; SPI = 0,80. O projeto está com gasto ineficiente e cronograma crítico.
+* **A)** C = (C + 2C + C ) E O M P
+* **B)** C = (2C + 4C + 3C ) / 9 E O M P
+* **C)** C = (C + 4C + C ) / 6 E O M P
+* **D)** C = (C + 2C + 3C ) / 5 E O M P
+* **E)** C = 4(C + C ) + C E O M P
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CPI = 0,89; SPI = 0,80. O projeto está acima do orçamento e atrasado". De acordo com a teoria estudada em *Índices de Desempenho Relativo*, índice de Desempenho de Prazos (\$IDP\$ ou \$SPI\$).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CPI = 1,12; SPI = 1,25. O projeto está abaixo do orçamento e adiantado". De acordo com a teoria estudada em *Tabela Diagnóstica Rápida de EVM*, \$IDP > 1\$ e \$IDC < 1\$: Adiantado (\$VA > VP\$) — Acima do Orçamento (\$VA < CR$) — Projeto acelerado, mas estourando orçamento.
-> - **C)** **Correta.** Conforme fundamentado na seção *Índices de Desempenho Relativo* deste guia, índice de Desempenho de Custos (\$IDC\$ ou \$CPI\$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "CPI = 0,80; SPI = 0,89. O projeto está com custos controlados, mas muito atrasado".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CPI = 0,90; SPI = 1,00. O projeto está no prazo, mas com leve estouro de custo". De acordo com a teoria estudada em *Tabela Comparativa: Portfólio versus Programa versus Projeto versus Operação*, métrica de Sucesso: Retorno do investimento agregado, mitigação de riscos globais e alcance das metas estratégicas. — Realização de benefícios consolidados e integração eficaz dos projetos componentes. — Qualidade técnica da entrega, valor agregado e respeito às restrições de custo e prazo. — Eficiência operacional, cumprimento estrito de SLAs e estabilidade dos sistemas.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CPI = 0,88; SPI = 0,80. O projeto está com gasto ineficiente e cronograma crítico". De acordo com a teoria estudada em *Tabela Diagnóstica Rápida de EVM*, \$IDP < 1\$ e \$IDC < 1\$: Atrasado (\$VA < VP\$) — Acima do Orçamento (\$VA < CR$) — Cenário Crítico: Atrasado e gastando mais que o previsto.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.3 O Sistema de Entrega de Valor (System for Value Delivery)* deste guia, a partir da transição iniciada na 7ª edição do Guia PMBOK e consolidada nas diretrizes contemporâneas (8ª edição), o PMI abandonou o foco exclusivo no cumprimento mecânico de processos da 6ª edição (que continha 10 Áreas de Conhecimento e 49 Processos rígidos). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 24ª/2017) ao estabelecer que "C = (C + 2C + C ) E O M P".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "C = (2C + 4C + 3C ) / 9 E O M P". De acordo com a teoria estudada em *6. Gestão de Portfólio de TI e Governança de Programas*, modelos de Pontuação (*Scoring Models*): Critérios ponderados de priorização (ex.: retorno social, urgência regulatória, complexidade técnica, custo estimado e matriz de riscos).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "C = (C + 4C + C ) / 6 E O M P". De acordo com a teoria estudada em *Tabela Comparativa: Portfólio versus Programa versus Projeto versus Operação*, métrica de Sucesso: Retorno do investimento agregado, mitigação de riscos globais e alcance das metas estratégicas. — Realização de benefícios consolidados e integração eficaz dos projetos componentes. — Qualidade técnica da entrega, valor agregado e respeito às restrições de custo e prazo. — Eficiência operacional, cumprimento estrito de SLAs e estabilidade dos sistemas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "C = (C + 2C + 3C ) / 5 E O M P". De acordo com a teoria estudada em *5. Análise de Valor Agregado (EVM / EVA)*, a Análise de Valor Agregado (*Earned Value Management*) integra escopo, cronograma e custo para medir objetivamente o progresso de um projeto. É o cálculo mais cobrado pela FCC em provas de gestão de projetos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "C = 4(C + C ) + C E O M P". De acordo com a teoria estudada em *Tabela Comparativa: Portfólio versus Programa versus Projeto versus Operação*, em um Portfólio, os projetos e programas agrupados não precisam ter dependência técnica entre si; o único fator comum é o alinhamento ao mesmo conjunto de objetivos estratégicos da organização.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
@@ -499,7 +487,7 @@ A **Gestão de Portfólio de TI** conecta a estratégia institucional do Tribuna
 ---
 
 ### Teste 494
-**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
+**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
 No COBIT 2019, há 40 objetivos de governança e gestão, cada um com um propósito específico dentro de sua abrangência. Entre os objetivos de governança e gestão apresentados abaixo, assinale aquele que tem o propósito de alcançar os resultados definidos do projeto reduzindo o risco de atrasos inesperados e custos, melhorando as comunicações e envolvimento de empresas e usuários finais, garantindo o valor e a qualidade das entregas do projeto e maximizando a sua contribuição para os programas e investimentos definidos portfólio.
 
 * **A)** Risco gerenciado.
@@ -514,7 +502,7 @@ No COBIT 2019, há 40 objetivos de governança e gestão, cada um com um propós
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Risco gerenciado". De acordo com a teoria estudada em *4.3 Adaptação Contextual (Tailoring)*, *Criticidade e Risco:* Sistemas centrais de controle fiscal exigem maior rigor formal e testes automatizados mais densos do que protótipos internos.
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Programas gerenciados". De acordo com a teoria estudada em *6. Gestão de Portfólio de TI e Governança de Programas*, comitê de Governança Digital / Comitê de TI: Órgão colegiado que avalia propostas de novos projetos e programas, priorizando-os de acordo com o impacto fiscal e institucional.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 O Sistema de Entrega de Valor (System for Value Delivery)* deste guia, a gestão de projetos passou a ser compreendida dentro de um Sistema de Entrega de Valor, no qual o foco se desloca dos meros "entregáveis" (*deliverables* físicos) para os resultados e valor de negócio gerados (*outcomes and business value*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "Projetos gerenciados".
+> - **C)** **Correta.** Conforme fundamentado na seção *1.3 O Sistema de Entrega de Valor (System for Value Delivery)* deste guia, a gestão de projetos passou a ser compreendida dentro de um Sistema de Entrega de Valor, no qual o foco se desloca dos meros "entregáveis" (*deliverables* físicos) para os resultados e valor de negócio gerados (*outcomes and business value*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "Projetos gerenciados".
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Orçamento e Custos gerenciados". De acordo com a teoria estudada em *2. Os 12 Princípios de Entrega de Projetos*, 8: Qualidade nas Entregas (*Quality*) — Garantir que os processos de desenvolvimento e os produtos finais atendam aos critérios de aceitação e aos requisitos de uso.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Problemas gerenciados". De acordo com a teoria estudada em *6. Gestão de Portfólio de TI e Governança de Programas*, balanceamento do Portfólio: Equilíbrio equilibrado entre projetos de alta inovação (IA para auditoria), modernização de infraestrutura (migração para nuvem) e sustentação de sistemas legados essenciais.
 >

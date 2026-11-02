@@ -110,50 +110,50 @@ flowchart LR
 ---
 
 ### Teste 310
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
-Modelos de administração pública compreendem um conjunto de teorias, características, normas, padrões, finalidades e práticas próprias, que identificam/definem o tipo de administração de determinada época/período. Os modelos passados demonstram organização, estrutura e “modus operandi” que já existiram – e o modelo atual serve de referência para a administração pública contemporânea, ao mesmo tempo que indica perspectivas e tendências para o futuro. (PALUDO, Augustinho. Administração Pública. São Paulo: Editora Jvspodium, 2024. p. 119.) Quanto aos modelos de administração pública avalie as afirmativas a seguir: I. Embora haja predominância de determinado modelo no curso histórico da Administração Pública, os três modelos coexistem. II. O modelo burocrático não foi plenamente implementado no Brasil. III. Exemplo de manutenção do modelo patrimonialista é o corporativismo, que se torna evidente nos momentos de ameaça aos setores dominantes. Está correto o que se afirma em
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Contabilidade)**
+“O conceito e estabelecimento da auditoria são inerentes à administração financeira pública, já que a gestão de recursos públicos envolve um voto de confiança. A auditoria não é um fim em si, e sim um elemento indispensável de um sistema regulatório cujo objetivo é revelar desvios das normas e violações dos princípios da legalidade, eficiência, efetividade e economicidade na gestão financeira com a tempestividade necessária para que medidas corretivas possam ter tomadas em casos individuais, para fazer com que os responsáveis por esses desvios assumam essa responsabilidade, para obter o devido ressarcimento ou para tomar medidas para prevenir- ou pelo menos dificultar—a ocorrência dessas violações”. INTOSAI, Declaração de Lima (INTOSAI-P 1) A Organização Internacional das Entidades Fiscalizadoras Superiores (INTOSAI) foi fundada em 1953, durante o primeiro Congresso Internacional de Entidades Fiscalizadoras Superiores, realizado em Cuba, como organização independente para, entre outros objetivos, estabelecer normas e orientações para a realização de auditorias governamentais eficazes e eficientes. O Brasil encontra-se entre seus membros, por meio do Tribunal de Contas da União. Em consonância com as normas emanadas pela INTOSAI assinale a afirmativa correta.
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+* **A)** Os princípios fundamentais estabelecidos pela INTOSAI, dado o seu caráter amplo, e pela adesão dos países membros, se sobrepõem às leis e regulamentos nacionais.
+* **B)** Auditoria financeira foca em determinar se um particular objeto está em conformidade com normas identificadas como critérios.
+* **C)** Auditoria de conformidade foca em determinar se intervenções, programas e instituições estão operando em conformidade com os princípios de economicidade, eficiência e efetividade, bem como se há espaço para aperfeiçoamento.
+* **D)** As Instituições Superiores de Controle podem realizar auditorias ou outros trabalhos sobre qualquer tema de relevância que diga respeito às responsabilidades da administração e dos responsáveis pela governança e ao uso apropriado de recursos e bens públicos.
+* **E)** A asseguração em auditoria pode ser razoável ou limitada, nesta última a conclusão da auditoria é expressa de forma positiva, transmitindo que, na opinião do auditor, o objeto está ou não em conformidade em todos os aspectos relevantes.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2. As Disfunções da Burocracia (Robert Merton)*, embora concebida por Max Weber como o tipo ideal de organização racional e previsível, a aplicação concreta da burocracia gera anomalias conhecidas como disfunções da burocracia.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.1 Modelo Patrimonialista*, práticas Correlatas: Concessão de cargos públicos como prebendas (rendas vitalícias) e sinecuras (cargos sem trabalho correspondente), nepotismo, favorecimento pessoal e coronelismo/clientelismo eleitoral.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *1.4 Quadro Analítico Comparativo dos Três Modelos*, relação Estado vs. Sociedade: Confusão total entre patrimônio público e bens particulares do governante. — Separação estrita entre a esfera pública e a privada. Protege o erário da apropriação indevida. — O Estado serve à sociedade.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.4 Quadro Analítico Comparativo dos Três Modelos*, mecanismo de Controle: Inexistente (vontade pessoal e absoluta do soberano). — Controle a priori (prévio): Focado obsessivamente nos processos, ritos e obediência às normas. — Controle a posteriori (de resultados): Focado no cumprimento das metas pactuadas em contratos de gestão.
-> - **E)** **Correta.** Conforme fundamentado na seção *1. Evolução Histórica dos Modelos de Gestão Pública* deste guia, a trajetória da administração pública no mundo ocidental e no Brasil desdobra-se na sucessão e convivência dialética de três modelos paradigmáticos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I, II e III".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os princípios fundamentais estabelecidos pela INTOSAI, dado o seu caráter amplo, e pela adesão dos países membros...". De acordo com a teoria estudada em *1. Evolução Histórica dos Modelos de Gestão Pública*, a trajetória da administração pública no mundo ocidental e no Brasil desdobra-se na sucessão e convivência dialética de três modelos paradigmáticos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Auditoria financeira foca em determinar se um particular objeto está em conformidade com normas identificadas como...". De acordo com a teoria estudada em *1.2 Modelo Burocrático Weberiano*, *Controle a Priori (Prévio):* Controle minucioso e exaustivo sobre a conformidade dos meios, formulários e ritos processuais antes de qualquer decisão.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Auditoria de conformidade foca em determinar se intervenções, programas e instituições estão operando em...". De acordo com a teoria estudada em *4.1 Economicidade, Eficiência, Eficácia e Efetividade*, eficácia: Grau de cumprimento das metas e objetivos formalmente planejados ($\text{Metas Realizadas} / \text{Metas Previstas}$). É a capacidade de fazer a coisa certa e entregar as saídas combinadas.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)* deste guia, instrumento Vinculante: A parceria celebra-se mediante Contrato de Gestão, estipulando metas quantitativas e qualitativas de atendimento, com repasse de recursos orçamentários, cessão de servidores públicos e de imóveis estatais, sujeitando-se ao controle externo do Tribunal de Contas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "As Instituições Superiores de Controle podem realizar auditorias ou outros trabalhos sobre qualquer tema de...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A asseguração em auditoria pode ser razoável ou limitada, nesta última a conclusão da auditoria é expressa de...". De acordo com a teoria estudada em *3.1 Os Quatro Setores do Estado*, produção de Bens e Serviços para o Mercado: Atividades econômicas industriais e comerciais que devem ser operadas pelo mercado concorrencial (objeto de privatização).
 >
-> **Gabarito: E**
+> **Gabarito: D**
 
 ---
 
 ### Teste 311
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
-Em determinada tipologia de avaliação de políticas públicas objetiva-se medir a quantidade de insumos de um programa, isto é, o montante de esforço que os governos investem para o cumprimento de suas metas. Os insumos ou investimentos podem ser em pessoal, espaços para escritórios, comunicação, transporte (...). O propósito dessa avaliação é estabelecer uma base inicial de dados que possa servir para a determinação subsequente da eficiência ou da qualidade do serviço prestado. (CHRISPINO, Álvaro. Introdução ao estudo das políticas públicas. Ed. FGV, 2016, p. 133). O tipo de avaliação de políticas públicas a que se refere o texto é denominado avaliação de
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Ciências Atuariais)**
+A Lei nº 8.429/92 tipifica os atos de improbidade que importam em enriquecimento ilícito, os que causam lesão ao erário e os que atentam contra os princípios da Administração Pública. Nesse contexto, à luz do mencionado Diploma Legal, é correto afirmar que são passíveis de responsabilização objetiva
 
-* **A)** processos.
-* **B)** esforço.
-* **C)** desempenho.
-* **D)** eficiência.
-* **E)** value money.
+* **A)** todos os atos de improbidade tipificados na norma em questão.
+* **B)** os atos de improbidade que importam em enriquecimento ilícito.
+* **C)** os atos de improbidade que causam prejuízo ao erário.
+* **D)** os atos de improbidade que atentam contra os princípios da Administração Pública.
+* **E)** nenhum dos atos de improbidade tipificados na norma em questão.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "processos". De acordo com a teoria estudada em *1.4 Quadro Analítico Comparativo dos Três Modelos*, mecanismo de Controle: Inexistente (vontade pessoal e absoluta do soberano). — Controle a priori (prévio): Focado obsessivamente nos processos, ritos e obediência às normas. — Controle a posteriori (de resultados): Focado no cumprimento das metas pactuadas em contratos de gestão.
-> - **B)** **Correta.** Conforme fundamentado na seção *6.3 Graus e Prazos Máximos de Sigilo Documental* deste guia, as informações cuja divulgação possa colocar em risco a segurança da sociedade ou do Estado podem ser classificadas em três graus de sigilo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "esforço".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desempenho". De acordo com a teoria estudada em *4. As Dimensões do Desempenho Público (Os 6Es da Gestão)*, a mensuração de resultados governamentais apoia-se em dimensões analíticas fundamentais.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eficiência". De acordo com a teoria estudada em *4.1 Economicidade, Eficiência, Eficácia e Efetividade*, economicidade: Minimização dos custos na aquisição de insumos, sem comprometer os padrões adequados de qualidade (comprar os melhores insumos pelo menor custo financeiro possível).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "value money". De acordo com a teoria estudada em *1.3 Modelo Gerencial (New Public Management - NPM)*, *Consumerism:* Introdução do conceito de qualidade total, desregulamentação, competição entre prestadores e tratamento do cidadão como "cliente".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todos os atos de improbidade tipificados na norma em questão". De acordo com a teoria estudada em *1. Evolução Histórica dos Modelos de Gestão Pública*, a trajetória da administração pública no mundo ocidental e no Brasil desdobra-se na sucessão e convivência dialética de três modelos paradigmáticos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os atos de improbidade que importam em enriquecimento ilícito". De acordo com a teoria estudada em *1.3 Modelo Gerencial (New Public Management - NPM)*, princípios Estruturantes: Descentralização da gestão, autonomia dos gestores, flexibilização das contratações, incentivo à inovação, contratualização de resultados e foco absoluto nas necessidades do cidadão-usuário/cliente.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os atos de improbidade que causam prejuízo ao erário". De acordo com a teoria estudada em *1.4 Quadro Analítico Comparativo dos Três Modelos*, relação Estado vs. Sociedade: Confusão total entre patrimônio público e bens particulares do governante. — Separação estrita entre a esfera pública e a privada. Protege o erário da apropriação indevida. — O Estado serve à sociedade.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os atos de improbidade que atentam contra os princípios da Administração Pública". De acordo com a teoria estudada em *1.4 Quadro Analítico Comparativo dos Três Modelos*, princípio Básico de Atuação: Arbitrariedade, laços de sangue, prebendas, sinécures e apadrinhamento político. — Formalismo legal estrito, impessoalidade, hierarquia rígida e meritocracia (concurso público). — Flexibilidade, descentralização de autoridade, competitividade, inovação e avaliação por metas.
+> - **E)** **Correta.** Conforme fundamentado na seção *5.2 Dimensões da Accountability (Vertical, Horizontal e Social)* deste guia, o termo *accountability* compreende o dever indeclinável de prestar contas, responder pelos atos praticados na gestão da coisa pública e submeter-se a sanções em caso de malversação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "nenhum dos atos de improbidade tipificados na norma em questão".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
@@ -178,26 +178,26 @@ flowchart TD
 ---
 
 ### Teste 312
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
-O neoweberianismo é um paradigma de reforma da Administração Pública que surge no início dos anos 2000, no contexto continental europeu, como alternativa ao gerencialismo. Ao longo das primeiras décadas do século XXI, evoluiu de tipo ideal a modelo normativo, consolidando-se como referência paradigmática voltada a mitigar problemas decorrentes do neoliberalismo e das reformas gerenciais, notadamente o esvaziamento do Estado e sua incapacidade para enfrentar problemas sociais complexos e crises econômicas. Sobre a caracterização do Estado Neoweberiano como modelo de reforma administrativa, é correto afirmar que
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+No exercício da função relativa ao cargo de técnico do Tribunal Regional Federal da 1ª Região, no qual foi regularmente investido, Astolfo praticou a conduta de revelar fato de que tinha ciência em razão das atribuições e que devia permanecer em segredo, promovendo beneficiamento por informação privilegiada, sendo certo que ele assevera que a sua conduta foi culposa. Diante dessa situação hipotética, à luz do disposto na Lei nº 8.429/1992, com a redação conferida pela Lei nº 14.230/2021, a aludida conduta de Astolfo:
 
-* **A)** constitui aprofundamento da New Public Management (NPM), promovendo o esvaziamento do Estado, a redução de seus papéis centrais e a generalização da lógica de mercado como mecanismo predominante de coordenação.
-* **B)** consiste em atualização do modelo burocrático weberiano clássico, mediante incorporação de tecnologias digitais aos procedimentos internos, mantendo a orientação processual centrada no cumprimento de normas.
-* **C)** corresponde a paradigma puramente gerencial, fundado na substituição da burocracia estatal por arranjos contratuais flexíveis e por mecanismos de mercado, em ruptura com a tradição weberiana.
-* **D)** adota a lógica reticular da Nova Governança Pública (NPG) como mecanismo predominante de coordenação institucional, deslocando a hierarquia estatal para função subsidiária na articulação entre atores públicos e privados.
-* **E)** caracteriza-se como modelo híbrido, que articula legados burocráticos clássicos com aprendizados da NPM e da NPG, traduzindo-se em um arranjo institucional que preserva a coordenação estatal e simultaneamente incorpora lógicas de resultados e de participação cidadã.
+* **A)** está tipificada dentre os atos de improbidade que atentam contra os princípios da Administração Pública, que não admitem a modalidade culposa e cujo rol é taxativo;
+* **B)** está tipificada dentre os atos de improbidade em todas as situações consagradas na norma, que comportam rol exemplificativo e que admitem a modalidade culposa e a dolosa;
+* **C)** está tipificada dentre os atos de improbidade que importam em enriquecimento ilícito, cujo rol é taxativo e que admitem somente a modalidade dolosa;
+* **D)** não está tipificada em nenhum dos atos de improbidade que atentam contra os princípios da Administração Pública, que admitem as modalidades culposa e dolosa, cujo rol é exemplificativo;
+* **E)** não está tipificada dentre quaisquer dos atos de improbidade consagrados na aludida norma, que pormenoriza as condutas puníveis de forma taxativa em todos os casos e que não admitem a modalidade culposa em nenhuma hipótese.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitui aprofundamento da New Public Management (NPM), promovendo o esvaziamento do Estado, a redução de seus...". De acordo com a teoria estudada em *1.3 Modelo Gerencial (New Public Management - NPM)*, *Gerencialismo Puro (Managerialism):* Foco inicial obsessivo no corte de gastos públicos, equilíbrio fiscal e redução do tamanho da máquina governamental.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consiste em atualização do modelo burocrático weberiano clássico, mediante incorporação de tecnologias digitais...". De acordo com a teoria estudada em *1.2 Modelo Burocrático Weberiano*, estruturado conceitualmente por Max Weber no início do século XX e introduzido no Brasil pela reforma do DASP (1936-1938).
-> - **C)** **Correta.** Conforme fundamentado na seção *2. As Disfunções da Burocracia (Robert Merton)* deste guia, embora concebida por Max Weber como o tipo ideal de organização racional e previsível, a aplicação concreta da burocracia gera anomalias conhecidas como disfunções da burocracia. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "corresponde a paradigma puramente gerencial, fundado na substituição da burocracia estatal por arranjos...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "adota a lógica reticular da Nova Governança Pública (NPG) como mecanismo predominante de coordenação...". De acordo com a teoria estudada em *1.3 Modelo Gerencial (New Public Management - NPM)*, emergente nas décadas de 1970/1980 (Reino Unido, Nova Zelândia e EUA) e adotado no Brasil pela Reforma de 1995 (PDRAE).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "caracteriza-se como modelo híbrido, que articula legados burocráticos clássicos com aprendizados da NPM e da NPG...". De acordo com a teoria estudada em *1.3 Modelo Gerencial (New Public Management - NPM)*, princípios Estruturantes: Descentralização da gestão, autonomia dos gestores, flexibilização das contratações, incentivo à inovação, contratualização de resultados e foco absoluto nas necessidades do cidadão-usuário/cliente.
+> - **A)** **Correta.** Conforme fundamentado na seção *1. Evolução Histórica dos Modelos de Gestão Pública* deste guia, a trajetória da administração pública no mundo ocidental e no Brasil desdobra-se na sucessão e convivência dialética de três modelos paradigmáticos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "está tipificada dentre os atos de improbidade que atentam contra os princípios da Administração Pública, que não...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "está tipificada dentre os atos de improbidade em todas as situações consagradas na norma, que comportam rol...". De acordo com a teoria estudada em *2. As Disfunções da Burocracia (Robert Merton)*, superconformidade: O funcionário limita-se estritamente ao que está escrito e recusa-se a agir perante situações imprevistas, gerando paralisia decisória.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "está tipificada dentre os atos de improbidade que importam em enriquecimento ilícito, cujo rol é taxativo e que...". De acordo com a teoria estudada em *1.3 Modelo Gerencial (New Public Management - NPM)*, princípios Estruturantes: Descentralização da gestão, autonomia dos gestores, flexibilização das contratações, incentivo à inovação, contratualização de resultados e foco absoluto nas necessidades do cidadão-usuário/cliente.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não está tipificada em nenhum dos atos de improbidade que atentam contra os princípios da Administração Pública...". De acordo com a teoria estudada em *5.2 Dimensões da Accountability (Vertical, Horizontal e Social)*, o termo *accountability* compreende o dever indeclinável de prestar contas, responder pelos atos praticados na gestão da coisa pública e submeter-se a sanções em caso de malversação.
+> - **E)** **Incorreta.** A opção apresenta vedação ou negativa absoluta incompatível com a regra aplicável ao afirmar que "não está tipificada dentre quaisquer dos atos de improbidade consagrados na aludida norma, que pormenoriza as...". De acordo com a teoria estudada em *5.1 Governabilidade vs. Governança (Distinção Crítica FCC)*, a banca FCC cobra de forma reiterada a distinção analítica entre governabilidade e governança.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
@@ -233,48 +233,42 @@ flowchart TD
 ---
 
 ### Teste 313
-**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
-A gestão de resultados nos serviços públicos busca eficiência, transparência e atendimento às demandas sociais por meio de monitoramento e avaliação contínuos. Assinale a opção que apresenta, corretamente, itens da agenda para a estruturação da gestão de resultados na produção de serviços públicos.
+**(CEBRASPE – TJ/DFT – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Ao negar publicidade a ato oficial, o servidor público comete ato de improbidade administrativa, o que atenta contra os princípios da administração pública. Para tanto, torna-se irrelevante considerar se houve ação de caráter doloso ou culposo.
 
-* **A)** Foco nos resultados e políticas públicas formuladas a partir de processo de organização governamental.
-* **B)** Caráter centralizado da tomada de decisão e flexibilização de recursos com cobrança de responsabilidade de gestores.
-* **C)** Utilização de planejamento estratégico nas organizações públicas e otimização dos processos administrativos.
-* **D)** Mudanças metodológicas no processo de formulação do orçamento privado e sistemas de monitoramento da gestão, prestação de contas e avaliação.
-* **E)** Desenvolvimento de indicadores que permitam medir o insumo da ação governamental e indicar os desvios para introdução de medidas preventivas.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Foco nos resultados e políticas públicas formuladas a partir de processo de organização governamental". De acordo com a teoria estudada em *3.1 Os Quatro Setores do Estado*, núcleo Estratégico: Define as leis, as políticas públicas fundamentais e as diretrizes estratégicas da nação. Propriedade estatal integral, composta pelas carreiras de Estado.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Caráter centralizado da tomada de decisão e flexibilização de recursos com cobrança de responsabilidade de gestores". De acordo com a teoria estudada em *1.3 Modelo Gerencial (New Public Management - NPM)*, princípios Estruturantes: Descentralização da gestão, autonomia dos gestores, flexibilização das contratações, incentivo à inovação, contratualização de resultados e foco absoluto nas necessidades do cidadão-usuário/cliente.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)* deste guia, instrumento Vinculante: A parceria celebra-se mediante Contrato de Gestão, estipulando metas quantitativas e qualitativas de atendimento, com repasse de recursos orçamentários, cessão de servidores públicos e de imóveis estatais, sujeitando-se ao controle externo do Tribunal de Contas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Utilização de planejamento estratégico nas organizações públicas e otimização dos processos administrativos".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Mudanças metodológicas no processo de formulação do orçamento privado e sistemas de monitoramento da gestão...". De acordo com a teoria estudada em *5.1 Governabilidade vs. Governança (Distinção Crítica FCC)*, controle: Gestão de riscos, transparência, integridade (*compliance*) e monitoramento contínuo.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Desenvolvimento de indicadores que permitam medir o insumo da ação governamental e indicar os desvios para...". De acordo com a teoria estudada em *3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)*, publicização: É a descentralização de atividades e serviços não exclusivos do Estado para entidades do setor público não estatal (terceiro setor), constituídas como pessoas jurídicas de direito privado sem fins lucrativos qualificadas como Organizações Sociais (OS).
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ao negar publicidade a ato oficial, o servidor público comete ato de improbidade administrativa, o que atenta...". De acordo com a teoria estudada em *1.3 Modelo Gerencial (New Public Management - NPM)*, princípios Estruturantes: Descentralização da gestão, autonomia dos gestores, flexibilização das contratações, incentivo à inovação, contratualização de resultados e foco absoluto nas necessidades do cidadão-usuário/cliente.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *1. Evolução Histórica dos Modelos de Gestão Pública* deste guia, a trajetória da administração pública no mundo ocidental e no Brasil desdobra-se na sucessão e convivência dialética de três modelos paradigmáticos. Portanto, a assertiva examinada pela banca (CEBRASPE – TJ/DFT/2015) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
 ### Teste 314
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
-As parcerias público-privadas (PPPs) constituem estratégia governamental destinada a viabilizar empreendimentos e serviços públicos por meio da articulação entre a Administração Pública e o setor privado, apresentando potencial para superar limitações estruturais do setor estatal. A respeito das vantagens das PPPs para a Administração Pública, analise as afirmativas a seguir. I. Viabilizam empreendimentos que, sob a ótica estritamente financeira, não seriam sustentáveis apenas com a cobrança de tarifa dos usuários, ao admitir contraprestação do parceiro público ao parceiro privado. II. Geram complementaridade às capacidades e aos recursos do governo, mediante a aprendizagem de novas habilidades, o acesso a ferramentas de gestão da informação e o desenvolvimento de capacidade gerencial. III. Devem ser concebidas pelos gestores como mecanismo de viabilização de aportes financeiros privados, dispensando a busca de eficiência no uso de recursos públicos. Está correto o que se afirma em
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Direito)**
+Após o devido processo legal, em decorrência da prática de ato de improbidade administrativa, foi aplicada a Samuel, que era prefeito do Município Alfa, entre outras penalidades, a de suspensão de direitos políticos pelo prazo de 13 (treze) anos, em decorrência da gravidade de sua conduta. Considerando as disposições constantes da Lei nº 8.429/92, com a redação conferida pela Lei nº 14.230/2021, é correto afirmar que a penalidade de suspensão de direitos políticos na extensão imposta
 
-* **A)** I, II e III.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, apenas.
+* **A)** apenas está prevista para os atos de improbidade que importam em enriquecimento ilícito.
+* **B)** pode ser aplicada para qualquer dos atos de improbidade tipificados na norma em comento.
+* **C)** somente seria cabível para os atos de improbidade que causam lesão ao erário.
+* **D)** restringe-se aos atos de improbidade que atentam contra os princípios da Administração Pública.
+* **E)** extrapola os limites previstos na norma em apreço para qualquer dos atos de improbidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)* deste guia, publicização: É a descentralização de atividades e serviços não exclusivos do Estado para entidades do setor público não estatal (terceiro setor), constituídas como pessoas jurídicas de direito privado sem fins lucrativos qualificadas como Organizações Sociais (OS). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "I, II e III".
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)*, instrumento Vinculante: A parceria celebra-se mediante Contrato de Gestão, estipulando metas quantitativas e qualitativas de atendimento, com repasse de recursos orçamentários, cessão de servidores públicos e de imóveis estatais, sujeitando-se ao controle externo do Tribunal de Contas.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.1 Os Quatro Setores do Estado*, serviços Não Exclusivos do Estado: Serviços sociais de relevância coletiva que o Estado presta, mas nos quais o setor privado também atua livremente (saúde, ensino, cultura e pesquisa científica).
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.1 Os Quatro Setores do Estado*, produção de Bens e Serviços para o Mercado: Atividades econômicas industriais e comerciais que devem ser operadas pelo mercado concorrencial (objeto de privatização).
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.3 Modelo Gerencial (New Public Management - NPM)*, *Gerencialismo Puro (Managerialism):* Foco inicial obsessivo no corte de gastos públicos, equilíbrio fiscal e redução do tamanho da máquina governamental.
+> - **A)** **Correta.** Conforme fundamentado na seção *5.2 Dimensões da Accountability (Vertical, Horizontal e Social)* deste guia, o termo *accountability* compreende o dever indeclinável de prestar contas, responder pelos atos praticados na gestão da coisa pública e submeter-se a sanções em caso de malversação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "apenas está prevista para os atos de improbidade que importam em enriquecimento ilícito".
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "pode ser aplicada para qualquer dos atos de improbidade tipificados na norma em comento". De acordo com a teoria estudada em *1.2 Modelo Burocrático Weberiano*, *Formalismo Estrito:* A autoridade emana da lei e as rotinas devem ser reduzidas a documentos escritos e processos formais.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente seria cabível para os atos de improbidade que causam lesão ao erário". De acordo com a teoria estudada em *1.4 Quadro Analítico Comparativo dos Três Modelos*, relação Estado vs. Sociedade: Confusão total entre patrimônio público e bens particulares do governante. — Separação estrita entre a esfera pública e a privada. Protege o erário da apropriação indevida. — O Estado serve à sociedade.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "restringe-se aos atos de improbidade que atentam contra os princípios da Administração Pública". De acordo com a teoria estudada em *1. Evolução Histórica dos Modelos de Gestão Pública*, a trajetória da administração pública no mundo ocidental e no Brasil desdobra-se na sucessão e convivência dialética de três modelos paradigmáticos.
+> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "extrapola os limites previstos na norma em apreço para qualquer dos atos de improbidade". De acordo com a teoria estudada em *1.2 Modelo Burocrático Weberiano*, *Controle a Priori (Prévio):* Controle minucioso e exaustivo sobre a conformidade dos meios, formulários e ritos processuais antes de qualquer decisão.
 >
 > **Gabarito: A**
 
@@ -314,26 +308,26 @@ flowchart LR
 ---
 
 ### Teste 315
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
-A gestão por resultados é uma abordagem focada no alcance de objetivos específicos e mensuráveis, orientando a administração pública e privada para a eficiência e eficácia. Assinale a opção que apresenta uma dimensão de desempenho focada nos gastos incorridos na alocação de insumos para minimizar custos.
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Sem Especialidade)**
+Os critérios de departamentalização na Administração Pública devem alinhar-se aos princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência. Assinale a opção que apresenta, corretamente, a departamentalização que procura agrupar órgãos e cargos por função para aproveitar a integração de conhecimentos, habilidades, competências e processos de trabalho em uma só unidade.
 
-* **A)** Economicidade.
-* **B)** Eficiência.
-* **C)** Eficácia.
-* **D)** Efetividade.
-* **E)** Produtividade.
+* **A)** Geográfica.
+* **B)** Funcional.
+* **C)** Por clientela.
+* **D)** Por processos.
+* **E)** Por projetos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *4.1 Economicidade, Eficiência, Eficácia e Efetividade* deste guia, economicidade: Minimização dos custos na aquisição de insumos, sem comprometer os padrões adequados de qualidade (comprar os melhores insumos pelo menor custo financeiro possível). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Economicidade".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Eficiência". De acordo com a teoria estudada em *4.1 Economicidade, Eficiência, Eficácia e Efetividade*, eficiência: Relação otimizada entre os insumos empregados e as saídas produzidas (\$\text{Produtos} / \text{Insumos}\$). É a competência para fazer certo as coisas, reduzindo perdas e desperdícios operacionais.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Eficácia". De acordo com a teoria estudada em *4.1 Economicidade, Eficiência, Eficácia e Efetividade*, eficácia: Grau de cumprimento das metas e objetivos formalmente planejados (\$\text{Metas Realizadas} / \text{Metas Previstas}\$). É a capacidade de fazer a coisa certa e entregar as saídas combinadas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Efetividade". De acordo com a teoria estudada em *4.1 Economicidade, Eficiência, Eficácia e Efetividade*, efetividade: Impacto social duradouro e positivo gerado na realidade concreta da sociedade pela política pública. É a transformação concreta da vida do cidadão.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Produtividade". De acordo com a teoria estudada em *4.1 Economicidade, Eficiência, Eficácia e Efetividade*, comprar as vacinas e seringas pelo menor preço do mercado = Economicidade.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Geográfica". De acordo com a teoria estudada em *1.2 Modelo Burocrático Weberiano*, *Hierarquia Funcional:* Cadeia de comando clara, com linhas bem delimitadas de subordinação.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Modelo Burocrático Weberiano* deste guia, *Meritocracia e Profissionalização:* Ingresso na carreira por concurso público e promoções baseadas no mérito funcional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "Funcional".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Por clientela". De acordo com a teoria estudada em *1.4 Quadro Analítico Comparativo dos Três Modelos*, papel do Servidor Público: Titular de sinecuras e favores concedidos pela coroa. — Especialista profissional, com carreira técnica estruturada e estabilidade funcional. — Gestor de programas orientado a metas, com autonomia operacional e incentivo ao mérito.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Por processos". De acordo com a teoria estudada em *1.2 Modelo Burocrático Weberiano*, *Formalismo Estrito:* A autoridade emana da lei e as rotinas devem ser reduzidas a documentos escritos e processos formais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Por projetos". De acordo com a teoria estudada em *1.1 Modelo Patrimonialista*, práticas Correlatas: Concessão de cargos públicos como prebendas (rendas vitalícias) e sinecuras (cargos sem trabalho correspondente), nepotismo, favorecimento pessoal e coronelismo/clientelismo eleitoral.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
@@ -366,26 +360,26 @@ O termo *accountability* compreende o dever indeclinável de prestar contas, res
 ---
 
 ### Teste 316
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
-No campo da gestão pública, os conceitos de governabilidade e accountability constituem categorias distintas, embora complementares. A respeito dos conceitos de governabilidade e accountability, é correto afirmar que
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+Em dezembro de 2024, João, estagiário voluntário da 1ª Vara da Comarca Alfa, revelou, a terceira pessoa, circunstância de que tinha ciência em razão das atribuições da função exercida junto ao Poder Judiciário e que deveria permanecer em segredo, propiciando beneficiamento por informação privilegiada. Após um breve período de investigação, apurou-se que João não agiu com dolo. Na verdade, o estagiário, atuando de maneira imprudente, acabou por revelar os fatos sigilosos. Nesse cenário, considerando as disposições da Lei nº 8.429/1992, é correto afirmar que João
 
-* **A)** governabilidade refere-se à capacidade política do Estado de governar e decidir, originada de sua legitimidade democrática perante a sociedade, ao passo que accountability designa o dever de os agentes de governança prestarem contas de sua atuação e assumirem as consequências de seus atos e omissões.
-* **B)** governabilidade e accountability são expressões sinônimas, ambas designando os mecanismos institucionais de prestação de contas dos governantes perante o Poder Legislativo e os órgãos de controle externo.
-* **C)** governabilidade corresponde ao dever do agente público de prestar contas de modo claro, conciso e tempestivo, ao passo que accountability designa a capacidade administrativa do Estado de implementar suas políticas.
-* **D)** governabilidade traduz a fiscalização exercida pelos órgãos de controle interno sobre a Administração Pública, enquanto accountability designa o conjunto de mecanismos de liderança, estratégia e controle aplicados à gestão.
-* **E)** governabilidade e accountability constituem dimensões da gestão de riscos, voltadas à identificação e ao monitoramento de eventos potenciais que possam afetar o alcance dos objetivos institucionais.
+* **A)** não praticou ato de improbidade administrativa, já que exerce a função pública na qualidade de estagiário voluntário.
+* **B)** praticou ato de improbidade administrativa que atenta contra os princípios da Administração Pública.
+* **C)** praticou ato de improbidade administrativa que importa enriquecimento ilícito.
+* **D)** praticou ato de improbidade administrativa que causa prejuízo ao erário.
+* **E)** não praticou ato de improbidade administrativa, por não ter agido com dolo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "governabilidade refere-se à capacidade política do Estado de governar e decidir, originada de sua legitimidade...". De acordo com a teoria estudada em *5.2 Dimensões da Accountability (Vertical, Horizontal e Social)*, o termo *accountability* compreende o dever indeclinável de prestar contas, responder pelos atos praticados na gestão da coisa pública e submeter-se a sanções em caso de malversação.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "governabilidade e accountability são expressões sinônimas, ambas designando os mecanismos institucionais de...". De acordo com a teoria estudada em *5.2 Dimensões da Accountability (Vertical, Horizontal e Social)*, accountability Vertical: Opera de baixo para cima, no vínculo entre o cidadão e os governantes, materializada essencialmente pelo voto livre e secreto nas eleições democráticas, bem como por plebiscitos e referendos.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "governabilidade corresponde ao dever do agente público de prestar contas de modo claro, conciso e tempestivo, ao...". De acordo com a teoria estudada em *5.2 Dimensões da Accountability (Vertical, Horizontal e Social)*, accountability Social (ou Societal): Exercida pela mobilização da sociedade civil organizada, sindicatos, conselhos de políticas públicas e pela imprensa investigativa independente.
-> - **D)** **Correta.** Conforme fundamentado na seção *5.2 Dimensões da Accountability (Vertical, Horizontal e Social)* deste guia, accountability Horizontal: Consiste no controle mútuo e recíproco exercido entre órgãos estatais autônomos dotados de poderes constitucionais de freios e contrapesos (Tribunais de Contas, Ministério Público, Poder Judiciário e Controladorias). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "governabilidade traduz a fiscalização exercida pelos órgãos de controle interno sobre a Administração Pública...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "governabilidade e accountability constituem dimensões da gestão de riscos, voltadas à identificação e ao...". De acordo com a teoria estudada em *5.1 Governabilidade vs. Governança (Distinção Crítica FCC)*, controle: Gestão de riscos, transparência, integridade (*compliance*) e monitoramento contínuo.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não praticou ato de improbidade administrativa, já que exerce a função pública na qualidade de estagiário...". De acordo com a teoria estudada em *1.3 Modelo Gerencial (New Public Management - NPM)*, *Consumerism:* Introdução do conceito de qualidade total, desregulamentação, competição entre prestadores e tratamento do cidadão como "cliente".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "praticou ato de improbidade administrativa que atenta contra os princípios da Administração Pública". De acordo com a teoria estudada em *1. Evolução Histórica dos Modelos de Gestão Pública*, a trajetória da administração pública no mundo ocidental e no Brasil desdobra-se na sucessão e convivência dialética de três modelos paradigmáticos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "praticou ato de improbidade administrativa que importa enriquecimento ilícito". De acordo com a teoria estudada em *5.2 Dimensões da Accountability (Vertical, Horizontal e Social)*, accountability Social (ou Societal): Exercida pela mobilização da sociedade civil organizada, sindicatos, conselhos de políticas públicas e pela imprensa investigativa independente.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "praticou ato de improbidade administrativa que causa prejuízo ao erário". De acordo com a teoria estudada em *1.4 Quadro Analítico Comparativo dos Três Modelos*, relação Estado vs. Sociedade: Confusão total entre patrimônio público e bens particulares do governante. — Separação estrita entre a esfera pública e a privada. Protege o erário da apropriação indevida. — O Estado serve à sociedade.
+> - **E)** **Correta.** Conforme fundamentado na seção *6. Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)* deste guia, a Lei Federal nº 12.527/2011 (LAI) e a Lei Estadual de Goiás nº 18.025/2013 consagram a publicidade como preceito geral republicano e o sigilo como exceção rigorosa. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "não praticou ato de improbidade administrativa, por não ter agido com dolo".
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
@@ -426,72 +420,72 @@ As informações cuja divulgação possa colocar em risco a segurança da socied
 ---
 
 ### Teste 317
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
-De acordo com a Lei nº 12.527, de 2011, que trata da Lei do Acesso à informação, as informações são classificadas de acordo com o grau de sigilo. Nesse contexto, as informações relativas ao Chefes de Missões Diplomáticas são classificadas como
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Sem Especialidade)**
+A Lei de Acesso à Informação (LAI), Lei n.° 12.527/2011, reforça o compromisso da Administração Pública com a transparência e a ética, promovendo o acesso do cidadão às informações governamentais como instrumento fundamental para o controle social e o fortalecimento da democracia. Assinale a opção que apresenta corretamente uma disposição das informações pessoais da LAI.
 
-* **A)** ostensivas.
-* **B)** secretas.
-* **C)** reservadas.
-* **D)** ultrassecretas.
-* **E)** públicas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ostensivas". De acordo com a teoria estudada em *6.3 Graus e Prazos Máximos de Sigilo Documental*, informações Pessoais (Art. 31 da LAI): Relativas à intimidade, vida privada, honra e imagem de indivíduos têm acesso restrito por até 100 (cem) anos, independentemente de classificação de sigilo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "secretas". De acordo com a teoria estudada em *6.3 Graus e Prazos Máximos de Sigilo Documental*, as informações cuja divulgação possa colocar em risco a segurança da sociedade ou do Estado podem ser classificadas em três graus de sigilo.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reservadas". De acordo com a teoria estudada em *6.2 Prazos de Atendimento e Desnecessidade de Motivação*, prazos: Se a informação estiver disponível, o acesso deve ser imediato. Caso não seja possível o atendimento imediato, o órgão tem o prazo de até 20 (vinte) dias, prorrogável motivadamente por mais 10 (dez) dias (regra dos 20 + 10 dias).
-> - **D)** **Correta.** Conforme fundamentado na seção *6. Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)* deste guia, a Lei Federal nº 12.527/2011 (LAI) e a Lei Estadual de Goiás nº 18.025/2013 consagram a publicidade como preceito geral republicano e o sigilo como exceção rigorosa. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "ultrassecretas".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "públicas". De acordo com a teoria estudada em *6.1 Transparência Ativa vs. Transparência Passiva*, transparência Ativa: Divulgação oficial espontânea e contínua de informações públicas de interesse coletivo em sítios oficiais da internet (portais de transparência), em dados abertos e de fácil acesso, independentemente de requerimento.
->
-> **Gabarito: D**
-
----
-
-### Teste 318
-**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
-O funcionário de um órgão de fomento à pesquisa tem como atribuição o atendimento a solicitantes de pedidos de bolsas de apoio a pesquisadores. O funcionário é responsável pelo recebimento e registro da documentação que dá início ao processo de solicitação de bolsas, devendo ser iniciados apenas os processos que se enquadrem nos critérios do órgão para concessão do apoio. Dessa etapa inicial, as solicitações seguem para as etapas de avaliação e de decisão. Em 2021, o funcionário atendeu 200 solicitantes, dando início a 200 processos de pedido de bolsa. Desses processos, 20 foram recusados na etapa de avaliação por não atenderem aos critérios do órgão para concessão de bolsas, e 38 foram recusados por serem avaliados como de baixa relevância. Em 2022, o funcionário atendeu 120 solicitantes, dando início a 120 processos de pedido de bolsa. Desses processos, 12 foram recusados por não atenderem aos critérios do órgão para concessão de bolsas, e 10 foram recusados por serem avaliados como de baixa relevância. Na situação apresentada, é correto afirmar, sobre o trabalho do funcionário, que:
-
-* **A)** a eficácia foi maior em 2021;
-* **B)** a eficiência foi maior em 2022;
-* **C)** a eficácia foi a mesma nos dois anos;
-* **D)** o grau de qualidade do trabalho foi maior em 2021;
-* **E)** o grau de qualidade do trabalho foi o mesmo nos dois anos.
+* **A)** Informações pessoais podem ser divulgadas livremente após 10 anos, desde que não envolvam agentes públicos.
+* **B)** O acesso a informações relativas à intimidade, vida privada, honra e imagem é restrito por até 50 anos, salvo decisão judicial.
+* **C)** A divulgação de informações pessoais depende exclusivamente de ordem judicial, independentemente de consentimento da pessoa envolvida.
+* **D)** A restrição de acesso a informações pessoais pode ser utilizada para impedir investigações de irregularidades que envolvam o titular dos dados.
+* **E)** O tratamento de informações pessoais deve respeitar a intimidade e os direitos individuais, sendo vedado seu uso indevido, sob pena de responsabilização.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a eficácia foi maior em 2021". De acordo com a teoria estudada em *4.1 Economicidade, Eficiência, Eficácia e Efetividade*, eficácia: Grau de cumprimento das metas e objetivos formalmente planejados (\$\text{Metas Realizadas} / \text{Metas Previstas}\$). É a capacidade de fazer a coisa certa e entregar as saídas combinadas.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a eficiência foi maior em 2022". De acordo com a teoria estudada em *4.1 Economicidade, Eficiência, Eficácia e Efetividade*, economicidade: Minimização dos custos na aquisição de insumos, sem comprometer os padrões adequados de qualidade (comprar os melhores insumos pelo menor custo financeiro possível).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a eficácia foi a mesma nos dois anos". De acordo com a teoria estudada em *6.2 Prazos de Atendimento e Desnecessidade de Motivação*, prazos: Se a informação estiver disponível, o acesso deve ser imediato. Caso não seja possível o atendimento imediato, o órgão tem o prazo de até 20 (vinte) dias, prorrogável motivadamente por mais 10 (dez) dias (regra dos 20 + 10 dias).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o grau de qualidade do trabalho foi maior em 2021". De acordo com a teoria estudada em *1.3 Modelo Gerencial (New Public Management - NPM)*, *Consumerism:* Introdução do conceito de qualidade total, desregulamentação, competição entre prestadores e tratamento do cidadão como "cliente".
-> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Modelo Patrimonialista* deste guia, práticas Correlatas: Concessão de cargos públicos como prebendas (rendas vitalícias) e sinecuras (cargos sem trabalho correspondente), nepotismo, favorecimento pessoal e coronelismo/clientelismo eleitoral. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "o grau de qualidade do trabalho foi o mesmo nos dois anos".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Informações pessoais podem ser divulgadas livremente após 10 anos, desde que não envolvam agentes públicos". De acordo com a teoria estudada em *6.3 Graus e Prazos Máximos de Sigilo Documental*, as informações cuja divulgação possa colocar em risco a segurança da sociedade ou do Estado podem ser classificadas em três graus de sigilo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O acesso a informações relativas à intimidade, vida privada, honra e imagem é restrito por até 50 anos, salvo...". De acordo com a teoria estudada em *6. Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)*, a Lei Federal nº 12.527/2011 (LAI) e a Lei Estadual de Goiás nº 18.025/2013 consagram a publicidade como preceito geral republicano e o sigilo como exceção rigorosa.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A divulgação de informações pessoais depende exclusivamente de ordem judicial, independentemente de consentimento...". De acordo com a teoria estudada em *6.1 Transparência Ativa vs. Transparência Passiva*, transparência Ativa: Divulgação oficial espontânea e contínua de informações públicas de interesse coletivo em sítios oficiais da internet (portais de transparência), em dados abertos e de fácil acesso, independentemente de requerimento.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A restrição de acesso a informações pessoais pode ser utilizada para impedir investigações de irregularidades que...". De acordo com a teoria estudada em *6.2 Prazos de Atendimento e Desnecessidade de Motivação*, prazos: Se a informação estiver disponível, o acesso deve ser imediato. Caso não seja possível o atendimento imediato, o órgão tem o prazo de até 20 (vinte) dias, prorrogável motivadamente por mais 10 (dez) dias (regra dos 20 + 10 dias).
+> - **E)** **Correta.** Conforme fundamentado na seção *6.3 Graus e Prazos Máximos de Sigilo Documental* deste guia, informações Pessoais (Art. 31 da LAI): Relativas à intimidade, vida privada, honra e imagem de indivíduos têm acesso restrito por até 100 (cem) anos, independentemente de classificação de sigilo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "O tratamento de informações pessoais deve respeitar a intimidade e os direitos individuais, sendo vedado seu uso...".
 >
 > **Gabarito: E**
 
 ---
 
-### Teste 319
-**(FGV – TCE-GO – Analista de Controle Externo Controle Externo – 2024)**
-A Constituição Federal de 1988 determinou que o controle externo da administração pública brasileira seja conduzido pelo Tribunal de Contas e pelo Ministério Público. Essas instituições possuem autonomia formal em relação ao governo, sendo responsáveis por fiscalizar a correta aplicação dos recursos públicos, garantir a transparência nos atos de gestão e fortalecer a participação da sociedade civil. Além disso, têm o poder de atuar mediante solicitação do cidadão, ampliando assim o controle democrático sobre a administração pública. Com relação à accountability, analise os itens a seguir: I. O conceito de accountability é fundamental na teoria democrática moderna, uma vez que estabelece que os governantes e ocupantes de funções públicas devem prestar contas à sociedade, seguindo critérios democráticos que definem o propósito e o alcance de cada instituição. II. O que deve ser prestado conta à sociedade não é apenas determinado pelos ocupantes dos cargos públicos, mas sim por um processo amplo que engloba a criação de leis por políticos eleitos, a interação de controles entre os poderes para evitar a centralização decisória e a definição de padrões republicanos para evitar o exercício personalizado do poder ou a influência de grupos de interesse. III. A lógica da transparência apresentada pelo ideário do governo aberto pode levar a uma falácia em torno da accountability. Está correto o que se afirma em
+### Teste 318
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+Semana passada, Adroaldo, no exercício das atribuições do cargo efetivo em que está lotado no Estado do Amapá, praticou a conduta de negar publicidade a determinado ato oficial, sob o fundamento de que ele está gravado de sigilo, classificado como informação secreta, que, mediante a devida motivação, foi considerada imprescindível para a segurança da sociedade e do Estado. Acerca dessa situação hipotética, considerando o disposto na Lei nº 8.429/1992, com a redação conferida pela Lei nº 14.230/2021, é correto afirmar que:
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III. Noções de Análise de Dados
+* **A)** caso caracterizado o dolo na realização de tal conduta, ficará configurado o ato de improbidade que atenta contra os princípios da Administração Pública, diante da previsão específica no respectivo dispositivo da Lei de Improbidade;
+* **B)** independentemente da caracterização de dolo, a conduta em questão não configura ato de improbidade que atenta contra os princípios da Administração Pública, tanto que excepcionada pela própria Lei de Improbidade Administrativa;
+* **C)** considerando que o rol atinente aos atos de improbidade que atentam contra os princípios da Administração Pública é exemplificativo, a conduta em análise deve assim ser caracterizada, ainda que o servidor tenha agido com culpa;
+* **D)** considerando que a negativa de publicidade não consta do rol taxativo das condutas que configuram o ato de improbidade que atenta contra os princípios da Administração Pública, a conduta em apreço não poderia ser assim caracterizada ainda que a informação não estivesse gravada de sigilo;
+* **E)** considerando que a conduta em cotejo não pode ser caracterizada como ato de improbidade que atenta contra os princípios da Administração Pública, para tanto, é imprescindível o enriquecimento sem causa ou a lesão ao erário.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *5.2 Dimensões da Accountability (Vertical, Horizontal e Social)*, o termo *accountability* compreende o dever indeclinável de prestar contas, responder pelos atos praticados na gestão da coisa pública e submeter-se a sanções em caso de malversação.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)*, instrumento Vinculante: A parceria celebra-se mediante Contrato de Gestão, estipulando metas quantitativas e qualitativas de atendimento, com repasse de recursos orçamentários, cessão de servidores públicos e de imóveis estatais, sujeitando-se ao controle externo do Tribunal de Contas.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *6.2 Prazos de Atendimento e Desnecessidade de Motivação*, desnecessidade de Motivação (Art. 10, § 3º da LAI): São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público! O cidadão não precisa justificar por que deseja saber os gastos públicos.
-> - **D)** **Correta.** Conforme fundamentado na seção *5.2 Dimensões da Accountability (Vertical, Horizontal e Social)* deste guia, accountability Horizontal: Consiste no controle mútuo e recíproco exercido entre órgãos estatais autônomos dotados de poderes constitucionais de freios e contrapesos (Tribunais de Contas, Ministério Público, Poder Judiciário e Controladorias). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "II e III, apenas".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III. Noções de Análise de Dados". De acordo com a teoria estudada em *6.1 Transparência Ativa vs. Transparência Passiva*, transparência Ativa: Divulgação oficial espontânea e contínua de informações públicas de interesse coletivo em sítios oficiais da internet (portais de transparência), em dados abertos e de fácil acesso, independentemente de requerimento.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "caso caracterizado o dolo na realização de tal conduta, ficará configurado o ato de improbidade que atenta contra...". De acordo com a teoria estudada em *6.2 Prazos de Atendimento e Desnecessidade de Motivação*, prazos: Se a informação estiver disponível, o acesso deve ser imediato. Caso não seja possível o atendimento imediato, o órgão tem o prazo de até 20 (vinte) dias, prorrogável motivadamente por mais 10 (dez) dias (regra dos 20 + 10 dias).
+> - **B)** **Correta.** Conforme fundamentado na seção *6. Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)* deste guia, a Lei Federal nº 12.527/2011 (LAI) e a Lei Estadual de Goiás nº 18.025/2013 consagram a publicidade como preceito geral republicano e o sigilo como exceção rigorosa. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "independentemente da caracterização de dolo, a conduta em questão não configura ato de improbidade que atenta...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "considerando que o rol atinente aos atos de improbidade que atentam contra os princípios da Administração Pública...". De acordo com a teoria estudada em *1.2 Modelo Burocrático Weberiano*, *Formalismo Estrito:* A autoridade emana da lei e as rotinas devem ser reduzidas a documentos escritos e processos formais.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "considerando que a negativa de publicidade não consta do rol taxativo das condutas que configuram o ato de...". De acordo com a teoria estudada em *6.3 Graus e Prazos Máximos de Sigilo Documental*, as informações cuja divulgação possa colocar em risco a segurança da sociedade ou do Estado podem ser classificadas em três graus de sigilo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "considerando que a conduta em cotejo não pode ser caracterizada como ato de improbidade que atenta contra os...". De acordo com a teoria estudada em *6.1 Transparência Ativa vs. Transparência Passiva*, transparência Ativa: Divulgação oficial espontânea e contínua de informações públicas de interesse coletivo em sítios oficiais da internet (portais de transparência), em dados abertos e de fácil acesso, independentemente de requerimento.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 319
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+Um cidadão solicitou um pedido de acesso à informação para verificar a adequação da Dívida Consolidada Líquida (DCL) do município em que reside. Sua solicitação decorre de um conjunto de matérias jornalísticas indicando que o referido ente teria comprometido cerca de 250% da Receita Corrente Líquida (RCL) com tais rubricas. Na resposta ao cidadão, a prefeitura indicou corretamente que a informação demandada está disponível para consulta pública no portal da transparência por meio do:
+
+* **A)** balanço patrimonial;
+* **B)** balanço orçamentário;
+* **C)** balanço financeiro;
+* **D)** relatório de gestão fiscal;
+* **E)** relatório resumido de execução orçamentária.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "balanço patrimonial". De acordo com a teoria estudada em *6.2 Prazos de Atendimento e Desnecessidade de Motivação*, prazos: Se a informação estiver disponível, o acesso deve ser imediato. Caso não seja possível o atendimento imediato, o órgão tem o prazo de até 20 (vinte) dias, prorrogável motivadamente por mais 10 (dez) dias (regra dos 20 + 10 dias).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "balanço orçamentário". De acordo com a teoria estudada em *6. Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)*, a Lei Federal nº 12.527/2011 (LAI) e a Lei Estadual de Goiás nº 18.025/2013 consagram a publicidade como preceito geral republicano e o sigilo como exceção rigorosa.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "balanço financeiro". De acordo com a teoria estudada em *4.1 Economicidade, Eficiência, Eficácia e Efetividade*, economicidade: Minimização dos custos na aquisição de insumos, sem comprometer os padrões adequados de qualidade (comprar os melhores insumos pelo menor custo financeiro possível).
+> - **D)** **Correta.** Conforme fundamentado na seção *6.1 Transparência Ativa vs. Transparência Passiva* deste guia, transparência Passiva: Resposta formal do Poder Público aos pedidos específicos de acesso a documentos e informações formulados pelos cidadãos perante os Serviços de Informações ao Cidadão (SIC). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "relatório de gestão fiscal".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "relatório resumido de execução orçamentária". De acordo com a teoria estudada em *1.3 Modelo Gerencial (New Public Management - NPM)*, objetivo Central: Superar a rigidez, a lentidão e a ineficiência do modelo burocrático diante da crise fiscal do Estado social.
 >
 > **Gabarito: D**
 

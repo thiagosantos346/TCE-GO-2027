@@ -101,26 +101,26 @@ flowchart LR
 ---
 
 ### Teste 234
-**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
+**(FCC – TRT 6ª – 2012 – Analista Judiciário - Apoio Especializado/Tecnologia da Informação)**
 Um banco de dados relacional é um banco de dados projetado segundo o chamado modelo relacional, que é um modelo de banco de dados baseado na lógica de predicados de primeira ordem. O objetivo do modelo é o de proporcionar uma linguagem declarativa para a descrição tanto dos dados como de consultas a seu respeito, de maneira que o usuário declara tanto a informação contida no banco de dados como a informação que dele deseja extrair, deixando a cargo do sistema gerenciador do banco de dados a tarefa de estabelecer estruturas de armazenamento de dados bem como os procedimentos de recuperação destes dados para responder consultas. O modelo relacional foi proposto formalmente há mais de 40 anos. O texto acima está
 
-* **A)** incorreto, porque o modelo relacional é baseado na lógica de predicados de segunda ordem.
-* **B)** correto.
-* **C)** incorreto, porque o modelo relacional não conduz naturalmente a uma linguagem declarativa de descrição de dados ou consultas.
-* **D)** incorreto, porque nos bancos de dados relacionais, a tarefa de descrever os procedimentos de recuperação dos dados para a resposta a consultas é tarefa do usuário.
-* **E)** incorreto, porque o modelo relacional foi proposto há menos de 30 anos.
+* **A)** entidades podem ter atributos, mas relacionamentos não podem ter atributos.
+* **B)** uma chave é um conjunto de atributos cujos valores identificam um relacionamento de maneira única.
+* **C)** um relacionamento é uma associação entre atributos.
+* **D)** todo relacionamento tem uma chave.
+* **E)** uma chave é um conjunto de atributos cujos valores identificam uma entidade de maneira única.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "incorreto, porque o modelo relacional é baseado na lógica de predicados de segunda ordem". De acordo com a teoria estudada em *1.2 Modelo Lógico: Dependência do Paradigma Relacional*, aplicação da Normalização: É no modelo lógico que se aplicam formalmente as regras de normalização (1ª FN, 2ª FN, 3ª FN e FNBC) para expurgar anomalias de atualização e redundâncias desnecessárias.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Modelo Lógico: Dependência do Paradigma Relacional* deste guia, escopo e Foco: Traduz o modelo conceitual para as estruturas do paradigma de banco de dados escolhido (quase universalmente o Modelo Relacional de Edgar F. Codd). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "correto".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "incorreto, porque o modelo relacional não conduz naturalmente a uma linguagem declarativa de descrição de dados ou...". De acordo com a teoria estudada em *3. Álgebra Relacional: Operações Formais e Consultas*, a Álgebra Relacional é uma linguagem de consulta formal procedimental concebida por Edgar F. Codd. Suas operações manipulam uma ou duas relações como entrada e produzem uma nova relação como saída (propriedade de fechamento da álgebra relacional).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "incorreto, porque nos bancos de dados relacionais, a tarefa de descrever os procedimentos de recuperação dos dados...". De acordo com a teoria estudada em *3.2 Operações Derivadas: Junção Natural, Theta Join, Equijunção, Interseção e Divisão Relacional*, divisão Relacional (\$R \div S\$): Operação fundamental para responder a consultas que envolvem o quantificador universal "para todos" (\$\forall\$) — por exemplo, *"encontrar os auditores que fiscalizaram TODOS os municípios do estado de Goiás"*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "incorreto, porque o modelo relacional foi proposto há menos de 30 anos". De acordo com a teoria estudada em *1.1 Modelo Conceitual: Semântica e Independência de Tecnologia*, independência Absoluta: É totalmente independente do software de SGBD (PostgreSQL, Oracle) e até mesmo do paradigma lógico adotado (Relacional, Documentos, Grafos).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "entidades podem ter atributos, mas relacionamentos não podem ter atributos". De acordo com a teoria estudada em *2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)*, participação Total (Dependência de Existência): Toda entidade do conjunto de entidades obrigatoriamente deve participar de ao menos uma instância do relacionamento. É representada graficamente por uma linha dupla que liga a entidade ao losango.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma chave é um conjunto de atributos cujos valores identificam um relacionamento de maneira única". De acordo com a teoria estudada em *2.2 Tipologia e Representação Gráfica dos Atributos*, discriminador (Chave Parcial): Identifica a entidade fraca apenas dentro do escopo da forte. — Elipse com texto sublinhado tracejado — `Num_Sequencial_Termo`.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um relacionamento é uma associação entre atributos". De acordo com a teoria estudada em *3.2 Operações Derivadas: Junção Natural, Theta Join, Equijunção, Interseção e Divisão Relacional*, junção Natural (\$R \bowtie S\$): Executa uma equijunção automática baseada em todos os atributos que compartilham o mesmo nome e tipo em \$R$ e \$S\$, projetando as colunas comuns uma única vez no resultado.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todo relacionamento tem uma chave". De acordo com a teoria estudada em *2. Modelo Entidade-Relacionamento (MER / DER de Peter Chen)*, publicado em 1976 por Peter Pin-Shan Chen, o Modelo Entidade-Relacionamento tornou-se a ferramenta semântica universal para representação conceitual de esquemas de dados.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.2 Tipologia e Representação Gráfica dos Atributos* deste guia, multivalorado: Pode assumir múltiplos valores simultâneos para a mesma entidade. — Elipse com linha dupla — `Telefones`, `E-mails`, `CNAEs_Secundarios`. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 6ª/2012) ao estabelecer que "uma chave é um conjunto de atributos cujos valores identificam uma entidade de maneira única".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
@@ -184,79 +184,72 @@ No modelo clássico de Chen, os atributos são expressos por elipses conectadas 
 ---
 
 ### Teste 235
-**(FCC – TRT-3 – Analista Judiciario Tecnologia da Informacao – 2015)**
+**(FCC – TRT 3ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
 Participando do projeto de modelagem de um banco de dados utilizando o MER, um analista de TI identificou na modelagem lógica duas entidades ligadas entre si em um relacionamento muitos-para-muitos (n:m): a entidade Processo e a entidade Advogado, cujos atributos são apresentados abaixo. Processo (NumeroProcesso, Ano, NumeroVara, NumeroTribunalOrigem) Advogado (NumeroOABAdvogado, Nome, Telefone) Cada advogado pode estar relacionado a vários processos diferentes, ora com status de advogado de acusação, ora com status de advogado de defesa, e cada processo, pode ter vários advogados de acusação e/ou de defesa. Nestas condições, para criar as tabelas no banco de dados real este relacionamento n:m terá que ser desmembrado em dois relacionamentos 1:n com uma tabela de ligação contendo os campos
 
-* **A)** CodigoLigacao, StatusAdvogadoProcesso, Data, com chave primária composta pelo campo CodigoLigacao.
-* **B)** NumeroProcesso, NumeroOABAdvogado e StatusAdvogadoProcesso, com chave primária composta pelos campos NumeroProcesso e NumeroOABAdvogado.
-* **C)** NumeroProcesso e NumeroOABAdvogado, apenas, com ambos os campos sendo chave primária e estrangeira ao mesmo tempo.
-* **D)** CodigoLigacao, NumeroProcesso, NumeroOABAdvogado e StatusAdvogadoProcesso, com chave primária composta pelo campo CodigoLigacao e chave estrangeira formada pelos campos NumeroProcesso e NumeroOABAdvogado.
-* **E)** NumeroProcesso, NumeroOABAdvogado e StatusAdvogadoProcesso, com chave primária composta pelos campos NumeroProcesso e NumeroOABAdvogado e chave estrangeira formada pelo campo StatusAdvogadoProcesso.
+* **A)** Behavior-Driven Development e JTest.
+* **B)** Extreme Programming e Selenium.
+* **C)** Test-Driven Development e Jenkins.
+* **D)** Data-Driven Development and Test e JUnit.
+* **E)** Test-Driven Development e JUnit.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CodigoLigacao, StatusAdvogadoProcesso, Data, com chave primária composta pelo campo CodigoLigacao". De acordo com a teoria estudada em *4.1 Dependências Funcionais: Total, Parcial e Transitiva*, dependência Funcional Parcial: Ocorre quando um atributo não-chave depende de apenas uma parte de uma chave primária composta (isto é, existe \$A \subset X\$ tal que \$A \rightarrow Y\$).
-> - **B)** **Correta.** Conforme fundamentado na seção *4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN* deste guia, regra de Ouro em Provas: A violação da 2ª FN só pode ocorrer se a chave primária for composta (possuir 2 ou mais atributos). Se a chave primária for simples (apenas 1 atributo), estando na 1ª FN ela estará automaticamente na 2ª FN!. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-3/2015) ao estabelecer que "NumeroProcesso, NumeroOABAdvogado e StatusAdvogadoProcesso, com chave primária composta pelos campos...".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "NumeroProcesso e NumeroOABAdvogado, apenas, com ambos os campos sendo chave primária e estrangeira ao mesmo tempo". De acordo com a teoria estudada em *4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN*, regra: Todos os domínios de atributos devem conter apenas valores atômicos e indivisíveis. Proíbe-se a presença de atributos multivalorados, atributos compostos e grupos repetitivos (como campos contendo listas separadas por vírgula ou tabelas aninhadas).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CodigoLigacao, NumeroProcesso, NumeroOABAdvogado e StatusAdvogadoProcesso, com chave primária composta pelo campo...". De acordo com a teoria estudada em *2.1 Entidades Fortes (Regulares) vs. Entidades Fracas*, sua identificação plena é formada pela junção: \$\text{Chave da Entidade Forte} + \text{Chave Parcial}\$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "NumeroProcesso, NumeroOABAdvogado e StatusAdvogadoProcesso, com chave primária composta pelos campos...". De acordo com a teoria estudada em *4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN*, regra: A relação deve estar na 2ª FN e nenhum atributo não-chave pode depender transitivamente da chave primária.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Behavior-Driven Development e JTest". De acordo com a teoria estudada em *2.2 Tipologia e Representação Gráfica dos Atributos*, composto: Pode ser desmembrado em múltiplos subatributos autônomos. — Elipse ramificada em subelipses — `Endereço` (`Logradouro`, `Número`, `CEP`).
+> - **B)** **Correta.** Conforme fundamentado na seção *2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)* deste guia, $N:M$ (Muitos para Muitos - na conversão lógica, exige compulsoriamente a criação de uma tabela associativa intermediária). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 3ª/2015) ao estabelecer que "Extreme Programming e Selenium".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Test-Driven Development e Jenkins". De acordo com a teoria estudada em *1. As Três Fases do Projeto de Banco de Dados*, o projeto e a modelagem de dados para sistemas de gestão pública e auditoria fiscal evoluem ao longo de três níveis sucessivos de abstração, garantindo que a semântica das regras de negócio do Estado seja preservada independentemente dos detalhes físicos de armazenamento em disco.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Data-Driven Development and Test e JUnit". De acordo com a teoria estudada em *2.2 Tipologia e Representação Gráfica dos Atributos*, monovalorado: Armazena exatamente um valor para cada instância da entidade. — Elipse padrão de linha simples — `Data_Nascimento`, `Data_Emissao`.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Test-Driven Development e JUnit". De acordo com a teoria estudada em *2. Modelo Entidade-Relacionamento (MER / DER de Peter Chen)*, publicado em 1976 por Peter Pin-Shan Chen, o Modelo Entidade-Relacionamento tornou-se a ferramenta semântica universal para representação conceitual de esquemas de dados.
 >
 > **Gabarito: B**
 
 ---
 
 ### Teste 236
-**(FCC – TRT-2 – Analista Judiciário - Tecnologia da Informação – 2014)**
-Em alguns casos, dois ou mais valores de atributos em um modelo de Entidade-Relacionamento estão relacionados. Por exemplo, os atributos `Idade` e `Data_Nascimento` de um Auditor de Controle Externo. Para uma entidade `AUDITOR` em particular, o valor de `Idade` pode ser determinado pela data corrente do sistema e pelo valor de `Data_Nascimento` persistido. 
+**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Um Analista está desenvolvendo um Modelo Entidade-Relacionamento do banco de dados de um tribunal sob uma perspectiva lógica e parte do modelo é formado pelas duas entidades abaixo, relacionadas com cardinalidade n:m. A entidade Processo contém os atributos: − NuM_Seq (número sequencial do processo por unidade de origem) − valor inteiro − (PK). − Dig (dígito verificador) − valor inteiro − (PK). − Ano (ano do ajuizamento) − valor inteiro − (PK). − Org (órgão ou segmento do Poder Judiciário, sendo 5 o correspondente à Justiça do Trabalho) − valor inteiro. − Tribunal (tribunal do segmento do Poder Judiciário, sendo 23 para o TRT da 23a Região) − valor inteiro (FK). − Origem (unidade de origem do processo, sendo 4 zeros para o TRT) − valor inteiro. A entidade Advogado contém os atributos: − Num_OAB (número da OAB) − cadeia de caracteres − primary key. − Nome (nome do advogado) − cadeia de caracteres. − Telefone (telefone residencial e comercial) − cadeia de caracteres. Considerando que Advogado acompanha Processo,
 
-Portanto, segundo a teoria formal do MER concebida por Peter Chen, o atributo `Idade` é denominado atributo [ I ], ao passo que `Data_Nascimento` é denominado atributo [ II ].
-
-As lacunas [ I ] e [ II ] são, correta e respectivamente, preenchidas por:
-
-* **A)** armazenado — derivado.
-* **B)** derivado — armazenado (ou básico).
-* **C)** multivalorado — monovalorado.
-* **D)** identificador — composto.
-* **E)** determinante — discriminador.
-
+* **A)** IIF
+* **B)** IFNULL
+* **C)** NVL
+* **D)** COALESCE
+* **E)** ISNULL
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A ordem está invertida: `Idade` é calculado, logo é derivado, não armazenado.
-> - **B)** **CORRETA.** Na notação clássica de Peter Chen:
->   - **Atributo Derivado:** É aquele cujo valor não precisa ser persistido fisicamente na base, pois pode ser computado dinamicamente a partir de outro(s) atributo(s) ou do relógio do sistema. Graficamente é representado por uma elipse de contorno tracejado/pontilhado.
->   - **Atributo Armazenado (ou Base):** É o dado primitivo persistido no disco a partir do qual derivações são calculadas.
-> - **C)** Incorreta. Ambos são atributos monovalorados (uma pessoa tem uma única data de nascimento e uma única idade em um dado momento).
-> - **D)** Incorreta. Identificador é chave primária; `Idade` não identifica unicamente um servidor.
-> - **E)** Incorreta. Determinante e discriminador referem-se a chaves primárias e parciais de entidades fortes e fracas.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IIF". De acordo com a teoria estudada em *2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)*, grau do Relacionamento: Quantidade de entidades participantes (Binário = 2 entidades; Ternário = 3 entidades; Unário / Auto-relacionamento = a mesma entidade se relaciona consigo mesma, como `FUNCIONARIO gerencia FUNCIONARIO`).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IFNULL". De acordo com a teoria estudada em *2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)*, participação Total (Dependência de Existência): Toda entidade do conjunto de entidades obrigatoriamente deve participar de ao menos uma instância do relacionamento. É representada graficamente por uma linha dupla que liga a entidade ao losango.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)* deste guia, razão de Cardinalidade: Especifica o número máximo de ocorrências de relacionamento nas quais uma entidade pode participar. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "NVL".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "COALESCE". De acordo com a teoria estudada em *2. Modelo Entidade-Relacionamento (MER / DER de Peter Chen)*, publicado em 1976 por Peter Pin-Shan Chen, o Modelo Entidade-Relacionamento tornou-se a ferramenta semântica universal para representação conceitual de esquemas de dados.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ISNULL". De acordo com a teoria estudada em *2.2 Tipologia e Representação Gráfica dos Atributos*, discriminador (Chave Parcial): Identifica a entidade fraca apenas dentro do escopo da forte. — Elipse com texto sublinhado tracejado — `Num_Sequencial_Termo`.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 237
-**(FCC – TRT-1 – Analista Judiciario Tecnologia da Informacao – 2014)**
-No modelo entidade-relacionamento utilizado para modelar Bancos de Dados relacionais, quando se indica que há um conjunto de relacionamentos do tipo muitos para muitos entre 2 conjuntos de entidades A e B, significa que
+**(FCC – TRT 1ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+No modelo entidade-relacionamento utilizado para mode- lar Bancos de Dados relacionais, quando se indica que há
 
-* **A)** uma entidade do conjunto A está sempre associada a mais de uma entidade de conjunto B e vice-versa.
-* **B)** uma entidade do conjunto A pode estar associada a várias entidades do conjunto B e vice-versa.
-* **C)** os conjuntos de entidades A e B possuem, cada um deles, número igual de atributos.
-* **D)** os conjuntos de entidades A e B possuem diversos atributos com a possibilidade de terem valores nulos.
-* **E)** uma entidade do conjunto B está associada a apenas uma entidade do conjunto A, mas uma entidade do conjunto A está associada a várias entidades do conjunto B.
+* **A)** uma entidade do conjunto A está sempre associada intensa na fase de concepção. a mais de uma entidade de conjunto B e vice-versa.
+* **B)** uma entidade do conjunto A pode estar associada a fase de construção. várias entidades do conjunto B e vice-versa.
+* **C)** os conjuntos de entidades A e B possuem, cada um _________________________________________________________ deles, número igual de atributos.
+* **D)** disciplina de requisitos tem atividade mais intensa na
+* **E)** fase de elaboração é composta por, no mínimo, 3 iterações.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "uma entidade do conjunto A está sempre associada a mais de uma entidade de conjunto B e vice-versa". De acordo com a teoria estudada em *4.1 Dependências Funcionais: Total, Parcial e Transitiva*, dada uma relação \$R$, diz-se que o conjunto de atributos \$X\$ determina funcionalmente o atributo \$Y\$ (\$X \rightarrow Y\$) se, e somente se, para quaisquer duas tuplas \$t_1, t_2 \in R$, sempre que \$t_1[X] = t_2[X]\$, obrigatoriamente \$t_1[Y] = t_2[Y]\$.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)* deste guia, participação Total (Dependência de Existência): Toda entidade do conjunto de entidades obrigatoriamente deve participar de ao menos uma instância do relacionamento. É representada graficamente por uma linha dupla que liga a entidade ao losango. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-1/2014) ao estabelecer que "uma entidade do conjunto A pode estar associada a várias entidades do conjunto B e vice-versa".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os conjuntos de entidades A e B possuem, cada um deles, número igual de atributos". De acordo com a teoria estudada em *2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)*, razão de Cardinalidade: Especifica o número máximo de ocorrências de relacionamento nas quais uma entidade pode participar.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os conjuntos de entidades A e B possuem diversos atributos com a possibilidade de terem valores nulos". De acordo com a teoria estudada em *2.2 Tipologia e Representação Gráfica dos Atributos*, multivalorado: Pode assumir múltiplos valores simultâneos para a mesma entidade. — Elipse com linha dupla — `Telefones`, `E-mails`, `CNAEs_Secundarios`.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "uma entidade do conjunto B está associada a apenas uma entidade do conjunto A, mas uma entidade do conjunto A está...". De acordo com a teoria estudada em *2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)*, grau do Relacionamento: Quantidade de entidades participantes (Binário = 2 entidades; Ternário = 3 entidades; Unário / Auto-relacionamento = a mesma entidade se relaciona consigo mesma, como `FUNCIONARIO gerencia FUNCIONARIO`).
+> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "uma entidade do conjunto A está sempre associada intensa na fase de concepção. a mais de uma entidade de conjunto...". De acordo com a teoria estudada em *4.1 Dependências Funcionais: Total, Parcial e Transitiva*, dada uma relação $R$, diz-se que o conjunto de atributos $X$ determina funcionalmente o atributo $Y$ ($X \rightarrow Y$) se, e somente se, para quaisquer duas tuplas $t_1, t_2 \in R$, sempre que $t_1[X] = t_2[X]$, obrigatoriamente $t_1[Y] = t_2[Y]$.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)* deste guia, participação Total (Dependência de Existência): Toda entidade do conjunto de entidades obrigatoriamente deve participar de ao menos uma instância do relacionamento. É representada graficamente por uma linha dupla que liga a entidade ao losango. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 1ª/2014) ao estabelecer que "uma entidade do conjunto A pode estar associada a fase de construção. várias entidades do conjunto B e vice-versa".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os conjuntos de entidades A e B possuem, cada um _________________________________________________________ deles...". De acordo com a teoria estudada em *2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)*, razão de Cardinalidade: Especifica o número máximo de ocorrências de relacionamento nas quais uma entidade pode participar.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "disciplina de requisitos tem atividade mais intensa na". De acordo com a teoria estudada em *1.1 Modelo Conceitual: Semântica e Independência de Tecnologia*, escopo e Foco: É o modelo de mais alto nível de abstração. Captura as entidades do mundo real, seus atributos fundamentais e como elas se relacionam, espelhando fielmente os requisitos do negócio sem qualquer preocupação tecnológica.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fase de elaboração é composta por, no mínimo, 3 iterações". De acordo com a teoria estudada em *4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN*, regra de Ouro em Provas: A violação da 2ª FN só pode ocorrer se a chave primária for composta (possuir 2 ou mais atributos). Se a chave primária for simples (apenas 1 atributo), estando na 1ª FN ela estará automaticamente na 2ª FN!.
 >
 > **Gabarito: B**
 
@@ -307,31 +300,31 @@ São operações construídas a partir da composição das primitivas fundamenta
 ---
 
 ### Teste 238
-**(FCC – TRT-3 – Analista Judiciario Tecnologia da Informacao – 2015)**
-No modelo de dados multidimensional existem as operações suportadas pelas ferramentas OLAP para permitir a análise dos dados. Com relação a estas operações, considere os dados abaixo. Tabela 1: Volume de produção (em milhares) 2014 1o trimestre 2o trimestre 3o trimestre 4o trimestre Região Sudeste MG 89 107 99 100 SP 120 138 120 120 Tabela 2: Volume de produção (em milhares) 1o trimestre 2014 Janeiro Fevereiro Março Região Sudeste MG 30 30 29 SP 40 30 50 Para movimentar a visão dos dados ao longo de níveis hierárquicos da dimensão tempo, saindo do que consta na Tabela 2 para o que consta na Tabela 1, um analista de TI deve utilizar a operação OLAP
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Telecomunicacoes)**
+O TCP (Transmission Control Protocol) e o UDP (User Datagram Protocol) são os protocolos da camada de transporte do modelo OSI mais utilizados. Eles possuem cabeçalhos diferentes, tornando-os apropriados a aplicações bem características. Com relação aos protocolos TCP e UDP, analise as afirmativas a seguir, considerando V para a(s) verdadeira(s) e F para a(s) falsa(s). ( ) Os campos número de sequência e número de confirmação, ambos do cabeçalho TCP, com 32 bits cada, são fundamentais à transferência confiável de dados ofertada por esse protocolo. ( ) Os campos porta de origem e porta de destino, comuns aos dois protocolos, possuem 16 bits cada, permitindo a numeração de portas de 0 até 65.535. ( ) As Flags (Bits de Código) SYN e ACK permitem que o protocolo UDP realize o sincronismo entre a máquina de origem e a máquina de destino das transmissões. A sequência correta é:
 
-* **A)** drill down.
-* **B)** drill across.
-* **C)** pivot.
-* **D)** roll up.
-* **E)** drill throught.
+* **A)** V, V e V;
+* **B)** V, V e F;
+* **C)** V, F e F;
+* **D)** F, V e V;
+* **E)** F, F e F.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "drill down". De acordo com a teoria estudada em *3.1 As Seis Operações Fundamentais*, diferença de Conjuntos (\$R - S\$): Retorna as tuplas que existem na relação \$R$, mas que não estão presentes na relação \$S\$. Também exige compatibilidade de união.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "drill across". De acordo com a teoria estudada em *1. As Três Fases do Projeto de Banco de Dados*, o projeto e a modelagem de dados para sistemas de gestão pública e auditoria fiscal evoluem ao longo de três níveis sucessivos de abstração, garantindo que a semântica das regras de negócio do Estado seja preservada independentemente dos detalhes físicos de armazenamento em disco.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pivot". De acordo com a teoria estudada em *1.4 Tabela Comparativa dos Níveis de Abstração*, o Modelo Conceitual NÃO possui chaves estrangeiras nem tipos de dados de sistema operacional.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.4 Tabela Comparativa dos Níveis de Abstração* deste guia, dimensão de Comparação: Modelo Conceitual — Modelo Lógico — Modelo Físico. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-3/2015) ao estabelecer que "roll up".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "drill throught". De acordo com a teoria estudada em *3.2 Operações Derivadas: Junção Natural, Theta Join, Equijunção, Interseção e Divisão Relacional*, divisão Relacional (\$R \div S\$): Operação fundamental para responder a consultas que envolvem o quantificador universal "para todos" (\$\forall\$) — por exemplo, *"encontrar os auditores que fiscalizaram TODOS os municípios do estado de Goiás"*.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, V e V". De acordo com a teoria estudada em *1.1 Modelo Conceitual: Semântica e Independência de Tecnologia*, escopo e Foco: É o modelo de mais alto nível de abstração. Captura as entidades do mundo real, seus atributos fundamentais e como elas se relacionam, espelhando fielmente os requisitos do negócio sem qualquer preocupação tecnológica.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.1 As Seis Operações Fundamentais* deste guia, renomeação ($\rho_{S}(R)$ ou $\rho_{S(A_1, A_2, \dots)}(R)$): Altera o nome da relação resultante ou rebatiza seus atributos, permitindo desambiguar colunas em junções recursivas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "V, V e F".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, F e F". De acordo com a teoria estudada em *3.1 As Seis Operações Fundamentais*, união ($R \cup S$): Combina todas as tuplas de $R$ e $S$. Exige compulsoriamente compatibilidade de união: $R$ e $S$ devem ter o mesmo grau (mesmo número de atributos) e os tipos dos atributos correspondentes devem pertencer a domínios compatíveis.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, V e V". De acordo com a teoria estudada em *5.2 Técnicas Comuns e Riscos de Integridade*, *Campos Totalizadores / Derivados Persistidos:* Adicionar uma coluna `ValorTotalNota` na tabela mestre para evitar calcular `SUM()` de itens a cada requisição.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, F e F". De acordo com a teoria estudada em *4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN*, toda relação que está na FNBC está automaticamente na 3ª FN. A recíproca não é verdadeira.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
 ### Teste 239
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
 No contexto de SGBD (Sistema de Gerenciamento de Banco de Dados) e de gerenciamento de banco de dados, relacionamento é um importante conceito para garantir o correto funcionamento de um sistema que se utiliza de banco de dados, em relação à sua modelagem. Em um Sistema de Gerenciamento de Banco de Dados (SGBD), um relacionamento refere-se a
 
 * **A)** um conjunto de operações matemáticas aplicadas aos dados para gerar novos valores.
@@ -346,7 +339,7 @@ No contexto de SGBD (Sistema de Gerenciamento de Banco de Dados) e de gerenciame
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um conjunto de operações matemáticas aplicadas aos dados para gerar novos valores". De acordo com a teoria estudada em *3.1 As Seis Operações Fundamentais*, diferença de Conjuntos (\$R - S\$): Retorna as tuplas que existem na relação \$R$, mas que não estão presentes na relação \$S\$. Também exige compatibilidade de união.
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma estrutura hierárquica utilizada para organizar os dados em múltiplos níveis". De acordo com a teoria estudada em *1. As Três Fases do Projeto de Banco de Dados*, o projeto e a modelagem de dados para sistemas de gestão pública e auditoria fiscal evoluem ao longo de três níveis sucessivos de abstração, garantindo que a semântica das regras de negócio do Estado seja preservada independentemente dos detalhes físicos de armazenamento em disco.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Modelo Conceitual: Semântica e Independência de Tecnologia* deste guia, restrição Crítica: O modelo conceitual NÃO possui chaves estrangeiras (FKs), não define índices e não estipula tipos de dados de implementação (como `VARCHAR`, `INTEGER` ou `BLOB`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "uma associação entre tabelas que define como os dados estão interligados".
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Modelo Conceitual: Semântica e Independência de Tecnologia* deste guia, restrição Crítica: O modelo conceitual NÃO possui chaves estrangeiras (FKs), não define índices e não estipula tipos de dados de implementação (como `VARCHAR`, `INTEGER` ou `BLOB`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "uma associação entre tabelas que define como os dados estão interligados".
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um método para compactar e armazenar os dados de forma eficiente em disco". De acordo com a teoria estudada em *1.4 Tabela Comparativa dos Níveis de Abstração*, o Modelo Conceitual NÃO possui chaves estrangeiras nem tipos de dados de sistema operacional.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um algoritmo usado para distribuir os dados em diferentes servidores de banco de dados". De acordo com a teoria estudada em *1.2 Modelo Lógico: Dependência do Paradigma Relacional*, escopo e Foco: Traduz o modelo conceitual para as estruturas do paradigma de banco de dados escolhido (quase universalmente o Modelo Relacional de Edgar F. Codd).
 >
@@ -402,32 +395,56 @@ A **Forma Normal de Boyce-Codd (FNBC)** é uma versão mais estrita da 3ª FN cr
 ---
 
 ### Teste 240
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Projetos – 2021)**
-No que concerne à modelagem de dados relacionais, assinale a opção correspondente à forma normal que estabelece que, em uma relação, toda dependência funcional não trivial e irredutível à esquerda tenha uma chave candidata como determinante.
+**(FCC – TRT 24ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+Uma das formas de apresentação de um banco de dados multidimensional é através do modelo estrela. No centro de um mode- lo estrela encontra-se a tabela de
 
-* **A)** primeira forma normal
-* **B)** segunda forma normal
-* **C)** terceira forma normal
-* **D)** forma normal de Boyce/Codd
-* **E)** quarta forma normal
+* **A)** fatos, cuja chave primária deve ser simples.
+* **B)** fatos e, ao seu redor, as tabelas de dimensões.
+* **C)** dimensão e, ao seu redor, as tabelas de fatos.
+* **D)** dimensão, cuja chave primária deve ser composta.
+* **E)** núcleo e, ao seu redor, as tabelas de nível.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "primeira forma normal". De acordo com a teoria estudada em *4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN*, diferença Crucial: Na FNBC, elimina-se a condição de escape do atributo primo da 3ª FN. Mesmo que \$A\$ faça parte de uma chave candidata, se o determinante \$X\$ não for superchave, a relação viola a FNBC.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "segunda forma normal". De acordo com a teoria estudada em *4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN*, toda relação que está na FNBC está automaticamente na 3ª FN. A recíproca não é verdadeira.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "terceira forma normal". De acordo com a teoria estudada em *4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN*, a Forma Normal de Boyce-Codd (FNBC) é uma versão mais estrita da 3ª FN criada por Raymond F. Boyce e Edgar F.
-> - **D)** **Correta.** Conforme fundamentado na seção *4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN* deste guia, regra Inflexível da FNBC: Uma relação \$R$ está na FNBC se, e somente se, para toda dependência funcional não-trivial \$X \rightarrow A\$, \$X\$ for obrigatoriamente uma superchave. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "forma normal de Boyce/Codd".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "quarta forma normal". De acordo com a teoria estudada em *4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN*, codd para lidar com anomalias sutis que surgem quando uma tabela possui múltiplas chaves candidatas compostas que se sobrepõem (compartilham atributos entre si).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fatos, cuja chave primária deve ser simples". De acordo com a teoria estudada em *4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN*, regra de Ouro em Provas: A violação da 2ª FN só pode ocorrer se a chave primária for composta (possuir 2 ou mais atributos). Se a chave primária for simples (apenas 1 atributo), estando na 1ª FN ela estará automaticamente na 2ª FN!.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fatos e, ao seu redor, as tabelas de dimensões". De acordo com a teoria estudada em *4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN*, regra: A relação deve estar na 1ª FN e todo atributo não-chave deve depender totalmente da chave primária, eliminando qualquer dependência funcional parcial.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dimensão e, ao seu redor, as tabelas de fatos". De acordo com a teoria estudada em *4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN*, regra: A relação deve estar na 2ª FN e nenhum atributo não-chave pode depender transitivamente da chave primária.
+> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Dependências Funcionais: Total, Parcial e Transitiva* deste guia, dependência Funcional Parcial: Ocorre quando um atributo não-chave depende de apenas uma parte de uma chave primária composta (isto é, existe $A \subset X$ tal que $A \rightarrow Y$). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 24ª/2017) ao estabelecer que "dimensão, cuja chave primária deve ser composta".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "núcleo e, ao seu redor, as tabelas de nível". De acordo com a teoria estudada em *1.4 Tabela Comparativa dos Níveis de Abstração*, dimensão de Comparação: Modelo Conceitual — Modelo Lógico — Modelo Físico.
 >
 > **Gabarito: D**
 
 ---
 
 ### Teste 241
-**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
-Em um consultório médico as consultas são agendadas de forma que um cliente não possa realizar mais do que uma consulta com o mesmo médico na mesma data, porém, pode passar em consulta com outros médicos. O modelo Entidade-Relacionamento do banco de dados do consultório é apresentado a seguir: Medico_has_Cliente idMed: INTEGER (FK) idCli: INTEGER (FK) DataConsulta: DATE atende consulta HoraConsulta: TIME Medico idMed: INTEGER Nome: VARCHAR(50) Telefone: VARCHAR(15) CRM: VARCHAR(15) Especialidade: VARCHAR(60) Cliente idCli: INTEGER Nome: VARCHAR(50) Telefone: VARCHAR(15) É correto afirmar que
+**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
+Analise o diagrama ER apresentado a seguir. Na implementação relacional desse modelo, é necessário que:
+
+* **A)** o relacionamento entre T1 e T2 seja modificado, pois não é possível implementá-lo como descrito;
+* **B)** o atributo C1 da tabela T1 seja declarado como uma chave estrangeira que referencia a tabela T2;
+* **C)** o atributo C da tabela T2 seja declarado com a propriedade unique (com valores nulos ignorados);
+* **D)** o atributo A2 da tabela T2 aceite valores nulos;
+* **E)** o atributo C da tabela T2 seja declarado com a propriedade not null.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o relacionamento entre T1 e T2 seja modificado, pois não é possível implementá-lo como descrito". De acordo com a teoria estudada em *1.1 Modelo Conceitual: Semântica e Independência de Tecnologia*, notação Canônica: O Diagrama Entidade-Relacionamento (DER) clássico de Peter Chen ou modelagens conceituais equivalentes.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o atributo C1 da tabela T1 seja declarado como uma chave estrangeira que referencia a tabela T2". De acordo com a teoria estudada em *4.1 Dependências Funcionais: Total, Parcial e Transitiva*, dependência Funcional Parcial: Ocorre quando um atributo não-chave depende de apenas uma parte de uma chave primária composta (isto é, existe $A \subset X$ tal que $A \rightarrow Y$).
+> - **C)** **Correta.** Conforme fundamentado na seção *3. Álgebra Relacional: Operações Formais e Consultas* deste guia, a Álgebra Relacional é uma linguagem de consulta formal procedimental concebida por Edgar F. Codd. Suas operações manipulam uma ou duas relações como entrada e produzem uma nova relação como saída (propriedade de fechamento da álgebra relacional). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "o atributo C da tabela T2 seja declarado com a propriedade unique (com valores nulos ignorados)".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o atributo A2 da tabela T2 aceite valores nulos". De acordo com a teoria estudada em *4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN*, regra: Todos os domínios de atributos devem conter apenas valores atômicos e indivisíveis. Proíbe-se a presença de atributos multivalorados, atributos compostos e grupos repetitivos (como campos contendo listas separadas por vírgula ou tabelas aninhadas).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o atributo C da tabela T2 seja declarado com a propriedade not null". De acordo com a teoria estudada em *4.1 Dependências Funcionais: Total, Parcial e Transitiva*, dependência Funcional Transitiva: Ocorre quando $X \rightarrow Y$ e $Y \rightarrow Z$, onde $Y$ não é superchave e $Y \not\rightarrow X$. Consequentemente, $X$ determina $Z$ indiretamente através de $Y$.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 242
+**(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Em um consultório médico as consultas são agendadas de forma que um cliente não possa realizar mais do que uma consulta com o mesmo médico na mesma data, porém, pode passar em consulta com outros médicos. O modelo Entidade-Rela- cionamento do banco de dados do consultório é apresentado a seguir: Medico_has_Cliente idMed: INTEGER (FK) idCli: INTEGER (FK) DataConsulta: DATE atende Especialidade: VARCHAR(60) consulta HoraConsulta: TIME Medico Cliente idMed: INTEGER idCli: INTEGER Nome:V ARCHAR(50) Nome:V ARCHAR(50) Telefone: VARCHAR(15) Telefone: VARCHAR(15) CRM: VARCHAR(15) É correto afirmar que
 
 * **A)** a tabela Cliente não está na Primeira Forma Normal.
 * **B)** o campo idMed é chave estrangeira na tabela Medico e chave primária na tabela Medico_has_Cliente.
@@ -440,8 +457,8 @@ Em um consultório médico as consultas são agendadas de forma que um cliente n
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a tabela Cliente não está na Primeira Forma Normal". De acordo com a teoria estudada em *4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN*, a Forma Normal de Boyce-Codd (FNBC) é uma versão mais estrita da 3ª FN criada por Raymond F. Boyce e Edgar F.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o campo idMed é chave estrangeira na tabela Medico e chave primária na tabela Medico_has_Cliente". De acordo com a teoria estudada em *4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN*, diferença Crucial: Na FNBC, elimina-se a condição de escape do atributo primo da 3ª FN. Mesmo que \$A\$ faça parte de uma chave candidata, se o determinante \$X\$ não for superchave, a relação viola a FNBC.
-> - **C)** **Correta.** Conforme fundamentado na seção *4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN* deste guia, codd para lidar com anomalias sutis que surgem quando uma tabela possui múltiplas chaves candidatas compostas que se sobrepõem (compartilham atributos entre si). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "a tabela Medico_has_Cliente não está na Segunda Forma Normal".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o campo idMed é chave estrangeira na tabela Medico e chave primária na tabela Medico_has_Cliente". De acordo com a teoria estudada em *4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN*, diferença Crucial: Na FNBC, elimina-se a condição de escape do atributo primo da 3ª FN. Mesmo que $A$ faça parte de uma chave candidata, se o determinante $X$ não for superchave, a relação viola a FNBC.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN* deste guia, codd para lidar com anomalias sutis que surgem quando uma tabela possui múltiplas chaves candidatas compostas que se sobrepõem (compartilham atributos entre si). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 16ª/2014) ao estabelecer que "a tabela Medico_has_Cliente não está na Segunda Forma Normal".
 > - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "a chave primária da tabela Medico_has_Cliente deve ser apenas DataConsulta". De acordo com a teoria estudada em *4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN*, regra: A relação deve estar na 2ª FN e nenhum atributo não-chave pode depender transitivamente da chave primária.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a tabela Medico_has_Cliente não é necessária. Deve-se ligar as tabelas Medico e Cliente em um relacionamento de...". De acordo com a teoria estudada em *2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)*, grau do Relacionamento: Quantidade de entidades participantes (Binário = 2 entidades; Ternário = 3 entidades; Unário / Auto-relacionamento = a mesma entidade se relaciona consigo mesma, como `FUNCIONARIO gerencia FUNCIONARIO`).
 >
@@ -449,8 +466,8 @@ Em um consultório médico as consultas são agendadas de forma que um cliente n
 
 ---
 
-### Teste 242
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+### Teste 243
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
 O modelo conceitual de um banco de dados prevê uma entidade denominada funcionário. Para fins de pagamento, é necessário cadastrar dados dos dependentes, caso haja, sem limite superior de quantidade. Para manter o modelo relacional na primeira forma normal, avalie se as seguintes abordagens devem ser propostas: I. Replicar, na mesma tabela, o registro do funcionário para cada dependente cadastrado. II. Criar uma tabela com os dados de cada dependente, vinculada por um atributo aos dados do funcionário. III. Registrar no campo correspondente um vetor com os dados dos dependentes. Está correto o que se afirma em
 
 * **A)** I e II, apenas.
@@ -464,36 +481,12 @@ O modelo conceitual de um banco de dados prevê uma entidade denominada funcion�
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.2 Modelo Lógico: Dependência do Paradigma Relacional*, escopo e Foco: Traduz o modelo conceitual para as estruturas do paradigma de banco de dados escolhido (quase universalmente o Modelo Relacional de Edgar F. Codd).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN*, diferença Crucial: Na FNBC, elimina-se a condição de escape do atributo primo da 3ª FN. Mesmo que \$A\$ faça parte de uma chave candidata, se o determinante \$X\$ não for superchave, a relação viola a FNBC.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN*, diferença Crucial: Na FNBC, elimina-se a condição de escape do atributo primo da 3ª FN. Mesmo que $A$ faça parte de uma chave candidata, se o determinante $X$ não for superchave, a relação viola a FNBC.
 > - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN*, codd para lidar com anomalias sutis que surgem quando uma tabela possui múltiplas chaves candidatas compostas que se sobrepõem (compartilham atributos entre si).
 > - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.4 Tabela Comparativa dos Níveis de Abstração*, o Modelo Conceitual NÃO possui chaves estrangeiras nem tipos de dados de sistema operacional.
-> - **E)** **Correta.** Conforme fundamentado na seção *2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)* deste guia, grau do Relacionamento: Quantidade de entidades participantes (Binário = 2 entidades; Ternário = 3 entidades; Unário / Auto-relacionamento = a mesma entidade se relaciona consigo mesma, como `FUNCIONARIO gerencia FUNCIONARIO`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "II, apenas".
+> - **E)** **Correta.** Conforme fundamentado na seção *2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)* deste guia, grau do Relacionamento: Quantidade de entidades participantes (Binário = 2 entidades; Ternário = 3 entidades; Unário / Auto-relacionamento = a mesma entidade se relaciona consigo mesma, como `FUNCIONARIO gerencia FUNCIONARIO`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "II, apenas".
 >
 > **Gabarito: E**
-
----
-
-### Teste 243
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
-Considere uma tabela relacional com atributos (colunas) A, B, C, D e E, na qual as dependências funcionais conhecidas são: A -> B A -> C A -> D D -> E O comando de criação dessa tabela é mostrado a seguir. create table X(A int, B int, C int, D int, E int, constraint K1 unique (A), constraint K2 unique (D) ) De acordo com as formas normais Primeira, Segunda, Terceira e Boyce-Codd, a dependência funcional adicional necessária e suficiente para a validade desse esquema é:
-
-* **A)** A -> E;
-* **B)** A, D -> E;
-* **C)** D -> A;
-* **D)** D -> B, C, D;
-* **E)** E -> A.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A -> E". De acordo com a teoria estudada em *4.1 Dependências Funcionais: Total, Parcial e Transitiva*, dependência Funcional Total: Ocorre quando \$Y\$ depende funcionalmente de \$X\$ e não depende de nenhum subconjunto próprio de \$X\$.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A, D -> E". De acordo com a teoria estudada em *4.1 Dependências Funcionais: Total, Parcial e Transitiva*, dependência Funcional Parcial: Ocorre quando um atributo não-chave depende de apenas uma parte de uma chave primária composta (isto é, existe \$A \subset X\$ tal que \$A \rightarrow Y\$).
-> - **C)** **Correta.** Conforme fundamentado na seção *4. Teoria da Normalização e Formas Normais (Codd)* deste guia, a teoria da normalização, concebida por Edgar F. Codd, consiste em uma técnica formal de análise de esquemas relacionais com base em suas Dependências Funcionais (DF) e chaves primárias. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "D -> A".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "D -> B, C, D". De acordo com a teoria estudada em *4.1 Dependências Funcionais: Total, Parcial e Transitiva*, dependência Funcional Transitiva: Ocorre quando \$X \rightarrow Y\$ e \$Y \rightarrow Z\$, onde \$Y\$ não é superchave e \$Y \not\rightarrow X\$. Consequentemente, \$X\$ determina \$Z\$ indiretamente através de \$Y\$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "E -> A". De acordo com a teoria estudada em *4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN*, regra Inflexível da FNBC: Uma relação \$R$ está na FNBC se, e somente se, para toda dependência funcional não-trivial \$X \rightarrow A\$, \$X\$ for obrigatoriamente uma superchave.
->
-> **Gabarito: C**
 
 ---
 
@@ -533,26 +526,26 @@ flowchart TD
 ---
 
 ### Teste 244
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
-Sobre banco de dado NoSQL orientado a grafos, avalie se as afirmativas a seguir são falsas (F) ou verdadeiras (V). I. Se compararmos com um banco de dados relacional, os nós de um grafo correspondem às colunas de uma tabela. II. As operações de junção nesse tipo de banco são frequentemente mais eficientes do que em bancos de dados relacionais, pois utilizam chaves estrangeiras para realizar o relacionamento entre os nós. III. Diferentemente dos outros tipos de banco de dados NoSQL, bancos orientados a grafos não são próprios para se trabalhar com um grande volume de dados. As afirmativas são, respectivamente,
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+Um sistema de banco de dados envolve quatro componentes principais: dados, hardware, software e usuários. O sistema gerenciador de banco de dados é um software que:
 
-* **A)** V – F – F.
-* **B)** F – V – F.
-* **C)** F – F – V.
-* **D)** V – F – V.
-* **E)** F – F – F.
+* **A)** abstrai o modelo conceitual;
+* **B)** limita a independência lógica de dados;
+* **C)** isola os usuários do banco de dados dos detalhes do nível de hardware;
+* **D)** deve ser parametrizado para atender ao sistema de processamento analítico online;
+* **E)** elimina a redundância do sistema de processamento de transações online.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *1.4 Tabela Comparativa dos Níveis de Abstração*, o Modelo Conceitual NÃO possui chaves estrangeiras nem tipos de dados de sistema operacional.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – F". De acordo com a teoria estudada em *3.2 Operações Derivadas: Junção Natural, Theta Join, Equijunção, Interseção e Divisão Relacional*, junção Natural (\$R \bowtie S\$): Executa uma equijunção automática baseada em todos os atributos que compartilham o mesmo nome e tipo em \$R$ e \$S\$, projetando as colunas comuns uma única vez no resultado.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *1.1 Modelo Conceitual: Semântica e Independência de Tecnologia*, restrição Crítica: O modelo conceitual NÃO possui chaves estrangeiras (FKs), não define índices e não estipula tipos de dados de implementação (como `VARCHAR`, `INTEGER` ou `BLOB`).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – V". De acordo com a teoria estudada em *1.4 Tabela Comparativa dos Níveis de Abstração*, estruturas Centrais: Entidades, Atributos, Relacionamentos, Cardinalidade — Tabelas, Colunas, Chaves Primárias (PK), Chaves Estrangeiras (FK) — DDL SQL, Índices físicos, Tablespaces, Particionamento, Storage.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Modelo Lógico: Dependência do Paradigma Relacional* deste guia, mapeamento de Abstrações: Entidades tornam-se tabelas (relações), atributos tornam-se colunas (atributos relacionais), instâncias tornam-se tuplas (linhas) e relacionamentos tornam-se chaves estrangeiras (Foreign Keys - FK) ou novas tabelas associativas (no caso de relacionamentos \$N:M\$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "F – F – F".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "abstrai o modelo conceitual". De acordo com a teoria estudada em *1.2 Modelo Lógico: Dependência do Paradigma Relacional*, escopo e Foco: Traduz o modelo conceitual para as estruturas do paradigma de banco de dados escolhido (quase universalmente o Modelo Relacional de Edgar F. Codd).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "limita a independência lógica de dados". De acordo com a teoria estudada em *1. As Três Fases do Projeto de Banco de Dados*, o projeto e a modelagem de dados para sistemas de gestão pública e auditoria fiscal evoluem ao longo de três níveis sucessivos de abstração, garantindo que a semântica das regras de negócio do Estado seja preservada independentemente dos detalhes físicos de armazenamento em disco.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.4 Tabela Comparativa dos Níveis de Abstração* deste guia, público-Alvo Principal: Analistas de negócio, auditores e usuários — Arquitetos de software e Administradores de Dados (DA) — Administradores de Banco de Dados (DBAs) e Engenheiros de Infra. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "isola os usuários do banco de dados dos detalhes do nível de hardware".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve ser parametrizado para atender ao sistema de processamento analítico online". De acordo com a teoria estudada em *1.4 Tabela Comparativa dos Níveis de Abstração*, o Modelo Conceitual NÃO possui chaves estrangeiras nem tipos de dados de sistema operacional.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "elimina a redundância do sistema de processamento de transações online". De acordo com a teoria estudada em *5. Processo de Desnormalização de Dados*, a desnormalização consiste na introdução deliberada, planejada e controlada de redundância em um esquema de banco de dados físico previamente normalizado.
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 

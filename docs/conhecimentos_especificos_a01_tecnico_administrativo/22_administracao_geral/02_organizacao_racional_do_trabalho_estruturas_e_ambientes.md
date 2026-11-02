@@ -93,48 +93,48 @@ flowchart TD
 ---
 
 ### Teste 350
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
-A única frase de construção aceitável, é:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+A seleção de talentos é o processo de identificar e recrutar os candidatos mais qualificados para preencher vagas em uma organização. Esse processo compara duas variáveis: a variável independente x que representa os requisitos exigidos pela organização, e a variável dependente y que simboliza as características dos candidatos. Assim sendo, quando x e y são iguais,
 
-* **A)** A seção do equipamento de informática evolui numa velocidade incrível e, a cada ano, eles põem no mercado produtos cada vez mais desenvolvidos.
-* **B)** A exposição apresenta ao público obras pouco conhecidas, pois eles as produziram no início de suas carreiras.
-* **C)** A reunião dos operários ocorrerá depois do meio-dia, diante do hospital do bairro. De lá, eles irão bloquear a entrada da fábrica.
-* **D)** Esta manhã, faltava entusiasmo aos alunos. Então, após a recreação, ele começou seu curso de história, propondo uma discussão interessante.
-* **E)** Estes aviões servem para o treinamento básico. Devem ser efetuadas ao menos cem horas de voo antes de eles passarem à etapa seguinte.
+* **A)** o candidato não atinge as condições ideais para ocupar determinado cargo e, portanto, é rejeitado no processo seletivo.
+* **B)** o candidato reúne as condições ideais e, portanto, é aprovado no processo seletivo.
+* **C)** o candidato reúne mais do que as condições exigidas pelo trabalho e, portanto, torna-se superdotado para a posição oferecida.
+* **D)** o candidato não atinge as condições ideais para ocupar determinado cargo e, portanto, é aprovado no processo seletivo.
+* **E)** o candidato reúne as condições ideais e, portanto, mas é rejeitado no processo seletivo por conta de fatores outros, não implicados na análise.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A seção do equipamento de informática evolui numa velocidade incrível e, a cada ano, eles põem no mercado produtos...". De acordo com a teoria estudada em *1. Os Nove Pilares da Organização Racional do Trabalho (ORT)*, frederick W. Taylor desenvolveu a Organização Racional do Trabalho (ORT) no início do século XX com a missão precípua de substituir o empirismo rudimentar e a improvisação dos operários por métodos científicos e matematicamente padronizados.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A exposição apresenta ao público obras pouco conhecidas, pois eles as produziram no início de suas carreiras". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, padronização de Métodos e Ferramentas: Busca pela "única melhor maneira" (*the one best way*) de desempenhar cada rotina produtiva, padronizando uniformemente maquinários, materiais e movimentos.
-> - **C)** **Correta.** Conforme fundamentado na seção *Detalhamento Teórico dos Componentes da ORT:* deste guia, divisão do Trabalho e Especialização do Operário: Confinamento do trabalhador à repetição estrita de uma única tarefa ultraespecífica no chão de fábrica, elevando a destreza mecânica. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "A reunião dos operários ocorrerá depois do meio-dia, diante do hospital do bairro. De lá, eles irão bloquear a...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Esta manhã, faltava entusiasmo aos alunos. Então, após a recreação, ele começou seu curso de história, propondo...". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, se o texto destaca "a mortalidade infantil caiu 40% na região após a inauguração das unidades", trata de EFETIVIDADE (foco no impacto social).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estes aviões servem para o treinamento básico. Devem ser efetuadas ao menos cem horas de voo antes de eles...". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, se o texto destaca "custos reduzidos, menos horas gastas, processos sem desperdício de papel, economia de insumos", a questão trata de EFICIÊNCIA (foco nos meios).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o candidato não atinge as condições ideais para ocupar determinado cargo e, portanto, é rejeitado no processo...". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, condições Ambientais de Trabalho: Reconhecimento científico pioneiro de que iluminação inadequada, ruído excessivo, má ventilação e calor degradam a eficiência física do corpo humano.
+> - **B)** **Correta.** Conforme fundamentado na seção *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)* deste guia, ambiente Geral (Macroambiente): Conjunto amplo de condições genéricas e cenários que afetam todas as organizações de uma determinada sociedade. Analisado pelas variáveis PESTEL. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "o candidato reúne as condições ideais e, portanto, é aprovado no processo seletivo".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o candidato reúne mais do que as condições exigidas pelo trabalho e, portanto, torna-se superdotado para a posição...". De acordo com a teoria estudada em *2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade*, a distinção conceitual entre eficiência e eficácia, magistralmente consolidada por teóricos como Peter Drucker e Chester Barnard, aliada à dimensão moderna da efetividade, figura entre os temas mais cobrados pela FCC.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o candidato não atinge as condições ideais para ocupar determinado cargo e, portanto, é aprovado no processo...". De acordo com a teoria estudada em *A Regra Áurea da Delegação de Autoridade:*, o que NUNCA se delega: A responsabilidade final perante a organização permanece INDELEGÁVEL! O superior que delega continua sendo plenamente responsável pelas falhas, irregularidades ou sucessos cometidos pelo subordinado delegado.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o candidato reúne as condições ideais e, portanto, mas é rejeitado no processo seletivo por conta de fatores...". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, análise do Trabalho e Estudo dos Tempos e Movimentos: Decomposição analítica de cada operação em micromovimentos elementares (*therbligs*, introduzidos por Frank e Lillian Gilbreth), cronometrando o tempo exato para eliminar movimentos inúteis e estabelecer o tempo-padrão de execução.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
 ### Teste 351
-**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
-A Administração Pública, como organização formal moderna, apresenta características básicas como divisão do trabalho, hierarquia funcional, formalização de regras, impessoalidade e busca pela eficiência na prestação dos serviços públicos. Assinale a opção que apresenta, corretamente, uma característica das organizações formais modernas no âmbito da Administração Pública.
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+O processo de diferenciação é a segmentação das operações de uma organização em áreas especializadas, como resposta ao crescimento e à complexidade. Inclui a divisão do trabalho, a criação de estruturas funcionais e departamentalização, e a diversificação de produtos e serviços. Assinale a opção que apresenta a vantagem de agrupar todas as funções em torno de determinada tecnologia, conjunto de produtos ou grupo de clientes.
 
-* **A)** Os clientes internos não influenciam os processos organizacionais, pois seu papel está restrito ao consumo dos produtos finais da organização.
-* **B)** Departamentos, divisões e seções não são considerados unidades organizacionais por não estarem diretamente ligados à alta gestão.
-* **C)** A departamentalização por cliente é característica das estruturas informais e não se aplica à Administração Pública.
-* **D)** Unidades organizacionais, como grupos de trabalho e seções, podem funcionar tanto como fornecedores quanto como clientes internos, conforme o fluxo de processos internos.
-* **E)** A estrutura organizacional da Administração Pública não permite a existência de fornecedores internos, pois todos os insumos provêm do setor privado.
+* **A)** Diferenciação ocupacional.
+* **B)** Descentralização geográfica.
+* **C)** Diferenciação por tecnologia.
+* **D)** Departamentalização.
+* **E)** Diferenciação por nível hierárquico.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os clientes internos não influenciam os processos organizacionais, pois seu papel está restrito ao consumo dos...". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, cidadãos-usuários (jurisdicionados): Destinatários finais dos serviços públicos e do controle da gestão.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Departamentos, divisões e seções não são considerados unidades organizacionais por não estarem diretamente ligados...". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, divisão do Trabalho e Especialização do Operário: Confinamento do trabalhador à repetição estrita de uma única tarefa ultraespecífica no chão de fábrica, elevando a destreza mecânica.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A departamentalização por cliente é característica das estruturas informais e não se aplica à Administração Pública". De acordo com a teoria estudada em *3. Dinâmica das Organizações Formais e Informais*, a organização informal é uma manifestação sociológica inevitável do comportamento coletivo humano. Administradores públicos preparados não tentam reprimi-la ou puni-la, mas sim buscar sua convergência harmônica com as metas formais da instituição pública.
-> - **D)** **Correta.** Conforme fundamentado na seção *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)* deste guia, fornecedores: Empresas concorrentes em licitações e contratos para fornecimento de bens e serviços. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Unidades organizacionais, como grupos de trabalho e seções, podem funcionar tanto como fornecedores quanto como...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A estrutura organizacional da Administração Pública não permite a existência de fornecedores internos, pois todos...". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, se o texto destaca "custos reduzidos, menos horas gastas, processos sem desperdício de papel, economia de insumos", a questão trata de EFICIÊNCIA (foco nos meios).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diferenciação ocupacional". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, divisão do Trabalho e Especialização do Operário: Confinamento do trabalhador à repetição estrita de uma única tarefa ultraespecífica no chão de fábrica, elevando a destreza mecânica.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Descentralização geográfica". De acordo com a teoria estudada em *4. Centralização vs. Descentralização e a Regra Áurea da Delegação*, a distribuição formal do poder de decisão dentro da hierarquia é classificada em dois modelos estruturais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diferenciação por tecnologia". De acordo com a teoria estudada em *1. Os Nove Pilares da Organização Racional do Trabalho (ORT)*, frederick W. Taylor desenvolveu a Organização Racional do Trabalho (ORT) no início do século XX com a missão precípua de substituir o empirismo rudimentar e a improvisação dos operários por métodos científicos e matematicamente padronizados.
+> - **D)** **Correta.** Conforme fundamentado na seção *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)* deste guia, ambiente Geral (Macroambiente): Conjunto amplo de condições genéricas e cenários que afetam todas as organizações de uma determinada sociedade. Analisado pelas variáveis PESTEL. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Departamentalização".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diferenciação por nível hierárquico". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, sociais: pirâmide demográfica, nível educacional, demandas populares.
 >
 > **Gabarito: D**
 
@@ -173,26 +173,26 @@ flowchart LR
 ---
 
 ### Teste 352
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Negocios – 2021)**
-Na estrutura COBIT 2019, são definidas metas empresariais, estruturadas ao longo das dimensões do BSC (Balanced Scorecard). A meta risco de negócio gerenciado e a meta otimização dos custos do processo de negócios são, respectivamente, da dimensão
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**
+A Administração tradicionalmente persegue dois objetivos centrais que se complementam: a eficiência e a eficácia. Na empresa ABC, a equipe de produção utiliza integralmente os recursos disponíveis, segue rigorosamente os procedimentos operacionais padronizados e minimiza desperdícios, embora os objetivos estratégicos definidos para o trimestre não tenham sido atingidos. A situação descrita evidencia que a empresa ABC operou com
 
-* **A)** financeira e da dimensão interna.
-* **B)** interna e da dimensão cliente.
-* **C)** cliente e da dimensão treinamento e crescimento.
-* **D)** treinamento e crescimento e da dimensão financeira.
-* **E)** cliente e da dimensão financeira.
+* **A)** eficácia e eficiência simultaneamente.
+* **B)** ausência de eficiência e de eficácia.
+* **C)** excelência operacional plena.
+* **D)** eficiência, sem eficácia.
+* **E)** eficácia, sem eficiência.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade* deste guia, a distinção conceitual entre eficiência e eficácia, magistralmente consolidada por teóricos como Peter Drucker e Chester Barnard, aliada à dimensão moderna da efetividade, figura entre os temas mais cobrados pela FCC. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "financeira e da dimensão interna".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "interna e da dimensão cliente". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, dimensão: Eficiência — Eficácia — Efetividade.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cliente e da dimensão treinamento e crescimento". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, foco Estratégico: Nos Meios (métodos, custos, tempo e otimização de insumos). — Nos Fins (metas concretas atingidas, objetivos entregues). — No Impacto (transformação duradoura na vida do cidadão).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "treinamento e crescimento e da dimensão financeira". De acordo com a teoria estudada em *3. Dinâmica das Organizações Formais e Informais*, toda instituição humana possui uma dupla dimensão estrutural que convive em interação dialética permanente.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cliente e da dimensão financeira". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, se o texto destaca "meta de 100% de processos julgados alcançada, prazo final cumprido, entrega de 50 novas escolas", trata de EFICÁCIA (foco nos fins/metas).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eficácia e eficiência simultaneamente". De acordo com a teoria estudada em *2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade*, $$\mathbf{\text{Eficiência} = \text{"Fazer certo as coisas"} \quad (\textit{Doing things right})}$$.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ausência de eficiência e de eficácia". De acordo com a teoria estudada em *2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade*, $$\mathbf{\text{Eficácia} = \text{"Fazer as coisas certas"} \quad (\textit{Doing the right things})}$$.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "excelência operacional plena". De acordo com a teoria estudada em *2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade*, $$\mathbf{\text{Efetividade} = \text{"Produzir impacto transformador real e sustentável"}}$$.
+> - **D)** **Correta.** Conforme fundamentado na seção *2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade* deste guia, a distinção conceitual entre eficiência e eficácia, magistralmente consolidada por teóricos como Peter Drucker e Chester Barnard, aliada à dimensão moderna da efetividade, figura entre os temas mais cobrados pela FCC. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "eficiência, sem eficácia".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eficácia, sem eficiência". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, dimensão: Eficiência — Eficácia — Efetividade.
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
@@ -221,50 +221,50 @@ flowchart TD
 ---
 
 ### Teste 353
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Negocios – 2021)**
-Acerca de gerenciamento de processos de negócios, assinale a opção correta.
+**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Uma organização atingiu o nível 1 de capacidade de processo do COBIT 5. Isso significa dizer que
 
-* **A)** BPM aborda trabalho ponta a ponta e não apresenta diferenças entre conjuntos de subprocessos, tarefas, atividades e funções.
-* **B)** BPM se vale de ferramentas tecnológicas que se encerram na modelagem, simulação, automação e integração de processos de negócio.
-* **C)** BPM requer compromisso significativo da organização e frequentemente introduz novos papéis, responsabilidade e estruturas em organizações tradicionais orientadas à gestão por processos.
-* **D)** BPM é o conjunto descontínuo de processos em curso, com foco no gerenciamento de negócio ponta a ponta nas organizações.
-* **E)** BPM permite à organização alinhar os seus processos de negócio à sua estratégia organizacional, mediante melhorias de atividades específicas de trabalho em um departamento, na organização como um todo ou entre organizações.
+* **A)** o atributo de desempenho do processo foi amplamente atingido; o processo está sendo realizado com sucesso e os resultados esperados estão sendo obtidos pela organização.
+* **B)** não há uma diferença significativa entre a capacidade de processo nível 1 e os níveis de capacidade mais altos.
+* **C)** houve um engano, pois o COBIT 5 trabalha com níveis de maturidade e não com níveis de capacidade.
+* **D)** todos os cinco atributos de desempenho dos dois processos foram amplamente atingidos; a organização progride com sucesso e os resultados esperados estão sendo obtidos.
+* **E)** a organização atingiu o nível de capacidade Processo Gerenciado e seus produtos de trabalho estão adequadamente estabelecidos, controlados e mantidos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BPM aborda trabalho ponta a ponta e não apresenta diferenças entre conjuntos de subprocessos, tarefas, atividades...". De acordo com a teoria estudada em *3. Dinâmica das Organizações Formais e Informais*, a organização informal é uma manifestação sociológica inevitável do comportamento coletivo humano. Administradores públicos preparados não tentam reprimi-la ou puni-la, mas sim buscar sua convergência harmônica com as metas formais da instituição pública.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BPM se vale de ferramentas tecnológicas que se encerram na modelagem, simulação, automação e integração de...". De acordo com a teoria estudada em *3. Dinâmica das Organizações Formais e Informais*, comprovou-se que a produtividade e a motivação dependem da integração no grupo informal e da aprovação social entre colegas.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BPM requer compromisso significativo da organização e frequentemente introduz novos papéis, responsabilidade e...". De acordo com a teoria estudada em *A Regra Áurea da Delegação de Autoridade:*, o que NUNCA se delega: A responsabilidade final perante a organização permanece INDELEGÁVEL! O superior que delega continua sendo plenamente responsável pelas falhas, irregularidades ou sucessos cometidos pelo subordinado delegado.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BPM é o conjunto descontínuo de processos em curso, com foco no gerenciamento de negócio ponta a ponta nas...". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, se o texto destaca "custos reduzidos, menos horas gastas, processos sem desperdício de papel, economia de insumos", a questão trata de EFICIÊNCIA (foco nos meios).
-> - **E)** **Correta.** Conforme fundamentado na seção *3. Dinâmica das Organizações Formais e Informais* deste guia, a Origem Sociológica da Organização Informal: Ficou experimentalmente demonstrada na Experiência de Hawthorne (1927-1932) conduzida por Elton Mayo. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "BPM permite à organização alinhar os seus processos de negócio à sua estratégia organizacional, mediante melhorias...".
+> - **A)** **Correta.** Conforme fundamentado na seção *A Regra Áurea da Delegação de Autoridade:* deste guia, o que NUNCA se delega: A responsabilidade final perante a organização permanece INDELEGÁVEL! O superior que delega continua sendo plenamente responsável pelas falhas, irregularidades ou sucessos cometidos pelo subordinado delegado. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "o atributo de desempenho do processo foi amplamente atingido; o processo está sendo realizado com sucesso e os...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não há uma diferença significativa entre a capacidade de processo nível 1 e os níveis de capacidade mais altos". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, sociais: pirâmide demográfica, nível educacional, demandas populares.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "houve um engano, pois o COBIT 5 trabalha com níveis de maturidade e não com níveis de capacidade". De acordo com a teoria estudada em *3. Dinâmica das Organizações Formais e Informais*, a Origem Sociológica da Organização Informal: Ficou experimentalmente demonstrada na Experiência de Hawthorne (1927-1932) conduzida por Elton Mayo.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todos os cinco atributos de desempenho dos dois processos foram amplamente atingidos; a organização progride com...". De acordo com a teoria estudada em *3. Dinâmica das Organizações Formais e Informais*, a organização informal é uma manifestação sociológica inevitável do comportamento coletivo humano. Administradores públicos preparados não tentam reprimi-la ou puni-la, mas sim buscar sua convergência harmônica com as metas formais da instituição pública.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a organização atingiu o nível de capacidade Processo Gerenciado e seus produtos de trabalho estão adequadamente...". De acordo com a teoria estudada em *1. Os Nove Pilares da Organização Racional do Trabalho (ORT)*, frederick W. Taylor desenvolveu a Organização Racional do Trabalho (ORT) no início do século XX com a missão precípua de substituir o empirismo rudimentar e a improvisação dos operários por métodos científicos e matematicamente padronizados.
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
 ---
 
 ### Teste 354
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
-A respeito do processo histórico de formação do atual Estado do Pará, assinale a afirmativa que descreve corretamente uma de suas etapas.
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+O funcionário de um órgão de fomento à pesquisa tem como atribuição o atendimento a solicitantes de pedidos de bolsas de apoio a pesquisadores. O funcionário é responsável pelo recebimento e registro da documentação que dá início ao processo de solicitação de bolsas, devendo ser iniciados apenas os processos que se enquadrem nos critérios do órgão para concessão do apoio. Dessa etapa inicial, as solicitações seguem para as etapas de avaliação e de decisão. Em 2021, o funcionário atendeu 200 solicitantes, dando início a 200 processos de pedido de bolsa. Desses processos, 20 foram recusados na etapa de avaliação por não atenderem aos critérios do órgão para concessão de bolsas, e 38 foram recusados por serem avaliados como de baixa relevância. Em 2022, o funcionário atendeu 120 solicitantes, dando início a 120 processos de pedido de bolsa. Desses processos, 12 foram recusados por não atenderem aos critérios do órgão para concessão de bolsas, e 10 foram recusados por serem avaliados como de baixa relevância. Na situação apresentada, é correto afirmar, sobre o trabalho do funcionário, que:
 
-* **A)** No contexto da União das Coroas Ibéricas, iniciou-se a ocupação militar na embocadura do rio Amazonas, com a fundação de Belém, em 1616, como estratégia para assegurar a posse do território, em um período de intensas invasões holandesas, francesas e castelhanas.
-* **B)** No século XVII, a distribuição das missões na região amazônica era regulamentada pela cúria romana, mediante a Congregação Propaganda Fide, para evitar conflitos de jurisdição entre carmelitas, jesuítas e mercedários.
-* **C)** Durante a regência do padre Diogo Feijó (1835-1838), ocorreu a revolta popular dos Cabanos, motivada por pobreza, fome e doenças que afetavam a população da então Capitania do Grão Pará e Maranhão.
-* **D)** Na segunda metade do século XIX, a cadeia produtiva gomífera baseou-se em um sistema de adiantamento de créditos e dívida permanente conhecido como aviamento, o qual contribuiu para a expansão da coleta do látex no interior da floresta.
-* **E)** No decorrer da Segunda Guerra Mundial, os seringueiros do Pará constituíram um batalhão conhecido como “soldados da borracha”, mobilizado para o teatro de operações dos Aliados no Mediterrâneo.
+* **A)** a eficácia foi maior em 2021;
+* **B)** a eficiência foi maior em 2022;
+* **C)** a eficácia foi a mesma nos dois anos;
+* **D)** o grau de qualidade do trabalho foi maior em 2021;
+* **E)** o grau de qualidade do trabalho foi o mesmo nos dois anos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No contexto da União das Coroas Ibéricas, iniciou-se a ocupação militar na embocadura do rio Amazonas, com a...". De acordo com a teoria estudada em *1. Os Nove Pilares da Organização Racional do Trabalho (ORT)*, frederick W. Taylor desenvolveu a Organização Racional do Trabalho (ORT) no início do século XX com a missão precípua de substituir o empirismo rudimentar e a improvisação dos operários por métodos científicos e matematicamente padronizados.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No século XVII, a distribuição das missões na região amazônica era regulamentada pela cúria romana, mediante a...". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, incentivos Salariais e Prêmios de Produção: Sistema remuneratório em que o trabalhador recebe um valor fixo por peça que exceder a meta padrão calculada pelo estudo de tempos.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Durante a regência do padre Diogo Feijó (1835-1838), ocorreu a revolta popular dos Cabanos, motivada por pobreza...". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, estudo da Fadiga Humana: A fadiga reduz o rendimento muscular e eleva o índice de acidentes e doenças; a ORT propôs a calibragem de intervalos regulares de descanso, economia de esforços musculares e adequação ergonômica de instrumentos de trabalho.
-> - **D)** **Correta.** Conforme fundamentado na seção *3. Dinâmica das Organizações Formais e Informais* deste guia, toda instituição humana possui uma dupla dimensão estrutural que convive em interação dialética permanente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Na segunda metade do século XIX, a cadeia produtiva gomífera baseou-se em um sistema de adiantamento de créditos e...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No decorrer da Segunda Guerra Mundial, os seringueiros do Pará constituíram um batalhão conhecido como “soldados...". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, padronização de Métodos e Ferramentas: Busca pela "única melhor maneira" (*the one best way*) de desempenhar cada rotina produtiva, padronizando uniformemente maquinários, materiais e movimentos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a eficácia foi maior em 2021". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, se o texto destaca "meta de 100% de processos julgados alcançada, prazo final cumprido, entrega de 50 novas escolas", trata de EFICÁCIA (foco nos fins/metas).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a eficiência foi maior em 2022". De acordo com a teoria estudada em *2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade*, a distinção conceitual entre eficiência e eficácia, magistralmente consolidada por teóricos como Peter Drucker e Chester Barnard, aliada à dimensão moderna da efetividade, figura entre os temas mais cobrados pela FCC.
+> - **C)** **Correta.** Conforme fundamentado na seção *4. Centralização vs. Descentralização e a Regra Áurea da Delegação* deste guia, a distribuição formal do poder de decisão dentro da hierarquia é classificada em dois modelos estruturais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "a eficácia foi a mesma nos dois anos".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o grau de qualidade do trabalho foi maior em 2021". De acordo com a teoria estudada em *1. Os Nove Pilares da Organização Racional do Trabalho (ORT)*, frederick W. Taylor desenvolveu a Organização Racional do Trabalho (ORT) no início do século XX com a missão precípua de substituir o empirismo rudimentar e a improvisação dos operários por métodos científicos e matematicamente padronizados.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o grau de qualidade do trabalho foi o mesmo nos dois anos". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, análise do Trabalho e Estudo dos Tempos e Movimentos: Decomposição analítica de cada operação em micromovimentos elementares (*therbligs*, introduzidos por Frank e Lillian Gilbreth), cronometrando o tempo exato para eliminar movimentos inúteis e estabelecer o tempo-padrão de execução.
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
@@ -298,50 +298,50 @@ A delegação é o ato administrativo mediante o qual uma autoridade transfere a
 ---
 
 ### Teste 355
-**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
-Considere que a implementação de uma ação governamental foi concluída no prazo estabelecido, com custos reduzidos e de acordo com o escopo idealizado, porém não foi considerada pela sociedade como promotora dos benefícios esperados. Essa ação foi
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+No âmbito das compras públicas, a definição do grau de centralização das aquisições é uma decisão estratégica que repercute diretamente sobre o poder de negociação, a padronização dos materiais e o controle dos estoques. Numa vantagem diretamente associada à centralização completa das compras públicas é a
 
-* **A)** eficaz, porém não eficiente.
-* **B)** efetiva, porém não eficaz.
-* **C)** eficiente, porém não efetiva.
-* **D)** efetiva, porém não eficiente.
-* **E)** econômica, porém não eficiente.
+* **A)** descentralização das decisões de compra para as unidades operacionais, permitindo que cada setor negocie diretamente com fornecedores locais e reduza prazos de entrega.
+* **B)** homogeneidade da qualidade dos materiais adquiridos, decorrente da uniformização das fontes de fornecimento e dos critérios de compra aplicados a todas as unidades.
+* **C)** capacidade de resposta imediata a necessidades imprevistas das unidades, dado que o órgão central de compras mantém estoques de segurança descentralizados.
+* **D)** diversificação dos padrões de aquisição entre as unidades organizacionais, favorecendo a adaptação dos materiais às especificidades de cada setor.
+* **E)** redução da dependência de um único fornecedor, uma vez que cada unidade passa a gerir de forma independente sua própria carteira de fornecedores.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eficaz, porém não eficiente". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, se o texto destaca "meta de 100% de processos julgados alcançada, prazo final cumprido, entrega de 50 novas escolas", trata de EFICÁCIA (foco nos fins/metas).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "efetiva, porém não eficaz". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, políticas: estabilidade governamental, diretrizes do Executivo.
-> - **C)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa Analítica:* deste guia, se o texto destaca "custos reduzidos, menos horas gastas, processos sem desperdício de papel, economia de insumos", a questão trata de EFICIÊNCIA (foco nos meios). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "eficiente, porém não efetiva".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "efetiva, porém não eficiente". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, pergunta-Chave: *Como* estamos fazendo? Há economia de insumos e celeridade? — *O que* foi entregue? A meta quantitativa foi cumprida? — *Qual* alteração real de bem-estar social ocorreu na sociedade?.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "econômica, porém não eficiente". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, ambiente Geral (Macroambiente): Conjunto amplo de condições genéricas e cenários que afetam todas as organizações de uma determinada sociedade. Analisado pelas variáveis PESTEL.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "descentralização das decisões de compra para as unidades operacionais, permitindo que cada setor negocie...". De acordo com a teoria estudada em *4. Centralização vs. Descentralização e a Regra Áurea da Delegação*, a distribuição formal do poder de decisão dentro da hierarquia é classificada em dois modelos estruturais.
+> - **B)** **Correta.** Conforme fundamentado na seção *Detalhamento Teórico dos Componentes da ORT:* deste guia, padronização de Métodos e Ferramentas: Busca pela "única melhor maneira" (*the one best way*) de desempenhar cada rotina produtiva, padronizando uniformemente maquinários, materiais e movimentos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "homogeneidade da qualidade dos materiais adquiridos, decorrente da uniformização das fontes de fornecimento e dos...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "capacidade de resposta imediata a necessidades imprevistas das unidades, dado que o órgão central de compras...". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, ambiente de Tarefa (Microambiente / Ambiente Operacional): Nicho específico no qual o órgão público atua de maneira imediata e diária para desempenhar suas competências regimentais. É composto por.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "diversificação dos padrões de aquisição entre as unidades organizacionais, favorecendo a adaptação dos materiais...". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, ambiente Geral (Macroambiente): Conjunto amplo de condições genéricas e cenários que afetam todas as organizações de uma determinada sociedade. Analisado pelas variáveis PESTEL.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "redução da dependência de um único fornecedor, uma vez que cada unidade passa a gerir de forma independente sua...". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, fornecedores: Empresas concorrentes em licitações e contratos para fornecimento de bens e serviços.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
 ### Teste 356
-**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
-A diferença maior no desenvolvimento de acervos em bibliotecas especializadas, quando comparadas com outros tipos de bibliotecas, é a
+**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
+O neocorporativismo é um sistema de intermediação de interesses em que as organizações são limitadas, e o Estado lhes dá o monopólio da representação em troca de alguma influência sobre nomeações no parlamento. Assinale a opção que apresenta requisitos para o estabelecimento do neocorporativismo.
 
-* **A)** ênfase no desbastamento e na avaliação da coleção, medida necessária para otimização do acervo.
-* **B)** disponibilidade de materiais ligados ao ensino e à pesquisa.
-* **C)** existência de uma clientela mais dinâmica e diversificada.
-* **D)** necessidade de dar suporte às atividades pedagógicas, integrando-se ao processo educacional formal.
-* **E)** presença, com muito maior frequência, de materiais não-convencionais.
+* **A)** Um governo pró-trabalhismo, centralização dos grupos de interesse e monopólio da representação.
+* **B)** Centralização dos grupos de interesse, pluralismo irrestrito e participação mínima do Executivo.
+* **C)** Descentralização dos grupos de interesse e abertura total para o pluralismo político.
+* **D)** Ausência de monopólio na representação e governo neoliberal.
+* **E)** Um governo antissindical e representação fragmentada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ênfase no desbastamento e na avaliação da coleção, medida necessária para otimização do acervo". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, foco Estratégico: Nos Meios (métodos, custos, tempo e otimização de insumos). — Nos Fins (metas concretas atingidas, objetivos entregues). — No Impacto (transformação duradoura na vida do cidadão).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "disponibilidade de materiais ligados ao ensino e à pesquisa". De acordo com a teoria estudada em *4. Centralização vs. Descentralização e a Regra Áurea da Delegação*, a distribuição formal do poder de decisão dentro da hierarquia é classificada em dois modelos estruturais.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "existência de uma clientela mais dinâmica e diversificada". De acordo com a teoria estudada em *2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade*, a distinção conceitual entre eficiência e eficácia, magistralmente consolidada por teóricos como Peter Drucker e Chester Barnard, aliada à dimensão moderna da efetividade, figura entre os temas mais cobrados pela FCC.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "necessidade de dar suporte às atividades pedagógicas, integrando-se ao processo educacional formal". De acordo com a teoria estudada em *3. Dinâmica das Organizações Formais e Informais*, a Rádio-Peão (*Grapevine*): É a rede informal de comunicação. É extremamente veloz e atende à necessidade humana de troca de informações, embora possa propagar boatos quando a comunicação formal oficial do órgão público for deficiente, opaca ou autoritária.
-> - **E)** **Correta.** Conforme fundamentado na seção *Detalhamento Teórico dos Componentes da ORT:* deste guia, padronização de Métodos e Ferramentas: Busca pela "única melhor maneira" (*the one best way*) de desempenhar cada rotina produtiva, padronizando uniformemente maquinários, materiais e movimentos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "presença, com muito maior frequência, de materiais não-convencionais".
+> - **A)** **Correta.** Conforme fundamentado na seção *4. Centralização vs. Descentralização e a Regra Áurea da Delegação* deste guia, a distribuição formal do poder de decisão dentro da hierarquia é classificada em dois modelos estruturais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "Um governo pró-trabalhismo, centralização dos grupos de interesse e monopólio da representação".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Centralização dos grupos de interesse, pluralismo irrestrito e participação mínima do Executivo". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, políticas: estabilidade governamental, diretrizes do Executivo.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Descentralização dos grupos de interesse e abertura total para o pluralismo político". De acordo com a teoria estudada em *3. Dinâmica das Organizações Formais e Informais*, a Rádio-Peão (*Grapevine*): É a rede informal de comunicação. É extremamente veloz e atende à necessidade humana de troca de informações, embora possa propagar boatos quando a comunicação formal oficial do órgão público for deficiente, opaca ou autoritária.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ausência de monopólio na representação e governo neoliberal". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, incentivos Salariais e Prêmios de Produção: Sistema remuneratório em que o trabalhador recebe um valor fixo por peça que exceder a meta padrão calculada pelo estudo de tempos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Um governo antissindical e representação fragmentada". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, nenhuma organização pública funciona no vácuo; ela opera inserida em camadas ambientais com diferentes graus de proximidade e influência.
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
 ---
 
@@ -385,74 +385,74 @@ flowchart TD
 ---
 
 ### Teste 357
-**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
-André pensou que realizaria uma tarefa em 20 dias, porém, levou 20 dias a mais porque trabalhou 3 horas a menos por dia. Se a produtividade de André por hora se manteve sempre a mesma durante a realização da tarefa, o número de horas diárias que André dedicou à realização da tarefa foi igual a
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+A aquisição cooperativa consiste na _________________________________________________________
 
-* **A)** 6.
-* **B)** 5.
-* **C)** 5,5.
-* **D)** 3,5.
-* **E)** 3.
+* **A)** o processamento do material comparado com o mesmo processamento se fosse adquirido por compra.
+* **B)** o tempo necessário para recebimento do material comparado com o mesmo tempo se fosse adquirido por compra.
+* **C)** o tempo necessário para realização dos contatos visando o estabelecimento da permuta.
+* **D)** o aumento da carga de trabalho devido à ampliação do número de títulos permutados.
+* **E)** a cultura da organização. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "6". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, lembre-se sempre de que Taylor fundamentava toda a sua ORT no conceito do Homo Economicus (o ser humano é preguiçoso e reage exclusivamente a incentivos salariais monetários).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5". De acordo com a teoria estudada em *2. Dicotomia Conceitual: Eficiência vs. Eficácia vs. Efetividade*, a distinção conceitual entre eficiência e eficácia, magistralmente consolidada por teóricos como Peter Drucker e Chester Barnard, aliada à dimensão moderna da efetividade, figura entre os temas mais cobrados pela FCC.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5,5". De acordo com a teoria estudada em *3. Dinâmica das Organizações Formais e Informais*, comprovou-se que a produtividade e a motivação dependem da integração no grupo informal e da aprovação social entre colegas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3,5". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, nenhuma organização pública funciona no vácuo; ela opera inserida em camadas ambientais com diferentes graus de proximidade e influência.
-> - **E)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa Analítica:* deste guia, se o texto destaca "custos reduzidos, menos horas gastas, processos sem desperdício de papel, economia de insumos", a questão trata de EFICIÊNCIA (foco nos meios). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "3".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o processamento do material comparado com o mesmo processamento se fosse adquirido por compra". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, foco Estratégico: Nos Meios (métodos, custos, tempo e otimização de insumos). — Nos Fins (metas concretas atingidas, objetivos entregues). — No Impacto (transformação duradoura na vida do cidadão).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o tempo necessário para recebimento do material comparado com o mesmo tempo se fosse adquirido por compra". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, nenhuma organização pública funciona no vácuo; ela opera inserida em camadas ambientais com diferentes graus de proximidade e influência.
+> - **C)** **Correta.** Conforme fundamentado na seção *Detalhamento Teórico dos Componentes da ORT:* deste guia, análise do Trabalho e Estudo dos Tempos e Movimentos: Decomposição analítica de cada operação em micromovimentos elementares (*therbligs*, introduzidos por Frank e Lillian Gilbreth), cronometrando o tempo exato para eliminar movimentos inúteis e estabelecer o tempo-padrão de execução. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "o tempo necessário para realização dos contatos visando o estabelecimento da permuta".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o aumento da carga de trabalho devido à ampliação do número de títulos permutados". De acordo com a teoria estudada em *1. Os Nove Pilares da Organização Racional do Trabalho (ORT)*, frederick W. Taylor desenvolveu a Organização Racional do Trabalho (ORT) no início do século XX com a missão precípua de substituir o empirismo rudimentar e a improvisação dos operários por métodos científicos e matematicamente padronizados.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a cultura da organização. _________________________________________________________". De acordo com a teoria estudada em *3. Dinâmica das Organizações Formais e Informais*, a Origem Sociológica da Organização Informal: Ficou experimentalmente demonstrada na Experiência de Hawthorne (1927-1932) conduzida por Elton Mayo.
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 
 ### Teste 358
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
-Um processo é uma sequência organizada e cronológica de ações que transforma insumos, agregando valor por meio de recursos e tecnologias, com o objetivo de produzir bens ou serviços de qualidade para atender às demandas dos clientes. Assinale a opção que apresenta o conjunto de fatores que entram na produção de bens ou serviços.
+**(FCC – TRT 3ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+Nos termos da Organização do Tribunal Regional do Trabalho da 3a Região, conforme disposição expressa, é cargo de direção do Tribunal o
 
-* **A)** Atividades.
-* **B)** Insumos.
-* **C)** Recursos.
-* **D)** Tempos.
-* **E)** Movimentos.
+* **A)** Ouvidor.
+* **B)** 2o Vice-Presidente.
+* **C)** Desembargador.
+* **D)** Juiz do Trabalho.
+* **E)** Presidente de Turma.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Atividades". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, pergunta-Chave: *Como* estamos fazendo? Há economia de insumos e celeridade? — *O que* foi entregue? A meta quantitativa foi cumprida? — *Qual* alteração real de bem-estar social ocorreu na sociedade?.
-> - **B)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa Analítica:* deste guia, foco Estratégico: Nos Meios (métodos, custos, tempo e otimização de insumos). — Nos Fins (metas concretas atingidas, objetivos entregues). — No Impacto (transformação duradoura na vida do cidadão). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Insumos".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Recursos". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, se o texto destaca "custos reduzidos, menos horas gastas, processos sem desperdício de papel, economia de insumos", a questão trata de EFICIÊNCIA (foco nos meios).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tempos". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, incentivos Salariais e Prêmios de Produção: Sistema remuneratório em que o trabalhador recebe um valor fixo por peça que exceder a meta padrão calculada pelo estudo de tempos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Movimentos". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, análise do Trabalho e Estudo dos Tempos e Movimentos: Decomposição analítica de cada operação em micromovimentos elementares (*therbligs*, introduzidos por Frank e Lillian Gilbreth), cronometrando o tempo exato para eliminar movimentos inúteis e estabelecer o tempo-padrão de execução.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ouvidor". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, nenhuma organização pública funciona no vácuo; ela opera inserida em camadas ambientais com diferentes graus de proximidade e influência.
+> - **B)** **Correta.** Conforme fundamentado na seção *1. Os Nove Pilares da Organização Racional do Trabalho (ORT)* deste guia, frederick W. Taylor desenvolveu a Organização Racional do Trabalho (ORT) no início do século XX com a missão precípua de substituir o empirismo rudimentar e a improvisação dos operários por métodos científicos e matematicamente padronizados. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 3ª/2015) ao estabelecer que "2o Vice-Presidente".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Desembargador". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, se o texto destaca "a mortalidade infantil caiu 40% na região após a inauguração das unidades", trata de EFETIVIDADE (foco no impacto social).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Juiz do Trabalho". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, análise do Trabalho e Estudo dos Tempos e Movimentos: Decomposição analítica de cada operação em micromovimentos elementares (*therbligs*, introduzidos por Frank e Lillian Gilbreth), cronometrando o tempo exato para eliminar movimentos inúteis e estabelecer o tempo-padrão de execução.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Presidente de Turma". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, estudo da Fadiga Humana: A fadiga reduz o rendimento muscular e eleva o índice de acidentes e doenças; a ORT propôs a calibragem de intervalos regulares de descanso, economia de esforços musculares e adequação ergonômica de instrumentos de trabalho.
 >
 > **Gabarito: B**
 
 ---
 
 ### Teste 359
-**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
-Considere que o TRT da 16a Região está elaborando o seu Planejamento Estratégico. A etapa de análise do microambiente organizacional ou Ambiente de Tarefa, contempla:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+Avalie as afirmativas a seguir, a respeito de contrato de eficiência celebrado entre a Administração e a Contratada: I. A remuneração da Contratada deverá ser fixada em percentual sobre a economia efetivamente obtida na execução do contrato. II. O julgamento da proposta será baseado na economia que se estima gerar deduzida a proposta de preço. III. No caso de não ocorrer a economia prevista no contrato de eficiência, o contrato será rescindido. Está correto o que se apresenta em
 
-* **A)** Fornecedores e clientes do TRT.
-* **B)** Departamento de compras, concorrentes, entidades de classe.
-* **C)** Departamento de recursos humanos, fornecedores e sindicatos.
-* **D)** Economia, Sindicatos e Tribunal Regional do Trabalho de outra região.
-* **E)** Demografia, governo, fornecedores.
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** I e II, apenas.
+* **D)** I e III, apenas.
+* **E)** II e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)* deste guia, fornecedores: Empresas concorrentes em licitações e contratos para fornecimento de bens e serviços. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "Fornecedores e clientes do TRT".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Departamento de compras, concorrentes, entidades de classe". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, entidades de Controle e Regulação: Tribunais de Contas, Ministério Público e agências fiscalizadoras.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Departamento de recursos humanos, fornecedores e sindicatos". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, ambiente de Tarefa (Microambiente / Ambiente Operacional): Nicho específico no qual o órgão público atua de maneira imediata e diária para desempenhar suas competências regimentais. É composto por.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Economia, Sindicatos e Tribunal Regional do Trabalho de outra região". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, estudo da Fadiga Humana: A fadiga reduz o rendimento muscular e eleva o índice de acidentes e doenças; a ORT propôs a calibragem de intervalos regulares de descanso, economia de esforços musculares e adequação ergonômica de instrumentos de trabalho.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Demografia, governo, fornecedores". De acordo com a teoria estudada em *5. Ambientes Organizacionais: Ambiente Geral (Macro) vs. Ambiente de Tarefa (Micro)*, nenhuma organização pública funciona no vácuo; ela opera inserida em camadas ambientais com diferentes graus de proximidade e influência.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, análise do Trabalho e Estudo dos Tempos e Movimentos: Decomposição analítica de cada operação em micromovimentos elementares (*therbligs*, introduzidos por Frank e Lillian Gilbreth), cronometrando o tempo exato para eliminar movimentos inúteis e estabelecer o tempo-padrão de execução.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, conceito de Homo Economicus: Axioma segundo o qual o operário é um ser naturalmente indolente e calculista, que trabalha unicamente motivado pelo estímulo financeiro e medo da fome.
+> - **C)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa Analítica:* deste guia, se o texto destaca "custos reduzidos, menos horas gastas, processos sem desperdício de papel, economia de insumos", a questão trata de EFICIÊNCIA (foco nos meios). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I e II, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, lembre-se sempre de que Taylor fundamentava toda a sua ORT no conceito do Homo Economicus (o ser humano é preguiçoso e reage exclusivamente a incentivos salariais monetários).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *Detalhamento Teórico dos Componentes da ORT:*, estudo da Fadiga Humana: A fadiga reduz o rendimento muscular e eleva o índice de acidentes e doenças; a ORT propôs a calibragem de intervalos regulares de descanso, economia de esforços musculares e adequação ergonômica de instrumentos de trabalho.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 

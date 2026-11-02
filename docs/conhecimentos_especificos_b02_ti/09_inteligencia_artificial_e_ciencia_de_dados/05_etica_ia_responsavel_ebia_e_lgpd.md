@@ -103,74 +103,68 @@ Para mitigar decisões automatizadas danosas e salvaguardar garantias constituci
 ---
 
 ### Teste 344
-**(FGV – TCE-GO – Analista de Controle Externo Controle Externo – 2024)**
-O professor calculou a média das notas de 9 alunos numa prova e obteve 5,5. Notou então que faltou avaliar uma prova de um décimo aluno, corrigiu a referida prova e deu nota 8,5 a ela. A nova média, agora dos dez alunos, foi então igual a
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
+O Auditor fiscaliza a arquitetura de um novo banco de dados NoSQL distribuído para o TCE-SC. O sistema precisa garantir que, em caso de falha na rede entre dois data centers, o sistema continue aceitando gravações, mesmo que os dados fiquem temporariamente inconsistentes entre os nós. De acordo com o Teorema CAP, esse sistema prioriza as propriedades de
 
-* **A)** 5,6
-* **B)** 5,7
-* **C)** 5,8
-* **D)** 5,85
-* **E)** 5,9
+* **A)** e Tolerância a Partições (P).
+* **B)** Consistência
+* **C)** Disponibilidade
+* **D)** Atomicidade e Durabilidade.
+* **E)** Apenas Disponibilidade, ignorando partições.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Modelos de Supervisão Humana: HITL, HOTL e HIC* deste guia, human-in-the-Loop (HITL): O sistema de IA gera notas de probabilidade, subsídios probatórios e sugestões, mas a tomada de decisão final é obrigatoriamente validada e executada por um ser humano. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "5,6".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5,7". De acordo com a teoria estudada em *2.1 O Dilema Desempenho vs. Interpretabilidade*, possuem estrutura transparente. O efeito de uma variável em uma regressão linear é explicitado diretamente pelo coeficiente \$\beta_j\$; em uma árvore de decisão rasa, a inferência é descrita por regras sequenciais *se-então* legíveis.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5,8". De acordo com a teoria estudada em *2.2 Método SHAP (SHapley Additive exPlanations) e seus Axiomas*, o valor de Shapley \$\phi_i\$ calcula a contribuição marginal média da variável \$i\$ ao longo de todas as permutações e subconjuntos possíveis de variáveis (\$S \subseteq F\$).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5,85". De acordo com a teoria estudada em *2.2 Método SHAP (SHapley Additive exPlanations) e seus Axiomas*, aplicações Visuais: O SHAP permite gerar gráficos de força locais (*Force Plots* e *Waterfall Plots*) demonstrando como cada parâmetro fiscal empurrou a probabilidade de fraude para cima ou para baixo em relação à média, bem como visões globais de importância (*Summary Plots / Beeswarm*).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5,9". De acordo com a teoria estudada em *1. Princípios de IA Responsável, Ética e Governança Humana*, à medida que sistemas de inteligência artificial são integrados a decisões de auditoria fiscal, concessão de benefícios previdenciários e detecção de irregularidades pelo Tribunal de Contas, impõe-se a observância de postulados éticos e diretrizes normativas internacionais para mitigar riscos a direitos fundamentais.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "e Tolerância a Partições (P)". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, atenção à falácia da "Equidade por Desconhecimento" (*Fairness through Unawareness*): a banca FCC frequentemente afirma que "para garantir que um algoritmo não discrimine, basta remover as colunas de dados sensíveis como raça ou gênero".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Consistência". De acordo com a teoria estudada em *1.3 Modelos de Supervisão Humana: HITL, HOTL e HIC*, human-in-the-Loop (HITL): O sistema de IA gera notas de probabilidade, subsídios probatórios e sugestões, mas a tomada de decisão final é obrigatoriamente validada e executada por um ser humano.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)* deste guia, se os dados passados espelharem disparidades ou exclusões sociais, a rede neural aprenderá a perpetuar e multiplicar esses vieses (*bias in, bias out*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Disponibilidade".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Atomicidade e Durabilidade". De acordo com a teoria estudada em *3.2 O Artigo 20: Revisão de Decisões Automatizadas e Auditoria da ANPD*, a alegação de "segredo comercial e industrial" pelo controlador não blinda o sistema contra o Estado: o § 2º faculta formalmente à ANPD (Autoridade Nacional de Proteção de Dados) deflagrar auditoria técnica direta no código e nos dados para checar se houve discriminação abusiva.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Apenas Disponibilidade, ignorando partições". De acordo com a teoria estudada em *3.2 O Artigo 20: Revisão de Decisões Automatizadas e Auditoria da ANPD*, a banca FCC costuma colocar pegadinhas em dois pontos da letra da lei.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
 ### Teste 345
-**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
-Segundo o regulamento de um plano de previdência complementar, o benefício de renda será calculado pelo maior valor entre o salário-mínimo vigente e a média dos 80% maiores salários do participante dos últimos 60 meses, atualizados pelo índice de inflação do plano. Esse tipo regra caracteriza um plano atuarial na modalidade de
+**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Preservando-se a correção gramatical do texto, bem como De acordo com as relações argumentativas do texto, se uma 9 sua coerência argumentativa, a forma verbal “mudam-se” ação não for “virtuosa” ((cid:53).7), ela não resulta de decisão ((cid:53).4) poderia ser empregada também no singular. interior; se não for “ética” ((cid:53).6), ela não será consciente, livre e responsável.
 
-* **A)** contribuição definida.
-* **B)** contribuição variável.
-* **C)** benefício definido.
-* **D)** benefício variável.
-* **E)** contribuição e benefício variáveis.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *2.2 Método SHAP (SHapley Additive exPlanations) e seus Axiomas* deste guia, o valor de Shapley \$\phi_i\$ calcula a contribuição marginal média da variável \$i\$ ao longo de todas as permutações e subconjuntos possíveis de variáveis (\$S \subseteq F\$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "contribuição definida".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contribuição variável". De acordo com a teoria estudada em *2.1 O Dilema Desempenho vs. Interpretabilidade*, possuem estrutura transparente. O efeito de uma variável em uma regressão linear é explicitado diretamente pelo coeficiente \$\beta_j\$; em uma árvore de decisão rasa, a inferência é descrita por regras sequenciais *se-então* legíveis.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "benefício definido". De acordo com a teoria estudada em *3.1 Bases Legais e Princípio da Não Discriminação*, veda a coleta indiscriminada de dados para alimentar bancos de IA; o tratamento deve ser restrito ao mínimo estritamente indispensável para a finalidade pretendida.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "benefício variável". De acordo com a teoria estudada em *2.2 Método SHAP (SHapley Additive exPlanations) e seus Axiomas*, aplicações Visuais: O SHAP permite gerar gráficos de força locais (*Force Plots* e *Waterfall Plots*) demonstrando como cada parâmetro fiscal empurrou a probabilidade de fraude para cima ou para baixo em relação à média, bem como visões globais de importância (*Summary Plots / Beeswarm*).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contribuição e benefício variáveis". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, isso é FALSO! Modelos matemáticos avançados capturam facilmente variáveis correlacionadas que atuam como substitutas indiretas (*proxies*) do dado omitido (ex.: CEP residencial, faixa salarial, histórico escolar).
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1. Princípios de IA Responsável, Ética e Governança Humana* deste guia, à medida que sistemas de inteligência artificial são integrados a decisões de auditoria fiscal, concessão de benefícios previdenciários e detecção de irregularidades pelo Tribunal de Contas, impõe-se a observância de postulados éticos e diretrizes normativas internacionais para mitigar riscos a direitos fundamentais. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STF/2008) ao afirmar que "Preservando-se a correção gramatical do texto, bem como De acordo com as relações argumentativas do texto, se...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.3 Modelos de Supervisão Humana: HITL, HOTL e HIC*, segundo a qual human-in-the-Loop (HITL): O sistema de IA gera notas de probabilidade, subsídios probatórios e sugestões, mas a tomada de decisão final é obrigatoriamente validada e executada por um ser humano.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
 ### Teste 346
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
-Modelos de aprendizagem de máquina são, em geral, avaliados com métricas que indicam os quão poderosos e relevantes eles são. Entre exemplos de métricas de avaliação utilizadas para modelos de classificação binária, podemos citar: • Taxa de precisão (razão entre verdadeiros positivos e o total dos verdadeiros positivos e falsos positivos); • Taxa de sensibilidade (razão entre verdadeiros positivos e o total dos verdadeiros positivos e falsos negativos, também conhecida por recall); e • Escore F1 (F1-score, também chamado de F-measure), que relaciona as taxas de precisão e de sensibilidade. Suponha a existência de um modelo de classificação binária cuja taxa de precisão é de 90,00% e cuja taxa de sensibilidade é de 75,00%. Utilize aproximação de duas casas decimais. O escore F1 referente a esse modelo é
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Economia)**
+Uma pesquisadora deseja estimar o efeito da escolaridade sobre o salário mensal de trabalhadores formais por meio de uma regressão múltipla. No planejamento da pesquisa, ela discute quais variáveis incluir no modelo e como interpretar os coeficientes estimados. Do ponto de vista econométrico, a estratégia mais adequada para melhorar a identificação do efeito da escolaridade sobre o salário é
 
-* **A)** 41,42%.
-* **B)** 81,82%.
-* **C)** 82,15%.
-* **D)** 82,50%.
-* **E)** 82,84%.
+* **A)** incluir no modelo variáveis relevantes correlacionadas com salário e escolaridade, como experiência e região, para reduzir o risco de viés por variável omitida.
+* **B)** estimar uma regressão simples entre salário e escolaridade, pois a inclusão de outras variáveis sempre reduz a precisão e introduz viés.
+* **C)** excluir variáveis como experiência, setor e sexo, pois o objetivo da regressão múltipla é captar o efeito total da escolaridade sem controles.
+* **D)** incluir o maior número possível de variáveis, ainda que irrelevantes, pois isso garante ausência de viés e causalidade.
+* **E)** coletar dados apenas de trabalhadores com ensino superior completo, pois isso elimina heterogeneidade e permite estimar melhor o efeito da escolaridade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "41,42%". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, viés de Representação (*Representation Bias*): Sub-representação estatística de determinado grupo populacional na base amostral de treino (ex.: softwares de visão computacional e biometria facial treinados com mais de 80% de rostos masculinos e brancos, exibindo taxas de falso positivo inaceitavelmente altas para mulheres negras).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)* deste guia, *Igualdade de Oportunidades (*Equal Opportunity*):* Exige que as taxas de Verdadeiros Positivos (Sensibilidade/Recall) sejam rigorosamente iguais entre os grupos protegidos (\$P(\hat{y}=1 \mid y=1, A=0) = P(\hat{y}=1 \mid y=1, A=1)\$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "81,82%".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "82,15%". De acordo com a teoria estudada em *1.3 Modelos de Supervisão Humana: HITL, HOTL e HIC*, modelo imperativo no setor público para atos administrativos vinculantes, dosimetria de sanções e julgamento de contas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "82,50%". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, isso é FALSO! Modelos matemáticos avançados capturam facilmente variáveis correlacionadas que atuam como substitutas indiretas (*proxies*) do dado omitido (ex.: CEP residencial, faixa salarial, histórico escolar).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "82,84%". De acordo com a teoria estudada em *2.3 Método LIME (Local Interpretable Model-Agnostic Explanations)*, introduzido por Marco Tulio Ribeiro et al. (2016), o LIME fundamenta-se na aproximação local substituta.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "incluir no modelo variáveis relevantes correlacionadas com salário e escolaridade, como experiência e região, para...". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, isso é FALSO! Modelos matemáticos avançados capturam facilmente variáveis correlacionadas que atuam como substitutas indiretas (*proxies*) do dado omitido (ex.: CEP residencial, faixa salarial, histórico escolar).
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "estimar uma regressão simples entre salário e escolaridade, pois a inclusão de outras variáveis sempre reduz a...". De acordo com a teoria estudada em *2.3 Método LIME (Local Interpretable Model-Agnostic Explanations)*, ajusta uma regressão linear esparsa e interpretável sobre essa vizinhança ponderada. Os coeficientes dessa reta linear revelam quais atributos mais pesaram naquela decisão isolada.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 O Dilema Desempenho vs. Interpretabilidade* deste guia, possuem estrutura transparente. O efeito de uma variável em uma regressão linear é explicitado diretamente pelo coeficiente $\beta_j$; em uma árvore de decisão rasa, a inferência é descrita por regras sequenciais *se-então* legíveis. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "excluir variáveis como experiência, setor e sexo, pois o objetivo da regressão múltipla é captar o efeito total da...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "incluir o maior número possível de variáveis, ainda que irrelevantes, pois isso garante ausência de viés e...". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, viés de Medição (*Measurement Bias*): Ocorre quando os atributos selecionados para mensurar um fenômeno abstrato atuam como *proxies* distorcidas da realidade (ex.: adotar o número de prisões ou boletins de ocorrência como proxy de criminalidade, capturando o viés de policiamento ostensivo desproporcional em bairros periféricos).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "coletar dados apenas de trabalhadores com ensino superior completo, pois isso elimina heterogeneidade e permite...". De acordo com a teoria estudada em *4.3 Os Seis Eixos Verticais (Temáticos)*, educação e Capacitação: Formação de base em raciocínio computacional no ensino básico, expansão de cursos de pós-graduação em Ciência de Dados e difusão do letramento digital em IA para a sociedade.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -238,8 +232,32 @@ Introduzido por Marco Tulio Ribeiro et al. (2016), o **LIME** fundamenta-se na *
 ---
 
 ### Teste 347
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
-Em relação ao sistema francês de amortização, avalie se as afirmativas a seguir são falsas (F) ou verdadeiras (V): I. Todas as prestações (pagamentos) são de mesmo valor. II. Um exemplo de uso comum são financiamentos de bem de consumo em geral. III. O valor da prestação P é calculado pelo produto do valor financiado pelo coeficiente 𝐾 dado pela fórmula 𝐾= 𝑖(1 + 𝑖)𝑛 (1 + 𝑖)𝑛−1 em que 𝑖 é a taxa ao período e 𝑛 é o número de períodos. Está correto o que se afirma em
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Engenharia)**
+Um engenheiro elabora um laudo para avaliação de um imóvel urbano utilizando um modelo de regressão linear e, para tanto, dispõe de 20 dados de mercado que serão efetivamente utilizados no estudo. Sabendo que o engenheiro deseja que a aplicação do modelo atinja grau III de fundamentação no laudo, o número máximo de variáveis independentes que deverá ser utilizado nesse modelo de regressão linear é
+
+* **A)** 1
+* **B)** 2
+* **C)** 3
+* **D)** 4
+* **E)** 5
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1". De acordo com a teoria estudada em *2.1 O Dilema Desempenho vs. Interpretabilidade*, possuem estrutura transparente. O efeito de uma variável em uma regressão linear é explicitado diretamente pelo coeficiente $\beta_j$; em uma árvore de decisão rasa, a inferência é descrita por regras sequenciais *se-então* legíveis.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.1 O Dilema Desempenho vs. Interpretabilidade* deste guia, um ato de autuação fiscal ou reprovação de contas públicas apoiado em IA exige fundamentação fática e jurídica demonstrável, tornando mandatória a aplicação de ferramentas XAI. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "2".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3". De acordo com a teoria estudada em *2.3 Método LIME (Local Interpretable Model-Agnostic Explanations)*, ajusta uma regressão linear esparsa e interpretável sobre essa vizinhança ponderada. Os coeficientes dessa reta linear revelam quais atributos mais pesaram naquela decisão isolada.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4". De acordo com a teoria estudada em *2.2 Método SHAP (SHapley Additive exPlanations) e seus Axiomas*, fundamento Matemático: Trata as variáveis preditoras (*features*) como "jogadores" em uma coalizão cooperativa. O ganho da coalizão é a predição emitida pelo modelo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5". De acordo com a teoria estudada em *2.3 Método LIME (Local Interpretable Model-Agnostic Explanations)*, parte do princípio de que, embora a fronteira de decisão de um modelo complexo de Deep Learning seja extremamente não-linear em escala global, ela se comporta de maneira aproximadamente linear em uma microvizinhança local ao redor de uma observação específica $x$.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 348
+**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
+PostgreSQL 16 suporta tanto Views (Visões) quanto Materialized Views (Visões Materializadas). Considere as seguintes afirmações relacionadas a esses conceitos. I. Tanto uma Materialized View como uma View são apenas cópias virtuais, sem que haja um armazenamento físico dos dados (resultados da consulta). II. O comando REFRESH MATERIALIZED VIEW nome_da_visao_materializada; substitui completamente o conteúdo da Materialized View, descartando os dados antigos. III. A utilização da cláusula WITH NO DATA, no comando de criação de uma Materialized View, faz com que sua estrutura seja criada, mas sem preenchê-la, isto é, sem popular com dados no momento da criação. Está correto o que se afirma em
 
 * **A)** I, apenas.
 * **B)** I e II, apenas.
@@ -252,58 +270,34 @@ Em relação ao sistema francês de amortização, avalie se as afirmativas a se
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.1 Bases Legais e Princípio da Não Discriminação*, princípio da Necessidade e Minimização (Art. 6º, III).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2.2 Método SHAP (SHapley Additive exPlanations) e seus Axiomas*, o valor de Shapley \$\phi_i\$ calcula a contribuição marginal média da variável \$i\$ ao longo de todas as permutações e subconjuntos possíveis de variáveis (\$S \subseteq F\$).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.2 Método SHAP (SHapley Additive exPlanations) e seus Axiomas*, aplicações Visuais: O SHAP permite gerar gráficos de força locais (*Force Plots* e *Waterfall Plots*) demonstrando como cada parâmetro fiscal empurrou a probabilidade de fraude para cima ou para baixo em relação à média, bem como visões globais de importância (*Summary Plots / Beeswarm*).
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.1 O Dilema Desempenho vs. Interpretabilidade*, possuem estrutura transparente. O efeito de uma variável em uma regressão linear é explicitado diretamente pelo coeficiente \$\beta_j\$; em uma árvore de decisão rasa, a inferência é descrita por regras sequenciais *se-então* legíveis.
-> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Bases Legais e Princípio da Não Discriminação* deste guia, o Poder Público fundamenta o desenvolvimento e treino de modelos analíticos predominantemente no Art. 7º, III da LGPD: *"para a administração pública, para o tratamento e uso compartilhado de dados necessários à execução de políticas públicas previstas em leis e regulamentos ou respaldadas em contratos, convênios ou instrumentos congêneres"*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I, II e III".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2.2 Método SHAP (SHapley Additive exPlanations) e seus Axiomas*, aplicações Visuais: O SHAP permite gerar gráficos de força locais (*Force Plots* e *Waterfall Plots*) demonstrando como cada parâmetro fiscal empurrou a probabilidade de fraude para cima ou para baixo em relação à média, bem como visões globais de importância (*Summary Plots / Beeswarm*).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, atenção à falácia da "Equidade por Desconhecimento" (*Fairness through Unawareness*): a banca FCC frequentemente afirma que "para garantir que um algoritmo não discrimine, basta remover as colunas de dados sensíveis como raça ou gênero".
+> - **D)** **Correta.** Conforme fundamentado na seção *3.1 Bases Legais e Princípio da Não Discriminação* deste guia, o Poder Público fundamenta o desenvolvimento e treino de modelos analíticos predominantemente no Art. 7º, III da LGPD: *"para a administração pública, para o tratamento e uso compartilhado de dados necessários à execução de políticas públicas previstas em leis e regulamentos ou respaldadas em contratos, convênios ou instrumentos congêneres"*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "II e III, apenas".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.1 O Dilema Desempenho vs. Interpretabilidade*, possuem estrutura transparente. O efeito de uma variável em uma regressão linear é explicitado diretamente pelo coeficiente $\beta_j$; em uma árvore de decisão rasa, a inferência é descrita por regras sequenciais *se-então* legíveis.
 >
-> **Gabarito: E**
-
----
-
-### Teste 348
-**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
-Em indexação, exaustividade, revocação e precisão estão relacionadas. Quanto mais exaustivamente um sistema indexa os seus documentos,
-
-* **A)** mais consistentes serão a revocação e a precisão.
-* **B)** menor será a revocação e maior será a precisão.
-* **C)** mais altas serão a revocação e a precisão.
-* **D)** mais baixas serão a revocação e a precisão.
-* **E)** maior será a revocação e menor será a precisão.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mais consistentes serão a revocação e a precisão". De acordo com a teoria estudada em *2.3 Método LIME (Local Interpretable Model-Agnostic Explanations)*, ajusta uma regressão linear esparsa e interpretável sobre essa vizinhança ponderada. Os coeficientes dessa reta linear revelam quais atributos mais pesaram naquela decisão isolada.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "menor será a revocação e maior será a precisão". De acordo com a teoria estudada em *1.1 Diretrizes Internacionais (OCDE e UNESCO)*, transparência e Explicabilidade (*Explainability*): Dever das entidades promotoras de disponibilizar informações acessíveis para que os cidadãos compreendam quando estão interagindo com IA e os fatores objetivos que determinaram uma decisão automatizada.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mais altas serão a revocação e a precisão". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, viés de Representação (*Representation Bias*): Sub-representação estatística de determinado grupo populacional na base amostral de treino (ex.: softwares de visão computacional e biometria facial treinados com mais de 80% de rostos masculinos e brancos, exibindo taxas de falso positivo inaceitavelmente altas para mulheres negras).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mais baixas serão a revocação e a precisão". De acordo com a teoria estudada em *1.3 Modelos de Supervisão Humana: HITL, HOTL e HIC*, human-in-the-Loop (HITL): O sistema de IA gera notas de probabilidade, subsídios probatórios e sugestões, mas a tomada de decisão final é obrigatoriamente validada e executada por um ser humano.
-> - **E)** **Correta.** Conforme fundamentado na seção *4.3 Os Seis Eixos Verticais (Temáticos)* deste guia, aplicação nos Setores Produtivos: Difusão da IA na agricultura de precisão (Agritech), na manufatura digital (Indústria 4.0), no sistema financeiro e na telemedicina diagnóstica. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "maior será a revocação e menor será a precisão".
->
-> **Gabarito: E**
+> **Gabarito: D**
 
 ---
 
 ### Teste 349
-**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
-Os custos atuariais são fundamentais para manter o equilíbrio do plano. O custo normal financia os benefícios futuros, enquanto que o custo suplementar cobre déficits atuariais. Sabe-se que um Regime Próprio possui ativos de R$ 2 bilhões, que o valor atual dos benefícios futuros (encargos atuariais) é de R$ 10 bilhões e que a folha salarial atuarial futura é de R$ 32 bilhões. O custo normal (%) calculado pelo método de financiamento agregado corresponde a
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+O JavaScript Object Notation (JSON) é um formato de intercâmbio de dados baseado em texto. De acordo com a gramática JSON, especificada na RFC 8259, é correto afirmar que
 
-* **A)** 6,25.
-* **B)** 20,00.
-* **C)** 25,00.
-* **D)** 31,25.
-* **E)** 33,33.
+* **A)** um array é representado como colchetes em torno de zero ou mais elementos.
+* **B)** uma string começa e termina com crases.
+* **C)** nomes literais devem ser utilizados em caixa alta.
+* **D)** um número é representado na base 16 usando símbolos alfanuméricos.
+* **E)** um objeto é representado como um par de parênteses em torno de zero ou mais pares nome/valor.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *2.2 Método SHAP (SHapley Additive exPlanations) e seus Axiomas* deste guia, o valor de Shapley \$\phi_i\$ calcula a contribuição marginal média da variável \$i\$ ao longo de todas as permutações e subconjuntos possíveis de variáveis (\$S \subseteq F\$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "6,25".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "20,00". De acordo com a teoria estudada em *1. Princípios de IA Responsável, Ética e Governança Humana*, à medida que sistemas de inteligência artificial são integrados a decisões de auditoria fiscal, concessão de benefícios previdenciários e detecção de irregularidades pelo Tribunal de Contas, impõe-se a observância de postulados éticos e diretrizes normativas internacionais para mitigar riscos a direitos fundamentais.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "25,00". De acordo com a teoria estudada em *2.1 O Dilema Desempenho vs. Interpretabilidade*, redes Neurais Profundas e Ensembles avançados (*XGBoost*, *CatBoost*) realizam bilhões de multiplicações matriciais e transformações em espaços latentes de alta dimensão, impedindo a inspeção causal direta.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "31,25". De acordo com a teoria estudada em *1.1 Diretrizes Internacionais (OCDE e UNESCO)*, responsabilização e Prestação de Contas (*Accountability*): Organizações que desenvolvem ou empregam sistemas de IA devem responder formalmente pelo seu impacto e manter registros e trilhas de auditoria (*audit trails*) que viabilizem a inspeção externa por órgãos de controle.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "33,33". De acordo com a teoria estudada em *3.2 O Artigo 20: Revisão de Decisões Automatizadas e Auditoria da ANPD*, o Artigo 20 da Lei nº 13.709/2018 constitui o epicentro do regime jurídico de inteligência artificial no Brasil.
+> - **A)** **Correta.** Conforme fundamentado na seção *2.3 Método LIME (Local Interpretable Model-Agnostic Explanations)* deste guia, ajusta uma regressão linear esparsa e interpretável sobre essa vizinhança ponderada. Os coeficientes dessa reta linear revelam quais atributos mais pesaram naquela decisão isolada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "um array é representado como colchetes em torno de zero ou mais elementos".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma string começa e termina com crases". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, viés de Representação (*Representation Bias*): Sub-representação estatística de determinado grupo populacional na base amostral de treino (ex.: softwares de visão computacional e biometria facial treinados com mais de 80% de rostos masculinos e brancos, exibindo taxas de falso positivo inaceitavelmente altas para mulheres negras).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nomes literais devem ser utilizados em caixa alta". De acordo com a teoria estudada em *1.1 Diretrizes Internacionais (OCDE e UNESCO)*, valores Centrados no Ser Humano e Equidade (*Human-Centric Values and Fairness*): Os sistemas de IA devem assegurar o primado da lei, dos direitos humanos e de valores democráticos, prevenindo preconceitos e discriminações estruturais.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um número é representado na base 16 usando símbolos alfanuméricos". De acordo com a teoria estudada em *2.3 Método LIME (Local Interpretable Model-Agnostic Explanations)*, pondera essas amostras de acordo com a proximidade física em relação ao ponto original (usando um kernel exponencial).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um objeto é representado como um par de parênteses em torno de zero ou mais pares nome/valor". De acordo com a teoria estudada em *2.2 Método SHAP (SHapley Additive exPlanations) e seus Axiomas*, o valor de Shapley $\phi_i$ calcula a contribuição marginal média da variável $i$ ao longo de todas as permutações e subconjuntos possíveis de variáveis ($S \subseteq F$).
 >
 > **Gabarito: A**
 
@@ -357,74 +351,74 @@ Nos termos do Art. 38 da LGPD, a ANPD pode exigir a elaboração de um **Relató
 ---
 
 ### Teste 350
-**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
-Determinado ente da federação, no âmbito de suas competências, resolve conceder incentivo fiscal a indústrias e entidades dedicadas à reciclagem de resíduos produzidos no território nacional, conforme autorizado pelo Art. 44 da Lei nº 12.305/2010 (Política Nacional de Resíduos Sólidos – PNRS). Trata-se, portanto, de aplicação prática do seguinte princípio previsto na Política Nacional de Resíduos Sólidos:
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Seguranca Da Informacao)**
+Um órgão público, vinculado à União, contratou a solução de inteligência artificial da empresa SmartDecisionIA com a finalidade específica de realizar o tratamento automatizado de decisões com base em um banco de dados gerido pelo órgão. Seguindo as instruções fornecidas pelo gestor público responsável e estabelecidas em contrato, a SmartDecisionIA realiza as operações necessárias para viabilizar o tratamento dos dados em questão. Nesse cenário, o papel da empresa SmartDecisionIA é:
 
-* **A)** princípio do protetor-recebedor;
-* **B)** princípio do poluidor-pagador;
-* **C)** princípio da participação pública;
-* **D)** princípio da responsabilidade;
-* **E)** princípio da vedação ao retrocesso ambiental.
+* **A)** operadora;
+* **B)** controladora;
+* **C)** órgão de pesquisa;
+* **D)** encarregada;
+* **E)** data protection officer.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "princípio do protetor-recebedor". De acordo com a teoria estudada em *3.1 Bases Legais e Princípio da Não Discriminação*, o Poder Público fundamenta o desenvolvimento e treino de modelos analíticos predominantemente no Art. 7º, III da LGPD: *"para a administração pública, para o tratamento e uso compartilhado de dados necessários à execução de políticas públicas previstas em leis e regulamentos ou respaldadas em contratos, convênios ou instrumentos congêneres"*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "princípio do poluidor-pagador". De acordo com a teoria estudada em *3.1 Bases Legais e Princípio da Não Discriminação*, para Dados Pessoais Sensíveis (biometria facial, dados de saúde), a base de atuação pública vincula-se ao Art. 11, II, "b" (cumprimento de obrigação legal ou regulatória e execução de políticas públicas pela administração pública).
-> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Bases Legais e Princípio da Não Discriminação* deste guia, princípio da Não Discriminação Ilícita ou Abusiva (Art. 6º, IX da LGPD). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "princípio da participação pública".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "princípio da responsabilidade". De acordo com a teoria estudada em *3.1 Bases Legais e Princípio da Não Discriminação*, princípio da Necessidade e Minimização (Art. 6º, III).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "princípio da vedação ao retrocesso ambiental". De acordo com a teoria estudada em *1.1 Diretrizes Internacionais (OCDE e UNESCO)*, crescimento Inclusivo, Desenvolvimento Sustentável e Bem-Estar: A IA deve atuar como força motriz para o progresso humano e redução de desigualdades, respeitando a dignidade e a sustentabilidade ambiental.
+> - **A)** **Correta.** Conforme fundamentado na seção *3. A LGPD (Lei nº 13.709/2018) Aplicada à Inteligência Artificial* deste guia, a Lei Geral de Proteção de Dados Pessoais regula qualquer operação de tratamento de dados de pessoas naturais realizada no território brasileiro, impondo salvaguardas mandatórias às rotinas automatizadas de inteligência artificial. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "operadora".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "controladora". De acordo com a teoria estudada em *1. Princípios de IA Responsável, Ética e Governança Humana*, à medida que sistemas de inteligência artificial são integrados a decisões de auditoria fiscal, concessão de benefícios previdenciários e detecção de irregularidades pelo Tribunal de Contas, impõe-se a observância de postulados éticos e diretrizes normativas internacionais para mitigar riscos a direitos fundamentais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "órgão de pesquisa". De acordo com a teoria estudada em *4. Estratégia Brasileira de Inteligência Artificial (EBIA)*, a Estratégia Brasileira de Inteligência Artificial (EBIA) foi formalmente instituída pelo Governo Federal por meio da Portaria MCTI nº 4.617, de 6 de abril de 2021, com o propósito de articular investimentos públicos e privados, promover a pesquisa e capacitação, e assegurar o uso ético da tecnologia.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "encarregada". De acordo com a teoria estudada em *3.1 Bases Legais e Princípio da Não Discriminação*, veda a coleta indiscriminada de dados para alimentar bancos de IA; o tratamento deve ser restrito ao mínimo estritamente indispensável para a finalidade pretendida.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "data protection officer". De acordo com a teoria estudada em *3.3 Relatório de Impacto à Proteção de Dados Pessoais (RIPD)*, nos termos do Art. 38 da LGPD, a ANPD pode exigir a elaboração de um Relatório de Impacto à Proteção de Dados Pessoais (RIPD / DPIA) para operações de tratamento que possam gerar elevado risco aos direitos fundamentais e liberdades civis.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 351
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Jurídica)**
+Em um município do interior do país, Joaquim Maria, com objetivo de desfrutar da sua aposentadoria, comprou uma chácara de Franciso José por meio de escritura pública com pagamento à vista com imissão imediata da posse. As despesas com a celebração do contrato foram pagas por Joaquim. Seis meses após a celebração do contrato, Joaquim tem ciência que Franciso havia adquirido a chácara de Brás Cubas, contudo a venda foi anulada por vício formal. Destaca-se que Joaquim e Francisco não tinham ciência do vício ou da possibilidade de anulação. No contrato de compra e venda, inexistia qualquer cláusula a respeito da evicção. Analise a situação hipotética com base no tema evicção e assinale a opção correta.
+
+* **A)** A boa-fé do alienante exclui sua responsabilidade pela evicção, devendo o adquirente acionar diretamente o causador do vício formal.
+* **B)** Como se trata de princípio de ordem pública, é vedada as partes a inclusão de cláusula contratual que exclua a garantia contra a evicção.
+* **C)** Entre outros valores, Joaquim Maria tem direito à restituição integral do preço e à indenização pelas despesas do contrato de compra e venda.
+* **D)** Caso Joaquim Maria tenha realizada benfeitorias na chácara, somente as necessárias serão restituídas por Francisco José.
+* **E)** A evicção se caracteriza como fenômeno jurídico subjetivo e, por isso, depende do conhecimento ou da culpa do alienante para a sua ocorrência.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A boa-fé do alienante exclui sua responsabilidade pela evicção, devendo o adquirente acionar diretamente o...". De acordo com a teoria estudada em *4.3 Os Seis Eixos Verticais (Temáticos)*, força de Trabalho e Capacitação: Requalificação profissional contínua (*reskilling* e *upskilling*) para mitigar os impactos da automação no mercado de trabalho formal e preparar trabalhadores para novas funções tecnológicas.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Como se trata de princípio de ordem pública, é vedada as partes a inclusão de cláusula contratual que exclua a...". De acordo com a teoria estudada em *1.1 Diretrizes Internacionais (OCDE e UNESCO)*, robustez, Segurança e Proteção (*Robustness and Safety*): Garantia de resiliência algorítmica contra falhas, ataques adversariais (*adversarial attacks*) e vazamentos de dados, operando de modo previsível ao longo de todo o ciclo de vida.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.2 O Artigo 20: Revisão de Decisões Automatizadas e Auditoria da ANPD* deste guia, o direito de revisão de decisão automatizada no caput do Art. 20 não contém expressamente a exigência de ser feita "por pessoa natural" (esse trecho foi formalmente vetado e o veto mantido pelo Congresso Nacional). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "Entre outros valores, Joaquim Maria tem direito à restituição integral do preço e à indenização pelas despesas do...".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Caso Joaquim Maria tenha realizada benfeitorias na chácara, somente as necessárias serão restituídas por Francisco...". De acordo com a teoria estudada em *3. A LGPD (Lei nº 13.709/2018) Aplicada à Inteligência Artificial*, a Lei Geral de Proteção de Dados Pessoais regula qualquer operação de tratamento de dados de pessoas naturais realizada no território brasileiro, impondo salvaguardas mandatórias às rotinas automatizadas de inteligência artificial.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A evicção se caracteriza como fenômeno jurídico subjetivo e, por isso, depende do conhecimento ou da culpa do...". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, viés de Medição (*Measurement Bias*): Ocorre quando os atributos selecionados para mensurar um fenômeno abstrato atuam como *proxies* distorcidas da realidade (ex.: adotar o número de prisões ou boletins de ocorrência como proxy de criminalidade, capturando o viés de policiamento ostensivo desproporcional em bairros periféricos).
 >
 > **Gabarito: C**
 
 ---
 
-### Teste 351
-**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
-Numa determinada população, 40% das famílias moram em locais sem acesso a saneamento básico. Se quatro famílias dessa população forem sorteadas ao acaso, sem reposição, a probabilidade de que duas morem em locais sem saneamento básico é, aproximadamente, igual a
-
-* **A)** 0,25.
-* **B)** 0,30.
-* **C)** 0,35.
-* **D)** 0,40.
-* **E)** 0,45.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *2.2 Método SHAP (SHapley Additive exPlanations) e seus Axiomas* deste guia, aplicações Visuais: O SHAP permite gerar gráficos de força locais (*Force Plots* e *Waterfall Plots*) demonstrando como cada parâmetro fiscal empurrou a probabilidade de fraude para cima ou para baixo em relação à média, bem como visões globais de importância (*Summary Plots / Beeswarm*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "0,25".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,30". De acordo com a teoria estudada em *2.3 Método LIME (Local Interpretable Model-Agnostic Explanations)*, parte do princípio de que, embora a fronteira de decisão de um modelo complexo de Deep Learning seja extremamente não-linear em escala global, ela se comporta de maneira aproximadamente linear em uma microvizinhança local ao redor de uma observação específica \$x\$.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,35". De acordo com a teoria estudada em *2.3 Método LIME (Local Interpretable Model-Agnostic Explanations)*, ajusta uma regressão linear esparsa e interpretável sobre essa vizinhança ponderada. Os coeficientes dessa reta linear revelam quais atributos mais pesaram naquela decisão isolada.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,40". De acordo com a teoria estudada em *4.3 Os Seis Eixos Verticais (Temáticos)*, educação e Capacitação: Formação de base em raciocínio computacional no ensino básico, expansão de cursos de pós-graduação em Ciência de Dados e difusão do letramento digital em IA para a sociedade.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,45". De acordo com a teoria estudada em *1.3 Modelos de Supervisão Humana: HITL, HOTL e HIC*, human-in-the-Loop (HITL): O sistema de IA gera notas de probabilidade, subsídios probatórios e sugestões, mas a tomada de decisão final é obrigatoriamente validada e executada por um ser humano.
->
-> **Gabarito: A**
-
----
-
 ### Teste 352
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
-Alguns algoritmos de aprendizado de máquina foram desenvolvidos para trabalhar com atributos discretos. Porém, dados coletados no mundo real muitas vezes são contínuos. Nesses casos, podemos usar métodos de discretização no tratamento dos dados. Um desses métodos de discretização consiste em estabelecer os limites das partições de forma que cada partição tenha aproximadamente o mesmo número de elementos. O método acima descrito é o
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+A linguagem de programação R é uma linguagem especializada em análise estatística e manipulação de dados, muito popular em áreas como ciência de dados, estatísticas, biotecnologia, econometria e inteligência artificial. Desenvolvida por Ross Ihaka e Robert Gentleman na década de 1990, R foi projetada para fornecer um ambiente de desenvolvimento para análise de dados, com um foco particular em estatísticas e gráficos. Em R, o operador %in%
 
-* **A)** equal frequency.
-* **B)** equal width.
-* **C)** equal amplitude.
-* **D)** k-means.
-* **E)** entropy.
+* **A)** compara dois vetores e retorna TRUE se todos os elementos do primeiro vetor estiverem contidos no segundo.
+* **B)** realiza a união de dois vetores, retornando um vetor com todos os elementos exclusivos dos dois vetores.
+* **C)** verifica se dois vetores têm exatamente os mesmos elementos e na mesma ordem, retornando TRUE ou FALSE.
+* **D)** calcula a interseção entre dois vetores, retornando apenas os elementos que são comuns entre eles.
+* **E)** verifica se um elemento ou conjunto de elementos do primeiro vetor está presente no segundo vetor, retornando um vetor lógico.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)* deste guia, *Igualdade de Oportunidades (*Equal Opportunity*):* Exige que as taxas de Verdadeiros Positivos (Sensibilidade/Recall) sejam rigorosamente iguais entre os grupos protegidos (\$P(\hat{y}=1 \mid y=1, A=0) = P(\hat{y}=1 \mid y=1, A=1)\$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "equal frequency".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "equal width". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, viés Histórico (*Historical Bias*): Decorre de assimetrias preexistentes no mundo real e na sociedade, mesmo que o processo de amostragem estatística tenha sido perfeito (ex.: histórica discrepância salarial de gênero ou raça em determinados cargos).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "equal amplitude". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, viés de Medição (*Measurement Bias*): Ocorre quando os atributos selecionados para mensurar um fenômeno abstrato atuam como *proxies* distorcidas da realidade (ex.: adotar o número de prisões ou boletins de ocorrência como proxy de criminalidade, capturando o viés de policiamento ostensivo desproporcional em bairros periféricos).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "k-means". De acordo com a teoria estudada em *1.3 Modelos de Supervisão Humana: HITL, HOTL e HIC*, human-on-the-Loop (HOTL): O algoritmo atua com autonomia operacional em tempo real (ex.: bloqueio instantâneo de transações financeiras fraudulentas de alto volume), porém sob supervisão e vigilância ativa de operadores humanos, que dispõem da prerrogativa de vetar, pausar ou reverter intervenções.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "entropy". De acordo com a teoria estudada em *3. A LGPD (Lei nº 13.709/2018) Aplicada à Inteligência Artificial*, a Lei Geral de Proteção de Dados Pessoais regula qualquer operação de tratamento de dados de pessoas naturais realizada no território brasileiro, impondo salvaguardas mandatórias às rotinas automatizadas de inteligência artificial.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "compara dois vetores e retorna TRUE se todos os elementos do primeiro vetor estiverem contidos no segundo". De acordo com a teoria estudada em *3.2 O Artigo 20: Revisão de Decisões Automatizadas e Auditoria da ANPD*, a banca FCC costuma colocar pegadinhas em dois pontos da letra da lei.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realiza a união de dois vetores, retornando um vetor com todos os elementos exclusivos dos dois vetores". De acordo com a teoria estudada em *3.2 O Artigo 20: Revisão de Decisões Automatizadas e Auditoria da ANPD*, o Artigo 20 da Lei nº 13.709/2018 constitui o epicentro do regime jurídico de inteligência artificial no Brasil.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "verifica se dois vetores têm exatamente os mesmos elementos e na mesma ordem, retornando TRUE ou FALSE". De acordo com a teoria estudada em *3.1 Bases Legais e Princípio da Não Discriminação*, o Poder Público fundamenta o desenvolvimento e treino de modelos analíticos predominantemente no Art. 7º, III da LGPD: *"para a administração pública, para o tratamento e uso compartilhado de dados necessários à execução de políticas públicas previstas em leis e regulamentos ou respaldadas em contratos, convênios ou instrumentos congêneres"*.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "calcula a interseção entre dois vetores, retornando apenas os elementos que são comuns entre eles". De acordo com a teoria estudada em *2.2 Método SHAP (SHapley Additive exPlanations) e seus Axiomas*, o valor de Shapley $\phi_i$ calcula a contribuição marginal média da variável $i$ ao longo de todas as permutações e subconjuntos possíveis de variáveis ($S \subseteq F$).
+> - **E)** **Correta.** Conforme fundamentado na seção *3. A LGPD (Lei nº 13.709/2018) Aplicada à Inteligência Artificial* deste guia, a Lei Geral de Proteção de Dados Pessoais regula qualquer operação de tratamento de dados de pessoas naturais realizada no território brasileiro, impondo salvaguardas mandatórias às rotinas automatizadas de inteligência artificial. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "verifica se um elemento ou conjunto de elementos do primeiro vetor está presente no segundo vetor, retornando um...".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
@@ -478,48 +472,48 @@ A EBIA estrutura-se em uma arquitetura matricial dividida categoricamente entre 
 ---
 
 ### Teste 353
-**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
-A gestão adequada dos resíduos sólidos é um desafio cada vez mais urgente e essencial para a preservação do meio ambiente e a sustentabilidade do planeta. A inadequada gestão de resíduos compromete não apenas o meio ambiente, mas a qualidade de vida da população e o desenvolvimento sustentável. Nesse contexto, a implementação de Planos Municipais de Gestão Integrada de Resíduos Sólidos é imprescindível para a adequada gestão dos resíduos. Sobre esses planos, é correto afirmar que:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Economia)**
+Em 1985, no início do governo Sarney, a economia brasileira saía da recessão do começo da década, mas convivia com inflação muito elevada, forte indexação de contratos e crescente incerteza sobre qual estratégia seria mais adequada para estabilizar os preços. Nesse contexto, ganhou força o debate entre interpretações ortodoxas e heterodoxas da inflação brasileira, que orientou diferentes tentativas de combate inflacionário ao longo da segunda metade dos anos 1980, como os planos Cruzado, Bresser e Verão. Considerando esse debate e as políticas então adotadas, assinale a afirmativa correta.
 
-* **A)** devem prever expressamente a periodicidade de sua revisão, observado o período máximo de 30 anos;
-* **B)** é facultada a previsão de sistema de cálculo dos custos da prestação dos serviços públicos de limpeza urbana e de manejo de resíduos sólidos, bem como a forma de cobrança desses serviços;
-* **C)** devem contemplar ações específicas a serem desenvolvidas no âmbito dos órgãos da Administração Pública, com vistas à utilização racional dos recursos ambientais, ao combate a todas as formas de desperdício e à minimização da geração de resíduos;
-* **D)** não é obrigatória sua elaboração para que os municípios tenham acesso a recursos financeiros e incentivos governamentais relacionados à limpeza urbana e ao manejo de resíduos sólidos, embora seja recomendada;
-* **E)** devem prever as zonas favoráveis e desfavoráveis para a localização de unidades de tratamento de resíduos sólidos ou de disposição final de rejeitos.
+* **A)** A visão ortodoxa atribuía a inflação sobretudo à indexação e, por isso, defendia prioritariamente congelamento de preços e reforma monetária, enquanto a visão heterodoxa enfatizava o excesso de demanda e o ajuste fiscal recessivo.
+* **B)** A heterodoxia enfatizava a inflação inercial e, por isso, defendia congelamento de preços e desindexação; já o Plano Bresser combinou esse diagnóstico com preocupação também com o excesso de demanda.
+* **C)** O Plano Cruzado, embora heterodoxo, distinguiu-se por ter sido precedido de forte ajuste fiscal e monetário, o que explica seu sucesso duradouro no controle da inflação.
+* **D)** O Plano Verão afastou-se tanto da ortodoxia quanto da heterodoxia, pois rejeitou simultaneamente o congelamento de preços, a desindexação e o controle da demanda agregada.
+* **E)** Todos os planos de estabilização dos anos 1980 partiram exclusivamente do diagnóstico ortodoxo de que a inflação decorria do déficit público, razão pela qual abandonaram reformas monetárias e controles de preços.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.2 O Artigo 20: Revisão de Decisões Automatizadas e Auditoria da ANPD* deste guia, o direito de revisão de decisão automatizada no caput do Art. 20 não contém expressamente a exigência de ser feita "por pessoa natural" (esse trecho foi formalmente vetado e o veto mantido pelo Congresso Nacional). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "devem prever expressamente a periodicidade de sua revisão, observado o período máximo de 30 anos".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é facultada a previsão de sistema de cálculo dos custos da prestação dos serviços públicos de limpeza urbana e de...". De acordo com a teoria estudada em *4.3 Os Seis Eixos Verticais (Temáticos)*, aplicação no Poder Público: Transformação digital da administração pública (Governo Digital), aprimoramento da prestação de serviços ao cidadão e modernização da fiscalização tributária e da auditoria de controle externo pelo TCE-GO.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "devem contemplar ações específicas a serem desenvolvidas no âmbito dos órgãos da Administração Pública, com vistas...". De acordo com a teoria estudada em *1.1 Diretrizes Internacionais (OCDE e UNESCO)*, responsabilização e Prestação de Contas (*Accountability*): Organizações que desenvolvem ou empregam sistemas de IA devem responder formalmente pelo seu impacto e manter registros e trilhas de auditoria (*audit trails*) que viabilizem a inspeção externa por órgãos de controle.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é obrigatória sua elaboração para que os municípios tenham acesso a recursos financeiros e incentivos...". De acordo com a teoria estudada em *2.3 Método LIME (Local Interpretable Model-Agnostic Explanations)*, parte do princípio de que, embora a fronteira de decisão de um modelo complexo de Deep Learning seja extremamente não-linear em escala global, ela se comporta de maneira aproximadamente linear em uma microvizinhança local ao redor de uma observação específica \$x\$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "devem prever as zonas favoráveis e desfavoráveis para a localização de unidades de tratamento de resíduos sólidos...". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, *Paridade Demográfica (*Demographic Parity*):* Exige que a proporção de predições favoráveis seja idêntica entre os subgrupos protegidos (\$P(\hat{y}=1 \mid A=0) = P(\hat{y}=1 \mid A=1)\$).
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)* deste guia, viés de Representação (*Representation Bias*): Sub-representação estatística de determinado grupo populacional na base amostral de treino (ex.: softwares de visão computacional e biometria facial treinados com mais de 80% de rostos masculinos e brancos, exibindo taxas de falso positivo inaceitavelmente altas para mulheres negras). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "A visão ortodoxa atribuía a inflação sobretudo à indexação e, por isso, defendia prioritariamente congelamento de...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A heterodoxia enfatizava a inflação inercial e, por isso, defendia congelamento de preços e desindexação; já o...". De acordo com a teoria estudada em *4. Estratégia Brasileira de Inteligência Artificial (EBIA)*, a Estratégia Brasileira de Inteligência Artificial (EBIA) foi formalmente instituída pelo Governo Federal por meio da Portaria MCTI nº 4.617, de 6 de abril de 2021, com o propósito de articular investimentos públicos e privados, promover a pesquisa e capacitação, e assegurar o uso ético da tecnologia.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Plano Cruzado, embora heterodoxo, distinguiu-se por ter sido precedido de forte ajuste fiscal e monetário, o que...". De acordo com a teoria estudada em *2.2 Método SHAP (SHapley Additive exPlanations) e seus Axiomas*, aplicações Visuais: O SHAP permite gerar gráficos de força locais (*Force Plots* e *Waterfall Plots*) demonstrando como cada parâmetro fiscal empurrou a probabilidade de fraude para cima ou para baixo em relação à média, bem como visões globais de importância (*Summary Plots / Beeswarm*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Plano Verão afastou-se tanto da ortodoxia quanto da heterodoxia, pois rejeitou simultaneamente o congelamento de...". De acordo com a teoria estudada em *4.3 Os Seis Eixos Verticais (Temáticos)*, segurança Pública: Emprego legítimo de modelos preditivos e visão computacional na elucidação de crimes complexos, perícia forense digital, vigilância de fronteiras e proteção de infraestruturas cibernéticas críticas, sob estrita conformidade legal e supervisão judicial.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Todos os planos de estabilização dos anos 1980 partiram exclusivamente do diagnóstico ortodoxo de que a inflação...". De acordo com a teoria estudada em *1. Princípios de IA Responsável, Ética e Governança Humana*, à medida que sistemas de inteligência artificial são integrados a decisões de auditoria fiscal, concessão de benefícios previdenciários e detecção de irregularidades pelo Tribunal de Contas, impõe-se a observância de postulados éticos e diretrizes normativas internacionais para mitigar riscos a direitos fundamentais.
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 354
-**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
-Certo TRT deseja implementar uma solução de segurança cibernética que combine inteligência artificial, detecção comportamental e algoritmos de aprendizado de máquina para antecipar e prevenir ameaças conhecidas e desconhecidas. Com base nessa situação hipotética, assinale a opção que indica a solução requerida.
+**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+O recurso de VPN − Virtual Private Network é utilizado para a transmissão de informações de forma segura em redes de computadores. Caso se faça uma análise do pacote transmitido utilizando uma VPN,
 
-* **A)** NGAV
-* **B)** IPS
-* **C)** IDS
-* **D)** NIST
-* **E)** WebProxy
+* **A)** apenas os dados e o cabeçalho são encriptados.
+* **B)** ambos os endereços IPs, destino e origem, são encriptados.
+* **C)** apenas o endereço IP destino é encriptado para evitar a modificação.
+* **D)** apenas o endereço IP origem é encriptado para evitar o rastreamento.
+* **E)** o pacote, que inclui os endereços, o cabeçalho e os dados, é encriptado por completo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1. Princípios de IA Responsável, Ética e Governança Humana* deste guia, à medida que sistemas de inteligência artificial são integrados a decisões de auditoria fiscal, concessão de benefícios previdenciários e detecção de irregularidades pelo Tribunal de Contas, impõe-se a observância de postulados éticos e diretrizes normativas internacionais para mitigar riscos a direitos fundamentais. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "NGAV".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IPS". De acordo com a teoria estudada em *4. Estratégia Brasileira de Inteligência Artificial (EBIA)*, a Estratégia Brasileira de Inteligência Artificial (EBIA) foi formalmente instituída pelo Governo Federal por meio da Portaria MCTI nº 4.617, de 6 de abril de 2021, com o propósito de articular investimentos públicos e privados, promover a pesquisa e capacitação, e assegurar o uso ético da tecnologia.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IDS". De acordo com a teoria estudada em *3. A LGPD (Lei nº 13.709/2018) Aplicada à Inteligência Artificial*, a Lei Geral de Proteção de Dados Pessoais regula qualquer operação de tratamento de dados de pessoas naturais realizada no território brasileiro, impondo salvaguardas mandatórias às rotinas automatizadas de inteligência artificial.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "NIST". De acordo com a teoria estudada em *3.2 O Artigo 20: Revisão de Decisões Automatizadas e Auditoria da ANPD*, o Artigo 20 da Lei nº 13.709/2018 constitui o epicentro do regime jurídico de inteligência artificial no Brasil.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "WebProxy". De acordo com a teoria estudada em *4.2 Os Três Eixos Transversais*, promover um ambiente normativo propício à inovação com segurança jurídica, adotando mecanismos flexíveis como os Ambientes Regulatórios Experimentais (*Regulatory Sandboxes*).
+> - **A)** **Correta.** Conforme fundamentado na seção *4.3 Os Seis Eixos Verticais (Temáticos)* deste guia, educação e Capacitação: Formação de base em raciocínio computacional no ensino básico, expansão de cursos de pós-graduação em Ciência de Dados e difusão do letramento digital em IA para a sociedade. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "apenas os dados e o cabeçalho são encriptados".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ambos os endereços IPs, destino e origem, são encriptados". De acordo com a teoria estudada em *1.1 Diretrizes Internacionais (OCDE e UNESCO)*, robustez, Segurança e Proteção (*Robustness and Safety*): Garantia de resiliência algorítmica contra falhas, ataques adversariais (*adversarial attacks*) e vazamentos de dados, operando de modo previsível ao longo de todo o ciclo de vida.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas o endereço IP destino é encriptado para evitar a modificação". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, algoritmos não operam no vácuo ético; eles extraem padrões matemáticos diretamente de dados históricos empíricos.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas o endereço IP origem é encriptado para evitar o rastreamento". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, se os dados passados espelharem disparidades ou exclusões sociais, a rede neural aprenderá a perpetuar e multiplicar esses vieses (*bias in, bias out*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o pacote, que inclui os endereços, o cabeçalho e os dados, é encriptado por completo". De acordo com a teoria estudada em *1.2 Vieses Algorítmicos e Métricas de Equidade (Fairness)*, atenção à falácia da "Equidade por Desconhecimento" (*Fairness through Unawareness*): a banca FCC frequentemente afirma que "para garantir que um algoritmo não discrimine, basta remover as colunas de dados sensíveis como raça ou gênero".
 >
 > **Gabarito: A**
 

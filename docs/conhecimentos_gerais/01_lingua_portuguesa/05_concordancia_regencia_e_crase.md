@@ -126,26 +126,26 @@ Quando o sujeito da oração é constituído por pronome relativo:
 ---
 
 ### Teste 042
-**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
-O substantivo composto “mal-entendidos”, presente no texto, está flexionado no plural. Dentre os vocábulos listados abaixo, assinale aquele que segue a mesma norma para a flexão de número.
+**(FCC – TRT 6ª – 2012 – Analista Judiciário - Apoio Especializado/Tecnologia da Informação)**
+A capacidade nominal de armazenamento de uma mídia de DVD-RW, com camada simples e lado simples é de
 
-* **A)** secretário-geral.
-* **B)** abaixo-assinado.
-* **C)** cana-de-açúcar.
-* **D)** tenente-coronel.
-* **E)** salário-família.
+* **A)** 4,7GB.
+* **B)** 700MB.
+* **C)** 9,40GB.
+* **D)** 720MB.
+* **E)** 1024TB.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "secretário-geral". De acordo com a teoria estudada em *1.5 Sujeito Composto: Posição Anteposta, Posposta e Aposto Recapitulativo*, concordância atrativa (o verbo concorda em número e gênero com o núcleo mais próximo): *"Abriu a sessão solene o conselheiro presidente e o procurador-geral."*.
-> - **B)** **Correta.** Conforme fundamentado na seção *4.1 Princípios da Regência Verbal na Norma Culta* deste guia, a mesma forma verbal pode assumir trânsitos sintáticos e acepções semânticas completamente distintas conforme seja construída de forma direta (sem preposição) ou indireta (revestida por preposição específica). Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "abaixo-assinado".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cana-de-açúcar". De acordo com a teoria estudada em *1.2 Sujeito Simples com Expressões Partitivas e Coletivos*, expressões Partitivas seguidas de substantivo ou pronome no plural: Expressões como *a maioria de, a maior parte de, grande número de, a metade de, fração de* seguidas de determinante plural admitem dupla concordância.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tenente-coronel". De acordo com a teoria estudada em *1.5 Sujeito Composto: Posição Anteposta, Posposta e Aposto Recapitulativo*, sujeito Composto Anteposto ao Verbo: O verbo vai obrigatoriamente para o plural.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "salário-família". De acordo com a teoria estudada em *1.5 Sujeito Composto: Posição Anteposta, Posposta e Aposto Recapitulativo*, concordância gramatical total (verbo no plural somando todos os núcleos): *"Abriram a sessão solene o conselheiro presidente e o procurador-geral."*.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4,7GB". De acordo com a teoria estudada em *1.2 Sujeito Simples com Expressões Partitivas e Coletivos*, concordância lógica (com o núcleo singular da expressão): *"A maioria dos auditores votou favoravelmente."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "700MB". De acordo com a teoria estudada em *1.2 Sujeito Simples com Expressões Partitivas e Coletivos*, concordância atrativa (com o especificador plural): *"A maioria dos auditores votaram favoravelmente."*.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Sujeito Simples com Expressões Partitivas e Coletivos* deste guia, expressões Partitivas seguidas de substantivo ou pronome no plural: Expressões como *a maioria de, a maior parte de, grande número de, a metade de, fração de* seguidas de determinante plural admitem dupla concordância. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 6ª/2012) ao estabelecer que "9,40GB".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "720MB". De acordo com a teoria estudada em *1.2 Sujeito Simples com Expressões Partitivas e Coletivos*, ambas as construções são tidas como impecáveis perante a norma culta e a FCC.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1024TB". De acordo com a teoria estudada em *1.2 Sujeito Simples com Expressões Partitivas e Coletivos*, substantivo Coletivo Singular: O verbo permanece obrigatoriamente no singular quando o sujeito é formado por coletivo simples sem especificador: *"A comissão deliberou pela anulação"*.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -211,24 +211,24 @@ A concordância com o pronome *se* depende da transitividade do predicado:
 ---
 
 ### Teste 043
-**(FCC – TRT-1 – Analista Judiciario Tecnologia da Informacao – 2014)**
-As normas de concordância verbal estão plenamente observadas na frase:
+**(FCC – TRT 1ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+As normas de concordância verbal estão plenamente deral, ou entre as deste e da União. observadas na frase:
 
-* **A)** Não se atribuam às tecnologias mais avançadas o ônus de serem também nocivas, já que toda a responsabilidade cabe a quem as manipulam.
-* **B)** Caso não venha a faltar às novas tecnologias um autêntico padrão ético, não haveremos de temer as consequências que decorrerem de seu emprego.
-* **C)** Muita gente, na vertigem dos dias atuais, passam a criticar sem razão as novas tecnologias, às quais não cabem ser responsáveis por seus efeitos.
-* **D)** Costumam-se criticar os defeitos das coisas antigas, sem se atentarem aos perigos que deriva da má utilização das novas.
-* **E)** Os vários processos de exclusão social, aos quais se aludem no texto, provam que carece de compreensão e tolerância os rumos da nossa história.
+* **A)** poderá ser brasileira naturalizada, jamais nata.
+* **B)** somente poderia adquirir a nacionalidade brasileira se sua mãe estivesse a serviço do Brasil, na época do seu nascimento.
+* **C)** poderá optar pela nacionalidade brasileira, em qual- quer tempo, depois de atingida a maioridade, se vier a residir no Brasil.
+* **D)** jamais poderá adquirir a nacionalidade brasileira.
+* **E)** adquirirá a nacionalidade brasileira desde que venha a residir no Brasil antes de completar 18 anos. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não se atribuam às tecnologias mais avançadas o ônus de serem também nocivas, já que toda a responsabilidade cabe...". De acordo com a teoria estudada em *2.3 Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções*, *"Vai haver novas diligências na próxima semana."* (Correto) \$\leftrightarrow\$ *"Vão haver novas..."* (ERRO!).
-> - **B)** **Correta.** Conforme fundamentado na seção *2.3 Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções* deste guia, por outro lado, caso o verbo principal da locução seja o verbo *existir*, a locução verbal conserva a pessoalidade plena e flexiona normalmente no plural. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-1/2014) ao estabelecer que "Caso não venha a faltar às novas tecnologias um autêntico padrão ético, não haveremos de temer as consequências...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Muita gente, na vertigem dos dias atuais, passam a criticar sem razão as novas tecnologias, às quais não cabem ser...". De acordo com a teoria estudada em *2.3 Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções*, *"Podem ocorrer novas diligências."* (Correto, sujeito plural *novas diligências*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Costumam-se criticar os defeitos das coisas antigas, sem se atentarem aos perigos que deriva da má utilização das...". De acordo com a teoria estudada em *6. Teoria Geral e Emprego do Sinal Indicativo de Crase*, a palavra crase (do grego *krâsis*) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave (`\grave{a}`).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os vários processos de exclusão social, aos quais se aludem no texto, provam que carece de compreensão e...". De acordo com a teoria estudada em *3.4 O Funcionamento de Bastante, Meio, Menos e Alerta*, quando qualifica um substantivo (pronome adjetivo com sentido de *muitos/muitas*), é variável no plural: *"Havia bastantes processos em pauta"* (= havia muitos processos).
+> - **A)** **Incorreta.** A opção apresenta vedação ou negativa absoluta incompatível com a regra aplicável ao afirmar que "poderá ser brasileira naturalizada, jamais nata". De acordo com a teoria estudada em *2.1 O Verbo Haver Impessoal e a Comparação com o Verbo Existir*, *"Havia dez relatórios sobre a bancada."* (e jamais *"Haviam dez relatórios"*).
+> - **B)** **Correta.** Conforme fundamentado na seção *2.2 O Verbo Fazer Indicando Tempo Decorrido ou Fenômenos Climáticos* deste guia, *"Faz dez anos que ingressei no serviço público."* (é erro gravíssimo flexionar: *"Fazem dez anos"*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 1ª/2014) ao estabelecer que "somente poderia adquirir a nacionalidade brasileira se sua mãe estivesse a serviço do Brasil, na época do seu...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "poderá optar pela nacionalidade brasileira, em qual- quer tempo, depois de atingida a maioridade, se vier a...". De acordo com a teoria estudada em *4.2 O Cardápio dos Verbos Preferidos da FCC*, assistir: VI — Preposição em — Morar, residir — *"O magistrado assiste em Goiânia."*.
+> - **D)** **Incorreta.** A opção apresenta vedação ou negativa absoluta incompatível com a regra aplicável ao afirmar que "jamais poderá adquirir a nacionalidade brasileira". De acordo com a teoria estudada em *2.1 O Verbo Haver Impessoal e a Comparação com o Verbo Existir*, *"Houve graves tumultos na votação."* (e jamais *"Houveram tumultos"*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "adquirirá a nacionalidade brasileira desde que venha a residir no Brasil antes de completar 18 anos...". De acordo com a teoria estudada em *6.4 Casos de Crase Obrigatória*, nota: se houver preposição antecedente (*para, desde, após, até*), não há crase: *"A reunião foi agendada para as 14 horas"*.
 >
 > **Gabarito: B**
 
@@ -296,50 +296,50 @@ Expressões formadas pelo verbo *ser* mais adjetivo qualificando um substantivo 
 ---
 
 ### Teste 044
-**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Quanto à concordância padrão, está escrita corretamente a frase:
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+A frase abaixo em que há a possibilidade de dupla concordância nominal na palavra sublinhada, é:
 
-* **A)** Em meados da década passada, fotografar alimentos envolviam uma série de questionamentos que parecem não fazer mais sentido na sociedade dos dias de hoje.
-* **B)** Em 2016, uma pesquisa com usuários da internet concluiu que algumas pessoas que postam excessivamente nas redes sociais o faz por necessidade de aprovação.
-* **C)** Decidir entre devorar ou clicar têm perturbado aqueles que oscilam entre desfrutar o momento da refeição e partilhá-lo, ainda que a distância, com amigos e familiares.
-* **D)** O homem sempre buscou capturar o instante em imagens, e isso nunca foi tão fácil quanto hoje, quando o ato de registrar se tornou mais importante que o próprio registro.
-* **E)** Atualmente, constata-se muitas maneiras de compartilhar informação, mas nenhum meio de comunicação vem se mostrando tão poderoso quanto as redes sociais. Atenção:
+* **A)** O que têm essas mulheres de estranhas?;
+* **B)** Os alto-falantes estavam colocados no fundo do palco;
+* **C)** Veja os nomes abaixo assinados;
+* **D)** Era um crime de leso-patriotismo;
+* **E)** É proibida a entrada de bebida alcoólica na festa.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.4 O Funcionamento de Bastante, Meio, Menos e Alerta* deste guia, quando qualifica um substantivo (pronome adjetivo com sentido de *muitos/muitas*), é variável no plural: *"Havia bastantes processos em pauta"* (= havia muitos processos). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "Em meados da década passada, fotografar alimentos envolviam uma série de questionamentos que parecem não fazer...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em 2016, uma pesquisa com usuários da internet concluiu que algumas pessoas que postam excessivamente nas redes...". De acordo com a teoria estudada em *2.2 O Verbo Fazer Indicando Tempo Decorrido ou Fenômenos Climáticos*, *"Faz dez anos que ingressei no serviço público."* (é erro gravíssimo flexionar: *"Fazem dez anos"*).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Decidir entre devorar ou clicar têm perturbado aqueles que oscilam entre desfrutar o momento da refeição e...". De acordo com a teoria estudada em *6.5 Casos de Crase Facultativa*, o emprego do artigo diante de antropônimos femininos familiares é facultativo.
-> - **D)** **Incorreta.** A opção apresenta vedação ou negativa absoluta incompatível com a regra aplicável ao afirmar que "O homem sempre buscou capturar o instante em imagens, e isso nunca foi tão fácil quanto hoje, quando o ato de...". De acordo com a teoria estudada em *3.3 Palavras e Expressões Críticas: Anexo, Incluso, Próprio e Mesmo*, a Expressão "EM ANEXO": Trata-se de locução adverbial cristalizada, sendo sempre invariável.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Atualmente, constata-se muitas maneiras de compartilhar informação, mas nenhum meio de comunicação vem se...". De acordo com a teoria estudada em *3.4 O Funcionamento de Bastante, Meio, Menos e Alerta*, quando modifica um adjetivo, verbo ou outro advérbio (advérbio de intensidade com sentido de *muito*), é invariável: *"Os fiscais estavam bastante atentos"* (= muito atentos).
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Sujeito Simples com Expressões Partitivas e Coletivos* deste guia, expressões Partitivas seguidas de substantivo ou pronome no plural: Expressões como *a maioria de, a maior parte de, grande número de, a metade de, fração de* seguidas de determinante plural admitem dupla concordância. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "O que têm essas mulheres de estranhas?".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os alto-falantes estavam colocados no fundo do palco". De acordo com a teoria estudada em *3.4 O Funcionamento de Bastante, Meio, Menos e Alerta*, quando modifica um adjetivo, verbo ou outro advérbio (advérbio de intensidade com sentido de *muito*), é invariável: *"Os fiscais estavam bastante atentos"* (= muito atentos).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Veja os nomes abaixo assinados". De acordo com a teoria estudada em *5.2 Nomes de Alta Frequência em Atos de Controle e Direito Público*, acessível a: *"O portal é acessível a todos os cidadãos."*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Era um crime de leso-patriotismo". De acordo com a teoria estudada em *5.1 Mecânica do Complemento Nominal*, o complemento nominal completa o sentido passivo de uma palavra que, por si só, não possui significado pleno.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É proibida a entrada de bebida alcoólica na festa". De acordo com a teoria estudada em *3.5 Expressões do Tipo É Proibido, É Necessário e É Bom*, observe o substantivo que vem depois: se houver a presença do artigo *a* (*a entrada*), a concordância feminina é impositiva: *"É proibida a entrada"*.
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 045
-**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
-Em todas as frases abaixo ocorre a presença do adjetivo “bom” / “boa” com diferentes sentidos. Assinale a frase em que há a indicação de um sinônimo inadequado para esse adjetivo.
+**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+(3o parágrafo) Não obstante a permanência ininterrupta da enorme desigualdade em tamanho e estatura das religiões no Brasil, não é mais possível, nos dias que correm, desconhecer que a sociedade brasileira está passando por um processo de transição religiosa que é notório. Visível a olho nu. Considerado o trecho acima, no contexto em que está inserido, é apropriado afirmar:
 
-* **A)** Uma boa risada é um raio de sol na casa / barulhenta.
-* **B)** É um prazer navegar com bom tempo / estável.
-* **C)** Aquele apartamento está sendo vendido por bom preço / barato.
-* **D)** Acho que esse vestido está bom nela / bem ajustado.
-* **E)** Aquele aluno tem uma boa letra / legível.
+* **A)** A expressão nos dias que correm expressa um fator condicionante.
+* **B)** A locução verbal em que está presente o gerúndio indica uma ação durativa em tempo não marcado.
+* **C)** As incontestes desigualdades estruturais do Brasil impossibilitam leituras mais pontuais e consistentes acerca da vida dos brasileiros, principalmente no que se refere a seus hábitos religiosos.
+* **D)** A inclusão de uma vírgula depois de Não obstante mantém a correção e a clareza da frase, visto que o emprego desse sinal de pontuação, nessa específica formulação, é facultativo.
+* **E)** Em a permanência ininterrupta da enorme desigualdade em tamanho e estatura das religiões no Brasil, a substituição de ininterrupta por “intermitente” mantém o sentido original da frase.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Uma boa risada é um raio de sol na casa / barulhenta". De acordo com a teoria estudada em *3.5 Expressões do Tipo É Proibido, É Necessário e É Bom*, observe o substantivo que vem depois: se houver a presença do artigo *a* (*a entrada*), a concordância feminina é impositiva: *"É proibida a entrada"*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É um prazer navegar com bom tempo / estável". De acordo com a teoria estudada em *3.5 Expressões do Tipo É Proibido, É Necessário e É Bom*, sem Artigo ou Palavra Determinante: A expressão é invariável, permanecendo o adjetivo no masculino singular.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aquele apartamento está sendo vendido por bom preço / barato". De acordo com a teoria estudada em *3.5 Expressões do Tipo É Proibido, É Necessário e É Bom*, se não houver artigo (*entrada* sem determinante), o adjetivo permanece invariável no masculino: *"É proibido entrada"*.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.5 Expressões do Tipo É Proibido, É Necessário e É Bom* deste guia, expressões formadas pelo verbo *ser* mais adjetivo qualificando um substantivo genérico seguem uma regra polarizada pela presença do artigo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "Acho que esse vestido está bom nela / bem ajustado".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aquele aluno tem uma boa letra / legível". De acordo com a teoria estudada em *6.6 Crase com Pronomes Demonstrativos Aquele, Aquela e Aquilo*, ocorre a fusão da preposição *a* (exigida por regência verbal ou nominal) com a letra inicial *a-* do pronome demonstrativo.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Concordância com Expressões Numéricas, Frações e Percentuais* deste guia, exceção: o verbo vai ao plural se a expressão *mais de um* for repetida ou indicar reciprocidade mútua (*"Mais de um deputado se acusaram em plenário"*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "A expressão nos dias que correm expressa um fator condicionante".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A locução verbal em que está presente o gerúndio indica uma ação durativa em tempo não marcado". De acordo com a teoria estudada em *3.3 Palavras e Expressões Críticas: Anexo, Incluso, Próprio e Mesmo*, a Expressão "EM ANEXO": Trata-se de locução adverbial cristalizada, sendo sempre invariável.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As incontestes desigualdades estruturais do Brasil impossibilitam leituras mais pontuais e consistentes acerca da...". De acordo com a teoria estudada em *3.2 Adjetivo Referente a Mais de um Substantivo*, *"A comissão analisou o processo e a planilha atualizados."* (masculino plural englobante).
+> - **D)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "A inclusão de uma vírgula depois de Não obstante mantém a correção e a clareza da frase, visto que o emprego desse...". De acordo com a teoria estudada em *6. Teoria Geral e Emprego do Sinal Indicativo de Crase*, a palavra crase (do grego *krâsis*) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave (`\grave{a}`).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em a permanência ininterrupta da enorme desigualdade em tamanho e estatura das religiões no Brasil, a substituição...". De acordo com a teoria estudada em *6.2 Métodos Práticos de Reconhecimento: A Troca pelo Masculino (Método do AO)*, para dirimir dúvidas acerca da legitimidade da crase diante de palavras femininas ordinárias, aplica-se a prova empírica da substituição.
 >
-> **Gabarito: D**
+> **Gabarito: A**
 
 ---
 
@@ -387,50 +387,50 @@ Um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação d
 ---
 
 ### Teste 046
-**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
-Em nenhum momento da história a sociedade, como um todo, conseguiu sustentar facilmente os custos exorbitantes da ópera. Na frase acima, a locução verbal está empregada com regência idêntica à presente em:
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+Transpondo-se para a voz passiva a frase passaríamos a imaginar coisas, a forma verbal resultante será
 
-* **A)** O crítico elegeu o jovem cantor o maior artista da temporada.
-* **B)** Apresentou-nos currículo repleto de menções honrosas.
-* **C)** Sem falsa modéstia, recebeu a ovação com elegância e alegria.
-* **D)** Tentou cantar de modo condizente com as recomendações do maestro.
-* **E)** Jamais se afastou daquele velho conselho do pai.
+* **A)** I.
+* **B)** II.
+* **C)** III.
+* **D)** I e II.
+* **E)** II e III. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O crítico elegeu o jovem cantor o maior artista da temporada". De acordo com a teoria estudada em *1.2 Sujeito Simples com Expressões Partitivas e Coletivos*, expressões Partitivas seguidas de substantivo ou pronome no plural: Expressões como *a maioria de, a maior parte de, grande número de, a metade de, fração de* seguidas de determinante plural admitem dupla concordância.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Apresentou-nos currículo repleto de menções honrosas". De acordo com a teoria estudada em *3.2 Adjetivo Referente a Mais de um Substantivo*, se os substantivos forem do mesmo gênero: o adjetivo vai para o plural no gênero correspondente ou concorda com o mais próximo: *"Apresentou o recurso e o prazo vencidos"* (ou *vencido*).
-> - **C)** **Correta.** Conforme fundamentado na seção *4.1 Princípios da Regência Verbal na Norma Culta* deste guia, a mesma forma verbal pode assumir trânsitos sintáticos e acepções semânticas completamente distintas conforme seja construída de forma direta (sem preposição) ou indireta (revestida por preposição específica). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "Sem falsa modéstia, recebeu a ovação com elegância e alegria".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tentou cantar de modo condizente com as recomendações do maestro". De acordo com a teoria estudada em *6.4 Casos de Crase Obrigatória*, locuções Adverbiais Femininas: Expressam circunstâncias de tempo, modo ou lugar estruturadas com palavra feminina.
-> - **E)** **Incorreta.** A opção apresenta vedação ou negativa absoluta incompatível com a regra aplicável ao afirmar que "Jamais se afastou daquele velho conselho do pai". De acordo com a teoria estudada em *5. Regência Nominal de Substantivos e Adjetivos*, a regência nominal estuda a relação de dependência sintática entre um nome (substantivo abstrato, adjetivo ou advérbio) e o seu respectivo complemento nominal, o qual é sempre introduzido por preposição exigida pelo sentido daquele nome.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *1. Concordância Verbal: Fundamentos e Estruturas Particulares*, a concordância verbal é o mecanismo morfossintático por meio do qual o verbo adapta sua forma em número (singular ou plural) e pessoa (1ª, 2ª ou 3ª) para harmonizar-se com o núcleo do sujeito gramatical da oração.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.1 Princípios da Regência Verbal na Norma Culta* deste guia, a mesma forma verbal pode assumir trânsitos sintáticos e acepções semânticas completamente distintas conforme seja construída de forma direta (sem preposição) ou indireta (revestida por preposição específica). Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "II".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *1.1 Regra Geral da Concordância Verbal e Identificação do Núcleo*, a principal armadilha em provas consiste na existência de adjuntos adnominais preposicionados ou orações intercaladas que se interpõem entre o núcleo do sujeito e a forma verbal.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação da regência do verbo subordinado com a escolha do pronome relativo antecedente. Se o verbo da oração adjetiva exigir preposição, ela deve ser deslocada para antes do pronome relativo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III. _________________________________________________________". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, *"O projeto de infraestrutura a que o secretário se referiu..."* (quem se refere, refere-se a algo $\rightarrow$ preposição *a* anteposta ao pronome *que*).
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
 ### Teste 047
-**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
-O texto a seguir foi retirado do livro “Viagens de Gulliver”, de Jonathan Swift, obra de humor satírico publicada em 1726. O livro conta a história de Lemuel Gulliver, um cirurgião e capitão de navio inglês que, após sofrer vários naufrágios, acaba sendo levado a terras distantes e exóticas, habitadas por seres estranhos e criaturas fantásticas. No texto a seguir, mostra-se um desses lugares visitados por Gulliver: “Passamos então a outra parte da Academia que se destinava mais às pesquisas especulativas, e onde fomos encontrar três professores reunidos, discutindo sobre o melhoramento da língua”. O primeiro período do texto já nos mostra que não se trata do início de uma obra, mas de um segmento intermediário; o que NÃO nos indica isso no texto é:
+**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
+“A(1) esses perigos eles resistiam, pois àquela(2) altura já se haviam acostumado a(3) tais infortúnios, mas, por fim, chegaram a(4) um lugar onde o caminho era estreito demais para os elefantes e até para os animais de carga.” Nesse segmento do texto 4 há quatro ocorrências numeradas da preposição A; dessas quatro ocorrências, as exigidas pela regência verbal são:
 
-* **A)** o advérbio “então”, que mostra um ato novo de uma sequência;
-* **B)** o segmento “outra parte da Academia”, que mostra a continuidade de uma visita;
-* **C)** a utilização do substantivo “Academia” precedido de um artigo definido, mostrando ser ela já conhecida dos leitores;
-* **D)** o emprego da forma verbal “Passamos”, indicando ser mais de uma pessoa;
-* **E)** o segmento “que se destinava mais às pesquisas especulativas”, fazendo supor uma outra parte da Academia que se destinava a outras pesquisas.
+* **A)** 1-2-3;
+* **B)** 2-3-4;
+* **C)** 1-2-4;
+* **D)** 1-3-4;
+* **E)** 1-2-3-4.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o advérbio “então”, que mostra um ato novo de uma sequência". De acordo com a teoria estudada em *5.2 Nomes de Alta Frequência em Atos de Controle e Direito Público*, passível de: *"O ato é passível de anulação por vício de forma."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o segmento “outra parte da Academia”, que mostra a continuidade de uma visita". De acordo com a teoria estudada em *4.2 O Cardápio dos Verbos Preferidos da FCC*, é proibido associar advérbios intensificadores (*"Prefiro mais café"*, *"Prefiro antes o silêncio"*, *"Prefiro mil vezes o concurso"* \$\rightarrow\$ ERRADO).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a utilização do substantivo “Academia” precedido de um artigo definido, mostrando ser ela já conhecida dos leitores". De acordo com a teoria estudada em *3.5 Expressões do Tipo É Proibido, É Necessário e É Bom*, expressões formadas pelo verbo *ser* mais adjetivo qualificando um substantivo genérico seguem uma regra polarizada pela presença do artigo.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o emprego da forma verbal “Passamos”, indicando ser mais de uma pessoa". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação da regência do verbo subordinado com a escolha do pronome relativo antecedente. Se o verbo da oração adjetiva exigir preposição, ela deve ser deslocada para antes do pronome relativo.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Sujeito Simples com Expressões Partitivas e Coletivos* deste guia, expressões Partitivas seguidas de substantivo ou pronome no plural: Expressões como *a maioria de, a maior parte de, grande número de, a metade de, fração de* seguidas de determinante plural admitem dupla concordância. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "o segmento “que se destinava mais às pesquisas especulativas”, fazendo supor uma outra parte da Academia que se...".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1-2-3". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação da regência do verbo subordinado com a escolha do pronome relativo antecedente. Se o verbo da oração adjetiva exigir preposição, ela deve ser deslocada para antes do pronome relativo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2-3-4". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, *"O projeto de infraestrutura a que o secretário se referiu..."* (quem se refere, refere-se a algo $\rightarrow$ preposição *a* anteposta ao pronome *que*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1-2-4". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, *"O cargo público a que o candidato aspira..."* (quem aspira no sentido de almejar, aspira a algo $\rightarrow$ preposição *a* antes de *que*).
+> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Princípios da Regência Verbal na Norma Culta* deste guia, a mesma forma verbal pode assumir trânsitos sintáticos e acepções semânticas completamente distintas conforme seja construída de forma direta (sem preposição) ou indireta (revestida por preposição específica). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "1-3-4".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1-2-3-4". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, *"A diretriz orçamentária a cuja execução a população aspira..."* (o verbo *aspirar* rege a preposição *a*, a qual se antepõe ao pronome relativo possessivo *cuja*).
 >
-> **Gabarito: E**
+> **Gabarito: D**
 
 ---
 
@@ -459,26 +459,26 @@ O complemento nominal completa o sentido passivo de uma palavra que, por si só,
 ---
 
 ### Teste 048
-**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
-“E da minha fidelidade não se deveria duvidar; pois, tendo-a sempre observado, não devo aprender a rompê-la agora; e quem foi fiel e bom por quarenta e três anos, como eu, não deve poder mudar de natureza: da minha fidelidade e da minha bondade é testemunha a minha pobreza.” Nesse pensamento, o autor utiliza os adjetivos “fiel e bom” e, em seguida, os substantivos correspondentes “fidelidade” e “bondade”. A opção abaixo em que os dois adjetivos citados mostram substantivos adequados é:
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+Leia a frase abaixo: O pior que uma pessoa pode fazer em relação à verdade é conhecê- la e virar-lhe as costas. Assinale a afirmativa adequada em relação à sua estruturação ou significado.
 
-* **A)** sensato e esperto / sensatez e espertez;
-* **B)** claro e escuro / clareza e escureza;
-* **C)** alto e gordo / altura e magrura;
-* **D)** fundo e profundo / fundeza e profundeza;
-* **E)** liso e áspero / lisibilidade e asperidade.
+* **A)** Os pronomes “la” e “lhe” se referem ao mesmo antecedente.
+* **B)** O termo “uma pessoa” tem significado específico.
+* **C)** Há um erro no emprego da crase em “à verdade”.
+* **D)** Na frase deveria estar escrito “conhecer-lhe” e não “conhecê- la”.
+* **E)** Em lugar de “virar-lhe” deveria estar escrito “virá-la”. LEGISLAÇÃO INSTITUCIONAL
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sensato e esperto / sensatez e espertez". De acordo com a teoria estudada em *6.1 Natureza Fonética e Morfossintática da Crase*, a ocorrência da crase clássica pressupõe o encontro simultâneo e inseparável de dois elementos gramaticais.
-> - **B)** **Correta.** Conforme fundamentado na seção *5. Regência Nominal de Substantivos e Adjetivos* deste guia, a regência nominal estuda a relação de dependência sintática entre um nome (substantivo abstrato, adjetivo ou advérbio) e o seu respectivo complemento nominal, o qual é sempre introduzido por preposição exigida pelo sentido daquele nome. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "claro e escuro / clareza e escureza".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "alto e gordo / altura e magrura". De acordo com a teoria estudada em *2.2 O Verbo Fazer Indicando Tempo Decorrido ou Fenômenos Climáticos*, *"Amanhã fará quarenta graus em Goiânia."*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fundo e profundo / fundeza e profundeza". De acordo com a teoria estudada em *6.3 Casos de Crase Proibida*, para ocorrer crase, o artigo deveria estar presente no plural: *"Fez alusão às normas constitucionais"*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "liso e áspero / lisibilidade e asperidade". De acordo com a teoria estudada em *2.1 O Verbo Haver Impessoal e a Comparação com o Verbo Existir*, *"Há três anos aguardamos a homologação."*.
+> - **A)** **Correta.** Conforme fundamentado na seção *3. Concordância Nominal e Casos Especiais* deste guia, a concordância nominal é o princípio de ajuste morfológico em gênero (masculino ou feminino) e número (singular ou plural) estabelecido entre o substantivo (ou pronome substantivo) e os termos que a ele se referem: artigos, adjetivos, pronomes adjetivos, numerais e particípios. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "Os pronomes “la” e “lhe” se referem ao mesmo antecedente".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O termo “uma pessoa” tem significado específico". De acordo com a teoria estudada em *1.4 Concordância com Pronomes Relativos Que e Quem*, pronome QUE: O verbo concorda obrigatoriamente em número e pessoa com o antecedente do pronome.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Há um erro no emprego da crase em “à verdade”". De acordo com a teoria estudada em *2.3 Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções*, *"Pode fazer cinco anos que o processo tramita."* (Correto) $\leftrightarrow$ *"Podem fazer cinco anos..."* (ERRO!).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Na frase deveria estar escrito “conhecer-lhe” e não “conhecê- la”". De acordo com a teoria estudada em *6.3 Casos de Crase Proibida*, para ocorrer crase, o artigo deveria estar presente no plural: *"Fez alusão às normas constitucionais"*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em lugar de “virar-lhe” deveria estar escrito “virá-la”. LEGISLAÇÃO INSTITUCIONAL". De acordo com a teoria estudada em *1.4 Concordância com Pronomes Relativos Que e Quem*, concordância atrativa com o antecedente do pronome: *"Fui eu quem elaborei o relatório."*.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -578,74 +578,74 @@ Ocorre a fusão da preposição *a* (exigida por regência verbal ou nominal) co
 ---
 
 ### Teste 049
-**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
-Leia a frase abaixo com atenção: “As árvores genealógicas são a única espécie arbórea que teria razões para ocultar suas raízes”. A afirmativa correta sobre o significado ou estruturação da frase acima é:
+**(FCC – TRT 9ª – 2015 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Consideradas a correção e as relações de sentido estabelecidas no texto, afirma-se corretamente:
 
-* **A)** a frase não pode ser entendida por faltar lógica aos termos, já que uma árvore genealógica não é uma espécie arbórea;
-* **B)** a finalidade da frase é criticar as pessoas demasiadamente preocupadas com sua origem familiar, nem sempre digna de ser valorizada;
-* **C)** o referido ocultamento das raízes revela a necessidade de discrição sobre assuntos familiares;
-* **D)** a frase foi estruturada na base de uma comparação entre uma árvore genealógica e uma árvore natural;
-* **E)** a forma verbal “teria” indica uma certeza na afirmação.
+* **A)** No segmento ...vai como que destruindo a golpes de medida impaciência... (2o parágrafo), o elemento sublinhado por ser substituído por: "por assim dizer".
+* **B)** O sinal indicativo de crase é facultativo e pode ser inserido no elemento sublinhado em: que um leigo creditaria a uma mera expressão de ressentimento confessional... (2o parágrafo)
+* **C)** O segmento ...para atrair turistas ao som da música típica do Tirol (1o parágrafo) introduz noção de causa, de maneira que o elemento sublinhado pode ser substituído por: "por".
+* **D)** O elemento sublinhado em porque dilapidou, desperdiçou e aniquilou... (3o parágrafo) introduz a consequência do que se afirma antes e pode ser substituído por “por isso”.
+* **E)** O elemento sublinhado em ...que Thomas Bernhard transformou numa província asfixiante... (último parágrafo) introduz uma restrição ao termo imediatamente anterior.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *6.5 Casos de Crase Facultativa* deste guia, a locução prepositiva pode ser *até* ou *até a*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "a frase não pode ser entendida por faltar lógica aos termos, já que uma árvore genealógica não é uma espécie...".
-> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "a finalidade da frase é criticar as pessoas demasiadamente preocupadas com sua origem familiar, nem sempre digna...". De acordo com a teoria estudada em *1.2 Sujeito Simples com Expressões Partitivas e Coletivos*, concordância lógica (com o núcleo singular da expressão): *"A maioria dos auditores votou favoravelmente."*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o referido ocultamento das raízes revela a necessidade de discrição sobre assuntos familiares". De acordo com a teoria estudada em *6.5 Casos de Crase Facultativa*, o emprego do artigo diante de antropônimos femininos familiares é facultativo.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a frase foi estruturada na base de uma comparação entre uma árvore genealógica e uma árvore natural". De acordo com a teoria estudada em *3. Concordância Nominal e Casos Especiais*, a concordância nominal é o princípio de ajuste morfológico em gênero (masculino ou feminino) e número (singular ou plural) estabelecido entre o substantivo (ou pronome substantivo) e os termos que a ele se referem: artigos, adjetivos, pronomes adjetivos, numerais e particípios.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a forma verbal “teria” indica uma certeza na afirmação". De acordo com a teoria estudada em *4.1 Princípios da Regência Verbal na Norma Culta*, a mesma forma verbal pode assumir trânsitos sintáticos e acepções semânticas completamente distintas conforme seja construída de forma direta (sem preposição) ou indireta (revestida por preposição específica).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No segmento ...vai como que destruindo a golpes de medida impaciência... (2o parágrafo), o elemento sublinhado por...". De acordo com a teoria estudada em *6.4 Casos de Crase Obrigatória*, *à medida que, à proporção que, à espera de, à procura de, à custa de, à semelhança de*.
+> - **B)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "O sinal indicativo de crase é facultativo e pode ser inserido no elemento sublinhado em: que um leigo creditaria a...". De acordo com a teoria estudada em *6. Teoria Geral e Emprego do Sinal Indicativo de Crase*, a palavra crase (do grego *krâsis*) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave (`\grave{a}`).
+> - **C)** **Correta.** Conforme fundamentado na seção *6.5 Casos de Crase Facultativa* deste guia, a locução prepositiva pode ser *até* ou *até a*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 9ª/2015) ao estabelecer que "O segmento ...para atrair turistas ao som da música típica do Tirol (1o parágrafo) introduz noção de causa, de...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O elemento sublinhado em porque dilapidou, desperdiçou e aniquilou... (3o parágrafo) introduz a consequência do...". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação da regência do verbo subordinado com a escolha do pronome relativo antecedente. Se o verbo da oração adjetiva exigir preposição, ela deve ser deslocada para antes do pronome relativo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O elemento sublinhado em ...que Thomas Bernhard transformou numa província asfixiante... (último parágrafo)...". De acordo com a teoria estudada em *6.4 Casos de Crase Obrigatória*, locução Elíptica "À Moda De / À Maneira De": Ocorre crase mesmo diante de vocábulos masculinos quando estiver subentendida a expressão feminina *à moda de*: *"Pediu um bife à [moda de] milanesa"*, *"Escrevia versos à [maneira de] Olavo Bilac"*.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
 ### Teste 050
-**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Uma frase escrita com clareza e em conformidade com a norma-padrão da língua é:
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
+A paciência torna mais leve o que não é possível remediar. Assinale a opção que indica uma observação correta a respeito da significação e/ou da estruturação da frase acima.
 
-* **A)** Muitas vezes, nem sempre o que é considerado bom para um, terá a mesma avaliação do outro, haja visto a quantidade de debates acerca de uma questão moral.
-* **B)** Estamos mergulhados em um universo com que a condição moral é inescapável, sendo comum buscarmos respostas prontas para o que deve ser bom ou mal.
-* **C)** Ainda que procurarmos sempre fazer o bem, nada poderia nos garantir de que nossas ações tivessem como consequência, apenas bons resultados.
-* **D)** Dado que a moral precede todo e qualquer aprendizado pautado em regras de conduta, pode-se inferir que se trata de uma condição existencial do homem.
-* **E)** Ao passo que somos confrontados, com a necessidade de fazer escolhas entre o bem e o mal, é de se esperar as decisões sucitarem celeumas e controvérsias.
+* **A)** A forma verbal “remediar” poderia ser adequadamente substituída por “que se remedie”.
+* **B)** A oração adjetiva “que não é possível remediar” pode ser substituída adequadamente pelo adjetivo “irremediável”.
+* **C)** A expressão “não é possível” poderia ser substituída corretamente pelo adjetivo “impossível”.
+* **D)** A oração “que não é possível remediar” está adjetivando o pronome demonstrativo “o”.
+* **E)** O adjetivo “leve” representa uma qualidade e está em função de predicativo do sujeito.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *4.1 Princípios da Regência Verbal na Norma Culta* deste guia, a mesma forma verbal pode assumir trânsitos sintáticos e acepções semânticas completamente distintas conforme seja construída de forma direta (sem preposição) ou indireta (revestida por preposição específica). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "Muitas vezes, nem sempre o que é considerado bom para um, terá a mesma avaliação do outro, haja visto a quantidade...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estamos mergulhados em um universo com que a condição moral é inescapável, sendo comum buscarmos respostas prontas...". De acordo com a teoria estudada em *3.3 Palavras e Expressões Críticas: Anexo, Incluso, Próprio e Mesmo*, a Expressão "EM ANEXO": Trata-se de locução adverbial cristalizada, sendo sempre invariável.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Ainda que procurarmos sempre fazer o bem, nada poderia nos garantir de que nossas ações tivessem como...". De acordo com a teoria estudada em *6.4 Casos de Crase Obrigatória*, *"A audiência pública terá início às 14 horas."*.
-> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Dado que a moral precede todo e qualquer aprendizado pautado em regras de conduta, pode-se inferir que se trata de...". De acordo com a teoria estudada em *6.3 Casos de Crase Proibida*, diante de pronomes indefinidos que não aceitam artigo (*toda, cada, qualquer, ninguém, alguém, tudo*): *"Comunicou o fato a todas as autoridades"*, *"Não fez referência a nenhuma servidora"*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ao passo que somos confrontados, com a necessidade de fazer escolhas entre o bem e o mal, é de se esperar as...". De acordo com a teoria estudada em *3.4 O Funcionamento de Bastante, Meio, Menos e Alerta*, são palavras sempre invariáveis: *"Havia menos vagas"* (a palavra *"menas"* não existe na norma culta); *"Os guardas permaneceram alerta"* (advérbio).
+> - **A)** **Correta.** Conforme fundamentado na seção *4.3 Regência Verbal Associada a Pronomes Relativos* deste guia, um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação da regência do verbo subordinado com a escolha do pronome relativo antecedente. Se o verbo da oração adjetiva exigir preposição, ela deve ser deslocada para antes do pronome relativo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "A forma verbal “remediar” poderia ser adequadamente substituída por “que se remedie”".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A oração adjetiva “que não é possível remediar” pode ser substituída adequadamente pelo adjetivo “irremediável”". De acordo com a teoria estudada em *4.1 Princípios da Regência Verbal na Norma Culta*, a mesma forma verbal pode assumir trânsitos sintáticos e acepções semânticas completamente distintas conforme seja construída de forma direta (sem preposição) ou indireta (revestida por preposição específica).
+> - **C)** **Incorreta.** A opção apresenta vedação ou negativa absoluta incompatível com a regra aplicável ao afirmar que "A expressão “não é possível” poderia ser substituída corretamente pelo adjetivo “impossível”". De acordo com a teoria estudada em *3.5 Expressões do Tipo É Proibido, É Necessário e É Bom*, expressões formadas pelo verbo *ser* mais adjetivo qualificando um substantivo genérico seguem uma regra polarizada pela presença do artigo.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A oração “que não é possível remediar” está adjetivando o pronome demonstrativo “o”". De acordo com a teoria estudada em *6.6 Crase com Pronomes Demonstrativos Aquele, Aquela e Aquilo*, ocorre a fusão da preposição *a* (exigida por regência verbal ou nominal) com a letra inicial *a-* do pronome demonstrativo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O adjetivo “leve” representa uma qualidade e está em função de predicativo do sujeito". De acordo com a teoria estudada em *1. Concordância Verbal: Fundamentos e Estruturas Particulares*, a concordância verbal é o mecanismo morfossintático por meio do qual o verbo adapta sua forma em número (singular ou plural) e pessoa (1ª, 2ª ou 3ª) para harmonizar-se com o núcleo do sujeito gramatical da oração.
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 051
-**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-Atente para as seguintes construções: I. Haveria ainda mais hipocrisia, nas relações entre o homem e a mulher americanos, caso não venham a se organizar os atuais protestos contra o assédio sexual. II. Não fossem as iniciativas das mulheres americanas, que não hesitam em processar os desrespeitadores machistas, não se demoveriam práticas detestáveis de discriminação e desrespeito. III. Havendo ameaça de um processo, é natural que os homens americanos passem a acautelar-se quanto às atitudes que venham a tomar em suas relações com as mulheres. A correlação entre tempos e modos verbais está plenamente respeitada APENAS em
+**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
+Considerados o contexto e a norma-padrão,
 
-* **A)** I.
-* **B)** II.
-* **C)** III.
-* **D)** I e II.
-* **E)** II e III.
+* **A)** (linha 13) resulta em incorreção o acréscimo de vírgula entre Spinoza e segundo.
+* **B)** (linha 24) o emprego de aspas em "apenas" empresta ironia à palavra, tal como em: "Ele foi "apenas" assaltado, sem muita violência".
+* **C)** (linha 21) em O rubor pode subir às faces de alguém, está correto o emprego do sinal de crase, assim como o está em “O sentimento de vergonha é comum à qualquer pessoa”.
+* **D)** (linha 2) as palavras opróbrio e ignomínia estão corretamente grafadas e acentuadas, assim como o estão as palavras desta frase: "A ausência de rúbrica nos documentos é mais um deslise para o qual ela tem o intuíto de reinvindicar tratamento de excessão."
+* **E)** (linha 18) em a vergonha pressupõe um controle interno: quem [...], os dois-pontos introduzem consequência.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *3.2 Adjetivo Referente a Mais de um Substantivo*, *"A comissão analisou o processo e a planilha atualizada."* (concorda com *planilha*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *1.3 Concordância com Expressões Numéricas, Frações e Percentuais*, se a expressão percentual vier acompanhada de termo especificador substantivo, admite-se a concordância tanto com o numeral quanto com o especificador: *"20% da receita estadual foi aplicada / foram aplicados na saúde"*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *2.3 Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções*, por outro lado, caso o verbo principal da locução seja o verbo *existir*, a locução verbal conserva a pessoalidade plena e flexiona normalmente no plural.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *1.2 Sujeito Simples com Expressões Partitivas e Coletivos*, ambas as construções são tidas como impecáveis perante a norma culta e a FCC.
-> - **E)** **Correta.** Conforme fundamentado na seção *3.2 Adjetivo Referente a Mais de um Substantivo* deste guia, *"A comissão analisou o processo e a planilha atualizados."* (masculino plural englobante). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "II e III".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linha 13) resulta em incorreção o acréscimo de vírgula entre Spinoza e segundo". De acordo com a teoria estudada em *3.4 O Funcionamento de Bastante, Meio, Menos e Alerta*, são palavras sempre invariáveis: *"Havia menos vagas"* (a palavra *"menas"* não existe na norma culta); *"Os guardas permaneceram alerta"* (advérbio).
+> - **B)** **Correta.** Conforme fundamentado na seção *6. Teoria Geral e Emprego do Sinal Indicativo de Crase* deste guia, a palavra crase (do grego *krâsis*) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave (`\grave{a}`). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "(linha 24) o emprego de aspas em "apenas" empresta ironia à palavra, tal como em: "Ele foi "apenas" assaltado, sem...".
+> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "(linha 21) em O rubor pode subir às faces de alguém, está correto o emprego do sinal de crase, assim como o está...". De acordo com a teoria estudada em *6.3 Casos de Crase Proibida*, diante de pronomes indefinidos que não aceitam artigo (*toda, cada, qualquer, ninguém, alguém, tudo*): *"Comunicou o fato a todas as autoridades"*, *"Não fez referência a nenhuma servidora"*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linha 2) as palavras opróbrio e ignomínia estão corretamente grafadas e acentuadas, assim como o estão as...". De acordo com a teoria estudada em *6.3 Casos de Crase Proibida*, antes de Pronomes em Geral (Indefinidos, Pessoais, de Tratamento).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linha 18) em a vergonha pressupõe um controle interno: quem [...], os dois-pontos introduzem consequência". De acordo com a teoria estudada em *6.1 Natureza Fonética e Morfossintática da Crase*, a ocorrência da crase clássica pressupõe o encontro simultâneo e inseparável de dois elementos gramaticais.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 

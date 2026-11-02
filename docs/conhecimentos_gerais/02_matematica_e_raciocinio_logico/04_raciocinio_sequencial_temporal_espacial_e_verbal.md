@@ -110,74 +110,74 @@ flowchart TD
 ---
 
 ### Teste 102
-**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Uma sequência pode ser criada com a seguinte regra: escolhe-se um número natural maior que 100, para ser o primeiro termo dessa sequência. Se o termo da sequência é um número natural PAR, o termo seguinte deverá ser a metade desse número PAR; se o termo da sequência for um número natural ÍMPAR, deve-se somar 13 a esse número ÍMPAR e em seguida calcular a metade dessa soma para obter o termo seguinte. Segue um exemplo: se um termo da sequência é o número 137, que é ÍMPAR, o termo seguinte será 75, que é a metade da soma entre 137 e 13. O 8o termo de uma sequência, criada com essa regra e com termo inicial igual a 4855, é
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
+A língua portuguesa contém vocábulos com três acentuações tônicas: oxítonas, paroxítonas e proparoxítonas. Entre as opções abaixo, assinale aquela que mostra dois vocábulos com idêntica acentuação tônica (as palavras estão propositalmente sem acentos gráficos).
 
-* **A)** 49
-* **B)** 93
-* **C)** 35
-* **D)** 75
-* **E)** 118
+* **A)** interim / decano.
+* **B)** prototipo / gratuito.
+* **C)** pesames / carater.
+* **D)** filantropo / maquinaria.
+* **E)** hipodromo / futil. Raciocínio Lógico Matemático
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "49". De acordo com a teoria estudada em *1.1 Sequências Numéricas e Relações de Recorrência*, sequências do Tipo Fibonacci: Cada termo resulta da soma dos dois termos imediatamente anteriores (\$1, 1, 2, 3, 5, 8, 13, 21\dots\$).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "93". De acordo com a teoria estudada em *1.4 Sequências Cíclicas e Resolução por Aritmética Modular*, se \$r > 0\$: O termo procurado é o \$r\$-ésimo elemento do bloco inicial.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "35". De acordo com a teoria estudada em *5.1 O Princípio do Terceiro Excluído e da Não Contradição*, uma declaração não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias (Não Contradição).
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial* deste guia, *Exemplo:* Na sequência \$B2, D4, F6, H8\dots\$, a letra avança de 2 em 2 posições no alfabeto e o número acompanha a ordem par correspondente. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "75".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "118". De acordo com a teoria estudada em *5.2 O Método do Par Contraditório*, se o enunciado garantir que *"entre os quatro servidores ouvidos, apenas um deles mentiu"*, examine os depoimentos em busca de duas pessoas que se contradigam (por exemplo: Daniel diz *"Fernando cometeu a fraude"* e Fernando diz *"Daniel está mentindo"*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "interim / decano". De acordo com a teoria estudada em *1.3 Padrões Literais por Iniciais Semânticas*, iniciais dos numerais por extenso: U, D, T, Q, C, S, S, O, N, D (Um, Dois, Três, Quatro, Cinco, Seis, Sete, Oito, Nove, Dez).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "prototipo / gratuito". De acordo com a teoria estudada em *1.1 Sequências Numéricas e Relações de Recorrência*, sequências do Tipo Fibonacci: Cada termo resulta da soma dos dois termos imediatamente anteriores ($1, 1, 2, 3, 5, 8, 13, 21\dots$).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pesames / carater". De acordo com a teoria estudada em *1.3 Padrões Literais por Iniciais Semânticas*, pegadinha clássica em provas da FCC consiste em sequências aparentemente caóticas cujas letras representam as iniciais de uma série semântica predeterminada da língua.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial* deste guia, as sequências que intercalam letras e números utilizam a posição ordinal das letras no alfabeto oficial da língua portuguesa (composto por 26 letras, incluindo K, W e Y). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "filantropo / maquinaria".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "hipodromo / futil. Raciocínio Lógico Matemático". De acordo com a teoria estudada em *1. Raciocínio Sequencial e Padrões Numéricos e Literais*, o raciocínio sequencial investiga a capacidade de identificar leis de formação abstratas ocultas sob uma ordenação cronológica, numérica ou alfanumérica, permitindo prever termos subsequentes ou remotos.
 >
 > **Gabarito: D**
 
 ---
 
 ### Teste 103
-**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
-Em um torneio de futebol, as equipes ganham 3 pontos por vitória, 1 ponto por empate e nenhum ponto em caso de derrota. Na 1a fase desse torneio, as equipes são divididas em grupos de quatro, realizando um total de seis jogos (dois contra cada um dos outros três times do grupo). Classificam-se para a 2a fase as duas equipes com o maior número de pontos. Em caso de empate no número de pontos entre duas equipes, prevalece aquela com o maior número de vitórias. A tabela resume o desempenho dos times de um dos grupos do torneio, após cada um ter disputado cinco jogos. Equipe Jogos realizados Vitórias Empates Derrotas Arranca Toco 5 3 1 1 Bola Murcha 5 2 0 3 Canela Fina 5 1 3 1 Espanta Sapo 5 1 2 2 Sabendo que, na última rodada desse grupo, serão realizados os jogos Arranca Toco X Espanta Sapo e Bola Murcha X Canela Fina, avalie as afirmações a seguir. I. A equipe Arranca Toco já está classificada para a 2a fase, independentemente dos resultados da última rodada. II. Para que a equipe Canela Fina se classifique para a 2a fase, é necessário que ela vença sua partida, mas pode não ser suficiente. III. Para que a equipe Espanta Sapo se classifique para a 2a fase, é necessário que ela vença sua partida, mas pode não ser suficiente. Está correto o que se afirma em
+**(FCC – TRT 9ª – 2015 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Embora as esculturas ficassem longe do público, elas foram vistas por artistas que visitavam Picasso. Sem prejuízo da correção e do sentido, o elemento sublinhado acima pode ser substituído por:
 
-* **A)** I, II e III.
-* **B)** I, apenas.
-* **C)** I e II, apenas.
-* **D)** II e III, apenas.
-* **E)** I e III, apenas.
+* **A)** Não chegou a preocupar Picasso, evidentemente, as condições de venda de suas esculturas ou mesmo se poderiam ser tema de exposição.
+* **B)** Ao se deterem nas obras de Picasso, muitos dos que apreciam a escultura percebem nela uma evidente conexão com a arte africana.
+* **C)** Ao permitirem improvisações, segundo a curadora Ann Temke, a escultura se adaptava ao temperamento irrequieto de Picasso.
+* **D)** À época, quando se olha as esculturas europeias não se pensa em um poder mágico delas derivado.
+* **E)** Devem haver explicações para a escultura de Picasso, embora de reconhecido valor artístico, não ter sido reunida com frequência. Matemática e Raciocínio Lógico-Matemático
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *5.1 O Princípio do Terceiro Excluído e da Não Contradição*, uma declaração não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias (Não Contradição).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *5.2 O Método do Par Contraditório*, se o enunciado garantir que *"entre os quatro servidores ouvidos, apenas um deles mentiu"*, examine os depoimentos em busca de duas pessoas que se contradigam (por exemplo: Daniel diz *"Fernando cometeu a fraude"* e Fernando diz *"Daniel está mentindo"*).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *O Teorema Infalível das Faces Opostas:*, propriedade Inviolável: Duas faces opostas nunca podem ser vizinhas adjacentes e jamais aparecem juntas em uma mesma visão tridimensional ortogonal do cubo.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.1 Sequências Numéricas e Relações de Recorrência*, sequências do Tipo Fibonacci: Cada termo resulta da soma dos dois termos imediatamente anteriores (\$1, 1, 2, 3, 5, 8, 13, 21\dots\$).
-> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Padrões Literais por Iniciais Semânticas* deste guia, iniciais dos numerais por extenso: U, D, T, Q, C, S, S, O, N, D (Um, Dois, Três, Quatro, Cinco, Seis, Sete, Oito, Nove, Dez). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "I e III, apenas".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não chegou a preocupar Picasso, evidentemente, as condições de venda de suas esculturas ou mesmo se poderiam ser...". De acordo com a teoria estudada em *2.4 Relações Temporais Relativas de Ontem e Amanhã*, problemas verbais do tipo *"Se o amanhã de ontem fosse o anteontem de depois de amanhã..."* devem ser resolvidos convertendo as expressões em uma reta numérica onde o dia Hoje é a origem $0$.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ao se deterem nas obras de Picasso, muitos dos que apreciam a escultura percebem nela uma evidente conexão com a...". De acordo com a teoria estudada em *1.4 Sequências Cíclicas e Resolução por Aritmética Modular*, se $r > 0$: O termo procurado é o $r$-ésimo elemento do bloco inicial.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ao permitirem improvisações, segundo a curadora Ann Temke, a escultura se adaptava ao temperamento irrequieto de...". De acordo com a teoria estudada em *1.4 Sequências Cíclicas e Resolução por Aritmética Modular*, se $r = 0$: A divisão foi exata, o que significa que o termo coincide exatamente com o último elemento do bloco.
+> - **D)** **Correta.** Conforme fundamentado na seção *5.1 O Princípio do Terceiro Excluído e da Não Contradição* deste guia, uma declaração não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias (Não Contradição). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 9ª/2015) ao estabelecer que "À época, quando se olha as esculturas europeias não se pensa em um poder mágico delas derivado".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Devem haver explicações para a escultura de Picasso, embora de reconhecido valor artístico, não ter sido reunida...". De acordo com a teoria estudada em *1. Raciocínio Sequencial e Padrões Numéricos e Literais*, o raciocínio sequencial investiga a capacidade de identificar leis de formação abstratas ocultas sob uma ordenação cronológica, numérica ou alfanumérica, permitindo prever termos subsequentes ou remotos.
 >
-> **Gabarito: E**
+> **Gabarito: D**
 
 ---
 
 ### Teste 104
-**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
-Abaixo temos uma sequência lógica de números naturais. Dessa forma, o próximo número dessa sequência que segue a essa lógica 1, 7, 25, 79, ... corresponde a:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+Assinale a frase que mostra uma troca indevida entre parônimos (palavras semelhantes, mas de diferentes significados).
 
-* **A)** 108
-* **B)** 241
-* **C)** 257
-* **D)** 571
-* **E)** 342
+* **A)** Os emigrantes ilegais são hoje uma preocupação flagrante nos países da Europa e nos Estados Unidos.
+* **B)** Os cidadãos, se infringem as leis, são punidos.
+* **C)** Nas sessões do Congresso, discutem-se fatos importantes para a vida da população.
+* **D)** A discrição é uma qualidade importante nos advogados.
+* **E)** As tarefas legais não podem ser mal executadas. Raciocínio Lógico Matemático
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "108". De acordo com a teoria estudada em *1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial*, *Exemplo:* Na sequência \$B2, D4, F6, H8\dots\$, a letra avança de 2 em 2 posições no alfabeto e o número acompanha a ordem par correspondente.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Sequências Numéricas e Relações de Recorrência* deste guia, diferenças Sucessivas em Progressão: A diferença entre termos consecutivos não é constante, mas forma uma nova sequência com lei própria (ex.: diferenças que dobram a cada passo: \$+2, +4, +8, +16, +32\dots\$). Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "241".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "257". De acordo com a teoria estudada em *4.1 Identificação do Elemento Intruso em Conjuntos*, exige identificar a propriedade lógica oculta que une a maioria dos elementos de um rol e discriminar o único elemento que destoa dessa harmonia funcional ou geométrica.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "571". De acordo com a teoria estudada em *1.1 Sequências Numéricas e Relações de Recorrência*, as sequências de números exploradas em concursos estruturam-se segundo diferentes padrões formativos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "342". De acordo com a teoria estudada em *1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial*, as sequências que intercalam letras e números utilizam a posição ordinal das letras no alfabeto oficial da língua portuguesa (composto por 26 letras, incluindo K, W e Y).
+> - **A)** **Correta.** Conforme fundamentado na seção *2.4 Relações Temporais Relativas de Ontem e Amanhã* deste guia, problemas verbais do tipo *"Se o amanhã de ontem fosse o anteontem de depois de amanhã..."* devem ser resolvidos convertendo as expressões em uma reta numérica onde o dia Hoje é a origem $0$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Os emigrantes ilegais são hoje uma preocupação flagrante nos países da Europa e nos Estados Unidos".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os cidadãos, se infringem as leis, são punidos". De acordo com a teoria estudada em *1. Raciocínio Sequencial e Padrões Numéricos e Literais*, o raciocínio sequencial investiga a capacidade de identificar leis de formação abstratas ocultas sob uma ordenação cronológica, numérica ou alfanumérica, permitindo prever termos subsequentes ou remotos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Nas sessões do Congresso, discutem-se fatos importantes para a vida da população". De acordo com a teoria estudada em *2.4 Relações Temporais Relativas de Ontem e Amanhã*, hoje = $0$; Amanhã = $+1$; Depois de amanhã = $+2$.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A discrição é uma qualidade importante nos advogados". De acordo com a teoria estudada em *1.1 Sequências Numéricas e Relações de Recorrência*, as sequências de números exploradas em concursos estruturam-se segundo diferentes padrões formativos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As tarefas legais não podem ser mal executadas. Raciocínio Lógico Matemático". De acordo com a teoria estudada em *O Teorema Infalível das Faces Opostas:*, propriedade Inviolável: Duas faces opostas nunca podem ser vizinhas adjacentes e jamais aparecem juntas em uma mesma visão tridimensional ortogonal do cubo.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -227,50 +227,50 @@ Monta-se uma equação de primeiro grau simples para encontrar a posição do di
 ---
 
 ### Teste 105
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
-velocidade média (Mbps) 6 5 4 3 2 1 0 Dom. 2a 3a 4a 5a 6a Sáb. Na figura precedente, são mostrados os resultados de um levantamento feito acerca da velocidade média, em Mbps, da conexão da Internet em um órgão público, para determinada semana. Considerando-se o conjunto de dados formado pelos valores correspondentes aos sete dias da semana, destacados na figura, infere-se que a moda da velocidade média, em Mbps, da conexão da Internet, na referida semana, foi igual a
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
+Um documento XML é estruturado como uma árvore rotulada ordenada. Cada nó da árvore é um elemento XML. O elemento mais alto da árvore por onde se inicia a formação do documento XML é o:
 
-* **A)** 1.
-* **B)** 2.
-* **C)** 5.
-* **D)** 3.
-* **E)** 4.
+* **A)** sibling;
+* **B)** schema;
+* **C)** attribute;
+* **D)** leaf node;
+* **E)** root node.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1". De acordo com a teoria estudada em *2.3 Cálculo do Ângulo entre Ponteiros de Relógio*, o ponteiro das horas desloca-se a uma velocidade de.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2". De acordo com a teoria estudada em *2. Orientação Temporal, Calendários e Relógios*, a orientação temporal examina o cômputo de prazos processuais e dias da semana mediante congruência modular de base 7.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5". De acordo com a teoria estudada em *2.1 Contagem de Dias e Aritmética Módulo 7*, a semana compõe-se de exatamente 7 dias cíclicos. Logo, somar qualquer múltiplo de 7 dias a uma data devolve o calendário exatamente ao mesmo dia da semana.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.3 Cálculo do Ângulo entre Ponteiros de Relógio* deste guia, o ponteiro dos minutos desloca-se a uma velocidade angular de. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "3".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4". De acordo com a teoria estudada em *2.1 Contagem de Dias e Aritmética Módulo 7*, *Exemplo:* Se uma sessão do TCE-GO ocorreu em uma quinta-feira e se quer saber em que dia da semana recairá um prazo de 43 dias corridos contados a partir daquela data.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sibling". De acordo com a teoria estudada em *1. Raciocínio Sequencial e Padrões Numéricos e Literais*, o raciocínio sequencial investiga a capacidade de identificar leis de formação abstratas ocultas sob uma ordenação cronológica, numérica ou alfanumérica, permitindo prever termos subsequentes ou remotos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "schema". De acordo com a teoria estudada em *5.2 O Método do Par Contraditório*, é o método mais célere e elegante de resolução.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "attribute". De acordo com a teoria estudada em *1.1 Sequências Numéricas e Relações de Recorrência*, *Exemplo:* $3, 5, 9, 17, 33, 65, \mathbf{129}$ (onde $2 \times 65 - 1 = 129$).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "leaf node". De acordo com a teoria estudada em *1.4 Sequências Cíclicas e Resolução por Aritmética Modular*, se $r > 0$: O termo procurado é o $r$-ésimo elemento do bloco inicial.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.4 Relações Temporais Relativas de Ontem e Amanhã* deste guia, problemas verbais do tipo *"Se o amanhã de ontem fosse o anteontem de depois de amanhã..."* devem ser resolvidos convertendo as expressões em uma reta numérica onde o dia Hoje é a origem $0$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "root node".
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
 ### Teste 106
-**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
-Observe o seguinte diálogo entre Alberto e Beatriz. Alberto: − Que horas são? Beatriz: − No horário atual, as horas que passam do meio dia formam um número que é igual a quarta parte dos minutos que faltam para as 18h00. Alberto: − Que horas começa sua festa de aniversário hoje? Beatriz: − As 21h00. Da hora em que ocorreu o diálogo até a hora do começo da festa de aniversário de Beatriz faltam
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+Numa reunião de departamento, um professor mostrou os péssimos resultados de seus alunos no primeiro semestre para demonstrar a falência do ensino universitário. Essa argumentação do professor mostra um problema, que é
 
-* **A)** 2 horas e 40 minutos.
-* **B)** 3 horas e 20 minutos.
-* **C)** 2 horas e 20 minutos.
-* **D)** 3 horas e 10 minutos.
-* **E)** 3 horas e 40 minutos.
+* **A)** um círculo vicioso, pois a primeira e a segunda parte do raciocínio mostram o mesmo significado.
+* **B)** uma falsa relação de causa e efeito, pois a primeira parte indica uma causa não verdadeira para a conclusão.
+* **C)** um estereótipo, pois hoje se consideram os alunos universitários como símbolos da incompetência.
+* **D)** uma falsa analogia, já que os elementos comparados são diferentes em um ponto essencial.
+* **E)** uma generalização excessiva, pois fez uma dedução para um todo (o ensino universitário), que pode ser injusta.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 horas e 40 minutos". De acordo com a teoria estudada em *2.3 Cálculo do Ângulo entre Ponteiros de Relógio*, fórmula do Menor Ângulo (\$\theta\$) às \$H\$ horas e \$M\$ minutos.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.3 Cálculo do Ângulo entre Ponteiros de Relógio* deste guia, em um mostrador circular analógico tradicional (\$360^\circ\$ divididos em 12 horas e 60 minutos). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "3 horas e 20 minutos".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 horas e 20 minutos". De acordo com a teoria estudada em *2.3 Cálculo do Ângulo entre Ponteiros de Relógio*, o ponteiro dos minutos desloca-se a uma velocidade angular de.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 horas e 10 minutos". De acordo com a teoria estudada em *2.3 Cálculo do Ângulo entre Ponteiros de Relógio*, o ponteiro das horas desloca-se a uma velocidade de.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 horas e 40 minutos". De acordo com a teoria estudada em *2.1 Contagem de Dias e Aritmética Módulo 7*, *Exemplo:* Se uma sessão do TCE-GO ocorreu em uma quinta-feira e se quer saber em que dia da semana recairá um prazo de 43 dias corridos contados a partir daquela data.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um círculo vicioso, pois a primeira e a segunda parte do raciocínio mostram o mesmo significado". De acordo com a teoria estudada em *1.3 Padrões Literais por Iniciais Semânticas*, iniciais dos dias da semana: D, S, T, Q, Q, S, S (Domingo, Segunda, Terça, Quarta, Quinta, Sexta, Sábado).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma falsa relação de causa e efeito, pois a primeira parte indica uma causa não verdadeira para a conclusão". De acordo com a teoria estudada em *5.1 O Princípio do Terceiro Excluído e da Não Contradição*, uma declaração ou é Verdadeira ($V$) ou é Falsa ($F$), não havendo meio-termo (Terceiro Excluído).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um estereótipo, pois hoje se consideram os alunos universitários como símbolos da incompetência". De acordo com a teoria estudada em *2.4 Relações Temporais Relativas de Ontem e Amanhã*, problemas verbais do tipo *"Se o amanhã de ontem fosse o anteontem de depois de amanhã..."* devem ser resolvidos convertendo as expressões em uma reta numérica onde o dia Hoje é a origem $0$.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma falsa analogia, já que os elementos comparados são diferentes em um ponto essencial". De acordo com a teoria estudada em *1.1 Sequências Numéricas e Relações de Recorrência*, as sequências de números exploradas em concursos estruturam-se segundo diferentes padrões formativos.
+> - **E)** **Correta.** Conforme fundamentado na seção *5.1 O Princípio do Terceiro Excluído e da Não Contradição* deste guia, uma declaração não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias (Não Contradição). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "uma generalização excessiva, pois fez uma dedução para um todo (o ensino universitário), que pode ser injusta".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
@@ -311,50 +311,50 @@ Consiste em determinar a projeção visual bidimensional de uma estrutura tridim
 ---
 
 ### Teste 107
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
-A urna I contém 6 bolas brancas e 10 bolas azuis; a urna II contém 8 bolas brancas e 11 bolas azuis. Sorteamos ao caso uma bola da urna I e a colocamos na urna II sem observar sua cor. Em seguida, sorteamos duas bolas da urna II, sem reposição. A probabilidade de que as duas bolas sorteadas da urna II sejam brancas é aproximadamente igual a
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+O diminutivo em língua portuguesa mostra valores variados. Assinale a frase abaixo em que o diminutivo tem valor afetivo.
 
-* **A)** 0,180.
-* **B)** 0,305.
-* **C)** 0,366.
-* **D)** 0,466.
-* **E)** 0,482. Ética no Serviço Público
+* **A)** Nesse frio, bom mesmo é um cobertorzinho amigo.
+* **B)** O governo deseja que a inflação vá embora depressinha.
+* **C)** O deputado mostrava em seu pulso um reloginho barato.
+* **D)** Na Europa ocorre agora uma guerrinha suja.
+* **E)** A mobília da boneca tinha apenas duas cadeirinhas. Raciocínio Lógico Matemático
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,180". De acordo com a teoria estudada em *3.1 Rotações no Plano Bidimensional e Reflexões Axiais*, rotações: Giro rígido da figura em torno de um ponto pivô no sentido horário ou anti-horário em ângulos retos de \$90^\circ, 180^\circ\$ ou \$270^\circ\$. A forma e as distâncias relativas preservam-se; apenas a orientação espacial se altera.
-> - **B)** **Correta.** Conforme fundamentado na seção *O Teorema Infalível das Faces Opostas:* deste guia, em qualquer fileira retilínea com 3 ou 4 quadrados consecutivos, duas faces separadas por exatamente uma face intermediária formam um par de faces diametralmente opostas no cubo montado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "0,305".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,366". De acordo com a teoria estudada em *2.2 Regras de Anos Bissextos e Deslocamento Anual*, deslocamento em Ano Bissexto: Possui 366 dias (acréscimo do dia 29 de fevereiro).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,466". De acordo com a teoria estudada em *O Teorema Infalível das Faces Opostas:*, propriedade Inviolável: Duas faces opostas nunca podem ser vizinhas adjacentes e jamais aparecem juntas em uma mesma visão tridimensional ortogonal do cubo.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,482. Ética no Serviço Público". De acordo com a teoria estudada em *5.3 O Método da Suposição Hipotética Dirigida*, caso não haja contradição explícita direta entre os depoimentos.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial* deste guia, as sequências que intercalam letras e números utilizam a posição ordinal das letras no alfabeto oficial da língua portuguesa (composto por 26 letras, incluindo K, W e Y). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "Nesse frio, bom mesmo é um cobertorzinho amigo".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O governo deseja que a inflação vá embora depressinha". De acordo com a teoria estudada em *1.3 Padrões Literais por Iniciais Semânticas*, pegadinha clássica em provas da FCC consiste em sequências aparentemente caóticas cujas letras representam as iniciais de uma série semântica predeterminada da língua.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O deputado mostrava em seu pulso um reloginho barato". De acordo com a teoria estudada em *3. Orientação Espacial, Transformações e Dobradura de Figuras*, o raciocínio espacial avalia a aptidão psicotécnica de manipular objetos tridimensionais mentalmente sem distorcer suas propriedades topológicas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Na Europa ocorre agora uma guerrinha suja". De acordo com a teoria estudada em *3.1 Rotações no Plano Bidimensional e Reflexões Axiais*, rotações: Giro rígido da figura em torno de um ponto pivô no sentido horário ou anti-horário em ângulos retos de $90^\circ, 180^\circ$ ou $270^\circ$. A forma e as distâncias relativas preservam-se; apenas a orientação espacial se altera.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A mobília da boneca tinha apenas duas cadeirinhas. Raciocínio Lógico Matemático". De acordo com a teoria estudada em *O Teorema Infalível das Faces Opostas:*, em qualquer fileira retilínea com 3 ou 4 quadrados consecutivos, duas faces separadas por exatamente uma face intermediária formam um par de faces diametralmente opostas no cubo montado.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 108
-**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Um veículo trafegando a uma velocidade média de 75 km/h percorre determinada distância em 4 horas e 20 minutos. Se a sua velocidade média cair para 45 km/h, o tempo necessário para percorrer a mesma distância será acrescido de um valor que é
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+Observe o seguinte raciocínio: A gramática portuguesa é de difícil aprendizagem, por isso acho conveniente a contratação de novos professores. Nesse caso, a premissa inicial do raciocínio corresponde a
 
-* **A)** maior que três horas e menor que quatro horas.
-* **B)** maior que duas horas e menor que três horas.
-* **C)** menor do que uma hora.
-* **D)** maior que uma hora e menor que duas horas.
-* **E)** maior que quatro horas.
+* **A)** um fato comprovado.
+* **B)** uma opinião do enunciador.
+* **C)** um testemunho de autoridade.
+* **D)** uma dúvida sobre um fato.
+* **E)** uma certeza comprovada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "maior que três horas e menor que quatro horas". De acordo com a teoria estudada em *1.3 Padrões Literais por Iniciais Semânticas*, iniciais dos numerais por extenso: U, D, T, Q, C, S, S, O, N, D (Um, Dois, Três, Quatro, Cinco, Seis, Sete, Oito, Nove, Dez).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "maior que duas horas e menor que três horas". De acordo com a teoria estudada em *2.3 Cálculo do Ângulo entre Ponteiros de Relógio*, o ponteiro das horas desloca-se a uma velocidade de.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "menor do que uma hora". De acordo com a teoria estudada em *2.3 Cálculo do Ângulo entre Ponteiros de Relógio*, em um mostrador circular analógico tradicional (\$360^\circ\$ divididos em 12 horas e 60 minutos).
-> - **D)** **Correta.** Conforme fundamentado na seção *2.3 Cálculo do Ângulo entre Ponteiros de Relógio* deste guia, fórmula do Menor Ângulo (\$\theta\$) às \$H\$ horas e \$M\$ minutos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "maior que uma hora e menor que duas horas".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "maior que quatro horas". De acordo com a teoria estudada em *5.2 O Método do Par Contraditório*, se o enunciado garantir que *"entre os quatro servidores ouvidos, apenas um deles mentiu"*, examine os depoimentos em busca de duas pessoas que se contradigam (por exemplo: Daniel diz *"Fernando cometeu a fraude"* e Fernando diz *"Daniel está mentindo"*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um fato comprovado". De acordo com a teoria estudada em *1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial*, as sequências que intercalam letras e números utilizam a posição ordinal das letras no alfabeto oficial da língua portuguesa (composto por 26 letras, incluindo K, W e Y).
+> - **B)** **Correta.** Conforme fundamentado na seção *3. Orientação Espacial, Transformações e Dobradura de Figuras* deste guia, o raciocínio espacial avalia a aptidão psicotécnica de manipular objetos tridimensionais mentalmente sem distorcer suas propriedades topológicas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "uma opinião do enunciador".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um testemunho de autoridade". De acordo com a teoria estudada em *1.4 Sequências Cíclicas e Resolução por Aritmética Modular*, se $r > 0$: O termo procurado é o $r$-ésimo elemento do bloco inicial.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma dúvida sobre um fato". De acordo com a teoria estudada em *5.3 O Método da Suposição Hipotética Dirigida*, caso não haja contradição explícita direta entre os depoimentos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma certeza comprovada". De acordo com a teoria estudada em *5.3 O Método da Suposição Hipotética Dirigida*, avalia-se a veracidade de cada depoimento sob essa premissa.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
@@ -375,24 +375,24 @@ Resolvem-se pela equivalência de transformações: *"A está para B assim como 
 ---
 
 ### Teste 109
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
-O campeonato interestelar de wongwong será disputado por 24.225 jogadores. Cada partida de wongwong é disputada por dois jogadores e, como resultado, ao final há um vencedor e um perdedor. O campeonato será todo eliminatório, ou seja, em cada partida o perdedor é eliminado e o vencedor prossegue na disputa. Assim, o número de partidas desse campeonato será igual a
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Contábeis)**
+Com relação à definição de valor justo, de acordo com o Pronunciamento Técnico CPC 46 - MENSURAÇÃO DO VALOR JUSTO, avalie se os elementos a seguir fazem parte da definição de valor justo. I. ativos II. passivos III. receitas IV. despesas Estão corretos os elementos
 
-* **A)** 24.224.
-* **B)** 100.640.
-* **C)** 120.460.
-* **D)** 412.224.
-* **E)** 1.024.316.
+* **A)** I e II, apenas.
+* **B)** III e IV, apenas.
+* **C)** I e IV, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II, III e IV.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *4.2 Analogias Estruturais e Geométricas* deste guia, resolvem-se pela equivalência de transformações: *"A está para B assim como C está para D"*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "24.224".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "100.640". De acordo com a teoria estudada em *4.1 Identificação do Elemento Intruso em Conjuntos*, critérios geométricos: número de vértices, eixos de simetria, concavidade.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "120.460". De acordo com a teoria estudada em *4.1 Identificação do Elemento Intruso em Conjuntos*, critérios morfológicos/verbais: número de sílabas, classe gramatical, campo semântico.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "412.224". De acordo com a teoria estudada em *2.3 Cálculo do Ângulo entre Ponteiros de Relógio*, se o resultado modular for superior a \$180^\circ\$, toma-se o ângulo replementar: \$\theta_{\text{menor}} = 360^\circ - \theta\$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1.024.316". De acordo com a teoria estudada em *5.3 O Método da Suposição Hipotética Dirigida*, se a quantidade de verdades e mentiras bater com o enunciado (ex.: 3 verdades e 1 mentira), a hipótese é a solução final.
+> - **A)** **Correta.** Conforme fundamentado na seção *4.1 Identificação do Elemento Intruso em Conjuntos* deste guia, exige identificar a propriedade lógica oculta que une a maioria dos elementos de um rol e discriminar o único elemento que destoa dessa harmonia funcional ou geométrica. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "I e II, apenas".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III e IV, apenas". De acordo com a teoria estudada em *3.1 Rotações no Plano Bidimensional e Reflexões Axiais*, reflexão Axial (Espelhamento): Inversão especular da figura em relação a um eixo vertical ou horizontal. O lado direito vira esquerdo na reflexão vertical; o topo vira base na reflexão horizontal.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e IV, apenas". De acordo com a teoria estudada em *4.1 Identificação do Elemento Intruso em Conjuntos*, critérios numéricos: paridade, números primos, quadrados perfeitos.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *4.1 Identificação do Elemento Intruso em Conjuntos*, critérios geométricos: número de vértices, eixos de simetria, concavidade.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II, III e IV". De acordo com a teoria estudada em *4.1 Identificação do Elemento Intruso em Conjuntos*, critérios morfológicos/verbais: número de sílabas, classe gramatical, campo semântico.
 >
 > **Gabarito: A**
 
@@ -432,50 +432,50 @@ Caso não haja contradição explícita direta entre os depoimentos:
 ---
 
 ### Teste 110
-**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
-As peças de um jogo estão numeradas com a sequência ordenada dos primeiros números inteiros não negativos. Nesse jogo, sabe-se que: − as dez primeiras peças ordenadas devem se submeter à regra A. − as cinco primeiras peças ordenadas de numeração par devem se submeter à regra B; − as cinco primeiras peças ordenadas de numeração ímpar devem se submeter à regra C; − as cinco primeiras peças ordenadas com numeração de número primo devem se submeter à regra D. De acordo com as regras, as peças do jogo submetidas à regra
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+Leia a frase abaixo com atenção: “As árvores genealógicas são a única espécie arbórea que teria razões para ocultar suas raízes”. A afirmativa correta sobre o significado ou estruturação da frase acima é:
 
-* **A)** A também estão submetidas à regra C.
-* **B)** A também estão submetidas à regra D.
-* **C)** A mas não submetidas à regra B são as mesmas que estão submetidas à regra C.
-* **D)** A e à regra B, simultaneamente, constituem um conjunto sem elementos.
-* **E)** B e à regra C, simultaneamente, constituem um conjunto de um único elemento.
+* **A)** a frase não pode ser entendida por faltar lógica aos termos, já que uma árvore genealógica não é uma espécie arbórea;
+* **B)** a finalidade da frase é criticar as pessoas demasiadamente preocupadas com sua origem familiar, nem sempre digna de ser valorizada;
+* **C)** o referido ocultamento das raízes revela a necessidade de discrição sobre assuntos familiares;
+* **D)** a frase foi estruturada na base de uma comparação entre uma árvore genealógica e uma árvore natural;
+* **E)** a forma verbal “teria” indica uma certeza na afirmação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A também estão submetidas à regra C". De acordo com a teoria estudada em *5.1 O Princípio do Terceiro Excluído e da Não Contradição*, uma declaração não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias (Não Contradição).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A também estão submetidas à regra D". De acordo com a teoria estudada em *1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial*, *Exemplo:* Na sequência \$B2, D4, F6, H8\dots\$, a letra avança de 2 em 2 posições no alfabeto e o número acompanha a ordem par correspondente.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Planificação e Montagem de Cubos: A Regra das Faces Opostas* deste guia, a planificação de um hexaedro regular (cubo) compõe-se de 6 quadrados dispostos em cruz ou configurações similares. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "A mas não submetidas à regra B são as mesmas que estão submetidas à regra C".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A e à regra B, simultaneamente, constituem um conjunto sem elementos". De acordo com a teoria estudada em *1.4 Sequências Cíclicas e Resolução por Aritmética Modular*, quando uma palavra, código ou conjunto de símbolos é repetido indefinidamente formando uma fita infinita.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "B e à regra C, simultaneamente, constituem um conjunto de um único elemento". De acordo com a teoria estudada em *4.1 Identificação do Elemento Intruso em Conjuntos*, exige identificar a propriedade lógica oculta que une a maioria dos elementos de um rol e discriminar o único elemento que destoa dessa harmonia funcional ou geométrica.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a frase não pode ser entendida por faltar lógica aos termos, já que uma árvore genealógica não é uma espécie...". De acordo com a teoria estudada em *5.1 O Princípio do Terceiro Excluído e da Não Contradição*, uma declaração não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias (Não Contradição).
+> - **B)** **Correta.** Conforme fundamentado na seção *2.4 Relações Temporais Relativas de Ontem e Amanhã* deste guia, problemas verbais do tipo *"Se o amanhã de ontem fosse o anteontem de depois de amanhã..."* devem ser resolvidos convertendo as expressões em uma reta numérica onde o dia Hoje é a origem $0$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "a finalidade da frase é criticar as pessoas demasiadamente preocupadas com sua origem familiar, nem sempre digna...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o referido ocultamento das raízes revela a necessidade de discrição sobre assuntos familiares". De acordo com a teoria estudada em *5.2 O Método do Par Contraditório*, se o enunciado garantir que *"entre os quatro servidores ouvidos, apenas um deles mentiu"*, examine os depoimentos em busca de duas pessoas que se contradigam (por exemplo: Daniel diz *"Fernando cometeu a fraude"* e Fernando diz *"Daniel está mentindo"*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a frase foi estruturada na base de uma comparação entre uma árvore genealógica e uma árvore natural". De acordo com a teoria estudada em *2. Orientação Temporal, Calendários e Relógios*, a orientação temporal examina o cômputo de prazos processuais e dias da semana mediante congruência modular de base 7.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a forma verbal “teria” indica uma certeza na afirmação". De acordo com a teoria estudada em *5. Raciocínio Verbal e Problemas de Verdades e Mentiras*, os enigmas de depoimentos em sindicâncias e auditorias de fraudes são modelados por lógica proposicional veritativa.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
 ### Teste 111
-**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
-José Souza, Paulo Almeida e Claudio Prinot são três funcionários que têm que realizar, no total para os três, 72 tarefas diariamente. Cada dia eles escolhem um critério diferente para repartir as tarefas. Por exemplo, no dia de ontem eles decidiram que as 72 tarefas seriam divididas entre eles diretamente proporcional às consoantes do sobrenome de cada um. Sendo assim, ontem Paulo Almeida teve que realizar o total de tarefas igual a
+**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
+O processo de elaboração das estimativas de Receitas Orçamentárias possui etapas que envolvem a revisão e a possibilidade de alteração nas estimativas realizadas, para as quais se requer uma justificativa, que não pode ser
 
-* **A)** 9.
-* **B)** 24.
-* **C)** 15.
-* **D)** 12.
-* **E)** 18.
+* **A)** pautada em uma argumentação de necessidade de gasto essencial.
+* **B)** baseada em alterações nas alíquotas ou valores de taxas, tarifas e/ou serviços.
+* **C)** baseada no fato de se tratar de uma receita nova, que não possui histórico de arrecadação, dificultando a modelagem no SIOP.
+* **D)** fundamentada em situações a partir das quais as receitas forem impactadas direta ou indiretamente por efeitos decorrentes de alterações legais ou contratuais.
+* **E)** sustentada a partir do fato de que se trata de uma receita atípica ou de baixa previsibilidade, de difícil modelagem no SIOP, como por exemplo as receitas oriundas de licitações, convênios, doações, inscrições, entre outras.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "9". De acordo com a teoria estudada em *5.2 O Método do Par Contraditório*, se o enunciado garantir que *"entre os quatro servidores ouvidos, apenas um deles mentiu"*, examine os depoimentos em busca de duas pessoas que se contradigam (por exemplo: Daniel diz *"Fernando cometeu a fraude"* e Fernando diz *"Daniel está mentindo"*).
-> - **B)** **Correta.** Conforme fundamentado na seção *5.3 O Método da Suposição Hipotética Dirigida* deste guia, se gerar quantidade diferente de mentirosos, descarta-se e testa-se o próximo suspeito. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "24".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "15". De acordo com a teoria estudada em *1.3 Padrões Literais por Iniciais Semânticas*, iniciais dos numerais por extenso: U, D, T, Q, C, S, S, O, N, D (Um, Dois, Três, Quatro, Cinco, Seis, Sete, Oito, Nove, Dez).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "12". De acordo com a teoria estudada em *4.2 Analogias Estruturais e Geométricas*, resolvem-se pela equivalência de transformações: *"A está para B assim como C está para D"*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "18". De acordo com a teoria estudada em *2.4 Relações Temporais Relativas de Ontem e Amanhã*, problemas verbais do tipo *"Se o amanhã de ontem fosse o anteontem de depois de amanhã..."* devem ser resolvidos convertendo as expressões em uma reta numérica onde o dia Hoje é a origem \$0\$.
+> - **A)** **Correta.** Conforme fundamentado na seção *5.1 O Princípio do Terceiro Excluído e da Não Contradição* deste guia, uma declaração não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias (Não Contradição). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "pautada em uma argumentação de necessidade de gasto essencial".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "baseada em alterações nas alíquotas ou valores de taxas, tarifas e/ou serviços". De acordo com a teoria estudada em *2.2 Regras de Anos Bissextos e Deslocamento Anual*, deslocamento Anual Comum: Um ano civil ordinário possui 365 dias.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "baseada no fato de se tratar de uma receita nova, que não possui histórico de arrecadação, dificultando a...". De acordo com a teoria estudada em *2.2 Regras de Anos Bissextos e Deslocamento Anual*, deslocamento em Ano Bissexto: Possui 366 dias (acréscimo do dia 29 de fevereiro).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fundamentada em situações a partir das quais as receitas forem impactadas direta ou indiretamente por efeitos...". De acordo com a teoria estudada em *5.3 O Método da Suposição Hipotética Dirigida*, caso não haja contradição explícita direta entre os depoimentos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sustentada a partir do fato de que se trata de uma receita atípica ou de baixa previsibilidade, de difícil...". De acordo com a teoria estudada em *2.1 Contagem de Dias e Aritmética Módulo 7*, *Exemplo:* Se uma sessão do TCE-GO ocorreu em uma quinta-feira e se quer saber em que dia da semana recairá um prazo de 43 dias corridos contados a partir daquela data.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 

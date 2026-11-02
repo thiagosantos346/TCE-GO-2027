@@ -114,48 +114,42 @@ A condicional $p \rightarrow q$ é a estrutura que mais induz candidatos a erro.
 ---
 
 ### Teste 112
-**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
-Ao citar as frases Não é sábio o sábio, nem justo o justo, se seu amor à virtude é exagerado e Não sejais mais comportados do que o necessário; ponde alguma sobriedade no bom comportamento, Montaigne deseja mostrar que
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+A proposição P pode ser corretamente representada pela 1 forma simbólica PvQ, em que P e Q são proposições convenientemente escolhidas e o símbolo v representa o conectivo lógico denominado conjunção.
 
-* **A)** ambas as frases admitem que o excesso nem sempre é vicioso.
-* **B)** a primeira frase apenas ameniza o sentido radical da segunda.
-* **C)** a segunda frase desmente o que afirma a primeira.
-* **D)** ambas as frases atestam a conveniência da plena moderação.
-* **E)** a segunda frase lhe parece mais irracional do que a primeira.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "ambas as frases admitem que o excesso nem sempre é vicioso". De acordo com a teoria estudada em *3.4 O Método do Encadeamento de Premissas Verdadeiras*, localizar o ponto de partida mais restrito: quase sempre uma proposição simples isolada ou uma conjunção ("E").
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "a primeira frase apenas ameniza o sentido radical da segunda". De acordo com a teoria estudada em *2.1 Leis de De Morgan para Conjunção e Disjunção*, negação da Conjunção ("E"): Nega-se a primeira, nega-se a segunda e troca-se o conectivo por "OU".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a segunda frase desmente o que afirma a primeira". De acordo com a teoria estudada em *2.1 Leis de De Morgan para Conjunção e Disjunção*, negação da Disjunção Inclusiva ("OU"): Nega-se a primeira, nega-se a segunda e troca-se o conectivo por "E".
-> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Conectivos Lógicos e Regras da Tabela-Verdade* deste guia, conjunção: \$p \land q\$ — "p e q" — Só é VERDADEIRA se ambas as proposições forem verdadeiras (\$V \land V = V\$). Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "ambas as frases atestam a conveniência da plena moderação".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a segunda frase lhe parece mais irracional do que a primeira". De acordo com a teoria estudada em *2.2 Negação da Condicional e a Regra do MANÉ*, a negação de uma proposição condicional \$p \rightarrow q\$ é obtida pelo célebre mnemônico MANÉ (MAntém a primeira e NEga a segunda).
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Definição de Proposição e Sentenças Não Proposicionais* deste guia, proposição Lógica: Toda oração declarativa com sujeito e predicado expressos que veicula um pensamento completo e à qual se pode atribuir, de forma unívoca, um único valor lógico: Verdadeiro ($V$) ou Falso ($F$). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRT/10/2013) ao afirmar que "A proposição P pode ser corretamente representada pela 1 forma simbólica PvQ, em que P e Q são proposições...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.2 Os Três Princípios Fundamentais da Lógica Clássica*, segundo a qual princípio da Não Contradição: Uma proposição não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias e no mesmo tempo: $\neg(p \land \neg p)$.
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
 ### Teste 113
-**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
-Uma frase que representa uma equivalência da proposição lógica “Se Paulo estudou, então teve um bom desempenho no concurso” é:
+**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+É legítimo afirmar: no texto,
 
-* **A)** Paulo estudou ou não teve um bom desempenho no concurso
-* **B)** Paulo não estudou ou não teve um bom desempenho no concurso
-* **C)** Se Paulo não estudou, então não teve um bom desempenho no concurso
-* **D)** Paulo não estudou ou teve um bom desempenho no concurso
-* **E)** Paulo estudou e teve um bom desempenho no concurso
+* **A)** Transpondo a voz passiva presente na frase para a voz ativa, a forma correta a ser grafada é “têm acompanhado”.
+* **B)** A retirada da vírgula após a palavra reiteradamente prejudica o sentido original da frase.
+* **C)** A expressão Visível a olho nu, que constitui caracterização da palavra que a antecede, dá oportunidade para que se introduza outro argumento a favor da ideia expressa por notório.
+* **D)** Se o assunto fosse não um processo, mas “processos”, a correção exigiria a forma “se tratam de processos”.
+* **E)** O verbo “haver”, na frase, está empregado como indica o seguinte verbete do Dicionário eletrônico Houaiss: transitivo direto [impessoal] ter transcorrido ou ser decorrido (tempo).
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Paulo estudou ou não teve um bom desempenho no concurso". De acordo com a teoria estudada em *1.2 Os Três Princípios Fundamentais da Lógica Clássica*, princípio da Identidade: Uma proposição é idêntica a si mesma: se ela é verdadeira, é sempre verdadeira; se é falsa, é sempre falsa (\$p \implies p\$).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Paulo não estudou ou não teve um bom desempenho no concurso". De acordo com a teoria estudada em *1.2 Os Três Princípios Fundamentais da Lógica Clássica*, princípio da Não Contradição: Uma proposição não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias e no mesmo tempo: \$\neg(p \land \neg p)\$.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Se Paulo não estudou, então não teve um bom desempenho no concurso". De acordo com a teoria estudada em *1.3 Conectivos Lógicos e Regras da Tabela-Verdade*, condicional: \$p \rightarrow q\$ — "se p, então q" — Só é FALSA se o antecedente for \$V\$ e o consequente for \$F\$ (\$V \rightarrow F = F\$).
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Definição de Proposição e Sentenças Não Proposicionais* deste guia, proposição Lógica: Toda oração declarativa com sujeito e predicado expressos que veicula um pensamento completo e à qual se pode atribuir, de forma unívoca, um único valor lógico: Verdadeiro (\$V\$) ou Falso (\$F\$). Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "Paulo não estudou ou teve um bom desempenho no concurso".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Paulo estudou e teve um bom desempenho no concurso". De acordo com a teoria estudada em *1.2 Os Três Princípios Fundamentais da Lógica Clássica*, princípio do Terceiro Excluído: Uma proposição só pode assumir dois valores lógicos (\$V\$ ou \$F\$), excluindo-se qualquer terceiro valor ou estado intermediário.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Transpondo a voz passiva presente na frase para a voz ativa, a forma correta a ser grafada é “têm acompanhado”". De acordo com a teoria estudada em *1.1 Definição de Proposição e Sentenças Não Proposicionais*, sentenças interrogativas: *"Quem relatou o processo?"*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A retirada da vírgula após a palavra reiteradamente prejudica o sentido original da frase". De acordo com a teoria estudada em *1.3 Conectivos Lógicos e Regras da Tabela-Verdade*, negação: $\neg p$ ou $\sim p$ — "não p" — Inverte o valor lógico original ($V \rightarrow F$; $F \rightarrow V$).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A expressão Visível a olho nu, que constitui caracterização da palavra que a antecede, dá oportunidade para que se...". De acordo com a teoria estudada em *4.3 Análise de Silogismos via Diagramas de Euler-Venn*, portanto, deduzir que *"Algum A é P"* ou *"Nenhum A é P"* constitui falácia de conclusão contingente. O que é logicamente correto afirmar é que a interseção pode ocorrer, mas não é uma conclusão necessária.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Definição de Proposição e Sentenças Não Proposicionais* deste guia, proposição Lógica: Toda oração declarativa com sujeito e predicado expressos que veicula um pensamento completo e à qual se pode atribuir, de forma unívoca, um único valor lógico: Verdadeiro ($V$) ou Falso ($F$). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "Se o assunto fosse não um processo, mas “processos”, a correção exigiria a forma “se tratam de processos”".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O verbo “haver”, na frase, está empregado como indica o seguinte verbete do Dicionário eletrônico Houaiss...". De acordo com a teoria estudada em *1.2 Os Três Princípios Fundamentais da Lógica Clássica*, princípio da Não Contradição: Uma proposição não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias e no mesmo tempo: $\neg(p \land \neg p)$.
 >
 > **Gabarito: D**
 
@@ -206,74 +200,74 @@ A FCC explora intensamente duas formas canônicas de reescrever a condicional $p
 ---
 
 ### Teste 114
-**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
-A sentença condicional “Se sou um atleta, então pratico esportes” equivale a conjunção:
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+Nas atividades culturais realizadas no âmbito da biblioteca _________________________________________________________ são utilizadas várias técnicas e instrumentos combinados. 69. Considere as afirmativas abaixo sobre catalogação. Na perspectiva da ação cultural, como proposta por José I. Enquanto o AACR-2 é usado para descrever Teixeira Coelho Neto, essas atividades devem fisicamente um documento e definir a forma das suas entradas, o padrão MARC organiza esses
 
-* **A)** Não sou um atleta e não pratico esportes
-* **B)** Sou um atleta e não pratico esportes
-* **C)** Sou um atleta e pratico esportes
-* **D)** Não sou um atleta ou não pratico esportes
-* **E)** Não sou um atleta ou pratico esportes
+* **A)** alavancar a produção cultural, em que os parti- mesmos dados para que possam ser processados cipantes são sujeitos do processo. por linguagens de marcação.
+* **B)** ter princípio, meio e fim predeterminados, visando a II. Os Requisitos Funcionais para Registros Bibliográfi- realização de um produto. cos podem ser entendidos como um modelo con- ceitual que reestrutura os registros bibliográficos
+* **C)** partir de um projeto da instituição e envolver os baseado na necessidade dos usuários. usuários como seus receptores. III. De acordo com o AACR-2, quando uma obra tem
+* **D)** divertir o público e promover formas de lazer que mais de três autores, a entrada principal é pelo incluam programas de leitura e de arte. primeiro autor, seguido da expressão “et al”.
+* **E)** facilitar o uso de instalações e meios ao desenvol- IV. O AACR-2 especifica três níveis para a descrição vimento de eventos culturais. catalográfica, o que dá às bibliotecas certa flexibili- _________________________________________________________ dade para determinar a sua política de catalogação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.4 O Método do Encadeamento de Premissas Verdadeiras* deste guia, o método prático para resolver questões com múltiplas premissas condicionais na FCC consiste em. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "Não sou um atleta e não pratico esportes".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Sou um atleta e não pratico esportes". De acordo com a teoria estudada em *2.2 Negação da Condicional e a Regra do MANÉ*, a negação de uma proposição do tipo *"Se p, então q"* JAMAIS começa com a palavra 'Se'! Se a questão solicitar a negação de uma condicional e alguma alternativa vier iniciada por *"Se..."*, elimine-a imediatamente.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Sou um atleta e pratico esportes". De acordo com a teoria estudada em *2.3 Equivalências Notáveis da Condicional: Contrapositiva e Disjuntiva (NEYA)*, *Exemplo:* *"Se a prestação de contas foi apresentada tempestivamente, então a certidão foi emitida"* \$\equiv\$ *"Se a certidão não foi emitida, então a prestação de contas não foi apresentada tempestivamente"*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não sou um atleta ou não pratico esportes". De acordo com a teoria estudada em *2.2 Negação da Condicional e a Regra do MANÉ*, a negação lógica da condicional é sempre uma conjunção com o conectivo "E"!.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não sou um atleta ou pratico esportes". De acordo com a teoria estudada em *1.3 Conectivos Lógicos e Regras da Tabela-Verdade*, condicional: \$p \rightarrow q\$ — "se p, então q" — Só é FALSA se o antecedente for \$V\$ e o consequente for \$F\$ (\$V \rightarrow F = F\$).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "alavancar a produção cultural, em que os parti- mesmos dados para que possam ser processados cipantes são sujeitos...". De acordo com a teoria estudada em *1.1 Definição de Proposição e Sentenças Não Proposicionais*, sentenças interrogativas: *"Quem relatou o processo?"*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ter princípio, meio e fim predeterminados, visando a II. Os Requisitos Funcionais para Registros Bibliográfi-...". De acordo com a teoria estudada em *4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO*, lembre-se: "Todo" e "Nenhum" são proposições contrárias (podem ser ambas falsas ao mesmo tempo se houver 99 concursados e 1 comissionado), mas não são contraditórias. A negação legítima é: *"Pelo menos um servidor não é concursado"*.
+> - **C)** **Correta.** Conforme fundamentado na seção *3. Validade de Argumentos Dedutivos e Regras de Inferência* deste guia, a argumentação lógica investiga se uma determinada conclusão decorre com necessidade matemática absoluta a partir de um conjunto de premissas assumidas como verdadeiras. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "partir de um projeto da instituição e envolver os baseado na necessidade dos usuários. usuários como seus...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "divertir o público e promover formas de lazer que mais de três autores, a entrada principal é pelo incluam...". De acordo com a teoria estudada em *2.3 Equivalências Notáveis da Condicional: Contrapositiva e Disjuntiva (NEYA)*, a FCC explora intensamente duas formas canônicas de reescrever a condicional $p \rightarrow q$.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "facilitar o uso de instalações e meios ao desenvol- IV. O AACR-2 especifica três níveis para a descrição vimento...". De acordo com a teoria estudada em *1.2 Os Três Princípios Fundamentais da Lógica Clássica*, a lógica bivalente aristotélica assenta-se sobre três postulados absolutos.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
 ### Teste 115
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
-A negação de Se meu time ganhar o campeonato então vou viajar é
+**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Considere o seguinte caso: Observando o trâmite de processos no tribunal, Marta percebeu que tanto advogados quanto juízes realizavam análises nos diversos pareceres constantes dos processos. Com sua experiência como analista ela deduziu que uma possível informatização dos processos poderia contemplar uma classe chamada Advogado e outra chamada Juiz, tendo como base uma classe comum chamada Pessoa, com um método chamado AnalisarParecer. Este método (definido na classe comum) se comportaria de maneira diferente para as chamadas feitas a partir de uma instância de Advogado e para as chamadas feitas a partir de uma instância de Juiz, em razão deles terem responsabilidades diferentes em sua forma de analisar e opinar sobre os pareceres. Pela observação do método e seu comportamento, o princípio da orientação a objetos aplicável no caso, fundamentalmente, é
 
-* **A)** Meu time não ganha e eu não viajo.
-* **B)** Se meu time perder então vou viajar.
-* **C)** Se meu time perder então não vou viajar.
-* **D)** Meu time não ganha e eu viajo.
-* **E)** Meu time ganha e eu não viajo.
+* **A)** a comunicabilidade.
+* **B)** o encapsulameto.
+* **C)** a visibilidade.
+* **D)** o polimorfismo.
+* **E)** a estereotipagem.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Meu time não ganha e eu não viajo". De acordo com a teoria estudada em *2.3 Equivalências Notáveis da Condicional: Contrapositiva e Disjuntiva (NEYA)*, *Exemplo:* *"Se a prestação de contas foi apresentada tempestivamente, então a certidão foi emitida"* \$\equiv\$ *"Se a certidão não foi emitida, então a prestação de contas não foi apresentada tempestivamente"*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Se meu time perder então vou viajar". De acordo com a teoria estudada em *1.3 Conectivos Lógicos e Regras da Tabela-Verdade*, condicional: \$p \rightarrow q\$ — "se p, então q" — Só é FALSA se o antecedente for \$V\$ e o consequente for \$F\$ (\$V \rightarrow F = F\$).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Se meu time perder então não vou viajar". De acordo com a teoria estudada em *2.1 Leis de De Morgan para Conjunção e Disjunção*, as Leis de Augustus De Morgan ditam a negação das estruturas conjuntivas e disjuntivas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Meu time não ganha e eu viajo". De acordo com a teoria estudada em *2.1 Leis de De Morgan para Conjunção e Disjunção*, negação da Conjunção ("E"): Nega-se a primeira, nega-se a segunda e troca-se o conectivo por "OU".
-> - **E)** **Correta.** Conforme fundamentado na seção *2.2 Negação da Condicional e a Regra do MANÉ* deste guia, a negação de uma proposição do tipo *"Se p, então q"* JAMAIS começa com a palavra 'Se'! Se a questão solicitar a negação de uma condicional e alguma alternativa vier iniciada por *"Se..."*, elimine-a imediatamente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Meu time ganha e eu não viajo".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a comunicabilidade". De acordo com a teoria estudada em *1.1 Definição de Proposição e Sentenças Não Proposicionais*, proposição Lógica: Toda oração declarativa com sujeito e predicado expressos que veicula um pensamento completo e à qual se pode atribuir, de forma unívoca, um único valor lógico: Verdadeiro ($V$) ou Falso ($F$).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o encapsulameto". De acordo com a teoria estudada em *3. Validade de Argumentos Dedutivos e Regras de Inferência*, a argumentação lógica investiga se uma determinada conclusão decorre com necessidade matemática absoluta a partir de um conjunto de premissas assumidas como verdadeiras.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a visibilidade". De acordo com a teoria estudada em *3.2 Conceito Formal de Validade vs. Verdade Empírica*, se for possível construir um cenário consistente em que todas as premissas sejam verdadeiras e a conclusão seja falsa, o argumento é categorizado como INVÁLIDO (Falácia ou Sofisma).
+> - **D)** **Correta.** Conforme fundamentado na seção *2.4 Tautologias, Contradições e Contingências* deste guia, tautologia: Proposição composta que é invariavelmente verdadeira em todas as linhas da sua tabela-verdade, independentemente dos valores lógicos das proposições simples (ex.: $p \lor \neg p$, princípio do terceiro excluído). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "o polimorfismo".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a estereotipagem". De acordo com a teoria estudada em *1.2 Os Três Princípios Fundamentais da Lógica Clássica*, princípio da Identidade: Uma proposição é idêntica a si mesma: se ela é verdadeira, é sempre verdadeira; se é falsa, é sempre falsa ($p \implies p$).
 >
-> **Gabarito: E**
+> **Gabarito: D**
 
 ---
 
 ### Teste 116
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
-A negação de Paulo gosta de futebol ou João gosta de basquetebol é
+**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+José instalou, particionou e formatou um novo disco rígido (HD) em um computador com sistema operacional Linux e deseja que a nova partição criada seja montada, de forma automática, durante o processo de boot do sistema operacional. A configuração desejada por José deve ser inserida no arquivo
 
-* **A)** Paulo gosta de futebol e João não gosta de basquetebol.
-* **B)** Paulo não gosta de futebol ou João gosta de basquetebol.
-* **C)** Paulo pode gostar de futebol e João pode não gostar de basquetebol.
-* **D)** Paulo não gosta de futebol e João gosta de basquetebol.
-* **E)** Nem Paulo gosta de futebol nem João gosta de basquetebol.
+* **A)** /etc/rc.local
+* **B)** /bin/df
+* **C)** /boot/mnt
+* **D)** /etc/fstab
+* **E)** /mount
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Paulo gosta de futebol e João não gosta de basquetebol". De acordo com a teoria estudada em *2.1 Leis de De Morgan para Conjunção e Disjunção*, negação da Conjunção ("E"): Nega-se a primeira, nega-se a segunda e troca-se o conectivo por "OU".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Paulo não gosta de futebol ou João gosta de basquetebol". De acordo com a teoria estudada em *2.1 Leis de De Morgan para Conjunção e Disjunção*, *Exemplo:* A negação de *"O relatório foi concluído e o prazo foi cumprido"* é *"O relatório não foi concluído OU o prazo não foi cumprido"*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Paulo pode gostar de futebol e João pode não gostar de basquetebol". De acordo com a teoria estudada em *1.1 Definição de Proposição e Sentenças Não Proposicionais*, proposição Lógica: Toda oração declarativa com sujeito e predicado expressos que veicula um pensamento completo e à qual se pode atribuir, de forma unívoca, um único valor lógico: Verdadeiro (\$V\$) ou Falso (\$F\$).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Paulo não gosta de futebol e João gosta de basquetebol". De acordo com a teoria estudada em *2.1 Leis de De Morgan para Conjunção e Disjunção*, negação da Disjunção Inclusiva ("OU"): Nega-se a primeira, nega-se a segunda e troca-se o conectivo por "E".
-> - **E)** **Correta.** Conforme fundamentado na seção *2.1 Leis de De Morgan para Conjunção e Disjunção* deste guia, as Leis de Augustus De Morgan ditam a negação das estruturas conjuntivas e disjuntivas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Nem Paulo gosta de futebol nem João gosta de basquetebol".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/etc/rc.local". De acordo com a teoria estudada em *1.1 Definição de Proposição e Sentenças Não Proposicionais*, sentenças interrogativas: *"Quem relatou o processo?"*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/bin/df". De acordo com a teoria estudada em *4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO*, para negar uma proposição quantificada, deve-se alternar o tipo de quantificador (universal vira existencial, e existencial vira universal).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/boot/mnt". De acordo com a teoria estudada em *1.2 Os Três Princípios Fundamentais da Lógica Clássica*, princípio da Não Contradição: Uma proposição não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias e no mesmo tempo: $\neg(p \land \neg p)$.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Definição de Proposição e Sentenças Não Proposicionais* deste guia, proposição Lógica: Toda oração declarativa com sujeito e predicado expressos que veicula um pensamento completo e à qual se pode atribuir, de forma unívoca, um único valor lógico: Verdadeiro ($V$) ou Falso ($F$). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "/etc/fstab".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/mount". De acordo com a teoria estudada em *4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO*, lembre-se: "Todo" e "Nenhum" são proposições contrárias (podem ser ambas falsas ao mesmo tempo se houver 99 concursados e 1 comissionado), mas não são contraditórias. A negação legítima é: *"Pelo menos um servidor não é concursado"*.
 >
-> **Gabarito: E**
+> **Gabarito: D**
 
 ---
 
@@ -318,50 +312,50 @@ O método prático para resolver questões com múltiplas premissas condicionais
 ---
 
 ### Teste 117
-**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
-Considere verdadeira a afirmação: “Todos os corredores são magros”. Observe, a seguir, três conclusões da afirmação dada: 1. Se João é magro então é corredor. 2. Se João não é corredor, então não é magro. 3. Se João não é magro então não é corredor. Denotando por V uma conclusão verdadeira e por F uma conclusão falsa, para as três conclusões dadas, temos, respectivamente,
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+Um firewall é uma ferramenta essencial para proteger uma rede de computadores contra acessos não autorizados e ameaças externas. O papel de um firewall em uma rede de computadores é
 
-* **A)** V, V, V.
-* **B)** F, V, V.
-* **C)** F, F, V.
-* **D)** V, V, F.
-* **E)** V, F, F.
+* **A)** permitir o tráfego de dados sem qualquer restrição, garantindo que a rede esteja sempre disponível para comunicação.
+* **B)** bloquear todo o tráfego de dados proveniente de redes externas, sem qualquer exceção, para proteger os dados da rede interna.
+* **C)** monitorar e controlar o tráfego de rede com base em um conjunto de regras de segurança definidas, permitindo ou bloqueando o tráfego conforme a política configurada.
+* **D)** substituir a necessidade de criptografia em redes, garantindo que todos os dados sejam transmitidos de forma segura.
+* **E)** impedir que dispositivos internos da rede se comuniquem entre si, restringindo a troca de dados entre os usuários. REDAÇÃO As questões urbanas que afetam a sociedade surgiram com o intenso processo de urbanização que aconteceu nos países em diferentes épocas. No Brasil, por exemplo, o êxodo rural e o consequente aumento populacional das cidades ganharam evidência a partir da metade do século XX, menos de cem anos atrás. Diferentemente de outras nações desenvolvidas, que apresentam planejamento urbano, o nascimento dos municípios brasileiros aconteceu sem organização prévia: os indivíduos se instalavam onde e como era possível. Com isso, uma série de fatores negativos surgiram. Hoje, a população urbana enfrenta uma série de diferentes problemas. Selecione os que lhe parecem mais graves, trace um panorama sobre suas causas e apresente medidas para reduzi-los, num texto de extensão entre 20 e 30 linhas, em modelo dissertativo-argumentativo, em linguagem culta.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, V, V". De acordo com a teoria estudada em *1.2 Os Três Princípios Fundamentais da Lógica Clássica*, princípio da Não Contradição: Uma proposição não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias e no mesmo tempo: \$\neg(p \land \neg p)\$.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, V, V". De acordo com a teoria estudada em *3.2 Conceito Formal de Validade vs. Verdade Empírica*, um argumento dedutivo é declarado VÁLIDO quando é logicamente impossível que todas as suas premissas sejam simultaneamente verdadeiras e a sua conclusão seja falsa.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Os Três Princípios Fundamentais da Lógica Clássica* deste guia, princípio da Identidade: Uma proposição é idêntica a si mesma: se ela é verdadeira, é sempre verdadeira; se é falsa, é sempre falsa (\$p \implies p\$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "F, F, V".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, V, F". De acordo com a teoria estudada em *3.2 Conceito Formal de Validade vs. Verdade Empírica*, se for possível construir um cenário consistente em que todas as premissas sejam verdadeiras e a conclusão seja falsa, o argumento é categorizado como INVÁLIDO (Falácia ou Sofisma).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, F, F". De acordo com a teoria estudada em *3.4 O Método do Encadeamento de Premissas Verdadeiras*, as conclusões verdadeiras necessárias deduzidas correspondem à alternativa correta.
+> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "permitir o tráfego de dados sem qualquer restrição, garantindo que a rede esteja sempre disponível para comunicação". De acordo com a teoria estudada em *1.3 Conectivos Lógicos e Regras da Tabela-Verdade*, as proposições simples combinam-se mediante operadores lógicos (conectivos) para formar proposições compostas. O número de linhas da tabela-verdade de uma proposição composta contendo $n$ proposições simples distintas é sempre dado por.
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "bloquear todo o tráfego de dados proveniente de redes externas, sem qualquer exceção, para proteger os dados da...". De acordo com a teoria estudada em *1.2 Os Três Princípios Fundamentais da Lógica Clássica*, princípio do Terceiro Excluído: Uma proposição só pode assumir dois valores lógicos ($V$ ou $F$), excluindo-se qualquer terceiro valor ou estado intermediário.
+> - **C)** **Correta.** Conforme fundamentado na seção *3. Validade de Argumentos Dedutivos e Regras de Inferência* deste guia, a argumentação lógica investiga se uma determinada conclusão decorre com necessidade matemática absoluta a partir de um conjunto de premissas assumidas como verdadeiras. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "monitorar e controlar o tráfego de rede com base em um conjunto de regras de segurança definidas, permitindo ou...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "substituir a necessidade de criptografia em redes, garantindo que todos os dados sejam transmitidos de forma segura". De acordo com a teoria estudada em *1.1 Definição de Proposição e Sentenças Não Proposicionais*, proposição Lógica: Toda oração declarativa com sujeito e predicado expressos que veicula um pensamento completo e à qual se pode atribuir, de forma unívoca, um único valor lógico: Verdadeiro ($V$) ou Falso ($F$).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "impedir que dispositivos internos da rede se comuniquem entre si, restringindo a troca de dados entre os usuários...". De acordo com a teoria estudada em *4.1 Quantificadores Universais e Existenciais: Todo, Nenhum e Algum*, particular Negativo ("ALGUM A NÃO é B"): Existe pelo menos um elemento de A que não pertence ao conjunto B.
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 118
-**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
-Sabe-se que a sentença “Se a calça é verde e a camisa é rosa, então o sapato é branco ou o cinto é marrom” é FALSA. É correto concluir que:
+**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Utilizando instruções da PL/SQL, no Oracle 11g, é possível conceder ou remover privilégios de objeto a outros usuários. É correto afirmar:
 
-* **A)** a camisa não é rosa ou o cinto é marrom;
-* **B)** a calça é verde e o sapato é branco;
-* **C)** se o sapato não é branco, então a camisa não é rosa;
-* **D)** se o cinto não é marrom, então o sapato é branco;
-* **E)** se a calça não é verde, então o cinto é marrom.
+* **A)** não será possível restaurar um backup do banco de dados, pois os control files, datafiles e online redo log files foram perdidos.
+* **B)** será possível restaurar um backup do banco de dados utilizando o aplicativo DUMP ou RESTORE a partir da flash recovery area.
+* **C)** não será possível restaurar um banco de dados porque o servidor sempre fica off-line quando o disco é danificado, impedindo o acesso à flash recovery area.
+* **D)** será possível restaurar um backup RMAN em conjunto com os archive redo log files contidos na flash recovery area.
+* **E)** não será possível restaurar o banco de dados, pois o software Oracle foi corrompido e o disco no qual se localizavam os arquivos do banco de dados foi danificado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a camisa não é rosa ou o cinto é marrom". De acordo com a teoria estudada em *2.2 Negação da Condicional e a Regra do MANÉ*, a negação de uma proposição do tipo *"Se p, então q"* JAMAIS começa com a palavra 'Se'! Se a questão solicitar a negação de uma condicional e alguma alternativa vier iniciada por *"Se..."*, elimine-a imediatamente.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a calça é verde e o sapato é branco". De acordo com a teoria estudada em *2.3 Equivalências Notáveis da Condicional: Contrapositiva e Disjuntiva (NEYA)*, *Exemplo:* *"Se a prestação de contas foi apresentada tempestivamente, então a certidão foi emitida"* \$\equiv\$ *"Se a certidão não foi emitida, então a prestação de contas não foi apresentada tempestivamente"*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "se o sapato não é branco, então a camisa não é rosa". De acordo com a teoria estudada em *4.3 Análise de Silogismos via Diagramas de Euler-Venn*, portanto, deduzir que *"Algum A é P"* ou *"Nenhum A é P"* constitui falácia de conclusão contingente. O que é logicamente correto afirmar é que a interseção pode ocorrer, mas não é uma conclusão necessária.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Conectivos Lógicos e Regras da Tabela-Verdade* deste guia, condicional: \$p \rightarrow q\$ — "se p, então q" — Só é FALSA se o antecedente for \$V\$ e o consequente for \$F\$ (\$V \rightarrow F = F\$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "se o cinto não é marrom, então o sapato é branco".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "se a calça não é verde, então o cinto é marrom". De acordo com a teoria estudada em *3.2 Conceito Formal de Validade vs. Verdade Empírica*, um argumento dedutivo é declarado VÁLIDO quando é logicamente impossível que todas as suas premissas sejam simultaneamente verdadeiras e a sua conclusão seja falsa.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não será possível restaurar um backup do banco de dados, pois os control files, datafiles e online redo log files...". De acordo com a teoria estudada em *3.4 O Método do Encadeamento de Premissas Verdadeiras*, propagar esse valor veritativo pelas condicionais utilizando *Modus Ponens* ou *Modus Tollens*.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Conceito Formal de Validade vs. Verdade Empírica* deste guia, se for possível construir um cenário consistente em que todas as premissas sejam verdadeiras e a conclusão seja falsa, o argumento é categorizado como INVÁLIDO (Falácia ou Sofisma). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "será possível restaurar um backup do banco de dados utilizando o aplicativo DUMP ou RESTORE a partir da flash...".
+> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "não será possível restaurar um banco de dados porque o servidor sempre fica off-line quando o disco é danificado...". De acordo com a teoria estudada em *3. Validade de Argumentos Dedutivos e Regras de Inferência*, a argumentação lógica investiga se uma determinada conclusão decorre com necessidade matemática absoluta a partir de um conjunto de premissas assumidas como verdadeiras.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "será possível restaurar um backup RMAN em conjunto com os archive redo log files contidos na flash recovery area". De acordo com a teoria estudada em *3.1 Estrutura do Argumento: Premissas e Conclusão*, um argumento dedutivo é um conjunto ordenado de proposições estruturado em.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não será possível restaurar o banco de dados, pois o software Oracle foi corrompido e o disco no qual se...". De acordo com a teoria estudada em *4.3 Análise de Silogismos via Diagramas de Euler-Venn*, portanto, deduzir que *"Algum A é P"* ou *"Nenhum A é P"* constitui falácia de conclusão contingente. O que é logicamente correto afirmar é que a interseção pode ocorrer, mas não é uma conclusão necessária.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
@@ -413,74 +407,74 @@ Para avaliar a validade de silogismos com premissas como *"Todo A é E"* e *"Alg
 ---
 
 ### Teste 119
-**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
-Assinale a frase que deve apresentar uma vírgula.
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+A administração está presente tanto na vida cotidiana quanto na das organizações, manifestando-se na forma como recursos são combinados, decisões são tomadas e esforços são coordenados para que objetivos sejam alcançados. Com base nessa compreensão, é correto afirmar que administrar significa
 
-* **A)** A estrada do excesso conduz ao palácio da sabedoria.
-* **B)** A moderação é sempre a tática preferível.
-* **C)** Ao homem sábio são mais úteis os seus inimigos do que ao tolo os seus amigos.
-* **D)** Em geral na natureza humana existe mais tolice do que sabedoria.
-* **E)** Um homem sábio viverá tanto nos limites da própria presença de espírito quanto nos da própria renda.
+* **A)** seguir um conjunto fixo de regras e procedimentos operacionais, garantindo uniformidade nas ações.
+* **B)** supervisionar diretamente os colaboradores, assegurando o cumprimento de tarefas previamente estabelecidas.
+* **C)** aplicar técnicas padronizadas de gestão, independentemente do contexto organizacional em que se atua.
+* **D)** executar rotinas funcionais voltadas ao atendimento de demandas internas da organização.
+* **E)** tomar decisões de forma contínua, coordenando recursos e esforços com vistas ao alcance de resultados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A estrada do excesso conduz ao palácio da sabedoria". De acordo com a teoria estudada em *4.1 Quantificadores Universais e Existenciais: Todo, Nenhum e Algum*, particular Negativo ("ALGUM A NÃO é B"): Existe pelo menos um elemento de A que não pertence ao conjunto B.
-> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "A moderação é sempre a tática preferível". De acordo com a teoria estudada em *3.4 O Método do Encadeamento de Premissas Verdadeiras*, localizar o ponto de partida mais restrito: quase sempre uma proposição simples isolada ou uma conjunção ("E").
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ao homem sábio são mais úteis os seus inimigos do que ao tolo os seus amigos". De acordo com a teoria estudada em *4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO*, basta provar que existe pelo menos um elemento na interseção: *"Algum A é B"* (ou *"Pelo menos um A é B"*).
-> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Quantificadores Universais e Existenciais: Todo, Nenhum e Algum* deste guia, particular / Existencial Afirmativo ("ALGUM A é B"): Existe pelo menos um elemento pertencente a A que também pertence a B (\$A \cap B \neq \emptyset\$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Em geral na natureza humana existe mais tolice do que sabedoria".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Um homem sábio viverá tanto nos limites da própria presença de espírito quanto nos da própria renda". De acordo com a teoria estudada em *4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO*, a alternativa mais tentadora e incorreta em provas da FCC para negar *"Todos os servidores são concursados"* é *"Nenhum servidor é concursado"*.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "seguir um conjunto fixo de regras e procedimentos operacionais, garantindo uniformidade nas ações". De acordo com a teoria estudada em *3. Validade de Argumentos Dedutivos e Regras de Inferência*, a argumentação lógica investiga se uma determinada conclusão decorre com necessidade matemática absoluta a partir de um conjunto de premissas assumidas como verdadeiras.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "supervisionar diretamente os colaboradores, assegurando o cumprimento de tarefas previamente estabelecidas". De acordo com a teoria estudada em *4.3 Análise de Silogismos via Diagramas de Euler-Venn*, portanto, deduzir que *"Algum A é P"* ou *"Nenhum A é P"* constitui falácia de conclusão contingente. O que é logicamente correto afirmar é que a interseção pode ocorrer, mas não é uma conclusão necessária.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aplicar técnicas padronizadas de gestão, independentemente do contexto organizacional em que se atua". De acordo com a teoria estudada em *1.4 A Condicional: Peculiaridades e o Caso Falso Único*, em qualquer outro caso ($V \rightarrow V$, $F \rightarrow V$, $F \rightarrow F$), a condicional é necessariamente VERDADEIRA. Note que, se a primeira parte for falsa, a condicional já é automaticamente verdadeira, independentemente do que venha depois.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "executar rotinas funcionais voltadas ao atendimento de demandas internas da organização". De acordo com a teoria estudada em *4. Lógica de Primeira Ordem: Quantificadores e Silogismos Categóricos*, a lógica categórica estuda proposições que expressam relações de inclusão total, inclusão parcial ou exclusão total entre classes e conjuntos.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Definição de Proposição e Sentenças Não Proposicionais* deste guia, proposição Lógica: Toda oração declarativa com sujeito e predicado expressos que veicula um pensamento completo e à qual se pode atribuir, de forma unívoca, um único valor lógico: Verdadeiro ($V$) ou Falso ($F$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "tomar decisões de forma contínua, coordenando recursos e esforços com vistas ao alcance de resultados".
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
 ### Teste 120
-**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
-Abaixo estão cinco silogismos. Assinale a opção que mostra uma estruturação válida.
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Direito)**
+A Alfa Químicas do Pará é uma empresa que comercializa e distribui insumos industriais para diversos segmentos do mercado e se localiza na confluência do rio Beta com o manancial de captação de água do sistema de abastecimento público de 3 (três) cidades. Um dos produtos que a empresa comercializa é a substância tolueno, um líquido incolor, volátil, com odor característico, amplamente utilizado como solvente em indústrias que vão desde a produção de tintas e vernizes até a fabricação de produtos farmacêuticos e de borracha. No entanto, apesar de sua utilidade, o tolueno apresenta sérios riscos para a saúde humana e para o meio ambiente, alguns já conhecidos e outros ainda não comprovados por evidências científicas. Um dos funcionários da empresa Alfa Químicas do Pará, discordando da forma como estava sendo conduzido o processo de armazenamento do tolueno, denunciou-a à Secretaria de Meio Ambiente e Sustentabilidade do Pará, dando conta de que existiam tanques de armazenamento com má conservação e que estavam sendo feitas descargas industriais inadequadas. Após investigação, ficou constatada a presença de efluentes com a substância tolueno, sem qualquer tratamento, nas galerias de águas pluviais cujo curso, conforme planta industrial, desemboca no rio Beta. A empresa cessou as atividades alguns meses após o ajuizamento da ação civil pública pelo Ministério Público, que ocorreu 5 (cinco) anos após a ocorrência do fato constatado. Dessa forma, à luz dos Princípios do Direito Ambiental, da Política Nacional do Meio Ambiente – Lei nº 6938/81 e da jurisprudência dos Tribunais Superiores sobre a matéria, assinale a afirmativa correta.
 
-* **A)** Todos os brasileiros gostam de Copacabana / Pedro é brasileiro / Pedro gosta de Copacabana.
-* **B)** Todos os brasileiros gostam de Copacabana / Pedro não gosta de Copacabana / Pedro não é brasileiro.
-* **C)** Se você é brasileiro, gosta de Copacabana / Você é brasileiro / Você gosta de Copacabana.
-* **D)** Ou você não é brasileiro ou você gosta de Copacabana / Você não é brasileiro / Você gosta de Copacabana.
-* **E)** Ou você não é brasileiro ou você gosta de Copacabana / Você é brasileiro / Você não gosta de Copacabana.
+* **A)** A situação narrada caracteriza infração ambiental, passível de aplicação de sanções como a multa administrativa. Todavia, a demanda de reparação civil daí decorrente exige não apenas a ocorrência de infração, mas também que seja demonstrado o dano efetivo, observado o prazo prescricional de 10 (dez) anos.
+* **B)** Diante dos princípios da precaução e da prevenção e dado o alto grau de risco que a atividade de despejo de efluentes contaminados, sem qualquer tratamento, em rio com ponto de confluência com manancial de captação para abastecimento público representa para o meio ambiente e a saúde humana, a ausência de nova prova técnica pericial do dano na fase processual pela parte autora não inviabiliza o reconhecimento do dever de reparação ambiental.
+* **C)** Eventual ausência de realização de perícia judicial, em razão do grande tempo transcorrido para ajuizamento da ação e do fato de a empresa já ter finalizado suas atividades inviabiliza o reconhecimento do dever de reparação ambiental. Ademais, houve perda do interesse de agir, diante do encerramento das atividades da empresa.
+* **D)** A inversão do ônus da prova não se aplica à presente hipótese, tendo em vista que não há prova cabal da presença de tolueno ao longo do rio Beta. Assim, não é possível especificar minimamente qual marca deletéria o despejo do efluente contaminado por tolueno impactou no ambiente de entorno e à saúde humana.
+* **E)** Com base no ordenamento jurídico brasileiro, a regra geral é a de que a pretensão de exigir a reparação dos danos seja submetida à prescrição. Portanto, a despeito de a Constituição e leis ordinárias não disporem acerca do prazo prescricional para a reparação de danos civis ambientais, os tribunais superiores entendem que vigora a regra da estipulação de prazo de 5 anos para pretensão em matéria ambiental.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *4. Lógica de Primeira Ordem: Quantificadores e Silogismos Categóricos* deste guia, a lógica categórica estuda proposições que expressam relações de inclusão total, inclusão parcial ou exclusão total entre classes e conjuntos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "Todos os brasileiros gostam de Copacabana / Pedro é brasileiro / Pedro gosta de Copacabana".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Todos os brasileiros gostam de Copacabana / Pedro não gosta de Copacabana / Pedro não é brasileiro". De acordo com a teoria estudada em *4.3 Análise de Silogismos via Diagramas de Euler-Venn*, para avaliar a validade de silogismos com premissas como *"Todo A é E"* e *"Algum E é P"*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Se você é brasileiro, gosta de Copacabana / Você é brasileiro / Você gosta de Copacabana". De acordo com a teoria estudada em *4.3 Análise de Silogismos via Diagramas de Euler-Venn*, desenhe os círculos de conjuntos de Euler-Venn.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ou você não é brasileiro ou você gosta de Copacabana / Você não é brasileiro / Você gosta de Copacabana". De acordo com a teoria estudada em *4.3 Análise de Silogismos via Diagramas de Euler-Venn*, o círculo \$A\$ está totalmente dentro de \$E\$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ou você não é brasileiro ou você gosta de Copacabana / Você é brasileiro / Você não gosta de Copacabana". De acordo com a teoria estudada em *4.3 Análise de Silogismos via Diagramas de Euler-Venn*, o círculo \$P\$ cruza com \$E\$, mas não se pode garantir que encoste em \$A\$. Ele pode estar numa região de \$E\$ totalmente afastada de \$A\$.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A situação narrada caracteriza infração ambiental, passível de aplicação de sanções como a multa administrativa...". De acordo com a teoria estudada em *1.4 A Condicional: Peculiaridades e o Caso Falso Único*, em qualquer outro caso ($V \rightarrow V$, $F \rightarrow V$, $F \rightarrow F$), a condicional é necessariamente VERDADEIRA. Note que, se a primeira parte for falsa, a condicional já é automaticamente verdadeira, independentemente do que venha depois.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Os Três Princípios Fundamentais da Lógica Clássica* deste guia, princípio do Terceiro Excluído: Uma proposição só pode assumir dois valores lógicos ($V$ ou $F$), excluindo-se qualquer terceiro valor ou estado intermediário. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Diante dos princípios da precaução e da prevenção e dado o alto grau de risco que a atividade de despejo de...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Eventual ausência de realização de perícia judicial, em razão do grande tempo transcorrido para ajuizamento da...". De acordo com a teoria estudada em *1.2 Os Três Princípios Fundamentais da Lógica Clássica*, princípio da Não Contradição: Uma proposição não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias e no mesmo tempo: $\neg(p \land \neg p)$.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A inversão do ônus da prova não se aplica à presente hipótese, tendo em vista que não há prova cabal da presença...". De acordo com a teoria estudada em *1.2 Os Três Princípios Fundamentais da Lógica Clássica*, a lógica bivalente aristotélica assenta-se sobre três postulados absolutos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Com base no ordenamento jurídico brasileiro, a regra geral é a de que a pretensão de exigir a reparação dos danos...". De acordo com a teoria estudada em *2.1 Leis de De Morgan para Conjunção e Disjunção*, *Exemplo:* A negação de *"O relatório foi concluído e o prazo foi cumprido"* é *"O relatório não foi concluído OU o prazo não foi cumprido"*.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
 ### Teste 121
-**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
-Numa reunião de departamento, um professor mostrou os péssimos resultados de seus alunos no primeiro semestre para demonstrar a falência do ensino universitário. Essa argumentação do professor mostra um problema, que é
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia Da Informacao)**
+O analista Frederico configurou uma instalação personalizada do Red Hat Enterprise Linux (RHEL) para servidores Intel 64-bit baseados em BIOS. Frederico utilizou ainda o RHEL Kickstart para automatizar a instalação personalizada. A variante do Kickstart utilizada foi a que automatiza completamente o processo de instalação, a partir de um boot loader via rede adequadamente configurado. Para permitir o início automático da instalação Kickstart pelos servidores, Frederico configurou um servidor de boot:
 
-* **A)** um círculo vicioso, pois a primeira e a segunda parte do raciocínio mostram o mesmo significado.
-* **B)** uma falsa relação de causa e efeito, pois a primeira parte indica uma causa não verdadeira para a conclusão.
-* **C)** um estereótipo, pois hoje se consideram os alunos universitários como símbolos da incompetência.
-* **D)** uma falsa analogia, já que os elementos comparados são diferentes em um ponto essencial.
-* **E)** uma generalização excessiva, pois fez uma dedução para um todo (o ensino universitário), que pode ser injusta.
+* **A)** ISO;
+* **B)** PXE;
+* **C)** CDN;
+* **D)** VNC;
+* **E)** HTTP.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um círculo vicioso, pois a primeira e a segunda parte do raciocínio mostram o mesmo significado". De acordo com a teoria estudada em *4.3 Análise de Silogismos via Diagramas de Euler-Venn*, o círculo \$P\$ cruza com \$E\$, mas não se pode garantir que encoste em \$A\$. Ele pode estar numa região de \$E\$ totalmente afastada de \$A\$.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma falsa relação de causa e efeito, pois a primeira parte indica uma causa não verdadeira para a conclusão". De acordo com a teoria estudada em *1.4 A Condicional: Peculiaridades e o Caso Falso Único*, em qualquer outro caso (\$V \rightarrow V\$, \$F \rightarrow V\$, \$F \rightarrow F\$), a condicional é necessariamente VERDADEIRA. Note que, se a primeira parte for falsa, a condicional já é automaticamente verdadeira, independentemente do que venha depois.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um estereótipo, pois hoje se consideram os alunos universitários como símbolos da incompetência". De acordo com a teoria estudada em *4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO*, lembre-se: "Todo" e "Nenhum" são proposições contrárias (podem ser ambas falsas ao mesmo tempo se houver 99 concursados e 1 comissionado), mas não são contraditórias. A negação legítima é: *"Pelo menos um servidor não é concursado"*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma falsa analogia, já que os elementos comparados são diferentes em um ponto essencial". De acordo com a teoria estudada em *3.1 Estrutura do Argumento: Premissas e Conclusão*, premissas (\$P_1, P_2, \dots, P_n\$): Proposições que servem de ponto de partida, evidência ou suporte fático.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Os Três Princípios Fundamentais da Lógica Clássica* deste guia, princípio da Não Contradição: Uma proposição não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias e no mesmo tempo: \$\neg(p \land \neg p)\$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "uma generalização excessiva, pois fez uma dedução para um todo (o ensino universitário), que pode ser injusta".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ISO". De acordo com a teoria estudada em *4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO*, lembre-se: "Todo" e "Nenhum" são proposições contrárias (podem ser ambas falsas ao mesmo tempo se houver 99 concursados e 1 comissionado), mas não são contraditórias. A negação legítima é: *"Pelo menos um servidor não é concursado"*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PXE". De acordo com a teoria estudada em *4.3 Análise de Silogismos via Diagramas de Euler-Venn*, para avaliar a validade de silogismos com premissas como *"Todo A é E"* e *"Algum E é P"*.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO* deste guia, a alternativa mais tentadora e incorreta em provas da FCC para negar *"Todos os servidores são concursados"* é *"Nenhum servidor é concursado"*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "CDN".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "VNC". De acordo com a teoria estudada em *4.3 Análise de Silogismos via Diagramas de Euler-Venn*, desenhe os círculos de conjuntos de Euler-Venn.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "HTTP". De acordo com a teoria estudada em *4.3 Análise de Silogismos via Diagramas de Euler-Venn*, o círculo $A$ está totalmente dentro de $E$.
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 

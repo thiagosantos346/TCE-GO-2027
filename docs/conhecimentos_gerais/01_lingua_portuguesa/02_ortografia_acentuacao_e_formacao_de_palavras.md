@@ -153,26 +153,20 @@ Monossílabos tônicos terminados em *-i* ou *-u* (*ti, vi, tu, cru, nus*) não 
 ---
 
 ### Teste 012
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Direito – 2026)**
-A língua portuguesa contém vocábulos com três acentuações tônicas: oxítonas, paroxítonas e proparoxítonas. Entre as opções abaixo, assinale aquela que mostra dois vocábulos com idêntica acentuação tônica (as palavras estão propositalmente sem acentos gráficos).
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+As palavras “países”, “famílias” e “níveis” são acentuadas de acordo com a mesma regra de acentuação gráfica.
 
-* **A)** interim / decano.
-* **B)** prototipo / gratuito.
-* **C)** pesames / carater.
-* **D)** filantropo / maquinaria.
-* **E)** hipodromo / futil.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "interim / decano". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, a estrutura acentual do idioma apoia-se em um princípio de economia: a grande maioria dos vocábulos da língua portuguesa é paroxítona terminada nas vogais mais comuns (*-a*, *-e*, *-o* seguidas ou não de *-s*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "prototipo / gratuito". De acordo com a teoria estudada em *1.1 Posição da Sílaba Tônica e Tonicidade Vocálica*, proparoxítonas (ou proparoxítonos): a sílaba tônica situa-se na antepenúltima posição (*lâmp-a-da*, *ár-vo-re*, *vér-ti-ce*). Na língua portuguesa, nenhuma palavra de padrão vernáculo recebe tonicidade anterior à antepenúltima sílaba.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pesames / carater". De acordo com a teoria estudada em *1.3 Regra das Paroxítonas e Ditongos Orais*, r: *revólver, açúcar, caráter, cadáver, éter*.
-> - **D)** **Correta.** Conforme fundamentado na seção *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico* deste guia, a acentuação gráfica na língua portuguesa tem por objetivo assinalar, na escrita, a sílaba de maior intensidade fonética (sílaba tônica) de determinadas palavras e, em situações específicas, indicar o timbre aberto ou fechado da vogal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "filantropo / maquinaria".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "hipodromo / futil". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, o sistema gráfico oficial brasileiro é regido pelo Acordo Ortográfico da Língua Portuguesa de 1990, promulgado no território nacional pelo Decreto nº 6.583/2008 e tornado obrigatório a partir de 1º de janeiro de 2016.
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As palavras “países”, “famílias” e “níveis” são acentuadas de acordo com a mesma regra de acentuação gráfica". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, por essa razão estatística, tais vocábulos não recebem acento gráfico (como em *mesa*, *parede*, *livro*). O acento é reservado àquelas palavras cuja terminação ou estrutura silábica contraria o padrão fonológico predominante.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico* deste guia, a acentuação gráfica na língua portuguesa tem por objetivo assinalar, na escrita, a sílaba de maior intensidade fonética (sílaba tônica) de determinadas palavras e, em situações específicas, indicar o timbre aberto ou fechado da vogal. Portanto, a assertiva examinada pela banca (CEBRASPE – TRT/10/2013) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
@@ -239,7 +233,7 @@ O Novo Acordo Ortográfico eliminou a quase totalidade dos acentos diferenciais 
 ---
 
 ### Teste 013
-**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
+**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
 A contracapa do Minidicionário da Língua Portuguesa, de autoria de Evanildo Bechara, traz o seguinte: Elaborado pelo prof. Evanildo Bechara, o único representante da ABL no novo Acordo Ortográfico. Muito fácil de consultar. Todas as palavras alteradas pela Reforma Ortográfica vêm assinaladas. Mais de 30 mil palavras e locuções. Regionalismos, estrangeirismos e siglas. Assinale a opção que não mostra uma vantagem que está explícita ou implicitamente aí indicada.
 
 * **A)** Grande número de vocábulos incluídos na obra.
@@ -253,7 +247,7 @@ A contracapa do Minidicionário da Língua Portuguesa, de autoria de Evanildo Be
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Grande número de vocábulos incluídos na obra". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, a estrutura acentual do idioma apoia-se em um princípio de economia: a grande maioria dos vocábulos da língua portuguesa é paroxítona terminada nas vogais mais comuns (*-a*, *-e*, *-o* seguidas ou não de *-s*).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC* deste guia, visão Tradicional (Paroxítonas Terminadas em Ditongo): Autores como Evanildo Bechara e a ABL registram primordialmente que tais vocábulos são paroxítonos, pois na linguagem fluida a semivogal e a vogal final formam uma única sílaba (*re-la-tó-rio*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "Classificação gramatical dos vocábulos".
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC* deste guia, visão Tradicional (Paroxítonas Terminadas em Ditongo): Autores como Evanildo Bechara e a ABL registram primordialmente que tais vocábulos são paroxítonos, pois na linguagem fluida a semivogal e a vogal final formam uma única sílaba (*re-la-tó-rio*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "Classificação gramatical dos vocábulos".
 > - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Facilidade de acesso à obra". De acordo com a teoria estudada em *1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC*, a regra basilar do idioma determina que todas as palavras proparoxítonas reais são acentuadas graficamente, sem exceção, sejam elas de origem vernácula ou vocábulos latinos e estrangeiros aportuguesados que se integraram ao léxico (*médico*, *álvoroço*, *espírito*, *déficit*, *superávit*, *habitat*).
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Informações de qualidade diferenciada". De acordo com a teoria estudada em *2. Regras Especiais de Acentuação*, além das regras gerais dependentes unicamente da terminação e da contagem silábica, o português adota regras que consideram a qualidade do encontro vocálico e a necessidade de desambiguação morfológica.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Informações atuais sobre palavras". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, por essa razão estatística, tais vocábulos não recebem acento gráfico (como em *mesa*, *parede*, *livro*). O acento é reservado àquelas palavras cuja terminação ou estrutura silábica contraria o padrão fonológico predominante.
@@ -340,50 +334,44 @@ Entretanto, o Acordo Ortográfico determinou o **fim do hífen nas locuções de
 ---
 
 ### Teste 014
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
-Entre as opções a seguir, assinale aquela que mostra o acento grave indicativo da crase num contexto em que seu uso é optativo.
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Agente Da Policia Judicial)**
+No fragmento a seguir, “...presta também um grande serviço à medicina.” o uso do acento grave indicativo da crase está correto. Assinale a frase em que a utilização do acento grave indicativo da crase também está correta.
 
-* **A)** Quanto mais felizes somos, menos atenção prestamos à nossa felicidade.
-* **B)** De todos os caminhos que conduzem à riqueza, os mais seguros são a perseverança e o trabalho.
-* **C)** Se achares três mil-réis, leva-os à polícia; se achares três contos leva-os a um banco.
-* **D)** Derrote o medo da morte e dê boas-vindas à morte do medo.
-* **E)** Tudo o que vem da terra volta à terra e o que vem das águas volta ao mar.
+* **A)** Todos queriam ver à cena de perto.
+* **B)** Não à mal que sempre dure.
+* **C)** Assistiu à cena e se maravilhou.
+* **D)** Observou à paisagem de longe.
+* **E)** Falava palavrões à torto e a direito.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.3 Prefixos Especiais, Acentuados e Casos de Aglutinação Forçada* deste guia, atenção: se o elemento for átono e sem acento próprio, aglutina-se sem hífen: *proativo, predeterminado, pospor*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "Quanto mais felizes somos, menos atenção prestamos à nossa felicidade".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "De todos os caminhos que conduzem à riqueza, os mais seguros são a perseverança e o trabalho". De acordo com a teoria estudada em *3.1 Regra Geral dos Opostos e Casos com Consoante H*, com o prefixo *sub-*, o vocabulário oficial registra tanto a forma hifenizada *sub-humano* quanto a forma aglutinada sem H *subumano*. A FCC costuma cobrar preferencialmente a forma geral hifenizada (*sub-humano*).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Se achares três mil-réis, leva-os à polícia; se achares três contos leva-os a um banco". De acordo com a teoria estudada em *1.3 Regra das Paroxítonas e Ditongos Orais*, n: *pólen, hífen, cânon, elétron* (Atenção: o plural dessas palavras perde o acento, pois termina em *-ens*: *polens, hifens, canons, eletrons* — ver alerta abaixo).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Derrote o medo da morte e dê boas-vindas à morte do medo". De acordo com a teoria estudada em *5.3 Desinências Nominais e Desinências Verbais*, modo-Temporais (DMT): Indicam o tempo cronológico e o modo em que se desenvolve a ação verbal (*cant-`<ins>`va`</ins>`-mos* [pretérito imperfeito do indicativo]; *cant-a-`<ins>`sse`</ins>`-mos* [pretérito imperfeito do subjuntivo]; *cant-a-`<ins>`ra`</ins>`-mos* [pretérito mais-que-perfeito]).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tudo o que vem da terra volta à terra e o que vem das águas volta ao mar". De acordo com a teoria estudada em *3.3 Prefixos Especiais, Acentuados e Casos de Aglutinação Forçada*, *ex-diretor, ex-presidente, vice-governador, sem-terra, além-mar, aquém-fronteiras, recém-empossado, pós-graduação, pré-edital, pró-ativo*.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Todos queriam ver à cena de perto". De acordo com a teoria estudada em *1.3 Regra das Paroxítonas e Ditongos Orais*, n: *pólen, hífen, cânon, elétron* (Atenção: o plural dessas palavras perde o acento, pois termina em *-ens*: *polens, hifens, canons, eletrons* — ver alerta abaixo).
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Não à mal que sempre dure". De acordo com a teoria estudada em *3.1 Regra Geral dos Opostos e Casos com Consoante H*, segundo Elemento Iniciado por Consoante H: O fonema inicial mudo da letra *h* não admite fusão ortográfica direta com prefixos na língua padrão. Logo, diante de palavra iniciada por *h*, o uso do hífen é sempre obrigatório, qualquer que seja o prefixo.
+> - **C)** **Correta.** Conforme fundamentado na seção *Acentos Diferenciais Obrigatórios:* deste guia, pôde (Pretérito Perfeito) $\neq$ Pode (Presente do Indicativo): O verbo *poder* recebe acento circunflexo na 3ª pessoa do singular do pretérito perfeito (*"Ontem o auditor não pôde comparecer"*) para se distinguir da forma homógrafa no presente do indicativo (*"Hoje ele pode analisar o processo"*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "Assistiu à cena e se maravilhou".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Observou à paisagem de longe". De acordo com a teoria estudada em *Acentos Diferenciais Obrigatórios:*, têm e Vêm (Plural) $\neq$ Tem e Vem (Singular): Os verbos *ter* e *vir* levam acento circunflexo na 3ª pessoa do plural do presente do indicativo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Falava palavrões à torto e a direito". De acordo com a teoria estudada em *3.1 Regra Geral dos Opostos e Casos com Consoante H*, letras Iguais se Separam com Hífen: Se o prefixo terminar pela mesma letra (seja vogal ou consoante) com que se inicia o segundo elemento, o uso do hífen é obrigatório.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
 ### Teste 015
-**(FGV – TJ-BA – Analista Judiciario Tecnologia da Informacao – 2015)**
-No texto 1, a palavra “bem-intencionada” aparece grafada com hífen; o Novo Acordo Ortográfico diz que “Nas palavras em que o primeiro elemento é bem-, a regra geral é o emprego do hífen, não importando se o segundo elemento começa por vogal ou consoante”. Sobre esse caso, a afirmação correta é:
+**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+A partir do desenvolvimento das idéias do texto, conclui-se tal modo que, se for empregado o substantivo que a palavra “crítico” ((cid:53).9) está sendo empregada como correspondente a “perceber”, percepção, a preposição crucial, perigoso. continuará presente e será correto o emprego da crase: à
 
-* **A)** a palavra foi mal grafada, pois deve ser escrita sem hífen;
-* **B)** a palavra foi bem grafada já que se trata da junção de um advérbio de modo + adjetivo;
-* **C)** a palavra foi bem grafada, pois se trata de um adjetivo composto com um elemento de valor prefixal;
-* **D)** a palavra foi mal grafada, visto que não se trata de um vocábulo, mas de dois;
-* **E)** a palavra foi bem grafada, pois houve mudanças nesse
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a palavra foi mal grafada, pois deve ser escrita sem hífen". De acordo com a teoria estudada em *3.1 Regra Geral dos Opostos e Casos com Consoante H*, segundo Elemento Iniciado por Consoante H: O fonema inicial mudo da letra *h* não admite fusão ortográfica direta com prefixos na língua padrão. Logo, diante de palavra iniciada por *h*, o uso do hífen é sempre obrigatório, qualquer que seja o prefixo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a palavra foi bem grafada já que se trata da junção de um advérbio de modo + adjetivo". De acordo com a teoria estudada em *5.2 Tema e Afixos Formadores (Prefixos e Sufixos)*, sufixos: Morfemas pospostos ao radical, possuindo alta capacidade de converter a palavra em outra classe gramatical: *leal \$\rightarrow\$ leal-`<ins>`dade`</ins>`* (adjetivo em substantivo); *atual \$\rightarrow\$ atual-`<ins>`izar`</ins>`* (adjetivo em verbo); *rápido \$\rightarrow\$ rapida-`<ins>`mente`</ins>`* (adjetivo em advérbio).
-> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Duplicação das Consoantes R e S* deste guia, se o prefixo terminar em vogal e o segundo elemento principiar pelas consoantes R ou S, o hífen é eliminado e a consoante correspondente deve ser duplicada (*rr* ou *ss*), a fim de manter o valor sonoro original do fonema. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-BA/2015) ao estabelecer que "a palavra foi bem grafada, pois se trata de um adjetivo composto com um elemento de valor prefixal".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a palavra foi mal grafada, visto que não se trata de um vocábulo, mas de dois". De acordo com a teoria estudada em *6.5 Composição: Justaposição e Aglutinação*, a composição ocorre quando dois ou mais radicais autônomos unem-se para estruturar um vocábulo composto.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a palavra foi bem grafada, pois houve mudanças nesse". De acordo com a teoria estudada em *6.2 Derivação Parassintética*, para a FCC, o teste do desmonte é soberano: retire mentalmente o prefixo da palavra. Se a forma remanescente com o sufixo fizer sentido na língua padrão, trata-se de derivação prefixal e sufixal (*deslealdade* \$\rightarrow\$ *lealdade* existe).
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A partir do desenvolvimento das idéias do texto, conclui-se tal modo que, se for empregado o substantivo que...". De acordo com a teoria estudada em *6.2 Derivação Parassintética*, trata-se de mecanismo empregado comumente para formar verbos a partir de substantivos ou adjetivos primitivos.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *Acentos Diferenciais Facultativos:* deste guia, fôrma / Forma: O emprego do acento circunflexo no substantivo *fôrma* (molde, vasilha) é facultativo, sendo recomendado pelo formulário ortográfico apenas quando houver risco evidente de ambiguidade com o substantivo ou verbo *forma* (aparência exterior, conformação, do verbo formar): *"Cada um tem sua própria forma de usar a fôrma de bolo"*. Portanto, a assertiva examinada pela banca (CEBRASPE – STF/2008) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
@@ -455,50 +443,38 @@ Os parônimos são palavras muito semelhantes na grafia e na pronúncia, mas que
 ---
 
 ### Teste 016
-**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
-A posição do pronome oblíquo é facultativa em:
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+O emprego de linguagem simples e vocabulário acessível denota coloquialidade, razão por que deve ser evitado em correspondências oficiais. Ao comentar sobre as razões da dor na região lombar que seu paciente sentia, o médico fez as seguintes afirmativas. P : Além de ser suportado pela estrutura óssea da coluna, seu peso 1 é suportado também por sua estrutura muscular. P : Se você estiver com sua estrutura muscular fraca ou com 2 sobrepeso, estará com sobrecarga na estrutura óssea da coluna. P : Se você estiver com sobrecarga na estrutura óssea da coluna, 3 sentirá dores na região lombar. P : Se você praticar exercícios físicos regularmente, sua estrutura 4 muscular não estará fraca. P : Se você tiver uma dieta balanceada, não estará com sobrepeso. 5 Tendo como referência a situação acima apresentada, julgue os itens seguintes, considerando apenas seus aspectos lógicos.
 
-* **A)** "Mendigo" é um termo horrível não porque as vogais e consoantes se juntem de forma deselegante.”
-* **B)** “Do contrário, a linguagem deixa de ser uma ferramenta que busca representar a vida como ela é e se torna um tapume nos impedindo de enxergála.”
-* **C)** “Não, não estará se não nos indignarmos com a indigência e agirmos.”
-* **D)** “Nosso objetivo deveria ser dar condições de vida decente praquela gente, não nos sentirmos confortáveis ao mencioná-la.”
-* **E)** “Talvez fosse bom deixarmos o incômodo nos tomar toda vez que disséssemos ou ouvíssemos "favela" ou "favelados [...].”
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que ""Mendigo" é um termo horrível não porque as vogais e consoantes se juntem de forma deselegante.”". De acordo com a teoria estudada em *5.4 Vogais e Consoantes de Ligação*, são fonemas inseridos unicamente por imperativo de eufonia, isto é, para viabilizar ou facilitar a pronúncia da junção entre radicais ou entre radical e sufixo, evitando a dissonância fonética. Não possuem qualquer valor significativo ou semântico.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Do contrário, a linguagem deixa de ser uma ferramenta que busca representar a vida como ela é e se torna um...". De acordo com a teoria estudada em *4.4 Parônimos e Homófonos de Alta Incidência em Concursos*, *Mandado:* ordem formal emanada de autoridade judiciária (*"mandado de segurança", "mandado de prisão", "mandado de busca e apreensão"*).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Não, não estará se não nos indignarmos com a indigência e agirmos.”". De acordo com a teoria estudada em *2.3 Formas Verbais com Pronomes Enclíticos*, na conjugação de verbos acompanhados de pronomes oblíquos enclíticos (*-lo, -la, -los, -las, -no, -na*), a análise da tonicidade e das regras de acentuação deve isolar completamente o pronome e incidir exclusivamente sobre a terminação da forma verbal residual.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Nosso objetivo deveria ser dar condições de vida decente praquela gente, não nos sentirmos confortáveis ao...". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, a acentuação gráfica na língua portuguesa tem por objetivo assinalar, na escrita, a sílaba de maior intensidade fonética (sílaba tônica) de determinadas palavras e, em situações específicas, indicar o timbre aberto ou fechado da vogal.
-> - **E)** **Correta.** Conforme fundamentado na seção *4.4 Parônimos e Homófonos de Alta Incidência em Concursos* deste guia, *Senso (com S):* faculdade de julgar, discernimento, prudência, bom juízo (*"Faltou-lhe bom senso na condução dos debates"*). Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "“Talvez fosse bom deixarmos o incômodo nos tomar toda vez que disséssemos ou ouvíssemos "favela" ou "favelados...".
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O emprego de linguagem simples e vocabulário acessível denota coloquialidade, razão por que deve ser evitado...". De acordo com a teoria estudada em *3.2 Duplicação das Consoantes R e S*, se o prefixo terminar em vogal e o segundo elemento principiar pelas consoantes R ou S, o hífen é eliminado e a consoante correspondente deve ser duplicada (*rr* ou *ss*), a fim de manter o valor sonoro original do fonema.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico* deste guia, por essa razão estatística, tais vocábulos não recebem acento gráfico (como em *mesa*, *parede*, *livro*). O acento é reservado àquelas palavras cuja terminação ou estrutura silábica contraria o padrão fonológico predominante. Portanto, a assertiva examinada pela banca (CEBRASPE – TRT/10/2013) viola os preceitos técnicos do tópico.
 >
 > **Gabarito: E**
 
 ---
 
 ### Teste 017
-**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
-Em: “Talvez fosse bom deixarmos o incômodo nos tomar toda vez que disséssemos ou ouvíssemos "favela" ou "favelados", os verbos destacados estão flexionados no:
+**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+A correção gramatical do texto seria prejudicada caso se 4 ser que possa viver isolado; é, ao contrário, ordenado empregasse o sinal indicativo de crase no vocábulo “a” em “dá teleologicamente a viver em sociedade. É um ser que vive, atua (R.20). suporte a exigências recíprocas” e relaciona-se na comunidade, e sente-se vinculado aos seus
 
-* **A)** futuro do pretérito do indicativo.
-* **B)** futuro do subjuntivo.
-* **C)** pretérito imperfeito do indicativo.
-* **D)** pretérito imperfeito do subjuntivo.
-* **E)** pretérito perfeito do indicativo.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "futuro do pretérito do indicativo". De acordo com a teoria estudada em *Acentos Diferenciais Obrigatórios:*, pôde (Pretérito Perfeito) \$\neq\$ Pode (Presente do Indicativo): O verbo *poder* recebe acento circunflexo na 3ª pessoa do singular do pretérito perfeito (*"Ontem o auditor não pôde comparecer"*) para se distinguir da forma homógrafa no presente do indicativo (*"Hoje ele pode analisar o processo"*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "futuro do subjuntivo". De acordo com a teoria estudada em *4.4 Parônimos e Homófonos de Alta Incidência em Concursos*, *Senso (com S):* faculdade de julgar, discernimento, prudência, bom juízo (*"Faltou-lhe bom senso na condução dos debates"*).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pretérito imperfeito do indicativo". De acordo com a teoria estudada em *Acentos Diferenciais Obrigatórios:*, têm e Vêm (Plural) \$\neq\$ Tem e Vem (Singular): Os verbos *ter* e *vir* levam acento circunflexo na 3ª pessoa do plural do presente do indicativo.
-> - **D)** **Correta.** Conforme fundamentado na seção *5.3 Desinências Nominais e Desinências Verbais* deste guia, modo-Temporais (DMT): Indicam o tempo cronológico e o modo em que se desenvolve a ação verbal (*cant-`<ins>`va`</ins>`-mos* [pretérito imperfeito do indicativo]; *cant-a-`<ins>`sse`</ins>`-mos* [pretérito imperfeito do subjuntivo]; *cant-a-`<ins>`ra`</ins>`-mos* [pretérito mais-que-perfeito]). Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "pretérito imperfeito do subjuntivo".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pretérito perfeito do indicativo". De acordo com a teoria estudada em *3.4 Hífen em Compostos por Justaposição e Expressões Consagradas*, exceções consagradas pela tradição: Mantêm o hífen as consagradas *cor-de-rosa, água-de-colônia, arco-da-velha, mais-que-perfeito, pé-de-meia*, bem como os nomes botânicos e zoológicos ligados por hífen (*couve-flor, bem-te-vi, erva-doce*).
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.3 Regra das Paroxítonas e Ditongos Orais* deste guia, caso se utilize o plural erudito *hífenes*, a palavra passa a ser proparoxítona e recebe acento obrigatoriamente. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STJ/2015) ao afirmar que "A correção gramatical do texto seria prejudicada caso se 4 ser que possa viver isolado; é, ao contrário...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *4.2 Hiperonímia e Hiponímia*, segundo a qual a banca FCC frequentemente formula itens elogiando o uso de hiperônimos para evitar repetições vocabulares no texto (*"O TCE-GO julgou a tomada de contas especial. A corte de contas concluiu pela condenação do gestor"*).
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
@@ -561,26 +537,26 @@ São fonemas inseridos unicamente por imperativo de eufonia, isto é, para viabi
 ---
 
 ### Teste 018
-**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
-Uma das áreas de formação da língua inglesa, a morfologia, justifica que a palavra é formada por afixos (prefixos + sufixos) e radical/raiz. A forma dos afixos é mais rígida quanto à posição de formação da palavra. Os sufixos podem modificar a classe gramatical e os prefixos o sentido (positivo ou negativo) da palavra, sendo que o radical, raiz, é que traz o significado da palavra. Diante do exposto, assinale a alternativa que apresenta a palavra pósfixada.
+**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+A compilação é o processo de tradução de um programa escrito em uma linguagem fonte em um programa equivalente em linguagem de máquina. Nesse processo, o programa fonte normalmente passa pelas fases: I. Identificação de sequências de caracteres de entrada e produção de uma sequência de elementos de saída, os tokens. Nesta fase, verifica-se se cada caractere do programa fonte pertence ao alfabeto da linguagem, identificando os tokens e desprezando comentários e espaços em branco. Os tokens constituem classes de símbolos, tais como palavras reservadas, delimitadores, identificadores etc. II. Identificação de sequências de símbolos que constituem estruturas como expressões e comandos, através de uma varredura, ou parsing, da representação interna do programa fonte, produzindo uma estrutura em árvore, chamada árvore de derivação. III. Verificação das estruturas quanto ao sentido, ou seja, se o programa não possui erros de significado. Por exemplo, verifica se um identificador declarado como variável é utilizado como tal, se existe compatibilidade entre operandos e operadores em expressões etc. Os itens I, II e III referem-se, correta e respectivamente, às fases
 
-* **A)** Misunderstand
-* **B)** Bicolour
-* **C)** Disappear
-* **D)** Impossible
-* **E)** Finally
+* **A)** Análise Léxica − Análise Sintática − Análise Semântica.
+* **B)** Interpretação − Análise Sintática − Montagem.
+* **C)** Busca Binária − Montagem Léxica − Análise Semântica.
+* **D)** Classificação − Análise Léxica − Montagem.
+* **E)** Identificação Inicial − Análise Estrutural − Geração de Código.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Misunderstand". De acordo com a teoria estudada em *5.2 Tema e Afixos Formadores (Prefixos e Sufixos)*, sufixos: Morfemas pospostos ao radical, possuindo alta capacidade de converter a palavra em outra classe gramatical: *leal \$\rightarrow\$ leal-`<ins>`dade`</ins>`* (adjetivo em substantivo); *atual \$\rightarrow\$ atual-`<ins>`izar`</ins>`* (adjetivo em verbo); *rápido \$\rightarrow\$ rapida-`<ins>`mente`</ins>`* (adjetivo em advérbio).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Bicolour". De acordo com a teoria estudada em *5. Morfologia: Elementos Estruturais da Palavra*, as palavras na língua portuguesa são formadas pela articulação lógica de unidades mínimas portadoras de significado, denominadas morfemas ou elementos mórficos.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Disappear". De acordo com a teoria estudada em *5.2 Tema e Afixos Formadores (Prefixos e Sufixos)*, em *cant-a-r*, o tema verbal é *canta-*; em *livr-o*, o tema nominal é *livro-*. Quando a palavra não possui vogal temática (como em vocábulos terminados em consoante forte: *mar, dor, sol*), o tema confunde-se diretamente com o próprio radical.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Impossible". De acordo com a teoria estudada em *6.1 Derivação Prefixal, Sufixal e Prefixal-Sufixal*, derivação Sufixal (ou Sufixação): Acréscimo de um sufixo à raiz primitiva, modificando frequentemente a classe gramatical original ou seu significado estilístico: *leal-dade, feliz-mente, auditor-ia, flor-ista*.
-> - **E)** **Correta.** Conforme fundamentado na seção *5.2 Tema e Afixos Formadores (Prefixos e Sufixos)* deste guia, prefixos: Morfemas antepostos ao radical, operando predominantemente mudança de sentido lexical sem alterar a classe gramatical primitiva: *`<ins>`des`</ins>`-leal, `<ins>`in`</ins>`-apto, `<ins>`re`</ins>`-fazer, `<ins>`sub`</ins>`-chefe*. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "Finally".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Análise Léxica − Análise Sintática − Análise Semântica". De acordo com a teoria estudada em *2.4 Acento Diferencial Obrigatório e Facultativo*, todavia, foram mantidos os acentos diferenciais de extrema relevância sintática e semântica.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.4 Parônimos e Homófonos de Alta Incidência em Concursos* deste guia, *Incipiente (com C):* principiante, inicial, que está no começo (*"A análise de riscos ainda está em fase incipiente"*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "Interpretação − Análise Sintática − Montagem".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Busca Binária − Montagem Léxica − Análise Semântica". De acordo com a teoria estudada em *3.4 Hífen em Compostos por Justaposição e Expressões Consagradas*, em palavras compostas por justaposição que formam uma unidade sintagmática e semântica mantendo autonomia fonética, o hífen deve ser mantido (*arco-íris, decreto-lei, segunda-feira, conta-gotas, guarda-chuva*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Classificação − Análise Léxica − Montagem". De acordo com a teoria estudada em *4.2 Hiperonímia e Hiponímia*, conceitos capitais na estruturação de mecanismos de substituição coesiva em redação e interpretação textual.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Identificação Inicial − Análise Estrutural − Geração de Código". De acordo com a teoria estudada em *1.1 Posição da Sílaba Tônica e Tonicidade Vocálica*, a correta identificação da sílaba tônica depende do reconhecimento da divisão silábica e da intensidade com que cada vogal é articulada.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 
@@ -680,72 +656,72 @@ Além dos processos clássicos, a língua recorre a outros expedientes formais:
 ---
 
 ### Teste 019
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
-Saúde SC reforça importância da vacinação contra o Vírus Sincicial Respiratório em gestantes Com a aproximação do frio, a Secretaria de Estado da Saúde (SES) reforça a importância da vacinação de gestantes contra o Vírus Sincicial Respiratório (VSR). A imunização tem como principal objetivo reduzir complicações respiratórias em bebês nos primeiros meses de vida, como bronquiolite e pneumonia — doenças que tendem a aumentar durante o inverno e podem levar a internações. https://saude.sc.gov.br A utilização de letras maiúsculas na apresentação do “Vírus Sincicial Respiratório”, em todas as ocorrências no texto, serve para
+**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+Considere o documento XML abaixo e as regras definidas na Document Type Definition – DTD. <?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE Processos [ <!ELEMENT Processos (Processo+)> <!ELEMENT Processo (NumeroSequencial, DigitoVerificador, AnoAjuizamento?, OrgaoJudiciario, Tribunal, Vara)> <!ELEMENT NumeroSequencial (#PCDATA)> <!ELEMENT DigitoVerificador (#PCDATA)> <!ELEMENT AnoAjuizamento (#PCDATA)> <!ELEMENT OrgaoJudiciario (#PCDATA)> <!ELEMENT Tribunal (#PCDATA)> <!ELEMENT Vara (#PCDATA)> ]> <Processos> <Processo> <NumeroSequencial>0012300</NumeroSequencial> <DigitoVerificador>04</DigitoVerificador> <AnoAjuizamento> 2007</AnoAjuizamento> <OrgaoJudiciario>5</OrgaoJudiciario> <Tribunal>11</Tribunal> <Vara>0030</Vara> </Processo> </Processos> A DTD define que
 
-* **A)** indicar destaque informativo dentro do texto, relacionado à relevância do tema abordado.
-* **B)** ser uma estratégia de destaque para enfatizar a gravidade da doença mencionada no texto.
-* **C)** apresentar o uso de linguagem técnica, comum em textos da área da saúde.
-* **D)** corresponder à denominação oficial de um agente viral específico, funcionando como nome próprio.
-* **E)** marcar a presença de termos estrangeiros incorporados ao vocabulário científico.
+* **A)** pode haver elementos Processo sem o elemento AnoAjuizamento em seu interior.
+* **B)** os elementos no interior de um elemento Processo podem se repetir diversas vezes, se necessário.
+* **C)** os elementos só podem conter valores numéricos inteiros, já que são do tipo #PCDATA.
+* **D)** um elemento Processos pode ter, no máximo, um elemento Processo em seu interior.
+* **E)** todo elemento Processo deverá conter, obrigatoriamente, os elementos NumeroSequencial, DigitoVerificador, AnoAjuizamento, OrgaoJudiciario, Tribunal e Vara.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "indicar destaque informativo dentro do texto, relacionado à relevância do tema abordado". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, a acentuação gráfica na língua portuguesa tem por objetivo assinalar, na escrita, a sílaba de maior intensidade fonética (sílaba tônica) de determinadas palavras e, em situações específicas, indicar o timbre aberto ou fechado da vogal.
-> - **B)** **Correta.** Conforme fundamentado na seção *4.2 Hiperonímia e Hiponímia* deste guia, a banca FCC frequentemente formula itens elogiando o uso de hiperônimos para evitar repetições vocabulares no texto (*"O TCE-GO julgou a tomada de contas especial. A corte de contas concluiu pela condenação do gestor"*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "ser uma estratégia de destaque para enfatizar a gravidade da doença mencionada no texto".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresentar o uso de linguagem técnica, comum em textos da área da saúde". De acordo com a teoria estudada em *1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC*, o ponto inegociável para a FCC é que palavras como *relatório* e *renúncia* pertencem à mesma regra, ao passo que confrontadas com *médico* (proparoxítona real pura) ou *saúde* (regra do hiato) configuram regras distintas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "corresponder à denominação oficial de um agente viral específico, funcionando como nome próprio". De acordo com a teoria estudada em *4.2 Hiperonímia e Hiponímia*, hipônimo (Hiponímia): Vocábulo de sentido restrito, específico, pontual, que integra a classe de um termo maior. O hipônimo funciona como a "espécie".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "marcar a presença de termos estrangeiros incorporados ao vocabulário científico". De acordo com a teoria estudada em *1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC*, a regra basilar do idioma determina que todas as palavras proparoxítonas reais são acentuadas graficamente, sem exceção, sejam elas de origem vernácula ou vocábulos latinos e estrangeiros aportuguesados que se integraram ao léxico (*médico*, *álvoroço*, *espírito*, *déficit*, *superávit*, *habitat*).
+> - **A)** **Correta.** Conforme fundamentado na seção *Acentos Diferenciais Obrigatórios:* deste guia, pôde (Pretérito Perfeito) $\neq$ Pode (Presente do Indicativo): O verbo *poder* recebe acento circunflexo na 3ª pessoa do singular do pretérito perfeito (*"Ontem o auditor não pôde comparecer"*) para se distinguir da forma homógrafa no presente do indicativo (*"Hoje ele pode analisar o processo"*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "pode haver elementos Processo sem o elemento AnoAjuizamento em seu interior".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os elementos no interior de um elemento Processo podem se repetir diversas vezes, se necessário". De acordo com a teoria estudada em *3.1 Regra Geral dos Opostos e Casos com Consoante H*, letras Diferentes se Unem sem Hífen (Aglutinação): Se o prefixo terminar por letra distinta daquela que abre o segundo elemento, os elementos aglutinam-se diretamente.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os elementos só podem conter valores numéricos inteiros, já que são do tipo #PCDATA". De acordo com a teoria estudada em *6.1 Derivação Prefixal, Sufixal e Prefixal-Sufixal*, a prova definitiva desse processo reside no fato de que a palavra resiste à retirada de qualquer um dos morfemas agregados, permanecendo um vocábulo semanticamente existente no léxico.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um elemento Processos pode ter, no máximo, um elemento Processo em seu interior". De acordo com a teoria estudada em *6.6 Outros Processos: Hibridismo, Siglonimização, Abreviação e Neologismo*, hibridismo: Vocábulos construídos pela justaposição de elementos mórficos originários de línguas distintas: *sociologia* (*latim* sócio + *grego* logia); *televisão* (*grego* tele + *latim* visão); *automóvel* (*grego* auto + *latim* móvel); *burocracia* (*francês* bureau + *grego* cracia).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todo elemento Processo deverá conter, obrigatoriamente, os elementos NumeroSequencial, DigitoVerificador...". De acordo com a teoria estudada em *6.2 Derivação Parassintética*, se a forma remanescente for inexistente, o processo é obrigatoriamente parassintético (*esfriar* $\rightarrow$ *friar* não existe; logo, é parassíntese).
+>
+> **Gabarito: A**
+
+---
+
+### Teste 020
+**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Este diagrama da UML pode ser usado para modelar processos de negócio. Suporta comportamento paralelo e permite que, quem está seguindo o processo, escolha a ordem na qual fazer as coisas. Em outras palavras, ele simplesmente determina as regras essenciais de sequência que se deve seguir. São geralmente usados para mostrar o que acontece, mas não quem faz o que, já que faz sentido se concentrar no que é feito, em vez de em quem realiza quais partes do comportamento. O diagrama descrito é o diagrama de
+
+* **A)** o recurso de diário (journaling) que aumenta a confiabilidade.
+* **B)** a alocação postergada para otimizar a alocação dos blocos.
+* **C)** o espelhamento do dado em blocos de checagem para o caso de falha.
+* **D)** o armazenamento de metadados antes do dado no disco.
+* **E)** o armazenamento de metadados em sincronia com o armazenamento do dado no disco.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o recurso de diário (journaling) que aumenta a confiabilidade". De acordo com a teoria estudada em *Acentos Diferenciais Obrigatórios:*, *O recurso vem tempestivamente* (singular, sem acento).
+> - **B)** **Correta.** Conforme fundamentado na seção *3.4 Hífen em Compostos por Justaposição e Expressões Consagradas* deste guia, em palavras compostas por justaposição que formam uma unidade sintagmática e semântica mantendo autonomia fonética, o hífen deve ser mantido (*arco-íris, decreto-lei, segunda-feira, conta-gotas, guarda-chuva*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "a alocação postergada para otimizar a alocação dos blocos".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o espelhamento do dado em blocos de checagem para o caso de falha". De acordo com a teoria estudada em *1.3 Regra das Paroxítonas e Ditongos Orais*, caso se utilize o plural erudito *hífenes*, a palavra passa a ser proparoxítona e recebe acento obrigatoriamente.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o armazenamento de metadados antes do dado no disco". De acordo com a teoria estudada em *2.3 Formas Verbais com Pronomes Enclíticos*, na conjugação de verbos acompanhados de pronomes oblíquos enclíticos (*-lo, -la, -los, -las, -no, -na*), a análise da tonicidade e das regras de acentuação deve isolar completamente o pronome e incidir exclusivamente sobre a terminação da forma verbal residual.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o armazenamento de metadados em sincronia com o armazenamento do dado no disco". De acordo com a teoria estudada em *Acentos Diferenciais Obrigatórios:*, pôde (Pretérito Perfeito) $\neq$ Pode (Presente do Indicativo): O verbo *poder* recebe acento circunflexo na 3ª pessoa do singular do pretérito perfeito (*"Ontem o auditor não pôde comparecer"*) para se distinguir da forma homógrafa no presente do indicativo (*"Hoje ele pode analisar o processo"*).
 >
 > **Gabarito: B**
 
 ---
 
-### Teste 020
-**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
-6 As palavras destacadas foram corretamente interpretadas entre parênteses, EX- CETO em:
-
-* **A)** “[...] mas mudar para "morador de comunidade", embora amacie na semântica, não leva água encanada, esgoto e luz para ninguém.” (sentido das palavras)
-* **B)** “A gente ouve "comunidade" e dá a impressão de que aquelas pessoas estão todas de mãos dadas fazendo uma ciranda em torno da horta orgânica, não apinhando-se em condições sub-humanas.” (aglomerando-se)
-* **C)** “Como se a mudança na nomenclatura incorporasse o preconceito, quando deveria ser justamente o contrário” (vocabulário)
-* **D)** “Em certo momento dos anos 90, "favela" virou "comunidade". "Favelado" era um termo pejorativo.” (vulgar)
-* **E)** “Não, não estará se não nos indignarmos com a indigência e agirmos.” (miséria)
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“[...] mas mudar para "morador de comunidade", embora amacie na semântica, não leva água encanada, esgoto e luz...". De acordo com a teoria estudada em *4. Semântica Lexical: Relações de Sentido e Vocabulário*, o estudo da semântica vocabular foca as relações de significação estabelecidas entre as palavras de uma língua, permitindo analisar a coesão referencial, a precisão textual e os desvios de significação em textos técnicos e jurídicos.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“A gente ouve "comunidade" e dá a impressão de que aquelas pessoas estão todas de mãos dadas fazendo uma ciranda...". De acordo com a teoria estudada em *1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC*, a regra basilar do idioma determina que todas as palavras proparoxítonas reais são acentuadas graficamente, sem exceção, sejam elas de origem vernácula ou vocábulos latinos e estrangeiros aportuguesados que se integraram ao léxico (*médico*, *álvoroço*, *espírito*, *déficit*, *superávit*, *habitat*).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Como se a mudança na nomenclatura incorporasse o preconceito, quando deveria ser justamente o contrário”...". De acordo com a teoria estudada em *5.2 Tema e Afixos Formadores (Prefixos e Sufixos)*, prefixos: Morfemas antepostos ao radical, operando predominantemente mudança de sentido lexical sem alterar a classe gramatical primitiva: *`<ins>`des`</ins>`-leal, `<ins>`in`</ins>`-apto, `<ins>`re`</ins>`-fazer, `<ins>`sub`</ins>`-chefe*.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Posição da Sílaba Tônica e Tonicidade Vocálica* deste guia, as palavras derivadas por sufixação (como *cafezinho*, *rapidamente*) desenvolvem uma sílaba de intensidade secundária, chamada de subtônica, que coincide historicamente com a sílaba tônica do termo primitivo. Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "“Em certo momento dos anos 90, "favela" virou "comunidade". "Favelado" era um termo pejorativo.” (vulgar)".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Não, não estará se não nos indignarmos com a indigência e agirmos.” (miséria)". De acordo com a teoria estudada em *4.2 Hiperonímia e Hiponímia*, hipônimo (Hiponímia): Vocábulo de sentido restrito, específico, pontual, que integra a classe de um termo maior. O hipônimo funciona como a "espécie".
->
-> **Gabarito: D**
-
----
-
 ### Teste 021
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
-Assinale a opção em que não está presente uma expressão ou termo indicativo de causa.
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Engenharia Civil)**
+Em uma edificação de estrutura metálica, um engenheiro precisa selecionar perfis laminados para dois elementos estruturais: uma viga submetida predominantemente à flexão em torno do eixo de maior inércia, e um pilar submetido principalmente à compressão axial, o que exige elevada estabilidade à flambagem em ambos os eixos principais. A associação mais adequada entre os elementos estruturais e os perfis empregados é:
 
-* **A)** O paisagista pinta tranquilo porque a paisagem defronte não se pode aproximar do quadro para ver se está parecida.
-* **B)** A História é como um estilingue. Quanto mais fundo você puxa, mais longe você alcança.
-* **C)** Algumas pessoas são o centro das atenções numa festa por terem ótimo senso se humor.
-* **D)** Em função de algumas declarações falsas, a repórter foi obrigada a desmenti-las.
-* **E)** Em vista do aumento de impostos, houve grande reclamação dos empresários.
+* **A)** viga em perfil I; pilar em perfil H.
+* **B)** viga em perfil H; pilar em perfil I.
+* **C)** viga em perfil I; pilar em perfil C.
+* **D)** viga em perfil C; pilar em perfil I.
+* **E)** viga em perfil H; pilar em perfil C.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *Acentos Diferenciais Obrigatórios:* deste guia, pôde (Pretérito Perfeito) \$\neq\$ Pode (Presente do Indicativo): O verbo *poder* recebe acento circunflexo na 3ª pessoa do singular do pretérito perfeito (*"Ontem o auditor não pôde comparecer"*) para se distinguir da forma homógrafa no presente do indicativo (*"Hoje ele pode analisar o processo"*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "O paisagista pinta tranquilo porque a paisagem defronte não se pode aproximar do quadro para ver se está parecida".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A História é como um estilingue. Quanto mais fundo você puxa, mais longe você alcança". De acordo com a teoria estudada em *6.1 Derivação Prefixal, Sufixal e Prefixal-Sufixal*, derivação Prefixal (ou Prefixação): Incorporação de um prefixo ao radical de uma palavra primitiva, mantendo-se a categoria gramatical básica: *in-justo, des-leal, re-ver, pré-história*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Algumas pessoas são o centro das atenções numa festa por terem ótimo senso se humor". De acordo com a teoria estudada em *6.4 Derivação Imprópria ou Conversão*, palavra invariável convertida em Substantivo: *"Não compreendi o `<ins>`porquê`</ins>` de sua relutância"*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em função de algumas declarações falsas, a repórter foi obrigada a desmenti-las". De acordo com a teoria estudada em *2.3 Formas Verbais com Pronomes Enclíticos*, na conjugação de verbos acompanhados de pronomes oblíquos enclíticos (*-lo, -la, -los, -las, -no, -na*), a análise da tonicidade e das regras de acentuação deve isolar completamente o pronome e incidir exclusivamente sobre a terminação da forma verbal residual.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em vista do aumento de impostos, houve grande reclamação dos empresários". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, a estrutura acentual do idioma apoia-se em um princípio de economia: a grande maioria dos vocábulos da língua portuguesa é paroxítona terminada nas vogais mais comuns (*-a*, *-e*, *-o* seguidas ou não de *-s*).
+> - **A)** **Correta.** Conforme fundamentado na seção *6. Processos de Formação de Palavras* deste guia, a ampliação do acervo vocabular do idioma opera-se fundamentalmente por meio de dois mecanismos estruturais: a derivação (que parte de um único radical já existente) e a composição (que congrega dois ou mais radicais para conceber uma nova entidade semântica). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "viga em perfil I; pilar em perfil H".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "viga em perfil H; pilar em perfil I". De acordo com a teoria estudada em *6.5 Composição: Justaposição e Aglutinação*, a composição ocorre quando dois ou mais radicais autônomos unem-se para estruturar um vocábulo composto.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "viga em perfil I; pilar em perfil C". De acordo com a teoria estudada em *5. Morfologia: Elementos Estruturais da Palavra*, as palavras na língua portuguesa são formadas pela articulação lógica de unidades mínimas portadoras de significado, denominadas morfemas ou elementos mórficos.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "viga em perfil C; pilar em perfil I". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, a estrutura acentual do idioma apoia-se em um princípio de economia: a grande maioria dos vocábulos da língua portuguesa é paroxítona terminada nas vogais mais comuns (*-a*, *-e*, *-o* seguidas ou não de *-s*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "viga em perfil H; pilar em perfil C". De acordo com a teoria estudada em *4.1 Sinonímia e Antonímia*, sinonímia: Relação que se estabelece entre dois ou mais termos que possuem significados idênticos ou muito próximos no mesmo contexto discursivo (*conceder / outorgar; rescindir / anular; célere / ágil; prudente / cauteloso*).
 >
 > **Gabarito: A**
 

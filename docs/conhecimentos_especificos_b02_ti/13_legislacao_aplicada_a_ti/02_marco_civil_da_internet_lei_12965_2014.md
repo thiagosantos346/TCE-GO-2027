@@ -74,24 +74,24 @@ O Marco Civil consolidou definições obrigatórias para os profissionais de TI,
 ---
 
 ### Teste 525
-**(FGV – TCE-GO – Analista de Controle Externo Tecnologia da Informacao – 2024)**
-A respeito de VoIP e os protocolos SIP e H.323, analise os itens a seguir: I. VoIP é uma aplicação de áudio e vídeo interativo em tempo real; II. O protocolo SIP é um protocolo de camada de transporte que estabelece, gerencia e encerra sessões multimídia; III. O H.323 é um protocolo padrão ITU que permite a um telefone convencional da rede de telefonia pública se comunicar com um computador conectado à Internet. Está correto o que se afirma em
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Telecomunicacoes)**
+O gerenciamento e a configuração de equipamentos de rede dependem de uma série de protocolos e aplicações. Dentre eles, podem-se destacar aqueles associados ao acesso remoto e ao monitoramento de equipamentos, e aqueles destinados à transferência de arquivos. Nesse sentido, analise os itens a seguir. I. O protocolo SSH (Secure Shell) permite a realização de autenticação em dispositivos de rede por meio do uso de criptografia. Por padrão, seus servidores utilizam a porta TCP 23 para conexão. II. O protocolo FTP (File Transfer Protocol) realiza a transferência de arquivos de forma segura por meio do uso de criptografia. Por padrão, seus servidores utilizam a porta 21 para controle da conexão e a porta 20 é usada na transferência de dados. III. O protocolo SNMP (Simple Network Management Protocol) permite o monitoramento de uma série de informações de dispositivos de rede. Por padrão, dentre as portas utilizadas por seus servidores estão as portas UDP 161 e UDP 162. Está correto somente o que se afirma em:
 
-* **A)** I, II e III.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** II, apenas.
+* **A)** I;
+* **B)** II;
+* **C)** III;
+* **D)** I e II;
+* **E)** II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4. Reserva de Jurisdição para Quebra de Sigilo (Arts. 10 e 22)*, inviolabilidade das Comunicações Privadas: São invioláveis a intimidade, o sigilo do fluxo de comunicações pela Internet e o sigilo de dados armazenados, salvo expressa ordem judicial (Art. 7º, II e III).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2.1 Regra Geral de Tratamento Isonômico*, bloquear ou degradar pacotes de protocolos peer-to-peer (P2P/BitTorrent) ou de voz sobre IP (VoIP/WhatsApp) para forçar o consumidor a contratar pacotes de telefonia da própria operadora.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)* deste guia, endereço IP - *Internet Protocol* (Art. 5º, III): O código atribuído a um terminal de uma rede para permitir sua identificação, definido segundo parâmetros internacionais (IPv4 de 32 bits ou IPv6 de 128 bits). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "I e III, apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, internet (Art. 5º, I): O sistema constituído do conjunto de redes, protocolos e estruturas de comunicação baseado no protocolo IP (*Internet Protocol*), para comunicação entre pacotes de dados e dispositivos computacionais.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, porta Lógica de Origem (Decreto nº 8.771/2016, Art. 10): Número que identifica o canal lógico de comunicação em conexões TCP/UDP (camada de transporte).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, internet (Art. 5º, I): O sistema constituído do conjunto de redes, protocolos e estruturas de comunicação baseado no protocolo IP (*Internet Protocol*), para comunicação entre pacotes de dados e dispositivos computacionais.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *4. Reserva de Jurisdição para Quebra de Sigilo (Arts. 10 e 22)*, inviolabilidade das Comunicações Privadas: São invioláveis a intimidade, o sigilo do fluxo de comunicações pela Internet e o sigilo de dados armazenados, salvo expressa ordem judicial (Art. 7º, II e III).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)* deste guia, endereço IP - *Internet Protocol* (Art. 5º, III): O código atribuído a um terminal de uma rede para permitir sua identificação, definido segundo parâmetros internacionais (IPv4 de 32 bits ou IPv6 de 128 bits). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "III".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, porta Lógica de Origem (Decreto nº 8.771/2016, Art. 10): Número que identifica o canal lógico de comunicação em conexões TCP/UDP (camada de transporte).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *3.1 Distinção Conceitual e Prazos Obrigatórios de Guarda*, o que é guardado?: Registros de Conexão: Data e hora de início e término, duração da sessão, endereço IP atribuído e porta lógica de origem. — Registros de Acesso a Aplicações: Data e hora de início e término do uso da aplicação e respectivo endereço IP de origem.
 >
 > **Gabarito: C**
 
@@ -111,26 +111,26 @@ São direitos fundamentais do usuário da internet (Art. 7º):
 ---
 
 ### Teste 526
-**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
-O cabeçalho do protocolo IPv4 possui o campo denominado TTL (Time to Live) utilizado para configurar
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Telecomunicacoes)**
+A tabela abaixo apresenta o extrato da captura de um pacote egresso da interface de rede de um computador pessoal (PC - Personal Computer) pertencente a uma rede de dados privada. Esse PC está realizando uma consulta a um servidor de nomes (Domain Name System - DNS) disponível na internet. Camada OSI Informação de Informação de (Protocolo) Origem Destino Ethernet II dc:53:60:11:e2:7f 74:3a:ef:dc:52:58 Internet 2008:14d:5c40:45ca 2001:4860:4860:: Protocol :c8b3:efb5:6e67:a6 8888 Versão 6 b8 User Datagram 63157 53 Protocol Domain Name Pergunta sobre resolução de Nomes System Sobre essa captura, analise os itens a seguir. I. Essa máquina (PC) possui endereço IPv6 2001:4860:4860::8888 II. O endereço físico da placa de rede do servidor de nomes é o 74:3a:ef:dc:52:58 III. O PC está enviando consultas para a porta 53 do servidor de nomes, por meio do protocolo UDP. Está correto somente o que se afirma em:
 
-* **A)** o máximo número de saltos entre roteadores para evitar que um pacote fique indefinidamente na rede.
-* **B)** a data/hora que o pacote foi processado e transmitido pelo roteador origem da rede.
-* **C)** o máximo tempo (em milissegundos) que o pacote deve permanecer na rede para evitar o congestionamento.
-* **D)** a data/hora que o pacote deve ser descartado caso não tenha alcançado o destino.
-* **E)** o mínimo tempo (em milissegundos) que o pacote deve permanecer na rede para evitar a não entrega.
+* **A)** I;
+* **B)** II;
+* **C)** III;
+* **D)** I e II;
+* **E)** II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)* deste guia, terminal (Art. 5º, II): O computador ou qualquer dispositivo que se conecte à Internet (smartphones, roteadores, servidores, dispositivos IoT). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "o máximo número de saltos entre roteadores para evitar que um pacote fique indefinidamente na rede".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a data/hora que o pacote foi processado e transmitido pelo roteador origem da rede". De acordo com a teoria estudada em *3.1 Distinção Conceitual e Prazos Obrigatórios de Guarda*, o que é guardado?: Registros de Conexão: Data e hora de início e término, duração da sessão, endereço IP atribuído e porta lógica de origem. — Registros de Acesso a Aplicações: Data e hora de início e término do uso da aplicação e respectivo endereço IP de origem.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o máximo tempo (em milissegundos) que o pacote deve permanecer na rede para evitar o congestionamento". De acordo com a teoria estudada em *2.2 As Duas Únicas Exceções Legais à Neutralidade*, gestão de congestionamento temporário de redes (garantindo que o tráfego crítico não colapse a rede como um todo).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a data/hora que o pacote deve ser descartado caso não tenha alcançado o destino". De acordo com a teoria estudada em *2. O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)*, a Neutralidade de Rede é a garantia legal de que os dados transmitidos pela infraestrutura de telecomunicações devem ser tratados de forma estritamente isonômica, independentemente do tipo de conteúdo, origem, destino, terminal utilizado ou aplicativo gerador.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o mínimo tempo (em milissegundos) que o pacote deve permanecer na rede para evitar a não entrega". De acordo com a teoria estudada em *2.2 As Duas Únicas Exceções Legais à Neutralidade*, preservação da segurança e estabilidade da rede (mitigação em tempo real de ataques DDoS, contenção de tráfego de botnets e bloqueio de portas vulneráveis disseminadoras de malware).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *4. Reserva de Jurisdição para Quebra de Sigilo (Arts. 10 e 22)*, inviolabilidade das Comunicações Privadas: São invioláveis a intimidade, o sigilo do fluxo de comunicações pela Internet e o sigilo de dados armazenados, salvo expressa ordem judicial (Art. 7º, II e III).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, porta Lógica de Origem (Decreto nº 8.771/2016, Art. 10): Número que identifica o canal lógico de comunicação em conexões TCP/UDP (camada de transporte).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)* deste guia, endereço IP - *Internet Protocol* (Art. 5º, III): O código atribuído a um terminal de uma rede para permitir sua identificação, definido segundo parâmetros internacionais (IPv4 de 32 bits ou IPv6 de 128 bits). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "III".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *1.2 Princípios e Direitos Fundamentais dos Usuários*, os princípios da disciplina do uso da Internet no Brasil incluem a garantia da liberdade de expressão, comunicação e manifestação de pensamento; a proteção da privacidade e dos dados pessoais; a preservação da estabilidade, segurança e funcionalidade da rede por meio de padrões técnicos universais; e a neutralidade da rede.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, internet (Art. 5º, I): O sistema constituído do conjunto de redes, protocolos e estruturas de comunicação baseado no protocolo IP (*Internet Protocol*), para comunicação entre pacotes de dados e dispositivos computacionais.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
@@ -180,26 +180,26 @@ A discriminação ou degradação de tráfego somente poderá decorrer de duas h
 ---
 
 ### Teste 527
-**(FGV – TJ-MT – Analista Judiciario Tecnologia da Informacao – 2024)**
-Um firewall é uma ferramenta essencial para proteger uma rede de computadores contra acessos não autorizados e ameaças externas. O papel de um firewall em uma rede de computadores é
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Telecomunicação)**
+Os firewalls desempenham um papel fundamental na proteção dos dados sigilosos que trafegam na rede corporativa de um órgão público. Há diversos tipos, como firewall filtro de pacotes, firewall em estado de conexão e firewall em nível de aplicação. O firewall filtro de pacotes
 
-* **A)** permitir o tráfego de dados sem qualquer restrição, garantindo que a rede esteja sempre disponível para comunicação.
-* **B)** bloquear todo o tráfego de dados proveniente de redes externas, sem qualquer exceção, para proteger os dados da rede interna.
-* **C)** monitorar e controlar o tráfego de rede com base em um conjunto de regras de segurança definidas, permitindo ou bloqueando o tráfego conforme a política configurada.
-* **D)** substituir a necessidade de criptografia em redes, garantindo que todos os dados sejam transmitidos de forma segura.
-* **E)** impedir que dispositivos internos da rede se comuniquem entre si, restringindo a troca de dados entre os usuários.
+* **A)** permite detectar diversas ameaças à rede, como por exemplo: spam, phishing e spyware.
+* **B)** permite distinguir entre os diferentes tipos de tráfego HTTP.
+* **C)** mapeia todos os pacotes que entram e saem da rede interna, relacionando-os às conexões TCP/IP ativas.
+* **D)** inspeciona apenas os endereços IP e as portas TCP/UDP dos pacotes que entram e saem de uma rede interna, descartando aqueles que não atendem aos critérios estabelecidos pelo administrador de rede.
+* **E)** torna possível o envio de tráfego encriptado, garantindo assim a confidencialidade das informações e a privacidade dos dados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "permitir o tráfego de dados sem qualquer restrição, garantindo que a rede esteja sempre disponível para comunicação". De acordo com a teoria estudada em *2.2 As Duas Únicas Exceções Legais à Neutralidade*, gestão de congestionamento temporário de redes (garantindo que o tráfego crítico não colapse a rede como um todo).
-> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "bloquear todo o tráfego de dados proveniente de redes externas, sem qualquer exceção, para proteger os dados da...". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, internet (Art. 5º, I): O sistema constituído do conjunto de redes, protocolos e estruturas de comunicação baseado no protocolo IP (*Internet Protocol*), para comunicação entre pacotes de dados e dispositivos computacionais.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.2 As Duas Únicas Exceções Legais à Neutralidade* deste guia, preservação da segurança e estabilidade da rede (mitigação em tempo real de ataques DDoS, contenção de tráfego de botnets e bloqueio de portas vulneráveis disseminadoras de malware). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-MT/2024) ao estabelecer que "monitorar e controlar o tráfego de rede com base em um conjunto de regras de segurança definidas, permitindo ou...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "substituir a necessidade de criptografia em redes, garantindo que todos os dados sejam transmitidos de forma segura". De acordo com a teoria estudada em *2. O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)*, a Neutralidade de Rede é a garantia legal de que os dados transmitidos pela infraestrutura de telecomunicações devem ser tratados de forma estritamente isonômica, independentemente do tipo de conteúdo, origem, destino, terminal utilizado ou aplicativo gerador.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "impedir que dispositivos internos da rede se comuniquem entre si, restringindo a troca de dados entre os usuários". De acordo com a teoria estudada em *1.2 Princípios e Direitos Fundamentais dos Usuários*, os princípios da disciplina do uso da Internet no Brasil incluem a garantia da liberdade de expressão, comunicação e manifestação de pensamento; a proteção da privacidade e dos dados pessoais; a preservação da estabilidade, segurança e funcionalidade da rede por meio de padrões técnicos universais; e a neutralidade da rede.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "permite detectar diversas ameaças à rede, como por exemplo: spam, phishing e spyware". De acordo com a teoria estudada em *2.2 As Duas Únicas Exceções Legais à Neutralidade*, preservação da segurança e estabilidade da rede (mitigação em tempo real de ataques DDoS, contenção de tráfego de botnets e bloqueio de portas vulneráveis disseminadoras de malware).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "permite distinguir entre os diferentes tipos de tráfego HTTP". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, provedor de Conexão à Internet (ISP): Entidade que viabiliza a habilitação de terminais para tráfego de dados na rede (ex.: operadoras de telecomunicações, provedores regionais de banda larga).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mapeia todos os pacotes que entram e saem da rede interna, relacionando-os às conexões TCP/IP ativas". De acordo com a teoria estudada em *1.2 Princípios e Direitos Fundamentais dos Usuários*, os princípios da disciplina do uso da Internet no Brasil incluem a garantia da liberdade de expressão, comunicação e manifestação de pensamento; a proteção da privacidade e dos dados pessoais; a preservação da estabilidade, segurança e funcionalidade da rede por meio de padrões técnicos universais; e a neutralidade da rede.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)* deste guia, porta Lógica de Origem (Decreto nº 8.771/2016, Art. 10): Número que identifica o canal lógico de comunicação em conexões TCP/UDP (camada de transporte). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "inspeciona apenas os endereços IP e as portas TCP/UDP dos pacotes que entram e saem de uma rede interna...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "torna possível o envio de tráfego encriptado, garantindo assim a confidencialidade das informações e a...". De acordo com a teoria estudada em *2.2 As Duas Únicas Exceções Legais à Neutralidade*, gestão de congestionamento temporário de redes (garantindo que o tráfego crítico não colapse a rede como um todo).
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
@@ -248,50 +248,50 @@ flowchart LR
 ---
 
 ### Teste 528
-**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
+Correlacione as afirmativas sobre segurança de ativos em uma rede corporativa a seguir com os tipos de malware contra os quais se pretende proteger. ( ) Trojan. ( ) Worm. ( ) Spyware. ( ) Ransomware. 1. O Firewall pode proteger desse malware bloqueando a replicação dele entre segmentos de rede. 2. A mitigação mais efetiva contra esse malware é a execução regular de backup dos dados. 3. O uso de proxy pode ajudar contra este tipo de malware, realizando varredura contra malware em todos os arquivos baixados por computadores na rede corporativa. 4. O bloqueio de tráfego de saída no firewall pode impedir que os dados obtidos por esse malware sejam exfiltrados através da internet. A relação correta, na ordem apresentada, é
+
+* **A)** 2 – 4 – 3 – 1.
+* **B)** 2 – 1 – 4 – 3.
+* **C)** 3 – 2 – 1 – 4.
+* **D)** 3 – 1 – 4 – 2.
+* **E)** 1 – 4 – 3 – 2.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 4 – 3 – 1". De acordo com a teoria estudada em *1.2 Princípios e Direitos Fundamentais dos Usuários*, os princípios da disciplina do uso da Internet no Brasil incluem a garantia da liberdade de expressão, comunicação e manifestação de pensamento; a proteção da privacidade e dos dados pessoais; a preservação da estabilidade, segurança e funcionalidade da rede por meio de padrões técnicos universais; e a neutralidade da rede.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 1 – 4 – 3". De acordo com a teoria estudada em *3.1 Distinção Conceitual e Prazos Obrigatórios de Guarda*, prorrogação Cautelar: Autoridade policial ou MP pode requerer cautelarmente que os registros sejam guardados por prazo superior enquanto tramita a ordem judicial (Art. 13, § 2º). — Idem: autoridade policial ou MP pode solicitar cautelarmente a preservação de dados (Art. 15, § 2º).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 2 – 1 – 4". De acordo com a teoria estudada em *2. O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)*, a Neutralidade de Rede é a garantia legal de que os dados transmitidos pela infraestrutura de telecomunicações devem ser tratados de forma estritamente isonômica, independentemente do tipo de conteúdo, origem, destino, terminal utilizado ou aplicativo gerador.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.2 As Duas Únicas Exceções Legais à Neutralidade* deste guia, preservação da segurança e estabilidade da rede (mitigação em tempo real de ataques DDoS, contenção de tráfego de botnets e bloqueio de portas vulneráveis disseminadoras de malware). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "3 – 1 – 4 – 2".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 4 – 3 – 2". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, provedor de Conexão à Internet (ISP): Entidade que viabiliza a habilitação de terminais para tráfego de dados na rede (ex.: operadoras de telecomunicações, provedores regionais de banda larga).
+>
+> **Gabarito: D**
+
+---
+
+### Teste 529
+**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
 Um Analista sugeriu corretamente instalar, como mecanismo de segurança da informação, um
 
 * **A)** Servidor firewall à frente do VPN. O servidor firewall seria conectado à intranet e o VPN seria posicionado entre o servidor firewall e a internet para bloquear totalmente os acessos indevidos.
 * **B)** Filtro de conteúdo, para analisar todo o tráfego que circula entre a rede local e a internet, impedindo o acesso a sites utilizando bloqueio por palavra-chave, por URL ou por horário.
 * **C)** Sistema de Prevenção de Intrusão − IDS, um sistema passivo que examina o tráfego e informa sobre ameaças, após o firewall.
 * **D)** Sistema de Detecção de Intrusão − IPS antes do firewall, para analisar ativamente o fluxo de tráfego que entra na rede e realizar ações de bloqueio automaticamente.
-* **E)** Roteador IP com recurso de NAT no ponto de conexão entre a VPN e a internet, para converter endereços IPv6 de computadores da VPN em endereços IPv4 da internet.
+* **E)** Roteador IP com recurso de NAT no ponto de conexão entre a VPN e a internet, para converter endereços IPv6 de com- putadores da VPN em endereços IPv4 da internet.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Servidor firewall à frente do VPN. O servidor firewall seria conectado à intranet e o VPN seria posicionado entre...". De acordo com a teoria estudada em *3.1 Distinção Conceitual e Prazos Obrigatórios de Guarda*, pode guardar histórico de sites?: ❌ TERMINANTEMENTE PROIBIDO (Art. 14)! Não pode guardar registros de acesso a aplicações. — Apenas registra os acessos à sua própria aplicação (não aos sites concorrentes).
-> - **B)** **Correta.** Conforme fundamentado na seção *2.2 As Duas Únicas Exceções Legais à Neutralidade* deste guia, preservação da segurança e estabilidade da rede (mitigação em tempo real de ataques DDoS, contenção de tráfego de botnets e bloqueio de portas vulneráveis disseminadoras de malware). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "Filtro de conteúdo, para analisar todo o tráfego que circula entre a rede local e a internet, impedindo o acesso a...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Sistema de Prevenção de Intrusão − IDS, um sistema passivo que examina o tráfego e informa sobre ameaças, após o...". De acordo com a teoria estudada em *5.2 Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)*, com o intuito de assegurar a liberdade de expressão e impedir a censura privada pelas empresas de tecnologia, o provedor de aplicações de internet somente poderá ser responsabilizado civilmente por danos decorrentes de conteúdo gerado por terceiros se, após ordem judicial específica, não tomar as providências para, no âmbito e nos limites técnicos do seu serviço e dentro do prazo assinalado, tornar indisponível o conteúdo apontado como infringente.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Sistema de Detecção de Intrusão − IPS antes do firewall, para analisar ativamente o fluxo de tráfego que entra na...". De acordo com a teoria estudada em *3.2 A Vedação Absoluta aos Provedores de Conexão (Art. 14)*, *"Na provisão de conexão à internet, cabe ao administrador de sistema autônomo respectivo a guarda dos registros de conexão, pelo prazo de 1 (um) ano (..). É VEDADA A GUARDA DOS REGISTROS DE ACESSO A APLICAÇÕES DE INTERNET NA PROVISÃO DE CONEXÃO."*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Roteador IP com recurso de NAT no ponto de conexão entre a VPN e a internet, para converter endereços IPv6 de...". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, endereço IP - *Internet Protocol* (Art. 5º, III): O código atribuído a um terminal de uma rede para permitir sua identificação, definido segundo parâmetros internacionais (IPv4 de 32 bits ou IPv6 de 128 bits).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Servidor firewall à frente do VPN. O servidor firewall seria conectado à intranet e o VPN seria posicionado entre...". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, aplicações de Internet (Art. 5º, VII): O conjunto de funcionalidades que podem ser acessadas por meio de um terminal conectado à Internet (websites, redes sociais, sistemas de e-mail, plataformas de streaming, APIs governamentais).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Filtro de conteúdo, para analisar todo o tráfego que circula entre a rede local e a internet, impedindo o acesso a...". De acordo com a teoria estudada em *2.2 As Duas Únicas Exceções Legais à Neutralidade*, preservação da segurança e estabilidade da rede (mitigação em tempo real de ataques DDoS, contenção de tráfego de botnets e bloqueio de portas vulneráveis disseminadoras de malware).
+> - **C)** **Correta.** Conforme fundamentado na seção *5.2 Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)* deste guia, com o intuito de assegurar a liberdade de expressão e impedir a censura privada pelas empresas de tecnologia, o provedor de aplicações de internet somente poderá ser responsabilizado civilmente por danos decorrentes de conteúdo gerado por terceiros se, após ordem judicial específica, não tomar as providências para, no âmbito e nos limites técnicos do seu serviço e dentro do prazo assinalado, tornar indisponível o conteúdo apontado como infringente. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "Sistema de Prevenção de Intrusão − IDS, um sistema passivo que examina o tráfego e informa sobre ameaças, após o...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Sistema de Detecção de Intrusão − IPS antes do firewall, para analisar ativamente o fluxo de tráfego que entra na...". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, provedor de Conexão à Internet (ISP): Entidade que viabiliza a habilitação de terminais para tráfego de dados na rede (ex.: operadoras de telecomunicações, provedores regionais de banda larga).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Roteador IP com recurso de NAT no ponto de conexão entre a VPN e a internet, para converter endereços IPv6 de com-...". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, endereço IP - *Internet Protocol* (Art. 5º, III): O código atribuído a um terminal de uma rede para permitir sua identificação, definido segundo parâmetros internacionais (IPv4 de 32 bits ou IPv6 de 128 bits).
 >
-> **Gabarito: B**
-
----
-
-### Teste 529
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Seguranca da Informacao – 2023)**
-Amanda trabalha em uma consultoria X e está implementando um NAP (proteção de acesso à rede) em um cliente. O objetivo de Amanda com tal implementação é manter a integridade dos computadores da rede corporativa. Para proteger o acesso à rede de forma adequada, deve existir uma infraestrutura de rede que forneça à área de funcionalidade:
-
-* **A)** validação de integridade: determina se os computadores estão em conformidade com os requisitos de integridade do sistema;
-* **B)** zona desmilitarizada: impede que um usuário autorizado com um computador em conformidade carregue um programa mal-intencionado na rede;
-* **C)** restrição de rede: permite o acesso à rede, desde que o computador do usuário atenda aos requisitos de política de integridade;
-* **D)** correção: restringe o acesso à rede ou à comunicação para clientes que não estão em conformidade com os requisitos de integridade do sistema;
-* **E)** conformidade contínua: fornece as atualizações necessárias para permitir que o computador corrija seu estado de integridade não compatível.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)* deste guia, o Marco Civil consolidou definições obrigatórias para os profissionais de TI, especialmente nas áreas de redes de computadores, telecomunicações e desenvolvimento de software. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "validação de integridade: determina se os computadores estão em conformidade com os requisitos de integridade do...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "zona desmilitarizada: impede que um usuário autorizado com um computador em conformidade carregue um programa...". De acordo com a teoria estudada em *1.2 Princípios e Direitos Fundamentais dos Usuários*, os princípios da disciplina do uso da Internet no Brasil incluem a garantia da liberdade de expressão, comunicação e manifestação de pensamento; a proteção da privacidade e dos dados pessoais; a preservação da estabilidade, segurança e funcionalidade da rede por meio de padrões técnicos universais; e a neutralidade da rede.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "restrição de rede: permite o acesso à rede, desde que o computador do usuário atenda aos requisitos de política de...". De acordo com a teoria estudada em *3.2 A Vedação Absoluta aos Provedores de Conexão (Art. 14)*, *"Na provisão de conexão à internet, cabe ao administrador de sistema autônomo respectivo a guarda dos registros de conexão, pelo prazo de 1 (um) ano (..). É VEDADA A GUARDA DOS REGISTROS DE ACESSO A APLICAÇÕES DE INTERNET NA PROVISÃO DE CONEXÃO."*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correção: restringe o acesso à rede ou à comunicação para clientes que não estão em conformidade com os requisitos...". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, internet (Art. 5º, I): O sistema constituído do conjunto de redes, protocolos e estruturas de comunicação baseado no protocolo IP (*Internet Protocol*), para comunicação entre pacotes de dados e dispositivos computacionais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "conformidade contínua: fornece as atualizações necessárias para permitir que o computador corrija seu estado de...". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, endereço IP - *Internet Protocol* (Art. 5º, III): O código atribuído a um terminal de uma rede para permitir sua identificação, definido segundo parâmetros internacionais (IPv4 de 32 bits ou IPv6 de 128 bits).
->
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
@@ -305,26 +305,26 @@ Isso significa que o provedor de banda larga (como Claro, Vivo, Oi ou provedores
 ---
 
 ### Teste 530
-**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
-A equipe de tecnologia da informação (TI) de um órgão está enfrentando dificuldades de disponibilidade de seu site de Internet após a divulgação de novos serviços com prazos rígidos para seus clientes. O site de Internet não está suportando o volume de acessos simultâneos. Para incrementar a disponibilidade do site, a equipe de TI replicou os servidores web e contratou uma solução que instalou um equipamento na frente das várias réplicas do site. Esse equipamento recebe as solicitações dos usuários da Internet, direcionando-as para os diversos servidores web internos, balanceando a carga entre eles. O certificado digital foi instalado nele para reduzir o processamento dos servidores web interno. O equipamento da solução contratada é um Proxy:
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Seguranca Da Informacao)**
+A equipe de resposta e tratamento de incidentes (ETIR) de um órgão público detectou, por meio de suas ferramentas de monitoramento da rede, um aumento no número de acessos a um determinado domínio de internet. Como resultado do processo de investigação de um possível incidente de segurança, a ETIR identificou que os usuários que acessaram o determinado domínio haviam recebido e-mails com orientação para trocarem suas senhas no sistema de Single Sign-On (SSO) do órgão. O domínio acessado continha uma página de internet, com características similares à página do SSO do órgão, porém, com domínio diferente, cujo objetivo era capturar as credenciais de acesso dos usuários. A ETIR identificou que o órgão sofreu um ataque do tipo:
 
-* **A)** de encaminhamento;
-* **B)** transparente;
-* **C)** anônimo;
-* **D)** reverso;
-* **E)** de distorção.
+* **A)** advanced fee fraud;
+* **B)** phishing;
+* **C)** email spoofing;
+* **D)** scanning;
+* **E)** snifing.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de encaminhamento". De acordo com a teoria estudada em *3.2 A Vedação Absoluta aos Provedores de Conexão (Art. 14)*, o provedor sabe apenas que o usuário estava conectado à internet e qual IP ele utilizou, mas não o que ele consumiu na web.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "transparente". De acordo com a teoria estudada em *3.1 Distinção Conceitual e Prazos Obrigatórios de Guarda*, pode guardar histórico de sites?: ❌ TERMINANTEMENTE PROIBIDO (Art. 14)! Não pode guardar registros de acesso a aplicações. — Apenas registra os acessos à sua própria aplicação (não aos sites concorrentes).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "anônimo". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, terminal (Art. 5º, II): O computador ou qualquer dispositivo que se conecte à Internet (smartphones, roteadores, servidores, dispositivos IoT).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reverso". De acordo com a teoria estudada em *3.2 A Vedação Absoluta aos Provedores de Conexão (Art. 14)*, isso significa que o provedor de banda larga (como Claro, Vivo, Oi ou provedores locais) não pode bisbilhotar nem gravar quais sites, vídeos ou serviços o usuário navegou.
-> - **E)** **Correta.** Conforme fundamentado na seção *5.2 Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)* deste guia, com o intuito de assegurar a liberdade de expressão e impedir a censura privada pelas empresas de tecnologia, o provedor de aplicações de internet somente poderá ser responsabilizado civilmente por danos decorrentes de conteúdo gerado por terceiros se, após ordem judicial específica, não tomar as providências para, no âmbito e nos limites técnicos do seu serviço e dentro do prazo assinalado, tornar indisponível o conteúdo apontado como infringente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "de distorção".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "advanced fee fraud". De acordo com a teoria estudada em *3.3 Padrões de Segurança do Decreto nº 8.771/2016*, registro de Auditoria de Acessos: Criação de inventário detalhado com data, hora, identidade do operador e arquivo acessado.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Princípios e Direitos Fundamentais dos Usuários* deste guia, os princípios da disciplina do uso da Internet no Brasil incluem a garantia da liberdade de expressão, comunicação e manifestação de pensamento; a proteção da privacidade e dos dados pessoais; a preservação da estabilidade, segurança e funcionalidade da rede por meio de padrões técnicos universais; e a neutralidade da rede. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "phishing".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "email spoofing". De acordo com a teoria estudada em *3.2 A Vedação Absoluta aos Provedores de Conexão (Art. 14)*, *"Na provisão de conexão à internet, cabe ao administrador de sistema autônomo respectivo a guarda dos registros de conexão, pelo prazo de 1 (um) ano (..). É VEDADA A GUARDA DOS REGISTROS DE ACESSO A APLICAÇÕES DE INTERNET NA PROVISÃO DE CONEXÃO."*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "scanning". De acordo com a teoria estudada em *2. O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)*, a Neutralidade de Rede é a garantia legal de que os dados transmitidos pela infraestrutura de telecomunicações devem ser tratados de forma estritamente isonômica, independentemente do tipo de conteúdo, origem, destino, terminal utilizado ou aplicativo gerador.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "snifing". De acordo com a teoria estudada em *3.1 Distinção Conceitual e Prazos Obrigatórios de Guarda*, pode guardar histórico de sites?: ❌ TERMINANTEMENTE PROIBIDO (Art. 14)! Não pode guardar registros de acesso a aplicações. — Apenas registra os acessos à sua própria aplicação (não aos sites concorrentes).
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 
@@ -360,24 +360,24 @@ O fornecimento de registros de conexão e de acesso a aplicações de internet s
 ---
 
 ### Teste 531
-**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
-A comunicação de dados em Redes Amplas (WAN) foi impulsionada pela técnica de comutação de pacotes que, em comparação com a técnica de comutação de circuitos, apresenta a vantagem
+**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+Uma aplicação Java EE utiliza JPA em conjunto com o provedor de persistência Hibernate. Esta aplicação estabelece conexão com um banco de dados chamado empresa que possui uma tabela departamento. O banco de dados é acessado por meio do usuário root, cuja senha é pC43Ab. Nestas condições, uma instrução correta que pode estar no arquivo persistence.xml é
 
-* **A)** dos pacotes chegarem na ordem em que foram enviados.
-* **B)** de disponibilizar uma comunicação confiável fim a fim.
-* **C)** de ser mais tolerante a falhas em equipamentos da rede.
-* **D)** dos pacotes seguirem uma rota pré-estabelecida.
-* **E)** de possibilitar a reserva de banda de comunicação.
+* **A)** <provider name="org.hibernate.ejb.HibernatePersistence" value="Hibernate"/>
+* **B)** <persistence-database name="hibernate.connection.databasename" value="empresa"/>
+* **C)** <property name="hibernate.connection.username" value="root"/>
+* **D)** <table name="hibernate.connection.tablename" value="departamento"/>
+* **E)** <persistence name="persistence.createEntityManagerFactory" value="PersistenceUnit"/>
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dos pacotes chegarem na ordem em que foram enviados". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, internet (Art. 5º, I): O sistema constituído do conjunto de redes, protocolos e estruturas de comunicação baseado no protocolo IP (*Internet Protocol*), para comunicação entre pacotes de dados e dispositivos computacionais.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de disponibilizar uma comunicação confiável fim a fim". De acordo com a teoria estudada em *1.2 Princípios e Direitos Fundamentais dos Usuários*, os princípios da disciplina do uso da Internet no Brasil incluem a garantia da liberdade de expressão, comunicação e manifestação de pensamento; a proteção da privacidade e dos dados pessoais; a preservação da estabilidade, segurança e funcionalidade da rede por meio de padrões técnicos universais; e a neutralidade da rede.
-> - **C)** **Correta.** Conforme fundamentado na seção *2. O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)* deste guia, a Neutralidade de Rede é a garantia legal de que os dados transmitidos pela infraestrutura de telecomunicações devem ser tratados de forma estritamente isonômica, independentemente do tipo de conteúdo, origem, destino, terminal utilizado ou aplicativo gerador. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "de ser mais tolerante a falhas em equipamentos da rede".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dos pacotes seguirem uma rota pré-estabelecida". De acordo com a teoria estudada em *2.1 Regra Geral de Tratamento Isonômico*, o responsável pela transmissão, comutação ou roteamento tem o dever de tratar quaisquer pacotes de dados de forma isonômica, sem distinção por conteúdo, origem, destino, terminal ou aplicação.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de possibilitar a reserva de banda de comunicação". De acordo com a teoria estudada em *4. Reserva de Jurisdição para Quebra de Sigilo (Arts. 10 e 22)*, *Dados Cadastrais Básicos (Filiação, Endereço residencial, Nome, CPF):* Podem ser requisitados diretamente por autoridades administrativas e policiais nos termos de leis específicas (Lei de Lavagem de Dinheiro nº 9.613/1998 e Lei de Organizações Criminosas nº 12.850/2013).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<provider name="org.hibernate.ejb.HibernatePersistence" value="Hibernate"/>`". De acordo com a teoria estudada em *3.3 Padrões de Segurança do Decreto nº 8.771/2016*, registro de Auditoria de Acessos: Criação de inventário detalhado com data, hora, identidade do operador e arquivo acessado.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<persistence-database name="hibernate.connection.databasename" value="empresa"/>`". De acordo com a teoria estudada em *4. Reserva de Jurisdição para Quebra de Sigilo (Arts. 10 e 22)*, dados Cadastrais vs. Logs de Conexão/Aplicação.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.2 A Vedação Absoluta aos Provedores de Conexão (Art. 14)* deste guia, isso significa que o provedor de banda larga (como Claro, Vivo, Oi ou provedores locais) não pode bisbilhotar nem gravar quais sites, vídeos ou serviços o usuário navegou. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "`<property name="hibernate.connection.username" value="root"/>`".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<table name="hibernate.connection.tablename" value="departamento"/>`". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, aplicações de Internet (Art. 5º, VII): O conjunto de funcionalidades que podem ser acessadas por meio de um terminal conectado à Internet (websites, redes sociais, sistemas de e-mail, plataformas de streaming, APIs governamentais).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<persistence name="persistence.createEntityManagerFactory" value="PersistenceUnit"/>`". De acordo com a teoria estudada em *3.2 A Vedação Absoluta aos Provedores de Conexão (Art. 14)*, o provedor sabe apenas que o usuário estava conectado à internet e qual IP ele utilizou, mas não o que ele consumiu na web.
 >
 > **Gabarito: C**
 
@@ -432,26 +432,26 @@ O provedor de conexão à internet **não responderá civilmente** por danos dec
 ---
 
 ### Teste 532
-**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
-O gerente de recursos humanos está organizando uma atividade institucional que contará com a presença de familiares dos servidores do órgão. Para fins de controle de acesso e organização do evento, será necessário registrar o nome, idade e CPF de todos. Além disso, a atividade contará com o apoio da equipe de marketing, que divulgará, após o seu término, uma notícia com fotos do evento na página de Internet da instituição. O gerente de recursos humanos solicita ao encarregado pelo tratamento de dados pessoais que o oriente sobre como proceder para coletar dados pessoais de crianças que venham a participar do evento. O encarregado esclarece corretamente que, nos termos da Lei Geral de Proteção de Dados Pessoais, deverá ser solicitado o consentimento:
+**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Um órgão público possui algumas unidades distantes geograficamente umas das outras e está pesquisando soluções que sejam confiáveis e que suportem criptografia para conectar as unidades entre si. Sobre as tecnologias MPLS (Multi-Protocol Label Switching) e SD- WAN (Software-Defined Wide Area Network), é correto afirmar que:
 
-* **A)** expresso e em destaque, dado pelo responsável legal;
-* **B)** expresso e em destaque, dado por ambos os pais ou responsável legal;
-* **C)** específico e em destaque, dado pelo servidor que acompanhará a criança no evento;
-* **D)** expresso e em destaque, dado por pelo menos um dos pais ou responsável legal;
-* **E)** específico, em destaque, dado por pelo menos um dos pais ou responsável legal.
+* **A)** as duas tecnologias podem coexistir numa mesma rede;
+* **B)** o desempenho da aplicação é sempre previsível na tecnologia SD-WAN;
+* **C)** a tecnologia MPLS opera na camada de transporte da arquitetura TCP/IP;
+* **D)** a tecnologia SD-WAN consegue usar criptografia ponta a ponta, mas o MPLS não suporta;
+* **E)** em relação ao tráfego de dados, o MPLS distribui os dados por diversos caminhos, e a SD-WAN utiliza sempre o mesmo caminho.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "expresso e em destaque, dado pelo responsável legal". De acordo com a teoria estudada em *2.1 Regra Geral de Tratamento Isonômico*, o responsável pela transmissão, comutação ou roteamento tem o dever de tratar quaisquer pacotes de dados de forma isonômica, sem distinção por conteúdo, origem, destino, terminal ou aplicação.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "expresso e em destaque, dado por ambos os pais ou responsável legal". De acordo com a teoria estudada em *2. O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)*, a Neutralidade de Rede é a garantia legal de que os dados transmitidos pela infraestrutura de telecomunicações devem ser tratados de forma estritamente isonômica, independentemente do tipo de conteúdo, origem, destino, terminal utilizado ou aplicativo gerador.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "específico e em destaque, dado pelo servidor que acompanhará a criança no evento". De acordo com a teoria estudada em *5.3 Exceção Crítica do Artigo 21 (Nudez e Sexo Não Consensual)*, condição de Responsabilização: O provedor responderá subsidiariamente se, após o recebimento de simples notificação pelo participante ou seu representante legal, deixar de promover de forma diligente a indisponibilização do conteúdo.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "expresso e em destaque, dado por pelo menos um dos pais ou responsável legal". De acordo com a teoria estudada em *5.2 Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)*, com o intuito de assegurar a liberdade de expressão e impedir a censura privada pelas empresas de tecnologia, o provedor de aplicações de internet somente poderá ser responsabilizado civilmente por danos decorrentes de conteúdo gerado por terceiros se, após ordem judicial específica, não tomar as providências para, no âmbito e nos limites técnicos do seu serviço e dentro do prazo assinalado, tornar indisponível o conteúdo apontado como infringente.
-> - **E)** **Correta.** Conforme fundamentado na seção *4. Reserva de Jurisdição para Quebra de Sigilo (Arts. 10 e 22)* deste guia, *Dados Cadastrais Básicos (Filiação, Endereço residencial, Nome, CPF):* Podem ser requisitados diretamente por autoridades administrativas e policiais nos termos de leis específicas (Lei de Lavagem de Dinheiro nº 9.613/1998 e Lei de Organizações Criminosas nº 12.850/2013). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "específico, em destaque, dado por pelo menos um dos pais ou responsável legal".
+> - **A)** **Correta.** Conforme fundamentado na seção *2.2 As Duas Únicas Exceções Legais à Neutralidade* deste guia, gestão de congestionamento temporário de redes (garantindo que o tráfego crítico não colapse a rede como um todo). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "as duas tecnologias podem coexistir numa mesma rede".
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "o desempenho da aplicação é sempre previsível na tecnologia SD-WAN". De acordo com a teoria estudada em *5.2 Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)*, com o intuito de assegurar a liberdade de expressão e impedir a censura privada pelas empresas de tecnologia, o provedor de aplicações de internet somente poderá ser responsabilizado civilmente por danos decorrentes de conteúdo gerado por terceiros se, após ordem judicial específica, não tomar as providências para, no âmbito e nos limites técnicos do seu serviço e dentro do prazo assinalado, tornar indisponível o conteúdo apontado como infringente.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a tecnologia MPLS opera na camada de transporte da arquitetura TCP/IP". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, porta Lógica de Origem (Decreto nº 8.771/2016, Art. 10): Número que identifica o canal lógico de comunicação em conexões TCP/UDP (camada de transporte).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a tecnologia SD-WAN consegue usar criptografia ponta a ponta, mas o MPLS não suporta". De acordo com a teoria estudada em *3.3 Padrões de Segurança do Decreto nº 8.771/2016*, criptografia: Soluções de cifração robusta para os dados armazenados em repouso e em trânsito.
+> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "em relação ao tráfego de dados, o MPLS distribui os dados por diversos caminhos, e a SD-WAN utiliza sempre o mesmo...". De acordo com a teoria estudada em *2.2 As Duas Únicas Exceções Legais à Neutralidade*, preservação da segurança e estabilidade da rede (mitigação em tempo real de ataques DDoS, contenção de tráfego de botnets e bloqueio de portas vulneráveis disseminadoras de malware).
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
 ---
 
@@ -466,50 +466,50 @@ O Artigo 21 constitui a exceção mais importante e cobrada em provas de concurs
 ---
 
 ### Teste 533
-**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
-De acordo com a Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018), o titular tem direito ao acesso facilitado às informações sobre o tratamento de seus dados, que deverão ser disponibilizadas de forma clara, adequada e ostensiva acerca de determinadas características. Quando o consentimento é requerido, se houver mudanças da finalidade para o tratamento de dados pessoais não compatíveis com o consentimento original, o controlador deverá informar o titular sobre as mudanças de finalidade
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+A Lei de Acesso à Informação (LAI – Lei nº 12.527/2011) estabelece os procedimentos a serem observados pelos órgãos e entidades públicas, com a finalidade de garantir o acesso dos cidadãos às informações produzidas ou custodiadas pelo Estado. Um cidadão formulou pedido de acesso a documentos relacionados a contrato firmado por autarquia federal, sem apresentar qualquer justificativa para a solicitação. O órgão, por sua vez, indeferiu o pedido sob o argumento de que a ausência de motivação pelo requerente impediria a análise da pertinência do acesso. Com base na LAI, assinale a afirmativa correta.
 
-* **A)** previamente, sendo que o titular não poderá revogar o consentimento.
-* **B)** previamente, podendo o titular revogar o consentimento, caso discorde das alterações.
-* **C)** posteriormente, sendo que o titular não poderá revogar o consentimento.
-* **D)** posteriormente, podendo o titular revogar o consentimento, caso discorde das alterações.
-* **E)** anualmente, sendo que o titular deverá renovar o seu consentimento.
+* **A)** O indeferimento foi correto, pois a LAI exige que o requerente indique as razões do pedido de acesso à informação, permitindo ao órgão avaliar a pertinência e a finalidade da solicitação antes de conceder o acesso.
+* **B)** O indeferimento foi correto apenas em relação a contratos que envolvam informações de caráter pessoal de terceiros, hipótese em que a LAI exige motivação expressa do requerente para fins de ponderação entre o direito de acesso e a proteção de dados.
+* **C)** O indeferimento foi incorreto, pois a LAI veda expressamente a exigência de motivação como condição para o pedido de acesso à informação, sendo suficiente a identificação do requerente, e as informações contratuais de entidades públicas enquadram-se como informações de transparência ativa obrigatória.
+* **D)** O indeferimento foi incorreto quanto à ausência de motivação, mas seria válido caso o contrato envolvesse valores acima do limite legal, hipótese em que a LAI autoriza a classificação das informações contratuais como sigilosas.
+* **E)** O indeferimento foi incorreto, pois a LAI dispensa até mesmo a identificação do requerente para fins de pedido de acesso à informação, bastando a formalização da solicitação pelo canal oficial do órgão.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "previamente, sendo que o titular não poderá revogar o consentimento". De acordo com a teoria estudada em *5.2 Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)*, com o intuito de assegurar a liberdade de expressão e impedir a censura privada pelas empresas de tecnologia, o provedor de aplicações de internet somente poderá ser responsabilizado civilmente por danos decorrentes de conteúdo gerado por terceiros se, após ordem judicial específica, não tomar as providências para, no âmbito e nos limites técnicos do seu serviço e dentro do prazo assinalado, tornar indisponível o conteúdo apontado como infringente.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Princípios e Direitos Fundamentais dos Usuários* deste guia, informações claras e completas sobre coleta, uso, armazenamento e tratamento de dados pessoais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "previamente, podendo o titular revogar o consentimento, caso discorde das alterações".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "posteriormente, sendo que o titular não poderá revogar o consentimento". De acordo com a teoria estudada em *2.2 As Duas Únicas Exceções Legais à Neutralidade*, a banca FCC frequentemente afirma que o provedor de internet pode degradar tráfego de vídeo ou jogos livremente caso isso conste expressamente em contrato assinado com o consumidor.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "posteriormente, podendo o titular revogar o consentimento, caso discorde das alterações". De acordo com a teoria estudada em *2.1 Regra Geral de Tratamento Isonômico*, o responsável pela transmissão, comutação ou roteamento tem o dever de tratar quaisquer pacotes de dados de forma isonômica, sem distinção por conteúdo, origem, destino, terminal ou aplicação.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "anualmente, sendo que o titular deverá renovar o seu consentimento". De acordo com a teoria estudada em *1.2 Princípios e Direitos Fundamentais dos Usuários*, os princípios da disciplina do uso da Internet no Brasil incluem a garantia da liberdade de expressão, comunicação e manifestação de pensamento; a proteção da privacidade e dos dados pessoais; a preservação da estabilidade, segurança e funcionalidade da rede por meio de padrões técnicos universais; e a neutralidade da rede.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O indeferimento foi correto, pois a LAI exige que o requerente indique as razões do pedido de acesso à informação...". De acordo com a teoria estudada em *5.3 Exceção Crítica do Artigo 21 (Nudez e Sexo Não Consensual)*, nÃO exige ordem judicial! A notificação extrajudicial da vítima contendo elementos que permitam identificar o material (URL) é suficiente para impor a obrigação de derrubada imediata.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O indeferimento foi correto apenas em relação a contratos que envolvam informações de caráter pessoal de...". De acordo com a teoria estudada em *5.1 Imunidade Civil dos Provedores de Conexão (Art. 18)*, o provedor de conexão à internet não responderá civilmente por danos decorrentes de conteúdo gerado por terceiros em nenhuma hipótese. Ele atua como mero conduto de transmissão de pacotes (*mere conduit*), sem poder de gerência sobre o conteúdo transmitido.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Princípios e Direitos Fundamentais dos Usuários* deste guia, informações claras e completas sobre coleta, uso, armazenamento e tratamento de dados pessoais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "O indeferimento foi incorreto, pois a LAI veda expressamente a exigência de motivação como condição para o pedido...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O indeferimento foi incorreto quanto à ausência de motivação, mas seria válido caso o contrato envolvesse valores...". De acordo com a teoria estudada em *2.2 As Duas Únicas Exceções Legais à Neutralidade*, a banca FCC frequentemente afirma que o provedor de internet pode degradar tráfego de vídeo ou jogos livremente caso isso conste expressamente em contrato assinado com o consumidor.
+> - **E)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "O indeferimento foi incorreto, pois a LAI dispensa até mesmo a identificação do requerente para fins de pedido de...". De acordo com a teoria estudada em *3.3 Padrões de Segurança do Decreto nº 8.771/2016*, os responsáveis pela guarda de registros devem obrigatoriamente seguir padrões mínimos de segurança da informação (Art. 13 do Decreto nº 8.771/2016).
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 534
-**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
-Qualquer dos seguintes protocolos pode ser utilizado para implementar serviços de "voz sobre IP", EXCETO
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia Da Informacao)**
+Luis precisa estabelecer um acesso remoto a um servidor e pede orientação a Carlos, um analista de TI. Carlos afirmou que o acesso pode ser feito pelo protocolo da camada de:
 
-* **A)** H.323
-* **B)** PSTN
-* **C)** SIP
-* **D)** MGCP
-* **E)** RTP
+* **A)** aplicação chamado telnet, que roda sobre UDP e, por isso, não é tão confiável quanto o SSH;
+* **B)** aplicação chamado telnet, que roda sobre TCP (assim como o SSH) e é uma aplicação interativa;
+* **C)** rede chamado SSH, que roda sobre TCP e, apesar de não ser criptografado, é mais confiável do que o telnet;
+* **D)** rede chamado SSH, que roda sobre UDP e, apesar de não ser criptografado, é mais confiável do que o telnet;
+* **E)** aplicação chamado SSH, que roda sobre TCP e, apesar de não ser criptografado, é mais confiável do que o telnet.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "H.323". De acordo com a teoria estudada em *2. O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)*, a Neutralidade de Rede é a garantia legal de que os dados transmitidos pela infraestrutura de telecomunicações devem ser tratados de forma estritamente isonômica, independentemente do tipo de conteúdo, origem, destino, terminal utilizado ou aplicativo gerador.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.1 Regra Geral de Tratamento Isonômico* deste guia, bloquear ou degradar pacotes de protocolos peer-to-peer (P2P/BitTorrent) ou de voz sobre IP (VoIP/WhatsApp) para forçar o consumidor a contratar pacotes de telefonia da própria operadora. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "PSTN".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SIP". De acordo com a teoria estudada em *3.2 A Vedação Absoluta aos Provedores de Conexão (Art. 14)*, isso significa que o provedor de banda larga (como Claro, Vivo, Oi ou provedores locais) não pode bisbilhotar nem gravar quais sites, vídeos ou serviços o usuário navegou.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "MGCP". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, terminal (Art. 5º, II): O computador ou qualquer dispositivo que se conecte à Internet (smartphones, roteadores, servidores, dispositivos IoT).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "RTP". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, internet (Art. 5º, I): O sistema constituído do conjunto de redes, protocolos e estruturas de comunicação baseado no protocolo IP (*Internet Protocol*), para comunicação entre pacotes de dados e dispositivos computacionais.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aplicação chamado telnet, que roda sobre UDP e, por isso, não é tão confiável quanto o SSH". De acordo com a teoria estudada em *1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)*, porta Lógica de Origem (Decreto nº 8.771/2016, Art. 10): Número que identifica o canal lógico de comunicação em conexões TCP/UDP (camada de transporte).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aplicação chamado telnet, que roda sobre TCP (assim como o SSH) e é uma aplicação interativa". De acordo com a teoria estudada em *5.3 Exceção Crítica do Artigo 21 (Nudez e Sexo Não Consensual)*, o Artigo 21 constitui a exceção mais importante e cobrada em provas de concurso.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "rede chamado SSH, que roda sobre TCP e, apesar de não ser criptografado, é mais confiável do que o telnet". De acordo com a teoria estudada em *2. O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)*, a Neutralidade de Rede é a garantia legal de que os dados transmitidos pela infraestrutura de telecomunicações devem ser tratados de forma estritamente isonômica, independentemente do tipo de conteúdo, origem, destino, terminal utilizado ou aplicativo gerador.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "rede chamado SSH, que roda sobre UDP e, apesar de não ser criptografado, é mais confiável do que o telnet". De acordo com a teoria estudada em *3.1 Distinção Conceitual e Prazos Obrigatórios de Guarda*, pode guardar histórico de sites?: ❌ TERMINANTEMENTE PROIBIDO (Art. 14)! Não pode guardar registros de acesso a aplicações. — Apenas registra os acessos à sua própria aplicação (não aos sites concorrentes).
+> - **E)** **Correta.** Conforme fundamentado na seção *5.2 Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)* deste guia, com o intuito de assegurar a liberdade de expressão e impedir a censura privada pelas empresas de tecnologia, o provedor de aplicações de internet somente poderá ser responsabilizado civilmente por danos decorrentes de conteúdo gerado por terceiros se, após ordem judicial específica, não tomar as providências para, no âmbito e nos limites técnicos do seu serviço e dentro do prazo assinalado, tornar indisponível o conteúdo apontado como infringente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "aplicação chamado SSH, que roda sobre TCP e, apesar de não ser criptografado, é mais confiável do que o telnet".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 

@@ -122,24 +122,24 @@ A predicação verbal analisa a exigência de complementos pelos verbos no conte
 ---
 
 ### Teste 022
-**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
-Considere para o que se afirma: I. O elemento sublinhado em ...que se permitia improvisação no meio. (2o parágrafo) introduz uma restrição ao sentido do termo imediatamente anterior. II. Sem prejuízo da correção e do sentido, o segmento sublinhado em Na década em que predomina o metal... (2o parágrafo) pode ser substituído por: “à qual”. III. O elemento sublinhado em ...que moram no quinto andar do MoMA (3o parágrafo) é um pronome, com o papel de sujeito na oração que introduz. Está correto o que se afirma APENAS em
+**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+No contexto dado, possui a mesma regência do verbo presente no segmento A escravidão que denunciava com dureza, o que se encontra sublinhado em:
 
-* **A)** II.
-* **B)** I e II.
-* **C)** II e III.
-* **D)** I e III.
-* **E)** III.
+* **A)** Quem fala, hoje, dos 30 milhões de escravos... (8o parágrafo)
+* **B)** ... número que hoje oscila entre os 13 milhões e os 14 milhões... (5o parágrafo)
+* **C)** ... antes de portugueses ou espanhóis comprarem negros na África rumo ao Novo Mundo. (7o parágrafo)
+* **D)** ... o Global Slavery Index é um belo retrato da nossa miséria... (4o parágrafo)
+* **E)** Não é preciso assistir a 12 Anos de Escravidão... (1o parágrafo)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *1.2 Termos Essenciais, Integrantes e Acessórios da Oração*, pode ser determinado (simples, composto ou elíptico/oculto), indeterminado (com verbo na 3ª pessoa do plural sem referência ou com VTI/VI + partícula SE) ou inexistente (em orações sem sujeito com verbos impessoais como *haver* no sentido de existir ou verbos de fenômenos climáticos).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *1.2 Termos Essenciais, Integrantes e Acessórios da Oração*, complemento Nominal: Termo preposicionado que completa o sentido abstrato e passivo de um substantivo abstrato, de um adjetivo ou de um advérbio.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *1.2 Termos Essenciais, Integrantes e Acessórios da Oração*, sujeito: Elemento sobre o qual se faz uma declaração, com o qual o verbo concorda em número e pessoa.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *1.1 Correlação entre Classes Morfológicas e Funções Sintáticas*, preposição: Conectivo relacional sem função de termo isolado (introduz termos preposicionados) — *"Necessita `<ins>`de`</ins>` recursos"*.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.3 O Papel Central do Verbo na Predicação e Transitividade* deste guia, verbo de Ligação (VL): Não expressa ação, servindo de elo entre o sujeito e seu predicativo (*ser, estar, parecer, permanecer, ficar, continuar, andar* em sentido de estado). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "III".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Quem fala, hoje, dos 30 milhões de escravos... (8o parágrafo)". De acordo com a teoria estudada em *2. Teoria dos Pronomes e Relações Discursivas*, os pronomes formam a classe gramatical responsável por representar ou acompanhar os nomes (substantivos), exercendo papel insubstituível na coesão textual, na distribuição de turnos de fala e no estabelecimento de referências espaciais e temporais.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "... número que hoje oscila entre os 13 milhões e os 14 milhões... (5o parágrafo)". De acordo com a teoria estudada em *1.2 Termos Essenciais, Integrantes e Acessórios da Oração*, sujeito: Elemento sobre o qual se faz uma declaração, com o qual o verbo concorda em número e pessoa.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "... antes de portugueses ou espanhóis comprarem negros na África rumo ao Novo Mundo. (7o parágrafo)". De acordo com a teoria estudada em *4.2 Mesóclise e Suas Condições de Aplicação*, futuro do Presente do Indicativo: *"Apresentar-se-á novo recurso pelo réu"* (*apresentará* + *se*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "... o Global Slavery Index é um belo retrato da nossa miséria... (4o parágrafo)". De acordo com a teoria estudada em *1. Fundamentos de Morfossintaxe e Estrutura Oracional*, uma mesma classe gramatical pode assumir funções sintáticas distintas a depender do contexto relacional estabelecido com o núcleo do predicado e com os demais termos oracionais.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.3 O Papel Central do Verbo na Predicação e Transitividade* deste guia, verbo Intransitivo (VI): Possui sentido completo em si mesmo no contexto, prescindindo de objeto direto ou indireto (*"O conselheiro faleceu"*, *"O processo caminhou rapidamente"* — onde *rapidamente* é mero adjunto adverbial de modo). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "Não é preciso assistir a 12 Anos de Escravidão... (1o parágrafo)".
 >
 > **Gabarito: E**
 
@@ -186,26 +186,20 @@ O pronome relativo *cujo* (e suas flexões *cuja, cujos, cujas*) é um dos ponto
 ---
 
 ### Teste 023
-**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
-Um jornal português trazia o seguinte texto: Aterrar nas lojas antes de levantar voo. A nova zona comercial do aeroporto de Lisboa está maior e mais bonita. Ana Garcia Martins não foi de viagem, mas foi visitá-la. Ir de viagem e não comprar perfumes e chocolates ne aeroporto é mais ou menos a mesma coisa que ir a Roma e não ver o Papa. Assinale a afirmação inadequada sobre esse texto.
+**(CEBRASPE – TJ/DFT – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+O emprego do verbo “dever” e o uso das expressões “ser preciso” e “ser necessário” ao longo do texto servem para sinalizar ações consideradas importantes e programáticas no desenvolvimento de uma nova política de acesso à justiça.
 
-* **A)** A utilização do verbo “aterrar” em lugar de “aterrissar” indica uma preferência vocabular dos portugueses.
-* **B)** O texto deve ser enquadrado como publicitário, tendo por objeto o comércio nas lojas do aeroporto de Lisboa.
-* **C)** A pessoa citada, no texto, mostra uma atitude que deveria ser copiada por outras pessoas.
-* **D)** O pronome “la” se refere à zona comercial do aeroporto.
-* **E)** A comparação final do texto é feita para mostrar o absurdo que é ir a Roma e não ver o Papa.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A utilização do verbo “aterrar” em lugar de “aterrissar” indica uma preferência vocabular dos portugueses". De acordo com a teoria estudada em *2.1 Classificação Geral e Funções Referenciais: Anáfora, Catáfora e Dêixis*, função Anafórica: O pronome remete a um termo, fato ou conceito já mencionado anteriormente no texto, retomando-o e garantindo a progressão temática sem repetições deselegantes (*"O Tribunal proferiu a decisão; `<ins>`esta`</ins>` gerou ampla repercussão"*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O texto deve ser enquadrado como publicitário, tendo por objeto o comércio nas lojas do aeroporto de Lisboa". De acordo com a teoria estudada em *2.3 Pronome Relativo Cujo e Regência com Preposições Antepostas*, anteposição da preposição exigida pelo verbo: Se o verbo da oração adjetiva introduzida por *cujo* exigir preposição em razão de sua regência, essa preposição deve ser obrigatoriamente colocada antes de cujo.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A pessoa citada, no texto, mostra uma atitude que deveria ser copiada por outras pessoas". De acordo com a teoria estudada em *5.2 Verbos Notáveis de Alta Incidência: Ter, Vir, Ver, Pôr e Haver*, no sentido de existir, ocorrer ou expressar decurso de tempo, é impessoal: não tem sujeito e fica obrigatoriamente na 3ª pessoa do singular (*"Havia muitas dúvidas"*, *"Houve falhas formais"*, *"Pode haver impugnações"*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O pronome “la” se refere à zona comercial do aeroporto". De acordo com a teoria estudada em *2.1 Classificação Geral e Funções Referenciais: Anáfora, Catáfora e Dêixis*, função Dêitica (Exofórica): O pronome aponta diretamente para elementos exteriores ao texto, presentes na situação concreta de enunciação no mundo real (quem fala, onde fala e quando fala): *"Por favor, assine `<ins>`este`</ins>` documento aqui agora"*.
-> - **E)** **Correta.** Conforme fundamentado na seção *2.2 Pronomes Demonstrativos e a Articulação Espaço-Temporal* deste guia, ao citar dois elementos no texto e retomá-los comparativamente, emprega-se este para referir-se ao elemento mencionado por último (mais próximo fisicamente na escrita) e aquele para remeter ao primeiro elemento mencionado (mais afastado no texto): *"O Diretor e o Auditor chegaram; `<ins>`este`</ins>` (o auditor) trazia as planilhas, `<ins>`aquele`</ins>` (o diretor) presidiu a conferência"*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "A comparação final do texto é feita para mostrar o absurdo que é ir a Roma e não ver o Papa".
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2.3 Pronome Relativo Cujo e Regência com Preposições Antepostas* deste guia, vedação absoluta ao uso de artigo: É erro gramatical gravíssimo fazer suceder qualquer artigo ao pronome (*cujo o*, *cuja a*, *cujos os*, *cujas as* são formas inexistentes e eliminatórias). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TJ/DFT/2015) ao afirmar que "O emprego do verbo “dever” e o uso das expressões “ser preciso” e “ser necessário” ao longo do texto servem...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *2.3 Pronome Relativo Cujo e Regência com Preposições Antepostas*, segundo a qual anteposição da preposição exigida pelo verbo: Se o verbo da oração adjetiva introduzida por *cujo* exigir preposição em razão de sua regência, essa preposição deve ser obrigatoriamente colocada antes de cujo.
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 
@@ -278,26 +272,20 @@ Ao associar os pronomes diretos *o, a, os, as* à forma verbal enclítica, ocorr
 ---
 
 ### Teste 024
-**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
-Considere os segmentos sublinhados: atrair turistas que compõem “O imitador de vozes”. a obra mantém intactas a linguagem e a verve Fazendo-se as alterações necessárias, os segmentos sublinhados acima foram corretamente substituídos por um pronome em:
+**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+O conectivo “Então” ((cid:53).6) estabelece uma relação de tempo entre as idéias expressas em duas orações. 10 É pela acepção do verbo levar, em “leva a perceber” ((cid:53).11), que se justifica o emprego da preposição “a” nesse trecho, de
 
-* **A)** atraí-los - lhe compõem - lhes mantém
-* **B)** atrair-lhes - o compõem - mantém-nas
-* **C)** atrair-lhes - compõem-no - mantém-lhes
-* **D)** atraí-los - o compõem - mantém-nas
-* **E)** atrair-lhes - lhe compõem - as mantém
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atraí-los - lhe compõem - lhes mantém". De acordo com a teoria estudada em *3.3 Variações Fonéticas dos Pronomes Diretos: Formas em -Lo e -No*, a consoante final é eliminada e o pronome assume as formas -lo, -la, -los, -las.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atrair-lhes - o compõem - mantém-nas". De acordo com a teoria estudada em *2.2 Pronomes Demonstrativos e a Articulação Espaço-Temporal*, ao citar dois elementos no texto e retomá-los comparativamente, emprega-se este para referir-se ao elemento mencionado por último (mais próximo fisicamente na escrita) e aquele para remeter ao primeiro elemento mencionado (mais afastado no texto): *"O Diretor e o Auditor chegaram; `<ins>`este`</ins>` (o auditor) trazia as planilhas, `<ins>`aquele`</ins>` (o diretor) presidiu a conferência"*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atrair-lhes - compõem-no - mantém-lhes". De acordo com a teoria estudada em *1.1 Correlação entre Classes Morfológicas e Funções Sintáticas*, verbo: Núcleo do Predicado (Verbo Nocional) ou Elo de Ligação (Verbo de Ligação) — *"O auditor `<ins>`inspecionou`</ins>` a obra"*.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.3 Variações Fonéticas dos Pronomes Diretos: Formas em -Lo e -No* deste guia, *compõem + a* \$\rightarrow\$ *compõem-na*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "atraí-los - o compõem - mantém-nas".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atrair-lhes - lhe compõem - as mantém". De acordo com a teoria estudada em *4.3 Ênclise e Vedações Gramaticais Absolutas*, verbo no Imperativo Afirmativo: *"Senhor auditor, instrua-o com as cópias necessárias"*.
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O conectivo “Então” ((cid:53).6) estabelece uma relação de tempo entre as idéias expressas em duas orações...". De acordo com a teoria estudada em *3.2 Complementos de VTD e VTI: Emprego de O/A vs. Lhe/Lhes*, verbos Transitivos Indiretos (VTI regidos pela preposição A): Complementam-se pelos pronomes lhe, lhes (*"Obedeceu ao regulamento"* $\rightarrow$ *"Obedeceu-lhe"*).
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *1.1 Correlação entre Classes Morfológicas e Funções Sintáticas* deste guia, preposição: Conectivo relacional sem função de termo isolado (introduz termos preposicionados) — *"Necessita `<ins>`de`</ins>` recursos"*. Portanto, a assertiva examinada pela banca (CEBRASPE – STF/2008) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
@@ -354,26 +342,20 @@ Em locuções compostas por verbo auxiliar mais verbo principal no infinitivo, g
 ---
 
 ### Teste 025
-**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Considerada a norma-padrão da língua, é adequado o que se afirma em:
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+No trecho “A economia solidária vem-se apresentando” (R.1), o deslocamento do pronome pessoal oblíquo para depois do verbo principal da locução não prejudicaria a correção gramatical do texto: vem apresentando-se.
 
-* **A)** (linha 7) A colocação do pronome oblíquo observada em ver-se-á é correta; essa mesóclise é restrita ao emprego do futuro do presente.
-* **B)** (linha 9) O emprego do verbo auxiliar destacado em que não chegam a se reconstituir indica que haveria a possibilidade de a ação denotada pelo verbo principal ter sido concluída.
-* **C)** (linhas 1 e 2) Redação alternativa do segmento cuja percepção é necessária ao entendimento do passado e do presente da região, que não prejudique nem seu sentido no contexto original, nem a correção gramatical, poderia ser “percepção da qual depende necessariamente o entendimento do passado e do presente da região”.
-* **D)** (linha 3) No contexto em que está empregada, a forma verbal irá resultar não é adequada, pois a menção a meados do século XVIII exigiria o uso de “iria resultar”.
-* **E)** (linha 4) A substituição da forma havia sido observada por “teria sido observada” não prejudica o sentido original da frase.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linha 7) A colocação do pronome oblíquo observada em ver-se-á é correta; essa mesóclise é restrita ao emprego do...". De acordo com a teoria estudada em *4.4 Colocação Pronominal em Locuções Verbais*, com palavra atrativa: o pronome pode ir para antes do auxiliar (próclise ao auxiliar) ou em ênclise ao verbo principal (*"Não lhe quero dizer"* ou *"Não quero dizer-lhe"*).
-> - **B)** **Correta.** Conforme fundamentado na seção *4.4 Colocação Pronominal em Locuções Verbais* deste guia, em locuções compostas por verbo auxiliar mais verbo principal no infinitivo, gerúndio ou particípio. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "(linha 9) O emprego do verbo auxiliar destacado em que não chegam a se reconstituir indica que haveria a...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linhas 1 e 2) Redação alternativa do segmento cuja percepção é necessária ao entendimento do passado e do...". De acordo com a teoria estudada em *1.3 O Papel Central do Verbo na Predicação e Transitividade*, verbo de Ligação (VL): Não expressa ação, servindo de elo entre o sujeito e seu predicativo (*ser, estar, parecer, permanecer, ficar, continuar, andar* em sentido de estado).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linha 3) No contexto em que está empregada, a forma verbal irá resultar não é adequada, pois a menção a meados do...". De acordo com a teoria estudada em *1.3 O Papel Central do Verbo na Predicação e Transitividade*, a predicação verbal analisa a exigência de complementos pelos verbos no contexto específico da frase.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linha 4) A substituição da forma havia sido observada por “teria sido observada” não prejudica o sentido original...". De acordo com a teoria estudada em *5.2 Verbos Notáveis de Alta Incidência: Ter, Vir, Ver, Pôr e Haver*, no sentido de existir, ocorrer ou expressar decurso de tempo, é impessoal: não tem sujeito e fica obrigatoriamente na 3ª pessoa do singular (*"Havia muitas dúvidas"*, *"Houve falhas formais"*, *"Pode haver impugnações"*).
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *4.3 Ênclise e Vedações Gramaticais Absolutas* deste guia, verbo no início de período sintático: *"Fez-se o levantamento de custos"* (é erro gramatical crasso iniciar frase com pronome oblíquo: *"Se fez o levantamento"*). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRT/10/2013) ao afirmar que "No trecho “A economia solidária vem-se apresentando” (R.1), o deslocamento do pronome pessoal oblíquo para...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *4.4 Colocação Pronominal em Locuções Verbais*, segundo a qual com palavra atrativa: o pronome pode ir para antes do auxiliar (próclise ao auxiliar) ou em ênclise ao verbo principal (*"Não lhe quero dizer"* ou *"Não quero dizer-lhe"*).
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -420,50 +402,44 @@ flowchart TD
 ---
 
 ### Teste 026
-**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
-Em todas as frases abaixo está presente o verbo “ver”. A substituição desse verbo por outro, adequada ao contexto, é:
+**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+As orações que precedem “é” ((cid:53).4) constituem o sujeito que leva esse verbo para o singular.
 
-* **A)** Ficamos paralisados, vendo a paisagem maravilhosa / contemplando.
-* **B)** É difícil ver a diferença de cores neste quadro / apreciar.
-* **C)** O diretor verá hoje os requerimentos dos alunos / notará.
-* **D)** Os médicos veem muitos pacientes por dia / percebem.
-* **E)** Não conseguiram ver a grandeza das ações / destacar.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ficamos paralisados, vendo a paisagem maravilhosa / contemplando". De acordo com a teoria estudada em *5.2 Verbos Notáveis de Alta Incidência: Ter, Vir, Ver, Pôr e Haver*, o Verbo PÔR (e derivados como propor, dispor, compor).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É difícil ver a diferença de cores neste quadro / apreciar". De acordo com a teoria estudada em *2.2 Pronomes Demonstrativos e a Articulação Espaço-Temporal*, este, esta, isto: Próximo do emissor (1ª pessoa) — Tempo presente ou futuro imediato (*"neste ano de 2026"*) — Catáfora (antecipa o que virá) ou retoma o termo imediatamente mais próximo.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.2 Pronomes Demonstrativos e a Articulação Espaço-Temporal* deste guia, ao citar dois elementos no texto e retomá-los comparativamente, emprega-se este para referir-se ao elemento mencionado por último (mais próximo fisicamente na escrita) e aquele para remeter ao primeiro elemento mencionado (mais afastado no texto): *"O Diretor e o Auditor chegaram; `<ins>`este`</ins>` (o auditor) trazia as planilhas, `<ins>`aquele`</ins>` (o diretor) presidiu a conferência"*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "O diretor verá hoje os requerimentos dos alunos / notará".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os médicos veem muitos pacientes por dia / percebem". De acordo com a teoria estudada em *4.1 Próclise e os Fatores Atrativos Obrigatórios*, pronomes indefinidos: *tudo, nada, alguém, todos, muitos, qualquer, vários* (*"Alguém `<ins>`o`</ins>` advertiu"*).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não conseguiram ver a grandeza das ações / destacar". De acordo com a teoria estudada em *5.2 Verbos Notáveis de Alta Incidência: Ter, Vir, Ver, Pôr e Haver*, se for substituído por *existir*, o verbo *existir* é pessoal e concorda normalmente (*"Existiam muitas dúvidas"*, *"Existiram falhas"*).
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *6.4 Distinção entre Pronome Apassivador e Índice de Indeterminação do Sujeito* deste guia, concordância Verbal: O verbo flexiona obrigatoriamente (vai ao plural se o sujeito for plural) — O verbo fica obrigatoriamente na 3ª pessoa do singular. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STF/2008) ao afirmar que "As orações que precedem “é” ((cid:53).4) constituem o sujeito que leva esse verbo para o singular".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.2 Termos Essenciais, Integrantes e Acessórios da Oração*, segundo a qual pode ser determinado (simples, composto ou elíptico/oculto), indeterminado (com verbo na 3ª pessoa do plural sem referência ou com VTI/VI + partícula SE) ou inexistente (em orações sem sujeito com verbos impessoais como *haver* no sentido de existir ou verbos de fenômenos climáticos).
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 027
-**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
-Na oração “a quem ele amara de verdade”, a flexão do verbo é marcada por uma regularidade que indica tempo e modo. Tal flexão confere ao verbo o sentido de uma ação:
+**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+O verbo em negrito deve sua flexão ao elemento subli- nhado em:
 
-* **A)** futura que não será realizada em função de fato passado.
-* **B)** do presente que dialoga com episódios do passado.
-* **C)** do passado que é replicada em momentos futuros.
-* **D)** do presente que se articula com uma projeção futura.
-* **E)** passada anterior às ações enunciadas no passado.
+* **A)** foi não obstante a escravidão, apesar da existência
+* **B)** não só foi a escravidão, mas também a existência
+* **C)** ao invés de ter sido a escravidão, mas a existência
+* **D)** não foi a escravidão, mas, sim, a existência
+* **E)** não foi a escravidão, todavia, sem a existência
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "futura que não será realizada em função de fato passado". De acordo com a teoria estudada em *2.1 Classificação Geral e Funções Referenciais: Anáfora, Catáfora e Dêixis*, função Anafórica: O pronome remete a um termo, fato ou conceito já mencionado anteriormente no texto, retomando-o e garantindo a progressão temática sem repetições deselegantes (*"O Tribunal proferiu a decisão; `<ins>`esta`</ins>` gerou ampla repercussão"*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do presente que dialoga com episódios do passado". De acordo com a teoria estudada em *7.2 Estruturas Hipotéticas e Condicionais Padronizadas*, hipótese Incerta / Irreal no Passado ou Presente.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do passado que é replicada em momentos futuros". De acordo com a teoria estudada em *2.2 Pronomes Demonstrativos e a Articulação Espaço-Temporal*, esse, essa, isso: Próximo do receptor (2ª pessoa) — Passado ou futuro próximo (*"esse mês que passou"*) — Anáfora simples (retoma termo recém-mencionado).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do presente que se articula com uma projeção futura". De acordo com a teoria estudada em *2.2 Pronomes Demonstrativos e a Articulação Espaço-Temporal*, aquele, aquela, aquilo: Distante de ambos (3ª pessoa) — Passado remoto ou época distante (*"naquele século"*) — Retoma o termo mais distante em contraste com *este*.
-> - **E)** **Correta.** Conforme fundamentado na seção *5. Sistema Verbal: Paradigmas de Flexão e Formas Críticas* deste guia, o verbo é a classe de palavras dotada do sistema flexional mais rico e complexo do idioma, conjugando-se em número, pessoa, tempo, modo e voz. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "passada anterior às ações enunciadas no passado".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "foi não obstante a escravidão, apesar da existência". De acordo com a teoria estudada em *6.3 Voz Passiva Sintética ou Pronominal*, o elemento nominal sem preposição que acompanha a construção passiva sintética é o sujeito paciente, razão pela qual o verbo deve concordar obrigatoriamente com ele em número e pessoa.
+> - **B)** **Correta.** Conforme fundamentado na seção *6.4 Distinção entre Pronome Apassivador e Índice de Indeterminação do Sujeito* deste guia, existência de Sujeito: Há Sujeito Paciente expresso na oração — Não há sujeito expresso; o sujeito é indeterminado. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "não só foi a escravidão, mas também a existência".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao invés de ter sido a escravidão, mas a existência". De acordo com a teoria estudada em *Requisitos Intransponíveis para a Conversão Passiva:*, *O auditor analisara as contas* (Pretérito Mais-Que-Perfeito) $\rightarrow$ *As contas* tinham sido / foram analisadas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não foi a escravidão, mas, sim, a existência". De acordo com a teoria estudada em *5. Sistema Verbal: Paradigmas de Flexão e Formas Críticas*, o verbo é a classe de palavras dotada do sistema flexional mais rico e complexo do idioma, conjugando-se em número, pessoa, tempo, modo e voz.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não foi a escravidão, todavia, sem a existência". De acordo com a teoria estudada em *1.2 Termos Essenciais, Integrantes e Acessórios da Oração*, sujeito: Elemento sobre o qual se faz uma declaração, com o qual o verbo concorda em número e pessoa.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 
@@ -532,74 +508,74 @@ Essa distinção é um dos temas fundamentais de cobrança da FCC em morfossinta
 ---
 
 ### Teste 028
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
-No texto CG1A1-II, os termos “Rejeito”, “abomino”, “detesto”, “odeio” e “oponho-me” (que iniciam as cinco primeiras orações, respectivamente)
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+O verbo indicado entre parênteses deverá flexionar-se configurar diferenciações raciais. numa forma do singular para preencher corretamente a Os homens agrupam-se socialmente, e as semelhanças lacuna da frase: e diferenças que estabelecem entre si decorrem de processos
 
-* **A)** constituem orações que estabelecem, entre si, relação de subordinação.
-* **B)** expressam um tipo de ordem.
-* **C)** assumem as formas Rejeitamos, abominamos, detestamos, odiamos e opomos-nos, respectivamente, se flexionados na primeira pessoa do plural.
-* **D)** expressam a opinião do narrador, mediante referência à primeira pessoa do singular na flexão do verbo.
-* **E)** assumem as formas Rejeitarei, abominei, detestarei, odiarei e opor-me-ei, respectivamente, se flexionadas no tempo futuro.
+* **A)** Aquele a quem ...... (sensibilizar) os fatos do noticiá- históricos, sempre culturais, jamais naturais. Fundamentalmen- rio deve poupar-se de acompanhá-los todos os dias. te, um indivíduo pertence a determinada etnia porque acredita
+* **B)** Não ...... (dever) mover a ninguém as esperanças ou a crença em que o mundo se torne mais discreto e nisso, e tal crença é compartilhada pelos demais indivíduos que silencioso. compõem o mesmo grupo.
+* **C)** Em qualquer notícia que provenha do nosso íntimo A existência de vários grupos étnicos no interior das não mais ...... (haver) de se ocultar as verdades que fingimos desconhecer. mesmas fronteiras nacionais é uma situação comum, pois as populações humanas não são homogêneas, em razão das mi-
+* **D)** As pessoas a quem ...... (impor) a TV, diuturnamen- te, notícias de toda espécie perdem a capacidade de grações no decorrer da história. Mas as diferenças étnicas, em discriminar o que é ou não importante. diversos casos, são manipuladas para acirrar conflitos de fundo
+* **E)** As novidades que dentro de mim se ...... (mascarar) político ou econômico. O próprio conceito de raça humana, há só se revelarão mediante uma análise introspectiva. _________________________________________________________ muito não admitido pela antropologia moderna, serviu (e por
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constituem orações que estabelecem, entre si, relação de subordinação". De acordo com a teoria estudada em *5. Sistema Verbal: Paradigmas de Flexão e Formas Críticas*, o verbo é a classe de palavras dotada do sistema flexional mais rico e complexo do idioma, conjugando-se em número, pessoa, tempo, modo e voz.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "expressam um tipo de ordem". De acordo com a teoria estudada em *6.3 Voz Passiva Sintética ou Pronominal*, a voz passiva sintética compõe-se de um verbo Transitivo Direto conjugado na 3ª pessoa (singular ou plural) associado ao pronome apassivador SE.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "assumem as formas Rejeitamos, abominamos, detestamos, odiamos e opomos-nos, respectivamente, se flexionados na...". De acordo com a teoria estudada em *6.4 Distinção entre Pronome Apassivador e Índice de Indeterminação do Sujeito*, concordância Verbal: O verbo flexiona obrigatoriamente (vai ao plural se o sujeito for plural) — O verbo fica obrigatoriamente na 3ª pessoa do singular.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Termos Essenciais, Integrantes e Acessórios da Oração* deste guia, pode ser determinado (simples, composto ou elíptico/oculto), indeterminado (com verbo na 3ª pessoa do plural sem referência ou com VTI/VI + partícula SE) ou inexistente (em orações sem sujeito com verbos impessoais como *haver* no sentido de existir ou verbos de fenômenos climáticos). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "expressam a opinião do narrador, mediante referência à primeira pessoa do singular na flexão do verbo".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "assumem as formas Rejeitarei, abominei, detestarei, odiarei e opor-me-ei, respectivamente, se flexionadas no tempo...". De acordo com a teoria estudada em *5.2 Verbos Notáveis de Alta Incidência: Ter, Vir, Ver, Pôr e Haver*, no sentido de existir, ocorrer ou expressar decurso de tempo, é impessoal: não tem sujeito e fica obrigatoriamente na 3ª pessoa do singular (*"Havia muitas dúvidas"*, *"Houve falhas formais"*, *"Pode haver impugnações"*).
+> - **A)** **Incorreta.** A opção apresenta vedação ou negativa absoluta incompatível com a regra aplicável ao afirmar que "Aquele a quem ...... (sensibilizar) os fatos do noticiá- históricos, sempre culturais, jamais naturais...". De acordo com a teoria estudada em *6.3 Voz Passiva Sintética ou Pronominal*, o elemento nominal sem preposição que acompanha a construção passiva sintética é o sujeito paciente, razão pela qual o verbo deve concordar obrigatoriamente com ele em número e pessoa.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não ...... (dever) mover a ninguém as esperanças ou a crença em que o mundo se torne mais discreto e nisso, e tal...". De acordo com a teoria estudada em *1. Fundamentos de Morfossintaxe e Estrutura Oracional*, uma mesma classe gramatical pode assumir funções sintáticas distintas a depender do contexto relacional estabelecido com o núcleo do predicado e com os demais termos oracionais.
+> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Em qualquer notícia que provenha do nosso íntimo A existência de vários grupos étnicos no interior das não mais...". De acordo com a teoria estudada em *1. Fundamentos de Morfossintaxe e Estrutura Oracional*, a morfossintaxe constitui a área integrada da gramática que estuda simultaneamente a natureza morfológica das palavras (sua classificação em uma das dez classes gramaticais) e a função sintática que essas mesmas palavras desempenham no interior da oração.
+> - **D)** **Correta.** Conforme fundamentado na seção *5.1 Verbos Regulares, Irregulares, Anômalos e Defectivos* deste guia, defectivos: Não possuem a conjugação completa em certas pessoas, tempos ou modos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "As pessoas a quem ...... (impor) a TV, diuturnamen- te, notícias de toda espécie perdem a capacidade de grações no...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As novidades que dentro de mim se ...... (mascarar) político ou econômico. O próprio conceito de raça humana, há...". De acordo com a teoria estudada em *3.1 Pronomes Pessoais Retos vs. Oblíquos Átonos e Tônicos*, distinção clássica: *"Entregue o relatório para mim"* (término da frase, *mim* não conjuga verbo) vs. *"Traga o documento para `<ins>`eu`</ins>` assinar"* (caso reto, pois *eu* atua como sujeito do verbo no infinitivo *assinar*).
 >
 > **Gabarito: D**
 
 ---
 
 ### Teste 029
-**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
-Na oração “a quem ele amara de verdade”, justifica-se a presença da preposição destacada em função:
+**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
+A forma verbal “houvera”, no texto 3, corresponde à forma simples do mais-que-perfeito do indicativo do verbo haver; as formas compostas equivalentes a essa forma simples são:
 
-* **A)** da exigência normativa da regência do verbo “amar”.
-* **B)** da necessidade de desfazer a ambiguidade acerca do objeto.
-* **C)** da introdução de um objeto direto preposicionado de valor afetivo.
-* **D)** de uma estrutura em paralelismo com a oração anterior.
-* **E)** da indicação de gênero do referente do pronome relativo.
+* **A)** era havido / tinha havido;
+* **B)** tinha havido / havia havido;
+* **C)** havia havido / seja havido;
+* **D)** seja havido / tinha sido havido;
+* **E)** tinha sido havido / era havido.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da exigência normativa da regência do verbo “amar”". De acordo com a teoria estudada em *3.3 Variações Fonéticas dos Pronomes Diretos: Formas em -Lo e -No*, quando se deparar com uma questão de substituição pronominal da FCC, separe a análise em dois passos: 1) determine a regência do verbo (se pede objeto direto ou indireto); 2) observe a terminação da palavra verbal para aplicar a transformação em L, N ou pura.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da necessidade de desfazer a ambiguidade acerca do objeto". De acordo com a teoria estudada em *3.1 Pronomes Pessoais Retos vs. Oblíquos Átonos e Tônicos*, pronomes Oblíquos Átonos (me, te, se, o, a, lhe, nos, vos, se, os, as, lhes): São pronunciados com fraca intensidade e não são precedidos de preposição própria, atuando como complementos verbais imediatos (objeto direto ou indireto).
-> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Termos Essenciais, Integrantes e Acessórios da Oração* deste guia, objeto Direto: Complemento verbal não regido obrigatoriamente por preposição exigida pelo verbo. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "da introdução de um objeto direto preposicionado de valor afetivo".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de uma estrutura em paralelismo com a oração anterior". De acordo com a teoria estudada em *1.2 Termos Essenciais, Integrantes e Acessórios da Oração*, adjunto Adnominal: Termo de valor adjetivo que determina, especifica ou restringe o substantivo núcleo de qualquer função sintática.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da indicação de gênero do referente do pronome relativo". De acordo com a teoria estudada em *2.3 Pronome Relativo Cujo e Regência com Preposições Antepostas*, concordância obrigatória com o consequente: O pronome concorda rigorosamente em gênero e número com o substantivo que vem depois dele (*cujo parecer*, *cuja decisão*, *cujos autos*, *cujas certidões*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "era havido / tinha havido". De acordo com a teoria estudada em *Vedações Absolutas à Ênclise:*, nunca se usa ênclise com verbo no Particípio isolado (*"Tinha advertido-o"* é incorreto; deve-se usar *havia-o advertido* ou *o havia advertido*).
+> - **B)** **Correta.** Conforme fundamentado na seção *5.2 Verbos Notáveis de Alta Incidência: Ter, Vir, Ver, Pôr e Haver* deste guia, no sentido de existir, ocorrer ou expressar decurso de tempo, é impessoal: não tem sujeito e fica obrigatoriamente na 3ª pessoa do singular (*"Havia muitas dúvidas"*, *"Houve falhas formais"*, *"Pode haver impugnações"*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "tinha havido / havia havido".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "havia havido / seja havido". De acordo com a teoria estudada em *4.4 Colocação Pronominal em Locuções Verbais*, em locuções compostas por verbo auxiliar mais verbo principal no infinitivo, gerúndio ou particípio.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "seja havido / tinha sido havido". De acordo com a teoria estudada em *Requisitos Intransponíveis para a Conversão Passiva:*, *O auditor analisara as contas* (Pretérito Mais-Que-Perfeito) $\rightarrow$ *As contas* tinham sido / foram analisadas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tinha sido havido / era havido". De acordo com a teoria estudada em *5. Sistema Verbal: Paradigmas de Flexão e Formas Críticas*, o verbo é a classe de palavras dotada do sistema flexional mais rico e complexo do idioma, conjugando-se em número, pessoa, tempo, modo e voz.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
 ### Teste 030
-**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
-Transpondo-se para a voz passiva a frase Sempre haverá quem rejeite a interferência do Estado nas questões religiosas, mantendo-se a correta correlação entre tempos e modos verbais, ela ficará:
+**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
+Leia a nota da OAB a seguir. A prática reiterada e impune de atos de corrupção leva as pessoas a pensar que a improbidade e a falta de ética são naturais e a improbidade é uma regra para os grandes delinquentes. Sobre a estruturação desse pequeno texto, assinale a afirmativa correta.
 
-* **A)** Terá havido sempre quem tem rejeitado que o Estado interferisse nas questões religiosas.
-* **B)** A interferência do Estado nas questões religiosas sempre haverá de ser rejeitada por alguém.
-* **C)** Sempre haverá de ter quem rejeite que o Estado interferisse nas questões religiosas.
-* **D)** A interferência do Estado nas questões religiosas sempre tem encontrado quem a rejeita.
-* **E)** As questões religiosas sempre haverão de rejeitar que o Estado venha a interferir nelas.
+* **A)** O adjetivo “grandes” mostra valor de importância social dos delinquentes.
+* **B)** Os adjetivos “reiterada” e “impune” são redundantes, bastando tão somente o emprego de um deles.
+* **C)** O texto mostra um erro de construção na forma verbal “pensar”, que deveria ser substituída por “pensarem”.
+* **D)** A repetição da palavra “improbidade” poderia ser evitada, trocando-se a segunda ocorrência pelo demonstrativo “esta”.
+* **E)** O verbo “pensar” só tem por complemento a primeira oração que o segue: “que a improbidade e a falta de ética são naturais”.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Terá havido sempre quem tem rejeitado que o Estado interferisse nas questões religiosas". De acordo com a teoria estudada em *6.2 Voz Passiva Analítica e Regras Estritas de Transposição*, \$\$\text{Sujeito Paciente} + \text{Verbo Auxiliar SER (no mesmo tempo da ativa)} + \text{Particípio} + \text{Agente da Passiva}\$\$.
-> - **B)** **Correta.** Conforme fundamentado na seção *6.2 Voz Passiva Analítica e Regras Estritas de Transposição* deste guia, a voz passiva analítica é estruturada pela combinação de um verbo auxiliar (quase sempre o verbo ser, raramente *estar* ou *ficar*) conjugado com o particípio do verbo principal. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "A interferência do Estado nas questões religiosas sempre haverá de ser rejeitada por alguém".
-> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Sempre haverá de ter quem rejeite que o Estado interferisse nas questões religiosas". De acordo com a teoria estudada em *Requisitos Intransponíveis para a Conversão Passiva:*, equivalência Temporal Estrita: O verbo auxiliar *ser* deve ser conjugado rigorosamente no mesmo tempo e modo em que se encontrava o verbo simples da voz ativa.
-> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "A interferência do Estado nas questões religiosas sempre tem encontrado quem a rejeita". De acordo com a teoria estudada em *7. Correlação de Tempos e Modos Verbais*, a correlação verbal (*consecutio temporum*) refere-se ao encadeamento harmônico e semanticamente lógico entre as formas verbais presentes nas orações coordenadas e subordinadas de um período composto.
-> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "As questões religiosas sempre haverão de rejeitar que o Estado venha a interferir nelas". De acordo com a teoria estudada em *2.3 Pronome Relativo Cujo e Regência com Preposições Antepostas*, lembre-se: *cujo* jamais aceita artigo posterior e sempre concorda com o termo da frente.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O adjetivo “grandes” mostra valor de importância social dos delinquentes". De acordo com a teoria estudada em *1.2 Termos Essenciais, Integrantes e Acessórios da Oração*, adjunto Adnominal: Termo de valor adjetivo que determina, especifica ou restringe o substantivo núcleo de qualquer função sintática.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Os adjetivos “reiterada” e “impune” são redundantes, bastando tão somente o emprego de um deles". De acordo com a teoria estudada em *5.1 Verbos Regulares, Irregulares, Anômalos e Defectivos*, anômalos: Apresentam alterações tão profundas no radical que utilizam bases etimológicas inteiramente distintas na mesma conjugação. No português, são anômalos os verbos ser (*sou, fui, era*) e ir (*vou, fui, ia*).
+> - **C)** **Correta.** Conforme fundamentado na seção *6.4 Distinção entre Pronome Apassivador e Índice de Indeterminação do Sujeito* deste guia, a FCC frequentemente introduz a forma verbal pluralizada *"Tratam-se de..."*, *"Precisam-se de..."* ou *"Obedeceram-se aos ditames..."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "O texto mostra um erro de construção na forma verbal “pensar”, que deveria ser substituída por “pensarem”".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A repetição da palavra “improbidade” poderia ser evitada, trocando-se a segunda ocorrência pelo demonstrativo...". De acordo com a teoria estudada em *3.3 Variações Fonéticas dos Pronomes Diretos: Formas em -Lo e -No*, ao associar os pronomes diretos *o, a, os, as* à forma verbal enclítica, ocorrem transformações fonéticas compulsórias.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O verbo “pensar” só tem por complemento a primeira oração que o segue: “que a improbidade e a falta de ética são...". De acordo com a teoria estudada em *1.2 Termos Essenciais, Integrantes e Acessórios da Oração*, objeto Direto: Complemento verbal não regido obrigatoriamente por preposição exigida pelo verbo.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -639,24 +615,24 @@ Nas orações subordinadas substantivas integrantes (introduzidas por *que* ou *
 ---
 
 ### Teste 031
-**(FCC – TRT-1 – Analista Judiciario Tecnologia da Informacao – 2014)**
-Na frase Dissesse alguém isso hoje, seria aplaudido por muitos, ao passo que uns poucos o condenariam com veemência, a correlação entre tempos e modos verbais continuará adequada caso se substituam as formas sublinhadas, na ordem dada, por
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+Está plenamente adequada a correlação entre os tempos vezes ainda serve) de pretexto para justificar as mais cruéis e modos verbais na frase: manifestações de preconceito, violência e barbárie.
 
-* **A)** Diria − fosse − condenassem
-* **B)** Diga − terá sido − condenem
-* **C)** Teria dito − teria sido − condenassem
-* **D)** Diria − será − condenem
-* **E)** Diga − será − condenarão
+* **A)** às variações genéticas que vêm caracterizando, ao nós, novidades que pedem calma e silêncio para se longo da História, os mais diferentes agrupamentos haverem dado a conhecer. humanos.
+* **B)** a critérios de identificação pelos quais se reconhe- ção caso ficássemos concentrados em nós mesmos. cem grupos humanos, com base em alguns atributos
+* **C)** a alguns fatores biológicos pelos quais os homens senhores da nossa consciência crítica. se distinguem uns dos outros, como a cor da pele ou _________________________________________________________ traços fisionômicos.
+* **D)** Só terá sido possível fruir esse estado de contempla-
+* **E)** Por mais que nos informemos, o real sentido das compartilhados. notícias só se revela quando somos inteiramente
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diria − fosse − condenassem". De acordo com a teoria estudada em *4.2 Mesóclise e Suas Condições de Aplicação*, futuro do Pretérito do Indicativo: *"Dir-se-ia que houve condescendência da fiscalização"* (*diria* + *se*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diga − terá sido − condenem". De acordo com a teoria estudada em *Requisitos Intransponíveis para a Conversão Passiva:*, *O auditor analisara as contas* (Pretérito Mais-Que-Perfeito) \$\rightarrow\$ *As contas* tinham sido / foram analisadas.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Teria dito − teria sido − condenassem". De acordo com a teoria estudada em *4.1 Próclise e os Fatores Atrativos Obrigatórios*, pronomes indefinidos: *tudo, nada, alguém, todos, muitos, qualquer, vários* (*"Alguém `<ins>`o`</ins>` advertiu"*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diria − será − condenem". De acordo com a teoria estudada em *5.1 Verbos Regulares, Irregulares, Anômalos e Defectivos*, defectivos: Não possuem a conjugação completa em certas pessoas, tempos ou modos.
-> - **E)** **Correta.** Conforme fundamentado na seção *7. Correlação de Tempos e Modos Verbais* deste guia, a correlação verbal (*consecutio temporum*) refere-se ao encadeamento harmônico e semanticamente lógico entre as formas verbais presentes nas orações coordenadas e subordinadas de um período composto. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-1/2014) ao estabelecer que "Diga − será − condenarão".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "às variações genéticas que vêm caracterizando, ao nós, novidades que pedem calma e silêncio para se longo da...". De acordo com a teoria estudada em *4.4 Colocação Pronominal em Locuções Verbais*, em locuções compostas por verbo auxiliar mais verbo principal no infinitivo, gerúndio ou particípio.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a critérios de identificação pelos quais se reconhe- ção caso ficássemos concentrados em nós mesmos. cem grupos...". De acordo com a teoria estudada em *3.1 Pronomes Pessoais Retos vs. Oblíquos Átonos e Tônicos*, distinção clássica: *"Entregue o relatório para mim"* (término da frase, *mim* não conjuga verbo) vs. *"Traga o documento para `<ins>`eu`</ins>` assinar"* (caso reto, pois *eu* atua como sujeito do verbo no infinitivo *assinar*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a alguns fatores biológicos pelos quais os homens senhores da nossa consciência crítica. se distinguem uns dos...". De acordo com a teoria estudada em *4.1 Próclise e os Fatores Atrativos Obrigatórios*, palavras de sentido negativo: *não, nunca, jamais, nada, ninguém, nenhum, tampouco* (*"Não `<ins>`se`</ins>` apurou a falha"*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Só terá sido possível fruir esse estado de contempla-". De acordo com a teoria estudada em *Requisitos Intransponíveis para a Conversão Passiva:*, *O auditor analisara as contas* (Pretérito Mais-Que-Perfeito) $\rightarrow$ *As contas* tinham sido / foram analisadas.
+> - **E)** **Correta.** Conforme fundamentado na seção *7. Correlação de Tempos e Modos Verbais* deste guia, a correlação verbal (*consecutio temporum*) refere-se ao encadeamento harmônico e semanticamente lógico entre as formas verbais presentes nas orações coordenadas e subordinadas de um período composto. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "Por mais que nos informemos, o real sentido das compartilhados. notícias só se revela quando somos inteiramente".
 >
 > **Gabarito: E**
 
