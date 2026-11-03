@@ -311,36 +311,32 @@ Na esteira de Integração Contínua (CI), uma prática consagrada originária d
 ---
 
 ### Teste 175
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No contexto da cultura DevOps e das práticas modernas de engenharia de software, considere as seguintes afirmativas sobre Integração Contínua (CI), Entrega Contínua (*Continuous Delivery*) e Implantação Contínua (*Continuous Deployment*):
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**  
+Avalie as seguintes afirmativas no contexto de práticas e metodologias de deploy em desenvolvimento mobile:
 
-I. Na Integração Contínua (*Continuous Integration*), desenvolvedores integram código ao ramo principal com alta frequência, disparando compilações e execuções de testes automatizados a cada *commit*, de modo a identificar falhas de integração precocemente.  
+I. A aplicação de Continuous Integration (CI) em aplicativos mobile responsivos é uma prática que visa a fusão e teste do código apenas ao final de cada sprint.  
+II. Continuous Delivery (CD) é parte da filosofia "Mobile First" e permite que toda mudança de código seja automaticamente disponibilizada para os usuários finais, sem a necessidade de aprovação das equipes de operações.  
+III. DevSecOps é a integração da segurança no processo de desenvolvimento de software desde o início sem comprometer a velocidade de entrega.
 
-II. Na Entrega Contínua (*Continuous Delivery*), todo o pipeline de automação (da compilação até os testes em ambientes similares ao de produção) é executado, deixando a aplicação em estado permanente de prontidão para implantação (*release candidate*), dependendo, contudo, de uma aprovação/gatilho manual por decisão de negócio para o deploy em produção.  
-
-III. Na Implantação Contínua (*Continuous Deployment*), não há intervenção humana no fluxo: toda alteração aprovada em todos os testes e estágios automatizados do pipeline é promovida automaticamente para o ambiente produtivo.  
-
-Está correto o que se afirma em:  
+Está correto o que se afirma em:
 
 * **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** II e III, apenas.
-* **D)** I e III, apenas.
-* **E)** I, II e III.
-
+* **B)** II e III, apenas.
+* **C)** III, apenas.
+* **D)** I, II e III.
+* **E)** I e II, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Os itens II e III também são verdadeiros e conceituam com rigor técnico as práticas de automação.
-> - **B)** Incorreta. O item III está correto, pois na Implantação Contínua a passagem para produção ocorre sem intervenção humana.
-> - **C)** Incorreta. O item I também está correto ao definir a Integração Contínua.
-> - **D)** Incorreta. O item II também é verdadeiro ao definir o gate manual de negócio na Entrega Contínua.
-> - **E)** Correta. Todas as três assertivas estão rigorosamente exatas: (I) a Integração Contínua foca na integração frequente ao branch principal com compilação e testes unitários imediatos; (II) a Entrega Contínua (*Continuous Delivery*) mantém o software em estado permanente de liberação (*deployable*), mas aguarda uma aprovação manual de negócio para o deploy em produção; (III) a Implantação Contínua (*Continuous Deployment*) automatiza o ciclo completo, promovendo a versão para produção sem qualquer intervenção humana.
-> 
-> **Gabarito: E**
-
+> - **Item I (Incorreto):** A Integração Contínua (CI) preconiza a integração frequente do código à branch principal várias vezes ao dia (ou a cada commit), e **não** apenas ao final da sprint. Adiar a integração para o final da sprint recria o clássico "inferno de integração" (*merge hell*).
+> - **Item II (Incorreto):** A disponibilização automática direta em produção para os usuários finais sem intervenção humana é a definição de **Continuous Deployment** (Implantação Contínua). Na **Continuous Delivery** (Entrega Contínua), o software está sempre pronto para entrar em produção, mas a liberação final depende de uma decisão de negócio ou aprovação manual.
+> - **Item III (Correto):** O DevSecOps preconiza o princípio do *Shift-Left*, integrando práticas, testes e controles de segurança cibernética desde as fases iniciais do ciclo de desenvolvimento, viabilizando entregas seguras sem degradar o fluxo e a agilidade.
+>
+> Portanto, está correto apenas o item III.
+>
+> **Gabarito: C**
 ---
 
 ## 3. Estratégias Modernas de Publicação (Deployment Strategies)
@@ -786,28 +782,25 @@ A respeito da execução desse pipeline, assinale a afirmativa correta:
 ---
 
 ### Teste 181
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em relação aos arquivos de manifesto e à estrutura operacional das ferramentas de integração contínua GitLab CI/CD e Jenkins, assinale a opção correta:  
+**(FGV – TRF/1 – 2024 – Analista Judiciário - Tecnologia da Informação)**  
+O analista Maicon deve configurar um novo runner, chamado RunM, no GitLab CI/CD do TRF1. Os jobs executados no RunM devem ser capazes de interagir de forma plena com um dispositivo externo conectado fisicamente ao host do runner. O escalonamento do RunM pelo GitLab deve ser fixo, e não automático. Maicon deve escolher o executor de runner do GitLab que exige a menor quantidade de customização necessária para a execução de RunM.
 
-* **A)** No GitLab CI/CD, a diretiva `artifacts` serve unicamente para reaproveitar arquivos temporários como dependências de compiladores entre pipelines distintos, tendo a mesma função semântica de `cache`.
-* **B)** No GitLab CI/CD, se os estágios forem definidos como `stages: [build, test, deploy]`, todos os jobs vinculados ao estágio `build` são executados sequencialmente em um único runner, bloqueando qualquer concorrência interna.
-* **C)** No Jenkins, a arquitetura moderna prevê o nó *Controller* (antigo Master) como o responsável por gerenciar o agendamento de tarefas e configurações, delegando a execução física dos passos do pipeline para nós *Agents* (antigos Slaves).
-* **D)** Um pipeline declarativo do Jenkins (*Declarative Pipeline*) é codificado livremente sem qualquer estrutura de blocos obrigatória, usando comandos Groovy imperativos sem a necessidade da diretiva `pipeline`.
-* **E)** No arquivo `.gitlab-ci.yml`, a palavra-chave `image:` é obrigatória para cada job individual, sendo proibido definir uma imagem Docker global compartilhada no nível raiz do arquivo.
+O executor de runner que Maicon deve escolher é:
 
+* **A)** shell;
+* **B)** docker;
+* **C)** parallels;
+* **D)** instance;
+* **E)** virtualbox.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. No GitLab CI/CD existe distinção conceitual nítida entre `artifacts` e `cache`. **Artifacts** são saídas formais geradas por um job (como binários compilados `.jar` ou relatórios de testes) salvas no GitLab e transmitidas aos estágios posteriores do **mesmo pipeline**. **Cache** serve para acelerar builds armazenando dependências de bibliotecas de terceiros (como `.m2` ou `node_modules`) compartilhadas entre **diferentes execuções de pipelines**.
-> - **B)** Incorreta. Jobs associados ao mesmo estágio (*stage*) executam **em paralelo** caso existam múltiplos runners disponíveis no GitLab, acelerando o tempo de processamento.
-> - **C)** Correta. A arquitetura padrão do Jenkins é distribuída (*Controller-Agent*). O nó Controller gerencia os jobs, agenda filas e hospeda a interface gráfica, delegando a execução física das compilações, testes e comandos de shell para os nós Agents.
-> - **D)** Incorreta. Essa descrição aplica-se ao *Scripted Pipeline* (baseado em Groovy imperativo puro iniciado por blocos `node { .. }`). O *Declarative Pipeline* possui sintaxe estrita obrigatória, iniciando sempre pelo bloco estruturado `pipeline { agent any; stages { .. } }`.
-> - **E)** Incorreta. No GitLab CI/CD, é perfeitamente válido declarar a diretiva `image:` no nível global (raiz) do arquivo `.gitlab-ci.yml`, tornando aquela imagem Docker o padrão compartilhado para todos os jobs que não definirem sua própria imagem específica.
-> 
+> No GitLab CI/CD, a escolha do tipo de executor (*runner executor*) determina o isolamento e a capacidade de interagir com hardware do host:
+> - O executor **`parallels`** (e ambientes de virtualização direta com suporte a hardware passthrough) provê capacidade de interação com dispositivos externos conectados ao host sob escalonamento fixo da VM, minimizando a necessidade de scripts de customização profunda de permissões quando comparado a contêineres Docker isolados.
+>
 > **Gabarito: C**
-
 ---
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
