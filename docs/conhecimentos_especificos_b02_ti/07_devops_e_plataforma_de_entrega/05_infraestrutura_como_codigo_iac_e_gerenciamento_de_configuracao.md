@@ -497,28 +497,32 @@ No que diz respeito à arquitetura operacional e aos modelos de comunicação da
 ---
 
 ### Teste 221
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Entre as principais ferramentas de gerenciamento de configuração de servidores na cultura DevOps, o Ansible diferencia-se historicamente de ferramentas como Puppet e Chef por adotar uma arquitetura:
+**(FGV – TRT/13 – 2022 – Analista Judiciário - Tecnologia da Informação)**  
+Com relação ao Ansible da Red Hat, analise os itens a seguir.
 
-* **A)** Baseada em agentes locais pesados instalados em todos os servidores alvos operando em modelo *pull*. considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **B)** Sem agentes (*Agentless*), operando em modelo *push* no qual o nó de controle conecta-se aos nós gerenciados via protocolo SSH padrão (ou WinRM no Windows) e executa módulos descritos em manifestos YAML (*Playbooks*), dispensando a manutenção de daemons residentes nos nós alvos.
-* **C)** Que só permite o gerenciamento de servidores baseados no sistema operacional MS-DOS.
-* **D)** Totalmente dependente de conexão física com cabos seriais RS-232.
-* **E)** Que exige a compilação do código em linguagem C++ antes de cada comando.
+I. É uma ferramenta de automação que permite configurar sistemas, implantar softwares e orquestrar tarefas avançadas de TI, tais como implantações contínuas ou atualizações contínuas com tempo de inatividade zero.  
+II. Ele é centralizado e pode se conectar facilmente com Kerberos, LDAP e outros sistemas de gerenciamento de autenticação descentralizada.  
+III. Sua exposição à segurança é bastante reduzida pois usa a ferramenta OpenSSH para efetuar login remoto com o protocolo SSH.
 
+Está correto o que se afirma em:
+
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** I e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Puppet e Chef tradicionalmente dependem de agentes residentes (*agent-based*) e arquitetura *pull*.
-> - **B) Correta.** O grande diferencial do Ansible é ser **Agentless** e **Push-based**: não requer instalação, atualização ou monitoramento de software agente nos nós gerenciados; utiliza a infraestrutura de comunicação nativa (SSH/WinRM) para empurrar comandos declarativos a partir de playbooks YAML.
-> - **C) Incorreta.** Suporta distribuições Linux corporativas e servidores Windows modernos.
-> - **D) Incorreta.** Opera sobre redes TCP/IP padrão.
-> - **E) Incorreta.** Playbooks são interpretados em tempo de execução via Python/YAML.
+> - **Item I (Correto):** O Ansible é uma ferramenta líder de automação de TI e gerenciamento de configuração que permite implantar softwares, orquestrar fluxos complexos e configurar servidores com tempo de inatividade zero (*zero-downtime deployment*).
+> - **Item II (Incorreto):** O Ansible é concebido nativamente sob uma arquitetura descentralizada e *agentless* (sem a obrigatoriedade de servidores mestres proprietários residentes como Puppet Master ou Chef Server), despachando comandos diretamente a partir do nó de controle do operador.
+> - **Item III (Correto):** Por dispensar daemons adicionais e portas proprietárias abertas nos nós gerenciados, a superfície de exposição é sensivelmente mitigada, valendo-se dos canais consolidados e seguros do OpenSSH (porta 22) para autenticação e transporte cifrado.
 >
-> **Gabarito: B**
-
+> Portanto, estão corretos apenas os itens I e III.
+>
+> **Gabarito: E**
 ---
 
 ### Teste 222
