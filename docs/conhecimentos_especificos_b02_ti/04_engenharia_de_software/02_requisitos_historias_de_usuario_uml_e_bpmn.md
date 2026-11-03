@@ -208,16 +208,34 @@ $$\text{"Como [papel de usuário], eu quero [funcionalidade/ação], para que [b
 ---
 
 ### Teste 014
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Ao auditar os artefatos de desenho e análise orientada a objetos de um sistema integrado de tramitação processual no âmbito de um Tribunal de Contas, um Auditor de TI inspecionou o diagrama de casos de uso modelado na notação UML 2.5. No diagrama, observou o emprego dos relacionamentos com estereótipos «include» e «extend». De acordo com as especificações formais da UML, é correto afirmar:
+**(FGV – TJ/RR – 2024 – Analista Judiciário - Gestão e Governança de TI)**  
+Um bom diagrama pode ajudar a comunicar ideias sobre um sistema, principalmente quando deseja-se evitar muitos detalhes. Na UML, uma ferramenta recomendada para esse fim é o Caso de Uso.
 
-* **A)** O relacionamento «include» indica que o caso de uso base depende da execução do caso de uso incluído para completar seu objetivo com sucesso, ao passo que o relacionamento «extend» especifica um comportamento condicional e acessório disparado a partir de um ponto de extensão.
-* **B)** O relacionamento «extend» estabelece uma inclusão incondicional de comportamento executada obrigatoriamente em todos os cenários de execução do caso de uso base.
-* **C)** No relacionamento «extend», o caso de uso base conhece previamente os detalhes e a estrutura do caso de uso extensor, exigindo que a seta tracejada aponte do caso base para o extensor.
-* **D)** Ambos os relacionamentos («include» e «extend») conectam atores primários a casos de uso abstratos, sendo vedado seu uso na comunicação direta entre casos de uso concretos.
-* **E)** O relacionamento «include» somente pode ser utilizado para descrever situações excepcionais de erro de negócio ou falhas de infraestrutura.
+Acerca dos diagramas de casos de uso, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa:
 
+( ) Casos de uso são uma técnica para capturar os requisitos não funcionais de um software.  
+( ) Casos de uso representam uma visão externa do sistema, logo não deve haver correlação com as classes internas do sistema.  
+( ) Raias, atores e transições são elementos comuns em casos de uso.  
 
+As afirmativas são, respectivamente:
+
+* **A)** F – V – F.
+* **B)** V – V – F.
+* **C)** F – V – V.
+* **D)** F – F – V.
+* **E)** V – F – F.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **Item 1 (Falso):** Os diagramas de casos de uso têm como objetivo primordial capturar os **requisitos funcionais** do sistema sob a ótica dos atores (usuários ou sistemas externos), e não os requisitos não funcionais (como desempenho, portabilidade ou segurança).
+> - **Item 2 (Verdadeiro):** O diagrama de caso de uso fornece uma visão puramente externa (*black-box*) do comportamento do sistema, sem expor a sua estrutura interna, de modo que os casos de uso não detalham as classes, métodos ou arquitetura interna da aplicação.
+> - **Item 3 (Falso):** "Raias" (*swimlanes/partitions*) e "transições" são elementos gráficos típicos de diagramas de atividades, diagramas de máquina de estados ou notações de processos como BPMN, e não de diagramas de casos de uso (onde os elementos centrais são atores, casos de uso, fronteira do sistema e relacionamentos de associação, include, extend e generalização).
+>
+> A sequência correta é: **F – V – F**.
+>
+> **Gabarito: A**
 ---
 
 > **Comentário Detalhado:**
@@ -350,16 +368,27 @@ classDiagram
 ---
 
 ### Teste 017
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em conformidade com a especificação normativa da OMG para a linguagem UML 2.5 (*Unified Modeling Language*), os diagramas oficiais são classificados em duas categorias mestras: Diagramas Estruturais (estáticos) e Diagramas Comportamentais (dinâmicos, subdivididos em diagramas de interação). Na elaboração de um relatório de auditoria de arquitetura de software, o auditor deve identificar quais modelos refletem aspectos estáticos da topologia do sistema. Dentre os diagramas listados a seguir, pertencem exclusivamente à categoria dos **Diagramas Estruturais**:
+**(FGV – TJ/AP – 2023 – Analista Judiciário - Desenvolvimento de Sistemas)**  
+Laura precisa modelar o processo de negócio do seu setor, explicitando o fluxo de trabalho (*workflow*), visando sua automatização via desenvolvimento de um Sistema de Informação.
 
-* **A)** Diagrama de Classes, Diagrama de Sequência e Diagrama de Atividades.
-* **B)** Diagrama de Casos de Uso, Diagrama de Máquina de Estados e Diagrama de Comunicação.
-* **C)** Diagrama de Classes, Diagrama de Componentes e Diagrama de Implantação (*Deployment*).
-* **D)** Diagrama de Objetos, Diagrama de Atividades e Diagrama de Pacotes.
-* **E)** Diagrama de Sequência, Diagrama de Interação Geral e Diagrama de Tempo (*Timing*).
+Para isso, o diagrama comportamental da UML que Laura deve usar é o(a):
 
+* **A)** Use Case;
+* **B)** Atividade;
+* **C)** Comunicação;
+* **D)** Sequência;
+* **E)** Máquina de Estado.
 
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O diagrama de *Use Case* (Casos de Uso) modela as interações e objetivos de alto nível entre atores externos e o sistema, sem detalhar o encadeamento passo a passo do fluxo operacional interno.
+> - **B) Correta.** O **Diagrama de Atividades** é o diagrama comportamental da UML projetado especificamente para descrever fluxos de controle e dados (*workflows*), representando a sequência lógica de passos, decisões condicionais, bifurcações e sincronizações de atividades em processos de negócio ou algoritmos complexos.
+> - **C e D) Incorretas.** Diagramas de Comunicação e Sequência são diagramas de interação que focam na troca temporal e estrutural de mensagens entre objetos específicos.
+> - **E) Incorreta.** O Diagrama de Máquina de Estados modela o ciclo de vida e as mudanças de estado de um único objeto ou entidade ao longo do tempo em resposta a eventos.
+>
+> **Gabarito: B**
 ---
 
 > **Comentário Detalhado:**
@@ -415,7 +444,8 @@ Durante a auditoria técnica de um barramento de mensageria corporativo, os audi
 > **Comentário Detalhado:**
 >
 > - **A) Incorreta.** Linha contínua com seta preenchida sólida representa chamada de operação **síncrona** (*synchronous call*), na qual o remetente suspende a execução e aguarda o retorno.
-> - **B) CORRETA.** Conforme a notação normativa da UML 2.5, mensagens **assíncronas** (*asynchronous signals/messages*) são desenhadas por uma **linha contínua finalizada por uma seta aberta** em forma de ponta de flecha ($ightarrow$). O remetente dispara a mensagem e retoma seu processamento sem bloqueio.
+> - **B) CORRETA.** Conforme a notação normativa da UML 2.5, mensagens **assíncronas** (*asynchronous signals/messages*) são desenhadas por uma **linha contínua finalizada por uma seta aberta** em forma de ponta de flecha ($
+ightarrow$). O remetente dispara a mensagem e retoma seu processamento sem bloqueio.
 > - **C) Incorreta.** Linha tracejada com seta aberta representa mensagens de **retorno** (*reply/return messages*) provenientes de chamadas prévias.
 > - **D) Incorreta.** Inexiste essa notação para troca de mensagens em diagramas de sequência da UML.
 > - **E) Incorreta.** Losangos são utilizados em diagramas estruturais (associações de agregação e composição), não como pontas de mensagens de sequência.

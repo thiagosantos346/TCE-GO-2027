@@ -13,6 +13,7 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 04: Orquestração com Kubernetes e Gestão de Ambientes](#caderno-04-orquestração-com-kubernetes-e-gestão-de-ambientes)
 - [Caderno 06: Observabilidade, Monitoramento e Telemetria](#caderno-06-observabilidade-monitoramento-e-telemetria)
 - [Caderno 01 (Eng. Software): Ciclo de Vida e Metodologias Ágeis](#caderno-01-eng-software-ciclo-de-vida-e-metodologias-ágeis)
+- [Caderno 02 (Eng. Software): Requisitos, Histórias de Usuário, UML e BPMN](#caderno-02-eng-software-requisitos-histórias-de-usuário-uml-e-bpmn)
 
 ---
 
@@ -256,3 +257,63 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 008`** (Gráficos Burndown e Burnup para acompanhamento visual do escopo e esforço restante): Preservada.
 * **`Teste 010`** (Métricas Kanban: Lead Time, Cycle Time e Lei de Little): Preservada.
 * **`Teste 011`** (Práticas de Engenharia do Extreme Programming - XP: TDD, Pair Programming, Integração Contínua e Refatoração): Preservada.
+
+
+---
+
+## Caderno 02 (Eng. Software): Requisitos, Histórias de Usuário, UML e BPMN
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/04_engenharia_de_software/02_requisitos_historias_de_usuario_uml_e_bpmn.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 014`**: Substituir pela questão real **`V3_FGV_TJ_RR_2024_Q1248`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/RR – 2024 – Analista Judiciário (Gestão e Governança de TI)
+  * **Conceito Aderente:** Propósito e limites conceituais dos Diagramas de Casos de Uso na UML (captura de requisitos funcionais vs não funcionais, representação externa de caixa preta e distinção dos elementos gráficos).
+* **`Teste 017`**: Substituir pela questão real **`V3_FGV_TJ_AP_2023_Q0550`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/AP – 2023 – Analista Judiciário (Desenvolvimento de Sistemas)
+  * **Conceito Aderente:** Taxonomia dos diagramas comportamentais da UML (Diagrama de Atividades para modelagem de fluxos de trabalho/workflow frente a Use Case, Sequência e Máquina de Estados).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 014`**: Simulado sobre relacionamentos de Caso de Uso (`include` e `extend`).
+* **`Teste 017`**: Simulado sobre taxonomia estrutural vs comportamental na UML 2.5.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 012`** (Requisitos Funcionais vs Não Funcionais / FURPS+ / ISO 25010): Preservada (desenhada especificamente para auditoria de processo eletrônico em Tribunal de Contas).
+* **`Teste 013`** (Técnicas de Elicitação de Requisitos: JAD, Entrevistas, Questionários): Preservada.
+* **`Teste 015`** (Histórias de Usuário e os 3 Cs de Ron Jeffries: Card, Conversation, Confirmation): Preservada.
+* **`Teste 016`** (Critérios INVEST para Histórias de Usuário no Backlog Ágil): Preservada.
+* **`Teste 018`** (Diagrama de Classes da UML: Agregação fraca vs Composição forte todo-parte e dependência de ciclo de vida): Preservada.
+* **`Teste 019`** (Diagrama de Sequência da UML: Linhas de vida, mensagens síncronas/assíncronas e fragmentos combinados `alt`, `opt`, `loop`): Preservada.
+* **`Teste 020`** (BPMN 2.0: Tipos canônicos de Tarefas - User Task, Service Task, Script Task, Manual Task): Preservada.
+* **`Teste 021`** (BPMN 2.0: Gateways de Decisão - Exclusivo XOR, Paralelo AND, Inclusivo OR e Baseado em Eventos): Preservada.
+* **`Teste 022`** (BPMN 2.0: Regras sintáticas de Pools, Lanes, Fluxo de Sequência e Fluxo de Mensagem): Preservada.
+
+
+---
+
+## Caderno 02 (Eng. Software): Requisitos, Histórias de Usuário, UML e BPMN
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/04_engenharia_de_software/02_requisitos_historias_de_usuario_uml_e_bpmn.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 014`**: Substituir pela questão real **`V3_FGV_TJ_RR_2024_Q1248`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/RR – 2024 – Analista Judiciário (Gestão e Governança de TI)
+  * **Conceito Aderente:** Propósito e limites conceituais dos Diagramas de Casos de Uso na UML (captura de requisitos funcionais vs não funcionais, representação externa de caixa preta e distinção dos elementos gráficos).
+* **`Teste 017`**: Substituir pela questão real **`V3_FGV_TJ_AP_2023_Q0550`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/AP – 2023 – Analista Judiciário (Desenvolvimento de Sistemas)
+  * **Conceito Aderente:** Taxonomia dos diagramas comportamentais da UML (Diagrama de Atividades para modelagem de fluxos de trabalho/workflow frente a Use Case, Sequência e Máquina de Estados).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 014`**: Simulado sobre relacionamentos de Caso de Uso (`include` e `extend`).
+* **`Teste 017`**: Simulado sobre taxonomia estrutural vs comportamental na UML 2.5.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 012`** (Requisitos Funcionais vs Não Funcionais / FURPS+ / ISO 25010): Preservada (desenhada especificamente para auditoria de processo eletrônico em Tribunal de Contas).
+* **`Teste 013`** (Técnicas de Elicitação de Requisitos: JAD, Entrevistas, Questionários): Preservada.
+* **`Teste 015`** (Histórias de Usuário e os 3 Cs de Ron Jeffries: Card, Conversation, Confirmation): Preservada.
+* **`Teste 016`** (Critérios INVEST para Histórias de Usuário no Backlog Ágil): Preservada.
+* **`Teste 018`** (Diagrama de Classes da UML: Agregação fraca vs Composição forte todo-parte e dependência de ciclo de vida): Preservada.
+* **`Teste 019`** (Diagrama de Sequência da UML: Linhas de vida, mensagens síncronas/assíncronas e fragmentos combinados `alt`, `opt`, `loop`): Preservada.
+* **`Teste 020`** (BPMN 2.0: Tipos canônicos de Tarefas - User Task, Service Task, Script Task, Manual Task): Preservada.
+* **`Teste 021`** (BPMN 2.0: Gateways de Decisão - Exclusivo XOR, Paralelo AND, Inclusivo OR e Baseado em Eventos): Preservada.
+* **`Teste 022`** (BPMN 2.0: Regras sintáticas de Pools, Lanes, Fluxo de Sequência e Fluxo de Mensagem): Preservada.
