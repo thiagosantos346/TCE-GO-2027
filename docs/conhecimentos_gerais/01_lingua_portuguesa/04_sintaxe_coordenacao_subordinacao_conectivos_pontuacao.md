@@ -5,7 +5,10 @@
 > **Arquivo:** `04_sintaxe_coordenacao_subordinacao_conectivos_pontuacao.md`  
 > **Referência Temática:** Período Composto, Relações Lógicas Interoracionais, Valores de Conectivos e Pontuação na Banca FCC
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Coordenação e subordinação: processos sintáticos de articulação oracional no período composto;
@@ -27,25 +30,35 @@
     1. [Conceito de Período Composto e Mecanismos de Junção Oracional](#11-conceito-de-periodo-composto-e-mecanismos-de-juncao-oracional)
     2. [Processo de Coordenação e Autonomia Sintática](#12-processo-de-coordenacao-e-autonomia-sintatica)
     3. [Processo de Subordinação e Encaixamento Hierárquico](#13-processo-de-subordinacao-e-encaixamento-hierarquico)
+    4. [Teste 032](#Teste-032)
 2. [Orações Coordenadas e Conectivos Coordenativos](#2-oracoes-coordenadas-e-conectivos-coordenativos)
     1. [Coordenadas Assindéticas e Sindéticas](#21-coordenadas-assindeticas-e-sindeticas)
     2. [Valores Semânticos das Conjunções Coordenativas](#22-valores-semanticos-das-conjuncoes-coordenativas)
     3. [Posição e Valores Polissêmicos da Conjunção Pois](#23-posicao-e-valores-polissemicos-da-conjuncao-pois)
+    4. [Teste 033](#Teste-033)
 3. [Orações Subordinadas Substantivas e Adjetivas](#3-oracoes-subordinadas-substantivas-e-adjetivas)
     1. [Orações Substantivas e o Método do Pronome ISSO](#31-oracoes-substantivas-e-o-metodo-do-pronome-isso)
     2. [Classificação Sintática das Orações Subordinadas Substantivas](#32-classificacao-sintatica-das-oracoes-subordinadas-substantivas)
     3. [Orações Subordinadas Adjetivas: Explicativas vs. Restritivas](#33-oracoes-subordinadas-adjetivas-explicativas-vs-restritivas)
+    4. [Teste 034](#Teste-034)
+    5. [Teste 035](#Teste-035)
 4. [Orações Subordinadas Adverbiais e Conectivos Críticos](#4-oracoes-subordinadas-adverbiais-e-conectivos-criticos)
     1. [Quadro Completo das Conjunções Subordinativas Adverbiais](#41-quadro-completo-das-conjuncoes-subordinativas-adverbiais)
     2. [Adversativas vs. Concessivas: Conflito Sintático, Semântico e Modal](#42-adversativas-vs-concessivas-conflito-sintatico-semantico-e-modal)
     3. [O Trio Crítico da FCC: Porquanto, Portanto e Conquanto](#43-o-trio-critico-da-fcc-porquanto-portanto-e-conquanto)
     4. [A Polissemia do Conectivo Como](#44-a-polissemia-do-conectivo-como)
+    5. [Teste 036](#Teste-036)
+    6. [Teste 037](#Teste-037)
+    7. [Teste 038](#Teste-038)
 5. [Sintaxe da Pontuação e Efeitos Semânticos](#5-sintaxe-da-pontuacao-e-efeitos-semanticos)
     1. [A Proibição Inegociável da Quebra SVC](#51-a-proibicao-inegociavel-da-quebra-svc)
     2. [Regras do Uso da Vírgula no Período Simples](#52-regras-do-uso-da-virgula-no-periodo-simples)
     3. [Regras do Uso da Vírgula no Período Composto](#53-regras-do-uso-da-virgula-no-periodo-composto)
     4. [Emprego de Ponto e Vírgula, Dois-Pontos, Travessões e Parênteses](#54-emprego-de-ponto-e-virgula-dois-pontos-travessoes-e-parenteses)
     5. [Alterações de Sentido Provocadas pela Supressão ou Deslocamento de Pontuação](#55-alteracoes-de-sentido-provocadas-pela-supressao-ou-deslocamento-de-pontuacao)
+    6. [Teste 039](#Teste-039)
+    7. [Teste 040](#Teste-040)
+    8. [Teste 041](#Teste-041)
 6. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
@@ -73,6 +86,34 @@ Na subordinação, verifica-se uma relação de dependência hierárquica e enca
 * *"O tribunal determinou [oração principal] <ins>que o contrato fosse suspenso</ins> [oração subordinada substantiva com função de objeto direto da principal]."*
 
 Se a oração subordinada for retirada, a oração principal torna-se sintaticamente mutilada ou incompleta (no exemplo, o verbo *determinou* ficaria desprovido de seu complemento direto).
+
+---
+
+### Teste 032
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere o período:  
+*"O plenário não acolheu as preliminares da defesa, nem os auditores encontraram atenuantes nos documentos acostados aos autos."*
+
+Em relação à estrutura sintática do período acima, é correto afirmar que:
+
+* **A)** É composto por subordinação, sendo a segunda oração classificada como subordinada substantiva completiva nominal.
+* **B)** É composto por coordenação, sendo a segunda oração uma coordenada sindética aditiva introduzida pela conjunção *"nem"*.
+* **C)** A oração introduzida por *"nem"* expressa circunstância de consequência em relação ao fato expresso na primeira oração.
+* **D)** A conjunção *"nem"* equivale semanticamente ao conectivo conclusivo *"por conseguinte"*.
+* **E)** As orações guardam relação de dependência sintática estrita, exercendo uma a função de sujeito da outra.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O período é composto por coordenação, pois as orações são sintaticamente independentes entre si (não exercem função de termo oracional de outra oração).
+> - **B)** Correta. A conjunção coordenativa aditiva *"nem"* equivale a *"e não"*, ligando duas orações coordenadas que expressam soma de ideias negativas: *"O plenário não acolheu as preliminares (..) e os auditores não encontraram atenuantes.."*. Trata-se de oração coordenada sindética aditiva.
+> - **C)** Incorreta. Não há nexo causal-consecutivo entre as orações, mas simples adição de fatos constatados.
+> - **D)** Incorreta. *"Nem"* é aditivo, ao passo que *"por conseguinte"* é conclusivo.
+> - **E)** Incorreta. A dependência sintática é própria da subordinação. Na coordenação, cada oração possui estrutura sintática completa e autônoma.
+>
+> **Gabarito: B**
 
 ---
 
@@ -122,6 +163,33 @@ A conjunção *pois* assume comportamentos sintáticos diametralmente opostos em
 
 ---
 
+### Teste 033
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere o período:  
+*"Os pareceres técnicos da controladoria demonstraram cabalmente a regularidade do processo licitatório; o plenário aprovou, <ins>pois</ins>, as contas do ordenador de despesas."*  
+No contexto acima, o termo destacado expressa valor semântico de:
+
+* **A)** Concessão
+* **B)** Causa
+* **C)** Explicação
+* **D)** Conclusão
+* **E)** Proporção
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O conectivo *pois* não possui propriedade semântica de concessão sob nenhuma hipótese na língua portuguesa.
+> - **B)** Incorreta. Para expressar valor causal, o conectivo *pois* deveria obrigatoriamente figurar no início da oração, anteposto ao verbo.
+> - **C)** Incorreta. O valor explicativo do conectivo *pois* somente emerge quando a conjunção encabeça a oração antes do verbo conjugado, justificando uma asserção precedente.
+> - **D)** Correta. A conjunção coordenativa **pois**, ao posicionar-se **deslocada no interior da oração, posposta ao verbo conjugado e cercada por vírgulas** (*"o plenário aprovou, pois, as contas"*), assume rigorosamente o valor semântico de **conclusão**, atuando como sinônimo cabal de *portanto*, *logo* e *por conseguinte*.
+> - **E)** Incorreta. A ideia de proporção é veiculada por locuções proporcionais como *à medida que* e *à proporção que*, descabendo com *pois*.
+> 
+> **Gabarito: D**
+
+---
+
 ## 3. Orações Subordinadas Substantivas e Adjetivas
 
 As orações subordinadas dividem-se em substantivas, adjetivas e adverbiais, dependendo do valor gramatical que exercem em relação à oração principal.
@@ -166,6 +234,62 @@ flowchart TD
     * *"Os cidadãos brasileiros que têm mais de setenta anos possuem voto facultativo."* (Significado: apenas aquela parcela que tem mais de 70 anos, e não a totalidade dos brasileiros).
 
 > 🚨 **ALERTA DE PROVA / SUPRESSÃO DE VÍRGULAS EM ORAÇÃO ADJETIVA:** A FCC explora intensamente assertivas que indagam: *"A retirada das vírgulas da oração adjetiva mantém a correção gramatical e o sentido original do período?"*. Resposta técnica obrigatória: a retirada das vírgulas **mantém a correção gramatical**, mas **SEMPRE ALTERA O SENTIDO DO TEXTO**, transformando uma explicação genérica sobre a totalidade em uma restrição delimitadora sobre uma fração.
+
+---
+
+### Teste 034
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere as duas orações destacadas a seguir:  
+
+1. *"É fundamental **que os gestores apresentem as notas fiscais originais**."*  
+2. *"A equipe técnica constatou **que os pagamentos foram efetuados sem prévio empenho**."*  
+
+Quanto à função sintática exercida pelas orações destacadas, assinale a alternativa correta:
+
+* **A)** Em 1, a oração é subordinada substantiva objetiva direta; em 2, é subordinada substantiva subjetiva.
+* **B)** Em 1, a oração exerce a função de sujeito do verbo *ser* (subordinada substantiva subjetiva); em 2, funciona como objeto direto da forma verbal *constatou* (subordinada substantiva objetiva direta).
+* **C)** Ambas as orações exercem a função de aposto explicativo do termo antecedente.
+* **D)** Em 1 e 2, as orações classificam-se como subordinadas adjetivas explicativas introduzidas por pronome relativo.
+* **E)** Em 1, a oração é completiva nominal dependente do predicativo *fundamental*; em 2, é adverbial causal.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **Oração 1:** *"É fundamental [que os gestores apresentem as notas fiscais originais]"*. Aplicando o método da substituição pelo pronome substantivo **ISSO**: *"É fundamental ISSO"* $
+ightarrow$ *"ISSO é fundamental"*. O termo *"ISSO"* funciona como sujeito da oração principal (que possui verbo de ligação *é* + predicativo do sujeito *fundamental*). Logo, a oração é **subordinada substantiva subjetiva**.
+> - **Oração 2:** *"A equipe técnica constatou [que os pagamentos foram efetuados sem prévio empenho]"*. Substituindo: *"A equipe técnica constatou ISSO"*. O verbo *constatar* é transitivo direto (quem constata, constata algo). Logo, o termo *"ISSO"* desempenha a função de objeto direto da oração principal, classificando a oração como **subordinada substantiva objetiva direta**.
+> - **Conclusão:** A alternativa **B** traduz com exatidão essas duas funções sintáticas primordiais da FCC.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 035
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere o segmento:  
+*"Os auditores de controle externo, <ins>que fiscalizam a correta aplicação dos recursos públicos estaduais</ins>, atuam com estrita independência funcional."*  
+A respeito da oração sublinhada e do emprego das vírgulas que a isolam, é correto afirmar:
+
+* **A)** A oração é subordinada adjetiva restritiva, e a eliminação das duas vírgulas manteria inalterado o sentido original do enunciado.
+* **B)** Trata-se de oração subordinada adjetiva explicativa, cuja supressão das vírgulas manteria a correção gramatical, mas alteraria o sentido original do período.
+* **C)** As vírgulas são de emprego facultativo, pois isolam adjunto adverbial de curta extensão.
+* **D)** A oração exerce função de oração coordenada sindética explicativa, sendo obrigatória a substituição do pronome *que* por *porquanto* em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** A retirada das vírgulas tornaria a frase agramatical e incorreta perante a norma-padrão.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A oração não é restritiva, mas explicativa, exatamente porque está grafada entre vírgulas. Ademais, a retirada das vírgulas alteraria profundamente a significação semântica do enunciado.
+> - **B)** Correta. A oração subordinada é introduzida pelo pronome relativo *que* e está devidamente isolada por vírgulas, qualificando-se como **Oração Subordinada Adjetiva Explicativa**. Ela atribui uma qualidade inerente à universalidade dos sujeitos citados (todos os auditores de controle externo do órgão fiscalizam a aplicação dos recursos). Caso as vírgulas sejam suprimidas, a oração converte-se em **restritiva**: o período permanece gramaticalmente correto, porém seu sentido é transformado, passando a delimitar que apenas uma parcela restrita de auditores realiza tal mister, enquanto outros não o fariam.
+> - **C)** Incorreta. O segmento não é adjunto adverbial, mas oração subordinada adjetiva explicativa, na qual as vírgulas são obrigatórias para consagrar o sentido explicativo.
+> - **D)** Incorreta. Trata-se de oração subordinada adjetiva encabeçada pelo pronome relativo *que* (o qual retoma *os auditores de controle externo*), não havendo coordenação sindética.
+> - **E)** Incorreta. A supressão das vírgulas não infringe a sintaxe nem torna o período agramatical; produz unicamente a conversão semântica de explicativa para restritiva.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -232,6 +356,84 @@ O conectivo *como* assume múltiplos papéis dependendo da sua posição na fras
 2. **Como Conformativo:** Equivale a *conforme, segundo, consoante*, indicando adequação a uma norma ou modelo: *"O concurso público realizou-se, **como** determina a Constituição Estadual"*.
 3. **Como Comparativo:** Estabelece confronto de semelhança analógica (= *tal qual, assim como*): *"O fiscal examinou as planilhas **como** um analista forense minucioso"*.
 4. **Como Aditivo (Correlativo):** Integra a estrutura aditiva correlata *não só.. como também*: *"O parecer apontou **não só** desídia administrativa, **como também** dano patrimonial"*.
+
+---
+
+### Teste 036
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere o período:  
+*"À medida que as investigações avançavam, novos indícios de irregularidades vinham à tona, de modo que a comissão decidiu prorrogar os trabalhos por mais trinta dias."*
+
+Os conectivos destacados expressam, correta e respectivamente, as noções circunstanciais de:
+
+* **A)** tempo e causa.
+* **B)** proporção e consequência.
+* **C)** concessão e finalidade.
+* **D)** condição e conformidade em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** proporção e explicação.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **1ª locução:** *"À medida que"* é a locução conjuntiva subordinativa por excelência de valor **proporcional** (indica um fenômeno que varia em relação direta e concomitante com outro). Atenção: não confundir com a locução causal "na medida em que".
+> - **2ª locução:** *"de modo que"* introduz fato que decorre do que foi afirmado anteriormente (efeito produzido pelo acúmulo de novos indícios), configurando nexo subordinativo adverbial **consecutivo** (consequência).
+> - **Análise das alternativas:** A alternativa **B** traz exatamente a dupla relação: proporção e consequência.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 037
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere o seguinte período:  
+*"<ins>Conquanto</ins> a equipe de auditoria tenha coligido indícios substanciais de superfaturamento na compra de medicamentos, a autoridade julgadora decidiu pela conversão dos autos em diligência saneadora."*  
+O conectivo destacado introduz relação de sentido e pode ser substituído, mantendo-se a correção gramatical e o sentido original do período, por:
+
+* **A)** Porquanto
+* **B)** Visto que
+* **C)** Embora
+* **D)** À proporção que
+* **E)** Contanto que
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A conjunção *porquanto* expressa valor causal ou explicativo (= *porque, já que, dado que*), o que distorceria completamente a lógica de oposição/ressalva presente no período original.
+> - **B)** Incorreta. A locução conjuntiva *visto que* introduz oração subordinada adverbial causal, inconciliável com a relação semântica de concessão.
+> - **C)** Correta. A conjunção subordinativa **conquanto** possui valor semântico estritamente **concessivo** (introduz um fato real de contraste que não impede a concretização do fato da oração principal) e rege o modo subjuntivo (*tenha coligido*). O conectivo **embora** é seu sinônimo clássico perfeito, preservando integralmente o sentido concessivo original e a compatibilidade com o verbo no pretérito perfeito do subjuntivo.
+> - **D)** Incorreta. A locução *à proporção que* expressa valor proporcional, relacionando fatos simultâneos em escala gradativa de variação.
+> - **E)** Incorreta. A locução *contanto que* exprime valor condicional, apresentando uma exigência hipotética para que o fato principal ocorra.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 038
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Assinale a frase em que o conectivo **COMO** expressa relação semântica de **causa**:
+
+* **A)** *"O técnico de suporte agiu rapidamente, como orientava o protocolo de segurança da informação."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** *"O novo sistema operacional era rápido e silencioso como um raio."*
+* **C)** *"Como o prazo de apresentação de defesa havia expirado na véspera, o gestor foi declarado revel."*
+* **D)** *"A comissão convocou não apenas o presidente da fundação, como também o contador-geral."*
+* **E)** *"O conselheiro explicou com detalhes como se operava a fraude nas medições de asfalto."*
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A oração *como orientava o protocolo* veicula sentido de conformidade, equivalendo a *conforme* ou *segundo* (oração subordinada adverbial conformativa).
+> - **B)** Incorreta. O segmento *como um raio* opera comparação analógica de semelhança, equivalendo a *tal qual* (oração subordinada adverbial comparativa).
+> - **C)** Correta. Posicionado no início do período e encabeçando oração anteposta à principal, o conectivo **como** expressa inequívoco valor de **causa** (= *já que, visto que, dado que, porque*). A circunstância de o prazo haver expirado foi a causa motriz que determinou o efeito de o gestor ser declarado revel.
+> - **D)** Incorreta. A estrutura *não apenas.. como também* é uma locução correlativa coordenativa de adição.
+> - **E)** Incorreta. O vocábulo *como* atua como advérbio interrogativo de modo em oração subordinada substantiva objetiva direta, indicando a maneira pela qual a fraude era praticada.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -304,117 +506,97 @@ A pontuação é ferramenta de arquitetura do sentido discursivo. O deslocamento
 
 ---
 
-### Teste 001
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-Leia o fragmento de texto a seguir. Sentimento que não espairo; pois eu mesmo nem acerto com o mote disso ― o que queria e o que não queria, estória sem final. O correr da vida embrulha tudo, a vida é assim: esquenta e esfria, aperta e daí afrouxa, sossega e depois desinquieta. O que ela quer da gente é coragem. O que Deus quer é ver a gente aprendendo a ser capaz de ficar alegre a mais, no meio da alegria, e inda mais alegre no meio da tristeza! Só assim de repente, na horinha em que se quer, de propósito ― por coragem. Será? Era o que eu às vezes achava. Ao clarear do dia. ROSA, João Guimarães. Grande Sertão: Veredas. São Paulo: Cia das Letras. 2019. p. 293. No fragmento apresentado, o uso de diferentes sinais de pontuação contribui para a construção de sentidos e para a expressão da subjetividade do narrador. Considerando esse aspecto, assinale a afirmativa que analisa corretamente o papel desses recursos no texto.
+### Teste 039
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A frase cuja pontuação atende plenamente às normas da norma culta da língua portuguesa é:
 
-* **A)** O uso do ponto e vírgula estabelece relações de subordinação entre as orações, organizando o texto de forma hierarquizada.
-* **B)** Os dois-pontos introduzem explicações e enumerações, contribuindo para o encadeamento reflexivo das ideias do narrador.
-* **C)** O travessão é empregado para indicar mudança de interlocutor, caracterizando o texto como diálogo direto.
-* **D)** Os pontos finais fragmentam o texto em períodos independentes, sem relação com o ritmo ou com a construção de sentido.
-* **E)** O ponto de interrogação é utilizado para organizar sintaticamente o texto, sem interferir na expressividade da linguagem.
+* **A)** *"O pleno do Tribunal de Contas, após detido exame dos relatórios de engenharia votou pela anulação da concorrência."*
+* **B)** *"O pleno do Tribunal de Contas após detido exame dos relatórios de engenharia, votou pela anulação da concorrência."*
+* **C)** *"O pleno do Tribunal de Contas, após detido exame dos relatórios de engenharia, votou pela anulação da concorrência."*
+* **D)** *"O pleno do Tribunal de Contas votou, pela anulação da concorrência, após detido exame dos relatórios de engenharia."*
+* **E)** *"O pleno do Tribunal de Contas votou pela anulação da concorrência, que, continha sobrepreço manifesto."*
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O uso do ponto e vírgula estabelece relações de subordinação entre as orações, organizando o texto de forma...". De acordo com a teoria estudada em *1.1 Conceito de Período Composto e Mecanismos de Junção Oracional*, o reconhecimento do número de orações em um período faz se pela identificação da quantidade de verbos ou locuções verbais presentes. A ligação entre essas orações processa se ou por meio de conectivos expressos (conjunções coordenativas ou subordinativas, locuções conjuntivas e pronomes relativos) ou por simples justaposição assindética mediada por sinais de pontuação (vírgulas, ponto e vírgula ou dois pontos).
-> - **B)** **Correta.** Conforme fundamentado na seção *1. Fundamentos do Período Composto: Coordenação e Subordinação* deste guia, o período composto é aquele constituído por duas ou mais orações que se articulam para veicular um pensamento complexo. No texto formal, técnico e legislativo, o encadeamento das proposições obedece a dois processos estruturais básicos: a coordenação e a subordinação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "Os dois pontos introduzem explicações e enumerações, contribuindo para o encadeamento reflexivo das ideias do...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O travessão é empregado para indicar mudança de interlocutor, caracterizando o texto como diálogo direto". De acordo com a teoria estudada em *5.4 Emprego de Ponto e Vírgula, Dois-Pontos, Travessões e Parênteses*, o travessão duplo atua como recurso expressivo para isolar termos intercalados, comentários enfáticos ou orações adjetivas explicativas, substituindo com elegância as vírgulas duplas ou os parênteses ( "O processo de auditoria — cuja complexidade assustava os neófitos — transcorreu dentro da mais estrita normalidade" ).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os pontos finais fragmentam o texto em períodos independentes, sem relação com o ritmo ou com a construção de...". De acordo com a teoria estudada em *Distinção Semântica e Sintática Crucial:*, a FCC explora intensamente assertivas que indagam: "A retirada das vírgulas da oração adjetiva mantém a correção gramatical e o sentido original do período?" . Resposta técnica obrigatória: a retirada das vírgulas mantém a correção gramatical, mas SEMPRE ALTERA O SENTIDO DO TEXTO, transformando uma explicação genérica sobre a totalidade em uma restrição delimitadora sobre uma fração.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O ponto de interrogação é utilizado para organizar sintaticamente o texto, sem interferir na expressividade da...". De acordo com a teoria estudada em *5.4 Emprego de Ponto e Vírgula, Dois-Pontos, Travessões e Parênteses*, separa orações coordenadas de certa extensão que já contenham vírgulas internas: "O relatório inicial apontou desvios de combustível; o parecer conclusivo, elaborado pela auditoria de engenharia, recomendou a instauração de tomada de contas especial.".
->
-> **Gabarito: B**
-
----
-
-### Teste 002
-**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
-Infere-se da leitura do texto que a eliminação de todas as formas de discriminação, que abrange a promoção da igualdade de oportunidades, constitui o fundamento da Declaração dos Direitos e Princípios Fundamentais do Trabalho e da Agenda do Trabalho Decente da OIT. com o código E, caso julgue o item ERRADO. A ausência de seja, não receberão pontuação negativa. Para as devidas marcações, suas provas objetivas. BÁSICOS
-
-* **C)** Certo
-* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Infere se da leitura do texto que a eliminação de todas as formas de discriminação, que abrange a promoção da...". De acordo com a teoria em *1. Fundamentos do Período Composto: Coordenação e Subordinação*, o período composto é aquele constituído por duas ou mais orações que se articulam para veicular um pensamento complexo. No texto formal, técnico e legislativo, o encadeamento das proposições obedece a dois processos estruturais básicos: a coordenação e a subordinação.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
+> - **A)** Incorreta. O segmento adverbial intercalado *"após detido exame dos relatórios de engenharia"* foi aberto com uma vírgula após o sujeito, mas não foi fechado antes do verbo *votou*. Isso gerou a proibição inegociável de separar o sujeito do predicado por uma vírgula simples solitária.
+> - **B)** Incorreta. Incorre no mesmo erro da assertiva A sob feição inversa: não abriu a vírgula antes do adjunto adverbial intercalado, deixando uma vírgula solitária antes do verbo *votou*, cindindo indevidamente a oração direta.
+> - **C)** Correta. O adjunto adverbial de tempo de longa extensão encontra-se devidamente intercalado entre o sujeito (*O pleno do Tribunal de Contas*) e o predicado (*votou pela anulação..*), estando perfeitamente isolado por **duas vírgulas simétricas** (uma no início e outra no término do termo intercalado).
+> - **D)** Incorreta. A vírgula empregada após o verbo *votou* separa indevidamente o verbo de seu objeto indireto regido pela preposição *por* (*votou pela anulação*), ferindo a regra estrutural da cadeia SVC.
+> - **E)** Incorreta. A vírgula após o pronome relativo *que* cinde indevidamente o pronome relativo do verbo da oração adjetiva (*continha*).
+> 
+> **Gabarito: C**
 
 ---
 
-### Teste 003
-**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
-É legítimo afirmar: no texto,
+### Teste 040
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere a pontuação no período abaixo:  
+*"A Lei de Responsabilidade Fiscal impõe limites severos para os gastos com pessoal; os municípios combalidos financeiramente, no entanto, frequentemente ultrapassam esses tetos prudenciais."*
 
-* **A)** Transpondo a voz passiva presente na frase para a voz ativa, a forma correta a ser grafada é “têm acompanhado”.
-* **B)** A retirada da vírgula após a palavra reiteradamente prejudica o sentido original da frase.
-* **C)** A expressão Visível a olho nu, que constitui caracterização da palavra que a antecede, dá oportunidade para que se introduza outro argumento a favor da ideia expressa por notório.
-* **D)** Se o assunto fosse não um processo, mas “processos”, a correção exigiria a forma “se tratam de processos”.
-* **E)** O verbo “haver”, na frase, está empregado como indica o seguinte verbete do Dicionário eletrônico Houaiss: transitivo direto [impessoal] ter transcorrido ou ser decorrido (tempo).
+Sobre o emprego dos sinais de pontuação no trecho, assinale a alternativa correta:
 
----
+* **A)** O ponto e vírgula separa orações coordenadas de certa extensão que guardam contraste semântico, estando a segunda oração marcada por conectivo adversativo deslocado.
+* **B)** O ponto e vírgula foi empregado incorretamente, devendo ser compulsoriamente substituído por dois-pontos para introduzir uma citação em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** As vírgulas que isolam *"no entanto"* são de emprego facultativo, podendo ser suprimidas sem nenhum prejuízo às normas gramaticais.
+* **D)** O ponto e vírgula deveria ser substituído por ponto de exclamação para realçar a indignação do autor.
+* **E)** É obrigatória a aposição de vírgula imediatamente após o termo *"combalidos financeiramente"*, sob pena de quebra da regência verbal.
 
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Transpondo a voz passiva presente na frase para a voz ativa, a forma correta a ser grafada é “têm acompanhado”". De acordo com a teoria estudada em *3.2 Classificação Sintática das Orações Subordinadas Substantivas*, subjetiva: Exerce a função de sujeito da oração principal. Ocorre quando a oração principal possui verbo de ligação + predicativo ( "É evidente que o prazo expirou" $\rightarrow$ ISSO é evidente ), verbo na voz passiva analítica ou sintética ( "Sabe se que haverá concurso" ) ou verbos unipessoais ( convém, cumpre, importa, parece, urge ): "Convém que todos estudem".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A retirada da vírgula após a palavra reiteradamente prejudica o sentido original da frase". De acordo com a teoria estudada em *Distinção Semântica e Sintática Crucial:*, a FCC explora intensamente assertivas que indagam: "A retirada das vírgulas da oração adjetiva mantém a correção gramatical e o sentido original do período?" . Resposta técnica obrigatória: a retirada das vírgulas mantém a correção gramatical, mas SEMPRE ALTERA O SENTIDO DO TEXTO, transformando uma explicação genérica sobre a totalidade em uma restrição delimitadora sobre uma fração.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A expressão Visível a olho nu, que constitui caracterização da palavra que a antecede, dá oportunidade para que se...". De acordo com a teoria estudada em *Distinções Gramaticais Determinantes:*, na oração coordenada adversativa, o argumento mais forte, que orienta a conclusão final do autor, situa se dentro da própria oração adversativa ( "O projeto é dispendioso, mas trará enormes benefícios à coletividade" $\rightarrow$ prevalece a ideia de aprovação do projeto).
-> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Processo de Subordinação e Encaixamento Hierárquico* deste guia, na subordinação, verifica se uma relação de dependência hierárquica e encaixamento funcional: a oração subordinada desempenha uma função sintática essencial, integrante ou acessória em benefício da oração principal (atuando como se fosse um substantivo, um adjetivo ou um advérbio desta). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "Se o assunto fosse não um processo, mas “processos”, a correção exigiria a forma “se tratam de processos”".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O verbo “haver”, na frase, está empregado como indica o seguinte verbete do Dicionário eletrônico Houaiss...". De acordo com a teoria estudada em *1.3 Processo de Subordinação e Encaixamento Hierárquico*, "O tribunal determinou [oração principal] <ins que o contrato fosse suspenso</ins [oração subordinada substantiva com função de objeto direto da principal].".
->
-> **Gabarito: D**
-
----
-
-### Teste 004
-**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
-(3o parágrafo) Não obstante a permanência ininterrupta da enorme desigualdade em tamanho e estatura das religiões no Brasil, não é mais possível, nos dias que correm, desconhecer que a sociedade brasileira está passando por um processo de transição religiosa que é notório. Visível a olho nu. Considerado o trecho acima, no contexto em que está inserido, é apropriado afirmar:
-
-* **A)** A expressão nos dias que correm expressa um fator condicionante.
-* **B)** A locução verbal em que está presente o gerúndio indica uma ação durativa em tempo não marcado.
-* **C)** As incontestes desigualdades estruturais do Brasil impossibilitam leituras mais pontuais e consistentes acerca da vida dos brasileiros, principalmente no que se refere a seus hábitos religiosos.
-* **D)** A inclusão de uma vírgula depois de Não obstante mantém a correção e a clareza da frase, visto que o emprego desse sinal de pontuação, nessa específica formulação, é facultativo.
-* **E)** Em a permanência ininterrupta da enorme desigualdade em tamanho e estatura das religiões no Brasil, a substituição de ininterrupta por “intermitente” mantém o sentido original da frase.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Coordenadas Assindéticas e Sindéticas* deste guia, coordenadas Assindéticas: São orações justapostas, separadas por vírgula ou ponto e vírgula, sem qualquer conjunção expressa: "Chegou ao tribunal, conferiu a pauta, dirigiu se ao plenário". Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "A expressão nos dias que correm expressa um fator condicionante".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A locução verbal em que está presente o gerúndio indica uma ação durativa em tempo não marcado". De acordo com a teoria estudada em *4.1 Quadro Completo das Conjunções Subordinativas Adverbiais*, temporal: Momento cronológico em que ocorre a ação — quando, enquanto, logo que, assim que, desde que, todas as vezes que — "Assim que a sessão terminou, a ata foi lavrada.".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As incontestes desigualdades estruturais do Brasil impossibilitam leituras mais pontuais e consistentes acerca da...". De acordo com a teoria estudada em *1. Fundamentos do Período Composto: Coordenação e Subordinação*, o período composto é aquele constituído por duas ou mais orações que se articulam para veicular um pensamento complexo. No texto formal, técnico e legislativo, o encadeamento das proposições obedece a dois processos estruturais básicos: a coordenação e a subordinação.
-> - **D)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "A inclusão de uma vírgula depois de Não obstante mantém a correção e a clareza da frase, visto que o emprego desse...". De acordo com a teoria estudada em *Distinção Semântica e Sintática Crucial:*, a FCC explora intensamente assertivas que indagam: "A retirada das vírgulas da oração adjetiva mantém a correção gramatical e o sentido original do período?" . Resposta técnica obrigatória: a retirada das vírgulas mantém a correção gramatical, mas SEMPRE ALTERA O SENTIDO DO TEXTO, transformando uma explicação genérica sobre a totalidade em uma restrição delimitadora sobre uma fração.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em a permanência ininterrupta da enorme desigualdade em tamanho e estatura das religiões no Brasil, a substituição...". De acordo com a teoria estudada em *5.5 Alterações de Sentido Provocadas pela Supressão ou Deslocamento de Pontuação*, supressão da vírgula de vocativo: Transforma o chamamento em sujeito da oração ( "Auditor, assine o documento" [ordem a um interlocutor] vs. "Auditor assine o documento" [frase defeituosa ou ambígua]).
+> - **A)** Correta. O ponto e vírgula é o sinal de pontuação ideal na sintaxe culta da FCC para separar orações coordenadas extensas que se contrapõem em sentido, especialmente quando uma delas já possui vírgulas internas isolando adjuntos ou conjunções adversativas deslocadas (como *"no entanto"* entre vírgulas).
+> - **B)** Incorreta. Não se trata de enumeração explicativa nem citação literal, razão pela qual o ponto e vírgula é plenamente legítimo e elegante.
+> - **C)** Incorreta. Estando a conjunção adversativa (*no entanto*) deslocada para o meio da oração (após o sujeito *"os municípios.."*), o isolamento por vírgulas é **rigorosamente obrigatório**.
+> - **D)** Incorreta. O texto é técnico-dissertativo e descarta pontuação enfática de teor emotivo.
+> - **E)** Incorreta. *"combalidos financeiramente"* é adjunto adnominal restritivo de *municípios*; colocar vírgula após ele separaria o sujeito do seu verbo (*ultrapassam*), violando a regra de ouro SVC.
 >
 > **Gabarito: A**
 
 ---
 
-### Teste 005
-**(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-Quanto à pontuação, a frase inteiramente correta é:
+### Teste 041
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere as seguintes frases:  
 
-* **A)** Já pela má fama adquirida já por preconceito, sem- pre haverá por parte de certos leitores, alguma relu- tância diante da leitura de um prefácio.
-* **B)** O autor do texto não hesita honestamente, de re- correr a experiências pessoais, para demonstrar sua tese, favorável em boa parte à existência mesma dos prefácios.
-* **C)** A escritora Cecília Meireles tão talentosa quanto bo- nita, é citada no texto como parâmetro de excelên- cia, na comparação com uma jovem, bela e pouco inspirada poetisa.
-* **D)** Muita gente acabará por confessar tal como fez o autor, que um prefácio pode prender nossa atenção, com muito mais força, do que o texto principal de uma obra.
-* **E)** O autor conclui, não sem razão, que as bibliografias que indicam apenas o prefácio de uma obra per- mitem deduzir, não há dúvida, que o restante do li- pírito das leis, obra clássica do filósofo francês Montesquieu, publicada em 1748. [Do espírito das leis] Falta muito para que o mundo inteligente seja tão bem governado quanto o mundo físico, pois ainda que o mundo inteligente possua também leis que por sua natureza são invariáveis, não as segue constantemente como o mundo físico segue as suas. A razão disso reside no fato de estarem os seres particulares inteligentes limitados por sua natureza e, consequentemente, sujeitos a erro; e, por outro lado, é próprio de sua natureza agirem por si mesmos. (...) O homem, como ser físico, tal como os outros corpos da natureza, é governado por leis invariáveis. Como ser inteligente, _________________________________________________________ viola incessantemente as leis que Deus estabeleceu e modifica as que ele próprio estabeleceu. Tal ser poderia, a todo instante, esquecer seu criador − Deus, pelas leis da religião, chamou-o a si; um tal ser poderia, a todo instante, esquecer-se de si mesmo − os filósofos advertiram-no pelas leis da moral. (Montesquieu − Os Pensadores. São Paulo: Abril Cultural, 1973, p. 33 e 34)
+I. *"Os auditores que concluíram a capacitação técnica elaboraram pareceres impecáveis."*  
+II. *"Os auditores, que concluíram a capacitação técnica, elaboraram pareceres impecáveis."*  
+
+Comparando-se as frases I e II quanto aos efeitos semânticos e sintáticos decorrentes da pontuação, conclui-se que:
+
+* **A)** Em I e II, o sentido é estritamente idêntico, sendo o uso das vírgulas mero capricho de estilo do redator.
+* **B)** Em I, a oração sem vírgulas restringe o sentido de *auditores*, indicando que apenas um grupo específico deles concluiu o curso; em II, a oração entre vírgulas é explicativa, atribuindo a conclusão da capacitação à totalidade dos auditores referidos.
+* **C)** Em II, a oração entre vírgulas restringe o universo dos auditores, ao passo que em I generaliza para toda a categoria profissional. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** A frase I contém erro gramatical grave por não pontuar oração adjetiva introduzida por pronome relativo.
+* **E)** A frase II apresenta pontuação incorreta porque nunca se deve isolar orações adjetivas por vírgulas.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Já pela má fama adquirida já por preconceito, sem pre haverá por parte de certos leitores, alguma relu tância...". De acordo com a teoria estudada em *2.2 Valores Semânticos das Conjunções Coordenativas*, conectivos: e, nem (= e não), não só.. mas também, não só.. como também, bem como, tanto.. quanto.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O autor do texto não hesita honestamente, de re correr a experiências pessoais, para demonstrar sua tese...". De acordo com a teoria estudada em *4.3 O Trio Crítico da FCC: Porquanto, Portanto e Conquanto*, poucas pegadinhas são tão reiteradas pela Fundação Carlos Chagas quanto a semelhança gráfica entre os conectivos do trio.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A escritora Cecília Meireles tão talentosa quanto bo nita, é citada no texto como parâmetro de excelên cia, na...". De acordo com a teoria estudada em *4.1 Quadro Completo das Conjunções Subordinativas Adverbiais*, consecutiva: Consequência, resultado ou efeito decorrente — tal.. que, tanto.. que, tão.. que, tamanho.. que, de forma que, de modo que — "A fraude foi tamanha que chocou os auditores.".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Muita gente acabará por confessar tal como fez o autor, que um prefácio pode prender nossa atenção, com muito mais...". De acordo com a teoria estudada em *4.2 Adversativas vs. Concessivas: Conflito Sintático, Semântico e Modal*, oposicao Conc["SUBORDINADA CONCESSIVA<br/ • Conectivos: embora, conquanto, ainda que, posto que, a despeito de<br/ • Modo verbal: SUBJUNTIVO<br/ • Força Argumentativa: A oração principal VENCE o confronto!<br/ • Ex: EMBORA NÃO TENHA ESTUDADO, o gestor foi aprovado.<br/ (O foco principal é o sucesso da oração principal)"].
-> - **E)** **Correta.** Conforme fundamentado na seção *4.1 Quadro Completo das Conjunções Subordinativas Adverbiais* deste guia, concessiva: Fato que se opõe à principal sem impedi la — embora, conquanto, ainda que, mesmo que, a despeito de, posto que, se bem que — "Conquanto houvesse pressão, o relator manteve o voto.". Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 16ª/2014) ao estabelecer que "O autor conclui, não sem razão, que as bibliografias que indicam apenas o prefácio de uma obra per mitem deduzir...".
+> - **A)** Incorreta. A presença ou ausência de vírgulas nas orações subordinadas adjetivas altera radicalmente o escopo semântico da frase (restrição vs. generalização explicativa).
+> - **B)** Correta. Trata-se da clássica distinção entre orações subordinadas adjetivas cobrada à exaustão pela FCC:  
+>   - **Sem vírgulas (Restritiva - Frase I):** Limita o antecedente. Apenas aqueles auditores que concluíram a capacitação elaboraram pareceres impecáveis (os que não concluíram não o fizeram).  
+>   - **Com vírgulas (Explicativa - Frase II):** Generaliza e qualifica o antecedente como um todo. Todos os auditores em questão concluíram a capacitação técnica e elaboraram pareceres impecáveis.
+> - **C)** Incorreta. Inverteu os conceitos (afirmou que a pontuada restringe, o que é falso).
+> - **D) e E)** Incorretas. Ambas as frases são gramaticalmente impecáveis e plenamente válidas, cada qual veiculando um sentido próprio e distinto.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+* [Manual de Comunicação do Senado Federal — Emprego da Vírgula](https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula) - Regras de pontuação no período simples e composto, termos intercalados, orações adjetivas e vedações da ordem direta SVC.
+* [Manual de Comunicação do Senado Federal — Ponto e Vírgula](https://www12.senado.leg.br/manualdecomunicacao/estilos/ponto-e-virgula) - Diretrizes sobre coordenação de períodos extensos, enumerações normativas e orações coordenadas conclusivas/adversativas.
+* [Manual de Comunicação do Senado Federal — Redação e Estilo (Conectivos e Período)](https://www12.senado.leg.br/manualdecomunicacao/redacao-e-estilo) - Artigos técnicos sobre coordenação, subordinação, valores semânticos de conjunções e estruturação de períodos.
+* [Manual de Redação da Presidência da República — 3ª Edição (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Orientações sobre articulação sintática, conectivos lógicos e pontuação oficial no serviço público.
+* [Lei Complementar Federal nº 95/1998 — Técnica Legislativa e Articulação Textual (Planalto)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm) - Normas oficiais de pontuação, coordenação de dispositivos e clareza sintática em textos normativos.
+* BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 14 e Cap. 17 - Período Composto por Coordenação e Subordinação, Conectivos e Sinais de Pontuação).
+* GARCIA, Othon M. **Comunicação em Prosa Moderna**. 27. ed. Rio de Janeiro: Editora FGV, 2010. (Primeira Parte - Estrutura da Frase, Coordenação, Subordinação e Valores Semânticos dos Conectivos).
+* CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017. (Cap. 16 e Cap. 21 - Conjunções Coordenativas e Subordinativas, Orações Adjetivas e Pontuação).

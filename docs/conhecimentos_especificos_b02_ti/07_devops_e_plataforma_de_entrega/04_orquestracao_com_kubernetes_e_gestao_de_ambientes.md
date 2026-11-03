@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `04_orquestracao_com_kubernetes_e_gestao_de_ambientes.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Orquestração de contêineres com Kubernetes (K8s)
@@ -126,6 +129,83 @@ Se um desenvolvedor define `replicas: 4` em um manifesto e um nó físico deslig
 
 ---
 
+### Teste 203
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A arquitetura do Kubernetes é dividida entre o Plano de Controle (*Control Plane*) e os Nós de Execução (*Worker Nodes*). O componente central do *Control Plane* que atua como o único banco de dados de armazenamento consistente e altamente disponível, guardando todo o estado do cluster, suas configurações e especificações de objetos no modelo chave-valor, é o:
+
+* **A)** `kube-scheduler`
+* **B)** `etcd`
+* **C)** `kube-apiserver`
+* **D)** `kubelet`
+* **E)** `kube-proxy`
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O `kube-scheduler` analisa os nós e decide em qual nó cada Pod deve ser executado.
+> - **B) Correta.** O **`etcd`** é um banco de dados distribuído de chave-valor consistente e de alta disponibilidade (baseado no algoritmo de consenso Raft) que armazena todos os dados do cluster Kubernetes como a fonte única da verdade.
+> - **C) Incorreta.** O `kube-apiserver` é a porta de entrada da API que se comunica com o etcd.
+> - **D) Incorreta.** O `kubelet` é o agente que executa nos nós de trabalho (*Worker Nodes*).
+> - **E) Incorreta.** O `kube-proxy` gerencia as regras de rede nos nós de trabalho.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 204
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Durante o planejamento de alta disponibilidade para a infraestrutura de computação em nuvem de um Tribunal de Contas, a equipe de operações analisou a distribuição de responsabilidades entre os componentes do Plano de Controle (*Control Plane*) e dos Nós de Execução (*Worker Nodes*) do Kubernetes.
+
+A respeito das funções e interações entre esses componentes, assinale a afirmativa correta:  
+
+* **A)** O `etcd` atua como servidor de proxy reverso e balanceador de carga HTTP para receber diretamente as requisições dos usuários da internet.
+* **B)** O `kube-scheduler` é o único componente autorizado a realizar operações de gravação e leitura no banco de dados distribuído `etcd`.
+* **C)** O `kubelet` é o agente executado em cada nó de trabalho (*Worker Node*) responsável por receber as especificações dos Pods (*PodSpecs*) a partir do `kube-apiserver` e assegurar que os contêineres descritos estejam em execução e saudáveis no nó.
+* **D)** O `kube-controller-manager` tem como responsabilidade exclusiva alocar endereços IP públicos nas placas de rede físicas dos servidores blade da instituição.
+* **E)** O `kube-proxy` roda unicamente no nó Master e impede que contêineres dentro do mesmo Pod consigam se comunicar via `localhost`.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O `etcd` é o banco de dados chave-valor distribuído que preserva o estado completo e as configurações do cluster K8s, operando em rede privada e sem qualquer exposição para o tráfego de usuários finais da internet.
+> - **B)** Incorreta. O **único** componente do cluster que possui autorização e capacidade de interagir diretamente com o banco de dados `etcd` é o **`kube-apiserver`**. Todos os outros componentes (incluindo o scheduler e os controllers) comunicam-se via API Server.
+> - **C)** Correta. O **`kubelet`** é o agente primário de cada nó de trabalho (*Worker Node*). Ele estabelece comunicação contínua com o `kube-apiserver`, recebe as especificações dos Pods (*PodSpecs*), comanda o runtime de contêineres via CRI para instanciar as cargas de trabalho e supervisiona a saúde das instâncias através das sondas (*probes*).
+> - **D)** Incorreta. O `kube-controller-manager` executa múltiplos loops de reconciliação contínua (como Node Controller e Deployment Controller) para manter o estado desejado do cluster, não gerenciando alocação física de IPs em blades.
+> - **E)** Incorreta. O `kube-proxy` opera em cada nó de trabalho gerenciando regras de rede de serviços, e contêineres do mesmo Pod comunicam-se nativamente via `localhost`.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 205
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O modelo operacional do Kubernetes é fundamentado no princípio do Loop de Reconciliação Contínua (*Reconciliation Loop*). Esse mecanismo arquitetural opera continuamente por meio da seguinte dinâmica:
+
+* **A)** O administrador digita comandos no terminal a cada dez segundos para manter os servidores ligados.
+* **B)** Os controladores (*controllers*) observam o estado atual do cluster (*current state*), comparam-no com o estado desejado (*desired state*) declarado nos manifestos de configuração e executam ações automatizadas de convergência para fazer com que o estado atual se iguale ao estado desejado.
+* **C)** O cluster apaga todos os bancos de dados caso a energia elétrica oscile.
+* **D)** O sistema interrompe todo o tráfego de rede caso detecte um Pod com consumo de memória inferior a 50%. garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
+* **E)** Os servidores são formatados diariamente para eliminar arquivos temporários.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O processo é 100% autônomo e contínuo.
+> - **B) Correta.** É o cerne da automação do Kubernetes: o usuário declara o estado desejado (ex: "desejo 5 réplicas do Pod X"). O controlador monitora a realidade: se um nó cai e sobram apenas 4 pods, o controlador detecta a discrepância e dispara a criação de um novo Pod imediatamente para restabelecer as 5 réplicas (*self-healing* declarativo).
+> - **C) Incorreta.** Kubernetes provê resiliência e alta disponibilidade.
+> - **D) Incorreta.** Comportamento inexistente.
+> - **E) Incorreta.** Afirmação absurda.
+>
+> **Gabarito: B**
+
+---
+
 ## 2. Workloads e Controladores: Qual Objeto Escolher?
 
 O Kubernetes não executa contêineres diretamente de forma isolada; ele os encapsula em abstrações funcionais denominadas *Workloads*.
@@ -190,6 +270,90 @@ Projetado para aplicações que demandam persistência de dados e ordenação es
 
 ---
 
+### Teste 206
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Para implantar e gerenciar aplicações sem estado (*stateless*) em clusters Kubernetes, o controlador de carga de trabalho recomendado como padrão na arquitetura é o **Deployment**. A relação estrutural entre um objeto *Deployment* e os objetos *ReplicaSets* e *Pods* sob sua gestão estabelece que:
+
+* **A)** O Deployment gerencia diretamente contêineres individuais sem a existência de Pods.
+* **B)** O Deployment gerencia versões de ReplicaSets (criando novos ReplicaSets durante atualizações de versão e mantendo os antigos para viabilizar *rollbacks* rápidos), e os ReplicaSets garantem a quantidade declarada de réplicas ativas dos Pods em execução.
+* **C)** O ReplicaSet comanda o Deployment em uma hierarquia invertida.
+* **D)** Cada Deployment só pode conter um único Pod no cluster inteiro.
+* **E)** O Deployment exige que a aplicação utilize armazenamento físico em disquetes de alta densidade. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A menor unidade gerenciável no Kubernetes é o Pod, nunca contêineres soltos.
+> - **B) Correta.** A hierarquia canônica de workloads *stateless*: **Deployment $\rightarrow$ ReplicaSet $\rightarrow$ Pods**. Ao atualizar a imagem de um Deployment, ele cria um novo ReplicaSet e migra as réplicas progressivamente (*RollingUpdate*), permitindo voltar à versão anterior (*rollback*) instantaneamente apenas reativando o ReplicaSet anterior.
+> - **C) Incorreta.** O Deployment situa-se acima do ReplicaSet.
+> - **D) Incorreta.** Suporta dezenas ou centenas de réplicas escaladas horizontalmente.
+> - **E) Incorreta.** Afirmação absurda.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 207
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Uma equipe de desenvolvimento da Secretaria da Fazenda precisa implantar três soluções distintas no cluster Kubernetes institucional:
+
+1. Uma API de consulta tributária sem estado (*stateless*), que deve permitir atualizações de versão sem parada de serviço (*rolling updates*) e escalabilidade horizontal automática.
+2. Um cluster de banco de dados distribuído que exige armazenamento persistente com discos dedicados e nomes de rede fixos e ordenados para cada réplica.
+3. Um agente de segurança e coleta de logs que deve ser executado obrigatoriamente com exatamente uma cópia em cada nó de trabalho do cluster.
+
+Os objetos e controladores do Kubernetes mais indicados para atender aos cenários 1, 2 e 3 são, respectivamente:  
+
+* **A)** `Deployment`; `StatefulSet`; e `DaemonSet`.
+* **B)** `StatefulSet`; `Deployment`; e `CronJob`.
+* **C)** `Job`; `ReplicaSet`; e `ConfigMap`.
+* **D)** `DaemonSet`; `Job`; e `StatefulSet`.
+* **E)** `Deployment`; `CronJob`; e `Ingress`.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. As três opções correspondem perfeitamente às definições da arquitetura K8s:
+>     - Cenário 1: Aplicações sem estado (*stateless*) com atualização sem parada (*RollingUpdate*) e escalabilidade horizontal são gerenciadas canonicamente por **`Deployments`**.
+>     - Cenário 2: Bancos de dados e sistemas com estado (*stateful*) que exigem discos persistentes dedicados e nomes estáveis com ordenação determinística (`pod-0`, `pod-1`) exigem o uso de **`StatefulSets`**.
+>     - Cenário 3: Agentes de coleta de logs, telemetria e segurança que precisam rodar com exatamente uma cópia em cada nó do cluster são orquestrados por **`DaemonSets`**.
+> - **B)** Incorreta. O StatefulSet é para o cenário 2 e o CronJob é para tarefas periódicas.
+> - **C)** Incorreta. Job é para tarefas pontuais de lote e ConfigMap é para injeção de configurações.
+> - **D)** Incorreta. A ordem dos controladores está incorreta para os cenários descritos.
+> - **E)** Incorreta. O Ingress é um recurso de rede/borda de Camada 7, não um controlador de execução de agentes em nós.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 208
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em um cluster Kubernetes corporativo, a equipe de operações necessita assegurar que exatamente uma cópia de um Pod de coleta de logs (como o Fluentd) e de um agente de monitoramento de infraestrutura execute em **todos** os nós de trabalho (*Worker Nodes*), inclusive sendo provisionado automaticamente em novos nós adicionados ao cluster. O objeto controlador do Kubernetes concebido especificamente para esse propósito é o:
+
+* **A)** *Job*
+* **B)** *StatefulSet*
+* **C)** *DaemonSet*
+* **D)** *ReplicaSet*
+* **E)** *CronJob*
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** *Job* executa tarefas em lote que finalizam após a conclusão com sucesso.
+> - **B) Incorreta.** *StatefulSet* gerencia cargas com estado e identificadores ordinais fixos.
+> - **C) Correta.** O **`DaemonSet`** garante que todos (ou alguns nós específicos) executem exatamente uma réplica do Pod. Quando novos nós entram no cluster, o DaemonSet aloca o Pod neles automaticamente; se um nó é removido, o Pod é destruído (padrão ideal para agentes de log, métricas e storage da infraestrutura).
+> - **D) Incorreta.** *ReplicaSet* distribui réplicas arbitrariamente pelo cluster conforme capacidade.
+> - **E) Incorreta.** *CronJob* executa Jobs periodicamente com base em agendamentos cron.
+>
+> **Gabarito: C**
+
+---
+
 ## 3. Serviços de Rede (Services) e Roteamento de Borda (Ingress)
 
 Como os Pods são efêmeros e seus IPs são dinâmicos e voláteis, sistemas corporativos exigem pontos de acesso estáveis para comunicação.
@@ -236,6 +400,56 @@ Enquanto criar múltiplos serviços do tipo `LoadBalancer` gera custos financeir
 
 - **Funcionalidades:** Roteamento baseado em nomes de domínio (*Virtual Hosting* baseado em SNI, ex.: `portal.tce.go.gov.br` vs `auditoria.tce.go.gov.br`), roteamento baseado em caminhos de URL (ex.: `/api/v1/auth` vs `/api/v1/certidoes`) e **terminação centralizada de criptografia TLS/SSL**.
 - **Ingress Controller:** O objeto `Ingress` é apenas um manifesto declarativo de regras. Ele exige a presença de um **Ingress Controller** ativo no cluster (como NGINX Ingress Controller, Traefik, HAProxy ou Kong) para interceptar o tráfego e aplicar o roteamento.
+
+---
+
+### Teste 209
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Os objetos do tipo *Service* no Kubernetes fornecem abstração de rede estável e balanceamento de carga para conjuntos dinâmicos de Pods. O tipo de *Service* padrão, que atribui um endereço IP virtual interno alcançável exclusivamente dentro dos limites do cluster, denomina-se:
+
+* **A)** `NodePort`
+* **B)** `ClusterIP`
+* **C)** `LoadBalancer`
+* **D)** `ExternalName`
+* **E)** `IngressController`
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** `NodePort` expõe o serviço em uma porta estática (faixa 30000-32767) em cada nó do cluster para acesso externo.
+> - **B) Correta.** O **`ClusterIP`** é o tipo padrão (*default*): aloca um IP virtual estável roteável apenas internamente na rede do cluster, perfeito para comunicação interna entre microsserviços (ex: backend acessando o banco de dados).
+> - **C) Incorreta.** `LoadBalancer` provisiona um balanceador de carga público externo gerenciado pelo provedor de nuvem (GCP, AWS, Azure).
+> - **D) Incorreta.** `ExternalName` mapeia o Service para um registro CNAME DNS externo.
+> - **E) Incorreta.** Ingress Controller é um controlador de roteamento de borda (L7), não um tipo de Service.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 210
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No Kubernetes, o mecanismo de abstração que permite agrupar um conjunto de Pods sob um mesmo endereço IP estável e balancear o tráfego de rede entre eles, bem como o componente responsável por receber tráfego HTTP/HTTPS externo e roteá-lo com base no nome do domínio e no caminho da URL para múltiplos serviços internos, são denominados, respectivamente:  
+
+* **A)** `ConfigMap` e `kubelet`.
+* **B)** `Service` e `Ingress`.
+* **C)** `Namespace` e `etcd`.
+* **D)** `PersistentVolumeClaim` e `kube-proxy`.
+* **E)** `DaemonSet` e `ReplicaSet`.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. `ConfigMap` provê injeção de parâmetros em texto claro e o `kubelet` gerencia contêineres nos nós.
+> - **B)** Correta. O **`Service`** atua como uma abstração lógica que fornece um endereço IP estável e balanceia conexões entre réplicas de Pods selecionadas por labels. Já o **`Ingress`** opera na Camada 7 (HTTP/HTTPS), gerenciando o tráfego de borda externo, viabilizando roteamento por nomes de host (domínios virtuais), caminhos de requisição e terminação segura de certificados TLS/SSL.
+> - **C)** Incorreta. `Namespace` é partição lógica interna e `etcd` é o armazenamento distribuído do cluster.
+> - **D)** Incorreta. `PersistentVolumeClaim` lida com alocação de armazenamento em disco persistente.
+> - **E)** Incorreta. Trata-se de controladores de cargas de trabalho, e não de componentes de rede e roteamento de borda.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -292,6 +506,33 @@ flowchart TD
 
 ---
 
+### Teste 211
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere uma aplicação Java rodando em um contêiner no Kubernetes que, devido a um vazamento severo de conexões com o banco de dados, parou completamente de responder às requisições da rede e entrou em estado de deadlock irrecuperável. No manifesto de implantação da aplicação, foram configuradas sondas do tipo `livenessProbe` e `readinessProbe`.
+
+Diante da falha contínua da verificação realizada pela sonda `livenessProbe`, a ação executada pelo agente `kubelet` será:  
+
+* **A)** Ignorar a falha, registrando apenas uma linha de advertência no arquivo de log do sistema hospedeiro.
+* **B)** Enviar uma requisição para a AWS solicitando a compra de mais memória física para o cluster.
+* **C)** Encerrar o contêiner em falha e reiniciá-lo automaticamente, buscando restaurar a operacionalidade da aplicação.
+* **D)** Manter o contêiner em execução e apenas remover temporariamente seu endereço IP da lista de Endpoints do Service, sem efetuar o reinício do processo.
+* **E)** Desinstalar o sistema operacional Linux do nó de trabalho e formatar o disco rígido principal.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O mecanismo de resiliência (*self-healing*) do Kubernetes não permite que o kubelet ignore falhas contínuas de sondas de sobrevivência.
+> - **B)** Incorreta. Probes em contêineres individuais não acionam compras ou provisionamento financeiro de recursos em nuvem pública.
+> - **C)** Correta. A finalidade precípua da **`livenessProbe`** é identificar se a aplicação travou irrecuperavelmente. Caso a sonda falhe pelo limite consecutivo configurado (*failureThreshold*), o agente `kubelet` encerra o contêiner (sinal `SIGTERM`/`SIGKILL`) e **reinicia-o compulsoriamente** com base na política de reinício do Pod (*restartPolicy*), restaurando o serviço.
+> - **D)** Incorreta. A ação de apenas remover o Pod da lista de Endpoints do Service sem reiniciar o contêiner é a consequência exclusiva da falha na **`readinessProbe`**, e não na `livenessProbe`.
+> - **E)** Incorreta. Ação absurda e destrutiva sem qualquer fundamento técnico.
+> 
+> **Gabarito: C**
+
+---
+
 ## 5. Governança, Armazenamento e Segregação de Ambientes
 
 ### 5.1 ConfigMaps e Secrets: Injeção Desacoplada de Configurações
@@ -325,6 +566,56 @@ A gestão profissional de múltiplos ambientes (Desenvolvimento, Homologação/S
 2. **Modelos de Isolamento Multi-Ambiente:**
     - **Soft Multi-Tenancy (Namespaces Compartilhados no mesmo Cluster):** Ambientes separados logicamente por `Namespaces` dentro de um único cluster. Exige o uso obrigatório de **`ResourceQuota`** (para limitar o teto de CPU e RAM de desenvolvimento e evitar que testes sobrecarreguem a produção), **`LimitRange`** e **`NetworkPolicies`** (regras de firewall interno impedindo comunicação entre namespaces).
     - **Hard Multi-Tenancy (Clusters Físicos Dedicados):** Padrão recomendado para órgãos do setor público como o TCE-GO. Mantêm-se clusters fisicamente isolados para Produção e Não-Produção, eliminando qualquer risco de contaminação cruzada, vazamento de dados fiscais ou exaustão de plano de controle.
+
+---
+
+### Teste 212
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em conformidade com a metodologia dos Doze Fatores (*Twelve-Factor App*), a configuração de uma aplicação deve ser estritamente separada do código-fonte. No Kubernetes, essa segregação é implementada por meio de dois objetos nativos: *ConfigMaps* e *Secrets*. A diferença fundamental de propósito entre eles estabelece que:
+
+* **A)** *ConfigMaps* armazenam dados confidenciais criptografados, enquanto *Secrets* guardam arquivos de imagem públicos sem restrição.
+* **B)** *ConfigMaps* destinam-se a dados de configuração não confidenciais em texto claro (como URLs de endpoints, portas e flags de log), ao passo que *Secrets* são concebidos para armazenar dados confidenciais e credenciais sensíveis (como senhas, chaves de API, tokens e certificados TLS), codificados em Base64 ou protegidos por criptografia em repouso no `etcd`.
+* **C)** *Secrets* não podem ser montados como variáveis de ambiente nos Pods.
+* **D)** Ambos os objetos são deletados obrigatoriamente a cada 5 minutos pelo Kubernetes.
+* **E)** *ConfigMaps* só aceitam configurações escritas em linguagem Pascal.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Relação de confidencialidade invertida.
+> - **B) Correta.** Definição arquitetural exata: **ConfigMaps** para configurações gerais legíveis; **Secrets** para credenciais sensíveis que demandam controle de acesso via RBAC, auditoria de acesso e encriptação no etcd. Ambos podem ser injetados em Pods como variáveis de ambiente ou montados como arquivos em volumes.
+> - **C) Incorreta.** Secrets podem ser injetados perfeitamente como variáveis de ambiente via `secretKeyRef` ou `envFrom`.
+> - **D) Incorreta.** São objetos persistentes estáveis.
+> - **E) Incorreta.** Dados são armazenados como pares chave-valor universais.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 213
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em um órgão público, os ambientes de Desenvolvimento, Homologação e Produção compartilham a infraestrutura de computação. Para garantir a governança e o isolamento operacional desses ambientes de acordo com as boas práticas do Kubernetes e da metodologia dos Doze Fatores (*Twelve-Factor App*), a equipe técnica deve:  
+
+* **A)** Utilizar `Namespaces` distintos combinados com `ResourceQuotas` para impor limites máximos de consumo de CPU e memória em cada ambiente, associando segredos e credenciais via objetos `Secret` e configurações não sensíveis via `ConfigMap`.
+* **B)** Gravar senhas de bancos de dados diretamente em texto claro dentro do código-fonte da aplicação para evitar o overhead de processamento do K8s.
+* **C)** Conceder permissões de administrador de cluster (*cluster-admin*) irrestritas a todos os estagiários nos ambientes de homologação e produção.
+* **D)** Utilizar a estratégia de deploy *Recreate* em produção durante o horário de pico de atendimento ao cidadão para forçar o desligamento dos servidores.
+* **E)** Armazenar os dados transacionais de bancos de dados exclusivamente na camada efêmera do Pod, proibindo o uso de `PersistentVolumes` (PV) e `PersistentVolumeClaims` (PVC).
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O particionamento lógico em **`Namespaces`** associado a cotas estritas de recursos (**`ResourceQuota`**) impede que o ambiente de desenvolvimento monopolize os recursos de CPU e memória do cluster. Além disso, a segregação de configurações em **`ConfigMaps`** e credenciais confidenciais em **`Secrets`** materializa o Fator III (*Config*) do Twelve-Factor App, garantindo que a mesma imagem de contêiner imutável seja promovida entre os ambientes sem risco de exposição de dados.
+> - **B)** Incorreta. Manter senhas no código-fonte viola os mais fundamentais princípios de segurança da informação e governança.
+> - **C)** Incorreta. Distribuir privilégios irrestritos de *cluster-admin* contraria abertamente o Princípio do Menor Privilégio (*PoLP*) e as normas de controle de acesso RBAC.
+> - **D)** Incorreta. A estratégia de publicação *Recreate* causa indisponibilidade forçada (*downtime*) e não deve ser utilizada em horários de pico operacional de produção.
+> - **E)** Incorreta. Armazenar dados em camadas efêmeras provocaria perda catastrófica e definitiva de informações a cada reinicialização de Pods de banco de dados.
+> 
+> **Gabarito: A**
 
 ---
 

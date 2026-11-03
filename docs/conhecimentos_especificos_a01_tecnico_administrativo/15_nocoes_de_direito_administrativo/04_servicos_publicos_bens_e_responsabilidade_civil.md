@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `04_servicos_publicos_bens_e_responsabilidade_civil.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Responsabilidade civil do Estado: evolução histórica, fundamentos e modalidades
@@ -135,54 +138,90 @@ O Supremo Tribunal Federal, ao julgar o RE 1.027.633 sob a sistemática da reper
 
 ---
 
-### Teste 001
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
-Na qualidade de servidora pública ocupante do cargo de analista do Tribunal de Justiça do Estado do Amapá, Marieva foi questionada acerca de qual teoria foi adotada para responsabilidade civil do Estado pela conduta dos respectivos agentes públicos, à luz do disposto no Art. 37, §6º, da Constituição da República de 1988 e as peculiaridades decorrentes de tal orientação. Nesse contexto, considerando o entendimento do Supremo Tribunal Federal acerca da matéria, Marieva respondeu, corretamente, que se tratava da:
+### Teste 034
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Motorista de ambulância pertencente à Secretaria de Saúde de determinado Estado da Federação, ao conduzir o veículo oficial em velocidade compatível durante o transporte regular de paciente, colidiu contra o automóvel de um particular que avançou o sinal vermelho de um cruzamento. Diante dos danos materiais causados ao particular:
 
-* **A)** teoria do risco administrativo, que consagra a responsabilidade subjetiva do Estado e não admite excludentes do nexo de causalidade;
-* **B)** teoria do risco integral, que consagra a responsabilidade objetiva do Estado e não admite excludentes do nexo de causalidade;
-* **C)** teoria da culpa administrativa, que consagra a responsabilidade subjetiva do Estado e não admite excludentes do nexo de causalidade;
-* **D)** teoria do risco administrativo, que consagra a responsabilidade objetiva do Estado e admite excludentes do nexo de causalidade;
-* **E)** teoria do risco integral, que consagra a responsabilidade subjetiva do Estado e admite excludentes do nexo de causalidade.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "teoria do risco administrativo, que consagra a responsabilidade subjetiva do Estado e não admite excludentes do...". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, causas Excludentes do Nexo de Causalidade (Afastam 100% da Indenização).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "teoria do risco integral, que consagra a responsabilidade objetiva do Estado e não admite excludentes do nexo de...". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, causas Atenuantes do Nexo de Causalidade.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "teoria da culpa administrativa, que consagra a responsabilidade subjetiva do Estado e não admite excludentes do...". De acordo com a teoria estudada em *1.1 Evolução Histórica da Responsabilidade Estatal*, teoria Objetiva do Risco Administrativo: Consagrada pelo Direito Constitucional contemporâneo, dispensa integralmente a comprovação de dolo ou culpa estatal, fundando se na causalidade material e na solidariedade social perante os riscos criados pela atividade administrativa.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes* deste guia, o ordenamento jurídico brasileiro adota como regra geral a Teoria do Risco Administrativo. Essa teoria baseia se na ideia de que a atividade estatal gera riscos inerentes para a coletividade, devendo o poder público arcar com os prejuízos decorrentes. Todavia, NÃO se trata de responsabilidade absoluta, admitindo se a ruptura ou atenuação do nexo causal nas seguintes hipóteses. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "teoria do risco administrativo, que consagra a responsabilidade objetiva do Estado e admite excludentes do nexo de...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "teoria do risco integral, que consagra a responsabilidade subjetiva do Estado e admite excludentes do nexo de...". De acordo com a teoria estudada em *1.2 O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva*, dEF REQ["RESPONSABILIDADE OBJETIVA (CF, art. 37, § 6º)<br/ Requisitos Obrigatórios:<br/ 1. Conduta Estatal Oficial<br/ 2. Dano Concreto / Efetivo<br/ 3. Nexo de Causalidade Direto"].
->
-> **Gabarito: D**
-
----
-
-### Teste 002
-**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
-Josélia decidiu aprofundar os seus conhecimentos com relação à orientação do Supremo Tribunal Federal acerca da responsabilidade civil do Estado, à luz do disposto no Art. 37, §6º, da CRFB/1988, vindo a concluir corretamente que:
-
-* **A)** no caso atinente a morte por disparo de arma de fogo em decorrência de operação policial, a responsabilidade civil do Estado é fundada na teoria do risco integral;
-* **B)** o direito de regresso em relação ao agente público causador do dano em sede de responsabilidade civil é imprescritível, por se tratar de ressarcimento ao erário;
-* **C)** não é cabível o reconhecimento de causas excludentes da responsabilidade civil, diante da previsão constitucional;
-* **D)** o agente causador do dano não tem legitimidade para constar do polo passivo da ação judicial que visa à responsabilização civil do Estado;
-* **E)** tanto o Estado quanto o agente causador do dano respondem objetivamente pelos danos por este causados no exercício de suas atribuições.
+* **A)** O Estado responde de forma objetiva fundada no risco integral, sendo irrelevante a conduta culposa do terceiro.
+* **B)** A culpa exclusiva da vítima ou de terceiro elide o nexo causal, afastando o dever de indenizar do Estado.
+* **C)** O particular prejudicado deve ajuizar a ação indenizatória diretamente em face do servidor público condutor.
+* **D)** A responsabilidade civil do ente público condiciona-se à prévia instauração de sindicância de trânsito.
+* **E)** O Estado responde subjetivamente por danos no trânsito, cabendo ao particular lesado provar dolo do agente.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "no caso atinente a morte por disparo de arma de fogo em decorrência de operação policial, a responsabilidade civil...". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, fato Exclusivo de Terceiro: Dano provocado exclusivamente por ação autônoma e imprevisível de outrem sem qualquer concurso da conduta estatal (ex.: assalto à mão armada ocorrido dentro de um ônibus coletivo com disparo de arma de fogo deflagrado pelo criminoso).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o direito de regresso em relação ao agente público causador do dano em sede de responsabilidade civil é...". De acordo com a teoria estudada em *A Teoria da Dupla Garantia:*, regime da Ação Regressiva: O Estado, após ser definitivamente condenado e efetuar o pagamento da indenização à vítima, tem o dever de ajuizar ação regressiva contra o servidor causador do dano. No âmbito da ação de regresso, a responsabilidade do servidor é SUBJETIVA, dependendo da comprovação cabal de que ele agiu com dolo ou culpa (negligência, imprudência ou imperícia).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é cabível o reconhecimento de causas excludentes da responsabilidade civil, diante da previsão constitucional". De acordo com a teoria estudada em *A Teoria da Dupla Garantia:*, segunda Garantia (Ao Agente Público): Protege o servidor contra ações temerárias de administrados inconformados, assegurando lhe que jamais poderá ser réu direto na ação proposta pela vítima, nem compor litisconsórcio passivo originário com o Estado.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)* deste guia, "A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.". Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "o agente causador do dano não tem legitimidade para constar do polo passivo da ação judicial que visa à...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tanto o Estado quanto o agente causador do dano respondem objetivamente pelos danos por este causados no exercício...". De acordo com a teoria estudada em *1. Responsabilidade Civil Extracontratual do Estado*, a responsabilidade civil extracontratual da Administração Pública consiste na obrigação jurídica que recai sobre o Estado de reparar os danos materiais, morais e estéticos causados a particulares por condutas comissivas ou omissivas de seus agentes públicos no exercício de suas atribuições ou a pretexto de exercê las.
+> - **A)** **Incorreto**. A regra geral da responsabilidade civil extracontratual do Estado no Brasil é a Teoria do Risco Administrativo (art. 37, § 6º da CF/88), a qual admite excludentes do nexo causal (como culpa exclusiva da vítima, caso fortuito e força maior). A Teoria do Risco Integral é excepcionalíssima.
+> - **B)** **Correto**. Sob a égide da Teoria do Risco Administrativo, a comprovação de que o dano adveio de culpa exclusiva da vítima (ao avançar o semáforo vermelho) ou de fato exclusivo de terceiro rompe o liame de causalidade entre a conduta administrativa e o resultado lesivo, eximindo o Poder Público do dever reparatório.
+> - **C)** **Incorreto**. Pelo Tema nº 940 do STF (Teoria da Dupla Garantia), a ação de indenização deve ser proposta unicamente contra a pessoa jurídica de direito público, vedado o litisconsórcio passivo com o agente.
+> - **D)** **Incorreto**. A tutela judicial independe de apuração administrativa prévia (art. 5º, XXXV da CF/88).
+> - **E)** **Incorreto**. A responsabilidade do Estado por condutas comissivas de seus agentes públicos é estritamente objetiva.
 >
-> **Gabarito: D**
+> **Gabarito: B**
+### Teste 035
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No estudo da Responsabilidade Civil Extracontratual do Estado, a doutrina e a jurisprudência distinguem a Teoria do Risco Administrativo da Teoria do Risco Integral. A respeito das hipóteses em que o ordenamento jurídico pátrio adota excepcionalmente a Teoria do Risco Integral (em que o Estado responde sem possibilidade de alegar excludentes de culpabilidade da vítima ou força maior), assinale a opção que indica caso regido por essa teoria:
+
+* **A)** Danos decorrentes de acidentes automobilísticos com viaturas policiais em perseguição de fugitivos.
+* **B)** Danos causados por desabamento de pontes e encostas provocados por chuvas torrenciais imprevisíveis.
+* **C)** Danos decorrentes de atividade ou acidente nuclear e danos causados por poluição ambiental grave.
+* **D)** Danos oriundos de assalto à mão armada ocorrido no interior de agência de sociedade de economia mista.
+* **E)** Danos causados por fuga de detento de presídio estadual dias após ter escapado do estabelecimento penal.
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreto**. Acidentes com viaturas policiais submetem-se à Teoria do Risco Administrativo comum (art. 37, § 6º da CF/88), admitindo comprovação de culpa exclusiva da vítima ou de terceiro.
+> - **B)** **Incorreto**. Força maior e eventos climáticos extraordinários rompem o nexo causal no risco administrativo geral.
+> - **C)** **Correto**. No ordenamento jurídico brasileiro, a Teoria do Risco Integral é hipótese excepcionalíssima e taxativa que veda qualquer excludente de nexo causal, aplicando-se prioritariamente a: 1) danos nucleares (art. 21, XXIII, "d" da CF/88); 2) danos ambientais graves (art. 225, § 3º da CF/88 e Lei nº 6.938/1981); e 3) atentados terroristas contra aeronaves brasileiras (Lei nº 10.744/2003).
+> - **D)** **Incorreto**. Assalto em agência de estatal consubstancia fato de terceiro sem risco integral.
+> - **E)** **Incorreto**. O STF fixou no Tema nº 362 que a responsabilidade por ato de foragido exige nexo direto com o momento da fuga; decorridos dias ou meses, não há responsabilidade do Estado.
+>
+> **Gabarito: C**
+### Teste 036
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Durante o período noturno de custódia em estabelecimento prisional estadual administrado pela Secretaria de Administração Penitenciária, um detento foi assassinado por companheiros de cela com instrumentos perfurantes artesanais. À luz do art. 5º, XLIX, da Constituição Federal e da jurisprudência vinculante do Supremo Tribunal Federal (Tema nº 592 de Repercussão Geral):
+
+* **A)** O Estado responde de forma puramente subjetiva, exigindo dos herdeiros prova cabal de dolo dos policiais penais.
+* **B)** A responsabilidade estatal é afastada sumariamente caso o preso assassinado contasse com histórico de rebeldia.
+* **C)** O Estado responde objetivamente pela morte de detento, salvo se provar que a morte decorreu de ato inoponível.
+* **D)** A indenização civil por morte de custodiado condiciona-se à prévia condenação criminal dos executores do homicídio.
+* **E)** O dever de indenizar é de responsabilidade subsidiária da empresa privada prestadora de segurança ao presídio.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreto**. A custódia prisional atrai responsabilidade civil objetiva por violação ao dever específico de proteção (art. 5º, XLIX da CF/88), não se aplicando a teoria subjetiva da culpa anônima comum.
+> - **B)** **Incorreto**. A conduta prévia do preso não exime o Poder Público do dever inafastável de zelar por sua integridade física.
+> - **C)** **Correto**. Tese Vinculante do Tema nº 592 do STF: "Em caso de inobservância do seu dever específico de proteção previsto no art. 5º, inciso XLIX, da Constituição Federal, o Estado responde de forma objetiva pela morte de detento. Essa responsabilidade só pode ser afastada quando o Estado demonstrar a quebra do nexo causal, isto é, que a morte não poderia ter sido evitada mesmo com a adoção de todas as cautelas de segurança legalmente exigíveis".
+> - **D)** **Incorreto**. A esfera cível indenizatória é independente da persecução penal contra os homicidas.
+> - **E)** **Incorreto**. A segurança penitenciária é função de polícia indelegável e de titularidade do Estado.
+>
+> **Gabarito: C**
+### Teste 037
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Uma viatura oficial pertencente ao Tribunal de Contas, conduzida por servidor público efetivo em missão institucional, abalroou veículo de particular por negligência do agente ao não respeitar a preferência em rotatória. De acordo com o art. 37, § 6º, da CF/88 e a jurisprudência pacificada pelo Supremo Tribunal Federal no Tema nº 940:
+
+* **A)** O particular pode optar por propor a demanda indenizatória unicamente contra o servidor público condutor.
+* **B)** A ação indenizatória deve ser proposta exclusivamente contra o Estado, que dispõe de ação regressiva por dolo ou culpa.
+* **C)** O servidor condutor e o Poder Público estadual devem integrar obrigatoriamente litisconsórcio passivo necessário.
+* **D)** A reparação civil pelo Tribunal de Contas depende do trânsito em julgado de processo disciplinar administrativo.
+* **E)** A ação regressiva da Fazenda Pública prescreve em dois anos contados da data da ocorrência do sinistro viário.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreto**. O particular não detém a faculdade de processar diretamente o agente público.
+> - **B)** **Correto**. Tese de Repercussão Geral do Tema nº 940 do STF (Teoria da Dupla Garantia): "A teor do disposto no art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para a ação o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa". A dupla garantia protege o particular (certeza de pagamento pelo erário) e o agente (não ser acionado diretamente por terceiros no exercício funcional).
+> - **C)** **Incorreto**. O STF fixou a ilegitimidade passiva do servidor público para figurar no polo passivo da ação indenizatória ordinária.
+> - **D)** **Incorreto**. A obrigação de indenizar do Estado independe da apuração funcional interna do agente.
+> - **E)** **Incorreto**. O direito de regresso rege-se pelas normas de ressarcimento ao erário após o pagamento judicial efetivo.
+>
+> **Gabarito: B**
 ## 2. Regime Jurídico dos Serviços Públicos e sua Delegação
 
 ### 2.1 Princípios do Serviço Público Adequado
@@ -242,576 +281,90 @@ As Parcerias Público-Privadas constituem concessões especiais destinadas a via
 
 ---
 
-### Teste 003
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-As parcerias público-privadas (PPPs) constituem estratégia governamental destinada a viabilizar empreendimentos e serviços públicos por meio da articulação entre a Administração Pública e o setor privado, apresentando potencial para superar limitações estruturais do setor estatal. A respeito das vantagens das PPPs para a Administração Pública, analise as afirmativas a seguir. I. Viabilizam empreendimentos que, sob a ótica estritamente financeira, não seriam sustentáveis apenas com a cobrança de tarifa dos usuários, ao admitir contraprestação do parceiro público ao parceiro privado. II. Geram complementaridade às capacidades e aos recursos do governo, mediante a aprendizagem de novas habilidades, o acesso a ferramentas de gestão da informação e o desenvolvimento de capacidade gerencial. III. Devem ser concebidas pelos gestores como mecanismo de viabilização de aportes financeiros privados, dispensando a busca de eficiência no uso de recursos públicos. Está correto o que se afirma em
+### Teste 038
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Sobre os princípios que informam a prestação de serviços públicos previstos na Lei Federal nº 8.987/1995 e na doutrina administrativista contemporânea, assinale a opção correta:
 
-* **A)** I, II e III.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, apenas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens Dominicais ou Dominicais (Art. 99, III): Bens que constituem o patrimônio disponível do Estado sem destinação pública específica ou aplicação administrativa direta (terras devolutas, prédios públicos desativados, títulos da dívida pública, bens desapropriados e não afetados).
-> - **B)** **Correta.** Conforme fundamentado na seção *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)* deste guia, concessão Patrocinada (Art. 2º, § 1º): É a concessão de serviços públicos ou obras públicas em que a remuneração da concessionária envolve a combinação de tarifa paga pelos usuários mais uma contraprestação pecuniária complementar paga pelo parceiro público. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "I e II, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, as Parcerias Público Privadas constituem concessões especiais destinadas a viabilizar investimentos vultosos de infraestrutura em colaboração com o capital privado.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Administrativa (Art. 2º, § 2º): É o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é 100% custeada pelo erário, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens de Uso Comum do Povo (Art. 99, I): Destinados ao uso franqueado e indistinto de toda a coletividade (mares, rios, estradas, ruas, praças, praias). Podem ser utilizados gratuitamente ou mediante cobrança de tarifa/pedágio autorizada por lei.
->
-> **Gabarito: B**
-
----
-
-### Teste 004
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-Na Administração Pública federal direta, autárquica e fundacional, a terceirização é disciplinada pelo Decreto nº 9.507/2018, que enumera, em seu art. 3º, hipóteses em que se veda a execução indireta de serviços, em razão da natureza nuclear ou indelegável das atividades envolvidas. Dentre as hipóteses em que o Decreto nº 9.507/2018 veda a execução indireta de serviços na Administração Pública federal direta, autárquica e fundacional, encontra-se a contratação de serviços de
-
-* **A)** conservação, limpeza e copeiragem.
-* **B)** recepção e telecomunicações.
-* **C)** manutenção predial e de equipamentos.
-* **D)** regulação e outorga de serviços públicos.
-* **E)** transporte de cargas e de passageiros.
+* **A)** A continuidade veda em absoluto a interrupção do serviço, mesmo após aviso prévio por inadimplemento de fatura de água.
+* **B)** A modicidade tarifária impõe gratuidade universal aos serviços públicos, arcando o erário com o custo operacional total.
+* **C)** A mutabilidade do regime autoriza a adequação contínua do serviço às novas exigências técnicas e necessidades sociais.
+* **D)** A generalidade impede a concessão de tarifas sociais diferenciadas para atender famílias de comprovada baixa renda.
+* **E)** A atualidade restringe o emprego de tecnologias modernas para salvaguardar a estabilidade dos contratos concedidos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "conservação, limpeza e copeiragem". De acordo com a teoria estudada em *4. Fontes Recomendadas na Internet*, normas gerais sobre participação, proteção e defesa dos direitos do usuário dos serviços públicos da administração direta e indireta.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "recepção e telecomunicações". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens de Uso Especial (Art. 99, II): Destinados à execução direta dos serviços públicos e ao funcionamento da máquina administrativa (edifícios de fóruns e tribunais, escolas públicas, hospitais estatais, viaturas policiais, quartéis).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "manutenção predial e de equipamentos". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, contratos que tenham por objeto único o fornecimento de mão de obra, a mera locação de equipamentos ou a execução isolada de obra pública sem prestação continuada de serviços.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)* deste guia, concessão Administrativa (Art. 2º, § 2º): É o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é 100% custeada pelo erário, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "regulação e outorga de serviços públicos".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "transporte de cargas e de passageiros". De acordo com a teoria estudada em *1.2 O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva*, "Art. 37, § 6º. As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.".
->
-> **Gabarito: D**
-
----
-
-### Teste 005
-**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
-Considere as situações abaixo descritas, relativamente a juízo da responsabilização disciplinar daqueles que atividades desempenhadas por servidores públicos do tenham com ele concorrido. Estado de Goiás, no exercício de suas funções: _________________________________________________________ 46. No exercício de seu poder regulamentar, o Chefe do Po- I. deixar, injustificadamente, de arrecadar tributos a der Executivo pode expedir, relativamente a todas as seu cargo. matérias de sua competência, regulamentos II. empregar meio vexatório na cobrança de tributo ou
-
-* **A)** I, apenas. decretos por ele expedidos.
-* **B)** II, apenas. ção de serviços públicos. _________________________________________________________
-* **C)** III, apenas.
-* **D)** de execução, destinados a dar fiel cumprimento aos
-* **E)** independentes, destinados a regulamentar a presta-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas. decretos por ele expedidos". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens de Uso Especial (Art. 99, II): Destinados à execução direta dos serviços públicos e ao funcionamento da máquina administrativa (edifícios de fóruns e tribunais, escolas públicas, hospitais estatais, viaturas policiais, quartéis).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas. ção de serviços públicos". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Administrativa (Art. 2º, § 2º): É o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é 100% custeada pelo erário, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens Dominicais ou Dominicais (Art. 99, III): Bens que constituem o patrimônio disponível do Estado sem destinação pública específica ou aplicação administrativa direta (terras devolutas, prédios públicos desativados, títulos da dívida pública, bens desapropriados e não afetados).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de execução, destinados a dar fiel cumprimento aos". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, contratos que tenham por objeto único o fornecimento de mão de obra, a mera locação de equipamentos ou a execução isolada de obra pública sem prestação continuada de serviços.
-> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)* deste guia, bens de Uso Comum do Povo (Art. 99, I): Destinados ao uso franqueado e indistinto de toda a coletividade (mares, rios, estradas, ruas, praças, praias). Podem ser utilizados gratuitamente ou mediante cobrança de tarifa/pedágio autorizada por lei. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "independentes, destinados a regulamentar a presta".
->
-> **Gabarito: E**
-
----
-
-### Teste 006
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Jurídica)**
-Em julgamento ocorrido no final do ano de 2022, em sede de controle concentrado de constitucionalidade, o STF analisou o denominado “orçamento secreto”. Com relação ao tema e considerando o julgamento do STF, assinale a afirmativa correta.
-
-* **A)** O orçamento secreto observa os postulados da publicidade e transparência através da disponibilização nos sites oficiais do Governo Federal das informações sobre a execução orçamentaria das emendas do relator.
-* **B)** Trata-se de um regime em que vincula o autor da emenda ao beneficiário da despesa, tornando verificáveis a origem e destinação do dinheiro gasto por meio do cruzamento das informações publicadas, sendo, portanto, constitucional.
-* **C)** O orçamento secreto oculta os efetivos requerentes da despesa, por meio da utilização de rubrica orçamentária única, na qual todas as despesas previstas são atribuídas à pessoa do relator-geral do orçamento.
-* **D)** O orçamento secreto deve destinar obrigatoriamente as despesas para ações e serviços públicos de saúde e de assistência social, e oculta os valores individualizados das emendas do relator.
-* **E)** As emendas parlamentares ao orçamento secreto possuem autorização constitucional e objetivam viabilizar a participação ativa dos Deputados Federais e Senadores na elaboração da peça orçamentária.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O orçamento secreto observa os postulados da publicidade e transparência através da disponibilização nos sites...". De acordo com a teoria estudada em *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)*, o Supremo Tribunal Federal, ao julgar o RE 1.027.633 sob a sistemática da repercussão geral (Tema 940), pacificou a controvérsia sobre a legitimidade passiva nas ações indenizatórias fundamentadas no art. 37, § 6º, da CF/88.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Trata se de um regime em que vincula o autor da emenda ao beneficiário da despesa, tornando verificáveis a origem...". De acordo com a teoria estudada em *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)*, "A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.".
-> - **C)** **Correta.** Conforme fundamentado na seção *1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica* deste guia, omissão Específica (Responsabilidade Objetiva Tema 592/STF): Ocorre quando o Estado atua na posição de garante, detendo a pessoa ou a coisa sob sua imediata custódia física institucional (ex.: morte ou lesão corporal de detento em estabelecimento penitenciário; acidente com criança no interior de escola pública municipal; suicídio de paciente internado em hospital psiquiátrico público). A responsabilidade é OBJETIVA; o Estado só se exonera se comprovar que a morte ou o dano decorreu de causa natural ou que o evento era faticamente inevitável mesmo com o cumprimento de todos os protocolos regulares de vigilância. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "O orçamento secreto oculta os efetivos requerentes da despesa, por meio da utilização de rubrica orçamentária...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O orçamento secreto deve destinar obrigatoriamente as despesas para ações e serviços públicos de saúde e de...". De acordo com a teoria estudada em *1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica*, omissão Genérica (Responsabilidade Subjetiva): O Estado descumpre seu dever genérico de proteção da ordem social (ex.: furto de veículo particular estacionado em via pública comum; alagamento pontual em chuva sazonal). A vítima deve provar a ocorrência de culpa anônima do serviço ( faute du service ), demonstrando que o poder público foi negligente diante de um dever exigível.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As emendas parlamentares ao orçamento secreto possuem autorização constitucional e objetivam viabilizar a...". De acordo com a teoria estudada em *4. Fontes Recomendadas na Internet*, sTF Tema 940 de Repercussão Geral (Teoria da Dupla Garantia na Responsabilidade Civil).
+> - **A)** **Incorreto**. O art. 6º, § 3º, II da Lei nº 8.987/1995 autoriza a interrupção temporária do serviço público após prévio aviso formal decorrente de inadimplemento do usuário, sem violação à continuidade.
+> - **B)** **Incorreto**. A modicidade tarifária preconiza tarifas justas e acessíveis para manter o equilíbrio econômico-financeiro da concessão, não exigindo gratuidade irrestrita.
+> - **C)** **Correto**. O princípio da mutabilidade do regime jurídico (ou da flexibilidade) permite à Administração alterar unilateralmente cláusulas regulamentares da prestação para assegurar a evolução das técnicas, a modernização dos equipamentos e o atendimento eficiente às demandas mutáveis da sociedade (art. 6º, § 2º da Lei nº 8.987/1995).
+> - **D)** **Incorreto**. O princípio da generalidade (ou cortesia) não impede a fixação de tarifas sociais subsidiadas para consumidores carentes.
+> - **E)** **Incorreto**. O princípio da atualidade impõe a modernidade das técnicas, equipamentos e instalações.
 >
 > **Gabarito: C**
+### Teste 039
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito dos regimes de delegação de serviços públicos previstos na Lei Federal nº 8.987/1995, assinale a afirmativa que apresenta distinção correta entre concessão comum e permissão de serviço público:
 
----
-
-### Teste 007
-**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
-Em decorrência da recente experiência do Estado na prestação de serviços públicos digitais, associada tanto a características do setor público quanto a entraves legislativos, a administração pública substituiu a lógica de prestação de serviços digitais centrada no usuário, consagrada no setor privado, pela lógica burocrática do serviço público voltada essencialmente à efetividade junto aos cidadãos. De acordo com o CIS Controls, julgue os próximos itens.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em decorrência da recente experiência do Estado na prestação de serviços públicos digitais, associada tanto a...". De acordo com a teoria em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Administrativa (Art. 2º, § 2º): É o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é 100% custeada pelo erário, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
-
----
-
-### Teste 008
-**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
-A Administração Pública, como organização formal moderna, apresenta características básicas como divisão do trabalho, hierarquia funcional, formalização de regras, impessoalidade e busca pela eficiência na prestação dos serviços públicos. Assinale a opção que apresenta, corretamente, uma característica das organizações formais modernas no âmbito da Administração Pública.
-
-* **A)** Os clientes internos não influenciam os processos organizacionais, pois seu papel está restrito ao consumo dos produtos finais da organização.
-* **B)** Departamentos, divisões e seções não são considerados unidades organizacionais por não estarem diretamente ligados à alta gestão.
-* **C)** A departamentalização por cliente é característica das estruturas informais e não se aplica à Administração Pública.
-* **D)** Unidades organizacionais, como grupos de trabalho e seções, podem funcionar tanto como fornecedores quanto como clientes internos, conforme o fluxo de processos internos.
-* **E)** A estrutura organizacional da Administração Pública não permite a existência de fornecedores internos, pois todos os insumos provêm do setor privado.
+* **A)** A concessão é outorgada a pessoa física ou jurídica, enquanto a permissão formaliza-se unicamente com pessoa jurídica.
+* **B)** A concessão outorga-se por contrato bilateral, ao passo que a permissão é formalizada a título precário por contrato.
+* **C)** A concessão dispensa procedimento de licitação, ao passo que a permissão exige modalidade estrita de pregão eletrônico.
+* **D)** A concessão tem caráter essencialmente precário, enquanto a permissão goza de prazo indeterminado e irrevogabilidade.
+* **E)** A concessão admite delegação de competências policiais sancionatórias, ao passo que a permissão restringe-se a obras.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os clientes internos não influenciam os processos organizacionais, pois seu papel está restrito ao consumo dos...". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens de Uso Comum do Povo (Art. 99, I): Destinados ao uso franqueado e indistinto de toda a coletividade (mares, rios, estradas, ruas, praças, praias). Podem ser utilizados gratuitamente ou mediante cobrança de tarifa/pedágio autorizada por lei.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Departamentos, divisões e seções não são considerados unidades organizacionais por não estarem diretamente ligados...". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens de Uso Especial (Art. 99, II): Destinados à execução direta dos serviços públicos e ao funcionamento da máquina administrativa (edifícios de fóruns e tribunais, escolas públicas, hospitais estatais, viaturas policiais, quartéis).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A departamentalização por cliente é característica das estruturas informais e não se aplica à Administração Pública". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Administrativa (Art. 2º, § 2º): É o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é 100% custeada pelo erário, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
-> - **D)** **Correta.** Conforme fundamentado na seção *Elementos Indispensáveis para a Responsabilização Objetiva:* deste guia, a responsabilidade objetiva do art. 37, § 6º, aplica se às empresas prestadoras de serviços públicos (concessionárias e permissionárias) tanto em relação aos usuários do serviço quanto em relação a terceiros não usuários (vítimas de acidentes causados pelo serviço público RE 591.874/STF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "Unidades organizacionais, como grupos de trabalho e seções, podem funcionar tanto como fornecedores quanto como...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A estrutura organizacional da Administração Pública não permite a existência de fornecedores internos, pois todos...". De acordo com a teoria estudada em *4. Fontes Recomendadas na Internet*, normas gerais sobre participação, proteção e defesa dos direitos do usuário dos serviços públicos da administração direta e indireta.
->
-> **Gabarito: D**
-
----
-
-### Teste 009
-**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Sem Especialidade)**
-A Administração Pública estrutura-se por meio de organizações formais que definem a distribuição de funções, competências e níveis de autoridade, assegurando a gestão organizacional do poder público de forma racional e eficiente. Assinale a opção que apresenta corretamente a pessoa jurídica de direito privado que, embora controlada pelo Estado, não atende a todos os requisitos legais para ser considerada empresa pública ou sociedade de economia mista, atuando em regra na prestação de serviços públicos de natureza comercial ou industrial.
-
-* **A)** Autarquia especial.
-* **B)** Fundação pública de direito público.
-* **C)** Empresa sob controle acionário do Estado.
-* **D)** Sociedade de economia mista.
-* **E)** Empresa pública.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Autarquia especial". De acordo com a teoria estudada em *3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta*, inalienabilidade Relativa: Os bens de uso comum e de uso especial são inalienáveis enquanto conservarem sua qualificação pública. Os bens dominicais podem ser alienados, desde que cumpridos os requisitos da lei de licitações.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Fundação pública de direito público". De acordo com a teoria estudada em *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)*, "A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.".
-> - **C)** **Correta.** Conforme fundamentado na seção *2.3 Formas de Extinção das Concessões: Encampação vs. Caducidade* deste guia, culpa da Concessionária?: NÃO (a empresa cumpria rigorosamente o contrato) — SIM (prestação defeituosa, paralisações, descumprimento de prazos). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "Empresa sob controle acionário do Estado".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Sociedade de economia mista". De acordo com a teoria estudada em *3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta*, impenhorabilidade: Os bens públicos não podem ser objeto de penhora ou constrição judicial para garantia de dívidas. A execução contra a Fazenda Pública opera se exclusivamente sob o regime constitucional de precatórios judiciais ou requisições de pequeno valor RPV (CF, art. 100).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Empresa pública". De acordo com a teoria estudada em *1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica*, omissão Específica (Responsabilidade Objetiva Tema 592/STF): Ocorre quando o Estado atua na posição de garante, detendo a pessoa ou a coisa sob sua imediata custódia física institucional (ex.: morte ou lesão corporal de detento em estabelecimento penitenciário; acidente com criança no interior de escola pública municipal; suicídio de paciente internado em hospital psiquiátrico público). A responsabilidade é OBJETIVA; o Estado só se exonera se comprovar que a morte ou o dano decorreu de causa natural ou que o evento era faticamente inevitável mesmo com o cumprimento de todos os protocolos regulares de vigilância.
->
-> **Gabarito: C**
-
----
-
-### Teste 010
-**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
-A gestão adequada dos resíduos sólidos é um desafio cada vez mais urgente e essencial para a preservação do meio ambiente e a sustentabilidade do planeta. A inadequada gestão de resíduos compromete não apenas o meio ambiente, mas a qualidade de vida da população e o desenvolvimento sustentável. Nesse contexto, a implementação de Planos Municipais de Gestão Integrada de Resíduos Sólidos é imprescindível para a adequada gestão dos resíduos. Sobre esses planos, é correto afirmar que:
-
-* **A)** devem prever expressamente a periodicidade de sua revisão, observado o período máximo de 30 anos;
-* **B)** é facultada a previsão de sistema de cálculo dos custos da prestação dos serviços públicos de limpeza urbana e de manejo de resíduos sólidos, bem como a forma de cobrança desses serviços;
-* **C)** devem contemplar ações específicas a serem desenvolvidas no âmbito dos órgãos da Administração Pública, com vistas à utilização racional dos recursos ambientais, ao combate a todas as formas de desperdício e à minimização da geração de resíduos;
-* **D)** não é obrigatória sua elaboração para que os municípios tenham acesso a recursos financeiros e incentivos governamentais relacionados à limpeza urbana e ao manejo de resíduos sólidos, embora seja recomendada;
-* **E)** devem prever as zonas favoráveis e desfavoráveis para a localização de unidades de tratamento de resíduos sólidos ou de disposição final de rejeitos.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "devem prever expressamente a periodicidade de sua revisão, observado o período máximo de 30 anos". De acordo com a teoria estudada em *A Teoria da Dupla Garantia:*, regime da Ação Regressiva: O Estado, após ser definitivamente condenado e efetuar o pagamento da indenização à vítima, tem o dever de ajuizar ação regressiva contra o servidor causador do dano. No âmbito da ação de regresso, a responsabilidade do servidor é SUBJETIVA, dependendo da comprovação cabal de que ele agiu com dolo ou culpa (negligência, imprudência ou imperícia).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é facultada a previsão de sistema de cálculo dos custos da prestação dos serviços públicos de limpeza urbana e de...". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Administrativa (Art. 2º, § 2º): É o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é 100% custeada pelo erário, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
-> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Princípios do Serviço Público Adequado* deste guia, segurança: Minimização de riscos aos usuários e ao meio ambiente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "devem contemplar ações específicas a serem desenvolvidas no âmbito dos órgãos da Administração Pública, com vistas...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é obrigatória sua elaboração para que os municípios tenham acesso a recursos financeiros e incentivos...". De acordo com a teoria estudada em *2.1 Princípios do Serviço Público Adequado*, generalidade: Acesso universal e não discriminatório a todos os cidadãos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "devem prever as zonas favoráveis e desfavoráveis para a localização de unidades de tratamento de resíduos sólidos...". De acordo com a teoria estudada em *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)*, o Supremo Tribunal Federal, ao julgar o RE 1.027.633 sob a sistemática da repercussão geral (Tema 940), pacificou a controvérsia sobre a legitimidade passiva nas ações indenizatórias fundamentadas no art. 37, § 6º, da CF/88.
->
-> **Gabarito: C**
-
----
-
-### Teste 011
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
-Em uma entidade do setor público, os Balanços Orçamentários não consolidados poderão apresentar desequilíbrio e déficit orçamentário, pois muitos deles não são agentes arrecadadores e executam despesas orçamentárias para prestação de serviços públicos e realização de investimentos. Esse fato não representa irregularidade e deve ser
-
-* **A)** reforçado pela administração em relatório especial específico, que não representa demonstração contábil.
-* **B)** contabilizado, de modo complementar, através do Balanço Financeiro, que mostra a variação financeira entre eles.
-* **C)** apresentado, de modo complementar, em balanço orçamentário adicional, elaborado para ressaltar esse aspecto.
-* **D)** evidenciado, de modo complementar, por nota explicativa que demonstre o montante da movimentação financeira relacionado à execução do orçamento do exercício.
-* **E)** contabilizado, de modo complementar, através da Demonstração das Mutações do Patrimônio Líquido, que inclui as variações entre as contas que compõe este elemento.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reforçado pela administração em relatório especial específico, que não representa demonstração contábil". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Administrativa (Art. 2º, § 2º): É o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é 100% custeada pelo erário, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contabilizado, de modo complementar, através do Balanço Financeiro, que mostra a variação financeira entre eles". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Patrocinada (Art. 2º, § 1º): É a concessão de serviços públicos ou obras públicas em que a remuneração da concessionária envolve a combinação de tarifa paga pelos usuários mais uma contraprestação pecuniária complementar paga pelo parceiro público.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresentado, de modo complementar, em balanço orçamentário adicional, elaborado para ressaltar esse aspecto". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, contratos que tenham por objeto único o fornecimento de mão de obra, a mera locação de equipamentos ou a execução isolada de obra pública sem prestação continuada de serviços.
-> - **D)** **Correta.** Conforme fundamentado na seção *1. Responsabilidade Civil Extracontratual do Estado* deste guia, a responsabilidade civil extracontratual da Administração Pública consiste na obrigação jurídica que recai sobre o Estado de reparar os danos materiais, morais e estéticos causados a particulares por condutas comissivas ou omissivas de seus agentes públicos no exercício de suas atribuições ou a pretexto de exercê las. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "evidenciado, de modo complementar, por nota explicativa que demonstre o montante da movimentação financeira...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contabilizado, de modo complementar, através da Demonstração das Mutações do Patrimônio Líquido, que inclui as...". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens Dominicais ou Dominicais (Art. 99, III): Bens que constituem o patrimônio disponível do Estado sem destinação pública específica ou aplicação administrativa direta (terras devolutas, prédios públicos desativados, títulos da dívida pública, bens desapropriados e não afetados).
->
-> **Gabarito: D**
-
----
-
-### Teste 012
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Contabilidade)**
-Os custos dos empréstimos são os juros e outros custos em que a entidade incorre relacionados com o empréstimo de recursos. Esses custos podem incluir o que se afirma a seguir, exceto
-
-* **A)** a amortização de descontos ou prêmios relacionados com empréstimos obtidos.
-* **B)** os juros de empréstimos obtidos em curto e longo prazos e de saldo bancário a descoberto.
-* **C)** os encargos financeiros relativos a arrendamentos mercantis financeiros e contratos de concessão de serviços públicos.
-* **D)** os gastos com a equipe da administração financeira e com a empresa que atua diretamente na captação de novos empréstimos e financiamentos.
-* **E)** as variações cambiais decorrentes de empréstimos em moeda estrangeira, na extensão em que elas sejam consideradas como ajuste do custo dos juros.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a amortização de descontos ou prêmios relacionados com empréstimos obtidos". De acordo com a teoria estudada em *2.3 Formas de Extinção das Concessões: Encampação vs. Caducidade*, culpa da Concessionária?: NÃO (a empresa cumpria rigorosamente o contrato) — SIM (prestação defeituosa, paralisações, descumprimento de prazos).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os juros de empréstimos obtidos em curto e longo prazos e de saldo bancário a descoberto". De acordo com a teoria estudada em *1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais*, na Teoria do Risco Integral, a obrigação estatal de indenizar é cega e absoluta. O Estado atua como garantidor universal de riscos, sendo vedada a invocação de qualquer causa excludente (o poder público é condenado mesmo diante de caso fortuito, força maior ou culpa exclusiva da vítima).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os encargos financeiros relativos a arrendamentos mercantis financeiros e contratos de concessão de serviços...". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Administrativa (Art. 2º, § 2º): É o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é 100% custeada pelo erário, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
-> - **D)** **Correta.** Conforme fundamentado na seção *A Teoria da Dupla Garantia:* deste guia, primeira Garantia (Ao Cidadão Vítima): Assegura que o particular lesionado demandará contra o Estado ou concessionária sob regime de responsabilidade objetiva (sem ter que provar a culpa do servidor) e com a certeza de solvência financeira pública. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "os gastos com a equipe da administração financeira e com a empresa que atua diretamente na captação de novos...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as variações cambiais decorrentes de empréstimos em moeda estrangeira, na extensão em que elas sejam consideradas...". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, o ordenamento jurídico brasileiro adota como regra geral a Teoria do Risco Administrativo. Essa teoria baseia se na ideia de que a atividade estatal gera riscos inerentes para a coletividade, devendo o poder público arcar com os prejuízos decorrentes. Todavia, NÃO se trata de responsabilidade absoluta, admitindo se a ruptura ou atenuação do nexo causal nas seguintes hipóteses.
->
-> **Gabarito: D**
-
----
-
-### Teste 013
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Contábeis)**
-Em janeiro de 2026, uma empresa assinou um novo contrato de concessão de serviços públicos. Nessa data, a entidade concedente deseja determinar a mensuração inicial dos ativos da concessão, que são segmentados em: I. ativos que já existiam e que tiveram aumento no potencial de serviços; e II. ativos que foram construídos em função do contrato de concessão. As mensurações iniciais de I e de II devem ser, respectivamente, a
-
-* **A)** valor justo e valor justo.
-* **B)** custo histórico e valor justo.
-* **C)** valor justo e custo histórico.
-* **D)** custo histórico e custo histórico.
-* **E)** custo histórico e custo corrente de reposição.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta* deste guia, impenhorabilidade: Os bens públicos não podem ser objeto de penhora ou constrição judicial para garantia de dívidas. A execução contra a Fazenda Pública opera se exclusivamente sob o regime constitucional de precatórios judiciais ou requisições de pequeno valor RPV (CF, art. 100). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "valor justo e valor justo".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "custo histórico e valor justo". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, contratos cujo valor total seja inferior a R$ 10.000.000,00 (dez milhões de reais).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "valor justo e custo histórico". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Administrativa (Art. 2º, § 2º): É o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é 100% custeada pelo erário, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "custo histórico e custo histórico". De acordo com a teoria estudada em *2.3 Formas de Extinção das Concessões: Encampação vs. Caducidade*, culpa da Concessionária?: NÃO (a empresa cumpria rigorosamente o contrato) — SIM (prestação defeituosa, paralisações, descumprimento de prazos).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "custo histórico e custo corrente de reposição". De acordo com a teoria estudada em *1.2 O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva*, "Art. 37, § 6º. As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.".
->
-> **Gabarito: A**
-
----
-
-### Teste 014
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
-Em decorrência de ampla mobilização popular, foi aprovada no último ano, a partir de iniciativa da maioria absoluta dos Deputados Estaduais, a Emenda Constitucional nº X (ECX) à Constituição do Estado Alfa, que vinculou 18% (dezoito por cento) dos recursos orçamentários anuais ao sistema estadual de saúde. Apesar do acolhimento popular, um legitimado submeteu a ECX ao controle concentrado de constitucionalidade. O órgão jurisdicional competente decidiu corretamente que a ECX é
-
-* **A)** constitucional, pois mantém uma relação de simetria com previsão expressa da Constituição da República.
-* **B)** inconstitucional, tendo incursionado em temática própria da lei e caminhado em norte contrário à necessidade de reavaliação dos índices a cada quinquênio.
-* **C)** constitucional, considerando que a vedação de vinculação da receita pública a fundo não é aplicável, em se tratando de recursos destinados a ações e serviços públicos de saúde.
-* **D)** constitucional, pois a sistemática estabelecida na Constituição da República assegura o nível mínimo de proteção do direito à saúde, que pode ser ampliado a nível estadual.
-* **E)** inconstitucional, considerando que os percentuais mínimos de vinculação de receitas orçamentárias, a ações e serviços de saúde, estão definidos na Constituição da República em patamares distintos dos estabelecidos em ECX.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitucional, pois mantém uma relação de simetria com previsão expressa da Constituição da República". De acordo com a teoria estudada em *3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta*, impenhorabilidade: Os bens públicos não podem ser objeto de penhora ou constrição judicial para garantia de dívidas. A execução contra a Fazenda Pública opera se exclusivamente sob o regime constitucional de precatórios judiciais ou requisições de pequeno valor RPV (CF, art. 100).
-> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta* deste guia, inalienabilidade Relativa: Os bens de uso comum e de uso especial são inalienáveis enquanto conservarem sua qualificação pública. Os bens dominicais podem ser alienados, desde que cumpridos os requisitos da lei de licitações. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "inconstitucional, tendo incursionado em temática própria da lei e caminhado em norte contrário à necessidade de...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitucional, considerando que a vedação de vinculação da receita pública a fundo não é aplicável, em se...". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens de Uso Especial (Art. 99, II): Destinados à execução direta dos serviços públicos e ao funcionamento da máquina administrativa (edifícios de fóruns e tribunais, escolas públicas, hospitais estatais, viaturas policiais, quartéis).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitucional, pois a sistemática estabelecida na Constituição da República assegura o nível mínimo de proteção...". De acordo com a teoria estudada em *3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta*, o art. 183, § 3º e o art. 191, parágrafo único, da Constituição Federal, corroborados pela Súmula 340 do STF, preceituam que nenhum bem público, qualquer que seja sua classificação (inclusive os bens dominicais), pode ser adquirido por usucapião.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inconstitucional, considerando que os percentuais mínimos de vinculação de receitas orçamentárias, a ações e...". De acordo com a teoria estudada em *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)*, "A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.".
+> - **A)** **Incorreto**. A concessão é formalizada exclusivamente com pessoa jurídica ou consórcio de empresas (art. 2º, II); já a permissão pode ser outorgada a pessoa física ou jurídica (art. 2º, IV da Lei nº 8.987/1995).
+> - **B)** **Correto**. Pela Lei nº 8.987/1995, a concessão é contrato bilateral celebrado por prazo determinado com garantias de equilíbrio econômico-financeiro; já a permissão (art. 40) formaliza-se por contrato de adesão marcado por precariedade mitigada e revogabilidade unilateral pelo poder concedente.
+> - **C)** **Incorreto**. Ambas exigem prévia licitação obrigatória (art. 175 da CF/88); ademais, para concessão a modalidade é concorrência pública ou diálogo competitivo.
+> - **D)** **Incorreto**. A precariedade é atributo da permissão, não da concessão.
+> - **E)** **Incorreto**. Atos de polícia punitiva geral não são passíveis de concessão nem permissão a entes mercantis privados.
 >
 > **Gabarito: B**
+### Teste 040
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O Estado de Goiás celebrou contrato de concessão de serviço público rodoviário com uma sociedade empresária pelo prazo de vinte anos. Transcorridos cinco anos, em razão de relevante interesse público e conveniência estratégica estadual, o Governador pretende retomar a prestação direta da rodovia antes do término contratual. Nos termos da Lei nº 8.987/1995:
 
----
-
-### Teste 015
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
-João da Silva ajuizou ação em face do Instituto Nacional do Seguro Social (INSS), autarquia federal vinculada à União, postulando a concessão de benefício de aposentadoria por incapacidade permanente, com pagamento das prestações em atraso desde a data do requerimento administrativo indeferido. A sentença julgou o pedido procedente, fixando como termo inicial o mês do requerimento administrativo, estabelecendo a renda mensal inicial do benefício com base no salário de benefício já apurado pelo INSS e determinando a incidência de correção monetária e juros de mora conforme os índices legalmente previstos. A condenação em parcelas atrasadas, apurável mediante simples cálculos aritméticos com base nos parâmetros da sentença, estimava-se em aproximadamente 380 salários-mínimos, não havendo necessidade de liquidação autônoma ou atividade cognitiva complementar para sua quantificação. O INSS, em sede de impugnação ao cumprimento de sentença promovido por João da Silva, sustentou que a sentença deveria ter sido submetida ao duplo grau obrigatório de jurisdição por força da remessa necessária. Considerando o disposto na legislação processual civil e o entendimento fixado pelo Superior Tribunal de Justiça sob o regime dos recursos repetitivos, é correto afirmar que a sentença em referência
-
-* **A)** não está sujeita à remessa necessária, pois a condenação imposta ao INSS não ultrapassa 500 salários-mínimos, limite a partir do qual a remessa necessária é exigível nas demandas que envolvam autarquias federais, nos termos do art. 496, § 3º, I, do CPC/2015.
-* **B)** está sujeita à remessa necessária, uma vez que o valor da condenação supera 100 salários-mínimos, limite a partir do qual a remessa necessária é exigível nas demandas que envolvam autarquias federais, nos termos do art. 496, § 3º, I, do CPC/2015.
-* **C)** está sujeita à remessa necessária, pois as condenações impostas ao INSS em demandas previdenciárias são, por sua própria natureza, materialmente ilíquidas, pois dependem da aferição de competências, salários de contribuição e índices de atualização variáveis, razão pela qual se submetem invariavelmente à remessa necessária.
-* **D)** não está sujeita à remessa necessária, pois, havendo parâmetros suficientes fixados no decisum que permitam a apuração imediata da condenação por simples cálculos aritméticos, e sendo possível estimar que o valor não excederá o limite de 1.000 salários-mínimos previsto no art. 496, § 3º, I, do CPC/2015, resta afastado o duplo grau obrigatório de jurisdição.
-* **E)** não está sujeita à remessa necessária, pelo fato de o valor da condenação ser inferior ao limite estabelecido no art. 496, § 3º, I, do CPC/2015, sendo irrelevante, para esse fim, a análise da complexidade exigida na fase de liquidação ou a existência de parâmetros suficientes na sentença para a apuração do quantum debeatur.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não está sujeita à remessa necessária, pois a condenação imposta ao INSS não ultrapassa 500 salários mínimos...". De acordo com a teoria estudada em *3. Bens Públicos: Classificação, Afetação e Prerrogativas*, conforme o art. 98 do Código Civil, são bens públicos todos aqueles pertencentes às pessoas jurídicas de direito público interno (União, Estados, DF, Municípios e suas autarquias e fundações públicas de direito público). Todos os demais são bens privados.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "está sujeita à remessa necessária, uma vez que o valor da condenação supera 100 salários mínimos, limite a partir...". De acordo com a teoria estudada em *3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta*, impenhorabilidade: Os bens públicos não podem ser objeto de penhora ou constrição judicial para garantia de dívidas. A execução contra a Fazenda Pública opera se exclusivamente sob o regime constitucional de precatórios judiciais ou requisições de pequeno valor RPV (CF, art. 100).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "está sujeita à remessa necessária, pois as condenações impostas ao INSS em demandas previdenciárias são, por sua...". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, caso Fortuito ou Força Maior Absoluta: Eventos imprevisíveis da natureza com violência desmedida (raios imprevisíveis, terremotos, trombas d'água fora de qualquer série histórica), desde que o Estado não tenha sido omisso em adotar medidas preventivas exigíveis.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)* deste guia, contratos cujo valor total seja inferior a R$ 10.000.000,00 (dez milhões de reais). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "não está sujeita à remessa necessária, pois, havendo parâmetros suficientes fixados no decisum que permitam a...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não está sujeita à remessa necessária, pelo fato de o valor da condenação ser inferior ao limite estabelecido no...". De acordo com a teoria estudada em *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)*, "A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.".
->
-> **Gabarito: D**
-
----
-
-### Teste 016
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Engenharia Elétrica)**
-No contexto das políticas públicas e regulamentações para a redução do desperdício de energia elétrica no Brasil, avalie as afirmativas a seguir. I. O Selo Procel de Economia de Energia é uma ferramenta de adesão voluntária que permite ao consumidor identificar, no ponto de venda, os equipamentos e eletrodomésticos que apresentam os melhores índices de eficiência energética dentro de sua categoria. II. O Programa de Eficiência Energética (PEE), regulado pela ANEEL, obriga as concessionárias e permissionárias de serviços públicos de distribuição de energia elétrica a investir em projetos que busquem o uso eficiente da energia elétrica, tanto no lado da oferta quanto no lado do consumo. III. O Selo Procel e o Programa de Eficiência Energética da ANEEL possuem a mesma natureza jurídica e operacional, sendo ambos financiados diretamente pelo Tesouro Nacional e geridos exclusivamente pela Eletrobras. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** II e III, apenas.
+* **A)** O Estado pode promover a encampação unilateral mediante decreto, sem necessidade de lei ou prévia indenização.
+* **B)** A retomada é vedada pelo princípio da segurança jurídica, vinculando o Poder Concedente ao prazo de vinte anos.
+* **C)** A encampação exige autorização por lei autorizativa específica e prévio pagamento de justa indenização em dinheiro.
+* **D)** A rescisão unilateral pode ser declarada pelo Estado com base na caducidade, prescindindo de justa reparação patrimonial.
+* **E)** A reversão dos bens vinculados ao contrato fica impedida até que se opere a amortização contábil integral da obra.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens de Uso Especial (Art. 99, II): Destinados à execução direta dos serviços públicos e ao funcionamento da máquina administrativa (edifícios de fóruns e tribunais, escolas públicas, hospitais estatais, viaturas policiais, quartéis).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens Dominicais ou Dominicais (Art. 99, III): Bens que constituem o patrimônio disponível do Estado sem destinação pública específica ou aplicação administrativa direta (terras devolutas, prédios públicos desativados, títulos da dívida pública, bens desapropriados e não afetados).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, fato Exclusivo de Terceiro: Dano provocado exclusivamente por ação autônoma e imprevisível de outrem sem qualquer concurso da conduta estatal (ex.: assalto à mão armada ocorrido dentro de um ônibus coletivo com disparo de arma de fogo deflagrado pelo criminoso).
-> - **D)** **Correta.** Conforme fundamentado na seção *Elementos Indispensáveis para a Responsabilização Objetiva:* deste guia, a responsabilidade objetiva do art. 37, § 6º, aplica se às empresas prestadoras de serviços públicos (concessionárias e permissionárias) tanto em relação aos usuários do serviço quanto em relação a terceiros não usuários (vítimas de acidentes causados pelo serviço público RE 591.874/STF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "I e II, apenas".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)*, permissão de Serviço Público: Delegação formalizada mediante contrato de adesão, a título precário, após prévia licitação, admitindo como permitente pessoa física ou jurídica.
->
-> **Gabarito: D**
-
----
-
-### Teste 017
-**(FGV – TCE/SC – 2026 – Auditor Fiscal De Controle Externo Engenharia Sanitaria)**
-Durante o processo de estruturação da atividade regulatória de um sistema regionalizado de saneamento básico, discutiu-se quais objetivos devem orientar a atuação da entidade reguladora diante de conflitos entre a expansão da cobertura, a sustentabilidade econômico-financeira e a proteção dos usuários. Nesse contexto, a atuação regulatória estará mais alinhada aos objetivos da regulação dos serviços públicos de saneamento quando
-
-* **A)** concentrar a atividade regulatória na preservação do equilíbrio contratual originalmente pactuado, independentemente da evolução das condições sociais e operacionais da prestação.
-* **B)** adotar mecanismos regulatórios voltados à compatibilização entre sustentabilidade da prestação, expansão do acesso e padrões adequados de qualidade e eficiência dos serviços.
-* **C)** priorizar a estabilidade econômico-financeira do prestador, ainda que isso implique postergação contínua de metas de universalização contratualmente previstas.
-* **D)** imitar a intervenção regulatória à fiscalização contábil e tarifária, evitando interferência em metas operacionais e indicadores de desempenho.
-* **E)** estabelecer padrões uniformes de prestação sem considerar diferenças técnicas, econômicas ou regionais entre os sistemas regulados.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "concentrar a atividade regulatória na preservação do equilíbrio contratual originalmente pactuado...". De acordo com a teoria estudada em *1.1 Evolução Histórica da Responsabilidade Estatal*, teoria Objetiva do Risco Administrativo: Consagrada pelo Direito Constitucional contemporâneo, dispensa integralmente a comprovação de dolo ou culpa estatal, fundando se na causalidade material e na solidariedade social perante os riscos criados pela atividade administrativa.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva* deste guia, "Art. 37, § 6º. As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.". Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "adotar mecanismos regulatórios voltados à compatibilização entre sustentabilidade da prestação, expansão do acesso...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "priorizar a estabilidade econômico financeira do prestador, ainda que isso implique postergação contínua de metas...". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Administrativa (Art. 2º, § 2º): É o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é 100% custeada pelo erário, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "imitar a intervenção regulatória à fiscalização contábil e tarifária, evitando interferência em metas operacionais...". De acordo com a teoria estudada em *2.1 Princípios do Serviço Público Adequado*, regularidade: Prestação sem oscilações arbitrárias de qualidade.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estabelecer padrões uniformes de prestação sem considerar diferenças técnicas, econômicas ou regionais entre os...". De acordo com a teoria estudada em *2.1 Princípios do Serviço Público Adequado*, atualidade: Incorporação contínua de métodos modernos, equipamentos tecnológicos de ponta e expansão da rede.
->
-> **Gabarito: B**
-
----
-
-### Teste 018
-**(FGV – TCE/SC – 2026 – Auditor Fiscal De Controle Externo Engenharia Sanitaria)**
-Um conflito surgiu entre uma entidade reguladora infranacional e uma concessionária de serviços de abastecimento de água, acerca da interpretação de uma norma de referência da Agência Nacional de Águas e Saneamento Básico. Enquanto a concessionária defendia determinado critério tarifário, a entidade reguladora sustentava interpretação diversa da norma aplicável. Com o objetivo de evitar a judicialização do conflito, as partes avaliaram a possibilidade de instauração do procedimento de mediação regulatória previsto na Resolução ANA nº 209, de 9 de setembro de 2024. Considerando o exposto nessa resolução, avalie as afirmativas a seguir. I. O procedimento de mediação regulatória pode ser requerido unilateralmente, mas sua instauração depende da manifestação de vontade dos demais interessados. II. A existência de processo judicial ou arbitral sobre a mesma matéria impede a instauração da mediação regulatória perante a ANA. III. A mediação regulatória conduzida pela ANA possui caráter compulsório para os prestadores de serviços públicos de saneamento básico. Está correto apenas o que se afirma em
-
-* **A)** I.
-* **B)** II.
-* **C)** I e II.
-* **D)** I e III.
-* **E)** II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *3.2 Fenômeno da Afetação e Desafetação* deste guia, afetação: É a atribuição formal ou fática de uma destinação pública a determinado bem (o bem passa a ser de uso comum ou de uso especial). Enquanto afetado, o bem é inalienável. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "I".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta*, impenhorabilidade: Os bens públicos não podem ser objeto de penhora ou constrição judicial para garantia de dívidas. A execução contra a Fazenda Pública opera se exclusivamente sob o regime constitucional de precatórios judiciais ou requisições de pequeno valor RPV (CF, art. 100).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *1.2 O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva*, "Art. 37, § 6º. As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens Dominicais ou Dominicais (Art. 99, III): Bens que constituem o patrimônio disponível do Estado sem destinação pública específica ou aplicação administrativa direta (terras devolutas, prédios públicos desativados, títulos da dívida pública, bens desapropriados e não afetados).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *4. Fontes Recomendadas na Internet*, dI PIETRO, Maria Sylvia Zanella. Direito Administrativo. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 5, Cap. 15 e Cap. 17 Serviços Públicos, Responsabilidade Extracontratual do Estado e Bens Públicos).
->
-> **Gabarito: A**
-
----
-
-### Teste 019
-**(FGV – TCE/SC – 2026 – Auditor Fiscal De Controle Externo Engenharia Sanitaria)**
-Ao término de um contrato de concessão dos serviços públicos de abastecimento de água e esgotamento sanitário, a entidade reguladora iniciou o processo de avaliação dos bens reversíveis ainda não amortizados pela concessionária, com o objetivo de definir eventual indenização devida pela continuidade da prestação dos serviços. Durante a discussão técnica, foram apresentadas diferentes metodologias de cálculo para definição do valor indenizável dos ativos vinculados à concessão, nos termos da NR nº 3/2023 da Agência Nacional de Águas e Saneamento Básico. Sobre as metodologias de indenização previstas na norma, avalie as afirmativas a seguir. I. A metodologia baseada no valor justo procura estimar o valor pelo qual um ativo poderia ser negociado entre partes independentes e conhecedoras do mercado, considerando as condições econômicas e operacionais aplicáveis ao bem avaliado. II. A metodologia do valor novo de reposição busca estimar o custo necessário para substituição do ativo por outro equivalente, observadas as condições técnicas e operacionais pertinentes. III. A metodologia baseada no valor histórico corrigido desconsidera integralmente a depreciação e o estado de conservação dos ativos vinculados à prestação do serviço. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** I e II, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.2 Fenômeno da Afetação e Desafetação*, desafetação: É a retirada da destinação pública do bem, convertendo o em bem dominical. Somente após a regular desafetação o bem público torna se passível de alienação, observadas as exigências de autorização legislativa, interesse público justificado, avaliação prévia e procedimento licitatório.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *2.1 Princípios do Serviço Público Adequado*, a Lei Federal nº 8.987/1995 (art. 6º) prescreve que toda concessão ou permissão pressupõe a prestação de serviço adequado, assim entendido o que satisfaz as condições de.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)* deste guia, concessão Administrativa (Art. 2º, § 2º): É o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é 100% custeada pelo erário, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "I e II, apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens Dominicais ou Dominicais (Art. 99, III): Bens que constituem o patrimônio disponível do Estado sem destinação pública específica ou aplicação administrativa direta (terras devolutas, prédios públicos desativados, títulos da dívida pública, bens desapropriados e não afetados).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.1 Princípios do Serviço Público Adequado*, continuidade: Não interrupção da atividade, admitida a suspensão motivada em hipóteses estritas de segurança técnica ou inadimplemento do usuário após aviso prévio formal.
+> - **A)** **Incorreto**. O art. 37 da Lei nº 8.987/1995 exige expressamente autorização legislativa por lei específica e prévio pagamento de indenização.
+> - **B)** **Incorreto**. O Estado detém a prerrogativa exorbitante de retomar a execução do serviço por interesse público superveniente (encampação).
+> - **C)** **Correto**. A encampação (art. 37 da Lei nº 8.987/1995) é a retomada do serviço pelo poder concedente durante o prazo da concessão, por motivo de interesse público, mediante lei autorizativa específica e após o prévio pagamento da indenização das parcelas dos investimentos vinculados a bens reversíveis ainda não amortizados.
+> - **D)** **Incorreto**. Caducidade é a extinção punitiva por inexecução culposa da concessionária; para interesse público, o instituto é a encampação.
+> - **E)** **Incorreto**. A reversão dos bens ao poder concedente é decorrência da extinção contratual, apurando-se a indenização cabível.
 >
 > **Gabarito: C**
+### Teste 041
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No Brasil, as Parcerias Público-Privadas (PPPs) são disciplinadas pela Lei Federal nº 11.079/2004 e contemplam duas modalidades contratuais distintas: a concessão patrocinada e a concessão administrativa. A respeito da concessão patrocinada, é correto afirmar que consiste no contrato de concessão de serviços públicos ou de obras públicas:
 
----
-
-### Teste 020
-**(FGV – TCE/SC – 2026 – Auditor Fiscal De Controle Externo Engenharia Sanitaria)**
-Uma agência reguladora local, ao aplicar as diretrizes da NR nº 10/2024 da Agência Nacional de Águas e Saneamento Básico para o reajuste tarifário dos serviços públicos de abastecimento de água e de esgotamento sanitário, sujeitos ao modelo de regulação discricionária, avaliou os custos operacionais de uma concessionária ao longo de 12 meses. Verificou-se que a tarifa média vigente era de R$ 4,00 por m³. No período analisado, o índice de reajuste tarifário foi fixado em 12%, enquanto o fator de eficiência regulatória (produtividade), determinado pela agência, foi de 3%. Considerando as condições propostas, a nova tarifa média a ser aplicada será, aproximadamente, de
-
-* **A)** R$ 4,18 por m³.
-* **B)** R$ 4,36 por m³.
-* **C)** R$ 4,48 por m³.
-* **D)** R$ 4,60 por m³.
-* **E)** R$ 4,72 por m³.
+* **A)** em que a remuneração do parceiro privado advém unicamente de subsídio orçamentário mensal pago pela Administração.
+* **B)** que envolve, adicionalmente à tarifa cobrada dos usuários, contraprestação pecuniária do parceiro público ao parceiro privado.
+* **C)** que se destina à prestação de serviços de que a Administração Pública seja a usuária direta ou indireta de modo exclusivo.
+* **D)** cujo valor financeiro total estimado para o empreendimento de infraestrutura seja inferior a dez milhões de reais.
+* **E)** pactuado por prazo de execução inferior a cinco anos para permitir a renovação periódica dos termos licitados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 4,18 por m³". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Patrocinada (Art. 2º, § 1º): É a concessão de serviços públicos ou obras públicas em que a remuneração da concessionária envolve a combinação de tarifa paga pelos usuários mais uma contraprestação pecuniária complementar paga pelo parceiro público.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Fenômeno da Afetação e Desafetação* deste guia, afetação: É a atribuição formal ou fática de uma destinação pública a determinado bem (o bem passa a ser de uso comum ou de uso especial). Enquanto afetado, o bem é inalienável. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "R$ 4,36 por m³".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 4,48 por m³". De acordo com a teoria estudada em *2.1 Princípios do Serviço Público Adequado*, eficiência: Máxima produtividade e excelência técnica.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 4,60 por m³". De acordo com a teoria estudada em *4. Fontes Recomendadas na Internet*, dI PIETRO, Maria Sylvia Zanella. Direito Administrativo. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 5, Cap. 15 e Cap. 17 Serviços Públicos, Responsabilidade Extracontratual do Estado e Bens Públicos).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 4,72 por m³". De acordo com a teoria estudada em *4. Fontes Recomendadas na Internet*, cARVALHO FILHO, José dos Santos. Manual de Direito Administrativo. 38. ed. Barueri: Atlas, 2024. (Cap. 6, Cap. 11 e Cap. 18 Serviços Públicos, Concessões, Responsabilidade Civil do Estado e Bens Públicos).
+> - **A)** **Incorreto**. A remuneração unicamente decorrente do poder público caracteriza a concessão administrativa (art. 2º, § 2º).
+> - **B)** **Correto**. Conforme a definição legal expressa no art. 2º, § 1º, da Lei Federal nº 11.079/2004: "Concessão patrocinada é a concessão de serviços públicos ou de obras públicas de que trata a Lei nº 8.987, de 13 de fevereiro de 1995, quando envolver, adicionalmente à tarifa cobrada dos usuários, contraprestação pecuniária do parceiro público ao parceiro privado".
+> - **C)** **Incorreto**. Essa é a definição exata de concessão administrativa (art. 2º, § 2º).
+> - **D)** **Incorreto**. É vedada a celebração de PPP cujo valor seja inferior a R$ 10.000.000,00 (dez milhões de reais), nos termos do art. 2º, § 4º, I da lei.
+> - **E)** **Incorreto**. O prazo do contrato de PPP não pode ser inferior a 5 (cinco) anos nem superior a 35 (trinta e cinco) anos (art. 5º, I).
 >
 > **Gabarito: B**
-
----
-
-### Teste 021
-**(FGV – TCE/SC – 2026 – Auditor Fiscal De Controle Externo Engenharia Sanitaria)**
-Um Município pretende adequar sua política tarifária às diretrizes da Agência Nacional de Águas e Saneamento Básico estabelecidas na NR nº 13/2025, aprovada pela Resolução ANA nº 271/2025, para os serviços públicos de abastecimento de água e de esgotamento sanitário. Durante os estudos, verificou-se que determinada família inscrita no Cadastro Único possui renda per capita compatível com os critérios da tarifa social e consumo médio mensal de 8 m³ de água. A concessionária local propôs aplicar desconto apenas sobre o valor excedente a 5 m³ consumidos, mantendo a tarifa integral para a parcela inicial do consumo. Além disso, sugeriu impedir o acesso ao benefício às famílias com débitos anteriores em aberto. Considerando os princípios gerais da NR nº 13/2025 relacionados à modicidade tarifária, universalização do acesso e proteção de usuários vulneráveis, a medida mais compatível com a norma é
-
-* **A)** vedar a concessão de tarifa social a usuários inadimplentes, pois a existência de débitos elimina automaticamente o caráter essencial do serviço público.
-* **B)** substituir integralmente a estrutura tarifária progressiva por tarifa única fixa para todos os usuários residenciais, a fim de simplificar a cobrança dos serviços.
-* **C)** aplicar a tarifa social exclusivamente aos serviços de abastecimento de água, excluindo os serviços de esgotamento sanitário por possuírem natureza distinta.
-* **D)** permitir a aplicação da tarifa social apenas sobre o consumo excedente ao volume mínimo operacional definido pela concessionária, independentemente da condição socioeconômica do usuário.
-* **E)** assegurar mecanismo tarifário diferenciado voltado às famílias vulneráveis, observando critérios objetivos e transparência regulatória, sem criar barreiras desproporcionais ao acesso ao benefício.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "vedar a concessão de tarifa social a usuários inadimplentes, pois a existência de débitos elimina automaticamente...". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Patrocinada (Art. 2º, § 1º): É a concessão de serviços públicos ou obras públicas em que a remuneração da concessionária envolve a combinação de tarifa paga pelos usuários mais uma contraprestação pecuniária complementar paga pelo parceiro público.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "substituir integralmente a estrutura tarifária progressiva por tarifa única fixa para todos os usuários...". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens de Uso Comum do Povo (Art. 99, I): Destinados ao uso franqueado e indistinto de toda a coletividade (mares, rios, estradas, ruas, praças, praias). Podem ser utilizados gratuitamente ou mediante cobrança de tarifa/pedágio autorizada por lei.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "aplicar a tarifa social exclusivamente aos serviços de abastecimento de água, excluindo os serviços de esgotamento...". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, caso Fortuito ou Força Maior Absoluta: Eventos imprevisíveis da natureza com violência desmedida (raios imprevisíveis, terremotos, trombas d'água fora de qualquer série histórica), desde que o Estado não tenha sido omisso em adotar medidas preventivas exigíveis.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "permitir a aplicação da tarifa social apenas sobre o consumo excedente ao volume mínimo operacional definido pela...". De acordo com a teoria estudada em *4. Fontes Recomendadas na Internet*, normas gerais sobre participação, proteção e defesa dos direitos do usuário dos serviços públicos da administração direta e indireta.
-> - **E)** **Correta.** Conforme fundamentado na seção *2.1 Princípios do Serviço Público Adequado* deste guia, generalidade: Acesso universal e não discriminatório a todos os cidadãos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "assegurar mecanismo tarifário diferenciado voltado às famílias vulneráveis, observando critérios objetivos e...".
->
-> **Gabarito: E**
-
----
-
-### Teste 022
-**(FGV – TCE/SC – 2026 – Auditor Fiscal De Controle Externo Engenharia Sanitaria)**
-Em relação à regulação dos serviços públicos de saneamento básico, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) A receita requerida deve ressarcir o prestador de serviços das despesas administrativas e custos eficientes de operação (OPEX), ficando os custos de investimento (CAPEX) a cargo do prestador do serviço. ( ) O modo de prestação regionalizada ocorre quando há prestação de um ou mais componentes dos serviços públicos em determinada região cujo território abrange mais de um Município. ( ) Se houver risco à sustentabilidade econômico-financeira do prestador de serviço, pode-se solicitar uma revisão extraordinária da tarifa, caso o prestador seja uma empresa privada. As afirmativas são, respectivamente,
-
-* **A)** F – F – V.
-* **B)** F – V – V.
-* **C)** V – F – V.
-* **D)** V – F – F.
-* **E)** F – V – F.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Administrativa (Art. 2º, § 2º): É o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é 100% custeada pelo erário, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *Elementos Indispensáveis para a Responsabilização Objetiva:*, a responsabilidade objetiva do art. 37, § 6º, aplica se às empresas prestadoras de serviços públicos (concessionárias e permissionárias) tanto em relação aos usuários do serviço quanto em relação a terceiros não usuários (vítimas de acidentes causados pelo serviço público RE 591.874/STF).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – V". De acordo com a teoria estudada em *2.1 Princípios do Serviço Público Adequado*, modicidade das Tarifas: Fixação de preços públicos acessíveis à população em equilíbrio econômico financeiro.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *2.3 Formas de Extinção das Concessões: Encampação vs. Caducidade*, culpa da Concessionária?: NÃO (a empresa cumpria rigorosamente o contrato) — SIM (prestação defeituosa, paralisações, descumprimento de prazos).
-> - **E)** **Correta.** Conforme fundamentado na seção *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)* deste guia, concessão Patrocinada (Art. 2º, § 1º): É a concessão de serviços públicos ou obras públicas em que a remuneração da concessionária envolve a combinação de tarifa paga pelos usuários mais uma contraprestação pecuniária complementar paga pelo parceiro público. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "F – V – F".
->
-> **Gabarito: E**
-
----
-
-### Teste 023
-**(FGV – TCE/SC – 2026 – Auditor Fiscal De Controle Externo Engenharia Sanitaria)**
-Em relação ao Serviço Público de Manejo de Resíduos Sólidos Urbanos (SMRSU), avalie as afirmativas a seguir. I. O SMRSU compreende desde a coleta, transbordo e transporte dos resíduos sólidos urbanos, até sua triagem, tratamento e destinação final. II. Os serviços públicos de limpeza urbana também devem ser contemplados nas tarifas para esse tipo de serviço. III. O SMRSU é destinado especificamente aos geradores efetivos ou potenciais de resíduos sólidos urbanos que sejam de natureza jurídica. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** I e II, apenas.
-* **D)** I e III, apenas.
-* **E)** II e III, apenas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *Elementos Indispensáveis para a Responsabilização Objetiva:* deste guia, a responsabilidade objetiva do art. 37, § 6º, aplica se às empresas prestadoras de serviços públicos (concessionárias e permissionárias) tanto em relação aos usuários do serviço quanto em relação a terceiros não usuários (vítimas de acidentes causados pelo serviço público RE 591.874/STF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "I, apenas".
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens Dominicais ou Dominicais (Art. 99, III): Bens que constituem o patrimônio disponível do Estado sem destinação pública específica ou aplicação administrativa direta (terras devolutas, prédios públicos desativados, títulos da dívida pública, bens desapropriados e não afetados).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)*, concessão Comum de Serviço Público: Delegação contratual bilateral formalizada com pessoa jurídica ou consórcio de empresas, mediante prévia licitação obrigatória, para exploração do serviço por prazo determinado, a expensas e risco da concessionária, remunerada unicamente pelas tarifas cobradas dos usuários.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Administrativa (Art. 2º, § 2º): É o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é 100% custeada pelo erário, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)*, "A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.".
->
-> **Gabarito: A**
-
----
-
-### Teste 024
-**(FGV – TCE/SC – 2026 – Auditor Fiscal De Controle Externo Engenharia Sanitaria)**
-Os indicadores operacionais da prestação dos serviços públicos de abastecimento de água e de esgotamento sanitário podem ser classificados como sendo de nível I ou II. Um exemplo de indicador do nível II é o índice de
-
-* **A)** análises de coliformes totais da água no padrão estabelecido.
-* **B)** duração média dos reparos de extravasamentos de esgoto.
-* **C)** intermitência do serviço de abastecimento de água.
-* **D)** perdas de água na distribuição por ligação.
-* **E)** cobertura de esgotamento sanitário. Realização
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "análises de coliformes totais da água no padrão estabelecido". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, caso Fortuito ou Força Maior Absoluta: Eventos imprevisíveis da natureza com violência desmedida (raios imprevisíveis, terremotos, trombas d'água fora de qualquer série histórica), desde que o Estado não tenha sido omisso em adotar medidas preventivas exigíveis.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta* deste guia, impenhorabilidade: Os bens públicos não podem ser objeto de penhora ou constrição judicial para garantia de dívidas. A execução contra a Fazenda Pública opera se exclusivamente sob o regime constitucional de precatórios judiciais ou requisições de pequeno valor RPV (CF, art. 100). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "duração média dos reparos de extravasamentos de esgoto".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "intermitência do serviço de abastecimento de água". De acordo com a teoria estudada em *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)*, "A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "perdas de água na distribuição por ligação". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Administrativa (Art. 2º, § 2º): É o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é 100% custeada pelo erário, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cobertura de esgotamento sanitário. Realização". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens de Uso Comum do Povo (Art. 99, I): Destinados ao uso franqueado e indistinto de toda a coletividade (mares, rios, estradas, ruas, praças, praias). Podem ser utilizados gratuitamente ou mediante cobrança de tarifa/pedágio autorizada por lei.
->
-> **Gabarito: B**
-
----
-
-### Teste 025
-**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Agente Da Policia Judicial)**
-Assinale a opção que apresenta, corretamente, o conceito de segurança institucional.
-
-* **A)** Está relacionada à proteção de pessoas que estejam sob ameaça advinda de sua função em uma dada instituição.
-* **B)** Tem a finalidade de manter a ordem pública e da paz social por meio da proteção do Estado.
-* **C)** Compreende a segurança privada dos serviços públicos oferecidos pelo Estado.
-* **D)** Tem por princípio de que o Estado tem que manter a proteção de pessoas e patrimônio.
-* **E)** Atua na segurança prisional e nos deslocamentos de detentos de alta periculosidade.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica* deste guia, omissão Específica (Responsabilidade Objetiva Tema 592/STF): Ocorre quando o Estado atua na posição de garante, detendo a pessoa ou a coisa sob sua imediata custódia física institucional (ex.: morte ou lesão corporal de detento em estabelecimento penitenciário; acidente com criança no interior de escola pública municipal; suicídio de paciente internado em hospital psiquiátrico público). A responsabilidade é OBJETIVA; o Estado só se exonera se comprovar que a morte ou o dano decorreu de causa natural ou que o evento era faticamente inevitável mesmo com o cumprimento de todos os protocolos regulares de vigilância. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "Está relacionada à proteção de pessoas que estejam sob ameaça advinda de sua função em uma dada instituição".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tem a finalidade de manter a ordem pública e da paz social por meio da proteção do Estado". De acordo com a teoria estudada em *1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica*, omissão Genérica (Responsabilidade Subjetiva): O Estado descumpre seu dever genérico de proteção da ordem social (ex.: furto de veículo particular estacionado em via pública comum; alagamento pontual em chuva sazonal). A vítima deve provar a ocorrência de culpa anônima do serviço ( faute du service ), demonstrando que o poder público foi negligente diante de um dever exigível.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Compreende a segurança privada dos serviços públicos oferecidos pelo Estado". De acordo com a teoria estudada em *1.2 O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva*, "Art. 37, § 6º. As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tem por princípio de que o Estado tem que manter a proteção de pessoas e patrimônio". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens Dominicais ou Dominicais (Art. 99, III): Bens que constituem o patrimônio disponível do Estado sem destinação pública específica ou aplicação administrativa direta (terras devolutas, prédios públicos desativados, títulos da dívida pública, bens desapropriados e não afetados).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Atua na segurança prisional e nos deslocamentos de detentos de alta periculosidade". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, culpa Exclusiva da Vítima: O evento decorreu inteiramente do comportamento negligente, imprudente ou voluntário do próprio lesado (ex.: pedestre que se atira intencionalmente sob as rodas de um ônibus público em alta velocidade).
->
-> **Gabarito: A**
-
----
-
-### Teste 026
-**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Sem Especialidade)**
-A gestão de resultados na produção de serviços públicos visa aumentar a eficiência, a eficácia e a qualidade das políticas e ações governamentais, garantindo que os recursos públicos sejam utilizados de forma estratégica para gerar impacto positivo e valor para a sociedade. Assinale a opção que apresenta, corretamente, o fluxo lógico de um modelo de gestão de resultados.
-
-* **A)** O modelo inicia-se com o monitoramento do desempenho, seguido da definição dos objetivos estratégicos, indicadores de desempenho e metas, culminando com a formulação da missão da organização.
-* **B)** O diagnóstico do ambiente ocorre antes da definição da missão, permitindo que os objetivos estratégicos sejam adaptados conforme o monitoramento de desempenho.
-* **C)** A missão da organização é o ponto de partida do modelo, orientando o diagnóstico do ambiente, a definição de objetivos estratégicos, a criação de indicadores e metas, o monitoramento do desempenho e os planos de ação.
-* **D)** Os planos de ação são definidos antes do diagnóstico do ambiente, sendo revisados posteriormente com base nos indicadores de desempenho e metas estabelecidos.
-* **E)** O modelo segue uma lógica circular, sem início ou fim definidos, focando exclusivamente no monitoramento do desempenho como eixo central do processo.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O modelo inicia se com o monitoramento do desempenho, seguido da definição dos objetivos estratégicos, indicadores...". De acordo com a teoria estudada em *Elementos Indispensáveis para a Responsabilização Objetiva:*, conduta Estatal: Ação ou comportamento imputável a um agente público (efetivo, comissionado, temporário ou terceiro delegatário) agindo nessa qualidade.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O diagnóstico do ambiente ocorre antes da definição da missão, permitindo que os objetivos estratégicos sejam...". De acordo com a teoria estudada em *1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica*, omissão Específica (Responsabilidade Objetiva Tema 592/STF): Ocorre quando o Estado atua na posição de garante, detendo a pessoa ou a coisa sob sua imediata custódia física institucional (ex.: morte ou lesão corporal de detento em estabelecimento penitenciário; acidente com criança no interior de escola pública municipal; suicídio de paciente internado em hospital psiquiátrico público). A responsabilidade é OBJETIVA; o Estado só se exonera se comprovar que a morte ou o dano decorreu de causa natural ou que o evento era faticamente inevitável mesmo com o cumprimento de todos os protocolos regulares de vigilância.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Princípios do Serviço Público Adequado* deste guia, segurança: Minimização de riscos aos usuários e ao meio ambiente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "A missão da organização é o ponto de partida do modelo, orientando o diagnóstico do ambiente, a definição de...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os planos de ação são definidos antes do diagnóstico do ambiente, sendo revisados posteriormente com base nos...". De acordo com a teoria estudada em *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)*, "A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O modelo segue uma lógica circular, sem início ou fim definidos, focando exclusivamente no monitoramento do...". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, fato Exclusivo de Terceiro: Dano provocado exclusivamente por ação autônoma e imprevisível de outrem sem qualquer concurso da conduta estatal (ex.: assalto à mão armada ocorrido dentro de um ônibus coletivo com disparo de arma de fogo deflagrado pelo criminoso).
->
-> **Gabarito: C**
-
----
-
 ## 3. Bens Públicos: Classificação, Afetação e Prerrogativas
 
 Conforme o art. 98 do Código Civil, são bens públicos todos aqueles pertencentes às pessoas jurídicas de direito público interno (União, Estados, DF, Municípios e suas autarquias e fundações públicas de direito público). Todos os demais são bens privados.
@@ -841,78 +394,69 @@ O regime jurídico dos bens públicos é informado por quatro prerrogativas estr
 
 ---
 
-### Teste 027
-**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
-NÃO contempla prerrogativa inerente ao regime jurídico de trabalho administrativo:
+### Teste 042
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O Código Civil brasileiro, em seu art. 99, classifica os bens públicos em bens de uso comum do povo, bens de uso especial e bens dominicais. A respeito do regime jurídico que recai sobre essas três categorias de bens públicos, assinale a opção correta:
 
-* **A)** impenhorabilidade dos bens públicos. desemprego involuntário.
-* **B)** a garantia de irredutibilidade do salário.
-* **C)** o décimo-terceiro salário com base na remuneração integral ou no valor da aposentadoria.
-* **D)** o prazo prescricional para propositura de ação ju- dicial quanto aos créditos resultantes da relação de
-* **E)** a redução dos riscos inerentes ao trabalho, por meio 42. Considere as afirmações abaixo, relativas ao conceito de de normas de saúde, higiene e segurança. serviço público: _________________________________________________________ I. O conceito de serviço público varia no tempo e no
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "impenhorabilidade dos bens públicos. desemprego involuntário". De acordo com a teoria estudada em *3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta*, impenhorabilidade: Os bens públicos não podem ser objeto de penhora ou constrição judicial para garantia de dívidas. A execução contra a Fazenda Pública opera se exclusivamente sob o regime constitucional de precatórios judiciais ou requisições de pequeno valor RPV (CF, art. 100).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a garantia de irredutibilidade do salário". De acordo com a teoria estudada em *A Teoria da Dupla Garantia:*, regime da Ação Regressiva: O Estado, após ser definitivamente condenado e efetuar o pagamento da indenização à vítima, tem o dever de ajuizar ação regressiva contra o servidor causador do dano. No âmbito da ação de regresso, a responsabilidade do servidor é SUBJETIVA, dependendo da comprovação cabal de que ele agiu com dolo ou culpa (negligência, imprudência ou imperícia).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o décimo terceiro salário com base na remuneração integral ou no valor da aposentadoria". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, fato Exclusivo de Terceiro: Dano provocado exclusivamente por ação autônoma e imprevisível de outrem sem qualquer concurso da conduta estatal (ex.: assalto à mão armada ocorrido dentro de um ônibus coletivo com disparo de arma de fogo deflagrado pelo criminoso).
-> - **D)** **Correta.** Conforme fundamentado na seção *Elementos Indispensáveis para a Responsabilização Objetiva:* deste guia, a responsabilidade objetiva do art. 37, § 6º, aplica se às empresas prestadoras de serviços públicos (concessionárias e permissionárias) tanto em relação aos usuários do serviço quanto em relação a terceiros não usuários (vítimas de acidentes causados pelo serviço público RE 591.874/STF). Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "o prazo prescricional para propositura de ação ju dicial quanto aos créditos resultantes da relação de".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a redução dos riscos inerentes ao trabalho, por meio 42. Considere as afirmações abaixo, relativas ao conceito de...". De acordo com a teoria estudada em *2.1 Princípios do Serviço Público Adequado*, segurança: Minimização de riscos aos usuários e ao meio ambiente.
->
-> **Gabarito: D**
-
----
-
-### Teste 028
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Direito)**
-Ana, Prefeita do Município Alfa, contava com residência oficial, que se situava em localidade central, próxima à sede do Partido Político Beta, ao qual estava filiada. No ano de realização da eleição em que concorreria à reeleição, Ana realizou reuniões de campanha de modo recorrente, em caráter reservado, na residência oficial, o que foi objeto de críticas dos demais candidatos ao pleito. No caso em tela, é correto afirmar que a conduta de Ana é
-
-* **A)** lícita, já que as reuniões não tiveram caráter de ato público.
-* **B)** ilícita, pois é vedado o uso de bens públicos em benefício de candidato.
-* **C)** Ilícita, salvo se Ana foi expressamente autorizada a realizar as reuniões pela Câmara Municipal de Alfa.
-* **D)** lícita, desde que as reuniões tenham sido realizadas em momento anterior à convenção partidária.
-* **E)** lícita, desde que as reuniões tenham sido realizadas em momento anterior ao registro de candidatura.
+* **A)** Os bens de uso comum do povo e os de uso especial são inalienáveis enquanto conservarem a sua qualificação legal.
+* **B)** Os bens dominicais podem ser objeto de usucapião por particulares desde que a posse mansa supere vinte anos.
+* **C)** Os bens de uso especial podem ser penhorados judicialmente para satisfação de créditos trabalhistas e fiscais.
+* **D)** A desafetação de um bem de uso comum do povo opera-se tacitamente com a omissão da autoridade pública por dez anos.
+* **E)** Todos os bens públicos admitem oneração por garantias reais de hipoteca para obtenção de financiamento bancário.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)* deste guia, "A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.". Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "lícita, já que as reuniões não tiveram caráter de ato público".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ilícita, pois é vedado o uso de bens públicos em benefício de candidato". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens de Uso Especial (Art. 99, II): Destinados à execução direta dos serviços públicos e ao funcionamento da máquina administrativa (edifícios de fóruns e tribunais, escolas públicas, hospitais estatais, viaturas policiais, quartéis).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ilícita, salvo se Ana foi expressamente autorizada a realizar as reuniões pela Câmara Municipal de Alfa". De acordo com a teoria estudada em *1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica*, omissão Específica (Responsabilidade Objetiva Tema 592/STF): Ocorre quando o Estado atua na posição de garante, detendo a pessoa ou a coisa sob sua imediata custódia física institucional (ex.: morte ou lesão corporal de detento em estabelecimento penitenciário; acidente com criança no interior de escola pública municipal; suicídio de paciente internado em hospital psiquiátrico público). A responsabilidade é OBJETIVA; o Estado só se exonera se comprovar que a morte ou o dano decorreu de causa natural ou que o evento era faticamente inevitável mesmo com o cumprimento de todos os protocolos regulares de vigilância.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "lícita, desde que as reuniões tenham sido realizadas em momento anterior à convenção partidária". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, caso Fortuito ou Força Maior Absoluta: Eventos imprevisíveis da natureza com violência desmedida (raios imprevisíveis, terremotos, trombas d'água fora de qualquer série histórica), desde que o Estado não tenha sido omisso em adotar medidas preventivas exigíveis.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "lícita, desde que as reuniões tenham sido realizadas em momento anterior ao registro de candidatura". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, contratos que tenham por objeto único o fornecimento de mão de obra, a mera locação de equipamentos ou a execução isolada de obra pública sem prestação continuada de serviços.
+> - **A)** **Correto**. Conforme preceitua expressamente o art. 100 do Código Civil: "Os bens públicos de uso comum do povo e os de uso especial são inalienáveis, enquanto conservarem a sua qualificação, na forma que a lei dispuser". Somente após a regular desafetação (conversão em bens dominicais) é que podem ser alienados, observados os requisitos da lei de licitações.
+> - **B)** **Incorreto**. Pelo art. 102 do Código Civil e arts. 183, § 3º e 191, parágrafo único da CF/88, os bens públicos jamais são sujeitos a usucapião (imprescritibilidade).
+> - **C)** **Incorreto**. Todos os bens públicos gozam da prerrogativa de impenhorabilidade (art. 100 da CF/88).
+> - **D)** **Incorreto**. A desafetação exige ato formal do Poder Público ou fato administrativo inconteste; a mera omissão não desafeta bem público.
+> - **E)** **Incorreto**. Bens públicos não podem ser gravados com ônus reais de garantia (inonorabilidade).
 >
 > **Gabarito: A**
+### Teste 043
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A afetação e a desafetação de bens públicos expressam a consagração ou a desvinculação de uma coisa pública a uma finalidade estatal específica. A respeito dos modos de afetação e desafetação e de suas repercussões para o controle patrimonial, é correto afirmar que:
 
----
-
-### Teste 029
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Economia)**
-Em uma pequena cidade, a prefeitura estuda financiar a iluminação das ruas por meio de contribuições voluntárias dos moradores. Como é difícil excluir do uso do sistema aqueles que não pagam, cada morador tem incentivo a contribuir menos do que contribuiria se pudesse ser cobrado individualmente pelo benefício recebido. Do ponto de vista microeconômico, a principal razão para a tendência à provisão ineficiente desse serviço é
-
-* **A)** o problema do carona, associado à não exclusão característica dos bens públicos.
-* **B)** a rivalidade no consumo do bem, que exige alocação por preços.
-* **C)** a existência de economias de escala, que transforma o serviço em monopólio natural.
-* **D)** a presença de externalidade positiva, decorrente do problema de não rivalidade no consumo.
-* **E)** o fato de o bem ser de clube, permitindo exclusão sem custo relevante.
+* **A)** A afetação exige sempre lei autorizativa específica aprovada pelo Legislativo, vedada a afetação tácita fática.
+* **B)** A desafetação de bem de uso especial para dominical transfere o bem para o comércio jurídico, admitindo alienação.
+* **C)** O bem desafetado perde a imunidade tributária e a impenhorabilidade mesmo pertencendo ao patrimônio estatal.
+* **D)** A construção de uma escola em terreno dominical consubstancia desafetação administrativa por ato formal de gestão.
+* **E)** Os bens de uso comum do povo não admitem desafetação por se tratarem de patrimônio com tutela constitucional absoluta.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o problema do carona, associado à não exclusão característica dos bens públicos". De acordo com a teoria estudada em *3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta*, o art. 183, § 3º e o art. 191, parágrafo único, da Constituição Federal, corroborados pela Súmula 340 do STF, preceituam que nenhum bem público, qualquer que seja sua classificação (inclusive os bens dominicais), pode ser adquirido por usucapião.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a rivalidade no consumo do bem, que exige alocação por preços". De acordo com a teoria estudada em *2.3 Formas de Extinção das Concessões: Encampação vs. Caducidade*, eXT ENC["ENCAMPAÇÃO (Art. 37)<br/ • Motivo de INTERESSE PÚBLICO relevante<br/ • A concessionária NÃO cometeu nenhuma falta<br/ • Exige LEI AUTORIZATIVA específica + PRÉVIA INDENIZAÇÃO"].
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a existência de economias de escala, que transforma o serviço em monopólio natural". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens de Uso Comum do Povo (Art. 99, I): Destinados ao uso franqueado e indistinto de toda a coletividade (mares, rios, estradas, ruas, praças, praias). Podem ser utilizados gratuitamente ou mediante cobrança de tarifa/pedágio autorizada por lei.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a presença de externalidade positiva, decorrente do problema de não rivalidade no consumo". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, fato Exclusivo de Terceiro: Dano provocado exclusivamente por ação autônoma e imprevisível de outrem sem qualquer concurso da conduta estatal (ex.: assalto à mão armada ocorrido dentro de um ônibus coletivo com disparo de arma de fogo deflagrado pelo criminoso).
-> - **E)** **Correta.** Conforme fundamentado na seção *3.2 Fenômeno da Afetação e Desafetação* deste guia, afetação: É a atribuição formal ou fática de uma destinação pública a determinado bem (o bem passa a ser de uso comum ou de uso especial). Enquanto afetado, o bem é inalienável. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "o fato de o bem ser de clube, permitindo exclusão sem custo relevante".
+> - **A)** **Incorreto**. A afetação pode ocorrer de forma expressa (por lei ou decreto) ou fática/tácita (quando a Administração simplesmente passa a destinar o bem a um serviço público).
+> - **B)** **Correto**. A desafetação é o fenômeno jurídico pelo qual o bem público deixa de estar vinculado a uma destinação pública direta (deixa de ser de uso comum ou de uso especial) e ingressa na categoria de bem dominical (patrimonial). Uma vez desafetado, passa a ser alienável, desde que cumpridos os requisitos legais (interesse público, avaliação prévia e autorização legislativa).
+> - **C)** **Incorreto**. O bem dominical continua sendo bem público e, portanto, mantém a impenhorabilidade e a imprescritibilidade.
+> - **D)** **Incorreto**. Destinar o imóvel à atividade escolar consubstancia afetação (e não desafetação).
+> - **E)** **Incorreto**. Bens de uso comum (praças, ruas) admitem desafetação mediante lei específica.
 >
-> **Gabarito: E**
+> **Gabarito: B**
+### Teste 044
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinada área de terras devolutas pertencente ao patrimônio do Estado de Goiás foi invadida por particulares que ali construíram residências e desenvolveram atividade agropastoril contínua e pacífica por mais de quinze anos ininterruptos. Diante do pleito de usucapião formulado pelos posseiros em face da Fazenda Pública estadual:
+
+* **A)** A pretensão é juridicamente inviável, pois a Constituição veda o usucapião de imóveis públicos de qualquer espécie.
+* **B)** O usucapião é admissível exclusivamente para terras devolutas dominicais desprovidas de afetação administrativa direta.
+* **C)** A ocupação mansa e pacífica de terra pública por mais de dez anos converte a detenção ilícita em posse de boa-fé.
+* **D)** O Estado perde a titularidade do domínio imobiliário caso não comprove a cobrança periódica de foro ou taxa de ocupação.
+* **E)** O juiz deve declarar a prescrição aquisitiva extraordinária em favor dos posseiros que exploram a função social da terra.
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** **Correto**. Conforme dispõem os arts. 183, § 3º e 191, parágrafo único, da CF/88, e a Súmula nº 340 do STF ("Desde a vigência do Código Civil, os bens dominicais, como os demais bens públicos, não podem ser adquiridos por usucapião"), os bens públicos de qualquer natureza (inclusive as terras devolutas dominicais) são absolutamente imprescritíveis. A ocupação de bem público por particular consubstancia mera detenção clandestina, insuscetível de gerar efeitos possessórios aquisitivos contra o Poder Público.
+> - **B)** **Incorreto**. Os bens dominicais gozam da mesma imprescritibilidade outorgada aos demais bens públicos.
+> - **C)** **Incorreto**. A jurisprudência consolidada do STJ (Súmula 619) reconhece que a ocupação de área pública não gera posse, mas mera detenção fática precária.
+> - **D)** **Incorreto**. A omissão do Estado não acarreta a perda da propriedade de terras públicas.
+> - **E)** **Incorreto**. A função social não autoriza a aquisição por usucapião de imóveis pertencentes ao domínio do Estado.
+>
+> **Gabarito: A**
 ## 4. Fontes Recomendadas na Internet
 
 - [Constituição Federal de 1988 - Art. 37, § 6º, Art. 183, § 3º e Art. 191](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37)  

@@ -5,7 +5,9 @@
 > **Arquivo:** `01_compreensao_e_interpretacao_de_texto.md`  
 > **Referência Temática:** Teoria do Texto, Tipologias, Discurso Narrativo e Estilística na Banca FCC
 
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -18,7 +20,9 @@
 - Figuras de linguagem e recursos expressivos (Semânticas, Sintáticas/de Construção e Fonéticas);
 - Identificação de tese, estratégias argumentativas, pressupostos e subentendidos na tipologia dissertativa.
 
+
 ---
+
 
 ## 🧭 Sumário
 
@@ -27,41 +31,53 @@
     2. [Interpretação Textual e Inferência Autorizada](#12-interpretacao-textual-e-inferencia-autorizada)
     3. [Os Três Erros Clássicos de Leitura](#13-os-tres-erros-classicos-de-leitura)
     4. [Método Prático de Resolução](#14-metodo-pratico-de-resolucao)
+    5. [Teste 001](#Teste-001)
 2. [Gêneros Textuais e Contexto de Produção](#2-generos-textuais-e-contexto-de-producao)
     1. [Tipo Textual vs. Gênero Textual](#21-tipo-textual-vs-genero-textual)
     2. [Ensaio, Editorial, Crônica e Artigo de Opinião](#22-ensaio-editorial-cronica-e-artigo-de-opiniao)
     3. [Contexto Histórico, Cultural e Ideológico](#23-contexto-historico-cultural-e-ideologico)
+    4. [Teste 002](#Teste-002)
 3. [Tipologias Textuais](#3-tipologias-textuais)
     1. [Quadro Comparativo das Tipologias](#31-quadro-comparativo-das-tipologias)
     2. [Narração e Descrição](#32-narracao-e-descricao)
     3. [Exposição e Injunção](#33-exposicao-e-injuncao)
+    4. [Teste 003](#Teste-003)
 4. [Argumentação na Tipologia Dissertativa](#4-argumentacao-na-tipologia-dissertativa)
     1. [Tese e Estrutura do Texto Argumentativo](#41-tese-e-estrutura-do-texto-argumentativo)
     2. [Estratégias Argumentativas](#42-estrategias-argumentativas)
     3. [Operadores Argumentativos](#43-operadores-argumentativos)
     4. [Pressupostos e Subentendidos](#44-pressupostos-e-subentendidos)
+    5. [Teste 004](#Teste-004)
+    6. [Teste 005](#Teste-005)
 5. [Níveis de Linguagem e Denotação e Conotação](#5-niveis-de-linguagem-e-denotacao-e-conotacao)
     1. [Linguagem Denotativa](#51-linguagem-denotativa)
     2. [Linguagem Conotativa](#52-linguagem-conotativa)
+    3. [Teste 006](#Teste-006)
 6. [Modalidades de Discurso](#6-modalidades-de-discurso)
     1. [Discurso Direto](#61-discurso-direto)
     2. [Discurso Indireto](#62-discurso-indireto)
     3. [Discurso Indireto Livre](#63-discurso-indireto-livre)
+    4. [Teste 007](#Teste-007)
 7. [Transposição de Discursos](#7-transposicao-de-discursos)
     1. [Tabela de Transposição do Direto para o Indireto](#71-tabela-de-transposicao-do-direto-para-o-indireto)
     2. [Correlação Verbal e Armadilhas na Transposição](#72-correlacao-verbal-e-armadilhas-na-transposicao)
+    3. [Teste 008](#Teste-008)
 8. [Intertextualidade](#8-intertextualidade)
     1. [Paráfrase](#81-parafrase)
     2. [Paródia](#82-parodia)
     3. [Citação, Epígrafe e Alusão](#83-citacao-epigrafe-e-alusao)
+    4. [Teste 009](#Teste-009)
 9. [Figuras de Linguagem](#9-figuras-de-linguagem)
     1. [Figuras Semânticas ou de Palavra](#91-figuras-semanticas-ou-de-palavra)
     2. [Figuras de Pensamento](#92-figuras-de-pensamento)
     3. [Figuras de Construção ou de Sintaxe](#93-figuras-de-construcao-ou-de-sintaxe)
     4. [Figuras Sonoras ou Fonéticas](#94-figuras-sonoras-ou-foneticas)
+    5. [Teste 010](#Teste-010)
+    6. [Teste 011](#Teste-011)
 10. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
+
 
 ## 1. Compreensão vs. Interpretação na Tradição da FCC
 
@@ -127,169 +143,39 @@ Outro ponto importante é o **vocabulário em contexto**: a FCC frequentemente p
 
 > 💡 **DICA DE RESOLUÇÃO / RECONHECIMENTO DE TESE:** O primeiro parágrafo de um texto dissertativo da FCC normalmente contextualiza o tema e apresenta a tese. O último parágrafo sintetiza a conclusão. Se a questão indagar a ideia central, releia atentamente o início e o fim do texto antes de analisar as alternativas intermediárias.
 
+
 ---
+
 
 ### Teste 001
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-Observe uma peça de campanha divulgada pela Secretaria do Estado de Turismo de Santa Catarina em 2023. Fonte: https://acontecendoaqui.com.br/propaganda/nova-marca-do-turismo-de- santa-catarina-e-apresentada-ao-mercado/ Na campanha apresentada, a construção de sentidos decorre da articulação entre elementos verbais e não verbais, mobilizando recursos semânticos e visuais para promover o turismo. Considerando essa relação, assinale a afirmativa que melhor interpreta a estratégia discursiva empregada na peça.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+*Considere o seguinte excerto:*  
+*"A velocidade vertiginosa com que as novas tecnologias de inteligência artificial são integradas ao cotidiano suscita promessas sedutoras de eficiência administrativa absoluta e erradicação do erro humano. Contudo, essa aparente panaceia obscurece o fato de que os sistemas algorítmicos herdaram os próprios vieses, preconceitos e miopias éticas dos dados históricos que os alimentam. Longe de representarem uma objetividade asséptica, tais instrumentos podem operar como sofisticados espelhos que reproduzem, com roupagem matemática, as velhas assimetrias sociais"*.
 
-* **A)** A imagem de interação entre pessoas destaca o caráter coletivo da cena, enquanto o texto verbal remete à dimensão institucional da campanha turística.
-* **B)** O uso de formas circulares atua como recurso visual que acompanha o conteúdo verbal apresentado na peça publicitária.
-* **C)** A expressão “Santa Catarina” cumpre função informativa, contribuindo para a identificação explícita do local promovido na campanha.
-* **D)** A campanha articula texto e imagem de modo complementar, de forma que o conteúdo visual só pode ser compreendido pela leitura do slogan.
-* **E)** A expressão “um estado de alegria” explora o duplo sentido da palavra “estado”, articulando a ideia de unidade federativa à de condição emocional sugerida pela cena.
+A partir da leitura atenta do texto, depreende-se corretamente que:
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A imagem de interação entre pessoas destaca o caráter coletivo da cena, enquanto o texto verbal remete à dimensão...". De acordo com a teoria estudada em *2.3 Contexto Histórico, Cultural e Ideológico*, na prova, isso aparece em perguntas sobre o ponto de vista do autor, sobre o efeito de sentido de uma referência histórica ou sobre a crítica social implícita em uma narrativa. Atenção, porém: a relação com o contexto deve ser sugerida pelo próprio texto (datas, nomes, vocabulário de época, referências explícitas); usar o contexto para atribuir ao autor ideias que ele não expressou é extrapolação (ver item 1.3).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O uso de formas circulares atua como recurso visual que acompanha o conteúdo verbal apresentado na peça...". De acordo com a teoria estudada em *7.2 Correlação Verbal e Armadilhas na Transposição*, a regra dos tempos decorre da correlação verbal (ou consecutio temporum ): quando o verbo de elocução está no pretérito ( afirmou, disse, perguntou ), os verbos da oração subordinada devem acompanhá lo no plano do passado. Assim, o futuro do presente ( concluirei ), que indica um fato posterior ao momento da fala, converte se em futuro do pretérito ( concluiria ), que indica um fato posterior a um momento passado. Manter o futuro do presente ( afirmou que concluirá ) quebra essa correlação. Na língua corrente, essa forma pode aparecer quando o fato ainda é futuro em relação ao momento em que se narra, mas, nas questões de transposição da FCC, o gabarito segue a correlação canônica: pretérito no verbo principal → futuro do pretérito na subordinada.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A expressão “Santa Catarina” cumpre função informativa, contribuindo para a identificação explícita do local...". De acordo com a teoria estudada em *9.3 Figuras de Construção ou de Sintaxe*, anáfora: repetição da mesma palavra ou expressão no início de versos, frases ou orações sucessivas ( "É preciso fiscalizar. É preciso punir. É preciso prevenir." ).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A campanha articula texto e imagem de modo complementar, de forma que o conteúdo visual só pode ser compreendido...". De acordo com a teoria estudada em *8.2 Paródia*, a paródia retoma um texto conhecido para subvertê lo, invertendo ou deslocando seu sentido com intenção crítica, cômica ou irônica. É intertextualidade de ruptura. Para funcionar, a paródia precisa ser reconhecida: ela imita a forma (ritmo, estrutura, palavras chave) do original, mas altera o conteúdo. Exemplo célebre é o "Canto de regresso à pátria", de Oswald de Andrade, que parodia a "Canção do Exílio" ("Minha terra tem palmares / onde gorjeia o mar"), substituindo o ufanismo romântico por uma visão crítica. Alguns autores distinguem ainda o pastiche, que imita o estilo de um autor ou escola sem intenção necessariamente crítica.
-> - **E)** **Correta.** Conforme fundamentado na seção *9. Figuras de Linguagem* deste guia, as figuras de linguagem (ou figuras de estilo) são recursos que afastam a expressão do uso literal e comum para obter maior expressividade, ênfase, beleza ou efeito crítico. A FCC explora intensamente figuras de linguagem em textos poéticos e ensaísticos, geralmente pedindo que o candidato as identifique ou explique seu efeito de sentido. Para fins didáticos, dividem se em quatro grupos: figuras semânticas ou de palavra, figuras de pensamento, figuras de construção ou sintaxe e figuras sonoras ou fonéticas. (Algumas gramáticas reúnem as de palavra e de pensamento sob o rótulo "semânticas"; a ementa adota essa divisão tripartida.). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "A expressão “um estado de alegria” explora o duplo sentido da palavra “estado”, articulando a ideia de unidade...".
->
-> **Gabarito: E**
-
----
-
-### Teste 002
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-Leia a notícia a seguir, publicada em abril de 2026. Juros e cenário exterior afetam mais a economia catarinense Dois setores pesquisados pelo IBGE, a indústria e os serviços apresentaram retração no primeiro bimestre do ano frente aos mesmos meses de 2025 Há meses que os juros básicos nas alturas, em 15% ao ano, mais o tarifaço dos EUA e outros fatores vêm afetando a economia catarinense, mas os estragos maiores, até agora, apareceram nos dados de janeiro e fevereiro, apurados pelo IBGE. As pesquisas mostraram retração de 6,1% da indústria no primeiro bimestre frente ao mesmo período do ano passado e retração também dos serviços em 1,2%. Somente o comércio ampliado cresceu 2,4% nessa comparação em SC. A produção industrial de Santa Catarina fechou os dois primeiros meses do ano com recuo de -6,2% frente aos mesmos meses de 2025. As maiores quedas foram na fabricação de automóveis, reboques e carrocerias (-20,4%), produção de móveis (-22,6%) e fabricação de máquinas e equipamentos (-16,5%). Entre os 14 setores pesquisados pelo IBGE, somente dois tiveram crescimento de vendas no bimestre frente ao mesmo período de 2025, apurou o Observatório Fiesc, da Federação das Indústrias de SC. As altas foram na produção de alimentos (+1,4%) e de produtos de borracha e plástico (+0,4%). https://www.nsctotal.com.br/colunistas/estela-benetti/juros-e-cenario-exterior- afetam-mais-a-economia-catarinense A respeito da utilização de dados numéricos na notícia apresentada, marque a opção correta.
-
-* **A)** Os dados numéricos contribuem para quantificar as informações apresentadas, sem interferir na credibilidade do texto.
-* **B)** A presença de dados numéricos organiza as informações do texto, pois, sem eles, o leitor poderia ter dificuldades na compreensão textual.
-* **C)** O uso de dados numéricos confere precisão às informações e contribui para a construção de uma abordagem objetiva e fundamentada dos fatos.
-* **D)** Os dados numéricos são utilizados para ilustrar as informações, funcionando como exemplos que poderiam ser substituídos por descrições qualitativas.
-* **E)** A inserção de dados numéricos no texto tem função predominantemente explicativa, voltada à simplificação do conteúdo apresentado ao leitor.
+* **A)** A tecnologia de inteligência artificial deve ter sua aplicação sumariamente suspensa nas repartições públicas, por constituir ameaça insanável aos direitos fundamentais.
+* **B)** A eficiência operacional proporcionada pelos algoritmos revelou-se ilusória, uma vez que as máquinas cometem rigorosamente a mesma quantidade de falhas que os seres humanos.
+* **C)** O autor adota uma postura crítica ao evidenciar que a pretensa neutralidade da inteligência artificial pode ocultar a perpetuação de distorções e desigualdades preexistentes na sociedade.
+* **D)** A erradicação dos erros administrativos é um objetivo já alcançado nas esferas em que a tecnologia algorítmica substituiu o juízo humano.
+* **E)** Os vieses algorítmicos decorrem da imperícia intencional dos engenheiros de computação que desenvolvem modelos visando discriminar grupos sociais específicos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os dados numéricos contribuem para quantificar as informações apresentadas, sem interferir na credibilidade do...". De acordo com a teoria estudada em *4.2 Estratégias Argumentativas*, argumento por evidência ou provas concretas: recorre a dados estatísticos, números, fatos verificáveis.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A presença de dados numéricos organiza as informações do texto, pois, sem eles, o leitor poderia ter dificuldades...". De acordo com a teoria estudada em *2.1 Tipo Textual vs. Gênero Textual*, é essencial não confundir tipo (ou tipologia) com gênero textual. O tipo textual é uma categoria abstrata, definida por traços linguísticos internos: tempos verbais predominantes, relações lógicas, presença de sequência temporal etc. Os tipos são poucos e fixos — narração, descrição, dissertação (expositiva e argumentativa) e injunção (alguns autores acrescentam o tipo dialogal). O gênero textual, por sua vez, é a forma concreta e socialmente reconhecida que o texto assume no dia a dia: notícia, editorial, crônica, receita, edital, ofício, sentença, ensaio, carta de leitor. Os gêneros são praticamente infinitos e mudam com a sociedade (o e mail e o post são gêneros recentes).
-> - **C)** **Correta.** Conforme fundamentado na seção *2.2 Ensaio, Editorial, Crônica e Artigo de Opinião* deste guia, ensaio (inclusive o filosófico): texto reflexivo, de extensão variável, em que o autor examina um tema (ética, tecnologia, linguagem, cultura) de forma pessoal, mas fundamentada. Caracteriza se por vocabulário abstrato e elaborado, períodos longos, uso frequente de citações e referências a outros pensadores, e por uma argumentação que muitas vezes avança por contraste de ideias ("pode se pensar que... contudo..."). É o gênero que mais exige atenção a nuances de sentido e ao vocabulário em contexto. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "O uso de dados numéricos confere precisão às informações e contribui para a construção de uma abordagem objetiva e...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os dados numéricos são utilizados para ilustrar as informações, funcionando como exemplos que poderiam ser...". De acordo com a teoria estudada em *5.1 Linguagem Denotativa*, a denotação é o uso da palavra em seu sentido literal, objetivo e dicionarizado, aquele que é compartilhado por todos os falantes independentemente do contexto. A linguagem denotativa busca precisão e unissignificação (cada termo tem um só sentido possível no contexto), evitando ambiguidades e cargas emocionais. Por isso é a linguagem própria de textos técnicos, científicos, jurídicos, normativos, jornalísticos informativos e relatórios de auditoria.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A inserção de dados numéricos no texto tem função predominantemente explicativa, voltada à simplificação do...". De acordo com a teoria estudada em *3.1 Quadro Comparativo das Tipologias*, dissertativo Argumentativo: Defender um ponto de vista (tese) e persuadir o leitor mediante argumentos lógicos. — Presença de operadores argumentativos ( portanto, contudo, por conseguinte ), juízos de valor, dados estatísticos e citações. — É a tipologia campeã da FCC. Textos de reflexão filosófica, sociológica e política.
+> - **A)** Incorreta. O texto não defende o banimento ou a suspensão sumária da tecnologia, mas alerta para o perigo de considerá-la neutra ou imune a falhas. A alternativa propõe uma solução que o autor não formulou: erro clássico de **extrapolação**.
+> - **B)** Incorreta. O texto não afirma que as máquinas cometem "rigorosamente a mesma quantidade de falhas" que os humanos; não há comparação quantitativa alguma. O texto diz que os sistemas herdam os vieses e preconceitos dos dados históricos. Há extrapolação, agravada pelo termo absoluto "rigorosamente".
+> - **C)** Correta. O núcleo argumentativo do excerto (introduzido pelo conectivo adversativo *"Contudo"*, reforçado pela expressão retificadora *"Longe de"*) desconstrói a visão ingênua da IA como "objetividade asséptica", demonstrando que os modelos funcionam como "espelhos que reproduzem, com roupagem matemática, as velhas assimetrias sociais". A alternativa traduz com precisão essa tese crítica, inclusive preservando o grau de possibilidade ("pode ocultar" ↔ "podem operar").
+> - **D)** Incorreta. O autor classifica a erradicação do erro como mera "promessa sedutora" e "aparente panaceia", não como um fato concretizado. Tratar a promessa como fato consumado é erro de **contradição**.
+> - **E)** Incorreta. O texto esclarece que os vieses decorrem dos "dados históricos que os alimentam", e não de má-fé ou dolo intencional dos desenvolvedores. A atribuição de culpa e intenção é extrapolação sem amparo no excerto.
 >
 > **Gabarito: C**
 
----
 
-### Teste 003
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-Leia o texto a seguir: Departamento de Libras promove palestra ‘Trazendo a universidade para a vida e vida à universidade’ O Departamento de Libras da UFSC irá promover a palestra “Trazendo a universidade para a vida e vida à universidade” com o educador Fernando Leão (vice-presidente do Instituto Caminho do Meio). O evento será realizado na sala 305 do Espaço Físico Integrado (EFI), 3º andar, no dia 8 de outubro, das 8h30 às 11h30. Haverá interpretação para Libras. https://noticias.ufsc.br/tags/departamento-de-libras/ No texto apresentado, observa-se a predominância de verbos no futuro, como em “irá promover”, “será realizado” e “haverá”. Considerando o efeito de sentido produzido por essa escolha verbal, é correto afirmar que
-
-* **A)** o emprego de verbos no futuro reforça o caráter informativo e prospectivo do texto, anunciando ações previstas para momento posterior.
-* **B)** o uso predominante de verbos no futuro indica hipótese, sugerindo incerteza quanto à realização do evento anunciado.
-* **C)** a predominância de verbos no futuro contribui para a construção de um texto narrativo, relatando acontecimentos posteriores ao momento da enunciação.
-* **D)** o uso do futuro verbal aproxima o texto da linguagem injuntiva, orientando o leitor sobre ações que deverão ser realizadas.
-* **E)** a utilização do futuro verbal confere subjetividade ao texto, destacando expectativas pessoais do autor sobre o evento divulgado.
 
 ---
 
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *7.2 Correlação Verbal e Armadilhas na Transposição* deste guia, a regra dos tempos decorre da correlação verbal (ou consecutio temporum ): quando o verbo de elocução está no pretérito ( afirmou, disse, perguntou ), os verbos da oração subordinada devem acompanhá lo no plano do passado. Assim, o futuro do presente ( concluirei ), que indica um fato posterior ao momento da fala, converte se em futuro do pretérito ( concluiria ), que indica um fato posterior a um momento passado. Manter o futuro do presente ( afirmou que concluirá ) quebra essa correlação. Na língua corrente, essa forma pode aparecer quando o fato ainda é futuro em relação ao momento em que se narra, mas, nas questões de transposição da FCC, o gabarito segue a correlação canônica: pretérito no verbo principal → futuro do pretérito na subordinada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "o emprego de verbos no futuro reforça o caráter informativo e prospectivo do texto, anunciando ações previstas...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o uso predominante de verbos no futuro indica hipótese, sugerindo incerteza quanto à realização do evento anunciado". De acordo com a teoria estudada em *7.2 Correlação Verbal e Armadilhas na Transposição*, também é preciso respeitar o sentido temporal original: o futuro (algo que ainda vai acontecer) não pode virar pretérito mais que perfeito ( concluíra = algo que já tinha acontecido), e amanhã não pode virar na véspera (que equivale a ontem ). Do mesmo modo, o modo verbal deve ser preservado: uma afirmação no indicativo não se converte em subjuntivo ( que tenha concluído ), que exprime hipótese, desejo ou dúvida, salvo quando o original já era uma ordem (imperativo → imperfeito do subjuntivo: "Faça!" → que fizesse).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a predominância de verbos no futuro contribui para a construção de um texto narrativo, relatando acontecimentos...". De acordo com a teoria estudada em *3.1 Quadro Comparativo das Tipologias*, narrativo: Relatar uma sequência temporal de acontecimentos reais ou ficcionais envolvendo personagens. — Verbos de ação no pretérito perfeito/imperfeito, marcadores temporais ( então, depois, subitamente ), progressão de tempo. — Trechos de romances clássicos (Machado de Assis, Lima Barreto, Clarice Lispector).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o uso do futuro verbal aproxima o texto da linguagem injuntiva, orientando o leitor sobre ações que deverão ser...". De acordo com a teoria estudada em *3.2 Narração e Descrição*, a descrição constrói um "retrato verbal" de um ser, objeto, ambiente ou estado de espírito, como se o tempo estivesse suspenso. Predominam adjetivos, locuções adjetivas, verbos de estado ( ser, estar, parecer ) e o pretérito imperfeito ("A sala era ampla; as janelas davam para o pátio"). A descrição pode ser objetiva (precisa, denotativa, como em um laudo técnico) ou subjetiva (impregnada das impressões de quem descreve, com linguagem conotativa).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a utilização do futuro verbal confere subjetividade ao texto, destacando expectativas pessoais do autor sobre o...". De acordo com a teoria estudada em *2.3 Contexto Histórico, Cultural e Ideológico*, nenhum texto surge do nada: ele é produzido por alguém, em determinada época, para determinado público, sob certos valores. Relacionar o texto ao seu contexto significa perceber como esses fatores condicionam o sentido. O contexto histórico diz respeito ao momento em que o texto foi escrito (uma crônica de Machado de Assis sobre a escravidão no século XIX deve ser lida à luz daquela sociedade). O contexto cultural envolve os costumes, crenças e referências partilhadas por autor e leitores (uma alusão bíblica ou a um poema canônico só é percebida por quem conhece a referência). O contexto ideológico refere se ao conjunto de valores e visões de mundo que o texto assume, defende ou critica — por exemplo, um texto que denuncia a "neutralidade" da tecnologia adota uma posição crítica em relação à ideologia tecnicista.
->
-> **Gabarito: A**
-
----
-
-### Teste 004
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-Todas as frases a seguir mostram termos ligados pela conjunção OU. Assinale a opção em que essa conjunção mantém o valor de alternativa (e não de adição).:
-
-* **A)** João ou Pedro devem ser eleitos presidente da empresa.
-* **B)** A alegria ou a tristeza fazem parte da vida.
-* **C)** Inglês ou francês são idiomas falados pelos turistas.
-* **D)** Os clientes leem livros ou revistas enquanto esperam.
-* **E)** Vasco ou Flamengo são times de longa tradição
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *7.2 Correlação Verbal e Armadilhas na Transposição* deste guia, a regra dos tempos decorre da correlação verbal (ou consecutio temporum ): quando o verbo de elocução está no pretérito ( afirmou, disse, perguntou ), os verbos da oração subordinada devem acompanhá lo no plano do passado. Assim, o futuro do presente ( concluirei ), que indica um fato posterior ao momento da fala, converte se em futuro do pretérito ( concluiria ), que indica um fato posterior a um momento passado. Manter o futuro do presente ( afirmou que concluirá ) quebra essa correlação. Na língua corrente, essa forma pode aparecer quando o fato ainda é futuro em relação ao momento em que se narra, mas, nas questões de transposição da FCC, o gabarito segue a correlação canônica: pretérito no verbo principal → futuro do pretérito na subordinada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "João ou Pedro devem ser eleitos presidente da empresa".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A alegria ou a tristeza fazem parte da vida". De acordo com a teoria estudada em *9.1 Figuras Semânticas ou de Palavra*, metonímia: substituição de um termo por outro com o qual mantém relação lógica de contiguidade (proximidade, pertença, causa), e não de semelhança. Casos típicos: o autor pela obra ( "Li Machado de Assis" ), a parte pelo todo ( "Várias cabeças pensavam na solução" — esta modalidade é também chamada sinédoque), o continente pelo conteúdo ( "Bebeu dois copos" ), a marca pelo produto ( "Comprou uma gilete" ), o símbolo pela coisa ( "A coroa decidiu" = o rei), o lugar pela instituição ( "O Planalto vetou o projeto" ).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Inglês ou francês são idiomas falados pelos turistas". De acordo com a teoria estudada em *1.1 Compreensão Textual e Informação Explícita*, o perigo da compreensão é justamente a paráfrase "envenenada": a banca copia quase todas as palavras do texto, mas troca um único elemento — um quantificador ("alguns" vira "todos"), um tempo verbal (algo que "pode ocorrer" vira algo que "ocorreu"), uma relação de causa (o efeito vira causa) ou um sujeito (o que foi dito de um grupo passa a ser dito de outro). Por isso, ao comparar alternativa e texto, o candidato deve conferir: quem fez, o quê, em que grau (certeza ou possibilidade), em que extensão (todos ou alguns) e por qual motivo.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os clientes leem livros ou revistas enquanto esperam". De acordo com a teoria estudada em *4.2 Estratégias Argumentativas*, recursos retóricos: perguntas retóricas (que não esperam resposta, mas conduzem o leitor), ironia, metáforas argumentativas e escolha de vocabulário valorativo ("pretensa", "aparente", "sedutora").
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Vasco ou Flamengo são times de longa tradição". De acordo com a teoria estudada em *1. Compreensão vs. Interpretação na Tradição da FCC*, a Fundação Carlos Chagas (FCC) constrói enunciados rigorosos em que a distinção entre compreensão e interpretação define o método de resolução. Ler bem, para a banca, não é "achar a resposta que parece bonita", mas verificar, palavra por palavra, se a alternativa encontra autorização no texto. Toda questão de leitura é, no fundo, um teste de fidelidade: o candidato deve demonstrar que sabe distinguir o que o autor disse, o que o autor permite concluir e o que o autor jamais afirmou.
->
-> **Gabarito: A**
-
----
-
-### Teste 005
-**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
-Transpondo-se para a voz passiva a frase passaríamos a imaginar coisas, a forma verbal resultante será
-
-* **A)** I.
-* **B)** II.
-* **C)** III.
-* **D)** I e II.
-* **E)** II e III. _________________________________________________________
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *6. Modalidades de Discurso*, discursos DIL["DISCURSO INDIRETO LIVRE<br/ • FUSÃO da voz do narrador com o pensamento da personagem<br/ • Sem verbos de elocução e sem conectivos integrantes<br/ • Ex: Caminhava tenso pelo tribunal. Quando terminaria aquela auditoria? Não aguentava mais."].
-> - **B)** **Correta.** Conforme fundamentado na seção *7.2 Correlação Verbal e Armadilhas na Transposição* deste guia, a regra dos tempos decorre da correlação verbal (ou consecutio temporum ): quando o verbo de elocução está no pretérito ( afirmou, disse, perguntou ), os verbos da oração subordinada devem acompanhá lo no plano do passado. Assim, o futuro do presente ( concluirei ), que indica um fato posterior ao momento da fala, converte se em futuro do pretérito ( concluiria ), que indica um fato posterior a um momento passado. Manter o futuro do presente ( afirmou que concluirá ) quebra essa correlação. Na língua corrente, essa forma pode aparecer quando o fato ainda é futuro em relação ao momento em que se narra, mas, nas questões de transposição da FCC, o gabarito segue a correlação canônica: pretérito no verbo principal → futuro do pretérito na subordinada. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "II".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *6.3 Discurso Indireto Livre*, o discurso indireto livre é uma modalidade híbrida: a fala ou o pensamento da personagem é inserido diretamente na narração em 3ª pessoa, sem verbo de elocução, sem conjunção integrante e sem travessão ou aspas. A voz do narrador e a da personagem se fundem, de modo que o leitor "ouve" o fluxo de consciência da personagem por dentro do relato. É recurso típico do narrador onisciente e da prosa moderna (Graciliano Ramos, Clarice Lispector, Machado de Assis em alguns trechos).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *6.3 Discurso Indireto Livre*, discurso indireto livre não é figura de linguagem (não é metáfora, metonímia nem prosopopeia) e não é tipologia textual (não é dissertação). É um recurso de foco narrativo, ou seja, de organização da voz no texto narrativo. Alternativas que o classificam como figura de estilo ou como "discurso dissertativo" estão erradas.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *9.1 Figuras Semânticas ou de Palavra*, sinestesia: fusão de sensações percebidas por órgãos sensoriais distintos ( "Sua voz áspera e fria ecoou na sala" — tato aplicado à audição; "um perfume doce" — paladar aplicado ao olfato; "cor gritante" — audição aplicada à visão).
->
-> **Gabarito: B**
-
----
-
-### Teste 006
-**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
-Uma marca que mostra um traço da língua falada e não da língua escrita, é
-
-* **A)** a predominância de frases complexas.
-* **B)** o uso frequente da voz passiva.
-* **C)** o uso de interrupções para melhoria da expressão.
-* **D)** o apelo a variadas estratégias de produção textual.
-* **E)** a continuidade na expressão textual.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a predominância de frases complexas". De acordo com a teoria estudada em *9.3 Figuras de Construção ou de Sintaxe*, anáfora: repetição da mesma palavra ou expressão no início de versos, frases ou orações sucessivas ( "É preciso fiscalizar. É preciso punir. É preciso prevenir." ).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o uso frequente da voz passiva". De acordo com a teoria estudada em *2.2 Ensaio, Editorial, Crônica e Artigo de Opinião*, ensaio (inclusive o filosófico): texto reflexivo, de extensão variável, em que o autor examina um tema (ética, tecnologia, linguagem, cultura) de forma pessoal, mas fundamentada. Caracteriza se por vocabulário abstrato e elaborado, períodos longos, uso frequente de citações e referências a outros pensadores, e por uma argumentação que muitas vezes avança por contraste de ideias ("pode se pensar que... contudo..."). É o gênero que mais exige atenção a nuances de sentido e ao vocabulário em contexto.
-> - **C)** **Correta.** Conforme fundamentado na seção *9. Figuras de Linguagem* deste guia, as figuras de linguagem (ou figuras de estilo) são recursos que afastam a expressão do uso literal e comum para obter maior expressividade, ênfase, beleza ou efeito crítico. A FCC explora intensamente figuras de linguagem em textos poéticos e ensaísticos, geralmente pedindo que o candidato as identifique ou explique seu efeito de sentido. Para fins didáticos, dividem se em quatro grupos: figuras semânticas ou de palavra, figuras de pensamento, figuras de construção ou sintaxe e figuras sonoras ou fonéticas. (Algumas gramáticas reúnem as de palavra e de pensamento sob o rótulo "semânticas"; a ementa adota essa divisão tripartida.). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "o uso de interrupções para melhoria da expressão".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o apelo a variadas estratégias de produção textual". De acordo com a teoria estudada em *9.1 Figuras Semânticas ou de Palavra*, catacrese: metáfora desgastada pelo uso, que se incorporou à língua para nomear algo que não tinha nome próprio, a ponto de não ser mais percebida como figura ( "pé da mesa" , "braço da cadeira" , "céu da boca" , "embarcar no ônibus" ). Por ser automática e sem efeito expressivo, a catacrese não se confunde com metáforas criativas como "lágrimas de ferro".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a continuidade na expressão textual". De acordo com a teoria estudada em *5.1 Linguagem Denotativa*, a denotação é o uso da palavra em seu sentido literal, objetivo e dicionarizado, aquele que é compartilhado por todos os falantes independentemente do contexto. A linguagem denotativa busca precisão e unissignificação (cada termo tem um só sentido possível no contexto), evitando ambiguidades e cargas emocionais. Por isso é a linguagem própria de textos técnicos, científicos, jurídicos, normativos, jornalísticos informativos e relatórios de auditoria.
->
-> **Gabarito: C**
-
----
-
-### Teste 007
-**(CEBRASPE – TJ/DFT – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-Em “mas, sobretudo, realizada por todos” (R.51), a palavra “sobretudo” significa especialmente e serve para reforçar a ideia de oposição veiculada pela conjunção “mas”. ***. 118/MJ Em 12 de maio de 2011 À Excelentíssima Sra. Chefe da Gerência de Manutenção e Tecnologia do MJ Assunto: Administração. Pedido de agendamento de manutenção em equipamentos. 1. Com o objetivo de dar cumprimento ao Plano Geral de Reparos e Modernização dos equipamentos de tecnologia deste Órgão, gentilmente, solicito a Você o agendamento de visita técnica a este Departamento. 2. Durante as últimas semanas, foram constatados diversos defeitos nos computadores e nos monitores utilizados pelos funcionários. Será necessário reparos e substituições de alguns equipamentos. Por esta razão, solicitamos que a equipe de manutenção dirija-se ao local com peças de substituição. 3. Os equipamentos a serem substituídos são três teclados e três estabilizadores, conforme relatório produzido pela área técnica do Departamento, que segue anexo. 4. Solicitamos que o agendamento seja realizado o mais rapidamente possível pois a inoperância dos equipamentos ocasiona atraso no andamento dos processos que estão sob nossa responsabilidade. Respeitosamente, Maria Helena Júlia Diretora do Departamento de Comunicação Social do MJ
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em “mas, sobretudo, realizada por todos” (R.51), a palavra “sobretudo” significa especialmente e serve para...". De acordo com a teoria em *2.3 Contexto Histórico, Cultural e Ideológico*, nenhum texto surge do nada: ele é produzido por alguém, em determinada época, para determinado público, sob certos valores. Relacionar o texto ao seu contexto significa perceber como esses fatores condicionam o sentido. O contexto histórico diz respeito ao momento em que o texto foi escrito (uma crônica de Machado de Assis sobre a escravidão no século XIX deve ser lida à luz daquela sociedade). O contexto cultural envolve os costumes, crenças e referências partilhadas por autor e leitores (uma alusão bíblica ou a um poema canônico só é percebida por quem conhece a referência). O contexto ideológico refere se ao conjunto de valores e visões de mundo que o texto assume, defende ou critica — por exemplo, um texto que denuncia a "neutralidade" da tecnologia adota uma posição crítica em relação à ideologia tecnicista.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
-
----
 
 ## 2. Gêneros Textuais e Contexto de Produção
 
@@ -318,7 +204,37 @@ Na prova, isso aparece em perguntas sobre o **ponto de vista** do autor, sobre o
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Em textos antigos (Machado, Lima Barreto), a banca pode testar se o candidato reconhece a **ironia** do narrador diante dos valores da época. Ler literalmente um elogio irônico à elite do século XIX é um erro de contradição.
 
+--- 
+
+### Teste 002
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere o seguinte trecho:  
+*"A recente decisão governamental de rever a concessão de incentivos fiscais para determinados setores produtivos não deve ser encarada sob a ótica simplista do confronto ideológico. Trata-se, em verdade, de imperativo inadiável de responsabilidade fiscal e transparência republicana. Não é concebível que renúncias bilionárias continuem sendo renovadas sem a devida comprovação de contrapartidas sociais e geração efetiva de empregos. A sociedade tem o direito de saber o retorno exato de cada centavo que deixa de ingressar nos cofres públicos."*  
+(Adaptado de publicação institucional de órgão de imprensa)
+
+Quanto ao gênero textual e ao contexto discursivo, é correto afirmar que o texto:
+
+* **A)** Classifica-se como crônica lírica, por valer-se de fatos da vida diária para provocar comoção e despertar nostalgia no leitor.
+* **B)** Configura um editorial, na medida em que expressa a posição institucional do veículo sobre tema de interesse público coletivo, empregando tom sóbrio e sem marcas de subjetividade pessoalizada.
+* **C)** Estrutura-se como notícia estritamente factual, limitando-se a relatar cronologicamente os atos normativos recém-editados pelo Poder Executivo.
+* **D)** Corresponde a um ensaio filosófico subjetivo, centrado na discussão metafísica dos conceitos abstratos de justiça e virtude individual.
+* **E)** Caracteriza-se como texto injuntivo-instrucional, voltado a fornecer um passo a passo para que os cidadãos impugnem incentivos fiscais.
+
+--- 
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A crônica lírica parte de fatos cotidianos simples para evocar poesia, humor ou sentimentos subjetivos íntimos. O texto em análise aborda finanças públicas, orçamento e responsabilidade fiscal com vocabulário técnico-argumentativo.
+> - **B)** Correta. O texto analisa criticamente uma política pública, sustenta uma tese ("imperativo inadiável de responsabilidade fiscal"), não possui assinatura individual, evita pronomes de primeira pessoa do singular e expressa a opinião abalizada e institucional do veículo sobre tema de relevante interesse coletivo.
+> - **C)** Incorreta. A notícia tem caráter meramente informativo e expositivo (relata quem, o quê, quando, onde e como). O excerto acima é declaradamente opinativo e argumentativo ("não deve ser encarada", "Trata-se, em verdade", "Não é concebível").
+> - **D)** Incorreta. O texto é prático, político-econômico e jurídico-administrativo, e não uma reflexão teórica ou especulativa desvinculada de conjuntura concreta.
+> - **E)** Incorreta. Textos injuntivos ou instrucionais orientam ações com verbos no imperativo (receitas, editais, manuais). Não há instruções ou comandos procedimentais no excerto.
+>
+> **Gabarito: B**
+
+
 ---
+
 
 ## 3. Tipologias Textuais
 
@@ -348,7 +264,36 @@ A **injunção** orienta o comportamento do leitor: diz o que fazer e como fazer
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A presença de um **trecho** narrativo dentro de um texto não o torna narrativo. Um ensaio que conta uma pequena anedota para ilustrar sua tese continua sendo **predominantemente dissertativo-argumentativo**: a narrativa ali é apenas uma estratégia de argumentação (argumento por exemplificação).
 
+--- 
+
+### Teste 003
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere o seguinte excerto:  
+*"O relator ajeitou os óculos sobre o nariz, respirou fundo e abriu a pasta de capa azul que continha o processo de licitação sob suspeita. O silêncio na sala de sessões era denso, quebrado apenas pelo sussurro intermitente do aparelho de ar-condicionado. Naquelas quatrocentas páginas, repousavam indícios materiais de sobrepreço que desviavam recursos destinados ao transporte escolar. A negligência fiscalizatória da administração pública não é mera desatenção burocrática: traduz-se no abandono de crianças sem acesso às salas de aula e corrói a própria legitimidade das instituições democráticas."*
+
+Sobre a tipologia textual do excerto, constata-se que:
+
+* **A)** Há predomínio absoluto da tipologia narrativa de ficção, inexistindo qualquer juízo opinativo ou argumento dissertativo.
+* **B)** Trata-se de texto exclusivamente descritivo, cujo objetivo único é enumerar os traços físicos do relator e o mobiliário do tribunal.
+* **C)** Apresenta sequência híbrida em que elementos narrativos e descritivos funcionam como introdução contextualizadora para sustentar uma tese dissertativo-argumentativa sobre os efeitos sociais da corrupção.
+* **D)** Constitui texto tipicamente injuntivo, pois determina expressamente a condenação imediata dos gestores responsáveis pela licitação.
+* **E)** Classifica-se como dissertação puramente expositiva, isenta de qualquer posicionamento ético ou juízo de valor do emissor.
+
 ---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Embora o excerto comece narrando ações no tempo ("ajeitou", "respirou", "abriu"), a oração final introduz julgamento moral e político contundente ("não é mera desatenção... corrói a própria legitimidade"), afastando o caráter exclusivamente ficcional.
+> - **B)** Incorreta. A descrição é apenas um recurso ambiental de ambientação ("pasta de capa azul", "silêncio na sala de sessões era denso"), não constituindo a tipologia estruturante do parágrafo.
+> - **C)** Correta. Na tradição da FCC, é recorrente o uso de uma pequena cena narrativa/descritiva que serve de argumento por ilustração (ou exemplificação) para desembocar na tese central dissertativo-argumentativa formulada no desfecho.
+> - **D)** Incorreta. O texto não contém ordens, prescrições regulamentares nem verbos no modo imperativo.
+> - **E)** Incorreta. Há carga valorativa expressa em "negligência fiscalizatória", "abandono de crianças" e "corrói a própria legitimidade", o que caracteriza argumentação e refuta a pura neutralidade expositiva.
+>
+> **Gabarito: C**
+
+
+---
+
 
 ## 4. Argumentação na Tipologia Dissertativa
 
@@ -386,7 +331,10 @@ Os **operadores argumentativos** (conectivos e expressões de articulação) rev
 | **Adição / Gradação** | *e, além disso, ademais, não só... mas também, até, inclusive* | Soma argumentos na mesma direção; *até* e *inclusive* marcam o argumento mais forte. |
 | **Restrição / Retificação** | *longe de, ao contrário, em vez de, aliás, ou melhor* | Nega uma visão para afirmar outra ("Longe de serem neutros, os algoritmos..."). |
 
+
+
 ---
+
 
 ### 4.4 Pressupostos e Subentendidos
 
@@ -399,6 +347,62 @@ O **subentendido** é uma insinuação que **depende do contexto** e da interpre
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A FCC pergunta frequentemente "a palavra X pressupõe que..." ou "o emprego de 'ainda' permite inferir que...". Procure o **marcador linguístico** (*ainda, já, voltar a, deixar de, também, até*). Se a alternativa propõe uma insinuação que depende de contexto externo, trata-se de subentendido — ou de extrapolação.
 
 ---
+
+### Teste 004
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere o seguinte trecho argumentativo:  
+*"Costuma-se argumentar que a imposição de regras rígidas de controle prévio nas contratações públicas paralisa a máquina administrativa e asfixia o dinamismo dos investimentos estatais. No entanto, estudos empíricos desenvolvidos pela OCDE e por centros de pesquisa econômica demonstram que cada real investido em fiscalização tempestiva economiza até quatro vezes mais em custos de reparação de danos e sobrepreços contratuais. Portanto, o controle não constitui entrave burocrático, mas sim salvaguarda indispensável à sustentabilidade fiscal do Estado."*
+
+Na organização dos argumentos do excerto, o autor:
+
+* **A)** Apoia sua conclusão exclusivamente no senso comum e no apelo emocional dos leitores em relação aos gastos públicos.
+* **B)** Utiliza uma estrutura concessivo-adversativa, antecipando uma objeção frequente para refutá-la mediante dados e argumento de autoridade técnica antes de enunciar a tese conclusiva.
+* **C)** Defende que o controle prévio deve ser abolido para assegurar a rapidez nas contratações públicas emergenciais.
+* **D)** Conclui que as exigências de controle externo são responsáveis pela lentidão dos investimentos em infraestrutura.
+* **E)** Evita o emprego de conectivos de oposição, optando por justapor argumentos que sustentam uma mesma direção ideológica.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O autor cita expressamente "estudos empíricos desenvolvidos pela OCDE e por centros de pesquisa econômica" (provas concretas e autoridade institucional reconhecida), e não mero senso comum ou apelo emotivo.
+> - **B)** Correta. O autor adota a consagrada arquitetura argumentativa da FCC: inicia apresentando a tese contrária com fórmula de distanciamento ("Costuma-se argumentar que..."), contrapõe-na por meio do operador adversativo *"No entanto"*, respalda sua refutação com dados técnicos e remata com a conclusão balizada pelo operador *"Portanto"*.
+> - **C)** Incorreta. Erro de contradição direta com o texto: o autor sustenta que o controle prévio é "salvaguarda indispensável", e não que deve ser abolido.
+> - **D)** Incorreta. A tese do autor afirma exatamente o inverso: que o controle externo é proteção financeira e não entrave à eficiência pública.
+> - **E)** Incorreta. O operador adversativo *"No entanto"* cumpre papel axial na guinada argumentativa do parágrafo.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 005
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere a frase a seguir:  
+*"Após a auditoria operacional, o órgão previdenciário **voltou a** publicar mensalmente as planilhas de desembolso financeiro, e os novos gestores **ainda** mantêm os relatórios acessíveis à consulta pública."*
+
+A análise dos operadores argumentativos e dos implícitos linguísticos da frase indica que:
+
+* **A)** A locução *"voltou a"* gera o pressuposto de que o órgão nunca havia publicado tais planilhas em momento algum de sua história.
+* **B)** O advérbio *"ainda"* introduz a certeza de que a transparência dos relatórios será interrompida obrigatoriamente no próximo exercício financeiro.
+* **C)** A expressão *"voltou a"* veicula o pressuposto de que as planilhas já eram publicadas no passado e haviam sido suspensas, ao passo que *"ainda"* pressupõe a continuidade no presente de um estado de coisas inaugurado anteriormente.
+* **D)** A transparência pública é tratada como mera possibilidade remota, evidenciada pela flexão condicional dos verbos principais.
+* **E)** A locução *"após a auditoria"* pressupõe que as auditorias de controle externo são inócuas para modificar condutas administrativas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Dizer que o órgão *"voltou a"* publicar pressupõe necessariamente que ele já publicava antes e havia interrompido essa prática. Se nunca tivesse publicado, o verbo seria "passou a" ou "iniciou".
+> - **B)** Incorreta. O advérbio *"ainda"* marca a persistência temporal de uma ação iniciada no passado até o momento da fala, sem antecipar ou determinar com certeza seu encerramento compulsório.
+> - **C)** Correta. Trata-se da clássica distinção de pressupostos linguísticos da FCC: o verbo que indica reiteração (*voltar a*) carrega o pressuposto inegável de prática anterior descontinuada; o advérbio de aspecto continuativo (*ainda*) pressupõe que a ação já vinha ocorrendo e se estende até o presente.
+> - **D)** Incorreta. Os verbos estão no modo indicativo afirmativo (*voltou*, *mantêm*), indicando certeza categórica de fatos concretos.
+> - **E)** Incorreta. A relação temporal estabelecida indica exatamente o contrário: a auditoria funcionou como marco gerador de aprimoramento da transparência.
+>
+> **Gabarito: C**
+
+
+---
+
 
 ## 5. Níveis de Linguagem e Denotação e Conotação
 
@@ -417,6 +421,32 @@ A conotação está na base das **figuras de linguagem** (item 9), especialmente
 > ⭐ **IMPORTANTE:** Para decidir se há conotação, faça o **teste da literalidade**: "isso pode acontecer, ao pé da letra, no mundo real?" Uma burocracia não engole; um coração não chora lágrimas de ferro; dados de planilha não gritam. Se a resposta é "não", há sentido figurado.
 
 ---
+
+### Teste 006
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Assinale a alternativa em que a relação entre orações do texto expressa valor semântico de conotação e linguagem figurada:
+
+* **A)** *"O contrato administrativo foi rescindido unilateralmente pela administração com base no artigo 137 da legislação vigente."*
+* **B)** *"A receita tributária estadual registrou crescimento nominal de quatro por cento no terceiro trimestre do exercício financeiro."*
+* **C)** *"A burocracia estatal engoliu os anseios da população em um pântano de formulários intermináveis e carimbos inertes."*
+* **D)** *"O Tribunal de Contas é composto por sete Conselheiros nomeados segundo os ditames da Constituição Estadual."*
+* **E)** *"O prazo prescricional para o ajuizamento da execução fiscal de créditos tributários é de cinco anos."*
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Frase de linguagem estritamente **denotativa**, técnico-jurídica: "rescindido unilateralmente" e a remissão a artigo de lei têm sentido literal e unívoco.
+> - **B)** Incorreta. Linguagem **denotativa** de natureza contábil-financeira: dado numérico ("quatro por cento") e terminologia técnica ("crescimento nominal", "exercício financeiro"), sem qualquer figura.
+> - **C)** Correta. A frase emprega linguagem eminentemente **conotativa (figurada)**: a burocracia não tem boca para *"engolir"* nada (prosopopeia/metáfora), a tramitação documental é metaforizada como um *"pântano"* e os carimbos são qualificados como *"inertes"*, transmitindo expressividade e juízo crítico de valor ao leitor.
+> - **D)** Incorreta. Enunciado **denotativo** e informativo sobre a composição de um órgão, com termos institucionais em sentido literal.
+> - **E)** Incorreta. Enunciado **denotativo** de conteúdo normativo (prazo prescricional), com terminologia jurídica precisa e sem sentido figurado.
+>
+> **Gabarito: C**
+
+
+---
+
 
 ## 6. Modalidades de Discurso
 
@@ -459,6 +489,35 @@ Exemplo: *"O relator permaneceu em silêncio. **Como solucionar aquele impasse s
 
 ---
 
+### Teste 007
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+*Observe o fragmento a seguir:*  
+*"O relator permaneceu em silêncio por longos minutos diante dos autos volumosos. Como solucionar aquele impasse procedimental sem ferir a jurisprudência consolidada da Casa? Sabia que os olhares de todos os presentes convergiam para sua bancada. Era preciso decidir, e decidir imediatamente"*.
+
+No fragmento acima, a passagem assinalada pela oração interrogativa (*"Como solucionar aquele impasse procedimental sem ferir a jurisprudência consolidada da Casa?"*) exemplifica o emprego do:
+
+* **A)** Discurso direto pontuado por elipse de aspas.
+* **B)** Discurso indireto clássico subordinado por conectivo causal.
+* **C)** Discurso indireto livre, em que o pensamento íntimo da personagem se mescla diretamente à narração em terceira pessoa.
+* **D)** Recurso estilístico de metonímia personificada.
+* **E)** Discurso dissertativo de autoridade estrita.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Não há discurso direto, pois faltam verbos de elocução introdutórios e a pontuação típica (dois-pontos, travessão ou aspas). "Elipse de aspas" não é categoria gramatical reconhecida; a ausência das marcas é justamente o que afasta o discurso direto.
+> - **B)** Incorreta. O discurso indireto convencional exigiria a mediação formal do narrador mediante verbo de elocução e conjunção integrante ou pronome interrogativo (*"O relator perguntou a si mesmo como solucionaria..."*). Além disso, o discurso indireto não se estrutura por conectivo causal, mas por oração subordinada substantiva.
+> - **C)** Correta. Configura-se tipicamente o **Discurso Indireto Livre**: a voz do narrador (em terceira pessoa) funde-se instantaneamente ao fluxo de consciência e à indagação íntima da personagem (*"Como solucionar aquele impasse...?"*), sem marcas formais de abertura de fala ou conectivos de subordinação.
+> - **D)** Incorreta. Não se trata de figura de linguagem (metonímia é substituição por contiguidade; personificação é atribuição de traços humanos a seres inanimados — nada disso ocorre na pergunta), mas de recurso de estruturação do foco narrativo.
+> - **E)** Incorreta. O fragmento tem natureza narrativa/ficcional e não dissertativa conceitual; tampouco há citação de especialista ou instituição que configure argumento de autoridade.
+>
+> **Gabarito: C**
+
+
+---
+
+
 ## 7. Transposição de Discursos
 
 ### 7.1 Tabela de Transposição do Direto para o Indireto
@@ -495,6 +554,38 @@ A transposição exige **ajuste simultâneo** de todos os elementos: uma alterna
 
 ---
 
+### Teste 008
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Transpondo-se a oração em discurso direto:  
+*O auditor afirmou aos gestores: "Concluirei a fiscalização amanhã e entregarei este relatório à presidência"*  
+para o discurso indireto, a forma verbal e os elementos dêiticos ajustam-se corretamente em:
+
+* **A)** O auditor afirmou aos gestores que concluiria a fiscalização amanhã e entregaria este relatório à presidência.
+* **B)** O auditor afirmou aos gestores que concluiria a fiscalização no dia seguinte e entregaria aquele relatório à presidência.
+* **C)** O auditor afirmou aos gestores que concluíra a fiscalização na véspera e entregara esse relatório à presidência.
+* **D)** O auditor afirmou aos gestores que concluirá a fiscalização no dia subsequente e entregará aquele relatório à presidência.
+* **E)** O auditor afirmou aos gestores que tenha concluído a fiscalização amanhã e entregue aquele relatório à presidência.
+
+--- 
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Ajustou corretamente os verbos para o futuro do pretérito, mas errou ao manter os dêiticos temporal e demonstrativo ancorados no momento da fala (*amanhã* e *este*).
+> - **B)** Correta. Na transposição do Discurso Direto para o Indireto, as regras gramaticais exigem três ajustes simultâneos:
+>     1. **Tempos Verbais:** Futuro do Presente (*concluirei*, *entregarei*) transforma-se em **Futuro do Pretérito** (*concluiria*, *entregaria*);
+>     2. **Advérbio de Tempo:** *Amanhã* passa para **no dia seguinte** (ou *no dia subsequente*);
+>     3. **Pronome Demonstrativo:** *Este* passa para **aquele**, marcando o distanciamento temporal e espacial da enunciação.
+>
+> - **C)** Incorreta. O Pretérito Mais-Que-Perfeito (*concluíra*, *entregara*) e a locução *na véspera* corresponderiam a fatos passados, e não ao futuro original; além disso, *esse* não marca o distanciamento exigido.
+> - **D)** Incorreta. Ajustou o advérbio e o demonstrativo, mas manteve o verbo no futuro do presente (*concluirá*, *entregará*), o que fere a correlação com a oração principal no pretérito (*afirmou*).
+> - **E)** Incorreta. Emprega o pretérito perfeito do subjuntivo (*tenha concluído*, *entregue*), alterando o modo (de certeza para hipótese) e desfigurando a ideia de futurição original; também manteve *amanhã*.
+>
+> **Gabarito: B**
+
+
+---
+
+
 ## 8. Intertextualidade
 
 A **intertextualidade** é o diálogo entre textos: um texto retoma, cita, imita ou subverte outro texto anterior (chamado *texto-fonte*). Ela pode ser **explícita** (quando a fonte é indicada, como na citação com autor) ou **implícita** (quando o leitor precisa reconhecer a referência por conta própria, como na alusão e na paródia). Também se distingue a intertextualidade **por semelhança** (o novo texto concorda com a fonte, como na paráfrase) da intertextualidade **por diferença** (o novo texto contesta ou ridiculariza a fonte, como na paródia).
@@ -516,6 +607,41 @@ A **epígrafe** é uma citação curta colocada **no início** de um livro, cap�
 A **alusão** é uma **referência indireta**, breve e sem citação literal, a uma obra, personagem, fato histórico ou texto conhecido, cabendo ao leitor reconhecê-la. Dizer que um processo "é um verdadeiro *calcanhar de Aquiles* da gestão" ou que alguém "abriu a *caixa de Pandora*" são alusões mitológicas; dizer que uma reforma "foi um *presente de grego*" alude ao cavalo de Troia.
 
 > 📌 **NOTA EXPLICATIVA:** Paráfrase = mesmas ideias, outras palavras (concorda). Paródia = mesma forma, ideias subvertidas (contesta). Citação = palavras do outro com fonte. Epígrafe = citação no início do texto. Alusão = referência indireta que o leitor deve reconhecer.
+
+
+### Teste 009
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere os dois textos abaixo:  
+
+**Texto I** (Gonçalves Dias, *Canção do Exílio*):  
+*"Minha terra tem palmeiras, / Onde canta o Sabiá; / As aves, que aqui gorjeiam, / Não gorjeiam como lá."*  
+
+**Texto II** (Murilo Mendes, *Canção do Exílio*):  
+*"Minha terra tem macieiras da Califórnia / onde cantam gaturamos de Veneza. / Os poetas da minha terra / são pretos que vivem em torres de ametista..."*  
+
+Comparando os Textos I e II sob a perspectiva das relações intertextuais, verifica-se que o Texto II:
+
+* **A)** Constitui uma paráfrase estrita do Texto I, mantendo fidelidade semântica ao ufanismo romântico e à exaltação da natureza nativa brasileira.
+* **B)** Apresenta uma paródia, valendo-se da estrutura rítmica e de versos-chave do texto romântico de partida para desconstruir ironicamente a idealização patriótica.
+* **C)** Configura um caso de plágio desprovido de qualquer autonomia artística ou intenção crítica.
+* **D)** Utiliza uma epígrafe formal que se limita a homenagear Gonçalves Dias sem interagir com os conceitos da obra referenciada.
+* **E)** Isola-se de qualquer diálogo com o cânone literário, não permitindo estabelecer paralelo intertextual com o poema de 1843.
+
+--- 
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A paráfrase reafirma as mesmas ideias do texto-fonte com vocabulário alternativo (relação de adesão). O Texto II altera drasticamente o significado e o tom lírico do original.
+> - **B)** Correta. A paródia é o recurso intertextual de ruptura em que a forma, a métrica ou o refrão de um texto consagrado são reaproveitados com conteúdo irônico, crítico ou dissonante, rompendo deliberadamente com a atmosfera original (aqui, o nacionalismo ufanista romântico dá lugar ao estranhamento vanguardista moderno).
+> - **C)** Incorreta. Não se trata de apropriação indevida ou fraude autoral, mas de intertextualidade manifesta e reconhecida como recurso estético legítimo.
+> - **D)** Incorreta. O Texto II é um poema autônomo completo, e não uma epígrafe (que seria apenas uma citação introdutória no cabeçalho de outra obra).
+> - **E)** Incorreta. O título homônimo e a repetição estilizada do primeiro verso estabelecem inegável diálogo com o Texto I.
+>
+> **Gabarito: B**
+
+
+---
+
 
 ## 9. Figuras de Linguagem
 
@@ -575,3 +701,82 @@ Exploram a **sonoridade** das palavras, sendo frequentes em poesia, publicidade 
 - **Paronomásia:** aproximação de palavras de **sons semelhantes** e sentidos diferentes, criando jogo sonoro (*"Quem casa quer casa"*; *"tradutor, traidor"*).
 
 ---
+
+### Teste 010
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere os versos e expressões a seguir:  
+
+I. *"A cidade dormia sob o manto pesado de um silêncio ensurdecedor."*  
+
+II. *"Ele não era exatamente uma fonte de sabedoria; faltava-lhe perspicácia para lidar com o público."*  
+
+III. *"Nas horas de angústia, o coração do fiscal chorava lágrimas de ferro."*  
+
+As figuras de linguagem presentes nos trechos I, II e III são, respectivamente:
+
+* **A)** Paradoxo (Oximoro), Eufemismo e Prosopopeia (Personificação).
+* **B)** Antítese, Hipérbole e Metonímia.
+* **C)** Pleonasmo, Ironia e Catacrese.
+* **D)** Paradoxo (Oximoro), Antítese e Sinestesia.
+* **E)** Metáfora, Eufemismo e Zeugma.
+
+---
+
+> **Comentário Detalhado:**
+> Análise dos trechos:
+>
+> - **Trecho I:** *"silêncio ensurdecedor"* reúne, no mesmo ser, termos logicamente excludentes (o silêncio não pode ensurdecer), configurando **paradoxo (oximoro)**.
+> - **Trecho II:** *"não era exatamente uma fonte de sabedoria"* suaviza a constatação rude de que a pessoa era pouco sábia ou despreparada, caracterizando **eufemismo** (na modalidade litotes: afirmação pela negação do contrário).
+> - **Trecho III:** *"o coração (...) chorava lágrimas de ferro"* atribui ação humana (chorar) ao órgão, caracterizando **prosopopeia (personificação)**, combinada com metáfora expressiva ("lágrimas de ferro").
+>
+> Análise das alternativas:
+>
+> - **A)** Correta. É a única sequência em que os três trechos estão corretamente classificados: paradoxo, eufemismo e prosopopeia.
+> - **B)** Incorreta. Em I não há antítese, pois os opostos não se referem a aspectos distintos, mas se fundem no mesmo ser (paradoxo); em II não há exagero (hipérbole), mas atenuação; em III não há substituição por contiguidade (metonímia).
+> - **C)** Incorreta. Em I não há pleonasmo (repetição de ideia), mas contradição; em II não há inversão de sentido (ironia) — a frase diz, de modo brando, exatamente o que pensa; em III a imagem é criativa, e não uma metáfora cristalizada pelo uso (catacrese).
+> - **D)** Incorreta. Acerta o trecho I, mas erra em II (não há termos opostos, logo não há antítese) e em III (não há mistura de sensações de órgãos diferentes, logo não há sinestesia).
+> - **E)** Incorreta. Embora o trecho I contenha uma metáfora secundária ("manto pesado") e o II seja de fato eufemismo, a figura central de I é o oximoro "silêncio ensurdecedor" e, sobretudo, em III não há omissão de termo já expresso, o que exclui o zeugma.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 011
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere o seguinte período:  
+*"O procurador examinava minuciosamente os autos da representação; o auditor, as planilhas financeiras das empreiteiras contratadas."*
+
+No trecho acima, a vírgula empregada após a palavra *"auditor"* assinala a ocorrência da seguinte figura de linguagem sintática:
+
+* **A)** Anacoluto, caracterizado pela quebra repentina e assistemática da coesão frasal.
+* **B)** Zeugma, consistente na omissão de um termo verbal já expresso na oração anterior.
+* **C)** Pleonasmo vicioso, consistente na repetição desnecessária de um complemento oracional.
+* **D)** Hipérbato, que consiste na inversão drástica da ordem direta dos elementos sintáticos.
+* **E)** Polissíndeto, decorrente da multiplicação expressiva de conjunções coordenativas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Não há quebra gramatical nem sujeito sem predicado no período. A construção é perfeitamente harmônica e canônica.
+> - **B)** Correta. O zeugma é uma modalidade especial de elipse em que se omite termo que **já foi explicitamente mencionado** antes no período. No caso, a vírgula elíptica substitui a forma verbal *"examinava"* ("o auditor [examinava] as planilhas financeiras"), evitando repetição cansativa.
+> - **C)** Incorreta. Não há redundância ou repetição enfática/viciosa de ideias na oração.
+> - **D)** Incorreta. A ordem direta dos termos foi mantida em ambas as orações (Sujeito + Verbo + Objeto Direto), não havendo transposição ou inversão abrupta.
+> - **E)** Incorreta. Não há reiteração de conjunções; o período articula-se por meio de ponto e vírgula e vírgula zeugmática.
+>
+> **Gabarito: B**
+
+
+---
+
+
+## 🌐 Fontes Oficiais e Referências Bibliográficas
+
+* [Manual de Comunicação do Senado Federal — Fundamentos e Diretrizes de Texto](https://www12.senado.leg.br/manualdecomunicacao/fundamentos-e-diretrizes) - Diretrizes oficiais sobre clareza, estrutura textual, argumentação, gêneros informativos e adequação discursiva.
+* [Manual de Comunicação do Senado Federal — Redação e Estilo (Índice Geral)](https://www12.senado.leg.br/manualdecomunicacao/redacao-e-estilo) - Orientações estilísticas sobre escolha vocabular, níveis de linguagem, discurso relatado e construção do texto.
+* [Manual de Comunicação do Senado Federal — Coesão e Redundância](https://www12.senado.leg.br/manualdecomunicacao/estilos/redundancia) - Estudo sobre pleonasmos, concisão, pressupostos semânticos e eliminação de vícios de linguagem.
+* [Manual de Comunicação do Senado Federal — Verbos Declaratórios e Tempos Verbais](https://www12.senado.leg.br/manualdecomunicacao/estilos/verbo-presente-e-futuro) - Emprego de verbos de elocução (*dicendi*) e correlação temporal na transposição entre discurso direto e indireto.
+* [Manual de Redação da Presidência da República — 3ª Edição (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Fundamentos de coesão, coerência, fidelidade interpretativa e linguagem denotativa em textos públicos.
+* KOCH, Ingedore Villaça; ELIAS, Vanda Maria. **Ler e Compreender: os sentidos do texto**. 3. ed. São Paulo: Contexto, 2018. (Cap. 2 e 4 -Compreensão, Inferência, Pressupostos, Subentendidos e Intertextualidade).
+* GARCIA, Othon M. **Comunicação em Prosa Moderna**. 27. ed. Rio de Janeiro: Editora FGV, 2010. (Segunda e Quarta Partes - Discurso Direto, Indireto e Indireto Livre, Figuras de Estilo e Argumentação).
+* BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 18 e Apêndice - Estilística, Figuras de Sintaxe, de Palavras e de Pensamento).

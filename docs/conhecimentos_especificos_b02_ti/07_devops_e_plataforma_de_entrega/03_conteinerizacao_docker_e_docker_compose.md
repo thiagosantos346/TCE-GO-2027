@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `03_conteinerizacao_docker_e_docker_compose.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Conceitos de conteinerização vs. virtualização tradicional
@@ -156,6 +159,83 @@ Uma imagem Docker é uma coleção imutável de **camadas de somente leitura (*R
 
 ---
 
+### Teste 192
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Com relação às diferenças conceituais e arquiteturais entre a virtualização baseada em Máquinas Virtuais (VMs) tradicionais e a conteinerização utilizando a tecnologia Docker, assinale a afirmativa correta:  
+
+* **A)** Contêineres Docker executam um hipervisor (*Hypervisor Type 1*) emulado dentro de cada processo para gerenciar o acesso direto ao processador físico.
+* **B)** Cada contêiner Docker possui e carrega em memória um Sistema Operacional convidado (*Guest OS*) completo e independente, incluindo seus próprios drivers de hardware e kernel proprietário.
+* **C)** Enquanto as máquinas virtuais virtualizam a camada de hardware e exigem um Sistema Operacional convidado (*Guest OS*) completo sobre o hipervisor, os contêineres Docker virtualizam o sistema operacional, compartilhando o mesmo núcleo (*Kernel*) do hospedeiro por meio de primitivas como *namespaces* e *control groups (cgroups)* do Linux.
+* **D)** As máquinas virtuais inicializam em milissegundos devido à ausência de camada de abstração de hardware, ao passo que contêineres Docker demandam longos minutos de inicialização devido ao carregamento de imagens de disco. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** O isolamento proporcionado por contêineres Docker impede qualquer comunicação de rede entre dois contêineres hospedados no mesmo computador físico.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O hipervisor é o componente alicerce das Máquinas Virtuais, e não de contêineres Docker. O Docker opera sem hipervisores.
+> - **B)** Incorreta. Contêineres **não possuem kernel próprio nem carregam um Guest OS completo**. Todos os contêineres compartilham diretamente o Kernel do sistema operacional hospedeiro (*host*).
+> - **C)** Correta. Definição arquitetural clássica: as VMs virtualizam o hardware sobre o qual roda um SO convidado completo; os contêineres operam na camada do SO, executando como processos isolados no host viabilizados pelas primitivas nativas do Linux: *namespaces* (isolamento de visibilidade) e *cgroups* (limitação de recursos de CPU, RAM e I/O).
+> - **D)** Incorreta. Contêineres inicializam em frações de segundos (milissegundos) pois são meros processos despachados pelo kernel já carregado, enquanto as VMs exigem o boot completo de todo o SO convidado.
+> - **E)** Incorreta. Contêineres no mesmo host comunicam-se perfeitamente através de pontes de rede virtual (*bridge networks*) gerenciadas pelo Docker.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 193
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A tecnologia de conteinerização no Linux fundamenta-se primordialmente em duas primitivas nativas do próprio Kernel do sistema operacional: os *Namespaces* e os *Control Groups* (*cgroups*). A respeito da responsabilidade técnica de cada uma dessas primitivas, é correto afirmar:
+
+* **A)** Os *cgroups* isolam a visão dos processos sobre a rede e o sistema de arquivos, enquanto os *Namespaces* limitam o uso físico de memória RAM e CPU. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** Os *Namespaces* provêm o isolamento de visão dos recursos do sistema (como processos - PID, rede - NET, montagens - MNT e usuários - USER), enquanto os *cgroups* gerenciam, limitam e monitoram o consumo quantitativo de recursos de hardware (como cotas de CPU, limites de memória RAM e largura de banda de I/O de disco).
+* **C)** Ambas as primitivas foram substituídas pelo uso de emuladores de BIOS de 16 bits.
+* **D)** Os *Namespaces* só podem ser executados em servidores com placas gráficas de inteligência artificial.
+* **E)** Os *cgroups* impedem que contêineres utilizem conexões de rede TCP/IP.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** As funções estão exatamente invertidas.
+> - **B) Correta.** É a síntese arquitetural fundamental da conteinerização Linux:
+>   - **Namespaces:** fornecem **isolamento** ("o que o processo pode enxergar"): cada contêiner ganha sua própria tabela de processos (PID), pilha de rede (NET), pontos de montagem (MNT), comunicação entre processos (IPC) e nomes de host (UTS);
+>   - **cgroups (Control Groups):** fornecem **restrição e medição** ("quanto o processo pode consumir"): evitam que um contêiner monopolize a CPU, estoure a memória RAM da máquina host (disparando o OOM Killer) ou sature o subsistema de I/O.
+> - **C) Incorreta.** Contêineres compartilham o kernel do host sem emulação de BIOS ou hipervisores.
+> - **D) Incorreta.** São recursos nativos padrão do kernel Linux há décadas.
+> - **E) Incorreta.** Rede é isolada por *Network Namespaces*.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 194
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O sistema de arquivos em camadas do Docker (tipicamente implementado pelo driver de armazenamento `overlay2`) utiliza a estratégia *Copy-on-Write* (CoW). Esse mecanismo implica que:
+
+* **A)** Todas as camadas que compõem a imagem base do Docker são estritamente somente-leitura (*read-only*) e imutáveis; quando um processo em execução dentro de um contêiner modifica um arquivo existente na imagem, o arquivo é copiado para a camada superior e efêmera de leitura e escrita (*read-write container layer*), onde a modificação é efetivada sem alterar a imagem original compartilhada.
+* **B)** O disco rígido do servidor deve ser duplicado fisicamente a cada novo contêiner instanciado.
+* **C)** Nenhuma modificação de arquivo pode ser realizada dentro de um contêiner Docker ativo.
+* **D)** Todos os contêineres compartilham a mesma camada de leitura e escrita, gravando arquivos concorrentemente no mesmo bloco.
+* **E)** As imagens Docker perdem todos os seus dados sempre que o contêiner é reiniciado.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** No modelo UnionFS/Overlay2: as camadas da imagem são *read-only* e imutáveis, compartilhadas com segurança por centenas de contêineres na mesma máquina host. Ao subir um contêiner, o Docker anexa apenas uma fina camada *read-write* no topo. Pela mecânica *Copy-on-Write*, arquivos modificados sobem para essa camada superior, preservando a imagem intacta e economizando gigabytes de armazenamento.
+> - **B) Incorreta.** A grande economia de espaço do Docker decorre justamente do compartilhamento de camadas de imagem.
+> - **C) Incorreta.** A camada superior do contêiner aceita escrita normalmente.
+> - **D) Incorreta.** Cada contêiner possui sua própria camada de escrita isolada.
+> - **E) Incorreta.** A camada do contêiner persiste entre `stop` e `start` (perde-se apenas se o contêiner for removido com `docker rm`).
+>
+> **Gabarito: A**
+
+---
+
 ## 2. Construção de Imagens e Anatomia do Dockerfile
 
 O `Dockerfile` é o manifesto declarativo em formato de texto simples que estabelece o passo a passo automatizado para compilar uma imagem de contêiner.
@@ -218,6 +298,128 @@ A funcionalidade de **Multi-Stage Builds** resolve esse problema declarando múl
 
 ---
 
+### Teste 195
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na elaboração de um arquivo `Dockerfile` para construção de imagens de software, duas instruções de cópia de arquivos frequentemente comparadas em concursos públicos são `COPY` e `ADD`. A boa prática recomendada de engenharia e a principal distinção técnica entre ambas estabelece que:
+
+* **A)** A instrução `COPY` é mais simples e transparente, copiando arquivos e diretórios locais da máquina de build para o contêiner, devendo ser preferida na imensa maioria dos casos; a instrução `ADD`, além da cópia local, suporta o download de arquivos via URLs remotas e a extração automática de arquivos compactados (como `.tar.gz`) diretamente no destino.
+* **B)** A instrução `ADD` é estritamente proibida em todas as distribuições Linux modernas.
+* **C)** A instrução `COPY` só funciona para arquivos com extensão `.exe`.
+* **D)** A instrução `ADD` compila o código-fonte Java automaticamente durante a cópia.
+* **E)** Nenhuma das duas instruções permite copiar arquivos para diretórios internos do contêiner.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** É a orientação oficial das melhores práticas de Dockerfile: prefira sempre `COPY` por ser previsível e direta (apenas copia arquivos locais). Use `ADD` somente quando você realmente necessitar da extração automática de pacotes compactados (*tar auto-extraction*) para o sistema de arquivos da imagem.
+> - **B) Incorreta.** `ADD` é uma instrução padrão válida do Docker.
+> - **C) Incorreta.** Opera sobre qualquer arquivo.
+> - **D) Incorreta.** `ADD` apenas transfere e descompacta; quem compila são comandos executados via `RUN`.
+> - **E) Incorreta.** Ambas copiam arquivos para o contêiner.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 196
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Um analista de infraestrutura da Secretaria da Fazenda elaborou o seguinte `Dockerfile` para conteinerizar uma API REST desenvolvida em Python:
+
+```dockerfile
+FROM python:3.11-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . .
+EXPOSE 5000
+ENTRYPOINT ["python", "app.py"]
+CMD ["--port", "5000"]
+```
+
+Após compilar a imagem com a tag `api-fazenda:1.0`, o analista executou no terminal do servidor o comando:
+`docker run -d -p 8080:5000 api-fazenda:1.0 --port 9000`
+
+A respeito desse cenário e das instruções do Dockerfile, assinale a afirmativa correta:  
+
+* **A)** A instrução `EXPOSE 5000` publicou a porta 5000 diretamente no endereço IP público da máquina física, tornando desnecessária a utilização do parâmetro `-p 8080:5000` no comando de execução.
+* **B)** O comando final executado dentro do contêiner será `python app.py --port 9000`.
+* **C)** O contêiner falhará ao iniciar, pois a especificação conjunta das diretivas `ENTRYPOINT` e `CMD` no mesmo `Dockerfile` é proibida pela especificação do Docker.
+* **D)** A flag `-p 8080:5000` fará com que as requisições que chegam à porta 5000 da máquina hospedeira sejam redirecionadas para a porta 8080 dentro do contêiner.
+* **E)** A instrução `COPY . .` impede a reutilização do cache de compilação da camada gerada por `RUN pip install`, mesmo que o arquivo `requirements.txt` não tenha sido modificado.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A diretiva `EXPOSE` é meramente informativa e documental; ela não abre portas no host nem publica tráfego externo. O mapeamento físico de portas exige obrigatoriamente o uso do parâmetro `-p` no `docker run`.
+> - **B)** Correta. A combinação recomendada de `ENTRYPOINT` e `CMD` fixa o executável permanente no `ENTRYPOINT` (`python app.py`) e fornece parâmetros flexíveis padrão no `CMD` (`--port 5000`). Ao rodar o comando informando `--port 9000` no final, os argumentos passados sobrescrevem o conteúdo do `CMD`, resultando na execução final do comando `python app.py --port 9000`.
+> - **C)** Incorreta. A especificação oficial encoraja explicitamente a combinação de `ENTRYPOINT` e `CMD` para viabilizar comandos parametrizáveis.
+> - **D)** Incorreta. A sintaxe de portas é `-p <porta_host>:<porta_container>`. As requisições que chegam à porta 8080 do host são encaminhadas para a porta 5000 do contêiner.
+> - **E)** Incorreta. A estrutura de colocar `COPY requirements.txt` e `RUN pip install` antes de `COPY . .` é a melhor prática consagrada para aproveitar o cache de camadas do Docker caso apenas o código-fonte tenha mudado.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 197
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em relação às diretrizes de segurança da informação e redes na construção de contêineres Docker, analise as afirmativas a seguir:  
+
+I. A instrução `EXPOSE 8080` em um Dockerfile funciona como documentação formal e intenção de rede entre quem cria e quem executa a imagem, mas não publica efetivamente a porta no sistema hospedeiro sem a utilização da flag `-p` ou `-P` no comando `docker run`.  
+II. Por padrão, se a diretiva `USER` não for declarada no Dockerfile, os processos dentro do contêiner executam com privilégios de `root`, o que viola o princípio do privilégio mínimo e amplia a superfície de ataque em cenários de quebra de isolamento (*container breakout*).  
+III. A diretiva `USER` impede que o contêiner acesse o hardware de memória RAM do servidor físico.  
+
+Está correto o que se afirma em:
+
+* **A)** I, apenas.
+* **B)** III, apenas.
+* **C)** I e II, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **I. Correta.** `EXPOSE` não mapeia portas no host; ela apenas documenta que o contêiner escuta naquela porta. A publicação real exige o bind explícito `-p 8080:8080` no `docker run`.
+> - **II. Correta.** A execução padrão como usuário `root` dentro do contêiner é um risco clássico; a melhor prática é criar um usuário sem privilégios (ex: `RUN adduser -D appuser && USER appuser`).
+> - **III. Incorreta.** `USER` afeta apenas permissões de segurança de usuário/UID, não o acesso a hardware de memória.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 198
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em auditorias de segurança de aplicações conteinerizadas em órgãos públicos, é comum encontrar vulnerabilidades associadas à inclusão indevida de ferramentas de compilação, compiladores C/C++, gerenciadores de pacotes e código-fonte dentro de imagens que operam no ambiente de produção.
+
+A técnica preconizada pelo Docker para mitigar esse risco e reduzir drasticamente o tamanho final das imagens distribuidíveis em produção é:  
+
+* **A)** Compactar o contêiner em um arquivo executável `.zip` antes de executar o comando `docker push`.
+* **B)** Adoção de *Multi-Stage Builds*, permitindo utilizar imagens pesadas contendo SDKs e compiladores apenas no estágio inicial de compilação e transferir exclusivamente o binário final gerado para uma imagem enxuta e mínima de runtime.
+* **C)** Utilização compulsória da instrução `RUN chmod 777 -R /` no Dockerfile para revogar privilégios administrativos de todos os processos internos.
+* **D)** Desativação do Docker Daemon e execução de contêineres diretamente como scripts de shell no servidor hospedeiro.
+* **E)** Substituição do Dockerfile por um script Bash imperativo gravado no setor de boot da controladora de armazenamento.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O ecossistema Docker opera sob o padrão OCI de camadas e registries em nuvem, não utilizando arquivos zip manuais para distribuição.
+> - **B)** Correta. A técnica de **Multi-Stage Builds** utiliza múltiplas declarações `FROM` no mesmo Dockerfile. O primeiro estágio emprega uma imagem pesada com todos os compiladores e ferramentas para gerar o binário da aplicação. O estágio final utiliza uma imagem mínima de runtime (como Alpine ou Distroless) e copia exclusivamente o binário pronto (`COPY --from=builder ..`). O resultado é uma imagem final levíssima, sem compiladores ou SDKs, minimizando a superfície de ataque a CVEs.
+> - **C)** Incorreta. Conceder permissão 777 para todo o sistema de arquivos amplia drasticamente o risco de segurança e escalada de privilégios.
+> - **D)** Incorreta. Desativar o daemon anularia todo o ecossistema de conteinerização.
+> - **E)** Incorreta. Afirmativa descabida sem respaldo técnico.
+> 
+> **Gabarito: B**
+
+---
+
 ## 3. Persistência de Dados e Gerenciamento de Armazenamento
 
 Por definição arquitetural, os contêineres Docker são **efêmeros e sem estado (*stateless*)**. Compreender as opções de persistência é requisito obrigatório para a sustentação de bancos de dados relacionais e sistemas de arquivos corporativos.
@@ -254,6 +456,33 @@ Todas as modificações, gravações de logs e escritas em tabelas realizadas po
 
 ---
 
+### Teste 199
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Ao planejar a implantação de um Sistema de Gerenciamento de Banco de Dados relacional (PostgreSQL) em contêineres Docker, um arquiteto de sistemas alertou a equipe que contêineres possuem ciclo de vida efêmero e que os dados armazenados na camada de gravação padrão do contêiner seriam perdidos caso o contêiner fosse removido.
+
+Para garantir a persistência duradoura, alto desempenho de I/O e gerenciamento seguro dos arquivos de dados do banco de dados pelo próprio Docker Engine, a solução tecnicamente recomendada é a utilização de:  
+
+* **A)** *tmpfs mounts*, pois gravam todas as tabelas e índices diretamente na memória volátil RAM do servidor, assegurando persistência permanente mesmo se a máquina física for desligada da tomada.
+* **B)** Camada padrão de leitura e escrita do contêiner (*Container Read-Write Layer*), uma vez que o sistema *UnionFS* garante a recuperação automática de dados após a execução de comandos `docker rm -f`.
+* **C)** *Named Volumes* (Volumes Gerenciados), que são desacoplados do ciclo de vida dos contêineres, alocados em diretórios dedicados gerenciados pelo Docker no host (`/var/lib/docker/volumes/`) e podem ser facilmente compartilhados e reutilizados por outros contêineres.
+* **D)** Links simbólicos do Linux apontando diretamente para o arquivo `/dev/null`.
+* **E)** Arquivos temporários criados dentro da pasta `/tmp` do contêiner, dispensando qualquer configuração adicional no host.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O *tmpfs mount* grava dados na memória RAM volátil, sendo apagado ao desligar o contêiner ou reiniciar a máquina.
+> - **B)** Incorreta. A camada de escrita padrão (*Read-Write Layer*) é completamente destruída ao remover o contêiner (`docker rm`), resultando em perda de dados.
+> - **C)** Correta. Os **Named Volumes** (volumes nomeados gerenciados pelo Docker Engine) são a solução canônica para persistência de dados em produção. Eles residem em `/var/lib/docker/volumes/`, sobrevivem à exclusão de contêineres, são imunes a alterações na estrutura de pastas do host e proporcionam o melhor desempenho de escrita e leitura para bancos de dados.
+> - **D)** Incorreta. O `/dev/null` é um dispositivo virtual de descarte que apaga imediatamente qualquer dado recebido.
+> - **E)** Incorreta. A pasta `/tmp` é volátil e faz parte da camada efêmera do contêiner.
+> 
+> **Gabarito: C**
+
+---
+
 ## 4. Redes no Docker: Drivers e Resolução de Nomes
 
 O Docker abstrai a conectividade de contêineres através de subsistemas de rede modulares controlados por drivers específicos.
@@ -272,6 +501,58 @@ Existe uma diferença crítica cobrada em concursos entre a rede bridge padrão 
 
 1. **Rede Bridge Padrão (`bridge` default):** Contêineres só conseguem se comunicar diretamente por endereços IP ou usando links legados desaconselhados (`--link`). **Não há suporte nativo à resolução automática de nomes por DNS.**
 2. **Redes Customizadas pelo Usuário (*User-Defined Networks*):** Ao criar uma rede com `docker network create minha-rede`, o Docker ativa um **servidor DNS interno embutido**. Todos os contêineres vinculados a essa rede conseguem resolver e alcançar seus pares **utilizando diretamente o próprio nome do contêiner como endereço de rede (hostname)**.
+
+---
+
+### Teste 200
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O subsistema de redes do Docker provê múltiplos *drivers* para atender a diferentes requisitos de isolamento e desempenho. O driver de rede padrão utilizado pelo Docker para comunicação entre contêineres executando na mesma máquina host isolada, criando uma ponte virtual de rede interna, é o driver:
+
+* **A)** `host`
+* **B)** `bridge`
+* **C)** `none`
+* **D)** `overlay`
+* **E)** `macvlan`
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O driver `host` remove o isolamento de rede entre o contêiner e o host, compartilhando a pilha de rede diretamente (sem NAT).
+> - **B) Correta.** O driver `bridge` é o padrão para nós únicos: cria uma interface de rede virtual privada (como a `docker0`) e atribui endereços IP internos aos contêineres na sub-rede privada, com isolamento e encaminhamento via regras de iptables/NAT.
+> - **C) Incorreta.** O driver `none` desabilita completamente a pilha de rede do contêiner (apenas interface de loopback `lo`).
+> - **D) Incorreta.** O driver `overlay` é utilizado para comunicação multi-host entre diferentes nós de um cluster (Docker Swarm).
+> - **E) Incorreta.** O `macvlan` atribui um endereço MAC físico direto ao contêiner na rede física corporativa.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 201
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere uma aplicação composta por dois microsserviços declarados no arquivo `compose.yaml`: um serviço denominado `frontend` (porta interna 80) e um serviço denominado `backend-api` (porta interna 3000), ambos anexados a uma mesma rede customizada do tipo `bridge` denominada `app-network`.
+
+A respeito da comunicação entre esses serviços e das características de redes no Docker Compose, assinale a opção correta:  
+
+* **A)** O serviço `frontend` não pode se comunicar com o `backend-api` via rede local, sendo mandatório que ambos publiquem suas portas em endereços IP públicos de internet.
+* **B)** O serviço `frontend` é capaz de alcançar o serviço `backend-api` enviando requisições HTTP diretamente para o endereço `http://backend-api:3000`, graças ao mecanismo nativo de resolução de nomes por DNS embutido pelo Docker em redes customizadas.
+* **C)** Para que contêineres em uma mesma rede customizada do Compose conversem entre si, é obrigatório utilizar o driver de rede `none`.
+* **D)** No Docker Compose, a resolução de nomes por DNS entre serviços só funciona se o desenvolvedor codificar manualmente os endereços IP fixos de cada contêiner no arquivo `/etc/hosts` de cada imagem antes de compilar o Dockerfile.
+* **E)** O comando `docker compose down` desliga os contêineres, mas é terminantemente incapaz de remover as redes criadas pelo arquivo Compose.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Contêineres na mesma rede privada do Docker comunicam-se diretamente sem qualquer necessidade de expor ou publicar portas na internet pública ou no host.
+> - **B)** Correta. Em qualquer rede definida pelo usuário (*user-defined network*), o Docker ativa automaticamente um servidor DNS interno embutido. Ele traduz automaticamente o **nome do serviço** (neste caso, `backend-api`) para o IP interno do contêiner correspondente, viabilizando chamadas diretas como `http://backend-api:3000`.
+> - **C)** Incorreta. O driver `none` desativa completamente a conectividade de rede, mantendo apenas o loopback interno isolado.
+> - **D)** Incorreta. A resolução via DNS embutido dispensa completamente alterações manuais em arquivos `/etc/hosts` ou gestão de IPs fixos.
+> - **E)** Incorreta. O comando `docker compose down` desliga e remove tanto os contêineres quanto as redes criadas pelo manifesto Compose.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -335,297 +616,28 @@ networks:
 
 ---
 
-### Teste 001
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
-Roberto está desenvolvendo uma aplicação web usando React, e decidiu utilizar o Bootstrap para que a aplicação seja responsiva. Analise o trecho do código a seguir como parte da aplicação: Marque a opção que aponta problemas para a implementação correta deste projeto.
+### Teste 202
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O Docker Compose permite definir e executar aplicações multi-contêiner utilizando manifestos declarativos no formato YAML (como `compose.yaml` ou `docker-compose.yml`). Em relação aos elementos estruturais desse manifesto, é correto afirmar:
 
-* **A)** O código não necessita da importação do React pois a exportação já vai incorporar no projeto o React.
-* **B)** É necessário acrescentar a importação do CSS do Bootstrap.
-* **C)** O uso de classes como "container", "text-center", e "btn btn- primary" precisa ser mudado pois não funciona no React.
-* **D)** O Bootstrap não pode ser utilizado em projetos React devido a incompatibilidades entre as bibliotecas.
-* **E)** A tag `<div>` utilizada não é suportada pelo HTML5.
+* **A)** A chave de nível superior `services` define o conjunto de contêineres que compõem a aplicação (como uma API web e um banco de dados), permitindo configurar imagens, portas expostas, variáveis de ambiente, volumes e redes associadas.
+* **B)** O Docker Compose exige que todos os contêineres executem obrigatoriamente a mesma imagem com o mesmo nome.
+* **C)** A diretiva `depends_on` aguarda que a aplicação interna do banco de dados conclua todas as suas migrações e consultas SQL antes de subir a API.
+* **D)** Manifestos Compose não suportam a criação de redes virtuais isoladas entre serviços.
+* **E)** O arquivo `docker-compose.yml` deve ser escrito obrigatoriamente em linguagem XML.
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O código não necessita da importação do React pois a exportação já vai incorporar no projeto o React". De acordo com a teoria estudada em *O Padrão Multi-Stage Build*, em pipelines corporativos de CI/CD, compilar software exige SDKs volumosos, compiladores C/C++, ferramentas de empacotamento e código fonte bruto. Se esses artefatos forem mantidos na imagem final que vai para produção, a imagem terá gigabytes de tamanho e conterá dezenas de vulnerabilidades conhecidas (CVEs).
-> - **B)** **Correta.** Conforme fundamentado na seção *🌐 Fontes Oficiais e Referências Bibliográficas* deste guia, mOUAT, Adrian. Usando Docker: Desenvolvendo e Implantando Software com Contêineres. São Paulo: Novatec, 2016. (Cap. 3 a 5 Construindo Imagens e Redes com Docker). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "É necessário acrescentar a importação do CSS do Bootstrap".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O uso de classes como "container", "text center", e "btn btn primary" precisa ser mudado pois não funciona no React". De acordo com a teoria estudada em *1.4 Sistema de Arquivos em Camadas (Overlay2 UnionFS) e Copy-on-Write (CoW)*, copy on Write (CoW): Quando um contêiner é instanciado a partir de uma imagem, o Docker cria uma camada muito fina e descartável de leitura e escrita ( Container Read Write Layer ) no topo da pilha. Se o contêiner precisa alterar um arquivo que pertence a uma camada inferior de somente leitura, o driver copia esse arquivo para a camada superior gravável e aplica a alteração ali. As camadas da imagem base permanecem intactas e compartilhadas por todos os outros contêineres que utilizam a mesma imagem.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Bootstrap não pode ser utilizado em projetos React devido a incompatibilidades entre as bibliotecas". De acordo com a teoria estudada em *2.2 Execução de Processos: ENTRYPOINT vs. CMD (Exec Form vs. Shell Form)*, cMD : Define os argumentos padrão ou o comando de fallback. Se utilizado em conjunto com ENTRYPOINT , os valores declarados no CMD atuam como parâmetros padrão que podem ser facilmente substituídos pelo usuário na linha de comando.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A tag <div utilizada não é suportada pelo HTML5". De acordo com a teoria estudada em *2.1 Instruções Canônicas: FROM, WORKDIR, COPY vs. ADD, RUN, ENV vs. ARG*, fROM <imagem :<tag : Especifica a imagem base que fundamenta a construção. Toda compilação deve iniciar por um comando FROM (ou FROM scratch para construir uma imagem vazia de 0 bytes para binários estáticos).
->
-> **Gabarito: B**
-
----
-
-### Teste 002
-**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
-O Rancher pode provisionar o Kubernetes de um provedor hospedado ou importar clusters do Kubernetes existente em execução em qualquer lugar, permitindo, ainda, o monitoramento e a emissão de alerta para clusters e seus recursos.
-
-* **C)** Certo
-* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2. Control Groups - `cgroups` (Limitação e Governança de Recursos)*, determinam quanto de recursos computacionais um contêiner pode consumir. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRF 6ª/2025) ao afirmar que "O Rancher pode provisionar o Kubernetes de um provedor hospedado ou importar clusters do Kubernetes existente...".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+> - **A) Correta.** A seção `services` é o núcleo do arquivo Compose, onde cada serviço declara suas configurações operacionais (build/image, environment, ports, volumes, networks, restart).
+> - **B) Incorreta.** Serviços podem executar imagens completamente distintas e heterogêneas.
+> - **C) Incorreta.** `depends_on` controla apenas a ordem de inicialização dos contêineres (*container startup*), não garantindo que o serviço interno da aplicação esteja pronto para conexões sem um *healthcheck* associado.
+> - **D) Incorreta.** Suporta a criação de redes personalizadas na seção `networks`.
+> - **E) Incorreta.** O formato padrão e exclusivo é YAML.
 >
-> **Gabarito: C**
-
----
-
-### Teste 003
-**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
-O Keycloak é considerado uma pilha de software completa cujo objetivo principal é gerenciar a segurança em contêineres à medida que ele administra a infraestrutura de docker.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Keycloak é considerado uma pilha de software completa cujo objetivo principal é gerenciar a segurança em...". De acordo com a teoria em *1. Fundamentos de Conteinerização vs. Virtualização Tradicional*, a compreensão da barreira arquitetural entre Máquinas Virtuais (VMs) e Contêineres de software constitui um dos temas mais recorrentes em concursos públicos da FCC na área de infraestrutura, arquitetura de sistemas e DevOps.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
-
----
-
-### Teste 004
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
-A analista Ana administra o cluster Kubernetes do TJAP. Ana percebeu que o nó ANode do cluster está recusando a criação de containers de forma indevida. Para mitigar o problema, Ana deve verificar no ANode o status do agente do Kubernetes que é executado em cada nó, sendo responsável pela garantia da execução dos containers em um pod do Kubernetes. Ana deve verificar no ANode o status do:
-
-* **A)** kubectl;
-* **B)** kubelet;
-* **C)** kadvisor;
-* **D)** kube-apiserver;
-* **E)** kube-scheduler.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "kubectl". De acordo com a teoria estudada em *2.2 Execução de Processos: ENTRYPOINT vs. CMD (Exec Form vs. Shell Form)*, a definição de qual processo será executado ao instanciar o contêiner é regulada pela combinação de ENTRYPOINT e CMD.
-> - **B)** **Correta.** Conforme fundamentado na seção *1. Linux Namespaces (Isolamento de Visibilidade)* deste guia, pid (Process ID): Isola a árvore de processos. Dentro do contêiner, o processo principal da aplicação visualiza a si mesmo como PID 1 , sendo totalmente cego aos processos em execução no host e em outros contêineres. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "kubelet".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "kadvisor". De acordo com a teoria estudada em *5.2 Ciclo de Vida e Comandos Operacionais da CLI*, docker compose down : Interrompe a execução dos contêineres e remove os contêineres e as redes criadas. Atenção: Os dados dos volumes persistentes NÃO são apagados pelo comando padrão. Para excluir também os volumes gerenciados, deve se explicitar a flag v ( docker compose down v ).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "kube apiserver". De acordo com a teoria estudada em *1.3 Arquitetura do Docker Engine: Client, Daemon, containerd, runc e Registries*, runc: Runtime de baixo nível compatível com a especificação OCI. É o componente final responsável por interagir diretamente com as chamadas de sistema ( syscalls ) do Kernel Linux para criar os namespaces e cgroups e despachar o processo do contêiner.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "kube scheduler". De acordo com a teoria estudada em *O Padrão Multi-Stage Build*, a funcionalidade de Multi Stage Builds resolve esse problema declarando múltiplos comandos FROM no mesmo Dockerfile.
->
-> **Gabarito: B**
-
----
-
-### Teste 005
-**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia Da Informacao)**
-O analista Carlos está configurando o modo rootless do Docker em um servidor Linux. Carlos sabe que, para operar no modo rootless, o Docker exige a presença de determinados utilitários do sistema operacional que possibilitam o uso de múltiplos identificadores de usuário e de grupo no namespace de um usuário. Logo, antes de configurar o modo rootless do Docker no servidor Linux, Carlos verificou a presença dos utilitários:
-
-* **A)** subuid e subgid;
-* **B)** subuid e newgidmap;
-* **C)** newuidmap e subgid;
-* **D)** newuidmap e subuid;
-* **E)** newuidmap e newgidmap.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "subuid e subgid". De acordo com a teoria estudada em *1. Linux Namespaces (Isolamento de Visibilidade)*, user (User IDs): Mapeia UIDs e GIDs entre o contêiner e o host, viabilizando que um processo execute como root (UID 0) dentro do contêiner, mas seja mapeado para um usuário não privilegiado comum (ex.: UID 10001) no sistema hospedeiro.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "subuid e newgidmap". De acordo com a teoria estudada em *1.3 Arquitetura do Docker Engine: Client, Daemon, containerd, runc e Registries*, runc: Runtime de baixo nível compatível com a especificação OCI. É o componente final responsável por interagir diretamente com as chamadas de sistema ( syscalls ) do Kernel Linux para criar os namespaces e cgroups e despachar o processo do contêiner.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "newuidmap e subgid". De acordo com a teoria estudada em *1.1 Máquinas Virtuais (Hypervisors) vs. Contêineres (Kernel Compartilhado)*, nível de Isolamento: Muito alto (isolamento por hardware via instruções de CPU VT x/AMD V). — Alto (isolamento em espaço de usuário do Linux via kernel).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "newuidmap e subuid". De acordo com a teoria estudada em *2.3 Exposição de Portas e Segurança: EXPOSE vs. Publicação no Host e Diretiva USER*, diretiva USER e Segurança (Princípio do Menor Privilégio): Por padrão, os processos dentro de um contêiner rodam como o usuário root (UID 0). Caso a aplicação sofra um ataque de container breakout , o invasor pode comprometer o host. A diretiva USER <usuario sem privilegio altera o contexto de execução para um usuário comum do sistema, mitigando severamente riscos de escalada de privilégios.
-> - **E)** **Correta.** Conforme fundamentado na seção *4.2 Resolução de Nomes por DNS Integrado em Redes Customizadas* deste guia, redes Customizadas pelo Usuário ( User Defined Networks ): Ao criar uma rede com docker network create minha rede , o Docker ativa um servidor DNS interno embutido. Todos os contêineres vinculados a essa rede conseguem resolver e alcançar seus pares utilizando diretamente o próprio nome do contêiner como endereço de rede (hostname). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "newuidmap e newgidmap".
->
-> **Gabarito: E**
-
----
-
-### Teste 006
-**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia Da Informacao)**
-O analista Maicon deve configurar um novo runner, chamado RunM, no GitLab CI/CD do TRF1. Os jobs executados no RunM devem ser capazes de interagir de forma plena com um dispositivo externo conectado fisicamente ao host do runner. O escalonamento do RunM pelo GitLab deve ser fixo, e não automático. Maicon deve escolher o executor de runner do GitLab que exige a menor quantidade de customização necessária para a execução de RunM. O executor de runner que Maicon deve escolher é:
-
-* **A)** shell;
-* **B)** docker;
-* **C)** parallels;
-* **D)** instance;
-* **E)** virtualbox.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "shell". De acordo com a teoria estudada em *2.2 Execução de Processos: ENTRYPOINT vs. CMD (Exec Form vs. Shell Form)*, cMD : Define os argumentos padrão ou o comando de fallback. Se utilizado em conjunto com ENTRYPOINT , os valores declarados no CMD atuam como parâmetros padrão que podem ser facilmente substituídos pelo usuário na linha de comando.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "docker". De acordo com a teoria estudada em *5.2 Ciclo de Vida e Comandos Operacionais da CLI*, docker compose down : Interrompe a execução dos contêineres e remove os contêineres e as redes criadas. Atenção: Os dados dos volumes persistentes NÃO são apagados pelo comando padrão. Para excluir também os volumes gerenciados, deve se explicitar a flag v ( docker compose down v ).
-> - **C)** **Correta.** Conforme fundamentado na seção *2.3 Exposição de Portas e Segurança: EXPOSE vs. Publicação no Host e Diretiva USER* deste guia, diretiva USER e Segurança (Princípio do Menor Privilégio): Por padrão, os processos dentro de um contêiner rodam como o usuário root (UID 0). Caso a aplicação sofra um ataque de container breakout , o invasor pode comprometer o host. A diretiva USER <usuario sem privilegio altera o contexto de execução para um usuário comum do sistema, mitigando severamente riscos de escalada de privilégios. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "parallels".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "instance". De acordo com a teoria estudada em *2.3 Exposição de Portas e Segurança: EXPOSE vs. Publicação no Host e Diretiva USER*, eXPOSE <porta : Instrução meramente informativa e documental. Ela sinaliza ao desenvolvedor ou orquestrador em qual porta o serviço interno escuta por padrão, mas NÃO abre portas no firewall da máquina host nem publica a porta externamente. Para que o contêiner fique acessível pelo tráfego de fora do host, o operador deve compulsoriamente mapear a porta via docker run p <porta host :<porta container ou pela diretiva ports no Docker Compose.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "virtualbox". De acordo com a teoria estudada em *1.1 Máquinas Virtuais (Hypervisors) vs. Contêineres (Kernel Compartilhado)*, o Hipervisor ( Hypervisor Type 1 bare metal como VMware ESXi/KVM, ou Type 2 hospedado como VirtualBox) emula componentes físicos virtuais (CPU, memória RAM, interfaces de rede, controladoras de disco).
->
-> **Gabarito: C**
-
----
-
-### Teste 007
-**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
-Zuul é um sistema de controle de projetos que atua como um sistema CI/CD com foco em testar o estado futuro dos repositórios de código. Zuul foi organizado em torno do conceito de
-
-* **A)** Sabendo que um esquema de encriptação baseado em chave pública possui cinco elementos, identifique e explique cada um desses cinco elementos, destacando suas funções no processo de encriptação e decriptação de mensagens.
-* **B)** Considerando que Bob e Alice necessitam realizar uma troca segura de mensagens utilizando criptografia assimétrica, descreva tecnicamente as etapas essenciais envolvidas nesse processo.
-* **C)** contêiner.
-* **D)** clusteres.
-* **E)** pipeline. Questão Discursiva Considere que Bob e Alice são analistas do Poder Judiciário que trabalham na área de Tecnologia da Informação. Diante da necessidade de trocarem mensagens confidenciais, com garantias de autenticidade e segurança, eles optaram por utilizar criptossistemas de chave pública. Com base nesse cenário, desenvolva, de forma fundamentada, os itens a seguir.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Sabendo que um esquema de encriptação baseado em chave pública possui cinco elementos, identifique e explique cada...". De acordo com a teoria estudada em *2.1 Instruções Canônicas: FROM, WORKDIR, COPY vs. ADD, RUN, ENV vs. ARG*, aRG : Define variáveis disponíveis exclusivamente durante a compilação da imagem ( docker build build arg CHAVE=VALOR ). Não persiste nos metadados nem no ambiente do contêiner em runtime.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Considerando que Bob e Alice necessitam realizar uma troca segura de mensagens utilizando criptografia...". De acordo com a teoria estudada em *1.2 Primitivas Essenciais do Kernel Linux: Namespaces e Control Groups (cgroups)*, a segurança e o isolamento de um contêiner Docker não decorrem de mágica, mas do acoplamento de duas tecnologias maduras do Kernel Linux.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contêiner". De acordo com a teoria estudada em *4.1 Drivers de Rede: bridge, host, none, overlay e macvlan*, host : Elimina o isolamento de pilha de rede entre o contêiner e a máquina hospedeira. O contêiner compartilha as portas e a interface de rede física diretamente com o host. Não há overhead de tradução de endereços (NAT), mas dois contêineres não podem utilizar a mesma porta simultaneamente.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "clusteres". De acordo com a teoria estudada em *5.1 Estrutura do Manifesto Compose: Services, Networks, Volumes e depends_on*, depends on : Especifica a ordem de inicialização das dependências. Em sua forma moderna, permite aguardar não apenas a subida do contêiner dependente, mas a validação de que ele está funcionalmente pronto através de regras de condition: service healthy.
-> - **E)** **Correta.** Conforme fundamentado na seção *1. Fundamentos de Conteinerização vs. Virtualização Tradicional* deste guia, a compreensão da barreira arquitetural entre Máquinas Virtuais (VMs) e Contêineres de software constitui um dos temas mais recorrentes em concursos públicos da FCC na área de infraestrutura, arquitetura de sistemas e DevOps. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "pipeline. Questão Discursiva Considere que Bob e Alice são analistas do Poder Judiciário que trabalham na área de...".
->
-> **Gabarito: E**
-
----
-
-### Teste 008
-**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
-No Kubernetes, há duas formas de aplicar mudanças na configuração de uma aplicação: imperativa e declarativa. Considere os dois comandos a seguir: 1: kubectl create -f exemplo.yaml 2: kubectl apply -f exemplo-deployment.yaml Nesse caso, é correto afirmar que
-
-* **A)** 1 é um exemplo de comando declarativo, em que o kubectl especifica a operação que se deseja aplicar.
-* **B)** 2 é um exemplo de comando imperativo, em que o kubectl especifica a operação que se deseja aplicar.
-* **C)** 2 é um exemplo de comando imperativo, em que o usuário não define que operações serão executadas.
-* **D)** 1 é um exemplo de comando declarativo, em que o sistema do Kubernetes decidirá a melhor forma de aplicá-lo.
-* **E)** 2 é um exemplo de comando declarativo, em que o sistema do Kubernetes decidirá a melhor forma de aplicá-lo.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 é um exemplo de comando declarativo, em que o kubectl especifica a operação que se deseja aplicar". De acordo com a teoria estudada em *5.1 Estrutura do Manifesto Compose: Services, Networks, Volumes e depends_on*, depends on : Especifica a ordem de inicialização das dependências. Em sua forma moderna, permite aguardar não apenas a subida do contêiner dependente, mas a validação de que ele está funcionalmente pronto através de regras de condition: service healthy.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 é um exemplo de comando imperativo, em que o kubectl especifica a operação que se deseja aplicar". De acordo com a teoria estudada em *2.1 Instruções Canônicas: FROM, WORKDIR, COPY vs. ADD, RUN, ENV vs. ARG*, fROM <imagem :<tag : Especifica a imagem base que fundamenta a construção. Toda compilação deve iniciar por um comando FROM (ou FROM scratch para construir uma imagem vazia de 0 bytes para binários estáticos).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 é um exemplo de comando imperativo, em que o usuário não define que operações serão executadas". De acordo com a teoria estudada em *2.2 Execução de Processos: ENTRYPOINT vs. CMD (Exec Form vs. Shell Form)*, cMD : Define os argumentos padrão ou o comando de fallback. Se utilizado em conjunto com ENTRYPOINT , os valores declarados no CMD atuam como parâmetros padrão que podem ser facilmente substituídos pelo usuário na linha de comando.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 é um exemplo de comando declarativo, em que o sistema do Kubernetes decidirá a melhor forma de aplicá lo". De acordo com a teoria estudada em *O Padrão Multi-Stage Build*, benefícios: Redução drástica do tamanho da imagem (de centenas de megabytes para dezenas), agilidade no download pelos nós do Kubernetes e minimização radical da superfície de ataque cibernético.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.4 Sistema de Arquivos em Camadas (Overlay2 UnionFS) e Copy-on-Write (CoW)* deste guia, copy on Write (CoW): Quando um contêiner é instanciado a partir de uma imagem, o Docker cria uma camada muito fina e descartável de leitura e escrita ( Container Read Write Layer ) no topo da pilha. Se o contêiner precisa alterar um arquivo que pertence a uma camada inferior de somente leitura, o driver copia esse arquivo para a camada superior gravável e aplica a alteração ali. As camadas da imagem base permanecem intactas e compartilhadas por todos os outros contêineres que utilizam a mesma imagem. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "2 é um exemplo de comando declarativo, em que o sistema do Kubernetes decidirá a melhor forma de aplicá lo".
->
-> **Gabarito: E**
-
----
-
-### Teste 009
-**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-Aplicações web desenvolvidas com as tecnologias Java Servlet e JSP podem ser executadas no container IIS.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aplicações web desenvolvidas com as tecnologias Java Servlet e JSP podem ser executadas no container IIS". De acordo com a teoria em *2.2 Execução de Processos: ENTRYPOINT vs. CMD (Exec Form vs. Shell Form)*, cMD : Define os argumentos padrão ou o comando de fallback. Se utilizado em conjunto com ENTRYPOINT , os valores declarados no CMD atuam como parâmetros padrão que podem ser facilmente substituídos pelo usuário na linha de comando.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
-
----
-
-### Teste 010
-**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-A analista Ana precisa implantar o pod LogPod no cluster de Kubernetes KCluster do TJDFT de forma que todos os nós elegíveis do KCluster executem uma cópia do LogPod. Para que o KCluster apresente uma cópia do LogPod em cada nó elegível, de forma automática, Ana deve implantar o LogPod utilizando o recurso do Kubernetes:
-
-* **A)** ReplicationController;
-* **B)** ReplicaSet;
-* **C)** StatefulSet;
-* **D)** DaemonSet;
-* **E)** EndpointSlice.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ReplicationController". De acordo com a teoria estudada em *O Padrão Multi-Stage Build*, benefícios: Redução drástica do tamanho da imagem (de centenas de megabytes para dezenas), agilidade no download pelos nós do Kubernetes e minimização radical da superfície de ataque cibernético.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ReplicaSet". De acordo com a teoria estudada em *4.1 Drivers de Rede: bridge, host, none, overlay e macvlan*, macvlan : Atribui um endereço MAC físico diretamente à interface virtual do contêiner, fazendo com que ele se apresente perante a rede corporativa (switch/roteador físico) como se fosse um servidor físico independente com IP próprio na sub rede da LAN.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "StatefulSet". De acordo com a teoria estudada em *4.2 Resolução de Nomes por DNS Integrado em Redes Customizadas*, rede Bridge Padrão ( bridge default): Contêineres só conseguem se comunicar diretamente por endereços IP ou usando links legados desaconselhados ( link ). Não há suporte nativo à resolução automática de nomes por DNS.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.4 Sistema de Arquivos em Camadas (Overlay2 UnionFS) e Copy-on-Write (CoW)* deste guia, copy on Write (CoW): Quando um contêiner é instanciado a partir de uma imagem, o Docker cria uma camada muito fina e descartável de leitura e escrita ( Container Read Write Layer ) no topo da pilha. Se o contêiner precisa alterar um arquivo que pertence a uma camada inferior de somente leitura, o driver copia esse arquivo para a camada superior gravável e aplica a alteração ali. As camadas da imagem base permanecem intactas e compartilhadas por todos os outros contêineres que utilizam a mesma imagem. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "DaemonSet".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "EndpointSlice". De acordo com a teoria estudada em *4.2 Resolução de Nomes por DNS Integrado em Redes Customizadas*, redes Customizadas pelo Usuário ( User Defined Networks ): Ao criar uma rede com docker network create minha rede , o Docker ativa um servidor DNS interno embutido. Todos os contêineres vinculados a essa rede conseguem resolver e alcançar seus pares utilizando diretamente o próprio nome do contêiner como endereço de rede (hostname).
->
-> **Gabarito: D**
-
----
-
-### Teste 011
-**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-A analista Sara modificou alguns arquivos do container Docker TJSiteContainer que se encontra em execução. Para criar uma imagem Docker a partir do estado atual de TJSiteContainer, a fim de persistirem as modificações efetuadas em seus arquivos, Sara deve utilizar o comando:
-
-* **A)** docker create
-* **B)** docker diff
-* **C)** docker export
-* **D)** docker image save
-* **E)** docker commit
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "docker create". De acordo com a teoria estudada em *4.2 Resolução de Nomes por DNS Integrado em Redes Customizadas*, redes Customizadas pelo Usuário ( User Defined Networks ): Ao criar uma rede com docker network create minha rede , o Docker ativa um servidor DNS interno embutido. Todos os contêineres vinculados a essa rede conseguem resolver e alcançar seus pares utilizando diretamente o próprio nome do contêiner como endereço de rede (hostname).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "docker diff". De acordo com a teoria estudada em *5.2 Ciclo de Vida e Comandos Operacionais da CLI*, docker compose down : Interrompe a execução dos contêineres e remove os contêineres e as redes criadas. Atenção: Os dados dos volumes persistentes NÃO são apagados pelo comando padrão. Para excluir também os volumes gerenciados, deve se explicitar a flag v ( docker compose down v ).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "docker export". De acordo com a teoria estudada em *2.3 Exposição de Portas e Segurança: EXPOSE vs. Publicação no Host e Diretiva USER*, eXPOSE <porta : Instrução meramente informativa e documental. Ela sinaliza ao desenvolvedor ou orquestrador em qual porta o serviço interno escuta por padrão, mas NÃO abre portas no firewall da máquina host nem publica a porta externamente. Para que o contêiner fique acessível pelo tráfego de fora do host, o operador deve compulsoriamente mapear a porta via docker run p <porta host :<porta container ou pela diretiva ports no Docker Compose.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "docker image save". De acordo com a teoria estudada em *5.1 Estrutura do Manifesto Compose: Services, Networks, Volumes e depends_on*, services : Declara cada um dos contêineres da aplicação. Define a imagem pronta ( image: ) ou o contexto de construção local ( build: ), portas mapeadas ( ports: ), variáveis ( environment: ) e volumes acoplados.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.4 Sistema de Arquivos em Camadas (Overlay2 UnionFS) e Copy-on-Write (CoW)* deste guia, copy on Write (CoW): Quando um contêiner é instanciado a partir de uma imagem, o Docker cria uma camada muito fina e descartável de leitura e escrita ( Container Read Write Layer ) no topo da pilha. Se o contêiner precisa alterar um arquivo que pertence a uma camada inferior de somente leitura, o driver copia esse arquivo para a camada superior gravável e aplica a alteração ali. As camadas da imagem base permanecem intactas e compartilhadas por todos os outros contêineres que utilizam a mesma imagem. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "docker commit".
->
-> **Gabarito: E**
-
----
-
-### Teste 012
-**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
-A infraestrutura recomendada para instalar o Rancher em um cluster Kubernetes K3 de alta disponibilidade é
-
-* **A)** dois nós Linux, normalmente máquina virtual, e um banco de dados externo do tipo NoSQL.
-* **B)** um cluster com Linux com menos dois nós ou quatro nós se Windows Server normalmente máquinas virtuais; com pelos menos 64 GB de memória RAM no provedor de infraestrutura e um banco de dados externo do tipo NoSQL.
-* **C)** um cluster com Linux de dois nós normalmente máquinas virtuais; com pelos menos 48 GB de memória RAM no provedor de infraestrutura.
-* **D)** dois nós Linux, normalmente máquinas virtuais; um banco de dados externo do tipo relacional, um balanceador de carga e um registro DNS.
-* **E)** quatro nós Windows Server, normalmente máquinas virtuais; um banco de dados externo do tipo relacional, um balanceador de carga entre os quatro nós e dois registros DNS como redundância.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dois nós Linux, normalmente máquina virtual, e um banco de dados externo do tipo NoSQL". De acordo com a teoria estudada em *1.1 Máquinas Virtuais (Hypervisors) vs. Contêineres (Kernel Compartilhado)*, cada máquina virtual instala e executa um Sistema Operacional convidado ( Guest OS ) completo e autônomo, contendo seu próprio Kernel, drivers e daemons de inicialização.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um cluster com Linux com menos dois nós ou quatro nós se Windows Server normalmente máquinas virtuais; com pelos...". De acordo com a teoria estudada em *1.1 Máquinas Virtuais (Hypervisors) vs. Contêineres (Kernel Compartilhado)*, o Hipervisor ( Hypervisor Type 1 bare metal como VMware ESXi/KVM, ou Type 2 hospedado como VirtualBox) emula componentes físicos virtuais (CPU, memória RAM, interfaces de rede, controladoras de disco).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um cluster com Linux de dois nós normalmente máquinas virtuais; com pelos menos 48 GB de memória RAM no provedor...". De acordo com a teoria estudada em *1.1 Máquinas Virtuais (Hypervisors) vs. Contêineres (Kernel Compartilhado)*, sobrecarga ( Overhead ): Elevado consumo de espaço em disco e memória RAM apenas para manter as instâncias de SO convidado rodando; tempo de inicialização lento (de dezenas de segundos a vários minutos para executar o boot completo).
-> - **D)** **Correta.** Conforme fundamentado na seção *5.1 Estrutura do Manifesto Compose: Services, Networks, Volumes e depends_on* deste guia, networks : Define as redes virtuais privativas. Todos os serviços conectados à mesma rede conseguem se comunicar apontando o tráfego diretamente para o nome do serviço (ex.: a aplicação web acessa o banco via db:5432 ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "dois nós Linux, normalmente máquinas virtuais; um banco de dados externo do tipo relacional, um balanceador de...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "quatro nós Windows Server, normalmente máquinas virtuais; um banco de dados externo do tipo relacional, um...". De acordo com a teoria estudada em *1.1 Máquinas Virtuais (Hypervisors) vs. Contêineres (Kernel Compartilhado)*, um contêiner nada mais é do que um processo padrão do Linux encapsulado e isolado do restante do sistema através de recursos nativos do núcleo.
->
-> **Gabarito: D**
-
----
-
-### Teste 013
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
-O Tribunal está migrando seus serviços de auditoria contínua para um cluster Kubernetes (K8s). Durante um teste de carga, um Auditor de TI observa que, embora o Horizontal Pod Autoscaler (HPA) esteja criando novas réplicas dos Pods, o tempo de resposta continua alto porque o tráfego não está sendo distribuído eficientemente entre as novas instâncias. Para garantir que o tráfego seja enviado apenas para Pods que já completaram sua rotina de inicialização e carregamento de cache, a seguinte configuração do Kubernetes deve ser rigorosamente auditada e ajustada:
-
-* **A)** Liveness Probe.
-* **B)** Resource Quotas.
-* **C)** Readiness Probe.
-* **D)** ConfigMaps.
-* **E)** Node Selector.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Liveness Probe". De acordo com a teoria estudada em *2.3 Exposição de Portas e Segurança: EXPOSE vs. Publicação no Host e Diretiva USER*, eXPOSE <porta : Instrução meramente informativa e documental. Ela sinaliza ao desenvolvedor ou orquestrador em qual porta o serviço interno escuta por padrão, mas NÃO abre portas no firewall da máquina host nem publica a porta externamente. Para que o contêiner fique acessível pelo tráfego de fora do host, o operador deve compulsoriamente mapear a porta via docker run p <porta host :<porta container ou pela diretiva ports no Docker Compose.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Resource Quotas". De acordo com a teoria estudada em *2. Control Groups - `cgroups` (Limitação e Governança de Recursos)*, permitem estabelecer quotas estritas e limites máximos de consumo de memória RAM (evitando ataques de exaustão de memória e acionamento descontrolado do OOM Killer no host).
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Máquinas Virtuais (Hypervisors) vs. Contêineres (Kernel Compartilhado)* deste guia, sobrecarga ( Overhead ): Elevado consumo de espaço em disco e memória RAM apenas para manter as instâncias de SO convidado rodando; tempo de inicialização lento (de dezenas de segundos a vários minutos para executar o boot completo). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Readiness Probe".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ConfigMaps". De acordo com a teoria estudada em *5.1 Estrutura do Manifesto Compose: Services, Networks, Volumes e depends_on*, networks : Define as redes virtuais privativas. Todos os serviços conectados à mesma rede conseguem se comunicar apontando o tráfego diretamente para o nome do serviço (ex.: a aplicação web acessa o banco via db:5432 ).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Node Selector". De acordo com a teoria estudada em *1.1 Máquinas Virtuais (Hypervisors) vs. Contêineres (Kernel Compartilhado)*, eficiência e Densidade: Inicialização em milissegundos (o tempo de iniciar um processo simples); consumo mínimo de RAM e CPU; densidade operacional altíssima (dezenas ou centenas de contêineres em um mesmo nó físico).
->
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 

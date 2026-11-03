@@ -5,7 +5,10 @@
 > **Arquivo:** `04_regime_juridico_servidores_e_pccr_leis_20756_e_15122.md`  
 > **Atos Normativos:** Lei Estadual nº 20.756, de 28 de janeiro de 2020 (Estatuto Geral dos Servidores Públicos Civis do Estado de Goiás) e Lei Estadual nº 15.122, de 04 de fevereiro de 2005 (Plano de Cargos, Carreiras e Remuneração do TCE-GO)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Regime Jurídico dos Servidores Públicos Civis do Estado de Goiás (Lei Estadual nº 20.756/2020):
@@ -185,73 +188,214 @@ O PAD é o procedimento contraditório formal destinado a apurar a responsabilid
 
 ---
 
-### Teste 001
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-Pedro, servidor ocupante de cargo de provimento efetivo no Estado de Goiás, em exercício há cinco anos ininterruptos, após regular processo administrativo-disciplinar, veio a ser demitido. O cargo que ocupava, por sua vez, de nomenclatura X, foi transformado no cargo Y, que passou a ser ocupado por Maria. A demissão de Pedro, no entanto, foi invalidada pelo Poder Judiciário. De acordo com a Lei Estadual nº 20.756/2020, é correto afirmar que ocorrerá
+### Teste 152
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Lucas, servidor público estável do Estado de Goiás, obteve aprovação em concurso público e foi nomeado para cargo de outra carreira estadual inacumulável. Durante a realização do estágio probatório do novo cargo, foi considerado inapto pela comissão de avaliação e formalmente inabilitado. Paralelamente, em outra repartição, Beatriz, servidora pública estável demitida por falta funcional, teve sua demissão invalidada por decisão judicial transitada em julgado. De acordo com a Lei Estadual nº 20.756/2020, o retorno de Lucas ao cargo primitivo e a reintegração de Beatriz ao cargo público ocupado anteriormente caracterizam, respectivamente:
 
-* **A)** a recondução de Pedro.
-* **B)** a reintegração de Pedro.
-* **C)** a disponibilidade de Pedro.
-* **D)** o reaproveitamento de Pedro.
-* **E)** o retorno de Pedro, e Maria será exonerada.
+* **A)** Reversão e Aproveitamento.
+* **B)** Recondução e Reintegração.
+* **C)** Readaptação e Reversão.
+* **D)** Reintegração e Recondução.
+* **E)** Aproveitamento e Readaptação.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a recondução de Pedro". De acordo com a teoria estudada em *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento*, recondução: Retorno do servidor público estável ao cargo de origem anteriormente ocupado, decorrente de: 1) Inabilitação em estágio probatório de outro cargo público; ou 2) Retorno do titular daquele cargo em virtude de reintegração. — Retorno formal sem direito a qualquer indenização financeira pelo período em que esteve fora.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento* deste guia, reintegração: Retorno do servidor público estável ao cargo anteriormente ocupado quando sua demissão for invalidada por decisão judicial transitada em julgado ou administrativa. — O servidor é reintegrado com ressarcimento integral de todos os vencimentos, remunerações e vantagens retroativas a que faria jus. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "a reintegração de Pedro".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a disponibilidade de Pedro". De acordo com a teoria estudada em *1.7 Prescrição da Pretensão Punitiva Disciplinar*, cinco (5) anos: Para infrações disciplinares puníveis com demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão ou função de confiança.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o reaproveitamento de Pedro". De acordo com a teoria estudada em *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento*, a Lei Estadual nº 20.756, de 28 de janeiro de 2020, estabelece o regime jurídico único dos servidores públicos civis da administração direta, autárquica e fundacional dos Poderes Executivo, Legislativo e Judiciário do Estado de Goiás, aplicando se também aos servidores dos Tribunais de Contas (TCE GO e TCM GO) e do Ministério Público.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o retorno de Pedro, e Maria será exonerada". De acordo com a teoria estudada em *3. Fontes Oficiais e Referências Bibliográficas*, dI PIETRO, Maria Sylvia Zanella. Direito Administrativo. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 14 Servidores Públicos e Regime Estatutário).
+> - **A) Incorreta.** Reversão é o retorno do aposentado e aproveitamento é a convocação de servidor colocado em disponibilidade.
+> - **B) CORRETA.** Nos termos dos mandamentos expressos da Lei Estadual nº 20.756/2020:
+>     - **Recondução:** É o retorno do servidor estável ao cargo anteriormente ocupado, decorrente de sua inabilitação em estágio probatório relativo a outro cargo público (situação de Lucas) ou de reintegração do anterior ocupante, sem direito a qualquer indenização financeira.
+>     - **Reintegração:** É o retorno do servidor estável ao cargo anteriormente ocupado quando sua demissão for invalidada por decisão judicial ou administrativa, com ressarcimento integral de todas as vantagens pecuniárias e vencimentos pretéritos (situação de Beatriz).
+> - **C) Incorreta.** Readaptação pressupõe limitação superveniente física ou mental atestada em perícia oficial; reversão cuida do retorno do inativo.
+> - **D) Incorreta.** A ordem lógica e jurídica dos institutos está invertida.
+> - **E) Incorreta.** Nenhum dos dois casos trata de disponibilidade nem readaptação funcional.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 153
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Mariana foi nomeada para cargo de provimento efetivo no serviço público de Goiás e compareceu tempestivamente à repartição, prestando compromisso e assinando o termo de posse. Entretanto, por motivos estritamente particulares, Mariana não compareceu para assumir as atribuições funcionais e não entrou em efetivo exercício no prazo legal fixado pelo estatuto funcional. De acordo com as normas da Lei Estadual nº 20.756/2020:
+
+* **A)** O ato de nomeação de Mariana será sumariamente tornado sem efeito por decreto do Governador.
+* **B)** Mariana será exonerada de ofício do cargo público no qual havia tomado posse.
+* **C)** A posse será anulada retroativamente, aplicando-se suspensão de seus direitos políticos por improbidade administrativa.
+* **D)** O prazo de exercício será prorrogado compulsoriamente por igual período mediante requerimento de ofício do chefe imediato.
+* **E)** Será instaurado Processo Administrativo Disciplinar para aplicação da penalidade de demissão por abandono de cargo.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O ato de nomeação é tornado *sem efeito* apenas quando o nomeado deixa de tomar posse no prazo legal de 30 dias. A partir do momento em que Mariana assinou o termo de posse, ela tornou-se formalmente servidora pública.
+> - **B) CORRETA.** Nos termos estritos da Lei Estadual nº 20.756/2020, o prazo para o servidor empossado entrar em exercício é de **15 (quinze) dias**. Se o servidor toma posse regularmente, mas **não entra em exercício** dentro do prazo legal fixado, a consequência expressa é a sua **exoneração de ofício**.
+> - **C) Incorreta.** O não comparecimento para o exercício funcional não constitui causa de anulação da posse válida e nem atrai improbidade administrativa com suspensão de direitos políticos.
+> - **D) Incorreta.** Não há previsão estatutária para dilação compulsória de prazo de exercício por iniciativa unilateral da chefia imediata sem expressa solicitação fundamentada da servidora.
+> - **E) Incorreta.** O abandono de cargo pressupõe que o servidor esteja no exercício efetivo das atribuições e se ausente por mais de 30 dias consecutivos; para o empossado inerte que nunca entrou em exercício, o estatuto comina a **exoneração de ofício**.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 154
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da estabilidade e do estágio probatório do servidor público civil, regulamentados pela Lei Estadual nº 20.756/2020, considere:
+
+* **A)** O período de estágio probatório é de dois anos, sendo que o servidor aprovado adquire vitaliciedade automática na carreira.
+* **B)** O estágio probatório tem a duração de três anos de efetivo exercício, período durante o qual a aptidão e a capacidade do servidor serão objeto de avaliação obrigatória segundo fatores previstos em lei.
+* **C)** O servidor em estágio probatório adquire estabilidade tácita caso a comissão de avaliação de desempenho não homologue o resultado no prazo de trinta dias antes do término do triênio em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** O servidor reprovado na avaliação de estágio probatório que não seja estável no serviço público será posto em disponibilidade com remuneração proporcional ao tempo de serviço.
+* **E)** É vedada a exoneração de servidor em estágio probatório, podendo a demissão ocorrer apenas após sentença judicial penal condenatória transitada em julgado.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O período de estágio probatório é de **três anos** (36 meses) e os servidores públicos civis adquirem **estabilidade**, e não vitaliciedade (garantia privativa de magistrados, procuradores de contas e membros do MP).
+> - **B) CORRETA.** Conforme prescreve a Lei Estadual nº 20.756/2020, ao entrar em exercício, o servidor público nomeado para cargo de provimento efetivo sujeita-se a **estágio probatório com duração de 3 (três) anos** de efetivo exercício, período no qual sua capacidade e desempenho serão submetidos a avaliação especial obrigatória considerando fatores legais como assiduidade, pontualidade, disciplina, iniciativa, produtividade e responsabilidade.
+> - **C) Incorreta.** A aquisição da estabilidade constitucional subordina-se compulsoriamente à prévia aprovação em avaliação de desempenho (Art. 41, § 4º da CF), sendo juridicamente impossível a estabilidade "tácita" por decurso de prazo.
+> - **D) Incorreta.** O servidor não estável reprovado no estágio probatório é **exonerado de ofício**; a disponibilidade com remuneração proporcional é prerrogativa protetiva exclusiva do servidor já estável cujo cargo venha a ser extinto.
+> - **E) Incorreta.** O servidor em estágio probatório pode ser perfeitamente exonerado se reputado inapto na avaliação de desempenho, assegurados o contraditório e a ampla defesa.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 155
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Nos termos do Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei Estadual nº 20.756/2020), a vacância do cargo público decorre taxativamente de:
+
+* **A)** Promoção, readaptação, aposentadoria, exoneração, demissão, destituição de cargo em comissão, posse em outro cargo inacumulável e falecimento.
+* **B)** Transferência, remoção compulsória, licença para tratar de interesses particulares e disponibilidade remunerada.
+* **C)** Exoneração voluntária e demissão por justa causa apenas, permanecendo as demais hipóteses regidas pelo direito civil em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** Ascensão funcional, readmissão graciosa e aproveitamento em cargo comissionado.
+* **E)** Licença-maternidade, afastamento para mandato classista e cessão de servidores entre órgãos.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O art. 44 da Lei Estadual nº 20.756/2020 prevê o rol taxativo das hipóteses de vacância de cargo público no Estado de Goiás: I - exoneração; II - demissão; III - destituição de cargo em comissão; IV - aposentadoria; V - posse em outro cargo inacumulável; VI - promoção; VII - readaptação; VIII - falecimento. Nota-se que tanto a promoção quanto a readaptação operam simultaneamente como forma de provimento (em um cargo) e forma de vacância (no cargo anterior).
+> - **B)** Incorreta. Remoção e transferência interna não geram vacância de cargo, pois o servidor permanece ocupando o mesmo cargo efetivo, apenas alterando sua lotação ou unidade de exercício.
+> - **C)** Incorreta. Há várias outras hipóteses legais além de exoneração e demissão (aposentadoria, promoção, posse em cargo inacumulável etc.).
+> - **D)** Incorreta. Ascensão e transferência como formas de investidura foram banidas do ordenamento jurídico por inconstitucionalidade (Súmula Vinculante 43 do STF).
+> - **E)** Incorreta. Licenças e afastamentos temporários mantêm o cargo provido pelo titular.
+>
+> **Gabarito: A**
+
+---
+
+---
+
+### Teste 156
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito das licenças, afastamentos e concessões funcionais reguladas pela Lei Estadual nº 20.756/2020 (Estatuto dos Servidores de Goiás):
+
+* **A)** A antiga licença-prêmio por assiduidade foi expressamente extinta pelo novel estatuto goiano.
+* **B)** A licença por motivo de doença em pessoa da família é sempre concedida com remuneração integral, independentemente do prazo de duração do afastamento.
+* **C)** É garantida a conversão em pecúnia de todos os períodos de licença-capacitação não usufruídos pelo servidor em atividade a qualquer tempo.
+* **D)** O servidor em estágio probatório pode usufruir de licença para tratar de interesses particulares pelo prazo de até 3 anos consecutivos.
+* **E)** O servidor afastado para exercício de mandato classista em sindicato perceberá gratificação extraordinária de função paga pelo erário estadual.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Uma das inovações mais relevantes da Lei Estadual nº 20.756/2020 (art. 138) foi a extinção da antiga licença-prêmio assiduidade (preservados os direitos adquiridos sob a égide da lei anterior) e a instituição da **Licença para Capacitação Profissional**, que faculta ao servidor afastar-se do cargo por até 3 meses, com remuneração integral, a cada período de 5 anos de efetivo exercício, desde que comprovada a participação em curso de aperfeiçoamento correlato às atribuições do cargo.
+> - **B)** Incorreta. A licença por motivo de doença em pessoa da família (art. 130) é remunerada nos primeiros meses e torna-se sem remuneração caso ultrapasse os limites temporais previstos na lei.
+> - **C)** Incorreta. A conversão em pecúnia da licença-capacitação é expressamente vedada durante a atividade funcional.
+> - **D)** Incorreta. A licença para tratar de interesses particulares é privativa de servidores estáveis (após o término do estágio probatório).
+> - **E)** Incorreta. O afastamento classista não gera direito a acréscimos pecuniários extraordinários custeados pelos cofres públicos.
+>
+> **Gabarito: A**
+
+---
+
+---
+
+### Teste 157
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito do regime disciplinar instituído pela Lei Estadual nº 20.756/2020, as penalidades disciplinares aplicáveis aos servidores públicos estatutários de Goiás são:
+
+* **A)** Advertência, censura ética, multa pecuniária descontada em folha e prisão administrativa.
+* **B)** Advertência, suspensão de até 90 dias, demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão.
+* **C)** Repreensão verbal, suspensão por até 180 dias e perda compulsória dos direitos políticos.
+* **D)** Advertência e demissão apenas, não se admitindo a penalidade de suspensão no serviço público estadual em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** Advertência, suspensão perpétua e banimento funcional.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A prisão administrativa é inconstitucional no direito brasileiro pós-CF/88, e censura ética é sanção deontológica de comissões de ética, não penalidade disciplinar estatutária direta.
+> - **B)** Correta. O art. 196 da Lei Estadual nº 20.756/2020 enumera em rol taxativo as sanções disciplinares aplicáveis:  
+>   I - advertência;  
+>   II - suspensão (por prazo de até 90 dias);  
+>   III - demissão;  
+>   IV - cassação de aposentadoria ou disponibilidade;  
+>   V - destituição de cargo em comissão ou função de confiança.
+> - **C)** Incorreta. A suspensão é limitada a 90 dias, e perda de direitos políticos é sanção judicial privativa e não administrativa.
+> - **D)** Incorreta. A suspensão é modalidade sancionatória expressamente positivada.
+> - **E)** Incorreta. São vedadas penas perpétuas ou de banimento pela ordem constitucional.
 >
 > **Gabarito: B**
 
 ---
 
-### Teste 002
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-João, servidor público ocupante de cargo em comissão no âmbito do poder Executivo do Estado de Goiás, foi afastado da direção do órgão público X, em razão de permissivo constante da Lei estadual nº 20.756/2020. Maria, por sua vez, que dirigia o órgão público Y, foi informada que iria substituir João. Nessa situação, é correto afirmar que Maria, ao ser designada para substituir João
+---
 
-* **A)** continuará no órgão público Y, e receberá a integralidade da retribuição estipendial do cargo de João, paga proporcionalmente aos dias de efetiva substituição.
-* **B)** continuará no órgão público Y, e poderá optar pela remuneração integral do cargo de João, ao invés daquela correspondente ao cargo que ocupa.
-* **C)** continuará no órgão publico Y, e receberá 60% da retribuição estipendial do cargo de João, paga proporcionalmente aos dias de efetiva substituição.
-* **D)** continuará no órgão público Y, e não fará jus a qualquer retribuição estipendial pela acumulação do órgão público x.
-* **E)** será afastada do órgão público Y, em razão da vedação à acumulação de cargos.
+### Teste 158
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito do regime disciplinar e da prescrição da pretensão punitiva administrativa regulados pela Lei Estadual nº 20.756/2020, assinale a opção correta:
+
+* **A)** A penalidade de suspensão não poderá exceder a noventa dias, acarretando a perda da remuneração dos dias em que perdurar o afastamento.
+* **B)** A ação disciplinar para apuração de infrações puníveis com suspensão prescreve no prazo improrrogável de cento e oitenta dias da ocorrência do fato.
+* **C)** O cometimento de infração funcional de natureza leve acarreta diretamente a aplicação da penalidade de demissão a bem do serviço público.
+* **D)** O prazo prescricional para punir infrações administrativas começa a fluir na data em que a conduta foi praticada, independentemente de quando a autoridade competente tomou conhecimento dela.
+* **E)** A instauração de sindicância ou processo administrativo disciplinar não interfere no curso do prazo de prescrição, que flui ininterruptamente até a decisão final.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "continuará no órgão público Y, e receberá a integralidade da retribuição estipendial do cargo de João, paga...". De acordo com a teoria estudada em *1.5 Direitos, Vantagens Pecuniárias, Férias e Licenças*, vencimento: É a retribuição pecuniária básica fixada em lei para o padrão ocupado pelo servidor no cargo público efetivo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "continuará no órgão público Y, e poderá optar pela remuneração integral do cargo de João, ao invés daquela...". De acordo com a teoria estudada em *1.6 Regime Disciplinar: Deveres, Proibições e Penalidades*, conversão em Multa: Quando houver conveniência para o serviço público, a penalidade de suspensão poderá ser convertida em multa na base de 50% (cinquenta por cento) por dia de remuneração, ficando o servidor obrigado a permanecer em serviço.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento* deste guia, a Lei Estadual nº 20.756, de 28 de janeiro de 2020, estabelece o regime jurídico único dos servidores públicos civis da administração direta, autárquica e fundacional dos Poderes Executivo, Legislativo e Judiciário do Estado de Goiás, aplicando se também aos servidores dos Tribunais de Contas (TCE GO e TCM GO) e do Ministério Público. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "continuará no órgão publico Y, e receberá 60% da retribuição estipendial do cargo de João, paga proporcionalmente...".
-> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "continuará no órgão público Y, e não fará jus a qualquer retribuição estipendial pela acumulação do órgão público x". De acordo com a teoria estudada em *1.5 Direitos, Vantagens Pecuniárias, Férias e Licenças*, férias: O servidor faz jus a 30 (trinta) dias de férias anuais remuneradas, pagas com acréscimo de 1/3 (um terço) constitucional. É vedada a acumulação de mais de dois períodos de férias por absoluta necessidade do serviço.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "será afastada do órgão público Y, em razão da vedação à acumulação de cargos". De acordo com a teoria estudada em *Fundamentos Teóricos*, atos Normativos: Lei Estadual nº 20.756, de 28 de janeiro de 2020 (Estatuto Geral dos Servidores Públicos Civis do Estado de Goiás) e Lei Estadual nº 15.122, de 04 de fevereiro de 2005 (Plano de Cargos, Carreiras e Remuneração do TCE GO).
->
-> **Gabarito: C**
+> - **A) CORRETA.** Nos termos da Lei Estadual nº 20.756/2020, a penalidade disciplinar de **suspensão** será imposta em caso de falta média ou reincidência em falta punida com advertência, **não podendo ultrapassar noventa (90) dias**, importando a perda da remuneração dos dias correspondentes ao afastamento do trabalho.
+> - **B) Incorreta.** O prazo prescricional para infrações sancionadas com penalidade de suspensão é de **2 (dois) anos**. O prazo de 180 dias incide sobre as infrações sujeitas à pena de **advertência**.
+> - **C) Incorreta.** Falta leve sujeita o servidor à penalidade de **advertência** por escrito; a demissão exige a ocorrência de infração gravíssima taxativamente tipificada em lei.
+> - **D) Incorreta.** O prazo de prescrição disciplinar tem como termo inicial a data em que a autoridade competente para determinar a instauração do procedimento administrativo **toma conhecimento da irregularidade**, e não a data em que o fato foi praticado.
+> - **E) Incorreta.** A instauração formal de sindicância investigativa ou do Processo Administrativo Disciplinar (PAD) **interrompe** a contagem do prazo prescricional.
+> 
+> **Gabarito: A**
 
 ---
 
-### Teste 003
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Jurídica)**
-Após ser aprovado em concurso público para cargo efetivo de determinada autarquia do Estado de Goiás, Josivaldo passou a perquirir os diversos aspectos atinentes ao provimento previstos na Lei Estadual nº 20.756/2020 (Regime Jurídico dos Servidores Públicos Civis do Estado de Goiás), situação em que verificou corretamente que
+### Teste 159
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+De acordo com o rito do Processo Administrativo Disciplinar (PAD) regulado pela Lei Estadual nº 20.756/2020:
 
-* **A)** o ato de provimento de cargo público compete ao Chefe do Poder Executivo, mediante decreto.
-* **B)** é cabível a edição de atos de nomeação, admissão ou contratação, posse ou exercício com efeito retroativo.
-* **C)** são formas de provimento de cargo público apenas a nomeação, a recondução e a reintegração.
-* **D)** as funções de confiança são de livre nomeação e exoneração, não sendo, portanto, privativas de servidores ocupantes de cargos de provimento efetivo.
-* **E)** os requisitos para investidura em cargo público de provimento efetivo devem ser comprovados por ocasião da homologação do respectivo concurso público.
+* **A)** A comissão processante do PAD ordinário é composta por 3 servidores estáveis, designados pela autoridade instauradora, devendo o presidente ser ocupante de cargo efetivo superior ou de mesmo nível, ou ter escolaridade igual ou superior à do indiciado.
+* **B)** A sindicância investigativa é fase obrigatória que precede necessariamente qualquer processo administrativo disciplinar, sob pena de nulidade absoluta.
+* **C)** O indiciado não tem direito a constituir advogado para sua defesa técnica, sendo a autodefesa pessoal obrigatória e exclusiva.
+* **D)** As testemunhas da comissão e da defesa devem depor conjuntamente na mesma sala de audiências para promover a imediata acareação.
+* **E)** O relatório final da comissão processante vincula de forma absoluta o julgamento da autoridade competente, que não pode divergir de suas conclusões.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento* deste guia, a Lei Estadual nº 20.756, de 28 de janeiro de 2020, estabelece o regime jurídico único dos servidores públicos civis da administração direta, autárquica e fundacional dos Poderes Executivo, Legislativo e Judiciário do Estado de Goiás, aplicando se também aos servidores dos Tribunais de Contas (TCE GO e TCM GO) e do Ministério Público. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "o ato de provimento de cargo público compete ao Chefe do Poder Executivo, mediante decreto".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é cabível a edição de atos de nomeação, admissão ou contratação, posse ou exercício com efeito retroativo". De acordo com a teoria estudada em *1.2 Posse e Exercício: Prazos e Consequências do Descumprimento*, nomeacao["Publicação do Decreto/Ato de Nomeação"].
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "são formas de provimento de cargo público apenas a nomeação, a recondução e a reintegração". De acordo com a teoria estudada em *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento*, recondução: Retorno do servidor público estável ao cargo de origem anteriormente ocupado, decorrente de: 1) Inabilitação em estágio probatório de outro cargo público; ou 2) Retorno do titular daquele cargo em virtude de reintegração. — Retorno formal sem direito a qualquer indenização financeira pelo período em que esteve fora.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as funções de confiança são de livre nomeação e exoneração, não sendo, portanto, privativas de servidores...". De acordo com a teoria estudada em *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento*, cargo Público: Conjunto de atribuições, deveres e responsabilidades cometidos a um servidor, criado por lei, em número certo, com denominação própria e subsídio ou vencimento pago pelos cofres públicos. Podem ser de provimento efetivo (exige concurso público) ou em comissão (de livre nomeação e livre exoneração).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os requisitos para investidura em cargo público de provimento efetivo devem ser comprovados por ocasião da...". De acordo com a teoria estudada em *3. Fontes Oficiais e Referências Bibliográficas*, lei Estadual nº 20.756/2020 Estatuto dos Servidores de Goiás (Casa Civil/GO) Texto compilado do regime jurídico dos servidores públicos civis estaduais.
+> - **A)** Correta. O art. 222 da Lei Estadual nº 20.756/2020 estabelece que o processo disciplinar será conduzido por comissão composta de **3 servidores estáveis**, exigindo-se que o presidente seja titular de cargo de escolaridade igual ou superior ou de nível hierárquico igual ou superior ao do servidor processado, garantindo imparcialidade e idoneidade formal.
+> - **B)** Incorreta. Quando a autoria e a materialidade da infração disciplinar já estiverem previamente comprovadas por documentos ou relatórios de auditoria, o PAD pode ser instaurado diretamente, prescindindo de sindicância prévia.
+> - **C)** Incorreta. A Súmula Vinculante 5 do STF preceitua que a falta de defesa técnica por advogado no PAD não ofende a Constituição, mas é evidente prerrogativa do servidor constituir advogado se assim desejar (faculdade assegurada pelo direito de ampla defesa).
+> - **D)** Incorreta. As testemunhas são inquiridas separadamente e sucessivamente, para evitar que um depoimento contamine o outro.
+> - **E)** Incorreta. A autoridade julgadora pode divergir motivadamente das conclusões do relatório da comissão quando este contrariar as provas dos autos.
 >
 > **Gabarito: A**
 
@@ -304,6 +448,56 @@ A remuneração dos servidores efetivos do TCE-GO é composta por:
 - **Vencimento Básico:** Fixado nas tabelas salariais da Lei nº 15.122/2005 de acordo com a classe e padrão de evolução;
 - **Gratificação de Controle Externo (GCE):** Vantagem pecuniária vinculada ao exercício de atividades de fiscalização e suporte técnico no âmbito da Corte de Contas;
 - **Adicional de Qualificação:** Concedido em percentuais legais com base na conclusão de cursos de pós-graduação (*lato sensu*, mestrado ou doutorado) em áreas de interesse do Tribunal de Contas, incentivando o contínuo aprimoramento técnico do corpo de servidores.
+
+---
+
+### Teste 160
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito do Tribunal de Contas do Estado de Goiás, a carreira de Técnico de Controle Externo é disciplinada pelo Plano de Cargos, Carreiras e Remuneração (Lei Estadual nº 15.122/2005). Sobre a evolução funcional dos servidores nesta carreira:
+
+* **A)** A promoção funcional consiste na passagem do servidor de um padrão para outro dentro da mesma classe, baseando-se exclusivamente no decurso do tempo de serviço considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
+* **B)** A progressão funcional consiste na mudança do servidor de um padrão de vencimento para o subsequente dentro da mesma classe, exigindo cumprimento de interstício de efetivo exercício e resultado satisfatório na avaliação de desempenho.
+* **C)** O servidor em estágio probatório pode obter sucessivas promoções verticais de classe a cada semestre trabalhado.
+* **D)** A promoção funcional para a classe imediatamente superior prescinde da realização de cursos de capacitação técnica na Escola de Contas do Tribunal.
+* **E)** O desenvolvimento funcional na carreira do TCE-GO opera-se mediante concurso público interno bienal exclusivo para servidores de nível médio.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A movimentação de padrão para padrão dentro da mesma classe é a **progressão funcional** (e não promoção), e subordina-se à avaliação periódica de desempenho, não decorrendo puramente do decurso temporal.
+> - **B) CORRETA.** Nos termos da Lei Estadual nº 15.122/2005 (PCCR do TCE-GO): a **progressão funcional** é a movimentação horizontal do servidor de um padrão para o padrão imediatamente subsequente dentro da **mesma classe**, condicionada ao cumprimento do **interstício mínimo de efetivo exercício** e à obtenção de **resultado satisfatório na avaliação periódica de desempenho**.
+> - **C) Incorreta.** Não há progressões ou promoções verticais aceleradas a cada semestre para servidores em estágio probatório; a estabilização e evolução seguem o ciclo anual com cumprimento do triênio.
+> - **D) Incorreta.** A **promoção funcional** (movimentação vertical de classe) exige expressamente, além de interstício e desempenho, a aprovação em cursos de **capacitação continuada** promovidos ou credenciados pela Escola de Contas do TCE-GO.
+> - **E) Incorreta.** O concurso interno de ascensão entre carreiras é vedado pela Constituição Federal e pela Súmula Vinculante nº 43 do STF. O desenvolvimento realiza-se na mesma carreira por meio de progressão e promoção.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 161
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em conformidade com a Lei Estadual nº 15.122/2005 (Plano de Cargos, Carreiras e Vencimentos dos Servidores do TCE-GO):
+
+* **A)** O desenvolvimento na carreira opera-se exclusivamente por progressão funcional por tempo de serviço a cada 10 anos, inexistindo critério de merecimento ou avaliação de desempenho.
+* **B)** A evolução funcional dos servidores do TCE-GO estrutura-se mediante **progressão horizontal** (passagem de um padrão para o subsequente dentro da mesma classe, por antiguidade e capacitação) e **promoção vertical** (passagem do último padrão de uma classe para o primeiro padrão da classe imediatamente superior, condicionada a interstício mínimo, avaliação de desempenho e qualificação técnica).
+* **C)** Os cargos efetivos do TCE-GO admitem investidura derivada por reenquadramento automático de servidores terceirizados sem concurso público.
+* **D)** O Adicional de Qualificação é parcela temporária concedida unicamente a servidores comissionados que não possuam vínculo efetivo com a Corte.
+* **E)** As atribuições dos servidores de controle externo restringem-se ao atendimento ao público e arquivamento manual de certidões cartorárias.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O PCCR do TCE-GO adota sistemática moderna de desenvolvimento funcional baseada em avaliação periódica de desempenho, capacitação permanente e interstícios regulares.
+> - **B)** Correta. Nos termos da Lei Estadual nº 15.122/2005, a carreira organiza-se em classes e padrões salariais sucessivos. A progressão (horizontal) consiste na movimentação entre padrões dentro da mesma classe, e a promoção (vertical) consiste na ascensão de classe funcional (por exemplo, da Classe A para a Classe B), exigindo o cumprimento de requisitos objetivos cumulativos de tempo (interstício), aproveitamento em cursos de pós-graduação/extensão e avaliação satisfatória no trabalho.
+> - **C)** Incorreta. A exigência de concurso público específico de provas ou provas e títulos para provimento de cargos de provimento efetivo do Tribunal é mandamento constitucional inafastável (art. 37, II, da CF/88 e Súmula Vinculante 43).
+> - **D)** Incorreta. O Adicional de Qualificação é vantagem funcional devida aos servidores do quadro efetivo portadores de títulos acadêmicos (especialização, mestrado, doutorado) correlatos às atividades de controle externo.
+> - **E)** Incorreta. As atribuições legais dos cargos de controle externo compreendem o planejamento, a instrução e a execução de auditorias e fiscalizações de alta complexidade contábil, jurídica, orçamentária e financeira.
+>
+> **Gabarito: B**
 
 ---
 

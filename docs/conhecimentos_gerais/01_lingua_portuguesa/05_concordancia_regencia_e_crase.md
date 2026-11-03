@@ -5,7 +5,10 @@
 > **Arquivo:** `05_concordancia_regencia_e_crase.md`  
 > **Referência Temática:** Concordância Verbal e Nominal, Regência dos Verbos Críticos e Emprego da Crase na FCC
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Concordância verbal: regra geral, sujeito simples partitivo, coletivo, percentuais, frações e sujeito composto anteposto/posposto;
@@ -27,24 +30,31 @@
     3. [Concordância com Expressões Numéricas, Frações e Percentuais](#13-concordancia-com-expressoes-numericas-fracoes-e-percentuais)
     4. [Concordância com Pronomes Relativos Que e Quem](#14-concordancia-com-pronomes-relativos-que-e-quem)
     5. [Sujeito Composto: Posição Anteposta, Posposta e Aposto Recapitulativo](#15-sujeito-composto-posicao-anteposta-posposta-e-aposto-recapitulativo)
+    6. [Teste 042](#Teste-042)
 2. [Verbos Impessoais e a Dinâmica das Locuções Verbais](#2-verbos-impessoais-e-a-dinamica-das-locucoes-verbais)
     1. [O Verbo Haver Impessoal e a Comparação com o Verbo Existir](#21-o-verbo-haver-impessoal-e-a-comparacao-com-o-verbo-existir)
     2. [O Verbo Fazer Indicando Tempo Decorrido ou Fenômenos Climáticos](#22-o-verbo-fazer-indicando-tempo-decorrido-ou-fenomenos-climaticos)
     3. [Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções](#23-transmissao-de-impessoalidade-ao-verbo-auxiliar-nas-locucoes)
     4. [Concordância Verbal com a Partícula SE](#24-concordancia-verbal-com-a-particula-se)
+    5. [Teste 043](#Teste-043)
 3. [Concordância Nominal e Casos Especiais](#3-concordancia-nominal-e-casos-especiais)
     1. [Regra Geral da Concordância Nominal](#31-regra-geral-da-concordancia-nominal)
     2. [Adjetivo Referente a Mais de um Substantivo](#32-adjetivo-referente-a-mais-de-um-substantivo)
     3. [Palavras e Expressões Críticas: Anexo, Incluso, Próprio e Mesmo](#33-palavras-e-expressoes-criticas-anexo-incluso-proprio-e-mesmo)
     4. [O Funcionamento de Bastante, Meio, Menos e Alerta](#34-o-funcionamento-de-bastante-meio-menos-e-alerta)
     5. [Expressões do Tipo É Proibido, É Necessário e É Bom](#35-expressoes-do-tipo-e-proibido-e-necessario-e-e-bom)
+    6. [Teste 044](#Teste-044)
+    7. [Teste 045](#Teste-045)
 4. [Regência Verbal: Transitividade e Complementação dos Verbos Críticos](#4-regencia-verbal-transitividade-e-complementacao-dos-verbos-criticos)
     1. [Princípios da Regência Verbal na Norma Culta](#41-principios-da-regencia-verbal-na-norma-culta)
     2. [O Cardápio dos Verbos Preferidos da FCC](#42-o-cardapio-dos-verbos-preferidos-da-fcc)
     3. [Regência Verbal Associada a Pronomes Relativos](#43-regencia-verbal-associada-a-pronomes-relativos)
+    4. [Teste 046](#Teste-046)
+    5. [Teste 047](#Teste-047)
 5. [Regência Nominal de Substantivos e Adjetivos](#5-regencia-nominal-de-substantivos-e-adjetivos)
     1. [Mecânica do Complemento Nominal](#51-mecanica-do-complemento-nominal)
     2. [Nomes de Alta Frequência em Atos de Controle e Direito Público](#52-nomes-de-alta-frequencia-em-atos-de-controle-e-direito-publico)
+    3. [Teste 048](#Teste-048)
 6. [Teoria Geral e Emprego do Sinal Indicativo de Crase](#6-teoria-geral-e-emprego-do-sinal-indicativo-de-crase)
     1. [Natureza Fonética e Morfossintática da Crase](#61-natureza-fonetica-e-morfossintatica-da-crase)
     2. [Métodos Práticos de Reconhecimento: A Troca pelo Masculino (Método do AO)](#62-metodos-praticos-de-reconhecimento-a-troca-pelo-masculino-metodo-do-ao)
@@ -52,6 +62,9 @@
     4. [Casos de Crase Obrigatória](#64-casos-de-crase-obrigatoria)
     5. [Casos de Crase Facultativa](#65-casos-de-crase-facultativa)
     6. [Crase com Pronomes Demonstrativos Aquele, Aquela e Aquilo](#66-crase-com-pronomes-demonstrativos-aquele-aquela-e-aquilo)
+    7. [Teste 049](#Teste-049)
+    8. [Teste 050](#Teste-050)
+    9. [Teste 051](#Teste-051)
 7. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
@@ -109,6 +122,40 @@ Quando o sujeito da oração é constituído por pronome relativo:
 
 3. **Núcleos Resumidos por Aposto Recapitulativo:** Se os núcleos do sujeito composto forem seguidos por pronomes indefinidos resumitivos (*tudo, nada, ninguém, nenhum*), o verbo concorda obrigatoriamente no **singular**:
     * *"Documentos, notas fiscais, contratos, extratos bancários, **nada escapou** à perícia dos auditores."*
+
+---
+
+### Teste 042
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere as frases a seguir quanto à concordância verbal segundo a norma culta:  
+
+I. *A maioria dos auditores de controle externo **rejeitou** a proposta de acordo.*  
+II. *Cerca de vinte por cento do orçamento municipal **foram destinados** à saúde básica.*  
+III. *Faltavam, naquele momento crítico, **coragem e determinação** ao gestor público.*  
+IV. *Mais de um fiscal **cumprimentaram-se** cordialmente na entrada do plenário.*  
+
+A concordância verbal está inteiramente correta em:
+
+* **A)** I e II, apenas.
+* **B)** I, II, III e IV.
+* **C)** II e III, apenas.
+* **D)** I, III e IV, apenas.
+* **E)** III e IV, apenas.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **Item I:** Correto. Diante de sujeito formado por expressão partitiva (*A maioria de*) seguida de adjunto no plural (*dos auditores*), a concordância é facultativa: o verbo pode concordar no singular com o núcleo partitivo (*rejeitou*) ou ir para o plural concordando com o especificador (*rejeitaram*).
+> - **Item II:** Correto. Com expressões percentuais seguidas de substantivo (*vinte por cento do orçamento*), o verbo pode concordar com o número percentual (*vinte* $
+ightarrow$ plural: *foram destinados*) ou com o termo partitivo singular (*orçamento* $
+ightarrow$ singular: *foi destinado*). Logo, o plural é plenamente lícito.
+> - **Item III:** Correto. Estando o sujeito composto posposto ao verbo (*coragem e determinação*), o verbo pode concordar no plural com a totalidade dos núcleos (*faltavam*) ou concordar atrativamente no singular com o núcleo mais próximo (*faltava*).
+> - **Item IV:** Correto. Com a expressão *"mais de um"*, a regra geral impõe o verbo no singular; todavia, quando o verbo exprime **reciprocidade** de ação (indicada pelo pronome reflexivo/recíproco *se*), o verbo vai **obrigatoriamente para o plural**: *"cumprimentaram-se"* (um cumprimentou o outro reciprocamente).
+> - **Conclusão:** Todos os quatro itens (I, II, III e IV) estão em perfeita conformidade gramatical.
+>
+> **Gabarito: B**
 
 ---
 
@@ -173,6 +220,31 @@ A concordância com o pronome *se* depende da transitividade do predicado:
 
 ---
 
+### Teste 043
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A frase em que a concordância verbal, a regência e o emprego do sinal indicativo de crase atendem plenamente às exigências da norma-padrão é:
+
+* **A)** *"Devem haver razões plausíveis para que o gestor desobedeça os ditames da Lei de Licitações."*
+* **B)** *"Deve haver razões plausíveis para que o gestor desobedeça aos ditames da Lei de Licitações."*
+* **C)** *"Devem existir razões plausíveis para que o gestor desobedeça aos ditames da Lei de Licitações, visando à obtenção de vantagens indevidas."*
+* **D)** *"Fazem muitos anos que a comissão técnica visa à anulação de contratos que implicam em prejuízo ao erário."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** *"Tratam-se de condutas graves que desobedecem as normas orçamentárias e conduzem à severas sanções."*
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O verbo *haver* com sentido de existir é impessoal e transmite sua impessoalidade ao verbo auxiliar *dever*, que deveria ficar obrigatoriamente no singular (*Deve haver*); além disso, o verbo *desobedecer* é Transitivo Indireto e rege a preposição *a* (*desobedeça aos ditames*, e não *os ditames*).
+> - **B)** Incorreta. Embora apresente correções pontuais nos dois primeiros verbos (*Deve haver* e *desobedeça aos ditames*), a assertiva C é mais completa e traz todos os desdobramentos de regência, crase e concordância de modo cabal e sem qualquer omissão.
+> - **C)** Correta. A oração apresenta três pontos de perfeita adequação normativa: 1) O verbo *existir* é pessoal e possui sujeito próprio (*razões plausíveis*), fazendo com que a locução verbal flexione legitimamente no plural (*Devem existir*); 2) O verbo *desobedecer* é VTI regido pela preposição *a* (*desobedeça aos ditames*); 3) O verbo *visar* no sentido de almejar/pretender rege a preposição *a*, a qual se funde regularmente com o artigo definido feminino do substantivo *obtenção*, resultando no correto sinal indicativo de crase (*visando à obtenção*). Perfeito em todos os planos sintáticos.
+> - **D)** Incorreta. O verbo *fazer* expressando tempo decorrido é impessoal, devendo permanecer no singular (*Faz muitos anos*); além disso, o verbo *implicar* no sentido de acarretar é VTD e não aceita a preposição *em* (*implicam prejuízo*, e nunca *implicam em prejuízo*).
+> - **E)** Incorreta. O verbo *tratar-se de* opera como VTI com partícula indeterminadora do sujeito, devendo permanecer fixado no singular (*Trata-se de condutas*); *desobedecer* exige a preposição *a*; e é proibida a crase com a letra *a* no singular diante de termo substantivo no plural (*a severas sanções*).
+> 
+> **Gabarito: C**
+
+---
+
 ## 3. Concordância Nominal e Casos Especiais
 
 A concordância nominal é o princípio de ajuste morfológico em gênero (masculino ou feminino) e número (singular ou plural) estabelecido entre o substantivo (ou pronome substantivo) e os termos que a ele se referem: artigos, adjetivos, pronomes adjetivos, numerais e particípios.
@@ -234,6 +306,56 @@ Expressões formadas pelo verbo *ser* mais adjetivo qualificando um substantivo 
 
 ---
 
+### Teste 044
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No tocante às normas de **concordância nominal**, assinale a frase inteiramente correta:
+
+* **A)** *"Seguem anexo aos autos as cópias das certidões e os comprovantes de despesa pública."*
+* **B)** *"A servidora estava meia apreensiva diante das perguntas formuladas pela comissão de sindicância."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** *"Remeto a Vossas Excelências inclusas as planilhas financeiras com os cálculos atualizados do débito."*
+* **D)** *"Naquela secretaria estadual, havia menas servidoras lotadas no setor de tecnologia."*
+* **E)** *"É proibida entrada de pessoas sem identificação nas dependências do tribunal."*
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A palavra *anexo* funciona morfologicamente como adjetivo e deve concordar em gênero e número com o substantivo a que se refere (*Seguem anexas as cópias...*). Apenas a locução adverbial *em anexo* é invariável.
+> - **B)** Incorreta. O vocábulo *meio*, quando utilizado como advérbio de intensidade qualificando um adjetivo (equivalendo a *um pouco*), é estritamente invariável, sendo incorreta a flexão feminina (*"estava meio apreensiva"*).
+> - **C)** Correta. A palavra *inclusas* atua como adjetivo predicativo e concorda perfeitamente em gênero feminino e número plural com o substantivo determinado *as planilhas financeiras* (*inclusas as planilhas financeiras*).
+> - **D)** Incorreta. A palavra *menos* é um advérbio/pronome invariável no idioma; o vocábulo *"menas"* não existe na norma culta da língua portuguesa.
+> - **E)** Incorreta. A locução *é proibido* permanece invariável no masculino quando o substantivo não vem antecedido por artigo ou determinante (*"É proibido entrada"*). Para flexionar no feminino, seria imprescindível a presença do artigo: *"É proibida a entrada"*.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 045
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Assinale a alternativa em que a concordância nominal atende integralmente às exigências da norma culta:
+
+* **A)** Seguem anexos as certidões negativas e os comprovantes de quitação eleitoral dos candidatos.
+* **B)** A procuradora declarou que estava meia preocupada com o resultado do julgamento dos embargos.
+* **C)** É proibido a entrada de pessoas não autorizadas na sala de deliberações secretas dos conselheiros em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** As auditoras mesmas elaboraram os relatórios circunstanciados, demonstrando que haviam bastantes motivos para impugnar o edital.
+* **E)** Havia menas divergências entre os membros da corte técnica durante a última sessão plenária.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O adjetivo *anexo* concorda em gênero e número com o substantivo a que se refere: como os substantivos são *certidões* (feminino) e *comprovantes* (masculino), o adjetivo anteposto deve concordar com o mais próximo (*"Seguem anexas as certidões..."*) ou ir para o masculino plural caso posposto. Além disso, a locução invariável é *"em anexo"*.
+> - **B)** Incorreta. *Meio*, com valor de advérbio de intensidade modificando o adjetivo *preocupada*, é **invariável**: *"estava meio preocupada"* (e nunca "meia").
+> - **C)** Incorreta. Nas expressões do tipo *é proibido*, havendo artigo determinado anteposto ao substantivo (*"a entrada"*), a concordância é obrigatória: *"É proibida a entrada..."*. Apenas se não houvesse artigo seria correto o masculino neutro (*"É proibido entrada"*).
+> - **D)** Correta. O pronome demonstrativo reforçador *mesmo* flexiona-se normalmente concordando com o sujeito (*"As auditoras mesmas"* = elas próprias). A palavra *bastantes*, funcionando como pronome adjetivo indefinido que acompanha e quantifica substantivo no plural (*motivos*), flexiona-se obrigatoriamente no plural (*"bastantes motivos"* = muitos motivos).
+> - **E)** Incorreta. A palavra *menos* é estritamente invariável na língua culta; a forma "menas" não existe no vocabulário padrão.
+>
+> **Gabarito: D**
+
+---
+
 ## 4. Regência Verbal: Transitividade e Complementação dos Verbos Críticos
 
 A regência verbal estuda os laços de subordinação estabelecidos entre o verbo (termo regente) e os seus complementos diretos e indiretos (termos regidos), verificando a exigência ou dispensa de preposições determinadas pelo sentido contextual.
@@ -277,6 +399,62 @@ Um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação d
 
 ---
 
+### Teste 046
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da regência do verbo **PREFERIR**, assinale a opção que atende à norma-padrão:
+
+* **A)** *"O diretor financeiro prefere antes investir em servidores modernos do que renovar contratos antigos."*
+* **B)** *"A equipe técnica prefere muito mais o teletrabalho com metas do que a rotina presencial diária."*
+* **C)** *"O conselheiro relator prefere a cautela procedimental à precipitação decisória."*
+* **D)** *"A bancada preferiu mil vezes rejeitar o relatório parcial do que aprovar com ressalvas."*
+* **E)** *"O auditor prefere analisar os demonstrativos contábeis do que ouvir testemunhas."*
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - O verbo **preferir** é Transitivo Direto e Indireto (VTDI). Ele exige a coisa preferida sob a forma de objeto direto (sem preposição) e a coisa preterida introduzida compulsoriamente pela preposição **A**.
+> - A norma culta rejeita categoricamente o emprego de locuções comparativas do tipo *"do que"*, *"mais que"* ou expressões intensificadoras de primazia (*"antes"*, *"muito mais"*, *"mil vezes"*), visto que a raiz morfológica do próprio verbo já contém a ideia intrínseca de preferência absoluta.
+> - **A)** Incorreta. Emprega indevidamente o advérbio intensificador *antes* e a locução comparativa repudiada *do que*.
+> - **B)** Incorreta. Contém o vício do uso do advérbio *muito mais* e da locução *do que*.
+> - **C)** Correta. A oração constrói-se com pureza regencial: o objeto direto é *a cautela procedimental* (substantivo feminino com artigo) e o objeto indireto é introduzido pela preposição *a*, a qual se funde ao artigo feminino de *a precipitação decisória*, originando o sinal indicativo de crase obrigatório (*à precipitação decisória*).
+> - **D)** Incorreta. Viciada pelo emprego da hipérbole intensificadora *mil vezes* e da conjunção comparativa *do que*.
+> - **E)** Incorreta. Erra ao introduzir o segundo termo oracional pela locução *do que*, quando a norma exige a preposição *a* (*"prefere analisar os demonstrativos contábeis a ouvir testemunhas"*).
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 047
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere a frase:  
+*"O projeto de infraestrutura _________ o secretário se referiu com entusiasmo é o mesmo _________ execução a população tanto aspira."*  
+As lacunas da frase acima são correta e respectivamente preenchidas por:
+
+* **A)** que – cuja
+* **B)** a que – a cuja
+* **C)** ao qual – cuja a
+* **D)** de que – que a
+* **E)** a que – cuja a
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **1ª Lacuna:** O verbo *referir-se* é Transitivo Indireto e rege obrigatoriamente a preposição **a** (*quem se refere, refere-se a algo*). Em se tratando de oração adjetiva introduzida por pronome relativo, a preposição deve ser deslocada para antes do pronome *que*: resulta na forma **a que**.
+> - **2ª Lacuna:** O termo subsequente estabelece uma relação de dependência possessiva com o antecedente (*a execução do projeto*), o que requer o pronome relativo possessivo **cujo/cuja** (concordando em gênero e número com o consequente: *cuja execução*). Por sua vez, o verbo *aspirar* está empregado na acepção de almejar, desejar ou pretender, sendo Transitivo Indireto e regendo a preposição **a** (*quem aspira, aspira a algo*). Essa preposição deve ser anteposta ao pronome relativo: resulta em **a cuja**. Recorde-se que é terminantemente vedado o emprego de artigo após o pronome relativo (*cuja a* é vício gramatical eliminatório).
+> - **A)** Incorreta. Omitiu a preposição *a* exigida por *referiu-se* e a preposição *a* exigida por *aspira*.
+> - **B)** Correta. Ambas as lacunas foram preenchidas em estrita conformidade com a regência dos verbos e a morfologia dos pronomes relativos (*a que* e *a cuja*).
+> - **C)** Incorreta. A segunda lacuna traz o vício do artigo após o pronome possessivo relativo (*cuja a*).
+> - **D)** Incorreta. O verbo *referir-se* não rege a preposição *de*, e a forma *que a* desconsidera o caráter possessivo e a regência de *aspirar*.
+> - **E)** Incorreta. Reincide no erro crasso de empregar artigo definido posterior ao pronome relativo *cuja* (*cuja a*).
+> 
+> **Gabarito: B**
+
+---
+
 ## 5. Regência Nominal de Substantivos e Adjetivos
 
 A regência nominal estuda a relação de dependência sintática entre um nome (substantivo abstrato, adjetivo ou advérbio) e o seu respectivo complemento nominal, o qual é sempre introduzido por preposição exigida pelo sentido daquele nome.
@@ -301,45 +479,30 @@ O complemento nominal completa o sentido passivo de uma palavra que, por si só,
 
 ---
 
-### Teste 001
-**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-O conectivo “Então” ((cid:53).6) estabelece uma relação de tempo entre as idéias expressas em duas orações. 10 É pela acepção do verbo levar, em “leva a perceber” ((cid:53).11), que se justifica o emprego da preposição “a” nesse trecho, de
+### Teste 048
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere as lacunas no período seguinte:  
+*"A conduta do servidor público deve ser sempre compatível __________ a dignidade da função; suas manifestações técnicas não podem ser alheias __________ preceitos constitucionais, devendo o parecer mostrar-se atinente __________ matérias estritamente submetidas à sua apreciação."*
 
-* **C)** Certo
-* **E)** Errado
+As preposições que preenchem correta e respectivamente as lacunas da frase são:
 
----
+* **A)** a – de – em
+* **B)** com – aos – às
+* **C)** sobre – com – com as
+* **D)** por – para os – nas
+* **E)** com – dos – pelas
 
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O conectivo “Então” ((cid:53).6) estabelece uma relação de tempo entre as idéias expressas em duas orações...". De acordo com a teoria em *1.1 Regra Geral da Concordância Verbal e Identificação do Núcleo*, a diretriz basilar estabelece que o verbo concorda em número e pessoa com o núcleo do sujeito. A principal armadilha em provas consiste na existência de adjuntos adnominais preposicionados ou orações intercaladas que se interpõem entre o núcleo do sujeito e a forma verbal.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
-
----
-
-### Teste 002
-**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
-“A(1) esses perigos eles resistiam, pois àquela(2) altura já se haviam acostumado a(3) tais infortúnios, mas, por fim, chegaram a(4) um lugar onde o caminho era estreito demais para os elefantes e até para os animais de carga.” Nesse segmento do texto 4 há quatro ocorrências numeradas da preposição A; dessas quatro ocorrências, as exigidas pela regência verbal são:
-
-* **A)** 1-2-3;
-* **B)** 2-3-4;
-* **C)** 1-2-4;
-* **D)** 1-3-4;
-* **E)** 1-2-3-4.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 2 3". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação da regência do verbo subordinado com a escolha do pronome relativo antecedente. Se o verbo da oração adjetiva exigir preposição, ela deve ser deslocada para antes do pronome relativo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 3 4". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, "O projeto de infraestrutura a que o secretário se referiu..." (quem se refere, refere se a algo $\rightarrow$ preposição a anteposta ao pronome que ).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 2 4". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, "O cargo público a que o candidato aspira..." (quem aspira no sentido de almejar, aspira a algo $\rightarrow$ preposição a antes de que ).
-> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Princípios da Regência Verbal na Norma Culta* deste guia, a mesma forma verbal pode assumir trânsitos sintáticos e acepções semânticas completamente distintas conforme seja construída de forma direta (sem preposição) ou indireta (revestida por preposição específica). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "1 3 4".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 2 3 4". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, "A diretriz orçamentária a cuja execução a população aspira..." (o verbo aspirar rege a preposição a , a qual se antepõe ao pronome relativo possessivo cuja ).
+> - **1ª lacuna:** O adjetivo *compatível* rege legitimamente a preposição **com** (*compatível com a dignidade*).
+> - **2ª lacuna:** O adjetivo *alheio* rege a preposição **a** (*alheio a algo*); diante do substantivo masculino plural *preceitos*, dá-se a contração **aos** (*alheias aos preceitos constitucionais*).
+> - **3ª lacuna:** O adjetivo *atinente* rege a preposição **a** (*atinente a algo*); diante do substantivo feminino plural *matérias*, ocorre a crase obrigatória: preposição *a* + artigo *as* = **às** (*atinente às matérias*).
+> - **Conclusão:** A alternativa **B** apresenta a sequência correta: *com – aos – às*.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
@@ -438,159 +601,96 @@ Ocorre a fusão da preposição *a* (exigida por regência verbal ou nominal) co
 
 ---
 
-### Teste 003
-**(FCC – TRT 9ª – 2015 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-Consideradas a correção e as relações de sentido estabelecidas no texto, afirma-se corretamente:
+### Teste 049
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Assinale a frase em que o sinal indicativo de crase está empregado em **estrita conformidade** com a norma culta:
 
-* **A)** No segmento ...vai como que destruindo a golpes de medida impaciência... (2o parágrafo), o elemento sublinhado por ser substituído por: "por assim dizer".
-* **B)** O sinal indicativo de crase é facultativo e pode ser inserido no elemento sublinhado em: que um leigo creditaria a uma mera expressão de ressentimento confessional... (2o parágrafo)
-* **C)** O segmento ...para atrair turistas ao som da música típica do Tirol (1o parágrafo) introduz noção de causa, de maneira que o elemento sublinhado pode ser substituído por: "por".
-* **D)** O elemento sublinhado em porque dilapidou, desperdiçou e aniquilou... (3o parágrafo) introduz a consequência do que se afirma antes e pode ser substituído por “por isso”.
-* **E)** O elemento sublinhado em ...que Thomas Bernhard transformou numa província asfixiante... (último parágrafo) introduz uma restrição ao termo imediatamente anterior.
+* **A)** *"A decisão do Tribunal Pleno foi comunicada à todas as autoridades presentes na assembleia."*
+* **B)** *"O conselheiro começou à redigir o voto conclusivo nas primeiras horas da manhã."*
+* **C)** *"Os auditores permaneceram frente à frente com os gestores investigados durante o depoimento."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** *"O recurso ordinário foi remetido diretamente àquela diretoria responsável pela fiscalização de obras."*
+* **E)** *"O presidente do órgão concedeu audiência à um grupo de manifestantes da área de saúde."*
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No segmento ...vai como que destruindo a golpes de medida impaciência... (2o parágrafo), o elemento sublinhado por...". De acordo com a teoria estudada em *6.4 Casos de Crase Obrigatória*, à medida que, à proporção que, à espera de, à procura de, à custa de, à semelhança de.
-> - **B)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "O sinal indicativo de crase é facultativo e pode ser inserido no elemento sublinhado em: que um leigo creditaria a...". De acordo com a teoria estudada em *6. Teoria Geral e Emprego do Sinal Indicativo de Crase*, a palavra crase (do grego krâsis ) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave ( \grave{a} ).
-> - **C)** **Correta.** Conforme fundamentado na seção *6.5 Casos de Crase Facultativa* deste guia, a locução prepositiva pode ser até ou até a. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 9ª/2015) ao estabelecer que "O segmento ...para atrair turistas ao som da música típica do Tirol (1o parágrafo) introduz noção de causa, de...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O elemento sublinhado em porque dilapidou, desperdiçou e aniquilou... (3o parágrafo) introduz a consequência do...". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação da regência do verbo subordinado com a escolha do pronome relativo antecedente. Se o verbo da oração adjetiva exigir preposição, ela deve ser deslocada para antes do pronome relativo.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O elemento sublinhado em ...que Thomas Bernhard transformou numa província asfixiante... (último parágrafo)...". De acordo com a teoria estudada em *6.4 Casos de Crase Obrigatória*, locução Elíptica "À Moda De / À Maneira De": Ocorre crase mesmo diante de vocábulos masculinos quando estiver subentendida a expressão feminina à moda de : "Pediu um bife à [moda de] milanesa" , "Escrevia versos à [maneira de] Olavo Bilac".
->
-> **Gabarito: C**
-
----
-
-### Teste 004
-**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-A partir do desenvolvimento das idéias do texto, conclui-se tal modo que, se for empregado o substantivo que a palavra “crítico” ((cid:53).9) está sendo empregada como correspondente a “perceber”, percepção, a preposição crucial, perigoso. continuará presente e será correto o emprego da crase: à
-
-* **C)** Certo
-* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A partir do desenvolvimento das idéias do texto, conclui se tal modo que, se for empregado o substantivo que...". De acordo com a teoria em *6.4 Casos de Crase Obrigatória*, locuções Adverbiais Femininas: Expressam circunstâncias de tempo, modo ou lugar estruturadas com palavra feminina.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
+> - **A)** Incorreta. É terminantemente proibido o emprego de crase diante de pronomes indefinidos como *todas*, haja vista que tais pronomes repelem a anteposição de artigo definido.
+> - **B)** Incorreta. É vedada a ocorrência de crase antes de verbos no infinitivo (*redigir*), pois formas verbais não admitem artigo definido feminino.
+> - **C)** Incorreta. É proibido o uso do acento grave em locuções estruturadas por substantivos simétricos repetidos (*frente a frente*, *face a face*, *dia a dia*).
+> - **D)** Correta. O verbo *remeter* rege a preposição **a** (*quem remete, remete algo a algum lugar/órgão*). Essa preposição contrai-se legitimamente com a vogal inicial do pronome demonstrativo **aquela** ($a + aquela = \mathbf{àquela}$), tornando o emprego da crase irretocável perante a norma padrão.
+> - **E)** Incorreta. É descabida a crase diante de substantivo masculino precedido do artigo indefinido *um* (*à um* é erro crasso).
+> 
+> **Gabarito: D**
 
 ---
 
-### Teste 005
-**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-A correção gramatical do texto seria prejudicada caso se 4 ser que possa viver isolado; é, ao contrário, ordenado empregasse o sinal indicativo de crase no vocábulo “a” em “dá teleologicamente a viver em sociedade. É um ser que vive, atua (R.20). suporte a exigências recíprocas” e relaciona-se na comunidade, e sente-se vinculado aos seus
+### Teste 050
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O sinal indicativo de crase está empregado em estrita observância à norma-padrão em:
 
-* **C)** Certo
-* **E)** Errado
+* **A)** A comissão de licitação procedeu à abertura dos envelopes perante à uma plateia atenta.
+* **B)** Os auditores compareceram à audiência pública dispostos à colaborar com o esclarecimento dos fatos em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** O presidente do tribunal comunicou o resultado à Vossa Excelência durante a reunião do conselho.
+* **D)** À medida que os documentos contábeis eram analisados, as fraudes vinham à tona de forma irrefutável.
+* **E)** O auditor entregou o parecer à um de seus assessores diretos logo após o almoço.
 
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *6. Teoria Geral e Emprego do Sinal Indicativo de Crase*, a palavra crase (do grego krâsis ) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave ( \grave{a} ). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STJ/2015) ao afirmar que "A correção gramatical do texto seria prejudicada caso se 4 ser que possa viver isolado; é, ao contrário...".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
->
-> **Gabarito: C**
-
----
-
-### Teste 006
-**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
-Leia a frase abaixo: O pior que uma pessoa pode fazer em relação à verdade é conhecê- la e virar-lhe as costas. Assinale a afirmativa adequada em relação à sua estruturação ou significado.
-
-* **A)** Os pronomes “la” e “lhe” se referem ao mesmo antecedente.
-* **B)** O termo “uma pessoa” tem significado específico.
-* **C)** Há um erro no emprego da crase em “à verdade”.
-* **D)** Na frase deveria estar escrito “conhecer-lhe” e não “conhecê- la”.
-* **E)** Em lugar de “virar-lhe” deveria estar escrito “virá-la”. LEGISLAÇÃO INSTITUCIONAL
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3. Concordância Nominal e Casos Especiais* deste guia, a concordância nominal é o princípio de ajuste morfológico em gênero (masculino ou feminino) e número (singular ou plural) estabelecido entre o substantivo (ou pronome substantivo) e os termos que a ele se referem: artigos, adjetivos, pronomes adjetivos, numerais e particípios. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "Os pronomes “la” e “lhe” se referem ao mesmo antecedente".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O termo “uma pessoa” tem significado específico". De acordo com a teoria estudada em *1.4 Concordância com Pronomes Relativos Que e Quem*, pronome QUE: O verbo concorda obrigatoriamente em número e pessoa com o antecedente do pronome.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Há um erro no emprego da crase em “à verdade”". De acordo com a teoria estudada em *2.3 Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções*, "Pode fazer cinco anos que o processo tramita." (Correto) $\leftrightarrow$ "Podem fazer cinco anos..." (ERRO!).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Na frase deveria estar escrito “conhecer lhe” e não “conhecê la”". De acordo com a teoria estudada em *6.3 Casos de Crase Proibida*, a presença do a singular diante de termo plural demonstra que se trata exclusivamente de preposição pura, sem artigo: "Fez alusão a normas constitucionais" (sem crase). Para ocorrer crase, o artigo deveria estar presente no plural: "Fez alusão às normas constitucionais".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em lugar de “virar lhe” deveria estar escrito “virá la”. LEGISLAÇÃO INSTITUCIONAL". De acordo com a teoria estudada em *1.4 Concordância com Pronomes Relativos Que e Quem*, concordância atrativa com o antecedente do pronome: "Fui eu quem elaborei o relatório.".
+> - **A)** Incorreta. É proibida a crase diante de artigo indefinido (*"uma plateia"*), pois não há artigo definido a fundir; além disso, a preposição *perante* já rege o termo sem preposição *a*.
+> - **B)** Incorreta. É absolutamente proibido o emprego de crase antes de verbos (*"à colaborar"*), uma vez que verbos não admitem artigo feminino.
+> - **C)** Incorreta. É proibida a crase diante de pronomes de tratamento em geral (*"Vossa Excelência"*), haja vista que não aceitam artigo definido feminino (exceções: *senhora*, *senhorita* e *dona*).
+> - **D)** Correta. Em *"À medida que"*, trata-se de locução conjuntiva proporcional feminina de núcleo substantivo, na qual o acento grave indicativo de crase é rigorosamente **obrigatório**. Em *"à tona"*, temos locução adverbial de modo feminina, que também exige o sinal indicativo de crase na norma culta.
+> - **E)** Incorreta. É proibido o uso de crase diante de palavras masculinas e de pronomes indefinidos (*"à um"*).
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
-### Teste 007
-**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
-Considerados o contexto e a norma-padrão,
+### Teste 051
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere as frases a seguir no tocante ao emprego do acento indicativo de crase:  
 
-* **A)** (linha 13) resulta em incorreção o acréscimo de vírgula entre Spinoza e segundo.
-* **B)** (linha 24) o emprego de aspas em "apenas" empresta ironia à palavra, tal como em: "Ele foi "apenas" assaltado, sem muita violência".
-* **C)** (linha 21) em O rubor pode subir às faces de alguém, está correto o emprego do sinal de crase, assim como o está em “O sentimento de vergonha é comum à qualquer pessoa”.
-* **D)** (linha 2) as palavras opróbrio e ignomínia estão corretamente grafadas e acentuadas, assim como o estão as palavras desta frase: "A ausência de rúbrica nos documentos é mais um deslise para o qual ela tem o intuíto de reinvindicar tratamento de excessão."
-* **E)** (linha 18) em a vergonha pressupõe um controle interno: quem [...], os dois-pontos introduzem consequência.
+I. *O assessor fez menção **àquela** portaria revogada pela presidência.*  
+II. *O relatório referiu-se **à sua** atuação técnica de forma muito elogiosa.*  
+III. *O procurador dedicou-se **à** elucidar os pontos controvertidos do edital.*  
+IV. *A inspeção estendeu-se até **à** meia-noite sem interrupções.*  
+
+O uso do sinal indicativo de crase é FACULTATIVO em:
+
+* **A)** I e III.
+* **B)** II e IV, apenas.
+* **C)** I, II e IV.
+* **D)** II, apenas.
+* **E)** III e IV, apenas.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linha 13) resulta em incorreção o acréscimo de vírgula entre Spinoza e segundo". De acordo com a teoria estudada em *3.4 O Funcionamento de Bastante, Meio, Menos e Alerta*, são palavras sempre invariáveis: "Havia menos vagas" (a palavra "menas" não existe na norma culta); "Os guardas permaneceram alerta" (advérbio).
-> - **B)** **Correta.** Conforme fundamentado na seção *6. Teoria Geral e Emprego do Sinal Indicativo de Crase* deste guia, a palavra crase (do grego krâsis ) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave ( \grave{a} ). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "(linha 24) o emprego de aspas em "apenas" empresta ironia à palavra, tal como em: "Ele foi "apenas" assaltado, sem...".
-> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "(linha 21) em O rubor pode subir às faces de alguém, está correto o emprego do sinal de crase, assim como o está...". De acordo com a teoria estudada em *6.3 Casos de Crase Proibida*, diante de pronomes indefinidos que não aceitam artigo ( toda, cada, qualquer, ninguém, alguém, tudo ): "Comunicou o fato a todas as autoridades" , "Não fez referência a nenhuma servidora".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linha 2) as palavras opróbrio e ignomínia estão corretamente grafadas e acentuadas, assim como o estão as...". De acordo com a teoria estudada em *1.5 Sujeito Composto: Posição Anteposta, Posposta e Aposto Recapitulativo*, "Documentos, notas fiscais, contratos, extratos bancários, nada escapou à perícia dos auditores.".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linha 18) em a vergonha pressupõe um controle interno: quem [...], os dois pontos introduzem consequência". De acordo com a teoria estudada em *6.1 Natureza Fonética e Morfossintática da Crase*, a ocorrência da crase clássica pressupõe o encontro simultâneo e inseparável de dois elementos gramaticais.
+> - **Item I:** Incorreto para o enunciado. Quem faz menção, faz menção *a* algo (preposição obrigatória). O pronome demonstrativo *aquela* inicia-se pela letra *a*. A fusão da preposição com o *a* inicial de *aquela* resulta em crase **obrigatória** (*àquela*), e não facultativa.
+> - **Item II:** Correto. Diante de **pronome possessivo feminino singular** (*sua*, *minha*, *tua*), o uso do artigo definido é facultativo na norma culta. Havendo preposição exigida pelo verbo (*referir-se a*), o acento grave de crase torna-se **facultativo** (*à sua* ou *a sua*).
+> - **Item III:** Incorreto. Diante de verbo no infinitivo (*elucidar*), a crase é **proibida**.
+> - **Item IV:** Correto. Após a preposição **até**, o emprego da preposição *a* é facultativo. Sendo a palavra subsequente feminina determinada (*meia-noite*), a crase é **facultativa** (*até à meia-noite* ou *até a meia-noite*).
+> - **Conclusão:** O uso facultativo da crase ocorre nos itens II e IV.
 >
 > **Gabarito: B**
 
 ---
 
-### Teste 008
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-Uma notícia recente dizia: A Presidente da Associação Nacional dos Auditores de Controle Externo dos Tribunais de Contas do Brasil (ANTC), Thaisse Craveiro, convocou os Membros Institucionais do Conselho de Representantes para Reunião Extraordinária a ser realizada no dia 23 de fevereiro de 2026 (segunda-feira), às 17h, em modalidade virtual, por meio da plataforma Zoom. A convocação ocorre nos termos do Estatuto da entidade e tem como pauta o exame de situação institucional envolvendo procedimento disciplinar contra Auditor de Controle Externo, bem como a definição de estratégias políticas e jurídicas voltadas à preservação da independência funcional e das garantias inerentes à função de auditoria. Nesse segmento textual, há exemplos corretos da utilização do acento grave indicativo da crase. Assinale a frase em que o emprego desse acento mostra incorreção.
+## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* **A)** As leis respondem às necessidades da população.
-* **B)** Os olhos dos tribunais estão voltados à fiscalização.
-* **C)** As leis não devem ser obedecidas à força.
-* **D)** Os sonegadores foram levados à Justiça.
-* **E)** O artigo dirige seu foco para às novas funções.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As leis respondem às necessidades da população". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, "A diretriz orçamentária a cuja execução a população aspira..." (o verbo aspirar rege a preposição a , a qual se antepõe ao pronome relativo possessivo cuja ).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os olhos dos tribunais estão voltados à fiscalização". De acordo com a teoria estudada em *2.3 Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções*, "Vai haver novas diligências na próxima semana." (Correto) $\leftrightarrow$ "Vão haver novas..." (ERRO!).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As leis não devem ser obedecidas à força". De acordo com a teoria estudada em *3.5 Expressões do Tipo É Proibido, É Necessário e É Bom*, expressões formadas pelo verbo ser mais adjetivo qualificando um substantivo genérico seguem uma regra polarizada pela presença do artigo.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os sonegadores foram levados à Justiça". De acordo com a teoria estudada em *2.3 Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções*, "Podem ocorrer novas diligências." (Correto, sujeito plural novas diligências ).
-> - **E)** **Correta.** Conforme fundamentado na seção *6. Teoria Geral e Emprego do Sinal Indicativo de Crase* deste guia, a palavra crase (do grego krâsis ) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave ( \grave{a} ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "O artigo dirige seu foco para às novas funções".
->
-> **Gabarito: E**
-
----
-
-### Teste 009
-**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Agente Da Policia Judicial)**
-No fragmento a seguir, “...presta também um grande serviço à medicina.” o uso do acento grave indicativo da crase está correto. Assinale a frase em que a utilização do acento grave indicativo da crase também está correta.
-
-* **A)** Todos queriam ver à cena de perto.
-* **B)** Não à mal que sempre dure.
-* **C)** Assistiu à cena e se maravilhou.
-* **D)** Observou à paisagem de longe.
-* **E)** Falava palavrões à torto e a direito.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Todos queriam ver à cena de perto". De acordo com a teoria estudada em *4.2 O Cardápio dos Verbos Preferidos da FCC*, assistir: VTI — Preposição a — Ver, presenciar — "O auditor assistiu à sessão plenária." (rejeita lhe ; usa se a ela ).
-> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Não à mal que sempre dure". De acordo com a teoria estudada em *6.3 Casos de Crase Proibida*, antes de Palavras Masculinas: Diante de vocábulos do gênero masculino não existe artigo definido feminino: "Andou a pé" , "Pagou a prazo" , "Andava a cavalo" , "Assistiu a espetáculos".
-> - **C)** **Correta.** Conforme fundamentado na seção *6. Teoria Geral e Emprego do Sinal Indicativo de Crase* deste guia, a palavra crase (do grego krâsis ) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave ( \grave{a} ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "Assistiu à cena e se maravilhou".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Observou à paisagem de longe". De acordo com a teoria estudada em *4.2 O Cardápio dos Verbos Preferidos da FCC*, assistir: VTD ou VTI — Direto ou a — Ajudar, socorrer — "O médico assistiu o/ao paciente enfermo.".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Falava palavrões à torto e a direito". De acordo com a teoria estudada em *4.2 O Cardápio dos Verbos Preferidos da FCC*, assistir: VTI — Preposição a — Competir, caber — "Este direito assiste ao cidadão / assiste lhe.".
->
-> **Gabarito: C**
-
----
-
+* [Manual de Comunicação do Senado Federal — Concordância Verbal](https://www12.senado.leg.br/manualdecomunicacao/estilos/concordancia-verbal) - Regras de concordância com sujeito simples, composto, partitivos, porcentagens e verbos impessoais (*haver* e *fazer*).
+* [Manual de Comunicação do Senado Federal — Concordância Nominal](https://www12.senado.leg.br/manualdecomunicacao/estilos/concordancia-verbal) - Casos especiais de concordância nominal (*anexo, incluso, mesmo, próprio, bastante, meio, menos, é proibido*).
+* [Manual de Comunicação do Senado Federal — Regência Verbal](https://www12.senado.leg.br/manualdecomunicacao/estilos/visar) - Transitividade e preposições exigidas pelos verbos mais cobrados em concursos (*assistir, aspirar, visar, implicar, preferir, obedecer*).
+* [Manual de Comunicação do Senado Federal — Regência Nominal](https://www12.senado.leg.br/manualdecomunicacao/estilos/regencia-nominal) - Quadro de substantivos e adjetivos acompanhados das respectivas preposições na linguagem pública.
+* [Manual de Comunicação do Senado Federal — Emprego do Sinal Indicativo de Crase](https://www12.senado.leg.br/manualdecomunicacao/estilos/crase) - Casos obrigatórios, proibidos e facultativos de crase em textos administrativos e jurídicos.
+* [Manual de Redação da Presidência da República — 3ª Edição (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Diretrizes sobre regência, concordância e emprego da crase em comunicações oficiais.
+* BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 15 e Cap. 16 - Sintaxe de Concordância Verbal e Nominal, Sintaxe de Regência e Crase).
+* CEGALLA, Domingos Paschoal. **Novíssima Gramática da Língua Portuguesa**. 49. ed. São Paulo: Companhia Editora Nacional, 2020. (Parte 3 - Concordância, Regência Verbal e Nominal e Emprego do Acento Grave).
+* CUNHA, Celso; CINTRA, Lindley. **Nova Gramática do Português Contemporâneo**. 7. ed. Rio de Janeiro: Lexikon, 2017. (Cap. 9 e Cap. 14 - Contração da Preposição A e Regras Especiais de Concordância e Regência).

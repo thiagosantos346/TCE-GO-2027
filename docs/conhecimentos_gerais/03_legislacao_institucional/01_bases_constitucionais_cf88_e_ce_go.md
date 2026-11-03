@@ -5,7 +5,10 @@
 > **Arquivo:** `01_bases_constitucionais_cf88_e_ce_go.md`  
 > **Atos Normativos:** CF/88 (Arts. 37 a 41 e 70 a 75) e Constituição do Estado de Goiás (Arts. 26 a 33)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Constituição da República Federativa do Brasil de 1988:
@@ -153,6 +156,89 @@ $$\text{Ato Administrativo (Comissivo)} + \text{Dano Efetivo} + \text{Nexo Causa
 
 ---
 
+### Teste 122
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Nos termos do artigo 37, inciso XVI, e do artigo 38 da Constituição Federal de 1988, a respeito da acumulação remunerada de cargos públicos e do exercício de mandato eletivo por servidor público:
+
+* **A)** É permitida a acumulação remunerada de três cargos de professor, desde que comprovada a compatibilidade de horários.
+* **B)** É constitucional a acumulação remunerada de dois cargos privativos de profissionais de saúde, com profissões regulamentadas, havendo compatibilidade de horários, independentemente de teto remuneratório.
+* **C)** O servidor público investido no mandato de Prefeito será afastado do cargo efetivo, sendo-lhe facultado optar pela sua remuneração de origem.
+* **D)** O servidor público investido no mandato de Vereador deverá ser compulsoriamente afastado de seu cargo efetivo, sem direito a optar pelo subsídio do mandato legislativo.
+* **E)** É vedada em qualquer hipótese a acumulação de um cargo de professor com outro técnico ou científico.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A regra do art. 37, XVI, "a", autoriza a acumulação de **dois** cargos de professor (e não três), desde que haja compatibilidade de horários.
+> - **B)** Incorreta. Embora seja lícita a acumulação de dois cargos de profissionais de saúde (art. 37, XVI, "c"), a remuneração cumulada submete-se ao teto constitucional (STF, Temas 377 e 384: o teto incide isoladamente sobre cada vínculo, mas não há dispensa de teto).
+> - **C)** Correta. De acordo com o art. 38, inciso II, da CF/88: *"investido no mandato de Prefeito, será afastado do cargo, emprego ou função, sendo-lhe facultado optar pela sua remuneração"*. O afastamento funcional é obrigatório, mas a opção remuneratória é prerrogativa expressa do servidor.
+> - **D)** Incorreta. Para o mandato de Vereador (art. 38, III), havendo compatibilidade de horários, o servidor perceberá as vantagens de seu cargo cumulativamente com a remuneração do cargo eletivo. Se não houver compatibilidade, aplica-se a regra do prefeito.
+> - **E)** Incorreta. A acumulação de um cargo de professor com outro técnico ou científico é expressamente autorizada pela CF/88 (art. 37, XVI, "b").
+>
+> **Gabarito: C**
+
+---
+
+### Teste 123
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Acerca do regime constitucional dos servidores públicos civis (artigos 37 a 41 da CF/88) e da responsabilidade civil do Estado, considere as seguintes afirmativas:
+
+I. O servidor público estável somente perderá o cargo em virtude de sentença judicial transitada em julgado ou mediante processo administrativo disciplinar no qual lhe seja assegurada ampla defesa, inexistindo qualquer outra hipótese constitucional de perda de cargo.  
+
+II. O direito de regresso da Administração Pública contra o servidor público causador de dano a terceiro exige a comprovação de que o agente agiu com dolo ou culpa.  
+
+III. O teto remuneratório constitucional aplica-se ao somatório das remunerações nas hipóteses de acumulação lícita de cargos públicos, devendo o excedente ser retido pelo ente pagador.  
+
+Está correto o que se afirma APENAS em:
+
+* **A)** I.
+* **B)** II.
+* **C)** III.
+* **D)** I e II.
+* **E)** II e III.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O item I erra ao asseverar inexistência de outras causas de perda de cargo do servidor estável (existem quatro hipóteses: sentença judicial, PAD, avaliação de desempenho e excesso de despesas de pessoal).
+> - **B) CORRETA.** Apenas o item II é verdadeiro, pois a responsabilidade civil do Estado perante terceiros é objetiva, mas a ação regressiva em face do agente público exige comprovação de dolo ou culpa (CF, art. 37, § 6º).
+> - **C) Incorreta.** O item III colide com a jurisprudência vinculante do STF (Temas 377 e 384), que impõe a aplicação do teto de forma isolada sobre cada cargo acumulável.
+> - **D) Incorreta.** O item I incorre em omissão normativa inconstitucional.
+> - **E) Incorreta.** O item III está equivocado ante o entendimento consolidado do STF.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 124
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em matéria de responsabilidade civil da Administração Pública (art. 37, § 6º, da CF/88) e atuação de agentes públicos:
+
+* **A)** As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes causarem a terceiros com base na teoria da culpa administrativa subjetiva em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** A vítima de um dano causado por viatura oficial em trânsito pode ajuizar ação indenizatória diretamente e com exclusividade em face do servidor causador do acidente.
+* **C)** A responsabilidade civil do Estado independe de culpa ou dolo da Administração (responsabilidade objetiva sob a teoria do risco administrativo), assegurado o direito de regresso contra o agente responsável nos casos de dolo ou culpa.
+* **D)** O direito de regresso contra o agente público pode ser exercido mesmo que a Administração Pública não comprove dolo ou culpa do servidor.
+* **E)** A teoria do risco integral é a regra geral no direito brasileiro, não admitindo excludentes como caso fortuito ou força maior.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A responsabilidade das pessoas de direito público e das prestadoras de serviço público é **objetiva** (teoria do risco administrativo), e não subjetiva.
+> - **B)** Incorreta. Conforme jurisprudência vinculante do Supremo Tribunal Federal (Tema 940 de Repercussão Geral - RE 1.027.633): *"A teor do disposto no art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para a lide o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa"*.
+> - **C)** Correta. Traduz fielmente a redação do art. 37, § 6º, da CF/88 e a doutrina do Direito Administrativo: a responsabilidade estatal é objetiva (basta conduta estatal, nexo causal e dano), cabendo ação regressiva contra o servidor unicamente se este tiver agido com dolo ou culpa.
+> - **D)** Incorreta. Na ação de regresso em face do servidor, a responsabilidade é subjetiva, exigindo a demonstração inequívoca de dolo ou culpa.
+> - **E)** Incorreta. A regra adotada é a do **risco administrativo**, que admite atenuantes e excludentes de responsabilidade (culpa exclusiva da vítima, caso fortuito e força maior).
+>
+> **Gabarito: C**
+
+---
+
 ## 2. Fiscalização e Controle na CF/88 (Arts. 70 a 75)
 
 ```mermaid
@@ -228,6 +314,108 @@ Qualquer tentativa das Constituições Estaduais de inovar, restringir competên
 
 ---
 
+### Teste 125
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No tocante ao controle externo exercido pelo Tribunal de Contas sobre os atos de pessoal e concessão de benefícios previdenciários (art. 71, III, da CF/88):
+
+* **A)** O registro de aposentadorias, reformas e pensões pelos Tribunais de Contas é ato meramente homologatório, não podendo a Corte de Contas recusar registro fundado em ilegalidade.
+* **B)** O procedimento de registro inicial de aposentadoria no Tribunal de Contas prescinde do contraditório e da ampla defesa, desde que a análise seja concluída no prazo de 5 anos a contar da chegada do processo à Corte.
+* **C)** A Súmula Vinculante nº 3 do STF estabelece que o contraditório e a ampla defesa são sempre obrigatórios na apreciação da legalidade do ato de concessão inicial de aposentadoria, independentemente do tempo decorrido.
+* **D)** A nomeação para cargo em comissão de livre nomeação e exoneração está sujeita a registro prévio e obrigatório pelo Tribunal de Contas perante o qual atua o órgão.
+* **E)** Decorrido o prazo de 10 anos sem manifestação do Tribunal de Contas, o ato de aposentadoria é sumariamente anulado por decurso de prazo.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O exame de legalidade para fins de registro é ato complexo e dotado de densidade fiscalizatória plena; se houver ilegalidade, o Tribunal de Contas nega o registro e determina a cessação dos pagamentos indevidos.
+> - **B)** Correta. A Súmula Vinculante nº 3 do STF estabelece expressamente: *"Nos processos perante o Tribunal de Contas da União asseguram-se o contraditório e a ampla defesa quando da decisão puder resultar anulação ou revogação de ato administrativo que beneficie o interessado, **excetuada a apreciação da legalidade do ato de concessão inicial de aposentadoria, reforma e pensão**"*. Todavia, segundo tese de Repercussão Geral fixada pelo STF (Tema 445 - RE 636.553), ultrapassado o prazo de 5 anos a contar da chegada do processo ao TC sem decisão, o ato é tacitamente estabilizado, exigindo a partir de então prévio contraditório.
+> - **C)** Incorreta. A SV 3 excetua expressamente a apreciação da concessão inicial.
+> - **D)** Incorreta. O art. 71, III, da CF/88 ressalva taxativamente as nomeações para cargo de provimento em comissão da obrigatoriedade de registro no Tribunal de Contas.
+> - **E)** Incorreta. Não há anulação sumária por decurso de prazo; ultrapassados 5 anos sem julgamento, opera-se o direito ao contraditório antes de eventual revisão.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 126
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Sobre o rito constitucional de fiscalização e sustação de atos e contratos administrativos disciplinado no artigo 71, incisos IX a XI e §§ 1º e 2º, da Constituição Federal:
+
+* **A)** Tanto a sustação de ato administrativo quanto a de contrato administrativo são atos privativos de competência originária e direta do Tribunal de Contas.
+* **B)** No caso de contrato administrativo com irregularidade grave, a competência para a sustação é primariamente do Congresso Nacional (ou Assembleia Legislativa), cabendo ao Tribunal de Contas decidir sobre a sustação caso o Poder Legislativo não se manifeste no prazo de 90 dias.
+* **C)** O Tribunal de Contas pode sustar imediatamente um contrato administrativo sem necessidade de qualquer prévia comunicação ao Poder Legislativo ou ao Poder Executivo. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** A sustação de ato administrativo impugnado pelo Tribunal de Contas depende sempre de prévia autorização da Assembleia Legislativa.
+* **E)** Se o Poder Legislativo sustar o contrato, o Tribunal de Contas deverá anular a decisão parlamentar no prazo de 30 dias.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O regime constitucional é diferenciado: o Tribunal de Contas susta diretamente os **atos** administrativos (art. 71, X); mas a sustação de **contratos** administrativos é prerrogativa primária do Poder Legislativo (art. 71, § 1º).
+> - **B)** Correta. Trata-se da clássica pegadinha do art. 71, §§ 1º e 2º, da CF/88:  
+>   - *§ 1º:* No caso de contrato, o ato de sustação será adotado diretamente pelo Congresso Nacional (ou Assembleia Legislativa), que solicitará, de imediato, ao Poder Executivo as medidas cabíveis.  
+>   - *§ 2º:* Se o Congresso Nacional (ou o Poder Executivo) não efetivar as medidas no prazo de **90 dias**, o Tribunal de Contas decidirá a respeito da sustação do contrato.
+> - **C)** Incorreta. O TC só assume a competência supletiva de sustar o contrato após a inércia parlamentar pelo prazo de 90 dias.
+> - **D)** Incorreta. A sustação de ato administrativo é executada diretamente pelo Tribunal de Contas (art. 71, X).
+> - **E)** Incorreta. O TC não anula decisões do Poder Legislativo sobre sustação de contratos; quem exerce o controle jurisdicional de constitucionalidade é o Poder Judiciário.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 127
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Nos termos do artigo 74 da Constituição Federal de 1988, os responsáveis pelo sistema de controle interno integrado dos Poderes Executivo, Legislativo e Judiciário têm a obrigação constitucional de:
+
+* **A)** Homologar judicialmente as decisões condenatórias exaradas pelo Tribunal de Contas no prazo improrrogável de quinze dias.
+* **B)** Assinar prazo para anulação de leis estaduais que contrariem as metas fiscais da Lei de Diretrizes Orçamentárias.
+* **C)** Dar ciência imediata ao Tribunal de Contas de qualquer irregularidade ou ilegalidade de que tomarem conhecimento na gestão pública, sob pena de responsabilidade solidária.
+* **D)** Substituir o Tribunal de Contas no julgamento das contas anuais dos secretários de Estado e dirigentes autárquicos.
+* **E)** Exercer privativamente a representação judicial dos Conselheiros do Tribunal de Contas perante os órgãos de cúpula do Poder Judiciário em conformidade com as diretrizes e padrões de arquitetura corporativa.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Decisões de Tribunais de Contas que imputam débito ou multa possuem eficácia imediata de título executivo extrajudicial por mandamento constitucional (Art. 71, § 3º), dispensando qualquer homologação de controle interno ou judicial prévia.
+> - **B) Incorreta.** O controle de constitucionalidade de leis é atribuição privativa do Poder Judiciário; os órgãos de controle interno não detêm competência para assinar prazos com vistas à anulação de leis.
+> - **C) CORRETA.** O artigo 74, § 1º, da CF/88 prescreve categoricamente: *"Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas da União [e do Estado por simetria], sob pena de responsabilidade solidária"*.
+> - **D) Incorreta.** O julgamento de contas de gestão de secretários e ordenadores de despesas constitui competência técnica privativa do próprio Tribunal de Contas (Art. 71, II da CF).
+> - **E) Incorreta.** O controle interno não exerce representação judicial contenciosa de Conselheiros, atuando estritamente na fiscalização administrativa e operacional.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 128
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito das normas constitucionais federais aplicáveis ao sistema de fiscalização contábil, financeira e orçamentária e da jurisprudência consolidada do Supremo Tribunal Federal, assinale a opção correta:
+
+* **A)** A competência para julgar as contas prestadas anualmente pelo Governador de Estado pertence ao respectivo Tribunal de Contas, o qual profere julgamento definitivo imune à revisão judicial de mérito.
+* **B)** A decisão do Tribunal de Contas que imputa débito ou comina penalidade de multa a ordenador de despesas ostenta eficácia de título executivo extrajudicial, cabendo à Procuradoria do próprio Tribunal de Contas promover a respectiva execução judicial considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
+* **C)** No caso de contrato administrativo eivado de ilegalidade insanável, o Tribunal de Contas comunicará o fato ao Poder Legislativo para que este adote o ato de sustação; todavia, caso o Legislativo ou o Executivo não adotem a medida no prazo de 90 dias, o próprio Tribunal de Contas decidirá a respeito da sustação do contrato.
+* **D)** O sistema de controle interno de cada Poder tem competência constitucional para emitir o parecer prévio sobre as contas do Chefe do Executivo, cabendo ao Tribunal de Contas apenas a homologação revisional.
+* **E)** As decisões dos Tribunais de Contas que resultam em imputação de débito ao agente público para reparação de dano ao erário são impassíveis de prescrição, consoante o princípio da imprescritibilidade geral da dívida ativa pública.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O Tribunal de Contas não julga as contas prestadas anualmente pelo Governador do Estado; ele emite exclusivamente **Parecer Prévio** (opinativo) no prazo de 60 dias (Art. 71, I da CF). O julgamento definitivo e político dessas contas compete à **Assembleia Legislativa** (Art. 75 c/c Art. 49, IX da CF).
+> - **B) Incorreta.** A decisão do Tribunal de Contas ostenta, de fato, eficácia de título executivo extrajudicial (Art. 71, § 3º da CF), mas o Tribunal de Contas não é pessoa jurídica e não tem procuradoria contenciosa para ajuizar execução fiscal. A legitimidade para a cobrança judicial é da **Fazenda Pública titular do crédito** (a PGE no caso do Estado).
+> - **C) CORRETA.** Aplicação literal do art. 71, § 1º e § 2º da CF/88: no caso de contrato administrativo irregular, a competência primária para sustação é do Poder Legislativo. Todavia, se o Poder Legislativo ou o Poder Executivo, no prazo de **90 (noventa) dias**, não efetivar as medidas de sustação cabíveis, o próprio Tribunal de Contas decidirá a respeito da sustação.
+> - **D) Incorreta.** O parecer prévio sobre as contas de governo é atribuição indelegável do Tribunal de Contas perante o Poder Legislativo. O sistema de controle interno apoia o controle externo, mas não detém competência para emitir o parecer prévio constitucional.
+> - **E) Incorreta.** O Plenário do STF, ao fixar tese no **Tema 899 de Repercussão Geral (RE 636.886)**, pacificou que é **prescritível** a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas, incidindo o prazo prescricional quinquenal (5 anos).
+> 
+> **Gabarito: C**
+
+---
+
 ## 3. O Tribunal de Contas do Estado de Goiás na CE/GO (Arts. 26 a 33)
 
 ### 3.1 Natureza Jurídica, Jurisdição e Autonomias Constitucionais
@@ -296,219 +484,78 @@ Além das atribuições comuns simétricas ao art. 71 da CF, destacam-se prazos 
 
 ---
 
-### Teste 001
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-Joana foi empossada como auditora do Tribunal de Contas do Estado de Goiás. Ciente de que, entre as atribuições afetas ao seu cargo, estava a de substituir os Conselheiros, consultou a Lei Orgânica do Tribunal em relação aos requisitos e às circunstâncias afetas a essa substituição, tendo concluído corretamente que
+### Teste 129
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Segundo as normas da Constituição do Estado de Goiás que disciplinam a organização e o funcionamento do Tribunal de Contas do Estado de Goiás (TCE-GO), a escolha e a nomeação de seus Conselheiros submetem-se ao seguinte regramento:
 
-* **A)** a substituição pressupõe que o respectivo Conselheiro a requeira.
-* **B)** a substituição dos Conselheiros, pelos auditores, observará critérios de rodízio.
-* **C)** há uma vinculação permanente entre ela, Joana, e determinado Conselheiro, para fins de substituição.
-* **D)** a sistemática de substituição é integralmente definida na Lei Orgânica do Tribunal de Contas do Estado de Goiás.
-* **E)** é de competência exclusiva do Presidente do Tribunal a convocação dos auditores para substituir Conselheiros.
+* **A)** Cinco Conselheiros são indicados e nomeados pela Assembleia Legislativa e dois pelo Governador do Estado com aprovação prévia do Tribunal de Justiça.
+* **B)** Quatro Conselheiros são indicados pela Assembleia Legislativa e três pelo Governador do Estado, com prévia aprovação legislativa, devendo dois destes últimos recair necessariamente sobre membros de carreira técnica (um Conselheiro Substituto e um membro do MPC-GO).
+* **C)** Todos os sete Conselheiros são livremente nomeados pelo Governador do Estado, cabendo à Assembleia Legislativa a fixação prévia de lista sêxtupla representativa.
+* **D)** O Tribunal é composto por nove Conselheiros vitalícios, exigindo-se idade mínima de trinta anos e formação privativa em Ciências Contábeis ou Econômicas.
+* **E)** A vaga destinada aos membros do Ministério Público de Contas prescinde de lista tríplice, sendo o candidato nomeado por antiguidade absoluta apurada na carreira.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a substituição pressupõe que o respectivo Conselheiro a requeira". De acordo com a teoria estudada em *3.2 Composição e Escolha dos 7 Conselheiros do TCE-GO*, 1 (um) escolhido alternadamente dentre os membros do Ministério Público de Contas (MPC GO), indicados em lista tríplice formulada pelo Pleno do Tribunal, também pelos critérios alternados de antiguidade e merecimento.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Composição e Escolha dos 7 Conselheiros do TCE-GO* deste guia, 1 (um) escolhido alternadamente dentre os Conselheiros Substitutos (Auditores) do Tribunal de Contas, indicados em lista tríplice formulada pelo Pleno, segundo critérios alternados de antiguidade e merecimento. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "a substituição dos Conselheiros, pelos auditores, observará critérios de rodízio".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "há uma vinculação permanente entre ela, Joana, e determinado Conselheiro, para fins de substituição". De acordo com a teoria estudada em *3.5 Ministério Público de Contas de Goiás (Art. 30 da CE/GO)*, o Ministério Público de Contas (MPC GO) atua junto ao TCE GO como órgão permanente de fiscalização da lei.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a sistemática de substituição é integralmente definida na Lei Orgânica do Tribunal de Contas do Estado de Goiás". De acordo com a teoria estudada em *4. Fontes Oficiais e Referências Bibliográficas*, lei Estadual nº 16.168/2007 Lei Orgânica do TCE GO (Casa Civil/GO) Estrutura básica, jurisdição e competências institucionais do Tribunal.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é de competência exclusiva do Presidente do Tribunal a convocação dos auditores para substituir Conselheiros". De acordo com a teoria estudada em *2.2 Competências dos Tribunais de Contas: Contas de Governo vs. Contas de Gestão*, o Supremo Tribunal Federal pacificou que, para fins de inelegibilidade eleitoral (alínea 'g' do inciso I do art. 1º da LC 64/90), a competência para julgar todas as contas prestadas por Prefeito Municipal — tanto as contas de governo quanto as contas de gestão na condição de ordenador — é exclusiva da Câmara Municipal, figurando o parecer do Tribunal de Contas como ato opinativo que somente deixará de prevalecer por voto de 2/3 dos vereadores. No entanto, para os Governadores e Secretários de Estado, mantém se a distinção: o TCE emite parecer nas contas anuais do Governador e julga diretamente os Secretários de Estado quando ordenadores.
->
+> - **A) Incorreta.** A proporção constitucional no TCE-GO é de 4 Conselheiros pela ALEGO e 3 pelo Governador do Estado, cabendo à própria Assembleia Legislativa aprovar os indicados do Governador em sabatina (o Tribunal de Justiça não participa da escolha).
+> - **B) CORRETA.** Nos termos do artigo 27 da CE/GO (em simetria compulsória com o art. 73, § 2º e art. 75 da CF/88): o TCE-GO compõe-se de **7 Conselheiros**, sendo **quatro indicados e nomeados pela ALEGO** e **três nomeados pelo Governador do Estado** após aprovação legislativa, sendo 1 de sua livre escolha e **2 obrigatoriamente vinculados às carreiras técnicas** (um Conselheiro Substituto Auditor e um Procurador de Contas do MPC-GO), indicados em lista tríplice formulada pelo Pleno alternando antiguidade e merecimento.
+> - **C) Incorreta.** O Governador do Estado não nomeia todos os membros livremente; a maioria absoluta (4 membros) é escolhida pelo Poder Legislativo, e 2 das suas 3 vagas vinculam-se a listas tríplices de carreiras técnicas.
+> - **D) Incorreta.** O TCE-GO possui exatamente 7 Conselheiros (Tribunais de Contas Estaduais possuem 7 membros, enquanto o TCU possui 9 Ministros). A idade exigida é de mais de 35 anos e menos de 70 anos.
+> - **E) Incorreta.** A nomeação de membro do MPC-GO exige a formação de lista tríplice elaborada pelo Pleno do Tribunal de Contas, alternando-se critérios de antiguidade e merecimento.
+> 
 > **Gabarito: B**
 
 ---
 
-### Teste 002
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-Maria, servidora do Tribunal de Contas do Estado de Goiás, teve conhecimento, em sua vida privada, de que Joana, também servidora dessa estrutura orgânica, não era assídua e frequente ao serviço, o que comprometia o regular funcionamento do setor a que estava vinculada. Ao analisar o Código de Ética para os Servidores do Tribunal de Contas do Estado de Goiás, Maria concluiu corretamente que
+### Teste 130
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito das garantias constitucionais da magistratura atribuídas aos membros dos Tribunais de Contas pela Constituição da República de 1988 e reproduzidas nas Constituições Estaduais, os Conselheiros gozam de:
 
-* **A)** tem a faculdade de informar ao superior hierárquico de Joana sobre a sua conduta.
-* **B)** em razão dos princípios da ética relacional, não deve se arvorar em órgão correcional de Joana.
-* **C)** deve notificar a Comissão de Ética a respeito da conduta de Joana, por ser contrária ao Código de Ética.
-* **D)** deve representar ao Presidente do Tribunal de Contas para que adote as providências cabíveis contra Joana, no plano estatutário.
-* **E)** deve informar ao seu superior hierárquico em relação à conduta de Joana, cabendo àquele comunicar ao superior hierárquico desta última.
+* **A)** Estabilidade simples após aprovação em estágio probatório de três anos, sendo equiparados aos Procuradores de Estado.
+* **B)** Vitaliciedade, inamovibilidade e irredutibilidade de subsídio, tendo os mesmos impedimentos, prerrogativas e vencimentos dos Desembargadores do Tribunal de Justiça.
+* **C)** Inamovibilidade relativa, podendo ser livremente exonerados *ad nutum* mediante decreto do Chefe do Poder Executivo em caso de rejeição de contas públicas em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** Foro por prerrogativa de função perante a Assembleia Legislativa para o julgamento de crimes comuns e de responsabilidade.
+* **E)** Mandato com prazo determinado de quatro anos, permitida uma única recondução consecutiva por deliberação do Colégio de Líderes parlamentares.
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tem a faculdade de informar ao superior hierárquico de Joana sobre a sua conduta". De acordo com a teoria estudada em *1.7 Responsabilidade Civil Objetiva do Estado e Ação Regressiva*, tema 940 do STF (Tese Vinculante RE 1.027.633): A ação indenizatória por danos causados por agente público no exercício de suas funções deve ser proposta exclusivamente em face da pessoa jurídica de direito público ou da concessionária, sendo inadmissível o ajuizamento da ação diretamente contra o agente público ou a sua inclusão no polo passivo mediante litisconsórcio passivo facultativo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em razão dos princípios da ética relacional, não deve se arvorar em órgão correcional de Joana". De acordo com a teoria estudada em *1.1 Princípios Constitucionais Expressos e Implícitos*, princípio da Impessoalidade: Exige que a atividade administrativa seja orientada exclusivamente ao interesse público, sendo vedada a perseguição de inimigos ou o privilégio indevido de amigos e aliados políticos. Desdobra se decisivamente no Art. 37, § 1º da CF/88: a publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deve possuir caráter estritamente educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Princípios Constitucionais Expressos e Implícitos* deste guia, princípio da Moralidade: Exige conduta ética, lealdade institucional, boa fé e probidade na gestão dos recursos públicos. A ofensa à moralidade prescinde de prova de violação frontal à letra fria da lei; o ato administrativo imoral é nulo e passível de desconstituição pelo Poder Judiciário por meio de Ação Popular (Art. 5º, LXXIII da CF) e sancionamento via Ação de Improbidade Administrativa (Lei nº 8.429/1992). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "deve notificar a Comissão de Ética a respeito da conduta de Joana, por ser contrária ao Código de Ética".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve representar ao Presidente do Tribunal de Contas para que adote as providências cabíveis contra Joana, no...". De acordo com a teoria estudada em *2.4 Rito Constitucional de Sustação de Atos e Contratos Administrativos*, ato Administrativo Ilegal (Portarias, nomeações, editais de concurso): O Tribunal de Contas assina prazo de 30 dias para que o órgão adote as medidas necessárias ao exato cumprimento da lei. — O próprio TRIBUNAL DE CONTAS susta diretamente a execução do ato ilegal impugnado. — Comunica a decisão e providência à Assembleia Legislativa.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve informar ao seu superior hierárquico em relação à conduta de Joana, cabendo àquele comunicar ao superior...". De acordo com a teoria estudada em *1.6 Estabilidade Constitucional e Hipóteses Taxativas de Perda do Cargo*, excesso de despesa com pessoal (Art. 169, § 4º da CF/88): Caso as despesas de pessoal superem os limites da Lei de Responsabilidade Fiscal e as medidas preliminares obrigatórias (redução de pelo menos 20% das despesas com comissionados e exoneração de todos os servidores não estáveis) se revelem insuficientes, o servidor estável poderá ser exonerado, fazendo jus a uma indenização equivalente a 1 (um) mês de remuneração por ano de serviço prestado.
->
-> **Gabarito: C**
-
----
-
-### Teste 003
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-A Constituição do Estado de Goiás estabelece a atuação político- administrativa no estado. Sobre o TCE-GO, analise os itens a seguir: I. Os cargos de Procurador de Contas integram quadro próprio do TCE-GO; II. O TCE-GO, integrado por cinco conselheiros, tem sede na Capital, quadro próprio de pessoal e jurisdição em todo o território estadual; III. Os Conselheiros do TCE-GO têm as mesmas garantias, prerrogativas, impedimentos, vencimentos e vantagens dos Desembargadores do Tribunal de Justiça. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.1 Natureza Jurídica, Jurisdição e Autonomias Constitucionais*, autonomias Constitucionais: O TCE GO possui autonomia funcional, administrativa, financeira e orçamentária. Dispõe de autogoverno (eleição de seus dirigentes pelo Tribunal Pleno), iniciativa legislativa reservada para propor a criação de seus cargos e fixação de vencimentos do seu quadro próprio de servidores, e competência para elaborar sua proposta orçamentária anual dentro dos limites das diretrizes orçamentárias.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2.3 Fiscalização de Atos de Pessoal e Registro de Aposentadorias e Pensões*, nos termos do artigo 71, III, da CF/88, compete ao Tribunal de Contas apreciar, para fins de registro, a legalidade dos atos de admissão de pessoal (ressalvadas as nomeações para cargo de comissão) e das concessões iniciais de aposentadorias, reformas e pensões.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.4 Estatuto dos Conselheiros: Garantias, Prerrogativas, Vedações e Foro* deste guia, o artigo 28 da Carta Estadual estabelece que os Conselheiros do TCE GO gozam das mesmas garantias, prerrogativas, impedimentos, subsídios e vencimentos atribuídos aos Desembargadores do Tribunal de Justiça do Estado de Goiás (TJ GO). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "I e III, apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.1 Natureza Jurídica, Jurisdição e Autonomias Constitucionais*, sede e Jurisdição: Tem sede na capital do Estado (Goiânia) e estende sua jurisdição própria e privativa sobre todas as pessoas, órgãos e entidades sujeitos à fiscalização orçamentária estadual em todo o território goiano (Art. 26 da CE/GO).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.2 Provimento de Cargos, Concurso Público e Prazos*, prazos de Validade (Art. 37, III): O prazo de validade do concurso será de até dois anos, prorrogável uma única vez, por igual período. A prorrogação constitui ato discricionário da Administração, devendo ocorrer impreterivelmente dentro do prazo de vigência original.
->
-> **Gabarito: C**
-
----
-
-### Teste 004
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-A Lei nº 16.168, de 11 de dezembro de 2007, estabelece a Lei Orgânica do TCE-GO, regulamentando suas atribuições e funcionamento. Sobre a jurisdição do TCE-GO, analise os itens a seguir: I. O TCE-GO tem jurisdição própria e privativa em todo o território estadual, sobre as pessoas e matérias sujeitas à sua competência. II. A jurisdição do Tribunal exclui aqueles que derem causa a perda, extravio ou outra irregularidade de que resulte dano ao erário. III. A jurisdição do Tribunal abrange os dirigentes ou liquidantes de autarquias constituídas com recursos do Estado. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *4. Fontes Oficiais e Referências Bibliográficas* deste guia, lei Estadual nº 16.168/2007 Lei Orgânica do TCE GO (Casa Civil/GO) Estrutura básica, jurisdição e competências institucionais do Tribunal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "I, apenas".
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3.1 Natureza Jurídica, Jurisdição e Autonomias Constitucionais*, sede e Jurisdição: Tem sede na capital do Estado (Goiânia) e estende sua jurisdição própria e privativa sobre todas as pessoas, órgãos e entidades sujeitos à fiscalização orçamentária estadual em todo o território goiano (Art. 26 da CE/GO).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *1.2 Provimento de Cargos, Concurso Público e Prazos*, prazos de Validade (Art. 37, III): O prazo de validade do concurso será de até dois anos, prorrogável uma única vez, por igual período. A prorrogação constitui ato discricionário da Administração, devendo ocorrer impreterivelmente dentro do prazo de vigência original.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.3 Fiscalização de Atos de Pessoal e Registro de Aposentadorias e Pensões*, nos termos do artigo 71, III, da CF/88, compete ao Tribunal de Contas apreciar, para fins de registro, a legalidade dos atos de admissão de pessoal (ressalvadas as nomeações para cargo de comissão) e das concessões iniciais de aposentadorias, reformas e pensões.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *3.1 Natureza Jurídica, Jurisdição e Autonomias Constitucionais*, autonomias Constitucionais: O TCE GO possui autonomia funcional, administrativa, financeira e orçamentária. Dispõe de autogoverno (eleição de seus dirigentes pelo Tribunal Pleno), iniciativa legislativa reservada para propor a criação de seus cargos e fixação de vencimentos do seu quadro próprio de servidores, e competência para elaborar sua proposta orçamentária anual dentro dos limites das diretrizes orçamentárias.
->
-> **Gabarito: A**
-
----
-
-### Teste 005
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-As competências do Tribunal de Contas do Estado estão previstas nos artigos 25 e 26 da Constituição do Estado de Goiás e no art. 1° da Lei n° 16.168, de 11 de dezembro de 2007 Lei Orgânica do Tribunal de Contas do Estado (LOTCE). Sobre as competências do TCE-GO, analise os itens a seguir: I. As decisões do Tribunal de que resulte imputação de débito ou multa terão eficácia de título executivo. II. O TCE-GO terá amplo poder de investigação, cabendo-lhe requisitar e examinar, diretamente ou por meio de seu corpo técnico, a qualquer tempo, todos os elementos necessários ao exercício de suas atribuições, não lhe podendo ser sonegado processo, documento ou informação, a qualquer pretexto, sob pena de responsabilidade. III. O Tribunal de Contas prestará contas anuais à Assembleia Legislativa, bem como encaminhará relatórios mensais e anual de suas atividades. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2. Fiscalização e Controle na CF/88 (Arts. 70 a 75)*, cE Sanc["Sanções com Eficácia de Título Executivo (Art. 71, § 3º)<br/ Imputação de Débito e Aplicação de Multa"].
-> - **B)** **Correta.** Conforme fundamentado na seção *2.5 Eficácia Executiva das Decisões Condenatórias e Prescrição* deste guia, conforme prescreve o artigo 71, § 3º, da Carta Federal, as decisões do Tribunal de Contas de que resulte imputação de débito (reparação do erário) ou cominação de multa têm eficácia de título executivo extrajudicial. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "I e II, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *4. Fontes Oficiais e Referências Bibliográficas*, lei Estadual nº 16.168/2007 Lei Orgânica do TCE GO (Casa Civil/GO) Estrutura básica, jurisdição e competências institucionais do Tribunal.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.2 Provimento de Cargos, Concurso Público e Prazos*, prazos de Validade (Art. 37, III): O prazo de validade do concurso será de até dois anos, prorrogável uma única vez, por igual período. A prorrogação constitui ato discricionário da Administração, devendo ocorrer impreterivelmente dentro do prazo de vigência original.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.3 Fiscalização de Atos de Pessoal e Registro de Aposentadorias e Pensões*, nos termos do artigo 71, III, da CF/88, compete ao Tribunal de Contas apreciar, para fins de registro, a legalidade dos atos de admissão de pessoal (ressalvadas as nomeações para cargo de comissão) e das concessões iniciais de aposentadorias, reformas e pensões.
->
+> - **A) Incorreta.** Os Conselheiros de Tribunais de Contas gozam de garantias da magistratura, incluindo a vitaliciedade, não se submetendo a mero regime estatutário de estabilidade simples.
+> - **B) CORRETA.** Em observância ao art. 73, § 3º c/c art. 75 da CF/88 e art. 28 da Carta Estadual de Goiás, os Conselheiros do Tribunal de Contas do Estado têm as mesmas garantias (**vitaliciedade, inamovibilidade e irredutibilidade de subsídio**), prerrogativas, impedimentos, subsídios e vantagens conferidos aos **Desembargadores do Tribunal de Justiça do Estado de Goiás**.
+> - **C) Incorreta.** Membros vitalícios não podem ser exonerados discricionariamente ou *ad nutum* pelo Poder Executivo; a perda do cargo só ocorre mediante processo judicial transitado em julgado ou impeachment.
+> - **D) Incorreta.** Por determinação expressa do art. 105, I, "a", da CF/88, os Conselheiros dos Tribunais de Contas Estaduais respondem em foro por prerrogativa de função perante o **Superior Tribunal de Justiça (STJ)** nos crimes comuns e de responsabilidade.
+> - **E) Incorreta.** O cargo de Conselheiro de Tribunal de Contas é vitalício, inexistindo fixação de mandato temporal de quatro anos ou sistema de recondução política.
+> 
 > **Gabarito: B**
 
 ---
 
-### Teste 006
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Controle Externo)**
-Sérgio, no exercício de suas atribuições como Analista do Tribunal de Contas do Estado de Goiás, deparou-se com um procedimento administrativo envolvendo o controle externo de legalidade sobre determinado ato discricionário do Poder Executivo. Acerca da aludida temática, é correto afirmar que
+### Teste 131
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+De acordo com o artigo 30 da Constituição do Estado de Goiás e a jurisprudência sumulada do Supremo Tribunal Federal a respeito do Ministério Público de Contas (MPC):
 
-* **A)** é possível a revogação do ato administrativo pela Corte de Contas.
-* **B)** não é possível o controle externo de ato discricionário pela Corte de Contas.
-* **C)** é possível sindicar o mérito administrativo no exercício do controle externo pela Corte de Contas.
-* **D)** não é possível que a Corte de Contas substitua o Poder Executivo no exercício da discricionariedade.
-* **E)** é possível anular o ato discricionário em questão por razões de conveniência e oportunidade da Corte de Contas. Administração Financeira e Orçamentária
+* **A)** O Ministério Público de Contas compõe ramo autônomo do Ministério Público do Estado de Goiás (MPE-GO), sendo chefiado pelo Procurador-Geral de Justiça do Estado.
+* **B)** O Ministério Público junto ao Tribunal de Contas do Estado de Goiás possui quadro próprio de membros, investidos por concurso público específico de provas e títulos, submetendo-se administrativamente à estrutura orgânica do Tribunal de Contas, sem personalidade jurídica própria.
+* **C)** Os Procuradores do MPC de Goiás não gozam das garantias de vitaliciedade, inamovibilidade e irredutibilidade de subsídios conferidas aos membros do Ministério Público comum. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** Compete ao Ministério Público de Contas ajuizar ações civis públicas perante o Poder Judiciário para cobrança de títulos executivos emitidos pelo TCE-GO.
+* **E)** O Procurador-Geral de Contas é livremente nomeado pelo Presidente do TCE-GO, sem participação do Governador do Estado.
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *2.3 Fiscalização de Atos de Pessoal e Registro de Aposentadorias e Pensões* deste guia, súmula Vinculante nº 3 do STF: Nos processos perante os Tribunais de Contas que resultem em anulação ou revogação de atos administrativos que beneficiem alguém, são assegurados o contraditório e a ampla defesa, excetuada a apreciação da legalidade do ato de concessão inicial de aposentadoria, reforma e pensão. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "é possível a revogação do ato administrativo pela Corte de Contas".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é possível o controle externo de ato discricionário pela Corte de Contas". De acordo com a teoria estudada em *2.3 Fiscalização de Atos de Pessoal e Registro de Aposentadorias e Pensões*, tema 445 do STF (Marco Temporal de 5 Anos): Em atenção à segurança jurídica e à confiança legítima, os Tribunais de Contas têm o prazo decadencial de 5 (cinco) anos para apreciar a legalidade do ato de concessão inicial de aposentadoria ou pensão, contados da data de chegada do processo à Corte de Contas. Passados 5 anos sem homologação, o ato considera se tacitamente estabilizado para fins de exigência de prévio contraditório perante o servidor jubilado.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é possível sindicar o mérito administrativo no exercício do controle externo pela Corte de Contas". De acordo com a teoria estudada em *2.3 Fiscalização de Atos de Pessoal e Registro de Aposentadorias e Pensões*, natureza de Ato Complexo: O ato de concessão de aposentadoria ou pensão é classificado pelo STF como ato administrativo complexo. O ato concessório emitido pelo órgão de origem do servidor é precário e provisório, somente se aperfeiçoando e tornando se definitivo com o competente exame e registro pelo Tribunal de Contas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é possível que a Corte de Contas substitua o Poder Executivo no exercício da discricionariedade". De acordo com a teoria estudada em *2.4 Rito Constitucional de Sustação de Atos e Contratos Administrativos*, contrato Administrativo Ilegal (Ajuste firmado com terceiro particular): O Tribunal de Contas assina prazo para a regularização ou anulação do contrato. — A competência originária para sustar a execução do contrato é do PODER LEGISLATIVO (Assembleia Legislativa), que solicitará imediatamente ao Executivo as medidas. — Se o Legislativo ou o Executivo não adotarem as medidas no prazo de 90 dias, o próprio TRIBUNAL DE CONTAS decidirá a respeito da sustação.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é possível anular o ato discricionário em questão por razões de conveniência e oportunidade da Corte de Contas...". De acordo com a teoria estudada em *1.1 Princípios Constitucionais Expressos e Implícitos*, autotutela (Súmulas 346 e 473 do STF): A Administração Pública tem o poder dever de anular seus próprios atos quando eivados de vício de ilegalidade (porque de atos ilegais não se originam direitos), e de revogá los por razões de conveniência e oportunidade, resguardados os direitos adquiridos e assegurada a ampla defesa quando houver reflexo em interesses individuais.
->
-> **Gabarito: A**
-
----
-
-### Teste 007
-**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
-Compete ao Tribunal de Contas do Estado de Goiás
-
-* **A)** processual.
-* **B)** disciplinar.
-* **C)** leilão.
-* **D)** tomada de preço.
-* **E)** regulamentar. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *2.5 Eficácia Executiva das Decisões Condenatórias e Prescrição* deste guia, legitimidade para Execução: O Tribunal de Contas não é pessoa jurídica e não possui capacidade processual contenciosa para ajuizar execução de suas decisões em juízo. A legitimação ativa para a execução fiscal pertence à Fazenda Pública credora (em Goiás, o Estado de Goiás, representado pela Procuradoria Geral do Estado PGE GO; ou o Município, se a condenação envolver verbas municipais). Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "processual".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "disciplinar". De acordo com a teoria estudada em *1.6 Estabilidade Constitucional e Hipóteses Taxativas de Perda do Cargo*, processo administrativo disciplinar (PAD) no qual lhe seja formalmente assegurada a ampla defesa e o contraditório.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "leilão". De acordo com a teoria estudada em *2.3 Fiscalização de Atos de Pessoal e Registro de Aposentadorias e Pensões*, nos termos do artigo 71, III, da CF/88, compete ao Tribunal de Contas apreciar, para fins de registro, a legalidade dos atos de admissão de pessoal (ressalvadas as nomeações para cargo de comissão) e das concessões iniciais de aposentadorias, reformas e pensões.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tomada de preço". De acordo com a teoria estudada em *3.1 Natureza Jurídica, Jurisdição e Autonomias Constitucionais*, o Tribunal de Contas do Estado de Goiás (TCE GO) é órgão público constitucional autônomo, não subordinado nem vinculado hierarquicamente a nenhum dos três Poderes de Estado (Executivo, Legislativo ou Judiciário).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "regulamentar". De acordo com a teoria estudada em *3.5 Ministério Público de Contas de Goiás (Art. 30 da CE/GO)*, o Ministério Público de Contas (MPC GO) atua junto ao TCE GO como órgão permanente de fiscalização da lei.
+> - **A)** Incorreta. O MPC não integra o MPE (Ministério Público comum estadual), sendo órgão especial que atua exclusivamente perante a Corte de Contas (Súmula 653 do STF: *"No Tribunal de Contas da União, o Ministério Público junto ao Tribunal tem sua organização regulada em lei federal, e não na Lei Orgânica do Ministério Público da União"*).
+> - **B)** Correta. O MPC-GO é instituição dotada de autonomia funcional e prerrogativas ministeriais, mas administrativamente vinculada ao TCE-GO (art. 130 da CF/88 e art. 30 da CE/GO), sem personalidade jurídica independente. Seus membros ingressam por concurso público específico de provas e títulos.
+> - **C)** Incorreta. O art. 130 da CF/88 estende expressamente aos membros do Ministério Público junto aos Tribunais de Contas as garantias, vedações e forma de investidura aplicáveis aos membros do Ministério Público da União e dos Estados (vitaliciedade, inamovibilidade e irredutibilidade).
+> - **D)** Incorreta. Conforme jurisprudência vinculante do STF (Súmula 353 e Tema 642): a legitimidade para execução judicial de título condenatório de Tribunal de Contas é da Fazenda Pública beneficiária (PGE ou PGM), e não do MPC.
+> - **E)** Incorreta. O Procurador-Geral de Contas é nomeado pelo Governador do Estado a partir de lista tríplice formada pelos membros do colegiado ministerial do MPC, conforme a Lei Orgânica do TCE-GO.
 >
-> **Gabarito: A**
-
----
-
-### Teste 008
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Jurídica)**
-Em uma situação concreta submetida à apreciação do Tribunal de Contas do Estado de Goiás, argumentou o ordenador de despesa de determinada estrutura estatal de poder que agira conforme a interpretação mais adequada do preceito constitucional X. Assim entendia porque, ao analisar o significante interpretado, deparou- se com uma pluralidade de significados que lhe poderiam ser atribuídos, influenciados por distintos vetores axiológicos presentes no ambiente sociopolítico, o que o levou a resolver a conflitualidade intrínseca que se apresentava nesse plano, e a atribuir o significado mais adequado aos distintos aspectos afetos ao caso concreto. A análise da linha argumentativa apresentada pelo ordenador de despesa permite afirmar corretamente que, consoante os balizamentos prevalecentes na realidade brasileira a respeito da interpretação constitucional
-
-* **A)** ao enveredar na própria atividade de criação do direito, usurpou uma atividade que é própria do Poder Legislativo.
-* **B)** a encampação de significados, amparados por vetores axiológicos, transmuda a interpretação, de atividade essencialmente cognoscitiva, em atividade inventiva, o que é vedado ao intérprete.
-* **C)** vetores axiológicos, embora concorram para o surgimento da Constituição formal, fruto do processo constituinte, não podem incursionar na definição da própria normatividade constitucional.
-* **D)** houve influência do pensamento problemático, mas não foi desconsiderada a constatação de que a norma é obtida a partir de um processo intelectivo conduzido pelo intérprete, que promove a interação entre o texto e o contexto.
-* **E)** ao privilegiar aspectos do problema concreto, o ordenador de despesa desconsiderou que a Constituição somente se harmoniza com a unicidade significativa, não podendo apresentar variações de significado em situações concretas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao enveredar na própria atividade de criação do direito, usurpou uma atividade que é própria do Poder Legislativo". De acordo com a teoria estudada em *2.4 Rito Constitucional de Sustação de Atos e Contratos Administrativos*, contrato Administrativo Ilegal (Ajuste firmado com terceiro particular): O Tribunal de Contas assina prazo para a regularização ou anulação do contrato. — A competência originária para sustar a execução do contrato é do PODER LEGISLATIVO (Assembleia Legislativa), que solicitará imediatamente ao Executivo as medidas. — Se o Legislativo ou o Executivo não adotarem as medidas no prazo de 90 dias, o próprio TRIBUNAL DE CONTAS decidirá a respeito da sustação.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a encampação de significados, amparados por vetores axiológicos, transmuda a interpretação, de atividade...". De acordo com a teoria estudada em *3.4 Estatuto dos Conselheiros: Garantias, Prerrogativas, Vedações e Foro*, vedações Expressas: É vedado ao Conselheiro exercer outro cargo ou função pública (ressalvada uma de magistério), dedicar se a atividade político partidária ou exercer a advocacia no Tribunal de que se afastou antes de decorridos 3 anos de seu afastamento (quarentena constitucional).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "vetores axiológicos, embora concorram para o surgimento da Constituição formal, fruto do processo constituinte...". De acordo com a teoria estudada em *4. Fontes Oficiais e Referências Bibliográficas*, constituição do Estado de Goiás Texto Compilado (Casa Civil/GO) Organização dos Poderes Estaduais e fiscalização pelo TCE GO (Arts. 25 a 33).
-> - **D)** **Correta.** Conforme fundamentado na seção *3.5 Ministério Público de Contas de Goiás (Art. 30 da CE/GO)* deste guia, é chefiado pelo Procurador Geral de Contas, nomeado pelo Governador do Estado a partir de lista tríplice eleita pelos integrantes da carreira para mandato com prazo legalmente fixado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "houve influência do pensamento problemático, mas não foi desconsiderada a constatação de que a norma é obtida a...".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "ao privilegiar aspectos do problema concreto, o ordenador de despesa desconsiderou que a Constituição somente se...". De acordo com a teoria estudada em *1.6 Estabilidade Constitucional e Hipóteses Taxativas de Perda do Cargo*, excesso de despesa com pessoal (Art. 169, § 4º da CF/88): Caso as despesas de pessoal superem os limites da Lei de Responsabilidade Fiscal e as medidas preliminares obrigatórias (redução de pelo menos 20% das despesas com comissionados e exoneração de todos os servidores não estáveis) se revelem insuficientes, o servidor estável poderá ser exonerado, fazendo jus a uma indenização equivalente a 1 (um) mês de remuneração por ano de serviço prestado.
->
-> **Gabarito: D**
-
----
-
-### Teste 009
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Jurídica)**
-Jeane é servidora de cargo efetivo no Estado de Goiás, mas decidiu se afastar, sem vencimentos, para dedicar-se integralmente aos estudos visando a aprovação no concurso público para o Tribunal de Contas do Estado de Goiás, instituição que almeja integrar como analista de controle externo. Sobre a situação de Jeane, e considerando os termos da Lei Complementar estadual nº 161/2020, marque a alternativa correta em relação ao período de afastamento.
-
-* **A)** Jeane terá, no período de afastamento, direito regular aos benefícios do RPPS/GO durante 6 (seis) meses, mesmo sem contribuir.
-* **B)** Para a servidora em questão ter direito aos benefícios do RPPS/GO, deverá recolher a contribuição previdenciária da parte do servidor.
-* **C)** Somente se Jeane recolher a contribuição previdenciária da parte do servidor e da patronal terá direito aos benefícios do RPPS/GO.
-* **D)** A Lei Complementar estadual nº 161/2020 condiciona o afastamento ou a licença ao pagamento antecipado da contribuição previdenciária da parte do servidor.
-* **E)** Jeane não poderá contribuir no período de afastamento porque não estará no exercício normal de suas atividades e, por isso, não terá direito aos benefícios do RPPS/GO.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Jeane terá, no período de afastamento, direito regular aos benefícios do RPPS/GO durante 6 (seis) meses, mesmo sem...". De acordo com a teoria estudada em *1.2 Provimento de Cargos, Concurso Público e Prazos*, direito Subjetivo à Nomeação: O STF fixou a tese com repercussão geral (Tema 161 RE 598.099) segundo a qual o candidato aprovado dentro do número de vagas expressamente previsto no edital possui direito público subjetivo à nomeação durante o prazo de vigência do certame, salvo situações excepcionalíssimas caracterizadas por superveniência, imprevisibilidade, gravidade e necessidade coletiva inadiável.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para a servidora em questão ter direito aos benefícios do RPPS/GO, deverá recolher a contribuição previdenciária...". De acordo com a teoria estudada em *1.5 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)*, vereador Municipal: Havendo compatibilidade: NÃO se afasta.<br/ Sem compatibilidade: Afasta se do cargo efetivo. — Com compatibilidade: Percebe as vantagens de seu cargo acumuladas com o subsídio de vereador.<br/ Sem compatibilidade: Aplica se a regra de Prefeito (afasta se e opta). — Mantém filiação previdenciária original e cômputo de tempo de serviço.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.5 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)* deste guia, mandato Eletivo Conquistado: Afastamento do Cargo Efetivo — Regra de Remuneração / Opção — Tempo de Serviço e Benefícios. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "Somente se Jeane recolher a contribuição previdenciária da parte do servidor e da patronal terá direito aos...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A Lei Complementar estadual nº 161/2020 condiciona o afastamento ou a licença ao pagamento antecipado da...". De acordo com a teoria estudada em *1.5 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)*, federal, Estadual ou Distrital (Deputado, Senador): Afastamento obrigatório do cargo, emprego ou função. — Recebe o subsídio do mandato político (não há faculdade de opção). — Conta para todos os efeitos legais, salvo promoção por merecimento.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Jeane não poderá contribuir no período de afastamento porque não estará no exercício normal de suas atividades e...". De acordo com a teoria estudada em *1.5 Exercício de Mandato Eletivo pelo Servidor Público (Art. 38)*, prefeito Municipal (ou Vice Prefeito em exercício executivo): Afastamento obrigatório do cargo, emprego ou função. — Facultado optar pela remuneração do cargo efetivo ou pelo subsídio de Prefeito. — Conta para todos os efeitos legais, salvo promoção por merecimento.
->
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 

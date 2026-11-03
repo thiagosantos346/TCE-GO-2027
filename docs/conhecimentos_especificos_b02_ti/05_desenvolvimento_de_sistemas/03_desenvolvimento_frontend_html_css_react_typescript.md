@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `03_desenvolvimento_frontend_html_css_react_typescript.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Desenvolvimento web: HTML5, CSS3 e TypeScript
@@ -163,6 +166,56 @@ As diretrizes WCAG (*Web Content Accessibility Guidelines*) da W3C são organiza
 
 ---
 
+### Teste 076
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No desenvolvimento de páginas governamentais com HTML5 aderentes às diretrizes de acessibilidade na Web (W3C / WCAG), assinale a afirmativa tecnicamente correta:  
+
+* **A)** O elemento `<article>` deve ser utilizado exclusivamente para criar tabelas de dados financeiros de auditoria, sendo vedado para artigos de texto.
+* **B)** O uso do atributo `tabindex="5"` é a prática recomendada para botões de submissão, pois garante que eles sempre recebam o foco antes de qualquer campo do formulário.
+* **C)** O elemento `<main>` deve encapsular o conteúdo central e específico do documento, não devendo ser duplicado em um mesmo documento exibido, e conteúdos que se repetem entre páginas (como cabeçalhos de topo e rodapés gerais) devem ficar fora dele.
+* **D)** As tags de agrupamento genérico `<div>` e `<span>` possuem semântica rica superior às tags `<section>` e `<nav>`, sendo preferíveis pelos leitores de tela.
+* **E)** O atributo `aria-hidden="true"` instrui os navegadores a ocultar o elemento visualmente na tela para usuários videntes, mas mantém sua leitura intacta para deficientes visuais em leitores de tela.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O elemento `<article>` representa conteúdo editorial autônomo, autocontido e reutilizável (artigos, postagens, acórdãos, notícias), não se limitando a tabelas financeiras.
+> - **B)** Incorreta. O uso de valores positivos no atributo `tabindex` é considerado um antipadrão pelo W3C, pois desorganiza a navegação sequencial lógica pelo teclado.
+> - **C)** **CORRETA.** Pela especificação oficial W3C/WHATWG, `<main>` encapsula o conteúdo predominante e exclusivo da página. Deve haver no máximo um elemento `<main>` visível no documento e blocos estruturais repetitivos entre várias páginas (cabeçalhos globais, rodapés institucionais) devem permanecer fora dele.
+> - **D)** Incorreta. `<div>` e `<span>` são tags neutras destituídas de semântica; tags semânticas como `<section>` e `<nav>` estabelecem marcos acessíveis essenciais para leitores de tela.
+> - **E)** Incorreta. `aria-hidden="true"` produz o efeito exatamente inverso: esconde o elemento de tecnologias assistivas e leitores de tela, mantendo sua visibilidade na tela para usuários videntes.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 077
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+As diretrizes de acessibilidade para conteúdo web (WCAG 2.1) e a especificação WAI-ARIA definem normas e atributos semânticos para tornar aplicações web acessíveis a pessoas com deficiência. Em relação a essas normas, é correto afirmar:
+
+* **A)** O atributo `alt` em elementos `<img>` deve ser sempre preenchido com textos genéricos como "imagem" ou "foto" para atender ao critério de acessibilidade.
+* **B)** O atributo `aria-label` permite fornecer um rótulo textual acessível a leitores de tela para elementos interativos que não possuem texto visível na interface (como botões representados apenas por ícones).
+* **C)** O atributo `aria-hidden="true"` força o elemento a ser lido prioritariamente em voz alta por leitores de tela.
+* **D)** As WCAG preconizam que o contraste entre texto e fundo deve ser o menor possível para não ofuscar a visão do usuário.
+* **E)** Aplicações web acessíveis são proibidas de permitir navegação por teclado, exigindo uso exclusivo de mouses de alta precisão.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O texto alternativo `alt` deve descrever o significado ou função da imagem; textos genéricos como "imagem" prejudicam a acessibilidade. Imagens puramente decorativas devem usar `alt=""`.
+> - **B) Correta.** O `aria-label` define uma cadeia de texto que rotula o elemento interativo diretamente para tecnologias assistivas (*screen readers*), suprindo a ausência de texto visual direto.
+> - **C) Incorreta.** O `aria-hidden="true"` oculta o elemento e seus descendentes dos leitores de tela.
+> - **D) Incorreta.** A WCAG exige taxa de contraste mínima (ex: 4.5:1 para texto normal no nível AA) para garantir legibilidade.
+> - **E) Incorreta.** O acesso completo a todas as funcionalidades por meio do teclado é um dos princípios basilares de acessibilidade (Operável).
+>
+> **Gabarito: B**
+
+---
+
 ## 2. Estilização com CSS3
 
 ### 2.1 Cascata, Seletores e Cálculo de Especificidade CSS
@@ -292,6 +345,110 @@ Diferentemente do Flexbox, o CSS Grid (`display: grid`) é um sistema **bidimens
 
 ---
 
+### Teste 078
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere as seguintes regras de estilização declaradas em um arquivo CSS3 externo para formatar um mesmo elemento de título em uma página web:
+
+```css
+/* Regra 1 */
+h1 { color: red; }
+
+/* Regra 2 */
+#titulo-destaque { color: blue; }
+
+/* Regra 3 */
+.cabecalho .titulo { color: green; }
+
+/* Regra 4 */
+div#secao-principal h1.titulo { color: purple; }
+```
+
+Assumindo o fragmento HTML abaixo:
+
+```html
+<div id="secao-principal" class="cabecalho">
+  <h1 id="titulo-destaque" class="titulo">Relatório de Conformidade</h1>
+</div>
+```
+
+A cor final com que o texto do título `Relatório de Conformidade` será renderizado na tela do navegador e o motivo técnico dessa escolha são:  
+
+* **A)** Azul, porque o seletor com o identificador direto `#titulo-destaque` possui a maior especificidade absoluta entre todas as regras.
+* **B)** Vermelho, porque a Regra 1 é mais genérica e o navegador sempre prioriza seletores de tag simples para garantir padronização tipográfica.
+* **C)** Roxo (*purple*).
+* **D)** Verde, porque a Regra 3 é a penúltima declarada e as classes sobrepõem identificadores únicos no CSS3 moderno.
+* **E)** Roxo (*purple*), porque a regra foi escrita na última linha do arquivo CSS e o desempate na cascata dá vitória estrita à regra de menor número de seletores.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A Regra 2 possui peso de especificidade $(0, 1, 0, 0)$ (1 ID), mas é superada pela Regra 4 que soma o mesmo ID mais uma classe e duas tags.
+> - **B)** Incorreta. Seletores de tag simples possuem o menor nível de prioridade na cascata $(0, 0, 0, 1)$.
+> - **C)** **CORRETA.** Cálculo da pontuação quádrupla de especificidade da W3C `(Inline, IDs, Classes/Atributos/Pseudo-classes, Elementos)`:
+>     - Regra 1 (`h1`): $(0, 0, 0, 1)$ = Peso 1.
+>     - Regra 2 (`#titulo-destaque`): $(0, 1, 0, 0)$ = Peso 100.
+>     - Regra 3 (`.cabecalho .titulo`): $(0, 0, 2, 0)$ = Peso 20.
+>     - Regra 4 (`div#secao-principal h1.titulo`): $(0, 1, 1, 2)$ = Peso 112 (1 ID, 1 classe, 2 elementos).
+>   Comparando a Regra 2 contra a Regra 4: ambas empatam na coluna de IDs com valor 1; na coluna seguinte (classes), a Regra 4 possui 1 e a Regra 2 possui 0. Logo, a Regra 4 vence e o elemento será exibido em **roxo (*purple*)**.
+> - **D)** Incorreta. Classes jamais superam seletores com ID na ausência de `!important`.
+> - **E)** Incorreta. A ordem física de linhas no arquivo só atua como critério de desempate se as duas regras conflitantes apresentarem rigorosamente a mesma pontuação de especificidade.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 079
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No modelo de caixa do CSS3 (*Box Model*), a propriedade `box-sizing` altera a forma como a largura (*width*) e a altura (*height*) totais de um elemento HTML são calculadas no layout da página. Ao aplicar a regra `box-sizing: border-box;` a um elemento com `width: 300px; padding: 20px; border: 5px solid black;`, tem-se que:
+
+* **A)** A largura total renderizada do elemento será de 350px, somando o conteúdo, os paddings e as bordas.
+* **B)** A largura total renderizada do elemento permanecerá exatamente em 300px, sendo o padding e a borda absorvidos internamente no espaço total especificado.
+* **C)** O navegador ignorará o padding e exibirá o conteúdo com largura de 300px e borda invisível.
+* **D)** A propriedade `border-box` elimina a margem externa (*margin*) do elemento em todas as resoluções.
+* **E)** O elemento será renderizado com largura infinita por colapso do modelo de renderização.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Esse cálculo ($300 + 20 + 20 + 5 + 5 = 350\text{px}$) ocorreria no modelo tradicional `content-box`.
+> - **B) Correta.** Com `box-sizing: border-box`, a largura total do elemento na tela respeita rigorosamente o valor declarado em `width` (300px); o padding (20px de cada lado) e a borda (5px de cada lado) são deduzidos da área interna do conteúdo, que passa a ter $300 - 40 - 10 = 250\text{px}$.
+> - **C) Incorreta.** O padding e a borda são exibidos normalmente.
+> - **D) Incorreta.** O `border-box` afeta conteúdo, padding e borda; as margens (*margins*) continuam externas.
+> - **E) Incorreta.** Afirmação sem fundamento técnico.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 080
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No módulo CSS Flexible Box Layout (*Flexbox*), para alinhar os itens filhos (*flex items*) ao longo do eixo transversal ou cruzado (*cross axis*) dentro do contêiner flexível, utiliza-se no elemento pai a propriedade:
+
+* **A)** `justify-content`
+* **B)** `align-items`
+* **C)** `flex-direction`
+* **D)** `flex-wrap`
+* **E)** `order`
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** `justify-content` alinha os itens ao longo do eixo principal (*main axis*).
+> - **B) Correta.** `align-items` define o alinhamento padrão dos itens ao longo do eixo transversal (*cross axis*) perpendicular ao eixo principal.
+> - **C) Incorreta.** `flex-direction` define a orientação do eixo principal (`row`, `column`, etc.).
+> - **D) Incorreta.** `flex-wrap` controla se os itens quebram linha ou permanecem em linha única.
+> - **E) Incorreta.** `order` é aplicada nos itens filhos para reordenar a sequência de renderização.
+>
+> **Gabarito: B**
+
+---
+
 ## 3. TypeScript: Tipagem Estática no Front-end
 
 ### 3.1 Arquitetura, Transpilação e o Arquivo `tsconfig.json`
@@ -379,6 +536,92 @@ O TypeScript inclui um conjunto poderoso de utilitários de transformação de t
 | **`Omit<T, K>`** | Constrói um tipo contendo todas as propriedades de `T` **exceto `K`**. | `Omit<Usuario, "senhaHash">` |
 | **`Record<K, T>`** | Constrói um tipo de objeto mapeando chaves do tipo `K` para valores `T`. | `Record<string, Auditor>` (dicionários chave-valor) |
 | **`Exclude<T, U>`** | Exclui de uma união `T` todos os tipos que são atribuíveis a `U`. | `Exclude<"a" \| "b" \| "c", "a">` $\rightarrow$ `"b" \| "c"` |
+
+---
+
+### Teste 081
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na linguagem TypeScript, os tipos especiais `any` e `unknown` fornecem suporte a valores cujos tipos não são conhecidos a priori. A diferença crucial de segurança de tipos (*type safety*) entre `any` e `unknown` consiste em:
+
+* **A)** `any` força a checagem rigorosa de tipos pelo compilador, enquanto `unknown` desativa todas as regras de tipagem estática.
+* **B)** variáveis tipadas como `unknown` não permitem a invocação direta de métodos ou acesso a propriedades sem que ocorra previamente uma verificação ou refinamento de tipo (*type narrowing*), ao passo que variáveis tipadas como `any` desabilitam completamente a checagem do compilador.
+* **C)** `unknown` só pode armazenar valores booleanos primitivos, enquanto `any` aceita qualquer objeto.
+* **D)** o TypeScript não aceita atribuição de novos valores a variáveis do tipo `unknown`.
+* **E)** variáveis do tipo `any` são convertidas automaticamente para `never` em tempo de execução.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** É exatamente o inverso: `any` desliga a checagem do compilador.
+> - **B) Correta.** `unknown` é o tipo seguro (*type-safe counterpart of any*): qualquer valor pode ser atribuído a `unknown`, mas você não pode chamar métodos nele nem passá-lo a funções tipadas sem antes estreitar o tipo (*type narrowing* via `typeof`, `instanceof` etc.). Já o `any` desabilita todas as checagens do compilador.
+> - **C) Incorreta.** `unknown` aceita qualquer valor.
+> - **D) Incorreta.** Reatribuição é permitida em `unknown`.
+> - **E) Incorreta.** Em tempo de execução, os tipos do TypeScript são apagados (*type erasure*).
+>
+> **Gabarito: B**
+
+---
+
+### Teste 082
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No ecossistema TypeScript, desenvolvedores podem declarar formatos estruturais utilizando `interface` ou `type` (*type alias*). Um recurso exclusivo das `interfaces` que não é suportado por `type aliases` é:
+
+* **A)** A declaração de propriedades opcionais com `?`.
+* **B)** A mesclagem automática de declarações (*declaration merging*), permitindo que múltiplas declarações de uma interface com o mesmo identificador sejam unificadas em uma única interface composta.
+* **C)** A criação de uniões de tipos primitivos utilizando o operador `|`.
+* **D)** A compatibilidade com tipagem estática em tempo de compilação.
+* **E)** O suporte a parâmetros genéricos.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Ambos suportam propriedades opcionais (`prop?: string`).
+> - **B) Correta.** Se você declarar duas interfaces com o mesmo nome no mesmo escopo, o TypeScript mescla seus atributos (*declaration merging*). Já tentar redeclarar um `type` com o mesmo nome resulta em erro de compilação (*Duplicate identifier*).
+> - **C) Incorreta.** A união de tipos com `|` é suportada nativamente por `type` (*type alias*), mas não pode ser a base de uma `interface`.
+> - **D) Incorreta.** Ambos oferecem tipagem estática.
+> - **E) Incorreta.** Ambos suportam *Generics*.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 083
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na linguagem TypeScript, suponha que exista a definição do seguinte tipo base:
+
+```typescript
+type ProcessoAuditoria = {
+  id: number;
+  codigoFiscal: string;
+  relator: string;
+  valorGlosa: number;
+};
+```
+
+Para declarar um novo tipo derivado denominado `ProcessoEdicao`, que contenha rigorosamente todas as propriedades de `ProcessoAuditoria`, porém com todas elas definidas como **opcionais** (isto é, marcadas com `?`), deve-se utilizar o Utility Type:  
+
+* **A)** `Required<ProcessoAuditoria>`
+* **B)** `Readonly<ProcessoAuditoria>`
+* **C)** `Partial<ProcessoAuditoria>`
+* **D)** `Omit<ProcessoAuditoria, "id">`
+* **E)** `Record<string, ProcessoAuditoria>`
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O tipo utilitário `Required<T>` executa a transformação inversa: remove todas as interrogações `?`, tornando todas as propriedades estritamente obrigatórias.
+> - **B)** Incorreta. `Readonly<T>` torna as propriedades imutáveis (somente leitura), mas não as transforma em opcionais.
+> - **C)** **CORRETA.** `Partial<T>` itera sobre todas as chaves do tipo `T` e aplica o modificador `?`, resultando em `{ id?: number; codigoFiscal?: string; relator?: string; valorGlosa?: number; }`, exatamente conforme solicitado no enunciado.
+> - **D)** Incorreta. `Omit<T, K>` constrói um novo tipo removendo uma ou mais chaves específicas indicadas em `K`, preservando o estado obrigatório das restantes.
+> - **E)** Incorreta. `Record<K, T>` é empregado para criar dicionários onde as chaves são do tipo `K` e os valores associados pertencem ao tipo `T`.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -515,51 +758,103 @@ const handleClick = useCallback(() => { enviarAuditoria(id); }, [id]);
 
 ---
 
-### Teste 001
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
-Silvia está desenvolvendo o front-end do novo sistema de ordens de serviço de sua empresa, onde foi especificado o uso do framework Angular no projeto. A nova interface utilizará o roteamento do Angular e, para incluir o componente da rota corrente no template HTML da tela principal, Silvia irá definir a área de apresentação através de uma tag:
+### Teste 084
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na biblioteca React, ao iterar sobre uma lista de dados para renderizar múltiplos componentes utilizando a função `.map()`, os desenvolvedores devem obrigatoriamente fornecer a propriedade especial `key` para cada item retornado.
 
-* **A)** pathMatch;
-* **B)** router-outlet;
-* **C)** snapshot;
-* **D)** nav;
-* **E)** routerLink.
+A respeito do propósito e do funcionamento da propriedade `key` no algoritmo de reconciliação do React, assinale a afirmativa correta:  
+
+* **A)** A `key` serve unicamente para estilização visual via CSS, sendo convertida em uma classe HTML automática no DOM real.
+* **B)** O React utiliza a `key` para identificar de forma estável quais elementos da lista foram alterados, adicionados ou removidos entre renderizações, permitindo atualizar apenas os nós do DOM que sofreram modificação efetiva.
+* **C)** O uso do índice do array (`key={index}`) é a estratégia oficial recomendada pela Meta para listas dinâmicas com operações frequentes de ordenação e inserção no início da fila.
+* **D)** As chaves `key` devem ser obrigatoriamente números inteiros sequenciais gerados aleatoriamente com `Math.random()` a cada ciclo de renderização.
+* **E)** A propriedade `key` é repassada automaticamente pelo React para o componente filho como uma prop ordinária, podendo ser acessada livremente no código filho via `props.key`.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pathMatch". De acordo com a teoria estudada em *2.3 Layouts Flexíveis com Flexbox (Unidimensional)*, justify content : Alinha os itens ao longo do eixo principal ( flex start , flex end , center , space between , space around , space evenly ).
-> - **B)** **Correta.** Conforme fundamentado na seção *2.5 Design Responsivo, Mobile-First e Unidades de Medida* deste guia, abordagem Mobile First: Metodologia onde a folha de estilos base é desenvolvida primeiramente para telas pequenas (smartphones). As adaptações para telas maiores são adicionadas incrementalmente através de Media Queries com min width. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "router outlet".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "snapshot". De acordo com a teoria estudada em *A Pontuação Quádrupla da W3C `(a, b, c, d)`*, $a$ (Inline): Estilos aplicados diretamente no atributo style="" da tag HTML ($1, 0, 0, 0$).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nav". De acordo com a teoria estudada em *1.2 Elementos Semânticos e Seccionamento de Conteúdo*, n["&lt;nav&gt; Navegação Principal da Aplicação"].
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "routerLink". De acordo com a teoria estudada em *1.2 Elementos Semânticos e Seccionamento de Conteúdo*, <main : Encapsula o conteúdo central, específico e exclusivo do documento <body . Regra da W3C: Deve existir apenas um único elemento <main visível por página. Conteúdos que se repetem de forma idêntica em múltiplas páginas do sistema (barras de navegação globais, logos de topo, termos de uso no rodapé) não podem ser inseridos dentro do <main.
->
+> - **A)** Incorreta. A `key` é consumida pelo motor de reconciliação do React em memória; ela não é renderizada como atributo CSS nem classe no DOM real.
+> - **B)** **CORRETA.** A propriedade `key` atribui uma identidade estável e unívoca a cada elemento da coleção entre diferentes ciclos de renderização. Isso viabiliza que o algoritmo de reconciliação (*diffing*) identifique com precisão inserções, exclusões e reordenações, reaproveitando nós do DOM real e atualizando apenas o conteúdo estritamente necessário.
+> - **C)** Incorreta. Usar o índice do array como chave em listas sujeitas a filtros, reordenação ou inserções intermediárias constitui uma grave má prática, pois induz o React a reaproveitar estados de instâncias incorretas.
+> - **D)** Incorreta. Chaves randômicas com `Math.random()` alteram-se a cada renderização, provocando a destruição e recriação forçada de toda a árvore DOM da lista a cada instante.
+> - **E)** Incorreta. Trata-se de uma pegadinha clássica: `key` e `ref` são propriedades reservadas do React e não são acessíveis dentro do componente filho através de `props.key`.
+> 
 > **Gabarito: B**
 
 ---
 
-### Teste 002
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
-No cronograma de implementação de um novo portal do cidadão, o Auditor identifica duas tarefas: “A - Configurar Servidores” (4 dias) e “B - Desenvolver Front-end” (6 dias). Ambas começam no dia 1. A tarefa “C - Testes Integrados” (2 dias) só pode começar após A e B terminarem. Assinale a opção que indica a folga da tarefa A e a tarefa que pertence ao Caminho Crítico desse projeto.
+### Teste 085
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em uma aplicação desenvolvida com a biblioteca React utilizando componentes funcionais e Hooks, um programador implementou a seguinte rotina para sincronizar uma listagem de auditorias fiscais com o servidor backend:
 
-* **A)** Folga de 2 dias para a tarefa A; tarefa B pertence ao Caminho Crítico.
-* **B)** Folga de 0 dias para a tarefa A; tarefa A pertence ao Caminho Crítico.
-* **C)** Folga de 1 dia para a tarefa B; tarefas A e C pertencem ao Caminho Crítico.
-* **D)** Folga de 4 dias para a tarefa A; tarefa C não pertence ao Caminho Crítico.
-* **E)** Todas as tarefas possuem folga zero; não há tarefa que pertença ao Caminho Crítico.
+```jsx
+function PainelFiscal() {
+  const [processos, setProcessos] = useState([]);
+
+  useEffect(() => {
+    fetch("/api/processos")
+      .then(res => res.json())
+      .then(dados => setProcessos(dados));
+  });
+
+  return <div>{processos.length} processos carregados</div>;
+}
+```
+
+Ao executar essa aplicação no navegador, o comportamento verificado pelo desenvolvedor é:  
+
+* **A)** A requisição à API é disparada apenas uma única vez na montagem da tela, funcionando de forma perfeitamente otimizada.
+* **B)** Ocorre um laço infinito de renderizações (*infinite loop*), provocando sucessivas requisições HTTP e congelamento da interface do usuário.
+* **C)** O React emite um erro de compilação em tempo de execução porque funções assíncronas não são permitidas dentro de componentes funcionais.
+* **D)** A lista de processos jamais será atualizada porque o Hook `useState` não dispara re-renderização quando recebe arrays de dados.
+* **E)** A requisição HTTP falha compulsoriamente devido à falta do cabeçalho de acessibilidade `aria-live` no elemento `<div>`.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Estrutura Básica do Documento e Metatags Essenciais* deste guia, <title Portal do TCE GO</title. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Folga de 2 dias para a tarefa A; tarefa B pertence ao Caminho Crítico".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Folga de 0 dias para a tarefa A; tarefa A pertence ao Caminho Crítico". De acordo com a teoria estudada em *3.1 Arquitetura, Transpilação e o Arquivo `tsconfig.json`*, tsconfig.json : Arquivo de configuração raiz do projeto TypeScript. Opções cruciais.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Folga de 1 dia para a tarefa B; tarefas A e C pertencem ao Caminho Crítico". De acordo com a teoria estudada em *3.2 Sistema de Tipos: Primitivos e Tipos Especiais (`any`, `unknown`, `never`, `void`)*, void : Indica que uma função não retorna nenhum valor utilizável. — Sim — Não.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Folga de 4 dias para a tarefa A; tarefa C não pertence ao Caminho Crítico". De acordo com a teoria estudada em *1.3 Formulários Modernos e Validação Nativa*, o HTML5 modernizou a coleta de dados com novos tipos semânticos de <input e atributos de validação integrados no próprio navegador, dispensando scripts JavaScript complexos para validações básicas.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Todas as tarefas possuem folga zero; não há tarefa que pertença ao Caminho Crítico". De acordo com a teoria estudada em *Utility Types Nativos*, readonly<T : Torna todas as propriedades de T imutáveis (somente leitura). — Impede reatribuição: p.status = "NOVO" dá erro de compilação.
+> - **A)** Incorreta. Para que o `useEffect` fosse executado estritamente na montagem inicial do componente, seria mandatório declarar um vetor de dependências vazio `[]` como segundo argumento.
+> - **B)** **CORRETA.** Passo a passo do laço infinito gerado:
+>     1. O desenvolvedor omitiu o array de dependências do `useEffect`.
+>     2. No React, um `useEffect` sem o segundo parâmetro executa na montagem e **após cada re-renderização** do componente.
+>     3. Na montagem, o callback do efeito executa e dispara o `fetch`.
+>     4. Ao receber os dados, executa `setProcessos(dados)`.
+>     5. Atualizar o estado do componente agenda imediatamente uma nova renderização.
+>     6. Ao renderizar novamente, o `useEffect` roda outra vez, disparando outro `fetch`, que chama `setProcessos`, gerando um ciclo sem fim que sobrecarrega a rede e trava o navegador.
 >
-> **Gabarito: A**
+> - **C)** Incorreta. O React suporta plenamente o consumo de chamadas assíncronas dentro do `useEffect`. O defeito é puramente de lógica do ciclo de dependências.
+> - **D)** Incorreta. O `useState` agenda re-renderização para qualquer alteração de estado disparada pela função modificadora.
+> - **E)** Incorreta. O atributo `aria-live` é voltado à tecnologia assistiva de acessibilidade e não exerce influência sobre o tráfego HTTP.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 086
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na biblioteca React (versões 16.8+ baseadas em Hooks), a otimização de performance e a manipulação de instâncias mutáveis utilizam hooks especializados. A correta distinção conceitual entre `useMemo`, `useCallback` e `useRef` estabelece que:
+
+* **A)** `useMemo` memoriza a referência de uma função, `useCallback` memoriza o valor de retorno calculado de uma função, e `useRef` força uma nova renderização imediata do componente sempre que seu atributo `.current` é modificado.
+* **B)** `useMemo` armazena em cache o resultado computacional de uma função cara evitando recálculos desnecessários; `useCallback` memoriza a própria instância da definição de uma função entre renderizações; e `useRef` cria um objeto mutável persistente cuja propriedade `.current` pode ser alterada sem disparar nova renderização do componente.
+* **C)** todos os três hooks são executados exclusivamente após a aplicação ser desinstalada da máquina do cliente.
+* **D)** `useRef` só pode ser utilizado para conectar a aplicação ao banco de dados PostgreSQL.
+* **E)** `useCallback` recalcula o valor sempre que qualquer componente irmão for renderizado no Virtual DOM.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Houve inversão entre `useMemo` (retorna valor calculado) e `useCallback` (retorna função memorizada), e alterar `.current` de `useRef` *não* dispara re-render.
+> - **B) Correta.** Síntese técnica perfeita dos três hooks de performance e estado persistente: `useMemo` memoriza valores calculados; `useCallback` memoriza referências de funções; `useRef` retém referências mutáveis a elementos do DOM ou valores sem desencadear re-renderização.
+> - **C) Incorreta.** Afirmação absurda.
+> - **D) Incorreta.** `useRef` opera no lado cliente do React.
+> - **E) Incorreta.** `useCallback` só recria a função se as variáveis declaradas no seu array de dependências mudarem.
+>
+> **Gabarito: B**
 
 ---
 

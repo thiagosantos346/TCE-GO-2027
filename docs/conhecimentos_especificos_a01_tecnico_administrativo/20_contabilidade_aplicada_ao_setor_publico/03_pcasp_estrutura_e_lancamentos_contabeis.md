@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `03_pcasp_estrutura_e_lancamentos_contabeis.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -89,27 +92,30 @@ Para conciliar o modelo contábil patrimonial moderno com as exigências legais 
 
 ---
 
-### Teste 001
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
-O Plano de Contas Aplicado ao Setor Público (PCASP) elenca alguns tipos de provisões, que estão apresentadas a seguir, à exceção de uma. Assinale-a.
+### Teste 280
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No Plano de Contas Aplicado ao Setor Público (PCASP), as contas contábeis do ativo e do passivo recebem atributos que identificam sua natureza e vinculação orçamentária e financeira, destacando-se o atributo **F/P** (Financeiro / Permanente).
 
-* **A)** Para riscos cíveis.
-* **B)** Para riscos fiscais.
-* **C)** Para riscos trabalhistas.
-* **D)** Para crédito de liquidação duvidosa.
-* **E)** Para repartição de créditos tributários.
+A esse respeito, é correto afirmar:
+
+* **A)** O atributo Financeiro (F) indica que a conta compreende créditos e obrigações cuja arrecadação ou pagamento independe de autorização orçamentária, servindo de base para a apuração do superávit financeiro da Lei nº 4.320/1964.
+* **B)** O atributo Permanente (P) é atribuído exclusivamente às contas bancárias que integram a Conta Única do Tesouro Nacional.
+* **C)** Todas as contas do patrimônio líquido recebem o atributo financeiro para possibilitar a imediata liquidação de passivos contingentes.
+* **D)** O atributo financeiro e permanente foi totalmente extinto pelas normas internacionais de contabilidade (IPSAS), sendo vedada sua utilização pelo PCASP.
+* **E)** As disponibilidades de caixa possuem atributo permanente por estarem vinculadas às leis orçamentárias futuras.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para riscos cíveis". De acordo com a teoria estudada em *5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)*, est1 Est2["ESTÁGIO 2: LIQUIDAÇÃO (Atesto / Recebimento)<br/ • Subsistema Orçamentário:<br/ D: 6.2.2.1.3 Crédito Empenhado a Liquidar<br/ C: 6.2.2.1.4 Crédito Empenhado Liquidado a Pagar<br/ • Subsistema Patrimonial:<br/ D: 3.X (VPD Consumo) OU 1.2 (Ativo Imobilizado)<br/ C: 2.1.3.X Fornecedores a Pagar (Passivo Circulante)"].
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para riscos fiscais". De acordo com a teoria estudada em *5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)*, est2 Est3["ESTÁGIO 3: PAGAMENTO (Ordem Bancária)<br/ • Subsistema Orçamentário:<br/ D: 6.2.2.1.4 Crédito Empenhado Liquidado a Pagar<br/ C: 6.2.2.1.5 Crédito Empenhado Pago<br/ • Subsistema Patrimonial:<br/ D: 2.1.3.X Fornecedores a Pagar (Baixa da Obrigação)<br/ C: 1.1.1.1 Caixa e Equivalentes de Caixa (Conta Única)"].
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para riscos trabalhistas". De acordo com a teoria estudada em *1.1 Objetivos Centrais e Abrangência Federativa Obrigatória*, o Plano de Contas Aplicado ao Setor Público (PCASP) é a espinha dorsal da escrituração contábil e orçamentária governamental no Brasil. Instituído pela Secretaria do Tesouro Nacional (STN) e pelo Conselho Federal de Contabilidade (CFC), tem aplicação obrigatória em todos os entes da Federação (União, Estados, Distrito Federal e Municípios) e abrange todos os Poderes (Executivo, Legislativo e Judiciário), além do Ministério Público e dos Tribunais de Contas.
-> - **D)** **Correta.** Conforme fundamentado na seção *5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)* deste guia, desp Est1["ESTÁGIO 1: EMPENHO<br/ • Subsistema Orçamentário:<br/ D: 6.2.2.1.1 Crédito Disponível<br/ C: 6.2.2.1.3 Crédito Empenhado a Liquidar<br/ • Subsistema Patrimonial: NENHUM REGISTRO!"]. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Para crédito de liquidação duvidosa".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para repartição de créditos tributários". De acordo com a teoria estudada em *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)*, d 1.1.2.X Créditos Tributários a Receber (Ativo Circulante).
->
-> **Gabarito: D**
+> - **A)** Correta. O art. 105 da Lei nº 4.320/1964 e o PCASP definem: o **Atributo Financeiro (F)** identifica as contas do Ativo e Passivo Financeiro cujas entradas ou saídas financeiras independem de autorização orçamentária ou decorrem de saldos orçamentários já autorizados (ex.: caixa, bancos, restos a pagar, depósitos de terceiros). Essas contas alimentam a apuração do superávit financeiro do art. 43, § 2º. O **Atributo Permanente (P)** identifica bens, créditos e obrigações que dependem de autorização orçamentária para alienação ou quitação de longo prazo.
+> - **B)** Incorreta. Contas bancárias e disponibilidades recebem atributo Financeiro (F).
+> - **C)** Incorreta. O atributo F/P aplica-se ao Ativo (Classe 1) e Passivo (Classe 2), não ao Patrimônio Líquido.
+> - **D)** Incorreta. O PCASP manteve obrigatoriamente os atributos F/P para compatibilizar o balanço patrimonial com a Lei nº 4.320/1964.
+> - **E)** Incorreta. Caixa e bancos são a expressão máxima do atributo financeiro.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -146,6 +152,33 @@ flowchart LR
 
 ---
 
+### Teste 281
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A estrutura codificada das contas contábeis no PCASP é padronizada nacionalmente pela Secretaria do Tesouro Nacional (STN) em níveis de desdobramento.
+
+Sobre a estrutura padronizada das contas no PCASP, assinale a opção correta:
+
+* **A)** Os primeiros níveis da codificação (Classe, Grupo, Subgrupo e Título) são de padronização nacional e de adoção obrigatória por todos os entes da Federação (União, Estados, DF e Municípios).
+* **B)** Cada Estado e Município é livre para alterar a numeração das Classes de contas, podendo designar a Classe 1 para Despesas e a Classe 2 para Receitas.
+* **C)** O PCASP é facultativo para os Tribunais de Contas e órgãos do Poder Judiciário, que podem utilizar planos de contas próprios do direito privado.
+* **D)** O código da conta no PCASP possui 3 dígitos decimais no padrão internacional das normas IFRS.
+* **E)** Os níveis de Subtítulo e Item de detalhamento não admitem nenhuma adaptação ou criação de contas pelas entidades federadas.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A estrutura federativa do PCASP padroniza obrigatoriamente os níveis superiores (Classe, Grupo, Subgrupo, Título e Subtítulo) para assegurar a comparabilidade nacional e a consolidação das contas públicas (BSN e SICONFI).
+> - **B)** Incorreta. As Classes 1 a 8 são rígidas e imutáveis em todo o território nacional.
+> - **C)** Incorreta. O PCASP é de adoção compulsória por todos os Poderes e órgãos de todas as esferas federativas.
+> - **D)** Incorreta. O código estruturado do PCASP é composto por 7 níveis padronizados (`X.X.X.X.X.XX.XX`).
+> - **E)** Incorreta. Os níveis inferiores mais analíticos podem ser detalhados pelos entes conforme suas peculiaridades de controle.
+> 
+> **Gabarito: A**
+
+---
+
 ## 3. Os Três Subsistemas de Informação Contábil e Regra da Autonomia
 
 O PCASP estrutura a contabilidade em três subsistemas autônomos e integrados:
@@ -178,6 +211,33 @@ Destina-se ao registro e monitoramento dos **atos potenciais** praticados pela a
 > - Uma conta do Subsistema Orçamentário (Classes 5 e 6) **SEMPRE fecha com outra conta do Subsistema Orçamentário**;  
 > - Uma conta do Subsistema de Controle (Classes 7 e 8) **SEMPRE fecha com outra conta do Subsistema de Controle**!  
 > **JAMAIS** ocorrerá lançamento contábil direto debitando uma conta orçamentária (ex.: Classe 6) e creditando uma conta patrimonial (ex.: Classe 1). Lançamentos cruzados entre subsistemas são terminantemente vedados pelo MCASP!
+
+---
+
+### Teste 282
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O PCASP estrutura as contas em três grandes subsistemas contábeis autônomos de informação: **Patrimonial**, **Orçamentário** e **de Controle**.
+
+A respeito do princípio da autonomia dos subsistemas no PCASP, é correto afirmar:
+
+* **A)** O método das partidas dobradas deve ser respeitado internamente em cada um dos subsistemas contábeis, de tal forma que um lançamento a débito em conta de subsistema orçamentário deve ter sua contrapartida a crédito em outra conta do mesmo subsistema orçamentário.
+* **B)** É lícito efetuar um débito no subsistema orçamentário (Classe 6) tendo como contrapartida direta um crédito no subsistema patrimonial (Classe 1).
+* **C)** O subsistema de controle destina-se unicamente ao registro dos saldos bancários e do ativo disponível.
+* **D)** O subsistema patrimonial engloba as Classes 5 e 6 do PCASP para registrar a previsão da receita e fixação da despesa.
+* **E)** As contas de compensação do subsistema de controle foram abolidas e substituídas pelo balanço financeiro.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **Regra da Autonomia dos Subsistemas** estabelece que o fechamento das partidas dobradas ocorre dentro de cada subsistema: débitos no subsistema patrimonial fecham com créditos no subsistema patrimonial; débitos no orçamentário fecham com créditos no orçamentário; e débitos no controle fecham com créditos no controle. Jamais se cruza débito de uma classe orçamentária com crédito de classe patrimonial.
+> - **B)** Incorreta. Viola frontalmente a regra de autonomia e isolamento dos subsistemas no PCASP.
+> - **C)** Incorreta. O subsistema de controle (classes 7 e 8) registra atos potenciais (contratos, garantias, convênios) e controles específicos.
+> - **D)** Incorreta. O subsistema patrimonial engloba as Classes 1, 2, 3 e 4. Classes 5 e 6 pertencem ao subsistema orçamentário.
+> - **E)** Incorreta. O subsistema de controle (Classes 7 e 8) é amplamente ativo e estruturante no PCASP.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -222,6 +282,56 @@ flowchart TD
 | **6** | **Execução do Orçamento** | Orçamentário | **Credora** | Acompanhamento da receita arrecadada e despesa executada. |
 | **7** | **Controles Devedores** | Controle | **Devedora** | Registro de atos potenciais ativos e DDR a executar. |
 | **8** | **Controles Credores** | Controle | **Credora** | Registro de atos potenciais passivos e DDR executada. |
+
+---
+
+### Teste 283
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Assinale a alternativa que apresenta a correta associação entre a classe de contas do PCASP, seu subsistema de informação e sua respectiva natureza de saldo:
+
+* **A)** Classe 1 (Ativo) – Subsistema Patrimonial – Natureza Credora.
+* **B)** Classe 4 (Variações Patrimoniais Aumentativas) – Subsistema Patrimonial – Natureza Devedora.
+* **C)** Classe 5 (Orçamento Aprovado) – Subsistema Orçamentário – Natureza Credora.
+* **D)** Classe 6 (Execução do Orçamento) – Subsistema Orçamentário – Natureza Credora.
+* **E)** Classe 7 (Controles Devedores) – Subsistema de Controle – Natureza Credora.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A Classe 1 (Ativo) integra o subsistema patrimonial, mas tem natureza devedora (classe ímpar).
+> - **B)** Incorreta. A Classe 4 (VPA) integra o subsistema patrimonial, mas possui natureza credora (classe par).
+> - **C)** Incorreta. A Classe 5 (Orçamento Aprovado) pertence ao subsistema orçamentário e possui natureza devedora (classe ímpar).
+> - **D)** Correta. A Classe 6 (Execução do Orçamento) integra o Subsistema Orçamentário e possui natureza credora (classe par), sendo utilizada para escriturar o acompanhamento da receita arrecadada e da despesa orçamentária executada.
+> - **E)** Incorreta. A Classe 7 (Controles Devedores) pertence ao subsistema de controle e possui natureza devedora (classe ímpar).
+> 
+> **Gabarito: D**
+
+---
+
+### Teste 284
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+De acordo com a estrutura do Plano de Contas Aplicado ao Setor Público (PCASP) estabelecida no MCASP, as contas pertencentes às classes 3 e 4 destinam-se a registrar, respectivamente:
+
+* **A)** O orçamento aprovado e a execução do orçamento público.
+* **B)** O ativo e o passivo circulante e não circulante.
+* **C)** As variações patrimoniais diminutivas (VPD) e as variações patrimoniais aumentativas (VPA).
+* **D)** Os controles devedores e os controles credores dos atos potenciais.
+* **E)** As despesas fixadas na LOA e as receitas arrecadadas no exercício.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O orçamento aprovado e a sua execução são escriturados nas Classes 5 (Orçamento Aprovado) e 6 (Execução do Orçamento), pertencentes ao subsistema orçamentário.
+> - **B)** Incorreta. O ativo circulante e não circulante pertence à Classe 1, enquanto o passivo e o patrimônio líquido pertencem à Classe 2.
+> - **C)** Correta. No PCASP, a Classe 3 é destinada às Variações Patrimoniais Diminutivas (VPD), possuindo natureza devedora e refletindo decréscimos no patrimônio líquido da entidade; a Classe 4 destina-se às Variações Patrimoniais Aumentativas (VPA), possuindo natureza credora e refletindo acréscimos na situação patrimonial líquida. Ambas integram o Subsistema Patrimonial de resultado.
+> - **D)** Incorreta. Os controles de atos potenciais são escriturados nas Classes 7 e 8 (subsistema de controle).
+> - **E)** Incorreta. A fixação da despesa orçamentária e a arrecadação da receita pertencem às contas orçamentárias das Classes 5 e 6.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -274,6 +384,147 @@ A assinatura de um contrato de prestação de serviços continuados (ex.: segura
 
 - `D` - `7.9.1.1.X` Contratos de Serviços a Executar (Classe 7 - Controles Devedores)
 - `C` - `8.9.1.1.X` Contratos de Serviços a Executar (Classe 8 - Controles Credores)
+
+---
+
+### Teste 285
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A formalização da celebração de um contrato administrativo de prestação de serviços continuados de vigilância armada no valor total anual de R$ 1.200.000,00, antes do início de qualquer execução física ou financeira pelo contratado, enseja no órgão público estadual o seguinte registro contábil segundo o PCASP:
+
+* **A)** Débito em Variação Patrimonial Diminutiva (Classe 3) e Crédito em Fornecedores a Pagar (Classe 2).
+* **B)** Lançamento simultâneo no Subsistema de Controle (Classes 7 e 8) para acompanhamento dos atos potenciais decorrentes do contrato celebrado.
+* **C)** Débito em Crédito Disponível e Crédito em Despesa Paga no Subsistema Orçamentário (Classe 6).
+* **D)** Débito no Ativo Imobilizado (Classe 1) e Crédito no Patrimônio Líquido (Classe 2).
+* **E)** Nenhum registro contábil, uma vez que contratos administrativos só são escriturados após o pagamento das ordens bancárias.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A assinatura do contrato não representa prestação de serviços nem fato gerador de despesa pública; logo, inexiste VPD ou obrigação líquida a pagar no passivo circulante.
+> - **B)** Correta. A formalização de contratos administrativos gera direitos e obrigações futuras que caracterizam atos potenciais ativos e passivos. No PCASP, esses eventos são compulsoriamente escriturados no Subsistema de Controle, debitando-se uma conta da Classe 7 (Controles Devedores) e creditando-se uma conta da Classe 8 (Controles Credores).
+> - **C)** Incorreta. O pagamento orçamentário só ocorre no estágio final da despesa, após prévio empenho e atesto na liquidação.
+> - **D)** Incorreta. Vigilância armada é despesa corrente de serviços, não constituindo ativo imobilizado nem afetação direta do patrimônio líquido.
+> - **E)** Incorreta. O setor público registra compulsoriamente os contratos em contas de controle para fins de transparência e fiscalização pelos órgãos de controle externo.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 286
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No âmbito da execução orçamentária e financeira do setor público regida pelo PCASP, considere os seguintes fatos:
+
+I. Aprovação do orçamento com fixação da despesa na Lei Orçamentária Anual.  
+
+II. Emissão de Nota de Empenho ordinário para aquisição de material de consumo.  
+
+III. Recebimento e atesto do material no almoxarifado acompanhado da respectiva nota fiscal (liquidação).  
+
+IV. Emissão da ordem bancária e pagamento ao fornecedor.  
+
+À luz das normas contábeis aplicadas ao setor público, haverá registro contábil no **Subsistema Patrimonial** especificamente nos estágios indicados em:
+
+* **A)** I, II, III e IV.
+* **B)** II e III, apenas.
+* **C)** III e IV, apenas.
+* **D)** I e II, apenas.
+* **E)** II, III e IV, apenas.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Os fatos I e II pertencem com exclusividade ao subsistema orçamentário.
+> - **B)** Incorreta. O empenho (fato II) é mero ato orçamentário de reserva que não altera o patrimônio nem gera passivo exigível.
+> - **C)** Correta. Apenas a liquidação (III) e o pagamento (IV) provocam lançamentos no subsistema patrimonial:  
+>     - No fato III (Liquidação): debita-se Estoques (Ativo Circulante - Classe 1) e credita-se Fornecedores a Pagar (Passivo Circulante - Classe 2);  
+>     - No fato IV (Pagamento): debita-se Fornecedores a Pagar (Classe 2) e credita-se Caixa/Bancos (Ativo Circulante - Classe 1).  
+>   Os itens I e II tramitam exclusivamente no subsistema orçamentário (Classes 5 e 6).
+> - **D)** Incorreta. I e II são atos de controle e fixação orçamentária.
+> - **E)** Incorreta. O item II não afeta elementos patrimoniais.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 287
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em determinado exercício financeiro, uma autarquia estadual efetuou a liquidação de uma despesa orçamentária referente à prestação de serviços de limpeza e conservação predial no valor de R$ 80.000,00. Sob a ótica do Plano de Contas Aplicado ao Setor Público (PCASP), os lançamentos contábeis simultâneos efetuados nos subsistemas Orçamentário e Patrimonial foram, respectivamente:
+
+* **A)** Orçamentário: Débito em Crédito Disponível e Crédito em Crédito Empenhado Pago; Patrimonial: Débito em Caixa e Crédito em VPA.
+* **B)** Orçamentário: Débito em Crédito Empenhado a Liquidar e Crédito em Crédito Empenhado Liquidado a Pagar; Patrimonial: Débito em Variação Patrimonial Diminutiva (VPD) e Crédito em Fornecedores a Pagar.
+* **C)** Orçamentário: Débito em Dotação Inicial e Crédito em Crédito Disponível; Patrimonial: Débito em Bens Móveis e Crédito em Caixa.
+* **D)** Orçamentário: Débito em Receita Realizada e Crédito em Receita a Realizar; Patrimonial: Débito em Estoques e Crédito em Caixa.
+* **E)** Orçamentário: Débito em Crédito Empenhado Liquidado a Pagar e Crédito em Crédito Empenhado Pago; Patrimonial: Débito em Fornecedores a Pagar e Crédito em Caixa.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Descreve lançamento inexistente e apuração equivocada de receita patrimonial.
+> - **B)** Correta. No estágio da liquidação da despesa de serviços:  
+>     1. No Subsistema Orçamentário (Classe 6): debita-se Crédito Empenhado a Liquidar e credita-se Crédito Empenhado Liquidado a Pagar;  
+>     2. No Subsistema Patrimonial (Classes 3 e 2): reconhece-se o consumo do serviço com débito em Variação Patrimonial Diminutiva (VPD - Serviços de Terceiros - Classe 3) e credita-se Fornecedores a Pagar (Passivo Circulante - Classe 2).
+>
+> - **C)** Incorreta. Reflete fixação orçamentária na LOA e imobilização de bens que não se aplica a serviço contínuo de limpeza.
+> - **D)** Incorreta. Mistura execução da receita pública com estocagem de materiais.
+> - **E)** Incorreta. Descreve o estágio subsequente do pagamento, e não o da liquidação.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 288
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No PCASP, a assinatura de um contrato administrativo formal de obras públicas no valor de R$ 20.000.000,00, antes do início da execução física e financeira, acarreta:
+
+* **A)** Registro obrigatório no subsistema de controle (Classes 7 - Controles Devedores e 8 - Controles Credores), por se tratar de ato potencial passivo que poderá vir a afetar o patrimônio estatal no futuro.
+* **B)** Reconhecimento imediato de uma Variação Patrimonial Diminutiva (VPD) no subsistema patrimonial (Classe 3).
+* **C)** Lançamento de despesa liquidada a pagar no subsistema orçamentário (Classe 6).
+* **D)** Baixa das disponibilidades bancárias na Conta Única do Tesouro Estadual (Classe 1).
+* **E)** Nenhum lançamento no sistema contábil, devendo a informação ser arquivada exclusivamente nos autos do processo licitatório.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A celebração de contratos administrativos representa **ato potencial** (fato que não afeta o patrimônio de imediato, mas pode gerar direitos ou obrigações futuras). Os atos potenciais são registrados obrigatoriamente no **Subsistema de Controle** (Classes 7 e 8 do PCASP).
+> - **B)** Incorreta. A assinatura do contrato ainda não é fato gerador de VPD; o serviço ou obra ainda não foi executado.
+> - **C)** Incorreta. Despesa liquidada exige atesto do fornecimento físico do objeto contratado.
+> - **D)** Incorreta. Não houve desembolso financeiro no momento da assinatura.
+> - **E)** Incorreta. O registro dos contratos em vigor é obrigatório no subsistema de controle do PCASP.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 289
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na liquidação da despesa orçamentária decorrente da entrega definitiva de material de consumo recebido e atestado no almoxarifado central, ocorrem lançamentos simultâneos nos seguintes subsistemas do PCASP:
+
+* **A)** No subsistema orçamentário (debita-se despesa empenhada a liquidar e credita-se despesa liquidada a pagar) e no subsistema patrimonial (debita-se estoques no ativo circulante e credita-se fornecedores a pagar no passivo circulante).
+* **B)** Apenas no subsistema orçamentário, sendo vedado qualquer lançamento patrimonial antes do pagamento bancário.
+* **C)** Exclusivamente no subsistema patrimonial com débito em bancos e crédito em capital social.
+* **D)** No subsistema de controle mediante cancelamento da conta única do Tesouro.
+* **E)** No subsistema de custos governamentais mediante estorno de provisões fiscais.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. No estágio da **liquidação**: (1) No *Subsistema Orçamentário* (Classes 5 e 6), a despesa transita de "empenhada a liquidar" para "despesa liquidada a pagar"; (2) No *Subsistema Patrimonial* (Classes 1 e 2), reconhece-se o direito/ativo recebido no almoxarifado (Débito em Estoques / Material de Consumo na Classe 1) em contrapartida da obrigação constituída perante o terceiro (Crédito em Fornecedores a Pagar na Classe 2).
+> - **B)** Incorreta. O enfoque patrimonial moderno impõe o reconhecimento imediato do ativo e da obrigação na liquidação.
+> - **C)** Incorreta. O pagamento bancário ocorrerá apenas no estágio subsequente do pagamento.
+> - **D)** Incorreta. A liquidação não cancela contas do subsistema de controle.
+> - **E)** Incorreta. Não se trata de estorno, mas de apropriação regular de ativos de consumo.
+> 
+> **Gabarito: A**
 
 ---
 

@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `03_processo_decisorio_visao_sistemica_e_gerenciamento_de_projetos.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - O processo decisório na administração: etapas lógicas do ciclo decisório (identificação do problema, diagnóstico, formulação de alternativas, avaliação comparativa, escolha, implementação e avaliação dos resultados);
@@ -88,6 +91,57 @@ flowchart TD
 
 ---
 
+### Teste 360
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinado setor administrativo de um Tribunal de Contas analisa diariamente dezenas de pedidos de prorrogação de prazo protocolados por jurisdicionados. O procedimento para deferimento ou indeferimento do pedido segue critérios estritos, pré-fixados de forma taxativa em resolução normativa do Tribunal, avaliando-se apenas a tempestividade do protocolo e o anexo do atestado médico. Nos termos da tipologia do processo decisório formulada por Herbert Simon, a deliberação do chefe do setor constitui típica:
+
+* **A)** Decisão não programada.
+* **B)** Decisão intuitiva em condição de ambiguidade.
+* **C)** Decisão programada.
+* **D)** Decisão holística sob incerteza extrema.
+* **E)** Decisão estratégica de ruptura.
+
+
+---
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Decisões não programadas são tomadas perante fatos inéditos, complexos e que demandam soluções inovadoras.  
+> - **B) Incorreta.** Ambiguidade é a ausência de metas ou clareza sobre o problema; na hipótese narrada, as regras e dados são claros.  
+> - **C) CORRETA.** As **decisões programadas** são aquelas que tratam de problemas rotineiros, estruturados e repetitivos, cuja resposta é automática e amparada em normas regimentais, resoluções, regras fixas ou procedimentos operacionais padrão (POPs) preestabelecidos pela organização.  
+> - **D) Incorreta.** Os parâmetros são plenamente conhecidos, inexistindo incerteza extrema.  
+> - **E) Incorreta.** A análise de pedidos de prazo de rotina é tarefa operacional, e não decisão estratégica de ruptura.  
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 361
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Herbert Simon, em sua obra clássica *O Comportamento Administrativo* (prêmio Nobel de Economia de 1978), formulou a Teoria da **Racionalidade Limitada** (*Bounded Rationality*) na tomada de decisões.
+
+Segundo a teoria da racionalidade limitada de Simon:
+
+* **A)** O tomador de decisões é incapaz de obter e processar todas as informações disponíveis e prever todas as consequências futuras possíveis; por isso, em vez de buscar a decisão ótima máxima, ele opta por uma decisão **satisfatória** que atenda aos padrões mínimos aceitáveis.
+* **B)** O gestor público possui capacidade cognitiva infinita e recursos ilimitados para identificar a solução perfeita e maximizadora para cada problema.
+* **C)** O processo decisório deve ser guiado exclusivamente pela intuição e pela sorte, visto que a análise racional é impossível na vida pública.
+* **D)** As decisões programadas exigem a realização de assembleias públicas populares para cada ato administrativo rotineiro.
+* **E)** A racionalidade limitada impede que a Administração Pública utilize computadores ou sistemas de dados no auxílio à decisão.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Herbert Simon derrubou o mito do tomador de decisão econômico onisciente e onipotente (*racionalidade absoluta*): o ser humano possui limitações cognitivas, tempo escasso e informações incompletas. Por isso, ele atua no modelo do **homem administrativo**, que busca soluções satisfatórias (*satisficing*), e não maximizadoras.
+> - **B)** Incorreta. Visão do modelo da racionalidade absoluta que Simon refutou.
+> - **C)** Incorreta. Simon defende a racionalidade, reconhecendo apenas seus limites inerentes.
+> - **D), E)** Incorretas. Distorções que não representam o modelo de Simon.
+> 
+> **Gabarito: A**
+
+---
+
 ## 2. Condições Ambientais da Tomada de Decisão
 
 O contexto em que a decisão é tomada varia segundo a qualidade e a completude das informações disponíveis:
@@ -112,6 +166,56 @@ flowchart LR
 
 ---
 
+### Teste 362
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da tomada de decisão em ambientes organizacionais e das condições de certeza, risco, incerteza e ambiguidade, assinale a opção correta:
+
+* **A)** Na condição de risco, o tomador de decisão possui informações completas e sabe com absoluta precisão o desfecho de cada alternativa de ação.
+* **B)** A condição de ambiguidade caracteriza-se pelo domínio pleno de dados históricos que permitem calcular probabilidades estatísticas exatas de insucesso.
+* **C)** A condição de certeza é a situação em que o decisor atua sem informações preliminares, confiando unicamente na sorte e na intuição.
+* **D)** Na condição de risco, o tomador de decisão desconhece com certeza o resultado final, contudo dispõe de dados suficientes para calcular probabilidades estatísticas associadas a cada alternativa.
+* **E)** A condição de incerteza permite ao gestor modelar todas as variáveis futuras por meio de equações determinísticas de causa e efeito imediato.
+
+
+---
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Informações completas e resultado exato definem a condição de **certeza**, e não de risco.  
+> - **B) Incorreta.** Na ambiguidade, as metas são desconhecidas e os dados são obscuros, sendo impossível calcular probabilidades.  
+> - **C) Incorreta.** Na certeza, o resultado é deterministicamente conhecido.  
+> - **D) CORRETA.** Na condição de **risco**, o resultado concreto de cada escolha é incerto, mas a organização possui informações e base histórica que tornam viável atribuir **probabilidades matemáticas ou estatísticas** de ocorrência a cada alternativa.  
+> - **E) Incorreta.** Na incerteza, as informações são escassas e as probabilidades matemáticas não podem ser calculadas com segurança.  
+> 
+> **Gabarito: D**
+
+---
+
+### Teste 363
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na tomada de decisão sob diferentes condições ambientais, a situação em que o tomador de decisão conhece os possíveis desfechos alternativos e dispõe de dados históricos ou cálculos matemáticos que lhe permitem atribuir **probabilidades estatísticas objetivas** à ocorrência de cada resultado denomina-se:
+
+* **A)** Tomada de decisão em Condição de Risco.
+* **B)** Tomada de decisão em Condição de Certeza Absoluta.
+* **C)** Tomada de decisão em Condição de Incerteza Completa.
+* **D)** Tomada de decisão por Anarquia Organizada (*Garbage Can*).
+* **E)** Decisão de Consenso Heurístico Irrestrito.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Condições de tomada de decisão: **Certeza**: os resultados futuros de cada alternativa são perfeitamente previsíveis e conhecidos; **Risco**: os desfechos não são certos, mas é possível estimar a **probabilidade matemática/estatística** de cada alternativa ocorrer com base em dados; **Incerteza**: os desfechos são imprevisíveis e não se conhecem probabilidades estatísticas.
+> - **B)** Incorreta. Na certeza, conhece-se com exatidão o resultado, sem risco de desvio.
+> - **C)** Incorreta. Na incerteza, inexistem dados de probabilidade calculável.
+> - **D)** Incorreta. Modelo da "lata de lixo" (Cohen, March e Olsen) para anarquias organizadas.
+> - **E)** Incorreta. Expressão sem respaldo na tipologia ambiental de decisões.
+> 
+> **Gabarito: A**
+
+---
+
 ## 3. Visão Sistêmica, Pensamento Holístico e Silos Organizacionais
 
 A abordagem sistêmica concebe a instituição pública como um **sistema aberto** composto por partes dinamicamente interconectadas e em constante intercâmbio com a sociedade:
@@ -127,6 +231,56 @@ A abordagem sistêmica concebe a instituição pública como um **sistema aberto
 
 > 📌 **NOTA EXPLICATIVA (O CONCEITO DE SINERGIA):**  
 > Na abordagem sistêmica, sinergia significa que as unidades interdependentes cooperando de forma harmônica geram um valor total que excede a simples soma de seus desempenhos isolados ($1 + 1 > 2$).
+
+---
+
+### Teste 364
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O modelo de administração contemporâneo valoriza o pensamento holístico e a visão sistêmica em oposição aos tradicionais modelos mecanicistas burocráticos. A respeito da visão sistêmica aplicada às organizações públicas, assinale a afirmativa correta:
+
+* **A)** Sustenta que cada setor deve priorizar exclusivamente suas metas individuais de departamento, competindo com as demais unidades pelo orçamento público.
+* **B)** Concebe a instituição como uma rede interdependente de subsistemas integrados, na qual as decisões adotadas em uma unidade provocam impactos diretos sobre todo o organismo institucional.
+* **C)** Elimina a necessidade de controle e avaliação de desempenho, pois presume que os servidores agem de forma espontânea em perfeita sincronia com o ambiente.
+* **D)** Restringe a atuação do órgão público à preservação de fronteiras rígidas e impenetráveis, impedindo qualquer intercâmbio de dados com a sociedade externa.
+* **E)** Rejeita o conceito de sinergia por considerá-lo incompatível com a estrita divisão formal de trabalho prescrita em leis administrativas.
+
+
+---
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Priorizar o próprio setor em detrimento do todo caracteriza a visão míope dos "silos organizacionais", combatida pela abordagem sistêmica.  
+> - **B) CORRETA.** A **visão sistêmica (ou holística)** enxerga a organização como um sistema aberto composto por subsistemas reciprocamente dependentes e interconectados; assim, qualquer alteração em um subsistema repercute em todos os demais e no resultado final entregue à sociedade.  
+> - **C) Incorreta.** O controle (retroalimentação/feedback) é elemento vital da teoria sistêmica para manter a homeostase dinâmica.  
+> - **D) Incorreta.** As organizações são sistemas **abertos**, com fronteiras permeáveis que realizam intercâmbio contínuo de recursos e dados com o meio externo.  
+> - **E) Incorreta.** A sinergia ($1 + 1 > 2$) é um dos pilares centrais da teoria de sistemas.  
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 365
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No Gerenciamento de Projetos e no controle do cronograma de atividades interdependentes, o método do **Caminho Crítico** (*Critical Path Method - CPM*) define-se como:
+
+* **A)** A sequência mais longa de atividades dependentes no diagrama de rede do projeto que determina a duração total mínima necessária para a conclusão do projeto, caracterizando-se por ter folga total igual a zero.
+* **B)** O conjunto de tarefas com menor custo financeiro que podem ser canceladas sem prejuízo do cronograma.
+* **C)** A lista de atividades secundárias executadas simultaneamente por equipes de suporte terceirizadas.
+* **D)** O gráfico de barras que demonstra a distribuição de competências funcionais dos membros da equipe.
+* **E)** O caminho que concentra exclusivamente os riscos jurídicos e trabalhistas do contrato de engenharia.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O **Caminho Crítico (CPM)** é a trajetória mais longa através do diagrama de rede (com maior duração total). As atividades que integram o caminho crítico têm **folga zero** (*zero slack*): qualquer atraso em uma atividade crítica provocará automaticamente atraso idêntico na data final de entrega de todo o projeto.
+> - **B)** Incorreta. Atividades críticas não podem ser suprimidas ou atrasadas.
+> - **C)** Incorreta. Descreve tarefas não críticas ou paralelas com folga.
+> - **D)** Incorreta. Gráfico de barras é o Gráfico de Gantt.
+> - **E)** Incorreta. CPM é metodologia de gestão de tempo e sequenciamento de atividades.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -175,6 +329,106 @@ flowchart TD
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC (FOLGA DO CAMINHO CRÍTICO):**  
 > Questão clássica da FCC: perguntar qual é o valor da folga de tempo das atividades que integram o caminho crítico (CPM) de um projeto. A resposta é taxativa: **FOLGA ZERO (FOLGA NULA)**! As tarefas críticas não admitem nenhum dia de atraso sem comprometer a data de entrega final de todo o empreendimento!
+
+---
+
+### Teste 366
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito das técnicas de planejamento e cronograma utilizadas no gerenciamento de projetos, o Método do Caminho Crítico (CPM) caracteriza-se fundamentalmente por:
+
+* **A)** Indicar a sequência de atividades com maior número de folgas temporais disponíveis para remanejamento de equipe.
+* **B)** Identificar a sequência de atividades dependentes de maior duração total do projeto, cujas tarefas possuem folga temporal nula.
+* **C)** Consistir em um método exclusivo para orçamentação financeira que desconsidera os prazos de entrega das tarefas.
+* **D)** Representar uma estrutura analítica de decomposição hierárquica do escopo sem vinculação temporal.
+* **E)** Substituir o uso de diagramas de rede pela elaboração isolada de matrizes SWOT de contingência.
+
+
+---
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** As tarefas do caminho crítico não admitem folga de tempo; quem tem folga são as atividades fora do caminho crítico.  
+> - **B) CORRETA.** O **Caminho Crítico (CPM)** é precisamente a sequência de atividades dependentes de maior duração total contínua no diagrama de rede que define o tempo mínimo para a conclusão do projeto; todas as atividades que o compõem possuem **folga temporal zero (nula)**, de maneira que qualquer atraso nelas acarreta automaticamente o atraso de todo o projeto.  
+> - **C) Incorreta.** O CPM é uma ferramenta de gestão temporal de prazos e dependências em rede.  
+> - **D) Incorreta.** A decomposição do escopo em entregas é a EAP (WBS), que não se confunde com o CPM.  
+> - **E) Incorreta.** O CPM decorre compulsoriamente da montagem do diagrama de rede de precedências lógicas.  
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 367
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito da gestão estratégica de projetos governamentais, uma equipe necessita estimar a duração provável de uma atividade inédita de digitalização de acervo histórico. Os especialistas estimaram que, no melhor cenário possível (otimista), a tarefa demandará 10 dias; no cenário mais provável, exigirá 16 dias; e, no pior cenário concebível (pessimista), demandará 28 dias. Utilizando a consagrada técnica probabilística PERT (*Program Evaluation and Review Technique*), a estimativa de tempo esperado (TE) para essa atividade é de:
+
+* **A)** 18 dias.
+* **B)** 16 dias.
+* **C)** 17 dias.
+* **D)** 20 dias.
+* **E)** 15 dias.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Valor superestimado decorrente de média incorreta sem aplicar a ponderação de peso 4 sobre a estimativa mais provável.
+> - **B) Incorreta.** Representa exclusivamente a estimativa mais provável ($M = 16\text{ dias}$), desconsiderando a modelagem PERT de incertezas.
+> - **C) CORRETA.** Aplicação direta da média ponderada da técnica PERT: $\text{TE} = \frac{O + 4M + P}{6} = \frac{10 + (4 \times 16) + 28}{6} = \frac{10 + 64 + 28}{6} = \frac{102}{6} = 17\text{ dias}$.
+> - **D) Incorreta.** Erro de cálculo superdimensionado incompatível com a média ponderada dos três cenários.
+> - **E) Incorreta.** Estimativa subdimensionada inferior ao próprio cenário mais provável.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 368
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na teoria das organizações e no pensamento sistêmico, o fenômeno patológico no qual departamentos e setores operam de forma isolada, defendendo interesses corporativos paroquiais e fechando canais de comunicação com as demais unidades da instituição é denominado:
+
+* **A)** Silos Organizacionais (Mentalidade de Silo).
+* **B)** Holacracia Sistêmica Integrada.
+* **C)** Sinergia Coletiva Positiva.
+* **D)** Homeostase Dinâmica Adaptativa.
+* **E)** Entropia Negativa Expansiva.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **mentalidade de silo (ou silos organizacionais)** ocorre quando divisões e gerências funcionam como redomas fechadas e impermeáveis ("feudos burocráticos"), bloqueando a troca de dados, gerando retrabalhos, desconfiança e inviabilizando a visão sistêmica e holística da instituição.
+> - **B)** Incorreta. Holacracia é modelo de gestão sem hierarquia tradicional e de alta cooperação.
+> - **C)** Incorreta. Sinergia positiva significa que o todo é maior que a soma das partes (cooperação produtiva).
+> - **D)** Incorreta. Homeostase é a capacidade de autorregulação e equilíbrio do sistema aberto.
+> - **E)** Incorreta. Entropia negativa (negentropia) é a importação de energia para evitar o perecimento do sistema.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 369
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No gerenciamento de projetos, a técnica **PERT** (*Program Evaluation and Review Technique*) é particularmente recomendada quando as durações das atividades são incertas, utilizando uma média ponderada baseada em três estimativas de tempo:
+
+As três estimativas temporais consideradas pelo modelo PERT são:
+
+* **A)** Tempo Otimista (a), Tempo Mais Provável (m) e Tempo Pessimista (b).
+* **B)** Tempo Mínimo legal, Tempo Médio da carreira e Tempo Máximo de estabilidade.
+* **C)** Duração da licitação, Duração do contrato e Duração da garantia.
+* **D)** Horário bancário de abertura, fechamento e compensação.
+* **E)** Prazo prescricional, Prazo decadencial e Prazo preclusivo.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O modelo probabilístico do **PERT** calcula a duração esperada (*Expected Time - TE*) pela fórmula ponderada: \(TE = 
+rac{a + 4m + b}{6}\), onde: **a** = tempo otimista (tudo dá certo); **m** = tempo mais provável (condições normais de operação); **b** = tempo pessimista (cenário em que ocorrem adversidades e problemas).
+> - **B), C), D), E)** Incorretas. Distorções sem respaldo técnico na metodologia PERT.
+> 
+> **Gabarito: A**
 
 ---
 

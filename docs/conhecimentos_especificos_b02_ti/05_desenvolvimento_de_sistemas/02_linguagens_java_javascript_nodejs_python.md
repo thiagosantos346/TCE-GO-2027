@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `02_linguagens_java_javascript_nodejs_python.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Programação em Java (conceitos básicos)
@@ -304,429 +307,130 @@ Permite o processamento declarativo e funcional de coleções de dados:
 
 ---
 
-### Teste 001
-**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
-O Swagger é um conjunto de ferramentas voltado para o desenvolvimento de todo o ciclo de vida da API, incluindo as etapas de design, documentação, teste e implantação. 108 import java.io.*; class Easy { public static void main(String[] args) { int x[] = {1, 3, 7, 22, 51}; for (int size : x) System.out.print(size); } } O resultado da execução do código precedente, desenvolvido em Java, será 6.
+### Teste 065
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na Máquina Virtual Java (JVM), o gerenciamento de memória divide-se principalmente entre a memória *Stack* (Pilha) e a memória *Heap*. A respeito da organização e do ciclo de vida dos dados nessas áreas, é correto afirmar:
 
-* **C)** Certo
-* **E)** Errado
+* **A)** Todas as instâncias de objetos criadas via operador `new` são alocadas na memória *Heap*, enquanto as variáveis locais de tipos primitivos e as referências aos objetos residem na memória *Stack*.
+* **B)** A memória *Stack* é compartilhada por todas as threads da JVM, sendo limpa exclusivamente pelo *Garbage Collector*.
+* **C)** Os objetos instanciados na *Heap* são desalocados imediatamente no instante exato em que a chave de fechamento do método atual é executada.
+* **D)** O *Garbage Collector* da JVM varre e gerencia a memória *Stack*, mas nunca atua sobre os objetos da *Heap*.
+* **E)** A memória *Heap* opera sob a política de primeiro a entrar, primeiro a sair (FIFO), impedindo o reaproveitamento de blocos liberados.
 
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRF 6ª/2025) ao afirmar que "O Swagger é um conjunto de ferramentas voltado para o desenvolvimento de todo o ciclo de vida da API...".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
->
-> **Gabarito: C**
-
----
-
-### Teste 002
-**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
-MapStruct é um gerador de código que simplifica a implementação de mapeamentos entre tipos de bean Java.
-
-* **C)** Certo
-* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jDK (Java Development Kit): O kit completo para engenheiros de software. Engloba toda a JRE mais ferramentas de desenvolvimento fundamentais: o compilador javac , empacotador jar , gerador de documentação javadoc , desassemblador javap e utilitários de diagnóstico e depuração ( jconsole , jstack , jps ). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STJ/2024) ao afirmar que "MapStruct é um gerador de código que simplifica a implementação de mapeamentos entre tipos de bean Java".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
->
-> **Gabarito: C**
-
----
-
-### Teste 003
-**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
-Considere o seguinte código, escrito em Java. class Main { public static void main(String[] args) { int x = 11, y = -7, z = 22; int resultado = (x >= y) ? ((x >= z) ? x : z) : ((y >= z) ? y : z); System.out.println(“Resultado: “ + resultado); } } A partir do código precedente, é correto afirmar que a execução desse código apresentará o seguinte resultado. Resultado: 22
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, a["Código Fonte (.java)"] |"Compilador javac"| B["Bytecode (.class)"]. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STJ/2024) ao afirmar que "Considere o seguinte código, escrito em Java. class Main { public static void main(String[] args) { int x =...".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
->
-> **Gabarito: C**
-
----
-
-### Teste 004
-**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
-Swagger é uma interface API compatível com Java que permite que dois sistemas computacionais troquem informações com ausência de estado.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Swagger é uma interface API compatível com Java que permite que dois sistemas computacionais troquem...". De acordo com a teoria em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
-
----
-
-### Teste 005
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
-O paradigma funcional, evidenciado na linguagem LISP, criada em 1958, voltou com muita força atualmente, sendo incluído em diversas linguagens, como o Java. Considere o trecho de código apresentado a seguir. List<String> lista = Arrays.asList("UM","DOIS","TRES"); for(int i=0; i<lista.size(); i++){ System.out.println(lista.get(i)); } Para utilizar o paradigma funcional, o loop para apresentação dos valores deve ser reescrito da seguinte forma:
-
-* **A)** for(String s: lista){ System.out.println(s); }
-* **B)** for (Iterator<String> it = lista.iterator(); it.hasNext();) { System.out.println(it.next()); }
-* **C)** lista.forEach(s -> { System.out.println(s); });
-* **D)** Iterator<String> it = lista.iterator(); while(it.hasNext()) { System.out.println(it.next()); }
-* **E)** for(var s: lista){ System.out.println(s); }
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "for(String s: lista){ System.out.println(s); }". De acordo com a teoria estudada em *Usos da Palavra-Chave `final`*, atenção: Se a variável for uma referência para um objeto ( final List<String itens = new ArrayList< (); ), a referência itens não pode ser apontada para outra lista, mas o estado interno do objeto continua mutável ( itens.add("dado") é válido).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "for (Iterator<String it = lista.iterator(); it.hasNext();) { System.out.println(it.next()); }". De acordo com a teoria estudada em *3. Formatos Estruturados: JSON e CSV*, json.loads(str) : Analisa string JSON e a converte para dicionário/lista Python.
-> - **C)** **Correta.** Conforme fundamentado na seção *Módulos Nativos Essenciais do Node.js* deste guia, fs (File System): Permite ler, gravar e manipular arquivos de forma síncrona ( fs.readFileSync ), baseada em callbacks ( fs.readFile ) ou orientada a promessas ( fs.promises.readFile ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "lista.forEach(s { System.out.println(s); })".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Iterator<String it = lista.iterator(); while(it.hasNext()) { System.out.println(it.next()); }". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, a linguagem Java, criada pela Sun Microsystems e atualmente mantida pela Oracle, foi concebida sob o paradigma da independência de plataforma, expresso pelo lema "Write Once, Run Anywhere" (WORA). Essa portabilidade é viabilizada por uma arquitetura em camadas composta por.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "for(var s: lista){ System.out.println(s); }". De acordo com a teoria estudada em *A Memória Stack (Pilha)*, possui alocação e liberação ultrarrápida, estritamente alinhada à entrada e saída do escopo do método (LIFO Last In, First Out ).
->
-> **Gabarito: C**
-
----
-
-### Teste 006
-**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
-O Swagger é um conjunto de ferramentas voltado para o desenvolvimento de todo o ciclo de vida da API, incluindo as etapas de design, documentação, teste e implantação. 97 import java.io.*; class Easy { public static void main(String[] args) { int x[] = {1, 3, 7, 22, 51}; for (int size : x) System.out.print(size); } } O resultado da execução do código precedente, desenvolvido em Java, será 6. 98 [ "Cidades": ( {"Cidade"="Uberaba", "IBGE"="3170107"}, {"Cidade"="Uberlândia", "IBGE"="3170206"}, {"Cidade"="Araguari", "IBGE"="3103504"}) ] A sintaxe precedente descreve corretamente os dados da tabela a seguir na notação JSON, organizando-os como uma lista de objetos. cidade IBGE Uberaba 3170107 Uberlândia 3170206
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRF/6/2025) ao afirmar que "O Swagger é um conjunto de ferramentas voltado para o desenvolvimento de todo o ciclo de vida da API...".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
->
-> **Gabarito: C**
-
----
-
-### Teste 007
-**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-Considere o código em Java que realiza testes unitários com o framework JUnit: import junit.framework.TestCase; public class MatematicaTest I .. .... { private Matematica math=new Matematica(18, 3); public void testadd() { this.assertTrue(this.math.add()==21); } public void testsubtract() { this.assertTrue(this.math.subtract()=15); } public void testmultiply() { this.assertTrue(this.math.multiply()==54); } public void testdivide() { this.assertTrue(this.math.divide()==6); } public static void main(String[] args) { junit.textui.TestRunner.run( I I ); . ... .. } } As lacunas I e II devem ser, correta e respectivamente, preenchidas com
-
-* **A)** implícito, como o Thread.sleep(), que determina um tempo fixo que alguma ação no teste precisa esperar antes de ser executada. Se este tempo for ultrapassado, o teste não falhará.
-* **B)** explícito, como o Thread.sleep(). Se a ação estiver pronta para ser executada antes do tempo fixado, o teste conti- nuará.
-* **C)** explícito, como o WebDriver.manage().timeouts(), que permite esperar por um certo elemento na tela por um tempo de espera mínimo. Se este tempo for ultrapassado, o teste falhará.
-* **D)** implícito, cujo valor padrão é 0. Este tempo deve ser baixo, para evitar que o Selenium fique esperando por um elemento na tela antes de acusar um erro de tempo de espera excedido.
-* **E)** explícito, cujo valor padrão é 10. Seu valor não deve ser baixo para evitar problemas em controle de tempo entre ações no teste.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "implícito, como o Thread.sleep(), que determina um tempo fixo que alguma ação no teste precisa esperar antes de...". De acordo com a teoria estudada em *Usos da Palavra-Chave `final`*, atenção: Se a variável for uma referência para um objeto ( final List<String itens = new ArrayList< (); ), a referência itens não pode ser apontada para outra lista, mas o estado interno do objeto continua mutável ( itens.add("dado") é válido).
-> - **B)** **Correta.** Conforme fundamentado na seção *A Ordem Rígida de Execução* deste guia, microtask Queue: Imediatamente após a Call Stack esvaziar, o motor drena todas as microtarefas pendentes antes de qualquer macrotarefa. Se uma microtarefa enfileirar outra microtarefa, ela também será executada nesta mesma rodada. No Node.js, process.nextTick tem precedência até mesmo sobre as promessas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "explícito, como o Thread.sleep(). Se a ação estiver pronta para ser executada antes do tempo fixado, o teste conti...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "explícito, como o WebDriver.manage().timeouts(), que permite esperar por um certo elemento na tela por um tempo de...". De acordo com a teoria estudada em *2. Interface `Set` (Conjuntos)*, hashSet : Utiliza internamente uma tabela hash ( HashMap ). Oferece operações básicas ( add , remove , contains ) em tempo constante médio $\mathcal{O}(1)$. Não garante nenhuma ordem dos elementos. Admite um único elemento null.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "implícito, cujo valor padrão é 0. Este tempo deve ser baixo, para evitar que o Selenium fique esperando por um...". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jIT Compiler ( Just In Time ): Para otimizar o desempenho e evitar a lentidão da interpretação instrução por instrução, o motor JIT compila trechos de bytecode frequentemente executados ( hot spots ) diretamente em código de máquina nativo durante o tempo de execução, armazenando os em memória cache.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "explícito, cujo valor padrão é 10. Seu valor não deve ser baixo para evitar problemas em controle de tempo entre...". De acordo com a teoria estudada em *Temporal Dead Zone (TDZ - Zona Morta Temporal)*, para tornar as propriedades de um objeto imutáveis em tempo de execução, deve se utilizar Object.freeze(config).
->
-> **Gabarito: B**
-
----
-
-### Teste 008
-**(FCC – TRT 9ª – 2015 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-Em uma servlet de uma aplicação web construída com Java EE, os dados de um objeto do tipo ArrayList chamado listaFun, contendo um conjunto de objetos de uma classe bean chamada Funcionario, foram incluídos em um atributo de requisição chamado funcionarios, enviado para um arquivo chamado exibefun.jsp. Estas operações foram realizadas pelo fragmento de código a seguir: request.setAttribute("funcionarios", listaFun); RequestDispatcher disp = request.getRequestDispatcher("exibefun.jsp");; disp.forward(request, response); No arquivo exibefun.jsp, para receber o atributo de requisição funcionarios, no interior de uma tag de scriptlet pode-se utilizar a instrução
-
-* **A)** ArrayList<Funcionario> funcionarios = request.getAttribute("funcionarios");
-* **B)** ArrayList funcionarios = (ArrayList) response.getAttribute("funcionarios");
-* **C)** ArrayList funcionarios = (Funcionario) request.getAttribute("funcionarios");
-* **D)** ArrayList<Funcionario> funcionarios = (ArrayList<Funcionario>) request.getAttribute ("funcionarios");
-* **E)** ArrayList funcionarios = response.getAttribute("funcionarios").toArrayList();
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ArrayList<Funcionario funcionarios = request.getAttribute("funcionarios")". De acordo com a teoria estudada em *1.6 Java Collections Framework: List, Set, Queue e Map*, l AL["ArrayList (Array Dinâmico O(1) Leitura)"].
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ArrayList funcionarios = (ArrayList) response.getAttribute("funcionarios")". De acordo com a teoria estudada em *1. Interface `List` (Listas)*, arrayList : Implementada sobre um array dinâmico redimensionável. Excelente para leitura e acesso aleatório por índice ($\mathcal{O}(1)$), porém custosa para inserções ou remoções de elementos no meio ou início da lista ($\mathcal{O}(n)$ devido ao deslocamento dos elementos).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ArrayList funcionarios = (Funcionario) request.getAttribute("funcionarios")". De acordo com a teoria estudada em *Generics (Parametrização de Tipos)*, list<String nomes = new ArrayList< ().
-> - **D)** **Correta.** Conforme fundamentado na seção *Usos da Palavra-Chave `final`* deste guia, atenção: Se a variável for uma referência para um objeto ( final List<String itens = new ArrayList< (); ), a referência itens não pode ser apontada para outra lista, mas o estado interno do objeto continua mutável ( itens.add("dado") é válido). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 9ª/2015) ao estabelecer que "ArrayList<Funcionario funcionarios = (ArrayList<Funcionario ) request.getAttribute ("funcionarios")".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ArrayList funcionarios = response.getAttribute("funcionarios").toArrayList()". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, código Fonte ( .java ): Arquivo de texto contendo as instruções escritas pelo programador em conformidade com as especificações da linguagem.
->
-> **Gabarito: D**
-
----
-
-### Teste 009
-**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
-JUnit é um framework que facilita o desenvolvimento e execução de testes unitários em códigos Java. Ao contrário das versões anteriores, o JUnit 5 é composto por muitos módulos oriundos de três subprojetos diferentes conhecidos como
-
-* **A)** IntelliJ IDEA, Spring Boot e Ant.
-* **B)** Plataforma JUnit, Maven e Eclipse.
-* **C)** Gradle, Jupyter Notebook e Mockito.
-* **D)** Plataforma JUnit, JUnit Jupiter e JUnit Vintage.
-* **E)** Visual Studio Code, Gradle e Plataforma Vintage.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IntelliJ IDEA, Spring Boot e Ant". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jDK (Java Development Kit): O kit completo para engenheiros de software. Engloba toda a JRE mais ferramentas de desenvolvimento fundamentais: o compilador javac , empacotador jar , gerador de documentação javadoc , desassemblador javap e utilitários de diagnóstico e depuração ( jconsole , jstack , jps ).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Plataforma JUnit, Maven e Eclipse". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jIT Compiler ( Just In Time ): Para otimizar o desempenho e evitar a lentidão da interpretação instrução por instrução, o motor JIT compila trechos de bytecode frequentemente executados ( hot spots ) diretamente em código de máquina nativo durante o tempo de execução, armazenando os em memória cache.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gradle, Jupyter Notebook e Mockito". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, a linguagem Java, criada pela Sun Microsystems e atualmente mantida pela Oracle, foi concebida sob o paradigma da independência de plataforma, expresso pelo lema "Write Once, Run Anywhere" (WORA). Essa portabilidade é viabilizada por uma arquitetura em camadas composta por.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "Plataforma JUnit, JUnit Jupiter e JUnit Vintage".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Visual Studio Code, Gradle e Plataforma Vintage". De acordo com a teoria estudada em *2. Requisições HTTP e Web Scraping*, if resposta.status code == 200.
->
-> **Gabarito: D**
-
----
-
-### Teste 010
-**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
-Analise o código a seguir em linguagem de programação Java: Ao executar esse programa em um terminal, será escrito na saída padrão:
-
-* **A)** x = 2
-* **B)** x = 3
-* **C)** x = 4
-* **D)** x = 5
-* **E)** x = 6
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x = 2". De acordo com a teoria estudada em *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8*, python é uma linguagem multiparadigma de alto nível focada na legibilidade do código.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x = 3". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, a linguagem Java, criada pela Sun Microsystems e atualmente mantida pela Oracle, foi concebida sob o paradigma da independência de plataforma, expresso pelo lema "Write Once, Run Anywhere" (WORA). Essa portabilidade é viabilizada por uma arquitetura em camadas composta por.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x = 4". De acordo com a teoria estudada em *1.3 Tipos Primitivos vs. Classes Wrapper e Comparação de Objetos*, java é uma linguagem de tipagem estática e fortemente tipada que distingue claramente valores primitivos e referências a objetos.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x = 5". De acordo com a teoria estudada em *Stream API*, operações Intermediárias (Lazy avaliação preguiçosa): Retornam um novo Stream e não são executadas até que uma operação terminal seja disparada. Exemplos: .filter() , .map() , .sorted() , .distinct() , .flatMap().
-> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, código Fonte ( .java ): Arquivo de texto contendo as instruções escritas pelo programador em conformidade com as especificações da linguagem. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "x = 6".
->
-> **Gabarito: E**
-
----
-
-### Teste 011
-**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
-JUnit 5 é um framework de testes unitários para códigos Java. Ele possui uma arquitetura modular e três subprojetos principais. O subprojeto que fornece uma engine para executar testes baseados em JUnit 3 e JUnit 4 se chama
-
-* **A)** builder.
-* **B)** fashion.
-* **C)** jupiter.
-* **D)** vintage
-* **E)** tester.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "builder". De acordo com a teoria estudada em *Classes Wrapper (Invólucros)*, para cada tipo primitivo, Java fornece uma classe correspondente no pacote java.lang ( Boolean , Byte , Short , Character , Integer , Long , Float , Double ).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fashion". De acordo com a teoria estudada em *Expressões Lambda e Interfaces Funcionais (Java 8+)*, supplier<T : Não recebe parâmetros e fornece um valor do tipo T ( get() ).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "jupiter". De acordo com a teoria estudada em *Promises (Promessas)*, um objeto Promise representa o resultado eventual (sucesso ou falha) de uma operação assíncrona, transitando entre três estados mutuamente exclusivos.
-> - **D)** **Correta.** Conforme fundamentado na seção *Módulos Nativos Essenciais do Node.js* deste guia, os : Fornece informações do sistema operacional hospedeiro (CPUs, memória livre/total, arquitetura). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "vintage".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tester". De acordo com a teoria estudada em *2.4 Escopo Léxico, Closures e Funções de Alta Ordem*, closures (Fechamentos): Uma closure é a combinação de uma função empacotada com as referências ao seu estado léxico circundante ( lexical environment ). Isso permite que uma função interna acerte e memorize variáveis de sua função externa mesmo após a função externa já ter terminado de executar e retornado.
->
-> **Gabarito: D**
-
----
-
-### Teste 012
-**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
-O banco de dados H2 é uma ferramenta muito útil para desenvolvedores Java. Ele foi projetado para ser leve e pode ser incorporado diretamente em aplicativos Java. Com relação aos modos de conexão do H2, analise as afirmativas a seguir. I. No modo incorporado (embedded), um aplicativo abre um banco de dados dentro da mesma máquina virtual Java (JVM) usando JDBC. Este é o modo de conexão mais rápido e fácil. A desvantagem é que um banco de dados só pode ser aberto em uma máquina virtual por vez. Não há limite para o número de bancos de dados abertos simultaneamente ou para o número de conexões abertas. II. O modo misto (mixed) é uma combinação dos modos incorporado e servidor. O primeiro aplicativo que se conecta ao banco usando o modo incorporado, mas também inicia um servidor para que outros aplicativos (executados em diferentes processos ou JVM) possam acessar simultaneamente os mesmos dados. As conexões locais são tão rápidas quanto se o banco fosse usado apenas no modo incorporado, mas as conexões remotas são um pouco mais lentas. III. O modo em memória (in memory) é uma especialização do modo incorporado exclusivo para aplicações que usam o H2 em exclusivamente em memória. Todos os clientes que desejam se conectar (não importa se é uma conexão local ou remota) utilizam a mesmo URL do banco de dados. Além do desempenho a vantagem é o mecanismo de persistência de dados baseada em logs de transações. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** I e II, apenas
-* **C)** II e III, apenas
-* **D)** I e III, apenas
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *Funções Geradoras (`yield`) e Avaliação Preguiçosa (Lazy Evaluation)*, vantagem Vital: Economia radical de memória ao iterar sobre massas de dados gigantescas (arquivos de gigabytes, bilhões de linhas), pois não instancia a lista inteira na memória RAM simultaneamente.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, jIT Compiler ( Just In Time ): Para otimizar o desempenho e evitar a lentidão da interpretação instrução por instrução, o motor JIT compila trechos de bytecode frequentemente executados ( hot spots ) diretamente em código de máquina nativo durante o tempo de execução, armazenando os em memória cache. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "I e II, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jVM (Java Virtual Machine): A máquina virtual abstrata instalada em cada sistema operacional específico (Windows, Linux, macOS). A JVM interpreta o bytecode e traduz suas instruções para o conjunto de instruções nativas do processador subjacente.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos*, tuplas ( tuple ): Estruturas imutáveis mais leves em consumo de memória que listas. Podem ser utilizadas como chaves de dicionários se contiverem apenas elementos imutáveis. Suportam empacotamento e desempacotamento ( tuple unpacking ): x, y = (10, 20).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *Usos da Palavra-Chave `final`*, em Variáveis e Parâmetros: A variável torna se uma constante. Uma vez inicializada com um valor ou referência, seu valor não pode mais ser reatribuído.
->
-> **Gabarito: B**
-
----
-
-### Teste 013
-**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
-A Plataforma Digital do Poder Judiciário Brasileiro (PDPJ-Br) foi criada com o intuito de integrar todos os tribunais brasileiros no que tange à gestão de processo judicial eletrônico. Entre as diretrizes relacionadas ao processo de desenvolvimento de módulos e serviços na PDPJ-Br, cabe salientar o emprego preferencial da linguagem de programação
-
-* **A)** Java.
-* **B)** Julia.
-* **C)** PHP.
-* **D)** Python.
-* **E)** Ruby.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, a linguagem Java, criada pela Sun Microsystems e atualmente mantida pela Oracle, foi concebida sob o paradigma da independência de plataforma, expresso pelo lema "Write Once, Run Anywhere" (WORA). Essa portabilidade é viabilizada por uma arquitetura em camadas composta por. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "Java".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Julia". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PHP". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jDK (Java Development Kit): O kit completo para engenheiros de software. Engloba toda a JRE mais ferramentas de desenvolvimento fundamentais: o compilador javac , empacotador jar , gerador de documentação javadoc , desassemblador javap e utilitários de diagnóstico e depuração ( jconsole , jstack , jps ).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Python". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, rAMALHO, Luciano. Python Fluente: Programação Clara, Concisa e Eficaz. 2. ed. São Paulo: Novatec, 2023. (Cap. 8 Dicas de Tipos em Funções; Cap. 14 Herança e Métodos Especiais).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ruby". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, código Fonte ( .java ): Arquivo de texto contendo as instruções escritas pelo programador em conformidade com as especificações da linguagem.
+> - **A) Correta.** Na arquitetura da JVM, a *Stack* armazena frames de métodos, tipos primitivos locais e ponteiros de referência; todos os objetos instanciados residem dinamicamente na *Heap*.
+> - **B) Incorreta.** Cada thread possui sua própria *Stack* privada; a *Heap* é que é compartilhada globalmente por todas as threads.
+> - **C) Incorreta.** Objetos na *Heap* permanecem vivos até que não haja mais referências ativas a eles a partir do grafo de raízes (*GC Roots*), sendo coletados de forma assíncrona pelo *Garbage Collector*.
+> - **D) Incorreta.** O *Garbage Collector* gerencia primordialmente a memória *Heap*; a *Stack* é liberada automaticamente no retorno de cada função.
+> - **E) Incorreta.** A *Heap* é organizada em gerações (*Young*, *Old/Tenured*) e não segue disciplina FIFO de fila.
 >
 > **Gabarito: A**
 
 ---
 
-### Teste 014
-**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
-Em Java, os métodos declarados sem modificadores em uma interface são implicitamente:
+### Teste 066
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na linguagem de programação Java, a respeito das palavras-chave de controle de acesso, modificadores de comportamento e tratamento da orientação a objetos, assinale a afirmativa correta:  
 
-* **A)** públicos e estáticos;
-* **B)** públicos e abstratos;
-* **C)** privados e estáticos;
-* **D)** públicos e finais;
-* **E)** privados e abstratos.
+* **A)** Um atributo declarado com o modificador `private` pode ser acessado diretamente por quaisquer subclasses pertencentes ao mesmo pacote da superclasse.
+* **B)** Uma classe declarada com o modificador `final` não pode ser estendida (não permite criação de subclasses), e um método marcado como `final` não pode ser sobrescrito (*overridden*).
+* **C)** Interfaces em Java não podem conter assinaturas de métodos abstratos, permitindo apenas constantes estáticas.
+* **D)** O operador relacional `==` compara o conteúdo semântico e alfanumérico de dois objetos da classe `String`, enquanto o método `.equals()` compara estritamente os endereços de memória.
+* **E)** O bloco `finally` em uma estrutura de tratamento `try-catch-finally` é opcional e nunca é executado quando uma exceção é capturada com sucesso pelo bloco `catch`.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "públicos e estáticos". De acordo com a teoria estudada em *Promises (Promessas)*, métodos Estáticos de Combinação.
-> - **B)** **Correta.** Conforme fundamentado na seção *2. Interface `Set` (Conjuntos)* deste guia, coleção matemática que não permite elementos duplicados (baseia se nos métodos hashCode() e equals() ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "públicos e abstratos".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "privados e estáticos". De acordo com a teoria estudada em *1.4 Modificadores de Acesso e a Palavra-Chave `final`*, o encapsulamento e o design estrutural em Java apoiam se em quatro níveis de visibilidade.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "públicos e finais". De acordo com a teoria estudada em *3. Interface `Map` (Mapas / Dicionários)*, associa chaves exclusivas a valores correspondentes (pares chave valor). Não estende java.util.Collection.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "privados e abstratos". De acordo com a teoria estudada em *Expressões Lambda e Interfaces Funcionais (Java 8+)*, uma Interface Funcional é qualquer interface que possua exatamente um único método abstrato (marcada com @FunctionalInterface ), como Runnable , Callable , Comparator e as interfaces padronizadas do pacote java.util.function.
->
+> - **A)** Incorreta. Atributos declarados com `private` são estritamente restritos ao corpo da própria classe declarante. Nem mesmo subclasses dentro do mesmo pacote possuem acesso direto a eles. O modificador que autorizaria o acesso no mesmo pacote e em subclasses de pacotes externos seria o `protected`.
+> - **B)** **CORRETA.** A palavra-chave `final` possui tríplice funcionalidade em Java: em variáveis cria constantes cujo valor/referência não pode ser reatribuído; em métodos impede a sobrescrita por subclasses; em classes proíbe a herança e extensão (como ocorre com a classe `java.lang.String`).
+> - **C)** Incorreta. A finalidade primária das interfaces em Java sempre foi justamente declarar assinaturas de métodos abstratos a serem implementados por classes concretas.
+> - **D)** Incorreta. Pegadinha recorrente da FCC que inverte os papéis: o operador `==` compara a identidade de referências no Heap (se apontam para o mesmo endereço físico), enquanto o método `.equals()` avalia a igualdade semântica de conteúdo.
+> - **E)** Incorreta. O bloco `finally` é executado **sempre**, tenha ou não ocorrido exceção no `try`, tenha ela sido capturada ou não no `catch`.
+> 
 > **Gabarito: B**
 
 ---
 
-### Teste 015
-**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
-Uma aplicação Java EE utiliza JPA em conjunto com o provedor de persistência Hibernate. Esta aplicação estabelece conexão com um banco de dados chamado empresa que possui uma tabela departamento. O banco de dados é acessado por meio do usuário root, cuja senha é pC43Ab. Nestas condições, uma instrução correta que pode estar no arquivo persistence.xml é
+### Teste 067
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No ecossistema da linguagem Java, o tratamento robusto de erros baseia-se na hierarquia da classe `java.lang.Throwable`. A respeito da distinção entre *Checked Exceptions* (exceções checadas) e *Unchecked Exceptions* (exceções não checadas), assinale a afirmativa correta:  
 
-* **A)** <provider name="org.hibernate.ejb.HibernatePersistence" value="Hibernate"/>
-* **B)** <persistence-database name="hibernate.connection.databasename" value="empresa"/>
-* **C)** <property name="hibernate.connection.username" value="root"/>
-* **D)** <table name="hibernate.connection.tablename" value="departamento"/>
-* **E)** <persistence name="persistence.createEntityManagerFactory" value="PersistenceUnit"/>
+* **A)** Exceções filhas de `java.lang.RuntimeException`, como `NullPointerException` e `IllegalArgumentException`, são do tipo *Checked Exceptions* e exigem tratamento obrigatório com bloco `try-catch` em tempo de compilação.
+* **B)** A classe `java.lang.Error` e suas subclasses representam condições anormais graves de ambiente (como `OutOfMemoryError`), que são consideradas *Unchecked* e não devem ser capturadas na rotina de negócio da aplicação.
+* **C)** O compilador Java não impõe nenhuma exigência sobre classes derivadas de `java.lang.Exception`, tornando o uso de blocos `try-catch` facultativo para operações de E/S de arquivos (`IOException`).
+* **D)** As palavras-chave `throw` e `throws` são perfeitamente intercambiáveis, podendo ambas ser empregadas para lançar explicitamente uma nova instância de exceção dentro de um bloco de código.
+* **E)** A cláusula `finally` anula a necessidade de declaração de exceções na assinatura do método com `throws`.
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<provider name="org.hibernate.ejb.HibernatePersistence" value="Hibernate"/". De acordo com a teoria estudada em *A Memória Heap*, o tamanho do Heap pode ser configurado na inicialização da aplicação pelos parâmetros Xms (tamanho inicial) e Xmx (tamanho máximo).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<persistence database name="hibernate.connection.databasename" value="empresa"/". De acordo com a teoria estudada em *CommonJS (CJS) vs. ECMAScript Modules (ESM)*, variáveis Globais Mágicas: Suporta dirname e filename — Não possui dirname nativo (utiliza se import.meta.url ).
-> - **C)** **Correta.** Conforme fundamentado na seção *2. `java.lang.Exception` e as Checked Exceptions (Exceções Checadas)* deste guia, representam condições externas previsíveis e recuperáveis (ex.: rede indisponível, arquivo inexistente). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "<property name="hibernate.connection.username" value="root"/".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<table name="hibernate.connection.tablename" value="departamento"/". De acordo com a teoria estudada em *1.6 Java Collections Framework: List, Set, Queue e Map*, s HS["HashSet (Hash Table O(1) Médio)"].
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<persistence name="persistence.createEntityManagerFactory" value="PersistenceUnit"/". De acordo com a teoria estudada em *Gerenciadores de Contexto com a Instrução `with`*, por debaixo dos panos, o gerenciador de contexto implementa o protocolo de contexto por meio dos métodos especiais enter () (executado na entrada) e exit () (executado na saída).
->
-> **Gabarito: C**
-
----
-
-### Teste 016
-**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-Um dos conceitos mais importantes da orientação a objetos é o de interface. Interfaces podem reduzir o acoplamento entre as classes e tornar o código mais reutilizável. Em Java, as interfaces
-
-* **A)** podem ou não fornecer implementação de métodos, apesar de ser mais comum implementá-los apenas nas classes que as implementam.
-* **B)** podem ser implementadas apenas por classes que utilizam em sua declaração a palavra extends.
-* **C)** não podem ter campos de instância, mas permitem a especificação de constantes.
-* **D)** podem ser instanciadas de outras classes, desde que estejam no mesmo pacote.
-* **E)** podem ter seus objetos convertidos no tipo classe diretamente, sem a realização de typecasting.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "podem ou não fornecer implementação de métodos, apesar de ser mais comum implementá los apenas nas classes que as...". De acordo com a teoria estudada em *Classes Wrapper (Invólucros)*, permitem que tipos básicos sejam armazenados em coleções genéricas ( List<Integer , Map<String, Double ), pois as coleções Java aceitam estritamente objetos.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "podem ser implementadas apenas por classes que utilizam em sua declaração a palavra extends". De acordo com a teoria estudada em *O Coletor de Lixo (Garbage Collector - GC)*, metaspace (antigo PermGen): Armazena metadados de classes carregadas e constantes de reflexão (alocado fora da memória do heap principal desde o Java 8, na memória nativa do SO).
-> - **C)** **Correta.** Conforme fundamentado na seção *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos* deste guia, tuplas ( tuple ): Estruturas imutáveis mais leves em consumo de memória que listas. Podem ser utilizadas como chaves de dicionários se contiverem apenas elementos imutáveis. Suportam empacotamento e desempacotamento ( tuple unpacking ): x, y = (10, 20). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "não podem ter campos de instância, mas permitem a especificação de constantes".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "podem ser instanciadas de outras classes, desde que estejam no mesmo pacote". De acordo com a teoria estudada em *1.4 Modificadores de Acesso e a Palavra-Chave `final`*, modificador: Mesma Classe — Classes do Mesmo Pacote — Subclasses em Outro Pacote — Outras Classes Externas.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "podem ter seus objetos convertidos no tipo classe diretamente, sem a realização de typecasting". De acordo com a teoria estudada em *Classes Wrapper (Invólucros)*, para cada tipo primitivo, Java fornece uma classe correspondente no pacote java.lang ( Boolean , Byte , Short , Character , Integer , Long , Float , Double ).
->
-> **Gabarito: C**
+> - **A)** Incorreta. Subclasses de `java.lang.RuntimeException` são precisamente o modelo clássico de **Unchecked Exceptions**; o compilador não exige bloco `try-catch` nem declaração formal com `throws`.
+> - **B)** **CORRETA.** Subclasses de `java.lang.Error` sinalizam falhas catastróficas da infraestrutura da JVM das quais a aplicação normalmente não consegue se recuperar (ex.: falta de memória, estouro de pilha). São consideradas não checadas (*Unchecked*) e não devem ser tratadas pelo código de negócio.
+> - **C)** Incorreta. Classes derivadas de `java.lang.Exception` que não herdam de `RuntimeException` (como `IOException` e `SQLException`) são *Checked Exceptions* e o compilador impõe rigorosamente a obrigatoriedade de captura (`try-catch`) ou declaração de repasse na assinatura (`throws`).
+> - **D)** Incorreta. `throw` é uma instrução imperativa para disparar uma instância de exceção (`throw new Exception()`), enquanto `throws` é um modificador de assinatura de método que lista as exceções checadas passíveis de propagação.
+> - **E)** Incorreta. O bloco `finally` garante a execução de rotinas de limpeza, mas não exime o método de declarar com `throws` eventuais exceções checadas não tratadas nos blocos `catch`.
+> 
+> **Gabarito: B**
 
 ---
 
-### Teste 017
-**(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-Considere o código-fonte a seguir: import java.util.Scanner; public class T16 { static int a[] = {1, 6, 9, 10, 12, 18, 21, 34}; public static void main(String[] args) { Scanner in = new Scanner(System.in); System.out.print("Digite um valor:"); int v = in.nextInt(); int r = service(v); if (r == -1) { System.out.println("Sem êxito"); } else { System.out.print(r + " -> " + v); } } public static int service(int valor) { int l = 0; int h = a.length - 1; while (l <= h) { int m = (l + h) / 2; int d = a[m] - valor; if (d == 0) { return m; } else if (d < 0) { l = m + 1; } else { h = m - 1; } } return -1; } } É correto afirmar que a classe Java apresentada implementa uma
 
-* **A)** pesquisa linear.
-* **B)** são uma declaração formal de um usuário em relação àquilo que é necessário, por exemplo, um requisito de nível de serviço, um requisito de projeto ou os entregáveis necessários para um processo.
-* **C)** são requeridas para implementar uma mudança padrão e elas são registradas e rastreadas usando um PPO (Pro- cedimento Padrão de Operação).
-* **D)** podem estar vinculadas a uma requisição para mudança como parte do processo Cumprimento de Requisições, do estágio Operação de Serviço.
-* **E)** possuem tipos de categorias que são usadas para distinguir as requisições feitas a uma central de serviços, como evento, falha, requisição de mudança, reclamação e pedido de instalação de software.
+#### 3. `java.lang.RuntimeException` e as *Unchecked Exceptions* (Não Checadas)
+Subclasses de `RuntimeException` (ex.: `NullPointerException`, `ArithmeticException`, `ArrayIndexOutOfBoundsException`, `IllegalArgumentException`).
 
----
+- Decorrem normalmente de falhas de lógica do programador, bugs ou violações de pré-condições.
+- O compilador **não obriga** captura nem declaração com `throws`.
 
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pesquisa linear". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jDK (Java Development Kit): O kit completo para engenheiros de software. Engloba toda a JRE mais ferramentas de desenvolvimento fundamentais: o compilador javac , empacotador jar , gerador de documentação javadoc , desassemblador javap e utilitários de diagnóstico e depuração ( jconsole , jstack , jps ).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são uma declaração formal de um usuário em relação àquilo que é necessário, por exemplo, um requisito de nível de...". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são requeridas para implementar uma mudança padrão e elas são registradas e rastreadas usando um PPO (Pro...". De acordo com a teoria estudada em *Promises (Promessas)*, um objeto Promise representa o resultado eventual (sucesso ou falha) de uma operação assíncrona, transitando entre três estados mutuamente exclusivos.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "podem estar vinculadas a uma requisição para mudança como parte do processo Cumprimento de Requisições, do estágio...". De acordo com a teoria estudada em *O Coletor de Lixo (Garbage Collector - GC)*, a chamada a System.gc() apenas sugere à JVM que execute uma coleta de lixo, mas não garante a execução imediata nem determinística do processo.
-> - **E)** **Correta.** Conforme fundamentado na seção *2. Requisições HTTP e Web Scraping* deste guia, biblioteca requests : Padrão de fato para consumo de serviços HTTP. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 16ª/2014) ao estabelecer que "possuem tipos de categorias que são usadas para distinguir as requisições feitas a uma central de serviços, como...".
->
-> **Gabarito: E**
+#### Mecanismos de Tratamento: `try-catch-finally` e `try-with-resources`
+- **`try`:** Demarca o bloco de código protegido sujeito a falhas.
+- **`catch`:** Captura e trata exceções do tipo compatível especificado no parâmetro. É possível capturar múltiplos tipos em um único catch (*multi-catch*): `catch (IOException | SQLException e)`.
+- **`finally`:** Bloco que é executado **sempre e incondicionalmente**, tenha ocorrido exceção ou não, tenha havido `return` no `try` ou no `catch`. A única exceção ocorre se a JVM for terminada abruptamente por `System.exit(0)`. Utilizado historicamente para fechamento de conexões, fluxos e arquivos.
+- **`try-with-resources` (Java 7+):** Declara recursos que implementam a interface `java.lang.AutoCloseable` diretamente nos parênteses da instrução `try`. Garante o fechamento automático e determinístico do recurso ao término do bloco, dispensando chamadas manuais a `.close()` no `finally`:
 
----
+```java
+try (BufferedReader br = new BufferedReader(new FileReader("auditoria.log"))) {
+    String linha = br.readLine();
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
 
-### Teste 018
-**(FCC – TRT 24ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
-Considere o grupo integrado de ferramentas, mostrado na figura abaixo, que forma um sistema de modelagem de negócios de uma organização. I As aplicações geradas pela organização operam dentro do e o negócio acessa este ambiente para executar as opera-  ções. Os modelos definem o negócio (contexto), regras (lógica, quais dados coletar, de onde, o que fazer) e interfaces (dentro do contexto de uso). Com uma camada de dados compatível com II disponível, a funcionalidade de sistemas legados  estará aberta e os dados legados poderão ser integrados. Preenchem as lacunas I e II, correta e respectivamente:
-
-* **A)** SOA e SOAP
-* **B)** BPMS e SOA
-* **C)** Servidor e GIT/Mercurial
-* **D)** Web Service e REST
-* **E)** Eclipse e Java
+- **`throw` vs. `throws`:**
+    - `throw`: Palavra-chave utilizada para lançar ativamente uma instância de exceção no fluxo de execução (`throw new IllegalArgumentException("Valor inválido");`).
+    - `throws`: Modificador presente na declaração da assinatura do método que avisa aos chamadores que aquele método pode disparar certas exceções checadas (`public void gravar() throws IOException`).
 
 ---
 
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SOA e SOAP". De acordo com a teoria estudada em *1. `java.lang.Error` (Unchecked)*, representa falhas catastróficas graves de infraestrutura e do ambiente de execução da JVM (como exaustão de memória ou estouro de pilha). Não são tratáveis pelo código de negócio da aplicação e não devem ser capturadas por blocos try catch.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BPMS e SOA". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, non blocking I/O (E/S Não Bloqueante): Chamadas de entrada e saída (rede, banco de dados) não bloqueiam a thread principal de execução. A operação é delegada à camada inferior e, ao ser concluída, o callback ou promessa correspondente é enfileirado para processamento.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 24ª/2017) ao estabelecer que "Servidor e GIT/Mercurial".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Web Service e REST". De acordo com a teoria estudada em *Operadores Spread e Rest (`..`)*, spread Operator (na expressão): Espalha e desmembra os elementos de um iterável (array, objeto, string) dentro de uma nova estrutura, facilitando clones superficiais ( shallow copies ) e mesclagens.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Eclipse e Java". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jDK (Java Development Kit): O kit completo para engenheiros de software. Engloba toda a JRE mais ferramentas de desenvolvimento fundamentais: o compilador javac , empacotador jar , gerador de documentação javadoc , desassemblador javap e utilitários de diagnóstico e depuração ( jconsole , jstack , jps ).
->
-> **Gabarito: C**
+### Teste 068
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No *Java Collections Framework*, as três interfaces fundamentais de coleção (`List`, `Set` e `Map`) apresentam características estruturais distintas. A respeito dessas estruturas, é correto afirmar:
 
----
+* **A)** A interface `Set` permite armazenar elementos duplicados e garante a recuperação estrita na ordem exata de inserção em todas as suas implementações.
+* **B)** A interface `List` representa uma coleção ordenada que admite elementos duplicados e permite o acesso posicional aos elementos por meio de índices inteiros.
+* **C)** A classe `HashMap` proíbe o armazenamento de valores nulos e garante que as chaves fiquem automaticamente ordenadas alfabeticamente.
+* **D)** A classe `TreeSet` não exige que seus elementos implementem a interface `Comparable` ou utilizem um `Comparator`.
+* **E)** As chaves de um `Map` podem conter elementos repetidos, desde que seus valores associados sejam estritamente nulos.
 
-### Teste 019
-**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
-A plataforma Java EE define um padrão de arquitetura de três camadas para o desenvolvimento de aplicações web: Camada de Apresentação (Web Tier), Camada de Negócio (Business Tier) e Camada de Integração (EIS Tier). Na camada de Negócio são representados
-
-* **A)** todos os componentes JSF (Java Server Faces).
-* **B)** componentes de persistência de objetos utilizando Hibernate e JPA (Java Persistence API).
-* **C)** os componentes EJB (Enterprise JavaBeans).
-* **D)** todos os componentes JSP.
-* **E)** os bancos de dados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todos os componentes JSF (Java Server Faces)". De acordo com a teoria estudada em *Flask (Microframework WSGI)*, baseado no padrão WSGI ( Web Server Gateway Interface ) síncrono.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "componentes de persistência de objetos utilizando Hibernate e JPA (Java Persistence API)". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, a linguagem Java, criada pela Sun Microsystems e atualmente mantida pela Oracle, foi concebida sob o paradigma da independência de plataforma, expresso pelo lema "Write Once, Run Anywhere" (WORA). Essa portabilidade é viabilizada por uma arquitetura em camadas composta por.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "os componentes EJB (Enterprise JavaBeans)".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todos os componentes JSP". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jDK (Java Development Kit): O kit completo para engenheiros de software. Engloba toda a JRE mais ferramentas de desenvolvimento fundamentais: o compilador javac , empacotador jar , gerador de documentação javadoc , desassemblador javap e utilitários de diagnóstico e depuração ( jconsole , jstack , jps ).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os bancos de dados". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, non blocking I/O (E/S Não Bloqueante): Chamadas de entrada e saída (rede, banco de dados) não bloqueiam a thread principal de execução. A operação é delegada à camada inferior e, ao ser concluída, o callback ou promessa correspondente é enfileirado para processamento.
+> - **A) Incorreta.** `Set` não permite elementos duplicados; implementações como `HashSet` não garantem ordem alguma.
+> - **B) Correta.** `List` é uma sequência ordenada (*index-based*) que aceita elementos duplicados e permite consultas diretas via índice (como `get(i)`).
+> - **C) Incorreta.** `HashMap` permite uma chave nula e múltiplos valores nulos, e não garante ordenação (a classe que ordena é `TreeMap`).
+> - **D) Incorreta.** `TreeSet` ordena seus elementos com base na ordem natural (`Comparable`) ou em um `Comparator` explícito.
+> - **E) Incorreta.** As chaves de um `Map` são únicas (comportam-se como um `Set`).
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
@@ -830,6 +534,128 @@ function criarContador(inicial) {
 const contador = criarContador(10);
 console.log(contador.incrementar()); // 11
 ```
+
+---
+
+### Teste 069
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em JavaScript moderno, a utilização de variáveis e a criação de funções de fechamento (*closures*) dentro de laços de repetição assíncronos comportam-se de maneira distinta dependendo de como as variáveis são declaradas. Analise os dois fragmentos de código abaixo:
+
+**Fragmento 1:**
+
+```javascript
+for (var i = 0; i < 3; i++) {
+    setTimeout(() => console.log("F1:", i), 100);
+}
+```
+
+**Fragmento 2:**
+
+```javascript
+for (let j = 0; j < 3; j++) {
+    setTimeout(() => console.log("F2:", j), 100);
+}
+```
+
+Após o término dos temporizadores de 100 milissegundos, as saídas produzidas pelos Fragmentos 1 e 2 serão, respectivamente:  
+
+* **A)** Fragmento 1: `F1: 0`, `F1: 1`, `F1: 2` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
+* **B)** Fragmento 1: `F1: 3`, `F1: 3`, `F1: 3` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
+* **C)** Fragmento 1: `F1: 3`, `F1: 3`, `F1: 3` ; Fragmento 2: `F2: 3`, `F2: 3`, `F2: 3`.
+* **D)** Fragmento 1: `F1: 0`, `F1: 1`, `F1: 2` ; Fragmento 2: `F2: 3`, `F2: 3`, `F2: 3`.
+* **E)** Fragmento 1: `F1: undefined`, `F1: undefined`, `F1: undefined` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Supõe que `var` preservaria o escopo individual de cada iteração, o que não ocorre sem técnicas como IIFE em JavaScript legado.
+> - **B)** **CORRETA.** Explicação do escopo e closures:
+>     1. **No Fragmento 1 (`var i = 0`):** `var` possui escopo de função/global. Existe uma única variável `i` compartilhada por todas as 3 iterações do laço. O laço executa sincronicamente e eleva `i` até 3 (condição de parada). Quando os 3 callbacks do `setTimeout` disparam 100ms depois, todos consultam a mesma variável compartilhada `i`, exibindo: `F1: 3`, `F1: 3`, `F1: 3`.
+>     2. **No Fragmento 2 (`let j = 0`):** `let` possui escopo de bloco. O padrão ECMAScript vincula uma nova variável `j` independente a cada iteração do laço `for`. A closure de cada callback preserva o valor capturado de sua respectiva iteração (0, 1 e 2). Ao executarem, exibem: `F2: 0`, `F2: 1`, `F2: 2`.
+>
+> - **C)** Incorreta. Assume erroneamente que o `let` se comportaria com o mesmo defeito de escopo compartilhado de `var`.
+> - **D)** Incorreta. Inverte o comportamento entre as declarações `var` e `let`.
+> - **E)** Incorreta. A variável `i` foi devidamente incrementada até o valor 3 no escopo circundante, portanto não é avaliada como `undefined`.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 070
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em JavaScript moderno, a comparação de valores pode ser realizada por meio do operador de igualdade abstrata (`==`) ou do operador de igualdade estrita (`===`). Considere as seguintes expressões avaliadas pelo interpretador JavaScript:  
+
+I. `5 == "5"`  
+II. `5 === "5"`  
+III. `null === undefined`  
+
+Os valores booleanos resultantes da avaliação das expressões I, II e III são, respectivamente:
+
+* **A)** `true`, `true` e `true`
+* **B)** `true`, `false` e `false`
+* **C)** `false`, `true` e `false`
+* **D)** `false`, `false` e `true`
+* **E)** `true`, `false` e `true`
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **I. `5 == "5"`:** Retorna `true` porque o operador de igualdade abstrata (`==`) realiza coerção de tipos (*type coercion*), convertendo a string `"5"` para o número `5`.
+> - **II. `5 === "5"`:** Retorna `false` porque o operador de igualdade estrita (`===`) verifica tipo e valor sem coerção (`number !== string`).
+> - **III. `null === undefined`:** Retorna `false` porque são tipos primitivos distintos (`Null` vs `Undefined`). Nota: sob igualdade abstrata (`null == undefined`), o retorno seria `true`.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 071
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere o seguinte trecho de código escrito na linguagem Python 3:
+
+```python
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+resultado = [x * 2 for x in numeros if x % 2 != 0 and x > 3]
+print(resultado)
+```
+
+A execução correta desse código gerará no terminal a saída:  
+
+* **A)** `[8, 12, 16, 20]`
+* **B)** `[10, 14, 18]`
+* **C)** `[5, 7, 9]`
+* **D)** `[10, 14, 18, 22]`
+* **E)** `[2, 6, 10, 14]`
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Essa lista decorreria da filtragem de números pares maiores que 3 (`4, 6, 8, 10`) multiplicados por 2.
+> - **B)** **CORRETA.** Analisando a List Comprehension:
+>     1. O laço percorre os inteiros de 1 a 10.
+>     2. O filtro condicional `if x % 2 != 0 and x > 3` seleciona números que sejam simultaneamente ímpares (`1, 3, 5, 7, 9`) e estritamente maiores que 3 (`x > 3`). Os únicos elementos que atendem a ambos os predicados são `5, 7, 9`.
+>     3. A expressão de transformação `x * 2` dobra cada número aprovado: $5 \times 2 = 10$, $7 \times 2 = 14$ e $9 \times 2 = 18$. A lista final impressa é `[10, 14, 18]`.
+>
+> - **C)** Incorreta. Apresenta apenas os valores originais filtrados antes da aplicação da projeção `x * 2`.
+> - **D)** Incorreta. Inclui o elemento 22, mas o valor máximo da lista original é 10 e o maior ímpar é 9 ($9 \times 2 = 18$).
+> - **E)** Incorreta. Dobra os números ímpares menores ou iguais a 3, desrespeitando o predicado `x > 3`.
+> 
+> **Gabarito: B**
+
+---
+
+
+#### Arrow Functions
+Funções anônimas concisas com sintaxe de seta `() => {}`. Possuem duas diferenças semânticas cruciais em relação às funções tradicionais declaradas com `function`:
+
+1. **Vinculação Léxica do `this`:** As arrow functions **não possuem seu próprio contexto `this`**. Elas capturam o valor de `this` do escopo léxico envolvente no momento de sua definição. Não podem ser alteradas por `.bind()`, `.call()` ou `.apply()`.
+2. **Não são construtoras:** Não possuem método interno `[[Construct]]`, não podem ser chamadas com o operador `new` e não possuem a propriedade `prototype`.
+3. **Ausência do objeto `arguments`:** Para capturar parâmetros variáveis, deve-se usar a sintaxe rest `(..args)`.
 
 ---
 
@@ -943,75 +769,76 @@ Introduzida no ES2017, funciona como açúcar sintático sobre Promises:
 
 ---
 
-### Teste 020
-**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
-Analise o código Node.JS, exibido a seguir, que estabelece um servidor HTTP que recebe e responde mensagens. var http = require('http'); http.createServer(function (req, res) { res.write('Ok'); res.end(); }).listen(8080); Assinale a afirmativa correta a respeito dessa operação.
+### Teste 072
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em relação ao modelo de execução assíncrona do ambiente Node.js e da linguagem JavaScript, considere o seguinte fragmento de código:
 
-* **A)** A função definida é executada somente em caso de erro de parâmetros.
-* **B)** A função definida é sempre executada no lado cliente.
-* **C)** O parâmetro req da função definida deve ser do tipo http.IncomingMessage object.
-* **D)** O parâmetro req da função definida é opcional.
-* **E)** O parâmetro res da função definida é opcional.
+```javascript
+console.log("A");
+
+setTimeout(() => {
+    console.log("B");
+}, 0);
+
+Promise.resolve().then(() => {
+    console.log("C");
+});
+
+console.log("D");
+```
+
+A ordem exata em que os caracteres serão impressos no console do terminal durante a execução desse script é:  
+
+* **A)** A, B, C, D
+* **B)** A, D, B, C
+* **C)** A, D, C, B
+* **D)** C, A, D, B
+* **E)** A, C, D, B
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A função definida é executada somente em caso de erro de parâmetros". De acordo com a teoria estudada em *Temporal Dead Zone (TDZ - Zona Morta Temporal)*, para tornar as propriedades de um objeto imutáveis em tempo de execução, deve se utilizar Object.freeze(config).
-> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "A função definida é sempre executada no lado cliente". De acordo com a teoria estudada em *Sintaxe `async` / `await`*, declarar uma função com a palavra chave async garante que ela sempre retornará uma Promise, empacotando valores primitivos automaticamente com Promise.resolve().
-> - **C)** **Correta.** Conforme fundamentado na seção *Módulos Nativos Essenciais do Node.js* deste guia, http / https : Permite instanciar servidores HTTP de alta performance sem depender de bibliotecas externas ( http.createServer((req, res) = { .. }) ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "O parâmetro req da função definida deve ser do tipo http.IncomingMessage object".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O parâmetro req da função definida é opcional". De acordo com a teoria estudada em *Funções Geradoras (`yield`) e Avaliação Preguiçosa (Lazy Evaluation)*, ao ser invocada, a função pausa sua execução no ponto do yield , salva todo o seu estado local e entrega o valor sob demanda para a iteração (via função nativa next() ).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O parâmetro res da função definida é opcional". De acordo com a teoria estudada em *2. Requisições HTTP e Web Scraping*, beautifulSoup ( bs4 ): Biblioteca para análise sintática ( parsing ) de documentos HTML e XML em raspagens de dados.
+> - **A)** Incorreta. Supõe uma execução linear tradicional síncrona, desconsiderando que o `setTimeout` e a resolução do método `.then()` de uma `Promise` são despachados para filas assíncronas do Event Loop.
+> - **B)** Incorreta. Supõe erroneamente que a macrotarefa agendada pelo `setTimeout(.., 0)` possui prioridade sobre a microtarefa da Promise. Na especificação do ECMAScript e no motor V8/libuv, a fila de microtarefas (*Microtask Queue*) é sempre completamente drenada antes de qualquer macrotarefa ser processada.
+> - **C)** **CORRETA.** Passo a passo da execução:
+>     1. O código síncrono é carregado e executado na Call Stack: `console.log("A")` imprime **A**.
+>     2. O `setTimeout` registra seu temporizador e despacha seu callback para a fila de macrotarefas (*Macrotask Queue*).
+>     3. `Promise.resolve().then(..)` agenda seu callback na fila de microtarefas prioritárias (*Microtask Queue*).
+>     4. O código síncrono prossegue na Call Stack: `console.log("D")` imprime **D**.
+>     5. A Call Stack fica vazia. O Event Loop drena primeiro todas as microtarefas pendentes: o callback da Promise executa e imprime **C**.
+>     6. Estando a fila de microtarefas limpa, o Event Loop busca a primeira macrotarefa da fila: o callback do `setTimeout` executa e imprime **B**. Ordem final: **A, D, C, B**.
 >
+> - **D)** Incorreta. Afirma que a Promise executaria antes mesmo do código síncrono inicial `console.log("A")`, o que é impossível, pois a Call Stack ainda não havia sido esvaziada.
+> - **E)** Incorreta. Afirma que a microtarefa executaria antes do encerramento do código síncrono `console.log("D")`. O Event Loop apenas inspeciona e drena filas assíncronas após o esvaziamento completo da Call Stack.
+> 
 > **Gabarito: C**
 
 ---
 
-### Teste 021
-**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
-O Swagger Editor é um editor de código aberto usado para projetar, definir e documentar APIs HTTP segundo a especificação OpenAPI. A respeito dos pré-requisitos necessários para o editor ser executado localmente, avalie os itens a seguir. I. Git em qualquer versão. II. Node.js em versão 20.3.0. ou superior. III. Npm em versão 9.6.7 ou superior. IV. OAuth em versão 2.0 ou superior. São pré-requisitos necessários para que o Swagger Editor seja executado localmente os indicados em
+### Teste 073
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em relação ao tratamento de operações assíncronas em JavaScript e Node.js utilizando *Promises* e a sintaxe `async/await`, assinale a afirmativa correta:
 
-* **A)** I e III, apenas.
-* **B)** II e IV, apenas.
-* **C)** I, II e III, apenas.
-* **D)** I, II e IV, apenas.
-* **E)** II, III e IV, apenas.
+* **A)** Uma função declarada com o modificador `async` sempre retorna implicitamente uma *Promise*, que resolve com o valor retornado pela função.
+* **B)** A palavra-chave `await` pode ser utilizada no corpo de qualquer função tradicional síncrona sem necessidade de declaração assíncrona.
+* **C)** Uma *Promise* rejeitada só pode ser tratada por meio de blocos de repetição `while(true)`.
+* **D)** O método `Promise.all()` aguarda a resolução de todas as promises do array, mesmo se uma delas for rejeitada imediatamente.
+* **E)** A execução de `await` bloqueia a thread principal do sistema operacional, impedindo a CPU de executar qualquer outro processo.
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *A Ordem Rígida de Execução*, microtask Queue: Imediatamente após a Call Stack esvaziar, o motor drena todas as microtarefas pendentes antes de qualquer macrotarefa. Se uma microtarefa enfileirar outra microtarefa, ela também será executada nesta mesma rodada. No Node.js, process.nextTick tem precedência até mesmo sobre as promessas.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e IV, apenas". De acordo com a teoria estudada em *3.5 Gerenciamento de Dependências com npm*, npx (Node Package Execute): Utilitário empacotado com o npm que permite baixar e executar binários de pacotes Node.js sob demanda sem precisar instalá los globalmente no sistema ( npx create react app meu app ).
-> - **C)** **Correta.** Conforme fundamentado na seção *FastAPI (Framework Moderno ASGI de Alta Performance)* deste guia, documentação Automática: Gera documentação interativa completa em conformidade com as especificações OpenAPI e Swagger UI acessível em /docs sem necessidade de código adicional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "I, II e III, apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, II e IV, apenas". De acordo com a teoria estudada em *1. `java.lang.Error` (Unchecked)*, representa falhas catastróficas graves de infraestrutura e do ambiente de execução da JVM (como exaustão de memória ou estouro de pilha). Não são tratáveis pelo código de negócio da aplicação e não devem ser capturadas por blocos try catch.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, III e IV, apenas". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, non blocking I/O (E/S Não Bloqueante): Chamadas de entrada e saída (rede, banco de dados) não bloqueiam a thread principal de execução. A operação é delegada à camada inferior e, ao ser concluída, o callback ou promessa correspondente é enfileirado para processamento.
->
-> **Gabarito: C**
-
----
-
-### Teste 022
-**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
-Uma aplicação que trabalha com Hibernate e EJB possui uma classe POJO − Plain Old Java Object utilizada no mapeamento objeto-relacional com uma tabela do banco de dados. Nessa classe, há um atributo calculado chamado valorTotalPedido que, para ser utilizado apenas em tempo de execução e descartado após finalizar o seu serviço temporário, deverá ser anotado com
-
-* **A)** @Embedded
-* **B)** @TemporaryAttribute
-* **C)** @GeneratedValue
-* **D)** @Transient
-* **E)** @Basic Atenção: Para responder às questões de números 33 e 34, utilize a página HTML abaixo. <html> <head> <title>Prova</title> <script type="text/javascript"> function ver() { var pontos = 0; I if ( ) {  pontos++; } document.getElementById("res").innerHTML = pontos; } </script> </head> <body> <form name="frm"> <p>
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@Embedded". De acordo com a teoria estudada em *Temporal Dead Zone (TDZ - Zona Morta Temporal)*, para tornar as propriedades de um objeto imutáveis em tempo de execução, deve se utilizar Object.freeze(config).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@TemporaryAttribute". De acordo com a teoria estudada em *1. `java.lang.Error` (Unchecked)*, representa falhas catastróficas graves de infraestrutura e do ambiente de execução da JVM (como exaustão de memória ou estouro de pilha). Não são tratáveis pelo código de negócio da aplicação e não devem ser capturadas por blocos try catch.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@GeneratedValue". De acordo com a teoria estudada em *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8*, tipagem Dinâmica: O tipo de dados é associado dinamicamente ao valor do objeto na memória em tempo de execução, e não ao nome da variável.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O* deste guia, non blocking I/O (E/S Não Bloqueante): Chamadas de entrada e saída (rede, banco de dados) não bloqueiam a thread principal de execução. A operação é delegada à camada inferior e, ao ser concluída, o callback ou promessa correspondente é enfileirado para processamento. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "@Transient".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@Basic Atenção: Para responder às questões de números 33 e 34, utilize a página HTML abaixo. <html <head <title...". De acordo com a teoria estudada em *2. Requisições HTTP e Web Scraping*, soup = BeautifulSoup(resposta.text, "html.parser").
+> - **A) Correta.** Toda função `async` empacota seu retorno automaticamente em uma `Promise.resolve(valor)`. Caso a função lance um erro, ela retorna uma `Promise.reject(erro)`.
+> - **B) Incorreta.** O operador `await` só pode ser usado dentro de funções declaradas como `async` (ou em módulos ES em nível superior - *top-level await*).
+> - **C) Incorreta.** Promises rejeitadas são tratadas com `.catch()` ou blocos `try/catch` ao redor de `await`.
+> - **D) Incorreta.** `Promise.all()` adota comportamento *fail-fast*: se qualquer promise falhar, ele rejeita imediatamente.
+> - **E) Incorreta.** `await` suspende apenas a execução da função assíncrona corrente sem bloquear a thread do Event Loop do Node.js (*non-blocking*).
 >
-> **Gabarito: D**
+> **Gabarito: A**
 
 ---
 
@@ -1186,465 +1013,62 @@ def obter_processo(id):
 
 ---
 
-### Teste 023
-**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
-A documentação técnica referente à API dos microsserviços desenvolvidos na PDPJ-Br deve seguir o padrão Swagger 2.0, a fim de garantir a compatibilidade com as especificações legadas dos sistemas antigos.
+### Teste 074
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na linguagem Python 3, duas das estruturas de dados sequenciais mais empregadas são as Listas (`list`) e as Tuplas (`tuple`). A diferença fundamental entre essas duas estruturas reside no fato de que:
 
-* **C)** Certo
-* **E)** Errado
+* **A)** As listas são imutáveis e delimitadas por parênteses `()`, enquanto as tuplas são mutáveis e delimitadas por colchetes `[]`.
+* **B)** As listas são mutáveis (podem ter elementos adicionados, alterados ou removidos após a criação), enquanto as tuplas são estritamente imutáveis.
+* **C)** As tuplas aceitam apenas dados numéricos inteiros, enquanto as listas aceitam apenas cadeias de texto (*strings*).
+* **D)** As listas não admitem elementos duplicados, enquanto as tuplas permitem duplicações infinitas.
+* **E)** As tuplas são armazenadas em disco rígido, enquanto as listas residem na memória cache do processador.
 
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A documentação técnica referente à API dos microsserviços desenvolvidos na PDPJ Br deve seguir o padrão...". De acordo com a teoria em *FastAPI (Framework Moderno ASGI de Alta Performance)*, documentação Automática: Gera documentação interativa completa em conformidade com as especificações OpenAPI e Swagger UI acessível em /docs sem necessidade de código adicional.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
-
----
-
-### Teste 024
-**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
-Durante a fase de seleção do fornecedor, a equipe de planejamento da contratação é responsável por apoiar o pregoeiro ou a comissão de licitação na análise e no julgamento das propostas e dos recursos apresentados pelas licitantes, bem como na condução de eventual prova de distribuída de microsserviços e à biblioteca Flyway, julgue os próximos itens.
-
-* **C)** Certo
-* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2. Requisições HTTP e Web Scraping*, beautifulSoup ( bs4 ): Biblioteca para análise sintática ( parsing ) de documentos HTML e XML em raspagens de dados. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STJ/2024) ao afirmar que "Durante a fase de seleção do fornecedor, a equipe de planejamento da contratação é responsável por apoiar o...".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
->
-> **Gabarito: C**
-
----
-
-### Teste 025
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
-Analise o código Python a seguir. L=[0,1,1,2,3] for k in range(4, -4, -1): print (L[k] + L[k % len(L)]) O resultado da execução desse código, na ordem, é:
-
-* **A)** 4, 2, 2, 0, 6, 4;
-* **B)** 6, 4, 2, 2, 0, 6, 4, 2, 2;
-* **C)** 6, 4, 2, 2, 0, 6, 4, 2;
-* **D)** 6, 4, 2, 2, 6, 4, 2;
-* **E)** 6, 4, 2, 0, 6, 4, 2.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4, 2, 2, 0, 6, 4". De acordo com a teoria estudada em *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8*, python é uma linguagem multiparadigma de alto nível focada na legibilidade do código.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "6, 4, 2, 2, 0, 6, 4, 2, 2". De acordo com a teoria estudada em *2.4 Escopo Léxico, Closures e Funções de Alta Ordem*, escopo Léxico: A resolução de nomes de identificadores é determinada pela posição estática do código fonte onde as funções foram escritas.
-> - **C)** **Correta.** Conforme fundamentado na seção *A Ordem Rígida de Execução* deste guia, call Stack: Executa todo o código síncrono até o final. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "6, 4, 2, 2, 0, 6, 4, 2".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "6, 4, 2, 2, 6, 4, 2". De acordo com a teoria estudada em *FastAPI (Framework Moderno ASGI de Alta Performance)*, validação com Pydantic: Utiliza type hints do Python padrão para realizar validação estrita de dados de entrada, conversão automática e serialização em tempo de execução.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "6, 4, 2, 0, 6, 4, 2". De acordo com a teoria estudada em *A Ordem Rígida de Execução*, microtask Queue: Imediatamente após a Call Stack esvaziar, o motor drena todas as microtarefas pendentes antes de qualquer macrotarefa. Se uma microtarefa enfileirar outra microtarefa, ela também será executada nesta mesma rodada. No Node.js, process.nextTick tem precedência até mesmo sobre as promessas.
->
-> **Gabarito: C**
-
----
-
-### Teste 026
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
-Observe a seguinte requisição em Hypertext Transfer Protocol (HTTP) feita a uma Application Programming Interface (API) RESTful: PUT http://webservice.tjapp/recursos/1 A respectiva resposta HTTP da API RESTful apresentou o código de status 204. Os dados apresentados acima indicam que a API RESTful processou a solicitação de:
-
-* **A)** obtenção de um recurso de forma bem-sucedida;
-* **B)** atualização de um recurso de forma malsucedida;
-* **C)** criação de um novo recurso de forma malsucedida;
-* **D)** atualização de um recurso de forma bem-sucedida;
-* **E)** criação de um novo recurso de forma bem-sucedida.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "obtenção de um recurso de forma bem sucedida". De acordo com a teoria estudada em *2. Requisições HTTP e Web Scraping*, resposta = requests.get("https://api.tce.go.gov.br/dados", timeout=10).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atualização de um recurso de forma malsucedida". De acordo com a teoria estudada em *Sintaxe `async` / `await`*, o operador await pausa a execução da função assíncrona até que a Promise seja resolvida, retomando a execução de forma não bloqueante. O tratamento de erros é feito de forma tradicional e idiomática por meio de blocos try catch.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "criação de um novo recurso de forma malsucedida". De acordo com a teoria estudada em *Stream API*, operações Intermediárias (Lazy avaliação preguiçosa): Retornam um novo Stream e não são executadas até que uma operação terminal seja disparada. Exemplos: .filter() , .map() , .sorted() , .distinct() , .flatMap().
-> - **D)** **Correta.** Conforme fundamentado na seção *Atribuição por Desestruturação (Destructuring Assignment)* deste guia, permite extrair dados de arrays ou propriedades de objetos diretamente em variáveis nomeadas de forma sucinta. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "atualização de um recurso de forma bem sucedida".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "criação de um novo recurso de forma bem sucedida". De acordo com a teoria estudada em *Comparação de Igualdade: `==` vs. `.equals()` e o String Pool*, string Pool: Literais de String criados com aspas duplas (ex.: String s1 = "tce"; String s2 = "tce"; ) são armazenados em um pool compartilhado no Heap. Nesses casos, s1 == s2 resulta em true porque ambos apontam para o mesmo objeto no pool. Contudo, se for instanciado com o operador new ( String s3 = new String("tce"); ), um novo objeto separado é alocado no Heap, fazendo com que s1 == s3 seja false , embora s1.equals(s3) retorne true.
->
-> **Gabarito: D**
-
----
-
-### Teste 027
-**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
-A documentação técnica referente à API dos microsserviços desenvolvidos na PDPJ-Br deve seguir o padrão Swagger 2.0, a fim de garantir a compatibilidade com as Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ), bem como na Portaria CNJ n.º 162/2021, que aprova protocolos e manuais criados pela referida Resolução, julgue os itens seguintes.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A documentação técnica referente à API dos microsserviços desenvolvidos na PDPJ Br deve seguir o padrão...". De acordo com a teoria em *Generics (Parametrização de Tipos)*, introduzidos no Java 5, conferem segurança de tipos em tempo de compilação ( type safety ), eliminando a necessidade de casts manuais e prevenindo erros do tipo ClassCastException em tempo de execução.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
-
----
-
-### Teste 028
-**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
-A ferramenta Zabbix 6 é amplamente usada para monitoramento de redes; sua instalação e configuração requer pacotes de terceiros. Com relação aos seus requisitos de instalação, analise os itens a seguir. I. O Zabbix é construído em torno de servidores web, servidores de banco de dados e da linguagem de script Python. II. Os servidores de bancos de dados suportados, por padrão, são MySQL, PostreSQL ou MS SQL Server. III. O frontend do Zabbix é suportado, por padrão, por servidores Web Apache. Está correto o que se afirma em
-
-* **A)** I, II e III.
-* **B)** I apenas.
-* **C)** II apenas.
-* **D)** III apenas.
-* **E)** II e III, apenas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2. Requisições HTTP e Web Scraping*, beautifulSoup ( bs4 ): Biblioteca para análise sintática ( parsing ) de documentos HTML e XML em raspagens de dados.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I apenas". De acordo com a teoria estudada em *FastAPI (Framework Moderno ASGI de Alta Performance)*, validação com Pydantic: Utiliza type hints do Python padrão para realizar validação estrita de dados de entrada, conversão automática e serialização em tempo de execução.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II apenas". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador.
-> - **D)** **Correta.** Conforme fundamentado na seção *Flask (Microframework WSGI)* deste guia, baseado no padrão WSGI ( Web Server Gateway Interface ) síncrono. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "III apenas".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, non blocking I/O (E/S Não Bloqueante): Chamadas de entrada e saída (rede, banco de dados) não bloqueiam a thread principal de execução. A operação é delegada à camada inferior e, ao ser concluída, o callback ou promessa correspondente é enfileirado para processamento.
->
-> **Gabarito: D**
-
----
-
-### Teste 029
-**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
-De acordo com os critérios e diretrizes técnicas para o processo de desenvolvimento de módulos e serviços na Plataforma Digital do Poder Judiciário Brasileiro, portaria CNJ n 253/2020, é correto afirmar que
-
-* **A)** é obrigatória a produção de relatório de cobertura de testes automatizados.
-* **B)** os microsserviços precisam ser coesos e manter a característica statefull para permitir maior escalabilidade.
-* **C)** deve ser adotada, preferencialmente, a linguagem de programação Python para implementar microsserviços.
-* **D)** aplicações monolíticas existentes devem manter suas funcionalidades na íntegra, sem decomposição funcional.
-* **E)** as interfaces de programação de aplicações (APIs) devem ser providas por meio de tecnologia SOAP.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *3.5 Gerenciamento de Dependências com npm* deste guia, dependencies : Bibliotecas essenciais para a execução do sistema em ambiente de produção (ex.: express , pg ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "é obrigatória a produção de relatório de cobertura de testes automatizados".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os microsserviços precisam ser coesos e manter a característica statefull para permitir maior escalabilidade". De acordo com a teoria estudada em *Generics (Parametrização de Tipos)*, em tempo de compilação, o Java realiza o Type Erasure (apagamento de tipo), removendo os metadados genéricos para manter compatibilidade binária com versões legadas da JVM.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve ser adotada, preferencialmente, a linguagem de programação Python para implementar microsserviços". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, rAMALHO, Luciano. Python Fluente: Programação Clara, Concisa e Eficaz. 2. ed. São Paulo: Novatec, 2023. (Cap. 8 Dicas de Tipos em Funções; Cap. 14 Herança e Métodos Especiais).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aplicações monolíticas existentes devem manter suas funcionalidades na íntegra, sem decomposição funcional". De acordo com a teoria estudada em *1. `java.lang.Error` (Unchecked)*, representa falhas catastróficas graves de infraestrutura e do ambiente de execução da JVM (como exaustão de memória ou estouro de pilha). Não são tratáveis pelo código de negócio da aplicação e não devem ser capturadas por blocos try catch.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as interfaces de programação de aplicações (APIs) devem ser providas por meio de tecnologia SOAP". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, node.js é um ambiente de execução JavaScript construído sobre o motor V8 do Google Chrome, projetado para construir aplicações de rede escaláveis orientadas a eventos.
->
-> **Gabarito: A**
-
----
-
-### Teste 030
-**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia Da Informacao)**
-A plataforma digital do Poder Judiciário brasileiro (PDPJ-Br) é composta por um conjunto de aplicações e microsserviços que devem funcionar de forma harmônica. O TRF1 coordena um sistema processual público que pretende manter e aprimorar para se adequar à PDPJ-Br. Juntamente com os coordenadores dos projetos vigentes do sistema de tramitação processual eletrônica, o TRF1 deverá:
-
-* **A)** promover ações que possibilitem a troca de informações com os demais sistemas e redução dos custos de tecnologia da informação;
-* **B)** estabelecer planos de trabalho para descontinuar seus sistemas de tramitação processual eletrônica e adotar o sistema padronizado para uso na PDPJ-Br;
-* **C)** adequar as regras de negócio que atendem às peculiaridades regionais contempladas pelo sistema do tribunal para substituí-lo pelo sistema padronizado da PDPJ-Br;
-* **D)** hospedar o sistema do tribunal na PDPJ-Br na forma de um módulo ou microsserviço para uso exclusivo do tribunal e uso compartilhado dos recursos de nuvem da PDPJ-Br;
-* **E)** evoluir o sistema de tramitação processual do tribunal para os requisitos e conceitos da PDPJ-Br, com custos rateados entre os integrantes da rede do Poder Judiciário nacional.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "promover ações que possibilitem a troca de informações com os demais sistemas e redução dos custos de tecnologia...". De acordo com a teoria estudada em *Módulos Nativos Essenciais do Node.js*, os : Fornece informações do sistema operacional hospedeiro (CPUs, memória livre/total, arquitetura).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, bytecode: Conjunto de instruções executáveis padronizadas que independem do hardware e do sistema operacional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "estabelecer planos de trabalho para descontinuar seus sistemas de tramitação processual eletrônica e adotar o...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "adequar as regras de negócio que atendem às peculiaridades regionais contempladas pelo sistema do tribunal para...". De acordo com a teoria estudada em *1. `java.lang.Error` (Unchecked)*, representa falhas catastróficas graves de infraestrutura e do ambiente de execução da JVM (como exaustão de memória ou estouro de pilha). Não são tratáveis pelo código de negócio da aplicação e não devem ser capturadas por blocos try catch.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "hospedar o sistema do tribunal na PDPJ Br na forma de um módulo ou microsserviço para uso exclusivo do tribunal e...". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jVM (Java Virtual Machine): A máquina virtual abstrata instalada em cada sistema operacional específico (Windows, Linux, macOS). A JVM interpreta o bytecode e traduz suas instruções para o conjunto de instruções nativas do processador subjacente.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "evoluir o sistema de tramitação processual do tribunal para os requisitos e conceitos da PDPJ Br, com custos...". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador.
+> - **A) Incorreta.** A relação de delimitadores e mutabilidade está invertida.
+> - **B) Correta.** Listas (`[1, 2, 3]`) são coleções mutáveis; Tuplas (`(1, 2, 3)`) são imutáveis após a instanciação (o que confere segurança, performance e permite que tuplas de elementos imutáveis sejam usadas como chaves em dicionários).
+> - **C) Incorreta.** Ambas são heterogêneas e aceitam qualquer tipo de objeto Python.
+> - **D) Incorreta.** Ambas aceitam elementos duplicados.
+> - **E) Incorreta.** Ambas residem na memória RAM gerenciada pelo interpretador Python.
 >
 > **Gabarito: B**
 
 ---
 
-### Teste 031
-**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
-HTML5 introduziu uma série de novos recursos, elementos e atributos que ajudam os desenvolvedores na construção de sites mais modernos. Considerando essa nova versão da linguagem HTML, analise as afirmativas a seguir sobre os recursos que ela introduziu. I. ServerSockets – trata-se de uma tecnologia de comunicação bidirecional de última geração para o estabelecimento de conexões seguras entre os aplicativos web e o servidor. II. Eventos enviados pelo servidor – permite que servidores enviem dados para páginas da web mediante o protocolo HTTP, em que apenas os eventos críticos fluem do servidor web para os navegadores. III. Microdados − possibilita que os desenvolvedores criem seus próprios vocabulários além do HTML5 e estendam as páginas da web com semântica personalizada. IV. Geolocalização – viabiliza que visitantes possam optar por compartilhar sua localização física mediante seus aplicativos web. Está correto o que se afirma em
+### Teste 075
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere o seguinte trecho de código em Python 3:  
 
-* **A)** I e II, apenas.
-* **B)** II e III, apenas.
-* **C)** III e IV, apenas.
-* **D)** I, II e IV, apenas.
-* **E)** I, II e III, apenas.
+```python
+dados = [1, 2, 3, 4, 5, 6]
+resultado = [x * 2 for x in dados if x % 2 == 0]
+```
 
----
+Após a execução do código acima, o valor da variável `resultado` será:
 
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *Módulos Nativos Essenciais do Node.js*, http / https : Permite instanciar servidores HTTP de alta performance sem depender de bibliotecas externas ( http.createServer((req, res) = { .. }) ).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2. Requisições HTTP e Web Scraping*, soup = BeautifulSoup(resposta.text, "html.parser").
-> - **C)** **Correta.** Conforme fundamentado na seção *2. Requisições HTTP e Web Scraping* deste guia, beautifulSoup ( bs4 ): Biblioteca para análise sintática ( parsing ) de documentos HTML e XML em raspagens de dados. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "III e IV, apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, II e IV, apenas". De acordo com a teoria estudada em *O Coletor de Lixo (Garbage Collector - GC)*, young Generation (Geração Jovem): Onde novos objetos são inicialmente alocados (subdividida em espaço Eden e dois espaços Survivor S0 e S1). A coleta aqui é chamada de Minor GC.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, II e III, apenas". De acordo com a teoria estudada em *Gerenciadores de Contexto com a Instrução `with`*, garante a alocação e desalocação determinística de recursos (fechamento de conexões e arquivos), mesmo diante de exceções não tratadas.
->
-> **Gabarito: C**
+* **A)** `[2, 4, 6, 8, 10, 12]`
+* **B)** `[4, 8, 12]`
+* **C)** `[2, 6, 10]`
+* **D)** `[1, 2, 3]`
+* **E)** `[8, 12]`
 
----
-
-### Teste 032
-**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
-A arquitetura em três camadas surgiu no final dos anos 80 e ainda é comum na construção de sistemas de informação corporativos. As três camadas dessa arquitetura são
-
-* **A)** interface com o usuário, lógica de negócio e banco de dados.
-* **B)** interface com o usuário, microsserviços e repositório.
-* **C)** publicador, broker de eventos e assinante.
-* **D)** cliente, web server e banco de dados.
-* **E)** modelo, visão e controle.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O* deste guia, non blocking I/O (E/S Não Bloqueante): Chamadas de entrada e saída (rede, banco de dados) não bloqueiam a thread principal de execução. A operação é delegada à camada inferior e, ao ser concluída, o callback ou promessa correspondente é enfileirado para processamento. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "interface com o usuário, lógica de negócio e banco de dados".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "interface com o usuário, microsserviços e repositório". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "publicador, broker de eventos e assinante". De acordo com a teoria estudada em *Módulos Nativos Essenciais do Node.js*, events ( EventEmitter ): Núcleo do padrão Observer no Node.js, viabilizando emissão e escuta customizada de eventos ( emitter.on('evento', callback) e emitter.emit('evento', dados) ).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cliente, web server e banco de dados". De acordo com a teoria estudada em *Flask (Microframework WSGI)*, baseado no padrão WSGI ( Web Server Gateway Interface ) síncrono.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "modelo, visão e controle". De acordo com a teoria estudada em *1. `java.lang.Error` (Unchecked)*, representa falhas catastróficas graves de infraestrutura e do ambiente de execução da JVM (como exaustão de memória ou estouro de pilha). Não são tratáveis pelo código de negócio da aplicação e não devem ser capturadas por blocos try catch.
->
-> **Gabarito: A**
-
----
-
-### Teste 033
-**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
-A Portaria 252/2020 do Conselho Nacional de Justiça dispõe sobre o Modelo de Governança e Gestão da Plataforma Digital do Poder Judiciário (PDPJ-Br). A respeito das atribuições que competem ao Comitê Gestor Nacional do PDPJ-Br, que exerce a supervisão geral da Plataforma, avalie as afirmativas a seguir. I. Homologar e propor ajustes aos projetos de desenvolvimento de microsserviços sugeridos pela Gerência Executiva e pelos Comitês Gestores dos tribunais. II. Propor à Presidência, mediante sugestão do Comitê Gestor Nacional da PDPJ, a política de tecnologia da informação a ser seguida pela PDPJ-Br. III. Propor normas regulamentadoras à Comissão Permanente de Tecnologia da Informação e Infraestrutura do Conselho Nacional de Justiça. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e III, apenas.
-* **E)** II e III, apenas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jDK (Java Development Kit): O kit completo para engenheiros de software. Engloba toda a JRE mais ferramentas de desenvolvimento fundamentais: o compilador javac , empacotador jar , gerador de documentação javadoc , desassemblador javap e utilitários de diagnóstico e depuração ( jconsole , jstack , jps ).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1.2 Gerenciamento de Memória: Stack vs. Heap e Garbage Collection*, a JVM gerencia automaticamente o ciclo de vida da memória alocada, dividindo a primariamente em duas áreas fundamentais de armazenamento.
-> - **D)** **Correta.** Conforme fundamentado na seção *1. `java.lang.Error` (Unchecked)* deste guia, representa falhas catastróficas graves de infraestrutura e do ambiente de execução da JVM (como exaustão de memória ou estouro de pilha). Não são tratáveis pelo código de negócio da aplicação e não devem ser capturadas por blocos try catch. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "I e III, apenas".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, motor V8: Compila o código JavaScript em código de máquina de alto desempenho e gerencia a Call Stack e a memória (Heap).
->
-> **Gabarito: D**
-
----
-
-### Teste 034
-**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
-O DMBOK é organizado em torno de onze Áreas de Conhecimento do Framework de Gerenciamento de Dados DAMA-DMBOK. Essas áreas abrangem o escopo e o contexto de diversos conjuntos de atividades relacionadas ao gerenciamento de dados, incorporando os objetivos e princípios fundamentais dessa disciplina. A área de conhecimento que aborda a definição e o planejamento para a gestão dos ativos de dados, alinhando-os com a estratégia organizacional para estabelecer uma estrutura de dados eficiente, é a de
-
-* **A)** Governança de Dados.
-* **B)** Segurança de Dados.
-* **C)** Arquitetura de Dados.
-* **D)** Metadados.
-* **E)** Documentação e Gestão do Conteúdo.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Governança de Dados". De acordo com a teoria estudada em *1.2 Gerenciamento de Memória: Stack vs. Heap e Garbage Collection*, a JVM gerencia automaticamente o ciclo de vida da memória alocada, dividindo a primariamente em duas áreas fundamentais de armazenamento.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Segurança de Dados". De acordo com a teoria estudada em *Usos da Palavra-Chave `final`*, em Classes: Impede que a classe seja herdada/estendida por subclasses (ex.: a classe java.lang.String e todas as classes wrapper são final por razões de segurança e imutabilidade).
-> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O* deste guia, non blocking I/O (E/S Não Bloqueante): Chamadas de entrada e saída (rede, banco de dados) não bloqueiam a thread principal de execução. A operação é delegada à camada inferior e, ao ser concluída, o callback ou promessa correspondente é enfileirado para processamento. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "Arquitetura de Dados".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Metadados". De acordo com a teoria estudada em *3.5 Gerenciamento de Dependências com npm*, package.json : Manifesto do projeto contendo metadados, scripts executáveis ( npm run build ) e declaração de dependências.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Documentação e Gestão do Conteúdo". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jDK (Java Development Kit): O kit completo para engenheiros de software. Engloba toda a JRE mais ferramentas de desenvolvimento fundamentais: o compilador javac , empacotador jar , gerador de documentação javadoc , desassemblador javap e utilitários de diagnóstico e depuração ( jconsole , jstack , jps ).
->
-> **Gabarito: C**
-
----
-
-### Teste 035
-**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
-Uma arquitetura de Big Data refere-se ao design e à estrutura dos sistemas e tecnologias usadas para coletar, armazenar, processar, analisar e visualizar grandes volumes de dados, frequentemente com grande velocidade e variedade. As arquiteturas de Big Data podem ser projetadas de maneiras diferentes, dependendo das necessidades específicas de processamento e análise. Em uma arquitetura de Big Data, a camada de processamento
-
-* **A)** armazena grandes volumes de dados brutos de diversas fontes, aguardando análise futura.
-* **B)** é responsável pela captura e ingestão dos dados em tempo real ou em lotes, organizando-os antes do armazenamento.
-* **C)** transforma e analisa dados, aplicando algoritmos para extrair insights e gerar resultados para outras camadas.
-* **D)** gerencia a segurança e o acesso aos dados, garantindo que apenas usuários autorizados possam manipulá-los.
-* **E)** fornece a interface de visualização de dados, permitindo que os usuários finais interpretem os resultados das análises.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "armazena grandes volumes de dados brutos de diversas fontes, aguardando análise futura". De acordo com a teoria estudada em *2. Requisições HTTP e Web Scraping*, beautifulSoup ( bs4 ): Biblioteca para análise sintática ( parsing ) de documentos HTML e XML em raspagens de dados.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é responsável pela captura e ingestão dos dados em tempo real ou em lotes, organizando os antes do armazenamento". De acordo com a teoria estudada em *Funções Geradoras (`yield`) e Avaliação Preguiçosa (Lazy Evaluation)*, def gerar lotes(tamanho maximo).
-> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O* deste guia, non blocking I/O (E/S Não Bloqueante): Chamadas de entrada e saída (rede, banco de dados) não bloqueiam a thread principal de execução. A operação é delegada à camada inferior e, ao ser concluída, o callback ou promessa correspondente é enfileirado para processamento. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "transforma e analisa dados, aplicando algoritmos para extrair insights e gerar resultados para outras camadas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "gerencia a segurança e o acesso aos dados, garantindo que apenas usuários autorizados possam manipulá los". De acordo com a teoria estudada em *1.4 Modificadores de Acesso e a Palavra-Chave `final`*, modificador: Mesma Classe — Classes do Mesmo Pacote — Subclasses em Outro Pacote — Outras Classes Externas.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fornece a interface de visualização de dados, permitindo que os usuários finais interpretem os resultados das...". De acordo com a teoria estudada em *Atribuição por Desestruturação (Destructuring Assignment)*, permite extrair dados de arrays ou propriedades de objetos diretamente em variáveis nomeadas de forma sucinta.
->
-> **Gabarito: C**
-
----
-
-### Teste 036
-**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
-Quanto aos critérios e diretrizes técnicas para o processo de desenvolvimento de módulos e serviços na Plataforma Digital do Poder Judiciário Brasileiro – PDPJ-Br, assinale V para a afirmativa verdadeira e F para a falsa. I. Os módulos estruturantes do PDPJ-Br seguem o modelo arquitetural de microsserviços, que deverão ser obrigatoriamente modelados utilizando-se a metodologia Domain Driven Design (DDD). II. O controle de versionamento de microserviços poderá empregar como sistema de controle de versões: Git, SVN ou CVS. III. O CNJ desenvolveu o UIKit como conjunto de ferramentas de interface gráfica, de adoção opcional, como identidade visual dos módulos desenvolvidos dentro da PDPJ-Br As afirmativas são, respectivamente,
-
-* **A)** F, F e F.
-* **B)** F, F e V.
-* **C)** V, V e F.
-* **D)** V, V e V.
-* **E)** F, V e F.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "F, F e F".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, F e V". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jDK (Java Development Kit): O kit completo para engenheiros de software. Engloba toda a JRE mais ferramentas de desenvolvimento fundamentais: o compilador javac , empacotador jar , gerador de documentação javadoc , desassemblador javap e utilitários de diagnóstico e depuração ( jconsole , jstack , jps ).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, V e F". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, bytecode: Conjunto de instruções executáveis padronizadas que independem do hardware e do sistema operacional.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, V e V". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jVM (Java Virtual Machine): A máquina virtual abstrata instalada em cada sistema operacional específico (Windows, Linux, macOS). A JVM interpreta o bytecode e traduz suas instruções para o conjunto de instruções nativas do processador subjacente.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, V e F". De acordo com a teoria estudada em *3.5 Gerenciamento de Dependências com npm*, devDependencies : Ferramentas utilizadas estritamente durante o desenvolvimento e compilação (ex.: jest , eslint , typescript ).
->
-> **Gabarito: A**
-
----
-
-### Teste 037
-**(FCC – TRT 2ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-Um banco de dados Oracle pode conter muitos esquemas (schemas). Um esquema é uma estrutura lógica que contém objetos, como segmentos, visualizações, procedures, funções etc. Um segmento é uma estrutura de dados que, dentre outras coisas, pode ser
-
-* **A)** um gatilho.
-* **B)** um objeto definido pelo usuário.
-* **C)** um índice.
-* **D)** uma coleção de tipos de dados.
-* **E)** um link de um banco de dados.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um gatilho". De acordo com a teoria estudada em *1. Interface `List` (Listas)*, linkedList : Implementada sobre uma lista duplamente encadeada. Também implementa a interface Deque . Inserções e remoções nos extremos (início/fim) operam em tempo constante $\mathcal{O}(1)$, mas a busca e acesso por índice operam em $\mathcal{O}(n)$.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um objeto definido pelo usuário". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador.
-> - **C)** **Correta.** Conforme fundamentado na seção *1. Interface `List` (Listas)* deste guia, arrayList : Implementada sobre um array dinâmico redimensionável. Excelente para leitura e acesso aleatório por índice ($\mathcal{O}(1)$), porém custosa para inserções ou remoções de elementos no meio ou início da lista ($\mathcal{O}(n)$ devido ao deslocamento dos elementos). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 2ª/2014) ao estabelecer que "um índice".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma coleção de tipos de dados". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, non blocking I/O (E/S Não Bloqueante): Chamadas de entrada e saída (rede, banco de dados) não bloqueiam a thread principal de execução. A operação é delegada à camada inferior e, ao ser concluída, o callback ou promessa correspondente é enfileirado para processamento.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um link de um banco de dados". De acordo com a teoria estudada em *Operador de Fatiamento (Slicing)*, o índice inicio é inclusivo; o índice fim é exclusivo.
->
-> **Gabarito: C**
-
----
-
-### Teste 038
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
-No contexto de SGBD (Sistema de Gerenciamento de Banco de Dados) e de gerenciamento de banco de dados, relacionamento é um importante conceito para garantir o correto funcionamento de um sistema que se utiliza de banco de dados, em relação à sua modelagem. Em um Sistema de Gerenciamento de Banco de Dados (SGBD), um relacionamento refere-se a
-
-* **A)** um conjunto de operações matemáticas aplicadas aos dados para gerar novos valores.
-* **B)** uma estrutura hierárquica utilizada para organizar os dados em múltiplos níveis.
-* **C)** uma associação entre tabelas que define como os dados estão interligados.
-* **D)** um método para compactar e armazenar os dados de forma eficiente em disco.
-* **E)** um algoritmo usado para distribuir os dados em diferentes servidores de banco de dados.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um conjunto de operações matemáticas aplicadas aos dados para gerar novos valores". De acordo com a teoria estudada em *3. Interface `Map` (Mapas / Dicionários)*, hashMap : Baseado em tabela hash. Operações de get e put em $\mathcal{O}(1)$ médio. Permite uma chave null e múltiplos valores null . Desordenado.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma estrutura hierárquica utilizada para organizar os dados em múltiplos níveis". De acordo com a teoria estudada em *Estrutura Completa de Tratamento de Exceções*, resultado = processar dados(conexao).
-> - **C)** **Correta.** Conforme fundamentado na seção *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos* deste guia, dicionários ( dict ): Tabelas hash de alta performance. Métodos principais: .get(chave, padrao) , .keys() , .values() , .items(). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "uma associação entre tabelas que define como os dados estão interligados".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um método para compactar e armazenar os dados de forma eficiente em disco". De acordo com a teoria estudada em *Atribuição por Desestruturação (Destructuring Assignment)*, permite extrair dados de arrays ou propriedades de objetos diretamente em variáveis nomeadas de forma sucinta.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um algoritmo usado para distribuir os dados em diferentes servidores de banco de dados". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, non blocking I/O (E/S Não Bloqueante): Chamadas de entrada e saída (rede, banco de dados) não bloqueiam a thread principal de execução. A operação é delegada à camada inferior e, ao ser concluída, o callback ou promessa correspondente é enfileirado para processamento.
->
-> **Gabarito: C**
-
----
-
-### Teste 039
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
-Com relação ao framework pytest, da linguagem de programação Python, avalie as afirmativas a seguir: I. O comando pytest executa os arquivos no formato test_*.py ou *_test.py no diretório corrente e nos subdiretórios. II. O comando abaixo mostra os 5 testes com maior tempo de duração. >>> pytest -vv --durations=5 III. É possível invocar o framework pytest usando o próprio interpretador do Python por meio do comando abaixo: >>> python -m pytest Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** I e II, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, compilador ( javac ): Não traduz o código fonte diretamente para o código binário da máquina hospedeira. Em vez disso, compila o código fonte para um formato intermediário, compacto e abstrato denominado Bytecode (arquivos com extensão .class ).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1. Manipulação de Arquivos e Sistema Operacional*, os e sys : Execução de comandos do sistema, inspeção de variáveis de ambiente ( os.environ ) e argumentos de linha de comando ( sys.argv ).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, rAMALHO, Luciano. Python Fluente: Programação Clara, Concisa e Eficaz. 2. ed. São Paulo: Novatec, 2023. (Cap. 8 Dicas de Tipos em Funções; Cap. 14 Herança e Métodos Especiais).
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8*, tipagem Forte: O interpretador não realiza conversão arbitrária entre tipos incompatíveis. Se você tentar somar uma string com um número ( "Valor: " + 10 ), Python lançará explicitamente um TypeError (diferentemente do JavaScript, que realizaria coerção para "Valor: 10" ).
-> - **E)** **Correta.** Conforme fundamentado na seção *FastAPI (Framework Moderno ASGI de Alta Performance)* deste guia, validação com Pydantic: Utiliza type hints do Python padrão para realizar validação estrita de dados de entrada, conversão automática e serialização em tempo de execução. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I, II e III".
->
-> **Gabarito: E**
-
----
-
-### Teste 040
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
-Com relação aos tipos estruturados da linguagem de programação Python 3, avalie as afirmativas a seguir: I. A tentativa de utilizar conjunto (set) como chave de um dicionário (dict) retorna erro. II. O conjunto (set) não permite elementos repetidos. III. O construtor do tipo list retorna erro ao receber uma string como argumento (entrada). Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** I e II, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, rAMALHO, Luciano. Python Fluente: Programação Clara, Concisa e Eficaz. 2. ed. São Paulo: Novatec, 2023. (Cap. 8 Dicas de Tipos em Funções; Cap. 14 Herança e Métodos Especiais).
-> - **B)** **Correta.** Conforme fundamentado na seção *3. Formatos Estruturados: JSON e CSV* deste guia, json.loads(str) : Analisa string JSON e a converte para dicionário/lista Python. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "II, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3. Formatos Estruturados: JSON e CSV*, json.dumps(obj) : Converte objeto Python em string formatada JSON.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos*, dict : {"chave": 10} — Sim — Sim (desde Python 3.7) — Não (chaves únicas) — Não (acesso por chave) — $\mathcal{O}(1)$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2. Interface `Set` (Conjuntos)*, coleção matemática que não permite elementos duplicados (baseia se nos métodos hashCode() e equals() ).
+> - A expressão `[x * 2 for x in dados if x % 2 == 0]` utiliza *List Comprehension*:
+>   1. O filtro `if x % 2 == 0` seleciona os números pares de `dados`: $2, 4, 6$.
+>   2. A expressão `x * 2` multiplica cada número selecionado por 2:
+>      - $2 \times 2 = 4$
+>      - $4 \times 2 = 8$
+>      - $6 \times 2 = 12$
+>   3. A lista final resultante é `[4, 8, 12]`.
 >
 > **Gabarito: B**
-
----
-
-### Teste 041
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Ciências Atuariais)**
-Sobre o Modelo de Referência Cross- Industry Standard Process for Data Mining (CRISP-DM), avalie as afirmativas a seguir: I. Após a fase de “Preparação dos dados” ocorre a fase de “Compreensão dos dados”. II. Durante a fase de “Mineração de Dados” ocorre a aplicação de algoritmos de mineração de dados buscando a extração de padrões. III. Durante a fase de “Preparação dos Dados”, pode ocorrer a construção de novos atributos a partir de outros já existentes. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** III, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *A Memória Heap*, o tamanho do Heap pode ser configurado na inicialização da aplicação pelos parâmetros Xms (tamanho inicial) e Xmx (tamanho máximo).
-> - **B)** **Correta.** Conforme fundamentado na seção *A Ordem Rígida de Execução* deste guia, microtask Queue: Imediatamente após a Call Stack esvaziar, o motor drena todas as microtarefas pendentes antes de qualquer macrotarefa. Se uma microtarefa enfileirar outra microtarefa, ela também será executada nesta mesma rodada. No Node.js, process.nextTick tem precedência até mesmo sobre as promessas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "III, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *Usos da Palavra-Chave `final`*, em Variáveis e Parâmetros: A variável torna se uma constante. Uma vez inicializada com um valor ou referência, seu valor não pode mais ser reatribuído.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *Usos da Palavra-Chave `final`*, atenção: Se a variável for uma referência para um objeto ( final List<String itens = new ArrayList< (); ), a referência itens não pode ser apontada para outra lista, mas o estado interno do objeto continua mutável ( itens.add("dado") é válido).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.2 Tipos de Dados, Coerção e Operadores de Igualdade (`==` vs. `===`)*, tipos de Referência (armazenados por endereço no Heap): Object , Array , Function , Date , RegExp.
->
-> **Gabarito: B**
-
----
-
-### Teste 042
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
-Na modernização dos sistemas de fiscalização, o Tribunal migrou de um sistema monolítico para uma arquitetura de microsserviços. Durante uma auditoria técnica, observou-se que a falha em um serviço de autenticação estava causando a queda em cascata de todos os outros serviços dependentes. O padrão de projeto de arquitetura de software a ser implementado para interromper chamadas a um serviço que está a falhar, permitindo que o sistema degrade graciosamente em vez de colapsar, é o
-
-* **A)** Singleton.
-* **B)** Observer.
-* **C)** Circuit Breaker.
-* **D)** Adapter.
-* **E)** Facade.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Singleton". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, non blocking I/O (E/S Não Bloqueante): Chamadas de entrada e saída (rede, banco de dados) não bloqueiam a thread principal de execução. A operação é delegada à camada inferior e, ao ser concluída, o callback ou promessa correspondente é enfileirado para processamento.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Observer". De acordo com a teoria estudada em *Módulos Nativos Essenciais do Node.js*, events ( EventEmitter ): Núcleo do padrão Observer no Node.js, viabilizando emissão e escuta customizada de eventos ( emitter.on('evento', callback) e emitter.emit('evento', dados) ).
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode* deste guia, jRE (Java Runtime Environment): O ambiente mínimo de execução necessário para o usuário final rodar sistemas Java pré compilados. Contém a JVM, as bibliotecas padrão da API Java ( rt.jar ou módulos JPMS) e arquivos de configuração de suporte. A JRE não inclui ferramentas de desenvolvimento como compilador ou depurador. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Circuit Breaker".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Adapter". De acordo com a teoria estudada em *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O*, biblioteca libuv : Biblioteca multiplataforma escrita em C que gerencia o loop de eventos ( Event Loop ), abstrai os mecanismos de notificação assíncrona do sistema operacional ( epoll , kqueue , IOCP ) e gerencia uma Thread Pool interna (por padrão com 4 threads) para tarefas que não possuem suporte nativo assíncrono no SO (como operações de sistema de arquivos fs , resolução DNS síncrona e rotinas pesadas de criptografia).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Facade". De acordo com a teoria estudada em *2. Requisições HTTP e Web Scraping*, biblioteca requests : Padrão de fato para consumo de serviços HTTP.
->
-> **Gabarito: C**
 
 ---
 
@@ -1659,6 +1083,8 @@ Na modernização dos sistemas de fiscalização, o Tribunal migrou de um sistem
 | **Tratamento de Exceções** | *Checked Exceptions* obrigatórias e *Unchecked Exceptions* | *Unchecked* via `try-catch` | *Unchecked* via `try-except-else-finally` |
 | **Gerenciamento de Recursos** | Bloco `finally` e `try-with-resources` (`AutoCloseable`) | Bloco `finally` | Bloco `finally` e `with` (`__enter__` / `__exit__`) |
 | **Estrutura de Blocos** | Delimitada por chaves `{ .. }` | Delimitada por chaves `{ .. }` | Delimitada por recuo de espaços (**indentação obrigatória**) |
+
+
 
 ---
 

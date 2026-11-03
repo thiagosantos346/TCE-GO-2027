@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `03_transacoes_propriedades_acid_e_concorrencia.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Conceito de Transação de banco de dados
@@ -113,429 +116,62 @@ flowchart TD
 
 ---
 
-### Teste 001
-**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
-Em Big Data, uma das propriedades ACID é a atomicidade, que garante que todas as alterações sejam efetivadas no banco de dados, sem atualização parcial da transação.
+### Teste 256
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Segundo a teoria clássica de sistemas de bancos de dados relacionais formulada por Silberschatz, Korth e Sudarshan, uma transação deve atravessar uma máquina de estados finitos bem definida durante a sua execução.
 
-* **C)** Certo
-* **E)** Errado
+A respeito dos estados possíveis de uma transação e das transições entre eles, assinale a afirmativa correta:
 
----
+* **A)** Uma transação entra no estado *Committed* (Efetivada) imediatamente após a emissão da primeira instrução DML de escrita no buffer de memória.
+* **B)** O estado *Partially Committed* (Parcialmente Efetivada) ocorre após a execução da última declaração SQL da transação, mas antes que as modificações e seus registros de log correspondentes tenham sido completamente gravados de forma persistente em disco (disco estável).
+* **C)** Uma transação em estado *Failed* (Falha) transita compulsoriamente de volta para o estado *Active* (Ativa) para tentar novamente a operação a partir do ponto onde ocorreu a falha.
+* **D)** O estado *Aborted* (Abortada) indica que a transação concluiu seu processamento com êxito e que seus resultados tornaram-se permanentes no banco de dados.
+* **E)** Toda transação no estado *Active* pode transitar diretamente para o estado *Committed* sem necessidade de passar pelo estado *Partially Committed*.
 
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.2 As Quatro Propriedades Fundamentais: ACID*, princípio do "tudo ou nada" ( all or nothing ). Todas as operações que compõem a transação são consolidadas em conjunto no banco de dados, ou nenhuma delas produzirá efeito algum. Não existe efetivação parcial de transação. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STJ/2024) ao afirmar que "Em Big Data, uma das propriedades ACID é a atomicidade, que garante que todas as alterações sejam efetivadas...".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
->
-> **Gabarito: C**
-
----
-
-### Teste 002
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
-O mecanismo de recuperação de banco de dados precisa garantir que uma transação possa ser desfeita. Para execução do rollback em cascata são necessárias entradas de log do(s) valor(es):
-
-* **A)** novo;
-* **B)** antigo;
-* **C)** antigo e novo;
-* **D)** write-ahead;
-* **E)** undo/redo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "novo". De acordo com a teoria estudada em *4.1 Matriz de Isolamento vs. Fenômenos Admitidos*, rEAD COMMITTED : ✅ Previne — ❌ Permite — ❌ Permite — Lê apenas dados já comitados. Cada instrução SELECT tira um novo snapshot. (Padrão em PostgreSQL e Oracle).
-> - **B)** **Correta.** Conforme fundamentado na seção *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso* deste guia, strict 2PL (2PL Estrito): Todos os bloqueios exclusivos (X) devem ser mantidos até o fim definitivo da transação ( COMMIT ou ROLLBACK ). Evita abortos em cascata ( cascadeless schedules ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "antigo".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "antigo e novo". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, rigorous 2PL (2PL Rigoroso): Todos os bloqueios (tanto compartilhados S quanto exclusivos X) devem ser mantidos até o COMMIT ou ROLLBACK . É a variante mais utilizada na prática por garantir serializabilidade estrita.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "write ahead". De acordo com a teoria estudada em *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)*, a Regra Inviolável do WAL: O registro de log que descreve a alteração deve ser gravado fisicamente em disco síncrono ANTES que as páginas de dados correspondentes sejam descarregadas da memória RAM para os arquivos de dados ( datafiles ).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "undo/redo". De acordo com a teoria estudada em *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)*, undo Log (Segmentos de Rollback): Registra os valores anteriores à modificação. Se uma transação falhar ou for cancelada, o SGBD lê o Undo Log para restaurar os dados originais (garantindo a Atomicidade).
->
+> - **A)** Incorreta. Uma transação no início de suas instruções está no estado *Active* (Ativa), jamais *Committed*.
+> - **B)** **CORRETA.** No modelo formal de estados de transação:
+>   1. **Active (Ativa):** O estado inicial enquanto as operações da transação estão em execução.
+>   2. **Partially Committed (Parcialmente Efetivada):** Alcançado quando a última instrução da transação foi executada na memória, porém antes da garantia de que o log de transações (WAL) foi descarregado no armazenamento não-volátil (disco estável).
+>   3. **Failed (Falha):** Se uma verificação normal de integridade falhar ou se houver pane de hardware/software durante a execução.
+>   4. **Aborted (Abortada):** Ocorre após a transação em falha sofrer *rollback* e o banco de dados ser restaurado ao estado anterior.
+>   5. **Committed (Efetivada):** Alcançado somente após a conclusão com sucesso de todas as gravações no disco estável.
+> - **C)** Incorreta. Do estado *Failed*, a única transição válida é para o estado *Aborted*, após as operações de desfazimento (*undo*).
+> - **D)** Incorreta. *Aborted* significa que a transação foi revertida e cancelada.
+> - **E)** Incorreta. Pelo diagrama canônico, a transição para *Committed* passa obrigatoriamente por *Partially Committed*.
+> 
 > **Gabarito: B**
 
 ---
 
-### Teste 003
-**(FCC – TRT 6ª – 2012 – Analista Judiciário - Apoio Especializado/Tecnologia da Informação)**
-Protocolos de rede podem ser classificados como "sem estados" (stateless) ou "com estado" (stateful). A este respeito é correto afirmar que
+### Teste 257
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em um SGBD corporativo, um desligamento repentino do fornecimento de energia elétrica interrompeu as operações enquanto dezenas de transações eram processadas. Durante a rotina de inicialização automática (Crash Recovery), o SGBD utilizou seus arquivos de log transacional para restaurar a consistência da base.
 
-* **A)** protocolos sem estados exigem que tanto cliente como servidor mantenham um histórico da conexão.
-* **B)** o uso de cookies é uma maneira de contornar o fato de que HTTP é um protocolo com estados.
-* **C)** protocolos sem estados têm a desvantagem de não admitir encapsulamento criptográfico.
-* **D)** o uso de cookies é uma maneira de contornar o fato de que HTTP é um protocolo sem estados.
-* **E)** protocolos com estados exigem que cada mensagem trocada entre cliente e servidor contenha informação respectiva ao estado da transação.
+Sobre os mecanismos que asseguram as propriedades ACID nesse cenário, assinale a afirmativa correta:  
+
+* **A)** A Atomicidade foi mantida pelo subsistema de recuperação que aplicou as operações de REDO para desfazer as alterações de transações que não haviam comitado no momento da queda.
+* **B)** A Durabilidade assegura que todas as transações que receberam a confirmação de `COMMIT` antes da interrupção elétrica sejam reaplicadas a partir dos arquivos de log (REDO/WAL), caso suas páginas ainda estivessem apenas na memória RAM.
+* **C)** A Consistência é a propriedade responsável por garantir que as transações concorrentes não interfiram entre si, mesmo que os dados não estejam totalmente gravados em disco.
+* **D)** A Atomicidade autoriza que, em caso de pane catastrófica, parte das instruções de uma transação crítica permaneça gravada para evitar retrabalho da aplicação cliente.
+* **E)** O mecanismo de Write-Ahead Logging (WAL) determina que as páginas de dados sejam obrigatoriamente persistidas nas tabelas físicas do disco antes que o registro transacional seja gravado no log.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "protocolos sem estados exigem que tanto cliente como servidor mantenham um histórico da conexão". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, rigorous 2PL (2PL Rigoroso): Todos os bloqueios (tanto compartilhados S quanto exclusivos X) devem ser mantidos até o COMMIT ou ROLLBACK . É a variante mais utilizada na prática por garantir serializabilidade estrita.
-> - **B)** **Correta.** Conforme fundamentado na seção *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso* deste guia, o protocolo 2PL garante a serializabilidade, mas NÃO evita impasses ( deadlocks )! Transações operando sob o 2PL básico podem sofrer deadlocks frequentemente. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 6ª/2012) ao estabelecer que "o uso de cookies é uma maneira de contornar o fato de que HTTP é um protocolo com estados".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "protocolos sem estados têm a desvantagem de não admitir encapsulamento criptográfico". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, strict 2PL (2PL Estrito): Todos os bloqueios exclusivos (X) devem ser mantidos até o fim definitivo da transação ( COMMIT ou ROLLBACK ). Evita abortos em cascata ( cascadeless schedules ).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o uso de cookies é uma maneira de contornar o fato de que HTTP é um protocolo sem estados". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, durante sua existência, uma transação transita por estados formais bem definidos na teoria de sistemas relacionais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "protocolos com estados exigem que cada mensagem trocada entre cliente e servidor contenha informação respectiva ao...". De acordo com a teoria estudada em *5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima*, resolução via Transação Vítima: Ao detectar o ciclo, o SGBD seleciona uma transação vítima (com base em critérios de menor custo computacional ou menor volume de dados alterados), aborta sua execução compulsoriamente via ROLLBACK forçado e devolve o erro à aplicação cliente.
->
+> - **A)** Incorreta. Desfazer operações de transações não comitadas é responsabilidade do log de **UNDO**. O REDO reaplica transações comitadas.
+> - **B)** Correta. A **Durabilidade** garante que transações comitadas persistam mesmo que os dados estivessem voláteis na memória RAM durante a queda. No processo de recuperação, o SGBD lê o Redo Log / WAL e reaplica as alterações comitadas na base de dados.
+> - **C)** Incorreta. O impedimento de interferência entre transações concorrentes é atribuição da propriedade de **Isolamento** (I do ACID).
+> - **D)** Incorreta. A Atomicidade obedece ao princípio estrito do "tudo ou nada", proibindo a persistência parcial de transações.
+> - **E)** Incorreta. O princípio do WAL (*Write-Ahead Logging*) estipula exatamente o inverso: o registro de log deve ser gravado em disco **antes** que as páginas de dados modificadas sejam gravadas nas tabelas físicas.
+> 
 > **Gabarito: B**
-
----
-
-### Teste 004
-**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
-De acordo com a NBC TG Estrutura Conceitual - Estrutura Conceitual para Relatório Financeiro, um ativo, necessariamente,
-
-* **A)** é um bem corpóreo.
-* **B)** está atrelado a eventos futuros previsíveis.
-* **C)** tem o potencial de produzir benefícios econômicos.
-* **D)** representa um direito presente perante os acionistas.
-* **E)** foi adquirido pela entidade em uma transação com terceiros.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é um bem corpóreo". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, durante sua existência, uma transação transita por estados formais bem definidos na teoria de sistemas relacionais.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "está atrelado a eventos futuros previsíveis". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, ativa Parcialmente Comitada: Última operação executada.
-> - **C)** **Correta.** Conforme fundamentado na seção *1. O Conceito Formal de Transação e o Modelo ACID* deste guia, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível. No contexto de auditoria e controle externo no setor público, uma transação típica é a liquidação de uma despesa orçamentária: o sistema deve simultaneamente debitar o saldo do empenho e creditar a conta bancária do fornecedor. Se apenas uma das ações ocorrer, o banco de dados entrará em colapso fiscal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "tem o potencial de produzir benefícios econômicos".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "representa um direito presente perante os acionistas". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, ativa Falha: Erro de execução / Violação.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "foi adquirido pela entidade em uma transação com terceiros". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, parcialmente Comitada Comitada: Gravação definitiva no log (WAL).
->
-> **Gabarito: C**
-
----
-
-### Teste 005
-**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
-O governo de um ente da Federação recebeu a transferência de um edifício de escritórios do governo federal, localizado em Brasília, e passou a alugá-lo a terceiros, a preços de mercado. Em relação a esse edifício, assinale a afirmativa correta.
-
-* **A)** É classificado como ativo imobilizado.
-* **B)** Deve ser depreciado mensalmente, de modo linear.
-* **C)** Representa uma aquisição por meio de transação com contraprestação.
-* **D)** O valor justo na data da aquisição é considerado como custo do ativo.
-* **E)** Após o reconhecimento inicial, deve-se adotar o modelo do custo para mensuração.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É classificado como ativo imobilizado". De acordo com a teoria estudada em *3.1 Leitura Suja (Dirty Read)*, definição: Ocorre quando uma transação $T 1$ modifica uma linha no buffer, a transação $T 2$ lê esse valor ainda não comitado, e logo em seguida a transação $T 1$ sofre um ROLLBACK.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Deve ser depreciado mensalmente, de modo linear". De acordo com a teoria estudada em *1. O Conceito Formal de Transação e o Modelo ACID*, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível. No contexto de auditoria e controle externo no setor público, uma transação típica é a liquidação de uma despesa orçamentária: o sistema deve simultaneamente debitar o saldo do empenho e creditar a conta bancária do fornecedor. Se apenas uma das ações ocorrer, o banco de dados entrará em colapso fiscal.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Representa uma aquisição por meio de transação com contraprestação". De acordo com a teoria estudada em *3.3 Leitura Fantasma (Phantom Read)*, definição: Ocorre quando a transação $T 1$ executa uma consulta filtrando um intervalo de dados (ex.: SELECT FROM contratos WHERE valor 500000 ) e recupera 10 tuplas. Em seguida, a transação $T 2$ insere novas linhas que atendem a esse predicado e executa COMMIT . Quando $T 1$ reexecuta a mesma consulta de intervalo, obtém 12 tuplas.
-> - **D)** **Correta.** Conforme fundamentado na seção *5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima* deste guia, resolução via Transação Vítima: Ao detectar o ciclo, o SGBD seleciona uma transação vítima (com base em critérios de menor custo computacional ou menor volume de dados alterados), aborta sua execução compulsoriamente via ROLLBACK forçado e devolve o erro à aplicação cliente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "O valor justo na data da aquisição é considerado como custo do ativo".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Após o reconhecimento inicial, deve se adotar o modelo do custo para mensuração". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, ativa ( Active ): O estado inicial. A transação está sendo executada pela aplicação.
->
-> **Gabarito: D**
-
----
-
-### Teste 006
-**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
-No último dia útil do mês, o contador responsável pela gestão de pessoal inicia o processamento da folha de pagamentos para reconhecimento do direito adquirido pelos servidores do recebimento do salário de dezembro, a ser pago no quinto dia útil do mês subsequente. A partir do Plano de Contas Aplicado ao Setor Público (PCASP), o reconhecimento da transação, no último dia útil do mês, apresentará reflexo nas seguintes classes:
-
-* **A)** 1 (Ativo) e 2 (Passivo);
-* **B)** 7 (Controles Devedores) e 8 (Controles Credores);
-* **C)** 2 (Passivo) e 3 (Variações Patrimoniais Diminutivas);
-* **D)** 1 (Ativo) e 4 (Variações Patrimoniais Aumentativas);
-* **E)** 5 (Controles da Aprovação do Planejamento e Orçamento) e 6 (Controles da Execução do Planejamento e Orçamento).
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 (Ativo) e 2 (Passivo)". De acordo com a teoria estudada em *2.1 COMMIT, ROLLBACK e Gestão de SAVEPOINTs*, cOMMIT : Finaliza a transação com sucesso, gravando definitivamente todas as alterações pendentes no log transacional e liberando todos os bloqueios ( locks ) de recursos retidos.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "7 (Controles Devedores) e 8 (Controles Credores)". De acordo com a teoria estudada em *2.1 COMMIT, ROLLBACK e Gestão de SAVEPOINTs*, rOLLBACK : Cancela integralmente a transação, desfazendo todas as operações pendentes desde o BEGIN TRANSACTION e restaurando a base ao estado inicial.
-> - **C)** **Correta.** Conforme fundamentado na seção *1. O Conceito Formal de Transação e o Modelo ACID* deste guia, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível. No contexto de auditoria e controle externo no setor público, uma transação típica é a liquidação de uma despesa orçamentária: o sistema deve simultaneamente debitar o saldo do empenho e creditar a conta bancária do fornecedor. Se apenas uma das ações ocorrer, o banco de dados entrará em colapso fiscal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "2 (Passivo) e 3 (Variações Patrimoniais Diminutivas)".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 (Ativo) e 4 (Variações Patrimoniais Aumentativas)". De acordo com a teoria estudada em *2.1 COMMIT, ROLLBACK e Gestão de SAVEPOINTs*, sAVEPOINT nome ponto : Estabelece um marco intermediário de salvamento dentro de uma transação aberta.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5 (Controles da Aprovação do Planejamento e Orçamento) e 6 (Controles da Execução do Planejamento e Orçamento)". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, assegura que a execução concomitante de múltiplas transações seja invisível entre si. Os efeitos intermediários e temporários de uma transação não comitada não podem ser observados por outras transações concorrentes. O resultado final deve equivaler a uma execução estritamente sequencial ( serializável ).
->
-> **Gabarito: C**
-
----
-
-### Teste 007
-**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
-Pedro está implementando um banco de dados a partir de um projeto lógico que recebeu dos desenvolvedores de Sistemas de Informação do Tribunal. No projeto, há relacionamentos entre diversas tabelas. No SQL, para implementar os relacionamentos de modo a prevenir que alguma transação de banco de dados destrua os relacionamentos entre as tabelas, Pedro deve utilizar a cláusula:
-
-* **A)** CHECK
-* **B)** UNION
-* **C)** DEFAULT
-* **D)** ORDER BY
-* **E)** FOREIGN KEY
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CHECK". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, garante que a transação conduz o banco de dados de um estado válido para outro estado igualmente válido. A transação não pode violar nenhuma regra de integridade declarativa (chaves primárias, chaves estrangeiras, restrições CHECK , valores NOT NULL ) ou procedimental (gatilhos e regras de negócio).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "UNION". De acordo com a teoria estudada em *🌐 Fontes Oficiais e Referências Bibliográficas*, eLMASRI, Ramez; NAVATHE, Shamkant B. Sistemas de Banco de Dados. 7. ed. São Paulo: Pearson, 2019. (Cap. 20 Conceitos de Processamento de Transações; Cap. 21 Técnicas de Controle de Concorrência).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "DEFAULT". De acordo com a teoria estudada em *4.1 Matriz de Isolamento vs. Fenômenos Admitidos*, no PostgreSQL, a implementação prática do nível REPEATABLE READ via MVCC impede também leituras fantasmas; contudo, nas questões teóricas da FCC baseadas estritamente no padrão ANSI SQL 92, o candidato deve assinalar que o REPEATABLE READ admite Leitura Fantasma!.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ORDER BY". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, parcialmente Comitada ( Partially Committed ): A última instrução SQL foi processada na memória RAM, mas os dados ainda não foram gravados permanentemente no log em disco.
-> - **E)** **Correta.** Conforme fundamentado na seção *1. O Conceito Formal de Transação e o Modelo ACID* deste guia, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível. No contexto de auditoria e controle externo no setor público, uma transação típica é a liquidação de uma despesa orçamentária: o sistema deve simultaneamente debitar o saldo do empenho e creditar a conta bancária do fornecedor. Se apenas uma das ações ocorrer, o banco de dados entrará em colapso fiscal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "FOREIGN KEY".
->
-> **Gabarito: E**
-
----
-
-### Teste 008
-**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-No processamento de transações distribuídas em gerenciadores de bancos de dados, o algoritmo frequentemente empregado para garantir que todos os participantes de uma transação distribuída tenham conhecimento do seu desfecho é conhecido como:
-
-* **A)** D-commit;
-* **B)** Dynamic Data Exchange;
-* **C)** Liveness;
-* **D)** Multi-commit;
-* **E)** Two-phase commit.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "D commit". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, strict 2PL (2PL Estrito): Todos os bloqueios exclusivos (X) devem ser mantidos até o fim definitivo da transação ( COMMIT ou ROLLBACK ). Evita abortos em cascata ( cascadeless schedules ).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Dynamic Data Exchange". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, o protocolo 2PL garante a serializabilidade, mas NÃO evita impasses ( deadlocks )! Transações operando sob o 2PL básico podem sofrer deadlocks frequentemente.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Liveness". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, o protocolo 2PL é o algoritmo matemático que garante a serializabilidade das escalas de execução concorrente.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Multi commit". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, f1["Fase 1: Crescimento (Growing)<br/ Transação adquire bloqueios conforme necessário.<br/ <b PROIBIDO LIBERAR BLOQUEIOS!</b "] P["Ponto de Bloqueio<br/ (Lock Point)"].
-> - **E)** **Correta.** Conforme fundamentado na seção *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso* deste guia, rigorous 2PL (2PL Rigoroso): Todos os bloqueios (tanto compartilhados S quanto exclusivos X) devem ser mantidos até o COMMIT ou ROLLBACK . É a variante mais utilizada na prática por garantir serializabilidade estrita. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "Two phase commit".
->
-> **Gabarito: E**
-
----
-
-### Teste 009
-**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-No contexto do Oracle, considere o comando a seguir e analise as afirmativas a respeito das consequências desse mesmo comando. create global temporary table temp ( a int not null primary key, b varchar(20) not null ); I. Dados inseridos numa sessão (em inglês, session) são removidos no fim da sessão. II. Dados inseridos numa sessão podem ser acessados somente pela própria sessão. III. Ao término de uma transação por meio de um comando commit, os dados são automaticamente removidos da tabela. Está correto somente o que se afirma em:
-
-* **A)** I;
-* **B)** II;
-* **C)** I e II;
-* **D)** I e III;
-* **E)** II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, strict 2PL (2PL Estrito): Todos os bloqueios exclusivos (X) devem ser mantidos até o fim definitivo da transação ( COMMIT ou ROLLBACK ). Evita abortos em cascata ( cascadeless schedules ).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *1. O Conceito Formal de Transação e o Modelo ACID*, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível. No contexto de auditoria e controle externo no setor público, uma transação típica é a liquidação de uma despesa orçamentária: o sistema deve simultaneamente debitar o saldo do empenho e creditar a conta bancária do fornecedor. Se apenas uma das ações ocorrer, o banco de dados entrará em colapso fiscal.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.2 As Quatro Propriedades Fundamentais: ACID* deste guia, garante que a transação conduz o banco de dados de um estado válido para outro estado igualmente válido. A transação não pode violar nenhuma regra de integridade declarativa (chaves primárias, chaves estrangeiras, restrições CHECK , valores NOT NULL ) ou procedimental (gatilhos e regras de negócio). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "I e II".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, assegura que a execução concomitante de múltiplas transações seja invisível entre si. Os efeitos intermediários e temporários de uma transação não comitada não podem ser observados por outras transações concorrentes. O resultado final deve equivaler a uma execução estritamente sequencial ( serializável ).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *2.1 COMMIT, ROLLBACK e Gestão de SAVEPOINTs*, rOLLBACK TO SAVEPOINT nome ponto : Reverte as operações executadas apenas após o marco especificado, mantendo preservadas as instruções anteriores ao savepoint. Atenção: O comando ROLLBACK TO SAVEPOINT NÃO encerra a transação; ela permanece aberta aguardando novas instruções ou a finalização formal com COMMIT ou ROLLBACK total.
->
-> **Gabarito: C**
-
----
-
-### Teste 010
-**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
-Transações distribuídas em bancos de dados são caracterizadas pela participação de dois ou mais hosts ligados em rede. Um dos problemas para sua implementação é a garantia de que cada participante faça a sua parte, de modo que uma transação seja corretamente completada. Um algoritmo usualmente utilizado nesse contexto é:
-
-* **A)** Open Data Base Connection;
-* **B)** Dynamic Serializability;
-* **C)** Two phase commitment;
-* **D)** Compensating transactions;
-* **E)** Two phase lock.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Open Data Base Connection". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, rigorous 2PL (2PL Rigoroso): Todos os bloqueios (tanto compartilhados S quanto exclusivos X) devem ser mantidos até o COMMIT ou ROLLBACK . É a variante mais utilizada na prática por garantir serializabilidade estrita.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Dynamic Serializability". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, o protocolo 2PL garante a serializabilidade, mas NÃO evita impasses ( deadlocks )! Transações operando sob o 2PL básico podem sofrer deadlocks frequentemente.
-> - **C)** **Correta.** Conforme fundamentado na seção *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso* deste guia, o protocolo 2PL é o algoritmo matemático que garante a serializabilidade das escalas de execução concorrente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "Two phase commitment".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Compensating transactions". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, f1["Fase 1: Crescimento (Growing)<br/ Transação adquire bloqueios conforme necessário.<br/ <b PROIBIDO LIBERAR BLOQUEIOS!</b "] P["Ponto de Bloqueio<br/ (Lock Point)"].
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Two phase lock". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, p F2["Fase 2: Encolhimento (Shrinking)<br/ Transação libera bloqueios gradualmente.<br/ <b PROIBIDO ADQUIRIR NOVOS BLOQUEIOS!</b "].
->
-> **Gabarito: C**
-
----
-
-### Teste 011
-**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
-O processo de medição funcional de um software utilizando pontos de função possui uma série de etapas, dentre elas, a de medir as funções de transação. Estas funções representam a funcionalidade fornecida ao usuário para atender às suas necessidades de processamento de dados pela aplicação. São classificadas em entradas externas, saídas externas ou consultas externas. Constitui exemplo de entrada externa:
-
-* **A)** Telas de filtro de relatório e consultas.
-* **B)** Telas de login com objetivo de verificar se o usuário pode ou não acessar o sistema.
-* **C)** Relatórios que possuem totalização de dados.
-* **D)** Informações que possuem formato gráfico.
-* **E)** Processamento em lotes de atualização de bases cadastrais a partir de arquivos de movimento.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Telas de filtro de relatório e consultas". De acordo com a teoria estudada em *4.2 Snapshot Isolation (Isolamento por Instantâneo)*, todas as consultas daquela transação enxergam estritamente o estado dos dados consolidado no momento do snapshot, impedindo Leituras Não Repetíveis e Leituras Fantasmas sem a necessidade de adquirir bloqueios pesados de leitura.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Telas de login com objetivo de verificar se o usuário pode ou não acessar o sistema". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, garante que a transação conduz o banco de dados de um estado válido para outro estado igualmente válido. A transação não pode violar nenhuma regra de integridade declarativa (chaves primárias, chaves estrangeiras, restrições CHECK , valores NOT NULL ) ou procedimental (gatilhos e regras de negócio).
-> - **C)** **Correta.** Conforme fundamentado na seção *1. O Conceito Formal de Transação e o Modelo ACID* deste guia, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível. No contexto de auditoria e controle externo no setor público, uma transação típica é a liquidação de uma despesa orçamentária: o sistema deve simultaneamente debitar o saldo do empenho e creditar a conta bancária do fornecedor. Se apenas uma das ações ocorrer, o banco de dados entrará em colapso fiscal. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "Relatórios que possuem totalização de dados".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Informações que possuem formato gráfico". De acordo com a teoria estudada em *5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima*, resolução via Transação Vítima: Ao detectar o ciclo, o SGBD seleciona uma transação vítima (com base em critérios de menor custo computacional ou menor volume de dados alterados), aborta sua execução compulsoriamente via ROLLBACK forçado e devolve o erro à aplicação cliente.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Processamento em lotes de atualização de bases cadastrais a partir de arquivos de movimento". De acordo com a teoria estudada em *🌐 Fontes Oficiais e Referências Bibliográficas*, eLMASRI, Ramez; NAVATHE, Shamkant B. Sistemas de Banco de Dados. 7. ed. São Paulo: Pearson, 2019. (Cap. 20 Conceitos de Processamento de Transações; Cap. 21 Técnicas de Controle de Concorrência).
->
-> **Gabarito: C**
-
----
-
-### Teste 012
-**(FCC – TRT 2ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-Considere as afirmativas sobre a Norma NBR ISO/IEC 12207 e a Norma ISO/IEC 20968. I. A Norma NBR ISO/IEC 12207: 2009 possui duas seções principais para tratar os processos de software: Processos de Contexto de Sistema, para ser utilizado na implementação de um produto ou de um serviço de software que seja elemento de um sistema maior, e Processos Específicos de Software, para lidar com produto ou serviço de software ou um sistema de software independente. II. O método definido pela Norma ISO/IEC 20968: 2002 pode ser usado para medir o tamanho funcional de qualquer aplicação de software que possa ser descrita em termos de transações lógicas, cada uma composta por um componente de entrada, processo e saída. As regras de tamanho foram designadas para aplicações de software do domínio de sistemas de informação de negócios, nas quais o componente de processamento de cada transação tende a ser determinado por considerações de armazenamento ou recuperação de informação. III. Há duas categorias de processos de projeto, de acordo com a Norma NBR ISO/IEC 12207: 2009, Processos de Gestão de Projeto, utilizados para planejar, executar, avaliar e controlar o progresso de um projeto e Processos de Apoio ao Projeto, que fornecem um conjunto de tarefas específicas focadas na execução de um objetivo de gerenciamento especializado. Está correto o que consta APENAS em
-
-* **A)** de países - inverso - darpa - darpa.inv_addr.132.34.45.121
-* **B)** de países - reverso - arpa - 121.45.34.132.in-addr.arpa
-* **C)** de estados - de ponteiros - arpanet - arpanet.ptr.121.45.34.132
-* **D)** de nações - reverso - arpa - arpa.invaddr.132.34.45.121
-* **E)** de nações - inverso - arpanet - 121.45.34.132.inv-addr.arpanet
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de países inverso darpa darpa.inv addr.132.34.45.121". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, comitada ( Committed ): Todas as alterações foram confirmadas e gravadas no log transacional em armazenamento persistente ( Write Ahead Logging ). A transação foi concluída com sucesso.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de países reverso arpa 121.45.34.132.in addr.arpa". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, ativa ( Active ): O estado inicial. A transação está sendo executada pela aplicação.
-> - **C)** **Correta.** Conforme fundamentado na seção *1. O Conceito Formal de Transação e o Modelo ACID* deste guia, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível. No contexto de auditoria e controle externo no setor público, uma transação típica é a liquidação de uma despesa orçamentária: o sistema deve simultaneamente debitar o saldo do empenho e creditar a conta bancária do fornecedor. Se apenas uma das ações ocorrer, o banco de dados entrará em colapso fiscal. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 2ª/2014) ao estabelecer que "de estados de ponteiros arpanet arpanet.ptr.121.45.34.132".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de nações reverso arpa arpa.invaddr.132.34.45.121". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, durante sua existência, uma transação transita por estados formais bem definidos na teoria de sistemas relacionais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de nações inverso arpanet 121.45.34.132.inv addr.arpanet". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, fase de Crescimento ( Growing Phase ): A transação pode adquirir quantos bloqueios precisar, mas é terminantemente proibida de liberar qualquer bloqueio.
->
-> **Gabarito: C**
-
----
-
-### Teste 013
-**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
-Para determinar o tamanho do software, de acordo com a AFP, devem ser seguidos procedimentos de contagem compostos por várias etapas. Na etapa de contagem das funções de transação, são definidas as Entradas Externas (EE), Saídas Externas (SE) e Consultas Externas (CE). Dentre os exemplos de CE estão
-
-* **A)** os dados passados entre online e batch dentro das fronteiras da mesma aplicação.
-* **B)** as informações provenientes de cálculos ou procedimentos para obtenção de dados derivados.
-* **C)** as mensagens de erros ou de confirmação associadas às EE, SE ou CE.
-* **D)** os relatórios de vendas semanais que requerem o uso de algoritmos e cálculos.
-* **E)** as operações de recuperação de e-mail de uma mailbox.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os dados passados entre online e batch dentro das fronteiras da mesma aplicação". De acordo com a teoria estudada em *3.2 Leitura Não Repetível (Non-Repeatable Read)*, impacto: Consultas idênticas sobre a mesma linha dentro do mesmo escopo transacional retornam valores distintos.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as informações provenientes de cálculos ou procedimentos para obtenção de dados derivados". De acordo com a teoria estudada em *🌐 Fontes Oficiais e Referências Bibliográficas*, sILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. Sistema de Banco de Dados. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 17 Transações; Cap. 18 Controle de Concorrência; Cap. 19 Sistema de Recuperação).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as mensagens de erros ou de confirmação associadas às EE, SE ou CE". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, princípio do "tudo ou nada" ( all or nothing ). Todas as operações que compõem a transação são consolidadas em conjunto no banco de dados, ou nenhuma delas produzirá efeito algum. Não existe efetivação parcial de transação.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os relatórios de vendas semanais que requerem o uso de algoritmos e cálculos". De acordo com a teoria estudada em *3.4 Atualização Perdida (Lost Update)*, definição: Duas transações ($T 1$ e $T 2$) leem simultaneamente a mesma tupla (ex.: saldo = 100). Ambas realizam cálculos locais independentes ($T 1$ soma 50; $T 2$ subtrai 30) e gravam os novos valores. A gravação mais tardia sobrescreve a anterior sem considerar seu cálculo, perdendo uma das atualizações.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)* deste guia, isso garante a Durabilidade: se faltar energia imediatamente após o commit, o SGBD lê o Redo Log no boot de recuperação ( Crash Recovery ) e reaplica ( redo ) as alterações nas tabelas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "as operações de recuperação de e mail de uma mailbox".
->
-> **Gabarito: E**
-
----
-
-### Teste 014
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
-Um banco de dados projetado para apoiar a tarefa de alocação automática de analistas para os processos recém inseridos no sistema. O modelo relacional especificado e implementado restringe a alocação de processos apenas a analistas disponíveis no departamento. Caso haja tentativa de inserção de nome fora da lista de valores já registrados, a transação não será completada, ou seja, nenhum valor será inserido. Selecione a alternativa que contém duas propriedades de transação aplicáveis ao cenário acima.
-
-* **A)** Atomicidade e Consistência.
-* **B)** Consistência e Durabilidade.
-* **C)** Durabilidade e Segurança.
-* **D)** Isolamento e Segurança.
-* **E)** Isolamento e Consistência.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.2 As Quatro Propriedades Fundamentais: ACID* deste guia, a["<b A Atomicidade (Atomicity)</b <br/ Princípio do 'Tudo ou Nada'<br/ Mecanismo: Log de UNDO (desfaz em caso de aborto)"]. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Atomicidade e Consistência".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Consistência e Durabilidade". De acordo com a teoria estudada em *🌐 Fontes Oficiais e Referências Bibliográficas*, postgreSQL 17 Official Documentation Write Ahead Logging (WAL) Registro em log prévio para garantia de durabilidade (D) e atomicidade (A) em transações ACID.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Durabilidade e Segurança". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, c["<b C Consistência (Consistency)</b <br/ Preserva invariantes e integridade do banco<br/ Mecanismo: PK, FK, CHECK, Triggers, regras do negócio"].
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Isolamento e Segurança". De acordo com a teoria estudada em *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)*, undo Log (Segmentos de Rollback): Registra os valores anteriores à modificação. Se uma transação falhar ou for cancelada, o SGBD lê o Undo Log para restaurar os dados originais (garantindo a Atomicidade).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Isolamento e Consistência". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, c Consistência ( Consistency ).
->
-> **Gabarito: A**
-
----
-
-### Teste 015
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
-Diferentemente do armazenamento feito em sistema de arquivos, o armazenamento em sistemas de banco de dados ou SGBD possui características especiais que garantem um funcionamento superior em relação à outras formas de armazenamento. Nesse contexto, as propriedades fundamentais garantidas pelo conceito ACID em sistemas de banco de dados são:
-
-* **A)** Atomicidade, Complexidade, Integridade, Durabilidade.
-* **B)** Atividade, Consistência, Inovação, Durabilidade.
-* **C)** Atomicidade, Consistência, Isolamento, Durabilidade.
-* **D)** Autenticidade, Conformidade, Integridade, Desempenho.
-* **E)** Automação, Convergência, Interoperabilidade, Desempenho.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Atomicidade, Complexidade, Integridade, Durabilidade". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, c["<b C Consistência (Consistency)</b <br/ Preserva invariantes e integridade do banco<br/ Mecanismo: PK, FK, CHECK, Triggers, regras do negócio"].
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Atividade, Consistência, Inovação, Durabilidade". De acordo com a teoria estudada em *1. O Conceito Formal de Transação e o Modelo ACID*, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível. No contexto de auditoria e controle externo no setor público, uma transação típica é a liquidação de uma despesa orçamentária: o sistema deve simultaneamente debitar o saldo do empenho e creditar a conta bancária do fornecedor. Se apenas uma das ações ocorrer, o banco de dados entrará em colapso fiscal.
-> - **C)** **Correta.** Conforme fundamentado na seção *🌐 Fontes Oficiais e Referências Bibliográficas* deste guia, postgreSQL 17 Official Documentation Write Ahead Logging (WAL) Registro em log prévio para garantia de durabilidade (D) e atomicidade (A) em transações ACID. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Atomicidade, Consistência, Isolamento, Durabilidade".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Autenticidade, Conformidade, Integridade, Desempenho". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, para que a integridade dos dados seja inviolável mesmo diante de falhas de hardware, interrupções de energia elétrica e concorrência massiva de usuários, o SGBD deve garantir integralmente as propriedades do acrônimo ACID (Jim Gray e Andreas Reuter).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Automação, Convergência, Interoperabilidade, Desempenho". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, c Consistência ( Consistency ).
->
-> **Gabarito: C**
-
----
-
-### Teste 016
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
-Para garantir que operações complexas sejam executadas de maneira segura e eficiente, assegurando que o banco de dados mantenha sua integridade mesmo em situações adversas, os Sistemas de Gerenciamento de Banco de Dados (SGBD) implementam o conceito de transação. Transação é
-
-* **A)** um conjunto de operações que são executadas sequencialmente para garantir a integridade dos dados.
-* **B)** um mecanismo que permite a cópia de segurança (backup) automática dos dados do banco.
-* **C)** um protocolo utilizado para distribuir os dados entre diferentes servidores de banco de dados.
-* **D)** um conjunto de operações que devem ser tratadas como uma unidade atômica e indivisível.
-* **E)** um método para criar índices que otimizam o acesso aos dados armazenados. Módulo III - Conhecimentos Específicos Avançados
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um conjunto de operações que são executadas sequencialmente para garantir a integridade dos dados". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, para que a integridade dos dados seja inviolável mesmo diante de falhas de hardware, interrupções de energia elétrica e concorrência massiva de usuários, o SGBD deve garantir integralmente as propriedades do acrônimo ACID (Jim Gray e Andreas Reuter).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um mecanismo que permite a cópia de segurança (backup) automática dos dados do banco". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, princípio do "tudo ou nada" ( all or nothing ). Todas as operações que compõem a transação são consolidadas em conjunto no banco de dados, ou nenhuma delas produzirá efeito algum. Não existe efetivação parcial de transação.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um protocolo utilizado para distribuir os dados entre diferentes servidores de banco de dados". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, rigorous 2PL (2PL Rigoroso): Todos os bloqueios (tanto compartilhados S quanto exclusivos X) devem ser mantidos até o COMMIT ou ROLLBACK . É a variante mais utilizada na prática por garantir serializabilidade estrita.
-> - **D)** **Correta.** Conforme fundamentado na seção *1. O Conceito Formal de Transação e o Modelo ACID* deste guia, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível. No contexto de auditoria e controle externo no setor público, uma transação típica é a liquidação de uma despesa orçamentária: o sistema deve simultaneamente debitar o saldo do empenho e creditar a conta bancária do fornecedor. Se apenas uma das ações ocorrer, o banco de dados entrará em colapso fiscal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "um conjunto de operações que devem ser tratadas como uma unidade atômica e indivisível".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um método para criar índices que otimizam o acesso aos dados armazenados. Módulo III Conhecimentos Específicos...". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, strict 2PL (2PL Estrito): Todos os bloqueios exclusivos (X) devem ser mantidos até o fim definitivo da transação ( COMMIT ou ROLLBACK ). Evita abortos em cascata ( cascadeless schedules ).
->
-> **Gabarito: D**
-
----
-
-### Teste 017
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
-No âmbito do microssistema legal de proteção ao patrimônio público e de combate à corrupção, a colaboração premiada tem, nos últimos tempos, ganhado especial destaque como relevante instrumento na apuração das respectivas condutas ilícitas. À luz do disposto na Lei nº 12.850/2013 e da orientação do Supremo Tribunal Federal acerca do tema é correto afirmar que
-
-* **A)** é inconstitucional a utilização de colaboração premiada prevista na mencionada norma em ação de improbidade administrativa, em quaisquer circunstâncias.
-* **B)** as declarações do agente que realiza a colaboração premiada com o Ministério Público são suficientes para o início da ação civil por ato de improbidade ajuizada pelo parquet, ainda desacompanhadas de outros elementos de prova.
-* **C)** a obrigação de ressarcimento do dano causado ao erário pelo agente que realiza a colaboração premiada deve ser integral, não podendo ser objeto de transação ou acordo, sendo válida a negociação em torno do modo e das condições para a indenização.
-* **D)** o acordo de colaboração premiada formalizado pelo Ministério Público não depende da interveniência da pessoa jurídica interessada, bastando a homologação da autoridade judicial.
-* **E)** a realização do acordo de colaboração premiada pelo Ministério Público será remetida para a análise do Juízo, sendo desnecessária a oitiva do colaborador pelo Magistrado, para fins de homologação.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é inconstitucional a utilização de colaboração premiada prevista na mencionada norma em ação de improbidade...". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, assegura que a execução concomitante de múltiplas transações seja invisível entre si. Os efeitos intermediários e temporários de uma transação não comitada não podem ser observados por outras transações concorrentes. O resultado final deve equivaler a uma execução estritamente sequencial ( serializável ).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as declarações do agente que realiza a colaboração premiada com o Ministério Público são suficientes para o início...". De acordo com a teoria estudada em *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)*, a Regra Inviolável do WAL: O registro de log que descreve a alteração deve ser gravado fisicamente em disco síncrono ANTES que as páginas de dados correspondentes sejam descarregadas da memória RAM para os arquivos de dados ( datafiles ).
-> - **C)** **Correta.** Conforme fundamentado na seção *1. O Conceito Formal de Transação e o Modelo ACID* deste guia, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível. No contexto de auditoria e controle externo no setor público, uma transação típica é a liquidação de uma despesa orçamentária: o sistema deve simultaneamente debitar o saldo do empenho e creditar a conta bancária do fornecedor. Se apenas uma das ações ocorrer, o banco de dados entrará em colapso fiscal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "a obrigação de ressarcimento do dano causado ao erário pelo agente que realiza a colaboração premiada deve ser...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o acordo de colaboração premiada formalizado pelo Ministério Público não depende da interveniência da pessoa...". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, ativa ( Active ): O estado inicial. A transação está sendo executada pela aplicação.
-> - **E)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "a realização do acordo de colaboração premiada pelo Ministério Público será remetida para a análise do Juízo...". De acordo com a teoria estudada em *🌐 Fontes Oficiais e Referências Bibliográficas*, martin Kleppmann Transactions and Isolation Levels in Distributed Systems Análise formal das anomalias de concorrência (Dirty Read, Non repeatable Read, Phantom Read e Write Skew).
->
-> **Gabarito: C**
-
----
-
-### Teste 018
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Contábeis)**
-Um ente público arrecada os seus tributos por intermédio de um agente arrecadador. Inicialmente, quando o montante é recebido pelo agente arrecadador, ele reconhece uma receita. Já quando o montante é transferido para o ente público, o agente arrecadador reconhece uma despesa, e o ente público, uma receita. De acordo com a NBC TSP 01– RECEITA DE TRANSAÇÃO SEM CONTRAPRESTAÇÃO, o procedimento é considerado
-
-* **A)** correto, uma vez que o reconhecimento da receita deve seguir a ordem financeira dos fatos.
-* **B)** correto, uma vez que as duas entidades prestam serviços, de acordo com a definição da receita.
-* **C)** incorreto, uma vez que a receita deve ser reconhecida pelo ente público, apenas.
-* **D)** incorreto, uma vez que a receita deve ser reconhecida pelo ente arrecadador, apenas.
-* **E)** incorreto, uma vez que a receita deve ser reconhecida de modo concomitante pelas duas entidades.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correto, uma vez que o reconhecimento da receita deve seguir a ordem financeira dos fatos". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, assegura que a execução concomitante de múltiplas transações seja invisível entre si. Os efeitos intermediários e temporários de uma transação não comitada não podem ser observados por outras transações concorrentes. O resultado final deve equivaler a uma execução estritamente sequencial ( serializável ).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correto, uma vez que as duas entidades prestam serviços, de acordo com a definição da receita". De acordo com a teoria estudada em *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)*, a Regra Inviolável do WAL: O registro de log que descreve a alteração deve ser gravado fisicamente em disco síncrono ANTES que as páginas de dados correspondentes sejam descarregadas da memória RAM para os arquivos de dados ( datafiles ).
-> - **C)** **Correta.** Conforme fundamentado na seção *1. O Conceito Formal de Transação e o Modelo ACID* deste guia, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível. No contexto de auditoria e controle externo no setor público, uma transação típica é a liquidação de uma despesa orçamentária: o sistema deve simultaneamente debitar o saldo do empenho e creditar a conta bancária do fornecedor. Se apenas uma das ações ocorrer, o banco de dados entrará em colapso fiscal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "incorreto, uma vez que a receita deve ser reconhecida pelo ente público, apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "incorreto, uma vez que a receita deve ser reconhecida pelo ente arrecadador, apenas". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, strict 2PL (2PL Estrito): Todos os bloqueios exclusivos (X) devem ser mantidos até o fim definitivo da transação ( COMMIT ou ROLLBACK ). Evita abortos em cascata ( cascadeless schedules ).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "incorreto, uma vez que a receita deve ser reconhecida de modo concomitante pelas duas entidades". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, rigorous 2PL (2PL Rigoroso): Todos os bloqueios (tanto compartilhados S quanto exclusivos X) devem ser mantidos até o COMMIT ou ROLLBACK . É a variante mais utilizada na prática por garantir serializabilidade estrita.
->
-> **Gabarito: C**
 
 ---
 
@@ -549,6 +185,45 @@ A linguagem SQL provê comandos dedicados para controlar as fronteiras transacio
 - **`ROLLBACK`:** Cancela integralmente a transação, desfazendo todas as operações pendentes desde o `BEGIN TRANSACTION` e restaurando a base ao estado inicial.
 - **`SAVEPOINT nome_ponto`:** Estabelece um **marco intermediário de salvamento** dentro de uma transação aberta.
 - **`ROLLBACK TO SAVEPOINT nome_ponto`:** Reverte as operações executadas **apenas após o marco especificado**, mantendo preservadas as instruções anteriores ao savepoint. **Atenção:** O comando `ROLLBACK TO SAVEPOINT` **NÃO encerra a transação**; ela permanece aberta aguardando novas instruções ou a finalização formal com `COMMIT` ou `ROLLBACK` total.
+
+---
+
+### Teste 258
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere a sequência de comandos executada em uma única sessão transacional em um SGBD em conformidade com o padrão ANSI SQL:
+
+```sql
+BEGIN TRANSACTION;
+  INSERT INTO fornecedores (id, nome) VALUES (1, 'Fornecedor Alfa');
+  SAVEPOINT ponto_1;
+  INSERT INTO fornecedores (id, nome) VALUES (2, 'Fornecedor Beta');
+  SAVEPOINT ponto_2;
+  INSERT INTO fornecedores (id, nome) VALUES (3, 'Fornecedor Gama');
+  ROLLBACK TO SAVEPOINT ponto_1;
+  INSERT INTO fornecedores (id, nome) VALUES (4, 'Fornecedor Delta');
+COMMIT;
+```
+
+Considerando que a tabela `fornecedores` encontrava-se vazia antes do início do bloco transacional e que nenhuma instrução apresentou erro de restrição de integridade, quais registros constarão na tabela após o término da execução?  
+
+* **A)** Fornecedor Alfa, Fornecedor Beta, Fornecedor Gama e Fornecedor Delta.
+* **B)** Fornecedor Alfa e Fornecedor Delta apenas.
+* **C)** Fornecedor Delta apenas.
+* **D)** Fornecedor Alfa, Fornecedor Beta e Fornecedor Delta.
+* **E)** Nenhum registro, pois o comando `ROLLBACK TO SAVEPOINT` desfaz a transação inteira e aborta o bloco.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Ignora o comando de reversão parcial `ROLLBACK TO SAVEPOINT ponto_1`, que cancelou as linhas 2 e 3.
+> - **B) CORRETA.** O comando `ROLLBACK TO SAVEPOINT ponto_1` desfaz as operações executadas posteriormente a esse marco ('Fornecedor Beta' e 'Fornecedor Gama'), mantendo válido o 'Fornecedor Alfa'. Com a inserção subsequente de 'Fornecedor Delta' e o `COMMIT`, apenas Alfa e Delta são gravados.
+> - **C) Incorreta.** O 'Fornecedor Alfa' foi inserido antes do `SAVEPOINT ponto_1` e não sofreu os efeitos do rollback.
+> - **D) Incorreta.** O 'Fornecedor Beta' foi sumariamente revertido ao retornar ao ponto de salvamento 1.
+> - **E) Incorreta.** O rollback para savepoint não aborta a transação e nem limpa os comandos executados antes do savepoint.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -570,6 +245,37 @@ Quando múltiplas transações concorrem pelo acesso aos mesmos dados sem contro
 
 ### 3.4 Atualização Perdida (Lost Update)
 - **Definição:** Duas transações ($T_1$ e $T_2$) leem simultaneamente a mesma tupla (ex.: saldo = 100). Ambas realizam cálculos locais independentes ($T_1$ soma 50; $T_2$ subtrai 30) e gravam os novos valores. A gravação mais tardia sobrescreve a anterior sem considerar seu cálculo, perdendo uma das atualizações.
+
+---
+
+### Teste 259
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em sistemas gerenciadores de bancos de dados com processamento transacional concorrente de alta intensidade, a ausência de mecanismos rigorosos de controle de concorrência expõe a base de dados a múltiplos fenômenos anômalos.
+
+Analise as três situações de concorrência descritas a seguir entre duas transações $T_1$ e $T_2$:
+
+1. $T_1$ lê um saldo bancário de R$ 10.000,00. Simultaneamente, $T_2$ altera esse saldo para R$ 15.000,00 e efetiva a operação com `COMMIT`. Em seguida, $T_1$ relê o mesmo registro na mesma transação e encontra o saldo de R$ 15.000,00.  
+2. $T_1$ executa uma consulta que recupera todos os contratos com valor acima de R$ 1.000.000,00, obtendo 5 registros. Nesse intervalo, $T_2$ insere um novo contrato no valor de R$ 2.000.000,00 e efetiva com `COMMIT`. $T_1$ reexecuta a mesma consulta e agora obtém 6 registros.  
+3. $T_1$ lê o valor de um empenho de R$ 50.000,00 e $T_2$ lê o mesmo valor. $T_1$ atualiza o valor para R$ 55.000,00 e efetiva. Logo depois, $T_2$, baseando-se no valor inicial lido, atualiza o valor para R$ 48.000,00 e efetiva, sobrescrevendo cegamente a alteração de $T_1$.  
+
+Esses três fenômenos caracterizam, rigorosa e respectivamente:
+
+* **A)** Leitura Suja (*Dirty Read*), Leitura Fantasma (*Phantom Read*) e Leitura Não Repetível (*Non-Repeatable Read*).
+* **B)** Leitura Não Repetível (*Non-Repeatable Read*), Leitura Fantasma (*Phantom Read*) e Atualização Perdida (*Lost Update*).
+* **C)** Leitura Fantasma (*Phantom Read*), Leitura Suja (*Dirty Read*) e Desvio de Gravação (*Write Skew*).
+* **D)** Leitura Suja (*Dirty Read*), Atualização Perdida (*Lost Update*) e Leitura Não Repetível (*Non-Repeatable Read*).
+* **E)** Leitura Não Repetível (*Non-Repeatable Read*), Atualização Perdida (*Lost Update*) e Leitura Suja (*Dirty Read*).
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **Situação 1:** Trata-se de **Leitura Não Repetível (Non-Repeatable Read ou Fuzzy Read)**: ocorre quando uma transação relê a mesma linha e encontra valores de colunas alterados porque outra transação efetuou `UPDATE` e `COMMIT` no intervalo.
+> - **Situação 2:** Trata-se de **Leitura Fantasma (Phantom Read)**: ocorre quando uma transação reexecuta uma consulta baseada em predicado/faixa e o conjunto de linhas resultante se altera devido a `INSERT` ou `DELETE` efetuado e confirmado por outra transação.
+> - **Situação 3:** Trata-se de **Atualização Perdida (Lost Update)**: ocorre quando duas transações leem o mesmo registro e ambas tentam atualizá-lo em paralelo; a última gravação sobrescreve a primeira sem considerar a alteração anterior, perdendo-se os dados da primeira atualização.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -598,6 +304,62 @@ Implementado em motores que utilizam controle de concorrência multiversão (MVC
 
 - No início da transação, o SGBD captura uma "fotografia" lógica (*snapshot*) do banco baseada no número de transação (*Transaction ID - XID*).
 - Todas as consultas daquela transação enxergam estritamente o estado dos dados consolidado no momento do snapshot, impedindo Leituras Não Repetíveis e Leituras Fantasmas sem a necessidade de adquirir bloqueios pesados de leitura.
+
+---
+
+### Teste 260
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em um sistema de arrecadação tributária estadual, duas transações concorrentes ($T_1$ e $T_2$) executam operações sobre a mesma tabela de contribuintes. A transação $T_1$ realiza a leitura de um registro de débitos fiscais. Em seguida, a transação $T_2$ altera o valor desse débito e efetiva a operação com `COMMIT`. Posteriormente, ainda dentro do seu escopo, a transação $T_1$ relê o mesmo registro e encontra o novo valor alterado e comitado por $T_2$.
+
+Considerando os fenômenos de concorrência e os níveis de isolamento padronizados pela norma ANSI SQL:  
+
+* **A)** O fenômeno observado é classificado como *Leitura Suja* (*Dirty Read*), e ocorre quando o nível de isolamento está configurado como `SERIALIZABLE`.
+* **B)** O fenômeno observado é classificado como *Leitura Não Repetível* (*Non-Repeatable Read*), e para impedi-lo o nível de isolamento transacional deve ser configurado no mínimo como `REPEATABLE READ`.
+* **C)** O fenômeno observado é classificado como *Leitura Fantasma* (*Phantom Read*), sendo permitido exclusivamente no nível de isolamento `READ UNCOMMITTED`.
+* **D)** O nível de isolamento `READ COMMITTED` impede a ocorrência de Leituras Não Repetíveis e Leituras Fantasmas, mas autoriza Leituras Sujas.
+* **E)** A ocorrência de leituras não repetíveis viola o princípio da Durabilidade (D do ACID), revertendo compulsoriamente a transação $T_2$.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Leitura Suja ocorre quando uma transação lê dados modificados por outra transação que **ainda não fez commit** (podendo abortar). No caso narrado, $T_2$ comitou com sucesso antes da releitura.
+> - **B)** Correta. O fenômeno em que a mesma transação relê a mesma linha e encontra valores modificados por outra transação que já efetuou commit é a **Leitura Não Repetível** (*Non-Repeatable Read*). Conforme a matriz ANSI SQL-92, o nível `READ COMMITTED` permite esse fenômeno, sendo necessário configurar no mínimo o nível **`REPEATABLE READ`** para impedi-lo.
+> - **C)** Incorreta. Leitura Fantasma ocorre em consultas baseadas em intervalos onde surgem novas linhas inseridas.
+> - **D)** Incorreta. O nível `READ COMMITTED` previne Leituras Sujas, mas **permite** Leituras Não Repetíveis e Leituras Fantasmas.
+> - **E)** Incorreta. A Durabilidade garante a permanência dos dados comitados após falhas físicas, não atuando sobre anomalias de visibilidade concorrente.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 261
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O mecanismo de isolamento conhecido como *Snapshot Isolation* (Isolamento por Instantâneo) é amplamente empregado por SGBDs modernos baseados em MVCC (como PostgreSQL e Oracle). Sob esse nível, uma transação visualiza uma fotografia consistente dos dados correspondente ao instante em que iniciou.
+
+Embora o *Snapshot Isolation* impeça Leitura Suja, Leitura Não Repetível e Leituras Fantasmas convencionais, a literatura de banco de dados comprova que ele **não é equivalente** ao nível de isolamento `SERIALIZABLE` clássico por admitir a anomalia denominada:
+
+* **A)** Atualização Cega (*Blind Write*).
+* **B)** Leitura Não Determinística (*Fuzzy Read*).
+* **C)** Desvio de Gravação (*Write Skew*).
+* **D)** Inconsistência de Checkpoint (*Torn Page*).
+* **E)** Interbloqueio em Cascata (*Cascading Abort*).
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Blind write é simplesmente uma escrita que não é precedida por uma leitura.
+> - **B)** Incorreta. Fuzzy Read é sinônimo de Leitura Não Repetível, a qual é eliminada no Snapshot Isolation.
+> - **C)** **CORRETA.** O **Write Skew (Desvio de Gravação)** é a principal anomalia admitida pelo *Snapshot Isolation* que impede sua equivalência matemática à Serializabilidade estrita:
+>   - Exemplo clássico: Uma regra de negócio estipula que a soma de duas contas correntes $A + B$ nunca pode ser negativa. Inicialmente, $A = 100$ e $B = 100$. A transação $T_1$ lê $A$ e $B$, deduz R$ 150 de $A$ (verificando que $A+B = 50 \ge 0$). Simultaneamente, $T_2$ lê $A$ e $B$, deduz R$ 150 de $B$ (também verificando que $A+B \ge 0$).
+>   - Como $T_1$ atualiza apenas $A$ e $T_2$ atualiza apenas $B$, não há conflito direto de linha (*first-committer-wins* não detecta colisão de chave primária). Ambas efetuam `COMMIT`. No final, $A = -50$ e $B = -50$, violando a restrição de integridade ($A+B = -100 < 0$). Nenhuma execução serial pura admitiria esse resultado.
+> - **D)** Incorreta. Torn page é um defeito de hardware/IO no qual um bloco é parcialmente gravado em disco.
+> - **E)** Incorreta. Abortos em cascata decorrem de transações que leem dados não confirmados (leitura suja), inexistentes no isolamento por snapshot.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -661,6 +423,145 @@ flowchart LR
 - **Técnicas de Prevenção por Timestamps:**
     - *Wait-Die (Não-preemptivo):* Se a transação mais antiga solicitar recurso retido pela mais nova, ela espera (*wait*); se a mais nova solicitar recurso retido pela mais antiga, a mais nova morre (*die/rollback*).
     - *Wound-Wait (Preemptivo):* Se a transação mais antiga solicitar recurso retido pela mais nova, ela fere e aborta a mais nova (*wound/preempt*); se a mais nova solicitar da mais antiga, ela espera (*wait*).
+
+---
+
+### Teste 262
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Os SGBDs relacionais empregam bloqueios (*locks*) lógicos gerenciados pelo subsistema de Lock Manager para disciplinar o acesso concorrente aos dados. Dois modos fundamentais de bloqueio são o Compartilhado (*Shared Lock - S*) e o Exclusivo (*Exclusive Lock - X*).
+
+A respeito da matriz de compatibilidade entre esses tipos de bloqueios e sua granularidade, assinale a afirmativa correta:
+
+* **A)** Múltiplas transações concorrentes podem obter simultaneamente bloqueios compartilhados (*Shared Locks*) sobre o mesmo recurso de dados para fins de leitura.
+* **B)** Uma transação pode obter com sucesso um bloqueio exclusivo (*Exclusive Lock*) sobre uma tabela mesmo que outra transação já mantenha ativo um bloqueio compartilhado sobre essa mesma tabela.
+* **C)** O bloqueio de granularidade fina (no nível de linha/tupla) consome menos memória do Lock Manager do que o bloqueio de granularidade grossa (no nível de tabela inteira).
+* **D)** Bloqueios de intenção (*Intent Locks*, como IS e IX) são utilizados apenas em operações DDL e não interferem na concorrência de instruções DML como `SELECT` e `UPDATE`.
+* **E)** O bloqueio compartilhado impede que outras transações realizem leituras simultâneas no mesmo objeto, forçando o enfileiramento sequencial de todas as operações de consulta.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Pela matriz de compatibilidade clássica:
+>   - Bloqueio Compartilhado ($S$) com Bloqueio Compartilhado ($S$): **Compatível**. Múltiplas transações de leitura concorrente podem acessar o mesmo recurso simultaneamente sem bloqueio mútuo.
+>   - Bloqueio Exclusivo ($X$) com qualquer outro bloqueio ($S$ ou $X$): **Incompatível**. Uma transação de escrita exige exclusividade total.
+> - **B)** Incorreta. O bloqueio $X$ entra em conflito direto com bloqueios $S$ existentes, forçando a transação solicitante a aguardar a liberação.
+> - **C)** Incorreta. Bloqueio de granularidade fina (linha) oferece maior concorrência, porém consome **muito mais memória** do Lock Manager, pois há milhares de estruturas de *lock* instanciadas (podendo levar à *escalação de bloqueios / lock escalation* para tabela).
+> - **D)** Incorreta. Bloqueios de intenção (IS, IX, SIX) operam na hierarquia de granularidade de dados para indicar que transações detêm ou pretendem obter travas em níveis inferiores (linhas), otimizando a verificação de travas em nível de tabela para comandos DML.
+> - **E)** Incorreta. Bloqueio compartilhado autoriza expressamente leituras simultâneas de outras transações.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 263
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A respeito dos mecanismos de controle de concorrência, bloqueios (*locks*) e tratamento de impasses (*deadlocks*) em SGBDs relacionais modernos, assinale a afirmativa correta:  
+
+* **A)** O protocolo de Bloqueio em Duas Fases (2PL - *Two-Phase Locking*) determina que uma transação pode intercalar a aquisição e a liberação de bloqueios livremente ao longo de toda a sua execução.
+* **B)** No mecanismo de Controle de Concorrência Multiversão (MVCC), operações de leitura e operações de escrita não se bloqueiam mutuamente para uma mesma linha.
+* **C)** Um bloqueio do tipo Compartilhado (*Shared Lock - S*) impede que qualquer outra transação simultânea obtenha novos bloqueios compartilhados sobre o mesmo recurso para leitura.
+* **D)** Os impasses (*deadlocks*) são tratados pelo SGBD mantendo todas as transações envolvidas em espera infinita até que o administrador reinicie o servidor físico.
+* **E)** O grafo de espera (*Wait-For Graph*) é uma estrutura utilizada para calcular o espaço em disco ocupado pelos logs de auditoria, não possuindo utilidade na detecção de deadlocks.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O protocolo 2PL proíbe a alternância livre: divide-se em fase de crescimento (apenas obtém locks) e fase de encolhimento (apenas libera locks).
+> - **B)** Correta. O pilar fundamental do MVCC é: *"Leitores não bloqueiam escritores, e escritores não bloqueiam leitores"*. Leitores consultam versões prévias consolidadas no seu snapshot temporal, permitindo que escritores criem novas versões sem travar leituras.
+> - **C)** Incorreta. Bloqueios Compartilhados (S) são compatíveis entre si; múltiplas transações podem reter simultaneamente bloqueios S sobre o mesmo dado para leitura.
+> - **D)** Incorreta. Os SGBDs detectam deadlocks ativamente e abortam uma transação vítima com rollback automático.
+> - **E)** Incorreta. O *Wait-For Graph* é a estrutura canônica para detectar ciclos direcionados de espera mútua entre transações.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 264
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O protocolo de Bloqueio em Duas Fases (*Two-Phase Locking - 2PL*) é um algoritmo de controle de concorrência com ampla aplicação em bancos de dados relacionais.
+
+Acerca do funcionamento e das variantes do protocolo 2PL, é correto afirmar:  
+
+* **A)** O 2PL básico garante tanto a serializabilidade quanto a imunidade total contra a ocorrência de bloqueios mútuos (*deadlocks*).
+* **B)** Uma transação que adota o 2PL entra na fase de encolhimento (*shrinking phase*) a partir do momento em que obtém seu primeiro bloqueio compartilhado.
+* **C)** No protocolo Rigorous 2PL (2PL Rigoroso), a transação mantém todos os seus bloqueios exclusivos e compartilhados até o término definitivo da transação com `COMMIT` ou `ROLLBACK`.
+* **D)** No protocolo Strict 2PL (2PL Estrito), a transação deve liberar todos os seus bloqueios exclusivos imediatamente após a execução do comando DML correspondente, antes do `COMMIT`.
+* **E)** O protocolo 2PL assegura que a ordem de commit das transações seja sempre idêntica à ordem cronológica de inicialização dos seus processos.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O 2PL garante **serializabilidade**, mas **NÃO evita deadlocks**!
+> - **B)** Incorreta. A fase de encolhimento inicia quando a transação realiza a liberação do seu primeiro bloqueio.
+> - **C)** Correta. No **Rigorous 2PL**, todos os bloqueios adquiridos (tanto compartilhados - S quanto exclusivos - X) são mantidos obrigatoriamente até o fim definitivo da transação com `COMMIT` ou `ROLLBACK`, simplificando a recuperação e prevenindo abortos em cascata.
+> - **D)** Incorreta. No Strict 2PL, os bloqueios exclusivos (X) devem ser mantidos até o fim definitivo da transação (commit/rollback).
+> - **E)** Incorreta. O 2PL assegura equivalência a uma ordem serial válida qualquer, não vinculando à ordem de início dos processos.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 265
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O Controle Multiversão de Concorrência (*Multi-Version Concurrency Control - MVCC*) é o mecanismo arquitetural predominante em motores de banco de dados modernos, tais como o PostgreSQL e o Oracle Database.
+
+A principal vantagem do MVCC sobre os mecanismos tradicionais de bloqueio pessimista bidirecional (2PL estrito) e o seu princípio fundamental de funcionamento residem no fato de que:
+
+* **A)** As transações de leitura realizam bloqueios exclusivos de página, impedindo a escrita de novas tuplas até que a leitura seja confirmada por `COMMIT`.
+* **B)** Leituras nunca bloqueiam escritas, e escritas nunca bloqueiam leituras; quando um registro é atualizado, o SGBD não sobrescreve o dado no local original, mas cria uma nova versão física da tupla com metadados de transação (`xmin` / `xmax`), mantendo a versão anterior visível para transações ativas mais antigas.
+* **C)** O MVCC elimina completamente o uso de memória RAM e de discos rígidos, processando todas as transações em tabelas estritamente temporárias.
+* **D)** O isolamento obtido com MVCC é sempre `READ UNCOMMITTED`, permitindo leituras de dados sujos sem qualquer validação de *snapshots*.
+* **E)** O MVCC dispensa integralmente mecanismos de coleta de lixo (*garbage collection* / `VACUUM`), pois as tuplas obsoletas são destruídas instantaneamente pelo processador na saída do comando `UPDATE`.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. No MVCC, leituras não adquirem bloqueios pesados em linhas ou páginas para leitura comum, operando sobre *snapshots*.
+> - **B)** **CORRETA.** O axioma fundamental do MVCC é: **"leitores não bloqueiam escritores, e escritores não bloqueiam leitores"**. Em vez de atualizar um registro no mesmo espaço (*in-place update*) e travar a linha com bloqueio exclusivo prolongado, o motor (ex.: PostgreSQL) insere uma nova versão da tupla (*tuple version*) com identificador de transação criadora (`xmin`), marcando a tupla anterior como expirada pela transação modificadora (`xmax`). Transações de leitura continuam acessando a versão anterior correspondente ao seu respectivo *snapshot*, eliminando contenção de concorrência.
+> - **C)** Incorreta. O MVCC opera em memória e disco como qualquer mecanismo de persistência.
+> - **D)** Incorreta. O MVCC implementa níveis de isolamento elevados (`READ COMMITTED`, `REPEATABLE READ`, `SERIALIZABLE`), impedindo leituras sujas.
+> - **E)** Incorreta. Como as versões antigas de tuplas permanecem no disco até que nenhuma transação ativa precise delas, o MVCC **exige compulsoriamente** rotinas de limpeza periódica (como o processo `VACUUM` no PostgreSQL) para expurgar tuplas mortas (*dead tuples*) e evitar *bloat*.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 266
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em um ambiente de banco de dados de alto volume transacional, duas transações concorrentes entram em uma situação na qual a Transação $T_1$ detém o bloqueio exclusivo da linha $A$ e aguarda a liberação da linha $B$ (bloqueada por $T_2$), enquanto $T_2$ aguarda a liberação da linha $A$ (bloqueada por $T_1$).
+
+A respeito desse cenário de impasse (*Deadlock*) e dos métodos empregados pelos SGBDs para seu tratamento, assinale a afirmativa correta:
+
+* **A)** O impasse é automaticamente resolvido pelo SGBD permitindo que ambas as transações acessem e sobrescrevam simultaneamente as duas linhas em disputa.
+* **B)** A ocorrência de um deadlock é detectada pelo SGBD por meio da construção periódica de um Grafo de Espera (*Wait-For Graph*); a existência de um ciclo direcionado nesse grafo indica formalmente a presença de um deadlock, exigindo que o SGBD selecione uma transação "vítima" para ser abortada e sofrer `ROLLBACK`.
+* **C)** O protocolo 2PL básico garante matematicamente a imunidade total e absoluta contra a ocorrência de deadlocks.
+* **D)** Em caso de deadlock, o SGBD encerra forçosamente todas as conexões ativas no banco de dados e reinicia o processo principal do servidor.
+* **E)** Protocolos baseados em timestamps (como *Wait-Die* e *Wound-Wait*) detectam impasses somente após o bloqueio indefinido de todos os núcleos da CPU.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Permitir acesso simultâneo sem bloqueio violaria o isolamento e corromperia os dados da base.
+> - **B)** **CORRETA.** A teoria de detecção de impasses modela as dependências ativas por um grafo direcionado $G = (V, E)$, denominado **Wait-For Graph (Grafo de Espera)**:
+>   - Os vértices $V$ representam as transações ativas ($T_1, T_2, \dots$).
+>   - As arestas direcionadas $(T_i \rightarrow T_j)$ indicam que a transação $T_i$ está aguardando a liberação de um recurso bloqueado por $T_j$.
+>   - Um impasse (*deadlock*) ocorre **se, e somente se, o grafo contiver um ciclo direcionado** ($T_1 \rightarrow T_2 \rightarrow T_1$).
+>   - Ao detectar o ciclo, o algoritmo de recuperação elege uma transação "vítima" (com base em critérios como tempo de execução, custo de *rollback* ou número de tuplas alteradas), aborta essa transação com `ROLLBACK` e libera seus bloqueios para que as demais transações possam prosseguir.
+> - **C)** Incorreta. O protocolo 2PL garante serializabilidade, mas **não previne** deadlocks.
+> - **D)** Incorreta. O SGBD aborta apenas a transação vítima selecionada, mantendo o restante da instância em operação ininterrupta.
+> - **E)** Incorreta. *Wait-Die* e *Wound-Wait* são esquemas de **prevenção** preventiva de deadlocks baseados na idade/timestamp da transação, não atuando após travamento total da CPU.
+> 
+> **Gabarito: B**
 
 ---
 

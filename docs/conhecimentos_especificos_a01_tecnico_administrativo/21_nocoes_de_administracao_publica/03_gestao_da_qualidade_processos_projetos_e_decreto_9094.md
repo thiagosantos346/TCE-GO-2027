@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `03_gestao_da_qualidade_processos_projetos_e_decreto_9094.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -125,6 +128,58 @@ flowchart TD
 
 ---
 
+### Teste 320
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Determinada equipe de modernização administrativa do Tribunal de Contas recebeu a incumbência de identificar as causas fundamentais dos atrasos reiterados na instrução processual de tomadas de contas especiais. Para estruturar a análise, os analistas utilizaram uma ferramenta visual que categoriza as causas potenciais em fatores como procedimentos e rotinas (Método), capacitação dos auditores (Mão de obra), sistemas informatizados utilizados (Máquinas/Tecnologia) e insumos documentais recebidos dos jurisdicionados (Matéria-prima). A ferramenta descrita é o:
+
+* **A)** Diagrama de Ishikawa (Espinha de Peixe).
+* **B)** Gráfico de Pareto baseado na regra 80/20.
+* **C)** Ciclo PDCA na etapa de Checagem.
+* **D)** Histograma de frequências acumuladas.
+* **E)** Gráfico de dispersão linear de Pearson.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O Diagrama de Causa e Efeito (Diagrama de Ishikawa ou Espinha de Peixe) é o instrumento clássico da qualidade estruturado para rastrear e categorizar as causas raízes de um problema operacional, dividindo-as tradicionalmente nos 6Ms (Método, Mão de obra, Máquina, Matéria-prima, Medição e Meio ambiente).
+> - **B)** Incorreta. O Diagrama de Pareto organiza causas por frequência decrescente para priorizar os 20% de causas que respondem por 80% dos problemas.
+> - **C)** Incorreta. O PDCA é um ciclo metodológico de gestão em quatro etapas contínuas, não o gráfico de causas em espinha.
+> - **D)** Incorreta. O histograma é um gráfico de distribuição de frequência estatística.
+> - **E)** Incorreta. O gráfico de dispersão avalia a relação de causa estatística entre duas variáveis contínuas.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 321
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O Ciclo PDCA (desenvolvido por Walter Shewhart e amplamente disseminado por W. Edwards Deming) constitui metodologia clássica de melhoria contínua de processos organizacionais.
+
+A etapa do ciclo em que a organização analisa e avalia sistematicamente as diferenças entre os resultados executados e as metas planejadas, identificando causas de variações para adoção de medidas saneadoras, denomina-se:
+
+* **A)** Check (Verificar / Checar).
+* **B)** Plan (Planejar).
+* **C)** Do (Executar / Fazer).
+* **D)** Act (Agir corretivamente / Padronizar).
+* **E)** Decide (Decidir discricionariamente).
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. No ciclo **PDCA**: **Plan** (planejar metas); **Do** (executar); **Check** (checar/verificar resultados frente às metas e identificar desvios); **Act** (agir corretivamente e padronizar).
+> - **B)** Incorreta. Planejar é fixação inicial.
+> - **C)** Incorreta. Executar é implementação.
+> - **D)** Incorreta. Agir é correção definitiva e padronização.
+> - **E)** Incorreta. Fase inexistente no modelo.
+> 
+> **Gabarito: A**
+
+---
+
 ## 2. Desburocratização e Atendimento ao Cidadão (Decreto nº 9.094/2017)
 
 O **Decreto Federal nº 9.094/2017** (regulamentado e reforçado pela Lei Federal nº 13.726/2018 - Lei de Desburocratização) estabeleceu diretrizes expressas de simplificação administrativa e presunção de boa-fé nas relações entre a administração pública e a sociedade:
@@ -158,6 +213,58 @@ A Carta de Serviços ao Usuário é um instrumento de governança e transparênc
 - Requisitos, documentos e informações necessários para cada serviço;
 - Prazos máximos para a conclusão e entrega de cada etapa;
 - Mecanismos de comunicação e procedimentos para registro de reclamações e sugestões na ouvidoria pública.
+
+---
+
+### Teste 322
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Cidadão compareceu ao setor de protocolo de uma secretaria de Estado para requerer certidão de regularidade funcional, apresentando cópia simples de sua cédula de identidade acompanhada do documento original. O atendente público recusou o recebimento da documentação, exigindo que o requerente providenciasse prévia autenticação da cópia e reconhecimento de firma em cartório de notas. Considerando o disposto no Decreto Federal nº 9.094/2017 e na legislação correlata sobre simplificação de serviços públicos:
+
+* **A)** A conduta do atendente foi correta, pois a fé pública de documentos apresentados ao Estado depende de reconhecimento notarial.
+* **B)** A conduta do atendente foi indevida.
+* **C)** O atendente agiu com respaldo legal, desde que o prazo de validade da cédula de identidade apresentada pelo cidadão tenha expirado há mais de cinco anos.
+* **D)** O atendimento só poderia ser recusado se o cidadão não comprovasse residência fixa no Estado por meio de certidão cartorária.
+* **E)** A dispensa de autenticação cartorária somente se aplica a pessoas jurídicas sem fins lucrativos qualificadas como organizações sociais.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Decreto nº 9.094/2017 e a Lei Federal nº 13.726/2018 proíbem a transferência de custos e formalidades cartorárias ao cidadão quando o documento original é exibido ao agente público.
+> - **B)** Correta. De acordo com o art. 9º do Decreto Federal nº 9.094/2017 e a Lei nº 13.726/2018, é vedada a exigência de reconhecimento de firma e de autenticação notarial de cópias, cabendo ao próprio servidor público, sob sua fé pública funcional, confrontar a cópia simples com o documento original e atestar a sua conformidade no processo administrativo.
+> - **C)** Incorreta. A lei não admite exceção temporal para documentos oficiais de identificação válidos que individualizem o cidadão.
+> - **D)** Incorreta. A comprovação de endereço pode ser feita mediante simples declaração assinada pelo interessado.
+> - **E)** Incorreta. A simplificação administrativa beneficia indistintamente qualquer cidadão ou pessoa jurídica no trato com o serviço público.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 323
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na Gestão de Processos de Negócio (BPM), a análise da situação corrente do processo para mapear seus gargalos, ineficiências e retrabalhos existentes é contraposta ao desenho da situação ideal futura pretendida.
+
+Esses dois estágios do ciclo BPM são internacionalmente denominados, respectivamente:
+
+* **A)** Mapeamento *AS-IS* (como o processo é executado atualmente) e Modelagem *TO-BE* (como o processo deverá ser executado no futuro após otimização).
+* **B)** Planejamento *BOTTOM-UP* e Execução *TOP-DOWN*.
+* **C)** Cadeia de Suprimentos *KANBAN* e Manufatura *JUST-IN-TIME*.
+* **D)** Metodologia *SCRUM* e Painel de Controle *BALANCED SCORECARD*.
+* **E)** Matriz *SWOT* e Matriz *BCG*.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Padrão BPM CBOK: **AS-IS** (diagnóstico da situação atual, gargalos e desperdícios); **TO-BE** (modelo do processo futuro otimizado).
+> - **B)** Incorreta. Fluxos direcionais de planejamento.
+> - **C)** Incorreta. Ferramentas de manufatura.
+> - **D)** Incorreta. Scrum é ágil; BSC é estratégico.
+> - **E)** Incorreta. Matrizes de diagnóstico e portfólio.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -209,6 +316,58 @@ flowchart LR
 
 ---
 
+### Teste 324
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No âmbito da modelagem e do gerenciamento de processos de negócio (BPM - Business Process Management), os processos organizacionais são classificados em finalísticos, de suporte e de gerenciamento. Assinale a alternativa que apresenta um exemplo legítimo de processo de suporte (secundário) em uma organização pública:
+
+* **A)** Realização de fiscalização tributária e lançamento de ofício do crédito tributário estadual.
+* **B)** Concessão de aposentadorias e pensões aos servidores vinculados ao regime próprio de previdência.
+* **C)** Gestão de compras e contratação de serviços de vigilância e limpeza para as dependências do prédio sede.
+* **D)** Julgamento de autos de infração fiscal pelo Tribunal Administrativo Tributário.
+* **E)** Auditoria de regularidade das despesas públicas municipais efetuada pelo Tribunal de Contas.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A fiscalização e o lançamento de tributos constituem a atividade-fim essencial da Secretaria da Fazenda, qualificando-se como processo finalístico (primário).
+> - **B)** Incorreta. No âmbito de um instituto de previdência pública, conceder benefícios é sua atividade-fim direta (processo primário).
+> - **C)** Correta. Processos de suporte (secundários ou de apoio) são aqueles que viabilizam o funcionamento interno da instituição e dos processos finalísticos, fornecendo recursos, logística e infraestrutura para clientes internos. A contratação de vigilância, limpeza predial, almoxarifado e suporte técnico de TI são exemplos clássicos de processos de suporte.
+> - **D)** Incorreta. O julgamento contencioso tributário é atividade finalística essencial de arrecadação e justiça fiscal.
+> - **E)** Incorreta. A fiscalização e auditoria das contas públicas jurisdicionadas é o processo finalístico precípuo do Tribunal de Contas.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 325
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No Gerenciamento de Projetos, as metodologias ágeis (como o Scrum) ganharam amplo espaço no setor público pela necessidade de entregas parciais e adaptação constante a mudanças.
+
+No framework **Scrum**, a reunião diária, curta e estruturada (de cerca de 15 minutos), na qual a equipe alinha o andamento dos trabalhos e identifica impedimentos imediatos, é denominada:
+
+* **A)** Daily Scrum (ou Daily Stand-up).
+* **B)** Sprint Review.
+* **C)** Sprint Retrospective.
+* **D)** Sprint Planning.
+* **E)** Product Backlog Refinement.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O **Daily Scrum** é a reunião diária da equipe (15 minutos) para alinhamento e identificação de impedimentos.
+> - **B)** Incorreta. Sprint Review homologa o incremento da Sprint.
+> - **C)** Incorreta. Sprint Retrospective avalia melhorias internas da equipe.
+> - **D)** Incorreta. Sprint Planning planeja as tarefas da Sprint.
+> - **E)** Incorreta. Refinamento de backlog detalha itens futuros.
+> 
+> **Gabarito: A**
+
+---
+
 ## 4. Gestão de Projetos segundo o Guia PMBOK (PMI)
 
 ### 4.1 Distinção Conceitual: Projeto versus Processo
@@ -249,6 +408,108 @@ flowchart TD
 O sucesso de um projeto decorre do equilíbrio dinâmico entre três variáveis interdependentes, balizadas pelo padrão de **Qualidade**:
 $$\text{Escopo} \iff \text{Tempo / Cronograma} \iff \text{Custo / Orçamento}$$
 A alteração em qualquer um desses vértices impacta compulsoriamente os outros dois (ex.: antecipar o prazo de conclusão exige aumento de custos com horas extras ou redução do escopo entregue).
+
+---
+
+### Teste 326
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No âmbito da gestão estratégica e da teoria das organizações, a respeito das distinções essenciais entre a gestão de processos de negócio e a gestão de projetos:
+
+* **A)** Os projetos caracterizam-se por sua natureza contínua e repetitiva, destinando-se a manter estabilizadas as operações de rotina da organização.
+* **B)** A modelagem de processos denominada AS-IS refere-se ao desenho ideal do fluxo futuro após a eliminação de redundâncias e automação tecnológica.
+* **C)** O projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo, enquanto os processos representam fluxos de trabalho permanentes e padronizados.
+* **D)** A Estrutura Analítica do Projeto (EAP) consiste em um gráfico de barras cronológico destinado a mensurar os custos diários incorridos pela equipe.
+* **E)** Os processos primários ou finalísticos de um órgão público são aqueles voltados exclusivamente para dar suporte administrativo às áreas de informática e compras.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A perenidade, continuidade e repetitividade são traços definidores dos processos de rotina operacional, e não dos projetos.
+> - **B)** Incorreta. A modelagem AS-IS retrata o processo atual como ele funciona hoje (com suas falhas e gargalos); o desenho otimizado futuro é o TO-BE.
+> - **C)** Correta. É a clássica definição do PMI/PMBOK: projeto é um esforço temporário com início e fim delimitados destinado a gerar um produto, serviço ou resultado exclusivo; ao passo que processos de negócio são contínuos, permanentes e padronizados para manter as operações regulares.
+> - **D)** Incorreta. A EAP é a decomposição hierárquica do escopo em entregas gerenciáveis; o gráfico de barras temporal com cronograma é o Gráfico de Gantt.
+> - **E)** Incorreta. Informática e compras internas configuram processos de suporte (secundários); processos finalísticos entregam valor público direto à sociedade e à missão essencial do órgão.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 327
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em relação ao gerenciamento de projetos estruturado segundo as boas práticas do guia PMBOK (Project Management Institute), assinale a opção correta:
+
+* **A)** O Termo de Abertura do Projeto (TAP) é emitido após o término da execução física para consolidar as lições aprendidas pela equipe.
+* **B)** A Estrutura Analítica do Projeto (EAP) tem por objetivo decompor hierarquicamente o trabalho total do projeto em partes menores e gerenciáveis orientadas a entregas.
+* **C)** O grupo de processos de encerramento do projeto dispensa a aceitação formal das entregas pelo cliente quando o cronograma for cumprido no prazo previsto.
+* **D)** A restrição tripla do gerenciamento de projetos é composta exclusivamente por variáveis comportamentais: motivação, liderança e clima institucional.
+* **E)** O gerente de projeto adquire autoridade formal para aplicar recursos da organização apenas no momento em que a equipe conclui a fase de encerramento contratual.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Termo de Abertura do Projeto (TAP) é emitido no grupo de Iniciação, inaugurando formalmente o projeto.
+> - **B)** Correta. A EAP (Work Breakdown Structure - WBS) é a ferramenta de decomposição hierárquica e visual do escopo total de trabalho do projeto em partes menores e gerenciáveis (pacotes de trabalho) orientadas exclusivamente a entregas.
+> - **C)** Incorreta. O encerramento do projeto exige impreterivelmente o aceite formal das entregas finais pelo cliente ou patrocinador, além da documentação das lições aprendidas.
+> - **D)** Incorreta. A restrição tripla clássica do gerenciamento de projetos é formada por: Escopo, Tempo e Custo (integrados pelo padrão de Qualidade).
+> - **E)** Incorreta. A autorização formal para mobilizar servidores e recursos organizacionais é conferida ao gerente logo no início, através da assinatura do TAP.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 328
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O Decreto Federal nº 9.094/2017 (que simplifica o atendimento aos usuários dos serviços públicos e institui a Carta de Serviços) e a Lei Federal nº 13.460/2017 trazem normas expressas para a desburocratização administrativa.
+
+A respeito das exigências documentais dirigidas aos cidadãos e usuários do serviço público, de acordo com o Decreto nº 9.094/2017:
+
+* **A)** É vedada a exigência de reconhecimento de firma e de cópia autenticada em cartório de documentos expedidos no País, devendo a autenticação ser feita pelo próprio agente público mediante confronto com o original, ressalvada expressa previsão legal em contrário.
+* **B)** É obrigatória a apresentação mensal de certidões negativas de débito cível e criminal em todo requerimento administrativo individual de protocolo.
+* **C)** A Administração Pública não pode admitir a autodeclaração de veracidade sob nenhuma hipótese, exigindo sempre laudos periciais cartorários.
+* **D)** O cidadão tem o ônus exclusivo de obter certidões emitidas por outros órgãos do próprio Poder Executivo, sendo proibido o compartilhamento eletrônico de dados entre repartições estatais.
+* **E)** A Carta de Serviços ao Cidadão possui caráter meramente facultativo e sigiloso, não devendo ser publicada na internet.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Decreto nº 9.094/2017 e Lei nº 13.726/2018 dispensam reconhecimento de firma e autenticação cartorária como regra geral, cabendo ao servidor atestar o confere com o original.
+> - **B)** Incorreta. Vedado exigir certidões que o Estado já possui.
+> - **C)** Incorreta. Admite-se autodeclaração de veracidade.
+> - **D)** Incorreta. Órgãos devem compartilhar bases de dados entre si.
+> - **E)** Incorreta. A Carta de Serviços é obrigatória e pública.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 329
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na elaboração do Termo de Abertura do Projeto (*Project Charter*) e no planejamento do escopo segundo as boas práticas do Guia PMBOK, a ferramenta estruturada que decompõe hierarquicamente o trabalho total do projeto em entregas menores e pacotes de trabalho gerenciáveis é a:
+
+* **A)** Estrutura Analítica do Projeto (EAP) / *Work Breakdown Structure (WBS)*.
+* **B)** Diagrama de Dispersão de Ishikawa.
+* **C)** Curva ABC de Pareto.
+* **D)** Matriz GUT de Gravidade, Urgência e Tendência.
+* **E)** Análise de Regressão Linear Múltipla.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **Estrutura Analítica do Projeto (EAP)** decompõe hierarquicamente o escopo total em entregas e pacotes de trabalho gerenciáveis.
+> - **B)** Incorreta. Ishikawa analisa causas raízes.
+> - **C)** Incorreta. Curva ABC/Pareto prioriza falhas/itens (80/20).
+> - **D)** Incorreta. Matriz GUT prioriza problemas.
+> - **E)** Incorreta. Ferramenta estatística.
+> 
+> **Gabarito: A**
 
 ---
 

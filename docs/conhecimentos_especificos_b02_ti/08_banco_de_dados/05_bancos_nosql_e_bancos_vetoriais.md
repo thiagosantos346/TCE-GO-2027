@@ -4,7 +4,10 @@
 **Cargo:** Auditor de Controle Externo - Tecnologia da Informação  
 **Status do Mapeamento:** 100% aderente ao edital TCE-GO
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 1. **Teorema CAP e Modelo BASE:** Teorema CAP de Eric Brewer (Consistência, Disponibilidade e Tolerância a Partições), trade-offs fundamentais (CP vs. AP), Teorema PACELC e Modelo BASE (*Basically Available*, *Soft state*, *Eventual consistency*) vs. Modelo ACID.
@@ -100,6 +103,94 @@ Enquanto os bancos relacionais transacionais regem-se pelo rigor determinístico
 | **C - Consistência:** Preservação estrita das regras de integridade e esquemas rígidos antes e após a transação. | **S - Soft State (Estado Maleável/Fluido):** O estado do sistema pode sofrer alterações ao longo do tempo por sincronização interna de réplicas em segundo plano, mesmo sem que nenhuma nova escrita tenha ocorrido. |
 | **I - Isolamento:** Transações simultâneas não interferem entre si, produzindo resultado idêntico a uma execução serial. | **E - Eventual Consistency (Consistência Eventual):** Se nenhuma nova atualização for submetida ao sistema, após decorrido um intervalo de tempo razoável todas as réplicas convergentes propagarão suas atualizações e alcançarão o mesmo estado consolidado. |
 | **D - Durabilidade:** Os dados comitados persistem permanentemente em disco, resistindo a falhas elétricas. | **Propagação de Réplicas:** Replicação assíncrona tolerante a latência, utilizando protocolos como *Gossip Protocol* e algoritmos de quórum configuráveis ($R + W > N$). |
+
+---
+
+### Teste 278
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Um arquiteto de software de um tribunal público avalia a infraestrutura de dados para dois projetos de modernização institucional:
+
+1. Uma plataforma analítica de combate à corrupção encarregada de mapear redes de parentesco, cruzamento de quadros societários e rastreamento de laranjas em contratações de órgãos jurisdicionados.
+2. Um serviço de autenticação e controle de tráfego de alta concorrência que demanda armazenamento em memória de tokens transitórios de acesso e sessões de usuários com tempo de vida definido (TTL).
+
+Considerando as famílias NoSQL mais eficientes para os casos e as regras de sistemas distribuídos do Teorema CAP, é correto afirmar:
+
+* **A)** O Projeto 1 deve utilizar Banco Chave-Valor; o Projeto 2 deve utilizar Banco de Grafos; e sistemas distribuídos sob partição de rede garantem Consistência e Disponibilidade plenas simultaneamente.
+* **B)** O Projeto 1 deve utilizar Banco de Grafos (ex.: Neo4j); o Projeto 2 deve utilizar Banco Chave-Valor em memória (ex.: Redis); e, em sistemas distribuídos sob partição de rede (P), é compulsório optar entre Consistência estrita (C) ou Disponibilidade (A).
+* **C)** O Projeto 1 deve utilizar Banco de Famílias de Colunas; o Projeto 2 deve utilizar Banco de Documentos; e o Teorema CAP não se aplica a arquiteturas NoSQL com persistência em disco.
+* **D)** O Projeto 1 deve utilizar Banco de Documentos; o Projeto 2 deve utilizar Banco Relacional Monolítico; e o modelo BASE substitui integralmente a necessidade de tolerância a partições físicas.
+* **E)** O Projeto 1 deve utilizar Banco de Séries Temporais; o Projeto 2 deve utilizar Banco Orientado a Objetos; e transações ACID distribuídas mantêm disponibilidade total mesmo com isolamento físico de rede entre datacenters.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Houve inversão completa das soluções tecnológicas indicadas, além da afirmação errônea de que é possível garantir C e A simultaneamente na vigência de partições de rede.
+> - **B)** **Correta.** 
+>     - No Projeto 1, a análise de redes societárias e parentescos exige travessia profunda e multidirecional de arestas; o modelo de **Grafos** (como o Neo4j) é a solução sob medida, viabilizando navegação com custo $\mathcal{O}(1)$ por nó explorado (*Index-free Adjacency*).
+>     - No Projeto 2, o gerenciamento de sessões com expiração automática (TTL) requer armazenamento ultrarrápido em RAM; o modelo **Chave-Valor** (como o Redis) é o padrão da indústria.
+>     - Pelo **Teorema CAP**, como falhas de comunicação em rede física (**P**) são contingências inevitáveis em sistemas distribuídos, o arquiteto é obrigado a arbitrar entre **Consistência (C)** ou **Disponibilidade (A)** durante o evento de partição.
+> - **C)** Incorreta. Bancos de famílias de colunas são otimizados para ingestão massiva e séries temporais, sendo inadequados para travessia de grafos de relacionamentos em teia; ademais, o Teorema CAP aplica-se formalmente a qualquer sistema distribuído em rede.
+> - **D)** Incorreta. O modelo de documentos lida com coleções semiestruturadas em árvore, sendo ineficiente para detectar conexões de grafos em anel ou cíclicas sem múltiplos loops de aplicação.
+> - **E)** Incorreta. Sistemas distribuídos com particionamento de rede não conseguem sustentar ACID clássico pleno sem degradar totalmente a disponibilidade do sistema perante os clientes dos nós isolados.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 279
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O Teorema CAP (Brewer) postula que um sistema distribuído não pode garantir simultaneamente Consistência (C), Disponibilidade (A) e Tolerância a Particionamentos de Rede (P). No entanto, o Teorema CAP aborda apenas o comportamento do sistema durante partições de rede anormais. Para descrever o comportamento em operação de rede normal, Daniel Abadi formulou o Teorema PACELC.
+
+A respeito dos postulados formais do Teorema PACELC, assinale a afirmativa correta:
+
+* **A)** O Teorema PACELC estabelece que se houver Partição (P), deve-se escolher entre Disponibilidade (A) e Consistência (C); Senão (Else - E), deve-se escolher entre Latência (L) e Consistência (C).
+* **B)** O Teorema PACELC afirma que bancos NoSQL podem garantir Consistência forte e Latência zero em 100% do tempo sem violar leis da física.
+* **C)** No teorema PACELC, a letra 'E' significa Criptografia ponta a ponta (*End-to-end Encryption*) obrigatória em redes sem fio.
+* **D)** Sistemas classificados como PC/EC priorizam sempre a disponibilidade operacional em detrimento de qualquer validação de integridade.
+* **E)** O teorema PACELC aplica-se exclusivamente a bancos de dados centralizados legados em servidores *mainframe*.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** O Teorema PACELC expande o Teorema CAP estruturando o seguinte raciocínio:
+>   - **Se houver Partição de Rede (P):** O sistema deve escolher entre **Disponibilidade (A)** e **Consistência (C)** (como no Teorema CAP original).
+>   - **Senão (Else - E - quando o sistema opera normalmente sem falhas de partição):** O sistema distribuído ainda assim enfrenta um *trade-off* inevitável entre **Latência (L)** e **Consistência (C)**.
+>   - Para obter consistência estrita (leitura de dados sempre sincronizados entre réplicas), o sistema precisa coordenar mensagens e confirmações entre múltiplos nós antes de responder, o que introduz maior latência de resposta ($L$). Se quiser latência ultrabaixa ($L$), ele responde imediatamente com os dados locais do nó mais próximo, tolerando leituras temporariamente inconsistentes ($C$).
+> - **B)** Incorreta. Consistência forte e latência zero em nós geograficamente distribuídos são mutuamente excludentes devido ao limite de propagação da velocidade da luz na rede.
+> - **C)** Incorreta. 'E' significa *Else* (Senão / Operação normal da rede).
+> - **D)** Incorreta. Sistemas PC/EC priorizam Consistência ($C$) tanto durante partições quanto no estado normal.
+> - **E)** Incorreta. Aplica-se especificamente a arquiteturas de armazenamento distribuído (*Distributed Storage*).
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 280
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em ambientes de computação distribuída e bancos de dados NoSQL projetados para suportar partições de rede com alta disponibilidade, a teoria de sistemas adota com frequência o modelo **BASE** em contraposição ao modelo **ACID** dos SGBDs relacionais clássicos. O pilar fundamental do modelo BASE que estabelece que, se nenhuma nova atualização for enviada ao sistema, ao longo do tempo todas as réplicas convergentes propagarão seus dados e alcançarão o mesmo estado consolidado é denominado:
+
+* **A)** Soft State.
+* **B)** Basically Available.
+* **C)** Eventual Consistency.
+* **D)** Strict Serializability.
+* **E)** Atomic Broadcast.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. *Soft State* (Estado Maleável) estabelece que o estado dos nós do cluster pode mudar ou oscilar com o tempo por sincronização de réplicas em segundo plano, mesmo que não haja novas entradas externas.
+> - **B)** Incorreta. *Basically Available* (Disponibilidade Básica) determina que o sistema continuará operando e respondendo aos clientes de maneira tolerante a falhas locais, admitindo degradação controlada.
+> - **C)** **Correta.** O conceito de **Eventual Consistency (Consistência Eventual)** postula que, cessadas novas submissões de dados ao cluster, todas as réplicas do sistema distribuído trocarão mensagens de reconciliação (via quóruns, gossip protocol ou anti-entropy) e convergirão eventualmente para um estado idêntico e consistente.
+> - **D)** Incorreta. *Strict Serializability* é a garantia mais rígida de consistência do modelo relacional/linearizável (ACID), sendo exatamente o oposto do modelo flexível BASE.
+> - **E)** Incorreta. *Atomic Broadcast* é uma primitiva de comunicação de consenso distribuído, não um pilar conceituado no acrônimo BASE.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -203,225 +294,154 @@ RETURN auditor.nome, contrato.numero, empresa.razao_social, socio.nome
 
 ---
 
-### Teste 001
-**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
-O banco de dados H2 é uma solução de persistência de dados NoSQL do tipo chave-valor.
+### Teste 281
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em um projeto de modernização de sistemas do tribunal, a equipe de desenvolvimento optou por utilizar o banco de dados orientado a documentos MongoDB para armazenar os autos e pareceres de auditoria.
 
-* **C)** Certo
-* **E)** Errado
+A respeito das características arquiteturais e das técnicas de modelagem de dados no MongoDB, assinale a afirmativa correta:
 
----
+* **A)** O MongoDB armazena dados em tabelas rígidas com colunas estáticas definidas em scripts DDL pré-compilados.
+* **B)** Os documentos no MongoDB são serializados internamente no formato BSON (*Binary JSON*), o qual estende o JSON padrão suportando tipos de dados adicionais como datas, inteiros de 64 bits e identificadores binários (`ObjectId`).
+* **C)** No MongoDB é terminantemente proibido embutir documentos dentro de outros documentos (*embedding*), sendo obrigatório o uso de referências via chave estrangeira com junções `INNER JOIN` em todas as coleções.
+* **D)** O MongoDB não suporta nenhum tipo de índice, realizando varreduras completas em coleções para qualquer consulta.
+* **E)** As transações multi-documento são fisicamente impossíveis de serem executadas no MongoDB, mesmo em clusters de réplicas modernas.
 
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O banco de dados H2 é uma solução de persistência de dados NoSQL do tipo chave valor". De acordo com a teoria em *2.3 Bancos de Famílias de Colunas (Wide-Column / Cassandra / HBase)*, consultas e Casos de Uso: O Cassandra adota a linguagem CQL ( Cassandra Query Language ), que lembra a sintaxe do SQL, mas restringe severamente consultas que não utilizem a chave de partição (não há suporte para JOIN relacional arbitrário). É a solução perfeita para dados de séries temporais, registros massivos de telemetria IoT, histórico contábil imutável e logs de auditoria contínua.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
-
----
-
-### Teste 002
-**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
-Os sistemas de bancos de dados NoSQL baseados em documentos armazenam os dados por meio de esquemas do tipo XML.
-
-* **C)** Certo
-* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os sistemas de bancos de dados NoSQL baseados em documentos armazenam os dados por meio de esquemas do tipo...". De acordo com a teoria em *2.1 Bancos Orientados a Documentos (MongoDB)*, armazenam dados na forma de documentos semiestruturados, geralmente serializados em formatos como JSON, BSON ( Binary JSON ) ou XML.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
-
----
-
-### Teste 003
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
-A equipe de sistemas do TJAP precisa analisar o papel das camadas de persistência em bancos de dados e como elas contribuem para o desenvolvimento dos sistemas. Para tanto, com a intenção de ajudar nesse processo de análise, as camadas de persistência:
-
-* **A)** são exclusivas para bancos de dados NoSQL, utilizando bibliotecas como HBase e Cassandra;
-* **B)** proporcionam interfaces que permitem a leitura, gravação e manipulação dos dados armazenados, como JDBC e ADO.NET;
-* **C)** são responsáveis pela interface gráfica dos sistemas de bancos de dados, usando bibliotecas como Hibernate e Entity Framework;
-* **D)** gerenciam a persistência de dados no armazenamento e as bibliotecas SQLite e MongoDB são exemplos dessa abordagem;
-* **E)** focam exclusivamente a otimização de consultas SQL, e bibliotecas como LINQ e Django ORM são amplamente utilizadas nesse contexto.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são exclusivas para bancos de dados NoSQL, utilizando bibliotecas como HBase e Cassandra". De acordo com a teoria estudada em *2. As Quatro Famílias de Bancos de Dados NoSQL*, mongoDB, CouchDB Redis, DynamoDB Cassandra, HBase Neo4j, Neptune.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 O Teorema PACELC* deste guia, ou seja, para entregar dados estritamente consistentes mesmo em tempos normais, os nós do cluster precisam trocar mensagens de confirmação síncronas entre si, o que eleva a latência percebida pelos clientes. Se o objetivo for latência ultrabaixa, o sistema deve relaxar a consistência imediata de leitura. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "proporcionam interfaces que permitem a leitura, gravação e manipulação dos dados armazenados, como JDBC e ADO.NET".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são responsáveis pela interface gráfica dos sistemas de bancos de dados, usando bibliotecas como Hibernate e...". De acordo com a teoria estudada em *2.1 Bancos Orientados a Documentos (MongoDB)*, aggregation Pipeline: Framework de análise de dados no MongoDB estruturado em etapas sequenciais compostas por operadores.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "gerenciam a persistência de dados no armazenamento e as bibliotecas SQLite e MongoDB são exemplos dessa abordagem". De acordo com a teoria estudada em *1.1 Teorema CAP (Eric Brewer / Gilbert & Lynch)*, sistemas CP: Priorizam Consistência. Em caso de quebra de partição, os nós isolados rejeitam requisições para evitar leituras defasadas ou escritas conflitantes (sacrificam a Disponibilidade). Exemplos: MongoDB, Redis Cluster, HBase, CockroachDB.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "focam exclusivamente a otimização de consultas SQL, e bibliotecas como LINQ e Django ORM são amplamente utilizadas...". De acordo com a teoria estudada em *2.3 Bancos de Famílias de Colunas (Wide-Column / Cassandra / HBase)*, consultas e Casos de Uso: O Cassandra adota a linguagem CQL ( Cassandra Query Language ), que lembra a sintaxe do SQL, mas restringe severamente consultas que não utilizem a chave de partição (não há suporte para JOIN relacional arbitrário). É a solução perfeita para dados de séries temporais, registros massivos de telemetria IoT, histórico contábil imutável e logs de auditoria contínua.
->
+> - **A)** Incorreta. O MongoDB adota esquema flexível (*schemaless* / *schema-on-read*) organizado em coleções (*collections*) e documentos (*documents*), sem necessidade de DDL rígido prévio.
+> - **B)** **CORRETA.** Os documentos do MongoDB são codificados e persistidos em formato **BSON (Binary JSON)**, uma representação binária do modelo JSON que agrega eficiência de parsing e suporte nativo a tipos primitivos indispensáveis em bancos de dados (como `Date`, `Timestamp`, `Int64`, `Decimal128` de alta precisão monetária e `ObjectId` de 12 bytes).
+> - **C)** Incorreta. A técnica de embutir documentos e subdocumentos (*Embedded Documents*) é o padrão idiomático mais recomendado no MongoDB para dados acessados conjuntamente em uma única operação atômica de I/O, evitando junções.
+> - **D)** Incorreta. O MongoDB suporta índices secundários B-Tree, índices geoespaciais, índices de texto e índices multikey (para vetores e arrays).
+> - **E)** Incorreta. Desde a versão 4.0, o MongoDB implementa transações ACID multi-documento completas em *Replica Sets*.
+> 
 > **Gabarito: B**
 
 ---
 
-### Teste 004
-**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
-Os sistemas de informação que automatizam os processos de negócio de uma organização requerem bancos de dados transacionais para realizar uma operação. Com o crescimento das fontes de dados, os bancos de dados evoluíram para permitir a ingestão de grandes volumes de dados gerados a cada instante. Com isso, uma das propriedades de transações que precisa estar presente em bancos de dados NoSQL é:
+### Teste 282
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No banco de dados NoSQL Redis, o gerenciamento eficiente da memória RAM e as opções de salvaguarda dos dados em disco baseiam-se em estruturas e parâmetros bem definidos. Sobre o funcionamento do Redis, é correto afirmar:
 
-* **A)** durabilidade;
-* **B)** atomicidade;
-* **C)** estado inflexível;
-* **D)** isolamento seletivo;
-* **E)** eventualmente consistente.
+* **A)** O tipo de dados *Sorted Set (ZSET)* armazena elementos duplicados sequenciados exclusivamente pelo horário de inserção na fila.
+* **B)** O mecanismo de persistência RDB (*Redis Database*) realiza a gravação síncrona de cada instrução individual de escrita em um arquivo sequencial contínuo imediatamente após a execução do comando.
+* **C)** O mecanismo de persistência AOF (*Append Only File*) atua como um log transacional sequencial, registrando em disco os comandos executados que modificam os dados, viabilizando a restauração fiel do estado do banco após falhas.
+* **D)** O comando de expiração temporal TTL (*Time-To-Live*) não existe no Redis, demandando rotinas em scripts externos para varredura e exclusão manual de chaves obsoletas.
+* **E)** A estrutura de dados *Hash* permite o armazenamento de apenas uma chave simples atrelada a uma string escalar, não suportando subcampos internos.
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "durabilidade". De acordo com a teoria estudada em *1.3 Modelo BASE vs. Propriedades ACID*, d Durabilidade: Os dados comitados persistem permanentemente em disco, resistindo a falhas elétricas.: Propagação de Réplicas: Replicação assíncrona tolerante a latência, utilizando protocolos como Gossip Protocol e algoritmos de quórum configuráveis ($R + W N$).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atomicidade". De acordo com a teoria estudada em *1.3 Modelo BASE vs. Propriedades ACID*, a Atomicidade: A transação é indivisível (tudo ou nada).: BA Basically Available (Disponibilidade Básica): O sistema garante disponibilidade contínua dos serviços essenciais, tolerando falhas parciais ou degradação seletiva de recursos secundários.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estado inflexível". De acordo com a teoria estudada em *2.4 Bancos Orientados a Grafos (Neo4j e Cypher)*, é o diferencial técnico mais cobrado em concursos. Em bancos relacionais, para relacionar tabelas, o motor precisa realizar operações de JOIN via índices secundários ou varreduras com custo que escala de acordo com o tamanho total da tabela.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "isolamento seletivo". De acordo com a teoria estudada em *1.3 Modelo BASE vs. Propriedades ACID*, i Isolamento: Transações simultâneas não interferem entre si, produzindo resultado idêntico a uma execução serial.: E Eventual Consistency (Consistência Eventual): Se nenhuma nova atualização for submetida ao sistema, após decorrido um intervalo de tempo razoável todas as réplicas convergentes propagarão suas atualizações e alcançarão o mesmo estado consolidado.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Modelo BASE vs. Propriedades ACID* deste guia, enquanto os bancos relacionais transacionais regem se pelo rigor determinístico do modelo ACID, os sistemas NoSQL distribuídos apoiam se no paradigma flexível do modelo BASE. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "eventualmente consistente".
->
-> **Gabarito: E**
-
----
-
-### Teste 005
-**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
-O PostgreSQL é um SGBD gratuito de código aberto que suporta consultas relacionais em linguagem SQL. Com relação ao SQL do PostgreSQL, analise as afirmativas a seguir. I. A cláusula GROUP BY agrupa linhas com os mesmos valores em linhas de resumo, sendo frequentemente usada com funções de agregação como, por exemplo, COUNT( ), MAX( ), MIN( ), SUM( ) e AVG( ), para agrupar um conjunto de resultados de uma ou mais colunas. II. O operador HAVING foi adicionado ao SQL porque o WHERE não pode ser usado com funções de agregação, as quais são frequentemente usadas com a cláusula GROUP BY. Ao adicionar o HAVING é possível escrever condições similares às das cláusulas WHERE. III. A expressão CASE testa condições e retorna um valor quando a primeira condição é atendida (como uma instrução if-then- else); quando a condição seja verdadeira, ele parará a leitura e retornará o resultado, mas, se nenhuma condição for verdadeira, ele retornará o valor da cláusula ELSE. Caso não houver nenhum ELSE e nenhuma condição for verdadeira, ele retornará o valor NULL. Está correto o que se afirma em
-
-* **A)** I e II, apenas.
-* **B)** I e III, apenas.
-* **C)** II e III, apenas.
-* **D)** I e IV, apenas.
-* **E)** III e IV, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2.3 Bancos de Famílias de Colunas (Wide-Column / Cassandra / HBase)*, consultas e Casos de Uso: O Cassandra adota a linguagem CQL ( Cassandra Query Language ), que lembra a sintaxe do SQL, mas restringe severamente consultas que não utilizem a chave de partição (não há suporte para JOIN relacional arbitrário). É a solução perfeita para dados de séries temporais, registros massivos de telemetria IoT, histórico contábil imutável e logs de auditoria contínua.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.1 Bancos Orientados a Documentos (MongoDB)* deste guia, $group : Agrupa documentos por uma chave específica e calcula métricas agregadas como $sum , $avg , $min , $max (equivalente ao GROUP BY ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "I e III, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.4 Ecossistema Tecnológico: Extensão pgvector e Bancos Nativos*, extensão de código aberto que acrescenta nativamente o tipo de dados vector(dimensoes) ao PostgreSQL.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e IV, apenas". De acordo com a teoria estudada em *2.3 Bancos de Famílias de Colunas (Wide-Column / Cassandra / HBase)*, modelo de Dados Bidimensional Esparso: Os dados são organizados em linhas, onde cada linha possui uma chave de linha ( Row Key ou Partition Key ). Cada linha pode conter uma quantidade variável de colunas associadas a uma Família de Colunas ( Column Family ), e cada coluna contém um nome, um valor e um carimbo de tempo ( Timestamp ). Linhas diferentes na mesma tabela não precisam ter as mesmas colunas (espaço não alocado para colunas vazias, eliminando o custo de atributos nulos).
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III e IV, apenas". De acordo com a teoria estudada em *1.3 Modelo BASE vs. Propriedades ACID*, i Isolamento: Transações simultâneas não interferem entre si, produzindo resultado idêntico a uma execução serial.: E Eventual Consistency (Consistência Eventual): Se nenhuma nova atualização for submetida ao sistema, após decorrido um intervalo de tempo razoável todas as réplicas convergentes propagarão suas atualizações e alcançarão o mesmo estado consolidado.
+> - **A)** Incorreta. O *Sorted Set (ZSET)* armazena exclusivamente elementos **únicos** (sem duplicatas), cada um obrigatoriamente associado a um valor numérico de ponto flutuante denominado **score**, sendo ordenados por esse score (e não pela ordem de inserção cronológica).
+> - **B)** Incorreta. A gravação síncrona de cada instrução em arquivo contínuo de log é responsabilidade do mecanismo **AOF**. O **RDB** gera instantâneos compactos pontuais (*point-in-time snapshots*) em intervalos de tempo configuráveis.
+> - **C)** **Correta.** O mecanismo **AOF (*Append Only File*)** atua de forma contínua registrando cada operação de mutação da base em um arquivo de log, de modo análogo ao Write-Ahead Logging (WAL) dos bancos relacionais, possibilitando a recomposição precisa da base em memória durante o reinício do serviço.
+> - **D)** Incorreta. O Redis fornece suporte nativo completo ao **TTL (*Time-To-Live*)** por meio de comandos consagrados como `EXPIRE`, `PEXPIRE` e `SETEX`.
+> - **E)** Incorreta. A estrutura `Hash` no Redis implementa um mapa associativo que aceita múltiplos pares de campo-valor internos associados a uma mesma chave principal.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 283
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O Apache Cassandra é um banco de dados NoSQL distribuído pertencente à família de colunas largas (*Wide-Column / Column Family*), projetado para suportar volumes massivos de dados com escrita de altíssima velocidade e sem ponto único de falha (*Single Point of Failure*).
+
+Na definição de uma tabela no Cassandra via CQL (*Cassandra Query Language*), a chave primária (*Primary Key*) pode ser composta por dois tipos de componentes com funções operacionais distintas:
+
+```cql
+CREATE TABLE auditoria_acessos (
+    sigla_orgao text,
+    data_acesso timestamp,
+    id_usuario uuid,
+    acao text,
+    PRIMARY KEY (sigla_orgao, data_acesso, id_usuario)
+);
+```
+
+Nessa definição, assinale a afirmativa que expressa corretamente os papéis de `sigla_orgao` e `(data_acesso, id_usuario)`:
+
+* **A)** `sigla_orgao` atua como Chave de Partição (*Partition Key*), determinando em qual nó do cluster os dados residirão via algoritmo de hash consistente; e `(data_acesso, id_usuario)` atuam como Chaves de Agrupamento (*Clustering Columns*), definindo a ordenação física dos registros gravados no disco (SSTables) dentro daquela partição.
+* **B)** `sigla_orgao` é um índice secundário invertido, ao passo que `data_acesso` é uma chave estrangeira que aponta para um banco relacional externo.
+* **C)** Todas as três colunas são Chaves de Partição independentes, distribuindo cada linha aleatoriamente em nós distintos sem qualquer relação entre si.
+* **D)** O Cassandra não suporta ordenação em disco, sendo obrigatório ordenar todas as linhas na aplicação cliente via comandos em Python.
+* **E)** A chave primária no Cassandra serve exclusivamente para exibição gráfica no terminal, sem qualquer influência na distribuição física de rede ou disco.
+
+
+---
+
+> **Comentário Detalhado:**
 >
+> - **A)** **CORRETA.** Na arquitetura do Apache Cassandra:
+>   - **Partition Key (Chave de Partição - `sigla_orgao`):** O Cassandra aplica uma função hash criptográfica (ex.: Murmur3Partitioner) sobre este valor para determinar o token correspondente no anel (*ring*) do cluster e direcionar o registro para o nó responsável e suas réplicas.
+>   - **Clustering Columns (Colunas de Agrupamento - `data_acesso, id_usuario`):** Dentro da partição alocada naquele nó, essas colunas determinam a **ordenação física dos dados nos arquivos SSTables em disco**, permitindo consultas por faixa (*range queries*) extremamente velozes na dimensão temporal.
+> - **B)** Incorreta. Não são índices invertidos e o Cassandra não possui chaves estrangeiras.
+> - **C)** Incorreta. Apenas a primeira coluna (ou as colunas entre parênteses aninhados) compõe a chave de partição; as demais são colunas de clustering.
+> - **D)** Incorreta. A ordenação física em disco via *Clustering Columns* é justamente o grande trunfo do modelo de dados do Cassandra.
+> - **E)** Incorreta. A Primary Key rege toda a topologia de particionamento de rede e armazenamento físico em disco.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 284
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Ao planejar uma solução tecnológica para identificar fraudes tributárias sofisticadas caracterizadas por blindagem patrimonial em teias complexas de sócios cruzados, empresas coligadas e holdings familiares com 6 a 8 níveis de relacionamento hierárquico, uma equipe técnica optou pelo uso de um banco de dados orientado a grafos nativo (como o Neo4j).
+A decisão técnica justifica-se primariamente porque:
+
+* **A)** Os bancos de dados orientados a grafos convertem as instruções de consulta em planilhas tabulares CSV, eliminando a dependência de processadores multinúcleo.
+* **B)** Os bancos de grafos nativos utilizam o princípio da Adjacência Livre de Índice (*Index-free Adjacency*), no qual cada nó armazena referências de ponteiros diretos para seus nós vizinhos, tornando o custo de navegação dependente apenas do subgrafo percorrido, evitando a explosão combinatória de múltiplos JOINs relacionais sucessivos.
+* **C)** Os grafos de propriedades proíbem a inclusão de atributos descritivos nas arestas de relacionamento, simplificando os cálculos de álgebra booleana.
+* **D)** Os bancos de dados relacionais tradicionais não admitem a execução de junções entre tabelas que possuam chaves primárias do tipo inteiro.
+* **E)** A linguagem Cypher baseia-se exclusivamente em comandos imperativos procedurais em linguagem C, sendo compilada estaticamente durante a inicialização do cluster.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Bancos de grafos nativos utilizam armazenamento em arquivos binários contíguos estruturados de nós e arestas cacheados agressivamente na memória RAM.
+> - **B)** **Correta.** O recurso técnico chave dos bancos de grafos é a **Adjacência Livre de Índice (*Index-free Adjacency*)**: cada nó armazena ponteiros físicos diretos de memória para os nós vizinhos interligados. Desse modo, o custo para saltar de uma entidade para outra é $\mathcal{O}(1)$ por nó explorado, eliminando os múltiplos `JOINs` sucessivos e pesados que provocam colapso de planos de execução em bancos relacionais em análises profundas.
+> - **C)** Incorreta. No modelo *Labeled Property Graph*, tanto os nós quanto os relacionamentos (arestas) podem livremente armazenar atributos de propriedades (ex.: percentual de cotas, data de entrada na sociedade).
+> - **D)** Incorreta. Bancos relacionais realizam plenamente junções sobre colunas inteiras; o problema reside na complexidade exponencial e no I/O excessivo ao realizar muitos joins em tabelas com milhões de linhas.
+> - **E)** Incorreta. A linguagem **Cypher** é uma linguagem de consulta de alto nível puramente **declarativa** orientada a casamento de padrões visuais em arte ASCII (`MATCH (n)-[r]->(m)`).
+> 
 > **Gabarito: B**
 
 ---
 
-### Teste 006
-**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
-Dados são importantes elementos de apoio à tomada de decisão, sendo que algumas aplicações geram quantidade massiva e heterogênea de dados, com alta velocidade. Para lidar com esse cenário, foi desenvolvido o seguinte modelo de programação que consiste em dividir, processar e combinar os dados em paralelo, de forma a acelerar o processamento e garantir a confiabilidade dos resultados:
+### Teste 285
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em um projeto de engenharia de dados do Tribunal de Contas, a equipe de TI deve definir a tecnologia de persistência para dois subsistemas com perfis de carga e requisitos funcionais completamente distintos:
 
-* **A)** Data Warehousing.
-* **B)** Elastic Search.
-* **C)** Hadoop.
-* **D)** MapReduce.
-* **E)** NoSQL.
+- **Subsistema 1:** Módulo de Execução Financeira e Folha de Pagamento dos servidores, exigindo estrita conformidade com ACID, integridade referencial mandatória com chaves estrangeiras, ausência de redundâncias e processamento transacional com isolamento serializável.  
+- **Subsistema 2:** Repositório de Ingestão Contínua de Logs de Auditoria e Telemetria de Redes (SIEM), com taxa de 100.000 eventos semiestruturados por segundo em formato JSON, consultas por chave primária simples e necessidade de escalabilidade horizontal linear (*scale-out*) com alta disponibilidade contínua sem interrupções.
 
----
+Para atender com máxima aderência técnica a cada subsistema, o arquiteto de TI deve prescrever:
 
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Data Warehousing". De acordo com a teoria estudada em *1. Teorema CAP, Teorema PACELC e o Modelo BASE*, o movimento NoSQL ( Not Only SQL ) surgiu para contornar as restrições físicas de escalabilidade vertical de bancos relacionais monolíticos em cenários de processamento massivo de dados ( Big Data ), viabilizando esquemas dinâmicos ( schemaless ) e particionamento horizontal maciço ( sharding ).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Elastic Search". De acordo com a teoria estudada em *🌐 Fontes Oficiais e Referências Bibliográficas*, arXiv Vector Search and Nearest Neighbor in Databases Indexação vetorial de embeddings (HNSW e IVFFlat) para busca semântica em bancos modernos.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Hadoop". De acordo com a teoria estudada em *2.3 Bancos de Famílias de Colunas (Wide-Column / Cassandra / HBase)*, modelo de Dados Bidimensional Esparso: Os dados são organizados em linhas, onde cada linha possui uma chave de linha ( Row Key ou Partition Key ). Cada linha pode conter uma quantidade variável de colunas associadas a uma Família de Colunas ( Column Family ), e cada coluna contém um nome, um valor e um carimbo de tempo ( Timestamp ). Linhas diferentes na mesma tabela não precisam ter as mesmas colunas (espaço não alocado para colunas vazias, eliminando o custo de atributos nulos).
-> - **D)** **Correta.** Conforme fundamentado na seção *2.1 Bancos Orientados a Documentos (MongoDB)* deste guia, bSON (Binary JSON): Extensão binária do JSON que viabiliza tipos primitivos adicionais não suportados pelo JSON textual puro, como tipos Date nativos, inteiros de 64 bits ( long ), decimais de alta precisão e dados binários brutos, otimizando a velocidade de parseamento e travessia. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "MapReduce".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "NoSQL". De acordo com a teoria estudada em *2. As Quatro Famílias de Bancos de Dados NoSQL*, pipeline agreg. RAM ultra rápida Escala massiva propriedades.
->
-> **Gabarito: D**
+* **A)** Subsistema 1: Banco Orientado a Documentos NoSQL (MongoDB); Subsistema 2: Banco Relacional Tradicional (PostgreSQL centralizado em nó único).
+* **B)** Subsistema 1: Banco Relacional com suporte completo a ACID (PostgreSQL / Oracle); Subsistema 2: Banco NoSQL escalável horizontalmente (Wide-Column Cassandra ou Banco Orientado a Documentos).
+* **C)** Subsistema 1: Banco Chave-Valor puro sem persistência em disco (Redis); Subsistema 2: Banco Orientado a Grafos sem índices (Neo4j).
+* **D)** Ambos os subsistemas devem ser obrigatoriamente implementados em arquivos de planilha eletrônica no formato CSV em disco compartilhado NFS.
+* **E)** Ambos os subsistemas devem utilizar obrigatoriamente um banco de dados NoSQL baseado no Teorema CAP com consistência eventual sem durabilidade.
 
----
-
-### Teste 007
-**(CEBRASPE – TJ/DFT – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-Sistemas de bancos de dados classificados como NoSQL permitem a inserção de dados sem que haja um esquema predefinido.
-
-* **C)** Certo
-* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2. As Quatro Famílias de Bancos de Dados NoSQL*, esquema dinâmico TTL e persistência Masterless P2P Index free adj. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ/DFT/2015) ao afirmar que "Sistemas de bancos de dados classificados como NoSQL permitem a inserção de dados sem que haja um esquema...".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
->
-> **Gabarito: C**
-
----
-
-### Teste 008
-**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
-Os bancos de dados NoSQL são uma categoria de sistemas de gerenciamento de banco de dados (SGBD) projetados para lidar com dados não estruturados ou semiestruturados, ou seja, dados que não seguem um modelo de esquema rígido como o relacional (SQL). O termo NoSQL (que originalmente significava “sem SQL”) evoluiu para se referir a “Not Only SQL”, destacando a flexibilidade dessas bases de dados em relação aos modelos tradicionais. No contexto dos bancos de dados NoSQL, bancos de dados do tipo documento
-
-* **A)** armazenam dados em tabelas estruturadas, com linhas e colunas, semelhantes aos bancos de dados relacionais.
-* **B)** utilizam um modelo de grafos para representar e armazenar dados complexos, como relações entre entidades.
-* **C)** são projetados para garantir transações ACID em todos os casos, oferecendo suporte a operações complexas de leitura e escrita.
-* **D)** armazenam dados em um modelo de chave-valor, onde cada chave corresponde a um valor específico.
-* **E)** armazenam dados em formato JSON, BSON ou XML, permitindo flexibilidade para armazenar diferentes tipos de informações em um único documento.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "armazenam dados em tabelas estruturadas, com linhas e colunas, semelhantes aos bancos de dados relacionais". De acordo com a teoria estudada em *2.1 Bancos Orientados a Documentos (MongoDB)*, coleções e Documentos: Os dados são agrupados em Coleções ( Collections ), que equivalem conceitualmente às tabelas relacionais. No entanto, cada Documento ( Document ) individual dentro de uma mesma coleção pode possuir campos, tipos e estruturas inteiramente distintas (esquema dinâmico / schema flexible ).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "utilizam um modelo de grafos para representar e armazenar dados complexos, como relações entre entidades". De acordo com a teoria estudada em *2.1 Bancos Orientados a Documentos (MongoDB)*, bSON (Binary JSON): Extensão binária do JSON que viabiliza tipos primitivos adicionais não suportados pelo JSON textual puro, como tipos Date nativos, inteiros de 64 bits ( long ), decimais de alta precisão e dados binários brutos, otimizando a velocidade de parseamento e travessia.
-> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "são projetados para garantir transações ACID em todos os casos, oferecendo suporte a operações complexas de...". De acordo com a teoria estudada em *2.5 Matriz Comparativa e Casos de Uso no Controle Externo*, família NoSQL: Tecnologia Típica — Complexidade de Escrita / Leitura — Modelo CAP — Aplicação Prática no Tribunal de Contas (TCE GO).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "armazenam dados em um modelo de chave valor, onde cada chave corresponde a um valor específico". De acordo com a teoria estudada em *2.3 Bancos de Famílias de Colunas (Wide-Column / Cassandra / HBase)*, modelo de Dados Bidimensional Esparso: Os dados são organizados em linhas, onde cada linha possui uma chave de linha ( Row Key ou Partition Key ). Cada linha pode conter uma quantidade variável de colunas associadas a uma Família de Colunas ( Column Family ), e cada coluna contém um nome, um valor e um carimbo de tempo ( Timestamp ). Linhas diferentes na mesma tabela não precisam ter as mesmas colunas (espaço não alocado para colunas vazias, eliminando o custo de atributos nulos).
-> - **E)** **Correta.** Conforme fundamentado na seção *2.1 Bancos Orientados a Documentos (MongoDB)* deste guia, armazenam dados na forma de documentos semiestruturados, geralmente serializados em formatos como JSON, BSON ( Binary JSON ) ou XML. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "armazenam dados em formato JSON, BSON ou XML, permitindo flexibilidade para armazenar diferentes tipos de...".
->
-> **Gabarito: E**
-
----
-
-### Teste 009
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
-Sobre banco de dado NoSQL orientado a grafos, avalie se as afirmativas a seguir são falsas (F) ou verdadeiras (V). I. Se compararmos com um banco de dados relacional, os nós de um grafo correspondem às colunas de uma tabela. II. As operações de junção nesse tipo de banco são frequentemente mais eficientes do que em bancos de dados relacionais, pois utilizam chaves estrangeiras para realizar o relacionamento entre os nós. III. Diferentemente dos outros tipos de banco de dados NoSQL, bancos orientados a grafos não são próprios para se trabalhar com um grande volume de dados. As afirmativas são, respectivamente,
-
-* **A)** V – F – F.
-* **B)** F – V – F.
-* **C)** F – F – V.
-* **D)** V – F – V.
-* **E)** F – F – F.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *2.4 Bancos Orientados a Grafos (Neo4j e Cypher)*, vantagem de Performance: A travessia de relacionamentos possui custo computacional em tempo constante $\mathcal{O}(1)$ por aresta percorrida. O tempo de execução da consulta depende exclusivamente do subgrafo visitado na vizinhança, e não do volume global de bilhões de registros armazenados no banco.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – F". De acordo com a teoria estudada em *2.1 Bancos Orientados a Documentos (MongoDB)*, coleções e Documentos: Os dados são agrupados em Coleções ( Collections ), que equivalem conceitualmente às tabelas relacionais. No entanto, cada Documento ( Document ) individual dentro de uma mesma coleção pode possuir campos, tipos e estruturas inteiramente distintas (esquema dinâmico / schema flexible ).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *2.3 Bancos de Famílias de Colunas (Wide-Column / Cassandra / HBase)*, consultas e Casos de Uso: O Cassandra adota a linguagem CQL ( Cassandra Query Language ), que lembra a sintaxe do SQL, mas restringe severamente consultas que não utilizem a chave de partição (não há suporte para JOIN relacional arbitrário). É a solução perfeita para dados de séries temporais, registros massivos de telemetria IoT, histórico contábil imutável e logs de auditoria contínua.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – V". De acordo com a teoria estudada em *2.3 Bancos de Famílias de Colunas (Wide-Column / Cassandra / HBase)*, modelo de Dados Bidimensional Esparso: Os dados são organizados em linhas, onde cada linha possui uma chave de linha ( Row Key ou Partition Key ). Cada linha pode conter uma quantidade variável de colunas associadas a uma Família de Colunas ( Column Family ), e cada coluna contém um nome, um valor e um carimbo de tempo ( Timestamp ). Linhas diferentes na mesma tabela não precisam ter as mesmas colunas (espaço não alocado para colunas vazias, eliminando o custo de atributos nulos).
-> - **E)** **Correta.** Conforme fundamentado na seção *2.4 Bancos Orientados a Grafos (Neo4j e Cypher)* deste guia, é o diferencial técnico mais cobrado em concursos. Em bancos relacionais, para relacionar tabelas, o motor precisa realizar operações de JOIN via índices secundários ou varreduras com custo que escala de acordo com o tamanho total da tabela. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "F – F – F".
->
-> **Gabarito: E**
-
----
-
-### Teste 010
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
-O Auditor fiscaliza a arquitetura de um novo banco de dados NoSQL distribuído para o TCE-SC. O sistema precisa garantir que, em caso de falha na rede entre dois data centers, o sistema continue aceitando gravações, mesmo que os dados fiquem temporariamente inconsistentes entre os nós. De acordo com o Teorema CAP, esse sistema prioriza as propriedades de
-
-* **A)** e Tolerância a Partições (P).
-* **B)** Consistência
-* **C)** Disponibilidade
-* **D)** Atomicidade e Durabilidade.
-* **E)** Apenas Disponibilidade, ignorando partições.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "e Tolerância a Partições (P)". De acordo com a teoria estudada em *1.1 Teorema CAP (Eric Brewer / Gilbert & Lynch)*, a banca FCC costuma colocar como pegadinha que "um arquiteto pode escolher um sistema CA (Consistência + Disponibilidade sem Tolerância a Partições)". Lembre se: em redes de computadores físicas do mundo real, quedas de links de rede e atrasos são contingências inevitáveis; portanto, P é compulsório. A decisão prática resume se a escolher entre.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Consistência". De acordo com a teoria estudada em *1.1 Teorema CAP (Eric Brewer / Gilbert & Lynch)*, sistemas CP: Priorizam Consistência. Em caso de quebra de partição, os nós isolados rejeitam requisições para evitar leituras defasadas ou escritas conflitantes (sacrificam a Disponibilidade). Exemplos: MongoDB, Redis Cluster, HBase, CockroachDB.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Teorema CAP (Eric Brewer / Gilbert & Lynch)* deste guia, sistemas AP: Priorizam Disponibilidade. Em caso de quebra de rede, todos os nós continuam respondendo a leituras e escritas, tolerando que réplicas fiquem temporariamente desatualizadas e sincronizem depois via Consistência Eventual (sacrificam a Consistência imediata). Exemplos: Apache Cassandra, CouchDB, DynamoDB (em configuração padrão). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Disponibilidade".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Atomicidade e Durabilidade". De acordo com a teoria estudada em *1.3 Modelo BASE vs. Propriedades ACID*, a Atomicidade: A transação é indivisível (tudo ou nada).: BA Basically Available (Disponibilidade Básica): O sistema garante disponibilidade contínua dos serviços essenciais, tolerando falhas parciais ou degradação seletiva de recursos secundários.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Apenas Disponibilidade, ignorando partições". De acordo com a teoria estudada em *1.1 Teorema CAP (Eric Brewer / Gilbert & Lynch)*, p (Partition Tolerance Tolerância a Partições de Rede): O cluster distribuído continua processando dados mesmo se ocorrerem interrupções de links de comunicação, partições físicas de rede ou atrasos arbitrários no tráfego de pacotes entre os nós.
->
-> **Gabarito: C**
+> - **A)** Incorreta. Inverteu a adequação das tecnologias aos requisitos dos subsistemas.
+> - **B)** **CORRETA.** Aplicação canônica dos critérios arquiteturais de seleção:
+>   - **Subsistema 1:** Requer integridade referencial forte, controle transacional ACID absoluto, isolamento serializável e modelo relacional normalizado para evitar inconsistências em pagamentos. Solução ideal: **RDBMS Relacional (PostgreSQL / Oracle)**.
+>   - **Subsistema 2:** Requer ingestão de dados massivos semiestruturados em altíssima velocidade de escrita contínua, tolerância a falhas de nós e expansão horizontal barata (*scale-out*). Solução ideal: **NoSQL Wide-Column (Cassandra) ou Orientado a Documentos (MongoDB)**.
+> - **C)** Incorreta. Redis sem persistência perderia todos os dados de folha de pagamento em caso de reinicialização.
+> - **D)** Incorreta. Planilhas CSV não atendem requisitos de concorrência, integridade ou alto volume.
+> - **E)** Incorreta. O Subsistema 1 exige garantias ACID estritas e durabilidade permanente.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -517,6 +537,87 @@ LIMIT 5;
 2. **Bancos de Dados Vetoriais Nativos Especializados:**
     - Softwares projetados exclusivamente para o ciclo de vida vetorial distribuído: **Pinecone** (SaaS nativo de nuvem), **Milvus** (banco distribuído de alta escala em Go/C++), **Qdrant** (motor em Rust de altíssima eficiência de memória) e **Chroma** (banco leve voltado ao ecossistema Python).
     - Oferecem recursos de particionamento dinâmico em memória e filtragem por metadados pré e pós-busca vetorial (*payload-based filtering*).
+
+---
+
+### Teste 286
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Com o advento dos Modelos de Linguagem de Grande Porte (LLMs) e das arquiteturas de Geração Aumentada por Recuperação (RAG), o conceito de *Embeddings* tornou-se central para a busca semântica em repositórios de jurisprudência e relatórios de auditoria.
+
+A respeito dos *embeddings* vetoriais e de suas propriedades matemáticas e computacionais, assinale a afirmativa correta:
+
+* **A)** Um embedding vetorial é uma representação numérica contínua em que textos, imagens ou áudios são convertidos em vetores densos de números de ponto flutuante em um espaço euclidiano multidimensional (ex.: 768 ou 1536 dimensões), onde a proximidade geométrica entre vetores reflete sua similaridade semântica.
+* **B)** Embeddings vetoriais utilizam representação *sparse* (esparsa) binária do tipo One-Hot Encoding, na qual o vetor possui o tamanho exato do dicionário e 99,9% dos elementos contêm o valor zero sem capturar contexto.
+* **C)** Dois textos com palavras sinônimas distintas (como *"licitação fraudada"* e *"certame viciado"*) geram vetores ortogonais com similaridade cosseno igual a zero no espaço de embeddings.
+* **D)** A dimensionalidade de um embedding pode ser livremente alterada após a geração do vetor sem necessidade de reprocessar os textos no modelo de aprendizado profundo.
+* **E)** Bancos de dados vetoriais dispensam vetores numéricos, realizando buscas puramente por contagem léxica de caracteres ASCII.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Os **embeddings** são representações numéricas densas (*dense representations*) geradas por redes neurais profundas (como encoders do Transformer, BERT, text-embedding-3). Cada documento ou trecho de texto é mapeado para um vetor de $D$ dimensões reais (ex.: 768, 1536). A geometria desse espaço latente preserva relações semânticas complexas: conceitos com significados análogos ou contextualmente próximos convergem para regiões adjacentes no espaço multidimensional, viabilizando busca por significado (*semantic search*), clustering e classificação.
+> - **B)** Incorreta. Essa é a descrição das representações clássicas esparsas e ingênuas (*Bag-of-Words* e *One-Hot Encoding*), que sofrem da maldição da dimensionalidade e não capturam semântica. Embeddings são densos (*dense*).
+> - **C)** Incorreta. Como capturam o significado latente, sentenças semanticamente correlatas recebem vetores direcionados para quadrantes muito próximos, resultando em alta similaridade cosseno (próxima a 1,0).
+> - **D)** Incorreta. A dimensionalidade é uma propriedade estrutural fixa da arquitetura da rede neural emissora; para mudar a dimensão, os dados devem ser reprocessados pelo novo modelo correspondente.
+> - **E)** Incorreta. A busca vetorial calcula explicitamente distâncias matemáticas entre os vetores de ponto flutuante.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 287
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A implementação de sistemas de Inteligência Artificial Generativa e Arquiteturas de Recuperação Aumentada por Geração (RAG) em órgãos de controle externo demanda a utilização de bancos de dados vetoriais para indexação semântica de peças processuais e relatórios de auditoria. Sobre os conceitos matemáticos e a operação de bancos de dados vetoriais, assinale a alternativa correta:
+
+* **A)** Os embeddings transformam textos em hashes criptográficos MD5, permitindo que a busca vetorial localize documentos exclusivamente quando houver correspondência exata de todos os caracteres alfanuméricos.
+* **B)** A similaridade de cosseno avalia o cosseno do ângulo formado entre dois vetores densos em um hiperespaço multidimensional, medindo a orientação semântica relativa de forma independente da magnitude do comprimento dos textos.
+* **C)** Os algoritmos de busca aproximada por vizinhos mais próximos (ANN), como o HNSW, utilizam exclusivamente a varredura linear exaustiva de força bruta em 100% da base vetorial, garantindo complexidade $\mathcal{O}(N)$.
+* **D)** O PostgreSQL não possui extensões de código aberto para tratamento de dados vetoriais, sendo mandatória a contratação de ferramentas proprietárias externas em nuvem para execução de buscas por similaridade.
+* **E)** Em espaços vetoriais densos, um valor de similaridade de cosseno igual a zero indica que os conceitos representados possuem máxima correlação e equivalência semântica absoluta.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Hashes criptográficos (como MD5 ou SHA-256) possuem o chamado *efeito avalanche*: qualquer alteração mínima gera um hash completamente diferente. Já os embeddings gerados por LLMs realizam mapeamento contínuo onde vetores espacialmente próximos representam textos semanticamente afins.
+> - **B)** **Correta.** A métrica de **Similaridade de Cosseno** calcula $\cos(\theta) = \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\mathbf{v}\|}$, mensurando a orientação angular dos vetores sem sofrer distorções causadas pela variação no comprimento bruto dos textos analisados, constituindo a métrica padrão para busca textual em RAG.
+> - **C)** Incorreta. A varredura linear completa em todos os vetores é a definição da busca exata por força bruta ($k$-NN exato). Algoritmos **ANN** (como o **HNSW**) utilizam grafos de mundo pequeno navegáveis multicamadas para navegar no espaço vetorial em tempo logarítmico $\mathcal{O}(\log N)$.
+> - **D)** Incorreta. O PostgreSQL possui a consagrada extensão aberta **`pgvector`**, que viabiliza o armazenamento nativo do tipo `vector`, criação de índices `hnsw` e cálculo de distância de cosseno via operador `<=>`.
+> - **E)** Incorreta. Similaridade de cosseno igual a zero denota vetores ortogonais ($\theta = 90^\circ$), o que significa **independência semântica total**, e não máxima equivalência (que seria indicada pelo valor $+1$).
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 288
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A extensão `pgvector` viabiliza o armazenamento e a busca vetorial em bancos de dados PostgreSQL. Para acelerar a busca pelos $k$ vizinhos mais próximos ($k$-NN) em bases com milhões de vetores, utilizam-se algoritmos de Busca Aproximada por Vizinhos Mais Próximos (*Approximate Nearest Neighbor - ANN*).
+
+No `pgvector`, os dois principais tipos de índices disponíveis para busca aproximada são o **IVFFlat** e o **HNSW**. A respeito da comparação técnica entre essas duas estruturas de indexação, assinale a afirmativa correta:
+
+* **A)** O índice IVFFlat exige que a tabela já possua dados inseridos antes de sua criação para calcular os centroides via clustering $k$-means, ao passo que o HNSW (*Hierarchical Navigable Small World*) constrói grafos multicamadas que podem ser criados progressivamente com novas inserções, oferecendo desempenho de busca e taxa de recuperação (*recall*) superiores, com o *trade-off* de demandar maior consumo de memória RAM e maior tempo de construção.
+* **B)** O índice HNSW só funciona com vetores de no máximo 3 dimensões, sendo proibido para aplicações de IA generativa.
+* **C)** O índice IVFFlat oferece 100% de garantia matemática de encontrar os vizinhos exatos (*Exact Nearest Neighbor*) sem qualquer aproximação heurística.
+* **D)** O índice HNSW é uma árvore B+Tree simples que ordena vetores apenas pela soma algébrica de suas coordenadas.
+* **E)** Ambos os índices dispensam a definição de métricas de distância, calculando exclusivamente a distância de Manhattan sem suporte a Similaridade Cosseno ou Distância Euclidiana ($L_2$).
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Comparativo arquitetural canônico entre os índices ANN no `pgvector`:
+>   - **IVFFlat (Inverted File Flat):** Baseia-se em clustering $k$-means. Divide o espaço vetorial em $N$ listas (células Voronoi/centroides). **Exige dados já carregados na tabela** para realizar o treinamento e calcular centroides adequados. Possui construção rápida e consumo de memória modesto, porém menor *recall* e menor velocidade de busca em consultas concorrentes.
+>   - **HNSW (Hierarchical Navigable Small World):** Estrutura vetorial de estado da arte baseada em grafos hierárquicos multicamadas (análoga a uma Skip List para grafos). Pode ser criado com a tabela vazia e atualizado incrementalmente. Proporciona excelente velocidade de consulta e elevadíssimo *recall*, mas exige significativamente **mais memória RAM** para reter o grafo e tem construção/atualização mais demorada e intensiva em CPU.
+> - **B)** Incorreta. O HNSW suporta vetores de alta dimensionalidade (como 1536 e 3072 dimensões).
+> - **C)** Incorreta. O IVFFlat é um algoritmo aproximado (*ANN*), não exato (*KNN exato faz busca sequencial / flat scan*).
+> - **D)** Incorreta. HNSW é uma estrutura sofisticada de grafo de mundos pequenos navegáveis, e não uma árvore B+Tree.
+> - **E)** Incorreta. O `pgvector` suporta distância Euclidiana ($L_2$ - `<->`), Similaridade Cosseno (`<=>`) e Produto Escelar / Inner Product (`<#>`).
+> 
+> **Gabarito: A**
 
 ---
 

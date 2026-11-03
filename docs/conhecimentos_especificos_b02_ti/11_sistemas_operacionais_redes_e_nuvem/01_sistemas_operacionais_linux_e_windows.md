@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `01_sistemas_operacionais_linux_e_windows.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Arquitetura de Sistemas Operacionais (Kernel, User Space, Syscalls)
@@ -114,6 +117,36 @@ sequenceDiagram
 
 ---
 
+### Teste 410
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A arquitetura de processadores modernos e sistemas operacionais de uso geral (como Linux e Windows) implementa anéis de proteção (*protection rings*) em hardware para segregar a execução de programas e garantir a estabilidade do sistema.
+
+A respeito dos modos de operação do processador (**User Mode / Modo Usuário** e **Kernel Mode / Modo Núcleo**) e da transição entre eles, assinale a afirmativa correta:
+
+* **A)** Softwares aplicativos de usuários comuns (como navegadores e suítes de escritório) rodam diretamente em Modo Núcleo (*Kernel Mode / Ring 0*), possuindo acesso irrestrito e direto a qualquer endereço físico de memória RAM e portas de I/O da máquina.
+* **B)** A transição segura do Modo Usuário (*Ring 3*) para o Modo Núcleo (*Ring 0*) ocorre por meio de uma instrução especial de **Chamada de Sistema (*System Call / Trap*)**, na qual o hardware suspende a execução do processo, eleva o nível de privilégio e transfere o controle para um tratador específico (*Interrupt/Syscall Handler*) definido pelo kernel.
+* **C)** No modo usuário, um programa tem autorização de hardware para desabilitar as interrupções de relógio da CPU e reconfigurar os registradores de controle de gerenciamento de memória.
+* **D)** As chamadas de sistema dispensam qualquer troca de contexto de registradores na CPU, mantendo a pilha de execução inalterada.
+* **E)** Sistemas operacionais modernos eliminaram o modo núcleo para rodar todo o código exclusivamente em máquinas virtuais JavaScript.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Aplicações de usuário rodam estritamente em **Modo Usuário (Ring 3)** com privilégios restritos; se tentarem executar instruções privilegiadas ou acessar memória do kernel diretamente, o processador dispara uma exceção de violação de proteção (*General Protection Fault* / *Segmentation Fault*).
+> - **B)** **CORRETA.** Mecânica de isolamento e proteção de hardware:
+>   - **Dual-Mode Operation:** Processadores x86/x64 implementam níveis de privilégio (sendo Ring 0 o mais privilegiado e Ring 3 o menos privilegiado).
+>   - Para ler um arquivo, enviar um pacote de rede ou alocar memória física, o processo de usuário deve invocar uma **Chamada de Sistema (Syscall)**.
+>   - O hardware aciona uma interrupção de software (*trap*), comuta o registrador de modo do processador de *User* para *Kernel*, salva o contexto da aplicação e salta para o endereço do despachante de chamadas de sistema na tabela do kernel, executando a operação com privilégios controlados antes de retornar o resultado ao modo usuário.
+> - **C)** Incorreta. Instruções como `CLI` (desabilitar interrupções) são estritamente privilegiadas de Ring 0.
+> - **D)** Incorreta. A transição exige salvar o contador de programa (PC), ponteiro de pilha (SP) e registradores na pilha do kernel.
+> - **E)** Incorreta. O Kernel Mode permanece como pilar mandatório de qualquer arquitetura de computadores moderna.
+> 
+> **Gabarito: B**
+
+---
+
 ## 2. Gerenciamento de Processos, Concorrência e Escalonamento
 
 ### 2.1 Processo vs. Thread (Processo Leve e Compartilhamento de Memória)
@@ -179,6 +212,89 @@ Quando múltiplos processos ou threads acessam variáveis e recursos compartilha
 
 ---
 
+### Teste 411
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No gerenciamento de processos e concorrência em sistemas operacionais multitarefa preemptivos, diferencia-se o conceito de **Processo Pesado** do conceito de **Thread** (*Processo Leve*).
+
+A respeito do compartilhamento de recursos entre múltiplas threads pertencentes a um mesmo processo, assinale a afirmativa correta:
+
+* **A)** Múltiplas threads do mesmo processo possuem, cada uma, um espaço de endereçamento de memória virtual totalmente isolado e tabelas de páginas exclusivas sem nenhum dado compartilhado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** Todas as threads pertencentes a um mesmo processo compartilham o **espaço de endereçamento de memória**, as seções de código (*text*), os dados globais (*data/BSS*), a área de alocação dinâmica (*heap*) e os descritores de arquivos abertos; contudo, cada thread possui compulsoriamente sua própria **Pilha de Execução (*Stack*)**, seu próprio ponteiro de instrução (*Program Counter - PC*) e seu próprio conjunto individual de **Registradores da CPU**.
+* **C)** A criação e a troca de contexto entre threads consomem mais tempo de CPU do que a criação e a troca de contexto entre processos pesados distintos.
+* **D)** Se uma thread de um processo trava por erro de divisão por zero, as outras threads daquele mesmo processo continuam operando normalmente sem que o processo seja finalizado.
+* **E)** Threads não podem ser executadas em núcleos de processadores diferentes (*multicore*), sendo restritas a um único clock de CPU compartilhado.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Esse isolamento total de memória é a característica definidora entre **processos diferentes**, e não entre threads do mesmo processo.
+> - **B)** **CORRETA.** Modelo canônico de processos e threads (Silberschatz / Tanenbaum):
+>   - **Recursos Compartilhados (Nível do Processo):** Espaço de endereçamento virtual completo, código executável, variáveis globais e estáticas, *Heap*, descritores de arquivos abertos e conexões de rede. Isso viabiliza comunicação ultrarrápida entre threads via memória compartilhada sem necessidade de IPC pesado.
+>   - **Recursos Exclusivos (Nível da Thread):** Cada thread precisa de independência de fluxo de execução; logo, possui seu próprio **ID de Thread (TID)**, seu próprio conjunto de **registradores da CPU**, seu próprio **Program Counter (PC)** para saber qual instrução está executando, e sua própria **Stack (Pilha)** para gerenciar variáveis locais e chamadas de função.
+> - **C)** Incorreta. Troca de contexto entre threads do mesmo processo é muito mais rápida porque **não exige a troca da tabela de páginas na MMU** nem invalidação do cache TLB.
+> - **D)** Incorreta. Como compartilham o mesmo espaço de memória, se uma thread provocar corrupção fatal de memória (*Segmentation Fault*), o sistema operacional encerra o processo inteiro, derrubando todas as threads associadas.
+> - **E)** Incorreta. Threads de kernel podem ser distribuídas concorrentemente em múltiplos núcleos e sockets de CPU.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 412
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em relação aos conceitos de concorrência, processos, threads e algoritmos de escalonamento de processador em sistemas operacionais, assinale a afirmação correta:
+
+* **A)** No algoritmo de escalonamento *Round Robin* (Alternância Circular), caso o tamanho da fatia de tempo (*quantum*) seja definido com um valor excessivamente grande, o comportamento do sistema degenera e aproxima-se do algoritmo FCFS (*First-Come, First-Served*).
+* **B)** O algoritmo de escalonamento SJF (*Shortest Job First*) em sua modalidade preemptiva impede a ocorrência do fenômeno de inanição (*starvation*), garantindo tempo de resposta equitativo para processos intensivos em CPU.
+* **C)** As threads criadas no interior de um mesmo processo possuem espaços de endereçamento de memória virtual completamente isolados e independentes, exigindo o uso de pipes ou sockets para qualquer troca de variáveis.
+* **D)** A troca de contexto (*context switch*) é uma operação puramente lógica que não impõe nenhum custo computacional de sobrecarga (*overhead*) para a CPU nem interfere no conteúdo das memórias cache.
+* **E)** O algoritmo de escalonamento FCFS é classificado como estritamente preemptivo, interrompendo processos de longa duração sempre que um novo processo requisita acesso à CPU.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Se o *quantum* do Round Robin for superior à rajada de qualquer processo ativo, nenhum processo sofrerá preempção antes de concluir sua execução voluntariamente, passando a atender na ordem de chegada exatamente como o FCFS.
+> - **B)** Incorreta. O SJF prioriza rajadas curtas de CPU, causando inanição severa (*starvation*) em processos longos com uso intensivo de CPU.
+> - **C)** Incorreta. Threads pertencentes ao mesmo processo compartilham o mesmo espaço de memória virtual (segmentos de código, dados e heap), comunicando-se diretamente por variáveis compartilhadas.
+> - **D)** Incorreta. A troca de contexto acarreta elevado overhead de processamento devido ao salvamento de registradores, troca de tabelas de páginas e invalidação de entradas nas memórias cache e TLB.
+> - **E)** Incorreta. O algoritmo FCFS é categorizado como não preemptivo (*non-preemptive*), mantendo a CPU ocupada até a finalização do processo ou bloqueio por I/O.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 413
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em programação concorrente e em sistemas operacionais multithreaded, o acesso não coordenado a recursos compartilhados pode gerar **Condições de Corrida** (*Race Conditions*), corrompendo o estado da aplicação.
+
+Para garantir a **Exclusão Mútua** na Região Crítica, utilizam-se primitivas de sincronização como **Mutex** (*Mutual Exclusion Lock*) e **Semáforos** (Dijkstra). A respeito da distinção conceitual e do funcionamento dessas primitivas, assinale a afirmativa correta:
+
+* **A)** O Mutex é um mecanismo binário com conceito estrito de titularidade (*ownership*), no qual apenas a thread específica que adquiriu a trava (*Lock*) possui autorização para liberá-la (*Unlock*); ao passo que um **Semáforo Contador** gerencia um contador de recursos disponíveis, onde qualquer thread pode executar uma operação de sinalização (`signal` / `V()`) para incrementar o contador e desbloquear outra thread em espera, mesmo sem ter executado a operação de espera (`wait` / `P()`).
+* **B)** Semáforos só podem assumir os valores 0 e 1, sendo proibido utilizá-los para controlar estoques de múltiplos recursos.. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** O Mutex deve ser liberado compulsoriamente por qualquer thread da CPU que esteja ociosa no momento.
+* **D)** A inversão de prioridades é um fenômeno que afeta exclusivamente semáforos contadores de números negativos.
+* **E)** Bloqueios do tipo *Spinlock* colocam a thread para dormir no disco rígido enquanto o recurso estiver ocupado.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **CORRETA.** Distinção precisa entre Mutex e Semáforos:
+>   - **Mutex (Mutual Exclusion Lock):** É um mecanismo de travamento com **propriedade (ownership)**. Se a Thread A executa `mutex.acquire()`, **somente a Thread A** tem autorização para executar `mutex.release()`. Se a Thread B tentar liberar o mutex, ocorrerá um erro. É ideal para proteger seções críticas exclusivas.
+>   - **Semáforo (Counting Semaphore):** É um mecanismo de **sinalização** baseado em uma variável inteira protegida. A operação `P()` ou `wait()` decrementa o contador (bloqueando se o valor for $\le 0$); a operação `V()` ou `signal()` incrementa o contador. Não há conceito de titularidade: a Thread A pode aguardar a chegada de dados e a Thread B (produtora) pode emitir o sinal `signal()` para acordar a Thread A.
+> - **B)** Incorreta. Semáforos contadores podem ser inicializados com qualquer valor inteiro positivo $N$ para disciplinar o acesso a um pool de $N$ recursos.
+> - **C)** Incorreta. Mutex exige titularidade estrita da thread que o bloqueou.
+> - **D)** Incorreta. A inversão de prioridades ocorre tipicamente com mutexes quando uma tarefa de baixa prioridade retém um recurso demandado por uma tarefa de alta prioridade.
+> - **E)** Incorreta. *Spinlocks* realizam espera ocupada (*busy waiting*), consumindo 100% de CPU em loop contínuo testando o bit de trava, sem dormir.
+> 
+> **Gabarito: A**
+
+---
+
 ## 3. Gerenciamento de Memória Virtual, Paginação e Swapping
 
 ### 3.1 Endereçamento Lógico vs. Físico e o Papel da MMU
@@ -229,6 +345,66 @@ flowchart TD
 
 - **Swapping:** Movimentação de páginas ou de processos inteiros entre a memória RAM física e a partição/arquivo de troca no disco (**Swap**).
 - **Hiperpaginação (*Thrashing*):** Ocorre quando o sistema passa substancialmente mais tempo realizando operações de I/O de leitura e escrita de páginas no disco do que executando instruções úteis dos programas. Decorre de uma sobrecarga onde a soma dos conjuntos de trabalho (*working sets*) dos processos ativos supera a capacidade física da memória RAM.
+
+---
+
+### Teste 414
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No gerenciamento de memória virtual por paginação sob demanda em sistemas operacionais modernos, um processo em execução gera uma solicitação de acesso a um determinado endereço lógico. Durante a operação de tradução conduzida pela unidade de gerenciamento de memória (MMU), identifica-se que o bit de validade correspondente na tabela de páginas está marcado como ausente (bit 0).
+
+Nessa situação, o evento gerado pela arquitetura de hardware e a ação imediata subsequente realizada pelo sistema operacional são:
+
+* **A)** Uma interrupção de *Page Fault*, que transfere o controle ao núcleo do sistema operacional para buscar a página solicitada no armazenamento secundário e carregá-la em uma moldura livre da memória principal.
+* **B)** Uma violação de segmento (*Segmentation Fault*), que resulta na terminação imediata e compulsória do processo por invasão de área de memória protegida.
+* **C)** Um *TLB Hit*, no qual o processador busca o endereço diretamente na memória cache L1 sem consultar as tabelas do núcleo.
+* **D)** Um procedimento de *Swapping* compulsório de todos os processos ativos para o disco, paralisando a CPU até que a memória RAM seja totalmente desfragmentada.
+* **E)** Uma chamada de sistema `mmap`, solicitando que o processo usuário reconfigure o seu próprio bloco de controle de processo (PCB).
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Quando o bit de validade é zero, a MMU sinaliza uma interrupção de falta de página (*Page Fault*), acionando a rotina do kernel que localiza a página no disco (área de swap) e a transfere para uma moldura livre na RAM.
+> - **B)** Incorreta. Falta de página é uma ocorrência de rotina da memória virtual sob demanda, e não uma violação de segmento ilegal (*Segmentation Fault*).
+> - **C)** Incorreta. Se o bit de presença não estava ativo, a página não estava mapeada na RAM, caracterizando um miss prévio e acionamento do tratador de faltas.
+> - **D)** Incorreta. A falta de página envolve o carregamento individual da página demandada, e não a parada e swapping compulsório de todos os processos do sistema.
+> - **E)** Incorreta. A resolução do evento é realizada pelo kernel de forma transparente à aplicação, sem requerer intervenção do processo no seu PCB.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 415
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O subsistema de Memória Virtual permite que programas sejam executados mesmo quando seu espaço de endereçamento total excede a capacidade física de memória RAM instalada na máquina, transferindo blocos para a área de *Swap* em disco.
+
+No entanto, quando a quantidade de memória RAM disponível torna-se criticamente insuficiente para acomodar o conjunto de trabalho (*Working Set*) de todos os processos ativos simultâneos, o sistema operacional pode entrar no colapso de desempenho denominado **Hiperpaginação (*Thrashing*)**.
+
+A característica operacional que define formalmente o fenômeno do *Thrashing* consiste em:
+
+* **A)** A CPU atinge 100% de utilização processando cálculos matemáticos puros sem nenhum acesso a disco. considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
+* **B)** O sistema passa a maior parte do tempo transferindo páginas de memória de e para o disco rígido (alta taxa ininterrupta de *Page Faults* e saturação de I/O), enquanto a taxa de utilização útil da CPU cai drasticamente para níveis próximos de zero, travando a resposta aos usuários.
+* **C)** A destruição física permanente dos módulos de memória RAM por superaquecimento.
+* **D)** O fechamento imediato do sistema operacional sem emissão de qualquer log de evento.
+* **E)** A conversão de todos os arquivos do disco para formato somente-leitura.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. No *Thrashing*, a CPU fica quase ociosa aguardando operações lentas de leitura e escrita no subsistema de armazenamento.
+> - **B)** **CORRETA.** Mecânica do **Thrashing (Hiperpaginação)** (Tanenbaum / Silberschatz):
+>   1. Quando a soma dos conjuntos de trabalho (*Working Sets*) dos processos ativos supera a memória RAM física, a taxa de faltas de página (*Page Faults*) explode.
+>   2. Cada processo que tenta rodar precisa de páginas que foram descarregadas para o disco de *Swap*. O processo é suspenso aguardando o I/O de disco.
+>   3. Como a maioria dos processos entra em estado de espera (*Waiting/Blocked*), o escalonador do SO erroneamente detecta baixa utilização da CPU e pode tentar aumentar o grau de multiprogramação, agravando ainda mais a contenção.
+>   4. O sistema entra em parafuso: **quase 100% do tempo do subsistema de disco é consumido trocando páginas entre RAM e Swap**, enquanto a utilização da CPU desaba e o computador para de responder. Soluções: reduzir o grau de multiprogramação (suspender processos) ou adicionar memória RAM física.
+> - **C)** Incorreta. Trata-se de um problema puramente lógico de contenção de recursos de software e gerência de memória.
+> - **D)** Incorreta. O SO não desliga, fica congelado em sobrecarga de I/O.
+> - **E)** Incorreta. O sistema de arquivos não é alterado para somente-leitura.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -284,944 +460,69 @@ $$\text{Exemplo: } 750 \implies \text{Dono: } 4+2+1=7\,(rwx); \quad \text{Grupo:
 
 ---
 
-### Teste 001
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
-Com relação à criação de links entre arquivos, em ambientes operacionais Linux, assinale V para afirmativa verdadeira e F para a falsa. ( ) Não é possível criar links físicos para um diretório ou arquivo especial, apenas para arquivos regulares. ( ) Links simbólicos só podem ser usados se ambos os arquivos estiverem no mesmo sistema de arquivos. ( ) Mesmo que o arquivo original seja excluído, o conteúdo do arquivo ainda estará disponível, desde que pelo menos um link físico exista. As afirmativas são, respectivamente:
+### Teste 416
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A respeito da arquitetura de sistemas de arquivos em ambientes baseados em Linux e da estrutura interna de inodes (*index nodes*), considere as seguintes afirmativas:
 
-* **A)** V, V e V
-* **B)** F, V e F
-* **C)** V, F e F
-* **D)** V, F e V
-* **E)** F, V e V
+I. Cada inode armazena metadados fundamentais do arquivo, tais como tamanho, permissões de acesso, identificadores de usuário e grupo, carimbos temporais e ponteiros para os blocos de dados, mas não contém o nome do arquivo nem seu caminho absoluto.  
 
----
+II. Um link rígido (*hard link*) cria uma entrada de diretório independente que aponta diretamente para o mesmo número de inode do arquivo de origem, podendo ser criado entre diferentes sistemas de arquivos e partições montadas.  
 
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, V e V". De acordo com a teoria estudada em *4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)*, número de Inode: Aponta diretamente para o mesmo número de Inode do arquivo original. — Possui um novo Inode próprio do tipo l , contendo o caminho textual de destino.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, V e F". De acordo com a teoria estudada em *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena*, modo e tipo do arquivo (regular, diretório, socket, pipe, link simbólico).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, F e F". De acordo com a teoria estudada em *4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)*, cruzamento de Partições: NÃO pode cruzar partições ou sistemas de arquivos diferentes (inodes colidiriam). — SIM, pode cruzar discos, partições e pontos de montagem livremente.
-> - **D)** **Correta.** Conforme fundamentado na seção *4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)* deste guia, exclusão do Arquivo Original: O conteúdo permanece íntegro e acessível até que o contador de links caia para zero. — O link simbólico fica quebrado / órfão ( dangling link ), apontando para um caminho inexistente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "V, F e V".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, V e V". De acordo com a teoria estudada em *4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)*, apontamento para Diretórios: Não permitido para usuários comuns (evita loops cíclicos). — Permitido apontar para diretórios livremente.
->
-> **Gabarito: D**
+III. Caso o arquivo de origem de um link simbólico (*soft link*) seja excluído do disco, o link simbólico torna-se órfão (*dangling link*), pois ele armazena em seu próprio bloco de dados apenas o caminho textual para o arquivo de destino.  
 
----
+Está correto o que se afirma em:
 
-### Teste 002
-**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
-A execução do comando a seguir permite verificar a integridade da configuração do Nagios no ambiente Linux. # /usr/local/nagios/bin/nagios –v /usr/local/nagios/etc/nagios.cfg
+* **A)** I e II, apenas.
+* **B)** II e III, apenas.
+* **C)** I e III, apenas.
+* **D)** I, II e III.
+* **E)** III, apenas.
 
-* **C)** Certo
-* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *Permissões Especiais:*, sUID ( Set User ID 4000 / rwsr xr x ): Executa o programa com os privilégios do proprietário do arquivo, e não de quem o chamou (ex.: /usr/bin/passwd ). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STJ/2024) ao afirmar que "A execução do comando a seguir permite verificar a integridade da configuração do Nagios no ambiente Linux...".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
->
+> - **A)** Incorreta. Inclui o Item II, que comete grave erro conceitual ao afirmar que hard links podem cruzar partições.
+> - **B)** Incorreta. Omite a veracidade do Item I e inclui o Item II que é falso.
+> - **C)** Correta. O Item I é verdadeiro porque o inode é agnóstico ao nome textual e caminho do arquivo (que residem no bloco de dados do diretório pai). O Item II é falso porque números de inode são válidos estritamente dentro da mesma partição/sistema de arquivos, sendo impossível criar hard links entre sistemas de arquivos diferentes. O Item III é verdadeiro porque links simbólicos contêm apenas a string do caminho textual de destino, tornando-se órfãos se o original for apagado.
+> - **D)** Incorreta. Julga todos os itens verdadeiros, desconsiderando a impossibilidade do Item II.
+> - **E)** Incorreta. Omite a correção inequívoca do Item I.
+> 
 > **Gabarito: C**
 
 ---
 
-### Teste 003
-**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
-Nos sistemas operacionais Linux, os processos podem comunicar-se uns com os outros por meio de canais para trocas de mensagens denominados pipes.
+### Teste 417
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Nos sistemas de arquivos de ambientes Linux/POSIX, a segurança de arquivos e diretórios é regida pela matriz de permissões associadas ao Proprietário (*User - u*), Grupo (*Group - g*) e Outros (*Others - o*), acrescida dos três bits de permissões especiais: **SUID**, **SGID** e **Sticky Bit**.
 
-* **C)** Certo
-* **E)** Errado
+Considere um diretório compartilhado de auditoria `/var/auditoria_compartilhada` cujas permissões foram configuradas pelo administrador através do comando:
 
----
+`chmod 1770 /var/auditoria_compartilhada`
 
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Nos sistemas operacionais Linux, os processos podem comunicar se uns com os outros por meio de canais para...". De acordo com a teoria em *1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido*, monolítico: Todos os serviços essenciais (escalonador, memória, sistemas de arquivos, drivers de dispositivos) rodam no mesmo espaço de memória do Kernel (Ring 0). — Máximo desempenho em chamadas e trocas de mensagens (comunicação direta por ponteiros e funções). — Um bug em um driver de dispositivo ou módulo pode derrubar o sistema inteiro ( Kernel Panic ). — Linux, Unix tradicional, FreeBSD.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
+A respeito do significado do primeiro dígito `1` (Sticky Bit) e dos efeitos práticos dessa configuração sobre o diretório, assinale a afirmativa correta:
 
----
+* **A)** O bit 1 representa o SUID, permitindo que qualquer usuário execute o diretório como se fosse o usuário `root`.
+* **B)** O bit 1 representa o **Sticky Bit** (representado pelo caractere `t` no final da string de permissões, ex.: `drwxrwx--t`); em um diretório com o Sticky Bit ativado, embora múltiplos usuários pertencentes ao grupo possam criar e editar arquivos no local, **apenas o proprietário de um arquivo específico (ou o superusuário root) tem permissão de renomear ou excluir o seu próprio arquivo**, impedindo que um usuário do grupo apague documentos criados por seus colegas.
+* **C)** O bit 1 bloqueia o acesso de qualquer usuário ao diretório, tornando-o invisível no comando `ls`.
+* **D)** O Sticky Bit força que todos os novos arquivos criados herdem compulsoriamente o grupo primário do diretório pai.
+* **E)** As permissões 770 atribuem leitura, escrita e execução irrestrita para todos os usuários anônimos do mundo exterior (*others*).. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
-### Teste 004
-**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-O LDAP define, dentre outras, a forma como um cliente de diretório pode acessar um servidor de diretório. O LDAP pode ser usado
-
-* **A)** para enumerar objetos de diretório, mas não para localizá-los.
-* **B)** para estabelecer uma conexão entre um cliente e um servidor LDAP, usando a porta padrão 485, via UDP.
-* **C)** apenas em ambiente Windows, pois é um serviço de diretório proprietário.
-* **D)** no Linux e configurado através do arquivo ldap-inf.xml, encontrado no diretório /etc.
-* **E)** para consultar ou administrar o Active Directory.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "para enumerar objetos de diretório, mas não para localizá los". De acordo com a teoria estudada em *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena*, modo e tipo do arquivo (regular, diretório, socket, pipe, link simbólico).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "para estabelecer uma conexão entre um cliente e um servidor LDAP, usando a porta padrão 485, via UDP". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, windows NTFS ( New Technology File System ): Padrão do Windows corporativo. Suporta listas de controle de acesso (ACLs DACL e SACL), journaling via Master File Table (MFT), cotas de disco, compressão nativa de arquivos e criptografia no nível de arquivo via EFS ( Encrypting File System ).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas em ambiente Windows, pois é um serviço de diretório proprietário". De acordo com a teoria estudada em *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena*, o nome do arquivo e o número do seu inode ficam armazenados nos blocos de dados do diretório pai (estrutura dentry ), e não dentro do próprio inode.
-> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena* deste guia, o Inode ( Index Node ) é a estrutura central de dados que descreve cada arquivo ou diretório em sistemas baseados em Unix/Linux. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "no Linux e configurado através do arquivo ldap inf.xml, encontrado no diretório /etc".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "para consultar ou administrar o Active Directory". De acordo com a teoria estudada em *Permissões Especiais:*, sGID ( Set Group ID 2000 / rwxr sr x ): Em diretórios, faz com que quaisquer novos arquivos ou subdiretórios criados herdem automaticamente o grupo do diretório pai.
->
-> **Gabarito: D**
-
----
-
-### Teste 005
-**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-Uma proposta enviada a um Tribunal por um fornecedor externo previa os seguintes recursos de TI: I. Entrega de aplicativo portável dentro de ambientes Linux e Unix, sem compatibilidade com plataformas proprietárias. II. Padrões de interoperabilidade de acordo com as regras do fornecedor. III. Suporte para assinatura baseado em certificado emitido por Autoridade Certificadora credenciada na forma da Infraestrutura de Chaves Públicas Brasileira − ICP Brasil. IV. Link de transmissão entre o fornecedor e o Tribunal para o tráfego de dados e informações, garantindo a disponibilidade exigida pelo aplicativo de, no mínimo, de 2 Gbps. Ao analisar os recursos de TI previstos, um Analista do Tribunal concluiu corretamente que o contrato com o fornecedor
-
-* **A)** Entradas de outros processos − Especificação do trabalho do projeto − Business cases.
-* **B)** Termo de abertura do projeto − Fatores ambientais da empresa − Ativos de processos organizacionais.
-* **C)** Especificação do trabalho do projeto − Business cases − Previsões de cronograma.
-* **D)** Termo de abertura do projeto − Entradas de outros processos − Previsões de custos.
-* **E)** Previsões de custos − Previsões de cronograma − Ativos de processos organizacionais.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Entradas de outros processos − Especificação do trabalho do projeto − Business cases". De acordo com a teoria estudada em *2.3 PCB e o Custo da Troca de Contexto (Context Switch)*, invalida entradas de cache no TLB.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Termo de abertura do projeto − Fatores ambientais da empresa − Ativos de processos organizacionais". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, tANENBAUM, Andrew S.; BOS, Herbert. Sistemas Operacionais Modernos. 4. ed. São Paulo: Pearson Education do Brasil, 2016. (Cap. 2 Processos e Threads; Cap. 3 Gerenciamento de Memória; Cap. 10 Estudo de Caso 1: Linux; Cap. 11 Estudo de Caso 2: Windows).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Especificação do trabalho do projeto − Business cases − Previsões de cronograma". De acordo com a teoria estudada em *2.3 PCB e o Custo da Troca de Contexto (Context Switch)*, a Troca de Contexto ( Context Switch ) é o procedimento pelo qual a CPU interrompe um processo, salva seu contexto no PCB e carrega o contexto do próximo processo a executar. Trata se de uma operação de overhead puro (a CPU não executa trabalho útil de aplicação durante a troca).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Termo de abertura do projeto − Entradas de outros processos − Previsões de custos". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, linux man pages (Kernel.org) Ciclo de Vida de Processos e Escalonamento no Linux Referência oficial de comandos Unix/Linux de permissões de arquivos, processos e sinais.
-> - **E)** **Correta.** Conforme fundamentado na seção *3.4 Swapping e Hiperpaginação (Thrashing)* deste guia, hiperpaginação ( Thrashing ): Ocorre quando o sistema passa substancialmente mais tempo realizando operações de I/O de leitura e escrita de páginas no disco do que executando instruções úteis dos programas. Decorre de uma sobrecarga onde a soma dos conjuntos de trabalho ( working sets ) dos processos ativos supera a capacidade física da memória RAM. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "Previsões de custos − Previsões de cronograma − Ativos de processos organizacionais".
->
-> **Gabarito: E**
-
----
-
-### Teste 006
-**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-Como uma instância de JBoss é uma configuração em execução, ao ser instalado, ele vem com diferentes configurações e cada uma delas é localizada no diretório JBOSS_DIST/jboss-as/server. Em linha de comando no Linux, para iniciar o JBoss com o conjunto de arquivo de configuração mínimo utiliza-se o comando
-
-* **A)** run.sh -x compact
-* **B)** run.sh -c minimal
-* **C)** start.sh -a compact
-* **D)** start.sh -x 0
-* **E)** run.sh -a minimal
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "run.sh x compact". De acordo com a teoria estudada em *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena*, o Inode ( Index Node ) é a estrutura central de dados que descreve cada arquivo ou diretório em sistemas baseados em Unix/Linux.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "run.sh c minimal". De acordo com a teoria estudada em *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena*, modo e tipo do arquivo (regular, diretório, socket, pipe, link simbólico).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "start.sh a compact". De acordo com a teoria estudada em *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena*, o nome do arquivo e o número do seu inode ficam armazenados nos blocos de dados do diretório pai (estrutura dentry ), e não dentro do próprio inode.
-> - **D)** **Correta.** Conforme fundamentado na seção *5.3 Gerenciamento de Serviços com systemd (systemctl e journalctl)* deste guia, systemctl start <servico : Inicia o serviço imediatamente na sessão corrente. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "start.sh x 0".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "run.sh a minimal". De acordo com a teoria estudada em *4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)*, cruzamento de Partições: NÃO pode cruzar partições ou sistemas de arquivos diferentes (inodes colidiriam). — SIM, pode cruzar discos, partições e pontos de montagem livremente.
->
-> **Gabarito: D**
-
----
-
-### Teste 007
-**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-O superusuário de computador com sistema operacional Linux deseja alterar as permissões padrão para que apenas o usuário criador possa listar, ler e escrever em todos os novos diretórios criados no sistema por meio do comando mkdir. Para isso, o superusuário deve executar o comando
-
-* **A)** umask 700.
-* **B)** chmod 707.
-* **C)** umask 077.
-* **D)** chmod 700.
-* **E)** umask 707.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "umask 700". De acordo com a teoria estudada em *1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)*, para solicitar serviços privilegiados do hardware (leitura de disco, envio de pacotes pela placa de rede, criação de novos processos), o processo de usuário deve invocar uma Chamada de Sistema ( System Call / Syscall ).
-> - **B)** **Correta.** Conforme fundamentado na seção *Permissões Especiais:* deste guia, sGID ( Set Group ID 2000 / rwxr sr x ): Em diretórios, faz com que quaisquer novos arquivos ou subdiretórios criados herdem automaticamente o grupo do diretório pai. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "chmod 707".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "umask 077". De acordo com a teoria estudada em *Permissões Especiais:*, sticky Bit (1000 / rwxrwxrwt ): Aplicado a diretórios públicos (como /tmp ). Impede que um usuário exclua ou renomeie arquivos pertencentes a outros usuários, mesmo com permissão $777$.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chmod 700". De acordo com a teoria estudada em *1.1 Modos de Operação do Processador (User Mode vs. Kernel Mode)*, o Sistema Operacional atua como intermediário entre o hardware físico e os softwares aplicativos do usuário. Para assegurar integridade, estabilidade e isolamento de segurança, os processadores modernos utilizam anéis de proteção ( Protection Rings ).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "umask 707". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, fAT32: Sistema legado com compatibilidade universal, mas limitado a arquivos individuais de no máximo 4 GB e sem suporte nativo a permissões de segurança ACL.
->
-> **Gabarito: B**
-
----
-
-### Teste 008
-**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-Uma partição NFS remota deve ser montada em um computador com sistema operacional Linux. Para especificar, no comando mount, que a partição é NFS, deve-se utilizar a opção:
-
-* **A)** −n.
-* **B)** −f.
-* **C)** −i.
-* **D)** −s.
-* **E)** −t.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "−n". De acordo com a teoria estudada em *1.1 Modos de Operação do Processador (User Mode vs. Kernel Mode)*, o Sistema Operacional atua como intermediário entre o hardware físico e os softwares aplicativos do usuário. Para assegurar integridade, estabilidade e isolamento de segurança, os processadores modernos utilizam anéis de proteção ( Protection Rings ).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "−f". De acordo com a teoria estudada em *3.4 Swapping e Hiperpaginação (Thrashing)*, swapping: Movimentação de páginas ou de processos inteiros entre a memória RAM física e a partição/arquivo de troca no disco (Swap).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "−i". De acordo com a teoria estudada em *1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido*, monolítico: Todos os serviços essenciais (escalonador, memória, sistemas de arquivos, drivers de dispositivos) rodam no mesmo espaço de memória do Kernel (Ring 0). — Máximo desempenho em chamadas e trocas de mensagens (comunicação direta por ponteiros e funções). — Um bug em um driver de dispositivo ou módulo pode derrubar o sistema inteiro ( Kernel Panic ). — Linux, Unix tradicional, FreeBSD.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "−s". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, linux ext4: Sistema de arquivos padrão na maioria das distribuições Linux. Suporta journaling (diário de transações que previne corrupção de metadados em quedas de energia) com três modos ( journal , ordered , writeback ), alocação por extensões ( extents ) e volumes de até 1 Exabyte.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)* deste guia, para solicitar serviços privilegiados do hardware (leitura de disco, envio de pacotes pela placa de rede, criação de novos processos), o processo de usuário deve invocar uma Chamada de Sistema ( System Call / Syscall ). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "−t".
->
-> **Gabarito: E**
-
----
-
-### Teste 009
-**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-O administrador de um servidor com sistema operacional Linux escolheu o sistema de arquivos XFS para o sistema de arma- zenamento principal. O XFS
-
-* **A)** permite o redimensionamento de uma partição apenas para aumentar.
-* **B)** é um sistema de 32 bits compatível com sistemas de 64 bits.
-* **C)** utiliza tamanho de blocos fixos para otimizar o espaço em disco.
-* **D)** foi concebido para operar prioritariamente com arquivos de pequenas dimensões.
-* **E)** faz uso do journaling físico, ou seja, os metadados são gravados em disco imediatamente.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "permite o redimensionamento de uma partição apenas para aumentar". De acordo com a teoria estudada em *3.1 Endereçamento Lógico vs. Físico e o Papel da MMU*, a Memória Virtual desvincula o espaço de endereçamento lógico manipulado pelo programa da memória RAM física real. Isso permite que um programa execute mesmo que seu tamanho ultrapasse a memória RAM disponível.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é um sistema de 32 bits compatível com sistemas de 64 bits". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, linux XFS: Sistema de arquivos escalável de 64 bits de altíssimo desempenho, padrão no RHEL, otimizado para operações paralelas e manipulação de arquivos gigantescos.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Paginação: Páginas, Molduras (Frames), Tabela de Páginas e TLB* deste guia, páginas Lógicas ( Pages ): Blocos de tamanho fixo em que a memória virtual do processo é dividida. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "utiliza tamanho de blocos fixos para otimizar o espaço em disco".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "foi concebido para operar prioritariamente com arquivos de pequenas dimensões". De acordo com a teoria estudada em *1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido*, monolítico: Todos os serviços essenciais (escalonador, memória, sistemas de arquivos, drivers de dispositivos) rodam no mesmo espaço de memória do Kernel (Ring 0). — Máximo desempenho em chamadas e trocas de mensagens (comunicação direta por ponteiros e funções). — Um bug em um driver de dispositivo ou módulo pode derrubar o sistema inteiro ( Kernel Panic ). — Linux, Unix tradicional, FreeBSD.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "faz uso do journaling físico, ou seja, os metadados são gravados em disco imediatamente". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, linux ext4: Sistema de arquivos padrão na maioria das distribuições Linux. Suporta journaling (diário de transações que previne corrupção de metadados em quedas de energia) com três modos ( journal , ordered , writeback ), alocação por extensões ( extents ) e volumes de até 1 Exabyte.
->
-> **Gabarito: C**
-
----
-
-### Teste 010
-**(FCC – TRT 6ª – 2012 – Analista Judiciário - Apoio Especializado/Tecnologia da Informação)**
-Filesystem Hierarchy Standard (FHS) é a padronização da organização do sistema de arquivos do sistemas Linux à qual aderem as principais distribuições. De acordo com a FHS, arquivos executáveis que precisam estar disponíveis em single user mode, arquivos cujo conteúdo varia ao longo da operação do sistema e arquivos de configuração do sistema devem localizar-se, respectivamente, em
-
-* **A)** /boot, /tmp e /usr/share.
-* **B)** /usr/bin, /tmp e /usr/local.
-* **C)** /bin, /opt e /usr/local.
-* **D)** /boot, /usr e /etc.
-* **E)** /bin, /var e /etc.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *Permissões Especiais:* deste guia, sUID ( Set User ID 4000 / rwsr xr x ): Executa o programa com os privilégios do proprietário do arquivo, e não de quem o chamou (ex.: /usr/bin/passwd ). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 6ª/2012) ao estabelecer que "/boot, /tmp e /usr/share".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/usr/bin, /tmp e /usr/local". De acordo com a teoria estudada em *Permissões Especiais:*, sticky Bit (1000 / rwxrwxrwt ): Aplicado a diretórios públicos (como /tmp ). Impede que um usuário exclua ou renomeie arquivos pertencentes a outros usuários, mesmo com permissão $777$.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/bin, /opt e /usr/local". De acordo com a teoria estudada em *5.3 Gerenciamento de Serviços com systemd (systemctl e journalctl)*, systemctl enable <servico : Configura o serviço para iniciar automaticamente no boot do SO.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/boot, /usr e /etc". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, linux ext4: Sistema de arquivos padrão na maioria das distribuições Linux. Suporta journaling (diário de transações que previne corrupção de metadados em quedas de energia) com três modos ( journal , ordered , writeback ), alocação por extensões ( extents ) e volumes de até 1 Exabyte.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/bin, /var e /etc". De acordo com a teoria estudada em *5.2 Comandos Essenciais, Filtros e Redirecionamentos*, find /var/log type f name " .log" mtime 7 : Localiza arquivos regulares modificados nos últimos 7 dias.
->
-> **Gabarito: A**
-
----
-
-### Teste 011
-**(FCC – TRT 9ª – 2015 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-Um usuário do sistema operacional Linux executou o seguinte comando no prompt de um terminal shell. $ ls >> list O resultado da execução desse comando é a
-
-* **A)** apresentação da listagem do conteúdo do diretório list no terminal.
-* **B)** apresentação, no terminal, dos arquivos e diretórios que contém o termo list.
-* **C)** listagem de comparação entre o conteúdo do diretório atual e do arquivo list.
-* **D)** cópia do conteúdo do diretório atual para o diretório list.
-* **E)** criação do arquivo list que contém a listagem do diretório atual.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresentação da listagem do conteúdo do diretório list no terminal". De acordo com a teoria estudada em *4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)*, exclusão do Arquivo Original: O conteúdo permanece íntegro e acessível até que o contador de links caia para zero. — O link simbólico fica quebrado / órfão ( dangling link ), apontando para um caminho inexistente.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresentação, no terminal, dos arquivos e diretórios que contém o termo list". De acordo com a teoria estudada em *Permissões Especiais:*, sGID ( Set Group ID 2000 / rwxr sr x ): Em diretórios, faz com que quaisquer novos arquivos ou subdiretórios criados herdem automaticamente o grupo do diretório pai.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "listagem de comparação entre o conteúdo do diretório atual e do arquivo list". De acordo com a teoria estudada em *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena*, modo e tipo do arquivo (regular, diretório, socket, pipe, link simbólico).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cópia do conteúdo do diretório atual para o diretório list". De acordo com a teoria estudada em *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena*, o nome do arquivo e o número do seu inode ficam armazenados nos blocos de dados do diretório pai (estrutura dentry ), e não dentro do próprio inode.
-> - **E)** **Correta.** Conforme fundamentado na seção *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena* deste guia, o Inode ( Index Node ) é a estrutura central de dados que descreve cada arquivo ou diretório em sistemas baseados em Unix/Linux. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 9ª/2015) ao estabelecer que "criação do arquivo list que contém a listagem do diretório atual".
->
-> **Gabarito: E**
-
----
-
-### Teste 012
-**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
-O RPM Package Manager é um sistema executado em várias distribuições Linux e UNIX. O conjunto completo de modos básicos de operação do RPM é
-
-* **A)** consulta, atualização e instalação de pacotes.
-* **B)** instalação, atualização, criação e depuração de pacotes.
-* **C)** valoração, reinstalação, consulta e desinstalação de pacotes.
-* **D)** instalação, desinstalação, valoração, consulta, monitoramento e depuração de pacotes.
-* **E)** criação, instalação, desinstalação, atualização, consulta e verificação de pacotes.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consulta, atualização e instalação de pacotes". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, linux ext4: Sistema de arquivos padrão na maioria das distribuições Linux. Suporta journaling (diário de transações que previne corrupção de metadados em quedas de energia) com três modos ( journal , ordered , writeback ), alocação por extensões ( extents ) e volumes de até 1 Exabyte.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "instalação, atualização, criação e depuração de pacotes". De acordo com a teoria estudada em *2.2 Ciclo de Vida e Estados de um Processo*, [ ] Novo: Criação (fork / CreateProcess).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "valoração, reinstalação, consulta e desinstalação de pacotes". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, microsoft Learn Gerenciamento de Processos e Serviços no Windows Documentação de referência técnica da API Win32 para criação de processos, threads e sincronização.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "instalação, desinstalação, valoração, consulta, monitoramento e depuração de pacotes". De acordo com a teoria estudada em *1.1 Modos de Operação do Processador (User Mode vs. Kernel Mode)*, as aplicações e processos de usuário executam com conjunto restrito de instruções.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)* deste guia, para solicitar serviços privilegiados do hardware (leitura de disco, envio de pacotes pela placa de rede, criação de novos processos), o processo de usuário deve invocar uma Chamada de Sistema ( System Call / Syscall ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "criação, instalação, desinstalação, atualização, consulta e verificação de pacotes".
->
-> **Gabarito: E**
-
----
-
-### Teste 013
-**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia Da Informacao)**
-O analista Frederico configurou uma instalação personalizada do Red Hat Enterprise Linux (RHEL) para servidores Intel 64-bit baseados em BIOS. Frederico utilizou ainda o RHEL Kickstart para automatizar a instalação personalizada. A variante do Kickstart utilizada foi a que automatiza completamente o processo de instalação, a partir de um boot loader via rede adequadamente configurado. Para permitir o início automático da instalação Kickstart pelos servidores, Frederico configurou um servidor de boot:
-
-* **A)** ISO;
-* **B)** PXE;
-* **C)** CDN;
-* **D)** VNC;
-* **E)** HTTP.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ISO". De acordo com a teoria estudada em *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena*, o Inode ( Index Node ) é a estrutura central de dados que descreve cada arquivo ou diretório em sistemas baseados em Unix/Linux.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PXE". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, linux XFS: Sistema de arquivos escalável de 64 bits de altíssimo desempenho, padrão no RHEL, otimizado para operações paralelas e manipulação de arquivos gigantescos.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido* deste guia, microkernel: Apenas as funções mínimas rodam no Kernel (IPC, gerenciamento básico de memória e escalonador). Drivers, sistemas de arquivos e rede rodam como servidores no Modo Usuário (Ring 3). — Alta modularidade, isolamento de falhas e segurança robusta (se o driver de rede travar, ele é reiniciado sem derrubar o SO). — Queda de desempenho devido ao overhead constante de troca de contexto e IPC por passagem de mensagens entre processos de usuário. — Mach, Minix, QNX. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "CDN".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "VNC". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, windows NTFS ( New Technology File System ): Padrão do Windows corporativo. Suporta listas de controle de acesso (ACLs DACL e SACL), journaling via Master File Table (MFT), cotas de disco, compressão nativa de arquivos e criptografia no nível de arquivo via EFS ( Encrypting File System ).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "HTTP". De acordo com a teoria estudada em *1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)*, para solicitar serviços privilegiados do hardware (leitura de disco, envio de pacotes pela placa de rede, criação de novos processos), o processo de usuário deve invocar uma Chamada de Sistema ( System Call / Syscall ).
->
-> **Gabarito: C**
-
----
-
-### Teste 014
-**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
-RPM é um sistema de gerenciamento de pacotes que roda no Red Hat Enterprise Linux. Com relação ao RMP é correto afirmar que
-
-* **A)** permite instalar, reinstalar, remover, atualizar e verificar pacotes com ferramentas padrão de gerenciamento de pacotes, tais como Yum ou APT.
-* **B)** assina digitalmente seus pacotes usando as chaves de assinatura do GNU Pretty Good Privacy (PGP), garantindo a sua autenticidade e integridade.
-* **C)** usa metadados para descrever os pacotes, suas instruções de instalação e outros parâmetros de pacotes.
-* **D)** suporta versões únicas de um mesmo pacote, não permite a instalação de pacotes de diferentes versões.
-* **E)** permite carregar localmente a base de dados de pacotes caso seja danificada na web, garantindo a funcionalidade do sistema hospedeiro.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "permite instalar, reinstalar, remover, atualizar e verificar pacotes com ferramentas padrão de gerenciamento de...". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, linux ext4: Sistema de arquivos padrão na maioria das distribuições Linux. Suporta journaling (diário de transações que previne corrupção de metadados em quedas de energia) com três modos ( journal , ordered , writeback ), alocação por extensões ( extents ) e volumes de até 1 Exabyte.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "assina digitalmente seus pacotes usando as chaves de assinatura do GNU Pretty Good Privacy (PGP), garantindo a sua...". De acordo com a teoria estudada em *1.1 Modos de Operação do Processador (User Mode vs. Kernel Mode)*, o Sistema Operacional atua como intermediário entre o hardware físico e os softwares aplicativos do usuário. Para assegurar integridade, estabilidade e isolamento de segurança, os processadores modernos utilizam anéis de proteção ( Protection Rings ).
-> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)* deste guia, para solicitar serviços privilegiados do hardware (leitura de disco, envio de pacotes pela placa de rede, criação de novos processos), o processo de usuário deve invocar uma Chamada de Sistema ( System Call / Syscall ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "usa metadados para descrever os pacotes, suas instruções de instalação e outros parâmetros de pacotes".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "suporta versões únicas de um mesmo pacote, não permite a instalação de pacotes de diferentes versões". De acordo com a teoria estudada em *4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)*, cruzamento de Partições: NÃO pode cruzar partições ou sistemas de arquivos diferentes (inodes colidiriam). — SIM, pode cruzar discos, partições e pontos de montagem livremente.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "permite carregar localmente a base de dados de pacotes caso seja danificada na web, garantindo a funcionalidade do...". De acordo com a teoria estudada em *3.4 Swapping e Hiperpaginação (Thrashing)*, hiperpaginação ( Thrashing ): Ocorre quando o sistema passa substancialmente mais tempo realizando operações de I/O de leitura e escrita de páginas no disco do que executando instruções úteis dos programas. Decorre de uma sobrecarga onde a soma dos conjuntos de trabalho ( working sets ) dos processos ativos supera a capacidade física da memória RAM.
->
-> **Gabarito: C**
-
----
-
-### Teste 015
-**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
-Assinale a afirmativa correta a respeito de servidores de aplicações web, de DNS e de diretórios.
-
-* **A)** O IIS permite a criação de proxy reverso para gerar regra de reescrita de entrada de solicitações HTTP, porém não permite o mesmo para regras de saída.
-* **B)** Em um servidor Windows, o conteúdo de uma zona DNS pode ser armazenado em um arquivo ou no AD DS (Active Directory Domain Services).
-* **C)** NJS é um subconjunto da linguagem JavaScript concebido para estender a funcionalidade de aplicações como Microsoft Active Directory e Windows DNS Server.
-* **D)** O mod_deflate é o filtro do Apache HTTP Server responsável por alterar o conjunto de caracteres das respostas antes de enviá-las ao cliente.
-* **E)** No Windows, quando o servidor DNS armazena a zona em um arquivo, todas as cópias da zona são graváveis, inclusive as referentes às zonas secundárias.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O IIS permite a criação de proxy reverso para gerar regra de reescrita de entrada de solicitações HTTP, porém não...". De acordo com a teoria estudada em *2.2 Ciclo de Vida e Estados de um Processo*, bloqueado / Espera ( Waiting / Blocked ): O processo não pode executar porque aguarda a conclusão de uma operação externa de Entrada/Saída (leitura de disco, teclado) ou a liberação de um lock de sincronização.
-> - **B)** **Correta.** Conforme fundamentado na seção *4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)* deste guia, exclusão do Arquivo Original: O conteúdo permanece íntegro e acessível até que o contador de links caia para zero. — O link simbólico fica quebrado / órfão ( dangling link ), apontando para um caminho inexistente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "Em um servidor Windows, o conteúdo de uma zona DNS pode ser armazenado em um arquivo ou no AD DS (Active Directory...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "NJS é um subconjunto da linguagem JavaScript concebido para estender a funcionalidade de aplicações como Microsoft...". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, microsoft Learn Conceitos e Arquitetura do Windows Server Guia oficial de conceitos de arquitetura interna, gerenciamento de threads, I/O e desempenho do Windows.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O mod deflate é o filtro do Apache HTTP Server responsável por alterar o conjunto de caracteres das respostas...". De acordo com a teoria estudada em *3.2 Paginação: Páginas, Molduras (Frames), Tabela de Páginas e TLB*, dirty Bit (Modificado): 1 indica que a página foi alterada desde que foi lida do disco e precisará ser gravada de volta antes de ser descartada.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No Windows, quando o servidor DNS armazena a zona em um arquivo, todas as cópias da zona são graváveis, inclusive...". De acordo com a teoria estudada em *2.3 PCB e o Custo da Troca de Contexto (Context Switch)*, o Bloco de Controle de Processo (PCB Process Control Block ) é a estrutura de dados que armazena todas as informações do processo enquanto ele não está executando na CPU: estado, Program Counter (PC), registradores, informações de escalonamento, ponteiros de memória e descritores de arquivos abertos.
->
-> **Gabarito: B**
-
----
-
-### Teste 016
-**(CEBRASPE – STF – 2013 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-Com o advento da versão 2 do Hyper-V no Windows 2008 R2, os sistemas virtualizados podem suportar até 64 processadores lógicos. Considere que, ao instalar um servidor Linux Red Hat ES6, um administrador de rede tenha optado por usar LVM (logical volume management) em seu ambiente. Com base nessa situação, julgue os itens que se seguem.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, linux ext4: Sistema de arquivos padrão na maioria das distribuições Linux. Suporta journaling (diário de transações que previne corrupção de metadados em quedas de energia) com três modos ( journal , ordered , writeback ), alocação por extensões ( extents ) e volumes de até 1 Exabyte. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STF/2013) ao afirmar que "Com o advento da versão 2 do Hyper V no Windows 2008 R2, os sistemas virtualizados podem suportar até 64...".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
->
-> **Gabarito: C**
-
----
-
-### Teste 017
-**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-O DHCP (dynamic host configuration protocol) é um protocolo de inicialização alternativo que utiliza mensagens UDP (user datagram protocol) encaminhadas pelos roteadores e fornece informações a uma estação de trabalho sem disco, como o endereço IP (internet protocol) do servidor de arquivos que contém a imagem de memória, o endereço IP do roteador padrão e a máscara de sub-rede a ser usada. Com relação a redes de computadores, julgue os itens subsequentes.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O DHCP (dynamic host configuration protocol) é um protocolo de inicialização alternativo que utiliza...". De acordo com a teoria em *1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido*, microkernel: Apenas as funções mínimas rodam no Kernel (IPC, gerenciamento básico de memória e escalonador). Drivers, sistemas de arquivos e rede rodam como servidores no Modo Usuário (Ring 3). — Alta modularidade, isolamento de falhas e segurança robusta (se o driver de rede travar, ele é reiniciado sem derrubar o SO). — Queda de desempenho devido ao overhead constante de troca de contexto e IPC por passagem de mensagens entre processos de usuário. — Mach, Minix, QNX.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
-
----
-
-### Teste 018
-**(CEBRASPE – TJ/DFT – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-Em versões modernas do Linux, o arquivo /etc/shadow armazena as senhas criptografadas e as informações adicionais sobre as senhas dos usuários.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena*, o Inode ( Index Node ) é a estrutura central de dados que descreve cada arquivo ou diretório em sistemas baseados em Unix/Linux. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ/DFT/2015) ao afirmar que "Em versões modernas do Linux, o arquivo /etc/shadow armazena as senhas criptografadas e as informações...".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
->
-> **Gabarito: C**
-
----
-
-### Teste 019
-**(CEBRASPE – TJ/DFT – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-O Linux apresenta restrição de mecanismos de bloqueio de acesso a arquivo de senha passwd. Assim, qualquer usuário pode ler esse arquivo e verificar os nomes de usuários.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A proposição promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "O Linux apresenta restrição de mecanismos de bloqueio de acesso a arquivo de senha passwd. Assim, qualquer...". De acordo com a teoria em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, windows NTFS ( New Technology File System ): Padrão do Windows corporativo. Suporta listas de controle de acesso (ACLs DACL e SACL), journaling via Master File Table (MFT), cotas de disco, compressão nativa de arquivos e criptografia no nível de arquivo via EFS ( Encrypting File System ).
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
-
----
-
-### Teste 020
-**(CEBRASPE – TJ/DFT – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-No Windows 2012 Server R2, os dados dos usuários do (AD) Active Directory ficam armazenados em um gerenciador de banco de dados do SQL Server. Logo o administrador do SQL Server também tem poderes administrativos sobre o domínio AD. Em geral, um buffer overflow se caracteriza por permitir a sobrescrita de espaços de memória utilizados por um processo, o que pode ser realizado intencionalmente ou não. A esse respeito, julgue os itens que se seguem.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No Windows 2012 Server R2, os dados dos usuários do (AD) Active Directory ficam armazenados em um gerenciador...". De acordo com a teoria em *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena*, o nome do arquivo e o número do seu inode ficam armazenados nos blocos de dados do diretório pai (estrutura dentry ), e não dentro do próprio inode.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
-
----
-
-### Teste 021
-**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
-Em ambiente Linux, o comando ps –axl permite visualizar informações sobre todos os processos existentes no sistema, em especial os estados dos processos. Se o estado relatado para um certo processo é Z (zombie), isso indica que tal processo:
-
-* **A)** acabou de ser criado e aguarda para executar;
-* **B)** está bloqueado, aguardando por um recurso;
-* **C)** está órfão, aguardando reparentização;
-* **D)** está morto, aguardando que o processo pai providencie sua extinção;
-* **E)** sofreu preempção.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "acabou de ser criado e aguarda para executar". De acordo com a teoria estudada em *2.2 Ciclo de Vida e Estados de um Processo*, bloqueado / Espera ( Waiting / Blocked ): O processo não pode executar porque aguarda a conclusão de uma operação externa de Entrada/Saída (leitura de disco, teclado) ou a liberação de um lock de sincronização.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "está bloqueado, aguardando por um recurso". De acordo com a teoria estudada em *2.2 Ciclo de Vida e Estados de um Processo*, executando Bloqueado: Operação de E/S ou Espera por Evento.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "está órfão, aguardando reparentização". De acordo com a teoria estudada em *Principais Syscalls POSIX:*, fork() : Cria um novo processo filho que é cópia exata do processo pai (com novo PID). Utiliza a técnica Copy on Write (COW): páginas de memória são compartilhadas como somente leitura até que haja uma escrita real, momento em que o frame é duplicado.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.2 Ciclo de Vida e Estados de um Processo* deste guia, terminado ( Terminated ): O processo encerrou sua execução e aguarda o processo pai recolher seu código de retorno ( wait() ). Se o pai não o recolhe, ele permanece temporariamente como processo zumbi. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "está morto, aguardando que o processo pai providencie sua extinção".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sofreu preempção". De acordo com a teoria estudada em *2.2 Ciclo de Vida e Estados de um Processo*, executando Pronto: Preempção (Fim do Quantum de Tempo).
->
-> **Gabarito: D**
-
----
-
-### Teste 022
-**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
-O seguinte comando, invocado em uma shell do Linux: find . –type f escreverá na saída padrão:
-
-* **A)** o número de arquivos regulares descendentes do diretório corrente;
-* **B)** os caminhos (pathnames) relativos para os arquivos regulares descendentes do diretório corrente;
-* **C)** os caminhos (pathnames) absolutos para os arquivos regulares descendentes do diretório corrente;
-* **D)** os caminhos (pathnames) relativos para os diretórios descendentes do diretório corrente;
-* **E)** os caminhos (pathnames) absolutos para os arquivos regulares e diretórios descendentes do diretório corrente.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o número de arquivos regulares descendentes do diretório corrente". De acordo com a teoria estudada em *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena*, o nome do arquivo e o número do seu inode ficam armazenados nos blocos de dados do diretório pai (estrutura dentry ), e não dentro do próprio inode.
-> - **B)** **Correta.** Conforme fundamentado na seção *5.2 Comandos Essenciais, Filtros e Redirecionamentos* deste guia, find /var/log type f name " .log" mtime 7 : Localiza arquivos regulares modificados nos últimos 7 dias. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "os caminhos (pathnames) relativos para os arquivos regulares descendentes do diretório corrente".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os caminhos (pathnames) absolutos para os arquivos regulares descendentes do diretório corrente". De acordo com a teoria estudada em *Permissões Especiais:*, sGID ( Set Group ID 2000 / rwxr sr x ): Em diretórios, faz com que quaisquer novos arquivos ou subdiretórios criados herdem automaticamente o grupo do diretório pai.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os caminhos (pathnames) relativos para os diretórios descendentes do diretório corrente". De acordo com a teoria estudada em *Permissões Especiais:*, sticky Bit (1000 / rwxrwxrwt ): Aplicado a diretórios públicos (como /tmp ). Impede que um usuário exclua ou renomeie arquivos pertencentes a outros usuários, mesmo com permissão $777$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os caminhos (pathnames) absolutos para os arquivos regulares e diretórios descendentes do diretório corrente". De acordo com a teoria estudada em *5.3 Gerenciamento de Serviços com systemd (systemctl e journalctl)*, systemctl start <servico : Inicia o serviço imediatamente na sessão corrente.
->
-> **Gabarito: B**
-
----
-
-### Teste 023
-**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
-Em um ambiente Linux instalado em uma determinada empresa, as contas dos programadores que trabalham num dado projeto de desenvolvimento estão associadas ao mesmo grupo de usuários. Um deles cria um diretório que deverá ser visível aos demais membros do time de desenvolvimento. A ideia é que os colegas possam entrar no diretório, criar novos arquivos sob o diretório, bem como visualizar e modificar o conteúdo dos arquivos ali armazenados. Usuários externos à equipe de desenvolvimento não devem ter acesso ao diretório, nem aos seus descendentes. Supondo-se que o caminho para o diretório em questão seja /home/projeto e que a proteção de /home já esteja corretamente estabelecida, o comando que associa a proteção desejada ao diretório /home/projeto e aos seus descendentes é:
-
-* **A)** chmod –R 0770 /home/projeto;
-* **B)** chmod –R 0760 /home/projeto;
-* **C)** chmod –R 0750 /home/projeto;
-* **D)** chmod –R 0740 /home/projeto;
-* **E)** chmod –R 0730 /home/projeto.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *Permissões Especiais:* deste guia, sGID ( Set Group ID 2000 / rwxr sr x ): Em diretórios, faz com que quaisquer novos arquivos ou subdiretórios criados herdem automaticamente o grupo do diretório pai. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "chmod –R 0770 /home/projeto".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chmod –R 0760 /home/projeto". De acordo com a teoria estudada em *4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)*, exclusão do Arquivo Original: O conteúdo permanece íntegro e acessível até que o contador de links caia para zero. — O link simbólico fica quebrado / órfão ( dangling link ), apontando para um caminho inexistente.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chmod –R 0750 /home/projeto". De acordo com a teoria estudada em *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena*, o nome do arquivo e o número do seu inode ficam armazenados nos blocos de dados do diretório pai (estrutura dentry ), e não dentro do próprio inode.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chmod –R 0740 /home/projeto". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, windows NTFS ( New Technology File System ): Padrão do Windows corporativo. Suporta listas de controle de acesso (ACLs DACL e SACL), journaling via Master File Table (MFT), cotas de disco, compressão nativa de arquivos e criptografia no nível de arquivo via EFS ( Encrypting File System ).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chmod –R 0730 /home/projeto". De acordo com a teoria estudada em *Permissões Especiais:*, sticky Bit (1000 / rwxrwxrwt ): Aplicado a diretórios públicos (como /tmp ). Impede que um usuário exclua ou renomeie arquivos pertencentes a outros usuários, mesmo com permissão $777$.
->
-> **Gabarito: A**
-
----
-
-### Teste 024
-**(FCC – TRT 1ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-No sistema operacional Linux Red Hat, o comando umask
-
-* **A)** rwx r-x r-x.
-* **B)** 25 mm. é utilizado para definir as permissões padrão utilizadas
-* **C)** 15 vezes o diâmetro externo do cabo. para os novos arquivos e diretórios criados. Considere que o valor umask é 022. O novo arquivo criado nessas con-
-* **D)** 50 mm. dições terá permissões
-* **E)** 20 vezes o diâmetro externo do cabo. _________________________________________________________
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "rwx r x r x". De acordo com a teoria estudada em *4.4 Permissões Octais (UGO) e Permissões Especiais (SUID, SGID, Sticky Bit)*, $$\text{Exemplo: } 750 \implies \text{Dono: } 4+2+1=7\,(rwx); \quad \text{Grupo: } 4+0+1=5\,(r x); \quad \text{Outros: } 0\,( )$$.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "25 mm. é utilizado para definir as permissões padrão utilizadas". De acordo com a teoria estudada em *5.1 Sinais POSIX (SIGKILL, SIGTERM, SIGHUP, SIGSTOP, SIGCONT)*, sIGHUP (Sinal 1): Desconexão de terminal ( hangup ). Utilizado comumente para forçar daemons a recarregar arquivos de configuração sem reiniciar o serviço.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "15 vezes o diâmetro externo do cabo. para os novos arquivos e diretórios criados. Considere que o valor umask é...". De acordo com a teoria estudada em *Permissões Especiais:*, sGID ( Set Group ID 2000 / rwxr sr x ): Em diretórios, faz com que quaisquer novos arquivos ou subdiretórios criados herdem automaticamente o grupo do diretório pai.
-> - **D)** **Correta.** Conforme fundamentado na seção *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)* deste guia, fAT32: Sistema legado com compatibilidade universal, mas limitado a arquivos individuais de no máximo 4 GB e sem suporte nativo a permissões de segurança ACL. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 1ª/2014) ao estabelecer que "50 mm. dições terá permissões".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "20 vezes o diâmetro externo do cabo". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, linux man pages (Kernel.org) Ciclo de Vida de Processos e Escalonamento no Linux Referência oficial de comandos Unix/Linux de permissões de arquivos, processos e sinais.
->
-> **Gabarito: D**
-
----
-
-### Teste 025
-**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
-Para instalar o Apache HTTP Server como um serviço no Windows entra-se no diretório bin do Apache, a partir do prompt de comando do Windows, e digita-se
-
-* **A)** httpd −a mode=service
-* **B)** apachehttpd −k mode=service
-* **C)** apache −a httpd install
-* **D)** apachehttp −a install
-* **E)** httpd −k install
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "httpd −a mode=service". De acordo com a teoria estudada em *6.2 Cmdlets Essenciais de Administração e Filtragem*, get Service : Recupera a coleção de serviços do Windows.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apachehttpd −k mode=service". De acordo com a teoria estudada em *6.2 Cmdlets Essenciais de Administração e Filtragem*, get Service | Where Object { $ .Status eq 'Running' }.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apache −a httpd install". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, microsoft Learn Conceitos e Arquitetura do Windows Server Guia oficial de conceitos de arquitetura interna, gerenciamento de threads, I/O e desempenho do Windows.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apachehttp −a install". De acordo com a teoria estudada em *Permissões Especiais:*, sUID ( Set User ID 4000 / rwsr xr x ): Executa o programa com os privilégios do proprietário do arquivo, e não de quem o chamou (ex.: /usr/bin/passwd ).
-> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido* deste guia, híbrido: Combina a modularidade do microkernel com o desempenho do monolítico, executando subsistemas críticos e drivers gráficos/I/O no espaço do Kernel. — Equilíbrio entre flexibilidade arquitetural, facilidade de compatibilidade e velocidade de execução. — Complexidade interna elevada e maior superfície de ataque no Kernel. — Windows NT (10, 11, Server), macOS (XNU). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "httpd −k install".
->
-> **Gabarito: E**
-
----
-
-### Teste 026
-**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-José instalou, particionou e formatou um novo disco rígido (HD) em um computador com sistema operacional Linux e deseja que a nova partição criada seja montada, de forma automática, durante o processo de boot do sistema operacional. A configuração desejada por José deve ser inserida no arquivo
-
-* **A)** /etc/rc.local
-* **B)** /bin/df
-* **C)** /boot/mnt
-* **D)** /etc/fstab
-* **E)** /mount
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/etc/rc.local". De acordo com a teoria estudada em *3.4 Swapping e Hiperpaginação (Thrashing)*, swapping: Movimentação de páginas ou de processos inteiros entre a memória RAM física e a partição/arquivo de troca no disco (Swap).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/bin/df". De acordo com a teoria estudada em *Permissões Especiais:*, sUID ( Set User ID 4000 / rwsr xr x ): Executa o programa com os privilégios do proprietário do arquivo, e não de quem o chamou (ex.: /usr/bin/passwd ).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/boot/mnt". De acordo com a teoria estudada em *5.3 Gerenciamento de Serviços com systemd (systemctl e journalctl)*, systemctl enable <servico : Configura o serviço para iniciar automaticamente no boot do SO.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)* deste guia, para solicitar serviços privilegiados do hardware (leitura de disco, envio de pacotes pela placa de rede, criação de novos processos), o processo de usuário deve invocar uma Chamada de Sistema ( System Call / Syscall ). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "/etc/fstab".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/mount". De acordo com a teoria estudada em *5.1 Sinais POSIX (SIGKILL, SIGTERM, SIGHUP, SIGSTOP, SIGCONT)*, sIGKILL (Sinal 9): Termina o processo imediatamente e de forma incondicional. Não pode ser capturado, bloqueado nem ignorado pelo processo; o kernel finaliza a execução compulsoriamente.
->
-> **Gabarito: D**
-
----
-
-### Teste 027
-**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-Maria, usuária do sistema operacional Linux, criou, em seu diretório home, um arquivo de shell script, denominado meu_shell.sh, para automatizar as suas atividades com o sistema, conforme apresentado abaixo: -rw------- 1 maria maria 115 Mar 20 2013 meu_shell.sh Para que o arquivo meu_shell.sh possa ser executado digitando-se: ./meu_shell.sh no seu diretório home, Maria deve modificar as permissões do arquivo utilizando o seguinte comando:
-
-* **A)** chmod meu_shell.sh 111
-* **B)** chown meu_shell.sh system
-* **C)** chmod 700 meu_shell.sh
-* **D)** chown meu_shell.sh root
-* **E)** chmod 666 meu_shell.sh
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chmod meu shell.sh 111". De acordo com a teoria estudada em *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena*, modo e tipo do arquivo (regular, diretório, socket, pipe, link simbólico).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chown meu shell.sh system". De acordo com a teoria estudada em *1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)*, para solicitar serviços privilegiados do hardware (leitura de disco, envio de pacotes pela placa de rede, criação de novos processos), o processo de usuário deve invocar uma Chamada de Sistema ( System Call / Syscall ).
-> - **C)** **Correta.** Conforme fundamentado na seção *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena* deste guia, o Inode ( Index Node ) é a estrutura central de dados que descreve cada arquivo ou diretório em sistemas baseados em Unix/Linux. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "chmod 700 meu shell.sh".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chown meu shell.sh root". De acordo com a teoria estudada em *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena*, o nome do arquivo e o número do seu inode ficam armazenados nos blocos de dados do diretório pai (estrutura dentry ), e não dentro do próprio inode.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chmod 666 meu shell.sh". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, fAT32: Sistema legado com compatibilidade universal, mas limitado a arquivos individuais de no máximo 4 GB e sem suporte nativo a permissões de segurança ACL.
->
-> **Gabarito: C**
-
----
-
-### Teste 028
-**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-José instalou o pacote do servidor web Apache2 em um servidor com sistema operacional Linux da empresa em que trabalha e deseja configurá-lo para as especificações da empresa. Por padrão, e para configurar os números das Portas TCP pelas quais o Apache2 irá receber as requisições, José deve editar o arquivo
-
-* **A)** /etc/http.conf
-* **B)** /apache2/etc/http.conf
-* **C)** /apache2/conf/ports.conf
-* **D)** /etc/apache2/apache2.conf
-* **E)** /etc/apache2/ports.conf
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/etc/http.conf". De acordo com a teoria estudada em *1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)*, para solicitar serviços privilegiados do hardware (leitura de disco, envio de pacotes pela placa de rede, criação de novos processos), o processo de usuário deve invocar uma Chamada de Sistema ( System Call / Syscall ).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/apache2/etc/http.conf". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, linux ext4: Sistema de arquivos padrão na maioria das distribuições Linux. Suporta journaling (diário de transações que previne corrupção de metadados em quedas de energia) com três modos ( journal , ordered , writeback ), alocação por extensões ( extents ) e volumes de até 1 Exabyte.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/apache2/conf/ports.conf". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, linux XFS: Sistema de arquivos escalável de 64 bits de altíssimo desempenho, padrão no RHEL, otimizado para operações paralelas e manipulação de arquivos gigantescos.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/etc/apache2/apache2.conf". De acordo com a teoria estudada em *5.3 Gerenciamento de Serviços com systemd (systemctl e journalctl)*, o systemd é o sistema de inicialização padrão do Linux moderno.
-> - **E)** **Correta.** Conforme fundamentado na seção *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)* deste guia, windows NTFS ( New Technology File System ): Padrão do Windows corporativo. Suporta listas de controle de acesso (ACLs DACL e SACL), journaling via Master File Table (MFT), cotas de disco, compressão nativa de arquivos e criptografia no nível de arquivo via EFS ( Encrypting File System ). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "/etc/apache2/ports.conf".
->
-> **Gabarito: E**
-
----
-
-### Teste 029
-**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-O administrador (root) de um servidor com sistema operacional Linux deseja verificar se a senha do novo usuário, recentemente criado, foi atribuída. Para verificar isso, o administrador pode consultar o arquivo
-
-* **A)** /etc/passwd
-* **B)** /etc/secure
-* **C)** /etc/passwd-
-* **D)** /etc/shadow
-* **E)** /etc/secure-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/etc/passwd". De acordo com a teoria estudada em *Permissões Especiais:*, sUID ( Set User ID 4000 / rwsr xr x ): Executa o programa com os privilégios do proprietário do arquivo, e não de quem o chamou (ex.: /usr/bin/passwd ).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/etc/secure". De acordo com a teoria estudada em *1.1 Modos de Operação do Processador (User Mode vs. Kernel Mode)*, o Sistema Operacional atua como intermediário entre o hardware físico e os softwares aplicativos do usuário. Para assegurar integridade, estabilidade e isolamento de segurança, os processadores modernos utilizam anéis de proteção ( Protection Rings ).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/etc/passwd". De acordo com a teoria estudada em *4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)*, número de Inode: Aponta diretamente para o mesmo número de Inode do arquivo original. — Possui um novo Inode próprio do tipo l , contendo o caminho textual de destino.
-> - **D)** **Correta.** Conforme fundamentado na seção *6.3 Políticas de Execução de Scripts (ExecutionPolicy)* deste guia, a política de execução do PowerShell NÃO é um mecanismo de segurança perimetral! Trata se de uma salvaguarda operacional contra execução acidental de scripts. Um usuário comum pode contorná la facilmente adicionando o parâmetro ExecutionPolicy Bypass ao invocar o executável do PowerShell. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "/etc/shadow".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "/etc/secure". De acordo com a teoria estudada em *2.2 Ciclo de Vida e Estados de um Processo*, novo ( New ): O processo está sendo criado e suas estruturas estão sendo alocadas.
->
-> **Gabarito: D**
-
----
-
-### Teste 030
-**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
-Analise o código a seguir escrito em shell script: Ao executar esse programa em um terminal será escrito na saída padrão:
-
-* **A)** www.website_trt.com.br
-* **B)** www.website_trt.cxm.br
-* **C)** website
-* **D)** http://www.website_trt
-* **E)** http://www.website_trt.com.br
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "www.website trt.com.br". De acordo com a teoria estudada em *2.2 Ciclo de Vida e Estados de um Processo*, bloqueado / Espera ( Waiting / Blocked ): O processo não pode executar porque aguarda a conclusão de uma operação externa de Entrada/Saída (leitura de disco, teclado) ou a liberação de um lock de sincronização.
-> - **B)** **Correta.** Conforme fundamentado na seção *6.3 Políticas de Execução de Scripts (ExecutionPolicy)* deste guia, restricted : Não executa nenhum script; permite apenas comandos interativos digitados no terminal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "www.website trt.cxm.br".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "website". De acordo com a teoria estudada em *5.2 Comandos Essenciais, Filtros e Redirecionamentos*, : Sobrescreve a saída padrão (stdout / descritor 1).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "http://www.website trt". De acordo com a teoria estudada em *5.2 Comandos Essenciais, Filtros e Redirecionamentos*, 2 &1 : Redireciona os erros para o mesmo destino da saída padrão.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "http://www.website trt.com.br". De acordo com a teoria estudada em *5.2 Comandos Essenciais, Filtros e Redirecionamentos*, | (Pipe): Conecta a saída padrão de um comando à entrada padrão do próximo.
->
-> **Gabarito: B**
-
----
-
-### Teste 031
-**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
-O sistema operacional Linux, em suas diferentes distribuições, utiliza uma estrutura de arquivos padronizada e que se baseia na estrutura do Unix. Na estrutura de arquivos do Linux SuSE, o diretório /opt é utilizado
-
-* **A)** pelo sistema operacional como área de memória secundária quando a memória principal se esgota.
-* **B)** para o armazenamento de logs e eventos gerados pelo sistema operacional.
-* **C)** como a pasta Arquivos de Programas do Windows e é reservado para a instalação de programas adicionais.
-* **D)** para a montagem de dispositivos externos de leitura de mídia óptica.
-* **E)** pelo sistema operacional para o armazenamento de arquivos temporários de gerenciamento de processos.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pelo sistema operacional como área de memória secundária quando a memória principal se esgota". De acordo com a teoria estudada em *1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido*, microkernel: Apenas as funções mínimas rodam no Kernel (IPC, gerenciamento básico de memória e escalonador). Drivers, sistemas de arquivos e rede rodam como servidores no Modo Usuário (Ring 3). — Alta modularidade, isolamento de falhas e segurança robusta (se o driver de rede travar, ele é reiniciado sem derrubar o SO). — Queda de desempenho devido ao overhead constante de troca de contexto e IPC por passagem de mensagens entre processos de usuário. — Mach, Minix, QNX.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "para o armazenamento de logs e eventos gerados pelo sistema operacional". De acordo com a teoria estudada em *5.3 Gerenciamento de Serviços com systemd (systemctl e journalctl)*, systemctl status <servico : Exibe o estado operacional e os últimos logs do serviço.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "como a pasta Arquivos de Programas do Windows e é reservado para a instalação de programas adicionais". De acordo com a teoria estudada em *3.4 Swapping e Hiperpaginação (Thrashing)*, hiperpaginação ( Thrashing ): Ocorre quando o sistema passa substancialmente mais tempo realizando operações de I/O de leitura e escrita de páginas no disco do que executando instruções úteis dos programas. Decorre de uma sobrecarga onde a soma dos conjuntos de trabalho ( working sets ) dos processos ativos supera a capacidade física da memória RAM.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "para a montagem de dispositivos externos de leitura de mídia óptica". De acordo com a teoria estudada em *1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido*, monolítico: Todos os serviços essenciais (escalonador, memória, sistemas de arquivos, drivers de dispositivos) rodam no mesmo espaço de memória do Kernel (Ring 0). — Máximo desempenho em chamadas e trocas de mensagens (comunicação direta por ponteiros e funções). — Um bug em um driver de dispositivo ou módulo pode derrubar o sistema inteiro ( Kernel Panic ). — Linux, Unix tradicional, FreeBSD.
-> - **E)** **Correta.** Conforme fundamentado na seção *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)* deste guia, linux ext4: Sistema de arquivos padrão na maioria das distribuições Linux. Suporta journaling (diário de transações que previne corrupção de metadados em quedas de energia) com três modos ( journal , ordered , writeback ), alocação por extensões ( extents ) e volumes de até 1 Exabyte. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "pelo sistema operacional para o armazenamento de arquivos temporários de gerenciamento de processos".
->
-> **Gabarito: E**
-
----
-
-### Teste 032
-**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
-O administrador de um servidor com o sistema operacional Linux Red Hat pode utilizar o arquivo /etc/fstab para
-
-* **A)** controlar a montagem dos sistemas de arquivos durante o processo de boot.
-* **B)** definir a tabela de roteamento dos pacotes destinados para a rede de computadores.
-* **C)** especificar os sistemas de arquivos utilizáveis pelos usuários padrão.
-* **D)** definir a lista de arquivos disponibilizados por meio do NFS.
-* **E)** listar os sistemas de arquivos disponíveis pela rede de computadores.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "controlar a montagem dos sistemas de arquivos durante o processo de boot". De acordo com a teoria estudada em *4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)*, cruzamento de Partições: NÃO pode cruzar partições ou sistemas de arquivos diferentes (inodes colidiriam). — SIM, pode cruzar discos, partições e pontos de montagem livremente.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "definir a tabela de roteamento dos pacotes destinados para a rede de computadores". De acordo com a teoria estudada em *1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)*, para solicitar serviços privilegiados do hardware (leitura de disco, envio de pacotes pela placa de rede, criação de novos processos), o processo de usuário deve invocar uma Chamada de Sistema ( System Call / Syscall ).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "especificar os sistemas de arquivos utilizáveis pelos usuários padrão". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, windows NTFS ( New Technology File System ): Padrão do Windows corporativo. Suporta listas de controle de acesso (ACLs DACL e SACL), journaling via Master File Table (MFT), cotas de disco, compressão nativa de arquivos e criptografia no nível de arquivo via EFS ( Encrypting File System ).
-> - **D)** **Correta.** Conforme fundamentado na seção *5.2 Comandos Essenciais, Filtros e Redirecionamentos* deste guia, ps aux : Lista processos detalhados de todos os usuários ( a ), com usuário associado ( u ) e sem terminal ( x ). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "definir a lista de arquivos disponibilizados por meio do NFS".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "listar os sistemas de arquivos disponíveis pela rede de computadores". De acordo com a teoria estudada em *1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido*, microkernel: Apenas as funções mínimas rodam no Kernel (IPC, gerenciamento básico de memória e escalonador). Drivers, sistemas de arquivos e rede rodam como servidores no Modo Usuário (Ring 3). — Alta modularidade, isolamento de falhas e segurança robusta (se o driver de rede travar, ele é reiniciado sem derrubar o SO). — Queda de desempenho devido ao overhead constante de troca de contexto e IPC por passagem de mensagens entre processos de usuário. — Mach, Minix, QNX.
->
-> **Gabarito: D**
-
----
-
-### Teste 033
-**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
-O administrador do computador com o sistema operacional Linux SuSE deseja saber o espaço em disco utilizado por um certo usuário. Para obter essa informação, o comando mais adequado para ser utilizado pelo administrador é:
-
-* **A)** df.
-* **B)** usage.
-* **C)** ls.
-* **D)** utop.
-* **E)** du.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "df". De acordo com a teoria estudada em *3.4 Swapping e Hiperpaginação (Thrashing)*, hiperpaginação ( Thrashing ): Ocorre quando o sistema passa substancialmente mais tempo realizando operações de I/O de leitura e escrita de páginas no disco do que executando instruções úteis dos programas. Decorre de uma sobrecarga onde a soma dos conjuntos de trabalho ( working sets ) dos processos ativos supera a capacidade física da memória RAM.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "usage". De acordo com a teoria estudada em *1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido*, monolítico: Todos os serviços essenciais (escalonador, memória, sistemas de arquivos, drivers de dispositivos) rodam no mesmo espaço de memória do Kernel (Ring 0). — Máximo desempenho em chamadas e trocas de mensagens (comunicação direta por ponteiros e funções). — Um bug em um driver de dispositivo ou módulo pode derrubar o sistema inteiro ( Kernel Panic ). — Linux, Unix tradicional, FreeBSD.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Modos de Operação do Processador (User Mode vs. Kernel Mode)* deste guia, o Sistema Operacional atua como intermediário entre o hardware físico e os softwares aplicativos do usuário. Para assegurar integridade, estabilidade e isolamento de segurança, os processadores modernos utilizam anéis de proteção ( Protection Rings ). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "ls".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "utop". De acordo com a teoria estudada em *1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)*, para solicitar serviços privilegiados do hardware (leitura de disco, envio de pacotes pela placa de rede, criação de novos processos), o processo de usuário deve invocar uma Chamada de Sistema ( System Call / Syscall ).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "du". De acordo com a teoria estudada em *6.3 Políticas de Execução de Scripts (ExecutionPolicy)*, a política de execução do PowerShell NÃO é um mecanismo de segurança perimetral! Trata se de uma salvaguarda operacional contra execução acidental de scripts. Um usuário comum pode contorná la facilmente adicionando o parâmetro ExecutionPolicy Bypass ao invocar o executável do PowerShell.
->
-> **Gabarito: C**
-
----
-
-### Teste 034
-**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
-Dentre os diferentes sistemas de arquivos compatíveis com os sistemas operacionais Linux, o que apresenta a característica de ser nativamente especificado para o uso em rede de computadores é o
-
-* **A)** Ext3.
-* **B)** NTFS.
-* **C)** SMB.
-* **D)** LDAP.
-* **E)** NFS.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)* deste guia, cruzamento de Partições: NÃO pode cruzar partições ou sistemas de arquivos diferentes (inodes colidiriam). — SIM, pode cruzar discos, partições e pontos de montagem livremente. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "Ext3".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "NTFS". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, linux ext4: Sistema de arquivos padrão na maioria das distribuições Linux. Suporta journaling (diário de transações que previne corrupção de metadados em quedas de energia) com três modos ( journal , ordered , writeback ), alocação por extensões ( extents ) e volumes de até 1 Exabyte.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SMB". De acordo com a teoria estudada em *1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido*, microkernel: Apenas as funções mínimas rodam no Kernel (IPC, gerenciamento básico de memória e escalonador). Drivers, sistemas de arquivos e rede rodam como servidores no Modo Usuário (Ring 3). — Alta modularidade, isolamento de falhas e segurança robusta (se o driver de rede travar, ele é reiniciado sem derrubar o SO). — Queda de desempenho devido ao overhead constante de troca de contexto e IPC por passagem de mensagens entre processos de usuário. — Mach, Minix, QNX.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "LDAP". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, tANENBAUM, Andrew S.; BOS, Herbert. Sistemas Operacionais Modernos. 4. ed. São Paulo: Pearson Education do Brasil, 2016. (Cap. 2 Processos e Threads; Cap. 3 Gerenciamento de Memória; Cap. 10 Estudo de Caso 1: Linux; Cap. 11 Estudo de Caso 2: Windows).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "NFS". De acordo com a teoria estudada em *1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido*, monolítico: Todos os serviços essenciais (escalonador, memória, sistemas de arquivos, drivers de dispositivos) rodam no mesmo espaço de memória do Kernel (Ring 0). — Máximo desempenho em chamadas e trocas de mensagens (comunicação direta por ponteiros e funções). — Um bug em um driver de dispositivo ou módulo pode derrubar o sistema inteiro ( Kernel Panic ). — Linux, Unix tradicional, FreeBSD.
->
-> **Gabarito: A**
-
----
-
-### Teste 035
-**(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-A estrutura de diretórios do sistema operacional Linux possui uma organização padronizada e adotada por todas as distribuições. Considerando que um novo usuário de nome superior seja criado no Linux, o diretório do usuário será criado em:
-
-* **A)** qualquer usuário pode ler o arquivo abcd.
-* **B)** somente abcd pode executar o arquivo efgh.
-* **C)** efgh pode ler e escrever o arquivo abcd.
-* **D)** somente abcd pode ler o arquivo efgh.
-* **E)** qualquer usuário pode acessar o arquivo efgh.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "qualquer usuário pode ler o arquivo abcd". De acordo com a teoria estudada em *2.5 Sincronização e Concorrência: Mutex vs. Semáforos*, o Semáforo é uma variável inteira atômica sem conceito de posse: qualquer processo ou thread pode executar a operação signal() / post() para incrementar o contador, prestando se tanto à exclusão mútua (semáforo binário) quanto à sinalização e sincronização de eventos entre processos.
-> - **B)** **Correta.** Conforme fundamentado na seção *4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena* deste guia, o nome do arquivo e o número do seu inode ficam armazenados nos blocos de dados do diretório pai (estrutura dentry ), e não dentro do próprio inode. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 16ª/2014) ao estabelecer que "somente abcd pode executar o arquivo efgh".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "efgh pode ler e escrever o arquivo abcd". De acordo com a teoria estudada em *2.2 Ciclo de Vida e Estados de um Processo*, bloqueado / Espera ( Waiting / Blocked ): O processo não pode executar porque aguarda a conclusão de uma operação externa de Entrada/Saída (leitura de disco, teclado) ou a liberação de um lock de sincronização.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente abcd pode ler o arquivo efgh". De acordo com a teoria estudada em *4.2 Links no Linux: Hard Link vs. Symbolic Link (Soft Link)*, número de Inode: Aponta diretamente para o mesmo número de Inode do arquivo original. — Possui um novo Inode próprio do tipo l , contendo o caminho textual de destino.
-> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "qualquer usuário pode acessar o arquivo efgh". De acordo com a teoria estudada em *6.3 Políticas de Execução de Scripts (ExecutionPolicy)*, a política de execução do PowerShell NÃO é um mecanismo de segurança perimetral! Trata se de uma salvaguarda operacional contra execução acidental de scripts. Um usuário comum pode contorná la facilmente adicionando o parâmetro ExecutionPolicy Bypass ao invocar o executável do PowerShell.
->
-> **Gabarito: B**
-
----
-
-### Teste 036
-**(FCC – TRT 2ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-Considere os seguintes fatores sobre o sistema de arquivos EXT4 no Linux: I. O tamanho máximo deste sistema de arquivos é 1EB (exabyte), também suporta arquivos com 16TB (terabytes). II. Diretórios podem conter, no máximo, 128.000 subdiretórios, (contrastando com um máximo de 64.000 no ext3). III. Não é possível efetuar a montagem de um sistema de arquivos EXT3 existente como sendo um EXT4 sem efetuar seu upgrade. Isto se deve aos diferentes tipos de journaling. IV. Neste sistema de arquivos é possível desligar a funcionalidade journaling. Está correto o que consta APENAS em
-
-* **A)** leitura para o proprietário do arquivo.
-* **B)** execução para usuários que não pertençam ao grupo deste arquivo.
-* **C)** escrita, tanto para o proprietário do arquivo, quanto para usuários que não pertençam ao grupo deste arquivo.
-* **D)** escrita e execução para os usuários que pertençam ao grupo deste arquivo.
-* **E)** leitura e execução para o proprietário do arquivo.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "leitura para o proprietário do arquivo". De acordo com a teoria estudada em *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)*, linux ext4: Sistema de arquivos padrão na maioria das distribuições Linux. Suporta journaling (diário de transações que previne corrupção de metadados em quedas de energia) com três modos ( journal , ordered , writeback ), alocação por extensões ( extents ) e volumes de até 1 Exabyte.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "execução para usuários que não pertençam ao grupo deste arquivo". De acordo com a teoria estudada em *Permissões Especiais:*, sUID ( Set User ID 4000 / rwsr xr x ): Executa o programa com os privilégios do proprietário do arquivo, e não de quem o chamou (ex.: /usr/bin/passwd ).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "escrita, tanto para o proprietário do arquivo, quanto para usuários que não pertençam ao grupo deste arquivo". De acordo com a teoria estudada em *2.5 Sincronização e Concorrência: Mutex vs. Semáforos*, o Semáforo é uma variável inteira atômica sem conceito de posse: qualquer processo ou thread pode executar a operação signal() / post() para incrementar o contador, prestando se tanto à exclusão mútua (semáforo binário) quanto à sinalização e sincronização de eventos entre processos.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "escrita e execução para os usuários que pertençam ao grupo deste arquivo". De acordo com a teoria estudada em *3.4 Swapping e Hiperpaginação (Thrashing)*, hiperpaginação ( Thrashing ): Ocorre quando o sistema passa substancialmente mais tempo realizando operações de I/O de leitura e escrita de páginas no disco do que executando instruções úteis dos programas. Decorre de uma sobrecarga onde a soma dos conjuntos de trabalho ( working sets ) dos processos ativos supera a capacidade física da memória RAM.
-> - **E)** **Correta.** Conforme fundamentado na seção *4.3 Sistemas de Arquivos Linux (ext4, XFS) e Windows (NTFS, FAT32)* deste guia, windows NTFS ( New Technology File System ): Padrão do Windows corporativo. Suporta listas de controle de acesso (ACLs DACL e SACL), journaling via Master File Table (MFT), cotas de disco, compressão nativa de arquivos e criptografia no nível de arquivo via EFS ( Encrypting File System ). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 2ª/2014) ao estabelecer que "leitura e execução para o proprietário do arquivo".
->
-> **Gabarito: E**
-
----
-
-### Teste 037
-**(FCC – TRT 3ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
-O comando rpm do sistema operacional Linux Red Hat é utilizado para gerenciar os pacotes em formato RPM. Para instalar uma versão mais nova de um programa em RPM já instalado, o comando rpm deve ser executado com o parâmetro
-
-* **A)** -A
-* **B)** -n
-* **C)** -e
-* **D)** -U
-* **E)** -V
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A". De acordo com a teoria estudada em *6.3 Políticas de Execução de Scripts (ExecutionPolicy)*, a política de execução do PowerShell NÃO é um mecanismo de segurança perimetral! Trata se de uma salvaguarda operacional contra execução acidental de scripts. Um usuário comum pode contorná la facilmente adicionando o parâmetro ExecutionPolicy Bypass ao invocar o executável do PowerShell.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "n". De acordo com a teoria estudada em *1.1 Modos de Operação do Processador (User Mode vs. Kernel Mode)*, o Sistema Operacional atua como intermediário entre o hardware físico e os softwares aplicativos do usuário. Para assegurar integridade, estabilidade e isolamento de segurança, os processadores modernos utilizam anéis de proteção ( Protection Rings ).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "e". De acordo com a teoria estudada em *3.4 Swapping e Hiperpaginação (Thrashing)*, hiperpaginação ( Thrashing ): Ocorre quando o sistema passa substancialmente mais tempo realizando operações de I/O de leitura e escrita de páginas no disco do que executando instruções úteis dos programas. Decorre de uma sobrecarga onde a soma dos conjuntos de trabalho ( working sets ) dos processos ativos supera a capacidade física da memória RAM.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)* deste guia, para solicitar serviços privilegiados do hardware (leitura de disco, envio de pacotes pela placa de rede, criação de novos processos), o processo de usuário deve invocar uma Chamada de Sistema ( System Call / Syscall ). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 3ª/2015) ao estabelecer que "U".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V". De acordo com a teoria estudada em *1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)*, lib App: Retorna controle à execução do programa.
->
-> **Gabarito: D**
-
----
-
-### Teste 038
-**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
-A possibilidade de compartilhar arquivos entre diferentes sistemas operacionais é fundamental para aumentar a produtividade computacional. A montagem automática de uma partição com sistema de arquivos CIFS, durante o boot do servidor com sistema operacional Linux, deve ser configurada no arquivo
-
-* **A)** ficará oculto para os outros usuários.
-* **B)** poderá ser modificado e eliminado pelos usuários do grupo.
-* **C)** poderá ser executado pelo usuário que o criou.
-* **D)** poderá ser modificado pelo usuário que o criou.
-* **E)** ficará oculto para os usuários do grupo.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *Permissões Especiais:* deste guia, sticky Bit (1000 / rwxrwxrwt ): Aplicado a diretórios públicos (como /tmp ). Impede que um usuário exclua ou renomeie arquivos pertencentes a outros usuários, mesmo com permissão $777$. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "ficará oculto para os outros usuários".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "poderá ser modificado e eliminado pelos usuários do grupo". De acordo com a teoria estudada em *3.2 Paginação: Páginas, Molduras (Frames), Tabela de Páginas e TLB*, dirty Bit (Modificado): 1 indica que a página foi alterada desde que foi lida do disco e precisará ser gravada de volta antes de ser descartada.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "poderá ser executado pelo usuário que o criou". De acordo com a teoria estudada em *4.4 Permissões Octais (UGO) e Permissões Especiais (SUID, SGID, Sticky Bit)*, as permissões básicas dividem se em Usuário Dono ( u ), Grupo ( g ) e Outros ( o ).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "poderá ser modificado pelo usuário que o criou". De acordo com a teoria estudada em *5.2 Comandos Essenciais, Filtros e Redirecionamentos*, ps aux : Lista processos detalhados de todos os usuários ( a ), com usuário associado ( u ) e sem terminal ( x ).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ficará oculto para os usuários do grupo". De acordo com a teoria estudada em *4.4 Permissões Octais (UGO) e Permissões Especiais (SUID, SGID, Sticky Bit)*, $$\text{Exemplo: } 750 \implies \text{Dono: } 4+2+1=7\,(rwx); \quad \text{Grupo: } 4+0+1=5\,(r x); \quad \text{Outros: } 0\,( )$$.
->
-> **Gabarito: A**
-
----
-
-### Teste 039
-**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
-O usuário de um computador com sistema operacional Linux utilizou um terminal shell e executou o xcalc seguido da tecla Enter. Para suspender a execução do xcalc, deve-se, no terminal shell, pressionar simultaneamente as teclas
-
-* **A)** Alt+z.
-* **B)** Ctrl+z.
-* **C)** Alt+x.
-* **D)** Ctrl+x.
-* **E)** Alt+c.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Alt+z". De acordo com a teoria estudada em *1.1 Modos de Operação do Processador (User Mode vs. Kernel Mode)*, o Sistema Operacional atua como intermediário entre o hardware físico e os softwares aplicativos do usuário. Para assegurar integridade, estabilidade e isolamento de segurança, os processadores modernos utilizam anéis de proteção ( Protection Rings ).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)* deste guia, para solicitar serviços privilegiados do hardware (leitura de disco, envio de pacotes pela placa de rede, criação de novos processos), o processo de usuário deve invocar uma Chamada de Sistema ( System Call / Syscall ). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "Ctrl+z".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Alt+x". De acordo com a teoria estudada em *6.3 Políticas de Execução de Scripts (ExecutionPolicy)*, a política de execução do PowerShell NÃO é um mecanismo de segurança perimetral! Trata se de uma salvaguarda operacional contra execução acidental de scripts. Um usuário comum pode contorná la facilmente adicionando o parâmetro ExecutionPolicy Bypass ao invocar o executável do PowerShell.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ctrl+x". De acordo com a teoria estudada em *5.2 Comandos Essenciais, Filtros e Redirecionamentos*, ps aux : Lista processos detalhados de todos os usuários ( a ), com usuário associado ( u ) e sem terminal ( x ).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Alt+c". De acordo com a teoria estudada em *6.3 Políticas de Execução de Scripts (ExecutionPolicy)*, restricted : Não executa nenhum script; permite apenas comandos interativos digitados no terminal.
->
-> **Gabarito: B**
-
----
-
-### Teste 040
-**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
-O administrador de um computador com sistema operacional Linux deseja visualizar o estado das funções de rede de computadores. Executando o comando netstat, para visualizar a tabela de roteamento, deve-se utilizar a opção
-
-* **A)** -r
-* **B)** -l
-* **C)** -t
-* **D)** -i
-* **E)** -x
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)* deste guia, para solicitar serviços privilegiados do hardware (leitura de disco, envio de pacotes pela placa de rede, criação de novos processos), o processo de usuário deve invocar uma Chamada de Sistema ( System Call / Syscall ). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "r".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "l". De acordo com a teoria estudada em *1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido*, monolítico: Todos os serviços essenciais (escalonador, memória, sistemas de arquivos, drivers de dispositivos) rodam no mesmo espaço de memória do Kernel (Ring 0). — Máximo desempenho em chamadas e trocas de mensagens (comunicação direta por ponteiros e funções). — Um bug em um driver de dispositivo ou módulo pode derrubar o sistema inteiro ( Kernel Panic ). — Linux, Unix tradicional, FreeBSD.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "t". De acordo com a teoria estudada em *1.3 Tipos de Kernel: Monolítico, Microkernel e Híbrido*, microkernel: Apenas as funções mínimas rodam no Kernel (IPC, gerenciamento básico de memória e escalonador). Drivers, sistemas de arquivos e rede rodam como servidores no Modo Usuário (Ring 3). — Alta modularidade, isolamento de falhas e segurança robusta (se o driver de rede travar, ele é reiniciado sem derrubar o SO). — Queda de desempenho devido ao overhead constante de troca de contexto e IPC por passagem de mensagens entre processos de usuário. — Mach, Minix, QNX.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "i". De acordo com a teoria estudada em *1.1 Modos de Operação do Processador (User Mode vs. Kernel Mode)*, o Sistema Operacional atua como intermediário entre o hardware físico e os softwares aplicativos do usuário. Para assegurar integridade, estabilidade e isolamento de segurança, os processadores modernos utilizam anéis de proteção ( Protection Rings ).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "x". De acordo com a teoria estudada em *1.2 Chamadas de Sistema (Syscalls: fork, execve, mmap, kill)*, participant HW as "Hardware (Disco / Rede / MMU)".
->
-> **Gabarito: A**
-
----
-
-### Teste 041
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
-Após a detecção de um acesso indevido à base de dados de processos sigilosos, o Auditor de TI é convocado para realizar uma análise forense no servidor Linux comprometido. De acordo com o princípio da Ordem de Volatilidade, assinale a opção que deve ser capturada primeiramente, para preservar evidências que podem ser perdidas com o desligamento da máquina.
-
-* **A)** Arquivos de log de auditoria no disco rígido (SSD).
-* **B)** Conteúdo da memória RAM e tabelas de roteamento.
-* **C)** Cópias de segurança (backups) em fita magnética.
-* **D)** Registo de configurações da BIOS/UEFI.
-* **E)** Cablagem de rede e topologia física.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Arquivos de log de auditoria no disco rígido (SSD)". De acordo com a teoria estudada em *3.4 Swapping e Hiperpaginação (Thrashing)*, swapping: Movimentação de páginas ou de processos inteiros entre a memória RAM física e a partição/arquivo de troca no disco (Swap).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Modos de Operação do Processador (User Mode vs. Kernel Mode)* deste guia, o código do núcleo executa com privilégio irrestrito sobre o hardware, tabelas de memória e registradores de controle da CPU. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Conteúdo da memória RAM e tabelas de roteamento".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Cópias de segurança (backups) em fita magnética". De acordo com a teoria estudada em *2.3 PCB e o Custo da Troca de Contexto (Context Switch)*, altera tabelas de mapeamento de memória virtual na MMU.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Registo de configurações da BIOS/UEFI". De acordo com a teoria estudada em *3.4 Swapping e Hiperpaginação (Thrashing)*, hiperpaginação ( Thrashing ): Ocorre quando o sistema passa substancialmente mais tempo realizando operações de I/O de leitura e escrita de páginas no disco do que executando instruções úteis dos programas. Decorre de uma sobrecarga onde a soma dos conjuntos de trabalho ( working sets ) dos processos ativos supera a capacidade física da memória RAM.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Cablagem de rede e topologia física". De acordo com a teoria estudada em *3.1 Endereçamento Lógico vs. Físico e o Papel da MMU*, a Memória Virtual desvincula o espaço de endereçamento lógico manipulado pelo programa da memória RAM física real. Isso permite que um programa execute mesmo que seu tamanho ultrapasse a memória RAM disponível.
->
+> - **A)** Incorreta. O valor octal do SUID é **4** (ex.: 4755), enquanto o valor octal do Sticky Bit é **1**.
+> - **B)** **CORRETA.** Aplicação canônica das **Permissões Especiais no Linux**:
+>   - **Sticky Bit (Bit 1000 em octal):** Quando aplicado a um diretório (como `/tmp` ou pastas compartilhadas de trabalho), restringe a **exclusão e renomeação de arquivos**. Mesmo que a pasta tenha permissão de escrita de grupo (`770`), um membro do grupo NÃO pode deletar arquivos de outro membro; apenas o **dono do arquivo** e o **root** podem remover o item. Representado por `t` (ou `T` se não houver permissão `x`).
+>   - **SGID (Bit 2000 em octal):** Em arquivos executáveis, executa com os privilégios do grupo do arquivo; em diretórios, faz com que novos arquivos criados herdem o grupo do diretório pai.
+>   - **SUID (Bit 4000 em octal):** Em arquivos executáveis binários (como `/usr/bin/passwd`), faz com que o executável rode com os privilégios do proprietário do arquivo (`root`).
+> - **C)** Incorreta. O diretório continua visível e acessível aos usuários autorizados.
+> - **D)** Incorreta. Essa é a função do **SGID em diretórios** (bit 2000), e não do Sticky Bit.
+> - **E)** Incorreta. O último dígito `0` proíbe expressamente qualquer permissão para *others* (`---`).
+> 
 > **Gabarito: B**
 
 ---
@@ -1259,45 +560,68 @@ O **systemd** é o sistema de inicialização padrão do Linux moderno:
 
 ---
 
-### Teste 042
-**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia Da Informacao)**
-A analista Fabiana está realizando configurações avançadas em uma estação de trabalho Windows. Em determinado momento, Fabiana precisou listar as variáveis de ambiente em um terminal Powershell. A analista não utilizou nenhum alias ou versão alternativa dos comandos básicos do Powershell. Para listar as variáveis de ambiente em um terminal Powershell, Fabiana executou o comando:
+### Teste 418
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere um servidor Linux em ambiente de produção onde um analista precisa configurar os privilégios de acesso de um script administrativo crítico denominado `rotina_backup.sh`. Os requisitos de conformidade determinam que:
 
-* **A)** Set
-* **B)** Env
-* **C)** Echo $Env
-* **D)** Get-ChildItem Env:
-* **E)** Get-ChildItem $Env
+- O proprietário do arquivo tenha permissão total de leitura, escrita e execução;
+- Os membros do grupo associado ao arquivo tenham apenas permissão de leitura e execução;
+- Usuários externos e não autorizados (outros) não tenham qualquer privilégio de acesso (nem leitura, nem escrita, nem execução).
 
----
+Adicionalmente, em uma sessão de monitoramento, o analista identificou um processo zumbi travado em loop fechado consumindo 100% de CPU com o identificador de processo PID 8192. Para mitigar o incidente, ele precisa emitir uma ordem de encerramento forçado que seja processada diretamente pelo núcleo do sistema operacional, sem que a aplicação tenha a faculdade de interceptar, bloquear ou postergar a terminação.
 
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Set". De acordo com a teoria estudada em *6.2 Cmdlets Essenciais de Administração e Filtragem*, get Service : Recupera a coleção de serviços do Windows.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Env". De acordo com a teoria estudada em *6.3 Políticas de Execução de Scripts (ExecutionPolicy)*, restricted : Não executa nenhum script; permite apenas comandos interativos digitados no terminal.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Echo $Env". De acordo com a teoria estudada em *6.2 Cmdlets Essenciais de Administração e Filtragem*, get Service | Where Object { $ .Status eq 'Running' }.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Get ChildItem Env". De acordo com a teoria estudada em *6.2 Cmdlets Essenciais de Administração e Filtragem*, get Service | Select Object Property Name, DisplayName.
-> - **E)** **Correta.** Conforme fundamentado na seção *6.1 Paradigma do PowerShell: Pipeline Baseado em Objetos .NET* deste guia, a2["Get Process"] "Coleção de Objetos .NET (System.Diagnostics.Process)" B2["Where Object / Select Object"] "Objetos tipados estruturados" C2["Format / Export / Ação"]. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "Get ChildItem $Env".
->
-> **Gabarito: E**
+Assinale a alternativa que indica, correta e respectivamente, o comando para atribuir as permissões em notação octal e a linha de comando para a finalização compulsória do processo:
 
----
+* **A)** `chmod 750 rotina_backup.sh` e `kill -15 8192`
+* **B)** `chmod 750 rotina_backup.sh` e `kill -9 8192`
+* **C)** `chmod 754 rotina_backup.sh` e `kill -9 8192`
+* **D)** `chmod 650 rotina_backup.sh` e `kill -KILL 8192`
+* **E)** `chmod 755 rotina_backup.sh` e `kill -STOP 8192`
 
-### Teste 043
-**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
-O seguinte script Powershell lista todos os diretórios e arquivos do driver C. Get-ChildItem C:\ -Recurse
-
-* **C)** Certo
-* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O seguinte script Powershell lista todos os diretórios e arquivos do driver C. Get ChildItem C:\ Recurse". De acordo com a teoria em *6.1 Paradigma do PowerShell: Pipeline Baseado em Objetos .NET*, a2["Get Process"] "Coleção de Objetos .NET (System.Diagnostics.Process)" B2["Where Object / Select Object"] "Objetos tipados estruturados" C2["Format / Export / Ação"].
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+> - **A)** Incorreta. O comando `kill -15` envia o sinal `SIGTERM`, que pode ser interceptado, tratado ou ignorado pela aplicação, violando a exigência de finalização compulsória imediata.
+> - **B)** Correta. A permissão octal `750` concede `rwx` (7) para o Dono, `r-x` (5) para o Grupo e `---` (0) para Outros. O comando `kill -9` (`SIGKILL`) é processado diretamente pelo kernel sem possibilidade de interceptação pelo processo.
+> - **C)** Incorreta. A máscara `754` concede permissão de leitura (4) para a classe Outros.
+> - **D)** Incorreta. A máscara `650` não concede direito de execução (1) para o dono do arquivo ($4+2=6$, resultando em `rw-`).
+> - **E)** Incorreta. Concede leitura e execução para Outros (`755`) e `kill -STOP` apenas congela temporariamente o processo, sem terminá-lo.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 419
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O `systemd` consolidou-se como o sistema de inicialização (*init system*) e gerenciador de serviços padrão na esmagadora maioria das distribuições Linux empresariais modernas (RHEL, Debian, Ubuntu, Rocky Linux).
+
+Para administrar serviços de rede (como o servidor web Apache/Nginx ou PostgreSQL) e inspecionar logs centralizados de auditoria no terminal Linux, os utilitários de linha de comando padronizados do `systemd` e seus respectivos comandos são:
+
+* **A)** `service start apache` e `cat /var/log/messages` exclusivamente.
+* **B)** O comando `systemctl` para gerenciar unidades de serviço (ex.: `systemctl start`, `systemctl enable` para inicialização automática no boot, e `systemctl status`); e o comando `journalctl` para consultar e filtrar os registros do diário estruturado indexado do systemd (ex.: `journalctl -u nome_servico -f` para seguir logs em tempo real).
+* **C)** O comando `killall -9 kernel` para atualizar os serviços em produção.
+* **D)** O systemd foi descontinuado do Linux e substituído pelo MS-DOS em 2023.
+* **E)** Todos os serviços do systemd rodam sem arquivos de configuração em disco, dependendo de comandos de áudio no microfone. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+
+
+---
+
+> **Comentário Detalhado:**
 >
-> **Gabarito: E**
+> - **A)** Incorreta. O comando `service` é um script legado mantido apenas por compatibilidade com o antigo System V init; o padrão arquitetural nativo é o `systemctl`.
+> - **B)** **CORRETA.** Os dois comandos fundamentais do ecossistema **systemd**:
+>   1. **systemctl:** Gerencia o ciclo de vida das *Units* (serviços `.service`, montagens `.mount`, sockets `.socket`).
+>      - `systemctl start servico`: Inicia o serviço na sessão corrente.
+>      - `systemctl enable servico`: Cria os links simbólicos necessários para que o serviço seja iniciado automaticamente no boot da máquina.
+>      - `systemctl status servico`: Exibe o estado de execução (ativo, falho), PID e últimas linhas de log.
+>   2. **journalctl:** Interface de consulta ao *systemd-journald*. Coleta logs estruturados de boot, kernel e serviços em formato binário indexado, permitindo buscas filtradas eficientes por unidade (`-u servico`), por severidade (`-p err`) e em tempo real (*follow* `-f`).
+> - **C)** Incorreta. Matar o processo do kernel causaria *Kernel Panic* imediato na máquina.
+> - **D)** Incorreta. O systemd é o padrão absoluto e ativo do Linux empresarial moderno.
+> - **E)** Incorreta. O systemd utiliza arquivos declarativos de configuração de unidade (*unit files*) armazenados em `/etc/systemd/system/` e `/lib/systemd/system/`.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -1348,6 +672,33 @@ As políticas de execução controlam as condições para execução de scripts 
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A política de execução do PowerShell **NÃO é um mecanismo de segurança perimetral**! Trata-se de uma salvaguarda operacional contra execução acidental de scripts. Um usuário comum pode contorná-la facilmente adicionando o parâmetro `-ExecutionPolicy Bypass` ao invocar o executável do PowerShell.
+
+---
+
+### Teste 420
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No contexto de administração e automação de servidores Windows Server utilizando o Windows PowerShell, um administrador recebeu a demanda de auditar todos os serviços instalados cujo status operacional atual seja `Running`, extraindo um relatório contendo estritamente as propriedades relativas ao nome de sistema do serviço (`Name`) e seu nome legível para exibição (`DisplayName`).
+
+Considerando a arquitetura interna do PowerShell, baseada na manipulação de coleções de objetos .NET estruturados ao longo do pipeline, assinale a linha de comando canônica e correta para a execução dessa tarefa:
+
+* **A)** `Get-Service | grep "Running" | cut -d " " -f 1,2`
+* **B)** `Get-Service | Where-Object { $_.Status -eq 'Running' } | Select-Object -Property Name, DisplayName`
+* **C)** `Get-Process | Where-Object { $_.State == 'Running' } | Out-String -Columns Name, DisplayName`.
+* **D)** `List-Service -Filter "Running" | Format-Table Name, DisplayName`
+* **E)** `Get-Service | ForEach-Object { if ($_.State -eq 'Running') { Write-Host $_.Name } }`
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Utiliza utilitários de texto puro do ecossistema Unix (`grep` e `cut`), contrariando o pipeline baseado em objetos do PowerShell.
+> - **B)** Correta. O cmdlet `Get-Service` emite objetos .NET; `Where-Object` filtra os objetos com base na propriedade `Status` usando o operador de comparação `-eq`; e `Select-Object` projeta apenas as propriedades solicitadas (`Name`, `DisplayName`).
+> - **C)** Incorreta. Utiliza `Get-Process` (processos e não serviços), operador inválido no PowerShell (`==`) e propriedade inexistente (`State`).
+> - **D)** Incorreta. O cmdlet `List-Service` não existe na biblioteca nativa do PowerShell.
+> - **E)** Incorreta. A propriedade correta da classe é `Status` (e não `State`) e o comando não preserva a saída em pipeline estruturado.
+> 
+> **Gabarito: B**
 
 ---
 

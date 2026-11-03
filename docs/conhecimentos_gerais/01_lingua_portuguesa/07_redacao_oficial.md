@@ -5,7 +5,10 @@
 > **Arquivo:** `07_redacao_oficial.md`  
 > **Documento Base:** Manual de Redação da Presidência da República (MRPR - 3ª Edição, revista e atualizada) e Decreto Federal nº 9.758/2019
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Redação Oficial: definição, finalidade e fundamentos constitucionais (Art. 37 da CF/88);
@@ -26,18 +29,23 @@
     1. [Definição e Finalidade da Comunicação Pública](#11-definicao-e-finalidade-da-comunicacao-publica)
     2. [Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração](#12-fundamentos-constitucionais-o-artigo-37-da-cf88-e-os-principios-da-administracao)
     3. [Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019](#13-evolucao-normativa-o-mrpr-3a-edicao-e-o-decreto-federal-no-97582019)
+    4. [Teste 062](#Teste-062)
 2. [Atributos Fundamentais da Redação Oficial](#2-atributos-fundamentais-da-redacao-oficial)
     1. [Princípio da Impessoalidade e Seus Três Desdobramentos](#21-principio-da-impessoalidade-e-seus-tres-desdobramentos)
     2. [Clareza e Precisão Linguística](#22-clareza-e-precisao-linguistica)
     3. [Concisão Textual e Eliminação da Prolixidade](#23-concisao-textual-e-eliminacao-da-prolixidade)
     4. [Formalidade, Padronização e Tipografia](#24-formalidade-padronizacao-e-tipografia)
     5. [O Uso do Padrão Culto da Língua](#25-o-uso-do-padrao-culto-da-lingua)
+    6. [Teste 063](#Teste-063)
+    7. [Teste 064](#Teste-064)
 3. [Pronomes de Tratamento, Vocativos e Endereçamento](#3-pronomes-de-tratamento-vocativos-e-enderecamento)
     1. [Vossa Excelência vs. Vossa Senhoria: Tabela Completa de Aplicação](#31-vossa-excelencia-vs-vossa-senhoria-tabela-completa-de-aplicacao)
     2. [Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento](#32-regras-rigidas-de-concordancia-gramatical-com-pronomes-de-tratamento)
     3. [Sistema de Vocativos: A Distinção entre Chefes de Poder e Demais Autoridades](#33-sistema-de-vocativos-a-distincao-entre-chefes-de-poder-e-demais-autoridades)
     4. [Endereçamento no Envelope e Regras Dêiticas: Vossa vs. Sua](#34-enderecamento-no-envelope-e-regras-deiticas-vossa-vs-sua)
     5. [Abolição de Fórmulas Laudatórias, Adulações e Arcaísmos](#35-abolicao-de-formulas-laudatorias-adulacoes-e-arcaismos)
+    6. [Teste 065](#Teste-065)
+    7. [Teste 066](#Teste-066)
 4. [O Padrão Ofício Unificado na 3ª Edição do MRPR](#4-o-padrao-oficio-unificado-na-3a-edicao-do-mrpr)
     1. [Unificação Formal: Extinção do Aviso e do Memorando](#41-unificacao-formal-extincao-do-aviso-e-do-memorando)
     2. [Partes Componentes e Diagramação Oficial do Ofício](#42-partes-componentes-e-diagramacao-oficial-do-oficio)
@@ -45,11 +53,16 @@
     4. [Regras de Numeração de Parágrafos](#44-regras-de-numeracao-de-paragrafos)
     5. [Identificação do Signatário e Vedação à Linha de Assinatura](#45-identificacao-do-signatario-e-vedacao-a-linha-de-assinatura)
     6. [O Sistema Binário de Fechos Regulamentares](#46-o-sistema-binario-de-fechos-regulamentares)
+    7. [Teste 067](#Teste-067)
+    8. [Teste 068](#Teste-068)
+    9. [Teste 069](#Teste-069)
 5. [Espécies Documentais e Comunicação Digital](#5-especies-documentais-e-comunicacao-digital)
     1. [O Correio Eletrônico Institucional (E-mail Público)](#51-o-correio-eletronico-institucional-e-mail-publico)
     2. [A Mensagem entre Chefes de Poder](#52-a-mensagem-entre-chefes-de-poder)
     3. [A Exposição de Motivos (EM)](#53-a-exposicao-de-motivos-em)
     4. [Atos Típicos dos Tribunais de Contas: Relatório Técnico, Parecer e Acórdão](#54-atos-tipicos-dos-tribunais-de-contas-relatorio-tecnico-parecer-e-acordao)
+    5. [Teste 070](#Teste-070)
+    6. [Teste 071](#Teste-071)
 6. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
@@ -78,51 +91,27 @@ O documento de referência primária no Brasil é o **Manual de Redação da Pre
 
 ---
 
-### Teste 001
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-O Manual de Redação da Presidência da República (2018) estabelece padrões para a produção de documentos oficiais, diferenciando-os conforme sua finalidade, seu destinatário e sua forma de circulação. Com base nesses padrões, assinale a afirmativa correta.
+### Teste 062
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Segundo as diretrizes consagradas pelo Manual de Redação da Presidência da República (3ª edição) e pelo ordenamento constitucional vigente (art. 37 da CF/88):
 
-* **A)** O memorando é o documento oficial adequado para a comunicação entre órgãos de diferentes esferas federativas, sendo vedado seu uso para comunicações internas de um mesmo órgão.
-* **B)** A ata é um documento de caráter normativo, utilizado para registrar decisões de caráter vinculante emanadas de autoridade competente.
-* **C)** O ofício é o documento oficial utilizado tanto para comunicações entre unidades de um mesmo órgão quanto para a comunicação com particulares e outros órgãos públicos.
-* **D)** O relatório tem como finalidade registrar, de forma sumária e cronológica, acontecimentos e deliberações ocorridos em reuniões ou assembleias.
-* **E)** A ata é o instrumento adequado para encaminhar documentos ou informações entre diferentes órgãos públicos, devendo conter identificação do remetente e do destinatário.
+* **A)** A redação oficial admite a inserção de impressões pessoais e juízos subjetivos do redator, desde que justificados pelo interesse público primário.
+* **B)** A impessoalidade da redação oficial desdobra-se em tríplice dimensão: impessoalidade do emissor (é o serviço público quem se manifesta, e não o servidor individualmente), impessoalidade do destinatário (o texto destina-se ao cidadão ou a outro órgão com tratamento uniforme e isonômico) e impessoalidade do assunto (trata-se estritamente do interesse público, sem paixões político-partidárias).
+* **C)** O Decreto Federal nº 9.758/2019 instituiu o uso obrigatório dos pronomes *Vossa Excelência* e *Ilustríssimo* em toda e qualquer comunicação direta com os cidadãos comuns.
+* **D)** A publicidade dos atos administrativos autoriza a utilização de gírias e jargões regionais nos expedientes oficiais visando aproximar o Estado das massas populares.
+* **E)** O princípio da eficiência desobriga os órgãos de controle externo de observar o padrão culto da língua portuguesa na elaboração de seus relatórios.
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O memorando é o documento oficial adequado para a comunicação entre órgãos de diferentes esferas federativas...". De acordo com a teoria estudada em *4.1 Unificação Formal: Extinção do Aviso e do Memorando*, a 3ª edição do MRPR promoveu uma revolução de simplificação: aboliu formalmente o Aviso e o Memorando, unificando todas as correspondências oficiais sob a designação única e abrangente de OFÍCIO. O ofício passou a ser o instrumento geral de comunicação tanto externa quanto interna.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A ata é um documento de caráter normativo, utilizado para registrar decisões de caráter vinculante emanadas de...". De acordo com a teoria estudada em *1.1 Definição e Finalidade da Comunicação Pública*, a redação oficial destina se a viabilizar a comunicação clara, transparente e juridicamente vinculante entre os órgãos da administração pública direta e indireta dos Poderes Executivo, Legislativo e Judiciário, bem como entre estes e os administrados em geral. Sua finalidade última é assegurar que a manifestação da vontade estatal seja plenamente compreensível a qualquer cidadão, afastando ambiguidades que possam comprometer a fruição de direitos ou a imposição de deveres.
-> - **C)** **Correta.** Conforme fundamentado na seção *4.1 Unificação Formal: Extinção do Aviso e do Memorando* deste guia, historicamente, a administração federal brasileira dividia suas correspondências formais entre três modalidades: o Ofício (comunicação externa com outros órgãos ou particulares), o Aviso (comunicação exclusiva expedida por Ministros de Estado para autoridades de idêntica hierarquia) e o Memorando (comunicação interna de caráter eminentemente intersetorial). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "O ofício é o documento oficial utilizado tanto para comunicações entre unidades de um mesmo órgão quanto para a...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O relatório tem como finalidade registrar, de forma sumária e cronológica, acontecimentos e deliberações ocorridos...". De acordo com a teoria estudada em *1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019*, o documento de referência primária no Brasil é o Manual de Redação da Presidência da República (MRPR), cuja 3ª edição (revista e atualizada em 2018) unificou expedientes históricos e aboliu formalismos estéreis. Complementarmente, o Decreto Federal nº 9.758/2019 consolidou o princípio da simplicidade e da moderação no tratamento dispensado aos agentes públicos, vedando o uso de pronomes honoríficos desproporcionais e simplificando o diálogo entre o Estado e a sociedade.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A ata é o instrumento adequado para encaminhar documentos ou informações entre diferentes órgãos públicos, devendo...". De acordo com a teoria estudada em *4.2 Partes Componentes e Diagramação Oficial do Ofício*, identificação do Expediente: Alinhado à margem esquerda, composto por tipo do documento, número, ano e sigla do órgão emissor ( Ofício 123/2026/GAB PRES/TCE GO ).
->
-> **Gabarito: C**
-
----
-
-### Teste 002
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-A tramitação de documentos oficiais envolve procedimentos que garantem o registro, o controle e o encaminhamento adequado das comunicações na Administração Pública, assegurando rastreabilidade e eficiência no fluxo de informações. Com base no Manual de Redação da Presidência da República (2018), assinale a afirmativa correta.
-
-* **A)** A numeração dos ofícios é facultativa e pode ser suprimida quando o documento se destinar a comunicações internas de baixa complexidade.
-* **B)** O registro e o controle da tramitação de documentos oficiais dispensam identificação do destinatário, desde que o assunto esteja claramente descrito no corpo do texto.
-* **C)** A identificação do signatário, o número do documento e o registro do assunto são elementos que contribuem para o controle e a rastreabilidade da tramitação dos expedientes oficiais.
-* **D)** A tramitação de documentos oficiais prescinde de registro formal quando realizada entre unidades de um mesmo órgão público.
-* **E)** O arquivamento dos documentos oficiais é uma etapa opcional do processo de tramitação, cabendo a cada unidade definir se adota ou não esse procedimento.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "A numeração dos ofícios é facultativa e pode ser suprimida quando o documento se destinar a comunicações internas...". De acordo com a teoria estudada em *🌐 Fontes Oficiais e Referências Bibliográficas*, bRASIL. Presidência da República. Casa Civil. Manual de Redação da Presidência da República. 3. ed. rev., atual. e ampl. Brasília: Presidência da República, 2018. (Cap. I a III As Comunicações Oficiais, Pronomes de Tratamento e O Padrão Ofício).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O registro e o controle da tramitação de documentos oficiais dispensam identificação do destinatário, desde que o...". De acordo com a teoria estudada em *4.2 Partes Componentes e Diagramação Oficial do Ofício*, identificação do Expediente: Alinhado à margem esquerda, composto por tipo do documento, número, ano e sigla do órgão emissor ( Ofício 123/2026/GAB PRES/TCE GO ).
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019* deste guia, o documento de referência primária no Brasil é o Manual de Redação da Presidência da República (MRPR), cuja 3ª edição (revista e atualizada em 2018) unificou expedientes históricos e aboliu formalismos estéreis. Complementarmente, o Decreto Federal nº 9.758/2019 consolidou o princípio da simplicidade e da moderação no tratamento dispensado aos agentes públicos, vedando o uso de pronomes honoríficos desproporcionais e simplificando o diálogo entre o Estado e a sociedade. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "A identificação do signatário, o número do documento e o registro do assunto são elementos que contribuem para o...".
-> - **D)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "A tramitação de documentos oficiais prescinde de registro formal quando realizada entre unidades de um mesmo órgão...". De acordo com a teoria estudada em *1.2 Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração*, eficiência: Impõe o dever de concisão, clareza e celeridade na tramitação e no entendimento das ordens e solicitações administrativas.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O arquivamento dos documentos oficiais é uma etapa opcional do processo de tramitação, cabendo a cada unidade...". De acordo com a teoria estudada em *Fundamentos Teóricos*, documento Base: Manual de Redação da Presidência da República (MRPR 3ª Edição, revista e atualizada) e Decreto Federal nº 9.758/2019.
+> - **A)** Incorreta. A redação oficial é rigorosamente impessoal e técnica; impressões ou opiniões subjetivas de foro íntimo do servidor são terminantemente vedadas pelo MRPR.
+> - **B)** Correta. O MRPR (3ª Ed., Cap. 1) explicita com precisão lapidar a tríplice acepção do princípio da impessoalidade na comunicação oficial: 1) Da posição de quem emite a comunicação (o Estado/Administração); 2) Do destinatário que a recebe (isonomia e uniformidade republicana); 3) Do assunto tratado (estrito interesse público, exposto de modo objetivo e isento).
+> - **C)** Incorreta. O Decreto nº 9.758/2019 extinguiu expressamente o uso de fórmulas laudatórias (*Digníssimo*, *Ilustríssimo*) e padronizou o tratamento geral no âmbito federal como *senhor* ou *senhora*.
+> - **D) e E)** Incorretas. O padrão culto da língua e a formalidade são atributos inegociáveis impostos pela Constituição e pelo MRPR para garantir a inteligibilidade e solenidade dos atos estatais.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
@@ -162,6 +151,56 @@ A concisão consiste em transmitir o máximo de conteúdo informativo útil com 
 ### 2.5 O Uso do Padrão Culto da Língua
 
 O emprego da norma-padrão da língua portuguesa decorre do fato de que a língua culta é a única variante linguística que desfruta de uniformidade nacional codificada pelas gramáticas e dicionários, estando imune às flutuações passageiras de gírias e regionalismos orais.
+
+---
+
+### Teste 063
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Assinale a alternativa que apresenta um trecho de correspondência oficial eivado de **vício de impessoalidade e prolixidade**, em desacordo com as diretrizes do Manual de Redação Oficial:
+
+* **A)** *"Comunico que a fiscalização das obras da rodovia estadual terá início na próxima segunda-feira, às nove horas."*
+* **B)** *"Tenho a imensa honra e o singular privilégio de levar ao vosso excelso conhecimento que meu humilde gabinete concluiu o trabalho."*
+* **C)** *"Encaminho, para ciência e deliberação, o relatório consolidado de auditoria financeira do exercício de 2025."*
+* **D)** *"Solicito a designação de dois servidores técnicos para compor a comissão de recebimento de materiais de tecnologia."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** *"Em cumprimento ao despacho da presidência, restituo os autos para adoção das providências cabíveis."*
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O trecho utiliza linguagem límpida, impessoal, técnica e concisa, perfeitamente adequada ao padrão oficial.
+> - **B)** Correta (apresenta vício grave). O fragmento transgride frontalmente os atributos da impessoalidade, sobriedade e concisão, recorrendo a rapapés bajuladores e expressões de subserviência (*"imensa honra"*, *"singular privilégio"*, *"vosso excelso conhecimento"*, *"meu humilde gabinete"*), formalmente banidas do serviço público republicano.
+> - **C)** Incorreta. Estrutura padrão límpida de encaminhamento oficial, sem qualquer vício de prolixidade.
+> - **D)** Incorreta. Redação direta e objetiva de solicitação administrativa.
+> - **E)** Incorreta. Frase escorreita e sóbria de movimentação processual.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 064
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Quanto à diagramação, tipografia e padrão gráfico dos expedientes oficiais prescritos na 3ª edição do Manual de Redação da Presidência da República:
+
+* **A)** É livre o emprego de qualquer fonte tipográfica decorativa no corpo do ofício, a critério discricionário do redator do documento.
+* **B)** O MRPR padronizou o uso obrigatório das fontes tipográficas *Calibri* ou *Carlito*, corpo 12 pontos no texto principal, com espaçamento simples entre linhas e parágrafos numerados sequencialmente a partir do segundo parágrafo.
+* **C)** O recuo de parágrafo deve ser de 5 centímetros a partir da margem esquerda da página.
+* **D)** A datação do expediente deve constar de forma centralizada e sem a indicação do local de emissão.
+* **E)** As margens do documento oficial são livres, permitindo-se a impressão rente às bordas da folha de papel.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O MRPR veda fontes decorativas ou estilizadas para preservar a padronização e a sobriedade dos atos públicos.
+> - **B)** Correta. A 3ª Edição do MRPR (Item 2.2) padronizou expressamente as famílias tipográficas *Calibri* ou *Carlito* (software livre equivalente): corpo 12 pt no texto em geral, 10 pt em citações longas e notas de rodapé, espaçamento entrelinhas simples e parágrafos numerados em algarismos arábicos a partir do segundo parágrafo (o 1º e o fecho não se numeram).
+> - **C)** Incorreta. O recuo padrão de início de parágrafo na margem esquerda é de **2,5 cm** (e não 5 cm).
+> - **D)** Incorreta. A datação é alinhada à direita e inicia-se obrigatoriamente pelo local de expedição seguido de vírgula (*Goiânia, 15 de março de 2026*).
+> - **E)** Incorreta. As margens são estritamente padronizadas: esquerda e superior de 3 cm; direita e inferior de 1,5 cm.
+>
+> **Gabarito: B**
 
 ---
 
@@ -241,6 +280,57 @@ O Manual de Redação da Presidência da República e o Decreto nº 9.758/2019 b
 
 ---
 
+### Teste 065
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No que concerne ao emprego de pronomes de tratamento e à concordância gramatical em documentos oficiais, assinale a opção que atende integralmente às normas do MRPR:
+
+* **A)** *"Informamos a Vossa Excelência que vossos pedidos foram acolhidos e solicitamos que compareçais à cerimônia de posse."*
+* **B)** *"Vossa Senhoria deveis encaminhar o demonstrativo contábil para que possamos analisar vosso relatório tempestivamente."*
+* **C)** *"Comunico a Vossa Excelência que sua solicitação foi deferida pelo plenário, estando o processo à sua disposição."*
+* **D)** *"Vossa Excelência será recebida pelo Presidente da República, o qual manifestou desejo de conhecer vossos projetos."*
+* **E)** *"Solicitamos a Vossa Excelência que vos digneis autorizar o empenho das despesas em vosso orçamento."*
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **Regra Geral:** Os pronomes de tratamento referem-se à 2ª pessoa gramatical (com quem se fala), porém exigem que **toda a concordância gramatical de verbos e pronomes seja efetuada compulsoriamente em 3ª pessoa** (*ele/ela, seu, sua, seus, suas*). O uso de verbos ou pronomes em 2ª pessoa do plural (*vós, vosso, compareçais*) é erro gramatical manifesto.
+> - **A)** Incorreta. Incorreu em erro ao empregar o pronome possessivo *vossos* e a forma verbal *compareçais* em 2ª pessoa do plural.
+> - **B)** Incorreta. Cometeu o vício de empregar a forma verbal *deveis* e o possessivo *vosso*.
+> - **C)** Correta. A oração flexiona os verbos (*foi deferida*) e os pronomes possessivos (*sua solicitação*, *à sua disposição*) perfeitamente em 3ª pessoa do singular, em estrita harmonia com o pronome de tratamento *Vossa Excelência*.
+> - **D)** Incorreta. Erra ao empregar o pronome possessivo de 2ª pessoa do plural *vossos projetos*.
+> - **E)** Incorreta. Emprega a flexão arcaica em 2ª pessoa *vos digneis* e *vosso orçamento*.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 066
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O Presidente do Tribunal de Contas do Estado de Goiás necessita encaminhar expediente oficial ao Governador do Estado e, simultaneamente, outro expediente ao Diretor de Escola Pública Estadual. De acordo com a 3ª edição do Manual de Redação da Presidência da República (MRPR), os vocativos e fechos adequados para cada uma dessas comunicações são, respectivamente:
+
+* **A)** Para o Governador: *"Excelentíssimo Senhor Governador,"* / *"Respeitosamente,"*; Para o Diretor: *"Ilustríssimo Senhor Diretor,"* / *"Cordialmente,"*.
+* **B)** Para o Governador: *"Senhor Governador,"* / *"Atenciosamente,"*; Para o Diretor: *"Senhor Diretor,"* / *"Atenciosamente,"*.
+* **C)** Para o Governador: *"Excelentíssimo Senhor Governador,"* / *"Atenciosamente,"*; Para o Diretor: *"Senhor Diretor,"* / *"Respeitosamente,"*.
+* **D)** Para o Governador: *"Senhor Governador,"* / *"Cordialmente,"*; Para o Diretor: *"Digníssimo Diretor,"* / *"Sem mais para o momento,"*.
+* **E)** Para o Governador: *"Ilustríssimo Senhor Governador,"* / *"Respeitosamente,"*; Para o Diretor: *"Prezado Senhor Diretor,"* / *"Atenciosamente,"*.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Erra ao empregar o vocativo cerimonial *Excelentíssimo Senhor* para Governador de Estado (exclusivo para Chefes dos Poderes da União: PR, CN e STF); além disso, traz termos abolidos no expediente do Diretor (*Ilustríssimo* e *Cordialmente*).
+> - **B)** Correta. De acordo com a 3ª edição do MRPR: 1) O vocativo para Governadores de Estado é **"Senhor Governador,"**; 2) Na relação institucional entre o Presidente de uma Corte de Contas autônoma e o Chefe do Poder Executivo estadual, aplica-se o fecho para autoridades de mesma dignidade institucional/hierarquia: **"Atenciosamente,"**; 3) O vocativo para Diretor é **"Senhor Diretor,"** e o fecho para autoridade hierarquicamente subordinada/inferior é compulsoriamente **"Atenciosamente,"**. A assertiva B é a única plenamente conforme ao manual.
+> - **C)** Incorreta. Erra no vocativo do Governador (*Excelentíssimo*) e inverte os fechos ao utilizar *Respeitosamente* para o Diretor.
+> - **D)** Incorreta. Utiliza fórmulas repudiadas pelo padrão oficial (*Cordialmente* e a expressão arcaica *Sem mais para o momento*).
+> - **E)** Incorreta. Emprega os termos vedados *Ilustríssimo* e *Prezado*.
+> 
+> **Gabarito: B**
+
+---
+
 ## 4. O Padrão Ofício Unificado na 3ª Edição do MRPR
 
 ### 4.1 Unificação Formal: Extinção do Aviso e do Memorando
@@ -308,6 +398,98 @@ flowchart TD
 
 ---
 
+### Teste 067
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da padronização de expedientes oficiais segundo a 3ª edição do Manual de Redação da Presidência da República, considere as afirmações:  
+
+I. As comunicações oficiais internas entre diretorias e gerências de um mesmo órgão público devem ser redigidas sob a denominação de *Memorando*.  
+
+II. O *Aviso* é espécie documental privativa utilizada para envio de correspondências por Ministros de Estado a particulares.  
+
+III. Os antigos expedientes denominados *Aviso* e *Memorando* deixaram de existir como tipos autônomos, tendo sido absorvidos pelo *Padrão Ofício*.  
+
+IV. O fecho *"Respeitosamente,"* deve ser empregado em comunicações endereçadas a autoridades de hierarquia superior à do emissor.  
+
+Está correto o que se afirma em:
+
+* **A)** I e II, apenas.
+* **B)** III e IV, apenas.
+* **C)** I, III e IV, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II, III e IV.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Os itens I e II são falsos, pois *Aviso* e *Memorando* deixaram de existir como espécies documentais autônomas no MRPR (3ª edição).
+> - **B) CORRETA.** Estão corretos os itens III (o *Padrão Ofício* unificou aviso, ofício e memorando) e IV (o fecho *Respeitosamente* destina-se a autoridades de hierarquia superior).
+> - **C) Incorreta.** Inclui o item I, que contraria a unificação documental do Manual de Redação.
+> - **D) Incorreta.** Inclui o item II, que prescreve padrão extinto de comunicação ministerial.
+> - **E) Incorreta.** Julga verdadeiros os itens I e II, expressamente revogados.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 068
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Quanto à estrutura física e à diagramação padrão do **Ofício** prescritas na 3ª edição do MRPR:
+
+* **A)** A fonte tipográfica padrão recomendada para o texto é Comic Sans ou Arial Black, tamanho 14.
+* **B)** O cabeçalho contendo o Brasão de Armas da República deve ser impresso em todas as páginas do documento, inclusive nas folhas de continuação.
+* **C)** A identificação do signatário deve conter seu nome em negrito e o cargo logo abaixo, sem linha sobreposta para assinatura.
+* **D)** Todos os parágrafos do texto devem ser numerados em algarismos romanos, a começar pelo primeiro.
+* **E)** O local e a data devem ser alinhados à margem esquerda, com o mês grafado de forma numérica abreviada.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. As fontes tipográficas oficiais padronizadas pelo MRPR são **Calibri** ou **Carlito**, corpo 12 para o corpo do texto e corpo 9 para citações destacadas e notas de rodapé.
+> - **B)** Incorreta. O cabeçalho com o Brasão das Armas é impresso **exclusivamente na primeira página** do expediente; as páginas seguintes contêm apenas o número de página no cabeçalho secundário.
+> - **C)** Correta. De acordo com o MRPR (3ª edição), a identificação do signatário compõe-se do **nome da autoridade** (em letras maiúsculas e negrito) e da **designação de seu cargo** logo abaixo. É formalmente **dispensada e proibida a inserção de linha tracejada sobreposta** para aposição da assinatura, assinando-se diretamente sobre o nome digitado.
+> - **D)** Incorreta. A numeração de parágrafos é em **algarismos arábicos** e aplica-se **apenas a partir do segundo parágrafo** (o primeiro parágrafo nunca recebe número).
+> - **E)** Incorreta. O local e a data são alinhados à **margem direita** da página, com o mês obrigatoriamente escrito por extenso e em letras minúsculas (*Goiânia, 10 de maio de 2026.*).
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 069
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere as seguintes afirmações sobre a assinatura e os fechos nos expedientes oficiais segundo o Manual de Redação da Presidência da República:  
+
+I. *O MRPR estabelece um sistema binário de fechos: "Respeitosamente", para autoridades de hierarquia superior à do signatário (inclusive o Presidente da República); e "Atenciosamente", para autoridades de mesma hierarquia, de hierarquia inferior ou para particulares.*  
+II. *A identificação do signatário deve ser precedida de um traço ou linha horizontal de assinatura de 5 centímetros para orientar a firma.*  
+III. *Na identificação do signatário, constam centralizados o nome do signatário em letras maiúsculas e, na linha imediatamente inferior, o cargo que ocupa, sem linha de assinatura.*  
+
+Está correto o que se afirma em:
+
+* **A)** I, apenas.
+* **B)** I e III, apenas.
+* **C)** II, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **Item I:** Correto. A 3ª Edição do MRPR consagrou expressamente a simplificação binária dos fechos regulamentares: apenas dois fechos são admitidos em toda a correspondência oficial da administração pública:  
+>   - **Respeitosamente:** para autoridades superiores à do remetente (inclusive chefes de Poder);  
+>   - **Atenciosamente:** para autoridades de mesma hierarquia, hierarquia inferior ou para o público em geral.
+> - **Item II:** Incorreto. O MRPR veda expressamente o antigo uso de traço ou linha sublinhada sobre o qual se assinava (*"não deve haver linha de assinatura"*).
+> - **Item III:** Correto. Abaixo do fecho, reserva-se espaço para a assinatura (manual ou digital certificada) e, logo abaixo, sem qualquer traço, constam o nome da autoridade signatária (em maiúsculas) e o cargo em caixa-baixa.
+> - **Conclusão:** Estão corretos os itens I e III.
+>
+> **Gabarito: B**
+
+---
+
 ## 5. Espécies Documentais e Comunicação Digital
 
 ### 5.1 O Correio Eletrônico Institucional (E-mail Público)
@@ -342,6 +524,61 @@ No âmbito do controle externo, a produção textual desdobra-se em espécies es
 * **Instrução Técnica:** Peça processual intermediária que examina as defesas apresentadas pelos jurisdicionados;
 * **Parecer do Ministério Público de Contas:** Manifestação jurídica conclusiva do Procurador de Contas opinando pela regularidade, regularidade com ressalva ou irregularidade das contas;
 * **Acórdão:** Decisão colegiada formal deliberada pelo Tribunal Pleno ou pelas Câmaras julgadoras do Tribunal de Contas, dotada de força vinculante e eficácia de título executivo extrajudicial para cobrança de débitos e multas.
+
+---
+
+### Teste 070
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Acerca do correio eletrônico institucional (*e-mail*) no âmbito da administração pública, de acordo com o Manual de Redação da Presidência da República:
+
+* **A)** Por constituir comunicação informal e dinâmica, dispensa o cumprimento do padrão culto da língua e dos parâmetros de clareza e impessoalidade.
+* **B)** O campo "Assunto" deve ser preenchido de modo pontual e claro, permitindo ao destinatário identificar de imediato o tema e o teor da comunicação sem necessidade de abrir a mensagem.
+* **C)** O envio de mensagens eletrônicas institucionais com cópia oculta (Cco) para superiores hierárquicos é prática recomendada pelo MRPR para fiscalização sigilosa.
+* **D)** O e-mail público não possui validade legal ou administrativa para fins de instrução processual ou transmissão de documentos públicos.
+* **E)** Recomenda-se a inserção de imagens emotivas, frases religiosas ou pensamentos filosóficos pessoais na assinatura institucional automática de e-mail do servidor em conformidade com as diretrizes e padrões de arquitetura corporativa.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O e-mail institucional é um documento oficial público e deve observar rigorosamente a norma culta, a impessoalidade e a formalidade.
+> - **B)** Correta. O MRPR (Item 3.2) instrui que o campo "Assunto" (*Subject*) deve ser redigido com clareza e precisão para orientar o destinatário sobre o exato conteúdo da demanda antes mesmo da abertura do corpo do texto.
+> - **C)** Incorreta. O uso de cópia oculta (*blind carbon copy*) em comunicações oficiais rotineiras é desestimulado por atentar contra o princípio da transparência e da lealdade administrativa.
+> - **D)** Incorreta. O correio eletrônico institucional tem pleno valor documental e probatório, inclusive respaldado pelas normas de processo eletrônico.
+> - **E)** Incorreta. Mensagens religiosas, frases de efeito e imagens particulares violam o princípio da laicidade, da sobriedade e da impessoalidade da comunicação pública.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 071
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere as seguintes definições sobre espécies documentais da administração pública:  
+
+1. *Documento formal emitido pelos Tribunais de Contas com caráter terminativo ou resolutivo, consubstanciando a decisão colegiada definitiva sobre a regularidade ou irregularidade das contas de um gestor.*  
+2. *Documento expedido por ministros de Estado ou secretários com o objetivo de submeter ao chefe do Poder Executivo a proposta de um ato normativo ou projeto de lei.*  
+3. *Instrumento de comunicação formal utilizado entre os chefes dos Poderes da República, como no envio de mensagens de prestação de contas governamentais ao Poder Legislativo.*  
+
+As espécies documentais descritas em 1, 2 e 3 correspondem, respectivamente, a:
+
+* **A)** Parecer Técnico – Ofício Circular – Despacho Governamental
+* **B)** Acórdão – Exposição de Motivos – Mensagem
+* **C)** Resolução – Relatório de Auditoria – Edital
+* **D)** Acórdão – Parecer Jurídico – Memorando
+* **E)** Nota Técnica – Exposição de Motivos – Decreto
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **Item 1:** A decisão colegiada deliberativa de um Tribunal de Contas reunido em Plenário ou em Câmara que julga em definitivo processos de controle externo e prestação de contas denomina-se **Acórdão** (art. 71 da CF/88 e leis orgânicas dos TCs).
+> - **Item 2:** O expediente privativo de autoridades de alto escalão (ministros ou secretários) dirigido ao chefe do Poder Executivo propondo edição de normas, projetos ou decretos é a **Exposição de Motivos (EM)**.
+> - **Item 3:** O instrumento de comunicação oficial exclusivo entre os chefes de Poder (Presidente/Governador para Congresso/Assembleia) denomina-se **Mensagem**.
+> - **Conclusão:** A sequência exata é *Acórdão – Exposição de Motivos – Mensagem* (Alternativa B).
+>
+> **Gabarito: B**
 
 ---
 

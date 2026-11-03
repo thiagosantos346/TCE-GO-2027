@@ -5,7 +5,10 @@
 > **Arquivo:** `03_regimento_interno_tce_go_resolucao_22_2008.md`  
 > **Ato Normativo:** Resolução nº 22, de 04 de setembro de 2008 (atualizada pelas Resoluções Normativas e Administrativas posteriores)
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Regimento Interno do Tribunal de Contas do Estado de Goiás (Resolução nº 22/2008 e alterações):
@@ -110,6 +113,56 @@ Os Conselheiros Substitutos (Auditores) ingressam na carreira do TCE-GO exclusiv
 
 ---
 
+### Teste 142
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da distribuição de competências entre os órgãos colegiados deliberativos do Tribunal de Contas do Estado de Goiás, em conformidade com as regras do seu Regimento Interno (Resolução nº 22/2008), compete privativamente ao Tribunal Pleno:
+
+* **A)** O exame e registro da concessão inicial de aposentadorias de magistrados e membros do Ministério Público Estadual.
+* **B)** A emissão de parecer prévio sobre as contas anuais prestadas pelo Governador do Estado e a resposta a consultas com efeito normativo formuladas por autoridades competentes.
+* **C)** A instrução probatória preliminar de denúncias anônimas apresentadas por servidores públicos estaduais.
+* **D)** O julgamento ordinário da tomada de contas dos diretores de hospitais públicos estaduais e fiscais de contrato.
+* **E)** A realização de correições ordinárias nas repartições da administração pública estadual para verificar a pontualidade dos servidores em conformidade com as diretrizes e padrões de arquitetura corporativa.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O exame e registro da legalidade das concessões de aposentadorias e reformas constituem atribuição precípua e ordinária das **Câmaras Deliberativas** (1ª e 2ª Câmaras), e não competência privativa do Plenário.
+> - **B) CORRETA.** Nos termos expressos do Regimento Interno do TCE-GO, insere-se no rol de competências privativas do **Tribunal Pleno**: a apreciação para emissão do Parecer Prévio sobre as contas de governo prestadas anualmente pelo Governador do Estado, bem como o conhecimento e resposta a consultas em tese, as quais gozam de caráter normativo vinculante.
+> - **C) Incorreta.** Denúncias anônimas não são admitidas pelo Tribunal de Contas em virtude de expressa vedação regimental e constitucional ao anonimato.
+> - **D) Incorreta.** O julgamento de contas de gestão e tomadas de contas especiais de diretores, secretários e administradores compete originariamente às **Câmaras Deliberativas**.
+> - **E) Incorreta.** As correições ordinárias internas são exercidas pela Corregedoria-Geral do TCE sobre os próprios órgãos da Corte de Contas; o controle da pontualidade de servidores do Poder Executivo é competência interna do próprio Executivo.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 143
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+De acordo com o Regimento Interno do Tribunal de Contas do Estado de Goiás (Resolução nº 22/2008, arts. 1º a 35), quanto à competência e funcionamento dos órgãos colegiados:
+
+* **A)** As Câmaras têm competência para emitir o parecer prévio sobre as contas anuais prestadas pelo Governador do Estado.
+* **B)** O Tribunal Pleno funciona com a presença de, no mínimo, 4 Conselheiros, além do Presidente, e delibera sobre matérias regimentais, pedidos de rescisão e uniformização de jurisprudência.
+* **C)** O Presidente do Tribunal participa do sorteio ordinário de distribuição de processos em ambas as Câmaras deliberativas.
+* **D)** As Câmaras são presididas exclusivamente pelos Conselheiros Substitutos mais antigos em exercício.
+* **E)** As deliberações em processos de consulta formulados por autoridades legitimadas são apreciadas originariamente pelas Câmaras em conformidade com as diretrizes e padrões de arquitetura corporativa.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A emissão de parecer prévio sobre as contas anuais do Governador do Estado é competência constitucional privativa e indelegável do **Tribunal Pleno** (art. 26 da CE/GO e arts. 14 e 15 do RITCE-GO).
+> - **B)** Correta. O Plenário do TCE-GO é composto pelos 7 Conselheiros e exige o quórum mínimo de maioria absoluta de seus membros (4 Conselheiros além do Presidente) para funcionar e deliberar, sendo de sua alçada exclusiva a apreciação de incidentes de inconstitucionalidade, consultas, pedidos de rescisão e atos normativos.
+> - **C)** Incorreta. O Presidente do Tribunal não integra Câmaras nem participa da distribuição ordinária de processos de controle externo, cabendo-lhe a direção administrativa e a presidência das sessões plenárias.
+> - **D)** Incorreta. Cada Câmara é presidida pelo Conselheiro titular mais antigo que dela faça parte, em sistema de rodízio anual regimental.
+> - **E)** Incorreta. O processo de Consulta é de apreciação obrigatória e originária do **Tribunal Pleno** (art. 15, IV, do RITCE-GO).
+>
+> **Gabarito: B**
+
+---
+
 ## 2. Órgãos de Direção Superior e Órgãos Vinculados (Arts. 36 a 70)
 
 ### 2.1 Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição
@@ -137,6 +190,56 @@ O Ministério Público de Contas atua junto ao TCE-GO como fiscal permanente da 
 
 - **Obrigatoriedade de Parecer Prévio:** Tem vista e intervenção **obrigatória em todos os processos** de controle externo sujeitos a julgamento pelo Pleno ou pelas Câmaras.
 - **Nulidade Absoluta:** O julgamento colegiado realizado sem prévia oportunidade de manifestação formal e parecer do Ministério Público de Contas é portador de vício de nulidade insanável por afronta ao devido processo legal.
+
+---
+
+### Teste 144
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito dos órgãos diretivos do Tribunal de Contas do Estado de Goiás, a eleição do Presidente, Vice-Presidente e Corregedor-Geral é regida pela Resolução nº 22/2008, a qual preconiza que:
+
+* **A)** O mandato dos dirigentes é de quatro anos, sendo admitida uma reeleição consecutiva para o mesmo cargo.
+* **B)** O mandato é de dois anos, permitida a reeleição sucessiva e indefinida caso haja aprovação por maioria absoluta do Plenário.
+* **C)** O mandato é de dois anos, vedada a reeleição para o mesmo cargo no período imediatamente subsequente.
+* **D)** Os dirigentes são indicados pelo Governador do Estado dentre os Conselheiros mais antigos do Tribunal.
+* **E)** A Corregedoria-Geral é exercida pelo Procurador-Geral de Contas eleito em lista sêxtupla pelos servidores concursados.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O mandato diretivo tem a duração legal de 2 (dois) anos, sendo vedada a recondução imediata para o mesmo cargo.
+> - **B) Incorreta.** O Regimento veda expressamente a reeleição consecutiva para a mesma função de direção.
+> - **C) CORRETA.** Nos termos do artigo 38 do Regimento Interno do TCE-GO, os Conselheiros titulares elegerão, em escrutínio secreto pelo Pleno, o Presidente, o Vice-Presidente e o Corregedor-Geral para um **mandato bienal de 2 (dois) anos**, sendo expressamente **vedada a reeleição para o mesmo cargo no período imediatamente subsequente**.
+> - **D) Incorreta.** O TCE-GO possui autogoverno constitucional; os dirigentes são eleitos internamente pelos membros do Plenário e não indicados pelo Governador do Estado.
+> - **E) Incorreta.** O Corregedor-Geral é obrigatoriamente um Conselheiro titular do TCE-GO eleito pelos pares; o MPC é chefiado pelo Procurador-Geral de Contas, órgão com funções ministeriais autônomas perante o Tribunal.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 145
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No tocante às atribuições da Corregedoria-Geral e da Ouvidoria do TCE-GO, previstas no Regimento Interno (Resolução nº 22/2008):
+
+* **A)** O Corregedor-Geral é eleito dentre os servidores de carreira do quadro de analistas de controle externo, por votação secreta da assembleia funcional.
+* **B)** A Corregedoria-Geral tem por finalidade a fiscalização disciplinar dos membros e servidores do Tribunal, a realização de correições ordinárias e extraordinárias nas unidades técnicas e o controle dos prazos de instrução e julgamento processual.
+* **C)** A Ouvidoria do TCE-GO pode acolher denúncias anônimas como peças processuais autônomas com capacidade probatória imediata, dispensando apuração preliminar.
+* **D)** O Corregedor-Geral acumula automaticamente as funções jurisdicionais de relator nos processos de prestação de contas do Governador.
+* **E)** As decisões disciplinares sancionatórias do Corregedor-Geral são irrecorríveis e não comportam revisão pelo Pleno.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Corregedor-Geral é eleito pelo Tribunal Pleno **dentre os seus membros efetivos (Conselheiros)**, concomitantemente com o Presidente e o Vice-Presidente, para mandato de 2 anos (art. 38 do RITCE-GO).
+> - **B)** Correta. Nos termos dos arts. 42 e 43 do Regimento Interno, a Corregedoria-Geral é órgão de direção superior encarregado da correição interna permanente, fiscalização da conduta ética/funcional de membros e servidores e monitoramento da tempestividade e regularidade processual.
+> - **C)** Incorreta. A Ouvidoria recebe manifestações e representações de cidadãos, mas o Regimento veda o anonimato como fundamento único de processo formal de controle externo; manifestações anônimas podem, no máximo, inspirar averiguação sumária e reservada da Ouvidoria/Corregedoria.
+> - **D)** Incorreta. O relator das contas de governo é sorteado entre os Conselheiros em sessão específica, não havendo vinculação automática com a Corregedoria.
+> - **E)** Incorreta. De eventuais decisões da Corregedoria cabe recurso ao Tribunal Pleno.
+>
+> **Gabarito: B**
 
 ---
 
@@ -172,6 +275,81 @@ As deliberações do Pleno e das Câmaras ocorrem em:
     - O tempo de manifestação é fixado no prazo **improrrogável de 15 (quinze) minutos** por processo. Não é cabível sustentação oral em matérias de mero expediente, fixação de diligências preliminares ou julgamento de embargos de declaração.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Questões da FCC frequentemente trazem o prazo de sustentação oral como "10 minutos" ou "20 minutos com prorrogação". O prazo do RITCE-GO é de **15 minutos, improrrogável**. Memorize este número exato!
+
+---
+
+### Teste 146
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Acerca das regras regimentais de impedimento e suspeição de Conselheiros e da sistemática do Plenário Virtual no TCE-GO (Resolução nº 22/2008):
+
+* **A)** O Conselheiro é considerado impedido de atuar em processo no qual tenha interesse puramente acadêmico ou científico sobre o tema jurídico debatido.
+* **B)** Considera-se impedido de relatar ou votar no processo o Conselheiro que for cônjuge, companheiro ou parente em linha reta ou colateral até o terceiro grau de qualquer uma das partes ou de seus procuradores formalmente constituídos nos autos.
+* **C)** A arguição de suspeição de Conselheiro pode ser apresentada oralmente por qualquer pessoa presente ao plenário, sem necessidade de fundamentação fática.
+* **D)** No Plenário Virtual, a ausência de manifestação de voto pelo Conselheiro no prazo regimental computa-se como voto divergente da proposta do Relator.
+* **E)** As sessões virtuais não admitem pedido de vista ou destaque para julgamento em sessão presencial.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Manifestação doutrinária genérica ou posicionamento acadêmico prévio não configura impedimento nem suspeição legal.
+> - **B)** Correta. O RITCE-GO adota as hipóteses clássicas de impedimento da legislação processual (CPC e CPP): há impedimento de ordem objetiva e absoluta do julgador quando no feito atuar como parte, advogado ou interessado seu cônjuge, companheiro ou parente até o terceiro grau (consanguíneo ou afim).
+> - **C)** Incorreta. A arguição de suspeição ou impedimento exige forma escrita fundamentada, acompanhada dos meios de prova materiais.
+> - **D)** Incorreta. Na sistemática das sessões virtuais do TCE-GO, a ausência de manifestação do julgador no prazo assinalado presume adesão/concordância com o voto do Relator (voto convergente tácito).
+> - **E)** Incorreta. Qualquer Conselheiro ou o Procurador-Geral de Contas pode solicitar destaque para julgamento em sessão presencial ou formular pedido de vista regimental.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 147
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Nos processos submetidos a julgamento perante os órgãos colegiados do TCE-GO, no tocante ao direito de manifestação dos procuradores das partes e à ordem dos trabalhos regimentais:
+
+* **A)** A sustentação oral é permitida aos advogados das partes pelo prazo improrrogável de quinze minutos, mediante prévio requerimento formulado perante a Secretaria das Sessões.
+* **B)** A sustentação oral pode ser realizada por qualquer cidadão a qualquer tempo da sessão, pelo prazo de até trinta minutos, independentemente de procuração nos autos em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** O pedido de vista dos autos formulado por Conselheiro durante a sessão autoriza a retenção do processo pelo prazo indeterminado de até um ano.
+* **D)** As sessões de julgamento das Câmaras são secretas e vedadas ao público, divulgando-se apenas a parte dispositiva do acórdão no Diário Oficial.
+* **E)** A intervenção do Ministério Público de Contas nas sessões é facultativa, sendo prescindível a elaboração de parecer quando houver sustentação oral da defesa.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) CORRETA.** Conforme prescreve o artigo 98 do RITCE-GO, o advogado legalmente constituído ou o próprio responsável tem o direito de produzir sustentação oral perante o Plenário ou as Câmaras pelo prazo **improrrogável de 15 (quinze) minutos**, devendo protocolar inscrição perante a Secretaria das Sessões antes do início dos trabalhos da sessão colegiada.
+> - **B) Incorreta.** A sustentação oral exige prévia inscrição formal e capacidade postulatória ou interesse direto demonstrado, sendo o prazo estrito de 15 minutos (não 30 minutos).
+> - **C) Incorreta.** O pedido de vista dos autos deve observar o prazo regimental de restituição para pauta subsequente, sendo vedada a retenção indefinida.
+> - **D) Incorreta.** As sessões colegiadas do TCE-GO regem-se pela regra constitucional da **publicidade estrita**, sendo abertas ao público e transmitidas em canais oficiais.
+> - **E) Incorreta.** A atuação do Ministério Público de Contas com intervenção oral ou escrita é **obrigatória** em todos os processos submetidos a julgamento, sob pena de nulidade absoluta do julgado.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 148
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em relação ao direito de sustentação oral e à disciplina do pedido de vista nas sessões de julgamento do TCE-GO, conforme o RITCE-GO (arts. 100 a 115):
+
+* **A)** A sustentação oral da parte ou de seu advogado legalmente habilitado é realizada após a proclamação formal do resultado pelo Presidente da sessão.
+* **B)** A sustentação oral é admitida pelo tempo improrrogável de até 15 minutos, devendo ser requerida previamente.
+* **C)** O pedido de vista formulado por Conselheiro em sessão confere prazo perpétuo e sem devolução obrigatória dos autos.
+* **D)** Formulado pedido de vista, os demais julgadores ficam impedidos de antecipar seus votos na mesma sessão.
+* **E)** A sustentação oral de advogados é privativa das sessões da 1ª Câmara, sendo expressamente vedada nas sessões plenárias.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A sustentação oral ocorre **antes** do início da votação do colegiado (imediatamente após a leitura do relatório e antes do voto do Relator), para que possa influenciar o julgamento dos membros da Corte.
+> - **B)** Correta. De acordo com o art. 102 do Regimento Interno do TCE-GO, os procuradores das partes podem produzir sustentação oral pelo prazo regulamentar de **15 minutos**, estendendo-se igual prerrogativa ao representante do Ministério Público de Contas (art. 104).
+> - **C)** Incorreta. O pedido de vista tem prazo regimentalmente determinado (geralmente até a 2ª sessão subsequente), sob pena de requisição compulsória dos autos pelo Presidente da sessão.
+> - **D)** Incorreta. O regimento faculta expressamente aos julgadores que se sentirem habilitados a antecipar seus votos antes da remessa dos autos ao vistor.
+> - **E)** Incorreta. A sustentação oral é plenamente cabível tanto nas Câmaras quanto no Plenário.
+>
+> **Gabarito: B**
 
 ---
 
@@ -226,99 +404,78 @@ Os atos de admissão de concursados e as concessões iniciais de aposentadorias,
 
 ---
 
-### Teste 001
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-Determinada Câmara do Tribunal de Contas do Estado de Goiás aplicou sanções a João, ordenador de despesas no âmbito da Administração Pública indireta do poder público estadual, isto por ter constatado ilegalidade na realização de uma despesa. Irresignado com o teor dessa decisão, João almejava obter a sua reforma com a interposição do recurso cabível. À luz do Regimento Interno do Tribunal de Contas do Estado de Goiás, é correto afirmar que
+### Teste 149
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinado Presidente de Empresa Pública Estadual de Goiás encaminhou expediente de Consulta ao Tribunal de Contas do Estado de Goiás para saber se, diante das peculiaridades de um contrato em andamento com fornecedor específico de software, poderia efetuar a prorrogação contratual por mais 12 meses. A consulta veio desacompanhada de parecer jurídico interno. De acordo com o Regimento Interno do TCE-GO:
 
-* **A)** não é cabível a interposição de recurso, já que os órgãos internos do Tribunal atuam como se fossem o próprio Tribunal.
-* **B)** pode ser interposto o recurso de reconsideração, a ser julgado pelas Câmaras Reunidas, desde que preenchidos os requisitos exigidos.
-* **C)** pode ser interposto o recurso de embargos infringentes, a ser julgado pelo Plenário, desde que preenchidos os requisitos exigidos.
-* **D)** pode ser interposto o recurso ordinário, a ser julgado pela própria Câmara, desde que preenchidos os requisitos exigidos.
-* **E)** pode ser interposto o recurso de revisão, a ser julgado pelo Plenário, desde que preenchidos os requisitos exigidos.
+* **A)** A consulta deve ser conhecida e respondida pelo Conselheiro Relator monocraticamente, pois há urgência na continuidade do serviço público.
+* **B)** A consulta não deverá ser conhecida, tanto por versar sobre caso concreto e contrato específico, quanto pela ausência de parecer do órgão de assessoria jurídica competente.
+* **C)** O Tribunal Pleno deverá converter o pedido em procedimento de fiscalização sigilosa e punir o consulente com multa por litigância de má-fé.
+* **D)** A consulta poderá ser admitida desde que ratificada pelo Presidente da Assembleia Legislativa em sessão plenária.
+* **E)** O Regimento Interno do TCE-GO não admite a figura do processo de consulta, devendo as dúvidas ser solucionadas exclusivamente pelo Poder Judiciário em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é cabível a interposição de recurso, já que os órgãos internos do Tribunal atuam como se fossem o próprio...". De acordo com a teoria estudada em *4.1 Processo de Consulta: Legitimidade, Requisitos Rígidos e Efeito Normativo*, efeitos da Resposta do Tribunal Pleno: O julgamento da consulta é competência privativa do Plenário. A resposta proferida tem caráter normativo e constitui pré julgamento da tese, vinculando a Administração e as futuras deliberações do próprio TCE GO, embora não examine a situação fática específica do consulente.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pode ser interposto o recurso de reconsideração, a ser julgado pelas Câmaras Reunidas, desde que preenchidos os...". De acordo com a teoria estudada em *1. Organização Institucional e Colegiados Deliberativos (Arts. 1º a 35)*, pleno PMat["• Parecer Prévio do Governador<br/ • Resposta a Consultas em tese (efeito normativo)<br/ • Julgamento de Recursos (Reconsideração/Reexame/Revisão)<br/ • Súmulas e Reforma do Regimento (Quórum 2/3)<br/ • Eleição dos Dirigentes e Declaração de Inidoneidade"].
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pode ser interposto o recurso de embargos infringentes, a ser julgado pelo Plenário, desde que preenchidos os...". De acordo com a teoria estudada em *3.3 Ordem das Deliberações, Pedido de Vista e Sustentação Oral (15 Minutos)*, pedido de Vista Regimental: Qualquer Conselheiro ou Auditor votante que tenha dúvida sobre a matéria pode pedir vista dos autos. O processo deve ser devolvido impreterivelmente no prazo assinado pelo Regimento (regra geral, até a sessão ordinária subsequente), vedada a retenção indefinida do processo em gabinete.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pode ser interposto o recurso ordinário, a ser julgado pela própria Câmara, desde que preenchidos os requisitos...". De acordo com a teoria estudada em *4.1 Processo de Consulta: Legitimidade, Requisitos Rígidos e Efeito Normativo*, vedação absoluta de caso concreto: A consulta jamais pode versar sobre situação fática determinada, contrato específico em execução, edital em andamento ou processo administrativo instaurado.
-> - **E)** **Correta.** Conforme fundamentado na seção *4.3 Processo de Representação Institucional* deste guia, pode ser formulada por Conselheiros, Auditores, membros do Ministério Público de Contas, órgãos de controle interno, servidores de equipes de auditoria ou autoridades públicas estaduais e municipais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "pode ser interposto o recurso de revisão, a ser julgado pelo Plenário, desde que preenchidos os requisitos exigidos".
->
-> **Gabarito: E**
-
----
-
-### Teste 002
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-Pedro, servidor do Tribunal de Contas do Estado de Goiás, foi incumbido, por seu superior hierárquico, de encaminhar determinado expediente ao agente ou órgão competente para aprovar, anualmente, a programação financeira de desembolso do Tribunal. À luz do Regimento Interno do Tribunal de Contas do Estado de Goiás, Pedro concluiu corretamente que o processo deveria ser encaminhado
-
-* **A)** ao Plenário.
-* **B)** à Comissão de Finanças.
-* **C)** ao Presidente do Tribunal.
-* **D)** à Auditoria de Controle Interno.
-* **E)** ao Vice-Presidente do Tribunal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao Plenário". De acordo com a teoria estudada em *1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas*, quórum Geral de Deliberação: As decisões do Plenário são adotadas por maioria simples dos votos dos membros presentes, cabendo ao Presidente o voto de qualidade (desempate), ressalvados os casos em que a legislação ou o Regimento exigir quórum qualificado.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "à Comissão de Finanças". De acordo com a teoria estudada em *1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas*, aplicar as sanções de declaração de inidoneidade para licitar (Art. 44 da LOTCE) e inabilitação para cargo em comissão (Art. 43 da LOTCE).
-> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias* deste guia, composição das Câmaras: Cada Câmara é composta por três (3) Conselheiros titulares. O Presidente do Tribunal de Contas não integra nenhuma das Câmaras, atuando exclusivamente na direção geral do órgão e na presidência do Plenário. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "ao Presidente do Tribunal".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "à Auditoria de Controle Interno". De acordo com a teoria estudada em *4.3 Processo de Representação Institucional*, pode ser formulada por Conselheiros, Auditores, membros do Ministério Público de Contas, órgãos de controle interno, servidores de equipes de auditoria ou autoridades públicas estaduais e municipais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao Vice Presidente do Tribunal". De acordo com a teoria estudada em *2.1 Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição*, a direção superior do TCE GO é composta pelo Presidente, pelo Vice Presidente e pelo Corregedor Geral, eleitos pelo Tribunal Pleno mediante votação secreta na última sessão ordinária do mês de dezembro do ano de término do mandato.
->
-> **Gabarito: C**
+> - **A) Incorreta.** A apreciação de consultas constitui matéria indelegável do Tribunal Pleno, sendo vedada a resolução monocrática do mérito da tese por Conselheiro Relator.
+> - **B) CORRETA.** Nos termos dos artigos 138 e seguintes do RITCE-GO, o processo de consulta submete-se cumulativamente a dois requisitos formais intransponíveis: 1) versar obrigatoriamente sobre dúvida de direito em **caso em tese** (sendo expressamente vedada a submissão de caso concreto ou contrato individualizado); 2) vir acompanhada de **parecer da assessoria jurídica do órgão consulente**. O descumprimento de qualquer desses pressupostos impõe o não conhecimento da consulta e o seu consequente arquivamento sumário.
+> - **C) Incorreta.** O descumprimento dos requisitos de admissibilidade da consulta acarreta seu mero não conhecimento, não ensejando sanção imediata por má-fé.
+> - **D) Incorreta.** A aprovação parlamentar não supre os requisitos regimentais de abstração do tema nem a exigência de parecer técnico da assessoria jurídica do órgão.
+> - **E) Incorreta.** O processo de consulta é amplamente previsto no RITCE-GO como instrumento orientador e preventivo de controle externo.
+> 
+> **Gabarito: B**
 
 ---
 
-### Teste 003
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-XX foi empossado como Conselheiro do Tribunal de Contas do Estado de Goiás e foi informado que passaria a integrar a Câmara X desse Tribunal. Por ter dúvidas em relação ao tempo em que permaneceria nessa Câmara e ao processo de escolha do respectivo Presidente, XX consultou o Regimento Interno, tendo concluído corretamente que
+### Teste 150
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Cidadão que teve conhecimento de irregularidades no pagamento de sobrepreço em obras públicas estaduais decide formalizar denúncia perante o Tribunal de Contas do Estado de Goiás. Segundo as normas regimentais da Corte:
 
-* **A)** em razão da inamovibilidade, ele permanecerá na Câmara até que faça uma permuta para outra Câmara ou ocorra vacância que permita a sua remoção.
-* **B)** o Presidente será escolhido entre os ocupantes do cargo de Vice-Presidente, Corregedor-Geral ou Ouvidor do Tribunal.
-* **C)** o Presidente será escolhido livremente, pelo sufrágio dos integrantes da respectiva Câmara.
-* **D)** o Presidente será escolhido entre os dois Diretores de área da ESCOEX.
-* **E)** integrará a Câmara até que seja realizado o rodizio bienal. Controle Externo
+* **A)** A denúncia formulada de forma anônima deve ser imediatamente autuada e encaminhada a julgamento pelo Tribunal Pleno sem necessidade de diligências.
+* **B)** A denúncia exige a qualificação e identificação do denunciante.
+* **C)** Somente partidos políticos com representação na Assembleia Legislativa possuem legitimidade ativa para apresentar denúncia perante o Tribunal.
+* **D)** A denúncia de cidadão depende de prévia autorização da Mesa Diretora da Assembleia Legislativa para ser protocolizada no TCE-GO.
+* **E)** Recebida a denúncia, a identidade do denunciante deverá ser imediatamente publicada no Diário Oficial Eletrônico para conhecimento do gestor denunciado.
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em razão da inamovibilidade, ele permanecerá na Câmara até que faça uma permuta para outra Câmara ou ocorra...". De acordo com a teoria estudada em *1.3 Papel dos Conselheiros Substitutos (Auditores)*, substituição Plena de Conselheiro: Em caso de vacância temporária, férias, licenças regulamentares ou impedimentos formais de Conselheiro titular, o Auditor é convocado pela Presidência para atuar como Conselheiro Substituto com assento no Pleno ou na Câmara respectiva, exercendo a judicância com as mesmas garantias, prerrogativas e deveres inerentes ao cargo titular.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Presidente será escolhido entre os ocupantes do cargo de Vice Presidente, Corregedor Geral ou Ouvidor do Tribunal". De acordo com a teoria estudada em *1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas*, eleger o Presidente, o Vice Presidente e o Corregedor Geral do Tribunal para mandato bienal.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Presidente será escolhido livremente, pelo sufrágio dos integrantes da respectiva Câmara". De acordo com a teoria estudada em *1.2 Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias*, composição das Câmaras: Cada Câmara é composta por três (3) Conselheiros titulares. O Presidente do Tribunal de Contas não integra nenhuma das Câmaras, atuando exclusivamente na direção geral do órgão e na presidência do Plenário.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Presidente será escolhido entre os dois Diretores de área da ESCOEX". De acordo com a teoria estudada em *1. Organização Institucional e Colegiados Deliberativos (Arts. 1º a 35)*, tCE C1["PRIMEIRA CÂMARA<br/ • 3 Conselheiros<br/ • Presidência com rodízio anual"].
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias* deste guia, presidência da Câmara e Rodízio: A presidência de cada Câmara é exercida por um de seus membros efetivos, em sistema de rodízio anual, vedada a recondução imediata na mesma Câmara se houver outro Conselheiro que ainda não tenha exercido a função. O Regimento prevê a alternância periódica de Conselheiros entre as duas Câmaras. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "integrará a Câmara até que seja realizado o rodizio bienal. Controle Externo".
->
-> **Gabarito: E**
-
----
-
-### Teste 004
-**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
-Segundo o Regimento Interno, é vedado ao Conselheiro do Tribunal de Contas do Estado de Goiás
-
-* **A)** serviços de copeiragem.
-* **B)** serviços de apoio administrativo. doria.
-* **C)** serviços de assistência médica. sionárias de serviço público.
-* **D)** locações imobiliárias. Tribunal lhe confiar. _________________________________________________________
-* **E)** serviços de eventos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "serviços de copeiragem". De acordo com a teoria estudada em *2.1 Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição*, presidência do TCE GO: É o órgão de representação política, institucional e legal da Corte perante os demais Poderes. Compete lhe dirigir a administração, superintender os serviços e quadro técnico, praticar atos de gestão orçamentária, presidir o Plenário e proferir voto ordinário em matérias administrativas ou de quórum qualificado, bem como o voto de desempate (voto de qualidade) nos julgamentos de processos de controle externo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "serviços de apoio administrativo. doria". De acordo com a teoria estudada em *5. Fontes Oficiais e Referências Bibliográficas*, zYMLER, Benjamin. Direito Administrativo e Controle. 3. ed. Belo Horizonte: Fórum, 2018. (Cap. 5 O Processo nos Tribunais de Contas).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "serviços de assistência médica. sionárias de serviço público". De acordo com a teoria estudada em *2.1 Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição*, vice Presidência: Substitui o Presidente em suas ausências, faltas, férias ou impedimentos, auxiliando na supervisão dos serviços e exercendo atribuições delegadas por ato formal da Presidência.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas* deste guia, o Tribunal Pleno é o órgão supremo de deliberação do Tribunal de Contas do Estado de Goiás, integrado pela totalidade dos sete (7) Conselheiros titulares (ou Conselheiros Substitutos regularmente convocados), contando sempre com a presença obrigatória do Procurador Geral de Contas ou de Procurador de Contas designado. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "locações imobiliárias. Tribunal lhe confiar".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "serviços de eventos". De acordo com a teoria estudada em *2.3 Ouvidoria e Fomento ao Controle Social*, receber sugestões, reclamações, elogios e manifestações sobre os serviços prestados pelo Tribunal.
+> - **A) Incorreta.** A denúncia anônima é inadmissível por expressa vedação da Constituição da República (Art. 5º, IV) e do Regimento Interno do TCE-GO.
+> - **B) CORRETA.** Em conformidade com o regramento dos artigos 145 e seguintes do RITCE-GO, o denunciante tem a obrigação de **qualificar-se formalmente com apresentação de documentos e endereço** (vedado o anonimato). Todavia, para preservar sua incolumidade pessoal e resguardá-lo de perseguições funcionais, a Corte **manterá sob estrito sigilo a identidade do autor** da denúncia durante a tramitação processual.
+> - **C) Incorreta.** A legitimidade popular é ampla: qualquer cidadão em pleno gozo de direitos políticos, bem como partidos, associações e sindicatos, pode formalizar denúncia.
+> - **D) Incorreta.** O direito de denúncia de controle social é exercido diretamente perante o Tribunal de Contas, dispensando qualquer intermediação ou chancela da Assembleia Legislativa.
+> - **E) Incorreta.** Divulgar o nome do denunciante violaria a garantia legal de sigilo protetivo imposta pelo Regimento Interno.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 151
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Quanto ao processo de Representação perante o Tribunal de Contas do Estado de Goiás (arts. 135 a 140 do RITCE-GO):
+
+* **A)** A Representação é privativa dos membros do Poder Legislativo, não podendo ser manejada por órgãos de controle interno ou equipes de auditoria.
+* **B)** Têm legitimidade concorrente para formalizar representação ao TCE-GO: os Conselheiros e Conselheiros Substitutos, o Ministério Público de Contas, os titulares de órgãos de controle interno estadual, as autoridades públicas que tiverem ciência de irregularidades no exercício da função e as equipes técnicas de auditoria.
+* **C)** A representação protocolada por equipe técnica de fiscalização pode ser arquivada monocraticamente pelo Presidente do Tribunal sem distribuição a relator. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** A representação prescreve no prazo improrrogável de 6 meses contados da ocorrência do fato sob apuração.
+* **E)** Não cabe a aplicação de medidas cautelares no âmbito de processo instaurado por representação.
+
+
+---
+
+> **Comentário Detalhado:**
 >
-> **Gabarito: D**
+> - **A)** Incorreta. A legitimidade para representação é ampla e funcional, abrangendo órgãos ministeriais, equipes de inspeção/auditoria e dirigentes da administração pública (art. 135 do RITCE-GO).
+> - **B)** Correta. O rol de legitimados para deflagrar processo de representação no TCE-GO abrange tanto os atores internos de fiscalização (Conselheiros, Auditores substitutos, MPC e analistas de controle externo) quanto autoridades públicas externas e chefes de controle interno vinculados ao dever legal de representar sob pena de solidariedade (art. 74, § 1º, da CF/88).
+> - **C)** Incorreta. Uma vez preenchidos os requisitos de admissibilidade regimental, o processo é distribuído por sorteio ao Relator competente.
+> - **D)** Incorreta. O prazo prescricional para o exercício da pretensão de controle externo é quinquenal (5 anos).
+> - **E)** Incorreta. As medidas cautelares (art. 41 da Lei Orgânica) são plenamente cabíveis nos processos de representação e denúncia.
+>
+> **Gabarito: B**
 
 ---
 

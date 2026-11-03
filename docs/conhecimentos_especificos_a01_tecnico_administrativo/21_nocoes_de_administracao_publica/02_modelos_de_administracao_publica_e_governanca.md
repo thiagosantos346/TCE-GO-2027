@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `02_modelos_de_administracao_publica_e_governanca.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -106,6 +109,70 @@ flowchart LR
 
 ---
 
+### Teste 310
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A respeito da evolução dos modelos de administração pública e das reformas administrativas contemporâneas, considere as afirmativas a seguir:
+
+I. O modelo burocrático weberiano introduziu a impessoalidade e o mérito no serviço público com o objetivo de combater as práticas clientelistas e patrimonialistas da administração tradicional.  
+
+II. A governabilidade traduz a capacidade financeira, operacional e técnica do Estado de implementar políticas públicas planejadas, ao passo que a governança expressa as condições políticas de sustentação parlamentar do governo.  
+
+III. No modelo gerencial de administração pública, o controle estatal privilegia a avaliação dos resultados e o cumprimento de metas contratuais em detrimento do controle prévio e rígido dos processos procedimentais.  
+
+Está correto o que se afirma em:
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O item III também está correto, tornando a opção incompleta.
+> - **B)** Incorreta. O item II traz um erro conceitual grave ao inverter as definições de governança e governabilidade.
+> - **C)** Correta.  
+>     - O item I é verdadeiro: a burocracia weberiana surgiu historicamente para combater a apropriação privada do Estado pelo patrimonialismo, mediante mérito, concurso público e regras impessoais;  
+>     - O item II é falso: governança é a capacidade técnica e gerencial de execução, enquanto governabilidade refere-se às condições políticas de sustentação no parlamento;  
+>     - O item III é verdadeiro: o gerencialismo foca na avaliação a posteriori dos resultados e cumprimento de metas, flexibilizando os controles prévios processuais.  
+>   Portanto, estão corretos apenas os itens I e III.
+> - **D)** Incorreta. O item II é flagrantemente falso.
+> - **E)** Incorreta. O item II invalida a assertiva geral.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 311
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O modelo patrimonialista de Administração Pública prevaleceu no Brasil colonial e imperial, deixando traços na cultura organizacional do Estado.
+
+Constitui traço característico definidor do **Patrimonialismo**:
+
+* **A)** A incapacidade de distinção clara entre a *res publica* (o patrimônio público do Estado) e a *res principis* (o patrimônio pessoal e privado do soberano e dos governantes).
+* **B)** A estrita impessoalidade nos processos de seleção e a instituição compulsória do mérito profissional aferido por concurso público aberto.
+* **C)** O controle formal e rigoroso dos procedimentos operacionais estabelecido em manuais e regulamentos escritos padronizados.
+* **D)** A ênfase na contratualização de resultados e no fornecimento de serviços orientados primordialmente ao cidadão-usuário.
+* **E)** A transparência ativa sistemática proporcionada por portais de dados abertos na internet.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O **patrimonialismo** confunde o público e o privado: o soberano trata o Estado como extensão de seu patrimônio pessoal (nepotismo, clientelismo e prebendas).
+> - **B)** Incorreta. Concurso e mérito são da burocracia weberiana.
+> - **C)** Incorreta. Controle formal é o núcleo da burocracia.
+> - **D)** Incorreta. Orientação ao cidadão-usuário é da administração gerencial (NPM).
+> - **E)** Incorreta. Dados abertos são do Governo Digital contemporâneo.
+> 
+> **Gabarito: A**
+
+---
+
 ## 2. As Disfunções da Burocracia (Robert Merton)
 
 Embora concebida por Max Weber como o tipo ideal de organização racional e previsível, a aplicação concreta da burocracia gera anomalias conhecidas como **disfunções da burocracia**:
@@ -123,6 +190,33 @@ flowchart TD
 - **Deslocamento de Objetivos:** O cumprimento cego do regulamento transforma-se na missão primordial do servidor, em detrimento da entrega final do serviço público;
 - **Superconformidade:** O funcionário limita-se estritamente ao que está escrito e recusa-se a agir perante situações imprevistas, gerando paralisia decisória;
 - **Exibição de Sinais de Autoridade:** Uso excessivo de títulos formais, carimbos e hierarquia para distanciar o funcionário do cidadão comum.
+
+---
+
+### Teste 312
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na teoria sociológica e administrativa, a Administração Pública Burocrática de Max Weber foi concebida para combater a corrupção e o nepotismo patrimonialista, baseando-se na legalidade, impessoalidade e formalismo. Todavia, a prática organizacional evidenciou as chamadas "disfunções da burocracia" (analisadas por Robert Merton).
+
+Constitui uma típica **disfunção burocrática**:
+
+* **A)** O apego exagerado às regras e aos procedimentos formais, fazendo com que as normas (que deveriam ser meios) se transformem nos próprios fins da ação administrativa (*internalização das regras*).
+* **B)** A flexibilização excessiva de processos com delegação ampla de poderes decisórios aos funcionários da ponta.
+* **C)** A priorização dos interesses estratégicos da sociedade em detrimento dos manuais internos de rotinas.
+* **D)** A avaliação contínua da efetividade social das políticas públicas em substituição ao controle de conformidade legal.
+* **E)** A descentralização territorial das decisões governamentais em prol de cooperativas locais.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Robert Merton identificou a **transposição de fins**, na qual regras e regulamentos (meios) tornam-se valores absolutos (fins em si mesmos), gerando lentidão e resistência a mudanças.
+> - **B)** Incorreta. A burocracia clássica veda a flexibilização informal da ponta.
+> - **C)** Incorreta. A disfunção faz esquecer a sociedade para focar só nas normas internas.
+> - **D)** Incorreta. Foco em efetividade social é do gerencialismo.
+> - **E)** Incorreta. A burocracia preza pela padronização centralizada.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -154,6 +248,58 @@ flowchart TD
 ### 3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)
 - **Publicização:** É a descentralização de atividades e serviços não exclusivos do Estado para entidades do setor público não estatal (terceiro setor), constituídas como pessoas jurídicas de direito privado sem fins lucrativos qualificadas como **Organizações Sociais (OS)**;
 - **Instrumento Vinculante:** A parceria celebra-se mediante **Contrato de Gestão**, estipulando metas quantitativas e qualitativas de atendimento, com repasse de recursos orçamentários, cessão de servidores públicos e de imóveis estatais, sujeitando-se ao controle externo do Tribunal de Contas.
+
+---
+
+### Teste 313
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, propôs a descentralização do Estado e a reorganização de suas atividades em quatro setores. A prestação de serviços de saúde básica em hospitais públicos e a realização de pesquisas científicas em universidades enquadram-se, segundo a tipologia do PDRAE, no setor de:
+
+* **A)** Atividades Exclusivas de Estado, a serem desempenhadas compulsoriamente por agências reguladoras.
+* **B)** Núcleo Estratégico, com manutenção de propriedade puramente estatal e cargos privativos de livre nomeação política.
+* **C)** Serviços Não Exclusivos do Estado, com orientação para o modelo de publicização mediante parcerias com Organizações Sociais (OS).
+* **D)** Produção de Bens e Serviços para o Mercado, orientados à privatização compulsória em bolsa de valores.
+* **E)** Controle Disciplinar Corporativo, com atuação exclusiva do sistema correcional e dos Tribunais de Contas.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Atividades exclusivas abrangem polícia, arrecadação, fiscalização e regulação.
+> - **B)** Incorreta. Núcleo Estratégico é composto pela cúpula dos Poderes (Presidência, Ministérios, Cúpula dos Tribunais).
+> - **C)** Correta. No modelo do PDRAE (1995), a saúde, educação, cultura e pesquisa científica são classificadas como Serviços Não Exclusivos do Estado, uma vez que o setor privado também atua livremente nessas áreas. A diretriz preconizada para esse setor foi a publicização, isto é, a descentralização de sua gestão para entidades do terceiro setor qualificadas como Organizações Sociais (OS), mediante contratos de gestão.
+> - **D)** Incorreta. Produção de bens para o mercado corresponde a empresas estatais industriais e financeiras voltadas ao lucro.
+> - **E)** Incorreta. Categoria desconexa do texto do PDRAE.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 314
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A Reforma do Aparelho do Estado de 1995 (Plano Diretor da Reforma do Aparelho do Estado - PDRAE), liderada pelo MARE, estruturou a atuação governamental em quatro setores estratégicos.
+
+O setor do Estado que executa as funções exclusivas que envolvem o uso do poder extroverso e de polícia estatal (legislar, julgar, fiscalizar, arrecadar tributos e exercer o controle externo), sendo vedado à terceirização e à delegação a entidades privadas, é denominado pelo PDRAE:
+
+* **A)** Núcleo Estratégico.
+* **B)** Atividades Exclusivas de Estado.
+* **C)** Serviços Não Exclusivos.
+* **D)** Produção de Bens e Serviços para o Mercado.
+* **E)** Setor Não Lucrativo de Fomento Societário.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O Núcleo Estratégico formula leis e políticas públicas (Cúpula).
+> - **B)** Correta. O setor de **Atividades Exclusivas de Estado** engloba polícia, arrecadação, regulação e controle externo (Tribunais de Contas), indelegáveis a entidades particulares.
+> - **C)** Incorreta. Serviços Não Exclusivos (saúde, educação) podem ser compartilhados com Organizações Sociais.
+> - **D)** Incorreta. Produção para o mercado (estatais econômicas) opera sob concorrência.
+> - **E)** Incorreta. Categoria inexistente no PDRAE.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -190,6 +336,41 @@ flowchart LR
 
 ---
 
+### Teste 315
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere que determinado município gaúcho implementou um programa de alfabetização de adultos com orçamento de R$ 1.000.000,00. Ao final do projeto, constatou-se que:
+
+1. O custo por aluno atendido foi o menor registrado no Estado, sem desperdício de material pedagógico.
+2. A meta quantitativa de matricular e formar 2.000 estudantes foi rigorosamente alcançada.
+3. Decorrido um ano da conclusão, levantamento censitário demonstrou que 95% dos formandos foram inseridos no mercado formal de trabalho e aumentaram sua renda familiar.
+
+As constatações 1, 2 e 3 correspondem, respectivamente, aos conceitos de:
+
+* **A)** Eficácia, Eficiência e Efetividade.
+* **B)** Eficiência, Eficácia e Efetividade.
+* **C)** Efetividade, Eficiência e Eficácia.
+* **D)** Economicidade, Efetividade e Eficiência.
+* **E)** Eficiência, Efetividade e Eficácia.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Inverte a ordem das duas primeiras dimensões.
+> - **B)** Correta.  
+>     - Constatação 1 (Eficiência): Atingir o menor custo por aluno sem desperdícios operacionais expressa a otimização da relação entre insumos e produtos (fazer certo as coisas), traduzindo a Eficiência;  
+>     - Constatação 2 (Eficácia): Cumprir integralmente a meta planejada de matricular e formar 2.000 pessoas expressa o atingimento das saídas quantitativas (fazer a coisa certa), traduzindo a Eficácia;  
+>     - Constatação 3 (Efetividade): Gerar inserção no mercado de trabalho formal e aumento real da renda familiar reflete o impacto social duradouro e a transformação da realidade coletiva, consubstanciando a Efetividade.  
+>   Logo, a ordem precisa é Eficiência, Eficácia e Efetividade.
+> - **C)** Incorreta. Efetividade é a terceira constatação e não a primeira.
+> - **D)** Incorreta. Mistura as categorias e inverte os conceitos de impacto social.
+> - **E)** Incorreta. Inverte eficácia e efetividade no final.
+> 
+> **Gabarito: B**
+
+---
+
 ## 5. Governança, Governabilidade e Accountability
 
 ### 5.1 Governabilidade vs. Governança (Distinção Crítica FCC)
@@ -215,6 +396,31 @@ O termo *accountability* compreende o dever indeclinável de prestar contas, res
 1. **Accountability Vertical:** Opera de baixo para cima, no vínculo entre o cidadão e os governantes, materializada essencialmente pelo **voto livre e secreto nas eleições democráticas**, bem como por plebiscitos e referendos;
 2. **Accountability Horizontal:** Consiste no controle mútuo e recíproco exercido entre órgãos estatais autônomos dotados de poderes constitucionais de freios e contrapesos (**Tribunais de Contas**, Ministério Público, Poder Judiciário e Controladorias);
 3. **Accountability Social (ou Societal):** Exercida pela mobilização da sociedade civil organizada, sindicatos, conselhos de políticas públicas e pela imprensa investigativa independente.
+
+---
+
+### Teste 316
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A fiscalização da gestão governamental desempenhada pelo Tribunal de Contas do Estado sobre as contas dos Poderes Executivo, Legislativo e Judiciário materializa uma dimensão específica da *accountability*. Trata-se de um exemplo típico de *accountability*:
+
+* **A)** Vertical, pois o Tribunal de Contas situa-se em escalão hierárquico superior aos órgãos do Poder Executivo estadual.
+* **B)** Social, uma vez que decorre unicamente de representações apresentadas por organizações não governamentais e pela imprensa.
+* **C)** Horizontal, por consistir em controle mútuo de legalidade e legitimidade exercido por um órgão estatal autônomo sobre outros órgãos estatais no mesmo nível institucional.
+* **D)** Comportamental, pois visa exclusivamente à apuração disciplinar de infrações éticas cometidas por servidores subalternos.
+* **E)** Primária, caracterizada pelo exercício direto do sufrágio universal e do voto popular nas urnas.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Não existe hierarquia entre o Tribunal de Contas e os Poderes; a relação é de equilíbrio e controle constitucional autônomo.
+> - **B)** Incorreta. A atuação de ONGs e imprensa caracteriza accountability social (societal).
+> - **C)** Correta. A accountability horizontal (formulada teoricamente por Guillermo O'Donnell) traduz o controle mútuo exercido entre órgãos públicos independentes dotados de poderes constitucionais de fiscalização e freios e contrapesos (como os Tribunais de Contas, o Ministério Público e o Poder Judiciário) sobre as contas e atos de outros órgãos de Estado.
+> - **D)** Incorreta. Conceito inexistente na tipologia clássica de accountability.
+> - **E)** Incorreta. O voto do cidadão nas eleições consubstancia a manifestação da accountability vertical.
+> 
+> **Gabarito: C**
 
 ---
 
@@ -251,6 +457,82 @@ As informações cuja divulgação possa colocar em risco a segurança da socied
 2. **Secreta:** Prazo máximo de restrição de **até 15 (quinze) anos**;
 3. **Ultrassecreta:** Prazo máximo de restrição de **até 25 (vinte e cinco) anos**, prorrogável uma única vez por igual período;
 4. **Informações Pessoais (Art. 31 da LAI):** Relativas à intimidade, vida privada, honra e imagem de indivíduos têm acesso restrito por **até 100 (cem) anos**, independentemente de classificação de sigilo.
+
+---
+
+### Teste 317
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Nos termos da Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), a respeito dos prazos de resposta aos pedidos de acesso à informação formulados por cidadãos e da classificação de sigilo documental, é correto afirmar:
+
+* **A)** O prazo para resposta ao pedido de informação não atendido de imediato é de 30 dias, vedada qualquer prorrogação.
+* **B)** Informações classificadas no grau reservado permanecem sob restrição de acesso público pelo prazo máximo de 5 anos.
+* **C)** O acesso à informação pública subordina-se à demonstração de legítimo interesse jurídico e comprovação dos motivos determinantes da solicitação pelo requerente.
+* **D)** A classificação de informação como ultrassecreta é atribuição passível de delegação a qualquer servidor ocupante de cargo comissionado de chefia.
+* **E)** A transparência ativa refere-se exclusivamente às informações fornecidas pelo poder público em resposta a pedidos protocolados via ouvidoria geral.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O prazo legal fixado pelo art. 11, §§ 1º e 2º da LAI é de até 20 dias, admitindo-se prorrogação justificada por mais 10 dias.
+> - **B)** Correta. Conforme o art. 24, § 1º, III da Lei nº 12.527/2011, as informações no grau reservado ficam submetidas ao prazo de restrição máxima de até 5 (cinco) anos.
+> - **C)** Incorreta. O art. 10, § 3º da LAI proíbe expressamente qualquer exigência de justificação ou demonstração de interesse jurídico para pedidos de informação pública.
+> - **D)** Incorreta. A classificação no grau ultrassecreto é ato privativo de altas autoridades de cúpula (Presidente, Ministros de Estado, Comandantes Militares), não podendo ser delegada a escalões intermediários.
+> - **E)** Incorreta. O atendimento a pedidos de cidadãos consubstancia transparência passiva; a transparência ativa é a publicação espontânea em portais públicos eletrônicos.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 318
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No campo da Nova Governança Pública e do combate à corrupção, o conceito de *Accountability* desdobra-se em diferentes dimensões fundamentais na relação entre governantes, sociedade e instituições fiscalizadoras.
+
+Assinale a opção que define corretamente a **Accountability Horizontal**:
+
+* **A)** É a mútua fiscalização e controle exercido entre os Poderes e órgãos públicos autônomos de mesmo patamar ou órgãos de controle especializado (como o controle exercido pelo Tribunal de Contas sobre o Poder Executivo ou pelo Ministério Público).
+* **B)** É o controle direto exercido pelos cidadãos sobre os governantes exclusivamente por meio do voto periódico nas eleições democráticas.
+* **C)** É a fiscalização informal exercida pela imprensa, meios de comunicação e movimentos sociais civis.
+* **D)** É a subordinação hierárquica e disciplinar obrigatória de servidores subalternos perante suas chefias imediatas.
+* **E)** É a transferência contratual de serviços de saúde para Organizações Sociais qualificadas pelo Executivo.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. **Accountability Horizontal** (Guillermo O'Donnell): controle mútuo institucional entre poderes e órgãos de controle (Legislativo, Tribunais de Contas, Judiciário e MP - freios e contrapesos); **Vertical**: cidadãos sobre governantes via voto; **Social**: mídia e ONGs.
+> - **B)** Incorreta. Refere-se à *Accountability Vertical*.
+> - **C)** Incorreta. Refere-se à *Accountability Social*.
+> - **D)** Incorreta. Trata-se de hierarquia administrativa.
+> - **E)** Incorreta. Publicização de serviços públicos.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 319
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O Decreto Federal nº 9.203/2017 dispõe sobre a política de governança da administração pública federal e define conceitos e diretrizes fundamentais também recepcionados pelos órgãos de controle estaduais (TCE-GO).
+
+De acordo com as boas práticas de governança no setor público, a distinção entre **Governança** e **Gestão** reside essencialmente em:
+
+* **A)** A governança compreende os mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, visando à condução de políticas públicas e à prestação de serviços de interesse da sociedade; enquanto a gestão é responsável pelo planejamento, execução, operação e entrega cotidiana das ações e projetos definidos pela governança.
+* **B)** A gestão é prerrogativa exclusiva do Poder Judiciário e a governança é função própria dos órgãos burocráticos municipais.
+* **C)** A governança e a gestão são sinônimos perfeitos na teoria administrativa contemporânea, inexistindo distinção prática ou normativa entre os termos.
+* **D)** A governança atua estritamente na fase de compra e liquidação contábil de bens e a gestão cuida da edição de medidas provisórias pelo Presidente da República.
+* **E)** A governança afasta a necessidade de controles internos e auditorias para permitir total liberdade aos gestores operacionais.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Decreto nº 9.203/2017: **Governança** (*Avaliar, Direcionar e Monitorar* - liderança e estratégia da alta direção); **Gestão** (*Planejar, Executar e Controlar* - operação cotidiana dos gerentes e equipes).
+> - **B), C), D), E)** Incorretas. Distorções conceituais dos papéis de governança e gestão.
+> 
+> **Gabarito: A**
 
 ---
 

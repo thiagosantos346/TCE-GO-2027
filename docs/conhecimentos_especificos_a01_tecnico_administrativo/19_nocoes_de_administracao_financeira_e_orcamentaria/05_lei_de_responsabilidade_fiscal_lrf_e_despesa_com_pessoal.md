@@ -4,7 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `05_lei_de_responsabilidade_fiscal_lrf_e_despesa_com_pessoal.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 
@@ -78,6 +81,33 @@ flowchart TD
 
 ---
 
+### Teste 250
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A Lei Complementar nº 101/2000 (LRF) estabelece dois instrumentos essenciais de transparência da gestão fiscal: o Relatório Resumido da Execução Orçamentária (RREO) e o Relatório de Gestão Fiscal (RGF).
+
+Sobre a periodicidade de publicação e o alcance desses relatórios, assinale a afirmativa correta:
+
+* **A)** O RREO é publicado bimestralmente pelo Poder Executivo (abrangendo todos os Poderes), enquanto o RGF é emitido quadrimestralmente por cada um dos Poderes e órgãos autônomos (Executivo, Legislativo, Judiciário e Ministério Público).
+* **B)** O RGF é divulgado mensalmente apenas pela União, sendo os Estados e Municípios dispensados de sua elaboração quando tiverem população inferior a 500 mil habitantes.
+* **C)** O RREO e o RGF são publicados anualmente em conjunto, exclusivamente como anexo integrante da prestação de contas do Governador ao Tribunal de Contas.
+* **D)** O RGF abrange unicamente o demonstrativo das despesas com propaganda institucional e diárias de viagem.
+* **E)** O descumprimento dos prazos de publicação do RREO não gera qualquer sanção institucional ao ente federado, possuindo natureza meramente orientativa.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O art. 52 da LRF determina a publicação do RREO até 30 dias após o encerramento de cada **bimestre** pelo Executivo (englobando todos os Poderes). O RGF (arts. 54 e 55 da LRF) é emitido ao final de cada **quadrimestre** por cada titular de Poder e órgão autônomo (com faculdade semestral para municípios com menos de 50 mil habitantes).
+> - **B)** Incorreta. O RGF é obrigatório para todos os entes federados (União, Estados, DF e Municípios).
+> - **C)** Incorreta. Os relatórios possuem periodicidades próprias infra-anuais (bimestral para RREO e quadrimestral para RGF).
+> - **D)** Incorreta. O RGF demonstra despesa com pessoal, dívida consolidada, concessão de garantias, operações de crédito e restos a pagar.
+> - **E)** Incorreta. O atraso na publicação do RREO e do RGF sujeita o ente ao impedimento de receber transferências voluntárias e contratar operações de crédito (art. 51, § 2º da LRF).
+> 
+> **Gabarito: A**
+
+---
+
 ## 2. Despesa Obrigatória de Caráter Continuado (DOCC - Art. 17)
 
 ### 2.1 Conceito Legal e Requisitos Formais
@@ -105,6 +135,33 @@ flowchart TD
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A banca frequentemente tenta igualar a compensação da DOCC com a da renúncia de receita. Na DOCC, **a compensação deve ser estritamente PERMANENTE**! Não basta indicar que há superávit temporário no ano corrente; o governante tem que aumentar receitas contínuas ou cortar outras despesas em caráter definitivo.
+
+---
+
+### Teste 251
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Determinado Secretário de Estado pretende criar um novo programa social continuado de concessão de bolsas financeiras mensais a estudantes do ensino médio da rede pública estadual, com vigência estimada por tempo indeterminado.
+
+Nos termos do artigo 17 da Lei de Responsabilidade Fiscal, por se tratar de Despesa Obrigatória de Caráter Continuado (DOCC), a criação desse programa exige:
+
+* **A)** Mera autorização na Lei Orçamentária Anual vigente, dispensando qualquer compensação financeira.
+* **B)** Estimativa do impacto orçamentário-financeiro no exercício em que deva entrar em vigor e nos dois subsequentes, comprovação de que a despesa não afetará as metas de resultados fiscais e compensação permanente pelo aumento de receita ou redução permanente de despesa.
+* **C)** Aprovação prévia unânime do Tribunal de Contas do Estado em sessão plenária extraordinária.
+* **D)** Demonstração de superávit orçamentário no balanço geral da União dos últimos cinco exercícios.
+* **E)** Declaração de nulidade de todos os contratos temporários em vigor na Secretaria de Educação.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A DOCC impõe condicionantes rigorosas de validade que vão muito além da simples inclusão na LOA.
+> - **B)** Correta. O art. 17 da LRF define que os atos que criarem ou aumentarem Despesa Obrigatória de Caráter Continuado (vigência superior a 2 anos) devem ser instruídos com estimativa de impacto orçamentário-financeiro no exercício de vigência e nos dois seguintes (triênio fiscal), declaração de compatibilidade com PPA/LDO/LOA, demonstração de não afetação de metas e compensação contínua permanente por aumento permanente de receitas ou redução permanente de outras despesas.
+> - **C)** Incorreta. A atuação dos Tribunais de Contas é de controle externo concomitante e a posteriori, não cabendo aprovação unânime prévia de projetos de governo.
+> - **D)** Incorreta. O programa é estadual e sua compensação opera-se dentro das finanças do próprio Estado de Goiás.
+> - **E)** Incorreta. Inexiste qualquer exigência de rescisão arbitrária de contratos temporários regulares.
+> 
+> **Gabarito: B**
 
 ---
 
@@ -174,27 +231,138 @@ Ao atingir 95% do limite legal máximo, aplicam-se imediatamente ao Poder ou ór
 
 ---
 
-### Teste 001
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
-O Relatório de Gestão Fiscal contém demonstrativos comparativos com os limites de que trata a Lei de Responsabilidade Fiscal dos montantes de despesa total com pessoal, evidenciando as despesas com ativos, inativos e pensionistas, dívida consolidada líquida, concessão de garantias e contragarantias e operações de crédito. Se a despesa total com pessoal do Poder ou órgão ultrapassar os limites definidos na Lei ao final de um quadrimestre, o excedente deverá ser eliminado nos dois quadrimestres seguintes, sendo pelo menos um terço no primeiro. No entanto, em situação especial, caso o Poder ou órgão ultrapasse seu limite de despesa com pessoal, entende-se que ele disporá automaticamente de quatro quadrimestres para eliminação do excesso, devendo eliminar pelo menos um terço dele nos dois primeiros. Essa situação especial pode ser caracterizada por
+### Teste 252
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Consoante as normas da Lei de Responsabilidade Fiscal (LC nº 101/2000), a despesa total com pessoal do Poder Legislativo do Estado de Goiás, incluído o Tribunal de Contas do Estado, não poderá exceder determinado percentual da Receita Corrente Líquida (RCL).
 
-* **A)** alta cotação do dólar.
-* **B)** altos índices de inflação.
-* **C)** alta taxa de desemprego.
-* **D)** baixo nível de exportação.
-* **E)** baixo crescimento econômico.
+A fatia global reservada pela LRF e sua respectiva repartição entre os órgãos do Legislativo goiano é de:
+
+* **A)** 6,0% da RCL, sendo 3,0% para a Assembleia Legislativa e 3,0% para o Tribunal de Contas.
+* **B)** 3,0% da RCL, sendo 1,8% para a Assembleia Legislativa e 1,2% para o Tribunal de Contas do Estado (TCE-GO).
+* **C)** 2,0% da RCL, sendo 1,0% para a Assembleia Legislativa e 1,0% para o Tribunal de Contas do Estado.
+* **D)** 3,0% da RCL, cabendo 2,0% à Assembleia Legislativa e 1,0% ao Tribunal de Contas do Estado.
+* **E)** 4,0% da RCL, com repartição disciplinada discricionariamente por ato conjunto dos Presidentes dos órgãos.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "alta cotação do dólar". De acordo com a teoria estudada em *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)*, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "altos índices de inflação". De acordo com a teoria estudada em *1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF*, relatorios RGF["2. RGF (Art. 54 da LRF)<br/ • Relatório de Gestão Fiscal<br/ • Periodicidade: QUADRIMESTRAL (publicado em até 30 dias)<br/ • Abrangência: Publicado INDIVIDUALMENTE por cada Poder e Órgão autônomo<br/ • Foco: Despesa com pessoal, dívida pública, garantias e Restos a Pagar"].
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "alta taxa de desemprego". De acordo com a teoria estudada em *3.1 Conceito, Apuração Quadrimestral e Base da RCL*, definição Ampla (Art. 18): Entende se por despesa total com pessoal o somatório dos gastos do ente com os ativos, inativos e pensionistas, relativos a mandatos eletivos, cargos, funções ou empregos, subsídios e vencimentos, vantagens fixas e variáveis, proventos de aposentadoria e pensões, adicionais, gratificações, horas extras, bem como encargos sociais e contribuições recolhidas pelo ente às entidades de previdência, além dos valores decorrentes de contratos de terceirização de mão de obra que substituam servidores de cargos vagos (art. 18, § 1º).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "baixo nível de exportação". De acordo com a teoria estudada em *4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)*, artigo 42 da LRF (Últimos 8 Meses do Mandato): É vedado ao titular de Poder ou órgão, nos últimos dois quadrimestres do seu mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito. O descumprimento sujeita o governante ao crime do art. 359 C do Código Penal (pena de reclusão de 1 a 4 anos).
-> - **E)** **Correta.** Conforme fundamentado na seção *3.4 Regras de Recondução e Medidas Constitucionais Sucessivas de Corte (Art. 169)* deste guia, se a DTP ultrapassar o Limite Máximo (100%), o excedente deverá ser integralmente eliminado nos dois quadrimestres imediatamente seguintes, devendo ser eliminado pelo menos um terço (1/3) no primeiro quadrimestre (art. 23 da LRF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "baixo crescimento econômico".
+> - **A)** Incorreta. O limite global estadual do Legislativo é de 3% (o limite de 6% é aplicável às Câmaras Municipais).
+> - **B)** Correta. De acordo com o art. 20, inciso II, alínea "a" da Lei de Responsabilidade Fiscal, a cota de 3,0% da Receita Corrente Líquida destinada ao Poder Legislativo Estadual é repartida em 1,8% para a Assembleia Legislativa e 1,2% para o Tribunal de Contas do Estado (TCE-GO).
+> - **C)** Incorreta. O limite de 2,0% pertence ao Ministério Público Estadual.
+> - **D)** Incorreta. A repartição legal correta é exatamente 1,8% para a ALEGO e 1,2% para o TCE-GO.
+> - **E)** Incorreta. A repartição decorre de norma expressa da lei complementar nacional, não de ato discricionário interno.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 253
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Determinado Estado da Federação, ao apurar o Relatório de Gestão Fiscal (RGF) ao término do segundo quadrimestre, verificou que as despesas com pessoal do Poder Executivo atingiram 96% do limite máximo legalmente fixado pela Lei de Responsabilidade Fiscal.
+
+Diante da constatação da superação do limite prudencial, o Governador do Estado:
+
+* **A)** Deverá ser sumariamente afastado do cargo pelo Tribunal de Contas por crime de responsabilidade contra as finanças públicas.
+* **B)** Poderá nomear novos servidores aprovados em concurso público para cargos administrativos recém-criados, desde que não haja impacto financeiro no exercício.
+* **C)** Ficará impedido de conceder vantagem, aumento, reajuste ou adequação de remuneração a qualquer título aos servidores públicos, ressalvada a revisão geral anual.
+* **D)** Terá o prazo de quatro quadrimestres para reconduzir a despesa ao limite prudencial, devendo demitir compulsoriamente os servidores estáveis no primeiro mês.
+* **E)** Ficará automaticamente autorizado a contrair operações de crédito por antecipação de receita orçamentária para saldar a folha de pagamento.
+
+
+---
+
+> **Comentário Detalhado:**
 >
-> **Gabarito: E**
+> - **A)** Incorreta. O Tribunal de Contas não tem competência para decretar monocraticamente o afastamento sumário de governadores em virtude do atingimento do limite prudencial.
+> - **B)** Incorreta. O art. 22, parágrafo único, IV da LRF proíbe expressamente o provimento de cargos públicos e contratação de pessoal quando atingido o limite prudencial, abrindo exceção apenas para reposição em saúde, educação e segurança por morte ou aposentadoria.
+> - **C)** Correta. Ao ultrapassar o limite prudencial de 95% do teto máximo de pessoal, disparam-se automaticamente as vedações do art. 22, parágrafo único da LRF, dentre as quais a vedação categórica de concessão de vantagens, aumentos ou reajustes de remuneração, ressalvada tão somente a revisão geral anual do art. 37, X da CF/88.
+> - **D)** Incorreta. O prazo de recondução de dois quadrimestres aplica-se à superação do limite total (100%), e a demissão de estáveis é a última das medidas extremas do art. 169 da CF.
+> - **E)** Incorreta. É vedada a contratação de ARO para financiar despesas de pessoal.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 254
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Ao término do primeiro quadrimestre do exercício, a unidade técnica do Tribunal de Contas apurou que as despesas com pessoal da Assembleia Legislativa atingiram 92% do seu limite máximo legal.
+
+Nos termos do artigo 59, § 1º, inciso II da Lei Complementar nº 101/2000, diante dessa situação fática, compete ao Tribunal de Contas:
+
+* **A)** Determinar a imediata demissão de servidores comissionados para recomposição das metas fiscais.
+* **B)** Emitir alerta formal ao Poder Legislativo informando que o montante da despesa com pessoal ultrapassou 90% do limite máximo legal.
+* **C)** Declarar a indisponibilidade dos bens do Presidente da Mesa Diretora da Casa Legislativa.
+* **D)** Proibir o Poder Executivo de realizar o repasse do duodécimo orçamentário constitucional.
+* **E)** Decretar intervenção fiscal no parlamento com nomeação de interventor econômico em conformidade com as normas legais e regulamentares aplicáveis.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A redução de 20% das comissões só é exigível após o transcurso do prazo de descumprimento do limite total (100%).
+> - **B)** Correta. Conforme o art. 59, § 1º, II da LRF, o Tribunal de Contas alertará formalmente o respectivo Poder ou órgão sempre que constatar que o montante da despesa total com pessoal ultrapassou 90% do limite máximo (Limite de Alerta). Tendo atingido 92%, a medida técnica imediata é a expedição de Alerta.
+> - **C)** Incorreta. Medida cautelar patrimonial desproporcional e inexistente para mera situação de alerta.
+> - **D)** Incorreta. O repasse dos duodécimos constitucionais até o dia 20 de cada mês (art. 168 da CF) é imperativo e insuscetível de retenção unilateral.
+> - **E)** Incorreta. Inexiste figura de intervenção fiscal no parlamento pelo órgão de contas.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 255
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na hipótese de a Despesa Total com Pessoal (DTP) de determinado Poder ou órgão autônomo estadual ultrapassar o limite máximo fixado na LRF, a Constituição Federal de 1988 (art. 169, §§ 3º e 4º) e a própria LRF impõem medidas sucessivas e escalonadas para o retorno aos limites.
+
+A ordem constitucional obrigatória das medidas de corte é:
+
+* **A)** 1º - Redução de pelo menos 20% das despesas com cargos em comissão e funções de confiança; 2º - Exoneração de servidores não estáveis; 3º - Se as medidas anteriores não forem suficientes, perda do cargo pelo servidor público estável.
+* **B)** 1º - Demissão sumária de servidores públicos estáveis; 2º - Redução proporcional de salários dos magistrados; 3º - Extinção de fundos constitucionais.
+* **C)** 1º - Suspensão do pagamento de proventos a aposentados; 2º - Extinção de órgãos públicos; 3º - Corte de despesas de capital em saúde e educação.
+* **D)** 1º - Exoneração imediata de servidores aprovados em concurso recente; 2º - Demissão de ocupantes de cargos comissionados; 3º - Aumento compulsório da alíquota do ICMS.
+* **E)** 1º - Devolução voluntária de subsídios pelos Chefes de Poder; 2º - Congelamento da inflação; 3º - Limitação exclusiva das despesas de investimento.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O art. 169, §§ 3º e 4º da CF/88 estabelece a ordem cronológica estrita de providências: 1) redução em pelo menos 20% das despesas com comissionados e funções de confiança; 2) se não bastar, exoneração dos servidores não estáveis; 3) se ainda assim não alcançar o equilíbrio, o servidor estável poderá perder o cargo mediante processo administrativo em que lhe seja assegurada ampla defesa, fazendo jus a indenização de 1 mês por ano de serviço.
+> - **B)** Incorreta. Atingir servidor estável é medida extrema e residual (última etapa), jamais primeira.
+> - **C)** Incorreta. Proventos de aposentadoria gozam de garantia constitucional irredutível.
+> - **D)** Incorreta. A primeira etapa atinge cargos em comissão e funções de confiança, não servidores concursados.
+> - **E)** Incorreta. Não existe previsão constitucional de tais medidas nessa ordem.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 256
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em determinado Estado da Federação, apurou-se que a Despesa Total com Pessoal do Poder Executivo atingiu 96% do limite máximo legalmente admitido pela Lei de Responsabilidade Fiscal (limite prudencial ultrapassado).
+
+Diante dessa situação fática, o Poder Executivo estadual está expressamente VEDADO de:
+
+* **A)** Conceder vantagem, aumento, reajuste ou adequação de remuneração a qualquer título, salvo os derivados de sentença judicial ou de determinação legal ou contratual anterior, bem como criar cargo, emprego ou função.
+* **B)** Pagar a folha normal de salários e os proventos regulares de aposentadoria e pensão dos servidores já existentes.
+* **C)** Efetuar qualquer tipo de empenho orçamentário destinado à manutenção de escolas e hospitais estaduais.
+* **D)** Arrecadar tributos estaduais inscritos em dívida ativa e ajuizar execuções fiscais.
+* **E)** Publicar o Relatório Resumido da Execução Orçamentária e as prestações de contas constitucionais.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O art. 22, parágrafo único da LRF estabelece que, ao ultrapassar o limite prudencial (95% do limite máximo), aplicam-se proibições imediatas ao órgão: vedada concessão de vantagens/aumentos/reajustes (salvo decisão judicial ou lei anterior), criação de cargos, alteração de estruturas de carreira que impliquem aumento de despesa, provimento de cargo público (ressalvada reposição em saúde, educação e segurança por aposentadoria/falecimento) e contratação de hora extra.
+> - **B)** Incorreta. O pagamento da folha regular existente permanece obrigatório.
+> - **C)** Incorreta. As despesas de custeio e funcionamento de serviços essenciais continuam normais.
+> - **D)** Incorreta. A atividade arrecadatória é dever funcional vinculado do Estado.
+> - **E)** Incorreta. A transparência fiscal é mantida e reforçada nesse cenário.
+> 
+> **Gabarito: A**
 
 ---
 
@@ -232,123 +400,80 @@ flowchart TD
 
 ---
 
-### Teste 002
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-O Relatório Resumido da Execução Orçamentária (RREO) é divulgado mensalmente pela União. De acordo com o Manual de Demonstrativos Fiscais, o objetivo dessa periodicidade é
+### Teste 257
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A respeito das regras atinentes às Operações de Crédito por Antecipação de Receita Orçamentária (ARO) e às vedações do final de mandato disciplinadas na Lei Complementar nº 101/2000 (LRF), assinale a opção correta:
 
-* **A)** oferecer segurança à sociedade, de modo a aumentar a arrecadação.
-* **B)** assegurar que as informações são livres de fraude e de erro e que a transparência é valorizada.
-* **C)** mostrar à sociedade que o Governo Federal cumpre com as suas responsabilidades perante ela.
-* **D)** servir de exemplo e estimular que outras entidades públicas divulguem os seus relatórios com regularidade.
-* **E)** permitir que a sociedade conheça, acompanhe e analise o desempenho da execução orçamentária do Governo Federal.
+* **A)** A ARO pode ser contratada a qualquer momento do último ano de mandato do governante, desde que aprovada por dois terços dos membros do Poder Legislativo.
+* **B)** A operação de crédito por ARO destina-se a financiar despesas de capital de longo prazo, devendo ser amortizada no prazo de trinta e seis meses.
+* **C)** É vedado ao titular de Poder contrair obrigação de despesa nos últimos dois quadrimestres do seu mandato sem que haja suficiente disponibilidade de caixa para o seu pagamento.
+* **D)** A liquidação da ARO poderá ser postergada para o exercício seguinte caso a arrecadação tributária no mês de dezembro fique abaixo da média anual.
+* **E)** A realização de ARO dispensa a cobrança de juros bancários por se tratar de operação de curto prazo de assistência mútua federativa.
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "oferecer segurança à sociedade, de modo a aumentar a arrecadação". De acordo com a teoria estudada em *1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF*, para viabilizar a ampla fiscalização pela sociedade e pelos órgãos de controle externo (TCEs e Ministério Público de Contas), a LRF institui dois relatórios periódicos estruturantes.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "assegurar que as informações são livres de fraude e de erro e que a transparência é valorizada". De acordo com a teoria estudada em *1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF*, relatorios["Instrumentos Periódicos de Transparência Fiscal"].
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mostrar à sociedade que o Governo Federal cumpre com as suas responsabilidades perante ela". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Normativas Recomendadas*, tCE GO Resultados e Pareceres de Contas de Governo Acompanhamento dos demonstrativos da Lei de Responsabilidade Fiscal pelo TCE GO.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "servir de exemplo e estimular que outras entidades públicas divulguem os seus relatórios com regularidade". De acordo com a teoria estudada em *1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF*, relatorios RGF["2. RGF (Art. 54 da LRF)<br/ • Relatório de Gestão Fiscal<br/ • Periodicidade: QUADRIMESTRAL (publicado em até 30 dias)<br/ • Abrangência: Publicado INDIVIDUALMENTE por cada Poder e Órgão autônomo<br/ • Foco: Despesa com pessoal, dívida pública, garantias e Restos a Pagar"].
-> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF* deste guia, relatorios RREO["1. RREO (Art. 52 da LRF)<br/ • Relatório Resumido da Execução Orçamentária<br/ • Periodicidade: BIMESTRAL (publicado em até 30 dias)<br/ • Abrangência: Todos os Poderes consolidado pelo Poder Executivo<br/ • Foco: Balanço Orçamentário, metas fiscais e receitas/despesas"]. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "permitir que a sociedade conheça, acompanhe e analise o desempenho da execução orçamentária do Governo Federal".
->
-> **Gabarito: E**
-
----
-
-### Teste 003
-**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
-Um cidadão solicitou um pedido de acesso à informação para verificar a adequação da Dívida Consolidada Líquida (DCL) do município em que reside. Sua solicitação decorre de um conjunto de matérias jornalísticas indicando que o referido ente teria comprometido cerca de 250% da Receita Corrente Líquida (RCL) com tais rubricas. Na resposta ao cidadão, a prefeitura indicou corretamente que a informação demandada está disponível para consulta pública no portal da transparência por meio do:
-
-* **A)** balanço patrimonial;
-* **B)** balanço orçamentário;
-* **C)** balanço financeiro;
-* **D)** relatório de gestão fiscal;
-* **E)** relatório resumido de execução orçamentária.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "balanço patrimonial". De acordo com a teoria estudada em *1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF*, relatorios RREO["1. RREO (Art. 52 da LRF)<br/ • Relatório Resumido da Execução Orçamentária<br/ • Periodicidade: BIMESTRAL (publicado em até 30 dias)<br/ • Abrangência: Todos os Poderes consolidado pelo Poder Executivo<br/ • Foco: Balanço Orçamentário, metas fiscais e receitas/despesas"].
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "balanço orçamentário". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Normativas Recomendadas*, mOTA, Francisco Glauber Lima. Contabilidade Aplicada ao Setor Público. 2. ed. Brasília: Gestão Pública, 2018. (Cap. 8 A Lei de Responsabilidade Fiscal e o Equilíbrio Orçamentário).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "balanço financeiro". De acordo com a teoria estudada em *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)*, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF* deste guia, relatorios RGF["2. RGF (Art. 54 da LRF)<br/ • Relatório de Gestão Fiscal<br/ • Periodicidade: QUADRIMESTRAL (publicado em até 30 dias)<br/ • Abrangência: Publicado INDIVIDUALMENTE por cada Poder e Órgão autônomo<br/ • Foco: Despesa com pessoal, dívida pública, garantias e Restos a Pagar"]. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "relatório de gestão fiscal".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "relatório resumido de execução orçamentária". De acordo com a teoria estudada em *2.1 Conceito Legal e Requisitos Formais*, a Despesa Obrigatória de Caráter Continuado (DOCC) é a despesa corrente derivada de lei, medida provisória ou ato administrativo normativo que fixe para o ente público a obrigação legal de sua execução por um período superior a dois (2) anos (art. 17, caput da LRF).
->
-> **Gabarito: D**
+> - **A)** Incorreta. O art. 38, IV, "b" da LRF proíbe terminantemente a contratação de operações por ARO no último ano de mandato do governante.
+> - **B)** Incorreta. ARO é mecanismo de curto prazo para cobrir insuficiência momentânea de fluxo de caixa, e não para financiar despesas de capital de longo prazo.
+> - **C)** Correta. Trata-se da regra expressa do art. 42 da LRF: é vedado ao governante, nos últimos dois quadrimestres do mandato (últimos 8 meses), assumir obrigação financeira que não possa ser paga dentro dele ou que deixe parcelas para o ano seguinte sem suficiente saldo de caixa disponível.
+> - **D)** Incorreta. A data de resgate final da ARO é improrrogável: deve ser liquidada até o dia 10 de dezembro do mesmo exercício financeiro.
+> - **E)** Incorreta. Operações de crédito bancário de ARO sujeitam-se às taxas de juros contratuais de mercado.
+> 
+> **Gabarito: C**
 
 ---
 
-### Teste 004
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
-Além de obedecer às demais normas de contabilidade pública, a escrituração das contas públicas observará algumas normas definidas pela Lei Complementar nº 101/2000. Deste modo, (i) a despesa e a assunção de compromisso e (ii) o resultado dos fluxos financeiros, apurado em caráter complementar, serão registrados, respectivamente, pelos regimes
+### Teste 258
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O art. 167, inciso III da Constituição Federal de 1988 estabelece o princípio conhecido pela doutrina e jurisprudência como a **"Regra de Ouro"** das finanças públicas brasileiras.
 
-* **A)** de caixa e de caixa.
-* **B)** de competência e de caixa.
-* **C)** de caixa e de competência
-* **D)** à critério da entidade e de competência.
-* **E)** de competência e à critério da entidade.
+Segundo a Regra de Ouro constitucional:
 
----
+* **A)** É vedada a realização de operações de créditos que excedam o montante das despesas de capital, ressalvadas as autorizadas mediante créditos suplementares ou especiais com finalidade precisa, aprovados pelo Poder Legislativo por maioria absoluta.
+* **B)** As receitas tributárias correntes devem superar em pelo menos 50% todas as despesas com juros e encargos da dívida pública consolidada.
+* **C)** É obrigatória a destinação de 10% da receita de impostos para a constituição de reserva monetária em ouro no Banco Central do Brasil.
+* **D)** Nenhuma dívida pública fundada poderá ultrapassar o prazo de amortização de dez anos sem autorização unânime do Senado Federal.
+* **E)** Os precatórios judiciais alimentares gozam de preferência absoluta de saque em relação a qualquer outro dispêndio estatal.
 
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de caixa e de caixa". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Normativas Recomendadas*, lei Estadual nº 16.168/2007 (Fiscalização da LRF pelo TCE GO) Competência do Tribunal de Contas para fiscalizar o cumprimento das metas fiscais e limites de gastos de pessoal nos órgãos estaduais.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)* deste guia, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "de competência e de caixa".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de caixa e de competência". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Normativas Recomendadas*, lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal) Texto integral da LRF detalhando limites globais e setoriais com despesa total com pessoal (DTP), limites prudenciais e de alerta.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "à critério da entidade e de competência". De acordo com a teoria estudada em *4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)*, fimMandato Art42["Artigo 42 da LRF (Últimos 2 Quadrimestres 8 Meses)<br/ • É VEDADO contrair despesa sem disponibilidade de caixa suficiente<br/ • O saldo deve cobrir parcelas a pagar no exercício subsequente<br/ • Infração gera crime contra finanças públicas (Art. 359 C do CP)"].
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de competência e à critério da entidade". De acordo com a teoria estudada em *4.3 As Restrições Severas de Final de Mandato (Arts. 21 e 42 da LRF)*, artigo 42 da LRF (Últimos 8 Meses do Mandato): É vedado ao titular de Poder ou órgão, nos últimos dois quadrimestres do seu mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito. O descumprimento sujeita o governante ao crime do art. 359 C do Código Penal (pena de reclusão de 1 a 4 anos).
->
-> **Gabarito: B**
-
----
-
-### Teste 005
-**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
-Relacione os procedimentos da Contabilidade Aplicada ao Setor Público (CASP) a seguir às respectivas afirmativas. 1. Orçamentário. 2. Patrimonial. 3. Fiscal. ( ) Os princípios e as normas contábeis voltadas para o reconhecimento, a mensuração e a evidenciação dos ativos e passivos e de suas variações, devem ser atendidos. ( ) Compreende a apuração e a evidenciação, por meio da contabilidade, dos indicadores estabelecidos pela LRF. Entre os objetivos de seus relatórios está o de analisar o equilíbrio das contas públicas. ( ) Os procedimentos contábeis visam melhorar a qualidade e a consistência das informações prestadas a toda a sociedade, de modo a possibilitar o exercício da cidadania no processo de fiscalização da arrecadação das receitas e da execução das despesas. Assinale a opção que apresenta a relação correta, segundo a ordem apresentada.
-
-* **A)** 1 – 2 – 3.
-* **B)** 2 – 3 – 1.
-* **C)** 3 – 1 – 2.
-* **D)** 1 – 3 – 2.
-* **E)** 2 – 1 – 3.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 2 – 3". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Normativas Recomendadas*, mOTA, Francisco Glauber Lima. Contabilidade Aplicada ao Setor Público. 2. ed. Brasília: Gestão Pública, 2018. (Cap. 8 A Lei de Responsabilidade Fiscal e o Equilíbrio Orçamentário).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)* deste guia, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "2 – 3 – 1".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 1 – 2". De acordo com a teoria estudada em *1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF*, relatorios RREO["1. RREO (Art. 52 da LRF)<br/ • Relatório Resumido da Execução Orçamentária<br/ • Periodicidade: BIMESTRAL (publicado em até 30 dias)<br/ • Abrangência: Todos os Poderes consolidado pelo Poder Executivo<br/ • Foco: Balanço Orçamentário, metas fiscais e receitas/despesas"].
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 3 – 2". De acordo com a teoria estudada em *1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF*, para viabilizar a ampla fiscalização pela sociedade e pelos órgãos de controle externo (TCEs e Ministério Público de Contas), a LRF institui dois relatórios periódicos estruturantes.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 1 – 3". De acordo com a teoria estudada em *2.2 Mecanismos Permanentes de Compensação Fiscal*, a banca frequentemente tenta igualar a compensação da DOCC com a da renúncia de receita. Na DOCC, a compensação deve ser estritamente PERMANENTE! Não basta indicar que há superávit temporário no ano corrente; o governante tem que aumentar receitas contínuas ou cortar outras despesas em caráter definitivo.
->
-> **Gabarito: B**
+> - **A)** Correta. É o teor literal do art. 167, III da CF/88. A finalidade da Regra de Ouro é impedir que o Estado financie despesas correntes de custeio diário com endividamento público (empréstimos), exigindo que o crédito obtido financie despesas de capital (investimentos), ressalvada autorização legislativa especial por maioria absoluta.
+> - **B)** Incorreta. Trata-se de formulação sem respaldo constitucional.
+> - **C)** Incorreta. Não existe exigência de lastro em metal ouro na gestão orçamentária hodierna.
+> - **D)** Incorreta. Os limites da dívida consolidada são fixados por resolução do Senado Federal com base no art. 52 da CF/88.
+> - **E)** Incorreta. Embora precatórios tenham preferência no art. 100 da CF/88, não é essa a definição da Regra de Ouro.
+> 
+> **Gabarito: A**
 
 ---
 
-### Teste 006
-**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
-De acordo com a Lei Complementar nº 101/2000, acompanharão o Relatório Resumido da Execução Orçamentária, demonstrativos relativos a resultados
+### Teste 259
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Nos termos do art. 42 da Lei de Responsabilidade Fiscal (LC nº 101/2000), aplicável aos governantes dos Poderes Executivo, Legislativo e Judiciário em fim de mandato:
 
-* **A)** fixos e variáveis.
-* **B)** correntes e de capital.
-* **C)** contábeis e econômicos.
-* **D)** nominais e primários.
-* **E)** financeiros e patrimoniais.
+* **A)** É vedado ao titular de Poder ou órgão contrair obrigação de despesa que não possa ser cumprida integralmente dentro dos últimos dois quadrimestres do seu mandato, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito.
+* **B)** É permitida a contratação de quaisquer despesas continuadas, desde que os empenhos sejam cancelados no primeiro dia útil do mandato do sucessor.
+* **C)** Os contratos administrativos firmados nos últimos oito meses do mandato ficam automaticamente rescindidos sem direito a indenização.
+* **D)** As restrições de final de mandato atingem exclusivamente o Presidente da República e os Governadores de Estado, não se aplicando aos Prefeitos Municipais.
+* **E)** O descumprimento do art. 42 da LRF constitui mera irregularidade formal de gestão, sem repercussão na esfera penal do ordenador de despesas.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fixos e variáveis". De acordo com a teoria estudada em *3.1 Conceito, Apuração Quadrimestral e Base da RCL*, definição Ampla (Art. 18): Entende se por despesa total com pessoal o somatório dos gastos do ente com os ativos, inativos e pensionistas, relativos a mandatos eletivos, cargos, funções ou empregos, subsídios e vencimentos, vantagens fixas e variáveis, proventos de aposentadoria e pensões, adicionais, gratificações, horas extras, bem como encargos sociais e contribuições recolhidas pelo ente às entidades de previdência, além dos valores decorrentes de contratos de terceirização de mão de obra que substituam servidores de cargos vagos (art. 18, § 1º).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correntes e de capital". De acordo com a teoria estudada em *4.1 A Regra de Ouro Orçamentária (Art. 167, III da CF/88)*, objetivo Econômico: Impedir que o governante contraia empréstimos públicos ou emita títulos soberanos para pagar despesas correntes de manutenção (salários e diárias), endividando as gerações futuras sem criar capital ou infraestrutura física durável.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contábeis e econômicos". De acordo com a teoria estudada em *1.2 Os Relatórios Fiscais Obrigatórios: RREO e RGF*, relatorios RREO["1. RREO (Art. 52 da LRF)<br/ • Relatório Resumido da Execução Orçamentária<br/ • Periodicidade: BIMESTRAL (publicado em até 30 dias)<br/ • Abrangência: Todos os Poderes consolidado pelo Poder Executivo<br/ • Foco: Balanço Orçamentário, metas fiscais e receitas/despesas"].
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Premissas da Gestão Fiscal Responsável (Art. 1º, § 1º)* deste guia, a Lei Complementar Federal nº 101/2000 (Lei de Responsabilidade Fiscal LRF) estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições no que tange a renúncia de receita, geração de despesas com pessoal, da seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em Restos a Pagar. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "nominais e primários".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "financeiros e patrimoniais". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Normativas Recomendadas*, lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal) Texto integral da LRF detalhando limites globais e setoriais com despesa total com pessoal (DTP), limites prudenciais e de alerta.
->
-> **Gabarito: D**
+> - **A)** Correta. É a redação expressa do art. 42 da LRF: veda contrair despesa nos últimos dois quadrimestres (8 meses) do mandato sem suficiente disponibilidade de caixa para saldá-la ou cobrir parcelas no exercício subsequente.
+> - **B)** Incorreta. A vedação visa justamente evitar o cancelamento abusivo de restos a pagar e a transmissão de déficits ao sucessor.
+> - **C)** Incorreta. Contratos regulares não são rescindidos automaticamente; o que se proíbe é contrair obrigações sem lastro de caixa.
+> - **D)** Incorreta. Aplica-se a todos os titulares de Poder e órgão de todas as esferas federativas.
+> - **E)** Incorreta. O descumprimento do art. 42 da LRF configura o crime tipificado no art. 359-C do Código Penal (pena de reclusão de 1 a 4 anos).
+> 
+> **Gabarito: A**
 
 ---
 

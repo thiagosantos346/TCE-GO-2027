@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `01_cultura_devops_ci_cd_e_automacao_de_pipelines.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Conceitos e fundamentos da cultura DevOps
@@ -131,6 +134,86 @@ As métricas DORA resultam de quase uma década de pesquisas empíricas e rigor 
 
 ---
 
+### Teste 171
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O framework C.A.L.M.S., concebido por Damon Edwards e John Willis, resume os cinco pilares fundacionais da cultura DevOps em organizações de alto desempenho. Os cinco pilares representados pelo acrônimo C.A.L.M.S. são:
+
+* **A)** *Control, Architecture, Legacy, Monitoring, Speed*
+* **B)** *Culture, Automation, Lean, Measurement, Sharing*
+* **C)** *Containers, Agility, Linux, Microservices, Security*
+* **D)** *Communication, Accuracy, Leadership, Management, Software*
+* **E)** *Continuous, Alignment, Licensing, Maintenance, Scalability*
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Termos arbitrários não correspondentes ao modelo.
+> - **B) Correta.** O acrônimo C.A.L.M.S. traduz os cinco pilares essenciais de DevOps:
+>   - **Culture (Cultura):** colaboração, empatia e quebra de silos entre Desenvolvimento e Operações;
+>   - **Automation (Automação):** eliminação de tarefas manuais repetitivas via pipelines e IaC;
+>   - **Lean (Pensamento Enxuto):** fluxo contínuo, lotes pequenos e eliminação de desperdícios;
+>   - **Measurement (Mensuração):** telemetria, métricas de negócio e dados orientando decisões;
+>   - **Sharing (Compartilhamento):** disseminação aberta de aprendizados, ferramentas e responsabilidade mútua.
+> - **C) Incorreta.** Mistura ferramentas técnicas com termos ágeis.
+> - **D) Incorreta.** Não reflete a definição oficial de DevOps.
+> - **E) Incorreta.** Definição incorreta.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 172
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na obra de referência *The DevOps Handbook* (Gene Kim, Jez Humble et al.), as práticas e princípios que norteiam a transformação DevOps são organizados nas "Três Vias" (*The Three Ways*). A Segunda Via (*The Second Way*) tem como objetivo primordial:
+
+* **A)** Acelerar o fluxo unidirecional de valor de Desenvolvimento para Operações, aumentando o tamanho dos lotes de entrega.
+* **B)** Amplificar e encurtar os ciclos de feedback da direita para a esquerda (de Operações/Produção de volta para Desenvolvimento), permitindo detectar, resolver e prevenir problemas no menor tempo possível.
+* **C)** Estabelecer uma cultura de culpa (*blame culture*) onde cada incidente gera punição imediata ao engenheiro responsável garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
+* **D)** Terceirizar integralmente a responsabilidade da infraestrutura para servidores públicos em regime de comodato.
+* **E)** Impedir a execução de testes automatizados no ambiente de desenvolvimento local.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A Primeira Via (*The First Way*) foca nos Princípios de Fluxo (da esquerda para a direita, com lotes pequenos).
+> - **B) Correta.** A Segunda Via (*The Second Way*) foca nos Princípios de Feedback: criar ciclos de retorno rápidos e contínuos de Operações/Produção para Desenvolvimento (*shift-left* do feedback, telemetria em tempo real), evitando que defeitos se propaguem e permitindo correção imediata.
+> - **C) Incorreta.** A cultura DevOps baseia-se em post-mortems sem culpa (*blameless post-mortems*).
+> - **D) Incorreta.** DevOps prega a colaboração integrada, não terceirização burocrática.
+> - **E) Incorreta.** Testes contínuos são a base da automação DevOps.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 173
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A equipe de liderança técnica de uma Secretaria de Fazenda Estadual realizou uma avaliação de maturidade de seus processos de entrega contínua com base no framework DORA (*DevOps Research and Assessment*). De acordo com os relatórios consolidados do State of DevOps Report da DORA, as organizações classificadas como de alta performance técnica (*high performers*) são caracterizadas por:  
+
+* **A)** Alto *Lead Time for Changes* (superior a um mês) para assegurar rigorosas revisões manuais por comitês de governança (CAB) antes de qualquer implantação.
+* **B)** Alta frequência de implantação (*Deployment Frequency*) combinada simultaneamente com baixo tempo de recuperação de serviços (*Time to Restore Service*) e baixa taxa de falha em mudanças (*Change Failure Rate*).
+* **C)** Baixa frequência de implantação (deploys semestrais em lotes grandes), priorizando a estabilidade através do congelamento de código (*code freeze*).
+* **D)** Alta taxa de falha em mudanças (*Change Failure Rate* acima de 50%), justificada pela necessidade de aprendizado rápido na Terceira Via do DevOps, desconsiderando a perda de disponibilidade.
+* **E)** Foco exclusivo no custo financeiro da computação em nuvem, ignorando métricas de velocidade de entrega e estabilidade operacional.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Um *Lead Time for Changes* elevado (meses) e a dependência de comitês centralizados manuais (CAB) são marcas registradas de organizações de baixa performance. Times de elite possuem Lead Time inferior a 1 hora.
+> - **B)** Correta. A principal descoberta científica do DORA é que velocidade (*throughput*) e estabilidade não são excludentes: organizações de alta performance possuem altíssima frequência de deploy e ciclo ágil de entrega, acompanhados de baixíssima taxa de falha nas mudanças (0% a 15%) e recuperação de falhas (*Time to Restore*) em menos de 1 hora.
+> - **C)** Incorreta. Deploys semestrais em lotes gigantescos e políticas de congelamento de código geram acúmulo de risco, integração traumática (*merge hell*) e falhas graves de sistema, caracterizando organizações de baixa maturidade.
+> - **D)** Incorreta. A Terceira Via do DevOps estimula experimentação e aprendizado a partir de falhas em ambientes seguros, mas nunca aceita uma taxa de 50% de quebra em produção com prejuízo aos usuários.
+> - **E)** Incorreta. As métricas DORA são estritamente centradas nas quatro dimensões técnicas fundamentais de throughput e estabilidade operacional, e não no custo financeiro da fatura de nuvem.
+> 
+> **Gabarito: B**
+
+---
+
 ## 2. O Espectro de Automação: CI vs. CD (Delivery vs. Deployment)
 
 A automação da esteira de publicação de software é composta por três patamares progressivos de maturidade. Compreender o limite exato de escopo e responsabilidade entre eles é matéria clássica em provas da FCC.
@@ -202,141 +285,61 @@ A **Implantação Contínua (*Continuous Deployment*)** representa o nível máx
 
 ---
 
-### Teste 001
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
-Avalie as seguintes afirmativas no contexto de práticas e metodologias de deploy em desenvolvimento mobile: I. A aplicação de Continuous Integration (CI) em aplicativos mobile responsivos é uma prática que visa a fusão e teste do código apenas ao final de cada sprint; II. Continuous Delivery (CD) é parte da filosofia "Mobile First" e permite que toda mudança de código seja automaticamente disponibilizada para os usuários finais, sem a necessidade de aprovação das equipes de operações; III. DevSecOps é a integração da segurança no processo de desenvolvimento de software desde o início sem comprometer a velocidade de entrega. Está correto o que se afirma em
+### Teste 174
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na esteira de Integração Contínua (CI), uma prática consagrada originária do Sistema Toyota de Produção (metáfora do *Andon Cord*) é o princípio do *"Stop the Line"* (Parar a Linha de Montagem). No contexto do desenvolvimento de software em equipe, esse princípio determina que:
+
+* **A)** Sempre que o build quebrar ou um teste automatizado falhar no pipeline da branch principal, a equipe deve priorizar imediatamente a correção do problema antes de comitar qualquer novo código, impedindo o acúmulo de erros sobre uma base instável.
+* **B)** Todos os desenvolvedores devem desligar seus computadores e sair do escritório por tempo indeterminado.
+* **C)** O pipeline deve desabilitar os testes que falharam para que o deploy possa prosseguir normalmente para produção. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** O código da branch principal deve ser revertido para a versão original do ano anterior.
+* **E)** A gerência deve transferir o projeto para uma consultoria externa sem aviso prévio.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** O princípio "Stop the Line" estabelece disciplina inegociável de qualidade: um build quebrado é um sinal de emergência máxima para a equipe. Enquanto a branch principal estiver vermelha, novas funcionalidades não devem ser mescladas até que o problema seja diagnosticado e reparado.
+> - **B) Incorreta.** A equipe deve agir rapidamente para restabelecer a integridade do build.
+> - **C) Incorreta.** Desativar testes com falha é um anti-padrão gravíssimo que mascara falhas críticas em produção.
+> - **D) Incorreta.** Ação desproporcional e descabida.
+> - **E) Incorreta.** Afirmação absurda.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 175
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No contexto da cultura DevOps e das práticas modernas de engenharia de software, considere as seguintes afirmativas sobre Integração Contínua (CI), Entrega Contínua (*Continuous Delivery*) e Implantação Contínua (*Continuous Deployment*):
+
+I. Na Integração Contínua (*Continuous Integration*), desenvolvedores integram código ao ramo principal com alta frequência, disparando compilações e execuções de testes automatizados a cada *commit*, de modo a identificar falhas de integração precocemente.  
+
+II. Na Entrega Contínua (*Continuous Delivery*), todo o pipeline de automação (da compilação até os testes em ambientes similares ao de produção) é executado, deixando a aplicação em estado permanente de prontidão para implantação (*release candidate*), dependendo, contudo, de uma aprovação/gatilho manual por decisão de negócio para o deploy em produção.  
+
+III. Na Implantação Contínua (*Continuous Deployment*), não há intervenção humana no fluxo: toda alteração aprovada em todos os testes e estágios automatizados do pipeline é promovida automaticamente para o ambiente produtivo.  
+
+Está correto o que se afirma em:  
 
 * **A)** I, apenas.
-* **B)** II e III, apenas.
-* **C)** III, apenas.
-* **D)** I, II e III.
-* **E)** I e II, apenas. Redes de Computadores e Sistemas Operacionais Redes de Computadores
+* **B)** I e II, apenas.
+* **C)** II e III, apenas.
+* **D)** I e III, apenas.
+* **E)** I, II e III.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, conforme consagrado por Martin Fowler, a Integração Contínua ( Continuous Integration ) é a prática de engenharia na qual os membros de um time integram suas alterações de código fonte ao branch principal do repositório com alta frequência — preferencialmente ao menos uma vez por dia.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.2 Entrega Contínua (Continuous Delivery): O Release Candidate Permanente*, ela automatiza toda a preparação da aplicação até o limiar de produção. Cada alteração que passa pelos testes é empacotada em uma imagem ou binário e implantada automaticamente em ambientes de homologação ( staging , pre prod ) estritamente idênticos à produção.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.4 Tabela Comparativa Detalhada: CI vs. Continuous Delivery vs. Continuous Deployment* deste guia, objetivo Primário: Validar que o código de múltiplos desenvolvedores compila e se integra sem quebrar funcionalidades existentes. — Assegurar que o software está em estado permanente de prontidão para deploy produtivo a qualquer momento. — Disponibilizar novas alterações para os usuários finais em produção de maneira imediata e ininterrupta. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "III, apenas".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *3.5 Feature Flags / Feature Toggles e Dark Launching*, feature Flags (ou Toggles): Mecanismo de controle em nível de código fonte que permite encapsular novas funcionalidades em blocos condicionais ( if (featureManager.isEnabled("NOVO MODULO FISCAL")) { .. } ). Permite desacoplar a implantação do código ( deployment ) da ativação comercial do recurso ( release ). Um código pode estar rodando em produção com a funcionalidade desligada no servidor de configuração remota, sendo ativada sob demanda sem a necessidade de novo pipeline de deploy.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas. Redes de Computadores e Sistemas Operacionais Redes de Computadores". De acordo com a teoria estudada em *1.1 Eliminação do Muro da Confusão e Responsabilidade Compartilhada*, desenvolvedores assumem a corresponsabilidade pelo comportamento da aplicação em produção, projetando sistemas já preparados para observabilidade, diagnóstico e tolerância a falhas.
->
-> **Gabarito: C**
-
----
-
-### Teste 002
-**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
-Continuous delivery (CD) e continuous integration (CI) são práticas afetas ao DevOps: a primeira realiza a implantação automática no repositório da solução após o build; e a segunda realiza implantação automática no ambiente de produção a cada release.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Continuous delivery (CD) e continuous integration (CI) são práticas afetas ao DevOps: a primeira realiza a...". De acordo com a teoria em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, conforme consagrado por Martin Fowler, a Integração Contínua ( Continuous Integration ) é a prática de engenharia na qual os membros de um time integram suas alterações de código fonte ao branch principal do repositório com alta frequência — preferencialmente ao menos uma vez por dia.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
+> - **A)** Incorreta. Os itens II e III também são verdadeiros e conceituam com rigor técnico as práticas de automação.
+> - **B)** Incorreta. O item III está correto, pois na Implantação Contínua a passagem para produção ocorre sem intervenção humana.
+> - **C)** Incorreta. O item I também está correto ao definir a Integração Contínua.
+> - **D)** Incorreta. O item II também é verdadeiro ao definir o gate manual de negócio na Entrega Contínua.
+> - **E)** Correta. Todas as três assertivas estão rigorosamente exatas: (I) a Integração Contínua foca na integração frequente ao branch principal com compilação e testes unitários imediatos; (II) a Entrega Contínua (*Continuous Delivery*) mantém o software em estado permanente de liberação (*deployable*), mas aguarda uma aprovação manual de negócio para o deploy em produção; (III) a Implantação Contínua (*Continuous Deployment*) automatiza o ciclo completo, promovendo a versão para produção sem qualquer intervenção humana.
+> 
 > **Gabarito: E**
-
----
-
-### Teste 003
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
-Cláudia precisa estimar o custo do novo software para o setor de logística, e utilizou a metodologia de pontos de função para o cálculo dos recursos financeiros necessários. No entanto, ela observou que muitos custos não eram expressos apenas com a análise das funcionalidades do sistema. Para lidar com esses custos ocultos, Cláudia precisará fazer uma análise adicional, com base na metodologia:
-
-* **A)** SNAP;
-* **B)** WSDL;
-* **C)** UDDI;
-* **D)** REST;
-* **E)** CI/CD.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *4.2 Pirâmide de Testes Automatizados no Pipeline* deste guia, base da Pirâmide Testes de Unidade (Unitários): Representam a esmagadora maioria dos testes (cerca de 70%). Testam classes e funções isoladas com uso de mocks e stubs . São extremamente rápidos de executar (milissegundos) e possuem baixo custo de manutenção. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "SNAP".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "WSDL". De acordo com a teoria estudada em *3.5 Feature Flags / Feature Toggles e Dark Launching*, feature Flags (ou Toggles): Mecanismo de controle em nível de código fonte que permite encapsular novas funcionalidades em blocos condicionais ( if (featureManager.isEnabled("NOVO MODULO FISCAL")) { .. } ). Permite desacoplar a implantação do código ( deployment ) da ativação comercial do recurso ( release ). Um código pode estar rodando em produção com a funcionalidade desligada no servidor de configuração remota, sendo ativada sob demanda sem a necessidade de novo pipeline de deploy.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "UDDI". De acordo com a teoria estudada em *1. Fundamentos da Cultura DevOps*, a equipe de Desenvolvimento (Dev) é cobrada por velocidade de entrega, lançamento contínuo de novas funcionalidades e mudanças dinâmicas no sistema.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "REST". De acordo com a teoria estudada em *4.2 Pirâmide de Testes Automatizados no Pipeline*, meio da Pirâmide Testes de Integração e de Contrato: Testam a comunicação entre componentes integrados (como a camada de persistência com o banco de dados em contêiner de teste ou contratos de API REST via Pact). Mais lentos que os testes unitários, demandam inicialização de serviços.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CI/CD". De acordo com a teoria estudada em *3.5 Feature Flags / Feature Toggles e Dark Launching*, dark Launching: O código novo é implantado em produção e passa a ser executado em segundo plano de forma invisível aos usuários (ex.: para cada requisição recebida, o sistema envia uma chamada assíncrona ao novo algoritmo fiscal em paralelo, comparando os resultados e medindo o impacto em banco de dados sem exibir as saídas na interface do usuário).
->
-> **Gabarito: A**
-
----
-
-### Teste 004
-**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
-Considerando o DevOps e suas boas práticas, analise os itens a seguir: I. Testes integrados são uma parte importante do processo DevOps. Esses testes devem levar em consideração as práticas de Test-Driven Development e Behavior-Driven Development, dessa forma a execução automática desses testes pode ser integrada ao pipeline de CI. No entanto, é importante integrar outros tipos de testes, como testes funcionais ou testes de integração, que permitem que o aplicativo seja testado funcionalmente do início ao fim com os outros componentes do seu ecossistema. II. Recomenda-se automatizar apenas as tarefas críticas que envolvam poucas atualizações na implementação e nos testes dos aplicativos nas infraestruturas. Essas tarefas devem ser automatizadas em scripts que podem ser facilmente integradas e executadas em pipelines de CI/CD. III. A construção de pipelines de CI/CD envolvem a escolha de ferramentas de DevOps adequadas pelas equipes considerando a natureza da empresa. E necessário levar em conta aspectos financeiros, avaliar entre ferramentas de código aberto e gratuitas e as proprietárias, que são mais ricas em recursos e suporte, mas exigem um investimento significativo. Está correto apenas o que se afirma em
-
-* **A)** I e III.
-* **B)** I.
-* **C)** I e II.
-* **D)** II e III.
-* **E)** II.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *4.2 Pirâmide de Testes Automatizados no Pipeline* deste guia, meio da Pirâmide Testes de Integração e de Contrato: Testam a comunicação entre componentes integrados (como a camada de persistência com o banco de dados em contêiner de teste ou contratos de API REST via Pact). Mais lentos que os testes unitários, demandam inicialização de serviços. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "I e III".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, execução Obrigatória de Testes de Unidade e Linting: A esteira de CI roda linters de código e baterias de testes unitários rápidos. A meta é que a validação de CI execute em menos de 10 minutos para não bloquear o fluxo do desenvolvedor.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, repositório Central Único: Todo o código, configurações e scripts de build residem em um repositório centralizado versionado.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, desenvolvimento em Tronco ( Trunk Based Development ) ou Feature Branches Curtas: Evita se a criação de branches de desenvolvimento isoladas de longa duração. Branches que duram semanas acumulam conflitos de mesclagem complexos ( merge hell ). No modelo trunk based, merges acontecem em ciclos diários.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *5.1 GitHub Actions: Workflows, Events, Jobs, Steps, Runners e Secrets*, steps: Tarefas sequenciais executadas dentro de um job. Um step pode executar comandos de shell direto via run: ou invocar ações modulares reutilizáveis via uses: (como uses: actions/checkout@v4 ).
->
-> **Gabarito: A**
-
----
-
-### Teste 005
-**(FCC – TRT 3ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
-Participando do projeto de modelagem de um banco de dados utilizando o MER, um analista de TI identificou na modelagem lógica duas entidades ligadas entre si em um relacionamento muitos-para-muitos (n:m): a entidade Processo e a entidade Advogado, cujos atributos são apresentados abaixo. Processo (NumeroProcesso, Ano, NumeroVara, NumeroTribunalOrigem) Advogado (NumeroOABAdvogado, Nome, Telefone) Cada advogado pode estar relacionado a vários processos diferentes, ora com status de advogado de acusação, ora com status de advogado de defesa, e cada processo, pode ter vários advogados de acusação e/ou de defesa. Nestas condições, para criar as tabelas no banco de dados real este relacionamento n:m terá que ser desmembrado em dois relacionamentos 1:n com uma tabela de ligação contendo os campos
-
-* **A)** Behavior-Driven Development e JTest.
-* **B)** Extreme Programming e Selenium.
-* **C)** Test-Driven Development e Jenkins.
-* **D)** Data-Driven Development and Test e JUnit.
-* **E)** Test-Driven Development e JUnit.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Behavior Driven Development e JTest". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, desenvolvimento em Tronco ( Trunk Based Development ) ou Feature Branches Curtas: Evita se a criação de branches de desenvolvimento isoladas de longa duração. Branches que duram semanas acumulam conflitos de mesclagem complexos ( merge hell ). No modelo trunk based, merges acontecem em ciclos diários.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Recreate (Recriação)* deste guia, vantagens: É a abordagem mais simples de configurar; não exige retrocompatibilidade de banco de dados, pois nunca coexistem versões diferentes executando simultaneamente. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 3ª/2015) ao estabelecer que "Extreme Programming e Selenium".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Test Driven Development e Jenkins". De acordo com a teoria estudada em *5.1 GitHub Actions: Workflows, Events, Jobs, Steps, Runners e Secrets*, needs: [test, security scan] Só roda se test E security scan concluírem com sucesso.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Data Driven Development and Test e JUnit". De acordo com a teoria estudada em *5.2 GitLab CI/CD: Stages, Jobs, Artifacts, Cache, Rules e Runners*, conceito de Stages: A diretiva global stages define a ordem cronológica de execução das etapas do pipeline (ex.: stages: [build, test, security, deploy] ). Todos os jobs associados ao mesmo stage executam em paralelo. O pipeline só avança para o stage subsequente se todos os jobs do stage corrente forem concluídos com êxito.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Test Driven Development e JUnit". De acordo com a teoria estudada em *3.2 Rolling Update (Atualização Progressiva)*, desvantagens: Durante o processo de transição, instâncias da $V1$ e da $V2$ respondem concomitantemente às requisições dos usuários, exigindo que o banco de dados e as APIs sejam rigorosamente retrocompatíveis. Em caso de falha no meio do processo, o rollback demanda tempo para reverter progressivamente os nós alterados.
->
-> **Gabarito: B**
-
----
-
-### Teste 006
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
-Durante uma auditoria técnica em um projeto de desenvolvimento de software público, o auditor observa que a equipe de desenvolvimento está ignorando sistematicamente a Definition of Done (DoD) para cumprir o prazo de uma Sprint, sob orientação do Product Owner. O incremento foi movido para o status Concluído, mas não possui testes de integração nem documentação técnica. Sob a ótica do Guia Scrum e da governança de software, a consequência direta dessa prática para o Tribunal de Contas e para a qualidade do produto é
-
-* **A)** o aumento imediato da velocidade da equipe, otimizando o gasto público.
-* **B)** a criação de dívida técnica oculta, mascarando o real progresso do projeto e elevando o custo de manutenção futura.
-* **C)** a conformidade com o princípio de “Software em funcionamento mais que documentação abrangente” do Manifesto Ágil.
-* **D)** a transferência da responsabilidade de qualidade exclusivamente para o Scrum Master.
-* **E)** a viabilização de entregas contínuas (CI/CD) sem a necessidade de processos burocráticos de revisão.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o aumento imediato da velocidade da equipe, otimizando o gasto público". De acordo com a teoria estudada em *1. Fundamentos da Cultura DevOps*, a equipe de Desenvolvimento (Dev) é cobrada por velocidade de entrega, lançamento contínuo de novas funcionalidades e mudanças dinâmicas no sistema.
-> - **B)** **Correta.** Conforme fundamentado na seção *4.2 Pirâmide de Testes Automatizados no Pipeline* deste guia, base da Pirâmide Testes de Unidade (Unitários): Representam a esmagadora maioria dos testes (cerca de 70%). Testam classes e funções isoladas com uso de mocks e stubs . São extremamente rápidos de executar (milissegundos) e possuem baixo custo de manutenção. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "a criação de dívida técnica oculta, mascarando o real progresso do projeto e elevando o custo de manutenção futura".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a conformidade com o princípio de “Software em funcionamento mais que documentação abrangente” do Manifesto Ágil". De acordo com a teoria estudada em *2.1 Integração Contínua (CI): Boas Práticas, Trunk-Based e Princípio Stop the Line*, desenvolvimento em Tronco ( Trunk Based Development ) ou Feature Branches Curtas: Evita se a criação de branches de desenvolvimento isoladas de longa duração. Branches que duram semanas acumulam conflitos de mesclagem complexos ( merge hell ). No modelo trunk based, merges acontecem em ciclos diários.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "a transferência da responsabilidade de qualidade exclusivamente para o Scrum Master". De acordo com a teoria estudada em *2.3 Implantação Contínua (Continuous Deployment): Promoção Automática para Produção*, toda modificação que passa com sucesso em 100% dos estágios automatizados do pipeline (CI + Staging + Gates de Segurança e Qualidade) é promovida de forma instantânea e automática para os servidores de produção.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a viabilização de entregas contínuas (CI/CD) sem a necessidade de processos burocráticos de revisão". De acordo com a teoria estudada em *1.2 O Framework C.A.L.M.S.*, l (Lean Princípios Enxutos): Aplicação dos princípios da manufatura enxuta (Sistema Toyota de Produção) ao ciclo de software: redução drástica de desperdícios, entregas frequentes em lotes pequenos ( small batch sizes ), redução do tempo de fila e limitação estrita do trabalho em progresso ( WIP Work in Progress ).
->
-> **Gabarito: B**
 
 ---
 
@@ -416,6 +419,87 @@ flowchart TD
 
 ---
 
+### Teste 176
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Um Tribunal de Contas está modernizando a infraestrutura do seu sistema de auditoria eletrônica para permitir atualizações frequentes sem causar indisponibilidade aos auditores e aos cidadãos. A equipe de arquitetura necessita adotar uma estratégia de implantação que atenda aos seguintes requisitos:
+
+- Permitir testar a nova versão do sistema em um ambiente produtivo idêntico ao atual antes de liberar o acesso geral;
+- Garantir que a comutação de tráfego seja praticamente instantânea;
+- Proporcionar capacidade de reversão (*rollback*) imediata caso anomalias severas sejam detectadas logo após a liberação.
+
+A estratégia de implantação que atende perfeitamente a esses requisitos é:  
+
+* **A)** *Recreate Deployment*.
+* **B)** *Rolling Update*.
+* **C)** *Blue-Green Deployment*.
+* **D)** *Big Bang Release*.
+* **E)** *In-Place Deployment*.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O modelo *Recreate* desliga todas as instâncias antigas antes de iniciar as novas, gerando período de indisponibilidade obrigatória (*downtime*) e inviabilizando testes em paralelo e rollback imediato.
+> - **B)** Incorreta. O *Rolling Update* atualiza instâncias progressivamente sem downtime, mas durante o processo há convivência temporária de versões antigas e novas atendendo requisições, não há um ambiente idêntico pré-testado na íntegra e o rollback não é instantâneo (exige um novo rollout reverso).
+> - **C)** Correta. No *Blue-Green Deployment*, mantêm-se dois ambientes de produção idênticos. O ambiente inativo (Green) recebe a nova versão e pode ser exaustivamente testado com tráfego simulado. Quando aprovado, comuta-se o balanceador de carga para Green quase instantaneamente. Se surgir uma falha, o balanceador é chaveado de volta para Blue em segundos, realizando o rollback de forma imediata.
+> - **D)** Incorreta. O *Big Bang Release* é a abordagem tradicional monolítica em que o sistema é totalmente paralisado para substituição de arquivos em lote único durante janelas de manutenção, com elevado risco de falha.
+> - **E)** Incorreta. O *In-Place Deployment* sobrescreve os artefatos diretamente nas máquinas em execução, causando indisponibilidade temporária e tornando o rollback lento e complexo caso haja falha de compilação ou compatibilidade.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 177
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Dentre as estratégias modernas de implantação contínua (*Deployment Strategies*), o *Canary Deployment* (Implantação Canário) diferencia-se da estratégia *Blue-Green* pelo fato de:
+
+* **A)** Exigir a substituição imediata e simultânea de 100% dos servidores em produção em uma fração de segundo.
+* **B)** Encaminhar gradualmente uma pequena fração controlada do tráfego real de usuários (por exemplo, 2% a 5%) para a nova versão da aplicação, monitorando métricas de erro e telemetria antes de expandir progressivamente o tráfego para a totalidade dos usuários.
+* **C)** Manter dois ambientes idênticos em produção alternando o roteador de borda de forma binária de um para o outro. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** Impedir que o sistema opere durante os finais de semana.
+* **E)** Funcionar exclusivamente em aplicações desktop monousuário desconectadas da rede.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Essa é a estratégia de *Recreate* com parada de serviço (*downtime*).
+> - **B) Correta.** O *Canary Deployment* (inspirado no canário nas minas de carvão) direciona uma pequena parcela do tráfego para a nova versão. Se a telemetria revelar anomalias (aumento de erros HTTP 500 ou latência), o tráfego é revertido instantaneamente sem afetar a maioria dos usuários; se os sinais forem saudáveis, a versão é expandida progressivamente até 100%.
+> - **C) Incorreta.** Alternância total entre dois ambientes isolados (ativo e inativo) descreve a estratégia *Blue-Green Deployment*.
+> - **D) Incorreta.** Práticas modernas operam com alta disponibilidade ininterrupta (24x7).
+> - **E) Incorreta.** Aplica-se a sistemas web e distribuídos de alta escala.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 178
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A utilização de *Feature Flags* (ou *Feature Toggles*) é uma técnica de engenharia de software indispensável para viabilizar entregas contínuas com Trunk-Based Development. A principal vantagem arquitetural proporcionada pelo uso de Feature Flags reside em:
+
+* **A)** Acelerar a velocidade de clock do banco de dados relacional.
+* **B)** Desacoplar formalmente a implantação física do código (*deployment*) da ativação comercial da funcionalidade para os usuários (*release*), permitindo que código em desenvolvimento seja mesclado na branch principal e enviado a produção em estado desligado.
+* **C)** Excluir automaticamente o código-fonte da aplicação após 30 dias de uso em produção.
+* **D)** Impedir que desenvolvedores utilizem branches locais no Git.
+* **E)** Substituir os testes de segurança automatizados (SAST/DAST) por questionários manuais. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Flags operam na camada de código/lógica da aplicação.
+> - **B) Correta.** O conceito nuclear de Feature Flags é **Deploy != Release**: o código é implantado continuamente em produção, mas permanece invisível ou inativo para os usuários finais até que uma chave lógica de configuração seja ativada (permitindo testes A/B, liberação por usuário VIP ou *rollback* instantâneo sem necessidade de novo deploy).
+> - **C) Incorreta.** Flags velhas devem ser removidas por manutenção, não deleção cega automática.
+> - **D) Incorreta.** Não restringe branches locais.
+> - **E) Incorreta.** Feature flags não substituem testes de segurança.
+>
+> **Gabarito: B**
+
+---
+
 ## 4. Estrutura, Estágios e Segurança de Pipelines (DevSecOps)
 
 A construção de um pipeline de entrega contínua robusto organiza as atividades em estágios lógicos estritamente encadeados, impedindo o avanço de artefatos defeituosos ou inseguros.
@@ -448,6 +532,33 @@ Proposta por Mike Cohn, a pirâmide de testes orienta a distribuição ótima do
 1. **Base da Pirâmide - Testes de Unidade (Unitários):** Representam a esmagadora maioria dos testes (cerca de 70%). Testam classes e funções isoladas com uso de *mocks* e *stubs*. São extremamente rápidos de executar (milissegundos) e possuem baixo custo de manutenção.
 2. **Meio da Pirâmide - Testes de Integração e de Contrato:** Testam a comunicação entre componentes integrados (como a camada de persistência com o banco de dados em contêiner de teste ou contratos de API REST via Pact). Mais lentos que os testes unitários, demandam inicialização de serviços.
 3. **Topo da Pirâmide - Testes de Ponta a Ponta (E2E / Interface do Usuário):** Simulam a jornada completa do usuário final em navegadores ou clientes de API. São testes lentos, caros de manter e sujeitos a falhas intermitentes (*flaky tests*), devendo representar a menor fatia da suíte de automação (cerca de 10%).
+
+---
+
+### Teste 179
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na cultura DevSecOps, a integração da segurança ao longo de todo o ciclo de vida do software (*Shift-Left Security*) apoia-se em duas ferramentas automatizadas centrais no pipeline: SAST (*Static Application Security Testing*) e SCA (*Software Composition Analysis*). A correta distinção entre SAST e SCA estabelece que:
+
+* **A)** SAST audita o código-fonte proprietário da organização em repouso em busca de vulnerabilidades e falhas de codificação (como injeção SQL e XSS), enquanto SCA analisa as dependências de terceiros e bibliotecas de código aberto para identificar vulnerabilidades conhecidas (CVEs) e riscos de licenciamento.
+* **B)** SCA só pode ser executado em sistemas com servidores de banco de dados Oracle.
+* **C)** SAST testa a aplicação em tempo de execução contra ataques de negação de serviço (DDoS).
+* **D)** Ambos os termos são sinônimos perfeitos de testes manuais de caixa-preta realizados por estagiários.
+* **E)** SAST destina-se exclusivamente a validar o layout gráfico de páginas em CSS3.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** Distinção clássica cobrada em provas:
+>   - **SAST (Static Application Security Testing):** varre o código proprietário da equipe (*white-box*, em repouso), detectando vulnerabilidades como SQL Injection, Buffer Overflow e segredos expostos;
+>   - **SCA (Software Composition Analysis):** inspeciona o grafo de dependências externas (pacotes npm, Maven, pip), apontando CVEs cadastradas no NVD e problemas de licenças (como contaminação por GPLv3).
+> - **B) Incorreta.** SCA é agnóstico ao banco de dados.
+> - **C) Incorreta.** O teste de segurança em tempo de execução é o DAST (*Dynamic Application Security Testing*).
+> - **D) Incorreta.** São ferramentas automatizadas de análise de segurança em pipelines.
+> - **E) Incorreta.** SAST é focado em segurança de código.
+>
+> **Gabarito: A**
 
 ---
 
@@ -617,6 +728,85 @@ pipeline {
 > - **GitHub Actions:** Configurado em `.github/workflows/*.yml`; usa `needs:` para dependência de jobs (que rodam em paralelo por padrão); usa `runs-on:` para runners.
 > - **GitLab CI/CD:** Arquivo `.gitlab-ci.yml`; organiza por `stages` (jobs de um mesmo stage rodam em paralelo; stages rodam em sequência); distingue `artifacts` (transferência no mesmo pipeline) de `cache` (reaproveitamento entre pipelines).
 > - **Jenkins:** Arquitetura `Controller-Agent` (o Controller gerencia; os Agents executam); pipelines declarativos iniciam com `pipeline { agent any; stages { .. } }`.
+
+---
+
+### Teste 180
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere o seguinte trecho de manifesto de automação do GitHub Actions definido no caminho `.github/workflows/pipeline.yml`:
+
+```yaml
+name: Build and Deploy Service
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm test
+
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm audit
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: [test, security-scan]
+    steps:
+      - name: Deploy Step
+        run: ./deploy-prod.sh
+```
+
+A respeito da execução desse pipeline, assinale a afirmativa correta:  
+
+* **A)** Os jobs `test` e `security-scan` serão executados sequencialmente, iniciando `security-scan` apenas após o término bem-sucedido de `test`.
+* **B)** O job `deploy` iniciará imediatamente e executará em paralelo aos jobs `test` e `security-scan`.
+* **C)** O job `deploy` só iniciará sua execução se ambos os jobs `test` e `security-scan` forem concluídos com sucesso. Caso qualquer um deles falhe, o job `deploy` será ignorado (*skipped*).
+* **D)** O atributo `runs-on: ubuntu-latest` faz com que os três jobs compartilhem a mesma memória RAM e o mesmo sistema de arquivos local sem isolamento.
+* **E)** O gatilho `on: push: branches: [ "main" ]` indica que o pipeline será executado apenas quando uma nova *Pull Request* for aberta por qualquer desenvolvedor, mas nunca quando um commit direto for enviado ao branch `main`.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. No GitHub Actions, jobs declarados no mesmo nível sem a cláusula `needs:` são disparados **em paralelo**. Como `test` e `security-scan` não dependem um do outro, eles executam concomitantemente em runners independentes.
+> - **B)** Incorreta. O job `deploy` possui a diretiva explícita `needs: [test, security-scan]`, o que cria uma dependência estrita e impede sua execução paralela aos demais.
+> - **C)** Correta. A diretiva `needs: [test, security-scan]` instrui o orquestrador a aguardar a conclusão bem-sucedida (código de saída zero) de **ambos** os jobs anteriores. Caso `test` ou `security-scan` falhem, o job `deploy` é automaticamente ignorado (*skipped*), impedindo que código quebrado ou inseguro seja promovido.
+> - **D)** Incorreta. Cada job no GitHub Actions executa em uma máquina virtual (ou contêiner) limpa, efêmera e totalmente isolada. Não há compartilhamento nativo de memória ou disco local entre jobs distintos.
+> - **E)** Incorreta. O gatilho especificado é `push` no branch `main`. Portanto, ele dispara com commits enviados diretamente ou resultantes de um merge concluído na branch `main`. Para escutar abertura de Pull Requests, o evento exigido seria `pull_request`.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 181
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em relação aos arquivos de manifesto e à estrutura operacional das ferramentas de integração contínua GitLab CI/CD e Jenkins, assinale a opção correta:  
+
+* **A)** No GitLab CI/CD, a diretiva `artifacts` serve unicamente para reaproveitar arquivos temporários como dependências de compiladores entre pipelines distintos, tendo a mesma função semântica de `cache`.
+* **B)** No GitLab CI/CD, se os estágios forem definidos como `stages: [build, test, deploy]`, todos os jobs vinculados ao estágio `build` são executados sequencialmente em um único runner, bloqueando qualquer concorrência interna.
+* **C)** No Jenkins, a arquitetura moderna prevê o nó *Controller* (antigo Master) como o responsável por gerenciar o agendamento de tarefas e configurações, delegando a execução física dos passos do pipeline para nós *Agents* (antigos Slaves).
+* **D)** Um pipeline declarativo do Jenkins (*Declarative Pipeline*) é codificado livremente sem qualquer estrutura de blocos obrigatória, usando comandos Groovy imperativos sem a necessidade da diretiva `pipeline`.
+* **E)** No arquivo `.gitlab-ci.yml`, a palavra-chave `image:` é obrigatória para cada job individual, sendo proibido definir uma imagem Docker global compartilhada no nível raiz do arquivo.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. No GitLab CI/CD existe distinção conceitual nítida entre `artifacts` e `cache`. **Artifacts** são saídas formais geradas por um job (como binários compilados `.jar` ou relatórios de testes) salvas no GitLab e transmitidas aos estágios posteriores do **mesmo pipeline**. **Cache** serve para acelerar builds armazenando dependências de bibliotecas de terceiros (como `.m2` ou `node_modules`) compartilhadas entre **diferentes execuções de pipelines**.
+> - **B)** Incorreta. Jobs associados ao mesmo estágio (*stage*) executam **em paralelo** caso existam múltiplos runners disponíveis no GitLab, acelerando o tempo de processamento.
+> - **C)** Correta. A arquitetura padrão do Jenkins é distribuída (*Controller-Agent*). O nó Controller gerencia os jobs, agenda filas e hospeda a interface gráfica, delegando a execução física das compilações, testes e comandos de shell para os nós Agents.
+> - **D)** Incorreta. Essa descrição aplica-se ao *Scripted Pipeline* (baseado em Groovy imperativo puro iniciado por blocos `node { .. }`). O *Declarative Pipeline* possui sintaxe estrita obrigatória, iniciando sempre pelo bloco estruturado `pipeline { agent any; stages { .. } }`.
+> - **E)** Incorreta. No GitLab CI/CD, é perfeitamente válido declarar a diretiva `image:` no nível global (raiz) do arquivo `.gitlab-ci.yml`, tornando aquela imagem Docker o padrão compartilhado para todos os jobs que não definirem sua própria imagem específica.
+> 
+> **Gabarito: C**
 
 ---
 

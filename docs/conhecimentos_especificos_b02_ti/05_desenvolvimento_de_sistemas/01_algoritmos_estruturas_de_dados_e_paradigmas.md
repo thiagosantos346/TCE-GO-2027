@@ -4,7 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `01_algoritmos_estruturas_de_dados_e_paradigmas.md`  
 
+
+
 ---
+
 
 ## 📌 Ementa / Itens do Edital
 - Algoritmos e lógica de programação
@@ -99,6 +102,56 @@ A notação **Big-O ($\mathcal{O}$)** mensura o crescimento do tempo de execuç�
 | $\mathcal{O}(n!)$ | Fatorial | Pior classe computacional tratável | Caixeiro Viajante por enumeração exaustiva. |
 
 > ⭐ **IMPORTANTE / BUSCA BINÁRIA:** A Busca Binária exige **obrigatoriamente** que a estrutura esteja previamente **ordenada** e suporte acesso aleatório indexado em tempo $\mathcal{O}(1)$ (como arrays e vetores contíguos). Sua complexidade temporal é $\mathcal{O}(\log n)$. Se aplicada em listas encadeadas, mesmo ordenadas, a busca binária perde eficiência porque o acesso ao nó central requer navegação sequencial $\mathcal{O}(n)$.
+
+---
+
+### Teste 054
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A recursão é uma técnica algorítmica fundamental na qual uma função invoca a si mesma para resolver subproblemas menores de mesma natureza. A respeito do funcionamento da recursão e de sua pilha de execução (*Call Stack*), é correto afirmar:
+
+* **A)** Toda função recursiva deve possuir pelo menos uma condição de parada (caso base), sob pena de provocar um estouro de pilha (*Stack Overflow*) em virtude de chamadas infinitas.
+* **B)** A execução de uma chamada recursiva não consome espaço na memória RAM, pois todas as variáveis locais utilizam o mesmo endereço físico de registradores da CPU.
+* **C)** Algoritmos recursivos são sempre mais velozes e consomem menos memória do que suas versões iterativas equivalentes.
+* **D)** A pilha de chamadas (*Call Stack*) opera sob o princípio FIFO (*First-In, First-Out*), finalizando primeiro a primeira função chamada.
+* **E)** A recursão em cauda (*tail recursion*) impede que o compilador realize qualquer otimização de espaço na pilha de execução.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** Sem o caso base (condição de parada), a função empilha novos registros de ativação indefinidamente até esgotar o limite da pilha de execução, gerando *Stack Overflow*.
+> - **B) Incorreta.** Cada invocação recursiva aloca um novo quadro (*stack frame*) na pilha com suas variáveis e endereço de retorno.
+> - **C) Incorreta.** Funções recursivas geralmente apresentam *overhead* de empilhamento e desempilhamento de frames, sendo frequentemente mais lentas que laços iterativos simples.
+> - **D) Incorreta.** A pilha opera sob o princípio LIFO (*Last-In, First-Out*); a última função chamada é a primeira a retornar.
+> - **E) Incorreta.** A recursão em cauda (*tail call optimization*) permite que compiladores reutilizem o frame atual sem alocar novos frames na pilha.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 055
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A análise assintótica de complexidade de algoritmos permite quantificar o crescimento do consumo de tempo de execução e memória à medida que o tamanho da entrada ($n$) cresce assintoticamente. Em relação aos algoritmos clássicos de ordenação de vetores em memória interna, é correto afirmar que:
+
+* **A)** O algoritmo *Bubble Sort* possui complexidade de tempo de pior caso igual a $O(n \log n)$.
+* **B)** O algoritmo *Merge Sort* baseia-se no paradigma de divisão e conquista e possui complexidade de tempo no pior caso estritamente delimitada por $O(n \log n)$.
+* **C)** O *Quicksort* garante complexidade de tempo $O(n)$ em qualquer cenário de partição de pivôs.
+* **D)** O pior caso de tempo do *Quicksort* ocorre com complexidade de tempo $O(\log n)$.
+* **E)** Todos os algoritmos de ordenação baseados em comparação de chaves conseguem ordenar um vetor em tempo linear $O(n)$ no pior caso.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** O *Bubble Sort* tem complexidade de pior caso quadrática: $O(n^2)$.
+> - **B) Correta.** O *Merge Sort* divide recursivamente o vetor ao meio e intercala as metades ordenadas, garantindo complexidade $O(n \log n)$ em todos os cenários (melhor, médio e pior caso).
+> - **C) Incorreta.** O *Quicksort* tem complexidade média $O(n \log n)$, mas pode degradar para $O(n^2)$ no pior caso.
+> - **D) Incorreta.** O pior caso do *Quicksort* é quadrático: $O(n^2)$.
+> - **E) Incorreta.** O limite inferior matemático teórico para ordenação por comparação é $\Omega(n \log n)$.
+>
+> **Gabarito: B**
 
 ---
 
@@ -198,6 +251,145 @@ graph TD
 
 ---
 
+### Teste 056
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em uma estrutura de dados do tipo Pilha (*Stack*), as operações de manipulação de dados obedecem rigorosamente à disciplina LIFO (*Last In, First Out*). Considere uma pilha inicialmente vazia que é submetida, passo a passo, à seguinte sequência consecutiva de comandos:
+
+```text
+push(15); push(25); pop(); push(35); push(45); pop(); push(55); push(65); pop();
+```
+
+Ao término da execução dessa sequência completa de operações, o elemento posicionado no topo da pilha e a quantidade total de elementos presentes na estrutura são, respectivamente:
+
+* **A)** 45 e 2.
+* **B)** 55 e 3.
+* **C)** 35 e 3.
+* **D)** 65 e 4.
+* **E)** 55 e 2.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - Rastreando passo a passo o estado da pilha (LIFO):
+>     1. `push(15)`: Pilha = `[15]` (topo = 15).
+>     2. `push(25)`: Pilha = `[15, 25]` (topo = 25).
+>     3. `pop()`: Remove o topo (25). Pilha = `[15]` (topo = 15).
+>     4. `push(35)`: Pilha = `[15, 35]` (topo = 35).
+>     5. `push(45)`: Pilha = `[15, 35, 45]` (topo = 45).
+>     6. `pop()`: Remove o topo (45). Pilha = `[15, 35]` (topo = 35).
+>     7. `push(55)`: Pilha = `[15, 35, 55]` (topo = 55).
+>     8. `push(65)`: Pilha = `[15, 35, 55, 65]` (topo = 65).
+>     9. `pop()`: Remove o topo (65). Pilha = `[15, 35, 55]` (topo = 55).
+>
+> - Ao término das instruções, a pilha contém 3 elementos (`[15, 35, 55]`) e o elemento do topo é o **55**.
+> - Análise das alternativas:
+>     - **A) Incorreta.** O elemento 45 foi desempilhado no passo 6.
+>     - **B) CORRETA.** Topo igual a 55 e quantidade de 3 elementos.
+>     - **C) Incorreta.** 35 é o elemento intermediário, posicionado abaixo de 55.
+>     - **D) Incorreta.** 65 foi desempilhado no passo 9.
+>     - **E) Incorreta.** A quantidade de elementos é 3, não 2.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 057
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+As Tabelas Hash (*Hash Tables*) são amplamente utilizadas em sistemas de informação pela sua eficiência em operações de busca, inserção e remoção de registros indexados por chaves. A respeito da teoria das tabelas hash e dos métodos de tratamento de colisões, assinale a afirmativa correta:
+
+* **A)** A complexidade temporal assintótica de busca em uma tabela hash é estritamente $\mathcal{O}(1)$ em qualquer circunstância, independentemente da função hash ou da quantidade de colisões.
+* **B)** No método de tratamento de colisões por encadeamento separado (*separate chaining*), cada posição do vetor principal referencia uma lista encadeada, de modo que elementos colidentes são armazenados como nós dessa lista.
+* **C)** O fator de carga (*load factor*) de uma tabela hash corresponde ao tempo em milissegundos gasto pela CPU para calcular a função hash de uma chave string.
+* **D)** No endereçamento aberto com sondagem linear (*linear probing*), elementos que sofrem colisão são sempre descartados da tabela para impedir o agrupamento primário.
+* **E)** As tabelas hash armazenam seus elementos de forma intrinsicamente ordenada pelas suas chaves, facilitando operações de busca por intervalo (*range queries*).
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** $\mathcal{O}(1)$ é a complexidade média esperada; no pior caso (quando ocorrem colisões em massa), a busca degrada para $\mathcal{O}(n)$.
+> - **B) CORRETA.** No encadeamento separado (*separate chaining*), cada slot da tabela hash funciona como o cabeçalho de uma lista encadeada (ou árvore rubro-negra), de forma que múltiplos elementos associados ao mesmo índice hash são armazenados como nós sequenciais nessa lista.
+> - **C) Incorreta.** O fator de carga ($\alpha = n/m$) é a razão entre o número de elementos armazenados e o número de slots disponíveis na tabela, medindo a taxa de ocupação, não tempo de CPU.
+> - **D) Incorreta.** No endereçamento aberto, os elementos colidentes não são descartados, mas alocados na próxima posição desocupada do próprio array.
+> - **E) Incorreta.** As tabelas hash são desordenadas por natureza; para buscas ordenadas por intervalo utilizam-se árvores binárias de busca balanceadas (B-Trees ou AVL).
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 058
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere uma Árvore Binária de Busca (BST) construída a partir da inserção sucessiva dos seguintes números inteiros em uma árvore inicialmente vazia, respeitando as regras estritas da estrutura (valores menores à esquerda, maiores à direita):
+
+```text
+Inserções na ordem: 40, 20, 60, 10, 30, 50, 70
+```
+
+Se essa árvore for percorrida utilizando os algoritmos de percurso em **Pré-Ordem** (*Pre-order*) e **Em-Ordem** (*In-order*), as sequências exatas geradas pelas visitas aos nós serão, respectivamente:
+
+* **A)** Pré-Ordem: `40, 20, 10, 30, 60, 50, 70` ; Em-Ordem: `10, 20, 30, 40, 50, 60, 70`.
+* **B)** Pré-Ordem: `10, 20, 30, 40, 50, 60, 70` ; Em-Ordem: `40, 20, 10, 30, 60, 50, 70`.
+* **C)** Pré-Ordem: `10, 30, 20, 50, 70, 60, 40` ; Em-Ordem: `70, 60, 50, 40, 30, 20, 10`.
+* **D)** Pré-Ordem: `40, 20, 60, 10, 30, 50, 70` ; Em-Ordem: `40, 20, 30, 10, 60, 50, 70`.
+* **E)** Pré-Ordem: `40, 20, 10, 30, 60, 50, 70` ; Em-Ordem: `70, 60, 50, 40, 30, 20, 10`.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - Desenhando a BST a partir das inserções:
+>     - 40 é a raiz;
+>     - 20 fica à esquerda de 40; 60 fica à direita de 40;
+>     - 10 fica à esquerda de 20; 30 fica à direita de 20;
+>     - 50 fica à esquerda de 60; 70 fica à direita de 60.
+> - **Percurso em Pré-Ordem (Raiz $\rightarrow$ Esquerda $\rightarrow$ Direita):**
+>     - Visita raiz 40;
+>     - Subárvore esquerda de 40: visita 20, depois 10, depois 30;
+>     - Subárvore direita de 40: visita 60, depois 50, depois 70;
+>     - Sequência: `40, 20, 10, 30, 60, 50, 70`.
+> - **Percurso Em-Ordem (Esquerda $\rightarrow$ Raiz $\rightarrow$ Direita):**
+>     - Em qualquer BST, o percurso Em-Ordem visita os elementos em **ordem estritamente crescente**;
+>     - Sequência: `10, 20, 30, 40, 50, 60, 70`.
+> - Análise das alternativas:
+>     - **A) CORRETA.** Exibe perfeitamente a Pré-Ordem e a Em-Ordem calculadas.
+>     - **B) Incorreta.** Inverteu a nomenclatura dos dois percursos.
+>     - **C) Incorreta.** Apresenta percurso em pós-ordem e ordem decrescente.
+>     - **D) Incorreta.** Apresenta percurso em largura (nível por nível) na primeira sequência.
+>     - **E) Incorreta.** Apresenta a ordem decrescente na segunda sequência.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 059
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Uma Árvore AVL é uma Árvore Binária de Busca (BST) estritamente auto-balanceada na qual a diferença de altura entre as subárvores esquerda e direita de qualquer nó (fator de balanceamento $FB = h_{esq} - h_{dir}$) deve pertencer obrigatoriamente ao conjunto:
+
+* **A)** $\{-2, 0, +2\}$
+* **B)** $\{-1, 0, +1\}$
+* **C)** $\{0, 1, 2\}$
+* **D)** $\{-3, 0, +3\}$
+* **E)** $\{1, 2, 3\}$
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Um fator de balanceamento em $\pm 2$ indica que a árvore perdeu o equilíbrio e exige uma rotação imediata de rebalanceamento.
+> - **B) Correta.** Na definição canônica de Adelson-Velsky e Landis (AVL), o fator de balanceamento de cada nó deve ser $-1, 0$ ou $+1$. Se uma inserção ou remoção resultar em $FB = \pm 2$, executam-se rotações (simples ou duplas) para restaurar a invariante de equilíbrio em tempo $O(\log n)$.
+> - **C) Incorreta.** Fatores de balanceamento negativos são válidos e necessários quando a subárvore direita é mais alta.
+> - **D) Incorreta.** Valores acima de 1 violam a propriedade da árvore AVL.
+> - **E) Incorreta.** Viola a definição canônica da AVL.
+>
+> **Gabarito: B**
+
+---
+
 ## 3. Paradigma de Programação Orientada a Objetos (POO)
 
 ### 3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo
@@ -229,75 +421,80 @@ Essa comparação é cobrada com frequência máxima pela banca FCC:
 
 ---
 
-### Teste 001
-**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
-A utilização de interfaces em projetos de software orientados a objetivo promove a separação de aspectos internos e externos de um objeto, impedindo o acesso direto aos detalhes de seu funcionamento interno. Esse mecanismo de separação também contribui para que o software seja construído como um conjunto de componentes que realizam seu trabalho de forma independente. O uso desse mecanismo em projetos de sistemas de software é um exemplo de:
+### Teste 060
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No paradigma de Programação Orientada a Objetos, o pilar que estabelece a técnica de ocultar os detalhes internos de implementação e o estado de um objeto, restringindo o acesso direto aos seus atributos e expondo apenas uma interface pública controlada de métodos, denomina-se:
 
-* **A)** abstração;
-* **B)** encapsulamento;
-* **C)** herança;
-* **D)** proteção de código;
-* **E)** polimorfismo.
+* **A)** Herança múltipla.
+* **B)** Polimorfismo paramétrico.
+* **C)** Encapsulamento.
+* **D)** Sobrecarga de operadores.
+* **E)** Coesão temporal.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "abstração". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, abstração: Foco nos atributos e operações essenciais de uma entidade do domínio de negócio, isolando aspectos acidentais ou supérfluos.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo* deste guia, encapsulamento: Ocultamento do estado interno e detalhes algorítmicos de um objeto. O acesso às variáveis de instância é protegido por modificadores de visibilidade ( private , protected , public ), expondo apenas operações controladas de interface pública. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "encapsulamento".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "herança". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, composição sobre Herança: A herança gera forte acoplamento de código ( acoplamento de caixa branca ), quebrando o encapsulamento caso a subclasse dependa de detalhes de implementação da superclasse. A composição de objetos ( relação "tem um" ) é amplamente recomendada por promover delegação dinâmica e flexibilidade em tempo de execução.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "proteção de código". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, herança: Relação estática entre classes onde uma subclasse (filha) estende atributos e comportamentos de uma superclasse (pai), estabelecendo uma taxonomia do tipo "é um" ( is a ).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "polimorfismo". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, polimorfismo: Capacidade de objetos de diferentes classes derivadas responderem a uma mesma mensagem (chamada de método) de maneiras particulares e especializadas.
+> - **A) Incorreta.** Herança é o mecanismo pelo qual classes filhas herdam características de classes mães.
+> - **B) Incorreta.** Polimorfismo paramétrico refere-se a tipos genéricos (*generics*).
+> - **C) Correta.** O **Encapsulamento** oculta o estado interno e a representação de dados do objeto (*information hiding*), protegendo a integridade contra manipulação indevida externa.
+> - **D) Incorreta.** Sobrecarga permite redefinir operadores ou métodos com assinaturas distintas.
+> - **E) Incorreta.** Coesão temporal é um nível fraco de coesão procedimental.
 >
+> **Gabarito: C**
+
+---
+
+### Teste 061
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No contexto do paradigma de Programação Orientada a Objetos (POO), analise o mecanismo pelo qual uma subclasse fornece uma definição específica para um método que já foi declarado e implementado por sua superclasse direta ou indireta, preservando integralmente o mesmo nome, a mesma quantidade e os mesmos tipos de parâmetros, permitindo a seleção da implementação adequada durante a execução do programa (*runtime*).
+
+Esse mecanismo e seu momento de amarração (*binding*) correspondem, respectivamente, a:
+
+* **A)** Sobrecarga (*Overloading*) com amarração estática (*early binding*).
+* **B)** Sobrescrita (*Overriding*) com amarração dinâmica (*late binding*).
+* **C)** Encapsulamento reflexivo com resolução de compilação.
+* **D)** Coesão ad-hoc com ligação tardia (*late binding*).
+* **E)** Sobrecarga (*Overloading*) com amarração dinâmica (*late binding*).
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A sobrecarga (*overloading*) ocorre na mesma classe, exige assinaturas diferentes e é decidida estaticamente em tempo de compilação.
+> - **B) CORRETA.** O enunciado traz a definição exata de **Sobrescrita (*Overriding*)**: redefinição de método herdado da superclasse em uma subclasse com **assinatura idêntica**, viabilizando o polimorfismo dinâmico cuja invocação é resolvida em tempo de execução (*runtime*) via **amarração dinâmica (*late binding*)**.
+> - **C) Incorreta.** Encapsulamento é a prática de ocultação de estado interno de objetos com modificadores de acesso, não polimorfismo de métodos.
+> - **D) Incorreta.** Termo pejorativo sem relação com despacho dinâmico de métodos.
+> - **E) Incorreta.** Sobrecarga não utiliza amarração dinâmica em tempo de execução.
+> 
 > **Gabarito: B**
 
 ---
 
-### Teste 002
-**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
-Considere o seguinte caso: Observando o trâmite de processos no tribunal, Marta percebeu que tanto advogados quanto juízes realizavam análises nos diversos pareceres constantes dos processos. Com sua experiência como analista ela deduziu que uma possível informatização dos processos poderia contemplar uma classe chamada Advogado e outra chamada Juiz, tendo como base uma classe comum chamada Pessoa, com um método chamado AnalisarParecer. Este método (definido na classe comum) se comportaria de maneira diferente para as chamadas feitas a partir de uma instância de Advogado e para as chamadas feitas a partir de uma instância de Juiz, em razão deles terem responsabilidades diferentes em sua forma de analisar e opinar sobre os pareceres. Pela observação do método e seu comportamento, o princípio da orientação a objetos aplicável no caso, fundamentalmente, é
+### Teste 062
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito das distinções conceituais entre Classes Abstratas e Interfaces na modelagem orientada a objetos clássica, é correto afirmar:
 
-* **A)** a comunicabilidade.
-* **B)** o encapsulameto.
-* **C)** a visibilidade.
-* **D)** o polimorfismo.
-* **E)** a estereotipagem.
+* **A)** Interfaces podem ser instanciadas diretamente por meio do operador `new`, ao passo que classes abstratas nunca podem conter código compilado.
+* **B)** Uma classe concreta pode herdar de múltiplas classes abstratas em Java, mas pode implementar apenas uma única interface.
+* **C)** Uma classe abstrata não pode ser instanciada diretamente e pode conter tanto métodos abstratos (sem corpo) quanto métodos concretos com implementação completa e estado (atributos de instância).
+* **D)** Interfaces são obrigadas a implementar todos os métodos de persistência no banco de dados.
+* **E)** Classes abstratas são usadas exclusivamente para definir variáveis de escopo global no sistema operacional.
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a comunicabilidade". De acordo com a teoria estudada em *5. Fontes Oficiais e Referências Bibliográficas*, oracle Java Documentation Object Oriented Programming Concepts Fundamentos formais de orientação a objetos: classes, objetos, encapsulamento e polimorfismo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o encapsulameto". De acordo com a teoria estudada em *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)*, assinatura do Método: Obrigatoriamente DIFERENTE (quantidade ou tipos de parâmetros). — Rigorosamente IDÊNTICA (mesmo nome, parâmetros e retorno covariante).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a visibilidade". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, encapsulamento: Ocultamento do estado interno e detalhes algorítmicos de um objeto. O acesso às variáveis de instância é protegido por modificadores de visibilidade ( private , protected , public ), expondo apenas operações controladas de interface pública.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo* deste guia, polimorfismo: Capacidade de objetos de diferentes classes derivadas responderem a uma mesma mensagem (chamada de método) de maneiras particulares e especializadas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "o polimorfismo".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a estereotipagem". De acordo com a teoria estudada em *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)*, definição: Múltiplos métodos com o mesmo nome declarados na mesma classe. — Redefinição de um método herdado da superclasse na subclasse.
->
-> **Gabarito: D**
-
----
-
-### Teste 003
-**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
-O uso de herança pode otimizar o tempo de desenvolvimento das aplicações orientadas a objetos devido ao reaproveitamento de código. Quando se implementa herança
-
-* **A)** uma subclasse pode se tornar uma superclasse a qualquer momento, bastando para tanto que se derive uma subclasse a partir dela.
-* **B)** a superclasse herda os atributos da subclasse, incluindo os atributos privados, públicos e protegidos.
-* **C)** múltipla na linguagem Java versão 6, a subclasse herda características de mais de uma superclasse.
-* **D)** só é possível obter polimorfismo na aplicação se houver sobrecarga de métodos.
-* **E)** os métodos de uma superclasse não podem ser sobrescritos nas subclasses, porém, podem ser sobrecarregados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento* deste guia, composição sobre Herança: A herança gera forte acoplamento de código ( acoplamento de caixa branca ), quebrando o encapsulamento caso a subclasse dependa de detalhes de implementação da superclasse. A composição de objetos ( relação "tem um" ) é amplamente recomendada por promover delegação dinâmica e flexibilidade em tempo de execução. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "uma subclasse pode se tornar uma superclasse a qualquer momento, bastando para tanto que se derive uma subclasse a...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a superclasse herda os atributos da subclasse, incluindo os atributos privados, públicos e protegidos". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, classe Abstrata: Não pode ser instanciada diretamente ( new ). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "múltipla na linguagem Java versão 6, a subclasse herda características de mais de uma superclasse". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, herança: Relação estática entre classes onde uma subclasse (filha) estende atributos e comportamentos de uma superclasse (pai), estabelecendo uma taxonomia do tipo "é um" ( is a ).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "só é possível obter polimorfismo na aplicação se houver sobrecarga de métodos". De acordo com a teoria estudada em *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)*, definição: Múltiplos métodos com o mesmo nome declarados na mesma classe. — Redefinição de um método herdado da superclasse na subclasse.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os métodos de uma superclasse não podem ser sobrescritos nas subclasses, porém, podem ser sobrecarregados". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, transparência Referencial: Uma expressão pode ser substituída diretamente pelo seu valor resultante em qualquer ponto do programa sem alterar o comportamento global do sistema.
+> - **A) Incorreta.** Nem interfaces nem classes abstratas podem ser instanciadas diretamente com `new`.
+> - **B) Incorreta.** Em linguagens como Java e C#, há herança simples de classes (apenas uma superclasse) e herança múltipla de interfaces (implementação de múltiplas interfaces).
+> - **C) Correta.** Classes abstratas servem como base arquitetural de extensão: não permitem instanciação direta, mas oferecem código reutilizável (métodos concretos e atributos de instância) juntamente com contratos a serem implementados pelas subclasses.
+> - **D) Incorreta.** Interfaces estabelecem contratos de comportamento, sem qualquer obrigatoriedade com persistência.
+> - **E) Incorreta.** Conceito totalmente descabido.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
@@ -333,6 +530,69 @@ flowchart LR
 | **`filter`** | Seleciona os elementos da coleção que satisfazem um predicado booleano. | $0 \le \text{tamanho} \le n$ | Nova coleção filtrada com elementos do mesmo tipo. |
 | **`map`** | Aplica uma função de transformação individual a cada elemento da coleção. | Rigorosamente igual a $n$ | Nova coleção com elementos transformados (mesmo tamanho). |
 | **`reduce`** | Acumula todos os elementos da coleção aplicando iterativamente uma função de combinação. | Exatamente $1$ valor | Valor escalar consolidado ou objeto acumulador único (número, string). |
+
+---
+
+### Teste 063
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No paradigma de Programação Funcional (PF), uma função é considerada **pura** (*pure function*) quando satisfaz a dois critérios rigorosos:
+
+* **A)** Altera variáveis globais do sistema e consome dados de sensores de hardware aleatórios a cada execução.
+* **B)** Produz o mesmo valor de saída para os mesmos argumentos de entrada e não gera efeitos colaterais (*side effects*) observáveis no ambiente externo.
+* **C)** Executa exclusivamente operações de escrita síncrona em bancos de dados relacionais transacionais.
+* **D)** Depende do horário do relógio da CPU e de geradores de números pseudoaleatórios para calcular seu resultado.
+* **E)** Exige que todos os parâmetros sejam passados obrigatoriamente por referência com permissão de escrita.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Funções puras não geram nem dependem de efeitos colaterais como modificação de variáveis globais.
+> - **B) Correta.** A pureza funcional exige determinismo estrito (mesmas entradas $\rightarrow$ mesma saída) e ausência de efeitos colaterais (sem alteração de estado mutável externo ou I/O não controlado), garantindo a **transparência referencial**.
+> - **C) Incorreta.** Operações de escrita em banco são efeitos colaterais clássicos de I/O.
+> - **D) Incorreta.** Consultar relógio ou números aleatórios torna a função impura e não determinística.
+> - **E) Incorreta.** O paradigma funcional baseia-se na **imutabilidade** dos dados.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 064
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No paradigma de Programação Funcional (PF), a manipulação de coleções é realizada prioritariamente por meio de funções de alta ordem (*higher-order functions*) que operam sobre estruturas imutáveis. Considere o processamento de uma lista contendo os salários de 5 colaboradores: `[2000, 3000, 4000, 5000, 6000]`. Deseja-se realizar, sequencialmente, as seguintes operações:
+
+1. Filtrar apenas os colaboradores com salário estritamente superior a `3500`.
+2. Aplicar um reajuste de `10%` sobre o salário de cada um dos colaboradores filtrados.
+3. Obter o valor numérico total correspondente à soma de todos os salários reajustados.
+
+Para atingir exatamente esse objetivo seguindo os princípios funcionais, as funções de alta ordem aplicadas nos passos 1, 2 e 3 devem ser, respectivamente:
+
+* **A)** `map`, `filter` e `reduce`.
+* **B)** `filter`, `reduce` e `map`.
+* **C)** `filter`, `map` e `reduce`.
+* **D)** `reduce`, `map` e `filter`.
+* **E)** `map`, `map` e `forEach`.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - Analisando a finalidade técnica de cada função funcional padrão:
+>     1. **Passo 1:** Selecionar um subconjunto de elementos baseado em um predicado booleano (`salario > 3500`) é a atribuição precípua do **`filter`**.
+>     2. **Passo 2:** Aplicar uma transformação matemática individual em cada item da lista mantendo o mesmo número de elementos (`salario * 1.10`) é a atribuição clássica do **`map`**.
+>     3. **Passo 3:** Reduzir e agregar iterativamente todos os itens de uma coleção em um único valor escalar final (a soma total) é o objetivo do **`reduce`**.
+>
+> - A sequência exata é: **`filter`**, **`map`** e **`reduce`**.
+> - Análise das alternativas:
+>     - **A) Incorreta.** Inverteu a ordem de `map` e `filter`.
+>     - **B) Incorreta.** O `reduce` condensaria a lista antes da aplicação do `map`.
+>     - **C) CORRETA.** Sequência correta e canônica do pipeline funcional.
+>     - **D) Incorreta.** Inicia prematuramente pelo `reduce`.
+>     - **E) Incorreta.** `forEach` destina-se à execução de efeitos colaterais imperativos e retorna `void`.
+> 
+> **Gabarito: C**
 
 ---
 
