@@ -23,6 +23,7 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 04 (Dev. Sistemas): APIs RESTful, GraphQL, WebSockets e Documentação](#caderno-04-dev-sistemas-apis-restful-graphql-websockets-e-documentação)
 - [Caderno 05 (Dev. Sistemas): Autenticação, Identidade, OAuth 2.0, OIDC e JWT](#caderno-05-dev-sistemas-autenticação-identidade-oauth-20-oidc-e-jwt)
 - [Caderno 06 (Dev. Sistemas): Git, Gerenciamento de Dependências e Empacotamento](#caderno-06-dev-sistemas-git-gerenciamento-de-dependências-e-empacotamento)
+- [Caderno 01 (IA & Agentivos): Fundamentos de LLMs, Intent-Based e Engenharia de Prompts](#caderno-01-ia--agentivos-fundamentos-de-llms-intent-based-e-engenharia-de-prompts)
 
 ---
 
@@ -628,3 +629,29 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 116`** (Apache Maven: O arquivo `pom.xml` e as fases canônicas do *Build Lifecycle*): Preservada.
 * **`Teste 117`** (Ferramentas de Empacotamento Web: A inovação arquitetural do Vite com ES Modules nativos via esbuild): Preservada.
 * **`Teste 118`** (Otimização de Bundling: Técnica de *Tree Shaking* para eliminação de código morto baseada na sintaxe estática de ES Modules): Preservada.
+
+
+---
+
+## Caderno 01 (IA & Agentivos): Fundamentos de LLMs, Intent-Based e Engenharia de Prompts
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/06_engenharia_software_ia_e_sistemas_agentivos/01_fundamentos_llms_intent_based_e_engenharia_de_prompts.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 120`**: Substituir pela questão real **`V3_FGV_TCE_PA_2024_Q2621`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/PA – 2024 – Auditor de Controle Externo (Ciência de Dados / TI)**
+  * **Conceito Aderente:** As três famílias arquiteturais originárias do modelo *Transformer* para LLMs: modelos *Decoder-only* (GPT) para geração textual autoregressiva; modelos *Encoder-only* (BERT) para compreensão contextual e classificação; e modelos *Encoder-Decoder* (T5) para transformação e síntese de sequências.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 120`**: Simulado sobre as três famílias de Transformers (Encoder, Decoder e Seq2Seq).
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 119`** (Arquitetura Transformer: Mecanismo de Autoatenção / *Self-Attention*, matrizes Q, K, V e projeções escaladas): Preservada.
+* **`Teste 121`** (Pipeline de Treinamento de LLMs: Pré-treinamento auto-supervisionado, Fine-Tuning Supervisionado - SFT e Alinhamento por RLHF/DPO): Preservada.
+* **`Teste 122`** (Hiperparâmetros de Inferência: Temperatura, *Top-p* / *Nucleus Sampling* e *Top-k* para balanceamento de determinismo e criatividade): Preservada.
+* **`Teste 123`** (Evolução de Paradigmas: Programação Imperativa Clássica vs Assistida por IA vs Programação Baseada em Intenção): Preservada.
+* **`Teste 124`** (Programação Baseada em Intenção / *Intent-Based Programming*: Especificação declarativa em linguagem natural e síntese de código): Preservada.
+* **`Teste 125`** (Engenharia de Prompts: Estrutura e precedência de mensagens - *System Prompt*, *User Prompt* e *Assistant Context*): Preservada.
+* **`Teste 126`** (Técnicas Avançadas de Prompting: *Zero-Shot*, *Few-Shot*, *Chain-of-Thought* / CoT e *Self-Consistency*): Preservada.
+* **`Teste 127`** (Limites de Contexto e Atenção: O fenômeno empírico *Lost in the Middle* em janelas longas de contexto): Preservada.
+* **`Teste 128`** (Segurança e Vulnerabilidades em LLMs: Injeção de Prompt / *Prompt Injection* direta e indireta, vazamento de contexto e *Jailbreaks*): Preservada.

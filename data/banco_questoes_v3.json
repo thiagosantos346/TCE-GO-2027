@@ -36548,7 +36548,7 @@
     "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
     "target_materia": "Inteligência Artificial, Ciência de Dados e Automação",
     "target_topico": "Redes neurais artificiais e noções de deep learning",
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_01_ia",
     "llm_classified": true,
     "conceitos_fundamentais": [
       "Inteligência Artificial, Ciência de Dados e Automação",

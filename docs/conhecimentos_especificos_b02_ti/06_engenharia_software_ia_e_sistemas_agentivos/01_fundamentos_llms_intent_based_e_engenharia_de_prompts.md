@@ -152,16 +152,42 @@ A respeito desse funcionamento interno, assinale a afirmativa correta:
 ---
 
 ### Teste 120
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No desenvolvimento de sistemas assistidos por inteligência artificial, a arquitetura *Transformer* deu origem a três famílias arquiteturais predominantes: *Encoder-Only*, *Decoder-Only* e *Encoder-Decoder*. A respeito das características e dos casos de uso de cada família em tarefas de engenharia de software, é correto afirmar:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Ciência de Dados / TI)**  
+As arquiteturas de modelos de linguagem de larga escala (*Large Language Models* - LLM) surgiram recentemente, revolucionando a área de inteligência artificial nas áreas de processamento e geração de texto. A arquitetura desses modelos baseia-se, majoritariamente, nas redes neurais do tipo *transformers*.
 
-* **A)** Modelos *Encoder-Only* (como o BERT) são amplamente empregados para geração autorregressiva contínua de grandes blocos de código-fonte em tempo real.
-* **B)** Modelos *Decoder-Only* (como a família GPT, Claude e LLaMA) operam por geração autorregressiva token a token guiada por máscaras causais de atenção.
-* **C)** Modelos *Encoder-Decoder* são incapazes de realizar tradução de código entre linguagens distintas (como COBOL para Java).
-* **D)** A atenção bidirecional irrestrita é uma característica exclusiva dos modelos *Decoder-Only*.
-* **E)** Modelos *Decoder-Only* não utilizam embeddings nem camadas de normalização (*LayerNorm*).
+Relacione as arquiteturas a seguir com suas características principais:
 
+1. BERT  
+2. GPT  
+3. T5  
 
+( ) Utiliza decoders das redes transformer para prever novos tokens a partir de uma sequência, tornando-se ideal para a geração de textos.  
+( ) Utiliza encoders das redes transformer para "entender" o contexto de frases, tornando-se ideal para classificação de textos.  
+( ) Utiliza encoders e decoders das redes transformer, sendo adaptável a situações em que seja necessário gerar novos textos ou processar textos para "entender" o contexto das frases.  
+( ) Em comparação com as outras arquiteturas, tem menor necessidade de fine-tuning para melhora de performance.  
+
+A relação correta, na ordem apresentada, é:
+
+* **A)** 1 – 3 – 2 – 2.
+* **B)** 2 – 3 – 1 – 3.
+* **C)** 3 – 2 – 1 – 2.
+* **D)** 3 – 1 – 2 – 2.
+* **E)** 2 – 1 – 3 – 3.
+
+---
+
+> **Comentário Detalhado:**
+>
+> As três grandes famílias originárias da arquitetura *Transformer* caracterizam-se por:
+>
+> - **(2) GPT (Generative Pre-trained Transformer):** Modelo do tipo *Decoder-only* treinado com modelagem de linguagem causal (máscara autoregressiva), ideal para previsão do próximo token e **geração contínua de texto**.
+> - **(1) BERT (Bidirectional Encoder Representations from Transformers):** Modelo do tipo *Encoder-only* treinado com modelagem de linguagem mascarada bidirecional, ideal para **compreensão contextual profunda, extração de entidades e classificação de textos**.
+> - **(3) T5 (Text-to-Text Transfer Transformer):** Modelo do tipo *Encoder-Decoder* que formula qualquer tarefa de PLN como um problema texto-para-texto, sendo altamente flexível tanto para síntese quanto para compreensão e tradução.
+> - **(3) T5:** Por sua arquitetura unificada texto-para-texto e treinamento massivo multitarefa, requer menor esforço de adaptação estrutural de *fine-tuning* para generalizar em múltiplas tarefas.
+>
+> A associação resultante é: **2 – 1 – 3 – 3**.
+>
+> **Gabarito: E**
 ---
 
 > **Comentário Detalhado:**
