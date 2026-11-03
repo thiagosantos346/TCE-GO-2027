@@ -21,6 +21,7 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 02 (Dev. Sistemas): Linguagens de Programação (Java, JavaScript, Node.js e Python)](#caderno-02-dev-sistemas-linguagens-de-programação-java-javascript-nodejs-e-python)
 - [Caderno 03 (Dev. Sistemas): Desenvolvimento Frontend (HTML5, CSS3, React e TypeScript)](#caderno-03-dev-sistemas-desenvolvimento-frontend-html5-css3-react-e-typescript)
 - [Caderno 04 (Dev. Sistemas): APIs RESTful, GraphQL, WebSockets e Documentação](#caderno-04-dev-sistemas-apis-restful-graphql-websockets-e-documentação)
+- [Caderno 05 (Dev. Sistemas): Autenticação, Identidade, OAuth 2.0, OIDC e JWT](#caderno-05-dev-sistemas-autenticação-identidade-oauth-20-oidc-e-jwt)
 
 ---
 
@@ -568,3 +569,35 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 095`** (Server-Sent Events - SSE vs WebSockets: Transmissão unidirecional em tempo real sobre HTTP): Preservada.
 * **`Teste 096`** (Formato JSON: Tipos de dados suportados, serialização e deserialização): Preservada.
 * **`Teste 097`** (OpenAPI / Swagger: Especificação padronizada declarativa de endpoints, parâmetros e schemas): Preservada.
+
+
+---
+
+## Caderno 05 (Dev. Sistemas): Autenticação, Identidade, OAuth 2.0, OIDC e JWT
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/05_autenticacao_identidade_oauth2_oidc_jwt.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 100`**: Substituir pela questão real **`V3_FGV_TRT_13_2022_Q2200`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TRT/13 – 2022 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** As quatro funções operacionais canônicas (*roles*) padronizadas na RFC 6749 do protocolo OAuth 2.0: *resource owner*, *resource server*, *client* e *authorization server*.
+* **`Teste 101`**: Substituir pela questão real **`V3_FGV_TJ_AP_2023_Q0534`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/AP – 2023 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** Fluxo de concessão por código de autorização (*Authorization Code Grant*) no OAuth 2.0 e o valor obrigatório atribuído ao parâmetro `response_type=code` na requisição de autorização.
+* **`Teste 102`**: Substituir pela questão real **`V3_FGV_TJ_AP_2023_Q0566`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/AP – 2023 – Analista Judiciário (Desenvolvimento de Sistemas)
+  * **Conceito Aderente:** Autenticação máquina-para-máquina (M2M) autônoma em clientes OpenID Connect/OAuth 2.0 no Keycloak, com habilitação de contas de serviço (*service accounts*) sem envolvimento de usuário final.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 100`**: Simulado sobre os 4 papéis do OAuth 2.0.
+* **`Teste 101`**: Simulado sobre Authorization Code Grant e PKCE.
+* **`Teste 102`**: Simulado sobre Client Credentials Grant para rotinas batch.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 098`** (Fundamentos de Segurança: Autenticação AuthN vs Autorização AuthZ): Preservada.
+* **`Teste 099`** (Autenticação Multifator - MFA: Fatores de Conhecimento, Posse e Inerência): Preservada.
+* **`Teste 103`** (OAuth 2.0 PKCE: Prevenção de roubo de código de autorização com `code_verifier` e `code_challenge` S256): Preservada.
+* **`Teste 104`** (OpenID Connect - OIDC 1.0: Camada de identidade sobre OAuth 2.0 e o artefato `ID Token`): Preservada.
+* **`Teste 105`** (JSON Web Token - JWT: Estrutura em três partes codificadas em Base64URL - Header, Payload e Signature): Preservada.
+* **`Teste 106`** (Validação de JWT: Verificação de integridade criptográfica e auditoria de claims temporais): Preservada.
+* **`Teste 107`** (Armazenamento Seguro de Tokens: Cookies `HttpOnly`, `Secure` e `SameSite` vs `localStorage`, e modelos RBAC/ABAC): Preservada.

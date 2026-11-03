@@ -242,16 +242,29 @@ Os **escopos (*scopes*)** no OAuth 2.0 são identificadores textuais que express
 ---
 
 ### Teste 100
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O framework de autorização OAuth 2.0 (RFC 6749) define quatro papéis (*roles*) operacionais no ecossistema de delegação de acesso seguro. A entidade capaz de conceder acesso a um recurso protegido (tipicamente o próprio usuário final proprietário dos dados) é denominada:
+**(FGV – TRT/13 – 2022 – Analista Judiciário - Tecnologia da Informação)**  
+O protocolo de autorização OAuth 2.0 permite que aplicativos obtenham acesso limitado aos serviços HTTP. As quatro funções (*roles*) descritas na RFC 6749 para esse protocolo são:
 
-* **A)** *Resource Server* (Servidor de Recursos).
-* **B)** *Authorization Server* (Servidor de Autorização).
-* **C)** *Resource Owner* (Proprietário do Recurso).
-* **D)** *Client* (Cliente).
-* **E)** *Token Broker*.
+* **A)** protected resource, resource user, client e token server.
+* **B)** access token, HTTP server, client credential e authorization broker.
+* **C)** resource owner, resource server, client e authorization server.
+* **D)** authorization resource, authorization code, client e token server.
+* **E)** resource owner, password credential, access token e refresh token.
 
+---
 
+> **Comentário Detalhado:**
+>
+> A RFC 6749 padroniza formalmente quatro papéis (*roles*) no ecossistema OAuth 2.0:
+>
+> 1. **Resource Owner (Proprietário do Recurso):** Entidade capaz de conceder acesso a um recurso protegido (tipicamente o usuário final).
+> 2. **Resource Server (Servidor de Recursos):** O servidor que hospeda os recursos protegidos e que responde a requisições HTTP mediante a apresentação e validação de tokens de acesso.
+> 3. **Client (Cliente):** A aplicação que realiza solicitações de recursos protegidos em nome do proprietário do recurso.
+> 4. **Authorization Server (Servidor de Autorização):** O servidor que autentica o proprietário do recurso, obtém a autorização e emite os tokens de acesso ao cliente.
+>
+> A alternativa **C** apresenta exatamente os quatro papéis canônicos da especificação.
+>
+> **Gabarito: C**
 ---
 
 > **Comentário Detalhado:**
@@ -267,18 +280,29 @@ O framework de autorização OAuth 2.0 (RFC 6749) define quatro papéis (*roles*
 ---
 
 ### Teste 101
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Uma equipe de desenvolvimento do Tribunal de Contas está projetando a integração de uma nova aplicação Web Single Page Application (SPA), construída com React, com a API de auditoria de processos governamentais. A aplicação cliente executa integralmente no navegador do usuário (*public client*) e necessita autenticar a identidade dos auditores para obter acesso aos endpoints protegidos.
+**(FGV – TJ/AP – 2023 – Analista Judiciário - Banco de Dados / TI)**  
+A analista Joana implementou o sistema de autorização da aplicação `TJApp` utilizando o protocolo OAuth2. Joana decidiu por implementar o fluxo do OAuth2 de concessão por código de autorização (*Authorization Code Grant*).
 
-Considerando as boas práticas contemporâneas de segurança preconizadas pela IETF e pela OpenID Foundation:  
+A fim de indicar ao servidor de autorização o fluxo de concessão escolhido, Joana atribuiu ao parâmetro `response_type` da requisição de autorização de `TJApp` o valor associado ao fluxo implementado, conforme a especificação do OAuth2.
 
-* **A)** Deve-se adotar o fluxo *Implicit Grant* do OAuth 2.0, visto que ele elimina a necessidade de redirecionamentos adicionais e expõe o access token diretamente na URL para agilizar o carregamento.
-* **B)** O protocolo OpenID Connect (OIDC) deve ser empregado na camada de autenticação, utilizando o fluxo *Authorization Code Grant* com a extensão PKCE (RFC 7636), emitindo um `id_token` para identificar o usuário perante a aplicação React e um `access_token` para consumir a API.
-* **C)** O protocolo OAuth 2.0 isolado é suficiente para autenticar o auditor perante o frontend React, bastando conferir a presença do escopo `read:processos` na requisição.
-* **D)** O fluxo mais recomendado para esse cenário é o *Resource Owner Password Credentials* (ROPC), pelo qual o frontend coleta login e senha diretamente em um formulário comum e os repassa ao servidor de autorização.
-* **E)** A integridade e autenticidade do token JWT devem ser verificadas no frontend através de um algoritmo simétrico HS256, armazenando o segredo compartilhado nas variáveis de ambiente estáticas do código JavaScript.
+Joana atribuiu ao `response_type` o valor:
 
+* **A)** code;
+* **B)** token;
+* **C)** auth-code;
+* **D)** access-token;
+* **E)** client-credentials.
 
+---
+
+> **Comentário Detalhado:**
+>
+> No protocolo OAuth 2.0 (RFC 6749, Seção 4.1.1):
+> - Quando uma aplicação cliente inicia o fluxo de **Authorization Code Grant** direcionando o navegador do usuário ao *Authorization Endpoint*, ela deve enviar obrigatoriamente o parâmetro de consulta **`response_type=code`**.
+> - Esse valor informa explicitamente ao servidor de autorização que a resposta esperada no redirecionamento de volta (*callback*) é um código temporário de autorização (*authorization code*), o qual será subsequentemente trocado pelo token de acesso no *Token Endpoint*.
+> - O valor `response_type=token` era utilizado no antigo (e hoje descontinuado) fluxo Implícito (*Implicit Flow*).
+>
+> **Gabarito: A**
 ---
 
 > **Comentário Detalhado:**
@@ -294,18 +318,28 @@ Considerando as boas práticas contemporâneas de segurança preconizadas pela I
 ---
 
 ### Teste 102
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em uma arquitetura de microsserviços do Tribunal de Contas, uma rotina de integração em lote (*batch*) executada durante a madrugada no backend precisa consumir dados da API da Secretaria da Fazenda para conciliação contábil. Esse processo é totalmente automatizado e executado sem nenhuma intervenção de usuário humano final.
+**(FGV – TJ/AP – 2023 – Analista Judiciário - Desenvolvimento de Sistemas)**  
+O analista João administra o servidor de autenticação Keycloak do TJAP. A aplicação `TJApp` está registrada como um *client* OpenID Connect do Keycloak, sob o nome `tjapp-client`.
 
-De acordo com o framework OAuth 2.0 (RFC 6749), o fluxo de concessão (*Grant Type*) mais adequado e recomendado para essa comunicação máquina-a-máquina (M2M) é o:  
+João recebeu a solicitação de habilitar em `tjapp-client` o recurso que permite a própria aplicação cliente, `TJApp`, obter um token de acesso de forma autônoma, sem envolver nenhum usuário final.
 
-* **A)** *Authorization Code Grant* com tela de consentimento de usuário.
-* **B)** *Client Credentials Grant*.
-* **C)** *Implicit Grant*.
-* **D)** *Resource Owner Password Credentials Grant*.
-* **E)** *Device Authorization Grant*.
+João habilitou em `tjapp-client` o recurso:
 
+* **A)** direct grants;
+* **B)** client adapters;
+* **C)** token mappers;
+* **D)** identity brokers;
+* **E)** service accounts.
 
+---
+
+> **Comentário Detalhado:**
+>
+> No Keycloak e nos servidores de identidade OIDC/OAuth 2.0:
+> - O recurso **Service Accounts** (*Contas de Serviço*) implementa o fluxo *Client Credentials Grant* (RFC 6749, Seção 4.4).
+> - Ao habilitar *Service Accounts Enabled* nas configurações do cliente confidencial, o Keycloak vincula uma conta de serviço interna à própria aplicação cliente, permitindo que ela se autentique usando suas credenciais de cliente (`client_id` e `client_secret`) e obtenha um token de acesso de maneira 100% autônoma, sem a presença, intervenção ou sessão de um usuário final humano (cenário ideal para rotinas de integração em segundo plano, tarefas batch e comunicação inter-microsserviços M2M).
+>
+> **Gabarito: E**
 ---
 
 > **Comentário Detalhado:**

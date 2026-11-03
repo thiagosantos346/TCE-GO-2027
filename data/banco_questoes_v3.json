@@ -6488,7 +6488,7 @@
     "target_materia": "Segurança da Informação",
     "target_topico": "Princípios da segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio",
     "llm_classified": true,
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_05_devsist",
     "conceitos_fundamentais": [
       "Segurança da Informação",
       "Princípios da segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio",
@@ -6817,7 +6817,7 @@
     "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
     "target_materia": "Noções de Administração Financeira e Orçamentária",
     "target_topico": "Ciclo orçamentário: elaboração, discussão, votação, execução e avaliação",
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_05_devsist",
     "llm_classified": true,
     "conceitos_fundamentais": [
       "Noções de Administração Financeira e Orçamentária",
@@ -29348,7 +29348,7 @@
     "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
     "target_topico": "Protocolos de aplicação: DNS, DHCP, HTTP, HTTPS, TLS, SSH e outros",
     "llm_classified": true,
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_05_devsist",
     "conceitos_fundamentais": [
       "Sistemas Operacionais, Redes e Computação em Nuvem",
       "Protocolos de aplicação: DNS, DHCP, HTTP, HTTPS, TLS, SSH e outros",
