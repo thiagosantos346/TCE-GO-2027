@@ -613,24 +613,43 @@ Os valores booleanos resultantes da avaliação das expressões I, II e III são
 ---
 
 ### Teste 071
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere o seguinte trecho de código escrito na linguagem Python 3:
+**(FGV – TJ/AP – 2023 – Analista Judiciário - Desenvolvimento de Sistemas)**  
+Analise o código Python a seguir:
 
 ```python
-numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-resultado = [x * 2 for x in numeros if x % 2 != 0 and x > 3]
-print(resultado)
+L = [0, 1, 1, 2, 3]
+for k in range(4, -4, -1):
+    print(L[k] + L[k % len(L)])
 ```
 
-A execução correta desse código gerará no terminal a saída:  
+O resultado da execução desse código, na ordem, é:
 
-* **A)** `[8, 12, 16, 20]`
-* **B)** `[10, 14, 18]`
-* **C)** `[5, 7, 9]`
-* **D)** `[10, 14, 18, 22]`
-* **E)** `[2, 6, 10, 14]`
+* **A)** 4, 2, 2, 0, 6, 4;
+* **B)** 6, 4, 2, 2, 0, 6, 4, 2, 2;
+* **C)** 6, 4, 2, 2, 0, 6, 4, 2;
+* **D)** 6, 4, 2, 2, 6, 4, 2;
+* **E)** 6, 4, 2, 0, 6, 4, 2.
 
+---
 
+> **Comentário Detalhado:**
+>
+> A lista possui 5 elementos: `L = [0, 1, 1, 2, 3]`, logo `len(L) = 5`.
+> A função `range(4, -4, -1)` gera os seguintes 8 valores para `k`: **4, 3, 2, 1, 0, -1, -2, -3**.
+> A cada iteração é impresso `L[k] + L[k % 5]`:
+> 
+> - **k = 4:** `L[4] + L[4 % 5] = L[4] + L[4] = 3 + 3 = 6`
+> - **k = 3:** `L[3] + L[3 % 5] = L[3] + L[3] = 2 + 2 = 4`
+> - **k = 2:** `L[2] + L[2 % 5] = L[2] + L[2] = 1 + 1 = 2`
+> - **k = 1:** `L[1] + L[1 % 5] = L[1] + L[1] = 1 + 1 = 2`
+> - **k = 0:** `L[0] + L[0 % 5] = L[0] + L[0] = 0 + 0 = 0`
+> - **k = -1:** em Python, o operador `%` com divisor positivo retorna resto no intervalo `[0, divisor - 1]`. Assim, `-1 % 5 = 4`. Portanto: `L[-1] + L[4] = 3 + 3 = 6`.
+> - **k = -2:** `-2 % 5 = 3`. Portanto: `L[-2] + L[3] = 2 + 2 = 4`.
+> - **k = -3:** `-3 % 5 = 2`. Portanto: `L[-3] + L[2] = 1 + 1 = 2`.
+>
+> A sequência impressa é: **6, 4, 2, 2, 0, 6, 4, 2**.
+>
+> **Gabarito: C**
 ---
 
 > **Comentário Detalhado:**

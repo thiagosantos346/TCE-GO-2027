@@ -6517,7 +6517,7 @@
     "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
     "target_materia": "Desenvolvimento de Sistemas",
     "target_topico": "Algoritmos, lógica de programação e estruturas de dados",
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_02_devsist",
     "llm_classified": true,
     "conceitos_fundamentais": [
       "Desenvolvimento de Sistemas",

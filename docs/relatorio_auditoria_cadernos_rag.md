@@ -18,6 +18,7 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 04 (Eng. Software): Padrões de Projeto (Design Patterns - GoF)](#caderno-04-eng-software-padrões-de-projeto-design-patterns---gof)
 - [Caderno 05 (Eng. Software): Qualidade, Testes, Refatoração e Dívida Técnica](#caderno-05-eng-software-qualidade-testes-refatoração-e-dívida-técnica)
 - [Caderno 01 (Dev. Sistemas): Algoritmos, Estruturas de Dados e Paradigmas](#caderno-01-dev-sistemas-algoritmos-estruturas-de-dados-e-paradigmas)
+- [Caderno 02 (Dev. Sistemas): Linguagens de Programação (Java, JavaScript, Node.js e Python)](#caderno-02-dev-sistemas-linguagens-de-programação-java-javascript-nodejs-e-python)
 
 ---
 
@@ -478,3 +479,30 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 062`** (POO: Distinções conceituais e arquiteturais entre Classes Abstratas e Interfaces): Preservada.
 * **`Teste 063`** (Programação Funcional: Funções Puras, ausência de efeitos colaterais e Transparência Referencial): Preservada.
 * **`Teste 064`** (Programação Funcional: Funções de Alta Ordem - Map, Filter e Reduce): Preservada.
+
+
+---
+
+## Caderno 02 (Dev. Sistemas): Linguagens de Programação (Java, JavaScript, Node.js e Python)
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/02_linguagens_java_javascript_nodejs_python.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 071`**: Substituir pela questão real **`V3_FGV_TJ_AP_2023_Q0539`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/AP – 2023 – Analista Judiciário (Desenvolvimento de Sistemas)
+  * **Conceito Aderente:** Manipulação avançada de listas em Python 3, indexação positiva e negativa (`L[k]`), função `range()` reversa com passo negativo e operador de módulo (`%`) sobre o tamanho da lista.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 071`**: Simulado sobre a sintaxe de fatiamento (*slicing*) em Python 3.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 065`** (JVM: Gerenciamento de Memória Stack vs Heap e ciclo do Garbage Collector): Preservada.
+* **`Teste 066`** (Linguagem Java: Modificadores `final`, `static`, `abstract` e encapsulamento): Preservada.
+* **`Teste 067`** (Hierarquia de Exceções em Java: `Throwable`, Checked Exceptions vs Unchecked / `RuntimeException`): Preservada.
+* **`Teste 068`** (Java Collections Framework: Distinções contratuais entre `List`, `Set` e `Map`): Preservada.
+* **`Teste 069`** (JavaScript: Escopo de variáveis `var`, `let`, `const`, Hoisting e Closures em laços assíncronos): Preservada.
+* **`Teste 070`** (JavaScript: Coerção implícita de tipos e diferença entre igualdade abstrata `==` e estrita `===`): Preservada.
+* **`Teste 072`** (Node.js: Arquitetura do Event Loop, Call Stack, Microtask Queue e Macrotask Queue): Preservada.
+* **`Teste 073`** (JavaScript/Node.js: Operações assíncronas com Promises, sintaxe `async/await` e tratamento de erros): Preservada.
+* **`Teste 074`** (Python 3: Estruturas sequenciais, Listas mutáveis vs Tuplas imutáveis e Dicionários): Preservada.
+* **`Teste 075`** (Python 3: Compreensão de Listas / *List Comprehensions*, filtragem e transformações funcionais): Preservada.
