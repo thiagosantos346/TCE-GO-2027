@@ -532,30 +532,30 @@ A frase cuja pontuação atende plenamente às normas da norma culta da língua 
 ---
 
 ### Teste 040
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere a pontuação no período abaixo:  
-*"A Lei de Responsabilidade Fiscal impõe limites severos para os gastos com pessoal; os municípios combalidos financeiramente, no entanto, frequentemente ultrapassam esses tetos prudenciais."*
+**(FGV – TJ/SC – 2026 – Analista Administrativo – Questão Real RAG ID: `V3_FGV_TJ_SC_2026_Q0005`)**  
+Leia o fragmento de texto a seguir:  
+*"Sentimento que não espairo; pois eu mesmo nem acerto com o mote disso ― o que queria e o que não queria, estória sem final. O correr da vida embrulha tudo, a vida é assim: esquenta e esfria, aperta e daí afrouxa, sossega e depois desinquieta. O que ela quer da gente é coragem. O que Deus quer é ver a gente aprendendo a ser capaz de ficar alegre a mais, no meio da alegria, e inda mais alegre no meio da tristeza! Só assim de repente, na horinha em que se quer, de propósito ― por coragem. Será? Era o que eu às vezes achava. Ao clarear do dia."*  
+(ROSA, João Guimarães. *Grande Sertão: Veredas*. São Paulo: Cia das Letras, 2019, p. 293)  
 
-Sobre o emprego dos sinais de pontuação no trecho, assinale a alternativa correta:
+No fragmento apresentado, o uso de diferentes sinais de pontuação contribui para a construção de sentidos e para a expressão da subjetividade do narrador. Considerando esse aspecto, assinale a afirmativa que analisa corretamente o papel desses recursos no texto.
 
-* **A)** O ponto e vírgula separa orações coordenadas de certa extensão que guardam contraste semântico, estando a segunda oração marcada por conectivo adversativo deslocado.
-* **B)** O ponto e vírgula foi empregado incorretamente, devendo ser compulsoriamente substituído por dois-pontos para introduzir uma citação em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** As vírgulas que isolam *"no entanto"* são de emprego facultativo, podendo ser suprimidas sem nenhum prejuízo às normas gramaticais.
-* **D)** O ponto e vírgula deveria ser substituído por ponto de exclamação para realçar a indignação do autor.
-* **E)** É obrigatória a aposição de vírgula imediatamente após o termo *"combalidos financeiramente"*, sob pena de quebra da regência verbal.
-
+* **A)** O uso do ponto e vírgula estabelece relações de subordinação entre as orações, organizando o texto de forma hierarquizada.
+* **B)** Os dois-pontos introduzem explicações e enumerações, contribuindo para o encadeamento reflexivo das ideias do narrador.
+* **C)** O travessão é empregado para indicar mudança de interlocutor, caracterizando o texto como diálogo direto.
+* **D)** Os pontos finais fragmentam o texto em períodos independentes, sem relação com o ritmo ou com a construção de sentido.
+* **E)** O ponto de interrogação é utilizado para organizar sintaticamente o texto, sem interferir na expressividade da linguagem.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O ponto e vírgula é o sinal de pontuação ideal na sintaxe culta da FCC para separar orações coordenadas extensas que se contrapõem em sentido, especialmente quando uma delas já possui vírgulas internas isolando adjuntos ou conjunções adversativas deslocadas (como *"no entanto"* entre vírgulas).
-> - **B)** Incorreta. Não se trata de enumeração explicativa nem citação literal, razão pela qual o ponto e vírgula é plenamente legítimo e elegante.
-> - **C)** Incorreta. Estando a conjunção adversativa (*no entanto*) deslocada para o meio da oração (após o sujeito *"os municípios.."*), o isolamento por vírgulas é **rigorosamente obrigatório**.
-> - **D)** Incorreta. O texto é técnico-dissertativo e descarta pontuação enfática de teor emotivo.
-> - **E)** Incorreta. *"combalidos financeiramente"* é adjunto adnominal restritivo de *municípios*; colocar vírgula após ele separaria o sujeito do seu verbo (*ultrapassam*), violando a regra de ouro SVC.
+> - **A) Incorreta.** O ponto e vírgula é sinal demarcador de coordenação sintática e independência oracional relativa, e não de subordinação (que é estabelecida por conectivos subordinativos ou pronomes relativos).
+> - **B) CORRETA.** Na passagem *"a vida é assim: esquenta e esfria, aperta e daí afrouxa, sossega e depois desinquieta"*, os dois-pontos cumprem a função exata de introduzir uma especificação enumerativa e explicativa sobre como "a vida é", conduzindo a reflexão filosófica de Riobaldo sobre o fluir da existência humana.
+> - **C) Incorreta.** No trecho em apreço, os travessões funcionam para isolar segmentos parentéticos explicativos/enfáticos do fluxo reflexivo do narrador (*"― o que queria e o que não queria"*, *"― por coragem"*), e não para marcar alternância de falas em diálogo direto.
+> - **D) Incorreta.** A segmentação por pontos finais é decisiva para criar o ritmo cadenciado, pausado e reflexivo próprio da prosa de Guimarães Rosa, guardando íntima relação com a construção de sentido.
+> - **E) Incorreta.** A interrogação em *"Será?"* carrega expressividade máxima: materializa a hesitação existencial, a dúvida e a autocrítica do narrador-personagem.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 

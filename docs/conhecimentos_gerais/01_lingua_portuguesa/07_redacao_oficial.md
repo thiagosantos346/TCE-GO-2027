@@ -399,61 +399,49 @@ flowchart TD
 ---
 
 ### Teste 067
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da padronização de expedientes oficiais segundo a 3ª edição do Manual de Redação da Presidência da República, considere as afirmações:  
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo – Questão Real RAG ID: `V3_FGV_TCE_SC_2026_Q3173`)**  
+O Manual de Redação da Presidência da República (2018) estabelece padrões para a produção de documentos oficiais, diferenciando-os conforme sua finalidade, seu destinatário e sua forma de circulação. Com base nesses padrões, assinale a afirmativa correta:
 
-I. As comunicações oficiais internas entre diretorias e gerências de um mesmo órgão público devem ser redigidas sob a denominação de *Memorando*.  
-
-II. O *Aviso* é espécie documental privativa utilizada para envio de correspondências por Ministros de Estado a particulares.  
-
-III. Os antigos expedientes denominados *Aviso* e *Memorando* deixaram de existir como tipos autônomos, tendo sido absorvidos pelo *Padrão Ofício*.  
-
-IV. O fecho *"Respeitosamente,"* deve ser empregado em comunicações endereçadas a autoridades de hierarquia superior à do emissor.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas.
-* **B)** III e IV, apenas.
-* **C)** I, III e IV, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II, III e IV.
-
+* **A)** O memorando é o documento oficial adequado para a comunicação entre órgãos de diferentes esferas federativas, sendo vedado seu uso para comunicações internas de um mesmo órgão.
+* **B)** A ata é um documento de caráter normativo, utilizado para registrar decisões de caráter vinculante emanadas de autoridade competente.
+* **C)** O ofício é o documento oficial utilizado tanto para comunicações entre unidades de um mesmo órgão quanto para a comunicação com particulares e outros órgãos públicos.
+* **D)** O relatório tem como finalidade registrar, de forma sumária e cronológica, acontecimentos e deliberações ocorridos em reuniões ou assembleias.
+* **E)** A ata é o instrumento adequado para encaminhar documentos ou informações entre diferentes órgãos públicos, devendo conter identificação do remetente e do destinatário.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Os itens I e II são falsos, pois *Aviso* e *Memorando* deixaram de existir como espécies documentais autônomas no MRPR (3ª edição).
-> - **B) CORRETA.** Estão corretos os itens III (o *Padrão Ofício* unificou aviso, ofício e memorando) e IV (o fecho *Respeitosamente* destina-se a autoridades de hierarquia superior).
-> - **C) Incorreta.** Inclui o item I, que contraria a unificação documental do Manual de Redação.
-> - **D) Incorreta.** Inclui o item II, que prescreve padrão extinto de comunicação ministerial.
-> - **E) Incorreta.** Julga verdadeiros os itens I e II, expressamente revogados.
-> 
-> **Gabarito: B**
+> - **A) Incorreta.** O *Memorando* deixou de existir na 3ª edição do MRPR (2018). Anteriormente, era utilizado estritamente para comunicações internas, e não interfederativas.
+> - **B) Incorreta.** A ata é documento de registro histórico-circunstanciado de reuniões e assembleias, não possuindo natureza de ato normativo primário ou regulamentar autônomo.
+> - **C) CORRETA.** A 3ª edição do Manual de Redação da Presidência da República aboliu as distinções entre *Aviso*, *Ofício* e *Memorando*, unificando-os sob o **Padrão Ofício**. Assim, o **Ofício** passou a ser o instrumento único empregado tanto para comunicações internas entre unidades do mesmo órgão quanto para comunicações externas dirigidas a outros órgãos públicos ou a cidadãos e entidades particulares.
+> - **D) Incorreta.** O registro sumário e cronológico de reuniões e deliberações é a definição exata de **ata**, e não de relatório (que analisa atividades executadas ou cumprimento de metas).
+> - **E) Incorreta.** O encaminhamento de documentos entre órgãos é feito por meio de **Ofício** ou despacho de expediente, e não por ata.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 068
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Quanto à estrutura física e à diagramação padrão do **Ofício** prescritas na 3ª edição do MRPR:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo – Questão Real RAG ID: `V3_FGV_TCE_SC_2026_Q3174`)**  
+A tramitação de documentos oficiais envolve procedimentos que garantem o registro, o controle e o encaminhamento adequado das comunicações na Administração Pública, assegurando rastreabilidade e eficiência no fluxo de informações. Com base no Manual de Redação da Presidência da República (2018), assinale a afirmativa correta:
 
-* **A)** A fonte tipográfica padrão recomendada para o texto é Comic Sans ou Arial Black, tamanho 14.
-* **B)** O cabeçalho contendo o Brasão de Armas da República deve ser impresso em todas as páginas do documento, inclusive nas folhas de continuação.
-* **C)** A identificação do signatário deve conter seu nome em negrito e o cargo logo abaixo, sem linha sobreposta para assinatura.
-* **D)** Todos os parágrafos do texto devem ser numerados em algarismos romanos, a começar pelo primeiro.
-* **E)** O local e a data devem ser alinhados à margem esquerda, com o mês grafado de forma numérica abreviada.
-
+* **A)** A numeração dos ofícios é facultativa e pode ser suprimida quando o documento se destinar a comunicações internas de baixa complexidade.
+* **B)** O registro e o controle da tramitação de documentos oficiais dispensam identificação do destinatário, desde que o assunto esteja claramente descrito no corpo do texto.
+* **C)** A identificação do signatário, o número do documento e o registro do assunto são elementos que contribuem para o controle e a rastreabilidade da tramitação dos expedientes oficiais.
+* **D)** A tramitação de documentos oficiais prescinde de registro formal quando realizada entre unidades de um mesmo órgão público.
+* **E)** O arquivamento dos documentos oficiais é uma etapa opcional do processo de tramitação, cabendo a cada unidade definir se adota ou não esse procedimento.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. As fontes tipográficas oficiais padronizadas pelo MRPR são **Calibri** ou **Carlito**, corpo 12 para o corpo do texto e corpo 9 para citações destacadas e notas de rodapé.
-> - **B)** Incorreta. O cabeçalho com o Brasão das Armas é impresso **exclusivamente na primeira página** do expediente; as páginas seguintes contêm apenas o número de página no cabeçalho secundário.
-> - **C)** Correta. De acordo com o MRPR (3ª edição), a identificação do signatário compõe-se do **nome da autoridade** (em letras maiúsculas e negrito) e da **designação de seu cargo** logo abaixo. É formalmente **dispensada e proibida a inserção de linha tracejada sobreposta** para aposição da assinatura, assinando-se diretamente sobre o nome digitado.
-> - **D)** Incorreta. A numeração de parágrafos é em **algarismos arábicos** e aplica-se **apenas a partir do segundo parágrafo** (o primeiro parágrafo nunca recebe número).
-> - **E)** Incorreta. O local e a data são alinhados à **margem direita** da página, com o mês obrigatoriamente escrito por extenso e em letras minúsculas (*Goiânia, 10 de maio de 2026.*).
-> 
+> - **A) Incorreta.** A numeração sequencial anual dos expedientes no padrão ofício é **rigorosamente obrigatória** para garantir o registro cronológico e a integridade documental.
+> - **B) Incorreta.** A identificação clara do destinatário (cargo, órgão ou nome) é elemento estrutural indispensável de qualquer comunicação formal expedida pela administração pública.
+> - **C) CORRETA.** Para assegurar a rastreabilidade, o controle de tramitação e a segurança jurídica, o Manual prescreve que o cabeçalho/identificação do expediente contenha o **tipo e número do documento** com o ano (*Ofício nº 123/2026/GAB*), o **campo assunto** (resumo conciso do conteúdo) e a **identificação do signatário** (autoridade emissora responsável pela manifestação).
+> - **D) Incorreta.** A tramitação intergovernamental e interunidades em órgãos de controle exige controle formal sistemático (via protocolo eletrônico/SEI).
+> - **E) Incorreta.** O arquivamento e a gestão documental são mandatórios nos termos da Lei nº 8.159/1991 e das diretrizes arquivísticas do Conarq.
+>
 > **Gabarito: C**
 
 ---

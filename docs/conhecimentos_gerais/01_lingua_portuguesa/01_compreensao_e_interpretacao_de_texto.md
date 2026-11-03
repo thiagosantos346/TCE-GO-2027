@@ -207,64 +207,28 @@ Na prova, isso aparece em perguntas sobre o **ponto de vista** do autor, sobre o
 --- 
 
 ### Teste 002
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere o seguinte trecho:  
-*"A recente decisão governamental de rever a concessão de incentivos fiscais para determinados setores produtivos não deve ser encarada sob a ótica simplista do confronto ideológico. Trata-se, em verdade, de imperativo inadiável de responsabilidade fiscal e transparência republicana. Não é concebível que renúncias bilionárias continuem sendo renovadas sem a devida comprovação de contrapartidas sociais e geração efetiva de empregos. A sociedade tem o direito de saber o retorno exato de cada centavo que deixa de ingressar nos cofres públicos."*  
-(Adaptado de publicação institucional de órgão de imprensa)
+**(FGV – TJ/RR – 2024 – Analista Judiciário – Gestão e Governança de TI – Questão Real RAG ID: `V3_FGV_TJ_RR_2024_Q1211`)**  
+Uma marca que mostra um traço da língua falada e não da língua escrita, é:
 
-Quanto ao gênero textual e ao contexto discursivo, é correto afirmar que o texto:
-
-* **A)** Classifica-se como crônica lírica, por valer-se de fatos da vida diária para provocar comoção e despertar nostalgia no leitor.
-* **B)** Configura um editorial, na medida em que expressa a posição institucional do veículo sobre tema de interesse público coletivo, empregando tom sóbrio e sem marcas de subjetividade pessoalizada.
-* **C)** Estrutura-se como notícia estritamente factual, limitando-se a relatar cronologicamente os atos normativos recém-editados pelo Poder Executivo.
-* **D)** Corresponde a um ensaio filosófico subjetivo, centrado na discussão metafísica dos conceitos abstratos de justiça e virtude individual.
-* **E)** Caracteriza-se como texto injuntivo-instrucional, voltado a fornecer um passo a passo para que os cidadãos impugnem incentivos fiscais.
-
---- 
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A crônica lírica parte de fatos cotidianos simples para evocar poesia, humor ou sentimentos subjetivos íntimos. O texto em análise aborda finanças públicas, orçamento e responsabilidade fiscal com vocabulário técnico-argumentativo.
-> - **B)** Correta. O texto analisa criticamente uma política pública, sustenta uma tese ("imperativo inadiável de responsabilidade fiscal"), não possui assinatura individual, evita pronomes de primeira pessoa do singular e expressa a opinião abalizada e institucional do veículo sobre tema de relevante interesse coletivo.
-> - **C)** Incorreta. A notícia tem caráter meramente informativo e expositivo (relata quem, o quê, quando, onde e como). O excerto acima é declaradamente opinativo e argumentativo ("não deve ser encarada", "Trata-se, em verdade", "Não é concebível").
-> - **D)** Incorreta. O texto é prático, político-econômico e jurídico-administrativo, e não uma reflexão teórica ou especulativa desvinculada de conjuntura concreta.
-> - **E)** Incorreta. Textos injuntivos ou instrucionais orientam ações com verbos no imperativo (receitas, editais, manuais). Não há instruções ou comandos procedimentais no excerto.
->
-> **Gabarito: B**
-
+* **A)** a predominância de frases complexas.
+* **B)** o uso frequente da voz passiva.
+* **C)** o uso de interrupções para melhoria da expressão.
+* **D)** o apelo a variadas estratégias de produção textual.
+* **E)** a continuidade na expressão textual.
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A subordinação densa e a predominância de frases complexas são traços distintivos típicos da **língua escrita formal/padrão**, que dispõe de tempo de planejamento e revisão gramatical. A fala espontânea privilegia a coordenação e períodos simples ou truncados.
+> - **B) Incorreta.** O emprego sistemático da voz passiva (analítica ou sintética) é uma estratégia clássica de impessoalização e formalidade textual própria da linguagem escrita acadêmica, jurídica e administrativa.
+> - **C) CORRETA.** Na modalidade oral espontânea, o processo de enunciação ocorre em tempo real, sem oportunidade de edição prévia. Por essa razão, são recorrentes as **hesitações, interrupções, reformulações, truncamentos e autocorreções** imediatas ("o uso de interrupções para melhoria da expressão") com o objetivo de precisar o pensamento perante o interlocutor.
+> - **D) Incorreta.** Ambas as modalidades (fala e escrita) mobilizam variadas estratégias comunicativas para atingir seus fins persuasivos ou informativos.
+> - **E) Incorreta.** A continuidade linear e ininterrupta do fluxo enunciativo é idealizada e construída com muito mais rigor na **escrita**, na qual os vazios e pausas reflexivas do autor não ficam registrados no produto final.
+>
+> **Gabarito: C**
 
-## 3. Tipologias Textuais
-
-### 3.1 Quadro Comparativo das Tipologias
-
-| Tipologia | Objetivo Comunicativo | Marcas Linguísticas Caracterizadoras | Foco na FCC |
-| :--- | :--- | :--- | :--- |
-| **Dissertativo-Argumentativo** | Defender um ponto de vista (tese) e persuadir o leitor mediante argumentos lógicos. | Presença de operadores argumentativos (*portanto, contudo, por conseguinte*), juízos de valor, dados estatísticos e citações. | É a tipologia **campeã da FCC**. Textos de reflexão filosófica, sociológica e política. |
-| **Dissertativo-Expositivo** | Apresentar ideias, conceitos ou teorias de forma estritamente informativa e impessoal. | Verbos na 3ª pessoa, linguagem técnica/denotativa, ausência de juízos morais subjetivos. | Textos científicos ou técnicos sobre administração, finanças públicas e tecnologia. |
-| **Narrativo** | Relatar uma sequência temporal de acontecimentos reais ou ficcionais envolvendo personagens. | Verbos de ação no pretérito perfeito/imperfeito, marcadores temporais (*então, depois, subitamente*), progressão de tempo. | Trechos de romances clássicos (Machado de Assis, Lima Barreto, Clarice Lispector). |
-| **Descritivo** | Caracterizar seres, objetos, ambientes ou estados com riqueza de detalhes sensoriais. | Predomínio de adjetivos, orações sem verbos de ação dinâmica, retrato estático no tempo. | Surge acoplado à narrativa ou à crônica reflexiva. |
-| **Injuntivo / Instrucional** | Indicar ordens, orientações ou procedimentos que o leitor deve seguir. | Verbos no imperativo (*faça, siga, clique*), orações no infinitivo impessoal, enumerações ordenadas. | Editais, manuais de auditoria, regulamentos e leis. |
-
-A tipologia dissertativo-argumentativa, por sua importância, é tratada em seção própria (item 4).
-
-### 3.2 Narração e Descrição
-
-A **narração** relata fatos que se sucedem no tempo, envolvendo personagens em determinado espaço. Seus elementos são: **narrador** (quem conta), **personagens** (quem vive os fatos), **enredo** (a sequência de acontecimentos, geralmente com situação inicial, conflito, clímax e desfecho), **tempo** (cronológico, marcado pelo relógio e pelo calendário, ou psicológico, que acompanha as emoções da personagem) e **espaço** (onde a ação ocorre). O **foco narrativo** pode ser em **1ª pessoa** (narrador-personagem, que participa da história e tem visão limitada) ou em **3ª pessoa** (narrador-observador, que apenas relata, ou narrador onisciente, que conhece pensamentos e sentimentos das personagens). O narrador onisciente é justamente o que abre espaço para o **discurso indireto livre** (item 6.3).
-
-A **descrição** constrói um "retrato verbal" de um ser, objeto, ambiente ou estado de espírito, como se o tempo estivesse suspenso. Predominam adjetivos, locuções adjetivas, verbos de estado (*ser, estar, parecer*) e o pretérito imperfeito ("A sala era ampla; as janelas davam para o pátio"). A descrição pode ser **objetiva** (precisa, denotativa, como em um laudo técnico) ou **subjetiva** (impregnada das impressões de quem descreve, com linguagem conotativa).
-
-### 3.3 Exposição e Injunção
-
-A **exposição** (dissertação expositiva) tem por finalidade **informar e explicar** um assunto, sem pretender convencer o leitor de uma tese polêmica. Usa linguagem predominantemente denotativa, terceira pessoa, presente atemporal ("O Tribunal de Contas *é* órgão de controle externo") e recursos como definição, classificação, enumeração e exemplificação. Textos didáticos, verbetes e relatórios técnicos são predominantemente expositivos.
-
-A **injunção** orienta o comportamento do leitor: diz o que fazer e como fazer. Caracteriza-se pelo imperativo ("preencha", "anexe"), pelo infinitivo com valor de ordem ("Encaminhar o processo ao setor competente") e por enumerações sequenciais. Manuais, editais, receitas e normas procedimentais são exemplos típicos.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A presença de um **trecho** narrativo dentro de um texto não o torna narrativo. Um ensaio que conta uma pequena anedota para ilustrar sua tese continua sendo **predominantemente dissertativo-argumentativo**: a narrativa ali é apenas uma estratégia de argumentação (argumento por exemplificação).
-
---- 
+---
 
 ### Teste 003
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
@@ -423,69 +387,29 @@ A conotação está na base das **figuras de linguagem** (item 9), especialmente
 ---
 
 ### Teste 006
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Assinale a alternativa em que a relação entre orações do texto expressa valor semântico de conotação e linguagem figurada:
+**(FGV – TJ/SC – 2026 – Analista Administrativo – Questão Real RAG ID: `V3_FGV_TJ_SC_2026_Q0001`)**  
+Observe uma peça de campanha divulgada pela Secretaria do Estado de Turismo de Santa Catarina em 2023.  
+*(Contexto institucional: Peça de campanha publicitária com slogan central articulando imagens turísticas e a expressão 'Santa Catarina: um estado de alegria')*.  
 
-* **A)** *"O contrato administrativo foi rescindido unilateralmente pela administração com base no artigo 137 da legislação vigente."*
-* **B)** *"A receita tributária estadual registrou crescimento nominal de quatro por cento no terceiro trimestre do exercício financeiro."*
-* **C)** *"A burocracia estatal engoliu os anseios da população em um pântano de formulários intermináveis e carimbos inertes."*
-* **D)** *"O Tribunal de Contas é composto por sete Conselheiros nomeados segundo os ditames da Constituição Estadual."*
-* **E)** *"O prazo prescricional para o ajuizamento da execução fiscal de créditos tributários é de cinco anos."*
+Na campanha apresentada, a construção de sentidos decorre da articulação entre elementos verbais e não verbais, mobilizando recursos semânticos e visuais para promover o turismo. Considerando essa relação, assinale a afirmativa que melhor interpreta a estratégia discursiva empregada na peça.
+
+* **A)** A imagem de interação entre pessoas destaca o caráter coletivo da cena, enquanto o texto verbal remete à dimensão institucional da campanha turística.
+* **B)** O uso de formas circulares atua como recurso visual que acompanha o conteúdo verbal apresentado na peça publicitária.
+* **C)** A expressão “Santa Catarina” cumpre função informativa, contribuindo para a identificação explícita do local promovido na campanha.
+* **D)** A campanha articula texto e imagem de modo complementar, de forma que o conteúdo visual só pode ser compreendido pela leitura do slogan.
+* **E)** A expressão “um estado de alegria” explora o duplo sentido da palavra “estado”, articulando a ideia de unidade federativa à de condição emocional sugerida pela cena.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Frase de linguagem estritamente **denotativa**, técnico-jurídica: "rescindido unilateralmente" e a remissão a artigo de lei têm sentido literal e unívoco.
-> - **B)** Incorreta. Linguagem **denotativa** de natureza contábil-financeira: dado numérico ("quatro por cento") e terminologia técnica ("crescimento nominal", "exercício financeiro"), sem qualquer figura.
-> - **C)** Correta. A frase emprega linguagem eminentemente **conotativa (figurada)**: a burocracia não tem boca para *"engolir"* nada (prosopopeia/metáfora), a tramitação documental é metaforizada como um *"pântano"* e os carimbos são qualificados como *"inertes"*, transmitindo expressividade e juízo crítico de valor ao leitor.
-> - **D)** Incorreta. Enunciado **denotativo** e informativo sobre a composição de um órgão, com termos institucionais em sentido literal.
-> - **E)** Incorreta. Enunciado **denotativo** de conteúdo normativo (prazo prescricional), com terminologia jurídica precisa e sem sentido figurado.
+> - **A) Incorreta.** A assertiva fragmenta artificialmente os elementos sem captar a síntese discursiva e polissêmica central pretendida pela peça publicitária.
+> - **B) Incorreta.** Menção genérica a elementos visuais geométricos periféricos sem relação direta com o núcleo semântico da persuasão publicitária.
+> - **C) Incorreta.** Embora nomeie o ente público, essa assertiva restringe-se a uma constatação puramente factual e denotativa de menor relevância analítica.
+> - **D) Incorreta.** As imagens turísticas de praias e confraternização possuem apelo e autonomia visual direta, não dependendo exclusivamente do slogan verbal para transmitir a atmosfera convidativa.
+> - **E) CORRETA.** A riqueza semântica e conotativa reside no recurso estilístico da **polissemia (trocadilho expressivo / duplo sentido)** do substantivo **"estado"**: de um lado, denota a divisão político-geográfica (a unidade federativa de Santa Catarina); de outro, conota o humor, a disposição de espírito e a atmosfera afetiva vivenciada pelo visitante ("estado de espírito / condição emocional de alegria"). Essa fusão é a própria essência dos recursos semânticos e conotativos explorados pela banca FGV.
 >
-> **Gabarito: C**
-
-
----
-
-
-## 6. Modalidades de Discurso
-
-Quando um narrador precisa apresentar a fala ou o pensamento de uma personagem, pode fazê-lo de três maneiras, chamadas **modalidades de discurso** (ou tipos de discurso relatado):
-
-```mermaid
-flowchart TD
-    Discursos["MODALIDADES DE DISCURSO NARRATIVO"]
-    
-    Discursos --> DD["DISCURSO DIRETO<br/>• Reprodução literal das palavras da personagem<br/>• Verbo de elocução + travessão ou aspas<br/>• Ex: O auditor declarou: 'Concluirei o relatório hoje.'"]
-    Discursos --> DI["DISCURSO INDIRETO<br/>• Narrador relata com suas próprias palavras<br/>• Conjunção integrante (que / se)<br/>• Ex: O auditor declarou QUE CONCLUIRIA o relatório NAQUELE DIA."]
-    Discursos --> DIL["DISCURSO INDIRETO LIVRE<br/>• FUSÃO da voz do narrador com o pensamento da personagem<br/>• Sem verbos de elocução e sem conectivos integrantes<br/>• Ex: Caminhava tenso pelo tribunal. Quando terminaria aquela auditoria? Não aguentava mais."]
-```
-
-### 6.1 Discurso Direto
-
-No **discurso direto**, o narrador reproduz **literalmente** as palavras da personagem, como se lhe passasse a palavra. Suas marcas são: **verbo de elocução** (ou *dicendi*: *dizer, afirmar, perguntar, responder, declarar, exclamar, retrucar, murmurar*), que pode vir antes, no meio ou depois da fala; **pontuação específica** — dois-pontos seguidos de travessão ou de aspas; e a manutenção da perspectiva da personagem (1ª pessoa, presente, dêiticos como *este, aqui, hoje, amanhã*). Exemplo: *O auditor afirmou aos gestores: "Concluirei a fiscalização amanhã."* O discurso direto confere vivacidade, autenticidade e dramaticidade ao texto.
-
-### 6.2 Discurso Indireto
-
-No **discurso indireto**, o narrador **reformula com suas próprias palavras** o que a personagem disse. A fala passa a ser uma **oração subordinada substantiva** (geralmente objetiva direta) do verbo de elocução, introduzida por **conjunção integrante** (*que*, para afirmações; *se*, para perguntas totais) ou por pronome/advérbio interrogativo (*como, quando, onde, por que, quem*, para perguntas parciais). Desaparecem os travessões e as aspas, e ajustam-se pessoas, tempos verbais e dêiticos (item 7). Exemplo: *O relator perguntou a si mesmo **como** solucionaria aquele impasse.* O discurso indireto é mais sóbrio e permite ao narrador resumir ou filtrar a fala.
-
-Observe que o discurso indireto **não** é introduzido por conectivo causal (*porque, pois*): a relação entre o verbo de elocução e a fala relatada é de **complementação** (o conteúdo dito é o objeto do verbo *dizer*), e não de causa.
-
-### 6.3 Discurso Indireto Livre
-
-O **discurso indireto livre** é uma modalidade **híbrida**: a fala ou o pensamento da personagem é inserido **diretamente na narração em 3ª pessoa**, **sem verbo de elocução, sem conjunção integrante e sem travessão ou aspas**. A voz do narrador e a da personagem se **fundem**, de modo que o leitor "ouve" o fluxo de consciência da personagem por dentro do relato. É recurso típico do narrador onisciente e da prosa moderna (Graciliano Ramos, Clarice Lispector, Machado de Assis em alguns trechos).
-
-Como reconhecer:
-
-- **a)** a narração está em 3ª pessoa
-- **b)** de repente surgem **perguntas, exclamações, reticências ou expressões coloquiais** que claramente pertencem à mente da personagem, e não ao narrador
-- **c)** não há marca formal de introdução dessas falas.
-
-Exemplo: *"O relator permaneceu em silêncio. **Como solucionar aquele impasse sem ferir a jurisprudência?** Era preciso decidir."* A pergunta não é feita pelo narrador ao leitor; é a hesitação íntima do relator, inserida livremente no relato.
-
-> ⭐ **IMPORTANTE / DISCURSO INDIRETO LIVRE:** O sinal característico do Discurso Indireto Livre em provas de Língua Portuguesa da FCC é a presença de frases interrogativas ou exclamativas súbitas inseridas na terceira pessoa do singular, expressando a hesitação interna da personagem sem que haja travessão ou oração subordinada integrante (*"Estava diante do tribunal. Entraria ou fugiria? Já não restava alternativa"*).
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Discurso indireto livre **não é figura de linguagem** (não é metáfora, metonímia nem prosopopeia) e **não é tipologia textual** (não é dissertação). É um recurso de **foco narrativo**, ou seja, de organização da voz no texto narrativo. Alternativas que o classificam como figura de estilo ou como "discurso dissertativo" estão erradas.
+> **Gabarito: E**
 
 ---
 

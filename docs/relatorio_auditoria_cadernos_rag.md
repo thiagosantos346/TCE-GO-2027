@@ -1508,3 +1508,196 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 063`** (Regime Específico de Contratação de Publicidade - Lei nº 12.232/2010: Licitação obrigatória por Concorrência ou Concurso e vedação ao Pregão): Preservada.
 * **`Teste 064`** (Julgamento de Propostas Técnicas em Publicidade: Submissão de propostas desidentificadas a Subcomissão Técnica sorteada com membros externos): Preservada.
 * **`Teste 065`** (Subcontratação de Serviços Especializados em Contratos de Publicidade: Cotação de preços e regras de faturamento direto): Preservada.
+
+
+---
+
+# Módulo 01 (Conhecimentos Gerais): Língua Portuguesa
+* **Pasta:** `docs/conhecimentos_gerais/01_lingua_portuguesa/`
+* **Data da Auditoria e Injeção RAG:** 2026-11-03
+* **Cadernos Auditados:** 7 cadernos (`01_compreensao_e_interpretacao_de_texto.md` a `07_redacao_oficial.md`)
+* **Total de Questões no Módulo:** 71 questões (Testes 001 a 071)
+* **Questões Reais Injetadas via RAG:** 7 questões (100% aderentes, foco FGV 2024-2026 e Tribunais de Contas)
+* **Questões Autorais/Simuladas Preservadas:** 64 questões
+
+---
+
+## Caderno 01: Compreensão, Interpretação e Tipologia Textual
+* **Arquivo:** `docs/conhecimentos_gerais/01_lingua_portuguesa/01_compreensao_e_interpretacao_de_texto.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 002`**: Substituído pela questão real **`V3_FGV_TJ_RR_2024_Q1211`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TJ/RR – 2024 – Analista Judiciário (Gestão e Governança de TI)**
+  * **Conceito Aderente:** Variação linguística e níveis de linguagem: identificação de traços distintivos e marcas típicas da língua falada/oralidade espontânea (uso de interrupções, reformulações e truncamentos para melhoria da expressão e ajuste enunciativo imediato) em contraposição ao planejamento linear da língua escrita.
+* **`Teste 006`**: Substituído pela questão real **`V3_FGV_TJ_SC_2026_Q0001`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TJ/SC – 2026 – Analista Administrativo**
+  * **Conceito Aderente:** Semântica e estilística na banca FGV: articulação discursiva entre linguagem verbal e não verbal em campanha institucional/publicitária, explorando a polissemia e o duplo sentido da palavra "estado" (unidade federativa vs condição/estado emocional de alegria).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 002`**: Simulado sobre identificação de gêneros textuais (editorial vs notícia/ensaio).
+* **`Teste 006`**: Simulado preliminar sobre conotação e sentido figurado.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 001`** (Compreensão Textual vs Interpretação e Inferência Autorizada na análise de inteligência artificial na gestão pública): Preservada.
+* **`Teste 003`** (Tipologia Narrativa e Descritiva em relatórios de auditoria e sessões de julgamento): Preservada.
+* **`Teste 004`** (Tese e Estratégias Argumentativas na tipologia dissertativa): Preservada.
+* **`Teste 005`** (Identificação de Pressupostos e Subentendidos em textos institucionais): Preservada.
+* **`Teste 007`** (Modalidades de Discurso: Identificação de Discurso Indireto Livre em excerto reflexivo): Preservada.
+* **`Teste 008`** (Transposição de Discurso Direto para Discurso Indireto e correlação temporal): Preservada.
+* **`Teste 009`** (Relações Intertextuais: Paráfrase, Paródia, Citação e Alusão): Preservada.
+* **`Teste 010`** (Figuras de Linguagem Semânticas e de Pensamento: Metáfora, Metonímia, Antítese e Paradoxo): Preservada.
+* **`Teste 011`** (Figuras de Sintaxe e Construção: Anacoluto, Elipse, Zeugma e Pleonasmo Enfático): Preservada.
+
+---
+
+## Caderno 02: Ortografia, Acentuação Gráfica e Formação de Palavras
+* **Arquivo:** `docs/conhecimentos_gerais/01_lingua_portuguesa/02_ortografia_acentuacao_e_formacao_de_palavras.md`
+* **Status:** Concluído e sincronizado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Banco de dados vetorial continha apenas itens C/E descalibrados; preservada a integridade didática superior das 10 questões de múltipla escolha desenhadas sob medida para controle externo.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 012`** (Acentuação Gráfica de Proparoxítonas e Paroxítonas terminadas em ditongo crescente): Preservada.
+* **`Teste 013`** (Regra do Hiato e acentuação de I e U tônicos após o Novo Acordo Ortográfico): Preservada.
+* **`Teste 014`** (Emprego do Hífen em Derivação Prefixal com prefixos auto, anti, infra, hiper e sub): Preservada.
+* **`Teste 015`** (Ortografia Oficial: Grafia de vocábulos com J/G, X/CH e S/Z na administração pública): Preservada.
+* **`Teste 016`** (Homônimos e Parônimos: Discriminar vs Descriminar, Mandado vs Mandato, Iminente vs Eminente): Preservada.
+* **`Teste 017`** (Emprego das Quatro Formas dos Porquês em relatórios técnicos): Preservada.
+* **`Teste 018`** (Justificativa Gramatical Idêntica para Acentuação em pares de vocábulos): Preservada.
+* **`Teste 019`** (Processos Morfológicos de Formação: Derivação Parassintética vs Derivação Prefixal e Sufixal): Preservada.
+* **`Teste 020`** (Derivação Regressiva ou Deverbal a partir de verbos de ação na gestão fiscal): Preservada.
+* **`Teste 021`** (Derivação Imprópria ou Conversão Gramatical de classes de palavras): Preservada.
+
+---
+
+## Caderno 03: Morfossintaxe, Pronomes e Verbos
+* **Arquivo:** `docs/conhecimentos_gerais/01_lingua_portuguesa/03_morfossintaxe_pronomes_e_verbos.md`
+* **Status:** Concluído e sincronizado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Questão histórica Q0209 apresentava enunciado truncado no banco vetorial; mantidas as 10 questões estruturadas do caderno.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 022`** (Emprego de Pronomes Demonstrativos e funções dêiticas e anafóricas: este, esse, aquele): Preservada.
+* **`Teste 023`** (Pronomes Relativos antecedidos de preposição e regência de cujo, quem, onde e a que): Preservada.
+* **`Teste 024`** (Substituição de Complementos Verbais por Pronomes Oblíquos Átonos o, a, os, as, lo, la, no, na, lhe): Preservada.
+* **`Teste 025`** (Colocação Pronominal: Próclise obrigatória com palavras atrativas e mesóclise com futuro): Preservada.
+* **`Teste 026`** (Correlação de Tempos e Modos Verbais: Consecutio Temporum entre pretérito imperfeito do subjuntivo e futuro do pretérito do indicativo): Preservada.
+* **`Teste 027`** (Valores Semânticos e Aspectuais dos Tempos do Modo Indicativo e Subjuntivo): Preservada.
+* **`Teste 028`** (Condições Sintáticas para Transposição de Voz Ativa para Voz Passiva Analítica): Preservada.
+* **`Teste 029`** (Transposição Rigorosa de Voz Verbal com locução auxiliar ser + particípio): Preservada.
+* **`Teste 030`** (Funções da Partícula SE: Pronome Apassivador vs Índice de Indeterminação do Sujeito e reflexividade): Preservada.
+* **`Teste 031`** (Verbos Anômalos, Defectivos e Irregulares na redação administrativa): Preservada.
+
+---
+
+## Caderno 04: Sintaxe, Coordenação, Subordinação, Conectivos e Pontuação
+* **Arquivo:** `docs/conhecimentos_gerais/01_lingua_portuguesa/04_sintaxe_coordenacao_subordinacao_conectivos_pontuacao.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 040`**: Substituído pela questão real **`V3_FGV_TJ_SC_2026_Q0005`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TJ/SC – 2026 – Analista Administrativo**
+  * **Conceito Aderente:** Emprego dos sinais de pontuação na banca FGV: papel sintático-estilístico dos dois-pontos ao introduzir explicações, especificações e enumerações que encadeiam o fluxo reflexivo de ideias do narrador (*Grande Sertão: Veredas* de Guimarães Rosa), além do uso de travessões parentéticos e ponto e vírgula coordenativo.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 040`**: Simulado sobre o ponto e vírgula e conjunção adversativa deslocada na LRF.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 032`** (Termos Essenciais e Integrantes da Oração: Sujeito, Objeto Direto, Objeto Indireto e Agente da Passiva): Preservada.
+* **`Teste 033`** (Diferenciação Sintática entre Complemento Nominal e Adjunto Adnominal preposicionado): Preservada.
+* **`Teste 034`** (Termos Acessórios da Oração: Adjunto Adverbial, Aposto Explicativo e Vocativo): Preservada.
+* **`Teste 035`** (Classificação das Orações Coordenadas Sindéticas: Aditivas, Adversativas, Alternativas, Conclusivas e Explicativas): Preservada.
+* **`Teste 036`** (Orações Subordinadas Substantivas e Função Sintática da Oração Subjetiva e Objetiva Direta): Preservada.
+* **`Teste 037`** (Valores Semânticos das Conjunções Subordinativas Adverbiais: Concessivas como *Conquanto* vs Causais e Condicionais): Preservada.
+* **`Teste 038`** (Polissemia Conjuntiva do Conectivo *COMO*: Causa, Comparação e Conformidade): Preservada.
+* **`Teste 039`** (Regra de Ouro SVC e Proibição de Vírgula entre Sujeito e Predicado / Verbo e Complemento): Preservada.
+* **`Teste 041`** (Distinção Semântica e Pontuação entre Oração Adjetiva Explicativa e Oração Adjetiva Restritiva): Preservada.
+
+---
+
+## Caderno 05: Concordância, Regência e Crase
+* **Arquivo:** `docs/conhecimentos_gerais/01_lingua_portuguesa/05_concordancia_regencia_e_crase.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 047`**: Substituído pela questão real **`V3_FGV_TJ_MT_2024_Q1849`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TJ/MT – 2024 – Analista Judiciário**
+  * **Conceito Aderente:** Regência verbal, complementos pronominais e crase: estruturação sintática e anáfora dos pronomes oblíquos átonos "la" (objeto direto de conhecer) e "lhe" (objeto indireto de virar as costas) remetendo ao mesmo antecedente (*à verdade*).
+* **`Teste 050`**: Substituído pela questão real **`V3_FGV_TCE_SC_2026_Q3107`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo**
+  * **Conceito Aderente:** Emprego do acento grave indicativo de crase em contexto institucional de controle externo: identificação de caso proibido por duplicidade prepositiva (*"para às novas funções"*, sobreposição indevida da preposição *para* com a contração *às*).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 047`**: Simulado de lacunas sobre a regência de *referir-se* e *aspirar*.
+* **`Teste 050`**: Simulado sobre casos gerais de proibição e obrigatoriedade de crase.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 042`** (Concordância Verbal com Sujeito Composto anteposto e posposto e núcleos sinônimos): Preservada.
+* **`Teste 043`** (Concordância Verbal com Expressões Partitivas e Percentuais seguidas de adjunto no plural): Preservada.
+* **`Teste 044`** (Concordância Verbal com a partícula SE: Verbo Transitivo Direto no plural com Sujeito Paciente): Preservada.
+* **`Teste 045`** (Concordância Nominal: Adjetivo anteposto e posposto a múltiplos substantivos): Preservada.
+* **`Teste 046`** (Regência Verbal do verbo PREFERIR: Vedação a 'do que' e 'mais que', exigência de preposição 'a'): Preservada.
+* **`Teste 048`** (Regência de Verbos Notáveis na Administração: Visar, Assistir, Implicar e Proceder): Preservada.
+* **`Teste 049`** (Regência Nominal de Substantivos e Adjetivos que exigem preposições a, de, em e por): Preservada.
+* **`Teste 051`** (Crase Diante de Nomes Geográficos, Locuções Femininas e Casos Facultativos): Preservada.
+
+---
+
+## Caderno 06: Redação, Reescrita e Equivalência de Estruturas
+* **Arquivo:** `docs/conhecimentos_gerais/01_lingua_portuguesa/06_redacao_reescrita_e_equivalencia_de_estruturas.md`
+* **Status:** Concluído e sincronizado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Banco vetorial não apresentava itens de reescritura pura com aderência completa; preservadas integralmente as 10 questões originais elaboradas no rigoroso estilo FCC/FGV.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 052`** (Reescrita com Manutenção do Sentido Original e Correção Gramatical): Preservada.
+* **`Teste 053`** (Clareza e Concisão na Redação Oficial: Eliminação de prolixidade e preciosismos): Preservada.
+* **`Teste 054`** (Paralelismo Sintático e Semântico em enumerações e orações coordenadas): Preservada.
+* **`Teste 055`** (Substituição de Orações Subordinadas Adjetivas por Adjetivos ou Locuções Adjetivas Equivalentes): Preservada.
+* **`Teste 056`** (Ambiguidade e Duplo Sentido na Redação de Relatórios de Auditoria): Preservada.
+* **`Teste 057`** (Transposição de Oração Reduzida para Oração Desenvolvida com conectivo adequado): Preservada.
+* **`Teste 058`** (Troca de Conectivos Coordenativos e Subordinativos com equivalência de valor semântico): Preservada.
+* **`Teste 059`** (Economia Linguística e Combate a Pleonasmos Viciosos na gestão pública): Preservada.
+* **`Teste 060`** (Reestruturação Sintática de Períodos Longos mantendo a coesão referencial): Preservada.
+* **`Teste 061`** (Precisão Vocabular e Adequação Semântica na terminologia técnica do TCE-GO): Preservada.
+
+---
+
+## Caderno 07: Redação Oficial (Manual da Presidência da República 2018)
+* **Arquivo:** `docs/conhecimentos_gerais/01_lingua_portuguesa/07_redacao_oficial.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 067`**: Substituído pela questão real **`V3_FGV_TCE_SC_2026_Q3173`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo**
+  * **Conceito Aderente:** Manual de Redação da Presidência da República (3ª edição, 2018): padronização documental e unificação dos expedientes sob o Padrão Ofício, que passou a ser o documento único utilizado tanto para comunicações internas entre unidades do mesmo órgão quanto para comunicações externas com particulares e outros órgãos.
+* **`Teste 068`**: Substituído pela questão real **`V3_FGV_TCE_SC_2026_Q3174`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo**
+  * **Conceito Aderente:** Tramitação e controle de expedientes oficiais segundo o MRPR (2018): procedimentos que asseguram rastreabilidade, registro e controle das comunicações mediante identificação do signatário, número do expediente com o ano e registro claro do campo assunto.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 067`**: Simulado prévio sobre a extinção de memorando e aviso.
+* **`Teste 068`**: Simulado sobre diagramação física do ofício.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 062`** (Atributos Fundamentais da Redação Oficial: Clareza, Precisão, Concisão, Objetividade, Impessoalidade e Padronização): Preservada.
+* **`Teste 063`** (Princípio da Impessoalidade na Redação Oficial: Ausência de impressões individuais e uniformidade da linguagem): Preservada.
+* **`Teste 064`** (Diagramação e Padrão Gráfico segundo o MRPR: Margens de 3,0 cm e 1,5 cm e tipografia Calibri/Carlito): Preservada.
+* **`Teste 065`** (Pronomes de Tratamento: Emprego de Vossa Excelência para Chefes de Poder e Conselheiros vs Vossa Senhoria): Preservada.
+* **`Teste 066`** (Vocativo Oficial em Expedientes: Vossa Excelência exige "Senhor [Cargo]" e fechos padronizados): Preservada.
+* **`Teste 069`** (Fechos para Comunicações Oficiais: Bipartição estrita entre Respeitosamente para autoridade superior e Atenciosamente para mesma ou menor hierarquia): Preservada.
+* **`Teste 070`** (Correio Eletrônico Institucional / E-mail: Valor documental, segurança da informação e parâmetros do MRPR): Preservada.
+* **`Teste 071`** (Espécies Documentais no Controle Externo: Relatório de Auditoria, Instrução Técnica, Parecer Prévio e Acórdão): Preservada.

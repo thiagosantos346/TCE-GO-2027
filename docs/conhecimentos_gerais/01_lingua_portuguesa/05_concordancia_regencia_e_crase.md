@@ -427,55 +427,29 @@ A respeito da regência do verbo **PREFERIR**, assinale a opção que atende à 
 ---
 
 ### Teste 047
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere a frase:  
-*"O projeto de infraestrutura _________ o secretário se referiu com entusiasmo é o mesmo _________ execução a população tanto aspira."*  
-As lacunas da frase acima são correta e respectivamente preenchidas por:
+**(FGV – TJ/MT – 2024 – Analista Judiciário – Questão Real RAG ID: `V3_FGV_TJ_MT_2024_Q1849`)**  
+Leia a frase abaixo:  
+*"O pior que uma pessoa pode fazer em relação à verdade é conhecê-la e virar-lhe as costas."*  
 
-* **A)** que – cuja
-* **B)** a que – a cuja
-* **C)** ao qual – cuja a
-* **D)** de que – que a
-* **E)** a que – cuja a
+Assinale a afirmativa adequada em relação à sua estruturação ou significado:
 
+* **A)** Os pronomes “la” e “lhe” se referem ao mesmo antecedente.
+* **B)** O termo “uma pessoa” tem significado específico.
+* **C)** Há um erro no emprego da crase em “à verdade”.
+* **D)** Na frase deveria estar escrito “conhecer-lhe” e não “conhecê-la”.
+* **E)** Em lugar de “virar-lhe” deveria estar escrito “virá-la”.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **1ª Lacuna:** O verbo *referir-se* é Transitivo Indireto e rege obrigatoriamente a preposição **a** (*quem se refere, refere-se a algo*). Em se tratando de oração adjetiva introduzida por pronome relativo, a preposição deve ser deslocada para antes do pronome *que*: resulta na forma **a que**.
-> - **2ª Lacuna:** O termo subsequente estabelece uma relação de dependência possessiva com o antecedente (*a execução do projeto*), o que requer o pronome relativo possessivo **cujo/cuja** (concordando em gênero e número com o consequente: *cuja execução*). Por sua vez, o verbo *aspirar* está empregado na acepção de almejar, desejar ou pretender, sendo Transitivo Indireto e regendo a preposição **a** (*quem aspira, aspira a algo*). Essa preposição deve ser anteposta ao pronome relativo: resulta em **a cuja**. Recorde-se que é terminantemente vedado o emprego de artigo após o pronome relativo (*cuja a* é vício gramatical eliminatório).
-> - **A)** Incorreta. Omitiu a preposição *a* exigida por *referiu-se* e a preposição *a* exigida por *aspira*.
-> - **B)** Correta. Ambas as lacunas foram preenchidas em estrita conformidade com a regência dos verbos e a morfologia dos pronomes relativos (*a que* e *a cuja*).
-> - **C)** Incorreta. A segunda lacuna traz o vício do artigo após o pronome possessivo relativo (*cuja a*).
-> - **D)** Incorreta. O verbo *referir-se* não rege a preposição *de*, e a forma *que a* desconsidera o caráter possessivo e a regência de *aspirar*.
-> - **E)** Incorreta. Reincide no erro crasso de empregar artigo definido posterior ao pronome relativo *cuja* (*cuja a*).
-> 
-> **Gabarito: B**
-
----
-
-## 5. Regência Nominal de Substantivos e Adjetivos
-
-A regência nominal estuda a relação de dependência sintática entre um nome (substantivo abstrato, adjetivo ou advérbio) e o seu respectivo complemento nominal, o qual é sempre introduzido por preposição exigida pelo sentido daquele nome.
-
-### 5.1 Mecânica do Complemento Nominal
-
-O complemento nominal completa o sentido passivo de uma palavra que, por si só, não possui significado pleno:
-
-* Substantivo abstrato: *"A obediência **às leis** é indeclinável"* (obedecer a $\rightarrow$ obediência a).
-* Adjetivo: *"O auditor estava cioso **de suas responsabilidades**"* (cioso de).
-* Advérbio: *"O tribunal agiu favoravelmente **aos interesses públicos**"* (favoravelmente a).
-
-### 5.2 Nomes de Alta Frequência em Atos de Controle e Direito Público
-
-* **Acessível a:** *"O portal é acessível a todos os cidadãos."*
-* **Atento a / em:** *"O fiscal permaneceu atento aos detalhes."*
-* **Compatível com:** *"A proposta é compatível com os preços de mercado."*
-* **Contrário a:** *"Voto contrário à pretensão do recorrente."*
-* **Imune a / de:** *"O órgão é imune à incidência tributária."*
-* **Passível de:** *"O ato é passível de anulação por vício de forma."*
-* **Respeito a / por:** *"O respeito à dignidade humana e pelas leis."*
+> - **A) CORRETA.** O pronome oblíquo átono **"la"** (em *conhecê-la*, atuando como objeto direto do VTD *conhecer*) e o pronome oblíquo átono **"lhe"** (em *virar-lhe as costas*, objeto indireto regido pela locução: *virar as costas à verdade*) referem-se anaforicamente ao mesmo núcleo substantivo antecedente: **"à verdade"**.
+> - **B) Incorreta.** O termo "uma pessoa" tem valor genérico e universalizante (qualquer indivíduo da espécie humana), e não uma referência individualizada ou específica.
+> - **C) Incorreta.** A locução prepositiva "em relação a" rege a preposição **a**, que se funde legitimamente com o artigo feminino **a** que determina o substantivo feminino "verdade", tornando a crase obrigatória (*em relação à verdade*).
+> - **D) Incorreta.** O verbo *conhecer* é Transitivo Direto (*quem conhece, conhece algo ou alguém*); portanto, repele o pronome "lhe" (que atua como objeto indireto) e exige o pronome "a" (que, pós-posto a forma verbal terminada em 'r', transmuta-se em "la").
+> - **E) Incorreta.** A expressão idiomática é *virar as costas a alguém/algo* (VTD e I: costas = OD; à verdade = OI representado por "lhe"). Substituir por "virá-la" desvirtuaria a regência e o sentido da locução verbal.
+>
+> **Gabarito: A**
 
 ---
 
@@ -627,27 +601,29 @@ Assinale a frase em que o sinal indicativo de crase está empregado em **estrita
 ---
 
 ### Teste 050
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O sinal indicativo de crase está empregado em estrita observância à norma-padrão em:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo – Questão Real RAG ID: `V3_FGV_TCE_SC_2026_Q3107`)**  
+Uma notícia recente dizia:  
+*"A Presidente da Associação Nacional dos Auditores de Controle Externo dos Tribunais de Contas do Brasil (ANTC), Thaisse Craveiro, convocou os Membros Institucionais do Conselho de Representantes para Reunião Extraordinária a ser realizada no dia 23 de fevereiro de 2026 (segunda-feira), às 17h, em modalidade virtual, por meio da plataforma Zoom. A convocação ocorre nos termos do Estatuto da entidade e tem como pauta o exame de situação institucional envolvendo procedimento disciplinar contra Auditor de Controle Externo, bem como a definição de estratégias políticas e jurídicas voltadas à preservação da independência funcional e das garantias inerentes à função de auditoria."*  
 
-* **A)** A comissão de licitação procedeu à abertura dos envelopes perante à uma plateia atenta.
-* **B)** Os auditores compareceram à audiência pública dispostos à colaborar com o esclarecimento dos fatos em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** O presidente do tribunal comunicou o resultado à Vossa Excelência durante a reunião do conselho.
-* **D)** À medida que os documentos contábeis eram analisados, as fraudes vinham à tona de forma irrefutável.
-* **E)** O auditor entregou o parecer à um de seus assessores diretos logo após o almoço.
+Nesse segmento textual, há exemplos corretos da utilização do acento grave indicativo da crase. Assinale a frase em que o emprego desse acento mostra **incorreção**:
 
+* **A)** As leis respondem às necessidades da população.
+* **B)** Os olhos dos tribunais estão voltados à fiscalização.
+* **C)** As leis não devem ser obedecidas à força.
+* **D)** Os sonegadores foram levados à Justiça.
+* **E)** O artigo dirige seu foco para às novas funções.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. É proibida a crase diante de artigo indefinido (*"uma plateia"*), pois não há artigo definido a fundir; além disso, a preposição *perante* já rege o termo sem preposição *a*.
-> - **B)** Incorreta. É absolutamente proibido o emprego de crase antes de verbos (*"à colaborar"*), uma vez que verbos não admitem artigo feminino.
-> - **C)** Incorreta. É proibida a crase diante de pronomes de tratamento em geral (*"Vossa Excelência"*), haja vista que não aceitam artigo definido feminino (exceções: *senhora*, *senhorita* e *dona*).
-> - **D)** Correta. Em *"À medida que"*, trata-se de locução conjuntiva proporcional feminina de núcleo substantivo, na qual o acento grave indicativo de crase é rigorosamente **obrigatório**. Em *"à tona"*, temos locução adverbial de modo feminina, que também exige o sinal indicativo de crase na norma culta.
-> - **E)** Incorreta. É proibido o uso de crase diante de palavras masculinas e de pronomes indefinidos (*"à um"*).
+> - **A) Correta (emprego adequado).** O verbo *responder* (na acepção de atender a algo) rege preposição *a* (*responder a*), que se funde com o artigo feminino plural *as* de *necessidades* -> *às necessidades*.
+> - **B) Correta (emprego adequado).** O adjetivo *voltados* rege a preposição *a* (*voltado a algo*), que se une ao artigo *a* de *fiscalização* -> *à fiscalização*.
+> - **C) Correta (emprego adequado).** *"À força"* é locução adverbial de modo formada por substantivo feminino, recebendo acento grave obrigatório na norma culta.
+> - **D) Correta (emprego adequado).** O particípio/verbo *levados* rege a preposição *a*, e a palavra *Justiça* (instituição/Poder Judiciário) admite artigo feminino definido -> *levados à Justiça*.
+> - **E) INCORRETA (Gabarito da questão).** A preposição **para** já cumpre a função de regência direcional. A sobreposição da preposição *para* com o acento indicativo de crase (*"para às"*) constitui erro crasso de duplicidade prepositiva. A regência culta exige apenas a preposição seguida de artigo (*"para as novas funções"*) ou unicamente a contração prepositiva 'a' com o artigo (*"às novas funções"*).
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
