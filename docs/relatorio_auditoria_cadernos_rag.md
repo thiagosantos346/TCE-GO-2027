@@ -25,6 +25,9 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 06 (Dev. Sistemas): Git, Gerenciamento de Dependências e Empacotamento](#caderno-06-dev-sistemas-git-gerenciamento-de-dependências-e-empacotamento)
 - [Caderno 01 (IA & Agentivos): Fundamentos de LLMs, Intent-Based e Engenharia de Prompts](#caderno-01-ia--agentivos-fundamentos-de-llms-intent-based-e-engenharia-de-prompts)
 - [Caderno 02 (IA & Agentivos): Arquitetura de Sistemas Agentivos e Ferramentas CLI / IDE](#caderno-02-ia--agentivos-arquitetura-de-sistemas-agentivos-e-ferramentas-cli--ide)
+- [Caderno 03 (IA & Agentivos): Ciclo de Vida Assistido, Geração de Testes e Depuração](#caderno-03-ia--agentivos-ciclo-de-vida-assistido-geração-de-testes-e-depuração)
+- [Caderno 04 (IA & Agentivos): RAG, Protocolo MCP, Skills e Ferramental](#caderno-04-ia--agentivos-rag-protocolo-mcp-skills-e-ferramental)
+- [Caderno 05 (IA & Agentivos): Qualidade, Alucinações, Segurança e Ética na IA](#caderno-05-ia--agentivos-qualidade-alucinações-segurança-e-ética-na-ia)
 
 ---
 
@@ -681,3 +684,84 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 136`** (Critérios de Parada / *Stop Conditions* e Disjuntores contra Loops Infinitos de Agentes): Preservada.
 * **`Teste 137`** (Arquiteturas Multiagente Hierárquicas: Agente Orquestrador delegando a Subagentes Especialistas): Preservada.
 * **`Teste 138`** (Governança, Menor Privilégio e Mecanismos *Human-in-the-Loop* em Agentes Autônomos): Preservada.
+
+
+---
+
+## Caderno 03 (IA & Agentivos): Ciclo de Vida Assistido, Geração de Testes e Depuração
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/06_engenharia_software_ia_e_sistemas_agentivos/03_ciclo_de_vida_assistido_geracao_testes_e_depuracao.md`
+* **Status:** Auditado e aprovado sem necessidade de substituição (100% de preservação pedagógica)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma.* (Não foram identificadas no banco vetorial questões reais oficiais de concursos pós-2022 de TI abordando detalhadamente engenharia de software assistida por IA, engines de completamento de código FIM - Fill-in-the-Middle em IDEs, code review automatizado com agentes, depuração de incidentes em produção com análise de stack traces por IA, geração automatizada de testes unitários com armadilha de mocks tautológicos ou testes de mutação para aferição de testes sintéticos).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 139`** (Tradução e Modernização de Legado: Migração de regras de negócio de COBOL para Python assistida por IA, cuidados com tipos de ponto fixo `Decimal` vs ponto flutuante e semântica de arredondamento financeiro): Preservada.
+* **`Teste 140`** (Motores de Completamento em IDEs: Arquitetura *Fill-in-the-Middle* / FIM, renderização de contexto por prefixo e sufixo para preenchimento de lacunas de código): Preservada.
+* **`Teste 141`** (AI Code Review em CI/CD: Integração de agentes no fluxo de Pull Requests, triagem preliminar de estilo, complexidade ciclomática e aderência a linters): Preservada.
+* **`Teste 142`** (Limites de Contexto em Revisão de Código: *Chunking* semântico por arquivo/função vs visão holística de repositório e estratégias de mitigação de degradação posicional): Preservada.
+* **`Teste 143`** (Segurança em Code Review por IA: Detecção de credenciais, segredos e API keys em pipelines com modelos generativos vs checagens determinísticas de entropia e regex como Gitleaks/TruffleHog): Preservada.
+* **`Teste 144`** (Engenharia Reversa de Legados: Síntese automatizada de docstrings, diagramas estruturais Mermaid e especificações OpenAPI a partir de código desprovido de documentação): Preservada.
+* **`Teste 145`** (Depuração de Incidentes em Produção: Análise de *Stack Traces* por LLM, identificação de causas-raiz em falhas concorrentes e geração de patches acompanhados de testes de regressão): Preservada.
+* **`Teste 146`** (Investigação de Performance e Concorrência: Diagnóstico de esgotamento de pool de conexões JDBC/HikariCP e contenção de threads guiado por IA): Preservada.
+* **`Teste 147`** (Geração Automatizada de Testes Unitários: Criação de suítes JUnit/PyTest com IA e prevenção contra a armadilha de mocks tautológicos que confirmam o próprio erro): Preservada.
+* **`Teste 148`** (Testes de Mutação Aplicados a Código Sintético: Utilização de mutation testing como PIT/Mutmut para injetar falhas propositais e validar se a suíte gerada por IA realmente detecta quebras): Preservada.
+* **`Teste 149`** (Cobertura de Código vs Cobertura de Mutação: Limitações da métrica puramente estática de linhas cobertas e superioridade do índice de mutantes eliminados para testes assistidos por IA): Preservada.
+
+
+---
+
+## Caderno 04 (IA & Agentivos): RAG, Protocolo MCP, Skills e Ferramental
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/06_engenharia_software_ia_e_sistemas_agentivos/04_rag_protocolo_mcp_skills_e_ferramental.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 152`**: Substituído pela questão real **`V3_FGV_TCE_PA_2024_Q2622`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/PA – 2024 – Auditor de Controle Externo (Ciência de Dados / TI)**
+  * **Conceito Aderente:** Fundamentos da arquitetura *Retrieval-Augmented Generation* (RAG) para mitigação de alucinações em LLMs, combinação entre sistemas de recuperação de informação e modelos generativos, busca em bases de dados externas confiáveis durante a consulta e ausência de alteração nos parâmetros/pesos do modelo generativo (inferência em tempo real sem retreino).
+* **`Teste 154`**: Substituído pela questão real **`V3_FGV_TCE_SC_2026_Q3280`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo (TI - Ciências da Computação)**
+  * **Conceito Aderente:** Papel fundamental dos Bancos de Dados Vetoriais (*Vector Databases*) no fluxo operacional de um sistema RAG em Tribunais de Contas: armazenar as representações matemáticas multidimensionais (*embeddings*) dos documentos normativos para viabilizar a busca por similaridade semântica (cosseno/HNSW) e ancorar as respostas do LLM.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 152`**: Simulado sobre arquitetura RAG e chunking para auditoria de conformidade de repositórios.
+* **`Teste 154`**: Simulado sobre busca híbrida em bancos de dados vetoriais para auditoria.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 150`** (Self-Attention Canônico do Transformer: Mecanismo de atenção por produto escalar escalado, matrizes Q, K, V e complexidade quadrática $O(N^2)$): Preservada.
+* **`Teste 151`** (Prompt Caching: Mecanismo de KV Cache em aceleração por GPU, reuso de prefixos idênticos de prompts corporativos e redução de até 90% em custos de tokens e TTFT): Preservada.
+* **`Teste 153`** (AST-Based Chunking: Fatiamento estrutural com parsers gramaticais como Tree-sitter para preservação de funções, classes e namespaces inteiros nos embeddings): Preservada.
+* **`Teste 155`** (Matriz RAG vs Fine-Tuning: Critérios objetivos de escolha arquitetural - conhecimento factual dinâmico vs conformidade de estilo e sintaxe): Preservada.
+* **`Teste 156`** (Arquitetura do Model Context Protocol - MCP: Padrão aberto da Anthropic, separação estrita entre Host, MCP Client e MCP Server): Preservada.
+* **`Teste 157`** (Primitivas do Protocolo MCP: Distinção operacional entre Resources, Prompts e Tools): Preservada.
+* **`Teste 158`** (Segurança no Ecossistema MCP: Autorização explícita, modelo *Human-in-the-Loop*, sandboxing de tools e menor privilégio): Preservada.
+* **`Teste 159`** (Camadas de Transporte do MCP: Transporte Stdio sobre processos locais e SSE - Server-Sent Events sobre HTTP para servidores remotos): Preservada.
+* **`Teste 160`** (Mecanismo de Tool Use / Function Calling: Protocolo de geração e troca de esquemas JSON estruturados entre LLM e cliente executor): Preservada.
+
+
+---
+
+## Caderno 05 (IA & Agentivos): Qualidade, Alucinações, Segurança e Ética na IA
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/06_engenharia_software_ia_e_sistemas_agentivos/05_qualidade_alucinacoes_seguranca_e_etica_na_ia.md`
+* **Status:** Auditado e aprovado sem necessidade de substituição (100% de preservação pedagógica)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma.* (Não foram identificadas no banco vetorial questões reais oficiais de concursos pós-2022 de TI cobrindo métricas de código pass@k, benchmarks HumanEval/MBPP, isolamento de agentes em microVMs Firecracker/gVisor, ataques de Slopsquatting/Package Hallucination em NPM/PyPI, OWASP Top 10 for LLM - Prompt Injection direto/indireto, LGPD em prompts de desenvolvimento ou diretrizes da Resolução CNJ nº 332/2020 para IA no setor público).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 161`** (Métricas de Avaliação de Código: Superioridade do `pass@k` baseado em execução de suítes de teste sobre métricas léxicas de n-gramas como BLEU e ROUGE): Preservada.
+* **`Teste 162`** (Benchmarks de Código para LLMs: HumanEval e MBPP - *Mostly Basic Python Problems*, medição de síntese funcional e resolução de problemas algorítmicos): Preservada.
+* **`Teste 163`** (Taxonomia de Métricas de Avaliação em IA: Perplexidade / *Perplexity*, BLEU, ROUGE e embeddings semânticos com BERTScore): Preservada.
+* **`Teste 164`** (Sandboxing de Agentes Autônomos: Isolamento de execução de código e comandos de shell em microVMs como Firecracker, gVisor ou contêineres Docker efêmeros): Preservada.
+* **`Teste 165`** (Ataques à Cadeia de Suprimentos por IA: O vetor de ameaça *Slopsquatting* / *Package Hallucination*, registro malicioso de bibliotecas alucinadas em repositórios públicos PyPI e NPM): Preservada.
+* **`Teste 166`** (OWASP Top 10 for LLM - Injeção de Instruções: Vetores de *Direct Prompt Injection* / Jailbreaking e *Indirect Prompt Injection* via dados externos manipulados): Preservada.
+* **`Teste 167`** (Segurança e Vazamento de Dados em Ferramentas CLI/IDE: Vetores de exfiltração de dados sensíveis e código proprietário via ferramentas e chamadas de API desprotegidas): Preservada.
+* **`Teste 168`** (LGPD e Governança de Prompts Corporativos: Políticas de retenção e treinamento de provedores de IA, mascaramento de PII e proteção de segredos de negócio): Preservada.
+* **`Teste 169`** (Propriedade Intelectual e Licenciamento de Código Sintético: Riscos de contaminação por licenças copyleft como GPLv3 em código gerado por IA e jurisprudência de Fair Use): Preservada.
+* **`Teste 170`** (Governança Pública e Resolução CNJ nº 332/2020: Princípios de explicabilidade, auditabilidade, supervisão humana - *Human-in-the-Loop* e não-discriminação algorítmica em tribunais): Preservada.

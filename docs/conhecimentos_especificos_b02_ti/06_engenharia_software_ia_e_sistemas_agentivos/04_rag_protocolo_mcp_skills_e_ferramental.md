@@ -212,29 +212,30 @@ Bases de código dependem criticamente de nomes literais exatos (como o nome de 
 ---
 
 ### Teste 152
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Uma instituição pública precisa capacitar um agente de IA para analisar e auditar a conformidade de novos softwares em relação a um gigantesco repositório corporativo que contém milhões de linhas de código e dezenas de manuais técnicos que sofrem atualizações diárias.
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Ciência de Dados / TI)**  
+Alguns dos primeiros modelos de linguagem de larga escala desenvolvidos tendiam a gerar resultados incorretos com excesso de confiança, caracterizando o que se convencionou chamar de alucinações dos modelos. Uma estratégia de mitigação das alucinações é o uso da técnica de Geração Aumentada por Recuperação, ou *Retrieval-Augmented Generation* (RAG). A respeito da RAG, avalie as afirmativas a seguir.
 
-Para permitir que a IA consulte essas informações atualizadas com alta precisão e custo sustentável, mantendo a integridade semântica do código, a equipe deve adotar:  
+I. Baseia-se na combinação de sistemas de recuperação de informações e de modelos generativos capazes de produzir novos textos.  
+II. Permite aos modelos buscarem informações relevantes em bases de dados mais confiáveis durante o processamento das consultas dos usuários (*user queries*), viabilizando melhor adequação a contextos e melhor qualidade das respostas.  
+III. Não altera os parâmetros dos modelos generativos, e, portanto, não influencia o treinamento das redes neurais com informações recuperadas de bases de dados externas.  
 
-* **A)** O retreinamento completo (*Full Pre-training*) dos pesos de um modelo fundacional a cada nova alteração de commit no repositório Git.
-* **B)** Uma arquitetura de RAG (*Retrieval-Augmented Generation*), realizando o fracionamento (*chunking*) do código com base na Árvore de Sintaxe Abstrata (AST) para preservar blocos lógicos inteiros (como classes e funções), gerando embeddings armazenados em um banco vetorial para busca semântica em tempo de inferência.
-* **C)** A conversão de todos os arquivos de código-fonte em um único prompt contínuo de texto sem chunking, submetendo-o a modelos sem janela de contexto delimitada.
-* **D)** O particionamento arbitrário de código em blocos fixos de 10 linhas de texto, ignorando a estrutura sintática de métodos e classes, para maximizar o índice de acerto da busca léxica.
-* **E)** A técnica de *Fine-Tuning* supervisionado com exclusão de qualquer banco de dados vetorial, visto que embeddings numéricos são incapazes de representar proximidade semântica entre termos técnicos. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+Está correto o que se afirma em:
 
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O pré-treinamento completo de um modelo fundacional consome milhões de dólares e semanas de processamento em supercomputadores, sendo totalmente inviável para acomodar atualizações diárias de código.
-> - **B)** **CORRETA.** A arquitetura RAG viabiliza a atualização dinâmica e contínua do conhecimento factual sem retreino de pesos. O fatiamento estruturado com base na Árvore de Sintaxe Abstrata (AST) garante que classes e funções sejam preservadas em blocos lógicos coesos, produzindo embeddings representativos indexados em bancos vetoriais para busca por similaridade de cosseno.
-> - **C)** Incorreta. Submeter milhões de linhas em um único prompt ultrapassa a capacidade prática das janelas de contexto, gera custos financeiros inviáveis e sofre severa degradação posicional de atenção (*Lost in the Middle*).
-> - **D)** Incorreta. O fatiamento arbitrário por contagem de linhas quebra funções ao meio e desassocia assinaturas de parâmetros, destruindo a semântica do código nos embeddings.
-> - **E)** Incorreta. Embeddings numéricos são o fundamento matemático consagrado da representação semântica vetorial, e o Fine-Tuning é inadequado para bases de conhecimento factual em constante atualização.
+> - **I. Correta.** O paradigma RAG combina estruturalmente dois componentes: um sistema de recuperação de informação (*Retriever*, normalmente apoiado em busca vetorial e similaridade semântica) e um modelo fundacional generativo (*Generator* / LLM) que sintetiza a resposta final a partir dos fragmentos recuperados.
+> - **II. Correta.** Ao interceptar a consulta do usuário (*user query*), o sistema recupera fragmentos (*chunks*) de fontes de dados externas auditadas, confiáveis e proprietárias, injetando-os como contexto dinâmico no prompt, o que garante ancoragem factual (*grounding*) e reduz drasticamente as alucinações.
+> - **III. Correta.** O RAG opera estritamente em tempo de inferência (*in-context learning*). Os pesos e parâmetros do LLM permanecem inalterados e congelados (não há retreino nem *backpropagation* das redes neurais com as informações recuperadas externamente).
 > 
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
@@ -264,29 +265,26 @@ Na preparação de uma base de código-fonte para indexação e recuperação se
 ---
 
 ### Teste 154
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em um sistema de busca semântica de código para auditoria governamental baseado em banco de dados vetorial, um arquiteto implementou uma estratégia de Busca Híbrida (*Hybrid Search*).
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - TI)**  
+O TCE-SC está a implementar um assistente virtual para auxiliar os auditores na consulta de normas jurídicas complexas. Para evitar alucinações do modelo de linguagem (LLM) e garantir que as respostas sejam baseadas estritamente no repositório de resoluções do Tribunal, a equipe técnica optou pela arquitetura *Retrieval-Augmented Generation* (RAG). No fluxo de funcionamento de um sistema RAG, o papel fundamental do *Vector Database* é:
 
-A justificativa técnica para a adoção da Busca Híbrida em vez da busca vetorial pura em repositórios de software é:  
-
-* **A)** A busca vetorial pura é incapaz de processar vetores com mais de três dimensões matemáticas.
-* **B)** A busca híbrida combina a recuperação semântica densa (baseada em embeddings e similaridade de cosseno) com a busca textual esparsa tradicional (como BM25 ou busca full-text), garantindo tanto a compreensão conceitual quanto o casamento exato de identificadores literais, nomes de tabelas e códigos de erro específicos.
-* **C)** A busca híbrida substitui os bancos de dados vetoriais por fitas magnéticas analógicas para reduzir o consumo de energia.
-* **D)** O uso de busca esparsa impede qualquer tentativa de injeção de prompt por parte de usuários maliciosos.
-* **E)** A similaridade de cosseno mede exclusivamente o número de caracteres coincidentes entre duas strings semânticas em ordem alfabética. garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
-
+* **A)** armazenar as representações matemáticas dos documentos para permitir a busca por similaridade semântica.
+* **B)** realizar a tradução juramentada dos termos técnicos para linguagem natural.
+* **C)** armazenar o código-fonte do modelo pré-treinado para ajuste fino.
+* **D)** substituir completamente o LLM na geração do texto final da resposta.
+* **E)** gerir o histórico de conversas do usuário em formato de texto estruturado JSON.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Modelos modernos de embeddings operam em hiperplanos vetoriais com milhares de dimensões (ex.: 768, 1536 ou 3072 floats).
-> - **B)** **CORRETA.** Repositórios de código contêm identificadores literais rígidos (como nomes de classes `ProcessoTceDTO`, constantes e códigos de erro) que podem ter baixa representatividade semântica vetorial pura. A **Busca Híbrida** integra a busca semântica densa (compreensão de conceitos afins via similaridade de cosseno) com a busca esparsa tradicional (BM25 / Full-Text Search para casamento literal exato), fundindo os rankings com máxima precisão.
-> - **C)** Incorreta. Proposição fantasiosa sem respaldo computacional.
-> - **D)** Incorreta. A busca esparsa é um método de indexação e recuperação léxica, não uma ferramenta de segurança contra injeção de prompt.
-> - **E)** Incorreta. A similaridade de cosseno calcula o cosseno do ângulo formado entre dois vetores numéricos multidimensionais, não uma contagem de caracteres alfabéticos.
+> - **A) CORRETA.** Os bancos de dados vetoriais (*Vector Databases*, como pgvector, Qdrant, Milvus e Pinecone) armazenam os *embeddings* vetoriais multidimensionais gerados a partir dos fragmentos de documentos (*chunks*). Em tempo de consulta, viabilizam algoritmos de vizinhança aproximada (como HNSW) calculando a similaridade de cosseno para resgatar os trechos semanticamente mais próximos da dúvida do auditor.
+> - **B) Incorreta.** O banco vetorial não realiza traduções de linguagem; opera estritamente com vetores numéricos e álgebra linear em espaço latente.
+> - **C) Incorreta.** Os pesos e arquitetura do modelo residem no servidor de inferência, não na base vetorial de indexação documental.
+> - **D) Incorreta.** O banco vetorial atua como *Retriever* (recuperador de contexto); quem gera a resposta final em linguagem natural é o próprio LLM (*Generator*).
+> - **E) Incorreta.** Histórico de sessão conversacional é gerenciado em memórias de curto prazo ou bancos chave-valor/relacionais tradicionais (como Redis ou PostgreSQL), não sendo a atribuição primária do banco vetorial no pipeline de RAG.
 > 
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
