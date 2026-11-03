@@ -1832,3 +1832,158 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 119`** (Dedução Lógica a partir de Conjunto Complexo de Hipóteses com Premissas Verdadeiras): Preservada.
 * **`Teste 120`** (Falácias Informais Comuns no Debate Público: Ad Hominem, Espantalho, Falsa Dicotomia e Apelo à Autoridade): Preservada.
 * **`Teste 121`** (Paradoxos Lógicos Clássicos: Paradoxo do Mentiroso e Autoreferência na Epistemologia da Lógica): Preservada.
+
+
+---
+
+# Módulo 03 (Conhecimentos Gerais): Legislação Institucional
+* **Pasta:** `docs/conhecimentos_gerais/03_legislacao_institucional/`
+* **Data da Auditoria e Injeção RAG:** 2026-11-03
+* **Cadernos Auditados:** 6 cadernos (`01_bases_constitucionais_cf88_e_ce_go.md` a `06_politicas_institucionais_e_resolucoes_normativas.md`)
+* **Total de Questões no Módulo:** 60 questões (Testes 122 a 181)
+* **Decisão Metodológica RAG:** **Preservação Integral de 100% das Questões Autorais Simuladas (60 questões)**
+  * **Motivação Técnica da Auditoria:** Legislação Institucional versa estritamente sobre o ordenamento normativo específico do Estado de Goiás e do Tribunal de Contas goiano: Constituição Estadual de Goiás (arts. 26 a 33 e 77 a 82), Lei Orgânica do TCE-GO (Lei Estadual nº 16.168/2007), Regimento Interno do TCE-GO (Resolução nº 22/2008), Estatuto dos Servidores Públicos de Goiás (Lei Estadual nº 20.756/2020), Plano de Carreiras do TCE-GO (Lei Estadual nº 15.122/2005), Código de Ética do TCE-GO e Resoluções Normativas da Corte. O banco de dados externo continha 3 registros de concursos passados: 2 deles (FCC 2009) apresentavam enunciados/alternativas corrompidos e truncados no dump original (misturados com fragmentos desconexos), e o terceiro (FGV 2024) apresentava inconsistência doutrinária no gabarito arquivado. Em contrapartida, as 60 questões autorais dos 6 cadernos foram minuciosamente redigidas com fundamentação artigo por artigo da legislação estadual vigente em Goiás, conferindo máxima segurança jurídica e precisão didática aos candidatos aos cargos A01 e B02.
+
+---
+
+## Caderno 01: Bases Constitucionais do Controle Externo (CF/88 e CE/GO)
+* **Arquivo:** `docs/conhecimentos_gerais/03_legislacao_institucional/01_bases_constitucionais_cf88_e_ce_go.md`
+* **Status:** Concluído e auditado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Preservadas as questões autorais ajustadas à Constituição do Estado de Goiás.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 122`** (Regime Constitucional de Acumulação de Cargos Públicos: art. 37, XVI e XVII da CF/88 e reflexos no controle externo): Preservada.
+* **`Teste 123`** (Estabilidade Constitucional e Processo de Avaliação Especial de Desempenho no Estado de Goiás): Preservada.
+* **`Teste 124`** (Competências Constitucionais de Fiscalização Contábil, Financeira e Orçamentária na CE/GO, arts. 77 a 82): Preservada.
+* **`Teste 125`** (Julgamento de Contas de Prefeitos vs Parecer Prévio e Tema 157 do STF): Preservada.
+* **`Teste 126`** (Autonomia Funcional, Administrativa e Financeira do TCE-GO na Constituição Estadual): Preservada.
+* **`Teste 127`** (Composição do Tribunal de Contas de Goiás: 7 Conselheiros, regras de escolha entre Assembleia e Governador): Preservada.
+* **`Teste 128`** (Vagas Constitucionais Privativas de Auditores Substitutos e Procuradores de Contas no TCE-GO): Preservada.
+* **`Teste 129`** (Garantias e Vedações Constitucionais dos Conselheiros do TCE-GO equiparadas aos Desembargadores do TJ-GO): Preservada.
+* **`Teste 130`** (Poder Cautelar dos Tribunais de Contas e Afastamento Provisório de Responsáveis segundo STF e CE/GO): Preservada.
+* **`Teste 131`** (Eficácia Executiva das Decisões do TCE-GO e Inscrição em Dívida Ativa Estadual): Preservada.
+
+---
+
+## Caderno 02: Lei Orgânica do TCE-GO (Lei Estadual nº 16.168/2007)
+* **Arquivo:** `docs/conhecimentos_gerais/03_legislacao_institucional/02_lei_organica_tce_go_lei_16168_2007.md`
+* **Status:** Concluído e auditado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Questão histórica Q0176 apresentava inconsistência de gabarito e alternativas no dump externo; preservadas as questões autorais estritamente ancoradas na Lei nº 16.168/2007.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 132`** (Jurisdição e Competência Territorial e Funcional do TCE-GO segundo a Lei Orgânica nº 16.168/2007): Preservada.
+* **`Teste 133`** (Competência Originária do Plenário vs Competência das Câmaras na Lei Estadual nº 16.168/2007): Preservada.
+* **`Teste 134`** (Classificação das Decisões do TCE-GO: Definitivas, Preliminares e Terminativas): Preservada.
+* **`Teste 135`** (Natureza do Julgamento de Contas: Contas Regulares, Regulares com Ressalva e Irregulares com Imputação de Débito): Preservada.
+* **`Teste 136`** (Sanções e Penalidades Administrativas aplicáveis pelo TCE-GO: Multas e Inabilitação para Função Pública): Preservada.
+* **`Teste 137`** (Prazos Prescricionais na Lei Orgânica do TCE-GO e Jurisprudência Vinculante do STF - Tema 899): Preservada.
+* **`Teste 138`** (Medidas Cautelares na Lei Orgânica: Requisitos do Fumus Boni Iuris e Periculum in Mora): Preservada.
+* **`Teste 139`** (Tomada de Contas Especial / TCE Estadual: Pressupostos de Instauração e Responsabilidade da Autoridade Administrativa): Preservada.
+* **`Teste 140`** (Sistema Recursal na Lei Orgânica do TCE-GO: Recursos de Reconsideração, Agravo e Embargos de Declaração): Preservada.
+* **`Teste 141`** (Pedido de Rescisão de Julgado do TCE-GO: Prazos, Legitimidade e Hipóteses de Cabimento): Preservada.
+
+---
+
+## Caderno 03: Regimento Interno do TCE-GO (Resolução nº 22/2008)
+* **Arquivo:** `docs/conhecimentos_gerais/03_legislacao_institucional/03_regimento_interno_tce_go_resolucao_22_2008.md`
+* **Status:** Concluído e auditado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Questões Q0230 e Q0231 do banco vetorial continham alternativas corrompidas no parsing; mantidas as 10 questões íntegras e completas.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 142`** (Estrutura e Órgãos Deliberativos do TCE-GO: Plenário, Primeira e Segunda Câmaras e suas Competências): Preservada.
+* **`Teste 143`** (Presidência e Corregedoria-Geral do TCE-GO: Eleição, Mandato e Atribuições Regimentais): Preservada.
+* **`Teste 144`** (Ministério Público junto ao Tribunal de Contas de Goiás / MPC: Estrutura, Atribuições e Atuação Processual): Preservada.
+* **`Teste 145`** (Corpo de Auditores Substitutos de Conselheiro / Auditores do art. 73 da CF no Regimento do TCE-GO): Preservada.
+* **`Teste 146`** (Sessões Plenárias e de Câmaras: Quórum de Deliberação, Sessões Extraordinárias e Administrativas): Preservada.
+* **`Teste 147`** (Distribuição, Relatoria e Sorteio de Processos no TCE-GO): Preservada.
+* **`Teste 148`** (Prazos Regimentais e Contagem Processual segundo a Resolução nº 22/2008): Preservada.
+* **`Teste 149`** (Incidentes de Uniformização de Jurisprudência e Súmulas Vinculantes do TCE-GO): Preservada.
+* **`Teste 150`** (Sustentação Oral e Prerrogativas de Defesa perante o Plenário e as Câmaras): Preservada.
+* **`Teste 151`** (Regime Disciplinar Aplicável a Conselheiros e Auditores Substitutos segundo o Regimento Interno): Preservada.
+
+---
+
+## Caderno 04: Regime Jurídico Único dos Servidores e PCCR do TCE-GO (Leis 20.756/2020 e 15.122/2005)
+* **Arquivo:** `docs/conhecimentos_gerais/03_legislacao_institucional/04_regime_juridico_servidores_e_pccr_leis_20756_e_15122.md`
+* **Status:** Concluído e auditado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Banco vetorial sem questões específicas do Estatuto Goiano (Lei 20.756/2020).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 152`** (Provimento e Vacância na Lei Estadual nº 20.756/2020: Nomeação, Posse, Exercício e Estágio Probatório em Goiás): Preservada.
+* **`Teste 153`** (Formas Derivadas de Provimento no Estatuto de Goiás: Readaptação, Reversão, Reintegração e Recondução): Preservada.
+* **`Teste 154`** (Direitos, Vantagens Pecuniárias e Remuneração dos Servidores Públicos Civis de Goiás): Preservada.
+* **`Teste 155`** (Regime de Férias e Licenças na Lei nº 20.756/2020: Licença para Tratar de Interesses Particulares e Capacitação): Preservada.
+* **`Teste 156`** (Deveres e Proibições do Servidor Público Estadual de Goiás): Preservada.
+* **`Teste 157`** (Regime Disciplinar e Penalidades Administrativas na Lei Estadual nº 20.756/2020): Preservada.
+* **`Teste 158`** (Processo Administrativo Disciplinar / PAD e Sindicância no Estado de Goiás): Preservada.
+* **`Teste 159`** (Plano de Cargos, Carreiras e Vencimentos do TCE-GO - Lei Estadual nº 15.122/2005: Estrutura Funcional): Preservada.
+* **`Teste 160`** (Progressão e Promoção Funcional na Carreira de Técnico e Analista de Controle Externo do TCE-GO): Preservada.
+* **`Teste 161`** (Adicional de Qualificação e Incentivo à Capacitação dos Servidores do TCE-GO): Preservada.
+
+---
+
+## Caderno 05: Código de Ética e Conduta dos Servidores do TCE-GO
+* **Arquivo:** `docs/conhecimentos_gerais/03_legislacao_institucional/05_codigo_de_etica_servidores_tce_go.md`
+* **Status:** Concluído e auditado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Preservadas as 10 questões construídas sob medida com base nas normas deontológicas do TCE-GO.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 162`** (Princípios e Valores Deontológicos Fundamentais do Código de Ética dos Servidores do TCE-GO): Preservada.
+* **`Teste 163`** (Conflito de Interesses e Impedimentos Éticos na Realização de Fiscalizações e Auditorias): Preservada.
+* **`Teste 164`** (Recebimento de Presentes, Brindes, Vantagens e Hospitalidades por Servidores do Tribunal): Preservada.
+* **`Teste 165`** (Uso de Informações Privilegiadas e Dever de Sigilo no Exercício das Funções do Controle Externo): Preservada.
+* **`Teste 166`** (Relações Interpessoais, Assédio Moral e Sexual e Respeito à Diversidade no Ambiente do TCE-GO): Preservada.
+* **`Teste 167`** (Comissão de Ética do TCE-GO: Composição, Competências e Procedimento Apuratório Ético): Preservada.
+* **`Teste 168`** (Sanções Éticas Cabíveis: Censura Ética e Encaminhamento aos Órgãos Disciplinares Competentes): Preservada.
+* **`Teste 169`** (Canal de Denúncias e Proteção ao Denunciante de Boa-Fé no Âmbito do TCE-GO): Preservada.
+* **`Teste 170`** (Conduta Ética nas Redes Sociais e Manifestações Públicas de Opinião por Servidores de Controle): Preservada.
+* **`Teste 171`** (Articulação entre Responsabilidade Ética, Disciplinar, Civil e Penal dos Servidores do Tribunal): Preservada.
+
+---
+
+## Caderno 06: Políticas Institucionais, Gestão e Resoluções Normativas do TCE-GO
+* **Arquivo:** `docs/conhecimentos_gerais/03_legislacao_institucional/06_politicas_institucionais_e_resolucoes_normativas.md`
+* **Status:** Concluído e auditado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Mantidas as formulações originais orientadas às Resoluções Normativas da Corte de Contas goiana.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 172`** (Estrutura Organizacional e Competências das Unidades Técnicas e Administrativas do TCE-GO): Preservada.
+* **`Teste 173`** (Política de Segurança da Informação / PSI do TCE-GO: Classificação da Informação e Controles de Acesso): Preservada.
+* **`Teste 174`** (Gestão de Riscos Corporativos e Controle Interno Institucional no Âmbito do TCE-GO): Preservada.
+* **`Teste 175`** (Planejamento Estratégico Institucional e Indicadores de Desempenho do Tribunal de Contas de Goiás): Preservada.
+* **`Teste 176`** (Governança de Tecnologia da Informação e Comunicação / TIC no TCE-GO: Alinhamento ao Plano Estratégico): Preservada.
+* **`Teste 177`** (Processo Eletrônico de Controle Externo e Certificação Digital no TCE-GO): Preservada.
+* **`Teste 178`** (Política de Sustentabilidade e Responsabilidade Socioambiental no Tribunal): Preservada.
+* **`Teste 179`** (Ouvidoria do TCE-GO: Canal de Acesso ao Cidadão, Prazos de Resposta e Tratamento de Manifestações): Preservada.
+* **`Teste 180`** (Escola Superior de Controle Externo / Escoex do TCE-GO: Capacitação e Aperfeiçoamento Profissional): Preservada.
+* **`Teste 181`** (Resoluções Normativas Notáveis sobre Fiscalização de Obras Públicas, Saúde e Educação no TCE-GO): Preservada.
