@@ -88,16 +88,35 @@ Os 23 padrões são classificados de acordo com duas dimensões: o **Propósito*
 ---
 
 ### Teste 033
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O catálogo clássico de padrões de projeto de software formulado pelo *Gang of Four* (GoF) organiza os 23 padrões em duas matrizes classificatórias: o **Propósito** (Criacional, Estrutural ou Comportamental) e o **Escopo** (de Classe ou de Objeto). No que tange ao escopo de **Classe** — no qual as relações entre classes são essencialmente estáticas, fixadas em tempo de compilação prioritariamente por mecanismos de herança —, assinale o padrão criacional GoF que opera genuinamente sob esse escopo:
+**(FGV – TJ/BA – 2015 – Analista Judiciário - Tecnologia da Informação)**  
+Um padrão de projeto (do inglês *design pattern*) é uma solução reutilizável para problemas que ocorrem com frequência dentro de um determinado contexto de um projeto de sistema de software orientado a objetos, e que ganhou popularidade com o catálogo denominado Padrões GoF (*Gang of Four*) que define e organiza essas soluções reutilizáveis em 3 famílias conforme o propósito de cada solução.
 
-* **A)** *Factory Method*.
-* **B)** *Abstract Factory*.
-* **C)** *Singleton*.
-* **D)** *Builder*.
-* **E)** *Prototype*.
+Os padrões de projetos denominados *Composite*, *Factory Method* e *Memento*, que fazem parte desse catálogo, pertencem, respectivamente, às famílias:
 
+* **A)** padrão de criação, padrão estrutural e padrão comportamental;
+* **B)** padrão estrutural, padrão comportamental e padrão de criação;
+* **C)** padrão comportamental, padrão estrutural e padrão de criação;
+* **D)** padrão estrutural, padrão de criação e padrão comportamental;
+* **E)** padrão de criação, padrão comportamental e padrão estrutural.
 
+---
+
+> **Comentário Detalhado:**
+>
+> O catálogo do GoF categoriza os 23 padrões clássicos em três famílias segundo o seu propósito:
+>
+> 1. **Padrões Criacionais (*Creational*):** Preocupam-se com o processo de criação de objetos, desacoplando o cliente da instanciação direta (`new`). Exemplos: *Abstract Factory, Builder, **Factory Method**, Prototype, Singleton*.
+> 2. **Padrões Estruturais (*Structural*):** Tratam da composição de classes e objetos para formar estruturas maiores e mais flexíveis. Exemplos: *Adapter, Bridge, **Composite**, Decorator, Facade, Flyweight, Proxy*.
+> 3. **Padrões Comportamentais (*Behavioral*):** Caracterizam os modos pelos quais classes ou objetos interagem e distribuem responsabilidades e algoritmos entre si. Exemplos: *Chain of Responsibility, Command, Interpreter, Iterator, Mediator, **Memento**, Observer, State, Strategy, Template Method, Visitor*.
+>
+> Portanto:
+> - **Composite:** Padrão Estrutural;
+> - **Factory Method:** Padrão de Criação;
+> - **Memento:** Padrão Comportamental.
+>
+> A ordem correta é: **padrão estrutural, padrão de criação e padrão comportamental**.
+>
+> **Gabarito: D**
 ---
 
 > **Comentário Detalhado:**

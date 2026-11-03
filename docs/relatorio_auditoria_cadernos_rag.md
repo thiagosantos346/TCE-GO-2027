@@ -15,6 +15,7 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 01 (Eng. Software): Ciclo de Vida e Metodologias Ágeis](#caderno-01-eng-software-ciclo-de-vida-e-metodologias-ágeis)
 - [Caderno 02 (Eng. Software): Requisitos, Histórias de Usuário, UML e BPMN](#caderno-02-eng-software-requisitos-histórias-de-usuário-uml-e-bpmn)
 - [Caderno 03 (Eng. Software): Arquitetura de Software e Princípios SOLID](#caderno-03-eng-software-arquitetura-de-software-e-princípios-solid)
+- [Caderno 04 (Eng. Software): Padrões de Projeto (Design Patterns - GoF)](#caderno-04-eng-software-padrões-de-projeto-design-patterns---gof)
 
 ---
 
@@ -370,3 +371,55 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 030`** (Princípios SOLID: Princípio da Segregação de Interfaces - ISP em Java): Preservada.
 * **`Teste 031`** (Princípios SOLID: Princípio Aberto/Fechado - OCP e Responsabilidade Única - SRP): Preservada.
 * **`Teste 032`** (Princípios de Design de Código: DRY, KISS e YAGNI): Preservada.
+
+
+---
+
+## Caderno 04 (Eng. Software): Padrões de Projeto (Design Patterns - GoF)
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/04_engenharia_de_software/04_padroes_de_projeto_design_patterns.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 033`**: Substituir pela questão real **`V3_FGV_TJ_BA_2015_Q1837`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/BA – 2015 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** Classificação canônica dos 23 padrões GoF (*Gang of Four*) por família de propósito: Padrões Criacionais, Padrões Estruturais e Padrões Comportamentais (categorização de *Composite*, *Factory Method* e *Memento*).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 033`**: Simulado sobre as matrizes de propósito e escopo do catálogo GoF.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 034`** (Abstract Factory vs Factory Method: Criação desacoplada de famílias de produtos de interface gráfica): Preservada.
+* **`Teste 035`** (Builder: Construção passo a passo e representações distintas de relatórios analíticos complexos): Preservada.
+* **`Teste 036`** (Adapter: Compatibilização de interfaces incompatíveis com sistemas legados em Java): Preservada.
+* **`Teste 037`** (Composite: Estrutura em árvore todo-parte tratando peças processuais e pastas uniformemente): Preservada.
+* **`Teste 038`** (Decorator vs Proxy: Agregação dinâmica de comportamentos vs controle de acesso / surrogate): Preservada.
+* **`Teste 039`** (Strategy: Família de algoritmos intercambiáveis para liquidação financeira de sanções): Preservada.
+* **`Teste 040`** (Observer: Dependência um-para-muitos e notificação de eventos entre objetos): Preservada.
+* **`Teste 041`** (Chain of Responsibility: Cadeia de objetos receptores para tratamento desacoplado de requisições): Preservada.
+* **`Teste 042`** (Command e Memento: Encapsulamento de operações em objetos e captura de estado prévio para operação de *Undo*): Preservada.
+
+
+---
+
+## Caderno 04 (Eng. Software): Padrões de Projeto (Design Patterns - GoF)
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/04_engenharia_de_software/04_padroes_de_projeto_design_patterns.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 033`**: Substituir pela questão real **`V3_FGV_TJ_BA_2015_Q1837`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/BA – 2015 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** Classificação canônica dos 23 padrões GoF (*Gang of Four*) por família de propósito: Padrões Criacionais, Padrões Estruturais e Padrões Comportamentais (categorização de *Composite*, *Factory Method* e *Memento*).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 033`**: Simulado sobre as matrizes de propósito e escopo do catálogo GoF.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 034`** (Abstract Factory vs Factory Method: Criação desacoplada de famílias de produtos de interface gráfica): Preservada.
+* **`Teste 035`** (Builder: Construção passo a passo e representações distintas de relatórios analíticos complexos): Preservada.
+* **`Teste 036`** (Adapter: Compatibilização de interfaces incompatíveis com sistemas legados em Java): Preservada.
+* **`Teste 037`** (Composite: Estrutura em árvore todo-parte tratando peças processuais e pastas uniformemente): Preservada.
+* **`Teste 038`** (Decorator vs Proxy: Agregação dinâmica de comportamentos vs controle de acesso / surrogate): Preservada.
+* **`Teste 039`** (Strategy: Família de algoritmos intercambiáveis para liquidação financeira de sanções): Preservada.
+* **`Teste 040`** (Observer: Dependência um-para-muitos e notificação de eventos entre objetos): Preservada.
+* **`Teste 041`** (Chain of Responsibility: Cadeia de objetos receptores para tratamento desacoplado de requisições): Preservada.
+* **`Teste 042`** (Command e Memento: Encapsulamento de operações em objetos e captura de estado prévio para operação de *Undo*): Preservada.

@@ -24286,7 +24286,7 @@
     "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
     "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
     "target_topico": "Infraestrutura como Código (IaC)",
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_04_engsoft",
     "llm_classified": true,
     "conceitos_fundamentais": [
       "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
