@@ -17946,7 +17946,7 @@
     "target_materia": "Engenharia de Software",
     "target_topico": "Metodologias ágeis (Scrum, Kanban e XP): conceitos, papéis, cerimônias e artefatos",
     "llm_classified": true,
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_01_engsoft",
     "conceitos_fundamentais": [
       "Engenharia de Software",
       "Metodologias ágeis (Scrum, Kanban e XP): conceitos, papéis, cerimônias e artefatos",
@@ -18035,7 +18035,7 @@
     "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
     "target_materia": "Engenharia de Software",
     "target_topico": "Metodologias ágeis (Scrum, Kanban e XP): conceitos, papéis, cerimônias e artefatos",
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_01_engsoft",
     "llm_classified": true,
     "conceitos_fundamentais": [
       "Engenharia de Software",
@@ -25186,7 +25186,7 @@
     "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
     "target_materia": "Engenharia de Software",
     "target_topico": "Metodologias ágeis (Scrum, Kanban e XP): conceitos, papéis, cerimônias e artefatos",
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_01_engsoft",
     "llm_classified": true,
     "conceitos_fundamentais": [
       "Engenharia de Software",
@@ -29318,7 +29318,7 @@
     "target_materia": "Engenharia de Software",
     "target_topico": "Metodologias ágeis (Scrum, Kanban e XP): conceitos, papéis, cerimônias e artefatos",
     "llm_classified": true,
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_01_engsoft",
     "conceitos_fundamentais": [
       "Engenharia de Software",
       "Metodologias ágeis (Scrum, Kanban e XP): conceitos, papéis, cerimônias e artefatos",
@@ -44289,7 +44289,7 @@
     "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
     "target_topico": "Integração, entrega e implantação contínuas (CI/CD)",
     "llm_classified": true,
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_01_engsoft",
     "conceitos_fundamentais": [
       "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
       "Integração, entrega e implantação contínuas (CI/CD)",

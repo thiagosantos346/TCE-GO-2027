@@ -12,6 +12,7 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 03: Conteinerização, Docker e Docker Compose](#caderno-03-conteinerização-docker-e-docker-compose)
 - [Caderno 04: Orquestração com Kubernetes e Gestão de Ambientes](#caderno-04-orquestração-com-kubernetes-e-gestão-de-ambientes)
 - [Caderno 06: Observabilidade, Monitoramento e Telemetria](#caderno-06-observabilidade-monitoramento-e-telemetria)
+- [Caderno 01 (Eng. Software): Ciclo de Vida e Metodologias Ágeis](#caderno-01-eng-software-ciclo-de-vida-e-metodologias-ágeis)
 
 ---
 
@@ -177,3 +178,81 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 231`** (Confiabilidade SRE: Distinção hierárquica entre SLI, SLO interno e SLA contratual com clientes): Preservada.
 * **`Teste 232`** (Engenharia de Confiabilidade / SRE: Cálculo matemático e papel regulador do Orçamento de Erro / *Error Budget* = 100% - SLO): Preservada.
 * **`Teste 233`** (Pesquisas DORA: As quatro métricas fundamentais de performance de entrega de software): Preservada.
+
+
+---
+
+## Caderno 01 (Eng. Software): Ciclo de Vida e Metodologias Ágeis
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/04_engenharia_de_software/01_ciclo_de_vida_e_metodologias_ageis.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 004`**: Substituir pela questão real **`V3_FGV_TJ_RR_2024_Q1254`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/RR – 2024 – Analista Judiciário (Gestão e Governança de TI)
+  * **Conceito Aderente:** Valores do Manifesto Ágil (*software em funcionamento mais que documentação abrangente*), limitação de WIP no Kanban e conceito de Lead Time.
+* **`Teste 005`**: Substituir pela questão real **`V3_FGV_TJ_RR_2024_Q1251`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/RR – 2024 – Analista Judiciário (Gestão e Governança de TI)
+  * **Conceito Aderente:** Composição do Scrum Team no Guia Scrum 2020 (inexistência de hierarquia entre PO, SM e Developers; responsabilidade do Scrum Master pela eficácia; papel dos Developers no incremento utilizável).
+* **`Teste 006`**: Substituir pela questão real **`V3_FGV_TRT_13_2022_Q2199`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TRT/13 – 2022 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** Mapeamento conceitual e objetivos dos eventos do Scrum (Sprint Planning, Daily Scrum, Sprint Review e Sprint Retrospective).
+* **`Teste 007`**: Substituir pela questão real **`V3_FGV_TCE_SC_2026_Q3297`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo (TI)**
+  * **Conceito Aderente:** Governança ágil em órgãos de controle, compromisso do incremento com a *Definition of Done* (DoD) e consequências da geração de dívida técnica oculta quando a DoD é violada.
+* **`Teste 009`**: Substituir pela questão real **`V3_FGV_TJ_MT_2024_Q1893`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/MT – 2024 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** Práticas centrais do Kanban: limitação do trabalho em progresso (WIP - *Work in Progress*) para identificação de gargalos operacionais e fluidez do fluxo de entrega.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 004`**: Simulado sobre os 4 valores do Manifesto Ágil.
+* **`Teste 005`**: Simulado sobre estrutura do Scrum Team.
+* **`Teste 006`**: Simulado sobre eventos e timeboxes do Scrum.
+* **`Teste 007`**: Simulado sobre artefatos e metas (*commitments*) do Scrum 2020.
+* **`Teste 009`**: Simulado sobre os princípios e limites de WIP do Kanban.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 001`** (Modelo em Cascata vs Iterativo em auditoria de contratações de TI): Preservada (questão autoral contextualizada especificamente para auditoria de contratos de TI em Tribunal de Contas).
+* **`Teste 002`** (Modelo Espiral de Boehm: Foco sistemático em avaliação e mitigação contínua de riscos): Preservada.
+* **`Teste 003`** (RUP - Rational Unified Process: Fases de Concepção, Elaboração, Construção, Transição e arquitetura orientada a casos de uso): Preservada.
+* **`Teste 008`** (Gráficos Burndown e Burnup para acompanhamento visual do escopo e esforço restante): Preservada.
+* **`Teste 010`** (Métricas Kanban: Lead Time, Cycle Time e Lei de Little): Preservada.
+* **`Teste 011`** (Práticas de Engenharia do Extreme Programming - XP: TDD, Pair Programming, Integração Contínua e Refatoração): Preservada.
+
+
+---
+
+## Caderno 01 (Eng. Software): Ciclo de Vida e Metodologias Ágeis
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/04_engenharia_de_software/01_ciclo_de_vida_e_metodologias_ageis.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 004`**: Substituir pela questão real **`V3_FGV_TJ_RR_2024_Q1254`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/RR – 2024 – Analista Judiciário (Gestão e Governança de TI)
+  * **Conceito Aderente:** Valores do Manifesto Ágil (*software em funcionamento mais que documentação abrangente*), limitação de WIP no Kanban e conceito de Lead Time.
+* **`Teste 005`**: Substituir pela questão real **`V3_FGV_TJ_RR_2024_Q1251`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/RR – 2024 – Analista Judiciário (Gestão e Governança de TI)
+  * **Conceito Aderente:** Composição do Scrum Team no Guia Scrum 2020 (inexistência de hierarquia entre PO, SM e Developers; responsabilidade do Scrum Master pela eficácia; papel dos Developers no incremento utilizável).
+* **`Teste 006`**: Substituir pela questão real **`V3_FGV_TRT_13_2022_Q2199`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TRT/13 – 2022 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** Mapeamento conceitual e objetivos dos eventos do Scrum (Sprint Planning, Daily Scrum, Sprint Review e Sprint Retrospective).
+* **`Teste 007`**: Substituir pela questão real **`V3_FGV_TCE_SC_2026_Q3297`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo (TI)**
+  * **Conceito Aderente:** Governança ágil em órgãos de controle, compromisso do incremento com a *Definition of Done* (DoD) e consequências da geração de dívida técnica oculta quando a DoD é violada.
+* **`Teste 009`**: Substituir pela questão real **`V3_FGV_TJ_MT_2024_Q1893`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/MT – 2024 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** Práticas centrais do Kanban: limitação do trabalho em progresso (WIP - *Work in Progress*) para identificação de gargalos operacionais e fluidez do fluxo de entrega.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 004`**: Simulado sobre os 4 valores do Manifesto Ágil.
+* **`Teste 005`**: Simulado sobre estrutura do Scrum Team.
+* **`Teste 006`**: Simulado sobre eventos e timeboxes do Scrum.
+* **`Teste 007`**: Simulado sobre artefatos e metas (*commitments*) do Scrum 2020.
+* **`Teste 009`**: Simulado sobre os princípios e limites de WIP do Kanban.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 001`** (Modelo em Cascata vs Iterativo em auditoria de contratações de TI): Preservada (questão autoral contextualizada especificamente para auditoria de contratos de TI em Tribunal de Contas).
+* **`Teste 002`** (Modelo Espiral de Boehm: Foco sistemático em avaliação e mitigação contínua de riscos): Preservada.
+* **`Teste 003`** (RUP - Rational Unified Process: Fases de Concepção, Elaboração, Construção, Transição e arquitetura orientada a casos de uso): Preservada.
+* **`Teste 008`** (Gráficos Burndown e Burnup para acompanhamento visual do escopo e esforço restante): Preservada.
+* **`Teste 010`** (Métricas Kanban: Lead Time, Cycle Time e Lei de Little): Preservada.
+* **`Teste 011`** (Práticas de Engenharia do Extreme Programming - XP: TDD, Pair Programming, Integração Contínua e Refatoração): Preservada.

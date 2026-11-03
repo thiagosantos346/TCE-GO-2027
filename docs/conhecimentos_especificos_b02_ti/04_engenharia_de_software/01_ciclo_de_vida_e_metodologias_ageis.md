@@ -229,16 +229,30 @@ O Processo Unificado (*Rational Unified Process* - RUP) é um modelo de ciclo de
 ---
 
 ### Teste 004
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Manifesto para o Desenvolvimento Ágil de Software, marco histórico do movimento ágil firmado em 2001, consagrou 4 valores fundamentais e 12 princípios norteadores. Entre as diretrizes expressamente consagradas nos 12 princípios formais do Manifesto Ágil, insere-se:
+**(FGV – TJ/RR – 2024 – Analista Judiciário - Gestão e Governança de TI)**  
+Considerando a aplicação de metodologias ágeis a projetos de desenvolvimento de software, analise as seguintes afirmativas:
 
-* **A)** aceitar alterações de requisitos, mesmo em fases adiantadas do projeto, aproveitando as mudanças para promover vantagem competitiva para o cliente.
-* **B)** priorizar a formalização documental detalhada de todas as regras de negócio antes de iniciar a construção dos incrementos funcionais.
-* **C)** realizar entregas de incrementos de software executável exclusivamente ao término de cada exercício financeiro da organização.
-* **D)** condicionar o avanço do desenvolvimento à validação jurídica de termos de responsabilidade assinados por todas as partes envolvidas.
-* **E)** canalizar a troca de informações entre desenvolvedores e gestores prioritariamente por meio de relatórios formais periódicos de status report.
+I. Mais do que software em funcionamento, documentação abrangente é um dos valores propostos pelo manifesto ágil.  
+II. A limitação do número de tarefas em execução, conhecida como WIP (Work In Progress), favorece um ritmo sustentável para a equipe de desenvolvimento sem impedir o fluxo de trabalho.  
+III. O tempo transcorrido desde o momento em que uma tarefa entra em um quadro Kanban até ser finalizada é conhecido como lead time.  
 
+Está correto o que se afirma em:
 
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** II e III, apenas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **Item I (Incorreto):** O Manifesto Ágil estabelece explicitamente o inverso: *"Software em funcionamento mais que documentação abrangente"*. Ou seja, valoriza-se muito mais o software funcional do que a produção excessiva e burocrática de documentos.
+> - **Item II (Correto):** O limite de WIP (*Work in Progress*) impede que a equipe puxe mais demandas do que tem capacidade de concluir, reduzindo o desperdício de trocas de contexto e mantendo um ritmo sustentável de fluxo contínuo.
+> - **Item III (Correto):** O *Lead Time* é o tempo total percorrido desde a entrada formal da tarefa no fluxo de trabalho (quadro Kanban) até a sua conclusão final e entrega ao cliente/produção.
+>
+> **Gabarito: E**
 ---
 
 > **Comentário Detalhado:**
@@ -332,22 +346,30 @@ Cada um dos três artefatos do Scrum contém um **compromisso formal** associado
 ---
 
 ### Teste 005
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da composição estrutural e das responsabilidades do Scrum Team delineadas na versão oficial do Guia Scrum (2020), considere as seguintes afirmativas:
+**(FGV – TJ/RR – 2024 – Analista Judiciário - Gestão e Governança de TI)**  
+Em relação às características do time Scrum, analise as afirmativas a seguir:
 
-I. O Scrum Team é uma equipe coesa composta por um Product Owner, um Scrum Master e os Desenvolvedores, caracterizando-se essencialmente por ser multifuncional e autogerenciada.  
-II. O Product Owner é o único responsável pela gestão eficaz do Product Backlog e pela maximização do valor decorrente do trabalho executado, não existindo relação de subordinação hierárquica entre ele e os demais integrantes do time.  
-III. O Scrum Master atua como chefe executivo do time ágil, cabendo-lhe distribuir privativamente as tarefas diárias nominais e aprovar as horas registradas pelos desenvolvedores.  
+I. O time Scrum é um pequeno grupo de pessoas em que o dono do produto é o superior hierárquico do Scrum Master e dos desenvolvedores.  
+II. O Scrum Master é o responsável pela efetividade do time Scrum, permitindo que o time melhore suas práticas dentro do framework Scrum.  
+III. Os desenvolvedores são as pessoas comprometidas a criar qualquer aspecto de um incremento utilizável em cada Sprint.  
 
-Em relação às prescrições normativas do Guia Scrum, está correto o que se afirma em:
+Está correto o que se afirma em:
 
-* **A)** I e II, apenas.
-* **B)** I, apenas.
+* **A)** I, apenas.
+* **B)** II, apenas.
 * **C)** III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+* **D)** I e II, apenas.
+* **E)** II e III, apenas.
 
+---
 
+> **Comentário Detalhado:**
+>
+> - **Item I (Incorreto):** Conforme a versão 2020 do Guia Scrum, o Scrum Team não possui sub-times ou hierarquias (*"There are no sub-teams or hierarchies"*). É uma unidade coesa de profissionais que compartilham o mesmo objetivo. O Product Owner não é chefe hierárquico de ninguém no time.
+> - **Item II (Correto):** O Scrum Master é o líder servidor responsável por estabelecer o Scrum conforme o Guia Scrum e é responsável pela **efetividade** do time, auxiliando a equipe a melhorar suas práticas continuamente.
+> - **Item III (Correto):** Os Developers são as pessoas no Scrum Team comprometidas a criar qualquer aspecto de um incremento utilizável a cada Sprint.
+>
+> **Gabarito: E**
 ---
 
 > **Comentário Detalhado:**
@@ -361,16 +383,39 @@ Em relação às prescrições normativas do Guia Scrum, está correto o que se 
 ---
 
 ### Teste 006
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em um projeto de modernização tecnológica de um Tribunal de Contas gerido por meio do framework Scrum, um auditor acompanhou a dinâmica dos eventos da equipe. A respeito do evento *Daily Scrum* (Reunião Diária), em estrita conformidade com o Guia Scrum (versão 2020), é correto afirmar:
+**(FGV – TRT/13 – 2022 – Analista Judiciário - Tecnologia da Informação)**  
+Relacione os eventos do SCRUM com as definições dos seus objetivos:
 
-* **A)** Trata-se de um evento com tempo limite (*timebox*) de 15 minutos destinado aos Desenvolvedores do Scrum Team para inspecionar o progresso em direção à Meta da Sprint e adaptar o planejamento do Sprint Backlog para as próximas 24 horas.
-* **B)** Consiste em uma sessão formal de prestação de contas dos desenvolvedores para o Scrum Master e o Product Owner, que atuam avaliando metas individuais de produtividade.
-* **C)** Possui duração proporcional ao tamanho da iteração, sendo estabelecido o tempo fixo de 45 minutos para Sprints com duração de quatro semanas.
-* **D)** Exige compulsoriamente que cada integrante responda a três perguntas pré-determinadas sob pena de invalidação da ata do dia.
-* **E)** Não pode ser realizada caso o Product Owner esteja ausente, exigindo a convocação de nova data e horário pela gerência do projeto.
+1. Inspecionar o progresso em direção ao Sprint Goal e adaptar o Sprint Backlog conforme necessário, ajustando o próximo trabalho planejado, é um evento de até 15 minutos para os desenvolvedores.  
+2. Estabelecer o trabalho a ser executado no Sprint. O plano resultante é criado pelo trabalho colaborativo de todo o time.  
+3. Planejar maneiras de aumentar a qualidade e a eficácia.  
+4. Inspecionar o resultado do Sprint e determinar futuras adaptações. O time apresenta os resultados do seu trabalho para as principais partes interessadas, sendo discutido o progresso em direção ao Produto.  
 
+( ) Sprint Planning (Planejamento da Sprint)  
+( ) Sprint Retrospective (Retrospectiva da Sprint)  
+( ) Daily Scrum (Reunião Diária)  
+( ) Sprint Review (Revisão da Sprint)  
 
+Assinale a opção que indica a relação correta, na ordem apresentada:
+
+* **A)** 1 – 2 – 4 – 3.
+* **B)** 1 – 3 – 2 – 1.
+* **C)** 2 – 3 – 1 – 4.
+* **D)** 3 – 4 – 1 – 2.
+* **E)** 4 – 1 – 3 – 2.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **(2) Sprint Planning:** Estabelece o trabalho a ser executado durante a Sprint (define o Porquê, o Quê e o Como).
+> - **(3) Sprint Retrospective:** Planeja maneiras práticas de aumentar a qualidade e a eficácia das pessoas, processos e ferramentas.
+> - **(1) Daily Scrum:** Evento de 15 minutos para os Developers inspecionarem o progresso rumo à Sprint Goal e adaptarem o Sprint Backlog.
+> - **(4) Sprint Review:** Inspeciona o resultado da Sprint junto às partes interessadas (*stakeholders*) para demonstrar o incremento e adaptar o Product Backlog.
+>
+> A ordem resultante é: **2 – 3 – 1 – 4**.
+>
+> **Gabarito: C**
 ---
 
 > **Comentário Detalhado:**
@@ -386,16 +431,25 @@ Em um projeto de modernização tecnológica de um Tribunal de Contas gerido por
 ---
 
 ### Teste 007
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A versão 2020 do Guia Scrum introduziu uma estrutura de transparência e responsabilização na qual cada um dos três artefatos do Scrum contém um compromisso formal associado para reforçar o foco e medir o progresso da equipe. De acordo com o Guia Scrum oficial, os compromissos vinculados, respectivamente, ao *Product Backlog*, ao *Sprint Backlog* e ao *Incremento* são:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - TI)**  
+Durante uma auditoria técnica em um projeto de desenvolvimento de software público, o auditor observa que a equipe de desenvolvimento está ignorando sistematicamente a Definition of Done (DoD) para cumprir o prazo de uma Sprint, sob orientação do Product Owner. O incremento foi movido para o status Concluído, mas não possui testes de integração nem documentação técnica.
 
-* **A)** Meta do Produto (*Product Goal*), Meta da Sprint (*Sprint Goal*) e Definição de Pronto (*Definition of Done*).
-* **B)** Definição de Pronto (*Definition of Done*), Meta da Sprint (*Sprint Goal*) e Meta do Produto (*Product Goal*).
-* **C)** Visão Estratégica, Critérios de Aceite e Homologação Final de Produção.
-* **D)** Termo de Abertura, Cronograma Físico-Financeiro e Matriz de Riscos.
-* **E)** Velocidade do Time, Gráfico de Burndown e Diagrama de Fluxo Cumulativo.
+Sob a ótica do Guia Scrum e da governança de software, a consequência direta dessa prática para o Tribunal de Contas e para a qualidade do produto é:
 
+* **A)** o aumento imediato da velocidade da equipe, otimizando o gasto público.
+* **B)** a criação de dívida técnica oculta, mascarando o real progresso do projeto e elevando o custo de manutenção futura.
+* **C)** a conformidade com o princípio de “Software em funcionamento mais que documentação abrangente” do Manifesto Ágil.
+* **D)** a transferência da responsabilidade de qualidade exclusivamente para o Scrum Master.
+* **E)** a viabilização de entregas contínuas (CI/CD) sem a necessidade de processos burocráticos de revisão.
 
+---
+
+> **Comentário Detalhado:**
+>
+> - **A, C, D e E) Incorretas.** Ignorar a Definição de Pronto não gera ganho legítimo de velocidade e tampouco cumpre o Manifesto Ágil. Software sem testes integrados não é software operacional estável.
+> - **B) Correta.** A **Definition of Done (DoD)** é o compromisso formal de qualidade do Incremento. Se um item do backlog não atende à DoD, ele não pode ser considerado pronto nem apresentado na Sprint Review. Ignorar esses critérios para "entregar a tempo" cria **dívida técnica oculta (*technical debt*)**, passando uma falsa impressão de progresso, degradando a confiabilidade do sistema e explodindo o custo de manutenção e sustentação futura para a administração pública.
+>
+> **Gabarito: B**
 ---
 
 > **Comentário Detalhado:**
@@ -469,16 +523,25 @@ O Kanban opera como um **sistema puxado (*pull system*)**:
 ---
 
 ### Teste 009
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Ao auditar o fluxo contínuo de trabalho e os processos operacionais de desenvolvimento de uma entidade pública orientados pelo método Kanban, o auditor de controle externo verificou a instituição de limites explícitos de Trabalho em Progresso (*Work In Progress* - WIP) nas colunas do quadro. Na teoria e na prática do Kanban, o objetivo técnico central dessa restrição é:
+**(FGV – TJ/MT – 2024 – Analista Judiciário - Tecnologia da Informação)**  
+No método Kanban, uma das práticas centrais ajuda a identificar gargalos e promover a eficiência ao limitar a quantidade de trabalho em progresso.
 
-* **A)** expor gargalos e bloqueios no fluxo operacional, reduzindo o tempo de ciclo total (*Cycle Time*) e prevenindo o desperdício decorrente da troca constante de contexto (*multitasking*).
-* **B)** compelir os desenvolvedores a cumprirem horas extraordinárias sempre que o número de tarefas ultrapassar o limite pré-fixado na coluna.
-* **C)** exigir a homologação formal de cada item por um comitê diretivo antes de autorizar sua passagem para a coluna seguinte.
-* **D)** dispensar a execução de testes funcionais automatizados para acelerar a taxa de liberação de pacotes em produção.
-* **E)** padronizar compulsoriamente para um tamanho idêntico o esforço e a complexidade de todas as demandas recebidas no fluxo.
+O texto acima se refere à seguinte prática do Kanban:
 
+* **A)** dividir o trabalho em iterações fixas.
+* **B)** estabelecer metas rígidas de entrega.
+* **C)** realizar reuniões diárias de acompanhamento.
+* **D)** aumentar o número de colunas no quadro Kanban.
+* **E)** limitar o WIP (Work in Progress).
 
+---
+
+> **Comentário Detalhado:**
+>
+> - **A, B, C e D) Incorretas.** O Kanban é fundamentado em fluxo contínuo (*flow-based*), não exigindo iterações pré-fixadas (como sprints do Scrum).
+> - **E) Correta.** A prática canônica de **limitar o WIP (*Work in Progress*)** estabelece uma quantidade máxima de itens permitidos simultaneamente em cada estágio do fluxo. Quando uma coluna atinge seu limite, os membros da equipe devem atuar colaborativamente para concluir os itens em andamento antes de puxar novas demandas (*"pare de começar e comece a terminar"*), o que imediatamente evidencia gargalos e reduz o tempo total de ciclo.
+>
+> **Gabarito: E**
 ---
 
 > **Comentário Detalhado:**
