@@ -28,6 +28,12 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 03 (IA & Agentivos): Ciclo de Vida Assistido, Geração de Testes e Depuração](#caderno-03-ia--agentivos-ciclo-de-vida-assistido-geração-de-testes-e-depuração)
 - [Caderno 04 (IA & Agentivos): RAG, Protocolo MCP, Skills e Ferramental](#caderno-04-ia--agentivos-rag-protocolo-mcp-skills-e-ferramental)
 - [Caderno 05 (IA & Agentivos): Qualidade, Alucinações, Segurança e Ética na IA](#caderno-05-ia--agentivos-qualidade-alucinações-segurança-e-ética-na-ia)
+- [Caderno 01 (Banco de Dados): Modelagem de Dados, MER e Normalização](#caderno-01-banco-de-dados-modelagem-de-dados-mer-e-normalização)
+- [Caderno 02 (Banco de Dados): Linguagem SQL (DDL, DML, DQL, TCL e DCL)](#caderno-02-banco-de-dados-linguagem-sql-ddl-dml-dql-tcl-e-dcl)
+- [Caderno 03 (Banco de Dados): Transações, Propriedades ACID e Concorrência](#caderno-03-banco-de-dados-transações-propriedades-acid-e-concorrência)
+- [Caderno 04 (Banco de Dados): Índices, Otimização, PostgreSQL e Oracle](#caderno-04-banco-de-dados-índices-otimização-postgresql-e-oracle)
+- [Caderno 05 (Banco de Dados): Bancos NoSQL e Bancos Vetoriais](#caderno-05-banco-de-dados-bancos-nosql-e-bancos-vetoriais)
+- [Caderno 06 (Banco de Dados): Replicação, Alta Disponibilidade, Backup e Segurança](#caderno-06-banco-de-dados-replicação-alta-disponibilidade-backup-e-segurança)
 
 ---
 
@@ -765,3 +771,165 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 168`** (LGPD e Governança de Prompts Corporativos: Políticas de retenção e treinamento de provedores de IA, mascaramento de PII e proteção de segredos de negócio): Preservada.
 * **`Teste 169`** (Propriedade Intelectual e Licenciamento de Código Sintético: Riscos de contaminação por licenças copyleft como GPLv3 em código gerado por IA e jurisprudência de Fair Use): Preservada.
 * **`Teste 170`** (Governança Pública e Resolução CNJ nº 332/2020: Princípios de explicabilidade, auditabilidade, supervisão humana - *Human-in-the-Loop* e não-discriminação algorítmica em tribunais): Preservada.
+
+
+---
+
+## Caderno 01 (Banco de Dados): Modelagem de Dados, MER e Normalização
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/08_banco_de_dados/01_modelagem_de_dados_mer_e_normalizacao.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 241`**: Substituído pela questão real **`V3_FGV_TCE_PA_2024_Q2585`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/PA – 2024 – Auditor de Controle Externo (Ciência de Dados / TI)**
+  * **Conceito Aderente:** Modelagem relacional e Primeira Forma Normal (1FN). Atributos multivalorados (dependentes de funcionário sem limite fixo) exigem a criação de uma tabela autônoma vinculada por chave estrangeira, sendo incorreto vetorizar ou replicar linhas na mesma tabela.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 241`**: Simulado sobre modelagem de dependentes e aplicação canônica da 1FN.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 234`** (Níveis de Abstração ANSI/SPARC: Modelo Conceitual, Lógico e Físico de dados): Preservada.
+* **`Teste 235`** (Modelo Entidade-Relacionamento de Peter Chen: Entidades Fortes, Fracas, Associativas e tipos de atributos): Preservada.
+* **`Teste 236`** (Atributos Compostos e Multivalorados no MER - Questão Oficial FCC TRT-2 2014 TI): Preservada.
+* **`Teste 237`** (Mapeamento ER para Esquema Relacional: Resolução de relacionamentos 1:1, 1:N e N:M): Preservada.
+* **`Teste 238`** (Álgebra Relacional: Operadores primitivos de Seleção $\sigma$, Projeção $\pi$, Produto Cartesiano $	imes$, União $\cup$ e Diferença $-$): Preservada.
+* **`Teste 239`** (Álgebra Relacional Avançada: Junção Natural $owtie$, Junção Theta e Divisão Relacional $\div$): Preservada.
+* **`Teste 240`** (Dependências Funcionais e Regras de Inferência: Axiomas de Armstrong - Reflexividade, Aumento e Transitividade): Preservada.
+* **`Teste 242`** (Segunda Forma Normal - 2FN: Dependência Funcional Total e eliminação de dependências parciais): Preservada.
+* **`Teste 243`** (Terceira Forma Normal - 3FN: Eliminação de dependências funcionais transitivas entre atributos não-chave): Preservada.
+* **`Teste 244`** (Forma Normal de Boyce-Codd - BCNF vs 3FN e Quarta Forma Normal - 4FN com Dependências Multivaloradas - MVD): Preservada.
+
+
+---
+
+## Caderno 02 (Banco de Dados): Linguagem SQL (DDL, DML, DQL, TCL e DCL)
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/08_banco_de_dados/02_linguagem_sql_ddl_dml_dql_tcl_e_dcl.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 245`**: Substituído pela questão real **`V3_FGV_TCE_GO_2024_Q0295`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/GO – 2024 – Analista de Controle Externo (Tecnologia da Informação)**
+  * **Conceito Aderente:** Comandos da DCL (*Data Control Language*) do SQL em banco de dados de tribunal (`GRANT`, `WITH GRANT OPTION` e `REVOKE`). Propagação de privilégios de consulta e atualização sobre tabelas (`DADOS_PROCESSO` e `DADOS_PARTE`) e efeitos pontuais da revogação.
+* **`Teste 248`**: Substituído pela questão real **`V3_FGV_TRT_DA_2025_Q1194`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TRT/DA – 2025 – Analista Judiciario (Tecnologia da Informacao)**
+  * **Conceito Aderente:** Cláusulas estruturais do SQL no PostgreSQL: agrupamento com `GROUP BY`, funções de agregação (`COUNT`, `MAX`, `MIN`, `SUM`, `AVG`), filtro pós-agrupamento com `HAVING` e lógica condicional da expressão `CASE WHEN ... THEN ... ELSE ... END`.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 245`**: Simulado sobre concessão de `GRANT WITH GRANT OPTION` e `REVOKE CASCADE`.
+* **`Teste 248`**: Simulado sobre a ordem de execução do SQL e proibição de agregações no `WHERE`.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 246`** (Comandos DDL: `CREATE`, `ALTER`, `DROP` e constraints `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `CHECK`, `NOT NULL`): Preservada.
+* **`Teste 247`** (Diferenças Semânticas e de I/O entre `TRUNCATE TABLE` vs `DELETE FROM`): Preservada.
+* **`Teste 249`** (Junções Relacionais: `INNER JOIN`, `LEFT OUTER JOIN`, `RIGHT OUTER JOIN`, `FULL OUTER JOIN` e `CROSS JOIN`): Preservada.
+* **`Teste 250`** (Operadores de Conjunto: `UNION` com desduplicação vs `UNION ALL` com concatenação de alta performance, `INTERSECT` e `EXCEPT`): Preservada.
+* **`Teste 251`** (Lógica Ternária do SQL / *Three-Valued Logic*: `TRUE`, `FALSE`, `UNKNOWN` e a armadilha crítica de subconsultas com `NOT IN` e valores `NULL`): Preservada.
+* **`Teste 252`** (Common Table Expressions - CTEs e recursividade com `WITH RECURSIVE` para estruturas hierárquicas): Preservada.
+* **`Teste 253`** (Funções de Janela / *Window Functions*: Cláusula `OVER(PARTITION BY ... ORDER BY ...)` com `ROW_NUMBER()`, `RANK()` e `DENSE_RANK()`): Preservada.
+* **`Teste 254`** (Funções de Janela de Deslocamento: `LAG()` e `LEAD()` com cálculo de variação percentual intertemporal): Preservada.
+* **`Teste 255`** (Subconsultas Correlacionadas vs Subconsultas Escalares e operador `EXISTS`): Preservada.
+
+
+---
+
+## Caderno 03 (Banco de Dados): Transações, Propriedades ACID e Concorrência
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/08_banco_de_dados/03_transacoes_propriedades_acid_e_concorrencia.md`
+* **Status:** Auditado e aprovado sem necessidade de substituição (100% de preservação pedagógica)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma.* (Todas as 11 questões formam uma progressão teórica e técnica estrita sobre ACID, níveis de isolamento ANSI, Snapshot Isolation, bloqueios compartilhados/exclusivos, Two-Phase Locking, MVCC e detecção de deadlocks; mantidas integralmente para preservar a profundidade exigida no edital TCE-GO 2027).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 256`** (Conceito de Transação e Propriedades ACID: Atomicidade, Consistência, Isolamento e Durabilidade): Preservada.
+* **`Teste 257`** (Durabilidade e Mecanismos de Recuperação: *Write-Ahead Logging* / WAL e *Checkpoints* contra falhas de energia): Preservada.
+* **`Teste 258`** (Comandos TCL: Delimitação transacional com `COMMIT`, `ROLLBACK` e pontos de salvamento intermediários `SAVEPOINT`): Preservada.
+* **`Teste 259`** (Anomalias de Concorrência ANSI SQL-92: Leitura Suja / *Dirty Read*, Leitura Não-Repetível / *Non-Repeatable Read* e Leitura Fantasma / *Phantom Read*): Preservada.
+* **`Teste 260`** (Níveis de Isolamento ANSI: *Read Uncommitted*, *Read Committed*, *Repeatable Read* e *Serializable*): Preservada.
+* **`Teste 261`** (*Snapshot Isolation* / Isolamento por Instantâneo e a anomalia de desvio de escrita / *Write Skew*): Preservada.
+* **`Teste 262`** (Tipos de Bloqueios Lógicos: Bloqueio Compartilhado / *Shared Lock* (S) vs Bloqueio Exclusivo / *Exclusive Lock* (X) e matriz de compatibilidade): Preservada.
+* **`Teste 263`** (Dinâmica de Concorrência e Grafo de Espera / *Wait-For Graph* para detecção de ciclos de bloqueio mútuo): Preservada.
+* **`Teste 264`** (Protocolo de Bloqueio em Duas Fases / 2PL: Fase de Crescimento vs Fase de Encolhimento e garantia de serializabilidade estrita): Preservada.
+* **`Teste 265`** (Controle Multiversão de Concorrência / MVCC: Implementação no PostgreSQL com metadados `xmin`/`xmax` e independência entre leitores e escritores): Preservada.
+* **`Teste 266`** (Detecção e Resolução de Impasses / *Deadlocks* pelo SGBD com aborto de transação vítima e rollback): Preservada.
+
+
+---
+
+## Caderno 04 (Banco de Dados): Índices, Otimização, PostgreSQL e Oracle
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/08_banco_de_dados/04_indices_otimizacao_postgresql_e_oracle.md`
+* **Status:** Auditado e aprovado sem necessidade de substituição (100% de preservação pedagógica)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma.* (Todas as 11 questões abordam minuciosamente tópicos profundos de B+Tree, índices Bitmap para baixa cardinalidade, índices parciais e baseados em expressão no PostgreSQL, trade-off de índices em DML, CBO, EXPLAIN ANALYZE, algoritmos de join - Nested Loop, Hash e Merge, parâmetro `work_mem`, VACUUM/MVCC, além de áreas de memória SGA/PGA, processos DBWn/LGWR/CKPT e hierarquia de Tablespaces no Oracle; mantidas 100% intactas para cobrir todo o espectro do edital).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 267`** (Índices Bitmap: Vantagens para colunas de baixa cardinalidade em ambientes OLAP e operações lógicas booleanas diretas): Preservada.
+* **`Teste 268`** (Índices Parciais / *Partial Indexes* com predicado `WHERE` e Índices Baseados em Expressão / *Function-Based*): Preservada.
+* **`Teste 269`** (Trade-off de Índices: Sobrecarga computacional de I/O, memória e *page splits* provocada por múltiplos índices secundários em operações DML): Preservada.
+* **`Teste 270`** (Otimizador Baseado em Custo / CBO: Uso de estatísticas de catálogo e histogramas para estimativa de cardinalidade em distribuições assimétricas): Preservada.
+* **`Teste 271`** (Introspecção de Consultas: Diferenças operacionais cruciais entre `EXPLAIN` puramente teórico e `EXPLAIN ANALYZE` com execução real): Preservada.
+* **`Teste 272`** (Algoritmos de Junção: Características, restrições e custos de *Nested Loop*, *Hash Join* e *Merge Join*): Preservada.
+* **`Teste 273`** (Alocação de Memória no PostgreSQL: O parâmetro `work_mem` e as consequências de degradação por *spill* de ordenações e hashes para o disco): Preservada.
+* **`Teste 274`** (Arquitetura MVCC e Gerenciamento de Espaço: Tuplas mortas / *dead tuples*, rotinas de `VACUUM` concorrente e `VACUUM FULL` com travamento exclusivo): Preservada.
+* **`Teste 275`** (Arquitetura de Memória do Oracle Database: Divisão entre *System Global Area* - SGA compartilhada e *Program Global Area* - PGA privada por sessão): Preservada.
+* **`Teste 276`** (Processos de Segundo Plano no Oracle: Atribuições especializadas do DBWn, LGWR, CKPT, SMON e PMON): Preservada.
+* **`Teste 277`** (Estrutura de Armazenamento Lógico do Oracle: Hierarquia composicional entre Database, Tablespace, Segment, Extent e Data Block): Preservada.
+
+
+---
+
+## Caderno 05 (Banco de Dados): Bancos NoSQL e Bancos Vetoriais
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/08_banco_de_dados/05_bancos_nosql_e_bancos_vetoriais.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 279`**: Substituído pela questão real **`V3_FGV_TCE_SC_2026_Q3295`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo (TI - Ciências da Computação)**
+  * **Conceito Aderente:** Aplicação prática do Teorema CAP na arquitetura de bancos de dados NoSQL distribuídos em Tribunais de Contas: comportamento diante de falha na rede entre datacenters (partição de rede), priorização de Disponibilidade (A) e Tolerância a Partições (P) com consistência eventual (*Eventual Consistency*).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 279`**: Simulado sobre o Teorema PACELC e classificação PA/EL do Cassandra.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 278`** (Famílias NoSQL: Modelos Chave-Valor, Orientados a Documentos, Colunares / Wide-Column e Grafos): Preservada.
+* **`Teste 280`** (Modelo BASE: *Basically Available, Soft-state, Eventual consistency* em contraposição ao modelo ACID relacional): Preservada.
+* **`Teste 281`** (Bancos de Documentos / MongoDB: Formato BSON, indexação flexível e arquitetura de *Replica Sets* com nó primário e secundários): Preservada.
+* **`Teste 282`** (Bancos Chave-Valor / Redis: Estruturas de dados em memória RAM e mecanismos de persistência RDB snapshot vs AOF append-only): Preservada.
+* **`Teste 283`** (Bancos Colunares / Cassandra: Particionamento distribuído por hash da Partition Key e ordenação local por Clustering Columns): Preservada.
+* **`Teste 284`** (Bancos de Grafos / Neo4j: Modelo de Grafos de Propriedades com Nós, Arestas direcionadas e linguagem de consulta Cypher): Preservada.
+* **`Teste 285`** (Bancos Multimodelo e Cenários Híbridos de Persistência Poliglota em Tribunais de Contas): Preservada.
+* **`Teste 286`** (Bancos Vetoriais e Inteligência Artificial: Indexação de embeddings multidimensionais e busca por similaridade semântica de cosseno): Preservada.
+* **`Teste 287`** (Algoritmos de Indexação Vetorial: HNSW - *Hierarchical Navigable Small World* vs IVFFlat e trade-offs entre recall e latência): Preservada.
+* **`Teste 288`** (A Extensão `pgvector` no PostgreSQL: Tipos de dados `vector`, operadores de distância e comandos de criação de índices HNSW): Preservada.
+
+
+---
+
+## Caderno 06 (Banco de Dados): Replicação, Alta Disponibilidade, Backup e Segurança
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/08_banco_de_dados/06_replicacao_alta_disponibilidade_backup_e_seguranca.md`
+* **Status:** Auditado e aprovado sem necessidade de substituição (100% de preservação pedagógica)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma.* (Todas as 11 questões abordam tópicos críticos de missão crítica: replicação física vs lógica no PostgreSQL, quorum e prevenção contra split-brain, modalidades de backup, métricas RPO/RTO, restauração pontual PITR com arquivamento de WAL, mascaramento dinâmico DDM, criptografia TDE e segurança granular RLS/RBAC; mantidas 100% intactas para garantir máxima cobertura para a prova).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 289`** (Topologias de Replicação: Replicação Síncrona com garantia de zero perda de dados vs Replicação Assíncrona com alto throughput): Preservada.
+* **`Teste 290`** (Replicação no PostgreSQL: *Physical Streaming Replication* baseada em WAL vs Replicação Lógica baseada em publicações e subscrições): Preservada.
+* **`Teste 291`** (Alta Disponibilidade: Failover automático, detecção de nós inativos (*heartbeat*) e promoção de nós standby): Preservada.
+* **`Teste 292`** (Particionamento de Rede e Síndrome de *Split-Brain*: Mecanismos de Quórum e Fencing com STONITH para isolamento de nós): Preservada.
+* **`Teste 293`** (Estratégias de Backup Corporativo: Backup Físico vs Lógico (`pg_dump`), cópias Completas / Full, Diferenciais e Incrementais): Preservada.
+* **`Teste 294`** (Métricas de Continuidade de Negócios: *Recovery Point Objective* - RPO e *Recovery Time Objective* - RTO no planejamento de desastres): Preservada.
+* **`Teste 295`** (Recuperação em Ponto no Tempo / PITR: Restauração a partir de backup base associada à reprodução contínua de logs WAL arquivados): Preservada.
+* **`Teste 296`** (Governança de Continuidade de Negócios e Acordos de Nível de Serviço / SLAs de restauração em tribunais): Preservada.
+* **`Teste 297`** (Criptografia em Bancos de Dados: Criptografia de Dados Transparentes / TDE em repouso e TLS/SSL em trânsito): Preservada.
+* **`Teste 298`** (Privacidade e LGPD: Mascaramento Dinâmico de Dados / DDM para proteção de dados pessoais e sigilosos em consultas analíticas): Preservada.
+* **`Teste 299`** (Controle de Acesso Granular: *Role-Based Access Control* - RBAC e Segurança em Nível de Linha / *Row-Level Security* - RLS no PostgreSQL): Preservada.

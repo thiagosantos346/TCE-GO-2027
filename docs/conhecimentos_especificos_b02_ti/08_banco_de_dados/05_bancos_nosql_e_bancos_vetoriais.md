@@ -140,32 +140,28 @@ Considerando as famílias NoSQL mais eficientes para os casos e as regras de sis
 ---
 
 ### Teste 279
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O Teorema CAP (Brewer) postula que um sistema distribuído não pode garantir simultaneamente Consistência (C), Disponibilidade (A) e Tolerância a Particionamentos de Rede (P). No entanto, o Teorema CAP aborda apenas o comportamento do sistema durante partições de rede anormais. Para descrever o comportamento em operação de rede normal, Daniel Abadi formulou o Teorema PACELC.
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - TI - Ciências da Computação)**  
+O Auditor fiscaliza a arquitetura de um novo banco de dados NoSQL distribuído para o TCE-SC. O sistema precisa garantir que, em caso de falha na rede entre dois data centers, o sistema continue aceitando gravações, mesmo que os dados fiquem temporariamente inconsistentes entre os nós. De acordo com o Teorema CAP, esse sistema prioriza as propriedades de:
 
-A respeito dos postulados formais do Teorema PACELC, assinale a afirmativa correta:
-
-* **A)** O Teorema PACELC estabelece que se houver Partição (P), deve-se escolher entre Disponibilidade (A) e Consistência (C); Senão (Else - E), deve-se escolher entre Latência (L) e Consistência (C).
-* **B)** O Teorema PACELC afirma que bancos NoSQL podem garantir Consistência forte e Latência zero em 100% do tempo sem violar leis da física.
-* **C)** No teorema PACELC, a letra 'E' significa Criptografia ponta a ponta (*End-to-end Encryption*) obrigatória em redes sem fio.
-* **D)** Sistemas classificados como PC/EC priorizam sempre a disponibilidade operacional em detrimento de qualquer validação de integridade.
-* **E)** O teorema PACELC aplica-se exclusivamente a bancos de dados centralizados legados em servidores *mainframe*.
-
+* **A)** Consistência e Tolerância a Partições (CP).
+* **B)** Apenas Disponibilidade, ignorando partições.
+* **C)** Disponibilidade e Tolerância a Partições (AP).
+* **D)** Atomicidade e Durabilidade.
+* **E)** Consistência estrita e Isolamento serializável.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** O Teorema PACELC expande o Teorema CAP estruturando o seguinte raciocínio:
->   - **Se houver Partição de Rede (P):** O sistema deve escolher entre **Disponibilidade (A)** e **Consistência (C)** (como no Teorema CAP original).
->   - **Senão (Else - E - quando o sistema opera normalmente sem falhas de partição):** O sistema distribuído ainda assim enfrenta um *trade-off* inevitável entre **Latência (L)** e **Consistência (C)**.
->   - Para obter consistência estrita (leitura de dados sempre sincronizados entre réplicas), o sistema precisa coordenar mensagens e confirmações entre múltiplos nós antes de responder, o que introduz maior latência de resposta ($L$). Se quiser latência ultrabaixa ($L$), ele responde imediatamente com os dados locais do nó mais próximo, tolerando leituras temporariamente inconsistentes ($C$).
-> - **B)** Incorreta. Consistência forte e latência zero em nós geograficamente distribuídos são mutuamente excludentes devido ao limite de propagação da velocidade da luz na rede.
-> - **C)** Incorreta. 'E' significa *Else* (Senão / Operação normal da rede).
-> - **D)** Incorreta. Sistemas PC/EC priorizam Consistência ($C$) tanto durante partições quanto no estado normal.
-> - **E)** Incorreta. Aplica-se especificamente a arquiteturas de armazenamento distribuído (*Distributed Storage*).
+> - **A) Incorreta.** Se o sistema priorizasse Consistência (C) diante de uma partição de rede (P), ele rejeitaria ou bloquearia novas gravações nos nós isolados para evitar leituras ou escritas com dados divergentes, sacrificando a disponibilidade.
+> - **B) Incorreta.** Em sistemas distribuídos entre múltiplos datacenters, a Tolerância a Partições (P) não pode ser ignorada, pois rupturas de cabos, lentidão e partições de rede são falhas físicas inevitáveis.
+> - **C) CORRETA.** O Teorema CAP postula que, na ocorrência inevitável de uma partição de rede (**P** - *Partition Tolerance*), o sistema distribuído deve escolher entre:
+>   1. Manter a consistência forte (**CP**), rejeitando requisições e sacrificando a disponibilidade; ou
+>   2. Continuar atendendo e aceitando operações de gravação e leitura (**AP** - *Availability*), tolerando inconsistências temporárias e divergências entre nós, que serão posteriormente equalizadas via **consistência eventual** (*eventual consistency*). Como o sistema do TCE-SC precisa continuar aceitando gravações mesmo que temporariamente inconsistente, ele adota uma arquitetura **AP**.
+> - **D) Incorreta.** Atomicidade e Durabilidade são propriedades ACID de bancos transacionais relacionais, não os eixos fundamentais do Teorema CAP de Eric Brewer.
+> - **E) Incorreta.** A tolerância a dados temporariamente inconsistentes opõe-se diametralmente à consistência estrita e ao isolamento serializável.
 > 
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 

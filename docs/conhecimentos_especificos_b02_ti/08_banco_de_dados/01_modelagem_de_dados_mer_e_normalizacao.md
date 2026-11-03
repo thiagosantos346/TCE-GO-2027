@@ -455,33 +455,30 @@ Com base nos Axiomas de Armstrong (Reflexividade, Aumento e Transitividade) e em
 ---
 
 ### Teste 241
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O modelo de dados conceitual de um sistema de gestão de recursos humanos prevê a entidade `FUNCIONARIO`. Para fins de cálculo de benefícios e assistência médica, é necessário cadastrar os dados dos dependentes de cada funcionário (`NomeDependente`, `DataNascDependente`, `Parentesco`), sem limite superior de quantidade.
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Ciência de Dados / TI)**  
+O modelo conceitual de um banco de dados prevê uma entidade denominada funcionário. Para fins de pagamento, é necessário cadastrar dados dos dependentes, caso haja, sem limite superior de quantidade. Para manter o modelo relacional na primeira forma normal, avalie se as seguintes abordagens devem ser propostas:
 
-Para implementar esse modelo em um banco de dados relacional assegurando a conformidade rigorosa com a **Primeira Forma Normal (1FN)**, avalie as seguintes abordagens técnicas:
+I. Replicar, na mesma tabela, o registro do funcionário para cada dependente cadastrado.  
+II. Criar uma tabela com os dados de cada dependente, vinculada por um atributo aos dados do funcionário.  
+III. Registrar no campo correspondente um vetor com os dados dos dependentes.  
 
-I. Armazenar no registro do funcionário um atributo estruturado do tipo vetor/array contendo os dados empacotados de todos os dependentes.  
-II. Replicar a linha do funcionário na tabela principal tantas vezes quantos forem os dependentes cadastrados, variando apenas os dados do dependente.  
-III. Criar uma tabela autônoma `DEPENDENTE` vinculada à tabela `FUNCIONARIO` por meio de uma chave estrangeira (`IdFuncionario`), com chave primária composta por `(IdFuncionario, NumSequencialDependente)`.  
+Está correto o que se afirma em:
 
-Conforme a teoria da normalização relacional de Codd, está correto apenas o que se afirma em:
-
-* **A)** I.
-* **B)** II.
-* **C)** III.
-* **D)** I e II.
-* **E)** II e III.
-
+* **A)** I e II, apenas.
+* **B)** I e III, apenas.
+* **C)** II e III, apenas.
+* **D)** I, apenas.
+* **E)** II, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **I.** Incorreta. O uso de vetores, listas ou colunas multivaloradas viola explicitamente o requisito basilar da Primeira Forma Normal (1FN), segundo o qual todos os atributos de uma relação devem possuir domínios puramente **atômicos** (indivisíveis).
-> - **II.** Incorreta. Replicar a tupla inteira do funcionário para cada dependente cria redundância massiva, anomalias graves de atualização/exclusão e viola a integridade de entidade caso a chave primária seja apenas o identificador do funcionário.
-> - **III.** **CORRETA.** A técnica canônica para resolver atributos multivalorados ou grupos repetitivos e atender à 1FN consiste em decompor a estrutura: cria-se uma tabela separada (`DEPENDENTE`) que herda a chave da entidade principal como chave estrangeira (`FK`), garantindo atomicidade estrita em todas as colunas.
+> - **I. Incorreta.** Replicar na mesma tabela o registro do funcionário para cada dependente cria redundância excessiva de dados cadastrais do servidor e gera graves anomalias de atualização/exclusão, violando os princípios de integridade relacional.
+> - **II. CORRETA.** Para assegurar a **Primeira Forma Normal (1FN)**, atributos multivalorados e relações de cardinalidade $1:N$ sem limite fixo devem ser decompostos em uma nova tabela específica (ex.: tabela de dependentes), interligada à tabela principal por meio de chave estrangeira (*Foreign Key*), preservando a atomicidade dos campos.
+> - **III. Incorreta.** A Primeira Forma Normal exige que todos os domínios de atributos contenham exclusivamente **valores atômicos (indivisíveis)**. O uso de vetores, listas estruturadas ou campos multivalorados viola frontalmente a definição de 1FN do modelo relacional clássico de Edgar F. Codd.
 > 
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 

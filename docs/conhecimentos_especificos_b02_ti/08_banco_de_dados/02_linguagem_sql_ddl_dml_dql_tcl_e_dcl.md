@@ -115,29 +115,47 @@ As restrições de integridade garantem a consistência lógica dos dados no ban
 ---
 
 ### Teste 245
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em um banco de dados corporativo de um órgão público, o Administrador de Banco de Dados (DBA) necessita conceder privilégios de consulta e inserção na tabela `FOLHA_PAGAMENTO` para o usuário `auditor_fiscal`, permitindo adicionalmente que este usuário repasse exclusivamente o privilégio de consulta a outros analistas de sua equipe. Posteriormente, por motivos de conformidade, o DBA revogou o privilégio de consulta do `auditor_fiscal` de forma cascateada.
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**  
+Considere um banco de dados relacional de um tribunal, na qual nenhum usuário, a menos do DBA, possua algum privilégio sobre. O DBA concedeu direito de criação de tabelas ao usuário USR_0010, que, por sua vez, criou as tabelas DADOS_PROCESSO e DADOS_PARTE. Logo após a criação, o usuário USR_0010 executou os seguintes comandos da DCL (*Data Control Language*) da linguagem SQL no sistema gerenciador de banco de dados, referentes aos usuários USR_0011 e USR_0100:
 
-Considerando os comandos da Data Control Language (DCL) do padrão ANSI SQL, assinale a opção que indica as instruções corretas para conceder os privilégios solicitados e, em seguida, revogá-los com efeito em cascata:
+```sql
+GRANT SELECT, UPDATE ON DADO_PARTE TO USR_0011;
+GRANT SELECT ON DADOS_PARTE TO USR_0100;
+GRANT SELECT, INSERT, DELETE, UPDATE ON DADOS_PROCESSO TO USR_0011;
+GRANT SELECT, UPDATE ON DADOS_PROCESSO TO USR_0100 WITH GRANT OPTION;
+```
 
-* **A)** `GRANT SELECT, INSERT ON FOLHA_PAGAMENTO TO auditor_fiscal WITH GRANT OPTION;` e `REVOKE ALL PRIVILEGES ON FOLHA_PAGAMENTO FROM auditor_fiscal;`.
-* **B)** `GRANT SELECT ON FOLHA_PAGAMENTO TO auditor_fiscal WITH GRANT OPTION;` seguido de `GRANT INSERT ON FOLHA_PAGAMENTO TO auditor_fiscal;` e, para revogação, `REVOKE SELECT ON FOLHA_PAGAMENTO FROM auditor_fiscal CASCADE;`
-* **C)** `PERMIT SELECT, INSERT ON FOLHA_PAGAMENTO FOR auditor_fiscal ADMIN OPTION;` e `DENY SELECT ON FOLHA_PAGAMENTO TO auditor_fiscal;`
-* **D)** `GRANT READ, WRITE ON TABLE FOLHA_PAGAMENTO TO USER auditor_fiscal;` e `REVOKE SELECT CASCADE FROM auditor_fiscal;`
-* **E)** `ALLOW SELECT ON FOLHA_PAGAMENTO TO auditor_fiscal WITH ADMIN OPTION;` e `REVOKE SELECT ON FOLHA_PAGAMENTO FROM auditor_fiscal RESTRICT;`
+Na sequência, o usuário USR_0100 executou o seguinte comando:
 
+```sql
+GRANT UPDATE ON DADOS_PROCESSO TO USR_00101;
+```
+
+Por fim, o DBA executou o comando:
+
+```sql
+REVOKE UPDATE ON DADOS_PROCESSO FROM USR_0100;
+```
+
+Considerando esse cenário, qual situação é válida para as permissões referentes às tabelas DADOS_PROCESSO e DADOS_PARTE?
+
+* **A)** O usuário USR_0011 tem direito de inserção na tabela DADOS_PARTE.
+* **B)** O usuário USR_0100 tem direito de atualização na tabela DADOS_PROCESSO, mas sem direito de propagação.
+* **C)** O usuário USR_0100 tem direito de consulta na tabela DADOS_PROCESSO, com direito de propagação.
+* **D)** O usuário USR_0101 tem direito de atualização na tabela DADOS_PROCESSO.
+* **E)** O usuário USR_0101 tem direito de consulta na tabela DADOS_PROCESSO.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Ao conceder `WITH GRANT OPTION` conjuntamente para `SELECT` e `INSERT`, o auditor poderia repassar também o privilégio de inserção, violando a regra de negócio que restringia o repasse exclusivamente à consulta (`SELECT`).
-> - **B)** **CORRETA.** A cláusula `WITH GRANT OPTION` deve ser vinculada unicamente ao privilégio que pode ser repassado (`SELECT`). O privilégio `INSERT` é concedido sem essa cláusula. Para a revogação em cascata (removendo o privilégio de `auditor_fiscal` e simultaneamente de todos os terceiros a quem ele concedeu), a sintaxe padrão ANSI SQL exige `REVOKE SELECT ON FOLHA_PAGAMENTO FROM auditor_fiscal CASCADE;`.
-> - **C)** Incorreta. `PERMIT` e `DENY` não são comandos padrão DCL do ANSI SQL (são dialetos proprietários).
-> - **D)** Incorreta. No padrão SQL, os privilégios primitivos são `SELECT` e `INSERT`, não `READ` e `WRITE`.
-> - **E)** Incorreta. `ALLOW` não é comando SQL; além disso, a cláusula `RESTRICT` abortaria a revogação caso existissem privilégios dependentes, enquanto o comando exigia revogação cascateada (`CASCADE`).
+> - **A) Incorreta.** O usuário USR_0010 concedeu a USR_0011 apenas `SELECT` e `UPDATE` sobre a tabela de partes (houve inclusive menção a `DADO_PARTE`, mas sobre ela nunca houve permissão de `INSERT`).
+> - **B) Incorreta.** O DBA revogou expressamente o privilégio de `UPDATE` de USR_0100, logo ele não possui direito de atualização na tabela DADOS_PROCESSO.
+> - **C) CORRETA.** O comando original do proprietário USR_0010 concedeu `GRANT SELECT, UPDATE ON DADOS_PROCESSO TO USR_0100 WITH GRANT OPTION;`. Como o DBA revogou exclusivamente o privilégio de `UPDATE` (`REVOKE UPDATE ON DADOS_PROCESSO FROM USR_0100`), o privilégio de `SELECT` com sua correspondente cláusula de propagação (`WITH GRANT OPTION`) permaneceu intacto e plenamente ativo.
+> - **D) Incorreta.** Na hierarquia de concessão SQL, ao revogar o privilégio do concedente, os privilégios derivados concedidos a terceiros em cascata deixam de vigorar; ademais, o comando do usuário visava `USR_00101`.
+> - **E) Incorreta.** USR_0100 nunca concedeu direito de consulta (`SELECT`) ao usuário USR_0101 (apenas tentou conceder `UPDATE`).
 > 
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -239,41 +257,34 @@ Compreender essa cronologia lógica resolve duas das questões mais frequentes d
 ---
 
 ### Teste 248
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere a seguinte consulta SQL proposta por um desenvolvedor júnior para listar as secretarias cujo valor total de empenhos fiscais ultrapassou R$ 1.000.000 no exercício:
+**(FGV – TRT/DA – 2025 – Analista Judiciario - Tecnologia da Informacao)**  
+O PostgreSQL é um SGBD gratuito de código aberto que suporta consultas relacionais em linguagem SQL. Com relação ao SQL do PostgreSQL, analise as afirmativas a seguir.
 
-```sql
-SELECT secretaria_id, SUM(valor_empenho) AS total_empenhado
-FROM empenhos
-WHERE total_empenhado > 1000000
-GROUP BY secretaria_id;
-```
+I. A cláusula GROUP BY agrupa linhas com os mesmos valores em linhas de resumo, sendo frequentemente usada com funções de agregação como, por exemplo, COUNT( ), MAX( ), MIN( ), SUM( ) e AVG( ), para agrupar um conjunto de resultados de uma ou mais colunas.  
+II. O operador HAVING foi adicionado ao SQL porque o WHERE não pode ser usado com funções de agregação, as quais são frequentemente usadas com a cláusula GROUP BY. Ao adicionar o HAVING é possível escrever condições similares às das cláusulas WHERE.  
+III. A expressão CASE testa condições e retorna um valor quando a primeira condição é atendida (como uma instrução if-then-else); quando a condição seja verdadeira, ele parará a leitura e retornará o resultado, mas, se nenhuma condição for verdadeira, ele retornará o valor da cláusula ELSE. Caso não houver nenhum ELSE e nenhuma condição for verdadeira, ele retornará o valor NULL.  
 
-Ao ser submetida ao compilador SQL de um SGBD relacional padrão, a consulta:  
+Está correto o que se afirma em:
 
-* **A)** Executará com sucesso, pois o compilador SQL resolve primeiro a cláusula `SELECT` para em seguida processar a restrição no `WHERE`.
-* **B)** Falhará na compilação.
-* **C)** Executará com sucesso apenas se a tabela `empenhos` possuir um índice agrupado (*clustered*) sobre a coluna `secretaria_id`.
-* **D)** Falhará na execução porque a cláusula `GROUP BY` exige obrigatoriamente a presença da cláusula `ORDER BY` para que o agrupamento seja válido.
-* **E)** Executará perfeitamente, desde que o alias `total_empenhado` seja renomeado para corresponder a um tipo `DECIMAL`.
-
+* **A)** I e II, apenas.
+* **B)** I e III, apenas.
+* **C)** II e III, apenas.
+* **D)** I, II e III.
+* **E)** III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A cláusula `SELECT` é processada muito após o `WHERE`, de modo que aliases de projeção não existem durante a avaliação do `WHERE`.
-> - **B)** Correta. A consulta falha por dois motivos decorrentes da ordem lógica de execução da SQL:
->     1. O `WHERE` é processado antes do `SELECT` e, portanto, **não reconhece o alias de coluna `total_empenhado`**;
->     2. O filtro exige uma condição sobre função de agregação (`SUM()`), a qual não pode constar no `WHERE` (que atua linha a linha), devendo ser posicionada obrigatoriamente na cláusula **`HAVING SUM(valor_empenho) > 1000000`** após o `GROUP BY`.
->
-> - **C)** Incorreta. A presença de índices não corrige erros sintáticos e semânticos de compilação SQL.
-> - **D)** Incorreta. O uso de `ORDER BY` é opcional com `GROUP BY`.
-> - **E)** Incorreta. Renomear o alias não altera a restrição de que agregações devem ser filtradas no `HAVING`.
+> - **I. Correta.** A cláusula `GROUP BY` divide o conjunto de tuplas em grupos homogêneos baseados nas colunas indicadas, permitindo que funções de agregação (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`) calculem métricas consolidadas sobre cada grupo de linhas.
+> - **II. Correta.** O processador de consultas avalia o predicado `WHERE` antes da criação dos grupos (em nível de linha individual), impedindo seu uso com agregados. A cláusula `HAVING` foi incorporada exatamente para viabilizar filtros pós-agregação sobre os grupos formados pelo `GROUP BY`.
+> - **III. Correta.** A expressão condicional `CASE` avalia sequencialmente as cláusulas `WHEN` e encerra a avaliação no primeiro predicado verdadeiro (comportamento de *short-circuit*). Se nenhuma condição for satisfeita, adota o valor de escape definido no `ELSE`; se o bloco `ELSE` for omitido e nenhuma condição for verdadeira, o retorno padrão do SQL é `NULL`.
 > 
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
+
+## 3. Consultas Avançadas: Junções, Operadores de Conjunto e Subconsultas
 
 ## 3. Consultas Avançadas: Junções, Operadores de Conjunto e Subconsultas
 
