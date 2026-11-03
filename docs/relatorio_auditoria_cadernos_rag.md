@@ -19,6 +19,7 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 05 (Eng. Software): Qualidade, Testes, Refatoração e Dívida Técnica](#caderno-05-eng-software-qualidade-testes-refatoração-e-dívida-técnica)
 - [Caderno 01 (Dev. Sistemas): Algoritmos, Estruturas de Dados e Paradigmas](#caderno-01-dev-sistemas-algoritmos-estruturas-de-dados-e-paradigmas)
 - [Caderno 02 (Dev. Sistemas): Linguagens de Programação (Java, JavaScript, Node.js e Python)](#caderno-02-dev-sistemas-linguagens-de-programação-java-javascript-nodejs-e-python)
+- [Caderno 03 (Dev. Sistemas): Desenvolvimento Frontend (HTML5, CSS3, React e TypeScript)](#caderno-03-dev-sistemas-desenvolvimento-frontend-html5-css3-react-e-typescript)
 
 ---
 
@@ -506,3 +507,33 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 073`** (JavaScript/Node.js: Operações assíncronas com Promises, sintaxe `async/await` e tratamento de erros): Preservada.
 * **`Teste 074`** (Python 3: Estruturas sequenciais, Listas mutáveis vs Tuplas imutáveis e Dicionários): Preservada.
 * **`Teste 075`** (Python 3: Compreensão de Listas / *List Comprehensions*, filtragem e transformações funcionais): Preservada.
+
+
+---
+
+## Caderno 03 (Dev. Sistemas): Desenvolvimento Frontend (HTML5, CSS3, React e TypeScript)
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/03_desenvolvimento_frontend_html_css_react_typescript.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 076`**: Substituir pela questão real **`V3_FGV_TRT_DA_2025_Q1177`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TRT/DA – 2025 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** Novos recursos e especificações introduzidos pelo HTML5 (Microdados para semântica personalizada de vocabulário, API de Geolocalização, Server-Sent Events e WebSockets).
+* **`Teste 084`**: Substituir pela questão real **`V3_FGV_TCE_GO_2024_Q0296`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/GO – 2024 – Analista de Controle Externo (Tecnologia da Informação)**
+  * **Conceito Aderente:** Desenvolvimento de aplicações frontend em React, integração com bibliotecas de estilização CSS/Bootstrap e requisitos de importação/renderização de componentes.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 076`**: Simulado sobre HTML5 semântico e tags estruturais.
+* **`Teste 084`**: Simulado sobre virtual DOM e reconciliação com a propriedade `key` no React.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 077`** (Acessibilidade Web: Diretrizes WCAG 2.1 e especificação semântica WAI-ARIA): Preservada.
+* **`Teste 078`** (CSS3: Cálculo de especificidade de seletores e regras de cascata): Preservada.
+* **`Teste 079`** (CSS3 Box Model: Propriedade `box-sizing: border-box` vs `content-box`): Preservada.
+* **`Teste 080`** (CSS3 Flexbox: Eixo principal `justify-content` vs eixo transversal `align-items`): Preservada.
+* **`Teste 081`** (TypeScript: Tipagem segura, distinção entre `any` e `unknown` e *type narrowing*): Preservada.
+* **`Teste 082`** (TypeScript: `interface` vs `type alias` e o recurso exclusivo de *declaration merging*): Preservada.
+* **`Teste 083`** (TypeScript: *Utility Types* `Partial`, `Readonly`, `Pick` e `Omit`): Preservada.
+* **`Teste 085`** (React Hooks: Ciclo de vida com `useEffect`, array de dependências e função de cleanup): Preservada.
+* **`Teste 086`** (React Hooks: Otimização de performance com `useMemo`, `useCallback` e referências com `useRef`): Preservada.

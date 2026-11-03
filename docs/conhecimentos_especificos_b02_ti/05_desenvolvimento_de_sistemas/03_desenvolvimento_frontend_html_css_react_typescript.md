@@ -167,16 +167,32 @@ As diretrizes WCAG (*Web Content Accessibility Guidelines*) da W3C são organiza
 ---
 
 ### Teste 076
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No desenvolvimento de páginas governamentais com HTML5 aderentes às diretrizes de acessibilidade na Web (W3C / WCAG), assinale a afirmativa tecnicamente correta:  
+**(FGV – TRT/DA – 2025 – Analista Judiciário - Tecnologia da Informação)**  
+HTML5 introduziu uma série de novos recursos, elementos e atributos que ajudam os desenvolvedores na construção de sites mais modernos. Considerando essa nova versão da linguagem HTML, analise as afirmativas a seguir sobre os recursos que ela introduziu.
 
-* **A)** O elemento `<article>` deve ser utilizado exclusivamente para criar tabelas de dados financeiros de auditoria, sendo vedado para artigos de texto.
-* **B)** O uso do atributo `tabindex="5"` é a prática recomendada para botões de submissão, pois garante que eles sempre recebam o foco antes de qualquer campo do formulário.
-* **C)** O elemento `<main>` deve encapsular o conteúdo central e específico do documento, não devendo ser duplicado em um mesmo documento exibido, e conteúdos que se repetem entre páginas (como cabeçalhos de topo e rodapés gerais) devem ficar fora dele.
-* **D)** As tags de agrupamento genérico `<div>` e `<span>` possuem semântica rica superior às tags `<section>` e `<nav>`, sendo preferíveis pelos leitores de tela.
-* **E)** O atributo `aria-hidden="true"` instrui os navegadores a ocultar o elemento visualmente na tela para usuários videntes, mas mantém sua leitura intacta para deficientes visuais em leitores de tela.
+I. ServerSockets – trata-se de uma tecnologia de comunicação bidirecional de última geração para o estabelecimento de conexões seguras entre os aplicativos web e o servidor.  
+II. Eventos enviados pelo servidor – permite que servidores enviem dados para páginas da web mediante o protocolo HTTP, em que apenas os eventos críticos fluem do servidor web para os navegadores.  
+III. Microdados − possibilita que os desenvolvedores criem seus próprios vocabulários além do HTML5 e estendam as páginas da web com semântica personalizada.  
+IV. Geolocalização – viabiliza que visitantes possam optar por compartilhar sua localização física mediante seus aplicativos web.  
 
+Está correto o que se afirma em:
 
+* **A)** I e II, apenas.
+* **B)** II e III, apenas.
+* **C)** III e IV, apenas.
+* **D)** I, II e IV, apenas.
+* **E)** I, II e III, apenas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **Item I (Incorreto):** O recurso padronizado pelo W3C/HTML5 para comunicação bidirecional full-duplex sobre uma única conexão TCP persistente denomina-se **WebSockets**, e não "ServerSockets" (termo inexistente no padrão HTML5 para navegadores).
+> - **Item II (Incorreto):** Os *Server-Sent Events* (SSE) permitem o envio contínuo e unidirecional de dados do servidor para o navegador via HTTP padrão, porém não há restrição de que "apenas eventos críticos fluem": qualquer fluxo arbitrário de mensagens e eventos pode ser transmitido pelo servidor.
+> - **Item III (Correto):** A especificação de **Microdados** (*Microdata*) do HTML5 permite anotar elementos HTML com propriedades semânticas customizadas (usando atributos como `itemscope`, `itemtype` e `itemprop`), viabilizando a extensão dos vocabulários padrões para indexação por motores de busca e web semântica (Schema.org).
+> - **Item IV (Correto):** A API de **Geolocalização** (*Geolocation API*) do HTML5 permite que a aplicação web consulte as coordenadas geográficas do dispositivo do usuário mediante prévia e expressa autorização do visitante.
+>
+> **Gabarito: C**
 ---
 
 > **Comentário Detalhado:**
@@ -759,18 +775,28 @@ const handleClick = useCallback(() => { enviarAuditoria(id); }, [id]);
 ---
 
 ### Teste 084
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na biblioteca React, ao iterar sobre uma lista de dados para renderizar múltiplos componentes utilizando a função `.map()`, os desenvolvedores devem obrigatoriamente fornecer a propriedade especial `key` para cada item retornado.
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**  
+Roberto está desenvolvendo uma aplicação web usando React, e decidiu utilizar o Bootstrap para que a aplicação seja responsiva. Analise o trecho do código a seguir como parte da aplicação:
 
-A respeito do propósito e do funcionamento da propriedade `key` no algoritmo de reconciliação do React, assinale a afirmativa correta:  
+Marque a opção que aponta problemas para a implementação correta deste projeto.
 
-* **A)** A `key` serve unicamente para estilização visual via CSS, sendo convertida em uma classe HTML automática no DOM real.
-* **B)** O React utiliza a `key` para identificar de forma estável quais elementos da lista foram alterados, adicionados ou removidos entre renderizações, permitindo atualizar apenas os nós do DOM que sofreram modificação efetiva.
-* **C)** O uso do índice do array (`key={index}`) é a estratégia oficial recomendada pela Meta para listas dinâmicas com operações frequentes de ordenação e inserção no início da fila.
-* **D)** As chaves `key` devem ser obrigatoriamente números inteiros sequenciais gerados aleatoriamente com `Math.random()` a cada ciclo de renderização.
-* **E)** A propriedade `key` é repassada automaticamente pelo React para o componente filho como uma prop ordinária, podendo ser acessada livremente no código filho via `props.key`.
+* **A)** O código não necessita da importação do React pois a exportação já vai incorporar no projeto o React.
+* **B)** É necessário acrescentar a importação do CSS do Bootstrap.
+* **C)** O uso de classes como "container", "text-center", e "btn btn- primary" precisa ser mudado pois não funciona no React.
+* **D)** O Bootstrap não pode ser utilizado em projetos React devido a incompatibilidades entre as bibliotecas.
+* **E)** A tag `<div>` utilizada não é suportada pelo HTML5.
 
+---
 
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Em ferramentas modernas (React 17+ JSX Transform), a importação explícita de `React` não é mandatória para renderizar JSX, mas a justificativa de que a "exportação vai incorporar o React" é conceitualmente errada.
+> - **B) Correta.** Ao instalar ou utilizar classes utilitárias do Bootstrap (como `container`, `text-center`, `btn`, etc.) em uma aplicação React, é **indispensável importar as folhas de estilo CSS do Bootstrap** (por exemplo, `import 'bootstrap/dist/css/bootstrap.min.css';` no ponto de entrada `index.js`/`App.js` ou via tag `<link>` no HTML raiz). Sem a importação do CSS, o navegador renderiza os elementos sem qualquer estilização ou responsividade.
+> - **C) Incorreta.** O Bootstrap pode ser usado normalmente no React (utilizando a propriedade `className` no JSX).
+> - **D) Incorreta.** Não há incompatibilidade: o Bootstrap é amplamente utilizado com React, seja via CSS puro ou bibliotecas de componentes como `react-bootstrap`.
+> - **E) Incorreta.** A tag `<div>` é um elemento padrão e estruturante do HTML5.
+>
+> **Gabarito: B**
 ---
 
 > **Comentário Detalhado:**
