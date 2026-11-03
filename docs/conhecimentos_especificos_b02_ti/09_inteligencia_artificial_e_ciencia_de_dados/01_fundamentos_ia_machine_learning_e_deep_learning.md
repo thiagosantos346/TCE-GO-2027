@@ -286,33 +286,26 @@ Para estabilizar o modelo, adiciona-se uma penalidade matemática $\lambda \cdot
 ---
 
 ### Teste 302
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O classificador Naive Bayes é um algoritmo de aprendizado de máquina supervisionado amplamente empregado na triagem automatizada de petições judiciais e detecção de fraudes em licitações públicas.
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**  
+O algoritmo Naive Bayes é amplamente utilizado em problemas de classificação, especialmente em aplicações de processamento de linguagem natural e análise de texto. O princípio fundamental do algoritmo Naive Bayes:
 
-O termo "Naive" (ingênuo) atribuído a esse classificador probabilístico decorre diretamente da seguinte premissa matemática:
-
-* **A)** Supor que todos os atributos de entrada possuem distribuição uniforme contínua com média zero.
-* **B)** Assumir a hipótese simplificadora de que todos os atributos preditores são condicionalmente independentes entre si, dada a classe do objeto.
-* **C)** Exigir que a variável alvo (*target*) seja obrigatoriamente um vetor contínuo de números irracionais.
-* **D)** Ignorar completamente a probabilidade a priori das classes durante o cálculo da probabilidade a posteriori.
-* **E)** Utilizar exclusivamente árvores de decisão binárias com profundidade máxima igual a 1.
-
+* **A)** baseia-se na técnica de *clustering* para agrupar instâncias semelhantes.
+* **B)** calcula a média ponderada dos atributos para determinar a classe de um exemplo.
+* **C)** considera a independência condicional entre os atributos dos dados.
+* **D)** utiliza redes neurais profundas para modelar relações complexas entre os atributos.
+* **E)** utiliza uma abordagem de força bruta para encontrar a solução ótima de classificação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Naive Bayes admite distribuições Gaussianas, Multinomial ou Bernoulli, não exigindo distribuição uniforme.
-> - **B)** **CORRETA.** O algoritmo baseia-se no **Teorema de Bayes**:
->   $$P(C_k | X) = \frac{P(C_k) \cdot P(X | C_k)}{P(X)}$$
->   Para calcular $P(X | C_k)$ sobre um vetor de características $X = (x_1, x_2, \dots, x_n)$, a computação exata das correlações conjuntas seria intratável. A simplificação "ingênua" (*Naive*) consiste em postular a **independência condicional entre todos os pares de atributos, dada a classe**:
->   $$P(x_1, x_2, \dots, x_n | C_k) = \prod_{i=1}^n P(x_i | C_k)$$
->   Embora essa suposição raramente se sustente no mundo real (ex.: em textos, certas palavras coocorrem fortemente), o algoritmo apresenta excelente poder discriminativo, baixo custo computacional e grande robustez com conjuntos de dados moderados.
-> - **C)** Incorreta. O alvo em classificação é categórico/discreto.
-> - **D)** Incorreta. A probabilidade a priori da classe $P(C_k)$ é elemento central da equação de Bayes.
-> - **E)** Incorreta. Naive Bayes é um modelo probabilístico puro, não baseado em árvores.
+> - **A) Incorreta.** *Clustering* é técnica de aprendizado não supervisionado (como K-Means ou DBSCAN); o Naive Bayes é um classificador supervisionado probabilístico.
+> - **B) Incorreta.** O algoritmo calcula probabilidades a posteriori através do Teorema de Bayes multiplicando probabilidades condicionais, não uma média ponderada.
+> - **C) CORRETA.** O classificador denomina-se "Naive" (ingênuo) exatamente por assumir a hipótese simplificadora de que **todos os atributos preditores são condicionalmente independentes entre si**, dada a classe alvo ($P(X_1, X_2, \dots, X_n | C) = \prod_{i=1}^n P(X_i | C)$). Apesar de essa premissa raramente ser verdadeira na prática, o algoritmo demonstra alta eficiência e robustez em tarefas como filtragem de spam e categorização textual.
+> - **D) Incorreta.** O Naive Bayes é um modelo probabilístico analítico clássico, não fazendo uso de redes neurais profundas.
+> - **E) Incorreta.** Não se trata de busca exaustiva/força bruta, mas de cálculo estocástico direto das frequências das variáveis na base de treino.
 > 
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -343,77 +336,26 @@ Sobre os fundamentos teóricos desses métodos de ensemble, é correto afirmar:
 ---
 
 ### Teste 304
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Um cientista de dados está desenvolvendo um modelo preditivo de regressão para projetar a arrecadação tributária estadual a partir de duzentas variáveis macroeconômicas. Sabendo que muitas dessas variáveis apresentam alta correlação entre si e que diversas delas não contribuem relevantemente para o poder explicativo do modelo, o analista deseja aplicar uma técnica de regularização que execute **seleção automática de atributos**, forçando expressamente a zero os coeficientes das variáveis irrelevantes para gerar um modelo final esparso e parcimonioso.
-A técnica de modelagem que atende estritamente ao requisito de zerar coeficientes e sua correspondente penalização matemática é:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração / TI)**  
+O TCE-SC desenvolveu um modelo de IA para detectar fraudes em licitações. Durante o treinamento, o modelo apresentou 99% de acerto na base de dados histórica, mas, ao ser aplicado em dados novos de 2026, a precisão caiu para 55%. Esse fenômeno técnico, no qual o modelo decora os dados de treinamento mas falha em generalizar para dados novos, é conhecido como:
 
-* **A)** Regressão Ridge, que utiliza uma penalidade baseada na norma $L_2$ (soma dos quadrados dos coeficientes).
-* **B)** Mínimos Quadrados Ordinários (OLS), que utiliza restrições de posto pleno para anular colinearidades.
-* **C)** Regressão Lasso (*Least Absolute Shrinkage and Selection Operator*), que utiliza uma penalidade baseada na norma $L_1$ (soma dos valores absolutos dos coeficientes).
-* **D)** Regressão Logística com regularização nula, que elimina preditores irrelevantes pelo determinante da matriz Hessiana.
-* **E)** Análise Discriminante Linear, que zera coeficientes descartando autovalores inferiores à unidade.
-
+* **A)** *Underfitting*.
+* **B)** *Overfitting*.
+* **C)** Normalização de Dados.
+* **D)** Aprendizado não supervisionado.
+* **E)** Regressão Logística.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A Regressão **Ridge** utiliza a norma $L_2$ ($\sum w_j^2$). A geometria esférica suave encolhe os coeficientes em direção a zero, mas **nunca zera nenhum estritamente**, não realizando seleção de atributos.
-> - **B)** Incorreta. O método OLS clássico não possui termo de regularização, sofrendo com alta variância e coeficientes instáveis sob multicolinearidade.
-> - **C)** **Correta.** A Regressão **Lasso** adiciona a penalidade com base na norma $L_1$ ($\lambda \sum |w_j|$). Devido aos vértices pontiagudos nos eixos cartesianos da restrição em losango da norma $L_1$, a solução atinge pontos onde os coeficientes tornam-se **rigorosamente iguais a zero**, realizando simultaneamente contração e **seleção automática de variáveis**.
-> - **D)** Incorreta. Modelos sem regularização não eliminam nem zeram coeficientes.
-> - **E)** Incorreta. A Análise Discriminante Linear é um método de classificação/redução dimensional, não um estimador de regressão com penalidade esparsa.
+> - **A) Incorreta.** O *Underfitting* (subajuste) ocorre quando o modelo é excessivamente simples para capturar os padrões subjacentes dos dados, apresentando alto erro (baixo desempenho) tanto na base de treinamento quanto na de testes.
+> - **B) CORRETA.** O fenômeno descrito é o **Overfitting** (sobreajuste): o modelo possui alta complexidade e decora ruídos, peculiaridades e contingências específicas da amostra de treino (atingindo 99% de acerto), mas perde completamente a capacidade de generalização preditiva quando confrontado com dados novos e não vistos (despencando para 55%). Técnicas de combate incluem regularização (L1/L2), poda de árvores (*pruning*), *dropout* e validação cruzada (*k-fold*).
+> - **C) Incorreta.** Normalização é técnica de pré-processamento para equalizar escalas de grandezas numéricas.
+> - **D) Incorreta.** A detecção de fraudes com rótulos históricos de acerto/erro é tipicamente aprendizado supervisionado.
+> - **E) Incorreta.** Regressão Logística é um algoritmo linear clássico de classificação, não a denominação da falha de generalização descrita.
 > 
-> **Gabarito: C**
-
----
-
-## 3. Aprendizado Não Supervisionado e por Reforço
-
-### 3.1 Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)
-
-O agrupamento descobre partições ou morfologias naturais em dados não rotulados:
-
-1. **K-Means (Agrupamento Particional por Centroides):**
-    - O algoritmo requer a especificação prévia do número de clusters ($k$).
-    - Minimiza a variação intra-cluster somando as distâncias euclidianas quadráticas dos pontos até o centroide correspondente (**Inércia** ou WCSS):
-     $$\text{WCSS} = \sum_{k=1}^{K} \sum_{\mathbf{x}_i \in C_k} \|\mathbf{x}_i - \boldsymbol{\mu}_k\|^2$$
-    - O número ideal $k$ é avaliado visualmente pelo **Método do Cotovelo (*Elbow Method*)** ou pelo **Coeficiente de Silhueta** (que oscila entre $-1$ e $+1$).
-    - *Limitações Clássicas:* Assume que todos os clusters são convexos e esféricos com variâncias semelhantes. Falha completamente na identificação de formatos orgânicos alongados e atribui compulsoriamente todo ponto a algum cluster, sendo muito sensível a *outliers*.
-
-2. **DBSCAN (*Density-Based Spatial Clustering of Applications with Noise*):**
-    - Agrupa os dados com base na **densidade espacial local**, orientando-se por dois parâmetros: raio de vizinhança ($\varepsilon$) e número mínimo de pontos (*min_samples*).
-    - Tipologia dos pontos:
-    - *Ponto Núcleo (Core Point):* Possui pelo menos *min_samples* pontos em seu raio $\varepsilon$.
-    - *Ponto de Borda (Border Point):* Não é núcleo, mas situa-se no raio $\varepsilon$ de um núcleo.
-    - *Ruído / Outlier (Noise):* Não é núcleo nem borda (cai em regiões de baixa densidade).
-    - *Vantagens Essenciais:* **Não requer a definição prévia da quantidade de grupos ($k$)**, detecta agrupamentos de **formatos geométricos arbitrários e não convexos** e **isola explicitamente ruídos e anomalias**, constituindo o algoritmo perfeito para detecção de fraudes em auditorias de controle externo.
-
-3. **Agrupamento Hierárquico (*Hierarchical Clustering*):**
-    - Gera uma representação em árvore taxonômica denominada **Dendrograma**.
-    - Abordagem **Aglomerativa (*Bottom-up*)**: Cada ponto inicia como seu próprio cluster e pares mais próximos são progressivamente fundidos.
-    - Métodos de Ligação (*Linkage*): *Single* (distância mínima entre membros, suscetível ao efeito de encadeamento /*chaining*), *Complete* (distância máxima), *Average* (distância média) e *Ward* (minimiza o incremento da variância total interna).
-
-### 3.2 Redução de Dimensionalidade (PCA, t-SNE e UMAP)
-
-Reduz a quantidade de preditores de um dataset volumoso preservando a maior quantidade possível de variância estatística ou vizinhança:
-
-- **PCA (*Principal Component Analysis*):**
-    - Técnica estatística **linear e não supervisionada** que transforma as variáveis originais em um novo conjunto de variáveis não correlacionadas denominadas **Componentes Principais (PCs)**.
-    - O primeiro componente principal captura a direção de **máxima variância** dos dados; o segundo componente captura a segunda maior variância sob a restrição de ser rigorosamente **ortogonal** ao primeiro, e assim por diante.
-    - Obtido computacionalmente através da **decomposição espectral (autovalores e autovetores)** da matriz de covariância dos dados padronizados ou por decomposição em valores singulares (SVD).
-- **t-SNE e UMAP:**
-    - Métodos **não lineares** dedicados prioritariamente à projeção de espaços de centenas de dimensões em espaços de 2D ou 3D para inspeção visual humana, preservando topologias de vizinhança local.
-
-### 3.3 Aprendizado por Reforço (Reinforcement Learning)
-
-Um **Agente** aprende a tomar decisões sequenciais ideais através de tentativa e erro, interagindo iterativamente com um **Ambiente** dinâmico:
-
-- Formalizado matematicamente por um **Processo de Decisão de Markov (MDP)**, representado pela 5-tupla $(S, A, P, R, \gamma)$.
-- A cada instante $t$, o agente observa o estado $S_t$, executa uma ação $A_t$ orientada por sua política $\pi(a|s)$, recebe uma recompensa escalar imediata $R_{t+1}$ e transiciona para o novo estado $S_{t+1}$.
-- O objetivo é aprender uma política ótima que maximize o retorno cumulativo descontado no longo prazo ($G_t = \sum_{k=0}^{\infty} \gamma^k R_{t+k+1}$), governado pela **Equação de Bellman**.
-- **Dilema Exploração vs. Explotação (*Exploration vs. Exploitation*):** O agente deve arbitrar entre descobrir ações inéditas (*exploration*) para colher melhores recompensas futuras e executar as ações que já provaram ser eficazes (*exploitation*).
-- **Q-Learning:** Algoritmo clássico de aprendizado por diferença temporal, classificado como *model-free* e *off-policy*, que atualiza recursivamente os valores $Q(s, a)$ da função de valor ação-estado.
+> **Gabarito: B**
 
 ---
 

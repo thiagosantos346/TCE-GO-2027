@@ -144,28 +144,26 @@ onde $Q$ são as Consultas (*Queries*), $K$ são as Chaves (*Keys*), $V$ são os
 ---
 
 ### Teste 311
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Durante o planejamento de uma esteira analítica de Processamento de Linguagem Natural (PLN) para indexação temática e extração de entidades em acórdãos e peças jurídicas de um tribunal, os analistas debatem os métodos adequados de normalização textual e representação vetorial.
-A respeito das técnicas de processamento de texto, assinale a alternativa correta:
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**  
+O Processamento de Linguagem Natural (PLN) é uma área de estudo dedicada à pesquisa e desenvolvimento de métodos e sistemas que visam compreender e processar a linguagem humana por meio de computadores. São paradigmas de PLN:
 
-* **A)** O *Stemming* consiste na identificação morfológica e sintática da classe gramatical de cada vocábulo em um dicionário estruturado para retornar unicamente o infinitivo canônico oficial do termo, enquanto a *Lematização* descarta regras gramaticais e aplica supressões de sufixos de forma puramente mecânica.
-* **B)** O algoritmo de tokenização por subpalavras *Byte-Pair Encoding* (BPE) inicia com um vocabulário fixo composto exclusivamente por sentenças inteiras e as divide progressivamente até alcançar letras individuais, gerando matrizes esparsas sem redundância.
-* **C)** Em abordagens estatísticas de recuperação de informação baseadas em TF-IDF, a remoção de *stopwords* é indicada para mitigar a alta dimensionalidade e expurgar palavras frequentes de baixo teor discriminativo; contudo, em modelos contextuais baseados em Transformers (como o BERT), as *stopwords* não devem ser removidas.
-* **D)** O componente IDF (*Inverse Document Frequency*) da matriz TF-IDF atribui peso máximo a termos que ocorrem em cem por cento dos documentos da coleção, visto que termos universais são estatisticamente os melhores descritores da base temática.
-* **E)** O modelo *Word2Vec* gera representações vetoriais dinâmicas que alteram as coordenadas de uma palavra conforme o contexto imediato de cada sentença em que ela se encontra, superando a rigidez estática dos modelos contextuais BERT e GPT.
-
+* **A)** Neural e Simbólico.
+* **B)** Neural e Regressivo.
+* **C)** Estatístico e Sentimental.
+* **D)** Neural e Sentimental.
+* **E)** Simbólico e Sentimental.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Houve inversão completa: a **Lematização** é quem consulta dicionários e analisa a morfossintaxe contextual para produzir o lema canônico de dicionário; o **Stemming** é quem aplica cortes brutos e mecânicos de afixos sem respaldo sintático.
-> - **B)** Incorreta. O BPE opera na direção inversa (*bottom-up*): começa no nível de caracteres e funde iterativamente os pares de símbolos mais frequentes observados na base até formar as subpalavras.
-> - **C)** **Correta.** Em modelos estatísticos de frequência (*Bag of Words*, TF-IDF), eliminar *stopwords* reduz a dimensionalidade e descarta ruídos irrelevantes. Por outro lado, em arquiteturas de *Deep Learning* fundamentadas na **Autoatenção de Transformers** (como BERT e GPT), a presença de palavras funcionais (preposições, conectivos, pronomes) é mandatória para que o mecanismo de atenção modele com precisão a estrutura semântica e sintática das sentenças.
-> - **D)** Incorreta. O IDF é formulado como $\log(N / df)$. Se um termo figura em todos os documentos ($df = N$), a fração é $N/N = 1$ e seu $\text{IDF} = \log(1) = 0$, recebendo pontuação **nula**, e não máxima.
-> - **E)** Incorreta. O *Word2Vec* gera embeddings **estáticos** (cada vocábulo recebe um vetor fixo e imutável); quem gera embeddings **contextuais e dinâmicos** são exatamente os modelos baseados em Transformers (BERT, RoBERTa, GPT).
+> - **A) CORRETA.** Historicamente e metodologicamente, o Processamento de Linguagem Natural é estruturado em paradigmas complementares:
+>   1. **Paradigma Simbólico (ou Baseado em Regras):** Fundamenta-se em gramáticas formais, dicionários sintáticos, árvores de derivação e sistemas especialistas baseados na lógica linguística explícita (predominante até a década de 1980);
+>   2. **Paradigma Neural (Deep Learning):** Baseia-se no aprendizado de representações contínuas e vetoriais em espaço latente denso (*embeddings*, Transformers e redes neurais profundas), que superou as limitações dos modelos estatísticos discretos clássicos.
+> - **B) Incorreta.** "Regressivo" refere-se a modelos de regressão matemática, não constituindo um paradigma canônico de PLN.
+> - **C, D e E) Incorretas.** A análise de sentimentos (*Sentimental*) é uma tarefa/aplicação específica de PLN (classificação de polaridade de textos), e não um paradigma epistemológico de processamento da linguagem.
 > 
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
@@ -314,28 +312,27 @@ Do ponto de vista da teoria estatística de aprendizado de máquina, a distinç�
 ---
 
 ### Teste 315
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No domínio da Inteligência Artificial Generativa, diferentes famílias de redes neurais profundas foram consolidadas para síntese realista de dados multidimensionais, destacando-se as Redes Adversárias Generativas (GANs) e os Modelos de Difusão (*Diffusion Models*).
-A respeito das características arquiteturais dessas tecnologias generativas, assinale a alternativa correta:
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**  
+A inteligência artificial generativa (IA generativa) é um campo da inteligência artificial que se concentra na capacidade de criar novos conteúdos e ideias de forma autônoma. Em vez de simplesmente responder a comandos ou fornecer respostas predefinidas, uma IA generativa tem a capacidade de gerar conteúdos originais em uma variedade de formas, como texto, imagens, áudio e vídeo. São exemplos de categorias amplas de modelos de IA generativa:
 
-* **A)** As GANs consistem em um jogo de minimax competitivo no qual o Gerador busca mapear vetores de ruído em dados sintéticos fidedignos para enganar o Discriminador.
-* **B)** Os Modelos de Difusão são treinados por um jogo adversário de soma zero entre duas redes antagônicas que calculam a divergência estocástica de matrizes convolucionais estáticas.
-* **C)** O processo reverso dos Modelos de Difusão consiste na degradação contínua da imagem real mediante a injeção paulatina de ruído branco gaussiano, dispensando o uso de redes neurais para reconstrução de padrões.
-* **D)** As GANs são consagradas pelo meio acadêmico devido à sua garantia inata de estabilidade matemática irrestrita de convergência de gradientes durante o processo de treinamento, sendo imunes a desbalanceamentos de forças entre as redes.
-* **E)** Modelos de Difusão são incapazes de gerar imagens a partir de descrições textuais (*Text-to-Image*), operando exclusivamente sobre tensores tabulares esparsos de bancos relacionais.
-
+* **A)** Autocodificadores variacionais e Multilayer Perceptrons.
+* **B)** Transformadores e Algoritmos de retropropagação.
+* **C)** Autocodificadores variacionais e Redes Adversariais.
+* **D)** Algoritmos de retropropagação e ChatGPT.
+* **E)** Gemini e Multilayer Perceptrons.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Nas GANs (Goodfellow et al., 2014), o Gerador e o Discriminador disputam um jogo de minimax. A patologia do **Colapso de Modo (*Mode Collapse*)** é um dos seus maiores riscos operacionais: ocorre quando o Gerador encontra uma saída específica capaz de enganar o Discriminador com facilidade e passa a sintetizar repetidamente sempre aquela mesma imagem (ou poucas variantes), deixando de representar toda a diversidade do espaço amostral de treino.
-> - **B)** Incorreta. Quem disputa jogos adversários em soma zero são as GANs. Modelos de Difusão baseiam-se em processos estocásticos graduais de adição e remoção de ruído via cadeias de Markov.
-> - **C)** Incorreta. A injeção paulatina de ruído até a completa dissolução da imagem compõe o **Processo Direto (*Forward Process*)**. O **Processo Reverso (*Reverse Process*)** é o caminho inverso, onde uma rede neural profunda (geralmente uma U-Net) remove o ruído passo a passo para regenerar a imagem nítida.
-> - **D)** Incorreta. O treino de GANs é notoriamente complexo e instável devido à delicadeza do equilíbrio de Nash entre os gradientes do Gerador e do Discriminador.
-> - **E)** Incorreta. Modelos de difusão são exatamente a tecnologia padrão do estado da arte para geração de imagens a partir de prompts textuais (*Text-to-Image*, como Stable Diffusion e DALL-E 3).
+> - **A) Incorreta.** *Multilayer Perceptrons* (MLPs) são arquiteturas clássicas feedforward discriminativas, não constituindo por si só uma categoria de modelo generativo.
+> - **B) Incorreta.** Retropropagação (*Backpropagation*) é um algoritmo de otimização/cálculo de gradiente para ajuste de pesos, não um modelo de IA generativa.
+> - **C) CORRETA.** Duas das categorias seminais e mais consagradas de modelos de IA generativa são:
+>   1. **Autocodificadores Variacionais (VAEs - *Variational Autoencoders*):** Modelos probabilísticos generativos que mapeiam dados em uma distribuição de probabilidade latente regularizada (normal multivariada) e amostram vetores desse espaço para sintetizar novos dados;
+>   2. **Redes Adversárias Generativas (GANs - *Generative Adversarial Networks*):** Arquitetura composta por dois modelos neurais que competem em jogo de soma zero minimax (o *Gerador*, que sintetiza amostras falsas, e o *Discriminador*, que avalia se a amostra é real ou sintetizada).
+> - **D e E) Incorretas.** ChatGPT e Gemini são produtos/aplicações comerciais baseadas em modelos fundacionais LLM; ademais, retropropagação é algoritmo de treino e MLPs são discriminativos clássicos.
 > 
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 

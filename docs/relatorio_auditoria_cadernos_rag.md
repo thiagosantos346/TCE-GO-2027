@@ -34,6 +34,11 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 04 (Banco de Dados): Índices, Otimização, PostgreSQL e Oracle](#caderno-04-banco-de-dados-índices-otimização-postgresql-e-oracle)
 - [Caderno 05 (Banco de Dados): Bancos NoSQL e Bancos Vetoriais](#caderno-05-banco-de-dados-bancos-nosql-e-bancos-vetoriais)
 - [Caderno 06 (Banco de Dados): Replicação, Alta Disponibilidade, Backup e Segurança](#caderno-06-banco-de-dados-replicação-alta-disponibilidade-backup-e-segurança)
+- [Caderno 01 (IA & Ciência de Dados): Fundamentos de IA, Machine Learning e Deep Learning](#caderno-01-ia--ciência-de-dados-fundamentos-de-ia-machine-learning-e-deep-learning)
+- [Caderno 02 (IA & Ciência de Dados): NLP, IA Generativa, Agentes e Multimodalidade](#caderno-02-ia--ciência-de-dados-nlp-ia-generativa-agentes-e-multimodalidade)
+- [Caderno 03 (IA & Ciência de Dados): Engenharia de Prompts, RAG e Automação de Processos](#caderno-03-ia--ciência-de-dados-engenharia-de-prompts-rag-e-automação-de-processos)
+- [Caderno 04 (IA & Ciência de Dados): Ciência de Dados, Estatística e Big Data](#caderno-04-ia--ciência-de-dados-ciência-de-dados-estatística-e-big-data)
+- [Caderno 05 (IA & Ciência de Dados): Ética, IA Responsável, EBIA e LGPD](#caderno-05-ia--ciência-de-dados-ética-ia-responsável-ebia-e-lgpd)
 
 ---
 
@@ -933,3 +938,145 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 297`** (Criptografia em Bancos de Dados: Criptografia de Dados Transparentes / TDE em repouso e TLS/SSL em trânsito): Preservada.
 * **`Teste 298`** (Privacidade e LGPD: Mascaramento Dinâmico de Dados / DDM para proteção de dados pessoais e sigilosos em consultas analíticas): Preservada.
 * **`Teste 299`** (Controle de Acesso Granular: *Role-Based Access Control* - RBAC e Segurança em Nível de Linha / *Row-Level Security* - RLS no PostgreSQL): Preservada.
+
+
+---
+
+## Caderno 01 (IA & Ciência de Dados): Fundamentos de IA, Machine Learning e Deep Learning
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/09_inteligencia_artificial_e_ciencia_de_dados/01_fundamentos_ia_machine_learning_e_deep_learning.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 302`**: Substituído pela questão real **`V3_FGV_TCE_GO_2024_Q0311`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/GO – 2024 – Analista de Controle Externo (Tecnologia da Informação)**
+  * **Conceito Aderente:** Fundamentos do classificador probabilístico supervisionado Naive Bayes e a premissa canônica de independência condicional entre os atributos preditores dada a classe alvo.
+* **`Teste 304`**: Substituído pela questão real **`V3_FGV_TCE_SC_2026_Q3138`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo (Administração / TI)**
+  * **Conceito Aderente:** Fenômeno técnico de *Overfitting* (sobreajuste) em modelo de inteligência artificial voltado à detecção de fraudes em licitações públicas em Tribunais de Contas (alta precisão no treino histórico e perda de generalização para dados novos).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 302`**: Simulado sobre o classificador Naive Bayes e Teorema de Bayes.
+* **`Teste 304`**: Simulado sobre trade-off viés-variância e regularização L1/L2.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 300`** (Definições de IA segundo Russell & Norvig: As quatro abordagens - Pensar/Agir como Humanos vs Racionalmente): Preservada.
+* **`Teste 301`** (Evolução da IA: Abordagem Simbólica / Sistemas Especialistas vs Conexionista / Redes Neurais): Preservada.
+* **`Teste 303`** (Árvores de Decisão, Random Forest e Algoritmos de Ensemble: *Bagging* vs *Boosting* / XGBoost): Preservada.
+* **`Teste 305`** (Aprendizado Não Supervisionado: Algoritmos de Agrupamento *K-Means* vs *DBSCAN* baseado em densidade): Preservada.
+* **`Teste 306`** (Redução de Dimensionalidade com PCA - Questão Oficial FGV TRT 2024 TI): Preservada.
+* **`Teste 307`** (Aprendizado por Reforço / RL: Agente, Ambiente, Recompensa e Função de Valor no Processo de Decisão de Markov): Preservada.
+* **`Teste 308`** (Funções de Ativação Não-Lineares em Deep Learning: ReLU, Sigmoide, Tanh e Leaky ReLU): Preservada.
+* **`Teste 309`** (Otimização em Deep Learning: Algoritmo de *Backpropagation*, Descida do Gradiente Estocástica - SGD e Otimizador Adam): Preservada.
+* **`Teste 310`** (Arquiteturas Neurais Profundas: CNNs para dados espaciais/imagens vs RNNs/LSTMs para dados sequenciais temporais): Preservada.
+
+
+---
+
+## Caderno 02 (IA & Ciência de Dados): NLP, IA Generativa, Agentes e Multimodalidade
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/09_inteligencia_artificial_e_ciencia_de_dados/02_nlp_ia_generativa_agentes_e_multimodalidade.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 311`**: Substituído pela questão real **`V3_FGV_TCE_GO_2024_Q0316`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/GO – 2024 – Analista de Controle Externo (Tecnologia da Informação)**
+  * **Conceito Aderente:** Paradigmas fundamentais do Processamento de Linguagem Natural (PLN): o paradigma Simbólico (regras gramaticais e dicionários) e o paradigma Neural (*Deep Learning* e modelos densos de linguagem).
+* **`Teste 315`**: Substituído pela questão real **`V3_FGV_TCE_GO_2024_Q0318`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/GO – 2024 – Analista de Controle Externo (Tecnologia da Informação)**
+  * **Conceito Aderente:** Categorias seminais e amplas de modelos de Inteligência Artificial Generativa: Autocodificadores Variacionais (VAEs) e Redes Adversárias Generativas (GANs).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 311`**: Simulado sobre esteira analítica e pré-processamento de PLN (tokenização, lematização, stop words).
+* **`Teste 315`**: Simulado sobre síntese multimodal com GANs e VAEs.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 312`** (Representação Numérica de Texto: Bag-of-Words, TF-IDF e Modelos Vetoriais Densos Word2Vec / FastText): Preservada.
+* **`Teste 313`** (A Revolução do Transformer: Mecanismo de Atenção Multi-Head e modelos pré-treinados BERT vs GPT): Preservada.
+* **`Teste 314`** (Fundamentos de IA Generativa: Modelagem Probabilística Generativa vs Modelos Discriminativos Tradicionais): Preservada.
+* **`Teste 316`** (Modelos de Difusão / *Diffusion Models*: Processo direto de adição de ruído gaussiano e processo reverso de desnoising): Preservada.
+* **`Teste 317`** (LLMs Autoregressivos: Mecanismo de Inferência Token-by-Token, amostragem e estratégias de decoding): Preservada.
+* **`Teste 318`** (Sistemas Agentivos: Padrão ReAct - *Reasoning + Acting*, decomposição de objetivos e planejamento autônomo): Preservada.
+* **`Teste 319`** (Ferramental e Interoperabilidade de Agentes: Mecanismos de *Tool Calling* / *Function Calling* via JSON Schemas): Preservada.
+* **`Teste 320`** (Inteligência Artificial Multimodal: Processamento simultâneo e alinhamento de texto, visão computacional e áudio): Preservada.
+* **`Teste 321`** (Visão Computacional Aplicada a Documentos Públicos: OCR neural e extração de layouts com modelos de visão-linguagem): Preservada.
+
+
+---
+
+## Caderno 03 (IA & Ciência de Dados): Engenharia de Prompts, RAG e Automação de Processos
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/09_inteligencia_artificial_e_ciencia_de_dados/03_engenharia_de_prompts_rag_e_automacao_processos.md`
+* **Status:** Auditado e aprovado sem necessidade de substituição (100% de preservação pedagógica)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma.* (Todas as 11 questões abordam técnicas hiper-recentes de orquestração de IA generativa no setor público: Zero-Shot/Few-Shot, Chain-of-Thought, Prompt Caching, pipelines avançados de RAG com reranker e reciprocal rank fusion, avaliação com métricas RAGAS, frameworks LangChain/LlamaIndex e orquestração cognitiva com RPA; mantidas 100% intactas para preservar o vanguardismo pedagógico).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 322`** (Engenharia de Prompts: Princípios de Clareza, Delimitadores, Instruções Negativas e Formatos de Saída Estruturados JSON): Preservada.
+* **`Teste 323`** (Técnicas de Raciocínio em Prompts: *Chain-of-Thought* / CoT e *Tree-of-Thoughts* para raciocínio contábil-fiscal complexo): Preservada.
+* **`Teste 324`** (Técnica de *Few-Shot Prompting*: Fornecimento de pares representativos de entrada-saída no prompt para guiar o LLM): Preservada.
+* **`Teste 325`** (Otimização de Custos e Latência: Mecanismo de *Prompt Caching* em servidores de inferência de LLMs): Preservada.
+* **`Teste 326`** (Pipeline Avançado de RAG: *Syntax-Aware Chunking*, geração de embeddings e busca híbrida Dense + Sparse): Preservada.
+* **`Teste 327`** (Re-ranking em RAG: Utilização de modelos neurais *Cross-Encoder* para reordenar candidatos e maximizar a relevância dos chunks): Preservada.
+* **`Teste 328`** (Avaliação de Pipelines RAG: Framework *RAGAS* e métricas de *Faithfulness*, *Answer Relevance* e *Context Recall*): Preservada.
+* **`Teste 329`** (Frameworks de Desenvolvimento de IA: LangChain e LlamaIndex, abstrações de índices, retrievers e memórias de sessão): Preservada.
+* **`Teste 330`** (Automação Inteligente de Processos / IPA: Integração de RPA tradicional determinístico com LLMs generativos e visão): Preservada.
+* **`Teste 331`** (Triagem Automatizada de Processos: Classificação de denúncias e priorização de fiscalizações em órgãos de controle com IA): Preservada.
+* **`Teste 332`** (Human-in-the-Loop na Automação Pública: Diretrizes para homologação humana obrigatória em atos de decisão fiscal): Preservada.
+
+
+---
+
+## Caderno 04 (IA & Ciência de Dados): Ciência de Dados, Estatística e Big Data
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/09_inteligencia_artificial_e_ciencia_de_dados/04_ciencia_de_dados_estatistica_e_big_data.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 335`**: Substituído pela questão real **`V3_FGV_TCE_PA_2024_Q2602`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/PA – 2024 – Auditor de Controle Externo (Ciência de Dados / TI)**
+  * **Conceito Aderente:** Estratégias metodológicas para tratamento de dados ausentes (*missing data*) no treinamento de modelos de aprendizado de máquina: imputação com KNN exigindo normalização/padronização prévia dos dados para equalizar as distâncias euclidianas.
+* **`Teste 343`**: Substituído pela questão real **`V3_FGV_TCE_SC_2026_Q3290`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo (TI - Ciências da Computação)**
+  * **Conceito Aderente:** Otimização de processamento distribuído no Apache Spark 3.x sobre bilhões de notas fiscais em Tribunais de Contas: uso do *Adaptive Query Execution* (AQE) com *Skew Join Optimization* para divisão automática de partições sobrecarregadas (*data skew*).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 335`**: Simulado sobre padronização de dados (*Z-Score*) e imputação de valores atípicos.
+* **`Teste 343`**: Simulado sobre Spark SQL, transformações preguiçosas (*lazy evaluation*) e gargalos de shuffle.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 333`** (Ciclo de Vida da Ciência de Dados: Metodologia CRISP-DM e suas seis fases iterativas): Preservada.
+* **`Teste 334`** (Detecção de Outliers e Anomalias em Dados Fiscais: Regra dos Três Sigmas e critério do Intervalo Interquartil / IQR): Preservada.
+* **`Teste 336`** (Estatística Descritiva: Média, Mediana, Moda, Variância e Desvio Padrão sob distribuições assimétricas): Preservada.
+* **`Teste 337`** (Distribuição Normal e Teorema Central do Limite: Propriedades matemáticas e relevância para inferência amostral): Preservada.
+* **`Teste 338`** (Testes de Hipóteses Estatísticos: Erro Tipo I ($lpha$), Erro Tipo II ($eta$), Nível de Significância e p-valor em auditorias): Preservada.
+* **`Teste 339`** (Trade-off Viés-Variância / *Bias-Variance Trade-off* e decomposição do erro quadrático médio em aprendizado supervisionado): Preservada.
+* **`Teste 340`** (Métricas de Classificação em Dados Desbalanceados: Acurácia, Precisão, Revocação / Sensibilidade e F1-Score): Preservada.
+* **`Teste 341`** (Curva ROC e Métrica AUC-ROC: Avaliação de classificadores sob diferentes pontos de corte / thresholds de decisão): Preservada.
+* **`Teste 342`** (Ecossistema Big Data Hadoop: Arquitetura distribuída HDFS - NameNode/DataNode e framework MapReduce): Preservada.
+
+
+---
+
+## Caderno 05 (IA & Ciência de Dados): Ética, IA Responsável, EBIA e LGPD
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/09_inteligencia_artificial_e_ciencia_de_dados/05_etica_ia_responsavel_ebia_e_lgpd.md`
+* **Status:** Auditado e aprovado sem necessidade de substituição (100% de preservação pedagógica)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma.* (Todas as 11 questões abordam minuciosamente o arcabouço normativo e ético aplicável à IA governamental: Princípios da OCDE, viés e justiça algorítmica, equidade demográfica, explicabilidade pós-hoc com SHAP e LIME, LGPD art. 20 sobre revisão humana de decisões automatizadas, Resolução CNJ nº 332/2020 e os eixos estratégicos da EBIA - Portaria MCTI nº 4.617/2021; mantidas 100% intactas para assegurar domínio absoluto das diretrizes legais).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 344`** (Princípios da OCDE para Inteligência Artificial Confiável: Crescimento inclusivo, valores centrados no ser humano e transparência): Preservada.
+* **`Teste 345`** (Viés Algorítmico e Discriminação Indireta: Fontes de contaminação histórica em bases de dados governamentais): Preservada.
+* **`Teste 346`** (Métricas Matemáticas de Justiça / *Fairness*: Paridade Demográfica / *Demographic Parity* vs Oportunidade Igual / *Equal Opportunity*): Preservada.
+* **`Teste 347`** (Dilema entre Precisão Preditiva vs Interpretabilidade em Modelos de Machine Learning no setor público): Preservada.
+* **`Teste 348`** (Métodos de Explicabilidade de Modelos: *Feature Importance* intrínseca vs técnicas agnósticas pós-hoc): Preservada.
+* **`Teste 349`** (Explicabilidade Local com LIME e SHAP: Fundamentação nos valores de Shapley da teoria dos jogos cooperativos): Preservada.
+* **`Teste 350`** (LGPD e Inteligência Artificial: Bases legais de tratamento pelo poder público e princípio da não-discriminação): Preservada.
+* **`Teste 351`** (Art. 20 da LGPD: Direito do titular à revisão de decisões tomadas unicamente com base em tratamento automatizado de dados): Preservada.
+* **`Teste 352`** (Resolução CNJ nº 332/2020: Diretrizes de governança, transparência, auditoria técnica e supervisão humana em tribunais): Preservada.
+* **`Teste 353`** (Estratégia Brasileira de Inteligência Artificial / EBIA: Objetivos gerais e os três eixos transversais da Portaria MCTI nº 4.617/2021): Preservada.
+* **`Teste 354`** (Eixos Verticais de Aplicação da EBIA: Legislação, regulação e uso ético, governança de IA e segurança pública): Preservada.

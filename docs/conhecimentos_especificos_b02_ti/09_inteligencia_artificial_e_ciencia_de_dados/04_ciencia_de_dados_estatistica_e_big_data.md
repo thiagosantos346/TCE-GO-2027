@@ -185,95 +185,30 @@ O método amplamente recomendado pela literatura é o do **Intervalo Interquarti
 ---
 
 ### Teste 335
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na etapa de pré-processamento de um modelo de Machine Learning preditor de probabilidade de insolvência de fornecedores públicos, o cientista de dados depara-se com variáveis numéricas em escalas de grandezas muito distintas (ex.: `faturamento_anual` na ordem de milhões de reais e `tempo_empresa_anos` variando de 0 a 30).
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Ciência de Dados / TI)**  
+Ao se utilizar bancos de dados reais no treinamento de métodos de aprendizado de máquina é normal se deparar com entradas que possuem um ou mais parâmetros (campos) ausentes. Com relação às estratégias para lidar com dados ausentes, analise as afirmativas a seguir.
 
-A respeito das técnicas de escalonamento e dos cuidados mandatórios no fluxo de validação cruzada, assinale a afirmativa correta:
+I. Só é possível realizar *imputation* quando o atributo (*feature*) ausente é numérico.  
+II. Ao utilizar o *k-nearest neighbors* (KNN) para fazer o *imputation* é uma boa estratégia primeiro fazer a normalização ou padronização dos dados.  
+III. Ao se trabalhar com bancos de dados com poucas amostras (itens), uma estratégia usualmente utilizada para lidar com as amostras que possuem valores ausentes é a remoção.  
 
-* **A)** Algoritmos baseados em distâncias euclidianas (como KNN e SVM) ou gradiente descendente são imunes à escala dos atributos, dispensando qualquer técnica de escalonamento.
-* **B)** A padronização (*StandardScaler*) transforma a variável de modo que ela passe a ter média igual a zero e desvio padrão unitário ($Z = \frac{X - \mu}{\sigma}$).
-* **C)** O ajuste dos parâmetros de escalonamento (como média e desvio padrão) deve ser calculado simultaneamente sobre toda a base unificada (treino + teste) antes da divisão em folds para acelerar o processamento.
-* **D)** O escalonamento de variáveis deve ser aplicado obrigatoriamente também na variável alvo categórica de classificação binária.
-* **E)** Árvores de decisão puras (Decision Trees) e Random Forests sofrem severa perda de acurácia se as variáveis numéricas não forem escalonadas entre 0 e 1.
+Está correto o que se afirma em:
 
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Algoritmos geométricos baseados em distância (KNN, SVM, K-Means) e métodos baseados em gradiente são **extremamente sensíveis à escala**; sem escalonamento, o atributo com maior valor numérico absoluto domina completamente a métrica de distância.
-> - **B)** **CORRETA.** Fundamentos das duas técnicas de escalonamento mais comuns:
->   - **StandardScaler (Padronização / Z-Score):** $z = \frac{x - \mu}{\sigma}$. Centraliza os dados na média 0 e escala pela variância unitária. Não possui limites fixos superiores/inferiores e lida muito melhor com dados que contêm outliers.
->   - **MinMaxScaler (Normalização Min-Max):** $x_{norm} = \frac{x - x_{min}}{x_{max} - x_{min}}$. Comprime os valores no intervalo fechado $[0, 1]$. É vulnerável a outliers, pois um valor extremo espreme todas as instâncias normais em uma faixa minúscula.
-> - **C)** Incorreta. Calcular métricas em toda a base antes da separação de treino e teste configura **vazamento de dados (Data Leakage)**, resultando em métricas de validação enganosamente otimistas. O escalonador deve ser ajustado (`fit`) exclusivamente nos dados de treino e apenas aplicado (`transform`) no conjunto de teste.
-> - **D)** Incorreta. O alvo categórico (rótulo 0 ou 1) não deve ser submetido a *StandardScaler*.
-> - **E)** Incorreta. Modelos baseados em árvores de decisão particionam variáveis independentemente de escalas monotônicas, sendo invariantes ao escalonamento de atributos.
+> - **I. Incorreta.** É plenamente viável realizar imputação em atributos categóricos (não numéricos), utilizando a moda (valor mais frequente), algoritmos de classificação supervisionada ou a criação de uma categoria explícita "Desconhecido/Ausente".
+> - **II. CORRETA.** O algoritmo KNN calcula a distância euclidiana (ou manhattan) entre os pontos no espaço vetorial para encontrar os $k$ vizinhos mais próximos. Se os atributos estiverem em escalas numéricas díspares, a variável com maior magnitude numérica dominará o cálculo de distância, distorcendo os vizinhos. Portanto, normalizar ou padronizar os dados antes do KNN Imputer é um procedimento metodológico essencial.
+> - **III. Incorreta.** Quando o conjunto de dados possui poucas amostras (dataset pequeno ou escasso), a remoção de linhas (*listwise deletion*) agrava a perda de poder estatístico e pode introduzir viés de amostragem; em datasets pequenos, a imputação cuidadosa (média, mediana, KNN ou MICE) é prioritária sobre o descarte.
 > 
 > **Gabarito: B**
-
----
-
-## 2. Estatística Aplicada, Probabilidades e Testes de Hipóteses
-
-### 2.1 Medidas de Tendência Central, Dispersão e Assimetria
-
-* **Medidas de Posição:**
-    - **Média Aritmética ($\bar{x}$):** Centro de massa da distribuição ($\bar{x} = \frac{1}{n}\sum x_i$). Extremamente vulnerável a distorções por valores discrepantes.
-    - **Mediana ($Md$):** O elemento central ordenado que divide a amostra exatamente ao meio (percentil 50). Trata-se de uma medida **robusta e resistente a outliers**.
-    - **Moda ($Mo$):** O valor que ocorre com a maior frequência estatística observada.
-* **Comportamento das Medidas sob Assimetria de Distribuições:**
-
-```
-   Assimetria Positiva (à Direita)            Distribuição Simétrica           Assimetria Negativa (à Esquerda)
-          Densidade                                 Densidade                                Densidade
-             /\                                        /\                                       /\
-            /  \                                      /  \                                     /  \
-           /    \                                    /    \                                   /    \
-     _____/      \________                     _____/      \_____                       _____/      \_____
-         Mo < Md < Média                          Média = Md = Mo                          Média < Md < Mo
-   (Cauda longa puxa a Média)               (Curva Normal Gaussiana)             (Cauda longa puxa a Média)
-```
-
-> ⚠️ **Alerta de Prova (FCC):**
-> A banca FCC cobra recorrentemente a relação de ordem sob assimetria:
->
-> - **Assimetria Positiva (à Direita / Cauda Longa Superior):** Típica de dados salariais e contratações públicas onde poucos valores gigantescos puxam a média: **$\text{Moda} < \text{Mediana} < \text{Média}$**.
-> - **Assimetria Negativa (à Esquerda / Cauda Longa Inferior):** **$\text{Média} < \text{Mediana} < \text{Moda}$**.
-> - **Distribuição Simétrica:** **$\text{Média} = \text{Mediana} = \text{Moda}$**.
-
-* **Medidas de Dispersão:**
-    - **Variância Amostral ($s^2$):** $\frac{1}{n-1}\sum (x_i - \bar{x})^2$ (utiliza o divisor de Bessel $n-1$ para estimador não enviesado).
-    - **Desvio Padrão ($s$):** $\sqrt{s^2}$, expresso na mesma unidade de medida da variável original.
-    - **Coeficiente de Variação (CV):** $\text{CV} = \frac{s}{\bar{x}} \times 100\%$. Medida relativa adimensional que viabiliza a comparação direta da variabilidade entre variáveis de escalas ou grandezas distintas.
-
-### 2.2 Distribuições de Probabilidade: Normal, Binomial e Poisson
-
-1. **Distribuição Normal (Gaussiana):**
-    - Curva simétrica em formato de sino governada pela média $\mu$ e desvio padrão $\sigma$.
-    - **Regra Empírica (68-95-99.7%):**
-    - $68{,}27\%$ dos dados encontram-se no intervalo $[\mu - 1\sigma, \mu + 1\sigma]$.
-    - $95{,}45\%$ dos dados situam-se no intervalo $[\mu - 2\sigma, \mu + 2\sigma]$.
-    - $99{,}73\%$ dos dados situam-se no intervalo $[\mu - 3\sigma, \mu + 3\sigma]$.
-
-2. **Distribuição Binomial:**
-    - Modela o número de sucessos $k$ em $n$ ensaios de Bernoulli independentes com probabilidade de sucesso $p$:
-     $$P(X=k) = \binom{n}{k} p^k (1-p)^{n-k}, \quad E[X] = np, \quad \text{Var}(X) = np(1-p)$$
-3. **Distribuição de Poisson:**
-    - Modela a contagem de ocorrências de eventos raros que acontecem a uma taxa média constante $\lambda$ em um intervalo fixado contínuo de tempo ou espaço.
-    - Propriedade elementar cobrada em prova: **$\text{Média} = \text{Variância} = \lambda$**.
-
-### 2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor
-
-Estrutura formal de tomada de decisão estatística sob incerteza:
-
-- **Hipótese Nula ($H_0$):** Premissa básica de ausência de diferença, conformidade ou efeito padrão.
-- **Hipótese Alternativa ($H_1$):** Afirmação de presença de efeito, anomalia ou fraude que se pretende demonstrar.
-- **Tipologia dos Erros de Decisão:**
-    - **Erro Tipo I ($\alpha$):** Rejeitar $H_0$ quando $H_0$ é **verdadeira** (Falso Positivo estatístico). O limite tolerado de ocorrência desse erro define o **Nível de Significância** ($\alpha$, tipicamente fixado em 5%).
-    - **Erro Tipo II ($\beta$):** Não rejeitar $H_0$ quando $H_0$ é **falsa** (Falso Negativo estatístico). O complemento $1 - \beta$ define o **Poder do Teste**.
-- **Regra de Decisão pelo $p$-valor:**
-    - O $p$-valor indica a probabilidade de obter uma estatística de teste tão ou mais extrema que a observada, assumindo $H_0$ como verdadeira.
-    - **Critério de Rejeição:** Se **$p\text{-valor} \le \alpha$**, rejeita-se a hipótese nula $H_0$ com significância estatística; se $p\text{-valor} > \alpha$, não há evidência amostral suficiente para rejeitar $H_0$.
 
 ---
 
@@ -608,44 +543,26 @@ No âmbito do armazenamento e processamento distribuído de grandes volumes de d
 ---
 
 ### Teste 343
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Durante o processamento em lote de dezenas de milhões de documentos fiscais eletrônicos em um cluster com Apache Spark, um analista escreveu o seguinte trecho de código:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - TI - Ciências da Computação)**  
+Um pipeline de dados do TCE-SC processa bilhões de registros de notas fiscais usando Spark SQL. O Auditor nota um problema de desbalanceamento de dados no qual um único executor demora muito mais que os outros para completar uma operação de Join, pois uma chave específica possui muito mais registros que as demais. A seguinte técnica avançada de otimização no Spark 3.x permite ao motor de execução identificar esse desequilíbrio em tempo de execução e dividir a partição sobrecarregada em subtarefas menores:
 
-```python
-df_filtrado = df_notas.filter(df_notas["valor"] > 100000)
-df_selecionado = df_filtrado.select("chave_nfe", "cnpj_emitente", "valor")
-total_notas = df_selecionado.count()
-```
-
-Considerando a arquitetura interna e o paradigma computacional do Apache Spark, assinale a alternativa correta:
-
-* **A)** As instruções `filter()` e `select()` são Ações imperativas que executam o processamento físico no cluster imediatamente no instante em que as linhas de código são lidas pelo interpretador Python em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** O conceito de Avaliação Preguiçosa (*Lazy Evaluation*) do Spark determina que as Transformações, tais como `filter()` e `select()`, não processam dados reais de imediato; elas apenas registram as etapas em um Grafo Acíclico Direcionado (DAG) otimizado.
-* **C)** O método `count()` é uma Transformação com dependência estrita (*narrow dependency*), não provocando qualquer comunicação entre os nós executores e o programa *Driver*.
-* **D)** O Spark armazena obrigatoriamente todas as partições intermediárias em arquivos físicos de texto no disco rígido do nó mestre, impedindo o reaproveitamento de dados em memória RAM.
-* **E)** A tolerância a falhas no Spark é garantida pela gravação redundante de sete cópias de cada partição em fitas magnéticas secundárias.
-
+* **A)** Broadcast Hash Join.
+* **B)** Adaptive Query Execution com Skew Join Optimization.
+* **C)** Predicate Pushdown.
+* **D)** Bucketing com 1024 partições fixas.
+* **E)** Cache In-Memory em nível de cluster.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. `filter()` e `select()` são **Transformações**, e não Ações; sob a avaliação preguiçosa, nenhuma computação física ocorre nessas linhas.
-> - **B)** **Correta.** No **Apache Spark**, as Transformações operam sob **Lazy Evaluation**: apenas constroem o plano de linhagem no Grafo Acíclico Direcionado (DAG). O plano de execução físico só é compilado e executado nos nós trabalhadores quando uma **Ação** (como `count()`, `collect()` ou `show()`) é requisitada.
-> - **C)** Incorreta. `count()` é uma **Ação** que compila os resultados parciais dos nós trabalhadores e devolve a contagem escalar definitiva ao *Driver*.
-> - **D)** Incorreta. O diferencial central do Spark reside no processamento distribuído em **memória RAM**, evitando gravações desnecessárias em disco rígido entre etapas intermediárias.
-> - **E)** Incorreta. A tolerância a falhas no Spark apoia-se no **Grafo de Linhagem (*Lineage Graph*)**, recalculando sob demanda qualquer partição perdida.
+> - **A) Incorreta.** O *Broadcast Hash Join* envia uma tabela pequena para todos os nós executores, sendo inviável quando ambas as tabelas de notas fiscais são massivas (bilhões de linhas).
+> - **B) CORRETA.** No Apache Spark 3.x, o mecanismo de **Adaptive Query Execution (AQE)** introduziu a otimização **Skew Join Optimization** (`spark.sql.adaptive.skewJoin.enabled=true`). O Catalyst Optimizer analisa as estatísticas reais das partições após a fase de shuffle em tempo de execução e, ao detectar que uma partição específica é desproporcionalmente maior que a mediana das demais (*data skew*), divide essa partição anômala em múltiplas subpartições menores, distribuindo o processamento entre vários executores e eliminando o gargalo do *straggler*.
+> - **C) Incorreta.** *Predicate Pushdown* filtra dados na camada de leitura do arquivo (Parquet/ORC), reduzindo o volume lido, mas não resolve o desbalanceamento de chaves na operação de junção.
+> - **D) Incorreta.** O *Bucketing* fixo particiona previamente os dados, mas se uma chave tiver cardinalidade aberrante (ex.: notas de uma distribuidora gigante), o bucket continuará sofrendo *skew*.
+> - **E) Incorreta.** Cache em memória consome RAM e não altera a distribuição desigual de chaves nos executores.
 > 
 > **Gabarito: B**
 
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
-
-* [Scikit-Learn Official User Guide - Model Evaluation and Metrics](https://scikit-learn.org/stable/modules/model_evaluation.html) - Matriz de confusão, acurácia, precisão, recall, F1-score, curva ROC e AUC.
-* [Apache Spark Official Documentation - Spark SQL and DataFrames](https://spark.apache.org/docs/latest/sql-programming-guide.html) - Processamento distribuído massivo de dados em memória, arquitetura Master-Worker e RDDs.
-* [Pandas Official Documentation - 10 Minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html) - Manipulação, agregação, limpeza de dados tabulares e estatísticas descritivas.
-* [Scikit-Learn Official User Guide - Preprocessing Data](https://scikit-learn.org/stable/modules/preprocessing.html) - Padronização (StandardScaler), normalização (MinMaxScaler) e tratamento de valores ausentes.
-* PROVOST, Foster; FAWCETT, Tom. **Data Science para Negócios: O que Você Precisa Saber Sobre Mineração de Dados e Pensamento Analítico de Dados**. Rio de Janeiro: Alta Books, 2016. (Cap. 7 e 8 - Avaliação de Desempenho e Curvas ROC).
-* HASTIE, Trevor; TIBSHIRANI, Robert; FRIEDMAN, Jerome. **The Elements of Statistical Learning: Data Mining, Inference, and Prediction**. 2. ed. Nova York: Springer, 2009. (Cap. 2 e 7 - Visão Geral do Aprendizado Supervisionado e Validação Cruzada).
-* BUSSAB, Wilton de Oliveira; MORETTIN, Pedro Alberto. **Estatística Básica**. 9. ed. São Paulo: Saraiva, 2017. (Cap. 3 a 5 - Medidas de Posição, Dispersão e Probabilidades).
