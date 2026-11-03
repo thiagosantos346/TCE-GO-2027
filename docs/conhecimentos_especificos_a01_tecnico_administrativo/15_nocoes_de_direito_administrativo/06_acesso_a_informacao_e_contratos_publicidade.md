@@ -105,26 +105,35 @@ O procedimento de atendimento às solicitações de informação rege-se pelos s
 ---
 
 ### Teste 056
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Lei de Acesso à Informação (Lei Federal nº 12.527/2011) regulamenta o direito constitucional fundamental de acesso a informações públicas (art. 5º, XXXIII da CF/88). A respeito das diretrizes fundamentais estabelecidas no art. 3º da LAI, assinale a opção correta:
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**  
+A Lei nº 12.527/2011 (Lei de Acesso à Informação) e a Lei Complementar nº 131/2009, que acrescentou dispositivos à Lei de Responsabilidade Fiscal, estabelecem deveres de divulgação de informações pelos órgãos e entidades públicos, distinguindo-se duas modalidades de prestação dessas informações, conforme exista ou não provocação do interessado. Na Secretaria Estadual de Planejamento, foram registradas, em determinada semana, as seguintes ocorrências:
 
-* **A)** O sigilo de documentos estatais é a regra originária da administração, constituindo a publicidade exceção estrita.
-* **B)** A publicidade é a regra geral da administração, sendo o sigilo exceção adotada mediante justificativa legal.
-* **C)** A divulgação oficiosa de dados públicos em sítios eletrônicos subordina-se a prévio requerimento do administrado.
-* **D)** O fomento à cultura de transparência restringe-se às informações contábeis e fiscais do Poder Executivo estadual.
-* **E)** O acesso a informações governamentais condiciona-se à demonstração de legítimo interesse jurídico pelo cidadão.
+I. publicação espontânea, no portal eletrônico do órgão, dos dados relativos à execução orçamentária e financeira, com atualização em tempo real, contendo informações pormenorizadas sobre receitas e despesas;  
+II. fornecimento de cópia integral de contrato administrativo a cidadão que apresentou requerimento formal por meio do Serviço de Informação ao Cidadão (SIC), no prazo legal de resposta; e  
+III. divulgação, em sítio oficial, do rol de competências, da estrutura organizacional, dos endereços e telefones das respectivas unidades e dos horários de atendimento ao público, independentemente de qualquer solicitação.  
+
+As ocorrências I, II e III correspondem, respectivamente, às hipóteses de transparência:
+
+* **A)** passiva, ativa e passiva.
+* **B)** ativa, passiva e ativa.
+* **C)** ativa, ativa e passiva.
+* **D)** passiva, passiva e ativa.
+* **E)** ativa, passiva e passiva.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O art. 3º, I da Lei nº 12.527/2011 fixa expressamente que a publicidade é a regra geral e o sigilo a exceção.
-> - **B)** **Correto**. O art. 3º da LAI estabelece as diretrizes basilares: "I - observância da publicidade como preceito geral e do sigilo como preceito excepcional; II - divulgação de informações de interesse público, independentemente de solicitações; III - utilização de meios de comunicação viabilizados pela tecnologia da informação; IV - fomento ao desenvolvimento da cultura de transparência na administração pública; V - desenvolvimento do controle social da administração pública".
-> - **C)** **Incorreto**. A transparência ativa impõe a divulgação compulsória de dados de ofício pela internet, sem necessidade de pedido.
-> - **D)** **Incorreto**. A diretriz de transparência alcança todos os Poderes, órgãos e esferas da federação de modo irrestrito.
-> - **E)** **Incorreto**. O art. 10, § 3º da LAI veda expressamente qualquer exigência de motivação ou justificativa para pedidos de acesso.
->
+> No regime jurídico da publicidade administrativa e da Lei de Acesso à Informação (Lei nº 12.527/2011):
+> - **Ocorrência I: Transparência ATIVA (art. 8º da LAI).** Consiste na obrigação legal dos órgãos estatais de promoverem, independentemente de requerimentos prévios, a divulgação proativa em sítios oficiais da internet de informações de interesse geral ou coletivo (como a execução orçamentária e financeira em tempo real).
+> - **Ocorrência II: Transparência PASSIVA (art. 10 da LAI).** Ocorre quando a Administração disponibiliza a informação em atendimento a um requerimento individual ou coletivo formalmente provocado pelo interessado perante o Serviço de Informação ao Cidadão (SIC).
+> - **Ocorrência III: Transparência ATIVA (art. 8º, § 1º, I e II da LAI).** A veiculação espontânea do rol de competências, organograma, endereços, telefones e horários de atendimento sem qualquer demanda provocada é dever de transparência ativa.
+> - Portanto, as ocorrências correspondem a **ativa, passiva e ativa**.
+> 
 > **Gabarito: B**
+
+---
+
 ### Teste 057
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada associação de servidores públicos ajuizou ação civil contra o Estado postulando a retirada dos nomes e vencimentos dos seus associados do Portal da Transparência, sob alegação de ofensa à intimidade e à vida privada. À luz da LAI e da jurisprudência fixada pelo STF no Tema nº 483:

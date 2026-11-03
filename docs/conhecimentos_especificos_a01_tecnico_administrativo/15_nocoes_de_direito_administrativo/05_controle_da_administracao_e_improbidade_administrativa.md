@@ -420,51 +420,61 @@ flowchart TD
 ---
 
 ### Teste 053
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Lei Federal nº 8.429/1992, reformulada pela Lei Federal nº 14.230/2021, tipifica os atos de improbidade administrativa que importam enriquecimento ilícito (art. 9º), os que causam prejuízo ao erário (art. 10) e os que atentam contra os princípios da administração pública (art. 11). 
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**  
+De acordo com a Lei de Improbidade Administrativa (Lei nº 8.429/1992, reformulada pela Lei nº 14.230/2021), relacione os atos de improbidade administrativa listados a seguir ao seu respectivo exemplo:
 
-Constitui ato de improbidade administrativa que importa ENRIQUECIMENTO ILÍCITO (art. 9º da LIA):
+1. Atos de Improbidade Administrativa que importam enriquecimento ilícito.  
+2. Atos de Improbidade Administrativa que causam prejuízo ao erário.  
+3. Atos de Improbidade Administrativa que atentam contra os princípios da Administração Pública.  
 
-* **A)** frustrar a licitude de processo licitatório para obter preço favorável à Administração em contratação direta.
-* **B)** receber vantagem econômica de qualquer natureza para tolerar a exploração de jogos de azar ou narcóticos.
-* **C)** ordenar a realização de despesas não autorizadas em lei sem comprovação de vantagem pessoal para o ordenador.
-* **D)** celebrar contrato de prestação de serviços com terceiro sem a observância das formalidades legais cabíveis.
-* **E)** conceder benefício fiscal a sociedade empresária sem a observância dos requisitos orçamentários da LRF.
+( ) conceder benefício administrativo ou fiscal sem a observância das formalidades legais ou regulamentares aplicáveis à espécie.  
+( ) deixar de prestar contas quando esteja obrigado a fazê-lo, desde que disponha das condições para isso, com vistas a ocultar irregularidades.  
+( ) perceber vantagem econômica, direta ou indireta, para facilitar a alienação, permuta ou locação de bem público ou o fornecimento de serviço por ente estatal por preço inferior ao valor de mercado.  
+
+Assinale a alternativa que mostra a relação correta, segundo a ordem apresentada:
+
+* **A)** 1 – 2 – 3.
+* **B)** 1 – 3 – 2.
+* **C)** 2 – 1 – 3.
+* **D)** 2 – 3 – 1.
+* **E)** 3 – 2 – 1.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Frustrar a licitude de licitação é ato que causa prejuízo ao erário (art. 10, VIII da LIA).
-> - **B)** **Correto**. O art. 9º, V, da Lei nº 8.429/1992 tipifica expressamente como ato de enriquecimento ilícito: "receber vantagem econômica de qualquer natureza, direta ou indireta, para tolerar a exploração ou a prática de jogos de azar, de lenocínio, de narcotráfico, de contrabando, de usura ou de qualquer outra atividade ilícita, ou aceitar promessa de tal vantagem". O auferimento de proveito patrimonial pelo agente caracteriza a subsunção ao art. 9º.
-> - **C)** **Incorreto**. Ordenar despesa sem autorização enquadra-se no art. 10, IX (lesão ao erário).
-> - **D)** **Incorreto**. Celebrar contrato sem formalidades é ato de lesão ao erário (art. 10, XI).
-> - **E)** **Incorreto**. Concessão indevida de benefício tributário subsume-se ao art. 10, VII (lesão ao erário).
->
-> **Gabarito: B**
+> Analisando as condutas tipificadas na Lei nº 8.429/1992, com redação dada pela Lei nº 14.230/2021:
+> - **Item (2) Prejuízo ao Erário (art. 10, VII):** *"conceder benefício administrativo ou fiscal sem a observância das formalidades legais ou regulamentares aplicáveis à espécie"*. Trata-se de hipótese expressa de lesão ao erário.
+> - **Item (3) Atentado aos Princípios (art. 11, VI):** *"deixar de prestar contas quando esteja obrigado a fazê-lo, desde que disponha das condições para isso, com vistas a ocultar irregularidades"*. O dolo específico de ocultar irregularidades caracteriza ofensa aos princípios republicanos.
+> - **Item (1) Enriquecimento Ilícito (art. 9º, III):** *"perceber vantagem econômica, direta ou indireta, para facilitar a alienação, permuta ou locação de bem público ou o fornecimento de serviço por ente estatal por preço inferior ao valor de mercado"*. Envolve recebimento indevido de vantagem patrimonial pelo agente.
+> - Portanto, a correspondência exata de cima para baixo é **2 – 3 – 1**.
+> 
+> **Gabarito: D**
+
+---
+
 ### Teste 054
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Lei nº 14.230/2021 alterou profundamente o regime dos atos de improbidade administrativa que atentam contra os princípios da administração pública (art. 11 da Lei nº 8.429/1992). 
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - TI - Ciências da Computação)**  
+Em março de 2026, após a observância do contraditório e da ampla defesa, Bernardo foi condenado, pelo juízo competente no Estado de Santa Catarina, pela prática de ato doloso de improbidade administrativa, sendo-lhe aplicada a penalidade de multa civil no montante de vinte e quatro vezes o valor da sua remuneração. Nesse cenário, considerando as disposições da Lei nº 8.429/1992 (com alterações da Lei nº 14.230/2021), é correto afirmar que Bernardo praticou a conduta de:
 
-A respeito da nova disciplina jurídica conferida ao art. 11 da LIA pelo legislador reformador, é correto afirmar que:
-
-* **A)** os incisos do art. 11 constituem rol taxativo de condutas, vedada a punição por extensão interpretativa.
-* **B)** a configuração de improbidade por atentado a princípios prescinde de dolo, bastando culpa manifesta do agente.
-* **C)** o descumprimento genérico de deveres éticos autoriza condenação por improbidade mesmo fora dos incisos do art. 11.
-* **D)** a perda da função pública é sanção de aplicação obrigatória para todos os atos tipificados no art. 11 da LIA.
-* **E)** os prazos prescricionais do art. 11 são imprescritíveis por força da tutela do patrimônio público imaterial.
+* **A)** descumprir as normas relativas à celebração, fiscalização e aprovação de contas de parcerias firmadas pela Administração Pública com entidades privadas.
+* **B)** frustrar a licitude de processo seletivo para celebração de parcerias com entidades sem fins lucrativos, acarretando perda patrimonial efetiva.
+* **C)** conceder benefício administrativo ou fiscal sem a observância das formalidades legais ou regulamentares aplicáveis à espécie.
+* **D)** perceber vantagem econômica para intermediar a liberação ou aplicação de verba pública de qualquer natureza.
+* **E)** celebrar contrato de rateio de consórcio público sem suficiente e prévia dotação orçamentária.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. A Lei nº 14.230/2021 transformou o caput do art. 11 em rol estritamente TAXATIVO (numerus clausus). Ao contrário da redação original de 1992 (que continha rol exemplificativo aberto), o novo texto legal expressa: "Constitui ato de improbidade administrativa que atenta contra os princípios da administração pública a ação ou omissão dolosa que viole os deveres de honestidade, de imparcialidade e de legalidade, caracterizada por UMA DAS SEGUINTES CONDUTAS". Não se admite mais condenação fora das condutas expressamente descritas em seus incisos.
-> - **B)** **Incorreto**. O dolo específico é requisito indispensável para todos os atos de improbidade.
-> - **C)** **Incorreto**. É vedada a responsabilização por infrações genéricas desprovidas de subsunção típica estrita.
-> - **D)** **Incorreto**. A Lei nº 14.230/2021 excluiu a perda da função pública do rol de sanções cominadas ao art. 11 (art. 12, III da LIA).
-> - **E)** **Incorreto**. Os atos do art. 11 prescrevem no prazo geral de 8 (oito) anos (art. 23 da LIA).
->
+> - **A) CORRETA.** Nos termos do art. 12, inciso III, da Lei nº 8.429/1992 (redação da Lei nº 14.230/2021), na hipótese de atos de improbidade que **atentam contra os princípios da administração pública (art. 11)**, comina-se a penalidade de *"pagamento de multa civil de até 24 (vinte e quatro) vezes o valor da remuneração percebida pelo agente"*. A conduta de *"descumprir as normas relativas à celebração, fiscalização e aprovação de contas de parcerias firmadas pela administração pública com entidades privadas"* enquadra-se expressamente no **art. 11, inciso VIII**, sujeitando-se ao teto de 24 vezes a remuneração.
+> - **B, C e E) Incorretas.** As condutas das alternativas B, C e E são tipificadas como atos que causam **prejuízo ao erário (art. 10)**, cuja penalidade de multa civil cominada no art. 12, II, é calculada em *"valor equivalente ao dano patrimonial"*, e não vinculada a 24 vezes a remuneração.
+> - **D) Incorreta.** Trata-se de ato que importa **enriquecimento ilícito (art. 9º, IX)**, cuja sanção pecuniária no art. 12, I, é a multa civil equivalente ao valor do acréscimo patrimonial indevido.
+> 
 > **Gabarito: A**
+
+---
+
 ### Teste 055
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada autoridade administrativa foi processada judicialmente por ato de improbidade administrativa ajuizado pelo Ministério Público. A respeito das novas regras de prescrição geral e prescrição intercorrente introduzidas na Lei nº 8.429/1992 pela Lei nº 14.230/2021, é correto afirmar que:

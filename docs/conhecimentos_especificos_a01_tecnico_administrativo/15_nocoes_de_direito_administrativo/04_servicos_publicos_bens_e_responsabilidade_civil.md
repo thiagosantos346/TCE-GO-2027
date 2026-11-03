@@ -160,26 +160,29 @@ Motorista de ambulância pertencente à Secretaria de Saúde de determinado Esta
 >
 > **Gabarito: B**
 ### Teste 035
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No estudo da Responsabilidade Civil Extracontratual do Estado, a doutrina e a jurisprudência distinguem a Teoria do Risco Administrativo da Teoria do Risco Integral. A respeito das hipóteses em que o ordenamento jurídico pátrio adota excepcionalmente a Teoria do Risco Integral (em que o Estado responde sem possibilidade de alegar excludentes de culpabilidade da vítima ou força maior), assinale a opção que indica caso regido por essa teoria:
+**(FGV – TJ/AP – 2023 – Analista Judiciario - Apoio Especializado - Tecnologia da Informacao)**  
+Na qualidade de servidora pública ocupante do cargo de analista do Tribunal de Justiça do Estado do Amapá, Marieva foi questionada acerca de qual teoria foi adotada para responsabilidade civil do Estado pela conduta dos respectivos agentes públicos, à luz do disposto no Art. 37, §6º, da Constituição da República de 1988 e as peculiaridades decorrentes de tal orientação. Nesse contexto, considerando o entendimento do Supremo Tribunal Federal acerca da matéria, Marieva respondeu, corretamente, que se tratava da:
 
-* **A)** Danos decorrentes de acidentes automobilísticos com viaturas policiais em perseguição de fugitivos.
-* **B)** Danos causados por desabamento de pontes e encostas provocados por chuvas torrenciais imprevisíveis.
-* **C)** Danos decorrentes de atividade ou acidente nuclear e danos causados por poluição ambiental grave.
-* **D)** Danos oriundos de assalto à mão armada ocorrido no interior de agência de sociedade de economia mista.
-* **E)** Danos causados por fuga de detento de presídio estadual dias após ter escapado do estabelecimento penal.
+* **A)** teoria do risco administrativo, que consagra a responsabilidade subjetiva do Estado e não admite excludentes do nexo de causalidade;
+* **B)** teoria do risco integral, que consagra a responsabilidade objetiva do Estado e não admite excludentes do nexo de causalidade;
+* **C)** teoria da culpa administrativa, que consagra a responsabilidade subjetiva do Estado e não admite excludentes do nexo de causalidade;
+* **D)** teoria do risco administrativo, que consagra a responsabilidade objetiva do Estado e admite excludentes do nexo de causalidade;
+* **E)** teoria do risco integral, que consagra a responsabilidade subjetiva do Estado e admite excludentes do nexo de causalidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Acidentes com viaturas policiais submetem-se à Teoria do Risco Administrativo comum (art. 37, § 6º da CF/88), admitindo comprovação de culpa exclusiva da vítima ou de terceiro.
-> - **B)** **Incorreto**. Força maior e eventos climáticos extraordinários rompem o nexo causal no risco administrativo geral.
-> - **C)** **Correto**. No ordenamento jurídico brasileiro, a Teoria do Risco Integral é hipótese excepcionalíssima e taxativa que veda qualquer excludente de nexo causal, aplicando-se prioritariamente a: 1) danos nucleares (art. 21, XXIII, "d" da CF/88); 2) danos ambientais graves (art. 225, § 3º da CF/88 e Lei nº 6.938/1981); e 3) atentados terroristas contra aeronaves brasileiras (Lei nº 10.744/2003).
-> - **D)** **Incorreto**. Assalto em agência de estatal consubstancia fato de terceiro sem risco integral.
-> - **E)** **Incorreto**. O STF fixou no Tema nº 362 que a responsabilidade por ato de foragido exige nexo direto com o momento da fuga; decorridos dias ou meses, não há responsabilidade do Estado.
->
-> **Gabarito: C**
+> - **A, C e E) Incorretas.** A regra geral do art. 37, § 6º da CF/88 consagra categoricamente a responsabilidade civil **objetiva** do Estado (dispensando a comprovação de dolo ou culpa da Administração).
+> - **B) Incorreta.** A teoria do risco integral é excepcionalíssima no ordenamento brasileiro (aplicada a danos nucleares, terrorismo aéreo e dano ambiental), não admitindo excludentes; a regra constitucional geral do Estado é o risco administrativo.
+> - **D) CORRETA.** O ordenamento constitucional brasileiro adotou como regra geral para a responsabilidade extracontratual do Estado a **Teoria do Risco Administrativo**, a qual:
+>   1. Consagra a **responsabilidade civil OBJETIVA** das pessoas jurídicas de direito público e das de direito privado prestadoras de serviços públicos pelos danos que seus agentes, nessa qualidade, causarem a terceiros;
+>   2. **Admite a comprovação de excludentes do nexo causal** para atenuar ou afastar integralmente o dever de indenizar (como a culpa exclusiva da vítima, a força maior e o fato exclusivo de terceiro).
+> 
+> **Gabarito: D**
+
+---
+
 ### Teste 036
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante o período noturno de custódia em estabelecimento prisional estadual administrado pela Secretaria de Administração Penitenciária, um detento foi assassinado por companheiros de cela com instrumentos perfurantes artesanais. À luz do art. 5º, XLIX, da Constituição Federal e da jurisprudência vinculante do Supremo Tribunal Federal (Tema nº 592 de Repercussão Geral):
@@ -202,82 +205,26 @@ Durante o período noturno de custódia em estabelecimento prisional estadual ad
 >
 > **Gabarito: C**
 ### Teste 037
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Uma viatura oficial pertencente ao Tribunal de Contas, conduzida por servidor público efetivo em missão institucional, abalroou veículo de particular por negligência do agente ao não respeitar a preferência em rotatória. De acordo com o art. 37, § 6º, da CF/88 e a jurisprudência pacificada pelo Supremo Tribunal Federal no Tema nº 940:
+**(FGV – TRT/1 – 2024 – Analista Judiciário - Área Administrativa)**  
+Josélia decidiu aprofundar os seus conhecimentos com relação à orientação do Supremo Tribunal Federal sobre Responsabilidade Civil do Estado. Ao analisar a jurisprudência da mencionada Corte Constitucional, Josélia constatou, corretamente, que:
 
-* **A)** O particular pode optar por propor a demanda indenizatória unicamente contra o servidor público condutor.
-* **B)** A ação indenizatória deve ser proposta exclusivamente contra o Estado, que dispõe de ação regressiva por dolo ou culpa.
-* **C)** O servidor condutor e o Poder Público estadual devem integrar obrigatoriamente litisconsórcio passivo necessário.
-* **D)** A reparação civil pelo Tribunal de Contas depende do trânsito em julgado de processo disciplinar administrativo.
-* **E)** A ação regressiva da Fazenda Pública prescreve em dois anos contados da data da ocorrência do sinistro viário.
+* **A)** a responsabilidade civil do Estado é fundada na teoria do risco integral;
+* **B)** o direito de regresso em relação ao agente público causador do dano em sede de responsabilidade civil é imprescritível, por se tratar de ressarcimento ao erário;
+* **C)** não é cabível o reconhecimento de causas excludentes da responsabilidade civil, diante da previsão constitucional;
+* **D)** o agente causador do dano não tem legitimidade para constar do polo passivo da ação judicial que visa à responsabilização civil do Estado;
+* **E)** tanto o Estado quanto o agente causador do dano respondem objetivamente pelos danos por este causados no exercício de suas atribuições.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O particular não detém a faculdade de processar diretamente o agente público.
-> - **B)** **Correto**. Tese de Repercussão Geral do Tema nº 940 do STF (Teoria da Dupla Garantia): "A teor do disposto no art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para a ação o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa". A dupla garantia protege o particular (certeza de pagamento pelo erário) e o agente (não ser acionado diretamente por terceiros no exercício funcional).
-> - **C)** **Incorreto**. O STF fixou a ilegitimidade passiva do servidor público para figurar no polo passivo da ação indenizatória ordinária.
-> - **D)** **Incorreto**. A obrigação de indenizar do Estado independe da apuração funcional interna do agente.
-> - **E)** **Incorreto**. O direito de regresso rege-se pelas normas de ressarcimento ao erário após o pagamento judicial efetivo.
->
-> **Gabarito: B**
-## 2. Regime Jurídico dos Serviços Públicos e sua Delegação
-
-### 2.1 Princípios do Serviço Público Adequado
-
-A Lei Federal nº 8.987/1995 (art. 6º) prescreve que toda concessão ou permissão pressupõe a prestação de **serviço adequado**, assim entendido o que satisfaz as condições de:
-
-- **Regularidade:** Prestação sem oscilações arbitrárias de qualidade.
-- **Continuidade:** Não interrupção da atividade, admitida a suspensão motivada em hipóteses estritas de segurança técnica ou inadimplemento do usuário após aviso prévio formal.
-- **Eficiência:** Máxima produtividade e excelência técnica.
-- **Segurança:** Minimização de riscos aos usuários e ao meio ambiente.
-- **Atualidade:** Incorporação contínua de métodos modernos, equipamentos tecnológicos de ponta e expansão da rede.
-- **Generalidade:** Acesso universal e não discriminatório a todos os cidadãos.
-- **Cortesia:** Urbanidade no trato com os usuários.
-- **Modicidade das Tarifas:** Fixação de preços públicos acessíveis à população em equilíbrio econômico-financeiro.
-
-### 2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)
-
-- **Concessão Comum de Serviço Público:** Delegação contratual bilateral formalizada com pessoa jurídica ou consórcio de empresas, mediante prévia licitação obrigatória, para exploração do serviço por prazo determinado, a expensas e risco da concessionária, remunerada unicamente pelas tarifas cobradas dos usuários.
-- **Permissão de Serviço Público:** Delegação formalizada mediante **contrato de adesão**, a título precário, após prévia licitação, admitindo como permitente pessoa física ou jurídica.
-
-### 2.3 Formas de Extinção das Concessões: Encampação vs. Caducidade
-
-A diferenciação entre as modalidades de extinção contratual na Lei nº 8.987/1995 é intensamente cobrada pela FCC:
-
-```mermaid
-flowchart TD
-    EXT["Extinção da Concessão de Serviço Público (Lei 8.987/95)"]
-    
-    EXT --> ENC["ENCAMPAÇÃO (Art. 37)<br/>• Motivo de INTERESSE PÚBLICO relevante<br/>• A concessionária NÃO cometeu nenhuma falta<br/>• Exige LEI AUTORIZATIVA específica + PRÉVIA INDENIZAÇÃO"]
-    
-    EXT --> CAD["CADUCIDADE (Art. 38)<br/>• Inadimplemento / Falta da Concessionária<br/>• Serviço inadequado, descumprimento contratual<br/>• Decretada unilateralmente pelo Poder Concedente"]
-    
-    EXT --> RES["RESCISÃO JUDICIAL (Art. 39)<br/>• Ajuizada pela CONCESSIONÁRIA em face do Estado<br/>• Inadimplemento das obrigações pelo Poder Concedente"]
-    
-    EXT --> ANU["ANULAÇÃO (Art. 35, IV)<br/>• Ilegalidade originária na licitação ou no contrato"]
-    
-    EXT --> REV["REVERSÃO (Art. 35, I c/c 36)<br/>• Término regular do prazo contratual (advento do termo)"]
-```
-
-| Critério de Comparação | Encampação (Resgate) | Caducidade |
-| :--- | :--- | :--- |
-| **Causa Primária** | **Interesse público superveniente** (conveniência administrativa) | **Inadimplemento contratual culposo** da concessionária |
-| **Culpa da Concessionária?** | **NÃO** (a empresa cumpria rigorosamente o contrato) | **SIM** (prestação defeituosa, paralisações, descumprimento de prazos) |
-| **Exigência de Lei?** | **SIM**, exige **lei autorizativa específica** do ente concedente | **NÃO**, declarada por **decreto** do Chefe do Executivo |
-| **Indenização Prévia?** | **SIM**, o pagamento de indenização deve ser **prévio** à retomada | **NÃO**, indenização é apurada a posteriori descontadas multas contratuais |
-
-### 2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)
-
-As Parcerias Público-Privadas constituem concessões especiais destinadas a viabilizar investimentos vultosos de infraestrutura em colaboração com o capital privado:
-
-1. **Concessão Patrocinada (Art. 2º, § 1º):** É a concessão de serviços públicos ou obras públicas em que a remuneração da concessionária envolve a combinação de **tarifa paga pelos usuários** mais uma **contraprestação pecuniária complementar paga pelo parceiro público**.
-2. **Concessão Administrativa (Art. 2º, § 2º):** É o contrato de prestação de serviços de que a **Administração Pública seja a usuária direta ou indireta**, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é **100% custeada pelo erário**, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
-3. **Vedações Legais Obrigatórias à Celebração de PPPs (Art. 2º, § 4º):**
-    - Contratos cujo valor total seja **inferior a R$ 10.000.000,00 (dez milhões de reais)**;
-    - Período de prestação de serviços **inferior a 5 (cinco) anos** ou superior a 35 (trinta e cinco) anos;
-    - Contratos que tenham por objeto único o fornecimento de mão de obra, a mera locação de equipamentos ou a execução isolada de obra pública sem prestação continuada de serviços.
+> - **A) Incorreta.** A regra geral constitucional é a teoria do risco administrativo, e não a teoria do risco integral.
+> - **B) Incorreta.** O STF fixou a tese de que apenas são imprescritíveis as ações de ressarcimento decorrentes de atos dolosos de improbidade administrativa (Tema 897); ações de regresso por ilícitos civis prescrevem no prazo do Código Civil (Tema 666).
+> - **C) Incorreta.** A teoria do risco administrativo admite plenamente causas excludentes do nexo causal.
+> - **D) CORRETA.** O Supremo Tribunal Federal, ao julgar o **Tema 940 de Repercussão Geral** (RE 1.027.633/SP), fixou a tese vinculante: *"A teor do disposto no art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada diretamente contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo **parte ilegítima o autor do ato**, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."* Logo, veda-se o ajuizamento da ação diretamente em face do agente ou em litisconsórcio passivo facultativo com o Estado.
+> - **E) Incorreta.** O agente público responde sempre subjetivamente (necessidade de dolo ou culpa comprovados) em sede de ação regressiva.
+> 
+> **Gabarito: D**
 
 ---
 

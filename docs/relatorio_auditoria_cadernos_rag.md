@@ -39,6 +39,20 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 03 (IA & Ciência de Dados): Engenharia de Prompts, RAG e Automação de Processos](#caderno-03-ia--ciência-de-dados-engenharia-de-prompts-rag-e-automação-de-processos)
 - [Caderno 04 (IA & Ciência de Dados): Ciência de Dados, Estatística e Big Data](#caderno-04-ia--ciência-de-dados-ciência-de-dados-estatística-e-big-data)
 - [Caderno 05 (IA & Ciência de Dados): Ética, IA Responsável, EBIA e LGPD](#caderno-05-ia--ciência-de-dados-ética-ia-responsável-ebia-e-lgpd)
+- [Caderno 01 (Dir. Administrativo): Regime Jurídico, Princípios e LINDB](#caderno-01-dir-administrativo-regime-jurídico-princípios-e-lindb)
+- [Caderno 02 (Dir. Administrativo): Organização Administrativa e Poderes](#caderno-02-dir-administrativo-organização-administrativa-e-poderes)
+- [Caderno 03 (Dir. Administrativo): Atos Administrativos e Processo Estadual](#caderno-03-dir-administrativo-atos-administrativos-e-processo-estadual)
+- [Caderno 04 (Dir. Administrativo): Serviços Públicos, Bens e Responsabilidade Civil](#caderno-04-dir-administrativo-serviços-públicos-bens-e-responsabilidade-civil)
+- [Caderno 05 (Dir. Administrativo): Controle da Administração e Improbidade Administrativa](#caderno-05-dir-administrativo-controle-da-administração-e-improbidade-administrativa)
+- [Caderno 06 (Dir. Administrativo): Acesso à Informação e Contratos de Publicidade](#caderno-06-dir-administrativo-acesso-à-informação-e-contratos-de-publicidade)
+- [Caderno 05 (Eng. Software): Qualidade, Testes, Refatoração e Dívida Técnica](#caderno-05-eng-software-qualidade-testes-refatoração-e-dívida-técnica)
+- [Caderno 01 (Dev. Sistemas): Algoritmos, Estruturas de Dados e Paradigmas](#caderno-01-dev-sistemas-algoritmos-estruturas-de-dados-e-paradigmas)
+- [Caderno 02 (Dev. Sistemas): Linguagens de Programação (Java, JavaScript, Node.js e Python)](#caderno-02-dev-sistemas-linguagens-de-programação-java-javascript-nodejs-e-python)
+- [Caderno 03 (Dev. Sistemas): Desenvolvimento Frontend (HTML5, CSS3, React e TypeScript)](#caderno-03-dev-sistemas-desenvolvimento-frontend-html5-css3-react-e-typescript)
+- [Caderno 04 (Dev. Sistemas): APIs RESTful, GraphQL, WebSockets e Documentação](#caderno-04-dev-sistemas-apis-restful-graphql-websockets-e-documentação)
+- [Caderno 05 (Dev. Sistemas): Autenticação, Identidade, OAuth 2.0, OIDC e JWT](#caderno-05-dev-sistemas-autenticação-identidade-oauth-20-oidc-e-jwt)
+- [Caderno 06 (Dev. Sistemas): Git, Gerenciamento de Dependências e Empacotamento](#caderno-06-dev-sistemas-git-gerenciamento-de-dependências-e-empacotamento)
+- [Caderno 01 (IA & Agentivos): Fundamentos de LLMs, Intent-Based e Engenharia de Prompts](#caderno-01-ia--agentivos-fundamentos-de-llms-intent-based-e-engenharia-de-prompts)
 
 ---
 
@@ -1080,3 +1094,417 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 352`** (Resolução CNJ nº 332/2020: Diretrizes de governança, transparência, auditoria técnica e supervisão humana em tribunais): Preservada.
 * **`Teste 353`** (Estratégia Brasileira de Inteligência Artificial / EBIA: Objetivos gerais e os três eixos transversais da Portaria MCTI nº 4.617/2021): Preservada.
 * **`Teste 354`** (Eixos Verticais de Aplicação da EBIA: Legislação, regulação e uso ético, governança de IA e segurança pública): Preservada.
+
+
+---
+
+## Caderno 05 (Eng. Software): Qualidade, Testes, Refatoração e Dívida Técnica
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/04_engenharia_de_software/05_qualidade_testes_refatoracao_e_divida_tecnica.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 050`**: Substituir pela questão real **`V3_FGV_TCE_SC_2026_Q3284`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo (TI)**
+  * **Conceito Aderente:** Ciclo canônico *Red-Green-Refactor* do TDD (*Test-Driven Development*) aplicado em sistemas de cálculo de pensões em Tribunal de Contas (escrever um teste que falha, escrever o código mínimo para fazê-lo passar e refatorar/melhorar o código).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 050`**: Simulado sobre o ciclo Red-Green-Refactor do TDD.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 043`** (Métricas de Confiabilidade: MTBF, MTTR, MTTF e cálculo de Disponibilidade): Preservada.
+* **`Teste 044`** (Pirâmide de Testes de Mike Cohn e Martin Fowler: Unidade, Integração e Ponta a Ponta): Preservada.
+* **`Teste 045`** (Taxonomia de Test Doubles de Gerard Meszaros: Mocks, Stubs, Dummies, Fakes e Spies): Preservada.
+* **`Teste 046`** (Técnicas de Teste Caixa-Preta: Classes de Equivalência e Análise de Valor Limite): Preservada.
+* **`Teste 047`** (Técnicas de Teste Caixa-Branca: Complexidade Ciclomática de McCabe e Cobertura de Código): Preservada.
+* **`Teste 048`** (Testes de Regressão e Automação de Suítes em Pipelines CI/CD): Preservada.
+* **`Teste 049`** (Testes Não Funcionais de Desempenho: Teste de Carga, Estresse, Pico e Resistência): Preservada.
+* **`Teste 051`** (Revisão de Código / Code Review por pares e Análise Estática com SonarQube): Preservada.
+* **`Teste 052`** (Refatoração segundo Martin Fowler e catálogo de *Code Smells*): Preservada.
+* **`Teste 053`** (Dívida Técnica de Ward Cunningham e Quadrante da Dívida Técnica de Martin Fowler): Preservada.
+
+
+---
+
+## Caderno 01 (Dev. Sistemas): Algoritmos, Estruturas de Dados e Paradigmas
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/01_algoritmos_estruturas_de_dados_e_paradigmas.md`
+* **Status:** Auditado e aprovado sem necessidade de substituição
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma.* (Não foram encontradas no banco vetorial questões reais oficiais recentes de TI abordando detalhadamente Árvores AVL, Tabelas Hash com fator de carga, Funções Puras / Imutabilidade funcional ou Notação Big-O com cenários comparativos de algoritmos).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 054`** (Recursão: Caso Base, Caso Recursivo e Estouro de Pilha / Stack Overflow): Preservada.
+* **`Teste 055`** (Complexidade de Algoritmos: Notação Big-O, limites assintóticos superior e temporal/espacial): Preservada.
+* **`Teste 056`** (Estruturas de Dados Lineares: Pilha LIFO vs Fila FIFO): Preservada.
+* **`Teste 057`** (Tabelas Hash: Função de dispersão, tratamento de colisões e Fator de Carga): Preservada.
+* **`Teste 058`** (Árvore Binária de Busca - BST: Propriedade de ordenação e percurso Em-Ordem): Preservada.
+* **`Teste 059`** (Árvore AVL: Fator de balanceamento e rotações simples/duplas para rebalanceamento): Preservada.
+* **`Teste 060`** (POO: Encapsulamento de estado e modificadores de visibilidade): Preservada.
+* **`Teste 061`** (POO: Polimorfismo, Sobrescrita de Método / Overriding e Sobrecarga / Overloading): Preservada.
+* **`Teste 062`** (POO: Distinções conceituais e arquiteturais entre Classes Abstratas e Interfaces): Preservada.
+* **`Teste 063`** (Programação Funcional: Funções Puras, ausência de efeitos colaterais e Transparência Referencial): Preservada.
+* **`Teste 064`** (Programação Funcional: Funções de Alta Ordem - Map, Filter e Reduce): Preservada.
+
+
+---
+
+## Caderno 02 (Dev. Sistemas): Linguagens de Programação (Java, JavaScript, Node.js e Python)
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/02_linguagens_java_javascript_nodejs_python.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 071`**: Substituir pela questão real **`V3_FGV_TJ_AP_2023_Q0539`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/AP – 2023 – Analista Judiciário (Desenvolvimento de Sistemas)
+  * **Conceito Aderente:** Manipulação avançada de listas em Python 3, indexação positiva e negativa (`L[k]`), função `range()` reversa com passo negativo e operador de módulo (`%`) sobre o tamanho da lista.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 071`**: Simulado sobre a sintaxe de fatiamento (*slicing*) em Python 3.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 065`** (JVM: Gerenciamento de Memória Stack vs Heap e ciclo do Garbage Collector): Preservada.
+* **`Teste 066`** (Linguagem Java: Modificadores `final`, `static`, `abstract` e encapsulamento): Preservada.
+* **`Teste 067`** (Hierarquia de Exceções em Java: `Throwable`, Checked Exceptions vs Unchecked / `RuntimeException`): Preservada.
+* **`Teste 068`** (Java Collections Framework: Distinções contratuais entre `List`, `Set` e `Map`): Preservada.
+* **`Teste 069`** (JavaScript: Escopo de variáveis `var`, `let`, `const`, Hoisting e Closures em laços assíncronos): Preservada.
+* **`Teste 070`** (JavaScript: Coerção implícita de tipos e diferença entre igualdade abstrata `==` e estrita `===`): Preservada.
+* **`Teste 072`** (Node.js: Arquitetura do Event Loop, Call Stack, Microtask Queue e Macrotask Queue): Preservada.
+* **`Teste 073`** (JavaScript/Node.js: Operações assíncronas com Promises, sintaxe `async/await` e tratamento de erros): Preservada.
+* **`Teste 074`** (Python 3: Estruturas sequenciais, Listas mutáveis vs Tuplas imutáveis e Dicionários): Preservada.
+* **`Teste 075`** (Python 3: Compreensão de Listas / *List Comprehensions*, filtragem e transformações funcionais): Preservada.
+
+
+---
+
+## Caderno 03 (Dev. Sistemas): Desenvolvimento Frontend (HTML5, CSS3, React e TypeScript)
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/03_desenvolvimento_frontend_html_css_react_typescript.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 076`**: Substituir pela questão real **`V3_FGV_TRT_DA_2025_Q1177`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TRT/DA – 2025 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** Novos recursos e especificações introduzidos pelo HTML5 (Microdados para semântica personalizada de vocabulário, API de Geolocalização, Server-Sent Events e WebSockets).
+* **`Teste 084`**: Substituir pela questão real **`V3_FGV_TCE_GO_2024_Q0296`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/GO – 2024 – Analista de Controle Externo (Tecnologia da Informação)**
+  * **Conceito Aderente:** Desenvolvimento de aplicações frontend em React, integração com bibliotecas de estilização CSS/Bootstrap e requisitos de importação/renderização de componentes.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 076`**: Simulado sobre HTML5 semântico e tags estruturais.
+* **`Teste 084`**: Simulado sobre virtual DOM e reconciliação com a propriedade `key` no React.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 077`** (Acessibilidade Web: Diretrizes WCAG 2.1 e especificação semântica WAI-ARIA): Preservada.
+* **`Teste 078`** (CSS3: Cálculo de especificidade de seletores e regras de cascata): Preservada.
+* **`Teste 079`** (CSS3 Box Model: Propriedade `box-sizing: border-box` vs `content-box`): Preservada.
+* **`Teste 080`** (CSS3 Flexbox: Eixo principal `justify-content` vs eixo transversal `align-items`): Preservada.
+* **`Teste 081`** (TypeScript: Tipagem segura, distinção entre `any` e `unknown` e *type narrowing*): Preservada.
+* **`Teste 082`** (TypeScript: `interface` vs `type alias` e o recurso exclusivo de *declaration merging*): Preservada.
+* **`Teste 083`** (TypeScript: *Utility Types* `Partial`, `Readonly`, `Pick` e `Omit`): Preservada.
+* **`Teste 085`** (React Hooks: Ciclo de vida com `useEffect`, array de dependências e função de cleanup): Preservada.
+* **`Teste 086`** (React Hooks: Otimização de performance com `useMemo`, `useCallback` e referências com `useRef`): Preservada.
+
+
+---
+
+## Caderno 04 (Dev. Sistemas): APIs RESTful, GraphQL, WebSockets e Documentação
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/04_apis_restful_graphql_websockets_documentacao.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 089`**: Substituir pela questão real **`V3_FGV_TRT_13_2022_Q2180`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TRT/13 – 2022 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** Propriedade de **Idempotência** em métodos HTTP (`PUT`), onde múltiplas requisições idênticas consecutivas produzem o mesmo estado final no servidor sem efeitos colaterais adicionais.
+* **`Teste 090`**: Substituir pela questão real **`V3_FGV_TJ_AP_2023_Q0564`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/AP – 2023 – Analista Judiciário (Desenvolvimento de Sistemas)
+  * **Conceito Aderente:** Semântica de verbos HTTP e códigos de status em APIs RESTful: requisição `PUT /recursos/1` com resposta `204 No Content` caracterizando atualização de recurso processada com sucesso.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 089`**: Simulado sobre métodos HTTP e idempotência.
+* **`Teste 090`**: Simulado sobre códigos de status HTTP 401 vs 403.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 087`** (REST: As 6 restrições arquiteturais canônicas de Roy Fielding): Preservada.
+* **`Teste 088`** (Modelo de Maturidade de Richardson: Do Nível 0 ao Nível 3 HATEOAS): Preservada.
+* **`Teste 091`** (URI Design e Boas Práticas: Substantivos no plural e hierarquia de recursos): Preservada.
+* **`Teste 092`** (GraphQL vs REST: Resolução de problemas de *Over-fetching* e *Under-fetching*): Preservada.
+* **`Teste 093`** (GraphQL: Tipos de operações do esquema - `Query`, `Mutation` e `Subscription`): Preservada.
+* **`Teste 094`** (WebSockets: Handshake via cabeçalho `Upgrade` e comunicação persistente full-duplex sobre TCP): Preservada.
+* **`Teste 095`** (Server-Sent Events - SSE vs WebSockets: Transmissão unidirecional em tempo real sobre HTTP): Preservada.
+* **`Teste 096`** (Formato JSON: Tipos de dados suportados, serialização e deserialização): Preservada.
+* **`Teste 097`** (OpenAPI / Swagger: Especificação padronizada declarativa de endpoints, parâmetros e schemas): Preservada.
+
+
+---
+
+## Caderno 05 (Dev. Sistemas): Autenticação, Identidade, OAuth 2.0, OIDC e JWT
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/05_autenticacao_identidade_oauth2_oidc_jwt.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 100`**: Substituir pela questão real **`V3_FGV_TRT_13_2022_Q2200`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TRT/13 – 2022 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** As quatro funções operacionais canônicas (*roles*) padronizadas na RFC 6749 do protocolo OAuth 2.0: *resource owner*, *resource server*, *client* e *authorization server*.
+* **`Teste 101`**: Substituir pela questão real **`V3_FGV_TJ_AP_2023_Q0534`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/AP – 2023 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** Fluxo de concessão por código de autorização (*Authorization Code Grant*) no OAuth 2.0 e o valor obrigatório atribuído ao parâmetro `response_type=code` na requisição de autorização.
+* **`Teste 102`**: Substituir pela questão real **`V3_FGV_TJ_AP_2023_Q0566`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/AP – 2023 – Analista Judiciário (Desenvolvimento de Sistemas)
+  * **Conceito Aderente:** Autenticação máquina-para-máquina (M2M) autônoma em clientes OpenID Connect/OAuth 2.0 no Keycloak, com habilitação de contas de serviço (*service accounts*) sem envolvimento de usuário final.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 100`**: Simulado sobre os 4 papéis do OAuth 2.0.
+* **`Teste 101`**: Simulado sobre Authorization Code Grant e PKCE.
+* **`Teste 102`**: Simulado sobre Client Credentials Grant para rotinas batch.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 098`** (Fundamentos de Segurança: Autenticação AuthN vs Autorização AuthZ): Preservada.
+* **`Teste 099`** (Autenticação Multifator - MFA: Fatores de Conhecimento, Posse e Inerência): Preservada.
+* **`Teste 103`** (OAuth 2.0 PKCE: Prevenção de roubo de código de autorização com `code_verifier` e `code_challenge` S256): Preservada.
+* **`Teste 104`** (OpenID Connect - OIDC 1.0: Camada de identidade sobre OAuth 2.0 e o artefato `ID Token`): Preservada.
+* **`Teste 105`** (JSON Web Token - JWT: Estrutura em três partes codificadas em Base64URL - Header, Payload e Signature): Preservada.
+* **`Teste 106`** (Validação de JWT: Verificação de integridade criptográfica e auditoria de claims temporais): Preservada.
+* **`Teste 107`** (Armazenamento Seguro de Tokens: Cookies `HttpOnly`, `Secure` e `SameSite` vs `localStorage`, e modelos RBAC/ABAC): Preservada.
+
+
+---
+
+## Caderno 06 (Dev. Sistemas): Git, Gerenciamento de Dependências e Empacotamento
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/06_git_gerenciamento_de_dependencias_e_empacotamento.md`
+* **Status:** Auditado e aprovado sem necessidade de substituição
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma.* (Não foram identificadas no banco vetorial questões reais oficiais de concursos pós-2022 de TI abordando detalhadamente objetos internos do Git, `git stash`, `git reset --soft/--mixed/--hard`, versionamento SemVer, `npm ci`, ciclo de vida do Maven ou *Tree Shaking* com Vite/Webpack).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 108`** (Git Internals: Modelo de objetos *Content-Addressable*, Blobs, Trees, Commits e Tags): Preservada.
+* **`Teste 109`** (As Três Áreas do Git: *Working Directory*, *Staging Area/Index* e *Repository*): Preservada.
+* **`Teste 110`** (Estratégias de Integração: `git merge` não-destrutivo vs `git rebase` linear): Preservada.
+* **`Teste 111`** (Manipulação de Histórico com `git reset`: Modos `--soft`, `--mixed` e `--hard`): Preservada.
+* **`Teste 112`** (Salvamento Temporário de Trabalho com `git stash` e seus subcomandos): Preservada.
+* **`Teste 113`** (Gerenciamento de Dependências: Dependências Transitivas e resolução de conflitos de versão): Preservada.
+* **`Teste 114`** (Versionamento Semântico / SemVer: Regras normativas de alteração de `MAJOR.MINOR.PATCH`): Preservada.
+* **`Teste 115`** (Gerenciadores de Pacotes: O comando `npm ci` e a garantia de builds reprodutíveis via `package-lock.json`): Preservada.
+* **`Teste 116`** (Apache Maven: O arquivo `pom.xml` e as fases canônicas do *Build Lifecycle*): Preservada.
+* **`Teste 117`** (Ferramentas de Empacotamento Web: A inovação arquitetural do Vite com ES Modules nativos via esbuild): Preservada.
+* **`Teste 118`** (Otimização de Bundling: Técnica de *Tree Shaking* para eliminação de código morto baseada na sintaxe estática de ES Modules): Preservada.
+
+
+---
+
+## Caderno 01 (IA & Agentivos): Fundamentos de LLMs, Intent-Based e Engenharia de Prompts
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/06_engenharia_software_ia_e_sistemas_agentivos/01_fundamentos_llms_intent_based_e_engenharia_de_prompts.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 120`**: Substituir pela questão real **`V3_FGV_TCE_PA_2024_Q2621`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/PA – 2024 – Auditor de Controle Externo (Ciência de Dados / TI)**
+  * **Conceito Aderente:** As três famílias arquiteturais originárias do modelo *Transformer* para LLMs: modelos *Decoder-only* (GPT) para geração textual autoregressiva; modelos *Encoder-only* (BERT) para compreensão contextual e classificação; e modelos *Encoder-Decoder* (T5) para transformação e síntese de sequências.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 120`**: Simulado sobre as três famílias de Transformers (Encoder, Decoder e Seq2Seq).
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 119`** (Arquitetura Transformer: Mecanismo de Autoatenção / *Self-Attention*, matrizes Q, K, V e projeções escaladas): Preservada.
+* **`Teste 121`** (Pipeline de Treinamento de LLMs: Pré-treinamento auto-supervisionado, Fine-Tuning Supervisionado - SFT e Alinhamento por RLHF/DPO): Preservada.
+* **`Teste 122`** (Hiperparâmetros de Inferência: Temperatura, *Top-p* / *Nucleus Sampling* e *Top-k* para balanceamento de determinismo e criatividade): Preservada.
+* **`Teste 123`** (Evolução de Paradigmas: Programação Imperativa Clássica vs Assistida por IA vs Programação Baseada em Intenção): Preservada.
+* **`Teste 124`** (Programação Baseada em Intenção / *Intent-Based Programming*: Especificação declarativa em linguagem natural e síntese de código): Preservada.
+* **`Teste 125`** (Engenharia de Prompts: Estrutura e precedência de mensagens - *System Prompt*, *User Prompt* e *Assistant Context*): Preservada.
+* **`Teste 126`** (Técnicas Avançadas de Prompting: *Zero-Shot*, *Few-Shot*, *Chain-of-Thought* / CoT e *Self-Consistency*): Preservada.
+* **`Teste 127`** (Limites de Contexto e Atenção: O fenômeno empírico *Lost in the Middle* em janelas longas de contexto): Preservada.
+* **`Teste 128`** (Segurança e Vulnerabilidades em LLMs: Injeção de Prompt / *Prompt Injection* direta e indireta, vazamento de contexto e *Jailbreaks*): Preservada.
+
+
+---
+
+## Caderno 02 (IA & Agentivos): Arquitetura de Sistemas Agentivos e Ferramentas CLI / IDE
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/06_engenharia_software_ia_e_sistemas_agentivos/02_arquitetura_de_sistemas_agentivos_e_ferramentas_cli_ide.md`
+* **Status:** Auditado e aprovado sem necessidade de substituição
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma.* (Tópico de ponta emergente no edital do TCE-GO; não há no histórico de concursos de TI questões oficiais abordando arquitetura canônica de 4 pilares de agentes, *The Agentic Loop*, *Stop Conditions* / disjuntores de agentes, arquiteturas multiagente hierárquicas ou governança de ferramentas agentivas CLI/IDE).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 129`** (Transição de Chatbots Passivos para Sistemas Agentivos Orientados a Objetivos): Preservada.
+* **`Teste 130`** (Arquitetura Canônica de 4 Pilares: Modelo, Memória, Ferramentas e Planejamento): Preservada.
+* **`Teste 131`** (Comparativo Arquitetural: Assistentes Agentivos CLI vs Extensões de IDE): Preservada.
+* **`Teste 132`** (The Agentic Loop: Ciclo contínuo de Percepção, Raciocínio, Ação, Observação e Reflexão): Preservada.
+* **`Teste 133`** (Fase de Percepção e Descoberta de Contexto em Projetos de Software): Preservada.
+* **`Teste 134`** (Planejamento e Decomposição de Metas / *Task Decomposition* em Subtarefas): Preservada.
+* **`Teste 135`** (Fase de Ação e Uso de Ferramentas / *Tool Calling* em Terminal e Código): Preservada.
+* **`Teste 136`** (Critérios de Parada / *Stop Conditions* e Disjuntores contra Loops Infinitos de Agentes): Preservada.
+* **`Teste 137`** (Arquiteturas Multiagente Hierárquicas: Agente Orquestrador delegando a Subagentes Especialistas): Preservada.
+* **`Teste 138`** (Governança, Menor Privilégio e Mecanismos *Human-in-the-Loop* em Agentes Autônomos): Preservada.
+
+
+---
+
+## Caderno 01 (Dir. Administrativo): Regime Jurídico, Princípios e LINDB
+* **Arquivo:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/01_regime_juridico_principios_e_lindb.md`
+* **Status:** Auditado e aprovado com 4 questões oficiais consolidadas e 7 autorais preservadas
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma nova injeção requerida.* O caderno já conta com quatro questões reais oficiais plenamente integradas:
+  * **`Teste 003`**: Questão Oficial FCC (TRT-9 2015 - Princípios do Direito Administrativo).
+  * **`Teste 007`**: Questão Oficial FCC (TRT-9 2015 - Princípio da Autotutela e Súmula 473 do STF).
+  * **`Teste 008`**: Questão Oficial FGV (TRT 2024 - Princípios da Legalidade, Moralidade e Boa-Fé).
+  * **`Teste 010`**: Questão Oficial FGV (TJ-MT 2024 - LINDB no Judiciário).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 001`** (Conceito e Sentidos de Administração Pública: Sentido Subjetivo/Formal/Orgânico vs Objetivo/Material/Funcional): Preservada.
+* **`Teste 002`** (Regime Jurídico-Administrativo: Princípio da Supremacia do Interesse Público sobre o Privado e Princípio da Indisponibilidade do Interesse Público): Preservada.
+* **`Teste 004`** (Princípio da Impessoalidade e Publicidade Institucional: Vedação de nomes, símbolos e imagens para promoção pessoal de autoridades no art. 37, § 1º da CF/88): Preservada.
+* **`Teste 005`** (Princípio da Moralidade Administrativa e Súmula Vinculante nº 13 do STF sobre Nepotismo em cargos de comissão e confiança): Preservada.
+* **`Teste 006`** (Princípio da Eficiência: Emenda Constitucional nº 19/1998, produtividade, celeridade e desburocratização no serviço público): Preservada.
+* **`Teste 009`** (Princípio da Motivação e Teoria dos Motivos Determinantes: Vinculação da validade do ato administrativo aos motivos fáticos e jurídicos alegados na portaria): Preservada.
+* **`Teste 011`** (Segurança Jurídica na LINDB: Artigos 20 a 30 da Lei nº 13.655/2018, consideração das consequências práticas da decisão, vedação de anulação baseada em valores jurídicos abstratos e erro grosseiro): Preservada.
+
+
+---
+
+## Caderno 02 (Dir. Administrativo): Organização Administrativa e Poderes
+* **Arquivo:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/02_organizacao_administrativa_e_poderes.md`
+* **Status:** Auditado e aprovado com questão oficial FGV 2022 consolidada e 10 autorais preservadas
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma nova injeção requerida.* O caderno já conta com questão oficial FGV plenamente integrada:
+  * **`Teste 012`**: Questão Oficial FGV (TRT 2022 - Descentralização administrativa por serviços vs Desconcentração de órgãos internos).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 013`** (Autarquias: Criação direta por lei específica, personalidade jurídica de direito público, patrimônio próprio, regime estatutário e controle finalístico por tutela/supervisão ministerial): Preservada.
+* **`Teste 014`** (Empresas Públicas e Sociedades de Economia Mista: Distinções de regime jurídico, forma societária, foro processual e participação de capital público vs privado): Preservada.
+* **`Teste 015`** (Estatuto Jurídico das Estatais - Lei nº 13.303/2016: Governança corporativa, vedações a indicações políticas para diretorias e conselho de administração): Preservada.
+* **`Teste 016`** (Fundações Públicas: Personalidade de direito público ou privado, área de atuação delimitada por lei complementar e regime híbrido de bens e pessoal): Preservada.
+* **`Teste 017`** (Terceiro Setor e Entidades Paraestatais: Regime de cooperação com Organizações Sociais - OS via Contrato de Gestão e OSCIPs via Termo de Parceria): Preservada.
+* **`Teste 018`** (Poder Hierárquico: Relações de subordinação interna, delegação e avocação de competências nos termos do regime de processo administrativo): Preservada.
+* **`Teste 019`** (Poder Disciplinar: Apuração de faltas funcionais, sanções a servidores públicos estatutários e a particulares sujeitos a vínculo contratual específico): Preservada.
+* **`Teste 020`** (Poder Regulamentar e Normativo: Decretos de regulamentação do Chefe do Executivo vs Decretos Autônomos nos termos do art. 84, VI da CF/88): Preservada.
+* **`Teste 021`** (Poder de Polícia: Conceito, competência, atributos de discricionariedade, autoexecutoriedade e coercibilidade, e limites da sanção administrativa): Preservada.
+* **`Teste 022`** (Abuso de Poder: Diferenciação dogmática entre Excesso de Poder - vício no elemento competência vs Desvio de Finalidade / Desvio de Poder - vício no elemento finalidade pública): Preservada.
+
+
+---
+
+## Caderno 03 (Dir. Administrativo): Atos Administrativos e Processo Estadual
+* **Arquivo:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/03_atos_administrativos_e_processo_estadual.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 030`**: Substituído pela questão real **`V3_FGV_TRF_1_2024_Q1095`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TRF/1 – 2024 – Analista Judiciario (Area Apoio Especializado)**
+  * **Conceito Aderente:** Extinção do ato administrativo por contraposição (ou derrubada), decorrente da superveniência de ato administrativo posterior com efeitos jurídicos frontalmente incompatíveis com o ato precedente (ex.: o ato de exoneração que extingue o ato anterior de nomeação de servidor).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 030`**: Simulado sobre as modalidades de extinção do ato administrativo (caducidade, cassação, contraposição).
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 023`** (Teoria dos Três Planos do Ato Administrativo: Existência, Validade e Eficácia no Direito Público): Preservada.
+* **`Teste 024`** (Elementos/Requisitos de Validade do Ato: Competência, Finalidade, Forma, Motivo e Objeto nos termos da Lei da Ação Popular): Preservada.
+* **`Teste 025`** (Vícios de Validade: Incompetência e convalidação via ratificação vs Usurpação de função e Desvio de Finalidade): Preservada.
+* **`Teste 026`** (Atributos do Ato Administrativo: Presunção de Legitimidade e Veracidade, Imperatividade, Autoexecutoriedade e Tipicidade): Preservada.
+* **`Teste 027`** (Autoexecutoriedade em Ações de Polícia Sanitária e Limites de Exigibilidade e Execução Direta sem ordem judicial): Preservada.
+* **`Teste 028`** (Classificação dos Atos Administrativos quanto à Formação da Vontade: Atos Simples, Atos Compostos e Atos Complexos): Preservada.
+* **`Teste 029`** (Aposentadoria de Servidor perante Tribunal de Contas como Ato Complexo canônico segundo a jurisprudência do STF): Preservada.
+* **`Teste 031`** (Invalidação e Convalidação: Anulação de atos ilegais ex tunc vs Revogação de atos discricionários válidos e inconvenientes ex nunc): Preservada.
+* **`Teste 032`** (Delegação e Avocação de Competências: Vedações legais da edição de atos normativos, decisão de recursos administrativos e competência exclusiva): Preservada.
+* **`Teste 033`** (Processo Administrativo Estadual de Goiás - Lei nº 13.800/2001: Princípios do devido processo legal, gratuidade e direito à ampla defesa): Preservada.
+
+
+---
+
+## Caderno 04 (Dir. Administrativo): Serviços Públicos, Bens e Responsabilidade Civil
+* **Arquivo:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/04_servicos_publicos_bens_e_responsabilidade_civil.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 035`**: Substituído pela questão real **`V3_FGV_TJ_AP_2023_Q0494`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TJ/AP – 2023 – Analista Judiciario (Apoio Especializado)**
+  * **Conceito Aderente:** Fundamentos da Responsabilidade Civil Extracontratual do Estado sob a égide do art. 37, § 6º da CF/88: consagração da Teoria do Risco Administrativo, impondo responsabilidade civil OBJETIVA às pessoas jurídicas de direito público e delegatárias, admitindo a comprovação de causas excludentes do nexo de causalidade.
+* **`Teste 037`**: Substituído pela questão real **`V3_FGV_TRT_1_2024_Q1062`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TRT/1 – 2024 – Analista Judiciário (Área Administrativa)**
+  * **Conceito Aderente:** Orientação vinculante do STF sobre Responsabilidade Civil do Estado e legitimidade passiva (Tema 940 de Repercussão Geral): a ação indenizatória deve ser ajuizada estritamente contra o Estado, sendo o agente público parte passiva ilegítima, cabendo ação regressiva contra o servidor nos casos comprovados de dolo ou culpa.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 035`**: Simulado comparativo entre a Teoria do Risco Administrativo e a Teoria do Risco Integral.
+* **`Teste 037`**: Simulado sobre acidente de trânsito com viatura de tribunal e regresso contra o servidor.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 034`** (Responsabilidade Civil do Estado por Atos Comissivos de seus Agentes: Nexo causal, dano material/moral e desnecessidade de dolo ou culpa): Preservada.
+* **`Teste 036`** (Responsabilidade Civil do Estado por Omissão: Distinção entre Omissão Genérica - culpa anônima/subjetiva vs Omissão Específica - dever legal de custódia e proteção): Preservada.
+* **`Teste 038`** (Princípios dos Serviços Públicos na Lei nº 8.987/1995: Serviço adequado e princípios da continuidade, regularidade, atualidade e modicidade tarifária): Preservada.
+* **`Teste 039`** (Regimes de Delegação de Serviços Públicos: Concessão comum precedida de licitação modalidade concorrência vs Permissão precária): Preservada.
+* **`Teste 040`** (Extinção dos Contratos de Concessão de Serviços Públicos: Encampação por interesse público mediante lei autorizativa vs Caducidade por inadimplemento): Preservada.
+* **`Teste 041`** (Parcerias Público-Privadas - Lei nº 11.079/2004: Concessão Patrocinada com tarifa do usuário mais contraprestação pública vs Concessão Administrativa): Preservada.
+* **`Teste 042`** (Classificação dos Bens Públicos no Código Civil art. 99: Bens de uso comum do povo, bens de uso especial e bens dominicais): Preservada.
+* **`Teste 043`** (Afetação e Desafetação de Bens Públicos: Consagração ao serviço público e alienação condicionada de bens dominicais): Preservada.
+* **`Teste 044`** (Regime Jurídico dos Bens Públicos: Inalienabilidade relativa, impenhorabilidade, não-onerabilidade e imprescritibilidade imune a usucapião): Preservada.
+
+
+---
+
+## Caderno 05 (Dir. Administrativo): Controle da Administração e Improbidade Administrativa
+* **Arquivo:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/05_controle_da_administracao_e_improbidade_administrativa.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 053`**: Substituído pela questão real **`V3_FGV_TRT_DA_24__REGI_O_2025_Q0915`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TRT da 24º Região – 2025 – Analista Judiciário (Área Administrativa - Contabilidade)**
+  * **Conceito Aderente:** Tipologia dos atos de improbidade administrativa na Lei nº 8.429/1992 com as reformas estruturais da Lei nº 14.230/2021: enquadramento exato das condutas de Prejuízo ao Erário (art. 10), Atentado aos Princípios da Administração Pública (art. 11) e Enriquecimento Ilícito (art. 9º).
+* **`Teste 054`**: Substituído pela questão real **`V3_FGV_TCE_SC_2026_Q3267`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo (TI - Ciências da Computação)**
+  * **Conceito Aderente:** Sanções pecuniárias e limites legais na Lei de Improbidade Administrativa (art. 12, III): aplicação de multa civil de até 24 vezes a remuneração para atos dolosos que atentam contra os princípios da administração pública (art. 11, VIII - descumprir normas de parcerias com entidades privadas).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 053`**: Simulado sobre as três modalidades de atos de improbidade administrativa na reforma da Lei 14.230/2021.
+* **`Teste 054`**: Simulado sobre a revogação do rol exemplificativo do art. 11 e a exigência de dolo específico.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 045`** (Sistemática Constitucional de Controle Interno e Externo nos arts. 70 a 75 da CF/88): Preservada.
+* **`Teste 046`** (Eficácia de Título Executivo Extrajudicial dos Acórdãos de Tribunais de Contas que imputam débito e multa): Preservada.
+* **`Teste 047`** (Competências Constitucionais Privativas dos Tribunais de Contas: Julgamento de contas de gestores vs Parecer prévio sobre contas de Chefes do Executivo): Preservada.
+* **`Teste 048`** (Tomada de Contas Especial / TCE perante o Tribunal de Contas de Goiás: Procedimento apuratório de omissão e desvio de verbas): Preservada.
+* **`Teste 049`** (Controle Judicial dos Atos Administrativos: Mandado de Segurança individual e coletivo para tutela de direito líquido e certo): Preservada.
+* **`Teste 050`** (Ação Popular - Lei nº 4.717/1965 e Ação Civil Pública - Lei nº 7.347/1985 para proteção da moralidade e patrimônio público): Preservada.
+* **`Teste 051`** (Conceito Amplo de Agente Público na Lei de Improbidade: Estagiários, terceirizados e particulares em colaboração com o poder público): Preservada.
+* **`Teste 052`** (Exigência Universal de Dolo Específico: Extinção definitiva da modalidade culposa de improbidade administrativa pela Lei nº 14.230/2021): Preservada.
+* **`Teste 055`** (Legitimidade Processual Ativa Exclusiva do Ministério Público para a Ação de Improbidade Administrativa conforme decisão do STF na ADI 7042): Preservada.
+
+
+---
+
+## Caderno 06 (Dir. Administrativo): Acesso à Informação e Contratos de Publicidade
+* **Arquivo:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/06_acesso_a_informacao_e_contratos_publicidade.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 056`**: Substituído pela questão real **`V3_FGV_TJ_SC_2026_Q0078`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TJ/SC – 2026 – Analista Administrativo**
+  * **Conceito Aderente:** Lei de Acesso à Informação (Lei Federal nº 12.527/2011) e Lei de Responsabilidade Fiscal: distinção jurídica e operacional entre Transparência Ativa (divulgação espontânea no portal oficial sem necessidade de solicitação) e Transparência Passiva (fornecimento de informações e documentos mediante requerimento formal no SIC).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 056`**: Simulado sobre as diretrizes gerais e a cultura de transparência como regra na Lei de Acesso à Informação.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 057`** (Transparência Ativa na Remuneração de Servidores Públicos: Legitimidade da divulgação de nomes e vencimentos brutos segundo jurisprudência vinculante do STF): Preservada.
+* **`Teste 058`** (Procedimento de Acesso à Informação: Prazos legais de resposta imediata ou até 20 dias prorrogáveis por 10 dias justificadamente perante o SIC): Preservada.
+* **`Teste 059`** (Recursos Administrativos contra o Indeferimento de Acesso à Informação: Prazos e instâncias recursais no âmbito executivo): Preservada.
+* **`Teste 060`** (Classificação de Sigilo de Informações na LAI: Prazos máximos legais - Ultrassecreta 25 anos, Secreta 15 anos e Reservada 5 anos): Preservada.
+* **`Teste 061`** (Competência Funcional para Classificação de Sigilo no âmbito da Administração Pública Estadual): Preservada.
+* **`Teste 062`** (Proteção de Informações Pessoais relativas à intimidade, honra e imagem: Restrição de acesso pelo prazo máximo de 100 anos nos termos do art. 31 da LAI): Preservada.
+* **`Teste 063`** (Regime Específico de Contratação de Publicidade - Lei nº 12.232/2010: Licitação obrigatória por Concorrência ou Concurso e vedação ao Pregão): Preservada.
+* **`Teste 064`** (Julgamento de Propostas Técnicas em Publicidade: Submissão de propostas desidentificadas a Subcomissão Técnica sorteada com membros externos): Preservada.
+* **`Teste 065`** (Subcontratação de Serviços Especializados em Contratos de Publicidade: Cotação de preços e regras de faturamento direto): Preservada.

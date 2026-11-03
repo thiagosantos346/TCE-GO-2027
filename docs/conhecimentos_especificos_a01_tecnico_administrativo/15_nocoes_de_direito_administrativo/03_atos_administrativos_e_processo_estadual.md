@@ -415,28 +415,29 @@ A convalidação (ou sanatória) é o ato administrativo pelo qual a Administra�
 ---
 
 ### Teste 030
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Ao estudar as modalidades de extinção do ato administrativo no Direito Administrativo brasileiro, Júlia verificou a ocorrência de uma hipótese em que o beneficiário de uma licença outorgada pelo Poder Público descumpriu dolosamente as normas legais e condicionantes impostas no momento da expedição do ato. 
+**(FGV – TRF/1 – 2024 – Analista Judiciario - Area Apoio Especializado - Suporte em TI)**  
+Ao estudar as hipóteses de extinção do ato administrativo, Júlia verificou que há uma modalidade em que isso ocorre em razão da incompatibilidade do ato administrativo com outro posterior, tal como ocorre com a nomeação do servidor, que é extinta com a sua exoneração. Tal modalidade de extinção corresponde a:
 
-Nesse contexto doutrinário, a modalidade de desfazimento do ato administrativo decorrente da superveniente culpa do beneficiário denomina-se:
-
-* **A)** caducidade.
-* **B)** revogação.
-* **C)** cassação.
-* **D)** anulação.
+* **A)** recusa;
+* **B)** renúncia;
+* **C)** anulação;
+* **D)** revogação;
 * **E)** contraposição.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A caducidade ocorre quando uma lei nova superveniente torna ilegal a manutenção do ato administrativo emitido validamente no passado.
-> - **B)** **Incorreto**. A revogação decorre de juízo discricionário de conveniência e oportunidade da própria Administração sobre ato válido.
-> - **C)** **Correto**. A cassação é a extinção extintiva-sancionatória do ato administrativo decorrente do descumprimento, pelo particular beneficiário, de requisitos legais ou condições fáticas obrigatórias fixadas para a manutenção do benefício outorgado (ex.: hotel com alvará de funcionamento que passa a operar como casa de prostituição clandestina).
-> - **D)** **Incorreto**. A anulação pressupõe vício congênito de ilegalidade existente no momento da edição do ato.
-> - **E)** **Incorreto**. A contraposição (ou derrubada) ocorre quando um ato posterior com efeitos antagônicos extingue o ato anterior (ex.: exoneração extingue nomeação).
->
-> **Gabarito: C**
+> - **A) Incorreta.** A recusa decorre da manifestação expressa de vontade do administrado em não aceitar os efeitos favoráveis de um ato que dependia de sua aquiescência prévia.
+> - **B) Incorreta.** A renúncia é o ato pelo qual o próprio beneficiário abre mão voluntariamente de um direito previamente adquirido por ato administrativo precedente.
+> - **C) Incorreta.** A anulação (invalidação) opera ex tunc sobre atos que padecem de vício insanável de legalidade (art. 53 da Lei nº 9.784/1999 e Súmula 473 do STF).
+> - **D) Incorreta.** A revogação opera ex nunc com base em juízo de conveniência e oportunidade da Administração sobre atos discricionários válidos e eficazes.
+> - **E) CORRETA.** A **extinção por contraposição (ou derrubada)** ocorre quando um novo ato administrativo é validamente emitido com efeitos jurídicos frontalmente incompatíveis com um ato anterior, provocando a extinção automática deste último. O exemplo clássico da doutrina e da jurisprudência é o ato de **exoneração**, que se contrapõe diretamente e extingue os efeitos jurídicos do ato anterior de **nomeação**.
+> 
+> **Gabarito: E**
+
+---
+
 ### Teste 031
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em relação à invalidação, revogação e convalidação dos atos administrativos no ordenamento jurídico brasileiro, é correto afirmar que:
