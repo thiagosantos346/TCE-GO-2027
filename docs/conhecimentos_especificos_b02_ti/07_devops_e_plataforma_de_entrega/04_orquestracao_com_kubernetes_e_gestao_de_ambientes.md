@@ -182,16 +182,28 @@ A respeito das funções e interações entre esses componentes, assinale a afir
 ---
 
 ### Teste 205
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O modelo operacional do Kubernetes é fundamentado no princípio do Loop de Reconciliação Contínua (*Reconciliation Loop*). Esse mecanismo arquitetural opera continuamente por meio da seguinte dinâmica:
+**(FGV – TJ/RR – 2024 – Analista Judiciário - Infraestrutura de TI)**  
+No Kubernetes, há duas formas de aplicar mudanças na configuração de uma aplicação: imperativa e declarativa. Considere os dois comandos a seguir:
 
-* **A)** O administrador digita comandos no terminal a cada dez segundos para manter os servidores ligados.
-* **B)** Os controladores (*controllers*) observam o estado atual do cluster (*current state*), comparam-no com o estado desejado (*desired state*) declarado nos manifestos de configuração e executam ações automatizadas de convergência para fazer com que o estado atual se iguale ao estado desejado.
-* **C)** O cluster apaga todos os bancos de dados caso a energia elétrica oscile.
-* **D)** O sistema interrompe todo o tráfego de rede caso detecte um Pod com consumo de memória inferior a 50%. garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
-* **E)** Os servidores são formatados diariamente para eliminar arquivos temporários.
+1: `kubectl create -f exemplo.yaml`  
+2: `kubectl apply -f exemplo-deployment.yaml`  
 
+Nesse caso, é correto afirmar que:
 
+* **A)** 1 é um exemplo de comando declarativo, em que o kubectl especifica a operação que se deseja aplicar.
+* **B)** 2 é um exemplo de comando imperativo, em que o kubectl especifica a operação que se deseja aplicar.
+* **C)** 2 é um exemplo de comando imperativo, em que o usuário não define que operações serão executadas.
+* **D)** 1 é um exemplo de comando declarativo, em que o sistema do Kubernetes decidirá a melhor forma de aplicá-lo.
+* **E)** 2 é um exemplo de comando declarativo, em que o sistema do Kubernetes decidirá a melhor forma de aplicá-lo.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A, B, C e D) Incorretas.** O comando `kubectl create` é imperativo (instrui o cluster a criar o recurso explicitamente; falha se o recurso já existir). Já o comando `kubectl apply` é a abordagem declarativa padrão da gerência de configuração no Kubernetes: opera sobre o arquivo de configuração e reconcilia o estado do cluster com base na especificação declarada, cabendo ao Kubernetes determinar as operações necessárias para convergir o estado atual ao estado desejado.
+> - **E) Correta.** O comando 2 (`kubectl apply`) exemplifica o gerenciamento declarativo de objetos. O usuário fornece o manifesto com o estado final pretendido e o Kubernetes infere as alterações necessárias (criação, patch ou atualização de campos) para alcançar esse estado.
+>
+> **Gabarito: E**
 ---
 
 > **Comentário Detalhado:**
@@ -330,16 +342,27 @@ Os objetos e controladores do Kubernetes mais indicados para atender aos cenári
 ---
 
 ### Teste 208
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em um cluster Kubernetes corporativo, a equipe de operações necessita assegurar que exatamente uma cópia de um Pod de coleta de logs (como o Fluentd) e de um agente de monitoramento de infraestrutura execute em **todos** os nós de trabalho (*Worker Nodes*), inclusive sendo provisionado automaticamente em novos nós adicionados ao cluster. O objeto controlador do Kubernetes concebido especificamente para esse propósito é o:
+**(FGV – TJ/DFT – 2022 – Analista Judiciário - Suporte em TI)**  
+A analista Ana precisa implantar o pod `LogPod` no cluster de Kubernetes `KCluster` do TJDFT de forma que todos os nós elegíveis do `KCluster` executem uma cópia do `LogPod`.
 
-* **A)** *Job*
-* **B)** *StatefulSet*
-* **C)** *DaemonSet*
-* **D)** *ReplicaSet*
-* **E)** *CronJob*
+Para que o `KCluster` apresente uma cópia do `LogPod` em cada nó elegível, de forma automática, Ana deve implantar o `LogPod` utilizando o recurso do Kubernetes:
 
+* **A)** ReplicationController;
+* **B)** ReplicaSet;
+* **C)** StatefulSet;
+* **D)** DaemonSet;
+* **E)** EndpointSlice.
 
+---
+
+> **Comentário Detalhado:**
+>
+> - **A e B) Incorretas.** `ReplicationController` e `ReplicaSet` gerenciam uma quantidade determinada de réplicas e as distribuem pelo cluster conforme os algoritmos de escalonamento do scheduler, sem garantir que haja uma réplica em cada nó físico/trabalhador.
+> - **C) Incorreta.** O `StatefulSet` gerencia aplicações com estado que exigem identidade de rede e volumes persistentes exclusivos e ordenados.
+> - **D) Correta.** O **`DaemonSet`** assegura que todos (ou um subconjunto selecionado de) nós executem uma cópia de um Pod. Conforme novos nós são adicionados ao cluster, Pods são criados automaticamente neles. Esse é o padrão arquitetural ideal para coletores de logs (ex: Fluentd, Logstash), agentes de monitoramento e plugins de storage/rede.
+> - **E) Incorreta.** `EndpointSlice` é um recurso de rede para agrupar endpoints de rede do Kubernetes de forma escalável.
+>
+> **Gabarito: D**
 ---
 
 > **Comentário Detalhado:**
@@ -507,18 +530,28 @@ flowchart TD
 ---
 
 ### Teste 211
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere uma aplicação Java rodando em um contêiner no Kubernetes que, devido a um vazamento severo de conexões com o banco de dados, parou completamente de responder às requisições da rede e entrou em estado de deadlock irrecuperável. No manifesto de implantação da aplicação, foram configuradas sondas do tipo `livenessProbe` e `readinessProbe`.
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - TI)**  
+O Tribunal está migrando seus serviços de auditoria contínua para um cluster Kubernetes (K8s). Durante um teste de carga, um Auditor de TI observa que, embora o Horizontal Pod Autoscaler (HPA) esteja criando novas réplicas dos Pods, o tempo de resposta continua alto porque o tráfego não está sendo distribuído eficientemente entre as novas instâncias.
 
-Diante da falha contínua da verificação realizada pela sonda `livenessProbe`, a ação executada pelo agente `kubelet` será:  
+Para garantir que o tráfego seja enviado apenas para Pods que já completaram sua rotina de inicialização e carregamento de cache, a seguinte configuração do Kubernetes deve ser rigorosamente auditada e ajustada:
 
-* **A)** Ignorar a falha, registrando apenas uma linha de advertência no arquivo de log do sistema hospedeiro.
-* **B)** Enviar uma requisição para a AWS solicitando a compra de mais memória física para o cluster.
-* **C)** Encerrar o contêiner em falha e reiniciá-lo automaticamente, buscando restaurar a operacionalidade da aplicação.
-* **D)** Manter o contêiner em execução e apenas remover temporariamente seu endereço IP da lista de Endpoints do Service, sem efetuar o reinício do processo.
-* **E)** Desinstalar o sistema operacional Linux do nó de trabalho e formatar o disco rígido principal.
+* **A)** Liveness Probe.
+* **B)** Resource Quotas.
+* **C)** Readiness Probe.
+* **D)** ConfigMaps.
+* **E)** Node Selector.
 
+---
 
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** A `Liveness Probe` verifica se o contêiner está vivo e em execução operacional saudável. Se ela falhar repetidamente, o `kubelet` reinicia o contêiner. Ela não serve primariamente para aguardar o aquecimento inicial ou segurar o tráfego de rede.
+> - **B) Incorreta.** `Resource Quotas` estabelecem limites globais de consumo de CPU/Memória/Objetos por namespace.
+> - **C) Correta.** A **`Readiness Probe`** indica se o contêiner está pronto para receber requisições de rede. Se a sonda de prontidão falhar, o Pod não é reiniciado, mas seu endereço IP é imediatamente removido dos Endpoints dos Services correspondentes, garantindo que o tráfego só seja roteado para Pods com inicialização e cache concluídos.
+> - **D) Incorreta.** `ConfigMaps` desacoplam configurações do código de aplicação.
+> - **E) Incorreta.** `Node Selector` restringe em quais nós de infraestrutura um Pod pode ser agendado.
+>
+> **Gabarito: C**
 ---
 
 > **Comentário Detalhado:**

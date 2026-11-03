@@ -19086,7 +19086,7 @@
     "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
     "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
     "target_topico": "Containers e orquestração: Docker e Kubernetes",
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_04_k8s",
     "llm_classified": true,
     "conceitos_fundamentais": [
       "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
@@ -23445,7 +23445,7 @@
     "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
     "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
     "target_topico": "Containers e orquestração: Docker e Kubernetes",
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_04_k8s",
     "llm_classified": true,
     "conceitos_fundamentais": [
       "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
@@ -44109,7 +44109,7 @@
     "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
     "target_topico": "Containers e orquestração: Docker e Kubernetes",
     "llm_classified": true,
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_04_k8s",
     "conceitos_fundamentais": [
       "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
       "Containers e orquestração: Docker e Kubernetes",
