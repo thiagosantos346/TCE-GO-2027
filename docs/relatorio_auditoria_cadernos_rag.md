@@ -17,6 +17,7 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 03 (Eng. Software): Arquitetura de Software e Princípios SOLID](#caderno-03-eng-software-arquitetura-de-software-e-princípios-solid)
 - [Caderno 04 (Eng. Software): Padrões de Projeto (Design Patterns - GoF)](#caderno-04-eng-software-padrões-de-projeto-design-patterns---gof)
 - [Caderno 05 (Eng. Software): Qualidade, Testes, Refatoração e Dívida Técnica](#caderno-05-eng-software-qualidade-testes-refatoração-e-dívida-técnica)
+- [Caderno 01 (Dev. Sistemas): Algoritmos, Estruturas de Dados e Paradigmas](#caderno-01-dev-sistemas-algoritmos-estruturas-de-dados-e-paradigmas)
 
 ---
 
@@ -451,3 +452,29 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 051`** (Revisão de Código / Code Review por pares e Análise Estática com SonarQube): Preservada.
 * **`Teste 052`** (Refatoração segundo Martin Fowler e catálogo de *Code Smells*): Preservada.
 * **`Teste 053`** (Dívida Técnica de Ward Cunningham e Quadrante da Dívida Técnica de Martin Fowler): Preservada.
+
+
+---
+
+## Caderno 01 (Dev. Sistemas): Algoritmos, Estruturas de Dados e Paradigmas
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/01_algoritmos_estruturas_de_dados_e_paradigmas.md`
+* **Status:** Auditado e aprovado sem necessidade de substituição
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma.* (Não foram encontradas no banco vetorial questões reais oficiais recentes de TI abordando detalhadamente Árvores AVL, Tabelas Hash com fator de carga, Funções Puras / Imutabilidade funcional ou Notação Big-O com cenários comparativos de algoritmos).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 054`** (Recursão: Caso Base, Caso Recursivo e Estouro de Pilha / Stack Overflow): Preservada.
+* **`Teste 055`** (Complexidade de Algoritmos: Notação Big-O, limites assintóticos superior e temporal/espacial): Preservada.
+* **`Teste 056`** (Estruturas de Dados Lineares: Pilha LIFO vs Fila FIFO): Preservada.
+* **`Teste 057`** (Tabelas Hash: Função de dispersão, tratamento de colisões e Fator de Carga): Preservada.
+* **`Teste 058`** (Árvore Binária de Busca - BST: Propriedade de ordenação e percurso Em-Ordem): Preservada.
+* **`Teste 059`** (Árvore AVL: Fator de balanceamento e rotações simples/duplas para rebalanceamento): Preservada.
+* **`Teste 060`** (POO: Encapsulamento de estado e modificadores de visibilidade): Preservada.
+* **`Teste 061`** (POO: Polimorfismo, Sobrescrita de Método / Overriding e Sobrecarga / Overloading): Preservada.
+* **`Teste 062`** (POO: Distinções conceituais e arquiteturais entre Classes Abstratas e Interfaces): Preservada.
+* **`Teste 063`** (Programação Funcional: Funções Puras, ausência de efeitos colaterais e Transparência Referencial): Preservada.
+* **`Teste 064`** (Programação Funcional: Funções de Alta Ordem - Map, Filter e Reduce): Preservada.
