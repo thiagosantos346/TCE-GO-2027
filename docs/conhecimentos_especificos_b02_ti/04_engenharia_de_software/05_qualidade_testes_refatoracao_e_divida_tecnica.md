@@ -378,16 +378,30 @@ Durante a auditoria de desempenho de um sistema de transmissão eletrônica de f
 ---
 
 ### Teste 050
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A disciplina do Desenvolvimento Orientado por Testes (*Test-Driven Development* - TDD), preconizada por Kent Beck na metodologia Extreme Programming, estrutura a atividade de programação em torno de microiterações sistemáticas e disciplinadas conhecidas como o ciclo *Red-Green-Refactor*. A correta sequência de ações que define esse ciclo canônico estabelece que o desenvolvedor deve:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - TI)**  
+O Tribunal adotou o Test-Driven Development (TDD) para garantir a qualidade do código nos sistemas de cálculo de pensões. Um auditor está revisando o processo de desenvolvimento e quer validar se a equipe segue o ciclo padrão do TDD.
 
-* **A)** 1. Escrever um teste unitário automatizado que falha porque a funcionalidade ainda não foi implementada (Red); 2. Escrever o código mínimo necessário de produção para fazer o teste passar com sucesso (Green); 3. Aperfeiçoar o design e a legibilidade do código, eliminando duplicações, assegurando que todos os testes continuem passando (Refactor).
-* **B)** 1. Escrever o código completo de produção em camada de controle (Green); 2. Analisar falhas de compilação em tempo de execução (Red); 3. Otimizar as tabelas do banco de dados relacional (Refactor).
-* **C)** 1. Refatorar classes legadas sem cobertura de testes automatizados (Refactor); 2. Escrever testes exploratórios manuais na interface com o usuário (Red); 3. Publicar o incremento em produção assistida (Green).
-* **D)** 1. Gerar relatórios automatizados de violação de cobertura com SonarQube (Red); 2. Submeter pull request para autorização do comitê diretivo (Green); 3. Reescrever a documentação funcional do sistema (Refactor).
-* **E)** 1. Codificar os métodos de produção e as classes de teste de forma simultânea e acoplada no mesmo arquivo fonte (Green); 2. Aguardar a execução noturna da esteira CI/CD (Red); 3. Limpar variáveis de ambiente (Refactor).
+A sequência correta de passos no ciclo Red-Green-Refactor do TDD é:
 
+* **A)** escrever o código, testar se funciona e depois documentar.
+* **B)** escrever um teste que falha, escrever o código mínimo para o teste passar e melhorar o código.
+* **C)** refatorar o código antigo, escrever novos testes e apagar os testes que falham.
+* **D)** desenvolver a interface, integrar a base de dados, escrever o teste e realizar testes de carga.
+* **E)** documentar os requisitos, codificar em par e realizar o deploy em produção.
 
+---
+
+> **Comentário Detalhado:**
+>
+> A disciplina do **Test-Driven Development (TDD)** preconizada por Kent Beck estrutura o desenvolvimento de software em ciclos iterativos curtos orientados pelas seguintes três fases estritas:
+>
+> 1. **Red (Vermelho):** Escrever um teste unitário automatizado para uma funcionalidade ainda inexistente e executá-lo para assegurar que ele **falha** (garantindo que o teste é válido e não um falso positivo);
+> 2. **Green (Verde):** Escrever estritamente a **quantidade mínima de código** de produção necessária para fazer o teste passar com sucesso;
+> 3. **Refactor (Refatorar):** Reestruturar e **melhorar o design do código** (eliminando duplicações, melhorando nomes e abstrações), com a segurança de que a suíte de testes automatizados garante a preservação do comportamento externo.
+>
+> A alternativa **B** descreve com precisão cirúrgica esse ciclo.
+>
+> **Gabarito: B**
 ---
 
 > **Comentário Detalhado:**

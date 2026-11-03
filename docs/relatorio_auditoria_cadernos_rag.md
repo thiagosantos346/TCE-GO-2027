@@ -16,6 +16,7 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 02 (Eng. Software): Requisitos, Histórias de Usuário, UML e BPMN](#caderno-02-eng-software-requisitos-histórias-de-usuário-uml-e-bpmn)
 - [Caderno 03 (Eng. Software): Arquitetura de Software e Princípios SOLID](#caderno-03-eng-software-arquitetura-de-software-e-princípios-solid)
 - [Caderno 04 (Eng. Software): Padrões de Projeto (Design Patterns - GoF)](#caderno-04-eng-software-padrões-de-projeto-design-patterns---gof)
+- [Caderno 05 (Eng. Software): Qualidade, Testes, Refatoração e Dívida Técnica](#caderno-05-eng-software-qualidade-testes-refatoração-e-dívida-técnica)
 
 ---
 
@@ -423,3 +424,30 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 040`** (Observer: Dependência um-para-muitos e notificação de eventos entre objetos): Preservada.
 * **`Teste 041`** (Chain of Responsibility: Cadeia de objetos receptores para tratamento desacoplado de requisições): Preservada.
 * **`Teste 042`** (Command e Memento: Encapsulamento de operações em objetos e captura de estado prévio para operação de *Undo*): Preservada.
+
+
+---
+
+## Caderno 05 (Eng. Software): Qualidade, Testes, Refatoração e Dívida Técnica
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/04_engenharia_de_software/05_qualidade_testes_refatoracao_e_divida_tecnica.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 050`**: Substituir pela questão real **`V3_FGV_TCE_SC_2026_Q3284`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo (TI)**
+  * **Conceito Aderente:** Ciclo canônico *Red-Green-Refactor* do TDD (*Test-Driven Development*) aplicado em sistemas de cálculo de pensões em Tribunal de Contas (escrever um teste que falha, escrever o código mínimo para fazê-lo passar e refatorar/melhorar o código).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 050`**: Simulado sobre o ciclo Red-Green-Refactor do TDD.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 043`** (Métricas de Confiabilidade: MTBF, MTTR, MTTF e cálculo de Disponibilidade): Preservada.
+* **`Teste 044`** (Pirâmide de Testes de Mike Cohn e Martin Fowler: Unidade, Integração e Ponta a Ponta): Preservada.
+* **`Teste 045`** (Taxonomia de Test Doubles de Gerard Meszaros: Mocks, Stubs, Dummies, Fakes e Spies): Preservada.
+* **`Teste 046`** (Técnicas de Teste Caixa-Preta: Classes de Equivalência e Análise de Valor Limite): Preservada.
+* **`Teste 047`** (Técnicas de Teste Caixa-Branca: Complexidade Ciclomática de McCabe e Cobertura de Código): Preservada.
+* **`Teste 048`** (Testes de Regressão e Automação de Suítes em Pipelines CI/CD): Preservada.
+* **`Teste 049`** (Testes Não Funcionais de Desempenho: Teste de Carga, Estresse, Pico e Resistência): Preservada.
+* **`Teste 051`** (Revisão de Código / Code Review por pares e Análise Estática com SonarQube): Preservada.
+* **`Teste 052`** (Refatoração segundo Martin Fowler e catálogo de *Code Smells*): Preservada.
+* **`Teste 053`** (Dívida Técnica de Ward Cunningham e Quadrante da Dívida Técnica de Martin Fowler): Preservada.

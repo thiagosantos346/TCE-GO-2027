@@ -43989,7 +43989,7 @@
     "target_materia": "Engenharia de Software",
     "target_topico": "Engenharia de requisitos: elicitação, análise, especificação, validação e gerenciamento",
     "llm_classified": true,
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_05_engsoft",
     "conceitos_fundamentais": [
       "Engenharia de Software",
       "Engenharia de requisitos: elicitação, análise, especificação, validação e gerenciamento",
