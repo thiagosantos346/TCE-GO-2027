@@ -20,6 +20,7 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 01 (Dev. Sistemas): Algoritmos, Estruturas de Dados e Paradigmas](#caderno-01-dev-sistemas-algoritmos-estruturas-de-dados-e-paradigmas)
 - [Caderno 02 (Dev. Sistemas): Linguagens de Programação (Java, JavaScript, Node.js e Python)](#caderno-02-dev-sistemas-linguagens-de-programação-java-javascript-nodejs-e-python)
 - [Caderno 03 (Dev. Sistemas): Desenvolvimento Frontend (HTML5, CSS3, React e TypeScript)](#caderno-03-dev-sistemas-desenvolvimento-frontend-html5-css3-react-e-typescript)
+- [Caderno 04 (Dev. Sistemas): APIs RESTful, GraphQL, WebSockets e Documentação](#caderno-04-dev-sistemas-apis-restful-graphql-websockets-e-documentação)
 
 ---
 
@@ -537,3 +538,33 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 083`** (TypeScript: *Utility Types* `Partial`, `Readonly`, `Pick` e `Omit`): Preservada.
 * **`Teste 085`** (React Hooks: Ciclo de vida com `useEffect`, array de dependências e função de cleanup): Preservada.
 * **`Teste 086`** (React Hooks: Otimização de performance com `useMemo`, `useCallback` e referências com `useRef`): Preservada.
+
+
+---
+
+## Caderno 04 (Dev. Sistemas): APIs RESTful, GraphQL, WebSockets e Documentação
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/04_apis_restful_graphql_websockets_documentacao.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 089`**: Substituir pela questão real **`V3_FGV_TRT_13_2022_Q2180`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TRT/13 – 2022 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** Propriedade de **Idempotência** em métodos HTTP (`PUT`), onde múltiplas requisições idênticas consecutivas produzem o mesmo estado final no servidor sem efeitos colaterais adicionais.
+* **`Teste 090`**: Substituir pela questão real **`V3_FGV_TJ_AP_2023_Q0564`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/AP – 2023 – Analista Judiciário (Desenvolvimento de Sistemas)
+  * **Conceito Aderente:** Semântica de verbos HTTP e códigos de status em APIs RESTful: requisição `PUT /recursos/1` com resposta `204 No Content` caracterizando atualização de recurso processada com sucesso.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 089`**: Simulado sobre métodos HTTP e idempotência.
+* **`Teste 090`**: Simulado sobre códigos de status HTTP 401 vs 403.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 087`** (REST: As 6 restrições arquiteturais canônicas de Roy Fielding): Preservada.
+* **`Teste 088`** (Modelo de Maturidade de Richardson: Do Nível 0 ao Nível 3 HATEOAS): Preservada.
+* **`Teste 091`** (URI Design e Boas Práticas: Substantivos no plural e hierarquia de recursos): Preservada.
+* **`Teste 092`** (GraphQL vs REST: Resolução de problemas de *Over-fetching* e *Under-fetching*): Preservada.
+* **`Teste 093`** (GraphQL: Tipos de operações do esquema - `Query`, `Mutation` e `Subscription`): Preservada.
+* **`Teste 094`** (WebSockets: Handshake via cabeçalho `Upgrade` e comunicação persistente full-duplex sobre TCP): Preservada.
+* **`Teste 095`** (Server-Sent Events - SSE vs WebSockets: Transmissão unidirecional em tempo real sobre HTTP): Preservada.
+* **`Teste 096`** (Formato JSON: Tipos de dados suportados, serialização e deserialização): Preservada.
+* **`Teste 097`** (OpenAPI / Swagger: Especificação padronizada declarativa de endpoints, parâmetros e schemas): Preservada.

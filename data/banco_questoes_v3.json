@@ -6787,7 +6787,7 @@
     "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
     "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
     "target_topico": "Infraestrutura como Código (IaC)",
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_04_devsist",
     "llm_classified": true,
     "conceitos_fundamentais": [
       "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
@@ -28928,7 +28928,7 @@
     "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
     "target_topico": "Protocolos de aplicação: DNS, DHCP, HTTP, HTTPS, TLS, SSH e outros",
     "llm_classified": true,
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_04_devsist",
     "conceitos_fundamentais": [
       "Sistemas Operacionais, Redes e Computação em Nuvem",
       "Protocolos de aplicação: DNS, DHCP, HTTP, HTTPS, TLS, SSH e outros",

@@ -206,16 +206,28 @@ A respeito da especificação OpenAPI (antigo Swagger) e do Modelo de Maturidade
 ---
 
 ### Teste 089
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No projeto de uma API web RESTful aderente aos padrões da RFC 7231 (HTTP/1.1), considere os métodos `GET`, `POST`, `PUT` e `DELETE`. A respeito dos conceitos fundamentais de segurança (*safety*) e idempotência (*idempotency*) desses métodos, assinale a afirmativa correta:  
+**(FGV – TRT/13 – 2022 – Analista Judiciário - Tecnologia da Informação)**  
+Uma aplicação mobile enviou a um gateway de APIs REST várias solicitações idênticas em sequência utilizando o método HTTP PUT. Essas solicitações idênticas resultaram em nenhuma alteração de estado do sistema de backend, a exceção da primeira solicitação que atualizou um registro no banco de dados.
 
-* **A)** O método `POST` é seguro e idempotente, razão pela qual deve ser invocado em operações de auditoria que demandem garantia de não repetição.
-* **B)** O método `PUT` não é seguro, mas é idempotente.
-* **C)** O método `GET` é idempotente, mas não é seguro, pois sua execução altera os metadados de acesso gravados no servidor.
-* **D)** A propriedade de idempotência assegura que os cabeçalhos de resposta HTTP retornados pelo servidor conterrão sempre o mesmo carimbo de data e hora (*timestamp*).
-* **E)** O método `DELETE` não é seguro nem idempotente, já que a segunda tentativa de exclusão do mesmo recurso costuma retornar um código de erro `404 Not Found`.
+Nesse contexto, é correto afirmar que essa solicitação HTTP é:
 
+* **A)** acoplada.
+* **B)** balanceada.
+* **C)** full-duplex.
+* **D)** idempotente.
+* **E)** segura.
 
+---
+
+> **Comentário Detalhado:**
+>
+> Na arquitetura REST e na especificação HTTP (RFC 7231):
+> - Uma operação é considerada **idempotente** quando o efeito colateral no servidor produzido por múltiplas requisições idênticas é rigorosamente o mesmo produzido por uma única requisição.
+> - O método **`PUT`** é concebido para ser intrinsecamente idempotente: a primeira requisição atualiza (ou substitui) o estado do recurso no backend; requisições subsequentes idênticas mantêm o recurso exatamente no mesmo estado final, sem acumular efeitos colaterais duplicados.
+> - Métodos idempotentes clássicos no HTTP: `GET`, `HEAD`, `PUT`, `DELETE`, `OPTIONS`.
+> - Método não-idempotente: `POST` (cada envio normalmente cria um novo recurso subordinado).
+>
+> **Gabarito: D**
 ---
 
 > **Comentário Detalhado:**
@@ -233,18 +245,30 @@ No projeto de uma API web RESTful aderente aos padrões da RFC 7231 (HTTP/1.1), 
 ---
 
 ### Teste 090
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Um cliente web tenta acessar um endpoint restrito de um sistema administrativo enviando um token de autorização devidamente válido e assinado, que identifica o usuário como pertencente ao perfil "Estagiário". O recurso solicitado, entretanto, exige prerrogativas exclusivas do perfil "Auditor Titular".
+**(FGV – TJ/AP – 2023 – Analista Judiciário - Desenvolvimento de Sistemas)**  
+Observe a seguinte requisição em *Hypertext Transfer Protocol* (HTTP) feita a uma *Application Programming Interface* (API) RESTful:
 
-Nessa situação, de acordo com as especificações do protocolo HTTP/1.1 e as boas práticas de design RESTful, o código de status HTTP que o servidor deve retornar é:  
+`PUT http://webservice.tjapp/recursos/1`
 
-* **A)** `401 Unauthorized`
-* **B)** `403 Forbidden`
-* **C)** `400 Bad Request`
-* **D)** `404 Not Found`
-* **E)** `502 Bad Gateway`
+A respectiva resposta HTTP da API RESTful apresentou o código de status **204**.
 
+Os dados apresentados acima indicam que a API RESTful processou a solicitação de:
 
+* **A)** obtenção de um recurso de forma bem-sucedida;
+* **B)** atualização de um recurso de forma malsucedida;
+* **C)** criação de um novo recurso de forma malsucedida;
+* **D)** atualização de um recurso de forma bem-sucedida;
+* **E)** criação de um novo recurso de forma bem-sucedida.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - O verbo HTTP **`PUT`** direcionado a uma URI de recurso específico (`/recursos/1`) possui a semântica de **atualização integral (ou substituição)** do recurso identificado.
+> - A família de códigos **2xx** indica sucesso no processamento da requisição. Especificamente, o código **`204 No Content`** indica que o servidor processou a requisição com êxito, mas não há necessidade de retornar um corpo de resposta (*payload*) para o cliente (padrão muito comum após atualizações `PUT` ou exclusões `DELETE` bem-sucedidas).
+> - Portanto, os dados demonstram a **atualização de um recurso de forma bem-sucedida**.
+>
+> **Gabarito: D**
 ---
 
 > **Comentário Detalhado:**
