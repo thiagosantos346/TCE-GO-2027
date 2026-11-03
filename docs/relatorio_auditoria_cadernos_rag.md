@@ -22,6 +22,7 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 03 (Dev. Sistemas): Desenvolvimento Frontend (HTML5, CSS3, React e TypeScript)](#caderno-03-dev-sistemas-desenvolvimento-frontend-html5-css3-react-e-typescript)
 - [Caderno 04 (Dev. Sistemas): APIs RESTful, GraphQL, WebSockets e Documentação](#caderno-04-dev-sistemas-apis-restful-graphql-websockets-e-documentação)
 - [Caderno 05 (Dev. Sistemas): Autenticação, Identidade, OAuth 2.0, OIDC e JWT](#caderno-05-dev-sistemas-autenticação-identidade-oauth-20-oidc-e-jwt)
+- [Caderno 06 (Dev. Sistemas): Git, Gerenciamento de Dependências e Empacotamento](#caderno-06-dev-sistemas-git-gerenciamento-de-dependências-e-empacotamento)
 
 ---
 
@@ -601,3 +602,29 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 105`** (JSON Web Token - JWT: Estrutura em três partes codificadas em Base64URL - Header, Payload e Signature): Preservada.
 * **`Teste 106`** (Validação de JWT: Verificação de integridade criptográfica e auditoria de claims temporais): Preservada.
 * **`Teste 107`** (Armazenamento Seguro de Tokens: Cookies `HttpOnly`, `Secure` e `SameSite` vs `localStorage`, e modelos RBAC/ABAC): Preservada.
+
+
+---
+
+## Caderno 06 (Dev. Sistemas): Git, Gerenciamento de Dependências e Empacotamento
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/06_git_gerenciamento_de_dependencias_e_empacotamento.md`
+* **Status:** Auditado e aprovado sem necessidade de substituição
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma.* (Não foram identificadas no banco vetorial questões reais oficiais de concursos pós-2022 de TI abordando detalhadamente objetos internos do Git, `git stash`, `git reset --soft/--mixed/--hard`, versionamento SemVer, `npm ci`, ciclo de vida do Maven ou *Tree Shaking* com Vite/Webpack).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 108`** (Git Internals: Modelo de objetos *Content-Addressable*, Blobs, Trees, Commits e Tags): Preservada.
+* **`Teste 109`** (As Três Áreas do Git: *Working Directory*, *Staging Area/Index* e *Repository*): Preservada.
+* **`Teste 110`** (Estratégias de Integração: `git merge` não-destrutivo vs `git rebase` linear): Preservada.
+* **`Teste 111`** (Manipulação de Histórico com `git reset`: Modos `--soft`, `--mixed` e `--hard`): Preservada.
+* **`Teste 112`** (Salvamento Temporário de Trabalho com `git stash` e seus subcomandos): Preservada.
+* **`Teste 113`** (Gerenciamento de Dependências: Dependências Transitivas e resolução de conflitos de versão): Preservada.
+* **`Teste 114`** (Versionamento Semântico / SemVer: Regras normativas de alteração de `MAJOR.MINOR.PATCH`): Preservada.
+* **`Teste 115`** (Gerenciadores de Pacotes: O comando `npm ci` e a garantia de builds reprodutíveis via `package-lock.json`): Preservada.
+* **`Teste 116`** (Apache Maven: O arquivo `pom.xml` e as fases canônicas do *Build Lifecycle*): Preservada.
+* **`Teste 117`** (Ferramentas de Empacotamento Web: A inovação arquitetural do Vite com ES Modules nativos via esbuild): Preservada.
+* **`Teste 118`** (Otimização de Bundling: Técnica de *Tree Shaking* para eliminação de código morto baseada na sintaxe estática de ES Modules): Preservada.
