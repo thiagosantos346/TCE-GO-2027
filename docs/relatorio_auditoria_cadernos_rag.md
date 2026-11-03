@@ -24,6 +24,7 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 05 (Dev. Sistemas): Autenticação, Identidade, OAuth 2.0, OIDC e JWT](#caderno-05-dev-sistemas-autenticação-identidade-oauth-20-oidc-e-jwt)
 - [Caderno 06 (Dev. Sistemas): Git, Gerenciamento de Dependências e Empacotamento](#caderno-06-dev-sistemas-git-gerenciamento-de-dependências-e-empacotamento)
 - [Caderno 01 (IA & Agentivos): Fundamentos de LLMs, Intent-Based e Engenharia de Prompts](#caderno-01-ia--agentivos-fundamentos-de-llms-intent-based-e-engenharia-de-prompts)
+- [Caderno 02 (IA & Agentivos): Arquitetura de Sistemas Agentivos e Ferramentas CLI / IDE](#caderno-02-ia--agentivos-arquitetura-de-sistemas-agentivos-e-ferramentas-cli--ide)
 
 ---
 
@@ -655,3 +656,28 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 126`** (Técnicas Avançadas de Prompting: *Zero-Shot*, *Few-Shot*, *Chain-of-Thought* / CoT e *Self-Consistency*): Preservada.
 * **`Teste 127`** (Limites de Contexto e Atenção: O fenômeno empírico *Lost in the Middle* em janelas longas de contexto): Preservada.
 * **`Teste 128`** (Segurança e Vulnerabilidades em LLMs: Injeção de Prompt / *Prompt Injection* direta e indireta, vazamento de contexto e *Jailbreaks*): Preservada.
+
+
+---
+
+## Caderno 02 (IA & Agentivos): Arquitetura de Sistemas Agentivos e Ferramentas CLI / IDE
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/06_engenharia_software_ia_e_sistemas_agentivos/02_arquitetura_de_sistemas_agentivos_e_ferramentas_cli_ide.md`
+* **Status:** Auditado e aprovado sem necessidade de substituição
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma.* (Tópico de ponta emergente no edital do TCE-GO; não há no histórico de concursos de TI questões oficiais abordando arquitetura canônica de 4 pilares de agentes, *The Agentic Loop*, *Stop Conditions* / disjuntores de agentes, arquiteturas multiagente hierárquicas ou governança de ferramentas agentivas CLI/IDE).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 129`** (Transição de Chatbots Passivos para Sistemas Agentivos Orientados a Objetivos): Preservada.
+* **`Teste 130`** (Arquitetura Canônica de 4 Pilares: Modelo, Memória, Ferramentas e Planejamento): Preservada.
+* **`Teste 131`** (Comparativo Arquitetural: Assistentes Agentivos CLI vs Extensões de IDE): Preservada.
+* **`Teste 132`** (The Agentic Loop: Ciclo contínuo de Percepção, Raciocínio, Ação, Observação e Reflexão): Preservada.
+* **`Teste 133`** (Fase de Percepção e Descoberta de Contexto em Projetos de Software): Preservada.
+* **`Teste 134`** (Planejamento e Decomposição de Metas / *Task Decomposition* em Subtarefas): Preservada.
+* **`Teste 135`** (Fase de Ação e Uso de Ferramentas / *Tool Calling* em Terminal e Código): Preservada.
+* **`Teste 136`** (Critérios de Parada / *Stop Conditions* e Disjuntores contra Loops Infinitos de Agentes): Preservada.
+* **`Teste 137`** (Arquiteturas Multiagente Hierárquicas: Agente Orquestrador delegando a Subagentes Especialistas): Preservada.
+* **`Teste 138`** (Governança, Menor Privilégio e Mecanismos *Human-in-the-Loop* em Agentes Autônomos): Preservada.
