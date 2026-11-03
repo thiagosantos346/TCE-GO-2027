@@ -14,6 +14,7 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 06: Observabilidade, Monitoramento e Telemetria](#caderno-06-observabilidade-monitoramento-e-telemetria)
 - [Caderno 01 (Eng. Software): Ciclo de Vida e Metodologias Ágeis](#caderno-01-eng-software-ciclo-de-vida-e-metodologias-ágeis)
 - [Caderno 02 (Eng. Software): Requisitos, Histórias de Usuário, UML e BPMN](#caderno-02-eng-software-requisitos-histórias-de-usuário-uml-e-bpmn)
+- [Caderno 03 (Eng. Software): Arquitetura de Software e Princípios SOLID](#caderno-03-eng-software-arquitetura-de-software-e-princípios-solid)
 
 ---
 
@@ -317,3 +318,55 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 020`** (BPMN 2.0: Tipos canônicos de Tarefas - User Task, Service Task, Script Task, Manual Task): Preservada.
 * **`Teste 021`** (BPMN 2.0: Gateways de Decisão - Exclusivo XOR, Paralelo AND, Inclusivo OR e Baseado em Eventos): Preservada.
 * **`Teste 022`** (BPMN 2.0: Regras sintáticas de Pools, Lanes, Fluxo de Sequência e Fluxo de Mensagem): Preservada.
+
+
+---
+
+## Caderno 03 (Eng. Software): Arquitetura de Software e Princípios SOLID
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/04_engenharia_de_software/03_arquitetura_de_software_e_principios_solid.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 029`**: Substituir pela questão real **`V3_FGV_TJ_MT_2024_Q1887`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/MT – 2024 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** Fundamentos da Arquitetura Orientada a Serviços (SOA), organização em serviços autônomos e comunicação por meio de protocolos padronizados abertos (como HTTP e SOAP).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 029`**: Simulado sobre os princípios e características de SOA.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 023`** (Modelo 4+1 Visões de Philippe Kruchten: Lógica, Processos, Desenvolvimento, Física e Cenários): Preservada (sem equivalente no banco).
+* **`Teste 024`** (Acoplamento Fraco e Alta Coesão em design modular orientado a objetos): Preservada.
+* **`Teste 025`** (Arquitetura Hexagonal / Ports and Adapters de Alistair Cockburn e Regra de Dependência): Preservada.
+* **`Teste 026`** (Papel do Enterprise Service Bus - ESB na orquestração, mediação e roteamento de serviços): Preservada.
+* **`Teste 027`** (Padrão Circuit Breaker para resiliência em microsserviços: Estados Closed, Open e Half-Open): Preservada.
+* **`Teste 028`** (Arquitetura Orientada a Eventos - EDA: Outbox Pattern e consistência eventual com Kafka): Preservada.
+* **`Teste 030`** (Princípios SOLID: Princípio da Segregação de Interfaces - ISP em Java): Preservada.
+* **`Teste 031`** (Princípios SOLID: Princípio Aberto/Fechado - OCP e Responsabilidade Única - SRP): Preservada.
+* **`Teste 032`** (Princípios de Design de Código: DRY, KISS e YAGNI): Preservada.
+
+
+---
+
+## Caderno 03 (Eng. Software): Arquitetura de Software e Princípios SOLID
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/04_engenharia_de_software/03_arquitetura_de_software_e_principios_solid.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 029`**: Substituir pela questão real **`V3_FGV_TJ_MT_2024_Q1887`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TJ/MT – 2024 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** Fundamentos da Arquitetura Orientada a Serviços (SOA), organização em serviços autônomos e comunicação por meio de protocolos padronizados abertos (como HTTP e SOAP).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 029`**: Simulado sobre os princípios e características de SOA.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 023`** (Modelo 4+1 Visões de Philippe Kruchten: Lógica, Processos, Desenvolvimento, Física e Cenários): Preservada (sem equivalente no banco).
+* **`Teste 024`** (Acoplamento Fraco e Alta Coesão em design modular orientado a objetos): Preservada.
+* **`Teste 025`** (Arquitetura Hexagonal / Ports and Adapters de Alistair Cockburn e Regra de Dependência): Preservada.
+* **`Teste 026`** (Papel do Enterprise Service Bus - ESB na orquestração, mediação e roteamento de serviços): Preservada.
+* **`Teste 027`** (Padrão Circuit Breaker para resiliência em microsserviços: Estados Closed, Open e Half-Open): Preservada.
+* **`Teste 028`** (Arquitetura Orientada a Eventos - EDA: Outbox Pattern e consistência eventual com Kafka): Preservada.
+* **`Teste 030`** (Princípios SOLID: Princípio da Segregação de Interfaces - ISP em Java): Preservada.
+* **`Teste 031`** (Princípios SOLID: Princípio Aberto/Fechado - OCP e Responsabilidade Única - SRP): Preservada.
+* **`Teste 032`** (Princípios de Design de Código: DRY, KISS e YAGNI): Preservada.

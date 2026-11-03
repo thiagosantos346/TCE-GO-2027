@@ -309,22 +309,28 @@ A Arquitetura Orientada a Eventos (*Event-Driven Architecture* - EDA) baseia-se 
 ---
 
 ### Teste 029
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em relação aos estilos arquiteturais para sistemas corporativos, analise as afirmativas a respeito da Arquitetura Orientada a Serviços (SOA) e da Arquitetura de Microsserviços:
+**(FGV – TJ/MT – 2024 – Analista Judiciário - Tecnologia da Informação)**  
+Um dos estilos de arquitetura de software mais usados nos últimos anos, dadas as suas vantagens em relação aos demais existentes, é a arquitetura orientada a serviços (*Service-Oriented Architecture* - SOA).
 
-I. Na arquitetura SOA clássica, é comum a utilização de um Barramento de Serviços Corporativo (ESB) centralizado que concentra regras de mediação, roteamento e transformação de protocolos complexos.  
-II. Na arquitetura de microsserviços, a boa prática de engenharia prescreve o compartilhamento obrigatório de uma única base de dados relacional entre todos os serviços do ecossistema, a fim de assegurar transações atômicas globais imediatas.  
-III. A arquitetura de microsserviços privilegia serviços autônomos com ciclos de implantação independentes, pautando-se pelo princípio de *smart endpoints and dumb pipes*, em que a inteligência de negócio reside nos próprios serviços e o transporte de mensagens utiliza mecanismos leves e desacoplados.  
+A arquitetura orientada a serviços (SOA):
 
-Em relação aos conceitos arquiteturais consagrados na literatura técnica, está correto o que se afirma em:
+* **A)** organiza a estrutura de um sistema como um conjunto de serviços independentes que se comunicam por meio de protocolos padrão, como HTTP e SOAP.
+* **B)** utiliza uma abordagem na qual os serviços são acoplados de forma estreita para garantir maior controle e interdependência entre as partes do sistema.
+* **C)** é uma arquitetura em que todos os serviços são integrados em um sistema monolítico, garantindo alta coesão entre os módulos.
+* **D)** exige que todos os serviços sejam implementados na mesma linguagem de programação para garantir consistência no sistema.
+* **E)** utiliza a comunicação síncrona entre serviços para manter a consistência e a segurança dos dados transmitidos no sistema.
 
-* **A)** I e III, apenas.
-* **B)** I e II, apenas.
-* **C)** II e III, apenas.
-* **D)** I, II e III.
-* **E)** III, apenas.
+---
 
-
+> **Comentário Detalhado:**
+>
+> - **A) Correta.** O paradigma da Arquitetura Orientada a Serviços (SOA) baseia-se na decomposição de funcionalidades de negócio em serviços autônomos, reutilizáveis e com baixo acoplamento (*loosely coupled*), os quais interagem entre si e com aplicações consumidoras por meio de contratos bem definidos e protocolos padronizados de comunicação (tais como SOAP, WSDL, XML e HTTP/REST).
+> - **B) Incorreta.** O princípio estruturante do SOA é exatamente o **baixo acoplamento** (*loose coupling*), e não o acoplamento estreito.
+> - **C) Incorreta.** SOA contrapõe-se diretamente à arquitetura monolítica ao desacoplar os domínios em serviços independentes e distribuídos.
+> - **D) Incorreta.** Um dos maiores pilares do SOA é a **interoperabilidade agnóstica de tecnologia**: diferentes serviços podem ser desenvolvidos em linguagens distintas (Java, .NET, Python, etc.) e em plataformas heterogêneas, desde que obedeçam ao protocolo de comunicação padronizado.
+> - **E) Incorreta.** SOA suporta tanto comunicação síncrona (como RPC/HTTP) quanto assíncrona (via filas e tópicos de mensageria intermediados por ESB).
+>
+> **Gabarito: A**
 ---
 
 > **Comentário Detalhado:**

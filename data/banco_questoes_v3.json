@@ -25036,7 +25036,7 @@
     "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
     "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
     "target_topico": "Protocolos de aplicação: DNS, DHCP, HTTP, HTTPS, TLS, SSH e outros",
-    "status_integracao": "injetada",
+    "status_integracao": "integrada_caderno_03_engsoft",
     "llm_classified": true,
     "conceitos_fundamentais": [
       "Sistemas Operacionais, Redes e Computação em Nuvem",
