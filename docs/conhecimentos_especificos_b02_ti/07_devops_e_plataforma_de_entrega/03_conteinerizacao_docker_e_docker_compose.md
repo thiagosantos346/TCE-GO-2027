@@ -160,28 +160,32 @@ Uma imagem Docker é uma coleção imutável de **camadas de somente leitura (*R
 ---
 
 ### Teste 192
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Com relação às diferenças conceituais e arquiteturais entre a virtualização baseada em Máquinas Virtuais (VMs) tradicionais e a conteinerização utilizando a tecnologia Docker, assinale a afirmativa correta:  
+**(FGV – TJ/RR – 2024 – Analista Judiciario - Infraestrutura De Tecnologia Da Informacao)**  
+Um contêiner é um ambiente de software onde é possível instalar uma aplicação ou microsserviço e contém todas as dependências da biblioteca, os binários e uma configuração básica, necessária para a sua execução. Em relação ao uso de contêineres, analise as afirmativas a seguir.
 
-* **A)** Contêineres Docker executam um hipervisor (*Hypervisor Type 1*) emulado dentro de cada processo para gerenciar o acesso direto ao processador físico.
-* **B)** Cada contêiner Docker possui e carrega em memória um Sistema Operacional convidado (*Guest OS*) completo e independente, incluindo seus próprios drivers de hardware e kernel proprietário.
-* **C)** Enquanto as máquinas virtuais virtualizam a camada de hardware e exigem um Sistema Operacional convidado (*Guest OS*) completo sobre o hipervisor, os contêineres Docker virtualizam o sistema operacional, compartilhando o mesmo núcleo (*Kernel*) do hospedeiro por meio de primitivas como *namespaces* e *control groups (cgroups)* do Linux.
-* **D)** As máquinas virtuais inicializam em milissegundos devido à ausência de camada de abstração de hardware, ao passo que contêineres Docker demandam longos minutos de inicialização devido ao carregamento de imagens de disco. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** O isolamento proporcionado por contêineres Docker impede qualquer comunicação de rede entre dois contêineres hospedados no mesmo computador físico.
+I. Permite uma capacidade de carga muito maior, a diminuição de custos e a facilidade de manuseio.  
+II. Padroniza o ambiente de execução da aplicação e facilita a implantação (deploy) de forma independente.  
+III. Permite o isolamento da aplicação, dependências e recursos como em uma máquina virtual, mas de maneira mais custosa.
 
+Está correto o que se afirma em:
+
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** I e II, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O hipervisor é o componente alicerce das Máquinas Virtuais, e não de contêineres Docker. O Docker opera sem hipervisores.
-> - **B)** Incorreta. Contêineres **não possuem kernel próprio nem carregam um Guest OS completo**. Todos os contêineres compartilham diretamente o Kernel do sistema operacional hospedeiro (*host*).
-> - **C)** Correta. Definição arquitetural clássica: as VMs virtualizam o hardware sobre o qual roda um SO convidado completo; os contêineres operam na camada do SO, executando como processos isolados no host viabilizados pelas primitivas nativas do Linux: *namespaces* (isolamento de visibilidade) e *cgroups* (limitação de recursos de CPU, RAM e I/O).
-> - **D)** Incorreta. Contêineres inicializam em frações de segundos (milissegundos) pois são meros processos despachados pelo kernel já carregado, enquanto as VMs exigem o boot completo de todo o SO convidado.
-> - **E)** Incorreta. Contêineres no mesmo host comunicam-se perfeitamente através de pontes de rede virtual (*bridge networks*) gerenciadas pelo Docker.
-> 
+> - **Item I (Correto):** Por compartilharem o mesmo Kernel do sistema operacional hospedeiro e dispensarem a emulação de hardware de um SO convidado completo, os contêineres possuem pegada de memória e CPU muito reduzida, permitindo maior densidade de carga, agilidade no manuseio e drástica redução de custos de infraestrutura.
+> - **Item II (Correto):** O contêiner encapsula o código, as variáveis de ambiente e todas as dependências binárias, garantindo consistência e padronização entre os ambientes de desenvolvimento, homologação e produção (*"funciona na minha máquina e funciona em produção"*).
+> - **Item III (Incorreto):** O isolamento provido por contêineres é **muito menos custoso** (mais leve e rápido) computacionalmente do que o de Máquinas Virtuais tradicionais (VMs), justamente pela ausência de hipervisores pesados e sistemas convidados redundantes.
+>
+> Portanto, estão corretos apenas os itens I e II.
+>
 > **Gabarito: C**
-
 ---
 
 ### Teste 193
@@ -212,28 +216,25 @@ A tecnologia de conteinerização no Linux fundamenta-se primordialmente em duas
 ---
 
 ### Teste 194
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O sistema de arquivos em camadas do Docker (tipicamente implementado pelo driver de armazenamento `overlay2`) utiliza a estratégia *Copy-on-Write* (CoW). Esse mecanismo implica que:
+**(FGV – TJ/DFT – 2022 – Analista Judiciario - Suporte Em Tecnologia Da Informacao)**  
+A analista Sara modificou alguns arquivos do container Docker `TJSiteContainer` que se encontra em execução. Para criar uma imagem Docker a partir do estado atual de `TJSiteContainer`, a fim de persistirem as modificações efetuadas em seus arquivos, Sara deve utilizar o comando:
 
-* **A)** Todas as camadas que compõem a imagem base do Docker são estritamente somente-leitura (*read-only*) e imutáveis; quando um processo em execução dentro de um contêiner modifica um arquivo existente na imagem, o arquivo é copiado para a camada superior e efêmera de leitura e escrita (*read-write container layer*), onde a modificação é efetivada sem alterar a imagem original compartilhada.
-* **B)** O disco rígido do servidor deve ser duplicado fisicamente a cada novo contêiner instanciado.
-* **C)** Nenhuma modificação de arquivo pode ser realizada dentro de um contêiner Docker ativo.
-* **D)** Todos os contêineres compartilham a mesma camada de leitura e escrita, gravando arquivos concorrentemente no mesmo bloco.
-* **E)** As imagens Docker perdem todos os seus dados sempre que o contêiner é reiniciado.
-
+* **A)** `docker create`
+* **B)** `docker diff`
+* **C)** `docker export`
+* **D)** `docker image save`
+* **E)** `docker commit`
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Correta.** No modelo UnionFS/Overlay2: as camadas da imagem são *read-only* e imutáveis, compartilhadas com segurança por centenas de contêineres na mesma máquina host. Ao subir um contêiner, o Docker anexa apenas uma fina camada *read-write* no topo. Pela mecânica *Copy-on-Write*, arquivos modificados sobem para essa camada superior, preservando a imagem intacta e economizando gigabytes de armazenamento.
-> - **B) Incorreta.** A grande economia de espaço do Docker decorre justamente do compartilhamento de camadas de imagem.
-> - **C) Incorreta.** A camada superior do contêiner aceita escrita normalmente.
-> - **D) Incorreta.** Cada contêiner possui sua própria camada de escrita isolada.
-> - **E) Incorreta.** A camada do contêiner persiste entre `stop` e `start` (perde-se apenas se o contêiner for removido com `docker rm`).
+> No modelo de camadas do Docker:
+> - Todas as alterações em arquivos (criação, edição ou deleção) ocorrem na **camada de leitura e escrita efêmera** (*writable container layer*) que fica no topo das camadas imutáveis da imagem.
+> - O comando **`docker commit`** captura o estado dessa camada gravável de um contêiner em execução (ou parado) e cria uma **nova imagem Docker** independente, consolidando as alterações efetuadas em uma nova camada permanente.
+> - `docker create` apenas instancia um contêiner sem iniciá-lo; `docker diff` apenas inspeciona as alterações no sistema de arquivos; `docker export` gera um arquivo tarball do sistema de arquivos; e `docker image save` empacota imagens já existentes em formato tar.
 >
-> **Gabarito: A**
-
+> **Gabarito: E**
 ---
 
 ## 2. Construção de Imagens e Anatomia do Dockerfile
