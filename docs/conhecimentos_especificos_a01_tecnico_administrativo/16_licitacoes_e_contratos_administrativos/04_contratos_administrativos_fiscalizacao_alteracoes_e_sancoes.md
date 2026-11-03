@@ -387,47 +387,54 @@ A reabilitação perante a Administração exige cumulativamente:
 ---
 
 ### Teste 107
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito do sistema sancionatório previsto no art. 156 da Lei nº 14.133/2021, a Administração Pública poderá aplicar aos licitantes ou contratados inadimplentes diversas sanções administrativas cominatórias. Constituem sanções expressamente estabelecidas no referido dispositivo:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo – Questão Real RAG ID: `V3_FGV_TCE_PA_2024_Q2511`)**  
+Caso determinado contratado cometa infração punível com a penalidade de impedimento de licitar e contratar com a Administração, a aplicação de tal sanção requer a instauração de processo de responsabilização delimitado pela Lei nº 14.133/2021. Nesse contexto, é correto afirmar que:
 
-* **A)** advertência, multa, impedimento de licitar e declaração de inidoneidade para licitar/contratar.
-* **B)** repreensão verbal, suspensão temporária de três meses, retenção integral da garantia e perdimento de bens.
-* **C)** multa diária cominatória, perda de registro societário, cassação de inscrição na Junta e intervenção judicial.
-* **D)** advertência solene, cancelamento de alvará comercial e apreensão compulsória do maquinário da empresa.
-* **E)** declaração de inidoneidade, suspensão de direitos políticos do administrador e indisponibilidade de ativos.
+* **A)** se o contratado não apresentar defesa no prazo legal, ser-lhe-á decretada a revelia com presunção absoluta de veracidade dos fatos imputados.
+* **B)** o prazo para apresentação de defesa prévia pelo contratado é de 5 (cinco) dias úteis, vedada qualquer prorrogação.
+* **C)** caso o órgão contratante não possua servidores efetivos em seu quadro funcional, a Comissão responsável pela condução do mencionado processo deverá ser composta por ocupantes de cargo em comissão.
+* **D)** serão indeferidas pela comissão, mediante decisão fundamentada, provas ilícitas, impertinentes, desnecessárias, protelatórias ou intempestivas, com relação ao processo em análise.
+* **E)** o contratado terá o prazo máximo de 10 (dez) dias úteis, contados da data da intimação, para apresentar defesa técnica e especificar as provas que pretenda produzir, no processo em questão.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. O art. 156 da Lei nº 14.133/2021 estabelece taxativamente as 4 (quatro) sanções administrativas cabíveis: "I - advertência; II - multa; III - impedimento de licitar e contratar; IV - declaração de inidoneidade para licitar ou contratar". A antiga "suspensão temporária de participação em licitação" da Lei 8.666 foi substituída pelo impedimento de licitar e contratar (art. 156, III).
-> - **B)** **Incorreto**. Repreensão verbal e perdimento patrimonial de bens não são sanções administrativas da NLLC.
-> - **C)** **Incorreto**. A Administração Pública não tem poder para cassar registro mercantil em processo de licitação.
-> - **D)** **Incorreto**. Apreensão de maquinário e cassação de alvará não integram o rol do art. 156 da NLLC.
-> - **E)** **Incorreto**. Suspensão de direitos políticos decorre de ação de improbidade julgada pelo Judiciário (LIA), não de sanção do art. 156.
+> - **A) Incorreta.** No processo administrativo sancionatório da NLLC vigora o princípio da verdade material; a revelia não gera presunção absoluta de veracidade que dispense a análise das provas coligidas nos autos.
+> - **B) e E) Incorretas.** O prazo legal de defesa para as sanções de impedimento de licitar e declaração de inidoneidade é de **15 (quinze) dias úteis**, nos termos expressos do art. 158, caput, da Lei nº 14.133/2021 (e não 5 ou 10 dias úteis).
+> - **C) Incorreta.** Nos termos do art. 158 da Lei nº 14.133/2021, o processo de responsabilização para aplicação das sanções mais gravosas (impedimento e inidoneidade) será conduzido por **comissão composta por 2 (dois) ou mais servidores estáveis**, sendo vedada a condução exclusiva por ocupantes de cargos em comissão.
+> - **D) CORRETA.** Dispõe o art. 158, § 2º da Lei nº 14.133/2021 que *"serão indeferidas pela comissão, mediante decisão fundamentada, as provas ilícitas, impertinentes, desnecessárias, protelatórias ou intempestivas"*.
 >
-> **Gabarito: A**
+> **Gabarito: D**
+
+---
+
 ### Teste 108
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante a execução de um contrato administrativo de fornecimento de ambulâncias para o Estado de Goiás, restou comprovado que a empresa contratada cometeu fraude dolosa ao entregar veículos usados com hodômetros adulterados. Diante da gravidade da infração, a autoridade instaurou processo de declaração de inidoneidade. A respeito dessa sanção (art. 156, § 6º da Lei nº 14.133/2021):
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo – Gestão Governamental – Questão Real RAG ID: `V3_FGV_TCE_PA_2024_Q2879`)**  
+A autoridade competente, após o devido processo administrativo, estava em vias de aplicar à sociedade Gafanhoto a sanção de declaração de inidoneidade para licitar ou contratar com a Administração Pública, razão pela qual questionou as peculiaridades de tal penalidade, à luz do disposto na Lei nº 14.133/2021.  
 
-* **A)** A inidoneidade é competência exclusiva do Secretário de Estado e tem eficácia em toda a Federação.
-* **B)** A sanção de inidoneidade pode ser aplicada por qualquer fiscal de contrato, produzindo efeitos no órgão contratante.
-* **C)** A declaração de inidoneidade tem prazo fixo de seis meses, após o qual a reabilitação da empresa é automática.
-* **D)** A inidoneidade impede a participação em licitações apenas perante o Município onde a fraude material foi consumada.
-* **E)** O sancionado com inidoneidade pode participar livremente de certames licitatórios promovidos pela Administração Federal.
+Sendo correto responder a tal indagação que:
+
+* **A)** trata-se de penalidade que não é passível de reabilitação.
+* **B)** o prazo máximo da penalidade é de 6 (seis) anos.
+* **C)** a irresignação pertinente para impugnar a imposição de tal penalidade na via administrativa é o recurso hierárquico.
+* **D)** sua aplicação impede o responsável de licitar ou contratar apenas no âmbito da Administração Pública direta e indireta do ente federativo que tiver aplicado a sanção.
+* **E)** não é cabível a sua aplicação nas hipóteses em que o contratado comete a infração de não manter a proposta, salvo em decorrência de fato superveniente devidamente justificado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. O art. 156, § 6º, da Lei nº 14.133/2021 determina que a sanção de declaração de inidoneidade para licitar ou contratar é de competência EXCLUSIVA de Ministro de Estado, de Secretário Estadual ou de Secretário Municipal. Ademais, o § 5º estabelece que a inidoneidade produz efeitos no âmbito de TODA a Administração Pública direta e indireta de TODOS os entes federativos (União, Estados, DF e Municípios), pelo prazo mínimo de 3 (três) anos e máximo de 6 (seis) anos.
-> - **B)** **Incorreto**. A competência é privativa e indelegável da autoridade de cúpula ministerial ou de secretaria.
-> - **C)** **Incorreto**. O prazo legal é de 3 a 6 anos, e a reabilitação exige o cumprimento dos requisitos do art. 163 (ressarcimento integral e cumprimento das condições).
-> - **D)** **Incorreto**. A inidoneidade na NLLC tem alcance nacional e abrange todos os órgãos federativos.
-> - **E)** **Incorreto**. O impedimento gerado pela declaração de inidoneidade alcança a esfera federal e todas as demais.
+> - **A) Incorreta.** A declaração de inidoneidade é passível de reabilitação perante a própria autoridade que aplicou a sanção, decorrido o prazo mínimo de 3 anos e cumulada com a reparação integral do dano e implantação de programa de integridade (art. 163 da Lei nº 14.133/2021).
+> - **B) CORRETA.** Nos termos do art. 156, § 5º da Lei Federal nº 14.133/2021, a sanção de declaração de inidoneidade para licitar ou contratar será aplicada pelo prazo **mínimo de 3 (três) anos e máximo de 6 (seis) anos**.
+> - **C) Incorreta.** Contra a sanção de declaração de inidoneidade cabe **pedido de reconsideração** no prazo de 15 (quinze) dias úteis (art. 165, II c/c art. 156, § 6º), e não recurso hierárquico, visto que a sanção é de competência exclusiva de Ministro de Estado ou Secretário Estadual/Municipal.
+> - **D) Incorreta.** A declaração de inidoneidade impede o sancionado de licitar ou contratar no âmbito da Administração Pública direta e indireta de **todos os entes federativos (União, Estados, DF e Municípios)**, produzindo efeitos em âmbito nacional (art. 156, § 5º).
+> - **E) Incorreta.** Não manter a proposta é infração tipificada no art. 155, inciso V, sujeita às sanções dos incisos III e IV (inclusive inidoneidade caso justificada pela gravidade da conduta).
 >
-> **Gabarito: A**
+> **Gabarito: B**
+
+---
+
 ### Teste 109
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O art. 160 da Lei nº 14.133/2021 estabelece os requisitos e o procedimento para a aplicação da desconsideração da personalidade jurídica no âmbito das licitações e dos contratos administrativos. A respeito desse instituto, é correto afirmar que:

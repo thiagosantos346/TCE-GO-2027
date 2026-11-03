@@ -1987,3 +1987,125 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 179`** (Ouvidoria do TCE-GO: Canal de Acesso ao Cidadão, Prazos de Resposta e Tratamento de Manifestações): Preservada.
 * **`Teste 180`** (Escola Superior de Controle Externo / Escoex do TCE-GO: Capacitação e Aperfeiçoamento Profissional): Preservada.
 * **`Teste 181`** (Resoluções Normativas Notáveis sobre Fiscalização de Obras Públicas, Saúde e Educação no TCE-GO): Preservada.
+
+
+---
+
+# Módulo 16 (Conhecimentos Específicos A01): Licitações e Contratos Administrativos (Lei nº 14.133/2021)
+* **Pasta:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/16_licitacoes_e_contratos_administrativos/`
+* **Data da Auditoria e Injeção RAG:** 2026-11-03
+* **Cadernos Auditados:** 4 cadernos (`01_governanca_planejamento_etp_tr_e_matriz_riscos.md` a `04_contratos_administrativos_fiscalizacao_alteracoes_e_sancoes.md`)
+* **Total de Questões no Módulo:** 44 questões (Testes 066 a 109)
+* **Questões Reais Injetadas via RAG:** 5 questões (100% aderentes, foco FGV de Tribunais de Contas: TCE-GO 2024, TCE-SC 2026, TCE-PI 2025, TCE-PA 2024)
+* **Questões Autorais/Simuladas Preservadas:** 39 questões
+
+---
+
+## Caderno 01: Governança das Contratações, Planejamento, ETP, TR e Matriz de Riscos
+* **Arquivo:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/16_licitacoes_e_contratos_administrativos/01_governanca_planejamento_etp_tr_e_matriz_riscos.md`
+* **Status:** Concluído e sincronizado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Preservadas as 11 questões originais que cobrem com excelência didática as três linhas de defesa, governança, plano anual de contratações (PCA), estudo técnico preliminar (ETP), termo de referência (TR) e matriz de alocação de riscos da Lei nº 14.133/2021.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 066`** (Governança das Contratações Públicas e Três Linhas de Defesa no art. 169 da Lei nº 14.133/2021): Preservada.
+* **`Teste 067`** (Princípio da Segregação de Funções e Vedações à Designação Cumulativa de Agentes Públicos): Preservada.
+* **`Teste 068`** (Gestão por Competências e Requisitos para Designação do Agente de Contratação e Equipe de Apoio): Preservada.
+* **`Teste 069`** (Comissão de Contratação: Hipóteses de Obrigatoriedade e Composição Mínima de Três Membros): Preservada.
+* **`Teste 070`** (Impedimentos e Suspeições dos Agentes Públicos que Atuam no Processo de Contratação): Preservada.
+* **`Teste 071`** (Atuação da Assessoria Jurídica e Defesa Judicial de Agentes de Contratação pelo Órgão de Advocacia Pública): Preservada.
+* **`Teste 072`** (Estudo Técnico Preliminar / ETP: Elementos Obrigatórios e Facultativos na Fase Preparatória): Preservada.
+* **`Teste 073`** (Termo de Referência / TR e Projeto Básico: Distinções Estruturais e Requisitos Legais): Preservada.
+* **`Teste 074`** (Pesquisa de Preços e Métodos de Composição do Preço Estimado segundo o art. 23 da NLLC): Preservada.
+* **`Teste 075`** (Matriz de Alocação de Riscos: Riscos Contratuais, Cláusula de Eficiência e Equilíbrio Econômico-Financeiro): Preservada.
+* **`Teste 076`** (Plano de Contratações Anual / PCA: Elaboração, Integração ao Orçamento e Publicidade no PNCP): Preservada.
+
+---
+
+## Caderno 02: Fases da Licitação, Modalidades e Critérios de Julgamento
+* **Arquivo:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/16_licitacoes_e_contratos_administrativos/02_fases_modalidades_e_criterios_de_julgamento.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 079`**: Substituído pela questão real **`V3_FGV_TCE_GO_2024_Q0174`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/GO – 2024 – Analista de Controle Externo (Controle Externo)**
+  * **Conceito Aderente:** Irresignação administrativa e recursos na Lei nº 14.133/2021: sistemática dos recursos e do pedido de reconsideração contra atos decisórios do certame e habilitação/inabilitação de licitantes.
+* **`Teste 084`**: Substituído pela questão real **`V3_FGV_TCE_PI_2025_Q2984`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/PI – 2025 – Auditor de Controle Externo**
+  * **Conceito Aderente:** Articulação de instrumentos jurídicos na Lei nº 14.133/2021: emprego do Diálogo Competitivo para soluções complexas e software com inteligência artificial adaptada, Sistema de Registro de Preços (SRP) para notebooks e Credenciamento para técnicos em regime padronizado simultâneo.
+* **`Teste 087`**: Substituído pela questão real **`V3_FGV_TCE_SC_2026_Q3127`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo (Administração)**
+  * **Conceito Aderente:** Consórcio de empresas e habilitação na NLLC (art. 15): acréscimo editalício obrigatório de 10% a 30% na qualificação econômico-financeira de consórcios, dever de constituição e registro prévio do vencedor, e autorização justificada para fixação de limite de empresas consorciadas.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 079`**: Simulado prévio sobre a fase recursal única da NLLC.
+* **`Teste 084`**: Simulado introdutório sobre o conceito básico de diálogo competitivo.
+* **`Teste 087`**: Simulado genérico sobre modos de disputa aberto e fechado.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 077`** (Fases do Processo de Licitação: Inversão de Fases como Regra Geral e Excepcionalidade da Pré-Habilitação): Preservada.
+* **`Teste 078`** (Publicidade do Edital e Prazos Mínimos de Apresentação de Propostas nas Modalidades da Lei nº 14.133/2021): Preservada.
+* **`Teste 080`** (Modalidade Concorrência: Âmbito de Aplicação para Obras, Bens e Serviços Especiais): Preservada.
+* **`Teste 081`** (Modalidade Pregão: Obrigatoriedade para Aquisição de Bens e Serviços Comuns): Preservada.
+* **`Teste 082`** (Modalidade Concurso: Seleção de Trabalho Técnico, Científico ou Artístico e Prêmio/Remuneração): Preservada.
+* **`Teste 083`** (Modalidade Leilão: Alienação de Bens Móveis Inservíveis e Imóveis sob Condução de Leiloeiro Oficial): Preservada.
+* **`Teste 085`** (Critérios de Julgamento: Menor Preço, Maior Desconto, Melhor Técnica ou Conteúdo Artístico, Técnica e Preço, Maior Lance e Maior Retorno Econômico): Preservada.
+* **`Teste 086`** (Critério de Maior Retorno Econômico em Contratos de Eficiência Energética e Redução de Custos Operacionais): Preservada.
+
+---
+
+## Caderno 03: Procedimentos Auxiliares e Contratação Direta
+* **Arquivo:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/16_licitacoes_e_contratos_administrativos/03_procedimentos_auxiliares_e_contratacao_direta.md`
+* **Status:** Concluído e sincronizado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Preservadas as 11 questões originais que cobrem com precisão o credenciamento, pré-qualificação, PMI, registro cadastral, SRP, dispensa (art. 75) e inexigibilidade (art. 74).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 088`** (Rol Taxativo dos Cinco Procedimentos Auxiliares no art. 78 da Lei nº 14.133/2021): Preservada.
+* **`Teste 089`** (Credenciamento: Hipóteses de Paralela e Não Excludente, Mercados com Preços Uniformes e Seleção a Critério de Terceiros): Preservada.
+* **`Teste 090`** (Pré-Qualificação Permanente de Licitantes e Bens: Validade e Eficácia Procedimental): Preservada.
+* **`Teste 091`** (Procedimento de Manifestação de Interesse / PMI: Proposição de Estudos e Projetos por Particulares sem Direito a Indenização): Preservada.
+* **`Teste 092`** (Sistema de Registro de Preços / SRP: Ata de Registro de Preços, Órgão Gerenciador, Participantes e Caronas): Preservada.
+* **`Teste 093`** (Processo de Contratação Direta: Requisitos Obrigatórios de Instrução do art. 72 da NLLC): Preservada.
+* **`Teste 094`** (Inexigibilidade de Licitação para Serviços Técnicos Profissionais Especializados de Natureza Predominantemente Intelectual): Preservada.
+* **`Teste 095`** (Inexigibilidade para Contratação de Profissional do Setor Artístico Consagrado pela Crítica): Preservada.
+* **`Teste 096`** (Dispensa de Licitação em Razão do Valor: Limites Monetários dos incisos I e II do art. 75 e Fracionamento Indevido): Preservada.
+* **`Teste 097`** (Dispensa de Licitação por Emergência ou Calamidade Pública: Prazo Máximo de 1 Ano e Vedação à Prorrogação): Preservada.
+* **`Teste 098`** (Licitação Deserta e Licitação Fracassada: Requisitos Legais para Contratação Direta): Preservada.
+
+---
+
+## Caderno 04: Contratos Administrativos, Fiscalização, Alterações e Sanções
+* **Arquivo:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/16_licitacoes_e_contratos_administrativos/04_contratos_administrativos_fiscalizacao_alteracoes_e_sancoes.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 107`**: Substituído pela questão real **`V3_FGV_TCE_PA_2024_Q2511`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/PA – 2024 – Auditor de Controle Externo**
+  * **Conceito Aderente:** Processo de responsabilização administrativa na Lei nº 14.133/2021: condução por comissão de servidores estáveis para impedimento de licitar e declaração de inidoneidade, indeferimento motivado de provas ilícitas e prazo legal de 15 dias úteis para defesa.
+* **`Teste 108`**: Substituído pela questão real **`V3_FGV_TCE_PA_2024_Q2879`**
+  * **Banca/Órgão/Ano/Cargo:** **FGV – TCE/PA – 2024 – Auditor de Controle Externo (Gestão Governamental)**
+  * **Conceito Aderente:** Sanção de Declaração de Inidoneidade para licitar ou contratar na Lei nº 14.133/2021: prazo legal mínimo de 3 anos e máximo de 6 anos (art. 156, § 5º), abrangência em âmbito nacional e competência exclusiva de autoridade superior.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 107`**: Simulado prévio genérico sobre o rol de sanções do art. 156.
+* **`Teste 108`**: Simulado sobre caso hipotético de fraude em ambulâncias.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 099`** (Cláusulas Exorbitantes nos Contratos Administrativos: Modificação Unilateral, Rescisão, Fiscalização e Ocupação Provisória - FGV TRF-1): Preservada.
+* **`Teste 100`** (Garantias Contratuais na Lei nº 14.133/2021: Caução, Fiança Bancária e Seguro-Garantia com Cláusula de Retomada em Grande Vulto): Preservada.
+* **`Teste 101`** (Duração dos Contratos Administrativos: Regra Geral de Até 5 Anos para Serviços Continuados, Prorrogáveis por Até 10 Anos): Preservada.
+* **`Teste 102`** (Fiscalização Técnica, Administrativa e Setorial dos Contratos e Conta-Depósito Vinculada): Preservada.
+* **`Teste 103`** (Responsabilidade Trabalhista e Previdenciária da Administração: Tema 246 do STF e Vedação à Transferência Automática de Inadimplência): Preservada.
+* **`Teste 104`** (Alteração Unilateral dos Contratos Administrativos: Limites Legais de 25% para Acréscimos/Supressões e 50% para Reformas): Preservada.
+* **`Teste 105`** (Equilíbrio Econômico-Financeiro: Reajuste em Sentido Estrito, Repactuação e Revisão/Recomposição por Fato Imprevisível): Preservada.
+* **`Teste 106`** (Extinção dos Contratos Administrativos: Extinção Unilateral por Inadimplemento, Consensual e Judicial): Preservada.
+* **`Teste 109`** (Reabilitação do Licitante ou Contratado Perante a Própria Autoridade que Aplicou a Sanção nos Termos do art. 163): Preservada.

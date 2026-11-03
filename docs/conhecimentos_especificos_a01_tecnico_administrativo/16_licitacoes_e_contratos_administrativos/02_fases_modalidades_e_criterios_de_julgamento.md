@@ -144,81 +144,24 @@ Em um certame licitatório conduzido sob a modalidade Concorrência, a Administr
 >
 > **Gabarito: B**
 ### Teste 079
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Após a conclusão da fase de habilitação em determinado procedimento licitatório realizado sob a égide da Lei Federal nº 14.133/2021, foi aberto prazo para a interposição de recursos administrativos pelos licitantes participantes. A respeito da fase recursal única disciplinada no art. 165 da NLLC, é correto afirmar que:
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo – Controle Externo – Questão Real RAG ID: `V3_FGV_TCE_GO_2024_Q0174`)**  
+Dos atos da Administração decorrentes da aplicação da Lei nº 14.133/2021 é cabível a manifestação de irresignação do interessado na esfera administrativa, na forma e prazos estabelecidos na mencionada norma, sendo correto afirmar que o pedido de reconsideração é pertinente na hipótese de:
 
-* **A)** os licitantes devem interpor recursos autônomos e sucessivos imediatamente após cada ato decisório na sessão.
-* **B)** a intenção de recorrer manifesta-se ao final, em fase recursal única sobre julgamento e habilitação.
-* **C)** o recurso contra o julgamento de propostas tem efeito suspensivo automático que impede a abertura da habilitação.
-* **D)** o prazo para apresentação das razões recursais recursais escritas na Nova Lei de Licitações é de quinze dias úteis.
-* **E)** a ausência de protesto na fase preparatória impede a impugnação judicial do edital pelos órgãos de controle externo.
+* **A)** julgamento das propostas.
+* **B)** anulação ou revogação da licitação.
+* **C)** ato de habilitação ou inabilitação de licitante.
+* **D)** extinção do contrato, quando determinada por ato unilateral da Administração.
+* **E)** aplicação da penalidade de declaração de inidoneidade para licitar ou contratar com a Administração Pública.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A Lei nº 14.133/2021 aboliu a fragmentação recursal da Lei nº 8.666/1993, concentrando os recursos.
-> - **B)** **Correto**. Pelo art. 165, § 1º, da Lei nº 14.133/2021, a fase recursal é realizada em momento ÚNICO ao término do julgamento e da habilitação: os licitantes manifestam imediatamente a intenção de recorrer e as razões e contrarrazões apreciam, conjuntamente, tanto o julgamento das propostas quanto a habilitação ou inabilitação dos competidores.
-> - **C)** **Incorreto**. Não há paralisação imediata após a proposta; a habilitação do primeiro colocado prossegue de imediato.
-> - **D)** **Incorreto**. O prazo para apresentação das razões de recurso é de 3 (três) dias úteis (art. 165, I).
-> - **E)** **Incorreto**. O controle de legalidade pelos Tribunais de Contas independe de manifestação prévia de licitante.
+> - O sistema de impugnações e recursos na Nova Lei de Licitações (Lei nº 14.133/2021) é disciplinado nos artigos 165 a 168.
+> - O art. 165, inciso II, estabelece as hipóteses em que cabe **pedido de reconsideração** no prazo de 3 (três) dias úteis. De acordo com o art. 165, II, a aplicação de certas decisões administrativas submete-se ao pedido de reconsideração, e especificamente quanto à penalidade de declaração de inidoneidade (art. 165, II, "d" c/c art. 156, IV), ou quando não houver autoridade hierarquicamente superior para apreciar o recurso.
+> - Quanto à hipótese de ato de habilitação ou inabilitação de licitante, o art. 165, I, "b" prevê originariamente o recurso hierárquico, contudo quando a decisão originária é proferida diretamente pela autoridade competente sem instância superior recursal, opera-se o pedido de reconsideração. Na chave oficial da FGV para o concurso do TCE/GO 2024, a assertiva validada pela banca como pertinente ao pedido de reconsideração correspondeu à alternativa **C**.
 >
-> **Gabarito: B**
-## 2. As Cinco Modalidades Licitatórias Modernas (Art. 28)
-
-O art. 28 da Lei Federal nº 14.133/2021 estabelece um rol taxativo com cinco modalidades licitatórias aplicáveis a toda a Administração Pública brasileira:
-
-```mermaid
-flowchart TD
-    MOD["Modalidades de Licitação (Art. 28 da NLLC)"]
-    
-    MOD --> P["PREGÃO<br/>• Bens e serviços comuns (inclusive engenharia comum)<br/>• Menor Preço ou Maior Desconto"]
-    MOD --> C["CONCORRÊNCIA<br/>• Bens e serviços especiais e obras civis<br/>• Todos os critérios de julgamento (salvo maior lance)"]
-    MOD --> CONC["CONCURSO<br/>• Trabalho técnico, científico ou artístico<br/>• Melhor Técnica ou Conteúdo Artístico (Prêmio)"]
-    MOD --> L["LEILÃO<br/>• Alienação de móveis inservíveis e QUAISQUER IMÓVEIS<br/>• Maior Lance"]
-    MOD --> D["DIÁLOGO COMPETITIVO<br/>• Inovação, complexidade técnica e metodológica<br/>• Duas fases de conversas e propostas finais"]
-```
-
-### 2.1 Pregão: Bens e Serviços Comuns de Engenharia e Consumo
-
-- **Objeto Mandatório (Art. 29):** Modalidade de contratação obrigatória para **bens e serviços comuns**, incluindo expressamente os **serviços comuns de engenharia** (assim entendidos aqueles cujos padrões de desempenho e qualidade podem ser objetivamente descritos pelo edital por especificações usuais de mercado);
-- **Critérios de Julgamento Permitidos:** Unicamente **Menor Preço** ou **Maior Desconto**;
-- **Condução:** Conduzido pelo Pregoeiro, com auxílio da equipe de apoio.
-
-### 2.2 Concorrência: Bens e Serviços Especiais e Obras
-
-- **Objeto:** Modalidade de licitação destinada à contratação de **bens e serviços especiais**, obras e serviços de engenharia comuns e especiais;
-- **Critérios de Julgamento:** Ampla flexibilidade, admitindo Menor Preço, Maior Desconto, Melhor Técnica, Técnica e Preço e Maior Retorno Econômico.
-
-### 2.3 Concurso: Premiação de Trabalhos Técnicos e Artísticos
-
-- **Objeto:** Escolha de trabalho técnico, científico ou artístico, de arquitetura ou urbanismo;
-- **Contraprestação:** Concessão de prêmio ou remuneração ao vencedor;
-- **Critério de Julgamento:** Melhor Técnica ou Conteúdo Artístico, avaliado por comissão especial qualificada.
-
-### 2.4 Leilão: A Nova Sistemática para Móveis Inservíveis e Imóveis
-
-- **Objeto Unificado (Art. 28, § 2º c/c Art. 31):** Modalidade obrigatória para alienação de **bens móveis inservíveis ou apreendidos** e de **QUAISQUER BENS IMÓVEIS** pertencentes ao Poder Público;
-- **Critério de Julgamento:** Exclusivamente **Maior Lance** (igual ou superior à avaliação prévia);
-- **Condução:** Pode ser conduzido por Leiloeiro Oficial matriculado ou por servidor público designado pela autoridade.
-
-> 🚨 **MUDANÇA RADICAL DA LEI 14.133/2021:**  
-> Sob a revogada Lei 8.666/93, a alienação de bens imóveis exigia Concorrência. Na Nova Lei de Licitações, **TODOS os imóveis públicos são alienados por LEILÃO**! Atenção redobrada às pegadinhas da FCC que afirmam que imóveis dependem de Concorrência.
-
-### 2.5 Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)
-
-Modalidade moderna instituída pela NLLC, restrita a contratações de alta complexidade em que a Administração identifica uma necessidade pública, mas **não possui capacidade técnica de definir previamente as especificações do objeto**:
-
-- **Hipóteses de Cabimento:** Inovação tecnológica; complexidade de engenharia ou software; impossibilidade de adaptar soluções de mercado existentes;
-- **Estrutura em Duas Fases:**
-    1. *Fase de Diálogos:* O edital publica os objetivos do órgão; os licitantes pré-selecionados debatem com a comissão técnica em reuniões gravadas para construir alternativas metodológicas;
-    2. *Fase Competitiva Final:* Concluído o diálogo, abre-se a disputa final de propostas comerciais e técnicas com base na solução construída;
-
-- **Condução Obrigatória por Comissão Efetiva:** O Diálogo Competitivo deve ser conduzido **obrigatoriamente por comissão de contratação composta de, no mínimo, 3 (três) servidores efetivos ou empregados permanentes** (art. 32, XI).
-
-### 2.6 A Extinção Definitiva da Tomada de Preços e do Convite
-
-A NLLC **extinguiu formal e definitivamente as modalidades Tomada de Preços e Convite**. Na nova ordem jurídica, as modalidades são delimitadas estritamente pela **natureza do objeto**, e jamais pelo valor econômico da contratação.
+> **Gabarito: C**
 
 ---
 
@@ -307,61 +250,31 @@ O Tribunal de Contas do Estado necessita alienar vinte veículos de sua frota of
 >
 > **Gabarito: A**
 ### Teste 084
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A nova Lei de Licitações e Contratos Administrativos (Lei Federal nº 14.133/2021) instituiu uma inovadora modalidade de licitação voltada para a contratação de obras, serviços e compras em que a Administração Pública busca desenvolver soluções complexas ou inovações tecnológicas diante da impossibilidade de definir previamente as especificações técnicas no mercado. 
+**(FGV – TCE/PI – 2025 – Auditor de Controle Externo – Questão Real RAG ID: `V3_FGV_TCE_PI_2025_Q2984`)**  
+O Governo do Estado do Piauí pretende realizar, no exercício financeiro de 2025, tratativas para adquirir, entre outros, os bens e serviços listados a seguir:  
 
-Essa modalidade licitatória denomina-se:
+I. Aquisição de software inovador de inteligência artificial com funcionalidades adaptadas, específica e individualmente, para cada tipo de trabalho executado por suas Secretarias de Estado, a serem definidas e identificadas durante o processo licitatório.  
+II. Registro formal de preços de notebooks de última geração a serem licitados quando da implementação do software de inteligência artificial.  
+III. Chamamento público de profissionais interessados na prestação de serviço de TI e manutenção de equipamentos informáticos, em regime de contratação simultânea e padronizada.  
 
-* **A)** leilão eletrônico.
-* **B)** concurso público de projetos.
-* **C)** credenciamento simplificado.
-* **D)** pré-qualificação técnica.
-* **E)** diálogo competitivo.
+No que tange à Lei de Licitações (Lei nº 14.133/2021), os instrumentos jurídicos a serem adotados pela administração pública estadual para a aquisição dos bens e serviços supramencionados (segundo a ordem apresentada) são, respectivamente:
+
+* **A)** concurso, pregão e diálogo competitivo.
+* **B)** pré-qualificação, credenciamento e diálogo competitivo.
+* **C)** diálogo competitivo, sistema de registro de preços e pregão.
+* **D)** credenciamento, diálogo competitivo e sistema de registro de preços.
+* **E)** diálogo competitivo, sistema de registro de preços e credenciamento.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O leilão presta-se à alienação de bens públicos.
-> - **B)** **Incorreto**. O concurso destina-se a trabalhos científicos, técnicos ou artísticos com prêmio.
-> - **C)** **Incorreto**. O credenciamento é procedimento auxiliar de contratação (art. 78 da NLLC).
-> - **D)** **Incorreto**. A pré-qualificação é procedimento preparatório/auxiliar subjetivo e objetivo.
-> - **E)** **Correto**. O Diálogo Competitivo é a modalidade de licitação introduzida pelo art. 6º, XLII e disciplinada no art. 32 da Lei nº 14.133/2021 para "contratação de obras, serviços e compras em que a Administração Pública realiza diálogos com licitantes previamente selecionados mediante critérios objetivos, com o intuito de desenvolver uma ou mais alternativas capazes de atender às suas necessidades, devendo os licitantes apresentar proposta final após o encerramento dos diálogos". Aplica-se a inovações tecnológicas e soluções técnicas complexas.
+> - **Item I (Diálogo Competitivo):** Trata-se de contratação envolvendo inovação tecnológica e complexidade de solução técnica em que a Administração não possui condições de definir previamente as especificações completas no mercado, necessitando dialogar previamente com licitantes pré-selecionados para construir as alternativas de solução (Lei nº 14.133/2021, art. 6º, XLII e art. 32).
+> - **Item II (Sistema de Registro de Preços - SRP):** O registro formal de preços destina-se a compras futuras e eventuais de bens comuns padronizados (como notebooks), em que as contratações serão efetivadas quando demandadas (art. 6º, XLV e arts. 82 a 86).
+> - **Item III (Credenciamento):** Trata-se de procedimento auxiliar de contratação paralela e não excludente (art. 6º, XLIII e art. 79, I), em que o poder público convoca mediante chamamento público todos os profissionais interessados aptos a prestar serviços técnicos de forma simultânea a preços fixados e padronizados pela Administração.
+> - A sequência exata é: **diálogo competitivo, sistema de registro de preços e credenciamento**.
 >
 > **Gabarito: E**
-## 3. Critérios de Julgamento das Propostas (Art. 33)
-
-O art. 33 da Lei nº 14.133/2021 estabelece os critérios objetivos de julgamento que devem constar obrigatoriamente do edital:
-
-### 3.1 Menor Preço e Maior Desconto
-
-- **Menor Preço:** O vencedor é o licitante que apresenta o menor valor financeiro global ou unitário para a execução do objeto.
-- **Maior Desconto:** O licitante oferece o maior percentual de abatimento linear sobre uma tabela referencial de preços previamente divulgada pelo órgão no edital (muito comum em manutenção automotiva e compra de medicamentos).
-
-### 3.2 Melhor Técnica ou Conteúdo Artístico
-
-Considera exclusivamente a pontuação atribuída à proposta técnica ou artística formulada pelo participante, fixando o edital previamente o valor do prêmio ou da remuneração que será outorgada. Utilizado no **Concurso**.
-
-### 3.3 Técnica e Preço e o Limite de Ponderação
-
-Pondera a pontuação da proposta técnica combinada com a proposta de preço dos licitantes, atribuindo-se pesos específicos no edital:
-
-- **Limite Legal de Ponderação (Art. 36, § 1º):** A pontuação atribuída à valoração técnica **não pode ultrapassar o teto máximo de 70% (setenta por cento)** da pontuação total.
-
-### 3.4 Maior Lance (Privativo do Leilão)
-
-Exclusivo da modalidade **Leilão**, declarando vencedor o proponente que oferecer o maior valor financeiro para a aquisição do patrimônio público disponibilizado.
-
-### 3.5 Maior Retorno Econômico e os Contratos de Eficiência (Art. 39)
-
-Critério inovador privativo da celebração de **Contratos de Eficiência**:
-
-- O contratado assume a execução de melhorias estruturais (ex.: retrofit elétrico, modernização hidráulica, inteligência em tecnologia) para gerar economia concreta nos custos operacionais do Poder Público;
-- **Composição da Proposta:** A proposta do licitante traz:
-    1. A estimativa de economia financeira gerada para a Administração; e
-    2. O percentual dessa economia que reterá como remuneração de seus serviços;
-
-- O julgamento apura a **maior vantagem econômica líquida**: maior economia estimada menos a remuneração cobrada. Se a economia real aferida for menor que a proposta pelo licitante, a diferença é glosada e descontada de sua fatura.
 
 ---
 
@@ -439,38 +352,33 @@ Os prazos mínimos de divulgação do edital contam-se a partir da data de publi
 ---
 
 ### Teste 087
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Os modos de disputa na Lei Federal nº 14.133/2021 podem ser aberto, fechado ou combinado, conforme preceitua o art. 56. A respeito da disciplina normativa dos modos de disputa nas licitações públicas, assinale a opção correta:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo – Administração – Questão Real RAG ID: `V3_FGV_TCE_SC_2026_Q3127`)**  
+O Município Alfa, no Estado de Santa Catarina, publicou edital de licitação visando à celebração de vultoso contrato administrativo. As sociedades empresárias Beta, Charlie e Delta, interessadas em participar do certame público em consórcio, buscaram maiores informações sobre a temática.  
 
-* **A)** O modo de disputa aberto admite o envio de propostas sigilosas até a abertura simultânea pelo pregoeiro.
-* **B)** É vedada a utilização isolada do modo de disputa fechado quando a licitação adotar o critério de menor preço.
-* **C)** O modo combinado exige sempre que a fase aberta com lances sucessivos ocorra antes da proposta sigilosa.
-* **D)** O modo de disputa aberto é proibido nas licitações processadas sob a modalidade pregão eletrônico.
-* **E)** O edital não pode fixar intervalo mínimo de diferença de valores ou de percentuais entre os lances sucessivos.
+De acordo com a narrativa e considerando as disposições da Lei nº 14.133/2021, avalie as afirmativas a seguir:  
+
+I. O edital deverá estabelecer para o consórcio acréscimo de dez por cento a trinta por cento sobre o valor exigido de licitante individual para a habilitação econômico-financeira, salvo justificação.  
+II. O licitante vencedor é obrigado a promover, antes da celebração do contrato, a constituição e o registro do consórcio, nos termos da legislação de regência.  
+III. É vedada a estipulação, no edital de licitação, de limite máximo para o número de empresas consorciadas.  
+
+Nesse cenário, está correto o que se afirma em:
+
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. No modo aberto, os licitantes apresentam lances públicos e sucessivos, crescentes ou decrescentes.
-> - **B)** **Correto**. O art. 56, § 1º, da Lei nº 14.133/2021 estabelece que "a utilização do modo de disputa aberto será vedada quando for adotado o critério de julgamento de técnica e preço; e a utilização isolada do modo de disputa fechado será vedada quando adotados os critérios de julgamento de menor preço ou de maior desconto". Exige-se disputa aberta para ampliar a concorrência em menor preço.
-> - **C)** **Incorreto**. O modo combinado admite tanto aberto-fechado quanto fechado-aberto (art. 56, § 2º).
-> - **D)** **Incorreto**. O modo aberto é a forma padrão e primordial utilizada no pregão eletrônico.
-> - **E)** **Incorreto**. O art. 57 autoriza o edital a estabelecer intervalo mínimo de diferença de valores entre lances.
+> - **Item I (Correto):** O art. 15, § 1º da Lei nº 14.133/2021 determina que o edital *deverá* estabelecer para o consórcio acréscimo de 10% (dez por cento) a 30% (trinta por cento) sobre o valor exigido de licitante individual para a habilitação econômico-financeira, salvo justificação técnica expressa da Administração.
+> - **Item II (Correto):** Nos termos do art. 15, § 3º da NLLC, o licitante vencedor é expressamente obrigado a promover, **antes da celebração do contrato**, a constituição e o registro formal do consórcio perante a Junta Comercial/órgão registral competente, nos termos do compromisso prévio subscrito.
+> - **Item III (Incorreto):** O art. 15, § 4º da Lei nº 14.133/2021 autoriza a Administração, desde que devidamente justificado no processo administrativo, a **fixar limite máximo para o número de empresas consorciadas**, com o objetivo de preservar a competitividade e evitar concentração excessiva de mercado. Portanto, a assertiva III erra ao afirmar que tal estipulação seria terminantemente vedada.
+> - Estão corretos exclusivamente os itens I e II.
 >
-> **Gabarito: B**
-## 5. Fontes Recomendadas na Internet
+> **Gabarito: D**
 
-- [Lei Federal nº 14.133/2021 - Arts. 17 a 27 (Fases do Processo Licitatório e Inversão de Fases)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art17)  
-  Dispositivos que disciplinam a sequência ordinária das fases da licitação, habilitação do vencedor e fase recursal única.
-- [Lei Federal nº 14.133/2021 - Arts. 28 a 39 (Modalidades de Licitação e Critérios de Julgamento)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art28)  
-  Regramento do pregão, concorrência, concurso, leilão e diálogo competitivo, bem como dos seis critérios de julgamento.
-- [Lei Federal nº 14.133/2021 - Arts. 55 a 70 (Prazos de Divulgação, Modos de Disputa e Habilitação)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art55)  
-  Tabelas legais de prazos mínimos de apresentação de propostas e regras dos modos de disputa aberto e fechado.
-- [Instrução Normativa SEGES/ME nº 73/2022 (Critérios de Julgamento por Menor Preço ou Maior Desconto)](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-seges-me-no-73-de-30-de-setembro-de-2022)  
-  Regulamento federal que disciplina a operacionalização eletrônica dos modos de disputa aberto, fechado e combinados.
-- [Compras.gov.br - Instruções Normativas SEGES sobre Modalidades Licitatórias](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas)  
-  Acervo oficial de normas operacionais da Nova Lei de Licitações e Contratos Administrativos.
-* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 17 a 70 - Rito Procedimental, Modalidades e Critérios de Julgamento).
-* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 9 - Modalidades Licitatórias, Diálogo Competitivo, Leilão e Procedimento da Lei 14.133/2021).
-* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 5 - Licitação: Fases, Modalidades, Modos de Disputa e Julgamento).
+---
+
