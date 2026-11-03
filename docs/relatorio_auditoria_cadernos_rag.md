@@ -1701,3 +1701,134 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 069`** (Fechos para Comunicações Oficiais: Bipartição estrita entre Respeitosamente para autoridade superior e Atenciosamente para mesma ou menor hierarquia): Preservada.
 * **`Teste 070`** (Correio Eletrônico Institucional / E-mail: Valor documental, segurança da informação e parâmetros do MRPR): Preservada.
 * **`Teste 071`** (Espécies Documentais no Controle Externo: Relatório de Auditoria, Instrução Técnica, Parecer Prévio e Acórdão): Preservada.
+
+
+---
+
+# Módulo 02 (Conhecimentos Gerais): Matemática e Raciocínio Lógico
+* **Pasta:** `docs/conhecimentos_gerais/02_matematica_e_raciocinio_logico/`
+* **Data da Auditoria e Injeção RAG:** 2026-11-03
+* **Cadernos Auditados:** 5 cadernos (`01_conjuntos_numericos_fracoes_e_aritmetica.md` a `05_logica_de_argumentacao_e_conclusoes_validas.md`)
+* **Total de Questões no Módulo:** 50 questões (Testes 072 a 121)
+* **Decisão Metodológica RAG:** **Preservação Integral de 100% das Questões Autorais Simuladas (50 questões)**
+  * **Motivação Técnica da Auditoria:** O banco de dados vetorial externo continha 28 registros rotulados como *Matemática e Raciocínio Lógico*. A inspeção semântica profunda revelou um vício de taxonomia na base importadora de concursos: a grande maioria dos registros tratava de *proposições legislativas* (Direito Constitucional, arts. 59 a 69 da CF/88), processos disciplinares, penalidades na Lei 14.133/2021 ou padrões de redes de dados (IPv6), indexados incorretamente pela palavra "proposição". As questões autorais existentes nos 5 cadernos foram rigorosamente estruturadas sob medida para cobrir 100% da ementa oficial do TCE-GO (Operações com Inteiros e Racionais, MDC/MMC, Razões e Proporções, Divisão Inversamente Proporcional, Regra de Três Simples e Composta, Porcentagem e Fatores de Aumento/Desconto, Lógica Proposicional, Tabelas-Verdade, Leis de De Morgan, Matrizes de Associação, Raciocínio Sequencial e Cíclico, Orientação Espacial e Temporal, e Lógica de Argumentação por Diagramas de Venn e Silogismos). Substituir esses testes por itens com desvio de matéria corromperia a integridade curricular do projeto.
+
+---
+
+## Caderno 01: Aritmética e Conjuntos Numéricos
+* **Arquivo:** `docs/conhecimentos_gerais/02_matematica_e_raciocinio_logico/01_conjuntos_numericos_fracoes_e_aritmetica.md`
+* **Status:** Concluído e auditado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Banco vetorial sem correspondências conceituais exatas para aritmética e conjuntos numéricos.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 072`** (Conjuntos Numéricos e Relações de Inclusão entre Naturais, Inteiros, Racionais e Reais): Preservada.
+* **`Teste 073`** (Operações com Frações e Expressões Numéricas Fracionárias na divisão de recursos orçamentários): Preservada.
+* **`Teste 074`** (Números Primos, Decomposição em Fatores Primos e Critérios de Divisibilidade): Preservada.
+* **`Teste 075`** (Mínimo Múltiplo Comum / MMC aplicado a escalas periódicas de plantão e auditorias simultâneas): Preservada.
+* **`Teste 076`** (Máximo Divisor Comum / MDC aplicado à divisão equitativa de lotes de processos e arquivos sem sobras): Preservada.
+* **`Teste 077`** (Problemas Aritméticos Envolvendo Sistema Métrico Decimal e Conversão de Unidades de Medida): Preservada.
+* **`Teste 078`** (Potenciação, Radiciação e Notação Científica no manuseio de grandezas financeiras): Preservada.
+* **`Teste 079`** (Dízimas Periódicas Simples e Compostas e Conversão para Fração Geratriz): Preservada.
+* **`Teste 080`** (Operações Aritméticas Fundamentais e Resolução de Problemas Algébricos de 1º Grau no setor público): Preservada.
+* **`Teste 081`** (Princípio das Gavetas de Dirichlet / Princípio da Casa dos Pombos aplicado à triagem de relatórios): Preservada.
+
+---
+
+## Caderno 02: Grandezas Proporcionais, Regra de Três e Porcentagem
+* **Arquivo:** `docs/conhecimentos_gerais/02_matematica_e_raciocinio_logico/02_proporcoes_regra_de_tres_e_porcentagem.md`
+* **Status:** Concluído e auditado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Preservadas as formulações matemáticas analíticas desenhadas sob medida para controle externo.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 082`** (Razão e Proporção entre Grandezas e Propriedade Fundamental das Proporções): Preservada.
+* **`Teste 083`** (Divisão em Partes Diretamente Proporcionais na partilha de gratificações por tempo de serviço): Preservada.
+* **`Teste 084`** (Divisão em Partes Inversamente Proporcionais segundo o número de faltas e dias de atraso): Preservada.
+* **`Teste 085`** (Divisão Proporcional Composta Direta e Inversa Simultânea): Preservada.
+* **`Teste 086`** (Regra de Três Simples Direta e Inversa na produtividade de equipes de fiscalização): Preservada.
+* **`Teste 087`** (Regra de Três Composta envolvendo operários/auditores, horas diárias, rendimento e extensão da obra): Preservada.
+* **`Teste 088`** (Cálculo de Porcentagem Simples, Lucro, Prejuízo e Descontos sobre Valor Nominal): Preservada.
+* **`Teste 089`** (Aumentos e Descontos Sucessivos e Cálculo do Fator Multiplicativo Acumulado Real): Preservada.
+* **`Teste 090`** (Inversão da Base de Referência Percentual: Comparação entre Processos Físicos e Eletrônicos): Preservada.
+* **`Teste 091`** (Variação Percentual Relativa vs Variação em Pontos Percentuais na alteração de alíquotas de tributos): Preservada.
+
+---
+
+## Caderno 03: Estruturas Lógicas, Associação e Dedução
+* **Arquivo:** `docs/conhecimentos_gerais/02_matematica_e_raciocinio_logico/03_estruturas_logicas_e_associacao.md`
+* **Status:** Concluído e auditado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Banco vetorial continha registros de direito rotulados erroneamente como estruturas lógicas.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 092`** (Conceito de Proposição Lógica, Princípios da Lógica Clássica e Sentenças Abertas): Preservada.
+* **`Teste 093`** (Conectivos Lógicos: Conjunção, Disjunção Inclusiva, Disjunção Exclusiva, Condicional e Bicondicional): Preservada.
+* **`Teste 094`** (Construção de Tabelas-Verdade e Determinação do Número de Linhas $2^n$): Preservada.
+* **`Teste 095`** (Classificação de Fórmulas Proposicionais: Tautologia, Contradição e Contingência): Preservada.
+* **`Teste 096`** (Equivalências Notáveis da Condicional: Contrapositiva $P \to Q \iff \neg Q \to \neg P$ e Equivalência Disjuntiva $\neg P \lor Q$): Preservada.
+* **`Teste 097`** (Primeira e Segunda Leis de De Morgan: Negação de Conjunções e Disjunções): Preservada.
+* **`Teste 098`** (Negação Lógica da Proposição Condicional: Regra 'Maném e Nega' $P \land \neg Q$): Preservada.
+* **`Teste 099`** (Negação da Proposição Bicondicional e sua Equivalência com a Disjunção Exclusiva): Preservada.
+* **`Teste 100`** (Problemas de Verdades e Mentiras com Afirmações Contraditórias entre Suspeitos): Preservada.
+* **`Teste 101`** (Problemas de Associação Lógica por Matrizes de Eliminação Cruzada: Cargos, Salas e Cidades): Preservada.
+
+---
+
+## Caderno 04: Raciocínio Sequencial, Temporal, Espacial e Verbal
+* **Arquivo:** `docs/conhecimentos_gerais/02_matematica_e_raciocinio_logico/04_raciocinio_sequencial_temporal_espacial_e_verbal.md`
+* **Status:** Concluído e auditado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Preservadas as 10 questões originais que cobrem perfeitamente os temas de progressões e raciocínio sequencial/temporal da banca.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 102`** (Sequências Numéricas com Padrões Aritméticos de Segunda Ordem e Diferenças Sucessivas): Preservada.
+* **`Teste 103`** (Sequência de Fibonacci e Variações Recursivas em Raciocínio Lógico): Preservada.
+* **`Teste 104`** (Sequências Cíclicas e Periódicas: Determinação do n-ésimo termo pelo resto da divisão inteira): Preservada.
+* **`Teste 105`** (Sequências Alfanuméricas e Correspondência de Posições no Alfabeto Oficial de 26 Letras): Preservada.
+* **`Teste 106`** (Raciocínio Temporal e Problemas de Calendário: Anos Bissextos, Deslocamento de Dias da Semana e Módulos): Preservada.
+* **`Teste 107`** (Raciocínio Temporal em Relógios: Ângulos entre Ponteiros de Horas e Minutos): Preservada.
+* **`Teste 108`** (Orientação Espacial e Rotação de Figuras Geométricas Bidimensionais e Tridimensionais): Preservada.
+* **`Teste 109`** (Planificação de Sólidos Geométricos e Determinação de Faces Opostas em Dados/Cubos): Preservada.
+* **`Teste 110`** (Raciocínio Verbal e Analogias Semânticas entre Pares de Palavras): Preservada.
+* **`Teste 111`** (Ordenação Linear e Posicional: Fila de Pessoas e Posições Relativas em Plenário): Preservada.
+
+---
+
+## Caderno 05: Lógica de Argumentação e Conclusões Válidas
+* **Arquivo:** `docs/conhecimentos_gerais/02_matematica_e_raciocinio_logico/05_logica_de_argumentacao_e_conclusoes_validas.md`
+* **Status:** Concluído e auditado (100% questões autorais mantidas)
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* *Nenhuma injeção:* Mantidas as questões didáticas de silogismo, dedução e falácias formais.
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* *Nenhuma.*
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 112`** (Conceito de Argumento Lógico: Premissas, Conclusão e Definição de Validade Formal): Preservada.
+* **`Teste 113`** (Regras de Inferência Clássicas: Modus Ponens e Modus Tollens): Preservada.
+* **`Teste 114`** (Falácias Formais da Lógica Condicional: Afirmação do Consequente e Negação do Antecedente): Preservada.
+* **`Teste 115`** (Quantificadores Lógicos Universal e Existencial: Todo, Algum e Nenhum): Preservada.
+* **`Teste 116`** (Negação de Proposições Categóricas com Quantificadores: A negação de 'Todo A é B' é 'Algum A não é B'): Preservada.
+* **`Teste 117`** (Análise de Validade de Argumentos Silogísticos por Diagramas de Venn e Regiões de Inclusão): Preservada.
+* **`Teste 118`** (Silogismo Categórico e Determinação de Conclusão Necessária a partir de Premissas Particulares e Universais): Preservada.
+* **`Teste 119`** (Dedução Lógica a partir de Conjunto Complexo de Hipóteses com Premissas Verdadeiras): Preservada.
+* **`Teste 120`** (Falácias Informais Comuns no Debate Público: Ad Hominem, Espantalho, Falsa Dicotomia e Apelo à Autoridade): Preservada.
+* **`Teste 121`** (Paradoxos Lógicos Clássicos: Paradoxo do Mentiroso e Autoreferência na Epistemologia da Lógica): Preservada.
