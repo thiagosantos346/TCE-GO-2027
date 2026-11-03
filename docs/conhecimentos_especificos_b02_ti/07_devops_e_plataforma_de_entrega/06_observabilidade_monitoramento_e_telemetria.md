@@ -295,24 +295,32 @@ flowchart TD
 ---
 
 ### Teste 227
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito dos três pilares fundamentais da observabilidade (Métricas, Logs e Rastreamento Distribuído/Traces), considere as seguintes afirmativas:
+**(FGV – TRT/13 – 2022 – Analista Judiciário - Tecnologia da Informação)**  
+Sobre a ferramenta de monitoramento Prometheus, analise as afirmativas a seguir.
 
-I. As métricas são representadas por dados numéricos agregados organizados ao longo do tempo (séries temporais), sendo computacionalmente eficientes e ideais para a geração de alertas instantâneos sobre a saúde do sistema.  
+I. Armazena fundamentalmente todos os dados como séries temporais.  
+II. Possui uma linguagem para consulta das métricas armazenadas denominada PromQL.  
+III. Coleta métricas através do protocolo HTTP.  
 
-II. Os logs registram eventos discretos com carimbo de tempo (*timestamp*); quando estruturados em formatos padronizados (como JSON), facilitam a indexação, agregação e correlação com identificadores de rastreamento (*trace_id*).  
-
-III. O tipo de métrica do Prometheus denominado *Counter* representa um valor numérico instantâneo que pode variar livremente para cima ou para baixo, sendo indicado para registrar a quantidade atual de memória RAM em uso em um servidor.  
-
-Está correto o que se afirma em:  
+Está correto o que se afirma em:
 
 * **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** II e III, apenas.
-* **D)** I e III, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
 * **E)** I, II e III.
 
+---
 
+> **Comentário Detalhado:**
+>
+> - **Item I (Correto):** O Prometheus armazena fundamentalmente todos os dados de telemetria como séries temporais (*time series*), ou seja, fluxos de valores com carimbo de tempo (*timestamp*) identificados por um nome de métrica e um conjunto de pares chave-valor denominados rótulos (*labels*).
+> - **Item II (Correto):** O Prometheus dispõe de uma linguagem própria, funcional e expressiva para seleção, agregação e cálculo matemático de métricas em tempo real denominada **PromQL** (*Prometheus Query Language*).
+> - **Item III (Correto):** A arquitetura do Prometheus adota primordialmente o modelo *pull*: o servidor Prometheus faz requisições periódicas (*scraping*) via protocolo **HTTP/HTTPS** aos *endpoints* `/metrics` expostos pelas aplicações instrumentadas ou agentes exportadores (*exporters*).
+>
+> Como todas as afirmativas são verdadeiras, a alternativa correta é a **E**.
+> 
+> **Gabarito: E**
 ---
 
 > **Comentário Detalhado:**

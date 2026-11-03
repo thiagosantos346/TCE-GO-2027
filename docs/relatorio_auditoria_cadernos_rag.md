@@ -11,7 +11,7 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 - [Caderno 02: Git, Estratégias de Branching e Plataformas Colaborativas](#caderno-02-git-estratégias-de-branching-e-plataformas-colaborativas)
 - [Caderno 03: Conteinerização, Docker e Docker Compose](#caderno-03-conteinerização-docker-e-docker-compose)
 - [Caderno 04: Orquestração com Kubernetes e Gestão de Ambientes](#caderno-04-orquestração-com-kubernetes-e-gestão-de-ambientes)
-- [Caderno 06: Observabilidade, Monitoramento e Telemetria](#caderno-06-observabilidade-monitoramento-e-telemetria) *(Em andamento)*
+- [Caderno 06: Observabilidade, Monitoramento e Telemetria](#caderno-06-observabilidade-monitoramento-e-telemetria)
 
 ---
 
@@ -151,3 +151,29 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 210`** (Ingress Controller: Roteamento de Camada 7 HTTP/HTTPS por Host e Path): Preservada.
 * **`Teste 212`** (ConfigMaps vs Secrets com encriptação e injeção por variáveis/volumes): Preservada.
 * **`Teste 213`** (Persistência: `PersistentVolume` (PV), `PersistentVolumeClaim` (PVC) e `StorageClass`): Preservada.
+
+
+---
+
+## Caderno 06: Observabilidade, Monitoramento e Telemetria
+* **Arquivo:** `docs/conhecimentos_especificos_b02_ti/07_devops_e_plataforma_de_entrega/06_observabilidade_monitoramento_e_telemetria.md`
+* **Status:** Concluído e sincronizado
+
+### 1. O que ENTRA (Questões Reais de Concurso)
+* **`Teste 227`**: Substituir pela questão real **`V3_FGV_TRT_13_2022_Q2184`**
+  * **Banca/Órgão/Ano/Cargo:** FGV – TRT/13 – 2022 – Analista Judiciário (Tecnologia da Informação)
+  * **Conceito Aderente:** Arquitetura do Prometheus, armazenamento de dados como séries temporais (*time series*), linguagem de consulta PromQL e coleta de métricas via protocolo HTTP (método pull).
+
+### 2. O que SAI (Questões Autorais/Simuladas)
+* **`Teste 227`**: Questão autoral sobre os três pilares da observabilidade e métricas *Counter* vs *Gauge* no Prometheus.
+
+### 3. O que FICA (Questões Autorais Preservadas)
+* **`Teste 224`** (Monitoramento Tradicional vs Observabilidade baseada na Teoria do Controle / Charity Majors): Preservada (sem questão real com profundidade equivalente no banco).
+* **`Teste 225`** (Quatro Sinais Dourados / Four Golden Signals: Latência, Tráfego, Erros e Saturação do Google SRE): Preservada.
+* **`Teste 226`** (Metodologias de Telemetria: Método USE de Brendan Gregg para recursos vs Método RED de Tom Wilkie para microsserviços): Preservada.
+* **`Teste 228`** (Logs Estruturados em JSON, indexação de metadados e agregação em pilhas ELK/Loki): Preservada.
+* **`Teste 229`** (Rastreamento Distribuído / Distributed Tracing: Relação entre Trace ponta a ponta e Spans atômicos): Preservada.
+* **`Teste 230`** (OpenTelemetry / OTel: Desacoplamento entre OpenTelemetry API para instrumentação e OpenTelemetry SDK para coleta/exportação): Preservada.
+* **`Teste 231`** (Confiabilidade SRE: Distinção hierárquica entre SLI, SLO interno e SLA contratual com clientes): Preservada.
+* **`Teste 232`** (Engenharia de Confiabilidade / SRE: Cálculo matemático e papel regulador do Orçamento de Erro / *Error Budget* = 100% - SLO): Preservada.
+* **`Teste 233`** (Pesquisas DORA: As quatro métricas fundamentais de performance de entrega de software): Preservada.
