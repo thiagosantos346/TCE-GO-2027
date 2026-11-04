@@ -27,57 +27,56 @@
 ## 🧭 Sumário
 
 1. [Compreensão vs. Interpretação na Tradição da FCC](#1-compreensao-vs-interpretacao-na-tradicao-da-fcc)
-    1. [Compreensão Textual e Informação Explícita](#11-compreensao-textual-e-informacao-explicita)
-    2. [Interpretação Textual e Inferência Autorizada](#12-interpretacao-textual-e-inferencia-autorizada)
-    3. [Os Três Erros Clássicos de Leitura](#13-os-tres-erros-classicos-de-leitura)
-    4. [Método Prático de Resolução](#14-metodo-pratico-de-resolucao)
-    5. [Teste 001](#Teste-001)
+    - [1.1 Compreensão Textual e Informação Explícita](#11-compreensao-textual-e-informacao-explicita)
+    - [1.2 Interpretação Textual e Inferência Autorizada](#12-interpretacao-textual-e-inferencia-autorizada)
+    - [1.3 Os Três Erros Clássicos de Leitura](#13-os-tres-erros-classicos-de-leitura)
+    - [1.4 Método Prático de Resolução](#14-metodo-pratico-de-resolucao)
+    - [Teste 001](#teste-001)
 2. [Gêneros Textuais e Contexto de Produção](#2-generos-textuais-e-contexto-de-producao)
-    1. [Tipo Textual vs. Gênero Textual](#21-tipo-textual-vs-genero-textual)
-    2. [Ensaio, Editorial, Crônica e Artigo de Opinião](#22-ensaio-editorial-cronica-e-artigo-de-opiniao)
-    3. [Contexto Histórico, Cultural e Ideológico](#23-contexto-historico-cultural-e-ideologico)
-    4. [Teste 002](#Teste-002)
+    - [2.1 Tipo Textual vs. Gênero Textual](#21-tipo-textual-vs-genero-textual)
+    - [2.2 Ensaio, Editorial, Crônica e Artigo de Opinião](#22-ensaio-editorial-cronica-e-artigo-de-opiniao)
+    - [2.3 Contexto Histórico, Cultural e Ideológico](#23-contexto-historico-cultural-e-ideologico)
+    - [Teste 002](#teste-002)
 3. [Tipologias Textuais](#3-tipologias-textuais)
-    1. [Quadro Comparativo das Tipologias](#31-quadro-comparativo-das-tipologias)
-    2. [Narração e Descrição](#32-narracao-e-descricao)
-    3. [Exposição e Injunção](#33-exposicao-e-injuncao)
-    4. [Teste 003](#Teste-003)
+    - [3.1 Quadro Comparativo das Tipologias](#31-quadro-comparativo-das-tipologias)
+    - [3.2 Narração e Descrição](#32-narracao-e-descricao)
+    - [3.3 Exposição e Injunção](#33-exposicao-e-injuncao)
+    - [Teste 003](#teste-003)
 4. [Argumentação na Tipologia Dissertativa](#4-argumentacao-na-tipologia-dissertativa)
-    1. [Tese e Estrutura do Texto Argumentativo](#41-tese-e-estrutura-do-texto-argumentativo)
-    2. [Estratégias Argumentativas](#42-estrategias-argumentativas)
-    3. [Operadores Argumentativos](#43-operadores-argumentativos)
-    4. [Pressupostos e Subentendidos](#44-pressupostos-e-subentendidos)
-    5. [Teste 004](#Teste-004)
-    6. [Teste 005](#Teste-005)
+    - [4.1 Tese e Estrutura do Texto Argumentativo](#41-tese-e-estrutura-do-texto-argumentativo)
+    - [4.2 Estratégias Argumentativas](#42-estrategias-argumentativas)
+    - [4.3 Operadores Argumentativos](#43-operadores-argumentativos)
+    - [4.4 Pressupostos e Subentendidos](#44-pressupostos-e-subentendidos)
+    - [Teste 004](#teste-004)
+    - [Teste 005](#teste-005)
 5. [Níveis de Linguagem e Denotação e Conotação](#5-niveis-de-linguagem-e-denotacao-e-conotacao)
-    1. [Linguagem Denotativa](#51-linguagem-denotativa)
-    2. [Linguagem Conotativa](#52-linguagem-conotativa)
-    3. [Teste 006](#Teste-006)
+    - [5.1 Linguagem Denotativa](#51-linguagem-denotativa)
+    - [5.2 Linguagem Conotativa](#52-linguagem-conotativa)
+    - [Teste 006](#teste-006)
 6. [Modalidades de Discurso](#6-modalidades-de-discurso)
-    1. [Discurso Direto](#61-discurso-direto)
-    2. [Discurso Indireto](#62-discurso-indireto)
-    3. [Discurso Indireto Livre](#63-discurso-indireto-livre)
-    4. [Teste 007](#Teste-007)
+    - [6.1 Discurso Direto](#61-discurso-direto)
+    - [6.2 Discurso Indireto](#62-discurso-indireto)
+    - [6.3 Discurso Indireto Livre](#63-discurso-indireto-livre)
+    - [Teste 007](#teste-007)
 7. [Transposição de Discursos](#7-transposicao-de-discursos)
-    1. [Tabela de Transposição do Direto para o Indireto](#71-tabela-de-transposicao-do-direto-para-o-indireto)
-    2. [Correlação Verbal e Armadilhas na Transposição](#72-correlacao-verbal-e-armadilhas-na-transposicao)
-    3. [Teste 008](#Teste-008)
+    - [7.1 Tabela de Transposição do Direto para o Indireto](#71-tabela-de-transposicao-do-direto-para-o-indireto)
+    - [7.2 Correlação Verbal e Armadilhas na Transposição](#72-correlacao-verbal-e-armadilhas-na-transposicao)
+    - [Teste 008](#teste-008)
 8. [Intertextualidade](#8-intertextualidade)
-    1. [Paráfrase](#81-parafrase)
-    2. [Paródia](#82-parodia)
-    3. [Citação, Epígrafe e Alusão](#83-citacao-epigrafe-e-alusao)
-    4. [Teste 009](#Teste-009)
+    - [8.1 Paráfrase](#81-parafrase)
+    - [8.2 Paródia](#82-parodia)
+    - [8.3 Citação, Epígrafe e Alusão](#83-citacao-epigrafe-e-alusao)
+    - [Teste 009](#teste-009)
 9. [Figuras de Linguagem](#9-figuras-de-linguagem)
-    1. [Figuras Semânticas ou de Palavra](#91-figuras-semanticas-ou-de-palavra)
-    2. [Figuras de Pensamento](#92-figuras-de-pensamento)
-    3. [Figuras de Construção ou de Sintaxe](#93-figuras-de-construcao-ou-de-sintaxe)
-    4. [Figuras Sonoras ou Fonéticas](#94-figuras-sonoras-ou-foneticas)
-    5. [Teste 010](#Teste-010)
-    6. [Teste 011](#Teste-011)
-10. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+    - [9.1 Figuras Semânticas ou de Palavra](#91-figuras-semanticas-ou-de-palavra)
+    - [9.2 Figuras de Pensamento](#92-figuras-de-pensamento)
+    - [9.3 Figuras de Construção ou de Sintaxe](#93-figuras-de-construcao-ou-de-sintaxe)
+    - [9.4 Figuras Sonoras ou Fonéticas](#94-figuras-sonoras-ou-foneticas)
+    - [Teste 010](#teste-010)
+    - [Teste 011](#teste-011)
+1. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
-
 
 ## 1. Compreensão vs. Interpretação na Tradição da FCC
 
@@ -227,6 +226,36 @@ Uma marca que mostra um traço da língua falada e não da língua escrita, é:
 > - **E) Incorreta.** A continuidade linear e ininterrupta do fluxo enunciativo é idealizada e construída com muito mais rigor na **escrita**, na qual os vazios e pausas reflexivas do autor não ficam registrados no produto final.
 >
 > **Gabarito: C**
+
+---
+
+## 3. Tipologias Textuais
+
+### 3.1 Quadro Comparativo das Tipologias
+
+| Tipologia | Objetivo Comunicativo | Marcas Linguísticas Caracterizadoras | Foco na FCC |
+| :--- | :--- | :--- | :--- |
+| **Dissertativo-Argumentativo** | Defender um ponto de vista (tese) e persuadir o leitor mediante argumentos lógicos. | Presença de operadores argumentativos (*portanto, contudo, por conseguinte*), juízos de valor, dados estatísticos e citações. | É a tipologia **campeã da FCC**. Textos de reflexão filosófica, sociológica e política. |
+| **Dissertativo-Expositivo** | Apresentar ideias, conceitos ou teorias de forma estritamente informativa e impessoal. | Verbos na 3ª pessoa, linguagem técnica/denotativa, ausência de juízos morais subjetivos. | Textos científicos ou técnicos sobre administração, finanças públicas e tecnologia. |
+| **Narrativo** | Relatar uma sequência temporal de acontecimentos reais ou ficcionais envolvendo personagens. | Verbos de ação no pretérito perfeito/imperfeito, marcadores temporais (*então, depois, subitamente*), progressão de tempo. | Trechos de romances clássicos (Machado de Assis, Lima Barreto, Clarice Lispector). |
+| **Descritivo** | Caracterizar seres, objetos, ambientes ou estados com riqueza de detalhes sensoriais. | Predomínio de adjetivos, orações sem verbos de ação dinâmica, retrato estático no tempo. | Surge acoplado à narrativa ou à crônica reflexiva. |
+| **Injuntivo / Instrucional** | Indicar ordens, orientações ou procedimentos que o leitor deve seguir. | Verbos no imperativo (*faça, siga, clique*), orações no infinitivo impessoal, enumerações ordenadas. | Editais, manuais de auditoria, regulamentos e leis. |
+
+A tipologia dissertativo-argumentativa, por sua importância, é tratada em seção própria (item 4).
+
+### 3.2 Narração e Descrição
+
+A **narração** relata fatos que se sucedem no tempo, envolvendo personagens em determinado espaço. Seus elementos são: **narrador** (quem conta), **personagens** (quem vive os fatos), **enredo** (a sequência de acontecimentos, geralmente com situação inicial, conflito, clímax e desfecho), **tempo** (cronológico, marcado pelo relógio e pelo calendário, ou psicológico, que acompanha as emoções da personagem) e **espaço** (onde a ação ocorre). O **foco narrativo** pode ser em **1ª pessoa** (narrador-personagem, que participa da história e tem visão limitada) ou em **3ª pessoa** (narrador-observador, que apenas relata, ou narrador onisciente, que conhece pensamentos e sentimentos das personagens). O narrador onisciente é justamente o que abre espaço para o **discurso indireto livre** (item 6.3).
+
+A **descrição** constrói um "retrato verbal" de um ser, objeto, ambiente ou estado de espírito, como se o tempo estivesse suspenso. Predominam adjetivos, locuções adjetivas, verbos de estado (*ser, estar, parecer*) e o pretérito imperfeito ("A sala era ampla; as janelas davam para o pátio"). A descrição pode ser **objetiva** (precisa, denotativa, como em um laudo técnico) ou **subjetiva** (impregnada das impressões de quem descreve, com linguagem conotativa).
+
+### 3.3 Exposição e Injunção
+
+A **exposição** (dissertação expositiva) tem por finalidade **informar e explicar** um assunto, sem pretender convencer o leitor de uma tese polêmica. Usa linguagem predominantemente denotativa, terceira pessoa, presente atemporal ("O Tribunal de Contas *é* órgão de controle externo") e recursos como definição, classificação, enumeração e exemplificação. Textos didáticos, verbetes e relatórios técnicos são predominantemente expositivos.
+
+A **injunção** orienta o comportamento do leitor: diz o que fazer e como fazer. Caracteriza-se pelo imperativo ("preencha", "anexe"), pelo infinitivo com valor de ordem ("Encaminhar o processo ao setor competente") e por enumerações sequenciais. Manuais, editais, receitas e normas procedimentais são exemplos típicos.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A presença de um **trecho** narrativo dentro de um texto não o torna narrativo. Um ensaio que conta uma pequena anedota para ilustrar sua tese continua sendo **predominantemente dissertativo-argumentativo**: a narrativa ali é apenas uma estratégia de argumentação (argumento por exemplificação).
 
 ---
 
@@ -410,6 +439,47 @@ Na campanha apresentada, a construção de sentidos decorre da articulação ent
 > - **E) CORRETA.** A riqueza semântica e conotativa reside no recurso estilístico da **polissemia (trocadilho expressivo / duplo sentido)** do substantivo **"estado"**: de um lado, denota a divisão político-geográfica (a unidade federativa de Santa Catarina); de outro, conota o humor, a disposição de espírito e a atmosfera afetiva vivenciada pelo visitante ("estado de espírito / condição emocional de alegria"). Essa fusão é a própria essência dos recursos semânticos e conotativos explorados pela banca FGV.
 >
 > **Gabarito: E**
+
+---
+
+## 6. Modalidades de Discurso
+
+Quando um narrador precisa apresentar a fala ou o pensamento de uma personagem, pode fazê-lo de três maneiras, chamadas **modalidades de discurso** (ou tipos de discurso relatado):
+
+```mermaid
+flowchart TD
+    Discursos["MODALIDADES DE DISCURSO NARRATIVO"]
+    
+    Discursos --> DD["DISCURSO DIRETO<br/>• Reprodução literal das palavras da personagem<br/>• Verbo de elocução + travessão ou aspas<br/>• Ex: O auditor declarou: 'Concluirei o relatório hoje.'"]
+    Discursos --> DI["DISCURSO INDIRETO<br/>• Narrador relata com suas próprias palavras<br/>• Conjunção integrante (que / se)<br/>• Ex: O auditor declarou QUE CONCLUIRIA o relatório NAQUELE DIA."]
+    Discursos --> DIL["DISCURSO INDIRETO LIVRE<br/>• FUSÃO da voz do narrador com o pensamento da personagem<br/>• Sem verbos de elocução e sem conectivos integrantes<br/>• Ex: Caminhava tenso pelo tribunal. Quando terminaria aquela auditoria? Não aguentava mais."]
+```
+
+### 6.1 Discurso Direto
+
+No **discurso direto**, o narrador reproduz **literalmente** as palavras da personagem, como se lhe passasse a palavra. Suas marcas são: **verbo de elocução** (ou *dicendi*: *dizer, afirmar, perguntar, responder, declarar, exclamar, retrucar, murmurar*), que pode vir antes, no meio ou depois da fala; **pontuação específica** — dois-pontos seguidos de travessão ou de aspas; e a manutenção da perspectiva da personagem (1ª pessoa, presente, dêiticos como *este, aqui, hoje, amanhã*). Exemplo: *O auditor afirmou aos gestores: "Concluirei a fiscalização amanhã."* O discurso direto confere vivacidade, autenticidade e dramaticidade ao texto.
+
+### 6.2 Discurso Indireto
+
+No **discurso indireto**, o narrador **reformula com suas próprias palavras** o que a personagem disse. A fala passa a ser uma **oração subordinada substantiva** (geralmente objetiva direta) do verbo de elocução, introduzida por **conjunção integrante** (*que*, para afirmações; *se*, para perguntas totais) ou por pronome/advérbio interrogativo (*como, quando, onde, por que, quem*, para perguntas parciais). Desaparecem os travessões e as aspas, e ajustam-se pessoas, tempos verbais e dêiticos (item 7). Exemplo: *O relator perguntou a si mesmo **como** solucionaria aquele impasse.* O discurso indireto é mais sóbrio e permite ao narrador resumir ou filtrar a fala.
+
+Observe que o discurso indireto **não** é introduzido por conectivo causal (*porque, pois*): a relação entre o verbo de elocução e a fala relatada é de **complementação** (o conteúdo dito é o objeto do verbo *dizer*), e não de causa.
+
+### 6.3 Discurso Indireto Livre
+
+O **discurso indireto livre** é uma modalidade **híbrida**: a fala ou o pensamento da personagem é inserido **diretamente na narração em 3ª pessoa**, **sem verbo de elocução, sem conjunção integrante e sem travessão ou aspas**. A voz do narrador e a da personagem se **fundem**, de modo que o leitor "ouve" o fluxo de consciência da personagem por dentro do relato. É recurso típico do narrador onisciente e da prosa moderna (Graciliano Ramos, Clarice Lispector, Machado de Assis em alguns trechos).
+
+Como reconhecer:
+
+- **a)** a narração está em 3ª pessoa
+- **b)** de repente surgem **perguntas, exclamações, reticências ou expressões coloquiais** que claramente pertencem à mente da personagem, e não ao narrador
+- **c)** não há marca formal de introdução dessas falas.
+
+Exemplo: *"O relator permaneceu em silêncio. **Como solucionar aquele impasse sem ferir a jurisprudência?** Era preciso decidir."* A pergunta não é feita pelo narrador ao leitor; é a hesitação íntima do relator, inserida livremente no relato.
+
+> ⭐ **IMPORTANTE / DISCURSO INDIRETO LIVRE:** O sinal característico do Discurso Indireto Livre em provas de Língua Portuguesa da FCC é a presença de frases interrogativas ou exclamativas súbitas inseridas na terceira pessoa do singular, expressando a hesitação interna da personagem sem que haja travessão ou oração subordinada integrante (*"Estava diante do tribunal. Entraria ou fugiria? Já não restava alternativa"*).
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Discurso indireto livre **não é figura de linguagem** (não é metáfora, metonímia nem prosopopeia) e **não é tipologia textual** (não é dissertação). É um recurso de **foco narrativo**, ou seja, de organização da voz no texto narrativo. Alternativas que o classificam como figura de estilo ou como "discurso dissertativo" estão erradas.
 
 ---
 

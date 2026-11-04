@@ -32,19 +32,19 @@
 ## 🧭 Sumário
 
 1. [A Tríade da Identidade Estratégica: Missão, Visão e Valores](#1-a-triade-da-identidade-estrategica-missao-visao-e-valores)
-    1. [Teste 370](#Teste-370)
-    2. [Teste 371](#Teste-371)
-    3. [Teste 372](#Teste-372)
+    - [Teste 370](#teste-370)
+    - [Teste 371](#teste-371)
+    - [Teste 372](#teste-372)
+    - [Teste 373](#teste-373)
 2. [O Ciclo da Gestão Estratégica Integrada](#2-o-ciclo-da-gestao-estrategica-integrada)
-    1. [Teste 373](#Teste-373)
 3. [Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)](#3-estrategias-deliberadas-vs-estrategias-emergentes-henry-mintzberg)
-    1. [Teste 374](#Teste-374)
-    2. [Teste 375](#Teste-375)
-4. [As Dez Escolas do Pensamento Estratégico (*Safári de Estratégia*)](#4-as-dez-escolas-do-pensamento-estrategico-safari-de-estrategia)
-    1. [Teste 376](#Teste-376)
-    2. [Teste 377](#Teste-377)
-    3. [Teste 378](#Teste-378)
-    4. [Teste 379](#Teste-379)
+    - [Teste 374](#teste-374)
+    - [Teste 375](#teste-375)
+4. [As Dez Escolas do Pensamento Estratégico (Safári de Estratégia)](#4-as-dez-escolas-do-pensamento-estrategico-safari-de-estrategia)
+    - [Teste 376](#teste-376)
+    - [Teste 377](#teste-377)
+    - [Teste 378](#teste-378)
+    - [Teste 379](#teste-379)
 5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
@@ -189,6 +189,28 @@ Segundo Mintzberg, a **Estratégia Emergente** caracteriza-se por:
 > - **E)** Incorreta. Estratégias emergentes expressam capacidade de adaptação e resiliência.
 > 
 > **Gabarito: A**
+
+---
+
+## 2. O Ciclo da Gestão Estratégica Integrada
+
+A gestão estratégica contemporânea não é um evento isolado quadrienal, mas um ciclo administrativo contínuo, dinâmico e retroalimentado composto por quatro etapas estruturadas:
+
+```mermaid
+flowchart TD
+    Ciclo["As 4 Fases do Ciclo de Gestão Estratégica"]
+    
+    Ciclo --> F1["1. Diagnóstico Estratégico Situacional<br/>(Análise ambiental externa PESTEL e interna SWOT/FOFA)"]
+    F1 --> F2["2. Formulação Estratégica<br/>(Definição de Visão, Objetivos, Metas, Iniciativas e BSC)"]
+    F2 --> F3["3. Implementação e Execução<br/>(Alocação orçamentária, planos de ação 5W2H e gestão de processos)"]
+    F3 --> F4["4. Monitoramento e Controle Estratégico<br/>(Reuniões de Avaliação da Estratégia - RAE e auditoria de indicadores)"]
+    F4 -->|Retroalimentação e ajustes dinâmicos| F1
+```
+
+1. **Diagnóstico Estratégico:** Mapeamento sistemático do ambiente externo (oportunidades e ameaças incontroláveis) e do ambiente interno (forças e fraquezas controláveis), permitindo compreender a posição real da organização.
+2. **Formulação Estratégica:** Estabelecimento dos macro-objetivos, indicadores de desempenho, metas quantificadas e programas de ação prioritários alinhados à missão e visão.
+3. **Implementação da Estratégia:** Desdobramento tático-operacional, alocação de recursos financeiros pelo orçamento público (PPA, LDO e LOA), designação formal de responsáveis e governança das ações.
+4. **Monitoramento e Controle:** Acompanhamento tempestivo dos indicadores de resultado, identificação precoce de desvios e realização periódica de Reuniões de Avaliação da Estratégia (RAE) para calibragem de rotas.
 
 ---
 

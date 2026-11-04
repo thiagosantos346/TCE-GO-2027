@@ -23,35 +23,35 @@
 ## 🧭 Sumário
 
 1. [Fundamentos de Computação em Nuvem (NIST SP 800-145)](#1-fundamentos-de-computacao-em-nuvem-nist-sp-800-145)
-    1. [Definição Canônica do NIST](#11-definicao-canonica-do-nist)
-    2. [As Cinco Características Essenciais](#12-as-cinco-caracteristicas-essenciais)
-    3. [Os Quatro Modelos de Implantação (Pública, Privada, Comunitária, Híbrida)](#13-os-quatro-modelos-de-implantacao-publica-privada-comunitaria-hibrida)
-    4. [Teste 454](#Teste-454)
-    5. [Teste 455](#Teste-455)
+    - [1.1 Definição Canônica do NIST](#11-definicao-canonica-do-nist)
+    - [1.2 As Cinco Características Essenciais](#12-as-cinco-caracteristicas-essenciais)
+    - [1.3 Os Quatro Modelos de Implantação (Pública, Privada, Comunitária, Híbrida)](#13-os-quatro-modelos-de-implantacao-publica-privada-comunitaria-hibrida)
+    - [Teste 454](#teste-454)
+    - [Teste 455](#teste-455)
+    - [Teste 456](#teste-456)
+    - [Teste 457](#teste-457)
 2. [Modelos de Serviço e Matriz de Responsabilidade Compartilhada](#2-modelos-de-servico-e-matriz-de-responsabilidade-compartilhada)
-    1. [IaaS, PaaS e SaaS: Estrutura e Escopos de Controle](#21-iaas-paas-e-saas-estrutura-e-escopos-de-controle)
-    2. [Matriz de Responsabilidade Compartilhada (Shared Responsibility Model)](#22-matriz-de-responsabilidade-compartilhada-shared-responsibility-model)
-    3. [Teste 456](#Teste-456)
-    4. [Teste 457](#Teste-457)
+    - [2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle](#21-iaas-paas-e-saas-estrutura-e-escopos-de-controle)
+    - [2.2 Matriz de Responsabilidade Compartilhada (Shared Responsibility Model)](#22-matriz-de-responsabilidade-compartilhada-shared-responsibility-model)
 3. [Computação Serverless (FaaS - Function as a Service)](#3-computacao-serverless-faas-function-as-a-service)
-    1. [Paradigma: Execução Orientada a Eventos e Abstração de Infraestrutura](#31-paradigma-execucao-orientada-a-eventos-e-abstracao-de-infraestrutura)
-    2. [Escala Automática a Zero (Scale-to-Zero) e Cobrança Fracionada](#32-escala-automatica-a-zero-scale-to-zero-e-cobranca-fracionada)
-    3. [O Desafio do Cold Start e Estratégias de Mitigação](#33-o-desafio-do-cold-start-e-estrategias-de-mitigacao)
-    4. [Teste 458](#Teste-458)
-    5. [Teste 459](#Teste-459)
+    - [3.1 Paradigma: Execução Orientada a Eventos e Abstração de Infraestrutura](#31-paradigma-execucao-orientada-a-eventos-e-abstracao-de-infraestrutura)
+    - [3.2 Escala Automática a Zero (Scale-to-Zero) e Cobrança Fracionada](#32-escala-automatica-a-zero-scale-to-zero-e-cobranca-fracionada)
+    - [3.3 O Desafio do Cold Start e Estratégias de Mitigação](#33-o-desafio-do-cold-start-e-estrategias-de-mitigacao)
+    - [Teste 458](#teste-458)
+    - [Teste 459](#teste-459)
 4. [Arquiteturas de Alta Disponibilidade e Escalabilidade em Nuvem](#4-arquiteturas-de-alta-disponibilidade-e-escalabilidade-em-nuvem)
-    1. [Topologia Física Global: Regiões, Zonas de Disponibilidade (AZs) e Pontos de Presença](#41-topologia-fisica-global-regioes-zonas-de-disponibilidade-azs-e-pontos-de-presenca)
-    2. [Escalabilidade Vertical (Scale-Up) vs. Horizontal (Scale-Out)](#42-escalabilidade-vertical-scale-up-vs-horizontal-scale-out)
-    3. [Padrões de Resiliência: Multi-AZ e Recuperação de Desastres](#43-padroes-de-resiliencia-multi-az-e-recuperacao-de-desastres)
-    4. [Teste 460](#Teste-460)
-    5. [Teste 461](#Teste-461)
+    - [4.1 Topologia Física Global: Regiões, Zonas de Disponibilidade (AZs) e Pontos de Presença](#41-topologia-fisica-global-regioes-zonas-de-disponibilidade-azs-e-pontos-de-presenca)
+    - [4.2 Escalabilidade Vertical (Scale-Up) vs. Horizontal (Scale-Out)](#42-escalabilidade-vertical-scale-up-vs-horizontal-scale-out)
+    - [4.3 Padrões de Resiliência: Multi-AZ e Recuperação de Desastres](#43-padroes-de-resiliencia-multi-az-e-recuperacao-de-desastres)
+    - [Teste 460](#teste-460)
+    - [Teste 461](#teste-461)
 5. [Integração Híbrida e Governança Financeira (FinOps)](#5-integracao-hibrida-e-governanca-financeira-finops)
-    1. [Conectividade Corporativa Híbrida: VPN IPsec vs. Links Dedicados Diretos](#51-conectividade-corporativa-hibrida-vpn-ipsec-vs-links-dedicados-diretos)
-    2. [Modelos de Compra em Nuvem: On-Demand, Instâncias Reservadas e Spot](#52-modelos-de-compra-em-nuvem-on-demand-instancias-reservadas-e-spot)
-    3. [FinOps: Transição CapEx para OpEx e Dimensionamento Correto (Rightsizing)](#53-finops-transicao-capex-para-opex-e-dimensionamento-correto-rightsizing)
-    4. [Teste 462](#Teste-462)
-    5. [Teste 463](#Teste-463)
-    6. [Teste 464](#Teste-464)
+    - [5.1 Conectividade Corporativa Híbrida: VPN IPsec vs. Links Dedicados Diretos](#51-conectividade-corporativa-hibrida-vpn-ipsec-vs-links-dedicados-diretos)
+    - [5.2 Modelos de Compra em Nuvem: On-Demand, Instâncias Reservadas e Spot](#52-modelos-de-compra-em-nuvem-on-demand-instancias-reservadas-e-spot)
+    - [5.3 FinOps: Transição CapEx para OpEx e Dimensionamento Correto (Rightsizing)](#53-finops-transicao-capex-para-opex-e-dimensionamento-correto-rightsizing)
+    - [Teste 462](#teste-462)
+    - [Teste 463](#teste-463)
+    - [Teste 464](#teste-464)
 6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
@@ -195,6 +195,50 @@ A respeito da distribuição de responsabilidades de segurança da informação 
 > - **E)** Incorreta. A custódia e governança legal dos dados é responsabilidade primária do cliente (*data controller*).
 > 
 > **Gabarito: B**
+
+---
+
+## 2. Modelos de Serviço e Matriz de Responsabilidade Compartilhada
+
+### 2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle
+
+```mermaid
+flowchart TD
+    subgraph SaaS["SaaS - Software as a Service (ex: Microsoft 365, Google Workspace)"]
+        S1["Provedor gerencia: Data Center, Rede, Hardware, Virtualização, SO, Middleware, Runtime e APLICAÇÃO"]
+        S2["Cliente gerencia: Apenas Usuários, Permissões e DADOS"]
+    end
+    subgraph PaaS["PaaS - Platform as a Service (ex: AWS Elastic Beanstalk, Azure App Service)"]
+        P1["Provedor gerencia: Data Center, Rede, Hardware, Virtualização, SO, Middleware e RUNTIME"]
+        P2["Cliente gerencia: APLICAÇÃO (Código-fonte) e DADOS"]
+    end
+    subgraph IaaS["IaaS - Infrastructure as a Service (ex: AWS EC2, Azure VMs, GCP Compute)"]
+        I1["Provedor gerencia: Data Center Físico, Rede Física, Hardware de Servidores e VIRTUALIZAÇÃO (Hypervisor)"]
+        I2["Cliente gerencia: SISTEMA OPERACIONAL, Patches/Updates, Middleware, Runtime, Aplicação, Firewall de SO e DADOS"]
+    end
+```
+
+- **IaaS (*Infrastructure as a Service*):** O provedor entrega infraestrutura computacional bruta (máquinas virtuais, capacidade de processamento, armazenamento em bloco e interfaces de rede). O cliente instala, configura e mantém o Sistema Operacional convidado, middlewares, bancos de dados e aplicações.
+- **PaaS (*Platform as a Service*):** O provedor entrega uma plataforma de desenvolvimento e execução pronta (runtimes como Node.js, Python, Java, .NET, acompanhados de bancos gerenciados). O desenvolvedor não se preocupa com o sistema operacional, atualizações de segurança ou virtualização; seu foco restringe-se exclusivamente ao código da aplicação e às configurações de negócio.
+- **SaaS (*Software as a Service*):** O provedor disponibiliza um software de aplicação completo e funcional acessível pela Internet (ex.: navegadores web). Toda a pilha técnica (do hardware ao código) é mantida pelo provedor; o cliente gerencia apenas os usuários autorizados e seus dados operacionais.
+
+### 2.2 Matriz de Responsabilidade Compartilhada (Shared Responsibility Model)
+
+A segurança cibernética em nuvem fundamenta-se na **Responsabilidade Compartilhada**:
+
+| Componente da Pilha | Ambiente Local (*On-Premises*) | IaaS | PaaS | SaaS |
+|---|:---:|:---:|:---:|:---:|
+| **Segurança Física do Data Center** | Cliente | **Provedor** | **Provedor** | **Provedor** |
+| **Rede Física e Hardware de Servidores** | Cliente | **Provedor** | **Provedor** | **Provedor** |
+| **Camada de Hipervisor / Virtualização** | Cliente | **Provedor** | **Provedor** | **Provedor** |
+| **Sistema Operacional do Servidor (Guest OS)** | Cliente | **Cliente** | **Provedor** | **Provedor** |
+| **Middleware e Runtimes de Execução** | Cliente | **Cliente** | **Provedor** | **Provedor** |
+| **Código da Aplicação** | Cliente | **Cliente** | **Cliente** | **Provedor** |
+| **Controle de Acessos e Identidades (IAM)** | Cliente | **Cliente** | **Cliente** | **Compartilhado / Cliente** |
+| **Classificação, Governança e Dados** | **Cliente** | **Cliente** | **Cliente** | **Cliente** |
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> A responsabilidade pelos **DADOS e pela Classificação da Informação** pertence **SEMPRE E EXCLUSIVAMENTE AO CLIENTE**, em qualquer modelo (IaaS, PaaS ou SaaS). O provedor de nuvem jamais assume o dever legal sobre as autorizações concedidas pelo próprio cliente dentro de seus sistemas.
 
 ---
 

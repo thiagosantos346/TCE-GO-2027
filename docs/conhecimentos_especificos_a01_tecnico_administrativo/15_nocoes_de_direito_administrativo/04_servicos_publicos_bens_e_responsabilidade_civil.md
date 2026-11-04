@@ -24,32 +24,32 @@
 ## 🧭 Sumário
 
 1. [Responsabilidade Civil Extracontratual do Estado](#1-responsabilidade-civil-extracontratual-do-estado)
-    1. [Evolução Histórica da Responsabilidade Estatal](#11-evolucao-historica-da-responsabilidade-estatal)
-    2. [O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva](#12-o-art-37-6o-da-cf88-e-os-elementos-da-responsabilidade-objetiva)
-    3. [Teoria do Risco Administrativo: Excludentes e Atenuantes](#13-teoria-do-risco-administrativo-excludentes-e-atenuantes)
-    4. [Teoria do Risco Integral e suas Hipóteses Excepcionais](#14-teoria-do-risco-integral-e-suas-hipoteses-excepcionais)
-    5. [Responsabilidade por Omissão Estatal: Genérica vs. Específica](#15-responsabilidade-por-omissao-estatal-generica-vs-especifica)
-    6. [Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)](#16-acao-regressiva-e-a-teoria-da-dupla-garantia-tema-940-stf)
-    7. [Teste 034](#Teste-034)
-    8. [Teste 035](#Teste-035)
-    9. [Teste 036](#Teste-036)
-    10. [Teste 037](#Teste-037)
+    - [1.1 Evolução Histórica da Responsabilidade Estatal](#11-evolucao-historica-da-responsabilidade-estatal)
+    - [1.2 O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva](#12-o-art-37-6o-da-cf88-e-os-elementos-da-responsabilidade-objetiva)
+    - [1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes](#13-teoria-do-risco-administrativo-excludentes-e-atenuantes)
+    - [1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais](#14-teoria-do-risco-integral-e-suas-hipoteses-excepcionais)
+    - [1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica](#15-responsabilidade-por-omissao-estatal-generica-vs-especifica)
+    - [1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)](#16-acao-regressiva-e-a-teoria-da-dupla-garantia-tema-940-stf)
+    - [Teste 034](#teste-034)
+    - [Teste 035](#teste-035)
+    - [Teste 036](#teste-036)
+    - [Teste 037](#teste-037)
 2. [Regime Jurídico dos Serviços Públicos e sua Delegação](#2-regime-juridico-dos-servicos-publicos-e-sua-delegacao)
-    1. [Princípios do Serviço Público Adequado](#21-principios-do-servico-publico-adequado)
-    2. [Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)](#22-concessao-comum-e-permissao-de-servico-publico-lei-no-89871995)
-    3. [Formas de Extinção das Concessões: Encampação vs. Caducidade](#23-formas-de-extincao-das-concessoes-encampacao-vs-caducidade)
-    4. [Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)](#24-parcerias-publico-privadas-ppps-lei-no-110792004)
-    5. [Teste 038](#Teste-038)
-    6. [Teste 039](#Teste-039)
-    7. [Teste 040](#Teste-040)
-    8. [Teste 041](#Teste-041)
+    - [2.1 Princípios do Serviço Público Adequado](#21-principios-do-servico-publico-adequado)
+    - [2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)](#22-concessao-comum-e-permissao-de-servico-publico-lei-no-89871995)
+    - [2.3 Formas de Extinção das Concessões: Encampação vs. Caducidade](#23-formas-de-extincao-das-concessoes-encampacao-vs-caducidade)
+    - [2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)](#24-parcerias-publico-privadas-ppps-lei-no-110792004)
+    - [Teste 038](#teste-038)
+    - [Teste 039](#teste-039)
+    - [Teste 040](#teste-040)
+    - [Teste 041](#teste-041)
 3. [Bens Públicos: Classificação, Afetação e Prerrogativas](#3-bens-publicos-classificacao-afetacao-e-prerrogativas)
-    1. [Classificação Quanto à Destinação (Código Civil, art. 99)](#31-classificacao-quanto-a-destinacao-codigo-civil-art-99)
-    2. [Fenômeno da Afetação e Desafetação](#32-fenomeno-da-afetacao-e-desafetacao)
-    3. [Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta](#33-prerrogativas-do-regime-juridico-e-a-imprescritibilidade-absoluta)
-    4. [Teste 042](#Teste-042)
-    5. [Teste 043](#Teste-043)
-    6. [Teste 044](#Teste-044)
+    - [3.1 Classificação Quanto à Destinação (Código Civil, art. 99)](#31-classificacao-quanto-a-destinacao-codigo-civil-art-99)
+    - [3.2 Fenômeno da Afetação e Desafetação](#32-fenomeno-da-afetacao-e-desafetacao)
+    - [3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta](#33-prerrogativas-do-regime-juridico-e-a-imprescritibilidade-absoluta)
+    - [Teste 042](#teste-042)
+    - [Teste 043](#teste-043)
+    - [Teste 044](#teste-044)
 4. [Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
 
 ---
@@ -225,6 +225,65 @@ Josélia decidiu aprofundar os seus conhecimentos com relação à orientação 
 > - **E) Incorreta.** O agente público responde sempre subjetivamente (necessidade de dolo ou culpa comprovados) em sede de ação regressiva.
 > 
 > **Gabarito: D**
+
+---
+
+## 2. Regime Jurídico dos Serviços Públicos e sua Delegação
+
+### 2.1 Princípios do Serviço Público Adequado
+
+A Lei Federal nº 8.987/1995 (art. 6º) prescreve que toda concessão ou permissão pressupõe a prestação de **serviço adequado**, assim entendido o que satisfaz as condições de:
+
+- **Regularidade:** Prestação sem oscilações arbitrárias de qualidade.
+- **Continuidade:** Não interrupção da atividade, admitida a suspensão motivada em hipóteses estritas de segurança técnica ou inadimplemento do usuário após aviso prévio formal.
+- **Eficiência:** Máxima produtividade e excelência técnica.
+- **Segurança:** Minimização de riscos aos usuários e ao meio ambiente.
+- **Atualidade:** Incorporação contínua de métodos modernos, equipamentos tecnológicos de ponta e expansão da rede.
+- **Generalidade:** Acesso universal e não discriminatório a todos os cidadãos.
+- **Cortesia:** Urbanidade no trato com os usuários.
+- **Modicidade das Tarifas:** Fixação de preços públicos acessíveis à população em equilíbrio econômico-financeiro.
+
+### 2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)
+
+- **Concessão Comum de Serviço Público:** Delegação contratual bilateral formalizada com pessoa jurídica ou consórcio de empresas, mediante prévia licitação obrigatória, para exploração do serviço por prazo determinado, a expensas e risco da concessionária, remunerada unicamente pelas tarifas cobradas dos usuários.
+- **Permissão de Serviço Público:** Delegação formalizada mediante **contrato de adesão**, a título precário, após prévia licitação, admitindo como permitente pessoa física ou jurídica.
+
+### 2.3 Formas de Extinção das Concessões: Encampação vs. Caducidade
+
+A diferenciação entre as modalidades de extinção contratual na Lei nº 8.987/1995 é intensamente cobrada pela FCC:
+
+```mermaid
+flowchart TD
+    EXT["Extinção da Concessão de Serviço Público (Lei 8.987/95)"]
+    
+    EXT --> ENC["ENCAMPAÇÃO (Art. 37)<br/>• Motivo de INTERESSE PÚBLICO relevante<br/>• A concessionária NÃO cometeu nenhuma falta<br/>• Exige LEI AUTORIZATIVA específica + PRÉVIA INDENIZAÇÃO"]
+    
+    EXT --> CAD["CADUCIDADE (Art. 38)<br/>• Inadimplemento / Falta da Concessionária<br/>• Serviço inadequado, descumprimento contratual<br/>• Decretada unilateralmente pelo Poder Concedente"]
+    
+    EXT --> RES["RESCISÃO JUDICIAL (Art. 39)<br/>• Ajuizada pela CONCESSIONÁRIA em face do Estado<br/>• Inadimplemento das obrigações pelo Poder Concedente"]
+    
+    EXT --> ANU["ANULAÇÃO (Art. 35, IV)<br/>• Ilegalidade originária na licitação ou no contrato"]
+    
+    EXT --> REV["REVERSÃO (Art. 35, I c/c 36)<br/>• Término regular do prazo contratual (advento do termo)"]
+```
+
+| Critério de Comparação | Encampação (Resgate) | Caducidade |
+| :--- | :--- | :--- |
+| **Causa Primária** | **Interesse público superveniente** (conveniência administrativa) | **Inadimplemento contratual culposo** da concessionária |
+| **Culpa da Concessionária?** | **NÃO** (a empresa cumpria rigorosamente o contrato) | **SIM** (prestação defeituosa, paralisações, descumprimento de prazos) |
+| **Exigência de Lei?** | **SIM**, exige **lei autorizativa específica** do ente concedente | **NÃO**, declarada por **decreto** do Chefe do Executivo |
+| **Indenização Prévia?** | **SIM**, o pagamento de indenização deve ser **prévio** à retomada | **NÃO**, indenização é apurada a posteriori descontadas multas contratuais |
+
+### 2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)
+
+As Parcerias Público-Privadas constituem concessões especiais destinadas a viabilizar investimentos vultosos de infraestrutura em colaboração com o capital privado:
+
+1. **Concessão Patrocinada (Art. 2º, § 1º):** É a concessão de serviços públicos ou obras públicas em que a remuneração da concessionária envolve a combinação de **tarifa paga pelos usuários** mais uma **contraprestação pecuniária complementar paga pelo parceiro público**.
+2. **Concessão Administrativa (Art. 2º, § 2º):** É o contrato de prestação de serviços de que a **Administração Pública seja a usuária direta ou indireta**, ainda que envolva a execução de obra ou fornecimento e instalação de bens. A remuneração é **100% custeada pelo erário**, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
+3. **Vedações Legais Obrigatórias à Celebração de PPPs (Art. 2º, § 4º):**
+    - Contratos cujo valor total seja **inferior a R$ 10.000.000,00 (dez milhões de reais)**;
+    - Período de prestação de serviços **inferior a 5 (cinco) anos** ou superior a 35 (trinta e cinco) anos;
+    - Contratos que tenham por objeto único o fornecimento de mão de obra, a mera locação de equipamentos ou a execução isolada de obra pública sem prestação continuada de serviços.
 
 ---
 

@@ -24,29 +24,29 @@
 ## 🧭 Sumário
 
 1. [Fundamentos de Gestão de Projetos e Mudança de Paradigma do PMI](#1-fundamentos-de-gestao-de-projetos-e-mudanca-de-paradigma-do-pmi)
-1. [Conceito de Projeto vs. Operação](#1-1-conceito-de-projeto-vs-operacao)
-    1. [Teste 485](#Teste-485)
-1. [Hierarquia PMI: Projetos, Programas e Portfólios de TIC](#1-2-hierarquia-pmi-projetos-programas-e-portfolios-de-tic)
-    1. [Teste 486](#Teste-486)
-1. [O Sistema de Entrega de Valor (System for Value Delivery)](#1-3-o-sistema-de-entrega-de-valor-system-for-value-delivery)
-    1. [Teste 487](#Teste-487)
+1. [1.1 Conceito de Projeto vs. Operação](#11-conceito-de-projeto-vs-operacao)
+    - [Teste 485](#teste-485)
+2. [1.2 Hierarquia PMI: Projetos, Programas e Portfólios de TIC](#12-hierarquia-pmi-projetos-programas-e-portfolios-de-tic)
+    - [Teste 486](#teste-486)
+3. [1.3 O Sistema de Entrega de Valor (System for Value Delivery)](#13-o-sistema-de-entrega-de-valor-system-for-value-delivery)
+    - [Teste 487](#teste-487)
 2. [Os 12 Princípios de Entrega de Projetos](#2-os-12-principios-de-entrega-de-projetos)
-    1. [Teste 488](#Teste-488)
+    - [Teste 488](#teste-488)
 3. [Os 8 Domínios de Desempenho do Projeto](#3-os-8-dominios-de-desempenho-do-projeto)
-    1. [Teste 489](#Teste-489)
+    - [Teste 489](#teste-489)
 4. [Ciclos de Vida: Métodos Ágeis, Abordagens Híbridas e Adaptação (Tailoring)](#4-ciclos-de-vida-metodos-ageis-abordagens-hibridas-e-adaptacao-tailoring)
-4. [Comparativo dos Ciclos de Vida (Preditivo a Adaptativo)](#4-1-comparativo-dos-ciclos-de-vida-preditivo-a-adaptativo)
-4. [Abordagens Híbridas na Administração Pública](#4-2-abordagens-hibridas-na-administracao-publica)
-    1. [Teste 490](#Teste-490)
-4. [Adaptação Contextual (Tailoring)](#4-3-adaptacao-contextual-tailoring)
-    1. [Teste 491](#Teste-491)
+4. [4.1 Comparativo dos Ciclos de Vida (Preditivo a Adaptativo)](#41-comparativo-dos-ciclos-de-vida-preditivo-a-adaptativo)
+5. [4.2 Abordagens Híbridas na Administração Pública](#42-abordagens-hibridas-na-administracao-publica)
+    - [Teste 490](#teste-490)
+6. [4.3 Adaptação Contextual (Tailoring)](#43-adaptacao-contextual-tailoring)
+    - [Teste 491](#teste-491)
 5. [Análise de Valor Agregado (EVM / EVA)](#5-analise-de-valor-agregado-evm-eva)
-5. [Variáveis Fundamentais (VP, CR e VA)](#5-1-variaveis-fundamentais-vp-cr-e-va)
-    1. [Teste 492](#Teste-492)
-5. [Variações e Índices de Desempenho (IDP e IDC)](#5-2-variacoes-e-indices-de-desempenho-idp-e-idc)
-    1. [Teste 493](#Teste-493)
+7. [5.1 Variáveis Fundamentais (VP, CR e VA)](#51-variaveis-fundamentais-vp-cr-e-va)
+    - [Teste 492](#teste-492)
+8. [5.2 Variações e Índices de Desempenho (IDP e IDC)](#52-variacoes-e-indices-de-desempenho-idp-e-idc)
+    - [Teste 493](#teste-493)
 6. [Gestão de Portfólio de TI e Governança de Programas](#6-gestao-de-portfolio-de-ti-e-governanca-de-programas)
-    1. [Teste 494](#Teste-494)
+    - [Teste 494](#teste-494)
 6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
@@ -300,8 +300,6 @@ flowchart LR
 - **Iterativo:** O escopo é refinado e aprofundado por meio de ciclos sucessivos de feedback e prototipagem, entregando o produto concluído em um único lote ao final.
 - **Incremental:** O produto é dividido em fatias funcionais e entregue aos poucos, gerando valor utilizável antes do encerramento total.
 - **Adaptativo (Ágil - Scrum / Kanban):** Projetado para alta incerteza e requisitos que evoluem. O trabalho ocorre em iterações curtas (*sprints* de 1 a 4 semanas), priorizando continuamente o backlog com base no feedback real.
-
----
 
 ---
 

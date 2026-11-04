@@ -31,28 +31,27 @@
 ## 🧭 Sumário
 
 1. [O Modelo Central da ITIL v4](#1-o-modelo-central-da-itil-v4)
-1. [Conceitos de Serviço, Co-criação de Valor, Utilidade e Garantia](#1-1-conceitos-de-servico-co-criacao-de-valor-utilidade-e-garantia)
-    1. [Teste 475](#Teste-475)
-1. [As Quatro Dimensões do Gerenciamento de Serviço](#1-2-as-quatro-dimensoes-do-gerenciamento-de-servico)
-    1. [Teste 476](#Teste-476)
-1. [O Sistema de Valor de Serviço (SVS)](#1-3-o-sistema-de-valor-de-servico-svs)
-1. [Os 7 Princípios Orientadores (Guiding Principles)](#1-4-os-7-principios-orientadores-guiding-principles)
-    1. [Teste 477](#Teste-477)
-1. [A Cadeia de Valor de Serviço (SVC - 6 Atividades Operacionais)](#1-5-a-cadeia-de-valor-de-servico-svc-6-atividades-operacionais)
-    1. [Teste 478](#Teste-478)
+1. [1.1 Conceitos de Serviço, Co-criação de Valor, Utilidade e Garantia](#11-conceitos-de-servico-co-criacao-de-valor-utilidade-e-garantia)
+    - [Teste 475](#teste-475)
+2. [1.2 As Quatro Dimensões do Gerenciamento de Serviço](#12-as-quatro-dimensoes-do-gerenciamento-de-servico)
+    - [Teste 476](#teste-476)
+3. [1.3 O Sistema de Valor de Serviço (SVS)](#13-o-sistema-de-valor-de-servico-svs)
+4. [1.4 Os 7 Princípios Orientadores (Guiding Principles)](#14-os-7-principios-orientadores-guiding-principles)
+    - [Teste 477](#teste-477)
+5. [1.5 A Cadeia de Valor de Serviço (SVC - 6 Atividades Operacionais)](#15-a-cadeia-de-valor-de-servico-svc-6-atividades-operacionais)
+    - [Teste 478](#teste-478)
+    - [Teste 479](#teste-479)
+6. [2.2 Gerenciamento de Incidentes vs. Gerenciamento de Problemas](#22-gerenciamento-de-incidentes-vs-gerenciamento-de-problemas)
+    - [Teste 480](#teste-480)
+7. [2.3 Habilitação de Mudanças (Change Enablement)](#23-habilitacao-de-mudancas-change-enablement)
+    - [Teste 481](#teste-481)
+8. [2.4 Gerenciamento de Configuração de Serviço (CMDB) vs. Ativos de TI (ITAM)](#24-gerenciamento-de-configuracao-de-servico-cmdb-vs-ativos-de-ti-itam)
+    - [Teste 482](#teste-482)
+9. [2.5 Gerenciamento de Nível de Serviço (SLA, OLA e UC)](#25-gerenciamento-de-nivel-de-servico-sla-ola-e-uc)
+    - [Teste 483](#teste-483)
+10. [2.6 Gerenciamento de Continuidade de Serviços de TI (ITSCM: RTO e RPO)](#26-gerenciamento-de-continuidade-de-servicos-de-ti-itscm-rto-e-rpo)
+    - [Teste 484](#teste-484)
 2. [Práticas Essenciais de Gerenciamento de Serviços da ITIL v4](#2-praticas-essenciais-de-gerenciamento-de-servicos-da-itil-v4)
-2. [Central de Serviços (Service Desk)](#2-1-central-de-servicos-service-desk)
-    1. [Teste 479](#Teste-479)
-2. [Gerenciamento de Incidentes vs. Gerenciamento de Problemas](#2-2-gerenciamento-de-incidentes-vs-gerenciamento-de-problemas)
-    1. [Teste 480](#Teste-480)
-2. [Habilitação de Mudanças (Change Enablement)](#2-3-habilitacao-de-mudancas-change-enablement)
-    1. [Teste 481](#Teste-481)
-2. [Gerenciamento de Configuração de Serviço (CMDB) vs. Ativos de TI (ITAM)](#2-4-gerenciamento-de-configuracao-de-servico-cmdb-vs-ativos-de-ti-itam)
-    1. [Teste 482](#Teste-482)
-2. [Gerenciamento de Nível de Serviço (SLA, OLA e UC)](#2-5-gerenciamento-de-nivel-de-servico-sla-ola-e-uc)
-    1. [Teste 483](#Teste-483)
-2. [Gerenciamento de Continuidade de Serviços de TI (ITSCM: RTO e RPO)](#2-6-gerenciamento-de-continuidade-de-servicos-de-ti-itscm-rto-e-rpo)
-    1. [Teste 484](#Teste-484)
 6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
@@ -200,8 +199,6 @@ flowchart LR
     5. **Melhoria Contínua (*Continual Improvement*):** Atividade recorrente executada em todos os níveis e componentes da organização.
 
 - **Saída:** Realização contínua de **Valor** para as partes interessadas.
-
----
 
 ---
 
@@ -571,6 +568,18 @@ Responsável por garantir que a disponibilidade e o desempenho dos serviços de 
 > - **E)** Incorreta. As metas de RTO e RPO dependem do impacto das interrupções no negócio da organização (obtidas por meio da Análise de Impacto no Negócio - BIA) e devem ser validadas pela alta administração.
 > 
 > **Gabarito: C**
+
+---
+
+## 2. Práticas Essenciais de Gerenciamento de Serviços da ITIL v4
+
+A ITIL v4 classifica suas 34 práticas em três domínios:
+
+- **14 Práticas de Gerenciamento Geral** (*General Management Practices*)
+- **17 Práticas de Gerenciamento de Serviços** (*Service Management Practices*)
+- **3 Práticas de Gerenciamento Técnico** (*Technical Management Practices*)
+
+Abaixo, detalham-se as práticas com maior recorrência nas bancas de controle externo.
 
 ---
 

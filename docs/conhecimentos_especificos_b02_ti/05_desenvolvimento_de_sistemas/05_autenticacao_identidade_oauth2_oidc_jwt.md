@@ -21,33 +21,33 @@
 ## 🧭 Sumário
 
 1. [Conceitos Fundamentais de Segurança de Acesso](#1-conceitos-fundamentais-de-seguranca-de-acesso)
-    1. [Autenticação (AuthN) vs. Autorização (AuthZ)](#11-autenticacao-authn-vs-autorizacao-authz)
-    2. [Fatores de Autenticação e MFA](#12-fatores-de-autenticacao-e-mfa)
-    3. [Modelos de Controle de Acesso: RBAC e ABAC](#13-modelos-de-controle-de-acesso-rbac-e-abac)
-    4. [Teste 098](#Teste-098)
-    5. [Teste 099](#Teste-099)
+    - [1.1 Autenticação (AuthN) vs. Autorização (AuthZ)](#11-autenticacao-authn-vs-autorizacao-authz)
+    - [1.2 Fatores de Autenticação e MFA](#12-fatores-de-autenticacao-e-mfa)
+    - [1.3 Modelos de Controle de Acesso: RBAC e ABAC](#13-modelos-de-controle-de-acesso-rbac-e-abac)
+    - [Teste 098](#teste-098)
+    - [Teste 099](#teste-099)
 2. [Framework de Autorização OAuth 2.0 (RFC 6749)](#2-framework-de-autorizacao-oauth-20-rfc-6749)
-    1. [Os Quatro Papéis Fundamentais](#21-os-quatro-papeis-fundamentais)
-    2. [Fluxos de Concessão (Grant Types) e Cenários de Aplicação](#22-fluxos-de-concessao-grant-types-e-cenarios-de-aplicacao)
-    3. [A Extensão PKCE (RFC 7636) para Clientes Públicos](#23-a-extensao-pkce-rfc-7636-para-clientes-publicos)
-    4. [Escopos (Scopes) e Autorização Granular](#24-escopos-scopes-e-autorizacao-granular)
-    5. [Teste 100](#Teste-100)
-    6. [Teste 101](#Teste-101)
-    7. [Teste 102](#Teste-102)
-    8. [Teste 103](#Teste-103)
+    - [2.1 Os Quatro Papéis Fundamentais](#21-os-quatro-papeis-fundamentais)
+    - [2.2 Fluxos de Concessão (Grant Types) e Cenários de Aplicação](#22-fluxos-de-concessao-grant-types-e-cenarios-de-aplicacao)
+    - [2.3 A Extensão PKCE (RFC 7636) para Clientes Públicos](#23-a-extensao-pkce-rfc-7636-para-clientes-publicos)
+    - [2.4 Escopos (Scopes) e Autorização Granular](#24-escopos-scopes-e-autorizacao-granular)
+    - [Teste 100](#teste-100)
+    - [Teste 101](#teste-101)
+    - [Teste 102](#teste-102)
+    - [Teste 103](#teste-103)
 3. [Camada de Identidade OpenID Connect (OIDC 1.0)](#3-camada-de-identidade-openid-connect-oidc-10)
-    1. [Distinção Essencial: OAuth 2.0 vs. OpenID Connect](#31-distincao-essencial-oauth-20-vs-openid-connect)
-    2. [Tríade de Tokens no OIDC: ID Token, Access Token e Refresh Token](#32-triade-de-tokens-no-oidc-id-token-access-token-e-refresh-token)
-    3. [Endpoints Padronizados OIDC e Single Sign-On (SSO) Corporativo](#33-endpoints-padronizados-oidc-e-single-sign-on-sso-corporativo)
-    4. [Teste 104](#Teste-104)
+    - [3.1 Distinção Essencial: OAuth 2.0 vs. OpenID Connect](#31-distincao-essencial-oauth-20-vs-openid-connect)
+    - [3.2 Tríade de Tokens no OIDC: ID Token, Access Token e Refresh Token](#32-triade-de-tokens-no-oidc-id-token-access-token-e-refresh-token)
+    - [3.3 Endpoints Padronizados OIDC e Single Sign-On (SSO) Corporativo](#33-endpoints-padronizados-oidc-e-single-sign-on-sso-corporativo)
+    - [Teste 104](#teste-104)
 4. [JSON Web Token - JWT (RFC 7519)](#4-json-web-token-jwt-rfc-7519)
-    1. [Anatomia Estrutural: Header, Payload e Signature](#41-anatomia-estrutural-header-payload-e-signature)
-    2. [Claims Registradas, Públicas e Privadas](#42-claims-registradas-publicas-e-privadas)
-    3. [Assinatura Digital: Algoritmos Simétricos (HS256) vs. Assimétricos (RS256)](#43-assinatura-digital-algoritmos-simetricos-hs256-vs-assimetricos-rs256)
-    4. [Armazenamento Seguro de Tokens no Cliente e Mitigação de Ataques](#44-armazenamento-seguro-de-tokens-no-cliente-e-mitigacao-de-ataques)
-    5. [Teste 105](#Teste-105)
-    6. [Teste 106](#Teste-106)
-    7. [Teste 107](#Teste-107)
+    - [4.1 Anatomia Estrutural: Header, Payload e Signature](#41-anatomia-estrutural-header-payload-e-signature)
+    - [4.2 Claims Registradas, Públicas e Privadas](#42-claims-registradas-publicas-e-privadas)
+    - [4.3 Assinatura Digital: Algoritmos Simétricos (HS256) vs. Assimétricos (RS256)](#43-assinatura-digital-algoritmos-simetricos-hs256-vs-assimetricos-rs256)
+    - [4.4 Armazenamento Seguro de Tokens no Cliente e Mitigação de Ataques](#44-armazenamento-seguro-de-tokens-no-cliente-e-mitigacao-de-ataques)
+    - [Teste 105](#teste-105)
+    - [Teste 106](#teste-106)
+    - [Teste 107](#teste-107)
 5. [Quadro Comparativo Consolidado de Segurança de Acesso](#5-quadro-comparativo-consolidado-de-seguranca-de-acesso)
 6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
@@ -624,8 +624,6 @@ A respeito do armazenamento seguro de tokens de acesso no navegador web e dos mo
 | **Norma Técnica** | RFC 6749 / RFC 7636 | OpenID Connect Core 1.0 | RFC 7519 / RFC 7515 |
 
 
-
----
 
 ---
 

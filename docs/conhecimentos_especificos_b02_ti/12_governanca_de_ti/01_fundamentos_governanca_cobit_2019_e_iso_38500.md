@@ -24,28 +24,28 @@
 ## 🧭 Sumário
 
 1. [Fundamentos da Governança de TI e Alinhamento Estratégico](#1-fundamentos-da-governanca-de-ti-e-alinhamento-estrategico)
-1. [Distinção Essencial entre Governança e Gestão](#1-1-distincao-essencial-entre-governanca-e-gestao)
-1. [Alinhamento Estratégico e Criação de Valor Público](#1-2-alinhamento-estrategico-e-criacao-de-valor-publico)
-    1. [Teste 465](#Teste-465)
+1. [1.1 Distinção Essencial entre Governança e Gestão](#11-distincao-essencial-entre-governanca-e-gestao)
+2. [1.2 Alinhamento Estratégico e Criação de Valor Público](#12-alinhamento-estrategico-e-criacao-de-valor-publico)
+    - [Teste 465](#teste-465)
 2. [Norma ABNT NBR ISO/IEC 38500:2024](#2-norma-abnt-nbr-isoiec-385002024)
-2. [Escopo e Modelo de Governança (Ciclo EDM)](#2-1-escopo-e-modelo-de-governanca-ciclo-edm)
-    1. [Teste 466](#Teste-466)
-2. [Os Seis Princípios da Boa Governança de TI](#2-2-os-seis-principios-da-boa-governanca-de-ti)
-    1. [Teste 467](#Teste-467)
+3. [2.1 Escopo e Modelo de Governança (Ciclo EDM)](#21-escopo-e-modelo-de-governanca-ciclo-edm)
+    - [Teste 466](#teste-466)
+4. [2.2 Os Seis Princípios da Boa Governança de TI](#22-os-seis-principios-da-boa-governanca-de-ti)
+    - [Teste 467](#teste-467)
 3. [Framework COBIT 2019 (ISACA)](#3-framework-cobit-2019-isaca)
-3. [Princípios do Sistema e do Framework de Governança](#3-1-principios-do-sistema-e-do-framework-de-governanca)
-    1. [Teste 468](#Teste-468)
-3. [Componentes do Sistema de Governança (7 Componentes)](#3-2-componentes-do-sistema-de-governanca-7-componentes)
-    1. [Teste 469](#Teste-469)
-3. [Fatores de Design (11 Design Factors) e Áreas de Foco (Focus Areas)](#3-3-fatores-de-design-11-design-factors-e-areas-de-foco-focus-areas)
-    1. [Teste 470](#Teste-470)
-3. [Cascatamento de Objetivos (Goals Cascade)](#3-4-cascatamento-de-objetivos-goals-cascade)
-    1. [Teste 471](#Teste-471)
-3. [Os 40 Objetivos de Governança e Gestão nos 5 Domínios](#3-5-os-40-objetivos-de-governanca-e-gestao-nos-5-dominios)
-    1. [Teste 472](#Teste-472)
-3. [Gestão de Desempenho do COBIT (CPM) e Níveis de Capacidade CMMI](#3-6-gestao-de-desempenho-do-cobit-cpm-e-niveis-de-capacidade-cmmi)
-    1. [Teste 473](#Teste-473)
-    2. [Teste 474](#Teste-474)
+5. [3.1 Princípios do Sistema e do Framework de Governança](#31-principios-do-sistema-e-do-framework-de-governanca)
+    - [Teste 468](#teste-468)
+6. [3.2 Componentes do Sistema de Governança (7 Componentes)](#32-componentes-do-sistema-de-governanca-7-componentes)
+    - [Teste 469](#teste-469)
+7. [3.3 Fatores de Design (11 Design Factors) e Áreas de Foco (Focus Areas)](#33-fatores-de-design-11-design-factors-e-areas-de-foco-focus-areas)
+    - [Teste 470](#teste-470)
+8. [3.4 Cascatamento de Objetivos (Goals Cascade)](#34-cascatamento-de-objetivos-goals-cascade)
+    - [Teste 471](#teste-471)
+9. [3.5 Os 40 Objetivos de Governança e Gestão nos 5 Domínios](#35-os-40-objetivos-de-governanca-e-gestao-nos-5-dominios)
+    - [Teste 472](#teste-472)
+10. [3.6 Gestão de Desempenho do COBIT (CPM) e Níveis de Capacidade CMMI](#36-gestao-de-desempenho-do-cobit-cpm-e-niveis-de-capacidade-cmmi)
+    - [Teste 473](#teste-473)
+    - [Teste 474](#teste-474)
 6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
@@ -92,8 +92,6 @@ flowchart TD
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A banca frequentemente tenta confundir o candidato atribuindo à Governança tarefas de execução (como configurar roteadores, gerenciar chamados de help desk ou planejar sprints). Lembre-se: a governança **define o que fazer e em qual direção ir**, avaliando, dirigindo e monitorando. A gestão cuida do **como fazer**, planejando, construindo, executando e monitorando o trabalho diário.
-
----
 
 ---
 

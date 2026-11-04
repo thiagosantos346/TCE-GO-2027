@@ -25,47 +25,47 @@
 ## 🧭 Sumário
 
 1. [Concordância Verbal: Fundamentos e Estruturas Particulares](#1-concordancia-verbal-fundamentos-e-estruturas-particulares)
-    1. [Regra Geral da Concordância Verbal e Identificação do Núcleo](#11-regra-geral-da-concordancia-verbal-e-identificacao-do-nucleo)
-    2. [Sujeito Simples com Expressões Partitivas e Coletivos](#12-sujeito-simples-com-expressoes-partitivas-e-coletivos)
-    3. [Concordância com Expressões Numéricas, Frações e Percentuais](#13-concordancia-com-expressoes-numericas-fracoes-e-percentuais)
-    4. [Concordância com Pronomes Relativos Que e Quem](#14-concordancia-com-pronomes-relativos-que-e-quem)
-    5. [Sujeito Composto: Posição Anteposta, Posposta e Aposto Recapitulativo](#15-sujeito-composto-posicao-anteposta-posposta-e-aposto-recapitulativo)
-    6. [Teste 042](#Teste-042)
+    - [1.1 Regra Geral da Concordância Verbal e Identificação do Núcleo](#11-regra-geral-da-concordancia-verbal-e-identificacao-do-nucleo)
+    - [1.2 Sujeito Simples com Expressões Partitivas e Coletivos](#12-sujeito-simples-com-expressoes-partitivas-e-coletivos)
+    - [1.3 Concordância com Expressões Numéricas, Frações e Percentuais](#13-concordancia-com-expressoes-numericas-fracoes-e-percentuais)
+    - [1.4 Concordância com Pronomes Relativos Que e Quem](#14-concordancia-com-pronomes-relativos-que-e-quem)
+    - [1.5 Sujeito Composto: Posição Anteposta, Posposta e Aposto Recapitulativo](#15-sujeito-composto-posicao-anteposta-posposta-e-aposto-recapitulativo)
+    - [Teste 042](#teste-042)
 2. [Verbos Impessoais e a Dinâmica das Locuções Verbais](#2-verbos-impessoais-e-a-dinamica-das-locucoes-verbais)
-    1. [O Verbo Haver Impessoal e a Comparação com o Verbo Existir](#21-o-verbo-haver-impessoal-e-a-comparacao-com-o-verbo-existir)
-    2. [O Verbo Fazer Indicando Tempo Decorrido ou Fenômenos Climáticos](#22-o-verbo-fazer-indicando-tempo-decorrido-ou-fenomenos-climaticos)
-    3. [Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções](#23-transmissao-de-impessoalidade-ao-verbo-auxiliar-nas-locucoes)
-    4. [Concordância Verbal com a Partícula SE](#24-concordancia-verbal-com-a-particula-se)
-    5. [Teste 043](#Teste-043)
+    - [2.1 O Verbo Haver Impessoal e a Comparação com o Verbo Existir](#21-o-verbo-haver-impessoal-e-a-comparacao-com-o-verbo-existir)
+    - [2.2 O Verbo Fazer Indicando Tempo Decorrido ou Fenômenos Climáticos](#22-o-verbo-fazer-indicando-tempo-decorrido-ou-fenomenos-climaticos)
+    - [2.3 Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções](#23-transmissao-de-impessoalidade-ao-verbo-auxiliar-nas-locucoes)
+    - [2.4 Concordância Verbal com a Partícula SE](#24-concordancia-verbal-com-a-particula-se)
+    - [Teste 043](#teste-043)
 3. [Concordância Nominal e Casos Especiais](#3-concordancia-nominal-e-casos-especiais)
-    1. [Regra Geral da Concordância Nominal](#31-regra-geral-da-concordancia-nominal)
-    2. [Adjetivo Referente a Mais de um Substantivo](#32-adjetivo-referente-a-mais-de-um-substantivo)
-    3. [Palavras e Expressões Críticas: Anexo, Incluso, Próprio e Mesmo](#33-palavras-e-expressoes-criticas-anexo-incluso-proprio-e-mesmo)
-    4. [O Funcionamento de Bastante, Meio, Menos e Alerta](#34-o-funcionamento-de-bastante-meio-menos-e-alerta)
-    5. [Expressões do Tipo É Proibido, É Necessário e É Bom](#35-expressoes-do-tipo-e-proibido-e-necessario-e-e-bom)
-    6. [Teste 044](#Teste-044)
-    7. [Teste 045](#Teste-045)
+    - [3.1 Regra Geral da Concordância Nominal](#31-regra-geral-da-concordancia-nominal)
+    - [3.2 Adjetivo Referente a Mais de um Substantivo](#32-adjetivo-referente-a-mais-de-um-substantivo)
+    - [3.3 Palavras e Expressões Críticas: Anexo, Incluso, Próprio e Mesmo](#33-palavras-e-expressoes-criticas-anexo-incluso-proprio-e-mesmo)
+    - [3.4 O Funcionamento de Bastante, Meio, Menos e Alerta](#34-o-funcionamento-de-bastante-meio-menos-e-alerta)
+    - [3.5 Expressões do Tipo É Proibido, É Necessário e É Bom](#35-expressoes-do-tipo-e-proibido-e-necessario-e-e-bom)
+    - [Teste 044](#teste-044)
+    - [Teste 045](#teste-045)
 4. [Regência Verbal: Transitividade e Complementação dos Verbos Críticos](#4-regencia-verbal-transitividade-e-complementacao-dos-verbos-criticos)
-    1. [Princípios da Regência Verbal na Norma Culta](#41-principios-da-regencia-verbal-na-norma-culta)
-    2. [O Cardápio dos Verbos Preferidos da FCC](#42-o-cardapio-dos-verbos-preferidos-da-fcc)
-    3. [Regência Verbal Associada a Pronomes Relativos](#43-regencia-verbal-associada-a-pronomes-relativos)
-    4. [Teste 046](#Teste-046)
-    5. [Teste 047](#Teste-047)
+    - [4.1 Princípios da Regência Verbal na Norma Culta](#41-principios-da-regencia-verbal-na-norma-culta)
+    - [4.2 O Cardápio dos Verbos Preferidos da FCC](#42-o-cardapio-dos-verbos-preferidos-da-fcc)
+    - [4.3 Regência Verbal Associada a Pronomes Relativos](#43-regencia-verbal-associada-a-pronomes-relativos)
+    - [Teste 046](#teste-046)
+    - [Teste 047](#teste-047)
 5. [Regência Nominal de Substantivos e Adjetivos](#5-regencia-nominal-de-substantivos-e-adjetivos)
-    1. [Mecânica do Complemento Nominal](#51-mecanica-do-complemento-nominal)
-    2. [Nomes de Alta Frequência em Atos de Controle e Direito Público](#52-nomes-de-alta-frequencia-em-atos-de-controle-e-direito-publico)
-    3. [Teste 048](#Teste-048)
+    - [5.1 Mecânica do Complemento Nominal](#51-mecanica-do-complemento-nominal)
+    - [5.2 Nomes de Alta Frequência em Atos de Controle e Direito Público](#52-nomes-de-alta-frequencia-em-atos-de-controle-e-direito-publico)
+    - [Teste 048](#teste-048)
 6. [Teoria Geral e Emprego do Sinal Indicativo de Crase](#6-teoria-geral-e-emprego-do-sinal-indicativo-de-crase)
-    1. [Natureza Fonética e Morfossintática da Crase](#61-natureza-fonetica-e-morfossintatica-da-crase)
-    2. [Métodos Práticos de Reconhecimento: A Troca pelo Masculino (Método do AO)](#62-metodos-praticos-de-reconhecimento-a-troca-pelo-masculino-metodo-do-ao)
-    3. [Casos de Crase Proibida](#63-casos-de-crase-proibida)
-    4. [Casos de Crase Obrigatória](#64-casos-de-crase-obrigatoria)
-    5. [Casos de Crase Facultativa](#65-casos-de-crase-facultativa)
-    6. [Crase com Pronomes Demonstrativos Aquele, Aquela e Aquilo](#66-crase-com-pronomes-demonstrativos-aquele-aquela-e-aquilo)
-    7. [Teste 049](#Teste-049)
-    8. [Teste 050](#Teste-050)
-    9. [Teste 051](#Teste-051)
-7. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+    - [6.1 Natureza Fonética e Morfossintática da Crase](#61-natureza-fonetica-e-morfossintatica-da-crase)
+    - [6.2 Métodos Práticos de Reconhecimento: A Troca pelo Masculino (Método do AO)](#62-metodos-praticos-de-reconhecimento-a-troca-pelo-masculino-metodo-do-ao)
+    - [6.3 Casos de Crase Proibida](#63-casos-de-crase-proibida)
+    - [6.4 Casos de Crase Obrigatória](#64-casos-de-crase-obrigatoria)
+    - [6.5 Casos de Crase Facultativa](#65-casos-de-crase-facultativa)
+    - [6.6 Crase com Pronomes Demonstrativos Aquele, Aquela e Aquilo](#66-crase-com-pronomes-demonstrativos-aquele-aquela-e-aquilo)
+    - [Teste 049](#teste-049)
+    - [Teste 050](#teste-050)
+    - [Teste 051](#teste-051)
+1. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
@@ -450,6 +450,30 @@ Assinale a afirmativa adequada em relação à sua estruturação ou significado
 > - **E) Incorreta.** A expressão idiomática é *virar as costas a alguém/algo* (VTD e I: costas = OD; à verdade = OI representado por "lhe"). Substituir por "virá-la" desvirtuaria a regência e o sentido da locução verbal.
 >
 > **Gabarito: A**
+
+---
+
+## 5. Regência Nominal de Substantivos e Adjetivos
+
+A regência nominal estuda a relação de dependência sintática entre um nome (substantivo abstrato, adjetivo ou advérbio) e o seu respectivo complemento nominal, o qual é sempre introduzido por preposição exigida pelo sentido daquele nome.
+
+### 5.1 Mecânica do Complemento Nominal
+
+O complemento nominal completa o sentido passivo de uma palavra que, por si só, não possui significado pleno:
+
+* Substantivo abstrato: *"A obediência **às leis** é indeclinável"* (obedecer a $\rightarrow$ obediência a).
+* Adjetivo: *"O auditor estava cioso **de suas responsabilidades**"* (cioso de).
+* Advérbio: *"O tribunal agiu favoravelmente **aos interesses públicos**"* (favoravelmente a).
+
+### 5.2 Nomes de Alta Frequência em Atos de Controle e Direito Público
+
+* **Acessível a:** *"O portal é acessível a todos os cidadãos."*
+* **Atento a / em:** *"O fiscal permaneceu atento aos detalhes."*
+* **Compatível com:** *"A proposta é compatível com os preços de mercado."*
+* **Contrário a:** *"Voto contrário à pretensão do recorrente."*
+* **Imune a / de:** *"O órgão é imune à incidência tributária."*
+* **Passível de:** *"O ato é passível de anulação por vício de forma."*
+* **Respeito a / por:** *"O respeito à dignidade humana e pelas leis."*
 
 ---
 

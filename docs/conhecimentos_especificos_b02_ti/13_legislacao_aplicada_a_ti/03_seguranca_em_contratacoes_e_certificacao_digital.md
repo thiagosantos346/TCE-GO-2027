@@ -22,26 +22,26 @@
 ## 🧭 Sumário
 
 1. [Requisitos de Segurança em Contratações de TIC no Setor Público](#1-requisitos-de-seguranca-em-contratacoes-de-tic-no-setor-publico)
-1. [Fases do Planejamento e Segurança da Informação](#1-1-fases-do-planejamento-e-seguranca-da-informacao)
-    1. [Teste 535](#Teste-535)
-1. [Cláusulas Contratuais Críticas de Segurança](#1-2-clausulas-contratuais-criticas-de-seguranca)
-    1. [Teste 536](#Teste-536)
+1. [1.1 Fases do Planejamento e Segurança da Informação](#11-fases-do-planejamento-e-seguranca-da-informacao)
+    - [Teste 535](#teste-535)
+2. [1.2 Cláusulas Contratuais Críticas de Segurança](#12-clausulas-contratuais-criticas-de-seguranca)
+    - [Teste 536](#teste-536)
 2. [O Marco Legal da Certificação Digital e a ICP-Brasil (MP nº 2.200-2/2001)](#2-o-marco-legal-da-certificacao-digital-e-a-icp-brasil-mp-no-2200-22001)
-2. [Estrutura e Atores da ICP-Brasil](#2-1-estrutura-e-atores-da-icp-brasil)
-    1. [Teste 537](#Teste-537)
-2. [Tipos de Certificados Digitais ICP-Brasil (A1 vs. A3)](#2-2-tipos-de-certificados-digitais-icp-brasil-a1-vs-a3)
-    1. [Teste 538](#Teste-538)
-2. [Presunção Legal de Veracidade e Validade de Assinaturas Não-ICP](#2-3-presuncao-legal-de-veracidade-e-validade-de-assinaturas-nao-icp)
-    1. [Teste 539](#Teste-539)
+3. [2.1 Estrutura e Atores da ICP-Brasil](#21-estrutura-e-atores-da-icp-brasil)
+    - [Teste 537](#teste-537)
+4. [2.2 Tipos de Certificados Digitais ICP-Brasil (A1 vs. A3)](#22-tipos-de-certificados-digitais-icp-brasil-a1-vs-a3)
+    - [Teste 538](#teste-538)
+5. [2.3 Presunção Legal de Veracidade e Validade de Assinaturas Não-ICP](#23-presuncao-legal-de-veracidade-e-validade-de-assinaturas-nao-icp)
+    - [Teste 539](#teste-539)
 3. [Classificação Tripartite das Assinaturas Eletrônicas (Lei nº 14.063/2020)](#3-classificacao-tripartite-das-assinaturas-eletronicas-lei-no-140632020)
-3. [Assinaturas Simples, Avançadas e Qualificadas](#3-1-assinaturas-simples-avancadas-e-qualificadas)
-    1. [Teste 540](#Teste-540)
-    2. [Teste 541](#Teste-541)
-3. [Princípio da Proporcionalidade e Hipóteses de Uso](#3-2-principio-da-proporcionalidade-e-hipoteses-de-uso)
-    1. [Teste 542](#Teste-542)
+6. [3.1 Assinaturas Simples, Avançadas e Qualificadas](#31-assinaturas-simples-avancadas-e-qualificadas)
+    - [Teste 540](#teste-540)
+    - [Teste 541](#teste-541)
+7. [3.2 Princípio da Proporcionalidade e Hipóteses de Uso](#32-principio-da-proporcionalidade-e-hipoteses-de-uso)
+    - [Teste 542](#teste-542)
 4. [Aplicação Prática da Certificação Digital na Auditoria e Processo Eletrônico](#4-aplicacao-pratica-da-certificacao-digital-na-auditoria-e-processo-eletronico)
-    1. [Teste 543](#Teste-543)
-    2. [Teste 544](#Teste-544)
+    - [Teste 543](#teste-543)
+    - [Teste 544](#teste-544)
 6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
@@ -432,8 +432,6 @@ Nos sistemas informatizados de auditoria governamental e processo eletrônico do
 > - **E)** Incorreta. Validação por e-mail é inviável tecnicamente para APIs RESTful de alta velocidade e não provê segurança ao canal de transporte.
 > 
 > **Gabarito: B**
-
----
 
 ---
 

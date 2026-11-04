@@ -33,30 +33,30 @@
 ## 🧭 Sumário
 
 1. [Fundamentos Deontológicos e Normas Internacionais de Auditoria](#1-fundamentos-deontologicos-e-normas-internacionais-de-auditoria)
-    1. [Princípios e Valores Éticos do Controle Externo](#11-principios-e-valores-eticos-do-controle-externo)
-    2. [Alinhamento com a ISSAI 130 da INTOSAI e Primazia do Interesse Público](#12-alinhamento-com-a-issai-130-da-intosai-e-primazia-do-interesse-publico)
-    3. [Teste 162](#Teste-162)
+    - [1.1 Princípios e Valores Éticos do Controle Externo](#11-principios-e-valores-eticos-do-controle-externo)
+    - [1.2 Alinhamento com a ISSAI 130 da INTOSAI e Primazia do Interesse Público](#12-alinhamento-com-a-issai-130-da-intosai-e-primazia-do-interesse-publico)
+    - [Teste 162](#teste-162)
 2. [Deveres Éticos e Postura Funcional do Servidor do TCE-GO](#2-deveres-eticos-e-postura-funcional-do-servidor-do-tce-go)
-    1. [Urbanidade, Relações Profissionais e Presteza](#21-urbanidade-relacoes-profissionais-e-presteza)
-    2. [Zelo Técnico, Produtividade e Rigor Procedimental](#22-zelo-tecnico-produtividade-e-rigor-procedimental)
-    3. [Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas](#23-dever-incondicional-de-sigilo-custodia-de-dados-e-vedacao-a-informacoes-privilegiadas)
-    4. [Teste 163](#Teste-163)
-    5. [Teste 164](#Teste-164)
+    - [2.1 Urbanidade, Relações Profissionais e Presteza](#21-urbanidade-relacoes-profissionais-e-presteza)
+    - [2.2 Zelo Técnico, Produtividade e Rigor Procedimental](#22-zelo-tecnico-produtividade-e-rigor-procedimental)
+    - [2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas](#23-dever-incondicional-de-sigilo-custodia-de-dados-e-vedacao-a-informacoes-privilegiadas)
+    - [Teste 163](#teste-163)
+    - [Teste 164](#teste-164)
 3. [Proibições Éticas, Vedações e Conflito de Interesses](#3-proibicoes-eticas-vedacoes-e-conflito-de-interesses)
-    1. [Vedações Expressas: Advocacia, Consultoria e Redes Sociais](#31-vedacoes-expressas-advocacia-consultoria-e-redes-sociais)
-    2. [Política Institucional de Presentes vs. Brindes](#32-politica-institucional-de-presentes-vs-brindes)
-    3. [Prevenção de Conflito de Interesses e Autodeclaração de Impedimento](#33-prevencao-de-conflito-de-interesses-e-autodeclaracao-de-impedimento)
-    4. [Teste 165](#Teste-165)
-    5. [Teste 166](#Teste-166)
-    6. [Teste 167](#Teste-167)
-    7. [Teste 168](#Teste-168)
+    - [3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais](#31-vedacoes-expressas-advocacia-consultoria-e-redes-sociais)
+    - [3.2 Política Institucional de Presentes vs. Brindes](#32-politica-institucional-de-presentes-vs-brindes)
+    - [3.3 Prevenção de Conflito de Interesses e Autodeclaração de Impedimento](#33-prevencao-de-conflito-de-interesses-e-autodeclaracao-de-impedimento)
+    - [Teste 165](#teste-165)
+    - [Teste 166](#teste-166)
+    - [Teste 167](#teste-167)
+    - [Teste 168](#teste-168)
 4. [A Comissão de Ética do TCE-GO e o Processo Ético](#4-a-comissao-de-etica-do-tce-go-e-o-processo-etico)
-    1. [Composição e Tríplice Atuação da Comissão de Ética](#41-composicao-e-triplice-atuacao-da-comissao-de-etica)
-    2. [Rito Sumário Apuratório e Garantia da Ampla Defesa](#42-rito-sumario-apuratorio-e-garantia-da-ampla-defesa)
-    3. [A Penalidade Exclusiva de Censura Ética e Remessa Disciplinar à Corregedoria](#43-a-penalidade-exclusiva-de-censura-etica-e-remessa-disciplinar-a-corregedoria)
-    4. [Teste 169](#Teste-169)
-    5. [Teste 170](#Teste-170)
-    6. [Teste 171](#Teste-171)
+    - [4.1 Composição e Tríplice Atuação da Comissão de Ética](#41-composicao-e-triplice-atuacao-da-comissao-de-etica)
+    - [4.2 Rito Sumário Apuratório e Garantia da Ampla Defesa](#42-rito-sumario-apuratorio-e-garantia-da-ampla-defesa)
+    - [4.3 A Penalidade Exclusiva de Censura Ética e Remessa Disciplinar à Corregedoria](#43-a-penalidade-exclusiva-de-censura-etica-e-remessa-disciplinar-a-corregedoria)
+    - [Teste 169](#teste-169)
+    - [Teste 170](#teste-170)
+    - [Teste 171](#teste-171)
 5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
@@ -151,8 +151,6 @@ Nos termos do Código de Ética dos Servidores do TCE-GO, quanto aos deveres fun
 > - **E)** Incorreta. A prestação de serviços e a presteza ao público são contínuas no horário de funcionamento regulamentar da Corte.
 >
 > **Gabarito: B**
-
----
 
 ---
 

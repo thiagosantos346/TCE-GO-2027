@@ -26,23 +26,23 @@
 ## 🧭 Sumário
 
 1. [Síntese Comparativa das Escolas da Teoria Geral da Administração (TGA)](#1-sintese-comparativa-das-escolas-da-teoria-geral-da-administracao-tga)
-    1. [Teste 340](#Teste-340)
-    2. [Teste 341](#Teste-341)
+    - [Teste 340](#teste-340)
+    - [Teste 341](#teste-341)
 2. [A Divergência Clássica: Taylor (Científica) vs. Fayol (Clássica)](#2-a-divergencia-classica-taylor-cientifica-vs-fayol-classica)
 3. [Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne](#3-teoria-das-relacoes-humanas-elton-mayo-e-a-experiencia-de-hawthorne)
-    1. [Teste 342](#Teste-342)
+    - [Teste 342](#teste-342)
+    - [Teste 343](#teste-343)
 4. [Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)](#4-teoria-da-burocracia-max-weber-e-as-disfuncoes-burocraticas-robert-merton)
-    1. [Teste 343](#Teste-343)
 5. [Abordagem Comportamental: McGregor, Barnard e Herbert Simon](#5-abordagem-comportamental-mcgregor-barnard-e-herbert-simon)
-    1. [Teste 344](#Teste-344)
+    - [Teste 344](#teste-344)
 6. [Teoria Geral dos Sistemas (TGS): A Organização como Sistema Aberto](#6-teoria-geral-dos-sistemas-tgs-a-organizacao-como-sistema-aberto)
 7. [Teoria Contingencial: Sistemas Mecanicistas vs. Orgânicos](#7-teoria-contingencial-sistemas-mecanicistas-vs-organicos)
-    1. [Teste 345](#Teste-345)
-    2. [Teste 346](#Teste-346)
+    - [Teste 345](#teste-345)
+    - [Teste 346](#teste-346)
 8. [Metáforas Organizacionais de Gareth Morgan](#8-metaforas-organizacionais-de-gareth-morgan)
-    1. [Teste 347](#Teste-347)
-    2. [Teste 348](#Teste-348)
-    3. [Teste 349](#Teste-349)
+    - [Teste 347](#teste-347)
+    - [Teste 348](#teste-348)
+    - [Teste 349](#teste-349)
 9. [Fontes Oficiais e Referências Bibliográficas](#9-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
@@ -174,8 +174,6 @@ flowchart TD
 
 ---
 
----
-
 ## 3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne
 
 Desenvolvida a partir de 1932 nos Estados Unidos, a Teoria das Relações Humanas representou uma profunda reação humanística e psicológica contra o mecanicismo da abordagem clássica. Os estudos foram coordenados por Elton Mayo na fábrica da Western Electric Company em Hawthorne (Chicago):
@@ -234,6 +232,37 @@ No âmbito da Teoria Burocrática desenvolvida por Max Weber, o modelo ideal de 
 > - **E) Incorreta.** A ação de grupos informais foi evidenciada por Elton Mayo na Teoria das Relações Humanas.  
 > 
 > **Gabarito: C**
+
+---
+
+## 4. Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)
+
+Para Max Weber, a burocracia é a forma de organização social humana mais eficiente, técnica e racional para administrar grandes instituições e o Estado moderno.
+
+```mermaid
+flowchart TD
+    subgraph Dominacao ["Tipos de Dominação Legítima (Weber)"]
+        direction TB
+        Trad["1. Tradicional<br/>Baseada nos costumes imemoriais, linhagem e tradição (Patriarcado, Monarquias feudais)"]
+        Caris["2. Carismática<br/>Baseada na devoção cega aos dons extraordinários ou heroicos do líder (Profetas, líderes revolucionários)"]
+        Rac["3. Racional-Legal (Burocrática)<br/>Baseada na lei, nas normas escritas, na impessoalidade e na meritocracia técnica (Estado de Direito Moderno)"]
+    end
+```
+
+#### A) Características do Modelo Burocrático Puro:
+* **Caráter legal e formal das normas:** Comunicações, competências e rotinas são previamente fixadas em leis e regulamentos escritos.
+* **Impessoalidade no tratamento:** A autoridade vincula-se ao cargo e à lei, nunca à pessoa física que o ocupa. Direitos e deveres são aplicados de maneira uniforme, sem privilégios ou simpatias pessoais.
+* **Hierarquia de autoridade clara:** Cada cargo inferior está sob o controle e supervisão direta de um cargo superior (cadeia de comando nítida).
+* **Profissionalização e Meritocracia:** O funcionário é um especialista remunerado com base no cargo, com carreira estruturada e admitido com base no mérito demonstrado por meio de provas e concursos públicos.
+* **Completa previsibilidade do funcionamento:** Tudo é padronizado para que as decisões ocorram exatamente como previsto pelos regulamentos.
+
+#### B) Disfunções da Burocracia (Robert Merton):
+O sociólogo Robert Merton demonstrou que a tentativa de buscar o máximo de previsibilidade e conformidade gera anomalias patológicas indesejadas na prática gerencial:
+
+* **Deslocamento de Objetivos (*Goal Displacement*):** O apego cego e intransigente aos regulamentos faz com que o cumprimento formal da norma deixe de ser um meio e se torne o objetivo supremo do servidor. O funcionário atende a todas as formalidades burocráticas, mas não resolve a demanda real do cidadão.
+* **Superconformidade e Rigidez Procedimental:** Resistência categórica a qualquer inovação, flexibilização ou mudança de contexto.
+* **Excesso de Formalismo e Papelório (*Red Tape*):** Proliferação desmedida de formulários, assinaturas, carimbos e etapas que retardam o trâmite processual.
+* **Despersonalização do Relacionamento:** Tratamento frio, mecânico e estritamente padronizado dispensado aos cidadãos e colegas, desconsiderando particularidades humanas legítimas.
 
 ---
 
@@ -304,8 +333,6 @@ flowchart LR
 >
 > - **Entropia Negativa (Negentropia):** É o processo de **importar energia/recursos de fora** para não entrar em colapso (combate o desgaste natural).  
 > - **Homeostase Dinâmica:** É a capacidade interna de **manter o equilíbrio e estabilidade**, ajustando o organismo às variações do ambiente.
-
----
 
 ---
 

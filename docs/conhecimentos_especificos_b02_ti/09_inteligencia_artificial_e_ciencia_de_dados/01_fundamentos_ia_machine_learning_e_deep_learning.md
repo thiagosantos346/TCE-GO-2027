@@ -28,34 +28,34 @@
 ## 🧭 Sumário
 
 1. [Fundamentos e Paradigmas da Inteligência Artificial](#1-fundamentos-e-paradigmas-da-inteligencia-artificial)
-    1. [Dimensões de Russell & Norvig e o Conceito de Agente Racional](#11-dimensoes-de-russell-norvig-e-o-conceito-de-agente-racional)
-    2. [Níveis de IA: Narrow AI vs. AGI vs. Superinteligência](#12-niveis-de-ia-narrow-ai-vs-agi-vs-superinteligencia)
-    3. [Paradigma Simbólico vs. Paradigma Conexionista](#13-paradigma-simbolico-vs-paradigma-conexionista)
-    4. [Teste 300](#Teste-300)
-    5. [Teste 301](#Teste-301)
+    - [1.1 Dimensões de Russell & Norvig e o Conceito de Agente Racional](#11-dimensoes-de-russell-norvig-e-o-conceito-de-agente-racional)
+    - [1.2 Níveis de IA: Narrow AI vs. AGI vs. Superinteligência](#12-niveis-de-ia-narrow-ai-vs-agi-vs-superinteligencia)
+    - [1.3 Paradigma Simbólico vs. Paradigma Conexionista](#13-paradigma-simbolico-vs-paradigma-conexionista)
+    - [Teste 300](#teste-300)
+    - [Teste 301](#teste-301)
 2. [Aprendizado de Máquina Supervisionado](#2-aprendizado-de-maquina-supervisionado)
-    1. [Modelos e Algoritmos de Classificação](#21-modelos-e-algoritmos-de-classificacao)
-    2. [Comitês de Modelos (Ensemble): Bagging vs. Boosting](#22-comites-de-modelos-ensemble-bagging-vs-boosting)
-    3. [Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)](#23-modelos-de-regressao-e-tecnicas-de-regularizacao-ridge-lasso-e-elastic-net)
-    4. [Teste 302](#Teste-302)
-    5. [Teste 303](#Teste-303)
-    6. [Teste 304](#Teste-304)
+    - [2.1 Modelos e Algoritmos de Classificação](#21-modelos-e-algoritmos-de-classificacao)
+    - [2.2 Comitês de Modelos (Ensemble): Bagging vs. Boosting](#22-comites-de-modelos-ensemble-bagging-vs-boosting)
+    - [2.3 Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)](#23-modelos-de-regressao-e-tecnicas-de-regularizacao-ridge-lasso-e-elastic-net)
+    - [Teste 302](#teste-302)
+    - [Teste 303](#teste-303)
+    - [Teste 304](#teste-304)
+    - [Teste 305](#teste-305)
+    - [Teste 306](#teste-306)
+    - [Teste 307](#teste-307)
 3. [Aprendizado Não Supervisionado e por Reforço](#3-aprendizado-nao-supervisionado-e-por-reforco)
-    1. [Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)](#31-algoritmos-de-agrupamento-clustering-k-means-dbscan-e-hierarquico)
-    2. [Redução de Dimensionalidade (PCA, t-SNE e UMAP)](#32-reducao-de-dimensionalidade-pca-t-sne-e-umap)
-    3. [Aprendizado por Reforço (Reinforcement Learning)](#33-aprendizado-por-reforco-reinforcement-learning)
-    4. [Teste 305](#Teste-305)
-    5. [Teste 306](#Teste-306)
-    6. [Teste 307](#Teste-307)
+    - [3.1 Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)](#31-algoritmos-de-agrupamento-clustering-k-means-dbscan-e-hierarquico)
+    - [3.2 Redução de Dimensionalidade (PCA, t-SNE e UMAP)](#32-reducao-de-dimensionalidade-pca-t-sne-e-umap)
+    - [3.3 Aprendizado por Reforço (Reinforcement Learning)](#33-aprendizado-por-reforco-reinforcement-learning)
 4. [Redes Neurais Artificiais e Deep Learning](#4-redes-neurais-artificiais-e-deep-learning)
-    1. [Perceptron, Limitações Lineares e Redes Multicamadas (MLP)](#41-perceptron-limitacoes-lineares-e-redes-multicamadas-mlp)
-    2. [Funções de Ativação Não Lineares e suas Patologias](#42-funcoes-de-ativacao-nao-lineares-e-suas-patologias)
-    3. [Treinamento: Backpropagation, Gradiente Descendente e Otimizadores](#43-treinamento-backpropagation-gradiente-descendente-e-otimizadores)
-    4. [Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers](#44-arquiteturas-profundas-cnns-rnnslstm-e-transformers)
-    5. [Teste 308](#Teste-308)
-    6. [Teste 309](#Teste-309)
-    7. [Teste 310](#Teste-310)
-5. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+    - [4.1 Perceptron, Limitações Lineares e Redes Multicamadas (MLP)](#41-perceptron-limitacoes-lineares-e-redes-multicamadas-mlp)
+    - [4.2 Funções de Ativação Não Lineares e suas Patologias](#42-funcoes-de-ativacao-nao-lineares-e-suas-patologias)
+    - [4.3 Treinamento: Backpropagation, Gradiente Descendente e Otimizadores](#43-treinamento-backpropagation-gradiente-descendente-e-otimizadores)
+    - [4.4 Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers](#44-arquiteturas-profundas-cnns-rnnslstm-e-transformers)
+    - [Teste 308](#teste-308)
+    - [Teste 309](#teste-309)
+    - [Teste 310](#teste-310)
+1. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
@@ -445,6 +445,55 @@ A respeito dos elementos conceituais do RL e do consagrado algoritmo **Q-Learnin
 > - **E)** Incorreta. A garantia de convergência do Q-Learning repousa exatamente sobre a formulação em um MDP finito.
 > 
 > **Gabarito: B**
+
+---
+
+## 3. Aprendizado Não Supervisionado e por Reforço
+
+### 3.1 Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)
+
+O agrupamento descobre partições ou morfologias naturais em dados não rotulados:
+
+1. **K-Means (Agrupamento Particional por Centroides):**
+    - O algoritmo requer a especificação prévia do número de clusters ($k$).
+    - Minimiza a variação intra-cluster somando as distâncias euclidianas quadráticas dos pontos até o centroide correspondente (**Inércia** ou WCSS):
+     $$\text{WCSS} = \sum_{k=1}^{K} \sum_{\mathbf{x}_i \in C_k} \|\mathbf{x}_i - \boldsymbol{\mu}_k\|^2$$
+    - O número ideal $k$ é avaliado visualmente pelo **Método do Cotovelo (*Elbow Method*)** ou pelo **Coeficiente de Silhueta** (que oscila entre $-1$ e $+1$).
+    - *Limitações Clássicas:* Assume que todos os clusters são convexos e esféricos com variâncias semelhantes. Falha completamente na identificação de formatos orgânicos alongados e atribui compulsoriamente todo ponto a algum cluster, sendo muito sensível a *outliers*.
+
+2. **DBSCAN (*Density-Based Spatial Clustering of Applications with Noise*):**
+    - Agrupa os dados com base na **densidade espacial local**, orientando-se por dois parâmetros: raio de vizinhança ($\varepsilon$) e número mínimo de pontos (*min_samples*).
+    - Tipologia dos pontos:
+    - *Ponto Núcleo (Core Point):* Possui pelo menos *min_samples* pontos em seu raio $\varepsilon$.
+    - *Ponto de Borda (Border Point):* Não é núcleo, mas situa-se no raio $\varepsilon$ de um núcleo.
+    - *Ruído / Outlier (Noise):* Não é núcleo nem borda (cai em regiões de baixa densidade).
+    - *Vantagens Essenciais:* **Não requer a definição prévia da quantidade de grupos ($k$)**, detecta agrupamentos de **formatos geométricos arbitrários e não convexos** e **isola explicitamente ruídos e anomalias**, constituindo o algoritmo perfeito para detecção de fraudes em auditorias de controle externo.
+
+3. **Agrupamento Hierárquico (*Hierarchical Clustering*):**
+    - Gera uma representação em árvore taxonômica denominada **Dendrograma**.
+    - Abordagem **Aglomerativa (*Bottom-up*)**: Cada ponto inicia como seu próprio cluster e pares mais próximos são progressivamente fundidos.
+    - Métodos de Ligação (*Linkage*): *Single* (distância mínima entre membros, suscetível ao efeito de encadeamento /*chaining*), *Complete* (distância máxima), *Average* (distância média) e *Ward* (minimiza o incremento da variância total interna).
+
+### 3.2 Redução de Dimensionalidade (PCA, t-SNE e UMAP)
+
+Reduz a quantidade de preditores de um dataset volumoso preservando a maior quantidade possível de variância estatística ou vizinhança:
+
+- **PCA (*Principal Component Analysis*):**
+    - Técnica estatística **linear e não supervisionada** que transforma as variáveis originais em um novo conjunto de variáveis não correlacionadas denominadas **Componentes Principais (PCs)**.
+    - O primeiro componente principal captura a direção de **máxima variância** dos dados; o segundo componente captura a segunda maior variância sob a restrição de ser rigorosamente **ortogonal** ao primeiro, e assim por diante.
+    - Obtido computacionalmente através da **decomposição espectral (autovalores e autovetores)** da matriz de covariância dos dados padronizados ou por decomposição em valores singulares (SVD).
+- **t-SNE e UMAP:**
+    - Métodos **não lineares** dedicados prioritariamente à projeção de espaços de centenas de dimensões em espaços de 2D ou 3D para inspeção visual humana, preservando topologias de vizinhança local.
+
+### 3.3 Aprendizado por Reforço (Reinforcement Learning)
+
+Um **Agente** aprende a tomar decisões sequenciais ideais através de tentativa e erro, interagindo iterativamente com um **Ambiente** dinâmico:
+
+- Formalizado matematicamente por um **Processo de Decisão de Markov (MDP)**, representado pela 5-tupla $(S, A, P, R, \gamma)$.
+- A cada instante $t$, o agente observa o estado $S_t$, executa uma ação $A_t$ orientada por sua política $\pi(a|s)$, recebe uma recompensa escalar imediata $R_{t+1}$ e transiciona para o novo estado $S_{t+1}$.
+- O objetivo é aprender uma política ótima que maximize o retorno cumulativo descontado no longo prazo ($G_t = \sum_{k=0}^{\infty} \gamma^k R_{t+k+1}$), governado pela **Equação de Bellman**.
+- **Dilema Exploração vs. Explotação (*Exploration vs. Exploitation*):** O agente deve arbitrar entre descobrir ações inéditas (*exploration*) para colher melhores recompensas futuras e executar as ações que já provaram ser eficazes (*exploitation*).
+- **Q-Learning:** Algoritmo clássico de aprendizado por diferença temporal, classificado como *model-free* e *off-policy*, que atualiza recursivamente os valores $Q(s, a)$ da função de valor ação-estado.
 
 ---
 

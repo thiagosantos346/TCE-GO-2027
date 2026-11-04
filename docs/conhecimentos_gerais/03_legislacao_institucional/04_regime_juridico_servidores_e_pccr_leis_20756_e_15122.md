@@ -37,29 +37,29 @@
 ## 🧭 Sumário
 
 1. [Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei nº 20.756/2020)](#1-estatuto-dos-servidores-publicos-civis-do-estado-de-goias-lei-no-207562020)
-    1. [Conceito de Servidor, Cargo Público e Formas de Provimento](#11-conceito-de-servidor-cargo-publico-e-formas-de-provimento)
-    2. [Posse e Exercício: Prazos e Consequências do Descumprimento](#12-posse-e-exercicio-prazos-e-consequencias-do-descumprimento)
-    3. [Estágio Probatório, Fatores de Avaliação e Hipóteses de Inaptidão](#13-estagio-probatorio-fatores-de-avaliacao-e-hipoteses-de-inaptidao)
-    4. [Vacância do Cargo Público](#14-vacancia-do-cargo-publico)
-    5. [Direitos, Vantagens Pecuniárias, Férias e Licenças](#15-direitos-vantagens-pecuniarias-ferias-e-licencas)
-    6. [Regime Disciplinar: Deveres, Proibições e Penalidades](#16-regime-disciplinar-deveres-proibicoes-e-penalidades)
-    7. [Prescrição da Pretensão Punitiva Disciplinar](#17-prescricao-da-pretensao-punitiva-disciplinar)
-    8. [Sindicância e Processo Administrativo Disciplinar (PAD)](#18-sindicancia-e-processo-administrativo-disciplinar-pad)
-    9. [Teste 152](#Teste-152)
-    10. [Teste 153](#Teste-153)
-    11. [Teste 154](#Teste-154)
-    12. [Teste 155](#Teste-155)
-    13. [Teste 156](#Teste-156)
-    14. [Teste 157](#Teste-157)
-    15. [Teste 158](#Teste-158)
-    16. [Teste 159](#Teste-159)
+    - [1.1 Conceito de Servidor, Cargo Público e Formas de Provimento](#11-conceito-de-servidor-cargo-publico-e-formas-de-provimento)
+    - [1.2 Posse e Exercício: Prazos e Consequências do Descumprimento](#12-posse-e-exercicio-prazos-e-consequencias-do-descumprimento)
+    - [1.3 Estágio Probatório, Fatores de Avaliação e Hipóteses de Inaptidão](#13-estagio-probatorio-fatores-de-avaliacao-e-hipoteses-de-inaptidao)
+    - [1.4 Vacância do Cargo Público](#14-vacancia-do-cargo-publico)
+    - [1.5 Direitos, Vantagens Pecuniárias, Férias e Licenças](#15-direitos-vantagens-pecuniarias-ferias-e-licencas)
+    - [1.6 Regime Disciplinar: Deveres, Proibições e Penalidades](#16-regime-disciplinar-deveres-proibicoes-e-penalidades)
+    - [1.7 Prescrição da Pretensão Punitiva Disciplinar](#17-prescricao-da-pretensao-punitiva-disciplinar)
+    - [1.8 Sindicância e Processo Administrativo Disciplinar (PAD)](#18-sindicancia-e-processo-administrativo-disciplinar-pad)
+    - [Teste 152](#teste-152)
+    - [Teste 153](#teste-153)
+    - [Teste 154](#teste-154)
+    - [Teste 155](#teste-155)
+    - [Teste 156](#teste-156)
+    - [Teste 157](#teste-157)
+    - [Teste 158](#teste-158)
+    - [Teste 159](#teste-159)
 2. [Plano de Cargos, Carreiras e Remuneração do TCE-GO (Lei nº 15.122/2005)](#2-plano-de-cargos-carreiras-e-remuneracao-do-tce-go-lei-no-151222005)
-    1. [Estrutura do Quadro Efetivo do TCE-GO](#21-estrutura-do-quadro-efetivo-do-tce-go)
-    2. [Atribuições Legais do Técnico de Controle Externo](#22-atribuicoes-legais-do-tecnico-de-controle-externo)
-    3. [Desenvolvimento Funcional: Progressão Horizontal vs. Promoção Vertical](#23-desenvolvimento-funcional-progressao-horizontal-vs-promocao-vertical)
-    4. [Estrutura Remuneratória e Vantagens Específicas do Tribunal](#24-estrutura-remuneratoria-e-vantagens-especificas-do-tribunal)
-    5. [Teste 160](#Teste-160)
-    6. [Teste 161](#Teste-161)
+    - [2.1 Estrutura do Quadro Efetivo do TCE-GO](#21-estrutura-do-quadro-efetivo-do-tce-go)
+    - [2.2 Atribuições Legais do Técnico de Controle Externo](#22-atribuicoes-legais-do-tecnico-de-controle-externo)
+    - [2.3 Desenvolvimento Funcional: Progressão Horizontal vs. Promoção Vertical](#23-desenvolvimento-funcional-progressao-horizontal-vs-promocao-vertical)
+    - [2.4 Estrutura Remuneratória e Vantagens Específicas do Tribunal](#24-estrutura-remuneratoria-e-vantagens-especificas-do-tribunal)
+    - [Teste 160](#teste-160)
+    - [Teste 161](#teste-161)
 3. [Fontes Oficiais e Referências Bibliográficas](#3-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
@@ -290,8 +290,6 @@ Nos termos do Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei E
 
 ---
 
----
-
 ### Teste 156
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito das licenças, afastamentos e concessões funcionais reguladas pela Lei Estadual nº 20.756/2020 (Estatuto dos Servidores de Goiás):
@@ -314,8 +312,6 @@ A respeito das licenças, afastamentos e concessões funcionais reguladas pela L
 > - **E)** Incorreta. O afastamento classista não gera direito a acréscimos pecuniários extraordinários custeados pelos cofres públicos.
 >
 > **Gabarito: A**
-
----
 
 ---
 
@@ -346,8 +342,6 @@ No âmbito do regime disciplinar instituído pela Lei Estadual nº 20.756/2020, 
 > - **E)** Incorreta. São vedadas penas perpétuas ou de banimento pela ordem constitucional.
 >
 > **Gabarito: B**
-
----
 
 ---
 

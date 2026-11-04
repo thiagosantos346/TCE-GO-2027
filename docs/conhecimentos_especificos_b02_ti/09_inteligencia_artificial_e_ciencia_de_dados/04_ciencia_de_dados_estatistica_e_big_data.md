@@ -21,33 +21,32 @@
 ## 🧭 Sumário
 
 1. [Metodologia CRISP-DM e Pipeline de Engenharia de Dados](#1-metodologia-crisp-dm-e-pipeline-de-engenharia-de-dados)
-    1. [As Seis Fases do Framework CRISP-DM](#11-as-seis-fases-do-framework-crisp-dm)
-    2. [Tratamento de Valores Ausentes e Outliers (Critério IQR)](#12-tratamento-de-valores-ausentes-e-outliers-criterio-iqr)
-    3. [Escalonamento e Codificação de Variáveis Categóricas](#13-escalonamento-e-codificacao-de-variaveis-categoricas)
-    4. [Teste 333](#Teste-333)
-    5. [Teste 334](#Teste-334)
-    6. [Teste 335](#Teste-335)
+    - [1.1 As Seis Fases do Framework CRISP-DM](#11-as-seis-fases-do-framework-crisp-dm)
+    - [1.2 Tratamento de Valores Ausentes e Outliers (Critério IQR)](#12-tratamento-de-valores-ausentes-e-outliers-criterio-iqr)
+    - [1.3 Escalonamento e Codificação de Variáveis Categóricas](#13-escalonamento-e-codificacao-de-variaveis-categoricas)
+    - [Teste 333](#teste-333)
+    - [Teste 334](#teste-334)
+    - [Teste 335](#teste-335)
+    - [Teste 336](#teste-336)
+    - [Teste 337](#teste-337)
+    - [Teste 338](#teste-338)
 2. [Estatística Aplicada, Probabilidades e Testes de Hipóteses](#2-estatistica-aplicada-probabilidades-e-testes-de-hipoteses)
-    1. [Medidas de Tendência Central, Dispersão e Assimetria](#21-medidas-de-tendencia-central-dispersao-e-assimetria)
-    2. [Distribuições de Probabilidade: Normal, Binomial e Poisson](#22-distribuicoes-de-probabilidade-normal-binomial-e-poisson)
-    3. [Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor](#23-testes-de-hipoteses-erros-tipo-i-e-ii-e-criterio-do-p-valor)
-    4. [Teste 336](#Teste-336)
-    5. [Teste 337](#Teste-337)
-    6. [Teste 338](#Teste-338)
+    - [2.1 Medidas de Tendência Central, Dispersão e Assimetria](#21-medidas-de-tendencia-central-dispersao-e-assimetria)
+    - [2.2 Distribuições de Probabilidade: Normal, Binomial e Poisson](#22-distribuicoes-de-probabilidade-normal-binomial-e-poisson)
+    - [2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor](#23-testes-de-hipoteses-erros-tipo-i-e-ii-e-criterio-do-p-valor)
 3. [Avaliação de Modelos Preditivos (Classificação e Regressão)](#3-avaliacao-de-modelos-preditivos-classificacao-e-regressao)
-    1. [O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)](#31-o-trade-off-vies-vs-variancia-bias-variance-tradeoff)
-    2. [Matriz de Confusão e Métricas para Classes Desbalanceadas](#32-matriz-de-confusao-e-metricas-para-classes-desbalanceadas)
-    3. [Curva ROC, AUC-ROC e Métricas de Regressão (MAE, MSE, RMSE, R²)](#33-curva-roc-auc-roc-e-metricas-de-regressao-mae-mse-rmse-r2)
-    4. [Teste 339](#Teste-339)
-    5. [Teste 340](#Teste-340)
-    6. [Teste 341](#Teste-341)
+    - [3.1 O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)](#31-o-trade-off-vies-vs-variancia-bias-variance-tradeoff)
+    - [3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas](#32-matriz-de-confusao-e-metricas-para-classes-desbalanceadas)
+    - [3.3 Curva ROC, AUC-ROC e Métricas de Regressão (MAE, MSE, RMSE, R²)](#33-curva-roc-auc-roc-e-metricas-de-regressao-mae-mse-rmse-r2)
+    - [Teste 339](#teste-339)
+    - [Teste 340](#teste-340)
+    - [Teste 341](#teste-341)
 4. [Ecossistema Big Data: Hadoop e Apache Spark](#4-ecossistema-big-data-hadoop-e-apache-spark)
-    1. [Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop](#41-os-vs-do-big-data-e-a-arquitetura-hdfsyarn-do-hadoop)
-    2. [Paradigma MapReduce e suas Limitações de I/O em Disco](#42-paradigma-mapreduce-e-suas-limitacoes-de-io-em-disco)
-    3. [Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs](#43-apache-spark-processamento-em-memoria-lazy-evaluation-e-rdds)
-    4. [Teste 342](#Teste-342)
-    5. [Teste 343](#Teste-343)
-5. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+    - [4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop](#41-os-vs-do-big-data-e-a-arquitetura-hdfsyarn-do-hadoop)
+    - [4.2 Paradigma MapReduce e suas Limitações de I/O em Disco](#42-paradigma-mapreduce-e-suas-limitacoes-de-io-em-disco)
+    - [4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs](#43-apache-spark-processamento-em-memoria-lazy-evaluation-e-rdds)
+    - [Teste 342](#teste-342)
+    - [Teste 343](#teste-343)
 
 ---
 
@@ -298,6 +297,70 @@ A respeito dos conceitos de hipótese nula, erros de decisão e interpretação 
 > - **E)** Incorreta. Quem representa o status quo ou ausência de diferença/efeito é a **hipótese nula ($H_0$)**.
 > 
 > **Gabarito: A**
+
+---
+
+## 2. Estatística Aplicada, Probabilidades e Testes de Hipóteses
+
+### 2.1 Medidas de Tendência Central, Dispersão e Assimetria
+
+* **Medidas de Posição:**
+    - **Média Aritmética ($\bar{x}$):** Centro de massa da distribuição ($\bar{x} = \frac{1}{n}\sum x_i$). Extremamente vulnerável a distorções por valores discrepantes.
+    - **Mediana ($Md$):** O elemento central ordenado que divide a amostra exatamente ao meio (percentil 50). Trata-se de uma medida **robusta e resistente a outliers**.
+    - **Moda ($Mo$):** O valor que ocorre com a maior frequência estatística observada.
+* **Comportamento das Medidas sob Assimetria de Distribuições:**
+
+```
+   Assimetria Positiva (à Direita)            Distribuição Simétrica           Assimetria Negativa (à Esquerda)
+          Densidade                                 Densidade                                Densidade
+             /\                                        /\                                       /\
+            /  \                                      /  \                                     /  \
+           /    \                                    /    \                                   /    \
+     _____/      \________                     _____/      \_____                       _____/      \_____
+         Mo < Md < Média                          Média = Md = Mo                          Média < Md < Mo
+   (Cauda longa puxa a Média)               (Curva Normal Gaussiana)             (Cauda longa puxa a Média)
+```
+
+> ⚠️ **Alerta de Prova (FCC):**
+> A banca FCC cobra recorrentemente a relação de ordem sob assimetria:
+>
+> - **Assimetria Positiva (à Direita / Cauda Longa Superior):** Típica de dados salariais e contratações públicas onde poucos valores gigantescos puxam a média: **$\text{Moda} < \text{Mediana} < \text{Média}$**.
+> - **Assimetria Negativa (à Esquerda / Cauda Longa Inferior):** **$\text{Média} < \text{Mediana} < \text{Moda}$**.
+> - **Distribuição Simétrica:** **$\text{Média} = \text{Mediana} = \text{Moda}$**.
+
+* **Medidas de Dispersão:**
+    - **Variância Amostral ($s^2$):** $\frac{1}{n-1}\sum (x_i - \bar{x})^2$ (utiliza o divisor de Bessel $n-1$ para estimador não enviesado).
+    - **Desvio Padrão ($s$):** $\sqrt{s^2}$, expresso na mesma unidade de medida da variável original.
+    - **Coeficiente de Variação (CV):** $\text{CV} = \frac{s}{\bar{x}} \times 100\%$. Medida relativa adimensional que viabiliza a comparação direta da variabilidade entre variáveis de escalas ou grandezas distintas.
+
+### 2.2 Distribuições de Probabilidade: Normal, Binomial e Poisson
+
+1. **Distribuição Normal (Gaussiana):**
+    - Curva simétrica em formato de sino governada pela média $\mu$ e desvio padrão $\sigma$.
+    - **Regra Empírica (68-95-99.7%):**
+    - $68{,}27\%$ dos dados encontram-se no intervalo $[\mu - 1\sigma, \mu + 1\sigma]$.
+    - $95{,}45\%$ dos dados situam-se no intervalo $[\mu - 2\sigma, \mu + 2\sigma]$.
+    - $99{,}73\%$ dos dados situam-se no intervalo $[\mu - 3\sigma, \mu + 3\sigma]$.
+
+2. **Distribuição Binomial:**
+    - Modela o número de sucessos $k$ em $n$ ensaios de Bernoulli independentes com probabilidade de sucesso $p$:
+     $$P(X=k) = \binom{n}{k} p^k (1-p)^{n-k}, \quad E[X] = np, \quad \text{Var}(X) = np(1-p)$$
+3. **Distribuição de Poisson:**
+    - Modela a contagem de ocorrências de eventos raros que acontecem a uma taxa média constante $\lambda$ em um intervalo fixado contínuo de tempo ou espaço.
+    - Propriedade elementar cobrada em prova: **$\text{Média} = \text{Variância} = \lambda$**.
+
+### 2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor
+
+Estrutura formal de tomada de decisão estatística sob incerteza:
+
+- **Hipótese Nula ($H_0$):** Premissa básica de ausência de diferença, conformidade ou efeito padrão.
+- **Hipótese Alternativa ($H_1$):** Afirmação de presença de efeito, anomalia ou fraude que se pretende demonstrar.
+- **Tipologia dos Erros de Decisão:**
+    - **Erro Tipo I ($\alpha$):** Rejeitar $H_0$ quando $H_0$ é **verdadeira** (Falso Positivo estatístico). O limite tolerado de ocorrência desse erro define o **Nível de Significância** ($\alpha$, tipicamente fixado em 5%).
+    - **Erro Tipo II ($\beta$):** Não rejeitar $H_0$ quando $H_0$ é **falsa** (Falso Negativo estatístico). O complemento $1 - \beta$ define o **Poder do Teste**.
+- **Regra de Decisão pelo $p$-valor:**
+    - O $p$-valor indica a probabilidade de obter uma estatística de teste tão ou mais extrema que a observada, assumindo $H_0$ como verdadeira.
+    - **Critério de Rejeição:** Se **$p\text{-valor} \le \alpha$**, rejeita-se a hipótese nula $H_0$ com significância estatística; se $p\text{-valor} > \alpha$, não há evidência amostral suficiente para rejeitar $H_0$.
 
 ---
 

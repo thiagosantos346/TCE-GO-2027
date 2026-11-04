@@ -1,32 +1,19 @@
-# Plano de Estudos & Fontes Teóricas: Conhecimentos Específicos TI
+# Plano de Estudos & Fontes Teóricas: Língua Inglesa (Leitura Técnica)
 
-> **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
-> **Matéria:** Língua Inglesa (Leitura Técnica)  
-> **Banca Referência:** Fundação Carlos Chagas (FCC)  
-> **Status Geral:** 🟢 Concluído (100% enriquecido e auditado)
-
----
-
-## 📋 Visão Geral da Ementa Oficial
-
-> *"Compreensão de textos técnicos e científicos em língua inglesa relacionados à tecnologia da informação. Estratégias de leitura: identificação da ideia principal e localização de informações específicas. Vocabulário técnico da área de Tecnologia da Informação. Interpretação de manuais, documentação de software, artigos técnicos e documentação de APIs."*
+> **Cargo(s):** B02 – Tecnologia da Informação  
+> **Área Temática:** Conhecimentos Específicos B02 TI  
+> **Banca Examinadora de Referência:** Fundação Carlos Chagas (FCC)  
+> **Status Geral:** 🟢 **100% Concluído** | 3 Cadernos | 30 Questões (0 Reais Oficiais + 30 Simuladas FCC)
 
 ---
 
-## 🗂️ Estrutura Hierárquica dos Tópicos
+## 🗂️ Estrutura Detalhada dos Cadernos de Estudo
 
-A matéria foi dividida em 3 módulos temáticos modulares que cobrem desde as estratégias de leitura instrumental até o vocabulário especializado de TI, conectivos discursivos e interpretação de documentações reais de APIs e manuais:
-
-| # | Módulo / Tópico Principal | Arquivo Markdown | Itens Cobertos do Edital | Status |
-|---|---------------------------|------------------|--------------------------|:------:|
-| 01 | [Estratégias de Leitura Instrumental: Skimming, Scanning e Inferência](./01_estrategias_de_leitura_skimming_scanning_e_inferencia.md) | `01_estrategias_de_leitura_skimming_scanning_e_inferencia.md` | Skimming (ideia principal); Scanning (dados pontuais); Falsos cognatos e inferência de sentido | 🟢 Concluído (10 Qs) |
-| 02 | [Vocabulário Técnico de TI, Coesão e Conectivos](./02_vocabulario_tecnico_de_ti_e_conjuncoes.md) | `02_vocabulario_tecnico_de_ti_e_conjuncoes.md` | Glossário técnico de TI; Conectivos lógicos (Linking Words); Morfologia e afixos em inglês | 🟢 Concluído (10 Qs) |
-| 03 | [Interpretação de Documentação de APIs, Manuais e Artigos](./03_interpretacao_de_documentacao_de_apis_e_manuais.md) | `03_interpretacao_de_documentacao_de_apis_e_manuais.md` | Leitura de contratos e respostas de APIs; Manuais de configuração e papers/artigos técnicos | 🟢 Concluído (10 Qs) |
+| # | Tópico do Caderno | Arquivo Markdown | Questões Reais | Questões Simuladas | Total Questões | Status |
+|:---:|---|---|:---:|:---:|:---:|:---:|
+| 01 | [Estratégias de Leitura Instrumental: Skimming, Scanning e Inferência](./01_estrategias_de_leitura_skimming_scanning_e_inferencia.md) | `01_estrategias_de_leitura_skimming_scanning_e_inferencia.md` | 0 | 10 | **10** | 🟢 Pronto |
+| 02 | [Vocabulário Técnico de TI, Coesão e Conectivos](./02_vocabulario_tecnico_de_ti_e_conjuncoes.md) | `02_vocabulario_tecnico_de_ti_e_conjuncoes.md` | 0 | 10 | **10** | 🟢 Pronto |
+| 03 | [Interpretação de Documentação de APIs, Manuais e Artigos](./03_interpretacao_de_documentacao_de_apis_e_manuais.md) | `03_interpretacao_de_documentacao_de_apis_e_manuais.md` | 0 | 10 | **10** | 🟢 Pronto |
 
 ---
-
-## 🎯 Próximos Passos
-1. Mapear textos reais em inglês de documentações oficiais de TI (RFCs, AWS, React, Python Docs, artigos de IA).
-2. Estruturar tabela completa de falsos cognatos (*False Friends*) clássicos de provas de concurso.
-3. Coletar questões de interpretação de textos técnicos em inglês da FCC para carreiras de TI.
-
+**Total do Módulo:** **3 cadernos** com **30 questões detalhadamente comentadas** (A a E) e fundamentadas na doutrina e legislação oficial.

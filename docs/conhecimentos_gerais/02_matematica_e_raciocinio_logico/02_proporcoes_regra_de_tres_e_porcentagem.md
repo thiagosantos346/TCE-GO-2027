@@ -21,33 +21,33 @@
 ## 🧭 Sumário
 
 1. [Razões, Proporções e Propriedades Fundamentais](#1-razoes-proporcoes-e-propriedades-fundamentais)
-    1. [Conceito de Razão e Grandezas Comensuráveis](#11-conceito-de-razao-e-grandezas-comensuraveis)
-    2. [Proporções e a Propriedade Fundamental](#12-proporcoes-e-a-propriedade-fundamental)
-    3. [Propriedade da Soma dos Termos e Constante de Proporcionalidade](#13-propriedade-da-soma-dos-termos-e-constante-de-proporcionalidade)
-    4. [Teste 082](#Teste-082)
+    - [1.1 Conceito de Razão e Grandezas Comensuráveis](#11-conceito-de-razao-e-grandezas-comensuraveis)
+    - [1.2 Proporções e a Propriedade Fundamental](#12-proporcoes-e-a-propriedade-fundamental)
+    - [1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade](#13-propriedade-da-soma-dos-termos-e-constante-de-proporcionalidade)
+    - [Teste 082](#teste-082)
 2. [Divisão em Partes Proporcionais](#2-divisao-em-partes-proporcionais)
-    1. [Divisão Diretamente Proporcional com a Constante k](#21-divisao-diretamente-proporcional-com-a-constante-k)
-    2. [Divisão Inversamente Proporcional e o Método do MMC](#22-divisao-inversamente-proporcional-e-o-metodo-do-mmc)
-    3. [Divisão Proporcional Composta ou Mista](#23-divisao-proporcional-composta-ou-mista)
-    4. [Teste 083](#Teste-083)
-    5. [Teste 084](#Teste-084)
-    6. [Teste 085](#Teste-085)
+    - [2.1 Divisão Diretamente Proporcional com a Constante k](#21-divisao-diretamente-proporcional-com-a-constante-k)
+    - [2.2 Divisão Inversamente Proporcional e o Método do MMC](#22-divisao-inversamente-proporcional-e-o-metodo-do-mmc)
+    - [2.3 Divisão Proporcional Composta ou Mista](#23-divisao-proporcional-composta-ou-mista)
+    - [Teste 083](#teste-083)
+    - [Teste 084](#teste-084)
+    - [Teste 085](#teste-085)
 3. [Classificação de Grandezas e Regra de Três Simples](#3-classificacao-de-grandezas-e-regra-de-tres-simples)
-    1. [Grandezas Diretamente Proporcionais e Multiplicação Cruzada](#31-grandezas-diretamente-proporcionais-e-multiplicacao-cruzada)
-    2. [Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta](#32-grandezas-inversamente-proporcionais-e-multiplicacao-em-linha-reta)
-    3. [Método Prático das Setas e Identificação de Armadilhas](#33-metodo-pratico-das-setas-e-identificacao-de-armadilhas)
-    4. [Teste 086](#Teste-086)
-    5. [Teste 087](#Teste-087)
+    - [3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada](#31-grandezas-diretamente-proporcionais-e-multiplicacao-cruzada)
+    - [3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta](#32-grandezas-inversamente-proporcionais-e-multiplicacao-em-linha-reta)
+    - [3.3 Método Prático das Setas e Identificação de Armadilhas](#33-metodo-pratico-das-setas-e-identificacao-de-armadilhas)
+    - [Teste 086](#teste-086)
+    - [Teste 087](#teste-087)
 4. [Porcentagem, Fatores Multiplicadores e Variações](#4-porcentagem-fatores-multiplicadores-e-variacoes)
-    1. [Conceito e Fatores de Aumento e Desconto](#41-conceito-e-fatores-de-aumento-e-desconto)
-    2. [Aumentos e Descontos Sucessivos Cumulativos](#42-aumentos-e-descontos-sucessivos-cumulativos)
-    3. [Inversão da Base de Referência Percentual](#43-inversao-da-base-de-referencia-percentual)
-    4. [Diferença entre Pontos Percentuais e Variação Percentual](#44-diferenca-entre-pontos-percentuais-e-variacao-percentual)
-    5. [Teste 088](#Teste-088)
-    6. [Teste 089](#Teste-089)
-    7. [Teste 090](#Teste-090)
-    8. [Teste 091](#Teste-091)
-5. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+    - [4.1 Conceito e Fatores de Aumento e Desconto](#41-conceito-e-fatores-de-aumento-e-desconto)
+    - [4.2 Aumentos e Descontos Sucessivos Cumulativos](#42-aumentos-e-descontos-sucessivos-cumulativos)
+    - [4.3 Inversão da Base de Referência Percentual](#43-inversao-da-base-de-referencia-percentual)
+    - [4.4 Diferença entre Pontos Percentuais e Variação Percentual](#44-diferenca-entre-pontos-percentuais-e-variacao-percentual)
+    - [Teste 088](#teste-088)
+    - [Teste 089](#teste-089)
+    - [Teste 090](#teste-090)
+    - [Teste 091](#teste-091)
+1. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
 
@@ -495,8 +495,6 @@ O valor de determinada taxa de emolumentos cartorários sofreu um reajuste de $2
 > - **Alerta de Pegadinha FCC:** A banca induz o candidato apressado a simplesmente somar as porcentagens ($20\% + 15\% = 35\%$, alternativa A). Em aumentos sucessivos, a segunda taxa incide sobre o montante já inflacionado, gerando juros sobre juros ($20\% + 15\% + (20\% \times 15\%) = 35\% + 3\% = 38\%$).
 >
 > **Gabarito: C**
-
----
 
 ---
 

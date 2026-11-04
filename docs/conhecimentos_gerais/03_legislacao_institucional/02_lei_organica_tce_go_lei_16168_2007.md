@@ -44,36 +44,36 @@
 ## 🧭 Sumário
 
 1. [Natureza, Jurisdição e Competências Constitucionais e Legais (Arts. 1º a 4º)](#1-natureza-jurisdicao-e-competencias-constitucionais-e-legais-arts-1o-a-4o)
-    1. [Natureza Jurídica, Sedes e Autonomias Constitucionais](#11-natureza-juridica-sedes-e-autonomias-constitucionais)
-    2. [Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores](#12-rol-legal-dos-jurisdicionados-e-responsabilidade-dos-sucessores)
-    3. [Competências Finalísticas Privativas do TCE-GO](#13-competencias-finalisticas-privativas-do-tce-go)
-    4. [Teste 132](#Teste-132)
+    - [1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais](#11-natureza-juridica-sedes-e-autonomias-constitucionais)
+    - [1.2 Rol Legal dos Jurisdicionados e Responsabilidade dos Sucessores](#12-rol-legal-dos-jurisdicionados-e-responsabilidade-dos-sucessores)
+    - [1.3 Competências Finalísticas Privativas do TCE-GO](#13-competencias-finalisticas-privativas-do-tce-go)
+    - [Teste 132](#teste-132)
 2. [Instrumentos de Fiscalização Externa (Arts. 5º a 10)](#2-instrumentos-de-fiscalizacao-externa-arts-5o-a-10)
-    1. [Quadro Diferencial dos Instrumentos Operacionais de Controle](#21-quadro-diferencial-dos-instrumentos-operacionais-de-controle)
-    2. [Fiscalização de Atos de Admissão, Concessão de Aposentadorias e Pensões](#22-fiscalizacao-de-atos-de-admissao-concessao-de-aposentadorias-e-pensoes)
-    3. [Controle de Editais, Licitações, Contratos e Parcerias com o Terceiro Setor](#23-controle-de-editais-licitacoes-contratos-e-parcerias-com-o-terceiro-setor)
-    4. [Teste 133](#Teste-133)
+    - [2.1 Quadro Diferencial dos Instrumentos Operacionais de Controle](#21-quadro-diferencial-dos-instrumentos-operacionais-de-controle)
+    - [2.2 Fiscalização de Atos de Admissão, Concessão de Aposentadorias e Pensões](#22-fiscalizacao-de-atos-de-admissao-concessao-de-aposentadorias-e-pensoes)
+    - [2.3 Controle de Editais, Licitações, Contratos e Parcerias com o Terceiro Setor](#23-controle-de-editais-licitacoes-contratos-e-parcerias-com-o-terceiro-setor)
+    - [Teste 133](#teste-133)
 3. [Julgamento de Contas e Tomada de Contas Especial (Arts. 11 a 28)](#3-julgamento-de-contas-e-tomada-de-contas-especial-arts-11-a-28)
-    1. [Prestação de Contas Ordinária dos Ordenadores de Despesas](#31-prestacao-de-contas-ordinaria-dos-ordenadores-de-despesas)
-    2. [Tomada de Contas Especial: Pressupostos, Solidariedade e Decadência](#32-tomada-de-contas-especial-pressupostos-solidariedade-e-decadencia)
-    3. [Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis](#33-classificacao-tecnica-das-decisoes-de-contas-regulares-regulares-com-ressalva-irregulares-e-iliquidaveis)
-    4. [Teste 134](#Teste-134)
-    5. [Teste 135](#Teste-135)
+    - [3.1 Prestação de Contas Ordinária dos Ordenadores de Despesas](#31-prestacao-de-contas-ordinaria-dos-ordenadores-de-despesas)
+    - [3.2 Tomada de Contas Especial: Pressupostos, Solidariedade e Decadência](#32-tomada-de-contas-especial-pressupostos-solidariedade-e-decadencia)
+    - [3.3 Classificação Técnica das Decisões de Contas: Regulares, Regulares com Ressalva, Irregulares e Iliquidáveis](#33-classificacao-tecnica-das-decisoes-de-contas-regulares-regulares-com-ressalva-irregulares-e-iliquidaveis)
+    - [Teste 134](#teste-134)
+    - [Teste 135](#teste-135)
 4. [Medidas Cautelares e Poder Sancionatório do TCE-GO (Arts. 41 a 47)](#4-medidas-cautelares-e-poder-sancionatorio-do-tce-go-arts-41-a-47)
-    1. [Medidas Cautelares: Suspensão, Afastamento e Indisponibilidade de Bens](#41-medidas-cautelares-suspensao-afastamento-e-indisponibilidade-de-bens)
-    2. [Imputação de Débito e Eficácia Executiva Extrajudicial](#42-imputacao-de-debito-e-eficacia-executiva-extrajudicial)
-    3. [Regime das Multas Sancionatórias e Proporcionais ao Dano](#43-regime-das-multas-sancionatorias-e-proporcionais-ao-dano)
-    4. [Inabilitação para Cargo em Comissão e Declaração de Inidoneidade](#44-inabilitacao-para-cargo-em-comissao-e-declaracao-de-inidoneidade)
-    5. [Teste 136](#Teste-136)
-    6. [Teste 137](#Teste-137)
+    - [4.1 Medidas Cautelares: Suspensão, Afastamento e Indisponibilidade de Bens](#41-medidas-cautelares-suspensao-afastamento-e-indisponibilidade-de-bens)
+    - [4.2 Imputação de Débito e Eficácia Executiva Extrajudicial](#42-imputacao-de-debito-e-eficacia-executiva-extrajudicial)
+    - [4.3 Regime das Multas Sancionatórias e Proporcionais ao Dano](#43-regime-das-multas-sancionatorias-e-proporcionais-ao-dano)
+    - [4.4 Inabilitação para Cargo em Comissão e Declaração de Inidoneidade](#44-inabilitacao-para-cargo-em-comissao-e-declaracao-de-inidoneidade)
+    - [Teste 136](#teste-136)
+    - [Teste 137](#teste-137)
 5. [Processo, Prazos e Sistema Recursal da Lei Orgânica (Arts. 50 a 65)](#5-processo-prazos-e-sistema-recursal-da-lei-organica-arts-50-a-65)
-    1. [Devido Processo Legal, Contraditório e Prazos de Defesa](#51-devido-processo-legal-contraditorio-e-prazos-de-defesa)
-    2. [Sistema Recursal Taxativo: Reconsideração, Reexame, Embargos e Revisão](#52-sistema-recursal-taxativo-reconsideracao-reexame-embargos-e-revisao)
-    3. [Regime da Prescrição Punitiva e Ressarcitória no TCE-GO](#53-regime-da-prescricao-punitiva-e-ressarcitoria-no-tce-go)
-    4. [Teste 138](#Teste-138)
-    5. [Teste 139](#Teste-139)
-    6. [Teste 140](#Teste-140)
-    7. [Teste 141](#Teste-141)
+    - [5.1 Devido Processo Legal, Contraditório e Prazos de Defesa](#51-devido-processo-legal-contraditorio-e-prazos-de-defesa)
+    - [5.2 Sistema Recursal Taxativo: Reconsideração, Reexame, Embargos e Revisão](#52-sistema-recursal-taxativo-reconsideracao-reexame-embargos-e-revisao)
+    - [5.3 Regime da Prescrição Punitiva e Ressarcitória no TCE-GO](#53-regime-da-prescricao-punitiva-e-ressarcitoria-no-tce-go)
+    - [Teste 138](#teste-138)
+    - [Teste 139](#teste-139)
+    - [Teste 140](#teste-140)
+    - [Teste 141](#teste-141)
 6. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
@@ -494,8 +494,6 @@ Sobre o sistema recursal disciplinado nos artigos 54 a 65 da Lei Orgânica do TC
 > - **E)** Incorreta. Das decisões originárias do Pleno cabem recursos expressamente previstos em lei, tais como embargos de declaração, recurso de reexame e pedido de revisão.
 >
 > **Gabarito: B**
-
----
 
 ---
 

@@ -23,28 +23,26 @@
 ## 🧭 Sumário
 
 1. [Taxonomia de Dados e Papéis sob a LGPD](#1-taxonomia-de-dados-e-papeis-sob-a-lgpd)
-1. [Classificação Legal e Técnica dos Dados](#1-1-classificacao-legal-e-tecnica-dos-dados)
-    1. [Teste 515](#Teste-515)
-1. [Agentes de Tratamento e o Encarregado (DPO)](#1-2-agentes-de-tratamento-e-o-encarregado-dpo)
-    1. [Teste 516](#Teste-516)
+1. [1.1 Classificação Legal e Técnica dos Dados](#11-classificacao-legal-e-tecnica-dos-dados)
+    - [Teste 515](#teste-515)
+2. [1.2 Agentes de Tratamento e o Encarregado (DPO)](#12-agentes-de-tratamento-e-o-encarregado-dpo)
+    - [Teste 516](#teste-516)
+    - [Teste 517](#teste-517)
 2. [Princípios do Art. 6º sob a Ótica da Arquitetura e Engenharia de Software](#2-principios-do-art-6o-sob-a-otica-da-arquitetura-e-engenharia-de-software)
-    1. [Teste 517](#Teste-517)
 3. [Privacy by Design e Privacy by Default (Ann Cavoukian)](#3-privacy-by-design-e-privacy-by-default-ann-cavoukian)
-3. [Os 7 Princípios Fundamentais do Privacy by Design](#3-1-os-7-principios-fundamentais-do-privacy-by-design)
-    1. [Teste 518](#Teste-518)
-3. [Comparativo: Privacy by Design vs. Privacy by Default](#3-2-comparativo-privacy-by-design-vs-privacy-by-default)
-    1. [Teste 519](#Teste-519)
+3. [3.1 Os 7 Princípios Fundamentais do Privacy by Design](#31-os-7-principios-fundamentais-do-privacy-by-design)
+    - [Teste 518](#teste-518)
+    - [Teste 519](#teste-519)
 4. [Engenharia de Desidentificação: Anonimização vs. Pseudonimização](#4-engenharia-de-desidentificacao-anonimizacao-vs-pseudonimizacao)
-4. [Técnicas Criptográficas de Pseudonimização](#4-1-tecnicas-criptograficas-de-pseudonimizacao)
-    1. [Teste 520](#Teste-520)
-4. [Métricas Formais de Anonimização (k-Anonymity, l-Diversity, t-Closeness e DP)](#4-2-metricas-formais-de-anonimizacao-k-anonymity-l-diversity-t-closeness-e-dp)
-    1. [Teste 521](#Teste-521)
+4. [4.1 Técnicas Criptográficas de Pseudonimização](#41-tecnicas-criptograficas-de-pseudonimizacao)
+    - [Teste 520](#teste-520)
+    - [Teste 521](#teste-521)
 5. [Implementação Técnica dos Direitos dos Titulares (Art. 18 da LGPD)](#5-implementacao-tecnica-dos-direitos-dos-titulares-art-18-da-lgpd)
-5. [Mapeamento dos Direitos e Requisitos Técnicos](#5-1-mapeamento-dos-direitos-e-requisitos-tecnicos)
-    1. [Teste 522](#Teste-522)
-5. [Comunicação de Incidentes de Segurança à ANPD e Titulares (Art. 48)](#5-2-comunicacao-de-incidentes-de-seguranca-a-anpd-e-titulares-art-48)
-    1. [Teste 523](#Teste-523)
-    2. [Teste 524](#Teste-524)
+5. [5.1 Mapeamento dos Direitos e Requisitos Técnicos](#51-mapeamento-dos-direitos-e-requisitos-tecnicos)
+    - [Teste 522](#teste-522)
+6. [5.2 Comunicação de Incidentes de Segurança à ANPD e Titulares (Art. 48)](#52-comunicacao-de-incidentes-de-seguranca-a-anpd-e-titulares-art-48)
+    - [Teste 523](#teste-523)
+    - [Teste 524](#teste-524)
 6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
@@ -177,6 +175,45 @@ De acordo com a Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709
 > - **E)** Incorreta. Dados de saúde são dados pessoais sensíveis e sigilosos, cuja exposição indevida acarreta ilicitude severa.
 > 
 > **Gabarito: B**
+
+---
+
+## 2. Princípios do Art. 6º sob a Ótica da Arquitetura e Engenharia de Software
+
+O Art. 6º da LGPD elenca dez princípios fundamentais que regem as atividades de tratamento. Para desenvolvedores, arquitetos e DBAs, esses princípios se traduzem em requisitos não funcionais diretos:
+
+1. **Finalidade:** Realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível.
+    - *Impacto em TI:* Cada campo persistido na tabela do banco de dados deve ter uma justificativa funcional rastreável. Não é permitido criar rotinas de coleta de dados genéricos sob a premissa de "podemos precisar disso no futuro".
+
+2. **Adequação:** Compatibilidade do tratamento com as finalidades informadas ao titular.
+    - *Impacto em TI:* Se o cadastro foi feito para emissão de certidão negativa de débitos fiscais, o sistema não pode enviar newsletters promocionais ou compartilhar dados com empresas privadas sem base legal.
+
+3. **Necessidade (Minimização de Dados):** Limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos.
+    - *Impacto em TI:* Se uma API precisa apenas validar a maioridade do usuário, ela deve receber um booleano `maior_de_idade: true/false` ou a idade calculada, e não o RG completo, filiação e certidão de nascimento digitalizada.
+
+4. **Livre Acesso:** Garantia aos titulares de consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais.
+    - *Impacto em TI:* Criação de painéis de autoatendimento (*self-service privacy portals*) e endpoints de leitura de perfil.
+
+5. **Qualidade dos Dados:** Garantia de exatidão, clareza, relevância e atualização dos dados.
+    - *Impacto em TI:* Implementação de rotinas de validação de esquemas (JSON Schema, constraints de integridade), deduplicação de registros e mecanismos para retificação de dados incorretos pelo próprio titular.
+
+6. **Transparência:** Garantia de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento.
+    - *Impacto em TI:* Políticas de privacidade com redação clara em microcopy nos formulários, registros de consentimento (*consent logs*) e termos versionados.
+
+7. **Segurança:** Utilização de medidas técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas.
+    - *Impacto em TI:* Criptografia de dados em trânsito (TLS 1.3) e em repouso (AES-256 com chaves gerenciadas por HSM/KMS), RBAC/ABAC, mTLS em microserviços e proteção contra injeções (OWASP Top 10).
+
+8. **Prevenção:** Adoção de medidas prévias para evitar a ocorrência de danos em virtude do tratamento de dados pessoais.
+    - *Impacto em TI:* Auditorias contínuas de código (SAST/DAST), modelagem de ameaças e esteiras DevSecOps com bloqueio de deploy em caso de vazamento de segredos em repositórios.
+
+9. **Não Discriminação:** Impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos.
+    - *Impacto em TI:* Validação ética e técnica de modelos de Machine Learning para evitar viés algorítmico (*bias*) em sistemas de concessão de créditos tributários ou triagens fiscais.
+
+10. **Responsabilização e Prestação de Contas (Accountability):** Demonstração da eficácia das medidas adotadas pelo agente.
+    - *Impacto em TI:* Trilhas de auditoria imutáveis (*audit trails* / logs assinados digitalmente), relatórios de impacto à proteção de dados (RIPD/DPIA) e documentação de arquitetura de dados.
+
+> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
+> No setor público (Art. 23), para desempenhar competências legais e executar políticas públicas, **não se exige consentimento** do titular. A FCC adora afirmar que órgãos de fiscalização precisam de autorização do cidadão auditado para processar seus dados cadastrais. **ERRADO!** O tratamento funda-se no cumprimento de obrigação legal (Art. 7º, II) e exercício regular de direitos (Art. 7º, VI).
 
 ---
 
@@ -434,8 +471,6 @@ O Art. 48 da LGPD determina que o **Controlador** deve comunicar à Autoridade N
 > - **E)** Incorreta. O Art. 48, § 2º da LGPD confere expressamente à ANPD o poder de determinar a ampla divulgação do fato em meios de comunicação e a adoção de medidas para mitigar seus efeitos caso constate a relevância do evento.
 > 
 > **Gabarito: B**
-
----
 
 ---
 

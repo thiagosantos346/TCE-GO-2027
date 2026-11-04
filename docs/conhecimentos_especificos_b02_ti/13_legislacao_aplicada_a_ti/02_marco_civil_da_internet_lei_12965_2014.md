@@ -23,30 +23,30 @@
 ## 🧭 Sumário
 
 1. [Princípios, Garantias e Conceituação Técnica (Arts. 2º a 8º)](#1-principios-garantias-e-conceituacao-tecnica-arts-2o-a-8o)
-1. [Vocabulário Técnico-Jurídico Essencial (Art. 5º)](#1-1-vocabulario-tecnico-juridico-essencial-art-5o)
-    1. [Teste 525](#Teste-525)
-1. [Princípios e Direitos Fundamentais dos Usuários](#1-2-principios-e-direitos-fundamentais-dos-usuarios)
-    1. [Teste 526](#Teste-526)
+1. [1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)](#11-vocabulario-tecnico-juridico-essencial-art-5o)
+    - [Teste 525](#teste-525)
+2. [1.2 Princípios e Direitos Fundamentais dos Usuários](#12-principios-e-direitos-fundamentais-dos-usuarios)
+    - [Teste 526](#teste-526)
 2. [O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)](#2-o-principio-da-neutralidade-de-rede-art-9o-e-decreto-no-87712016)
-2. [Regra Geral de Tratamento Isonômico](#2-1-regra-geral-de-tratamento-isonomico)
-2. [As Duas Únicas Exceções Legais à Neutralidade](#2-2-as-duas-unicas-excecoes-legais-a-neutralidade)
-    1. [Teste 527](#Teste-527)
+3. [2.1 Regra Geral de Tratamento Isonômico](#21-regra-geral-de-tratamento-isonomico)
+4. [2.2 As Duas Únicas Exceções Legais à Neutralidade](#22-as-duas-unicas-excecoes-legais-a-neutralidade)
+    - [Teste 527](#teste-527)
 3. [Regime de Guarda de Registros: Conexão vs. Aplicações de Internet](#3-regime-de-guarda-de-registros-conexao-vs-aplicacoes-de-internet)
-3. [Distinção Conceitual e Prazos Obrigatórios de Guarda](#3-1-distincao-conceitual-e-prazos-obrigatorios-de-guarda)
-    1. [Teste 528](#Teste-528)
-    2. [Teste 529](#Teste-529)
-3. [A Vedação Absoluta aos Provedores de Conexão (Art. 14)](#3-2-a-vedacao-absoluta-aos-provedores-de-conexao-art-14)
-    1. [Teste 530](#Teste-530)
-3. [Padrões de Segurança do Decreto nº 8.771/2016](#3-3-padroes-de-seguranca-do-decreto-no-87712016)
+5. [3.1 Distinção Conceitual e Prazos Obrigatórios de Guarda](#31-distincao-conceitual-e-prazos-obrigatorios-de-guarda)
+    - [Teste 528](#teste-528)
+    - [Teste 529](#teste-529)
+6. [3.2 A Vedação Absoluta aos Provedores de Conexão (Art. 14)](#32-a-vedacao-absoluta-aos-provedores-de-conexao-art-14)
+    - [Teste 530](#teste-530)
+7. [3.3 Padrões de Segurança do Decreto nº 8.771/2016](#33-padroes-de-seguranca-do-decreto-no-87712016)
 4. [Reserva de Jurisdição para Quebra de Sigilo (Arts. 10 e 22)](#4-reserva-de-jurisdicao-para-quebra-de-sigilo-arts-10-e-22)
-    1. [Teste 531](#Teste-531)
+    - [Teste 531](#teste-531)
 5. [Responsabilidade Civil por Conteúdo Gerado por Terceiros (Arts. 18 a 21)](#5-responsabilidade-civil-por-conteudo-gerado-por-terceiros-arts-18-a-21)
-5. [Imunidade Civil dos Provedores de Conexão (Art. 18)](#5-1-imunidade-civil-dos-provedores-de-conexao-art-18)
-5. [Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)](#5-2-regra-geral-dos-provedores-de-aplicacao-art-19-ordem-judicial-previa)
-    1. [Teste 532](#Teste-532)
-5. [Exceção Crítica do Artigo 21 (Nudez e Sexo Não Consensual)](#5-3-excecao-critica-do-artigo-21-nudez-e-sexo-nao-consensual)
-    1. [Teste 533](#Teste-533)
-    2. [Teste 534](#Teste-534)
+8. [5.1 Imunidade Civil dos Provedores de Conexão (Art. 18)](#51-imunidade-civil-dos-provedores-de-conexao-art-18)
+9. [5.2 Regra Geral dos Provedores de Aplicação (Art. 19 - Ordem Judicial Prévia)](#52-regra-geral-dos-provedores-de-aplicacao-art-19-ordem-judicial-previa)
+    - [Teste 532](#teste-532)
+10. [5.3 Exceção Crítica do Artigo 21 (Nudez e Sexo Não Consensual)](#53-excecao-critica-do-artigo-21-nudez-e-sexo-nao-consensual)
+    - [Teste 533](#teste-533)
+    - [Teste 534](#teste-534)
 6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
@@ -160,8 +160,6 @@ flowchart TD
     - Bloquear ou degradar pacotes de protocolos peer-to-peer (P2P/BitTorrent) ou de voz sobre IP (VoIP/WhatsApp) para forçar o consumidor a contratar pacotes de telefonia da própria operadora;
     - Cobrar tarifas adicionais de empresas de streaming para conceder tráfego acelerado prioritário (*fast lanes* comerciais pagas);
     - Monitorar e inspecionar o conteúdo dos pacotes (*Deep Packet Inspection - DPI*) para fins de direcionamento comercial ou degradação seletiva.
-
----
 
 ---
 
@@ -353,8 +351,6 @@ Os responsáveis pela guarda de registros devem obrigatoriamente seguir padrões
 
 ---
 
----
-
 ## 4. Reserva de Jurisdição para Quebra de Sigilo (Arts. 10 e 22)
 
 O fornecimento de registros de conexão e de acesso a aplicações de internet submete-se à **estrita cláusula de reserva de jurisdição**:
@@ -432,8 +428,6 @@ sequenceDiagram
 ## 5.1 Imunidade Civil dos Provedores de Conexão (Art. 18)
 
 O provedor de conexão à internet **não responderá civilmente** por danos decorrentes de conteúdo gerado por terceiros em nenhuma hipótese. Ele atua como mero conduto de transmissão de pacotes (*mere conduit*), sem poder de gerência sobre o conteúdo transmitido.
-
----
 
 ---
 

@@ -46,20 +46,20 @@
 
 1. [Evolução Histórica dos Paradigmas de Gestão de Pessoas](#1-evolucao-historica-dos-paradigmas-de-gestao-de-pessoas)
 2. [Os Seis Processos da Gestão de Pessoas (Chiavenato)](#2-os-seis-processos-da-gestao-de-pessoas-chiavenato)
-    1. [Teste 430](#Teste-430)
-    2. [Teste 431](#Teste-431)
+    - [Teste 430](#teste-430)
+    - [Teste 431](#teste-431)
 3. [Rotinas Administrativas do Departamento de Pessoal no Setor Público](#3-rotinas-administrativas-do-departamento-de-pessoal-no-setor-publico)
 4. [O Processo de Agregar Pessoas: Recrutamento e Seleção](#4-o-processo-de-agregar-pessoas-recrutamento-e-selecao)
-    1. [Teste 432](#Teste-432)
-    2. [Teste 433](#Teste-433)
-    3. [Teste 434](#Teste-434)
+    - [Teste 432](#teste-432)
+    - [Teste 433](#teste-433)
+    - [Teste 434](#teste-434)
 5. [O Concurso Público como Instrumento Republicano (CF/88, art. 37)](#5-o-concurso-publico-como-instrumento-republicano-cf88-art-37)
-    1. [Teste 435](#Teste-435)
-    2. [Teste 436](#Teste-436)
-6. [Processo de Socialização e Integração Organizacional (*Onboarding*)](#6-processo-de-socializacao-e-integracao-organizacional-onboarding)
-    1. [Teste 437](#Teste-437)
-    2. [Teste 438](#Teste-438)
-    3. [Teste 439](#Teste-439)
+    - [Teste 435](#teste-435)
+    - [Teste 436](#teste-436)
+6. [Processo de Socialização e Integração Organizacional (Onboarding)](#6-processo-de-socializacao-e-integracao-organizacional-onboarding)
+    - [Teste 437](#teste-437)
+    - [Teste 438](#teste-438)
+    - [Teste 439](#teste-439)
 7. [Fontes Oficiais e Referências Bibliográficas](#7-fontes-oficiais-e-referencias-bibliograficas)
 
 ---
@@ -96,8 +96,6 @@ flowchart LR
     * Consideradas o ativo mais valioso e geradoras diretas de valor institucional;
     * Investimento prioritário da organização para a melhoria dos serviços públicos;
     * Estimuladas a inovar, assumir responsabilidade pelos resultados e compartilhar conhecimento.
-
----
 
 ---
 
@@ -216,8 +214,6 @@ Mesmo sob uma ótica estratégica, as rotinas operacionais de pessoal são indis
 5. **Assentamentos Individuais e Prontuário Funcional:**
     - Registro histórico de toda a vida funcional do servidor (designações, licenças, afastamentos, progressões, penalidades e elogios);
     - Averbação de tempo de contribuição prévio para fins de aposentadoria e disponibilidade.
-
----
 
 ---
 

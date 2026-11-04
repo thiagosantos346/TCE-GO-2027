@@ -244,7 +244,9 @@ def generate_report():
     )
 
     report_content = "".join(report)
-    out_report = os.path.join(DOCS_DIR, "relatorio_cobertura_questoes.md")
+    reports_dir = os.path.join(DOCS_DIR, "relatorios")
+    os.makedirs(reports_dir, exist_ok=True)
+    out_report = os.path.join(reports_dir, "relatorio_cobertura_questoes.md")
     with open(out_report, "w", encoding="utf-8") as f:
         f.write(report_content)
 

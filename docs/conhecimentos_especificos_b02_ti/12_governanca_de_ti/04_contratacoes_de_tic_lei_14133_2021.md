@@ -25,28 +25,27 @@
 ## 🧭 Sumário
 
 1. [Princípios e Diretrizes das Contratações de TIC na Lei nº 14.133/2021](#1-principios-e-diretrizes-das-contratacoes-de-tic-na-lei-no-141332021)
-1. [Alinhamento Estratégico e Planejamento Prévio (PDTI e PCA)](#1-1-alinhamento-estrategico-e-planejamento-previo-pdti-e-pca)
-    1. [Teste 495](#Teste-495)
-1. [Vedações Expressas e Jurisprudência dos Tribunais de Contas](#1-2-vedacoes-expressas-e-jurisprudencia-dos-tribunais-de-contas)
-    1. [Teste 496](#Teste-496)
+1. [1.1 Alinhamento Estratégico e Planejamento Prévio (PDTI e PCA)](#11-alinhamento-estrategico-e-planejamento-previo-pdti-e-pca)
+    - [Teste 495](#teste-495)
+2. [1.2 Vedações Expressas e Jurisprudência dos Tribunais de Contas](#12-vedacoes-expressas-e-jurisprudencia-dos-tribunais-de-contas)
+    - [Teste 496](#teste-496)
 2. [O Ciclo de Vida da Contratação e a Fase Preparatória](#2-o-ciclo-de-vida-da-contratacao-e-a-fase-preparatoria)
-2. [Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)](#2-1-artefatos-da-fase-de-planejamento-dod-etp-mapa-de-riscos-e-tr)
-    1. [Teste 497](#Teste-497)
-2. [Custo Total de Propriedade (TCO - Total Cost of Ownership)](#2-2-custo-total-de-propriedade-tco-total-cost-of-ownership)
-    1. [Teste 498](#Teste-498)
+3. [2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)](#21-artefatos-da-fase-de-planejamento-dod-etp-mapa-de-riscos-e-tr)
+    - [Teste 497](#teste-497)
+4. [2.2 Custo Total de Propriedade (TCO - Total Cost of Ownership)](#22-custo-total-de-propriedade-tco-total-cost-of-ownership)
+    - [Teste 498](#teste-498)
 3. [Fase de Seleção do Fornecedor em TIC](#3-fase-de-selecao-do-fornecedor-em-tic)
-3. [Modalidades de Licitação (Pregão, Concorrência e Diálogo Competitivo)](#3-1-modalidades-de-licitacao-pregao-concorrencia-e-dialogo-competitivo)
-    1. [Teste 499](#Teste-499)
-3. [Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)](#3-2-hipoteses-de-contratacao-direta-em-tic-inexigibilidade-vs-dispensa)
-    1. [Teste 500](#Teste-500)
+5. [3.1 Modalidades de Licitação (Pregão, Concorrência e Diálogo Competitivo)](#31-modalidades-de-licitacao-pregao-concorrencia-e-dialogo-competitivo)
+    - [Teste 499](#teste-499)
+    - [Teste 500](#teste-500)
 4. [Gestão e Fiscalização de Contratos de TIC](#4-gestao-e-fiscalizacao-de-contratos-de-tic)
-4. [Segregação de Papéis na Equipe de Fiscalização](#4-1-segregacao-de-papeis-na-equipe-de-fiscalizacao)
-    1. [Teste 501](#Teste-501)
-4. [Instrumento de Medição de Resultado (IMR), SLA e Glosas](#4-2-instrumento-de-medicao-de-resultado-imr-sla-e-glosas)
-    1. [Teste 502](#Teste-502)
-4. [Recebimento Provisório e Recebimento Definitivo](#4-3-recebimento-provisorio-e-recebimento-definitivo)
-    1. [Teste 503](#Teste-503)
-    2. [Teste 504](#Teste-504)
+6. [4.1 Segregação de Papéis na Equipe de Fiscalização](#41-segregacao-de-papeis-na-equipe-de-fiscalizacao)
+    - [Teste 501](#teste-501)
+7. [4.2 Instrumento de Medição de Resultado (IMR), SLA e Glosas](#42-instrumento-de-medicao-de-resultado-imr-sla-e-glosas)
+    - [Teste 502](#teste-502)
+8. [4.3 Recebimento Provisório e Recebimento Definitivo](#43-recebimento-provisorio-e-recebimento-definitivo)
+    - [Teste 503](#teste-503)
+    - [Teste 504](#teste-504)
 6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
@@ -460,8 +459,6 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 > - **E)** Incorreta. O recebimento provisório é mantido e expressamente regulamentado pela Lei nº 14.133/2021 para serviços e compras.
 > 
 > **Gabarito: B**
-
----
 
 ---
 
