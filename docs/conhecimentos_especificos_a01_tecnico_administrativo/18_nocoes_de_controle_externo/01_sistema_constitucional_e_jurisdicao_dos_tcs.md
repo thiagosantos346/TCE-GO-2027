@@ -146,32 +146,28 @@ Em um Tribunal de Contas Estadual havia sete conselheiros, sendo quatro nomeados
 > **Gabarito: E**
 
 ### Teste 166
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
-A NBASP 50 - Princípios de Atividades Jurisdicionais dos Tribunais de Contas desenvolve princípios fundamentais aplicáveis às Cortes que exercem função judicante sobre a responsabilidade de gestores. Considere as seguintes afirmativas:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo – Questão Real RAG ID: `V3_FGV_TCE_SC_2026_Q3130`)**  
+Em uma fiscalização programada, o controle externo do Tribunal de Contas constatou que determinado Município realizou despesas correntes sem a devida cobertura orçamentária e sem prévio empenho, além de descumprir os limites fiscais com despesa total com pessoal. A respeito das competências constitucionais de controle externo exercidas pelos Tribunais de Contas:
 
-I. O Tribunal de Contas deve ser dotado de garantias legais e institucionais que assegurem independência e autonomia a seus membros.  
-II. O exercício da competência sancionatória dos Tribunais de Contas deve respeitar o contraditório, a ampla defesa e o devido processo legal.  
-III. As decisões definitivas dos Tribunais de Contas que imputem débito ou multa possuem eficácia de título executivo judicial.  
-
-Está correto o que se afirma em:
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+* **A)** o Tribunal de Contas tem competência para anular diretamente os atos discricionários do Chefe do Poder Executivo municipal por motivo de conveniência política.
+* **B)** cabe ao Tribunal de Contas proceder à execução judicial das multas por ele próprio cominadas, atuando por meio de sua procuradoria jurídica.
+* **C)** o Tribunal de Contas, ao constatar a ilegalidade de despesa ou contrato, assinará prazo para que o órgão adote as providências necessárias ao exato cumprimento da lei.
+* **D)** a fiscalização contábil, financeira e orçamentária do município é exercida exclusivamente pelo Poder Judiciário mediante ação popular.
+* **E)** os Tribunais de Contas exercem função jurisdicional contenciosa com poder de trânsito em julgado material insuscetível de apreciação judicial.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O item II também está inteiramente correto nos termos da NBASP 50 e da CF/88.
-> - **B)** **Correto**. O item I expressa princípio basilar da Declaração de Lima, do art. 73 da CF/88 e da NBASP 50 (autonomia orgânica, funcional e independência dos membros com garantias de magistratura). O item II reproduz garantia elementar da processualística do controle externo e princípio jurisdicional da NBASP 50 (devido processo legal sancionatório com contraditório e ampla defesa). Já o item III está incorreto porque o art. 71, § 3º, da CF/88 confere às decisões condenatórias do Tribunal de Contas eficácia de "título executivo extrajudicial", e não título judicial.
-> - **C)** **Incorreto**. O item III padece de erro técnico grave (título extrajudicial).
-> - **D)** **Incorreto**. O item I é verdadeiro e o item III é falso.
-> - **E)** **Incorreto**. O item III inviabiliza a afirmativa global.
+> - **A) Incorreta.** O controle exercido pelo Tribunal de Contas é de legalidade, legitimidade e economicidade; não cabe ao Tribunal revogar ou anular mérito administrativo de ato discricionário por conveniência e oportunidade privativa do gestor.
+> - **B) Incorreta.** A execução das decisões do Tribunal de Contas que imputam débito ou multa (título executivo extrajudicial - art. 71, § 3º da CF) é promovida pela Procuradoria-Geral do Estado ou do Município perante o Poder Judiciário, e não diretamente pelo próprio Tribunal.
+> - **C) CORRETA.** Nos termos do art. 71, inciso IX da Constituição Federal (reproduzido nas Constituições Estaduais), compete ao Tribunal de Contas **assinar prazo para que o órgão ou entidade adote as providências necessárias ao exato cumprimento da lei, se verificada ilegalidade**.
+> - **D) Incorreta.** A fiscalização contábil e financeira é exercida pelo Poder Legislativo com o auxílio do Tribunal de Contas (controle externo) e pelos sistemas de controle interno (art. 70 e 71).
+> - **E) Incorreta.** As decisões dos Tribunais de Contas são de natureza administrativa; em virtude do princípio da inafastabilidade da jurisdição (art. 5º, XXXV da CF), seus atos podem ser objeto de controle judicial quanto à legalidade.
 >
-> **Gabarito: B**
+> **Gabarito: C**
+
+---
 
 ### Teste 167
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  

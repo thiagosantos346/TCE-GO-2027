@@ -179,29 +179,24 @@ flowchart TD
 ---
 
 ### Teste 262
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Estrutura Conceitual das Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP EC) estabelece as características qualitativas da informação contábil incluída nos Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs).
+**(FGV – TRT da 24ª Região – 2025 – Analista Judiciário – Contabilidade – Questão Real RAG ID: `V3_FGV_TRT_DA_24__REGI_O_2025_Q0901`)**  
+De acordo com a NBC TSP Estrutura Conceitual, os fenômenos econômicos e outros fenômenos representados na informação contábil dos relatórios contábeis de propósito geral das entidades do setor público (RCPGs) devem possuir determinadas características qualitativas para serem úteis aos usuários. São características qualitativas fundamentais da informação contábil no setor público:
 
-A característica qualitativa que permite aos usuários identificar semelhanças e diferenças entre itens e fenômenos econômicos, seja entre diferentes entidades do setor público, seja em relação à mesma entidade ao longo de períodos contábeis consecutivos, denomina-se:
-
-* **A)** Compreensibilidade.
-* **B)** Comparabilidade.
-* **C)** Tempestividade.
-* **D)** Representação fidedigna.
-* **E)** Verificabilidade.
-
+* **A)** Custo-benefício e tempestividade apenas.
+* **B)** Confiabilidade subjetiva e materialidade formal.
+* **C)** Conservadorismo estrito e liquidez imediata.
+* **D)** Historicidade e auditabilidade procedimental.
+* **E)** Relevância, representação fidedigna, compreensibilidade, tempestividade, comparabilidade e verificabilidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Compreensibilidade é a qualidade que possibilita a rápida compreensão do significado da informação contábil por usuários com conhecimento razoável.
-> - **B)** Correta. A Comparabilidade é definida textualmente na NBC TSP EC como a característica qualitativa que permite aos usuários identificar semelhanças e diferenças entre itens, cobrindo tanto a comparação temporal (mesma entidade ao longo de exercícios sucessivos) quanto a comparação espacial (entre diferentes órgãos e entidades públicas).
-> - **C)** Incorreta. Tempestividade refere-se à disponibilização da informação em tempo oportuno para influenciar julgamentos e decisões.
-> - **D)** Incorreta. Representação fidedigna significa retratar com completude, neutralidade e ausência de erro material a substância dos eventos econômicos.
-> - **E)** Incorreta. Verificabilidade é a qualidade que assegura que diferentes observadores independentes e capacitados cheguem a um consenso razoável sobre a informação apresentada.
-> 
-> **Gabarito: B**
+> - A NBC TSP Estrutura Conceitual (alinhada às IPSAS/IFAC) define as **características qualitativas** das informações contidas nos Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs).
+> - As características qualitativas são: **relevância, representação fidedigna, compreensibilidade, tempestividade, comparabilidade e verificabilidade**.
+> - O custo-benefício e o alcance dos objetivos dos RCPGs constituem restrições gerais à informação contábil, e não características em si.
+>
+> **Gabarito: E**
 
 ---
 

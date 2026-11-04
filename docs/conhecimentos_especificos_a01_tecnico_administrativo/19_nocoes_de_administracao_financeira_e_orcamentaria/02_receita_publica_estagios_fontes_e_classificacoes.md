@@ -173,78 +173,26 @@ A respeito das etapas e estágios da receita orçamentária e dos ingressos nos 
 ---
 
 ### Teste 222
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No tocante ao estágio da arrecadação e ao princípio da unidade de caixa na execução orçamentária das receitas públicas (art. 56 da Lei nº 4.320/1964), assinale a afirmativa correta:
+**(FGV – TRT/DA – 2025 – Analista Judiciário – Área Administrativa – Questão Real RAG ID: `V3_FGV_TRT_DA_2025_Q3516`)**  
+A Lei Orçamentária Anual deverá compreender todas as receitas do setor público, inclusive as de operações de crédito autorizadas em lei, em estrita observância ao princípio da universalidade e ao disposto na Lei nº 4.320/1964. Quanto à classificação das receitas públicas por categoria econômica, são consideradas receitas correntes e receitas de capital, respectivamente:
 
-* **A)** O recolhimento de todas as receitas far-se-á em estrita observância ao princípio de unidade de tesouraria, vedando-se a fragmentação de disponibilidades governamentais em contas bancárias descentralizadas sem autorização legal.
-* **B)** A arrecadação confunde-se juridicamente com o recolhimento, ocorrendo ambos simultaneamente quando o contribuinte entrega o valor à instituição bancária credenciada.
-* **C)** É facultado às autarquias manterem receitas públicas sob a guarda de cofres particulares, dispensando-se a transferência para a Conta Única do Tesouro.
-* **D)** As receitas vinculadas a fundos especiais não se sujeitam à unidade de caixa, devendo seus recursos permanecerem fora do sistema bancário oficial.
-* **E)** O recolhimento consiste no ato pelo qual os agentes arrecadadores entregam os recursos aos agentes fiscais para conferência manual antes do depósito no Tesouro.
-
+* **A)** Receita Tributária e Receita Patrimonial.
+* **B)** Operações de Crédito e Alienação de Bens.
+* **C)** Receita de Serviços e Amortização de Empréstimos.
+* **D)** Amortização de Empréstimos e Receita Agropecuária.
+* **E)** Transferências de Capital e Receita de Contribuições.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O art. 56 da Lei nº 4.320/1964 consagra o princípio da unidade de tesouraria (unidade de caixa): todas as receitas devem ser recolhidas à conta única do Tesouro, vedada a dispersão não autorizada por lei.
-> - **B)** Incorreta. Arrecadação é a entrega dos valores pelo contribuinte aos agentes arrecadadores (bancos); recolhimento é a transferência desses valores arrecadados para a Conta Única do Tesouro.
-> - **C)** Incorreta. É absolutamente vedada a custódia particular de dinheiros públicos.
-> - **D)** Incorreta. Os recursos de fundos especiais sujeitam-se à unidade de caixa, sendo geridos em subcontas vinculadas dentro da Conta Única.
-> - **E)** Incorreta. O recolhimento é a efetiva transferência bancária dos valores arrecadados para a Conta Única do Tesouro.
-> 
-> **Gabarito: A**
-
----
-
-## 3. Classificações da Receita Orçamentária (Lei nº 4.320/1964 e MCASP)
-
-A receita orçamentária é classificada segundo múltiplos critérios para fins de planejamento, controle contábil e divulgação de estatísticas fiscais.
-
-```mermaid
-flowchart TD
-    CatEcon["Classificação Econômica da Receita (Art. 11 da L. 4.320/64)"]
-    CatEcon --> RC["Código 1: RECEITAS CORRENTES<br/>Recursos que financiam os serviços públicos contínuos"]
-    CatEcon --> RK["Código 2: RECEITAS DE CAPITAL<br/>Recursos que alteram a dívida ou convertem ativos em moeda"]
-
-    RC --> RC_Orig["Origens das Receitas Correntes:<br/>• Tributária (Impostos, Taxas, Contribuições de Melhoria)<br/>• Contribuições (Sociais, Intervenção Econômica, COSIP)<br/>• Patrimonial (Aluguéis, concessões, foros e JUROS auferidos)<br/>• Agropecuária, Industrial e Serviços<br/>• Transferências Correntes (FPE, ICMS repassado, SUS)<br/>• Outras Receitas Correntes (Multas, indenizações e restituições)"]
-
-    RK --> RK_Orig["Origens das Receitas de Capital:<br/>• Operações de Crédito (Títulos, empréstimos bancários)<br/>• Alienação de Bens (Venda de bens móveis e imóveis)<br/>• Amortização de Empréstimos (Recebimento do PRINCIPAL)<br/>• Transferências de Capital (Convênios para obras e investimentos)<br/>• Outras Receitas de Capital (Integralização de estatais)"]
-```
-
-### 3.1 Classificação por Categoria Econômica: Receitas Correntes e de Capital
-1. **Receitas Correntes (Código 1):**  
-   Recursos financeiros que ingressam regularmente no erário e destinam-se ao custeio da máquina pública e à manutenção dos serviços públicos regulares prestados à sociedade. Em sua grande maioria, são **receitas efetivas** (aumentam a situação líquida patrimonial do Estado por constituírem variações patrimoniais aumentativas - VPA).
-2. **Receitas de Capital (Código 2):**  
-   Recursos financeiros provenientes da constituição de dívidas (operações de crédito), da conversão em moeda de bens e direitos (alienação de bens e amortização de empréstimos) ou de transferências de terceiros vinculadas à realização de investimentos. Em sua maioria, são **receitas não efetivas** (ou por mutação patrimonial), pois representam meras trocas compensatórias de elementos patrimoniais (ex.: entra dinheiro em caixa e diminui o valor de um imóvel na alienação, ou entra dinheiro e surge um passivo financeiro na operação de crédito) sem alteração imediata do patrimônio líquido.
-
-### 3.2 Distinção Crítica: Amortização de Empréstimos vs. Juros Recebidos
-Um dos temas mais recorrentes em provas da FCC é o tratamento contábil dos financiamentos concedidos pelo Estado a outros entes ou agentes econômicos:
-
-- **Recebimento do Principal (Devolução do Capital Emprestado):**  
-  Classifica-se como **Receita de Capital**, sob a origem **Amortização de Empréstimos**. O Estado detinha um direito a receber no Ativo Não Circulante que se converte em dinheiro de caixa (mutação ativa compensatória).
-- **Recebimento dos Juros e Encargos da Dívida:**  
-  Classifica-se como **Receita Corrente**, sob a origem **Receita Patrimonial**. Remunera o capital emprestado e constitui ganho patrimonial efetivo (VPA).
-
-### 3.3 Classificação por Esfera Orçamentária e por Fonte/Destinação de Recursos
-- **Por Esfera Orçamentária:** Identifica a qual dos três orçamentos integrados da LOA a receita pertence:
-    - Orçamento Fiscal (F);
-    - Orçamento da Seguridade Social (S);
-    - Orçamento de Investimento das Estatais (I).
-- **Por Fonte / Destinação de Recursos:** Mecanismo pelo qual se estabelece a vinculação entre a origem do ingresso e a sua aplicação final:
-    - **Recursos Ordinários (Livres):** Podem ser programados pelo Executivo para qualquer despesa discricionária regular;
-    - **Recursos Vinculados (Carimbados):** Possuem destinação legal ou constitucional obrigatória (ex.: Fundeb, percentuais mínimos de saúde e educação, convênios com repasses federais e emendas parlamentares impositivas). Conforme o art. 8º, parágrafo único da LRF, as disponibilidades de caixa dessas fontes mantêm sua vinculação ao longo dos exercícios, até a efetivação do seu objeto.
-
-### 3.4 Classificação por Natureza da Receita (Estrutura Codificada de 8 Dígitos)
-O MCASP (STN) padronizou a codificação da natureza da receita em nível nacional através de 8 dígitos alfanuméricos:
-
-$$\text{C . O . E . D1 . D2 . D3 . D4 . T}$$
-
-1. **1º dígito - Categoria Econômica:** (1 = Receita Corrente; 2 = Receita de Capital);
-2. **2º dígito - Origem:** Subdivisão das categorias econômicas (ex.: Tributária, Patrimonial, Alienação de Bens, etc.);
-3. **3º dígito - Espécie:** Nível que individualiza a receita (ex.: Impostos, Taxas, Amortizações);
-4. **4º ao 7º dígitos - Desdobramentos para Identificação de Peculiaridades e Alíquotas:** Detalham o fato gerador específico (ex.: ICMS, IPVA, Alienação de Imóveis);
-5. **8º dígito - Tipo da Receita:** Identifica se o valor arrecadado é o Principal (Tipo 1), Multas e Juros de Mora (Tipo 2), Dívida Ativa (Tipo 3), ou Multas e Juros da Dívida Ativa (Tipo 4).
+> - Segundo o art. 11 da Lei nº 4.320/1964 e o MCASP:
+>   - **Receitas Correntes:** Tributária, Contribuições, Patrimonial, Agropecuária, Industrial, Serviços, Transferências Correntes e Outras Receitas Correntes.
+>   - **Receitas de Capital:** Operações de Crédito, Alienação de Bens, Amortização de Empréstimos, Transferências de Capital e Outras Receitas de Capital.
+> - Analisando as alternativas:
+>   - Em **C**, a *Receita de Serviços* é **Receita Corrente**, e a *Amortização de Empréstimos* (retorno de principal de empréstimos anteriormente concedidos pelo Estado) é **Receita de Capital**.
+>
+> **Gabarito: C**
 
 ---
 

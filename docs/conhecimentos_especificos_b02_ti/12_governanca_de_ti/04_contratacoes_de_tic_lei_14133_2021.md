@@ -280,41 +280,28 @@ flowchart TD
 ---
 
 ### Teste 499
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Determinada Secretaria Estadual de Fazenda identificou a necessidade premente de modernizar seu ecossistema de detecção de fraudes fiscais complexas por meio de inteligência artificial generativa de ponta. No entanto, após realizar estudos iniciais, a equipe técnica concluiu que a Administração não possui conhecimento suficiente para redigir as especificações técnicas definitivas da solução, necessitando dialogar amplamente com o mercado tecnológico para avaliar os modelos algorítmicos, custos e arquiteturas disponíveis antes de receber as propostas finais. Nos termos estritos da Lei nº 14.133/2021, a modalidade de licitação cabível para esse cenário é o:  
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo – TI – Questão Real RAG ID: `V3_FGV_TCE_SC_2026_Q3274`)**  
+Em uma auditoria governamental de um contrato de licenciamento de software e suporte técnico celebrado por prazo determinado sob a égide da Lei nº 14.133/2021, o Auditor fiscaliza a aplicação de sanções devido ao descumprimento reiterado e injustificado dos níveis mínimos de serviço estabelecidos no Termo de Referência.  
 
-* **A)** Pregão Presencial.
-* **B)** Diálogo Competitivo.
-* **C)** Concurso Artístico.
-* **D)** Leilão Eletrônico.
-* **E)** Credenciamento Automático.
+Nesse contexto, para a aplicação das sanções de impedimento de licitar e declaração de inidoneidade, a NLLC estabelece que:
 
+* **A)** a aplicação prescinde de processo administrativo formal se houver cláusula de rescisão expressa no contrato.
+* **B)** o prazo de defesa prévia concedido ao contratado inadimplente é de 5 (cinco) dias úteis.
+* **C)** a competência para aplicar a declaração de inidoneidade é delegável a qualquer comissão de fiscalização setorial.
+* **D)** o processo de responsabilização deve ser conduzido por comissão composta por dois ou mais servidores estáveis, com prazo de defesa de quinze dias úteis.
+* **E)** a penalidade de inidoneidade produz efeitos restritos unicamente à esfera interna do órgão contratante.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O pregão presencial é exceção na Lei nº 14.133/2021 (a regra é a forma eletrônica) e é restrito a bens e serviços comuns, sendo inviável para situações em que a administração sequer consegue especificar o objeto sem diálogo prévio com o mercado.
-> - **B)** **Correta.** O Diálogo Competitivo (Art. 32 da Lei nº 14.133/2021) foi introduzido exatamente para contratações que envolvem inovação tecnológica ou técnica, impossibilidade de a administração definir com precisão suficiente as especificações técnicas da solução, ou necessidade de definir a melhor modelagem da contratação através de diálogo prévio com licitantes previamente selecionados.
-> - **C)** Incorreta. O Concurso destina-se à escolha de trabalho técnico, científico ou artístico para concessão de prêmio ou remuneração.
-> - **D)** Incorreta. O Leilão é modalidade destinada à alienação (venda) de bens públicos.
-> - **E)** Incorreta. Credenciamento é um procedimento auxiliar de contratação direta, e não uma modalidade licitatória competitiva para desenvolvimento de soluções tecnológicas complexas.
-> 
-> **Gabarito: B**
-
----
-
-## 3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)
-
-| Dimensão | Inexigibilidade de Licitação (Art. 74) | Dispensa de Licitação (Art. 75) |
-| :--- | :--- | :--- |
-| **Fundamento Jurídico** | **Inviabilidade jurídica de competição** (não há como estabelecer julgamento objetivo entre competidores). | A competição é juridicamente possível, mas a lei autoriza a não licitar por razões de economia processual, celeridade ou emergência. |
-| **Hipótese 1 em TIC** | **Fornecedor Exclusivo (Art. 74, I):** Aquisição de software ou hardware exclusivo, comprovada por atestado idôneo do fabricante ou sindicato de classe. | **Baixo Valor (Art. 75, I e II):** Compras e serviços comuns de TIC de pequeno vulto (valores monetários atualizados anualmente por decreto). |
-| **Hipótese 2 em TIC** | **Serviços Técnicos Especializados de Natureza Predominantemente Intelectual (Art. 74, III):** Profissionais ou empresas de notória especialização para auditoria de segurança crítica, perícias forenses complexas ou consultoria arquitetural avançada. | **Emergência ou Calamidade Pública (Art. 75, VIII):** Restabelecimento imediato de sistemas vitais após sinistros graves ou ataques cibernéticos massivos, restrito ao prazo necessário. |
-| **Hipótese 3 em TIC** | — | **Contratação de Órgão Público de TIC (Art. 75, IX):** Contratação de empresas públicas de processamento de dados (SERPRO, DATAPREV, ATI estadual) para serviços criados para esse fim, com preço compatível de mercado. |
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A contratação de empresa por Notória Especialização com base em Inexigibilidade (Art. 74, III) **não pode** ser usada para suporte rotineiro de informática ou help-desk! Ela exige cumulativamente: 1) Natureza predominantemente intelectual; 2) Notória especialização do prestador; e 3) Singularidade do serviço.
+> - **A) Incorreta.** O devido processo legal e contraditório é garantia constitucional e legal obrigatória (art. 158).
+> - **B) Incorreta.** Para advertência e multa o prazo é de 15 dias úteis (art. 157); para impedimento e inidoneidade, o prazo de defesa também é de 15 dias úteis (art. 158).
+> - **C) Incorreta.** A declaração de inidoneidade é competência exclusiva e indelegável do Ministro de Estado ou Secretário Estadual/Municipal (art. 156, § 6º).
+> - **D) CORRETA.** O art. 158 da Lei nº 14.133/2021 exige expressamente que a instauração de processo de responsabilização para as penalidades mais graves (impedimento de licitar e declaração de inidoneidade) seja conduzida por **comissão de no mínimo dois servidores estáveis**, avaliando fatos com **prazo de 15 dias úteis** para defesa do contratado.
+> - **E) Incorreta.** A declaração de inidoneidade impede o sancionado de licitar ou contratar perante a Administração Pública de todos os entes federados (âmbito nacional).
+>
+> **Gabarito: D**
 
 ---
 

@@ -136,26 +136,25 @@ No planejamento de uma auditoria governamental de acordo com as normas da NBASP 
 > **Gabarito: B**
 
 ### Teste 188
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Acerca do modelo conceitual de risco de auditoria ($Risco = RI \times RC \times RD$) e da avaliação dos controles internos preconizada pela NBASP 200 / NBASP 100, é correto afirmar:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo – Questão Real RAG ID: `V3_FGV_TCE_SC_2026_Q3147`)**  
+Ao executar uma auditoria de conformidade em obras de infraestrutura rodoviária, uma equipe de auditores de controle externo do Tribunal de Contas evidenciou graves irregularidades na medição de serviços de pavimentação, com sobrepreço e pagamento de serviços não executados. Segundo as normas de auditoria governamental (NBASP/ISSAI), para fundamentar a elaboração do relatório técnico e a proposta de encaminhamento, as evidências de auditoria devem ser:
 
-* **A)** O risco de detecção é independente da atuação dos auditores, dependendo exclusivamente da estrutura do órgão auditado.
-* **B)** A constatação de elevado risco de controle autoriza a equipe a reduzir o tamanho da amostra e os testes substantivos.
-* **C)** O risco de detecção refere-se aos procedimentos executados pelo auditor para reduzir o risco a um nível aceitável.
-* **D)** O risco de auditoria refere-se à possibilidade de a administração auditada não implementar as determinações do acórdão do Plenário.
-* **E)** O risco inerente decorre da incapacidade dos controles internos da entidade de prevenir fraudes de forma tempestiva.
+* **A)** baseadas exclusivamente em impressões subjetivas dos auditores, sem necessidade de suporte documental.
+* **B)** colhidas apenas se houver concordância prévia do gestor responsável pela obra.
+* **C)** restritas a depoimentos orais prestados pelos funcionários da empresa contratada.
+* **D)** suficientes, apropriadas, relevantes e confiáveis, de modo a permitir que qualquer profissional chegue à mesma conclusão.
+* **E)** presumidas como verdadeiras em decorrência do princípio da presunção absoluta de veracidade dos atos de fiscalização.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O risco de detecção é o único componente diretamente controlado pelo auditor, decorrendo da eficácia de seus procedimentos.
-> - **B)** **Incorreto**. Se o risco de controle for elevado, o auditor deve aplicar testes substantivos mais extensos (amostras maiores) para compensar.
-> - **C)** **Correto**. Conforme a NBASP 200 / NBC TA 200: Risco de Detecção (RD) é o risco de que os procedimentos executados pelo auditor para reduzir o risco de auditoria a um nível aceitavelmente baixo não detectem uma distorção que exista e que possa ser relevante, individualmente ou em conjunto com outras distorções.
-> - **D)** **Incorreto**. Risco de auditoria é o risco de o auditor expressar uma opinião inadequada quando as informações contiverem distorção relevante.
-> - **E)** **Incorreto**. A incapacidade do controle interno de prevenir/detectar erro é a definição exata de Risco de Controle (RC), não inerente.
+> - **A), B), C) e E) Incorretas.** Evidências em auditoria não se sustentam em juízos subjetivos, exigem rigor metodológico, independência em relação ao gestor auditado e suporte em provas materiais confiáveis.
+> - **D) CORRETA.** De acordo com as Normas Brasileiras de Auditoria do Setor Público (NBASP / ISSAI 100 e 3000), os auditores devem obter **evidência de auditoria suficiente (quantidade) e apropriada (qualidade, relevância e confiabilidade)** para fundamentar suas conclusões e achados de auditoria de forma sólida e irrefutável.
 >
-> **Gabarito: C**
+> **Gabarito: D**
+
+---
 
 ### Teste 189
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  

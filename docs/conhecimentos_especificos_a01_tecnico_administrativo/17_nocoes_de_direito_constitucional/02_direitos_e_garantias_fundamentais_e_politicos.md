@@ -170,27 +170,28 @@ Está correto o que se afirma APENAS em:
 > **Gabarito: E**
 
 ### Teste 122
-**(FGV – TRT – Analista Judiciário - Suporte e Infraestrutura de TI – 2022)**  
-Joana, jovem e renomada escritora de livros infantis, faleceu. O mais velho dos seus herdeiros, com 18 anos de idade, preocupado com a situação dos livros, que geravam uma elevada renda para Joana, questionou um advogado a respeito da proteção constitucional oferecida a direitos dessa natureza.  
-O advogado respondeu corretamente que aos autores pertence o direito exclusivo de utilização, publicação ou reprodução de suas obras, transmissível aos herdeiros:
+**(FGV – TJ/SC – 2026 – Analista Administrativo – Questão Real RAG ID: `V3_FGV_TJ_SC_2026_Q0027`)**  
+No ordenamento jurídico brasileiro, a proteção dos direitos fundamentais decorre tanto das normas constitucionais originárias quanto da incorporação de tratados internacionais sobre direitos humanos. A respeito da eficácia, aplicação e regime constitucional dos direitos e garantias fundamentais:
 
-* **A)** de modo exclusivo e em caráter perpétuo, aos herdeiros.
-* **B)** de modo exclusivo e pelo tempo que a lei fixar, aos herdeiros.
-* **C)** ao poder público, não aos herdeiros, com participação financeira.
-* **D)** ao público em geral, não aos herdeiros, mantida participação.
-* **E)** aos herdeiros e ao poder público conjuntamente, rateando os lucros.
+* **A)** as normas definidoras dos direitos e garantias fundamentais têm aplicação mediata, dependendo sempre de regulamentação legal para produzir efeitos concretos.
+* **B)** os tratados internacionais sobre direitos humanos aprovados em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos, equivalem a leis ordinárias federais.
+* **C)** o mandado de segurança coletivo somente pode ser impetrado por partido político sem representação no Congresso Nacional.
+* **D)** os direitos e garantias expressos na Constituição não excluem outros decorrentes do regime e dos princípios por ela adotados, ou dos tratados internacionais em que o Brasil seja parte.
+* **E)** é vedada a concessão de habeas data para assegurar o conhecimento de informações relativas à pessoa do impetrante constantes de registros públicos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A transmissibilidade aos herdeiros não se dá em caráter perpétuo, mas temporário, adstrita ao prazo fixado na legislação ordinária.
-> - **B)** **Correto**. Nos exatos termos do art. 5º, XXVII, da Constituição Federal: "aos autores pertence o direito exclusivo de utilização, publicação ou reprodução de suas obras, transmissível aos herdeiros pelo tempo que a lei fixar". A Lei nº 9.610/1998 (Lei de Direitos Autorais) estabelece, em regra, a duração de 70 anos contados de 1º de janeiro do ano subsequente ao falecimento do autor.
-> - **C)** **Incorreto**. Os direitos patrimoniais transmitem-se aos sucessores legítimos do autor, não ao poder público.
-> - **D)** **Incorreto**. A obra somente cai em domínio público após o transcurso do lapso legal de proteção post mortem.
-> - **E)** **Incorreto**. Não há cotitularidade forçada ou rateio de direitos autorais com o poder público.
+> - **A) Incorreta.** O art. 5º, § 1º da CF/88 preceitua taxativamente que as normas definidoras dos direitos e garantias fundamentais têm **aplicação imediata**.
+> - **B) Incorreta.** Nos termos do art. 5º, § 3º da CF/88 (incluído pela EC 45/2004), os tratados de direitos humanos aprovados pelo rito especial (2 turnos, 3/5 dos votos) são **equivalentes às emendas constitucionais**.
+> - **C) Incorreta.** O mandado de segurança coletivo pode ser impetrado por partido político **com representação no Congresso Nacional**, além de organização sindical e entidades de classe (art. 5º, LXX).
+> - **D) CORRETA.** O art. 5º, § 2º da Constituição da República consagra o princípio da **não taxatividade (rol aberto) dos direitos fundamentais**, dispondo que os direitos e garantias expressos na CF *"não excluem outros decorrentes do regime e dos princípios por ela adotados, ou dos tratados internacionais em que a República Federativa do Brasil seja parte"*.
+> - **E) Incorreta.** O *habeas data* destina-se expressamente a assegurar o conhecimento de informações relativas à pessoa do impetrante (art. 5º, LXXII, "a").
 >
-> **Gabarito: B**
+> **Gabarito: D**
+
+---
 
 ### Teste 123
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  

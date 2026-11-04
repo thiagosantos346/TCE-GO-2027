@@ -255,70 +255,23 @@ flowchart LR
 ---
 
 ### Teste 432
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Uma entidade pública estadual necessita preencher posições funcionais de gestão interna. Ao optar prioritariamente pelo recrutamento interno em detrimento do recrutamento externo, a organização colhe benefícios relevantes, porém sujeita-se a uma vulnerabilidade conceitual frequentemente apontada pela literatura, consubstanciada na:
+**(FGV – TJ/SC – 2026 – Analista Administrativo – Questão Real RAG ID: `V3_FGV_TJ_SC_2026_Q0044`)**  
+A respeito dos processos de agregação de pessoas e das estratégias de recrutamento interno e recrutamento externo em organizações contemporâneas:
 
-* **A)** morosidade excessiva para disponibilizar o profissional e elevadíssimo dispêndio orçamentário com editais públicos e bancas examinadoras.
-* **B)** desmotivação crônica dos profissionais da casa, que visualizam o processo como um obstáculo intransponível à sua própria ascensão profissional.
-* **C)** ocorrência do fenômeno da endogamia cultural (*inbreeding*), marcada pela recirculação contínua dos mesmos vícios, soluções e práticas preexistentes, com bloqueio à inovação.
-* **D)** exigência legal obrigatória de reabertura imediata de concurso público para a investidura nas atribuições funcionais correlatas.
-* **E)** incapacidade operacional de avaliar previamente as competências comportamentais dos candidatos que já compõem o quadro institucional.
-
+* **A)** o recrutamento interno desmotiva os colaboradores atuais e gera custos financeiros mais elevados que a atração externa.
+* **B)** o recrutamento externo introduz "sangue novo" e novos talentos e experiências na organização, mas tende a ser mais demorado e oneroso que o interno.
+* **C)** o recrutamento interno exige ampla divulgação em jornais e mídias sociais externas para ter validade.
+* **D)** a seleção de pessoas é um processo positivo de atração em massa que visa convocar o maior número possível de candidatos.
+* **E)** os concursos públicos são instrumentos de recrutamento interno exclusivo para servidores de cargos em comissão.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O recrutamento interno destaca-se exatamente por ser **ágil e econômico**, não demandando editais caros nem contratação de bancas examinadoras externas.  
-> - **B) Incorreta.** O recrutamento interno **eleva a motivação** dos colaboradores internos, pois oferece perspectivas concretas de carreira e reconhecimento funcional.  
-> - **C) CORRETA.** A clássica desvantagem técnica do recrutamento exclusivamente interno é a **endogamia cultural (*inbreeding*)**: como a organização se alimenta apenas de seus próprios membros, há o risco de reproduzir continuadamente as mesmas ideias, manter velhos vícios e blindar a instituição contra visões renovadas e saberes trazidos pelo ambiente externo.  
-> - **D) Incorreta.** Funções de chefia interna e cargos de confiança privativos de servidores de carreira são preenchidos por designação/ato interno discricionário, sem necessidade de novo concurso público para cada relotação.  
-> - **E) Incorreta.** No recrutamento interno, a organização já conhece o histórico de desempenho e o perfil comportamental dos candidatos, o que constitui uma das principais vantagens do processo.  
-> 
-> **Gabarito: C**
-
----
-
-
-#### Seleção de Pessoas: O Modelo de Comparação e Decisão
-
-Enquanto o recrutamento visa atrair o maior número possível de candidatos qualificados (processo positivo), a **seleção de pessoas é um processo de triagem, restrição e escolha (processo negativo ou de afunilamento)**.
-
-* **A Seleção como Comparação:** confronta os requisitos exigidos pelo cargo (*Job Description* / perfil de competências) com o perfil de competências oferecido pelos candidatos (*Job Profile*).
-* **A Seleção como Decisão:** escolha técnica fundamentada em critérios objetivos para preenchimento da vaga.
-
-```mermaid
-flowchart TD
-    RC["Requisitos do Cargo<br/>(Conhecimentos, Habilidades e Atitudes)"] --- COMP["COMPARAÇÃO E TRIAGEM"]
-    PC["Perfil dos Candidatos<br/>(Qualificações, Provas e Títulos)"] --- COMP
-    COMP --> DEC["DECISÃO E CLASSIFICAÇÃO<br/>(Aprovação dos mais capacitados)"]
-```
-
-#### Técnicas de Seleção de Pessoas
-
-1. **Provas de Conhecimentos ou de Capacidade:**
-    - Avaliam o nível de conhecimento teórico e prático exigido para a função;
-    - Podem ser objetivas (múltipla escolha, verdadeiro/falso) ou discursivas (estudo de caso, redação técnica);
-    - Constituem o núcleo central do concurso público brasileiro.
-
-2. **Entrevistas de Seleção:**
-    - **Não estruturadas:** livres, sem roteiro prévio (baixa confiabilidade);
-    - **Estruturadas / Padronizadas:** roteiro rígido de perguntas iguais para todos os candidatos (alta comparabilidade);
-    - **Entrevista Comportamental com Foco em Competências (Técnica STAR):** busca evidências de comportamentos passados para prever desempenhos futuros:
-    - **S** (*Situação*): contexto fático enfrentado pelo candidato;
-    - **T** (*Tarefa*): responsabilidade ou desafio que cabia a ele resolver;
-    - **A** (*Ação*): atitudes e procedimentos concretos adotados pelo profissional;
-    - **R** (*Resultado*): impactos qualitativos e quantitativos alcançados.
-
-3. **Testes Psicológicos e de Aptidão:**
-    - **Testes Psicométricos:** mensuram aptidões intelectuais, raciocínio lógico, atenção concentrada e memória;
-    - **Testes de Personalidade:** avaliam traços de caráter, temperamento, equilíbrio emocional e maturidade (ex.: testes projetivos e expressivos, devidamente validados pelo Conselho Federal de Psicologia).
-
-4. **Técnicas Vivenciais / Dinâmicas de Grupo:**
-    - Simulação de situações reais de trabalho, dramatizações (*role-playing*) e jogos de negócios para observar liderança, trabalho em equipe e comunicação interpessoal.
-
-5. **Avaliação de Títulos:**
-    - Pontuação objetiva de títulos acadêmicos (especialização, mestrado, doutorado) e experiência profissional prévia. *No setor público, a avaliação de títulos tem caráter estritamente classificatório, nunca eliminatório (CF/88, art. 37, II).*
+> - **Recrutamento Interno:** Atua sobre candidatos reais já empregados na organização (promoção, transferência). Vantagens: mais rápido, mais econômico, motiva e valoriza o quadro interno. Desvantagens: pode gerar acomodação (*inbreeding*) e conflitos de interesse.
+> - **Recrutamento Externo:** Atua sobre candidatos disponíveis ou empregados em outras organizações. Vantagens: traz sangue novo, novas perspectivas e competências atualizadas. Desvantagens: custo mais elevado, maior tempo de processamento e período de adaptação e integração cultural.
+>
+> **Gabarito: B**
 
 ---
 

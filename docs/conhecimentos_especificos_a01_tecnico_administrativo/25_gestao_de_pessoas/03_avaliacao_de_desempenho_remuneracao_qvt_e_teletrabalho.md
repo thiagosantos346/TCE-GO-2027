@@ -191,27 +191,28 @@ flowchart LR
 ---
 
 ### Teste 452
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Um diretor de fiscalização do Tribunal de Contas realizou a avaliação anual de desempenho de um técnico administrativo recém-lotado em sua gerência. Ao analisar a pontualidade impecável e a cortesia no atendimento demonstradas pelo servidor no dia a dia, o diretor atribuiu pontuação máxima em todos os itens da avaliação, inclusive naqueles relativos a domínio técnico avançado de auditoria de obras e redação de relatórios complexos, competências que sequer haviam sido desempenhadas ou verificadas no período. A falha cognitiva que maculou o procedimento avaliativo configura o denominado:
+**(FGV – TJ/SC – 2026 – Analista Administrativo – Questão Real RAG ID: `V3_FGV_TJ_SC_2026_Q0045`)**  
+A área de Gestão Estratégica de Pessoas implementou um sistema moderno de Avaliação de Desempenho 360 Graus (ou *feedback circular*). Nesse método avaliativo:
 
-* **A)** Erro de tendência central.
-* **B)** Efeito Halo.
-* **C)** Erro de rigor excessivo.
-* **D)** Viés de recência funcional.
-* **E)** Falso consenso heurístico.
-
+* **A)** o colaborador é avaliado exclusivamente pelo seu superior imediato de forma sigilosa.
+* **B)** a avaliação ocorre sem conhecimento ou devolutiva (*feedback*) para o empregado avaliado.
+* **C)** o desempenho é mensurado apenas por indicadores contábeis de faturamento da empresa.
+* **D)** a avaliação restringe-se aos subordinados avaliarem seus respectivos diretores executivos.
+* **E)** o avaliado recebe retornos de múltiplos atores que com ele interagem: superior imediato, pares/colegas de trabalho, subordinados, clientes e autoavaliação.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O erro de tendência central ocorre quando o avaliador evita notas extremas e coloca todos os subordinados na nota média intermediária.  
-> - **B) CORRETA.** O **Efeito Halo (*Halo Effect*)** é a distorção perceptiva na qual o avaliador permite que uma impressão positiva isolada a respeito de uma característica específica (neste caso, a pontualidade e simpatia) irradie e contamine favoravelmente o julgamento de todas as demais dimensões de competência técnica do avaliado, atribuindo-lhe notas excelentes em itens que sequer foram testados.  
-> - **C) Incorreta.** O rigor excessivo é a conduta implacável de conceder notas rebaixadas para praticamente toda a equipe.  
-> - **D) Incorreta.** O viés de recência refere-se à supervalorização de episódios temporais recentes (últimos dias do ciclo), esquecendo o restante do período.  
-> - **E) Incorreta.** O falso consenso é a presunção equivocada de que os outros indivíduos compartilham dos mesmos julgamentos e crenças do avaliador.  
-> 
-> **Gabarito: B**
+> - Na **Avaliação 360 Graus (ou Feedback Circular / Multivisão)**, o desempenho do indivíduo é avaliado de modo abrangente por todas as pessoas ao seu redor que mantêm contato e interação com o seu trabalho:
+>   1. O superior hierárquico imediato;
+>   2. Os pares e colegas da mesma equipe;
+>   3. Os subordinados diretos;
+>   4. Clientes internos e externos (quando aplicável);
+>   5. A própria autoavaliação do profissional.
+> - Esse método propicia visão holística e minimiza vieses de favorecimento ou perseguição pessoal.
+>
+> **Gabarito: E**
 
 ---
 

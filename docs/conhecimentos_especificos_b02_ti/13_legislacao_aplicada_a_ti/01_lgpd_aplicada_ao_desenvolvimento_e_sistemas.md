@@ -132,66 +132,26 @@ III. Ativar, por padrão, em todos os novos formulários públicos web, caixas d
 ---
 
 ### Teste 516
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** No contexto da Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018), a definição dos papéis dos agentes de tratamento e do encarregado é essencial para estabelecer responsabilidades jurídicas e arquiteturais em sistemas informatizados. Acerca do Controlador, do Operador e do Encarregado (DPO), assinale a afirmativa correta:  
+**(FGV – TJ/AP – 2023 – Analista Judiciário – TI – Questão Real RAG ID: `V3_FGV_TJ_AP_2023_Q0552`)**  
+De acordo com a Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018), a manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada denomina-se:
 
-* **A)** O Controlador é a pessoa natural ou jurídica responsável por executar o tratamento estritamente sob as ordens do Operador, sem qualquer poder deliberativo sobre a finalidade dos dados.
-* **B)** O Operador decide monocraticamente as bases legais e as finalidades institucionais do tratamento, atuando como o titular patrimonial dos dados.
-* **C)** O Encarregado (DPO) tem a responsabilidade exclusiva de indenizar os titulares em caso de vazamento ilícito de dados perpetrado por hackers.
-* **D)** O Controlador compete as decisões referentes ao tratamento de dados pessoais; o Operador realiza o tratamento em nome do controlador e segundo suas diretrizes; e o Encarregado atua como canal de comunicação entre o controlador, os titulares dos dados e a ANPD.
-* **E)** O papel de Encarregado pelo tratamento de dados pessoais só pode ser desempenhado por servidores públicos federais da carreira policial, vedada a indicação de terceirizados ou pessoas jurídicas.
-
+* **A)** anonimização.
+* **B)** bloqueio.
+* **C)** consentimento.
+* **D)** eliminação.
+* **E)** uso compartilhado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Controlador é quem toma as decisões sobre o tratamento (finalidades e meios essenciais); o Operador é quem executa as ordens.
-> - **B)** Incorreta. O Operador apenas processa os dados em nome do Controlador e conforme suas instruções contratuais.
-> - **C)** Incorreta. A responsabilidade civil de indenização recai sobre os agentes de tratamento (Controlador e Operador), não pessoalmente sobre o DPO no exercício regular de suas funções orientadoras.
-> - **D)** **Correta.** Definição literal da LGPD (Art. 5º, incisos VI, VII e VIII): Controlador: a quem competem as decisões; Operador: quem realiza o tratamento em nome do controlador; Encarregado: pessoa indicada para atuar como canal de comunicação entre controlador, titulares e ANPD.
-> - **E)** Incorreta. O DPO pode ser pessoa natural ou jurídica, integrante do quadro próprio ou contratado externo (*DPO as a Service*).
-> 
-> **Gabarito: D**
-
----
-
-## 2. Princípios do Art. 6º sob a Ótica da Arquitetura e Engenharia de Software
-
-O Art. 6º da LGPD elenca dez princípios fundamentais que regem as atividades de tratamento. Para desenvolvedores, arquitetos e DBAs, esses princípios se traduzem em requisitos não funcionais diretos:
-
-1. **Finalidade:** Realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível.
-    - *Impacto em TI:* Cada campo persistido na tabela do banco de dados deve ter uma justificativa funcional rastreável. Não é permitido criar rotinas de coleta de dados genéricos sob a premissa de "podemos precisar disso no futuro".
-
-2. **Adequação:** Compatibilidade do tratamento com as finalidades informadas ao titular.
-    - *Impacto em TI:* Se o cadastro foi feito para emissão de certidão negativa de débitos fiscais, o sistema não pode enviar newsletters promocionais ou compartilhar dados com empresas privadas sem base legal.
-
-3. **Necessidade (Minimização de Dados):** Limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos.
-    - *Impacto em TI:* Se uma API precisa apenas validar a maioridade do usuário, ela deve receber um booleano `maior_de_idade: true/false` ou a idade calculada, e não o RG completo, filiação e certidão de nascimento digitalizada.
-
-4. **Livre Acesso:** Garantia aos titulares de consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais.
-    - *Impacto em TI:* Criação de painéis de autoatendimento (*self-service privacy portals*) e endpoints de leitura de perfil.
-
-5. **Qualidade dos Dados:** Garantia de exatidão, clareza, relevância e atualização dos dados.
-    - *Impacto em TI:* Implementação de rotinas de validação de esquemas (JSON Schema, constraints de integridade), deduplicação de registros e mecanismos para retificação de dados incorretos pelo próprio titular.
-
-6. **Transparência:** Garantia de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento.
-    - *Impacto em TI:* Políticas de privacidade com redação clara em microcopy nos formulários, registros de consentimento (*consent logs*) e termos versionados.
-
-7. **Segurança:** Utilização de medidas técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas.
-    - *Impacto em TI:* Criptografia de dados em trânsito (TLS 1.3) e em repouso (AES-256 com chaves gerenciadas por HSM/KMS), RBAC/ABAC, mTLS em microserviços e proteção contra injeções (OWASP Top 10).
-
-8. **Prevenção:** Adoção de medidas prévias para evitar a ocorrência de danos em virtude do tratamento de dados pessoais.
-    - *Impacto em TI:* Auditorias contínuas de código (SAST/DAST), modelagem de ameaças e esteiras DevSecOps com bloqueio de deploy em caso de vazamento de segredos em repositórios.
-
-9. **Não Discriminação:** Impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos.
-    - *Impacto em TI:* Validação ética e técnica de modelos de Machine Learning para evitar viés algorítmico (*bias*) em sistemas de concessão de créditos tributários ou triagens fiscais.
-
-10. **Responsabilização e Prestação de Contas (Accountability):** Demonstração da eficácia das medidas adotadas pelo agente.
-    - *Impacto em TI:* Trilhas de auditoria imutáveis (*audit trails* / logs assinados digitalmente), relatórios de impacto à proteção de dados (RIPD/DPIA) e documentação de arquitetura de dados.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> No setor público (Art. 23), para desempenhar competências legais e executar políticas públicas, **não se exige consentimento** do titular. A FCC adora afirmar que órgãos de fiscalização precisam de autorização do cidadão auditado para processar seus dados cadastrais. **ERRADO!** O tratamento funda-se no cumprimento de obrigação legal (Art. 7º, II) e exercício regular de direitos (Art. 7º, VI).
+> - **A) Incorreta.** Anonimização é a utilização de meios técnicos razoáveis pelos quais um dado perde a possibilidade de associação a um indivíduo (art. 5º, XI).
+> - **B) Incorreta.** Bloqueio é a suspensão temporária de qualquer operação de tratamento (art. 5º, XIII).
+> - **C) CORRETA.** O art. 5º, inciso XII da LGPD define textualmente **consentimento** como: *"manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada"*.
+> - **D) Incorreta.** Eliminação é a exclusão de dado ou de conjunto de dados armazenados em banco de dados (art. 5º, XIV).
+> - **E) Incorreta.** Uso compartilhado é a comunicação, difusão, transferência internacional ou interconexão de dados entre órgãos públicos e privados (art. 5º, XVI).
+>
+> **Gabarito: C**
 
 ---
 
@@ -257,38 +217,26 @@ flowchart LR
 ---
 
 ### Teste 518
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Durante o desenvolvimento de um aplicativo mobile para consulta de processos pelos cidadãos, o time de engenharia de software decide implementar as diretrizes de *Privacy by Design* formuladas por Ann Cavoukian. Ao tratar do princípio da "Funcionalidade Total" (*Full Functionality: Positive-Sum, not Zero-Sum*), a equipe deve adotar como premissa:  
+**(FGV – TJ/RR – 2024 – Analista Judiciário – TI – Questão Real RAG ID: `V3_FGV_TJ_RR_2024_Q1260`)**  
+No contexto da Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018), os agentes de tratamento e os atores envolvidos na governança de dados pessoais exercem papéis legalmente distintos. A respeito desses papéis, é correto afirmar que:
 
-* **A)** A privacidade dos titulares de dados deve ser sacrificada sempre que houver necessidade de aumentar o desempenho e a vazão de requisições por segundo na API do Tribunal considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **B)** A segurança da informação e a privacidade dos dados pessoais devem ser acomodadas sem concessões mútuas, demonstrando que é perfeitamente viável atingir alto nível de proteção à privacidade juntamente com excelente desempenho e integridade funcional.
-* **C)** O desenvolvimento deve adotar uma abordagem de jogo de soma zero, na qual a comodidade do usuário e a proteção de dados são objetivos necessariamente excludentes.
-* **D)** As funcionalidades voltadas à segurança criptográfica devem ser desabilitadas em horários de pico operacional para garantir a responsividade da interface gráfica.
-* **E)** Os princípios de privacidade devem ser implementados exclusivamente após a homologação final do software em ambiente de produção.
-
+* **A)** o Operador é a pessoa física ou jurídica que toma as decisões essenciais referentes ao tratamento de dados pessoais.
+* **B)** o Encarregado pelo tratamento de dados pessoais (DPO) responde solidariamente por todo e qualquer dano patrimonial decorrente de vazamentos de segurança.
+* **C)** o Controlador realiza o tratamento de dados exclusivamente em nome e por conta de ordens do Operador.
+* **D)** o Operador realiza o tratamento de dados pessoais em nome do Controlador, seguindo as diretrizes e instruções lícitas por este estabelecidas.
+* **E)** o Encarregado deve ser compulsoriamente uma autoridade pública externa pertencente aos quadros da ANPD.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Contraria a essência da soma positiva, pois prega o sacrifício da privacidade em troca de ganho de desempenho (mentalidade de soma zero).
-> - **B)** **Correta.** O princípio 4 do *Privacy by Design* (Funcionalidade Total: Soma Positiva) busca satisfazer todos os objetivos legítimos em um modelo "ganha-ganha" (*win-win*), rejeitando a falsa dicotomia de que a privacidade compete destrutivamente com a segurança, usabilidade ou desempenho.
-> - **C)** Incorreta. O princípio prega explicitamente a superação do jogo de soma zero (*not Zero-Sum*). Não se admite a escolha de um em detrimento de outro.
-> - **D)** Incorreta. Desabilitar a segurança criptográfica para reduzir latência viola tanto o princípio da funcionalidade total quanto o princípio da segurança de ponta a ponta.
-> - **E)** Incorreta. Implementar privacidade apenas após a homologação viola o princípio fundante de que a privacidade deve ser proativa e incorporada desde o design arquitetural inicial (Princípios 1 e 3).
-> 
-> **Gabarito: B**
-
----
-
-## 3.2 Comparativo: Privacy by Design vs. Privacy by Default
-
-| Dimensão | Privacy by Design (PbD) | Privacy by Default (PbDf) |
-|---|---|---|
-| **Escopo** | Holístico, arquitetural e metodológico. Abrange toda a esteira de engenharia de software e processos organizacionais. | Focado na experiência de usuário, parametrização padrão de interfaces, bancos e sistemas operacionais. |
-| **Momento de Aplicação** | Desde a concepção dos requisitos de negócio e arquitetura de software (Fase 0). | No momento em que o sistema ou serviço é disponibilizado para uso pelo usuário final. |
-| **Ação Exigida do Usuário** | Nenhuma (é interno à engenharia de software). | Zero esforço: a proteção máxima já está ativa sem que o usuário precise alterar nenhuma chave ou configuração. |
-| **Exemplo Típico** | Armazenamento de dados pessoais em tabelas segregadas com criptografia em repouso e trilhas de log imutáveis. | Perfil público de novo usuário criado como "Privado" por padrão; geolocalização desativada inicialmente. |
+> - **A) Incorreta.** Quem toma as decisões referentes ao tratamento é o **Controlador** (art. 5º, VI).
+> - **B) Incorreta.** Quem responde pela reparação de danos em virtude do exercício de atividade de tratamento são os **agentes de tratamento** (Controlador e Operador), nos termos dos arts. 42 a 45. O Encarregado atua como canal de comunicação e conformidade.
+> - **C) Incorreta.** A relação é inversa: o Controlador determina e o Operador executa em nome deste.
+> - **D) CORRETA.** O art. 5º, inciso VII da LGPD define o **Operador** como *"a pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador"*.
+> - **E) Incorreta.** O Encarregado é indicado pelo próprio controlador/operador internamente (art. 41), não sendo membro da ANPD.
+>
+> **Gabarito: D**
 
 ---
 
@@ -335,61 +283,23 @@ Na pseudonimização (Art. 13, § 4º da LGPD), o dado pessoal tem seu identific
 ---
 
 ### Teste 520
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A LGPD distingue formalmente os institutos da Anonimização e da Pseudonimização no ciclo de vida de desenvolvimento e análise de dados. Sob o ponto de vista criptográfico e de segurança da informação, assinale a afirmativa correta sobre a Pseudonimização:  
+**(FGV – TJ/RR – 2024 – Analista Judiciário – TI – Questão Real RAG ID: `V3_FGV_TJ_RR_2024_Q1262`)**  
+De acordo com a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018), especificamente o Artigo 38, a autoridade nacional (ANPD) poderá determinar ao controlador que elabore determinado documento técnico quando o tratamento tiver como fundamento o legítimo interesse ou envolver dados sensíveis. Esse instrumento é denominado:
 
-* **A)** O dado pseudonimizado é aquele que perdeu definitiva e irreversivelmente qualquer possibilidade de associação direta ou indireta a um indivíduo, deixando de ser considerado dado pessoal para todos os efeitos da LGPD.
-* **B)** A pseudonimização é o tratamento por meio do qual um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo, senão pelo uso de informação adicional mantida separadamente pelo controlador em ambiente seguro e controlado.
-* **C)** A aplicação de algoritmo de hash MD5 simples sem *salt* em uma coluna de CPF garante a anonimização irreversível e absoluta da base de dados.
-* **D)** Os dados pseudonimizados deixam de se sujeitar à LGPD, podendo ser vendidos livremente a empresas de telemarketing.
-* **E)** A pseudonimização exige a destruição física dos discos rígidos e fitas de backup do data center a cada transação bancária.
-
+* **A)** Relatório de Impacto à Proteção de Dados Pessoais (RIPD).
+* **B)** Plano de Continuidade de Negócios e Recuperação de Desastres (PCN).
+* **C)** Termo de Consentimento Livre e Esclarecido do Titular (TCLE).
+* **D)** Matriz de Rastreabilidade de Riscos Corporativos (MRR).
+* **E)** Registro Geral de Incidentes Cibernéticos (RGIC).
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Essa é a definição de dado **anonimizado** (Art. 12 da LGPD). O dado pseudonimizado continua sendo dado pessoal e sujeito integralmente à LGPD, pois pode ser reidentificado com a chave/informação adicional.
-> - **B)** **Correta.** Definição legal do Art. 13, § 4º da LGPD: pseudonimização é o tratamento por meio do qual um dado perde a possibilidade de associação a um indivíduo, senão pelo uso de informação adicional mantida separadamente pelo controlador em ambiente seguro e controlado.
-> - **C)** Incorreta. Hash sem *salt* em domínios finitos (como CPF) é vulnerável a ataques de tabela *rainbow* e quebra por força bruta trivial, não configurando anonimização robusta.
-> - **D)** Incorreta. Dados pseudonimizados continuam sob o escopo pleno da LGPD e gozam de todas as garantias legais.
-> - **E)** Incorreta. A pseudonimização é técnica criptográfica lógica (como tokenização e hashing com sal segregado), sem relação com destruição de hardware.
-> 
-> **Gabarito: B**
-
----
-
-## 4.2 Métricas Formais de Anonimização (k-Anonymity, l-Diversity, t-Closeness e DP)
-
-Para que um conjunto de microdados seja considerado verdadeiramente **anonimizado**, a desidentificação deve resistir a três ataques clássicos:
-
-- **Singling out (Isolamento):** Possibilidade de isolar um registro que pertença a um único indivíduo no conjunto.
-- **Linkability (Vinculação):** Possibilidade de cruzar dois conjuntos de dados distintos e correlacionar registros referentes à mesma pessoa.
-- **Inference (Inferência):** Possibilidade de deduzir, com alta probabilidade, o valor de um atributo sensível de um titular a partir de outros valores.
-
-```mermaid
-flowchart TD
-    subgraph METRICAS["Métricas Formais de Privacidade em Bancos de Dados"]
-        K["k-Anonymity"] -->|"Resolve ataque de Isolamento nos Quase-Identificadores"| L["l-Diversity"]
-        L -->|"Resolve ataque de Homogeneidade nos Atributos Sensíveis"| T["t-Closeness"]
-        T -->|"Resolve vazamento de distribuição de dados sensíveis"| DP["Differential Privacy (Privacidade Diferencial)"]
-        DP -->|"Injeta ruído matemático balanceado nas consultas analíticas"| FIM["Anonimização Robusta e Formal"]
-    end
-```
-
-1. **k-Anonymity (Sweeney, 2002):**
-    - Um conjunto de dados possui $k$-anonimato se cada tupla de **quase-identificadores** (ex.: Idade, Gênero, CEP) for indistinguível de pelo menos outras $k-1$ tuplas no mesmo conjunto. Ou seja, cada grupo de equivalência contém no mínimo $k$ registros.
-    - *Limitação:* Não protege contra o ataque de **homogeneidade**. Se em um grupo com $k=5$, todos os 5 indivíduos tiverem o atributo sensível "Tuberculose Pulmonar", qualquer pessoa que saiba que a vítima está naquele grupo descobrirá sua doença com 100% de certeza.
-
-2. **l-Diversity (Machanavajjhala et al., 2007):**
-    - Extensão do $k$-anonimato que exige que, dentro de cada grupo de equivalência de quase-identificadores, existam pelo menos $l$ valores "bem representados" para cada atributo sensível, superando o ataque de homogeneidade.
-
-3. **t-Closeness (Li et al., 2007):**
-    - Exige que a distribuição de probabilidade de um atributo sensível dentro de qualquer grupo de equivalência tenha uma distância estatística de no máximo $t$ em relação à distribuição desse mesmo atributo em todo o banco de dados global.
-
-4. **Privacidade Diferencial ($\epsilon$-Differential Privacy - Dwork, 2006):**
-    - Padrão-ouro na computação moderna. Garante matematicamente que a inclusão ou remoção de um único indivíduo no banco de dados não altera significativamente a probabilidade do resultado de uma consulta analítica agregada.
-    - Injeta ruído aleatório calibrado (distribuição de Laplace ou Gaussiana) controlado pelo parâmetro de privacidade $\epsilon$ (*privacy budget*).
+> - **A) CORRETA.** O art. 38 da LGPD prevê que a autoridade nacional poderá determinar ao controlador que elabore o **Relatório de Impacto à Proteção de Dados Pessoais (RIPD)**, inclusive de dados sensíveis, referente a suas operações de tratamento de dados, nos termos de regulamento. O art. 5º, XVII define o RIPD como a documentação que contém a descrição dos processos de tratamento, bem como as medidas, salvaguardas e mecanismos de mitigação de risco.
+> - **B), C), D) e E) Incorretas.** Tratam-se de outros instrumentos de gestão ou conceitos não correspondentes ao art. 38 da LGPD.
+>
+> **Gabarito: A**
 
 ---
 

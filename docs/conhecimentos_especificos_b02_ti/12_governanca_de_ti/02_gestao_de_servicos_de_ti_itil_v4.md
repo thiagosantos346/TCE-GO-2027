@@ -286,55 +286,28 @@ flowchart TD
 ---
 
 ### Teste 478
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A Cadeia de Valor de Serviço (SVC - *Service Value Chain*) é o elemento operacional nuclear do Sistema de Valor de Serviço (SVS) da ITIL v4, sendo composta por seis atividades-chave interconectadas. Assinale a alternativa que relaciona corretamente a atividade da cadeia de valor ao seu respectivo propósito:  
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo – TI – Questão Real RAG ID: `V3_FGV_TCE_SC_2026_Q3296`)**  
+O Tribunal quer reduzir o número de incidentes repetitivos em sua Central de Serviços. O Auditor sugere focar na identificação da causa raiz desses incidentes para prevenir novas ocorrências e propor soluções definitivas (*workarounds* ou mudanças estruturais).  
 
-* **A)** A atividade 'Obter/Construir' (*Obtain/Build*) tem como foco principal realizar o atendimento de suporte telefônico e registrar chamados de help desk dos usuários.
-* **B)** A atividade 'Engajar' (*Engage*) visa proporcionar um bom entendimento das necessidades dos stakeholders, transparência e engajamento contínuo em todo o ciclo de vida dos serviços.
-* **C)** A atividade 'Planejar' (*Plan*) é restrita à codificação em linguagens de baixo nível e à compilação de binários para servidores locais.
-* **D)** A atividade 'Melhorar' (*Improve*) é realizada uma única vez durante a homologação do sistema, sendo expressamente vedada a sua repetição em serviços já em produção.
-* **E)** A atividade 'Entregar e Suportar' (*Deliver & Support*) visa exclusivamente negociar termos de distrato com fornecedores externos sancionados pelo Tribunal.
+No framework ITIL 4, a prática de gerenciamento de serviços que tem como objetivo principal reduzir a probabilidade e o impacto de incidentes por meio da identificação de suas causas raízes denomina-se:
 
+* **A)** Gerenciamento de Incidentes (*Incident Management*).
+* **B)** Gerenciamento de Problemas (*Problem Management*).
+* **C)** Gerenciamento de Mudanças (*Change Enablement*).
+* **D)** Gerenciamento de Níveis de Serviço (*Service Level Management*).
+* **E)** Central de Serviços (*Service Desk*).
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Atendimento de chamados e suporte a incidentes pertencem à atividade 'Entregar e Suportar' (*Deliver & Support*). 'Obter/Construir' assegura a disponibilidade e desenvolvimento dos componentes de serviço.
-> - **B)** **Correta.** A atividade 'Engajar' (*Engage*) gerencia o relacionamento com todas as partes interessadas, captando demandas, compreendendo expectativas e mantendo transparência bidirecional.
-> - **C)** Incorreta. A atividade 'Planejar' (*Plan*) garante um entendimento compartilhado da visão, situação atual e direcionamento de evolução estratégica dos serviços e produtos.
-> - **D)** Incorreta. 'Melhorar' (*Improve*) é uma atividade contínua aplicada transversalmente a todos os serviços, práticas e componentes da cadeia de valor.
-> - **E)** Incorreta. 'Entregar e Suportar' foca na operação diária e na manutenção da entrega contínua dos serviços acordados aos usuários finais.
-> 
+> - **A) Incorreta.** O *Gerenciamento de Incidentes* visa restaurar a operação normal do serviço o mais rápido possível e minimizar o impacto imediato no negócio, sem necessariamente descobrir a causa raiz profunda no primeiro momento.
+> - **B) CORRETA.** No ITIL 4, o **Gerenciamento de Problemas (*Problem Management*)** tem como finalidade principal analisar a causa raiz de um ou múltiplos incidentes, identificar soluções de contorno (*workaround*), registrar erros conhecidos (*known errors*) e propor soluções definitivas para evitar a recorrência de falhas nos serviços de TIC.
+> - **C) Incorreta.** A *Habilitação de Mudanças* maximiza o número de mudanças bem-sucedidas de serviços e produtos por meio de avaliação de riscos e autorização formal.
+> - **D) Incorreta.** O *Gerenciamento de Nível de Serviço* define metas de desempenho e qualidade dos serviços acordadas nos SLAs.
+> - **E) Incorreta.** A *Central de Serviços* é o ponto único de contato (SPOC) para usuários reportarem problemas e requisições.
+>
 > **Gabarito: B**
-
----
-
-## 2. Práticas Essenciais de Gerenciamento de Serviços da ITIL v4
-
-A ITIL v4 classifica suas 34 práticas em três domínios:
-
-- **14 Práticas de Gerenciamento Geral** (*General Management Practices*)
-- **17 Práticas de Gerenciamento de Serviços** (*Service Management Practices*)
-- **3 Práticas de Gerenciamento Técnico** (*Technical Management Practices*)
-
-Abaixo, detalham-se as práticas com maior recorrência nas bancas de controle externo.
-
----
-
----
-
-## 2.1 Central de Serviços (Service Desk)
-
-A **Central de Serviços** atua como o **Ponto Único de Contato (SPOC - *Single Point of Contact*)** entre o provedor de serviços de TI e os usuários corporativos.
-
-- **Propósito:** Capturar a demanda de resolução de incidentes e requisições de serviço, servindo como o ponto focal para todas as comunicações operacionais.
-- **Estruturas Organizacionais Típicas:**
-    - *Local:* Equipe de suporte alocada fisicamente nas dependências do órgão.
-    - *Centralizada:* Equipe única atendendo múltiplos prédios, unidades regionais ou filiais a partir de uma sede.
-    - *Virtual:* Analistas distribuídos geograficamente que interagem por meio de sistemas na nuvem, dando ao usuário a percepção de uma central única.
-    - *Siga o Sol (Follow the Sun):* Equipes em diferentes fusos horários cobrindo suporte ininterrupto 24/7.
-- **Cultura e Habilidades:** Mais do que mero conhecimento técnico profundo, a Central de Serviços exige excelência em atendimento ao cliente, empatia interpessoal e compreensão do impacto das falhas nas atividades institucionais.
 
 ---
 

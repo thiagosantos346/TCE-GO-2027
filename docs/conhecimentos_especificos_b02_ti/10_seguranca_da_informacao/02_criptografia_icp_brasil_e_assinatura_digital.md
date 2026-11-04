@@ -332,29 +332,26 @@ Uma função de dispersão criptográfica (função hash) $h = H(M)$ é um algor
 ---
 
 ### Teste 370
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Funções de resumo criptográfico (*hashes*) desempenham um papel central em protocolos de segurança, integridade de arquivos e assinaturas digitais.
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo – TI – Questão Real RAG ID: `V3_FGV_TCE_SC_2026_Q3140`)**  
+Um Auditor do TCE-SC utiliza um token criptográfico com certificado digital emitido sob os padrões da ICP-Brasil para assinar eletronicamente um despacho em processo de fiscalização. No processo de geração da assinatura digital avançada/qualificada:
 
-A respeito das propriedades matemáticas e características das funções hash, assinale a afirmativa correta:
-
-* **A)** O algoritmo MD5 gera resumos de 512 bits e continua sendo o padrão criptográfico prioritário recomendado pela ICP-Brasil para emissão de certidões eletrônicas.
-* **B)** O efeito avalanche (*avalanche effect*) é uma vulnerabilidade indesejável em que a alteração de poucos bits no texto original não provoca nenhuma mudança perceptível no resumo de saída.
-* **C)** A propriedade da unidirecionalidade (*pre-image resistance*) assegura que, dado um resumo hash $h$, seja computacionalmente inviável recuperar ou deduzir a mensagem de entrada $M$ que o gerou.
-* **D)** As funções hash geram resumos criptográficos cujo tamanho em bytes é diretamente proporcional e idêntico ao tamanho do arquivo de entrada processado.
-* **E)** A resistência a colisões forte significa que é impossível que duas mensagens distintas venham a ter o mesmo hash em qualquer cenário matemático teórico.
-
+* **A)** o documento original é cifrado integralmente com a chave pública do auditor.
+* **B)** gera-se um resumo criptográfico (hash) do documento, o qual é cifrado com a chave privada do auditor.
+* **C)** a chave privada do auditor é transmitida ao servidor do Tribunal para validação da autenticidade.
+* **D)** a assinatura digital garante a confidencialidade do conteúdo, impedindo a visualização por terceiros.
+* **E)** utiliza-se exclusivamente algoritmo de criptografia simétrica com chave secreta compartilhada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O MD5 gera resumos de 128 bits e é considerado inseguro e vulnerável a colisões práticas, sendo expressamente banido pela ICP-Brasil. O padrão adotado é o SHA-256.
-> - **B)** Incorreta. O efeito avalanche é uma característica essencial e altamente desejável segundo a qual a menor modificação no texto de entrada altera dramaticamente cerca de 50% dos bits do hash de saída.
-> - **C)** Correta. A unidirecionalidade (*pre-image resistance*) define que a função opera em mão única: é simples calcular o resumo a partir do dado de entrada, mas computacionalmente inviável inverter o processo para recuperar a mensagem original a partir do hash.
-> - **D)** Incorreta. O comprimento da saída de uma função hash é fixo e pré-determinado pelo algoritmo (ex.: 256 bits no SHA-256), independentemente de a entrada conter 10 bytes ou 10 terabytes.
-> - **E)** Incorreta. Teoricamente, pelo Princípio da Casa dos Pombos, colisões sempre existem porque o domínio de entrada é infinito e a imagem de saída é finita. A propriedade de resistência assegura que encontrar tais colisões é computacionalmente inviável.
-> 
-> **Gabarito: C**
+> - **A) Incorreta.** Cifrar o documento inteiro com chave pública serve para garantir **confidencialidade** (cifração para o destinatário), e não para assinar.
+> - **B) CORRETA.** A assinatura digital opera em duas etapas essenciais: primeiro, aplica-se uma função hash unidirecional (ex.: SHA-256) sobre o documento para gerar o resumo criptográfico de tamanho fixo; em seguida, esse resumo hash é **cifrado com a chave privada do signatário** (o auditor). Qualquer pessoa de posse da chave pública correspondente pode decifrar o hash e conferi-lo, garantindo autenticidade, integridade e não repúdio.
+> - **C) Incorreta.** A chave privada **nunca** é transmitida ou compartilhada; permanece sob custódia exclusiva do titular no token criptográfico (hardware seguro).
+> - **D) Incorreta.** A assinatura digital assegura **integridade, autenticidade e não repúdio**, mas **não garante confidencialidade** (o documento assinado continua legível a menos que seja cifrado adicionalmente).
+> - **E) Incorreta.** A assinatura digital baseia-se fundamentalmente em **criptografia assimétrica (par de chaves pública/privada)**, e não em criptografia simétrica de chave única.
+>
+> **Gabarito: B**
 
 ---
 

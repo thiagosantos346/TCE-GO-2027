@@ -144,49 +144,24 @@ Ao formular seu planejamento plurianual, determinada defensoria pública incluiu
 ---
 
 ### Teste 372
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na definição da identidade corporativa e do referencial estratégico de um órgão de controle externo, a **Visão de Futuro** diferencia-se da **Missão Institucional** por:
+**(FGV – TRT/DA – 2025 – Analista Judiciário – Administração – Questão Real RAG ID: `V3_FGV_TRT_DA_2025_Q3510`)**  
+O planejamento institucional em organizações públicas desdobra-se em três níveis hierárquicos integrados: estratégico, tático e operacional. A respeito da distinção conceitual e temporal entre esses níveis de planejamento:
 
-* **A)** Descrever a imagem mental do estado futuro desejado que a instituição almeja alcançar em determinado horizonte temporal (onde queremos chegar), enquanto a Missão define a razão de existir fundamental e o propósito perene de atuação presente do órgão (quem somos e para que servimos).
-* **B)** Estabelecer os princípios éticos inegociáveis que regem a conduta disciplinar dos servidores concursados.
-* **C)** Consistir em documento sigiloso e restrito à apreciação do Presidente do Tribunal.
-* **D)** Ter validade perpétua e imutável que não admite revisão nem mesmo em novos ciclos plurianuais de planejamento.
-* **E)** Focar exclusivamente na redução percentual dos gastos de custeio com passagens aéreas e combustíveis.
-
+* **A)** o planejamento tático define a missão e a visão de longo prazo de toda a corporação.
+* **B)** o planejamento operacional foca na articulação departamental de médio prazo.
+* **C)** o planejamento estratégico é formulado no nível das chefias operacionais e possui horizonte de curtíssimo prazo.
+* **D)** os planos operacionais têm amplitude corporativa global e são genéricos e sintéticos.
+* **E)** enquanto o planejamento estratégico envolve toda a organização com horizonte de longo prazo, o planejamento tático abrange unidades departamentais com foco de médio prazo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Conceituação clássica: **Missão** é a razão de ser fundamental da instituição, sua vocação e propósito permanente de existir perante a sociedade; **Visão** é o estado futuro almejado, a aspiração ambiciosa de longo prazo, aquilo que a organização pretende ser e como deseja ser reconhecida no futuro.
-> - **B)** Incorreta. Refere-se aos **Valores** organizacionais.
-> - **C)** Incorreta. A identidade estratégica deve ser amplamente divulgada e compartilhada.
-> - **D)** Incorreta. A Visão tem horizonte temporal determinado (ex.: "ser referência nacional até 2030") e é renovada a cada ciclo.
-> - **E)** Incorreta. Meta operacional pontual, não visão estratégica.
-> 
-> **Gabarito: A**
-
----
-
-## 2. O Ciclo da Gestão Estratégica Integrada
-
-A gestão estratégica contemporânea não é um evento isolado quadrienal, mas um ciclo administrativo contínuo, dinâmico e retroalimentado composto por quatro etapas estruturadas:
-
-```mermaid
-flowchart TD
-    Ciclo["As 4 Fases do Ciclo de Gestão Estratégica"]
-    
-    Ciclo --> F1["1. Diagnóstico Estratégico Situacional<br/>(Análise ambiental externa PESTEL e interna SWOT/FOFA)"]
-    F1 --> F2["2. Formulação Estratégica<br/>(Definição de Visão, Objetivos, Metas, Iniciativas e BSC)"]
-    F2 --> F3["3. Implementação e Execução<br/>(Alocação orçamentária, planos de ação 5W2H e gestão de processos)"]
-    F3 --> F4["4. Monitoramento e Controle Estratégico<br/>(Reuniões de Avaliação da Estratégia - RAE e auditoria de indicadores)"]
-    F4 -->|Retroalimentação e ajustes dinâmicos| F1
-```
-
-1. **Diagnóstico Estratégico:** Mapeamento sistemático do ambiente externo (oportunidades e ameaças incontroláveis) e do ambiente interno (forças e fraquezas controláveis), permitindo compreender a posição real da organização.
-2. **Formulação Estratégica:** Estabelecimento dos macro-objetivos, indicadores de desempenho, metas quantificadas e programas de ação prioritários alinhados à missão e visão.
-3. **Implementação da Estratégia:** Desdobramento tático-operacional, alocação de recursos financeiros pelo orçamento público (PPA, LDO e LOA), designação formal de responsáveis e governança das ações.
-4. **Monitoramento e Controle:** Acompanhamento tempestivo dos indicadores de resultado, identificação precoce de desvios e realização periódica de Reuniões de Avaliação da Estratégia (RAE) para calibragem de rotas.
+> - **Planejamento Estratégico:** Nível institucional/alta cúpula, visão holística e corporativa, foco no longo prazo, macroambiente e definição de missão, visão e objetivos estratégicos globais.
+> - **Planejamento Tático:** Nível intermediário/gerencial, foco departamental ou setorial, médio prazo e conversão das diretrizes estratégicas em planos funcionais específicos (financeiro, RH, TI, logística).
+> - **Planejamento Operacional:** Nível técnico/operacional, execução de rotinas e procedimentos diários, curto prazo e máximo detalhamento analítico.
+>
+> **Gabarito: E**
 
 ---
 

@@ -349,29 +349,30 @@ flowchart TD
 ---
 
 ### Teste 414
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No gerenciamento de memória virtual por paginação sob demanda em sistemas operacionais modernos, um processo em execução gera uma solicitação de acesso a um determinado endereço lógico. Durante a operação de tradução conduzida pela unidade de gerenciamento de memória (MMU), identifica-se que o bit de validade correspondente na tabela de páginas está marcado como ausente (bit 0).
+**(FGV – TRT/DA – 2025 – Analista Judiciário – Tecnologia da Informação – Questão Real RAG ID: `V3_FGV_TRT_DA_2025_Q1195`)**  
+RPM é um sistema de gerenciamento de pacotes que roda no Red Hat Enterprise Linux. Com relação ao RPM, analise as afirmativas a seguir:  
 
-Nessa situação, o evento gerado pela arquitetura de hardware e a ação imediata subsequente realizada pelo sistema operacional são:
+I. Permite a instalação, atualização e desinstalação de softwares por meio de pacotes pré-compilados.  
+II. O comando `rpm -qa` lista todos os pacotes atualmente instalados no sistema operacional.  
+III. O RPM resolve de forma totalmente autônoma e automática o download de dependências recursivas a partir de repositórios remotos sem a necessidade de ferramentas de mais alto nível como o YUM ou DNF.  
 
-* **A)** Uma interrupção de *Page Fault*, que transfere o controle ao núcleo do sistema operacional para buscar a página solicitada no armazenamento secundário e carregá-la em uma moldura livre da memória principal.
-* **B)** Uma violação de segmento (*Segmentation Fault*), que resulta na terminação imediata e compulsória do processo por invasão de área de memória protegida.
-* **C)** Um *TLB Hit*, no qual o processador busca o endereço diretamente na memória cache L1 sem consultar as tabelas do núcleo.
-* **D)** Um procedimento de *Swapping* compulsório de todos os processos ativos para o disco, paralisando a CPU até que a memória RAM seja totalmente desfragmentada.
-* **E)** Uma chamada de sistema `mmap`, solicitando que o processo usuário reconfigure o seu próprio bloco de controle de processo (PCB).
+Está correto o que se afirma em:
 
+* **A)** I, apenas.
+* **B)** III, apenas.
+* **C)** I e II, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Quando o bit de validade é zero, a MMU sinaliza uma interrupção de falta de página (*Page Fault*), acionando a rotina do kernel que localiza a página no disco (área de swap) e a transfere para uma moldura livre na RAM.
-> - **B)** Incorreta. Falta de página é uma ocorrência de rotina da memória virtual sob demanda, e não uma violação de segmento ilegal (*Segmentation Fault*).
-> - **C)** Incorreta. Se o bit de presença não estava ativo, a página não estava mapeada na RAM, caracterizando um miss prévio e acionamento do tratador de faltas.
-> - **D)** Incorreta. A falta de página envolve o carregamento individual da página demandada, e não a parada e swapping compulsório de todos os processos do sistema.
-> - **E)** Incorreta. A resolução do evento é realizada pelo kernel de forma transparente à aplicação, sem requerer intervenção do processo no seu PCB.
-> 
-> **Gabarito: A**
+> - **Item I (Correto):** O RPM (*Red Hat Package Manager*) é a ferramenta de baixo nível padrão para manipular arquivos `.rpm`, permitindo instalar (`-i`), atualizar (`-U`) e remover/desinstalar (`-e`) pacotes binários pré-compilados.
+> - **Item II (Correto):** O comando `rpm -qa` (*query all*) consulta e lista todos os pacotes atualmente instalados no banco de dados local do RPM.
+> - **Item III (Incorreto):** O utilitário `rpm` básico **não** faz resolução automática de dependências com download em repositórios remotos na rede; quando falta uma dependência, ele simplesmente interrompe a instalação com erro. A resolução automatizada de dependências via repositórios na Internet é atribuição das ferramentas de nível superior, como o **YUM** (*Yellowdog Updater, Modified*) e o **DNF** (*Dandified YUM*).
+>
+> **Gabarito: C**
 
 ---
 

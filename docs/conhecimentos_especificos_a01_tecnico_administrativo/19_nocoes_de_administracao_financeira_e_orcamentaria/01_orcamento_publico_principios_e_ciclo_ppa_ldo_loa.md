@@ -238,35 +238,31 @@ Diante do princípio orçamentário da exclusividade (art. 165, § 8º da CF/88)
 ---
 
 ### Teste 211
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito dos princípios orçamentários consagrados na legislação brasileira e no texto da Constituição Federal de 1988, considere as seguintes assertivas:
+**(FGV – TCE/PI – 2025 – Auditor de Controle Externo – Questão Real RAG ID: `V3_FGV_TCE_PI_2025_Q2962`)**  
+Sobre os instrumentos de planejamento e orçamento público na Constituição Federal de 1988, analise as afirmativas a seguir:  
 
-I. O princípio da exclusividade impede que a Lei Orçamentária Anual disponha sobre autorização para a contratação de operações de crédito, ainda que por antecipação de receita orçamentária.  
+I. O Plano Plurianual (PPA) estabelece, de forma regionalizada, as diretrizes, objetivos e metas da administração pública para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada.  
+II. A Lei de Diretrizes Orçamentárias (LDO) compreende as metas e prioridades da administração pública federal, estabelece a política de aplicação das agências financeiras oficiais de fomento e orienta a elaboração da LOA.  
+III. A Lei Orçamentária Anual (LOA) compreende o orçamento fiscal, o orçamento de investimento das empresas estatais e o orçamento da seguridade social.  
 
-II. O princípio da não afetação veda genericamente a vinculação de qualquer espécie tributária a órgão, fundo ou despesa pública.  
+Está correto o que se afirma em:
 
-III. O princípio do orçamento bruto estabelece que todas as receitas e despesas constarão da lei de orçamento pelos seus totais, vedadas quaisquer deduções pecuniárias prévias.  
-
-Está correto o que se afirma APENAS em:
-
-* **A)** I.
-* **B)** II.
-* **C)** III.
-* **D)** I e II.
-* **E)** I e III.
-
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** I e II, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O item I é falso, pois a contratação de operações de crédito (inclusive por ARO) é ressalva expressa ao princípio da exclusividade.
-> - **B)** Incorreta. O item II é falso, pois a vedação de afetação alcança restritivamente os impostos, não abrangendo taxas ou contribuições.
-> - **C)** Correta. Apenas a assertiva III é verdadeira. O art. 6º da Lei nº 4.320/1964 dispõe taxativamente que todas as receitas e despesas constarão da Lei de Orçamento pelos seus totais, vedadas quaisquer deduções pecuniárias.
-> - **D)** Incorreta. Ambos os itens I e II contêm erros jurídicos flagrantes.
-> - **E)** Incorreta. O item I é manifestamente contrário ao texto do art. 165, § 8º da CF/88.
-> 
-> **Gabarito: C**
+> - **Item I (Correto):** Reproduz com exatidão a dicção do art. 165, § 1º da CF/88 a respeito do escopo e conteúdo material do **Plano Plurianual (PPA)**.
+> - **Item II (Correto):** Reproduz fielmente as atribuições constitucionais da **Lei de Diretrizes Orçamentárias (LDO)** estabelecidas no art. 165, § 2º da CF/88 e complementadas pela LRF.
+> - **Item III (Correto):** O art. 165, § 5º da CF/88 consagra a tríplice composição do orçamento anual: o **orçamento fiscal** (inciso I), o **orçamento de investimento das empresas estatais** (inciso II) e o **orçamento da seguridade social** (inciso III).
+> - Portanto, todos os itens I, II e III estão plenamente corretos.
+>
+> **Gabarito: E**
 
 ---
 

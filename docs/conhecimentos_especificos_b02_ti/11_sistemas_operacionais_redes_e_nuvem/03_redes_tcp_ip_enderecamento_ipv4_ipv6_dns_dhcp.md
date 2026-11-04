@@ -234,35 +234,25 @@ O cálculo sistemático de qualquer sub-rede IPv4 parte de fórmulas matemática
 ---
 
 ### Teste 434
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Diante da iminência do esgotamento histórico de endereços IPv4 públicos globais, a IETF padronizou a separação entre blocos de endereços públicos roteáveis e blocos de endereçamento privado reservados para uso interno corporativo (**RFC 1918**), combinados com o mecanismo de **Tradução de Endereços de Rede (NAT/PAT)**.
+**(FGV – TRT/DA – 2025 – Analista Judiciário – Tecnologia da Informação – Questão Real RAG ID: `V3_FGV_TRT_DA_2025_Q1202`)**  
+A quantidade de octetos presentes nos endereços IP dos protocolos IPv4 e IPv6 é de, respectivamente:
 
-A respeito das faixas de endereçamento privado da RFC 1918 e do funcionamento do **NAPT/PAT** (*Network Address Port Translation*), assinale a afirmativa correta:
-
-* **A)** A faixa privada de Classe C é `192.168.0.0` com máscara `/16` (abrangendo de `192.168.0.0` até `192.168.255.255`).
-* **B)** A faixa `10.0.0.0/8` é pública e atribuída exclusivamente a sites do governo federal americano.
-* **C)** O NAT proíbe que qualquer pacote saia da rede local para a internet.
-* **D)** O PAT exige que cada computador da rede interna possua seu próprio endereço IP público registrado no Registro.br.
-* **E)** Endereços privados da RFC 1918 são roteados normalmente na internet sem necessidade de qualquer tradução por firewalls ou roteadores.
-
+* **A)** 2 e 8.
+* **B)** 4 e 8.
+* **C)** 4 e 12.
+* **D)** 4 e 16.
+* **E)** 8 e 16.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** Fundamentos da **RFC 1918 e NAT/PAT**:
->   - **Três Faixas Privadas Oficiais (RFC 1918):**
->     1. `10.0.0.0/8` (`10.0.0.0` a `10.255.255.255` - 16.777.216 endereços).
->     2. `172.16.0.0/12` (`172.16.0.0` a `172.31.255.255` - 1.048.576 endereços).
->     3. `192.168.0.0/16` (`192.168.0.0` a `192.168.255.255` - 65.536 endereços).
->   - Esses blocos são descartados (*dropped*) pelos roteadores da internet pública (*não roteáveis na WAN*).
->   - **NAPT / PAT (NAT Overload):** Mapeia múltiplos IPs privados internos (muitos para um / $N:1$) para um único endereço IPv4 público válido. O roteador mantém uma tabela de estados de tradução na qual diferencia as conexões ativas variando as **portas de transporte de origem (Port Numbers TCP/UDP)** no cabeçalho externo.
-> - **B)** Incorreta. O bloco `10.0.0.0/8` é a maior faixa privada reservada da RFC 1918.
-> - **C)** Incorreta. O NAT foi concebido justamente para permitir a comunicação externa da rede interna.
-> - **D)** Incorreta. Esse seria o modelo sem NAT; o PAT economiza IPs públicos compartilhando um único IP com toda a organização.
-> - **E)** Incorreta. Provedores de internet (ISPs) bloqueiam e descartam pacotes com origem RFC 1918.
-> 
-> **Gabarito: A**
+> - Um **octeto** equivale a um agrupamento de 8 bits (1 byte).
+> - O endereço **IPv4** é composto por 32 bits, o que corresponde exatamente a $32 / 8 =$ **4 octetos** (representados no formato decimal com pontos, ex: `192.168.1.1`).
+> - O endereço **IPv6** é composto por 128 bits, o que corresponde exatamente a $128 / 8 =$ **16 octetos** (representados em formato hexadecimal composto por 8 grupos de 16 bits separados por dois-pontos, ex: `2001:0db8:85a3:0000:0000:8a2e:0370:7334`).
+> - Portanto, as quantidades de octetos são respectivamente **4 e 16**.
+>
+> **Gabarito: D**
 
 ---
 

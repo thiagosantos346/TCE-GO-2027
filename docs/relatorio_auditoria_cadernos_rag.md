@@ -2109,3 +2109,141 @@ Este documento registra oficialmente a auditoria semântica 1:1 realizada cadern
 * **`Teste 105`** (Equilíbrio Econômico-Financeiro: Reajuste em Sentido Estrito, Repactuação e Revisão/Recomposição por Fato Imprevisível): Preservada.
 * **`Teste 106`** (Extinção dos Contratos Administrativos: Extinção Unilateral por Inadimplemento, Consensual e Judicial): Preservada.
 * **`Teste 109`** (Reabilitação do Licitante ou Contratado Perante a Própria Autoridade que Aplicou a Sanção nos Termos do art. 163): Preservada.
+
+
+---
+
+# Auditoria e Injeção RAG Consolidada dos 14 Módulos Restantes
+* **Data da Execução:** 2026-11-03
+* **Escopo:** Conclusão de 100% dos cadernos do projeto TCE-GO 2027 (Trilhas B02 e A01)
+* **Status:** 🟢 100% dos Módulos do Projeto Concluídos e Auditados
+
+---
+
+## Módulo 10 (B02 TI): Segurança da Informação
+* **Pasta:** `docs/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/`
+* **Cadernos Auditados:** 5 cadernos (Testes 355 a 409)
+* **Injeção Real:**
+  * **Caderno 02 — `Teste 370`**: Substituído pela questão real **`V3_FGV_TCE_SC_2026_Q3140`** (FGV TCE/SC 2026 Auditor de TI): Processo de geração de assinatura digital sob os padrões da ICP-Brasil (cifração do resumo criptográfico/hash com a chave privada do signatário, garantindo autenticidade, integridade e não repúdio).
+* **Questões Autorais Preservadas:** 54 testes mantidos (ISO 27001/27002/27005, Gestão de Riscos, IAM, Zero Trust, OWASP Top 10, DevSecOps, Malware e Defesa em Profundidade).
+
+---
+
+## Módulo 11 (B02 TI): Sistemas Operacionais, Redes e Nuvem
+* **Pasta:** `docs/conhecimentos_especificos_b02_ti/11_sistemas_operacionais_redes_e_nuvem/`
+* **Cadernos Auditados:** 5 cadernos (Testes 410 a 464)
+* **Injeções Reais:**
+  * **Caderno 01 — `Teste 414`**: Substituído por **`V3_FGV_TRT_DA_2025_Q1195`** (FGV TRT/DA 2025 TI): Gerenciamento de pacotes RPM no Red Hat Enterprise Linux (`rpm -qa`, instalação e distinção do YUM/DNF na resolução de dependências).
+  * **Caderno 03 — `Teste 434`**: Substituído por **`V3_FGV_TRT_DA_2025_Q1202`** (FGV TRT/DA 2025 TI): Arquitetura e endereçamento IP: quantidade de octetos em IPv4 (4 octetos / 32 bits) e IPv6 (16 octetos / 128 bits).
+  * **Caderno 05 — `Teste 455`**: Substituído por **`V3_FGV_TCE_SC_2026_Q3279`** (FGV TCE/SC 2026 Auditor de TI): Modelos de computação em nuvem do NIST: migração para Microsoft Office 365 caracterizada como SaaS (Software as a Service).
+* **Questões Autorais Preservadas:** 52 testes mantidos (Linux Kernel/CLI, Windows Server, Active Directory/LDAP, DNS/DHCP, protocolos de aplicação e nuvem híbrida/serverless).
+
+---
+
+## Módulo 12 (B02 TI): Governança de TI
+* **Pasta:** `docs/conhecimentos_especificos_b02_ti/12_governanca_de_ti/`
+* **Cadernos Auditados:** 5 cadernos (Testes 465 a 514)
+* **Injeções Reais:**
+  * **Caderno 02 — `Teste 478`**: Substituído por **`V3_FGV_TCE_SC_2026_Q3296`** (FGV TCE/SC 2026 Auditor de TI): Framework ITIL 4: Prática de Gerenciamento de Problemas (*Problem Management*) focada na identificação da causa raiz de incidentes repetitivos e mitigação de impactos.
+  * **Caderno 04 — `Teste 499`**: Substituído por **`V3_FGV_TCE_SC_2026_Q3274`** (FGV TCE/SC 2026 Auditor de TI): Contratações de TIC e aplicação de sanções sob a Lei nº 14.133/2021 (condução por comissão de servidores estáveis e prazo de 15 dias úteis para defesa).
+* **Questões Autorais Preservadas:** 48 testes mantidos (COBIT 2019, ISO 38500, PMBOK 8ª Edição, Métodos Ágeis Scrum/Kanban e Lei de Governo Digital nº 14.129).
+
+---
+
+## Módulo 13 (B02 TI): Legislação Aplicada à TI
+* **Pasta:** `docs/conhecimentos_especificos_b02_ti/13_legislacao_aplicada_a_ti/`
+* **Cadernos Auditados:** 5 cadernos (Testes 515 a 564)
+* **Injeções Reais:**
+  * **Caderno 01 — `Teste 516`**: Substituído por **`V3_FGV_TJ_AP_2023_Q0552`** (FGV TJ/AP 2023 TI): Conceito legal de Consentimento no art. 5º, XII da LGPD (manifestação livre, informada e inequívoca).
+  * **Caderno 01 — `Teste 518`**: Substituído por **`V3_FGV_TJ_RR_2024_Q1260`** (FGV TJ/RR 2024 TI): Agentes de tratamento na LGPD: o Operador realiza o tratamento em nome e sob as diretrizes do Controlador.
+  * **Caderno 01 — `Teste 520`**: Substituído por **`V3_FGV_TJ_RR_2024_Q1262`** (FGV TJ/RR 2024 TI): Instrumentos regulatórios da ANPD: determinação de elaboração do Relatório de Impacto à Proteção de Dados Pessoais (RIPD, art. 38).
+* **Questões Autorais Preservadas:** 47 testes mantidos (Marco Civil da Internet, ICP-Brasil na TI, Lei Complementar Estadual nº 205/2025 de Goiás e Resoluções de Governança de TI do TCE-GO).
+
+---
+
+## Módulo 14 (B02 TI): Língua Inglesa (Leitura Técnica)
+* **Pasta:** `docs/conhecimentos_especificos_b02_ti/14_lingua_inglesa_leitura_tecnica/`
+* **Cadernos Auditados:** 3 cadernos (Testes 565 a 594)
+* **Status:** Concluído e auditado (100% questões autorais mantidas com textos originais de documentação técnica, RFCs, manuais de cloud e APIs).
+
+---
+
+## Módulo 17 (A01): Noções de Direito Constitucional
+* **Pasta:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/17_nocoes_de_direito_constitucional/`
+* **Cadernos Auditados:** 5 cadernos (Testes 110 a 164)
+* **Injeção Real:**
+  * **Caderno 02 — `Teste 122`**: Substituído por **`V3_FGV_TJ_SC_2026_Q0027`** (FGV TJ/SC 2026): Eficácia e regime dos direitos fundamentais: cláusula de não taxatividade / rol aberto do art. 5º, § 2º da CF/88.
+* **Questões Autorais Preservadas:** 54 testes mantidos (Princípios Fundamentais, Organização do Estado, Processo Legislativo, Fiscalização Contábil/TCE e Poder Executivo/Judiciário).
+
+---
+
+## Módulo 18 (A01): Noções de Controle Externo
+* **Pasta:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/18_nocoes_de_controle_externo/`
+* **Cadernos Auditados:** 4 cadernos (Testes 165 a 208)
+* **Injeções Reais:**
+  * **Caderno 01 — `Teste 166`**: Substituído por **`V3_FGV_TCE_SC_2026_Q3130`** (FGV TCE/SC 2026 Auditor): Sistema Constitucional de Controle e competência privativa para assinar prazo para exato cumprimento da lei em caso de ilegalidade (art. 71, IX CF/88).
+  * **Caderno 03 — `Teste 188`**: Substituído por **`V3_FGV_TCE_SC_2026_Q3147`** (FGV TCE/SC 2026 Auditor): Normas de auditoria do setor público (NBASP/ISSAI): requisitos de suficiência, relevância e confiabilidade das evidências de auditoria.
+* **Questões Autorais Preservadas:** 42 testes mantidos (Jurisdição dos TCs, Auditoria Operacional e de Conformidade, Matriz de Achados, Processo de Controle Externo e Sanções).
+
+---
+
+## Módulo 19 (A01): Administração Financeira e Orçamentária (AFO)
+* **Pasta:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/19_nocoes_de_administracao_financeira_e_orcamentaria/`
+* **Cadernos Auditados:** 5 cadernos (Testes 209 a 259)
+* **Injeções Reais:**
+  * **Caderno 01 — `Teste 211`**: Substituído por **`V3_FGV_TCE_PI_2025_Q2962`** (FGV TCE/PI 2025 Auditor): Instrumentos do ciclo orçamentário: PPA (art. 165, § 1º), LDO (art. 165, § 2º) e LOA em seus três orçamentos (art. 165, § 5º da CF/88).
+  * **Caderno 02 — `Teste 222`**: Substituído por **`V3_FGV_TRT_DA_2025_Q3516`** (FGV TRT/DA 2025): Princípio da universalidade e classificação econômica da receita pública (Receita de Serviços como Corrente vs Amortização de Empréstimos como Capital).
+* **Questões Autorais Preservadas:** 49 testes mantidos (Estágios da receita e despesa, restos a pagar, créditos adicionais, LRF e limites com gastos de pessoal).
+
+---
+
+## Módulo 20 (A01): Contabilidade Aplicada ao Setor Público (CASP)
+* **Pasta:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/20_contabilidade_aplicada_ao_setor_publico/`
+* **Cadernos Auditados:** 4 cadernos (Testes 260 a 299)
+* **Injeção Real:**
+  * **Caderno 01 — `Teste 262`**: Substituído por **`V3_FGV_TRT_DA_24__REGI_O_2025_Q0901`** (FGV TRT da 24ª Região 2025): NBC TSP Estrutura Conceitual: características qualitativas fundamentais da informação nos RCPGs (relevância, representação fidedigna, compreensibilidade, tempestividade, comparabilidade e verificabilidade).
+* **Questões Autorais Preservadas:** 39 testes mantidos (Procedimentos MCASP, estrutura PCASP, subsistemas contábeis, variações patrimoniais e balanços orçamentário, financeiro e patrimonial).
+
+---
+
+## Módulo 21 (A01): Noções de Administração Pública
+* **Pasta:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/21_nocoes_de_administracao_publica/`
+* **Cadernos Auditados:** 4 cadernos (Testes 300 a 339)
+* **Status:** Concluído e auditado (100% das 40 questões autorais mantidas sobre modelos patrimonialista, burocrático e gerencial, governança, Decreto nº 9.094 e indicadores públicos).
+
+---
+
+## Módulo 22 (A01): Administração Geral
+* **Pasta:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/22_administracao_geral/`
+* **Cadernos Auditados:** 3 cadernos (Testes 340 a 369)
+* **Injeção Real:**
+  * **Caderno 01 — `Teste 342`**: Substituído por **`V3_FGV_TCE_SC_2026_Q3171`** (FGV TCE/SC 2026 Auditor): Teoria Clássica da Administração: as cinco funções administrativas de Henri Fayol (prever, organizar, comandar, coordenar e controlar).
+* **Questões Autorais Preservadas:** 29 testes mantidos (Teoria Científica, Burocracia de Weber, Relações Humanas, Estruturas Organizacionais e Processo Decisório).
+
+---
+
+## Módulo 23 (A01): Administração Estratégica
+* **Pasta:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/23_administracao_estrategica/`
+* **Cadernos Auditados:** 3 cadernos (Testes 370 a 399)
+* **Injeção Real:**
+  * **Caderno 01 — `Teste 372`**: Substituído por **`V3_FGV_TRT_DA_2025_Q3510`** (FGV TRT/DA 2025): Níveis hierárquicos de planejamento: amplitude institucional de longo prazo do planejamento estratégico vs foco departamental e médio prazo do planejamento tático.
+* **Questões Autorais Preservadas:** 29 testes mantidos (Matriz SWOT, Cinco Forças de Porter, RBV, Balanced Scorecard / BSC e Cadeia de Valor).
+
+---
+
+## Módulo 24 (A01): Comportamento Organizacional
+* **Pasta:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/24_comportamento_organizacional/`
+* **Cadernos Auditados:** 3 cadernos (Testes 400 a 429)
+* **Injeção Real:**
+  * **Caderno 02 — `Teste 412`**: Substituído por **`V3_FGV_TJ_SC_2026_Q0031`** (FGV TJ/SC 2026): Estilos clássicos de liderança de White e Lippitt (autocrático, democrático e liberal/laissez-faire).
+* **Questões Autorais Preservadas:** 29 testes mantidos (Teorias Motivacionais Maslow/Herzberg/Vroom, Dinâmica de Grupos e Equipes, Cultura e Clima Organizacional e Gestão de Conflitos).
+
+---
+
+## Módulo 25 (A01): Gestão de Pessoas
+* **Pasta:** `docs/conhecimentos_especificos_a01_tecnico_administrativo/25_gestao_de_pessoas/`
+* **Cadernos Auditados:** 4 cadernos (Testes 430 a 469)
+* **Injeções Reais:**
+  * **Caderno 01 — `Teste 432`**: Substituído por **`V3_FGV_TJ_SC_2026_Q0044`** (FGV TJ/SC 2026): Processos de atração: vantagens e desvantagens comparativas do recrutamento interno e recrutamento externo.
+  * **Caderno 03 — `Teste 452`**: Substituído por **`V3_FGV_TJ_SC_2026_Q0045`** (FGV TJ/SC 2026): Metodologias de avaliação funcional: características da Avaliação de Desempenho 360 Graus com múltiplos avaliadores.
+* **Questões Autorais Preservadas:** 38 testes mantidos (Gestão por Competências, Treinamento e Desenvolvimento, Clima e QVT e Estatuto dos Servidores de Goiás - Lei nº 20.756/2020).

@@ -167,27 +167,25 @@ flowchart LR
 ---
 
 ### Teste 412
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com o modelo de desenvolvimento de pequenos grupos concebido por Bruce Tuckman, o estágio em que surgem conflitos explícitos entre os participantes, disputas internas pelo controle do grupo e resistências à liderança formal pré-estabelecida é denominado:
+**(FGV – TJ/SC – 2026 – Analista Administrativo – Questão Real RAG ID: `V3_FGV_TJ_SC_2026_Q0031`)**  
+A respeito das teorias de liderança e dos estilos de liderança desenvolvidos nos estudos de Comportamento Organizacional, a abordagem clássica de White e Lippitt classifica os estilos de liderança em três estilos fundamentais, a saber:
 
-* **A)** Estágio de Formação (*Forming*).
-* **B)** Estágio de Tormenta ou Conflito (*Storming*).
-* **C)** Estágio de Normatização (*Norming*).
-* **D)** Estágio de Desempenho (*Performing*).
-* **E)** Estágio de Desintegração (*Adjourning*).
-
+* **A)** Autocrático, Democrático e Liberal (*Laissez-faire*).
+* **B)** Burocrático, Paternalista e Carismático.
+* **C)** Transacional, Transformacional e Situacional.
+* **D)** Diretivo, Participativo e Visionário.
+* **E)** Focado na Tarefa, Focado no Relacionamento e Focado na Inovação.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Formação é a fase inicial de reconhecimento mútuo e incerteza.  
-> - **B) CORRETA.** O estágio de **Tormenta (ou Conflito / *Storming*)** é caracterizado exatamente pelo surgimento de embates internos de poder e discordâncias quanto às regras; os participantes aceitam a existência do grupo, mas resistem ao controle exercido sobre eles e disputam a liderança até que a hierarquia de papéis se estabilize.  
-> - **C) Incorreta.** Normatização é a fase posterior em que a coesão é restabelecida e surgem regras claras.  
-> - **D) Incorreta.** Desempenho é a fase em que o grupo atinge a produtividade máxima e maturidade funcional.  
-> - **E) Incorreta.** Desintegração é a fase final de dissolução do grupo após a entrega dos resultados.  
-> 
-> **Gabarito: B**
+> - A pesquisa pioneira de Ralph White e Ronald Lippitt (1939) identificou três estilos básicos de comportamento do líder:
+>   1. **Liderança Autocrática:** O líder fixa as diretrizes sem qualquer participação do grupo; dita as técnicas e determina tarefas de forma impositiva.
+>   2. **Liderança Democrática:** As diretrizes são debatidas e decididas pelo grupo, estimulado e assistido pelo líder; o grupo esboça as providências e o líder atua como facilitador.
+>   3. **Liderança Liberal (*Laissez-faire*):** Há liberdade completa para decisões grupais ou individuais, com participação mínima do líder.
+>
+> **Gabarito: A**
 
 ---
 

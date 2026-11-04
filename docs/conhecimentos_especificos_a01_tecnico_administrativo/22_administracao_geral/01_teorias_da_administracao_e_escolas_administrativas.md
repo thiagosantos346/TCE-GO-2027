@@ -187,58 +187,28 @@ Desenvolvida a partir de 1932 nos Estados Unidos, a Teoria das Relações Humana
 ---
 
 ### Teste 342
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Teoria das Relações Humanas, impulsionada pelos estudos de Elton Mayo na fábrica de Hawthorne (Western Electric Company, 1927-1932), revolucionou a teoria administrativa ao demonstrar que:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo – Questão Real RAG ID: `V3_FGV_TCE_SC_2026_Q3171`)**  
+Henri Fayol foi um dos primeiros teóricos a sistematizar a Teoria Clássica da Administração, propondo que a função administrativa se desdobra em cinco funções essenciais dos administradores (conhecidas pelo acrônimo POC3 / PODC). Na formulação clássica fayolista, essas cinco funções básicas correspondem a:
 
-* **A)** O nível de produção e a produtividade no trabalho são determinados primordialmente pela integração social e pelas normas informais do grupo, e não apenas pela capacidade física ou fisiológica do trabalhador.
-* **B)** O operário é motivado exclusivamente por incentivos salariais materiais e materiais financeiros (*Homo economicus*).
-* **C)** A divisão extrema do trabalho em tarefas microscópicas e cronometradas elimina qualquer necessidade de supervisão humana.
-* **D)** A fadiga muscular é a única causa de acidentes e quebras de produtividade no ambiente industrial.
-* **E)** As organizações formais funcionam como engrenagens mecânicas imunes a sentimentos, grupos informais e estados psicológicos.
-
+* **A)** planejar, liderar, motivar, delegar e avaliar.
+* **B)** prever, organizar, comandar, coordenar e controlar.
+* **C)** projetar, executar, monitorar, capacitar e padronizar.
+* **D)** diagnosticar, estruturar, liderar, orçar e fiscalizar.
+* **E)** pesquisar, recrutar, treinar, comunicar e auditar.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A experiência de Hawthorne revelou que o trabalhador não atua isolado, mas como membro de um grupo social (*Homo socialis*). A produtividade é influenciada por fatores psicossociais, reconhecimento, moral do grupo e liderança informal.
-> - **B)** Incorreta. O conceito de *Homo economicus* pertence à Administração Científica de Taylor.
-> - **C)** Incorreta. Concepção taylorista de estudos de tempos e movimentos.
-> - **D)** Incorreta. Elton Mayo provou que o efeito psicológico do grupo superava a fadiga física nas variações de produção.
-> - **E)** Incorreta. Visão mecanicista da Escola Clássica que foi superada pela abordagem humanística.
-> 
-> **Gabarito: A**
-
----
-
-## 4. Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)
-
-Para Max Weber, a burocracia é a forma de organização social humana mais eficiente, técnica e racional para administrar grandes instituições e o Estado moderno.
-
-```mermaid
-flowchart TD
-    subgraph Dominacao ["Tipos de Dominação Legítima (Weber)"]
-        direction TB
-        Trad["1. Tradicional<br/>Baseada nos costumes imemoriais, linhagem e tradição (Patriarcado, Monarquias feudais)"]
-        Caris["2. Carismática<br/>Baseada na devoção cega aos dons extraordinários ou heroicos do líder (Profetas, líderes revolucionários)"]
-        Rac["3. Racional-Legal (Burocrática)<br/>Baseada na lei, nas normas escritas, na impessoalidade e na meritocracia técnica (Estado de Direito Moderno)"]
-    end
-```
-
-#### A) Características do Modelo Burocrático Puro:
-* **Caráter legal e formal das normas:** Comunicações, competências e rotinas são previamente fixadas em leis e regulamentos escritos.
-* **Impessoalidade no tratamento:** A autoridade vincula-se ao cargo e à lei, nunca à pessoa física que o ocupa. Direitos e deveres são aplicados de maneira uniforme, sem privilégios ou simpatias pessoais.
-* **Hierarquia de autoridade clara:** Cada cargo inferior está sob o controle e supervisão direta de um cargo superior (cadeia de comando nítida).
-* **Profissionalização e Meritocracia:** O funcionário é um especialista remunerado com base no cargo, com carreira estruturada e admitido com base no mérito demonstrado por meio de provas e concursos públicos.
-* **Completa previsibilidade do funcionamento:** Tudo é padronizado para que as decisões ocorram exatamente como previsto pelos regulamentos.
-
-#### B) Disfunções da Burocracia (Robert Merton):
-O sociólogo Robert Merton demonstrou que a tentativa de buscar o máximo de previsibilidade e conformidade gera anomalias patológicas indesejadas na prática gerencial:
-
-* **Deslocamento de Objetivos (*Goal Displacement*):** O apego cego e intransigente aos regulamentos faz com que o cumprimento formal da norma deixe de ser um meio e se torne o objetivo supremo do servidor. O funcionário atende a todas as formalidades burocráticas, mas não resolve a demanda real do cidadão.
-* **Superconformidade e Rigidez Procedimental:** Resistência categórica a qualquer inovação, flexibilização ou mudança de contexto.
-* **Excesso de Formalismo e Papelório (*Red Tape*):** Proliferação desmedida de formulários, assinaturas, carimbos e etapas que retardam o trâmite processual.
-* **Despersonalização do Relacionamento:** Tratamento frio, mecânico e estritamente padronizado dispensado aos cidadãos e colegas, desconsiderando particularidades humanas legítimas.
+> - Na Teoria Clássica inaugurada por Henri Fayol (*Administração Industrial e Geral*, 1916), o ato de administrar fundamenta-se nos seguintes elementos:
+>   1. **Prever** (*Prévoyance*): visualizar o futuro e traçar o programa de ação.
+>   2. **Organizar** (*Organisation*): constituir o duplo organismo material e social da empresa.
+>   3. **Comandar** (*Commandement*): dirigir e orientar o pessoal.
+>   4. **Coordenar** (*Coordination*): harmonizar todos os atos e esforços coletivos.
+>   5. **Controlar** (*Contrôle*): certificar-se de que tudo ocorre conforme as regras estabelecidas e ordens dadas.
+> - A síntese clássica universal é **prever, organizar, comandar, coordenar e controlar**.
+>
+> **Gabarito: B**
 
 ---
 

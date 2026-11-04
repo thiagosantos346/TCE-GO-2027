@@ -117,77 +117,27 @@ O framework do NIST estrutura a computação em nuvem em **Cinco Característica
 ---
 
 ### Teste 455
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A definição do modelo de implantação de computação em nuvem determina o escopo de governança, compartilhamento de infraestrutura física e fronteiras de segurança entre organizações.
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo – TI – Questão Real RAG ID: `V3_FGV_TCE_SC_2026_Q3279`)**  
+O Tribunal de Contas decidiu migrar seu sistema corporativo de e-mail e produtividade de servidores locais on-premises para a suíte em nuvem Microsoft Office 365, deixando de gerenciar servidores físicos, hipervisores, sistema operacional e atualizações de binários do software de correio.  
 
-Considere um consórcio de Tribunais de Contas Estaduais que resolve implantar uma infraestrutura de nuvem conjunta para compartilhar ferramentas de auditoria e bases de jurisprudência, onde a infraestrutura é compartilhada estritamente entre instituições que possuem missões institucionais, requisitos de segurança e preocupações de conformidade comuns.
+No modelo de computação em nuvem do NIST, essa contratação e modelo de serviço classificam-se como:
 
-Segundo a taxonomia do NIST SP 800-145, esse modelo de implantação é classificado formalmente como:
-
-* **A)** Nuvem Pública (*Public Cloud*).
-* **B)** Nuvem Privada Monolítica (*Private Cloud*).
-* **C)** Nuvem Comunitária (*Community Cloud*).
-* **D)** Nuvem Descentralizada P2P (*Peer-to-Peer Cloud*).
-* **E)** Nuvem Não Comercial Externa (*External Off-Grid Cloud*).
-
+* **A)** IaaS (Infrastructure as a Service).
+* **B)** PaaS (Platform as a Service).
+* **C)** SaaS (Software as a Service).
+* **D)** DaaS (Database as a Service).
+* **E)** FaaS (Function as a Service).
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Na *Nuvem Pública*, a infraestrutura é aberta ao público em geral e a qualquer empresa privada.
-> - **B)** Incorreta. A *Nuvem Privada* é provisionada para uso exclusivo de **uma única organização** isoladamente.
-> - **C)** **CORRETA.** A **Nuvem Comunitária (Community Cloud - NIST SP 800-145)**:
->   - É provisionada para uso exclusivo de uma **comunidade específica de organizações** que compartilham interesses, objetivos e requisitos regulatórios comuns (por exemplo: conformidade com a Lei de Responsabilidade Fiscal, auditoria governamental, interoperabilidade do controle externo ou segurança nacional).
->   - Pode ser gerenciada e operada pelas próprias organizações participantes, por uma terceira parte contratada ou por uma combinação mútua, e pode residir física e logicamente dentro ou fora das instalações dos órgãos (*on-premises* ou *off-premises*).
-> - **D)** Incorreta. Modelo inexistente na taxonomia oficial do NIST.
-> - **E)** Incorreta. Categoria inexistente na norma.
-> 
+> - **A) Incorreta.** No IaaS, o provedor fornece infraestrutura básica (máquinas virtuais, discos, redes), cabendo ao cliente instalar e administrar o sistema operacional, middleware e aplicações.
+> - **B) Incorreta.** No PaaS, o provedor fornece o ambiente de execução e desenvolvimento (APIs, runtimes de linguagem), cabendo ao cliente implementar e manter suas próprias aplicações.
+> - **C) CORRETA.** No **SaaS (Software como Serviço)**, o provedor entrega uma aplicação final completa e totalmente funcional acessível pela Internet (webmail, Office 365, Google Workspace). O cliente não gerencia nem controla a infraestrutura subjacente (servidores, redes, SO ou código-fonte da aplicação), limitando-se a configurar usuários e políticas de uso.
+> - **D) e E) Incorretas.** DaaS e FaaS são modelos especializados de banco de dados e execução serverless orientada a eventos, não correspondendo a suítes completas de produtividade de usuário final.
+>
 > **Gabarito: C**
-
----
-
-## 2. Modelos de Serviço e Matriz de Responsabilidade Compartilhada
-
-### 2.1 IaaS, PaaS e SaaS: Estrutura e Escopos de Controle
-
-```mermaid
-flowchart TD
-    subgraph SaaS["SaaS - Software as a Service (ex: Microsoft 365, Google Workspace)"]
-        S1["Provedor gerencia: Data Center, Rede, Hardware, Virtualização, SO, Middleware, Runtime e APLICAÇÃO"]
-        S2["Cliente gerencia: Apenas Usuários, Permissões e DADOS"]
-    end
-    subgraph PaaS["PaaS - Platform as a Service (ex: AWS Elastic Beanstalk, Azure App Service)"]
-        P1["Provedor gerencia: Data Center, Rede, Hardware, Virtualização, SO, Middleware e RUNTIME"]
-        P2["Cliente gerencia: APLICAÇÃO (Código-fonte) e DADOS"]
-    end
-    subgraph IaaS["IaaS - Infrastructure as a Service (ex: AWS EC2, Azure VMs, GCP Compute)"]
-        I1["Provedor gerencia: Data Center Físico, Rede Física, Hardware de Servidores e VIRTUALIZAÇÃO (Hypervisor)"]
-        I2["Cliente gerencia: SISTEMA OPERACIONAL, Patches/Updates, Middleware, Runtime, Aplicação, Firewall de SO e DADOS"]
-    end
-```
-
-- **IaaS (*Infrastructure as a Service*):** O provedor entrega infraestrutura computacional bruta (máquinas virtuais, capacidade de processamento, armazenamento em bloco e interfaces de rede). O cliente instala, configura e mantém o Sistema Operacional convidado, middlewares, bancos de dados e aplicações.
-- **PaaS (*Platform as a Service*):** O provedor entrega uma plataforma de desenvolvimento e execução pronta (runtimes como Node.js, Python, Java, .NET, acompanhados de bancos gerenciados). O desenvolvedor não se preocupa com o sistema operacional, atualizações de segurança ou virtualização; seu foco restringe-se exclusivamente ao código da aplicação e às configurações de negócio.
-- **SaaS (*Software as a Service*):** O provedor disponibiliza um software de aplicação completo e funcional acessível pela Internet (ex.: navegadores web). Toda a pilha técnica (do hardware ao código) é mantida pelo provedor; o cliente gerencia apenas os usuários autorizados e seus dados operacionais.
-
-### 2.2 Matriz de Responsabilidade Compartilhada (Shared Responsibility Model)
-
-A segurança cibernética em nuvem fundamenta-se na **Responsabilidade Compartilhada**:
-
-| Componente da Pilha | Ambiente Local (*On-Premises*) | IaaS | PaaS | SaaS |
-|---|:---:|:---:|:---:|:---:|
-| **Segurança Física do Data Center** | Cliente | **Provedor** | **Provedor** | **Provedor** |
-| **Rede Física e Hardware de Servidores** | Cliente | **Provedor** | **Provedor** | **Provedor** |
-| **Camada de Hipervisor / Virtualização** | Cliente | **Provedor** | **Provedor** | **Provedor** |
-| **Sistema Operacional do Servidor (Guest OS)** | Cliente | **Cliente** | **Provedor** | **Provedor** |
-| **Middleware e Runtimes de Execução** | Cliente | **Cliente** | **Provedor** | **Provedor** |
-| **Código da Aplicação** | Cliente | **Cliente** | **Cliente** | **Provedor** |
-| **Controle de Acessos e Identidades (IAM)** | Cliente | **Cliente** | **Cliente** | **Compartilhado / Cliente** |
-| **Classificação, Governança e Dados** | **Cliente** | **Cliente** | **Cliente** | **Cliente** |
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
-> A responsabilidade pelos **DADOS e pela Classificação da Informação** pertence **SEMPRE E EXCLUSIVAMENTE AO CLIENTE**, em qualquer modelo (IaaS, PaaS ou SaaS). O provedor de nuvem jamais assume o dever legal sobre as autorizações concedidas pelo próprio cliente dentro de seus sistemas.
 
 ---
 
