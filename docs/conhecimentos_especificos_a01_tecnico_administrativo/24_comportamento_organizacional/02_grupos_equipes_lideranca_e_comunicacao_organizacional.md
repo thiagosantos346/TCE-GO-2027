@@ -4,52 +4,50 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `02_grupos_equipes_lideranca_e_comunicacao_organizacional.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Grupos versus Equipes de Trabalho nas organizações:
-    - Conceito de grupo (interação social para compartilhar informações) versus equipe de trabalho (sinergia positiva, esforço coordenado e responsabilidade mútua compartilhada);
-    - Tipologia das equipes: equipes de resolução de problemas, equipes autogerenciadas, equipes multifuncionais (*cross-functional*) e equipes virtuais;
-    - O modelo de desenvolvimento de grupos de Bruce Tuckman: Formação (*Forming*), Conflito/Tormenta (*Storming*), Normatização (*Norming*), Desempenho (*Performing*) e Desintegração (*Adjourning*);
+  - Conceito de grupo (interação social para compartilhar informações) versus equipe de trabalho (sinergia positiva, esforço coordenado e responsabilidade mútua compartilhada);
+  - Tipologia das equipes: equipes de resolução de problemas, equipes autogerenciadas, equipes multifuncionais (*cross-functional*) e equipes virtuais;
+  - O modelo de desenvolvimento de grupos de Bruce Tuckman: Formação (*Forming*), Conflito/Tormenta (*Storming*), Normatização (*Norming*), Desempenho (*Performing*) e Desintegração (*Adjourning*);
 - Teorias e Estilos de Liderança:
-    - Conceito de liderança e a distinção clássica entre Líder (influência legítima conquistada) e Chefe/Gerente (autoridade formal outorgada);
-    - Teoria dos Traços de Personalidade e suas limitações históricas;
-    - Teorias Comportamentais: estilos clássicos de White e Lippitt (Autocrática, Democrática e Liberal / *Laissez-Faire*); o *Grid Gerencial* de Blake e Mouton (tarefa vs. pessoas);
-    - Teorias Situacionais e Contingenciais:
-    - O Modelo de Fred Fiedler (escala CMP e favorabilidade situacional);
-    - A Teoria da Liderança Situacional de Paul Hersey e Kenneth Blanchard (maturidade dos liderados M1 a M4: Determinar, Persuadir, Compartilhar e Delegar);
-    - Teoria Caminho-Meta (*Path-Goal*) de Robert House (diretivo, apoiador, participativo e orientado para conquista);
-    - Abordagens Contemporâneas de Liderança:
-    - Liderança Transacional (troca de recompensas contingentes e gestão por exceção) versus Liderança Transformacional (os 4 Is de Bass: influência idealizada, motivação inspiradora, estimulação intelectual e consideração individualizada);
-    - Liderança Servidora (*Servant Leadership*) e Liderança Autêntica;
+  - Conceito de liderança e a distinção clássica entre Líder (influência legítima conquistada) e Chefe/Gerente (autoridade formal outorgada);
+  - Teoria dos Traços de Personalidade e suas limitações históricas;
+  - Teorias Comportamentais: estilos clássicos de White e Lippitt (Autocrática, Democrática e Liberal / *Laissez-Faire*); o *Grid Gerencial* de Blake e Mouton (tarefa vs. pessoas);
+  - Teorias Situacionais e Contingenciais:
+  - O Modelo de Fred Fiedler (escala CMP e favorabilidade situacional);
+  - A Teoria da Liderança Situacional de Paul Hersey e Kenneth Blanchard (maturidade dos liderados M1 a M4: Determinar, Persuadir, Compartilhar e Delegar);
+  - Teoria Caminho-Meta (*Path-Goal*) de Robert House (diretivo, apoiador, participativo e orientado para conquista);
+  - Abordagens Contemporâneas de Liderança:
+  - Liderança Transacional (troca de recompensas contingentes e gestão por exceção) versus Liderança Transformacional (os 4 Is de Bass: influência idealizada, motivação inspiradora, estimulação intelectual e consideração individualizada);
+  - Liderança Servidora (*Servant Leadership*) e Liderança Autêntica;
 - Processo de Comunicação Organizacional:
-    - Elementos do processo comunicacional: emissor, codificação, mensagem, canal, ruído, decodificação, receptor e *feedback*;
-    - Fluxos e redes de comunicação: descendente, ascendente, horizontal/lateral e diagonal;
-    - Barreiras à comunicação interpessoal: filtragem deliberada, percepção seletiva, sobrecarga informacional, desconfiança e barreiras semânticas.
+  - Elementos do processo comunicacional: emissor, codificação, mensagem, canal, ruído, decodificação, receptor e *feedback*;
+  - Fluxos e redes de comunicação: descendente, ascendente, horizontal/lateral e diagonal;
+  - Barreiras à comunicação interpessoal: filtragem deliberada, percepção seletiva, sobrecarga informacional, desconfiança e barreiras semânticas.
 
 ---
 
 ## 🧭 Sumário
 
 1. [Grupos de Trabalho versus Equipes de Trabalho](#1-grupos-de-trabalho-versus-equipes-de-trabalho)
-    - [Teste 410](#teste-410)
-    - [Teste 411](#teste-411)
+    1. [Teste 410](#teste-410)
+    1. [Teste 411](#teste-411)
 2. [O Modelo de Desenvolvimento de Grupos de Bruce Tuckman](#2-o-modelo-de-desenvolvimento-de-grupos-de-bruce-tuckman)
-    - [Teste 412](#teste-412)
-    - [Teste 413](#teste-413)
-3. [Evolução das Teorias de Liderança e a Liderança Situacional](#3-evolucao-das-teorias-de-lideranca-e-a-lideranca-situacional)
-    - [Teste 414](#teste-414)
-    - [Teste 415](#teste-415)
-4. [Liderança Transacional vs. Liderança Transformacional](#4-lideranca-transacional-vs-lideranca-transformacional)
-    - [Teste 416](#teste-416)
-5. [O Processo de Comunicação Organizacional e suas Barreiras](#5-o-processo-de-comunicacao-organizacional-e-suas-barreiras)
-    - [Teste 417](#teste-417)
-    - [Teste 418](#teste-418)
-    - [Teste 419](#teste-419)
-6. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referencias-bibliograficas)
+    1. [Teste 412](#teste-412)
+    1. [Teste 413](#teste-413)
+3. [Evolução das Teorias de Liderança e a Liderança Situacional](#3-evolução-das-teorias-de-liderança-e-a-liderança-situacional)
+    1. [Teste 414](#teste-414)
+    1. [Teste 415](#teste-415)
+4. [Liderança Transacional vs. Liderança Transformacional](#4-liderança-transacional-vs-liderança-transformacional)
+    1. [Teste 416](#teste-416)
+5. [O Processo de Comunicação Organizacional e suas Barreiras](#5-o-processo-de-comunicação-organizacional-e-suas-barreiras)
+    1. [Teste 417](#teste-417)
+    1. [Teste 418](#teste-418)
+    1. [Teste 419](#teste-419)
+6. [Fontes Oficiais e Referências Bibliográficas](#6-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -67,7 +65,7 @@ flowchart TD
             G3["Responsabilidade: Individual e isolada"]
             G4["Habilidades: Randômicas e variadas"]
         end
-        
+  
         subgraph Equipe ["EQUIPE DE TRABALHO"]
             E1["Objetivo: Desempenho coletivo conjunto"]
             E2["Sinergia: POSITIVA (1 + 1 > 2)"]
@@ -77,7 +75,7 @@ flowchart TD
     end
 ```
 
-#### Tabela Comparativa Analítica:
+#### Tabela Comparativa Analítica
 
 | Dimensão | Grupo de Trabalho | Equipe de Trabalho |
 | :--- | :--- | :--- |
@@ -86,7 +84,8 @@ flowchart TD
 | **Responsabilidade** | Individual e isolada (cada um responde unicamente por seu quinhão). | **Mútua e solidária** (todos respondem pelo sucesso ou insucesso da entrega). |
 | **Habilidades** | Aleatórias, sobrepostas ou desarticuladas. | **Complementares** (conhecimentos técnicos diversos que se completam). |
 
-#### Tipologia das Equipes nas Organizações:
+#### Tipologia das Equipes nas Organizações
+
 1. **Equipes de Resolução de Problemas:** Grupos temporários formados por servidores do mesmo setor que se reúnem semanalmente para propor melhorias em processos e rotinas.
 2. **Equipes Autogerenciadas:** Equipes autônomas com elevado poder decisório, que executam tarefas operacionais completas, elegem seus líderes rotativos e planejam suas próprias escalas de trabalho sem supervisão hierárquica direta constante.
 3. **Equipes Multifuncionais (*Cross-Functional*):** Reúnem profissionais de diferentes áreas funcionais (ex.: auditor contábil, analista de TI, engenheiro de obras e procurador jurídico) para trabalhar em projetos interdisciplinares complexos.
@@ -98,15 +97,15 @@ flowchart TD
 ---
 
 ### Teste 410
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da distinção conceitual entre Grupos de Trabalho e Equipes de Trabalho segundo a literatura especializada de comportamento organizacional, assinale a opção correta:
 
-* **A)** Em um grupo de trabalho, a responsabilidade pelos resultados é solidária e mútua entre todos os integrantes, inexistindo metas isoladas.
-* **B)** As equipes de trabalho caracterizam-se por apresentar sinergia positiva, na qual o desempenho coletivo conjunto é superior à soma das contribuições individuais isoladas.
-* **C)** Os grupos de trabalho dependem compulsoriamente de habilidades técnicas altamente complementares entre seus membros.
-* **D)** Em uma equipe de trabalho, a sinergia é sempre neutra, limitando-se os integrantes a trocar informações de rotina sem compromisso mútuo com as metas.
-* **E)** As equipes autogerenciadas são aquelas nas quais o gestor superior centraliza todas as decisões operacionais sem delegar autoridade aos membros.
-
+- **A)** Em um grupo de trabalho, a responsabilidade pelos resultados é solidária e mútua entre todos os integrantes, inexistindo metas isoladas.
+- **B)** As equipes de trabalho caracterizam-se por apresentar sinergia positiva, na qual o desempenho coletivo conjunto é superior à soma das contribuições individuais isoladas.
+- **C)** Os grupos de trabalho dependem compulsoriamente de habilidades técnicas altamente complementares entre seus membros.
+- **D)** Em uma equipe de trabalho, a sinergia é sempre neutra, limitando-se os integrantes a trocar informações de rotina sem compromisso mútuo com as metas.
+- **E)** As equipes autogerenciadas são aquelas nas quais o gestor superior centraliza todas as decisões operacionais sem delegar autoridade aos membros.
 
 ---
 
@@ -117,23 +116,23 @@ A respeito da distinção conceitual entre Grupos de Trabalho e Equipes de Traba
 > - **C) Incorreta.** As habilidades complementares são requisito essencial das **equipes**, ao passo que nos grupos as habilidades são aleatórias.  
 > - **D) Incorreta.** A sinergia neutra e a mera troca de dados caracterizam os grupos, e não as equipes.  
 > - **E) Incorreta.** As equipes autogerenciadas possuem altíssima autonomia decisória, operando sem supervisão direta diária.  
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 411
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No Comportamento Organizacional, a distinção entre **Grupo de Trabalho** e **Equipe de Trabalho** é fundamental para a gestão de pessoas.
 
 Constitui característica essencial e distintiva de uma **Equipe de Trabalho** de alto desempenho:
 
-* **A)** A sinergia positiva gerada pelo esforço coordenado dos membros, resultando em um nível de desempenho coletivo maior do que a simples soma das contribuições individuais, com responsabilidade tanto individual quanto mútua.
-* **B)** A independência estrita de objetivos, de tal modo que o sucesso de um membro prescinda do esforço dos demais.
-* **C)** A concentração exclusiva das decisões na figura do chefe hierárquico formal, sem participação da equipe.
-* **D)** A inexistência de complementaridade de habilidades técnicas entre os colaboradores.
-* **E)** O foco exclusivo na produtividade individual isolada sem metas coletivas compartilhadas.
-
+- **A)** A sinergia positiva gerada pelo esforço coordenado dos membros, resultando em um nível de desempenho coletivo maior do que a simples soma das contribuições individuais, com responsabilidade tanto individual quanto mútua.
+- **B)** A independência estrita de objetivos, de tal modo que o sucesso de um membro prescinda do esforço dos demais.
+- **C)** A concentração exclusiva das decisões na figura do chefe hierárquico formal, sem participação da equipe.
+- **D)** A inexistência de complementaridade de habilidades técnicas entre os colaboradores.
+- **E)** O foco exclusivo na produtividade individual isolada sem metas coletivas compartilhadas.
 
 ---
 
@@ -141,7 +140,7 @@ Constitui característica essencial e distintiva de uma **Equipe de Trabalho** d
 >
 > - **A)** Correta. Diferença crucial: em um **Grupo de Trabalho**, o objetivo é apenas compartilhar informações e a sinergia é neutra (às vezes negativa), com responsabilidade apenas individual; em uma **Equipe de Trabalho**, há metas coletivas claras, habilidades complementares, responsabilidade mútua/compartilhada e **sinergia positiva** (o todo é superior à soma das partes).
 > - **B), C), D), E)** Incorretas. Descrevem grupos de trabalho tradicionais ou unidades individualizadas.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -167,14 +166,15 @@ flowchart LR
 ---
 
 ### Teste 412
+
 **(FGV – TJ/SC – 2026 – Analista Administrativo – Questão Real RAG ID: `V3_FGV_TJ_SC_2026_Q0031`)**  
 A respeito das teorias de liderança e dos estilos de liderança desenvolvidos nos estudos de Comportamento Organizacional, a abordagem clássica de White e Lippitt classifica os estilos de liderança em três estilos fundamentais, a saber:
 
-* **A)** Autocrático, Democrático e Liberal (*Laissez-faire*).
-* **B)** Burocrático, Paternalista e Carismático.
-* **C)** Transacional, Transformacional e Situacional.
-* **D)** Diretivo, Participativo e Visionário.
-* **E)** Focado na Tarefa, Focado no Relacionamento e Focado na Inovação.
+- **A)** Autocrático, Democrático e Liberal (*Laissez-faire*).
+- **B)** Burocrático, Paternalista e Carismático.
+- **C)** Transacional, Transformacional e Situacional.
+- **D)** Diretivo, Participativo e Visionário.
+- **E)** Focado na Tarefa, Focado no Relacionamento e Focado na Inovação.
 
 ---
 
@@ -190,17 +190,17 @@ A respeito das teorias de liderança e dos estilos de liderança desenvolvidos n
 ---
 
 ### Teste 413
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Bruce Tuckman propôs um modelo seminal que descreve os cinco estágios universais pelos quais passam os grupos e equipes ao longo de seu ciclo de desenvolvimento.
 
 O estágio em que o grupo supera conflitos internos de poder, estabelece coesão, define normas claras de convivência e desenvolve forte sentimento de identidade e camaradagem mútua é denominado:
 
-* **A)** Normatização (Norming).
-* **B)** Formação (Forming).
-* **C)** Conflito / Tempestade (Storming).
-* **D)** Desempenho (Performing).
-* **E)** Desintegração / Dissolução (Adjourning).
-
+- **A)** Normatização (Norming).
+- **B)** Formação (Forming).
+- **C)** Conflito / Tempestade (Storming).
+- **D)** Desempenho (Performing).
+- **E)** Desintegração / Dissolução (Adjourning).
 
 ---
 
@@ -208,7 +208,7 @@ O estágio em que o grupo supera conflitos internos de poder, estabelece coesão
 >
 > - **A)** Correta. Os 5 estágios de Tuckman: (1) **Formação (Forming)**: incerteza e orientação inicial; (2) **Tempestade/Conflito (Storming)**: disputas de liderança e atritos interpessoais; (3) **Normatização (Norming)**: estabelecimento de coesão, normas aceitas, alinhamento e regras de conduta; (4) **Desempenho (Performing)**: energia focada na execução produtiva da tarefa; (5) **Desintegração (Adjourning)**: conclusão e encerramento dos trabalhos.
 > - **B), C), D), E)** Incorretas. Referem-se a outros estágios do ciclo de Tuckman.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -220,14 +220,15 @@ A liderança é o processo social de exercer influência legítima e voluntária
 ```mermaid
 flowchart TD
     Evol["Evolução das Teorias de Liderança"]
-    
+  
     Evol --> T1["1. Teoria dos Traços (Inatista)<br/>Foco em características inatas físicas, sociais e intelectuais ('Líder nasce feito')"]
     Evol --> T2["2. Teorias Comportamentais<br/>Foco no comportamento observável do líder: Autocrático, Democrático e Liberal (White e Lippitt)"]
     Evol --> T3["3. Teorias Situacionais / Contingenciais<br/>A eficácia depende da adequação do estilo do líder às variáveis da situação (Fiedler, Hersey & Blanchard)"]
     Evol --> T4["4. Abordagens Contemporâneas<br/>Liderança Transacional, Transformacional, Servidora e Autêntica"]
 ```
 
-#### A Teoria da Liderança Situacional de Paul Hersey e Kenneth Blanchard:
+#### A Teoria da Liderança Situacional de Paul Hersey e Kenneth Blanchard
+
 Postula que não existe um estilo único e universal de liderança. O estilo ideal **depende da prontidão ou maturidade** dos liderados, categorizada em quatro níveis:
 
 ```mermaid
@@ -235,11 +236,11 @@ flowchart TD
     subgraph Lideranca_Situacional ["Modelo Situacional de Hersey & Blanchard"]
         direction TB
         M1["M1: Inapto e Inseguro / Desmotivado"] -->|Exige Estilo E1| E1["E1: DETERMINAR (DIREÇÃO)<br/>• Alto Foco na Tarefa / Baixo no Relacionamento<br/>• O líder diz exatamente o que, como e quando fazer"]
-        
+  
         M2["M2: Inapto, mas Motivado / Entusiasta"] -->|Exige Estilo E2| E2["E2: PERSUADIR (ORIENTAÇÃO)<br/>• Alto Foco na Tarefa / Alto no Relacionamento<br/>• O líder ensina a tarefa e apoia o entusiasmo"]
-        
+  
         M3["M3: Apto tecnicamente, mas Inseguro"] -->|Exige Estilo E3| E3["E3: COMPARTILHAR (APOIO)<br/>• Baixo Foco na Tarefa / Alto no Relacionamento<br/>• O líder ouve, estimula a confiança e decide junto"]
-        
+  
         M4["M4: Apto tecnicamente e Seguro / Autônomo"] -->|Exige Estilo E4| E4["E4: DELEGAR (AUTONOMIA)<br/>• Baixo Foco na Tarefa / Baixo no Relacionamento<br/>• O líder confere total autonomia decisória"]
     end
 ```
@@ -253,15 +254,15 @@ flowchart TD
 ---
 
 ### Teste 414
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da Teoria da Liderança Situacional proposta por Paul Hersey e Kenneth Blanchard, considere um grupo de servidores recém-aprovados em concurso público que acaba de ser lotado em uma gerência de fiscalização contábil. Os novos servidores apresentam grande entusiasmo e disposição para aprender, todavia desconhecem completamente as normas regimentais específicas e as ferramentas operacionais do sistema informatizado de controle externo (nível de maturidade M2). De acordo com a teoria, o estilo de liderança mais apropriado a ser adotado pelo gestor da unidade é:
 
-* **A)** Estilo de Delegação (baixo comportamento de tarefa e baixo comportamento de relacionamento).
-* **B)** Estilo de Persuasão / Orientação (alto comportamento de tarefa e alto comportamento de relacionamento).
-* **C)** Estilo de Não Intervenção / Laissez-Faire (isenção de qualquer comando diretivo ou cobrança de metas).
-* **D)** Estilo Apoiador Exclusivo (baixo comportamento de tarefa e alto comportamento de relacionamento).
-* **E)** Estilo de Imposição Burocrática Inflexível sem concessão de explicações pedagógicas.
-
+- **A)** Estilo de Delegação (baixo comportamento de tarefa e baixo comportamento de relacionamento).
+- **B)** Estilo de Persuasão / Orientação (alto comportamento de tarefa e alto comportamento de relacionamento).
+- **C)** Estilo de Não Intervenção / Laissez-Faire (isenção de qualquer comando diretivo ou cobrança de metas).
+- **D)** Estilo Apoiador Exclusivo (baixo comportamento de tarefa e alto comportamento de relacionamento).
+- **E)** Estilo de Imposição Burocrática Inflexível sem concessão de explicações pedagógicas.
 
 ---
 
@@ -272,23 +273,23 @@ A respeito da Teoria da Liderança Situacional proposta por Paul Hersey e Kennet
 > - **C) Incorreta.** Laissez-faire é a ausência de liderança, prejudicial para iniciantes.  
 > - **D) Incorreta.** O estilo apoiador (E3) destina-se a pessoas aptas tecnicamente, mas inseguras (M3).  
 > - **E) Incorreta.** O mero autoritarismo mina a motivação e não transmite competência.  
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 415
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na Teoria da Liderança Situacional formulada por Paul Hersey e Kenneth Blanchard, o estilo de liderança mais eficaz não é fixo, mas depende do nível de **prontidão (ou maturidade)** dos liderados para desempenhar uma tarefa específica.
 
 Quando os liderados apresentam **baixa competência e alto comprometimento/motivação** (estágio de maturidade M1), o estilo de liderança mais indicado pelo modelo é:
 
-* **A)** Determinar / Direcionar (E1 - Direção), caracterizado por alto comportamento para a tarefa e baixo comportamento para o relacionamento (instruções claras e supervisão estrita).
-* **B)** Delegar (E4 - Delegação), retirando toda a supervisão e deixando o liderado agir por conta própria.
-* **C)** Apoiar / Participar (E3 - Apoio), com foco exclusivo em suporte afetivo e baixa orientação sobre como executar a tarefa.
-* **D)** Autocracia repressiva punitiva com ameaça de abertura de processo administrativo.
-* **E)** Demissão sumária por insuficiência de capacitação técnica.
-
+- **A)** Determinar / Direcionar (E1 - Direção), caracterizado por alto comportamento para a tarefa e baixo comportamento para o relacionamento (instruções claras e supervisão estrita).
+- **B)** Delegar (E4 - Delegação), retirando toda a supervisão e deixando o liderado agir por conta própria.
+- **C)** Apoiar / Participar (E3 - Apoio), com foco exclusivo em suporte afetivo e baixa orientação sobre como executar a tarefa.
+- **D)** Autocracia repressiva punitiva com ameaça de abertura de processo administrativo.
+- **E)** Demissão sumária por insuficiência de capacitação técnica.
 
 ---
 
@@ -298,7 +299,7 @@ Quando os liderados apresentam **baixa competência e alto comprometimento/motiv
 > - **B)** Incorreta. Delegação (E4) exige maturidade máxima (M4 - alta competência e alto comprometimento).
 > - **C)** Incorreta. Apoiar (E3) aplica-se a liderados com alta competência, mas segurança/motivação vacilante (M3).
 > - **D), E)** Incorretas. Não fazem parte dos pressupostos teóricos do modelo situacional.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -308,11 +309,12 @@ Quando os liderados apresentam **baixa competência e alto comprometimento/motiv
 ```mermaid
 flowchart LR
     Trans["LIDERANÇA TRANSACIONAL<br/>• Foco na Rotina e Estabilidade<br/>• Relação de troca contratual utilitária<br/>• Gestão por Exceção (apenas pune erros)<br/>• Entrega o resultado previamente acordado"]
-    
+  
     Transform["LIDERANÇA TRANSFORMACIONAL<br/>• Foco na Mudança e Inovação<br/>• Inspiração por valores, propósito e ética<br/>• Estimulação intelectual e desafio contínuo<br/>• Entrega resultados que transcendem metas"]
 ```
 
-#### Os Quatro Pilares da Liderança Transformacional (Bernard Bass - Os "4 Is"):
+#### Os Quatro Pilares da Liderança Transformacional (Bernard Bass - Os "4 Is")
+
 1. **Influência Idealizada (Carisma):** O líder atua como modelo ético e moral a ser imitado, despertando orgulho institucional, respeito incondicional e lealdade nos subordinados.
 2. **Motivação Inspiradora:** O líder comunica uma visão estimulante do futuro com entusiasmo e energia contagiante, demonstrando como o esforço de cada analista contribui para um propósito grandioso.
 3. **Estimulação Intelectual:** O líder encoraja os liderados a desafiarem o conformismo e o comodismo do *status quo*, instigando-os a repensar processos burocráticos e a sugerir soluções inovadoras sem medo de errar.
@@ -321,15 +323,15 @@ flowchart LR
 ---
 
 ### Teste 416
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito dos estudos sobre liderança nas organizações contemporâneas, o modelo de Liderança Transformacional diferencia-se da Liderança Transacional fundamentalmente porque:
 
-* **A)** A liderança transformacional fundamenta-se estritamente na concessão de incentivos financeiros contingentes ao atingimento das metas contratuais acordadas.
-* **B)** O líder transformacional inspira e estimula seus seguidores a transcenderem seus interesses individuais em prol da missão e dos valores superiores da organização, promovendo profundas mudanças culturais.
-* **C)** A liderança transacional rejeita qualquer tipo de recompensa ou cobrança de cumprimento de rotinas operacionais.
-* **D)** O líder transformacional restringe sua atuação à gestão por exceção, intervindo unicamente quando ocorrem falhas graves na linha de montagem.
-* **E)** A liderança transformacional é restrita a estruturas organizacionais mecanicistas e lineares do setor militar.
-
+- **A)** A liderança transformacional fundamenta-se estritamente na concessão de incentivos financeiros contingentes ao atingimento das metas contratuais acordadas.
+- **B)** O líder transformacional inspira e estimula seus seguidores a transcenderem seus interesses individuais em prol da missão e dos valores superiores da organização, promovendo profundas mudanças culturais.
+- **C)** A liderança transacional rejeita qualquer tipo de recompensa ou cobrança de cumprimento de rotinas operacionais.
+- **D)** O líder transformacional restringe sua atuação à gestão por exceção, intervindo unicamente quando ocorrem falhas graves na linha de montagem.
+- **E)** A liderança transformacional é restrita a estruturas organizacionais mecanicistas e lineares do setor militar.
 
 ---
 
@@ -340,7 +342,7 @@ No âmbito dos estudos sobre liderança nas organizações contemporâneas, o mo
 > - **C) Incorreta.** A liderança transacional apoia-se exatamente na cobrança de rotinas e trocas formais de incentivos.  
 > - **D) Incorreta.** Gestão por exceção é atributo típico da liderança **transacional**.  
 > - **E) Incorreta.** A liderança transformacional é amplamente aplicada e valorizada em órgãos públicos modernos e democráticos.  
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -355,24 +357,26 @@ flowchart LR
     M -->|Canal de Transmissão| D["Decodificação<br/>(Interpretação)"]
     D --> R["Receptor<br/>(Destinatário)"]
     R -.->|Feedback / Retroalimentação| E
-    
+  
     subgraph Ruidos ["Ruídos e Barreiras Comunicacionais"]
         Ruido["• Filtragem deliberada de más notícias<br/>• Percepção Seletiva de preconceitos<br/>• Sobrecarga de dados e informações<br/>• Barreiras Semânticas e jargões herméticos"]
     end
     Ruidos -.-> M
 ```
 
-#### A) Direções dos Fluxos de Comunicação:
-* **Fluxo Descendente (Top-Down):** Da cúpula para a base (diretrizes estratégicas, políticas regimentais, ordens de serviço e memorandos de chefia).
-* **Fluxo Ascendente (Bottom-Up):** Da base operacional para a alta direção (relatórios de fiscalização, sugestões de melhoria, queixas e pedidos de esclarecimento).
-* **Fluxo Horizontal / Lateral:** Entre colegas de trabalho do mesmo nível hierárquico (coordenação interdisciplinar e alinhamento mútuo entre auditores).
-* **Fluxo Diagonal:** Entre setores e níveis hierárquicos distintos (ex.: auditor de campo comunicando-se diretamente com o diretor de TI para ajustar um software).
+#### A) Direções dos Fluxos de Comunicação
 
-#### B) Principais Barreiras Comunicacionais Cobradas pela FCC:
-* **Filtragem:** Manipulação deliberada da mensagem pelo emissor para que ela seja recebida de modo mais favorável ou menos punitivo pelo superior hierárquico (ex.: servidor que oculta intencionalmente atrasos de cronograma em seu relatório para não se indispor com o diretor).
-* **Percepção Seletiva:** Tendência psicológica pela qual o receptor escuta e decodifica a mensagem com base em seus próprios preconceitos, interesses pessoais, necessidades ou histórico de vida, ignorando partes cruciais do conteúdo.
-* **Sobrecarga de Informação:** Ocorre quando o volume de dados e despachos supera a capacidade cognitiva de processamento do servidor, gerando esquecimentos, estresse e atrasos processuais.
-* **Barreiras Semânticas:** Utilização de termos ambíguos, abreviações herméticas ou jargões excessivamente técnicos que impedem o receptor de decodificar com precisão o que foi emitido.
+- **Fluxo Descendente (Top-Down):** Da cúpula para a base (diretrizes estratégicas, políticas regimentais, ordens de serviço e memorandos de chefia).
+- **Fluxo Ascendente (Bottom-Up):** Da base operacional para a alta direção (relatórios de fiscalização, sugestões de melhoria, queixas e pedidos de esclarecimento).
+- **Fluxo Horizontal / Lateral:** Entre colegas de trabalho do mesmo nível hierárquico (coordenação interdisciplinar e alinhamento mútuo entre auditores).
+- **Fluxo Diagonal:** Entre setores e níveis hierárquicos distintos (ex.: auditor de campo comunicando-se diretamente com o diretor de TI para ajustar um software).
+
+#### B) Principais Barreiras Comunicacionais Cobradas pela FCC
+
+- **Filtragem:** Manipulação deliberada da mensagem pelo emissor para que ela seja recebida de modo mais favorável ou menos punitivo pelo superior hierárquico (ex.: servidor que oculta intencionalmente atrasos de cronograma em seu relatório para não se indispor com o diretor).
+- **Percepção Seletiva:** Tendência psicológica pela qual o receptor escuta e decodifica a mensagem com base em seus próprios preconceitos, interesses pessoais, necessidades ou histórico de vida, ignorando partes cruciais do conteúdo.
+- **Sobrecarga de Informação:** Ocorre quando o volume de dados e despachos supera a capacidade cognitiva de processamento do servidor, gerando esquecimentos, estresse e atrasos processuais.
+- **Barreiras Semânticas:** Utilização de termos ambíguos, abreviações herméticas ou jargões excessivamente técnicos que impedem o receptor de decodificar com precisão o que foi emitido.
 
 > 🛑 **ATENÇÃO (FILTRAGEM NA COMUNICAÇÃO):**  
 > Se a questão descrever um servidor que altera os relatórios antes de entregar ao diretor, omitindo dados negativos para que a situação pareça sob controle, o conceito técnico é a **FILTRAGEM** da informação!
@@ -380,15 +384,15 @@ flowchart LR
 ---
 
 ### Teste 417
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante a elaboração de um relatório de fiscalização, determinado analista deliberadamente omitiu informações cruciais sobre irregularidades graves na conservação da malha rodoviária, selecionando e apresentando apenas dados favoráveis à concessionária, com o objetivo expresso de evitar atritos com seu superior hierárquico e fazer com que o documento parecesse positivo. No processo de comunicação organizacional, a conduta desse servidor materializa a barreira denominada:
 
-* **A)** Sobrecarga informacional.
-* **B)** Filtragem da informação.
-* **C)** Barreira de decodificação receptiva.
-* **D)** Ruído semântico involuntário.
-* **E)** Percepção sensorial dilatada.
-
+- **A)** Sobrecarga informacional.
+- **B)** Filtragem da informação.
+- **C)** Barreira de decodificação receptiva.
+- **D)** Ruído semântico involuntário.
+- **E)** Percepção sensorial dilatada.
 
 ---
 
@@ -399,23 +403,23 @@ Durante a elaboração de um relatório de fiscalização, determinado analista 
 > - **C) Incorreta.** A omissão partiu do emissor no momento do envio, e não da decodificação pelo receptor.  
 > - **D) Incorreta.** Ruídos semânticos dizem respeito a palavras ambíguas ou jargões incompreendidos, sem má-fé deliberada.  
 > - **E) Incorreta.** Conceito sem pertinência técnica com o processo de comunicação.  
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 418
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na moderna literatura sobre liderança, Bernard Bass consagrou a contraposição entre **Liderança Transacional** e **Liderança Transformacional**.
 
 Constitui característica marcante da **Liderança Transformacional**:
 
-* **A)** Inspirar e motivar os liderados a transcender seus interesses individuais em prol da missão coletiva da organização, estimulando a inovação, o questionamento construtivo e o desenvolvimento pessoal por meio da consideração individualizada e do estímulo intelectual.
-* **B)** Basear-se exclusivamente em trocas contratuais de curto prazo, onde o líder apenas concede recompensas financeiras em troca do cumprimento estrito de metas.
-* **C)** Utilizar primordialmente a gestão por exceção passiva, intervindo apenas quando falhas graves já ocorreram.
-* **D)** Concentrar todo o poder e evitar que os servidores desenvolvam pensamento crítico autônomo.
-* **E)** Punir severamente os liderados que apresentarem ideias inovadoras contrárias aos regulamentos tradicionais.
-
+- **A)** Inspirar e motivar os liderados a transcender seus interesses individuais em prol da missão coletiva da organização, estimulando a inovação, o questionamento construtivo e o desenvolvimento pessoal por meio da consideração individualizada e do estímulo intelectual.
+- **B)** Basear-se exclusivamente em trocas contratuais de curto prazo, onde o líder apenas concede recompensas financeiras em troca do cumprimento estrito de metas.
+- **C)** Utilizar primordialmente a gestão por exceção passiva, intervindo apenas quando falhas graves já ocorreram.
+- **D)** Concentrar todo o poder e evitar que os servidores desenvolvam pensamento crítico autônomo.
+- **E)** Punir severamente os liderados que apresentarem ideias inovadoras contrárias aos regulamentos tradicionais.
 
 ---
 
@@ -424,21 +428,21 @@ Constitui característica marcante da **Liderança Transformacional**:
 > - **A)** Correta. A **Liderança Transformacional** fundamenta-se nos quatro pilares clássicos ("Os 4 Is" de Bass): Influência Idealizada (carisma e credibilidade), Motivação Inspiracional (visão de futuro compartilhada), Estímulo Intelectual (incentivo à criatividade e solução de problemas) e Consideração Individualizada (atenção personalizada às necessidades de cada liderado).
 > - **B), C)** Incorretas. Características definidoras da **Liderança Transacional** (recompensa contingente e gerência por exceção).
 > - **D), E)** Incorretas. Posturas de chefia autoritária e punitiva.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 419
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No processo de comunicação organizacional, a barreira que ocorre quando o emissor manipula deliberadamente as informações para que sejam vistas de modo mais favorável e lisonjeiro pelo receptor (muito comum em relações verticais ascendentes em que subordinados ocultam más notícias de seus chefes) é denominada:
 
-* **A)** Filtragem.
-* **B)** Percepção Seletiva.
-* **C)** Sobrecarga de Informação.
-* **D)** Ruído Semântico.
-* **E)** Linguagem Não Verbal Involuntária.
-
+- **A)** Filtragem.
+- **B)** Percepção Seletiva.
+- **C)** Sobrecarga de Informação.
+- **D)** Ruído Semântico.
+- **E)** Linguagem Não Verbal Involuntária.
 
 ---
 
@@ -449,18 +453,18 @@ No processo de comunicação organizacional, a barreira que ocorre quando o emis
 > - **C)** Incorreta. Sobrecarga é a incapacidade de processar o excesso de mensagens.
 > - **D)** Incorreta. Ruído semântico decorre de palavras com duplo sentido ou jargões incompreendidos.
 > - **E)** Incorreta. Gestos corporais e expressões faciais.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ## 6. Fontes Oficiais e Referências Bibliográficas
 
-* [Decreto Federal nº 9.203/2017 (Mecanismo de Liderança na Governança)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Práticas para desenvolvimento de líderes, comunicação transparente e conduta ética.
-* [TCU - Referencial Básico de Governança: Práticas do Mecanismo de Liderança](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Competências de liderança e papel dos gestores na motivação de equipes públicas.
-* [TCE-GO - Código de Ética e Relações Interpessoais](https://portal.tce.go.gov.br/documents/20181/574123/C%C3%B3digo+de+%C3%89tica/056863be-6768-4c35-a6e8-ccdd40421211) - Normas de respeito interpessoal, cooperação e comunicação interna no tribunal.
-* [Scrum Guide 2020 Oficial (Liderança Servidora e Equipes)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) - Princípios de liderança servidora, autogestão e dinâmicas de colaboração em equipes.
-* [Decreto Federal nº 11.072/2022 (Gestão de Equipes no Teletrabalho e PGD)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11072.htm) - Planejamento e comunicação de equipes que operam em regime presencial e remoto.
-* ROBBINS, Stephen P.; JUDGE, Timothy A.; SOBRAL, Filipe. **Comportamento Organizacional: Teoria e Prática no Contexto Brasileiro**. 14. ed. São Paulo: Pearson Prentice Hall, 2010. (Cap. 9 - Comportamento em Grupo; Cap. 10 - Equipes de Trabalho; Cap. 11 - Comunicação; Cap. 12 - Liderança).
-* CHIAVENATO, Idalberto. **Comportamento Organizacional: A Dinâmica do Sucesso das Organizações**. 4. ed. São Paulo: Atlas, 2021. (Cap. 9 - Equipes de Alto Desempenho; Cap. 11 - Liderança, Poder e Influência).
-* TUCKMAN, Bruce W. **Developmental Sequence in Small Groups**. Psychological Bulletin, v. 63, n. 6, p. 384-399, 1965.
+- [Decreto Federal nº 9.203/2017 (Mecanismo de Liderança na Governança)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Práticas para desenvolvimento de líderes, comunicação transparente e conduta ética.
+- [TCU - Referencial Básico de Governança: Práticas do Mecanismo de Liderança](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Competências de liderança e papel dos gestores na motivação de equipes públicas.
+- [TCE-GO - Código de Ética e Relações Interpessoais](https://portal.tce.go.gov.br/documents/20181/574123/C%C3%B3digo+de+%C3%89tica/056863be-6768-4c35-a6e8-ccdd40421211) - Normas de respeito interpessoal, cooperação e comunicação interna no tribunal.
+- [Scrum Guide 2020 Oficial (Liderança Servidora e Equipes)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) - Princípios de liderança servidora, autogestão e dinâmicas de colaboração em equipes.
+- [Decreto Federal nº 11.072/2022 (Gestão de Equipes no Teletrabalho e PGD)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11072.htm) - Planejamento e comunicação de equipes que operam em regime presencial e remoto.
+- ROBBINS, Stephen P.; JUDGE, Timothy A.; SOBRAL, Filipe. **Comportamento Organizacional: Teoria e Prática no Contexto Brasileiro**. 14. ed. São Paulo: Pearson Prentice Hall, 2010. (Cap. 9 - Comportamento em Grupo; Cap. 10 - Equipes de Trabalho; Cap. 11 - Comunicação; Cap. 12 - Liderança).
+- CHIAVENATO, Idalberto. **Comportamento Organizacional: A Dinâmica do Sucesso das Organizações**. 4. ed. São Paulo: Atlas, 2021. (Cap. 9 - Equipes de Alto Desempenho; Cap. 11 - Liderança, Poder e Influência).
+- TUCKMAN, Bruce W. **Developmental Sequence in Small Groups**. Psychological Bulletin, v. 63, n. 6, p. 384-399, 1965.

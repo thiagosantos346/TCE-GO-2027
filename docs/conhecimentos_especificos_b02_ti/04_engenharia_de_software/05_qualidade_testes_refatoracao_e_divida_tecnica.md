@@ -4,12 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `05_qualidade_testes_refatoracao_e_divida_tecnica.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Qualidade de software: desempenho, escalabilidade, disponibilidade, confiabilidade e manutenibilidade
 - Testes de software: unitários, de integração, funcionais, de regressão, de carga e de estresse
 - Testes automatizados
@@ -21,36 +19,36 @@
 
 ## 🧭 Sumário
 
-1. [Atributos e Métricas de Qualidade de Software (ISO/IEC 25010)](#1-atributos-e-metricas-de-qualidade-de-software-isoiec-25010)
-    - [1.1 Desempenho e Eficiência de Recursos](#11-desempenho-e-eficiencia-de-recursos)
-    - [1.2 Escalabilidade Vertical (Scale Up) vs. Escalabilidade Horizontal (Scale Out)](#12-escalabilidade-vertical-scale-up-vs-escalabilidade-horizontal-scale-out)
-    - [1.3 Confiabilidade, Disponibilidade e Métricas de Manutenção (MTBF e MTTR)](#13-confiabilidade-disponibilidade-e-metricas-de-manutencao-mtbf-e-mttr)
-    - [1.4 Manutenibilidade e Facilidade de Mudança](#14-manutenibilidade-e-facilidade-de-mudanca)
-    - [Teste 043](#teste-043)
-2. [Níveis e Estratégias de Testes de Software](#2-niveis-e-estrategias-de-testes-de-software)
-    - [2.1 A Pirâmide de Testes de Mike Cohn](#21-a-piramide-de-testes-de-mike-cohn)
-    - [2.2 Dublês de Teste (Test Doubles de Gerard Meszaros)](#22-dubles-de-teste-test-doubles-de-gerard-meszaros)
-    - [2.3 Testes de Caixa-Preta (Funcionais) vs. Testes de Caixa-Branca (Estruturais)](#23-testes-de-caixa-preta-funcionais-vs-testes-de-caixa-branca-estruturais)
-    - [2.4 Complexidade Ciclomática de Thomas McCabe e Grafo de Fluxo](#24-complexidade-ciclomatica-de-thomas-mccabe-e-grafo-de-fluxo)
-    - [Teste 044](#teste-044)
-    - [Teste 045](#teste-045)
-    - [Teste 046](#teste-046)
-    - [Teste 047](#teste-047)
-3. [Tipos Especializados de Testes e Automação](#3-tipos-especializados-de-testes-e-automacao)
-    - [3.1 Testes de Regressão e Automação Contínua](#31-testes-de-regressao-e-automacao-continua)
-    - [3.2 Testes de Desempenho: Carga vs. Estresse vs. Pico vs. Resistência](#32-testes-de-desempenho-carga-vs-estresse-vs-pico-vs-resistencia)
-    - [3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)](#33-praticas-de-tdd-test-driven-development-e-bdd-behavior-driven-development)
-    - [Teste 048](#teste-048)
-    - [Teste 049](#teste-049)
-    - [Teste 050](#teste-050)
-4. [Revisão de Código, Refatoração e Dívida Técnica](#4-revisao-de-codigo-refatoracao-e-divida-tecnica)
-    - [4.1 Técnicas Modernas de Revisão de Código (Code Review)](#41-tecnicas-modernas-de-revisao-de-codigo-code-review)
-    - [4.2 Refatoração de Código e os "Maus Cheiros" (Code Smells) de Fowler](#42-refatoracao-de-codigo-e-os-maus-cheiros-code-smells-de-fowler)
-    - [4.3 Dívida Técnica e o Quadrante de Martin Fowler](#43-divida-tecnica-e-o-quadrante-de-martin-fowler)
-    - [Teste 051](#teste-051)
-    - [Teste 052](#teste-052)
-    - [Teste 053](#teste-053)
-5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+1. [Atributos e Métricas de Qualidade de Software (ISO/IEC 25010)](#1-atributos-e-métricas-de-qualidade-de-software-isoiec-25010)
+    1. [Desempenho e Eficiência de Recursos](#11-desempenho-e-eficiência-de-recursos)
+    1. [Escalabilidade Vertical (Scale Up) vs. Escalabilidade Horizontal (Scale Out)](#12-escalabilidade-vertical-scale-up-vs-escalabilidade-horizontal-scale-out)
+    1. [Confiabilidade, Disponibilidade e Métricas de Manutenção (MTBF e MTTR)](#13-confiabilidade-disponibilidade-e-métricas-de-manutenção-mtbf-e-mttr)
+    1. [Manutenibilidade e Facilidade de Mudança](#14-manutenibilidade-e-facilidade-de-mudança)
+    1. [Teste 043](#teste-043)
+2. [Níveis e Estratégias de Testes de Software](#2-níveis-e-estratégias-de-testes-de-software)
+    1. [A Pirâmide de Testes de Mike Cohn](#21-a-pirâmide-de-testes-de-mike-cohn)
+    1. [Dublês de Teste (Test Doubles de Gerard Meszaros)](#22-dublês-de-teste-test-doubles-de-gerard-meszaros)
+    1. [Testes de Caixa-Preta (Funcionais) vs. Testes de Caixa-Branca (Estruturais)](#23-testes-de-caixa-preta-funcionais-vs-testes-de-caixa-branca-estruturais)
+    1. [Complexidade Ciclomática de Thomas McCabe e Grafo de Fluxo](#24-complexidade-ciclomática-de-thomas-mccabe-e-grafo-de-fluxo)
+    1. [Teste 044](#teste-044)
+    1. [Teste 045](#teste-045)
+    1. [Teste 046](#teste-046)
+    1. [Teste 047](#teste-047)
+3. [Tipos Especializados de Testes e Automação](#3-tipos-especializados-de-testes-e-automação)
+    1. [Testes de Regressão e Automação Contínua](#31-testes-de-regressão-e-automação-contínua)
+    1. [Testes de Desempenho: Carga vs. Estresse vs. Pico vs. Resistência](#32-testes-de-desempenho-carga-vs-estresse-vs-pico-vs-resistência)
+    1. [Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)](#33-práticas-de-tdd-test-driven-development-e-bdd-behavior-driven-development)
+    1. [Teste 048](#teste-048)
+    1. [Teste 049](#teste-049)
+    1. [Teste 050](#teste-050)
+4. [Revisão de Código, Refatoração e Dívida Técnica](#4-revisão-de-código-refatoração-e-dívida-técnica)
+    1. [Técnicas Modernas de Revisão de Código (Code Review)](#41-técnicas-modernas-de-revisão-de-código-code-review)
+    1. [Refatoração de Código e os "Maus Cheiros" (Code Smells) de Fowler](#42-refatoração-de-código-e-os-maus-cheiros-code-smells-de-fowler)
+    1. [Dívida Técnica e o Quadrante de Martin Fowler](#43-dívida-técnica-e-o-quadrante-de-martin-fowler)
+    1. [Teste 051](#teste-051)
+    1. [Teste 052](#teste-052)
+    1. [Teste 053](#teste-053)
+5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -59,6 +57,7 @@
 A norma internacional **ISO/IEC 25010** (evolução da ISO 9126) define o modelo de qualidade de produto de software, estruturado em oito características fundamentais: adequação funcional, eficiência de desempenho, compatibilidade, usabilidade, confiabilidade, segurança, manutenibilidade e portabilidade.
 
 ### 1.1 Desempenho e Eficiência de Recursos
+
 Mede o comportamento do sistema em termos de velocidade de resposta e utilização racional dos recursos computacionais sob condições especificadas:
 
 - **Tempo de Resposta (*Response Time*):** Intervalo de tempo transcorrido entre a emissão de uma requisição pelo usuário e a exibição completa da resposta processada;
@@ -67,24 +66,27 @@ Mede o comportamento do sistema em termos de velocidade de resposta e utilizaç�
 - **Utilização de Recursos:** Percentual de ocupação de CPU, consumo de memória RAM, largura de banda e operações de entrada/saída em disco (I/O).
 
 ### 1.2 Escalabilidade Vertical (Scale Up) vs. Escalabilidade Horizontal (Scale Out)
+
 - **Escalabilidade Vertical (*Scale Up*):** Expansão da capacidade computacional através do acréscimo de recursos físicos à máquina servidora existente (mais núcleos de processador, mais memória RAM ou discos SSD mais rápidos).  
   *Limitações:* Possui teto físico máximo de hardware, custo exponencialmente elevado nas faixas superiores e exige paradas no sistema para upgrade;
 - **Escalabilidade Horizontal (*Scale Out*):** Expansão da capacidade mediante a adição de novas instâncias e nós servidores operando em paralelo sob um balanceador de carga (*Load Balancer*).  
   *Vantagens:* Altamente flexível, alinhada a ambientes em nuvem e contêineres elásticos, permitindo provisionamento dinâmico sem interrupção de serviços.
 
 ### 1.3 Confiabilidade, Disponibilidade e Métricas de Manutenção (MTBF e MTTR)
+
 - **Confiabilidade:** Grau em que o software desempenha suas funções requeridas sob condições estabelecidas por um período especificado de tempo. Avalia a maturidade, a tolerância a falhas e a capacidade de recuperação de desastres;
 - **Disponibilidade:** Proporção de tempo em que o sistema está operacional e plenamente acessível para uso quando demandado. Expressa-se habitualmente pelo número de "noves" em acordos de nível de serviço (SLA - *Service Level Agreement*):
-    - *99% ("dois noves"):* Tolera até 3,65 dias de indisponibilidade por ano;
-    - *99,9% ("três noves"):* Tolera até 8,76 horas de indisponibilidade por ano;
-    - *99,99% ("quatro noves"):* Tolera até 52,56 minutos de indisponibilidade por ano.
+  - *99% ("dois noves"):* Tolera até 3,65 dias de indisponibilidade por ano;
+  - *99,9% ("três noves"):* Tolera até 8,76 horas de indisponibilidade por ano;
+  - *99,99% ("quatro noves"):* Tolera até 52,56 minutos de indisponibilidade por ano.
 - **Métricas Clássicas de Sustentação de Sistemas:**
-    - **MTBF (*Mean Time Between Failures* - Tempo Médio Entre Falhas):** Métrica de confiabilidade que calcula o tempo médio em que o sistema opera perfeitamente entre duas panes consecutivas;
-    - **MTTR (*Mean Time to Repair* - Tempo Médio para Reparo):** Métrica de manutenibilidade que mede o tempo médio gasto pela equipe de suporte para diagnosticar, corrigir a falha e restaurar o sistema à plena operação;
-    - **Cálculo da Disponibilidade Teórica:**
+  - **MTBF (*Mean Time Between Failures* - Tempo Médio Entre Falhas):** Métrica de confiabilidade que calcula o tempo médio em que o sistema opera perfeitamente entre duas panes consecutivas;
+  - **MTTR (*Mean Time to Repair* - Tempo Médio para Reparo):** Métrica de manutenibilidade que mede o tempo médio gasto pela equipe de suporte para diagnosticar, corrigir a falha e restaurar o sistema à plena operação;
+  - **Cálculo da Disponibilidade Teórica:**
     $$\text{Disponibilidade} = \frac{\text{MTBF}}{\text{MTBF} + \text{MTTR}}$$
 
 ### 1.4 Manutenibilidade e Facilidade de Mudança
+
 A manutenibilidade reflete a facilidade e a eficiência com que o software pode ser modificado pelos desenvolvedores para corrigir defeitos, melhorar o desempenho ou adaptar o sistema a mudanças no ambiente de negócio. Subdivide-se em:
 
 - **Modularidade:** Grau em que o sistema é composto por componentes discretos, isolando o impacto de alterações;
@@ -96,15 +98,15 @@ A manutenibilidade reflete a facilidade e a eficiência com que o software pode 
 ---
 
 ### Teste 043
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante uma auditoria operacional de infraestrutura e acordos de nível de serviço (SLA) de TI em um Tribunal de Contas, a equipe de fiscalização analisou as métricas de confiabilidade e disponibilidade do portal de serviços ao jurisdicionado. No cálculo formal preconizado pela literatura de engenharia de software e normas ISO/IEC de qualidade de produto, utilizam-se o MTBF (*Mean Time Between Failures* - Tempo Médio Entre Falhas) e o MTTR (*Mean Time To Repair* - Tempo Médio Para Reparo). A fórmula clássica que expressa a Disponibilidade Operacional ($D$) de um sistema computacional é:
 
-* **A)** $D = \frac{MTBF}{MTBF + MTTR}$
-* **B)** $D = \frac{MTTR}{MTBF + MTTR}$
-* **C)** $D = MTBF - MTTR$
-* **D)** $D = \frac{MTBF \times MTTR}{100}$
-* **E)** $D = \frac{MTTR}{MTBF}$
-
+- **A)** $D = \frac{MTBF}{MTBF + MTTR}$
+- **B)** $D = \frac{MTTR}{MTBF + MTTR}$
+- **C)** $D = MTBF - MTTR$
+- **D)** $D = \frac{MTBF \times MTTR}{100}$
+- **E)** $D = \frac{MTTR}{MTBF}$
 
 ---
 
@@ -123,6 +125,7 @@ Durante uma auditoria operacional de infraestrutura e acordos de nível de servi
 ## 2. Níveis e Estratégias de Testes de Software
 
 ### 2.1 A Pirâmide de Testes de Mike Cohn
+
 A Pirâmide de Testes é o modelo canônico de engenharia de software para construir suítes de testes automatizados equilibradas e sustentáveis:
 
 ```mermaid
@@ -142,12 +145,13 @@ flowchart TD
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A inversão da pirâmide (chamada de antipadrão "Casquinha de Sorvete" ou *Ice Cream Cone*) ocorre quando a organização possui poucos testes unitários e concentra quase todo o esforço em testes manuais ou E2E de interface. O resultado são suítes de testes lentas, que demoram horas para rodar no CI/CD e quebram frequentemente por pequenas alterações visuais (*testes frágeis / flaky tests*).
 
 ### 2.2 Dublês de Teste (*Test Doubles* de Gerard Meszaros)
+
 Nos testes unitários, para isolar a unidade sob teste (*System Under Test - SUT*) de dependências pesadas, instáveis ou lentas (bancos de dados, serviços web externos, sistemas de arquivos), empregam-se **Dublês de Teste**:
 
 ```mermaid
 graph TD
     TD["DUBLÊS DE TESTE (Test Doubles)"]
-    
+  
     TD --> Dummy["Dummy<br/>Objeto preenchedor que nunca é chamado; satisfaz parâmetros"]
     TD --> Stub["Stub<br/>Fornece respostas enlatadas e pré-fabricadas a chamadas"]
     TD --> Spy["Spy<br/>Stub que também registra métricas e parâmetros das chamadas recebidas"]
@@ -162,13 +166,15 @@ graph TD
 5. **Fake:** Objeto que possui uma implementação funcional real simplificada, mas utiliza atalhos que a tornam imprópria para produção (ex.: um banco de dados relacional em memória H2 substituindo um servidor Oracle corporativo nos testes).
 
 ### 2.3 Testes de Caixa-Preta (Funcionais) vs. Testes de Caixa-Branca (Estruturais)
+
 - **Testes de Caixa-Preta (Funcionais):** Avaliam o comportamento do software sem conhecimento da estrutura interna ou do código-fonte. O foco reside nas entradas e saídas esperadas:
-    - *Partição de Equivalência:* Divide os dados de entrada em classes válidas e inválidas, partindo do princípio de que qualquer dado dentro da mesma partição receberá o mesmo tratamento;
-    - *Análise do Valor Limite (BVA):* Testa valores situados exatamente nas fronteiras e adjacências das partições (ex.: se o intervalo aceito é de 18 a 65 anos, testa-se 17, 18, 19, 64, 65 e 66 anos).
+  - *Partição de Equivalência:* Divide os dados de entrada em classes válidas e inválidas, partindo do princípio de que qualquer dado dentro da mesma partição receberá o mesmo tratamento;
+  - *Análise do Valor Limite (BVA):* Testa valores situados exatamente nas fronteiras e adjacências das partições (ex.: se o intervalo aceito é de 18 a 65 anos, testa-se 17, 18, 19, 64, 65 e 66 anos).
 - **Testes de Caixa-Branca (Estruturais):** Avaliam os caminhos de controle, estruturas lógicas e condições internas do código-fonte:
-    - *Critérios de Cobertura:* Cobertura de comandos (*Statement Coverage*), cobertura de decisões/desvios (*Branch Coverage*) e cobertura de caminhos independentes.
+  - *Critérios de Cobertura:* Cobertura de comandos (*Statement Coverage*), cobertura de decisões/desvios (*Branch Coverage*) e cobertura de caminhos independentes.
 
 ### 2.4 Complexidade Ciclomática de Thomas McCabe e Grafo de Fluxo
+
 Proposta por Thomas McCabe em 1976, a **Complexidade Ciclomática ($V(G)$)** mede quantitativamente a complexidade lógica de um programa através da contagem do número de caminhos linearmente independentes no seu grafo de fluxo de controle.
 
 **Fórmulas de Cálculo Clássicas:**
@@ -184,24 +190,24 @@ Proposta por Thomas McCabe em 1976, a **Complexidade Ciclomática ($V(G)$)** med
 ---
 
 ### Teste 044
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Pirâmide de Testes, conceito consolidado na engenharia de software moderna por Mike Cohn e Martin Fowler, estabelece a proporção e distribuição ideal entre diferentes categorias de testes automatizados em um pipeline de integração contínua (CI/CD). Em conformidade com as diretrizes desse modelo, é correto afirmar:
 
-* **A)** a base da pirâmide deve concentrar o maior volume de testes automatizados da aplicação, sendo constituída por Testes de Unidade, caracterizados por alta velocidade de execução, isolamento rigoroso de dependências externas e baixo custo de manutenção.
-* **B)** o topo da pirâmide deve concentrar mais de 80% do esforço de testes por meio de testes manuais exaustivos de ponta a ponta na interface gráfica de usuário.
-* **C)** a camada intermediária de testes de integração deve ser suprimida em arquiteturas de microsserviços, transferindo toda a validação de rede para os testes de unidade.
-* **D)** a pirâmide recomenda a inversão de sua geometria (formato cone de sorvete) quando o sistema opera sob infraestrutura de nuvem pública.
-* **E)** os testes de unidade demandam maior tempo de execução computacional do que os testes ponta a ponta em virtude da complexidade de mocks e stubs.
-
+- **A)** a base da pirâmide deve concentrar o maior volume de testes automatizados da aplicação, sendo constituída por Testes de Unidade, caracterizados por alta velocidade de execução, isolamento rigoroso de dependências externas e baixo custo de manutenção.
+- **B)** o topo da pirâmide deve concentrar mais de 80% do esforço de testes por meio de testes manuais exaustivos de ponta a ponta na interface gráfica de usuário.
+- **C)** a camada intermediária de testes de integração deve ser suprimida em arquiteturas de microsserviços, transferindo toda a validação de rede para os testes de unidade.
+- **D)** a pirâmide recomenda a inversão de sua geometria (formato cone de sorvete) quando o sistema opera sob infraestrutura de nuvem pública.
+- **E)** os testes de unidade demandam maior tempo de execução computacional do que os testes ponta a ponta em virtude da complexidade de mocks e stubs.
 
 ---
 
 > **Comentário Detalhado:**
 >
 > - **A) CORRETA.** A **Pirâmide de Testes** prescreve:
->     - **Base (maior volume):** Testes de **Unidade** (rápidos, baratos, isolados, executam em milissegundos sem I/O pesado);
->     - **Meio (volume moderado):** Testes de **Integração / Serviços** (validam comunicação entre componentes, banco de dados e APIs);
->     - **Topo (menor volume):** Testes de **Ponta a Ponta (E2E / UI)** (lentos, caros, frágeis e suscetíveis a falsos positivos).
+>   - **Base (maior volume):** Testes de **Unidade** (rápidos, baratos, isolados, executam em milissegundos sem I/O pesado);
+>   - **Meio (volume moderado):** Testes de **Integração / Serviços** (validam comunicação entre componentes, banco de dados e APIs);
+>   - **Topo (menor volume):** Testes de **Ponta a Ponta (E2E / UI)** (lentos, caros, frágeis e suscetíveis a falsos positivos).
 > - **B) Incorreta.** Concentrar o esforço no topo configura o anti-padrão do "cone de sorvete" (*ice-cream cone anti-pattern*), que torna a suíte lenta e instável.
 > - **C) Incorreta.** Testes de integração são indispensáveis para validar comunicação entre módulos, bancos e contratos de rede.
 > - **D) Incorreta.** O modelo em cone de sorvete é um anti-padrão nocivo a ser evitado em qualquer ambiente tecnológico.
@@ -212,26 +218,26 @@ A Pirâmide de Testes, conceito consolidado na engenharia de software moderna po
 ---
 
 ### Teste 045
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No desenvolvimento orientado por testes (*Test-Driven Development* - TDD) e na construção de testes unitários isolados para sistemas de auditoria corporativos, empregam-se diferentes categorias de dublês de teste (*Test Doubles*, conforme taxonomia de Gerard Meszaros). O dublê que é pré-configurado especificamente com expectativas formais sobre quais métodos devem ser chamados, com quais parâmetros exatos e em qual quantidade de invocações, fazendo com que o teste falhe automaticamente caso as interações não ocorram conforme o esperado, classifica-se como:
 
-* **A)** Mock.
-* **B)** Stub.
-* **C)** Dummy.
-* **D)** Fake.
-* **E)** Spy.
-
+- **A)** Mock.
+- **B)** Stub.
+- **C)** Dummy.
+- **D)** Fake.
+- **E)** Spy.
 
 ---
 
 > **Comentário Detalhado:**
 >
 > - **A) CORRETA.** Na taxonomia de Meszaros:
->     - **Mock:** É o dublê de **verificação de comportamento**. É pré-programado com *expectativas* (quais métodos devem ser chamados, parâmetros e contagem). O mock realiza verificação ativa e falha o teste caso o fluxo de chamadas divirja do esperado;
->     - **Stub:** Fornece respostas enlatadas (*canned answers*) pré-definidas para as chamadas feitas durante o teste, sem verificar comportamento;
->     - **Dummy:** Objeto passado apenas para preencher parâmetros de assinatura de método, nunca sendo invocado;
->     - **Fake:** Implementação simplificada funcionalmente funcional, mas inadequada para produção (ex.: banco em memória H2 ou repositório em HashMap);
->     - **Spy:** Registra passivamente informações sobre como foi chamado para verificação posterior (*asserts*).
+>   - **Mock:** É o dublê de **verificação de comportamento**. É pré-programado com *expectativas* (quais métodos devem ser chamados, parâmetros e contagem). O mock realiza verificação ativa e falha o teste caso o fluxo de chamadas divirja do esperado;
+>   - **Stub:** Fornece respostas enlatadas (*canned answers*) pré-definidas para as chamadas feitas durante o teste, sem verificar comportamento;
+>   - **Dummy:** Objeto passado apenas para preencher parâmetros de assinatura de método, nunca sendo invocado;
+>   - **Fake:** Implementação simplificada funcionalmente funcional, mas inadequada para produção (ex.: banco em memória H2 ou repositório em HashMap);
+>   - **Spy:** Registra passivamente informações sobre como foi chamado para verificação posterior (*asserts*).
 > - **B) Incorreta.** O Stub retorna respostas fixas sem validar expectativas de chamadas.
 > - **C) Incorreta.** O Dummy apenas preenche assinaturas sem uso ativo.
 > - **D) Incorreta.** O Fake possui lógica funcional real simplificada.
@@ -242,15 +248,15 @@ No desenvolvimento orientado por testes (*Test-Driven Development* - TDD) e na c
 ---
 
 ### Teste 046
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito das técnicas funcionais de teste de software (Caixa-Preta), o Particionamento em Classes de Equivalência e a Análise de Valor Limite são métodos fundamentais para a seleção sistemática de casos de teste. A respeito dos fundamentos técnicos e das regras de aplicação dessas abordagens, é correto afirmar:
 
-* **A)** No particionamento em classes de equivalência, divide-se o domínio de dados de entrada em partições válidas e inválidas, partindo da premissa de que qualquer dado representativo selecionado dentro de uma mesma partição revelará comportamento análogo do sistema.
-* **B)** O particionamento em classes de equivalência requer a descompilação e análise do código-fonte para contabilizar o número de instruções condicionais `if-else`.
-* **C)** A análise de valor limite assume que a probabilidade de ocorrência de erros no software é estatisticamente uniforme em todo o intervalo contínuo de entrada, dispensando testes nas fronteiras.
-* **D)** As técnicas de teste funcional de caixa-preta baseiam-se primordialmente na complexidade ciclomática de McCabe e na cobertura de comandos do código compilado.
-* **E)** A análise de valor limite restringe-se a testar exclusivamente o ponto médio aritmético de cada partição, ignorando os extremos superior e inferior.
-
+- **A)** No particionamento em classes de equivalência, divide-se o domínio de dados de entrada em partições válidas e inválidas, partindo da premissa de que qualquer dado representativo selecionado dentro de uma mesma partição revelará comportamento análogo do sistema.
+- **B)** O particionamento em classes de equivalência requer a descompilação e análise do código-fonte para contabilizar o número de instruções condicionais `if-else`.
+- **C)** A análise de valor limite assume que a probabilidade de ocorrência de erros no software é estatisticamente uniforme em todo o intervalo contínuo de entrada, dispensando testes nas fronteiras.
+- **D)** As técnicas de teste funcional de caixa-preta baseiam-se primordialmente na complexidade ciclomática de McCabe e na cobertura de comandos do código compilado.
+- **E)** A análise de valor limite restringe-se a testar exclusivamente o ponto médio aritmético de cada partição, ignorando os extremos superior e inferior.
 
 ---
 
@@ -267,15 +273,15 @@ No âmbito das técnicas funcionais de teste de software (Caixa-Preta), o Partic
 ---
 
 ### Teste 047
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere um método Java que implementa a regra de validação de elegibilidade de licitantes em um sistema de compras governamentais. A inspeção do grafo de fluxo de controle desse método identificou três comandos condicionais `if` simples independentes, uma estrutura de repetição `while` e um comando `switch-case` composto por quatro cláusulas `case` e uma cláusula `default`. Aplicando a técnica de teste estrutural de Caixa-Branca baseada na Complexidade Ciclomática de Thomas McCabe ($V(G)$), a quantidade de caminhos linearmente independentes e, consequentemente, o número mínimo de casos de teste necessários para assegurar cobertura integral de ramificações (*branch coverage*) é:
 
-* **A)** 9.
-* **B)** 8.
-* **C)** 10.
-* **D)** 12.
-* **E)** 7.
-
+- **A)** 9.
+- **B)** 8.
+- **C)** 10.
+- **D)** 12.
+- **E)** 7.
 
 ---
 
@@ -284,10 +290,10 @@ Considere um método Java que implementa a regra de validação de elegibilidade
 > - **A) CORRETA.** Pela consagrada métrica de Complexidade Ciclomática de McCabe:
 >     $$V(G) = P + 1$$
 >     onde $P$ representa a quantidade de pontos de decisão (predicados binários no código):
->     - 3 comandos `if` simples = 3 pontos de decisão;
->     - 1 laço `while` = 1 ponto de decisão;
->     - 1 estrutura `switch` com 4 cláusulas `case` = 4 pontos de decisão (cada `case` atua como um desvio alternativo; o `default` é o caminho residual).
->     
+>   - 3 comandos `if` simples = 3 pontos de decisão;
+>   - 1 laço `while` = 1 ponto de decisão;
+>   - 1 estrutura `switch` com 4 cláusulas `case` = 4 pontos de decisão (cada `case` atua como um desvio alternativo; o `default` é o caminho residual).
+>  
 >     Total de pontos de decisão: $P = 3 + 1 + 4 = 8$.  
 >     Logo: $V(G) = 8 + 1 = 9$ caminhos linearmente independentes.
 > - **B) Incorreta.** Equivale a calcular apenas $P$ sem somar o caminho linear básico ($+1$).
@@ -302,10 +308,12 @@ Considere um método Java que implementa a regra de validação de elegibilidade
 ## 3. Tipos Especializados de Testes e Automação
 
 ### 3.1 Testes de Regressão e Automação Contínua
+
 - **Conceito de Teste de Regressão:** Bateria sistemática de testes executada após qualquer manutenção no software (correção de bugs, refatoração ou acréscimo de novas funcionalidades) para certificar que as alterações introduzidas **não causaram efeitos colaterais adversos nem reintroduziram defeitos antigos em módulos que funcionavam perfeitamente**;
 - **Automação no Pipeline de CI/CD:** A suíte de testes de regressão deve ser integralmente automatizada e disparada a cada *commit* ou *Pull Request*, impedindo que código quebrado atinja o repositório principal.
 
 ### 3.2 Testes de Desempenho: Carga vs. Estresse vs. Pico vs. Resistência
+
 A engenharia de testes de desempenho categoriza os testes de acordo com o padrão e a intensidade de tráfego injetado no sistema:
 
 | Modalidade de Teste | Volume de Tráfego / Carga Injetada | Objetivo Específico da Avaliação |
@@ -318,6 +326,7 @@ A engenharia de testes de desempenho categoriza os testes de acordo com o padrã
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Fique atento: Teste de **Carga** avalia o sistema *dentro* da capacidade contratual. Teste de **Estresse** empurra o sistema *além* do limite máximo com a finalidade expressa de quebrar o ambiente e avaliar a resiliência e recuperação.
 
 ### 3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)
+
 - **TDD (Desenvolvimento Guiado por Testes):** Técnica de engenharia de software fundamentada no ciclo rápido e iterativo de três fases: **Red $\rightarrow$ Green $\rightarrow$ Refactor**:
     1. *Red:* Escrever um teste automatizado que falha antes de escrever o código de produção;
     2. *Green:* Escrever o código mais simples possível apenas para fazer o teste passar com sucesso;
@@ -328,15 +337,15 @@ A engenharia de testes de desempenho categoriza os testes de acordo com o padrã
 ---
 
 ### Teste 048
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma equipe de desenvolvimento do Tribunal de Contas concluiu a refatoração e a correção de um defeito crítico no módulo de cálculo de prazos de processos administrativos. Antes de autorizar a implantação da nova versão no ambiente de homologação, o auditor líder de testes determinou a execução imediata de uma suíte de testes com a finalidade específica de assegurar que a alteração realizada ou o defeito corrigido não introduziram novos erros ou efeitos colaterais indesejados em partes do software que funcionavam perfeitamente antes da modificação. Essa categoria de teste classifica-se como:
 
-* **A)** Teste de Regressão.
-* **B)** Teste de Estresse.
-* **C)** Teste de Carga.
-* **D)** Teste de Usabilidade.
-* **E)** Teste de Penetração (*Pentest*).
-
+- **A)** Teste de Regressão.
+- **B)** Teste de Estresse.
+- **C)** Teste de Carga.
+- **D)** Teste de Usabilidade.
+- **E)** Teste de Penetração (*Pentest*).
 
 ---
 
@@ -353,15 +362,15 @@ Uma equipe de desenvolvimento do Tribunal de Contas concluiu a refatoração e a
 ---
 
 ### Teste 049
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante a auditoria de desempenho de um sistema de transmissão eletrônica de folhas de pagamento dos municípios jurisdicionados ao Tribunal de Contas, a equipe técnica planejou a execução de testes não-funcionais. O objetivo é submeter intencionalmente o cluster computacional a um volume de requisições concorrentes e tráfego que extrapole significativamente a sua capacidade operacional de pico, visando observar se o sistema degrada graciosamente suas funções, se mantém a consistência dos dados sob pane e de que maneira se restabelece após o cessamento da sobrecarga extrema. Esse teste de desempenho classifica-se como:
 
-* **A)** Teste de Estresse (*Stress Testing*).
-* **B)** Teste de Carga (*Load Testing*).
-* **C)** Teste de Aceitação de Usuário (*UAT*).
-* **D)** Teste de Fumaça (*Smoke Testing*).
-* **E)** Teste de Sanidade (*Sanity Testing*).
-
+- **A)** Teste de Estresse (*Stress Testing*).
+- **B)** Teste de Carga (*Load Testing*).
+- **C)** Teste de Aceitação de Usuário (*UAT*).
+- **D)** Teste de Fumaça (*Smoke Testing*).
+- **E)** Teste de Sanidade (*Sanity Testing*).
 
 ---
 
@@ -378,16 +387,17 @@ Durante a auditoria de desempenho de um sistema de transmissão eletrônica de f
 ---
 
 ### Teste 050
+
 **(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - TI)**  
 O Tribunal adotou o Test-Driven Development (TDD) para garantir a qualidade do código nos sistemas de cálculo de pensões. Um auditor está revisando o processo de desenvolvimento e quer validar se a equipe segue o ciclo padrão do TDD.
 
 A sequência correta de passos no ciclo Red-Green-Refactor do TDD é:
 
-* **A)** escrever o código, testar se funciona e depois documentar.
-* **B)** escrever um teste que falha, escrever o código mínimo para o teste passar e melhorar o código.
-* **C)** refatorar o código antigo, escrever novos testes e apagar os testes que falham.
-* **D)** desenvolver a interface, integrar a base de dados, escrever o teste e realizar testes de carga.
-* **E)** documentar os requisitos, codificar em par e realizar o deploy em produção.
+- **A)** escrever o código, testar se funciona e depois documentar.
+- **B)** escrever um teste que falha, escrever o código mínimo para o teste passar e melhorar o código.
+- **C)** refatorar o código antigo, escrever novos testes e apagar os testes que falham.
+- **D)** desenvolver a interface, integrar a base de dados, escrever o teste e realizar testes de carga.
+- **E)** documentar os requisitos, codificar em par e realizar o deploy em produção.
 
 ---
 
@@ -402,6 +412,7 @@ A sequência correta de passos no ciclo Red-Green-Refactor do TDD é:
 > A alternativa **B** descreve com precisão cirúrgica esse ciclo.
 >
 > **Gabarito: B**
+
 ---
 
 > **Comentário Detalhado:**
@@ -422,6 +433,7 @@ A sequência correta de passos no ciclo Red-Green-Refactor do TDD é:
 ## 4. Revisão de Código, Refatoração e Dívida Técnica
 
 ### 4.1 Técnicas Modernas de Revisão de Código (Code Review)
+
 A revisão de código é uma prática colaborativa indispensável de garantia da qualidade:
 
 - **Inspeções Formais (Fagan):** Processo tradicional rígido com papéis formais (moderador, autor, leitor e inspetor) e reuniões presenciais de leitura de código;
@@ -429,15 +441,17 @@ A revisão de código é uma prática colaborativa indispensável de garantia da
 - **Pair Programming:** Revisão contínua em tempo real executada pelo copiloto (*Navigator*) enquanto o piloto (*Driver*) digita o código.
 
 ### 4.2 Refatoração de Código e os "Maus Cheiros" (Code Smells) de Fowler
+
 - **Definição Canônica (Martin Fowler):** Refatoração (*Refactoring*) é o processo de **modificar a estrutura interna de um software sem alterar o seu comportamento observável externo**, visando melhorar a legibilidade, reduzir a complexidade e facilitar futuras manutenções.  
   > 🚨 **PEGADINHA FCC:** Refatoração **NÃO adiciona novas funcionalidades** e **NÃO corrige bugs de negócio**! Se o comportamento funcional externo mudou, houve evolução de software ou correção, e não pura refatoração.
 - **Maus Cheiros de Código (*Code Smells*) Recorrentes:**
-    - *Método Longo (*Long Method*):* Métodos com centenas de linhas de código. Técnica de correção: **Extract Method** (extrair trecho para novo método nomeado);
-    - *Classe Grande / Objeto Deus (*Large Class / God Class*):* Classe que acumula responsabilidades demais. Correção: **Extract Class**;
-    - *Código Duplicado (*Duplicated Code*):* Mesma estrutura lógica em múltiplos locais. Viola o princípio DRY;
-    - *Cirurgia com Espingarda (*Shotgun Surgery*):* Cada pequena alteração em uma regra exige dezenas de pequenas modificações espalhadas em classes diferentes. Indica alto acoplamento e baixa coesão.
+  - *Método Longo (*Long Method*):* Métodos com centenas de linhas de código. Técnica de correção: **Extract Method** (extrair trecho para novo método nomeado);
+  - *Classe Grande / Objeto Deus (*Large Class / God Class*):* Classe que acumula responsabilidades demais. Correção: **Extract Class**;
+  - *Código Duplicado (*Duplicated Code*):* Mesma estrutura lógica em múltiplos locais. Viola o princípio DRY;
+  - *Cirurgia com Espingarda (*Shotgun Surgery*):* Cada pequena alteração em uma regra exige dezenas de pequenas modificações espalhadas em classes diferentes. Indica alto acoplamento e baixa coesão.
 
 ### 4.3 Dívida Técnica e o Quadrante de Martin Fowler
+
 Cunhada por Ward Cunningham, a metáfora da **Dívida Técnica (*Technical Debt*)** compara o desenvolvimento acelerado e descuidado de software a um empréstimo financeiro bancário: você consegue entregar o produto mais rápido hoje, mas contrai uma dívida de código mal estruturado. Se a dívida não for quitada (por meio de refatoração), o sistema acumula "juros compostos" que tornam qualquer nova manutenção futura proibitivamente lenta e cara.
 
 ```mermaid
@@ -461,15 +475,15 @@ flowchart TD
 ---
 
 ### Teste 051
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em equipes de desenvolvimento de alta maturidade em Tribunais de Contas, a Revisão de Código (*Code Review*) por pares via *Pull Requests* associada à Análise Estática de Código compõe uma política essencial de controle de qualidade e governança. Em relação aos fundamentos dessas práticas de engenharia de software, é correto afirmar:
 
-* **A)** As ferramentas de análise estática de código examinam o código-fonte ou binários compilados sem executá-los dinamicamente, identificando potenciais falhas de segurança conhecidas, violações de diretrizes de codificação, duplicações de trechos e índices excessivos de complexidade ciclomática.
-* **B)** A análise estática de código exige compulsoriamente que o software esteja em execução ativa em ambiente de produção sob carga real de requisições.
-* **C)** A revisão de código por pares (*Code Review*) destina-se exclusivamente a medir o tempo e a quantidade nominal de linhas escritas por cada programador para subsidiar avaliações de desempenho individual.
-* **D)** A adoção de ferramentas automatizadas de análise estática de qualidade dispensa inteiramente a necessidade de testes funcionais e de integração na esteira CI/CD.
-* **E)** As análises de código devem ser executadas com periodicidade exclusivamente anual no encerramento de cada exercício contábil.
-
+- **A)** As ferramentas de análise estática de código examinam o código-fonte ou binários compilados sem executá-los dinamicamente, identificando potenciais falhas de segurança conhecidas, violações de diretrizes de codificação, duplicações de trechos e índices excessivos de complexidade ciclomática.
+- **B)** A análise estática de código exige compulsoriamente que o software esteja em execução ativa em ambiente de produção sob carga real de requisições.
+- **C)** A revisão de código por pares (*Code Review*) destina-se exclusivamente a medir o tempo e a quantidade nominal de linhas escritas por cada programador para subsidiar avaliações de desempenho individual.
+- **D)** A adoção de ferramentas automatizadas de análise estática de qualidade dispensa inteiramente a necessidade de testes funcionais e de integração na esteira CI/CD.
+- **E)** As análises de código devem ser executadas com periodicidade exclusivamente anual no encerramento de cada exercício contábil.
 
 ---
 
@@ -486,15 +500,15 @@ Em equipes de desenvolvimento de alta maturidade em Tribunais de Contas, a Revis
 ---
 
 ### Teste 052
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da técnica de refatoração (*refactoring*) de código em engenharia de software e de sua aplicação na prevenção e pagamento de débitos estruturais, assinale a afirmativa tecnicamente correta:
 
-* **A)** A refatoração consiste no processo de alterar a estrutura interna de um software para torná-lo mais compreensível e manutenível, reduzindo seu custo de evolução, sem que haja modificação no seu comportamento observável externo.
-* **B)** A refatoração caracteriza-se compulsoriamente pela inclusão de novos requisitos de negócio demandados pelos usuários na iteração em andamento.
-* **C)** O termo dívida técnica refere-se exclusivamente aos custos financeiros contratuais e contingências tributárias de licenciamento de software proprietário.
-* **D)** A metodologia do desenvolvimento guiado por testes (TDD) proíbe a realização de refatorações de código após a aprovação da suíte de testes unitários.
-* **E)** A presença de classes gigantes (*God Classes*) e métodos extensos repletos de responsabilidades dispersas é considerada um padrão arquitetural desejável em sistemas corporativos.
-
+- **A)** A refatoração consiste no processo de alterar a estrutura interna de um software para torná-lo mais compreensível e manutenível, reduzindo seu custo de evolução, sem que haja modificação no seu comportamento observável externo.
+- **B)** A refatoração caracteriza-se compulsoriamente pela inclusão de novos requisitos de negócio demandados pelos usuários na iteração em andamento.
+- **C)** O termo dívida técnica refere-se exclusivamente aos custos financeiros contratuais e contingências tributárias de licenciamento de software proprietário.
+- **D)** A metodologia do desenvolvimento guiado por testes (TDD) proíbe a realização de refatorações de código após a aprovação da suíte de testes unitários.
+- **E)** A presença de classes gigantes (*God Classes*) e métodos extensos repletos de responsabilidades dispersas é considerada um padrão arquitetural desejável em sistemas corporativos.
 
 ---
 
@@ -511,25 +525,25 @@ A respeito da técnica de refatoração (*refactoring*) de código em engenharia
 ---
 
 ### Teste 053
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O conceito de Dívida Técnica (*Technical Debt*), cunhado originariamente por Ward Cunningham e categorizado no célebre "Quadrante da Dívida Técnica" por Martin Fowler, estabelece uma analogia entre decisões arquiteturais apressadas e empréstimos financeiros. No quadrante de Fowler, quando uma equipe técnica de desenvolvimento adota conscientemente uma solução temporária simplificada para atender a um prazo legal inadiável fixado pelo Tribunal de Contas, mantendo pleno conhecimento das deficiências técnicas da solução e planejando seu pagamento nas Sprints subsequentes de estabilização, essa dívida é classificada como:
 
-* **A)** Prudente e Deliberada.
-* **B)** Imprudente e Inadvertida.
-* **C)** Imprudente e Deliberada.
-* **D)** Prudente e Inadvertida.
-* **E)** Acidental e Irreversível.
-
+- **A)** Prudente e Deliberada.
+- **B)** Imprudente e Inadvertida.
+- **C)** Imprudente e Deliberada.
+- **D)** Prudente e Inadvertida.
+- **E)** Acidental e Irreversível.
 
 ---
 
 > **Comentário Detalhado:**
 >
 > - **A) CORRETA.** No **Quadrante da Dívida Técnica de Martin Fowler** (cruzando os eixos Prudente/Imprudente com Deliberada/Inadvertida):
->     - **Prudente e Deliberada:** A equipe possui alto conhecimento técnico, calcula conscientemente o custo-benefício de antecipar a entrega (*"precisamos lançar a solução agora para atender ao prazo legal; sabemos as limitações e pagaremos esse débito na próxima Sprint"*);
->     - **Imprudente e Deliberada:** A equipe ignora as boas práticas por preguiça ou desleixo (*"não temos tempo para arquitetura ou testes, entregue de qualquer jeito"*);
->     - **Imprudente e Inadvertida:** A equipe desconhece práticas básicas de engenharia (*"o que são princípios SOLID ou testes automatizados?"*);
->     - **Prudente e Inadvertida:** A equipe aplica as melhores práticas, mas, após a entrega, aprende novos aspectos sobre o domínio que revelam como o sistema poderia ter sido desenhado de forma melhor.
+>   - **Prudente e Deliberada:** A equipe possui alto conhecimento técnico, calcula conscientemente o custo-benefício de antecipar a entrega (*"precisamos lançar a solução agora para atender ao prazo legal; sabemos as limitações e pagaremos esse débito na próxima Sprint"*);
+>   - **Imprudente e Deliberada:** A equipe ignora as boas práticas por preguiça ou desleixo (*"não temos tempo para arquitetura ou testes, entregue de qualquer jeito"*);
+>   - **Imprudente e Inadvertida:** A equipe desconhece práticas básicas de engenharia (*"o que são princípios SOLID ou testes automatizados?"*);
+>   - **Prudente e Inadvertida:** A equipe aplica as melhores práticas, mas, após a entrega, aprende novos aspectos sobre o domínio que revelam como o sistema poderia ter sido desenhado de forma melhor.
 > - **B) Incorreta.** "Imprudente e Inadvertida" decorre da inexperiência e desconhecimento da equipe.
 > - **C) Incorreta.** "Imprudente e Deliberada" ocorre quando atalhos de má qualidade são adotados por descaso, sem planos de pagamento.
 > - **D) Incorreta.** "Prudente e Inadvertida" ocorre quando a percepção da dívida surge apenas a posteriori por evolução do conhecimento do time.
@@ -541,12 +555,12 @@ O conceito de Dívida Técnica (*Technical Debt*), cunhado originariamente por W
 
 ## 5. Fontes Oficiais e Referências Bibliográficas
 
-* [ISO/IEC 25010 — Modelo de Qualidade de Produto de Software (Portal SQuaRE)](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010) - Especificação das oito características de qualidade de produto de software (desempenho, confiabilidade, manutenibilidade, segurança e demais).
-* [The Practical Test Pyramid — Pirâmide de Testes e Automação (Ham Vocke / Martin Fowler)](https://martinfowler.com/articles/practical-test-pyramid.html) - Estratégia de distribuição de testes unitários, de integração e de ponta a ponta (E2E).
-* [Mocks Aren't Stubs — Dublês de Teste: Dummy, Fake, Stubs, Spies e Mocks (Martin Fowler)](https://martinfowler.com/articles/mocksArentStubs.html) - Distinção conceitual e prática entre os cinco tipos de *Test Doubles* de Gerard Meszaros e verificação de estado vs. comportamento.
-* [Technical Debt Quadrant — O Quadrante da Dívida Técnica (Martin Fowler)](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html) - Classificação da dívida técnica nos eixos prudente/imprudente e deliberada/inadvertida.
-* [Refactoring.Guru — Maus Cheiros no Código (Code Smells) e Dívida Técnica](https://refactoring.guru/pt-br/refactoring/smells) - Catálogo de sintomas de degradação estrutural de código (*Long Method*, *Large Class*, *Shotgun Surgery*, *Duplicated Code*).
-* [Refactoring.Guru — Catálogo de Técnicas de Refatoração de Código](https://refactoring.guru/pt-br/refactoring/techniques) - Operações formais de refatoração para melhoria do design interno sem alterar o comportamento externo.
-* FOWLER, Martin. **Refatoração: Aperfeiçoando o Design de Códigos Existentes**. 2. ed. São Paulo: Novatec, 2019. (Cap. 1 - Refatoração: Um Primeiro Exemplo; Cap. 3 - Maus Cheiros no Código).
-* MESZAROS, Gerard. **xUnit Test Patterns: Refactoring Test Code**. Boston: Addison-Wesley Professional, 2007. (Parte III - Cap. 11 - Using Test Doubles).
-* SOMMERVILLE, Ian. **Engenharia de Software**. 10. ed. São Paulo: Pearson Education do Brasil, 2019. (Cap. 8 - Testes de Software; Cap. 24 - Gerenciamento da Qualidade).
+- [ISO/IEC 25010 — Modelo de Qualidade de Produto de Software (Portal SQuaRE)](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010) - Especificação das oito características de qualidade de produto de software (desempenho, confiabilidade, manutenibilidade, segurança e demais).
+- [The Practical Test Pyramid — Pirâmide de Testes e Automação (Ham Vocke / Martin Fowler)](https://martinfowler.com/articles/practical-test-pyramid.html) - Estratégia de distribuição de testes unitários, de integração e de ponta a ponta (E2E).
+- [Mocks Aren't Stubs — Dublês de Teste: Dummy, Fake, Stubs, Spies e Mocks (Martin Fowler)](https://martinfowler.com/articles/mocksArentStubs.html) - Distinção conceitual e prática entre os cinco tipos de *Test Doubles* de Gerard Meszaros e verificação de estado vs. comportamento.
+- [Technical Debt Quadrant — O Quadrante da Dívida Técnica (Martin Fowler)](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html) - Classificação da dívida técnica nos eixos prudente/imprudente e deliberada/inadvertida.
+- [Refactoring.Guru — Maus Cheiros no Código (Code Smells) e Dívida Técnica](https://refactoring.guru/pt-br/refactoring/smells) - Catálogo de sintomas de degradação estrutural de código (*Long Method*, *Large Class*, *Shotgun Surgery*, *Duplicated Code*).
+- [Refactoring.Guru — Catálogo de Técnicas de Refatoração de Código](https://refactoring.guru/pt-br/refactoring/techniques) - Operações formais de refatoração para melhoria do design interno sem alterar o comportamento externo.
+- FOWLER, Martin. **Refatoração: Aperfeiçoando o Design de Códigos Existentes**. 2. ed. São Paulo: Novatec, 2019. (Cap. 1 - Refatoração: Um Primeiro Exemplo; Cap. 3 - Maus Cheiros no Código).
+- MESZAROS, Gerard. **xUnit Test Patterns: Refactoring Test Code**. Boston: Addison-Wesley Professional, 2007. (Parte III - Cap. 11 - Using Test Doubles).
+- SOMMERVILLE, Ian. **Engenharia de Software**. 10. ed. São Paulo: Pearson Education do Brasil, 2019. (Cap. 8 - Testes de Software; Cap. 24 - Gerenciamento da Qualidade).

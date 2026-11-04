@@ -4,12 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `06_acesso_a_informacao_e_contratos_publicidade.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Direito de acesso à informação e transparência pública
 - Lei Federal nº 12.527/2011 (Lei de Acesso à Informação - LAI)
 - Lei Estadual de Goiás nº 18.025/2013 (Acesso à informação no âmbito do Estado de Goiás)
@@ -23,31 +21,31 @@
 
 ## 🧭 Sumário
 
-1. [Transparência Pública e Regime da Lei de Acesso à Informação](#1-transparencia-publica-e-regime-da-lei-de-acesso-a-informacao)
-    - [1.1 Diretrizes Fundamentais: A Publicidade como Regra Geral](#11-diretrizes-fundamentais-a-publicidade-como-regra-geral)
-    - [1.2 Transparência Ativa e a Divulgação de Vencimentos (Tema 483 / STF)](#12-transparencia-ativa-e-a-divulgacao-de-vencimentos-tema-483-stf)
-    - [1.3 Transparência Passiva e a Vedação de Justificativa (Art. 10, § 3º)](#13-transparencia-passiva-e-a-vedacao-de-justificativa-art-10-3o)
-    - [1.4 Prazos Procedimentais e Regime Recursal](#14-prazos-procedimentais-e-regime-recursal)
-    - [Teste 056](#teste-056)
-    - [Teste 057](#teste-057)
-    - [Teste 058](#teste-058)
-    - [Teste 059](#teste-059)
-2. [Classificação de Informações Sigilosas e Proteção de Dados Pessoais](#2-classificacao-de-informacoes-sigilosas-e-protecao-de-dados-pessoais)
-    - [2.1 Graus de Sigilo e Prazos Máximos de Restrição](#21-graus-de-sigilo-e-prazos-maximos-de-restricao)
-    - [2.2 Competência Funcional para Classificação no Estado de Goiás](#22-competencia-funcional-para-classificacao-no-estado-de-goias)
-    - [2.3 Proteção de Informações Pessoais (100 Anos)](#23-protecao-de-informacoes-pessoais-100-anos)
-    - [2.4 Vedação Absoluta de Sigilo: Violações a Direitos Humanos](#24-vedacao-absoluta-de-sigilo-violacoes-a-direitos-humanos)
-    - [Teste 060](#teste-060)
-    - [Teste 061](#teste-061)
-    - [Teste 062](#teste-062)
-3. [Licitações e Contratos de Serviços de Publicidade (Lei nº 12.232/2010)](#3-licitacoes-e-contratos-de-servicos-de-publicidade-lei-no-122322010)
-    - [3.1 Objeto Específico e a Vedação Categórica ao Pregão](#31-objeto-especifico-e-a-vedacao-categorica-ao-pregao)
-    - [3.2 Tipos Licitatórios Obrigatórios](#32-tipos-licitatorios-obrigatorios)
-    - [3.3 A Subcomissão Técnica de Julgamento (Art. 10)](#33-a-subcomissao-tecnica-de-julgamento-art-10)
-    - [3.4 Julgamento às Cegas e Proposta Técnica Desidentificada](#34-julgamento-as-cegas-e-proposta-tecnica-desidentificada)
-    - [Teste 063](#teste-063)
-    - [Teste 064](#teste-064)
-    - [Teste 065](#teste-065)
+1. [Transparência Pública e Regime da Lei de Acesso à Informação](#1-transparência-pública-e-regime-da-lei-de-acesso-à-informação)
+    1. [Diretrizes Fundamentais: A Publicidade como Regra Geral](#11-diretrizes-fundamentais-a-publicidade-como-regra-geral)
+    1. [Transparência Ativa e a Divulgação de Vencimentos (Tema 483 / STF)](#12-transparência-ativa-e-a-divulgação-de-vencimentos-tema-483--stf)
+    1. [Transparência Passiva e a Vedação de Justificativa (Art. 10, § 3º)](#13-transparência-passiva-e-a-vedação-de-justificativa-art-10--3º)
+    1. [Prazos Procedimentais e Regime Recursal](#14-prazos-procedimentais-e-regime-recursal)
+    1. [Teste 056](#teste-056)
+    1. [Teste 057](#teste-057)
+    1. [Teste 058](#teste-058)
+    1. [Teste 059](#teste-059)
+2. [Classificação de Informações Sigilosas e Proteção de Dados Pessoais](#2-classificação-de-informações-sigilosas-e-proteção-de-dados-pessoais)
+    1. [Graus de Sigilo e Prazos Máximos de Restrição](#21-graus-de-sigilo-e-prazos-máximos-de-restrição)
+    1. [Competência Funcional para Classificação no Estado de Goiás](#22-competência-funcional-para-classificação-no-estado-de-goiás)
+    1. [Proteção de Informações Pessoais (100 Anos)](#23-proteção-de-informações-pessoais-100-anos)
+    1. [Vedação Absoluta de Sigilo: Violações a Direitos Humanos](#24-vedação-absoluta-de-sigilo-violações-a-direitos-humanos)
+    1. [Teste 060](#teste-060)
+    1. [Teste 061](#teste-061)
+    1. [Teste 062](#teste-062)
+3. [Licitações e Contratos de Serviços de Publicidade (Lei nº 12.232/2010)](#3-licitações-e-contratos-de-serviços-de-publicidade-lei-nº-122322010)
+    1. [Objeto Específico e a Vedação Categórica ao Pregão](#31-objeto-específico-e-a-vedação-categórica-ao-pregão)
+    1. [Tipos Licitatórios Obrigatórios](#32-tipos-licitatórios-obrigatórios)
+    1. [A Subcomissão Técnica de Julgamento (Art. 10)](#33-a-subcomissão-técnica-de-julgamento-art-10)
+    1. [Julgamento às Cegas e Proposta Técnica Desidentificada](#34-julgamento-às-cegas-e-proposta-técnica-desidentificada)
+    1. [Teste 063](#teste-063)
+    1. [Teste 064](#teste-064)
+    1. [Teste 065](#teste-065)
 4. [Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
 
 ---
@@ -68,9 +66,9 @@ O regime democrático inverte a lógica tradicional do segredo de Estado, assent
 ```mermaid
 flowchart TD
     LAI["Transparência Pública (Lei 12.527/11 e Lei GO 18.025/13)"]
-    
+  
     LAI --> ATIVA["TRANSPARÊNCIA ATIVA<br/>• Divulgação proativa e obrigatória na internet<br/>• Independe de requerimento de cidadão<br/>• Editais, licitações, contratos e salários nominais"]
-    
+  
     LAI --> PASSIVA["TRANSPARÊNCIA PASSIVA (e-SIC)<br/>• Fornecimento de informação demandada por cidadão<br/>• VEDADA a exigência de justificar o motivo!<br/>• Prazo: resposta imediata ou 20 dias (+10 dias)"]
 ```
 
@@ -78,7 +76,8 @@ flowchart TD
 
 A **transparência ativa** compreende o dever imposto aos órgãos públicos de veicular, em seus sítios oficiais na internet, independentemente de qualquer requerimento prévio de cidadãos, um rol mínimo de informações administrativas: estrutura organizacional, repasses financeiros, execução orçamentária detalhada, procedimentos licitatórios com editais e contratos na íntegra, relatórios de gestão fiscal e dados de auditoria externa.
 
-#### A Divulgação Nominal de Remuneração e o Tema 483 do STF:
+#### A Divulgação Nominal de Remuneração e o Tema 483 do STF
+
 Uma das controvérsias mais relevantes decididas pelo Pretório Excelso refere-se à publicação dos salários de servidores públicos. No julgamento do **Tema 483 da Repercussão Geral (RE 652.777)**, o STF fixou a seguinte tese vinculante:
 > *"É legítima a publicação, inclusive em sítio eletrônico mantido pela Administração Pública, dos nomes dos seus servidores e do valor dos correspondentes vencimentos e vantagens pecuniárias."*
 
@@ -105,6 +104,7 @@ O procedimento de atendimento às solicitações de informação rege-se pelos s
 ---
 
 ### Teste 056
+
 **(FGV – TJ/SC – 2026 – Analista Administrativo)**  
 A Lei nº 12.527/2011 (Lei de Acesso à Informação) e a Lei Complementar nº 131/2009, que acrescentou dispositivos à Lei de Responsabilidade Fiscal, estabelecem deveres de divulgação de informações pelos órgãos e entidades públicos, distinguindo-se duas modalidades de prestação dessas informações, conforme exista ou não provocação do interessado. Na Secretaria Estadual de Planejamento, foram registradas, em determinada semana, as seguintes ocorrências:
 
@@ -114,35 +114,37 @@ III. divulgação, em sítio oficial, do rol de competências, da estrutura orga
 
 As ocorrências I, II e III correspondem, respectivamente, às hipóteses de transparência:
 
-* **A)** passiva, ativa e passiva.
-* **B)** ativa, passiva e ativa.
-* **C)** ativa, ativa e passiva.
-* **D)** passiva, passiva e ativa.
-* **E)** ativa, passiva e passiva.
+- **A)** passiva, ativa e passiva.
+- **B)** ativa, passiva e ativa.
+- **C)** ativa, ativa e passiva.
+- **D)** passiva, passiva e ativa.
+- **E)** ativa, passiva e passiva.
 
 ---
 
 > **Comentário Detalhado:**
 >
 > No regime jurídico da publicidade administrativa e da Lei de Acesso à Informação (Lei nº 12.527/2011):
+>
 > - **Ocorrência I: Transparência ATIVA (art. 8º da LAI).** Consiste na obrigação legal dos órgãos estatais de promoverem, independentemente de requerimentos prévios, a divulgação proativa em sítios oficiais da internet de informações de interesse geral ou coletivo (como a execução orçamentária e financeira em tempo real).
 > - **Ocorrência II: Transparência PASSIVA (art. 10 da LAI).** Ocorre quando a Administração disponibiliza a informação em atendimento a um requerimento individual ou coletivo formalmente provocado pelo interessado perante o Serviço de Informação ao Cidadão (SIC).
 > - **Ocorrência III: Transparência ATIVA (art. 8º, § 1º, I e II da LAI).** A veiculação espontânea do rol de competências, organograma, endereços, telefones e horários de atendimento sem qualquer demanda provocada é dever de transparência ativa.
 > - Portanto, as ocorrências correspondem a **ativa, passiva e ativa**.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 057
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada associação de servidores públicos ajuizou ação civil contra o Estado postulando a retirada dos nomes e vencimentos dos seus associados do Portal da Transparência, sob alegação de ofensa à intimidade e à vida privada. À luz da LAI e da jurisprudência fixada pelo STF no Tema nº 483:
 
-* **A)** É válida a divulgação nominal dos vencimentos de servidores no Portal da Transparência por atender ao interesse público.
-* **B)** O Estado deve omitir os nomes e cargos dos servidores, divulgando unicamente a matrícula funcional nos dados abertos.
-* **C)** A remuneração funcional é protegida por sigilo fiscal absoluto, inadmitindo consulta por cidadãos ou controladores.
-* **D)** A publicidade da remuneração exige prévia e expressa autorização formal de cada servidor público interessado.
-* **E)** É permitida a divulgação em portal de transparência apenas dos valores globais da folha mensal do órgão público.
+- **A)** É válida a divulgação nominal dos vencimentos de servidores no Portal da Transparência por atender ao interesse público.
+- **B)** O Estado deve omitir os nomes e cargos dos servidores, divulgando unicamente a matrícula funcional nos dados abertos.
+- **C)** A remuneração funcional é protegida por sigilo fiscal absoluto, inadmitindo consulta por cidadãos ou controladores.
+- **D)** A publicidade da remuneração exige prévia e expressa autorização formal de cada servidor público interessado.
+- **E)** É permitida a divulgação em portal de transparência apenas dos valores globais da folha mensal do órgão público.
 
 ---
 
@@ -155,15 +157,17 @@ Determinada associação de servidores públicos ajuizou ação civil contra o E
 > - **E)** **Incorreto**. A LAI e o STF exigem a discriminação individualizada das parcelas remuneratórias por agente.
 >
 > **Gabarito: A**
+
 ### Teste 058
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um cidadão protocolou pedido formal de acesso a informações perante determinada autarquia estadual goiana requerendo cópia de notas de empenho de obras rodoviárias. Considerando as normas gerais de transparência passiva disciplinadas na Lei Federal nº 12.527/2011:
 
-* **A)** O órgão público deve fornecer a informação de imediato ou no prazo improrrogável de até cinco dias corridos.
-* **B)** O acesso deve ser imediato ou em até vinte dias, admitida prorrogação por dez mediante justificativa expressa.
-* **C)** O fornecimento do documento subordina-se ao pagamento prévio de taxa administrativa pelo serviço de busca.
-* **D)** O órgão pode exigir do requerente a comprovação da destinação pretendida para os dados públicos solicitados.
-* **E)** O indeferimento tácito do pedido autoriza a perda imediata do cargo do servidor que atua no protocolo de entrada.
+- **A)** O órgão público deve fornecer a informação de imediato ou no prazo improrrogável de até cinco dias corridos.
+- **B)** O acesso deve ser imediato ou em até vinte dias, admitida prorrogação por dez mediante justificativa expressa.
+- **C)** O fornecimento do documento subordina-se ao pagamento prévio de taxa administrativa pelo serviço de busca.
+- **D)** O órgão pode exigir do requerente a comprovação da destinação pretendida para os dados públicos solicitados.
+- **E)** O indeferimento tácito do pedido autoriza a perda imediata do cargo do servidor que atua no protocolo de entrada.
 
 ---
 
@@ -176,15 +180,17 @@ Um cidadão protocolou pedido formal de acesso a informações perante determina
 > - **E)** **Incorreto**. A omissão sujeita o agente a sanções funcionais após regular processo administrativo, sem perda sumária de cargo.
 >
 > **Gabarito: B**
+
 ### Teste 059
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinado cidadão protocolou requerimento de acesso à informação perante uma autarquia estadual e teve seu pedido indeferido com fundamento genérico de sigilo. A respeito do regime recursal disciplinado no art. 15 da Lei nº 12.527/2011, assinale a opção correta:
 
-* **A)** O requerente dispõe de dez dias para recorrer à autoridade hierarquicamente superior à que proferiu a decisão.
-* **B)** O recurso administrativo de indeferimento de acesso a dados deve ser julgado no prazo decadencial de trinta dias úteis.
-* **C)** A interposição recursal exige o pagamento prévio de custas postais e depósito de caução garantidora de autenticidade.
-* **D)** O recurso no âmbito da LAI é dotado de efeito suspensivo automático sobre a classificação de documentos do órgão.
-* **E)** O silêncio da autoridade recursal importa renúncia tácita do direito de petição do cidadão perante o Poder Público.
+- **A)** O requerente dispõe de dez dias para recorrer à autoridade hierarquicamente superior à que proferiu a decisão.
+- **B)** O recurso administrativo de indeferimento de acesso a dados deve ser julgado no prazo decadencial de trinta dias úteis.
+- **C)** A interposição recursal exige o pagamento prévio de custas postais e depósito de caução garantidora de autenticidade.
+- **D)** O recurso no âmbito da LAI é dotado de efeito suspensivo automático sobre a classificação de documentos do órgão.
+- **E)** O silêncio da autoridade recursal importa renúncia tácita do direito de petição do cidadão perante o Poder Público.
 
 ---
 
@@ -197,6 +203,7 @@ Determinado cidadão protocolou requerimento de acesso à informação perante u
 > - **E)** **Incorreto**. O silêncio administrativo autoriza o recurso às instâncias superiores e a impetração de habeas data ou mandado de segurança.
 >
 > **Gabarito: A**
+
 ## 2. Classificação de Informações Sigilosas e Proteção de Dados Pessoais
 
 O sigilo é exceção estrita no ordenamento jurídico, admitido apenas quando a publicidade puser em risco a segurança da sociedade (vida, saúde ou integridade da população) ou do Estado (soberania, relações internacionais, inteligência, investigações).
@@ -208,11 +215,11 @@ A Lei Federal nº 12.527/2011 (art. 24) e a Lei Estadual nº 18.025/2013 classif
 ```mermaid
 flowchart LR
     S["Graus de Sigilo (Art. 24 da LAI)"]
-    
+  
     S --> U["ULTRASSECRETO<br/>Prazo: Até 25 ANOS<br/>(Admite 1 prorrogação de 25 anos)"]
     S --> SEC["SECRETO<br/>Prazo: Até 15 ANOS<br/>(Improrrogável)"]
     S --> R["RESERVADO<br/>Prazo: Até 5 ANOS<br/>(Improrrogável)"]
-    
+  
     LAI_P["Proteção de Dados Pessoais (Art. 31)"] --> P["INFORMAÇÕES PESSOAIS<br/>Intimidade, Honra e Imagem<br/>Prazo: Até 100 ANOS"]
 ```
 
@@ -246,14 +253,15 @@ O art. 31 da LAI estabelece regime especial de proteção para as informações 
 ---
 
 ### Teste 060
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada informação de interesse da segurança pública estadual foi submetida a processo de classificação de sigilo pela comissão técnica competente. Nos termos expressos do art. 24, § 1º, da Lei Federal nº 12.527/2011, os prazos máximos de restrição de acesso à informação vigoram a partir da data de sua produção e são de:
 
-* **A)** cinquenta anos para ultrassecreta, vinte e cinco anos para secreta e dez anos para reservada.
-* **B)** vinte e cinco anos para ultrassecreta, quinze anos para secreta e cinco anos para reservada.
-* **C)** trinta anos para ultrassecreta, vinte anos para secreta e dez anos para documentos reservados.
-* **D)** vinte anos para ultrassecreta, dez anos para secreta e cinco anos para documentos reservados.
-* **E)** quinze anos para ultrassecreta, dez anos para secreta e dois anos para a modalidade reservada.
+- **A)** cinquenta anos para ultrassecreta, vinte e cinco anos para secreta e dez anos para reservada.
+- **B)** vinte e cinco anos para ultrassecreta, quinze anos para secreta e cinco anos para reservada.
+- **C)** trinta anos para ultrassecreta, vinte anos para secreta e dez anos para documentos reservados.
+- **D)** vinte anos para ultrassecreta, dez anos para secreta e cinco anos para documentos reservados.
+- **E)** quinze anos para ultrassecreta, dez anos para secreta e dois anos para a modalidade reservada.
 
 ---
 
@@ -266,15 +274,17 @@ Determinada informação de interesse da segurança pública estadual foi submet
 > - **E)** **Incorreto**. Prazos em descompasso com os comandos da LAI.
 >
 > **Gabarito: B**
+
 ### Teste 061
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No que concerne à classificação de informações sigilosas e à competência funcional das autoridades no âmbito estadual, com fundamento no art. 27 da Lei Federal nº 12.527/2011, a competência para classificar informação no grau ULTRASSECRETO cabe a:
 
-* **A)** qualquer servidor ocupante de cargo efetivo da área de inteligência policial estadual.
-* **B)** Governador do Estado, Vice-Governador, Secretários de Estado e titulares de autarquias.
-* **C)** Procurador-Geral de Justiça exclusivamente, vedada a classificação por autoridade do Executivo.
-* **D)** Auditores de Controle Externo do Tribunal de Contas do Estado durante auditorias setoriais.
-* **E)** Presidente da Assembleia Legislativa unicamente, mediante aprovação pelo Plenário legislativo.
+- **A)** qualquer servidor ocupante de cargo efetivo da área de inteligência policial estadual.
+- **B)** Governador do Estado, Vice-Governador, Secretários de Estado e titulares de autarquias.
+- **C)** Procurador-Geral de Justiça exclusivamente, vedada a classificação por autoridade do Executivo.
+- **D)** Auditores de Controle Externo do Tribunal de Contas do Estado durante auditorias setoriais.
+- **E)** Presidente da Assembleia Legislativa unicamente, mediante aprovação pelo Plenário legislativo.
 
 ---
 
@@ -287,15 +297,17 @@ No que concerne à classificação de informações sigilosas e à competência 
 > - **E)** **Incorreto**. O Presidente do Legislativo classifica no âmbito do próprio Poder Legislativo, não sendo competência exclusiva.
 >
 > **Gabarito: B**
+
 ### Teste 062
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinado cidadão requereu, com fundamento na LAI, acesso aos prontuários médicos e laudos psicológicos de determinado candidato nomeado em concurso público estadual. De acordo com o art. 31 da Lei Federal nº 12.527/2011 e a Lei Geral de Proteção de Dados Pessoais (LGPD):
 
-* **A)** Os dados relativos à intimidade, vida privada e saúde têm acesso restrito pelo prazo máximo de cem anos.
-* **B)** As informações de saúde de agentes públicos são de domínio público universal em razão do concurso público.
-* **C)** A proteção a dados pessoais extingue-se automaticamente após o decurso do prazo quinquenal da posse.
-* **D)** Qualquer particular pode obter certidão integral de prontuário de terceiro sem justificar a finalidade.
-* **E)** O sigilo de informações de saúde prescreve no prazo máximo de vinte e cinco anos da realização do exame.
+- **A)** Os dados relativos à intimidade, vida privada e saúde têm acesso restrito pelo prazo máximo de cem anos.
+- **B)** As informações de saúde de agentes públicos são de domínio público universal em razão do concurso público.
+- **C)** A proteção a dados pessoais extingue-se automaticamente após o decurso do prazo quinquenal da posse.
+- **D)** Qualquer particular pode obter certidão integral de prontuário de terceiro sem justificar a finalidade.
+- **E)** O sigilo de informações de saúde prescreve no prazo máximo de vinte e cinco anos da realização do exame.
 
 ---
 
@@ -308,6 +320,7 @@ Determinado cidadão requereu, com fundamento na LAI, acesso aos prontuários m�
 > - **E)** **Incorreto**. O prazo legal é de até cem anos, e não vinte e cinco.
 >
 > **Gabarito: A**
+
 ## 3. Licitações e Contratos de Serviços de Publicidade (Lei nº 12.232/2010)
 
 A contratação de serviços de publicidade institucional pela Administração Pública direta e indireta de qualquer dos Poderes da União, Estados, DF e Municípios submete-se a regime jurídico especialíssimo regido pela **Lei Federal nº 12.232/2010** (combinada subsidiariamente com a Lei Geral de Licitações nº 14.133/2021).
@@ -332,11 +345,11 @@ Para julgar a proposta técnica das agências concorrentes, a lei afasta a comis
 ```mermaid
 flowchart TD
     SUB["Subcomissão Técnica de Publicidade (Art. 10, Lei 12.232/10)"]
-    
+  
     SUB --> COMP["Composição Mínima<br/>Pelo menos 3 (três) membros qualificados<br/>(com formação ou atuação em comunicação/marketing)"]
-    
+  
     SUB --> SORTEIO["Escolha Obrigatória por SORTEIO PÚBLICO<br/>Sessão aberta convocada com antecedência mínima de 10 dias"]
-    
+  
     SUB --> INDEP["Garantia de Independência Externa<br/>Pelo menos 1/3 dos membros NÃO PODEM ter vínculo funcional<br/>com o órgão licitante"]
 ```
 
@@ -355,14 +368,15 @@ Para garantir o julgamento impessoal e estritamente técnico:
 ---
 
 ### Teste 063
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma autarquia estadual pretende deflagrar procedimento licitatório para contratação de serviços de publicidade institucional prestados por agência de propaganda. Considerando as normas gerais estabelecidas na Lei Federal nº 12.232/2010 e na Lei Federal nº 14.133/2021:
 
-* **A)** A licitação para serviços de publicidade deve ser realizada compulsoriamente pela modalidade pregão eletrônico.
-* **B)** Os serviços de publicidade institucional devem ser contratados mediante melhor técnica ou técnica e preço.
-* **C)** É admitida a contratação direta por inexigibilidade fundada em notória especialização sem critérios objetivos.
-* **D)** O julgamento das propostas publicitárias deve adotar com exclusividade o critério estrito de menor preço global.
-* **E)** A licitação de publicidade dispensa a atuação de subcomissão técnica de julgamento de proposta de comunicação.
+- **A)** A licitação para serviços de publicidade deve ser realizada compulsoriamente pela modalidade pregão eletrônico.
+- **B)** Os serviços de publicidade institucional devem ser contratados mediante melhor técnica ou técnica e preço.
+- **C)** É admitida a contratação direta por inexigibilidade fundada em notória especialização sem critérios objetivos.
+- **D)** O julgamento das propostas publicitárias deve adotar com exclusividade o critério estrito de menor preço global.
+- **E)** A licitação de publicidade dispensa a atuação de subcomissão técnica de julgamento de proposta de comunicação.
 
 ---
 
@@ -375,15 +389,17 @@ Uma autarquia estadual pretende deflagrar procedimento licitatório para contrat
 > - **E)** **Incorreto**. A Lei nº 12.232/2010 exige expressamente a formação de subcomissão técnica com sorteio de membros sem vínculo.
 >
 > **Gabarito: B**
+
 ### Teste 064
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A contratação de serviços de publicidade institucional prestados por intermédio de agências de propaganda, regida pela Lei Federal nº 12.232/2010, submete-se a rigoroso procedimento de julgamento de propostas técnicas. A respeito da composição e funcionamento da subcomissão técnica (art. 10 da lei):
 
-* **A)** A subcomissão técnica deve ser constituída por membros indicados livremente pela agência que venceu o plano.
-* **B)** A subcomissão deve ser composta por pelo menos três membros, sendo no mínimo um terço sem vínculo funcional.
-* **C)** Todos os membros da subcomissão técnica devem ser auditores do Tribunal de Contas para garantir a lisura.
-* **D)** Os integrantes da subcomissão técnica devem manter filiação partidária idêntica à do Governador do Estado.
-* **E)** A subcomissão atua em sessão secreta sem lavratura de ata pública para resguardar as criações intelectuais.
+- **A)** A subcomissão técnica deve ser constituída por membros indicados livremente pela agência que venceu o plano.
+- **B)** A subcomissão deve ser composta por pelo menos três membros, sendo no mínimo um terço sem vínculo funcional.
+- **C)** Todos os membros da subcomissão técnica devem ser auditores do Tribunal de Contas para garantir a lisura.
+- **D)** Os integrantes da subcomissão técnica devem manter filiação partidária idêntica à do Governador do Estado.
+- **E)** A subcomissão atua em sessão secreta sem lavratura de ata pública para resguardar as criações intelectuais.
 
 ---
 
@@ -396,15 +412,17 @@ A contratação de serviços de publicidade institucional prestados por intermé
 > - **E)** **Incorreto**. Os atos licitatórios são públicos e as pontuações fundamentadas em atas oficiais obrigatórias.
 >
 > **Gabarito: B**
+
 ### Teste 065
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito de procedimento licitatório processado sob o regime da Lei Federal nº 12.232/2010 para contratação de agência de publicidade pelo Estado de Goiás, foram inseridas cláusulas para disciplinar pagamentos e bonificações. A respeito da disciplina dos pagamentos e das vedações expressas nessa legislação:
 
-* **A)** A agência de publicidade pode reter valores de descontos obtidos de veículos de comunicação sem repasse ao erário.
-* **B)** As vantagens e descontos especiais obtidos na negociação de veículos de comunicação pertencem ao contratante público.
-* **C)** É permitida a remuneração de serviços de publicidade governamental com base exclusiva em permuta patrimonial de bens.
-* **D)** O poder público pode efetuar adiantamento de recursos antes da formalização do plano de mídia pelos contratados.
-* **E)** Os veículos de divulgação comercial ficam dispensados de emitir nota fiscal de veiculação em favor do ente estatal.
+- **A)** A agência de publicidade pode reter valores de descontos obtidos de veículos de comunicação sem repasse ao erário.
+- **B)** As vantagens e descontos especiais obtidos na negociação de veículos de comunicação pertencem ao contratante público.
+- **C)** É permitida a remuneração de serviços de publicidade governamental com base exclusiva em permuta patrimonial de bens.
+- **D)** O poder público pode efetuar adiantamento de recursos antes da formalização do plano de mídia pelos contratados.
+- **E)** Os veículos de divulgação comercial ficam dispensados de emitir nota fiscal de veiculação em favor do ente estatal.
 
 ---
 
@@ -417,6 +435,7 @@ No âmbito de procedimento licitatório processado sob o regime da Lei Federal n
 > - **E)** **Incorreto**. A comprovação de veiculação (clipping e faturas originais) é exigência indeclinável para a liquidação da despesa.
 >
 > **Gabarito: B**
+
 ## 4. Fontes Recomendadas na Internet
 
 - [Lei Federal nº 12.527/2011 (Lei de Acesso à Informação - LAI)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm)  
@@ -429,6 +448,6 @@ No âmbito de procedimento licitatório processado sob o regime da Lei Federal n
   Precedente vinculante consolidando a legitimidade da divulgação de nomes e vencimentos de servidores públicos em portais da transparência.
 - [Lei Federal nº 14.133/2021 (Nova Lei de Licitações - Artigo 29)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art29)  
   Dispositivo que reitera a inaplicabilidade do pregão para contratações de serviços técnicos especializados e de publicidade criativa.
-* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 3 e Cap. 9 - Princípio da Publicidade, Lei de Acesso à Informação e Licitações Especiais).
-* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 1 e Cap. 6 - Transparência Administrativa, Sigilo Oficial e Regime da Lei 12.527/2011).
-* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 1º a 5º e Regimes Licitatórios Especiais da Lei 12.232/2010).
+- DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 3 e Cap. 9 - Princípio da Publicidade, Lei de Acesso à Informação e Licitações Especiais).
+- CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 1 e Cap. 6 - Transparência Administrativa, Sigilo Oficial e Regime da Lei 12.527/2011).
+- JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 1º a 5º e Regimes Licitatórios Especiais da Lei 12.232/2010).

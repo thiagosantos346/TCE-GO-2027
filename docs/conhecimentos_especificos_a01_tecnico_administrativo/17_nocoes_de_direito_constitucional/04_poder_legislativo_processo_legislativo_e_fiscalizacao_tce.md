@@ -5,10 +5,7 @@
 > **Arquivo:** `04_poder_legislativo_processo_legislativo_e_fiscalizacao_tce.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 
@@ -16,37 +13,37 @@
 - Atribuições do Congresso Nacional e competências privativas da Câmara dos Deputados (Art. 51) e do Senado Federal (Art. 52).
 - Estatuto dos congressistas: imunidade material (inviolabilidade civil e penal) e imunidade formal/processual (prisão e prerrogativa de foro - Art. 53).
 - Do processo legislativo (Artigos 59 a 69 da CF/88):
-    - Emendas à Constituição (Art. 60): iniciativa restrita, rito qualificado de aprovação, inexistência de sanção/veto e limitações circunstanciais e materiais (cláusulas pétreas);
-    - Leis Complementares vs. Leis Ordinárias (quórum e reserva de matéria);
-    - Medidas Provisórias (Art. 62): pressupostos constitucionais, prazos e vedações temáticas absolutas.
+  - Emendas à Constituição (Art. 60): iniciativa restrita, rito qualificado de aprovação, inexistência de sanção/veto e limitações circunstanciais e materiais (cláusulas pétreas);
+  - Leis Complementares vs. Leis Ordinárias (quórum e reserva de matéria);
+  - Medidas Provisórias (Art. 62): pressupostos constitucionais, prazos e vedações temáticas absolutas.
 - Da fiscalização contábil, financeira, orçamentária, operacional e patrimonial (Artigos 70 a 75 da CF/88):
-    - Controle externo titularizado pelo Poder Legislativo com auxílio do Tribunal de Contas;
-    - Competências do Tribunal de Contas (Art. 71 da CF/88);
-    - Duplo regime de contas: Contas de Governo (parecer prévio opinativo) vs. Contas de Gestão/Ordenadores de Despesa (julgamento técnico definitivo);
-    - Julgamento das contas de Prefeito Municipal (Art. 31, § 2º e Tema 835 do STF);
-    - Sustação de atos administrativos ilegais vs. sustação de contratos administrativos (Art. 71, X e §§ 1º e 2º);
-    - Eficácia de título executivo extrajudicial das decisões do Tribunal de Contas (Art. 71, § 3º da CF/88);
-    - Princípio da simetria constitucional (Art. 75 da CF/88) e o Ministério Público de Contas (Art. 130 da CF/88).
+  - Controle externo titularizado pelo Poder Legislativo com auxílio do Tribunal de Contas;
+  - Competências do Tribunal de Contas (Art. 71 da CF/88);
+  - Duplo regime de contas: Contas de Governo (parecer prévio opinativo) vs. Contas de Gestão/Ordenadores de Despesa (julgamento técnico definitivo);
+  - Julgamento das contas de Prefeito Municipal (Art. 31, § 2º e Tema 835 do STF);
+  - Sustação de atos administrativos ilegais vs. sustação de contratos administrativos (Art. 71, X e §§ 1º e 2º);
+  - Eficácia de título executivo extrajudicial das decisões do Tribunal de Contas (Art. 71, § 3º da CF/88);
+  - Princípio da simetria constitucional (Art. 75 da CF/88) e o Ministério Público de Contas (Art. 130 da CF/88).
 
 ---
 
 ## 🧭 Sumário
 
-1. [Estrutura Bicameral e Atribuições das Casas Legislativas](#1-estrutura-bicameral-e-atribuicoes-das-casas-legislativas)
-    - [1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal](#11-modelo-bicameral-federal-e-unicameral-estadualmunicipal)
-    - [1.2 Repartição de Competências no Congresso Nacional](#12-reparticao-de-competencias-no-congresso-nacional)
-    - [1.3 Estatuto dos Congressistas e Imunidades Parlamentares](#13-estatuto-dos-congressistas-e-imunidades-parlamentares)
-    - [Teste 143](#teste-143)
-    - [Teste 144](#teste-144)
-    - [Teste 145](#teste-145)
-    - [Teste 146](#teste-146)
-    - [Teste 147](#teste-147)
-    - [Teste 148](#teste-148)
-    - [Teste 149](#teste-149)
-    - [Teste 150](#teste-150)
-    - [Teste 151](#teste-151)
-    - [Teste 152](#teste-152)
-    - [Teste 153](#teste-153)
+1. [Estrutura Bicameral e Atribuições das Casas Legislativas](#1-estrutura-bicameral-e-atribuições-das-casas-legislativas)
+    1. [Modelo Bicameral Federal e Unicameral Estadual/Municipal](#11-modelo-bicameral-federal-e-unicameral-estadualmunicipal)
+    1. [Repartição de Competências no Congresso Nacional](#12-repartição-de-competências-no-congresso-nacional)
+    1. [Estatuto dos Congressistas e Imunidades Parlamentares](#13-estatuto-dos-congressistas-e-imunidades-parlamentares)
+    1. [Teste 143](#teste-143)
+    1. [Teste 144](#teste-144)
+    1. [Teste 145](#teste-145)
+    1. [Teste 146](#teste-146)
+    1. [Teste 147](#teste-147)
+    1. [Teste 148](#teste-148)
+    1. [Teste 149](#teste-149)
+    1. [Teste 150](#teste-150)
+    1. [Teste 151](#teste-151)
+    1. [Teste 152](#teste-152)
+    1. [Teste 153](#teste-153)
 
 ---
 
@@ -65,6 +62,7 @@ flowchart TD
 ```
 
 ### 1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal
+
 Enquanto na esfera federal vigora o bicameralismo, nos demais entes da Federação o Poder Legislativo adota compulsoriamente a estrutura **unicameral**:
 
 - **Estados-Membros:** Assembleias Legislativas, compostas por Deputados Estaduais (art. 27);
@@ -72,6 +70,7 @@ Enquanto na esfera federal vigora o bicameralismo, nos demais entes da Federaç�
 - **Municípios:** Câmaras Municipais, compostas por Vereadores (art. 29, IV).
 
 ### 1.2 Repartição de Competências no Congresso Nacional
+
 É fundamental distinguir os três tipos de atribuições legislativas federais:
 
 1. **Competências com Sanção Presidencial (Art. 48):** Matérias deliberadas pelo Congresso Nacional que geram leis e demandam envio ao Presidente da República para sanção ou veto (ex.: sistema tributário, planos orçamentários, criação e extinção de cargos públicos).
@@ -81,6 +80,7 @@ Enquanto na esfera federal vigora o bicameralismo, nos demais entes da Federaç�
     - *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos **crimes de responsabilidade**, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso.
 
 ### 1.3 Estatuto dos Congressistas e Imunidades Parlamentares
+
 O art. 53 da Constituição consagra o plexo de garantias institucionais dos membros do Congresso Nacional:
 
 - **Imunidade Material (Real ou Substantiva):** Os Deputados e Senadores são invioláveis, civil e penalmente, por quaisquer de suas opiniões, palavras e votos. Exige conexão (nexo de causalidade) com o desempenho das funções parlamentares, sendo absoluta quando manifestada dentro do recinto do parlamento.
@@ -90,14 +90,15 @@ O art. 53 da Constituição consagra o plexo de garantias institucionais dos mem
 ---
 
 ### Teste 143
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 As Comissões Parlamentares de Inquérito (CPIs), previstas no art. 58, § 3º, da Constituição Federal, possuem poderes de investigação próprios das autoridades judiciais, além de outros previstos nos regimentos das respectivas Casas. A respeito dos limites constitucionais de atuação das CPIs, é correto afirmar que:
 
-* **A)** podem decretar a quebra do sigilo bancário e fiscal de investigados fundamentadamente.
-* **B)** possuem competência originária para determinar a interceptação de comunicações telefônicas.
-* **C)** podem expedir mandado de busca e apreensão domiciliar na pendência de recesso parlamentar.
-* **D)** detêm poder de decretar a prisão preventiva de investigados em caso de fundado perigo de fuga.
-* **E)** suas conclusões condenam criminalmente os indiciados independentemente de ação do Ministério Público.
+- **A)** podem decretar a quebra do sigilo bancário e fiscal de investigados fundamentadamente.
+- **B)** possuem competência originária para determinar a interceptação de comunicações telefônicas.
+- **C)** podem expedir mandado de busca e apreensão domiciliar na pendência de recesso parlamentar.
+- **D)** detêm poder de decretar a prisão preventiva de investigados em caso de fundado perigo de fuga.
+- **E)** suas conclusões condenam criminalmente os indiciados independentemente de ação do Ministério Público.
 
 ---
 
@@ -112,14 +113,15 @@ As Comissões Parlamentares de Inquérito (CPIs), previstas no art. 58, § 3º, 
 > **Gabarito: A**
 
 ### Teste 144
+
 **(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
 Compete ao Congresso Nacional, com a sanção do Presidente da República:
 
-* **A)** dispor sobre fixação do subsídio dos Ministros do Supremo Tribunal Federal por lei específica.
-* **B)** apreciar os atos de outorga e renovação de concessão de emissoras de rádio e televisão.
-* **C)** escolher dois terços dos membros que compõem o Tribunal de Contas da União.
-* **D)** autorizar previamente a realização de referendo e convocar plebiscito nacional.
-* **E)** autorizar, em terras indígenas, a exploração e o aproveitamento de recursos hídricos.
+- **A)** dispor sobre fixação do subsídio dos Ministros do Supremo Tribunal Federal por lei específica.
+- **B)** apreciar os atos de outorga e renovação de concessão de emissoras de rádio e televisão.
+- **C)** escolher dois terços dos membros que compõem o Tribunal de Contas da União.
+- **D)** autorizar previamente a realização de referendo e convocar plebiscito nacional.
+- **E)** autorizar, em terras indígenas, a exploração e o aproveitamento de recursos hídricos.
 
 ---
 
@@ -134,14 +136,15 @@ Compete ao Congresso Nacional, com a sanção do Presidente da República:
 > **Gabarito: A**
 
 ### Teste 145
+
 **(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
 Ao organizar o Poder Legislativo na esfera federal, a Constituição da República prevê que:
 
-* **A)** a Câmara dos Deputados será composta de representantes eleitos pelo sistema proporcional em cada unidade federada.
-* **B)** o Senado Federal será composto de representantes dos Estados e do Distrito Federal, eleitos segundo o princípio proporcional.
-* **C)** a representação de cada Estado no Senado Federal será renovada de quatro em quatro anos pelo critério de um terço fixo.
-* **D)** as deliberações de cada Casa Legislativa serão tomadas pela unanimidade de seus membros, salvo disposição regimental.
-* **E)** o número total de Senadores varia proporcionalmente à população de cada Estado apurada pelo Censo oficial da União.
+- **A)** a Câmara dos Deputados será composta de representantes eleitos pelo sistema proporcional em cada unidade federada.
+- **B)** o Senado Federal será composto de representantes dos Estados e do Distrito Federal, eleitos segundo o princípio proporcional.
+- **C)** a representação de cada Estado no Senado Federal será renovada de quatro em quatro anos pelo critério de um terço fixo.
+- **D)** as deliberações de cada Casa Legislativa serão tomadas pela unanimidade de seus membros, salvo disposição regimental.
+- **E)** o número total de Senadores varia proporcionalmente à população de cada Estado apurada pelo Censo oficial da União.
 
 ---
 
@@ -156,14 +159,15 @@ Ao organizar o Poder Legislativo na esfera federal, a Constituição da Repúbli
 > **Gabarito: A**
 
 ### Teste 146
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito dos limites ao poder constituinte derivado reformador no processo legislativo de emendas à Constituição (art. 60 da CF/88), analise as regras constitucionais. É correto afirmar que:
 
-* **A)** A proposta de emenda deve ser votada em sessão unicameral conjunta do Congresso Nacional.
-* **B)** O Presidente da República possui prerrogativa de apor veto jurídico ou político à PEC aprovada.
-* **C)** A matéria constante de proposta de emenda rejeitada poderá ser reapresentada na mesma sessão.
-* **D)** O voto obrigatório e o regime presidencialista constituem cláusulas pétreas expressas da CF/88.
-* **E)** A emenda aprovada será promulgada pelas Mesas da Câmara dos Deputados e do Senado Federal.
+- **A)** A proposta de emenda deve ser votada em sessão unicameral conjunta do Congresso Nacional.
+- **B)** O Presidente da República possui prerrogativa de apor veto jurídico ou político à PEC aprovada.
+- **C)** A matéria constante de proposta de emenda rejeitada poderá ser reapresentada na mesma sessão.
+- **D)** O voto obrigatório e o regime presidencialista constituem cláusulas pétreas expressas da CF/88.
+- **E)** A emenda aprovada será promulgada pelas Mesas da Câmara dos Deputados e do Senado Federal.
 
 ---
 
@@ -178,14 +182,15 @@ A respeito dos limites ao poder constituinte derivado reformador no processo leg
 > **Gabarito: E**
 
 ### Teste 147
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Acerca do processo legislativo ordinário disciplinado na Constituição Federal (arts. 61 a 67 da CF/88), analise as regras sobre iniciativa e veto presidencial. É correto afirmar que:
 
-* **A)** O veto parcial do Presidente da República deve abranger o texto integral de artigo, de parágrafo, de inciso ou de alínea.
-* **B)** O silêncio do Presidente da República no prazo de quinze dias úteis importará em veto tácito ao projeto aprovado.
-* **C)** O veto presidencial somente pode ser rejeitado pelo voto de dois terços dos membros de cada Casa parlamentar.
-* **D)** É admitida emenda parlamentar que aumente a despesa prevista nos projetos de iniciativa exclusiva do Presidente.
-* **E)** A matéria de projeto de lei rejeitado jamais poderá ser renovada na mesma sessão legislativa sob qualquer hipótese.
+- **A)** O veto parcial do Presidente da República deve abranger o texto integral de artigo, de parágrafo, de inciso ou de alínea.
+- **B)** O silêncio do Presidente da República no prazo de quinze dias úteis importará em veto tácito ao projeto aprovado.
+- **C)** O veto presidencial somente pode ser rejeitado pelo voto de dois terços dos membros de cada Casa parlamentar.
+- **D)** É admitida emenda parlamentar que aumente a despesa prevista nos projetos de iniciativa exclusiva do Presidente.
+- **E)** A matéria de projeto de lei rejeitado jamais poderá ser renovada na mesma sessão legislativa sob qualquer hipótese.
 
 ---
 
@@ -200,14 +205,15 @@ Acerca do processo legislativo ordinário disciplinado na Constituição Federal
 > **Gabarito: A**
 
 ### Teste 148
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O art. 62 da Constituição da República autoriza o Presidente a adotar medidas provisórias, com força de lei, em caso de relevância e urgência. A respeito do regime constitucional das medidas provisórias, é correto afirmar:
 
-* **A)** É permitida a edição de medida provisória que discipline matéria afeta a direito penal e processo penal.
-* **B)** É vedada a edição de medida provisória sobre matéria reservada a lei complementar ou de direito eleitoral.
-* **C)** A medida provisória perde a eficácia desde a edição se não for convertida em lei no prazo fatal de trinta dias.
-* **D)** A prorrogação da vigência da medida provisória por igual período de sessenta dias depende de votação em Plenário.
-* **E)** Se a medida provisória não for apreciada em quarenta e cinco dias, ocorrerá a sua imediata rejeição tácita.
+- **A)** É permitida a edição de medida provisória que discipline matéria afeta a direito penal e processo penal.
+- **B)** É vedada a edição de medida provisória sobre matéria reservada a lei complementar ou de direito eleitoral.
+- **C)** A medida provisória perde a eficácia desde a edição se não for convertida em lei no prazo fatal de trinta dias.
+- **D)** A prorrogação da vigência da medida provisória por igual período de sessenta dias depende de votação em Plenário.
+- **E)** Se a medida provisória não for apreciada em quarenta e cinco dias, ocorrerá a sua imediata rejeição tácita.
 
 ---
 
@@ -222,15 +228,16 @@ O art. 62 da Constituição da República autoriza o Presidente a adotar medidas
 > **Gabarito: B**
 
 ### Teste 149
+
 **(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 O artigo 31 da Constituição Federal do Brasil estabelece que a fiscalização no âmbito municipal será conduzida pelo Poder Legislativo Municipal, por meio de controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, conforme determinado pela legislação.  
 Assinale a opção que indica o órgão que auxilia o controle externo da Câmara Municipal:
 
-* **A)** Controladoria-Geral do Estado federado.
-* **B)** Tribunal de Contas do Estado competente.
-* **C)** Secretaria da Fazenda e Planejamento.
-* **D)** Secretaria Municipal de Auditoria Interna.
-* **E)** Conselho Comunitário de Controle Social.
+- **A)** Controladoria-Geral do Estado federado.
+- **B)** Tribunal de Contas do Estado competente.
+- **C)** Secretaria da Fazenda e Planejamento.
+- **D)** Secretaria Municipal de Auditoria Interna.
+- **E)** Conselho Comunitário de Controle Social.
 
 ---
 
@@ -245,14 +252,15 @@ Assinale a opção que indica o órgão que auxilia o controle externo da Câmar
 > **Gabarito: B**
 
 ### Teste 150
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Câmara Municipal de determinado município goiano recebeu o parecer prévio desfavorável emitido pelo Tribunal de Contas sobre as contas anuais de governo prestadas pelo Prefeito. Considerando a jurisprudência fixada pelo STF em repercussão geral (Temas 157 e 835), analise as regras de julgamento:
 
-* **A)** O parecer prévio do Tribunal de Contas tem natureza vinculante imediata e gera a inelegibilidade automática.
-* **B)** As contas do chefe do Executivo que atue como ordenador de despesas são julgadas em definitivo pelo Tribunal de Contas.
-* **C)** A Câmara de Vereadores só pode rejeitar o parecer prévio pelo voto da maioria simples dos parlamentares presentes.
-* **D)** Compete exclusivamente à Câmara Municipal o julgamento das contas do Prefeito, atuando o TC como órgão de auxílio.
-* **E)** O parecer prévio do Tribunal de Contas deixa de prevalecer se for impugnado por recurso de iniciativa popular local.
+- **A)** O parecer prévio do Tribunal de Contas tem natureza vinculante imediata e gera a inelegibilidade automática.
+- **B)** As contas do chefe do Executivo que atue como ordenador de despesas são julgadas em definitivo pelo Tribunal de Contas.
+- **C)** A Câmara de Vereadores só pode rejeitar o parecer prévio pelo voto da maioria simples dos parlamentares presentes.
+- **D)** Compete exclusivamente à Câmara Municipal o julgamento das contas do Prefeito, atuando o TC como órgão de auxílio.
+- **E)** O parecer prévio do Tribunal de Contas deixa de prevalecer se for impugnado por recurso de iniciativa popular local.
 
 ---
 
@@ -267,14 +275,15 @@ A Câmara Municipal de determinado município goiano recebeu o parecer prévio d
 > **Gabarito: D**
 
 ### Teste 151
+
 **(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
 Compete ao Tribunal de Contas do Estado de Goiás:
 
-* **A)** julgar as contas dos administradores e demais responsáveis por bens públicos da administração direta e indireta.
-* **B)** apreciar as contas dos gestores e ordenadores de despesas exclusivamente dos órgãos da administração direta.
-* **C)** processar e julgar o Governador e o Vice-Governador por crimes de responsabilidade e infrações político-administrativas.
-* **D)** julgar, anualmente, as contas prestadas pelo Governador do Estado com força executiva condenatória.
-* **E)** proceder à tomada de contas do Governador quando não prestadas dentro de sessenta dias da abertura da sessão.
+- **A)** julgar as contas dos administradores e demais responsáveis por bens públicos da administração direta e indireta.
+- **B)** apreciar as contas dos gestores e ordenadores de despesas exclusivamente dos órgãos da administração direta.
+- **C)** processar e julgar o Governador e o Vice-Governador por crimes de responsabilidade e infrações político-administrativas.
+- **D)** julgar, anualmente, as contas prestadas pelo Governador do Estado com força executiva condenatória.
+- **E)** proceder à tomada de contas do Governador quando não prestadas dentro de sessenta dias da abertura da sessão.
 
 ---
 
@@ -289,14 +298,15 @@ Compete ao Tribunal de Contas do Estado de Goiás:
 > **Gabarito: A**
 
 ### Teste 152
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Plenário do Tribunal de Contas do Estado de Goiás, ao fiscalizar a legalidade da folha de pagamento de determinado órgão estadual, deparou-se com gratificação instituída por lei cuja compatibilidade com o teto constitucional era duvidosa. À luz da Súmula 347 do STF e da jurisprudência recente da Suprema Corte sobre o tema, analise a atuação da Corte de Contas:
 
-* **A)** O Tribunal de Contas pode declarar formalmente a inconstitucionalidade de lei estadual com efeitos erga omnes.
-* **B)** O Tribunal de Contas pode afastar incidenter tantum a aplicação de lei manifestamente contrária à Constituição.
-* **C)** É vedado ao Tribunal de Contas recusar a aplicação de ato normativo estadual mesmo diante de ofensa à Carta Magna.
-* **D)** O Tribunal de Contas exerce fiscalização abstrata de constitucionalidade quando provocado por representação da Mesa.
-* **E)** A recusa de aplicação de ato legislativo pela Corte de Contas depende de autorização do Tribunal de Justiça estadual.
+- **A)** O Tribunal de Contas pode declarar formalmente a inconstitucionalidade de lei estadual com efeitos erga omnes.
+- **B)** O Tribunal de Contas pode afastar incidenter tantum a aplicação de lei manifestamente contrária à Constituição.
+- **C)** É vedado ao Tribunal de Contas recusar a aplicação de ato normativo estadual mesmo diante de ofensa à Carta Magna.
+- **D)** O Tribunal de Contas exerce fiscalização abstrata de constitucionalidade quando provocado por representação da Mesa.
+- **E)** A recusa de aplicação de ato legislativo pela Corte de Contas depende de autorização do Tribunal de Justiça estadual.
 
 ---
 
@@ -311,14 +321,15 @@ O Plenário do Tribunal de Contas do Estado de Goiás, ao fiscalizar a legalidad
 > **Gabarito: B**
 
 ### Teste 153
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A fiscalização dos municípios é exercida pelo Poder Legislativo com o auxílio do Tribunal de Contas competente. Em relação à organização dos Tribunais de Contas municipais no direito brasileiro e à vedação expressa do art. 31, § 4º, da Constituição Federal, é correto afirmar:
 
-* **A)** É permitida a criação de novos Tribunais de Contas municipais em cidades com mais de dois milhões de habitantes.
-* **B)** É vedada a criação de novos Tribunais, Conselhos ou órgãos de Contas Municipais após a promulgação da CF/88.
-* **C)** Os Tribunais de Contas dos Municípios do Rio de Janeiro e de São Paulo foram compulsoriamente extintos pela CF/88.
-* **D)** O Estado federado não pode criar Tribunal de Contas dos Municípios dotado de jurisdição estadual compartilhada.
-* **E)** A competência fiscalizatória dos Tribunais de Contas estaduais sobre os Municípios foi delegada a conselhos distritais.
+- **A)** É permitida a criação de novos Tribunais de Contas municipais em cidades com mais de dois milhões de habitantes.
+- **B)** É vedada a criação de novos Tribunais, Conselhos ou órgãos de Contas Municipais após a promulgação da CF/88.
+- **C)** Os Tribunais de Contas dos Municípios do Rio de Janeiro e de São Paulo foram compulsoriamente extintos pela CF/88.
+- **D)** O Estado federado não pode criar Tribunal de Contas dos Municípios dotado de jurisdição estadual compartilhada.
+- **E)** A competência fiscalizatória dos Tribunais de Contas estaduais sobre os Municípios foi delegada a conselhos distritais.
 
 ---
 
@@ -331,4 +342,3 @@ A fiscalização dos municípios é exercida pelo Poder Legislativo com o auxíl
 > - **E)** **Incorreto**. A fiscalização é exercida diretamente pelos Tribunais de Contas constitucionais.
 >
 > **Gabarito: B**
-

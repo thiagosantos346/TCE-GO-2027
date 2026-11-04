@@ -5,19 +5,16 @@
 > **Arquivo:** `03_organizacao_do_estado_e_reparticao_de_competencias.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 
 - Da organização político-administrativa do Estado brasileiro (Artigos 18 e 19 da CF/88): forma federativa, autonomia dos entes e vedações federativas.
 - Da União, dos Estados Federados, do Distrito Federal e dos Municípios: bens públicos, criação e desmembramento de entes, e competências materiais e legislativas.
 - Repartição constitucional de competências:
-    - Competências materiais exclusivas da União (Art. 21) e comuns de todos os entes (Art. 23);
-    - Competências legislativas privativas da União (Art. 22) e concorrentes entre União, Estados e DF (Art. 24);
-    - Competências remanescentes/residuais dos Estados (Art. 25) e competências de interesse local dos Municípios (Art. 30).
+  - Competências materiais exclusivas da União (Art. 21) e comuns de todos os entes (Art. 23);
+  - Competências legislativas privativas da União (Art. 22) e concorrentes entre União, Estados e DF (Art. 24);
+  - Competências remanescentes/residuais dos Estados (Art. 25) e competências de interesse local dos Municípios (Art. 30).
 - Intervenção Federal e Estadual (Artigos 34 a 36 da CF/88): hipóteses, princípios sensíveis e procedimento.
 - Regime constitucional da Administração Pública (Artigo 37 da CF/88): princípios fundamentais, concurso público, cargos em comissão e funções de confiança, teto remuneratório e regras de acumulação de cargos.
 - Servidores públicos civis (Artigos 38 a 41 da CF/88): exercício de mandato eletivo, estágio probatório, estabilidade aos 3 anos, avaliação especial de desempenho e hipóteses constitucionais taxativas de perda do cargo público estável.
@@ -26,34 +23,35 @@
 
 ## 🧭 Sumário
 
-1. [Forma Federativa e Organização Político-Administrativa](#1-forma-federativa-e-organizacao-politico-administrativa)
-    - [1.1 Características da Federação Brasileira e Autonomia dos Entes](#11-caracteristicas-da-federacao-brasileira-e-autonomia-dos-entes)
-    - [1.2 Vedações Constitucionais Federativas (Art. 19)](#12-vedacoes-constitucionais-federativas-art-19)
-    - [1.3 Bens Públicos Constitucionais e Criação de Novos Entes](#13-bens-publicos-constitucionais-e-criacao-de-novos-entes)
-    - [Teste 132](#teste-132)
-    - [Teste 133](#teste-133)
-    - [Teste 134](#teste-134)
-    - [Teste 135](#teste-135)
-    - [Teste 136](#teste-136)
-    - [Teste 137](#teste-137)
-    - [Teste 138](#teste-138)
-    - [Teste 139](#teste-139)
-    - [Teste 140](#teste-140)
-    - [Teste 141](#teste-141)
-    - [Teste 142](#teste-142)
+1. [Forma Federativa e Organização Político-Administrativa](#1-forma-federativa-e-organização-político-administrativa)
+    1. [Características da Federação Brasileira e Autonomia dos Entes](#11-características-da-federação-brasileira-e-autonomia-dos-entes)
+    1. [Vedações Constitucionais Federativas (Art. 19)](#12-vedações-constitucionais-federativas-art-19)
+    1. [Bens Públicos Constitucionais e Criação de Novos Entes](#13-bens-públicos-constitucionais-e-criação-de-novos-entes)
+    1. [Teste 132](#teste-132)
+    1. [Teste 133](#teste-133)
+    1. [Teste 134](#teste-134)
+    1. [Teste 135](#teste-135)
+    1. [Teste 136](#teste-136)
+    1. [Teste 137](#teste-137)
+    1. [Teste 138](#teste-138)
+    1. [Teste 139](#teste-139)
+    1. [Teste 140](#teste-140)
+    1. [Teste 141](#teste-141)
+    1. [Teste 142](#teste-142)
 
 ---
 
 ## 1. Forma Federativa e Organização Político-Administrativa
 
 ### 1.1 Características da Federação Brasileira e Autonomia dos Entes
+
 A República Federativa do Brasil é formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal (Art. 18, *caput*).
 
 - **Origem Histórica:** Formou-se por **desagregação** (ou segregação), decorrente de um movimento **centrífugo** (o Estado unitário imperial descentralizou poderes políticos para as províncias que se transformaram em Estados-membros).
 - **Indissolubilidade do Vínculo Federativo:** Não existe o direito de secessão (nenhum Estado ou Município pode se separar do Brasil). A tentativa de desmembramento justifica a intervenção federal imediata (art. 34, I) e constitui crime inafiançável e imprescritível (art. 5º, XLIV).
 - **Soberania vs. Autonomia:**
-    - A **Soberania** é atributo exclusivo da **República Federativa do Brasil** no plano internacional.
-    - A **Autonomia** é outorgada aos entes federados (União, Estados, DF e Municípios), manifestando-se pela tríplice capacidade de auto-organização (Constituições e Leis Orgânicas), autogoverno (eleição de chefes dos poderes) e autoadministração (gestão e tributação próprias).
+  - A **Soberania** é atributo exclusivo da **República Federativa do Brasil** no plano internacional.
+  - A **Autonomia** é outorgada aos entes federados (União, Estados, DF e Municípios), manifestando-se pela tríplice capacidade de auto-organização (Constituições e Leis Orgânicas), autogoverno (eleição de chefes dos poderes) e autoadministração (gestão e tributação próprias).
 
 ```mermaid
 flowchart TD
@@ -65,6 +63,7 @@ flowchart TD
 ```
 
 ### 1.2 Vedações Constitucionais Federativas (Art. 19)
+
 O art. 19 da Carta da República veda à União, aos Estados, ao Distrito Federal e aos Municípios:
 
 1. **Estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança**, ressalvada, na forma da lei, a colaboração de interesse público *(Princípio da Laicidade Estatal)*.
@@ -72,6 +71,7 @@ O art. 19 da Carta da República veda à União, aos Estados, ao Distrito Federa
 3. **Criar distinções entre brasileiros ou preferências entre si** *(Proibição de discriminação tributária, previdenciária ou funcional com base na origem regional)*.
 
 ### 1.3 Bens Públicos Constitucionais e Criação de Novos Entes
+
 - **Bens da União (Art. 20):** Terras devolutas indispensáveis à defesa das fronteiras, recursos minerais (inclusive do subsolo), potenciais de energia hidráulica, mar territorial, terrenos de marinha e terras tradicionalmente ocupadas pelos índios.
 - **Bens dos Estados (Art. 26):** Águas superficiais ou subterrâneas fluentes nos seus territórios, ilhas fluviais e lacustres não pertencentes à União e terras devolutas não compreendidas entre as da União.
 - **Criação de Estados (Art. 18, § 3º):** Exige aprovação da população diretamente interessada por meio de **plebiscito** e edição de **Lei Complementar Federal** pelo Congresso Nacional.
@@ -80,14 +80,15 @@ O art. 19 da Carta da República veda à União, aos Estados, ao Distrito Federa
 ---
 
 ### Teste 132
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Incluem-se entre os bens dos Estados:
 
-* **A)** as terras devolutas indispensáveis à defesa das fronteiras e fortificações militares.
-* **B)** o mar territorial, os terrenos de marinha e seus acrescidos pela maré.
-* **C)** as terras tradicionalmente ocupadas pelas comunidades indígenas nacionais.
-* **D)** as ilhas fluviais e lacustres não pertencentes à União.
-* **E)** os potenciais de energia hidráulica e os recursos minerais do subsolo.
+- **A)** as terras devolutas indispensáveis à defesa das fronteiras e fortificações militares.
+- **B)** o mar territorial, os terrenos de marinha e seus acrescidos pela maré.
+- **C)** as terras tradicionalmente ocupadas pelas comunidades indígenas nacionais.
+- **D)** as ilhas fluviais e lacustres não pertencentes à União.
+- **E)** os potenciais de energia hidráulica e os recursos minerais do subsolo.
 
 ---
 
@@ -102,14 +103,15 @@ Incluem-se entre os bens dos Estados:
 > **Gabarito: D**
 
 ### Teste 133
+
 **(FCC – TRT-2 – Analista Judiciário - Tecnologia da Informação – 2014)**  
 É competência privativa da União legislar sobre as matérias de direito:
 
-* **A)** agrário, direito econômico, sistema estatístico e registros públicos.
-* **B)** do trabalho, propaganda comercial, metalurgia e proteção à infância e à juventude.
-* **C)** penal, direito penitenciário, cidadania e sistema cartográfico nacional.
-* **D)** espacial, desapropriação, propaganda comercial e crimes de responsabilidade.
-* **E)** agrário, direito penitenciário, metalurgia e sistema cartográfico oficial.
+- **A)** agrário, direito econômico, sistema estatístico e registros públicos.
+- **B)** do trabalho, propaganda comercial, metalurgia e proteção à infância e à juventude.
+- **C)** penal, direito penitenciário, cidadania e sistema cartográfico nacional.
+- **D)** espacial, desapropriação, propaganda comercial e crimes de responsabilidade.
+- **E)** agrário, direito penitenciário, metalurgia e sistema cartográfico oficial.
 
 ---
 
@@ -124,15 +126,16 @@ Incluem-se entre os bens dos Estados:
 > **Gabarito: D**
 
 ### Teste 134
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Estado Alfa, à míngua de normas da União disciplinando a respectiva temática, editou a Lei estadual nº X. Em momento posterior, a União editou a Lei nº Y, em sentido diametralmente oposto ao da Lei estadual nº X.  
 Considerando os balizamentos estabelecidos pela ordem constitucional, é correto afirmar que a Lei nº Y:
 
-* **A)** não deve ser aplicada no território de Alfa, enquanto a Lei estadual nº X permanecer formalmente vigente.
-* **B)** revoga a Lei estadual nº X, mas apenas se a temática estiver inserida na competência privativa da União.
-* **C)** deve ser considerada nula de pleno direito, considerando o princípio federativo da especialização legal.
-* **D)** suspende a eficácia da Lei estadual nº X, caso veicule normas gerais e a matéria seja concorrente.
-* **E)** revoga expressamente a Lei estadual nº X por força da soberania hierárquica conferida à legislação federal.
+- **A)** não deve ser aplicada no território de Alfa, enquanto a Lei estadual nº X permanecer formalmente vigente.
+- **B)** revoga a Lei estadual nº X, mas apenas se a temática estiver inserida na competência privativa da União.
+- **C)** deve ser considerada nula de pleno direito, considerando o princípio federativo da especialização legal.
+- **D)** suspende a eficácia da Lei estadual nº X, caso veicule normas gerais e a matéria seja concorrente.
+- **E)** revoga expressamente a Lei estadual nº X por força da soberania hierárquica conferida à legislação federal.
 
 ---
 
@@ -147,14 +150,15 @@ Considerando os balizamentos estabelecidos pela ordem constitucional, é correto
 > **Gabarito: D**
 
 ### Teste 135
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em tema de repartição constitucional de competências legislativas e materiais dos Municípios (art. 30 da CF/88), analise as proposições à luz da jurisprudência consolidada do STF:
 
-* **A)** É constitucional lei municipal que fixa horário de funcionamento de agências bancárias locais.
-* **B)** É inconstitucional lei municipal que impõe a instalação de portas de segurança e biombos em agências.
-* **C)** Compete exclusivamente ao Estado membro disciplinar o tempo máximo de espera em filas bancárias.
-* **D)** Os Municípios possuem competência originária e plena para legislar sobre matéria de direito penal e civil.
-* **E)** É nula lei municipal que determina a obrigatoriedade de cinto de segurança em transportes coletivos.
+- **A)** É constitucional lei municipal que fixa horário de funcionamento de agências bancárias locais.
+- **B)** É inconstitucional lei municipal que impõe a instalação de portas de segurança e biombos em agências.
+- **C)** Compete exclusivamente ao Estado membro disciplinar o tempo máximo de espera em filas bancárias.
+- **D)** Os Municípios possuem competência originária e plena para legislar sobre matéria de direito penal e civil.
+- **E)** É nula lei municipal que determina a obrigatoriedade de cinto de segurança em transportes coletivos.
 
 ---
 
@@ -169,14 +173,15 @@ Em tema de repartição constitucional de competências legislativas e materiais
 > **Gabarito: E**
 
 ### Teste 136
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A criação, a incorporação, a fusão e o desmembramento de Municípios dependem de observância a um complexo rito constitucional previsto no art. 18, § 4º, da Constituição Federal. De acordo com o texto constitucional vigente, tais transformações:
 
-* **A)** dependem de decreto legislativo do Congresso Nacional aprovado por maioria absoluta dos parlamentares.
-* **B)** far-se-ão por lei ordinária da União, após consulta plebiscitária aos eleitores da Capital do Estado.
-* **C)** prescindem de estudos de viabilidade municipal se aprovadas por dois terços dos membros da Assembleia.
-* **D)** far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, após plebiscito.
-* **E)** exigem aprovação popular mediante referendo ratificador convocado privativamente pelo Governador estadual.
+- **A)** dependem de decreto legislativo do Congresso Nacional aprovado por maioria absoluta dos parlamentares.
+- **B)** far-se-ão por lei ordinária da União, após consulta plebiscitária aos eleitores da Capital do Estado.
+- **C)** prescindem de estudos de viabilidade municipal se aprovadas por dois terços dos membros da Assembleia.
+- **D)** far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, após plebiscito.
+- **E)** exigem aprovação popular mediante referendo ratificador convocado privativamente pelo Governador estadual.
 
 ---
 
@@ -191,14 +196,15 @@ A criação, a incorporação, a fusão e o desmembramento de Municípios depend
 > **Gabarito: D**
 
 ### Teste 137
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A intervenção federal nos Estados e no Distrito Federal (art. 34 da CF/88) é medida excepcional que suspende temporariamente a autonomia do ente federativo. Sobre as hipóteses e o procedimento da intervenção federal, é correto afirmar:
 
-* **A)** A intervenção para prover a execução de lei federal depende de representação do Procurador-Geral da República.
-* **B)** O Presidente da República pode decretar de ofício a intervenção para repelir invasão estrangeira no território nacional.
-* **C)** A recusa à execução de decisão judiciária dispensa qualquer provocação dos órgãos integrantes do Poder Judiciário.
-* **D)** O decreto de intervenção é dispensado de apreciação pelo Congresso Nacional quando versar sobre defesa da ordem pública.
-* **E)** Cessados os motivos da intervenção, as autoridades afastadas retornam de imediato somente se houver autorização legislativa.
+- **A)** A intervenção para prover a execução de lei federal depende de representação do Procurador-Geral da República.
+- **B)** O Presidente da República pode decretar de ofício a intervenção para repelir invasão estrangeira no território nacional.
+- **C)** A recusa à execução de decisão judiciária dispensa qualquer provocação dos órgãos integrantes do Poder Judiciário.
+- **D)** O decreto de intervenção é dispensado de apreciação pelo Congresso Nacional quando versar sobre defesa da ordem pública.
+- **E)** Cessados os motivos da intervenção, as autoridades afastadas retornam de imediato somente se houver autorização legislativa.
 
 ---
 
@@ -213,14 +219,15 @@ A intervenção federal nos Estados e no Distrito Federal (art. 34 da CF/88) é 
 > **Gabarito: B**
 
 ### Teste 138
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito do regime constitucional da Administração Pública e da disciplina remuneratória dos agentes estatais (art. 37 da CF/88), considere as seguintes regras sobre o teto remuneratório e acumulação de cargos:
 
-* **A)** O subsídio dos Deputados Estaduais serve como limite único para todos os servidores públicos estaduais.
-* **B)** É permitida a percepção simultânea de proventos de aposentadoria decorrentes de três cargos de professor público.
-* **C)** No âmbito municipal, o teto remuneratório geral aplicável a todos os Poderes corresponde ao subsídio do Prefeito.
-* **D)** A vedação de acumulação remunerada de cargos públicos não alcança os empregados de empresas públicas e sociedades de economia mista.
-* **E)** A fixação de vencimentos dos cargos do Poder Legislativo estadual independe de lei específica se houver resolução da Mesa.
+- **A)** O subsídio dos Deputados Estaduais serve como limite único para todos os servidores públicos estaduais.
+- **B)** É permitida a percepção simultânea de proventos de aposentadoria decorrentes de três cargos de professor público.
+- **C)** No âmbito municipal, o teto remuneratório geral aplicável a todos os Poderes corresponde ao subsídio do Prefeito.
+- **D)** A vedação de acumulação remunerada de cargos públicos não alcança os empregados de empresas públicas e sociedades de economia mista.
+- **E)** A fixação de vencimentos dos cargos do Poder Legislativo estadual independe de lei específica se houver resolução da Mesa.
 
 ---
 
@@ -235,15 +242,16 @@ No âmbito do regime constitucional da Administração Pública e da disciplina 
 > **Gabarito: C**
 
 ### Teste 139
+
 **(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**  
 Nair, servidora pública ocupante de cargo de provimento efetivo, logrou ser eleita vereadora no município em que é domiciliada.  
 Preocupada com a possibilidade de conciliar o cargo público com a vereança, analisou os balizamentos estabelecidos pela Constituição da República, tendo concluído corretamente que:
 
-* **A)** deve ser compulsoriamente afastada do cargo efetivo durante o exercício do mandato eletivo.
-* **B)** deve optar por um ou outro estipêndio, pois a acumulação pecuniária de mandatos é sempre vedada.
-* **C)** havendo compatibilidade de horários, perceberá as vantagens de seu cargo, sem prejuízo da remuneração do mandato.
-* **D)** pode acumular ambos os cargos somente se tiver cumprido o estágio probatório com estabilidade.
-* **E)** tem o direito de acumular ambos os cargos mesmo que haja incompatibilidade absoluta de jornadas.
+- **A)** deve ser compulsoriamente afastada do cargo efetivo durante o exercício do mandato eletivo.
+- **B)** deve optar por um ou outro estipêndio, pois a acumulação pecuniária de mandatos é sempre vedada.
+- **C)** havendo compatibilidade de horários, perceberá as vantagens de seu cargo, sem prejuízo da remuneração do mandato.
+- **D)** pode acumular ambos os cargos somente se tiver cumprido o estágio probatório com estabilidade.
+- **E)** tem o direito de acumular ambos os cargos mesmo que haja incompatibilidade absoluta de jornadas.
 
 ---
 
@@ -258,15 +266,16 @@ Preocupada com a possibilidade de conciliar o cargo público com a vereança, an
 > **Gabarito: C**
 
 ### Teste 140
+
 **(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Maria, servidora pública federal, foi condenada, em sentença penal transitada em julgado, pela prática de infração penal. No momento em que o regime de cumprimento da pena passou para o aberto, procurou se informar em relação aos atos da cidadania que poderia, ou não, praticar enquanto estivesse cumprindo a pena.  
 Ao final, Maria concluiu corretamente que, na perspectiva das eleições para cargos dos Poderes Executivo e Legislativo:
 
-* **A)** não pode votar nem concorrer a cargo eletivo durante o período de cumprimento da reprimenda penal imposta.
-* **B)** pode exercer regularmente o direito ao voto, mas encontra-se temporariamente impedida de concorrer a cargo eletivo.
-* **C)** pode votar e concorrer apenas a cargos eletivos municipais onde resida, vedadas candidaturas estaduais e federais.
-* **D)** pode concorrer a cargo eletivo desde que obtenha autorização expressa do juízo de execuções penais competente.
-* **E)** pode votar e ser votada normalmente porque a progressão para o regime prisional aberto restabelece a plenitude cidadã.
+- **A)** não pode votar nem concorrer a cargo eletivo durante o período de cumprimento da reprimenda penal imposta.
+- **B)** pode exercer regularmente o direito ao voto, mas encontra-se temporariamente impedida de concorrer a cargo eletivo.
+- **C)** pode votar e concorrer apenas a cargos eletivos municipais onde resida, vedadas candidaturas estaduais e federais.
+- **D)** pode concorrer a cargo eletivo desde que obtenha autorização expressa do juízo de execuções penais competente.
+- **E)** pode votar e ser votada normalmente porque a progressão para o regime prisional aberto restabelece a plenitude cidadã.
 
 ---
 
@@ -281,14 +290,15 @@ Ao final, Maria concluiu corretamente que, na perspectiva das eleições para ca
 > **Gabarito: A**
 
 ### Teste 141
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Sobre o regime constitucional de estabilidade dos servidores públicos ocupantes de cargo de provimento efetivo (art. 41 da CF/88), analise as hipóteses de aquisição e perda do cargo público estável. É correto afirmar que:
 
-* **A)** O servidor adquire estabilidade após dois anos de efetivo exercício, prescindindo de avaliação de desempenho.
-* **B)** O servidor estável somente pode perder o cargo em virtude de sentença judicial transitada em julgado.
-* **C)** A perda do cargo por avaliação periódica de desempenho exige procedimento em que se assegure ampla defesa.
-* **D)** Invalidada por sentença a demissão do estável, o ocupante da vaga é exonerado sem qualquer indenização funcional.
-* **E)** A exoneração para cumprimento de limite com despesa de pessoal atinge o servidor estável antes do não estável.
+- **A)** O servidor adquire estabilidade após dois anos de efetivo exercício, prescindindo de avaliação de desempenho.
+- **B)** O servidor estável somente pode perder o cargo em virtude de sentença judicial transitada em julgado.
+- **C)** A perda do cargo por avaliação periódica de desempenho exige procedimento em que se assegure ampla defesa.
+- **D)** Invalidada por sentença a demissão do estável, o ocupante da vaga é exonerado sem qualquer indenização funcional.
+- **E)** A exoneração para cumprimento de limite com despesa de pessoal atinge o servidor estável antes do não estável.
 
 ---
 
@@ -303,14 +313,15 @@ Sobre o regime constitucional de estabilidade dos servidores públicos ocupantes
 > **Gabarito: C**
 
 ### Teste 142
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A estabilidade no serviço público é direito constitucional assegurado aos servidores nomeados para cargo de provimento efetivo em virtude de concurso público. A respeito da extinção do cargo ou declaração de sua desnecessidade, é correto afirmar:
 
-* **A)** O servidor estável cujo cargo for extinto será sumariamente demitido do serviço público com indenização pecuniária.
-* **B)** Extinto o cargo ou declarada sua desnecessidade, o estável ficará em disponibilidade com remuneração proporcional ao tempo.
-* **C)** O servidor em disponibilidade não poderá ser aproveitado em outro cargo mesmo que apresente atribuições compatíveis.
-* **D)** A remuneração do servidor em disponibilidade é integral e calculada sempre com base no subsídio do cargo em comissão.
-* **E)** O retorno do servidor estável ao serviço ativo por reintegração independe de anulação formal da demissão anterior.
+- **A)** O servidor estável cujo cargo for extinto será sumariamente demitido do serviço público com indenização pecuniária.
+- **B)** Extinto o cargo ou declarada sua desnecessidade, o estável ficará em disponibilidade com remuneração proporcional ao tempo.
+- **C)** O servidor em disponibilidade não poderá ser aproveitado em outro cargo mesmo que apresente atribuições compatíveis.
+- **D)** A remuneração do servidor em disponibilidade é integral e calculada sempre com base no subsídio do cargo em comissão.
+- **E)** O retorno do servidor estável ao serviço ativo por reintegração independe de anulação formal da demissão anterior.
 
 ---
 
@@ -323,4 +334,3 @@ A estabilidade no serviço público é direito constitucional assegurado aos ser
 > - **E)** **Incorreto**. A reintegração pressupõe necessariamente a invalidação (administrativa ou judicial) do ato de demissão anterior.
 >
 > **Gabarito: B**
-

@@ -4,54 +4,52 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `04_planejamento_estrategico_indicadores_e_gestao_por_competencias.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Níveis do planejamento organizacional: Estratégico (institucional e longo prazo), Tático (departamental e médio prazo) e Operacional (tarefas, rotinas e curto prazo);
 - Ferramentas de análise e diagnóstico para a gestão:
-    - **Balanced Scorecard (BSC - Kaplan & Norton):** mapa estratégico, relações de causa e efeito, e as quatro perspectivas adaptadas ao setor público (Cidadão/Sociedade, Orçamentária/Financeira, Processos Internos e Aprendizado/Crescimento);
-    - **Matriz SWOT (FOFA):** forças e fraquezas (ambiente interno controlável) versus oportunidades e ameaças (ambiente externo incontrolável);
-    - **Matriz GUT:** priorização matemática de problemas por Gravidade, Urgência e Tendência;
-    - Metodologia 5W2H de planos de ação operacional;
+  - **Balanced Scorecard (BSC - Kaplan & Norton):** mapa estratégico, relações de causa e efeito, e as quatro perspectivas adaptadas ao setor público (Cidadão/Sociedade, Orçamentária/Financeira, Processos Internos e Aprendizado/Crescimento);
+  - **Matriz SWOT (FOFA):** forças e fraquezas (ambiente interno controlável) versus oportunidades e ameaças (ambiente externo incontrolável);
+  - **Matriz GUT:** priorização matemática de problemas por Gravidade, Urgência e Tendência;
+  - Metodologia 5W2H de planos de ação operacional;
 - Indicadores de gestão pública e desempenho organizacional:
-    - Os 6 Es do desempenho público: Economicidade, Eficiência, Eficácia, Efetividade, Execução e Excelência;
-    - Propriedades e requisitos dos indicadores: representatividade, simplicidade, rastreabilidade, sensibilidade e economicidade;
+  - Os 6 Es do desempenho público: Economicidade, Eficiência, Eficácia, Efetividade, Execução e Excelência;
+  - Propriedades e requisitos dos indicadores: representatividade, simplicidade, rastreabilidade, sensibilidade e economicidade;
 - Metodologias de avaliação de desempenho funcional:
-    - Avaliação individual e institucional; métodos tradicionais e modernos;
-    - Avaliação 360 graus (múltiplas fontes), autoavaliação e avaliação participativa por objetivos;
+  - Avaliação individual e institucional; métodos tradicionais e modernos;
+  - Avaliação 360 graus (múltiplas fontes), autoavaliação e avaliação participativa por objetivos;
 - Gestão por Competências na administração pública (Decreto Federal nº 9.991/2019):
-    - A tríade **CHA** (Conhecimentos, Habilidades e Atitudes);
-    - Mapeamento de competências, diagnóstico de lacunas (*gap analysis*) e elaboração do Plano de Desenvolvimento de Pessoas (PDP);
+  - A tríade **CHA** (Conhecimentos, Habilidades e Atitudes);
+  - Mapeamento de competências, diagnóstico de lacunas (*gap analysis*) e elaboração do Plano de Desenvolvimento de Pessoas (PDP);
 - Processo decisório e teoria da decisão:
-    - Modelo Racional Absoluto (*Homem Econômico*) versus Teoria da Racionalidade Limitada de Herbert Simon (*Homem Administrativo* e decisões satisfatórias);
-    - Decisões programadas versus decisões não programadas;
+  - Modelo Racional Absoluto (*Homem Econômico*) versus Teoria da Racionalidade Limitada de Herbert Simon (*Homem Administrativo* e decisões satisfatórias);
+  - Decisões programadas versus decisões não programadas;
 - Gestão de conflitos organizacionais: conflitos funcionais e disfuncionais; estilos de tratamento de conflitos (Kenneth Thomas e Ralph Kilmann).
 
 ---
 
 ## 🧭 Sumário
 
-1. [Níveis do Planejamento Organizacional](#1-niveis-do-planejamento-organizacional)
-    - [Teste 330](#teste-330)
-2. [O Balanced Scorecard (BSC) no Setor Público](#2-o-balanced-scorecard-bsc-no-setor-publico)
-    - [Teste 331](#teste-331)
-    - [Teste 332](#teste-332)
-3. [Matrizes SWOT (FOFA), GUT e Plano de Ação 5W2H](#3-matrizes-swot-fofa-gut-e-plano-de-acao-5w2h)
-    - [Teste 333](#teste-333)
-4. [Indicadores de Desempenho e Métodos de Avaliação Funcional](#4-indicadores-de-desempenho-e-metodos-de-avaliacao-funcional)
-    - [Teste 334](#teste-334)
-5. [Gestão por Competências no Setor Público (Decreto 9.991/2019)](#5-gestao-por-competencias-no-setor-publico-decreto-99912019)
-    - [Teste 335](#teste-335)
-6. [Processo Decisório e Teoria da Decisão (Herbert Simon)](#6-processo-decisorio-e-teoria-da-decisao-herbert-simon)
-    - [Teste 336](#teste-336)
-7. [Gestão de Conflitos Organizacionais (Thomas-Kilmann)](#7-gestao-de-conflitos-organizacionais-thomas-kilmann)
-    - [Teste 337](#teste-337)
-    - [Teste 338](#teste-338)
-    - [Teste 339](#teste-339)
-8. [Fontes Oficiais e Referências Bibliográficas](#8-fontes-oficiais-e-referencias-bibliograficas)
+1. [Níveis do Planejamento Organizacional](#1-níveis-do-planejamento-organizacional)
+    1. [Teste 330](#teste-330)
+2. [O Balanced Scorecard (BSC) no Setor Público](#2-o-balanced-scorecard-bsc-no-setor-público)
+    1. [Teste 331](#teste-331)
+    1. [Teste 332](#teste-332)
+3. [Matrizes SWOT (FOFA), GUT e Plano de Ação 5W2H](#3-matrizes-swot-fofa-gut-e-plano-de-ação-5w2h)
+    1. [Teste 333](#teste-333)
+4. [Indicadores de Desempenho e Métodos de Avaliação Funcional](#4-indicadores-de-desempenho-e-métodos-de-avaliação-funcional)
+    1. [Teste 334](#teste-334)
+5. [Gestão por Competências no Setor Público (Decreto 9.991/2019)](#5-gestão-por-competências-no-setor-público-decreto-99912019)
+    1. [Teste 335](#teste-335)
+6. [Processo Decisório e Teoria da Decisão (Herbert Simon)](#6-processo-decisório-e-teoria-da-decisão-herbert-simon)
+    1. [Teste 336](#teste-336)
+7. [Gestão de Conflitos Organizacionais (Thomas-Kilmann)](#7-gestão-de-conflitos-organizacionais-thomas-kilmann)
+    1. [Teste 337](#teste-337)
+    1. [Teste 338](#teste-338)
+    1. [Teste 339](#teste-339)
+8. [Fontes Oficiais e Referências Bibliográficas](#8-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -63,7 +61,7 @@ O planejamento administrativo constitui a função basilar da administração qu
 flowchart TD
     subgraph Piramide ["Níveis de Planejamento Organizacional"]
         direction TB
-        E["1. ESTRATÉGICO<br/>• Longo prazo (3 a 5+ anos)<br/>• Nível Institucional / Alta Cúpula<br/>• Abrangência ampla (organização inteira)<br/>• Focado em Missão, Visão e Macroestratégias"] 
+        E["1. ESTRATÉGICO<br/>• Longo prazo (3 a 5+ anos)<br/>• Nível Institucional / Alta Cúpula<br/>• Abrangência ampla (organização inteira)<br/>• Focado em Missão, Visão e Macroestratégias"]
         --> T["2. TÁTICO<br/>• Médio prazo (1 a 3 anos)<br/>• Nível Departamental / Média Gerência<br/>• Desdobramento funcional por áreas (RH, TI, Finanças)<br/>• Integração entre macroestratégia e rotinas"]
         T --> O["3. OPERACIONAL<br/>• Curto prazo (dias, semanas, meses)<br/>• Nível Operacional / Supervisão e Base<br/>• Focado em tarefas, rotinas, procedimentos (POPs) e cronogramas<br/>• Execução imediata e detalhamento minucioso"]
     end
@@ -90,17 +88,17 @@ flowchart TD
 ---
 
 ### Teste 330
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O planejamento organizacional é estruturado em três níveis hierárquicos interligados: Estratégico, Tático e Operacional.
 
 A respeito desses níveis, é correto afirmar:
 
-* **A)** O planejamento estratégico tem horizonte temporal de longo prazo, abrange a organização como uma totalidade sistêmica e define a missão, visão e objetivos corporativos mestres; já o planejamento operacional foca o curto prazo e detalha tarefas e procedimentos diários de execução.
-* **B)** O planejamento tático é formulado pelos operários da linha de frente para solucionar problemas de atendimento imediato.
-* **C)** O planejamento operacional abrange o macroambiente externo e analisa as forças competitivas da economia internacional.
-* **D)** O planejamento estratégico é privativo de empresas comerciais de mercado, inexistindo aplicação prática no âmbito dos Tribunais de Contas e órgãos públicos.
-* **E)** O planejamento tático foca exclusivamente em investimentos com prazo superior a quinze anos.
-
+- **A)** O planejamento estratégico tem horizonte temporal de longo prazo, abrange a organização como uma totalidade sistêmica e define a missão, visão e objetivos corporativos mestres; já o planejamento operacional foca o curto prazo e detalha tarefas e procedimentos diários de execução.
+- **B)** O planejamento tático é formulado pelos operários da linha de frente para solucionar problemas de atendimento imediato.
+- **C)** O planejamento operacional abrange o macroambiente externo e analisa as forças competitivas da economia internacional.
+- **D)** O planejamento estratégico é privativo de empresas comerciais de mercado, inexistindo aplicação prática no âmbito dos Tribunais de Contas e órgãos públicos.
+- **E)** O planejamento tático foca exclusivamente em investimentos com prazo superior a quinze anos.
 
 ---
 
@@ -111,7 +109,7 @@ A respeito desses níveis, é correto afirmar:
 > - **C)** Incorreta. Macroambiente é estratégico.
 > - **D)** Incorreta. Tribunais de Contas utilizam planejamento estratégico sistematicamente.
 > - **E)** Incorreta. Médio prazo (anual/bianual).
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -125,11 +123,11 @@ flowchart TD
     subgraph BSC_Publico ["Perspectivas do BSC no Setor Público"]
         direction TB
         Cid["1. Cidadão / Sociedade (Topo do Mapa)<br/>Satisfação do usuário, cumprimento da missão e entrega de valor público"]
-        
+  
         Fin["2. Financeira / Orçamentária<br/>Equilíbrio fiscal, sustentabilidade, conformidade e uso eficiente dos recursos"]
-        
+  
         Proc["3. Processos Internos<br/>Inovação, tempestividade processual, celeridade e excelência operacional"]
-        
+  
         Apr["4. Aprendizado e Crescimento (Base do Mapa)<br/>Capacitação contínua, clima organizacional, liderança e tecnologia da informação"]
     end
 
@@ -138,7 +136,8 @@ flowchart TD
     Fin -->|Viabiliza as entregas públicas ao| Cid
 ```
 
-#### As Quatro Perspectivas Clássicas e a Adaptação para o Setor Público:
+#### As Quatro Perspectivas Clássicas e a Adaptação para o Setor Público
+
 1. **Perspectiva do Cidadão / Sociedade (Topo no Setor Público):**
     - *Na iniciativa privada:* O topo do mapa estratégico é a **Perspectiva Financeira**, orientada para a geração de lucros, dividendos e retorno sobre o patrimônio dos acionistas (*shareholders*).
     - *No setor público:* O topo do mapa estratégico é **obrigatoriamente a Perspectiva do Cidadão e da Sociedade**. O órgão público não visa ao lucro comercial, mas sim à geração de valor público, garantia de direitos fundamentais e satisfação dos cidadãos-usuários.
@@ -158,15 +157,15 @@ flowchart TD
 ---
 
 ### Teste 331
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Contas utilizou a metodologia do Balanced Scorecard (BSC). Ao elaborar o mapa estratégico, a equipe de planejamento definiu quatro perspectivas de objetivos. Considerando as peculiaridades das organizações públicas em relação às empresas privadas com fins lucrativos, no modelo adotado pelo Tribunal:
 
-* **A)** A perspectiva financeira deve ocupar obrigatoriamente a posição superior do mapa, tendo como meta a geração de lucro operacional e dividendos públicos.
-* **B)** A perspectiva dos cidadãos e da sociedade ocupa o ápice da cadeia de causalidade estratégica, enquanto os recursos orçamentários figuram como viabilizadores das entregas públicas.
-* **C)** O aprendizado e o crescimento funcional são eliminados do mapa por serem exclusivos de indústrias manufatureiras.
-* **D)** As relações de causa e efeito deixam de existir, passando os objetivos a ser medidos de forma isolada e autônoma.
-* **E)** O mapa estratégico dispensa a identificação de indicadores e metas para os processos de fiscalização e controle.
-
+- **A)** A perspectiva financeira deve ocupar obrigatoriamente a posição superior do mapa, tendo como meta a geração de lucro operacional e dividendos públicos.
+- **B)** A perspectiva dos cidadãos e da sociedade ocupa o ápice da cadeia de causalidade estratégica, enquanto os recursos orçamentários figuram como viabilizadores das entregas públicas.
+- **C)** O aprendizado e o crescimento funcional são eliminados do mapa por serem exclusivos de indústrias manufatureiras.
+- **D)** As relações de causa e efeito deixam de existir, passando os objetivos a ser medidos de forma isolada e autônoma.
+- **E)** O mapa estratégico dispensa a identificação de indicadores e metas para os processos de fiscalização e controle.
 
 ---
 
@@ -177,21 +176,21 @@ Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Co
 > - **C) Incorreta.** O aprendizado e crescimento (capital humano, tecnologia, liderança e cultura) é a base indispensável de sustentação de qualquer organização no BSC.  
 > - **D) Incorreta.** O alicerce do BSC é precisamente a construção de hipóteses explícitas de causa e efeito entre os objetivos das quatro perspectivas.  
 > - **E) Incorreta.** A metodologia do BSC exige indicadores e metas para todas as perspectivas estratégicas.  
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 332
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na transposição do Balanced Scorecard (BSC - Kaplan e Norton) para as organizações públicas e entidades de controle governamental (como o TCE-GO), a adaptação mais relevante no mapa estratégico consiste em:
 
-* **A)** Deslocar a perspectiva dos "Clientes / Cidadãos-Usuários e Sociedade" para o topo do mapa estratégico como objetivo final supremo, passando a perspectiva financeira a atuar como viabilizadora e restrição orçamentária dos serviços prestados.
-* **B)** Eliminar completamente a perspectiva de Aprendizado e Crescimento, visto que servidores públicos estáveis não necessitam de capacitação continuada.
-* **C)** Substituir os indicadores de eficácia social por índices de lucro líquido financeiro a ser distribuído aos cidadãos como dividendos monetários.
-* **D)** Considerar a perspectiva de Processos Internos como a única relevante, descartando qualquer métrica voltada para a satisfação da sociedade.
-* **E)** Proibir o estabelecimento de relações de causa e efeito entre os objetivos estratégicos institucionais.
-
+- **A)** Deslocar a perspectiva dos "Clientes / Cidadãos-Usuários e Sociedade" para o topo do mapa estratégico como objetivo final supremo, passando a perspectiva financeira a atuar como viabilizadora e restrição orçamentária dos serviços prestados.
+- **B)** Eliminar completamente a perspectiva de Aprendizado e Crescimento, visto que servidores públicos estáveis não necessitam de capacitação continuada.
+- **C)** Substituir os indicadores de eficácia social por índices de lucro líquido financeiro a ser distribuído aos cidadãos como dividendos monetários.
+- **D)** Considerar a perspectiva de Processos Internos como a única relevante, descartando qualquer métrica voltada para a satisfação da sociedade.
+- **E)** Proibir o estabelecimento de relações de causa e efeito entre os objetivos estratégicos institucionais.
 
 ---
 
@@ -202,7 +201,7 @@ Na transposição do Balanced Scorecard (BSC - Kaplan e Norton) para as organiza
 > - **C)** Incorreta. Órgãos públicos não visam lucro comercial.
 > - **D)** Incorreta. O BSC integra equilibradamente as perspectivas.
 > - **E)** Incorreta. O mapa baseia-se em relações de causa e efeito.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -210,6 +209,7 @@ Na transposição do Balanced Scorecard (BSC - Kaplan e Norton) para as organiza
 ## 3. Matrizes SWOT (FOFA), GUT e Plano de Ação 5W2H
 
 #### A) Matriz SWOT (FOFA)
+
 A análise SWOT (*Strengths, Weaknesses, Opportunities, Threats* / Forças, Oportunidades, Fraquezas e Ameaças) é um clássico modelo de diagnóstico situacional estratégico que correlaciona o diagnóstico interno e externo da organização:
 
 ```mermaid
@@ -237,6 +237,7 @@ flowchart TD
 ---
 
 ### Teste 333
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante a realização de um diagnóstico institucional, os analistas de um tribunal identificaram os seguintes fatores:
 
@@ -247,12 +248,11 @@ Durante a realização de um diagnóstico institucional, os analistas de um trib
 
 Sob a ótica da Matriz SWOT (FOFA), os fatores 1, 2, 3 e 4 representam, respectivamente:
 
-* **A)** Força, Fraqueza, Oportunidade e Ameaça.
-* **B)** Oportunidade, Ameaça, Força e Fraqueza.
-* **C)** Força, Ameaça, Oportunidade e Fraqueza.
-* **D)** Oportunidade, Fraqueza, Força e Ameaça.
-* **E)** Força, Fraqueza, Ameaça e Oportunidade.
-
+- **A)** Força, Fraqueza, Oportunidade e Ameaça.
+- **B)** Oportunidade, Ameaça, Força e Fraqueza.
+- **C)** Força, Ameaça, Oportunidade e Fraqueza.
+- **D)** Oportunidade, Fraqueza, Força e Ameaça.
+- **E)** Força, Fraqueza, Ameaça e Oportunidade.
 
 ---
 
@@ -263,22 +263,23 @@ Sob a ótica da Matriz SWOT (FOFA), os fatores 1, 2, 3 e 4 representam, respecti
 > - **C) Incorreta.** Classifica erroneamente o Fator 2 como ameaça e o Fator 4 como fraqueza.
 > - **D) Incorreta.** Confunde a qualificação dos servidores com oportunidade externa e as linhas federais com força interna.
 > - **E) Incorreta.** Inverte a ordem dos fatores externos 3 e 4.
-> 
+>
 > **Gabarito: A**
 
 ---
 
-
 #### B) Matriz GUT (Gravidade, Urgência e Tendência)
+
 Instrumento matemático prioritário para ranquear problemas, projetos ou demandas operacionais que concorrem por recursos escassos. Cada variável recebe uma nota de 1 a 5:
 
 $$\mathbf{\text{Pontuação de Prioridade} = \text{Gravidade (G)} \times \text{Urgência (U)} \times \text{Tendência (T)}}$$
 
-* **G - Gravidade:** Mensura a extensão do dano, prejuízo material ou impacto institucional caso nada seja feito (1 = sem gravidade; 5 = gravíssimo / danos irreparáveis).
-* **U - Urgência:** Avalia o tempo remanescente para intervir antes que consequências danosas ocorram (1 = pode esperar sem prejuízo; 5 = exige intervenção imediata / perda iminente).
-* **T - Tendência:** Projeta o padrão evolutivo e a probabilidade de agravamento do problema no tempo (1 = vai desaparecer ou estagnar; 5 = vai piorar rápida e drasticamente).
+- **G - Gravidade:** Mensura a extensão do dano, prejuízo material ou impacto institucional caso nada seja feito (1 = sem gravidade; 5 = gravíssimo / danos irreparáveis).
+- **U - Urgência:** Avalia o tempo remanescente para intervir antes que consequências danosas ocorram (1 = pode esperar sem prejuízo; 5 = exige intervenção imediata / perda iminente).
+- **T - Tendência:** Projeta o padrão evolutivo e a probabilidade de agravamento do problema no tempo (1 = vai desaparecer ou estagnar; 5 = vai piorar rápida e drasticamente).
 
 #### C) Plano de Ação 5W2H
+
 Metodologia operacional consagrada para estruturação e acompanhamento da execução prática de projetos e deliberações administrativas:
 
 1. **What? (O quê?):** Descrição da meta, ação ou entrega a realizar.
@@ -294,6 +295,7 @@ Metodologia operacional consagrada para estruturação e acompanhamento da execu
 ## 4. Indicadores de Desempenho e Métodos de Avaliação Funcional
 
 #### A) As Dimensões do Desempenho Público (Os 6 Es)
+
 A gestão pública moderna avalia políticas públicas e entidades governamentais por meio da cadeia de agregação de valor público conhecida como os 6 Es:
 
 | Indicador (E) | Conceito Central | Relação Analítica / Foco |
@@ -306,19 +308,21 @@ A gestão pública moderna avalia políticas públicas e entidades governamentai
 | **Excelência** | Padrões de qualidade do serviço e conformidade aos anseios dos cidadãos-usuários. | Satisfação do usuário / Conformidade às normas ISO/GesPública |
 
 #### B) Propriedades Técnicas dos Indicadores
+
 Para assegurar a utilidade e fidedignidade dos relatórios de governança, os indicadores devem preencher:
 
-* **Validade:** Capacidade de representar com exatidão o fenômeno que se pretende medir.
-* **Confiabilidade:** Obtenção de resultados consistentes e idênticos independentemente de quem execute a coleta.
-* **Simplicidade:** Facilidade de compreensão, cálculo e comunicação aos gestores e cidadãos.
-* **Sensibilidade:** Capacidade de detectar e registrar prontamente pequenas variações no fenômeno medido.
-* **Economicidade:** O custo da coleta e do monitoramento das informações deve ser significativamente inferior ao benefício gerado pela medição.
+- **Validade:** Capacidade de representar com exatidão o fenômeno que se pretende medir.
+- **Confiabilidade:** Obtenção de resultados consistentes e idênticos independentemente de quem execute a coleta.
+- **Simplicidade:** Facilidade de compreensão, cálculo e comunicação aos gestores e cidadãos.
+- **Sensibilidade:** Capacidade de detectar e registrar prontamente pequenas variações no fenômeno medido.
+- **Economicidade:** O custo da coleta e do monitoramento das informações deve ser significativamente inferior ao benefício gerado pela medição.
 
 #### C) Metodologias de Avaliação de Desempenho Funcional
-* **Avaliação 90° (Tradicional):** O servidor é avaliado exclusivamente pelo seu superior hierárquico imediato. Apresenta risco de viés de autoridade e subjetividade.
-* **Avaliação 180° (Mútua / Conjunta):** O gestor avalia o colaborador e este realiza sua autoavaliação, procedendo-se a uma sessão estruturada de *feedback* e consenso.
-* **Avaliação 360° (Circular / Múltiplas Fontes):** O colaborador é avaliado de forma abrangente por todos que interagem com sua rotina de trabalho: superior imediato, pares/colegas do mesmo nível, liderados/subordinados diretos, clientes internos/externos (cidadãos) e autoavaliação. Fornece uma visão holística e reduz vieses individuais.
-* **Avaliação Participativa por Objetivos (APPO):** Método moderno em que superior e colaborador negociam e pactuam conjuntamente os objetivos, metas e planos de capacitação para o ciclo seguinte.
+
+- **Avaliação 90° (Tradicional):** O servidor é avaliado exclusivamente pelo seu superior hierárquico imediato. Apresenta risco de viés de autoridade e subjetividade.
+- **Avaliação 180° (Mútua / Conjunta):** O gestor avalia o colaborador e este realiza sua autoavaliação, procedendo-se a uma sessão estruturada de *feedback* e consenso.
+- **Avaliação 360° (Circular / Múltiplas Fontes):** O colaborador é avaliado de forma abrangente por todos que interagem com sua rotina de trabalho: superior imediato, pares/colegas do mesmo nível, liderados/subordinados diretos, clientes internos/externos (cidadãos) e autoavaliação. Fornece uma visão holística e reduz vieses individuais.
+- **Avaliação Participativa por Objetivos (APPO):** Método moderno em que superior e colaborador negociam e pactuam conjuntamente os objetivos, metas e planos de capacitação para o ciclo seguinte.
 
 > 📌 **NOTA EXPLICATIVA (AVALIAÇÃO 360 GRAUS):**  
 > A avaliação de desempenho 360 graus (circular) é aquela em que o servidor público é avaliado simultaneamente por todas as pessoas com quem se relaciona profissionalmente: sua chefia imediata, seus colegas de trabalho (pares), seus subordinados diretos, os usuários/cidadãos atendidos e por si mesmo (autoavaliação).
@@ -326,17 +330,17 @@ Para assegurar a utilidade e fidedignidade dos relatórios de governança, os in
 ---
 
 ### Teste 334
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na formulação de planos de intervenção operacional decorrentes de achados de auditoria ou do planejamento setorial, a ferramenta **5W2H** é amplamente utilizada para operacionalizar as decisões em planos de ação objetivos.
 
 O significado e escopo da letra **"H" (*How Much*)** na estrutura do 5W2H corresponde a responder:
 
-* **A)** Quanto custará a execução da ação (estimativa orçamentária de custos e desembolsos financeiros envolvidos).
-* **B)** Quem será o executor responsável pela atividade.
-* **C)** Quando e em quais datas a ação será iniciada e finalizada.
-* **D)** Por que a ação deve ser realizada e qual a sua justificativa estratégica.
-* **E)** Onde a ação será implementada geograficamente.
-
+- **A)** Quanto custará a execução da ação (estimativa orçamentária de custos e desembolsos financeiros envolvidos).
+- **B)** Quem será o executor responsável pela atividade.
+- **C)** Quando e em quais datas a ação será iniciada e finalizada.
+- **D)** Por que a ação deve ser realizada e qual a sua justificativa estratégica.
+- **E)** Onde a ação será implementada geograficamente.
 
 ---
 
@@ -347,7 +351,7 @@ O significado e escopo da letra **"H" (*How Much*)** na estrutura do 5W2H corres
 > - **C)** Incorreta. Refere-se ao *When*.
 > - **D)** Incorreta. Refere-se ao *Why*.
 > - **E)** Incorreta. Refere-se ao *Where*.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -357,12 +361,13 @@ O significado e escopo da letra **"H" (*How Much*)** na estrutura do 5W2H corres
 A Gestão por Competências consiste no alinhamento contínuo entre os talentos dos servidores e as competências essenciais necessárias para o cumprimento da estratégia institucional.
 
 #### A) A Tríade CHA
+
 A competência profissional é concebida como um construto tridimensional integrativo:
 
 ```mermaid
 flowchart LR
     CHA["Competência Profissional"]
-    
+  
     CHA --> C["C - Conhecimento<br/>SABER<br/>(Saber teórico, cognitivo, leis e conceitos)"]
     CHA --> H["H - Habilidade<br/>SABER FAZER<br/>(Aplicação prática, técnica, destreza e sistemas)"]
     CHA --> A["A - Atitude<br/>QUERER FAZER<br/>(Postura comportamental, ética, proatividade e liderança)"]
@@ -375,15 +380,15 @@ flowchart LR
 ---
 
 ### Teste 335
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na gestão de pessoas no setor público, a metodologia de Gestão por Competências estrutura o perfil funcional a partir da tríade CHA (Conhecimentos, Habilidades e Atitudes). Quando um servidor público domina minuciosamente as regras teóricas da Nova Lei de Licitações (Lei nº 14.133/2021), mas demonstra insegurança técnica e não consegue operar o sistema eletrônico de compras públicas para cadastrar o edital, verifica-se que o servidor possui:
 
-* **A)** Atitude e Habilidade, mas carece de Conhecimento.
-* **B)** Conhecimento, mas apresenta déficit no componente de Habilidade.
-* **C)** Conhecimento e Habilidade, faltando-lhe unicamente Atitude proativa.
-* **D)** Habilidade plena, sem domínio de Conhecimento e Atitude.
-* **E)** Ausência simultânea de Conhecimento, Habilidade e Atitude.
-
+- **A)** Atitude e Habilidade, mas carece de Conhecimento.
+- **B)** Conhecimento, mas apresenta déficit no componente de Habilidade.
+- **C)** Conhecimento e Habilidade, faltando-lhe unicamente Atitude proativa.
+- **D)** Habilidade plena, sem domínio de Conhecimento e Atitude.
+- **E)** Ausência simultânea de Conhecimento, Habilidade e Atitude.
 
 ---
 
@@ -391,24 +396,24 @@ Na gestão de pessoas no setor público, a metodologia de Gestão por Competênc
 >
 > - **A) Incorreta.** O domínio das leis é o Conhecimento em si.  
 > - **B) CORRETA.** Na tríade CHA:  
->     - **Conhecimento (Saber):** É o saber teórico, conceitual e cognitivo (domínio das regras da Lei nº 14.133/2021).  
->     - **Habilidade (Saber Fazer):** É a aplicação prática da teoria, o manejo de ferramentas e a operação de sistemas informatizados.  
->     - Como o servidor conhece a lei (tem Conhecimento), mas não consegue operar o sistema na prática, seu déficit específico reside na **Habilidade** ("saber fazer").  
+>   - **Conhecimento (Saber):** É o saber teórico, conceitual e cognitivo (domínio das regras da Lei nº 14.133/2021).  
+>   - **Habilidade (Saber Fazer):** É a aplicação prática da teoria, o manejo de ferramentas e a operação de sistemas informatizados.  
+>   - Como o servidor conhece a lei (tem Conhecimento), mas não consegue operar o sistema na prática, seu déficit específico reside na **Habilidade** ("saber fazer").  
 > - **C) Incorreta.** Ele não possui a habilidade técnica de operar o sistema de compras.  
 > - **D) Incorreta.** Ele carece exatamente de habilidade prática.  
 > - **E) Incorreta.** Ele possui inequívoco conhecimento teórico demonstrado.  
-> 
+>
 > **Gabarito: B**
 
 ---
 
-
 #### B) Diagnóstico de Lacunas (*Gap Analysis*) e Plano de Desenvolvimento de Pessoas (PDP)
+
 A gestão por competências opera por meio do confronto analítico entre o perfil exigido pelo órgão e o perfil demonstrado pelo servidor:
 
 $$\mathbf{\text{GAP de Competência} = \text{Competência Requerida pelo Cargo/Função} - \text{Competência Apresentada pelo Servidor}}$$
 
-* Havendo lacuna (*gap* positivo), o órgão direciona as necessidades de treinamento ao **Plano de Desenvolvimento de Pessoas (PDP)**, instituído pelo Decreto nº 9.991/2019, assegurando que o orçamento público de capacitação supra carências reais e priorizadas em vez de cursos genéricos desconectados da estratégia.
+- Havendo lacuna (*gap* positivo), o órgão direciona as necessidades de treinamento ao **Plano de Desenvolvimento de Pessoas (PDP)**, instituído pelo Decreto nº 9.991/2019, assegurando que o orçamento público de capacitação supra carências reais e priorizadas em vez de cursos genéricos desconectados da estratégia.
 
 ---
 
@@ -419,9 +424,9 @@ O estudo da tomada de decisão nas organizações ganhou rigor científico com a
 ```mermaid
 flowchart TD
     Simon["Modelos de Processo Decisório"]
-    
+  
     Simon --> ME["Modelo Clássico:<br/>HOMEM ECONÔMICO<br/>• Racionalidade absoluta e ilimitada<br/>• Informação completa e perfeita sobre o ambiente<br/>• Capacidade de antecipar todas as consequências<br/>• Escolha da decisão ÓTIMA / Máxima"]
-    
+  
     Simon --> MA["Teoria de Herbert Simon:<br/>HOMEM ADMINISTRATIVO<br/>• Racionalidade LIMITADA<br/>• Informações incompletas, imprecisas e tempo escasso<br/>• Limitações cognitivas e de processamento de dados<br/>• Escolha da decisão SATISFATÓRIA"]
 ```
 
@@ -441,15 +446,15 @@ flowchart TD
 ---
 
 ### Teste 336
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito do processo decisório nas organizações e das conclusões da Teoria da Racionalidade Limitada proposta por Herbert Simon, é correto afirmar:
 
-* **A)** O tomador de decisão atua sempre como o "homem econômico", processando a totalidade das variáveis e alternativas possíveis para atingir a decisão ótima perfeita.
-* **B)** O comportamento decisório dos gestores é orientado por informações completas, perfeita previsibilidade do futuro e tempo ilimitado para deliberação.
-* **C)** Diante da escassez de tempo, limitações cognitivas e insuficiência de dados completos, o gestor atua como o "homem administrativo", selecionando uma alternativa satisfatória que atenda a padrões mínimos aceitáveis.
-* **D)** A teoria da racionalidade limitada defende que o administrador público deve decidir de forma puramente arbitrária e intuitiva, dispensando critérios analíticos de avaliação.
-* **E)** As decisões operacionais tomadas sob racionalidade limitada prescindem da fixação prévia de objetivos organizacionais pelo planejamento.
-
+- **A)** O tomador de decisão atua sempre como o "homem econômico", processando a totalidade das variáveis e alternativas possíveis para atingir a decisão ótima perfeita.
+- **B)** O comportamento decisório dos gestores é orientado por informações completas, perfeita previsibilidade do futuro e tempo ilimitado para deliberação.
+- **C)** Diante da escassez de tempo, limitações cognitivas e insuficiência de dados completos, o gestor atua como o "homem administrativo", selecionando uma alternativa satisfatória que atenda a padrões mínimos aceitáveis.
+- **D)** A teoria da racionalidade limitada defende que o administrador público deve decidir de forma puramente arbitrária e intuitiva, dispensando critérios analíticos de avaliação.
+- **E)** As decisões operacionais tomadas sob racionalidade limitada prescindem da fixação prévia de objetivos organizacionais pelo planejamento.
 
 ---
 
@@ -460,7 +465,7 @@ A respeito do processo decisório nas organizações e das conclusões da Teoria
 > - **C) CORRETA.** Segundo Herbert Simon, em virtude da impossibilidade humana de capturar todas as variáveis do ambiente e analisar infinitas alternativas, o tomador de decisão opera como o **homem administrativo**, optando por soluções **satisfatórias** (que atendam a critérios suficientes de eficácia) em vez de soluções ótimas puras.  
 > - **D) Incorreta.** A racionalidade limitada busca a melhor decisão possível dentro das restrições existentes, não se confundindo com irracionalidade ou arbitrariedade.  
 > - **E) Incorreta.** Objetivos estratégicos prévios continuam sendo indispensáveis para orientar a busca da alternativa satisfatória.  
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -469,18 +474,18 @@ A respeito do processo decisório nas organizações e das conclusões da Teoria
 
 Nas teorias organizacionais modernas, o conflito deixou de ser encarado como uma patologia a ser sumariamente extirpada. O conflito pode ser:
 
-* **Funcional:** Produtivo e estimulante, quando oxigena o debate técnico, desafia o conformismo institucional e propicia inovação nas políticas públicas.
-* **Disfuncional:** Destrutivo e desestabilizador, quando gera animosidade interpessoal, bloqueios de comunicação, absenteísmo e prejuízo às atividades finalísticas.
+- **Funcional:** Produtivo e estimulante, quando oxigena o debate técnico, desafia o conformismo institucional e propicia inovação nas políticas públicas.
+- **Disfuncional:** Destrutivo e desestabilizador, quando gera animosidade interpessoal, bloqueios de comunicação, absenteísmo e prejuízo às atividades finalísticas.
 
 Kenneth Thomas e Ralph Kilmann estruturaram uma consagrada matriz bidimensional para identificar os **cinco estilos de administração de conflitos**, considerando duas dimensões comportamentais fundamentais:
 
-* **Assertividade:** O grau em que o indivíduo se esforça para satisfazer seus próprios interesses e convicções.
-* **Cooperatividade:** O grau em que o indivíduo se esforça para satisfazer os interesses da outra parte.
+- **Assertividade:** O grau em que o indivíduo se esforça para satisfazer seus próprios interesses e convicções.
+- **Cooperatividade:** O grau em que o indivíduo se esforça para satisfazer os interesses da outra parte.
 
 ```mermaid
 flowchart TD
     Estilos["Estilos de Gestão de Conflitos (Thomas-Kilmann)"]
-    
+  
     Estilos --> Comp["1. Competição / Imposição<br/>(Alta assertividade, baixa cooperação: Ganha-Perde)"]
     Estilos --> Colab["2. Colaboração<br/>(Alta assertividade, alta cooperação: Ganha-Ganha)"]
     Estilos --> Acordo["3. Acordo / Compromisso<br/>(Média assertividade, média cooperação: Concessões Mútuas)"]
@@ -499,15 +504,15 @@ flowchart TD
 ---
 
 ### Teste 337
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Dois diretores de uma agência reguladora divergem categoricamente a respeito dos critérios de reajuste tarifário do transporte intermunicipal. Ambos demonstram alta preocupação em fazer valer suas teses técnicas individuais (alta assertividade), mas recusam-se terminantemente a ouvir os argumentos da outra parte ou a construir um consenso cooperativo (baixa cooperação). Segundo o modelo de estilos de administração de conflitos de Thomas-Kilmann, o comportamento adotado por esses gestores caracteriza o estilo de:
 
-* **A)** Colaboração (Ganha-Ganha).
-* **B)** Acomodação (Perde-Ganha).
-* **C)** Competição ou Imposição (Ganha-Perde).
-* **D)** Evitação ou Fuga (Perde-Perde).
-* **E)** Acordo ou Concessão Mútua equilibrada.
-
+- **A)** Colaboração (Ganha-Ganha).
+- **B)** Acomodação (Perde-Ganha).
+- **C)** Competição ou Imposição (Ganha-Perde).
+- **D)** Evitação ou Fuga (Perde-Perde).
+- **E)** Acordo ou Concessão Mútua equilibrada.
 
 ---
 
@@ -518,23 +523,23 @@ Dois diretores de uma agência reguladora divergem categoricamente a respeito do
 > - **C) CORRETA.** O estilo de **Competição (ou Imposição / Enfrentamento)** é definido pela **alta assertividade** (busca obstinada de fazer prevalecer seus próprios interesses) combinada com **baixa cooperação** (desprezo pelos anseios e argumentos da contraparte), configurando uma dinâmica de "ganha-perde".  
 > - **D) Incorreta.** Evitação apresenta baixa assertividade e baixa cooperação (ignorar o conflito e fingir que não existe).  
 > - **E) Incorreta.** O acordo requer nível moderado de cooperação mútua, com ambas as partes cedendo em algum ponto.  
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 338
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A Gestão por Competências no setor público busca alinhar o desenvolvimento dos servidores aos objetivos estratégicos da organização. De acordo com o modelo amplamente consagrado na doutrina administrativa (Dutra, Zarifian, Fleury), a competência individual fundamenta-se no tripé conceitual **C.H.A.**.
 
 As letras que compõem a sigla **CHA** representam:
 
-* **A)** Conhecimento (o saber teórico), Habilidade (o saber fazer prático) e Atitude (o querer fazer / agir proativo).
-* **B)** Controle fiscal, Hierarquia funcional e Autoridade delegada.
-* **C)** Celeridade operacional, Honestidade profissional e Aptidão física.
-* **D)** Criatividade técnica, Homogeneidade de tarefas e Assertividade comunicacional.
-* **E)** Conformidade regulamentar, Homologação decisória e Atendimento cortês.
-
+- **A)** Conhecimento (o saber teórico), Habilidade (o saber fazer prático) e Atitude (o querer fazer / agir proativo).
+- **B)** Controle fiscal, Hierarquia funcional e Autoridade delegada.
+- **C)** Celeridade operacional, Honestidade profissional e Aptidão física.
+- **D)** Criatividade técnica, Homogeneidade de tarefas e Assertividade comunicacional.
+- **E)** Conformidade regulamentar, Homologação decisória e Atendimento cortês.
 
 ---
 
@@ -542,23 +547,23 @@ As letras que compõem a sigla **CHA** representam:
 >
 > - **A)** Correta. **CHA**: **Conhecimento** (saber teórico), **Habilidade** (saber fazer / capacidade prática) e **Atitude** (querer fazer / postura e proatividade).
 > - **B), C), D), E)** Incorretas. Distorções que não correspondem ao modelo teórico.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 339
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A respeito dos indicadores de desempenho da gestão pública e das dimensões clássicas dos **6 Es** (Eficácia, Eficiência, Efetividade, Economicidade, Excelência e Execução):
 
 Um programa público de vacinação infantil que imunizou 98% do público-alvo planejado, gerando como reflexo a erradicação de determinada doença infectocontagiosa na população infantil do Estado no ano subsequente, demonstrou, com relação ao atingimento da meta quantitativa e ao impacto social transformador duradouro, respectivamente:
 
-* **A)** Alta Eficácia (atingimento da meta física de vacinação de 98%) e Alta Efetividade (impacto real positivo na saúde pública com a erradicação da doença).
-* **B)** Alta Economicidade e Baixa Eficiência orçamentária.
-* **C)** Baixa Eficácia e Ausência de Efetividade social.
-* **D)** Execução financeira passiva e Baixa Excelência de atendimento.
-* **E)** Fato gerador contábil sem reflexo em indicadores de desempenho da gestão.
-
+- **A)** Alta Eficácia (atingimento da meta física de vacinação de 98%) e Alta Efetividade (impacto real positivo na saúde pública com a erradicação da doença).
+- **B)** Alta Economicidade e Baixa Eficiência orçamentária.
+- **C)** Baixa Eficácia e Ausência de Efetividade social.
+- **D)** Execução financeira passiva e Baixa Excelência de atendimento.
+- **E)** Fato gerador contábil sem reflexo em indicadores de desempenho da gestão.
 
 ---
 
@@ -566,18 +571,18 @@ Um programa público de vacinação infantil que imunizou 98% do público-alvo p
 >
 > - **A)** Correta. **Eficácia** mede o atingimento de metas planejadas (atingiu 98% de imunização); **Efetividade** mede o impacto real e mudança duradoura na sociedade (erradicação da doença infantil).
 > - **B), C), D), E)** Incorretas. Não refletem as definições doutrinárias consagradas.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ## 8. Fontes Oficiais e Referências Bibliográficas
 
-* [Decreto Federal nº 9.991/2019 (Política Nacional de Desenvolvimento de Pessoas)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Disciplina a gestão por competências e o Plano de Desenvolvimento de Pessoas (PDP) no setor público.
-* [Decreto Federal nº 11.072/2022 (Programa de Gestão e Desempenho - PGD)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11072.htm) - Regulamenta o PGD e o teletrabalho com foco na entrega de resultados e indicadores de produtividade.
-* [TCU - Referencial Básico de Governança e Gestão Estratégica](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Orientações para elaboração de mapas estratégicos, definição de metas e alinhamento institucional.
-* [TCE-GO - Plano de Fiscalização e Desempenho Institucional](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Estratégia de atuação e metas institucionais do Tribunal de Contas de Goiás.
-* [Lei Estadual nº 20.756/2020 (Avaliação de Desempenho dos Servidores de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Critérios de avaliação de desempenho, mérito e competências no Estado de Goiás.
-* KAPLAN, Robert S.; NORTON, David P. **A Estratégia em Ação: Balanced Scorecard**. 22. ed. Rio de Janeiro: Elsevier/Campus, 1997. (Cap. 1 a 4 - As Quatro Perspectivas do BSC e Mapa Estratégico).
-* BRANDÃO, Hugo Pena; GUIMARÃES, Tomás de Aquino. **Gestão por Competências e Gestão do Desempenho: Tecnologias Distintas ou Esforços Integrados?**. Revista de Administração de Empresas (RAE), v. 41, n. 1, p. 8-15, 2001.
-* OLIVEIRA, Djalma de Pinho Rebouças de. **Planejamento Estratégico: Conceitos, Metodologia e Práticas**. 34. ed. São Paulo: Atlas, 2018. (Cap. 5 - Indicadores de Desempenho).
+- [Decreto Federal nº 9.991/2019 (Política Nacional de Desenvolvimento de Pessoas)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Disciplina a gestão por competências e o Plano de Desenvolvimento de Pessoas (PDP) no setor público.
+- [Decreto Federal nº 11.072/2022 (Programa de Gestão e Desempenho - PGD)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11072.htm) - Regulamenta o PGD e o teletrabalho com foco na entrega de resultados e indicadores de produtividade.
+- [TCU - Referencial Básico de Governança e Gestão Estratégica](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Orientações para elaboração de mapas estratégicos, definição de metas e alinhamento institucional.
+- [TCE-GO - Plano de Fiscalização e Desempenho Institucional](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Estratégia de atuação e metas institucionais do Tribunal de Contas de Goiás.
+- [Lei Estadual nº 20.756/2020 (Avaliação de Desempenho dos Servidores de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756) - Critérios de avaliação de desempenho, mérito e competências no Estado de Goiás.
+- KAPLAN, Robert S.; NORTON, David P. **A Estratégia em Ação: Balanced Scorecard**. 22. ed. Rio de Janeiro: Elsevier/Campus, 1997. (Cap. 1 a 4 - As Quatro Perspectivas do BSC e Mapa Estratégico).
+- BRANDÃO, Hugo Pena; GUIMARÃES, Tomás de Aquino. **Gestão por Competências e Gestão do Desempenho: Tecnologias Distintas ou Esforços Integrados?**. Revista de Administração de Empresas (RAE), v. 41, n. 1, p. 8-15, 2001.
+- OLIVEIRA, Djalma de Pinho Rebouças de. **Planejamento Estratégico: Conceitos, Metodologia e Práticas**. 34. ed. São Paulo: Atlas, 2018. (Cap. 5 - Indicadores de Desempenho).

@@ -5,61 +5,59 @@
 > **Arquivo:** `03_regimento_interno_tce_go_resolucao_22_2008.md`  
 > **Ato Normativo:** Resolução nº 22, de 04 de setembro de 2008 (atualizada pelas Resoluções Normativas e Administrativas posteriores)
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Regimento Interno do Tribunal de Contas do Estado de Goiás (Resolução nº 22/2008 e alterações):
-    - Organização institucional do Tribunal: Plenário, Primeira Câmara, Segunda Câmara e seus respectivos órgãos de direção;
-    - Tribunal Pleno: composição dos 7 Conselheiros, quórum de instalação (maioria absoluta) e deliberação (maioria simples vs. quórum qualificado de 2/3), competências privativas indelegáveis;
-    - Câmaras Deliberativas (1ª e 2ª Câmaras): composição com 3 Conselheiros cada, rodízio de membros e competências originárias;
-    - Órgãos de Direção Superior: Presidência, Vice-Presidência e Corregedoria-Geral; mandatos bienais de 2 (dois) anos e regra de vedação de reeleição imediata para o mesmo cargo;
-    - Corregedoria-Geral: atribuições correicionais ordinárias e extraordinárias sobre serviços, conduta funcional e cumprimento de prazos processuais;
-    - Ouvidoria do TCE-GO: canal de acesso do cidadão, fomento à transparência e controle social;
-    - Ministério Público de Contas (MPC-GO) junto ao TCE-GO: intervenção obrigatória em todos os processos submetidos a julgamento e parecer conclusivo;
-    - Conselheiros Substitutos (Auditores): substituição de Conselheiros titulares e atuação na judicância concorrente com relatoria de processos;
-    - Processo no Regimento Interno: distribuição aleatória e automática, princípio do juiz natural, impedimentos e suspeições;
-    - Sessões de Julgamento: ordinárias, extraordinárias, presenciais e virtuais; dinâmica das deliberações, pedido de vista regimental e sustentação oral (prazo improrrogável de 15 minutos);
-    - Processos Especiais no RITCE-GO:
-    - Processo de Consulta: autoridades legitimadas, requisito indeclinável de caso em tese (vedação de caso concreto), exigência de parecer técnico-jurídico prévio, caráter normativo e efeito vinculante de pré-julgamento de tese;
-    - Denúncias e Representações: legitimidade popular, vedação absoluta ao anonimato, sigilo temporário da identidade do denunciante para proteção funcional e requisitos formais de admissibilidade;
-    - Registro de Atos de Admissão de Pessoal e Concessão de Aposentadorias, Reformas e Pensões.
+  - Organização institucional do Tribunal: Plenário, Primeira Câmara, Segunda Câmara e seus respectivos órgãos de direção;
+  - Tribunal Pleno: composição dos 7 Conselheiros, quórum de instalação (maioria absoluta) e deliberação (maioria simples vs. quórum qualificado de 2/3), competências privativas indelegáveis;
+  - Câmaras Deliberativas (1ª e 2ª Câmaras): composição com 3 Conselheiros cada, rodízio de membros e competências originárias;
+  - Órgãos de Direção Superior: Presidência, Vice-Presidência e Corregedoria-Geral; mandatos bienais de 2 (dois) anos e regra de vedação de reeleição imediata para o mesmo cargo;
+  - Corregedoria-Geral: atribuições correicionais ordinárias e extraordinárias sobre serviços, conduta funcional e cumprimento de prazos processuais;
+  - Ouvidoria do TCE-GO: canal de acesso do cidadão, fomento à transparência e controle social;
+  - Ministério Público de Contas (MPC-GO) junto ao TCE-GO: intervenção obrigatória em todos os processos submetidos a julgamento e parecer conclusivo;
+  - Conselheiros Substitutos (Auditores): substituição de Conselheiros titulares e atuação na judicância concorrente com relatoria de processos;
+  - Processo no Regimento Interno: distribuição aleatória e automática, princípio do juiz natural, impedimentos e suspeições;
+  - Sessões de Julgamento: ordinárias, extraordinárias, presenciais e virtuais; dinâmica das deliberações, pedido de vista regimental e sustentação oral (prazo improrrogável de 15 minutos);
+  - Processos Especiais no RITCE-GO:
+  - Processo de Consulta: autoridades legitimadas, requisito indeclinável de caso em tese (vedação de caso concreto), exigência de parecer técnico-jurídico prévio, caráter normativo e efeito vinculante de pré-julgamento de tese;
+  - Denúncias e Representações: legitimidade popular, vedação absoluta ao anonimato, sigilo temporário da identidade do denunciante para proteção funcional e requisitos formais de admissibilidade;
+  - Registro de Atos de Admissão de Pessoal e Concessão de Aposentadorias, Reformas e Pensões.
 
 ---
 
 ## 🧭 Sumário
 
-1. [Organização Institucional e Colegiados Deliberativos (Arts. 1º a 35)](#1-organizacao-institucional-e-colegiados-deliberativos-arts-1o-a-35)
-    - [1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas](#11-tribunal-pleno-composicao-quoruns-e-competencias-privativas)
-    - [1.2 Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias](#12-camaras-deliberativas-1a-e-2a-camaras-estrutura-e-competencias-originarias)
-    - [1.3 Papel dos Conselheiros Substitutos (Auditores)](#13-papel-dos-conselheiros-substitutos-auditores)
-    - [Teste 142](#teste-142)
-    - [Teste 143](#teste-143)
-2. [Órgãos de Direção Superior e Órgãos Vinculados (Arts. 36 a 70)](#2-orgaos-de-direcao-superior-e-orgaos-vinculados-arts-36-a-70)
-    - [2.1 Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição](#21-presidencia-vice-presidencia-e-corregedoria-geral-eleicao-mandatos-e-vedacao-a-reeleicao)
-    - [2.2 Corregedoria-Geral e Fiscalização Correicional](#22-corregedoria-geral-e-fiscalizacao-correicional)
-    - [2.3 Ouvidoria e Fomento ao Controle Social](#23-ouvidoria-e-fomento-ao-controle-social)
-    - [2.4 Ministério Público de Contas (MPC-GO): Intervenção Obrigatória e Nulidade Processual](#24-ministerio-publico-de-contas-mpc-go-intervencao-obrigatoria-e-nulidade-processual)
-    - [Teste 144](#teste-144)
-    - [Teste 145](#teste-145)
-3. [Dinâmica Processual, Instrução e Sessões de Julgamento (Arts. 71 a 120)](#3-dinamica-processual-instrucao-e-sessoes-de-julgamento-arts-71-a-120)
-    - [3.1 Distribuição Eletrônica, Prevenção, Impedimentos e Suspeições](#31-distribuicao-eletronica-prevencao-impedimentos-e-suspeicoes)
-    - [3.2 Sessões Ordinárias, Extraordinárias e Plenário Virtual](#32-sessoes-ordinarias-extraordinarias-e-plenario-virtual)
-    - [3.3 Ordem das Deliberações, Pedido de Vista e Sustentação Oral (15 Minutos)](#33-ordem-das-deliberacoes-pedido-de-vista-e-sustentacao-oral-15-minutos)
-    - [Teste 146](#teste-146)
-    - [Teste 147](#teste-147)
-    - [Teste 148](#teste-148)
+1. [Organização Institucional e Colegiados Deliberativos (Arts. 1º a 35)](#1-organização-institucional-e-colegiados-deliberativos-arts-1º-a-35)
+    1. [Tribunal Pleno: Composição, Quóruns e Competências Privativas](#11-tribunal-pleno-composição-quóruns-e-competências-privativas)
+    1. [Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias](#12-câmaras-deliberativas-1ª-e-2ª-câmaras-estrutura-e-competências-originárias)
+    1. [Papel dos Conselheiros Substitutos (Auditores)](#13-papel-dos-conselheiros-substitutos-auditores)
+    1. [Teste 142](#teste-142)
+    1. [Teste 143](#teste-143)
+2. [Órgãos de Direção Superior e Órgãos Vinculados (Arts. 36 a 70)](#2-órgãos-de-direção-superior-e-órgãos-vinculados-arts-36-a-70)
+    1. [Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição](#21-presidência-vice-presidência-e-corregedoria-geral-eleição-mandatos-e-vedação-à-reeleição)
+    1. [Corregedoria-Geral e Fiscalização Correicional](#22-corregedoria-geral-e-fiscalização-correicional)
+    1. [Ouvidoria e Fomento ao Controle Social](#23-ouvidoria-e-fomento-ao-controle-social)
+    1. [Ministério Público de Contas (MPC-GO): Intervenção Obrigatória e Nulidade Processual](#24-ministério-público-de-contas-mpc-go-intervenção-obrigatória-e-nulidade-processual)
+    1. [Teste 144](#teste-144)
+    1. [Teste 145](#teste-145)
+3. [Dinâmica Processual, Instrução e Sessões de Julgamento (Arts. 71 a 120)](#3-dinâmica-processual-instrução-e-sessões-de-julgamento-arts-71-a-120)
+    1. [Distribuição Eletrônica, Prevenção, Impedimentos e Suspeições](#31-distribuição-eletrônica-prevenção-impedimentos-e-suspeições)
+    1. [Sessões Ordinárias, Extraordinárias e Plenário Virtual](#32-sessões-ordinárias-extraordinárias-e-plenário-virtual)
+    1. [Ordem das Deliberações, Pedido de Vista e Sustentação Oral (15 Minutos)](#33-ordem-das-deliberações-pedido-de-vista-e-sustentação-oral-15-minutos)
+    1. [Teste 146](#teste-146)
+    1. [Teste 147](#teste-147)
+    1. [Teste 148](#teste-148)
 4. [Processos Especiais Disciplinados no RITCE-GO (Arts. 121 a 180)](#4-processos-especiais-disciplinados-no-ritce-go-arts-121-a-180)
-    - [4.1 Processo de Consulta: Legitimidade, Requisitos Rígidos e Efeito Normativo](#41-processo-de-consulta-legitimidade-requisitos-rigidos-e-efeito-normativo)
-    - [4.2 Processo de Denúncia: Legitimidade Ampla, Vedação ao Anonimato e Sigilo](#42-processo-de-denuncia-legitimidade-ampla-vedacao-ao-anonimato-e-sigilo)
-    - [4.3 Processo de Representação Institucional](#43-processo-de-representacao-institucional)
-    - [4.4 Processo de Registro de Atos de Admissão de Pessoal e Concessões](#44-processo-de-registro-de-atos-de-admissao-de-pessoal-e-concessoes)
-    - [Teste 149](#teste-149)
-    - [Teste 150](#teste-150)
-    - [Teste 151](#teste-151)
-5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+    1. [Processo de Consulta: Legitimidade, Requisitos Rígidos e Efeito Normativo](#41-processo-de-consulta-legitimidade-requisitos-rígidos-e-efeito-normativo)
+    1. [Processo de Denúncia: Legitimidade Ampla, Vedação ao Anonimato e Sigilo](#42-processo-de-denúncia-legitimidade-ampla-vedação-ao-anonimato-e-sigilo)
+    1. [Processo de Representação Institucional](#43-processo-de-representação-institucional)
+    1. [Processo de Registro de Atos de Admissão de Pessoal e Concessões](#44-processo-de-registro-de-atos-de-admissão-de-pessoal-e-concessões)
+    1. [Teste 149](#teste-149)
+    1. [Teste 150](#teste-150)
+    1. [Teste 151](#teste-151)
+5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -68,17 +66,18 @@
 ```mermaid
 graph TD
     TCE["Estrutura Colegiada do TCE-GO (Resolução nº 22/2008)"]
-    
+  
     TCE --> Pleno["TRIBUNAL PLENO<br/>• 7 Conselheiros + Procurador-Geral de Contas<br/>• Presidido pelo Presidente do TCE-GO"]
     TCE --> C1["PRIMEIRA CÂMARA<br/>• 3 Conselheiros<br/>• Presidência com rodízio anual"]
     TCE --> C2["SEGUNDA CÂMARA<br/>• 3 Conselheiros<br/>• Presidência com rodízio anual"]
-    
+  
     Pleno --> PMat["• Parecer Prévio do Governador<br/>• Resposta a Consultas em tese (efeito normativo)<br/>• Julgamento de Recursos (Reconsideração/Reexame/Revisão)<br/>• Súmulas e Reforma do Regimento (Quórum 2/3)<br/>• Eleição dos Dirigentes e Declaração de Inidoneidade"]
-    
+  
     C1 & C2 --> CMat["• Julgamento de contas dos Secretários e Dirigentes<br/>• Tomadas de Contas Especiais dos órgãos estaduais<br/>• Registro de admissões e aposentadorias/pensões<br/>• Auditorias e inspeções ordinárias"]
 ```
 
 ### 1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas
+
 O Tribunal Pleno é o órgão supremo de deliberação do Tribunal de Contas do Estado de Goiás, integrado pela totalidade dos **sete (7) Conselheiros titulares** (ou Conselheiros Substitutos regularmente convocados), contando sempre com a presença obrigatória do Procurador-Geral de Contas ou de Procurador de Contas designado.
 
 - **Quórum de Instalação e Funcionamento:** O Tribunal Pleno instala-se e delibera validamente com a presença da maioria absoluta de seus membros titulares, exigindo-se a presença de pelo menos **quatro (4) Conselheiros**, além do Presidente da sessão.
@@ -89,23 +88,25 @@ O Tribunal Pleno é o órgão supremo de deliberação do Tribunal de Contas do 
     3. Proposta de criação ou extinção de cargos e funções do quadro do Tribunal, bem como fixação de subsídios.
 
 - **Competências Privativas Indelegáveis do Tribunal Pleno:**
-    - Apreciar e emitir o **Parecer Prévio** sobre as contas prestadas anualmente pelo Chefe do Poder Executivo (Governador do Estado);
-    - Eleger o Presidente, o Vice-Presidente e o Corregedor-Geral do Tribunal para mandato bienal;
-    - Julgar privativamente todos os recursos de **Reconsideração, Reexame e Revisão** interpostos contra decisões da Corte;
-    - Responder a **Consultas** formuladas por autoridades legitimadas sobre dúvidas na aplicação de dispositivos legais em tese;
-    - Aplicar as sanções de **declaração de inidoneidade para licitar** (Art. 44 da LOTCE) e **inabilitação para cargo em comissão** (Art. 43 da LOTCE).
+  - Apreciar e emitir o **Parecer Prévio** sobre as contas prestadas anualmente pelo Chefe do Poder Executivo (Governador do Estado);
+  - Eleger o Presidente, o Vice-Presidente e o Corregedor-Geral do Tribunal para mandato bienal;
+  - Julgar privativamente todos os recursos de **Reconsideração, Reexame e Revisão** interpostos contra decisões da Corte;
+  - Responder a **Consultas** formuladas por autoridades legitimadas sobre dúvidas na aplicação de dispositivos legais em tese;
+  - Aplicar as sanções de **declaração de inidoneidade para licitar** (Art. 44 da LOTCE) e **inabilitação para cargo em comissão** (Art. 43 da LOTCE).
 
 ### 1.2 Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias
+
 O Tribunal divide-se operacionalmente em **duas Câmaras Deliberativas** (Primeira e Segunda Câmaras), destinadas a conferir celeridade à judicância do controle externo ordinário.
 
 - **Composição das Câmaras:** Cada Câmara é composta por **três (3) Conselheiros titulares**. O Presidente do Tribunal de Contas **não integra** nenhuma das Câmaras, atuando exclusivamente na direção geral do órgão e na presidência do Plenário.
 - **Presidência da Câmara e Rodízio:** A presidência de cada Câmara é exercida por um de seus membros efetivos, em sistema de rodízio anual, vedada a recondução imediata na mesma Câmara se houver outro Conselheiro que ainda não tenha exercido a função. O Regimento prevê a alternância periódica de Conselheiros entre as duas Câmaras.
 - **Competências Originárias das Câmaras:**
-    - Julgar as tomadas e prestações de contas ordinárias e tomadas de contas especiais de administradores e ordenadores de despesas dos órgãos da administração direta, autarquias, fundações e empresas estatais;
-    - Apreciar a legalidade, para fins de registro, dos atos de admissão de pessoal e das concessões iniciais de aposentadorias, reformas e pensões civis e militares;
-    - Deliberar sobre processos de auditorias e inspeções ordinárias do Plano Anual de Fiscalização.
+  - Julgar as tomadas e prestações de contas ordinárias e tomadas de contas especiais de administradores e ordenadores de despesas dos órgãos da administração direta, autarquias, fundações e empresas estatais;
+  - Apreciar a legalidade, para fins de registro, dos atos de admissão de pessoal e das concessões iniciais de aposentadorias, reformas e pensões civis e militares;
+  - Deliberar sobre processos de auditorias e inspeções ordinárias do Plano Anual de Fiscalização.
 
 ### 1.3 Papel dos Conselheiros Substitutos (Auditores)
+
 Os Conselheiros Substitutos (Auditores) ingressam na carreira do TCE-GO exclusivamente mediante concurso público de provas e títulos:
 
 - **Substituição Plena de Conselheiro:** Em caso de vacância temporária, férias, licenças regulamentares ou impedimentos formais de Conselheiro titular, o Auditor é convocado pela Presidência para atuar como Conselheiro Substituto com assento no Pleno ou na Câmara respectiva, exercendo a judicância com as mesmas garantias, prerrogativas e deveres inerentes ao cargo titular.
@@ -114,15 +115,15 @@ Os Conselheiros Substitutos (Auditores) ingressam na carreira do TCE-GO exclusiv
 ---
 
 ### Teste 142
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da distribuição de competências entre os órgãos colegiados deliberativos do Tribunal de Contas do Estado de Goiás, em conformidade com as regras do seu Regimento Interno (Resolução nº 22/2008), compete privativamente ao Tribunal Pleno:
 
-* **A)** O exame e registro da concessão inicial de aposentadorias de magistrados e membros do Ministério Público Estadual.
-* **B)** A emissão de parecer prévio sobre as contas anuais prestadas pelo Governador do Estado e a resposta a consultas com efeito normativo formuladas por autoridades competentes.
-* **C)** A instrução probatória preliminar de denúncias anônimas apresentadas por servidores públicos estaduais.
-* **D)** O julgamento ordinário da tomada de contas dos diretores de hospitais públicos estaduais e fiscais de contrato.
-* **E)** A realização de correições ordinárias nas repartições da administração pública estadual para verificar a pontualidade dos servidores em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+- **A)** O exame e registro da concessão inicial de aposentadorias de magistrados e membros do Ministério Público Estadual.
+- **B)** A emissão de parecer prévio sobre as contas anuais prestadas pelo Governador do Estado e a resposta a consultas com efeito normativo formuladas por autoridades competentes.
+- **C)** A instrução probatória preliminar de denúncias anônimas apresentadas por servidores públicos estaduais.
+- **D)** O julgamento ordinário da tomada de contas dos diretores de hospitais públicos estaduais e fiscais de contrato.
+- **E)** A realização de correições ordinárias nas repartições da administração pública estadual para verificar a pontualidade dos servidores em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 ---
 
@@ -133,21 +134,21 @@ A respeito da distribuição de competências entre os órgãos colegiados delib
 > - **C) Incorreta.** Denúncias anônimas não são admitidas pelo Tribunal de Contas em virtude de expressa vedação regimental e constitucional ao anonimato.
 > - **D) Incorreta.** O julgamento de contas de gestão e tomadas de contas especiais de diretores, secretários e administradores compete originariamente às **Câmaras Deliberativas**.
 > - **E) Incorreta.** As correições ordinárias internas são exercidas pela Corregedoria-Geral do TCE sobre os próprios órgãos da Corte de Contas; o controle da pontualidade de servidores do Poder Executivo é competência interna do próprio Executivo.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 143
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 De acordo com o Regimento Interno do Tribunal de Contas do Estado de Goiás (Resolução nº 22/2008, arts. 1º a 35), quanto à competência e funcionamento dos órgãos colegiados:
 
-* **A)** As Câmaras têm competência para emitir o parecer prévio sobre as contas anuais prestadas pelo Governador do Estado.
-* **B)** O Tribunal Pleno funciona com a presença de, no mínimo, 4 Conselheiros, além do Presidente, e delibera sobre matérias regimentais, pedidos de rescisão e uniformização de jurisprudência.
-* **C)** O Presidente do Tribunal participa do sorteio ordinário de distribuição de processos em ambas as Câmaras deliberativas.
-* **D)** As Câmaras são presididas exclusivamente pelos Conselheiros Substitutos mais antigos em exercício.
-* **E)** As deliberações em processos de consulta formulados por autoridades legitimadas são apreciadas originariamente pelas Câmaras em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+- **A)** As Câmaras têm competência para emitir o parecer prévio sobre as contas anuais prestadas pelo Governador do Estado.
+- **B)** O Tribunal Pleno funciona com a presença de, no mínimo, 4 Conselheiros, além do Presidente, e delibera sobre matérias regimentais, pedidos de rescisão e uniformização de jurisprudência.
+- **C)** O Presidente do Tribunal participa do sorteio ordinário de distribuição de processos em ambas as Câmaras deliberativas.
+- **D)** As Câmaras são presididas exclusivamente pelos Conselheiros Substitutos mais antigos em exercício.
+- **E)** As deliberações em processos de consulta formulados por autoridades legitimadas são apreciadas originariamente pelas Câmaras em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 ---
 
@@ -166,6 +167,7 @@ De acordo com o Regimento Interno do Tribunal de Contas do Estado de Goiás (Res
 ## 2. Órgãos de Direção Superior e Órgãos Vinculados (Arts. 36 a 70)
 
 ### 2.1 Presidência, Vice-Presidência e Corregedoria-Geral: Eleição, Mandatos e Vedação à Reeleição
+
 A direção superior do TCE-GO é composta pelo **Presidente**, pelo **Vice-Presidente** e pelo **Corregedor-Geral**, eleitos pelo Tribunal Pleno mediante votação secreta na última sessão ordinária do mês de dezembro do ano de término do mandato:
 
 - **Duração do Mandato:** Mandato fixo de **dois (2) anos**, iniciando-se a posse formal no primeiro dia útil do mês de janeiro subsequente à eleição.
@@ -174,18 +176,21 @@ A direção superior do TCE-GO é composta pelo **Presidente**, pelo **Vice-Pres
 - **Vice-Presidência:** Substitui o Presidente em suas ausências, faltas, férias ou impedimentos, auxiliando na supervisão dos serviços e exercendo atribuições delegadas por ato formal da Presidência.
 
 ### 2.2 Corregedoria-Geral e Fiscalização Correicional
+
 A Corregedoria-Geral é exercida por Conselheiro titular eleito para mandato bienal:
 
 - **Atribuições Correicionais:** Realiza correições ordinárias (anuais obrigatórias) e extraordinárias nos gabinetes de Conselheiros, Auditores, Secretarias de Câmaras e unidades administrativas do Tribunal;
 - **Fiscalização de Prazos e Conduta:** Fiscaliza o cumprimento rigoroso dos prazos regimentais de instrução, relatoria e julgamento de processos, além de apurar desvios disciplinares funcionais de servidores da Corte, instaurando sindicâncias e comissões de PAD.
 
 ### 2.3 Ouvidoria e Fomento ao Controle Social
+
 A Ouvidoria do TCE-GO atua como canal direto de interlocução entre o cidadão e a Corte de Contas, visando:
 
 - Receber sugestões, reclamações, elogios e manifestações sobre os serviços prestados pelo Tribunal;
 - Orientar o público externo sobre a forma adequada de acessar informações públicas (Lei de Acesso à Informação - LAI) e formular denúncias sobre má aplicação do dinheiro público goiano.
 
 ### 2.4 Ministério Público de Contas (MPC-GO): Intervenção Obrigatória e Nulidade Processual
+
 O Ministério Público de Contas atua junto ao TCE-GO como fiscal permanente da ordem jurídica:
 
 - **Obrigatoriedade de Parecer Prévio:** Tem vista e intervenção **obrigatória em todos os processos** de controle externo sujeitos a julgamento pelo Pleno ou pelas Câmaras.
@@ -194,15 +199,15 @@ O Ministério Público de Contas atua junto ao TCE-GO como fiscal permanente da 
 ---
 
 ### Teste 144
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito dos órgãos diretivos do Tribunal de Contas do Estado de Goiás, a eleição do Presidente, Vice-Presidente e Corregedor-Geral é regida pela Resolução nº 22/2008, a qual preconiza que:
 
-* **A)** O mandato dos dirigentes é de quatro anos, sendo admitida uma reeleição consecutiva para o mesmo cargo.
-* **B)** O mandato é de dois anos, permitida a reeleição sucessiva e indefinida caso haja aprovação por maioria absoluta do Plenário.
-* **C)** O mandato é de dois anos, vedada a reeleição para o mesmo cargo no período imediatamente subsequente.
-* **D)** Os dirigentes são indicados pelo Governador do Estado dentre os Conselheiros mais antigos do Tribunal.
-* **E)** A Corregedoria-Geral é exercida pelo Procurador-Geral de Contas eleito em lista sêxtupla pelos servidores concursados.
-
+- **A)** O mandato dos dirigentes é de quatro anos, sendo admitida uma reeleição consecutiva para o mesmo cargo.
+- **B)** O mandato é de dois anos, permitida a reeleição sucessiva e indefinida caso haja aprovação por maioria absoluta do Plenário.
+- **C)** O mandato é de dois anos, vedada a reeleição para o mesmo cargo no período imediatamente subsequente.
+- **D)** Os dirigentes são indicados pelo Governador do Estado dentre os Conselheiros mais antigos do Tribunal.
+- **E)** A Corregedoria-Geral é exercida pelo Procurador-Geral de Contas eleito em lista sêxtupla pelos servidores concursados.
 
 ---
 
@@ -213,21 +218,21 @@ No âmbito dos órgãos diretivos do Tribunal de Contas do Estado de Goiás, a e
 > - **C) CORRETA.** Nos termos do artigo 38 do Regimento Interno do TCE-GO, os Conselheiros titulares elegerão, em escrutínio secreto pelo Pleno, o Presidente, o Vice-Presidente e o Corregedor-Geral para um **mandato bienal de 2 (dois) anos**, sendo expressamente **vedada a reeleição para o mesmo cargo no período imediatamente subsequente**.
 > - **D) Incorreta.** O TCE-GO possui autogoverno constitucional; os dirigentes são eleitos internamente pelos membros do Plenário e não indicados pelo Governador do Estado.
 > - **E) Incorreta.** O Corregedor-Geral é obrigatoriamente um Conselheiro titular do TCE-GO eleito pelos pares; o MPC é chefiado pelo Procurador-Geral de Contas, órgão com funções ministeriais autônomas perante o Tribunal.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 145
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No tocante às atribuições da Corregedoria-Geral e da Ouvidoria do TCE-GO, previstas no Regimento Interno (Resolução nº 22/2008):
 
-* **A)** O Corregedor-Geral é eleito dentre os servidores de carreira do quadro de analistas de controle externo, por votação secreta da assembleia funcional.
-* **B)** A Corregedoria-Geral tem por finalidade a fiscalização disciplinar dos membros e servidores do Tribunal, a realização de correições ordinárias e extraordinárias nas unidades técnicas e o controle dos prazos de instrução e julgamento processual.
-* **C)** A Ouvidoria do TCE-GO pode acolher denúncias anônimas como peças processuais autônomas com capacidade probatória imediata, dispensando apuração preliminar.
-* **D)** O Corregedor-Geral acumula automaticamente as funções jurisdicionais de relator nos processos de prestação de contas do Governador.
-* **E)** As decisões disciplinares sancionatórias do Corregedor-Geral são irrecorríveis e não comportam revisão pelo Pleno.
-
+- **A)** O Corregedor-Geral é eleito dentre os servidores de carreira do quadro de analistas de controle externo, por votação secreta da assembleia funcional.
+- **B)** A Corregedoria-Geral tem por finalidade a fiscalização disciplinar dos membros e servidores do Tribunal, a realização de correições ordinárias e extraordinárias nas unidades técnicas e o controle dos prazos de instrução e julgamento processual.
+- **C)** A Ouvidoria do TCE-GO pode acolher denúncias anônimas como peças processuais autônomas com capacidade probatória imediata, dispensando apuração preliminar.
+- **D)** O Corregedor-Geral acumula automaticamente as funções jurisdicionais de relator nos processos de prestação de contas do Governador.
+- **E)** As decisões disciplinares sancionatórias do Corregedor-Geral são irrecorríveis e não comportam revisão pelo Pleno.
 
 ---
 
@@ -246,11 +251,13 @@ No tocante às atribuições da Corregedoria-Geral e da Ouvidoria do TCE-GO, pre
 ## 3. Dinâmica Processual, Instrução e Sessões de Julgamento (Arts. 71 a 120)
 
 ### 3.1 Distribuição Eletrônica, Prevenção, Impedimentos e Suspeições
+
 - **Distribuição Aleatória:** Os processos são autuados e distribuídos eletronicamente entre Conselheiros e Auditores mediante sistema informatizado, assegurando-se a alternância, o sorteio público e a estrita observância do princípio do **juiz natural**.
 - **Prevenção Regimental:** O conhecimento de medida cautelar preparatória, consulta anterior ou recurso conexo previne a competência do Relator originário para os feitos posteriores que versem sobre o mesmo objeto.
 - **Impedimentos e Suspeições:** Aplicam-se aos membros do TCE-GO e aos Procuradores do MPC-GO as hipóteses legais de impedimento e suspeição previstas na legislação processual civil (Código de Processo Civil - CPC/2015), tais como parentesco até o terceiro grau com interessados, interesse econômico ou inimizade capital.
 
 ### 3.2 Sessões Ordinárias, Extraordinárias e Plenário Virtual
+
 As deliberações do Pleno e das Câmaras ocorrem em:
 
 - **Sessões Ordinárias:** Realizadas em dias e horários pré-fixados no calendário regimental divulgado anualmente;
@@ -279,15 +286,15 @@ As deliberações do Pleno e das Câmaras ocorrem em:
 ---
 
 ### Teste 146
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Acerca das regras regimentais de impedimento e suspeição de Conselheiros e da sistemática do Plenário Virtual no TCE-GO (Resolução nº 22/2008):
 
-* **A)** O Conselheiro é considerado impedido de atuar em processo no qual tenha interesse puramente acadêmico ou científico sobre o tema jurídico debatido.
-* **B)** Considera-se impedido de relatar ou votar no processo o Conselheiro que for cônjuge, companheiro ou parente em linha reta ou colateral até o terceiro grau de qualquer uma das partes ou de seus procuradores formalmente constituídos nos autos.
-* **C)** A arguição de suspeição de Conselheiro pode ser apresentada oralmente por qualquer pessoa presente ao plenário, sem necessidade de fundamentação fática.
-* **D)** No Plenário Virtual, a ausência de manifestação de voto pelo Conselheiro no prazo regimental computa-se como voto divergente da proposta do Relator.
-* **E)** As sessões virtuais não admitem pedido de vista ou destaque para julgamento em sessão presencial.
-
+- **A)** O Conselheiro é considerado impedido de atuar em processo no qual tenha interesse puramente acadêmico ou científico sobre o tema jurídico debatido.
+- **B)** Considera-se impedido de relatar ou votar no processo o Conselheiro que for cônjuge, companheiro ou parente em linha reta ou colateral até o terceiro grau de qualquer uma das partes ou de seus procuradores formalmente constituídos nos autos.
+- **C)** A arguição de suspeição de Conselheiro pode ser apresentada oralmente por qualquer pessoa presente ao plenário, sem necessidade de fundamentação fática.
+- **D)** No Plenário Virtual, a ausência de manifestação de voto pelo Conselheiro no prazo regimental computa-se como voto divergente da proposta do Relator.
+- **E)** As sessões virtuais não admitem pedido de vista ou destaque para julgamento em sessão presencial.
 
 ---
 
@@ -304,15 +311,15 @@ Acerca das regras regimentais de impedimento e suspeição de Conselheiros e da 
 ---
 
 ### Teste 147
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Nos processos submetidos a julgamento perante os órgãos colegiados do TCE-GO, no tocante ao direito de manifestação dos procuradores das partes e à ordem dos trabalhos regimentais:
 
-* **A)** A sustentação oral é permitida aos advogados das partes pelo prazo improrrogável de quinze minutos, mediante prévio requerimento formulado perante a Secretaria das Sessões.
-* **B)** A sustentação oral pode ser realizada por qualquer cidadão a qualquer tempo da sessão, pelo prazo de até trinta minutos, independentemente de procuração nos autos em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** O pedido de vista dos autos formulado por Conselheiro durante a sessão autoriza a retenção do processo pelo prazo indeterminado de até um ano.
-* **D)** As sessões de julgamento das Câmaras são secretas e vedadas ao público, divulgando-se apenas a parte dispositiva do acórdão no Diário Oficial.
-* **E)** A intervenção do Ministério Público de Contas nas sessões é facultativa, sendo prescindível a elaboração de parecer quando houver sustentação oral da defesa.
-
+- **A)** A sustentação oral é permitida aos advogados das partes pelo prazo improrrogável de quinze minutos, mediante prévio requerimento formulado perante a Secretaria das Sessões.
+- **B)** A sustentação oral pode ser realizada por qualquer cidadão a qualquer tempo da sessão, pelo prazo de até trinta minutos, independentemente de procuração nos autos em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **C)** O pedido de vista dos autos formulado por Conselheiro durante a sessão autoriza a retenção do processo pelo prazo indeterminado de até um ano.
+- **D)** As sessões de julgamento das Câmaras são secretas e vedadas ao público, divulgando-se apenas a parte dispositiva do acórdão no Diário Oficial.
+- **E)** A intervenção do Ministério Público de Contas nas sessões é facultativa, sendo prescindível a elaboração de parecer quando houver sustentação oral da defesa.
 
 ---
 
@@ -323,21 +330,21 @@ Nos processos submetidos a julgamento perante os órgãos colegiados do TCE-GO, 
 > - **C) Incorreta.** O pedido de vista dos autos deve observar o prazo regimental de restituição para pauta subsequente, sendo vedada a retenção indefinida.
 > - **D) Incorreta.** As sessões colegiadas do TCE-GO regem-se pela regra constitucional da **publicidade estrita**, sendo abertas ao público e transmitidas em canais oficiais.
 > - **E) Incorreta.** A atuação do Ministério Público de Contas com intervenção oral ou escrita é **obrigatória** em todos os processos submetidos a julgamento, sob pena de nulidade absoluta do julgado.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 148
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em relação ao direito de sustentação oral e à disciplina do pedido de vista nas sessões de julgamento do TCE-GO, conforme o RITCE-GO (arts. 100 a 115):
 
-* **A)** A sustentação oral da parte ou de seu advogado legalmente habilitado é realizada após a proclamação formal do resultado pelo Presidente da sessão.
-* **B)** A sustentação oral é admitida pelo tempo improrrogável de até 15 minutos, devendo ser requerida previamente.
-* **C)** O pedido de vista formulado por Conselheiro em sessão confere prazo perpétuo e sem devolução obrigatória dos autos.
-* **D)** Formulado pedido de vista, os demais julgadores ficam impedidos de antecipar seus votos na mesma sessão.
-* **E)** A sustentação oral de advogados é privativa das sessões da 1ª Câmara, sendo expressamente vedada nas sessões plenárias.
-
+- **A)** A sustentação oral da parte ou de seu advogado legalmente habilitado é realizada após a proclamação formal do resultado pelo Presidente da sessão.
+- **B)** A sustentação oral é admitida pelo tempo improrrogável de até 15 minutos, devendo ser requerida previamente.
+- **C)** O pedido de vista formulado por Conselheiro em sessão confere prazo perpétuo e sem devolução obrigatória dos autos.
+- **D)** Formulado pedido de vista, os demais julgadores ficam impedidos de antecipar seus votos na mesma sessão.
+- **E)** A sustentação oral de advogados é privativa das sessões da 1ª Câmara, sendo expressamente vedada nas sessões plenárias.
 
 ---
 
@@ -358,21 +365,22 @@ Em relação ao direito de sustentação oral e à disciplina do pedido de vista
 ```mermaid
 graph TD
     ProcessosEspeciais["Processos Especiais do Regimento Interno"]
-    
+  
     ProcessosEspeciais --> Consulta["PROCESSO DE CONSULTA (Arts. 138 a 144)"]
     ProcessosEspeciais --> Denuncia["PROCESSO DE DENÚNCIA (Arts. 145 a 150)"]
     ProcessosEspeciais --> Repres["PROCESSO DE REPRESENTAÇÃO (Arts. 151 a 155)"]
-    
+  
     Consulta --> ConLeg["Autoridades Legitimadas (Governador, Secretários, ALEGO, TJ, PGJ, PGE)"]
     Consulta --> ConReq["Requisitos Cumulativos:<br/>1. Versar exclusivamente sobre TESE EM ABSTRATO<br/>2. VEDAÇÃO ABSOLUTA de exame de caso concreto<br/>3. Acompanhada de parecer da assessoria jurídica do órgão"]
     Consulta --> ConEfeito["Julgamento privativo do PLENO:<br/>• CARÁTER NORMATIVO<br/>• Pré-julgamento vinculante de tese"]
-    
+  
     Denuncia --> DenLeg["Qualquer cidadão, partido, sindicato ou associação"]
     Denuncia --> DenAnon["VEDADO O ANONIMATO (identificação obrigatória do denunciante)"]
     Denuncia --> DenSig["SIGILO DA IDENTIDADE preservado para segurança funcional"]
 ```
 
 ### 4.1 Processo de Consulta: Legitimidade, Requisitos Rígidos e Efeito Normativo
+
 A Consulta é o mecanismo pelo qual as autoridades dirigentes do Estado submetem dúvidas jurídicas ao Tribunal de Contas sobre a correta aplicação de normas orçamentárias e financeiras:
 
 - **Rol Taxativo de Autoridades Legitimadas:** Governador do Estado; Presidente da Assembleia Legislativa; Presidente do Tribunal de Justiça; Procurador-Geral de Justiça (MPE); Defensor Público-Geral; Secretários de Estado; e dirigentes superiores de autarquias e fundações.
@@ -386,17 +394,20 @@ A Consulta é o mecanismo pelo qual as autoridades dirigentes do Estado submetem
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Se a questão da FCC narrar que um Secretário de Estado consultou o Tribunal sobre se pode contratar dispensando licitação a empresa "X" para fornecer ambulâncias no contrato nº 123/2026, a resposta correta é: **A consulta NÃO será conhecida**, por versar sobre caso concreto e contrato individualizado.
 
 ### 4.2 Processo de Denúncia: Legitimidade Ampla, Vedação ao Anonimato e Sigilo
+
 - **Legitimidade Ativa Ampla:** Qualquer cidadão brasileiro no gozo de seus direitos políticos, partido político registrado no TSE, associação legalmente constituída ou sindicato tem legitimidade para representar e denunciar ilegalidades ou irregularidades de gestão perante o TCE-GO.
 - **Vedação Peremptória ao Anonimato:** Em homenagem ao princípio republicano e ao texto expresso da CF/88 (Art. 5º, IV), **o TCE-GO não admite denúncias anônimas**. A petição de denúncia deve conter o nome completo legível, comprovação de qualificação civil, número do CPF/CNPJ, domicílio e indicação clara de indícios materiais e provas do fato alegado.
 - **Sigilo Protetivo da Identidade do Denunciante:** Recebida e admitida a denúncia formal, a Secretaria do Tribunal autuará o processo atribuindo-lhe caráter de **sigilo temporário quanto à qualificação do denunciante**, resguardando sua integridade funcional e prevenindo perseguições políticas até a decisão definitiva do feito.
 
 ### 4.3 Processo de Representação Institucional
+
 A representação é o instrumento de notícia de irregularidade promovido por agentes e órgãos públicos no cumprimento de dever funcional de ofício:
 
 - Pode ser formulada por Conselheiros, Auditores, membros do Ministério Público de Contas, órgãos de controle interno, servidores de equipes de auditoria ou autoridades públicas estaduais e municipais;
 - Dispensa as formalidades protetivas de sigilo de identidade típicas da denúncia popular, instaurando-se processo autônomo de fiscalização.
 
 ### 4.4 Processo de Registro de Atos de Admissão de Pessoal e Concessões
+
 Os atos de admissão de concursados e as concessões iniciais de aposentadorias, reformas e pensões são fiscalizados em processo eletrônico próprio remetido ao TCE pelos órgãos de previdência:
 
 - A deliberação compete privativamente às **Câmaras Deliberativas** (1ª e 2ª Câmaras);
@@ -405,15 +416,15 @@ Os atos de admissão de concursados e as concessões iniciais de aposentadorias,
 ---
 
 ### Teste 149
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinado Presidente de Empresa Pública Estadual de Goiás encaminhou expediente de Consulta ao Tribunal de Contas do Estado de Goiás para saber se, diante das peculiaridades de um contrato em andamento com fornecedor específico de software, poderia efetuar a prorrogação contratual por mais 12 meses. A consulta veio desacompanhada de parecer jurídico interno. De acordo com o Regimento Interno do TCE-GO:
 
-* **A)** A consulta deve ser conhecida e respondida pelo Conselheiro Relator monocraticamente, pois há urgência na continuidade do serviço público.
-* **B)** A consulta não deverá ser conhecida, tanto por versar sobre caso concreto e contrato específico, quanto pela ausência de parecer do órgão de assessoria jurídica competente.
-* **C)** O Tribunal Pleno deverá converter o pedido em procedimento de fiscalização sigilosa e punir o consulente com multa por litigância de má-fé.
-* **D)** A consulta poderá ser admitida desde que ratificada pelo Presidente da Assembleia Legislativa em sessão plenária.
-* **E)** O Regimento Interno do TCE-GO não admite a figura do processo de consulta, devendo as dúvidas ser solucionadas exclusivamente pelo Poder Judiciário em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+- **A)** A consulta deve ser conhecida e respondida pelo Conselheiro Relator monocraticamente, pois há urgência na continuidade do serviço público.
+- **B)** A consulta não deverá ser conhecida, tanto por versar sobre caso concreto e contrato específico, quanto pela ausência de parecer do órgão de assessoria jurídica competente.
+- **C)** O Tribunal Pleno deverá converter o pedido em procedimento de fiscalização sigilosa e punir o consulente com multa por litigância de má-fé.
+- **D)** A consulta poderá ser admitida desde que ratificada pelo Presidente da Assembleia Legislativa em sessão plenária.
+- **E)** O Regimento Interno do TCE-GO não admite a figura do processo de consulta, devendo as dúvidas ser solucionadas exclusivamente pelo Poder Judiciário em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 ---
 
@@ -424,21 +435,21 @@ Determinado Presidente de Empresa Pública Estadual de Goiás encaminhou expedie
 > - **C) Incorreta.** O descumprimento dos requisitos de admissibilidade da consulta acarreta seu mero não conhecimento, não ensejando sanção imediata por má-fé.
 > - **D) Incorreta.** A aprovação parlamentar não supre os requisitos regimentais de abstração do tema nem a exigência de parecer técnico da assessoria jurídica do órgão.
 > - **E) Incorreta.** O processo de consulta é amplamente previsto no RITCE-GO como instrumento orientador e preventivo de controle externo.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 150
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Cidadão que teve conhecimento de irregularidades no pagamento de sobrepreço em obras públicas estaduais decide formalizar denúncia perante o Tribunal de Contas do Estado de Goiás. Segundo as normas regimentais da Corte:
 
-* **A)** A denúncia formulada de forma anônima deve ser imediatamente autuada e encaminhada a julgamento pelo Tribunal Pleno sem necessidade de diligências.
-* **B)** A denúncia exige a qualificação e identificação do denunciante.
-* **C)** Somente partidos políticos com representação na Assembleia Legislativa possuem legitimidade ativa para apresentar denúncia perante o Tribunal.
-* **D)** A denúncia de cidadão depende de prévia autorização da Mesa Diretora da Assembleia Legislativa para ser protocolizada no TCE-GO.
-* **E)** Recebida a denúncia, a identidade do denunciante deverá ser imediatamente publicada no Diário Oficial Eletrônico para conhecimento do gestor denunciado.
-
+- **A)** A denúncia formulada de forma anônima deve ser imediatamente autuada e encaminhada a julgamento pelo Tribunal Pleno sem necessidade de diligências.
+- **B)** A denúncia exige a qualificação e identificação do denunciante.
+- **C)** Somente partidos políticos com representação na Assembleia Legislativa possuem legitimidade ativa para apresentar denúncia perante o Tribunal.
+- **D)** A denúncia de cidadão depende de prévia autorização da Mesa Diretora da Assembleia Legislativa para ser protocolizada no TCE-GO.
+- **E)** Recebida a denúncia, a identidade do denunciante deverá ser imediatamente publicada no Diário Oficial Eletrônico para conhecimento do gestor denunciado.
 
 ---
 
@@ -449,21 +460,21 @@ Cidadão que teve conhecimento de irregularidades no pagamento de sobrepreço em
 > - **C) Incorreta.** A legitimidade popular é ampla: qualquer cidadão em pleno gozo de direitos políticos, bem como partidos, associações e sindicatos, pode formalizar denúncia.
 > - **D) Incorreta.** O direito de denúncia de controle social é exercido diretamente perante o Tribunal de Contas, dispensando qualquer intermediação ou chancela da Assembleia Legislativa.
 > - **E) Incorreta.** Divulgar o nome do denunciante violaria a garantia legal de sigilo protetivo imposta pelo Regimento Interno.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 151
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Quanto ao processo de Representação perante o Tribunal de Contas do Estado de Goiás (arts. 135 a 140 do RITCE-GO):
 
-* **A)** A Representação é privativa dos membros do Poder Legislativo, não podendo ser manejada por órgãos de controle interno ou equipes de auditoria.
-* **B)** Têm legitimidade concorrente para formalizar representação ao TCE-GO: os Conselheiros e Conselheiros Substitutos, o Ministério Público de Contas, os titulares de órgãos de controle interno estadual, as autoridades públicas que tiverem ciência de irregularidades no exercício da função e as equipes técnicas de auditoria.
-* **C)** A representação protocolada por equipe técnica de fiscalização pode ser arquivada monocraticamente pelo Presidente do Tribunal sem distribuição a relator. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** A representação prescreve no prazo improrrogável de 6 meses contados da ocorrência do fato sob apuração.
-* **E)** Não cabe a aplicação de medidas cautelares no âmbito de processo instaurado por representação.
-
+- **A)** A Representação é privativa dos membros do Poder Legislativo, não podendo ser manejada por órgãos de controle interno ou equipes de auditoria.
+- **B)** Têm legitimidade concorrente para formalizar representação ao TCE-GO: os Conselheiros e Conselheiros Substitutos, o Ministério Público de Contas, os titulares de órgãos de controle interno estadual, as autoridades públicas que tiverem ciência de irregularidades no exercício da função e as equipes técnicas de auditoria.
+- **C)** A representação protocolada por equipe técnica de fiscalização pode ser arquivada monocraticamente pelo Presidente do Tribunal sem distribuição a relator. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **D)** A representação prescreve no prazo improrrogável de 6 meses contados da ocorrência do fato sob apuração.
+- **E)** Não cabe a aplicação de medidas cautelares no âmbito de processo instaurado por representação.
 
 ---
 
@@ -481,11 +492,11 @@ Quanto ao processo de Representação perante o Tribunal de Contas do Estado de 
 
 ## 5. Fontes Oficiais e Referências Bibliográficas
 
-* [Resolução nº 22/2008 - Regimento Interno do TCE-GO (Portal GNOI Oficial)](https://gnoi.tce.go.gov.br/atoNormativo/Publicado?id=9544) - Texto integral compilado com organização dos colegiados, sessões e recursos regimentais.
-* [Lei Estadual nº 16.168/2007 - Lei Orgânica do TCE-GO (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Base legal da competência regimental do Tribunal Pleno do TCE-GO.
-* [Portal Institucional do TCE-GO - TCE-Juris: Atos Normativos e Resoluções](https://portal.tce.go.gov.br/tce-juris/atos-normativos-do-tce-go) - Repositório oficial de resoluções regulamentares do TCE-GO.
-* [Portal Institucional do TCE-GO - Corregedoria Geral e Ética](https://portal.tce.go.gov.br/corregedoria-geral2) - Atribuições da Corregedoria Geral no Regimento Interno.
-* [Portal Institucional do TCE-GO - Competências do Plenário e das Câmaras](https://portal.tce.go.gov.br/competencias) - Funcionamento dos órgãos colegiados e distribuição de processos.
-* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 20 - Organização dos Órgãos de Controle Externo).
-* ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2018. (Cap. 5 - O Processo nos Tribunais de Contas).
-* SILVA, José Afonso da. **Curso de Direito Constitucional Positivo**. 43. ed. São Paulo: Malheiros, 2020. (Cap. 4 - O Tribunal de Contas e sua Função Institucional).
+- [Resolução nº 22/2008 - Regimento Interno do TCE-GO (Portal GNOI Oficial)](https://gnoi.tce.go.gov.br/atoNormativo/Publicado?id=9544) - Texto integral compilado com organização dos colegiados, sessões e recursos regimentais.
+- [Lei Estadual nº 16.168/2007 - Lei Orgânica do TCE-GO (Casa Civil/GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Base legal da competência regimental do Tribunal Pleno do TCE-GO.
+- [Portal Institucional do TCE-GO - TCE-Juris: Atos Normativos e Resoluções](https://portal.tce.go.gov.br/tce-juris/atos-normativos-do-tce-go) - Repositório oficial de resoluções regulamentares do TCE-GO.
+- [Portal Institucional do TCE-GO - Corregedoria Geral e Ética](https://portal.tce.go.gov.br/corregedoria-geral2) - Atribuições da Corregedoria Geral no Regimento Interno.
+- [Portal Institucional do TCE-GO - Competências do Plenário e das Câmaras](https://portal.tce.go.gov.br/competencias) - Funcionamento dos órgãos colegiados e distribuição de processos.
+- CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 20 - Organização dos Órgãos de Controle Externo).
+- ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2018. (Cap. 5 - O Processo nos Tribunais de Contas).
+- SILVA, José Afonso da. **Curso de Direito Constitucional Positivo**. 43. ed. São Paulo: Malheiros, 2020. (Cap. 4 - O Tribunal de Contas e sua Função Institucional).

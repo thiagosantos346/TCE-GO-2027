@@ -5,10 +5,7 @@
 > **Arquivo:** `01_sistema_constitucional_e_jurisdicao_dos_tcs.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 
@@ -20,11 +17,11 @@
 - Composição e nomeação de membros dos Tribunais de Contas Estaduais (Artigos 73 e 75 da CF/88);
 - Jurisdição dos Tribunais de Contas: abrangência subjetiva e objetiva; gestores públicos e particulares que guardem, arrecadem, gerenciem ou administrem verbas públicas;
 - Competências constitucionais dos Tribunais de Contas:
-    - Apreciação de contas do Chefe do Poder Executivo (parecer prévio opinativo e político-constitucional);
-    - Julgamento técnico das contas dos administradores e demais responsáveis por recursos públicos (contas de gestão);
-    - Fiscalização de atos de admissão de pessoal e concessão de benefícios previdenciários (atos complexos, Súmula Vinculante nº 3 e Tema 445 do STF);
-    - Fixação de prazo para adoção de providências saneadoras e sustação direta de atos administrativos ilegais;
-    - Sustação de contratos administrativos (competência privativa do Poder Legislativo com atuação subsidiária do TC);
+  - Apreciação de contas do Chefe do Poder Executivo (parecer prévio opinativo e político-constitucional);
+  - Julgamento técnico das contas dos administradores e demais responsáveis por recursos públicos (contas de gestão);
+  - Fiscalização de atos de admissão de pessoal e concessão de benefícios previdenciários (atos complexos, Súmula Vinculante nº 3 e Tema 445 do STF);
+  - Fixação de prazo para adoção de providências saneadoras e sustação direta de atos administrativos ilegais;
+  - Sustação de contratos administrativos (competência privativa do Poder Legislativo com atuação subsidiária do TC);
 - Eficácia das decisões dos Tribunais de Contas: imputação de débito e multa com força de título executivo extrajudicial (Artigo 71, § 3º, da CF/88);
 - Limites da jurisdição de contas, prescrição da pretensão punitiva/ressarcitória (Tema 899 do STF) e independência das instâncias civil, penal e administrativa.
 
@@ -32,23 +29,23 @@
 
 ## 🧭 Sumário
 
-1. [O Modelo Constitucional de Controle e a Responsabilidade Solidária](#1-o-modelo-constitucional-de-controle-e-a-responsabilidade-solidaria)
-    - [1.1 Sistemas de Controle Externo, Interno e Social](#11-sistemas-de-controle-externo-interno-e-social)
-    - [1.2 O Dever de Comunicação do Controle Interno e Sanção de Solidariedade (Art. 74, § 1º)](#12-o-dever-de-comunicacao-do-controle-interno-e-sancao-de-solidariedade-art-74-1o)
-2. [Natureza Jurídica, Autonomia e Princípio da Simetria (Art. 75)](#2-natureza-juridica-autonomia-e-principio-da-simetria-art-75)
-    - [2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas](#21-natureza-juridica-e-autonomias-dos-tribunais-de-contas)
-    - [2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs](#22-o-principio-da-simetria-constitucional-federativa-e-a-composicao-dos-tces)
-    - [Teste 165](#teste-165)
-    - [Teste 166](#teste-166)
-    - [Teste 167](#teste-167)
-    - [Teste 168](#teste-168)
-    - [Teste 169](#teste-169)
-    - [Teste 170](#teste-170)
-    - [Teste 171](#teste-171)
-    - [Teste 172](#teste-172)
-    - [Teste 173](#teste-173)
-    - [Teste 174](#teste-174)
-    - [Teste 175](#teste-175)
+1. [O Modelo Constitucional de Controle e a Responsabilidade Solidária](#1-o-modelo-constitucional-de-controle-e-a-responsabilidade-solidária)
+    1. [Sistemas de Controle Externo, Interno e Social](#11-sistemas-de-controle-externo-interno-e-social)
+    1. [O Dever de Comunicação do Controle Interno e Sanção de Solidariedade (Art. 74, § 1º)](#12-o-dever-de-comunicação-do-controle-interno-e-sanção-de-solidariedade-art-74--1º)
+2. [Natureza Jurídica, Autonomia e Princípio da Simetria (Art. 75)](#2-natureza-jurídica-autonomia-e-princípio-da-simetria-art-75)
+    1. [Natureza Jurídica e Autonomias dos Tribunais de Contas](#21-natureza-jurídica-e-autonomias-dos-tribunais-de-contas)
+    1. [O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs](#22-o-princípio-da-simetria-constitucional-federativa-e-a-composição-dos-tces)
+    1. [Teste 165](#teste-165)
+    1. [Teste 166](#teste-166)
+    1. [Teste 167](#teste-167)
+    1. [Teste 168](#teste-168)
+    1. [Teste 169](#teste-169)
+    1. [Teste 170](#teste-170)
+    1. [Teste 171](#teste-171)
+    1. [Teste 172](#teste-172)
+    1. [Teste 173](#teste-173)
+    1. [Teste 174](#teste-174)
+    1. [Teste 175](#teste-175)
 
 ---
 
@@ -73,11 +70,13 @@ flowchart TD
 ```
 
 ### 1.1 Sistemas de Controle Externo, Interno e Social
+
 - O **Controle Externo** possui titularidade política no Poder Legislativo, sendo operacionalizado na plenitude técnica pelo Tribunal de Contas, órgão constitucional independente de controle da legitimidade, legalidade, economicidade, aplicação de subvenções e renúncia de receitas públicas.
 - O **Controle Interno** atua no seio de cada estrutura orgânica para avaliar o cumprimento das metas do PPA, comprovar a legalidade da gestão orçamentária e apoiar o controle externo no exercício de sua missão institucional (art. 74, I a IV).
 - O **Controle Social** assegura a qualquer cidadão, partido político, associação ou sindicato legitimidade para denunciar irregularidades perante o Tribunal de Contas (art. 74, § 2º).
 
 ### 1.2 O Dever de Comunicação do Controle Interno e Sanção de Solidariedade (Art. 74, § 1º)
+
 - Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade no órgão, **devem dar ciência imediata ao Tribunal de Contas competente**.
 - **Sanção por Omissão:** Se o titular do controle interno silenciar dolosa ou culposamente, responderá **pessoal e solidariamente** com o gestor ímprobo pelo dano apurado e pelas sanções cominadas pelo Tribunal de Contas.
 
@@ -86,21 +85,23 @@ flowchart TD
 ## 2. Natureza Jurídica, Autonomia e Princípio da Simetria (Art. 75)
 
 ### 2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas
+
 - Os Tribunais de Contas são **órgãos estatais independentes**, de extração estritamente constitucional.
 - **Não integram a estrutura hierárquica do Poder Legislativo**, tampouco do Poder Executivo ou do Judiciário. Exercem magistratura técnica de contas especializada dotada de autogoverno.
 - Possuem **autonomia administrativa, funcional, orçamentária e financeira**, além de quadro próprio de servidores públicos efetivos e poder de iniciativa reservada para suas leis orgânicas.
 
 ### 2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs
+
 O art. 75 da Carta Magna estabelece que as normas constitucionais federais sobre fiscalização financeira e organização do Tribunal de Contas da União aplicam-se compulsoriamente aos Tribunais de Contas dos Estados, do Distrito Federal e dos Municípios:
 
 - **Composição dos Tribunais de Contas Estaduais (TCE-GO):**
-    - O plenário é composto por **7 Conselheiros** (ao contrário do TCU, que possui 9 Ministros).
-    - Regra constitucional de escolha e indicação (Art. 73, § 2º c/c Art. 75):
-    - **4 Conselheiros** indicados e eleitos pela **Assembleia Legislativa**;
-    - **3 Conselheiros** indicados pelo **Governador do Estado**, com prévia aprovação da Assembleia Legislativa, sendo:
-        - 1 de livre escolha do Governador;
-        - 1 obrigatoriamente escolhido dentre os **Auditores de Controle Externo (Conselheiros-Substitutos)**, a partir de lista tríplice de antiguidade e merecimento;
-        - 1 obrigatoriamente escolhido dentre os **Procuradores do Ministério Público de Contas**, a partir de lista tríplice de antiguidade e merecimento.
+  - O plenário é composto por **7 Conselheiros** (ao contrário do TCU, que possui 9 Ministros).
+  - Regra constitucional de escolha e indicação (Art. 73, § 2º c/c Art. 75):
+  - **4 Conselheiros** indicados e eleitos pela **Assembleia Legislativa**;
+  - **3 Conselheiros** indicados pelo **Governador do Estado**, com prévia aprovação da Assembleia Legislativa, sendo:
+    - 1 de livre escolha do Governador;
+    - 1 obrigatoriamente escolhido dentre os **Auditores de Controle Externo (Conselheiros-Substitutos)**, a partir de lista tríplice de antiguidade e merecimento;
+    - 1 obrigatoriamente escolhido dentre os **Procuradores do Ministério Público de Contas**, a partir de lista tríplice de antiguidade e merecimento.
 
 ```mermaid
 flowchart TD
@@ -115,15 +116,16 @@ flowchart TD
 ---
 
 ### Teste 165
+
 **(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Em um Tribunal de Contas Estadual havia sete conselheiros, sendo quatro nomeados pela Assembleia Legislativa e três nomeados pelo Governador do Estado com aprovação do parlamento estadual. Surgida vaga de conselheiro reservada ao Poder Executivo estadual, o Governador pretende nomear membro do Ministério Público de Contas para ocupar a respectiva vaga.  
 À luz do modelo constitucional de composição dos Tribunais de Contas dos Estados (art. 73, § 2º c/c art. 75 da CF/88), a pretensão governamental:
 
-* **A)** mostra-se plenamente viável desde que haja aprovação prévia por maioria simples da Assembleia Legislativa.
-* **B)** não se mostra juridicamente possível por ser a vaga privativa de auditores concursados do próprio Tribunal.
-* **C)** é admitida de imediato, assegurando-se a alternância com a vaga destinada aos auditores de carreira.
-* **D)** depende de emenda constitucional prévia para criar o cargo no âmbito do respectivo Tribunal de Contas.
-* **E)** é legítima desde que a vaga corresponda à cota destinada a membros do Ministério Público junto ao Tribunal.
+- **A)** mostra-se plenamente viável desde que haja aprovação prévia por maioria simples da Assembleia Legislativa.
+- **B)** não se mostra juridicamente possível por ser a vaga privativa de auditores concursados do próprio Tribunal.
+- **C)** é admitida de imediato, assegurando-se a alternância com a vaga destinada aos auditores de carreira.
+- **D)** depende de emenda constitucional prévia para criar o cargo no âmbito do respectivo Tribunal de Contas.
+- **E)** é legítima desde que a vaga corresponda à cota destinada a membros do Ministério Público junto ao Tribunal.
 
 ---
 
@@ -138,14 +140,15 @@ Em um Tribunal de Contas Estadual havia sete conselheiros, sendo quatro nomeados
 > **Gabarito: E**
 
 ### Teste 166
+
 **(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo – Questão Real RAG ID: `V3_FGV_TCE_SC_2026_Q3130`)**  
 Em uma fiscalização programada, o controle externo do Tribunal de Contas constatou que determinado Município realizou despesas correntes sem a devida cobertura orçamentária e sem prévio empenho, além de descumprir os limites fiscais com despesa total com pessoal. A respeito das competências constitucionais de controle externo exercidas pelos Tribunais de Contas:
 
-* **A)** o Tribunal de Contas tem competência para anular diretamente os atos discricionários do Chefe do Poder Executivo municipal por motivo de conveniência política.
-* **B)** cabe ao Tribunal de Contas proceder à execução judicial das multas por ele próprio cominadas, atuando por meio de sua procuradoria jurídica.
-* **C)** o Tribunal de Contas, ao constatar a ilegalidade de despesa ou contrato, assinará prazo para que o órgão adote as providências necessárias ao exato cumprimento da lei.
-* **D)** a fiscalização contábil, financeira e orçamentária do município é exercida exclusivamente pelo Poder Judiciário mediante ação popular.
-* **E)** os Tribunais de Contas exercem função jurisdicional contenciosa com poder de trânsito em julgado material insuscetível de apreciação judicial.
+- **A)** o Tribunal de Contas tem competência para anular diretamente os atos discricionários do Chefe do Poder Executivo municipal por motivo de conveniência política.
+- **B)** cabe ao Tribunal de Contas proceder à execução judicial das multas por ele próprio cominadas, atuando por meio de sua procuradoria jurídica.
+- **C)** o Tribunal de Contas, ao constatar a ilegalidade de despesa ou contrato, assinará prazo para que o órgão adote as providências necessárias ao exato cumprimento da lei.
+- **D)** a fiscalização contábil, financeira e orçamentária do município é exercida exclusivamente pelo Poder Judiciário mediante ação popular.
+- **E)** os Tribunais de Contas exercem função jurisdicional contenciosa com poder de trânsito em julgado material insuscetível de apreciação judicial.
 
 ---
 
@@ -162,15 +165,16 @@ Em uma fiscalização programada, o controle externo do Tribunal de Contas const
 ---
 
 ### Teste 167
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Certo Tribunal de Contas, no âmbito de sua competência fiscalizatória, realizou uma Tomada de Contas Especial para apurar eventuais danos causados ao patrimônio público em decorrência de irregularidades graves na execução de convênio com repasse de verbas públicas firmado pelo Município. Ao final da instrução processual, apurou-se a responsabilidade direta do Prefeito na má aplicação dos recursos repassados.  
 Considerando a jurisprudência vinculante do Supremo Tribunal Federal (Temas 157 e 835) e o regime de controle externo, é correto afirmar que:
 
-* **A)** o Tribunal de Contas não possui competência jurídica para instaurar tomada de contas especial sobre convênios.
-* **B)** o Tribunal de Contas pode julgar as contas do convênio e imputar débito condenatório com força de título executivo.
-* **C)** a condenação pecuniária aplicada pelo Tribunal de Contas a prefeito depende de homologação pela Câmara de Vereadores.
-* **D)** a competência para julgar a tomada de contas decorrente de repasses voluntários transfere-se para a União.
-* **E)** o prefeito goza de imunidade patrimonial administrativa enquanto estiver no exercício regular do mandato eletivo.
+- **A)** o Tribunal de Contas não possui competência jurídica para instaurar tomada de contas especial sobre convênios.
+- **B)** o Tribunal de Contas pode julgar as contas do convênio e imputar débito condenatório com força de título executivo.
+- **C)** a condenação pecuniária aplicada pelo Tribunal de Contas a prefeito depende de homologação pela Câmara de Vereadores.
+- **D)** a competência para julgar a tomada de contas decorrente de repasses voluntários transfere-se para a União.
+- **E)** o prefeito goza de imunidade patrimonial administrativa enquanto estiver no exercício regular do mandato eletivo.
 
 ---
 
@@ -185,14 +189,15 @@ Considerando a jurisprudência vinculante do Supremo Tribunal Federal (Temas 157
 > **Gabarito: B**
 
 ### Teste 168
+
 **(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
 Sobre as disposições constitucionais referentes ao controle externo das entidades públicas (art. 71 da CF/88), é correto afirmar:
 
-* **A)** O Tribunal de Contas tem competência para apreciar a legalidade de atos de admissão de pessoal a qualquer título.
-* **B)** O parecer prévio emitido sobre as contas do Governador deixará de prevalecer por decisão de dois terços da Assembleia.
-* **C)** As decisões dos Tribunais de Contas que resultem em imputação de débito ou multa têm eficácia de título executivo judicial.
-* **D)** A sustação de contratos administrativos irregulares é competência originária e direta do próprio Tribunal de Contas.
-* **E)** O controle externo exercido pelo Tribunal de Contas restringe-se exclusivamente aos aspectos contábil e de legalidade.
+- **A)** O Tribunal de Contas tem competência para apreciar a legalidade de atos de admissão de pessoal a qualquer título.
+- **B)** O parecer prévio emitido sobre as contas do Governador deixará de prevalecer por decisão de dois terços da Assembleia.
+- **C)** As decisões dos Tribunais de Contas que resultem em imputação de débito ou multa têm eficácia de título executivo judicial.
+- **D)** A sustação de contratos administrativos irregulares é competência originária e direta do próprio Tribunal de Contas.
+- **E)** O controle externo exercido pelo Tribunal de Contas restringe-se exclusivamente aos aspectos contábil e de legalidade.
 
 ---
 
@@ -207,14 +212,15 @@ Sobre as disposições constitucionais referentes ao controle externo das entida
 > **Gabarito: B**
 
 ### Teste 169
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da natureza jurídica e do alcance da jurisdição própria dos Tribunais de Contas no ordenamento jurídico brasileiro, analise as seguintes afirmações:
 
-* **A)** A jurisdição dos Tribunais de Contas abrange apenas as autoridades do Executivo, excluindo o Judiciário e Legislativo.
-* **B)** Os Tribunais de Contas possuem natureza de órgãos auxiliares subordinados hierarquicamente ao Poder Legislativo respectivo.
-* **C)** A jurisdição dos Tribunais de Contas alcança qualquer pessoa física que utilize, guarde ou administre bens públicos.
-* **D)** As Cortes de Contas integram a estrutura orgânica do Poder Judiciário, exercendo função tipicamente contenciosa judicial.
-* **E)** O controle financeiro exercido pelo Tribunal de Contas sobre fundações estatais prescinde de comprovação de recursos do Tesouro.
+- **A)** A jurisdição dos Tribunais de Contas abrange apenas as autoridades do Executivo, excluindo o Judiciário e Legislativo.
+- **B)** Os Tribunais de Contas possuem natureza de órgãos auxiliares subordinados hierarquicamente ao Poder Legislativo respectivo.
+- **C)** A jurisdição dos Tribunais de Contas alcança qualquer pessoa física que utilize, guarde ou administre bens públicos.
+- **D)** As Cortes de Contas integram a estrutura orgânica do Poder Judiciário, exercendo função tipicamente contenciosa judicial.
+- **E)** O controle financeiro exercido pelo Tribunal de Contas sobre fundações estatais prescinde de comprovação de recursos do Tesouro.
 
 ---
 
@@ -229,15 +235,16 @@ A respeito da natureza jurídica e do alcance da jurisdição própria dos Tribu
 > **Gabarito: C**
 
 ### Teste 170
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em razão da prática de ato danoso ao erário apurado em regular processo de auditoria, o Tribunal de Contas do Estado aplicou multa e imputou débito de ressarcimento a determinado gestor público que gerenciava verbas estaduais. Intimado regularmente, o responsável não efetuou o recolhimento das quantias nem interpôs recurso no prazo regimental.  
 Sobre a cobrança das quantias imputadas e a eficácia executiva do acórdão condenatório, é correto afirmar que:
 
-* **A)** o Tribunal de Contas deve ajuizar a competente execução fiscal perante a Vara da Fazenda Pública competente.
-* **B)** a decisão do Tribunal de Contas tem eficácia de título executivo extrajudicial, cabendo a cobrança à Fazenda Pública.
-* **C)** o acórdão condenatório deve ser submetido a prévia homologação pelo Tribunal de Justiça do Estado federado.
-* **D)** a execução do valor da multa prescreve no prazo improrrogável de dois anos contados do trânsito administrativo.
-* **E)** a decisão do Tribunal de Contas impede em definitivo a propositura de ação de improbidade administrativa pelo Ministério Público.
+- **A)** o Tribunal de Contas deve ajuizar a competente execução fiscal perante a Vara da Fazenda Pública competente.
+- **B)** a decisão do Tribunal de Contas tem eficácia de título executivo extrajudicial, cabendo a cobrança à Fazenda Pública.
+- **C)** o acórdão condenatório deve ser submetido a prévia homologação pelo Tribunal de Justiça do Estado federado.
+- **D)** a execução do valor da multa prescreve no prazo improrrogável de dois anos contados do trânsito administrativo.
+- **E)** a decisão do Tribunal de Contas impede em definitivo a propositura de ação de improbidade administrativa pelo Ministério Público.
 
 ---
 
@@ -252,14 +259,15 @@ Sobre a cobrança das quantias imputadas e a eficácia executiva do acórdão co
 > **Gabarito: B**
 
 ### Teste 171
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No exercício da fiscalização contábil, financeira e orçamentária, os Tribunais de Contas deparam-se com atos administrativos e contratos irregulares praticados pelo Poder Executivo. A respeito dos procedimentos de sustação de atos e contratos, é correto afirmar:
 
-* **A)** A sustação de ato administrativo ilegal compete diretamente ao Tribunal de Contas se o órgão não adotar providências.
-* **B)** A rescisão e sustação de contratos administrativos é ato de competência direta e imediata do próprio Tribunal de Contas.
-* **C)** O Tribunal de Contas pode decretar a prisão administrativa do agente responsável que descumprir ordem de anulação de ato.
-* **D)** O Poder Legislativo estadual não possui competência para sustar atos ou contratos expedidos pela administração pública direta.
-* **E)** A sustação de contrato administrativo dispensa a comunicação tempestiva à autoridade máxima do Poder Executivo estadual.
+- **A)** A sustação de ato administrativo ilegal compete diretamente ao Tribunal de Contas se o órgão não adotar providências.
+- **B)** A rescisão e sustação de contratos administrativos é ato de competência direta e imediata do próprio Tribunal de Contas.
+- **C)** O Tribunal de Contas pode decretar a prisão administrativa do agente responsável que descumprir ordem de anulação de ato.
+- **D)** O Poder Legislativo estadual não possui competência para sustar atos ou contratos expedidos pela administração pública direta.
+- **E)** A sustação de contrato administrativo dispensa a comunicação tempestiva à autoridade máxima do Poder Executivo estadual.
 
 ---
 
@@ -274,14 +282,15 @@ No exercício da fiscalização contábil, financeira e orçamentária, os Tribu
 > **Gabarito: A**
 
 ### Teste 172
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Constituição do Estado de Goiás e a Lei Orgânica do TCE-GO asseguram ao Tribunal de Contas do Estado prerrogativas institucionais indispensáveis ao pleno exercício de sua missão fiscalizatória. A respeito da autonomia do Tribunal de Contas, é correto afirmar que:
 
-* **A)** possui iniciativa de lei reservada para a criação e extinção de seus cargos e fixação de vencimentos.
-* **B)** seus conselheiros possuem prerrogativas e subsídios equiparados aos membros da Assembleia Legislativa estadual.
-* **C)** sua proposta orçamentária anual é elaborada privativamente pela Secretaria da Fazenda e Planejamento estadual.
-* **D)** suas decisões administrativas submetem-se a recurso ordinário dotado de efeito suspensivo perante o Governador do Estado.
-* **E)** suas contas anuais de gestão orçamentária e financeira são apreciadas privativamente pelo Ministério Público do Estado.
+- **A)** possui iniciativa de lei reservada para a criação e extinção de seus cargos e fixação de vencimentos.
+- **B)** seus conselheiros possuem prerrogativas e subsídios equiparados aos membros da Assembleia Legislativa estadual.
+- **C)** sua proposta orçamentária anual é elaborada privativamente pela Secretaria da Fazenda e Planejamento estadual.
+- **D)** suas decisões administrativas submetem-se a recurso ordinário dotado de efeito suspensivo perante o Governador do Estado.
+- **E)** suas contas anuais de gestão orçamentária e financeira são apreciadas privativamente pelo Ministério Público do Estado.
 
 ---
 
@@ -296,14 +305,15 @@ A Constituição do Estado de Goiás e a Lei Orgânica do TCE-GO asseguram ao Tr
 > **Gabarito: A**
 
 ### Teste 173
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito dos Tribunais de Contas, a figura dos Auditores (atualmente denominados Conselheiros Substitutos pela jurisprudência e legislação nacional) exerce atribuições fundamentais na instrução e julgamento de processos de contas. A respeito do seu estatuto constitucional, é correto afirmar:
 
-* **A)** Os Auditores são nomeados em comissão pelo Presidente da Corte dentre pessoas com formação de nível médio.
-* **B)** Quando em substituição a Conselheiro, o Auditor terá as mesmas garantias e impedimentos do titular do cargo.
-* **C)** No exercício das funções ordinárias de judicatura, o Auditor não detém as garantias inerentes à magistratura togado.
-* **D)** A investidura no cargo de Auditor prescinde de aprovação em concurso público se houver lista tríplice corporativa.
-* **E)** Os Conselheiros Substitutos são subordinados administrativamente aos Procuradores do Ministério Público de Contas.
+- **A)** Os Auditores são nomeados em comissão pelo Presidente da Corte dentre pessoas com formação de nível médio.
+- **B)** Quando em substituição a Conselheiro, o Auditor terá as mesmas garantias e impedimentos do titular do cargo.
+- **C)** No exercício das funções ordinárias de judicatura, o Auditor não detém as garantias inerentes à magistratura togado.
+- **D)** A investidura no cargo de Auditor prescinde de aprovação em concurso público se houver lista tríplice corporativa.
+- **E)** Os Conselheiros Substitutos são subordinados administrativamente aos Procuradores do Ministério Público de Contas.
 
 ---
 
@@ -318,14 +328,15 @@ No âmbito dos Tribunais de Contas, a figura dos Auditores (atualmente denominad
 > **Gabarito: B**
 
 ### Teste 174
+
 **(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 A Lei nº 16.168, de 11 de dezembro de 2007, estabelece a Lei Orgânica do Tribunal de Contas do Estado de Goiás (LOTCE-GO), disciplinando sua jurisdição, competência e processo. À luz da LOTCE-GO, é correto afirmar que:
 
-* **A)** os responsáveis por contas de gestão que causarem prejuízo ao erário respondem solidariamente com seus subordinados.
-* **B)** a decisão do Tribunal de Contas que julgar regulares com ressalva as contas confere quitação irrestrita ao responsável.
-* **C)** o Tribunal de Contas é órgão subordinado administrativamente à Mesa Diretora da Assembleia Legislativa goiana.
-* **D)** as certidões emitidas pelo TCE-GO sobre imputação de débito dependem de cobrança privativa pelo próprio Tribunal.
-* **E)** a fiscalização contábil exercida pelo TCE-GO alcança apenas os recursos oriundos do Tesouro do Estado de Goiás.
+- **A)** os responsáveis por contas de gestão que causarem prejuízo ao erário respondem solidariamente com seus subordinados.
+- **B)** a decisão do Tribunal de Contas que julgar regulares com ressalva as contas confere quitação irrestrita ao responsável.
+- **C)** o Tribunal de Contas é órgão subordinado administrativamente à Mesa Diretora da Assembleia Legislativa goiana.
+- **D)** as certidões emitidas pelo TCE-GO sobre imputação de débito dependem de cobrança privativa pelo próprio Tribunal.
+- **E)** a fiscalização contábil exercida pelo TCE-GO alcança apenas os recursos oriundos do Tesouro do Estado de Goiás.
 
 ---
 
@@ -340,14 +351,15 @@ A Lei nº 16.168, de 11 de dezembro de 2007, estabelece a Lei Orgânica do Tribu
 > **Gabarito: A**
 
 ### Teste 175
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Supremo Tribunal Federal, ao julgar os Temas 897 e 899 de Repercussão Geral, fixou teses de grande impacto sobre a prescritibilidade das sanções e do ressarcimento ao erário nos Tribunais de Contas. De acordo com a jurisprudência vinculante do STF, é correto afirmar:
 
-* **A)** As ações de ressarcimento ao erário fundadas em decisões dos Tribunais de Contas são absolutamente imprescritíveis.
-* **B)** É prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas no prazo de cinco anos.
-* **C)** Apenas as multas administrativas prescrevem, mantendo-se a imprescritibilidade eterna para a imputação de débito.
-* **D)** O prazo prescricional para o Tribunal de Contas julgar processo administrativo é de dez anos contados da ocorrência.
-* **E)** A prescrição intercorrente é manifestamente inaplicável aos processos que tramitam perante o controle externo.
+- **A)** As ações de ressarcimento ao erário fundadas em decisões dos Tribunais de Contas são absolutamente imprescritíveis.
+- **B)** É prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas no prazo de cinco anos.
+- **C)** Apenas as multas administrativas prescrevem, mantendo-se a imprescritibilidade eterna para a imputação de débito.
+- **D)** O prazo prescricional para o Tribunal de Contas julgar processo administrativo é de dez anos contados da ocorrência.
+- **E)** A prescrição intercorrente é manifestamente inaplicável aos processos que tramitam perante o controle externo.
 
 ---
 
@@ -360,4 +372,3 @@ O Supremo Tribunal Federal, ao julgar os Temas 897 e 899 de Repercussão Geral, 
 > - **E)** **Incorreto**. Aplica-se a prescrição intercorrente nos processos administrativos de contas que fiquem paralisados por mais de 3 anos pendentes de despacho ou julgamento.
 >
 > **Gabarito: B**
-

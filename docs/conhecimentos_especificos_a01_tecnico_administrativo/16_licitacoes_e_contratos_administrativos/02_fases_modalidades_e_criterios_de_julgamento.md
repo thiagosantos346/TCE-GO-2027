@@ -4,12 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `02_fases_modalidades_e_criterios_de_julgamento.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Sequência e fases do processo licitatório na Lei Federal nº 14.133/2021
 - A regra da inversão de fases (julgamento das propostas antes da habilitação) e fase recursal única
 - Modalidades de licitação: Pregão, Concorrência, Concurso, Leilão e Diálogo Competitivo
@@ -23,37 +21,37 @@
 
 ## 🧭 Sumário
 
-1. [Fases e Rito Procedimental na Lei Federal nº 14.133/2021](#1-fases-e-rito-procedimental-na-lei-federal-no-141332021)
-    - [1.1 Sequência Cronológica Canônica (Art. 17)](#11-sequencia-cronologica-canonica-art-17)
-    - [1.2 A Inversão de Fases e a Habilitação Exclusiva do Vencedor](#12-a-inversao-de-fases-e-a-habilitacao-exclusiva-do-vencedor)
-    - [1.3 Fase Recursal Única e Concentrada (Art. 165)](#13-fase-recursal-unica-e-concentrada-art-165)
-    - [Teste 077](#teste-077)
-    - [Teste 078](#teste-078)
-    - [Teste 079](#teste-079)
-2. [As Cinco Modalidades Licitatórias Modernas (Art. 28)](#2-as-cinco-modalidades-licitatorias-modernas-art-28)
-    - [2.1 Pregão: Bens e Serviços Comuns de Engenharia e Consumo](#21-pregao-bens-e-servicos-comuns-de-engenharia-e-consumo)
-    - [2.2 Concorrência: Bens e Serviços Especiais e Obras](#22-concorrencia-bens-e-servicos-especiais-e-obras)
-    - [2.3 Concurso: Premiação de Trabalhos Técnicos e Artísticos](#23-concurso-premiacao-de-trabalhos-tecnicos-e-artisticos)
-    - [2.4 Leilão: A Nova Sistemática para Móveis Inservíveis e Imóveis](#24-leilao-a-nova-sistematica-para-moveis-inserviveis-e-imoveis)
-    - [2.5 Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)](#25-dialogo-competitivo-inovacao-rito-e-comissao-efetiva-art-32)
-    - [2.6 A Extinção Definitiva da Tomada de Preços e do Convite](#26-a-extincao-definitiva-da-tomada-de-precos-e-do-convite)
-    - [Teste 080](#teste-080)
-    - [Teste 081](#teste-081)
-    - [Teste 082](#teste-082)
-    - [Teste 083](#teste-083)
-    - [Teste 084](#teste-084)
-3. [Critérios de Julgamento das Propostas (Art. 33)](#3-criterios-de-julgamento-das-propostas-art-33)
-    - [3.1 Menor Preço e Maior Desconto](#31-menor-preco-e-maior-desconto)
-    - [3.2 Melhor Técnica ou Conteúdo Artístico](#32-melhor-tecnica-ou-conteudo-artistico)
-    - [3.3 Técnica e Preço e o Limite de Ponderação](#33-tecnica-e-preco-e-o-limite-de-ponderacao)
-    - [3.4 Maior Lance (Privativo do Leilão)](#34-maior-lance-privativo-do-leilao)
-    - [3.5 Maior Retorno Econômico e os Contratos de Eficiência (Art. 39)](#35-maior-retorno-economico-e-os-contratos-de-eficiencia-art-39)
-    - [Teste 085](#teste-085)
-    - [Teste 086](#teste-086)
-4. [Modos de Disputa e Prazos Mínimos de Divulgação do Edital](#4-modos-de-disputa-e-prazos-minimos-de-divulgacao-do-edital)
-    - [4.1 Modos de Disputa: Aberto, Fechado e Combinações (Art. 56)](#41-modos-de-disputa-aberto-fechado-e-combinacoes-art-56)
-    - [4.2 Prazos Mínimos de Apresentação de Propostas (Art. 55)](#42-prazos-minimos-de-apresentacao-de-propostas-art-55)
-    - [Teste 087](#teste-087)
+1. [Fases e Rito Procedimental na Lei Federal nº 14.133/2021](#1-fases-e-rito-procedimental-na-lei-federal-nº-141332021)
+    1. [Sequência Cronológica Canônica (Art. 17)](#11-sequência-cronológica-canônica-art-17)
+    1. [A Inversão de Fases e a Habilitação Exclusiva do Vencedor](#12-a-inversão-de-fases-e-a-habilitação-exclusiva-do-vencedor)
+    1. [Fase Recursal Única e Concentrada (Art. 165)](#13-fase-recursal-única-e-concentrada-art-165)
+    1. [Teste 077](#teste-077)
+    1. [Teste 078](#teste-078)
+    1. [Teste 079](#teste-079)
+2. [As Cinco Modalidades Licitatórias Modernas (Art. 28)](#2-as-cinco-modalidades-licitatórias-modernas-art-28)
+    1. [Pregão: Bens e Serviços Comuns de Engenharia e Consumo](#21-pregão-bens-e-serviços-comuns-de-engenharia-e-consumo)
+    1. [Concorrência: Bens e Serviços Especiais e Obras](#22-concorrência-bens-e-serviços-especiais-e-obras)
+    1. [Concurso: Premiação de Trabalhos Técnicos e Artísticos](#23-concurso-premiação-de-trabalhos-técnicos-e-artísticos)
+    1. [Leilão: A Nova Sistemática para Móveis Inservíveis e Imóveis](#24-leilão-a-nova-sistemática-para-móveis-inservíveis-e-imóveis)
+    1. [Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)](#25-diálogo-competitivo-inovação-rito-e-comissão-efetiva-art-32)
+    1. [A Extinção Definitiva da Tomada de Preços e do Convite](#26-a-extinção-definitiva-da-tomada-de-preços-e-do-convite)
+    1. [Teste 080](#teste-080)
+    1. [Teste 081](#teste-081)
+    1. [Teste 082](#teste-082)
+    1. [Teste 083](#teste-083)
+    1. [Teste 084](#teste-084)
+3. [Critérios de Julgamento das Propostas (Art. 33)](#3-critérios-de-julgamento-das-propostas-art-33)
+    1. [Menor Preço e Maior Desconto](#31-menor-preço-e-maior-desconto)
+    1. [Melhor Técnica ou Conteúdo Artístico](#32-melhor-técnica-ou-conteúdo-artístico)
+    1. [Técnica e Preço e o Limite de Ponderação](#33-técnica-e-preço-e-o-limite-de-ponderação)
+    1. [Maior Lance (Privativo do Leilão)](#34-maior-lance-privativo-do-leilão)
+    1. [Maior Retorno Econômico e os Contratos de Eficiência (Art. 39)](#35-maior-retorno-econômico-e-os-contratos-de-eficiência-art-39)
+    1. [Teste 085](#teste-085)
+    1. [Teste 086](#teste-086)
+4. [Modos de Disputa e Prazos Mínimos de Divulgação do Edital](#4-modos-de-disputa-e-prazos-mínimos-de-divulgação-do-edital)
+    1. [Modos de Disputa: Aberto, Fechado e Combinações (Art. 56)](#41-modos-de-disputa-aberto-fechado-e-combinações-art-56)
+    1. [Prazos Mínimos de Apresentação de Propostas (Art. 55)](#42-prazos-mínimos-de-apresentação-de-propostas-art-55)
+    1. [Teste 087](#teste-087)
 5. [Fontes Recomendadas na Internet](#5-fontes-recomendadas-na-internet)
 
 ---
@@ -102,14 +100,15 @@ Na sistemática da NLLC, os recursos administrativos não são mais interpostos 
 ---
 
 ### Teste 077
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Lei nº 14.133/2021 estruturou o processo de licitação em uma sequência de fases no art. 17. A respeito da ordem legal canônica das fases do procedimento licitatório ordinário na Nova Lei de Licitações, assinale a opção que indica a sequência correta:
 
-* **A)** Preparatória, divulgação do edital, apresentação de propostas, julgamento, habilitação, recursal e homologação.
-* **B)** Preparatória, habilitação prévia dos licitantes, apresentação de propostas, julgamento, recursal e adjudicação.
-* **C)** Divulgação do edital, apresentação de propostas, habilitação preliminar, julgamento técnico, recursal e homologação.
-* **D)** Preparatória, homologação do certame, publicação do edital, julgamento de preços, habilitação e fase recursal.
-* **E)** Apresentação de propostas, julgamento, habilitação jurídica, preparatória, divulgação do edital e homologação.
+- **A)** Preparatória, divulgação do edital, apresentação de propostas, julgamento, habilitação, recursal e homologação.
+- **B)** Preparatória, habilitação prévia dos licitantes, apresentação de propostas, julgamento, recursal e adjudicação.
+- **C)** Divulgação do edital, apresentação de propostas, habilitação preliminar, julgamento técnico, recursal e homologação.
+- **D)** Preparatória, homologação do certame, publicação do edital, julgamento de preços, habilitação e fase recursal.
+- **E)** Apresentação de propostas, julgamento, habilitação jurídica, preparatória, divulgação do edital e homologação.
 
 ---
 
@@ -122,15 +121,17 @@ A Lei nº 14.133/2021 estruturou o processo de licitação em uma sequência de 
 > - **E)** **Incorreto**. Sequência inteiramente anacrônica e desconforme com o comando legal.
 >
 > **Gabarito: A**
+
 ### Teste 078
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em um certame licitatório conduzido sob a modalidade Concorrência, a Administração Pública estadual pretende antecipar a fase de habilitação para que ocorra antes do julgamento das propostas. Nos termos expressos do art. 17, § 1º, da Lei nº 14.133/2021:
 
-* **A)** A inversão de fases para realizar a habilitação antes do julgamento é vedada em qualquer hipótese licitatória.
-* **B)** A habilitação pode anteceder o julgamento havendo previsão no edital e ato motivado.
-* **C)** A antecipação da habilitação é obrigatória em todas as licitações cujo critério seja técnica e preço.
-* **D)** A inversão de fases depende de prévia e indispensável autorização legislativa da Assembleia do Estado.
-* **E)** A realização prévia da habilitação dispensa a fase recursal referente ao julgamento das propostas de preços.
+- **A)** A inversão de fases para realizar a habilitação antes do julgamento é vedada em qualquer hipótese licitatória.
+- **B)** A habilitação pode anteceder o julgamento havendo previsão no edital e ato motivado.
+- **C)** A antecipação da habilitação é obrigatória em todas as licitações cujo critério seja técnica e preço.
+- **D)** A inversão de fases depende de prévia e indispensável autorização legislativa da Assembleia do Estado.
+- **E)** A realização prévia da habilitação dispensa a fase recursal referente ao julgamento das propostas de preços.
 
 ---
 
@@ -143,15 +144,17 @@ Em um certame licitatório conduzido sob a modalidade Concorrência, a Administr
 > - **E)** **Incorreto**. A fase recursal única é mantida, apreciando conjuntamente os atos do procedimento.
 >
 > **Gabarito: B**
+
 ### Teste 079
+
 **(FGV – TCE/GO – 2024 – Analista de Controle Externo – Controle Externo – Questão Real RAG ID: `V3_FGV_TCE_GO_2024_Q0174`)**  
 Dos atos da Administração decorrentes da aplicação da Lei nº 14.133/2021 é cabível a manifestação de irresignação do interessado na esfera administrativa, na forma e prazos estabelecidos na mencionada norma, sendo correto afirmar que o pedido de reconsideração é pertinente na hipótese de:
 
-* **A)** julgamento das propostas.
-* **B)** anulação ou revogação da licitação.
-* **C)** ato de habilitação ou inabilitação de licitante.
-* **D)** extinção do contrato, quando determinada por ato unilateral da Administração.
-* **E)** aplicação da penalidade de declaração de inidoneidade para licitar ou contratar com a Administração Pública.
+- **A)** julgamento das propostas.
+- **B)** anulação ou revogação da licitação.
+- **C)** ato de habilitação ou inabilitação de licitante.
+- **D)** extinção do contrato, quando determinada por ato unilateral da Administração.
+- **E)** aplicação da penalidade de declaração de inidoneidade para licitar ou contratar com a Administração Pública.
 
 ---
 
@@ -172,7 +175,7 @@ O art. 28 da Lei Federal nº 14.133/2021 estabelece um rol taxativo com cinco mo
 ```mermaid
 flowchart TD
     MOD["Modalidades de Licitação (Art. 28 da NLLC)"]
-    
+  
     MOD --> P["PREGÃO<br/>• Bens e serviços comuns (inclusive engenharia comum)<br/>• Menor Preço ou Maior Desconto"]
     MOD --> C["CONCORRÊNCIA<br/>• Bens e serviços especiais e obras civis<br/>• Todos os critérios de julgamento (salvo maior lance)"]
     MOD --> CONC["CONCURSO<br/>• Trabalho técnico, científico ou artístico<br/>• Melhor Técnica ou Conteúdo Artístico (Prêmio)"]
@@ -224,14 +227,15 @@ A NLLC **extinguiu formal e definitivamente as modalidades Tomada de Preços e C
 ---
 
 ### Teste 080
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Departamento Estadual de Infraestrutura necessita licitar a construção de um complexo hospitalar de alta complexidade e optou pela modalidade Concorrência. A respeito da modalidade Concorrência na disciplina da Lei Federal nº 14.133/2021 (arts. 6º, XXXVIII e 29):
 
-* **A)** A concorrência aplica-se a obras de engenharia, admitindo critérios de menor preço ou técnica e preço.
-* **B)** A concorrência restringe-se ao critério estrito de menor preço, vedada a adoção de técnica e preço em engenharia.
-* **C)** A concorrência subordina-se compulsoriamente a valor estimado superior a cinquenta milhões de reais no projeto.
-* **D)** A concorrência é conduzida privativamente por leiloeiro oficial credenciado perante a junta comercial do Estado.
-* **E)** A concorrência admite a participação exclusiva de empresas sediadas no território estadual onde será executada.
+- **A)** A concorrência aplica-se a obras de engenharia, admitindo critérios de menor preço ou técnica e preço.
+- **B)** A concorrência restringe-se ao critério estrito de menor preço, vedada a adoção de técnica e preço em engenharia.
+- **C)** A concorrência subordina-se compulsoriamente a valor estimado superior a cinquenta milhões de reais no projeto.
+- **D)** A concorrência é conduzida privativamente por leiloeiro oficial credenciado perante a junta comercial do Estado.
+- **E)** A concorrência admite a participação exclusiva de empresas sediadas no território estadual onde será executada.
 
 ---
 
@@ -244,15 +248,17 @@ O Departamento Estadual de Infraestrutura necessita licitar a construção de um
 > - **E)** **Incorreto**. É vedada a restrição territorial sob pena de violação à isonomia e à ampla concorrência.
 >
 > **Gabarito: A**
+
 ### Teste 081
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A modalidade de licitação denominada Pregão, disciplinada no art. 6º, XLI e art. 29 da Lei nº 14.133/2021, é obrigatória para a aquisição de bens e serviços comuns no âmbito de todos os Poderes e esferas estatais. A respeito do Pregão e de seus limites legais:
 
-* **A)** É cabível para contratação de serviços técnicos especializados de natureza predominantemente intelectual.
-* **B)** Aplica-se compulsoriamente para a contratação de obras comuns de engenharia com regime integrado.
-* **C)** É obrigatório para bens e serviços comuns, julgado por menor preço ou maior desconto.
-* **D)** Admite o critério de melhor técnica ou técnica e preço para garantir produtos de tecnologia avançada.
-* **E)** Veda a realização sob a forma eletrônica em municípios com população inferior a cinquenta mil habitantes.
+- **A)** É cabível para contratação de serviços técnicos especializados de natureza predominantemente intelectual.
+- **B)** Aplica-se compulsoriamente para a contratação de obras comuns de engenharia com regime integrado.
+- **C)** É obrigatório para bens e serviços comuns, julgado por menor preço ou maior desconto.
+- **D)** Admite o critério de melhor técnica ou técnica e preço para garantir produtos de tecnologia avançada.
+- **E)** Veda a realização sob a forma eletrônica em municípios com população inferior a cinquenta mil habitantes.
 
 ---
 
@@ -265,15 +271,17 @@ A modalidade de licitação denominada Pregão, disciplinada no art. 6º, XLI e 
 > - **E)** **Incorreto**. O pregão é realizado preferencialmente sob a forma eletrônica em todos os entes federados.
 >
 > **Gabarito: C**
+
 ### Teste 082
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da modalidade licitatória denominada Concurso, disciplinada no art. 6º, XXXIX e art. 30 da Lei Federal nº 14.133/2021, assinale a afirmativa correta:
 
-* **A)** O concurso destina-se à alienação de bens móveis inservíveis e veículos penhorados em execução fiscal.
-* **B)** O concurso destina-se a trabalho técnico, científico ou artístico, mediante prêmio ou remuneração.
-* **C)** O concurso é julgado obrigatoriamente por leiloeiro oficial credenciado junto à administração fazendária.
-* **D)** O edital de concurso dispensa a fixação prévia de qualificações e de regras de julgamento das comissões.
-* **E)** A modalidade concurso admite como critério de julgamento o maior desconto sobre tabela referencial.
+- **A)** O concurso destina-se à alienação de bens móveis inservíveis e veículos penhorados em execução fiscal.
+- **B)** O concurso destina-se a trabalho técnico, científico ou artístico, mediante prêmio ou remuneração.
+- **C)** O concurso é julgado obrigatoriamente por leiloeiro oficial credenciado junto à administração fazendária.
+- **D)** O edital de concurso dispensa a fixação prévia de qualificações e de regras de julgamento das comissões.
+- **E)** A modalidade concurso admite como critério de julgamento o maior desconto sobre tabela referencial.
 
 ---
 
@@ -286,15 +294,17 @@ A respeito da modalidade licitatória denominada Concurso, disciplinada no art. 
 > - **E)** **Incorreto**. O critério de julgamento é exclusivamente melhor técnica ou conteúdo artístico.
 >
 > **Gabarito: B**
+
 ### Teste 083
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Tribunal de Contas do Estado necessita alienar vinte veículos de sua frota oficial classificados formalmente como bens móveis inservíveis e antieconômicos para a repartição. À luz das normas da Lei nº 14.133/2021 (arts. 6º, XL e 31):
 
-* **A)** A alienação de bens móveis inservíveis e de imóveis públicos realiza-se privativamente na modalidade leilão.
-* **B)** A alienação exige a modalidade concorrência pública caso o valor contábil supere duzentos salários mínimos.
-* **C)** O leilão não admite a condução por servidor público designado, exigindo sempre leiloeiro oficial privado.
-* **D)** Os bens arrematados em leilão podem ser entregues ao comprador antes da integralização do pagamento do lance.
-* **E)** A modalidade leilão dispensa a publicação de edital de convocação em sítio eletrônico de livre acesso.
+- **A)** A alienação de bens móveis inservíveis e de imóveis públicos realiza-se privativamente na modalidade leilão.
+- **B)** A alienação exige a modalidade concorrência pública caso o valor contábil supere duzentos salários mínimos.
+- **C)** O leilão não admite a condução por servidor público designado, exigindo sempre leiloeiro oficial privado.
+- **D)** Os bens arrematados em leilão podem ser entregues ao comprador antes da integralização do pagamento do lance.
+- **E)** A modalidade leilão dispensa a publicação de edital de convocação em sítio eletrônico de livre acesso.
 
 ---
 
@@ -307,7 +317,9 @@ O Tribunal de Contas do Estado necessita alienar vinte veículos de sua frota of
 > - **E)** **Incorreto**. O edital do leilão deve ser divulgado no PNCP com antecedência mínima de 15 dias úteis (art. 54, § 1º).
 >
 > **Gabarito: A**
+
 ### Teste 084
+
 **(FGV – TCE/PI – 2025 – Auditor de Controle Externo – Questão Real RAG ID: `V3_FGV_TCE_PI_2025_Q2984`)**  
 O Governo do Estado do Piauí pretende realizar, no exercício financeiro de 2025, tratativas para adquirir, entre outros, os bens e serviços listados a seguir:  
 
@@ -317,11 +329,11 @@ III. Chamamento público de profissionais interessados na prestação de serviç
 
 No que tange à Lei de Licitações (Lei nº 14.133/2021), os instrumentos jurídicos a serem adotados pela administração pública estadual para a aquisição dos bens e serviços supramencionados (segundo a ordem apresentada) são, respectivamente:
 
-* **A)** concurso, pregão e diálogo competitivo.
-* **B)** pré-qualificação, credenciamento e diálogo competitivo.
-* **C)** diálogo competitivo, sistema de registro de preços e pregão.
-* **D)** credenciamento, diálogo competitivo e sistema de registro de preços.
-* **E)** diálogo competitivo, sistema de registro de preços e credenciamento.
+- **A)** concurso, pregão e diálogo competitivo.
+- **B)** pré-qualificação, credenciamento e diálogo competitivo.
+- **C)** diálogo competitivo, sistema de registro de preços e pregão.
+- **D)** credenciamento, diálogo competitivo e sistema de registro de preços.
+- **E)** diálogo competitivo, sistema de registro de preços e credenciamento.
 
 ---
 
@@ -373,14 +385,15 @@ Critério inovador privativo da celebração de **Contratos de Eficiência**:
 ---
 
 ### Teste 085
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na disciplina dos critérios de julgamento estabelecidos no art. 33 da Lei Federal nº 14.133/2021, o julgamento das propostas dos licitantes pode adotar diferentes parâmetros de vantajabilidade. A respeito desses critérios, assinale a afirmativa correta:
 
-* **A)** O critério de maior desconto aplica-se a serviços comuns, tendo como base o preço global fixado no edital.
-* **B)** O critério de menor preço avalia exclusivamente a menor despesa nominal sem admitir custos de manutenção.
-* **C)** O critério de melhor técnica pode ser utilizado no pregão para seleção de softwares proprietários comuns.
-* **D)** O critério de maior lance destina-se ao diálogo competitivo para celebração de parcerias de grande vulto.
-* **E)** O critério de melhor técnica dispensa a fixação de valor prêmio fixo no instrumento convocatório do certame.
+- **A)** O critério de maior desconto aplica-se a serviços comuns, tendo como base o preço global fixado no edital.
+- **B)** O critério de menor preço avalia exclusivamente a menor despesa nominal sem admitir custos de manutenção.
+- **C)** O critério de melhor técnica pode ser utilizado no pregão para seleção de softwares proprietários comuns.
+- **D)** O critério de maior lance destina-se ao diálogo competitivo para celebração de parcerias de grande vulto.
+- **E)** O critério de melhor técnica dispensa a fixação de valor prêmio fixo no instrumento convocatório do certame.
 
 ---
 
@@ -393,17 +406,19 @@ Na disciplina dos critérios de julgamento estabelecidos no art. 33 da Lei Feder
 > - **E)** **Incorreto**. O critério de melhor técnica (quando em concurso) exige a fixação do prêmio no edital.
 >
 > **Gabarito: A**
+
 ### Teste 086
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinada entidade governamental pretende licitar a modernização do parque de iluminação pública e climatização de prédios estaduais mediante celebração de contrato de eficiência, em que a remuneração do particular contratado será proporcional à economia orçamentária gerada para o erário. 
+Determinada entidade governamental pretende licitar a modernização do parque de iluminação pública e climatização de prédios estaduais mediante celebração de contrato de eficiência, em que a remuneração do particular contratado será proporcional à economia orçamentária gerada para o erário.
 
 Nos termos do art. 39 da Lei nº 14.133/2021, o critério de julgamento adequado para o contrato de eficiência é o de:
 
-* **A)** melhor técnica ou conteúdo artístico.
-* **B)** maior retorno econômico ao erário.
-* **C)** menor preço com desconsideração de custos.
-* **D)** maior desconto sobre taxa de amortização.
-* **E)** técnica e preço com pontuação de marca.
+- **A)** melhor técnica ou conteúdo artístico.
+- **B)** maior retorno econômico ao erário.
+- **C)** menor preço com desconsideração de custos.
+- **D)** maior desconto sobre taxa de amortização.
+- **E)** técnica e preço com pontuação de marca.
 
 ---
 
@@ -416,6 +431,7 @@ Nos termos do art. 39 da Lei nº 14.133/2021, o critério de julgamento adequado
 > - **E)** **Incorreto**. É vedada a preferência ou pontuação de marcas comerciais sem padronização prévia motivada.
 >
 > **Gabarito: B**
+
 ## 4. Modos de Disputa e Prazos Mínimos de Divulgação do Edital
 
 ### 4.1 Modos de Disputa: Aberto, Fechado e Combinações (Art. 56)
@@ -424,8 +440,8 @@ Nos termos do art. 39 da Lei nº 14.133/2021, o critério de julgamento adequado
 - **Modo Fechado:** As propostas permanecem em sigilo absoluto no sistema até a data e hora designadas para a abertura simultânea perante todos.
 - **Modos Combinados:** Aberto-fechado ou fechado-aberto.
 - **Vedações Expressas do Art. 56:**
-    - É proibida a utilização isolada do modo de disputa fechado quando o critério de julgamento for **Menor Preço** ou **Maior Desconto**;
-    - É vedada a utilização do modo aberto quando o critério de julgamento for **Melhor Técnica ou Conteúdo Artístico**.
+  - É proibida a utilização isolada do modo de disputa fechado quando o critério de julgamento for **Menor Preço** ou **Maior Desconto**;
+  - É vedada a utilização do modo aberto quando o critério de julgamento for **Melhor Técnica ou Conteúdo Artístico**.
 
 ### 4.2 Prazos Mínimos de Apresentação de Propostas (Art. 55)
 
@@ -446,6 +462,7 @@ Os prazos mínimos de divulgação do edital contam-se a partir da data de publi
 ---
 
 ### Teste 087
+
 **(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo – Administração – Questão Real RAG ID: `V3_FGV_TCE_SC_2026_Q3127`)**  
 O Município Alfa, no Estado de Santa Catarina, publicou edital de licitação visando à celebração de vultoso contrato administrativo. As sociedades empresárias Beta, Charlie e Delta, interessadas em participar do certame público em consórcio, buscaram maiores informações sobre a temática.  
 
@@ -457,11 +474,11 @@ III. É vedada a estipulação, no edital de licitação, de limite máximo para
 
 Nesse cenário, está correto o que se afirma em:
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** I, II e III.
+- **A)** I, apenas.
+- **B)** II, apenas.
+- **C)** III, apenas.
+- **D)** I e II, apenas.
+- **E)** I, II e III.
 
 ---
 
@@ -488,6 +505,6 @@ Nesse cenário, está correto o que se afirma em:
   Regulamento federal que disciplina a operacionalização eletrônica dos modos de disputa aberto, fechado e combinados.
 - [Compras.gov.br - Instruções Normativas SEGES sobre Modalidades Licitatórias](https://www.gov.br/compras/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas)  
   Acervo oficial de normas operacionais da Nova Lei de Licitações e Contratos Administrativos.
-* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 17 a 70 - Rito Procedimental, Modalidades e Critérios de Julgamento).
-* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 9 - Modalidades Licitatórias, Diálogo Competitivo, Leilão e Procedimento da Lei 14.133/2021).
-* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 5 - Licitação: Fases, Modalidades, Modos de Disputa e Julgamento).
+- JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 17 a 70 - Rito Procedimental, Modalidades e Critérios de Julgamento).
+- DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 9 - Modalidades Licitatórias, Diálogo Competitivo, Leilão e Procedimento da Lei 14.133/2021).
+- CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 5 - Licitação: Fases, Modalidades, Modos de Disputa e Julgamento).

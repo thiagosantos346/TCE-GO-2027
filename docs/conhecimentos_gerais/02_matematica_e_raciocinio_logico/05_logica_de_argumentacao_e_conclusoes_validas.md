@@ -5,12 +5,10 @@
 > **Arquivo:** `05_logica_de_argumentacao_e_conclusoes_validas.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas.
 - Proposições lógicas, conectivos e tabelas-verdade.
 - Equivalências e negações lógicas.
@@ -21,36 +19,36 @@
 
 ## 🧭 Sumário
 
-1. [Proposições Lógicas, Princípios e Conectivos Fundamentais](#1-proposicoes-logicas-principios-e-conectivos-fundamentais)
-    - [1.1 Definição de Proposição e Sentenças Não Proposicionais](#11-definicao-de-proposicao-e-sentencas-nao-proposicionais)
-    - [1.2 Os Três Princípios Fundamentais da Lógica Clássica](#12-os-tres-principios-fundamentais-da-logica-classica)
-    - [1.3 Conectivos Lógicos e Regras da Tabela-Verdade](#13-conectivos-logicos-e-regras-da-tabela-verdade)
-    - [1.4 A Condicional: Peculiaridades e o Caso Falso Único](#14-a-condicional-peculiaridades-e-o-caso-falso-unico)
-    - [Teste 112](#teste-112)
-    - [Teste 113](#teste-113)
-2. [Álgebra Proposicional: Negações e Equivalências Clássicas](#2-algebra-proposicional-negacoes-e-equivalencias-classicas)
-    - [2.1 Leis de De Morgan para Conjunção e Disjunção](#21-leis-de-de-morgan-para-conjuncao-e-disjuncao)
-    - [2.2 Negação da Condicional e a Regra do MANÉ](#22-negacao-da-condicional-e-a-regra-do-mane)
-    - [2.3 Equivalências Notáveis da Condicional: Contrapositiva e Disjuntiva (NEYA)](#23-equivalencias-notaveis-da-condicional-contrapositiva-e-disjuntiva-neya)
-    - [2.4 Tautologias, Contradições e Contingências](#24-tautologias-contradicoes-e-contingencias)
-    - [Teste 114](#teste-114)
-    - [Teste 115](#teste-115)
-    - [Teste 116](#teste-116)
-3. [Validade de Argumentos Dedutivos e Regras de Inferência](#3-validade-de-argumentos-dedutivos-e-regras-de-inferencia)
-    - [3.1 Estrutura do Argumento: Premissas e Conclusão](#31-estrutura-do-argumento-premissas-e-conclusao)
-    - [3.2 Conceito Formal de Validade vs. Verdade Empírica](#32-conceito-formal-de-validade-vs-verdade-empirica)
-    - [3.3 Principais Regras de Inferência Válidas](#33-principais-regras-de-inferencia-validas)
-    - [3.4 O Método do Encadeamento de Premissas Verdadeiras](#34-o-metodo-do-encadeamento-de-premissas-verdadeiras)
-    - [Teste 117](#teste-117)
-    - [Teste 118](#teste-118)
-4. [Lógica de Primeira Ordem: Quantificadores e Silogismos Categóricos](#4-logica-de-primeira-ordem-quantificadores-e-silogismos-categoricos)
-    - [4.1 Quantificadores Universais e Existenciais: Todo, Nenhum e Algum](#41-quantificadores-universais-e-existenciais-todo-nenhum-e-algum)
-    - [4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO](#42-negacao-de-proposicoes-categoricas-e-a-mnemonica-pea-nao)
-    - [4.3 Análise de Silogismos via Diagramas de Euler-Venn](#43-analise-de-silogismos-via-diagramas-de-euler-venn)
-    - [Teste 119](#teste-119)
-    - [Teste 120](#teste-120)
-    - [Teste 121](#teste-121)
-1. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+1. [Proposições Lógicas, Princípios e Conectivos Fundamentais](#1-proposições-lógicas-princípios-e-conectivos-fundamentais)
+    1. [Definição de Proposição e Sentenças Não Proposicionais](#11-definição-de-proposição-e-sentenças-não-proposicionais)
+    1. [Os Três Princípios Fundamentais da Lógica Clássica](#12-os-três-princípios-fundamentais-da-lógica-clássica)
+    1. [Conectivos Lógicos e Regras da Tabela-Verdade](#13-conectivos-lógicos-e-regras-da-tabela-verdade)
+    1. [A Condicional: Peculiaridades e o Caso Falso Único](#14-a-condicional-peculiaridades-e-o-caso-falso-único)
+    1. [Teste 112](#teste-112)
+    1. [Teste 113](#teste-113)
+2. [Álgebra Proposicional: Negações e Equivalências Clássicas](#2-álgebra-proposicional-negações-e-equivalências-clássicas)
+    1. [Leis de De Morgan para Conjunção e Disjunção](#21-leis-de-de-morgan-para-conjunção-e-disjunção)
+    1. [Negação da Condicional e a Regra do MANÉ](#22-negação-da-condicional-e-a-regra-do-mané)
+    1. [Equivalências Notáveis da Condicional: Contrapositiva e Disjuntiva (NEYA)](#23-equivalências-notáveis-da-condicional-contrapositiva-e-disjuntiva-neya)
+    1. [Tautologias, Contradições e Contingências](#24-tautologias-contradições-e-contingências)
+    1. [Teste 114](#teste-114)
+    1. [Teste 115](#teste-115)
+    1. [Teste 116](#teste-116)
+3. [Validade de Argumentos Dedutivos e Regras de Inferência](#3-validade-de-argumentos-dedutivos-e-regras-de-inferência)
+    1. [Estrutura do Argumento: Premissas e Conclusão](#31-estrutura-do-argumento-premissas-e-conclusão)
+    1. [Conceito Formal de Validade vs. Verdade Empírica](#32-conceito-formal-de-validade-vs-verdade-empírica)
+    1. [Principais Regras de Inferência Válidas](#33-principais-regras-de-inferência-válidas)
+    1. [O Método do Encadeamento de Premissas Verdadeiras](#34-o-método-do-encadeamento-de-premissas-verdadeiras)
+    1. [Teste 117](#teste-117)
+    1. [Teste 118](#teste-118)
+4. [Lógica de Primeira Ordem: Quantificadores e Silogismos Categóricos](#4-lógica-de-primeira-ordem-quantificadores-e-silogismos-categóricos)
+    1. [Quantificadores Universais e Existenciais: Todo, Nenhum e Algum](#41-quantificadores-universais-e-existenciais-todo-nenhum-e-algum)
+    1. [Negação de Proposições Categóricas e a Mnemônica PEA + NÃO](#42-negação-de-proposições-categóricas-e-a-mnemônica-pea--não)
+    1. [Análise de Silogismos via Diagramas de Euler-Venn](#43-análise-de-silogismos-via-diagramas-de-euler-venn)
+    1. [Teste 119](#teste-119)
+    1. [Teste 120](#teste-120)
+    1. [Teste 121](#teste-121)
+5. [Fontes Oficiais e Referências Bibliográficas](#-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -60,14 +58,14 @@ A lógica proposicional (ou lógica sentencial) é o ramo da lógica matemática
 
 ### 1.1 Definição de Proposição e Sentenças Não Proposicionais
 
-* **Proposição Lógica:** Toda oração declarativa com sujeito e predicado expressos que veicula um pensamento completo e à qual se pode atribuir, de forma unívoca, um único valor lógico: **Verdadeiro ($V$)** ou **Falso ($F$)**.
-    * Exemplos: *"O TCE-GO fiscaliza as contas municipais"*; *"Goiânia é a capital do Estado de Goiás"*.
-* **Sentenças Não Proposicionais (que NÃO são proposições lógicas perante concursos):**
-    * Sentenças interrogativas: *"Quem relatou o processo?"*;
-    * Sentenças exclamativas: *"Excelente trabalho de auditoria!"*;
-    * Sentenças imperativas: *"Instrua os autos imediatamente"*;
-    * Sentenças optativas (exprimem desejo): *"Deus o abençoe"*;
-    * Sentenças abertas (paradoxo ou incógnita indefinida): *"Ele é auditor fiscal"* (falta definir quem é "ele"); *"$x + 5 = 12$"* (sem o valor de $x$, não é V nem F).
+- **Proposição Lógica:** Toda oração declarativa com sujeito e predicado expressos que veicula um pensamento completo e à qual se pode atribuir, de forma unívoca, um único valor lógico: **Verdadeiro ($V$)** ou **Falso ($F$)**.
+  - Exemplos: *"O TCE-GO fiscaliza as contas municipais"*; *"Goiânia é a capital do Estado de Goiás"*.
+- **Sentenças Não Proposicionais (que NÃO são proposições lógicas perante concursos):**
+  - Sentenças interrogativas: *"Quem relatou o processo?"*;
+  - Sentenças exclamativas: *"Excelente trabalho de auditoria!"*;
+  - Sentenças imperativas: *"Instrua os autos imediatamente"*;
+  - Sentenças optativas (exprimem desejo): *"Deus o abençoe"*;
+  - Sentenças abertas (paradoxo ou incógnita indefinida): *"Ele é auditor fiscal"* (falta definir quem é "ele"); *"$x + 5 = 12$"* (sem o valor de $x$, não é V nem F).
 
 ### 1.2 Os Três Princípios Fundamentais da Lógica Clássica
 
@@ -106,14 +104,15 @@ flowchart TD
 
 A condicional $p \rightarrow q$ é a estrutura que mais induz candidatos a erro. Na condicional:
 
-* O termo $p$ é o **antecedente** (ou condição suficiente);
-* O termo $q$ é o **consequente** (ou condição necessária).
-* **A Regra do Falso Único:** A condicional só é avaliada como Falsa se ocorrer a combinação $V \rightarrow F$ (o famoso mnemônico *Vera Fischer é Falsa*).
-* Em qualquer outro caso ($V \rightarrow V$, $F \rightarrow V$, $F \rightarrow F$), **a condicional é necessariamente VERDADEIRA**. Note que, se a primeira parte for falsa, a condicional já é automaticamente verdadeira, independentemente do que venha depois.
+- O termo $p$ é o **antecedente** (ou condição suficiente);
+- O termo $q$ é o **consequente** (ou condição necessária).
+- **A Regra do Falso Único:** A condicional só é avaliada como Falsa se ocorrer a combinação $V \rightarrow F$ (o famoso mnemônico *Vera Fischer é Falsa*).
+- Em qualquer outro caso ($V \rightarrow V$, $F \rightarrow V$, $F \rightarrow F$), **a condicional é necessariamente VERDADEIRA**. Note que, se a primeira parte for falsa, a condicional já é automaticamente verdadeira, independentemente do que venha depois.
 
 ---
 
 ### Teste 112
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as seguintes frases:  
 
@@ -124,12 +123,11 @@ IV. *"Ele é um excelente auditor governamental."*
 
 De acordo com os princípios da lógica clássica proposicional, classifica-se como proposição lógica estrita APENAS a frase indicada em:
 
-* **A)** I.
-* **B)** I e IV.
-* **C)** II e III.
-* **D)** I e III.
-* **E)** II e IV.
-
+- **A)** I.
+- **B)** I e IV.
+- **C)** II e III.
+- **D)** I e III.
+- **E)** II e IV.
 
 ---
 
@@ -148,17 +146,17 @@ De acordo com os princípios da lógica clássica proposicional, classifica-se c
 ---
 
 ### Teste 113
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A negação lógica da proposição composta:  
 *"Se o auditor encontra irregularidades nas contas, então o gestor público é multado e a prestação de contas é reprovada"*  
 é formulada corretamente por:
 
-* **A)** O auditor encontra irregularidades nas contas, mas o gestor público não é multado ou a prestação de contas não é reprovada.
-* **B)** Se o auditor não encontra irregularidades nas contas, então o gestor público não é multado ou a prestação de contas não é reprovada.
-* **C)** O auditor não encontra irregularidades nas contas e o gestor público não é multado e a prestação de contas não é reprovada.
-* **D)** Se o gestor público não é multado e a prestação de contas não é reprovada, então o auditor não encontrou irregularidades.
-* **E)** O auditor encontra irregularidades nas contas e o gestor público não é multado e a prestação de contas é reprovada.
-
+- **A)** O auditor encontra irregularidades nas contas, mas o gestor público não é multado ou a prestação de contas não é reprovada.
+- **B)** Se o auditor não encontra irregularidades nas contas, então o gestor público não é multado ou a prestação de contas não é reprovada.
+- **C)** O auditor não encontra irregularidades nas contas e o gestor público não é multado e a prestação de contas não é reprovada.
+- **D)** Se o gestor público não é multado e a prestação de contas não é reprovada, então o auditor não encontrou irregularidades.
+- **E)** O auditor encontra irregularidades nas contas e o gestor público não é multado e a prestação de contas é reprovada.
 
 ---
 
@@ -206,8 +204,8 @@ $$\neg(p \rightarrow q) \equiv p \land \neg q$$
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** A negação de uma proposição do tipo *"Se p, então q"* **JAMAIS começa com a palavra 'Se'**! Se a questão solicitar a negação de uma condicional e alguma alternativa vier iniciada por *"Se..."*, elimine-a imediatamente. A negação lógica da condicional é sempre uma conjunção com o conectivo **"E"**!
 >
-> * Proposição: *"Se o auditor fiscaliza, a irregularidade diminui."*
-> * Negação estrita: *"O auditor fiscaliza **E** a irregularidade **não** diminui."*
+> - Proposição: *"Se o auditor fiscaliza, a irregularidade diminui."*
+> - Negação estrita: *"O auditor fiscaliza **E** a irregularidade **não** diminui."*
 
 ### 2.3 Equivalências Notáveis da Condicional: Contrapositiva e Disjuntiva (NEYA)
 
@@ -222,13 +220,14 @@ A FCC explora intensamente duas formas canônicas de reescrever a condicional $p
 
 ### 2.4 Tautologias, Contradições e Contingências
 
-* **Tautologia:** Proposição composta que é invariavelmente verdadeira em todas as linhas da sua tabela-verdade, independentemente dos valores lógicos das proposições simples (ex.: $p \lor \neg p$, princípio do terceiro excluído).
-* **Contradição:** Proposição composta que é invariavelmente falsa em todas as linhas da sua tabela-verdade (ex.: $p \land \neg p$).
-* **Contingência:** Proposição composta cuja tabela-verdade apresenta pelo menos um valor verdadeiro e pelo menos um valor falso.
+- **Tautologia:** Proposição composta que é invariavelmente verdadeira em todas as linhas da sua tabela-verdade, independentemente dos valores lógicos das proposições simples (ex.: $p \lor \neg p$, princípio do terceiro excluído).
+- **Contradição:** Proposição composta que é invariavelmente falsa em todas as linhas da sua tabela-verdade (ex.: $p \land \neg p$).
+- **Contingência:** Proposição composta cuja tabela-verdade apresenta pelo menos um valor verdadeiro e pelo menos um valor falso.
 
 ---
 
 ### Teste 114
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a seguinte afirmação feita por um auditor durante a sessão do Tribunal de Contas:
 
@@ -236,12 +235,11 @@ Considere a seguinte afirmação feita por um auditor durante a sessão do Tribu
 
 A negação lógica dessa afirmação é expressa por:
 
-* **A)** Se a prestação de contas não foi apresentada tempestivamente, então a documentação não é idônea ou o parecer técnico não é favorável.
-* **B)** A prestação de contas foi apresentada tempestivamente, e a documentação comprobatória não é idônea ou o parecer técnico não é favorável.
-* **C)** A prestação de contas não foi apresentada tempestivamente, ou a documentação comprobatória é idônea e o parecer técnico é favorável.
-* **D)** Se a documentação comprobatória não é idônea ou o parecer técnico não é favorável, então a prestação de contas não foi apresentada tempestivamente.
-* **E)** A prestação de contas foi apresentada tempestivamente, e a documentação comprobatória não é idônea e o parecer técnico não é favorável.
-
+- **A)** Se a prestação de contas não foi apresentada tempestivamente, então a documentação não é idônea ou o parecer técnico não é favorável.
+- **B)** A prestação de contas foi apresentada tempestivamente, e a documentação comprobatória não é idônea ou o parecer técnico não é favorável.
+- **C)** A prestação de contas não foi apresentada tempestivamente, ou a documentação comprobatória é idônea e o parecer técnico é favorável.
+- **D)** Se a documentação comprobatória não é idônea ou o parecer técnico não é favorável, então a prestação de contas não foi apresentada tempestivamente.
+- **E)** A prestação de contas foi apresentada tempestivamente, e a documentação comprobatória não é idônea e o parecer técnico não é favorável.
 
 ---
 
@@ -269,23 +267,23 @@ A negação lógica dessa afirmação é expressa por:
 > - **C)** Incorreta. Expressa a equivalência disjuntiva da condicional ($\neg p \lor (q \land r)$), e não a sua negação.
 > - **D)** Incorreta. Expressa a contrapositiva da condicional original, consubstanciando equivalência lógica e não negação.
 > - **E)** Incorreta. Erra ao manter o conectivo "e" na segunda parte, descumprindo a Lei de De Morgan.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 115
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Do ponto de vista da lógica formal, a proposição:  
 *"Se o servidor público observa o princípio da moralidade, então sua conduta administrativa é inatacável"*  
 é logicamente equivalente a:
 
-* **A)** Se a conduta administrativa do servidor público é inatacável, então ele observa o princípio da moralidade.
-* **B)** Se o servidor público não observa o princípio da moralidade, então sua conduta administrativa não é inatacável.
-* **C)** O servidor público não observa o princípio da moralidade ou sua conduta administrativa é inatacável.
-* **D)** O servidor público observa o princípio da moralidade e sua conduta administrativa não é inatacável.
-* **E)** Se a conduta administrativa do servidor não for inatacável, então ele observa o princípio da moralidade.
-
+- **A)** Se a conduta administrativa do servidor público é inatacável, então ele observa o princípio da moralidade.
+- **B)** Se o servidor público não observa o princípio da moralidade, então sua conduta administrativa não é inatacável.
+- **C)** O servidor público não observa o princípio da moralidade ou sua conduta administrativa é inatacável.
+- **D)** O servidor público observa o princípio da moralidade e sua conduta administrativa não é inatacável.
+- **E)** Se a conduta administrativa do servidor não for inatacável, então ele observa o princípio da moralidade.
 
 ---
 
@@ -309,35 +307,37 @@ Do ponto de vista da lógica formal, a proposição:
 > - **C)** Correta. Aplicação perfeita da equivalência disjuntiva NEYA: $\neg p \lor q$.
 > - **D)** Incorreta. Esta é a negação da condicional ($p \land \neg q$), e não sua equivalência.
 > - **E)** Incorreta. Nega o consequente sem negar o antecedente na condicional invertida ($\neg q \rightarrow p$).
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 116
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Dadas duas proposições simples $p$ e $q$, a proposição composta:  
 $$[(p \rightarrow q) \land p] \rightarrow q$$  
 classifica-se logicamente como uma:
 
-* **A)** Contingência, pois seu valor lógico depende dos valores atribuídos a $p$ e $q$ em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Contradição, pois seu valor lógico é sempre falso em qualquer circunstância.
-* **C)** Tautologia, pois assume invariavelmente o valor verdadeiro para todas as combinações de valores lógicos de suas proposições componentes.
-* **D)** Falácia da afirmação do consequente.
-* **E)** Equivalência lógica bidirecional contingente.
-
+- **A)** Contingência, pois seu valor lógico depende dos valores atribuídos a $p$ e $q$ em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **B)** Contradição, pois seu valor lógico é sempre falso em qualquer circunstância.
+- **C)** Tautologia, pois assume invariavelmente o valor verdadeiro para todas as combinações de valores lógicos de suas proposições componentes.
+- **D)** Falácia da afirmação do consequente.
+- **E)** Equivalência lógica bidirecional contingente.
 
 ---
 
 > **Comentário Detalhado:**
 >
 > - **Construção da Tabela-Verdade:**  
+>
 >   | $p$ | $q$ | $p \rightarrow q$ | $(p \rightarrow q) \land p$ | $[(p \rightarrow q) \land p] \rightarrow q$ |
 >   | :---: | :---: | :---: | :---: | :---: |
 >   | V | V | V | V | **V** |
 >   | V | F | F | F | **V** |
 >   | F | V | V | F | **V** |
 >   | F | F | V | F | **V** |
+>
 > - **Análise do Resultado:** A última coluna apresenta valor **Verdadeiro (V)** em todas as quatro linhas possíveis da tabela-verdade.  
 > - Uma proposição composta cuja tabela-verdade resulta exclusivamente em valores verdadeiros é definida como **Tautologia** (trata-se da expressão formal da célebre regra de inferência válida do *Modus Ponens*).  
 > - **Conclusão:** É uma Tautologia (Alternativa C).
@@ -354,15 +354,15 @@ A argumentação lógica investiga se uma determinada conclusão decorre com nec
 
 Um argumento dedutivo é um conjunto ordenado de proposições estruturado em:
 
-* **Premissas ($P_1, P_2, \dots, P_n$):** Proposições que servem de ponto de partida, evidência ou suporte fático.
-* **Conclusão ($C$):** Proposição final deduzida que decorre das premissas.
+- **Premissas ($P_1, P_2, \dots, P_n$):** Proposições que servem de ponto de partida, evidência ou suporte fático.
+- **Conclusão ($C$):** Proposição final deduzida que decorre das premissas.
 Representa-se simbolicamente por: $P_1, P_2, \dots, P_n \vdash C$.
 
 ### 3.2 Conceito Formal de Validade vs. Verdade Empírica
 
-* A **validade** é uma propriedade formal e estrutural do argumento; não se confunde com a verdade material dos fatos no mundo físico.
-* Um argumento dedutivo é declarado **VÁLIDO** quando é logicamente impossível que todas as suas premissas sejam simultaneamente verdadeiras e a sua conclusão seja falsa.
-* Se for possível construir um cenário consistente em que todas as premissas sejam verdadeiras e a conclusão seja falsa, o argumento é categorizado como **INVÁLIDO (Falácia ou Sofisma)**.
+- A **validade** é uma propriedade formal e estrutural do argumento; não se confunde com a verdade material dos fatos no mundo físico.
+- Um argumento dedutivo é declarado **VÁLIDO** quando é logicamente impossível que todas as suas premissas sejam simultaneamente verdadeiras e a sua conclusão seja falsa.
+- Se for possível construir um cenário consistente em que todas as premissas sejam verdadeiras e a conclusão seja falsa, o argumento é categorizado como **INVÁLIDO (Falácia ou Sofisma)**.
 
 ### 3.3 Principais Regras de Inferência Válidas
 
@@ -387,6 +387,7 @@ O método prático para resolver questões com múltiplas premissas condicionais
 ---
 
 ### Teste 117
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere verdadeiras as seguintes quatro premissas a respeito das rotinas de controle do Tribunal:
 
@@ -400,12 +401,11 @@ IV. A empresa contratada não apresentou defesa prévia.
 
 A partir dessas premissas, é correto concluir de forma necessariamente válida que:
 
-* **A)** A auditoria emitiu notificação prévia e o contrato possui cláusula abusiva.
-* **B)** O ordenador de despesas suspendeu o pagamento, mas o contrato não possui cláusula abusiva em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** O contrato administrativo não possui cláusula de reajuste abusiva e a auditoria não emitiu notificação prévia.
-* **D)** A empresa contratada apresentou recurso extemporâneo ao plenário.
-* **E)** Se o contrato não possui cláusula abusiva, então o ordenador suspendeu o pagamento.
-
+- **A)** A auditoria emitiu notificação prévia e o contrato possui cláusula abusiva.
+- **B)** O ordenador de despesas suspendeu o pagamento, mas o contrato não possui cláusula abusiva em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **C)** O contrato administrativo não possui cláusula de reajuste abusiva e a auditoria não emitiu notificação prévia.
+- **D)** A empresa contratada apresentou recurso extemporâneo ao plenário.
+- **E)** Se o contrato não possui cláusula abusiva, então o ordenador suspendeu o pagamento.
 
 ---
 
@@ -436,26 +436,27 @@ A partir dessas premissas, é correto concluir de forma necessariamente válida 
 > - **C)** Correta. Enuncia exatamente as deduções irrefutáveis obtidas pelo encadeamento dedutivo das premissas.
 > - **D)** Incorreta. Informação estranha sem amparo no universo das premissas.
 > - **E)** Incorreta. Contradiz o fato provado de que o ordenador não suspendeu o pagamento.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 118
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere verdadeiras as seguintes premissas:  
+
 1. *Se o certame é homologado, então os concursados são nomeados.*  
 2. *Se os concursados são nomeados, então novas vagas no plenário são preenchidas.*  
 3. *Novas vagas no plenário não foram preenchidas.*  
 
 A partir dessas premissas, deduz-se corretamente que:
 
-* **A)** O certame foi homologado e os concursados foram nomeados.
-* **B)** Os concursados foram nomeados, mas o certame não foi homologado.
-* **C)** O certame não foi homologado e os concursados não foram nomeados.
-* **D)** O certame foi homologado, mas novas vagas não foram preenchidas.
-* **E)** Nenhuma conclusão válida pode ser extraída a partir dessas premissas.
-
+- **A)** O certame foi homologado e os concursados foram nomeados.
+- **B)** Os concursados foram nomeados, mas o certame não foi homologado.
+- **C)** O certame não foi homologado e os concursados não foram nomeados.
+- **D)** O certame foi homologado, mas novas vagas não foram preenchidas.
+- **E)** Nenhuma conclusão válida pode ser extraída a partir dessas premissas.
 
 ---
 
@@ -487,27 +488,27 @@ flowchart LR
 
 ### 4.1 Quantificadores Universais e Existenciais: Todo, Nenhum e Algum
 
-* **Universal Afirmativo ("TODO A é B"):** Todo elemento de A pertence a B ($A \subset B$). O conjunto A está totalmente contido no conjunto B.
-* **Universal Negativo ("NENHUM A é B"):** Nenhum elemento de A pertence a B ($A \cap B = \emptyset$). Os conjuntos A e B são mutuamente disjuntos.
-* **Particular / Existencial Afirmativo ("ALGUM A é B"):** Existe pelo menos um elemento pertencente a A que também pertence a B ($A \cap B \neq \emptyset$).
-* **Particular Negativo ("ALGUM A NÃO é B"):** Existe pelo menos um elemento de A que não pertence ao conjunto B.
+- **Universal Afirmativo ("TODO A é B"):** Todo elemento de A pertence a B ($A \subset B$). O conjunto A está totalmente contido no conjunto B.
+- **Universal Negativo ("NENHUM A é B"):** Nenhum elemento de A pertence a B ($A \cap B = \emptyset$). Os conjuntos A e B são mutuamente disjuntos.
+- **Particular / Existencial Afirmativo ("ALGUM A é B"):** Existe pelo menos um elemento pertencente a A que também pertence a B ($A \cap B \neq \emptyset$).
+- **Particular Negativo ("ALGUM A NÃO é B"):** Existe pelo menos um elemento de A que não pertence ao conjunto B.
 
 ### 4.2 Negação de Proposições Categóricas e a Mnemônica PEA + NÃO
 
 Para negar uma proposição quantificada, deve-se alternar o tipo de quantificador (universal vira existencial, e existencial vira universal):
 
 1. **Negação de "TODO A é B":**
-    * Não é "Nenhum A é B"! Para quebrar uma afirmação universal afirmativa, basta encontrar **ao menos um contraexemplo**.
-    * Aplica-se a regra mnemônica **PEA + NÃO**:
-    * **P**elo menos um A não é B;
-    * **E**xiste A que não é B;
-    * **A**lgum A não é B.
+    - Não é "Nenhum A é B"! Para quebrar uma afirmação universal afirmativa, basta encontrar **ao menos um contraexemplo**.
+    - Aplica-se a regra mnemônica **PEA + NÃO**:
+    - **P**elo menos um A não é B;
+    - **E**xiste A que não é B;
+    - **A**lgum A não é B.
 
 2. **Negação de "NENHUM A é B":**
-    * Basta provar que existe pelo menos um elemento na interseção: *"Algum A é B"* (ou *"Pelo menos um A é B"*).
+    - Basta provar que existe pelo menos um elemento na interseção: *"Algum A é B"* (ou *"Pelo menos um A é B"*).
 
 3. **Negação de "ALGUM A é B":**
-    * Nega-se pelo quantificador universal negativo: *"Nenhum A é B"*.
+    - Nega-se pelo quantificador universal negativo: *"Nenhum A é B"*.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA DO "TODO" VS. "NENHUM":** A alternativa mais tentadora e incorreta em provas da FCC para negar *"Todos os servidores são concursados"* é *"Nenhum servidor é concursado"*. Lembre-se: "Todo" e "Nenhum" são proposições contrárias (podem ser ambas falsas ao mesmo tempo se houver 99 concursados e 1 comissionado), mas **não são contraditórias**. A negação legítima é: *"Pelo menos um servidor não é concursado"*.
 
@@ -515,23 +516,23 @@ Para negar uma proposição quantificada, deve-se alternar o tipo de quantificad
 
 Para avaliar a validade de silogismos com premissas como *"Todo A é E"* e *"Algum E é P"*:
 
-* Desenhe os círculos de conjuntos de Euler-Venn;
-* O círculo $A$ está totalmente dentro de $E$;
-* O círculo $P$ cruza com $E$, mas **não se pode garantir que encoste em $A$**. Ele pode estar numa região de $E$ totalmente afastada de $A$;
-* Portanto, deduzir que *"Algum A é P"* ou *"Nenhum A é P"* constitui falácia de conclusão contingente. O que é logicamente correto afirmar é que a interseção pode ocorrer, mas **não é uma conclusão necessária**.
+- Desenhe os círculos de conjuntos de Euler-Venn;
+- O círculo $A$ está totalmente dentro de $E$;
+- O círculo $P$ cruza com $E$, mas **não se pode garantir que encoste em $A$**. Ele pode estar numa região de $E$ totalmente afastada de $A$;
+- Portanto, deduzir que *"Algum A é P"* ou *"Nenhum A é P"* constitui falácia de conclusão contingente. O que é logicamente correto afirmar é que a interseção pode ocorrer, mas **não é uma conclusão necessária**.
 
 ---
 
 ### Teste 119
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A afirmação *"Todos os relatórios elaborados pela comissão técnica continham recomendações aos municípios"* tem como **negação lógica** a proposição:
 
-* **A)** Nenhum relatório elaborado pela comissão técnica continha recomendações aos municípios.
-* **B)** Todos os relatórios elaborados pela comissão técnica não continham recomendações aos municípios em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** Pelo menos um relatório elaborado pela comissão técnica não continha recomendações aos municípios.
-* **D)** Alguns relatórios elaborados pela comissão técnica continham recomendações aos municípios.
-* **E)** A maioria dos relatórios continha recomendações aos municípios.
-
+- **A)** Nenhum relatório elaborado pela comissão técnica continha recomendações aos municípios.
+- **B)** Todos os relatórios elaborados pela comissão técnica não continham recomendações aos municípios em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **C)** Pelo menos um relatório elaborado pela comissão técnica não continha recomendações aos municípios.
+- **D)** Alguns relatórios elaborados pela comissão técnica continham recomendações aos municípios.
+- **E)** A maioria dos relatórios continha recomendações aos municípios.
 
 ---
 
@@ -555,12 +556,13 @@ A afirmação *"Todos os relatórios elaborados pela comissão técnica continha
 > - **C)** Correta. Traduz com perfeição lógica formal a negação existencial do quantificador universal afirmativo.
 > - **D)** Incorreta. Trata-se de proposição subalterna que seria verdadeira junto com o "Todo".
 > - **E)** Incorreta. Imprecisão quantitativa sem valor de negação lógica.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 120
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere como verdadeiras as seguintes duas premissas a respeito dos membros de um tribunal:
 
@@ -569,12 +571,11 @@ Premissa 2: *"Alguns especialistas em finanças públicas são professores unive
 
 A partir dessas premissas, é **necessariamente** correto concluir que:
 
-* **A)** Todos os professores universitários são auditores de controle externo.
-* **B)** Alguns auditores de controle externo são professores universitários.
-* **C)** Nenhum auditor de controle externo é professor universitário.
-* **D)** Pelo menos um auditor de controle externo não é especialista em finanças públicas em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** Pode haver auditor de controle externo que seja professor universitário, mas não é uma conclusão necessária.
-
+- **A)** Todos os professores universitários são auditores de controle externo.
+- **B)** Alguns auditores de controle externo são professores universitários.
+- **C)** Nenhum auditor de controle externo é professor universitário.
+- **D)** Pelo menos um auditor de controle externo não é especialista em finanças públicas em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **E)** Pode haver auditor de controle externo que seja professor universitário, mas não é uma conclusão necessária.
 
 ---
 
@@ -595,25 +596,26 @@ A partir dessas premissas, é **necessariamente** correto concluir que:
 > - **C)** Incorreta. Não se pode garantir que não haja interseção.
 > - **D)** Incorreta. Contradiz diretamente a Premissa 1.
 > - **E)** Correta. Demonstra o rigor da lógica aristotélica formal: a relação é factível, mas não se impõe como conclusão necessária.
-> 
+>
 > **Gabarito: E**
 
 ---
 
 ### Teste 121
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere que as seguintes premissas são verdadeiras:  
+
 1. *Todos os auditores de controle externo são servidores dedicados.*  
 2. *Alguns servidores dedicados são especialistas em tecnologia da informação.*  
 
 Com base estritamente nessas duas premissas, é necessariamente correto concluir que:
 
-* **A)** Todos os auditores de controle externo são especialistas em tecnologia da informação em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Nenhum auditor de controle externo é especialista em tecnologia da informação.
-* **C)** Pelo menos um auditor de controle externo é especialista em tecnologia da informação.
-* **D)** É possível que nenhum auditor de controle externo seja especialista em tecnologia da informação.
-* **E)** Todos os especialistas em tecnologia da informação são auditores de controle externo.
-
+- **A)** Todos os auditores de controle externo são especialistas em tecnologia da informação em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **B)** Nenhum auditor de controle externo é especialista em tecnologia da informação.
+- **C)** Pelo menos um auditor de controle externo é especialista em tecnologia da informação.
+- **D)** É possível que nenhum auditor de controle externo seja especialista em tecnologia da informação.
+- **E)** Todos os especialistas em tecnologia da informação são auditores de controle externo.
 
 ---
 
@@ -635,10 +637,10 @@ Com base estritamente nessas duas premissas, é necessariamente correto concluir
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Portal da Matemática OBMEP / IMPA - Módulo de Noções de Lógica e Argumentação](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=1059) - Validade de argumentos, silogismos, quantificadores (todo, algum, nenhum) e diagramas lógicos.
-* [OBMEP / IMPA - Apostila 2 do PIC: Métodos de Contagem e Lógica Formal](https://www.obmep.org.br/docs/apostila2.pdf) - Diagramas de Euler-Venn, diagramação de conjuntos e análise dedutiva formal.
-* [Khan Academy Brasil - Álgebra: Raciocínio Lógico e Argumentação Dedutiva](https://pt.khanacademy.org/math/algebra) - Construção de demonstrações, equivalências lógicas fundamentais e leis de De Morgan.
-* [Khan Academy Brasil - Pré-Álgebra: Conjuntos e Diagramas de Venn](https://pt.khanacademy.org/math/pre-algebra) - Operações de união, interseção e inclusão aplicadas a silogismos categóricos.
-* ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 8 e 9 - Argumentação Lógica, Regras de Inferência e Silogismos).
-* COPI, Irving M. **Introdução à Lógica**. 2. ed. São Paulo: Mestre Jou, 1978. (Cap. 6 e 7 - Silogismos Categóricos e Diagramas de Venn).
-* MORTARI, Cezar A. **Introdução à Lógica**. 2. ed. São Paulo: Editora Unesp, 2016. (Cap. 9 - Teoria da Argumentação e Validade Dedutiva).
+- [Portal da Matemática OBMEP / IMPA - Módulo de Noções de Lógica e Argumentação](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=1059) - Validade de argumentos, silogismos, quantificadores (todo, algum, nenhum) e diagramas lógicos.
+- [OBMEP / IMPA - Apostila 2 do PIC: Métodos de Contagem e Lógica Formal](https://www.obmep.org.br/docs/apostila2.pdf) - Diagramas de Euler-Venn, diagramação de conjuntos e análise dedutiva formal.
+- [Khan Academy Brasil - Álgebra: Raciocínio Lógico e Argumentação Dedutiva](https://pt.khanacademy.org/math/algebra) - Construção de demonstrações, equivalências lógicas fundamentais e leis de De Morgan.
+- [Khan Academy Brasil - Pré-Álgebra: Conjuntos e Diagramas de Venn](https://pt.khanacademy.org/math/pre-algebra) - Operações de união, interseção e inclusão aplicadas a silogismos categóricos.
+- ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 8 e 9 - Argumentação Lógica, Regras de Inferência e Silogismos).
+- COPI, Irving M. **Introdução à Lógica**. 2. ed. São Paulo: Mestre Jou, 1978. (Cap. 6 e 7 - Silogismos Categóricos e Diagramas de Venn).
+- MORTARI, Cezar A. **Introdução à Lógica**. 2. ed. São Paulo: Editora Unesp, 2016. (Cap. 9 - Teoria da Argumentação e Validade Dedutiva).

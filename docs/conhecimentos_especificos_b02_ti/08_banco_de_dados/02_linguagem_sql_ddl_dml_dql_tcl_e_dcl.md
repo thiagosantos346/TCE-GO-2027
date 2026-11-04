@@ -4,12 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `02_linguagem_sql_ddl_dml_dql_tcl_e_dcl.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Linguagem SQL (ANSI e extensões procedurais)
 - Subconjuntos da SQL: DDL, DML, DQL, DCL e TCL
 - Consultas avançadas: Junções (Joins), Agrupamentos, Subconsultas, CTEs e Funções de Janela
@@ -20,38 +18,38 @@
 ## 🧭 Sumário
 
 1. [Subconjuntos da Linguagem SQL](#1-subconjuntos-da-linguagem-sql)
-    - [1.1 Classificação ANSI: DDL, DML, DQL, DCL e TCL](#11-classificacao-ansi-ddl-dml-dql-dcl-e-tcl)
-    - [1.2 O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE](#12-o-duelo-classico-drop-vs-truncate-vs-delete)
-    - [1.3 Restrições de Integridade (Constraints) e Ações de Chave Estrangeira](#13-restricoes-de-integridade-constraints-e-acoes-de-chave-estrangeira)
-    - [Teste 245](#teste-245)
-    - [Teste 246](#teste-246)
-    - [Teste 247](#teste-247)
-2. [Ordem Lógica de Execução da Consulta SQL (DQL)](#2-ordem-logica-de-execucao-da-consulta-sql-dql)
-    - [2.1 Ordem Léxica (Escrita) vs. Ordem Lógica (Processamento)](#21-ordem-lexica-escrita-vs-ordem-logica-processamento)
-    - [2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases](#22-o-conflito-where-vs-having-e-a-ilegalidade-de-aliases)
-    - [Teste 248](#teste-248)
-3. [Consultas Avançadas: Junções, Operadores de Conjunto e Subconsultas](#3-consultas-avancadas-juncoes-operadores-de-conjunto-e-subconsultas)
-3. [Consultas Avançadas: Junções, Operadores de Conjunto e Subconsultas](#3-consultas-avancadas-juncoes-operadores-de-conjunto-e-subconsultas-2)
-    - [3.1 Junções (INNER, LEFT, RIGHT, FULL OUTER e CROSS JOIN)](#31-juncoes-inner-left-right-full-outer-e-cross-join)
-    - [3.2 Operadores de Conjunto (UNION vs. UNION ALL, INTERSECT, EXCEPT)](#32-operadores-de-conjunto-union-vs-union-all-intersect-except)
-    - [3.3 Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL](#33-logica-ternaria-three-valued-logic-e-a-armadilha-do-not-in-com-null)
-    - [3.4 Common Table Expressions (CTEs) e Recursividade (WITH RECURSIVE)](#34-common-table-expressions-ctes-e-recursividade-with-recursive)
-    - [Teste 249](#teste-249)
-    - [Teste 250](#teste-250)
-    - [Teste 251](#teste-251)
-    - [Teste 252](#teste-252)
-4. [Funções Analíticas de Janela (Window Functions)](#4-funcoes-analiticas-de-janela-window-functions)
-    - [4.1 Sintaxe Geral e Cláusula OVER (PARTITION BY .. ORDER BY ..)](#41-sintaxe-geral-e-clausula-over-partition-by-order-by)
-    - [4.2 Funções de Ranking: ROW_NUMBER(), RANK() e DENSE_RANK()](#42-funcoes-de-ranking-rownumber-rank-e-denserank)
-    - [4.3 Funções de Deslocamento: LEAD() e LAG()](#43-funcoes-de-deslocamento-lead-e-lag)
-    - [Teste 253](#teste-253)
-    - [Teste 254](#teste-254)
-5. [Objetos Programáveis de Banco de Dados](#5-objetos-programaveis-de-banco-de-dados)
-    - [5.1 Visões: View Padrão vs. View Materializada (Materialized View)](#51-visoes-view-padrao-vs-view-materializada-materialized-view)
-    - [5.2 Stored Procedures vs. User-Defined Functions (UDF)](#52-stored-procedures-vs-user-defined-functions-udf)
-    - [5.3 Gatilhos (Triggers): Eventos, Momentos (BEFORE, AFTER, INSTEAD OF) e Pseudorregistros OLD/NEW](#53-gatilhos-triggers-eventos-momentos-before-after-instead-of-e-pseudorregistros-oldnew)
-    - [Teste 255](#teste-255)
-1. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+    1. [Classificação ANSI: DDL, DML, DQL, DCL e TCL](#11-classificação-ansi-ddl-dml-dql-dcl-e-tcl)
+    1. [O Duelo Clássico: DROP vs. TRUNCATE vs. DELETE](#12-o-duelo-clássico-drop-vs-truncate-vs-delete)
+    1. [Restrições de Integridade (Constraints) e Ações de Chave Estrangeira](#13-restrições-de-integridade-constraints-e-ações-de-chave-estrangeira)
+    1. [Teste 245](#teste-245)
+    1. [Teste 246](#teste-246)
+    1. [Teste 247](#teste-247)
+2. [Ordem Lógica de Execução da Consulta SQL (DQL)](#2-ordem-lógica-de-execução-da-consulta-sql-dql)
+    1. [Ordem Léxica (Escrita) vs. Ordem Lógica (Processamento)](#21-ordem-léxica-escrita-vs-ordem-lógica-processamento)
+    1. [O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases](#22-o-conflito-where-vs-having-e-a-ilegalidade-de-aliases)
+    1. [Teste 248](#teste-248)
+3. [Consultas Avançadas: Junções, Operadores de Conjunto e Subconsultas](#3-consultas-avançadas-junções-operadores-de-conjunto-e-subconsultas)
+4. [Consultas Avançadas: Junções, Operadores de Conjunto e Subconsultas](#3-consultas-avançadas-junções-operadores-de-conjunto-e-subconsultas-1)
+    1. [Junções (INNER, LEFT, RIGHT, FULL OUTER e CROSS JOIN)](#31-junções-inner-left-right-full-outer-e-cross-join)
+    1. [Operadores de Conjunto (UNION vs. UNION ALL, INTERSECT, EXCEPT)](#32-operadores-de-conjunto-union-vs-union-all-intersect-except)
+    1. [Lógica Ternária (Three-Valued Logic) e a Armadilha do NOT IN com NULL](#33-lógica-ternária-three-valued-logic-e-a-armadilha-do-not-in-com-null)
+    1. [Common Table Expressions (CTEs) e Recursividade (WITH RECURSIVE)](#34-common-table-expressions-ctes-e-recursividade-with-recursive)
+    1. [Teste 249](#teste-249)
+    1. [Teste 250](#teste-250)
+    1. [Teste 251](#teste-251)
+    1. [Teste 252](#teste-252)
+5. [Funções Analíticas de Janela (Window Functions)](#4-funções-analíticas-de-janela-window-functions)
+    1. [Sintaxe Geral e Cláusula OVER (PARTITION BY .. ORDER BY ..)](#41-sintaxe-geral-e-cláusula-over-partition-by--order-by-)
+    1. [Funções de Ranking: ROW_NUMBER(), RANK() e DENSE_RANK()](#42-funções-de-ranking-row_number-rank-e-dense_rank)
+    1. [Funções de Deslocamento: LEAD() e LAG()](#43-funções-de-deslocamento-lead-e-lag)
+    1. [Teste 253](#teste-253)
+    1. [Teste 254](#teste-254)
+6. [Objetos Programáveis de Banco de Dados](#5-objetos-programáveis-de-banco-de-dados)
+    1. [Visões: View Padrão vs. View Materializada (Materialized View)](#51-visões-view-padrão-vs-view-materializada-materialized-view)
+    1. [Stored Procedures vs. User-Defined Functions (UDF)](#52-stored-procedures-vs-user-defined-functions-udf)
+    1. [Gatilhos (Triggers): Eventos, Momentos (BEFORE, AFTER, INSTEAD OF) e Pseudorregistros OLD/NEW](#53-gatilhos-triggers-eventos-momentos-before-after-instead-of-e-pseudorregistros-oldnew)
+    1. [Teste 255](#teste-255)
+7. [Fontes Oficiais e Referências Bibliográficas](#-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -91,7 +89,7 @@ Um dos tópicos de maior incidência em provas da FCC para cargos de Tecnologia 
 | **Velocidade de Execução** | Lento em grandes volumes de dados (milhões de linhas). | **Extremamente rápido** (quase instantâneo). | Instantâneo. |
 | **Disparo de Triggers** | Dispara triggers de `DELETE` (`FOR EACH ROW` e `STATEMENT`). | **NÃO dispara** triggers de linha (`FOR EACH ROW`). | Não dispara triggers DML. |
 | **Comportamento Transacional** | Suporta `ROLLBACK` em qualquer SGBD compatível com ACID. | Reversível no PostgreSQL/SQL Server; no Oracle efetua **COMMIT implícito**. | Reversível no PostgreSQL; no Oracle efetua **COMMIT implícito**. |
-| **Reinício de Sequences (Identity)**| **Não reinicia** contadores de auto-incremento. | **Reinicia** os contadores de identidade para o valor inicial padrão. | A tabela deixa de existir fisicamente. |
+| **Reinício de Sequences (Identity)** | **Não reinicia** contadores de auto-incremento. | **Reinicia** os contadores de identidade para o valor inicial padrão. | A tabela deixa de existir fisicamente. |
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A FCC adora elaborar enunciados afirmando que:
@@ -105,17 +103,18 @@ As restrições de integridade garantem a consistência lógica dos dados no ban
 
 - **`PRIMARY KEY`:** Garante unicidade e impede valores nulos (`UNIQUE` + `NOT NULL`). Cada tabela pode conter apenas uma chave primária.
 - **`FOREIGN KEY` (Integridade Referencial):** Impõe que o valor da coluna exista previamente na chave primária da tabela referenciada.
-    - **Ações Referenciais em Deleção/Atualização (`ON DELETE` / `ON UPDATE`):**
-    - `RESTRICT` / `NO ACTION`: Bloqueia e rejeita a operação no pai caso existam registros filhos dependentes (comportamento padrão).
-    - `CASCADE`: Propaga a alteração/exclusão automaticamente aos filhos (se o contrato for apagado, todos os seus aditivos são apagados).
-    - `SET NULL`: Atualiza o campo da chave estrangeira dos filhos para `NULL` quando o pai é excluído (exige que a coluna aceite nulos).
-    - `SET DEFAULT`: Preenche a chave estrangeira dos filhos com o valor padrão configurado.
+  - **Ações Referenciais em Deleção/Atualização (`ON DELETE` / `ON UPDATE`):**
+  - `RESTRICT` / `NO ACTION`: Bloqueia e rejeita a operação no pai caso existam registros filhos dependentes (comportamento padrão).
+  - `CASCADE`: Propaga a alteração/exclusão automaticamente aos filhos (se o contrato for apagado, todos os seus aditivos são apagados).
+  - `SET NULL`: Atualiza o campo da chave estrangeira dos filhos para `NULL` quando o pai é excluído (exige que a coluna aceite nulos).
+  - `SET DEFAULT`: Preenche a chave estrangeira dos filhos com o valor padrão configurado.
 - **`UNIQUE`:** Impede valores duplicados, mas permite a inserção de valores nulos (`NULL`), exceto se combinado com `NOT NULL`.
 - **`CHECK`:** Valida predicados booleanos customizados antes de persistir a tupla (ex.: `CHECK (valor_empenho > 0)`).
 
 ---
 
 ### Teste 245
+
 **(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**  
 Considere um banco de dados relacional de um tribunal, na qual nenhum usuário, a menos do DBA, possua algum privilégio sobre. O DBA concedeu direito de criação de tabelas ao usuário USR_0010, que, por sua vez, criou as tabelas DADOS_PROCESSO e DADOS_PARTE. Logo após a criação, o usuário USR_0010 executou os seguintes comandos da DCL (*Data Control Language*) da linguagem SQL no sistema gerenciador de banco de dados, referentes aos usuários USR_0011 e USR_0100:
 
@@ -140,11 +139,11 @@ REVOKE UPDATE ON DADOS_PROCESSO FROM USR_0100;
 
 Considerando esse cenário, qual situação é válida para as permissões referentes às tabelas DADOS_PROCESSO e DADOS_PARTE?
 
-* **A)** O usuário USR_0011 tem direito de inserção na tabela DADOS_PARTE.
-* **B)** O usuário USR_0100 tem direito de atualização na tabela DADOS_PROCESSO, mas sem direito de propagação.
-* **C)** O usuário USR_0100 tem direito de consulta na tabela DADOS_PROCESSO, com direito de propagação.
-* **D)** O usuário USR_0101 tem direito de atualização na tabela DADOS_PROCESSO.
-* **E)** O usuário USR_0101 tem direito de consulta na tabela DADOS_PROCESSO.
+- **A)** O usuário USR_0011 tem direito de inserção na tabela DADOS_PARTE.
+- **B)** O usuário USR_0100 tem direito de atualização na tabela DADOS_PROCESSO, mas sem direito de propagação.
+- **C)** O usuário USR_0100 tem direito de consulta na tabela DADOS_PROCESSO, com direito de propagação.
+- **D)** O usuário USR_0101 tem direito de atualização na tabela DADOS_PROCESSO.
+- **E)** O usuário USR_0101 tem direito de consulta na tabela DADOS_PROCESSO.
 
 ---
 
@@ -155,21 +154,21 @@ Considerando esse cenário, qual situação é válida para as permissões refer
 > - **C) CORRETA.** O comando original do proprietário USR_0010 concedeu `GRANT SELECT, UPDATE ON DADOS_PROCESSO TO USR_0100 WITH GRANT OPTION;`. Como o DBA revogou exclusivamente o privilégio de `UPDATE` (`REVOKE UPDATE ON DADOS_PROCESSO FROM USR_0100`), o privilégio de `SELECT` com sua correspondente cláusula de propagação (`WITH GRANT OPTION`) permaneceu intacto e plenamente ativo.
 > - **D) Incorreta.** Na hierarquia de concessão SQL, ao revogar o privilégio do concedente, os privilégios derivados concedidos a terceiros em cascata deixam de vigorar; ademais, o comando do usuário visava `USR_00101`.
 > - **E) Incorreta.** USR_0100 nunca concedeu direito de consulta (`SELECT`) ao usuário USR_0101 (apenas tentou conceder `UPDATE`).
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 246
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Um Administrador de Banco de Dados precisa esvaziar integralmente uma tabela com mais de 50 milhões de registros de log transitório em um ambiente de produção. Ao avaliar o uso do comando `TRUNCATE TABLE` em comparação com `DELETE FROM`, conclui-se corretamente que:  
 
-* **A)** O comando `TRUNCATE` é classificado como DML e gera o mesmo volume de logs transacionais no disco que o comando `DELETE`.
-* **B)** O comando `DELETE` desaloca diretamente as extensões de páginas de disco sem registrar cada exclusão de tupla no log de transações.
-* **C)** O comando `TRUNCATE` dispara todos os gatilhos do tipo `BEFORE DELETE FOR EACH ROW` associados à tabela.
-* **D)** O comando `TRUNCATE` é uma instrução DDL de execução rápida que desaloca as páginas de dados da tabela, operando com consumo mínimo de log de transação.
-* **E)** O comando `DELETE` reinicializa compulsoriamente os geradores automáticos de identidade (*sequences / serial*) para o valor inicial estabelecido na criação da tabela.
-
+- **A)** O comando `TRUNCATE` é classificado como DML e gera o mesmo volume de logs transacionais no disco que o comando `DELETE`.
+- **B)** O comando `DELETE` desaloca diretamente as extensões de páginas de disco sem registrar cada exclusão de tupla no log de transações.
+- **C)** O comando `TRUNCATE` dispara todos os gatilhos do tipo `BEFORE DELETE FOR EACH ROW` associados à tabela.
+- **D)** O comando `TRUNCATE` é uma instrução DDL de execução rápida que desaloca as páginas de dados da tabela, operando com consumo mínimo de log de transação.
+- **E)** O comando `DELETE` reinicializa compulsoriamente os geradores automáticos de identidade (*sequences / serial*) para o valor inicial estabelecido na criação da tabela.
 
 ---
 
@@ -180,23 +179,23 @@ Um Administrador de Banco de Dados precisa esvaziar integralmente uma tabela com
 > - **C)** Incorreta. O comando `TRUNCATE` **não dispara gatilhos de nível de linha** (`FOR EACH ROW`).
 > - **D)** Correta. Por ser um comando DDL, o **`TRUNCATE TABLE`** atua diretamente no nível de catálogo e alocação física, liberando imediatamente as páginas/extensões de dados associadas à tabela com consumo mínimo de log transacional, resultando em altíssima velocidade.
 > - **E)** Incorreta. O `DELETE` não reseta contadores de sequência automática (*identity/sequences*).
-> 
+>
 > **Gabarito: D**
 
 ---
 
 ### Teste 247
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Durante a manutenção emergencial de uma base de dados transacional com milhões de registros de log, o analista de banco de dados precisa esvaziar integralmente o conteúdo da tabela `LOG_ACESSO_TEMPORARIO`, liberando de imediato o espaço de armazenamento em disco e reinicializando os ponteiros de High Water Mark (HWM), com a máxima velocidade operacional possível e sem registrar cada tupla individualmente no log de transações.
 
 Para atender estritamente a esses requisitos técnicos, o comando correto a ser executado é:
 
-* **A)** `DELETE FROM LOG_ACESSO_TEMPORARIO;`
-* **B)** `DROP TABLE LOG_ACESSO_TEMPORARIO;`
-* **C)** `TRUNCATE TABLE LOG_ACESSO_TEMPORARIO;`
-* **D)** `ALTER TABLE LOG_ACESSO_TEMPORARIO CLEAR DATA;`
-* **E)** `REMOVE ALL FROM LOG_ACESSO_TEMPORARIO;`
-
+- **A)** `DELETE FROM LOG_ACESSO_TEMPORARIO;`
+- **B)** `DROP TABLE LOG_ACESSO_TEMPORARIO;`
+- **C)** `TRUNCATE TABLE LOG_ACESSO_TEMPORARIO;`
+- **D)** `ALTER TABLE LOG_ACESSO_TEMPORARIO CLEAR DATA;`
+- **E)** `REMOVE ALL FROM LOG_ACESSO_TEMPORARIO;`
 
 ---
 
@@ -207,7 +206,7 @@ Para atender estritamente a esses requisitos técnicos, o comando correto a ser 
 > - **C)** **CORRETA.** O `TRUNCATE TABLE` é um comando DDL (Data Definition Language) de desalocação rápida de páginas/extensões de dados. Ele desvincula os blocos de dados de uma só vez, gera registro mínimo no log transacional (apenas a desalocação das páginas), reinicializa a High Water Mark (HWM) e a contagem de sequências/identidades, não dispara *triggers* por linha e é ordens de grandeza mais veloz que o `DELETE`.
 > - **D)** Incorreta. Sintaxe inexistente no padrão ANSI SQL.
 > - **E)** Incorreta. Comando inexistente na sintaxe SQL.
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -258,6 +257,7 @@ Compreender essa cronologia lógica resolve duas das questões mais frequentes d
 ---
 
 ### Teste 248
+
 **(FGV – TRT/DA – 2025 – Analista Judiciario - Tecnologia da Informacao)**  
 O PostgreSQL é um SGBD gratuito de código aberto que suporta consultas relacionais em linguagem SQL. Com relação ao SQL do PostgreSQL, analise as afirmativas a seguir.
 
@@ -267,11 +267,11 @@ III. A expressão CASE testa condições e retorna um valor quando a primeira co
 
 Está correto o que se afirma em:
 
-* **A)** I e II, apenas.
-* **B)** I e III, apenas.
-* **C)** II e III, apenas.
-* **D)** I, II e III.
-* **E)** III, apenas.
+- **A)** I e II, apenas.
+- **B)** I e III, apenas.
+- **C)** II e III, apenas.
+- **D)** I, II e III.
+- **E)** III, apenas.
 
 ---
 
@@ -280,7 +280,7 @@ Está correto o que se afirma em:
 > - **I. Correta.** A cláusula `GROUP BY` divide o conjunto de tuplas em grupos homogêneos baseados nas colunas indicadas, permitindo que funções de agregação (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`) calculem métricas consolidadas sobre cada grupo de linhas.
 > - **II. Correta.** O processador de consultas avalia o predicado `WHERE` antes da criação dos grupos (em nível de linha individual), impedindo seu uso com agregados. A cláusula `HAVING` foi incorporada exatamente para viabilizar filtros pós-agregação sobre os grupos formados pelo `GROUP BY`.
 > - **III. Correta.** A expressão condicional `CASE` avalia sequencialmente as cláusulas `WHEN` e encerra a avaliação no primeiro predicado verdadeiro (comportamento de *short-circuit*). Se nenhuma condição for satisfeita, adota o valor de escape definido no `ELSE`; se o bloco `ELSE` for omitido e nenhuma condição for verdadeira, o retorno padrão do SQL é `NULL`.
-> 
+>
 > **Gabarito: D**
 
 ---
@@ -300,8 +300,8 @@ Está correto o que se afirma em:
 ### 3.2 Operadores de Conjunto (UNION vs. UNION ALL, INTERSECT, EXCEPT)
 
 - **`UNION` vs. `UNION ALL`:**
-    - **`UNION`:** Combina os resultados de duas consultas com compatibilidade de esquema e executa um algoritmo interno de ordenação/hashing para **eliminar compulsoriamente linhas duplicadas**.
-    - **`UNION ALL`:** Apenas concatena as duas listas de tuplas, **preservando todas as duplicatas intactas**. Possui desempenho computacional dramaticamente superior ao `UNION`.
+  - **`UNION`:** Combina os resultados de duas consultas com compatibilidade de esquema e executa um algoritmo interno de ordenação/hashing para **eliminar compulsoriamente linhas duplicadas**.
+  - **`UNION ALL`:** Apenas concatena as duas listas de tuplas, **preservando todas as duplicatas intactas**. Possui desempenho computacional dramaticamente superior ao `UNION`.
 - **`INTERSECT`:** Retorna apenas as tuplas que constam simultaneamente em ambas as consultas, eliminando duplicatas.
 - **`EXCEPT` (ou `MINUS` no Oracle):** Retorna as tuplas da primeira consulta que não estão presentes na segunda consulta.
 
@@ -339,6 +339,7 @@ JOIN AuditoriasRecentes ar ON a.id = ar.auditor_id;
 ---
 
 ### Teste 249
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere duas tabelas em um banco de dados relacional: `ORGAO` (com as colunas `id_orgao`, `nome_orgao`) contendo 10 registros, e `CONTRATO` (com as colunas `id_contrato`, `id_orgao`, `valor`) contendo 50 registros. Sabe-se que 2 órgãos da tabela `ORGAO` não possuem nenhum contrato cadastrado e que todos os 50 contratos da tabela `CONTRATO` possuem um `id_orgao` válido associado.
 
@@ -352,12 +353,11 @@ LEFT JOIN CONTRATO C ON O.id_orgao = C.id_orgao;
 
 A quantidade exata de linhas retornadas por essa consulta e o conteúdo dos campos `C.id_contrato` e `C.valor` para os 2 órgãos que não possuem contratos são, respectivamente:
 
-* **A)** 48 linhas, e as linhas dos órgãos sem contratos são omitidas do resultado.
-* **B)** 50 linhas, e as linhas dos órgãos sem contratos exibem valor 0 nos campos numéricos.
-* **C)** 52 linhas, e as linhas dos 2 órgãos sem contratos exibem o valor `NULL` nos campos `id_contrato` e `valor`.
-* **D)** 60 linhas, correspondendo ao produto cartesiano das tabelas.
-* **E)** 10 linhas, retornando apenas uma linha condensada para cada órgão existente.
-
+- **A)** 48 linhas, e as linhas dos órgãos sem contratos são omitidas do resultado.
+- **B)** 50 linhas, e as linhas dos órgãos sem contratos exibem valor 0 nos campos numéricos.
+- **C)** 52 linhas, e as linhas dos 2 órgãos sem contratos exibem o valor `NULL` nos campos `id_contrato` e `valor`.
+- **D)** 60 linhas, correspondendo ao produto cartesiano das tabelas.
+- **E)** 10 linhas, retornando apenas uma linha condensada para cada órgão existente.
 
 ---
 
@@ -371,12 +371,13 @@ A quantidade exata de linhas retornadas por essa consulta e o conteúdo dos camp
 >   3. Total de linhas: $50 + 2 = 52$ linhas.
 > - **D)** Incorreta. O produto cartesiano ($10 \times 50 = 500$ linhas) seria obtido com `CROSS JOIN`.
 > - **E)** Incorreta. Para retornar apenas 10 linhas condensadas, seria necessária a cláusula `GROUP BY O.nome_orgao` com funções de agregação.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 250
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em procedimentos analíticos de auditoria de dados, um auditor necessita consolidar em uma única lista todos os CPFs de fornecedores que receberam pagamentos no Exercício de 2024 (tabela `PAGAMENTOS_2024`, com 100.000 registros, contendo CPFs repetidos) e no Exercício de 2025 (tabela `PAGAMENTOS_2025`, com 80.000 registros, também com repetições). Sabe-se que 20.000 CPFs distintos aparecem em ambos os exercícios.
 
@@ -388,12 +389,11 @@ III. O operador `INTERSECT` retornaria apenas os CPFs dos fornecedores que figur
 
 Está correto o que se afirma em:
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** I e II, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
+- **A)** I, apenas.
+- **B)** II, apenas.
+- **C)** I e II, apenas.
+- **D)** II e III, apenas.
+- **E)** I, II e III.
 
 ---
 
@@ -402,12 +402,13 @@ Está correto o que se afirma em:
 > - **I.** **CORRETA.** O operador `UNION` exige compatibilidade de esquemas e, por padrão formal, elimina tuplas duplicadas do conjunto unificado. Para eliminar duplicatas, o motor do SGBD invoca um operador de ordenação em disco/memória (`Sort Unique`) ou uma tabela hash, aumentando o consumo de recursos.
 > - **II.** **CORRETA.** O operador `UNION ALL` realiza a união multiconjunto (*multiset* ou *bag union*), preservando todas as linhas de ambos os lados sem qualquer deduplicação. Como dispensa a fase de ordenação/hashing, sua execução é ordens de grandeza mais rápida e consome menos memória.
 > - **III.** **CORRETA.** O operador `INTERSECT` calcula a interseção dos dois conjuntos, retornando unicamente as linhas presentes simultaneamente no primeiro e no segundo comando `SELECT`, eliminando valores duplicados.
-> 
+>
 > **Gabarito: E**
 
 ---
 
 ### Teste 251
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere duas tabelas em um banco de dados fazendário:
 
@@ -417,19 +418,18 @@ Considere duas tabelas em um banco de dados fazendário:
 Um auditor executa a seguinte consulta para listar os contribuintes que nunca cometeram infração:
 
 ```sql
-SELECT nome 
-FROM CONTRIBUINTE 
+SELECT nome
+FROM CONTRIBUINTE
 WHERE id_contribuinte NOT IN (SELECT id_contribuinte FROM INFRACAO);
 ```
 
 O resultado obtido por essa consulta será:  
 
-* **A)** Uma relação contendo exatamente os contribuintes sem registros correspondentes na tabela de infração.
-* **B)** Uma relação com todos os 1.000 contribuintes da tabela original.
-* **C)** Um conjunto vazio (zero registros retornados), em virtude da presença de valores nulos na subconsulta avaliada pelo operador `NOT IN`.
-* **D)** Uma mensagem de erro de compilação SQL, visto que o operador `NOT IN` não suporta subconsultas como argumento.
-* **E)** Uma relação com exatamente 495 registros, correspondente à diferença algébrica simples.
-
+- **A)** Uma relação contendo exatamente os contribuintes sem registros correspondentes na tabela de infração.
+- **B)** Uma relação com todos os 1.000 contribuintes da tabela original.
+- **C)** Um conjunto vazio (zero registros retornados), em virtude da presença de valores nulos na subconsulta avaliada pelo operador `NOT IN`.
+- **D)** Uma mensagem de erro de compilação SQL, visto que o operador `NOT IN` não suporta subconsultas como argumento.
+- **E)** Uma relação com exatamente 495 registros, correspondente à diferença algébrica simples.
 
 ---
 
@@ -440,23 +440,23 @@ O resultado obtido por essa consulta será:
 > - **C)** Correta. De acordo com a **Lógica Ternária (Three-Valued Logic)** da SQL, a expressão `x NOT IN (v1, v2, NULL)` é avaliada como `x != v1 AND x != v2 AND x != NULL`. Como qualquer comparação com `NULL` resulta em `UNKNOWN`, e a conjunção de `TRUE AND UNKNOWN` resulta em `UNKNOWN`, a cláusula `WHERE` descarta todas as linhas (pois ela só preserva linhas cuja condição seja estritamente `TRUE`). Portanto, a consulta retorna **zero registros (conjunto vazio)**. Para evitar essa anomalia, deve-se usar `NOT EXISTS`.
 > - **D)** Incorreta. A consulta é perfeitamente válida na gramática SQL ANSI.
 > - **E)** Incorreta. Valor incorreto decorrente de interpretação sem considerar a lógica ternária de nulos.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 252
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um sistema de auditoria governamental, a estrutura de subordinação hierárquica dos órgãos de controle é modelada na tabela `UNIDADE_ORGANIZACIONAL (id_unidade, nome_unidade, id_unidade_superior)`.
 
 Para percorrer recursivamente todos os níveis descendentes a partir de uma unidade raiz (`id_unidade = 1`), o padrão ANSI SQL:1999 disponibiliza o recurso de Common Table Expressions (CTEs) recursivas. A respeito da construção sintática e do funcionamento operacional de uma `WITH RECURSIVE`, assinale a afirmativa correta:
 
-* **A)** A cláusula `WITH RECURSIVE` é composta obrigatoriamente por dois membros unidos por `UNION` ou `UNION ALL`: o membro-âncora (termo inicial não-recursivo) e o membro recursivo (que faz referência ao próprio nome da CTE), cessando a execução quando o membro recursivo retorna um conjunto vazio.
-* **B)** A consulta recursiva executa um loop infinito no SGBD a menos que seja incluída compulsoriamente uma cláusula `LIMIT 100` na definição da tabela âncora.
-* **C)** Funções de agregação como `SUM()` e `AVG()` podem ser livremente empregadas dentro da subconsulta do membro recursivo sem restrições sintáticas pelo padrão ANSI.
-* **D)** Uma CTE recursiva não pode ser utilizada com o comando `SELECT`, sendo um recurso exclusivo de instruções de modificação de dados (`UPDATE` e `DELETE`).
-* **E)** O operador de junção entre o membro-âncora e o membro recursivo deve ser compulsoriamente um `CROSS JOIN`.
-
+- **A)** A cláusula `WITH RECURSIVE` é composta obrigatoriamente por dois membros unidos por `UNION` ou `UNION ALL`: o membro-âncora (termo inicial não-recursivo) e o membro recursivo (que faz referência ao próprio nome da CTE), cessando a execução quando o membro recursivo retorna um conjunto vazio.
+- **B)** A consulta recursiva executa um loop infinito no SGBD a menos que seja incluída compulsoriamente uma cláusula `LIMIT 100` na definição da tabela âncora.
+- **C)** Funções de agregação como `SUM()` e `AVG()` podem ser livremente empregadas dentro da subconsulta do membro recursivo sem restrições sintáticas pelo padrão ANSI.
+- **D)** Uma CTE recursiva não pode ser utilizada com o comando `SELECT`, sendo um recurso exclusivo de instruções de modificação de dados (`UPDATE` e `DELETE`).
+- **E)** O operador de junção entre o membro-âncora e o membro recursivo deve ser compulsoriamente um `CROSS JOIN`.
 
 ---
 
@@ -470,7 +470,7 @@ Para percorrer recursivamente todos os níveis descendentes a partir de uma unid
 > - **C)** Incorreta. O padrão ANSI SQL proíbe expressamente o uso de funções de agregação (`SUM`, `MAX`, `AVG`), cláusulas `GROUP BY` e `ORDER BY` dentro do membro recursivo que referencia a própria CTE recursiva.
 > - **D)** Incorreta. CTEs recursivas são amplamente utilizadas com instruções `SELECT` para consultas em grafos e árvores hierárquicas.
 > - **E)** Incorreta. O membro-âncora e o membro recursivo são unidos por operadores de conjunto (`UNION` ou `UNION ALL`), jamais por `CROSS JOIN`.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -518,17 +518,17 @@ Permitem acessar dados de linhas vizinhas na mesma partição sem necessidade de
 ---
 
 ### Teste 253
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere uma tabela denominada `AUDITORIA_FOLHA` que armazena os vencimentos de servidores, com as colunas `Matricula`, `Orgao` e `Salario`. Um analista precisa gerar um relatório onde os servidores sejam classificados em ordem decrescente de salário dentro de cada órgão (`Orgao`), de modo que servidores com salários idênticos recebam a mesma posição no ranking e a numeração da posição subsequente continue consecutiva, sem deixar lacunas ou "pular" números.
 
 A consulta SQL correta que atende exatamente a essa especificação utiliza a função de janela:  
 
-* **A)** `ROW_NUMBER() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
-* **B)** `RANK() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
-* **C)** `DENSE_RANK() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
-* **D)** `COUNT(Salario) OVER (ORDER BY Orgao DESC)`
-* **E)** `LEAD(Salario, 1) OVER (PARTITION BY Orgao)`
-
+- **A)** `ROW_NUMBER() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
+- **B)** `RANK() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
+- **C)** `DENSE_RANK() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
+- **D)** `COUNT(Salario) OVER (ORDER BY Orgao DESC)`
+- **E)** `LEAD(Salario, 1) OVER (PARTITION BY Orgao)`
 
 ---
 
@@ -539,53 +539,62 @@ A consulta SQL correta que atende exatamente a essa especificação utiliza a fu
 > - **C)** Correta. A função **`DENSE_RANK()`** atribui a mesma posição aos registros com valores empatados e garante que a posição imediatamente seguinte seja a próxima na ordem inteira contígua (1, 1, 2, 3..), preservando o ranqueamento denso sem deixar lacunas na numeração.
 > - **D)** Incorreta. `COUNT()` é uma função de agregação de contagem, não uma função de ranqueamento.
 > - **E)** Incorreta. `LEAD()` é uma função analítica de deslocamento para acessar valores de linhas posteriores na janela, não atribuindo posições de classificação.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 254
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em auditorias de contratações públicas, é comum comparar o valor pago a um prestador em um determinado mês com o valor pago no mês imediatamente anterior e no mês imediatamente posterior, a fim de detectar variações abruptas de faturamento.
 
 Considere a tabela `PAGAMENTO_CONTRATO` com as colunas `id_contrato`, `mes_ano` e `valor_pago`. Assinale a instrução SQL que utiliza corretamente funções analíticas de deslocamento de janela para recuperar, em uma mesma linha de saída para cada contrato, o valor do pagamento corrente, o valor do mês imediatamente anterior e o valor do mês imediatamente subsequente:
 
-* **A)**
+- **A)**
+
 ```sql
 SELECT id_contrato, mes_ano, valor_pago,
        LAG(valor_pago, 1) OVER (PARTITION BY id_contrato ORDER BY mes_ano) AS valor_anterior,
        LEAD(valor_pago, 1) OVER (PARTITION BY id_contrato ORDER BY mes_ano) AS valor_posterior
 FROM PAGAMENTO_CONTRATO;
 ```
-* **B)**
+
+- **B)**
+
 ```sql
 SELECT id_contrato, mes_ano, valor_pago,
        FIRST_VALUE(valor_pago) OVER (ORDER BY mes_ano) AS valor_anterior,
        LAST_VALUE(valor_pago) OVER (ORDER BY mes_ano) AS valor_posterior
 FROM PAGAMENTO_CONTRATO;
 ```
-* **C)**
+
+- **C)**
+
 ```sql
 SELECT id_contrato, mes_ano, valor_pago,
        PREVIOUS(valor_pago) WITHIN GROUP (ORDER BY mes_ano) AS valor_anterior,
        NEXT(valor_pago) WITHIN GROUP (ORDER BY mes_ano) AS valor_posterior
 FROM PAGAMENTO_CONTRATO;
 ```
-* **D)**
+
+- **D)**
+
 ```sql
 SELECT id_contrato, mes_ano, valor_pago,
        LEAD(valor_pago, -1) OVER (ORDER BY id_contrato) AS valor_anterior,
        LAG(valor_pago, +1) OVER (ORDER BY id_contrato) AS valor_posterior
 FROM PAGAMENTO_CONTRATO;
 ```
-* **E)**
+
+- **E)**
+
 ```sql
 SELECT id_contrato, mes_ano, valor_pago,
        OFFSET(valor_pago, -1) OVER (PARTITION BY id_contrato) AS valor_anterior,
        OFFSET(valor_pago, 1) OVER (PARTITION BY id_contrato) AS valor_posterior
 FROM PAGAMENTO_CONTRATO;
 ```
-
 
 ---
 
@@ -599,7 +608,7 @@ FROM PAGAMENTO_CONTRATO;
 > - **C)** Incorreta. Funções `PREVIOUS` e `NEXT` não existem no padrão ANSI SQL.
 > - **D)** Incorreta. Os papéis de `LEAD` e `LAG` foram invertidos e o deslocamento com offset negativo gera erro sintático em diversos dialetos.
 > - **E)** Incorreta. Função `OFFSET` não é função analítica de janela no padrão SQL.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -609,13 +618,13 @@ FROM PAGAMENTO_CONTRATO;
 ### 5.1 Visões: View Padrão vs. View Materializada (Materialized View)
 
 - **View Padrão (Virtual View):**
-    - Não armazena dados físicos em disco; representa apenas uma consulta SQL gravada no dicionário de dados do SGBD.
-    - A cada execução de um `SELECT` contra a View, o otimizador expande a consulta subjacente e varre as tabelas base em tempo real.
-    - Vantagens: Dados sempre 100% atualizados; atua como camada de segurança e abstração (ocultando colunas confidenciais).
+  - Não armazena dados físicos em disco; representa apenas uma consulta SQL gravada no dicionário de dados do SGBD.
+  - A cada execução de um `SELECT` contra a View, o otimizador expande a consulta subjacente e varre as tabelas base em tempo real.
+  - Vantagens: Dados sempre 100% atualizados; atua como camada de segurança e abstração (ocultando colunas confidenciais).
 - **View Materializada (*Materialized View*):**
-    - O resultado da consulta é **gravado e persistido fisicamente em disco** como uma tabela real.
-    - Proporciona leituras de altíssima velocidade em consultas analíticas pesadas com múltiplos `JOINs` e agregações complexas.
-    - **Trade-off:** Os dados ficam estáticos/defasados até que um comando de atualização explícito seja disparado: `REFRESH MATERIALIZED VIEW nome_da_view;`.
+  - O resultado da consulta é **gravado e persistido fisicamente em disco** como uma tabela real.
+  - Proporciona leituras de altíssima velocidade em consultas analíticas pesadas com múltiplos `JOINs` e agregações complexas.
+  - **Trade-off:** Os dados ficam estáticos/defasados até que um comando de atualização explícito seja disparado: `REFRESH MATERIALIZED VIEW nome_da_view;`.
 
 ### 5.2 Stored Procedures vs. User-Defined Functions (UDF)
 
@@ -630,17 +639,19 @@ FROM PAGAMENTO_CONTRATO;
 
 Gatilhos (*Triggers*) são blocos de código procedurais executados automaticamente pelo motor de banco de dados quando eventos DML específicos ocorrem em uma tabela:
 
-#### Pseudorregistros de Contexto:
-- **`OLD`:** Representa o estado da linha **antes** da modificação.
-    - No `INSERT`: É nulo/indefinido (não existia linha prévia).
-    - No `UPDATE`: Contém os valores originais da linha.
-    - No `DELETE`: Contém os valores da linha que está sendo removida.
-- **`NEW`:** Representa o estado da linha **após** a modificação proposta.
-    - No `INSERT`: Contém os valores da nova linha a ser inserida.
-    - No `UPDATE`: Contém os novos valores propostos.
-    - No `DELETE`: É nulo/indefinido (a linha deixará de existir).
+#### Pseudorregistros de Contexto
 
-#### Momentos de Disparo (*Timing*):
+- **`OLD`:** Representa o estado da linha **antes** da modificação.
+  - No `INSERT`: É nulo/indefinido (não existia linha prévia).
+  - No `UPDATE`: Contém os valores originais da linha.
+  - No `DELETE`: Contém os valores da linha que está sendo removida.
+- **`NEW`:** Representa o estado da linha **após** a modificação proposta.
+  - No `INSERT`: Contém os valores da nova linha a ser inserida.
+  - No `UPDATE`: Contém os novos valores propostos.
+  - No `DELETE`: É nulo/indefinido (a linha deixará de existir).
+
+#### Momentos de Disparo (*Timing*)
+
 - **`BEFORE`:** Executado antes que a modificação seja persistida no disco. Ideal para **validação de dados**, enriquecimento de campos e integridade de negócio. Permite alterar os valores de `NEW` antes da gravação.
 - **`AFTER`:** Executado após a modificação ser gravada no disco. Ideal para **gravação em tabelas de auditoria** e disparos de notificações assíncronas.
 - **`INSTEAD OF`:** Intercepta a instrução DML e executa a rotina do gatilho no lugar da operação original. É a solução canônica para permitir operações de `INSERT`, `UPDATE` e `DELETE` em **visões (Views) complexas não-atualizáveis**.
@@ -648,15 +659,15 @@ Gatilhos (*Triggers*) são blocos de código procedurais executados automaticame
 ---
 
 ### Teste 255
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No que concerne aos gatilhos (*Triggers*) em sistemas de gerenciamento de bancos de dados relacionais padrão ANSI/ISO e SGBDs modernos (como Oracle e PostgreSQL), assinale a afirmativa correta:  
 
-* **A)** Em um gatilho acionado por uma instrução `INSERT`, tanto o pseudorregistro `OLD` quanto o pseudorregistro `NEW` contêm os mesmos valores da nova linha inserida.
-* **B)** Gatilhos do tipo `BEFORE FOR EACH ROW` são ideais para validação de integridade ou atribuição prévia de valores calculados aos campos antes da gravação definitiva da linha no disco.
-* **C)** Um gatilho com nível de disparo por instrução (`FOR EACH STATEMENT`) executa uma vez para cada linha afetada pelo comando DML executado.
-* **D)** Em um evento de `DELETE`, o pseudorregistro `NEW` armazena os valores da linha que acabou de ser apagada, enquanto o pseudorregistro `OLD` torna-se nulo.
-* **E)** Gatilhos do tipo `INSTEAD OF` podem ser aplicados exclusivamente sobre tabelas físicas com chave primária simples, sendo proibido o seu uso em visões (*Views*).
-
+- **A)** Em um gatilho acionado por uma instrução `INSERT`, tanto o pseudorregistro `OLD` quanto o pseudorregistro `NEW` contêm os mesmos valores da nova linha inserida.
+- **B)** Gatilhos do tipo `BEFORE FOR EACH ROW` são ideais para validação de integridade ou atribuição prévia de valores calculados aos campos antes da gravação definitiva da linha no disco.
+- **C)** Um gatilho com nível de disparo por instrução (`FOR EACH STATEMENT`) executa uma vez para cada linha afetada pelo comando DML executado.
+- **D)** Em um evento de `DELETE`, o pseudorregistro `NEW` armazena os valores da linha que acabou de ser apagada, enquanto o pseudorregistro `OLD` torna-se nulo.
+- **E)** Gatilhos do tipo `INSTEAD OF` podem ser aplicados exclusivamente sobre tabelas físicas com chave primária simples, sendo proibido o seu uso em visões (*Views*).
 
 ---
 
@@ -667,17 +678,17 @@ No que concerne aos gatilhos (*Triggers*) em sistemas de gerenciamento de bancos
 > - **C)** Incorreta. O gatilho por instrução (`FOR EACH STATEMENT`) executa **exatamente uma vez para todo o comando SQL**, independentemente de quantas linhas tenham sido afetadas.
 > - **D)** Incorreta. No evento de `DELETE`, o pseudorregistro `NEW` é nulo/indefinido e o `OLD` armazena os dados da tupla prestes a ser apagada.
 > - **E)** Incorreta. Os gatilhos `INSTEAD OF` foram concebidos primordialmente para serem aplicados sobre **Views**, viabilizando operações DML em visões complexas não-atualizáveis.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [PostgreSQL 17 Official Documentation - DDL Commands](https://www.postgresql.org/docs/current/ddl.html) - Sintaxe formal de CREATE, ALTER, DROP e restrições de integridade referencial.
-* [PostgreSQL 17 Official Documentation - Data Manipulation (DML)](https://www.postgresql.org/docs/current/dml.html) - Comandos INSERT, UPDATE, DELETE e TRUNCATE e suas implicações em transações e triggers.
-* [PostgreSQL 17 Official Documentation - Advanced Queries and Table Expressions](https://www.postgresql.org/docs/current/queries.html) - CTEs recursivas, cláusula WITH, Window Functions (ROW_NUMBER, RANK, DENSE_RANK) e subconsultas.
-* [PostgreSQL 17 Official Documentation - Row Security Policies (RLS)](https://www.postgresql.org/docs/current/ddl-rowsecurity.html) - Controle de acesso e segurança granular em nível de linha com políticas DCL.
-* BEIGHLEY, Lynn. **Use a Cabeça! SQL**. 2. ed. Rio de Janeiro: Alta Books, 2011. (Cap. 6 a 8 - Junções Múltiplas e Subconsultas).
-* SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. **Sistema de Banco de Dados**. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 3 a 5 - Introdução a SQL, SQL Intermediário e Avançado).
-* ELMASRI, Ramez; NAVATHE, Shamkant B. **Sistemas de Banco de Dados**. 7. ed. São Paulo: Pearson, 2019. (Cap. 6 e 7 - SQL Básico e SQL Complexo).
+- [PostgreSQL 17 Official Documentation - DDL Commands](https://www.postgresql.org/docs/current/ddl.html) - Sintaxe formal de CREATE, ALTER, DROP e restrições de integridade referencial.
+- [PostgreSQL 17 Official Documentation - Data Manipulation (DML)](https://www.postgresql.org/docs/current/dml.html) - Comandos INSERT, UPDATE, DELETE e TRUNCATE e suas implicações em transações e triggers.
+- [PostgreSQL 17 Official Documentation - Advanced Queries and Table Expressions](https://www.postgresql.org/docs/current/queries.html) - CTEs recursivas, cláusula WITH, Window Functions (ROW_NUMBER, RANK, DENSE_RANK) e subconsultas.
+- [PostgreSQL 17 Official Documentation - Row Security Policies (RLS)](https://www.postgresql.org/docs/current/ddl-rowsecurity.html) - Controle de acesso e segurança granular em nível de linha com políticas DCL.
+- BEIGHLEY, Lynn. **Use a Cabeça! SQL**. 2. ed. Rio de Janeiro: Alta Books, 2011. (Cap. 6 a 8 - Junções Múltiplas e Subconsultas).
+- SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. **Sistema de Banco de Dados**. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 3 a 5 - Introdução a SQL, SQL Intermediário e Avançado).
+- ELMASRI, Ramez; NAVATHE, Shamkant B. **Sistemas de Banco de Dados**. 7. ed. São Paulo: Pearson, 2019. (Cap. 6 e 7 - SQL Básico e SQL Complexo).

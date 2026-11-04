@@ -5,12 +5,10 @@
 > **Arquivo:** `01_conjuntos_numericos_fracoes_e_aritmetica.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Números inteiros e racionais: operações (adição, subtração, multiplicação, divisão, potenciação).
 - Expressões numéricas.
 - Múltiplos e divisores de números naturais.
@@ -21,37 +19,37 @@
 
 ## 🧭 Sumário
 
-1. [Conjuntos Numéricos Fundamentais e Propriedades Estruturais](#1-conjuntos-numericos-fundamentais-e-propriedades-estruturais)
-    - [1.1 Conjunto dos Números Naturais e Inteiros](#11-conjunto-dos-numeros-naturais-e-inteiros)
-    - [1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas](#12-conjunto-dos-numeros-racionais-decimais-finitos-e-dizimas-periodicas)
-    - [1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos](#13-algoritmo-da-divisao-euclidiana-e-aritmetica-dos-restos)
-    - [Teste 072](#teste-072)
-    - [Teste 073](#teste-073)
-2. [Operações Aritméticas e Expressões Numéricas](#2-operacoes-aritmeticas-e-expressoes-numericas)
-    - [2.1 Ordem de Precedência das Operações e Delimitadores](#21-ordem-de-precedencia-das-operacoes-e-delimitadores)
-    - [2.2 Potenciação: Propriedades Operatórias e Notação Científica](#22-potenciacao-propriedades-operatorias-e-notacao-cientifica)
-    - [Teste 074](#teste-074)
-3. [Teoria dos Números: Divisibilidade, Primos, MMC e MDC](#3-teoria-dos-numeros-divisibilidade-primos-mmc-e-mdc)
-    - [3.1 Critérios de Divisibilidade Aplicados](#31-criterios-de-divisibilidade-aplicados)
-    - [3.2 Decomposição em Fatores Primos e Contagem de Divisores Positivos](#32-decomposicao-em-fatores-primos-e-contagem-de-divisores-positivos)
-    - [3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade](#33-minimo-multiplo-comum-ciclos-coincidencias-e-periodicidade)
-    - [3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos](#34-maximo-divisor-comum-particoes-equitativas-e-lotes-maximos)
-    - [3.5 Relação Fundamental entre MMC e MDC](#35-relacao-fundamental-entre-mmc-e-mdc)
-    - [Teste 075](#teste-075)
-    - [Teste 076](#teste-076)
-    - [Teste 077](#teste-077)
-4. [Álgebra Fracionária e Operações com Frações](#4-algebra-fracionaria-e-operacoes-com-fracoes)
-    - [4.1 Conceito, Tipologias e Equivalência de Frações](#41-conceito-tipologias-e-equivalencia-de-fracoes)
-    - [4.2 Operações Aritméticas com Frações](#42-operacoes-aritmeticas-com-fracoes)
-    - [Teste 078](#teste-078)
-5. [Modelagem e Resolução de Problemas no Padrão FCC](#5-modelagem-e-resolucao-de-problemas-no-padrao-fcc)
-    - [5.1 Problemas de Fração de Resto ou Cadeia Regressiva](#51-problemas-de-fracao-de-resto-ou-cadeia-regressiva)
-    - [5.2 Problemas de Trabalho Conjunto e Torneiras](#52-problemas-de-trabalho-conjunto-e-torneiras)
-    - [5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais](#53-problemas-de-ciclos-periodicos-e-padroes-sequenciais)
-    - [Teste 079](#teste-079)
-    - [Teste 080](#teste-080)
-    - [Teste 081](#teste-081)
-1. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+1. [Conjuntos Numéricos Fundamentais e Propriedades Estruturais](#1-conjuntos-numéricos-fundamentais-e-propriedades-estruturais)
+    1. [Conjunto dos Números Naturais e Inteiros](#11-conjunto-dos-números-naturais-e-inteiros)
+    1. [Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas](#12-conjunto-dos-números-racionais-decimais-finitos-e-dízimas-periódicas)
+    1. [Algoritmo da Divisão Euclidiana e Aritmética dos Restos](#13-algoritmo-da-divisão-euclidiana-e-aritmética-dos-restos)
+    1. [Teste 072](#teste-072)
+    1. [Teste 073](#teste-073)
+2. [Operações Aritméticas e Expressões Numéricas](#2-operações-aritméticas-e-expressões-numéricas)
+    1. [Ordem de Precedência das Operações e Delimitadores](#21-ordem-de-precedência-das-operações-e-delimitadores)
+    1. [Potenciação: Propriedades Operatórias e Notação Científica](#22-potenciação-propriedades-operatórias-e-notação-científica)
+    1. [Teste 074](#teste-074)
+3. [Teoria dos Números: Divisibilidade, Primos, MMC e MDC](#3-teoria-dos-números-divisibilidade-primos-mmc-e-mdc)
+    1. [Critérios de Divisibilidade Aplicados](#31-critérios-de-divisibilidade-aplicados)
+    1. [Decomposição em Fatores Primos e Contagem de Divisores Positivos](#32-decomposição-em-fatores-primos-e-contagem-de-divisores-positivos)
+    1. [Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade](#33-mínimo-múltiplo-comum-ciclos-coincidências-e-periodicidade)
+    1. [Máximo Divisor Comum: Partições Equitativas e Lotes Máximos](#34-máximo-divisor-comum-partições-equitativas-e-lotes-máximos)
+    1. [Relação Fundamental entre MMC e MDC](#35-relação-fundamental-entre-mmc-e-mdc)
+    1. [Teste 075](#teste-075)
+    1. [Teste 076](#teste-076)
+    1. [Teste 077](#teste-077)
+4. [Álgebra Fracionária e Operações com Frações](#4-álgebra-fracionária-e-operações-com-frações)
+    1. [Conceito, Tipologias e Equivalência de Frações](#41-conceito-tipologias-e-equivalência-de-frações)
+    1. [Operações Aritméticas com Frações](#42-operações-aritméticas-com-frações)
+    1. [Teste 078](#teste-078)
+5. [Modelagem e Resolução de Problemas no Padrão FCC](#5-modelagem-e-resolução-de-problemas-no-padrão-fcc)
+    1. [Problemas de Fração de Resto ou Cadeia Regressiva](#51-problemas-de-fração-de-resto-ou-cadeia-regressiva)
+    1. [Problemas de Trabalho Conjunto e Torneiras](#52-problemas-de-trabalho-conjunto-e-torneiras)
+    1. [Problemas de Ciclos Periódicos e Padrões Sequenciais](#53-problemas-de-ciclos-periódicos-e-padrões-sequenciais)
+    1. [Teste 079](#teste-079)
+    1. [Teste 080](#teste-080)
+    1. [Teste 081](#teste-081)
+6. [Fontes Oficiais e Referências Bibliográficas](#-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -68,14 +66,14 @@ flowchart TD
 
 ### 1.1 Conjunto dos Números Naturais e Inteiros
 
-* **Conjunto dos Números Naturais ($\mathbb{N}$):**
+- **Conjunto dos Números Naturais ($\mathbb{N}$):**
   $$\mathbb{N} = \{0, 1, 2, 3, 4, 5, \dots\}$$
   Representa o conjunto de contagem primitiva e ordenação de elementos discretos. É fechado sob as operações de adição e multiplicação (a soma ou produto de dois naturais é sempre um natural), mas falha no fechamento da subtração quando o minuendo é menor que o subtraendo ($3 - 8 \notin \mathbb{N}$).
-* **Conjunto dos Números Inteiros ($\mathbb{Z}$):**
+- **Conjunto dos Números Inteiros ($\mathbb{Z}$):**
   $$\mathbb{Z} = \{\dots, -3, -2, -1, 0, 1, 2, 3, \dots\}$$
   Incorpora os opostos simétricos (negativos) aos números naturais, viabilizando o fechamento irrestrito da subtração. Na reta numérica, os inteiros organizam-se ordenadamente em torno da origem zero.
-    * *Regra de Sinais na Multiplicação e Divisão:* Sinais iguais geram resultado positivo ($+ \cdot + = +$; $- \cdot - = +$); sinais contrários geram resultado negativo ($+ \cdot - = -$; $- \cdot + = -$).
-    * *Adição de Inteiros com Sinais Opostos:* Conserva-se o sinal do termo de maior valor absoluto (módulo) e subtraem-se os valores: $(-15) + (+9) = -(15 - 9) = -6$.
+  - *Regra de Sinais na Multiplicação e Divisão:* Sinais iguais geram resultado positivo ($+ \cdot + = +$; $- \cdot - = +$); sinais contrários geram resultado negativo ($+ \cdot - = -$; $- \cdot + = -$).
+  - *Adição de Inteiros com Sinais Opostos:* Conserva-se o sinal do termo de maior valor absoluto (módulo) e subtraem-se os valores: $(-15) + (+9) = -(15 - 9) = -6$.
 
 ### 1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas
 
@@ -87,11 +85,11 @@ Todo número racional pode ser transcrito sob representação decimal, dividindo
 1. **Decimais Exatos (ou Finitos):** Apresentam um número finito de casas decimais após a vírgula. Isso ocorre quando a fração irredutível $\frac{a}{b}$ possui um denominador $b$ decomposto exclusivamente em fatores primos iguais a $2$ e/ou $5$:
    $$0,75 = \frac{75}{100} = \frac{3}{4} \quad (4 = 2^2); \qquad 0,35 = \frac{35}{100} = \frac{7}{20} \quad (20 = 2^2 \times 5)$$
 2. **Dízimas Periódicas:** Apresentam infinitas casas decimais que se repetem de maneira cíclica a partir de um bloco repetitivo denominado **período**:
-    * **Dízima Periódica Simples:** O período principia imediatamente após a vírgula:
+    - **Dízima Periódica Simples:** O período principia imediatamente após a vírgula:
      $$0,\overline{4} = 0,444\dots = \frac{4}{9}; \qquad 0,\overline{27} = 0,2727\dots = \frac{27}{99} = \frac{3}{11}$$
-    * **Dízima Periódica Composta:** Existe um segmento decimal que não se repete (o antiperíodo) posicionado entre a vírgula e o início do período:
+    - **Dízima Periódica Composta:** Existe um segmento decimal que não se repete (o antiperíodo) posicionado entre a vírgula e o início do período:
      $$0,1\overline{6} = 0,1666\dots$$
-    * **Regra Prática da Fração Geratriz para Dízimas Compostas:**
+    - **Regra Prática da Fração Geratriz para Dízimas Compostas:**
      $$\text{Fração Geratriz} = \frac{(\text{Antiperíodo seguido do Período}) - (\text{Antiperíodo})}{(\text{tantos 9 quantos forem os dígitos do período}) \times 10^{(\text{dígitos do antiperíodo})}}$$
      Exemplo para $0,1\overline{6}$:
      $$0,1\overline{6} = \frac{16 - 1}{90} = \frac{15}{90} = \frac{1}{6}$$
@@ -103,23 +101,23 @@ $$D = d \cdot q + r, \quad \text{onde } 0 \le r < |d|$$
 
 Propriedades críticas da divisão inteira:
 
-* O resto $r$ é **estritamente não negativo** e **menor que o divisor** ($0 \le r \le d - 1$).
-* O **resto máximo possível** na divisão por um divisor $d$ é sempre igual a $d - 1$. Se um problema indagar o resto máximo obtido na divisão por $15$, esse valor é inequivocamente $15 - 1 = 14$.
+- O resto $r$ é **estritamente não negativo** e **menor que o divisor** ($0 \le r \le d - 1$).
+- O **resto máximo possível** na divisão por um divisor $d$ é sempre igual a $d - 1$. Se um problema indagar o resto máximo obtido na divisão por $15$, esse valor é inequivocamente $15 - 1 = 14$.
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Em problemas que envolvem ciclos e restos de divisão (dias da semana, rodízio de equipes, posições de algarismos), o divisor corresponde ao tamanho do ciclo. Se o resto for zero, significa que a divisão foi exata e que a posição procurada corresponde rigorosamente ao **último elemento** do ciclo periódico, e não ao primeiro!
 
 ---
 
 ### Teste 072
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a expressão numérica $E = 0{,}333... + \frac{1}{6} - 0{,}25$. O valor exato de $E$ expresso sob a forma de fração irredutível é igual a:
 
-* **A)** $\frac{1}{4}$
-* **B)** $\frac{1}{3}$
-* **C)** $\frac{1}{2}$
-* **D)** $\frac{5}{12}$
-* **E)** $\frac{7}{12}$
-
+- **A)** $\frac{1}{4}$
+- **B)** $\frac{1}{3}$
+- **C)** $\frac{1}{2}$
+- **D)** $\frac{5}{12}$
+- **E)** $\frac{7}{12}$
 
 ---
 
@@ -143,17 +141,17 @@ Considere a expressão numérica $E = 0{,}333... + \frac{1}{6} - 0{,}25$. O valo
 ---
 
 ### Teste 073
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a sequência infinita de números formados pela repetição cíclica dos algarismos do número 74582:
 $$7, 4, 5, 8, 2, 7, 4, 5, 8, 2, 7, 4, 5, 8, 2, \dots$$
 O algarismo que ocupa a 2027ª posição nessa sequência e o resto da divisão de 2027 por 5 são, respectivamente:
 
-* **A)** 5 e 2
-* **B)** 4 e 2
-* **C)** 7 e 1
-* **D)** 5 e 3
-* **E)** 8 e 4
-
+- **A)** 5 e 2
+- **B)** 4 e 2
+- **C)** 7 e 1
+- **D)** 5 e 3
+- **E)** 8 e 4
 
 ---
 
@@ -182,7 +180,7 @@ O algarismo que ocupa a 2027ª posição nessa sequência e o resto da divisão 
 > - **C)** Incorreta. Aponta resto 1 e algarismo 7.
 > - **D)** Incorreta. Afirma erroneamente que o resto de 2027 por 5 é 3.
 > - **E)** Incorreta. Aponta o algarismo 8 e resto 4.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -208,26 +206,26 @@ A avaliação de expressões aritméticas complexas exige obediência à ordem u
 
 A potenciação traduz o produto de fatores idênticos repetidos ($a^n = \underbrace{a \cdot a \cdots a}_{n \text{ vezes}}$). Suas propriedades fundamentais incluem:
 
-* Produto de potências de mesma base: $a^m \cdot a^n = a^{m+n}$
-* Divisão de potências de mesma base: $\frac{a^m}{a^n} = a^{m-n} \quad (a \neq 0)$
-* Potência de potência: $(a^m)^n = a^{m \cdot n}$
-* Potência de produto: $(a \cdot b)^n = a^n \cdot b^n$
-* Expoente nulo: $a^0 = 1 \quad (a \neq 0)$
-* Expoente negativo: $a^{-n} = \frac{1}{a^n} = \left(\frac{1}{a}\right)^n \quad (a \neq 0)$
-* Expoente fracionário (Radiciação): $a^{\frac{m}{n}} = \sqrt[n]{a^m}$
+- Produto de potências de mesma base: $a^m \cdot a^n = a^{m+n}$
+- Divisão de potências de mesma base: $\frac{a^m}{a^n} = a^{m-n} \quad (a \neq 0)$
+- Potência de potência: $(a^m)^n = a^{m \cdot n}$
+- Potência de produto: $(a \cdot b)^n = a^n \cdot b^n$
+- Expoente nulo: $a^0 = 1 \quad (a \neq 0)$
+- Expoente negativo: $a^{-n} = \frac{1}{a^n} = \left(\frac{1}{a}\right)^n \quad (a \neq 0)$
+- Expoente fracionário (Radiciação): $a^{\frac{m}{n}} = \sqrt[n]{a^m}$
 
 ---
 
 ### Teste 074
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O valor numérico da expressão aritmética $K = \frac{2^{20} + 2^{18}}{2^{19} - 2^{17}}$ é igual a:
 
-* **A)** $\frac{5}{3}$ em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** $\frac{10}{3}$
-* **C)** $2$
-* **D)** $4$
-* **E)** $\frac{5}{6}$
-
+- **A)** $\frac{5}{3}$ em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **B)** $\frac{10}{3}$
+- **C)** $2$
+- **D)** $4$
+- **E)** $\frac{5}{6}$
 
 ---
 
@@ -252,22 +250,23 @@ A teoria dos números fornece o ferramental algébrico para lidar com divisões 
 
 Permitem verificar se um número inteiro $N$ é divisível por outro sem executar a divisão longa:
 
-* **Por 2:** O último algarismo da direita é par ($0, 2, 4, 6, 8$).
-* **Por 3:** A soma dos valores absolutos dos seus algarismos é um múltiplo de 3 (ex.: $7.458 \rightarrow 7 + 4 + 5 + 8 = 24$, que é divisível por 3).
-* **Por 4:** O número formado pelos dois últimos algarismos é divisível por 4 ou termina em $00$.
-* **Por 5:** O último algarismo é $0$ ou $5$.
-* **Por 6:** É simultaneamente divisível por 2 (par) e por 3 (soma dos algarismos múltipla de 3).
-* **Por 8:** O número formado pelos três últimos algarismos é divisível por 8 ou termina em $000$.
-* **Por 9:** A soma dos seus algarismos resulta em um múltiplo de 9.
-* **Por 10:** O último algarismo é obrigatoriamente $0$.
-* **Por 11:** A diferença entre a soma dos algarismos de ordem ímpar e a soma dos algarismos de ordem par é múltipla de 11 (incluindo o zero).
+- **Por 2:** O último algarismo da direita é par ($0, 2, 4, 6, 8$).
+- **Por 3:** A soma dos valores absolutos dos seus algarismos é um múltiplo de 3 (ex.: $7.458 \rightarrow 7 + 4 + 5 + 8 = 24$, que é divisível por 3).
+- **Por 4:** O número formado pelos dois últimos algarismos é divisível por 4 ou termina em $00$.
+- **Por 5:** O último algarismo é $0$ ou $5$.
+- **Por 6:** É simultaneamente divisível por 2 (par) e por 3 (soma dos algarismos múltipla de 3).
+- **Por 8:** O número formado pelos três últimos algarismos é divisível por 8 ou termina em $000$.
+- **Por 9:** A soma dos seus algarismos resulta em um múltiplo de 9.
+- **Por 10:** O último algarismo é obrigatoriamente $0$.
+- **Por 11:** A diferença entre a soma dos algarismos de ordem ímpar e a soma dos algarismos de ordem par é múltipla de 11 (incluindo o zero).
 
 ### 3.2 Decomposição em Fatores Primos e Contagem de Divisores Positivos
 
 Pelo Teorema Fundamental da Aritmética, qualquer número natural maior que 1 pode ser decomposto de forma única (a menos da ordem dos fatores) em um produto de potências de números primos:
 $$N = p_1^{\alpha} \cdot p_2^{\beta} \cdot p_3^{\gamma} \cdots p_k^{\omega}$$
 
-#### Quantidade Total de Divisores Positivos:
+#### Quantidade Total de Divisores Positivos
+
 O número total de divisores inteiros positivos de $N$ é obtido somando-se uma unidade a cada expoente da fatoração canônica e multiplicando-se os resultados:
 $$Q(N) = (\alpha + 1)(\beta + 1)(\gamma + 1)\cdots(\omega + 1)$$
 *Exemplo:* Para encontrar quantos divisores possui o número 360:
@@ -277,7 +276,7 @@ $$360 = 2^3 \cdot 3^2 \cdot 5^1 \implies Q(360) = (3 + 1)(2 + 1)(1 + 1) = 4 \tim
 
 O **Mínimo Múltiplo Comum (MMC)** entre dois ou mais inteiros é o menor número natural não nulo que é divisível simultaneamente por todos eles.
 
-* **Cálculo Prático:** Decompõem-se os números em fatores primos; o MMC é o produto de **todos os fatores primos comuns e não comuns, elevados aos seus maiores expoentes**.
+- **Cálculo Prático:** Decompõem-se os números em fatores primos; o MMC é o produto de **todos os fatores primos comuns e não comuns, elevados aos seus maiores expoentes**.
 
 ```mermaid
 flowchart LR
@@ -292,10 +291,10 @@ flowchart LR
 
 O **Máximo Divisor Comum (MDC)** é o maior número inteiro capaz de dividir exatamente todos os números dados, sem deixar resto.
 
-* **Cálculo Prático:** É o produto **apenas dos fatores primos comuns a todos os números, elevados aos seus menores expoentes**.
+- **Cálculo Prático:** É o produto **apenas dos fatores primos comuns a todos os números, elevados aos seus menores expoentes**.
 
 | Característica | Mínimo Múltiplo Comum (MMC) | Máximo Divisor Comum (MDC) |
-|---|---|---|
+| --- | --- | --- |
 | **Ideia central** | Coincidência, repetição, sincronia periódica | Divisão, partição equitativa, corte em partes iguais |
 | **Palavras-chave** | "Quando voltarão a se encontrar?", "periodicidade", "ciclos", "simultaneamente" | "Maior tamanho possível", "sem sobras", "dividir igualmente", "menor número de caixas" |
 | **Fatoração em primos** | Fatores comuns e não comuns com os **maiores expoentes** | Apenas fatores **comuns** com os **menores expoentes** |
@@ -310,15 +309,15 @@ $$\text{MMC}(a, b) \times \text{MDC}(a, b) = a \times b$$
 ---
 
 ### Teste 075
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O número de divisores naturais positivos do número inteiro $N = 360$ é igual a:
 
-* **A)** $18$
-* **B)** $24$
-* **C)** $20$
-* **D)** $30$
-* **E)** $12$
-
+- **A)** $18$
+- **B)** $24$
+- **C)** $20$
+- **D)** $30$
+- **E)** $12$
 
 ---
 
@@ -342,17 +341,17 @@ O número de divisores naturais positivos do número inteiro $N = 360$ é igual 
 ---
 
 ### Teste 076
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Três equipes de fiscalização do Tribunal de Contas realizam auditorias periódicas em municípios do interior goiano. A equipe Alfa realiza auditorias a cada 12 dias; a equipe Beta, a cada 18 dias; e a equipe Gama, a cada 20 dias. No dia 1º de março de determinado ano não bissexto, as três equipes iniciaram suas inspeções simultaneamente.
 
 O número de dias que decorrerão até que as três equipes voltem a iniciar suas auditorias no mesmo dia é:
 
-* **A)** 60 dias
-* **B)** 120 dias
-* **C)** 180 dias
-* **D)** 240 dias
-* **E)** 360 dias
-
+- **A)** 60 dias
+- **B)** 120 dias
+- **C)** 180 dias
+- **D)** 240 dias
+- **E)** 360 dias
 
 ---
 
@@ -363,10 +362,10 @@ O número de dias que decorrerão até que as três equipes voltem a iniciar sua
 > - $12 = 2^2 \times 3$
 > - $18 = 2 \times 3^2$
 > - $20 = 2^2 \times 5$
-> 
+>
 > O MMC reúne todos os fatores primos presentes (2, 3 e 5), elevados aos seus maiores expoentes:
 > $$\text{MMC}(12, 18, 20) = 2^2 \times 3^2 \times 5 = 4 \times 9 \times 5 = 180 \text{ dias}$$
-> 
+>
 > Análise individual das alternativas:
 >
 > - **A)** Incorreta. 60 é múltiplo comum de 12 e 20, mas não é divisível por 18 ($60 \div 18 \approx 3,33$).
@@ -374,23 +373,23 @@ O número de dias que decorrerão até que as três equipes voltem a iniciar sua
 > - **C)** Correta. 180 é o menor número natural simultaneamente divisível por 12 ($180/12 = 15$), 18 ($180/18 = 10$) e 20 ($180/20 = 9$).
 > - **D)** Incorreta. 240 não é divisível por 18 ($240 \div 18 \approx 13,33$).
 > - **E)** Incorreta. 360 é um múltiplo comum posterior, mas a questão indaga expressamente quando voltarão a coincidir (primeiro reencontro após 1º de março).
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 077
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma coordenadoria administrativa do TCE-GO precisa arquivar 168 pastas de auditoria do tipo A, 216 pastas do tipo B e 264 pastas do tipo C em caixas organizadoras. Todas as caixas devem conter o mesmo número de pastas, sendo que cada caixa conterá pastas de um único tipo, e o número de pastas por caixa deve ser o **maior possível**, sem que sobre nenhuma pasta avulsa.
 
 Nessas condições, o **número total de caixas organizadoras** necessárias para arquivar todas as pastas é:
 
-* **A)** 24
-* **B)** 27
-* **C)** 32
-* **D)** 36
-* **E)** 48
-
+- **A)** 24
+- **B)** 27
+- **C)** 32
+- **D)** 36
+- **E)** 48
 
 ---
 
@@ -416,7 +415,7 @@ Nessas condições, o **número total de caixas organizadoras** necessárias par
 > - **C)** Incorreta. Com 32 caixas, o total de 648 pastas ($168 + 216 + 264$) exigiria $648 \div 32 = 20{,}25$ pastas por caixa (valor não inteiro), o que é inviável.
 > - **D)** Incorreta. Com 36 caixas, haveria $648 \div 36 = 18$ pastas por caixa; porém 18 não divide 168 ($168 \div 18 \approx 9{,}33$), o que deixaria pastas avulsas.
 > - **E)** Incorreta. Com 48 caixas, haveria $648 \div 48 = 13{,}5$ pastas por caixa (valor não inteiro), o que é inviável.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -427,16 +426,16 @@ Uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $
 
 ### 4.1 Conceito, Tipologias e Equivalência de Frações
 
-* **Fração Própria:** O numerador é menor que o denominador ($a < b$). Representa um valor estritamente menor que a unidade inteira ($\frac{2}{5}, \frac{7}{9}$).
-* **Fração Imprópria:** O numerador é maior ou igual ao denominador ($a \ge b$). Representa um valor maior ou igual à unidade inteira ($\frac{7}{4}, \frac{11}{3}$). Podem ser convertidas em **números mistos**: $\frac{7}{4} = 1 \frac{3}{4}$.
-* **Fração Aparente:** O numerador é múltiplo exato do denominador, consubstanciando um número inteiro disfarçado ($\frac{12}{3} = 4, \frac{35}{7} = 5$).
-* **Frações Equivalentes e Irredutibilidade:** Duas frações são equivalentes quando representam a mesma grandeza fracionária ($\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$). Obtém-se a fração irredutível simplificando numerador e denominador pelo seu MDC.
+- **Fração Própria:** O numerador é menor que o denominador ($a < b$). Representa um valor estritamente menor que a unidade inteira ($\frac{2}{5}, \frac{7}{9}$).
+- **Fração Imprópria:** O numerador é maior ou igual ao denominador ($a \ge b$). Representa um valor maior ou igual à unidade inteira ($\frac{7}{4}, \frac{11}{3}$). Podem ser convertidas em **números mistos**: $\frac{7}{4} = 1 \frac{3}{4}$.
+- **Fração Aparente:** O numerador é múltiplo exato do denominador, consubstanciando um número inteiro disfarçado ($\frac{12}{3} = 4, \frac{35}{7} = 5$).
+- **Frações Equivalentes e Irredutibilidade:** Duas frações são equivalentes quando representam a mesma grandeza fracionária ($\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$). Obtém-se a fração irredutível simplificando numerador e denominador pelo seu MDC.
 
 ### 4.2 Operações Aritméticas com Frações
 
 1. **Adição e Subtração:**
-    * Com denominadores iguais: conserva-se o denominador comum e operam-se os numeradores: $\frac{a}{c} \pm \frac{b}{c} = \frac{a \pm b}{c}$.
-    * Com denominadores distintos: reduz-se ao mesmo denominador mediante o cálculo do MMC dos denominadores:
+    - Com denominadores iguais: conserva-se o denominador comum e operam-se os numeradores: $\frac{a}{c} \pm \frac{b}{c} = \frac{a \pm b}{c}$.
+    - Com denominadores distintos: reduz-se ao mesmo denominador mediante o cálculo do MMC dos denominadores:
      $$\frac{a}{b} \pm \frac{c}{d} = \frac{\left(\frac{\text{MMC}}{b} \cdot a\right) \pm \left(\frac{\text{MMC}}{d} \cdot c\right)}{\text{MMC}(b, d)}$$
 2. **Multiplicação:** Multiplicam-se os numeradores entre si e os denominadores entre si:
    $$\frac{a}{b} \times \frac{c}{d} = \frac{a \cdot c}{b \cdot d}$$
@@ -447,15 +446,15 @@ Uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $
 ---
 
 ### Teste 078
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um servidor do tribunal recebeu determinado lote de processos para instruir. No primeiro dia, analisou $\frac{2}{5}$ do total de processos; no segundo dia, analisou $\frac{1}{3}$ do que havia sobrado; e, no terceiro dia, concluiu os últimos $24$ processos restantes. O número total de processos contidos no lote original era igual a:
 
-* **A)** $50$
-* **B)** $60$
-* **C)** $75$
-* **D)** $80$
-* **E)** $90$
-
+- **A)** $50$
+- **B)** $60$
+- **C)** $75$
+- **D)** $80$
+- **E)** $90$
 
 ---
 
@@ -483,12 +482,12 @@ Um servidor do tribunal recebeu determinado lote de processos para instruir. No 
 
 Problemas clássicos da FCC narram um agente que consome uma fração de um montante total no primeiro dia, gasta uma fração **do restante** no segundo dia e encerra com uma quantia fixa final:
 
-* Se no passo 1 gasta-se $\frac{1}{3}$ do total $T$, sobra:
+- Se no passo 1 gasta-se $\frac{1}{3}$ do total $T$, sobra:
   $$\text{Resto}_1 = 1 - \frac{1}{3} = \frac{2}{3}T$$
-* Se no passo 2 gasta-se $\frac{3}{5}$ **do que sobrou**, o gasto é $\frac{3}{5} \times \frac{2}{3}T = \frac{6}{15}T = \frac{2}{5}T$.
-* A parcela que resta ao final é o complementar de $\frac{3}{5}$ sobre o restante prévio:
+- Se no passo 2 gasta-se $\frac{3}{5}$ **do que sobrou**, o gasto é $\frac{3}{5} \times \frac{2}{3}T = \frac{6}{15}T = \frac{2}{5}T$.
+- A parcela que resta ao final é o complementar de $\frac{3}{5}$ sobre o restante prévio:
   $$\text{Resto Final} = \left(1 - \frac{3}{5}\right) \times \frac{2}{3}T = \frac{2}{5} \times \frac{2}{3}T = \frac{4}{15}T$$
-* Igualando essa fração ao valor numérico remanescente dado no enunciado, descobre-se o total $T$ por equação direta.
+- Igualando essa fração ao valor numérico remanescente dado no enunciado, descobre-se o total $T$ por equação direta.
 
 ### 5.2 Problemas de Trabalho Conjunto e Torneiras
 
@@ -511,17 +510,17 @@ Em problemas que constroem sequências infinitas repetindo ciclicamente um conju
 ---
 
 ### Teste 079
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um auditor do TCE-GO foi designado para realizar a conferência documental de uma amostra de processos de licitação municipal. No primeiro dia de trabalho, o auditor analisou $\frac{1}{3}$ do total de processos da amostra. No segundo dia, analisou $\frac{3}{5}$ dos processos **restantes**. No terceiro dia, finalizou a conferência analisando os últimos 48 processos.
 
 O número total de processos contidos originalmente nessa amostra era:
 
-* **A)** 150
-* **B)** 160
-* **C)** 180
-* **D)** 200
-* **E)** 240
-
+- **A)** 150
+- **B)** 160
+- **C)** 180
+- **D)** 200
+- **E)** 240
 
 ---
 
@@ -543,23 +542,23 @@ O número total de processos contidos originalmente nessa amostra era:
 > - **C)** Correta. Com $T = 180$: no dia 1 são analisados 60 processos (restando 120); no dia 2 são analisados $\frac{3}{5} \times 120 = 72$ processos (restando $120 - 72 = 48$); no dia 3 são analisados exatamente os 48 processos finais.
 > - **D)** Incorreta. Com $T = 200$, o resto final seria $\frac{4}{15} \times 200 \approx 53{,}3$ processos (valor não inteiro), divergindo dos 48 informados. (Erro típico: aplicar $\frac{3}{5}$ sobre o total geral em vez de sobre o restante, o que daria $1 - \frac{1}{3} - \frac{3}{5} = \frac{1}{15}$ e $T = 720$, valor que nem figura entre as alternativas.)
 > - **E)** Incorreta. Com $T = 240$, o resto final seria $\frac{4}{15} \times 240 = 64$ processos, divergindo dos 48 informados.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 080
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Dois técnicos de controle externo, Bruno e Camila, foram encarregados de digitalizar e indexar um acervo de processos arquivados. Trabalhando sozinho, Bruno realiza todo o serviço em 6 horas. Camila, trabalhando sozinha, executa o mesmo serviço em 4 horas. 
+Dois técnicos de controle externo, Bruno e Camila, foram encarregados de digitalizar e indexar um acervo de processos arquivados. Trabalhando sozinho, Bruno realiza todo o serviço em 6 horas. Camila, trabalhando sozinha, executa o mesmo serviço em 4 horas.
 
 Se Bruno e Camila trabalharem juntos, no mesmo ritmo de produtividade constante, o tempo necessário para digitalizar e indexar todo o acervo será de:
 
-* **A)** 2 horas e 12 minutos
-* **B)** 2 horas e 24 minutos
-* **C)** 2 horas e 30 minutos
-* **D)** 2 horas e 40 minutos
-* **E)** 5 horas
-
+- **A)** 2 horas e 12 minutos
+- **B)** 2 horas e 24 minutos
+- **C)** 2 horas e 30 minutos
+- **D)** 2 horas e 40 minutos
+- **E)** 5 horas
 
 ---
 
@@ -584,23 +583,23 @@ Se Bruno e Camila trabalharem juntos, no mesmo ritmo de produtividade constante,
 > - **C)** Incorreta. Resulta da confusão de achar que 2,4h equivale à média de tempo ou 2h30min.
 > - **D)** Incorreta. Erro crasso de interpretar o dígito 4 do número decimal 2,4 como 40 minutos (a contagem do tempo é sexagesimal, base 60, e não decimal).
 > - **E)** Incorreta. Média aritmética ingênua dos tempos individuais ($\frac{6 + 4}{2} = 5 \text{ horas}$), o que contraria o fato óbvio de que duas pessoas trabalhando juntas terminam a tarefa em tempo menor que o trabalhador mais rápido isoladamente.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 081
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a sequência infinita de letras:  
 $$T, C, E, G, O, I, A, S, T, C, E, G, O, I, A, S, T, C, E, ...$$  
 formada pela repetição contínua do bloco de palavras *"TCEGOIAS"*. A letra que ocupa a 2027ª posição dessa sequência é:
 
-* **A)** T
-* **B)** C
-* **C)** E
-* **D)** G
-* **E)** S
-
+- **A)** T
+- **B)** C
+- **C)** E
+- **D)** G
+- **E)** S
 
 ---
 
@@ -624,11 +623,11 @@ formada pela repetição contínua do bloco de palavras *"TCEGOIAS"*. A letra qu
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Khan Academy Brasil - Aritmética e Operações Fundamentais](https://pt.khanacademy.org/math/arithmetic) - Operações fundamentais com inteiros e números racionais, potenciação e expressões numéricas.
-* [Khan Academy Brasil - Frações e Operações Fracionárias](https://pt.khanacademy.org/math/arithmetic/fraction-arithmetic) - Adição, subtração, multiplicação, divisão e simplificação de frações ordinárias.
-* [Khan Academy Brasil - Pré-Álgebra: Fatores, Primos e Divisibilidade](https://pt.khanacademy.org/math/pre-algebra) - Critérios de divisibilidade, números primos, fatoração e cálculo de MMC e MDC.
-* [OBMEP / IMPA - Apostila 1 do PIC: Iniciação à Aritmética](https://www.obmep.org.br/docs/apostila1.pdf) - Teoria elementar dos números, divisibilidade, algoritmo da divisão de Euclides e propriedades de restos (Prof. Abramo Hefez).
-* [OBMEP / IMPA - Apostila Temática: Aritmética](https://www.obmep.org.br/docs/aritmetica.pdf) - Módulo aprofundado com demonstrações teóricas e problemas clássicos de aritmética e números inteiros.
-* ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 1 e 2 - Fundamentos e Operações Básicas).
-* HEFEZ, Abramo. **Elementos de Aritmética**. 2. ed. Rio de Janeiro: SBM, 2011. (Cap. 2 - Divisibilidade e Algoritmo de Euclides).
-* IEZZI, Gelson; MURAKAMI, Carlos. **Fundamentos de Matemática Elementar, Volume 1: Conjuntos e Funções**. 9. ed. São Paulo: Atual, 2013. (Cap. 1 a 3 - Conjuntos Numéricos Fundamentais).
+- [Khan Academy Brasil - Aritmética e Operações Fundamentais](https://pt.khanacademy.org/math/arithmetic) - Operações fundamentais com inteiros e números racionais, potenciação e expressões numéricas.
+- [Khan Academy Brasil - Frações e Operações Fracionárias](https://pt.khanacademy.org/math/arithmetic/fraction-arithmetic) - Adição, subtração, multiplicação, divisão e simplificação de frações ordinárias.
+- [Khan Academy Brasil - Pré-Álgebra: Fatores, Primos e Divisibilidade](https://pt.khanacademy.org/math/pre-algebra) - Critérios de divisibilidade, números primos, fatoração e cálculo de MMC e MDC.
+- [OBMEP / IMPA - Apostila 1 do PIC: Iniciação à Aritmética](https://www.obmep.org.br/docs/apostila1.pdf) - Teoria elementar dos números, divisibilidade, algoritmo da divisão de Euclides e propriedades de restos (Prof. Abramo Hefez).
+- [OBMEP / IMPA - Apostila Temática: Aritmética](https://www.obmep.org.br/docs/aritmetica.pdf) - Módulo aprofundado com demonstrações teóricas e problemas clássicos de aritmética e números inteiros.
+- ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 1 e 2 - Fundamentos e Operações Básicas).
+- HEFEZ, Abramo. **Elementos de Aritmética**. 2. ed. Rio de Janeiro: SBM, 2011. (Cap. 2 - Divisibilidade e Algoritmo de Euclides).
+- IEZZI, Gelson; MURAKAMI, Carlos. **Fundamentos de Matemática Elementar, Volume 1: Conjuntos e Funções**. 9. ed. São Paulo: Atual, 2013. (Cap. 1 a 3 - Conjuntos Numéricos Fundamentais).

@@ -4,12 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `03_controle_de_acesso_iam_e_arquitetura_zero_trust.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Controle de acesso lógico: Autenticação, Autorização e Auditoria (AAA)
 - Fatores de autenticação e Autenticação Multifator (MFA)
 - Modelos clássicos de controle de acesso: DAC, MAC, RBAC e ABAC
@@ -20,40 +18,40 @@
 
 ## 🧭 Sumário
 
-1. [Controle de Acesso Lógico e Mecanismos de Autenticação](#1-controle-de-acesso-logico-e-mecanismos-de-autenticacao)
-    - [1.1 O Modelo AAA (Authentication, Authorization, Accounting)](#11-o-modelo-aaa-authentication-authorization-accounting)
-    - [1.2 Os Três Fatores Clássicos de Autenticação](#12-os-tres-fatores-classicos-de-autenticacao)
-    - [1.3 Autenticação Multifator (MFA / 2FA) e Regras Mandatórias](#13-autenticacao-multifator-mfa-2fa-e-regras-mandatorias)
-    - [1.4 Ameaças e Vetores de Ataque contra Credenciais](#14-ameacas-e-vetores-de-ataque-contra-credenciais)
-    - [Teste 377](#teste-377)
-    - [Teste 378](#teste-378)
-    - [Teste 379](#teste-379)
-2. [Modelos Clássicos de Controle de Acesso Lógico](#2-modelos-classicos-de-controle-de-acesso-logico)
-    - [2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)](#21-visao-geral-e-comparativo-dos-modelos-dac-mac-rbac-abac)
-    - [2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso](#22-dac-discretionary-access-control-e-listas-de-controle-de-acesso)
-    - [2.3 MAC (Mandatory Access Control) e Modelos Multiníveis Formais: Bell-LaPadula vs. Biba](#23-mac-mandatory-access-control-e-modelos-multiniveis-formais-bell-lapadula-vs-biba)
-    - [2.4 RBAC (Role-Based Access Control) na Governança Corporativa](#24-rbac-role-based-access-control-na-governanca-corporativa)
-    - [2.5 ABAC (Attribute-Based Access Control) e a Norma XACML](#25-abac-attribute-based-access-control-e-a-norma-xacml)
-    - [Teste 380](#teste-380)
-    - [Teste 381](#teste-381)
-    - [Teste 382](#teste-382)
-3. [Gestão de Identidades e Acessos (IAM) e PAM](#3-gestao-de-identidades-e-acessos-iam-e-pam)
-    - [3.1 Ciclo de Vida da Identidade (Onboarding, Movimentação e Offboarding)](#31-ciclo-de-vida-da-identidade-onboarding-movimentacao-e-offboarding)
-    - [3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)](#32-menor-privilegio-polp-vs-acumulo-indevido-privilege-creep)
-    - [3.3 Gestão de Acessos Privilegiados (PAM): Cofre, JIT e Sessões Gravadas](#33-gestao-de-acessos-privilegiados-pam-cofre-jit-e-sessoes-gravadas)
-    - [3.4 Federação de Identidades e Single Sign-On (SSO, SAML 2.0, OpenID Connect)](#34-federacao-de-identidades-e-single-sign-on-sso-saml-20-openid-connect)
-    - [Teste 383](#teste-383)
-    - [Teste 384](#teste-384)
-4. [Arquitetura Zero Trust (Confiança Zero - NIST SP 800-207)](#4-arquitetura-zero-trust-confianca-zero-nist-sp-800-207)
-    - [4.1 O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")](#41-o-colapso-da-seguranca-de-borda-tradicional-castelo-e-fosso)
-    - [4.2 Os Três Princípios Norteadores Oficiais do Zero Trust](#42-os-tres-principios-norteadores-oficiais-do-zero-trust)
-    - [4.3 Pilares Fundamentais da Confiança Zero](#43-pilares-fundamentais-da-confianca-zero)
-    - [4.4 Microsegmentação e Contenção do Movimento Lateral](#44-microsegmentacao-e-contencao-do-movimento-lateral)
-    - [4.5 Componentes Lógicos: Policy Engine (PE), Policy Administrator (PA) e Policy Enforcement Point (PEP)](#45-componentes-logicos-policy-engine-pe-policy-administrator-pa-e-policy-enforcement-point-pep)
-    - [Teste 385](#teste-385)
-    - [Teste 386](#teste-386)
-    - [Teste 387](#teste-387)
-6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+1. [Controle de Acesso Lógico e Mecanismos de Autenticação](#1-controle-de-acesso-lógico-e-mecanismos-de-autenticação)
+    1. [O Modelo AAA (Authentication, Authorization, Accounting)](#11-o-modelo-aaa-authentication-authorization-accounting)
+    1. [Os Três Fatores Clássicos de Autenticação](#12-os-três-fatores-clássicos-de-autenticação)
+    1. [Autenticação Multifator (MFA / 2FA) e Regras Mandatórias](#13-autenticação-multifator-mfa--2fa-e-regras-mandatórias)
+    1. [Ameaças e Vetores de Ataque contra Credenciais](#14-ameaças-e-vetores-de-ataque-contra-credenciais)
+    1. [Teste 377](#teste-377)
+    1. [Teste 378](#teste-378)
+    1. [Teste 379](#teste-379)
+2. [Modelos Clássicos de Controle de Acesso Lógico](#2-modelos-clássicos-de-controle-de-acesso-lógico)
+    1. [Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)](#21-visão-geral-e-comparativo-dos-modelos-dac-mac-rbac-abac)
+    1. [DAC (Discretionary Access Control) e Listas de Controle de Acesso](#22-dac-discretionary-access-control-e-listas-de-controle-de-acesso)
+    1. [MAC (Mandatory Access Control) e Modelos Multiníveis Formais: Bell-LaPadula vs. Biba](#23-mac-mandatory-access-control-e-modelos-multiníveis-formais-bell-lapadula-vs-biba)
+    1. [RBAC (Role-Based Access Control) na Governança Corporativa](#24-rbac-role-based-access-control-na-governança-corporativa)
+    1. [ABAC (Attribute-Based Access Control) e a Norma XACML](#25-abac-attribute-based-access-control-e-a-norma-xacml)
+    1. [Teste 380](#teste-380)
+    1. [Teste 381](#teste-381)
+    1. [Teste 382](#teste-382)
+3. [Gestão de Identidades e Acessos (IAM) e PAM](#3-gestão-de-identidades-e-acessos-iam-e-pam)
+    1. [Ciclo de Vida da Identidade (Onboarding, Movimentação e Offboarding)](#31-ciclo-de-vida-da-identidade-onboarding-movimentação-e-offboarding)
+    1. [Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)](#32-menor-privilégio-polp-vs-acúmulo-indevido-privilege-creep)
+    1. [Gestão de Acessos Privilegiados (PAM): Cofre, JIT e Sessões Gravadas](#33-gestão-de-acessos-privilegiados-pam-cofre-jit-e-sessões-gravadas)
+    1. [Federação de Identidades e Single Sign-On (SSO, SAML 2.0, OpenID Connect)](#34-federação-de-identidades-e-single-sign-on-sso-saml-20-openid-connect)
+    1. [Teste 383](#teste-383)
+    1. [Teste 384](#teste-384)
+4. [Arquitetura Zero Trust (Confiança Zero - NIST SP 800-207)](#4-arquitetura-zero-trust-confiança-zero---nist-sp-800-207)
+    1. [O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")](#41-o-colapso-da-segurança-de-borda-tradicional-castelo-e-fosso)
+    1. [Os Três Princípios Norteadores Oficiais do Zero Trust](#42-os-três-princípios-norteadores-oficiais-do-zero-trust)
+    1. [Pilares Fundamentais da Confiança Zero](#43-pilares-fundamentais-da-confiança-zero)
+    1. [Microsegmentação e Contenção do Movimento Lateral](#44-microsegmentação-e-contenção-do-movimento-lateral)
+    1. [Componentes Lógicos: Policy Engine (PE), Policy Administrator (PA) e Policy Enforcement Point (PEP)](#45-componentes-lógicos-policy-engine-pe-policy-administrator-pa-e-policy-enforcement-point-pep)
+    1. [Teste 385](#teste-385)
+    1. [Teste 386](#teste-386)
+    1. [Teste 387](#teste-387)
+5. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
 
@@ -155,17 +153,17 @@ Os mecanismos de autenticação enfrentam vetores de ataque específicos no cen�
 ---
 
 ### Teste 377
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O Modelo AAA (*Authentication, Authorization, Accounting*) é o framework arquitetural clássico utilizado para disciplinar a governança e o controle de acesso de usuários e sistemas em redes corporativas.
 
 A respeito da distinção e das atribuições de cada um dos três pilares do modelo AAA, assinale a afirmativa correta:
 
-* **A)** A Autorização (*Authorization*) ocorre antes da Autenticação e consiste na digitação do login e senha pelo usuário.
-* **B)** A Autenticação (*Authentication*) verifica a veracidade da identidade alegada pelo sujeito; a Autorização (*Authorization*) determina quais recursos específicos e permissões (leitura, escrita, exclusão) esse sujeito autenticado tem direito de acessar; e a Auditoria (*Accounting/Auditing*) rastreia e registra as ações executadas e o consumo de recursos para fins de responsabilização e conformidade.
-* **C)** O pilar de *Accounting* é dispensável em órgãos públicos porque auditorias violam o direito de privacidade funcional dos servidores. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** A Autorização garante que a identidade nunca será contestada perante um tribunal judicial.
-* **E)** Todos os três pilares são executados exclusivamente através de cartões magnéticos sem uso de software ou logs de sistema.
-
+- **A)** A Autorização (*Authorization*) ocorre antes da Autenticação e consiste na digitação do login e senha pelo usuário.
+- **B)** A Autenticação (*Authentication*) verifica a veracidade da identidade alegada pelo sujeito; a Autorização (*Authorization*) determina quais recursos específicos e permissões (leitura, escrita, exclusão) esse sujeito autenticado tem direito de acessar; e a Auditoria (*Accounting/Auditing*) rastreia e registra as ações executadas e o consumo de recursos para fins de responsabilização e conformidade.
+- **C)** O pilar de *Accounting* é dispensável em órgãos públicos porque auditorias violam o direito de privacidade funcional dos servidores. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **D)** A Autorização garante que a identidade nunca será contestada perante um tribunal judicial.
+- **E)** Todos os três pilares são executados exclusivamente através de cartões magnéticos sem uso de software ou logs de sistema.
 
 ---
 
@@ -179,23 +177,23 @@ A respeito da distinção e das atribuições de cada um dos três pilares do mo
 > - **C)** Incorreta. A auditoria e prestação de contas (*Accounting*) é dever constitucional basilar da administração pública.
 > - **D)** Incorreta. Essa propriedade refere-se ao Não Repúdio (*Non-Repudiation*), viabilizado por assinaturas e trilhas seguras.
 > - **E)** Incorreta. O modelo AAA é implementado por protocolos modernos como RADIUS, TACACS+, Diameter, LDAP e plataformas de IAM.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 378
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um projeto de reforço da segurança cibernética dos sistemas internos do Tribunal de Contas, a política de senhas estabeleceu a exigência de Autenticação Multifator (MFA) para todos os servidores com acesso a bases fiscais e contábeis.
 
 A respeito dos fatores clássicos de autenticação e dos princípios de MFA, assinale a afirmativa correta:
 
-* **A)** O fornecimento obrigatório de uma senha alfanumérica de 12 dígitos combinada com uma segunda senha numérica (código PIN) configura formalmente uma Autenticação de Dois Fatores (2FA), pois são duas senhas distintas. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Para que um mecanismo seja tecnicamente categorizado como Autenticação Multifator (MFA), exige-se a apresentação combinada de elementos pertencentes a pelo menos duas categorias conceituais diferentes: Algo que você sabe (conhecimento, ex.: senha/PIN), Algo que você tem (posse, ex.: token OTP físico/aplicativo ou chave FIDO2) e Algo que você é (inerência, ex.: biometria digital/facial).
-* **C)** O fator de posse é caracterizado pela memorização de palavras secretas e respostas a perguntas de segurança sobre fatos da vida do usuário.
-* **D)** A biometria comportamental (como o ritmo de digitação ou dinâmica de assinatura) é classificada formalmente como um fator de conhecimento puro.
-* **E)** O uso de MFA elimina a necessidade de controle de autorização e revoga automaticamente o princípio do menor privilégio.
-
+- **A)** O fornecimento obrigatório de uma senha alfanumérica de 12 dígitos combinada com uma segunda senha numérica (código PIN) configura formalmente uma Autenticação de Dois Fatores (2FA), pois são duas senhas distintas. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **B)** Para que um mecanismo seja tecnicamente categorizado como Autenticação Multifator (MFA), exige-se a apresentação combinada de elementos pertencentes a pelo menos duas categorias conceituais diferentes: Algo que você sabe (conhecimento, ex.: senha/PIN), Algo que você tem (posse, ex.: token OTP físico/aplicativo ou chave FIDO2) e Algo que você é (inerência, ex.: biometria digital/facial).
+- **C)** O fator de posse é caracterizado pela memorização de palavras secretas e respostas a perguntas de segurança sobre fatos da vida do usuário.
+- **D)** A biometria comportamental (como o ritmo de digitação ou dinâmica de assinatura) é classificada formalmente como um fator de conhecimento puro.
+- **E)** O uso de MFA elimina a necessidade de controle de autorização e revoga automaticamente o princípio do menor privilégio.
 
 ---
 
@@ -206,23 +204,23 @@ A respeito dos fatores clássicos de autenticação e dos princípios de MFA, as
 > - **C)** Incorreta. Palavras secretas e respostas a perguntas baseiam-se em memória cognitiva, caracterizando o fator de conhecimento, e não de posse.
 > - **D)** Incorreta. Qualquer biometria (seja física ou comportamental) pertence à classe da inerência ("algo que você é/faz").
 > - **E)** Incorreta. Autenticar com MFA não elimina a necessidade da autorização nem do menor privilégio; provar a identidade é apenas a segunda etapa do ciclo AAA.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 379
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Ataques cibernéticos direcionados a identidades e mecanismos de autenticação representam o principal vetor de invasão a redes corporativas de tribunais e órgãos governamentais.
 
 Dois ataques comuns e sofisticados que burlam políticas tradicionais de bloqueio de conta por tentativas consecutivas são o **Password Spraying** e o **Credential Stuffing**. A distinção técnica precisa entre essas duas modalidades de ataque consiste em:
 
-* **A)** No *Credential Stuffing*, o atacante testa milhões de senhas em uma única conta até forçar a quebra; ao passo que no *Password Spraying*, ele infecta o roteador com um worm..
-* **B)** No **Password Spraying**, o atacante testa uma única senha comum e fraca (como `Tribunal@2024`) contra milhares de nomes de usuários corporativos distintos em intervalos espaçados para evitar o disparo de regras de bloqueio de conta por excesso de falhas; enquanto no **Credential Stuffing**, o atacante utiliza listas automatizadas de pares de e-mail/senha vazados de outros serviços e violações prévias na internet, explorando o hábito generalizado dos usuários de reutilizarem as mesmas credenciais em múltiplos portais.
-* **C)** Ambos os ataques utilizam exclusivamente redes sem fio Bluetooth a curta distância para interceptar senhas em tempo real.
-* **D)** O *Password Spraying* é um ataque físico que arromba as fechaduras do datacenter.
-* **E)** A autenticação multifator (MFA) é ineficaz contra esses ataques, pois os robôs conseguem clonar biometria física à distância.
-
+- **A)** No *Credential Stuffing*, o atacante testa milhões de senhas em uma única conta até forçar a quebra; ao passo que no *Password Spraying*, ele infecta o roteador com um worm..
+- **B)** No **Password Spraying**, o atacante testa uma única senha comum e fraca (como `Tribunal@2024`) contra milhares de nomes de usuários corporativos distintos em intervalos espaçados para evitar o disparo de regras de bloqueio de conta por excesso de falhas; enquanto no **Credential Stuffing**, o atacante utiliza listas automatizadas de pares de e-mail/senha vazados de outros serviços e violações prévias na internet, explorando o hábito generalizado dos usuários de reutilizarem as mesmas credenciais em múltiplos portais.
+- **C)** Ambos os ataques utilizam exclusivamente redes sem fio Bluetooth a curta distância para interceptar senhas em tempo real.
+- **D)** O *Password Spraying* é um ataque físico que arromba as fechaduras do datacenter.
+- **E)** A autenticação multifator (MFA) é ineficaz contra esses ataques, pois os robôs conseguem clonar biometria física à distância.
 
 ---
 
@@ -236,7 +234,7 @@ Dois ataques comuns e sofisticados que burlam políticas tradicionais de bloquei
 > - **C)** Incorreta. São ataques realizados remotamente via protocolos web/API ou serviços de diretório.
 > - **D)** Incorreta. Trata-se de ameaça lógica a credenciais.
 > - **E)** Incorreta. A autenticação multifator (MFA) é precisamente o controle mais eficaz para neutralizar o impacto de ambos os ataques.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -246,7 +244,7 @@ Dois ataques comuns e sofisticados que burlam políticas tradicionais de bloquei
 ### 2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)
 
 | Modelo | Definição Central | Quem Controla os Privilégios? | Aplicações Típicas | Vantagens / Desvantagens |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **DAC** (*Discretionary Access Control*) | Controle Discricionário. O criador ou proprietário do objeto tem autonomia total para conceder, delegar ou revogar permissões a outros usuários. | O proprietário (*Owner*) do objeto. | Sistemas de arquivos tradicionais (permissões NTFS no Windows, `chmod`/`chown` no Linux). | Alta flexibilidade e operação descentralizada. Desvantagem: baixa governança e vulnerável a vazamentos causados por erros de usuários. |
 | **MAC** (*Mandatory Access Control*) | Controle Obrigatório. O sistema central impõe regras invioláveis baseadas em rótulos de sensibilidade da informação e credenciais formais de segurança do usuário. | Administrador Central do Sistema / Política global do kernel. | Ambientes militares, de inteligência e servidores de altíssima segurança (SELinux, AppArmor). | Rigidez máxima contra vazamento e cavalos de troia. Desvantagem: complexidade extrema de configuração e pouca flexibilidade. |
 | **RBAC** (*Role-Based Access Control*) | Controle Baseado em Papéis. Os privilégios são vinculados a cargos ou perfis funcionais (ex.: "Auditor Fiscal", "Operador"), e os usuários são associados aos papéis. | Administrador de Segurança Corporativo. | Bancos de dados relacionais (PostgreSQL, Oracle), sistemas ERP, processos eletrônicos de tribunais. | Alinhamento com a estrutura administrativa da organização, simplificação da auditoria e facilidade de escala. |
@@ -259,7 +257,8 @@ No modelo discricionário, a segurança gira em torno da figura do **proprietár
 - Conceder leitura, escrita ou execução para colegas de equipe.
 - Modificar permissões através de Listas de Controle de Acesso (**ACLs** - *Access Control Lists*).
 
-#### Limitação Crítica do DAC:
+#### Limitação Crítica do DAC
+
 Se um usuário mal-intencionado convencer o proprietário de um arquivo sigiloso a conceder-lhe permissão de leitura, esse segundo usuário poderá copiar os dados para um novo arquivo de sua propriedade e disponibilizá-lo publicamente, sem que o sistema consiga bloquear o vazamento.
 
 ### 2.3 MAC (Mandatory Access Control) e Modelos Multiníveis Formais: Bell-LaPadula vs. Biba
@@ -286,7 +285,8 @@ flowchart TD
     end
 ```
 
-#### Modelo Bell-LaPadula (Foco Exclusivo em CONFIDENCIALIDADE):
+#### Modelo Bell-LaPadula (Foco Exclusivo em CONFIDENCIALIDADE)
+
 Projetado na década de 1970 para as forças armadas dos EUA para impedir que dados secretos vazem para níveis inferiores:
 
 1. **Propriedade da Segurança Simples (*Simple Security Property* - ss-property):**  
@@ -294,7 +294,8 @@ Projetado na década de 1970 para as forças armadas dos EUA para impedir que da
 2. **Propriedade Estrela (*\*-Property* / Star-Property):**  
    Um sujeito em determinado nível não pode gravar ou transferir dados para um objeto de nível de sensibilidade inferior ao seu (**"No Write Down"** - Proibido escrever para baixo). *Objetivo:* Evita que um usuário com acesso a dados "Ultrassecretos" copie inadvertidamente ou maliciosamente informações para um documento "Público".
 
-#### Modelo Biba (Foco Exclusivo em INTEGRIDADE):
+#### Modelo Biba (Foco Exclusivo em INTEGRIDADE)
+
 Desenvolvido em contraposição ao Bell-LaPadula, com foco estrito na preservação da correção e confiabilidade dos dados:
 
 1. **Propriedade da Integridade Simples (*Simple Integrity Property*):**  
@@ -313,12 +314,14 @@ Desenvolvido em contraposição ao Bell-LaPadula, com foco estrito na preservaç
 
 No modelo **RBAC**, o controle de acesso é desacoplado dos usuários individuais e atribuído a **Papéis (*Roles*)** correspondentes a funções de negócio da organização (ex.: `Auditor`, `Gestor de Contratos`, `DBA`).
 
-#### Dinâmica de Funcionamento:
+#### Dinâmica de Funcionamento
+
 1. As permissões de leitura, inserção, alteração e exclusão sobre tabelas e sistemas são associadas diretamente aos **Papéis**.
 2. Os **Usuários** são associados a um ou mais papéis.
 3. Quando um colaborador é promovido ou assume nova atribuição, basta alterar sua filiação de papéis, sem necessidade de reconfigurar milhares de tabelas e pastas individualmente.
 
-#### Variações Normatizadas (NIST RBAC):
+#### Variações Normatizadas (NIST RBAC)
+
 - **RBAC0 (Básico):** Mapeamento direto entre usuários, papéis e permissões.
 - **RBAC1 (Hierárquico):** Suporta herança hierárquica entre papéis (ex.: o papel `Auditor-Chefe` herda automaticamente todas as permissões do papel `Auditor-Assistente`).
 - **RBAC2 (Restrições):** Adiciona regras de Separação de Deveres (*Separation of Duties* - SoD), como impedir que o mesmo usuário pertença simultaneamente ao papel de `Solicitante de Pagamento` e `Aprovador de Pagamento`.
@@ -333,23 +336,24 @@ O **ABAC** é a evolução dinâmica do controle de acesso, projetado para resol
 3. **Atributos da Ação:** Leitura, gravação, exclusão, exportação via API.
 4. **Atributos do Ambiente / Contexto:** Horário da solicitação, geolocalização física (país/cidade), se a conexão parte da VPN institucional ou rede aberta, conformidade de segurança do dispositivo (*health status*).
 
-#### Norma XACML (eXtensible Access Control Markup Language):
+#### Norma XACML (eXtensible Access Control Markup Language)
+
 Padrão internacional aberto formulado pela OASIS que define a linguagem XML/JSON e a arquitetura para processamento de políticas ABAC, servindo de fundação para os componentes lógicos de controle de acesso moderno.
 
 ---
 
 ### Teste 380
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Os modelos teóricos de controle de acesso obrigatório (MAC) Bell-LaPadula e Biba foram desenvolvidos para garantir formalmente propriedades específicas de segurança em sistemas computacionais multiníveis.
 
 Sobre o funcionamento desses dois modelos, assinale a afirmativa correta:
 
-* **A)** O modelo Bell-LaPadula tem como foco principal garantir a integridade dos dados, aplicando a regra de que nenhum usuário pode ler dados com nível de integridade inferior ao seu.
-* **B)** No modelo Bell-LaPadula, a Propriedade da Segurança Simples (*Simple Security Property*) determina que um usuário não pode ler informações em um nível de sensibilidade superior ao seu (*No Read Up*), enquanto a Propriedade Estrela (*\*-Property*) proíbe que ele grave dados em níveis inferiores (*No Write Down*).
-* **C)** O modelo Biba foi projetado para assegurar confidencialidade, autorizando que usuários leiam documentos ultrassecretos mesmo possuindo credencial pública.
-* **D)** No modelo Biba, a propriedade de integridade simples autoriza que sujeitos leiam dados de níveis de integridade inferiores sem restrições (*Read Down livre*).
-* **E)** Ambos os modelos Bell-LaPadula e Biba operam sob a filosofia de controle discricionário (DAC), na qual o criador do arquivo detém total autonomia para conceder privilégios a terceiros. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+- **A)** O modelo Bell-LaPadula tem como foco principal garantir a integridade dos dados, aplicando a regra de que nenhum usuário pode ler dados com nível de integridade inferior ao seu.
+- **B)** No modelo Bell-LaPadula, a Propriedade da Segurança Simples (*Simple Security Property*) determina que um usuário não pode ler informações em um nível de sensibilidade superior ao seu (*No Read Up*), enquanto a Propriedade Estrela (*\*-Property*) proíbe que ele grave dados em níveis inferiores (*No Write Down*).
+- **C)** O modelo Biba foi projetado para assegurar confidencialidade, autorizando que usuários leiam documentos ultrassecretos mesmo possuindo credencial pública.
+- **D)** No modelo Biba, a propriedade de integridade simples autoriza que sujeitos leiam dados de níveis de integridade inferiores sem restrições (*Read Down livre*).
+- **E)** Ambos os modelos Bell-LaPadula e Biba operam sob a filosofia de controle discricionário (DAC), na qual o criador do arquivo detém total autonomia para conceder privilégios a terceiros. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 ---
 
@@ -360,23 +364,23 @@ Sobre o funcionamento desses dois modelos, assinale a afirmativa correta:
 > - **C)** Incorreta. Biba foi desenvolvido com foco exclusivo em integridade, e não confidencialidade.
 > - **D)** Incorreta. No modelo Biba, ler dados de integridade inferior é vedado (*No Read Down*), para evitar que sujeitos ou processos de alta integridade sejam contaminados por informações espúrias.
 > - **E)** Incorreta. Bell-LaPadula e Biba são modelos formais clássicos de Controle de Acesso Obrigatório (MAC), e não discricionário (DAC).
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 381
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O modelo de Controle de Acesso Baseado em Papéis (*Role-Based Access Control - RBAC*), formalizado pelo NIST (norma ANSI/INCITS 359-2004), é o padrão mais amplamente implementado em sistemas corporativos governamentais.
 
 A respeito das variações normativas da família RBAC do NIST, assinale a afirmativa correta:
 
-* **A)** O RBAC0 é a forma mais complexa do modelo, exigindo inteligência artificial quântica para alocação de usuários.
-* **B)** O **RBAC1** adiciona o conceito de **Hierarquia de Papéis** (*Role Hierarchy*), no qual papéis seniores herdam automaticamente todas as permissões concedidas aos papéis juniores; e o **RBAC2** introduz restrições formais de **Separação de Funções** (*Separation of Duties - SoD*), divididas em SoD Estática (SSD, impedindo que um usuário pertença a papéis conflitantes) e SoD Dinâmica (DSD, permitindo a titularidade dos papéis, mas impedindo que sejam ativados simultaneamente na mesma sessão).
-* **C)** O RBAC2 proíbe que um auditor possua mais de uma função em toda a sua vida profissional.
-* **D)** O RBAC3 é a simplificação mínima que revoga todos os privilégios de todos os usuários corporativos.
-* **E)** O modelo RBAC atribui permissões diretamente aos nomes de pessoas físicas, proibindo a criação de papéis ou perfis intermediários..
-
+- **A)** O RBAC0 é a forma mais complexa do modelo, exigindo inteligência artificial quântica para alocação de usuários.
+- **B)** O **RBAC1** adiciona o conceito de **Hierarquia de Papéis** (*Role Hierarchy*), no qual papéis seniores herdam automaticamente todas as permissões concedidas aos papéis juniores; e o **RBAC2** introduz restrições formais de **Separação de Funções** (*Separation of Duties - SoD*), divididas em SoD Estática (SSD, impedindo que um usuário pertença a papéis conflitantes) e SoD Dinâmica (DSD, permitindo a titularidade dos papéis, mas impedindo que sejam ativados simultaneamente na mesma sessão).
+- **C)** O RBAC2 proíbe que um auditor possua mais de uma função em toda a sua vida profissional.
+- **D)** O RBAC3 é a simplificação mínima que revoga todos os privilégios de todos os usuários corporativos.
+- **E)** O modelo RBAC atribui permissões diretamente aos nomes de pessoas físicas, proibindo a criação de papéis ou perfis intermediários..
 
 ---
 
@@ -391,23 +395,23 @@ A respeito das variações normativas da família RBAC do NIST, assinale a afirm
 > - **C)** Incorreta. O SoD restringe conflitos de interesse específicos entre papéis críticos, não a carreira do profissional.
 > - **D)** Incorreta. O RBAC3 é o modelo unificado completo.
 > - **E)** Incorreta. A definição basilar do RBAC é justamente **desacoplar** usuários de permissões diretas por meio de papéis.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 382
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em ambientes corporativos complexos com requisitos dinâmicos de auditoria, o Controle de Acesso Baseado em Atributos (*Attribute-Based Access Control - ABAC*) supera as limitações do RBAC ao avaliar atributos do sujeito, do recurso, da ação e do contexto ambiental (como horário, localização IP e nível de ameaça).
 
 Na implementação padrão do ABAC segundo a norma **XACML** (*eXtensible Access Control Markup Language* da OASIS), o componente de software que atua como o ponto de decisão, avaliando as políticas de acesso e emitindo a decisão autorizativa (*Permit* ou *Deny*), é denominado:
 
-* **A)** Policy Enforcement Point (PEP).
-* **B)** Policy Decision Point (PDP).
-* **C)** Policy Administration Point (PAP).
-* **D)** Policy Information Point (PIP).
-* **E)** Security Assertion Markup Language (SAML).
-
+- **A)** Policy Enforcement Point (PEP).
+- **B)** Policy Decision Point (PDP).
+- **C)** Policy Administration Point (PAP).
+- **D)** Policy Information Point (PIP).
+- **E)** Security Assertion Markup Language (SAML).
 
 ---
 
@@ -422,7 +426,7 @@ Na implementação padrão do ABAC segundo a norma **XACML** (*eXtensible Access
 > - **C)** Incorreta. O PAP apenas gerencia e armazena os arquivos de políticas.
 > - **D)** Incorreta. O PIP é a fonte de dados que provê os valores dos atributos.
 > - **E)** Incorreta. SAML é um padrão de asserção de identidade para federação, não o motor de decisão do XACML.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -462,17 +466,17 @@ Para mitigar a fadiga de senhas e a dispersão de credenciais entre múltiplos p
 ---
 
 ### Teste 383
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em uma auditoria de governança de TI em um órgão fazendário estadual, verificou-se que servidores transferidos de setor mantinham ativas as permissões de acesso aos sistemas do departamento anterior, e que administradores de banco de dados utilizavam senhas compartilhadas estáticas de superusuário (`sa`) diretamente em suas estações de trabalho.
 
 Considerando os princípios de Governança de Identidades (IAM) e de Gestão de Acessos Privilegiados (PAM), assinale a prática recomendada para sanear essas não conformidades:
 
-* **A)** Adotar o acúmulo irrestrito de permissões (*Privilege Creep*) como política oficial, garantindo que servidores acumulem direitos ao longo da carreira para acelerar o atendimento ao público. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Implementar uma solução de PAM (*Privileged Access Management*) baseada em cofre seguro de senhas com rotação periódica automatizada, sessões administrativas gravadas e elevação de privilégios temporária *Just-In-Time* (JIT); associada a revisões periódicas de acesso no IAM para revogar imediatamente permissões incompatíveis com a nova lotação do servidor.
-* **C)** Desativar os logs de auditoria do sistema IAM para otimizar o espaço em disco do servidor de diretórios LDAP.
-* **D)** Substituir o desprovisionamento automático de contas inativas pela concessão vitalícia de privilégios administrativos a todos os prestadores de serviço terceirizados.
-* **E)** Padronizar o uso de contas genéricas e senhas únicas para todos os membros da equipe de sustentação de infraestrutura.
-
+- **A)** Adotar o acúmulo irrestrito de permissões (*Privilege Creep*) como política oficial, garantindo que servidores acumulem direitos ao longo da carreira para acelerar o atendimento ao público. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **B)** Implementar uma solução de PAM (*Privileged Access Management*) baseada em cofre seguro de senhas com rotação periódica automatizada, sessões administrativas gravadas e elevação de privilégios temporária *Just-In-Time* (JIT); associada a revisões periódicas de acesso no IAM para revogar imediatamente permissões incompatíveis com a nova lotação do servidor.
+- **C)** Desativar os logs de auditoria do sistema IAM para otimizar o espaço em disco do servidor de diretórios LDAP.
+- **D)** Substituir o desprovisionamento automático de contas inativas pela concessão vitalícia de privilégios administrativos a todos os prestadores de serviço terceirizados.
+- **E)** Padronizar o uso de contas genéricas e senhas únicas para todos os membros da equipe de sustentação de infraestrutura.
 
 ---
 
@@ -483,23 +487,23 @@ Considerando os princípios de Governança de Identidades (IAM) e de Gestão de 
 > - **C)** Incorreta. A desativação de logs de auditoria viola diretamente o princípio da responsabilização (*accountability*) e inviabiliza investigações e auditorias de controle externo.
 > - **D)** Incorreta. A concessão vitalícia e a ausência de desprovisionamento violam os preceitos mandatórios de segurança do ciclo de vida de identidades.
 > - **E)** Incorreta. O uso de contas genéricas compartilhadas destrói o princípio do não repúdio e da rastreabilidade individual das operações de TI.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 384
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A federação de identidades permite que os servidores de um tribunal acessem múltiplos sistemas governamentais integrados utilizando uma única conta corporativa com o mecanismo de *Single Sign-On* (SSO).
 
 A respeito dos protocolos padronizados de autenticação e autorização federada, assinale a afirmativa correta:
 
-* **A)** O protocolo SAML 2.0 utiliza tokens ultraleves em formato JSON, enquanto o OpenID Connect é baseado em mensagens pesadas em XML.
-* **B)** O **OAuth 2.0** é estritamente um framework de **Autorização** (concessão de permissões via tokens de acesso delegados), ao passo que o **OpenID Connect (OIDC)** é uma camada de **Autenticação** construída no topo do OAuth 2.0, que introduz o token de identidade padronizado (*ID Token*) no formato JSON Web Token (JWT) para comprovar quem é o usuário.
-* **C)** No protocolo SAML 2.0, o Provedor de Identidade (IdP) e o Provedor de Serviço (SP) operam sem qualquer chave pública ou certificado X.509. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** O OpenID Connect exige compulsoriamente o envio da senha em texto claro do usuário para todas as aplicações de terceiros conectadas.
-* **E)** O mecanismo de Single Sign-On obriga o usuário a digitar sua senha novamente a cada novo clique em uma página do portal.
-
+- **A)** O protocolo SAML 2.0 utiliza tokens ultraleves em formato JSON, enquanto o OpenID Connect é baseado em mensagens pesadas em XML.
+- **B)** O **OAuth 2.0** é estritamente um framework de **Autorização** (concessão de permissões via tokens de acesso delegados), ao passo que o **OpenID Connect (OIDC)** é uma camada de **Autenticação** construída no topo do OAuth 2.0, que introduz o token de identidade padronizado (*ID Token*) no formato JSON Web Token (JWT) para comprovar quem é o usuário.
+- **C)** No protocolo SAML 2.0, o Provedor de Identidade (IdP) e o Provedor de Serviço (SP) operam sem qualquer chave pública ou certificado X.509. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **D)** O OpenID Connect exige compulsoriamente o envio da senha em texto claro do usuário para todas as aplicações de terceiros conectadas.
+- **E)** O mecanismo de Single Sign-On obriga o usuário a digitar sua senha novamente a cada novo clique em uma página do portal.
 
 ---
 
@@ -512,7 +516,7 @@ A respeito dos protocolos padronizados de autenticação e autorização federad
 > - **C)** Incorreta. SAML 2.0 requer certificados X.509 em ambas as pontas para assinar e cifrar as asserções XML.
 > - **D)** Incorreta. Em federação, a aplicação cliente **jamais vê a senha do usuário**; a autenticação ocorre exclusivamente no Provedor de Identidade (IdP).
 > - **E)** Incorreta. O propósito basilar do SSO (*Single Sign-On*) é autenticar o usuário uma única vez e permitir acesso transparente a múltiplos sistemas durante a sessão.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -592,28 +596,30 @@ flowchart LR
     PEP -.->|"Solicitação de Autorização Contextual"| PA
 ```
 
-#### No Plano de Controle (*Control Plane*):
+#### No Plano de Controle (*Control Plane*)
+
 - **Policy Engine (PE - Motor de Políticas):** É o cérebro decisório central. Avalia as políticas organizacionais, sinais de telemetria de segurança, reputação de risco e integridade do cliente para **tomar a decisão final** de permitir, negar ou revogar o acesso solicitado.
 - **Policy Administrator (PA - Administrador de Políticas):** É o componente executor das decisões do PE. Se o PE aprova a requisição, o PA envia os comandos técnicos ao PEP para que este abra o canal de comunicação seguro, emitindo as credenciais ou tokens de sessão.  
   *(A união conceitual entre o PE e o PA forma o **Policy Decision Point - PDP**)*.
 
-#### No Plano de Dados (*Data Plane*):
+#### No Plano de Dados (*Data Plane*)
+
 - **Policy Enforcement Point (PEP - Ponto de Aplicação de Políticas):** É o componente de fronteira posicionado diretamente no fluxo de tráfego (gateway seguro, proxy reverso ou agente instalado no dispositivo). O PEP **intercepta, fiscaliza, permite ou encerra** as conexões diretas entre o usuário e o recurso, acatando cegamente as ordens recebidas do PA.
 
 ---
 
 ### Teste 385
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A equipe de infraestrutura e segurança da informação de um tribunal deliberou sobre a substituição do seu antigo modelo de segurança perimetral baseado em VPN ("castelo e fosso") por uma Arquitetura Zero Trust alinhada à norma NIST SP 800-207.
 
 A respeito dos princípios fundamentais que regem o paradigma Zero Trust, assinale a afirmativa correta:
 
-* **A)** O modelo assume como premissa que todas as máquinas conectadas à rede cabeada interna da sede do órgão são seguras e não exigem monitoramento contínuo de tráfego.
-* **B)** O princípio *"Never Trust, Always Verify"* determina que toda tentativa de conexão, originada de dentro ou de fora da rede física da organização, deve ser autenticada, autorizada e criptografada explicitamente e de forma contínua em cada requisição.
-* **C)** O princípio *"Assume Breach"* orienta os gestores a abandonar os mecanismos de microsegmentação de rede, dado que a invasão já é tratada como inevitável.
-* **D)** A arquitetura Zero Trust baseia suas concessões de acesso exclusivamente no endereço IP de origem do usuário, dispensando a avaliação do estado do dispositivo e da identidade.
-* **E)** No Zero Trust, após a primeira autenticação realizada com sucesso no início da jornada de trabalho, o usuário obtém acesso irrestrito a todas as aplicações corporativas pelo período contínuo de 30 dias.
-
+- **A)** O modelo assume como premissa que todas as máquinas conectadas à rede cabeada interna da sede do órgão são seguras e não exigem monitoramento contínuo de tráfego.
+- **B)** O princípio *"Never Trust, Always Verify"* determina que toda tentativa de conexão, originada de dentro ou de fora da rede física da organização, deve ser autenticada, autorizada e criptografada explicitamente e de forma contínua em cada requisição.
+- **C)** O princípio *"Assume Breach"* orienta os gestores a abandonar os mecanismos de microsegmentação de rede, dado que a invasão já é tratada como inevitável.
+- **D)** A arquitetura Zero Trust baseia suas concessões de acesso exclusivamente no endereço IP de origem do usuário, dispensando a avaliação do estado do dispositivo e da identidade.
+- **E)** No Zero Trust, após a primeira autenticação realizada com sucesso no início da jornada de trabalho, o usuário obtém acesso irrestrito a todas as aplicações corporativas pelo período contínuo de 30 dias.
 
 ---
 
@@ -624,23 +630,23 @@ A respeito dos princípios fundamentais que regem o paradigma Zero Trust, assina
 > - **C)** Incorreta. Assumir a violação (*Assume Breach*) exige a implantação vigorosa de microsegmentação e criptografia para conter o raio de alcance da invasão e deter movimentos laterais.
 > - **D)** Incorreta. O Zero Trust baseia-se na validação contínua da identidade, na integridade do dispositivo e em políticas de contexto adaptativo, tratando endereços IP como parâmetros secundários e de baixa confiança.
 > - **E)** Incorreta. Concessões perenes e irrestritas são antagônicas ao Zero Trust, que prega avaliação dinâmica contínua e concessão pontual de privilégios *Just-In-Time*.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 386
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A publicação especial NIST SP 800-207 consolida a Arquitetura Zero Trust (ZTA), superando o modelo obsoleto de segurança de perímetro baseado em "castelo e fosso", adotando o lema: *"Nunca Confie, Sempre Verifique"*.
 
 Dentre os pilares técnicos fundamentais do Zero Trust, a técnica de **Microsegmentação** de rede tem por finalidade primordial:
 
-* **A)** Unificar todas as redes, estações de trabalho e bancos de dados em uma única VLAN plana sem roteadores.
-* **B)** Dividir o datacenter corporativo em zonas lógicas de segurança altamente granulares e isoladas no nível de carga de trabalho (*workload*), aplicando políticas estritas de comunicação L7 que inspecionam o tráfego leste-oeste (*East-West traffic*), com o propósito específico de conter e impedir a **movimentação lateral** de atacantes em caso de comprometimento de um nó da rede.
-* **C)** Garantir que todos os pacotes de rede sejam transmitidos sem criptografia para facilitar o monitoramento passivo. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** Aumentar a área de broadcast da rede para acelerar transmissões de vídeo em alta resolução.
-* **E)** Eliminar completamente o uso de firewalls e sistemas de controle de acesso nos servidores centrais.
-
+- **A)** Unificar todas as redes, estações de trabalho e bancos de dados em uma única VLAN plana sem roteadores.
+- **B)** Dividir o datacenter corporativo em zonas lógicas de segurança altamente granulares e isoladas no nível de carga de trabalho (*workload*), aplicando políticas estritas de comunicação L7 que inspecionam o tráfego leste-oeste (*East-West traffic*), com o propósito específico de conter e impedir a **movimentação lateral** de atacantes em caso de comprometimento de um nó da rede.
+- **C)** Garantir que todos os pacotes de rede sejam transmitidos sem criptografia para facilitar o monitoramento passivo. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **D)** Aumentar a área de broadcast da rede para acelerar transmissões de vídeo em alta resolução.
+- **E)** Eliminar completamente o uso de firewalls e sistemas de controle de acesso nos servidores centrais.
 
 ---
 
@@ -654,23 +660,23 @@ Dentre os pilares técnicos fundamentais do Zero Trust, a técnica de **Microseg
 > - **C)** Incorreta. O Zero Trust exige criptografia em trânsito ponta a ponta (mTLS) em toda comunicação interna.
 > - **D)** Incorreta. A microsegmentação elimina domínios de broadcast amplos.
 > - **E)** Incorreta. Ela multiplica a aplicação de regras granulares de filtragem lógica em cada nó.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 387
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A publicação técnica especial NIST SP 800-207 divide a Arquitetura Zero Trust em componentes lógicos fundamentais distribuídos entre o Plano de Controle (*Control Plane*) e o Plano de Dados (*Data Plane*).
 
 Assinale a opção que descreve corretamente o papel e a função desses componentes lógicos:
 
-* **A)** O Policy Enforcement Point (PEP) é o cérebro central responsável por redigir e tomar a decisão analítica final sobre conceder ou revogar o acesso a um recurso corporativo considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **B)** O Policy Decision Point (PDP) é composto logicamente pela união do Policy Engine (PE), responsável pela decisão de autorização, e do Policy Administrator (PA), responsável por comandar o estabelecimento ou encerramento da sessão de comunicação.
-* **C)** O Policy Engine (PE) é um dispositivo de rede passivo que apenas encaminha os pacotes TCP sem aplicar nenhuma regra de segurança.
-* **D)** O Policy Administrator (PA) atua no plano de dados interceptando fisicamente o tráfego de dados sensíveis entre o usuário e o banco de dados.
-* **E)** A arquitetura Zero Trust do NIST veda expressamente o uso de PEPs intermediários entre o dispositivo do usuário e as aplicações de negócio.
-
+- **A)** O Policy Enforcement Point (PEP) é o cérebro central responsável por redigir e tomar a decisão analítica final sobre conceder ou revogar o acesso a um recurso corporativo considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
+- **B)** O Policy Decision Point (PDP) é composto logicamente pela união do Policy Engine (PE), responsável pela decisão de autorização, e do Policy Administrator (PA), responsável por comandar o estabelecimento ou encerramento da sessão de comunicação.
+- **C)** O Policy Engine (PE) é um dispositivo de rede passivo que apenas encaminha os pacotes TCP sem aplicar nenhuma regra de segurança.
+- **D)** O Policy Administrator (PA) atua no plano de dados interceptando fisicamente o tráfego de dados sensíveis entre o usuário e o banco de dados.
+- **E)** A arquitetura Zero Trust do NIST veda expressamente o uso de PEPs intermediários entre o dispositivo do usuário e as aplicações de negócio.
 
 ---
 
@@ -681,17 +687,17 @@ Assinale a opção que descreve corretamente o papel e a função desses compone
 > - **C)** Incorreta. O Policy Engine é o motor analítico de inteligência que processa regras contextuais de autorização, não se confundindo com switches ou roteadores passivos.
 > - **D)** Incorreta. O Policy Administrator atua estritamente no Plano de Controle. Quem intercepta fisicamente a comunicação no Plano de Dados é o Policy Enforcement Point (PEP).
 > - **E)** Incorreta. O PEP é elemento mandatório posicionado entre o cliente e os recursos corporativos para interceptar e controlar o fluxo de dados.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ## 6. Fontes Recomendadas na Internet
 
-* [NIST SP 800-207 - Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) - Publicação seminal do NIST definindo os princípios e a arquitetura oficial Zero Trust.
-* [NIST SP 800-63B - Digital Identity Guidelines: Authentication and Lifecycle Management](https://pages.nist.gov/800-63-3/sp800-63b.html) - Diretrizes técnicas de autenticação de usuários, políticas de senhas e autenticação multifator (MFA).
-* [IETF RFC 6749 - The OAuth 2.0 Authorization Framework](https://datatracker.ietf.org/doc/html/rfc6749) - Especificação oficial do framework de autorização e concessão de tokens OAuth 2.0.
-* [OWASP Access Control Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html) - Guia prático de implementação e validação de controles de acesso RBAC e ABAC.
-* [Decreto nº 10.543/2020 (Níveis de Autenticação e Assinatura Eletrônica)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10543.htm) - Dispõe sobre o uso das assinaturas eletrônicas e níveis de confiabilidade (bronze, prata e ouro) no âmbito da administração pública.
-* KUROSE, James F.; ROSS, Keith W. **Redes de Computadores e a Internet: Uma Abordagem Top-Down**. 7. ed. São Paulo: Pearson Education do Brasil, 2017. (Cap. 8 - Segurança em Redes de Computadores: Autenticação e Controle de Acesso).
-* STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 15 - Controle de Acesso de Usuários).
+- [NIST SP 800-207 - Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) - Publicação seminal do NIST definindo os princípios e a arquitetura oficial Zero Trust.
+- [NIST SP 800-63B - Digital Identity Guidelines: Authentication and Lifecycle Management](https://pages.nist.gov/800-63-3/sp800-63b.html) - Diretrizes técnicas de autenticação de usuários, políticas de senhas e autenticação multifator (MFA).
+- [IETF RFC 6749 - The OAuth 2.0 Authorization Framework](https://datatracker.ietf.org/doc/html/rfc6749) - Especificação oficial do framework de autorização e concessão de tokens OAuth 2.0.
+- [OWASP Access Control Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html) - Guia prático de implementação e validação de controles de acesso RBAC e ABAC.
+- [Decreto nº 10.543/2020 (Níveis de Autenticação e Assinatura Eletrônica)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10543.htm) - Dispõe sobre o uso das assinaturas eletrônicas e níveis de confiabilidade (bronze, prata e ouro) no âmbito da administração pública.
+- KUROSE, James F.; ROSS, Keith W. **Redes de Computadores e a Internet: Uma Abordagem Top-Down**. 7. ed. São Paulo: Pearson Education do Brasil, 2017. (Cap. 8 - Segurança em Redes de Computadores: Autenticação e Controle de Acesso).
+- STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 15 - Controle de Acesso de Usuários).

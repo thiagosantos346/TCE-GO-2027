@@ -4,62 +4,59 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `02_modelos_de_administracao_publica_e_governanca.md`  
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 
 - Evolução dos paradigmas da gestão pública:
-    - **Administração Pública Patrimonialista:** características, confusão entre patrimônio público e privado, prebendas, sinécures, clientelismo e nepotismo;
-    - **Administração Pública Burocrática (Max Weber):** racionalidade, formalismo, impessoalidade, meritocracia, hierarquia funcional, controle prévio (*a priori*) de processos e as disfunções da burocracia (Robert Merton);
-    - **Administração Pública Gerencial (*New Public Management* - NPM):** orientação para resultados, foco no cidadão-usuário/cliente, descentralização, controle a posteriori e contratualização de resultados;
-    - As três fases do gerencialismo: Gerencialismo Puro (*Managerialism*), *Consumerism* e *Public Service Orientation* (PSO);
+  - **Administração Pública Patrimonialista:** características, confusão entre patrimônio público e privado, prebendas, sinécures, clientelismo e nepotismo;
+  - **Administração Pública Burocrática (Max Weber):** racionalidade, formalismo, impessoalidade, meritocracia, hierarquia funcional, controle prévio (*a priori*) de processos e as disfunções da burocracia (Robert Merton);
+  - **Administração Pública Gerencial (*New Public Management* - NPM):** orientação para resultados, foco no cidadão-usuário/cliente, descentralização, controle a posteriori e contratualização de resultados;
+  - As três fases do gerencialismo: Gerencialismo Puro (*Managerialism*), *Consumerism* e *Public Service Orientation* (PSO);
 - A Reforma Gerencial de 1995 no Brasil (Plano Diretor da Reforma do Aparelho do Estado - PDRAE):
-    - Os quatro setores do Estado: Núcleo Estratégico, Atividades Exclusivas, Serviços Não Exclusivos e Produção de Bens e Serviços para o Mercado;
-    - Formas de atuação e publicização: Agências Reguladoras, Agências Executivas, Organizações Sociais (OS) e Organizações da Sociedade Civil de Interesse Público (OSCIP);
+  - Os quatro setores do Estado: Núcleo Estratégico, Atividades Exclusivas, Serviços Não Exclusivos e Produção de Bens e Serviços para o Mercado;
+  - Formas de atuação e publicização: Agências Reguladoras, Agências Executivas, Organizações Sociais (OS) e Organizações da Sociedade Civil de Interesse Público (OSCIP);
 - Eficiência, Eficácia e Efetividade no setor público (a tríade dos resultados públicos e economicidade);
 - Governança e Governabilidade: conceitos, distinções e mecanismos (liderança, estratégia e controle - Referencial TCU);
 - O conceito e dimensões de *Accountability*: vertical, horizontal e social (societal);
 - Transparência pública e controle social: a Lei de Acesso à Informação (Lei Federal nº 12.527/2011 - LAI) e Lei Estadual de Goiás nº 18.025/2013:
-    - Transparência ativa versus transparência passiva;
-    - Prazos de resposta e instâncias de recurso administrativo (regra 20 + 10 dias);
-    - Graus de sigilo documental: reservada (5 anos), secreta (15 anos) e ultrassecreta (25 anos); proteção de dados pessoais (100 anos).
+  - Transparência ativa versus transparência passiva;
+  - Prazos de resposta e instâncias de recurso administrativo (regra 20 + 10 dias);
+  - Graus de sigilo documental: reservada (5 anos), secreta (15 anos) e ultrassecreta (25 anos); proteção de dados pessoais (100 anos).
 
 ---
 
 ## 🧭 Sumário
 
-1. [Evolução Histórica dos Modelos de Gestão Pública](#1-evolucao-historica-dos-modelos-de-gestao-publica)
-    - [1.1 Modelo Patrimonialista](#11-modelo-patrimonialista)
-    - [1.2 Modelo Burocrático Weberiano](#12-modelo-burocratico-weberiano)
-    - [1.3 Modelo Gerencial (New Public Management - NPM)](#13-modelo-gerencial-new-public-management-npm)
-    - [1.4 Quadro Analítico Comparativo dos Três Modelos](#14-quadro-analitico-comparativo-dos-tres-modelos)
-    - [Teste 310](#teste-310)
-    - [Teste 311](#teste-311)
-2. [As Disfunções da Burocracia (Robert Merton)](#2-as-disfuncoes-da-burocracia-robert-merton)
-    - [Teste 312](#teste-312)
+1. [Evolução Histórica dos Modelos de Gestão Pública](#1-evolução-histórica-dos-modelos-de-gestão-pública)
+    1. [Modelo Patrimonialista](#11-modelo-patrimonialista)
+    1. [Modelo Burocrático Weberiano](#12-modelo-burocrático-weberiano)
+    1. [Modelo Gerencial (New Public Management - NPM)](#13-modelo-gerencial-new-public-management---npm)
+    1. [Quadro Analítico Comparativo dos Três Modelos](#14-quadro-analítico-comparativo-dos-três-modelos)
+    1. [Teste 310](#teste-310)
+    1. [Teste 311](#teste-311)
+2. [As Disfunções da Burocracia (Robert Merton)](#2-as-disfunções-da-burocracia-robert-merton)
+    1. [Teste 312](#teste-312)
 3. [A Reforma Gerencial Brasileira de 1995 (PDRAE)](#3-a-reforma-gerencial-brasileira-de-1995-pdrae)
-    - [3.1 Os Quatro Setores do Estado](#31-os-quatro-setores-do-estado)
-    - [3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)](#32-o-mecanismo-da-publicizacao-e-as-organizacoes-sociais-os)
-    - [Teste 313](#teste-313)
-    - [Teste 314](#teste-314)
-4. [As Dimensões do Desempenho Público (Os 6Es da Gestão)](#4-as-dimensoes-do-desempenho-publico-os-6es-da-gestao)
-    - [4.1 Economicidade, Eficiência, Eficácia e Efetividade](#41-economicidade-eficiencia-eficacia-e-efetividade)
-    - [Teste 315](#teste-315)
-5. [Governança, Governabilidade e Accountability](#5-governanca-governabilidade-e-accountability)
-    - [5.1 Governabilidade vs. Governança (Distinção Crítica FCC)](#51-governabilidade-vs-governanca-distincao-critica-fcc)
-    - [5.2 Dimensões da Accountability (Vertical, Horizontal e Social)](#52-dimensoes-da-accountability-vertical-horizontal-e-social)
-    - [Teste 316](#teste-316)
-6. [Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)](#6-transparencia-publica-e-a-lei-de-acesso-a-informacao-lei-no-125272011)
-    - [6.1 Transparência Ativa vs. Transparência Passiva](#61-transparencia-ativa-vs-transparencia-passiva)
-    - [6.2 Prazos de Atendimento e Desnecessidade de Motivação](#62-prazos-de-atendimento-e-desnecessidade-de-motivacao)
-    - [6.3 Graus e Prazos Máximos de Sigilo Documental](#63-graus-e-prazos-maximos-de-sigilo-documental)
-    - [Teste 317](#teste-317)
-    - [Teste 318](#teste-318)
-    - [Teste 319](#teste-319)
-1. [🌐 Fontes Oficiais & Referências Bibliográficas](#fontes-oficiais-referencias-bibliograficas)
+    1. [Os Quatro Setores do Estado](#31-os-quatro-setores-do-estado)
+    1. [O Mecanismo da Publicização e as Organizações Sociais (OS)](#32-o-mecanismo-da-publicização-e-as-organizações-sociais-os)
+    1. [Teste 313](#teste-313)
+    1. [Teste 314](#teste-314)
+4. [As Dimensões do Desempenho Público (Os 6Es da Gestão)](#4-as-dimensões-do-desempenho-público-os-6es-da-gestão)
+    1. [Economicidade, Eficiência, Eficácia e Efetividade](#41-economicidade-eficiência-eficácia-e-efetividade)
+    1. [Teste 315](#teste-315)
+5. [Governança, Governabilidade e Accountability](#5-governança-governabilidade-e-accountability)
+    1. [Governabilidade vs. Governança (Distinção Crítica FCC)](#51-governabilidade-vs-governança-distinção-crítica-fcc)
+    1. [Dimensões da Accountability (Vertical, Horizontal e Social)](#52-dimensões-da-accountability-vertical-horizontal-e-social)
+    1. [Teste 316](#teste-316)
+6. [Transparência Pública e a Lei de Acesso à Informação (Lei nº 12.527/2011)](#6-transparência-pública-e-a-lei-de-acesso-à-informação-lei-nº-125272011)
+    1. [Transparência Ativa vs. Transparência Passiva](#61-transparência-ativa-vs-transparência-passiva)
+    1. [Prazos de Atendimento e Desnecessidade de Motivação](#62-prazos-de-atendimento-e-desnecessidade-de-motivação)
+    1. [Graus e Prazos Máximos de Sigilo Documental](#63-graus-e-prazos-máximos-de-sigilo-documental)
+    1. [Teste 317](#teste-317)
+    1. [Teste 318](#teste-318)
+    1. [Teste 319](#teste-319)
+7. [Fontes Oficiais & Referências Bibliográficas](#-fontes-oficiais--referências-bibliográficas)
 
 ---
 
@@ -74,21 +71,24 @@ flowchart LR
 ```
 
 ### 1.1 Modelo Patrimonialista
+
 - Vigente no Estado Absolutista e no Brasil Colonial/Imperial até a década de 1930;
 - **Característica Central:** Ausência de separação entre o patrimônio do soberano e a *res publica* (o Estado é tratado como extensão da casa do príncipe);
 - **Práticas Correlatas:** Concessão de cargos públicos como **prebendas** (rendas vitalícias) e **sinecuras** (cargos sem trabalho correspondente), nepotismo, favorecimento pessoal e coronelismo/clientelismo eleitoral.
 
 ### 1.2 Modelo Burocrático Weberiano
+
 - Estruturado conceitualmente por Max Weber no início do século XX e introduzido no Brasil pela reforma do DASP (1936-1938);
 - **Objetivo Histórico Primário:** Combater frontalmente a corrupção e o nepotismo patrimonialistas mediante regras rígidas;
 - **Princípios Racionais-Legais:**
-    - *Formalismo Estrito:* A autoridade emana da lei e as rotinas devem ser reduzidas a documentos escritos e processos formais;
-    - *Impessoalidade:* As decisões administrativas aplicam-se a categorias abstratas, sem discriminações ou privilégios subjetivos;
-    - *Meritocracia e Profissionalização:* Ingresso na carreira por concurso público e promoções baseadas no mérito funcional;
-    - *Hierarquia Funcional:* Cadeia de comando clara, com linhas bem delimitadas de subordinação;
-    - *Controle a Priori (Prévio):* Controle minucioso e exaustivo sobre a conformidade dos meios, formulários e ritos processuais antes de qualquer decisão.
+  - *Formalismo Estrito:* A autoridade emana da lei e as rotinas devem ser reduzidas a documentos escritos e processos formais;
+  - *Impessoalidade:* As decisões administrativas aplicam-se a categorias abstratas, sem discriminações ou privilégios subjetivos;
+  - *Meritocracia e Profissionalização:* Ingresso na carreira por concurso público e promoções baseadas no mérito funcional;
+  - *Hierarquia Funcional:* Cadeia de comando clara, com linhas bem delimitadas de subordinação;
+  - *Controle a Priori (Prévio):* Controle minucioso e exaustivo sobre a conformidade dos meios, formulários e ritos processuais antes de qualquer decisão.
 
 ### 1.3 Modelo Gerencial (*New Public Management* - NPM)
+
 - Emergente nas décadas de 1970/1980 (Reino Unido, Nova Zelândia e EUA) e adotado no Brasil pela Reforma de 1995 (PDRAE);
 - **Objetivo Central:** Superar a rigidez, a lentidão e a ineficiência do modelo burocrático diante da crise fiscal do Estado social;
 - **Princípios Estruturantes:** Descentralização da gestão, autonomia dos gestores, flexibilização das contratações, incentivo à inovação, contratualização de resultados e foco absoluto nas necessidades do **cidadão-usuário/cliente**;
@@ -110,6 +110,7 @@ flowchart LR
 ---
 
 ### Teste 310
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A respeito da evolução dos modelos de administração pública e das reformas administrativas contemporâneas, considere as afirmativas a seguir:
 
@@ -121,12 +122,11 @@ III. No modelo gerencial de administração pública, o controle estatal privile
 
 Está correto o que se afirma em:
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
+- **A)** I, apenas.
+- **B)** I e II, apenas.
+- **C)** I e III, apenas.
+- **D)** II e III, apenas.
+- **E)** I, II e III.
 
 ---
 
@@ -135,29 +135,29 @@ Está correto o que se afirma em:
 > - **A)** Incorreta. O item III também está correto, tornando a opção incompleta.
 > - **B)** Incorreta. O item II traz um erro conceitual grave ao inverter as definições de governança e governabilidade.
 > - **C)** Correta.  
->     - O item I é verdadeiro: a burocracia weberiana surgiu historicamente para combater a apropriação privada do Estado pelo patrimonialismo, mediante mérito, concurso público e regras impessoais;  
->     - O item II é falso: governança é a capacidade técnica e gerencial de execução, enquanto governabilidade refere-se às condições políticas de sustentação no parlamento;  
->     - O item III é verdadeiro: o gerencialismo foca na avaliação a posteriori dos resultados e cumprimento de metas, flexibilizando os controles prévios processuais.  
+>   - O item I é verdadeiro: a burocracia weberiana surgiu historicamente para combater a apropriação privada do Estado pelo patrimonialismo, mediante mérito, concurso público e regras impessoais;  
+>   - O item II é falso: governança é a capacidade técnica e gerencial de execução, enquanto governabilidade refere-se às condições políticas de sustentação no parlamento;  
+>   - O item III é verdadeiro: o gerencialismo foca na avaliação a posteriori dos resultados e cumprimento de metas, flexibilizando os controles prévios processuais.  
 >   Portanto, estão corretos apenas os itens I e III.
 > - **D)** Incorreta. O item II é flagrantemente falso.
 > - **E)** Incorreta. O item II invalida a assertiva geral.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 311
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O modelo patrimonialista de Administração Pública prevaleceu no Brasil colonial e imperial, deixando traços na cultura organizacional do Estado.
 
 Constitui traço característico definidor do **Patrimonialismo**:
 
-* **A)** A incapacidade de distinção clara entre a *res publica* (o patrimônio público do Estado) e a *res principis* (o patrimônio pessoal e privado do soberano e dos governantes).
-* **B)** A estrita impessoalidade nos processos de seleção e a instituição compulsória do mérito profissional aferido por concurso público aberto.
-* **C)** O controle formal e rigoroso dos procedimentos operacionais estabelecido em manuais e regulamentos escritos padronizados.
-* **D)** A ênfase na contratualização de resultados e no fornecimento de serviços orientados primordialmente ao cidadão-usuário.
-* **E)** A transparência ativa sistemática proporcionada por portais de dados abertos na internet.
-
+- **A)** A incapacidade de distinção clara entre a *res publica* (o patrimônio público do Estado) e a *res principis* (o patrimônio pessoal e privado do soberano e dos governantes).
+- **B)** A estrita impessoalidade nos processos de seleção e a instituição compulsória do mérito profissional aferido por concurso público aberto.
+- **C)** O controle formal e rigoroso dos procedimentos operacionais estabelecido em manuais e regulamentos escritos padronizados.
+- **D)** A ênfase na contratualização de resultados e no fornecimento de serviços orientados primordialmente ao cidadão-usuário.
+- **E)** A transparência ativa sistemática proporcionada por portais de dados abertos na internet.
 
 ---
 
@@ -168,7 +168,7 @@ Constitui traço característico definidor do **Patrimonialismo**:
 > - **C)** Incorreta. Controle formal é o núcleo da burocracia.
 > - **D)** Incorreta. Orientação ao cidadão-usuário é da administração gerencial (NPM).
 > - **E)** Incorreta. Dados abertos são do Governo Digital contemporâneo.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -180,7 +180,7 @@ Embora concebida por Max Weber como o tipo ideal de organização racional e pre
 ```mermaid
 flowchart TD
     Disfuncoes["Disfunções da Burocracia (Robert Merton)"]
-    
+  
     Disfuncoes --> D1["1. Deslocamento de Objetivos:<br/>A regra torna-se um fim em si mesma,<br/>esquecendo o atendimento ao cidadão"]
     Disfuncoes --> D2["2. Excesso de Formalismo (Paperwork):<br/>Apego doentio a carimbos, formulários,<br/>processos físicos e ritos protocolares"]
     Disfuncoes --> D3["3. Resistência Obstinada a Mudanças:<br/>Aversão a inovações e novas tecnologias<br/>por receio de violar rotinas prescritas"]
@@ -194,17 +194,17 @@ flowchart TD
 ---
 
 ### Teste 312
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na teoria sociológica e administrativa, a Administração Pública Burocrática de Max Weber foi concebida para combater a corrupção e o nepotismo patrimonialista, baseando-se na legalidade, impessoalidade e formalismo. Todavia, a prática organizacional evidenciou as chamadas "disfunções da burocracia" (analisadas por Robert Merton).
 
 Constitui uma típica **disfunção burocrática**:
 
-* **A)** O apego exagerado às regras e aos procedimentos formais, fazendo com que as normas (que deveriam ser meios) se transformem nos próprios fins da ação administrativa (*internalização das regras*).
-* **B)** A flexibilização excessiva de processos com delegação ampla de poderes decisórios aos funcionários da ponta.
-* **C)** A priorização dos interesses estratégicos da sociedade em detrimento dos manuais internos de rotinas.
-* **D)** A avaliação contínua da efetividade social das políticas públicas em substituição ao controle de conformidade legal.
-* **E)** A descentralização territorial das decisões governamentais em prol de cooperativas locais.
-
+- **A)** O apego exagerado às regras e aos procedimentos formais, fazendo com que as normas (que deveriam ser meios) se transformem nos próprios fins da ação administrativa (*internalização das regras*).
+- **B)** A flexibilização excessiva de processos com delegação ampla de poderes decisórios aos funcionários da ponta.
+- **C)** A priorização dos interesses estratégicos da sociedade em detrimento dos manuais internos de rotinas.
+- **D)** A avaliação contínua da efetividade social das políticas públicas em substituição ao controle de conformidade legal.
+- **E)** A descentralização territorial das decisões governamentais em prol de cooperativas locais.
 
 ---
 
@@ -215,7 +215,7 @@ Constitui uma típica **disfunção burocrática**:
 > - **C)** Incorreta. A disfunção faz esquecer a sociedade para focar só nas normas internas.
 > - **D)** Incorreta. Foco em efetividade social é do gerencialismo.
 > - **E)** Incorreta. A burocracia preza pela padronização centralizada.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -227,12 +227,12 @@ Coordenado pelo Ministro Luiz Carlos Bresser-Pereira durante a presidência de F
 ```mermaid
 flowchart TD
     PDRAE["Os Quatro Setores do Estado (PDRAE 1995)"]
-    
+  
     PDRAE --> NE["1. Núcleo Estratégico<br/>(Presidência, Ministérios, Legislativo,<br/>Judiciário e Tribunais de Contas)"]
     PDRAE --> AE["2. Atividades Exclusivas<br/>(Polícia, Fiscalização Tributária,<br/>Regulação e Seguridade Básica)"]
     PDRAE --> SNE["3. Serviços Não Exclusivos<br/>(Hospitais, Universidades, Escolas,<br/>Museus e Pesquisa Científica)"]
     PDRAE --> PB["4. Produção de Bens/Serviços para o Mercado<br/>(Empresas Estatais Concorrenciais)"]
-    
+  
     NE --> F1["Propriedade Estatal Estrita<br/>(Regime Jurídico Único / Estabilidade)"]
     AE --> F2["Agências Executivas e Reguladoras<br/>(Carreiras Típicas de Estado)"]
     SNE --> F3["PUBLICIZAÇÃO:<br/>Transferência para Organizações Sociais (OS)<br/>via Contrato de Gestão e fomento"]
@@ -240,27 +240,29 @@ flowchart TD
 ```
 
 ### 3.1 Os Quatro Setores do Estado
+
 1. **Núcleo Estratégico:** Define as leis, as políticas públicas fundamentais e as diretrizes estratégicas da nação. Propriedade estatal integral, composta pelas carreiras de Estado;
 2. **Atividades Exclusivas de Estado:** Serviços que envolvem o exercício do poder de império e coerção (polícia, diplomacia, fiscalização tributária, regulação e controle externo);
 3. **Serviços Não Exclusivos do Estado:** Serviços sociais de relevância coletiva que o Estado presta, mas nos quais o setor privado também atua livremente (saúde, ensino, cultura e pesquisa científica);
 4. **Produção de Bens e Serviços para o Mercado:** Atividades econômicas industriais e comerciais que devem ser operadas pelo mercado concorrencial (objeto de privatização).
 
 ### 3.2 O Mecanismo da Publicização e as Organizações Sociais (OS)
+
 - **Publicização:** É a descentralização de atividades e serviços não exclusivos do Estado para entidades do setor público não estatal (terceiro setor), constituídas como pessoas jurídicas de direito privado sem fins lucrativos qualificadas como **Organizações Sociais (OS)**;
 - **Instrumento Vinculante:** A parceria celebra-se mediante **Contrato de Gestão**, estipulando metas quantitativas e qualitativas de atendimento, com repasse de recursos orçamentários, cessão de servidores públicos e de imóveis estatais, sujeitando-se ao controle externo do Tribunal de Contas.
 
 ---
 
 ### Teste 313
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, propôs a descentralização do Estado e a reorganização de suas atividades em quatro setores. A prestação de serviços de saúde básica em hospitais públicos e a realização de pesquisas científicas em universidades enquadram-se, segundo a tipologia do PDRAE, no setor de:
 
-* **A)** Atividades Exclusivas de Estado, a serem desempenhadas compulsoriamente por agências reguladoras.
-* **B)** Núcleo Estratégico, com manutenção de propriedade puramente estatal e cargos privativos de livre nomeação política.
-* **C)** Serviços Não Exclusivos do Estado, com orientação para o modelo de publicização mediante parcerias com Organizações Sociais (OS).
-* **D)** Produção de Bens e Serviços para o Mercado, orientados à privatização compulsória em bolsa de valores.
-* **E)** Controle Disciplinar Corporativo, com atuação exclusiva do sistema correcional e dos Tribunais de Contas.
-
+- **A)** Atividades Exclusivas de Estado, a serem desempenhadas compulsoriamente por agências reguladoras.
+- **B)** Núcleo Estratégico, com manutenção de propriedade puramente estatal e cargos privativos de livre nomeação política.
+- **C)** Serviços Não Exclusivos do Estado, com orientação para o modelo de publicização mediante parcerias com Organizações Sociais (OS).
+- **D)** Produção de Bens e Serviços para o Mercado, orientados à privatização compulsória em bolsa de valores.
+- **E)** Controle Disciplinar Corporativo, com atuação exclusiva do sistema correcional e dos Tribunais de Contas.
 
 ---
 
@@ -271,23 +273,23 @@ O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, prop�
 > - **C)** Correta. No modelo do PDRAE (1995), a saúde, educação, cultura e pesquisa científica são classificadas como Serviços Não Exclusivos do Estado, uma vez que o setor privado também atua livremente nessas áreas. A diretriz preconizada para esse setor foi a publicização, isto é, a descentralização de sua gestão para entidades do terceiro setor qualificadas como Organizações Sociais (OS), mediante contratos de gestão.
 > - **D)** Incorreta. Produção de bens para o mercado corresponde a empresas estatais industriais e financeiras voltadas ao lucro.
 > - **E)** Incorreta. Categoria desconexa do texto do PDRAE.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 314
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A Reforma do Aparelho do Estado de 1995 (Plano Diretor da Reforma do Aparelho do Estado - PDRAE), liderada pelo MARE, estruturou a atuação governamental em quatro setores estratégicos.
 
 O setor do Estado que executa as funções exclusivas que envolvem o uso do poder extroverso e de polícia estatal (legislar, julgar, fiscalizar, arrecadar tributos e exercer o controle externo), sendo vedado à terceirização e à delegação a entidades privadas, é denominado pelo PDRAE:
 
-* **A)** Núcleo Estratégico.
-* **B)** Atividades Exclusivas de Estado.
-* **C)** Serviços Não Exclusivos.
-* **D)** Produção de Bens e Serviços para o Mercado.
-* **E)** Setor Não Lucrativo de Fomento Societário.
-
+- **A)** Núcleo Estratégico.
+- **B)** Atividades Exclusivas de Estado.
+- **C)** Serviços Não Exclusivos.
+- **D)** Produção de Bens e Serviços para o Mercado.
+- **E)** Setor Não Lucrativo de Fomento Societário.
 
 ---
 
@@ -298,7 +300,7 @@ O setor do Estado que executa as funções exclusivas que envolvem o uso do pode
 > - **C)** Incorreta. Serviços Não Exclusivos (saúde, educação) podem ser compartilhados com Organizações Sociais.
 > - **D)** Incorreta. Produção para o mercado (estatais econômicas) opera sob concorrência.
 > - **E)** Incorreta. Categoria inexistente no PDRAE.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -312,7 +314,7 @@ flowchart LR
     Insumos["Insumos<br/>(Recursos/Custos)"] --> Processo["Processos<br/>(Execução)"]
     Processo --> Produtos["Produtos/Saídas<br/>(Outputs/Metas)"]
     Produtos --> Resultados["Resultados/Impactos<br/>(Outcomes/Sociedade)"]
-    
+  
     Insumos -.->|Economicidade| Insumos
     Insumos -.->|Eficiência| Produtos
     Processo -.->|Execução| Produtos
@@ -321,6 +323,7 @@ flowchart LR
 ```
 
 ### 4.1 Economicidade, Eficiência, Eficácia e Efetividade
+
 - **Economicidade:** Minimização dos custos na aquisição de insumos, sem comprometer os padrões adequados de qualidade (comprar os melhores insumos pelo menor custo financeiro possível);
 - **Eficiência:** Relação otimizada entre os insumos empregados e as saídas produzidas ($\text{Produtos} / \text{Insumos}$). É a competência para fazer certo as coisas, reduzindo perdas e desperdícios operacionais;
 - **Eficácia:** Grau de cumprimento das metas e objetivos formalmente planejados ($\text{Metas Realizadas} / \text{Metas Previstas}$). É a capacidade de fazer a coisa certa e entregar as saídas combinadas;
@@ -337,6 +340,7 @@ flowchart LR
 ---
 
 ### Teste 315
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere que determinado município gaúcho implementou um programa de alfabetização de adultos com orçamento de R$ 1.000.000,00. Ao final do projeto, constatou-se que:
 
@@ -346,12 +350,11 @@ Considere que determinado município gaúcho implementou um programa de alfabeti
 
 As constatações 1, 2 e 3 correspondem, respectivamente, aos conceitos de:
 
-* **A)** Eficácia, Eficiência e Efetividade.
-* **B)** Eficiência, Eficácia e Efetividade.
-* **C)** Efetividade, Eficiência e Eficácia.
-* **D)** Economicidade, Efetividade e Eficiência.
-* **E)** Eficiência, Efetividade e Eficácia.
-
+- **A)** Eficácia, Eficiência e Efetividade.
+- **B)** Eficiência, Eficácia e Efetividade.
+- **C)** Efetividade, Eficiência e Eficácia.
+- **D)** Economicidade, Efetividade e Eficiência.
+- **E)** Eficiência, Efetividade e Eficácia.
 
 ---
 
@@ -359,14 +362,14 @@ As constatações 1, 2 e 3 correspondem, respectivamente, aos conceitos de:
 >
 > - **A)** Incorreta. Inverte a ordem das duas primeiras dimensões.
 > - **B)** Correta.  
->     - Constatação 1 (Eficiência): Atingir o menor custo por aluno sem desperdícios operacionais expressa a otimização da relação entre insumos e produtos (fazer certo as coisas), traduzindo a Eficiência;  
->     - Constatação 2 (Eficácia): Cumprir integralmente a meta planejada de matricular e formar 2.000 pessoas expressa o atingimento das saídas quantitativas (fazer a coisa certa), traduzindo a Eficácia;  
->     - Constatação 3 (Efetividade): Gerar inserção no mercado de trabalho formal e aumento real da renda familiar reflete o impacto social duradouro e a transformação da realidade coletiva, consubstanciando a Efetividade.  
+>   - Constatação 1 (Eficiência): Atingir o menor custo por aluno sem desperdícios operacionais expressa a otimização da relação entre insumos e produtos (fazer certo as coisas), traduzindo a Eficiência;  
+>   - Constatação 2 (Eficácia): Cumprir integralmente a meta planejada de matricular e formar 2.000 pessoas expressa o atingimento das saídas quantitativas (fazer a coisa certa), traduzindo a Eficácia;  
+>   - Constatação 3 (Efetividade): Gerar inserção no mercado de trabalho formal e aumento real da renda familiar reflete o impacto social duradouro e a transformação da realidade coletiva, consubstanciando a Efetividade.  
 >   Logo, a ordem precisa é Eficiência, Eficácia e Efetividade.
 > - **C)** Incorreta. Efetividade é a terceira constatação e não a primeira.
 > - **D)** Incorreta. Mistura as categorias e inverte os conceitos de impacto social.
 > - **E)** Incorreta. Inverte eficácia e efetividade no final.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -374,14 +377,15 @@ As constatações 1, 2 e 3 correspondem, respectivamente, aos conceitos de:
 ## 5. Governança, Governabilidade e Accountability
 
 ### 5.1 Governabilidade vs. Governança (Distinção Crítica FCC)
+
 A banca FCC cobra de forma reiterada a distinção analítica entre governabilidade e governança:
 
 ```mermaid
 flowchart TD
     Diferencas["Governabilidade vs. Governança"]
-    
+  
     Diferencas --> Govbl["GOVERNABILIDADE (Dimensão Política / Externa)<br/>• Condições políticas e institucionais de sustentação<br/>• Legitimidade democrática e apoio social<br/>• Capacidade de formar maiorias no Poder Legislativo"]
-    
+  
     Diferencas --> Govnc["GOVERNANÇA (Dimensão Gerencial / Interna)<br/>• Capacidade técnica, financeira e administrativa do Estado<br/>• Recursos humanos, processos, liderança e gestão de riscos<br/>• Habilidade instrumental de executar projetos públicos"]
 ```
 
@@ -391,6 +395,7 @@ flowchart TD
     3. **Controle:** Gestão de riscos, transparência, integridade (*compliance*) e monitoramento contínuo.
 
 ### 5.2 Dimensões da Accountability (Vertical, Horizontal e Social)
+
 O termo *accountability* compreende o dever indeclinável de prestar contas, responder pelos atos praticados na gestão da coisa pública e submeter-se a sanções em caso de malversação:
 
 1. **Accountability Vertical:** Opera de baixo para cima, no vínculo entre o cidadão e os governantes, materializada essencialmente pelo **voto livre e secreto nas eleições democráticas**, bem como por plebiscitos e referendos;
@@ -400,15 +405,15 @@ O termo *accountability* compreende o dever indeclinável de prestar contas, res
 ---
 
 ### Teste 316
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A fiscalização da gestão governamental desempenhada pelo Tribunal de Contas do Estado sobre as contas dos Poderes Executivo, Legislativo e Judiciário materializa uma dimensão específica da *accountability*. Trata-se de um exemplo típico de *accountability*:
 
-* **A)** Vertical, pois o Tribunal de Contas situa-se em escalão hierárquico superior aos órgãos do Poder Executivo estadual.
-* **B)** Social, uma vez que decorre unicamente de representações apresentadas por organizações não governamentais e pela imprensa.
-* **C)** Horizontal, por consistir em controle mútuo de legalidade e legitimidade exercido por um órgão estatal autônomo sobre outros órgãos estatais no mesmo nível institucional.
-* **D)** Comportamental, pois visa exclusivamente à apuração disciplinar de infrações éticas cometidas por servidores subalternos.
-* **E)** Primária, caracterizada pelo exercício direto do sufrágio universal e do voto popular nas urnas.
-
+- **A)** Vertical, pois o Tribunal de Contas situa-se em escalão hierárquico superior aos órgãos do Poder Executivo estadual.
+- **B)** Social, uma vez que decorre unicamente de representações apresentadas por organizações não governamentais e pela imprensa.
+- **C)** Horizontal, por consistir em controle mútuo de legalidade e legitimidade exercido por um órgão estatal autônomo sobre outros órgãos estatais no mesmo nível institucional.
+- **D)** Comportamental, pois visa exclusivamente à apuração disciplinar de infrações éticas cometidas por servidores subalternos.
+- **E)** Primária, caracterizada pelo exercício direto do sufrágio universal e do voto popular nas urnas.
 
 ---
 
@@ -419,7 +424,7 @@ A fiscalização da gestão governamental desempenhada pelo Tribunal de Contas d
 > - **C)** Correta. A accountability horizontal (formulada teoricamente por Guillermo O'Donnell) traduz o controle mútuo exercido entre órgãos públicos independentes dotados de poderes constitucionais de fiscalização e freios e contrapesos (como os Tribunais de Contas, o Ministério Público e o Poder Judiciário) sobre as contas e atos de outros órgãos de Estado.
 > - **D)** Incorreta. Conceito inexistente na tipologia clássica de accountability.
 > - **E)** Incorreta. O voto do cidadão nas eleições consubstancia a manifestação da accountability vertical.
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -431,11 +436,11 @@ A Lei Federal nº 12.527/2011 (LAI) e a Lei Estadual de Goiás nº 18.025/2013 c
 ```mermaid
 flowchart TD
     LAI["Transparência Pública na LAI (Lei nº 12.527/2011)"]
-    
+  
     LAI --> Ativa["1. Transparência Ativa<br/>Divulgação obrigatória e de ofício pelo órgão<br/>nos Portais de Transparência na internet"]
     LAI --> Passiva["2. Transparência Passiva<br/>Atendimento a pedidos de informação do cidadão<br/>Prazo: Imediato ou até 20 dias (+10 de prorrogação)"]
     LAI --> Sigilo["3. Classificação de Sigilo<br/>Exceção taxativa de segurança e defesa"]
-    
+  
     Sigilo --> R["Reservada: até 5 anos"]
     Sigilo --> S["Secreta: até 15 anos"]
     Sigilo --> U["Ultrassecreta: até 25 anos (renovável por +25)"]
@@ -443,14 +448,17 @@ flowchart TD
 ```
 
 ### 6.1 Transparência Ativa vs. Transparência Passiva
+
 - **Transparência Ativa:** Divulgação oficial espontânea e contínua de informações públicas de interesse coletivo em sítios oficiais da internet (portais de transparência), em dados abertos e de fácil acesso, independentemente de requerimento;
 - **Transparência Passiva:** Resposta formal do Poder Público aos pedidos específicos de acesso a documentos e informações formulados pelos cidadãos perante os Serviços de Informações ao Cidadão (SIC).
 
 ### 6.2 Prazos de Atendimento e Desnecessidade de Motivação
+
 - **Prazos:** Se a informação estiver disponível, o acesso deve ser imediato. Caso não seja possível o atendimento imediato, o órgão tem o prazo de **até 20 (vinte) dias**, prorrogável motivadamente por mais **10 (dez) dias** (regra dos 20 + 10 dias);
 - **Desnecessidade de Motivação (Art. 10, § 3º da LAI):** São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público! O cidadão não precisa justificar por que deseja saber os gastos públicos.
 
 ### 6.3 Graus e Prazos Máximos de Sigilo Documental
+
 As informações cuja divulgação possa colocar em risco a segurança da sociedade ou do Estado podem ser classificadas em três graus de sigilo:
 
 1. **Reservada:** Prazo máximo de restrição de **até 5 (cinco) anos**;
@@ -461,15 +469,15 @@ As informações cuja divulgação possa colocar em risco a segurança da socied
 ---
 
 ### Teste 317
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Nos termos da Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), a respeito dos prazos de resposta aos pedidos de acesso à informação formulados por cidadãos e da classificação de sigilo documental, é correto afirmar:
 
-* **A)** O prazo para resposta ao pedido de informação não atendido de imediato é de 30 dias, vedada qualquer prorrogação.
-* **B)** Informações classificadas no grau reservado permanecem sob restrição de acesso público pelo prazo máximo de 5 anos.
-* **C)** O acesso à informação pública subordina-se à demonstração de legítimo interesse jurídico e comprovação dos motivos determinantes da solicitação pelo requerente.
-* **D)** A classificação de informação como ultrassecreta é atribuição passível de delegação a qualquer servidor ocupante de cargo comissionado de chefia.
-* **E)** A transparência ativa refere-se exclusivamente às informações fornecidas pelo poder público em resposta a pedidos protocolados via ouvidoria geral.
-
+- **A)** O prazo para resposta ao pedido de informação não atendido de imediato é de 30 dias, vedada qualquer prorrogação.
+- **B)** Informações classificadas no grau reservado permanecem sob restrição de acesso público pelo prazo máximo de 5 anos.
+- **C)** O acesso à informação pública subordina-se à demonstração de legítimo interesse jurídico e comprovação dos motivos determinantes da solicitação pelo requerente.
+- **D)** A classificação de informação como ultrassecreta é atribuição passível de delegação a qualquer servidor ocupante de cargo comissionado de chefia.
+- **E)** A transparência ativa refere-se exclusivamente às informações fornecidas pelo poder público em resposta a pedidos protocolados via ouvidoria geral.
 
 ---
 
@@ -480,23 +488,23 @@ Nos termos da Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), a res
 > - **C)** Incorreta. O art. 10, § 3º da LAI proíbe expressamente qualquer exigência de justificação ou demonstração de interesse jurídico para pedidos de informação pública.
 > - **D)** Incorreta. A classificação no grau ultrassecreto é ato privativo de altas autoridades de cúpula (Presidente, Ministros de Estado, Comandantes Militares), não podendo ser delegada a escalões intermediários.
 > - **E)** Incorreta. O atendimento a pedidos de cidadãos consubstancia transparência passiva; a transparência ativa é a publicação espontânea em portais públicos eletrônicos.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 318
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No campo da Nova Governança Pública e do combate à corrupção, o conceito de *Accountability* desdobra-se em diferentes dimensões fundamentais na relação entre governantes, sociedade e instituições fiscalizadoras.
 
 Assinale a opção que define corretamente a **Accountability Horizontal**:
 
-* **A)** É a mútua fiscalização e controle exercido entre os Poderes e órgãos públicos autônomos de mesmo patamar ou órgãos de controle especializado (como o controle exercido pelo Tribunal de Contas sobre o Poder Executivo ou pelo Ministério Público).
-* **B)** É o controle direto exercido pelos cidadãos sobre os governantes exclusivamente por meio do voto periódico nas eleições democráticas.
-* **C)** É a fiscalização informal exercida pela imprensa, meios de comunicação e movimentos sociais civis.
-* **D)** É a subordinação hierárquica e disciplinar obrigatória de servidores subalternos perante suas chefias imediatas.
-* **E)** É a transferência contratual de serviços de saúde para Organizações Sociais qualificadas pelo Executivo.
-
+- **A)** É a mútua fiscalização e controle exercido entre os Poderes e órgãos públicos autônomos de mesmo patamar ou órgãos de controle especializado (como o controle exercido pelo Tribunal de Contas sobre o Poder Executivo ou pelo Ministério Público).
+- **B)** É o controle direto exercido pelos cidadãos sobre os governantes exclusivamente por meio do voto periódico nas eleições democráticas.
+- **C)** É a fiscalização informal exercida pela imprensa, meios de comunicação e movimentos sociais civis.
+- **D)** É a subordinação hierárquica e disciplinar obrigatória de servidores subalternos perante suas chefias imediatas.
+- **E)** É a transferência contratual de serviços de saúde para Organizações Sociais qualificadas pelo Executivo.
 
 ---
 
@@ -507,23 +515,23 @@ Assinale a opção que define corretamente a **Accountability Horizontal**:
 > - **C)** Incorreta. Refere-se à *Accountability Social*.
 > - **D)** Incorreta. Trata-se de hierarquia administrativa.
 > - **E)** Incorreta. Publicização de serviços públicos.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 319
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O Decreto Federal nº 9.203/2017 dispõe sobre a política de governança da administração pública federal e define conceitos e diretrizes fundamentais também recepcionados pelos órgãos de controle estaduais (TCE-GO).
 
 De acordo com as boas práticas de governança no setor público, a distinção entre **Governança** e **Gestão** reside essencialmente em:
 
-* **A)** A governança compreende os mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, visando à condução de políticas públicas e à prestação de serviços de interesse da sociedade; enquanto a gestão é responsável pelo planejamento, execução, operação e entrega cotidiana das ações e projetos definidos pela governança.
-* **B)** A gestão é prerrogativa exclusiva do Poder Judiciário e a governança é função própria dos órgãos burocráticos municipais.
-* **C)** A governança e a gestão são sinônimos perfeitos na teoria administrativa contemporânea, inexistindo distinção prática ou normativa entre os termos.
-* **D)** A governança atua estritamente na fase de compra e liquidação contábil de bens e a gestão cuida da edição de medidas provisórias pelo Presidente da República.
-* **E)** A governança afasta a necessidade de controles internos e auditorias para permitir total liberdade aos gestores operacionais.
-
+- **A)** A governança compreende os mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, visando à condução de políticas públicas e à prestação de serviços de interesse da sociedade; enquanto a gestão é responsável pelo planejamento, execução, operação e entrega cotidiana das ações e projetos definidos pela governança.
+- **B)** A gestão é prerrogativa exclusiva do Poder Judiciário e a governança é função própria dos órgãos burocráticos municipais.
+- **C)** A governança e a gestão são sinônimos perfeitos na teoria administrativa contemporânea, inexistindo distinção prática ou normativa entre os termos.
+- **D)** A governança atua estritamente na fase de compra e liquidação contábil de bens e a gestão cuida da edição de medidas provisórias pelo Presidente da República.
+- **E)** A governança afasta a necessidade de controles internos e auditorias para permitir total liberdade aos gestores operacionais.
 
 ---
 
@@ -531,18 +539,18 @@ De acordo com as boas práticas de governança no setor público, a distinção 
 >
 > - **A)** Correta. Decreto nº 9.203/2017: **Governança** (*Avaliar, Direcionar e Monitorar* - liderança e estratégia da alta direção); **Gestão** (*Planejar, Executar e Controlar* - operação cotidiana dos gerentes e equipes).
 > - **B), C), D), E)** Incorretas. Distorções conceituais dos papéis de governança e gestão.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ## 🌐 Fontes Oficiais & Referências Bibliográficas
 
-* [Decreto Federal nº 9.203/2017 (Política de Governança da Administração Pública)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Dispõe sobre a governança pública e os mecanismos de liderança, estratégia e controle.
-* [Decreto-Lei nº 200/1967 (Reforma Administrativa e Descentralização)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Marco histórico de modernização e descentralização da administração pública brasileira.
-* [TCU - Referencial Básico de Governança Aplicável a Órgãos e Entidades Públicas](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Diretrizes para implantação de boas práticas de accountability e transparência.
-* [Constituição Federal de 1988 - Art. 37 (Princípios da Administração Pública)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Previsão dos princípios do LIMPE (Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência).
-* [TCE-GO - Plano de Fiscalização e Governança](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Planejamento institucional do TCE-GO com foco na governança e resultados operacionais.
-* BRESSER-PEREIRA, Luiz Carlos. **Reforma do Estado para a Cidadania: a Reforma Gerencial Brasileira na Perspectiva Internacional**. São Paulo: Editora 34, 1998. (Cap. 1 a 3 - Modelos Patrimonialista, Burocrático e Gerencial).
-* MATIAS-PEREIRA, José. **Manual de Gestão Pública Contemporânea**. 5. ed. São Paulo: Atlas, 2018. (Cap. 2 - Modelos de Administração Pública; Cap. 5 - Governança no Setor Público).
-* OSBORNE, David; GAEBLER, Ted. **Reinventando o Governo: Como o Espírito Empreendedor Está Transformando o Setor Público**. 10. ed. Brasília: MH Comunicação, 1994.
+- [Decreto Federal nº 9.203/2017 (Política de Governança da Administração Pública)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Dispõe sobre a governança pública e os mecanismos de liderança, estratégia e controle.
+- [Decreto-Lei nº 200/1967 (Reforma Administrativa e Descentralização)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Marco histórico de modernização e descentralização da administração pública brasileira.
+- [TCU - Referencial Básico de Governança Aplicável a Órgãos e Entidades Públicas](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Diretrizes para implantação de boas práticas de accountability e transparência.
+- [Constituição Federal de 1988 - Art. 37 (Princípios da Administração Pública)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Previsão dos princípios do LIMPE (Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência).
+- [TCE-GO - Plano de Fiscalização e Governança](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Planejamento institucional do TCE-GO com foco na governança e resultados operacionais.
+- BRESSER-PEREIRA, Luiz Carlos. **Reforma do Estado para a Cidadania: a Reforma Gerencial Brasileira na Perspectiva Internacional**. São Paulo: Editora 34, 1998. (Cap. 1 a 3 - Modelos Patrimonialista, Burocrático e Gerencial).
+- MATIAS-PEREIRA, José. **Manual de Gestão Pública Contemporânea**. 5. ed. São Paulo: Atlas, 2018. (Cap. 2 - Modelos de Administração Pública; Cap. 5 - Governança no Setor Público).
+- OSBORNE, David; GAEBLER, Ted. **Reinventando o Governo: Como o Espírito Empreendedor Está Transformando o Setor Público**. 10. ed. Brasília: MH Comunicação, 1994.

@@ -5,55 +5,53 @@
 > **Arquivo:** `05_poder_executivo_poder_judiciario_e_funcoes_essenciais.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 
 - Do Poder Executivo: eleição, posse, impedimento, vacância e sucessão presidencial;
 - Atribuições e prerrogativas do Presidente da República (Artigo 84 da CF/88): competências indelegáveis e competências privativas delegáveis (decretos autônomos, indulto e provimento de cargos vagos);
 - Responsabilidade do Presidente da República (Artigos 85 e 86 da CF/88):
-    - Crimes comuns vs. crimes de responsabilidade (*impeachment*);
-    - Juízo prévio de admissibilidade pela Câmara dos Deputados (quórum qualificado de 2/3);
-    - Competência de julgamento pelo STF e pelo Senado Federal (presidido pelo Presidente do STF);
-    - Imunidades presidenciais: imunidade prisional temporária e cláusula de irresponsabilidade relativa por atos estranhos ao mandato;
+  - Crimes comuns vs. crimes de responsabilidade (*impeachment*);
+  - Juízo prévio de admissibilidade pela Câmara dos Deputados (quórum qualificado de 2/3);
+  - Competência de julgamento pelo STF e pelo Senado Federal (presidido pelo Presidente do STF);
+  - Imunidades presidenciais: imunidade prisional temporária e cláusula de irresponsabilidade relativa por atos estranhos ao mandato;
 - Do Poder Judiciário: disposições gerais, estatuto e garantias da magistratura (vitaliciedade, inamovibilidade e irredutibilidade) e vedações expressas (quarentena de saída);
 - Do Supremo Tribunal Federal (STF - Artigos 101 a 103-A da CF/88): composição (11 Ministros), nomeação, sabatina pelo Senado Federal, competências originárias e recursais, e o regime das Súmulas Vinculantes (Art. 103-A);
 - Do Conselho Nacional de Justiça (CNJ - Artigo 103-B da CF/88): organização, composição (15 membros) e limites de atuação (natureza estritamente administrativa, orçamentária e correcional, sem competência jurisdicional);
 - Do Superior Tribunal de Justiça (STJ - Artigos 104 e 105 da CF/88): composição (no mínimo 33 Ministros), uniformização da lei federal infraconstitucional e o filtro da relevância no Recurso Especial (EC nº 125/2022);
 - Das Funções Essenciais à Justiça:
-    - Ministério Público (Artigos 127 a 130-A da CF/88): princípios institucionais, autonomia, garantias, vedações e o Conselho Nacional do Ministério Público (CNMP);
-    - Advocacia Pública (Artigos 131 e 132 da CF/88): AGU e Procuradorias Estaduais (PGE-GO);
-    - Advocacia Privada (Artigo 133 da CF/88): indispensabilidade e inviolabilidade profissional;
-    - Defensoria Pública (Artigos 134 e 135 da CF/88): assistência jurídica aos hipossuficientes e autonomia institucional expressa.
+  - Ministério Público (Artigos 127 a 130-A da CF/88): princípios institucionais, autonomia, garantias, vedações e o Conselho Nacional do Ministério Público (CNMP);
+  - Advocacia Pública (Artigos 131 e 132 da CF/88): AGU e Procuradorias Estaduais (PGE-GO);
+  - Advocacia Privada (Artigo 133 da CF/88): indispensabilidade e inviolabilidade profissional;
+  - Defensoria Pública (Artigos 134 e 135 da CF/88): assistência jurídica aos hipossuficientes e autonomia institucional expressa.
 
 ---
 
 ## 🧭 Sumário
 
-1. [Poder Executivo: Estrutura, Atribuições e Responsabilidade](#1-poder-executivo-estrutura-atribuicoes-e-responsabilidade)
-    - [1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)](#11-dupla-vacancia-dos-cargos-presidenciais-art-81-da-cf88)
-    - [1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)](#12-atribuicoes-delegaveis-do-presidente-da-republica-art-84-paragrafo-unico)
-    - [1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)](#13-responsabilidade-do-presidente-da-republica-e-imunidades-arts-85-e-86)
-    - [Teste 154](#teste-154)
-    - [Teste 155](#teste-155)
-    - [Teste 156](#teste-156)
-    - [Teste 157](#teste-157)
-    - [Teste 158](#teste-158)
-    - [Teste 159](#teste-159)
-    - [Teste 160](#teste-160)
-    - [Teste 161](#teste-161)
-    - [Teste 162](#teste-162)
-    - [Teste 163](#teste-163)
-    - [Teste 164](#teste-164)
+1. [Poder Executivo: Estrutura, Atribuições e Responsabilidade](#1-poder-executivo-estrutura-atribuições-e-responsabilidade)
+    1. [Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)](#11-dupla-vacância-dos-cargos-presidenciais-art-81-da-cf88)
+    1. [Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)](#12-atribuições-delegáveis-do-presidente-da-república-art-84-parágrafo-único)
+    1. [Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)](#13-responsabilidade-do-presidente-da-república-e-imunidades-arts-85-e-86)
+    1. [Teste 154](#teste-154)
+    1. [Teste 155](#teste-155)
+    1. [Teste 156](#teste-156)
+    1. [Teste 157](#teste-157)
+    1. [Teste 158](#teste-158)
+    1. [Teste 159](#teste-159)
+    1. [Teste 160](#teste-160)
+    1. [Teste 161](#teste-161)
+    1. [Teste 162](#teste-162)
+    1. [Teste 163](#teste-163)
+    1. [Teste 164](#teste-164)
 
 ---
 
 ## 1. Poder Executivo: Estrutura, Atribuições e Responsabilidade
 
 ### 1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)
+
 Ocorrendo a vacância definitiva tanto do cargo de Presidente quanto de Vice-Presidente da República, aplicam-se regras distintas a depender do momento do mandato:
 
 ```mermaid
@@ -72,6 +70,7 @@ flowchart TD
 - Em qualquer das hipóteses de eleição extraordinária, os eleitos deverão completar o período remanescente de seus antecessores (*mandato-tampão* - art. 81, § 2º).
 
 ### 1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)
+
 O art. 84 fixa as competências privativas do Presidente da República. Em regra, são privativas e indelegáveis. Todavia, a Constituição autoriza a **delegação de apenas TRÊS matérias específicas**:
 
 1. **Art. 84, VI:** Dispor, mediante **decreto autônomo**, sobre:
@@ -92,6 +91,7 @@ flowchart LR
 > - **Extinção de Cargos Públicos Ocupados:** Depende obrigatoriamente de lei formal. Por decreto autônomo, o Chefe do Executivo só pode extinguir cargos e funções quando estiverem **vagos**!
 
 ### 1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)
+
 O Presidente da República responde perante o STF por crimes comuns e perante o Senado Federal por crimes de responsabilidade (*impeachment*).
 
 | Aspecto Procedimental | Crime Comum (Penal) | Crime de Responsabilidade (*Impeachment*) |
@@ -107,14 +107,15 @@ O Presidente da República responde perante o STF por crimes comuns e perante o 
 ---
 
 ### Teste 154
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O art. 84, VI, da Constituição Federal autoriza o Presidente da República a dispor, mediante decreto autônomo, sobre determinadas matérias de organização administrativa. A respeito dos limites dessa competência regulamentar executiva, é correto afirmar que o decreto autônomo:
 
-* **A)** pode criar órgãos públicos e secretarias de Estado desde que a medida não importe aumento de despesa pública.
-* **B)** pode dispor sobre a organização e funcionamento da administração federal sem criar despesas nem órgãos.
-* **C)** autoriza a extinção de cargos e funções públicas mesmo quando estes estiverem formalmente ocupados por servidores.
-* **D)** permite instituir ou majorar tributos de competência privativa da União em caso de comprovada urgência fiscal.
-* **E)** constitui ato infralegal submetido a prévia aprovação vinculante pelo Congresso Nacional por decreto legislativo.
+- **A)** pode criar órgãos públicos e secretarias de Estado desde que a medida não importe aumento de despesa pública.
+- **B)** pode dispor sobre a organização e funcionamento da administração federal sem criar despesas nem órgãos.
+- **C)** autoriza a extinção de cargos e funções públicas mesmo quando estes estiverem formalmente ocupados por servidores.
+- **D)** permite instituir ou majorar tributos de competência privativa da União em caso de comprovada urgência fiscal.
+- **E)** constitui ato infralegal submetido a prévia aprovação vinculante pelo Congresso Nacional por decreto legislativo.
 
 ---
 
@@ -129,14 +130,15 @@ O art. 84, VI, da Constituição Federal autoriza o Presidente da República a d
 > **Gabarito: B**
 
 ### Teste 155
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Vagando simultaneamente os cargos de Presidente e Vice-Presidente da República:
 
-* **A)** será chamado ao exercício definitivo da Presidência o Presidente da Câmara dos Deputados para cumprir todo o mandato restante.
-* **B)** será realizada eleição pelo Congresso Nacional, trinta dias depois da última vaga, se a vacância ocorrer nos últimos dois anos.
-* **C)** deverá ser convocado plebiscito nacional em sessenta dias para decidir sobre a realização de nova eleição geral.
-* **D)** caberá ao Tribunal Superior Eleitoral diplomar imediatamente os candidatos que obtiveram a segunda colocação no pleito anterior.
-* **E)** haverá nova eleição direta noventa dias após aberta a última vaga, independentemente do ano do mandato em que ocorrer a vacância.
+- **A)** será chamado ao exercício definitivo da Presidência o Presidente da Câmara dos Deputados para cumprir todo o mandato restante.
+- **B)** será realizada eleição pelo Congresso Nacional, trinta dias depois da última vaga, se a vacância ocorrer nos últimos dois anos.
+- **C)** deverá ser convocado plebiscito nacional em sessenta dias para decidir sobre a realização de nova eleição geral.
+- **D)** caberá ao Tribunal Superior Eleitoral diplomar imediatamente os candidatos que obtiveram a segunda colocação no pleito anterior.
+- **E)** haverá nova eleição direta noventa dias após aberta a última vaga, independentemente do ano do mandato em que ocorrer a vacância.
 
 ---
 
@@ -151,14 +153,15 @@ Vagando simultaneamente os cargos de Presidente e Vice-Presidente da República:
 > **Gabarito: B**
 
 ### Teste 156
+
 **(FCC – TRT-2 – Analista Judiciário - Tecnologia da Informação – 2014)**  
 Entre as atribuições conferidas pelo texto constitucional ao Presidente da República está o poder de "conceder indulto e comutar penas" (art. 84, XII). O exercício dessa atribuição presidencial não é cabível, nos termos da Constituição Federal, para beneficiar os condenados pela prática das infrações criminais de:
 
-* **A)** terrorismo, racismo, crimes hediondos e ação de grupos armados contra a ordem constitucional.
-* **B)** tortura, racismo, crimes hediondos e tráfico ilícito de entorpecentes e drogas afins.
-* **C)** terrorismo, tortura, crimes hediondos e tráfico ilícito de entorpecentes e drogas afins.
-* **D)** terrorismo, tortura, ação de grupos armados contra a ordem constitucional e tráfico ilícito de drogas.
-* **E)** terrorismo, tortura, racismo, estelionato previdenciário e crimes contra a administração pública.
+- **A)** terrorismo, racismo, crimes hediondos e ação de grupos armados contra a ordem constitucional.
+- **B)** tortura, racismo, crimes hediondos e tráfico ilícito de entorpecentes e drogas afins.
+- **C)** terrorismo, tortura, crimes hediondos e tráfico ilícito de entorpecentes e drogas afins.
+- **D)** terrorismo, tortura, ação de grupos armados contra a ordem constitucional e tráfico ilícito de drogas.
+- **E)** terrorismo, tortura, racismo, estelionato previdenciário e crimes contra a administração pública.
 
 ---
 
@@ -173,14 +176,15 @@ Entre as atribuições conferidas pelo texto constitucional ao Presidente da Rep
 > **Gabarito: C**
 
 ### Teste 157
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A responsabilidade política e penal do Presidente da República é disciplinada no art. 86 da Constituição Federal. De acordo com as normas constitucionais vigentes e a jurisprudência do STF, é correto afirmar:
 
-* **A)** Admitida a acusação por dois terços da Câmara dos Deputados, o Presidente será submetido a julgamento no STF ou Senado.
-* **B)** O Presidente ficará suspenso de suas funções a partir do momento em que for protocolada a denúncia popular perante a Mesa.
-* **C)** Compete ao Supremo Tribunal Federal processar e julgar o Presidente da República nos crimes de responsabilidade política.
-* **D)** Se o julgamento não estiver concluído em noventa dias, cessará o afastamento do Presidente e extinguir-se-á o processo penal.
-* **E)** O Presidente da República pode ser preso cautelarmente antes de sentença condenatória irrecorrível nos crimes comuns funcionais.
+- **A)** Admitida a acusação por dois terços da Câmara dos Deputados, o Presidente será submetido a julgamento no STF ou Senado.
+- **B)** O Presidente ficará suspenso de suas funções a partir do momento em que for protocolada a denúncia popular perante a Mesa.
+- **C)** Compete ao Supremo Tribunal Federal processar e julgar o Presidente da República nos crimes de responsabilidade política.
+- **D)** Se o julgamento não estiver concluído em noventa dias, cessará o afastamento do Presidente e extinguir-se-á o processo penal.
+- **E)** O Presidente da República pode ser preso cautelarmente antes de sentença condenatória irrecorrível nos crimes comuns funcionais.
 
 ---
 
@@ -195,14 +199,15 @@ A responsabilidade política e penal do Presidente da República é disciplinada
 > **Gabarito: A**
 
 ### Teste 158
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Constituição Federal de 1988 assegura aos magistrados um sólido conjunto de garantias institucionais inerentes ao livre exercício da função jurisdicional (art. 95). A respeito da vitaliciedade dos juízes, é correto afirmar que:
 
-* **A)** é adquirida no ato da posse perante o Tribunal de Justiça, vedada qualquer fase prévia de estágio probatório.
-* **B)** no primeiro grau, adquire-se após dois anos de exercício, dependendo a perda do cargo de sentença judicial transitada.
-* **C)** pode ser revogada por decisão administrativa da maioria absoluta do respectivo Tribunal de Justiça em processo disciplinar.
-* **D)** não impede a perda do cargo público por decisão discricionária motivada do Governador do Estado federado.
-* **E)** é garantia conferida exclusivamente aos Ministros dos Tribunais Superiores que compõem a cúpula do Poder Judiciário.
+- **A)** é adquirida no ato da posse perante o Tribunal de Justiça, vedada qualquer fase prévia de estágio probatório.
+- **B)** no primeiro grau, adquire-se após dois anos de exercício, dependendo a perda do cargo de sentença judicial transitada.
+- **C)** pode ser revogada por decisão administrativa da maioria absoluta do respectivo Tribunal de Justiça em processo disciplinar.
+- **D)** não impede a perda do cargo público por decisão discricionária motivada do Governador do Estado federado.
+- **E)** é garantia conferida exclusivamente aos Ministros dos Tribunais Superiores que compõem a cúpula do Poder Judiciário.
 
 ---
 
@@ -217,15 +222,16 @@ A Constituição Federal de 1988 assegura aos magistrados um sólido conjunto de
 > **Gabarito: B**
 
 ### Teste 159
+
 **(FGV – TJ-MT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Determinado órgão, em âmbito nacional, tem a competência de controlar a atuação administrativa e financeira do Poder Judiciário e o cumprimento dos deveres funcionais dos juízes, além de outras atribuições que lhe forem conferidas pelo Estatuto da Magistratura.  
 Nesse cenário, considerando as disposições da Constituição Federal de 1988, está-se diante de uma competência do:
 
-* **A)** Tribunal Superior do Trabalho.
-* **B)** Conselho Nacional de Justiça.
-* **C)** Superior Tribunal de Justiça.
-* **D)** Tribunal Superior Eleitoral.
-* **E)** Supremo Tribunal Federal.
+- **A)** Tribunal Superior do Trabalho.
+- **B)** Conselho Nacional de Justiça.
+- **C)** Superior Tribunal de Justiça.
+- **D)** Tribunal Superior Eleitoral.
+- **E)** Supremo Tribunal Federal.
 
 ---
 
@@ -240,14 +246,15 @@ Nesse cenário, considerando as disposições da Constituição Federal de 1988,
 > **Gabarito: B**
 
 ### Teste 160
+
 **(FGV – TJ-RR – Analista Judiciário - Suporte e Infraestrutura de TI – 2024)**  
 O Conselho Nacional de Justiça compõe-se de 15 (quinze) membros com mandato de 2 (dois) anos, admitida 1 (uma) recondução. As opções a seguir apresentam membros que participam da composição constitucional desse Conselho, à exceção de uma. Assinale-a:
 
-* **A)** Um juiz de Tribunal Regional Federal, indicado pelo Superior Tribunal de Justiça.
-* **B)** Um juiz de Tribunal Regional do Trabalho, indicado pelo Tribunal Superior do Trabalho.
-* **C)** Dois cidadãos de notável saber jurídico e reputação ilibada, indicados pela Câmara e pelo Senado.
-* **D)** Um juiz de Tribunal Regional Eleitoral, indicado privativamente pelo Supremo Tribunal Federal.
-* **E)** Um membro do Ministério Público estadual, escolhido pelo Procurador-Geral da República.
+- **A)** Um juiz de Tribunal Regional Federal, indicado pelo Superior Tribunal de Justiça.
+- **B)** Um juiz de Tribunal Regional do Trabalho, indicado pelo Tribunal Superior do Trabalho.
+- **C)** Dois cidadãos de notável saber jurídico e reputação ilibada, indicados pela Câmara e pelo Senado.
+- **D)** Um juiz de Tribunal Regional Eleitoral, indicado privativamente pelo Supremo Tribunal Federal.
+- **E)** Um membro do Ministério Público estadual, escolhido pelo Procurador-Geral da República.
 
 ---
 
@@ -262,14 +269,15 @@ O Conselho Nacional de Justiça compõe-se de 15 (quinze) membros com mandato de
 > **Gabarito: D**
 
 ### Teste 161
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O art. 103-A da Constituição Federal confere ao Supremo Tribunal Federal a competência para editar súmulas com efeito vinculante em relação aos demais órgãos do Poder Judiciário e à administração pública. A respeito da súmula vinculante, é correto afirmar:
 
-* **A)** A aprovação de enunciado de súmula vinculante exige o quórum de maioria simples dos membros presentes no Plenário do STF.
-* **B)** O enunciado possui eficácia vinculante em relação aos demais órgãos do Poder Judiciário e à Administração Pública direta e indireta.
-* **C)** A súmula vinculante vincula o Poder Legislativo no exercício de sua função típica de elaboração das normas legais.
-* **D)** Qualquer pessoa física tem legitimidade ativa autônoma perante o STF para propor a edição ou revisão de súmula vinculante.
-* **E)** Contra ato administrativo que contrarie súmula vinculante cabe apelação hierárquica perante o Conselho Nacional de Justiça.
+- **A)** A aprovação de enunciado de súmula vinculante exige o quórum de maioria simples dos membros presentes no Plenário do STF.
+- **B)** O enunciado possui eficácia vinculante em relação aos demais órgãos do Poder Judiciário e à Administração Pública direta e indireta.
+- **C)** A súmula vinculante vincula o Poder Legislativo no exercício de sua função típica de elaboração das normas legais.
+- **D)** Qualquer pessoa física tem legitimidade ativa autônoma perante o STF para propor a edição ou revisão de súmula vinculante.
+- **E)** Contra ato administrativo que contrarie súmula vinculante cabe apelação hierárquica perante o Conselho Nacional de Justiça.
 
 ---
 
@@ -284,14 +292,15 @@ O art. 103-A da Constituição Federal confere ao Supremo Tribunal Federal a com
 > **Gabarito: B**
 
 ### Teste 162
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Ministério Público é instituição permanente, essencial à função jurisdicional do Estado, incumbindo-lhe a defesa da ordem jurídica, do regime democrático e dos interesses sociais e individuais indisponíveis. A respeito dos seus princípios institucionais, é correto afirmar:
 
-* **A)** A unidade, a indivisibilidade e a independência funcional são princípios institucionais do Ministério Público.
-* **B)** A destituição do Procurador-Geral de Justiça pelo Governador dispensa prévia autorização da Assembleia Legislativa.
-* **C)** O Ministério Público subordina-se funcionalmente ao Ministério da Justiça e Segurança Pública no plano federal.
-* **D)** A criação e extinção de cargos nos Ministérios Públicos estaduais decorre de decreto autônomo do Governador.
-* **E)** Aos membros do Ministério Público é expressamente permitida a prática da advocacia privada no âmbito civil.
+- **A)** A unidade, a indivisibilidade e a independência funcional são princípios institucionais do Ministério Público.
+- **B)** A destituição do Procurador-Geral de Justiça pelo Governador dispensa prévia autorização da Assembleia Legislativa.
+- **C)** O Ministério Público subordina-se funcionalmente ao Ministério da Justiça e Segurança Pública no plano federal.
+- **D)** A criação e extinção de cargos nos Ministérios Públicos estaduais decorre de decreto autônomo do Governador.
+- **E)** Aos membros do Ministério Público é expressamente permitida a prática da advocacia privada no âmbito civil.
 
 ---
 
@@ -306,14 +315,15 @@ O Ministério Público é instituição permanente, essencial à função jurisd
 > **Gabarito: A**
 
 ### Teste 163
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Acerca do regime constitucional conferido às Funções Essenciais à Justiça, em especial à Defensoria Pública (art. 134 da CF/88), analise as prerrogativas e garantias asseguradas pela ordem constitucional. É correto afirmar que:
 
-* **A)** Às Defensorias Públicas são asseguradas a autonomia funcional, administrativa e a iniciativa de sua proposta orçamentária.
-* **B)** A Defensoria Pública subordina-se hierarquicamente à Procuradoria-Geral do respectivo Estado da Federação.
-* **C)** O cargo de Defensor Público-Geral é privativo de membro vitalício oriundo do Ministério Público estadual.
-* **D)** A assistência jurídica integral aos hipossuficientes pode ser extinta por lei ordinária estadual autorizativa.
-* **E)** As Defensorias Públicas não gozam de legitimidade para a propositura de Ação Civil Pública na tutela de interesses difusos e coletivos.
+- **A)** Às Defensorias Públicas são asseguradas a autonomia funcional, administrativa e a iniciativa de sua proposta orçamentária.
+- **B)** A Defensoria Pública subordina-se hierarquicamente à Procuradoria-Geral do respectivo Estado da Federação.
+- **C)** O cargo de Defensor Público-Geral é privativo de membro vitalício oriundo do Ministério Público estadual.
+- **D)** A assistência jurídica integral aos hipossuficientes pode ser extinta por lei ordinária estadual autorizativa.
+- **E)** As Defensorias Públicas não gozam de legitimidade para a propositura de Ação Civil Pública na tutela de interesses difusos e coletivos.
 
 ---
 
@@ -328,14 +338,15 @@ Acerca do regime constitucional conferido às Funções Essenciais à Justiça, 
 > **Gabarito: A**
 
 ### Teste 164
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da Advocacia Pública disciplinada nos artigos 131 e 132 da Constituição Federal, analise as competências conferidas à Advocacia-Geral da União e às Procuradorias dos Estados e do Distrito Federal. É correto afirmar que:
 
-* **A)** A representação judicial da União nas execuções de dívida ativa de natureza tributária compete privativamente à CGU.
-* **B)** Os Procuradores dos Estados e do DF exercem a representação judicial e a consultoria jurídica das unidades federadas.
-* **C)** O Advogado-Geral da União deve ser nomeado exclusivamente dentre os membros que integram a carreira da AGU.
-* **D)** A atividade de consultoria jurídica dos órgãos do Poder Executivo estadual pode ser exercida por servidores comissionados sem concurso.
-* **E)** O regime constitucional veda aos Estados federados a instituição de quadro de procuradores para a cobrança da dívida ativa estadual.
+- **A)** A representação judicial da União nas execuções de dívida ativa de natureza tributária compete privativamente à CGU.
+- **B)** Os Procuradores dos Estados e do DF exercem a representação judicial e a consultoria jurídica das unidades federadas.
+- **C)** O Advogado-Geral da União deve ser nomeado exclusivamente dentre os membros que integram a carreira da AGU.
+- **D)** A atividade de consultoria jurídica dos órgãos do Poder Executivo estadual pode ser exercida por servidores comissionados sem concurso.
+- **E)** O regime constitucional veda aos Estados federados a instituição de quadro de procuradores para a cobrança da dívida ativa estadual.
 
 ---
 
@@ -348,4 +359,3 @@ A respeito da Advocacia Pública disciplinada nos artigos 131 e 132 da Constitui
 > - **E)** **Incorreto**. A cobrança da dívida ativa estadual insere-se nas atribuições nucleares das Procuradorias-Gerais dos Estados.
 >
 > **Gabarito: B**
-

@@ -5,12 +5,10 @@
 > **Arquivo:** `02_proporcoes_regra_de_tres_e_porcentagem.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Números e grandezas proporcionais: razões e proporções.
 - Divisão em partes proporcionais (direta e inversa).
 - Regra de três simples (direta e inversa).
@@ -20,34 +18,34 @@
 
 ## 🧭 Sumário
 
-1. [Razões, Proporções e Propriedades Fundamentais](#1-razoes-proporcoes-e-propriedades-fundamentais)
-    - [1.1 Conceito de Razão e Grandezas Comensuráveis](#11-conceito-de-razao-e-grandezas-comensuraveis)
-    - [1.2 Proporções e a Propriedade Fundamental](#12-proporcoes-e-a-propriedade-fundamental)
-    - [1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade](#13-propriedade-da-soma-dos-termos-e-constante-de-proporcionalidade)
-    - [Teste 082](#teste-082)
-2. [Divisão em Partes Proporcionais](#2-divisao-em-partes-proporcionais)
-    - [2.1 Divisão Diretamente Proporcional com a Constante k](#21-divisao-diretamente-proporcional-com-a-constante-k)
-    - [2.2 Divisão Inversamente Proporcional e o Método do MMC](#22-divisao-inversamente-proporcional-e-o-metodo-do-mmc)
-    - [2.3 Divisão Proporcional Composta ou Mista](#23-divisao-proporcional-composta-ou-mista)
-    - [Teste 083](#teste-083)
-    - [Teste 084](#teste-084)
-    - [Teste 085](#teste-085)
-3. [Classificação de Grandezas e Regra de Três Simples](#3-classificacao-de-grandezas-e-regra-de-tres-simples)
-    - [3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada](#31-grandezas-diretamente-proporcionais-e-multiplicacao-cruzada)
-    - [3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta](#32-grandezas-inversamente-proporcionais-e-multiplicacao-em-linha-reta)
-    - [3.3 Método Prático das Setas e Identificação de Armadilhas](#33-metodo-pratico-das-setas-e-identificacao-de-armadilhas)
-    - [Teste 086](#teste-086)
-    - [Teste 087](#teste-087)
-4. [Porcentagem, Fatores Multiplicadores e Variações](#4-porcentagem-fatores-multiplicadores-e-variacoes)
-    - [4.1 Conceito e Fatores de Aumento e Desconto](#41-conceito-e-fatores-de-aumento-e-desconto)
-    - [4.2 Aumentos e Descontos Sucessivos Cumulativos](#42-aumentos-e-descontos-sucessivos-cumulativos)
-    - [4.3 Inversão da Base de Referência Percentual](#43-inversao-da-base-de-referencia-percentual)
-    - [4.4 Diferença entre Pontos Percentuais e Variação Percentual](#44-diferenca-entre-pontos-percentuais-e-variacao-percentual)
-    - [Teste 088](#teste-088)
-    - [Teste 089](#teste-089)
-    - [Teste 090](#teste-090)
-    - [Teste 091](#teste-091)
-1. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+1. [Razões, Proporções e Propriedades Fundamentais](#1-razões-proporções-e-propriedades-fundamentais)
+    1. [Conceito de Razão e Grandezas Comensuráveis](#11-conceito-de-razão-e-grandezas-comensuráveis)
+    1. [Proporções e a Propriedade Fundamental](#12-proporções-e-a-propriedade-fundamental)
+    1. [Propriedade da Soma dos Termos e Constante de Proporcionalidade](#13-propriedade-da-soma-dos-termos-e-constante-de-proporcionalidade)
+    1. [Teste 082](#teste-082)
+2. [Divisão em Partes Proporcionais](#2-divisão-em-partes-proporcionais)
+    1. [Divisão Diretamente Proporcional com a Constante k](#21-divisão-diretamente-proporcional-com-a-constante-k)
+    1. [Divisão Inversamente Proporcional e o Método do MMC](#22-divisão-inversamente-proporcional-e-o-método-do-mmc)
+    1. [Divisão Proporcional Composta ou Mista](#23-divisão-proporcional-composta-ou-mista)
+    1. [Teste 083](#teste-083)
+    1. [Teste 084](#teste-084)
+    1. [Teste 085](#teste-085)
+3. [Classificação de Grandezas e Regra de Três Simples](#3-classificação-de-grandezas-e-regra-de-três-simples)
+    1. [Grandezas Diretamente Proporcionais e Multiplicação Cruzada](#31-grandezas-diretamente-proporcionais-e-multiplicação-cruzada)
+    1. [Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta](#32-grandezas-inversamente-proporcionais-e-multiplicação-em-linha-reta)
+    1. [Método Prático das Setas e Identificação de Armadilhas](#33-método-prático-das-setas-e-identificação-de-armadilhas)
+    1. [Teste 086](#teste-086)
+    1. [Teste 087](#teste-087)
+4. [Porcentagem, Fatores Multiplicadores e Variações](#4-porcentagem-fatores-multiplicadores-e-variações)
+    1. [Conceito e Fatores de Aumento e Desconto](#41-conceito-e-fatores-de-aumento-e-desconto)
+    1. [Aumentos e Descontos Sucessivos Cumulativos](#42-aumentos-e-descontos-sucessivos-cumulativos)
+    1. [Inversão da Base de Referência Percentual](#43-inversão-da-base-de-referência-percentual)
+    1. [Diferença entre Pontos Percentuais e Variação Percentual](#44-diferença-entre-pontos-percentuais-e-variação-percentual)
+    1. [Teste 088](#teste-088)
+    1. [Teste 089](#teste-089)
+    1. [Teste 090](#teste-090)
+    1. [Teste 091](#teste-091)
+5. [Fontes Oficiais e Referências Bibliográficas](#-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -57,10 +55,10 @@ O estudo das grandezas proporcionais é um dos temas de maior peso quantitativo 
 
 ### 1.1 Conceito de Razão e Grandezas Comensuráveis
 
-* **Razão:** Dados dois números reais $a$ e $b$ (com $b \neq 0$), a razão entre $a$ e $b$ (nesta ordem) é o quociente indicado pela divisão:
+- **Razão:** Dados dois números reais $a$ e $b$ (com $b \neq 0$), a razão entre $a$ e $b$ (nesta ordem) é o quociente indicado pela divisão:
   $$\text{Razão} = \frac{a}{b} \quad \text{ou} \quad a : b$$
   O primeiro termo $a$ denomina-se **antecedente** e o segundo termo $b$ é o **consequente**.
-* Quando as grandezas possuem a mesma unidade de medida (ex.: metros por metros, reais por reais), a razão é uma grandeza **adimensional pura**. Quando comparam grandezas de naturezas físicas distintas, expressam taxas ou grandezas derivadas (ex.: velocidade média em $\text{km/h}$, densidade demográfica em $\text{hab/km}^2$).
+- Quando as grandezas possuem a mesma unidade de medida (ex.: metros por metros, reais por reais), a razão é uma grandeza **adimensional pura**. Quando comparam grandezas de naturezas físicas distintas, expressam taxas ou grandezas derivadas (ex.: velocidade média em $\text{km/h}$, densidade demográfica em $\text{hab/km}^2$).
 
 ### 1.2 Proporções e a Propriedade Fundamental
 
@@ -68,7 +66,8 @@ Uma proporção é formalmente definida como a **igualdade matemática entre dua
 $$\frac{a}{b} = \frac{c}{d} \quad \text{lê-se: 'a está para b assim como c está para d'}$$
 Os termos $a$ e $d$ denominam-se **extremos**, enquanto $b$ e $c$ são os **meios**.
 
-#### A Propriedade Fundamental das Proporções:
+#### A Propriedade Fundamental das Proporções
+
 Em qualquer proporção válida, o produto dos extremos é rigorosamente igual ao produto dos meios:
 $$\frac{a}{b} = \frac{c}{d} \iff a \cdot d = b \cdot c \quad (b, d \neq 0)$$
 
@@ -88,15 +87,15 @@ Essa propriedade é a base algébrica definitiva para solucionar repartições o
 ---
 
 ### Teste 082
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em um tribunal, a razão entre o número de processos físicos e o número de processos eletrônicos que aguardavam triagem era de $3$ para $7$. Se o número total de processos aguardando triagem era de $250$, quantos processos eletrônicos havia a mais do que processos físicos?
 
-* **A)** $80$
-* **B)** $100$
-* **C)** $120$
-* **D)** $140$
-* **E)** $175$
-
+- **A)** $80$
+- **B)** $100$
+- **C)** $120$
+- **D)** $140$
+- **E)** $175$
 
 ---
 
@@ -137,16 +136,17 @@ Repartir um total $V$ em partes $x, y, z$ diretamente proporcionais aos pesos $a
 
 Repartir um montante $V$ em partes $x, y, z$ inversamente proporcionais aos coeficientes $a, b, c$ significa repartir **diretamente aos seus inversos** $\frac{1}{a}, \frac{1}{b}, \frac{1}{c}$.
 
-#### O Método Rápido do MMC:
+#### O Método Rápido do MMC
+
 1. Escrevem-se as frações inversas dos pesos: $\frac{1}{a}, \frac{1}{b}, \frac{1}{c}$;
 2. Calcula-se o MMC entre os denominadores $a, b, c$ e reduzem-se todas as frações ao mesmo denominador comum;
 3. **Despreza-se o denominador comum** e utilizam-se os novos numeradores inteiros como os pesos diretos para a constante $k$.
 
 *Exemplo com 2, 3 e 4:*
 
-* Inversos: $\frac{1}{2}, \frac{1}{3}, \frac{1}{4}$. O $\text{MMC}(2, 3, 4) = 12$.
-* Redução: $\frac{6}{12}, \frac{4}{12}, \frac{3}{12}$.
-* Pesos diretos operatórios: $6, 4$ e $3$. A soma das cotas é $6k + 4k + 3k = 13k$.
+- Inversos: $\frac{1}{2}, \frac{1}{3}, \frac{1}{4}$. O $\text{MMC}(2, 3, 4) = 12$.
+- Redução: $\frac{6}{12}, \frac{4}{12}, \frac{3}{12}$.
+- Pesos diretos operatórios: $6, 4$ e $3$. A soma das cotas é $6k + 4k + 3k = 13k$.
 
 > 💡 **DICA DE RESOLUÇÃO (Inversamente Proporcional a Dois Valores):** Se a partilha for inversamente proporcional a apenas dois números $a$ e $b$, basta inverter diretamente as posições dos pesos: $x = b \cdot k$ e $y = a \cdot k$. Dividir inversamente a 2 e 3 equivale a dividir diretamente a 3 e 2.
 
@@ -159,15 +159,15 @@ Reduzem-se as frações resultantes a termos inteiros via MMC e aplica-se o mét
 ---
 
 ### Teste 083
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma gratificação extraordinária no valor de R$ 18.000,00 foi dividida entre três auditores de controle externo em partes diretamente proporcionais aos seus respectivos tempos de atuação no órgão: $2$ anos, $3$ anos e $5$ anos. O auditor com maior tempo de serviço recebeu:
 
-* **A)** R$ 3.600,00
-* **B)** R$ 5.400,00
-* **C)** R$ 9.000,00
-* **D)** R$ 10.000,00
-* **E)** R$ 12.000,00
-
+- **A)** R$ 3.600,00
+- **B)** R$ 5.400,00
+- **C)** R$ 9.000,00
+- **D)** R$ 10.000,00
+- **E)** R$ 12.000,00
 
 ---
 
@@ -188,17 +188,17 @@ Uma gratificação extraordinária no valor de R$ 18.000,00 foi dividida entre t
 ---
 
 ### Teste 084
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Diretoria de Fiscalização de um Tribunal de Contas distribuiu um bônus de incentivo de R$ 45.000,00 entre três equipes técnicas de auditoria ($A$, $B$ e $C$) em partes **inversamente proporcionais** ao número de dias de atraso na entrega dos seus respectivos relatórios finais. A equipe $A$ atrasou 2 dias; a equipe $B$ atrasou 3 dias; e a equipe $C$ atrasou 4 dias.
 
 Nessas condições, o valor recebido pela equipe $A$ superou o valor recebido pela equipe $C$ em:
 
-* **A)** R$ 10.000,00
-* **B)** R$ 10.384,62
-* **C)** R$ 12.000,00
-* **D)** R$ 13.500,00
-* **E)** R$ 15.000,00
-
+- **A)** R$ 10.000,00
+- **B)** R$ 10.384,62
+- **C)** R$ 12.000,00
+- **D)** R$ 13.500,00
+- **E)** R$ 15.000,00
 
 ---
 
@@ -224,23 +224,23 @@ Nessas condições, o valor recebido pela equipe $A$ superou o valor recebido pe
 > - **C)** Incorreta. Não corresponde a nenhuma partilha coerente com as cotas $6k$, $4k$ e $3k$; a diferença deve ser exatamente $3k = \frac{135.000}{13}$.
 > - **D)** Incorreta. Corresponderia a 3 cotas se o denominador da soma fosse 10 em vez de 13.
 > - **E)** Incorreta. R$ 15.000,00 é a cota de cada equipe em uma divisão igualitária ($45.000 \div 3$); nessa hipótese a diferença entre A e C seria nula, e não R$ 15.000,00.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 085
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma gratificação especial de desempenho no valor de R$ 36.000,00 foi dividida entre dois auditores, Rodrigo e Samuel. O regulamento determinou que a divisão fosse **diretamente proporcional ao tempo de serviço** no Tribunal (Rodrigo tem 6 anos e Samuel tem 4 anos) e, simultaneamente, **inversamente proporcional ao número de processos pendentes** de julgamento em seus gabinetes (Rodrigo tem 3 processos pendentes e Samuel tem 1 processo pendente).
 
 Com base nessas regras, a quantia recebida por Samuel foi de:
 
-* **A)** R$ 12.000,00
-* **B)** R$ 14.400,00
-* **C)** R$ 18.000,00
-* **D)** R$ 21.600,00
-* **E)** R$ 24.000,00
-
+- **A)** R$ 12.000,00
+- **B)** R$ 14.400,00
+- **C)** R$ 18.000,00
+- **D)** R$ 21.600,00
+- **E)** R$ 24.000,00
 
 ---
 
@@ -267,7 +267,7 @@ Com base nessas regras, a quantia recebida por Samuel foi de:
 > - **C)** Incorreta. Divisão meio a meio simples, desconsiderando ambos os critérios do edital.
 > - **D)** Incorreta. Corresponderia à parte de Rodrigo se a partilha fosse baseada unicamente no tempo de serviço ($\frac{6}{10} \times 36.000 = 21.600$).
 > - **E)** Correta. O peso final de Samuel (4) representa quatro sextos ($\frac{2}{3}$) do montante global de R$ 36.000,00, totalizando R$ 24.000,00.
-> 
+>
 > **Gabarito: E**
 
 ---
@@ -280,16 +280,16 @@ A regra de três simples é o método algébrico que permite descobrir um quarto
 
 Duas grandezas são **Diretamente Proporcionais (DP)** quando a variação de uma acarreta a variação da outra na mesma razão e sentido: duplicando-se uma, a outra dobra; reduzindo-se à metade, a outra também se reduz à metade.
 
-* Exemplos: Número de auditores e quantidade de processos analisados (mesmo tempo); horas trabalhadas e páginas digitalizadas; consumo de combustível e distância percorrida.
-* **Mecânica Operatória:** A razão entre elas é constante ($\frac{A_1}{A_2} = \frac{B_1}{B_2}$); multiplica-se em cruz:
+- Exemplos: Número de auditores e quantidade de processos analisados (mesmo tempo); horas trabalhadas e páginas digitalizadas; consumo de combustível e distância percorrida.
+- **Mecânica Operatória:** A razão entre elas é constante ($\frac{A_1}{A_2} = \frac{B_1}{B_2}$); multiplica-se em cruz:
   $$A_1 \cdot B_2 = A_2 \cdot B_1$$
 
 ### 3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta
 
 Duas grandezas são **Inversamente Proporcionais (IP)** quando a variação de uma provoca a variação da outra em sentido inverso e na mesma proporção: duplicando-se uma grandeza, a outra cai pela metade; triplicando-se uma, a outra reduz-se a um terço.
 
-* Exemplos: Quantidade de auditores e número de dias para auditar um acervo fixo de relatórios; velocidade de conexão de rede e tempo de download de um arquivo; torneiras abertas e tempo para encher um reservatório fixo.
-* **Mecânica Operatória:** O produto entre elas é constante ($A_1 \cdot B_1 = A_2 \cdot B_2$); **multiplica-se em linha reta**:
+- Exemplos: Quantidade de auditores e número de dias para auditar um acervo fixo de relatórios; velocidade de conexão de rede e tempo de download de um arquivo; torneiras abertas e tempo para encher um reservatório fixo.
+- **Mecânica Operatória:** O produto entre elas é constante ($A_1 \cdot B_1 = A_2 \cdot B_2$); **multiplica-se em linha reta**:
   $$A_1 \cdot B_1 = A_2 \cdot B_2$$
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** O erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*. Como serão necessários menos dias, a relação é inversamente proporcional e a multiplicação deve ser feita obrigatoriamente **em linha reta** ($6 \times 8 = 8 \times D \implies D = 6$).
@@ -306,17 +306,17 @@ Para não errar na prova:
 ---
 
 ### Teste 086
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Uma equipe de 6 técnicos administrativos, trabalhando com produtividades idênticas e constantes, consegue auditar e validar 120 relatórios de diárias em 8 dias úteis de trabalho. 
+Uma equipe de 6 técnicos administrativos, trabalhando com produtividades idênticas e constantes, consegue auditar e validar 120 relatórios de diárias em 8 dias úteis de trabalho.
 
 Se o Tribunal de Contas alocar mais 2 técnicos com a mesma produtividade para essa equipe, em quantos dias úteis a nova equipe conseguirá auditar e validar os mesmos 120 relatórios?
 
-* **A)** 4 dias
-* **B)** 5 dias
-* **C)** 6 dias
-* **D)** 7 dias
-* **E)** 10 dias
-
+- **A)** 4 dias
+- **B)** 5 dias
+- **C)** 6 dias
+- **D)** 7 dias
+- **E)** 10 dias
 
 ---
 
@@ -342,21 +342,21 @@ Se o Tribunal de Contas alocar mais 2 técnicos com a mesma produtividade para e
 > - **C)** Correta. Produto constante em grandezas inversas: $6 \times 8 = 8 \times D \implies D = 6$.
 > - **D)** Incorreta. Suposição linear de que adicionar 2 técnicos reduz o tempo em apenas 1 dia.
 > - **E)** Incorreta. Resultado obtido caso o candidato multiplique em cruz por equívoco ($\frac{6}{8} = \frac{8}{D} \implies D = \frac{64}{6} \approx 10{,}7$ dias), tratando grandezas inversas como se fossem diretas (o que levaria ao absurdo de aumentar o tempo ao contratar mais pessoas).
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 087
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em uma unidade técnica de auditoria, $6$ auditores de mesmo rendimento funcional analisam $180$ prestações de contas trabalhando $8$ horas por dia durante $10$ dias. Se a equipe for reforçada por mais $2$ auditores de igual produtividade, quantas prestações de contas eles conseguirão analisar trabalhando $6$ horas por dia durante $15$ dias?
 
-* **A)** $225$
-* **B)** $240$
-* **C)** $270$
-* **D)** $300$
-* **E)** $320$
-
+- **A)** $225$
+- **B)** $240$
+- **C)** $270$
+- **D)** $300$
+- **E)** $320$
 
 ---
 
@@ -388,10 +388,10 @@ $$p\% = \frac{p}{100} = i \quad (\text{taxa unitária ou decimal})$$
 
 Qualquer acréscimo ou dedução percentual pode ser calculado de modo instantâneo multiplicando o valor primitivo ($V_0$) pelo seu respectivo **Fator Multiplicador ($F$)**:
 
-* **Fator de Acréscimo (Aumento de $i$):**
+- **Fator de Acréscimo (Aumento de $i$):**
   $$F = 1 + i \qquad \text{Exemplo: aumento de } 15\% \implies F = 1 + 0{,}15 = 1{,}15$$
   $$V_{\text{final}} = V_0 \times 1{,}15$$
-* **Fator de Redução (Desconto de $i$):**
+- **Fator de Redução (Desconto de $i$):**
   $$F = 1 - i \qquad \text{Exemplo: desconto de } 10\% \implies F = 1 - 0{,}10 = 0{,}90$$
   $$V_{\text{final}} = V_0 \times 0{,}90$$
 
@@ -413,33 +413,33 @@ $$F_{\text{acumulado}} = F_1 \times F_2 \times F_3 \times \dots \times F_n$$
 
 A base de referência percentual corresponde ao valor que ocupa o denominador da razão comparativa ($\text{Base} = 100\%$). Ao inverter o ponto de vista da comparação, a base numérica altera-se, mudando compulsoriamente a taxa percentual:
 
-* Se a grandeza $E$ é **$25\%$ maior** que a grandeza $P$:
-    * Adota-se $P = 100 \implies E = 125$.
-    * Para saber quanto $P$ é menor que $E$, o referencial agora é $E$ ($125$):
+- Se a grandeza $E$ é **$25\%$ maior** que a grandeza $P$:
+  - Adota-se $P = 100 \implies E = 125$.
+  - Para saber quanto $P$ é menor que $E$, o referencial agora é $E$ ($125$):
     $$\text{Taxa de Redução} = \frac{\text{Diferença}}{\text{Nova Base}} = \frac{125 - 100}{125} = \frac{25}{125} = \frac{1}{5} = 0{,}20 = \mathbf{20\%}$$
-    * Conclusão: Se $E$ é $25\%$ maior que $P$, então $P$ é **$20\%$ menor** que $E$ (e nunca 25%!).
+  - Conclusão: Se $E$ é $25\%$ maior que $P$, então $P$ é **$20\%$ menor** que $E$ (e nunca 25%!).
 
 ### 4.4 Diferença entre Pontos Percentuais e Variação Percentual
 
-* **Pontos Percentuais (p.p.):** É a diferença aritmética simples entre duas taxas percentuais (ex.: uma taxa que sobe de $10\%$ para $12\%$ aumentou $2$ pontos percentuais).
-* **Variação Percentual Relativa ($\Delta\%$):** É a magnitude do crescimento em relação à taxa original de partida:
+- **Pontos Percentuais (p.p.):** É a diferença aritmética simples entre duas taxas percentuais (ex.: uma taxa que sobe de $10\%$ para $12\%$ aumentou $2$ pontos percentuais).
+- **Variação Percentual Relativa ($\Delta\%$):** É a magnitude do crescimento em relação à taxa original de partida:
   $$\Delta\% = \frac{12 - 10}{10} = \frac{2}{10} = 20\%$$
   A taxa aumentou 2 pontos percentuais, mas sofreu uma elevação relativa real de $20\%$.
 
 ---
 
 ### Teste 088
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um contrato de prestação de serviços de segurança da informação celebrado pelo Tribunal de Contas previa pagamento mensal de determinado valor $X$. No segundo ano de vigência, o contrato sofreu um **reajuste com acréscimo de 15%**. No terceiro ano, após revisão contratual, foi concedido um **desconto de 10%** aplicado sobre o valor vigente no segundo ano.
 
 Em relação ao valor original $X$ do contrato no primeiro ano, a aplicação sucessiva dessas duas variações resultou em:
 
-* **A)** um aumento real de 3,5%
-* **B)** um aumento real de 5%
-* **C)** um desconto real de 3,5%
-* **D)** um desconto real de 5%
-* **E)** nenhuma variação (0%)
-
+- **A)** um aumento real de 3,5%
+- **B)** um aumento real de 5%
+- **C)** um desconto real de 3,5%
+- **D)** um desconto real de 5%
+- **E)** nenhuma variação (0%)
 
 ---
 
@@ -463,21 +463,21 @@ Em relação ao valor original $X$ do contrato no primeiro ano, a aplicação su
 > - **C)** Incorreta. Erro no sinal da variação; o fator 1,035 é superior a 1, configurando aumento e não desconto.
 > - **D)** Incorreta. Subtração invertida das porcentagens.
 > - **E)** Incorreta. Ilusão de que taxas nominais próximas se cancelam mutuamente.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 089
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O valor de determinada taxa de emolumentos cartorários sofreu um reajuste de $20\%$ no início do primeiro semestre e, ao final do ano, sofreu um novo aumento sucessivo de $15\%$. Em relação ao valor inicial antes dos dois reajustes, o aumento real total acumulado foi de:
 
-* **A)** $35{,}0\%$
-* **B)** $37{,}5\%$
-* **C)** $38{,}0\%$
-* **D)** $40{,}0\%$
-* **E)** $42{,}5\%$
-
+- **A)** $35{,}0\%$
+- **B)** $37{,}5\%$
+- **C)** $38{,}0\%$
+- **D)** $40{,}0\%$
+- **E)** $42{,}5\%$
 
 ---
 
@@ -499,17 +499,17 @@ O valor de determinada taxa de emolumentos cartorários sofreu um reajuste de $2
 ---
 
 ### Teste 090
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em determinado setor do Tribunal de Contas do Estado de Goiás, o número de processos em meio eletrônico é 25% maior do que o número de processos físicos em papel. 
+Em determinado setor do Tribunal de Contas do Estado de Goiás, o número de processos em meio eletrônico é 25% maior do que o número de processos físicos em papel.
 
 Em relação ao número de processos eletrônicos, o número de processos em papel é inferior em:
 
-* **A)** 15%
-* **B)** 20%
-* **C)** 25%
-* **D)** 30%
-* **E)** 33,3%
-
+- **A)** 15%
+- **B)** 20%
+- **C)** 25%
+- **D)** 30%
+- **E)** 33,3%
 
 ---
 
@@ -533,21 +533,21 @@ Em relação ao número de processos eletrônicos, o número de processos em pap
 > - **C)** Incorreta. A pegadinha clássica em que o candidato repete os 25% citados no texto, ignorando que o referencial da comparação foi invertido (de $P$ para $E$).
 > - **D)** Incorreta. Valor incorreto.
 > - **E)** Incorreta. Confusão com a relação matemática inversa de uma alta de 33,3% (que gera redução simétrica de 25%).
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 091
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em determinado município goiano, a alíquota do Imposto Sobre Serviços (ISS) incidente sobre serviços de informática passou de $2\%$ para $3\%$ da receita bruta. Comparando a alíquota final com a inicial, verifica-se que houve um acréscimo de:
 
-* **A)** $1$ ponto percentual e uma variação percentual relativa de $50\%$.
-* **B)** $1\%$ absoluto e uma variação percentual relativa de $33{,}3\%$.
-* **C)** $50$ pontos percentuais e uma variação percentual relativa de $1\%$.
-* **D)** $1$ ponto percentual e uma variação percentual relativa de $100\%$.
-* **E)** $1{,}5$ ponto percentual e uma variação percentual relativa de $25\%$.
-
+- **A)** $1$ ponto percentual e uma variação percentual relativa de $50\%$.
+- **B)** $1\%$ absoluto e uma variação percentual relativa de $33{,}3\%$.
+- **C)** $50$ pontos percentuais e uma variação percentual relativa de $1\%$.
+- **D)** $1$ ponto percentual e uma variação percentual relativa de $100\%$.
+- **E)** $1{,}5$ ponto percentual e uma variação percentual relativa de $25\%$.
 
 ---
 
@@ -566,10 +566,10 @@ Em determinado município goiano, a alíquota do Imposto Sobre Serviços (ISS) i
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Khan Academy Brasil - Pré-Álgebra: Razões, Proporções e Porcentagens](https://pt.khanacademy.org/math/pre-algebra) - Conceito formal de razões, proporções, grandezas direta e inversamente proporcionais e taxas percentuais.
-* [Khan Academy Brasil - Aritmética: Problemas com Proporções e Porcentagem](https://pt.khanacademy.org/math/arithmetic) - Cálculo prático de porcentagens, acréscimos, descontos sucessivos e regra de três simples.
-* [OBMEP / IMPA - Apostila 2 do PIC: Métodos de Contagem e Razões](https://www.obmep.org.br/docs/apostila2.pdf) - Raciocínio proporcional aplicado a problemas combinatórios e variações relativas (Prof. Paulo Cezar Pinto Carvalho).
-* [Portal da Matemática OBMEP / IMPA - Módulo de Proporcionalidade e Porcentagem](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=77) - Videoaulas e material teórico oficial sobre grandezas proporcionais e regra de três composta.
-* MORGADO, Augusto César; WAGNER, Eduardo; CARVALHO, Paulo Cezar Pinto. **Matemática do Ensino Médio, Volume 1**. 11. ed. Rio de Janeiro: SBM, 2012. (Cap. 4 - Proporcionalidade e Funções Lineares).
-* IEZZI, Gelson; HAZZAN, Samuel; DEGENSZAJN, David. **Fundamentos de Matemática Elementar, Volume 11: Matemática Comercial e Financeira**. 2. ed. São Paulo: Atual, 2013. (Cap. 1 a 3 - Razões, Proporções e Porcentagens).
-* D'AMBRÓSIO, Ubiratan. **Etnomatemática: Elo entre as Tradições e a Modernidade**. Belo Horizonte: Autêntica, 2001. (Cap. 2 - Aritmética Prática e Proporções).
+- [Khan Academy Brasil - Pré-Álgebra: Razões, Proporções e Porcentagens](https://pt.khanacademy.org/math/pre-algebra) - Conceito formal de razões, proporções, grandezas direta e inversamente proporcionais e taxas percentuais.
+- [Khan Academy Brasil - Aritmética: Problemas com Proporções e Porcentagem](https://pt.khanacademy.org/math/arithmetic) - Cálculo prático de porcentagens, acréscimos, descontos sucessivos e regra de três simples.
+- [OBMEP / IMPA - Apostila 2 do PIC: Métodos de Contagem e Razões](https://www.obmep.org.br/docs/apostila2.pdf) - Raciocínio proporcional aplicado a problemas combinatórios e variações relativas (Prof. Paulo Cezar Pinto Carvalho).
+- [Portal da Matemática OBMEP / IMPA - Módulo de Proporcionalidade e Porcentagem](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=77) - Videoaulas e material teórico oficial sobre grandezas proporcionais e regra de três composta.
+- MORGADO, Augusto César; WAGNER, Eduardo; CARVALHO, Paulo Cezar Pinto. **Matemática do Ensino Médio, Volume 1**. 11. ed. Rio de Janeiro: SBM, 2012. (Cap. 4 - Proporcionalidade e Funções Lineares).
+- IEZZI, Gelson; HAZZAN, Samuel; DEGENSZAJN, David. **Fundamentos de Matemática Elementar, Volume 11: Matemática Comercial e Financeira**. 2. ed. São Paulo: Atual, 2013. (Cap. 1 a 3 - Razões, Proporções e Porcentagens).
+- D'AMBRÓSIO, Ubiratan. **Etnomatemática: Elo entre as Tradições e a Modernidade**. Belo Horizonte: Autêntica, 2001. (Cap. 2 - Aritmética Prática e Proporções).

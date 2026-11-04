@@ -203,3 +203,4 @@ Este diretório concentra todos os relatórios gerenciais, auditorias semântica
 
 if __name__ == "__main__":
     organize_reports()
+

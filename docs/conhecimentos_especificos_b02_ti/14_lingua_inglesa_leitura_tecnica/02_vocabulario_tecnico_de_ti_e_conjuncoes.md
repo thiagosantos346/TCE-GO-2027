@@ -4,12 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `02_vocabulario_tecnico_de_ti_e_conjuncoes.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Vocabulário técnico especializado da área de Tecnologia da Informação
 - Formação de palavras em inglês (Prefixos, Sufixos e Compostos)
 - Marcadores discursivos e conectivos lógicos (Linking Words / Transition Words)
@@ -19,40 +17,40 @@
 
 ## 🧭 Sumário
 
-1. [Conectivos Lógicos e Marcadores Discursivos (Linking Words)](#1-conectivos-logicos-e-marcadores-discursivos-linking-words)
-    - [1.1 Relações de Contraste e Adversidade](#11-relacoes-de-contraste-e-adversidade)
-    - [1.2 Relações de Concessão e a Regra do Despite](#12-relacoes-de-concessao-e-a-regra-do-despite)
-    - [1.3 Relações de Causa, Explicação e Motivo](#13-relacoes-de-causa-explicacao-e-motivo)
-    - [1.4 Relações de Consequência, Efeito e Conclusão](#14-relacoes-de-consequencia-efeito-e-conclusao)
-    - [1.5 Relações de Adição, Continuidade e Ênfase](#15-relacoes-de-adicao-continuidade-e-enfase)
-    - [1.6 Relações de Condição e a Lógica do Unless](#16-relacoes-de-condicao-e-a-logica-do-unless)
-    - [1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis](#17-tabela-canonica-de-conectivos-e-substituicoes-intercambiaveis)
-    - [Teste 575](#teste-575)
-    - [Teste 576](#teste-576)
-    - [Teste 577](#teste-577)
-    - [Teste 578](#teste-578)
-    - [Teste 579](#teste-579)
-2. [Morfologia e Formação de Palavras Técnicas (Word Formation)](#2-morfologia-e-formacao-de-palavras-tecnicas-word-formation)
-    - [2.1 Prefixos Técnicos Recorrentes em Computação](#21-prefixos-tecnicos-recorrentes-em-computacao)
-    - [2.2 Famílias de Palavras e Sufixos Gramaticais](#22-familias-de-palavras-e-sufixos-gramaticais)
-    - [2.3 Substantivos Compostos e Leitura Reversa (Noun Adjuncts)](#23-substantivos-compostos-e-leitura-reversa-noun-adjuncts)
-    - [Teste 580](#teste-580)
-    - [Teste 581](#teste-581)
-3. [Glossário Técnico Essencial por Domínio de TI](#3-glossario-tecnico-essencial-por-dominio-de-ti)
-    - [3.1 Arquitetura e Engenharia de Software](#31-arquitetura-e-engenharia-de-software)
-    - [3.2 Concorrência e Sistemas Operacionais](#32-concorrencia-e-sistemas-operacionais)
-    - [3.3 Computação em Nuvem e Infraestrutura](#33-computacao-em-nuvem-e-infraestrutura)
-    - [3.4 Segurança Cibernética e Auditoria de Sistemas](#34-seguranca-cibernetica-e-auditoria-de-sistemas)
-    - [Teste 582](#teste-582)
-    - [Teste 583](#teste-583)
-    - [Teste 584](#teste-584)
-6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+1. [Conectivos Lógicos e Marcadores Discursivos (Linking Words)](#1-conectivos-lógicos-e-marcadores-discursivos-linking-words)
+    1. [Relações de Contraste e Adversidade](#11-relações-de-contraste-e-adversidade)
+    1. [Relações de Concessão e a Regra do Despite](#12-relações-de-concessão-e-a-regra-do-despite)
+    1. [Relações de Causa, Explicação e Motivo](#13-relações-de-causa-explicação-e-motivo)
+    1. [Relações de Consequência, Efeito e Conclusão](#14-relações-de-consequência-efeito-e-conclusão)
+    1. [Relações de Adição, Continuidade e Ênfase](#15-relações-de-adição-continuidade-e-ênfase)
+    1. [Relações de Condição e a Lógica do Unless](#16-relações-de-condição-e-a-lógica-do-unless)
+    1. [Tabela Canônica de Conectivos e Substituições Intercambiáveis](#17-tabela-canônica-de-conectivos-e-substituições-intercambiáveis)
+    1. [Teste 575](#teste-575)
+    1. [Teste 576](#teste-576)
+    1. [Teste 577](#teste-577)
+    1. [Teste 578](#teste-578)
+    1. [Teste 579](#teste-579)
+2. [Morfologia e Formação de Palavras Técnicas (Word Formation)](#2-morfologia-e-formação-de-palavras-técnicas-word-formation)
+    1. [Prefixos Técnicos Recorrentes em Computação](#21-prefixos-técnicos-recorrentes-em-computação)
+    1. [Famílias de Palavras e Sufixos Gramaticais](#22-famílias-de-palavras-e-sufixos-gramaticais)
+    1. [Substantivos Compostos e Leitura Reversa (Noun Adjuncts)](#23-substantivos-compostos-e-leitura-reversa-noun-adjuncts)
+    1. [Teste 580](#teste-580)
+    1. [Teste 581](#teste-581)
+3. [Glossário Técnico Essencial por Domínio de TI](#3-glossário-técnico-essencial-por-domínio-de-ti)
+    1. [Arquitetura e Engenharia de Software](#31-arquitetura-e-engenharia-de-software)
+    1. [Concorrência e Sistemas Operacionais](#32-concorrência-e-sistemas-operacionais)
+    1. [Computação em Nuvem e Infraestrutura](#33-computação-em-nuvem-e-infraestrutura)
+    1. [Segurança Cibernética e Auditoria de Sistemas](#34-segurança-cibernética-e-auditoria-de-sistemas)
+    1. [Teste 582](#teste-582)
+    1. [Teste 583](#teste-583)
+    1. [Teste 584](#teste-584)
+4. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
 
 ## 1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)
 
-Os conectivos lógicos (também categorizados na literatura linguística como *Transition Words*, *Discourse Markers* ou *Connectors*) configuram os nós estruturais que asseguram a coesão referencial e a progressão lógica do pensamento em textos formais. 
+Os conectivos lógicos (também categorizados na literatura linguística como *Transition Words*, *Discourse Markers* ou *Connectors*) configuram os nós estruturais que asseguram a coesão referencial e a progressão lógica do pensamento em textos formais.
 
 Nas avaliações da Fundação Carlos Chagas (FCC) para cargos de Auditoria e Tecnologia da Informação, os testes acerca de conectivos concentram-se em dois formatos essenciais:
 
@@ -62,7 +60,7 @@ Nas avaliações da Fundação Carlos Chagas (FCC) para cargos de Auditoria e Te
 ```mermaid
 flowchart TD
     LW["Marcadores Discursivos (Linking Words)"]
-    
+  
     LW --> C1["Contraste / Oposição<br/>(However, Nevertheless, In contrast, Whereas)"]
     LW --> C2["Concessão<br/>(Although, Even though, Despite, In spite of)"]
     LW --> C3["Causa / Motivo<br/>(Because, Since, Due to, Owing to)"]
@@ -76,23 +74,23 @@ flowchart TD
 Os conectivos de contraste indicam oposição, contraposição direta ou divergência entre duas ideias, componentes ou sistemas concorrentes:
 
 - **However, Nevertheless, Nonetheless (No entanto, todavia, contudo, não obstante):** Conectivos coordenados que introduzem ressalvas ou contra-argumentos à declaração precedente. São costumeiramente posicionados no início de uma oração independente seguidos de vírgula, ou após ponto e vírgula.
-    - *Exemplo:* *"The microservices architecture offers superior scalability; **nevertheless**, it introduces non-trivial operational complexity."*
+  - *Exemplo:* *"The microservices architecture offers superior scalability; **nevertheless**, it introduces non-trivial operational complexity."*
 - **In contrast, On the contrary, Conversely (Em contrapartida, pelo contrário, inversamente):** Estabelecem um contraponto simétrico entre dois paradigmas tecnológicos distintos.
-    - *Exemplo:* *"Relational databases enforce strict schemas. **In contrast**, document stores provide dynamic schemas."*
+  - *Exemplo:* *"Relational databases enforce strict schemas. **In contrast**, document stores provide dynamic schemas."*
 - **Whereas, While (Ao passo que, enquanto que):** Conjunções subordinativas que operam a comparação simultânea entre dois fatos ou entidades em paralelo.
-    - *Exemplo:* *"SQL systems prioritize ACID transactions, **whereas** NoSQL systems emphasize eventual consistency and horizontal elasticity."*
+  - *Exemplo:* *"SQL systems prioritize ACID transactions, **whereas** NoSQL systems emphasize eventual consistency and horizontal elasticity."*
 
 ### 1.2 Relações de Concessão e a Regra do Despite
 
 A concessão introduz uma circunstância desfavorável, limitação técnica ou obstáculo que, embora real, **não impede a realização do fato principal** (quebra de expectativa):
 
 - **Although, Even though, Though (Embora, ainda que, se bem que):** Conjunções subordinativas concessivas que exigem **oração completa com Sujeito e Verbo conjugado** (*Subject + Finite Verb*).
-    - *Exemplo:* *"**Although** the cluster experienced hardware failures, no transaction was lost."*
+  - *Exemplo:* *"**Although** the cluster experienced hardware failures, no transaction was lost."*
 - **Despite, In spite of (Apesar de, a despeito de, não obstante):** Locuções prepositivas que exigem **obrigatoriamente um Sintagma Nominal (*Noun Phrase*)** ou um verbo na forma nominal de **gerúndio (*-ing*)**.
-    - *Exemplo:* *"**Despite** the heavy network traffic, the load balancer maintained sub-second response times."*
+  - *Exemplo:* *"**Despite** the heavy network traffic, the load balancer maintained sub-second response times."*
 
 > 🚨 **ALERTA CRÍTICO DE PROVA FCC:**  
-> A forma **"Despite of" NÃO EXISTE** na língua inglesa padrão! É uma armadilha sintática que a FCC insere deliberadamente nas alternativas de substituição. 
+> A forma **"Despite of" NÃO EXISTE** na língua inglesa padrão! É uma armadilha sintática que a FCC insere deliberadamente nas alternativas de substituição.
 >
 > - Correto: **Despite** + Substantivo (*despite the error*).  
 > - Correto: **In spite of** + Substantivo (*in spite of the error*).  
@@ -103,16 +101,16 @@ A concessão introduz uma circunstância desfavorável, limitação técnica ou 
 Indicam o fundamento, premissa ou razão determinante para que determinado evento computacional ocorra:
 
 - **Because, Since, As, For, Inasmuch as (Porque, já que, visto que, dado que):** Conjunções causais que introduzem orações subordinadas explicativas estruturadas com sujeito e predicado verbal.
-    - *Exemplo:* *"The Kubernetes pod crashed **because** it exceeded its memory limit."*
+  - *Exemplo:* *"The Kubernetes pod crashed **because** it exceeded its memory limit."*
 - **Due to, Owing to, Because of, On account of (Devido a, em razão de, em virtude de):** Expressões prepositivas que introduzem diretamente sintagmas nominais causais.
-    - *Exemplo:* *"The latency degradation occurred **due to** excessive garbage collection cycles."*
+  - *Exemplo:* *"The latency degradation occurred **due to** excessive garbage collection cycles."*
 
 ### 1.4 Relações de Consequência, Efeito e Conclusão
 
 Indicam o resultado lógico derivado, a dedução ou a conclusão necessária a partir do que foi explanado:
 
 - **Therefore, Thus, Hence, Consequently, Accordingly (Portanto, por conseguinte, logo, assim, desse modo):** Advérbios conectivos plenamente intercambiáveis que conectam a premissa à sua decorrência inevitável.
-    - *Exemplo:* *"The primary node failed health checks; **therefore**, the orchestrator initiated an automated failover."*
+  - *Exemplo:* *"The primary node failed health checks; **therefore**, the orchestrator initiated an automated failover."*
 - **As a result, For this reason (Como resultado, por este motivo):** Locuções conclusivas que fecham cadeias argumentativas de causa e efeito.
 
 ### 1.5 Relações de Adição, Continuidade e Ênfase
@@ -120,7 +118,7 @@ Indicam o resultado lógico derivado, a dedução ou a conclusão necessária a 
 Acrescentam argumentos adicionais alinhados à mesma linha de raciocínio, sem introduzir restrições:
 
 - **Furthermore, Moreover, In addition, Additionally, Besides (Além disso, ademais, outrossim):** Conectivos aditivos cumulativos que introduzem novos fatos reforçadores.
-    - *Exemplo:* *"The firewall blocks unauthorized IP subnets; **furthermore**, it inspects deep application payloads."*
+  - *Exemplo:* *"The firewall blocks unauthorized IP subnets; **furthermore**, it inspects deep application payloads."*
 - **Not only.. but also.. (Não apenas.. mas também..):** Estrutura correlativa de soma e reforço enfático.
 
 ### 1.6 Relações de Condição e a Lógica do Unless
@@ -129,9 +127,9 @@ Estabelecem os pré-requisitos lógicos para que determinada asserção técnica
 
 - **If (Se):** Condição direta afirmativa.
 - **Provided that, Providing that, As long as, On condition that (Contanto que, desde que):** Conectivos que introduzem condições necessárias ou restrições de conformidade.
-    - *Exemplo:* *"The gateway accepts API requests **provided that** a valid JWT bearer token is supplied."*
+  - *Exemplo:* *"The gateway accepts API requests **provided that** a valid JWT bearer token is supplied."*
 - **Unless (A não ser que, a menos que):** Conjunção que embute semanticamente uma condição negativa, equivalendo estritamente a **"if.. not"** ou **"except if"**.
-    - *Exemplo:* *"The transaction will not be committed **unless** all distributed replicas acknowledge receipt."*  
+  - *Exemplo:* *"The transaction will not be committed **unless** all distributed replicas acknowledge receipt."*  
     $\equiv$ *"The transaction will not be committed **if** all distributed replicas **do not** acknowledge receipt."*
 
 > ⚠️ **Ponto de Atenção FCC:**  
@@ -155,6 +153,7 @@ Estabelecem os pré-requisitos lógicos para que determinada asserção técnica
 ---
 
 ### Teste 575
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Carefully read the technical excerpt below on distributed systems:*
 
@@ -162,12 +161,11 @@ Estabelecem os pré-requisitos lógicos para que determinada asserção técnica
 
 Com base no texto técnico e nas regras morfossintáticas e coesivas da língua inglesa, assinale a afirmação correta:
 
-* **A)** A substituição do conectivo **"Despite"** pela locução **"Despite of"** preservaria a correção gramatical e o sentido original do período.
-* **B)** A oração introduzida por **"Although"** expressa uma concessão que poderia ser substituída sem prejuízo sintático ou semântico por **"Even though"**.
-* **C)** O termo **"however"** introduz uma oração subordinada causal explicativa sobre a atualização de firmware.
-* **D)** A expressão **"in spite of"** não poderia substituir **"Despite"** no primeiro período, pois exige oração subordinada com verbo conjugado.
-* **E)** O vocábulo **"Although"** deve ser necessariamente acompanhado de substantivo simples desacompanhado de verbo finito.
-
+- **A)** A substituição do conectivo **"Despite"** pela locução **"Despite of"** preservaria a correção gramatical e o sentido original do período.
+- **B)** A oração introduzida por **"Although"** expressa uma concessão que poderia ser substituída sem prejuízo sintático ou semântico por **"Even though"**.
+- **C)** O termo **"however"** introduz uma oração subordinada causal explicativa sobre a atualização de firmware.
+- **D)** A expressão **"in spite of"** não poderia substituir **"Despite"** no primeiro período, pois exige oração subordinada com verbo conjugado.
+- **E)** O vocábulo **"Although"** deve ser necessariamente acompanhado de substantivo simples desacompanhado de verbo finito.
 
 ---
 
@@ -178,12 +176,13 @@ Com base no texto técnico e nas regras morfossintáticas e coesivas da língua 
 > - **C)** Incorreta. O vocábulo **"however"** é um advérbio conjuntivo adversativo que expressa **contraste, ressalva ou oposição** (no entanto, porém, contudo), e não causa ou explicação.
 > - **D)** Incorreta. A locução prepositiva **"in spite of"** é sinônima exata de **"despite"** e exige sintagma nominal (*noun phrase*): *"In spite of the sudden network partition.."* seria plenamente correto.
 > - **E)** Incorreta. **"Although"** é uma conjunção e exige oração completa com verbo (*"write throughput temporarily stalled"*). Quem exige sintagma nominal é *despite* ou *in spite of*.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 576
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the continuous delivery policy statement below:*
 
@@ -191,12 +190,11 @@ Com base no texto técnico e nas regras morfossintáticas e coesivas da língua 
 
 No contexto da infraestrutura de CI/CD apresentada e da semântica dos conectivos na língua inglesa, a diretriz condicional regida pela conjunção **"unless"** expressa que o artefato só será publicado se:
 
-* **A)** Todos os testes estáticos reportarem zero vulnerabilidades críticas e os testes de regressão obtiverem 100% de conformidade.
-* **B)** Os testes estáticos acusarem vulnerabilidades críticas ou os testes de regressão falharem.
-* **C)** A equipe de auditoria dispensar formalmente a verificação de vulnerabilidades em virtude de prazos urgentes.
-* **D)** O cluster de nuvem registrar latência nula, independentemente do resultado dos analisadores estáticos.
-* **E)** O deploy ocorrer em ambiente de homologação (*staging*) desprovido de regras de integridade.
-
+- **A)** Todos os testes estáticos reportarem zero vulnerabilidades críticas e os testes de regressão obtiverem 100% de conformidade.
+- **B)** Os testes estáticos acusarem vulnerabilidades críticas ou os testes de regressão falharem.
+- **C)** A equipe de auditoria dispensar formalmente a verificação de vulnerabilidades em virtude de prazos urgentes.
+- **D)** O cluster de nuvem registrar latência nula, independentemente do resultado dos analisadores estáticos.
+- **E)** O deploy ocorrer em ambiente de homologação (*staging*) desprovido de regras de integridade.
 
 ---
 
@@ -207,12 +205,13 @@ No contexto da infraestrutura de CI/CD apresentada e da semântica dos conectivo
 > - **C)** Incorreta. A regra é automatizada e não prevê dispensa por urgência no texto técnico.
 > - **D)** Incorreta. Não há menção a latência ou dispensa de analisadores estáticos.
 > - **E)** Incorreta. O texto restringe o envio para o cluster sovereign de produção.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 577
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na redação técnica em língua inglesa sobre infraestrutura distribuída e bancos de dados, o enunciado:
 
@@ -220,12 +219,11 @@ Na redação técnica em língua inglesa sobre infraestrutura distribuída e ban
 
 apresenta a expressão conectiva **"in spite of"**. Assinale a opção que indica a função sintático-semântica de **"in spite of"** e o termo que poderia substituí-la mantendo rigorosamente a correção gramatical e o sentido original:
 
-* **A)** Adição de argumentos; substituível por *"furthermore"*.
-* **B)** Concessão; substituível por *"despite"*.
-* **C)** Finalidade ou propósito; substituível por *"in order to"*.
-* **D)** Causa direta; substituível por *"due to"*.
-* **E)** Condição restritiva; substituível por *"as long as"*.
-
+- **A)** Adição de argumentos; substituível por *"furthermore"*.
+- **B)** Concessão; substituível por *"despite"*.
+- **C)** Finalidade ou propósito; substituível por *"in order to"*.
+- **D)** Causa direta; substituível por *"due to"*.
+- **E)** Condição restritiva; substituível por *"as long as"*.
 
 ---
 
@@ -236,12 +234,13 @@ apresenta a expressão conectiva **"in spite of"**. Assinale a opção que indic
 > - **C)** Incorreta. Conectivos de finalidade (*in order to, so as to*) expressam propósito ou objetivo pretendido, exigindo verbos no infinitivo.
 > - **D)** Incorreta. *"Due to"* expressa causalidade primária (devido a, por causa de). Sua introdução distorceria o texto, afirmando que a consistência foi gerada pelo atraso de replicação, o que é um contrassenso.
 > - **E)** Incorreta. *"As long as"* expressa condição restritiva (desde que, contanto que), exigindo oração completa com sujeito e predicado.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 578
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Consider the analytical report below regarding multi-tenant cloud storage:*
 
@@ -249,12 +248,11 @@ apresenta a expressão conectiva **"in spite of"**. Assinale a opção que indic
 
 A respeito das relações semânticas e do vocabulário técnico empregados no parágrafo, assinale a alternativa correta:
 
-* **A)** A conjunção **"whereas"** expressa uma relação de consequência, podendo ser substituída por *"hence"*.
-* **B)** A locução **"Due to"** expressa concessão e equivale semanticamente a *"in spite of"*.
-* **C)** O termo **"tamper-proof"** indica registros protegidos contra alterações ou adulterações não autorizadas.
-* **D)** O conectivo **"Furthermore"** introduz uma oposição direta à frase antecedente.
-* **E)** O verbo **"mitigate"** significa potencializar e agravar as vulnerabilidades do hipervisor para testes de estresse.
-
+- **A)** A conjunção **"whereas"** expressa uma relação de consequência, podendo ser substituída por *"hence"*.
+- **B)** A locução **"Due to"** expressa concessão e equivale semanticamente a *"in spite of"*.
+- **C)** O termo **"tamper-proof"** indica registros protegidos contra alterações ou adulterações não autorizadas.
+- **D)** O conectivo **"Furthermore"** introduz uma oposição direta à frase antecedente.
+- **E)** O verbo **"mitigate"** significa potencializar e agravar as vulnerabilidades do hipervisor para testes de estresse.
 
 ---
 
@@ -265,12 +263,13 @@ A respeito das relações semânticas e do vocabulário técnico empregados no p
 > - **C)** Correta. O adjetivo composto técnico **"tamper-proof"** (à prova de adulteração/violação) define registros, logs ou mídias cuja integridade é garantida criptograficamente, inviabilizando ou delatando qualquer alteração indevida.
 > - **D)** Incorreta. O conectivo **"Furthermore"** (além disso, ademais) expressa **adição cumulativa**, somando uma nova ação do provedor de nuvem, e não oposição adversativa.
 > - **E)** Incorreta. O verbo **"mitigate"** (mitigar, atenuar, reduzir a gravidade) significa implementar controles para abrandar os impactos das vulnerabilidades detectadas, e não agravá-las.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 579
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Consider the sentence extracted from a technical systems architecture evaluation:*
 
@@ -278,12 +277,11 @@ A respeito das relações semânticas e do vocabulário técnico empregados no p
 
 A respeito dos marcadores discursivos e do vocabulário técnico empregados no trecho, assinale a afirmação correta:
 
-* **A)** A palavra **"nevertheless"** estabelece uma relação semântica de causa e explicação, podendo ser substituída por *"because"* sem alterar o sentido do texto.
-* **B)** O termo **"overhead"** refere-se exclusivamente aos encargos financeiros de licenciamento cobrados pelo fornecedor do software de orquestração.
-* **C)** O conectivo **"Therefore"** expressa conclusão/consequência lógica e pode ser substituído, sem alteração substancial de significado, por *"Consequently"*.
-* **D)** A conjunção **"unless"** introduz uma concessão incondicional, com o mesmo valor sintático e semântico de *"although"*.
-* **E)** A oração iniciada por *"unless rigorous benchmark metrics prove.."* indica que o serviço central será migrado de imediato, independentemente dos testes de vazão.
-
+- **A)** A palavra **"nevertheless"** estabelece uma relação semântica de causa e explicação, podendo ser substituída por *"because"* sem alterar o sentido do texto.
+- **B)** O termo **"overhead"** refere-se exclusivamente aos encargos financeiros de licenciamento cobrados pelo fornecedor do software de orquestração.
+- **C)** O conectivo **"Therefore"** expressa conclusão/consequência lógica e pode ser substituído, sem alteração substancial de significado, por *"Consequently"*.
+- **D)** A conjunção **"unless"** introduz uma concessão incondicional, com o mesmo valor sintático e semântico de *"although"*.
+- **E)** A oração iniciada por *"unless rigorous benchmark metrics prove.."* indica que o serviço central será migrado de imediato, independentemente dos testes de vazão.
 
 ---
 
@@ -294,7 +292,7 @@ A respeito dos marcadores discursivos e do vocabulário técnico empregados no t
 > - **C)** Correta. O conectivo **"Therefore"** (portanto, logo, por conseguinte) estabelece uma dedução lógica de **consequência/conclusão**. Possui equivalência perfeita de sentido com **"Consequently"**, **"Thus"** e **"Hence"**.
 > - **D)** Incorreta. A conjunção **"unless"** expressa uma **condição negativa** (*a menos que*, *a não ser que*, equivalente lógico a *if.. not*), e não uma oração concessiva (*although*).
 > - **E)** Incorreta. O trecho assevera o oposto: a equipe deliberou **NÃO migrar** o serviço de missão crítica a não ser que testes rigorosos de benchmark comprovem que a vazão (*throughput*) permaneça satisfatória. A migração está explicitamente condicionada ao sucesso métrico.
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -322,30 +320,31 @@ Os sufixos definem a classe gramatical da palavra (*part of speech*). Saber iden
 ```mermaid
 flowchart LR
     Root["Radical: SCALE"]
-    
+  
     Root --> S1["Substantivo: -ability<br/>'scalability' (escalabilidade)"]
     Root --> S2["Adjetivo: -able<br/>'scalable' (escalável)"]
     Root --> S3["Advérbio: -ly<br/>'scalably' (escalavelmente)"]
 ```
 
 - **Sufixos Formadores de Substantivos:**
-    - *-ity / -ty:* Qualidade, estado ou métrica formal (*availability, elasticity, scalability, integrity, latency*).
-    - *-tion / -sion:* Ação, processo ou resultado (*authentication, serialization, compression, migration*).
-    - *-ment:* Instrumento, estado ou resultado prático (*deployment, enhancement, containment*).
-    - *-ance / -ence:* Condição ou propriedade contínua (*compliance, persistence, tolerance, resilience*).
-    - *-er / -or:* Agente processador, software ou pessoa responsável (*scheduler, compiler, dispatcher, load balancer, auditor*).
+  - *-ity / -ty:* Qualidade, estado ou métrica formal (*availability, elasticity, scalability, integrity, latency*).
+  - *-tion / -sion:* Ação, processo ou resultado (*authentication, serialization, compression, migration*).
+  - *-ment:* Instrumento, estado ou resultado prático (*deployment, enhancement, containment*).
+  - *-ance / -ence:* Condição ou propriedade contínua (*compliance, persistence, tolerance, resilience*).
+  - *-er / -or:* Agente processador, software ou pessoa responsável (*scheduler, compiler, dispatcher, load balancer, auditor*).
 - **Sufixos Formadores de Adjetivos:**
-    - *-able / -ible:* Denota capacidade, passibilidade ou viabilidade técnica (*scalable* = capaz de escalar; *feasible* = viável; *reliable* = confiável; *accessible* = acessível).
-    - *-ive:* Natureza dinâmica ou operacional (*predictive, recursive, preventive, defensive*).
-    - *-al:* Pertinência conceitual (*transactional, architectural, operational, computational*).
+  - *-able / -ible:* Denota capacidade, passibilidade ou viabilidade técnica (*scalable* = capaz de escalar; *feasible* = viável; *reliable* = confiável; *accessible* = acessível).
+  - *-ive:* Natureza dinâmica ou operacional (*predictive, recursive, preventive, defensive*).
+  - *-al:* Pertinência conceitual (*transactional, architectural, operational, computational*).
 - **Sufixos Formadores de Advérbios:**
-    - *-ly:* Adicionado ao adjetivo para exprimir o modo de execução (*seamlessly* = perfeitamente, sem interrupção perceptível; *concurrently* = simultaneamente; *asynchronously* = de maneira assíncrona).
+  - *-ly:* Adicionado ao adjetivo para exprimir o modo de execução (*seamlessly* = perfeitamente, sem interrupção perceptível; *concurrently* = simultaneamente; *asynchronously* = de maneira assíncrona).
 
 ### 2.3 Substantivos Compostos e Leitura Reversa (Noun Adjuncts)
 
 Na redação técnica de computação, sequências de três, quatro ou cinco palavras justapostas formam conceitos compostos complexos (*Noun Adjuncts / Compound Nouns*).
 
-#### A Regra de Interpretação da Direita para a Esquerda:
+#### A Regra de Interpretação da Direita para a Esquerda
+
 O substantivo núcleo (*Head Noun*) situa-se **sempre na última posição**. Todas as palavras que o precedem funcionam como qualificadores adjetivos. O leitor brasileiro deve localizar o último vocábulo e interpretá-lo lendo de trás para frente:
 
 ```mermaid
@@ -354,7 +353,7 @@ flowchart RL
     W2["Database<br/>(3: De banco de dados)"]
     W3["Failover<br/>(2: De comutação por falha)"]
     Head["SYSTEM<br/>(1: SISTEMA - Núcleo)"]
-    
+  
     Head --> W3
     W3 --> W2
     W2 --> W1
@@ -371,6 +370,7 @@ flowchart RL
 ---
 
 ### Teste 580
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Analyze the technical sentence below regarding cloud computing architecture:*
 
@@ -378,12 +378,11 @@ flowchart RL
 
 Em relação à morfologia das palavras em destaque e seus sufixos na língua inglesa, assinale a afirmativa correta:
 
-* **A)** Os vocábulos **"maintainability"** e **"scalability"** são substantivos abstratos derivados de adjetivos com sufixo *-able* acrescidos do sufixo nominalizador *-ity*.
-* **B)** A terminação *-ly* em **"gracefully"** caracteriza um adjetivo descritivo invariável que qualifica o substantivo *workloads*.
-* **C)** O sufixo *-ity* transforma substantivos em verbos no infinitivo.
-* **D)** As palavras *maintainability* e *scalability* funcionam sintaticamente como advérbios de modo que indicam tempo de resposta.
-* **E)** A terminação *-able* presente na raiz das palavras traduz uma impossibilidade ou veto técnico categórico.
-
+- **A)** Os vocábulos **"maintainability"** e **"scalability"** são substantivos abstratos derivados de adjetivos com sufixo *-able* acrescidos do sufixo nominalizador *-ity*.
+- **B)** A terminação *-ly* em **"gracefully"** caracteriza um adjetivo descritivo invariável que qualifica o substantivo *workloads*.
+- **C)** O sufixo *-ity* transforma substantivos em verbos no infinitivo.
+- **D)** As palavras *maintainability* e *scalability* funcionam sintaticamente como advérbios de modo que indicam tempo de resposta.
+- **E)** A terminação *-able* presente na raiz das palavras traduz uma impossibilidade ou veto técnico categórico.
 
 ---
 
@@ -398,12 +397,13 @@ ightarrow$ *scalability* (substantivo). O sufixo derivacional **-ity** forma **s
 > - **C)** Incorreta. O sufixo *-ity* forma substantivos, nunca verbos.
 > - **D)** Incorreta. *Maintainability* e *scalability* são substantivos nucleares do sujeito oracional, e não advérbios.
 > - **E)** Incorreta. O sufixo *-able / -ible* denota capacidade, passibilidade ou viabilidade técnica (passível de manutenção, passível de escalabilidade).
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 581
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the excerpt from an infrastructure deployment manual:*
 
@@ -419,26 +419,25 @@ III. O termo *"failover"* indica uma falha catastrófica definitiva que exige o 
 
 Está correto o que se afirma em:
 
-* **A)** I e II, apenas.
-* **B)** I e III, apenas.
-* **C)** II e III, apenas.
-* **D)** III, apenas.
-* **E)** I, II e III.
-
+- **A)** I e II, apenas.
+- **B)** I e III, apenas.
+- **C)** II e III, apenas.
+- **D)** III, apenas.
+- **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. Apenas as proposições I e II estão alinhadas com a gramática instrumental e os conceitos de TI:
->     - **I (Verdadeiro):** Pela regra dos *Noun Adjuncts*, a última palavra da cadeia é o núcleo substantivo (*system*). Lendo da direita para a esquerda: *sistema de provisionamento de cluster de alta disponibilidade tolerante a falhas*.
->     - **II (Verdadeiro):** O radical *seam* (costura) recebe o sufixo privativo *-less* (sem costura/sem emendas), gerando o adjetivo *seamless*. Com o acréscimo do sufixo adverbial *-ly*, forma-se *seamlessly* (perfeitamente, sem interrupção perceptível, fluidamente).
->     - **III (Falso):** O termo técnico **"failover"** designa a comutação automática e transparente de um recurso defeituoso para um nó redundante funcional, preservando a continuidade operacional, e não um desligamento manual.
+>   - **I (Verdadeiro):** Pela regra dos *Noun Adjuncts*, a última palavra da cadeia é o núcleo substantivo (*system*). Lendo da direita para a esquerda: *sistema de provisionamento de cluster de alta disponibilidade tolerante a falhas*.
+>   - **II (Verdadeiro):** O radical *seam* (costura) recebe o sufixo privativo *-less* (sem costura/sem emendas), gerando o adjetivo *seamless*. Com o acréscimo do sufixo adverbial *-ly*, forma-se *seamlessly* (perfeitamente, sem interrupção perceptível, fluidamente).
+>   - **III (Falso):** O termo técnico **"failover"** designa a comutação automática e transparente de um recurso defeituoso para um nó redundante funcional, preservando a continuidade operacional, e não um desligamento manual.
 > - **B)** Incorreta. O item III é falso.
 > - **C)** Incorreta. O item I é verdadeiro e o III é falso.
 > - **D)** Incorreta. O item III é falso.
 > - **E)** Incorreta. O item III é incorreto.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -486,6 +485,7 @@ Está correto o que se afirma em:
 ---
 
 ### Teste 582
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the architectural review summary below:*
 
@@ -493,12 +493,11 @@ Está correto o que se afirma em:
 
 Com base na terminologia técnica consagrada na engenharia de software e no texto acima:
 
-* **A)** O termo **"refactoring"** designa a reescrita de código com a finalidade exclusiva de alterar as saídas e regras de negócio externas observáveis pelos usuários.
-* **B)** A expressão **"trade-off"** refere-se a uma decisão de engenharia na qual a obtenção de uma vantagem técnica implica forçosamente abrir mão de outro benefício ou aceitar um custo correlato.
-* **C)** O conceito de **"boilerplate"** define módulos de software altamente customizados e exclusivos que encerram algoritmos confidenciais de negócio.
-* **D)** O estado de **"high coupling"** (alto acoplamento) constitui a melhor prática arquitetural recomendada, pois assegura que módulos dependam criticamente uns dos outros para operar.
-* **E)** O vocábulo **"cohesion"** (coesão) indica a quantidade de pacotes de dados perdidos em uma transmissão de rede local.
-
+- **A)** O termo **"refactoring"** designa a reescrita de código com a finalidade exclusiva de alterar as saídas e regras de negócio externas observáveis pelos usuários.
+- **B)** A expressão **"trade-off"** refere-se a uma decisão de engenharia na qual a obtenção de uma vantagem técnica implica forçosamente abrir mão de outro benefício ou aceitar um custo correlato.
+- **C)** O conceito de **"boilerplate"** define módulos de software altamente customizados e exclusivos que encerram algoritmos confidenciais de negócio.
+- **D)** O estado de **"high coupling"** (alto acoplamento) constitui a melhor prática arquitetural recomendada, pois assegura que módulos dependam criticamente uns dos outros para operar.
+- **E)** O vocábulo **"cohesion"** (coesão) indica a quantidade de pacotes de dados perdidos em uma transmissão de rede local.
 
 ---
 
@@ -509,12 +508,13 @@ Com base na terminologia técnica consagrada na engenharia de software e no text
 > - **C)** Incorreta. **"Boilerplate"** refere-se a código repetitivo, verboso e padronizado necessário para suporte ou configuração, desprovido de valor específico de negócio.
 > - **D)** Incorreta. A regra áurea de design arquitetural prega **baixo acoplamento** (*low coupling*) e **alta coesão** (*high cohesion*). Alto acoplamento gera dependências frágeis e propagação de falhas em cascata.
 > - **E)** Incorreta. **"Cohesion"** (coesão) mede o grau de afinidade e foco das responsabilidades de uma classe ou módulo (responsabilidade única), nada tendo a ver com perda de pacotes de rede.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 583
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Carefully read the technical paragraph below regarding concurrent programming:*
 
@@ -522,12 +522,11 @@ Com base na terminologia técnica consagrada na engenharia de software e no text
 
 Com base no texto técnico e nas regras gramaticais da língua inglesa, assinale a afirmação correta:
 
-* **A)** A expressão **"race condition"** designa uma rotina otimizada de alta performance em que threads disputam para finalizar tarefas mais rapidamente sem qualquer risco de erro.
-* **B)** O estado denominado **"deadlock"** ocorre quando todas as threads liberam seus locks simultaneamente, acelerando o processamento do banco.
-* **C)** A locução conjuntiva **"provided that"** estabelece uma relação semântica de condição (contanto que / desde que).
-* **D)** No trecho *"without triggering disruptive latency spikes"*, a palavra *"without"* introduz uma finalidade deliberada de elevar a latência.
-* **E)** O termo **"immutable"** é um adjetivo que caracteriza dados que podem ser modificados livremente por qualquer thread concorrente sem restrições.
-
+- **A)** A expressão **"race condition"** designa uma rotina otimizada de alta performance em que threads disputam para finalizar tarefas mais rapidamente sem qualquer risco de erro.
+- **B)** O estado denominado **"deadlock"** ocorre quando todas as threads liberam seus locks simultaneamente, acelerando o processamento do banco.
+- **C)** A locução conjuntiva **"provided that"** estabelece uma relação semântica de condição (contanto que / desde que).
+- **D)** No trecho *"without triggering disruptive latency spikes"*, a palavra *"without"* introduz uma finalidade deliberada de elevar a latência.
+- **E)** O termo **"immutable"** é um adjetivo que caracteriza dados que podem ser modificados livremente por qualquer thread concorrente sem restrições.
 
 ---
 
@@ -538,12 +537,13 @@ Com base no texto técnico e nas regras gramaticais da língua inglesa, assinale
 > - **C)** Correta. A locução **"provided that"** (contanto que, desde que) introduz uma **oração subordinada condicional restritiva**, condicionando a adoção de estruturas imutáveis à eficiência do coletor de lixo.
 > - **D)** Incorreta. A preposição privativa **"without"** (sem) denota exclusão/ausência circunstancial (*sem desencadear picos de latência*), e não finalidade ou objetivo intencional.
 > - **E)** Incorreta. Pelo prefixo negativo *im-*, o adjetivo **"immutable"** (imutável) qualifica dados que **NUNCA** podem ser modificados após sua instanciação, conferindo-lhes segurança intrínseca para concorrência (*thread safety*).
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 584
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the cybersecurity incident report excerpt below:*
 
@@ -551,12 +551,11 @@ Com base no texto técnico e nas regras gramaticais da língua inglesa, assinale
 
 No âmbito da segurança da informação e auditoria de sistemas, a correta interpretação dos termos destacados indica que:
 
-* **A)** **"IP spoofing"** consiste na criptografia legítima do endereço IP de origem para acelerar o roteamento de pacotes prioritários.
-* **B)** Registros descritos como **"tamper-proof"** são trilhas de auditoria dotadas de salvaguardas que impedem ou evidenciam qualquer adulteração ou manipulação não autorizada de dados.
-* **C)** O princípio de **"non-repudiation"** (não repúdio) confere ao autor da ação a faculdade técnica de negar a autoria de qualquer transação efetuada no sistema.
-* **D)** O termo **"mitigation"** descreve a intensificação intencional de vulnerabilidades operacionais em servidores expostos na internet.
-* **E)** **"Phishing"** caracteriza a exclusão definitiva de logs de eventos mediante ataques de inundação de pacotes syn-flood.
-
+- **A)** **"IP spoofing"** consiste na criptografia legítima do endereço IP de origem para acelerar o roteamento de pacotes prioritários.
+- **B)** Registros descritos como **"tamper-proof"** são trilhas de auditoria dotadas de salvaguardas que impedem ou evidenciam qualquer adulteração ou manipulação não autorizada de dados.
+- **C)** O princípio de **"non-repudiation"** (não repúdio) confere ao autor da ação a faculdade técnica de negar a autoria de qualquer transação efetuada no sistema.
+- **D)** O termo **"mitigation"** descreve a intensificação intencional de vulnerabilidades operacionais em servidores expostos na internet.
+- **E)** **"Phishing"** caracteriza a exclusão definitiva de logs de eventos mediante ataques de inundação de pacotes syn-flood.
 
 ---
 
@@ -567,18 +566,18 @@ No âmbito da segurança da informação e auditoria de sistemas, a correta inte
 > - **C)** Incorreta. O princípio de **"non-repudiation"** (não repúdio ou irrefutabilidade) **garante a impossibilidade de negar** a autoria ou integridade da transação realizada.
 > - **D)** Incorreta. **"Mitigation"** (mitigação) consiste na redução, contenção e controle de riscos ou danos decorrentes de vulnerabilidades ou incidentes.
 > - **E)** Incorreta. **"Phishing"** é técnica de engenharia social voltada a induzir usuários a fornecer senhas e dados confidenciais, não exclusão de logs.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ## 6. Fontes Recomendadas na Internet
 
-* [IETF RFC 2119 - Requirement Levels Vocabulary](https://datatracker.ietf.org/doc/html/rfc2119) - Especificação padrão do vocabulário mandatório e condicional em especificações internacionais de tecnologia.
-* [MDN Web Docs - Glossary of Web Terms](https://developer.mozilla.org/en-US/docs/Glossary) - Glossário oficial e terminologia primária de engenharia web, redes e desenvolvimento de software.
-* [OpenAPI Specification 3.1.0 (English)](https://spec.openapis.org/oas/v3.1.0) - Especificação técnica formal em inglês ideal para identificação de conectivos, sufixos, prefixos e vocabulário técnico de APIs.
-* [PostgreSQL 17 Official Documentation - Architecture Fundamentals](https://www.postgresql.org/docs/current/overview.html) - Manual técnico avançado em inglês com vocabulário de persistência, índices e concorrência.
-* [Google Technical Writing Courses - Clarifying Ambiguities](https://developers.google.com/tech-writing/one/words) - Guia de precisão lexical, conectivos lógicos e eliminação de ambiguidades em documentação técnica.
-* HEWINGS, Martin. **Advanced Grammar in Use**. 3. ed. Cambridge: Cambridge University Press, 2013. (Units 71 to 78 - Linking Words and Conjunctions: Reason, Purpose, Contrast and Condition).
-* MURPHY, Raymond. **English Grammar in Use**. 5. ed. Cambridge: Cambridge University Press, 2019. (Units 113 to 120 - Conjunctions and Prepositions: Although, In Spite Of, Unless, As Long As).
-* GLENDINNING, Eric H.; MCEWAN, John. **Oxford English for Information Technology**. 2. ed. Oxford: Oxford University Press, 2006. (Units 10 to 15 - Software Engineering Vocabulary and Connectors).
+- [IETF RFC 2119 - Requirement Levels Vocabulary](https://datatracker.ietf.org/doc/html/rfc2119) - Especificação padrão do vocabulário mandatório e condicional em especificações internacionais de tecnologia.
+- [MDN Web Docs - Glossary of Web Terms](https://developer.mozilla.org/en-US/docs/Glossary) - Glossário oficial e terminologia primária de engenharia web, redes e desenvolvimento de software.
+- [OpenAPI Specification 3.1.0 (English)](https://spec.openapis.org/oas/v3.1.0) - Especificação técnica formal em inglês ideal para identificação de conectivos, sufixos, prefixos e vocabulário técnico de APIs.
+- [PostgreSQL 17 Official Documentation - Architecture Fundamentals](https://www.postgresql.org/docs/current/overview.html) - Manual técnico avançado em inglês com vocabulário de persistência, índices e concorrência.
+- [Google Technical Writing Courses - Clarifying Ambiguities](https://developers.google.com/tech-writing/one/words) - Guia de precisão lexical, conectivos lógicos e eliminação de ambiguidades em documentação técnica.
+- HEWINGS, Martin. **Advanced Grammar in Use**. 3. ed. Cambridge: Cambridge University Press, 2013. (Units 71 to 78 - Linking Words and Conjunctions: Reason, Purpose, Contrast and Condition).
+- MURPHY, Raymond. **English Grammar in Use**. 5. ed. Cambridge: Cambridge University Press, 2019. (Units 113 to 120 - Conjunctions and Prepositions: Although, In Spite Of, Unless, As Long As).
+- GLENDINNING, Eric H.; MCEWAN, John. **Oxford English for Information Technology**. 2. ed. Oxford: Oxford University Press, 2006. (Units 10 to 15 - Software Engineering Vocabulary and Connectors).

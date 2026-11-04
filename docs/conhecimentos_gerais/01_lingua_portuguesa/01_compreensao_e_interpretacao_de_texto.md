@@ -5,9 +5,7 @@
 > **Arquivo:** `01_compreensao_e_interpretacao_de_texto.md`  
 > **Referência Temática:** Teoria do Texto, Tipologias, Discurso Narrativo e Estilística na Banca FCC
 
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 
@@ -20,61 +18,59 @@
 - Figuras de linguagem e recursos expressivos (Semânticas, Sintáticas/de Construção e Fonéticas);
 - Identificação de tese, estratégias argumentativas, pressupostos e subentendidos na tipologia dissertativa.
 
-
 ---
-
 
 ## 🧭 Sumário
 
-1. [Compreensão vs. Interpretação na Tradição da FCC](#1-compreensao-vs-interpretacao-na-tradicao-da-fcc)
-    - [1.1 Compreensão Textual e Informação Explícita](#11-compreensao-textual-e-informacao-explicita)
-    - [1.2 Interpretação Textual e Inferência Autorizada](#12-interpretacao-textual-e-inferencia-autorizada)
-    - [1.3 Os Três Erros Clássicos de Leitura](#13-os-tres-erros-classicos-de-leitura)
-    - [1.4 Método Prático de Resolução](#14-metodo-pratico-de-resolucao)
-    - [Teste 001](#teste-001)
-2. [Gêneros Textuais e Contexto de Produção](#2-generos-textuais-e-contexto-de-producao)
-    - [2.1 Tipo Textual vs. Gênero Textual](#21-tipo-textual-vs-genero-textual)
-    - [2.2 Ensaio, Editorial, Crônica e Artigo de Opinião](#22-ensaio-editorial-cronica-e-artigo-de-opiniao)
-    - [2.3 Contexto Histórico, Cultural e Ideológico](#23-contexto-historico-cultural-e-ideologico)
-    - [Teste 002](#teste-002)
+1. [Compreensão vs. Interpretação na Tradição da FCC](#1-compreensão-vs-interpretação-na-tradição-da-fcc)
+    1. [Compreensão Textual e Informação Explícita](#11-compreensão-textual-e-informação-explícita)
+    1. [Interpretação Textual e Inferência Autorizada](#12-interpretação-textual-e-inferência-autorizada)
+    1. [Os Três Erros Clássicos de Leitura](#13-os-três-erros-clássicos-de-leitura)
+    1. [Método Prático de Resolução](#14-método-prático-de-resolução)
+    1. [Teste 001](#teste-001)
+2. [Gêneros Textuais e Contexto de Produção](#2-gêneros-textuais-e-contexto-de-produção)
+    1. [Tipo Textual vs. Gênero Textual](#21-tipo-textual-vs-gênero-textual)
+    1. [Ensaio, Editorial, Crônica e Artigo de Opinião](#22-ensaio-editorial-crônica-e-artigo-de-opinião)
+    1. [Contexto Histórico, Cultural e Ideológico](#23-contexto-histórico-cultural-e-ideológico)
+    1. [Teste 002](#teste-002)
 3. [Tipologias Textuais](#3-tipologias-textuais)
-    - [3.1 Quadro Comparativo das Tipologias](#31-quadro-comparativo-das-tipologias)
-    - [3.2 Narração e Descrição](#32-narracao-e-descricao)
-    - [3.3 Exposição e Injunção](#33-exposicao-e-injuncao)
-    - [Teste 003](#teste-003)
-4. [Argumentação na Tipologia Dissertativa](#4-argumentacao-na-tipologia-dissertativa)
-    - [4.1 Tese e Estrutura do Texto Argumentativo](#41-tese-e-estrutura-do-texto-argumentativo)
-    - [4.2 Estratégias Argumentativas](#42-estrategias-argumentativas)
-    - [4.3 Operadores Argumentativos](#43-operadores-argumentativos)
-    - [4.4 Pressupostos e Subentendidos](#44-pressupostos-e-subentendidos)
-    - [Teste 004](#teste-004)
-    - [Teste 005](#teste-005)
-5. [Níveis de Linguagem e Denotação e Conotação](#5-niveis-de-linguagem-e-denotacao-e-conotacao)
-    - [5.1 Linguagem Denotativa](#51-linguagem-denotativa)
-    - [5.2 Linguagem Conotativa](#52-linguagem-conotativa)
-    - [Teste 006](#teste-006)
+    1. [Quadro Comparativo das Tipologias](#31-quadro-comparativo-das-tipologias)
+    1. [Narração e Descrição](#32-narração-e-descrição)
+    1. [Exposição e Injunção](#33-exposição-e-injunção)
+    1. [Teste 003](#teste-003)
+4. [Argumentação na Tipologia Dissertativa](#4-argumentação-na-tipologia-dissertativa)
+    1. [Tese e Estrutura do Texto Argumentativo](#41-tese-e-estrutura-do-texto-argumentativo)
+    1. [Estratégias Argumentativas](#42-estratégias-argumentativas)
+    1. [Operadores Argumentativos](#43-operadores-argumentativos)
+    1. [Pressupostos e Subentendidos](#44-pressupostos-e-subentendidos)
+    1. [Teste 004](#teste-004)
+    1. [Teste 005](#teste-005)
+5. [Níveis de Linguagem e Denotação e Conotação](#5-níveis-de-linguagem-e-denotação-e-conotação)
+    1. [Linguagem Denotativa](#51-linguagem-denotativa)
+    1. [Linguagem Conotativa](#52-linguagem-conotativa)
+    1. [Teste 006](#teste-006)
 6. [Modalidades de Discurso](#6-modalidades-de-discurso)
-    - [6.1 Discurso Direto](#61-discurso-direto)
-    - [6.2 Discurso Indireto](#62-discurso-indireto)
-    - [6.3 Discurso Indireto Livre](#63-discurso-indireto-livre)
-    - [Teste 007](#teste-007)
-7. [Transposição de Discursos](#7-transposicao-de-discursos)
-    - [7.1 Tabela de Transposição do Direto para o Indireto](#71-tabela-de-transposicao-do-direto-para-o-indireto)
-    - [7.2 Correlação Verbal e Armadilhas na Transposição](#72-correlacao-verbal-e-armadilhas-na-transposicao)
-    - [Teste 008](#teste-008)
+    1. [Discurso Direto](#61-discurso-direto)
+    1. [Discurso Indireto](#62-discurso-indireto)
+    1. [Discurso Indireto Livre](#63-discurso-indireto-livre)
+    1. [Teste 007](#teste-007)
+7. [Transposição de Discursos](#7-transposição-de-discursos)
+    1. [Tabela de Transposição do Direto para o Indireto](#71-tabela-de-transposição-do-direto-para-o-indireto)
+    1. [Correlação Verbal e Armadilhas na Transposição](#72-correlação-verbal-e-armadilhas-na-transposição)
+    1. [Teste 008](#teste-008)
 8. [Intertextualidade](#8-intertextualidade)
-    - [8.1 Paráfrase](#81-parafrase)
-    - [8.2 Paródia](#82-parodia)
-    - [8.3 Citação, Epígrafe e Alusão](#83-citacao-epigrafe-e-alusao)
-    - [Teste 009](#teste-009)
+    1. [Paráfrase](#81-paráfrase)
+    1. [Paródia](#82-paródia)
+    1. [Citação, Epígrafe e Alusão](#83-citação-epígrafe-e-alusão)
+    1. [Teste 009](#teste-009)
 9. [Figuras de Linguagem](#9-figuras-de-linguagem)
-    - [9.1 Figuras Semânticas ou de Palavra](#91-figuras-semanticas-ou-de-palavra)
-    - [9.2 Figuras de Pensamento](#92-figuras-de-pensamento)
-    - [9.3 Figuras de Construção ou de Sintaxe](#93-figuras-de-construcao-ou-de-sintaxe)
-    - [9.4 Figuras Sonoras ou Fonéticas](#94-figuras-sonoras-ou-foneticas)
-    - [Teste 010](#teste-010)
-    - [Teste 011](#teste-011)
-1. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+    1. [Figuras Semânticas ou de Palavra](#91-figuras-semânticas-ou-de-palavra)
+    1. [Figuras de Pensamento](#92-figuras-de-pensamento)
+    1. [Figuras de Construção ou de Sintaxe](#93-figuras-de-construção-ou-de-sintaxe)
+    1. [Figuras Sonoras ou Fonéticas](#94-figuras-sonoras-ou-fonéticas)
+    1. [Teste 010](#teste-010)
+    1. [Teste 011](#teste-011)
+10. [Fontes Oficiais e Referências Bibliográficas](#-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -85,10 +81,10 @@ A Fundação Carlos Chagas (FCC) constrói enunciados rigorosos em que a distin�
 ```mermaid
 flowchart TD
     Texto["LEITURA DO TEXTO NA PROVA"]
-    
+  
     Texto --> Comp["COMPREENSÃO TEXTUAL<br/>• Informação EXPLICITA no texto<br/>• O que o autor realmente disse<br/>• Comandos: 'Segundo o autor', 'De acordo com o texto'"]
     Texto --> Interp["INTERPRETAÇÃO TEXTUAL<br/>• Informação IMPLÍCITA / INFERÊNCIA<br/>• O que se conclui logicamente<br/>• Comandos: 'Depreende-se', 'Infere-se', 'Conclui-se'"]
-    
+  
     Comp --> Erro1["CUIDADO: Parafraseamento literal com pegadinhas"]
     Interp --> Erro2["CUIDADO COM OS TRÊS ERROS CLÁSSICOS:<br/>1. Extrapolação (ir além das pistas do texto)<br/>2. Redução (restringir a ideia geral)<br/>3. Contradição (afirmar o oposto)"]
 ```
@@ -142,22 +138,21 @@ Outro ponto importante é o **vocabulário em contexto**: a FCC frequentemente p
 
 > 💡 **DICA DE RESOLUÇÃO / RECONHECIMENTO DE TESE:** O primeiro parágrafo de um texto dissertativo da FCC normalmente contextualiza o tema e apresenta a tese. O último parágrafo sintetiza a conclusão. Se a questão indagar a ideia central, releia atentamente o início e o fim do texto antes de analisar as alternativas intermediárias.
 
-
 ---
 
-
 ### Teste 001
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 *Considere o seguinte excerto:*  
 *"A velocidade vertiginosa com que as novas tecnologias de inteligência artificial são integradas ao cotidiano suscita promessas sedutoras de eficiência administrativa absoluta e erradicação do erro humano. Contudo, essa aparente panaceia obscurece o fato de que os sistemas algorítmicos herdaram os próprios vieses, preconceitos e miopias éticas dos dados históricos que os alimentam. Longe de representarem uma objetividade asséptica, tais instrumentos podem operar como sofisticados espelhos que reproduzem, com roupagem matemática, as velhas assimetrias sociais"*.
 
 A partir da leitura atenta do texto, depreende-se corretamente que:
 
-* **A)** A tecnologia de inteligência artificial deve ter sua aplicação sumariamente suspensa nas repartições públicas, por constituir ameaça insanável aos direitos fundamentais.
-* **B)** A eficiência operacional proporcionada pelos algoritmos revelou-se ilusória, uma vez que as máquinas cometem rigorosamente a mesma quantidade de falhas que os seres humanos.
-* **C)** O autor adota uma postura crítica ao evidenciar que a pretensa neutralidade da inteligência artificial pode ocultar a perpetuação de distorções e desigualdades preexistentes na sociedade.
-* **D)** A erradicação dos erros administrativos é um objetivo já alcançado nas esferas em que a tecnologia algorítmica substituiu o juízo humano.
-* **E)** Os vieses algorítmicos decorrem da imperícia intencional dos engenheiros de computação que desenvolvem modelos visando discriminar grupos sociais específicos.
+- **A)** A tecnologia de inteligência artificial deve ter sua aplicação sumariamente suspensa nas repartições públicas, por constituir ameaça insanável aos direitos fundamentais.
+- **B)** A eficiência operacional proporcionada pelos algoritmos revelou-se ilusória, uma vez que as máquinas cometem rigorosamente a mesma quantidade de falhas que os seres humanos.
+- **C)** O autor adota uma postura crítica ao evidenciar que a pretensa neutralidade da inteligência artificial pode ocultar a perpetuação de distorções e desigualdades preexistentes na sociedade.
+- **D)** A erradicação dos erros administrativos é um objetivo já alcançado nas esferas em que a tecnologia algorítmica substituiu o juízo humano.
+- **E)** Os vieses algorítmicos decorrem da imperícia intencional dos engenheiros de computação que desenvolvem modelos visando discriminar grupos sociais específicos.
 
 ---
 
@@ -171,10 +166,7 @@ A partir da leitura atenta do texto, depreende-se corretamente que:
 >
 > **Gabarito: C**
 
-
-
 ---
-
 
 ## 2. Gêneros Textuais e Contexto de Produção
 
@@ -203,17 +195,18 @@ Na prova, isso aparece em perguntas sobre o **ponto de vista** do autor, sobre o
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:** Em textos antigos (Machado, Lima Barreto), a banca pode testar se o candidato reconhece a **ironia** do narrador diante dos valores da época. Ler literalmente um elogio irônico à elite do século XIX é um erro de contradição.
 
---- 
+---
 
 ### Teste 002
+
 **(FGV – TJ/RR – 2024 – Analista Judiciário – Gestão e Governança de TI – Questão Real RAG ID: `V3_FGV_TJ_RR_2024_Q1211`)**  
 Uma marca que mostra um traço da língua falada e não da língua escrita, é:
 
-* **A)** a predominância de frases complexas.
-* **B)** o uso frequente da voz passiva.
-* **C)** o uso de interrupções para melhoria da expressão.
-* **D)** o apelo a variadas estratégias de produção textual.
-* **E)** a continuidade na expressão textual.
+- **A)** a predominância de frases complexas.
+- **B)** o uso frequente da voz passiva.
+- **C)** o uso de interrupções para melhoria da expressão.
+- **D)** o apelo a variadas estratégias de produção textual.
+- **E)** a continuidade na expressão textual.
 
 ---
 
@@ -260,17 +253,18 @@ A **injunção** orienta o comportamento do leitor: diz o que fazer e como fazer
 ---
 
 ### Teste 003
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o seguinte excerto:  
 *"O relator ajeitou os óculos sobre o nariz, respirou fundo e abriu a pasta de capa azul que continha o processo de licitação sob suspeita. O silêncio na sala de sessões era denso, quebrado apenas pelo sussurro intermitente do aparelho de ar-condicionado. Naquelas quatrocentas páginas, repousavam indícios materiais de sobrepreço que desviavam recursos destinados ao transporte escolar. A negligência fiscalizatória da administração pública não é mera desatenção burocrática: traduz-se no abandono de crianças sem acesso às salas de aula e corrói a própria legitimidade das instituições democráticas."*
 
 Sobre a tipologia textual do excerto, constata-se que:
 
-* **A)** Há predomínio absoluto da tipologia narrativa de ficção, inexistindo qualquer juízo opinativo ou argumento dissertativo.
-* **B)** Trata-se de texto exclusivamente descritivo, cujo objetivo único é enumerar os traços físicos do relator e o mobiliário do tribunal.
-* **C)** Apresenta sequência híbrida em que elementos narrativos e descritivos funcionam como introdução contextualizadora para sustentar uma tese dissertativo-argumentativa sobre os efeitos sociais da corrupção.
-* **D)** Constitui texto tipicamente injuntivo, pois determina expressamente a condenação imediata dos gestores responsáveis pela licitação.
-* **E)** Classifica-se como dissertação puramente expositiva, isenta de qualquer posicionamento ético ou juízo de valor do emissor.
+- **A)** Há predomínio absoluto da tipologia narrativa de ficção, inexistindo qualquer juízo opinativo ou argumento dissertativo.
+- **B)** Trata-se de texto exclusivamente descritivo, cujo objetivo único é enumerar os traços físicos do relator e o mobiliário do tribunal.
+- **C)** Apresenta sequência híbrida em que elementos narrativos e descritivos funcionam como introdução contextualizadora para sustentar uma tese dissertativo-argumentativa sobre os efeitos sociais da corrupção.
+- **D)** Constitui texto tipicamente injuntivo, pois determina expressamente a condenação imediata dos gestores responsáveis pela licitação.
+- **E)** Classifica-se como dissertação puramente expositiva, isenta de qualquer posicionamento ético ou juízo de valor do emissor.
 
 ---
 
@@ -284,9 +278,7 @@ Sobre a tipologia textual do excerto, constata-se que:
 >
 > **Gabarito: C**
 
-
 ---
-
 
 ## 4. Argumentação na Tipologia Dissertativa
 
@@ -324,10 +316,7 @@ Os **operadores argumentativos** (conectivos e expressões de articulação) rev
 | **Adição / Gradação** | *e, além disso, ademais, não só... mas também, até, inclusive* | Soma argumentos na mesma direção; *até* e *inclusive* marcam o argumento mais forte. |
 | **Restrição / Retificação** | *longe de, ao contrário, em vez de, aliás, ou melhor* | Nega uma visão para afirmar outra ("Longe de serem neutros, os algoritmos..."). |
 
-
-
 ---
-
 
 ### 4.4 Pressupostos e Subentendidos
 
@@ -342,17 +331,18 @@ O **subentendido** é uma insinuação que **depende do contexto** e da interpre
 ---
 
 ### Teste 004
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o seguinte trecho argumentativo:  
 *"Costuma-se argumentar que a imposição de regras rígidas de controle prévio nas contratações públicas paralisa a máquina administrativa e asfixia o dinamismo dos investimentos estatais. No entanto, estudos empíricos desenvolvidos pela OCDE e por centros de pesquisa econômica demonstram que cada real investido em fiscalização tempestiva economiza até quatro vezes mais em custos de reparação de danos e sobrepreços contratuais. Portanto, o controle não constitui entrave burocrático, mas sim salvaguarda indispensável à sustentabilidade fiscal do Estado."*
 
 Na organização dos argumentos do excerto, o autor:
 
-* **A)** Apoia sua conclusão exclusivamente no senso comum e no apelo emocional dos leitores em relação aos gastos públicos.
-* **B)** Utiliza uma estrutura concessivo-adversativa, antecipando uma objeção frequente para refutá-la mediante dados e argumento de autoridade técnica antes de enunciar a tese conclusiva.
-* **C)** Defende que o controle prévio deve ser abolido para assegurar a rapidez nas contratações públicas emergenciais.
-* **D)** Conclui que as exigências de controle externo são responsáveis pela lentidão dos investimentos em infraestrutura.
-* **E)** Evita o emprego de conectivos de oposição, optando por justapor argumentos que sustentam uma mesma direção ideológica.
+- **A)** Apoia sua conclusão exclusivamente no senso comum e no apelo emocional dos leitores em relação aos gastos públicos.
+- **B)** Utiliza uma estrutura concessivo-adversativa, antecipando uma objeção frequente para refutá-la mediante dados e argumento de autoridade técnica antes de enunciar a tese conclusiva.
+- **C)** Defende que o controle prévio deve ser abolido para assegurar a rapidez nas contratações públicas emergenciais.
+- **D)** Conclui que as exigências de controle externo são responsáveis pela lentidão dos investimentos em infraestrutura.
+- **E)** Evita o emprego de conectivos de oposição, optando por justapor argumentos que sustentam uma mesma direção ideológica.
 
 ---
 
@@ -369,17 +359,18 @@ Na organização dos argumentos do excerto, o autor:
 ---
 
 ### Teste 005
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a frase a seguir:  
 *"Após a auditoria operacional, o órgão previdenciário **voltou a** publicar mensalmente as planilhas de desembolso financeiro, e os novos gestores **ainda** mantêm os relatórios acessíveis à consulta pública."*
 
 A análise dos operadores argumentativos e dos implícitos linguísticos da frase indica que:
 
-* **A)** A locução *"voltou a"* gera o pressuposto de que o órgão nunca havia publicado tais planilhas em momento algum de sua história.
-* **B)** O advérbio *"ainda"* introduz a certeza de que a transparência dos relatórios será interrompida obrigatoriamente no próximo exercício financeiro.
-* **C)** A expressão *"voltou a"* veicula o pressuposto de que as planilhas já eram publicadas no passado e haviam sido suspensas, ao passo que *"ainda"* pressupõe a continuidade no presente de um estado de coisas inaugurado anteriormente.
-* **D)** A transparência pública é tratada como mera possibilidade remota, evidenciada pela flexão condicional dos verbos principais.
-* **E)** A locução *"após a auditoria"* pressupõe que as auditorias de controle externo são inócuas para modificar condutas administrativas.
+- **A)** A locução *"voltou a"* gera o pressuposto de que o órgão nunca havia publicado tais planilhas em momento algum de sua história.
+- **B)** O advérbio *"ainda"* introduz a certeza de que a transparência dos relatórios será interrompida obrigatoriamente no próximo exercício financeiro.
+- **C)** A expressão *"voltou a"* veicula o pressuposto de que as planilhas já eram publicadas no passado e haviam sido suspensas, ao passo que *"ainda"* pressupõe a continuidade no presente de um estado de coisas inaugurado anteriormente.
+- **D)** A transparência pública é tratada como mera possibilidade remota, evidenciada pela flexão condicional dos verbos principais.
+- **E)** A locução *"após a auditoria"* pressupõe que as auditorias de controle externo são inócuas para modificar condutas administrativas.
 
 ---
 
@@ -393,9 +384,7 @@ A análise dos operadores argumentativos e dos implícitos linguísticos da fras
 >
 > **Gabarito: C**
 
-
 ---
-
 
 ## 5. Níveis de Linguagem e Denotação e Conotação
 
@@ -416,17 +405,18 @@ A conotação está na base das **figuras de linguagem** (item 9), especialmente
 ---
 
 ### Teste 006
+
 **(FGV – TJ/SC – 2026 – Analista Administrativo – Questão Real RAG ID: `V3_FGV_TJ_SC_2026_Q0001`)**  
 Observe uma peça de campanha divulgada pela Secretaria do Estado de Turismo de Santa Catarina em 2023.  
 *(Contexto institucional: Peça de campanha publicitária com slogan central articulando imagens turísticas e a expressão 'Santa Catarina: um estado de alegria')*.  
 
 Na campanha apresentada, a construção de sentidos decorre da articulação entre elementos verbais e não verbais, mobilizando recursos semânticos e visuais para promover o turismo. Considerando essa relação, assinale a afirmativa que melhor interpreta a estratégia discursiva empregada na peça.
 
-* **A)** A imagem de interação entre pessoas destaca o caráter coletivo da cena, enquanto o texto verbal remete à dimensão institucional da campanha turística.
-* **B)** O uso de formas circulares atua como recurso visual que acompanha o conteúdo verbal apresentado na peça publicitária.
-* **C)** A expressão “Santa Catarina” cumpre função informativa, contribuindo para a identificação explícita do local promovido na campanha.
-* **D)** A campanha articula texto e imagem de modo complementar, de forma que o conteúdo visual só pode ser compreendido pela leitura do slogan.
-* **E)** A expressão “um estado de alegria” explora o duplo sentido da palavra “estado”, articulando a ideia de unidade federativa à de condição emocional sugerida pela cena.
+- **A)** A imagem de interação entre pessoas destaca o caráter coletivo da cena, enquanto o texto verbal remete à dimensão institucional da campanha turística.
+- **B)** O uso de formas circulares atua como recurso visual que acompanha o conteúdo verbal apresentado na peça publicitária.
+- **C)** A expressão “Santa Catarina” cumpre função informativa, contribuindo para a identificação explícita do local promovido na campanha.
+- **D)** A campanha articula texto e imagem de modo complementar, de forma que o conteúdo visual só pode ser compreendido pela leitura do slogan.
+- **E)** A expressão “um estado de alegria” explora o duplo sentido da palavra “estado”, articulando a ideia de unidade federativa à de condição emocional sugerida pela cena.
 
 ---
 
@@ -449,7 +439,7 @@ Quando um narrador precisa apresentar a fala ou o pensamento de uma personagem, 
 ```mermaid
 flowchart TD
     Discursos["MODALIDADES DE DISCURSO NARRATIVO"]
-    
+  
     Discursos --> DD["DISCURSO DIRETO<br/>• Reprodução literal das palavras da personagem<br/>• Verbo de elocução + travessão ou aspas<br/>• Ex: O auditor declarou: 'Concluirei o relatório hoje.'"]
     Discursos --> DI["DISCURSO INDIRETO<br/>• Narrador relata com suas próprias palavras<br/>• Conjunção integrante (que / se)<br/>• Ex: O auditor declarou QUE CONCLUIRIA o relatório NAQUELE DIA."]
     Discursos --> DIL["DISCURSO INDIRETO LIVRE<br/>• FUSÃO da voz do narrador com o pensamento da personagem<br/>• Sem verbos de elocução e sem conectivos integrantes<br/>• Ex: Caminhava tenso pelo tribunal. Quando terminaria aquela auditoria? Não aguentava mais."]
@@ -484,17 +474,18 @@ Exemplo: *"O relator permaneceu em silêncio. **Como solucionar aquele impasse s
 ---
 
 ### Teste 007
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 *Observe o fragmento a seguir:*  
 *"O relator permaneceu em silêncio por longos minutos diante dos autos volumosos. Como solucionar aquele impasse procedimental sem ferir a jurisprudência consolidada da Casa? Sabia que os olhares de todos os presentes convergiam para sua bancada. Era preciso decidir, e decidir imediatamente"*.
 
 No fragmento acima, a passagem assinalada pela oração interrogativa (*"Como solucionar aquele impasse procedimental sem ferir a jurisprudência consolidada da Casa?"*) exemplifica o emprego do:
 
-* **A)** Discurso direto pontuado por elipse de aspas.
-* **B)** Discurso indireto clássico subordinado por conectivo causal.
-* **C)** Discurso indireto livre, em que o pensamento íntimo da personagem se mescla diretamente à narração em terceira pessoa.
-* **D)** Recurso estilístico de metonímia personificada.
-* **E)** Discurso dissertativo de autoridade estrita.
+- **A)** Discurso direto pontuado por elipse de aspas.
+- **B)** Discurso indireto clássico subordinado por conectivo causal.
+- **C)** Discurso indireto livre, em que o pensamento íntimo da personagem se mescla diretamente à narração em terceira pessoa.
+- **D)** Recurso estilístico de metonímia personificada.
+- **E)** Discurso dissertativo de autoridade estrita.
 
 ---
 
@@ -508,9 +499,7 @@ No fragmento acima, a passagem assinalada pela oração interrogativa (*"Como so
 >
 > **Gabarito: C**
 
-
 ---
-
 
 ## 7. Transposição de Discursos
 
@@ -549,18 +538,19 @@ A transposição exige **ajuste simultâneo** de todos os elementos: uma alterna
 ---
 
 ### Teste 008
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Transpondo-se a oração em discurso direto:  
 *O auditor afirmou aos gestores: "Concluirei a fiscalização amanhã e entregarei este relatório à presidência"*  
 para o discurso indireto, a forma verbal e os elementos dêiticos ajustam-se corretamente em:
 
-* **A)** O auditor afirmou aos gestores que concluiria a fiscalização amanhã e entregaria este relatório à presidência.
-* **B)** O auditor afirmou aos gestores que concluiria a fiscalização no dia seguinte e entregaria aquele relatório à presidência.
-* **C)** O auditor afirmou aos gestores que concluíra a fiscalização na véspera e entregara esse relatório à presidência.
-* **D)** O auditor afirmou aos gestores que concluirá a fiscalização no dia subsequente e entregará aquele relatório à presidência.
-* **E)** O auditor afirmou aos gestores que tenha concluído a fiscalização amanhã e entregue aquele relatório à presidência.
+- **A)** O auditor afirmou aos gestores que concluiria a fiscalização amanhã e entregaria este relatório à presidência.
+- **B)** O auditor afirmou aos gestores que concluiria a fiscalização no dia seguinte e entregaria aquele relatório à presidência.
+- **C)** O auditor afirmou aos gestores que concluíra a fiscalização na véspera e entregara esse relatório à presidência.
+- **D)** O auditor afirmou aos gestores que concluirá a fiscalização no dia subsequente e entregará aquele relatório à presidência.
+- **E)** O auditor afirmou aos gestores que tenha concluído a fiscalização amanhã e entregue aquele relatório à presidência.
 
---- 
+---
 
 > **Comentário Detalhado:**
 >
@@ -576,9 +566,7 @@ para o discurso indireto, a forma verbal e os elementos dêiticos ajustam-se cor
 >
 > **Gabarito: B**
 
-
 ---
-
 
 ## 8. Intertextualidade
 
@@ -602,8 +590,8 @@ A **alusão** é uma **referência indireta**, breve e sem citação literal, a 
 
 > 📌 **NOTA EXPLICATIVA:** Paráfrase = mesmas ideias, outras palavras (concorda). Paródia = mesma forma, ideias subvertidas (contesta). Citação = palavras do outro com fonte. Epígrafe = citação no início do texto. Alusão = referência indireta que o leitor deve reconhecer.
 
-
 ### Teste 009
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere os dois textos abaixo:  
 
@@ -615,13 +603,13 @@ Considere os dois textos abaixo:
 
 Comparando os Textos I e II sob a perspectiva das relações intertextuais, verifica-se que o Texto II:
 
-* **A)** Constitui uma paráfrase estrita do Texto I, mantendo fidelidade semântica ao ufanismo romântico e à exaltação da natureza nativa brasileira.
-* **B)** Apresenta uma paródia, valendo-se da estrutura rítmica e de versos-chave do texto romântico de partida para desconstruir ironicamente a idealização patriótica.
-* **C)** Configura um caso de plágio desprovido de qualquer autonomia artística ou intenção crítica.
-* **D)** Utiliza uma epígrafe formal que se limita a homenagear Gonçalves Dias sem interagir com os conceitos da obra referenciada.
-* **E)** Isola-se de qualquer diálogo com o cânone literário, não permitindo estabelecer paralelo intertextual com o poema de 1843.
+- **A)** Constitui uma paráfrase estrita do Texto I, mantendo fidelidade semântica ao ufanismo romântico e à exaltação da natureza nativa brasileira.
+- **B)** Apresenta uma paródia, valendo-se da estrutura rítmica e de versos-chave do texto romântico de partida para desconstruir ironicamente a idealização patriótica.
+- **C)** Configura um caso de plágio desprovido de qualquer autonomia artística ou intenção crítica.
+- **D)** Utiliza uma epígrafe formal que se limita a homenagear Gonçalves Dias sem interagir com os conceitos da obra referenciada.
+- **E)** Isola-se de qualquer diálogo com o cânone literário, não permitindo estabelecer paralelo intertextual com o poema de 1843.
 
---- 
+---
 
 > **Comentário Detalhado:**
 >
@@ -633,9 +621,7 @@ Comparando os Textos I e II sob a perspectiva das relações intertextuais, veri
 >
 > **Gabarito: B**
 
-
 ---
-
 
 ## 9. Figuras de Linguagem
 
@@ -697,6 +683,7 @@ Exploram a **sonoridade** das palavras, sendo frequentes em poesia, publicidade 
 ---
 
 ### Teste 010
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere os versos e expressões a seguir:  
 
@@ -708,11 +695,11 @@ III. *"Nas horas de angústia, o coração do fiscal chorava lágrimas de ferro.
 
 As figuras de linguagem presentes nos trechos I, II e III são, respectivamente:
 
-* **A)** Paradoxo (Oximoro), Eufemismo e Prosopopeia (Personificação).
-* **B)** Antítese, Hipérbole e Metonímia.
-* **C)** Pleonasmo, Ironia e Catacrese.
-* **D)** Paradoxo (Oximoro), Antítese e Sinestesia.
-* **E)** Metáfora, Eufemismo e Zeugma.
+- **A)** Paradoxo (Oximoro), Eufemismo e Prosopopeia (Personificação).
+- **B)** Antítese, Hipérbole e Metonímia.
+- **C)** Pleonasmo, Ironia e Catacrese.
+- **D)** Paradoxo (Oximoro), Antítese e Sinestesia.
+- **E)** Metáfora, Eufemismo e Zeugma.
 
 ---
 
@@ -736,17 +723,18 @@ As figuras de linguagem presentes nos trechos I, II e III são, respectivamente:
 ---
 
 ### Teste 011
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o seguinte período:  
 *"O procurador examinava minuciosamente os autos da representação; o auditor, as planilhas financeiras das empreiteiras contratadas."*
 
 No trecho acima, a vírgula empregada após a palavra *"auditor"* assinala a ocorrência da seguinte figura de linguagem sintática:
 
-* **A)** Anacoluto, caracterizado pela quebra repentina e assistemática da coesão frasal.
-* **B)** Zeugma, consistente na omissão de um termo verbal já expresso na oração anterior.
-* **C)** Pleonasmo vicioso, consistente na repetição desnecessária de um complemento oracional.
-* **D)** Hipérbato, que consiste na inversão drástica da ordem direta dos elementos sintáticos.
-* **E)** Polissíndeto, decorrente da multiplicação expressiva de conjunções coordenativas.
+- **A)** Anacoluto, caracterizado pela quebra repentina e assistemática da coesão frasal.
+- **B)** Zeugma, consistente na omissão de um termo verbal já expresso na oração anterior.
+- **C)** Pleonasmo vicioso, consistente na repetição desnecessária de um complemento oracional.
+- **D)** Hipérbato, que consiste na inversão drástica da ordem direta dos elementos sintáticos.
+- **E)** Polissíndeto, decorrente da multiplicação expressiva de conjunções coordenativas.
 
 ---
 
@@ -760,17 +748,15 @@ No trecho acima, a vírgula empregada após a palavra *"auditor"* assinala a oco
 >
 > **Gabarito: B**
 
-
 ---
-
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Manual de Comunicação do Senado Federal — Fundamentos e Diretrizes de Texto](https://www12.senado.leg.br/manualdecomunicacao/fundamentos-e-diretrizes) - Diretrizes oficiais sobre clareza, estrutura textual, argumentação, gêneros informativos e adequação discursiva.
-* [Manual de Comunicação do Senado Federal — Redação e Estilo (Índice Geral)](https://www12.senado.leg.br/manualdecomunicacao/redacao-e-estilo) - Orientações estilísticas sobre escolha vocabular, níveis de linguagem, discurso relatado e construção do texto.
-* [Manual de Comunicação do Senado Federal — Coesão e Redundância](https://www12.senado.leg.br/manualdecomunicacao/estilos/redundancia) - Estudo sobre pleonasmos, concisão, pressupostos semânticos e eliminação de vícios de linguagem.
-* [Manual de Comunicação do Senado Federal — Verbos Declaratórios e Tempos Verbais](https://www12.senado.leg.br/manualdecomunicacao/estilos/verbo-presente-e-futuro) - Emprego de verbos de elocução (*dicendi*) e correlação temporal na transposição entre discurso direto e indireto.
-* [Manual de Redação da Presidência da República — 3ª Edição (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Fundamentos de coesão, coerência, fidelidade interpretativa e linguagem denotativa em textos públicos.
-* KOCH, Ingedore Villaça; ELIAS, Vanda Maria. **Ler e Compreender: os sentidos do texto**. 3. ed. São Paulo: Contexto, 2018. (Cap. 2 e 4 -Compreensão, Inferência, Pressupostos, Subentendidos e Intertextualidade).
-* GARCIA, Othon M. **Comunicação em Prosa Moderna**. 27. ed. Rio de Janeiro: Editora FGV, 2010. (Segunda e Quarta Partes - Discurso Direto, Indireto e Indireto Livre, Figuras de Estilo e Argumentação).
-* BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 18 e Apêndice - Estilística, Figuras de Sintaxe, de Palavras e de Pensamento).
+- [Manual de Comunicação do Senado Federal — Fundamentos e Diretrizes de Texto](https://www12.senado.leg.br/manualdecomunicacao/fundamentos-e-diretrizes) - Diretrizes oficiais sobre clareza, estrutura textual, argumentação, gêneros informativos e adequação discursiva.
+- [Manual de Comunicação do Senado Federal — Redação e Estilo (Índice Geral)](https://www12.senado.leg.br/manualdecomunicacao/redacao-e-estilo) - Orientações estilísticas sobre escolha vocabular, níveis de linguagem, discurso relatado e construção do texto.
+- [Manual de Comunicação do Senado Federal — Coesão e Redundância](https://www12.senado.leg.br/manualdecomunicacao/estilos/redundancia) - Estudo sobre pleonasmos, concisão, pressupostos semânticos e eliminação de vícios de linguagem.
+- [Manual de Comunicação do Senado Federal — Verbos Declaratórios e Tempos Verbais](https://www12.senado.leg.br/manualdecomunicacao/estilos/verbo-presente-e-futuro) - Emprego de verbos de elocução (*dicendi*) e correlação temporal na transposição entre discurso direto e indireto.
+- [Manual de Redação da Presidência da República — 3ª Edição (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Fundamentos de coesão, coerência, fidelidade interpretativa e linguagem denotativa em textos públicos.
+- KOCH, Ingedore Villaça; ELIAS, Vanda Maria. **Ler e Compreender: os sentidos do texto**. 3. ed. São Paulo: Contexto, 2018. (Cap. 2 e 4 -Compreensão, Inferência, Pressupostos, Subentendidos e Intertextualidade).
+- GARCIA, Othon M. **Comunicação em Prosa Moderna**. 27. ed. Rio de Janeiro: Editora FGV, 2010. (Segunda e Quarta Partes - Discurso Direto, Indireto e Indireto Livre, Figuras de Estilo e Argumentação).
+- BECHARA, Evanildo. **Moderna Gramática Portuguesa**. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Cap. 18 e Apêndice - Estilística, Figuras de Sintaxe, de Palavras e de Pensamento).

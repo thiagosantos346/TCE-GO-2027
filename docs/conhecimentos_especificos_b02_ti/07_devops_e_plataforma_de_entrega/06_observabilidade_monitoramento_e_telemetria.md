@@ -4,12 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `06_observabilidade_monitoramento_e_telemetria.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Conceitos de Monitoramento Tradicional vs. Observabilidade
 - Os Quatro Sinais Dourados do Google SRE (Latência, Tráfego, Erros e Saturação)
 - Os Três Pilares da Observabilidade: Métricas, Logs Estruturados e Rastreamento Distribuído (Traces)
@@ -22,33 +20,33 @@
 ## 🧭 Sumário
 
 1. [Monitoramento Tradicional vs. Observabilidade Moderna](#1-monitoramento-tradicional-vs-observabilidade-moderna)
-    - [1.1 Transição de Sintomas para Estados Internos](#11-transicao-de-sintomas-para-estados-internos)
-    - [1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)](#12-os-quatro-sinais-dourados-do-google-sre-four-golden-signals)
-    - [1.3 Metodologias Complementares: USE (Brendan Gregg) e RED (Tom Wilkie)](#13-metodologias-complementares-use-brendan-gregg-e-red-tom-wilkie)
-    - [Teste 224](#teste-224)
-    - [Teste 225](#teste-225)
-    - [Teste 226](#teste-226)
-2. [Os Três Pilares da Observabilidade](#2-os-tres-pilares-da-observabilidade)
-    - [2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)](#21-metricas-metrics-e-tipos-primarios-no-prometheus-counter-gauge-histogram-summary)
-    - [2.2 Logs Estruturados (Structured Logging) e Pilhas de Agregação (ELK, EFK, Loki)](#22-logs-estruturados-structured-logging-e-pilhas-de-agregacao-elk-efk-loki)
-    - [2.3 Rastreamento Distribuído (Distributed Tracing): Traces, Spans e Identificadores Globais](#23-rastreamento-distribuido-distributed-tracing-traces-spans-e-identificadores-globais)
-    - [2.4 Tabela Comparativa de Propósitos e Custos dos Três Pilares](#24-tabela-comparativa-de-propositos-e-custos-dos-tres-pilares)
-    - [Teste 227](#teste-227)
-    - [Teste 228](#teste-228)
-    - [Teste 229](#teste-229)
-3. [O Padrão Aberto OpenTelemetry (OTel)](#3-o-padrao-aberto-opentelemetry-otel)
-    - [3.1 Arquitetura Unificada: OTel API, OTel SDK e OTel Collector](#31-arquitetura-unificada-otel-api-otel-sdk-e-otel-collector)
-    - [3.2 Propagação de Contexto W3C Trace Context (traceparent e tracestate)](#32-propagacao-de-contexto-w3c-trace-context-traceparent-e-tracestate)
-    - [Teste 230](#teste-230)
-4. [Engenharia de Confiabilidade SRE: O Triângulo SLI, SLO, SLA e Error Budgets](#4-engenharia-de-confiabilidade-sre-o-triangulo-sli-slo-sla-e-error-budgets)
-    - [4.1 Distinção Formal entre SLI, SLO e SLA](#41-distincao-formal-entre-sli-slo-e-sla)
-    - [4.2 O Orçamento de Erro (Error Budget) como Equilíbrio entre Inovação e Confiabilidade](#42-o-orcamento-de-erro-error-budget-como-equilibrio-entre-inovacao-e-confiabilidade)
-    - [Teste 231](#teste-231)
-    - [Teste 232](#teste-232)
-5. [Métricas DORA e Desempenho Operacional em Engenharia](#5-metricas-dora-e-desempenho-operacional-em-engenharia)
-    - [5.1 As Quatro Dimensões DORA: Throughput vs. Stability](#51-as-quatro-dimensoes-dora-throughput-vs-stability)
-    - [Teste 233](#teste-233)
-1. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+    1. [Transição de Sintomas para Estados Internos](#11-transição-de-sintomas-para-estados-internos)
+    1. [Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)](#12-os-quatro-sinais-dourados-do-google-sre-four-golden-signals)
+    1. [Metodologias Complementares: USE (Brendan Gregg) e RED (Tom Wilkie)](#13-metodologias-complementares-use-brendan-gregg-e-red-tom-wilkie)
+    1. [Teste 224](#teste-224)
+    1. [Teste 225](#teste-225)
+    1. [Teste 226](#teste-226)
+2. [Os Três Pilares da Observabilidade](#2-os-três-pilares-da-observabilidade)
+    1. [Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)](#21-métricas-metrics-e-tipos-primários-no-prometheus-counter-gauge-histogram-summary)
+    1. [Logs Estruturados (Structured Logging) e Pilhas de Agregação (ELK, EFK, Loki)](#22-logs-estruturados-structured-logging-e-pilhas-de-agregação-elk-efk-loki)
+    1. [Rastreamento Distribuído (Distributed Tracing): Traces, Spans e Identificadores Globais](#23-rastreamento-distribuído-distributed-tracing-traces-spans-e-identificadores-globais)
+    1. [Tabela Comparativa de Propósitos e Custos dos Três Pilares](#24-tabela-comparativa-de-propósitos-e-custos-dos-três-pilares)
+    1. [Teste 227](#teste-227)
+    1. [Teste 228](#teste-228)
+    1. [Teste 229](#teste-229)
+3. [O Padrão Aberto OpenTelemetry (OTel)](#3-o-padrão-aberto-opentelemetry-otel)
+    1. [Arquitetura Unificada: OTel API, OTel SDK e OTel Collector](#31-arquitetura-unificada-otel-api-otel-sdk-e-otel-collector)
+    1. [Propagação de Contexto W3C Trace Context (traceparent e tracestate)](#32-propagação-de-contexto-w3c-trace-context-traceparent-e-tracestate)
+    1. [Teste 230](#teste-230)
+4. [Engenharia de Confiabilidade SRE: O Triângulo SLI, SLO, SLA e Error Budgets](#4-engenharia-de-confiabilidade-sre-o-triângulo-sli-slo-sla-e-error-budgets)
+    1. [Distinção Formal entre SLI, SLO e SLA](#41-distinção-formal-entre-sli-slo-e-sla)
+    1. [O Orçamento de Erro (Error Budget) como Equilíbrio entre Inovação e Confiabilidade](#42-o-orçamento-de-erro-error-budget-como-equilíbrio-entre-inovação-e-confiabilidade)
+    1. [Teste 231](#teste-231)
+    1. [Teste 232](#teste-232)
+5. [Métricas DORA e Desempenho Operacional em Engenharia](#5-métricas-dora-e-desempenho-operacional-em-engenharia)
+    1. [As Quatro Dimensões DORA: Throughput vs. Stability](#51-as-quatro-dimensões-dora-throughput-vs-stability)
+    1. [Teste 233](#teste-233)
+6. [Fontes Oficiais e Referências Bibliográficas](#-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -80,8 +78,8 @@ flowchart LR
 - **Definição Matemática e Canônica:** Originária da Teoria do Controle Linear formalizada por Rudolf E. Kálmán (1960) e consolidada na computação por Charity Majors:
   > *"Um sistema é observável se o seu estado interno puder ser integralmente inferido a partir do conhecimento de suas saídas externas expostas."*
 - **A Fronteira Conceitual:**
-    - **Monitoramento Tradicional:** Informa **quando** algo está quebrado (*"O sistema está fora do ar?"*). Presta-se a diagnosticar problemas previsíveis cujas causas já são familiares à equipe (*known unknowns*).
-    - **Observabilidade:** Permite entender **por que** algo quebrou (*"Por que a transação do usuário X demorou 12 segundos e gerou falha na emissão da certidão?"*). Viabiliza a investigação aberta e multidimensional de problemas inéditos e imprevistos decorrentes do comportamento caótico de sistemas distribuídos (*unknown unknowns*).
+  - **Monitoramento Tradicional:** Informa **quando** algo está quebrado (*"O sistema está fora do ar?"*). Presta-se a diagnosticar problemas previsíveis cujas causas já são familiares à equipe (*known unknowns*).
+  - **Observabilidade:** Permite entender **por que** algo quebrou (*"Por que a transação do usuário X demorou 12 segundos e gerou falha na emissão da certidão?"*). Viabiliza a investigação aberta e multidimensional de problemas inéditos e imprevistos decorrentes do comportamento caótico de sistemas distribuídos (*unknown unknowns*).
 
 ### 1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)
 
@@ -106,26 +104,26 @@ No seminal *Google Site Reliability Engineering Book*, a equipe de confiabilidad
 Além dos Quatro Sinais Dourados, destacam-se duas metodologias amplamente cobradas em avaliações de arquitetura:
 
 - **Método USE (Brendan Gregg - Foco em Recursos e Infraestrutura):** Para cada recurso de hardware/sistema (CPU, disco, barramento de rede), analisa-se:
-    - **U (Utilization):** Percentual médio de tempo em que o recurso esteve ocupado.
-    - **S (Saturation):** Volume de trabalho pendente na fila aguardando processamento.
-    - **E (Errors):** Contagem de erros de hardware ou de driver associados ao recurso.
+  - **U (Utilization):** Percentual médio de tempo em que o recurso esteve ocupado.
+  - **S (Saturation):** Volume de trabalho pendente na fila aguardando processamento.
+  - **E (Errors):** Contagem de erros de hardware ou de driver associados ao recurso.
 - **Método RED (Tom Wilkie - Foco em Microsserviços e Requisições):** Adequado para avaliar serviços que processam chamadas de rede:
-    - **R (Rate):** Taxa de requisições por segundo.
-    - **E (Errors):** Quantidade ou taxa de requisições que falharam.
-    - **D (Duration):** Duração/tempo gasto pelas requisições (latência).
+  - **R (Rate):** Taxa de requisições por segundo.
+  - **E (Errors):** Quantidade ou taxa de requisições que falharam.
+  - **D (Duration):** Duração/tempo gasto pelas requisições (latência).
 
 ---
 
 ### Teste 224
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na engenharia de sistemas modernos, a distinção conceitual entre o Monitoramento Tradicional e a Observabilidade Moderna fundamenta-se na teoria do controle. A respeito dessa distinção, é correto afirmar:
 
-* **A)** O monitoramento tradicional testa os sistemas internamente com inteligência artificial, enquanto a observabilidade analisa exclusivamente se o computador está ligado à tomada.
-* **B)** O monitoramento tradicional foca em verificar sintomas e métricas pré-conhecidas de falha ("o sistema está funcionando?"), respondendo por problemas conhecidos (*known unknowns*); a observabilidade é a propriedade de inferir os estados internos de um sistema complexo exclusivamente a partir de suas saídas de telemetria externa, permitindo diagnosticar comportamentos inéditos e inesperados (*unknown unknowns*).
-* **C)** Observabilidade e monitoramento são termos rigorosamente sinônimos, não havendo qualquer distinção técnica ou arquitetural entre ambos.
-* **D)** A observabilidade exige o desligamento de todos os agentes de telemetria de produção.
-* **E)** O monitoramento tradicional é capaz de isolar falhas de concorrência em sistemas distribuídos de microsserviços sem necessidade de logs ou traces.
-
+- **A)** O monitoramento tradicional testa os sistemas internamente com inteligência artificial, enquanto a observabilidade analisa exclusivamente se o computador está ligado à tomada.
+- **B)** O monitoramento tradicional foca em verificar sintomas e métricas pré-conhecidas de falha ("o sistema está funcionando?"), respondendo por problemas conhecidos (*known unknowns*); a observabilidade é a propriedade de inferir os estados internos de um sistema complexo exclusivamente a partir de suas saídas de telemetria externa, permitindo diagnosticar comportamentos inéditos e inesperados (*unknown unknowns*).
+- **C)** Observabilidade e monitoramento são termos rigorosamente sinônimos, não havendo qualquer distinção técnica ou arquitetural entre ambos.
+- **D)** A observabilidade exige o desligamento de todos os agentes de telemetria de produção.
+- **E)** O monitoramento tradicional é capaz de isolar falhas de concorrência em sistemas distribuídos de microsserviços sem necessidade de logs ou traces.
 
 ---
 
@@ -142,15 +140,15 @@ Na engenharia de sistemas modernos, a distinção conceitual entre o Monitoramen
 ---
 
 ### Teste 225
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No contexto de arquiteturas de sistemas distribuídos e práticas modernas de confiabilidade de software (SRE - *Site Reliability Engineering*), assinale a afirmativa correta a respeito dos Quatro Sinais Dourados (*Four Golden Signals*):  
 
-* **A)** Os Quatro Sinais Dourados definidos pelo Google SRE são: Criptografia, Autenticação, Não Repúdio e Integridade.
-* **B)** A Saturação mede quão próximo da sua capacidade operacional máxima um recurso do sistema está operando, como o esgotamento do pool de threads ou da memória física disponível.
-* **C)** A Latência deve ser calculada unicamente agregando todas as requisições em uma média simples, sendo irrelevante diferenciar o tempo de resposta das requisições bem-sucedidas do tempo de resposta das requisições que falharam com erro 500.
-* **D)** O sinal de Tráfego avalia o custo financeiro da conta de energia elétrica dos servidores instalados no datacenter.
-* **E)** A observabilidade é uma técnica aplicável estritamente a softwares legados monolíticos, sendo desnecessária em microsserviços conteinerizados em Kubernetes.
-
+- **A)** Os Quatro Sinais Dourados definidos pelo Google SRE são: Criptografia, Autenticação, Não Repúdio e Integridade.
+- **B)** A Saturação mede quão próximo da sua capacidade operacional máxima um recurso do sistema está operando, como o esgotamento do pool de threads ou da memória física disponível.
+- **C)** A Latência deve ser calculada unicamente agregando todas as requisições em uma média simples, sendo irrelevante diferenciar o tempo de resposta das requisições bem-sucedidas do tempo de resposta das requisições que falharam com erro 500.
+- **D)** O sinal de Tráfego avalia o custo financeiro da conta de energia elétrica dos servidores instalados no datacenter.
+- **E)** A observabilidade é uma técnica aplicável estritamente a softwares legados monolíticos, sendo desnecessária em microsserviços conteinerizados em Kubernetes.
 
 ---
 
@@ -161,21 +159,21 @@ No contexto de arquiteturas de sistemas distribuídos e práticas modernas de co
 > - **C)** Incorreta. O modelo SRE enfatiza que é imperativo **diferenciar a latência das requisições com sucesso da latência de requisições com erro**, pois requisições abortadas com erro podem retornar rapidamente e mascarar a lentidão das requisições legítimas.
 > - **D)** Incorreta. Tráfego afere a demanda imposta ao sistema pelos usuários ou clientes (ex.: requisições por segundo, sessões ativas).
 > - **E)** Incorreta. A observabilidade é indispensável prioritariamente em sistemas distribuídos complexos e efêmeros.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 226
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No diagnóstico de desempenho de sistemas computacionais, duas metodologias de telemetria consagradas são o método **USE** (proposto por Brendan Gregg) e o método **RED** (proposto por Tom Wilkie). A correta caracterização dessas metodologias estabelece que:
 
-* **A)** O método USE aplica-se a requisições de microsserviços e o método RED foca em memórias ROM analógicas.
-* **B)** O método USE orienta-se a recursos físicos de infraestrutura e hardware, analisando a **Utilização** (% de tempo ocupado), a **Saturação** (filas de espera de trabalho reprimido) e os **Erros** de cada recurso; o método RED orienta-se a serviços e requisições de software, medindo a Taxa de Requisições (**Rate**), a Taxa de Falhas (**Errors**) e a Duração (**Duration** / tempo de resposta).
-* **C)** O método RED mede exclusivamente o consumo de energia elétrica em watts dos servidores.
-* **D)** Ambas as metodologias recomendam que a saturação dos discos seja mantida permanentemente em 100%.
-* **E)** O método USE proíbe o registro de erros em sistemas de arquivos.
-
+- **A)** O método USE aplica-se a requisições de microsserviços e o método RED foca em memórias ROM analógicas.
+- **B)** O método USE orienta-se a recursos físicos de infraestrutura e hardware, analisando a **Utilização** (% de tempo ocupado), a **Saturação** (filas de espera de trabalho reprimido) e os **Erros** de cada recurso; o método RED orienta-se a serviços e requisições de software, medindo a Taxa de Requisições (**Rate**), a Taxa de Falhas (**Errors**) e a Duração (**Duration** / tempo de resposta).
+- **C)** O método RED mede exclusivamente o consumo de energia elétrica em watts dos servidores.
+- **D)** Ambas as metodologias recomendam que a saturação dos discos seja mantida permanentemente em 100%.
+- **E)** O método USE proíbe o registro de erros em sistemas de arquivos.
 
 ---
 
@@ -203,7 +201,7 @@ flowchart TD
         METRICS["1. Métricas (Prometheus)<br/>- Séries temporais numéricas agregadas<br/>- Pergunta: 'QUANDO e ONDE algo está quebrado?'<br/>- Custo: Baixo e rápido"]
         TRACES["3. Traces (Jaeger / OTel)<br/>- Jornada causal distribuída (Spans)<br/>- Pergunta: 'QUAL microsserviço causou a lentidão?'<br/>- Custo: Médio"]
         LOGS["2. Logs (Elasticsearch / Loki)<br/>- Registros textuais detalhados com timestamp<br/>- Pergunta: 'POR QUE exatamente a falha aconteceu?'<br/>- Custo: Alto armazenamento"]
-        
+  
         METRICS -.->|Alerta disparado| TRACES
         TRACES -.->|Span ID correlacionado| LOGS
     end
@@ -254,9 +252,9 @@ Os **logs** são registros textuais cronológicos e imutáveis de eventos discre
   A inclusão de campos como `trace_id` viabiliza a correlação cruzada imediata entre o log e o rastreamento distribuído correspondente.
 
 - **Pilhas de Agregação de Logs:**
-    - **Stack ELK (Elasticsearch, Logstash, Kibana):** O Logstash coleta e processa os logs; o Elasticsearch atua como mecanismo de busca e indexação distribuída em texto integral; o Kibana provê os dashboards visuais de consulta.
-    - **Stack EFK (Elasticsearch, Fluentd/Fluent Bit, Kibana):** Substitui o Logstash pelo **Fluent Bit** (leitor de logs levíssimo em C instalado como `DaemonSet` em cada nó do Kubernetes) para enviar os logs dos contêineres para o Elasticsearch.
-    - **Grafana Loki:** Abordagem moderna e econômica inspirada no Prometheus. Em vez de indexar o texto integral de cada log (o que consome gigabytes de RAM e disco), o Loki indexa apenas os metadados e rótulos (*labels*), armazenando o texto comprimido em buckets de armazenamento de objetos (como Amazon S3 ou MinIO).
+  - **Stack ELK (Elasticsearch, Logstash, Kibana):** O Logstash coleta e processa os logs; o Elasticsearch atua como mecanismo de busca e indexação distribuída em texto integral; o Kibana provê os dashboards visuais de consulta.
+  - **Stack EFK (Elasticsearch, Fluentd/Fluent Bit, Kibana):** Substitui o Logstash pelo **Fluent Bit** (leitor de logs levíssimo em C instalado como `DaemonSet` em cada nó do Kubernetes) para enviar os logs dos contêineres para o Elasticsearch.
+  - **Grafana Loki:** Abordagem moderna e econômica inspirada no Prometheus. Em vez de indexar o texto integral de cada log (o que consome gigabytes de RAM e disco), o Loki indexa apenas os metadados e rótulos (*labels*), armazenando o texto comprimido em buckets de armazenamento de objetos (como Amazon S3 ou MinIO).
 
 ### 2.3 Rastreamento Distribuído (Distributed Tracing): Traces, Spans e Identificadores Globais
 
@@ -269,7 +267,7 @@ flowchart TD
         SPAN2["Span Filho A: Auth Service (Duração: 40ms)"]
         SPAN3["Span Filho B: Auditoria Service (Duração: 160ms)"]
         SPAN4["Span Neto: Consulta PostgreSQL (Duração: 130ms - Gargalo!)"]
-        
+  
         SPAN1 --> SPAN2
         SPAN1 --> SPAN3
         SPAN3 --> SPAN4
@@ -278,11 +276,11 @@ flowchart TD
 
 - **Trace (Rastreio):** O grafo acíclico direcionado completo da jornada de uma requisição pelo ecossistema de software. É identificado por um identificador global único chamado **`Trace ID`** (número hexadecimal de 128 bits).
 - **Span (Segmento):** A unidade atômica básica de trabalho executada por um serviço individual durante o processamento do Trace. Um Span encapsula:
-    - **`Span ID`:** Identificador único daquela operação local (64 bits);
-    - **`Parent Span ID`:** O identificador do Span que o invocou (se for o primeiro da cadeia, é o *Root Span*);
-    - **Timestamps:** Horário exato de início e fim da operação (permitindo calcular a duração e latência);
-    - **Tags / Atributos:** Metadados estruturados (ex.: `http.method: POST`, `db.statement: SELECT * FROM notas_fiscais`);
-    - **Eventos:** Anotações temporais com mensagens ou erros de exceção ocorridos durante a execução do span.
+  - **`Span ID`:** Identificador único daquela operação local (64 bits);
+  - **`Parent Span ID`:** O identificador do Span que o invocou (se for o primeiro da cadeia, é o *Root Span*);
+  - **Timestamps:** Horário exato de início e fim da operação (permitindo calcular a duração e latência);
+  - **Tags / Atributos:** Metadados estruturados (ex.: `http.method: POST`, `db.statement: SELECT * FROM notas_fiscais`);
+  - **Eventos:** Anotações temporais com mensagens ou erros de exceção ocorridos durante a execução do span.
 
 ### 2.4 Tabela Comparativa de Propósitos e Custos dos Três Pilares
 
@@ -295,6 +293,7 @@ flowchart TD
 ---
 
 ### Teste 227
+
 **(FGV – TRT/13 – 2022 – Analista Judiciário - Tecnologia da Informação)**  
 Sobre a ferramenta de monitoramento Prometheus, analise as afirmativas a seguir.
 
@@ -304,11 +303,11 @@ III. Coleta métricas através do protocolo HTTP.
 
 Está correto o que se afirma em:
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** I, II e III.
+- **A)** I, apenas.
+- **B)** II, apenas.
+- **C)** III, apenas.
+- **D)** I e II, apenas.
+- **E)** I, II e III.
 
 ---
 
@@ -319,8 +318,9 @@ Está correto o que se afirma em:
 > - **Item III (Correto):** A arquitetura do Prometheus adota primordialmente o modelo *pull*: o servidor Prometheus faz requisições periódicas (*scraping*) via protocolo **HTTP/HTTPS** aos *endpoints* `/metrics` expostos pelas aplicações instrumentadas ou agentes exportadores (*exporters*).
 >
 > Como todas as afirmativas são verdadeiras, a alternativa correta é a **E**.
-> 
+>
 > **Gabarito: E**
+
 ---
 
 > **Comentário Detalhado:**
@@ -330,21 +330,21 @@ Está correto o que se afirma em:
 > - **C)** Incorreta. O item III está errado e o item I está correto.
 > - **D)** Incorreta. O item III é falso.
 > - **E)** Incorreta. O item III é falso porque o **Counter** é cumulativo monotônico (apenas sobe). A métrica do Prometheus que varia livremente para cima e para baixo (como o uso momentâneo de memória RAM ou temperatura) é o **Gauge** (Medidor).
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 228
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em arquiteturas de microsserviços de grande escala, a substituição de logs em texto livre não estruturado por Logs Estruturados (*Structured Logging*, tipicamente formatados em JSON) é uma exigência essencial de observabilidade. A principal vantagem dos logs estruturados consiste em:
 
-* **A)** Impedir que o arquivo de log seja aberto por editores de texto no sistema hospedeiro.
-* **B)** Permitir a indexação eficiente de pares chave-valor (como `timestamp`, `level`, `user_id`, `trace_id` e `http_status`), viabilizando consultas analíticas rápidas, correlações precisas e agregações estatísticas por ferramentas de ingestão centralizada (como Elasticsearch, OpenSearch e Grafana Loki).
-* **C)** Forçar que todos os logs sejam gravados exclusivamente em caixas de som de alta potência.
-* **D)** Aumentar a quantidade de erros da aplicação para gerar mais alertas à gerência.
-* **E)** Excluir automaticamente os rastros de auditoria fiscal a cada transação bancária.
-
+- **A)** Impedir que o arquivo de log seja aberto por editores de texto no sistema hospedeiro.
+- **B)** Permitir a indexação eficiente de pares chave-valor (como `timestamp`, `level`, `user_id`, `trace_id` e `http_status`), viabilizando consultas analíticas rápidas, correlações precisas e agregações estatísticas por ferramentas de ingestão centralizada (como Elasticsearch, OpenSearch e Grafana Loki).
+- **C)** Forçar que todos os logs sejam gravados exclusivamente em caixas de som de alta potência.
+- **D)** Aumentar a quantidade de erros da aplicação para gerar mais alertas à gerência.
+- **E)** Excluir automaticamente os rastros de auditoria fiscal a cada transação bancária.
 
 ---
 
@@ -361,17 +361,17 @@ Em arquiteturas de microsserviços de grande escala, a substituição de logs em
 ---
 
 ### Teste 229
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Uma requisição de pagamento enviada ao portal da Secretaria de Fazenda percorre sequencialmente o serviço de borda (*Edge Gateway*), o microsserviço de validação cadastral e o serviço de liquidação bancária. Para depurar atrasos na resposta, a equipe de TI implementou rastreamento distribuído (*Distributed Tracing*) utilizando o padrão OpenTelemetry.
 
 A esse respeito, assinale a opção correta:  
 
-* **A)** O *Trace* representa a unidade individual de execução dentro de um único método local de um microsserviço, enquanto o *Span* representa o conjunto de todas as transações financeiras ocorridas no mês.
-* **B)** Cada operação lógica realizada em um microsserviço no caminho da requisição é representada por um *Span*, o qual possui horário de início, duração, atributos contextuais, um identificador único (*Span ID*) e, opcionalmente, um identificador de pai (*Parent Span ID*), permitindo reconstruir a árvore hierárquica completa da transação associada a um *Trace ID* global.
-* **C)** A propagação de contexto entre microsserviços via protocolo HTTP dispensa qualquer cabeçalho de rede, pois o OpenTelemetry altera dinamicamente o endereço MAC das placas de rede físicas para transmitir o identificador do trace. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** No coletor do OpenTelemetry (*OTel Collector*), a etapa denominada *Receiver* é responsável por despachar os dados consolidados para bancos de dados de armazenamento permanente como Prometheus ou Jaeger.
-* **E)** O padrão OpenTelemetry proíbe a exportação de dados para soluções abertas, exigindo contratação exclusiva de provedores de nuvem proprietários.
-
+- **A)** O *Trace* representa a unidade individual de execução dentro de um único método local de um microsserviço, enquanto o *Span* representa o conjunto de todas as transações financeiras ocorridas no mês.
+- **B)** Cada operação lógica realizada em um microsserviço no caminho da requisição é representada por um *Span*, o qual possui horário de início, duração, atributos contextuais, um identificador único (*Span ID*) e, opcionalmente, um identificador de pai (*Parent Span ID*), permitindo reconstruir a árvore hierárquica completa da transação associada a um *Trace ID* global.
+- **C)** A propagação de contexto entre microsserviços via protocolo HTTP dispensa qualquer cabeçalho de rede, pois o OpenTelemetry altera dinamicamente o endereço MAC das placas de rede físicas para transmitir o identificador do trace. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **D)** No coletor do OpenTelemetry (*OTel Collector*), a etapa denominada *Receiver* é responsável por despachar os dados consolidados para bancos de dados de armazenamento permanente como Prometheus ou Jaeger.
+- **E)** O padrão OpenTelemetry proíbe a exportação de dados para soluções abertas, exigindo contratação exclusiva de provedores de nuvem proprietários.
 
 ---
 
@@ -382,7 +382,7 @@ A esse respeito, assinale a opção correta:
 > - **C)** Incorreta. A propagação de contexto baseia-se em cabeçalhos HTTP padronizados da especificação W3C Trace Context (`traceparent`), não modificando endereços de hardware.
 > - **D)** Incorreta. No *OTel Collector*, o **Receiver** recebe os dados na entrada; quem despacha e exporta a telemetria processada para os backends de armazenamento é o **Exporter**.
 > - **E)** Incorreta. O OpenTelemetry é um padrão aberto sob a tutela da CNCF concebido exatamente para ser agnóstico de fornecedor (*vendor-neutral*).
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -397,7 +397,7 @@ flowchart LR
         APP["Aplicação Instrumentada (SDK)"] -->|"OTLP / HTTP / gRPC"| REC["Receivers<br/>(Recebem dados)"]
         REC --> PROC["Processors<br/>(Batch, Filtro, Redação PII)"]
         PROC --> EXP["Exporters<br/>(Exportam em formatos específicos)"]
-        
+  
         EXP --> PROM["Prometheus (Métricas)"]
         EXP --> JAEGER["Jaeger (Traces)"]
         EXP --> LOKI["Loki (Logs)"]
@@ -421,23 +421,23 @@ Para que o `Trace ID` seja preservado quando uma chamada cruza a fronteira de um
 
 - **Cabeçalho `traceparent`:** Estrutura compacta transmitida na requisição:
   `traceparent: 00-4bf92f3577b34da6a3ce929d0e0e4736-00f067aa0ba902b7-01`
-    - `00`: Versão da especificação W3C.
-    - `4bf92f3577b34da6a3ce929d0e0e4736`: O **`Trace ID`** global compartilhado por todos os serviços.
-    - `00f067aa0ba902b7`: O **`Parent Span ID`** da operação que originou o disparo.
-    - `01`: Flags de rastreamento (onde `01` indica que a requisição foi selecionada para amostragem/gravação).
+  - `00`: Versão da especificação W3C.
+  - `4bf92f3577b34da6a3ce929d0e0e4736`: O **`Trace ID`** global compartilhado por todos os serviços.
+  - `00f067aa0ba902b7`: O **`Parent Span ID`** da operação que originou o disparo.
+  - `01`: Flags de rastreamento (onde `01` indica que a requisição foi selecionada para amostragem/gravação).
 
 ---
 
 ### Teste 230
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O OpenTelemetry (OTel), projeto incubado pela Cloud Native Computing Foundation (CNCF), consolidou-se como o padrão aberto da indústria para instrumentação e coleta de telemetria unificada (métricas, logs e traces). A arquitetura do OpenTelemetry estabelece uma separação clara entre:
 
-* **A)** A API do OpenTelemetry (que fornece as interfaces e contratos de instrumentação agnósticos no código da aplicação, sem dependência de implementações concretas) e o SDK do OpenTelemetry (que implementa a API, gerenciando amostragem, buffers de memória e exportação de dados para coletores ou backends analíticos).
-* **B)** O monitor de vídeo LCD e a memória cache do processador.
-* **C)** O protocolo HTTP e os cabos de energia elétrica de corrente contínua.
-* **D)** O sistema de arquivos Windows FAT32 e os discos de estado sólido NVMe.
-* **E)** As linguagens de programação funcionais e os bancos de dados não relacionais NoSQL.
-
+- **A)** A API do OpenTelemetry (que fornece as interfaces e contratos de instrumentação agnósticos no código da aplicação, sem dependência de implementações concretas) e o SDK do OpenTelemetry (que implementa a API, gerenciando amostragem, buffers de memória e exportação de dados para coletores ou backends analíticos).
+- **B)** O monitor de vídeo LCD e a memória cache do processador.
+- **C)** O protocolo HTTP e os cabos de energia elétrica de corrente contínua.
+- **D)** O sistema de arquivos Windows FAT32 e os discos de estado sólido NVMe.
+- **E)** As linguagens de programação funcionais e os bancos de dados não relacionais NoSQL.
 
 ---
 
@@ -464,7 +464,7 @@ flowchart TD
         SLO["SLO (Service Level Objective)<br/>Meta Interna da Engenharia: 'Queremos atingir >= 99,90% ao mês'"]
         SLA["SLA (Service Level Agreement)<br/>Contrato Legal com Cliente: 'Se cair abaixo de 99,50%, pagamos multa'"]
         EB["Error Budget (Orçamento de Erro)<br/>Margem Aceitável: 100% - SLO (Neste caso: 0,10%)"]
-        
+  
         SLI --> SLO
         SLO --> SLA
         SLO -.-> EB
@@ -503,7 +503,7 @@ O conceito mais transformador do SRE é o **Orçamento de Erro (*Error Budget*)*
 - Parte do princípio de que **100% de disponibilidade é um objetivo equivocado e economicamente inviável**. Exigir 100% paralisa a capacidade da equipe de inovar e lançar novas funcionalidades, pois qualquer deploy carrega risco residual.
 - O Error Budget é definido matematicamente como a margem de falha tolerada pelo SLO:
   $$\text{Error Budget} = 100\% - \text{SLO}$$
-    - Se o SLO estabelecido é de $99{,}9\%$ ao mês, o Orçamento de Erro é de $0{,}1\%$.
+  - Se o SLO estabelecido é de $99{,}9\%$ ao mês, o Orçamento de Erro é de $0{,}1\%$.
 
 **A Política Operacional de Conflito Dev vs. Ops:**
 
@@ -513,17 +513,17 @@ O conceito mais transformador do SRE é o **Orçamento de Erro (*Error Budget*)*
 ---
 
 ### Teste 231
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em uma reunião de alinhamento entre a equipe de operações e os gestores de negócios de um Tribunal de Contas Estadual, foram discutidas as metas de confiabilidade e disponibilidade para o novo Portal de Prestação de Contas dos Jurisdicionados.
 
 Com base nas práticas consagradas de SRE (*Site Reliability Engineering*), a relação conceitual e hierárquica entre SLI, SLO e SLA define que:  
 
-* **A)** O SLA deve ser rigorosamente mais estrito e exigente do que o SLO interno, para assegurar que penalidades financeiras sejam aplicadas antes que a equipe técnica perceba qualquer degradação do serviço.
-* **B)** O SLI (*Service Level Indicator*) é o indicador medido empiricamente em tempo real; o SLO (*Service Level Objective*) é a meta interna acordada pela engenharia; e o SLA (*Service Level Agreement*) é o acordo legal ou comercial com os usuários externos, contendo penalidades em caso de descumprimento.
-* **C)** O Orçamento de Erro (*Error Budget*) é uma verba financeira destinada à aquisição de equipamentos de hardware adicionais sempre que o sistema ultrapassa o SLA contratual.
-* **D)** Se uma equipe consome 100% do seu Orçamento de Erro (*Error Budget*), as diretrizes do SRE recomendam acelerar imediatamente a entrega de novos recursos e funcionalidades não testadas em produção.
-* **E)** O SLO é estritamente documental e não se relaciona com os valores obtidos pelo SLI.
-
+- **A)** O SLA deve ser rigorosamente mais estrito e exigente do que o SLO interno, para assegurar que penalidades financeiras sejam aplicadas antes que a equipe técnica perceba qualquer degradação do serviço.
+- **B)** O SLI (*Service Level Indicator*) é o indicador medido empiricamente em tempo real; o SLO (*Service Level Objective*) é a meta interna acordada pela engenharia; e o SLA (*Service Level Agreement*) é o acordo legal ou comercial com os usuários externos, contendo penalidades em caso de descumprimento.
+- **C)** O Orçamento de Erro (*Error Budget*) é uma verba financeira destinada à aquisição de equipamentos de hardware adicionais sempre que o sistema ultrapassa o SLA contratual.
+- **D)** Se uma equipe consome 100% do seu Orçamento de Erro (*Error Budget*), as diretrizes do SRE recomendam acelerar imediatamente a entrega de novos recursos e funcionalidades não testadas em produção.
+- **E)** O SLO é estritamente documental e não se relaciona com os valores obtidos pelo SLI.
 
 ---
 
@@ -534,21 +534,21 @@ Com base nas práticas consagradas de SRE (*Site Reliability Engineering*), a re
 > - **C)** Incorreta. O *Error Budget* é uma margem métrica de tolerância a falhas calculada como $100\% - \text{SLO}$, não se tratando de recurso financeiro orçamentário.
 > - **D)** Incorreta. Ao consumir 100% do Error Budget, as diretrizes de SRE impõem o congelamento de novas entregas de funcionalidades, direcionando o esforço técnico exclusivamente para a restauração da estabilidade e resiliência.
 > - **E)** Incorreta. O SLO é a meta numérica de referência direta pela qual o SLI é monitorado e avaliado.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 232
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na Engenharia de Confiabilidade de Sites (*Site Reliability Engineering* - SRE), o conceito de Orçamento de Erro (*Error Budget*) é a métrica reguladora fundamental que equilibra o ritmo de inovação das equipes de produto com a estabilidade do sistema. Matematicamente e operacionalmente, o Orçamento de Erro é definido como:
 
-* **A)** A quantia financeira em dólares destinada a pagar multas judiciais decorrentes de vazamento de senhas.
-* **B)** A fração de indisponibilidade ou falhas toleradas pelo objetivo acordado de nível de serviço, calculada formalmente como $100\% - SLO$; enquanto houver saldo positivo no Orçamento de Erro, a equipe pode realizar novos lançamentos arriscados em produção, mas caso o saldo seja consumido antes do fim da janela temporal, novos lançamentos são congelados e o esforço técnico é redirecionado para confiabilidade e correções.
-* **C)** A quantidade máxima de linhas de código com defeito que um desenvolvedor pode comitar por hora de trabalho.
-* **D)** A taxa de juros bancários cobrada por transações financeiras com cartão de crédito corporativo.
-* **E)** O número total de computadores queimados em um ano de operação do data center.
-
+- **A)** A quantia financeira em dólares destinada a pagar multas judiciais decorrentes de vazamento de senhas.
+- **B)** A fração de indisponibilidade ou falhas toleradas pelo objetivo acordado de nível de serviço, calculada formalmente como $100\% - SLO$; enquanto houver saldo positivo no Orçamento de Erro, a equipe pode realizar novos lançamentos arriscados em produção, mas caso o saldo seja consumido antes do fim da janela temporal, novos lançamentos são congelados e o esforço técnico é redirecionado para confiabilidade e correções.
+- **C)** A quantidade máxima de linhas de código com defeito que um desenvolvedor pode comitar por hora de trabalho.
+- **D)** A taxa de juros bancários cobrada por transações financeiras com cartão de crédito corporativo.
+- **E)** O número total de computadores queimados em um ano de operação do data center.
 
 ---
 
@@ -580,15 +580,15 @@ Desenvolvido pelo grupo *DevOps Research and Assessment* (DORA / Google Cloud), 
 ---
 
 ### Teste 233
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 De acordo com as pesquisas consolidadas do DORA (*DevOps Research and Assessment*), as quatro métricas chave utilizadas mundialmente para mensurar a maturidade e a performance das equipes de engenharia de software e entrega contínua são:  
 
-* **A)** Custo Total de Propriedade (TCO); Número de Linhas de Código (LOC); Quantidade de Commits por Hora; e Pontos de Função por Mês.
-* **B)** Frequência de Implantação (*Deployment Frequency*); Tempo de Lead para Mudanças (*Lead Time for Changes*); Taxa de Falha em Mudanças (*Change Failure Rate*); e Tempo de Restauração de Serviços (*Time to Restore Service* / MTTR).
-* **C)** Índice de Complexidade Ciclomática; Total de Branches Abertas; Cobertura de Testes Unitários de 100%; e Percentual de Homologações Manuais por Comitês Executivos.
-* **D)** Quantidade de Bugs Reabertos; Consumo de Memória por Usuário Conectado; Largura de Banda Utilizada por Download; e Número de E-mails Trocados no Suporte Técnico.
-* **E)** Frequência de Reuniões Diárias; Total de Histórias de Usuário no Backlog; Quantidade de Telas Desenvolvidas; e Tempo de Execução do Sistema Operacional.
-
+- **A)** Custo Total de Propriedade (TCO); Número de Linhas de Código (LOC); Quantidade de Commits por Hora; e Pontos de Função por Mês.
+- **B)** Frequência de Implantação (*Deployment Frequency*); Tempo de Lead para Mudanças (*Lead Time for Changes*); Taxa de Falha em Mudanças (*Change Failure Rate*); e Tempo de Restauração de Serviços (*Time to Restore Service* / MTTR).
+- **C)** Índice de Complexidade Ciclomática; Total de Branches Abertas; Cobertura de Testes Unitários de 100%; e Percentual de Homologações Manuais por Comitês Executivos.
+- **D)** Quantidade de Bugs Reabertos; Consumo de Memória por Usuário Conectado; Largura de Banda Utilizada por Download; e Número de E-mails Trocados no Suporte Técnico.
+- **E)** Frequência de Reuniões Diárias; Total de Histórias de Usuário no Backlog; Quantidade de Telas Desenvolvidas; e Tempo de Execução do Sistema Operacional.
 
 ---
 
@@ -599,17 +599,17 @@ De acordo com as pesquisas consolidadas do DORA (*DevOps Research and Assessment
 > - **C) Incorreta.** Complexidade ciclomática e cobertura percentual de testes são métricas estáticas de código interno, e não métricas de fluxo de entrega DORA.
 > - **D) Incorreta.** Métricas operacionais periféricas de infraestrutura ou suporte sem enquadramento no framework DORA.
 > - **E) Incorreta.** Rituais ágeis e contagem de itens de backlog não compõem a matriz de mensuração de desempenho do DORA.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [OpenTelemetry Official Documentation - Core Concepts](https://opentelemetry.io/docs/concepts/signals/) - Os três pilares fundamentais da observabilidade moderna: Métricas, Logs estruturados e Traces distribuídos.
-* [Prometheus Official Documentation - Metric Types](https://prometheus.io/docs/concepts/metric_types/) - Tipologia de séries temporais: Counter, Gauge, Histogram e Summary.
-* [Google SRE Book - Service Level Objectives (SLI, SLO, SLA)](https://sre.google/sre-book/service-level-objectives/) - Engenharia de confiabilidade de sites, cálculo de orçamentos de erro (*error budgets*) e acordos de nível de serviço.
-* [DORA - Four Keys Metrics and Continuous Delivery](https://dora.dev/guides/dora-metrics-four-keys/) - Monitoramento contínuo de tempo de restauração e taxa de falhas operacionais.
-* BEYER, Betsy et al. **Site Reliability Engineering: How Google Runs Production Systems**. Sebastopol: O'Reilly Media, 2016. (Cap. 4 - Service Level Objectives; Cap. 6 - Monitoring Distributed Systems).
-* MAJORS, Charity; FONG-JONES, Liz; MIRANDA, George. **Observabilidade em Engenharia de Software**. São Paulo: Novatec, 2023. (Cap. 2 a 4 - Tracing Distribuído e Telemetria em Sistemas Complexos).
-* TURNBULL, James. **The Art of Monitoring**. Nova York: James Turnbull, 2016. (Cap. 3 e 4 - Métricas de Séries Temporais e Alertas Inteligentes).
+- [OpenTelemetry Official Documentation - Core Concepts](https://opentelemetry.io/docs/concepts/signals/) - Os três pilares fundamentais da observabilidade moderna: Métricas, Logs estruturados e Traces distribuídos.
+- [Prometheus Official Documentation - Metric Types](https://prometheus.io/docs/concepts/metric_types/) - Tipologia de séries temporais: Counter, Gauge, Histogram e Summary.
+- [Google SRE Book - Service Level Objectives (SLI, SLO, SLA)](https://sre.google/sre-book/service-level-objectives/) - Engenharia de confiabilidade de sites, cálculo de orçamentos de erro (*error budgets*) e acordos de nível de serviço.
+- [DORA - Four Keys Metrics and Continuous Delivery](https://dora.dev/guides/dora-metrics-four-keys/) - Monitoramento contínuo de tempo de restauração e taxa de falhas operacionais.
+- BEYER, Betsy et al. **Site Reliability Engineering: How Google Runs Production Systems**. Sebastopol: O'Reilly Media, 2016. (Cap. 4 - Service Level Objectives; Cap. 6 - Monitoring Distributed Systems).
+- MAJORS, Charity; FONG-JONES, Liz; MIRANDA, George. **Observabilidade em Engenharia de Software**. São Paulo: Novatec, 2023. (Cap. 2 a 4 - Tracing Distribuído e Telemetria em Sistemas Complexos).
+- TURNBULL, James. **The Art of Monitoring**. Nova York: James Turnbull, 2016. (Cap. 3 e 4 - Métricas de Séries Temporais e Alertas Inteligentes).

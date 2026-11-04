@@ -5,55 +5,53 @@
 > **Arquivo:** `04_raciocinio_sequencial_temporal_espacial_e_verbal.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Compreensão e elaboração da lógica das situações por meio de:
-    - Raciocínio sequencial.
-    - Orientação espacial e temporal.
-    - Formação de conceitos e discriminação de elementos.
-    - Raciocínio verbal e matemático aplicado.
-    - Problemas de verdades e mentiras.
+  - Raciocínio sequencial.
+  - Orientação espacial e temporal.
+  - Formação de conceitos e discriminação de elementos.
+  - Raciocínio verbal e matemático aplicado.
+  - Problemas de verdades e mentiras.
 
 ---
 
 ## 🧭 Sumário
 
-1. [Raciocínio Sequencial e Padrões Numéricos e Literais](#1-raciocinio-sequencial-e-padroes-numericos-e-literais)
-    - [1.1 Sequências Numéricas e Relações de Recorrência](#11-sequencias-numericas-e-relacoes-de-recorrencia)
-    - [1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial](#12-sequencias-alfanumericas-e-ordem-alfabetica-oficial)
-    - [1.3 Padrões Literais por Iniciais Semânticas](#13-padroes-literais-por-iniciais-semanticas)
-    - [1.4 Sequências Cíclicas e Resolução por Aritmética Modular](#14-sequencias-ciclicas-e-resolucao-por-aritmetica-modular)
-    - [Teste 102](#teste-102)
-    - [Teste 103](#teste-103)
-    - [Teste 104](#teste-104)
-2. [Orientação Temporal, Calendários e Relógios](#2-orientacao-temporal-calendarios-e-relogios)
-    - [2.1 Contagem de Dias e Aritmética Módulo 7](#21-contagem-de-dias-e-aritmetica-modulo-7)
-    - [2.2 Regras de Anos Bissextos e Deslocamento Anual](#22-regras-de-anos-bissextos-e-deslocamento-anual)
-    - [2.3 Cálculo do Ângulo entre Ponteiros de Relógio](#23-calculo-do-angulo-entre-ponteiros-de-relogio)
-    - [2.4 Relações Temporais Relativas de Ontem e Amanhã](#24-relacoes-temporais-relativas-de-ontem-e-amanha)
-    - [Teste 105](#teste-105)
-    - [Teste 106](#teste-106)
-3. [Orientação Espacial, Transformações e Dobradura de Figuras](#3-orientacao-espacial-transformacoes-e-dobradura-de-figuras)
-    - [3.1 Rotações no Plano Bidimensional e Reflexões Axiais](#31-rotacoes-no-plano-bidimensional-e-reflexoes-axiais)
-    - [3.2 Planificação e Montagem de Cubos: A Regra das Faces Opostas](#32-planificacao-e-montagem-de-cubos-a-regra-das-faces-opostas)
-    - [3.3 Vistas Ortogonais de Pilhas de Blocos e Cubos](#33-vistas-ortogonais-de-pilhas-de-blocos-e-cubos)
-    - [Teste 107](#teste-107)
-    - [Teste 108](#teste-108)
-4. [Formação de Conceitos e Discriminação de Elementos](#4-formacao-de-conceitos-e-discriminacao-de-elementos)
-    - [4.1 Identificação do Elemento Intruso em Conjuntos](#41-identificacao-do-elemento-intruso-em-conjuntos)
-    - [4.2 Analogias Estruturais e Geométricas](#42-analogias-estruturais-e-geometricas)
-    - [Teste 109](#teste-109)
-5. [Raciocínio Verbal e Problemas de Verdades e Mentiras](#5-raciocinio-verbal-e-problemas-de-verdades-e-mentiras)
-    - [5.1 O Princípio do Terceiro Excluído e da Não Contradição](#51-o-principio-do-terceiro-excluido-e-da-nao-contradicao)
-    - [5.2 O Método do Par Contraditório](#52-o-metodo-do-par-contraditorio)
-    - [5.3 O Método da Suposição Hipotética Dirigida](#53-o-metodo-da-suposicao-hipotetica-dirigida)
-    - [Teste 110](#teste-110)
-    - [Teste 111](#teste-111)
-1. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+1. [Raciocínio Sequencial e Padrões Numéricos e Literais](#1-raciocínio-sequencial-e-padrões-numéricos-e-literais)
+    1. [Sequências Numéricas e Relações de Recorrência](#11-sequências-numéricas-e-relações-de-recorrência)
+    1. [Sequências Alfanuméricas e Ordem Alfabética Oficial](#12-sequências-alfanuméricas-e-ordem-alfabética-oficial)
+    1. [Padrões Literais por Iniciais Semânticas](#13-padrões-literais-por-iniciais-semânticas)
+    1. [Sequências Cíclicas e Resolução por Aritmética Modular](#14-sequências-cíclicas-e-resolução-por-aritmética-modular)
+    1. [Teste 102](#teste-102)
+    1. [Teste 103](#teste-103)
+    1. [Teste 104](#teste-104)
+2. [Orientação Temporal, Calendários e Relógios](#2-orientação-temporal-calendários-e-relógios)
+    1. [Contagem de Dias e Aritmética Módulo 7](#21-contagem-de-dias-e-aritmética-módulo-7)
+    1. [Regras de Anos Bissextos e Deslocamento Anual](#22-regras-de-anos-bissextos-e-deslocamento-anual)
+    1. [Cálculo do Ângulo entre Ponteiros de Relógio](#23-cálculo-do-ângulo-entre-ponteiros-de-relógio)
+    1. [Relações Temporais Relativas de Ontem e Amanhã](#24-relações-temporais-relativas-de-ontem-e-amanhã)
+    1. [Teste 105](#teste-105)
+    1. [Teste 106](#teste-106)
+3. [Orientação Espacial, Transformações e Dobradura de Figuras](#3-orientação-espacial-transformações-e-dobradura-de-figuras)
+    1. [Rotações no Plano Bidimensional e Reflexões Axiais](#31-rotações-no-plano-bidimensional-e-reflexões-axiais)
+    1. [Planificação e Montagem de Cubos: A Regra das Faces Opostas](#32-planificação-e-montagem-de-cubos-a-regra-das-faces-opostas)
+    1. [Vistas Ortogonais de Pilhas de Blocos e Cubos](#33-vistas-ortogonais-de-pilhas-de-blocos-e-cubos)
+    1. [Teste 107](#teste-107)
+    1. [Teste 108](#teste-108)
+4. [Formação de Conceitos e Discriminação de Elementos](#4-formação-de-conceitos-e-discriminação-de-elementos)
+    1. [Identificação do Elemento Intruso em Conjuntos](#41-identificação-do-elemento-intruso-em-conjuntos)
+    1. [Analogias Estruturais e Geométricas](#42-analogias-estruturais-e-geométricas)
+    1. [Teste 109](#teste-109)
+5. [Raciocínio Verbal e Problemas de Verdades e Mentiras](#5-raciocínio-verbal-e-problemas-de-verdades-e-mentiras)
+    1. [O Princípio do Terceiro Excluído e da Não Contradição](#51-o-princípio-do-terceiro-excluído-e-da-não-contradição)
+    1. [O Método do Par Contraditório](#52-o-método-do-par-contraditório)
+    1. [O Método da Suposição Hipotética Dirigida](#53-o-método-da-suposição-hipotética-dirigida)
+    1. [Teste 110](#teste-110)
+    1. [Teste 111](#teste-111)
+6. [Fontes Oficiais e Referências Bibliográficas](#-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -86,9 +84,9 @@ As sequências que intercalam letras e números utilizam a posição ordinal das
 
 Pegadinha clássica em provas da FCC consiste em sequências aparentemente caóticas cujas letras representam as iniciais de uma série semântica predeterminada da língua:
 
-* Iniciais dos dias da semana: **D, S, T, Q, Q, S, S** (Domingo, Segunda, Terça, Quarta, Quinta, Sexta, Sábado);
-* Iniciais dos meses do ano: **J, F, M, A, M, J, J, A, S, O, N, D**;
-* Iniciais dos numerais por extenso: **U, D, T, Q, C, S, S, O, N, D** (Um, Dois, Três, Quatro, Cinco, Seis, Sete, Oito, Nove, Dez).
+- Iniciais dos dias da semana: **D, S, T, Q, Q, S, S** (Domingo, Segunda, Terça, Quarta, Quinta, Sexta, Sábado);
+- Iniciais dos meses do ano: **J, F, M, A, M, J, J, A, S, O, N, D**;
+- Iniciais dos numerais por extenso: **U, D, T, Q, C, S, S, O, N, D** (Um, Dois, Três, Quatro, Cinco, Seis, Sete, Oito, Nove, Dez).
 
 ### 1.4 Sequências Cíclicas e Resolução por Aritmética Modular
 
@@ -110,18 +108,18 @@ flowchart TD
 ---
 
 ### Teste 102
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a sequência numérica infinita cujos primeiros termos são apresentados a seguir:
 $$3, 5, 9, 17, 33, 65, \dots$$
 
 O próximo termo dessa sequência e a lei de formação que rege seus elementos correspondem, respectivamente, a:
 
-* **A)** 129 e o dobro do termo anterior subtraído de 1
-* **B)** 129 e o dobro do termo anterior somado a 1
-* **C)** 97 e a soma dos dois termos anteriores
-* **D)** 130 e potências consecutivas de 3
-* **E)** 131 e a soma das diferenças sucessivas multiplicadas por 3
-
+- **A)** 129 e o dobro do termo anterior subtraído de 1
+- **B)** 129 e o dobro do termo anterior somado a 1
+- **C)** 97 e a soma dos dois termos anteriores
+- **D)** 130 e potências consecutivas de 3
+- **E)** 131 e a soma das diferenças sucessivas multiplicadas por 3
 
 ---
 
@@ -152,24 +150,24 @@ O próximo termo dessa sequência e a lei de formação que rege seus elementos 
 > - **C)** Incorreta. A soma dos dois termos precedentes (estilo Fibonacci) geraria $33 + 65 = 98$, divergindo de 97 e da lógica da sequência.
 > - **D)** Incorreta. O próximo termo é 129, e não 130.
 > - **E)** Incorreta. Aponta 131 decorrente de erro aritmético.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 103
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um servidor do TCE-GO elaborou uma rotina automatizada para numerar lotes de fiscalização repetindo indefinidamente a palavra **"CONTROLE"**, sem espaços, gerando a seguinte sequência contínua de letras:
 $$\text{C, O, N, T, R, O, L, E, C, O, N, T, R, O, L, E, C, O, N}\dots$$
 
 Nessas condições, a letra que ocupará a 2027ª posição nessa sequência e o total de vezes que a letra **"O"** terá sido escrita até essa posição são, respectivamente:
 
-* **A)** N e 506
-* **B)** T e 506
-* **C)** N e 507
-* **D)** O e 506
-* **E)** T e 507
-
+- **A)** N e 506
+- **B)** T e 506
+- **C)** N e 507
+- **D)** O e 506
+- **E)** T e 507
 
 ---
 
@@ -204,23 +202,23 @@ Nessas condições, a letra que ocupará a 2027ª posição nessa sequência e o
 > - **C)** Correta. A letra na 2027ª posição é **N** (resto 3) e a letra "O" foi grafada $253 \times 2 + 1 = \mathbf{507}$ vezes.
 > - **D)** Incorreta. A letra O ocupou a posição 2026 (resto 2), e não a 2027.
 > - **E)** Incorreta. Aponta a letra T em vez de N.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 104
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a sucessão lógica de letras:  
 $$U, D, T, Q, C, S, S, O, N, ...$$  
 A próxima letra que dá continuidade lógica e consistente a essa sequência é:
 
-* **A)** D
-* **B)** V
-* **C)** O
-* **D)** T
-* **E)** Q
-
+- **A)** D
+- **B)** V
+- **C)** O
+- **D)** T
+- **E)** Q
 
 ---
 
@@ -274,18 +272,18 @@ Avança-se 1 dia a partir da quinta-feira, alcançando-se infalivelmente a **sex
 2. **Deslocamento em Ano Bissexto:** Possui 366 dias (acréscimo do dia 29 de fevereiro):
    $$366 = 52 \times 7 + 2 \implies \text{Avança 2 dias da semana}$$
 3. **Critério Astronômico de Bissextilidade:**
-    * É bissexto todo ano divisível por 4;
-    * Exceto os anos centenários (terminados em 00), que somente são bissextos se forem divisíveis por 400 (ex.: o ano 2000 foi bissexto; os anos 1900 e 2100 **não** são bissextos).
+    - É bissexto todo ano divisível por 4;
+    - Exceto os anos centenários (terminados em 00), que somente são bissextos se forem divisíveis por 400 (ex.: o ano 2000 foi bissexto; os anos 1900 e 2100 **não** são bissextos).
 
 ### 2.3 Cálculo do Ângulo entre Ponteiros de Relógio
 
 Em um mostrador circular analógico tradicional ($360^\circ$ divididos em 12 horas e 60 minutos):
 
-* O ponteiro dos minutos desloca-se a uma velocidade angular de:
+- O ponteiro dos minutos desloca-se a uma velocidade angular de:
   $$v_M = \frac{360^\circ}{60 \text{ min}} = 6^\circ/\text{min}$$
-* O ponteiro das horas desloca-se a uma velocidade de:
+- O ponteiro das horas desloca-se a uma velocidade de:
   $$v_H = \frac{360^\circ}{12 \text{ h} \times 60 \text{ min}} = 0{,}5^\circ/\text{min} \quad (30^\circ \text{ por hora})$$
-* **Fórmula do Menor Ângulo ($\theta$) às $H$ horas e $M$ minutos:**
+- **Fórmula do Menor Ângulo ($\theta$) às $H$ horas e $M$ minutos:**
   $$|\theta| = |30 \cdot H - 5{,}5 \cdot M|$$
   Se o resultado modular for superior a $180^\circ$, toma-se o ângulo replementar: $\theta_{\text{menor}} = 360^\circ - \theta$.
 
@@ -293,24 +291,24 @@ Em um mostrador circular analógico tradicional ($360^\circ$ divididos em 12 hor
 
 Problemas verbais do tipo *"Se o amanhã de ontem fosse o anteontem de depois de amanhã..."* devem ser resolvidos convertendo as expressões em uma reta numérica onde o dia **Hoje** é a origem $0$:
 
-* Hoje = $0$; Amanhã = $+1$; Depois de amanhã = $+2$;
-* Ontem = $-1$; Anteontem = $-2$.
+- Hoje = $0$; Amanhã = $+1$; Depois de amanhã = $+2$;
+- Ontem = $-1$; Anteontem = $-2$.
 Monta-se uma equação de primeiro grau simples para encontrar a posição do dia de referência.
 
 ---
 
 ### Teste 105
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Tribunal de Contas publicou um acórdão condenatório em sua sessão plenária realizada em uma **quinta-feira**. O regimento interno concede um prazo improrrogável de exatamente **43 dias corridos**, contados a partir do primeiro dia seguinte ao da publicação, para a interposição de recurso ordinário.
 
 O último dia desse prazo de 43 dias corridos recairá em uma:
 
-* **A)** Segunda-feira
-* **B)** Terça-feira
-* **C)** Quarta-feira
-* **D)** Quinta-feira
-* **E)** Sexta-feira
-
+- **A)** Segunda-feira
+- **B)** Terça-feira
+- **C)** Quarta-feira
+- **D)** Quinta-feira
+- **E)** Sexta-feira
 
 ---
 
@@ -336,21 +334,21 @@ O último dia desse prazo de 43 dias corridos recairá em uma:
 > - **C)** Incorreta. Quarta-feira demandaria resto 6.
 > - **D)** Incorreta. Quinta-feira corresponderia a uma divisão exata sem resto (resto 0).
 > - **E)** Correta. O resto 1 de $43 \div 7$ avança 1 dia a partir da quinta-feira, resultando em sexta-feira.
-> 
+>
 > **Gabarito: E**
 
 ---
 
 ### Teste 106
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um relógio analógico convencional de ponteiros marca exatamente $3$ horas e $40$ minutos. A medida do menor ângulo formado entre o ponteiro das horas e o ponteiro dos minutos nesse instante é igual a:
 
-* **A)** $120^\circ$
-* **B)** $130^\circ$
-* **C)** $140^\circ$
-* **D)** $150^\circ$
-* **E)** $115^\circ$
-
+- **A)** $120^\circ$
+- **B)** $130^\circ$
+- **C)** $140^\circ$
+- **D)** $150^\circ$
+- **E)** $115^\circ$
 
 ---
 
@@ -378,8 +376,8 @@ O raciocínio espacial avalia a aptidão psicotécnica de manipular objetos trid
 
 ### 3.1 Rotações no Plano Bidimensional e Reflexões Axiais
 
-* **Rotações:** Giro rígido da figura em torno de um ponto pivô no sentido horário ou anti-horário em ângulos retos de $90^\circ, 180^\circ$ ou $270^\circ$. A forma e as distâncias relativas preservam-se; apenas a orientação espacial se altera.
-* **Reflexão Axial (Espelhamento):** Inversão especular da figura em relação a um eixo vertical ou horizontal. O lado direito vira esquerdo na reflexão vertical; o topo vira base na reflexão horizontal.
+- **Rotações:** Giro rígido da figura em torno de um ponto pivô no sentido horário ou anti-horário em ângulos retos de $90^\circ, 180^\circ$ ou $270^\circ$. A forma e as distâncias relativas preservam-se; apenas a orientação espacial se altera.
+- **Reflexão Axial (Espelhamento):** Inversão especular da figura em relação a um eixo vertical ou horizontal. O lado direito vira esquerdo na reflexão vertical; o topo vira base na reflexão horizontal.
 
 ### 3.2 Planificação e Montagem de Cubos: A Regra das Faces Opostas
 
@@ -391,9 +389,10 @@ A planificação de um hexaedro regular (cubo) compõe-se de 6 quadrados dispost
        [ ▲ ]
 ```
 
-#### O Teorema Infalível das Faces Opostas:
+#### O Teorema Infalível das Faces Opostas
+
 1. Em qualquer fileira retilínea com 3 ou 4 quadrados consecutivos, **duas faces separadas por exatamente uma face intermediária formam um par de faces diametralmente opostas no cubo montado**.
-    * No esquema acima: $\heartsuit$ é oposta a $\diamondsuit$ (separadas por $\spadesuit$); $\spadesuit$ é oposta a $\clubsuit$ (separadas por $\diamondsuit$).
+    - No esquema acima: $\heartsuit$ é oposta a $\diamondsuit$ (separadas por $\spadesuit$); $\spadesuit$ é oposta a $\clubsuit$ (separadas por $\diamondsuit$).
 
 2. As abas laterais que sobram dobram-se formando o outro par oposto: $\bigstar$ é oposta a $\blacktriangle$.
 3. **Propriedade Inviolável:** Duas faces opostas **nunca podem ser vizinhas adjacentes** e **jamais aparecem juntas em uma mesma visão tridimensional ortogonal do cubo**.
@@ -402,13 +401,14 @@ A planificação de um hexaedro regular (cubo) compõe-se de 6 quadrados dispost
 
 Consiste em determinar a projeção visual bidimensional de uma estrutura tridimensional de blocos cúbicos a partir de pontos de vista fixos:
 
-* Vista Superior (planta baixa vista de cima);
-* Vista Frontal (elevação frontal);
-* Vista Lateral Esquerda ou Direita.
+- Vista Superior (planta baixa vista de cima);
+- Vista Frontal (elevação frontal);
+- Vista Lateral Esquerda ou Direita.
 
 ---
 
 ### Teste 107
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Observe a planificação de um dado cúbico convencional, cujas faces contêm os símbolos $\heartsuit$, $\spadesuit$, $\diamondsuit$, $\clubsuit$, $\bigstar$ e $\blacktriangle$:
 
@@ -420,12 +420,11 @@ Observe a planificação de um dado cúbico convencional, cujas faces contêm os
 
 Ao montar o cubo a partir dessa planificação, a face que ficará **diametralmente oposta** à face com o símbolo de Espadas ($\spadesuit$) é:
 
-* **A)** Copas ($\heartsuit$)
-* **B)** Ouros ($\diamondsuit$)
-* **C)** Paus ($\clubsuit$)
-* **D)** Estrela ($\bigstar$)
-* **E)** Triângulo ($\blacktriangle$)
-
+- **A)** Copas ($\heartsuit$)
+- **B)** Ouros ($\diamondsuit$)
+- **C)** Paus ($\clubsuit$)
+- **D)** Estrela ($\bigstar$)
+- **E)** Triângulo ($\blacktriangle$)
 
 ---
 
@@ -447,21 +446,21 @@ Ao montar o cubo a partir dessa planificação, a face que ficará **diametralme
 > - **C)** Correta. Paus ($\clubsuit$) é a face diametralmente oposta a Espadas ($\spadesuit$).
 > - **D)** Incorreta. Estrela ($\bigstar$) fecha a face superior, sendo adjacente a Espadas.
 > - **E)** Incorreta. Triângulo ($\blacktriangle$) fecha a face inferior, sendo adjacente a Espadas.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 108
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma pilha maciça de cubos idênticos de $1\text{ cm}$ de aresta foi montada sobre uma mesa plana de modo que sua vista frontal e sua vista lateral direita são ambas formadas por uma grade quadrada de $3 \times 3$ cubos completamente preenchida. O número MÍNIMO de cubinhos necessários para formar essa pilha é:
 
-* **A)** $9$
-* **B)** $12$
-* **C)** $15$
-* **D)** $18$
-* **E)** $27$
-
+- **A)** $9$
+- **B)** $12$
+- **C)** $15$
+- **D)** $18$
+- **E)** $27$
 
 ---
 
@@ -487,9 +486,9 @@ Uma pilha maciça de cubos idênticos de $1\text{ cm}$ de aresta foi montada sob
 
 Exige identificar a propriedade lógica oculta que une a maioria dos elementos de um rol e discriminar o único elemento que destoa dessa harmonia funcional ou geométrica:
 
-* Critérios numéricos: paridade, números primos, quadrados perfeitos;
-* Critérios geométricos: número de vértices, eixos de simetria, concavidade;
-* Critérios morfológicos/verbais: número de sílabas, classe gramatical, campo semântico.
+- Critérios numéricos: paridade, números primos, quadrados perfeitos;
+- Critérios geométricos: número de vértices, eixos de simetria, concavidade;
+- Critérios morfológicos/verbais: número de sílabas, classe gramatical, campo semântico.
 
 ### 4.2 Analogias Estruturais e Geométricas
 
@@ -498,18 +497,18 @@ Resolvem-se pela equivalência de transformações: *"A está para B assim como 
 ---
 
 ### Teste 109
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o conjunto de cinco palavras a seguir:  
 *Goiânia*, *Curitiba*, *Brasília*, *Teresina*, *Manaus*
 
 Quatro dessas palavras guardam uma característica lógica comum que as reúne em uma mesma classe conceitual, enquanto uma delas é a intrusa. A palavra intrusa é:
 
-* **A)** Goiânia
-* **B)** Curitiba
-* **C)** Brasília
-* **D)** Teresina
-* **E)** Manaus
-
+- **A)** Goiânia
+- **B)** Curitiba
+- **C)** Brasília
+- **D)** Teresina
+- **E)** Manaus
 
 ---
 
@@ -534,8 +533,8 @@ Os enigmas de depoimentos em sindicâncias e auditorias de fraudes são modelado
 
 ### 5.1 O Princípio do Terceiro Excluído e da Não Contradição
 
-* Uma declaração ou é Verdadeira ($V$) ou é Falsa ($F$), não havendo meio-termo (Terceiro Excluído);
-* Uma declaração não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias (Não Contradição).
+- Uma declaração ou é Verdadeira ($V$) ou é Falsa ($F$), não havendo meio-termo (Terceiro Excluído);
+- Uma declaração não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias (Não Contradição).
 
 ### 5.2 O Método do Par Contraditório
 
@@ -562,20 +561,21 @@ Caso não haja contradição explícita direta entre os depoimentos:
 ---
 
 ### Teste 110
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante uma auditoria interna para apurar o vazamento de um relatório sigiloso, quatro servidores — Daniel, Eduardo, Fernando e Gabriel — foram interrogados e fizeram as seguintes declarações:
+
 - Daniel: *"Fernando é o responsável pelo vazamento."*  
 - Eduardo: *"Eu não vazei o relatório."*  
 - Fernando: *"Daniel está mentindo."*  
 - Gabriel: *"Daniel é o responsável pelo vazamento."*  
 Sabendo-se que **apenas um dos quatro servidores mentiu** e que apenas um deles foi o responsável pelo vazamento, quem vazou o relatório e quem mentiu foram, respectivamente:
 
-* **A)** Fernando e Daniel
-* **B)** Daniel e Fernando
-* **C)** Daniel e Daniel
-* **D)** Eduardo e Eduardo
-* **E)** Gabriel e Daniel
-
+- **A)** Fernando e Daniel
+- **B)** Daniel e Fernando
+- **C)** Daniel e Daniel
+- **D)** Eduardo e Eduardo
+- **E)** Gabriel e Daniel
 
 ---
 
@@ -601,20 +601,21 @@ Sabendo-se que **apenas um dos quatro servidores mentiu** e que apenas um deles 
 ---
 
 ### Teste 111
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Três suspeitos de vazar um relatório confidencial de auditoria prestaram os seguintes depoimentos:  
+
 - **Alberto:** *"Bruno é culpado."*  
 - **Bruno:** *"Carlos é culpado."*  
 - **Carlos:** *"O que Bruno disse é mentira."*  
 
 Sabe-se que exatamente um dos três suspeitos disse a verdade e que apenas um deles é o culpado. O inocente que disse a verdade e o verdadeiro culpado são, respectivamente:
 
-* **A)** Alberto e Bruno
-* **B)** Carlos e Alberto
-* **C)** Bruno e Carlos
-* **D)** Carlos e Bruno
-* **E)** Alberto e Carlos
-
+- **A)** Alberto e Bruno
+- **B)** Carlos e Alberto
+- **C)** Bruno e Carlos
+- **D)** Carlos e Bruno
+- **E)** Alberto e Carlos
 
 ---
 
@@ -643,10 +644,10 @@ Sabe-se que exatamente um dos três suspeitos disse a verdade e que apenas um de
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Khan Academy Brasil - Álgebra I: Sequências e Progressões](https://pt.khanacademy.org/math/algebra) - Padrões recursivos, progressões aritméticas, sequências numéricas e determinação do termo geral.
-* [OBMEP / IMPA - Apostila 1 do PIC: Iniciação à Aritmética e Padrões Cíclicos](https://www.obmep.org.br/docs/apostila1.pdf) - Aritmética modular, periodicidade, cálculo de ciclos e restos na determinação de posições futuras.
-* [OBMEP / IMPA - Apostila 8 do PIC: Raciocínio Espacial e Figural](https://www.obmep.org.br/docs/apostila8.pdf) - Transformações no plano, rotações, vistas ortogonais e projeções espaciais.
-* [Portal da Matemática OBMEP / IMPA - Módulo de Sequências e Indução Matemática](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=1059) - Métodos formais para identificar leis de formação e regularidades sequenciais.
-* IEZZI, Gelson. **Fundamentos de Matemática Elementar, Volume 4: Sequências, Matrizes e Determinantes**. 8. ed. São Paulo: Atual, 2013. (Cap. 1 e 2 - Progressões Aritméticas e Geométricas).
-* ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 7 - Raciocínio Dedutivo e Sequências Lógicas).
-* CARRAHER, David; CARRAHER, Terezinha; SCHLIEMANN, Analúcia. **Na Vida Dez, na Escola Zero**. 16. ed. São Paulo: Cortez, 2011. (Cap. 3 - Raciocínio Sequencial e Operações Cotidianas).
+- [Khan Academy Brasil - Álgebra I: Sequências e Progressões](https://pt.khanacademy.org/math/algebra) - Padrões recursivos, progressões aritméticas, sequências numéricas e determinação do termo geral.
+- [OBMEP / IMPA - Apostila 1 do PIC: Iniciação à Aritmética e Padrões Cíclicos](https://www.obmep.org.br/docs/apostila1.pdf) - Aritmética modular, periodicidade, cálculo de ciclos e restos na determinação de posições futuras.
+- [OBMEP / IMPA - Apostila 8 do PIC: Raciocínio Espacial e Figural](https://www.obmep.org.br/docs/apostila8.pdf) - Transformações no plano, rotações, vistas ortogonais e projeções espaciais.
+- [Portal da Matemática OBMEP / IMPA - Módulo de Sequências e Indução Matemática](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=1059) - Métodos formais para identificar leis de formação e regularidades sequenciais.
+- IEZZI, Gelson. **Fundamentos de Matemática Elementar, Volume 4: Sequências, Matrizes e Determinantes**. 8. ed. São Paulo: Atual, 2013. (Cap. 1 e 2 - Progressões Aritméticas e Geométricas).
+- ALENCAR FILHO, Edgard de. **Iniciação à Lógica Matemática**. São Paulo: Nobel, 2002. (Cap. 7 - Raciocínio Dedutivo e Sequências Lógicas).
+- CARRAHER, David; CARRAHER, Terezinha; SCHLIEMANN, Analúcia. **Na Vida Dez, na Escola Zero**. 16. ed. São Paulo: Cortez, 2011. (Cap. 3 - Raciocínio Sequencial e Operações Cotidianas).

@@ -4,12 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `01_modelagem_de_dados_mer_e_normalizacao.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Modelagem conceitual, lógica e física de dados
 - Modelo Entidade-Relacionamento (MER) e Diagrama Entidade-Relacionamento (DER)
 - Álgebra Relacional (operações fundamentais e derivadas)
@@ -20,37 +18,37 @@
 
 ## 🧭 Sumário
 
-1. [As Três Fases do Projeto de Banco de Dados](#1-as-tres-fases-do-projeto-de-banco-de-dados)
-    - [1.1 Modelo Conceitual: Semântica e Independência de Tecnologia](#11-modelo-conceitual-semantica-e-independencia-de-tecnologia)
-    - [1.2 Modelo Lógico: Dependência do Paradigma Relacional](#12-modelo-logico-dependencia-do-paradigma-relacional)
-    - [1.3 Modelo Físico: Implementação e Otimização no SGBD](#13-modelo-fisico-implementacao-e-otimizacao-no-sgbd)
-    - [1.4 Tabela Comparativa dos Níveis de Abstração](#14-tabela-comparativa-dos-niveis-de-abstracao)
-    - [Teste 234](#teste-234)
-2. [Modelo Entidade-Relacionamento (MER / DER de Peter Chen)](#2-modelo-entidade-relacionamento-mer-der-de-peter-chen)
-    - [2.1 Entidades Fortes (Regulares) vs. Entidades Fracas](#21-entidades-fortes-regulares-vs-entidades-fracas)
-    - [2.2 Tipologia e Representação Gráfica dos Atributos](#22-tipologia-e-representacao-grafica-dos-atributos)
-    - [2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)](#23-relacionamentos-cardinalidade-e-participacao-total-vs-parcial)
-    - [Teste 235](#teste-235)
-    - [Teste 236](#teste-236)
-    - [Teste 237](#teste-237)
-3. [Álgebra Relacional: Operações Formais e Consultas](#3-algebra-relacional-operacoes-formais-e-consultas)
-    - [3.1 As Seis Operações Fundamentais](#31-as-seis-operacoes-fundamentais)
-    - [3.2 Operações Derivadas: Junção Natural, Theta Join, Equijunção, Interseção e Divisão Relacional](#32-operacoes-derivadas-juncao-natural-theta-join-equijuncao-intersecao-e-divisao-relacional)
-    - [Teste 238](#teste-238)
-    - [Teste 239](#teste-239)
-4. [Teoria da Normalização e Formas Normais (Codd)](#4-teoria-da-normalizacao-e-formas-normais-codd)
-    - [4.1 Dependências Funcionais: Total, Parcial e Transitiva](#41-dependencias-funcionais-total-parcial-e-transitiva)
-    - [4.2 A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN](#42-a-escada-da-normalizacao-1a-fn-2a-fn-e-3a-fn)
-    - [4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN](#43-forma-normal-de-boyce-codd-fnbc-bcnf-vs-3a-fn)
-    - [Teste 240](#teste-240)
-    - [Teste 241](#teste-241)
-    - [Teste 242](#teste-242)
-    - [Teste 243](#teste-243)
-5. [Processo de Desnormalização de Dados](#5-processo-de-desnormalizacao-de-dados)
-    - [5.1 Motivações e Trade-offs: OLTP vs. OLAP / Data Warehouses](#51-motivacoes-e-trade-offs-oltp-vs-olap-data-warehouses)
-    - [5.2 Técnicas Comuns e Riscos de Integridade](#52-tecnicas-comuns-e-riscos-de-integridade)
-    - [Teste 244](#teste-244)
-1. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+1. [As Três Fases do Projeto de Banco de Dados](#1-as-três-fases-do-projeto-de-banco-de-dados)
+    1. [Modelo Conceitual: Semântica e Independência de Tecnologia](#11-modelo-conceitual-semântica-e-independência-de-tecnologia)
+    1. [Modelo Lógico: Dependência do Paradigma Relacional](#12-modelo-lógico-dependência-do-paradigma-relacional)
+    1. [Modelo Físico: Implementação e Otimização no SGBD](#13-modelo-físico-implementação-e-otimização-no-sgbd)
+    1. [Tabela Comparativa dos Níveis de Abstração](#14-tabela-comparativa-dos-níveis-de-abstração)
+    1. [Teste 234](#teste-234)
+2. [Modelo Entidade-Relacionamento (MER / DER de Peter Chen)](#2-modelo-entidade-relacionamento-mer--der-de-peter-chen)
+    1. [Entidades Fortes (Regulares) vs. Entidades Fracas](#21-entidades-fortes-regulares-vs-entidades-fracas)
+    1. [Tipologia e Representação Gráfica dos Atributos](#22-tipologia-e-representação-gráfica-dos-atributos)
+    1. [Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)](#23-relacionamentos-cardinalidade-e-participação-total-vs-parcial)
+    1. [Teste 235](#teste-235)
+    1. [Teste 236](#teste-236)
+    1. [Teste 237](#teste-237)
+3. [Álgebra Relacional: Operações Formais e Consultas](#3-álgebra-relacional-operações-formais-e-consultas)
+    1. [As Seis Operações Fundamentais](#31-as-seis-operações-fundamentais)
+    1. [Operações Derivadas: Junção Natural, Theta Join, Equijunção, Interseção e Divisão Relacional](#32-operações-derivadas-junção-natural-theta-join-equijunção-interseção-e-divisão-relacional)
+    1. [Teste 238](#teste-238)
+    1. [Teste 239](#teste-239)
+4. [Teoria da Normalização e Formas Normais (Codd)](#4-teoria-da-normalização-e-formas-normais-codd)
+    1. [Dependências Funcionais: Total, Parcial e Transitiva](#41-dependências-funcionais-total-parcial-e-transitiva)
+    1. [A Escada da Normalização: 1ª FN, 2ª FN e 3ª FN](#42-a-escada-da-normalização-1ª-fn-2ª-fn-e-3ª-fn)
+    1. [Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN](#43-forma-normal-de-boyce-codd-fnbc--bcnf-vs-3ª-fn)
+    1. [Teste 240](#teste-240)
+    1. [Teste 241](#teste-241)
+    1. [Teste 242](#teste-242)
+    1. [Teste 243](#teste-243)
+5. [Processo de Desnormalização de Dados](#5-processo-de-desnormalização-de-dados)
+    1. [Motivações e Trade-offs: OLTP vs. OLAP / Data Warehouses](#51-motivações-e-trade-offs-oltp-vs-olap--data-warehouses)
+    1. [Técnicas Comuns e Riscos de Integridade](#52-técnicas-comuns-e-riscos-de-integridade)
+    1. [Teste 244](#teste-244)
+6. [Fontes Oficiais e Referências Bibliográficas](#-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -66,18 +64,21 @@ flowchart LR
 ```
 
 ### 1.1 Modelo Conceitual: Semântica e Independência de Tecnologia
+
 - **Escopo e Foco:** É o modelo de mais alto nível de abstração. Captura as entidades do mundo real, seus atributos fundamentais e como elas se relacionam, espelhando fielmente os requisitos do negócio sem qualquer preocupação tecnológica.
 - **Independência Absoluta:** É **totalmente independente do software de SGBD** (PostgreSQL, Oracle) e até mesmo do paradigma lógico adotado (Relacional, Documentos, Grafos).
 - **Notação Canônica:** O Diagrama Entidade-Relacionamento (DER) clássico de Peter Chen ou modelagens conceituais equivalentes.
 - **Restrição Crítica:** O modelo conceitual **NÃO possui chaves estrangeiras (FKs)**, não define índices e não estipula tipos de dados de implementação (como `VARCHAR`, `INTEGER` ou `BLOB`).
 
 ### 1.2 Modelo Lógico: Dependência do Paradigma Relacional
+
 - **Escopo e Foco:** Traduz o modelo conceitual para as estruturas do paradigma de banco de dados escolhido (quase universalmente o **Modelo Relacional** de Edgar F. Codd).
 - **Mapeamento de Abstrações:** Entidades tornam-se **tabelas (relações)**, atributos tornam-se **colunas (atributos relacionais)**, instâncias tornam-se **tuplas (linhas)** e relacionamentos tornam-se **chaves estrangeiras (Foreign Keys - FK)** ou novas tabelas associativas (no caso de relacionamentos $N:M$).
 - **Aplicação da Normalização:** É no modelo lógico que se aplicam formalmente as regras de normalização (1ª FN, 2ª FN, 3ª FN e FNBC) para expurgar anomalias de atualização e redundâncias desnecessárias.
 - **Independência de Software:** Permanece independente de um SGBD específico (o mesmo modelo lógico atende ao PostgreSQL, Oracle Database ou SQL Server).
 
 ### 1.3 Modelo Físico: Implementação e Otimização no SGBD
+
 - **Escopo e Foco:** Representa a implementação concreta e de mais baixo nível, altamente dependente dos recursos internos, dialeto SQL e mecanismos de armazenamento do SGBD corporativo contratado.
 - **Elementos Físicos:** Scripts DDL (`CREATE TABLE`), definição precisa dos tipos de dados de baixo nível (`NUMERIC(15,2)`, `TIMESTAMPTZ`, `VARCHAR2`), definição de métodos de acesso e estruturas de **índices** (`B-Tree`, `Hash`, `GIN`, `GiST`, `BRIN`), estratégias de **particionamento de tabelas** (por lista, alcance ou hash), alocação de **tablespaces** e parâmetros de blocos de disco.
 - **Decisões de Engenharia:** Avaliação de desnormalização deliberada para acelerar relatórios de grande porte e definição de restrições de integridade física (*constraints*).
@@ -101,17 +102,17 @@ flowchart LR
 ---
 
 ### Teste 234
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No ciclo de vida do projeto de bancos de dados relacionais, a modelagem é classicamente particionada em três níveis conceituais progressivos: Modelo Conceitual, Modelo Lógico e Modelo Físico. 
+No ciclo de vida do projeto de bancos de dados relacionais, a modelagem é classicamente particionada em três níveis conceituais progressivos: Modelo Conceitual, Modelo Lógico e Modelo Físico.
 
 A respeito desses modelos e de suas respectivas características arquiteturais, assinale a afirmativa correta:
 
-* **A)** O modelo físico independe do Sistema Gerenciador de Banco de Dados (SGBD) adotado, concentrando-se na especificação pura das regras de negócio e diagramas de classes sem tipos primitivos.
-* **B)** O modelo conceitual possui dependência direta do paradigma de dados escolhido (relacional, hierárquico ou grafos), determinando a alocação de chaves primárias e tipos de dados de armazenamento como `VARCHAR` e `INT`.
-* **C)** O modelo lógico é uma representação de alto nível voltada à comunicação com o usuário final de negócio, na qual não constam tabelas, chaves primárias ou chaves estrangeiras.
-* **D)** O modelo conceitual captura os requisitos de negócio e a semântica dos dados independentemente de tecnologia ou SGBD; o modelo lógico mapeia essas entidades para o paradigma relacional (tabelas, chaves); e o modelo físico define o armazenamento, estruturas de partição, índices e parâmetros de desempenho específicos do SGBD.
-* **E)** A desnormalização é uma decisão estritamente tomada durante o modelo conceitual com o intuito de facilitar a validação dos diagramas pelos gestores de negócio.
-
+- **A)** O modelo físico independe do Sistema Gerenciador de Banco de Dados (SGBD) adotado, concentrando-se na especificação pura das regras de negócio e diagramas de classes sem tipos primitivos.
+- **B)** O modelo conceitual possui dependência direta do paradigma de dados escolhido (relacional, hierárquico ou grafos), determinando a alocação de chaves primárias e tipos de dados de armazenamento como `VARCHAR` e `INT`.
+- **C)** O modelo lógico é uma representação de alto nível voltada à comunicação com o usuário final de negócio, na qual não constam tabelas, chaves primárias ou chaves estrangeiras.
+- **D)** O modelo conceitual captura os requisitos de negócio e a semântica dos dados independentemente de tecnologia ou SGBD; o modelo lógico mapeia essas entidades para o paradigma relacional (tabelas, chaves); e o modelo físico define o armazenamento, estruturas de partição, índices e parâmetros de desempenho específicos do SGBD.
+- **E)** A desnormalização é uma decisão estritamente tomada durante o modelo conceitual com o intuito de facilitar a validação dos diagramas pelos gestores de negócio.
 
 ---
 
@@ -122,7 +123,7 @@ A respeito desses modelos e de suas respectivas características arquiteturais, 
 > - **C)** Incorreta. O modelo lógico já adota o paradigma relacional, definindo rigorosamente tabelas, atributos, chaves primárias (PK), chaves estrangeiras (FK) e normalização.
 > - **D)** **CORRETA.** Descreve com exatidão a clássica divisão de três esquemas proposta pela arquitetura ANSI/SPARC: Modelo Conceitual (independente de SGBD e de modelo de dados lógico), Modelo Lógico (dependente do modelo relacional, independente do software SGBD específico) e Modelo Físico (implementação concreta no SGBD).
 > - **E)** Incorreta. A desnormalização ocorre nas fases lógica/física para otimização de leitura e desempenho transacional/analítico, jamais no modelo conceitual.
-> 
+>
 > **Gabarito: D**
 
 ---
@@ -134,17 +135,17 @@ Publicado em 1976 por Peter Pin-Shan Chen, o Modelo Entidade-Relacionamento torn
 ### 2.1 Entidades Fortes (Regulares) vs. Entidades Fracas
 
 - **Entidade Forte (Regular):**
-    - Possui existência autônoma e independente no mundo real.
-    - Possui ao menos um atributo identificador próprio (chave primária) que distingue univocamente cada uma de suas instâncias.
-    - Representação gráfica de Chen: **Retângulo de linha simples**.
+  - Possui existência autônoma e independente no mundo real.
+  - Possui ao menos um atributo identificador próprio (chave primária) que distingue univocamente cada uma de suas instâncias.
+  - Representação gráfica de Chen: **Retângulo de linha simples**.
 - **Entidade Fraca:**
-    - Sua existência depende obrigatoriamente da existência de outra entidade (denominada entidade proprietária ou dominante). Se a entidade proprietária for removida, a entidade fraca deixa de fazer sentido.
-    - Não possui chave primária completa própria; possui apenas um **discriminador** ou **chave parcial**, que identifica a ocorrência apenas no escopo da sua entidade dominante.
-    - Sua identificação plena é formada pela junção: $\text{Chave da Entidade Forte} + \text{Chave Parcial}$.
-    - Representação gráfica de Chen: **Retângulo de linha dupla**.
+  - Sua existência depende obrigatoriamente da existência de outra entidade (denominada entidade proprietária ou dominante). Se a entidade proprietária for removida, a entidade fraca deixa de fazer sentido.
+  - Não possui chave primária completa própria; possui apenas um **discriminador** ou **chave parcial**, que identifica a ocorrência apenas no escopo da sua entidade dominante.
+  - Sua identificação plena é formada pela junção: $\text{Chave da Entidade Forte} + \text{Chave Parcial}$.
+  - Representação gráfica de Chen: **Retângulo de linha dupla**.
 - **Relacionamento Identificador:**
-    - É o relacionamento formal que vincula a entidade fraca à sua entidade forte proprietária.
-    - Representação gráfica de Chen: **Losango de linha dupla**.
+  - É o relacionamento formal que vincula a entidade fraca à sua entidade forte proprietária.
+  - Representação gráfica de Chen: **Losango de linha dupla**.
 
 ```mermaid
 flowchart LR
@@ -164,17 +165,17 @@ No modelo clássico de Chen, os atributos são expressos por elipses conectadas 
 | **Composto** | Pode ser desmembrado em múltiplos subatributos autônomos. | Elipse ramificada em subelipses | `Endereço` (`Logradouro`, `Número`, `CEP`) |
 | **Monovalorado** | Armazena exatamente um valor para cada instância da entidade. | Elipse padrão de linha simples | `Data_Nascimento`, `Data_Emissao` |
 | **Multivalorado** | Pode assumir múltiplos valores simultâneos para a mesma entidade. | Elipse com **linha dupla** | `Telefones`, `E-mails`, `CNAEs_Secundarios` |
-| **Determinante (Identificador)**| Identifica univocamente a instância da entidade forte. | Elipse com texto **sublinhado contínuo** | `<u>NumContrato</u>`, `<u>IdProcesso</u>` |
-| **Discriminador (Chave Parcial)**| Identifica a entidade fraca apenas dentro do escopo da forte. | Elipse com texto **sublinhado tracejado** | `Num_Sequencial_Termo` |
+| **Determinante (Identificador)** | Identifica univocamente a instância da entidade forte. | Elipse com texto **sublinhado contínuo** | `<u>NumContrato</u>`, `<u>IdProcesso</u>` |
+| **Discriminador (Chave Parcial)** | Identifica a entidade fraca apenas dentro do escopo da forte. | Elipse com texto **sublinhado tracejado** | `Num_Sequencial_Termo` |
 | **Derivado** | Valor calculado dinamicamente a partir de outros atributos persistidos. | Elipse com **borda tracejada/pontilhada** | `Idade` (calculada de `Data_Nasc`) |
 
 ### 2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)
 
 - **Grau do Relacionamento:** Quantidade de entidades participantes (Binário = 2 entidades; Ternário = 3 entidades; Unário / Auto-relacionamento = a mesma entidade se relaciona consigo mesma, como `FUNCIONARIO gerencia FUNCIONARIO`).
 - **Razão de Cardinalidade:** Especifica o número máximo de ocorrências de relacionamento nas quais uma entidade pode participar:
-    - $1:1$ (Um para Um);
-    - $1:N$ (Um para Muitos);
-    - $N:M$ (Muitos para Muitos - na conversão lógica, exige compulsoriamente a criação de uma tabela associativa intermediária).
+  - $1:1$ (Um para Um);
+  - $1:N$ (Um para Muitos);
+  - $N:M$ (Muitos para Muitos - na conversão lógica, exige compulsoriamente a criação de uma tabela associativa intermediária).
 - **Participação Total (Dependência de Existência):** Toda entidade do conjunto de entidades **obrigatoriamente deve participar** de ao menos uma instância do relacionamento. É representada graficamente por uma **linha dupla** que liga a entidade ao losango. Na notação $(mín, máx)$, expressa-se com $mín \ge 1$.
 - **Participação Parcial:** A participação é opcional (algumas instâncias podem não participar do relacionamento). Representada por uma **linha simples**. Na notação $(mín, máx)$, expressa-se com $mín = 0$.
 
@@ -187,18 +188,18 @@ No modelo clássico de Chen, os atributos são expressos por elipses conectadas 
 ---
 
 ### Teste 235
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No contexto do Diagrama Entidade-Relacionamento (DER) segundo a notação original proposta por Peter Chen, analise a seguinte situação de negócio:  
 *"Em um órgão de fiscalização fazendária, cada PROCESSO_FISCAL possui um número de processo que o identifica unicamente. Cada processo pode conter múltiplos TERMOS_FISCAIS. Um termo fiscal possui apenas uma numeração sequencial interna (ex.: 1, 2, 3), só faz sentido existir vinculado ao seu respectivo processo fiscal e sua identificação plena depende da chave primária do processo."*
 
 Conforme a teoria canônica do DER, a entidade `TERMO_FISCAL`, a numeração sequencial interna e o relacionamento entre `PROCESSO_FISCAL` e `TERMO_FISCAL` são classificados, respectivamente, como:  
 
-* **A)** Entidade Associativa, Atributo Composto e Auto-relacionamento.
-* **B)** Entidade Fraca, Chave Parcial (discriminador) e Relacionamento Identificador.
-* **C)** Entidade Regular, Atributo Multivalorado e Relacionamento Não-identificador.
-* **D)** Entidade Fraca, Atributo Derivado e Agregação.
-* **E)** Superclasse, Atributo Atômico e Relacionamento Ternário.
-
+- **A)** Entidade Associativa, Atributo Composto e Auto-relacionamento.
+- **B)** Entidade Fraca, Chave Parcial (discriminador) e Relacionamento Identificador.
+- **C)** Entidade Regular, Atributo Multivalorado e Relacionamento Não-identificador.
+- **D)** Entidade Fraca, Atributo Derivado e Agregação.
+- **E)** Superclasse, Atributo Atômico e Relacionamento Ternário.
 
 ---
 
@@ -213,25 +214,25 @@ Conforme a teoria canônica do DER, a entidade `TERMO_FISCAL`, a numeração seq
 > - **C)** Incorreta. `TERMO_FISCAL` não é uma entidade regular (forte), pois depende da proprietária para sua identificação plena.
 > - **D)** Incorreta. A numeração sequencial não é atributo derivado (calculado dinamicamente).
 > - **E)** Incorreta. Conceitos de especialização/generalização e relacionamentos ternários não se aplicam ao cenário.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 236
+
 **(FCC – TRT-2 – Analista Judiciário - Tecnologia da Informação – 2014)**
-Em alguns casos, dois ou mais valores de atributos em um modelo de Entidade-Relacionamento estão relacionados. Por exemplo, os atributos `Idade` e `Data_Nascimento` de um Auditor de Controle Externo. Para uma entidade `AUDITOR` em particular, o valor de `Idade` pode ser determinado pela data corrente do sistema e pelo valor de `Data_Nascimento` persistido. 
+Em alguns casos, dois ou mais valores de atributos em um modelo de Entidade-Relacionamento estão relacionados. Por exemplo, os atributos `Idade` e `Data_Nascimento` de um Auditor de Controle Externo. Para uma entidade `AUDITOR` em particular, o valor de `Idade` pode ser determinado pela data corrente do sistema e pelo valor de `Data_Nascimento` persistido.
 
 Portanto, segundo a teoria formal do MER concebida por Peter Chen, o atributo `Idade` é denominado atributo [ I ], ao passo que `Data_Nascimento` é denominado atributo [ II ].
 
 As lacunas [ I ] e [ II ] são, correta e respectivamente, preenchidas por:
 
-* **A)** armazenado — derivado.
-* **B)** derivado — armazenado (ou básico).
-* **C)** multivalorado — monovalorado.
-* **D)** identificador — composto.
-* **E)** determinante — discriminador.
-
+- **A)** armazenado — derivado.
+- **B)** derivado — armazenado (ou básico).
+- **C)** multivalorado — monovalorado.
+- **D)** identificador — composto.
+- **E)** determinante — discriminador.
 
 ---
 
@@ -244,21 +245,21 @@ As lacunas [ I ] e [ II ] são, correta e respectivamente, preenchidas por:
 > - **C)** Incorreta. Ambos são atributos monovalorados (uma pessoa tem uma única data de nascimento e uma única idade em um dado momento).
 > - **D)** Incorreta. Identificador é chave primária; `Idade` não identifica unicamente um servidor.
 > - **E)** Incorreta. Determinante e discriminador referem-se a chaves primárias e parciais de entidades fortes e fracas.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 237
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No Modelo Entidade-Relacionamento utilizado para projetar bancos de dados relacionais, quando se define que há um conjunto de relacionamentos de cardinalidade muitos para muitos ($N:M$) entre dois conjuntos de entidades $A$ e $B$, essa especificação significa e exige, do ponto de vista conceitual e de conversão lógica, que:
 
-* **A)** uma entidade de $A$ está associada compulsoriamente a exatamente uma entidade de $B$, e cada entidade de $B$ está associada a no máximo duas entidades de $A$.
-* **B)** uma entidade do conjunto $A$ pode estar associada a várias instâncias do conjunto $B$, e uma entidade do conjunto $B$ também pode estar associada a várias instâncias de $A$. Na conversão para o modelo relacional lógico, exige a criação de uma tabela associativa intermediária contendo as chaves primárias de $A$ e $B$ como chaves estrangeiras.
-* **C)** os conjuntos de entidades $A$ e $B$ devem necessariamente possuir esquemas idênticos com o mesmo número e tipos de atributos primitivos.
-* **D)** a chave primária de $A$ deve ser migrada diretamente como atributo simples e chave estrangeira na tabela $B$, tornando dispensável a criação de qualquer nova relação no banco de dados.
-* **E)** uma entidade do conjunto $B$ associa-se a apenas uma entidade de $A$, configurando uma dependência existencial que transforma a entidade $B$ em entidade fraca.
-
+- **A)** uma entidade de $A$ está associada compulsoriamente a exatamente uma entidade de $B$, e cada entidade de $B$ está associada a no máximo duas entidades de $A$.
+- **B)** uma entidade do conjunto $A$ pode estar associada a várias instâncias do conjunto $B$, e uma entidade do conjunto $B$ também pode estar associada a várias instâncias de $A$. Na conversão para o modelo relacional lógico, exige a criação de uma tabela associativa intermediária contendo as chaves primárias de $A$ e $B$ como chaves estrangeiras.
+- **C)** os conjuntos de entidades $A$ e $B$ devem necessariamente possuir esquemas idênticos com o mesmo número e tipos de atributos primitivos.
+- **D)** a chave primária de $A$ deve ser migrada diretamente como atributo simples e chave estrangeira na tabela $B$, tornando dispensável a criação de qualquer nova relação no banco de dados.
+- **E)** uma entidade do conjunto $B$ associa-se a apenas uma entidade de $A$, configurando uma dependência existencial que transforma a entidade $B$ em entidade fraca.
 
 ---
 
@@ -269,7 +270,7 @@ No Modelo Entidade-Relacionamento utilizado para projetar bancos de dados relaci
 > - **C)** Incorreta. Entidades relacionadas não precisam compartilhar os mesmos atributos.
 > - **D)** Incorreta. A migração direta de FK resolve relacionamentos $1:N$ (migra-se a PK do lado 1 para a tabela do lado $N$), mas é inviável em $N:M$.
 > - **E)** Incorreta. A assertiva descreve um relacionamento $1:N$ com dependência de existência, não uma relação $N:M$.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -314,11 +315,12 @@ São operações construídas a partir da composição das primitivas fundamenta
   $$R \bowtie S = \pi_{\text{esquema\_unificado}}(\sigma_{R.A_1 = S.A_1 \land \dots \land R.A_m = S.A_m}(R \times S))$$
 - **Interseção ($R \cap S$):** Retorna as tuplas presentes simultaneamente em $R$ e $S$. Derivável pela diferença: $R \cap S = R - (R - S)$.
 - **Divisão Relacional ($R \div S$):** Operação fundamental para responder a consultas que envolvem o **quantificador universal "para todos" ($\forall$)** — por exemplo, *"encontrar os auditores que fiscalizaram TODOS os municípios do estado de Goiás"*.
-    - Se $R$ possui esquema $(A, B)$ e $S$ possui esquema $(B)$, a divisão $R \div S$ produz uma relação de esquema $(A)$ contendo as tuplas $t$ tais que, para toda tupla $s \in S$, o par ordenado $(t, s)$ existe na relação $R$.
+  - Se $R$ possui esquema $(A, B)$ e $S$ possui esquema $(B)$, a divisão $R \div S$ produz uma relação de esquema $(A)$ contendo as tuplas $t$ tais que, para toda tupla $s \in S$, o par ordenado $(t, s)$ existe na relação $R$.
 
 ---
 
 ### Teste 238
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em sistemas de banco de dados relacionais, deseja-se elaborar uma consulta algébrica formal para responder à seguinte demanda de auditoria:  
 *"Recuperar o código de todos os Auditores Fiscais que realizaram inspeções em TODOS os estabelecimentos cadastrados no estado."*
@@ -330,12 +332,11 @@ Considere os esquemas das relações:
 
 A operação da Álgebra Relacional que expressa diretamente essa semântica de quantificação universal ("para todos"), sem a necessidade de aninhamentos complexos de operadores de diferença, é a:  
 
-* **A)** Junção Externa Completa (`INSPECAO` $\mathbin{⟗}$ `ESTABELECIMENTO`)
-* **B)** Equijunção (`INSPECAO` $\bowtie_{\text{CodEstabelecimento} = \text{CodEstabelecimento}}$ `ESTABELECIMENTO`)
-* **C)** Divisão Relacional (`INSPECAO` $\div$ `ESTABELECIMENTO`)
-* **D)** Produto Cartesiano (`INSPECAO` $\times$ `ESTABELECIMENTO`)
-* **E)** Interseção (`INSPECAO` $\cap$ `ESTABELECIMENTO`)
-
+- **A)** Junção Externa Completa (`INSPECAO` $\mathbin{⟗}$ `ESTABELECIMENTO`)
+- **B)** Equijunção (`INSPECAO` $\bowtie_{\text{CodEstabelecimento} = \text{CodEstabelecimento}}$ `ESTABELECIMENTO`)
+- **C)** Divisão Relacional (`INSPECAO` $\div$ `ESTABELECIMENTO`)
+- **D)** Produto Cartesiano (`INSPECAO` $\times$ `ESTABELECIMENTO`)
+- **E)** Interseção (`INSPECAO` $\cap$ `ESTABELECIMENTO`)
 
 ---
 
@@ -346,23 +347,23 @@ A operação da Álgebra Relacional que expressa diretamente essa semântica de 
 > - **C)** Correta. A **Divisão Relacional ($R \div S$)** é o operador formal da álgebra relacional projetado para expressar o quantificador universal $\forall$ (*"para todos"*). A operação `INSPECAO` $\div$ `ESTABELECIMENTO` retorna unicamente as tuplas de `CodAuditor` que estão combinadas com **todas** as tuplas presentes na relação `ESTABELECIMENTO`.
 > - **D)** Incorreta. O Produto Cartesiano gera todas as combinações possíveis entre auditores e estabelecimentos, multiplicando o número de tuplas.
 > - **E)** Incorreta. A Interseção exige esquemas compatíveis quanto à união (mesmo número e tipos de atributos), o que não ocorre entre relações com graus diferentes.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 239
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na Álgebra Relacional, uma consulta sobre duas relações $R(A, B, C)$ e $S(C, D, E)$ tem por objetivo filtrar as tuplas de $R$ onde o atributo $A = 10$, concatenar com as tuplas correspondentes de $S$ onde $R.C = S.C$, e projetar apenas as colunas $B$ e $D$.
 
 A expressão formal algébrica que representa essa operação com precisão é:  
 
-* **A)** $\pi_{B, D} (\sigma_{A = 10} (R \bowtie S))$
-* **B)** $\sigma_{B, D} (\pi_{A = 10} (R \times S))$
-* **C)** $\pi_{B, D} (\sigma_{A = 10} (R) \cup \sigma_{A = 10} (S))$
-* **D)** $\rho_{B, D} (\sigma_{A = 10} (R - S))$
-* **E)** $\pi_{A = 10} (\sigma_{B, D} (R \div S))$
-
+- **A)** $\pi_{B, D} (\sigma_{A = 10} (R \bowtie S))$
+- **B)** $\sigma_{B, D} (\pi_{A = 10} (R \times S))$
+- **C)** $\pi_{B, D} (\sigma_{A = 10} (R) \cup \sigma_{A = 10} (S))$
+- **D)** $\rho_{B, D} (\sigma_{A = 10} (R - S))$
+- **E)** $\pi_{A = 10} (\sigma_{B, D} (R \div S))$
 
 ---
 
@@ -373,7 +374,7 @@ A expressão formal algébrica que representa essa operação com precisão é:
 > - **C)** Incorreta. O operador de união ($\cup$) concatena tuplas verticalmente e exige que as relações sejam compatíveis quanto à união (mesmo grau e domínios equivalentes), o que não ocorre entre $R$ e $S$.
 > - **D)** Incorreta. O operador $\rho$ representa a operação de renomeação.
 > - **E)** Incorreta. O operador $\div$ expressa a divisão relacional, inadequada para consultas com junção condicional e projeção.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -426,6 +427,7 @@ A **Forma Normal de Boyce-Codd (FNBC)** é uma versão mais estrita da 3ª FN cr
 ---
 
 ### Teste 240
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere uma relação $R(A, B, C, D)$ sobre a qual vigora o seguinte conjunto de dependências funcionais primitivas:
 
@@ -433,12 +435,11 @@ $$F = \{ A \rightarrow B, \quad A \rightarrow C, \quad C \rightarrow D \}$$
 
 Com base nos Axiomas de Armstrong (Reflexividade, Aumento e Transitividade) e em suas regras derivadas (União, Decomposição e Pseudotransitividade), assinale a dependência funcional que **NÃO** pode ser derivada logicamente de $F$:
 
-* **A)** $B \rightarrow C$
-* **B)** $A \rightarrow D$
-* **C)** $A \rightarrow B, C$
-* **D)** $A, B, C \rightarrow A, B$
-* **E)** $C, B \rightarrow D, B$
-
+- **A)** $B \rightarrow C$
+- **B)** $A \rightarrow D$
+- **C)** $A \rightarrow B, C$
+- **D)** $A, B, C \rightarrow A, B$
+- **E)** $C, B \rightarrow D, B$
 
 ---
 
@@ -449,12 +450,13 @@ Com base nos Axiomas de Armstrong (Reflexividade, Aumento e Transitividade) e em
 > - **C)** Incorreta (pode ser derivada). Pela regra da União: como $A \rightarrow B$ e $A \rightarrow C$, então $A \rightarrow B, C$ é válida.
 > - **D)** Incorreta (pode ser derivada). Pelo Axioma da Reflexividade: como $\{A, B\} \subseteq \{A, B, C\}$, a dependência trivial $A, B, C \rightarrow A, B$ é universalmente verdadeira.
 > - **E)** Incorreta (pode ser derivada). Pelo Axioma do Aumento: dada a dependência $C \rightarrow D$, adicionando o atributo $B$ a ambos os lados da implicação, obtém-se $C, B \rightarrow D, B$.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 241
+
 **(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Ciência de Dados / TI)**  
 O modelo conceitual de um banco de dados prevê uma entidade denominada funcionário. Para fins de pagamento, é necessário cadastrar dados dos dependentes, caso haja, sem limite superior de quantidade. Para manter o modelo relacional na primeira forma normal, avalie se as seguintes abordagens devem ser propostas:
 
@@ -464,11 +466,11 @@ III. Registrar no campo correspondente um vetor com os dados dos dependentes.
 
 Está correto o que se afirma em:
 
-* **A)** I e II, apenas.
-* **B)** I e III, apenas.
-* **C)** II e III, apenas.
-* **D)** I, apenas.
-* **E)** II, apenas.
+- **A)** I e II, apenas.
+- **B)** I e III, apenas.
+- **C)** II e III, apenas.
+- **D)** I, apenas.
+- **E)** II, apenas.
 
 ---
 
@@ -477,12 +479,13 @@ Está correto o que se afirma em:
 > - **I. Incorreta.** Replicar na mesma tabela o registro do funcionário para cada dependente cria redundância excessiva de dados cadastrais do servidor e gera graves anomalias de atualização/exclusão, violando os princípios de integridade relacional.
 > - **II. CORRETA.** Para assegurar a **Primeira Forma Normal (1FN)**, atributos multivalorados e relações de cardinalidade $1:N$ sem limite fixo devem ser decompostos em uma nova tabela específica (ex.: tabela de dependentes), interligada à tabela principal por meio de chave estrangeira (*Foreign Key*), preservando a atomicidade dos campos.
 > - **III. Incorreta.** A Primeira Forma Normal exige que todos os domínios de atributos contenham exclusivamente **valores atômicos (indivisíveis)**. O uso de vetores, listas estruturadas ou campos multivalorados viola frontalmente a definição de 1FN do modelo relacional clássico de Edgar F. Codd.
-> 
+>
 > **Gabarito: E**
 
 ---
 
 ### Teste 242
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere uma relação $R(A, B, C)$ com o seguinte conjunto de dependências funcionais:  
 $F = \{ (A, B) \rightarrow C, \quad C \rightarrow B \}$  
@@ -490,12 +493,11 @@ Sabe-se que as chaves candidatas dessa relação são $(A, B)$ e $(A, C)$.
 
 Com base nas definições formais das Formas Normais, afirma-se corretamente que a relação $R$:  
 
-* **A)** Não está na 1ª FN, pois apresenta dependências funcionais sobrepostas.
-* **B)** Está na 2ª FN, mas viola a 3ª FN porque $C$ determina um atributo não-chave.
-* **C)** Está na 3ª FN, mas não está na Forma Normal de Boyce-Codd (FNBC).
-* **D)** Está na Forma Normal de Boyce-Codd (FNBC), pois todas as dependências funcionais são triviais.
-* **E)** Encontra-se na 4ª FN, pois não possui atributos multivalorados dependentes.
-
+- **A)** Não está na 1ª FN, pois apresenta dependências funcionais sobrepostas.
+- **B)** Está na 2ª FN, mas viola a 3ª FN porque $C$ determina um atributo não-chave.
+- **C)** Está na 3ª FN, mas não está na Forma Normal de Boyce-Codd (FNBC).
+- **D)** Está na Forma Normal de Boyce-Codd (FNBC), pois todas as dependências funcionais são triviais.
+- **E)** Encontra-se na 4ª FN, pois não possui atributos multivalorados dependentes.
 
 ---
 
@@ -511,12 +513,13 @@ Com base nas definições formais das Formas Normais, afirma-se corretamente que
 >
 > - **D) Incorreta.** A relação viola expressamente a Forma Normal de Boyce-Codd, pois em  \rightarrow B$ o determinante $ não é superchave.
 > - **E) Incorreta.** A 4ª FN examina dependências multivaloradas, mas a relação sequer atinge a conformidade com a FNBC.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 243
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere uma relação não normalizada de um sistema de compras públicas representada pelo esquema:  
 `CONTRATO (NumContrato, NumItem, CodFornecedor, NomeFornecedor, DescricaoItem, Quantidade, ValorUnitario)`  
@@ -529,12 +532,11 @@ Onde a chave primária composta da relação é `(NumContrato, NumItem)`. Sabe-s
 
 Para que o esquema atinja estritamente a **Segunda Forma Normal (2ª FN)**, deve-se:  
 
-* **A)** Eliminar os grupos repetitivos e garantir a atomicidade dos campos, mantendo todos os atributos na mesma tabela.
-* **B)** Eliminar as dependências funcionais parciais, decompondo a relação de modo que nenhum atributo não-chave dependa de apenas parte da chave primária composta.
-* **C)** Eliminar as dependências transitivas, garantindo que o `NomeFornecedor` não dependa de `CodFornecedor`.
-* **D)** Converter todas as chaves primárias em chaves substitutas (*surrogate keys*) UUID geradas pelo SGBD.
-* **E)** Desnormalizar a relação unificando `Quantidade` e `ValorUnitario` em um atributo multivalorado.
-
+- **A)** Eliminar os grupos repetitivos e garantir a atomicidade dos campos, mantendo todos os atributos na mesma tabela.
+- **B)** Eliminar as dependências funcionais parciais, decompondo a relação de modo que nenhum atributo não-chave dependa de apenas parte da chave primária composta.
+- **C)** Eliminar as dependências transitivas, garantindo que o `NomeFornecedor` não dependa de `CodFornecedor`.
+- **D)** Converter todas as chaves primárias em chaves substitutas (*surrogate keys*) UUID geradas pelo SGBD.
+- **E)** Desnormalizar a relação unificando `Quantidade` e `ValorUnitario` em um atributo multivalorado.
 
 ---
 
@@ -545,7 +547,7 @@ Para que o esquema atinja estritamente a **Segunda Forma Normal (2ª FN)**, deve
 > - **C)** Incorreta. A eliminação de dependências transitivas (`CodFornecedor -> NomeFornecedor`) é o requisito exclusivo para a **Terceira Forma Normal (3ª FN)**.
 > - **D)** Incorreta. A adoção de chaves substitutas (*surrogate keys*) é escolha de modelagem física, sem relação formal com os postulados de Edgar F. Codd.
 > - **E)** Incorreta. Introduzir atributos multivalorados violaria a 1ª FN, degradando o esquema para o estado não normalizado.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -560,7 +562,7 @@ flowchart TD
         N["Banco Totalmente Normalizado (3ª FN / FNBC)"]
         N -->|Vantagem| NV1["Zero redundância<br/>Integridade garantida<br/>Escritas/Updates rápidos"]
         N -->|Desvantagem| ND1["Múltiplos JOINs complexos<br/>Lentidão em consultas analíticas OLAP"]
-        
+  
         D["Banco Desnormalizado"]
         D -->|Vantagem| DV1["Leituras ultrarrápidas<br/>Consultas simples sem JOINs<br/>Ideal para Data Warehouses"]
         D -->|Desvantagem| DD1["Redundância severa<br/>Risco de anomalias de atualização<br/>Maior consumo de disco"]
@@ -580,23 +582,23 @@ flowchart TD
     3. *Replicação de Colunas de Consulta Frequente:* Armazenar o `NomeFornecedor` diretamente na tabela de `Empenho`.
 
 - **Riscos e Trade-offs:**
-    - Redundância severa e aumento do consumo de armazenamento em disco;
-    - **Risco Crítico de Inconsistência:** Atualizar o nome do fornecedor exige atualizar milhões de registros duplicados; se uma atualização falhar pela metade, o banco de dados entra em estado inconsistente.
+  - Redundância severa e aumento do consumo de armazenamento em disco;
+  - **Risco Crítico de Inconsistência:** Atualizar o nome do fornecedor exige atualizar milhões de registros duplicados; se uma atualização falhar pela metade, o banco de dados entra em estado inconsistente.
 
 ---
 
 ### Teste 244
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No projeto de bancos de dados analíticos (Data Warehouses) e repositórios de dados para auditoria contínua, analistas de TI frequentemente ponderam entre o esquema puramente em estrela (*Star Schema*) e o esquema em flocos de neve (*Snowflake Schema*).
 
 A respeito da técnica de modelagem multidimensional e de seus impactos arquiteturais sobre o desempenho das consultas analíticas, assinale a afirmativa correta:
 
-* **A)** A normalização das tabelas de dimensão (esquema Snowflake) elimina redundâncias, mas impacta negativamente o tempo de resposta das consultas analíticas (OLAP) ao exigir uma maior quantidade de junções (*joins*) entre tabelas normalizadas.
-* **B)** O esquema Star Schema é totalmente normalizado até a Boyce-Codd Normal Form (BCNF), o que minimiza o espaço de armazenamento consumido em disco e maximiza a quantidade de tabelas no data warehouse.
-* **C)** A técnica de desnormalização é fortemente recomendada em sistemas puramente transacionais (OLTP) de alta concorrência para acelerar as operações concorrentes de `INSERT` e `UPDATE`.
-* **D)** A criação de chaves substitutas (*surrogate keys*) nas tabelas dimensionais prejudica a governança e inviabiliza o rastreamento histórico de dimensões de alteração lenta (SCD).
-* **E)** O Snowflake Schema é o padrão adotado em todos os data marts por dispensar completamente o uso de índices e por apresentar desempenho de leitura invariavelmente superior ao Star Schema.
-
+- **A)** A normalização das tabelas de dimensão (esquema Snowflake) elimina redundâncias, mas impacta negativamente o tempo de resposta das consultas analíticas (OLAP) ao exigir uma maior quantidade de junções (*joins*) entre tabelas normalizadas.
+- **B)** O esquema Star Schema é totalmente normalizado até a Boyce-Codd Normal Form (BCNF), o que minimiza o espaço de armazenamento consumido em disco e maximiza a quantidade de tabelas no data warehouse.
+- **C)** A técnica de desnormalização é fortemente recomendada em sistemas puramente transacionais (OLTP) de alta concorrência para acelerar as operações concorrentes de `INSERT` e `UPDATE`.
+- **D)** A criação de chaves substitutas (*surrogate keys*) nas tabelas dimensionais prejudica a governança e inviabiliza o rastreamento histórico de dimensões de alteração lenta (SCD).
+- **E)** O Snowflake Schema é o padrão adotado em todos os data marts por dispensar completamente o uso de índices e por apresentar desempenho de leitura invariavelmente superior ao Star Schema.
 
 ---
 
@@ -607,17 +609,17 @@ A respeito da técnica de modelagem multidimensional e de seus impactos arquitet
 > - **C)** Incorreta. Em sistemas OLTP, a desnormalização introduz redundância de dados que encarece e desacelera operações de escrita (`INSERT`, `UPDATE`), além de gerar riscos de inconsistência transacional.
 > - **D)** Incorreta. As chaves substitutas (*surrogate keys*) são essenciais justamente para permitir o gerenciamento de dimensões que mudam lentamente (Slowly Changing Dimensions - SCD Tipos 2 e 3).
 > - **E)** Incorreta. O *Star Schema* é a estrutura dimensional predominante e recomendada por Ralph Kimball para data marts justamente por sua simplicidade e superior performance em leitura.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [PostgreSQL 17 Official Documentation - Data Definition (DDL)](https://www.postgresql.org/docs/current/ddl.html) - Criação de tabelas, restrições de integridade (PRIMARY KEY, FOREIGN KEY, CHECK, UNIQUE) e domínios.
-* [PostgreSQL 17 Official Documentation - Queries and Joins](https://www.postgresql.org/docs/current/queries.html) - Consultas relacionais, junções internas e externas, agregações e subconsultas.
-* [Oracle Database 19c Documentation - Relational Concepts](https://docs.oracle.com/en/database/oracle/oracle-database/19/cncpt/transactions.html) - Fundamentos do modelo relacional, integridade referencial e álgebra relacional aplicada.
-* [MongoDB Official Documentation - Data Modeling Introduction](https://www.mongodb.com/docs/manual/core/data-modeling-introduction/) - Modelagem orientada a documentos, contraste com modelo relacional e desnormalização controlada.
-* ELMASRI, Ramez; NAVATHE, Shamkant B. **Sistemas de Banco de Dados**. 7. ed. São Paulo: Pearson, 2019. (Cap. 3 - Modelo Entidade-Relacionamento; Cap. 14 - Formas Normais e Dependências Funcionais).
-* SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. **Sistema de Banco de Dados**. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 2 - Modelo Relacional; Cap. 6 - Projeto de Banco de Dados e Teoria da Normalização).
-* HEUSER, Carlos Alberto. **Projeto de Banco de Dados**. 6. ed. Porto Alegre: Bookman, 2009. (Cap. 2 - Modelo Conceitual DER; Cap. 5 - Normalização de Dados).
+- [PostgreSQL 17 Official Documentation - Data Definition (DDL)](https://www.postgresql.org/docs/current/ddl.html) - Criação de tabelas, restrições de integridade (PRIMARY KEY, FOREIGN KEY, CHECK, UNIQUE) e domínios.
+- [PostgreSQL 17 Official Documentation - Queries and Joins](https://www.postgresql.org/docs/current/queries.html) - Consultas relacionais, junções internas e externas, agregações e subconsultas.
+- [Oracle Database 19c Documentation - Relational Concepts](https://docs.oracle.com/en/database/oracle/oracle-database/19/cncpt/transactions.html) - Fundamentos do modelo relacional, integridade referencial e álgebra relacional aplicada.
+- [MongoDB Official Documentation - Data Modeling Introduction](https://www.mongodb.com/docs/manual/core/data-modeling-introduction/) - Modelagem orientada a documentos, contraste com modelo relacional e desnormalização controlada.
+- ELMASRI, Ramez; NAVATHE, Shamkant B. **Sistemas de Banco de Dados**. 7. ed. São Paulo: Pearson, 2019. (Cap. 3 - Modelo Entidade-Relacionamento; Cap. 14 - Formas Normais e Dependências Funcionais).
+- SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. **Sistema de Banco de Dados**. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 2 - Modelo Relacional; Cap. 6 - Projeto de Banco de Dados e Teoria da Normalização).
+- HEUSER, Carlos Alberto. **Projeto de Banco de Dados**. 6. ed. Porto Alegre: Bookman, 2009. (Cap. 2 - Modelo Conceitual DER; Cap. 5 - Normalização de Dados).

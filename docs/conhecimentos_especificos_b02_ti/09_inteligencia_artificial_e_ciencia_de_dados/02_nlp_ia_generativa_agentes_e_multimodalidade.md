@@ -1,15 +1,14 @@
 # 02 - PLN, IA Generativa, Agentes Inteligentes e Multimodalidade
+
 **Última Atualização:** 2026-03-31  
 **Banca Foco:** FCC (Fundação Carlos Chagas)  
 **Cargo:** Auditor de Controle Externo - Tecnologia da Informação  
 **Status do Mapeamento:** 100% aderente ao edital TCE-GO
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 1. **Processamento de Linguagem Natural (PLN / NLP):** Pipeline clássico de pré-processamento (limpeza, normalização, tokenização por subpalavras com BPE/WordPiece, remoção de stopwords vs. impacto em modelos contextuais, normalização morfológica com Stemming vs. Lemmatization, POS Tagging e NER com esquema BIO); Representação vetorial de textos (Bag of Words, ponderação TF-IDF e embeddings estáticos Word2Vec CBOW/Skip-Gram e FastText com n-gramas de caracteres); e Modelos contextuais baseados em Transformers (Atenção escalada, Encoder-Only com BERT e Masked Language Modeling vs. Decoder-Only com GPT e Causal Language Modeling).
 2. **Inteligência Artificial Generativa:** Conceito de distribuição generativa $P(X)$; Redes Adversárias Generativas (GANs: jogo de minimax entre Gerador e Discriminador, instabilidades e patologia do Colapso de Modo / *Mode Collapse*); Modelos de Difusão (*Diffusion Models*: processo direto com adição progressiva de ruído gaussiano e processo reverso de reconstrução com redes U-Net); e Modelos de Linguagem Autoregressivos (LLMs: amostragem probabilística, temperatura, Top-$k$ e Top-$p$ Nucleus Sampling).
 3. **Agentes Inteligentes:** Conceituação formal de Agente Racional (sensores, atuadores, função de agente); Framework PEAS (*Performance, Environment, Actuators, Sensors*); Propriedades taxonômicas dos ambientes de tarefas (observabilidade, determinismo, episodicidade, dinamismo, continuidade e número de agentes); e Classificação clássica de Russell & Norvig (Agentes Reativos Simples, Reativos Baseados em Modelos com estado interno, Baseados em Objetivos, Baseados na Utilidade e Agentes com Aprendizado).
@@ -19,34 +18,34 @@
 
 ## 🧭 Sumário
 
-1. [Processamento de Linguagem Natural (PLN / NLP)](#1-processamento-de-linguagem-natural-pln-nlp)
-    - [1.1 Pipeline de Pré-Processamento Textual Clássico](#11-pipeline-de-pre-processamento-textual-classico)
-    - [1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos](#12-representacao-numerica-de-texto-bow-tf-idf-e-embeddings-estaticos)
-    - [1.3 A Revolução dos Transformers em PLN: BERT vs. GPT](#13-a-revolucao-dos-transformers-em-pln-bert-vs-gpt)
-    - [Teste 311](#teste-311)
-    - [Teste 312](#teste-312)
-    - [Teste 313](#teste-313)
-2. [Inteligência Artificial Generativa](#2-inteligencia-artificial-generativa)
-    - [2.1 Fundamentos e Arquiteturas Generativas](#21-fundamentos-e-arquiteturas-generativas)
-    - [2.2 Redes Adversárias Generativas (GANs) e Colapso de Modo](#22-redes-adversarias-generativas-gans-e-colapso-de-modo)
-    - [2.3 Modelos de Difusão (Diffusion Models)](#23-modelos-de-difusao-diffusion-models)
-    - [2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem](#24-modelos-de-linguagem-autoregressivos-llms-e-parametros-de-amostragem)
-    - [Teste 314](#teste-314)
-    - [Teste 315](#teste-315)
-    - [Teste 316](#teste-316)
-    - [Teste 317](#teste-317)
+1. [Processamento de Linguagem Natural (PLN / NLP)](#1-processamento-de-linguagem-natural-pln--nlp)
+    1. [Pipeline de Pré-Processamento Textual Clássico](#11-pipeline-de-pré-processamento-textual-clássico)
+    1. [Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos](#12-representação-numérica-de-texto-bow-tf-idf-e-embeddings-estáticos)
+    1. [A Revolução dos Transformers em PLN: BERT vs. GPT](#13-a-revolução-dos-transformers-em-pln-bert-vs-gpt)
+    1. [Teste 311](#teste-311)
+    1. [Teste 312](#teste-312)
+    1. [Teste 313](#teste-313)
+2. [Inteligência Artificial Generativa](#2-inteligência-artificial-generativa)
+    1. [Fundamentos e Arquiteturas Generativas](#21-fundamentos-e-arquiteturas-generativas)
+    1. [Redes Adversárias Generativas (GANs) e Colapso de Modo](#22-redes-adversárias-generativas-gans-e-colapso-de-modo)
+    1. [Modelos de Difusão (Diffusion Models)](#23-modelos-de-difusão-diffusion-models)
+    1. [Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem](#24-modelos-de-linguagem-autoregressivos-llms-e-parâmetros-de-amostragem)
+    1. [Teste 314](#teste-314)
+    1. [Teste 315](#teste-315)
+    1. [Teste 316](#teste-316)
+    1. [Teste 317](#teste-317)
 3. [Agentes Inteligentes e Ambientes de Tarefa](#3-agentes-inteligentes-e-ambientes-de-tarefa)
-    - [3.1 O Framework PEAS e Definição de Agente Racional](#31-o-framework-peas-e-definicao-de-agente-racional)
-    - [3.2 Propriedades dos Ambientes de Tarefa](#32-propriedades-dos-ambientes-de-tarefa)
-    - [3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)](#33-as-cinco-tipologias-classicas-de-agentes-russell-norvig)
-    - [Teste 318](#teste-318)
-    - [Teste 319](#teste-319)
-    - [Teste 320](#teste-320)
-4. [Modelos Multimodais e Aplicações no Setor Público](#4-modelos-multimodais-e-aplicacoes-no-setor-publico)
-    - [4.1 Alinhamento Semântico Multimodal e a Arquitetura CLIP](#41-alinhamento-semantico-multimodal-e-a-arquitetura-clip)
-    - [4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)](#42-aplicacoes-em-auditoria-de-controle-externo-tce-go)
-    - [Teste 321](#teste-321)
-1. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+    1. [O Framework PEAS e Definição de Agente Racional](#31-o-framework-peas-e-definição-de-agente-racional)
+    1. [Propriedades dos Ambientes de Tarefa](#32-propriedades-dos-ambientes-de-tarefa)
+    1. [As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)](#33-as-cinco-tipologias-clássicas-de-agentes-russell--norvig)
+    1. [Teste 318](#teste-318)
+    1. [Teste 319](#teste-319)
+    1. [Teste 320](#teste-320)
+4. [Modelos Multimodais e Aplicações no Setor Público](#4-modelos-multimodais-e-aplicações-no-setor-público)
+    1. [Alinhamento Semântico Multimodal e a Arquitetura CLIP](#41-alinhamento-semântico-multimodal-e-a-arquitetura-clip)
+    1. [Aplicações em Auditoria de Controle Externo (TCE-GO)](#42-aplicações-em-auditoria-de-controle-externo-tce-go)
+    1. [Teste 321](#teste-321)
+5. [Fontes Oficiais e Referências Bibliográficas](#-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -130,28 +129,29 @@ onde $Q$ são as Consultas (*Queries*), $K$ são as Chaves (*Keys*), $V$ são os
      Classificação Semântica                           Diálogo e Síntese Textual
 ```
 
-* **BERT (Bidirectional Encoder Representations from Transformers):**
-    - Modelo baseado puramente no **Codificador (*Encoder-Only*)**.
-    - Opera em regime **estritamente bidirecional**: ao processar um token, as camadas de autoatenção conectam-no simultaneamente a todas as palavras à esquerda e à direita na sentença.
-    - Pré-treinado via **Masked Language Modeling (MLM)** (ocultando 15% dos tokens aleatoriamente com a tag `[MASK]` para que o modelo aprenda a reconstruí-los a partir do contexto global) e **Next Sentence Prediction (NSP)**.
-    - Ideal para tarefas de compreensão textual profunda: Classificação de Documentos, Reconhecimento de Entidades Nomeadas (NER), Pergunta-Resposta Extrativa e Busca Semântica em Bases Vetoriais.
-* **GPT (Generative Pre-trained Transformer):**
-    - Modelo baseado puramente no **Decodificador (*Decoder-Only*)**.
-    - Opera em regime **autoregressivo unidirecional com máscara causal triangular**: para preservar a validade da geração contínua, cada token só pode consultar os tokens que o antecederam cronologicamente na sequência (atenção orientada da esquerda para a direita).
-    - Pré-treinado via **Causal Language Modeling (CLM)**, ajustando pesos para prever iterativamente a probabilidade condicional do próximo token ($P(w_t \mid w_1, \dots, w_{t-1})$).
-    - Ideal para geração criativa e contínua de texto, síntese de minutas processuais, tradução e diálogos interativos.
+- **BERT (Bidirectional Encoder Representations from Transformers):**
+  - Modelo baseado puramente no **Codificador (*Encoder-Only*)**.
+  - Opera em regime **estritamente bidirecional**: ao processar um token, as camadas de autoatenção conectam-no simultaneamente a todas as palavras à esquerda e à direita na sentença.
+  - Pré-treinado via **Masked Language Modeling (MLM)** (ocultando 15% dos tokens aleatoriamente com a tag `[MASK]` para que o modelo aprenda a reconstruí-los a partir do contexto global) e **Next Sentence Prediction (NSP)**.
+  - Ideal para tarefas de compreensão textual profunda: Classificação de Documentos, Reconhecimento de Entidades Nomeadas (NER), Pergunta-Resposta Extrativa e Busca Semântica em Bases Vetoriais.
+- **GPT (Generative Pre-trained Transformer):**
+  - Modelo baseado puramente no **Decodificador (*Decoder-Only*)**.
+  - Opera em regime **autoregressivo unidirecional com máscara causal triangular**: para preservar a validade da geração contínua, cada token só pode consultar os tokens que o antecederam cronologicamente na sequência (atenção orientada da esquerda para a direita).
+  - Pré-treinado via **Causal Language Modeling (CLM)**, ajustando pesos para prever iterativamente a probabilidade condicional do próximo token ($P(w_t \mid w_1, \dots, w_{t-1})$).
+  - Ideal para geração criativa e contínua de texto, síntese de minutas processuais, tradução e diálogos interativos.
 
 ---
 
 ### Teste 311
+
 **(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**  
 O Processamento de Linguagem Natural (PLN) é uma área de estudo dedicada à pesquisa e desenvolvimento de métodos e sistemas que visam compreender e processar a linguagem humana por meio de computadores. São paradigmas de PLN:
 
-* **A)** Neural e Simbólico.
-* **B)** Neural e Regressivo.
-* **C)** Estatístico e Sentimental.
-* **D)** Neural e Sentimental.
-* **E)** Simbólico e Sentimental.
+- **A)** Neural e Simbólico.
+- **B)** Neural e Regressivo.
+- **C)** Estatístico e Sentimental.
+- **D)** Neural e Sentimental.
+- **E)** Simbólico e Sentimental.
 
 ---
 
@@ -162,23 +162,23 @@ O Processamento de Linguagem Natural (PLN) é uma área de estudo dedicada à pe
 >   2. **Paradigma Neural (Deep Learning):** Baseia-se no aprendizado de representações contínuas e vetoriais em espaço latente denso (*embeddings*, Transformers e redes neurais profundas), que superou as limitações dos modelos estatísticos discretos clássicos.
 > - **B) Incorreta.** "Regressivo" refere-se a modelos de regressão matemática, não constituindo um paradigma canônico de PLN.
 > - **C, D e E) Incorretas.** A análise de sentimentos (*Sentimental*) é uma tarefa/aplicação específica de PLN (classificação de polaridade de textos), e não um paradigma epistemológico de processamento da linguagem.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 312
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No Processamento de Linguagem Natural (PLN), a representação matemática do texto é uma etapa crítica para o sucesso de modelos de classificação e agrupamento documental.
 
 A respeito das abordagens de vetorização textual clássicas (*Bag-of-Words* e *TF-IDF*) e dos modelos modernos de *Embeddings* estáticos (*Word2Vec*), assinale a afirmativa correta:
 
-* **A)** O modelo *Bag-of-Words* (BoW) preserva integralmente a estrutura sintática, a ordem cronológica dos termos e a gramática complexa da frase.
-* **B)** A métrica TF-IDF (*Term Frequency-Inverse Document Frequency*) atribui pesos mais elevados a palavras extremamente frequentes em todos os documentos do corpus (como artigos e preposições), pois elas carregam maior poder de diferenciação semântica. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** O modelo *Word2Vec* (nas arquiteturas CBOW e Skip-Gram) mapeia palavras para vetores densos de baixa dimensionalidade em um espaço contínuo, onde palavras semanticamente similares ou que compartilham contextos afins situam-se geometricamente próximas, permitindo operações de aritmética vetorial (como $vetor(\text{"Rei"}) - vetor(\text{"Homem"}) + vetor(\text{"Mulher"}) \approx vetor(\text{"Rainha"})$).
-* **D)** O TF-IDF gera vetores puramente densos de no máximo 50 posições para qualquer vocabulário, eliminando a esparsidade de matrizes.
-* **E)** O modelo Skip-Gram utiliza as palavras do contexto para prever a palavra central, ao passo que o CBOW (*Continuous Bag-of-Words*) utiliza a palavra central para prever o contexto circunvizinho.
-
+- **A)** O modelo *Bag-of-Words* (BoW) preserva integralmente a estrutura sintática, a ordem cronológica dos termos e a gramática complexa da frase.
+- **B)** A métrica TF-IDF (*Term Frequency-Inverse Document Frequency*) atribui pesos mais elevados a palavras extremamente frequentes em todos os documentos do corpus (como artigos e preposições), pois elas carregam maior poder de diferenciação semântica. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **C)** O modelo *Word2Vec* (nas arquiteturas CBOW e Skip-Gram) mapeia palavras para vetores densos de baixa dimensionalidade em um espaço contínuo, onde palavras semanticamente similares ou que compartilham contextos afins situam-se geometricamente próximas, permitindo operações de aritmética vetorial (como $vetor(\text{"Rei"}) - vetor(\text{"Homem"}) + vetor(\text{"Mulher"}) \approx vetor(\text{"Rainha"})$).
+- **D)** O TF-IDF gera vetores puramente densos de no máximo 50 posições para qualquer vocabulário, eliminando a esparsidade de matrizes.
+- **E)** O modelo Skip-Gram utiliza as palavras do contexto para prever a palavra central, ao passo que o CBOW (*Continuous Bag-of-Words*) utiliza a palavra central para prever o contexto circunvizinho.
 
 ---
 
@@ -189,22 +189,22 @@ A respeito das abordagens de vetorização textual clássicas (*Bag-of-Words* e 
 > - **C)** **CORRETA.** O **Word2Vec** (Mikolov et al., 2013) revolucionou o PLN ao substituir representações esparsas *one-hot* de altíssima dimensão por **vetores contínuos densos** (ex.: 300 dimensões). As relações semânticas e sintáticas aprendidas a partir do contexto refletem-se em propriedades algébricas no espaço vetorial latente, possibilitando analogias lineares por similaridade cosseno.
 > - **D)** Incorreta. O TF-IDF produz matrizes de termos por documentos altamente **esparsas** (a maioria das células é zero), cuja dimensionalidade equivale ao tamanho total do vocabulário do corpus (frequentemente centenas de milhares de colunas).
 > - **E)** Incorreta. Os papéis foram invertidos: o **CBOW** prevê a palavra central a partir das palavras de contexto, enquanto o **Skip-Gram** prevê as palavras de contexto a partir da palavra central.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 313
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A publicação da arquitetura *Transformer* impulsionou a criação de modelos de linguagem pré-treinados profundos que hoje alicerçam grande parte do estado da arte em Processamento de Linguagem Natural. A partir desse paradigma, destacaram-se duas famílias arquiteturais com propriedades distintas: os modelos baseados no Codificador (*Encoder*) e os baseados no Decodificador (*Decoder*).
 Sobre as diferenças técnicas entre as famílias BERT e GPT, assinale a afirmativa correta:
 
-* **A)** O modelo BERT baseia-se exclusivamente no Decodificador do Transformer, empregando máscaras causais triangulares para impedir que tokens à direita interfiram na classificação do texto presente.
-* **B)** O modelo GPT fundamenta-se no Codificador do Transformer e processa sentenças em regime estritamente bidirecional, sendo treinado para reconstruir palavras ocultadas aleatoriamente por tokens especiais de preenchimento.
-* **C)** O modelo BERT baseia-se no Codificador e processa as sequências de forma bidirecional no treinamento para aprender representações contextuais profundas.
-* **D)** O mecanismo de autoatenção escalada divide o produto escalar das matrizes de Consulta e Chave pelo cubo da dimensionalidade dos vetores para induzir a explosão intencional dos gradientes na fase de retropropagação.
-* **E)** Os modelos BERT e GPT dispensam etapas de pré-treinamento auto-supervisionado, sendo inicializados e treinados diretamente em conjuntos de dados supervisionados anotados manualmente por auditores.
-
+- **A)** O modelo BERT baseia-se exclusivamente no Decodificador do Transformer, empregando máscaras causais triangulares para impedir que tokens à direita interfiram na classificação do texto presente.
+- **B)** O modelo GPT fundamenta-se no Codificador do Transformer e processa sentenças em regime estritamente bidirecional, sendo treinado para reconstruir palavras ocultadas aleatoriamente por tokens especiais de preenchimento.
+- **C)** O modelo BERT baseia-se no Codificador e processa as sequências de forma bidirecional no treinamento para aprender representações contextuais profundas.
+- **D)** O mecanismo de autoatenção escalada divide o produto escalar das matrizes de Consulta e Chave pelo cubo da dimensionalidade dos vetores para induzir a explosão intencional dos gradientes na fase de retropropagação.
+- **E)** Os modelos BERT e GPT dispensam etapas de pré-treinamento auto-supervisionado, sendo inicializados e treinados diretamente em conjuntos de dados supervisionados anotados manualmente por auditores.
 
 ---
 
@@ -212,12 +212,12 @@ Sobre as diferenças técnicas entre as famílias BERT e GPT, assinale a afirmat
 >
 > - **A)** Incorreta. O BERT utiliza o **Codificador (*Encoder-Only*)** e opera de forma livremente **bidirecional**, sem máscaras causais triangulares restritivas.
 > - **B)** Incorreta. A família GPT baseia-se no **Decodificador (*Decoder-Only*)** e opera de forma autoregressiva unidirecional com a tarefa de previsão do próximo token (*Next Token Prediction*). Quem utiliza palavras mascaradas (*MLM*) é o BERT.
-> - **C)** **Correta.** 
->     - **BERT (Encoder-Only):** Conecta tokens simultaneamente aos seus contextos à esquerda e à direita (bidirecional). Excelente para tarefas de análise, extração, classificação e busca semântica em bases vetoriais.
->     - **GPT (Decoder-Only):** Estrutura causal autoregressiva que prevê sequencialmente a probabilidade condicional do próximo token ($P(w_t \mid w_{<t})$), sendo o motor ideal para geração contínua de texto, sumarização e interação conversacional.
+> - **C)** **Correta.**
+>   - **BERT (Encoder-Only):** Conecta tokens simultaneamente aos seus contextos à esquerda e à direita (bidirecional). Excelente para tarefas de análise, extração, classificação e busca semântica em bases vetoriais.
+>   - **GPT (Decoder-Only):** Estrutura causal autoregressiva que prevê sequencialmente a probabilidade condicional do próximo token ($P(w_t \mid w_{<t})$), sendo o motor ideal para geração contínua de texto, sumarização e interação conversacional.
 > - **D)** Incorreta. O fator de escalonamento da atenção divide o produto escalar pela **raiz quadrada** da dimensão ($\sqrt{d_k}$) com o objetivo expresso de **evitar a saturação da função softmax**, prevenindo o desvanecimento dos gradientes (*vanishing gradient*).
 > - **E)** Incorreta. Ambos os modelos fundamentam-se no paradigma do pré-treinamento auto-supervisionado maciço em gigabytes/terabytes de textos não rotulados da internet.
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -250,8 +250,8 @@ Introduzidas por Ian Goodfellow em 2014, as **GANs (*Generative Adversarial Netw
 - **Função Minimax Objetiva:**
   $$\min_G \max_D V(D, G) = \mathbb{E}_{x \sim p_{\text{data}}}[\log D(x)] + \mathbb{E}_{z \sim p_z}[\log(1 - D(G(z)))]$$
 - **Colapso de Modo (*Mode Collapse*):**
-    - É a patologia mais célebre no treinamento de GANs.
-    - Ocorre quando o Gerador encontra uma única amostra sintética específica (ou uma diversidade insignificante de amostras) altamente eficaz em enganar o Discriminador. O Gerador passa então a **produzir repetidamente e sempre a mesma saída idêntica**, ignorando a riqueza e variedade do restante do espaço amostral.
+  - É a patologia mais célebre no treinamento de GANs.
+  - Ocorre quando o Gerador encontra uma única amostra sintética específica (ou uma diversidade insignificante de amostras) altamente eficaz em enganar o Discriminador. O Gerador passa então a **produzir repetidamente e sempre a mesma saída idêntica**, ignorando a riqueza e variedade do restante do espaço amostral.
 
 ### 2.3 Modelos de Difusão (Diffusion Models)
 
@@ -283,17 +283,17 @@ A conversão do vetor de números reais (*logits*) emitido pela rede em tokens t
 ---
 
 ### Teste 314
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A Inteligência Artificial Generativa baseia-se na formulação de modelos probabilísticos capazes de sintetizar novos artefatos de dados semelhantes àqueles observados durante o treinamento.
 
 Do ponto de vista da teoria estatística de aprendizado de máquina, a distinção formal entre um **Modelo Generativo** e um **Modelo Discriminativo** consiste em:
 
-* **A)** O modelo generativo aprende a distribuição de probabilidade conjunta $P(X, Y)$ ou a distribuição dos próprios dados $P(X)$, permitindo gerar novos exemplos realistas; ao passo que o modelo discriminativo aprende a probabilidade condicional $P(Y | X)$, focando exclusivamente em distinguir ou prever o rótulo $Y$ dado um vetor de características $X$.
-* **B)** Modelos discriminativos são exclusivos de tarefas não supervisionadas, enquanto modelos generativos só podem ser aplicados em problemas de regressão linear simples. considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **C)** Modelos generativos avaliam se uma amostra pertence à classe A ou B sem modelar a distribuição dos dados de entrada.
-* **D)** Redes neurais nunca podem ser utilizadas como modelos generativos, sendo essa tarefa restrita a autômatos celulares determinísticos.
-* **E)** O modelo discriminativo tem como objetivo principal gerar imagens e áudios a partir de prompts em linguagem natural.
-
+- **A)** O modelo generativo aprende a distribuição de probabilidade conjunta $P(X, Y)$ ou a distribuição dos próprios dados $P(X)$, permitindo gerar novos exemplos realistas; ao passo que o modelo discriminativo aprende a probabilidade condicional $P(Y | X)$, focando exclusivamente em distinguir ou prever o rótulo $Y$ dado um vetor de características $X$.
+- **B)** Modelos discriminativos são exclusivos de tarefas não supervisionadas, enquanto modelos generativos só podem ser aplicados em problemas de regressão linear simples. considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
+- **C)** Modelos generativos avaliam se uma amostra pertence à classe A ou B sem modelar a distribuição dos dados de entrada.
+- **D)** Redes neurais nunca podem ser utilizadas como modelos generativos, sendo essa tarefa restrita a autômatos celulares determinísticos.
+- **E)** O modelo discriminativo tem como objetivo principal gerar imagens e áudios a partir de prompts em linguagem natural.
 
 ---
 
@@ -306,20 +306,21 @@ Do ponto de vista da teoria estatística de aprendizado de máquina, a distinç�
 > - **C)** Incorreta. Essa é a função exata dos modelos discriminativos (delimitar fronteiras de separação).
 > - **D)** Incorreta. As principais arquiteturas generativas da atualidade (Transformers, GANs, Difusão) são redes neurais profundas.
 > - **E)** Incorreta. A geração de imagens e áudio a partir de texto é realizada por modelos generativos multimodais, e não discriminativos.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 315
+
 **(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**  
 A inteligência artificial generativa (IA generativa) é um campo da inteligência artificial que se concentra na capacidade de criar novos conteúdos e ideias de forma autônoma. Em vez de simplesmente responder a comandos ou fornecer respostas predefinidas, uma IA generativa tem a capacidade de gerar conteúdos originais em uma variedade de formas, como texto, imagens, áudio e vídeo. São exemplos de categorias amplas de modelos de IA generativa:
 
-* **A)** Autocodificadores variacionais e Multilayer Perceptrons.
-* **B)** Transformadores e Algoritmos de retropropagação.
-* **C)** Autocodificadores variacionais e Redes Adversariais.
-* **D)** Algoritmos de retropropagação e ChatGPT.
-* **E)** Gemini e Multilayer Perceptrons.
+- **A)** Autocodificadores variacionais e Multilayer Perceptrons.
+- **B)** Transformadores e Algoritmos de retropropagação.
+- **C)** Autocodificadores variacionais e Redes Adversariais.
+- **D)** Algoritmos de retropropagação e ChatGPT.
+- **E)** Gemini e Multilayer Perceptrons.
 
 ---
 
@@ -331,23 +332,23 @@ A inteligência artificial generativa (IA generativa) é um campo da inteligênc
 >   1. **Autocodificadores Variacionais (VAEs - *Variational Autoencoders*):** Modelos probabilísticos generativos que mapeiam dados em uma distribuição de probabilidade latente regularizada (normal multivariada) e amostram vetores desse espaço para sintetizar novos dados;
 >   2. **Redes Adversárias Generativas (GANs - *Generative Adversarial Networks*):** Arquitetura composta por dois modelos neurais que competem em jogo de soma zero minimax (o *Gerador*, que sintetiza amostras falsas, e o *Discriminador*, que avalia se a amostra é real ou sintetizada).
 > - **D e E) Incorretas.** ChatGPT e Gemini são produtos/aplicações comerciais baseadas em modelos fundacionais LLM; ademais, retropropagação é algoritmo de treino e MLPs são discriminativos clássicos.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 316
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Os Modelos de Difusão (*Diffusion Models*, como DALL-E 3, Midjourney e Stable Diffusion) representam o estado da arte na geração de imagens e conteúdos sintéticos de alta fidelidade.
 
 O princípio físico e matemático fundamental que rege o treinamento e a inferência em um Modelo de Difusão consiste em:
 
-* **A)** Treinar duas redes em competição adversarial de soma zero até que o discriminador atinja 100% de acurácia.
-* **B)** Um Processo Direto (*Forward Process*), no qual ruído Gaussiano é gradualmente injetado nos dados ao longo de múltiplos passos de tempo até que a imagem se torne puro ruído aleatório; e um Processo Reverso (*Reverse Process*), no qual uma rede neural (tipicamente uma U-Net) aprende a estimar e remover progressivamente esse ruído, reconstruindo a imagem a partir do ruído puro condicionada a um prompt textual.
-* **C)** Executar uma busca em profundidade numa árvore de sintaxe abstrata para compor matrizes de pixels RGB por interpolação bicúbica.
-* **D)** Comprimir a imagem em um único número inteiro de 8 bits e descompactá-lo usando o algoritmo de Huffman.
-* **E)** Aplicar transformadas de Fourier bidimensionais sem qualquer parâmetro ajustável por gradiente descendente.
-
+- **A)** Treinar duas redes em competição adversarial de soma zero até que o discriminador atinja 100% de acurácia.
+- **B)** Um Processo Direto (*Forward Process*), no qual ruído Gaussiano é gradualmente injetado nos dados ao longo de múltiplos passos de tempo até que a imagem se torne puro ruído aleatório; e um Processo Reverso (*Reverse Process*), no qual uma rede neural (tipicamente uma U-Net) aprende a estimar e remover progressivamente esse ruído, reconstruindo a imagem a partir do ruído puro condicionada a um prompt textual.
+- **C)** Executar uma busca em profundidade numa árvore de sintaxe abstrata para compor matrizes de pixels RGB por interpolação bicúbica.
+- **D)** Comprimir a imagem em um único número inteiro de 8 bits e descompactá-lo usando o algoritmo de Huffman.
+- **E)** Aplicar transformadas de Fourier bidimensionais sem qualquer parâmetro ajustável por gradiente descendente.
 
 ---
 
@@ -361,12 +362,13 @@ O princípio físico e matemático fundamental que rege o treinamento e a infer�
 > - **C)** Incorreta. Não se baseia em busca em árvores gramaticais.
 > - **D)** Incorreta. Não se relaciona a algoritmos de compressão estática como Huffman.
 > - **E)** Incorreta. Envolve treinamento intensivo de milhões/bilhões de pesos neurais via otimização de gradientes.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 317
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em Modelos de Linguagem de Grande Porte autoregressivos (como as famílias GPT, LLaMA e Gemini), o processo de geração textual consiste em prever iterativamente a probabilidade da próxima palavra ou pedaço de palavra (*token*) a partir dos tokens anteriores:
 
@@ -374,12 +376,11 @@ $$P(w_t | w_1, w_2, \dots, w_{t-1})$$
 
 Para controlar o grau de aleatoriedade, criatividade e determinismo do texto gerado na inferência, desenvolvedores ajustam hiperparâmetros de decodificação. A respeito dos parâmetros **Temperatura (*Temperature*)** e **Top-$p$ (*Nucleus Sampling*)**, assinale a afirmativa correta:
 
-* **A)** Uma Temperatura configurada em 0,0 torna a amostragem completamente estocástica e caótica, escolhendo palavras com as menores probabilidades possíveis.
-* **B)** Aumentar a Temperatura achata a distribuição de probabilidade dos tokens (distribuição mais uniforme), aumentando a probabilidade de seleção de tokens menos prováveis e tornando o texto mais criativo e diverso; ao passo que reduzir a Temperatura para próximo de zero aproxima o modelo de uma busca gananciosa (*Greedy Search*), tornando a resposta altamente previsível e determinística.
-* **C)** O parâmetro Top-$p$ descarta os $p$ primeiros tokens do vocabulário e sorteia apenas entre os termos restantes.
-* **D)** Em tarefas de auditoria estrita e extração factual de dados tabulares de editais de licitação, recomenda-se configurar a Temperatura em seu valor máximo (ex.: 2.0) para maximizar o número de alucinações inovadoras. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** A Temperatura e o Top-$p$ atuam exclusivamente no processo de pré-treinamento com trilhões de tokens, sendo impossível alterá-los durante a chamada de API em tempo de execução.
-
+- **A)** Uma Temperatura configurada em 0,0 torna a amostragem completamente estocástica e caótica, escolhendo palavras com as menores probabilidades possíveis.
+- **B)** Aumentar a Temperatura achata a distribuição de probabilidade dos tokens (distribuição mais uniforme), aumentando a probabilidade de seleção de tokens menos prováveis e tornando o texto mais criativo e diverso; ao passo que reduzir a Temperatura para próximo de zero aproxima o modelo de uma busca gananciosa (*Greedy Search*), tornando a resposta altamente previsível e determinística.
+- **C)** O parâmetro Top-$p$ descarta os $p$ primeiros tokens do vocabulário e sorteia apenas entre os termos restantes.
+- **D)** Em tarefas de auditoria estrita e extração factual de dados tabulares de editais de licitação, recomenda-se configurar a Temperatura em seu valor máximo (ex.: 2.0) para maximizar o número de alucinações inovadoras. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **E)** A Temperatura e o Top-$p$ atuam exclusivamente no processo de pré-treinamento com trilhões de tokens, sendo impossível alterá-los durante a chamada de API em tempo de execução.
 
 ---
 
@@ -392,7 +393,7 @@ Para controlar o grau de aleatoriedade, criatividade e determinismo do texto ger
 > - **C)** Incorreta. O Top-$p$ retém os tokens que somam $p$ da massa de probabilidade principal (*núcleo*), descartando o restante da cauda.
 > - **D)** Incorreta. Em tarefas factuais de auditoria, cálculo financeiro e classificação de conformidade legal, deve-se usar **baixa temperatura** ($T = 0.0$ a $0.2$) para garantir consistência e reprodutibilidade factual, evitando desvios fantasiosos.
 > - **E)** Incorreta. São parâmetros exclusivos de inferência (*runtime decoding parameters*).
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -467,17 +468,17 @@ A arquitetura e os algoritmos do agente são diretamente moldados pelas caracter
 ---
 
 ### Teste 318
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Ao projetar um sistema agentivo inteligente baseado em IA para atuar na fiscalização automatizada de folhas de pagamento do Tribunal de Contas, o arquiteto de software utiliza o modelo formal **PEAS** (Performance, Environment, Actuators, Sensors) preconizado por Russell & Norvig.
 
 Assinale a opção que mapeia correta e respectivamente os elementos do framework PEAS para esse agente inteligente de auditoria:
 
-* **A)** Performance: Banco de dados relacional; Environment: Teclado; Actuators: Memória RAM; Sensors: Cabos de fibra óptica.
-* **B)** Performance: Taxa de acerto na identificação de pagamentos indevidos e minimização de falsos positivos; Environment: Base de dados do tribunal, sistemas do e-Social e diários oficiais; Actuators: Emissão de relatórios de alerta, bloqueio cautelar preventivo e envio de notificações formais; Sensors: Conexões de rede, APIs de consulta a folhas de pagamento e leitores de arquivos de remessa bancária.
-* **C)** Performance: Consumo elétrico dos servidores em watts; Environment: Processador Intel Xeon; Actuators: Mouse; Sensors: Monitor LCD.
-* **D)** Performance: Código-fonte em Python; Environment: Sistema operacional Linux; Actuators: Disco SSD; Sensors: Placa de vídeo.
-* **E)** O framework PEAS proíbe a especificação de medidas de desempenho quantitativas para agentes públicos de controle.
-
+- **A)** Performance: Banco de dados relacional; Environment: Teclado; Actuators: Memória RAM; Sensors: Cabos de fibra óptica.
+- **B)** Performance: Taxa de acerto na identificação de pagamentos indevidos e minimização de falsos positivos; Environment: Base de dados do tribunal, sistemas do e-Social e diários oficiais; Actuators: Emissão de relatórios de alerta, bloqueio cautelar preventivo e envio de notificações formais; Sensors: Conexões de rede, APIs de consulta a folhas de pagamento e leitores de arquivos de remessa bancária.
+- **C)** Performance: Consumo elétrico dos servidores em watts; Environment: Processador Intel Xeon; Actuators: Mouse; Sensors: Monitor LCD.
+- **D)** Performance: Código-fonte em Python; Environment: Sistema operacional Linux; Actuators: Disco SSD; Sensors: Placa de vídeo.
+- **E)** O framework PEAS proíbe a especificação de medidas de desempenho quantitativas para agentes públicos de controle.
 
 ---
 
@@ -492,12 +493,13 @@ Assinale a opção que mapeia correta e respectivamente os elementos do framewor
 > - **C)** Incorreta. Limita-se a periféricos genéricos de desktop.
 > - **D)** Incorreta. Enumera componentes de infraestrutura de TI, desconsiderando a semântica da tarefa.
 > - **E)** Incorreta. A medida de desempenho quantitativa é o núcleo mandatório de qualquer agente racional.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 319
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O projeto de agentes inteligentes de software exige a caracterização prévia das propriedades estruturais do seu ambiente de tarefa, as quais determinam a complexidade do algoritmo decisório a ser adotado.
 
@@ -505,12 +507,11 @@ Considere um agente inteligente projetado para navegar e monitorar pregões elet
 
 Segundo a taxonomia clássica de Russell & Norvig, esse ambiente de tarefa classifica-se formalmente como:
 
-* **A)** Totalmente Observável, Determinístico, Estático, Episódico e Discreto.
-* **B)** Parcialmente Observável, Estocástico, Dinâmico, Sequencial e Contínuo.
-* **C)** Totalmente Observável, Estratégico, Estático, Episódico e Determinístico.
-* **D)** Parcialmente Observável, Determinístico, Estático, Episódico e Individual.
-* **E)** Totalmente Observável, Estocástico, Estático, Não Sequencial e Discreto.
-
+- **A)** Totalmente Observável, Determinístico, Estático, Episódico e Discreto.
+- **B)** Parcialmente Observável, Estocástico, Dinâmico, Sequencial e Contínuo.
+- **C)** Totalmente Observável, Estratégico, Estático, Episódico e Determinístico.
+- **D)** Parcialmente Observável, Determinístico, Estático, Episódico e Individual.
+- **E)** Totalmente Observável, Estocástico, Estático, Não Sequencial e Discreto.
 
 ---
 
@@ -527,22 +528,22 @@ Segundo a taxonomia clássica de Russell & Norvig, esse ambiente de tarefa class
 > - **C)** Incorreta. Em um ambiente dinâmico e parcialmente observável, é inviável classificá-lo como estático e totalmente observável.
 > - **D)** Incorreta. O ambiente não é estático nem episódico.
 > - **E)** Incorreta. O ambiente não é estático nem totalmente observável.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 320
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A teoria canônica de Inteligência Artificial formalizada por Stuart Russell e Peter Norvig organiza o projeto de sistemas computacionais autônomos com base no conceito de Agentes Racionais operando em Ambientes de Tarefas caracterizados pela taxonomia do framework PEAS (*Performance, Environment, Actuators, Sensors*).
 A respeito da classificação e do comportamento dos agentes inteligentes, assinale a alternativa correta:
 
-* **A)** Os Agentes Reativos Simples tomam decisões baseadas no planejamento preditivo de cenários futuros contingenciais e mantêm um histórico analítico de todas as percepções passadas.
-* **B)** Os Agentes Reativos Baseados em Modelos mantêm um estado interno dependente do histórico de percepções, o que lhes permite atuar de forma coerente em ambientes parcialmente observáveis, inferindo variáveis e aspectos do mundo que não estão acessíveis nos sensores no instante da decisão.
-* **C)** Os Agentes Baseados em Objetivos utilizam uma função escalar contínua de utilidade para equilibrar matematicamente a compensação entre objetivos conflitantes quando nenhum resultado perfeito for passível de concretização.
-* **D)** O ambiente de auditoria e fiscalização fiscal de um órgão de controle externo é classificado no framework PEAS como totalmente observável e estático, pois todos os fatos econômicos dos jurisdicionados são imediatamente conhecidos sem latência ou incerteza.
-* **E)** Um agente racional é definido estritamente como aquele que reproduz com total exatidão as falhas cognitivas e o processo emocional do cérebro humano, rejeitando o conceito de maximização de medidas de desempenho esperadas.
-
+- **A)** Os Agentes Reativos Simples tomam decisões baseadas no planejamento preditivo de cenários futuros contingenciais e mantêm um histórico analítico de todas as percepções passadas.
+- **B)** Os Agentes Reativos Baseados em Modelos mantêm um estado interno dependente do histórico de percepções, o que lhes permite atuar de forma coerente em ambientes parcialmente observáveis, inferindo variáveis e aspectos do mundo que não estão acessíveis nos sensores no instante da decisão.
+- **C)** Os Agentes Baseados em Objetivos utilizam uma função escalar contínua de utilidade para equilibrar matematicamente a compensação entre objetivos conflitantes quando nenhum resultado perfeito for passível de concretização.
+- **D)** O ambiente de auditoria e fiscalização fiscal de um órgão de controle externo é classificado no framework PEAS como totalmente observável e estático, pois todos os fatos econômicos dos jurisdicionados são imediatamente conhecidos sem latência ou incerteza.
+- **E)** Um agente racional é definido estritamente como aquele que reproduz com total exatidão as falhas cognitivas e o processo emocional do cérebro humano, rejeitando o conceito de maximização de medidas de desempenho esperadas.
 
 ---
 
@@ -553,7 +554,7 @@ A respeito da classificação e do comportamento dos agentes inteligentes, assin
 > - **C)** Incorreta. A utilização de uma função de utilidade escalar contínua para mediar múltiplos objetivos conflitantes é atribuição do **Agente Baseado na Utilidade** (*Utility-Based Agent*). Agentes Baseados em Objetivos operam com avaliação booleana binária de metas (atingiu ou não atingiu o objetivo).
 > - **D)** Incorreta. Ambientes de controle externo e auditoria tributária são comprovadamente **parcialmente observáveis** (fraudes e sonegações são camufladas) e **dinâmicos** (a economia e os jurisdicionados continuam operando enquanto os relatórios são elaborados).
 > - **E)** Incorreta. O Agente Racional é formalmente conceituado como a entidade computacional que atua para **maximizar a sua medida de desempenho esperada**, apoiando-se em suas percepções e em seu conhecimento acumulado, e não como um simulador de limitações cognitivas humanas.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -574,13 +575,13 @@ O marco fundamental que consolidou a visão-linguagem moderna foi o modelo **CLI
 ```
 
 - **Mecanismo de Aprendizado Contrastivo:**
-    - O CLIP é alimentado por lotes massivos de pares correspondentes $(Imagem_i, Texto_i)$.
-    - Os vetores gerados pelo codificador visual e pelo codificador de texto são projetados em um **espaço vetorial latente compartilhado de dimensão idêntica**.
-    - A função de perda contrastiva (**InfoNCE Loss**) atua em duas frentes complementares:
-    - **Maximiza** a similaridade de cosseno entre a imagem $I_i$ e seu texto descritivo correto $T_i$ (pares positivos);
-    - **Minimiza** a similaridade de cosseno entre a imagem $I_i$ e todas as outras legendas incorretas $T_j$ no mesmo minilote (pares negativos).
+  - O CLIP é alimentado por lotes massivos de pares correspondentes $(Imagem_i, Texto_i)$.
+  - Os vetores gerados pelo codificador visual e pelo codificador de texto são projetados em um **espaço vetorial latente compartilhado de dimensão idêntica**.
+  - A função de perda contrastiva (**InfoNCE Loss**) atua em duas frentes complementares:
+  - **Maximiza** a similaridade de cosseno entre a imagem $I_i$ e seu texto descritivo correto $T_i$ (pares positivos);
+  - **Minimiza** a similaridade de cosseno entre a imagem $I_i$ e todas as outras legendas incorretas $T_j$ no mesmo minilote (pares negativos).
 - **Classificação Zero-Shot (*Zero-Shot Classification*):**
-    - O CLIP dispensa retreinamento supervisionado para novas classes. Para classificar uma foto inédita, projeta-se o embedding da imagem e compara-se sua similaridade de cosseno contra os embeddings textuais de vários prompts candidatos gerados dinamicamente (ex.: *"uma foto de [obra concluída]"*, *"uma foto de [obra abandonada]"*). A classe com maior proximidade angular é selecionada.
+  - O CLIP dispensa retreinamento supervisionado para novas classes. Para classificar uma foto inédita, projeta-se o embedding da imagem e compara-se sua similaridade de cosseno contra os embeddings textuais de vários prompts candidatos gerados dinamicamente (ex.: *"uma foto de [obra concluída]"*, *"uma foto de [obra abandonada]"*). A classe com maior proximidade angular é selecionada.
 
 ### 4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)
 
@@ -591,16 +592,16 @@ O marco fundamental que consolidou a visão-linguagem moderna foi o modelo **CLI
 ---
 
 ### Teste 321
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um projeto de inovação tecnológica do tribunal, a diretoria de TI pretende implementar uma ferramenta de fiscalização capaz de cruzar fotografias de canteiros de obras públicas com os relatórios descritivos de medição de engenharia civil. A equipe técnica optou pela arquitetura multimodal CLIP (*Contrastive Language-Image Pre-training*).
 Sobre os fundamentos operacionais e os benefícios metodológicos da arquitetura CLIP, é correto afirmar:
 
-* **A)** O modelo CLIP opera unicamente como um software sequencial de OCR baseado em expressões regulares, sendo inapto a manipular fotografias de objetos do mundo real que não possuam letreiros gravados.
-* **B)** O treinamento contrastivo do modelo CLIP projeta os vetores emitidos por um codificador visual e por um codificador textual em um espaço latente compartilhado, maximizando a similaridade de cosseno entre pares correspondentes (imagem e legenda descritiva) e minimizando a similaridade de pares desacoplados.
-* **C)** O CLIP exige que qualquer nova categoria de classificação seja submetida a um retreinamento supervisionado completo de todos os seus bilhões de parâmetros (*full fine-tuning*), sendo incapaz de executar predições no modo *Zero-Shot* considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **D)** O codificador visual do CLIP converte obrigatoriamente matrizes bidimensionais de pixels em faixas de áudio comprimidas antes da extração de embeddings semânticos.
-* **E)** O alinhamento semântico cross-modal exige rigorosamente que as sentenças de texto possuam o mesmo número de pixels em resolução gráfica que as matrizes de entrada das imagens.
-
+- **A)** O modelo CLIP opera unicamente como um software sequencial de OCR baseado em expressões regulares, sendo inapto a manipular fotografias de objetos do mundo real que não possuam letreiros gravados.
+- **B)** O treinamento contrastivo do modelo CLIP projeta os vetores emitidos por um codificador visual e por um codificador textual em um espaço latente compartilhado, maximizando a similaridade de cosseno entre pares correspondentes (imagem e legenda descritiva) e minimizando a similaridade de pares desacoplados.
+- **C)** O CLIP exige que qualquer nova categoria de classificação seja submetida a um retreinamento supervisionado completo de todos os seus bilhões de parâmetros (*full fine-tuning*), sendo incapaz de executar predições no modo *Zero-Shot* considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
+- **D)** O codificador visual do CLIP converte obrigatoriamente matrizes bidimensionais de pixels em faixas de áudio comprimidas antes da extração de embeddings semânticos.
+- **E)** O alinhamento semântico cross-modal exige rigorosamente que as sentenças de texto possuam o mesmo número de pixels em resolução gráfica que as matrizes de entrada das imagens.
 
 ---
 
@@ -611,17 +612,17 @@ Sobre os fundamentos operacionais e os benefícios metodológicos da arquitetura
 > - **C)** Incorreta. Uma das maiores conquistas do CLIP é justamente a sua consagrada capacidade de **Classificação Zero-Shot**, que permite classificar imagens em categorias inéditas sem qualquer treino adicional, apenas calculando a similaridade contra prompts textuais descritivos.
 > - **D)** Incorreta. O codificador visual do CLIP opera sobre tensores de imagens usando visão computacional pura (Vision Transformers ou ResNets), sem transformações em arquivos de áudio.
 > - **E)** Incorreta. Sentenças de texto são sequências de tokens discretos e imagens são matrizes contínuas de pixels; a unificação ocorre no nível de projeção matemática abstrata dos embeddings latentes vetoriais (ex.: 512 dimensões), sendo descabida qualquer correspondência de resolução gráfica de pixels entre eles.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [ArXiv - BERT: Pre-training of Deep Bidirectional Transformers (Devlin et al.)](https://arxiv.org/abs/1810.04805) - Representações bidirecionais profundas para compreensão textual e processamento de linguagem natural.
-* [ArXiv - Attention Is All You Need (Vaswani et al.)](https://arxiv.org/abs/1706.03762) - Especificação detalhada de camadas de atenção multi-cabeça (*Multi-Head Attention*) e codificação posicional.
-* [OpenAI Platform - Text Generation and Chat Completion Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Modelos autoregressivos de linguagem, amostragem por temperatura e tokenização BPE.
-* [ArXiv - ReAct: Synergizing Reasoning and Acting in Language Models (Yao et al.)](https://arxiv.org/abs/2210.03629) - Integração de modelos generativos com chamadas de função e raciocínio agentivo.
-* JURAFSKY, Daniel; MARTIN, James H. **Speech and Language Processing**. 3. ed. Stanford University, 2024. (Cap. 9 a 11 - Modelos de Linguagem Pré-treinados e Geração Textual).
-* RUSSELL, Stuart; NORVIG, Peter. **Inteligência Artificial: Uma Abordagem Moderna**. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 24 - Processamento de Linguagem Natural com Aprendizado Profundo).
-* HUYEN, Chip. **AI Engineering: Building Applications with Foundation Models**. Sebastopol: O'Reilly Media, 2025. (Cap. 3 - Multimodality and Agentic Workflows).
+- [ArXiv - BERT: Pre-training of Deep Bidirectional Transformers (Devlin et al.)](https://arxiv.org/abs/1810.04805) - Representações bidirecionais profundas para compreensão textual e processamento de linguagem natural.
+- [ArXiv - Attention Is All You Need (Vaswani et al.)](https://arxiv.org/abs/1706.03762) - Especificação detalhada de camadas de atenção multi-cabeça (*Multi-Head Attention*) e codificação posicional.
+- [OpenAI Platform - Text Generation and Chat Completion Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Modelos autoregressivos de linguagem, amostragem por temperatura e tokenização BPE.
+- [ArXiv - ReAct: Synergizing Reasoning and Acting in Language Models (Yao et al.)](https://arxiv.org/abs/2210.03629) - Integração de modelos generativos com chamadas de função e raciocínio agentivo.
+- JURAFSKY, Daniel; MARTIN, James H. **Speech and Language Processing**. 3. ed. Stanford University, 2024. (Cap. 9 a 11 - Modelos de Linguagem Pré-treinados e Geração Textual).
+- RUSSELL, Stuart; NORVIG, Peter. **Inteligência Artificial: Uma Abordagem Moderna**. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 24 - Processamento de Linguagem Natural com Aprendizado Profundo).
+- HUYEN, Chip. **AI Engineering: Building Applications with Foundation Models**. Sebastopol: O'Reilly Media, 2025. (Cap. 3 - Multimodality and Agentic Workflows).

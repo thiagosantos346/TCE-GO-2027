@@ -5,10 +5,7 @@
 > **Arquivo:** `03_planejamento_amostragem_procedimentos_e_achados.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 
@@ -18,10 +15,10 @@
 - Amostragem em auditoria governamental: amostragem probabilística (estatística) e não probabilística (por julgamento); métodos de amostragem e risco de amostragem (Risco Alfa e Risco Beta);
 - Programas de auditoria e papéis de trabalho (documentação de auditoria): finalidades, requisitos de clareza e completude, confidencialidade, arquivos correntes e permanentes;
 - Técnicas e procedimentos de auditoria governamental:
-    - Exame documental, inspeção física, conferência de cálculos (recálculo), observação direta, entrevistas técnicas;
-    - Circularização (confirmação externa: modalidades positiva em branco, positiva em preto e negativa);
-    - Conciliação contábil e bancária;
-    - Procedimentos analíticos / Revisão analítica (estudo de relações plausíveis, flutuações e índices);
+  - Exame documental, inspeção física, conferência de cálculos (recálculo), observação direta, entrevistas técnicas;
+  - Circularização (confirmação externa: modalidades positiva em branco, positiva em preto e negativa);
+  - Conciliação contábil e bancária;
+  - Procedimentos analíticos / Revisão analítica (estudo de relações plausíveis, flutuações e índices);
 - Evidências de auditoria: atributos essenciais de validade (suficiência, adequação/pertinência e confiabilidade);
 - Estruturação anatômica dos achados de auditoria: Critério, Condição, Causa e Efeito;
 - Matriz de Achados e Matriz de Responsabilização (conduta, nexo de causalidade e culpabilidade à luz do Art. 28 da LINDB).
@@ -30,21 +27,21 @@
 
 ## 🧭 Sumário
 
-1. [Planejamento da Fiscalização e Avaliação de Risco](#1-planejamento-da-fiscalizacao-e-avaliacao-de-risco)
-    - [1.1 Critérios de Seleção de Objetos de Controle (Critérios MRC)](#11-criterios-de-selecao-de-objetos-de-controle-criterios-mrc)
-    - [1.2 O Modelo do Risco de Auditoria (Auditoria Risk - AR)](#12-o-modelo-do-risco-de-auditoria-auditoria-risk-ar)
-    - [1.3 Amostragem em Auditoria Governamental e Riscos Amostrais](#13-amostragem-em-auditoria-governamental-e-riscos-amostrais)
-    - [Teste 187](#teste-187)
-    - [Teste 188](#teste-188)
-    - [Teste 189](#teste-189)
-    - [Teste 190](#teste-190)
-    - [Teste 191](#teste-191)
-    - [Teste 192](#teste-192)
-    - [Teste 193](#teste-193)
-    - [Teste 194](#teste-194)
-    - [Teste 195](#teste-195)
-    - [Teste 196](#teste-196)
-    - [Teste 197](#teste-197)
+1. [Planejamento da Fiscalização e Avaliação de Risco](#1-planejamento-da-fiscalização-e-avaliação-de-risco)
+    1. [Critérios de Seleção de Objetos de Controle (Critérios MRC)](#11-critérios-de-seleção-de-objetos-de-controle-critérios-mrc)
+    1. [O Modelo do Risco de Auditoria (Auditoria Risk - AR)](#12-o-modelo-do-risco-de-auditoria-auditoria-risk---ar)
+    1. [Amostragem em Auditoria Governamental e Riscos Amostrais](#13-amostragem-em-auditoria-governamental-e-riscos-amostrais)
+    1. [Teste 187](#teste-187)
+    1. [Teste 188](#teste-188)
+    1. [Teste 189](#teste-189)
+    1. [Teste 190](#teste-190)
+    1. [Teste 191](#teste-191)
+    1. [Teste 192](#teste-192)
+    1. [Teste 193](#teste-193)
+    1. [Teste 194](#teste-194)
+    1. [Teste 195](#teste-195)
+    1. [Teste 196](#teste-196)
+    1. [Teste 197](#teste-197)
 
 ---
 
@@ -53,6 +50,7 @@
 O Tribunal de Contas atua pautado pelo planejamento estratégico e pela alocação racional e eficiente de seus auditores e recursos técnicos.
 
 ### 1.1 Critérios de Seleção de Objetos de Controle (Critérios MRC)
+
 Os objetos de controle a serem incluídos no Plano Anual de Fiscalização são priorizados com base nos consagrados critérios **MRC**:
 
 - **Materialidade:** Representatividade monetária dos recursos geridos pelo órgão (volume financeiro, orçamentário e patrimonial envolvido).
@@ -72,6 +70,7 @@ flowchart TD
 ```
 
 ### 1.2 O Modelo do Risco de Auditoria (Auditoria Risk - AR)
+
 O **Risco de Auditoria (RA)** é o risco de o auditor expressar uma conclusão inadequada quando as informações objeto de fiscalização contiverem distorções relevantes.
 O modelo decompõe-se na seguinte relação:
 
@@ -95,24 +94,26 @@ flowchart TD
 > - O único risco que o auditor pode e deve controlar diretamente é o **Risco de Detecção (RD)**! Se o auditor identifica que o ambiente auditado tem alto risco inerente e péssimo controle interno (alto RDR), ele deve planejar testes mais rigorosos, com amostras maiores e procedimentos aprofundados, diminuindo o seu risco de detecção para manter o risco de auditoria global em nível aceitável.
 
 ### 1.3 Amostragem em Auditoria Governamental e Riscos Amostrais
+
 - **Amostragem Estatística (Probabilística):** Seleção aleatória de itens na qual cada item da população possui chance conhecida e diferente de zero de ser selecionado. Permite a avaliação quantitativa do risco de amostragem mediante intervalos de confiança matemáticos.
-    - *Tipos:* Aleatória simples, sistemática (intervalo regular de seleção), estratificada (subdivisão da população em estratos homogêneos) e por unidade monetária (foco em valores financeiros mais expressivos).
+  - *Tipos:* Aleatória simples, sistemática (intervalo regular de seleção), estratificada (subdivisão da população em estratos homogêneos) e por unidade monetária (foco em valores financeiros mais expressivos).
 - **Amostragem Não Estatística (Não Probabilística):** Seleção fundamentada exclusivamente no julgamento profissional, conhecimento prévio ou intuição do auditor.
 - **Riscos de Amostragem na FCC:**
-    - *Risco Alfa (Risco de Rejeição Incorreta):* Concluir que a amostra apresenta falhas graves quando a população total está em conformidade. Afeta a **eficiência** do trabalho (gera retrabalho e testes desnecessários).
-    - *Risco Beta (Risco de Aceitação Incorreta):* Concluir que a amostra está adequada quando a população total contém erros relevantes graves. Afeta a **eficácia** da auditoria e é o mais perigoso, pois o auditor chancela contas viciadas.
+  - *Risco Alfa (Risco de Rejeição Incorreta):* Concluir que a amostra apresenta falhas graves quando a população total está em conformidade. Afeta a **eficiência** do trabalho (gera retrabalho e testes desnecessários).
+  - *Risco Beta (Risco de Aceitação Incorreta):* Concluir que a amostra está adequada quando a população total contém erros relevantes graves. Afeta a **eficácia** da auditoria e é o mais perigoso, pois o auditor chancela contas viciadas.
 
 ---
 
 ### Teste 187
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No planejamento de uma auditoria governamental de acordo com as normas da NBASP / INTOSAI, a elaboração da Matriz de Planejamento é etapa essencial para estruturar os trabalhos de campo. A respeito dos elementos integrantes da Matriz de Planejamento, é correto afirmar:
 
-* **A)** A delimitação do escopo dispensa a formulação prévia de questões de auditoria quando o órgão for submetido a inspeção ordinária pelo TC.
-* **B)** As questões de auditoria orientam as informações requeridas, fontes de dados, procedimentos e possíveis achados.
-* **C)** A equipe de fiscalização é impedida de alterar o cronograma ou os testes previstos na matriz durante a execução dos trabalhos.
-* **D)** A definição de critérios é restrita aos preceitos legais e regulamentares formais, vedado o emprego de boas práticas gerenciais.
-* **E)** As limitações metodológicas devem ser mantidas em segredo pelos auditores para resguardar a presunção de veracidade da Corte.
+- **A)** A delimitação do escopo dispensa a formulação prévia de questões de auditoria quando o órgão for submetido a inspeção ordinária pelo TC.
+- **B)** As questões de auditoria orientam as informações requeridas, fontes de dados, procedimentos e possíveis achados.
+- **C)** A equipe de fiscalização é impedida de alterar o cronograma ou os testes previstos na matriz durante a execução dos trabalhos.
+- **D)** A definição de critérios é restrita aos preceitos legais e regulamentares formais, vedado o emprego de boas práticas gerenciais.
+- **E)** As limitações metodológicas devem ser mantidas em segredo pelos auditores para resguardar a presunção de veracidade da Corte.
 
 ---
 
@@ -127,14 +128,15 @@ No planejamento de uma auditoria governamental de acordo com as normas da NBASP 
 > **Gabarito: B**
 
 ### Teste 188
+
 **(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo – Questão Real RAG ID: `V3_FGV_TCE_SC_2026_Q3147`)**  
 Ao executar uma auditoria de conformidade em obras de infraestrutura rodoviária, uma equipe de auditores de controle externo do Tribunal de Contas evidenciou graves irregularidades na medição de serviços de pavimentação, com sobrepreço e pagamento de serviços não executados. Segundo as normas de auditoria governamental (NBASP/ISSAI), para fundamentar a elaboração do relatório técnico e a proposta de encaminhamento, as evidências de auditoria devem ser:
 
-* **A)** baseadas exclusivamente em impressões subjetivas dos auditores, sem necessidade de suporte documental.
-* **B)** colhidas apenas se houver concordância prévia do gestor responsável pela obra.
-* **C)** restritas a depoimentos orais prestados pelos funcionários da empresa contratada.
-* **D)** suficientes, apropriadas, relevantes e confiáveis, de modo a permitir que qualquer profissional chegue à mesma conclusão.
-* **E)** presumidas como verdadeiras em decorrência do princípio da presunção absoluta de veracidade dos atos de fiscalização.
+- **A)** baseadas exclusivamente em impressões subjetivas dos auditores, sem necessidade de suporte documental.
+- **B)** colhidas apenas se houver concordância prévia do gestor responsável pela obra.
+- **C)** restritas a depoimentos orais prestados pelos funcionários da empresa contratada.
+- **D)** suficientes, apropriadas, relevantes e confiáveis, de modo a permitir que qualquer profissional chegue à mesma conclusão.
+- **E)** presumidas como verdadeiras em decorrência do princípio da presunção absoluta de veracidade dos atos de fiscalização.
 
 ---
 
@@ -148,14 +150,15 @@ Ao executar uma auditoria de conformidade em obras de infraestrutura rodoviária
 ---
 
 ### Teste 189
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em relação aos papéis de trabalho (documentação de auditoria) disciplinados nas normas de fiscalização dos Tribunais de Contas, analise as afirmativas:
 
-* **A)** O descarte de papéis de trabalho pode ocorrer no encerramento da execução, dispensando-se arquivo permanente.
-* **B)** A documentação de auditoria deve ser mantida em sigilo absoluto mesmo perante os membros julgadores do Tribunal.
-* **C)** Os papéis de trabalho devem ser suficientes para permitir que auditor experiente compreenda a natureza e achados.
-* **D)** É vedada a utilização de registros fotográficos e gravações digitais como suporte probatório de achados no campo.
-* **E)** A guarda dos papéis de trabalho é facultativa para auditorias de conformidade com parecer prévio sem ressalvas.
+- **A)** O descarte de papéis de trabalho pode ocorrer no encerramento da execução, dispensando-se arquivo permanente.
+- **B)** A documentação de auditoria deve ser mantida em sigilo absoluto mesmo perante os membros julgadores do Tribunal.
+- **C)** Os papéis de trabalho devem ser suficientes para permitir que auditor experiente compreenda a natureza e achados.
+- **D)** É vedada a utilização de registros fotográficos e gravações digitais como suporte probatório de achados no campo.
+- **E)** A guarda dos papéis de trabalho é facultativa para auditorias de conformidade com parecer prévio sem ressalvas.
 
 ---
 
@@ -170,14 +173,15 @@ Em relação aos papéis de trabalho (documentação de auditoria) disciplinados
 > **Gabarito: C**
 
 ### Teste 190
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Os papéis de trabalho constituem a documentação indispensável do planejamento, da execução e dos resultados alcançados pelo controle externo. A respeito da finalidade e propriedade dos papéis de trabalho, é correto afirmar:
 
-* **A)** Pertencem originariamente ao administrador do órgão fiscalizado, cabendo ao Tribunal de Contas apenas a consulta.
-* **B)** Constituem propriedade privativa do Tribunal de Contas e fundamentam o relatório, as conclusões e a proposta de voto.
-* **C)** Têm como única finalidade subsidiar a aplicação de sanções administrativas aos gestores públicos do Poder Executivo.
-* **D)** Não podem ser examinados pelas equipes de controle de qualidade dos Tribunais de Contas por força de sigilo funcional.
-* **E)** São dispensáveis nas fiscalizações concomitantes que adotam a metodologia de monitoramento contínuo informatizado.
+- **A)** Pertencem originariamente ao administrador do órgão fiscalizado, cabendo ao Tribunal de Contas apenas a consulta.
+- **B)** Constituem propriedade privativa do Tribunal de Contas e fundamentam o relatório, as conclusões e a proposta de voto.
+- **C)** Têm como única finalidade subsidiar a aplicação de sanções administrativas aos gestores públicos do Poder Executivo.
+- **D)** Não podem ser examinados pelas equipes de controle de qualidade dos Tribunais de Contas por força de sigilo funcional.
+- **E)** São dispensáveis nas fiscalizações concomitantes que adotam a metodologia de monitoramento contínuo informatizado.
 
 ---
 
@@ -192,14 +196,15 @@ Os papéis de trabalho constituem a documentação indispensável do planejament
 > **Gabarito: B**
 
 ### Teste 191
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No planejamento e execução de auditorias do setor público, as equipes utilizam técnicas de amostragem para fundamentar suas conclusões sobre a população sob exame. A respeito da amostragem estatística e não estatística, é correto afirmar:
 
-* **A)** A amostragem não estatística (por julgamento) permite mensurar objetivamente o risco de amostragem em percentual.
-* **B)** A amostragem estatística exige seleção aleatória dos itens e aplicação da teoria das probabilidades aos dados.
-* **C)** O erro tolerável é o montante máximo de distorção aceito pelo gestor do órgão auditado na prestação de contas.
-* **D)** A estratificação populacional é vedada na auditoria financeira governamental por distorcer a média aritmética.
-* **E)** O tamanho da amostra diminui linearmente quando o auditor reduz o nível de risco de amostragem aceitável no teste de controle.
+- **A)** A amostragem não estatística (por julgamento) permite mensurar objetivamente o risco de amostragem em percentual.
+- **B)** A amostragem estatística exige seleção aleatória dos itens e aplicação da teoria das probabilidades aos dados.
+- **C)** O erro tolerável é o montante máximo de distorção aceito pelo gestor do órgão auditado na prestação de contas.
+- **D)** A estratificação populacional é vedada na auditoria financeira governamental por distorcer a média aritmética.
+- **E)** O tamanho da amostra diminui linearmente quando o auditor reduz o nível de risco de amostragem aceitável no teste de controle.
 
 ---
 
@@ -214,14 +219,15 @@ No planejamento e execução de auditorias do setor público, as equipes utiliza
 > **Gabarito: B**
 
 ### Teste 192
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito dos trabalhos de fiscalização governamental conduzidos por Tribunal de Contas, a equipe de auditoria decide obter uma declaração escrita diretamente de uma instituição bancária sobre os saldos mantidos por determinado fundo previdenciário público. Esse procedimento técnico de auditoria é denominado:
 
-* **A)** inspeção física direta de bens e ativos estatais.
-* **B)** confirmação externa (circularização).
-* **C)** recálculo aritmético de lançamentos.
-* **D)** procedimento analítico comparativo.
-* **E)** reexecução de rotinas operacionais.
+- **A)** inspeção física direta de bens e ativos estatais.
+- **B)** confirmação externa (circularização).
+- **C)** recálculo aritmético de lançamentos.
+- **D)** procedimento analítico comparativo.
+- **E)** reexecução de rotinas operacionais.
 
 ---
 
@@ -236,14 +242,15 @@ No âmbito dos trabalhos de fiscalização governamental conduzidos por Tribunal
 > **Gabarito: B**
 
 ### Teste 193
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante auditoria de conformidade em contrato de fornecimento de merenda escolar, a equipe de controle externo constatou indícios de superfaturamento de quantitativos e entrega de gêneros alimentícios impróprios para consumo. Para constatar a real ocorrência dos fatos, os auditores compareceram aos depósitos escolares durante o recebimento dos alimentos e examinaram as notas fiscais e certificados fitossanitários. Os procedimentos aplicados correspondem, respectivamente, a:
 
-* **A)** procedimento analítico e recálculo.
-* **B)** observação direta e inspeção documental.
-* **C)** confirmação externa e reexecução.
-* **D)** circularização e entrevista estruturada.
-* **E)** conciliação bancária e teste de aderência.
+- **A)** procedimento analítico e recálculo.
+- **B)** observação direta e inspeção documental.
+- **C)** confirmação externa e reexecução.
+- **D)** circularização e entrevista estruturada.
+- **E)** conciliação bancária e teste de aderência.
 
 ---
 
@@ -258,14 +265,15 @@ Durante auditoria de conformidade em contrato de fornecimento de merenda escolar
 > **Gabarito: B**
 
 ### Teste 194
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A validade e a força persuasiva de um relatório de fiscalização do Tribunal de Contas dependem da qualidade das evidências obtidas pelos auditores durante a instrução do processo. A respeito dos atributos da suficiência e da apropriação (relevância e confiabilidade) das evidências de auditoria, é correto afirmar:
 
-* **A)** A suficiência é a medida da qualidade da evidência obtida pelos auditores no campo.
-* **B)** A suficiência é a medida da quantidade da evidência, e a apropriação é a medida de sua qualidade.
-* **C)** Evidências obtidas de fontes internas da entidade são mais confiáveis do que as de fontes externas.
-* **D)** A obtenção de evidências orais colhidas em conversas informais dispensa a formalização por escrito.
-* **E)** Documentos originais e cópias autenticadas possuem menor valor probatório do que impressões anônimas.
+- **A)** A suficiência é a medida da qualidade da evidência obtida pelos auditores no campo.
+- **B)** A suficiência é a medida da quantidade da evidência, e a apropriação é a medida de sua qualidade.
+- **C)** Evidências obtidas de fontes internas da entidade são mais confiáveis do que as de fontes externas.
+- **D)** A obtenção de evidências orais colhidas em conversas informais dispensa a formalização por escrito.
+- **E)** Documentos originais e cópias autenticadas possuem menor valor probatório do que impressões anônimas.
 
 ---
 
@@ -280,14 +288,15 @@ A validade e a força persuasiva de um relatório de fiscalização do Tribunal 
 > **Gabarito: B**
 
 ### Teste 195
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em relatório de auditoria de obras rodoviárias, a equipe do Tribunal de Contas apontou que a camada asfáltica executada pela empreiteira apresentou espessura média de 3 cm (situação encontrada), enquanto as especificações do edital e o projeto executivo exigiam espessura de 5 cm (critério normativo), gerando degradação prematura do pavimento e risco de prejuízo financeiro ao Estado (efeito). No jargão da auditoria governamental, a integração harmônica desses elementos caracteriza um:
 
-* **A)** escopo de amostragem estatística.
-* **B)** plano preliminar de fiscalização.
-* **C)** achado de auditoria governamental.
-* **D)** mapa institucional de riscos operacionais.
-* **E)** termo de ajustamento de conduta executivo.
+- **A)** escopo de amostragem estatística.
+- **B)** plano preliminar de fiscalização.
+- **C)** achado de auditoria governamental.
+- **D)** mapa institucional de riscos operacionais.
+- **E)** termo de ajustamento de conduta executivo.
 
 ---
 
@@ -302,14 +311,15 @@ Em relatório de auditoria de obras rodoviárias, a equipe do Tribunal de Contas
 > **Gabarito: C**
 
 ### Teste 196
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Ao elaborar a Matriz de Responsabilização em processo de tomada de contas especial decorrente de achado de superfaturamento em compras públicas, a equipe de auditoria deve identificar com rigor técnico o nexo causal e o elemento subjetivo da conduta dos responsáveis. Para imputação de débito sancionatório com base no art. 28 da LINDB, é indispensável demonstrar que o agente público atuou com:
 
-* **A)** culpa leve decorrente de erro procedimental escusável.
-* **B)** dolo ou erro grosseiro na prática do ato administrativo.
-* **C)** responsabilidade objetiva pura decorrente da titularidade do cargo público.
-* **D)** boa-fé estrita respaldada em parecer técnico vinculante.
-* **E)** omissão irrelevante desprovida de nexo com o dano apurado.
+- **A)** culpa leve decorrente de erro procedimental escusável.
+- **B)** dolo ou erro grosseiro na prática do ato administrativo.
+- **C)** responsabilidade objetiva pura decorrente da titularidade do cargo público.
+- **D)** boa-fé estrita respaldada em parecer técnico vinculante.
+- **E)** omissão irrelevante desprovida de nexo com o dano apurado.
 
 ---
 
@@ -324,14 +334,15 @@ Ao elaborar a Matriz de Responsabilização em processo de tomada de contas espe
 > **Gabarito: B**
 
 ### Teste 197
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Ao finalizar os trabalhos de execução no campo, antes da emissão definitiva do relatório de auditoria, a equipe técnica do Tribunal de Contas realiza reuniões com a administração auditada para apresentação preliminar dos achados e discussão das conclusões. A respeito da comunicação dos achados de auditoria e da solicitação de manifestação dos gestores antes do relatório final, é correto afirmar:
 
-* **A)** É vedada aos auditores sob pena de violação do sigilo das apurações preliminares do Tribunal de Contas.
-* **B)** É prática recomendada para assegurar clareza aos fatos e oportunidade de esclarecimento prévio.
-* **C)** Transfere para a administração auditada a titularidade formal sobre a redação do relatório final de controle externo.
-* **D)** Condiciona a validade do relatório à anuência e concordância expressa de todas as autoridades fiscalizadas.
-* **E)** Impede a posterior aplicação de sanções administrativas caso os gestores reconheçam expressamente a falha.
+- **A)** É vedada aos auditores sob pena de violação do sigilo das apurações preliminares do Tribunal de Contas.
+- **B)** É prática recomendada para assegurar clareza aos fatos e oportunidade de esclarecimento prévio.
+- **C)** Transfere para a administração auditada a titularidade formal sobre a redação do relatório final de controle externo.
+- **D)** Condiciona a validade do relatório à anuência e concordância expressa de todas as autoridades fiscalizadas.
+- **E)** Impede a posterior aplicação de sanções administrativas caso os gestores reconheçam expressamente a falha.
 
 ---
 
@@ -344,4 +355,3 @@ Ao finalizar os trabalhos de execução no campo, antes da emissão definitiva d
 > - **E)** **Incorreto**. O reconhecimento não anula a irregularidade nem elide a competência sancionatória do Tribunal.
 >
 > **Gabarito: B**
-

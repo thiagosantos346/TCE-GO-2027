@@ -4,45 +4,43 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `03_processo_decisorio_visao_sistemica_e_gerenciamento_de_projetos.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - O processo decisório na administração: etapas lógicas do ciclo decisório (identificação do problema, diagnóstico, formulação de alternativas, avaliação comparativa, escolha, implementação e avaliação dos resultados);
 - Tipos de decisões organizacionais segundo Herbert Simon:
-    - Decisões Programadas (estruturadas, rotineiras, repetitivas, amparadas por regras, resoluções e POPs);
-    - Decisões Não Programadas (não estruturadas, inéditas, complexas, estratégicas e tomadas sob turbulência);
+  - Decisões Programadas (estruturadas, rotineiras, repetitivas, amparadas por regras, resoluções e POPs);
+  - Decisões Não Programadas (não estruturadas, inéditas, complexas, estratégicas e tomadas sob turbulência);
 - Condições ambientais da tomada de decisão: condições de certeza, risco, incerteza e ambiguidade;
 - Visão sistêmica nas organizações:
-    - O pensamento holístico e a superação da visão fragmentada departamental (fim dos "silos organizacionais" ou feudos administrativos);
-    - Sinergia organizacional ($1 + 1 > 2$) e interdependência dos subsistemas (técnico, estrutural, psicossocial e gerencial de Kast e Rosenzweig);
-    - Equifinalidade e homeostase dinâmica na preservação da missão institucional perante o ambiente externo;
+  - O pensamento holístico e a superação da visão fragmentada departamental (fim dos "silos organizacionais" ou feudos administrativos);
+  - Sinergia organizacional ($1 + 1 > 2$) e interdependência dos subsistemas (técnico, estrutural, psicossocial e gerencial de Kast e Rosenzweig);
+  - Equifinalidade e homeostase dinâmica na preservação da missão institucional perante o ambiente externo;
 - Noções fundamentais de Gerenciamento de Projetos:
-    - Conceito de projeto segundo as boas práticas do PMI/PMBOK;
-    - A restrição tripla do gerenciamento de projetos: Escopo, Tempo e Custo (balizados pelo padrão de Qualidade);
-    - Ferramentas clássicas de acompanhamento e controle de projetos: Gráfico de Gantt, Método do Caminho Crítico (CPM - *Critical Path Method*) e técnica PERT (*Program Evaluation and Review Technique* com três estimativas de tempo).
+  - Conceito de projeto segundo as boas práticas do PMI/PMBOK;
+  - A restrição tripla do gerenciamento de projetos: Escopo, Tempo e Custo (balizados pelo padrão de Qualidade);
+  - Ferramentas clássicas de acompanhamento e controle de projetos: Gráfico de Gantt, Método do Caminho Crítico (CPM - *Critical Path Method*) e técnica PERT (*Program Evaluation and Review Technique* com três estimativas de tempo).
 
 ---
 
 ## 🧭 Sumário
 
-1. [O Ciclo do Processo Decisório e a Tipologia de Decisões (Herbert Simon)](#1-o-ciclo-do-processo-decisorio-e-a-tipologia-de-decisoes-herbert-simon)
-    - [Teste 360](#teste-360)
-    - [Teste 361](#teste-361)
-2. [Condições Ambientais da Tomada de Decisão](#2-condicoes-ambientais-da-tomada-de-decisao)
-    - [Teste 362](#teste-362)
-    - [Teste 363](#teste-363)
-3. [Visão Sistêmica, Pensamento Holístico e Silos Organizacionais](#3-visao-sistemica-pensamento-holistico-e-silos-organizacionais)
-    - [Teste 364](#teste-364)
-    - [Teste 365](#teste-365)
-4. [Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT](#4-gerenciamento-de-projetos-restricao-tripla-gantt-cpm-e-pert)
-    - [Teste 366](#teste-366)
-    - [Teste 367](#teste-367)
-    - [Teste 368](#teste-368)
-    - [Teste 369](#teste-369)
-5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referencias-bibliograficas)
+1. [O Ciclo do Processo Decisório e a Tipologia de Decisões (Herbert Simon)](#1-o-ciclo-do-processo-decisório-e-a-tipologia-de-decisões-herbert-simon)
+    1. [Teste 360](#teste-360)
+    1. [Teste 361](#teste-361)
+2. [Condições Ambientais da Tomada de Decisão](#2-condições-ambientais-da-tomada-de-decisão)
+    1. [Teste 362](#teste-362)
+    1. [Teste 363](#teste-363)
+3. [Visão Sistêmica, Pensamento Holístico e Silos Organizacionais](#3-visão-sistêmica-pensamento-holístico-e-silos-organizacionais)
+    1. [Teste 364](#teste-364)
+    1. [Teste 365](#teste-365)
+4. [Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT](#4-gerenciamento-de-projetos-restrição-tripla-gantt-cpm-e-pert)
+    1. [Teste 366](#teste-366)
+    1. [Teste 367](#teste-367)
+    1. [Teste 368](#teste-368)
+    1. [Teste 369](#teste-369)
+5. [Fontes Oficiais e Referências Bibliográficas](#5-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -53,7 +51,7 @@ O processo decisório é a sequência lógica e deliberada de passos cognitivos 
 ```mermaid
 flowchart TD
     Ciclo["As 7 Etapas do Ciclo Decisório Organizacional"]
-    
+  
     Ciclo --> E1["1. Identificação do Problema ou Oportunidade<br/>(Reconhecimento da discrepância entre o estado real e o desejado)"]
     E1 --> E2["2. Diagnóstico da Situação e Coleta de Dados<br/>(Mapeamento de causas profundas e evidências fáticas)"]
     E2 --> E3["3. Formulação e Desenvolvimento de Alternativas<br/>(Geração de diferentes cursos de ação possíveis)"]
@@ -64,16 +62,16 @@ flowchart TD
     E7 -->|Feedback corretivo contínuo| E1
 ```
 
-#### Decisões Programadas versus Não Programadas (Herbert Simon):
+#### Decisões Programadas versus Não Programadas (Herbert Simon)
 
 Herbert Simon dividiu as decisões administrativas em duas categorias essenciais:
 
 ```mermaid
 flowchart TD
     Dec["Tipos de Decisões Organizacionais (Herbert Simon)"]
-    
+  
     Dec --> Prog["DECISÕES PROGRAMADAS<br/>• Problemas repetitivos, rotineiros e bem estruturados<br/>• Soluções pré-fixadas em leis, resoluções normativas e POPs<br/>• Nível Operacional e Chefias Intermediárias<br/>• Ex.: Concessão de licença-prêmio a servidor público"]
-    
+  
     Dec --> NProg["DECISÕES NÃO PROGRAMADAS<br/>• Problemas inéditos, complexos e mal estruturados<br/>• Demandam julgamento crítico, visão holística e inovação<br/>• Alta Cúpula Diretiva / Nível Estratégico<br/>• Ex.: Plano de contingência operacional diante de pandemia"]
 ```
 
@@ -92,15 +90,15 @@ flowchart TD
 ---
 
 ### Teste 360
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinado setor administrativo de um Tribunal de Contas analisa diariamente dezenas de pedidos de prorrogação de prazo protocolados por jurisdicionados. O procedimento para deferimento ou indeferimento do pedido segue critérios estritos, pré-fixados de forma taxativa em resolução normativa do Tribunal, avaliando-se apenas a tempestividade do protocolo e o anexo do atestado médico. Nos termos da tipologia do processo decisório formulada por Herbert Simon, a deliberação do chefe do setor constitui típica:
 
-* **A)** Decisão não programada.
-* **B)** Decisão intuitiva em condição de ambiguidade.
-* **C)** Decisão programada.
-* **D)** Decisão holística sob incerteza extrema.
-* **E)** Decisão estratégica de ruptura.
-
+- **A)** Decisão não programada.
+- **B)** Decisão intuitiva em condição de ambiguidade.
+- **C)** Decisão programada.
+- **D)** Decisão holística sob incerteza extrema.
+- **E)** Decisão estratégica de ruptura.
 
 ---
 
@@ -111,23 +109,23 @@ Determinado setor administrativo de um Tribunal de Contas analisa diariamente de
 > - **C) CORRETA.** As **decisões programadas** são aquelas que tratam de problemas rotineiros, estruturados e repetitivos, cuja resposta é automática e amparada em normas regimentais, resoluções, regras fixas ou procedimentos operacionais padrão (POPs) preestabelecidos pela organização.  
 > - **D) Incorreta.** Os parâmetros são plenamente conhecidos, inexistindo incerteza extrema.  
 > - **E) Incorreta.** A análise de pedidos de prazo de rotina é tarefa operacional, e não decisão estratégica de ruptura.  
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 361
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Herbert Simon, em sua obra clássica *O Comportamento Administrativo* (prêmio Nobel de Economia de 1978), formulou a Teoria da **Racionalidade Limitada** (*Bounded Rationality*) na tomada de decisões.
 
 Segundo a teoria da racionalidade limitada de Simon:
 
-* **A)** O tomador de decisões é incapaz de obter e processar todas as informações disponíveis e prever todas as consequências futuras possíveis; por isso, em vez de buscar a decisão ótima máxima, ele opta por uma decisão **satisfatória** que atenda aos padrões mínimos aceitáveis.
-* **B)** O gestor público possui capacidade cognitiva infinita e recursos ilimitados para identificar a solução perfeita e maximizadora para cada problema.
-* **C)** O processo decisório deve ser guiado exclusivamente pela intuição e pela sorte, visto que a análise racional é impossível na vida pública.
-* **D)** As decisões programadas exigem a realização de assembleias públicas populares para cada ato administrativo rotineiro.
-* **E)** A racionalidade limitada impede que a Administração Pública utilize computadores ou sistemas de dados no auxílio à decisão.
-
+- **A)** O tomador de decisões é incapaz de obter e processar todas as informações disponíveis e prever todas as consequências futuras possíveis; por isso, em vez de buscar a decisão ótima máxima, ele opta por uma decisão **satisfatória** que atenda aos padrões mínimos aceitáveis.
+- **B)** O gestor público possui capacidade cognitiva infinita e recursos ilimitados para identificar a solução perfeita e maximizadora para cada problema.
+- **C)** O processo decisório deve ser guiado exclusivamente pela intuição e pela sorte, visto que a análise racional é impossível na vida pública.
+- **D)** As decisões programadas exigem a realização de assembleias públicas populares para cada ato administrativo rotineiro.
+- **E)** A racionalidade limitada impede que a Administração Pública utilize computadores ou sistemas de dados no auxílio à decisão.
 
 ---
 
@@ -137,7 +135,7 @@ Segundo a teoria da racionalidade limitada de Simon:
 > - **B)** Incorreta. Visão do modelo da racionalidade absoluta que Simon refutou.
 > - **C)** Incorreta. Simon defende a racionalidade, reconhecendo apenas seus limites inerentes.
 > - **D), E)** Incorretas. Distorções que não representam o modelo de Simon.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -167,15 +165,15 @@ flowchart LR
 ---
 
 ### Teste 362
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da tomada de decisão em ambientes organizacionais e das condições de certeza, risco, incerteza e ambiguidade, assinale a opção correta:
 
-* **A)** Na condição de risco, o tomador de decisão possui informações completas e sabe com absoluta precisão o desfecho de cada alternativa de ação.
-* **B)** A condição de ambiguidade caracteriza-se pelo domínio pleno de dados históricos que permitem calcular probabilidades estatísticas exatas de insucesso.
-* **C)** A condição de certeza é a situação em que o decisor atua sem informações preliminares, confiando unicamente na sorte e na intuição.
-* **D)** Na condição de risco, o tomador de decisão desconhece com certeza o resultado final, contudo dispõe de dados suficientes para calcular probabilidades estatísticas associadas a cada alternativa.
-* **E)** A condição de incerteza permite ao gestor modelar todas as variáveis futuras por meio de equações determinísticas de causa e efeito imediato.
-
+- **A)** Na condição de risco, o tomador de decisão possui informações completas e sabe com absoluta precisão o desfecho de cada alternativa de ação.
+- **B)** A condição de ambiguidade caracteriza-se pelo domínio pleno de dados históricos que permitem calcular probabilidades estatísticas exatas de insucesso.
+- **C)** A condição de certeza é a situação em que o decisor atua sem informações preliminares, confiando unicamente na sorte e na intuição.
+- **D)** Na condição de risco, o tomador de decisão desconhece com certeza o resultado final, contudo dispõe de dados suficientes para calcular probabilidades estatísticas associadas a cada alternativa.
+- **E)** A condição de incerteza permite ao gestor modelar todas as variáveis futuras por meio de equações determinísticas de causa e efeito imediato.
 
 ---
 
@@ -186,21 +184,21 @@ A respeito da tomada de decisão em ambientes organizacionais e das condições 
 > - **C) Incorreta.** Na certeza, o resultado é deterministicamente conhecido.  
 > - **D) CORRETA.** Na condição de **risco**, o resultado concreto de cada escolha é incerto, mas a organização possui informações e base histórica que tornam viável atribuir **probabilidades matemáticas ou estatísticas** de ocorrência a cada alternativa.  
 > - **E) Incorreta.** Na incerteza, as informações são escassas e as probabilidades matemáticas não podem ser calculadas com segurança.  
-> 
+>
 > **Gabarito: D**
 
 ---
 
 ### Teste 363
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na tomada de decisão sob diferentes condições ambientais, a situação em que o tomador de decisão conhece os possíveis desfechos alternativos e dispõe de dados históricos ou cálculos matemáticos que lhe permitem atribuir **probabilidades estatísticas objetivas** à ocorrência de cada resultado denomina-se:
 
-* **A)** Tomada de decisão em Condição de Risco.
-* **B)** Tomada de decisão em Condição de Certeza Absoluta.
-* **C)** Tomada de decisão em Condição de Incerteza Completa.
-* **D)** Tomada de decisão por Anarquia Organizada (*Garbage Can*).
-* **E)** Decisão de Consenso Heurístico Irrestrito.
-
+- **A)** Tomada de decisão em Condição de Risco.
+- **B)** Tomada de decisão em Condição de Certeza Absoluta.
+- **C)** Tomada de decisão em Condição de Incerteza Completa.
+- **D)** Tomada de decisão por Anarquia Organizada (*Garbage Can*).
+- **E)** Decisão de Consenso Heurístico Irrestrito.
 
 ---
 
@@ -211,7 +209,7 @@ Na tomada de decisão sob diferentes condições ambientais, a situação em que
 > - **C)** Incorreta. Na incerteza, inexistem dados de probabilidade calculável.
 > - **D)** Incorreta. Modelo da "lata de lixo" (Cohen, March e Olsen) para anarquias organizadas.
 > - **E)** Incorreta. Expressão sem respaldo na tipologia ambiental de decisões.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -235,15 +233,15 @@ A abordagem sistêmica concebe a instituição pública como um **sistema aberto
 ---
 
 ### Teste 364
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O modelo de administração contemporâneo valoriza o pensamento holístico e a visão sistêmica em oposição aos tradicionais modelos mecanicistas burocráticos. A respeito da visão sistêmica aplicada às organizações públicas, assinale a afirmativa correta:
 
-* **A)** Sustenta que cada setor deve priorizar exclusivamente suas metas individuais de departamento, competindo com as demais unidades pelo orçamento público.
-* **B)** Concebe a instituição como uma rede interdependente de subsistemas integrados, na qual as decisões adotadas em uma unidade provocam impactos diretos sobre todo o organismo institucional.
-* **C)** Elimina a necessidade de controle e avaliação de desempenho, pois presume que os servidores agem de forma espontânea em perfeita sincronia com o ambiente.
-* **D)** Restringe a atuação do órgão público à preservação de fronteiras rígidas e impenetráveis, impedindo qualquer intercâmbio de dados com a sociedade externa.
-* **E)** Rejeita o conceito de sinergia por considerá-lo incompatível com a estrita divisão formal de trabalho prescrita em leis administrativas.
-
+- **A)** Sustenta que cada setor deve priorizar exclusivamente suas metas individuais de departamento, competindo com as demais unidades pelo orçamento público.
+- **B)** Concebe a instituição como uma rede interdependente de subsistemas integrados, na qual as decisões adotadas em uma unidade provocam impactos diretos sobre todo o organismo institucional.
+- **C)** Elimina a necessidade de controle e avaliação de desempenho, pois presume que os servidores agem de forma espontânea em perfeita sincronia com o ambiente.
+- **D)** Restringe a atuação do órgão público à preservação de fronteiras rígidas e impenetráveis, impedindo qualquer intercâmbio de dados com a sociedade externa.
+- **E)** Rejeita o conceito de sinergia por considerá-lo incompatível com a estrita divisão formal de trabalho prescrita em leis administrativas.
 
 ---
 
@@ -254,21 +252,21 @@ O modelo de administração contemporâneo valoriza o pensamento holístico e a 
 > - **C) Incorreta.** O controle (retroalimentação/feedback) é elemento vital da teoria sistêmica para manter a homeostase dinâmica.  
 > - **D) Incorreta.** As organizações são sistemas **abertos**, com fronteiras permeáveis que realizam intercâmbio contínuo de recursos e dados com o meio externo.  
 > - **E) Incorreta.** A sinergia ($1 + 1 > 2$) é um dos pilares centrais da teoria de sistemas.  
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 365
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No Gerenciamento de Projetos e no controle do cronograma de atividades interdependentes, o método do **Caminho Crítico** (*Critical Path Method - CPM*) define-se como:
 
-* **A)** A sequência mais longa de atividades dependentes no diagrama de rede do projeto que determina a duração total mínima necessária para a conclusão do projeto, caracterizando-se por ter folga total igual a zero.
-* **B)** O conjunto de tarefas com menor custo financeiro que podem ser canceladas sem prejuízo do cronograma.
-* **C)** A lista de atividades secundárias executadas simultaneamente por equipes de suporte terceirizadas.
-* **D)** O gráfico de barras que demonstra a distribuição de competências funcionais dos membros da equipe.
-* **E)** O caminho que concentra exclusivamente os riscos jurídicos e trabalhistas do contrato de engenharia.
-
+- **A)** A sequência mais longa de atividades dependentes no diagrama de rede do projeto que determina a duração total mínima necessária para a conclusão do projeto, caracterizando-se por ter folga total igual a zero.
+- **B)** O conjunto de tarefas com menor custo financeiro que podem ser canceladas sem prejuízo do cronograma.
+- **C)** A lista de atividades secundárias executadas simultaneamente por equipes de suporte terceirizadas.
+- **D)** O gráfico de barras que demonstra a distribuição de competências funcionais dos membros da equipe.
+- **E)** O caminho que concentra exclusivamente os riscos jurídicos e trabalhistas do contrato de engenharia.
 
 ---
 
@@ -279,7 +277,7 @@ No Gerenciamento de Projetos e no controle do cronograma de atividades interdepe
 > - **C)** Incorreta. Descreve tarefas não críticas ou paralelas com folga.
 > - **D)** Incorreta. Gráfico de barras é o Gráfico de Gantt.
 > - **E)** Incorreta. CPM é metodologia de gestão de tempo e sequenciamento de atividades.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -295,11 +293,11 @@ flowchart TD
         E["ESCOPO<br/>(O trabalho a ser realizado e as entregas)"]
         T["TEMPO<br/>(O cronograma de prazos e datas-limite)"]
         C["CUSTO<br/>(O orçamento financeiro alocado)"]
-        
+  
         E <--> T
         T <--> C
         C <--> E
-        
+  
         Q["QUALIDADE<br/>(Atendimento aos requisitos dos clientes e normas)"]
         E -.-> Q
         T -.-> Q
@@ -307,7 +305,7 @@ flowchart TD
     end
 ```
 
-#### As Ferramentas de Planejamento e Controle de Cronograma:
+#### As Ferramentas de Planejamento e Controle de Cronograma
 
 1. **Gráfico de Gantt:**
     - Representação visual bidimensional de barras horizontais em que o eixo vertical elenca as tarefas e o eixo horizontal projeta a linha do tempo (dias, semanas ou meses).
@@ -333,15 +331,15 @@ flowchart TD
 ---
 
 ### Teste 366
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito das técnicas de planejamento e cronograma utilizadas no gerenciamento de projetos, o Método do Caminho Crítico (CPM) caracteriza-se fundamentalmente por:
 
-* **A)** Indicar a sequência de atividades com maior número de folgas temporais disponíveis para remanejamento de equipe.
-* **B)** Identificar a sequência de atividades dependentes de maior duração total do projeto, cujas tarefas possuem folga temporal nula.
-* **C)** Consistir em um método exclusivo para orçamentação financeira que desconsidera os prazos de entrega das tarefas.
-* **D)** Representar uma estrutura analítica de decomposição hierárquica do escopo sem vinculação temporal.
-* **E)** Substituir o uso de diagramas de rede pela elaboração isolada de matrizes SWOT de contingência.
-
+- **A)** Indicar a sequência de atividades com maior número de folgas temporais disponíveis para remanejamento de equipe.
+- **B)** Identificar a sequência de atividades dependentes de maior duração total do projeto, cujas tarefas possuem folga temporal nula.
+- **C)** Consistir em um método exclusivo para orçamentação financeira que desconsidera os prazos de entrega das tarefas.
+- **D)** Representar uma estrutura analítica de decomposição hierárquica do escopo sem vinculação temporal.
+- **E)** Substituir o uso de diagramas de rede pela elaboração isolada de matrizes SWOT de contingência.
 
 ---
 
@@ -352,21 +350,21 @@ A respeito das técnicas de planejamento e cronograma utilizadas no gerenciament
 > - **C) Incorreta.** O CPM é uma ferramenta de gestão temporal de prazos e dependências em rede.  
 > - **D) Incorreta.** A decomposição do escopo em entregas é a EAP (WBS), que não se confunde com o CPM.  
 > - **E) Incorreta.** O CPM decorre compulsoriamente da montagem do diagrama de rede de precedências lógicas.  
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 367
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito da gestão estratégica de projetos governamentais, uma equipe necessita estimar a duração provável de uma atividade inédita de digitalização de acervo histórico. Os especialistas estimaram que, no melhor cenário possível (otimista), a tarefa demandará 10 dias; no cenário mais provável, exigirá 16 dias; e, no pior cenário concebível (pessimista), demandará 28 dias. Utilizando a consagrada técnica probabilística PERT (*Program Evaluation and Review Technique*), a estimativa de tempo esperado (TE) para essa atividade é de:
 
-* **A)** 18 dias.
-* **B)** 16 dias.
-* **C)** 17 dias.
-* **D)** 20 dias.
-* **E)** 15 dias.
-
+- **A)** 18 dias.
+- **B)** 16 dias.
+- **C)** 17 dias.
+- **D)** 20 dias.
+- **E)** 15 dias.
 
 ---
 
@@ -377,21 +375,21 @@ No âmbito da gestão estratégica de projetos governamentais, uma equipe necess
 > - **C) CORRETA.** Aplicação direta da média ponderada da técnica PERT: $\text{TE} = \frac{O + 4M + P}{6} = \frac{10 + (4 \times 16) + 28}{6} = \frac{10 + 64 + 28}{6} = \frac{102}{6} = 17\text{ dias}$.
 > - **D) Incorreta.** Erro de cálculo superdimensionado incompatível com a média ponderada dos três cenários.
 > - **E) Incorreta.** Estimativa subdimensionada inferior ao próprio cenário mais provável.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 368
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na teoria das organizações e no pensamento sistêmico, o fenômeno patológico no qual departamentos e setores operam de forma isolada, defendendo interesses corporativos paroquiais e fechando canais de comunicação com as demais unidades da instituição é denominado:
 
-* **A)** Silos Organizacionais (Mentalidade de Silo).
-* **B)** Holacracia Sistêmica Integrada.
-* **C)** Sinergia Coletiva Positiva.
-* **D)** Homeostase Dinâmica Adaptativa.
-* **E)** Entropia Negativa Expansiva.
-
+- **A)** Silos Organizacionais (Mentalidade de Silo).
+- **B)** Holacracia Sistêmica Integrada.
+- **C)** Sinergia Coletiva Positiva.
+- **D)** Homeostase Dinâmica Adaptativa.
+- **E)** Entropia Negativa Expansiva.
 
 ---
 
@@ -402,43 +400,43 @@ Na teoria das organizações e no pensamento sistêmico, o fenômeno patológico
 > - **C)** Incorreta. Sinergia positiva significa que o todo é maior que a soma das partes (cooperação produtiva).
 > - **D)** Incorreta. Homeostase é a capacidade de autorregulação e equilíbrio do sistema aberto.
 > - **E)** Incorreta. Entropia negativa (negentropia) é a importação de energia para evitar o perecimento do sistema.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 369
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No gerenciamento de projetos, a técnica **PERT** (*Program Evaluation and Review Technique*) é particularmente recomendada quando as durações das atividades são incertas, utilizando uma média ponderada baseada em três estimativas de tempo:
 
 As três estimativas temporais consideradas pelo modelo PERT são:
 
-* **A)** Tempo Otimista (a), Tempo Mais Provável (m) e Tempo Pessimista (b).
-* **B)** Tempo Mínimo legal, Tempo Médio da carreira e Tempo Máximo de estabilidade.
-* **C)** Duração da licitação, Duração do contrato e Duração da garantia.
-* **D)** Horário bancário de abertura, fechamento e compensação.
-* **E)** Prazo prescricional, Prazo decadencial e Prazo preclusivo.
-
+- **A)** Tempo Otimista (a), Tempo Mais Provável (m) e Tempo Pessimista (b).
+- **B)** Tempo Mínimo legal, Tempo Médio da carreira e Tempo Máximo de estabilidade.
+- **C)** Duração da licitação, Duração do contrato e Duração da garantia.
+- **D)** Horário bancário de abertura, fechamento e compensação.
+- **E)** Prazo prescricional, Prazo decadencial e Prazo preclusivo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O modelo probabilístico do **PERT** calcula a duração esperada (*Expected Time - TE*) pela fórmula ponderada: \(TE = 
+> - **A)** Correta. O modelo probabilístico do **PERT** calcula a duração esperada (*Expected Time - TE*) pela fórmula ponderada: \(TE =
 rac{a + 4m + b}{6}\), onde: **a** = tempo otimista (tudo dá certo); **m** = tempo mais provável (condições normais de operação); **b** = tempo pessimista (cenário em que ocorrem adversidades e problemas).
 > - **B), C), D), E)** Incorretas. Distorções sem respaldo técnico na metodologia PERT.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ## 5. Fontes Oficiais e Referências Bibliográficas
 
-* [Scrum Guide 2020 Oficial (Português-BR)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) - Guia definitivo sobre tomada de decisão ágil, sprints e retrospectivas.
-* [Kanban Guide Oficial (English)](https://kanbanguides.org/english/) - Princípios de fluxo contínuo, limitação de trabalho em progresso (WIP) e feedback sistêmico.
-* [Decreto nº 9.203/2017 (Governança, Tomada de Decisão e Gestão de Riscos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Processo decisório baseado em evidências, gestão de riscos e controle interno.
-* [TCU - Governança e Tomada de Decisão Pública](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial para embasamento técnico de decisões administrativas complexas.
-* [TCE-GO - Plano de Fiscalização e Gestão de Projetos](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Alinhamento e monitoramento de projetos estratégicos de fiscalização.
-* SIMON, Herbert A. **Comportamento Administrativo: Estudo dos Processos Decisórios nas Organizações Administrativas**. 3. ed. Rio de Janeiro: FGV, 1979. (Cap. 4 e 5 - Racionalidade Limitada e Processo Decisório).
-* KERZNER, Harold. **Gestão de Projetos: As Melhores Práticas**. 3. ed. Porto Alegre: Bookman, 2011. (Cap. 1 - Princípios de Gerenciamento de Projetos; Cap. 11 - Controle e Monitoramento).
-* BERTALANFFY, Ludwig von. **Teoria Geral dos Sistemas: Fundamentos, Desenvolvimento e Aplicações**. 8. ed. Petrópolis: Vozes, 2015. (Cap. 2 - O Significado da Teoria Geral dos Sistemas).
+- [Scrum Guide 2020 Oficial (Português-BR)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) - Guia definitivo sobre tomada de decisão ágil, sprints e retrospectivas.
+- [Kanban Guide Oficial (English)](https://kanbanguides.org/english/) - Princípios de fluxo contínuo, limitação de trabalho em progresso (WIP) e feedback sistêmico.
+- [Decreto nº 9.203/2017 (Governança, Tomada de Decisão e Gestão de Riscos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Processo decisório baseado em evidências, gestão de riscos e controle interno.
+- [TCU - Governança e Tomada de Decisão Pública](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial para embasamento técnico de decisões administrativas complexas.
+- [TCE-GO - Plano de Fiscalização e Gestão de Projetos](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Alinhamento e monitoramento de projetos estratégicos de fiscalização.
+- SIMON, Herbert A. **Comportamento Administrativo: Estudo dos Processos Decisórios nas Organizações Administrativas**. 3. ed. Rio de Janeiro: FGV, 1979. (Cap. 4 e 5 - Racionalidade Limitada e Processo Decisório).
+- KERZNER, Harold. **Gestão de Projetos: As Melhores Práticas**. 3. ed. Porto Alegre: Bookman, 2011. (Cap. 1 - Princípios de Gerenciamento de Projetos; Cap. 11 - Controle e Monitoramento).
+- BERTALANFFY, Ludwig von. **Teoria Geral dos Sistemas: Fundamentos, Desenvolvimento e Aplicações**. 8. ed. Petrópolis: Vozes, 2015. (Cap. 2 - O Significado da Teoria Geral dos Sistemas).

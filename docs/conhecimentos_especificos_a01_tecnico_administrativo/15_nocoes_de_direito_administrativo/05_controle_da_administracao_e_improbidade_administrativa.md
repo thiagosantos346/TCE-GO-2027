@@ -4,12 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `05_controle_da_administracao_e_improbidade_administrativa.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Controle da Administração Pública: conceito, fundamentos e classificações
 - Classificação quanto à origem (Interno e Externo), momento (Prévio, Concomitante e Posterior) e aspecto (Legalidade e Mérito)
 - Controle Legislativo e a atuação constitucional do Tribunal de Contas
@@ -25,39 +23,39 @@
 
 ## 🧭 Sumário
 
-1. [Teoria Geral do Controle da Administração Pública](#1-teoria-geral-do-controle-da-administracao-publica)
-    - [1.1 Fundamento Republicano e Sistema de Freios e Contrapesos](#11-fundamento-republicano-e-sistema-de-freios-e-contrapesos)
-    - [1.2 Classificação Quanto à Origem: Controle Interno vs. Controle Externo](#12-classificacao-quanto-a-origem-controle-interno-vs-controle-externo)
-    - [1.3 Classificação Quanto ao Momento: Prévio, Concomitante e Posterior](#13-classificacao-quanto-ao-momento-previo-concomitante-e-posterior)
-    - [1.4 Classificação Quanto ao Aspecto: Controle de Legalidade vs. Mérito](#14-classificacao-quanto-ao-aspecto-controle-de-legalidade-vs-merito)
-    - [Teste 045](#teste-045)
-    - [Teste 046](#teste-046)
-2. [O Controle Legislativo e a Atuação dos Tribunais de Contas](#2-o-controle-legislativo-e-a-atuacao-dos-tribunais-de-contas)
-    - [2.1 A Função Constitucional do Tribunal de Contas (CF/88, arts. 70 a 75)](#21-a-funcao-constitucional-do-tribunal-de-contas-cf88-arts-70-a-75)
-    - [2.2 Natureza das Decisões e Título Executivo Extrajudicial](#22-natureza-das-decisoes-e-titulo-executivo-extrajudicial)
-    - [Teste 047](#teste-047)
-    - [Teste 048](#teste-048)
+1. [Teoria Geral do Controle da Administração Pública](#1-teoria-geral-do-controle-da-administração-pública)
+    1. [Fundamento Republicano e Sistema de Freios e Contrapesos](#11-fundamento-republicano-e-sistema-de-freios-e-contrapesos)
+    1. [Classificação Quanto à Origem: Controle Interno vs. Controle Externo](#12-classificação-quanto-à-origem-controle-interno-vs-controle-externo)
+    1. [Classificação Quanto ao Momento: Prévio, Concomitante e Posterior](#13-classificação-quanto-ao-momento-prévio-concomitante-e-posterior)
+    1. [Classificação Quanto ao Aspecto: Controle de Legalidade vs. Mérito](#14-classificação-quanto-ao-aspecto-controle-de-legalidade-vs-mérito)
+    1. [Teste 045](#teste-045)
+    1. [Teste 046](#teste-046)
+2. [O Controle Legislativo e a Atuação dos Tribunais de Contas](#2-o-controle-legislativo-e-a-atuação-dos-tribunais-de-contas)
+    1. [A Função Constitucional do Tribunal de Contas (CF/88, arts. 70 a 75)](#21-a-função-constitucional-do-tribunal-de-contas-cf88-arts-70-a-75)
+    1. [Natureza das Decisões e Título Executivo Extrajudicial](#22-natureza-das-decisões-e-título-executivo-extrajudicial)
+    1. [Teste 047](#teste-047)
+    1. [Teste 048](#teste-048)
 3. [O Controle Judicial dos Atos Administrativos](#3-o-controle-judicial-dos-atos-administrativos)
-    - [3.1 Limites do Controle Judicial sobre o Mérito Administrativo](#31-limites-do-controle-judicial-sobre-o-merito-administrativo)
-    - [3.2 Anulação por Desvio de Finalidade e a Teoria dos Motivos Determinantes](#32-anulacao-por-desvio-de-finalidade-e-a-teoria-dos-motivos-determinantes)
-    - [3.3 Ações Constitucionais de Controle: Mandado de Segurança, Ação Popular e ACP](#33-acoes-constitucionais-de-controle-mandado-de-seguranca-acao-popular-e-acp)
-    - [Teste 049](#teste-049)
-    - [Teste 050](#teste-050)
+    1. [Limites do Controle Judicial sobre o Mérito Administrativo](#31-limites-do-controle-judicial-sobre-o-mérito-administrativo)
+    1. [Anulação por Desvio de Finalidade e a Teoria dos Motivos Determinantes](#32-anulação-por-desvio-de-finalidade-e-a-teoria-dos-motivos-determinantes)
+    1. [Ações Constitucionais de Controle: Mandado de Segurança, Ação Popular e ACP](#33-ações-constitucionais-de-controle-mandado-de-segurança-ação-popular-e-acp)
+    1. [Teste 049](#teste-049)
+    1. [Teste 050](#teste-050)
 4. [A Nova Lei de Improbidade Administrativa (Lei 8.429/1992 e Lei 14.230/2021)](#4-a-nova-lei-de-improbidade-administrativa-lei-84291992-e-lei-142302021)
-    - [4.1 Sujeitos Ativos e Passivos da Improbidade Administrativa](#41-sujeitos-ativos-e-passivos-da-improbidade-administrativa)
-    - [4.2 O Elemento Subjetivo e a Extinção da Culpa (Tema 1.199 / STF)](#42-o-elemento-subjetivo-e-a-extincao-da-culpa-tema-1199-stf)
-    - [4.3 Proibição do Crime de Hermenêutica no Âmbito da LIA](#43-proibicao-do-crime-de-hermeneutica-no-ambito-da-lia)
-    - [Teste 051](#teste-051)
-    - [Teste 052](#teste-052)
-5. [Tipologia dos Atos de Improbidade e Quadro Sancionatório](#5-tipologia-dos-atos-de-improbidade-e-quadro-sancionatorio)
-    - [5.1 Enriquecimento Ilícito (Art. 9º da LIA)](#51-enriquecimento-ilicito-art-9o-da-lia)
-    - [5.2 Prejuízo ao Erário (Art. 10 da LIA)](#52-prejuizo-ao-erario-art-10-da-lia)
-    - [5.3 Atentado aos Princípios da Administração (Art. 11 da LIA - Rol Taxativo)](#53-atentado-aos-principios-da-administracao-art-11-da-lia-rol-taxativo)
-    - [5.4 Matriz Comparativa de Sanções do Artigo 12 da LIA](#54-matriz-comparativa-de-sancoes-do-artigo-12-da-lia)
-    - [5.5 Regime Prescricional Geral e Intercorrente (Art. 23 da LIA)](#55-regime-prescricional-geral-e-intercorrente-art-23-da-lia)
-    - [Teste 053](#teste-053)
-    - [Teste 054](#teste-054)
-    - [Teste 055](#teste-055)
+    1. [Sujeitos Ativos e Passivos da Improbidade Administrativa](#41-sujeitos-ativos-e-passivos-da-improbidade-administrativa)
+    1. [O Elemento Subjetivo e a Extinção da Culpa (Tema 1.199 / STF)](#42-o-elemento-subjetivo-e-a-extinção-da-culpa-tema-1199--stf)
+    1. [Proibição do Crime de Hermenêutica no Âmbito da LIA](#43-proibição-do-crime-de-hermenêutica-no-âmbito-da-lia)
+    1. [Teste 051](#teste-051)
+    1. [Teste 052](#teste-052)
+5. [Tipologia dos Atos de Improbidade e Quadro Sancionatório](#5-tipologia-dos-atos-de-improbidade-e-quadro-sancionatório)
+    1. [Enriquecimento Ilícito (Art. 9º da LIA)](#51-enriquecimento-ilícito-art-9º-da-lia)
+    1. [Prejuízo ao Erário (Art. 10 da LIA)](#52-prejuízo-ao-erário-art-10-da-lia)
+    1. [Atentado aos Princípios da Administração (Art. 11 da LIA - Rol Taxativo)](#53-atentado-aos-princípios-da-administração-art-11-da-lia---rol-taxativo)
+    1. [Matriz Comparativa de Sanções do Artigo 12 da LIA](#54-matriz-comparativa-de-sanções-do-artigo-12-da-lia)
+    1. [Regime Prescricional Geral e Intercorrente (Art. 23 da LIA)](#55-regime-prescricional-geral-e-intercorrente-art-23-da-lia)
+    1. [Teste 053](#teste-053)
+    1. [Teste 054](#teste-054)
+    1. [Teste 055](#teste-055)
 6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
@@ -77,16 +75,16 @@ No Estado Democrático de Direito, nenhum poder estatal é absoluto ou imune a f
 ```mermaid
 flowchart TD
     C["Controle da Administração Pública"]
-    
+  
     C --> O["1. Quanto à ORIGEM"]
     O --> INT["Interno: pelo próprio Poder sobre seus atos (CF, art. 74)"]
     O --> EXT["Externo: Poder Legislativo auxiliado pelo TCE (CF, arts. 70-75) e Poder Judiciário"]
-    
+  
     C --> M["2. Quanto ao MOMENTO"]
     M --> PREV["Prévio / Preventivo: antes da conclusão do ato (ex.: fiscalização de edital)"]
     M --> CONC["Concomitante: pari passu, durante a execução (ex.: vistorias in loco de obras)"]
     M --> POST["Posterior / Corretivo: após a conclusão do ato (ex.: julgamento de contas)"]
-    
+  
     C --> A["3. Quanto ao ASPECTO"]
     A --> LEG["Legalidade / Legitimidade: conformidade com o direito (exercido por todos)"]
     A --> MER["Mérito: conveniência e oportunidade (privativo da Administração Pública)"]
@@ -111,14 +109,15 @@ flowchart TD
 ---
 
 ### Teste 045
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Constituição Federal de 1988 estabelece que os Poderes Legislativo, Executivo e Judiciário manterão, de forma integrada, sistema de controle interno com finalidades expressas no art. 74. A respeito das atribuições constitucionais do controle interno e de sua articulação com o controle externo, assinale a afirmativa correta:
 
-* **A)** Os responsáveis pelo controle interno, cientes de irregularidades, devem avisar o Tribunal de Contas sob responsabilidade solidária.
-* **B)** O controle interno tem competência originária e exclusiva para anular atos praticados por secretários de Estado no exercício de competências discricionárias privativas.
-* **C)** A constatação de desvios orçamentários pelo controle interno impede o Ministério Público de ajuizar ação de improbidade até deliberação do Legislativo.
-* **D)** O sistema de controle interno vincula-se hierarquicamente ao Tribunal de Contas, cabendo a este homologar previamente o plano anual de auditoria.
-* **E)** As auditorias de controle interno dispensam formalização de relatórios quando as falhas constatadas forem classificadas como de baixo impacto financeiro.
+- **A)** Os responsáveis pelo controle interno, cientes de irregularidades, devem avisar o Tribunal de Contas sob responsabilidade solidária.
+- **B)** O controle interno tem competência originária e exclusiva para anular atos praticados por secretários de Estado no exercício de competências discricionárias privativas.
+- **C)** A constatação de desvios orçamentários pelo controle interno impede o Ministério Público de ajuizar ação de improbidade até deliberação do Legislativo.
+- **D)** O sistema de controle interno vincula-se hierarquicamente ao Tribunal de Contas, cabendo a este homologar previamente o plano anual de auditoria.
+- **E)** As auditorias de controle interno dispensam formalização de relatórios quando as falhas constatadas forem classificadas como de baixo impacto financeiro.
 
 ---
 
@@ -131,15 +130,17 @@ A Constituição Federal de 1988 estabelece que os Poderes Legislativo, Executiv
 > - **E)** **Incorreto**. Os achados de auditoria devem ser obrigatoriamente documentados em relatórios formais.
 >
 > **Gabarito: A**
+
 ### Teste 046
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito da sistemática de fiscalização dos atos estatais, o acórdão proferido pelo Tribunal de Contas que imputar débito ou aplicar multa comina sanção de natureza patrimonial ao responsável. Segundo o art. 71, § 3º, da Constituição Federal e a jurisprudência pacificada do Supremo Tribunal Federal (Tema nº 642):
 
-* **A)** A decisão do Tribunal de Contas que imputa débito tem eficácia de título executivo, cobrada pela Fazenda Pública credora.
-* **B)** A execução do acórdão do Tribunal de Contas deve ser proposta judicialmente pela própria Corte de Contas, que detém capacidade postulatória plena.
-* **C)** O título executivo constituído pelo Tribunal de Contas exige prévia homologação pelo Poder Judiciário para que possa ensejar cobrança forçada.
-* **D)** A imputação de débito pelo Tribunal de Contas obsta a incidência concomitante de sanções disciplinares no âmbito funcional da Administração Direta.
-* **E)** A prescrição da execução de título emitido pelo Tribunal de Contas consuma-se em dois anos a contar da publicação do acórdão no órgão oficial.
+- **A)** A decisão do Tribunal de Contas que imputa débito tem eficácia de título executivo, cobrada pela Fazenda Pública credora.
+- **B)** A execução do acórdão do Tribunal de Contas deve ser proposta judicialmente pela própria Corte de Contas, que detém capacidade postulatória plena.
+- **C)** O título executivo constituído pelo Tribunal de Contas exige prévia homologação pelo Poder Judiciário para que possa ensejar cobrança forçada.
+- **D)** A imputação de débito pelo Tribunal de Contas obsta a incidência concomitante de sanções disciplinares no âmbito funcional da Administração Direta.
+- **E)** A prescrição da execução de título emitido pelo Tribunal de Contas consuma-se em dois anos a contar da publicação do acórdão no órgão oficial.
 
 ---
 
@@ -152,6 +153,7 @@ No âmbito da sistemática de fiscalização dos atos estatais, o acórdão prof
 > - **E)** **Incorreto**. O prazo prescricional para execução fiscal fundada em título do TC é de cinco anos (Decreto nº 20.910/1932 e Tema 899 STF).
 >
 > **Gabarito: A**
+
 ## 2. O Controle Legislativo e a Atuação dos Tribunais de Contas
 
 ### 2.1 A Função Constitucional do Tribunal de Contas (CF/88, arts. 70 a 75)
@@ -172,14 +174,15 @@ O controle externo a cargo do Poder Legislativo é exercido com o auxílio técn
 ---
 
 ### Teste 047
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Compete privativamente ao Tribunal de Contas do Estado, no exercício do controle externo financeiro e orçamentário que lhe incumbe a ordem constitucional, desempenhar atribuições técnicas fiscalizatórias. Dentre as competências fixadas na Constituição Federal (art. 71) e na Constituição Estadual, é correto afirmar que cabe ao Tribunal de Contas:
 
-* **A)** julgar anualmente as contas prestadas pelo Chefe do Poder Executivo estadual e fixar sua remuneração política.
-* **B)** sustar diretamente, no exercício de controle prévio, a vigência de decretos normativos expedidos pelo Governador.
-* **C)** apreciar as contas prestadas anualmente pelo Governador do Estado, mediante emissão de parecer prévio conclusivo.
-* **D)** exercer a representação judicial da Administração Direta em ações civis públicas ajuizadas por dano ao meio ambiente.
-* **E)** revogar liminarmente contratos administrativos por razões discricionárias de conveniência e oportunidade pública.
+- **A)** julgar anualmente as contas prestadas pelo Chefe do Poder Executivo estadual e fixar sua remuneração política.
+- **B)** sustar diretamente, no exercício de controle prévio, a vigência de decretos normativos expedidos pelo Governador.
+- **C)** apreciar as contas prestadas anualmente pelo Governador do Estado, mediante emissão de parecer prévio conclusivo.
+- **D)** exercer a representação judicial da Administração Direta em ações civis públicas ajuizadas por dano ao meio ambiente.
+- **E)** revogar liminarmente contratos administrativos por razões discricionárias de conveniência e oportunidade pública.
 
 ---
 
@@ -192,15 +195,17 @@ Compete privativamente ao Tribunal de Contas do Estado, no exercício do control
 > - **E)** **Incorreto**. O Tribunal de Contas não revoga contratos por conveniência, pois fiscaliza a legalidade e legitimidade.
 >
 > **Gabarito: C**
+
 ### Teste 048
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em processo de Tomada de Contas Especial instaurado no Tribunal de Contas do Estado de Goiás para apurar desvio de recursos públicos em convênio estadual, o relator determinou a citação solidária do ex-Prefeito convenente e da empresa privada contratada. A respeito do julgamento das contas e de seus efeitos legais:
 
-* **A)** A condenação do ex-Prefeito ao ressarcimento do erário pelo Tribunal de Contas gera automática inelegibilidade de natureza criminal.
-* **B)** Contas irregulares com dano insanável e improbidade dolosa geram a inelegibilidade eleitoral prevista na LC nº 64/1990.
-* **C)** A citação da pessoa jurídica contratada é incabível por se tratar de ente privado não sujeito à jurisdição da Corte de Contas.
-* **D)** A quitação das contas pelo Tribunal obsta definitivamente a apuração de faltas funcionais em sede de sindicância disciplinar.
-* **E)** O Tribunal de Contas pode determinar a quebra de sigilo bancário de particulares sem prévia anuência do Poder Judiciário.
+- **A)** A condenação do ex-Prefeito ao ressarcimento do erário pelo Tribunal de Contas gera automática inelegibilidade de natureza criminal.
+- **B)** Contas irregulares com dano insanável e improbidade dolosa geram a inelegibilidade eleitoral prevista na LC nº 64/1990.
+- **C)** A citação da pessoa jurídica contratada é incabível por se tratar de ente privado não sujeito à jurisdição da Corte de Contas.
+- **D)** A quitação das contas pelo Tribunal obsta definitivamente a apuração de faltas funcionais em sede de sindicância disciplinar.
+- **E)** O Tribunal de Contas pode determinar a quebra de sigilo bancário de particulares sem prévia anuência do Poder Judiciário.
 
 ---
 
@@ -213,6 +218,7 @@ Em processo de Tomada de Contas Especial instaurado no Tribunal de Contas do Est
 > - **E)** **Incorreto**. O STF pacificou que Tribunais de Contas estaduais não possuem competência para determinar a quebra direta de sigilo bancário de particulares sem reserva de jurisdição judiciária.
 >
 > **Gabarito: B**
+
 ## 3. O Controle Judicial dos Atos Administrativos
 
 Em razão do princípio da inafastabilidade da tutela jurisdicional (CF/88, art. 5º, XXXV: *"a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito"*), o Brasil adota o sistema de jurisdição una (sistema inglês), cabendo unicamente ao Poder Judiciário dizer o direito com força definitiva de coisa julgada material.
@@ -240,14 +246,15 @@ O controle judicial sobre atos discricionários não se restringe à literalidad
 ---
 
 ### Teste 049
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Secretário Municipal de Saúde de determinado município goiano descumpriu reiteradamente ordem de alocação de leitos pediátricos de UTI pactuados no SUS, alegando a discricionariedade na gestão das vagas hospitalares. O Ministério Público ajuizou Ação Civil Pública pleiteando a imediata internação de recém-nascidos em risco de morte. A intervenção judicial:
 
-* **A)** É vedada pelo princípio da separação dos poderes, que impede qualquer controle judicial sobre a área sanitária.
-* **B)** É legítima para garantir o mínimo existencial e o direito à vida, quando constatada inércia estatal desarrazoada.
-* **C)** Restringe-se à fixação de indenização financeira aos pais, vedada a determinação cominatória de internação.
-* **D)** Exige a prévia demonstração de superávit orçamentário primário no caixa municipal pelo promotor de justiça.
-* **E)** Fica condicionada à autorização da Câmara de Vereadores por se tratar de despesa extraordinária de saúde.
+- **A)** É vedada pelo princípio da separação dos poderes, que impede qualquer controle judicial sobre a área sanitária.
+- **B)** É legítima para garantir o mínimo existencial e o direito à vida, quando constatada inércia estatal desarrazoada.
+- **C)** Restringe-se à fixação de indenização financeira aos pais, vedada a determinação cominatória de internação.
+- **D)** Exige a prévia demonstração de superávit orçamentário primário no caixa municipal pelo promotor de justiça.
+- **E)** Fica condicionada à autorização da Câmara de Vereadores por se tratar de despesa extraordinária de saúde.
 
 ---
 
@@ -260,15 +267,17 @@ O Secretário Municipal de Saúde de determinado município goiano descumpriu re
 > - **E)** **Incorreto**. A tutela jurisdicional independe de qualquer autorização do Poder Legislativo municipal.
 >
 > **Gabarito: B**
+
 ### Teste 050
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Ato lesivo ao patrimônio público, à moralidade administrativa e ao meio ambiente, praticado por autoridade pública estadual mediante desvio de verbas destinadas a programa de habitação popular, sujeita-se a mecanismos constitucionais de controle jurisdicional. A respeito da Ação Popular (art. 5º, LXXIII, da CF/88), é correto afirmar que:
 
-* **A)** qualquer cidadão no gozo de seus direitos políticos detém legitimidade ativa originária para ajuizá-la.
-* **B)** os partidos políticos e sindicatos de classe podem ajuizá-la diretamente em nome de seus filiados.
-* **C)** as pessoas jurídicas de direito privado têm plena legitimidade ativa para propô-la perante o juízo competente.
-* **D)** o Ministério Público tem legitimidade prioritária para propor a ação popular perante as varas de fazenda pública.
-* **E)** a comprovação de dano material estrito é dispensável, bastando a lesividade à moralidade administrativa e ao erário.
+- **A)** qualquer cidadão no gozo de seus direitos políticos detém legitimidade ativa originária para ajuizá-la.
+- **B)** os partidos políticos e sindicatos de classe podem ajuizá-la diretamente em nome de seus filiados.
+- **C)** as pessoas jurídicas de direito privado têm plena legitimidade ativa para propô-la perante o juízo competente.
+- **D)** o Ministério Público tem legitimidade prioritária para propor a ação popular perante as varas de fazenda pública.
+- **E)** a comprovação de dano material estrito é dispensável, bastando a lesividade à moralidade administrativa e ao erário.
 
 ---
 
@@ -281,6 +290,7 @@ Ato lesivo ao patrimônio público, à moralidade administrativa e ao meio ambie
 > - **E)** **Incorreto**. Embora a moralidade seja tutelada, a alternativa A traduz a literalidade e essência da legitimidade constitucional do cidadão.
 >
 > **Gabarito: A**
+
 ## 4. A Nova Lei de Improbidade Administrativa (Lei 8.429/1992 e Lei 14.230/2021)
 
 A Lei Federal nº 14.230/2021 promoveu a mais profunda reforma na Lei de Improbidade Administrativa (LIA - Lei nº 8.429/1992), transformando o diploma em um estatuto de Direito Administrativo Sancionador rígido, com garantias processuais do direito punitivo.
@@ -295,7 +305,8 @@ A Lei Federal nº 14.230/2021 promoveu a mais profunda reforma na Lei de Improbi
 
 A alteração mais radical da Lei nº 14.230/2021 consistiu na **abolição total e expressa da modalidade culposa** para todos os atos de improbidade administrativa.
 
-#### Tese Vinculante do Tema 1.199 do STF (RE 1.205.746):
+#### Tese Vinculante do Tema 1.199 do STF (RE 1.205.746)
+
 1. **Exigência de Dolo Específico:** É necessária a comprovação de responsabilidade subjetiva com **dolo específico** para a tipificação de qualquer ato de improbidade administrativa (artigos 9º, 10 e 11). Não basta dolo genérico; exige-se a demonstração da vontade livre e consciente de alcançar o resultado ilícito, acompanhada do fim especial de agir.
 2. **Extinção da Culpa (Inclusive Culpa Grave):** A negligência crassa, a imprudência, a imperícia ou o erro de gestão administrativa, ainda que inescusáveis, **NÃO configuram improbidade administrativa**. O agente negligente pode responder disciplinarmente no estatuto funcional ou em ação regressiva civil comum de reparação ao erário, mas não sob a pecha desonrosa da improbidade.
 3. **Direito Intertemporal:**
@@ -305,9 +316,9 @@ A alteração mais radical da Lei nº 14.230/2021 consistiu na **abolição tota
 ```mermaid
 flowchart TD
     ATO["Conduta do Agente Público em Exame"] --> TESTE{"Restou cabalmente provado o DOLO ESPECÍFICO?"}
-    
+  
     TESTE -- "NÃO (Houve apenas negligência, imprudência ou erro crasso)" --> ATIP["CONDUTA ATÍPICA NA LIA<br/>• Extinção da ação de improbidade<br/>• Subsiste dever civil de ressarcir o erário<br/>• Subsiste apuração de infração disciplinar em PAD"]
-    
+  
     TESTE -- "SIM (Houve intenção deliberada de lesar o erário ou enriquecer ilicitamente)" --> TIP["ATO DE IMPROBIDADE CARACTERIZADO<br/>(Subsunção aos arts. 9º, 10 ou 11 da Lei 8.429/92)"]
 ```
 
@@ -318,16 +329,17 @@ O art. 1º, § 8º, da LIA estabelece expressamente que **não configura improbi
 ---
 
 ### Teste 051
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em dezembro de 2024, João, estagiário voluntário que atuava sem remuneração em determinado cartório de vara judicial estadual, utilizou indevidamente as senhas de acesso restrito de magistrado para obter vantagens financeiras de advogados em processos em trâmite. 
+Em dezembro de 2024, João, estagiário voluntário que atuava sem remuneração em determinado cartório de vara judicial estadual, utilizou indevidamente as senhas de acesso restrito de magistrado para obter vantagens financeiras de advogados em processos em trâmite.
 
 Considerando as alterações promovidas pela Lei Federal nº 14.230/2021 na Lei de Improbidade Administrativa (Lei nº 8.429/1992):
 
-* **A)** João não pode responder por improbidade administrativa, pois a ausência de remuneração afasta a qualidade de agente público.
-* **B)** João qualifica-se como agente público pela LIA, respondendo por enriquecimento ilícito na modalidade dolosa.
-* **C)** A caracterização da improbidade praticada por estagiário exige a condenação penal prévia por crime de concussão.
-* **D)** A configuração de improbidade admite a modalidade culposa quando constatada negligência inescusável do servidor orientador.
-* **E)** As penas da Lei de Improbidade não alcançam estagiários, aplicando-se apenas aos servidores efetivos e comissionados.
+- **A)** João não pode responder por improbidade administrativa, pois a ausência de remuneração afasta a qualidade de agente público.
+- **B)** João qualifica-se como agente público pela LIA, respondendo por enriquecimento ilícito na modalidade dolosa.
+- **C)** A caracterização da improbidade praticada por estagiário exige a condenação penal prévia por crime de concussão.
+- **D)** A configuração de improbidade admite a modalidade culposa quando constatada negligência inescusável do servidor orientador.
+- **E)** As penas da Lei de Improbidade não alcançam estagiários, aplicando-se apenas aos servidores efetivos e comissionados.
 
 ---
 
@@ -340,17 +352,19 @@ Considerando as alterações promovidas pela Lei Federal nº 14.230/2021 na Lei 
 > - **E)** **Incorreto**. O regime sancionador alcança qualquer agente público que cometa atos ilícitos no exercício funcional.
 >
 > **Gabarito: B**
+
 ### Teste 052
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Antônio, servidor público estadual ocupante de função de gestão financeira, cometeu equívoco formal na prestação de contas de adiantamento de despesas em 2018, agindo com manifesta imprudência, mas sem qualquer intenção de lesar o erário ou desviar verbas. O Ministério Público ajuizou ação de improbidade em 2020 por conduta culposa. 
+Antônio, servidor público estadual ocupante de função de gestão financeira, cometeu equívoco formal na prestação de contas de adiantamento de despesas em 2018, agindo com manifesta imprudência, mas sem qualquer intenção de lesar o erário ou desviar verbas. O Ministério Público ajuizou ação de improbidade em 2020 por conduta culposa.
 
 Com a edição da Lei nº 14.230/2021 e a fixação da tese de repercussão geral pelo STF no Tema nº 1.199:
 
-* **A)** A revogação da modalidade culposa retroage para alcançar ações em curso sem trânsito em julgado, impondo a improcedência da demanda.
-* **B)** A alteração legislativa não se aplica a atos praticados antes de 2021, prosseguindo a ação sob as regras originárias da culpa estrita.
-* **C)** O juiz deve converter automaticamente a imputação de improbidade culposa em crime formal contra a administração pública.
-* **D)** A modalidade culposa permanece válida para atos que geram dano ao erário decorrentes de erro administrativo grave.
-* **E)** A ação retroage para beneficiar o réu mesmo nas hipóteses em que já tenha havido coisa julgada material transitada.
+- **A)** A revogação da modalidade culposa retroage para alcançar ações em curso sem trânsito em julgado, impondo a improcedência da demanda.
+- **B)** A alteração legislativa não se aplica a atos praticados antes de 2021, prosseguindo a ação sob as regras originárias da culpa estrita.
+- **C)** O juiz deve converter automaticamente a imputação de improbidade culposa em crime formal contra a administração pública.
+- **D)** A modalidade culposa permanece válida para atos que geram dano ao erário decorrentes de erro administrativo grave.
+- **E)** A ação retroage para beneficiar o réu mesmo nas hipóteses em que já tenha havido coisa julgada material transitada.
 
 ---
 
@@ -363,6 +377,7 @@ Com a edição da Lei nº 14.230/2021 e a fixação da tese de repercussão gera
 > - **E)** **Incorreto**. O STF garantiu a intangibilidade da coisa julgada material já consumada antes da nova lei.
 >
 > **Gabarito: A**
+
 ## 5. Tipologia dos Atos de Improbidade e Quadro Sancionatório
 
 ### 5.1 Enriquecimento Ilícito (Art. 9º da LIA)
@@ -384,22 +399,22 @@ Consiste em qualquer ação ou omissão dolosa que enseje, efetiva e comprovadam
 Trata de condutas dolosas que violam os deveres de honestidade, imparcialidade e legalidade expressamente descritos no texto da lei.
 
 - **ROL ESTRITAMENTE TAXATIVO (*Numerus Clausus*):** O art. 11 passou a ter um rol fechado. Somente configuram improbidade por violação a princípios as condutas literalmente previstas em seus incisos:
-    - *Inciso III:* Revelar fato ou circunstância de que tem ciência em razão das atribuições e que deva permanecer em segredo;
-    - *Inciso IV:* Negar publicidade aos atos oficiais (salvo sigilo legal);
-    - *Inciso V:* Frustrar a licitude de concurso público;
-    - *Inciso VIII:* Recusar cumprimento a lei federal sem declaração de inconstitucionalidade;
-    - *Inciso XI:* Praticar nepotismo (nomeação de cônjuge, companheiro ou parente até 3º grau).
+  - *Inciso III:* Revelar fato ou circunstância de que tem ciência em razão das atribuições e que deva permanecer em segredo;
+  - *Inciso IV:* Negar publicidade aos atos oficiais (salvo sigilo legal);
+  - *Inciso V:* Frustrar a licitude de concurso público;
+  - *Inciso VIII:* Recusar cumprimento a lei federal sem declaração de inconstitucionalidade;
+  - *Inciso XI:* Praticar nepotismo (nomeação de cônjuge, companheiro ou parente até 3º grau).
 
 ### 5.4 Matriz Comparativa de Sanções do Artigo 12 da LIA
 
 ```mermaid
 flowchart TD
     SANC["Sanções da Lei de Improbidade (Art. 12)"]
-    
+  
     SANC --> S9["Art. 9º (Enriquecimento Ilícito)<br/>• Perda dos bens acrescidos<br/>• Perda da função pública<br/>• Suspensão direitos políticos até 14 anos<br/>• Multa civil igual ao valor do acréscimo<br/>• Proibição de contratar até 14 anos"]
-    
+  
     SANC --> S10["Art. 10 (Prejuízo ao Erário)<br/>• Ressarcimento integral do dano<br/>• Perda dos bens ilícitos<br/>• Perda da função pública<br/>• Suspensão direitos políticos até 12 anos<br/>• Multa civil igual ao valor do dano<br/>• Proibição de contratar até 12 anos"]
-    
+  
     SANC --> S11["Art. 11 (Atentado aos Princípios)<br/>• Multa civil de até 24 vezes a remuneração<br/>• Proibição de contratar até 4 anos<br/>• NÃO HÁ perda de função pública<br/>• NÃO HÁ suspensão de direitos políticos"]
 ```
 
@@ -420,6 +435,7 @@ flowchart TD
 ---
 
 ### Teste 053
+
 **(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**  
 De acordo com a Lei de Improbidade Administrativa (Lei nº 8.429/1992, reformulada pela Lei nº 14.230/2021), relacione os atos de improbidade administrativa listados a seguir ao seu respectivo exemplo:
 
@@ -433,35 +449,37 @@ De acordo com a Lei de Improbidade Administrativa (Lei nº 8.429/1992, reformula
 
 Assinale a alternativa que mostra a relação correta, segundo a ordem apresentada:
 
-* **A)** 1 – 2 – 3.
-* **B)** 1 – 3 – 2.
-* **C)** 2 – 1 – 3.
-* **D)** 2 – 3 – 1.
-* **E)** 3 – 2 – 1.
+- **A)** 1 – 2 – 3.
+- **B)** 1 – 3 – 2.
+- **C)** 2 – 1 – 3.
+- **D)** 2 – 3 – 1.
+- **E)** 3 – 2 – 1.
 
 ---
 
 > **Comentário Detalhado:**
 >
 > Analisando as condutas tipificadas na Lei nº 8.429/1992, com redação dada pela Lei nº 14.230/2021:
+>
 > - **Item (2) Prejuízo ao Erário (art. 10, VII):** *"conceder benefício administrativo ou fiscal sem a observância das formalidades legais ou regulamentares aplicáveis à espécie"*. Trata-se de hipótese expressa de lesão ao erário.
 > - **Item (3) Atentado aos Princípios (art. 11, VI):** *"deixar de prestar contas quando esteja obrigado a fazê-lo, desde que disponha das condições para isso, com vistas a ocultar irregularidades"*. O dolo específico de ocultar irregularidades caracteriza ofensa aos princípios republicanos.
 > - **Item (1) Enriquecimento Ilícito (art. 9º, III):** *"perceber vantagem econômica, direta ou indireta, para facilitar a alienação, permuta ou locação de bem público ou o fornecimento de serviço por ente estatal por preço inferior ao valor de mercado"*. Envolve recebimento indevido de vantagem patrimonial pelo agente.
 > - Portanto, a correspondência exata de cima para baixo é **2 – 3 – 1**.
-> 
+>
 > **Gabarito: D**
 
 ---
 
 ### Teste 054
+
 **(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - TI - Ciências da Computação)**  
 Em março de 2026, após a observância do contraditório e da ampla defesa, Bernardo foi condenado, pelo juízo competente no Estado de Santa Catarina, pela prática de ato doloso de improbidade administrativa, sendo-lhe aplicada a penalidade de multa civil no montante de vinte e quatro vezes o valor da sua remuneração. Nesse cenário, considerando as disposições da Lei nº 8.429/1992 (com alterações da Lei nº 14.230/2021), é correto afirmar que Bernardo praticou a conduta de:
 
-* **A)** descumprir as normas relativas à celebração, fiscalização e aprovação de contas de parcerias firmadas pela Administração Pública com entidades privadas.
-* **B)** frustrar a licitude de processo seletivo para celebração de parcerias com entidades sem fins lucrativos, acarretando perda patrimonial efetiva.
-* **C)** conceder benefício administrativo ou fiscal sem a observância das formalidades legais ou regulamentares aplicáveis à espécie.
-* **D)** perceber vantagem econômica para intermediar a liberação ou aplicação de verba pública de qualquer natureza.
-* **E)** celebrar contrato de rateio de consórcio público sem suficiente e prévia dotação orçamentária.
+- **A)** descumprir as normas relativas à celebração, fiscalização e aprovação de contas de parcerias firmadas pela Administração Pública com entidades privadas.
+- **B)** frustrar a licitude de processo seletivo para celebração de parcerias com entidades sem fins lucrativos, acarretando perda patrimonial efetiva.
+- **C)** conceder benefício administrativo ou fiscal sem a observância das formalidades legais ou regulamentares aplicáveis à espécie.
+- **D)** perceber vantagem econômica para intermediar a liberação ou aplicação de verba pública de qualquer natureza.
+- **E)** celebrar contrato de rateio de consórcio público sem suficiente e prévia dotação orçamentária.
 
 ---
 
@@ -470,20 +488,21 @@ Em março de 2026, após a observância do contraditório e da ampla defesa, Ber
 > - **A) CORRETA.** Nos termos do art. 12, inciso III, da Lei nº 8.429/1992 (redação da Lei nº 14.230/2021), na hipótese de atos de improbidade que **atentam contra os princípios da administração pública (art. 11)**, comina-se a penalidade de *"pagamento de multa civil de até 24 (vinte e quatro) vezes o valor da remuneração percebida pelo agente"*. A conduta de *"descumprir as normas relativas à celebração, fiscalização e aprovação de contas de parcerias firmadas pela administração pública com entidades privadas"* enquadra-se expressamente no **art. 11, inciso VIII**, sujeitando-se ao teto de 24 vezes a remuneração.
 > - **B, C e E) Incorretas.** As condutas das alternativas B, C e E são tipificadas como atos que causam **prejuízo ao erário (art. 10)**, cuja penalidade de multa civil cominada no art. 12, II, é calculada em *"valor equivalente ao dano patrimonial"*, e não vinculada a 24 vezes a remuneração.
 > - **D) Incorreta.** Trata-se de ato que importa **enriquecimento ilícito (art. 9º, IX)**, cuja sanção pecuniária no art. 12, I, é a multa civil equivalente ao valor do acréscimo patrimonial indevido.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 055
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada autoridade administrativa foi processada judicialmente por ato de improbidade administrativa ajuizado pelo Ministério Público. A respeito das novas regras de prescrição geral e prescrição intercorrente introduzidas na Lei nº 8.429/1992 pela Lei nº 14.230/2021, é correto afirmar que:
 
-* **A)** a ação prescreve em dez anos contados do término do mandato ou do cargo em comissão exercido pelo agente.
-* **B)** a ação prescreve em oito anos contados da data da ocorrência do fato ou de sua cessação em atos permanentes.
-* **C)** a prescrição intercorrente opera-se em dois anos se a sentença de mérito não for proferida no primeiro grau.
-* **D)** a instauração de inquérito civil suspende o prazo prescricional pelo período improrrogável de até cinco anos.
-* **E)** os atos de improbidade que causam dano patrimonial ao erário são imprescritíveis perante o Poder Judiciário.
+- **A)** a ação prescreve em dez anos contados do término do mandato ou do cargo em comissão exercido pelo agente.
+- **B)** a ação prescreve em oito anos contados da data da ocorrência do fato ou de sua cessação em atos permanentes.
+- **C)** a prescrição intercorrente opera-se em dois anos se a sentença de mérito não for proferida no primeiro grau.
+- **D)** a instauração de inquérito civil suspende o prazo prescricional pelo período improrrogável de até cinco anos.
+- **E)** os atos de improbidade que causam dano patrimonial ao erário são imprescritíveis perante o Poder Judiciário.
 
 ---
 
@@ -496,6 +515,7 @@ Determinada autoridade administrativa foi processada judicialmente por ato de im
 > - **E)** **Incorreto**. Conforme o Tema nº 897 do STF, apenas ações de ressarcimento decorrentes de ato de improbidade DOLOSO são imprescritíveis; a aplicação das sanções punitivas da LIA sujeita-se ao prazo prescricional de 8 anos.
 >
 > **Gabarito: B**
+
 ## 6. Fontes Recomendadas na Internet
 
 - [Lei Federal nº 8.429/1992 Compilada (Lei de Improbidade Administrativa)](https://www.planalto.gov.br/ccivil_03/leis/l8429compilada.htm)  
@@ -510,6 +530,6 @@ Determinada autoridade administrativa foi processada judicialmente por ato de im
   Dispõe sobre a responsabilização administrativa e civil objetiva de pessoas jurídicas pela prática de atos contra a administração pública.
 - [Lei Federal nº 4.717/1965 (Lei da Ação Popular)](https://www.planalto.gov.br/ccivil_03/leis/l4717.htm)  
   Estatuto da ação constitucional privativa do cidadão eleitor para defesa da moralidade administrativa e do patrimônio público.
-* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 18 e Cap. 19 - Controle da Administração Pública e Improbidade Administrativa).
-* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 20 e Cap. 22 - Controle da Administração e Improbidade Administrativa na Lei 14.230/2021).
-* NEVES, Daniel Amorim Assumpção; OLIVEIRA, Rafael Carvalho Rezende. **Improbidade Administrativa: Direito Material e Processual**. 10. ed. Rio de Janeiro: Forense, 2023. (Cap. 3 a Cap. 8 - Nova Sistemática da Lei 8.429/1992).
+- DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 18 e Cap. 19 - Controle da Administração Pública e Improbidade Administrativa).
+- CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 20 e Cap. 22 - Controle da Administração e Improbidade Administrativa na Lei 14.230/2021).
+- NEVES, Daniel Amorim Assumpção; OLIVEIRA, Rafael Carvalho Rezende. **Improbidade Administrativa: Direito Material e Processual**. 10. ed. Rio de Janeiro: Forense, 2023. (Cap. 3 a Cap. 8 - Nova Sistemática da Lei 8.429/1992).

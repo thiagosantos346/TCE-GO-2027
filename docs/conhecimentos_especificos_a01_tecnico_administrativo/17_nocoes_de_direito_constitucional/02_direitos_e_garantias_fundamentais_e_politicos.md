@@ -5,10 +5,7 @@
 > **Arquivo:** `02_direitos_e_garantias_fundamentais_e_politicos.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 
@@ -24,34 +21,35 @@
 
 ## 🧭 Sumário
 
-1. [Teoria Geral e Direitos Individuais e Coletivos (Art. 5º da CF/88)](#1-teoria-geral-e-direitos-individuais-e-coletivos-art-5o-da-cf88)
-    - [1.1 Características Fundamentais e Dimensões de Eficácia](#11-caracteristicas-fundamentais-e-dimensoes-de-eficacia)
-    - [1.2 Inviolabilidade do Domicílio (Art. 5º, XI)](#12-inviolabilidade-do-domicilio-art-5o-xi)
-    - [1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)](#13-inviolabilidade-das-comunicacoes-e-reserva-de-jurisdicao-art-5o-xii)
-    - [1.4 Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)](#14-liberdade-de-associacao-e-limites-estatais-art-5o-xvii-a-xxi)
-    - [1.5 Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC](#15-tratamento-constitucional-dos-crimes-o-quarteto-penal-da-fcc)
-    - [Teste 121](#teste-121)
-    - [Teste 122](#teste-122)
-    - [Teste 123](#teste-123)
-    - [Teste 124](#teste-124)
-    - [Teste 125](#teste-125)
-    - [Teste 126](#teste-126)
-    - [Teste 127](#teste-127)
-    - [Teste 128](#teste-128)
-    - [Teste 129](#teste-129)
-    - [Teste 130](#teste-130)
-    - [Teste 131](#teste-131)
+1. [Teoria Geral e Direitos Individuais e Coletivos (Art. 5º da CF/88)](#1-teoria-geral-e-direitos-individuais-e-coletivos-art-5º-da-cf88)
+    1. [Características Fundamentais e Dimensões de Eficácia](#11-características-fundamentais-e-dimensões-de-eficácia)
+    1. [Inviolabilidade do Domicílio (Art. 5º, XI)](#12-inviolabilidade-do-domicílio-art-5º-xi)
+    1. [Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)](#13-inviolabilidade-das-comunicações-e-reserva-de-jurisdição-art-5º-xii)
+    1. [Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)](#14-liberdade-de-associação-e-limites-estatais-art-5º-xvii-a-xxi)
+    1. [Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC](#15-tratamento-constitucional-dos-crimes-o-quarteto-penal-da-fcc)
+    1. [Teste 121](#teste-121)
+    1. [Teste 122](#teste-122)
+    1. [Teste 123](#teste-123)
+    1. [Teste 124](#teste-124)
+    1. [Teste 125](#teste-125)
+    1. [Teste 126](#teste-126)
+    1. [Teste 127](#teste-127)
+    1. [Teste 128](#teste-128)
+    1. [Teste 129](#teste-129)
+    1. [Teste 130](#teste-130)
+    1. [Teste 131](#teste-131)
 
 ---
 
 ## 1. Teoria Geral e Direitos Individuais e Coletivos (Art. 5º da CF/88)
 
 ### 1.1 Características Fundamentais e Dimensões de Eficácia
+
 - **Inexistência de Direitos Absolutos (Relatividade):** Nenhum direito fundamental possui caráter absoluto. Todos encontram limites na coexistência harmoniosa com outros direitos fundamentais protegidos pela ordem constitucional. Nem mesmo o direito à vida é absoluto, haja vista a admissibilidade constitucional da pena de morte em caso de guerra declarada (art. 5º, XLVII, "a").
 - **Eficácia Vertical vs. Eficácia Horizontal (*Drittwirkung*):**
-    - *Eficácia Vertical:* Relação tradicional entre o indivíduo e o Estado, funcionando como escudo protetor contra o arbítrio estatal.
-    - *Eficácia Horizontal:* Incidência direta e imediata dos direitos fundamentais nas relações jurídicas entre particulares (ex.: respeito à ampla defesa e ao contraditório para expulsão de sócio de clube ou cooperativa privada - STF).
-    - *Eficácia Diagonal:* Relação entre particulares caracterizada por flagrante assimetria fática e jurídica (ex.: relações de trabalho e contratos de consumo).
+  - *Eficácia Vertical:* Relação tradicional entre o indivíduo e o Estado, funcionando como escudo protetor contra o arbítrio estatal.
+  - *Eficácia Horizontal:* Incidência direta e imediata dos direitos fundamentais nas relações jurídicas entre particulares (ex.: respeito à ampla defesa e ao contraditório para expulsão de sócio de clube ou cooperativa privada - STF).
+  - *Eficácia Diagonal:* Relação entre particulares caracterizada por flagrante assimetria fática e jurídica (ex.: relações de trabalho e contratos de consumo).
 
 ```mermaid
 flowchart TD
@@ -66,6 +64,7 @@ flowchart TD
 ```
 
 ### 1.2 Inviolabilidade do Domicílio (Art. 5º, XI)
+
 > *"A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial."*
 
 ```mermaid
@@ -84,12 +83,14 @@ flowchart TD
 > 3. **Flagrante Delito em Tráfico Ilícito de Drogas (Tema 280/STF):** O ingresso forçado em domicílio sem mandado judicial, mesmo em caso de crime permanente como o tráfico de drogas, exige fundadas razões (justa causa) devidamente justificadas *a posteriori*, sob pena de nulidade absoluta das provas.
 
 ### 1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)
+
 > *"É inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal."*
 
 - **Interceptação Telefônica:** Exige cláusula de **reserva de jurisdição estrita** (apenas o juiz competente pode determinar). É vedada em processos cíveis ou administrativos disciplinares (PAD). Contudo, a prova obtida licitamente no juízo criminal pode ser compartilhada como prova emprestada no PAD disciplinar (STJ/STF).
 - **Sigilo Fiscal e Bancário:** Pode ser quebrado por determinação judicial e também diretamente por Comissões Parlamentares de Inquérito (CPIs federais e estaduais), com base nos poderes de investigação próprios das autoridades judiciais (art. 58, § 3º). O Fisco pode requisitar dados cadastrais e movimentações bancárias diretamente sem prévia autorização judicial (STF, ADI 2.390 e LC 105/2001).
 
 ### 1.4 Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)
+
 | Aspecto Constitucional | Regra / Limite | Exigência Processual |
 | :--- | :--- | :--- |
 | **Criação da Associação** | Plena liberdade para fins lícitos | **Independe de autorização** estatal; vedada interferência na administração |
@@ -102,6 +103,7 @@ flowchart TD
 > A FCC adora trocar as exigências para suspensão e dissolução compulsória. Memorize: para **suspender**, basta mera **decisão judicial**; para **dissolver compulsoriamente**, exige-se **trânsito em julgado**. Nenhuma autoridade administrativa tem competência para ordenar a paralisação ou encerramento de associação!
 
 ### 1.5 Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC
+
 Para gabaritar qualquer prova da Fundação Carlos Chagas, a tabela a seguir é de memorização compulsória:
 
 | Categoria do Crime | Tipos Penais Abrangidos | Fiança? | Prescrição? | Graça / Anistia / Indulto? |
@@ -128,6 +130,7 @@ flowchart TD
 ---
 
 ### Teste 121
+
 **(FCC – TRT-2 – Analista Judiciário - Tecnologia da Informação – 2014)**  
 Considere as seguintes afirmativas:
 
@@ -137,11 +140,11 @@ III. São gratuitas as ações de *habeas corpus* e mandado de segurança, e, na
 
 Está correto o que se afirma APENAS em:
 
-* **A)** II.
-* **B)** I, II e III.
-* **C)** I e III.
-* **D)** II e III.
-* **E)** I e II.
+- **A)** II.
+- **B)** I, II e III.
+- **C)** I e III.
+- **D)** II e III.
+- **E)** I e II.
 
 ---
 
@@ -156,14 +159,15 @@ Está correto o que se afirma APENAS em:
 > **Gabarito: E**
 
 ### Teste 122
+
 **(FGV – TJ/SC – 2026 – Analista Administrativo – Questão Real RAG ID: `V3_FGV_TJ_SC_2026_Q0027`)**  
 No ordenamento jurídico brasileiro, a proteção dos direitos fundamentais decorre tanto das normas constitucionais originárias quanto da incorporação de tratados internacionais sobre direitos humanos. A respeito da eficácia, aplicação e regime constitucional dos direitos e garantias fundamentais:
 
-* **A)** as normas definidoras dos direitos e garantias fundamentais têm aplicação mediata, dependendo sempre de regulamentação legal para produzir efeitos concretos.
-* **B)** os tratados internacionais sobre direitos humanos aprovados em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos, equivalem a leis ordinárias federais.
-* **C)** o mandado de segurança coletivo somente pode ser impetrado por partido político sem representação no Congresso Nacional.
-* **D)** os direitos e garantias expressos na Constituição não excluem outros decorrentes do regime e dos princípios por ela adotados, ou dos tratados internacionais em que o Brasil seja parte.
-* **E)** é vedada a concessão de habeas data para assegurar o conhecimento de informações relativas à pessoa do impetrante constantes de registros públicos.
+- **A)** as normas definidoras dos direitos e garantias fundamentais têm aplicação mediata, dependendo sempre de regulamentação legal para produzir efeitos concretos.
+- **B)** os tratados internacionais sobre direitos humanos aprovados em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos, equivalem a leis ordinárias federais.
+- **C)** o mandado de segurança coletivo somente pode ser impetrado por partido político sem representação no Congresso Nacional.
+- **D)** os direitos e garantias expressos na Constituição não excluem outros decorrentes do regime e dos princípios por ela adotados, ou dos tratados internacionais em que o Brasil seja parte.
+- **E)** é vedada a concessão de habeas data para assegurar o conhecimento de informações relativas à pessoa do impetrante constantes de registros públicos.
 
 ---
 
@@ -180,14 +184,15 @@ No ordenamento jurídico brasileiro, a proteção dos direitos fundamentais deco
 ---
 
 ### Teste 123
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O art. 5º, XII, da Constituição Federal estabelece que "é inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal". À luz da jurisprudência do STF e do STJ sobre a quebra de sigilo bancário e fiscal, é correto afirmar:
 
-* **A)** A quebra do sigilo fiscal pelo Fisco exige autorização judicial prévia sob pena de nulidade absoluta.
-* **B)** O Fisco pode requisitar diretamente informações a instituições bancárias sem autorização judicial prévia.
-* **C)** As CPIs estaduais podem determinar busca e apreensão domiciliar na pendência de inquérito administrativo.
-* **D)** A interceptação de comunicações telefônicas é admitida em processos administrativos de natureza disciplinar.
-* **E)** As mensagens trocadas via correio eletrônico corporativo são imunes ao controle exercido pelo empregador.
+- **A)** A quebra do sigilo fiscal pelo Fisco exige autorização judicial prévia sob pena de nulidade absoluta.
+- **B)** O Fisco pode requisitar diretamente informações a instituições bancárias sem autorização judicial prévia.
+- **C)** As CPIs estaduais podem determinar busca e apreensão domiciliar na pendência de inquérito administrativo.
+- **D)** A interceptação de comunicações telefônicas é admitida em processos administrativos de natureza disciplinar.
+- **E)** As mensagens trocadas via correio eletrônico corporativo são imunes ao controle exercido pelo empregador.
 
 ---
 
@@ -202,15 +207,16 @@ O art. 5º, XII, da Constituição Federal estabelece que "é inviolável o sigi
 > **Gabarito: B**
 
 ### Teste 124
+
 **(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Ana, servidora aposentada do município Alfa, solicitou à autoridade competente que fossem fornecidas as informações relativas à sua pessoa constantes dos respectivos assentamentos funcionais. Ao preencher o respectivo formulário, informou, no campo da justificativa, que o motivo era "pessoal", o que motivou o indeferimento do pleito com base no argumento de que a motivação não era juridicamente idônea.  
 Considerando a narrativa e a sistemática constitucional afeta à matéria, é correto afirmar que:
 
-* **A)** o acesso às informações postuladas pressupõe a comprovação de interesse público juridicamente tutelado.
-* **B)** as informações requeridas decorrem do vínculo funcional pretérito e exigem prévia autorização judicial.
-* **C)** as informações deveriam ter sido fornecidas a Ana, sendo cabível impetração de mandado de segurança se houver certidão.
-* **D)** a negativa estatal é plenamente legítima porque todo cidadão deve justificar o motivo para consulta a banco de dados.
-* **E)** a servidora deveria ajuizar ação popular perante o juízo da Fazenda Pública para anular a recusa administrativa.
+- **A)** o acesso às informações postuladas pressupõe a comprovação de interesse público juridicamente tutelado.
+- **B)** as informações requeridas decorrem do vínculo funcional pretérito e exigem prévia autorização judicial.
+- **C)** as informações deveriam ter sido fornecidas a Ana, sendo cabível impetração de mandado de segurança se houver certidão.
+- **D)** a negativa estatal é plenamente legítima porque todo cidadão deve justificar o motivo para consulta a banco de dados.
+- **E)** a servidora deveria ajuizar ação popular perante o juízo da Fazenda Pública para anular a recusa administrativa.
 
 ---
 
@@ -225,14 +231,15 @@ Considerando a narrativa e a sistemática constitucional afeta à matéria, é c
 > **Gabarito: C**
 
 ### Teste 125
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da legitimação ativa e dos requisitos de admissibilidade dos remédios constitucionais, analise a disciplina do Mandado de Segurança Coletivo e da Ação Popular. É correto afirmar que:
 
-* **A)** Qualquer pessoa jurídica legalmente constituída possui legitimidade para propor ação popular.
-* **B)** O mandado de segurança coletivo impetrado por partido exige representação parlamentar no Congresso.
-* **C)** As associações civis necessitam de autorização assemblear específica para impetrar mandado de segurança coletivo.
-* **D)** A desistência da ação popular pelo autor originário acarreta a extinção imediata do processo sem julgamento de mérito.
-* **E)** A concessão de medida liminar em mandado de segurança prescinde da demonstração de perigo de dano irreparável.
+- **A)** Qualquer pessoa jurídica legalmente constituída possui legitimidade para propor ação popular.
+- **B)** O mandado de segurança coletivo impetrado por partido exige representação parlamentar no Congresso.
+- **C)** As associações civis necessitam de autorização assemblear específica para impetrar mandado de segurança coletivo.
+- **D)** A desistência da ação popular pelo autor originário acarreta a extinção imediata do processo sem julgamento de mérito.
+- **E)** A concessão de medida liminar em mandado de segurança prescinde da demonstração de perigo de dano irreparável.
 
 ---
 
@@ -247,14 +254,15 @@ A respeito da legitimação ativa e dos requisitos de admissibilidade dos reméd
 > **Gabarito: B**
 
 ### Teste 126
+
 **(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
 Ao dispor sobre os direitos dos trabalhadores urbanos e rurais, a Constituição da República admite, expressamente, que seja objeto de acordo ou convenção coletiva de trabalho:
 
-* **A)** a concessão de seguro-desemprego em caso de desemprego involuntário.
-* **B)** a redução proporcional do salário mediante negociação coletiva.
-* **C)** o décimo-terceiro salário com base na remuneração integral do empregado.
-* **D)** o prazo prescricional para ajuizamento de ação relativa a créditos.
-* **E)** a redução dos riscos inerentes ao trabalho por normas de higiene e saúde.
+- **A)** a concessão de seguro-desemprego em caso de desemprego involuntário.
+- **B)** a redução proporcional do salário mediante negociação coletiva.
+- **C)** o décimo-terceiro salário com base na remuneração integral do empregado.
+- **D)** o prazo prescricional para ajuizamento de ação relativa a créditos.
+- **E)** a redução dos riscos inerentes ao trabalho por normas de higiene e saúde.
 
 ---
 
@@ -269,6 +277,7 @@ Ao dispor sobre os direitos dos trabalhadores urbanos e rurais, a Constituição
 > **Gabarito: B**
 
 ### Teste 127
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere os seguintes direitos dos trabalhadores:
 
@@ -279,11 +288,11 @@ IV. Repouso semanal remunerado, preferencialmente aos domingos.
 
 Nos termos da Constituição Federal, são estendidos aos trabalhadores domésticos os direitos indicados APENAS em:
 
-* **A)** I, II, III e IV.
-* **B)** II, III e IV.
-* **C)** I e II.
-* **D)** III e IV.
-* **E)** II.
+- **A)** I, II, III e IV.
+- **B)** II, III e IV.
+- **C)** I e II.
+- **D)** III e IV.
+- **E)** II.
 
 ---
 
@@ -298,15 +307,16 @@ Nos termos da Constituição Federal, são estendidos aos trabalhadores domésti
 > **Gabarito: A**
 
 ### Teste 128
+
 **(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Maria nasceu no território brasileiro quando seus pais, Juan e Ane, de cidadania espanhola, ali se encontravam a serviço da embaixada espanhola. Após ter vivido por cinco anos no Brasil, mudou-se para a Austrália juntamente com seus pais, que passaram a atuar na iniciativa privada. Logo após atingir a maioridade, Maria cometeu um crime comum em solo australiano e fugiu para o Brasil, onde foi presa. O governo da Austrália requereu a sua extradição.  
 Considerando a narrativa e a sistemática constitucional afeta à nacionalidade, é correto afirmar que Maria é:
 
-* **A)** estrangeira, sendo plenamente possível o deferimento de sua extradição pelo Supremo Tribunal Federal.
-* **B)** brasileira nata, o que obsta de modo peremptório o deferimento de qualquer pedido de extradição.
-* **C)** estrangeira, mas a opção posterior pela nacionalidade brasileira impede a consumação da extradição requerida.
-* **D)** brasileira nata, mas a gravidade do crime doloso cometido na juventude autoriza a entrega ao Estado requerente.
-* **E)** brasileira naturalizada, cabendo ao Chefe do Poder Executivo decidir discricionariamente sobre sua extradição.
+- **A)** estrangeira, sendo plenamente possível o deferimento de sua extradição pelo Supremo Tribunal Federal.
+- **B)** brasileira nata, o que obsta de modo peremptório o deferimento de qualquer pedido de extradição.
+- **C)** estrangeira, mas a opção posterior pela nacionalidade brasileira impede a consumação da extradição requerida.
+- **D)** brasileira nata, mas a gravidade do crime doloso cometido na juventude autoriza a entrega ao Estado requerente.
+- **E)** brasileira naturalizada, cabendo ao Chefe do Poder Executivo decidir discricionariamente sobre sua extradição.
 
 ---
 
@@ -321,16 +331,17 @@ Considerando a narrativa e a sistemática constitucional afeta à nacionalidade,
 > **Gabarito: A**
 
 ### Teste 129
+
 **(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Mara, de nacionalidade brasileira, casou com Stevenson, de nacionalidade holandesa, e passou a viver na Áustria. Com o objetivo de facilitar sua integração no país em que residia, não como requisito para a fruição de direitos civis, Mara decidiu se naturalizar austríaca.  
 Após alguns anos, Mara decidiu que almejava ter apenas a nacionalidade austríaca, não mais a brasileira.  
 Considerando a disciplina constitucional da nacionalidade brasileira após as alterações implementadas pela Emenda Constitucional nº 131/2023, é correto afirmar que:
 
-* **A)** ao casar com Stevenson, em razão do casamento civil, ela adquiriu a nacionalidade holandesa de ofício.
-* **B)** ao se naturalizar austríaca, nas circunstâncias indicadas, ela perdeu automaticamente a nacionalidade brasileira.
-* **C)** não será possível a perda da nacionalidade brasileira, por configurar direito fundamental de natureza perpétua.
-* **D)** a perda da nacionalidade brasileira exigirá pedido formal e expresso de Mara perante a autoridade competente.
-* **E)** ela será privada da nacionalidade brasileira apenas se for condenada por crime doloso na ordem jurídica austríaca.
+- **A)** ao casar com Stevenson, em razão do casamento civil, ela adquiriu a nacionalidade holandesa de ofício.
+- **B)** ao se naturalizar austríaca, nas circunstâncias indicadas, ela perdeu automaticamente a nacionalidade brasileira.
+- **C)** não será possível a perda da nacionalidade brasileira, por configurar direito fundamental de natureza perpétua.
+- **D)** a perda da nacionalidade brasileira exigirá pedido formal e expresso de Mara perante a autoridade competente.
+- **E)** ela será privada da nacionalidade brasileira apenas se for condenada por crime doloso na ordem jurídica austríaca.
 
 ---
 
@@ -345,14 +356,15 @@ Considerando a disciplina constitucional da nacionalidade brasileira após as al
 > **Gabarito: D**
 
 ### Teste 130
+
 **(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
 Será considerado inelegível, nos termos da Constituição da República:
 
-* **A)** o Governador de Estado que, pretendendo a reeleição para o mesmo cargo, não renunciar até seis meses antes do pleito.
-* **B)** o Deputado Federal no exercício de segundo mandato parlamentar consecutivo que pretenda reeleger-se.
-* **C)** quem tenha sido condenado criminalmente em decisão judicial colegiada enquanto durarem seus efeitos.
-* **D)** brasileiro naturalizado que pretenda concorrer legitimamente a uma vaga para o Senado Federal.
-* **E)** o filho adotivo do Governador do Estado que pretenda concorrer ao cargo de Prefeito da Capital desse mesmo Estado.
+- **A)** o Governador de Estado que, pretendendo a reeleição para o mesmo cargo, não renunciar até seis meses antes do pleito.
+- **B)** o Deputado Federal no exercício de segundo mandato parlamentar consecutivo que pretenda reeleger-se.
+- **C)** quem tenha sido condenado criminalmente em decisão judicial colegiada enquanto durarem seus efeitos.
+- **D)** brasileiro naturalizado que pretenda concorrer legitimamente a uma vaga para o Senado Federal.
+- **E)** o filho adotivo do Governador do Estado que pretenda concorrer ao cargo de Prefeito da Capital desse mesmo Estado.
 
 ---
 
@@ -367,15 +379,16 @@ Será considerado inelegível, nos termos da Constituição da República:
 > **Gabarito: E**
 
 ### Teste 131
+
 **(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Maria, Joana e Antônio, respectivamente, brasileira nata, brasileira naturalizada e ugandense residente no território brasileiro, consultaram um especialista em relação à existência, ou não, de distinção em relação à situação jurídica de cada qual considerando os direitos fundamentais e os direitos políticos.  
 O especialista respondeu corretamente que:
 
-* **A)** os três possuem os mesmos direitos fundamentais civis, mas apenas Maria e Joana podem votar e ser votadas no país.
-* **B)** Maria e Joana possuem exatamente os mesmos direitos políticos, sem distinção de elegibilidade para quaisquer cargos públicos.
-* **C)** diferentemente de Maria e Joana, Antônio é destituído de direitos fundamentais por não possuir a nacionalidade brasileira.
-* **D)** os direitos políticos decorrem automaticamente da concessão de asilo ou residência no território da República Federativa.
-* **E)** Maria e Joana não compartilham os mesmos direitos fundamentais, sendo vedada a filiação partidária de cidadãos naturalizados.
+- **A)** os três possuem os mesmos direitos fundamentais civis, mas apenas Maria e Joana podem votar e ser votadas no país.
+- **B)** Maria e Joana possuem exatamente os mesmos direitos políticos, sem distinção de elegibilidade para quaisquer cargos públicos.
+- **C)** diferentemente de Maria e Joana, Antônio é destituído de direitos fundamentais por não possuir a nacionalidade brasileira.
+- **D)** os direitos políticos decorrem automaticamente da concessão de asilo ou residência no território da República Federativa.
+- **E)** Maria e Joana não compartilham os mesmos direitos fundamentais, sendo vedada a filiação partidária de cidadãos naturalizados.
 
 ---
 
@@ -388,4 +401,3 @@ O especialista respondeu corretamente que:
 > - **E)** **Incorreto**. Brasileiros naturalizados podem filiar-se a partidos políticos e exercer plenamente mandatos eletivos não vedados pelo art. 12, § 3º.
 >
 > **Gabarito: A**
-

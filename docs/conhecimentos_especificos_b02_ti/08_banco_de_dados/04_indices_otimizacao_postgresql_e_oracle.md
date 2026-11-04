@@ -1,15 +1,14 @@
 # 04 - Índices, Otimização de Consultas e Administração (PostgreSQL e Oracle)
+
 **Última Atualização:** 2026-03-31  
 **Banca Foco:** FCC (Fundação Carlos Chagas)  
 **Cargo:** Auditor de Controle Externo - Tecnologia da Informação  
 **Status do Mapeamento:** 100% aderente ao edital TCE-GO
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 1. **Estruturas de Indexação:** B-Tree, B+Tree, Hash, Bitmap, Índices Espaciais (R-Tree/GiST), GIN (Generalized Inverted Index), BRIN (Block Range Index), Índices Clusterizados vs. Não-Clusterizados, Índices Parciais e Baseados em Expressões. Trade-offs de escrita vs. leitura.
 2. **Otimização de Consultas (Query Tuning):** Otimizador Baseado em Custo (CBO), Estatísticas de Catálogo e Histogramas, Planos de Execução (`EXPLAIN` e `EXPLAIN ANALYZE`).
 3. **Métodos de Acesso e Operações de Junção (Joins):** Sequential Scan vs. Index Scan vs. Index Only Scan vs. Bitmap Scan; Nested Loop, Hash Join e Merge Join (critérios de escolha, memória e ordenação).
@@ -20,36 +19,36 @@
 
 ## 🧭 Sumário
 
-1. [Estruturas de Indexação e Métodos de Acesso](#1-estruturas-de-indexacao-e-metodos-de-acesso)
-    - [1.1 Tipos de Índices: B+Tree, Hash, Bitmap, GIN, GiST e BRIN](#11-tipos-de-indices-btree-hash-bitmap-gin-gist-e-brin)
-    - [1.2 Índices Clusterizados vs. Não-Clusterizados, Parciais e Baseados em Expressão](#12-indices-clusterizados-vs-nao-clusterizados-parciais-e-baseados-em-expressao)
-    - [1.3 Trade-offs e Custos de Manutenção de Índices](#13-trade-offs-e-custos-de-manutencao-de-indices)
-    - [Teste 267](#teste-267)
-    - [Teste 268](#teste-268)
-    - [Teste 269](#teste-269)
-2. [Otimização de Consultas e Planos de Execução (Query Tuning)](#2-otimizacao-de-consultas-e-planos-de-execucao-query-tuning)
-    - [2.1 Otimizador Baseado em Custo (CBO), Estatísticas e Histogramas](#21-otimizador-baseado-em-custo-cbo-estatisticas-e-histogramas)
-    - [2.2 Análise de Planos: EXPLAIN vs. EXPLAIN ANALYZE](#22-analise-de-planos-explain-vs-explain-analyze)
-    - [2.3 Estratégias de Varredura: Seq Scan, Index Scan, Index Only Scan e Bitmap Scan](#23-estrategias-de-varredura-seq-scan-index-scan-index-only-scan-e-bitmap-scan)
-    - [2.4 Algoritmos de Junção: Nested Loop, Hash Join e Merge Join](#24-algoritmos-de-juncao-nested-loop-hash-join-e-merge-join)
-    - [Teste 270](#teste-270)
-    - [Teste 271](#teste-271)
-    - [Teste 272](#teste-272)
-3. [Arquitetura e Administração do PostgreSQL](#3-arquitetura-e-administracao-do-postgresql)
-    - [3.1 Modelo de Processos e Gerenciamento de Conexões](#31-modelo-de-processos-e-gerenciamento-de-conexoes)
-    - [3.2 Parâmetros Críticos de Memória](#32-parametros-criticos-de-memoria)
-    - [3.3 MVCC, Limpeza de Espaço e o Mecanismo VACUUM](#33-mvcc-limpeza-de-espaco-e-o-mecanismo-vacuum)
-    - [3.4 Write-Ahead Logging (WAL) e Checkpoints](#34-write-ahead-logging-wal-e-checkpoints)
-    - [Teste 273](#teste-273)
-    - [Teste 274](#teste-274)
-4. [Arquitetura e Administração do Oracle Database](#4-arquitetura-e-administracao-do-oracle-database)
-    - [4.1 Instância vs. Banco de Dados e Estruturas de Memória (SGA e PGA)](#41-instancia-vs-banco-de-dados-e-estruturas-de-memoria-sga-e-pga)
-    - [4.2 Processos de Background Mandatórios (DBWn, LGWR, CKPT, SMON, PMON)](#42-processos-de-background-mandatorios-dbwn-lgwr-ckpt-smon-pmon)
-    - [4.3 Estrutura Física e Lógica de Armazenamento](#43-estrutura-fisica-e-logica-de-armazenamento)
-    - [Teste 275](#teste-275)
-    - [Teste 276](#teste-276)
-    - [Teste 277](#teste-277)
-1. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+1. [Estruturas de Indexação e Métodos de Acesso](#1-estruturas-de-indexação-e-métodos-de-acesso)
+    1. [Tipos de Índices: B+Tree, Hash, Bitmap, GIN, GiST e BRIN](#11-tipos-de-índices-btree-hash-bitmap-gin-gist-e-brin)
+    1. [Índices Clusterizados vs. Não-Clusterizados, Parciais e Baseados em Expressão](#12-índices-clusterizados-vs-não-clusterizados-parciais-e-baseados-em-expressão)
+    1. [Trade-offs e Custos de Manutenção de Índices](#13-trade-offs-e-custos-de-manutenção-de-índices)
+    1. [Teste 267](#teste-267)
+    1. [Teste 268](#teste-268)
+    1. [Teste 269](#teste-269)
+2. [Otimização de Consultas e Planos de Execução (Query Tuning)](#2-otimização-de-consultas-e-planos-de-execução-query-tuning)
+    1. [Otimizador Baseado em Custo (CBO), Estatísticas e Histogramas](#21-otimizador-baseado-em-custo-cbo-estatísticas-e-histogramas)
+    1. [Análise de Planos: EXPLAIN vs. EXPLAIN ANALYZE](#22-análise-de-planos-explain-vs-explain-analyze)
+    1. [Estratégias de Varredura: Seq Scan, Index Scan, Index Only Scan e Bitmap Scan](#23-estratégias-de-varredura-seq-scan-index-scan-index-only-scan-e-bitmap-scan)
+    1. [Algoritmos de Junção: Nested Loop, Hash Join e Merge Join](#24-algoritmos-de-junção-nested-loop-hash-join-e-merge-join)
+    1. [Teste 270](#teste-270)
+    1. [Teste 271](#teste-271)
+    1. [Teste 272](#teste-272)
+3. [Arquitetura e Administração do PostgreSQL](#3-arquitetura-e-administração-do-postgresql)
+    1. [Modelo de Processos e Gerenciamento de Conexões](#31-modelo-de-processos-e-gerenciamento-de-conexões)
+    1. [Parâmetros Críticos de Memória](#32-parâmetros-críticos-de-memória)
+    1. [MVCC, Limpeza de Espaço e o Mecanismo VACUUM](#33-mvcc-limpeza-de-espaço-e-o-mecanismo-vacuum)
+    1. [Write-Ahead Logging (WAL) e Checkpoints](#34-write-ahead-logging-wal-e-checkpoints)
+    1. [Teste 273](#teste-273)
+    1. [Teste 274](#teste-274)
+4. [Arquitetura e Administração do Oracle Database](#4-arquitetura-e-administração-do-oracle-database)
+    1. [Instância vs. Banco de Dados e Estruturas de Memória (SGA e PGA)](#41-instância-vs-banco-de-dados-e-estruturas-de-memória-sga-e-pga)
+    1. [Processos de Background Mandatórios (DBWn, LGWR, CKPT, SMON, PMON)](#42-processos-de-background-mandatórios-dbwn-lgwr-ckpt-smon-pmon)
+    1. [Estrutura Física e Lógica de Armazenamento](#43-estrutura-física-e-lógica-de-armazenamento)
+    1. [Teste 275](#teste-275)
+    1. [Teste 276](#teste-276)
+    1. [Teste 277](#teste-277)
+5. [Fontes Oficiais e Referências Bibliográficas](#-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -95,24 +94,24 @@ A seleção da estrutura interna do índice determina diretamente a complexidade
 
 A relação entre a ordenação lógica do índice e a ordenação física dos blocos de dados no disco define a tipologia de agrupamento:
 
-* **Índice Clusterizado (*Clustered Index* / *Index-Organized Table - IOT*):**
-    - A própria tabela física é ordenada e armazenada de acordo com a chave do índice. As folhas da B+Tree contêm os próprios dados da linha, e não apenas ponteiros.
-    - Como os dados físicos só podem seguir uma única ordem sequencial no disco, **uma tabela pode ter no máximo UM índice clusterizado** (frequentemente associado à Chave Primária).
-    - Vantagem: Dispensa salto secundário aos blocos de dados (*table lookup*).
-    - No PostgreSQL, o comando `CLUSTER tabela USING nome_indice` reorganiza as linhas fisicamente no disco com base no índice, mas **não mantém essa ordem automaticamente** em inserções futuras (exige nova execução manual de `CLUSTER`). No Oracle, as tabelas organizadas por índice são explicitamente criadas como `CREATE TABLE .. ORGANIZATION INDEX`.
+- **Índice Clusterizado (*Clustered Index* / *Index-Organized Table - IOT*):**
+  - A própria tabela física é ordenada e armazenada de acordo com a chave do índice. As folhas da B+Tree contêm os próprios dados da linha, e não apenas ponteiros.
+  - Como os dados físicos só podem seguir uma única ordem sequencial no disco, **uma tabela pode ter no máximo UM índice clusterizado** (frequentemente associado à Chave Primária).
+  - Vantagem: Dispensa salto secundário aos blocos de dados (*table lookup*).
+  - No PostgreSQL, o comando `CLUSTER tabela USING nome_indice` reorganiza as linhas fisicamente no disco com base no índice, mas **não mantém essa ordem automaticamente** em inserções futuras (exige nova execução manual de `CLUSTER`). No Oracle, as tabelas organizadas por índice são explicitamente criadas como `CREATE TABLE .. ORGANIZATION INDEX`.
 
-* **Índice Não-Clusterizado (*Non-Clustered / Heap Table with Secondary Index*):**
-    - Os dados da tabela residem em uma estrutura de *Heap* (pilha de blocos não ordenada). O índice secundário é uma estrutura separada cujos nós-folha armazenam a chave indexada e um ponteiro direto (`ROWID` ou `TID`) para a tupla física na tabela heap.
+- **Índice Não-Clusterizado (*Non-Clustered / Heap Table with Secondary Index*):**
+  - Os dados da tabela residem em uma estrutura de *Heap* (pilha de blocos não ordenada). O índice secundário é uma estrutura separada cujos nós-folha armazenam a chave indexada e um ponteiro direto (`ROWID` ou `TID`) para a tupla física na tabela heap.
 
-* **Índices Parciais (*Filtered Indexes*):**
-    - Índices construídos sobre um subconjunto de dados da tabela definido por uma cláusula `WHERE`.
-    - Exemplo: `CREATE INDEX idx_pedidos_pendentes ON pedidos(data_criacao) WHERE status = 'PENDENTE';`.
-    - Economiza espaço em disco e memória cache, ignorando 99% das linhas arquivadas ou concluídas.
+- **Índices Parciais (*Filtered Indexes*):**
+  - Índices construídos sobre um subconjunto de dados da tabela definido por uma cláusula `WHERE`.
+  - Exemplo: `CREATE INDEX idx_pedidos_pendentes ON pedidos(data_criacao) WHERE status = 'PENDENTE';`.
+  - Economiza espaço em disco e memória cache, ignorando 99% das linhas arquivadas ou concluídas.
 
-* **Índices Baseados em Expressões ou Funções (*Function-Based Indexes*):**
-    - O índice é construído sobre o resultado de uma função ou cálculo escalar, e não sobre a coluna pura.
-    - Exemplo: `CREATE INDEX idx_usuarios_email_lower ON usuarios(LOWER(email));`.
-    - Permite que o otimizador utilize o índice em consultas do tipo `WHERE LOWER(email) = 'usuario@tce.go.gov.br'`. Sem esse índice funcional, o uso da função na coluna impede o uso de um índice B-Tree simples sobre `email`.
+- **Índices Baseados em Expressões ou Funções (*Function-Based Indexes*):**
+  - O índice é construído sobre o resultado de uma função ou cálculo escalar, e não sobre a coluna pura.
+  - Exemplo: `CREATE INDEX idx_usuarios_email_lower ON usuarios(LOWER(email));`.
+  - Permite que o otimizador utilize o índice em consultas do tipo `WHERE LOWER(email) = 'usuario@tce.go.gov.br'`. Sem esse índice funcional, o uso da função na coluna impede o uso de um índice B-Tree simples sobre `email`.
 
 > ⚠️ **Alerta de Prova (FCC):**
 > A banca FCC costuma afirmar categoricamente que o uso de funções em colunas na cláusula `WHERE` (ex.: `WHERE UPPER(nome) = 'SILVA'`) inviabiliza o uso de índices comuns do tipo B-Tree, forçando um *Full Table Scan*, a menos que exista expressamente um **Índice Baseado em Função** (*Function-Based Index*). Outro ponto favorito da banca é afirmar que índices Bitmap são ideais para OLTP; lembre-se: Bitmap é excelente para **baixa cardinalidade em OLAP/DW**, mas causa *locks* severos em ambientes OLTP concorrentes.
@@ -128,15 +127,15 @@ A criação excessiva ou inadequada de índices acarreta degradação do sistema
 ---
 
 ### Teste 267
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O Administrador de Banco de Dados de um tribunal precisa otimizar uma consulta em uma tabela que contém 15 milhões de registros. A consulta utiliza uma cláusula `WHERE status = 'CONCLUIDO' AND uf = 'RS'`, sendo que o campo `status` possui apenas 3 valores possíveis ('PENDENTE', 'EM_ANDAMENTO', 'CONCLUIDO') e `uf` possui as 27 siglas das unidades federativas do Brasil. O ambiente é predominantemente de leitura analítica com baixíssima frequência de atualizações concorrentes. Para otimizar o tempo de resposta dessas operações combinadas, a estrutura de indexação mais indicada é:
 
-* **A)** Índice B+Tree individual em cada uma das colunas.
-* **B)** Índice Hash na coluna `uf` e B+Tree na coluna `status`.
-* **C)** Índices Bitmap em ambas as colunas, permitindo operações lógicas booleanas diretas.
-* **D)** Índice Clusterizado invertido na coluna `status`.
-* **E)** Desativação total de índices para forçar um Full Table Scan paralelo em memória.
-
+- **A)** Índice B+Tree individual em cada uma das colunas.
+- **B)** Índice Hash na coluna `uf` e B+Tree na coluna `status`.
+- **C)** Índices Bitmap em ambas as colunas, permitindo operações lógicas booleanas diretas.
+- **D)** Índice Clusterizado invertido na coluna `status`.
+- **E)** Desativação total de índices para forçar um Full Table Scan paralelo em memória.
 
 ---
 
@@ -147,23 +146,23 @@ O Administrador de Banco de Dados de um tribunal precisa otimizar uma consulta e
 > - **C)** **Correta.** Índices Bitmap são ideais para colunas com **baixa cardinalidade** (poucos valores distintos, como os 3 status e as 27 UFs) em ambientes predominantemente analíticos (OLAP) e com baixa concorrência de escritas DML. O otimizador pode combinar os bitmaps gerados para cada condição através de operações booleanas em nível de bits (`AND`, `OR`), reduzindo drasticamente o I/O de leitura.
 > - **D)** Incorreta. Não existe a estrutura formal "índice clusterizado invertido" com essa finalidade; a baixa cardinalidade de `status` tornaria um agrupamento físico pouco seletivo.
 > - **E)** Incorreta. Varrer 15 milhões de tuplas sequencialmente (Full Table Scan) consumirá I/O massivo sem necessidade diante da viabilidade técnica do uso de índices bitmap.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 268
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um sistema de auditoria de compras públicas executado sobre PostgreSQL, a tabela `PROCESSO_LICITATORIO` armazena 5.000.000 de registros. Sabe-se que 98% dos processos possuem a coluna `situacao` igual a `'CONCLUIDO'`, e apenas 2% (100.000 registros) possuem `situacao` igual a `'EM_AUDITORIA'` ou `'SUSPEITO'`. As consultas investigativas mais críticas e frequentes filtram especificamente os processos com `situacao IN ('EM_AUDITORIA', 'SUSPEITO')`. Adicionalmente, consultas por nome do fornecedor realizam buscas ignorando maiúsculas e minúsculas (`LOWER(nome_fornecedor)`).
 
 Para atender com máxima eficiência a esses dois padrões de consulta, minimizando o consumo de armazenamento em disco e a sobrecarga de cache na memória RAM, o DBA deve criar:
 
-* **A)** Um índice B+Tree padrão sobre toda a tabela para `situacao` e outro índice padrão para `nome_fornecedor`.
-* **B)** Um Índice Parcial (*Partial Index*) com predicado `WHERE situacao IN ('EM_AUDITORIA', 'SUSPEITO')` e um Índice Baseado em Expressão (*Expression Index*) sobre `LOWER(nome_fornecedor)`.
-* **C)** Um índice Bitmap completo sobre todas as colunas da tabela e desabilitar o otimizador CBO.
-* **D)** Dois índices Hash clusterizados obrigatórios sem cláusula de filtragem.
-* **E)** Uma tabela intermediária física desnormalizada sem nenhum índice, pois índices parciais são proibidos no padrão SQL.
-
+- **A)** Um índice B+Tree padrão sobre toda a tabela para `situacao` e outro índice padrão para `nome_fornecedor`.
+- **B)** Um Índice Parcial (*Partial Index*) com predicado `WHERE situacao IN ('EM_AUDITORIA', 'SUSPEITO')` e um Índice Baseado em Expressão (*Expression Index*) sobre `LOWER(nome_fornecedor)`.
+- **C)** Um índice Bitmap completo sobre todas as colunas da tabela e desabilitar o otimizador CBO.
+- **D)** Dois índices Hash clusterizados obrigatórios sem cláusula de filtragem.
+- **E)** Uma tabela intermediária física desnormalizada sem nenhum índice, pois índices parciais são proibidos no padrão SQL.
 
 ---
 
@@ -176,23 +175,23 @@ Para atender com máxima eficiência a esses dois padrões de consulta, minimiza
 > - **C)** Incorreta. Índices bitmap são inadequados para ambientes OLTP concorrentes e o CBO jamais deve ser desabilitado.
 > - **D)** Incorreta. Índices hash só atendem igualdade simples e não atendem predicados parciais ou buscas por intervalo.
 > - **E)** Incorreta. Índices parciais são suportados nativamente pelo PostgreSQL e são amplamente recomendados para dados com distribuição altamente assimétrica (*skewed data*).
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 269
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Um analista de infraestrutura de banco de dados constatou que determinada tabela transacional de protocolo processual possuía 18 índices B+Tree secundários criados para atender a diversas consultas históricas pontuais. Embora as consultas de leitura fossem velozes, os usuários começaram a relatar lentidão excessiva e travamentos intermitentes durante operações rotineiras de cadastro de novos processos e tramitação em lote.
 
 A explicação técnica que justifica esse comportamento reside no fato de que:
 
-* **A)** Índices B+Tree tornam-se somente-leitura após a inserção de 1.000 registros, forçando o SGBD a reiniciar a instância.
-* **B)** A existência de múltiplos índices secundários impõe uma sobrecarga computacional de I/O e CPU em operações DML (`INSERT`, `UPDATE`, `DELETE`).
-* **C)** Os índices secundários bloqueiam compulsoriamente a tabela inteira em modo exclusivo toda vez que um comando `SELECT` é disparado.
-* **D)** A criação de índices desativa automaticamente o subsistema de Write-Ahead Logging (WAL), forçando o SGBD a sincronizar blocos diretamente na área de dados em modo síncrono.
-* **E)** Operações de `INSERT` não utilizam índices secundários, de modo que a lentidão relatada é necessariamente decorrente de falha física nos setores do disco rígido.
-
+- **A)** Índices B+Tree tornam-se somente-leitura após a inserção de 1.000 registros, forçando o SGBD a reiniciar a instância.
+- **B)** A existência de múltiplos índices secundários impõe uma sobrecarga computacional de I/O e CPU em operações DML (`INSERT`, `UPDATE`, `DELETE`).
+- **C)** Os índices secundários bloqueiam compulsoriamente a tabela inteira em modo exclusivo toda vez que um comando `SELECT` é disparado.
+- **D)** A criação de índices desativa automaticamente o subsistema de Write-Ahead Logging (WAL), forçando o SGBD a sincronizar blocos diretamente na área de dados em modo síncrono.
+- **E)** Operações de `INSERT` não utilizam índices secundários, de modo que a lentidão relatada é necessariamente decorrente de falha física nos setores do disco rígido.
 
 ---
 
@@ -205,7 +204,7 @@ A explicação técnica que justifica esse comportamento reside no fato de que:
 > - **C)** Incorreta. Leituras adquirem bloqueios compartilhados de curta duração nas páginas do índice ou utilizam MVCC, sem travar a tabela em modo exclusivo.
 > - **D)** Incorreta. Operações em índices são integralmente registradas no WAL para garantir durabilidade (ACID).
 > - **E)** Incorreta. Cada `INSERT` afeta diretamente todos os índices secundários da tabela.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -225,17 +224,19 @@ Os SGBDs modernos operam com o **Cost-Based Optimizer (CBO)**, que calcula uma e
 
 Para inspecionar a decisão tomada pelo CBO, o desenvolvedor ou DBA utiliza ferramentas de introspecção:
 
-* `EXPLAIN <consulta>`:
-    - Gera e exibe o plano de execução teórico estimado pelo otimizador.
-    - **A consulta NÃO é executada no banco de dados**. Os valores exibidos para `cost` (custo inicial e custo total de processamento), `rows` (cardinalidade estimada) e `width` (tamanho em bytes por linha) são puramente teóricos.
-* `EXPLAIN ANALYZE <consulta>`:
-    - **A consulta É REALMENTE EXECUTADA no motor do banco de dados**.
-    - O comando exibe tanto os custos e cardinalidades estimados quanto os valores reais observados durante o processamento: tempo decorrido (*actual time* em milissegundos para a primeira e última linha), número real de linhas processadas (*actual rows*), número de loops executados e métricas de consumo de memória e I/O.
-    - **Atenção:** Em comandos com efeitos colaterais (`UPDATE`, `DELETE`, `INSERT`), o `EXPLAIN ANALYZE` efetivamente altera os dados. Para evitar modificações permanentes em homologação/análise, deve ser executado dentro de uma transação com `ROLLBACK`.
+- `EXPLAIN <consulta>`:
+  - Gera e exibe o plano de execução teórico estimado pelo otimizador.
+  - **A consulta NÃO é executada no banco de dados**. Os valores exibidos para `cost` (custo inicial e custo total de processamento), `rows` (cardinalidade estimada) e `width` (tamanho em bytes por linha) são puramente teóricos.
+- `EXPLAIN ANALYZE <consulta>`:
+  - **A consulta É REALMENTE EXECUTADA no motor do banco de dados**.
+  - O comando exibe tanto os custos e cardinalidades estimados quanto os valores reais observados durante o processamento: tempo decorrido (*actual time* em milissegundos para a primeira e última linha), número real de linhas processadas (*actual rows*), número de loops executados e métricas de consumo de memória e I/O.
+  - **Atenção:** Em comandos com efeitos colaterais (`UPDATE`, `DELETE`, `INSERT`), o `EXPLAIN ANALYZE` efetivamente altera os dados. Para evitar modificações permanentes em homologação/análise, deve ser executado dentro de uma transação com `ROLLBACK`.
 
 ```
 QUERY PLAN
+
 -------------------------------------------------------------------------------------------------------------------------
+
 Hash Join  (cost=12.50.35.20 rows=150 width=64) (actual time=0.085.0.210 rows=145 loops=1)
   Hash Cond: (p.categoria_id = c.id)
   ->  Seq Scan on produtos p  (cost=0.00.18.00 rows=500 width=40) (actual time=0.012.0.080 rows=500 loops=1)
@@ -284,17 +285,17 @@ A combinação de conjuntos de tuplas originários de duas tabelas (ou subconsul
 ---
 
 ### Teste 270
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No PostgreSQL e em outros SGBDs modernos, o subsistema responsável por avaliar múltiplos caminhos de acesso alternativos e selecionar o plano de execução mais eficiente é o Otimizador Baseado em Custo (*Cost-Based Optimizer - CBO*).
 
 Para que o CBO realize estimativas precisas de cardinalidade e escolha entre uma varredura sequencial (*Seq Scan*) e uma varredura por índice (*Index Scan*), é indispensável que o catálogo de metadados do banco (`pg_statistic` / `pg_stats`) mantenha informações atualizadas. O comando administrativo que coleta e recalcula essas estatísticas amostrais sem bloquear a tabela para leitura é:
 
-* **A)** `REINDEX TABLE nome_tabela;`
-* **B)** `ANALYZE nome_tabela;`
-* **C)** `EXPLAIN OPTIMIZE nome_tabela;`
-* **D)** `CHECK TABLE nome_tabela EXTENDED;`
-* **E)** `FLUSH PRIVILEGES nome_tabela;`
-
+- **A)** `REINDEX TABLE nome_tabela;`
+- **B)** `ANALYZE nome_tabela;`
+- **C)** `EXPLAIN OPTIMIZE nome_tabela;`
+- **D)** `CHECK TABLE nome_tabela EXTENDED;`
+- **E)** `FLUSH PRIVILEGES nome_tabela;`
 
 ---
 
@@ -305,23 +306,23 @@ Para que o CBO realize estimativas precisas de cardinalidade e escolha entre uma
 > - **C)** Incorreta. `EXPLAIN` apenas exibe o plano de execução gerado pelo CBO para uma dada consulta; não existe a variante sintática `EXPLAIN OPTIMIZE` para calcular estatísticas.
 > - **D)** Incorreta. Comando do MySQL para verificação de corrupção física de blocos, não usado no PostgreSQL.
 > - **E)** Incorreta. Comando do MySQL para recarregar privilégios de acesso DCL da memória.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 271
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No contexto de otimização de consultas e análise de planos de execução de banco de dados, avalie a seguinte instrução:
 `EXPLAIN ANALYZE SELECT * FROM lancamentos WHERE valor > 50000;`
 A respeito das características dos comandos `EXPLAIN` e `EXPLAIN ANALYZE`, é correto afirmar que:
 
-* **A)** O comando `EXPLAIN` executa a consulta de forma assíncrona, coletando tempos reais de processamento de CPU.
-* **B)** O comando `EXPLAIN ANALYZE` avalia as estimativas teóricas do otimizador CBO e efetivamente executa a instrução, medindo métricas e tempos reais de execução.
-* **C)** Ambos os comandos apenas mostram estimativas estatísticas baseadas nos catálogos, sem jamais executar as consultas.
-* **D)** O comando `EXPLAIN ANALYZE` é incapaz de apresentar os custos estimados, limitando-se a registrar o tempo total de relógio.
-* **E)** O uso de `EXPLAIN ANALYZE` em consultas que realizam alterações de dados (`UPDATE` ou `DELETE`) apenas simula a modificação, sem alterar as linhas nas tabelas físicas.
-
+- **A)** O comando `EXPLAIN` executa a consulta de forma assíncrona, coletando tempos reais de processamento de CPU.
+- **B)** O comando `EXPLAIN ANALYZE` avalia as estimativas teóricas do otimizador CBO e efetivamente executa a instrução, medindo métricas e tempos reais de execução.
+- **C)** Ambos os comandos apenas mostram estimativas estatísticas baseadas nos catálogos, sem jamais executar as consultas.
+- **D)** O comando `EXPLAIN ANALYZE` é incapaz de apresentar os custos estimados, limitando-se a registrar o tempo total de relógio.
+- **E)** O uso de `EXPLAIN ANALYZE` em consultas que realizam alterações de dados (`UPDATE` ou `DELETE`) apenas simula a modificação, sem alterar as linhas nas tabelas físicas.
 
 ---
 
@@ -332,23 +333,23 @@ A respeito das características dos comandos `EXPLAIN` e `EXPLAIN ANALYZE`, é c
 > - **C)** Incorreta. O `EXPLAIN ANALYZE` executa de fato a query.
 > - **D)** Incorreta. O relatório de `EXPLAIN ANALYZE` exibe tanto a estimativa estatística prévia do planejador quanto os valores reais coletados durante o processamento.
 > - **E)** Incorreta. Se aplicado a um comando DML (`UPDATE`, `DELETE`, `INSERT`), o `EXPLAIN ANALYZE` efetivamente altera os dados persistidos no banco de dados.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 272
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O otimizador de consultas de um banco de dados relacional dispõe de três algoritmos fundamentais para processar a junção (*join*) física entre duas relações $R$ (externa/outer) e $S$ (interna/inner): *Nested Loop Join*, *Hash Join* e *Sort-Merge Join*.
 
 Assinale a afirmativa que apresenta corretamente o cenário em que o CBO tipicamente elege o algoritmo **Hash Join**:
 
-* **A)** Quando uma das relações possui apenas 2 registros e a outra possui índice exclusivo já ordenado.
-* **B)** Quando as duas tabelas são volumosas, a condição de junção baseia-se em um teste de igualdade (equijunção, como $R.id = S.id$) e não existem índices prévios ordenados que viabilizem um Merge Join direto.
-* **C)** Quando a condição de junção utiliza predicados de desigualdade e faixas de valores, tais como $R.data \ge S.data$.
-* **D)** Exclusivamente quando a consulta contém a cláusula `ORDER BY` explícita em todas as colunas de ambas as tabelas.
-* **E)** Quando o volume de memória alocado para `work_mem` for de apenas 4 kilobytes, tornando inviável qualquer estrutura em memória RAM considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-
+- **A)** Quando uma das relações possui apenas 2 registros e a outra possui índice exclusivo já ordenado.
+- **B)** Quando as duas tabelas são volumosas, a condição de junção baseia-se em um teste de igualdade (equijunção, como $R.id = S.id$) e não existem índices prévios ordenados que viabilizem um Merge Join direto.
+- **C)** Quando a condição de junção utiliza predicados de desigualdade e faixas de valores, tais como $R.data \ge S.data$.
+- **D)** Exclusivamente quando a consulta contém a cláusula `ORDER BY` explícita em todas as colunas de ambas as tabelas.
+- **E)** Quando o volume de memória alocado para `work_mem` for de apenas 4 kilobytes, tornando inviável qualquer estrutura em memória RAM considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 
 ---
 
@@ -361,7 +362,7 @@ Assinale a afirmativa que apresenta corretamente o cenário em que o CBO tipicam
 > - **C)** Incorreta. O Hash Join requer predicados de equidade ($=$); para operadores de desigualdade ($>, <, \ge$), o CBO recorre a *Nested Loops* ou *Merge Joins*.
 > - **D)** Incorreta. O Hash Join destrói a ordenação original dos dados; quando há `ORDER BY` coincidente com as chaves de junção, o algoritmo ideal é o **Sort-Merge Join**.
 > - **E)** Incorreta. Se a memória for insuficiente para a tabela hash caber no `work_mem`, o SGBD é forçado a realizar *hash join em múltiplos lotes (multi-batch / grace hash join)* despejando partições no disco, o que degrada o desempenho.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -374,17 +375,17 @@ O PostgreSQL é um Sistema Gerenciador de Banco de Dados Objeto-Relacional (SGBD
 
 Diferente de sistemas multithreaded (como MySQL ou SQL Server), o PostgreSQL adota uma arquitetura clássica baseada em **múltiplos processos independentes**:
 
-* **Processo Mestre (`postmaster` / `postgres server process`):**
-    - O daemon principal inicializa o servidor de banco de dados, aloca a memória compartilhada inicial e escuta em uma porta de rede (porta padrão `5432`).
-    - Para cada nova conexão de cliente recebida, o `postmaster` invoca uma chamada de sistema `fork()` para gerar um processo de backend dedicado (*client backend process*).
-    - Cada processo de backend gerencia uma única conexão de ponta a ponta e possui seu próprio espaço de memória privado (*process-private memory*).
-    - **Implicação arquitetural:** A criação de centenas ou milhares de conexões diretas esgota a memória do sistema operacional devido à sobrecarga de processos. Por isso, ambientes de produção de alta escala exigem obrigatoriamente um gerenciador externo de *connection pooling* (ex.: **PgBouncer**).
+- **Processo Mestre (`postmaster` / `postgres server process`):**
+  - O daemon principal inicializa o servidor de banco de dados, aloca a memória compartilhada inicial e escuta em uma porta de rede (porta padrão `5432`).
+  - Para cada nova conexão de cliente recebida, o `postmaster` invoca uma chamada de sistema `fork()` para gerar um processo de backend dedicado (*client backend process*).
+  - Cada processo de backend gerencia uma única conexão de ponta a ponta e possui seu próprio espaço de memória privado (*process-private memory*).
+  - **Implicação arquitetural:** A criação de centenas ou milhares de conexões diretas esgota a memória do sistema operacional devido à sobrecarga de processos. Por isso, ambientes de produção de alta escala exigem obrigatoriamente um gerenciador externo de *connection pooling* (ex.: **PgBouncer**).
 
-* **Processos Auxiliares de Background:**
-    - `bgwriter` (Background Writer): Grava continuamente páginas de dados alteradas (*dirty buffers*) da memória compartilhada para o disco de forma assíncrona, liberando espaço nos buffers para novas leituras.
-    - `checkpointer`: Executa periodicamente a operação de *checkpoint*, garantindo que todos os blocos sujos na memória até determinado ponto do log WAL sejam sincronizados fisicamente no disco.
-    - `walwriter`: Descarrega os registros do buffer de WAL para o armazenamento de disco de forma contínua.
-    - `autovacuum launcher` e `autovacuum workers`: Processos automáticos que orquestram a limpeza de registros mortos causados pelo modelo MVCC e atualizam as estatísticas de otimização.
+- **Processos Auxiliares de Background:**
+  - `bgwriter` (Background Writer): Grava continuamente páginas de dados alteradas (*dirty buffers*) da memória compartilhada para o disco de forma assíncrona, liberando espaço nos buffers para novas leituras.
+  - `checkpointer`: Executa periodicamente a operação de *checkpoint*, garantindo que todos os blocos sujos na memória até determinado ponto do log WAL sejam sincronizados fisicamente no disco.
+  - `walwriter`: Descarrega os registros do buffer de WAL para o armazenamento de disco de forma contínua.
+  - `autovacuum launcher` e `autovacuum workers`: Processos automáticos que orquestram a limpeza de registros mortos causados pelo modelo MVCC e atualizam as estatísticas de otimização.
 
 ### 3.2 Parâmetros Críticos de Memória
 
@@ -435,15 +436,15 @@ O PostgreSQL implementa o controle de concorrência multiversão (MVCC) por meio
 
 O utilitário `VACUUM` é o mecanismo responsável por recuperar esse espaço:
 
-* **`VACUUM` (Padrão / Concorrente):**
-    - Percorre as páginas, identifica as tuplas mortas que não são mais visíveis a nenhuma transação ativa e marca o espaço ocupado por elas como livre para reutilização interna por futuros `INSERT` ou `UPDATE` na mesma tabela.
-    - **Não reduz o tamanho físico do arquivo no sistema operacional** (salvo no caso de páginas inteiramente vazias no final do arquivo físico).
-    - Pode ser executado concorrentemente com operações normais de leitura e escrita (`SELECT`, `INSERT`, `UPDATE`, `DELETE`) sem bloquear a tabela com travas exclusivas.
-* **`VACUUM FULL`:**
-    - Reescreve completamente a tabela em um novo arquivo físico no disco, compactando os dados e eliminando integralmente todo o espaço morto (*bloat*), devolvendo o espaço livre ao sistema operacional.
-    - **Desvantagem Crítica:** Exige um bloqueio exclusivo estrito (**ExclusiveLock**) sobre a tabela inteira, impedindo quaisquer operações concorrentes de leitura e escrita até o término do processo. Requer ainda espaço livre em disco suficiente para manter uma cópia temporária da tabela completa durante a execução.
-* **`autovacuum`:**
-    - Daemon residente que aciona automaticamente processos de limpeza e atualização de estatísticas (`ANALYZE`) com base em limites proporcionais de modificação de tuplas (`autovacuum_vacuum_threshold` e `autovacuum_vacuum_scale_factor`).
+- **`VACUUM` (Padrão / Concorrente):**
+  - Percorre as páginas, identifica as tuplas mortas que não são mais visíveis a nenhuma transação ativa e marca o espaço ocupado por elas como livre para reutilização interna por futuros `INSERT` ou `UPDATE` na mesma tabela.
+  - **Não reduz o tamanho físico do arquivo no sistema operacional** (salvo no caso de páginas inteiramente vazias no final do arquivo físico).
+  - Pode ser executado concorrentemente com operações normais de leitura e escrita (`SELECT`, `INSERT`, `UPDATE`, `DELETE`) sem bloquear a tabela com travas exclusivas.
+- **`VACUUM FULL`:**
+  - Reescreve completamente a tabela em um novo arquivo físico no disco, compactando os dados e eliminando integralmente todo o espaço morto (*bloat*), devolvendo o espaço livre ao sistema operacional.
+  - **Desvantagem Crítica:** Exige um bloqueio exclusivo estrito (**ExclusiveLock**) sobre a tabela inteira, impedindo quaisquer operações concorrentes de leitura e escrita até o término do processo. Requer ainda espaço livre em disco suficiente para manter uma cópia temporária da tabela completa durante a execução.
+- **`autovacuum`:**
+  - Daemon residente que aciona automaticamente processos de limpeza e atualização de estatísticas (`ANALYZE`) com base em limites proporcionais de modificação de tuplas (`autovacuum_vacuum_threshold` e `autovacuum_vacuum_scale_factor`).
 
 ### 3.4 Write-Ahead Logging (WAL) e Checkpoints
 
@@ -455,15 +456,15 @@ Para assegurar a durabilidade (D do ACID) e a recuperação contra falhas (*cras
 ---
 
 ### Teste 273
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No Sistema Gerenciador de Banco de Dados PostgreSQL, o parâmetro de configuração `work_mem` desempenha papel vital no desempenho do sistema. Sobre esse parâmetro, é correto afirmar:
 
-* **A)** Trata-se da área de memória global compartilhada responsável por armazenar os blocos de dados de tabelas e índices em cache para todas as conexões ativas.
-* **B)** Define a quantidade máxima de memória estática alocada por cada transação, independentemente da quantidade de comandos executados no seu interior.
-* **C)** É um parâmetro alocado dinamicamente por processo para operações internas como ordenações (`ORDER BY`) ou tabelas hash (`Hash Join`), podendo ser consumido múltiplas vezes em uma mesma consulta complexa.
-* **D)** Especifica a quantidade de memória destinada exclusivamente ao processo `autovacuum` para compactação das tuplas mortas.
-* **E)** Deve ser configurado obrigatoriamente com no mínimo 50% de toda a memória RAM física disponível no servidor de banco de dados.
-
+- **A)** Trata-se da área de memória global compartilhada responsável por armazenar os blocos de dados de tabelas e índices em cache para todas as conexões ativas.
+- **B)** Define a quantidade máxima de memória estática alocada por cada transação, independentemente da quantidade de comandos executados no seu interior.
+- **C)** É um parâmetro alocado dinamicamente por processo para operações internas como ordenações (`ORDER BY`) ou tabelas hash (`Hash Join`), podendo ser consumido múltiplas vezes em uma mesma consulta complexa.
+- **D)** Especifica a quantidade de memória destinada exclusivamente ao processo `autovacuum` para compactação das tuplas mortas.
+- **E)** Deve ser configurado obrigatoriamente com no mínimo 50% de toda a memória RAM física disponível no servidor de banco de dados.
 
 ---
 
@@ -474,23 +475,23 @@ No Sistema Gerenciador de Banco de Dados PostgreSQL, o parâmetro de configuraç
 > - **C)** **Correta.** O `work_mem` é uma área de memória privada de processo utilizada por nós do plano de execução que demandam ordenação em memória (`ORDER BY`, `DISTINCT`, Merge Join) ou tabelas hash (`Hash Join`, agregações por hash). Uma consulta contendo múltiplos joins e sorts pode alocar várias instâncias de `work_mem` simultaneamente.
 > - **D)** Incorreta. A memória alocada para o processo de vacuum e criação de índices é o `maintenance_work_mem`.
 > - **E)** Incorreta. Configurar `work_mem` com 50% da memória RAM física causaria rápido esgotamento de memória (*Out of Memory - OOM Kill*) pelo sistema operacional assim que houvesse conexões simultâneas executando queries concorrentes.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 274
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em razão da arquitetura MVCC do PostgreSQL, comandos de `UPDATE` e `DELETE` não sobrescrevem tuplas fisicamente nem liberam o espaço em disco de imediato, gerando tuplas mortas (*dead tuples*) no interior das páginas de dados.
 
 A respeito do mecanismo de limpeza e manutenção `VACUUM` no PostgreSQL, assinale a afirmativa correta:
 
-* **A)** O comando `VACUUM` padrão (sem a opção `FULL`) bloqueia a tabela inteira para leituras até que todas as páginas de dados sejam reescritas no disco.
-* **B)** O comando `VACUUM FULL` realiza a limpeza concorrente sem adquirir nenhum bloqueio exclusivo, liberando espaço diretamente para o sistema operacional sem mover dados.
-* **C)** O `VACUUM` padrão marca o espaço ocupado por tuplas mortas como reutilizável para novas inserções dentro da mesma tabela sem devolver o espaço ao sistema operacional, ao passo que o `VACUUM FULL` reescreve a tabela inteira em novos blocos, devolve o espaço livre ao sistema operacional, mas exige bloqueio exclusivo total (`AccessExclusiveLock`).
-* **D)** O mecanismo de *Autovacuum* deve ser permanentemente desativado em ambientes corporativos de produção para evitar concorrência com as conexões dos usuários.
-* **E)** O PostgreSQL dispensa o congelamento de identificadores de transação (*Transaction ID Freeze*), pois seus identificadores de transação são inteiros de 128 bits imunes a esgotamento.
-
+- **A)** O comando `VACUUM` padrão (sem a opção `FULL`) bloqueia a tabela inteira para leituras até que todas as páginas de dados sejam reescritas no disco.
+- **B)** O comando `VACUUM FULL` realiza a limpeza concorrente sem adquirir nenhum bloqueio exclusivo, liberando espaço diretamente para o sistema operacional sem mover dados.
+- **C)** O `VACUUM` padrão marca o espaço ocupado por tuplas mortas como reutilizável para novas inserções dentro da mesma tabela sem devolver o espaço ao sistema operacional, ao passo que o `VACUUM FULL` reescreve a tabela inteira em novos blocos, devolve o espaço livre ao sistema operacional, mas exige bloqueio exclusivo total (`AccessExclusiveLock`).
+- **D)** O mecanismo de *Autovacuum* deve ser permanentemente desativado em ambientes corporativos de produção para evitar concorrência com as conexões dos usuários.
+- **E)** O PostgreSQL dispensa o congelamento de identificadores de transação (*Transaction ID Freeze*), pois seus identificadores de transação são inteiros de 128 bits imunes a esgotamento.
 
 ---
 
@@ -503,7 +504,7 @@ A respeito do mecanismo de limpeza e manutenção `VACUUM` no PostgreSQL, assina
 >   - **VACUUM FULL:** Compacta e copia todas as tuplas vivas para um arquivo de dados totalmente novo, liberando o arquivo antigo e devolvendo o espaço em disco para o sistema operacional. Como contrapartida, adquire `AccessExclusiveLock` na tabela durante todo o processo.
 > - **D)** Incorreta. Desativar o autovacuum causa degradação catastrófica de desempenho por inchaço (*bloat*) e paralisação do banco por *wraparound*.
 > - **E)** Incorreta. Os Transaction IDs (XIDs) no PostgreSQL clássico são números inteiros de 32 bits ($2^{32} \approx 4$ bilhões de valores). Para evitar que transações antigas pareçam estar no futuro (*Transaction ID Wraparound Failure*), o autovacuum executa compulsoriamente o **VACUUM FREEZE** para marcar transações consolidadas como `FrozenTransactionId`.
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -566,20 +567,20 @@ A terminologia oficial estabelece:
 
 Os processos de background realizam a ponte operacional entre a SGA e os arquivos de armazenamento em disco:
 
-* **DBWn (Database Writer):**
-    - Grava blocos de dados alterados (*dirty buffers*) do *Database Buffer Cache* nos arquivos de dados físicos (*Datafiles*).
-    - É um processo assíncrono projetado para minimizar o I/O síncrono dos usuários. Grava em lotes sob gatilhos específicos (limiar de blocos sujos, ausência de buffers livres ou execução de checkpoints).
-* **LGWR (Log Writer):**
-    - Grava os dados do *Redo Log Buffer* da SGA nos arquivos de *Redo Log Files* no disco.
-    - **Processo Crítico de Commit:** Quando uma transação executa um comando `COMMIT`, o processo LGWR sincroniza **obrigatoriamente e de forma síncrona** o registro de commit no Redo Log em disco antes de retornar a mensagem de confirmação de sucesso ao cliente.
-* **CKPT (Checkpoint Process):**
-    - Sinaliza ao DBWn para gravar os buffers sujos em disco e **atualiza os cabeçalhos de todos os arquivos de dados (*datafiles*) e dos arquivos de controle (*control files*)** com a numeração do System Change Number (SCN) mais recente.
-* **SMON (System Monitor):**
-    - Executa a **recuperação automática de falhas da instância (*instance recovery*)** durante a inicialização do banco de dados (reaplicando o Redo Log a partir do último checkpoint e revertendo transações não confirmadas). Realiza também a coalescência de extensões livres em tablespaces gerenciadas por dicionário.
-* **PMON (Process Monitor):**
-    - Monitora os processos dos clientes conectados. Se uma conexão ou processo de usuário falhar ou for abortado repentinamente, o PMON entra em ação para **limpar os recursos**: desfaz a transação pendente (*rollback*), libera bloqueios (*locks*) de tabela e linha que o usuário detinha e devolve a área de memória PGA ao sistema operacional.
-* **ARCn (Archiver):**
-    - Processo opcional (mas indispensável em produção empresarial), ativado quando o banco está configurado em modo `ARCHIVELOG`. Copia os arquivos de Redo Log que foram preenchidos para diretórios externos de arquivamento seguro (*Archive Logs*) antes que o LGWR os sobrescreva.
+- **DBWn (Database Writer):**
+  - Grava blocos de dados alterados (*dirty buffers*) do *Database Buffer Cache* nos arquivos de dados físicos (*Datafiles*).
+  - É um processo assíncrono projetado para minimizar o I/O síncrono dos usuários. Grava em lotes sob gatilhos específicos (limiar de blocos sujos, ausência de buffers livres ou execução de checkpoints).
+- **LGWR (Log Writer):**
+  - Grava os dados do *Redo Log Buffer* da SGA nos arquivos de *Redo Log Files* no disco.
+  - **Processo Crítico de Commit:** Quando uma transação executa um comando `COMMIT`, o processo LGWR sincroniza **obrigatoriamente e de forma síncrona** o registro de commit no Redo Log em disco antes de retornar a mensagem de confirmação de sucesso ao cliente.
+- **CKPT (Checkpoint Process):**
+  - Sinaliza ao DBWn para gravar os buffers sujos em disco e **atualiza os cabeçalhos de todos os arquivos de dados (*datafiles*) e dos arquivos de controle (*control files*)** com a numeração do System Change Number (SCN) mais recente.
+- **SMON (System Monitor):**
+  - Executa a **recuperação automática de falhas da instância (*instance recovery*)** durante a inicialização do banco de dados (reaplicando o Redo Log a partir do último checkpoint e revertendo transações não confirmadas). Realiza também a coalescência de extensões livres em tablespaces gerenciadas por dicionário.
+- **PMON (Process Monitor):**
+  - Monitora os processos dos clientes conectados. Se uma conexão ou processo de usuário falhar ou for abortado repentinamente, o PMON entra em ação para **limpar os recursos**: desfaz a transação pendente (*rollback*), libera bloqueios (*locks*) de tabela e linha que o usuário detinha e devolve a área de memória PGA ao sistema operacional.
+- **ARCn (Archiver):**
+  - Processo opcional (mas indispensável em produção empresarial), ativado quando o banco está configurado em modo `ARCHIVELOG`. Copia os arquivos de Redo Log que foram preenchidos para diretórios externos de arquivamento seguro (*Archive Logs*) antes que o LGWR os sobrescreva.
 
 ### 4.3 Estrutura Física e Lógica de Armazenamento
 
@@ -607,17 +608,17 @@ TABLESPACE ────────► SEGMENTO ────────► EXTE
 ---
 
 ### Teste 275
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na arquitetura do Oracle Database, a memória é estruturada em duas grandes áreas conceituais: a *System Global Area* (SGA) e a *Program Global Area* (PGA).
 
 A respeito das funções e componentes dessas áreas de memória, assinale a afirmativa correta:
 
-* **A)** A PGA é uma área de memória compartilhada acessível simultaneamente por todos os processos de background da instância Oracle para troca de blocos de dados.
-* **B)** A SGA é uma área de memória compartilhada alocada na inicialização da instância, que contém estruturas vitais como o *Database Buffer Cache* (armazena cópias de blocos de dados lidos do disco), o *Redo Log Buffer* (armazena registros de alterações antes de serem gravados nos redo log files) e a *Shared Pool* (contém a Library Cache e o Data Dictionary Cache).
-* **C)** O *Database Buffer Cache* armazena unicamente o código-fonte compilado de rotinas em PL/SQL e gatilhos, sendo proibido de armazenar dados de tabelas.
-* **D)** A *Shared Pool* é alocada dentro da PGA privada de cada sessão de usuário e é destruída imediatamente após o encerramento do comando `SELECT`.
-* **E)** O processo LGWR (*Log Writer*) lê dados diretamente da PGA dos clientes e grava nos datafiles de dados a cada 3 segundos.
-
+- **A)** A PGA é uma área de memória compartilhada acessível simultaneamente por todos os processos de background da instância Oracle para troca de blocos de dados.
+- **B)** A SGA é uma área de memória compartilhada alocada na inicialização da instância, que contém estruturas vitais como o *Database Buffer Cache* (armazena cópias de blocos de dados lidos do disco), o *Redo Log Buffer* (armazena registros de alterações antes de serem gravados nos redo log files) e a *Shared Pool* (contém a Library Cache e o Data Dictionary Cache).
+- **C)** O *Database Buffer Cache* armazena unicamente o código-fonte compilado de rotinas em PL/SQL e gatilhos, sendo proibido de armazenar dados de tabelas.
+- **D)** A *Shared Pool* é alocada dentro da PGA privada de cada sessão de usuário e é destruída imediatamente após o encerramento do comando `SELECT`.
+- **E)** O processo LGWR (*Log Writer*) lê dados diretamente da PGA dos clientes e grava nos datafiles de dados a cada 3 segundos.
 
 ---
 
@@ -633,21 +634,21 @@ A respeito das funções e componentes dessas áreas de memória, assinale a afi
 > - **C)** Incorreta. O *Database Buffer Cache* armazena blocos de tabelas e índices. Código compilado fica na *Library Cache* da *Shared Pool*.
 > - **D)** Incorreta. A *Shared Pool* fica na SGA e é compartilhada por todas as conexões da instância.
 > - **E)** Incorreta. O LGWR descarrega o *Redo Log Buffer* da SGA nos *Redo Log Files* em disco no momento do `COMMIT`, e não da PGA nos datafiles.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 276
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No banco de dados Oracle, a comunicação entre as estruturas de memória da Instância e a gravação permanente no disco é realizada por processos de segundo plano (*background processes*). O processo responsável por efetuar a gravação síncrona das entradas do *Redo Log Buffer* nos arquivos físicos de *Redo Log* no momento exato em que uma transação emite o comando `COMMIT` é o:
 
-* **A)** DBWn (Database Writer).
-* **B)** LGWR (Log Writer).
-* **C)** CKPT (Checkpoint).
-* **D)** PMON (Process Monitor).
-* **E)** SMON (System Monitor).
-
+- **A)** DBWn (Database Writer).
+- **B)** LGWR (Log Writer).
+- **C)** CKPT (Checkpoint).
+- **D)** PMON (Process Monitor).
+- **E)** SMON (System Monitor).
 
 ---
 
@@ -658,12 +659,13 @@ No banco de dados Oracle, a comunicação entre as estruturas de memória da Ins
 > - **C)** Incorreta. O CKPT notifica o DBWn e atualiza os cabeçalhos dos datafiles e control files com o SCN atual.
 > - **D)** Incorreta. O PMON limpa recursos órfãos de conexões que caíram inesperadamente (desfazendo transações pendentes e liberando locks).
 > - **E)** Incorreta. O SMON executa a recuperação de falhas da instância (*instance recovery*) na inicialização do banco.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 277
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na arquitetura do Oracle Database, a organização do armazenamento divide-se entre estruturas físicas e estruturas lógicas. Considere as seguintes assertivas:
 
@@ -675,35 +677,34 @@ III. Os arquivos de controle (*Control Files*) contêm o código compilado dos p
 
 Está correto o que se afirma em:
 
-* **A)** I e II, apenas.
-* **B)** II e III, apenas.
-* **C)** I e III, apenas.
-* **D)** I, II e III.
-* **E)** I, apenas.
-
+- **A)** I e II, apenas.
+- **B)** II e III, apenas.
+- **C)** I e III, apenas.
+- **D)** I, II e III.
+- **E)** I, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** 
->     - **Item I:** Correto. A tablespace é a maior unidade lógica e mapeia um ou mais datafiles físicos, existindo uma relação estrita de 1:N (um datafile nunca pode pertencer a mais de uma tablespace).
->     - **Item II:** Correto. A hierarquia lógica fundamental do Oracle é: Bloco de Dados $\rightarrow$ Extensão (bloco contíguo) $\rightarrow$ Segmento (conjunto de extensões de um objeto) $\rightarrow$ Tablespace.
+> - **A)** **Correta.**
+>   - **Item I:** Correto. A tablespace é a maior unidade lógica e mapeia um ou mais datafiles físicos, existindo uma relação estrita de 1:N (um datafile nunca pode pertencer a mais de uma tablespace).
+>   - **Item II:** Correto. A hierarquia lógica fundamental do Oracle é: Bloco de Dados $\rightarrow$ Extensão (bloco contíguo) $\rightarrow$ Segmento (conjunto de extensões de um objeto) $\rightarrow$ Tablespace.
 > - **B)** Incorreta, pois o item III é falso e o item I é verdadeiro.
 > - **C)** Incorreta, pois o item III é flagrantemente falso.
 > - **D)** Incorreta, pois o item III está incorreto.
 > - **E)** Incorreta, pois o item II também está correto.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [PostgreSQL 17 Official Documentation - Indexes](https://www.postgresql.org/docs/current/indexes.html) - Tipos de índices: B-Tree, Hash, GiST, SP-GiST, GIN e BRIN e suas indicações de uso.
-* [PostgreSQL 17 Official Documentation - Using EXPLAIN for Query Tuning](https://www.postgresql.org/docs/current/using-explain.html) - Análise de planos de execução (Seq Scan, Index Scan, Bitmap Index Scan, Nested Loop, Hash Join).
-* [PostgreSQL 17 Official Documentation - Routine Vacuuming and Autovacuum](https://www.postgresql.org/docs/current/routine-vacuuming.html) - Limpeza de tuplas mortas (*dead tuples*), atualização de estatísticas do otimizador (ANALYZE).
-* [Oracle Database 19c Documentation - Index Architecture](https://docs.oracle.com/en/database/oracle/oracle-database/19/cncpt/indexes-and-index-organized-tables.html) - Índices B-Tree, índices Bitmap e tabelas organizadas por índice (IOT).
-* SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. **Sistema de Banco de Dados**. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 14 - Indexação; Cap. 15 - Processamento e Otimização de Consultas).
-* ELMASRI, Ramez; NAVATHE, Shamkant B. **Sistemas de Banco de Dados**. 7. ed. São Paulo: Pearson, 2019. (Cap. 16 - Estruturas de Indexação para Arquivos; Cap. 18 - Estratégias de Otimização).
-* HEUSER, Carlos Alberto. **Projeto de Banco de Dados**. 6. ed. Porto Alegre: Bookman, 2009. (Cap. 7 - Projeto Físico e Otimização de Índices).
+- [PostgreSQL 17 Official Documentation - Indexes](https://www.postgresql.org/docs/current/indexes.html) - Tipos de índices: B-Tree, Hash, GiST, SP-GiST, GIN e BRIN e suas indicações de uso.
+- [PostgreSQL 17 Official Documentation - Using EXPLAIN for Query Tuning](https://www.postgresql.org/docs/current/using-explain.html) - Análise de planos de execução (Seq Scan, Index Scan, Bitmap Index Scan, Nested Loop, Hash Join).
+- [PostgreSQL 17 Official Documentation - Routine Vacuuming and Autovacuum](https://www.postgresql.org/docs/current/routine-vacuuming.html) - Limpeza de tuplas mortas (*dead tuples*), atualização de estatísticas do otimizador (ANALYZE).
+- [Oracle Database 19c Documentation - Index Architecture](https://docs.oracle.com/en/database/oracle/oracle-database/19/cncpt/indexes-and-index-organized-tables.html) - Índices B-Tree, índices Bitmap e tabelas organizadas por índice (IOT).
+- SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. **Sistema de Banco de Dados**. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 14 - Indexação; Cap. 15 - Processamento e Otimização de Consultas).
+- ELMASRI, Ramez; NAVATHE, Shamkant B. **Sistemas de Banco de Dados**. 7. ed. São Paulo: Pearson, 2019. (Cap. 16 - Estruturas de Indexação para Arquivos; Cap. 18 - Estratégias de Otimização).
+- HEUSER, Carlos Alberto. **Projeto de Banco de Dados**. 6. ed. Porto Alegre: Bookman, 2009. (Cap. 7 - Projeto Físico e Otimização de Índices).

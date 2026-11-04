@@ -4,12 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `03_conteinerizacao_docker_e_docker_compose.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Conceitos de conteinerização vs. virtualização tradicional
 - Arquitetura e componentes do Docker (Daemon, Client, Images, Containers, Registries)
 - Construção de imagens e instruções do Dockerfile
@@ -21,37 +19,37 @@
 
 ## 🧭 Sumário
 
-1. [Fundamentos de Conteinerização vs. Virtualização Tradicional](#1-fundamentos-de-conteinerizacao-vs-virtualizacao-tradicional)
-    - [1.1 Máquinas Virtuais (Hypervisors) vs. Contêineres (Kernel Compartilhado)](#11-maquinas-virtuais-hypervisors-vs-conteineres-kernel-compartilhado)
-    - [1.2 Primitivas Essenciais do Kernel Linux: Namespaces e Control Groups (cgroups)](#12-primitivas-essenciais-do-kernel-linux-namespaces-e-control-groups-cgroups)
-    - [1.3 Arquitetura do Docker Engine: Client, Daemon, containerd, runc e Registries](#13-arquitetura-do-docker-engine-client-daemon-containerd-runc-e-registries)
-    - [1.4 Sistema de Arquivos em Camadas (Overlay2 UnionFS) e Copy-on-Write (CoW)](#14-sistema-de-arquivos-em-camadas-overlay2-unionfs-e-copy-on-write-cow)
-    - [Teste 192](#teste-192)
-    - [Teste 193](#teste-193)
-    - [Teste 194](#teste-194)
-2. [Construção de Imagens e Anatomia do Dockerfile](#2-construcao-de-imagens-e-anatomia-do-dockerfile)
-    - [2.1 Instruções Canônicas: FROM, WORKDIR, COPY vs. ADD, RUN, ENV vs. ARG](#21-instrucoes-canonicas-from-workdir-copy-vs-add-run-env-vs-arg)
-    - [2.2 Execução de Processos: ENTRYPOINT vs. CMD (Exec Form vs. Shell Form)](#22-execucao-de-processos-entrypoint-vs-cmd-exec-form-vs-shell-form)
-    - [2.3 Exposição de Portas e Segurança: EXPOSE vs. Publicação no Host e Diretiva USER](#23-exposicao-de-portas-e-seguranca-expose-vs-publicacao-no-host-e-diretiva-user)
-    - [2.4 Otimização com Builds de Múltiplos Estágios (Multi-Stage Builds) e Cache de Camadas](#24-otimizacao-com-builds-de-multiplos-estagios-multi-stage-builds-e-cache-de-camadas)
-    - [Teste 195](#teste-195)
-    - [Teste 196](#teste-196)
-    - [Teste 197](#teste-197)
-    - [Teste 198](#teste-198)
-3. [Persistência de Dados e Gerenciamento de Armazenamento](#3-persistencia-de-dados-e-gerenciamento-de-armazenamento)
-    - [3.1 Efemeridade da Camada de Leitura e Escrita do Contêiner](#31-efemeridade-da-camada-de-leitura-e-escrita-do-conteiner)
-    - [3.2 Comparativo: Named Volumes vs. Bind Mounts vs. tmpfs Mounts](#32-comparativo-named-volumes-vs-bind-mounts-vs-tmpfs-mounts)
-    - [Teste 199](#teste-199)
-4. [Redes no Docker: Drivers e Resolução de Nomes](#4-redes-no-docker-drivers-e-resolucao-de-nomes)
-    - [4.1 Drivers de Rede: bridge, host, none, overlay e macvlan](#41-drivers-de-rede-bridge-host-none-overlay-e-macvlan)
-    - [4.2 Resolução de Nomes por DNS Integrado em Redes Customizadas](#42-resolucao-de-nomes-por-dns-integrado-em-redes-customizadas)
-    - [Teste 200](#teste-200)
-    - [Teste 201](#teste-201)
-5. [Orquestração Multi-Contêiner com Docker Compose](#5-orquestracao-multi-conteiner-com-docker-compose)
-    - [5.1 Estrutura do Manifesto Compose: Services, Networks, Volumes e depends_on](#51-estrutura-do-manifesto-compose-services-networks-volumes-e-dependson)
-    - [5.2 Ciclo de Vida e Comandos Operacionais da CLI](#52-ciclo-de-vida-e-comandos-operacionais-da-cli)
-    - [Teste 202](#teste-202)
-1. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
+1. [Fundamentos de Conteinerização vs. Virtualização Tradicional](#1-fundamentos-de-conteinerização-vs-virtualização-tradicional)
+    1. [Máquinas Virtuais (Hypervisors) vs. Contêineres (Kernel Compartilhado)](#11-máquinas-virtuais-hypervisors-vs-contêineres-kernel-compartilhado)
+    1. [Primitivas Essenciais do Kernel Linux: Namespaces e Control Groups (cgroups)](#12-primitivas-essenciais-do-kernel-linux-namespaces-e-control-groups-cgroups)
+    1. [Arquitetura do Docker Engine: Client, Daemon, containerd, runc e Registries](#13-arquitetura-do-docker-engine-client-daemon-containerd-runc-e-registries)
+    1. [Sistema de Arquivos em Camadas (Overlay2 UnionFS) e Copy-on-Write (CoW)](#14-sistema-de-arquivos-em-camadas-overlay2-unionfs-e-copy-on-write-cow)
+    1. [Teste 192](#teste-192)
+    1. [Teste 193](#teste-193)
+    1. [Teste 194](#teste-194)
+2. [Construção de Imagens e Anatomia do Dockerfile](#2-construção-de-imagens-e-anatomia-do-dockerfile)
+    1. [Instruções Canônicas: FROM, WORKDIR, COPY vs. ADD, RUN, ENV vs. ARG](#21-instruções-canônicas-from-workdir-copy-vs-add-run-env-vs-arg)
+    1. [Execução de Processos: ENTRYPOINT vs. CMD (Exec Form vs. Shell Form)](#22-execução-de-processos-entrypoint-vs-cmd-exec-form-vs-shell-form)
+    1. [Exposição de Portas e Segurança: EXPOSE vs. Publicação no Host e Diretiva USER](#23-exposição-de-portas-e-segurança-expose-vs-publicação-no-host-e-diretiva-user)
+    1. [Otimização com Builds de Múltiplos Estágios (Multi-Stage Builds) e Cache de Camadas](#24-otimização-com-builds-de-múltiplos-estágios-multi-stage-builds-e-cache-de-camadas)
+    1. [Teste 195](#teste-195)
+    1. [Teste 196](#teste-196)
+    1. [Teste 197](#teste-197)
+    1. [Teste 198](#teste-198)
+3. [Persistência de Dados e Gerenciamento de Armazenamento](#3-persistência-de-dados-e-gerenciamento-de-armazenamento)
+    1. [Efemeridade da Camada de Leitura e Escrita do Contêiner](#31-efemeridade-da-camada-de-leitura-e-escrita-do-contêiner)
+    1. [Comparativo: Named Volumes vs. Bind Mounts vs. tmpfs Mounts](#32-comparativo-named-volumes-vs-bind-mounts-vs-tmpfs-mounts)
+    1. [Teste 199](#teste-199)
+4. [Redes no Docker: Drivers e Resolução de Nomes](#4-redes-no-docker-drivers-e-resolução-de-nomes)
+    1. [Drivers de Rede: bridge, host, none, overlay e macvlan](#41-drivers-de-rede-bridge-host-none-overlay-e-macvlan)
+    1. [Resolução de Nomes por DNS Integrado em Redes Customizadas](#42-resolução-de-nomes-por-dns-integrado-em-redes-customizadas)
+    1. [Teste 200](#teste-200)
+    1. [Teste 201](#teste-201)
+5. [Orquestração Multi-Contêiner com Docker Compose](#5-orquestração-multi-contêiner-com-docker-compose)
+    1. [Estrutura do Manifesto Compose: Services, Networks, Volumes e depends_on](#51-estrutura-do-manifesto-compose-services-networks-volumes-e-depends_on)
+    1. [Ciclo de Vida e Comandos Operacionais da CLI](#52-ciclo-de-vida-e-comandos-operacionais-da-cli)
+    1. [Teste 202](#teste-202)
+6. [Fontes Oficiais e Referências Bibliográficas](#-fontes-oficiais-e-referências-bibliográficas)
 
 ---
 
@@ -71,7 +69,7 @@ flowchart TD
         GUEST_OS2["Guest OS Completo<br/>(Kernel próprio, Drivers, SO)"]
         HYPERVISOR["Hipervisor (Type 1 Bare-Metal ou Type 2 Hosted)"]
         HOST_OS_HW1["Hardware Físico / Host OS"]
-        
+  
         APP_VM1 --- BIN_VM1 --- GUEST_OS1 --- HYPERVISOR
         APP_VM2 --- BIN_VM2 --- GUEST_OS2 --- HYPERVISOR
         HYPERVISOR --- HOST_OS_HW1
@@ -88,7 +86,7 @@ flowchart TD
         DOCKER_ENG["Docker Engine (dockerd / containerd / runc)"]
         HOST_KERNEL["Kernel Compartilhado do Linux Host<br/>(Namespaces + Control Groups)"]
         HW["Hardware Físico"]
-        
+  
         APP_C1 --- BIN_C1 --- CONT1 --- DOCKER_ENG
         APP_C2 --- BIN_C2 --- CONT2 --- DOCKER_ENG
         DOCKER_ENG --- HOST_KERNEL --- HW
@@ -100,15 +98,15 @@ flowchart TD
 A distinção basilar assenta-se no **nível de abstração** e na **existência ou não de um núcleo de sistema operacional independente**:
 
 - **Máquinas Virtuais (VMs):**
-    - Operam sob a abstração em **nível de hardware**.
-    - O **Hipervisor** (*Hypervisor* Type 1 bare-metal como VMware ESXi/KVM, ou Type 2 hospedado como VirtualBox) emula componentes físicos virtuais (CPU, memória RAM, interfaces de rede, controladoras de disco).
-    - Cada máquina virtual instala e executa um **Sistema Operacional convidado (*Guest OS*) completo e autônomo**, contendo seu próprio Kernel, drivers e daemons de inicialização.
-    - **Sobrecarga (*Overhead*):** Elevado consumo de espaço em disco e memória RAM apenas para manter as instâncias de SO convidado rodando; tempo de inicialização lento (de dezenas de segundos a vários minutos para executar o boot completo).
+  - Operam sob a abstração em **nível de hardware**.
+  - O **Hipervisor** (*Hypervisor* Type 1 bare-metal como VMware ESXi/KVM, ou Type 2 hospedado como VirtualBox) emula componentes físicos virtuais (CPU, memória RAM, interfaces de rede, controladoras de disco).
+  - Cada máquina virtual instala e executa um **Sistema Operacional convidado (*Guest OS*) completo e autônomo**, contendo seu próprio Kernel, drivers e daemons de inicialização.
+  - **Sobrecarga (*Overhead*):** Elevado consumo de espaço em disco e memória RAM apenas para manter as instâncias de SO convidado rodando; tempo de inicialização lento (de dezenas de segundos a vários minutos para executar o boot completo).
 - **Contêineres (Docker / OCI):**
-    - Operam sob a abstração em **nível de sistema operacional**.
-    - Os contêineres **NÃO possuem kernel próprio nem executam um Guest OS completo**. Todos os contêineres em execução em um mesmo host compartilham diretamente o **mesmo Kernel do sistema operacional hospedeiro**.
-    - Um contêiner nada mais é do que um **processo padrão do Linux encapsulado e isolado** do restante do sistema através de recursos nativos do núcleo.
-    - **Eficiência e Densidade:** Inicialização em milissegundos (o tempo de iniciar um processo simples); consumo mínimo de RAM e CPU; densidade operacional altíssima (dezenas ou centenas de contêineres em um mesmo nó físico).
+  - Operam sob a abstração em **nível de sistema operacional**.
+  - Os contêineres **NÃO possuem kernel próprio nem executam um Guest OS completo**. Todos os contêineres em execução em um mesmo host compartilham diretamente o **mesmo Kernel do sistema operacional hospedeiro**.
+  - Um contêiner nada mais é do que um **processo padrão do Linux encapsulado e isolado** do restante do sistema através de recursos nativos do núcleo.
+  - **Eficiência e Densidade:** Inicialização em milissegundos (o tempo de iniciar um processo simples); consumo mínimo de RAM e CPU; densidade operacional altíssima (dezenas ou centenas de contêineres em um mesmo nó físico).
 
 | Parâmetro de Comparação | Máquinas Virtuais (VMs) | Contêineres (Docker) |
 | :--- | :--- | :--- |
@@ -124,6 +122,7 @@ A distinção basilar assenta-se no **nível de abstração** e na **existência
 A segurança e o isolamento de um contêiner Docker não decorrem de mágica, mas do acoplamento de duas tecnologias maduras do Kernel Linux:
 
 #### 1. Linux Namespaces (Isolamento de Visibilidade)
+
 Determinam **o que um contêiner consegue enxergar**. Cada contêiner recebe seu próprio conjunto isolado de namespaces:
 
 - **`pid` (Process ID):** Isola a árvore de processos. Dentro do contêiner, o processo principal da aplicação visualiza a si mesmo como `PID 1`, sendo totalmente cego aos processos em execução no host e em outros contêineres.
@@ -134,6 +133,7 @@ Determinam **o que um contêiner consegue enxergar**. Cada contêiner recebe seu
 - **`user` (User IDs):** Mapeia UIDs e GIDs entre o contêiner e o host, viabilizando que um processo execute como `root` (UID 0) dentro do contêiner, mas seja mapeado para um usuário não privilegiado comum (ex.: UID 10001) no sistema hospedeiro.
 
 #### 2. Control Groups - `cgroups` (Limitação e Governança de Recursos)
+
 Determinam **quanto de recursos computacionais um contêiner pode consumir**:
 
 - Permitem estabelecer quotas estritas e limites máximos de consumo de **memória RAM** (evitando ataques de exaustão de memória e acionamento descontrolado do *OOM Killer* no host).
@@ -160,6 +160,7 @@ Uma imagem Docker é uma coleção imutável de **camadas de somente leitura (*R
 ---
 
 ### Teste 192
+
 **(FGV – TJ/RR – 2024 – Analista Judiciario - Infraestrutura De Tecnologia Da Informacao)**  
 Um contêiner é um ambiente de software onde é possível instalar uma aplicação ou microsserviço e contém todas as dependências da biblioteca, os binários e uma configuração básica, necessária para a sua execução. Em relação ao uso de contêineres, analise as afirmativas a seguir.
 
@@ -169,11 +170,11 @@ III. Permite o isolamento da aplicação, dependências e recursos como em uma m
 
 Está correto o que se afirma em:
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** I e II, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+- **A)** I, apenas.
+- **B)** II, apenas.
+- **C)** I e II, apenas.
+- **D)** II e III, apenas.
+- **E)** I, II e III.
 
 ---
 
@@ -186,18 +187,19 @@ Está correto o que se afirma em:
 > Portanto, estão corretos apenas os itens I e II.
 >
 > **Gabarito: C**
+
 ---
 
 ### Teste 193
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A tecnologia de conteinerização no Linux fundamenta-se primordialmente em duas primitivas nativas do próprio Kernel do sistema operacional: os *Namespaces* e os *Control Groups* (*cgroups*). A respeito da responsabilidade técnica de cada uma dessas primitivas, é correto afirmar:
 
-* **A)** Os *cgroups* isolam a visão dos processos sobre a rede e o sistema de arquivos, enquanto os *Namespaces* limitam o uso físico de memória RAM e CPU. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Os *Namespaces* provêm o isolamento de visão dos recursos do sistema (como processos - PID, rede - NET, montagens - MNT e usuários - USER), enquanto os *cgroups* gerenciam, limitam e monitoram o consumo quantitativo de recursos de hardware (como cotas de CPU, limites de memória RAM e largura de banda de I/O de disco).
-* **C)** Ambas as primitivas foram substituídas pelo uso de emuladores de BIOS de 16 bits.
-* **D)** Os *Namespaces* só podem ser executados em servidores com placas gráficas de inteligência artificial.
-* **E)** Os *cgroups* impedem que contêineres utilizem conexões de rede TCP/IP.
-
+- **A)** Os *cgroups* isolam a visão dos processos sobre a rede e o sistema de arquivos, enquanto os *Namespaces* limitam o uso físico de memória RAM e CPU. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **B)** Os *Namespaces* provêm o isolamento de visão dos recursos do sistema (como processos - PID, rede - NET, montagens - MNT e usuários - USER), enquanto os *cgroups* gerenciam, limitam e monitoram o consumo quantitativo de recursos de hardware (como cotas de CPU, limites de memória RAM e largura de banda de I/O de disco).
+- **C)** Ambas as primitivas foram substituídas pelo uso de emuladores de BIOS de 16 bits.
+- **D)** Os *Namespaces* só podem ser executados em servidores com placas gráficas de inteligência artificial.
+- **E)** Os *cgroups* impedem que contêineres utilizem conexões de rede TCP/IP.
 
 ---
 
@@ -216,25 +218,28 @@ A tecnologia de conteinerização no Linux fundamenta-se primordialmente em duas
 ---
 
 ### Teste 194
+
 **(FGV – TJ/DFT – 2022 – Analista Judiciario - Suporte Em Tecnologia Da Informacao)**  
 A analista Sara modificou alguns arquivos do container Docker `TJSiteContainer` que se encontra em execução. Para criar uma imagem Docker a partir do estado atual de `TJSiteContainer`, a fim de persistirem as modificações efetuadas em seus arquivos, Sara deve utilizar o comando:
 
-* **A)** `docker create`
-* **B)** `docker diff`
-* **C)** `docker export`
-* **D)** `docker image save`
-* **E)** `docker commit`
+- **A)** `docker create`
+- **B)** `docker diff`
+- **C)** `docker export`
+- **D)** `docker image save`
+- **E)** `docker commit`
 
 ---
 
 > **Comentário Detalhado:**
 >
 > No modelo de camadas do Docker:
+>
 > - Todas as alterações em arquivos (criação, edição ou deleção) ocorrem na **camada de leitura e escrita efêmera** (*writable container layer*) que fica no topo das camadas imutáveis da imagem.
 > - O comando **`docker commit`** captura o estado dessa camada gravável de um contêiner em execução (ou parado) e cria uma **nova imagem Docker** independente, consolidando as alterações efetuadas em uma nova camada permanente.
 > - `docker create` apenas instancia um contêiner sem iniciá-lo; `docker diff` apenas inspeciona as alterações no sistema de arquivos; `docker export` gera um arquivo tarball do sistema de arquivos; e `docker image save` empacota imagens já existentes em formato tar.
 >
 > **Gabarito: E**
+
 ---
 
 ## 2. Construção de Imagens e Anatomia do Dockerfile
@@ -246,12 +251,12 @@ O `Dockerfile` é o manifesto declarativo em formato de texto simples que estabe
 - **`FROM <imagem>:<tag>`:** Especifica a imagem base que fundamenta a construção. Toda compilação deve iniciar por um comando `FROM` (ou `FROM scratch` para construir uma imagem vazia de 0 bytes para binários estáticos).
 - **`WORKDIR /caminho`:** Define o diretório de trabalho padrão para as instruções subsequentes (`RUN`, `CMD`, `ENTRYPOINT`, `COPY`). Se a pasta não existir no sistema de arquivos da imagem, o Docker a cria automaticamente. É uma boa prática usar `WORKDIR` em vez de comandos imperativos `RUN cd /caminho`.
 - **`COPY` vs. `ADD` (Ponto Forte em Provas):**
-    - **`COPY <origem> <destino>`:** Realiza a cópia direta, simples e estrita de arquivos e pastas da máquina local (contexto de build) para o interior da imagem. **É a instrução oficialmente recomendada pelas boas práticas para cópias locais.**
-    - **`ADD <origem> <destino>`:** Possui recursos extras automáticos: permite baixar arquivos remotos via URLs HTTP/HTTPS e descompacta compulsoriamente arquivos tar/gzip (`.tar`, `.tar.gz`) diretamente no destino. Por apresentar comportamentos implícitos que podem introduzir vulnerabilidades ou aumentar o tamanho da imagem, seu uso indiscriminado é desaconselhado pela comunidade técnica.
+  - **`COPY <origem> <destino>`:** Realiza a cópia direta, simples e estrita de arquivos e pastas da máquina local (contexto de build) para o interior da imagem. **É a instrução oficialmente recomendada pelas boas práticas para cópias locais.**
+  - **`ADD <origem> <destino>`:** Possui recursos extras automáticos: permite baixar arquivos remotos via URLs HTTP/HTTPS e descompacta compulsoriamente arquivos tar/gzip (`.tar`, `.tar.gz`) diretamente no destino. Por apresentar comportamentos implícitos que podem introduzir vulnerabilidades ou aumentar o tamanho da imagem, seu uso indiscriminado é desaconselhado pela comunidade técnica.
 - **`RUN <comando>`:** Executa comandos durante a fase de construção (*build-time*), como instalação de pacotes (`apt-get install`, `npm install`). Cada comando `RUN` gera uma **nova camada imutável** no sistema de arquivos da imagem.
 - **`ENV` vs. `ARG`:**
-    - **`ARG`:** Define variáveis disponíveis **exclusivamente durante a compilação da imagem** (`docker build --build-arg CHAVE=VALOR`). Não persiste nos metadados nem no ambiente do contêiner em runtime.
-    - **`ENV`:** Define variáveis de ambiente que são gravadas permanentemente na imagem e permanecem **ativas durante a execução do contêiner em produção (runtime)**.
+  - **`ARG`:** Define variáveis disponíveis **exclusivamente durante a compilação da imagem** (`docker build --build-arg CHAVE=VALOR`). Não persiste nos metadados nem no ambiente do contêiner em runtime.
+  - **`ENV`:** Define variáveis de ambiente que são gravadas permanentemente na imagem e permanecem **ativas durante a execução do contêiner em produção (runtime)**.
 
 ### 2.2 Execução de Processos: ENTRYPOINT vs. CMD (Exec Form vs. Shell Form)
 
@@ -281,13 +286,14 @@ flowchart TD
         S2["Estágio 2 (Runtime): eclipse-temurin:17-jre-alpine<br/>- Imagem mínima de apenas 150 MB<br/>- Sem compiladores ou código-fonte"]
         COPY["COPY --from=builder /app/app.jar /app/app.jar"]
         IMG_FINAL["Imagem Final Gerada (Produção):<br/>- Apenas 160 MB<br/>- Mínima superfície de ataque e sem ferramentas de build"]
-        
+  
         S1 -.-> COPY
         S2 --> COPY --> IMG_FINAL
     end
 ```
 
 #### O Padrão Multi-Stage Build
+
 Em pipelines corporativos de CI/CD, compilar software exige SDKs volumosos, compiladores C/C++, ferramentas de empacotamento e código-fonte bruto. Se esses artefatos forem mantidos na imagem final que vai para produção, a imagem terá gigabytes de tamanho e conterá dezenas de vulnerabilidades conhecidas (CVEs).
 
 A funcionalidade de **Multi-Stage Builds** resolve esse problema declarando múltiplos comandos `FROM` no mesmo `Dockerfile`:
@@ -300,15 +306,15 @@ A funcionalidade de **Multi-Stage Builds** resolve esse problema declarando múl
 ---
 
 ### Teste 195
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na elaboração de um arquivo `Dockerfile` para construção de imagens de software, duas instruções de cópia de arquivos frequentemente comparadas em concursos públicos são `COPY` e `ADD`. A boa prática recomendada de engenharia e a principal distinção técnica entre ambas estabelece que:
 
-* **A)** A instrução `COPY` é mais simples e transparente, copiando arquivos e diretórios locais da máquina de build para o contêiner, devendo ser preferida na imensa maioria dos casos; a instrução `ADD`, além da cópia local, suporta o download de arquivos via URLs remotas e a extração automática de arquivos compactados (como `.tar.gz`) diretamente no destino.
-* **B)** A instrução `ADD` é estritamente proibida em todas as distribuições Linux modernas.
-* **C)** A instrução `COPY` só funciona para arquivos com extensão `.exe`.
-* **D)** A instrução `ADD` compila o código-fonte Java automaticamente durante a cópia.
-* **E)** Nenhuma das duas instruções permite copiar arquivos para diretórios internos do contêiner.
-
+- **A)** A instrução `COPY` é mais simples e transparente, copiando arquivos e diretórios locais da máquina de build para o contêiner, devendo ser preferida na imensa maioria dos casos; a instrução `ADD`, além da cópia local, suporta o download de arquivos via URLs remotas e a extração automática de arquivos compactados (como `.tar.gz`) diretamente no destino.
+- **B)** A instrução `ADD` é estritamente proibida em todas as distribuições Linux modernas.
+- **C)** A instrução `COPY` só funciona para arquivos com extensão `.exe`.
+- **D)** A instrução `ADD` compila o código-fonte Java automaticamente durante a cópia.
+- **E)** Nenhuma das duas instruções permite copiar arquivos para diretórios internos do contêiner.
 
 ---
 
@@ -325,6 +331,7 @@ Na elaboração de um arquivo `Dockerfile` para construção de imagens de softw
 ---
 
 ### Teste 196
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Um analista de infraestrutura da Secretaria da Fazenda elaborou o seguinte `Dockerfile` para conteinerizar uma API REST desenvolvida em Python:
 
@@ -344,12 +351,11 @@ Após compilar a imagem com a tag `api-fazenda:1.0`, o analista executou no term
 
 A respeito desse cenário e das instruções do Dockerfile, assinale a afirmativa correta:  
 
-* **A)** A instrução `EXPOSE 5000` publicou a porta 5000 diretamente no endereço IP público da máquina física, tornando desnecessária a utilização do parâmetro `-p 8080:5000` no comando de execução.
-* **B)** O comando final executado dentro do contêiner será `python app.py --port 9000`.
-* **C)** O contêiner falhará ao iniciar, pois a especificação conjunta das diretivas `ENTRYPOINT` e `CMD` no mesmo `Dockerfile` é proibida pela especificação do Docker.
-* **D)** A flag `-p 8080:5000` fará com que as requisições que chegam à porta 5000 da máquina hospedeira sejam redirecionadas para a porta 8080 dentro do contêiner.
-* **E)** A instrução `COPY . .` impede a reutilização do cache de compilação da camada gerada por `RUN pip install`, mesmo que o arquivo `requirements.txt` não tenha sido modificado.
-
+- **A)** A instrução `EXPOSE 5000` publicou a porta 5000 diretamente no endereço IP público da máquina física, tornando desnecessária a utilização do parâmetro `-p 8080:5000` no comando de execução.
+- **B)** O comando final executado dentro do contêiner será `python app.py --port 9000`.
+- **C)** O contêiner falhará ao iniciar, pois a especificação conjunta das diretivas `ENTRYPOINT` e `CMD` no mesmo `Dockerfile` é proibida pela especificação do Docker.
+- **D)** A flag `-p 8080:5000` fará com que as requisições que chegam à porta 5000 da máquina hospedeira sejam redirecionadas para a porta 8080 dentro do contêiner.
+- **E)** A instrução `COPY . .` impede a reutilização do cache de compilação da camada gerada por `RUN pip install`, mesmo que o arquivo `requirements.txt` não tenha sido modificado.
 
 ---
 
@@ -360,12 +366,13 @@ A respeito desse cenário e das instruções do Dockerfile, assinale a afirmativ
 > - **C)** Incorreta. A especificação oficial encoraja explicitamente a combinação de `ENTRYPOINT` e `CMD` para viabilizar comandos parametrizáveis.
 > - **D)** Incorreta. A sintaxe de portas é `-p <porta_host>:<porta_container>`. As requisições que chegam à porta 8080 do host são encaminhadas para a porta 5000 do contêiner.
 > - **E)** Incorreta. A estrutura de colocar `COPY requirements.txt` e `RUN pip install` antes de `COPY . .` é a melhor prática consagrada para aproveitar o cache de camadas do Docker caso apenas o código-fonte tenha mudado.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 197
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em relação às diretrizes de segurança da informação e redes na construção de contêineres Docker, analise as afirmativas a seguir:  
 
@@ -375,12 +382,11 @@ III. A diretiva `USER` impede que o contêiner acesse o hardware de memória RAM
 
 Está correto o que se afirma em:
 
-* **A)** I, apenas.
-* **B)** III, apenas.
-* **C)** I e II, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
+- **A)** I, apenas.
+- **B)** III, apenas.
+- **C)** I e II, apenas.
+- **D)** II e III, apenas.
+- **E)** I, II e III.
 
 ---
 
@@ -395,17 +401,17 @@ Está correto o que se afirma em:
 ---
 
 ### Teste 198
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em auditorias de segurança de aplicações conteinerizadas em órgãos públicos, é comum encontrar vulnerabilidades associadas à inclusão indevida de ferramentas de compilação, compiladores C/C++, gerenciadores de pacotes e código-fonte dentro de imagens que operam no ambiente de produção.
 
 A técnica preconizada pelo Docker para mitigar esse risco e reduzir drasticamente o tamanho final das imagens distribuidíveis em produção é:  
 
-* **A)** Compactar o contêiner em um arquivo executável `.zip` antes de executar o comando `docker push`.
-* **B)** Adoção de *Multi-Stage Builds*, permitindo utilizar imagens pesadas contendo SDKs e compiladores apenas no estágio inicial de compilação e transferir exclusivamente o binário final gerado para uma imagem enxuta e mínima de runtime.
-* **C)** Utilização compulsória da instrução `RUN chmod 777 -R /` no Dockerfile para revogar privilégios administrativos de todos os processos internos.
-* **D)** Desativação do Docker Daemon e execução de contêineres diretamente como scripts de shell no servidor hospedeiro.
-* **E)** Substituição do Dockerfile por um script Bash imperativo gravado no setor de boot da controladora de armazenamento.
-
+- **A)** Compactar o contêiner em um arquivo executável `.zip` antes de executar o comando `docker push`.
+- **B)** Adoção de *Multi-Stage Builds*, permitindo utilizar imagens pesadas contendo SDKs e compiladores apenas no estágio inicial de compilação e transferir exclusivamente o binário final gerado para uma imagem enxuta e mínima de runtime.
+- **C)** Utilização compulsória da instrução `RUN chmod 777 -R /` no Dockerfile para revogar privilégios administrativos de todos os processos internos.
+- **D)** Desativação do Docker Daemon e execução de contêineres diretamente como scripts de shell no servidor hospedeiro.
+- **E)** Substituição do Dockerfile por um script Bash imperativo gravado no setor de boot da controladora de armazenamento.
 
 ---
 
@@ -416,7 +422,7 @@ A técnica preconizada pelo Docker para mitigar esse risco e reduzir drasticamen
 > - **C)** Incorreta. Conceder permissão 777 para todo o sistema de arquivos amplia drasticamente o risco de segurança e escalada de privilégios.
 > - **D)** Incorreta. Desativar o daemon anularia todo o ecossistema de conteinerização.
 > - **E)** Incorreta. Afirmativa descabida sem respaldo técnico.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -433,7 +439,7 @@ flowchart TD
         VOL["Named Volume (/var/lib/docker/volumes/)<br/>- Gerenciado pelo Docker<br/>- Alta performance e seguro<br/>- Padrão recomendado em produção"]
         BIND["Bind Mount (/home/user/meu-codigo/)<br/>- Vinculado a qualquer pasta do Host<br/>- Ideal para desenvolvimento local"]
         TMP["tmpfs Mount (Memória RAM do Host)<br/>- Não grava em disco<br/>- Dados ultra-rápidos e sensíveis"]
-        
+  
         CONT <--> VOL
         CONT <--> BIND
         CONT <--> TMP
@@ -458,17 +464,17 @@ Todas as modificações, gravações de logs e escritas em tabelas realizadas po
 ---
 
 ### Teste 199
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Ao planejar a implantação de um Sistema de Gerenciamento de Banco de Dados relacional (PostgreSQL) em contêineres Docker, um arquiteto de sistemas alertou a equipe que contêineres possuem ciclo de vida efêmero e que os dados armazenados na camada de gravação padrão do contêiner seriam perdidos caso o contêiner fosse removido.
 
 Para garantir a persistência duradoura, alto desempenho de I/O e gerenciamento seguro dos arquivos de dados do banco de dados pelo próprio Docker Engine, a solução tecnicamente recomendada é a utilização de:  
 
-* **A)** *tmpfs mounts*, pois gravam todas as tabelas e índices diretamente na memória volátil RAM do servidor, assegurando persistência permanente mesmo se a máquina física for desligada da tomada.
-* **B)** Camada padrão de leitura e escrita do contêiner (*Container Read-Write Layer*), uma vez que o sistema *UnionFS* garante a recuperação automática de dados após a execução de comandos `docker rm -f`.
-* **C)** *Named Volumes* (Volumes Gerenciados), que são desacoplados do ciclo de vida dos contêineres, alocados em diretórios dedicados gerenciados pelo Docker no host (`/var/lib/docker/volumes/`) e podem ser facilmente compartilhados e reutilizados por outros contêineres.
-* **D)** Links simbólicos do Linux apontando diretamente para o arquivo `/dev/null`.
-* **E)** Arquivos temporários criados dentro da pasta `/tmp` do contêiner, dispensando qualquer configuração adicional no host.
-
+- **A)** *tmpfs mounts*, pois gravam todas as tabelas e índices diretamente na memória volátil RAM do servidor, assegurando persistência permanente mesmo se a máquina física for desligada da tomada.
+- **B)** Camada padrão de leitura e escrita do contêiner (*Container Read-Write Layer*), uma vez que o sistema *UnionFS* garante a recuperação automática de dados após a execução de comandos `docker rm -f`.
+- **C)** *Named Volumes* (Volumes Gerenciados), que são desacoplados do ciclo de vida dos contêineres, alocados em diretórios dedicados gerenciados pelo Docker no host (`/var/lib/docker/volumes/`) e podem ser facilmente compartilhados e reutilizados por outros contêineres.
+- **D)** Links simbólicos do Linux apontando diretamente para o arquivo `/dev/null`.
+- **E)** Arquivos temporários criados dentro da pasta `/tmp` do contêiner, dispensando qualquer configuração adicional no host.
 
 ---
 
@@ -479,7 +485,7 @@ Para garantir a persistência duradoura, alto desempenho de I/O e gerenciamento 
 > - **C)** Correta. Os **Named Volumes** (volumes nomeados gerenciados pelo Docker Engine) são a solução canônica para persistência de dados em produção. Eles residem em `/var/lib/docker/volumes/`, sobrevivem à exclusão de contêineres, são imunes a alterações na estrutura de pastas do host e proporcionam o melhor desempenho de escrita e leitura para bancos de dados.
 > - **D)** Incorreta. O `/dev/null` é um dispositivo virtual de descarte que apaga imediatamente qualquer dado recebido.
 > - **E)** Incorreta. A pasta `/tmp` é volátil e faz parte da camada efêmera do contêiner.
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -506,15 +512,15 @@ Existe uma diferença crítica cobrada em concursos entre a rede bridge padrão 
 ---
 
 ### Teste 200
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O subsistema de redes do Docker provê múltiplos *drivers* para atender a diferentes requisitos de isolamento e desempenho. O driver de rede padrão utilizado pelo Docker para comunicação entre contêineres executando na mesma máquina host isolada, criando uma ponte virtual de rede interna, é o driver:
 
-* **A)** `host`
-* **B)** `bridge`
-* **C)** `none`
-* **D)** `overlay`
-* **E)** `macvlan`
-
+- **A)** `host`
+- **B)** `bridge`
+- **C)** `none`
+- **D)** `overlay`
+- **E)** `macvlan`
 
 ---
 
@@ -531,17 +537,17 @@ O subsistema de redes do Docker provê múltiplos *drivers* para atender a difer
 ---
 
 ### Teste 201
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere uma aplicação composta por dois microsserviços declarados no arquivo `compose.yaml`: um serviço denominado `frontend` (porta interna 80) e um serviço denominado `backend-api` (porta interna 3000), ambos anexados a uma mesma rede customizada do tipo `bridge` denominada `app-network`.
 
 A respeito da comunicação entre esses serviços e das características de redes no Docker Compose, assinale a opção correta:  
 
-* **A)** O serviço `frontend` não pode se comunicar com o `backend-api` via rede local, sendo mandatório que ambos publiquem suas portas em endereços IP públicos de internet.
-* **B)** O serviço `frontend` é capaz de alcançar o serviço `backend-api` enviando requisições HTTP diretamente para o endereço `http://backend-api:3000`, graças ao mecanismo nativo de resolução de nomes por DNS embutido pelo Docker em redes customizadas.
-* **C)** Para que contêineres em uma mesma rede customizada do Compose conversem entre si, é obrigatório utilizar o driver de rede `none`.
-* **D)** No Docker Compose, a resolução de nomes por DNS entre serviços só funciona se o desenvolvedor codificar manualmente os endereços IP fixos de cada contêiner no arquivo `/etc/hosts` de cada imagem antes de compilar o Dockerfile.
-* **E)** O comando `docker compose down` desliga os contêineres, mas é terminantemente incapaz de remover as redes criadas pelo arquivo Compose.
-
+- **A)** O serviço `frontend` não pode se comunicar com o `backend-api` via rede local, sendo mandatório que ambos publiquem suas portas em endereços IP públicos de internet.
+- **B)** O serviço `frontend` é capaz de alcançar o serviço `backend-api` enviando requisições HTTP diretamente para o endereço `http://backend-api:3000`, graças ao mecanismo nativo de resolução de nomes por DNS embutido pelo Docker em redes customizadas.
+- **C)** Para que contêineres em uma mesma rede customizada do Compose conversem entre si, é obrigatório utilizar o driver de rede `none`.
+- **D)** No Docker Compose, a resolução de nomes por DNS entre serviços só funciona se o desenvolvedor codificar manualmente os endereços IP fixos de cada contêiner no arquivo `/etc/hosts` de cada imagem antes de compilar o Dockerfile.
+- **E)** O comando `docker compose down` desliga os contêineres, mas é terminantemente incapaz de remover as redes criadas pelo arquivo Compose.
 
 ---
 
@@ -552,7 +558,7 @@ A respeito da comunicação entre esses serviços e das características de rede
 > - **C)** Incorreta. O driver `none` desativa completamente a conectividade de rede, mantendo apenas o loopback interno isolado.
 > - **D)** Incorreta. A resolução via DNS embutido dispensa completamente alterações manuais em arquivos `/etc/hosts` ou gestão de IPs fixos.
 > - **E)** Incorreta. O comando `docker compose down` desliga e remove tanto os contêineres quanto as redes criadas pelo manifesto Compose.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -618,15 +624,15 @@ networks:
 ---
 
 ### Teste 202
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Docker Compose permite definir e executar aplicações multi-contêiner utilizando manifestos declarativos no formato YAML (como `compose.yaml` ou `docker-compose.yml`). Em relação aos elementos estruturais desse manifesto, é correto afirmar:
 
-* **A)** A chave de nível superior `services` define o conjunto de contêineres que compõem a aplicação (como uma API web e um banco de dados), permitindo configurar imagens, portas expostas, variáveis de ambiente, volumes e redes associadas.
-* **B)** O Docker Compose exige que todos os contêineres executem obrigatoriamente a mesma imagem com o mesmo nome.
-* **C)** A diretiva `depends_on` aguarda que a aplicação interna do banco de dados conclua todas as suas migrações e consultas SQL antes de subir a API.
-* **D)** Manifestos Compose não suportam a criação de redes virtuais isoladas entre serviços.
-* **E)** O arquivo `docker-compose.yml` deve ser escrito obrigatoriamente em linguagem XML.
-
+- **A)** A chave de nível superior `services` define o conjunto de contêineres que compõem a aplicação (como uma API web e um banco de dados), permitindo configurar imagens, portas expostas, variáveis de ambiente, volumes e redes associadas.
+- **B)** O Docker Compose exige que todos os contêineres executem obrigatoriamente a mesma imagem com o mesmo nome.
+- **C)** A diretiva `depends_on` aguarda que a aplicação interna do banco de dados conclua todas as suas migrações e consultas SQL antes de subir a API.
+- **D)** Manifestos Compose não suportam a criação de redes virtuais isoladas entre serviços.
+- **E)** O arquivo `docker-compose.yml` deve ser escrito obrigatoriamente em linguagem XML.
 
 ---
 
@@ -644,10 +650,10 @@ O Docker Compose permite definir e executar aplicações multi-contêiner utiliz
 
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
-* [Docker Official Documentation - Dockerfile Reference](https://docs.docker.com/reference/dockerfile/) - Instruções canônicas: FROM, RUN, COPY, ADD, CMD, ENTRYPOINT, EXPOSE e USER.
-* [Docker Official Documentation - Multi-stage Builds](https://docs.docker.com/build/building/multi-stage/) - Redução do tamanho de imagens, segregação de compilação e segurança de artefatos.
-* [Docker Official Documentation - Storage and Volumes](https://docs.docker.com/engine/storage/volumes/) - Persistência de dados: Volumes nomeados, Bind Mounts e tmpfs.
-* [Docker Official Documentation - Compose Application Model](https://docs.docker.com/compose/intro/compose-application-model/) - Orquestração de múltiplos contêineres locais, redes bridge e dependências de serviços.
-* MOUAT, Adrian. **Usando Docker: Desenvolvendo e Implantando Software com Contêineres**. São Paulo: Novatec, 2016. (Cap. 3 a 5 - Construindo Imagens e Redes com Docker).
-* TURNBULL, James. **The Docker Book: Containerization is the new virtualization**. 2. ed. James Turnbull, 2017. (Cap. 4 - Gerenciando Contêineres e Volumes).
-* MORRIS, Kief. **Infraestrutura como Código: Gerenciamento Dinâmico de Sistemas na Era da Nuvem**. 2. ed. São Paulo: Novatec, 2021. (Cap. 8 - Imutabilidade e Contêineres).
+- [Docker Official Documentation - Dockerfile Reference](https://docs.docker.com/reference/dockerfile/) - Instruções canônicas: FROM, RUN, COPY, ADD, CMD, ENTRYPOINT, EXPOSE e USER.
+- [Docker Official Documentation - Multi-stage Builds](https://docs.docker.com/build/building/multi-stage/) - Redução do tamanho de imagens, segregação de compilação e segurança de artefatos.
+- [Docker Official Documentation - Storage and Volumes](https://docs.docker.com/engine/storage/volumes/) - Persistência de dados: Volumes nomeados, Bind Mounts e tmpfs.
+- [Docker Official Documentation - Compose Application Model](https://docs.docker.com/compose/intro/compose-application-model/) - Orquestração de múltiplos contêineres locais, redes bridge e dependências de serviços.
+- MOUAT, Adrian. **Usando Docker: Desenvolvendo e Implantando Software com Contêineres**. São Paulo: Novatec, 2016. (Cap. 3 a 5 - Construindo Imagens e Redes com Docker).
+- TURNBULL, James. **The Docker Book: Containerization is the new virtualization**. 2. ed. James Turnbull, 2017. (Cap. 4 - Gerenciando Contêineres e Volumes).
+- MORRIS, Kief. **Infraestrutura como Código: Gerenciamento Dinâmico de Sistemas na Era da Nuvem**. 2. ed. São Paulo: Novatec, 2021. (Cap. 8 - Imutabilidade e Contêineres).

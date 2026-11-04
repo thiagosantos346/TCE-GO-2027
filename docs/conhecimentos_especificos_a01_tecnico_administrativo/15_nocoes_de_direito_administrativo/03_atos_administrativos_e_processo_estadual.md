@@ -4,12 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `03_atos_administrativos_e_processo_estadual.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Ato administrativo: conceito, características e distinções
 - Elementos e requisitos de validade (Competência, Finalidade, Forma, Motivo e Objeto - COFIFOM)
 - Atributos do ato administrativo: Presunção de Legitimidade, Autoexecutoriedade, Tipicidade e Imperatividade (PATI)
@@ -23,42 +21,42 @@
 
 ## 🧭 Sumário
 
-1. [Teoria Geral do Ato Administrativo e Distinções Conceituais](#1-teoria-geral-do-ato-administrativo-e-distincoes-conceituais)
-    - [1.1 Fato da Administração vs. Fato Administrativo vs. Ato Administrativo](#11-fato-da-administracao-vs-fato-administrativo-vs-ato-administrativo)
-    - [1.2 Perfeição, Validade e Eficácia do Ato](#12-perfeicao-validade-e-eficacia-do-ato)
-    - [Teste 023](#teste-023)
-2. [Elementos e Requisitos de Validade do Ato (Mnemônico COFIFOM)](#2-elementos-e-requisitos-de-validade-do-ato-mnemonico-cofifom)
-    - [2.1 Competência (Sujeito Competente)](#21-competencia-sujeito-competente)
-    - [2.2 Finalidade e o Desvio de Poder](#22-finalidade-e-o-desvio-de-poder)
-    - [2.3 Forma e Princípio da Solenidade](#23-forma-e-principio-da-solenidade)
-    - [2.4 Motivo e a Teoria dos Motivos Determinantes](#24-motivo-e-a-teoria-dos-motivos-determinantes)
-    - [2.5 Objeto (Conteúdo) e a Delimitação do Mérito Administrativo](#25-objeto-conteudo-e-a-delimitacao-do-merito-administrativo)
-    - [Teste 024](#teste-024)
-    - [Teste 025](#teste-025)
-    - [Teste 026](#teste-026)
-3. [Atributos do Ato Administrativo (Mnemônico PATI)](#3-atributos-do-ato-administrativo-mnemonico-pati)
-    - [3.1 Presunção de Legitimidade e Veracidade](#31-presuncao-de-legitimidade-e-veracidade)
-    - [3.2 Autoexecutoriedade e seus Limites](#32-autoexecutoriedade-e-seus-limites)
-    - [3.3 Tipicidade Administrativa](#33-tipicidade-administrativa)
-    - [3.4 Imperatividade e Poder Extroverso](#34-imperatividade-e-poder-extroverso)
-    - [Teste 027](#teste-027)
-4. [Classificações Relevantes para a FCC: Atos Simples, Complexos e Compostos](#4-classificacoes-relevantes-para-a-fcc-atos-simples-complexos-e-compostos)
-    - [4.1 Atos Simples, Complexos e Compostos](#41-atos-simples-complexos-e-compostos)
-    - [4.2 O Registro de Aposentadoria no Tribunal de Contas (Tema 445 / STF)](#42-o-registro-de-aposentadoria-no-tribunal-de-contas-tema-445-stf)
-    - [Teste 028](#teste-028)
-    - [Teste 029](#teste-029)
-5. [Extinção e Convalidação dos Atos Administrativos](#5-extincao-e-convalidacao-dos-atos-administrativos)
-    - [5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição](#51-modos-de-extincao-anulacao-revogacao-cassacao-caducidade-e-contraposicao)
-    - [5.2 Convalidação: Requisitos, Limites e Efeitos Temporais](#52-convalidacao-requisitos-limites-e-efeitos-temporais)
-    - [Teste 030](#teste-030)
-    - [Teste 031](#teste-031)
-6. [Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)](#6-processo-administrativo-no-estado-de-goias-lei-estadual-no-138002001)
-    - [6.1 Princípios Norteadores e Direitos dos Administrados](#61-principios-norteadores-e-direitos-dos-administrados)
-    - [6.2 Vedações Absolutas à Delegação (Regra do CENORA - Art. 13)](#62-vedacoes-absolutas-a-delegacao-regra-do-cenora-art-13)
-    - [6.3 Impedimentos e Suspeição de Agentes e Julgadores](#63-impedimentos-e-suspeicao-de-agentes-e-julgadores)
-    - [6.4 Motivação das Decisões e Regime Recursal](#64-motivacao-das-decisoes-e-regime-recursal)
-    - [Teste 032](#teste-032)
-    - [Teste 033](#teste-033)
+1. [Teoria Geral do Ato Administrativo e Distinções Conceituais](#1-teoria-geral-do-ato-administrativo-e-distinções-conceituais)
+    1. [Fato da Administração vs. Fato Administrativo vs. Ato Administrativo](#11-fato-da-administração-vs-fato-administrativo-vs-ato-administrativo)
+    1. [Perfeição, Validade e Eficácia do Ato](#12-perfeição-validade-e-eficácia-do-ato)
+    1. [Teste 023](#teste-023)
+2. [Elementos e Requisitos de Validade do Ato (Mnemônico COFIFOM)](#2-elementos-e-requisitos-de-validade-do-ato-mnemônico-cofifom)
+    1. [Competência (Sujeito Competente)](#21-competência-sujeito-competente)
+    1. [Finalidade e o Desvio de Poder](#22-finalidade-e-o-desvio-de-poder)
+    1. [Forma e Princípio da Solenidade](#23-forma-e-princípio-da-solenidade)
+    1. [Motivo e a Teoria dos Motivos Determinantes](#24-motivo-e-a-teoria-dos-motivos-determinantes)
+    1. [Objeto (Conteúdo) e a Delimitação do Mérito Administrativo](#25-objeto-conteúdo-e-a-delimitação-do-mérito-administrativo)
+    1. [Teste 024](#teste-024)
+    1. [Teste 025](#teste-025)
+    1. [Teste 026](#teste-026)
+3. [Atributos do Ato Administrativo (Mnemônico PATI)](#3-atributos-do-ato-administrativo-mnemônico-pati)
+    1. [Presunção de Legitimidade e Veracidade](#31-presunção-de-legitimidade-e-veracidade)
+    1. [Autoexecutoriedade e seus Limites](#32-autoexecutoriedade-e-seus-limites)
+    1. [Tipicidade Administrativa](#33-tipicidade-administrativa)
+    1. [Imperatividade e Poder Extroverso](#34-imperatividade-e-poder-extroverso)
+    1. [Teste 027](#teste-027)
+4. [Classificações Relevantes para a FCC: Atos Simples, Complexos e Compostos](#4-classificações-relevantes-para-a-fcc-atos-simples-complexos-e-compostos)
+    1. [Atos Simples, Complexos e Compostos](#41-atos-simples-complexos-e-compostos)
+    1. [O Registro de Aposentadoria no Tribunal de Contas (Tema 445 / STF)](#42-o-registro-de-aposentadoria-no-tribunal-de-contas-tema-445--stf)
+    1. [Teste 028](#teste-028)
+    1. [Teste 029](#teste-029)
+5. [Extinção e Convalidação dos Atos Administrativos](#5-extinção-e-convalidação-dos-atos-administrativos)
+    1. [Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição](#51-modos-de-extinção-anulação-revogação-cassação-caducidade-e-contraposição)
+    1. [Convalidação: Requisitos, Limites e Efeitos Temporais](#52-convalidação-requisitos-limites-e-efeitos-temporais)
+    1. [Teste 030](#teste-030)
+    1. [Teste 031](#teste-031)
+6. [Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)](#6-processo-administrativo-no-estado-de-goiás-lei-estadual-nº-138002001)
+    1. [Princípios Norteadores e Direitos dos Administrados](#61-princípios-norteadores-e-direitos-dos-administrados)
+    1. [Vedações Absolutas à Delegação (Regra do CENORA - Art. 13)](#62-vedações-absolutas-à-delegação-regra-do-cenora---art-13)
+    1. [Impedimentos e Suspeição de Agentes e Julgadores](#63-impedimentos-e-suspeição-de-agentes-e-julgadores)
+    1. [Motivação das Decisões e Regime Recursal](#64-motivação-das-decisões-e-regime-recursal)
+    1. [Teste 032](#teste-032)
+    1. [Teste 033](#teste-033)
 7. [Fontes Recomendadas na Internet](#7-fontes-recomendadas-na-internet)
 
 ---
@@ -84,7 +82,7 @@ flowchart TD
     P["1. PERFEIÇÃO (Existência)<br/>O ato completou todo o seu ciclo de formação jurídica."]
     V["2. VALIDADE (Legalidade)<br/>O ato foi editado em estrita conformidade com a ordem jurídica."]
     E["3. EFICÁCIA (Operatividade)<br/>O ato está apto a produzir seus efeitos jurídicos concretos."]
-    
+  
     P --> V
     V --> E
 ```
@@ -92,19 +90,20 @@ flowchart TD
 - **Ato Perfeito:** Aquele que completou todas as fases de seu ciclo de formação interna, estando concluído. Pode ser válido ou inválido.
 - **Ato Válido:** Aquele que, além de perfeito, atende a todos os requisitos e pressupostos estabelecidos em lei (sem vícios de legalidade).
 - **Ato Eficaz:** Aquele que está pronto para deflagrar seus efeitos jurídicos práticos, não dependendo de condição suspensiva, termo inicial ou publicação oficial.
-    - *Exemplo Prático FCC:* Um ato de demissão assinado pelo Governador é **perfeito e válido**, mas só se torna **eficaz** a partir de sua publicação no Diário Oficial do Estado.
+  - *Exemplo Prático FCC:* Um ato de demissão assinado pelo Governador é **perfeito e válido**, mas só se torna **eficaz** a partir de sua publicação no Diário Oficial do Estado.
 
 ---
 
 ### Teste 023
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No estudo da Teoria Geral do Ato Administrativo, os planos da existência, da validade e da eficácia representam momentos conceituais distintos. A respeito da distinção dogmática entre a validade e a eficácia dos atos administrativos, é correto afirmar que:
 
-* **A)** Um ato administrativo válido é necessariamente eficaz, produzindo efeitos jurídicos desde a sua assinatura.
-* **B)** O ato nulo por vício de competência pode ser plenamente eficaz antes de ter sua invalidade declarada.
-* **C)** A pendência de termo inicial ou condição suspensiva compromete a validade originária do ato administrativo.
-* **D)** O ato pendente de homologação obrigatória pelo Tribunal de Contas é existente, válido e plenamente eficaz.
-* **E)** A declaração judicial de nulidade de um ato administrativo opera efeitos prospectivos sem retroagir à origem.
+- **A)** Um ato administrativo válido é necessariamente eficaz, produzindo efeitos jurídicos desde a sua assinatura.
+- **B)** O ato nulo por vício de competência pode ser plenamente eficaz antes de ter sua invalidade declarada.
+- **C)** A pendência de termo inicial ou condição suspensiva compromete a validade originária do ato administrativo.
+- **D)** O ato pendente de homologação obrigatória pelo Tribunal de Contas é existente, válido e plenamente eficaz.
+- **E)** A declaração judicial de nulidade de um ato administrativo opera efeitos prospectivos sem retroagir à origem.
 
 ---
 
@@ -117,6 +116,7 @@ No estudo da Teoria Geral do Ato Administrativo, os planos da existência, da va
 > - **E)** **Incorreto**. A anulação opera efeitos retroativos (ex tunc), desfazendo as consequências pretéritas geradas pelo ato inválido.
 >
 > **Gabarito: B**
+
 ## 2. Elementos e Requisitos de Validade do Ato (Mnemônico COFIFOM)
 
 A Lei de Ação Popular (Lei Federal nº 4.717/1965, art. 2º) positivou a doutrina dos cinco elementos constitutivos indispensáveis para a validade do ato administrativo: **Competência, Finalidade, Forma, Motivo e Objeto** (**COFIFOM**).
@@ -124,13 +124,13 @@ A Lei de Ação Popular (Lei Federal nº 4.717/1965, art. 2º) positivou a doutr
 ```mermaid
 flowchart TD
     ATO["Requisitos de Validade do Ato Administrativo (COFIFOM)"]
-    
+  
     ATO --> C["COMPETÊNCIA<br/>Sujeito que pratica o ato<br/>Sempre VINCULADA"]
     ATO --> F["FINALIDADE<br/>Objetivo público da lei<br/>Sempre VINCULADA"]
     ATO --> FO["FORMA<br/>Modo de exteriorização (escrito)<br/>Regra: VINCULADA"]
     ATO --> M["MOTIVO<br/>Fatos e fundamentos jurídicos<br/>Pode ser DISCRICIONÁRIO"]
     ATO --> O["OBJETO<br/>Efeito prático imediato criado<br/>Pode ser DISCRICIONÁRIO"]
-    
+  
     M -.-> MERITO["MÉRITO ADMINISTRATIVO<br/>Conveniência e Oportunidade<br/>Incide EXCLUSIVAMENTE sobre Motivo e Objeto"]
     O -.-> MERITO
 ```
@@ -141,9 +141,9 @@ flowchart TD
 
 - **Características:** É irrenunciável, intransferível por acordo entre as partes, inderrogável, imprescritível e imodificável pela vontade do titular.
 - **Espécies de Vício de Competência:**
-    - *Usurpação de Função:* Crime praticado por particular que se faz passar por funcionário público (ato inexistente).
-    - *Excesso de Poder:* O agente público ultrapassa os limites legais de suas atribuições funcionais (ato nulo insanável).
-    - *Incompetência Relativa:* O ato é praticado por agente de mesmo órgão ou hierarquia que não detinha a atribuição específica, sem que a competência fosse atribuída com exclusividade pela lei. Admite **convalidação** por ratificação da autoridade competente.
+  - *Usurpação de Função:* Crime praticado por particular que se faz passar por funcionário público (ato inexistente).
+  - *Excesso de Poder:* O agente público ultrapassa os limites legais de suas atribuições funcionais (ato nulo insanável).
+  - *Incompetência Relativa:* O ato é praticado por agente de mesmo órgão ou hierarquia que não detinha a atribuição específica, sem que a competência fosse atribuída com exclusividade pela lei. Admite **convalidação** por ratificação da autoridade competente.
 
 ### 2.2 Finalidade e o Desvio de Poder
 
@@ -164,7 +164,8 @@ O motivo constitui a situação de fato (o evento do mundo real) e a situação 
 
 - Não se confunde com a **motivação** (a motivação é a declaração escrita dos motivos; o motivo é o próprio fato em si).
 
-#### A Teoria dos Motivos Determinantes:
+#### A Teoria dos Motivos Determinantes
+
 Consagrada pela jurisprudência pacífica do STF e do STJ, preceitua que a validade do ato administrativo fica indissoluvelmente vinculada à veracidade, exatidão e subsistência dos motivos alegados pela autoridade:
 
 - Mesmo que o ato seja discricionário e prescindisse originalmente de motivação obrigatória (como a exoneração *ad nutum* de um assessor comissionado), se a autoridade decidir enunciar publicamente um motivo (ex.: afirmar no decreto que exonerou o servidor em razão do corte orçamentário do setor), **o ato ficará vinculado a essa justificativa**.
@@ -179,14 +180,15 @@ O objeto é o efeito jurídico imediato e substantivo que o ato produz no mundo 
 ---
 
 ### Teste 024
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A autoridade competente de determinada autarquia estadual instaurou processo administrativo de fiscalização e aplicou sanção a uma sociedade empresária credenciada. Inconformada, a empresa alegou vício de competência do agente sancionador. Sobre o elemento competência do ato administrativo, assinale a opção correta:
 
-* **A)** A competência administrativa é de exercício obrigatório, intransferível e indelegável em qualquer circunstância.
-* **B)** A competência fixada em lei pode ser renunciada pela autoridade quando comprovada carência de quadro técnico.
-* **C)** A incompetência em razão da matéria constitui vício de legalidade insanável, inadmitindo convalidação administrativa.
-* **D)** O vício de incompetência decorrente do excesso de poder convalida-se tacitamente com o decurso de trinta dias.
-* **E)** A competência exclusiva pode ser livremente delegada mediante portaria conjunta publicada no Diário Oficial.
+- **A)** A competência administrativa é de exercício obrigatório, intransferível e indelegável em qualquer circunstância.
+- **B)** A competência fixada em lei pode ser renunciada pela autoridade quando comprovada carência de quadro técnico.
+- **C)** A incompetência em razão da matéria constitui vício de legalidade insanável, inadmitindo convalidação administrativa.
+- **D)** O vício de incompetência decorrente do excesso de poder convalida-se tacitamente com o decurso de trinta dias.
+- **E)** A competência exclusiva pode ser livremente delegada mediante portaria conjunta publicada no Diário Oficial.
 
 ---
 
@@ -199,15 +201,17 @@ A autoridade competente de determinada autarquia estadual instaurou processo adm
 > - **E)** **Incorreto**. As matérias de competência exclusiva são legalmente indelegáveis (art. 13, III da Lei nº 9.784/1999).
 >
 > **Gabarito: C**
+
 ### Teste 025
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Governador do Estado exonerou servidor ocupante de cargo em comissão de livre nomeação e exoneração, consignando na portaria que a dispensa decorreu de readequação orçamentária e corte de gastos com folha. Em processo de auditoria, comprovou-se que na mesma data foram nomeados dois assessores com vencimentos idênticos. O ato de exoneração:
 
-* **A)** É discricionário e prescinde de motivação, não ficando vinculado aos motivos declarados na portaria.
-* **B)** É nulo de pleno direito por força da Teoria dos Motivos Determinantes, ante a comprovada falsidade do motivo.
-* **C)** É convalidável pela autoridade competente mediante publicação retroativa de novo decreto sem justificação.
-* **D)** É revogável exclusivamente por provocação formal do servidor dispensado perante o Tribunal de Contas.
-* **E)** Permanece plenamente válido e intangível por se tratar de cargo de livre exoneração ad nutum.
+- **A)** É discricionário e prescinde de motivação, não ficando vinculado aos motivos declarados na portaria.
+- **B)** É nulo de pleno direito por força da Teoria dos Motivos Determinantes, ante a comprovada falsidade do motivo.
+- **C)** É convalidável pela autoridade competente mediante publicação retroativa de novo decreto sem justificação.
+- **D)** É revogável exclusivamente por provocação formal do servidor dispensado perante o Tribunal de Contas.
+- **E)** Permanece plenamente válido e intangível por se tratar de cargo de livre exoneração ad nutum.
 
 ---
 
@@ -220,15 +224,17 @@ O Governador do Estado exonerou servidor ocupante de cargo em comissão de livre
 > - **E)** **Incorreto**. A natureza ad nutum do cargo não autoriza a autoridade a motivar com falsidade comprovada.
 >
 > **Gabarito: B**
+
 ### Teste 026
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No estudo dogmático do ato administrativo, a doutrina tradicional e o art. 2º da Lei Federal nº 4.717/1965 (Lei da Ação Popular) estruturam a validade dos atos em cinco elementos ou requisitos essenciais. Dentre os elementos indispensáveis à formação do ato administrativo, citam-se:
 
-* **A)** a autoexecutoriedade, a imperatividade e a presunção de legitimidade perante administrados.
-* **B)** a discricionariedade, a vinculação e a revogabilidade por juízo de mérito administrativo.
-* **C)** a conveniência, a oportunidade e a razoabilidade quanto ao objeto tutelado na decisão.
-* **D)** o sujeito competente, a finalidade, a forma, o motivo e o objeto jurídico do provimento.
-* **E)** os atos de império, os atos de gestão patrimonial e os atos negociais de interesse público.
+- **A)** a autoexecutoriedade, a imperatividade e a presunção de legitimidade perante administrados.
+- **B)** a discricionariedade, a vinculação e a revogabilidade por juízo de mérito administrativo.
+- **C)** a conveniência, a oportunidade e a razoabilidade quanto ao objeto tutelado na decisão.
+- **D)** o sujeito competente, a finalidade, a forma, o motivo e o objeto jurídico do provimento.
+- **E)** os atos de império, os atos de gestão patrimonial e os atos negociais de interesse público.
 
 ---
 
@@ -241,6 +247,7 @@ No estudo dogmático do ato administrativo, a doutrina tradicional e o art. 2º 
 > - **E)** **Incorreto**. Trata-se de classificação doutrinária quanto à posição jurídica da Administração.
 >
 > **Gabarito: D**
+
 ## 3. Atributos do Ato Administrativo (Mnemônico PATI)
 
 Os atributos do ato administrativo consagram prerrogativas que decorrem diretamente do princípio da supremacia do interesse público:
@@ -251,7 +258,7 @@ flowchart LR
     A["Autoexecutoriedade<br/>(Execução direta pelo Estado<br/>sem autorização judicial prévia)"]
     T["Tipicidade<br/>(Corresponde a figura jurídica<br/>previamente fixada em lei)"]
     I["Imperatividade<br/>(Imposição coercitiva e unilateral<br/>sobre a esfera de terceiros)"]
-    
+  
     P --- A --- T --- I
 ```
 
@@ -267,6 +274,7 @@ Presume-se que o ato administrativo foi expedido em estrita consonância com a l
 É a prerrogativa conferida à Administração Pública de compelir materialmente o administrado a cumprir o ato ou executar diretamente a providência administrativa, inclusive com uso moderado da força física policial, **sem necessidade de intervenção ou autorização prévia do Poder Judiciário** (ex.: guincho de carro estacionado em local proibido; interdição e lacração de restaurante com alimentos deteriorados; apreensão de drogas).
 
 - **Limites Críticos da Autoexecutoriedade:** A autoexecutoriedade depende de expressa previsão legal ou de situação fática emergencial/urgente.  
+
 > 🚨 **ALERTA CLÁSSICO FCC:**  
 > A cobrança de **multas pecuniárias administrativas NÃO é autoexecutória**! Se o particular se recusar a pagar a multa, a Administração não pode tomar o dinheiro de sua conta bancária diretamente; deve inscrever o débito em Dívida Ativa e ajuizar Ação de Execução Fiscal perante o Poder Judiciário.
 
@@ -283,14 +291,15 @@ Consiste na faculdade de impor obrigações coercitivas e restrições unilatera
 ---
 
 ### Teste 027
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada fiscalização de vigilância sanitária estadual constatou que um restaurante comercializava alimentos estragados e impróprios para o consumo humano, gerando risco iminente de intoxicação coletiva. De imediato, a equipe de fiscalização determinou a interdição do estabelecimento e apreendeu as mercadorias. Sobre a autoexecutoriedade:
 
-* **A)** Exige prévia autorização judicial liminar para a sua incidência, em observância à inafastabilidade da jurisdição.
-* **B)** Presente em todos os atos administrativos indistintamente, inclusive na cobrança coercitiva de multas pecuniárias.
-* **C)** Legítima na hipótese fática descrita por se tratar de situação urgente de iminente perigo à saúde da população.
-* **D)** Restringe-se à lavratura do auto de infração, cabendo privativamente à polícia civil executar o fechamento do local.
-* **E)** Subordina-se a prévio depósito recursal pelo comerciante para que a ordem estatal possa surtir efeitos jurídicos.
+- **A)** Exige prévia autorização judicial liminar para a sua incidência, em observância à inafastabilidade da jurisdição.
+- **B)** Presente em todos os atos administrativos indistintamente, inclusive na cobrança coercitiva de multas pecuniárias.
+- **C)** Legítima na hipótese fática descrita por se tratar de situação urgente de iminente perigo à saúde da população.
+- **D)** Restringe-se à lavratura do auto de infração, cabendo privativamente à polícia civil executar o fechamento do local.
+- **E)** Subordina-se a prévio depósito recursal pelo comerciante para que a ordem estatal possa surtir efeitos jurídicos.
 
 ---
 
@@ -303,6 +312,7 @@ Determinada fiscalização de vigilância sanitária estadual constatou que um r
 > - **E)** **Incorreto**. Não se condiciona a depósito e o recurso não detém efeito suspensivo automático em situação de perigo iminente.
 >
 > **Gabarito: C**
+
 ## 4. Classificações Relevantes para a FCC: Atos Simples, Complexos e Compostos
 
 ### 4.1 Atos Simples, Complexos e Compostos
@@ -316,7 +326,7 @@ flowchart TD
     subgraph Composto["Ato Composto"]
         CP1["Ato Principal (Órgão A)"] --> CP2["Ato Acessório de Visto / Homologação (Órgão B)"]
     end
-    
+  
     subgraph Complexo["Ato Complexo"]
         CX1["Vontade Órgão A"] --> CX3["FUSÃO DE VONTADES<br/>= 1 Ato Administrativo Único"]
         CX2["Vontade Órgão B"] --> CX3
@@ -336,14 +346,15 @@ O julgamento da legalidade e a concessão de registro de aposentadoria, pensão 
 ---
 
 ### Teste 028
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na classificação doutrinária dos atos administrativos quanto à formação da vontade estatal, a doutrina tradicional distingue os atos simples, os atos complexos e os atos compostos. A respeito da distinção dogmática entre ato complexo e ato composto, é correto afirmar que:
 
-* **A)** o ato complexo resulta da manifestação de dois órgãos que emitem um ato principal e outro acessório instrumental.
-* **B)** o ato composto aperfeiçoa-se com a manifestação convergente de dois ou mais órgãos para formar um ato único.
-* **C)** o ato complexo exige a integração de vontades autônomas de órgãos distintos para que o ato se considere perfeito.
-* **D)** o ato composto resulta da deliberação de um órgão colegiado singular cuja vontade se manifesta pela maioria de votos.
-* **E)** o ato complexo independe da aprovação do órgão superior para produzir integralmente seus efeitos jurídicos válidos.
+- **A)** o ato complexo resulta da manifestação de dois órgãos que emitem um ato principal e outro acessório instrumental.
+- **B)** o ato composto aperfeiçoa-se com a manifestação convergente de dois ou mais órgãos para formar um ato único.
+- **C)** o ato complexo exige a integração de vontades autônomas de órgãos distintos para que o ato se considere perfeito.
+- **D)** o ato composto resulta da deliberação de um órgão colegiado singular cuja vontade se manifesta pela maioria de votos.
+- **E)** o ato complexo independe da aprovação do órgão superior para produzir integralmente seus efeitos jurídicos válidos.
 
 ---
 
@@ -356,15 +367,17 @@ Na classificação doutrinária dos atos administrativos quanto à formação da
 > - **E)** **Incorreto**. A manifestação de todos os órgãos envolvidos é elemento constitutivo para a formação e perfeição do ato complexo.
 >
 > **Gabarito: C**
+
 ### Teste 029
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada autarquia estadual publicou ato concedendo aposentadoria a servidor público estatutário e enviou os autos funcionais ao Tribunal de Contas do Estado para fins de registro e controle de legalidade. Decorridos seis anos da entrada do processo na Corte de Contas sem deliberação, o processo foi pautado para julgamento. À luz do art. 71, III, da CF/88 e do Tema nº 445 do STF:
 
-* **A)** O ato de concessão de aposentadoria é ato composto, restando precluso o exame de legalidade pelo Tribunal de Contas.
-* **B)** O Tribunal de Contas dispõe de cinco anos da chegada dos autos na Corte para julgar a legalidade, sob pena de registro tácito.
-* **C)** O prazo decadencial de cinco anos conta-se da publicação do ato pelo órgão de origem, tornando o processo intempestivo.
-* **D)** O controle de legalidade exercido pelos Tribunais de Contas sobre atos complexos é imprescritível por expressa previsão constitucional.
-* **E)** O transcurso de cinco anos sem julgamento converte a aposentadoria estatutária em provimento irrevogável de pensão privada.
+- **A)** O ato de concessão de aposentadoria é ato composto, restando precluso o exame de legalidade pelo Tribunal de Contas.
+- **B)** O Tribunal de Contas dispõe de cinco anos da chegada dos autos na Corte para julgar a legalidade, sob pena de registro tácito.
+- **C)** O prazo decadencial de cinco anos conta-se da publicação do ato pelo órgão de origem, tornando o processo intempestivo.
+- **D)** O controle de legalidade exercido pelos Tribunais de Contas sobre atos complexos é imprescritível por expressa previsão constitucional.
+- **E)** O transcurso de cinco anos sem julgamento converte a aposentadoria estatutária em provimento irrevogável de pensão privada.
 
 ---
 
@@ -377,6 +390,7 @@ Determinada autarquia estadual publicou ato concedendo aposentadoria a servidor 
 > - **E)** **Incorreto**. O efeito decorrente do decurso do prazo é o registro tácito do ato aposentatório pelo Tribunal de Contas.
 >
 > **Gabarito: B**
+
 ## 5. Extinção e Convalidação dos Atos Administrativos
 
 ### 5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição
@@ -404,25 +418,26 @@ A convalidação (ou sanatória) é o ato administrativo pelo qual a Administra�
     3. O vício deve ser **sanável**.
 
 - **Defeitos Sanáveis que Comportam Convalidação:**
-    - **Competência quanto à Pessoa:** Admite convalidação (ratificação pela autoridade competente), desde que a lei **NÃO tenha atribuído competência exclusiva** à autoridade que praticou o ato originário.
-    - **Forma:** Admite convalidação se a forma desrespeitada não foi expressamente exigida por lei como requisito essencial de validade do ato.
+  - **Competência quanto à Pessoa:** Admite convalidação (ratificação pela autoridade competente), desde que a lei **NÃO tenha atribuído competência exclusiva** à autoridade que praticou o ato originário.
+  - **Forma:** Admite convalidação se a forma desrespeitada não foi expressamente exigida por lei como requisito essencial de validade do ato.
 - **Defeitos Insanáveis (NULIDADE ABSOLUTA - Vedada Convalidação):**
-    - Vício de **Finalidade** (desvio de poder);
-    - Vício de **Motivo** (motivo falso ou inexistente);
-    - Vício de **Objeto** (objeto ilícito ou impossível);
-    - Vício de competência privativa/exclusiva ou forma essencial.
+  - Vício de **Finalidade** (desvio de poder);
+  - Vício de **Motivo** (motivo falso ou inexistente);
+  - Vício de **Objeto** (objeto ilícito ou impossível);
+  - Vício de competência privativa/exclusiva ou forma essencial.
 
 ---
 
 ### Teste 030
+
 **(FGV – TRF/1 – 2024 – Analista Judiciario - Area Apoio Especializado - Suporte em TI)**  
 Ao estudar as hipóteses de extinção do ato administrativo, Júlia verificou que há uma modalidade em que isso ocorre em razão da incompatibilidade do ato administrativo com outro posterior, tal como ocorre com a nomeação do servidor, que é extinta com a sua exoneração. Tal modalidade de extinção corresponde a:
 
-* **A)** recusa;
-* **B)** renúncia;
-* **C)** anulação;
-* **D)** revogação;
-* **E)** contraposição.
+- **A)** recusa;
+- **B)** renúncia;
+- **C)** anulação;
+- **D)** revogação;
+- **E)** contraposição.
 
 ---
 
@@ -433,20 +448,21 @@ Ao estudar as hipóteses de extinção do ato administrativo, Júlia verificou q
 > - **C) Incorreta.** A anulação (invalidação) opera ex tunc sobre atos que padecem de vício insanável de legalidade (art. 53 da Lei nº 9.784/1999 e Súmula 473 do STF).
 > - **D) Incorreta.** A revogação opera ex nunc com base em juízo de conveniência e oportunidade da Administração sobre atos discricionários válidos e eficazes.
 > - **E) CORRETA.** A **extinção por contraposição (ou derrubada)** ocorre quando um novo ato administrativo é validamente emitido com efeitos jurídicos frontalmente incompatíveis com um ato anterior, provocando a extinção automática deste último. O exemplo clássico da doutrina e da jurisprudência é o ato de **exoneração**, que se contrapõe diretamente e extingue os efeitos jurídicos do ato anterior de **nomeação**.
-> 
+>
 > **Gabarito: E**
 
 ---
 
 ### Teste 031
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em relação à invalidação, revogação e convalidação dos atos administrativos no ordenamento jurídico brasileiro, é correto afirmar que:
 
-* **A)** apenas os atos discricionários podem ser objeto de revogação por conveniência e oportunidade da Administração.
-* **B)** apenas os atos vinculados admitem a declaração de anulação quando constatada a presença de vício de legalidade.
-* **C)** a revogação por motivo de oportunidade desfaz integralmente os efeitos jurídicos pretéritos produzidos pelo ato.
-* **D)** a anulação de ato ilegal produz sempre efeitos prospectivos ex nunc para preservar os direitos dos beneficiários.
-* **E)** os vícios insanáveis de competência em razão da matéria e de finalidade desvio admitem ampla convalidação legal.
+- **A)** apenas os atos discricionários podem ser objeto de revogação por conveniência e oportunidade da Administração.
+- **B)** apenas os atos vinculados admitem a declaração de anulação quando constatada a presença de vício de legalidade.
+- **C)** a revogação por motivo de oportunidade desfaz integralmente os efeitos jurídicos pretéritos produzidos pelo ato.
+- **D)** a anulação de ato ilegal produz sempre efeitos prospectivos ex nunc para preservar os direitos dos beneficiários.
+- **E)** os vícios insanáveis de competência em razão da matéria e de finalidade desvio admitem ampla convalidação legal.
 
 ---
 
@@ -459,6 +475,7 @@ Em relação à invalidação, revogação e convalidação dos atos administrat
 > - **E)** **Incorreto**. Vício de matéria e vício de desvio de finalidade são insanáveis e jamais admitem convalidação.
 >
 > **Gabarito: A**
+
 ## 6. Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)
 
 A **Lei Estadual nº 13.800/2001** disciplina o processo administrativo no âmbito da Administração Pública direta e indireta do Estado de Goiás:
@@ -481,10 +498,10 @@ Reproduzindo a regra geral do direito público brasileiro, o art. 13 da Lei Goia
 Para assegurar a imparcialidade nas decisões administrativas, a lei estadual estabelece distinção crucial entre:
 
 - **Impedimento (Vício Objetivo - Art. 18):** O servidor ou autoridade é legalmente impedido de atuar em processo no qual:
-    - Tenha interesse direto ou indireto na matéria;
-    - Tenha participado ou venha a participar como perito, testemunha ou representante, ou se tais situações ocorrerem quanto ao cônjuge, companheiro ou parentes até o terceiro grau;
-    - Esteja litigando judicial ou administrativamente com o interessado ou respectivo cônjuge/companheiro.
-    - *Omissão do Impedimento:* Constitui falta disciplinar grave.
+  - Tenha interesse direto ou indireto na matéria;
+  - Tenha participado ou venha a participar como perito, testemunha ou representante, ou se tais situações ocorrerem quanto ao cônjuge, companheiro ou parentes até o terceiro grau;
+  - Esteja litigando judicial ou administrativamente com o interessado ou respectivo cônjuge/companheiro.
+  - *Omissão do Impedimento:* Constitui falta disciplinar grave.
 - **Suspeição (Vício Subjetivo - Art. 20):** Pode ser arguida a suspeição de autoridade ou servidor que tenha amizade íntima ou inimizade notória com algum dos interessados ou com os respectivos cônjuges, companheiros, parentes e afins até o terceiro grau.
 
 ### 6.4 Motivação das Decisões e Regime Recursal
@@ -496,16 +513,17 @@ Para assegurar a imparcialidade nas decisões administrativas, a lei estadual es
 ---
 
 ### Teste 032
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Presidente de determinada autarquia delegou a órgão hierarquicamente inferior a competência para instruir procedimentos apuratórios e expedir certidões, fixando prazo determinado de vigência para a delegação. 
+O Presidente de determinada autarquia delegou a órgão hierarquicamente inferior a competência para instruir procedimentos apuratórios e expedir certidões, fixando prazo determinado de vigência para a delegação.
 
 A respeito dos efeitos do ato de delegação sobre a autoridade delegante, com base na Lei de Processo Administrativo (Lei nº 9.784/1999):
 
-* **A)** a autoridade delegante pode exercer a competência delegada a qualquer tempo, pois a titularidade legal permanece com ela.
-* **B)** a autoridade delegante fica impedida de praticar o ato delegado durante todo o prazo fixado na portaria originária.
-* **C)** a autoridade delegante somente pode voltar a exercer a competência delegada após o trânsito em julgado de processo revogatório.
-* **D)** a autoridade delegante perde em definitivo o poder decisório, respondendo solidariamente por improbidade com o delegado.
-* **E)** a competência delegada passa a ser concorrente entre o delegante e o delegado, prevalecendo a decisão do subalterno.
+- **A)** a autoridade delegante pode exercer a competência delegada a qualquer tempo, pois a titularidade legal permanece com ela.
+- **B)** a autoridade delegante fica impedida de praticar o ato delegado durante todo o prazo fixado na portaria originária.
+- **C)** a autoridade delegante somente pode voltar a exercer a competência delegada após o trânsito em julgado de processo revogatório.
+- **D)** a autoridade delegante perde em definitivo o poder decisório, respondendo solidariamente por improbidade com o delegado.
+- **E)** a competência delegada passa a ser concorrente entre o delegante e o delegado, prevalecendo a decisão do subalterno.
 
 ---
 
@@ -518,17 +536,19 @@ A respeito dos efeitos do ato de delegação sobre a autoridade delegante, com b
 > - **E)** **Incorreto**. Prevalece hierarquicamente a deliberação da autoridade delegante superior.
 >
 > **Gabarito: A**
+
 ### Teste 033
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com o regime jurídico do processo administrativo no âmbito da Administração Pública do Estado de Goiás (Lei Estadual nº 13.800/2001), a autoridade ou servidor que incorrer em impedimento funcional deve comunicar o fato incontinenti à autoridade competente, abstendo-se de atuar no feito. 
+De acordo com o regime jurídico do processo administrativo no âmbito da Administração Pública do Estado de Goiás (Lei Estadual nº 13.800/2001), a autoridade ou servidor que incorrer em impedimento funcional deve comunicar o fato incontinenti à autoridade competente, abstendo-se de atuar no feito.
 
 Configura hipótese de IMPEDIMENTO legal, nos termos expressos do art. 18 da referida legislação estadual, a participação de autoridade ou servidor que:
 
-* **A)** tenha amizade notória ou inimizade capital com qualquer dos litigantes ou seus procuradores.
-* **B)** tenha interesse direto ou indireto na matéria controvertida ou seja cônjuge de um dos litigantes.
-* **C)** mantenha relação de subordinação funcional estrita com o chefe imediato da repartição processante.
-* **D)** possua débito inscrito em dívida ativa com a Fazenda Pública estadual em execução fiscal suspensa.
-* **E)** tenha divergência de posicionamento doutrinário com as teses defendidas na peça recursal do interessado.
+- **A)** tenha amizade notória ou inimizade capital com qualquer dos litigantes ou seus procuradores.
+- **B)** tenha interesse direto ou indireto na matéria controvertida ou seja cônjuge de um dos litigantes.
+- **C)** mantenha relação de subordinação funcional estrita com o chefe imediato da repartição processante.
+- **D)** possua débito inscrito em dívida ativa com a Fazenda Pública estadual em execução fiscal suspensa.
+- **E)** tenha divergência de posicionamento doutrinário com as teses defendidas na peça recursal do interessado.
 
 ---
 
@@ -541,6 +561,7 @@ Configura hipótese de IMPEDIMENTO legal, nos termos expressos do art. 18 da ref
 > - **E)** **Incorreto**. Divergência de hermenêutica ou teses jurídicas não afeta a imparcialidade objetiva legal do julgador.
 >
 > **Gabarito: B**
+
 ## 7. Fontes Recomendadas na Internet
 
 - [Lei Estadual de Goiás nº 13.800/2001 (Processo Administrativo Estadual de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/81441/lei-13800)  
@@ -553,6 +574,6 @@ Configura hipótese de IMPEDIMENTO legal, nos termos expressos do art. 18 da ref
   Tese de repercussão geral fixando o prazo de 5 anos para julgamento da legalidade do ato concessório a contar da chegada dos autos ao Tribunal de Contas.
 - [Lei Federal nº 9.784/1999 (Processo Administrativo Federal)](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm)  
   Normas gerais sobre motivação, convalidação (art. 55), anulação decadencial quinquenal (art. 54) e vedações à delegação (art. 13).
-* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 7 e Cap. 16 - Atos Administrativos e Processo Administrativo).
-* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 3 e Cap. 21 - Atos Administrativos: Elementos, Atributos, Extinção e Processo Administrativo).
-* MELLO, Celso Antônio Bandeira de. **Curso de Direito Administrativo**. 37. ed. Belo Horizonte: Fórum, 2024. (Cap. 7 - Teoria dos Atos Administrativos, Perfeição, Validade, Eficácia e Convalidação).
+- DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 7 e Cap. 16 - Atos Administrativos e Processo Administrativo).
+- CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 3 e Cap. 21 - Atos Administrativos: Elementos, Atributos, Extinção e Processo Administrativo).
+- MELLO, Celso Antônio Bandeira de. **Curso de Direito Administrativo**. 37. ed. Belo Horizonte: Fórum, 2024. (Cap. 7 - Teoria dos Atos Administrativos, Perfeição, Validade, Eficácia e Convalidação).

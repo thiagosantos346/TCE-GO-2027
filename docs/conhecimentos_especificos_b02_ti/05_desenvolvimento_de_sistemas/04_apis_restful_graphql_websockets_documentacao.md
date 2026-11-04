@@ -4,12 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `04_apis_restful_graphql_websockets_documentacao.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Desenvolvimento de APIs RESTful
 - Conceitos de GraphQL e WebSockets
 - Formatos de representação de dados: JSON e XML
@@ -20,38 +18,38 @@
 ## 🧭 Sumário
 
 1. [APIs RESTful e Protocolo HTTP](#1-apis-restful-e-protocolo-http)
-    - [1.1 Princípios Arquiteturais do REST (Roy Fielding)](#11-principios-arquiteturais-do-rest-roy-fielding)
-    - [1.2 O Modelo de Maturidade de Richardson](#12-o-modelo-de-maturidade-de-richardson)
-    - [1.3 Métodos HTTP: Semântica, Segurança e Idempotência](#13-metodos-http-semantica-seguranca-e-idempotencia)
-    - [1.4 Códigos de Status HTTP Essenciais em Provas](#14-codigos-de-status-http-essenciais-em-provas)
-    - [1.5 Boas Práticas no Design de URIs e Recursos RESTful](#15-boas-praticas-no-design-de-uris-e-recursos-restful)
-    - [Teste 087](#teste-087)
-    - [Teste 088](#teste-088)
-    - [Teste 089](#teste-089)
-    - [Teste 090](#teste-090)
-    - [Teste 091](#teste-091)
+    1. [Princípios Arquiteturais do REST (Roy Fielding)](#11-princípios-arquiteturais-do-rest-roy-fielding)
+    1. [O Modelo de Maturidade de Richardson](#12-o-modelo-de-maturidade-de-richardson)
+    1. [Métodos HTTP: Semântica, Segurança e Idempotência](#13-métodos-http-semântica-segurança-e-idempotência)
+    1. [Códigos de Status HTTP Essenciais em Provas](#14-códigos-de-status-http-essenciais-em-provas)
+    1. [Boas Práticas no Design de URIs e Recursos RESTful](#15-boas-práticas-no-design-de-uris-e-recursos-restful)
+    1. [Teste 087](#teste-087)
+    1. [Teste 088](#teste-088)
+    1. [Teste 089](#teste-089)
+    1. [Teste 090](#teste-090)
+    1. [Teste 091](#teste-091)
 2. [GraphQL: Arquitetura e Consultas Declarativas](#2-graphql-arquitetura-e-consultas-declarativas)
-    - [2.1 Motivação: Resolução de Over-fetching e Under-fetching](#21-motivacao-resolucao-de-over-fetching-e-under-fetching)
-    - [2.2 Modelo Operacional e a Schema Definition Language (SDL)](#22-modelo-operacional-e-a-schema-definition-language-sdl)
-    - [2.3 Operações Centrais: Queries, Mutations, Subscriptions e Resolvers](#23-operacoes-centrais-queries-mutations-subscriptions-e-resolvers)
-    - [Teste 092](#teste-092)
-    - [Teste 093](#teste-093)
-3. [Protocolo WebSocket e Comunicação em Tempo Real](#3-protocolo-websocket-e-comunicacao-em-tempo-real)
-    - [3.1 Arquitetura Full-Duplex e a RFC 6455](#31-arquitetura-full-duplex-e-a-rfc-6455)
-    - [3.2 O Handshake HTTP Upgrade e os Esquemas ws:// e wss://](#32-o-handshake-http-upgrade-e-os-esquemas-ws-e-wss)
-    - [3.3 Comparativo: Polling, Long-Polling, Server-Sent Events (SSE) e WebSocket](#33-comparativo-polling-long-polling-server-sent-events-sse-e-websocket)
-    - [Teste 094](#teste-094)
-    - [Teste 095](#teste-095)
-4. [Formatos de Representação de Dados: JSON vs. XML](#4-formatos-de-representacao-de-dados-json-vs-xml)
-    - [4.1 JSON: Tipagem, Sintaxe Estrita e Validação com JSON Schema](#41-json-tipagem-sintaxe-estrita-e-validacao-com-json-schema)
-    - [4.2 XML: Estrutura, Validação (DTD/XSD) e Consultas com XPath](#42-xml-estrutura-validacao-dtdxsd-e-consultas-com-xpath)
-    - [4.3 Comparativo Prático entre JSON e XML](#43-comparativo-pratico-entre-json-e-xml)
-    - [Teste 096](#teste-096)
-5. [Documentação de APIs com OpenAPI e o Ecossistema Swagger](#5-documentacao-de-apis-com-openapi-e-o-ecossistema-swagger)
-    - [5.1 A Especificação OpenAPI (OAS 3.0 / 3.1)](#51-a-especificacao-openapi-oas-30-31)
-    - [5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)](#52-estrutura-canonica-do-documento-openapi-yaml-json)
-    - [5.3 Ferramental Swagger: Swagger UI, Editor e Codegen](#53-ferramental-swagger-swagger-ui-editor-e-codegen)
-    - [Teste 097](#teste-097)
+    1. [Motivação: Resolução de Over-fetching e Under-fetching](#21-motivação-resolução-de-over-fetching-e-under-fetching)
+    1. [Modelo Operacional e a Schema Definition Language (SDL)](#22-modelo-operacional-e-a-schema-definition-language-sdl)
+    1. [Operações Centrais: Queries, Mutations, Subscriptions e Resolvers](#23-operações-centrais-queries-mutations-subscriptions-e-resolvers)
+    1. [Teste 092](#teste-092)
+    1. [Teste 093](#teste-093)
+3. [Protocolo WebSocket e Comunicação em Tempo Real](#3-protocolo-websocket-e-comunicação-em-tempo-real)
+    1. [Arquitetura Full-Duplex e a RFC 6455](#31-arquitetura-full-duplex-e-a-rfc-6455)
+    1. [O Handshake HTTP Upgrade e os Esquemas ws:// e wss://](#32-o-handshake-http-upgrade-e-os-esquemas-ws-e-wss)
+    1. [Comparativo: Polling, Long-Polling, Server-Sent Events (SSE) e WebSocket](#33-comparativo-polling-long-polling-server-sent-events-sse-e-websocket)
+    1. [Teste 094](#teste-094)
+    1. [Teste 095](#teste-095)
+4. [Formatos de Representação de Dados: JSON vs. XML](#4-formatos-de-representação-de-dados-json-vs-xml)
+    1. [JSON: Tipagem, Sintaxe Estrita e Validação com JSON Schema](#41-json-tipagem-sintaxe-estrita-e-validação-com-json-schema)
+    1. [XML: Estrutura, Validação (DTD/XSD) e Consultas com XPath](#42-xml-estrutura-validação-dtdxsd-e-consultas-com-xpath)
+    1. [Comparativo Prático entre JSON e XML](#43-comparativo-prático-entre-json-e-xml)
+    1. [Teste 096](#teste-096)
+5. [Documentação de APIs com OpenAPI e o Ecossistema Swagger](#5-documentação-de-apis-com-openapi-e-o-ecossistema-swagger)
+    1. [A Especificação OpenAPI (OAS 3.0 / 3.1)](#51-a-especificação-openapi-oas-30--31)
+    1. [Estrutura Canônica do Documento OpenAPI (YAML / JSON)](#52-estrutura-canônica-do-documento-openapi-yaml--json)
+    1. [Ferramental Swagger: Swagger UI, Editor e Codegen](#53-ferramental-swagger-swagger-ui-editor-e-codegen)
+    1. [Teste 097](#teste-097)
 6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
@@ -59,6 +57,7 @@
 ## 1. APIs RESTful e Protocolo HTTP
 
 ### 1.1 Princípios Arquiteturais do REST (Roy Fielding)
+
 O estilo arquitetural **REST** (*Representational State Transfer*) foi formalizado por Roy Fielding em sua tese de doutorado no ano 2000. Trata-se de um conjunto de **restrições arquiteturais** coordenadas que, quando seguidas, conferem à web propriedades desejáveis de desempenho, escalabilidade, simplicidade, modificabilidade e visibilidade:
 
 1. **Cliente-Servidor (*Client-Server*):** Separação estrita de responsabilidades. O cliente cuida da apresentação visual e experiência do usuário; o servidor encarrega-se do armazenamento de dados e das regras de negócio. Essa dissociação permite que ambas as camadas evoluam de forma independente.
@@ -74,6 +73,7 @@ O estilo arquitetural **REST** (*Representational State Transfer*) foi formaliza
 6. **Código sob Demanda (*Code on Demand* - Única Opcional):** Permite ao servidor estender a funcionalidade do cliente transmitindo código executável (ex.: scripts JavaScript).
 
 ### 1.2 O Modelo de Maturidade de Richardson
+
 Leonard Richardson concebeu um modelo para classificar a aderência de serviços web aos preceitos REST:
 
 ```mermaid
@@ -93,17 +93,18 @@ flowchart TD
 - **Nível 3 (Controles Hipermídia - HATEOAS):** O patamar máximo da maturidade REST. As respostas trazem links hipermídia (`_links` ou `rel`) que informam dinamicamente ao cliente quais ações subsequentes ele pode executar (ex.: aprovar processo, anexar documento).
 
 ### 1.3 Métodos HTTP: Semântica, Segurança e Idempotência
+
 A RFC 7231 da IETF define com rigor a semântica e as propriedades dos métodos HTTP:
 
 | Método | Seguro (*Safe*)? | Idempotente? | Semântica Principal | Códigos de Sucesso Comuns |
-|---|:---:|:---:|---|---|
+| --- | :---: | :---: | --- | --- |
 | **`GET`** | **Sim** | **Sim** | Recuperar a representação de um recurso (somente leitura). | `200 OK` |
 | **`HEAD`** | **Sim** | **Sim** | Idêntico ao GET, mas retorna **apenas cabeçalhos** (sem corpo). | `200 OK` |
-| **`OPTIONS`**| **Sim** | **Sim** | Consulta quais métodos e parâmetros o servidor aceita naquela URI. | `200 OK`, `204 No Content` |
+| **`OPTIONS`** | **Sim** | **Sim** | Consulta quais métodos e parâmetros o servidor aceita naquela URI. | `200 OK`, `204 No Content` |
 | **`POST`** | **Não** | **Não** | Criação de recurso subordinado ou processamento arbitrário. | `201 Created`, `200 OK` |
 | **`PUT`** | **Não** | **Sim** | **Substituição completa** do recurso especificado na URI. | `200 OK`, `204 No Content` |
-| **`PATCH`**| **Não** | **Não**\* | **Modificação parcial** de campos de um recurso existente. | `200 OK`, `204 No Content` |
-| **`DELETE`**| **Não** | **Sim** | Exclusão do recurso indicado na URI. | `200 OK`, `204 No Content` |
+| **`PATCH`** | **Não** | **Não**\* | **Modificação parcial** de campos de um recurso existente. | `200 OK`, `204 No Content` |
+| **`DELETE`** | **Não** | **Sim** | Exclusão do recurso indicado na URI. | `200 OK`, `204 No Content` |
 
 *\*Nota: Pela RFC 5789, PATCH não é intrinsecamente idempotente, embora possa ser implementado de forma idempotente em certos casos.*
 
@@ -111,9 +112,9 @@ A RFC 7231 da IETF define com rigor a semântica e as propriedades dos métodos 
 >
 > - **Método Seguro (*Safe*):** A execução da requisição **NÃO altera o estado dos recursos no servidor** (leitura pura). `GET`, `HEAD` e `OPTIONS` são seguros.
 > - **Método Idempotente (*Idempotent*):** Executar a mesma requisição uma vez ou $N$ vezes consecutivas com os mesmos dados produz **exatamente o mesmo efeito final no estado do servidor**.
->     - O `PUT` é idempotente: substituir integralmente um registro 10 vezes resulta no mesmo estado final no banco de dados.
->     - O `DELETE` é idempotente: após o primeiro comando, o recurso foi apagado; chamá-lo novamente mantém o recurso inexistente. O fato de responder `404` na segunda chamada não altera a idempotência!
->     - O `POST` **NÃO é idempotente**: disparar 5 vezes cria 5 novos registros no banco.
+>   - O `PUT` é idempotente: substituir integralmente um registro 10 vezes resulta no mesmo estado final no banco de dados.
+>   - O `DELETE` é idempotente: após o primeiro comando, o recurso foi apagado; chamá-lo novamente mantém o recurso inexistente. O fato de responder `404` na segunda chamada não altera a idempotência!
+>   - O `POST` **NÃO é idempotente**: disparar 5 vezes cria 5 novos registros no banco.
 
 ### 1.4 Códigos de Status HTTP Essenciais em Provas
 
@@ -130,15 +131,18 @@ flowchart LR
 ```
 
 #### Faixa 2xx (Sucesso)
+
 - **`200 OK`:** A requisição foi atendida com sucesso e o corpo contém a resposta solicitada.
 - **`201 Created`:** Um novo recurso foi criado com sucesso. O cabeçalho `Location` deve conter a URI do recurso recém-criado.
 - **`204 No Content`:** A requisição foi processada com êxito, mas o servidor **não envia nenhum corpo de resposta** (comum após operações `DELETE` ou `PUT`).
 
 #### Faixa 3xx (Redirecionamento)
+
 - **`301 Moved Permanently`:** O recurso mudou de endereço definitivamente.
 - **`304 Not Modified`:** Validação condicional de cache bem-sucedida (via `ETag` ou `If-Modified-Since`). O cliente deve reutilizar os dados já armazenados em seu cache local sem trafegar o corpo do arquivo.
 
 #### Faixa 4xx (Erro do Cliente)
+
 - **`400 Bad Request`:** Requisição sintaticamente malformada (ex.: JSON inválido, sintaxe corrompida).
 - **`401 Unauthorized`:** Na realidade técnica, significa **Não Autenticado** (*Unauthenticated*). Faltam credenciais no cabeçalho `Authorization` ou o token expirou/está inválido (*"Eu não sei quem você é"*).
 - **`403 Forbidden`:** O cliente foi **validado e autenticado com sucesso**, mas **não possui permissão/autorização** suficiente para acessar o recurso pretendido (*"Eu sei quem você é, mas você não tem autorização"*).
@@ -147,6 +151,7 @@ flowchart LR
 - **`422 Unprocessable Entity`:** A sintaxe do payload é válida, mas há violação de regras semânticas de negócio (ex.: enviar campo "idade" com valor negativo).
 
 ### 1.5 Boas Práticas no Design de URIs e Recursos RESTful
+
 - **Utilizar substantivos no plural:** `/processos`, `/auditores`, `/orgaos` (em vez de verbos como `/buscarProcessos` ou `/criarAuditor`).
 - **Hierarquias para recursos aninhados:** `/processos/105/anexos/2` indica o anexo de código 2 subordinado ao processo 105.
 - **Versionamento explícito na URI:** `/api/v1/processos` ou por cabeçalhos customizados (`Accept: application/vnd.tce.v1+json`).
@@ -156,15 +161,15 @@ flowchart LR
 ---
 
 ### Teste 087
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O estilo arquitetural REST (*Representational State Transfer*), formulado por Roy Fielding em sua tese de doutorado (2000), baseia-se em um conjunto de restrições arquiteturais fundamentais. Dentre os princípios canônicos obrigatórios do REST, inclui-se a restrição *Stateless* (Comunicação sem Estado), a qual estabelece que:
 
-* **A)** O cliente não precisa armazenar dados confidenciais do servidor em disco local.
-* **B)** Cada requisição enviada pelo cliente ao servidor deve conter todas as informações contextuais necessárias para que o servidor possa compreendê-la e processá-la, não devendo o servidor reter sessões de estado do cliente entre requisições.
-* **C)** O servidor deve registrar o histórico das telas navegadas pelo cliente na memória primária para autenticar as próximas requisições.
-* **D)** O protocolo HTTP deve ser substituído permanentemente por sockets TCP com canais abertos contínuos.
-* **E)** Nenhuma resposta de API pode ser armazenada em cache por intermediários ou clientes.
-
+- **A)** O cliente não precisa armazenar dados confidenciais do servidor em disco local.
+- **B)** Cada requisição enviada pelo cliente ao servidor deve conter todas as informações contextuais necessárias para que o servidor possa compreendê-la e processá-la, não devendo o servidor reter sessões de estado do cliente entre requisições.
+- **C)** O servidor deve registrar o histórico das telas navegadas pelo cliente na memória primária para autenticar as próximas requisições.
+- **D)** O protocolo HTTP deve ser substituído permanentemente por sockets TCP com canais abertos contínuos.
+- **E)** Nenhuma resposta de API pode ser armazenada em cache por intermediários ou clientes.
 
 ---
 
@@ -181,15 +186,15 @@ O estilo arquitetural REST (*Representational State Transfer*), formulado por Ro
 ---
 
 ### Teste 088
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A respeito da especificação OpenAPI (antigo Swagger) e do Modelo de Maturidade de Richardson para arquiteturas de serviços RESTful, assinale a afirmativa correta:  
 
-* **A)** O Nível 3 do Modelo de Richardson preconiza a implementação de HATEOAS (*Hypermedia As The Engine Of Application State*), fornecendo nas respostas representações que incluem links navegáveis para as próximas transições de estado possíveis.
-* **B)** Em um documento OpenAPI 3.0, a seção `components/schemas` é obrigatória em todas as rotas e impede a reutilização de definições de modelos de dados entre endpoints diferentes.
-* **C)** O Nível 1 do Modelo de Richardson caracteriza-se pelo uso de um único endpoint monolítico e uso exclusivo do método HTTP POST para todas as operações do sistema (*The Swamp of POX*).
-* **D)** O Swagger UI é uma biblioteca restrita ao backend de compiladores Java, não possuindo capacidade de gerar interfaces gráficas web para testes interativos de requisições.
-* **E)** Um documento OpenAPI só pode ser estruturado exclusivamente na linguagem XML, sendo proibida a utilização de YAML ou JSON.
-
+- **A)** O Nível 3 do Modelo de Richardson preconiza a implementação de HATEOAS (*Hypermedia As The Engine Of Application State*), fornecendo nas respostas representações que incluem links navegáveis para as próximas transições de estado possíveis.
+- **B)** Em um documento OpenAPI 3.0, a seção `components/schemas` é obrigatória em todas as rotas e impede a reutilização de definições de modelos de dados entre endpoints diferentes.
+- **C)** O Nível 1 do Modelo de Richardson caracteriza-se pelo uso de um único endpoint monolítico e uso exclusivo do método HTTP POST para todas as operações do sistema (*The Swamp of POX*).
+- **D)** O Swagger UI é uma biblioteca restrita ao backend de compiladores Java, não possuindo capacidade de gerar interfaces gráficas web para testes interativos de requisições.
+- **E)** Um documento OpenAPI só pode ser estruturado exclusivamente na linguagem XML, sendo proibida a utilização de YAML ou JSON.
 
 ---
 
@@ -200,51 +205,55 @@ A respeito da especificação OpenAPI (antigo Swagger) e do Modelo de Maturidade
 > - **C)** Incorreta. O uso de um único endpoint com requisições POST arbitrárias caracteriza o **Nível 0** (*The Swamp of POX*). O Nível 1 introduz a individualização de recursos em múltiplas URIs.
 > - **D)** Incorreta. O Swagger UI é uma ferramenta visual web amplamente adotada em diversas linguagens que renderiza páginas interativas para testes de endpoints no navegador.
 > - **E)** Incorreta. A especificação OpenAPI adota padronizadamente as linguagens **YAML** e **JSON** para estruturar seus contratos de API.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 089
+
 **(FGV – TRT/13 – 2022 – Analista Judiciário - Tecnologia da Informação)**  
 Uma aplicação mobile enviou a um gateway de APIs REST várias solicitações idênticas em sequência utilizando o método HTTP PUT. Essas solicitações idênticas resultaram em nenhuma alteração de estado do sistema de backend, a exceção da primeira solicitação que atualizou um registro no banco de dados.
 
 Nesse contexto, é correto afirmar que essa solicitação HTTP é:
 
-* **A)** acoplada.
-* **B)** balanceada.
-* **C)** full-duplex.
-* **D)** idempotente.
-* **E)** segura.
+- **A)** acoplada.
+- **B)** balanceada.
+- **C)** full-duplex.
+- **D)** idempotente.
+- **E)** segura.
 
 ---
 
 > **Comentário Detalhado:**
 >
 > Na arquitetura REST e na especificação HTTP (RFC 7231):
+>
 > - Uma operação é considerada **idempotente** quando o efeito colateral no servidor produzido por múltiplas requisições idênticas é rigorosamente o mesmo produzido por uma única requisição.
 > - O método **`PUT`** é concebido para ser intrinsecamente idempotente: a primeira requisição atualiza (ou substitui) o estado do recurso no backend; requisições subsequentes idênticas mantêm o recurso exatamente no mesmo estado final, sem acumular efeitos colaterais duplicados.
 > - Métodos idempotentes clássicos no HTTP: `GET`, `HEAD`, `PUT`, `DELETE`, `OPTIONS`.
 > - Método não-idempotente: `POST` (cada envio normalmente cria um novo recurso subordinado).
 >
 > **Gabarito: D**
+
 ---
 
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. O método `POST` não é seguro (ele modifica o estado do sistema, criando registros ou processando comandos) e **não é idempotente** (se você chamar `POST /processos` 10 vezes com os mesmos dados, criará 10 processos distintos no banco de dados).
 > - **B)** **CORRETA.** A especificação da IETF (RFC 7231) conceitua:
->     - **Segurança (*Safety*):** Método que não altera o estado dos recursos no servidor (apenas leitura). O `PUT` altera dados, logo não é seguro.
->     - **Idempotência (*Idempotency*):** A execução de múltiplas requisições idênticas consecutivas produz o mesmo efeito final no estado do servidor que uma única execução. O `PUT` substitui a totalidade do recurso na URI informada; portanto, executá-lo uma ou dez vezes com os mesmos dados deixará o recurso com exatamente o mesmo estado no banco.
+>   - **Segurança (*Safety*):** Método que não altera o estado dos recursos no servidor (apenas leitura). O `PUT` altera dados, logo não é seguro.
+>   - **Idempotência (*Idempotency*):** A execução de múltiplas requisições idênticas consecutivas produz o mesmo efeito final no estado do servidor que uma única execução. O `PUT` substitui a totalidade do recurso na URI informada; portanto, executá-lo uma ou dez vezes com os mesmos dados deixará o recurso com exatamente o mesmo estado no banco.
 > - **C)** Incorreta. O método `GET` é tanto seguro quanto idempotente por definição canônica.
 > - **D)** Incorreta. Idempotência refere-se ao estado dos recursos no servidor, e não à igualdade física de cabeçalhos transitórios como timestamps de relógio.
 > - **E)** Incorreta. O método `DELETE` **é formalmente idempotente**. O critério de idempotência avalia o estado final do recurso no servidor: após o primeiro `DELETE`, o recurso não existe mais; chamá-lo novamente mantém o recurso inexistente. O fato de o status HTTP poder ser `200/204` na primeira chamada e `404` na segunda não afeta a idempotência.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 090
+
 **(FGV – TJ/AP – 2023 – Analista Judiciário - Desenvolvimento de Sistemas)**  
 Observe a seguinte requisição em *Hypertext Transfer Protocol* (HTTP) feita a uma *Application Programming Interface* (API) RESTful:
 
@@ -254,11 +263,11 @@ A respectiva resposta HTTP da API RESTful apresentou o código de status **204**
 
 Os dados apresentados acima indicam que a API RESTful processou a solicitação de:
 
-* **A)** obtenção de um recurso de forma bem-sucedida;
-* **B)** atualização de um recurso de forma malsucedida;
-* **C)** criação de um novo recurso de forma malsucedida;
-* **D)** atualização de um recurso de forma bem-sucedida;
-* **E)** criação de um novo recurso de forma bem-sucedida.
+- **A)** obtenção de um recurso de forma bem-sucedida;
+- **B)** atualização de um recurso de forma malsucedida;
+- **C)** criação de um novo recurso de forma malsucedida;
+- **D)** atualização de um recurso de forma bem-sucedida;
+- **E)** criação de um novo recurso de forma bem-sucedida.
 
 ---
 
@@ -269,6 +278,7 @@ Os dados apresentados acima indicam que a API RESTful processou a solicitação 
 > - Portanto, os dados demonstram a **atualização de um recurso de forma bem-sucedida**.
 >
 > **Gabarito: D**
+
 ---
 
 > **Comentário Detalhado:**
@@ -278,13 +288,13 @@ Os dados apresentados acima indicam que a API RESTful processou a solicitação 
 > - **C)** Incorreta. `400 Bad Request` destina-se a erros de formatação sintática na requisição enviada.
 > - **D)** Incorreta. `404 Not Found` sinaliza a inexistência do recurso na URI apontada.
 > - **E)** Incorreta. `502 Bad Gateway` é um erro de infraestrutura indicando que um servidor proxy intermediário recebeu resposta inválida do servidor backend.
-> 
+>
 > **Gabarito: B**
 
 ---
 
-
 #### Faixa 5xx (Erro do Servidor)
+
 - **`500 Internal Server Error`:** Erro genérico e inesperado de execução no servidor (exceção não tratada no código).
 - **`502 Bad Gateway`:** Um servidor intermediário (proxy reverso, gateway de API) recebeu uma resposta inválida ou falha do servidor *upstream* (backend).
 - **`503 Service Unavailable`:** O servidor está temporariamente incapaz de atender requisições por sobrecarga pontual ou manutenção programada.
@@ -293,15 +303,15 @@ Os dados apresentados acima indicam que a API RESTful processou a solicitação 
 ---
 
 ### Teste 091
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No design de APIs RESTful orientadas a recursos e em consonância com as melhores práticas da indústria, a identificação dos endpoints de comunicação deve seguir diretrizes semânticas consistentes. A esse respeito, assinale o padrão de URI considerado correto para recuperar a lista de processos de um tribunal filtrada por ano:
 
-* **A)** `GET /api/v1/obterTodosProcessosJudiciaisDoAno?ano=2024`
-* **B)** `POST /api/v1/processos/ano/2024/buscar`
-* **C)** `GET /api/v1/processos?ano=2024`
-* **D)** `DELETE /api/v1/processos/buscar/2024`
-* **E)** `GET /api/v1/processos/acao/listar/ano/2024`
-
+- **A)** `GET /api/v1/obterTodosProcessosJudiciaisDoAno?ano=2024`
+- **B)** `POST /api/v1/processos/ano/2024/buscar`
+- **C)** `GET /api/v1/processos?ano=2024`
+- **D)** `DELETE /api/v1/processos/buscar/2024`
+- **E)** `GET /api/v1/processos/acao/listar/ano/2024`
 
 ---
 
@@ -320,6 +330,7 @@ No design de APIs RESTful orientadas a recursos e em consonância com as melhore
 ## 2. GraphQL: Arquitetura e Consultas Declarativas
 
 ### 2.1 Motivação: Resolução de Over-fetching e Under-fetching
+
 Desenvolvido pelo Facebook (Meta) em 2012 e tornado código aberto em 2015, o **GraphQL** é uma linguagem de consulta para APIs e um ambiente de execução para cumprir essas consultas com dados existentes.
 
 ```mermaid
@@ -339,6 +350,7 @@ flowchart LR
 - **Solução do GraphQL:** O cliente envia uma consulta declarativa especificando **exatamente quais campos e relacionamentos deseja**. O backend responde com um JSON espelhado na estrutura exata do pedido, através de um **endpoint único** (geralmente `/graphql`), operando via requisições HTTP `POST`.
 
 ### 2.2 Modelo Operacional e a Schema Definition Language (SDL)
+
 O contrato entre cliente e servidor no GraphQL é expresso na linguagem **SDL** (*Schema Definition Language*):
 
 ```graphql
@@ -393,15 +405,15 @@ mutation CriarProcesso($dados: NovoProcessoInput!) {
 ---
 
 ### Teste 092
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em uma aplicação corporativa de controle de gastos públicos, a equipe de desenvolvimento optou por substituir diversos endpoints de uma API REST tradicional por uma interface em GraphQL. A principal justificativa técnica para essa decisão foi sanar dois problemas típicos do REST conhecidos como:  
 
-* **A)** Deadlock concorrente e estouro de memória física na máquina cliente.
-* **B)** Falha de segmentação no banco de dados e violação de chaves estrangeiras.
-* **C)** *Over-fetching* (recebimento de dados excessivos desnecessários à visualização) e *Under-fetching* (necessidade de emitir múltiplas requisições em cascata para compor uma única tela).
-* **D)** Ausência de criptografia nativa no tráfego HTTPS e quebra de sessões HTTP.
-* **E)** Incompatibilidade com formatos estruturados de serialização como JSON e XML.
-
+- **A)** Deadlock concorrente e estouro de memória física na máquina cliente.
+- **B)** Falha de segmentação no banco de dados e violação de chaves estrangeiras.
+- **C)** *Over-fetching* (recebimento de dados excessivos desnecessários à visualização) e *Under-fetching* (necessidade de emitir múltiplas requisições em cascata para compor uma única tela).
+- **D)** Ausência de criptografia nativa no tráfego HTTPS e quebra de sessões HTTP.
+- **E)** Incompatibilidade com formatos estruturados de serialização como JSON e XML.
 
 ---
 
@@ -415,21 +427,21 @@ Em uma aplicação corporativa de controle de gastos públicos, a equipe de dese
 >
 > - **D)** Incorreta. Tanto REST quanto GraphQL utilizam TLS/HTTPS para garantir integridade e confidencialidade criptográfica.
 > - **E)** Incorreta. O GraphQL trafega nativamente sobre payloads estruturados em formato JSON.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 093
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em uma API implementada com tecnologia GraphQL, as três operações centrais previstas no esquema (*schema*) desempenham papéis estritamente definidos. A operação cujo objetivo primordial é criar, atualizar ou excluir dados no servidor, disparando efeitos colaterais de modificação de estado, é a:
 
-* **A)** *Query*
-* **B)** *Subscription*
-* **C)** *Mutation*
-* **D)** *Fragment*
-* **E)** *Directive*
-
+- **A)** *Query*
+- **B)** *Subscription*
+- **C)** *Mutation*
+- **D)** *Fragment*
+- **E)** *Directive*
 
 ---
 
@@ -448,12 +460,14 @@ Em uma API implementada com tecnologia GraphQL, as três operações centrais pr
 ## 3. Protocolo WebSocket e Comunicação em Tempo Real
 
 ### 3.1 Arquitetura Full-Duplex e a RFC 6455
+
 O protocolo HTTP tradicional baseia-se no modelo *Request-Response* *half-duplex*, no qual toda comunicação precisa ser iniciada pelo cliente. O protocolo **WebSocket** (padronizado pela IETF na **RFC 6455**) viabiliza comunicação **Full-Duplex** (bidirecional simultânea) e persistente sobre uma única conexão TCP de longa duração.
 
 - **Baixa Latência e Mínimo Overhead:** Após a conexão ser aberta, os cabeçalhos HTTP volumosos não são mais transmitidos. As mensagens trafegam divididas em frames levíssimos contendo cabeçalhos de apenas 2 a 10 bytes.
 - **Mensageria Push Nativa:** O servidor pode enviar dados ativamente ao cliente a qualquer momento sem que o cliente precise solicitar (*server push* instantâneo).
 
 ### 3.2 O Handshake HTTP Upgrade e os Esquemas `ws://` e `wss://`
+
 A conexão WebSocket não inicia diretamente no protocolo WebSocket; ela nasce sobre o protocolo HTTP através de um procedimento de negociação denominado **HTTP Upgrade Handshake**:
 
 ```mermaid
@@ -474,16 +488,16 @@ sequenceDiagram
 ```
 
 - **Cabeçalhos do Handshake:**
-    - O cliente envia `Upgrade: websocket` e `Connection: Upgrade`.
-    - O servidor concorda respondendo com o código especial **`101 Switching Protocols`**.
+  - O cliente envia `Upgrade: websocket` e `Connection: Upgrade`.
+  - O servidor concorda respondendo com o código especial **`101 Switching Protocols`**.
 - **Esquemas de Conexão:**
-    - `ws://`: Conexão em texto claro sem criptografia (opera na porta 80 por padrão).
-    - `wss://` (*WebSocket Secure*): Conexão protegida por criptografia TLS/HTTPS (opera na porta 443 por padrão), recomendada em ambientes de produção.
+  - `ws://`: Conexão em texto claro sem criptografia (opera na porta 80 por padrão).
+  - `wss://` (*WebSocket Secure*): Conexão protegida por criptografia TLS/HTTPS (opera na porta 443 por padrão), recomendada em ambientes de produção.
 
 ### 3.3 Comparativo: Polling, Long-Polling, Server-Sent Events (SSE) e WebSocket
 
 | Tecnologia | Direção da Comunicação | Protocolo Subjacente | Overhead por Mensagem | Caso de Uso Ideal |
-|---|:---:|:---:|:---:|---|
+| --- | :---: | :---: | :---: | --- |
 | **Short Polling** | Unidirecional (Cliente $\rightarrow$ Servidor) | HTTP repetitivo em intervalos fixos | **Altíssimo** (novo handshake e cabeçalhos a cada requisição) | Verificações esporádicas e simples. |
 | **Long Polling** | Unidirecional (Servidor segura requisição) | HTTP com conexão mantida aberta até haver dado | Alto (reabre conexão HTTP a cada resposta) | Cenários legados sem suporte a WebSockets. |
 | **Server-Sent Events (SSE)** | **Unidirecional** (Servidor $\rightarrow$ Cliente) | HTTP padrão (`text/event-stream`) | Baixo (conexão persistente HTTP única) | Painéis de monitoramento, cotações, feeds onde o cliente só recebe dados. |
@@ -492,17 +506,17 @@ sequenceDiagram
 ---
 
 ### Teste 094
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No desenvolvimento de aplicações web modernas que requerem comunicação bidirecional em tempo real e de baixa latência, o protocolo WebSocket (RFC 6455) destaca-se frente ao modelo tradicional de requisições HTTP repetitivas (*polling*).
 
 Sobre o protocolo WebSocket e seu procedimento inicial de conexão (*handshake*), assinale a afirmativa correta:  
 
-* **A)** O WebSocket utiliza uma conexão UDP não orientada a fluxo, razão pela qual não requer procedimento prévio de handshake.
-* **B)** A fase de handshake inicia-se por meio de uma requisição HTTP convencional do cliente contendo os cabeçalhos `Upgrade: websocket` e `Connection: Upgrade`, à qual o servidor responde com o código `101 Switching Protocols` caso aceite a transição de protocolo.
-* **C)** O protocolo opera estritamente no modo half-duplex, obrigando o servidor a esperar a finalização de uma transmissão do cliente antes de enviar qualquer mensagem.
-* **D)** O protocolo WebSocket proíbe qualquer tráfego seguro criptografado, funcionando exclusivamente através do identificador de esquema `ws://`.
-* **E)** Cada mensagem trocada entre cliente e servidor em uma conexão WebSocket aberta precisa reenviar todos os cabeçalhos HTTP de autorização e cookies para validação.
-
+- **A)** O WebSocket utiliza uma conexão UDP não orientada a fluxo, razão pela qual não requer procedimento prévio de handshake.
+- **B)** A fase de handshake inicia-se por meio de uma requisição HTTP convencional do cliente contendo os cabeçalhos `Upgrade: websocket` e `Connection: Upgrade`, à qual o servidor responde com o código `101 Switching Protocols` caso aceite a transição de protocolo.
+- **C)** O protocolo opera estritamente no modo half-duplex, obrigando o servidor a esperar a finalização de uma transmissão do cliente antes de enviar qualquer mensagem.
+- **D)** O protocolo WebSocket proíbe qualquer tráfego seguro criptografado, funcionando exclusivamente através do identificador de esquema `ws://`.
+- **E)** Cada mensagem trocada entre cliente e servidor em uma conexão WebSocket aberta precisa reenviar todos os cabeçalhos HTTP de autorização e cookies para validação.
 
 ---
 
@@ -513,21 +527,21 @@ Sobre o protocolo WebSocket e seu procedimento inicial de conexão (*handshake*)
 > - **C)** Incorreta. WebSockets são por excelência **Full-Duplex**, viabilizando transmissões bidirecionais simultâneas sem bloqueios.
 > - **D)** Incorreta. O protocolo provê suporte completo a conexões seguras sob TLS por meio do esquema **`wss://`** (porta 443).
 > - **E)** Incorreta. Uma das maiores vantagens dos WebSockets é justamente a ausência de retransmissão de cabeçalhos HTTP em cada frame, já que a autenticação e validação ocorrem apenas no handshake inicial.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 095
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na escolha de arquiteturas para transmissão de informações entre navegadores e servidores web em tempo real, os Server-Sent Events (SSE) e o protocolo WebSocket apresentam distinções técnicas marcantes. A esse respeito, é correto afirmar:
 
-* **A)** O SSE estabelece comunicação bidirecional de baixa latência em canais binários TCP puros, enquanto o WebSocket só permite envio de mensagens do servidor para o cliente.
-* **B)** O SSE é um protocolo unidirecional (do servidor para o cliente) que opera nativamente sobre conexões HTTP padrão transportando eventos formatados em `text/event-stream`, ao passo que o WebSocket estabelece uma conexão persistente e bidirecional (*full-duplex*) sobre um único socket TCP após o handshake.
-* **C)** O WebSocket exige a reabertura completa de uma nova conexão TCP a cada mensagem transmitida na rede.
-* **D)** O SSE é incompatível com navegadores modernos e requer a instalação de plugins legados no sistema operacional.
-* **E)** O protocolo WebSocket só suporta a transmissão de dados no formato de imagens Bitmap.
-
+- **A)** O SSE estabelece comunicação bidirecional de baixa latência em canais binários TCP puros, enquanto o WebSocket só permite envio de mensagens do servidor para o cliente.
+- **B)** O SSE é um protocolo unidirecional (do servidor para o cliente) que opera nativamente sobre conexões HTTP padrão transportando eventos formatados em `text/event-stream`, ao passo que o WebSocket estabelece uma conexão persistente e bidirecional (*full-duplex*) sobre um único socket TCP após o handshake.
+- **C)** O WebSocket exige a reabertura completa de uma nova conexão TCP a cada mensagem transmitida na rede.
+- **D)** O SSE é incompatível com navegadores modernos e requer a instalação de plugins legados no sistema operacional.
+- **E)** O protocolo WebSocket só suporta a transmissão de dados no formato de imagens Bitmap.
 
 ---
 
@@ -546,32 +560,34 @@ Na escolha de arquiteturas para transmissão de informações entre navegadores 
 ## 4. Formatos de Representação de Dados: JSON vs. XML
 
 ### 4.1 JSON: Tipagem, Sintaxe Estrita e Validação com JSON Schema
+
 O JSON (*JavaScript Object Notation*, padronizado pela RFC 8259) é o formato dominante no intercâmbio de dados em APIs REST modernas.
 
 - **Tipos de Dados Suportados:**
-    - Primitivos: `string` (entre aspas duplas), `number` (inteiro ou flutuante), `boolean` (`true` ou `false`), `null`.
-    - Estruturas de Dados: `object` (pares chave-valor `{}`) e `array` (listas ordenadas `[]`).
+  - Primitivos: `string` (entre aspas duplas), `number` (inteiro ou flutuante), `boolean` (`true` ou `false`), `null`.
+  - Estruturas de Dados: `object` (pares chave-valor `{}`) e `array` (listas ordenadas `[]`).
 - **Regras Estritas de Sintaxe:**
-    - **Chaves obrigatoriamente entre aspas duplas (`"chave": valor`)**. Usar aspas simples gera erro de parsing.
-    - Proibida vírgula residual no último elemento (*trailing comma*): `{"id": 1,}` é inválido.
-    - O padrão JSON puro **não suporta comentários** (`//` ou `/* */`).
+  - **Chaves obrigatoriamente entre aspas duplas (`"chave": valor`)**. Usar aspas simples gera erro de parsing.
+  - Proibida vírgula residual no último elemento (*trailing comma*): `{"id": 1,}` é inválido.
+  - O padrão JSON puro **não suporta comentários** (`//` ou `/* */`).
 - **JSON Schema:** Padrão para validar a estrutura, os tipos e os campos obrigatórios em payloads JSON de forma automatizada.
 
 ### 4.2 XML: Estrutura, Validação (DTD/XSD) e Consultas com XPath
+
 O XML (*Extensible Markup Language*) é uma linguagem de marcação baseada em tags hierárquicas personalizáveis.
 
 - **Estrutura:** Exige prólogo `<?xml version="1.0" encoding="UTF-8"?>`, raiz única (*root element*) e fechamento obrigatório de todas as tags (sensível a maiúsculas/minúsculas).
 - **Validação de Documentos XML:**
-    - **Well-formed (Bem-formado):** Cumpre as regras sintáticas fundamentais da linguagem XML.
-    - **Valid (Válido):** Além de bem-formado, respeita rigorosamente um esquema formal de regras estruturais:
-    - **DTD (*Document Type Definition*):** Mecanismo mais antigo com sintaxe própria.
-    - **XSD (*XML Schema Definition*):** Esquema moderno escrito na própria sintaxe XML, com suporte a tipos de dados ricos e namespaces.
+  - **Well-formed (Bem-formado):** Cumpre as regras sintáticas fundamentais da linguagem XML.
+  - **Valid (Válido):** Além de bem-formado, respeita rigorosamente um esquema formal de regras estruturais:
+  - **DTD (*Document Type Definition*):** Mecanismo mais antigo com sintaxe própria.
+  - **XSD (*XML Schema Definition*):** Esquema moderno escrito na própria sintaxe XML, com suporte a tipos de dados ricos e namespaces.
 - **Consultas com XPath:** Linguagem de expressões de caminhos que permite navegar e selecionar nós específicos dentro da árvore XML (ex.: `/processos/processo[@status='julgado']/valor`).
 
 ### 4.3 Comparativo Prático entre JSON e XML
 
 | Critério | JSON | XML |
-|---|---|---|
+| --- | --- | --- |
 | **Formato de Estrutura** | Pares chave-valor e listas (`{}`, `[]`) | Árvore de elementos com tags e atributos |
 | **Complexidade de Parsing** | Leve e nativo para interpretadores JavaScript | Custoso computacionalmente (requer parsers DOM/SAX) |
 | **Tamanho da Mensagem** | Compacto, sem redundância de tags | Verboso devido à duplicação de tags de fechamento |
@@ -581,15 +597,15 @@ O XML (*Extensible Markup Language*) é uma linguagem de marcação baseada em t
 ---
 
 ### Teste 096
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O formato JSON (*JavaScript Object Notation*, padronizado pela RFC 8259) é amplamente utilizado como formato padrão para troca de mensagens estruturadas na web. Quanto às regras estritas de sintaxe do JSON, é correto afirmar:
 
-* **A)** Os nomes das chaves (propriedades) podem ser declarados sem aspas ou utilizando aspas simples (`'chave'`).
-* **B)** O padrão JSON aceita nativamente a inclusão de comentários de código no formato `//` e `/* */`.
-* **C)** Os nomes das chaves devem ser delimitados obrigatoriamente por aspas duplas (`"chave"`), e o formato suporta os tipos de dados básicos: string, número, booleano, nulo (`null`), objeto e array.
-* **D)** O formato JSON permite serializar funções executáveis e métodos de classes sem conversão adicional.
-* **E)** Vírgulas adicionais após o último elemento de um objeto ou array (*trailing commas*) são obrigatórias na especificação JSON.
-
+- **A)** Os nomes das chaves (propriedades) podem ser declarados sem aspas ou utilizando aspas simples (`'chave'`).
+- **B)** O padrão JSON aceita nativamente a inclusão de comentários de código no formato `//` e `/* */`.
+- **C)** Os nomes das chaves devem ser delimitados obrigatoriamente por aspas duplas (`"chave"`), e o formato suporta os tipos de dados básicos: string, número, booleano, nulo (`null`), objeto e array.
+- **D)** O formato JSON permite serializar funções executáveis e métodos de classes sem conversão adicional.
+- **E)** Vírgulas adicionais após o último elemento de um objeto ou array (*trailing commas*) são obrigatórias na especificação JSON.
 
 ---
 
@@ -608,9 +624,11 @@ O formato JSON (*JavaScript Object Notation*, padronizado pela RFC 8259) é ampl
 ## 5. Documentação de APIs com OpenAPI e o Ecossistema Swagger
 
 ### 5.1 A Especificação OpenAPI (OAS 3.0 / 3.1)
+
 A especificação **OpenAPI** (gerenciada pela *OpenAPI Initiative* sob tutela da Linux Foundation) é uma descrição padronizada, legível por humanos e máquinas, para interfaces de APIs RESTful. Escrita em sintaxe **YAML** ou **JSON**, ela independe da linguagem de programação utilizada no backend.
 
 ### 5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)
+
 Um documento OpenAPI divide-se nas seguintes seções principais:
 
 ```yaml
@@ -665,10 +683,11 @@ components:
 - `servers`: URLs base dos ambientes (produção, homologação).
 - `paths`: Mapeia os endpoints (URIs), métodos HTTP suportados, parâmetros (path, query, header), corpo de requisição (`requestBody`) e respostas (`responses`).
 - `components`: Seção de **reutilização modular**. Evita redundância de código através do mecanismo de referências (`$ref`):
-    - `schemas`: Modelos de entidades de dados.
-    - `securitySchemes`: Definições de autenticação e autorização (Bearer JWT, OAuth2, API Key).
+  - `schemas`: Modelos de entidades de dados.
+  - `securitySchemes`: Definições de autenticação e autorização (Bearer JWT, OAuth2, API Key).
 
 ### 5.3 Ferramental Swagger: Swagger UI, Editor e Codegen
+
 - **Swagger UI:** Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*).
 - **Swagger Editor:** Editor visual com validação sintática em tempo real para projetar contratos OpenAPI em YAML/JSON.
 - **OpenAPI Generator / Swagger Codegen:** Utilitários que leem o arquivo OpenAPI e geram automaticamente o código boilerplate de clientes SDK (em Java, Python, TypeScript) ou esqueletos de servidores backend.
@@ -676,15 +695,15 @@ components:
 ---
 
 ### Teste 097
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A especificação OpenAPI (OpenAPI Specification - OAS, originária do ecossistema Swagger) fornece uma descrição padronizada, agnóstica de linguagem de programação, para APIs RESTful. No documento de especificação OpenAPI formatado em YAML ou JSON, a seção de nível superior responsável por descrever os caminhos dos endpoints disponíveis e suas respectivas operações HTTP suportadas é:
 
-* **A)** `servers`
-* **B)** `info`
-* **C)** `paths`
-* **D)** `components`
-* **E)** `security`
-
+- **A)** `servers`
+- **B)** `info`
+- **C)** `paths`
+- **D)** `components`
+- **E)** `security`
 
 ---
 
@@ -702,11 +721,11 @@ A especificação OpenAPI (OpenAPI Specification - OAS, originária do ecossiste
 
 ## 6. Fontes Recomendadas na Internet
 
-* [IETF - RFC 9110: HTTP Semantics](https://datatracker.ietf.org/doc/html/rfc9110) - Métodos HTTP (GET, POST, PUT, DELETE, PATCH), idempotência, segurança e cabeçalhos.
-* [OpenAPI Specification v3.1.0 (OAS)](https://spec.openapis.org/oas/latest.html) - Estrutura de especificação formal para documentação interoperável de APIs RESTful.
-* [GraphQL Official Documentation - Learn GraphQL](https://graphql.org/learn/) - Schemas, tipos, queries, mutations, resolvers e prevenção de over-fetching e under-fetching.
-* [MDN Web Docs - WebSockets API](https://developer.mozilla.org/pt-BR/docs/Web/API/WebSockets_API) - Comunicação full-duplex bidirecional sobre uma única conexão TCP persistente.
-* [Martin Fowler - Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html) - Os quatro níveis de maturidade de serviços REST (Nível 0 a 3 / HATEOAS).
-* FIELDING, Roy Thomas. **Architectural Styles and the Design of Network-based Software Architectures**. Tese de Doutorado. University of California, Irvine, 2000. (Cap. 5 - Representational State Transfer - REST).
-* ALLAMARAJU, Subbu. **Arquitetura de Web Services RESTful**. Rio de Janeiro: Alta Books, 2011. (Cap. 2 e 3 - O Protocolo HTTP e Recursos REST).
-* PORCELLO, Eve; BANKS, Alex. **Aprendendo GraphQL: Declarativo, Orientado a Dados e Eficiente**. São Paulo: Novatec, 2019. (Cap. 3 e 4 - Esquemas e Resoluções de Consultas).
+- [IETF - RFC 9110: HTTP Semantics](https://datatracker.ietf.org/doc/html/rfc9110) - Métodos HTTP (GET, POST, PUT, DELETE, PATCH), idempotência, segurança e cabeçalhos.
+- [OpenAPI Specification v3.1.0 (OAS)](https://spec.openapis.org/oas/latest.html) - Estrutura de especificação formal para documentação interoperável de APIs RESTful.
+- [GraphQL Official Documentation - Learn GraphQL](https://graphql.org/learn/) - Schemas, tipos, queries, mutations, resolvers e prevenção de over-fetching e under-fetching.
+- [MDN Web Docs - WebSockets API](https://developer.mozilla.org/pt-BR/docs/Web/API/WebSockets_API) - Comunicação full-duplex bidirecional sobre uma única conexão TCP persistente.
+- [Martin Fowler - Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html) - Os quatro níveis de maturidade de serviços REST (Nível 0 a 3 / HATEOAS).
+- FIELDING, Roy Thomas. **Architectural Styles and the Design of Network-based Software Architectures**. Tese de Doutorado. University of California, Irvine, 2000. (Cap. 5 - Representational State Transfer - REST).
+- ALLAMARAJU, Subbu. **Arquitetura de Web Services RESTful**. Rio de Janeiro: Alta Books, 2011. (Cap. 2 e 3 - O Protocolo HTTP e Recursos REST).
+- PORCELLO, Eve; BANKS, Alex. **Aprendendo GraphQL: Declarativo, Orientado a Dados e Eficiente**. São Paulo: Novatec, 2019. (Cap. 3 e 4 - Esquemas e Resoluções de Consultas).

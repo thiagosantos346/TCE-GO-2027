@@ -4,12 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `02_criptografia_icp_brasil_e_assinatura_digital.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Criptografia Simétrica (algoritmos e modos de operação)
 - Criptografia Assimétrica (par de chaves pública e privada)
 - Funções de dispersão criptográfica (Hash)
@@ -21,37 +19,37 @@
 
 ## 🧭 Sumário
 
-1. [Criptografia Simétrica (Chave Secreta Compartilhada)](#1-criptografia-simetrica-chave-secreta-compartilhada)
-    - [1.1 Fundamentos, Vantagens e o Problema da Distribuição de Chaves](#11-fundamentos-vantagens-e-o-problema-da-distribuicao-de-chaves)
-    - [1.2 Cifras de Bloco vs. Cifras de Fluxo (AES, DES, 3DES, ChaCha20)](#12-cifras-de-bloco-vs-cifras-de-fluxo-aes-des-3des-chacha20)
-    - [1.3 Modos de Operação de Bloco (ECB, CBC, CTR, GCM e AEAD)](#13-modos-de-operacao-de-bloco-ecb-cbc-ctr-gcm-e-aead)
-    - [Teste 366](#teste-366)
-    - [Teste 367](#teste-367)
-    - [Teste 368](#teste-368)
-2. [Criptografia Assimétrica (Chaves Públicas)](#2-criptografia-assimetrica-chaves-publicas)
-    - [2.1 Princípios Matemáticos e as Duas Operações Fundamentais](#21-principios-matematicos-e-as-duas-operacoes-fundamentais)
-    - [2.2 Algoritmos Assimétricos Principais (RSA, ECC, Diffie-Hellman)](#22-algoritmos-assimetricos-principais-rsa-ecc-diffie-hellman)
-    - [2.3 Criptografia Híbrida na Prática](#23-criptografia-hibrida-na-pratica)
-    - [Teste 369](#teste-369)
-3. [Funções de Resumo Criptográfico (Hash)](#3-funcoes-de-resumo-criptografico-hash)
-    - [3.1 Propriedades Matemáticas Essenciais e Princípio do Pombal](#31-propriedades-matematicas-essenciais-e-principio-do-pombal)
-    - [3.2 Algoritmos Seguros vs. Vulneráveis (SHA-2, SHA-3, MD5, SHA-1)](#32-algoritmos-seguros-vs-vulneraveis-sha-2-sha-3-md5-sha-1)
-    - [Teste 370](#teste-370)
-    - [Teste 371](#teste-371)
-4. [Infraestrutura de Chaves Públicas e a ICP-Brasil](#4-infraestrutura-de-chaves-publicas-e-a-icp-brasil)
-    - [4.1 Estrutura Organizacional e Hierarquia Legal (MP nº 2.200-2/2001)](#41-estrutura-organizacional-e-hierarquia-legal-mp-no-2200-22001)
-    - [4.2 Certificados Digitais Padrão X.509 v3 e Ciclo de Vida](#42-certificados-digitais-padrao-x509-v3-e-ciclo-de-vida)
-    - [4.3 Mecanismos de Revogação: LCR / CRL vs. OCSP](#43-mecanismos-de-revogacao-lcr-crl-vs-ocsp)
-    - [4.4 Tipos de Certificados na ICP-Brasil (A1 vs. A3, Séries S e T)](#44-tipos-de-certificados-na-icp-brasil-a1-vs-a3-series-s-e-t)
-    - [Teste 372](#teste-372)
-    - [Teste 373](#teste-373)
-    - [Teste 374](#teste-374)
-5. [Assinatura Digital e Validade Jurídica](#5-assinatura-digital-e-validade-juridica)
-    - [5.1 Mecânica Operacional Passo a Passo (Geração e Verificação)](#51-mecanica-operacional-passo-a-passo-geracao-e-verificacao)
-    - [5.2 Propriedades Garantidas vs. Ausência de Confidencialidade](#52-propriedades-garantidas-vs-ausencia-de-confidencialidade)
-    - [5.3 Padrões de Assinatura Avançada (CAdES, XAdES, PAdES) e Carimbo do Tempo](#53-padroes-de-assinatura-avancada-cades-xades-pades-e-carimbo-do-tempo)
-    - [Teste 375](#teste-375)
-    - [Teste 376](#teste-376)
+1. [Criptografia Simétrica (Chave Secreta Compartilhada)](#1-criptografia-simétrica-chave-secreta-compartilhada)
+    1. [Fundamentos, Vantagens e o Problema da Distribuição de Chaves](#11-fundamentos-vantagens-e-o-problema-da-distribuição-de-chaves)
+    1. [Cifras de Bloco vs. Cifras de Fluxo (AES, DES, 3DES, ChaCha20)](#12-cifras-de-bloco-vs-cifras-de-fluxo-aes-des-3des-chacha20)
+    1. [Modos de Operação de Bloco (ECB, CBC, CTR, GCM e AEAD)](#13-modos-de-operação-de-bloco-ecb-cbc-ctr-gcm-e-aead)
+    1. [Teste 366](#teste-366)
+    1. [Teste 367](#teste-367)
+    1. [Teste 368](#teste-368)
+2. [Criptografia Assimétrica (Chaves Públicas)](#2-criptografia-assimétrica-chaves-públicas)
+    1. [Princípios Matemáticos e as Duas Operações Fundamentais](#21-princípios-matemáticos-e-as-duas-operações-fundamentais)
+    1. [Algoritmos Assimétricos Principais (RSA, ECC, Diffie-Hellman)](#22-algoritmos-assimétricos-principais-rsa-ecc-diffie-hellman)
+    1. [Criptografia Híbrida na Prática](#23-criptografia-híbrida-na-prática)
+    1. [Teste 369](#teste-369)
+3. [Funções de Resumo Criptográfico (Hash)](#3-funções-de-resumo-criptográfico-hash)
+    1. [Propriedades Matemáticas Essenciais e Princípio do Pombal](#31-propriedades-matemáticas-essenciais-e-princípio-do-pombal)
+    1. [Algoritmos Seguros vs. Vulneráveis (SHA-2, SHA-3, MD5, SHA-1)](#32-algoritmos-seguros-vs-vulneráveis-sha-2-sha-3-md5-sha-1)
+    1. [Teste 370](#teste-370)
+    1. [Teste 371](#teste-371)
+4. [Infraestrutura de Chaves Públicas e a ICP-Brasil](#4-infraestrutura-de-chaves-públicas-e-a-icp-brasil)
+    1. [Estrutura Organizacional e Hierarquia Legal (MP nº 2.200-2/2001)](#41-estrutura-organizacional-e-hierarquia-legal-mp-nº-2200-22001)
+    1. [Certificados Digitais Padrão X.509 v3 e Ciclo de Vida](#42-certificados-digitais-padrão-x509-v3-e-ciclo-de-vida)
+    1. [Mecanismos de Revogação: LCR / CRL vs. OCSP](#43-mecanismos-de-revogação-lcr--crl-vs-ocsp)
+    1. [Tipos de Certificados na ICP-Brasil (A1 vs. A3, Séries S e T)](#44-tipos-de-certificados-na-icp-brasil-a1-vs-a3-séries-s-e-t)
+    1. [Teste 372](#teste-372)
+    1. [Teste 373](#teste-373)
+    1. [Teste 374](#teste-374)
+5. [Assinatura Digital e Validade Jurídica](#5-assinatura-digital-e-validade-jurídica)
+    1. [Mecânica Operacional Passo a Passo (Geração e Verificação)](#51-mecânica-operacional-passo-a-passo-geração-e-verificação)
+    1. [Propriedades Garantidas vs. Ausência de Confidencialidade](#52-propriedades-garantidas-vs-ausência-de-confidencialidade)
+    1. [Padrões de Assinatura Avançada (CAdES, XAdES, PAdES) e Carimbo do Tempo](#53-padrões-de-assinatura-avançada-cades-xades-pades-e-carimbo-do-tempo)
+    1. [Teste 375](#teste-375)
+    1. [Teste 376](#teste-376)
 6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
@@ -63,6 +61,7 @@
 A criptografia simétrica fundamenta-se no princípio de que uma **única chave secreta** é compartilhada entre as partes, sendo utilizada tanto para a operação de cifragem (encriptação) quanto para a operação de decifragem (decriptação) da mensagem.
 
 #### Vantagens e Limitações
+
 - **Vantagem de Desempenho:** Desempenho computacional extraordinariamente elevado. Consome poucos ciclos de processamento e viabiliza a cifragem de grandes volumes de dados (gigabytes a terabytes) em tempo real. Além disso, conta com suporte nativo a aceleração por hardware nos processadores modernos (como o conjunto de instruções Intel AES-NI).
 - **Limitação (O Problema da Distribuição de Chaves):** Para que um conjunto de $N$ usuários ou entidades se comuniquem aos pares de forma independente, estritamente sigilosa e sem compartilhamento mútuo da mesma chave, o total de chaves secretas necessárias cresce de forma quadrática segundo a combinação simples de $N$ tomados 2 a 2:
   $$K = \frac{N(N - 1)}{2}$$
@@ -77,17 +76,19 @@ A criptografia simétrica fundamenta-se no princípio de que uma **única chave 
 Os algoritmos simétricos dividem-se em duas grandes categorias estruturais segundo a forma como processam a massa de dados:
 
 #### Cifras de Bloco (*Block Ciphers*)
+
 Quebram o texto claro em blocos de tamanho fixo pré-definido e processam cada bloco individualmente aplicando rodadas consecutivas de permutações (*P-boxes*) e substituições (*S-boxes*):
 
 - **AES (Advanced Encryption Standard - Rijndael):** Padrão mundial oficial regulamentado pelo NIST (FIPS 197). Opera com blocos fixos de **128 bits** e suporta três comprimentos de chave:
-    - Chave de 128 bits: processada em 10 rodadas.
-    - Chave de 192 bits: processada em 12 rodadas.
-    - Chave de 256 bits: processada em 14 rodadas.
+  - Chave de 128 bits: processada em 10 rodadas.
+  - Chave de 192 bits: processada em 12 rodadas.
+  - Chave de 256 bits: processada em 14 rodadas.
   Atualmente, o AES é considerado criptograficamente inquebrável contra ataques analíticos práticos, sendo o algoritmo padrão adotado por governos e órgãos de controle.
 - **DES (Data Encryption Standard):** Criado na década de 1970, opera com blocos de **64 bits** e uma chave efetiva de apenas **56 bits** (8 bits eram reservados para paridade). É considerado **obsoleto e inseguro**, suscetível a ataques de força bruta concluídos em poucas horas ou minutos por equipamentos comuns.
 - **3DES (Triple DES):** Aplica o algoritmo DES três vezes consecutivas na sequência Cifrar-Decifrar-Cifrar (EDE - *Encrypt-Decrypt-Encrypt*) utilizando duas ou três chaves independentes (112 ou 168 bits de força de chave). Embora resista à força bruta simples, é excessivamente lento em software e vulnerável a colisões de blocos de 64 bits em grandes transferências (ataque *Sweet32*).
 
 #### Cifras de Fluxo (*Stream Ciphers*)
+
 Processam o texto claro de maneira contínua, **bit a bit** ou **byte a byte**. Uma função geradora produz uma sequência de bits pseudoaleatórios chamada fluxo de chave (*keystream*), que é combinada com o texto claro por meio da operação lógica OU Exclusivo (**XOR** - $\oplus$):
 
 - **ChaCha20:** Cifra de fluxo moderna de alta performance, padrão da IETF (RFC 8439), extremamente rápida em processadores sem aceleração criptográfica dedicada (como smartphones e dispositivos embarcados).
@@ -118,7 +119,7 @@ flowchart TD
 ```
 
 | Modo de Operação | Mecânica de Funcionamento | Vantagens | Desvantagens / Pegadinhas FCC |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **ECB** (*Electronic Codebook*) | Cada bloco de 128 bits do texto claro é cifrado de maneira totalmente isolada com a mesma chave. | Simples e permite paralelismo pleno em leitura e escrita. | **EXTREMAMENTE INSEGURO.** Blocos de entrada idênticos geram blocos de saída rigorosamente idênticos. Revela a estrutura estatística e o contorno de imagens e documentos. |
 | **CBC** (*Cipher Block Chaining*) | Cada bloco de texto claro passa por XOR com o bloco cifrado imediatamente anterior antes da encriptação. O primeiro bloco usa um Vetor de Inicialização (**IV**) aleatório. | Elimina a repetição de padrões visuais; blocos de texto idênticos produzem saídas cifradas completamente distintas. | A cifragem é sequencial e não pode ser paralelizada. Exige preenchimento (*padding*, ex.: PKCS#7) e é vulnerável a ataques de oráculo de preenchimento (*Padding Oracle*) se não houver verificação de integridade. |
 | **CTR** (*Counter Mode*) | Cifra um valor incremental composto por um *nonce* e um contador, fazendo XOR do resultado com o bloco de texto claro. | Transforma a cifra de bloco em uma cifra de fluxo. Permite processamento 100% paralelo na cifragem e na decifragem e acesso aleatório a qualquer bloco. | A reutilização do par chave/nonce quebra irremediavelmente a segurança. Por si só, não provê verificação de integridade. |
@@ -130,18 +131,18 @@ flowchart TD
 ---
 
 ### Teste 366
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A criptografia simétrica (ou de chave secreta) fundamenta-se no emprego de uma mesma chave compartilhada para as operações de cifragem e decifragem de mensagens.
 
 A respeito das características operacionais e dos desafios arquiteturais da criptografia simétrica, assinale a afirmativa correta:
 
-* **A)** A criptografia simétrica possui velocidade de processamento computacional extremamente lenta em comparação aos algoritmos assimétricos, sendo inviável para cifrar volumes massivos de dados em trânsito garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
-* **B)** Em uma rede corporativa composta por $N$ usuários que necessitam comunicar-se de modo estritamente privado em pares bidirecionais utilizando criptografia puramente simétrica, o número total de chaves secretas distintas que precisam ser geradas e gerenciadas com segurança é dado por:
+- **A)** A criptografia simétrica possui velocidade de processamento computacional extremamente lenta em comparação aos algoritmos assimétricos, sendo inviável para cifrar volumes massivos de dados em trânsito garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
+- **B)** Em uma rede corporativa composta por $N$ usuários que necessitam comunicar-se de modo estritamente privado em pares bidirecionais utilizando criptografia puramente simétrica, o número total de chaves secretas distintas que precisam ser geradas e gerenciadas com segurança é dado por:
 $$\frac{N(N - 1)}{2}$$
-* **C)** A criptografia simétrica garante nativamente o princípio do Não Repúdio (irretratabilidade), visto que apenas o emissor detém a chave secreta.
-* **D)** O algoritmo RSA é o padrão simétrico mais adotado pelo governo federal para proteção de discos rígidos em repouso.
-* **E)** Chaves simétricas dispensam qualquer canal seguro prévio de compartilhamento, podendo ser transmitidas em texto claro e aberto pela internet sem riscos.
-
+- **C)** A criptografia simétrica garante nativamente o princípio do Não Repúdio (irretratabilidade), visto que apenas o emissor detém a chave secreta.
+- **D)** O algoritmo RSA é o padrão simétrico mais adotado pelo governo federal para proteção de discos rígidos em repouso.
+- **E)** Chaves simétricas dispensam qualquer canal seguro prévio de compartilhamento, podendo ser transmitidas em texto claro e aberto pela internet sem riscos.
 
 ---
 
@@ -155,23 +156,23 @@ $$\frac{N(N - 1)}{2}$$
 > - **C)** Incorreta. Como a chave simétrica é **compartilhada** entre emissor e receptor, nenhum dos dois pode provar a um terceiro quem efetivamente cifrou o pacote (ausência de não repúdio).
 > - **D)** Incorreta. O RSA é um algoritmo **assimétrico** (chaves pública e privada).
 > - **E)** Incorreta. Se a chave simétrica for interceptada em trânsito, a confidencialidade de toda a comunicação é instantaneamente destruída.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 367
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O *Advanced Encryption Standard* (AES) é o padrão criptográfico simétrico mais adotado globalmente por governos e instituições financeiras para proteção de dados confidenciais.
 
 A respeito da arquitetura interna do AES e da distinção entre cifras de bloco e cifras de fluxo, assinale a afirmativa correta:
 
-* **A)** O AES é uma cifra de fluxo que processa dados bit a bit em tempo real sem qualquer buffer de entrada.
-* **B)** O AES é uma cifra de bloco iterativa baseada em uma Rede de Substituição-Permutação (SPN), que opera sobre blocos de tamanho fixo de **128 bits**, suportando chaves criptográficas com três comprimentos normalizados: **128, 192 e 256 bits**, executando respectivamente 10, 12 e 14 rodadas (*rounds*) de transformação matemática.
-* **C)** O AES opera exclusivamente com blocos de dados de 512 bits e foi decifrado por força bruta em 2010.
-* **D)** Cifras de fluxo (como ChaCha20 e RC4) exigem compulsoriamente o preenchimento (*padding*) PKCS#7 para completar blocos múltiplos de 64 bits. garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
-* **E)** O DES (Data Encryption Standard) possui chave efetiva de 256 bits e oferece maior segurança do que o AES-256.
-
+- **A)** O AES é uma cifra de fluxo que processa dados bit a bit em tempo real sem qualquer buffer de entrada.
+- **B)** O AES é uma cifra de bloco iterativa baseada em uma Rede de Substituição-Permutação (SPN), que opera sobre blocos de tamanho fixo de **128 bits**, suportando chaves criptográficas com três comprimentos normalizados: **128, 192 e 256 bits**, executando respectivamente 10, 12 e 14 rodadas (*rounds*) de transformação matemática.
+- **C)** O AES opera exclusivamente com blocos de dados de 512 bits e foi decifrado por força bruta em 2010.
+- **D)** Cifras de fluxo (como ChaCha20 e RC4) exigem compulsoriamente o preenchimento (*padding*) PKCS#7 para completar blocos múltiplos de 64 bits. garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
+- **E)** O DES (Data Encryption Standard) possui chave efetiva de 256 bits e oferece maior segurança do que o AES-256.
 
 ---
 
@@ -188,23 +189,23 @@ A respeito da arquitetura interna do AES e da distinção entre cifras de bloco 
 > - **C)** Incorreta. O bloco do AES é invariavelmente de 128 bits; o AES permanece criptograficamente inquebrável contra ataques práticos.
 > - **D)** Incorreta. Cifras de fluxo geram uma sequência pseudoaleatória contínua de bits (*keystream*) combinada via XOR com a mensagem, **dispensando qualquer padding**.
 > - **E)** Incorreta. O DES clássico possui chave minúscula e insegura de apenas 56 bits efetivos, quebrado em minutos por ataques de força bruta.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 368
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em relação aos algoritmos e modos de operação da criptografia simétrica, considere o cenário em que uma organização pública necessita proteger o armazenamento e a transmissão de grandes volumes de informações sigilosas.
 
 Assinale a afirmativa correta sobre o tema:
 
-* **A)** O modo de operação ECB (*Electronic Codebook*) é o mais seguro e recomendado para cifragem de bancos de dados massivos, pois realiza o encadeamento de blocos via XOR com um vetor de inicialização.
-* **B)** O algoritmo AES (*Advanced Encryption Standard*) é uma cifra de bloco que opera exclusivamente com chaves de 64 bits e blocos de 56 bits, tendo sido considerado obsoleto devido a ataques de força bruta.
-* **C)** Para que um grupo de 20 analistas se comunique de forma sigilosa utilizando criptografia puramente simétrica, de modo que cada par de analistas possua uma chave exclusiva e compartilhada apenas entre si, são necessárias 190 chaves secretas distintas.
-* **D)** As cifras de fluxo (*stream ciphers*) dividem a mensagem em blocos de 256 bits e processam cada bloco individualmente através de 14 rodadas de substituição.
-* **E)** O modo de operação GCM (*Galois/Counter Mode*) foi descontinuado pelos padrões modernos da IETF por não suportar criptografia autenticada com dados associados (AEAD).
-
+- **A)** O modo de operação ECB (*Electronic Codebook*) é o mais seguro e recomendado para cifragem de bancos de dados massivos, pois realiza o encadeamento de blocos via XOR com um vetor de inicialização.
+- **B)** O algoritmo AES (*Advanced Encryption Standard*) é uma cifra de bloco que opera exclusivamente com chaves de 64 bits e blocos de 56 bits, tendo sido considerado obsoleto devido a ataques de força bruta.
+- **C)** Para que um grupo de 20 analistas se comunique de forma sigilosa utilizando criptografia puramente simétrica, de modo que cada par de analistas possua uma chave exclusiva e compartilhada apenas entre si, são necessárias 190 chaves secretas distintas.
+- **D)** As cifras de fluxo (*stream ciphers*) dividem a mensagem em blocos de 256 bits e processam cada bloco individualmente através de 14 rodadas de substituição.
+- **E)** O modo de operação GCM (*Galois/Counter Mode*) foi descontinuado pelos padrões modernos da IETF por não suportar criptografia autenticada com dados associados (AEAD).
 
 ---
 
@@ -215,7 +216,7 @@ Assinale a afirmativa correta sobre o tema:
 > - **C)** Correta. O cálculo de chaves simétricas independentes para $N$ usuários é dado por $K = \frac{N(N-1)}{2}$. Para $N = 20$: $K = \frac{20 \times 19}{2} = \frac{380}{2} = 190$ chaves secretas distintas.
 > - **D)** Incorreta. Algoritmos que dividem os dados em blocos de tamanho fixo são denominados cifras de bloco (*block ciphers*). Cifras de fluxo operam continuamente bit a bit ou byte a byte.
 > - **E)** Incorreta. O modo GCM é o algoritmo de ouro recomendado em protocolos modernos como TLS 1.3 justamente por prover AEAD (*Authenticated Encryption with Associated Data*).
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -249,7 +250,8 @@ flowchart LR
     end
 ```
 
-#### Regra Prática de Uso das Chaves:
+#### Regra Prática de Uso das Chaves
+
 1. **Para garantir Sigilo / Confidencialidade:** O remetente utiliza a **Chave PÚBLICA do Destinatário**. Apenas a **Chave PRIVADA do Destinatário** poderá abrir a mensagem.
 2. **Para garantir Autenticidade / Integridade / Não Repúdio (Assinatura Digital):** O remetente utiliza a sua **própria Chave PRIVADA**. Qualquer terceiro com acesso à **Chave PÚBLICA do Remetente** pode conferir a assinatura e comprovar a autoria.
 
@@ -257,8 +259,8 @@ flowchart LR
 
 - **RSA (Rivest, Shamir e Adleman):** Fundamenta-se na complexidade computacional da **fatoração de números inteiros compostos gigantescos** formados pelo produto de dois números primos $p$ e $q$. Tamanhos recomendados atualmente: no mínimo 2048 bits, preferencialmente 4096 bits.
 - **ECC (*Elliptic Curve Cryptography* - Criptografia de Curvas Elípticas):** Baseia-se no problema do **logaritmo discreto sobre curvas elípticas**. Proporciona a mesma segurança matemática do RSA com chaves drasticamente menores:
-    - Uma chave de **ECC de 256 bits** oferece segurança computacional equivalente a uma chave de **RSA de 3072 bits**.
-    - O menor tamanho de chave resulta em menor consumo de largura de banda, menor latência de rede e baixíssimo consumo energético em chips, sendo o padrão preferencial de TLS moderno, cartões inteligentes e dispositivos móveis (ex.: curvas Ed25519, NIST P-256).
+  - Uma chave de **ECC de 256 bits** oferece segurança computacional equivalente a uma chave de **RSA de 3072 bits**.
+  - O menor tamanho de chave resulta em menor consumo de largura de banda, menor latência de rede e baixíssimo consumo energético em chips, sendo o padrão preferencial de TLS moderno, cartões inteligentes e dispositivos móveis (ex.: curvas Ed25519, NIST P-256).
 - **Diffie-Hellman (DH / ECDH):** Protocolo criptográfico criado especificamente para a **troca e acordo seguro de chaves secretas** através de um canal desprotegido. Não é concebido originariamente para cifragem geral de arquivos nem para assinatura direta de documentos, mas sim para que duas entidades conversem em canal aberto e cheguem a uma chave simétrica comum secreta sem que terceiros consigam calculá-la.
 
 ### 2.3 Criptografia Híbrida na Prática
@@ -273,17 +275,17 @@ Para contornar esse gargalo, protocolos de segurança como HTTPS (TLS), SSH, PGP
 ---
 
 ### Teste 369
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Os sistemas de chave pública fundamentam-se em problemas matemáticos complexos de "funções alçapão de sentido único" (*one-way trapdoor functions*), viabilizando a comunicação sigilosa entre partes que nunca trocaram informações previamente.
 
 A respeito dos algoritmos assimétricos e da mecânica dos sistemas de **Criptografia Híbrida** adotados na internet (como o protocolo TLS/HTTPS), assinale a afirmativa correta:
 
-* **A)** Na criptografia híbrida, a mensagem integral (ex.: um arquivo de 10 Gigabytes) é inteiramente cifrada com a chave pública RSA do destinatário para garantir maior velocidade de transmissão. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** A Criptografia de Curva Elíptica (ECC) exige chaves muito maiores do que o RSA (ex.: chaves ECC de 4096 bits equivalem a chaves RSA de apenas 512 bits).
-* **C)** Na criptografia híbrida, o remetente gera uma chave simétrica temporária e aleatória (chave de sessão, ex.: AES-256) para cifrar a mensagem com altíssima performance, e, em seguida, cifra apenas essa chave de sessão utilizando a chave pública assimétrica do destinatário, transmitindo ambos os elementos em conjunto.
-* **D)** O algoritmo de troca de chaves Diffie-Hellman foi projetado exclusivamente para assinar e cifrar e-mails em formato PDF.
-* **E)** Para que Bob decifre uma mensagem cifrada assimetricamente por Alice, ele deve obrigatoriamente utilizar a chave pública de Alice.
-
+- **A)** Na criptografia híbrida, a mensagem integral (ex.: um arquivo de 10 Gigabytes) é inteiramente cifrada com a chave pública RSA do destinatário para garantir maior velocidade de transmissão. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **B)** A Criptografia de Curva Elíptica (ECC) exige chaves muito maiores do que o RSA (ex.: chaves ECC de 4096 bits equivalem a chaves RSA de apenas 512 bits).
+- **C)** Na criptografia híbrida, o remetente gera uma chave simétrica temporária e aleatória (chave de sessão, ex.: AES-256) para cifrar a mensagem com altíssima performance, e, em seguida, cifra apenas essa chave de sessão utilizando a chave pública assimétrica do destinatário, transmitindo ambos os elementos em conjunto.
+- **D)** O algoritmo de troca de chaves Diffie-Hellman foi projetado exclusivamente para assinar e cifrar e-mails em formato PDF.
+- **E)** Para que Bob decifre uma mensagem cifrada assimetricamente por Alice, ele deve obrigatoriamente utilizar a chave pública de Alice.
 
 ---
 
@@ -298,7 +300,7 @@ A respeito dos algoritmos assimétricos e da mecânica dos sistemas de **Criptog
 >   4. O destinatário recebe o pacote, decifra a chave de sessão utilizando sua própria chave privada assimétrica e, com ela, decifra a mensagem volumosa rapidamente. É a base do TLS/HTTPS, PGP/GPG e SSH.
 > - **D)** Incorreta. O Diffie-Hellman é um protocolo matemático de **acordo/troca segura de chaves** sobre um canal inseguro, não servindo para cifragem direta de arquivos ou assinatura digital em sua forma pura.
 > - **E)** Incorreta. Mensagens endereçadas a Bob são cifradas com a **chave pública de Bob** e só podem ser decifradas com a **chave privada de Bob**.
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -309,7 +311,8 @@ A respeito dos algoritmos assimétricos e da mecânica dos sistemas de **Criptog
 
 Uma função de dispersão criptográfica (função hash) $h = H(M)$ é um algoritmo determinístico que aceita como entrada uma mensagem $M$ de comprimento arbitrário e produz uma sequência de bits de **comprimento rigorosamente fixo**, chamada de resumo criptográfico (*message digest* ou *hash*).
 
-#### Propriedades Obrigatórias:
+#### Propriedades Obrigatórias
+
 1. **Comprimento Fixo:** A saída sempre possui exatamente o mesmo número de bits, independentemente do volume do dado de entrada (seja um texto de 3 caracteres ou um banco de dados de 500 terabytes).
 2. **Determinismo Pleno:** A mesma entrada $M$ submetida à mesma função resultará sempre, invariavelmente, no mesmo hash $h$.
 3. **Unidirecionalidade (*Pre-image Resistance* / Resistência à Primeira Pré-Imagem):** Dado um resumo $h$, é computacionalmente inviável calcular ou descobrir a mensagem de entrada $M$ tal que $H(M) = h$. Trata-se de uma função estritamente de "mão única".
@@ -323,7 +326,7 @@ Uma função de dispersão criptográfica (função hash) $h = H(M)$ é um algor
 ### 3.2 Algoritmos Seguros vs. Vulneráveis (SHA-2, SHA-3, MD5, SHA-1)
 
 | Algoritmo | Tamanho do Resumo | Situação de Segurança | Relevância para Concursos (FCC) |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **MD5** | 128 bits | **Vulnerável / Quebrado** | Colisões práticas podem ser forjadas em milissegundos por computadores comuns. Banido expressamente da ICP-Brasil e de padrões seguros. |
 | **SHA-1** | 160 bits | **Vulnerável / Descontinuado** | Colisão prática demonstrada publicamente em 2017 (ataque *SHAttered*). Descontinuado em assinaturas e certificados digitais. |
 | **SHA-2** | 224, 256, 384 e 512 bits | **Seguro / Padrão Vigente** | Família predominante na arquitetura mundial de TI. O **SHA-256** é o algoritmo de hash obrigatório e padrão adotado pela ICP-Brasil. |
@@ -332,14 +335,15 @@ Uma função de dispersão criptográfica (função hash) $h = H(M)$ é um algor
 ---
 
 ### Teste 370
+
 **(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo – TI – Questão Real RAG ID: `V3_FGV_TCE_SC_2026_Q3140`)**  
 Um Auditor do TCE-SC utiliza um token criptográfico com certificado digital emitido sob os padrões da ICP-Brasil para assinar eletronicamente um despacho em processo de fiscalização. No processo de geração da assinatura digital avançada/qualificada:
 
-* **A)** o documento original é cifrado integralmente com a chave pública do auditor.
-* **B)** gera-se um resumo criptográfico (hash) do documento, o qual é cifrado com a chave privada do auditor.
-* **C)** a chave privada do auditor é transmitida ao servidor do Tribunal para validação da autenticidade.
-* **D)** a assinatura digital garante a confidencialidade do conteúdo, impedindo a visualização por terceiros.
-* **E)** utiliza-se exclusivamente algoritmo de criptografia simétrica com chave secreta compartilhada.
+- **A)** o documento original é cifrado integralmente com a chave pública do auditor.
+- **B)** gera-se um resumo criptográfico (hash) do documento, o qual é cifrado com a chave privada do auditor.
+- **C)** a chave privada do auditor é transmitida ao servidor do Tribunal para validação da autenticidade.
+- **D)** a assinatura digital garante a confidencialidade do conteúdo, impedindo a visualização por terceiros.
+- **E)** utiliza-se exclusivamente algoritmo de criptografia simétrica com chave secreta compartilhada.
 
 ---
 
@@ -356,17 +360,17 @@ Um Auditor do TCE-SC utiliza um token criptográfico com certificado digital emi
 ---
 
 ### Teste 371
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 As funções de resumo criptográfico (*Cryptographic Hash Functions*) são primitivas matemáticas essenciais para verificação de integridade de dados e construção de assinaturas digitais.
 
 A respeito das propriedades de segurança exigidas de uma função hash criptográfica moderna (como as famílias SHA-2 e SHA-3) e da obsolescência dos algoritmos MD5 e SHA-1, assinale a afirmativa correta:
 
-* **A)** Uma função hash criptográfica segura deve ser facilmente reversível, permitindo reconstituir o texto original a partir do resumo hexadecimal gerado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** A **Resistência à Colisão Forte** (*Collision Resistance*) é a propriedade que torna computacionalmente inviável encontrar quaisquer duas mensagens distintas $M_1$ e $M_2$ ($M_1 \neq M_2$) tais que $Hash(M_1) = Hash(M_2)$; os algoritmos MD5 e SHA-1 são considerados criptograficamente vulneráveis e reprovados para novas aplicações governamentais justamente por terem sofrido ataques práticos comprovados de colisão.
-* **C)** O algoritmo SHA-256 produz resumos de tamanho variável dependendo do número de linhas do texto de entrada.
-* **D)** O Princípio da Casa dos Pombos garante matematicamente que é impossível haver colisões em funções hash de 128 bits.
-* **E)** O MD5 permanece como o padrão oficial e exclusivo recomendado pelo ITI para certificação de documentos na ICP-Brasil.
-
+- **A)** Uma função hash criptográfica segura deve ser facilmente reversível, permitindo reconstituir o texto original a partir do resumo hexadecimal gerado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **B)** A **Resistência à Colisão Forte** (*Collision Resistance*) é a propriedade que torna computacionalmente inviável encontrar quaisquer duas mensagens distintas $M_1$ e $M_2$ ($M_1 \neq M_2$) tais que $Hash(M_1) = Hash(M_2)$; os algoritmos MD5 e SHA-1 são considerados criptograficamente vulneráveis e reprovados para novas aplicações governamentais justamente por terem sofrido ataques práticos comprovados de colisão.
+- **C)** O algoritmo SHA-256 produz resumos de tamanho variável dependendo do número de linhas do texto de entrada.
+- **D)** O Princípio da Casa dos Pombos garante matematicamente que é impossível haver colisões em funções hash de 128 bits.
+- **E)** O MD5 permanece como o padrão oficial e exclusivo recomendado pelo ITI para certificação de documentos na ICP-Brasil.
 
 ---
 
@@ -381,7 +385,7 @@ A respeito das propriedades de segurança exigidas de uma função hash criptogr
 > - **C)** Incorreta. O SHA-256 produz **sempre um resumo de comprimento fixo de 256 bits** (32 bytes / 64 caracteres hexadecimais), independentemente de a entrada ter 1 byte ou 10 Terabytes.
 > - **D)** Incorreta. Pelo Princípio da Casa dos Pombos (*Pigeonhole Principle*), como o domínio de mensagens de entrada é infinito e a imagem do hash é finita ($2^{128}$), colisões existem compulsoriamente; o objetivo do algoritmo seguro é torná-las impossíveis de serem encontradas em tempo computável.
 > - **E)** Incorreta. O MD5 é categoricamente proibido nas políticas de certificado da ICP-Brasil.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -402,7 +406,7 @@ flowchart TD
     AC2["Autoridades Certificadoras de 2º Nível<br>(Subordinadas às ACs de 1º nível)"]
     AR["Autoridades de Registro (ARs)<br>Interface presencial/biométrica com o solicitante<br>NÃO emitem certificados, apenas validam identidade"]
     ACT["Autoridade de Carimbo do Tempo (ACT)<br>Sincronizada ao Observatório Nacional (HLB)"]
-    
+  
     CG -.->|"Diretrizes"| ACR
     ACR -->|"Emite certificado e audita"| AC1
     AC1 -->|"Emite certificado e audita"| AC2
@@ -410,7 +414,8 @@ flowchart TD
     ACR -.->|"Credencia e fiscaliza"| ACT
 ```
 
-#### Papéis dos Entes da Estrutura:
+#### Papéis dos Entes da Estrutura
+
 1. **Comitê Gestor da ICP-Brasil:** Colegiado vinculado à Casa Civil da Presidência da República, composto por membros do governo e da sociedade civil, com a atribuição de deliberar normas, políticas públicas e padrões técnicos da certificação digital no Brasil.
 2. **Autoridade Certificadora Raiz (AC-Raiz):** Operada exclusivamente pelo **Instituto Nacional de Tecnologia da Informação (ITI)**, uma autarquia federal. É a primeira autoridade da cadeia. Possui o único certificado autoassinado (*self-signed*) da infraestrutura. A AC-Raiz **não emite certificados para usuários finais** (cidadãos ou empresas); sua função restringe-se a emitir certificados para as Autoridades Certificadoras de primeiro nível credenciadas, auditá-las e fiscalizá-las.
 3. **Autoridades Certificadoras (ACs de 1º e 2º nível):** Entidades públicas (ex.: SERPRO, Receita Federal, Caixa Econômica) ou privadas credenciadas que emitem, renovam, suspendem e revogam certificados digitais para pessoas físicas e jurídicas, além de manterem e assinarem as Listas de Certificados Revogados (LCR).
@@ -425,7 +430,8 @@ O certificado digital é um documento eletrônico assinado digitalmente por uma 
 
 O padrão internacional adotado é a norma **ITU-T X.509 versão 3** (normatizada na IETF pela RFC 5280).
 
-#### Campos Obrigatórios do Certificado X.509 v3:
+#### Campos Obrigatórios do Certificado X.509 v3
+
 1. **Versão (*Version*):** Versão do padrão (geralmente `v3`).
 2. **Número de Série (*Serial Number*):** Identificador numérico inteiro e positivo, exclusivo atribuído pela AC para aquele certificado.
 3. **Identificador do Algoritmo de Assinatura (*Signature Algorithm ID*):** Identificador do algoritmo de hash e cifra utilizado pela AC para assinar o certificado (ex.: `sha256WithRSAEncryption`).
@@ -454,14 +460,15 @@ flowchart LR
 ```
 
 - **LCR (*Lista de Certificados Revogados*) ou CRL (*Certificate Revocation List*):** Arquivo digital assinado e publicado periodicamente pela AC contendo a lista dos números de série de todos os certificados que foram revogados antes do prazo de validade.  
-    - *Desvantagens:* Pode demorar horas ou dias para ser republicada (janela de vulnerabilidade) e gera tráfego excessivo de rede, pois o cliente precisa baixar a lista inteira mesmo para consultar apenas um certificado.
+  - *Desvantagens:* Pode demorar horas ou dias para ser republicada (janela de vulnerabilidade) e gera tráfego excessivo de rede, pois o cliente precisa baixar a lista inteira mesmo para consultar apenas um certificado.
 - **OCSP (*Online Certificate Status Protocol* - RFC 6960):** Protocolo leve no modelo cliente-servidor em que a aplicação consulta pontualmente um servidor denominado *OCSP Responder*. O cliente envia unicamente o número de série do certificado sob suspeita e recebe em milissegundos uma resposta assinada com o status atual: `Good` (ativo/válido), `Revoked` (revogado) ou `Unknown` (desconhecido).
 
 ### 4.4 Tipos de Certificados na ICP-Brasil (A1 vs. A3, Séries S e T)
 
 A ICP-Brasil organiza os certificados em diferentes categorias segundo o uso e o grau de segurança física do armazenamento da chave privada:
 
-#### Classificação por Aplicação:
+#### Classificação por Aplicação
+
 - **Série A (Assinatura Digital):** Destinados à autenticação de usuários e assinatura digital de documentos com presunção de autoria e integridade.
 - **Série S (Sigilo / Confidencialidade):** Destinados à cifragem de documentos sensíveis, e-mails e bases de dados.
 - **Série T (Tempo / Carimbo do Tempo):** Destinados à aposição de marcas temporais oficiais por Autoridades de Carimbo do Tempo.
@@ -469,7 +476,7 @@ A ICP-Brasil organiza os certificados em diferentes categorias segundo o uso e o
 #### Comparativo Detalhado: Certificados A1 vs. A3 (O Mais Cobrado pela FCC)
 
 | Critério | Certificado Tipo A1 | Certificado Tipo A3 |
-|---|---|---|
+| --- | --- | --- |
 | **Mídia de Armazenamento** | **Software:** Arquivo digital gravado no computador ou servidor (extensões `.pfx` ou `.p12`). | **Hardware Criptográfico Seguro:** Cartão inteligente (*smart card*), *Token* USB criptográfico ou módulo HSM (*Hardware Security Module*). |
 | **Geração das Chaves** | Gerado por aplicativo em software no próprio computador do usuário. | Gerado **internamente** dentro do chip criptográfico do hardware (inviolável). |
 | **Exportação da Chave Privada** | **Permite exportação** e cópia do arquivo para outros computadores mediante senha. | **Não permite exportação.** A chave privada é fisicamente impossibilitada de sair do chip. |
@@ -480,6 +487,7 @@ A ICP-Brasil organiza os certificados em diferentes categorias segundo o uso e o
 ---
 
 ### Teste 372
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No que tange à arquitetura hierárquica da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), instituída pela MP nº 2.200-2/2001, e aos tipos de certificados digitais X.509, analise as seguintes afirmativas:
 
@@ -491,12 +499,11 @@ III. O certificado digital ICP-Brasil do tipo A1 possui seu par de chaves cripto
 
 Está correto o que se afirma em:
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** II e III, apenas.
-* **D)** I e III, apenas.
-* **E)** I, II e III.
-
+- **A)** I, apenas.
+- **B)** I e II, apenas.
+- **C)** II e III, apenas.
+- **D)** I e III, apenas.
+- **E)** I, II e III.
 
 ---
 
@@ -507,23 +514,23 @@ Está correto o que se afirma em:
 > - **C)** Incorreta. Julga verdadeiro o Item III, que contém grave erro de inversão de conceitos.
 > - **D)** Incorreta. Omite a veracidade do Item II e inclui o Item III que é incorreto.
 > - **E)** Incorreta. Desconsidera a incorreção patente do Item III.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 373
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na gestão de uma infraestrutura PKI corporativa baseada no padrão X.509 v3, a verificação do ciclo de vida e validade dos certificados digitais apresentados por clientes e servidores é indispensável para impedir acessos não autorizados.
 
 Sobre os campos do certificado X.509 v3 e os mecanismos de revogação de certificados, assinale a afirmativa correta:
 
-* **A)** O protocolo OCSP (*Online Certificate Status Protocol*) exige que o cliente faça o download de um arquivo monolítico contendo a totalidade de todos os certificados já revogados pela AC desde sua fundação histórica.
-* **B)** A Lista de Certificados Revogados (LCR / CRL) é uma estrutura assinada periodicamente pela Autoridade Certificadora que relaciona os números de série dos certificados que foram cancelados ou revogados antes da data original de expiração.
-* **C)** O certificado X.509 v3 armazena a chave privada do titular no campo *Subject Public Key Info* para permitir a conferência pública de assinaturas por terceiros.
-* **D)** A data de expiração de um certificado digital é perpétua no padrão X.509, dependendo exclusivamente da solicitação manual de revogação pelo titular para deixar de operar.
-* **E)** Caso um certificado digital esteja presente na LCR da autoridade emissora, o sistema de controle de acesso deve considerá-lo plenamente confiável e válido até o término do ano corrente.
-
+- **A)** O protocolo OCSP (*Online Certificate Status Protocol*) exige que o cliente faça o download de um arquivo monolítico contendo a totalidade de todos os certificados já revogados pela AC desde sua fundação histórica.
+- **B)** A Lista de Certificados Revogados (LCR / CRL) é uma estrutura assinada periodicamente pela Autoridade Certificadora que relaciona os números de série dos certificados que foram cancelados ou revogados antes da data original de expiração.
+- **C)** O certificado X.509 v3 armazena a chave privada do titular no campo *Subject Public Key Info* para permitir a conferência pública de assinaturas por terceiros.
+- **D)** A data de expiração de um certificado digital é perpétua no padrão X.509, dependendo exclusivamente da solicitação manual de revogação pelo titular para deixar de operar.
+- **E)** Caso um certificado digital esteja presente na LCR da autoridade emissora, o sistema de controle de acesso deve considerá-lo plenamente confiável e válido até o término do ano corrente.
 
 ---
 
@@ -534,23 +541,23 @@ Sobre os campos do certificado X.509 v3 e os mecanismos de revogação de certif
 > - **C)** Incorreta. O campo *Subject Public Key Info* armazena exclusivamente a chave pública do titular. A chave privada jamais integra o certificado digital.
 > - **D)** Incorreta. Todo certificado X.509 v3 possui obrigatoriamente um período de validade delimitado nos campos *Not Before* e *Not After*.
 > - **E)** Incorreta. Se o certificado constar na LCR, significa que foi revogado e perdeu imediatamente sua validade jurídica e técnica, devendo ser sumariamente rejeitado pelo sistema.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 374
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), regulamentada pela Medida Provisória nº 2.200-2/2001, emite certificados digitais no padrão internacional ITU-T X.509 v3.
 
 A respeito das características dos certificados digitais de assinatura (Série A) nas modalidades **A1** e **A3**, assinale a afirmativa correta:
 
-* **A)** O certificado A1 possui sua chave privada gerada e armazenada em hardware criptográfico inviolável (token USB ou smartcard), com prazo de validade de 5 anos.
-* **B)** O certificado A3 armazena a chave privada diretamente no sistema operacional do computador do usuário em um arquivo com extensão `.pfx` ou `.p12`, permitindo cópia e instalação ilimitada em outros dispositivos. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** O certificado do tipo **A1** tem sua chave privada gerada e armazenada em software (no próprio computador ou servidor), com validade máxima de **1 ano**; ao passo que o certificado do tipo **A3** tem sua chave privada gerada e protegida exclusivamente no interior de um dispositivo de hardware criptográfico seguro (smartcard, token USB criptográfico ou Módulo de Segurança de Hardware - HSM com certificação FIPS 140-2 Nível 2 ou superior), com validade típica de até **3 a 5 anos**.
-* **D)** A ICP-Brasil não emite certificados do tipo A3 por considerá-los inseguros contra ameaças cibernéticas.
-* **E)** Ambos os tipos utilizam certificados sem qualquer vínculo com a Autoridade Certificadora Raiz da ICP-Brasil (ITI).
-
+- **A)** O certificado A1 possui sua chave privada gerada e armazenada em hardware criptográfico inviolável (token USB ou smartcard), com prazo de validade de 5 anos.
+- **B)** O certificado A3 armazena a chave privada diretamente no sistema operacional do computador do usuário em um arquivo com extensão `.pfx` ou `.p12`, permitindo cópia e instalação ilimitada em outros dispositivos. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **C)** O certificado do tipo **A1** tem sua chave privada gerada e armazenada em software (no próprio computador ou servidor), com validade máxima de **1 ano**; ao passo que o certificado do tipo **A3** tem sua chave privada gerada e protegida exclusivamente no interior de um dispositivo de hardware criptográfico seguro (smartcard, token USB criptográfico ou Módulo de Segurança de Hardware - HSM com certificação FIPS 140-2 Nível 2 ou superior), com validade típica de até **3 a 5 anos**.
+- **D)** A ICP-Brasil não emite certificados do tipo A3 por considerá-los inseguros contra ameaças cibernéticas.
+- **E)** Ambos os tipos utilizam certificados sem qualquer vínculo com a Autoridade Certificadora Raiz da ICP-Brasil (ITI).
 
 ---
 
@@ -563,7 +570,7 @@ A respeito das características dos certificados digitais de assinatura (Série 
 >   - **Certificado A3 (Assinatura em Hardware Criptográfico):** Chave gerada no interior de um chip seguro (Cartão Inteligente, Token Criptográfico ou HSM). A chave privada nunca sai do chip (o cálculo criptográfico da assinatura ocorre dentro do próprio processador do token). Não admite exportação ou cópia. Validade de até **3 anos** (ou 5 anos em HSMs homologados).
 > - **D)** Incorreta. O tipo A3 é o padrão amplamente exigido para membros da magistratura, membros do Ministério Público e auditores de controle externo.
 > - **E)** Incorreta. Toda a hierarquia de confiança da ICP-Brasil deriva da Autoridade Certificadora Raiz mantida pelo Instituto Nacional de Tecnologia da Informação (ITI).
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -588,12 +595,14 @@ sequenceDiagram
     Note over Bob: 7. Compara: Se H_original == H_calculado -> Assinatura é ÍNTEGRA e AUTÊNTICA!
 ```
 
-#### Passo a Passo da Geração da Assinatura (Alice):
+#### Passo a Passo da Geração da Assinatura (Alice)
+
 1. Alice calcula o resumo criptográfico (hash) da mensagem utilizando um algoritmo seguro (ex.: SHA-256).
 2. Alice cifra esse valor de hash utilizando a sua **própria Chave PRIVADA**. O resultado dessa operação é a **Assinatura Digital**.
 3. Alice transmite ao destinatário a mensagem em texto claro acompanhada da Assinatura Digital e do seu Certificado Digital X.509 (que contém a sua Chave Pública).
 
-#### Passo a Passo da Verificação da Assinatura (Bob):
+#### Passo a Passo da Verificação da Assinatura (Bob)
+
 1. Bob recebe o documento, a assinatura e o certificado digital de Alice.
 2. Bob utiliza a **Chave PÚBLICA de Alice** (obtida no certificado) para decifrar a assinatura digital, recuperando o valor original do hash calculado por Alice ($H_{original}$).
 3. Bob calcula de forma independente um novo hash diretamente sobre o arquivo recebido utilizando a mesma função hash ($H_{calculado}$).
@@ -623,17 +632,17 @@ Para uniformizar a aplicação de assinaturas digitais em formatos padronizados,
 ---
 
 ### Teste 375
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um sistema de processo eletrônico do Tribunal de Contas, um auditor emite e assina digitalmente um relatório de inspeção contábil utilizando seu par de chaves criptográficas assimétricas.
 
 A respeito do processo técnico de assinatura digital e das garantias proporcionadas, assinale a afirmativa correta:
 
-* **A)** Para gerar a assinatura digital, o auditor utiliza a chave pública do destinatário para cifrar o documento na íntegra, garantindo a confidencialidade do relatório.
-* **B)** A assinatura digital é obtida calculando-se o resumo criptográfico (*hash*) do documento e cifrando esse resumo com a chave privada do remetente (auditor); o destinatário verifica a validade decifrando o valor da assinatura com a chave pública do remetente e comparando o resultado com o hash recalculado do documento.
-* **C)** A assinatura digital garante isoladamente o princípio da confidencialidade, tornando impossível que qualquer pessoa não autorizada leia o teor do documento assinado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** A chave privada do remetente deve ser anexada ao documento em texto claro para que o destinatário possa decifrar a assinatura digital sem intermediários.
-* **E)** A alteração de um único caractere no documento original após a assinatura não afeta o resultado da verificação, permanecendo a assinatura perfeitamente válida.
-
+- **A)** Para gerar a assinatura digital, o auditor utiliza a chave pública do destinatário para cifrar o documento na íntegra, garantindo a confidencialidade do relatório.
+- **B)** A assinatura digital é obtida calculando-se o resumo criptográfico (*hash*) do documento e cifrando esse resumo com a chave privada do remetente (auditor); o destinatário verifica a validade decifrando o valor da assinatura com a chave pública do remetente e comparando o resultado com o hash recalculado do documento.
+- **C)** A assinatura digital garante isoladamente o princípio da confidencialidade, tornando impossível que qualquer pessoa não autorizada leia o teor do documento assinado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+- **D)** A chave privada do remetente deve ser anexada ao documento em texto claro para que o destinatário possa decifrar a assinatura digital sem intermediários.
+- **E)** A alteração de um único caractere no documento original após a assinatura não afeta o resultado da verificação, permanecendo a assinatura perfeitamente válida.
 
 ---
 
@@ -644,23 +653,23 @@ A respeito do processo técnico de assinatura digital e das garantias proporcion
 > - **C)** Incorreta. A assinatura digital provê autenticidade, integridade e não repúdio, mas não assegura confidencialidade. O documento assinado transita em texto legível.
 > - **D)** Incorreta. A chave privada é estritamente confidencial e de posse exclusiva do titular. Quem acompanha o documento assinado é o certificado contendo a chave pública.
 > - **E)** Incorreta. Em decorrência do efeito avalanche característico das funções hash criptográficas, a modificação de um único bit gera um hash totalmente divergente, tornando a assinatura imediatamente inválida.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 376
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em processos de fiscalização e auditoria eletrônica de longo prazo, documentos digitais assinados devem manter sua auditabilidade e validade probatória ao longo de décadas, superando a eventual expiração de certificados ou descontinuação de algoritmos criptográficos.
 
 Para atender a esses requisitos de preservação de longo prazo no ecossistema da ICP-Brasil, a tecnologia que atesta a data e hora oficiais brasileiras fornecidas pelo Observatório Nacional e os formatos de assinatura avançada recomendados para preservação temporal são:
 
-* **A)** O protocolo Telnet em conjunto com o formato TXT simples sem chaves.
-* **B)** A Autoridade de Carimbo do Tempo (ACT), que emite carimbos do tempo criptográficos atestando tempestividade de forma juridicamente válida; e os perfis de assinatura digital avançada de longo prazo **CAdES**, **XAdES** e **PAdES** (com extensões para preservação histórica, como CAdES-A e PAdES-LTV).
-* **C)** A gravação do relógio local do sistema operacional do computador do auditor no rodapé do documento em fonte Arial.
-* **D)** O formato DOC sem criptografia assinado via botão de macro do Microsoft Word 97.
-* **E)** O carimbo do tempo é emitido exclusivamente pela operadora local de telefonia móvel sem uso de criptografia assimétrica. considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-
+- **A)** O protocolo Telnet em conjunto com o formato TXT simples sem chaves.
+- **B)** A Autoridade de Carimbo do Tempo (ACT), que emite carimbos do tempo criptográficos atestando tempestividade de forma juridicamente válida; e os perfis de assinatura digital avançada de longo prazo **CAdES**, **XAdES** e **PAdES** (com extensões para preservação histórica, como CAdES-A e PAdES-LTV).
+- **C)** A gravação do relógio local do sistema operacional do computador do auditor no rodapé do documento em fonte Arial.
+- **D)** O formato DOC sem criptografia assinado via botão de macro do Microsoft Word 97.
+- **E)** O carimbo do tempo é emitido exclusivamente pela operadora local de telefonia móvel sem uso de criptografia assimétrica. considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 
 ---
 
@@ -677,7 +686,7 @@ Para atender a esses requisitos de preservação de longo prazo no ecossistema d
 > - **C)** Incorreta. O relógio local da estação de trabalho pode ser facilmente alterado pelo usuário, não tendo valor probatório legal.
 > - **D)** Incorreta. Macros de Word não possuem fé pública de ICP-Brasil.
 > - **E)** Incorreta. A ACT é uma entidade credenciada na ICP-Brasil auditada pelo ITI que utiliza assinatura digital criptográfica estrita.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -685,15 +694,18 @@ Para atender a esses requisitos de preservação de longo prazo no ecossistema d
 ## 6. Fontes Recomendadas na Internet
 
 #### 1. Legislação Oficial e Documentos Governamentais
+
 - [Estrutura da ICP-Brasil e Legislação (ITI / Gov.br)](https://www.gov.br/iti/pt-br/assuntos/icp-brasil): Portal oficial do Instituto Nacional de Tecnologia da Informação detalhando a hierarquia da cadeia de certificação brasileira, o papel da AC-Raiz, normas de credenciamento de ACs e ARs e padrões de assinatura digital.
 - [Medida Provisória nº 2.200-2/2001 (Planalto)](https://www.planalto.gov.br/ccivil_03/mpv/antigas_2001/2200-2.htm): Diploma legal basilar que instituiu a ICP-Brasil, garantindo a presunção legal de veracidade aos documentos eletrônicos assinados com certificados digitais emitidos no âmbito da infraestrutura nacional.
 - [Lei nº 14.063/2020 — Assinaturas Eletrônicas no Setor Público (Planalto)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14063.htm): Marco legal que dispõe sobre o uso de assinaturas eletrônicas (simples, avançada e qualificada via ICP-Brasil) em interações com entes públicos.
 
 #### 2. Padrões Técnicos Internacionais
+
 - [RFC 5280 - Internet X.509 Public Key Infrastructure Certificate Profile](https://datatracker.ietf.org/doc/html/rfc5280): Especificação técnica formal dos campos do certificado X.509 v3, listas de certificados revogados (LCR / CRL) e caminhos de certificação.
 - [NIST SP 800-38D - Recommendation for Block Cipher Modes of Operation: GCM](https://csrc.nist.gov/publications/detail/sp/800-38d/final): Padrão de especificação formal do modo Galois/Counter Mode (GCM) para criptografia autenticada (AEAD).
 
 #### 3. Referências Bibliográficas Clássicas (Padrão ABNT)
-* STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 6. ed. São Paulo: Pearson Education do Brasil, 2015. (Cap. 3, 6, 9, 11 e 14 — Cifras Simétricas AES/Modos de Operação, Criptografia Assimétrica RSA/ECC, Funções Hash SHA e Certificados X.509).
-* PAAR, Christof; PELZL, Jan. **Understanding Cryptography: A Textbook for Students and Practitioners**. Berlin: Springer, 2010. (Cap. 4, 7, 11 e 12 — Advanced Encryption Standard, RSA, Hash Functions e Digital Signatures).
-* MENEZES, Alfred J.; VAN OORSCHOT, Paul C.; VANSTONE, Scott A. **Handbook of Applied Cryptography**. Boca Raton: CRC Press, 1996. (Cap. 7 a 13 — Block Ciphers, Public-Key Encryption, Hash Functions, Digital Signatures e Key Management).
+
+- STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 6. ed. São Paulo: Pearson Education do Brasil, 2015. (Cap. 3, 6, 9, 11 e 14 — Cifras Simétricas AES/Modos de Operação, Criptografia Assimétrica RSA/ECC, Funções Hash SHA e Certificados X.509).
+- PAAR, Christof; PELZL, Jan. **Understanding Cryptography: A Textbook for Students and Practitioners**. Berlin: Springer, 2010. (Cap. 4, 7, 11 e 12 — Advanced Encryption Standard, RSA, Hash Functions e Digital Signatures).
+- MENEZES, Alfred J.; VAN OORSCHOT, Paul C.; VANSTONE, Scott A. **Handbook of Applied Cryptography**. Boca Raton: CRC Press, 1996. (Cap. 7 a 13 — Block Ciphers, Public-Key Encryption, Hash Functions, Digital Signatures e Key Management).

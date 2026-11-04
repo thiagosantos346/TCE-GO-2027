@@ -4,12 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `03_interpretacao_de_documentacao_de_apis_e_manuais.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Interpretação e leitura de documentações técnicas de APIs (REST, GraphQL)
 - Interpretação de manuais de instalação, configuração e guias de software
 - Leitura crítica de artigos científicos e papers de tecnologia da informação
@@ -19,34 +17,34 @@
 
 ## 🧭 Sumário
 
-1. [Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)](#1-linguagem-normativa-e-prescritiva-de-engenharia-rfc-2119-rfc-8174)
-    - [1.1 Os Níveis Normativos Canônicos](#11-os-niveis-normativos-canonicos)
-    - [1.2 Matriz de Conformidade Técnica da RFC 2119](#12-matriz-de-conformidade-tecnica-da-rfc-2119)
-    - [Teste 585](#teste-585)
-    - [Teste 586](#teste-586)
-    - [Teste 587](#teste-587)
-2. [Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)](#2-interpretacao-de-documentacao-de-apis-rest-openapi-swagger-e-graphql)
-    - [2.1 Estrutura de Rotas, Métodos HTTP e Idempotência](#21-estrutura-de-rotas-metodos-http-e-idempotencia)
-    - [2.2 Parâmetros de Requisição e Schemas de Dados JSON](#22-parametros-de-requisicao-e-schemas-de-dados-json)
-    - [2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta](#23-codigos-de-status-http-criticos-e-cabecalhos-de-resposta)
-    - [2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)](#24-documentacao-de-apis-graphql-queries-mutations-e-types)
-    - [Teste 588](#teste-588)
-    - [Teste 589](#teste-589)
-    - [Teste 590](#teste-590)
-    - [Teste 591](#teste-591)
-3. [Interpretação de Manuais Técnicos e Guias de Configuração de Sistemas](#3-interpretacao-de-manuais-tecnicos-e-guias-de-configuracao-de-sistemas)
-    - [3.1 Verbos Operacionais no Modo Imperativo](#31-verbos-operacionais-no-modo-imperativo)
-    - [3.2 Seções Estruturantes de um Manual de Implantação](#32-secoes-estruturantes-de-um-manual-de-implantacao)
-    - [3.3 Categorização e Gravidade das Advertências Técnicas](#33-categorizacao-e-gravidade-das-advertencias-tecnicas)
-    - [3.4 Ciclo de Vida: Deprecated vs. Decommissioned](#34-ciclo-de-vida-deprecated-vs-decommissioned)
-    - [Teste 592](#teste-592)
-4. [Leitura Crítica de Artigos Científicos e Papers de TI (IEEE / ACM / ArXiv)](#4-leitura-critica-de-artigos-cientificos-e-papers-de-ti-ieee-acm-arxiv)
-    - [4.1 Anatomia Estrutural de um Artigo de Vanguarda](#41-anatomia-estrutural-de-um-artigo-de-vanguarda)
-    - [4.2 A Metodologia Three-Pass sob Pressão de Tempo de Prova](#42-a-metodologia-three-pass-sob-pressao-de-tempo-de-prova)
-    - [4.3 Léxico de Validação Experimental e Evidências Empíricas](#43-lexico-de-validacao-experimental-e-evidencias-empiricas)
-    - [Teste 593](#teste-593)
-    - [Teste 594](#teste-594)
-6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+1. [Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)](#1-linguagem-normativa-e-prescritiva-de-engenharia-rfc-2119--rfc-8174)
+    1. [Os Níveis Normativos Canônicos](#11-os-níveis-normativos-canônicos)
+    1. [Matriz de Conformidade Técnica da RFC 2119](#12-matriz-de-conformidade-técnica-da-rfc-2119)
+    1. [Teste 585](#teste-585)
+    1. [Teste 586](#teste-586)
+    1. [Teste 587](#teste-587)
+2. [Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)](#2-interpretação-de-documentação-de-apis-rest-openapi-swagger-e-graphql)
+    1. [Estrutura de Rotas, Métodos HTTP e Idempotência](#21-estrutura-de-rotas-métodos-http-e-idempotência)
+    1. [Parâmetros de Requisição e Schemas de Dados JSON](#22-parâmetros-de-requisição-e-schemas-de-dados-json)
+    1. [Códigos de Status HTTP Críticos e Cabeçalhos de Resposta](#23-códigos-de-status-http-críticos-e-cabeçalhos-de-resposta)
+    1. [Documentação de APIs GraphQL (Queries, Mutations e Types)](#24-documentação-de-apis-graphql-queries-mutations-e-types)
+    1. [Teste 588](#teste-588)
+    1. [Teste 589](#teste-589)
+    1. [Teste 590](#teste-590)
+    1. [Teste 591](#teste-591)
+3. [Interpretação de Manuais Técnicos e Guias de Configuração de Sistemas](#3-interpretação-de-manuais-técnicos-e-guias-de-configuração-de-sistemas)
+    1. [Verbos Operacionais no Modo Imperativo](#31-verbos-operacionais-no-modo-imperativo)
+    1. [Seções Estruturantes de um Manual de Implantação](#32-seções-estruturantes-de-um-manual-de-implantação)
+    1. [Categorização e Gravidade das Advertências Técnicas](#33-categorização-e-gravidade-das-advertências-técnicas)
+    1. [Ciclo de Vida: Deprecated vs. Decommissioned](#34-ciclo-de-vida-deprecated-vs-decommissioned)
+    1. [Teste 592](#teste-592)
+4. [Leitura Crítica de Artigos Científicos e Papers de TI (IEEE / ACM / ArXiv)](#4-leitura-crítica-de-artigos-científicos-e-papers-de-ti-ieee--acm--arxiv)
+    1. [Anatomia Estrutural de um Artigo de Vanguarda](#41-anatomia-estrutural-de-um-artigo-de-vanguarda)
+    1. [A Metodologia Three-Pass sob Pressão de Tempo de Prova](#42-a-metodologia-three-pass-sob-pressão-de-tempo-de-prova)
+    1. [Léxico de Validação Experimental e Evidências Empíricas](#43-léxico-de-validação-experimental-e-evidências-empíricas)
+    1. [Teste 593](#teste-593)
+    1. [Teste 594](#teste-594)
+5. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
 
@@ -59,13 +57,13 @@ Esses vocábulos não exercem função decorativa ou meramente estilística; con
 ```mermaid
 flowchart TD
     RFC["Níveis Normativos de Exigência (RFC 2119)"]
-    
+  
     RFC --> L1["Nível 1: Exigência Absoluta<br/>MUST / SHALL / REQUIRED"]
     RFC --> L2["Nível 2: Proibição Absoluta<br/>MUST NOT / SHALL NOT"]
     RFC --> L3["Nível 3: Recomendação Firme<br/>SHOULD / RECOMMENDED"]
     RFC --> L4["Nível 4: Desaconselhamento Firme<br/>SHOULD NOT / NOT RECOMMENDED"]
     RFC --> L5["Nível 5: Opcionalidade Pura<br/>MAY / OPTIONAL"]
-    
+  
     L1 --> E1["Violação = Não-Conformidade / Rejeição"]
     L2 --> E1
     L3 --> E2["Exceção Demanda Justificativa Técnica Documentada"]
@@ -97,6 +95,7 @@ flowchart TD
 ---
 
 ### Teste 585
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the standard specification clause below regarding secure communications:*
 
@@ -104,12 +103,11 @@ flowchart TD
 
 De acordo com as diretrizes formais de interpretação normativa da IETF (RFC 2119 e RFC 8174), é correto afirmar que:
 
-* **A)** A locução **"MUST NOT"** representa mera recomendação estilística de segurança, cuja inobservância pode ser ignorada pelos desenvolvedores sem comprometer a conformidade com a especificação.
-* **B)** O termo **"SHOULD"** impõe uma recomendação técnica enfática que, embora possa admitir exceções motivadas em circunstâncias específicas, não deve ser desprezada sem plena avaliação e justificativa de suas implicações.
-* **C)** O vocábulo **"MAY"** estabelece um requisito obrigatório e estritamente mandatório para todos os clientes compatíveis.
-* **D)** O verbo modal **"MUST NOT"** autoriza o envio de senhas em texto puro desde que a rede interna seja cabeada e protegida por firewall perimetral.
-* **E)** As palavras-chave normativas da RFC 2119 perdem seu caráter prescritivo quando redigidas inteiramente em letras maiúsculas.
-
+- **A)** A locução **"MUST NOT"** representa mera recomendação estilística de segurança, cuja inobservância pode ser ignorada pelos desenvolvedores sem comprometer a conformidade com a especificação.
+- **B)** O termo **"SHOULD"** impõe uma recomendação técnica enfática que, embora possa admitir exceções motivadas em circunstâncias específicas, não deve ser desprezada sem plena avaliação e justificativa de suas implicações.
+- **C)** O vocábulo **"MAY"** estabelece um requisito obrigatório e estritamente mandatório para todos os clientes compatíveis.
+- **D)** O verbo modal **"MUST NOT"** autoriza o envio de senhas em texto puro desde que a rede interna seja cabeada e protegida por firewall perimetral.
+- **E)** As palavras-chave normativas da RFC 2119 perdem seu caráter prescritivo quando redigidas inteiramente em letras maiúsculas.
 
 ---
 
@@ -120,12 +118,13 @@ De acordo com as diretrizes formais de interpretação normativa da IETF (RFC 21
 > - **C)** Incorreta. **"MAY"** (ou *OPTIONAL*) define um recurso estritamente **opcional / discricionário**, cuja inclusão ou ausência depende da conveniência do desenvolvedor.
 > - **D)** Incorreta. O veto estipulado por *MUST NOT* é absoluto e incondicional na especificação.
 > - **E)** Incorreta. A regra central da RFC 2119 e RFC 8174 é justamente que essas palavras têm significado prescritivo estrito quando grafadas em **letras maiúsculas** (*UPPERCASE*).
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 586
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Consider the excerpt below from a technical specification draft for a public auditory API:*
 
@@ -138,12 +137,11 @@ De acordo com as diretrizes formais de interpretação normativa da IETF (RFC 21
 
 According to the normative definitions established by RFC 2119, it is correct to deduce that:
 
-* **A)** Compressing payloads larger than 100 kilobytes with gzip is an absolute requirement for client implementations.
-* **B)** Servers are strictly permitted to validate tokens signed with the 'none' algorithm in development environments.
-* **C)** Asymmetric RSA-256 signature is a recommended practice, meaning that valid reasons may exist to employ an alternative, but the full implications must be weighed.
-* **D)** Including a cryptographic JWT in the `Authorization` header is an optional feature that can be ignored at the client's discretion.
-* **E)** The term **"SHOULD"** in item 3 implies that asymmetric RSA-256 signature is strictly mandatory and cannot be substituted under any circumstances.
-
+- **A)** Compressing payloads larger than 100 kilobytes with gzip is an absolute requirement for client implementations.
+- **B)** Servers are strictly permitted to validate tokens signed with the 'none' algorithm in development environments.
+- **C)** Asymmetric RSA-256 signature is a recommended practice, meaning that valid reasons may exist to employ an alternative, but the full implications must be weighed.
+- **D)** Including a cryptographic JWT in the `Authorization` header is an optional feature that can be ignored at the client's discretion.
+- **E)** The term **"SHOULD"** in item 3 implies that asymmetric RSA-256 signature is strictly mandatory and cannot be substituted under any circumstances.
 
 ---
 
@@ -154,12 +152,13 @@ According to the normative definitions established by RFC 2119, it is correct to
 > - **C)** Correta. De acordo com a RFC 2119, o termo **"SHOULD"** (ou *RECOMMENDED*) tipifica uma recomendação forte de boa prática técnica. Podem existir circunstâncias particulares em que a alternativa seja válida (ex.: chaves pré-compartilhadas em canais isolados), contanto que as implicações integrais de segurança sejam formalmente compreendidas e sopesadas.
 > - **D)** Incorreta. O item 1 utiliza a partícula normativa **"MUST"**, determinando que o envio do JWT no cabeçalho `Authorization` é mandatório e indispensável, e não opcional.
 > - **E)** Incorreta. O vocábulo normativo que indica obrigatoriedade incondicional e mandatória sem substituição é *MUST* ou *SHALL*, e não *SHOULD*.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 587
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the excerpt extracted from a distributed database configuration guide:*
 
@@ -169,12 +168,11 @@ According to the normative definitions established by RFC 2119, it is correct to
 
 Based on reading technical manuals and understanding operational directives, it is correct to state that:
 
-* **A)** The manual indicates that synchronizing system clocks with NTP is an optional step that can be safely bypassed in multi-region deployments.
-* **B)** A clock drift higher than 250 milliseconds is considered normal and will not impact heartbeat communications between nodes.
-* **C)** The directive labeled **"Caution"** advises configuring an even number of voting nodes to maximize electoral redundancy during partitions.
-* **D)** According to the guide, a strict majority quorum is indispensable to elect a primary leader and prevent the emergence of conflicting writes in distinct partitions.
-* **E)** The text states that irrecoverable data divergence can be automatically repaired by the operating system without manual intervention.
-
+- **A)** The manual indicates that synchronizing system clocks with NTP is an optional step that can be safely bypassed in multi-region deployments.
+- **B)** A clock drift higher than 250 milliseconds is considered normal and will not impact heartbeat communications between nodes.
+- **C)** The directive labeled **"Caution"** advises configuring an even number of voting nodes to maximize electoral redundancy during partitions.
+- **D)** According to the guide, a strict majority quorum is indispensable to elect a primary leader and prevent the emergence of conflicting writes in distinct partitions.
+- **E)** The text states that irrecoverable data divergence can be automatically repaired by the operating system without manual intervention.
 
 ---
 
@@ -185,7 +183,7 @@ Based on reading technical manuals and understanding operational directives, it 
 > - **C)** Incorreta. A advertência técnica (*Caution*) desaconselha formalmente o uso de número par de nós votantes (*"Do not configure an even number of voting nodes"*), visto que topologias simétricas causam impasses eleitorais e risco de *split-brain*.
 > - **D)** Correta. O manual estabelece com precisão que a formação de um quórum de maioria estrita ($N/2 + 1$) é condição indispensável para a eleição do nó líder primário, salvaguardando o cluster contra aceitação de escritas conflitantes em partições desconectadas (*resulting in irrecoverable data divergence*).
 > - **E)** Incorreta. A documentação classifica expressamente a divergência de dados resultante como irrecuperável e definitiva (*irrecoverable data divergence*), inexistindo reparação automática transparente.
-> 
+>
 > **Gabarito: D**
 
 ---
@@ -200,7 +198,7 @@ sequenceDiagram
     actor Client as "Cliente / Auditoria de TI"
     participant Gateway as "API Gateway"
     participant Backend as "Microsserviço de Negócio"
-    
+  
     Client->>Gateway: POST /v1/audits (Headers: Authorization, Content-Type) + JSON Body
     alt Token ausente ou expirado
         Gateway-->>Client: 401 Unauthorized (Header: WWW-Authenticate)
@@ -236,34 +234,34 @@ Nas especificações OpenAPI 3.0 / Swagger, os parâmetros distribuem-se em quat
 - **Path Parameters (`/taxpayers/{id}`):** Integram a hierarquia da URL e identificam instâncias unívocas de recursos. São invariavelmente obrigatórios.
 - **Query Parameters (`?fiscal_year=2026&status=audited&limit=50&offset=100`):** Utilizados para filtragem, ordenação (*sorting*) e paginação de coleções.
 - **Header Parameters:** Transportam metadados essenciais de rede e segurança:
-    - `Authorization: Bearer <token_jwt>`: Credencial criptográfica de autenticação.
-    - `Content-Type: application/json`: Informa a codificação do payload transmitido.
-    - `Accept: application/json`: Comunica o formato que o cliente está apto a receber.
+  - `Authorization: Bearer <token_jwt>`: Credencial criptográfica de autenticação.
+  - `Content-Type: application/json`: Informa a codificação do payload transmitido.
+  - `Accept: application/json`: Comunica o formato que o cliente está apto a receber.
 - **Request Body (Corpo da Requisição / Payload):** Estrutura hierárquica contendo os campos de dados:
-    - `required: true`: Sinaliza que o bloco ou os campos listados no array `required:` são indispensáveis. A omissão acarreta rejeição da mensagem.
-    - `properties`: Mapeia cada atributo com suas restrições de validação (`type: string`, `pattern: '^\d{14}$'`, `minimum: 0.0`).
+  - `required: true`: Sinaliza que o bloco ou os campos listados no array `required:` são indispensáveis. A omissão acarreta rejeição da mensagem.
+  - `properties`: Mapeia cada atributo com suas restrições de validação (`type: string`, `pattern: '^\d{14}$'`, `minimum: 0.0`).
 
 ### 2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta
 
 A compreensão precisa das famílias de códigos de status HTTP é intensamente avaliada em provas:
 
 - **Família 2xx (Success):**
-    - `200 OK`: Requisição bem-sucedida com retorno de dados.
-    - `201 Created`: Criação bem-sucedida de um novo recurso no servidor (resposta clássica a `POST`).
-    - `204 No Content`: Ação processada com êxito, sem corpo textual de retorno (comum em `DELETE`).
+  - `200 OK`: Requisição bem-sucedida com retorno de dados.
+  - `201 Created`: Criação bem-sucedida de um novo recurso no servidor (resposta clássica a `POST`).
+  - `204 No Content`: Ação processada com êxito, sem corpo textual de retorno (comum em `DELETE`).
 - **Família 4xx (Client Error - Erros Originados no Cliente):**
-    - `400 Bad Request`: Erro de sintaxe da requisição (JSON malformado, quebra de delimitadores, tipos primitivos ilegíveis).
-    - `401 Unauthorized`: Falha de **autenticação**. O cliente não forneceu credenciais válidas ou o token expirou.
-    - `403 Forbidden`: O cliente está autenticado com sucesso, mas suas permissões/papéis (*roles*) **não autorizam** o acesso à rota solicitada.
-    - `404 Not Found`: A URI solicitada não corresponde a nenhum recurso existente.
-    - `409 Conflict`: Conflito com o estado atual do recurso (ex.: tentativa de cadastrar registro com chave primária já existente).
-    - `422 Unprocessable Entity`: A sintaxe do JSON está impecável, mas os dados contêm **erros semânticos ou violações de regras de negócio** (ex.: valor negativo em receita declarada, CPF com dígitos verificadores inválidos).
-    - `429 Too Many Requests`: Limite de taxa de requisições excedido (*rate limiting / throttling*). Vem associado ao cabeçalho `Retry-After: <segundos>`, que estipula o tempo de espera obrigatório antes de nova tentativa.
+  - `400 Bad Request`: Erro de sintaxe da requisição (JSON malformado, quebra de delimitadores, tipos primitivos ilegíveis).
+  - `401 Unauthorized`: Falha de **autenticação**. O cliente não forneceu credenciais válidas ou o token expirou.
+  - `403 Forbidden`: O cliente está autenticado com sucesso, mas suas permissões/papéis (*roles*) **não autorizam** o acesso à rota solicitada.
+  - `404 Not Found`: A URI solicitada não corresponde a nenhum recurso existente.
+  - `409 Conflict`: Conflito com o estado atual do recurso (ex.: tentativa de cadastrar registro com chave primária já existente).
+  - `422 Unprocessable Entity`: A sintaxe do JSON está impecável, mas os dados contêm **erros semânticos ou violações de regras de negócio** (ex.: valor negativo em receita declarada, CPF com dígitos verificadores inválidos).
+  - `429 Too Many Requests`: Limite de taxa de requisições excedido (*rate limiting / throttling*). Vem associado ao cabeçalho `Retry-After: <segundos>`, que estipula o tempo de espera obrigatório antes de nova tentativa.
 - **Família 5xx (Server Error - Falhas Internas do Provedor):**
-    - `500 Internal Server Error`: Exceção inesperada não tratada pela aplicação.
-    - `502 Bad Gateway`: O proxy reverso ou gateway recebeu resposta corrompida do microsserviço de backend.
-    - `503 Service Unavailable`: Servidor temporariamente incapacitado por sobrecarga ou manutenção programada.
-    - `504 Gateway Timeout`: O gateway expirou aguardando a resposta do serviço interno.
+  - `500 Internal Server Error`: Exceção inesperada não tratada pela aplicação.
+  - `502 Bad Gateway`: O proxy reverso ou gateway recebeu resposta corrompida do microsserviço de backend.
+  - `503 Service Unavailable`: Servidor temporariamente incapacitado por sobrecarga ou manutenção programada.
+  - `504 Gateway Timeout`: O gateway expirou aguardando a resposta do serviço interno.
 
 > 💡 **Diferença Crítica FCC (401 vs. 403):**  
 >
@@ -281,6 +279,7 @@ Diferentemente do padrão REST, no qual cada recurso ocupa uma URI distinta, o p
 ---
 
 ### Teste 588
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the API reference documentation snippet below:*
 
@@ -290,12 +289,11 @@ Diferentemente do padrão REST, no qual cada recurso ocupa uma URI distinta, o p
 
 Considerando a semântica dos verbos HTTP na arquitetura RESTful e a documentação apresentada, assinale a alternativa correta:
 
-* **A)** As requisições executadas com o verbo **GET** são consideradas operações não-seguras e não-idempotentes, pois invariavelmente alteram o estado do banco de dados no servidor.
-* **B)** A operação via método **POST** descrita é não-idempotente porque requisições sucessivas idênticas com o mesmo corpo podem criar múltiplos lançamentos e cobranças bancárias duplicadas.
-* **C)** O método **PUT** destina-se primordialmente a consultas parciais de dados e possui comportamento inerentemente não-idempotente pelo padrão HTTP.
-* **D)** O verbo **DELETE** é considerado não-idempotente, uma vez que a exclusão repetida de um recurso já removido resulta na restauração automática da entidade.
-* **E)** Todos os métodos do protocolo HTTP tornam-se automaticamente idempotentes quando transportados por conexões TLS/HTTPS.
-
+- **A)** As requisições executadas com o verbo **GET** são consideradas operações não-seguras e não-idempotentes, pois invariavelmente alteram o estado do banco de dados no servidor.
+- **B)** A operação via método **POST** descrita é não-idempotente porque requisições sucessivas idênticas com o mesmo corpo podem criar múltiplos lançamentos e cobranças bancárias duplicadas.
+- **C)** O método **PUT** destina-se primordialmente a consultas parciais de dados e possui comportamento inerentemente não-idempotente pelo padrão HTTP.
+- **D)** O verbo **DELETE** é considerado não-idempotente, uma vez que a exclusão repetida de um recurso já removido resulta na restauração automática da entidade.
+- **E)** Todos os métodos do protocolo HTTP tornam-se automaticamente idempotentes quando transportados por conexões TLS/HTTPS.
 
 ---
 
@@ -306,12 +304,13 @@ Considerando a semântica dos verbos HTTP na arquitetura RESTful e a documentaç
 > - **C)** Incorreta. O método **PUT** realiza a substituição total de um recurso em uma URI conhecida e é formalmente **idempotente** (executar 1 ou 10 vezes o mesmo PUT com os mesmos dados deixa o recurso no mesmo estado final).
 > - **D)** Incorreta. O método **DELETE** é **idempotente**: a primeira chamada remove o recurso; as chamadas subsequentes encontram o recurso já ausente (podendo retornar 404), mas o estado final do servidor permanece inalterado (recurso ausente).
 > - **E)** Incorreta. A segurança da camada de transporte (HTTPS/TLS) protege a confidencialidade e integridade dos dados em trânsito, mas em nada altera a semântica operacional de idempotência da camada de aplicação HTTP.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 589
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Examine the following OpenAPI 3.0 specification excerpt describing an electronic fiscal auditing endpoint:*
 
@@ -363,31 +362,31 @@ III. O envio de um valor negativo para o campo `declared_revenue` gerará um sta
 
 Está correto o que se afirma em:
 
-* **A)** I e II, apenas.
-* **B)** I e III, apenas.
-* **C)** II e III, apenas.
-* **D)** I, apenas.
-* **E)** I, II e III.
-
+- **A)** I e II, apenas.
+- **B)** I e III, apenas.
+- **C)** II e III, apenas.
+- **D)** I, apenas.
+- **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
 > - **A)** Correta. Apenas os itens I e II estão alinhados à especificação e às boas práticas de API:
->     - **Item I (Verdadeiro):** A linha `requestBody: required: true` torna o corpo obrigatório. A chave `taxpayer_id` figura expressamente no bloco `required:`, tornando sua ausência causa mandatória de recusa da submissão.
->     - **Item II (Verdadeiro):** A seção `security: BearerAuth: [audit:write]` exige que o token possua o escopo `audit:write`. A resposta para credenciais autenticadas porém carentes do privilégio necessário é textualmente documentada como **403 Forbidden** (*client lacks audit:write scope*).
->     - **Item III (Falso):** O envio de valor negativo para `declared_revenue` configura violação semântica de regra de negócio (`minimum: 0.0`), e não falha sintática de formatação. O schema associa essa falha textualmente ao código **422 Unprocessable Entity** (*Semantic validation failure, e.g., negative revenue*), reservando o status 400 para payloads corrompidos.
+>   - **Item I (Verdadeiro):** A linha `requestBody: required: true` torna o corpo obrigatório. A chave `taxpayer_id` figura expressamente no bloco `required:`, tornando sua ausência causa mandatória de recusa da submissão.
+>   - **Item II (Verdadeiro):** A seção `security: BearerAuth: [audit:write]` exige que o token possua o escopo `audit:write`. A resposta para credenciais autenticadas porém carentes do privilégio necessário é textualmente documentada como **403 Forbidden** (*client lacks audit:write scope*).
+>   - **Item III (Falso):** O envio de valor negativo para `declared_revenue` configura violação semântica de regra de negócio (`minimum: 0.0`), e não falha sintática de formatação. O schema associa essa falha textualmente ao código **422 Unprocessable Entity** (*Semantic validation failure, e.g., negative revenue*), reservando o status 400 para payloads corrompidos.
 > - **B)** Incorreta. O item III é falso.
 > - **C)** Incorreta. O item I é verdadeiro e o III é falso.
 > - **D)** Incorreta. O item II também é verdadeiro.
 > - **E)** Incorreta. O item III é falso.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 590
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Carefully analyze the API documentation response snippet provided below:*
 
@@ -406,12 +405,11 @@ Warning: 299 - "This endpoint is deprecated and will be decommissioned on 2027-0
 
 A partir da leitura técnica da documentação e dos cabeçalhos HTTP apresentados, é correto afirmar:
 
-* **A)** A requisição foi processada com êxito pelo servidor, mas o cliente foi alertado de que o formato JSON é inválido.
-* **B)** O cliente excedeu a cota de requisições permitida (*rate limit*) e foi instruído, por meio do cabeçalho `Retry-After`, a aguardar 120 segundos antes de reenviar a chamada.
-* **C)** A mensagem `Warning` adverte que o serviço falhou catastroficamente e seus dados foram corrompidos permanentemente no banco de dados.
-* **D)** O termo *deprecated* indica que o endpoint acabou de ser atualizado para uma versão de maior desempenho recomendada para novas integrações.
-* **E)** O status 429 indica um erro interno de falha de infraestrutura no lado do servidor (*Internal Server Error*).
-
+- **A)** A requisição foi processada com êxito pelo servidor, mas o cliente foi alertado de que o formato JSON é inválido.
+- **B)** O cliente excedeu a cota de requisições permitida (*rate limit*) e foi instruído, por meio do cabeçalho `Retry-After`, a aguardar 120 segundos antes de reenviar a chamada.
+- **C)** A mensagem `Warning` adverte que o serviço falhou catastroficamente e seus dados foram corrompidos permanentemente no banco de dados.
+- **D)** O termo *deprecated* indica que o endpoint acabou de ser atualizado para uma versão de maior desempenho recomendada para novas integrações.
+- **E)** O status 429 indica um erro interno de falha de infraestrutura no lado do servidor (*Internal Server Error*).
 
 ---
 
@@ -422,12 +420,13 @@ A partir da leitura técnica da documentação e dos cabeçalhos HTTP apresentad
 > - **C)** Incorreta. O cabeçalho `Warning: 299` veicula um aviso de gerenciamento de ciclo de vida de software, alertando sobre a obsolescência da rota, sem nenhuma conexão com corrupção de banco de dados.
 > - **D)** Incorreta. O adjetivo técnico **"deprecated"** (descontinuado / obsoleto) significa que a funcionalidade foi marcada para desativação futura e não deve receber novas implantações, sendo agendado seu descomissionamento definitivo (*decommissioning*) para 01/01/2027.
 > - **E)** Incorreta. A família 4xx sinaliza inconformidades geradas pelo cliente (*Client Error*). Erros de infraestrutura interna do servidor pertencem privativamente à família 5xx (como 500, 502 ou 503).
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 591
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the GraphQL Schema Definition Language (SDL) snippet below:*
 
@@ -450,12 +449,11 @@ type Mutation {
 
 Com base nas convenções sintáticas e conceituais do padrão GraphQL e no schema apresentado, assinale a opção correta:
 
-* **A)** O ponto de exclamação `!` associado aos tipos (ex.: `ID!`, `String!`) indica que o campo é puramente opcional e admite valor nulo (*null*).
-* **B)** A operação categorizada sob o tipo **Query** é destinada a realizar mutações de escrita e atualizar trilhas de auditoria no servidor.
-* **C)** O campo `fiscalScore` pode retornar valor nulo (*null*), uma vez que não possui o modificador de obrigatoriedade `!`.
-* **D)** As operações do tipo **Mutation** são consultas de somente-leitura que não aceitam parâmetros de entrada nem alteram dados.
-* **E)** O GraphQL requer a criação de endpoints HTTP distintos (URIs dedicadas) para cada uma das consultas e mutações declaradas no esquema.
-
+- **A)** O ponto de exclamação `!` associado aos tipos (ex.: `ID!`, `String!`) indica que o campo é puramente opcional e admite valor nulo (*null*).
+- **B)** A operação categorizada sob o tipo **Query** é destinada a realizar mutações de escrita e atualizar trilhas de auditoria no servidor.
+- **C)** O campo `fiscalScore` pode retornar valor nulo (*null*), uma vez que não possui o modificador de obrigatoriedade `!`.
+- **D)** As operações do tipo **Mutation** são consultas de somente-leitura que não aceitam parâmetros de entrada nem alteram dados.
+- **E)** O GraphQL requer a criação de endpoints HTTP distintos (URIs dedicadas) para cada uma das consultas e mutações declaradas no esquema.
 
 ---
 
@@ -466,7 +464,7 @@ Com base nas convenções sintáticas e conceituais do padrão GraphQL e no sche
 > - **C)** Correta. No tipo `TaxpayerAudit`, o campo `fiscalScore: Float` não é seguido pelo caractere `!`, o que significa que é um campo anulável (*nullable*), podendo retornar um número de ponto flutuante ou o valor `null`.
 > - **D)** Incorreta. As **Mutations** são operações que realizam modificações no servidor (criação, edição, exclusão de dados), equivalentes conceituais a POST, PUT ou DELETE em REST.
 > - **E)** Incorreta. Diferentemente do REST, o GraphQL concentra todas as queries e mutations em um **único endpoint HTTP** padronizado (comumente `POST /graphql`).
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -512,6 +510,7 @@ A correta interpretação do ciclo de vida de componentes de software é essenci
 ---
 
 ### Teste 592
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the technical release note excerpt below regarding an enterprise authentication library:*
 
@@ -519,12 +518,11 @@ A correta interpretação do ciclo de vida de componentes de software é essenci
 
 Com base na terminologia técnica empregada para definir o ciclo de vida de componentes de software e no texto acima:
 
-* **A)** Um componente classificado como **"deprecated"** já foi completamente removido da base de código e não processa nenhuma requisição desde o lançamento da versão 3.4.
-* **B)** A classificação de um recurso como **"deprecated"** adverte que, embora ainda permaneça funcional na versão corrente, seu uso é formalmente desaconselhado e sua remoção definitiva (*decommissioning*) ocorrerá em versão futura.
-* **C)** O termo **"decommissioned"** significa que o recurso continuará recebendo novas funcionalidades e atualizações prioritárias de segurança indefinidamente.
-* **D)** A resposta `HTTP 410 Gone` indica que a requisição ao endpoint `/v1/auth/legacy-token` foi atendida com pleno sucesso e autorização irrestrita.
-* **E)** O conceito de *backward compatibility* traduz a incompatibilidade intencional com versões legadas para forçar a contratação de novos fornecedores.
-
+- **A)** Um componente classificado como **"deprecated"** já foi completamente removido da base de código e não processa nenhuma requisição desde o lançamento da versão 3.4.
+- **B)** A classificação de um recurso como **"deprecated"** adverte que, embora ainda permaneça funcional na versão corrente, seu uso é formalmente desaconselhado e sua remoção definitiva (*decommissioning*) ocorrerá em versão futura.
+- **C)** O termo **"decommissioned"** significa que o recurso continuará recebendo novas funcionalidades e atualizações prioritárias de segurança indefinidamente.
+- **D)** A resposta `HTTP 410 Gone` indica que a requisição ao endpoint `/v1/auth/legacy-token` foi atendida com pleno sucesso e autorização irrestrita.
+- **E)** O conceito de *backward compatibility* traduz a incompatibilidade intencional com versões legadas para forçar a contratação de novos fornecedores.
 
 ---
 
@@ -535,7 +533,7 @@ Com base na terminologia técnica empregada para definir o ciclo de vida de comp
 > - **C)** Incorreta. **"Decommissioned"** (descomissionado / desativado) significa que o serviço foi desligado ou o endpoint foi fisicamente removido do sistema.
 > - **D)** Incorreta. O código de status `410 Gone` é um erro do cliente (*Client Error*) que indica que o recurso solicitado não está mais disponível no servidor e foi intencional e permanentemente removido.
 > - **E)** Incorreta. *Backward compatibility* (retrocompatibilidade) é a capacidade de uma nova versão de software interoperar com sistemas legados sem quebras inesperadas.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -549,7 +547,7 @@ Em certames da FCC para cargos de alta remuneração de Tecnologia da Informaç�
 ```mermaid
 flowchart TD
     P["Artigo Científico de TI (IEEE / ACM)"]
-    
+  
     P --> A1["1. Title & Abstract<br/>(Resumo de alto impacto: problema, método e ganhos quantitativos)"]
     P --> A2["2. Introduction<br/>(Contextualização da lacuna tecnológica e contribuições explícitas)"]
     P --> A3["3. Related Work<br/>(Comparação crítica com a literatura existente)"]
@@ -571,9 +569,9 @@ flowchart TD
 Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de prova deve ser estratificada em camadas:
 
 - **Passada 1 (Abordagem Panorâmica - 3 a 5 minutos):** Leitura concentrada do título, do *Abstract*, da introdução preliminar e da conclusão final. Essa varredura inicial responde com clareza:
-    - Qual o problema central atacado pelo autor?
-    - A tecnologia proposta substitui ou aprimora os modelos vigentes?
-    - O tom é de refutação ou de proposição de nova técnica?
+  - Qual o problema central atacado pelo autor?
+  - A tecnologia proposta substitui ou aprimora os modelos vigentes?
+  - O tom é de refutação ou de proposição de nova técnica?
 - **Passada 2 (Varredura Analítica para Itens Específicos):** Inspeção de figuras de arquitetura, gráficos de desempenho e tabelas comparativas.
 
 ### 4.3 Léxico de Validação Experimental e Evidências Empíricas
@@ -586,6 +584,7 @@ Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de p
 ---
 
 ### Teste 593
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the abstract of an IEEE computer systems research paper:*
 
@@ -593,12 +592,11 @@ Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de p
 
 Based on paper reading techniques (*Abstract comprehension*) and technical vocabulary, select the correct alternative:
 
-* **A)** The authors conclude that conventional reactive autoscalers are superior to proactive pre-warming frameworks in handling sudden invocation spikes.
-* **B)** The term **"overhead"** in the last sentence refers to a 3% financial tax imposed by cloud service providers on serverless function invocations.
-* **C)** According to the abstract, *KubeWarm* is designed to wait until HTTP requests arrive before initiating any container runtime provisioning.
-* **D)** The connector **"However"** is used to introduce the primary drawback of serverless computing addressed by the paper: cold-start latency.
-* **E)** The proposed framework proved inefficient, as experimental results demonstrated a 42% increase in latency and higher server costs.
-
+- **A)** The authors conclude that conventional reactive autoscalers are superior to proactive pre-warming frameworks in handling sudden invocation spikes.
+- **B)** The term **"overhead"** in the last sentence refers to a 3% financial tax imposed by cloud service providers on serverless function invocations.
+- **C)** According to the abstract, *KubeWarm* is designed to wait until HTTP requests arrive before initiating any container runtime provisioning.
+- **D)** The connector **"However"** is used to introduce the primary drawback of serverless computing addressed by the paper: cold-start latency.
+- **E)** The proposed framework proved inefficient, as experimental results demonstrated a 42% increase in latency and higher server costs.
 
 ---
 
@@ -609,12 +607,13 @@ Based on paper reading techniques (*Abstract comprehension*) and technical vocab
 > - **C)** Incorreta. O ato de postergar a inicialização do runtime de contêineres até a chegada efetiva do pacote HTTP é a assinatura dos mecanismos tradicionais reativos (*conventional reactive autoscalers*), superada pelo dinamismo proativo do *KubeWarm*.
 > - **D)** Correta. O conectivo adversativo **"However"** (no entanto, todavia) é estrategicamente empregado para contrapor os benefícios atrativos da computação serverless (elasticidade e faturamento sob demanda) ao seu obstáculo estrutural determinante atacado pelo artigo: a latência de inicialização a frio (*cold-start latency*).
 > - **E)** Incorreta. O framework atingiu desempenho exitoso: reduziu (*reduces*) a latência em 42% e eliminou 87% dos cold starts sob sobrecarga computacional desprezível.
-> 
+>
 > **Gabarito: D**
 
 ---
 
 ### Teste 594
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the research paper excerpt on distributed storage systems:*
 
@@ -622,12 +621,11 @@ Based on paper reading techniques (*Abstract comprehension*) and technical vocab
 
 Com base nas convenções léxicas e metodológicas da literatura científica internacional de TI e no trecho acima, assinale a afirmativa correta:
 
-* **A)** O termo **"outperforms"** expressa que a solução proposta apresentou desempenho inferior ao das tecnologias comparadas.
-* **B)** A palavra **"Benchmark"** designa um conjunto padronizado de testes e cargas de trabalho concebido para avaliar e comparar o desempenho de sistemas computacionais de maneira empírica.
-* **C)** A expressão **"overhead"** descreve o ganho patrimonial direto obtido pela equipe de desenvolvedores ao publicar o artigo.
-* **D)** A métrica de **"tail latency (P99)"** expressa o tempo médio de resposta apurado sobre 99% das requisições mais velozes do cluster.
-* **E)** O vocábulo **"baselines"** designa erros de compilação irreparáveis detectados no código-fonte dos servidores.
-
+- **A)** O termo **"outperforms"** expressa que a solução proposta apresentou desempenho inferior ao das tecnologias comparadas.
+- **B)** A palavra **"Benchmark"** designa um conjunto padronizado de testes e cargas de trabalho concebido para avaliar e comparar o desempenho de sistemas computacionais de maneira empírica.
+- **C)** A expressão **"overhead"** descreve o ganho patrimonial direto obtido pela equipe de desenvolvedores ao publicar o artigo.
+- **D)** A métrica de **"tail latency (P99)"** expressa o tempo médio de resposta apurado sobre 99% das requisições mais velozes do cluster.
+- **E)** O vocábulo **"baselines"** designa erros de compilação irreparáveis detectados no código-fonte dos servidores.
 
 ---
 
@@ -638,18 +636,18 @@ Com base nas convenções léxicas e metodológicas da literatura científica in
 > - **C)** Incorreta. **"Overhead"** é o custo computacional indireto ou marginal adicionado por um mecanismo (ex.: consumo adicional de ciclos de CPU ou memória RAM), e não vantagem financeira.
 > - **D)** Incorreta. A latência de cauda (*tail latency* P99) mede o tempo de resposta do percentil 99, ou seja, o limite superior de lentidão experimentado pelo 1% das requisições mais lentas e críticas do sistema.
 > - **E)** Incorreta. Em metodologia científica de TI, **"baselines"** são os sistemas de referência consagrados ou modelos tradicionais existentes com os quais a nova solução é comparada.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ## 6. Fontes Recomendadas na Internet
 
-* [OpenAPI Specification 3.1.0 Official Documentation](https://spec.openapis.org/oas/v3.1.0) - Padrão de especificação formal em inglês para modelagem e consumo de interfaces RESTful.
-* [IETF RFC 9110 - HTTP Semantics and Status Codes](https://datatracker.ietf.org/doc/html/rfc9110) - Norma de referência global em inglês para semântica de métodos, cabeçalhos e respostas de APIs na Web.
-* [Docker Official Documentation - Dockerfile Reference (English)](https://docs.docker.com/reference/dockerfile/) - Manual técnico oficial para interpretação de comandos, sintaxe declarativa e boas práticas de containers.
-* [Kubernetes Official Concepts - Pods and Workloads (English)](https://kubernetes.io/docs/concepts/workloads/pods/) - Documentação técnica primária em inglês para interpretação de especificações YAML e orquestração de microsserviços.
-* [Google Technical Writing Courses - Organizing Complex Documents](https://developers.google.com/tech-writing/two) - Melhores práticas para leitura crítica e estruturação de manuais técnicos de arquitetura e APIs.
-* SWALES, John M.; FEAK, Christine B. **Academic Writing for Graduate Students: Essential Tasks and Skills**. 3. ed. Ann Arbor: University of Michigan Press, 2012. (Unit 3 - Reading and Writing Technical Instructions).
-* GLENDINNING, Eric H.; MCEWAN, John. **Oxford English for Information Technology**. 2. ed. Oxford: Oxford University Press, 2006. (Units 20 to 25 - Reading Technical Manuals and System Specifications).
-* HEWINGS, Martin. **Advanced Grammar in Use**. 3. ed. Cambridge: Cambridge University Press, 2013. (Units 80 to 85 - Complex Sentences and Technical Documentation Structures).
+- [OpenAPI Specification 3.1.0 Official Documentation](https://spec.openapis.org/oas/v3.1.0) - Padrão de especificação formal em inglês para modelagem e consumo de interfaces RESTful.
+- [IETF RFC 9110 - HTTP Semantics and Status Codes](https://datatracker.ietf.org/doc/html/rfc9110) - Norma de referência global em inglês para semântica de métodos, cabeçalhos e respostas de APIs na Web.
+- [Docker Official Documentation - Dockerfile Reference (English)](https://docs.docker.com/reference/dockerfile/) - Manual técnico oficial para interpretação de comandos, sintaxe declarativa e boas práticas de containers.
+- [Kubernetes Official Concepts - Pods and Workloads (English)](https://kubernetes.io/docs/concepts/workloads/pods/) - Documentação técnica primária em inglês para interpretação de especificações YAML e orquestração de microsserviços.
+- [Google Technical Writing Courses - Organizing Complex Documents](https://developers.google.com/tech-writing/two) - Melhores práticas para leitura crítica e estruturação de manuais técnicos de arquitetura e APIs.
+- SWALES, John M.; FEAK, Christine B. **Academic Writing for Graduate Students: Essential Tasks and Skills**. 3. ed. Ann Arbor: University of Michigan Press, 2012. (Unit 3 - Reading and Writing Technical Instructions).
+- GLENDINNING, Eric H.; MCEWAN, John. **Oxford English for Information Technology**. 2. ed. Oxford: Oxford University Press, 2006. (Units 20 to 25 - Reading Technical Manuals and System Specifications).
+- HEWINGS, Martin. **Advanced Grammar in Use**. 3. ed. Cambridge: Cambridge University Press, 2013. (Units 80 to 85 - Complex Sentences and Technical Documentation Structures).

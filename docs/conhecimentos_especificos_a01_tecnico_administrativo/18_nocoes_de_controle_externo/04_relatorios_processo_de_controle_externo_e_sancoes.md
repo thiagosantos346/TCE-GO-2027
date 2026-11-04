@@ -5,10 +5,7 @@
 > **Arquivo:** `04_relatorios_processo_de_controle_externo_e_sancoes.md`  
 > **Status:** 🟢 Teoria Aprofundada + 5 Questões FCC Comentadas (A a E)
 
-
-
 ---
-
 
 ## 📌 Ementa / Itens do Edital
 
@@ -16,59 +13,51 @@
 - Deliberações do Tribunal de Contas: acórdãos colegiados, decisões monocráticas do Relator, determinações mandamentais e recomendações propositivas;
 - Monitoramento das deliberações e Planos de Ação formulados pelo gestor público;
 - Tomada de Contas Especial (TCE):
-    - Conceito, natureza jurídica excepcional e finalidades institucionais;
-    - Pressupostos cumulativos de instauração (ocorrência de dano ou omissão de contas, esgotamento das providências administrativas internas, valor superior ao limite de alçada e não transcurso de mais de 10 anos);
-    - Fase interna no órgão de origem vs. Fase externa perante o Tribunal de Contas;
-    - Hipóteses de dispensa, trancamento e arquivamento da TCE;
+  - Conceito, natureza jurídica excepcional e finalidades institucionais;
+  - Pressupostos cumulativos de instauração (ocorrência de dano ou omissão de contas, esgotamento das providências administrativas internas, valor superior ao limite de alçada e não transcurso de mais de 10 anos);
+  - Fase interna no órgão de origem vs. Fase externa perante o Tribunal de Contas;
+  - Hipóteses de dispensa, trancamento e arquivamento da TCE;
 - O processo no Tribunal de Contas:
-    - Comunicações processuais: Citação (para ressarcimento de débito) vs. Audiência (para justificativa de infração legal);
-    - Fase recursal no processo de contas: Recurso de Reconsideração, Pedido de Reexame, Embargos de Declaração, Agravo e Recurso de Revisão;
+  - Comunicações processuais: Citação (para ressarcimento de débito) vs. Audiência (para justificativa de infração legal);
+  - Fase recursal no processo de contas: Recurso de Reconsideração, Pedido de Reexame, Embargos de Declaração, Agravo e Recurso de Revisão;
 - Julgamento técnico das contas dos administradores públicos:
-    - Contas Regulares (quitação plena);
-    - Contas Regulares com Ressalva (quitação com determinações corretivas para falhas formais);
-    - Contas Irregulares (dano ao erário, desfalque, desvio, infração grave à norma ou reincidência de descumprimento);
-    - Contas Iliquidáveis (caso fortuito ou força maior que inviabilize o exame de mérito);
+  - Contas Regulares (quitação plena);
+  - Contas Regulares com Ressalva (quitação com determinações corretivas para falhas formais);
+  - Contas Irregulares (dano ao erário, desfalque, desvio, infração grave à norma ou reincidência de descumprimento);
+  - Contas Iliquidáveis (caso fortuito ou força maior que inviabilize o exame de mérito);
 - Regime sancionatório dos Tribunais de Contas:
-    - Condenação em débito (natureza indenizatória reparatória);
-    - Multas administrativas (proporcional ao débito e multa por grave infração à norma legal);
-    - Inabilitação para o exercício de cargo em comissão ou função de confiança (até 5 anos);
-    - Declaração de inidoneidade para participar de licitações e contratar com a Administração Pública (até 5 anos);
-    - Reflexos eleitorais do julgamento de contas (inelegibilidade de 8 anos da Lei da Ficha Limpa - LC nº 64/90);
+  - Condenação em débito (natureza indenizatória reparatória);
+  - Multas administrativas (proporcional ao débito e multa por grave infração à norma legal);
+  - Inabilitação para o exercício de cargo em comissão ou função de confiança (até 5 anos);
+  - Declaração de inidoneidade para participar de licitações e contratar com a Administração Pública (até 5 anos);
+  - Reflexos eleitorais do julgamento de contas (inelegibilidade de 8 anos da Lei da Ficha Limpa - LC nº 64/90);
 - Prescrição no âmbito do controle externo: prescrição quinquenal (5 anos) da pretensão punitiva e ressarcitória (Tema 899 do STF e Lei nº 9.873/1999) e prescrição intercorrente trienal (3 anos).
 
 ---
 
 ## 🧭 Sumário
 
-1. [Comunicação dos Resultados e Deliberações do Tribunal](#1-comunicacao-dos-resultados-e-deliberacoes-do-tribunal)
-    1. [Atributos do Relatório de Auditoria](#11-atributos-do-relatorio-de-auditoria)
-    2. [Espécies de Deliberações: Determinações versus Recomendações](#12-especies-de-deliberacoes-determinacoes-versus-recomendacoes)
-    3. [Teste 198](#Teste-198)
-2. [Tomada de Contas Especial (TCE): Rito e Pressupostos](#2-tomada-de-contas-especial-tce-rito-e-pressupostos)
-    1. [Natureza Jurídica e Pressupostos de Instauração Obrigatória](#21-natureza-juridica-e-pressupostos-de-instauracao-obrigatoria)
-    2. [Fase Interna versus Fase Externa da TCE](#22-fase-interna-versus-fase-externa-da-tce)
-    3. [Teste 199](#Teste-199)
-    4. [Teste 200](#Teste-200)
-3. [Comunicações Processuais: Citação versus Audiência](#3-comunicacoes-processuais-citacao-versus-audiencia)
-    1. [Teste 201](#Teste-201)
-    2. [Teste 202](#Teste-202)
-4. [Julgamento das Contas de Gestão dos Administradores Públicos](#4-julgamento-das-contas-de-gestao-dos-administradores-publicos)
-    1. [Teste 203](#Teste-203)
-    2. [Teste 204](#Teste-204)
-5. [Sistema Recursal no Processo de Controle Externo](#5-sistema-recursal-no-processo-de-controle-externo)
-    1. [Teste 205](#Teste-205)
-    2. [Teste 206](#Teste-206)
-6. [Regime Sancionatório e Reflexos Eleitorais (Lei da Ficha Limpa)](#6-regime-sancionatorio-e-reflexos-eleitorais-lei-da-ficha-limpa)
-    1. [Teste 207](#Teste-207)
-7. [Prescrição nos Tribunais de Contas: O Marco do STF (Tema 899)](#7-prescricao-nos-tribunais-de-contas-o-marco-do-stf-tema-899)
-    1. [Teste 208](#Teste-208)
-8. [🌐 Fontes Oficiais & Jurisprudenciais Recomendadas](#fontes-oficiais-jurisprudenciais-recomendadas)
+1. [Comunicação dos Resultados e Deliberações do Tribunal](#1-comunicação-dos-resultados-e-deliberações-do-tribunal)
+    1. [Atributos do Relatório de Auditoria](#11-atributos-do-relatório-de-auditoria)
+    1. [Espécies de Deliberações: Determinações versus Recomendações](#12-espécies-de-deliberações-determinações-versus-recomendações)
+    1. [Teste 198](#teste-198)
+    1. [Teste 199](#teste-199)
+    1. [Teste 200](#teste-200)
+    1. [Teste 201](#teste-201)
+    1. [Teste 202](#teste-202)
+    1. [Teste 203](#teste-203)
+    1. [Teste 204](#teste-204)
+    1. [Teste 205](#teste-205)
+    1. [Teste 206](#teste-206)
+    1. [Teste 207](#teste-207)
+    1. [Teste 208](#teste-208)
 
 ---
 
 ## 1. Comunicação dos Resultados e Deliberações do Tribunal
 
 ### 1.1 Atributos do Relatório de Auditoria
+
 A comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100:
 
 - **Clareza:** Linguagem acessível, técnica e compreensível para os leitores e cidadãos;
@@ -79,6 +68,7 @@ A comunicação dos resultados dos trabalhos de auditoria e fiscalização deve 
 - **Tempestividade:** Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
 
 ### 1.2 Espécies de Deliberações: Determinações versus Recomendações
+
 As deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem-se em duas categorias fundamentais:
 
 - **Determinações:** Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
@@ -87,14 +77,15 @@ As deliberações do Tribunal de Contas proferidas no julgamento de relatórios 
 ---
 
 ### Teste 198
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da comunicação dos resultados das fiscalizações e da tramitação processual dos relatórios de auditoria no âmbito dos Tribunais de Contas, analise as proposições:
 
-* **A)** O relatório de auditoria é peça vinculante de julgamento, não admitindo emissão de parecer divergente pelo MPC competente.
-* **B)** A equipe de auditoria elabora relatório com achados, conclusões e propostas de encaminhamento ao relator.
-* **C)** O parecer prévio emitido sobre as contas do Governador submete-se a recurso ordinário de apelação perante o STF.
-* **D)** O plenário do Tribunal de Contas pode julgar processos em sessão secreta sem publicação prévia de pauta regimental.
-* **E)** As deliberações das Câmaras do Tribunal de Contas prescindem de fundamentação jurídica e motivação técnica expressa.
+- **A)** O relatório de auditoria é peça vinculante de julgamento, não admitindo emissão de parecer divergente pelo MPC competente.
+- **B)** A equipe de auditoria elabora relatório com achados, conclusões e propostas de encaminhamento ao relator.
+- **C)** O parecer prévio emitido sobre as contas do Governador submete-se a recurso ordinário de apelação perante o STF.
+- **D)** O plenário do Tribunal de Contas pode julgar processos em sessão secreta sem publicação prévia de pauta regimental.
+- **E)** As deliberações das Câmaras do Tribunal de Contas prescindem de fundamentação jurídica e motivação técnica expressa.
 
 ---
 
@@ -109,14 +100,15 @@ A respeito da comunicação dos resultados das fiscalizações e da tramitação
 > **Gabarito: B**
 
 ### Teste 199
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Tomada de Contas Especial (TCE) é um processo administrativo formal que visa a apurar a responsabilidade por ocorrência de dano ao erário. A respeito dos pressupostos materiais para a instauração de TCE perante o controle externo, é correto afirmar:
 
-* **A)** Instala-se diante de omissão na prestação de contas, desfalque, desvio de bens ou prática de ato ilegal lesivo ao erário.
-* **B)** Deve ser instaurada de imediato pelo órgão de origem sem necessidade de esgotamento das medidas administrativas internas.
-* **C)** Pode ser instaurada mesmo quando o valor do dano for inferior ao limite mínimo fixado para cobrança pelo Tribunal de Contas.
-* **D)** É instrumento privativo para apuração de infrações disciplinares leves cometidas por servidores estáveis em comissão.
-* **E)** Prescinde da quantificação precisa do débito e da identificação individualizada dos responsáveis pelo prejuízo público.
+- **A)** Instala-se diante de omissão na prestação de contas, desfalque, desvio de bens ou prática de ato ilegal lesivo ao erário.
+- **B)** Deve ser instaurada de imediato pelo órgão de origem sem necessidade de esgotamento das medidas administrativas internas.
+- **C)** Pode ser instaurada mesmo quando o valor do dano for inferior ao limite mínimo fixado para cobrança pelo Tribunal de Contas.
+- **D)** É instrumento privativo para apuração de infrações disciplinares leves cometidas por servidores estáveis em comissão.
+- **E)** Prescinde da quantificação precisa do débito e da identificação individualizada dos responsáveis pelo prejuízo público.
 
 ---
 
@@ -131,14 +123,15 @@ A Tomada de Contas Especial (TCE) é um processo administrativo formal que visa 
 > **Gabarito: A**
 
 ### Teste 200
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da Tomada de Contas Especial (TCE) perante o sistema constitucional de controle externo e sua tramitação no Tribunal de Contas, analise as proposições:
 
-* **A)** A citação do responsável no processo de TCE constitui faculdade instrutória exercida a critério discricionário do relator.
-* **B)** A comprovação de ausência de dolo na conduta exime o gestor do dever de ressarcimento integral do dano patrimonial apurado.
-* **C)** A instauração da TCE é obrigação da autoridade administrativa de origem sob pena de responsabilidade solidária funcional.
-* **D)** O falecimento do responsável extingue imediatamente o processo de TCE sem possibilidade de cobrança perante o espólio.
-* **E)** O Tribunal de Contas não pode decretar medidas cautelares como a indisponibilidade de bens no curso de processo de TCE.
+- **A)** A citação do responsável no processo de TCE constitui faculdade instrutória exercida a critério discricionário do relator.
+- **B)** A comprovação de ausência de dolo na conduta exime o gestor do dever de ressarcimento integral do dano patrimonial apurado.
+- **C)** A instauração da TCE é obrigação da autoridade administrativa de origem sob pena de responsabilidade solidária funcional.
+- **D)** O falecimento do responsável extingue imediatamente o processo de TCE sem possibilidade de cobrança perante o espólio.
+- **E)** O Tribunal de Contas não pode decretar medidas cautelares como a indisponibilidade de bens no curso de processo de TCE.
 
 ---
 
@@ -153,14 +146,15 @@ A respeito da Tomada de Contas Especial (TCE) perante o sistema constitucional d
 > **Gabarito: C**
 
 ### Teste 201
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No processo de tomada ou prestação de contas submetido ao julgamento do Tribunal de Contas, as contas dos gestores serão julgadas:
 
-* **A)** regulares, regulares com ressalva, irregulares ou iliquidáveis.
-* **B)** procedentes, parcialmente procedentes, improcedentes ou arquivadas.
-* **C)** válidas, anuláveis, nulas de pleno direito ou revogadas.
-* **D)** prescritas, decadentes, suspensas ou submetidas a transação.
-* **E)** homologadas, rejeitadas, convertidas em diligência ou embargadas.
+- **A)** regulares, regulares com ressalva, irregulares ou iliquidáveis.
+- **B)** procedentes, parcialmente procedentes, improcedentes ou arquivadas.
+- **C)** válidas, anuláveis, nulas de pleno direito ou revogadas.
+- **D)** prescritas, decadentes, suspensas ou submetidas a transação.
+- **E)** homologadas, rejeitadas, convertidas em diligência ou embargadas.
 
 ---
 
@@ -175,14 +169,15 @@ No processo de tomada ou prestação de contas submetido ao julgamento do Tribun
 > **Gabarito: A**
 
 ### Teste 202
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada autoridade administrativa, regularmente citada para apresentar defesa em processo de tomada de contas especial perante o Tribunal de Contas, permaneceu inerte, não apresentando justificativas no prazo fixado. A respeito dos efeitos da revelia no processo de controle externo, é correto afirmar:
 
-* **A)** A revelia induz a confissão ficta imediata quanto a toda a matéria de fato articulada na auditoria.
-* **B)** A revelia enseja o prosseguimento do processo, decidindo o Tribunal com base nas provas constantes dos autos.
-* **C)** A ausência de resposta tempestiva obriga o Tribunal de Contas a extinguir o processo sem exame do mérito administrativo.
-* **D)** O gestor revel é sumariamente destituído de suas funções públicas por decisão do Conselheiro Relator.
-* **E)** O Tribunal de Contas deve renovar a citação por edital no Diário Oficial antes de proferir o acórdão.
+- **A)** A revelia induz a confissão ficta imediata quanto a toda a matéria de fato articulada na auditoria.
+- **B)** A revelia enseja o prosseguimento do processo, decidindo o Tribunal com base nas provas constantes dos autos.
+- **C)** A ausência de resposta tempestiva obriga o Tribunal de Contas a extinguir o processo sem exame do mérito administrativo.
+- **D)** O gestor revel é sumariamente destituído de suas funções públicas por decisão do Conselheiro Relator.
+- **E)** O Tribunal de Contas deve renovar a citação por edital no Diário Oficial antes de proferir o acórdão.
 
 ---
 
@@ -197,14 +192,15 @@ Determinada autoridade administrativa, regularmente citada para apresentar defes
 > **Gabarito: B**
 
 ### Teste 203
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um Tribunal de Contas estadual, ao analisar o processo de prestação de contas de uma autarquia, identificou grave infração a norma legal de licitações praticada pelo diretor presidente, embora sem demonstração de locupletamento pessoal direto. Nesse caso, quanto ao poder sancionatório do Tribunal de Contas, é correto afirmar que a Corte:
 
-* **A)** não pode aplicar sanção ao responsável na ausência de comprovação de dano financeiro efetivo ao patrimônio público.
-* **B)** pode aplicar sanção de multa pecuniária proporcional à gravidade da infração apurada.
-* **C)** pode condenar o responsável a pena privativa de liberdade em regime aberto pelo crime praticado.
-* **D)** depende de ação judicial promovida pelo Ministério Público Estadual para imposição de penalidade.
-* **E)** pode decretar a cassação definitiva da cidadania e dos direitos políticos do gestor faltoso.
+- **A)** não pode aplicar sanção ao responsável na ausência de comprovação de dano financeiro efetivo ao patrimônio público.
+- **B)** pode aplicar sanção de multa pecuniária proporcional à gravidade da infração apurada.
+- **C)** pode condenar o responsável a pena privativa de liberdade em regime aberto pelo crime praticado.
+- **D)** depende de ação judicial promovida pelo Ministério Público Estadual para imposição de penalidade.
+- **E)** pode decretar a cassação definitiva da cidadania e dos direitos políticos do gestor faltoso.
 
 ---
 
@@ -219,15 +215,16 @@ Um Tribunal de Contas estadual, ao analisar o processo de prestação de contas 
 > **Gabarito: B**
 
 ### Teste 204
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Lei nº 9.504/1997 (Lei das Eleições) atribui funções específicas aos Tribunais de Contas no contexto do processo eleitoral e na fiscalização das candidaturas públicas.  
 Assinale a opção que apresenta a atribuição legal cometida diretamente aos Tribunais de Contas pela legislação eleitoral:
 
-* **A)** promover eventos periódicos de capacitação institucional para os candidatos a mandatos executivos e legislativos.
-* **B)** fiscalizar a prestação de contas eleitorais de campanha apresentadas pelos diretórios dos partidos políticos.
-* **C)** fornecer à Justiça Eleitoral relação dos gestores que tiveram contas relativas a cargos públicos julgadas irregulares.
-* **D)** julgar originariamente a inelegibilidade eleitoral dos servidores públicos que pretendam concorrer a cargos políticos.
-* **E)** emitir certidão de quitação eleitoral aos agentes públicos que tiveram contas aprovadas com parecer favorável.
+- **A)** promover eventos periódicos de capacitação institucional para os candidatos a mandatos executivos e legislativos.
+- **B)** fiscalizar a prestação de contas eleitorais de campanha apresentadas pelos diretórios dos partidos políticos.
+- **C)** fornecer à Justiça Eleitoral relação dos gestores que tiveram contas relativas a cargos públicos julgadas irregulares.
+- **D)** julgar originariamente a inelegibilidade eleitoral dos servidores públicos que pretendam concorrer a cargos políticos.
+- **E)** emitir certidão de quitação eleitoral aos agentes públicos que tiveram contas aprovadas com parecer favorável.
 
 ---
 
@@ -242,14 +239,15 @@ Assinale a opção que apresenta a atribuição legal cometida diretamente aos T
 > **Gabarito: C**
 
 ### Teste 205
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Contra acórdão proferido pelo Plenário do Tribunal de Contas que julgue irregulares as contas de determinado administrador público com imputação de débito e multa, a espécie recursal cabível, no prazo regimental de quinze dias e dotada de efeito suspensivo, é o:
 
-* **A)** pedido de reexame de relatório.
-* **B)** recurso de apelação cível ordinária.
-* **C)** recurso de reconsideração de acórdão.
-* **D)** agravo regimental de despacho interno.
-* **E)** recurso especial de fiscalização externa.
+- **A)** pedido de reexame de relatório.
+- **B)** recurso de apelação cível ordinária.
+- **C)** recurso de reconsideração de acórdão.
+- **D)** agravo regimental de despacho interno.
+- **E)** recurso especial de fiscalização externa.
 
 ---
 
@@ -264,14 +262,15 @@ Contra acórdão proferido pelo Plenário do Tribunal de Contas que julgue irreg
 > **Gabarito: C**
 
 ### Teste 206
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Sobre o sistema recursal no processo de controle externo perante o Tribunal de Contas, analise as hipóteses de cabimento do Recurso de Revisão:
 
-* **A)** É cabível no prazo preclusivo de quinze dias contados da notificação do acórdão condenatório.
-* **B)** Tem natureza de ação rescisória e pode ser interposto em cinco anos fundado em superveniência de documentos.
-* **C)** É dotado de efeito suspensivo automático, impedindo a remessa da certidão de débito para execução fiscal fazendária.
-* **D)** Pode ser interposto por qualquer cidadão eleitor independentemente da demonstração de legítimo interesse processual.
-* **E)** Destina-se exclusivamente a corrigir erros materiais ou contradições evidentes no texto do acórdão proferido.
+- **A)** É cabível no prazo preclusivo de quinze dias contados da notificação do acórdão condenatório.
+- **B)** Tem natureza de ação rescisória e pode ser interposto em cinco anos fundado em superveniência de documentos.
+- **C)** É dotado de efeito suspensivo automático, impedindo a remessa da certidão de débito para execução fiscal fazendária.
+- **D)** Pode ser interposto por qualquer cidadão eleitor independentemente da demonstração de legítimo interesse processual.
+- **E)** Destina-se exclusivamente a corrigir erros materiais ou contradições evidentes no texto do acórdão proferido.
 
 ---
 
@@ -286,14 +285,15 @@ Sobre o sistema recursal no processo de controle externo perante o Tribunal de C
 > **Gabarito: B**
 
 ### Teste 207
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Acerca dos reflexos eleitorais decorrentes das decisões terminativas e condenatórias dos Tribunais de Contas, a Lei Complementar nº 64/1990 (Lei das Inelegibilidades, art. 1º, I, alínea 'g') exige, para a configuração da inelegibilidade:
 
-* **A)** aprovação com ressalvas das contas anuais e ausência de recurso ao Poder Judiciário.
-* **B)** rejeição de contas por falha insanável que configure ato doloso de improbidade por decisão irrecorrível.
-* **C)** condenação a multa administrativa de valor irrisório pelo descumprimento de prazos regimentais.
-* **D)** emissão de parecer prévio desfavorável pelo Tribunal de Contas sem necessidade de julgamento pela Câmara de Vereadores.
-* **E)** decretação de indisponibilidade cautelar de bens decretada monocraticamente pelo Conselheiro Relator.
+- **A)** aprovação com ressalvas das contas anuais e ausência de recurso ao Poder Judiciário.
+- **B)** rejeição de contas por falha insanável que configure ato doloso de improbidade por decisão irrecorrível.
+- **C)** condenação a multa administrativa de valor irrisório pelo descumprimento de prazos regimentais.
+- **D)** emissão de parecer prévio desfavorável pelo Tribunal de Contas sem necessidade de julgamento pela Câmara de Vereadores.
+- **E)** decretação de indisponibilidade cautelar de bens decretada monocraticamente pelo Conselheiro Relator.
 
 ---
 
@@ -308,14 +308,15 @@ Acerca dos reflexos eleitorais decorrentes das decisões terminativas e condenat
 > **Gabarito: B**
 
 ### Teste 208
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A adoção da forma republicana de Estado acarreta o dever permanente de accountability, impondo-se a responsabilidade pessoal dos agentes públicos pela guarda e aplicação dos recursos públicos. A decisão do Tribunal de Contas que extingue o processo com julgamento de mérito das contas prestadas por administrador público de sociedade de economia mista estadual é classificada formalmente como decisão:
 
-* **A)** Preliminar, não sujeita a recurso por se tratar de pronunciamento de índole estritamente administrativa.
-* **B)** Definitiva, sujeita a recurso de reconsideração no prazo de quinze dias, dotado de efeito suspensivo.
-* **C)** Provisória, sujeita a confirmação obrigatória pelo plenário da Assembleia Legislativa estadual.
-* **D)** Interlocutória, sujeita a pedido de esclarecimento perante a Câmara técnica de instrução processual.
-* **E)** Terminativa, que não examina o mérito em virtude de ilegitimidade passiva do gestor fiscalizado.
+- **A)** Preliminar, não sujeita a recurso por se tratar de pronunciamento de índole estritamente administrativa.
+- **B)** Definitiva, sujeita a recurso de reconsideração no prazo de quinze dias, dotado de efeito suspensivo.
+- **C)** Provisória, sujeita a confirmação obrigatória pelo plenário da Assembleia Legislativa estadual.
+- **D)** Interlocutória, sujeita a pedido de esclarecimento perante a Câmara técnica de instrução processual.
+- **E)** Terminativa, que não examina o mérito em virtude de ilegitimidade passiva do gestor fiscalizado.
 
 ---
 
@@ -328,4 +329,3 @@ A adoção da forma republicana de Estado acarreta o dever permanente de account
 > - **E)** **Incorreto**. Decisão terminativa é aquela pela qual o Tribunal de Contas tranca ou extingue o processo sem resolução de mérito (ex.: contas iliquidáveis ou ausência de pressupostos).
 >
 > **Gabarito: B**
-

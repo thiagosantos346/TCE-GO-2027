@@ -1,15 +1,14 @@
 # 04 - Ciência de Dados, Estatística Aplicada e Big Data
+
 **Última Atualização:** 2026-03-31  
 **Banca Foco:** FCC (Fundação Carlos Chagas)  
 **Cargo:** Auditor de Controle Externo - Tecnologia da Informação  
 **Status do Mapeamento:** 100% aderente ao edital TCE-GO
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 1. **Fundamentos de Ciência de Dados e Metodologia CRISP-DM:** As seis fases iterativas do CRISP-DM (*Business Understanding*, *Data Understanding*, *Data Preparation*, *Modeling*, *Evaluation*, *Deployment*).
 2. **Pipeline de Dados e Engenharia de Features:** Tratamento de valores ausentes (*Missing Values*: MCAR, MAR, MNAR, deleção e métodos de imputação simples e avançada com KNN Imputer); Detecção de outliers (critério do IQR de Tukey e escore Z); Transformações de escala (Normalização Min-Max vs. Padronização/StandardScaler); Codificação categórica (One-Hot Encoding e armadilha dummy vs. Ordinal/Label Encoding); e Análise Exploratória de Dados (EDA).
 3. **Estatística Aplicada e Probabilidade:** Medidas de tendência central (Média, Mediana e Moda) e assimetria de distribuições (simétrica, assimetria positiva à direita e assimetria negativa à esquerda); Medidas de dispersão (Variância, Desvio Padrão e Coeficiente de Variação); Distribuições canônicas (Normal/Gaussiana com regra empírica 68-95-99.7%, Binomial e Poisson); Inferência estatística e Testes de Hipóteses ($H_0$, $H_1$, Erro Tipo I $\alpha$, Erro Tipo II $\beta$, nível de significância e regra de decisão pelo $p$-valor).
@@ -21,32 +20,32 @@
 ## 🧭 Sumário
 
 1. [Metodologia CRISP-DM e Pipeline de Engenharia de Dados](#1-metodologia-crisp-dm-e-pipeline-de-engenharia-de-dados)
-    - [1.1 As Seis Fases do Framework CRISP-DM](#11-as-seis-fases-do-framework-crisp-dm)
-    - [1.2 Tratamento de Valores Ausentes e Outliers (Critério IQR)](#12-tratamento-de-valores-ausentes-e-outliers-criterio-iqr)
-    - [1.3 Escalonamento e Codificação de Variáveis Categóricas](#13-escalonamento-e-codificacao-de-variaveis-categoricas)
-    - [Teste 333](#teste-333)
-    - [Teste 334](#teste-334)
-    - [Teste 335](#teste-335)
-    - [Teste 336](#teste-336)
-    - [Teste 337](#teste-337)
-    - [Teste 338](#teste-338)
-2. [Estatística Aplicada, Probabilidades e Testes de Hipóteses](#2-estatistica-aplicada-probabilidades-e-testes-de-hipoteses)
-    - [2.1 Medidas de Tendência Central, Dispersão e Assimetria](#21-medidas-de-tendencia-central-dispersao-e-assimetria)
-    - [2.2 Distribuições de Probabilidade: Normal, Binomial e Poisson](#22-distribuicoes-de-probabilidade-normal-binomial-e-poisson)
-    - [2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor](#23-testes-de-hipoteses-erros-tipo-i-e-ii-e-criterio-do-p-valor)
-3. [Avaliação de Modelos Preditivos (Classificação e Regressão)](#3-avaliacao-de-modelos-preditivos-classificacao-e-regressao)
-    - [3.1 O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)](#31-o-trade-off-vies-vs-variancia-bias-variance-tradeoff)
-    - [3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas](#32-matriz-de-confusao-e-metricas-para-classes-desbalanceadas)
-    - [3.3 Curva ROC, AUC-ROC e Métricas de Regressão (MAE, MSE, RMSE, R²)](#33-curva-roc-auc-roc-e-metricas-de-regressao-mae-mse-rmse-r2)
-    - [Teste 339](#teste-339)
-    - [Teste 340](#teste-340)
-    - [Teste 341](#teste-341)
+    1. [As Seis Fases do Framework CRISP-DM](#11-as-seis-fases-do-framework-crisp-dm)
+    1. [Tratamento de Valores Ausentes e Outliers (Critério IQR)](#12-tratamento-de-valores-ausentes-e-outliers-critério-iqr)
+    1. [Escalonamento e Codificação de Variáveis Categóricas](#13-escalonamento-e-codificação-de-variáveis-categóricas)
+    1. [Teste 333](#teste-333)
+    1. [Teste 334](#teste-334)
+    1. [Teste 335](#teste-335)
+    1. [Teste 336](#teste-336)
+    1. [Teste 337](#teste-337)
+    1. [Teste 338](#teste-338)
+2. [Estatística Aplicada, Probabilidades e Testes de Hipóteses](#2-estatística-aplicada-probabilidades-e-testes-de-hipóteses)
+    1. [Medidas de Tendência Central, Dispersão e Assimetria](#21-medidas-de-tendência-central-dispersão-e-assimetria)
+    1. [Distribuições de Probabilidade: Normal, Binomial e Poisson](#22-distribuições-de-probabilidade-normal-binomial-e-poisson)
+    1. [Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor](#23-testes-de-hipóteses-erros-tipo-i-e-ii-e-critério-do-p-valor)
+3. [Avaliação de Modelos Preditivos (Classificação e Regressão)](#3-avaliação-de-modelos-preditivos-classificação-e-regressão)
+    1. [O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)](#31-o-trade-off-viés-vs-variância-bias-variance-tradeoff)
+    1. [Matriz de Confusão e Métricas para Classes Desbalanceadas](#32-matriz-de-confusão-e-métricas-para-classes-desbalanceadas)
+    1. [Curva ROC, AUC-ROC e Métricas de Regressão (MAE, MSE, RMSE, R²)](#33-curva-roc-auc-roc-e-métricas-de-regressão-mae-mse-rmse-r²)
+    1. [Teste 339](#teste-339)
+    1. [Teste 340](#teste-340)
+    1. [Teste 341](#teste-341)
 4. [Ecossistema Big Data: Hadoop e Apache Spark](#4-ecossistema-big-data-hadoop-e-apache-spark)
-    - [4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop](#41-os-vs-do-big-data-e-a-arquitetura-hdfsyarn-do-hadoop)
-    - [4.2 Paradigma MapReduce e suas Limitações de I/O em Disco](#42-paradigma-mapreduce-e-suas-limitacoes-de-io-em-disco)
-    - [4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs](#43-apache-spark-processamento-em-memoria-lazy-evaluation-e-rdds)
-    - [Teste 342](#teste-342)
-    - [Teste 343](#teste-343)
+    1. [Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop](#41-os-vs-do-big-data-e-a-arquitetura-hdfsyarn-do-hadoop)
+    1. [Paradigma MapReduce e suas Limitações de I/O em Disco](#42-paradigma-mapreduce-e-suas-limitações-de-io-em-disco)
+    1. [Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs](#43-apache-spark-processamento-em-memória-lazy-evaluation-e-rdds)
+    1. [Teste 342](#teste-342)
+    1. [Teste 343](#teste-343)
 
 ---
 
@@ -86,23 +85,23 @@ O **CRISP-DM (*Cross-Industry Standard Process for Data Mining*)** é o padrão 
 
 ### 1.2 Tratamento de Valores Ausentes e Outliers (Critério IQR)
 
-* **Tratamento de Valores Ausentes (*Missing Values*):**
-    - *Mecanismos Teóricos de Perda:*
-    - **MCAR (*Missing Completely at Random*):** A falta do dado ocorre de forma estritamente aleatória, não guardando correlação com nenhuma variável observada ou não observada na base.
-    - **MAR (*Missing at Random*):** A probabilidade de o dado faltar relaciona-se sistematicamente com outras variáveis conhecidas da base (ex.: declarações de renda faltam mais frequentemente para determinados perfis etários observados).
-    - **MNAR (*Missing Not at Random*):** O motivo da ausência relaciona-se diretamente com o próprio valor não registrado (ex.: contribuintes que praticaram desvios milionários recusam-se a preencher o campo de patrimônio).
-    - *Abordagens de Tratamento:*
-    - *Remoção:* Exclusão de linhas (*listwise*) ou colunas. Inviável quando reduz excessivamente o poder estatístico da amostra.
-    - *Imputação Simples:* Substituição pela Média (distribuições normais e simétricas), pela Mediana (distribuições assimétricas ou com presença de outliers) ou pela Moda (dados categóricos nominais).
-    - *Imputação Avançada:* **KNN Imputer** (imputa pelo valor ponderado dos $k$ vizinhos mais próximos no espaço vetorial) e **MICE** (*Multivariate Imputation by Chained Equations*).
+- **Tratamento de Valores Ausentes (*Missing Values*):**
+  - *Mecanismos Teóricos de Perda:*
+  - **MCAR (*Missing Completely at Random*):** A falta do dado ocorre de forma estritamente aleatória, não guardando correlação com nenhuma variável observada ou não observada na base.
+  - **MAR (*Missing at Random*):** A probabilidade de o dado faltar relaciona-se sistematicamente com outras variáveis conhecidas da base (ex.: declarações de renda faltam mais frequentemente para determinados perfis etários observados).
+  - **MNAR (*Missing Not at Random*):** O motivo da ausência relaciona-se diretamente com o próprio valor não registrado (ex.: contribuintes que praticaram desvios milionários recusam-se a preencher o campo de patrimônio).
+  - *Abordagens de Tratamento:*
+  - *Remoção:* Exclusão de linhas (*listwise*) ou colunas. Inviável quando reduz excessivamente o poder estatístico da amostra.
+  - *Imputação Simples:* Substituição pela Média (distribuições normais e simétricas), pela Mediana (distribuições assimétricas ou com presença de outliers) ou pela Moda (dados categóricos nominais).
+  - *Imputação Avançada:* **KNN Imputer** (imputa pelo valor ponderado dos $k$ vizinhos mais próximos no espaço vetorial) e **MICE** (*Multivariate Imputation by Chained Equations*).
 
-* **Detecção de Valores Discrepantes (*Outliers*) pelo Critério do IQR:**
-    - O método de John Tukey baseia-se no **Intervalo Interquartil (IQR - *Interquartile Range*)**:
+- **Detecção de Valores Discrepantes (*Outliers*) pelo Critério do IQR:**
+  - O método de John Tukey baseia-se no **Intervalo Interquartil (IQR - *Interquartile Range*)**:
     $$\text{IQR} = Q_3 - Q_1$$
     $$\text{Limite Inferior (LI)} = Q_1 - 1{,}5 \cdot \text{IQR}$$
     $$\text{Limite Superior (LS)} = Q_3 + 1{,}5 \cdot \text{IQR}$$
-    - Qualquer observação que satisfaça $x < \text{LI}$ ou $x > \text{LS}$ é categorizada como **outlier moderado**. Se o fator multiplicador for $3{,}0$, classifica-se como **outlier extremo**.
-    - O critério do **Escore Z (*Z-Score*)** ($Z = \frac{x - \mu}{\sigma}$) sinaliza anomalias quando $|Z| > 3$, pressupondo distribuição aproximadamente normal.
+  - Qualquer observação que satisfaça $x < \text{LI}$ ou $x > \text{LS}$ é categorizada como **outlier moderado**. Se o fator multiplicador for $3{,}0$, classifica-se como **outlier extremo**.
+  - O critério do **Escore Z (*Z-Score*)** ($Z = \frac{x - \mu}{\sigma}$) sinaliza anomalias quando $|Z| > 3$, pressupondo distribuição aproximadamente normal.
 
 ### 1.3 Escalonamento e Codificação de Variáveis Categóricas
 
@@ -121,17 +120,17 @@ O **CRISP-DM (*Cross-Industry Standard Process for Data Mining*)** é o padrão 
 ---
 
 ### Teste 333
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No desenvolvimento de um projeto de ciência de dados estruturado sob a metodologia CRISP-DM para análise de superfaturamento em contratos de obras públicas, os analistas estão executando a etapa de *Data Preparation*. Durante a identificação de valores discrepantes no custo unitário do metro quadrado de asfalto, a equipe optou pela técnica do Intervalo Interquartil (IQR).
 A base de dados indicou que o primeiro quartil ($Q_1$) foi apurado em R$ 200,00 e o terceiro quartil ($Q_3$) foi apurado em R$ 350,00.
 A respeito da metodologia CRISP-DM e dos critérios de pré-processamento de outliers, assinale a afirmativa correta:
 
-* **A)** O Intervalo Interquartil (IQR) é de R$ 550,00, e qualquer valor acima de R$ 900,00 será classificado como valor regular.
-* **B)** O IQR é de R$ 150,00 ($350 - 200$), o Limite Inferior é de R$ -25,00 ($200 - 1{,}5 \times 150$) e o Limite Superior é de R$ 575,00 ($350 + 1{,}5 \times 150$), configurando como outlier qualquer custo unitário superior a R$ 575,00.
-* **C)** Na metodologia CRISP-DM, a fase de *Business Understanding* sucede a fase de *Deployment*, visto que o entendimento dos objetivos de negócio só pode ocorrer após a solução estar em produção.
-* **D)** A técnica de Padronização (*Z-Score*) deve ser evitada em modelos baseados em gradiente descendente, sendo imperativo o uso exclusivo do One-Hot Encoding para variáveis puramente numéricas.
-* **E)** A metodologia CRISP-DM proíbe expressamente qualquer retorno ou iteração entre a fase de Modelagem (*Modeling*) e a fase de Preparação de Dados (*Data Preparation*).
-
+- **A)** O Intervalo Interquartil (IQR) é de R$ 550,00, e qualquer valor acima de R$ 900,00 será classificado como valor regular.
+- **B)** O IQR é de R$ 150,00 ($350 - 200$), o Limite Inferior é de R$ -25,00 ($200 - 1{,}5 \times 150$) e o Limite Superior é de R$ 575,00 ($350 + 1{,}5 \times 150$), configurando como outlier qualquer custo unitário superior a R$ 575,00.
+- **C)** Na metodologia CRISP-DM, a fase de *Business Understanding* sucede a fase de *Deployment*, visto que o entendimento dos objetivos de negócio só pode ocorrer após a solução estar em produção.
+- **D)** A técnica de Padronização (*Z-Score*) deve ser evitada em modelos baseados em gradiente descendente, sendo imperativo o uso exclusivo do One-Hot Encoding para variáveis puramente numéricas.
+- **E)** A metodologia CRISP-DM proíbe expressamente qualquer retorno ou iteração entre a fase de Modelagem (*Modeling*) e a fase de Preparação de Dados (*Data Preparation*).
 
 ---
 
@@ -139,30 +138,30 @@ A respeito da metodologia CRISP-DM e dos critérios de pré-processamento de out
 >
 > - **A)** Incorreta. O IQR é a diferença entre os quartis ($Q_3 - Q_1 = 350 - 200 = 150$), e não a soma.
 > - **B)** **Correta.** Aplicando o critério formal de Tukey:
->     - $\text{IQR} = 350 - 200 = 150$
->     - $\text{Limite Superior} = Q_3 + 1{,}5 \cdot \text{IQR} = 350 + 1{,}5 \cdot 150 = 350 + 225 = 575$
->     - $\text{Limite Inferior} = Q_1 - 1{,}5 \cdot \text{IQR} = 200 - 1{,}5 \cdot 150 = 200 - 225 = -25$
+>   - $\text{IQR} = 350 - 200 = 150$
+>   - $\text{Limite Superior} = Q_3 + 1{,}5 \cdot \text{IQR} = 350 + 1{,}5 \cdot 150 = 350 + 225 = 575$
+>   - $\text{Limite Inferior} = Q_1 - 1{,}5 \cdot \text{IQR} = 200 - 1{,}5 \cdot 150 = 200 - 225 = -25$
 >   Portanto, qualquer custo unitário por $m^2$ superior a R$ 575,00 é formalmente rotulado como outlier.
 > - **C)** Incorreta. *Business Understanding* é a **primeira** fase do CRISP-DM, enquanto o *Deployment* é a última.
 > - **D)** Incorreta. A padronização é altamente indicada para algoritmos com descida de gradiente, e o *One-Hot Encoding* é uma técnica exclusiva para atributos categóricos.
 > - **E)** Incorreta. O ciclo CRISP-DM é intrinsecamente iterativo, com retorno contínuo entre modelagem e preparação de dados.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 334
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um projeto de ciência de dados para auditoria de contratos emergenciais de saúde, a equipe técnica precisa identificar desvios grosseiros e valores atípicos (*outliers*) nos preços unitários de medicamentos, utilizando um método estatístico não paramétrico e robusto à presença de distribuições assimétricas.
 
 O método amplamente recomendado pela literatura é o do **Intervalo Interquartil** (*Interquartile Range - IQR*). Considerando o Primeiro Quartil ($Q_1$) e o Terceiro Quartil ($Q_3$) de uma série ordenada de preços, assinale a opção que apresenta os limites inferior e superior que definem formalmente um *outlier* pelo critério de Tukey:
 
-* **A)** Limite Inferior: $Q_1 - 1,5 \cdot IQR$; Limite Superior: $Q_3 + 1,5 \cdot IQR$, onde $IQR = Q_3 - Q_1$.
-* **B)** Limite Inferior: $\mu - 2 \cdot \sigma$; Limite Superior: $\mu + 2 \cdot \sigma$, sendo $\mu$ a média e $\sigma$ a variância.
-* **C)** Limite Inferior: $0$; Limite Superior: $Q_3 \times 100$.
-* **D)** Limite Inferior: $\text{Mediana} / 2$; Limite Superior: $\text{Mediana} \times 2$.
-* **E)** Limite Inferior: $Q_1 + Q_3$; Limite Superior: $Q_1 - Q_3$.
-
+- **A)** Limite Inferior: $Q_1 - 1,5 \cdot IQR$; Limite Superior: $Q_3 + 1,5 \cdot IQR$, onde $IQR = Q_3 - Q_1$.
+- **B)** Limite Inferior: $\mu - 2 \cdot \sigma$; Limite Superior: $\mu + 2 \cdot \sigma$, sendo $\mu$ a média e $\sigma$ a variância.
+- **C)** Limite Inferior: $0$; Limite Superior: $Q_3 \times 100$.
+- **D)** Limite Inferior: $\text{Mediana} / 2$; Limite Superior: $\text{Mediana} \times 2$.
+- **E)** Limite Inferior: $Q_1 + Q_3$; Limite Superior: $Q_1 - Q_3$.
 
 ---
 
@@ -178,12 +177,13 @@ O método amplamente recomendado pela literatura é o do **Intervalo Interquarti
 > - **C)** Incorreta. Fórmulas fictícias sem fundamentação estatística.
 > - **D)** Incorreta. A mediana por si só não expressa a dispersão dos quartis intermediários.
 > - **E)** Incorreta. Fórmulas sem sentido algébrico.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 335
+
 **(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Ciência de Dados / TI)**  
 Ao se utilizar bancos de dados reais no treinamento de métodos de aprendizado de máquina é normal se deparar com entradas que possuem um ou mais parâmetros (campos) ausentes. Com relação às estratégias para lidar com dados ausentes, analise as afirmativas a seguir.
 
@@ -193,11 +193,11 @@ III. Ao se trabalhar com bancos de dados com poucas amostras (itens), uma estrat
 
 Está correto o que se afirma em:
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** I, II e III.
+- **A)** I, apenas.
+- **B)** II, apenas.
+- **C)** III, apenas.
+- **D)** I e II, apenas.
+- **E)** I, II e III.
 
 ---
 
@@ -206,22 +206,22 @@ Está correto o que se afirma em:
 > - **I. Incorreta.** É plenamente viável realizar imputação em atributos categóricos (não numéricos), utilizando a moda (valor mais frequente), algoritmos de classificação supervisionada ou a criação de uma categoria explícita "Desconhecido/Ausente".
 > - **II. CORRETA.** O algoritmo KNN calcula a distância euclidiana (ou manhattan) entre os pontos no espaço vetorial para encontrar os $k$ vizinhos mais próximos. Se os atributos estiverem em escalas numéricas díspares, a variável com maior magnitude numérica dominará o cálculo de distância, distorcendo os vizinhos. Portanto, normalizar ou padronizar os dados antes do KNN Imputer é um procedimento metodológico essencial.
 > - **III. Incorreta.** Quando o conjunto de dados possui poucas amostras (dataset pequeno ou escasso), a remoção de linhas (*listwise deletion*) agrava a perda de poder estatístico e pode introduzir viés de amostragem; em datasets pequenos, a imputação cuidadosa (média, mediana, KNN ou MICE) é prioritária sobre o descarte.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 336
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na análise estatística dos salários praticados por fornecedores contratados pelo setor público, observou-se que a distribuição de rendimentos apresenta uma acentuada **Assimetria Positiva (à direita)**, decorrente da existência de uma minoria de executivos com salários desproporcionalmente vultosos em comparação com o grande contingente de operários.
 Considerando o comportamento das medidas de tendência central e os conceitos de inferência estatística, assinale a alternativa correta:
 
-* **A)** Em uma distribuição contínua unimodal com assimetria positiva, a relação de ordem observada entre as medidas de posição é: $\text{Moda} < \text{Mediana} < \text{Média}$.
-* **B)** Em uma distribuição perfeitamente simétrica gaussiana, a Média é estritamente superior à Mediana, e a Moda assume obrigatoriamente valor nulo.
-* **C)** O Erro Tipo I em um teste de hipóteses ocorre quando o auditor decide não rejeitar a hipótese nula $H_0$, mesmo sendo ela flagrantemente falsa.
-* **D)** Um $p$-valor de $0{,}001$ obtido em um teste estatístico indica que se deve aceitar a hipótese nula $H_0$ sob o nível de significância padrão de $\alpha = 0{,}05$.
-* **E)** O desvio padrão amostral de uma variável não se altera quando todos os valores observados na amostra são multiplicados por uma constante real não nula.
-
+- **A)** Em uma distribuição contínua unimodal com assimetria positiva, a relação de ordem observada entre as medidas de posição é: $\text{Moda} < \text{Mediana} < \text{Média}$.
+- **B)** Em uma distribuição perfeitamente simétrica gaussiana, a Média é estritamente superior à Mediana, e a Moda assume obrigatoriamente valor nulo.
+- **C)** O Erro Tipo I em um teste de hipóteses ocorre quando o auditor decide não rejeitar a hipótese nula $H_0$, mesmo sendo ela flagrantemente falsa.
+- **D)** Um $p$-valor de $0{,}001$ obtido em um teste estatístico indica que se deve aceitar a hipótese nula $H_0$ sob o nível de significância padrão de $\alpha = 0{,}05$.
+- **E)** O desvio padrão amostral de uma variável não se altera quando todos os valores observados na amostra são multiplicados por uma constante real não nula.
 
 ---
 
@@ -232,23 +232,23 @@ Considerando o comportamento das medidas de tendência central e os conceitos de
 > - **C)** Incorreta. O Erro Tipo I ($\alpha$) é **rejeitar** $H_0$ quando $H_0$ é verdadeira. Não rejeitar $H_0$ falsa é o Erro Tipo II ($\beta$).
 > - **D)** Incorreta. A regra de decisão estatística determina: se $p\text{-valor} \le \alpha$, a hipótese $H_0$ deve ser **rejeitada**. Com $p = 0{,}001$ e $\alpha = 0{,}05$, rejeita-se $H_0$.
 > - **E)** Incorreta. Se multiplicarmos todos os valores por uma constante $c$, o desvio padrão é multiplicado por $|c|$.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 337
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A Distribuição Normal (Gaussiana) é o modelo probabilístico mais importante da inferência estatística e da ciência de dados, formalmente expressa por sua densidade de probabilidade $X \sim \mathcal{N}(\mu, \sigma^2)$.
 
 A respeito das propriedades geométricas e teóricas da Distribuição Normal, assinale a afirmativa correta:
 
-* **A)** A curva da distribuição normal é assimétrica e bimodal, onde a moda diverge significativamente da média e da mediana.
-* **B)** Na distribuição normal, a média, a mediana e a moda coincidem no centro exato da curva; além disso, pela regra empírica (regra 68-95-99.7), aproximadamente 68,26% das observações situam-se no intervalo de $\mu \pm 1\sigma$, aproximadamente 95,44% em $\mu \pm 2\sigma$ e cerca de 99,73% em $\mu \pm 3\sigma$.
-* **C)** O Teorema Central do Limite estabelece que a soma ou média de variáveis aleatórias independentes e identicamente distribuídas converge para uma distribuição exponencial quando o tamanho da amostra tende ao infinito.
-* **D)** A área total sob a curva de densidade de probabilidade de uma Gaussiana é igual a 100,0.
-* **E)** O desvio padrão ($\sigma$) desloca a curva horizontalmente para a direita ou esquerda sem afetar o seu achatamento ou dispersão.
-
+- **A)** A curva da distribuição normal é assimétrica e bimodal, onde a moda diverge significativamente da média e da mediana.
+- **B)** Na distribuição normal, a média, a mediana e a moda coincidem no centro exato da curva; além disso, pela regra empírica (regra 68-95-99.7), aproximadamente 68,26% das observações situam-se no intervalo de $\mu \pm 1\sigma$, aproximadamente 95,44% em $\mu \pm 2\sigma$ e cerca de 99,73% em $\mu \pm 3\sigma$.
+- **C)** O Teorema Central do Limite estabelece que a soma ou média de variáveis aleatórias independentes e identicamente distribuídas converge para uma distribuição exponencial quando o tamanho da amostra tende ao infinito.
+- **D)** A área total sob a curva de densidade de probabilidade de uma Gaussiana é igual a 100,0.
+- **E)** O desvio padrão ($\sigma$) desloca a curva horizontalmente para a direita ou esquerda sem afetar o seu achatamento ou dispersão.
 
 ---
 
@@ -258,30 +258,30 @@ A respeito das propriedades geométricas e teóricas da Distribuição Normal, a
 > - **B)** **CORRETA.** Propriedades geométricas e probabilísticas basilares da Normal:
 >   1. **Coincidência dos Parâmetros Centrais:** $\text{Média} = \text{Mediana} = \text{Moda} = \mu$.
 >   2. **Simetria Perfeita:** Coeficiente de assimetria (*skewness*) igual a 0 e curtose normal de referência (kurtosis excess igual a 0).
->   3. **Regra Empírica dos Desvios:** 
+>   3. **Regra Empírica dos Desvios:**
 >      - $P(\mu - 1\sigma \le X \le \mu + 1\sigma) \approx 68,27\%$
 >      - $P(\mu - 2\sigma \le X \le \mu + 2\sigma) \approx 95,45\%$
 >      - $P(\mu - 3\sigma \le X \le \mu + 3\sigma) \approx 99,73\%$
 > - **C)** Incorreta. O **Teorema Central do Limite (TCL)** garante a convergência para a **Distribuição Normal**, e não para a distribuição exponencial.
 > - **D)** Incorreta. A integral total sob qualquer função densidade de probabilidade contínua é rigorosamente igual a $1$ (representando 100% da probabilidade total).
 > - **E)** Incorreta. Quem desloca a curva horizontalmente é a média ($\mu$); o desvio padrão ($\sigma$) controla a dispersão (largura e achatamento).
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 338
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na auditoria estatística de folha de pagamento, os auditores formulam um teste de hipóteses para avaliar se a média de horas extras de determinado departamento ($H_1$) é estatisticamente superior ao limite legal regulamentado ($H_0$).
 
 A respeito dos conceitos de hipótese nula, erros de decisão e interpretação do $p$-valor, assinale a afirmativa correta:
 
-* **A)** O Erro Tipo I ($lpha$) ocorre quando o teste rejeita a hipótese nula ($H_0$) sendo ela verdadeira (Falso Positivo); ao passo que o Erro Tipo II ($eta$) ocorre quando o teste não rejeita a hipótese nula sendo ela falsa (Falso Negativo).
-* **B)** O nível de significância $\alpha$ deve ser fixado em 99% para garantir que não haja erros de tipo I.
-* **C)** Um $p$-valor menor que o nível de significância estipulado (ex.: $p < 0,05$) indica que a hipótese nula ($H_0$) deve ser aceita e confirmada como verdadeira com certeza absoluta.
-* **D)** O Poder do Teste estatístico é dado algebricamente por $1 - \alpha$.
-* **E)** A hipótese alternativa ($H_1$) representa o estado inicial de conformidade ou ausência de efeito a ser mantido caso faltem evidências probatórias.
-
+- **A)** O Erro Tipo I ($lpha$) ocorre quando o teste rejeita a hipótese nula ($H_0$) sendo ela verdadeira (Falso Positivo); ao passo que o Erro Tipo II ($eta$) ocorre quando o teste não rejeita a hipótese nula sendo ela falsa (Falso Negativo).
+- **B)** O nível de significância $\alpha$ deve ser fixado em 99% para garantir que não haja erros de tipo I.
+- **C)** Um $p$-valor menor que o nível de significância estipulado (ex.: $p < 0,05$) indica que a hipótese nula ($H_0$) deve ser aceita e confirmada como verdadeira com certeza absoluta.
+- **D)** O Poder do Teste estatístico é dado algebricamente por $1 - \alpha$.
+- **E)** A hipótese alternativa ($H_1$) representa o estado inicial de conformidade ou ausência de efeito a ser mantido caso faltem evidências probatórias.
 
 ---
 
@@ -295,7 +295,7 @@ A respeito dos conceitos de hipótese nula, erros de decisão e interpretação 
 > - **C)** Incorreta. A regra universal de decisão é: **se $p < \alpha$, rejeita-se $H_0$** em favor da hipótese alternativa ($H_1$). O $p$-valor mede a probabilidade de observar dados tão ou mais extremos sob a premissa de que $H_0$ fosse verdadeira.
 > - **D)** Incorreta. O Poder do Teste é $1 - \beta$ (complementar ao erro tipo II), e não $1 - \alpha$ (que é o nível de confiança).
 > - **E)** Incorreta. Quem representa o status quo ou ausência de diferença/efeito é a **hipótese nula ($H_0$)**.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -304,11 +304,11 @@ A respeito dos conceitos de hipótese nula, erros de decisão e interpretação 
 
 ### 2.1 Medidas de Tendência Central, Dispersão e Assimetria
 
-* **Medidas de Posição:**
-    - **Média Aritmética ($\bar{x}$):** Centro de massa da distribuição ($\bar{x} = \frac{1}{n}\sum x_i$). Extremamente vulnerável a distorções por valores discrepantes.
-    - **Mediana ($Md$):** O elemento central ordenado que divide a amostra exatamente ao meio (percentil 50). Trata-se de uma medida **robusta e resistente a outliers**.
-    - **Moda ($Mo$):** O valor que ocorre com a maior frequência estatística observada.
-* **Comportamento das Medidas sob Assimetria de Distribuições:**
+- **Medidas de Posição:**
+  - **Média Aritmética ($\bar{x}$):** Centro de massa da distribuição ($\bar{x} = \frac{1}{n}\sum x_i$). Extremamente vulnerável a distorções por valores discrepantes.
+  - **Mediana ($Md$):** O elemento central ordenado que divide a amostra exatamente ao meio (percentil 50). Trata-se de uma medida **robusta e resistente a outliers**.
+  - **Moda ($Mo$):** O valor que ocorre com a maior frequência estatística observada.
+- **Comportamento das Medidas sob Assimetria de Distribuições:**
 
 ```
    Assimetria Positiva (à Direita)            Distribuição Simétrica           Assimetria Negativa (à Esquerda)
@@ -328,10 +328,10 @@ A respeito dos conceitos de hipótese nula, erros de decisão e interpretação 
 > - **Assimetria Negativa (à Esquerda / Cauda Longa Inferior):** **$\text{Média} < \text{Mediana} < \text{Moda}$**.
 > - **Distribuição Simétrica:** **$\text{Média} = \text{Mediana} = \text{Moda}$**.
 
-* **Medidas de Dispersão:**
-    - **Variância Amostral ($s^2$):** $\frac{1}{n-1}\sum (x_i - \bar{x})^2$ (utiliza o divisor de Bessel $n-1$ para estimador não enviesado).
-    - **Desvio Padrão ($s$):** $\sqrt{s^2}$, expresso na mesma unidade de medida da variável original.
-    - **Coeficiente de Variação (CV):** $\text{CV} = \frac{s}{\bar{x}} \times 100\%$. Medida relativa adimensional que viabiliza a comparação direta da variabilidade entre variáveis de escalas ou grandezas distintas.
+- **Medidas de Dispersão:**
+  - **Variância Amostral ($s^2$):** $\frac{1}{n-1}\sum (x_i - \bar{x})^2$ (utiliza o divisor de Bessel $n-1$ para estimador não enviesado).
+  - **Desvio Padrão ($s$):** $\sqrt{s^2}$, expresso na mesma unidade de medida da variável original.
+  - **Coeficiente de Variação (CV):** $\text{CV} = \frac{s}{\bar{x}} \times 100\%$. Medida relativa adimensional que viabiliza a comparação direta da variabilidade entre variáveis de escalas ou grandezas distintas.
 
 ### 2.2 Distribuições de Probabilidade: Normal, Binomial e Poisson
 
@@ -356,11 +356,11 @@ Estrutura formal de tomada de decisão estatística sob incerteza:
 - **Hipótese Nula ($H_0$):** Premissa básica de ausência de diferença, conformidade ou efeito padrão.
 - **Hipótese Alternativa ($H_1$):** Afirmação de presença de efeito, anomalia ou fraude que se pretende demonstrar.
 - **Tipologia dos Erros de Decisão:**
-    - **Erro Tipo I ($\alpha$):** Rejeitar $H_0$ quando $H_0$ é **verdadeira** (Falso Positivo estatístico). O limite tolerado de ocorrência desse erro define o **Nível de Significância** ($\alpha$, tipicamente fixado em 5%).
-    - **Erro Tipo II ($\beta$):** Não rejeitar $H_0$ quando $H_0$ é **falsa** (Falso Negativo estatístico). O complemento $1 - \beta$ define o **Poder do Teste**.
+  - **Erro Tipo I ($\alpha$):** Rejeitar $H_0$ quando $H_0$ é **verdadeira** (Falso Positivo estatístico). O limite tolerado de ocorrência desse erro define o **Nível de Significância** ($\alpha$, tipicamente fixado em 5%).
+  - **Erro Tipo II ($\beta$):** Não rejeitar $H_0$ quando $H_0$ é **falsa** (Falso Negativo estatístico). O complemento $1 - \beta$ define o **Poder do Teste**.
 - **Regra de Decisão pelo $p$-valor:**
-    - O $p$-valor indica a probabilidade de obter uma estatística de teste tão ou mais extrema que a observada, assumindo $H_0$ como verdadeira.
-    - **Critério de Rejeição:** Se **$p\text{-valor} \le \alpha$**, rejeita-se a hipótese nula $H_0$ com significância estatística; se $p\text{-valor} > \alpha$, não há evidência amostral suficiente para rejeitar $H_0$.
+  - O $p$-valor indica a probabilidade de obter uma estatística de teste tão ou mais extrema que a observada, assumindo $H_0$ como verdadeira.
+  - **Critério de Rejeição:** Se **$p\text{-valor} \le \alpha$**, rejeita-se a hipótese nula $H_0$ com significância estatística; se $p\text{-valor} > \alpha$, não há evidência amostral suficiente para rejeitar $H_0$.
 
 ---
 
@@ -406,18 +406,19 @@ $$\text{Erro de Teste} = \text{Viés}^2 + \text{Variância} + \sigma_{\text{ruí
 
 ### 3.3 Curva ROC, AUC-ROC e Métricas de Regressão (MAE, MSE, RMSE, R²)
 
-* **Curva ROC e Métrica AUC-ROC:**
-    - A Curva ROC mapeia o $\text{Recall}$ (Sensibilidade, Eixo Y) contra o $\text{FPR} = \frac{\text{FP}}{\text{FP} + \text{VN}} = 1 - \text{Especificidade}$ (Eixo X) variando o limiar de probabilidade de $0$ a $1$.
-    - A **AUC-ROC** mede a área sob a curva: uma $\text{AUC} = 0{,}5$ indica desempenho aleatório; uma $\text{AUC} = 1{,}0$ representa um separador perfeito.
-* **Métricas de Regressão Numérica:**
-    - **MAE (Mean Absolute Error):** $\frac{1}{n}\sum |y - \hat{y}|$. Erro linear simples, altamente robusto a outliers.
-    - **MSE (Mean Squared Error):** $\frac{1}{n}\sum (y - \hat{y})^2$. Penaliza exponencialmente erros grandes ao elevá-los ao quadrado.
-    - **RMSE (Root Mean Squared Error):** $\sqrt{\text{MSE}}$. Mantém a penalização sobre desvios extremos e preserva a unidade original da variável dependente.
-    - **$R^2$ (Coeficiente de Determinação):** $1 - \frac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - \bar{y})^2}$, quantificando a proporção da variância explicada pelo modelo.
+- **Curva ROC e Métrica AUC-ROC:**
+  - A Curva ROC mapeia o $\text{Recall}$ (Sensibilidade, Eixo Y) contra o $\text{FPR} = \frac{\text{FP}}{\text{FP} + \text{VN}} = 1 - \text{Especificidade}$ (Eixo X) variando o limiar de probabilidade de $0$ a $1$.
+  - A **AUC-ROC** mede a área sob a curva: uma $\text{AUC} = 0{,}5$ indica desempenho aleatório; uma $\text{AUC} = 1{,}0$ representa um separador perfeito.
+- **Métricas de Regressão Numérica:**
+  - **MAE (Mean Absolute Error):** $\frac{1}{n}\sum |y - \hat{y}|$. Erro linear simples, altamente robusto a outliers.
+  - **MSE (Mean Squared Error):** $\frac{1}{n}\sum (y - \hat{y})^2$. Penaliza exponencialmente erros grandes ao elevá-los ao quadrado.
+  - **RMSE (Root Mean Squared Error):** $\sqrt{\text{MSE}}$. Mantém a penalização sobre desvios extremos e preserva a unidade original da variável dependente.
+  - **$R^2$ (Coeficiente de Determinação):** $1 - \frac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - \bar{y})^2}$, quantificando a proporção da variância explicada pelo modelo.
 
 ---
 
 ### Teste 339
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na avaliação do erro de generalização de algoritmos de aprendizado supervisionado, o Erro Médio Quadrático Esperado de predição sobre dados não vistos pode ser decomposto matematicamente em três componentes fundamentais:
 
@@ -425,12 +426,11 @@ $$\mathbb{E}[Erro] = \text{Viés}^2 + \text{Variância} + \sigma_{\epsilon}^2$$
 
 A respeito do comportamento dessas componentes e do fenômeno do **Bias-Variance Tradeoff**, assinale a afirmativa correta:
 
-* **A)** Modelos com alto viés (*high bias*) tendem a superajustar-se aos ruídos aleatórios do conjunto de treinamento, resultando em acurácia de 100% no teste.
-* **B)** O termo $\sigma_{\epsilon}^2$ representa o erro redutível, que pode ser reduzido a zero simplesmente escolhendo o algoritmo de inteligência artificial mais moderno do mercado.
-* **C)** Modelos excessivamente simples e rígidos (como regressão linear em dados curvilíneos) sofrem de **alto viés e baixa variância**, caracterizando o fenômeno do **Subajuste (*Underfitting*)**; enquanto modelos hipercomplexos e flexíveis (como árvores de decisão profundas sem poda) sofrem de **baixo viés e alta variância**, decorando os ruídos do treino e caracterizando o **Sobreajuste (*Overfitting*)**.
-* **D)** Aumentar a quantidade de variáveis irrelevantes e ruídos na base diminui a variância do modelo.
-* **E)** Técnicas de regularização (como penalidades L1/L2) servem para aumentar a variância do modelo a níveis extremos.
-
+- **A)** Modelos com alto viés (*high bias*) tendem a superajustar-se aos ruídos aleatórios do conjunto de treinamento, resultando em acurácia de 100% no teste.
+- **B)** O termo $\sigma_{\epsilon}^2$ representa o erro redutível, que pode ser reduzido a zero simplesmente escolhendo o algoritmo de inteligência artificial mais moderno do mercado.
+- **C)** Modelos excessivamente simples e rígidos (como regressão linear em dados curvilíneos) sofrem de **alto viés e baixa variância**, caracterizando o fenômeno do **Subajuste (*Underfitting*)**; enquanto modelos hipercomplexos e flexíveis (como árvores de decisão profundas sem poda) sofrem de **baixo viés e alta variância**, decorando os ruídos do treino e caracterizando o **Sobreajuste (*Overfitting*)**.
+- **D)** Aumentar a quantidade de variáveis irrelevantes e ruídos na base diminui a variância do modelo.
+- **E)** Técnicas de regularização (como penalidades L1/L2) servem para aumentar a variância do modelo a níveis extremos.
 
 ---
 
@@ -444,12 +444,13 @@ A respeito do comportamento dessas componentes e do fenômeno do **Bias-Variance
 >   - **Objetivo da Otimização:** Encontrar o equilíbrio ótimo (*sweet spot*) de complexidade do modelo que minimize a soma de Viés ao quadrado e Variância.
 > - **D)** Incorreta. Variáveis irrelevantes aumentam a variância e estimulam sobreajuste.
 > - **E)** Incorreta. Regularizações (Lasso, Ridge) introduzem uma leve penalidade (aumentam ligeiramente o viés) com o propósito benéfico de **reduzir drasticamente a variância**.
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 340
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Um Tribunal de Contas implantou um algoritmo de aprendizado de máquina para triagem de prestações de contas municipais. Em uma amostra de teste com 10.000 processos auditados, sabe-se que 200 processos continham irregularidades graves (positivos) e 9.800 eram processos estritamente regulares (negativos).
 Após a execução do classificador, os resultados observados na matriz de confusão foram:
@@ -461,42 +462,41 @@ Após a execução do classificador, os resultados observados na matriz de confu
 
 Avaliando o desempenho desse modelo para o controle externo, assinale a afirmativa correta:
 
-* **A)** A Sensibilidade (Recall) do classificador é de 80%, a Precisão é de 80% e o F1-Score é exatamente 80%.
-* **B)** A Acurácia simples é de 80%, comprovando que ela é a métrica mais apropriada para atestar a detecção de fraudes em ambientes com alta desproporção de classes.
-* **C)** O classificador apresenta uma Sensibilidade de 99,2%, calculada pela divisão dos Verdadeiros Negativos pela soma dos casos regulares.
-* **D)** Em problemas de detecção de fraudes em compras governamentais, deve-se buscar a redução do Recall e o aumento deliberado de Falsos Negativos para reduzir a carga de trabalho dos auditores.
-* **E)** Um modelo fictício ingênuo que classificasse todas as 10.000 prestações de contas como regulares apresentaria uma Acurácia de 0%, revelando a sensibilidade dessa métrica ao desbalanceamento.
-
+- **A)** A Sensibilidade (Recall) do classificador é de 80%, a Precisão é de 80% e o F1-Score é exatamente 80%.
+- **B)** A Acurácia simples é de 80%, comprovando que ela é a métrica mais apropriada para atestar a detecção de fraudes em ambientes com alta desproporção de classes.
+- **C)** O classificador apresenta uma Sensibilidade de 99,2%, calculada pela divisão dos Verdadeiros Negativos pela soma dos casos regulares.
+- **D)** Em problemas de detecção de fraudes em compras governamentais, deve-se buscar a redução do Recall e o aumento deliberado de Falsos Negativos para reduzir a carga de trabalho dos auditores.
+- **E)** Um modelo fictício ingênuo que classificasse todas as 10.000 prestações de contas como regulares apresentaria uma Acurácia de 0%, revelando a sensibilidade dessa métrica ao desbalanceamento.
 
 ---
 
 > **Comentário Detalhado:**
 >
 > - **A)** **Correta.**
->     - **Precisão:** $P = \frac{VP}{VP + FP} = \frac{160}{160 + 40} = \frac{160}{200} = 0{,}80$ ($80\%$).
->     - **Sensibilidade (Recall):** $R = \frac{VP}{VP + FN} = \frac{160}{160 + 40} = \frac{160}{200} = 0{,}80$ ($80\%$).
->     - **F1-Score:** $F_1 = 2 \cdot \frac{P \cdot R}{P + R} = 2 \cdot \frac{0{,}80 \cdot 0{,}80}{0{,}80 + 0{,}80} = 0{,}80$ ($80\%$).
+>   - **Precisão:** $P = \frac{VP}{VP + FP} = \frac{160}{160 + 40} = \frac{160}{200} = 0{,}80$ ($80\%$).
+>   - **Sensibilidade (Recall):** $R = \frac{VP}{VP + FN} = \frac{160}{160 + 40} = \frac{160}{200} = 0{,}80$ ($80\%$).
+>   - **F1-Score:** $F_1 = 2 \cdot \frac{P \cdot R}{P + R} = 2 \cdot \frac{0{,}80 \cdot 0{,}80}{0{,}80 + 0{,}80} = 0{,}80$ ($80\%$).
 > - **B)** Incorreta. A Acurácia simples é $\frac{160 + 9760}{10000} = 99{,}2\%$, e não 80%. Além disso, ela é sabidamente enganosa em dados desbalanceados.
 > - **C)** Incorreta. 99,2% corresponde à Acurácia geral, e não à Sensibilidade (que é 80%).
 > - **D)** Incorreta. Reduzir o recall geraria mais Falsos Negativos, deixando fraudes reais passarem impunes.
 > - **E)** Incorreta. Um classificador cego que declarasse "regular" para tudo obteria uma acurácia de $98\%$, e não de 0%, demonstrando o perigo de utilizar acurácia isolada em classes raras.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 341
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Para mensurar a eficácia de um classificador probabilístico encarregado de apontar licitações suspeitas de fraude sob diferentes limiares de corte (*thresholds*), a área técnica utiliza a **Curva ROC** (*Receiver Operating Characteristic*) e sua respectiva área sob a curva (**AUC-ROC**).
 
 A respeito dessas métricas de avaliação de desempenho, assinale a afirmativa correta:
 
-* **A)** A Curva ROC plota graficamente a Taxa de Verdadeiros Positivos (Sensibilidade / *Recall*) no eixo $Y$ contra a Taxa de Falsos Positivos ($1 - \text{Especificidade}$) no eixo $X$, para todos os limiares de classificação possíveis.
-* **B)** Um classificador perfeitamente aleatório, equivalente ao lançamento de uma moeda honesta, apresenta um valor de AUC-ROC igual a 1,0.
-* **C)** A métrica MAE (*Mean Absolute Error*) penaliza os grandes erros individuais com mais severidade do que o RMSE (*Root Mean Squared Error*), pois eleva os resíduos ao quadrado.
-* **D)** O valor máximo teórico atingível pela métrica AUC-ROC é de 0,5.
-* **E)** A Curva ROC só pode ser construída se a base de dados tiver exatamente 50% de instâncias de cada classe, sendo inoperante em problemas com classes desbalanceadas.
-
+- **A)** A Curva ROC plota graficamente a Taxa de Verdadeiros Positivos (Sensibilidade / *Recall*) no eixo $Y$ contra a Taxa de Falsos Positivos ($1 - \text{Especificidade}$) no eixo $X$, para todos os limiares de classificação possíveis.
+- **B)** Um classificador perfeitamente aleatório, equivalente ao lançamento de uma moeda honesta, apresenta um valor de AUC-ROC igual a 1,0.
+- **C)** A métrica MAE (*Mean Absolute Error*) penaliza os grandes erros individuais com mais severidade do que o RMSE (*Root Mean Squared Error*), pois eleva os resíduos ao quadrado.
+- **D)** O valor máximo teórico atingível pela métrica AUC-ROC é de 0,5.
+- **E)** A Curva ROC só pode ser construída se a base de dados tiver exatamente 50% de instâncias de cada classe, sendo inoperante em problemas com classes desbalanceadas.
 
 ---
 
@@ -505,7 +505,7 @@ A respeito dessas métricas de avaliação de desempenho, assinale a afirmativa 
 > - **A)** **CORRETA.** Propriedades fundamentais da **Curva ROC / AUC**:
 >   - **Eixo Y:** Taxa de Verdadeiros Positivos ($TPR = \frac{TP}{TP + FN}$), também denominada Sensibilidade ou *Recall*.
 >   - **Eixo X:** Taxa de Falsos Positivos ($FPR = \frac{FP}{FP + TN} = 1 - \text{Especificidade}$).
->   - Conforme o limiar de decisão ($	au$) varia de 1 a 0, traça-se a curva de desempenho do modelo.
+>   - Conforme o limiar de decisão ($ au$) varia de 1 a 0, traça-se a curva de desempenho do modelo.
 >   - **AUC-ROC:** Representa a probabilidade de o modelo atribuir uma pontuação mais alta a uma instância positiva selecionada aleatoriamente do que a uma instância negativa.
 >   - Classificador perfeito: $AUC = 1,0$.
 >   - Classificador puramente aleatório (linha diagonal diagonal): $AUC = 0,5$.
@@ -513,7 +513,7 @@ A respeito dessas métricas de avaliação de desempenho, assinale a afirmativa 
 > - **C)** Incorreta. Quem eleva os resíduos ao quadrado e penaliza severamente grandes desvios e outliers é o **MSE/RMSE**, e não o MAE (que calcula a média linear das magnitudes absolutas dos erros).
 > - **D)** Incorreta. O valor máximo da AUC-ROC é 1,0.
 > - **E)** Incorreta. A Curva ROC é amplamente utilizada justamente por permitir avaliar o comportamento do modelo em diferentes cenários de corte em dados desbalanceados.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -544,10 +544,10 @@ O **Apache Hadoop** é a infraestrutura de código aberto pioneira para armazena
 ```
 
 - **HDFS (*Hadoop Distributed File System*):**
-    - **NameNode:** Mantém o catálogo de diretórios e o mapeamento dos blocos na **memória RAM** para garantir respostas instantâneas.
-    - **DataNodes:** Servidores de trabalho que armazenam os blocos de dados físicos em seus discos rígidos locais.
-    - **Tamanho de Bloco:** Projetado para arquivos volumosos; adota blocos gigantes de **128 MB ou 256 MB**, reduzindo a sobrecarga de metadados no NameNode.
-    - **Fator de Replicação Padrão ($3\times$):** Cada bloco é replicado três vezes pelo cluster com política de percepção de rack (*rack awareness*), garantindo tolerância a desastres físicos sem perda de dados.
+  - **NameNode:** Mantém o catálogo de diretórios e o mapeamento dos blocos na **memória RAM** para garantir respostas instantâneas.
+  - **DataNodes:** Servidores de trabalho que armazenam os blocos de dados físicos em seus discos rígidos locais.
+  - **Tamanho de Bloco:** Projetado para arquivos volumosos; adota blocos gigantes de **128 MB ou 256 MB**, reduzindo a sobrecarga de metadados no NameNode.
+  - **Fator de Replicação Padrão ($3\times$):** Cada bloco é replicado três vezes pelo cluster com política de percepção de rack (*rack awareness*), garantindo tolerância a desastres físicos sem perda de dados.
 - **YARN (*Yet Another Resource Negotiator*):** Camada introduzida no Hadoop 2.x que desacoplou o gerenciamento de recursos computacionais do MapReduce, gerenciando CPU e memória no cluster.
 
 ### 4.2 Paradigma MapReduce e suas Limitações de I/O em Disco
@@ -565,8 +565,8 @@ O **MapReduce** opera o processamento em lote (*batch*) em duas etapas estrutura
 O **Apache Spark** superou as limitações de I/O do Hadoop executando a computação massiva diretamente na **memória RAM**, sendo até $100\times$ mais rápido para algoritmos iterativos:
 
 - **Abstrações Fundamentais:**
-    - **RDD (*Resilient Distributed Dataset*):** Coleção distribuída imutável particionada de objetos em memória. A resiliência decorre do **Grafo de Linhagem (*Lineage Graph*)**: se um nó quebra, o Spark recalcula estritamente a partição perdida a partir do histórico de transformações, sem necessidade de replicação redundante em disco.
-    - **DataFrame:** Abstração moderna de tabela relacional com colunas tipadas, otimizada pelo compilador de planos **Catalyst** e pelo motor de execução binário **Tungsten**.
+  - **RDD (*Resilient Distributed Dataset*):** Coleção distribuída imutável particionada de objetos em memória. A resiliência decorre do **Grafo de Linhagem (*Lineage Graph*)**: se um nó quebra, o Spark recalcula estritamente a partição perdida a partir do histórico de transformações, sem necessidade de replicação redundante em disco.
+  - **DataFrame:** Abstração moderna de tabela relacional com colunas tipadas, otimizada pelo compilador de planos **Catalyst** e pelo motor de execução binário **Tungsten**.
 - **Comportamento Operacional: Transformações vs. Ações**
 
 | Categoria | Comportamento de Execução | Exemplos de Operações | Papel no Pipeline |
@@ -575,21 +575,21 @@ O **Apache Spark** superou as limitações de I/O do Hadoop executando a computa
 | **Ações (*Actions*)** | **Imediatas (*Eager Evaluation*)**. | `count()`, `collect()`, `show()`, `take()`, `saveAsTextFile()` | **Disparam a compilação do plano físico no DAG** e a execução real nos nós trabalhadores, devolvendo o resultado ao *Driver*. |
 
 - **Transformações Narrow vs. Wide:**
-    - *Narrow (Estreita):* Cada partição de entrada é consumida por no máximo uma partição de saída, sem transferência de dados entre máquinas pela rede (*sem shuffle*, ex.: `map()`, `filter()`).
-    - *Wide (Ampla):* A partição de saída depende de dados espalhados em múltiplos nós, exigindo redistribuição massiva de partições pela rede (*com shuffle*, ex.: `groupByKey()`, `join()`).
+  - *Narrow (Estreita):* Cada partição de entrada é consumida por no máximo uma partição de saída, sem transferência de dados entre máquinas pela rede (*sem shuffle*, ex.: `map()`, `filter()`).
+  - *Wide (Ampla):* A partição de saída depende de dados espalhados em múltiplos nós, exigindo redistribuição massiva de partições pela rede (*com shuffle*, ex.: `groupByKey()`, `join()`).
 
 ---
 
 ### Teste 342
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No âmbito do armazenamento e processamento distribuído de grandes volumes de dados governamentais com o ecossistema Apache Hadoop, assinale a afirmativa correta a respeito da arquitetura do HDFS (*Hadoop Distributed File System*):
 
-* **A)** O *NameNode* atua como o nó mestre do cluster e armazena os metadados do sistema de arquivos e a localização dos blocos prioritariamente em memória RAM, enquanto os *DataNodes* funcionam como nós de trabalho que guardam fisicamente os blocos de dados em seus sistemas de disco locais.
-* **B)** O tamanho padrão de um bloco de dados no HDFS é de 512 bytes, tamanho idêntico aos setores de discos rígidos convencionais para agilizar o particionamento de pequenos arquivos de texto.
-* **C)** A perda de qualquer *DataNode* no HDFS acarreta a destruição imediata e irrecuperável de todo o cluster, visto que o Hadoop não contempla mecanismos de replicação de blocos.
-* **D)** O componente *YARN* foi inteiramente descontinuado na versão Hadoop 2.x por ser incompatível com sistemas operacionais corporativos de código aberto.
-* **E)** O paradigma MapReduce realiza todo o processamento analítico estritamente na memória volátil dos nós, dispensando por completo gravações intermediárias em disco rígido entre as fases de Map e Reduce.
-
+- **A)** O *NameNode* atua como o nó mestre do cluster e armazena os metadados do sistema de arquivos e a localização dos blocos prioritariamente em memória RAM, enquanto os *DataNodes* funcionam como nós de trabalho que guardam fisicamente os blocos de dados em seus sistemas de disco locais.
+- **B)** O tamanho padrão de um bloco de dados no HDFS é de 512 bytes, tamanho idêntico aos setores de discos rígidos convencionais para agilizar o particionamento de pequenos arquivos de texto.
+- **C)** A perda de qualquer *DataNode* no HDFS acarreta a destruição imediata e irrecuperável de todo o cluster, visto que o Hadoop não contempla mecanismos de replicação de blocos.
+- **D)** O componente *YARN* foi inteiramente descontinuado na versão Hadoop 2.x por ser incompatível com sistemas operacionais corporativos de código aberto.
+- **E)** O paradigma MapReduce realiza todo o processamento analítico estritamente na memória volátil dos nós, dispensando por completo gravações intermediárias em disco rígido entre as fases de Map e Reduce.
 
 ---
 
@@ -600,20 +600,21 @@ No âmbito do armazenamento e processamento distribuído de grandes volumes de d
 > - **C)** Incorreta. A tolerância a falhas é assegurada pela replicação automática (padrão $3\times$), suportando a perda de DataNodes sem indisponibilidade de arquivos.
 > - **D)** Incorreta. O YARN foi **introduzido** no Hadoop 2.x para assumir o gerenciamento de recursos do cluster.
 > - **E)** Incorreta. O gargalo estrutural do MapReduce clássico é a necessidade mandatória de gravar resultados intermediários em disco (*spill to disk*) entre o Map e o Reduce.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 343
+
 **(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - TI - Ciências da Computação)**  
 Um pipeline de dados do TCE-SC processa bilhões de registros de notas fiscais usando Spark SQL. O Auditor nota um problema de desbalanceamento de dados no qual um único executor demora muito mais que os outros para completar uma operação de Join, pois uma chave específica possui muito mais registros que as demais. A seguinte técnica avançada de otimização no Spark 3.x permite ao motor de execução identificar esse desequilíbrio em tempo de execução e dividir a partição sobrecarregada em subtarefas menores:
 
-* **A)** Broadcast Hash Join.
-* **B)** Adaptive Query Execution com Skew Join Optimization.
-* **C)** Predicate Pushdown.
-* **D)** Bucketing com 1024 partições fixas.
-* **E)** Cache In-Memory em nível de cluster.
+- **A)** Broadcast Hash Join.
+- **B)** Adaptive Query Execution com Skew Join Optimization.
+- **C)** Predicate Pushdown.
+- **D)** Bucketing com 1024 partições fixas.
+- **E)** Cache In-Memory em nível de cluster.
 
 ---
 
@@ -624,8 +625,7 @@ Um pipeline de dados do TCE-SC processa bilhões de registros de notas fiscais u
 > - **C) Incorreta.** *Predicate Pushdown* filtra dados na camada de leitura do arquivo (Parquet/ORC), reduzindo o volume lido, mas não resolve o desbalanceamento de chaves na operação de junção.
 > - **D) Incorreta.** O *Bucketing* fixo particiona previamente os dados, mas se uma chave tiver cardinalidade aberrante (ex.: notas de uma distribuidora gigante), o bucket continuará sofrendo *skew*.
 > - **E) Incorreta.** Cache em memória consome RAM e não altera a distribuição desigual de chaves nos executores.
-> 
+>
 > **Gabarito: B**
 
 ---
-

@@ -5,12 +5,10 @@
 > **Arquivo:** `03_seguranca_em_contratacoes_e_certificacao_digital.md`  
 > **Atos Normativos:** Medida Provisória nº 2.200-2/2001 (ICP-Brasil), Lei Federal nº 14.063/2020 (Assinaturas Eletrônicas em Entes Públicos) e Lei Federal nº 14.133/2021 (Lei de Licitações e Contratos Administrativos)
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Requisitos de segurança da informação em editais e contratos de soluções de TIC
 - Cláusulas essenciais de segurança, confidencialidade (NDA), privacidade e soberania de dados
 - Certificação digital e infraestrutura de chaves públicas (MP nº 2.200-2/2001)
@@ -21,28 +19,28 @@
 
 ## 🧭 Sumário
 
-1. [Requisitos de Segurança em Contratações de TIC no Setor Público](#1-requisitos-de-seguranca-em-contratacoes-de-tic-no-setor-publico)
-1. [1.1 Fases do Planejamento e Segurança da Informação](#11-fases-do-planejamento-e-seguranca-da-informacao)
-    - [Teste 535](#teste-535)
-2. [1.2 Cláusulas Contratuais Críticas de Segurança](#12-clausulas-contratuais-criticas-de-seguranca)
-    - [Teste 536](#teste-536)
-2. [O Marco Legal da Certificação Digital e a ICP-Brasil (MP nº 2.200-2/2001)](#2-o-marco-legal-da-certificacao-digital-e-a-icp-brasil-mp-no-2200-22001)
-3. [2.1 Estrutura e Atores da ICP-Brasil](#21-estrutura-e-atores-da-icp-brasil)
-    - [Teste 537](#teste-537)
-4. [2.2 Tipos de Certificados Digitais ICP-Brasil (A1 vs. A3)](#22-tipos-de-certificados-digitais-icp-brasil-a1-vs-a3)
-    - [Teste 538](#teste-538)
-5. [2.3 Presunção Legal de Veracidade e Validade de Assinaturas Não-ICP](#23-presuncao-legal-de-veracidade-e-validade-de-assinaturas-nao-icp)
-    - [Teste 539](#teste-539)
-3. [Classificação Tripartite das Assinaturas Eletrônicas (Lei nº 14.063/2020)](#3-classificacao-tripartite-das-assinaturas-eletronicas-lei-no-140632020)
-6. [3.1 Assinaturas Simples, Avançadas e Qualificadas](#31-assinaturas-simples-avancadas-e-qualificadas)
-    - [Teste 540](#teste-540)
-    - [Teste 541](#teste-541)
-7. [3.2 Princípio da Proporcionalidade e Hipóteses de Uso](#32-principio-da-proporcionalidade-e-hipoteses-de-uso)
-    - [Teste 542](#teste-542)
-4. [Aplicação Prática da Certificação Digital na Auditoria e Processo Eletrônico](#4-aplicacao-pratica-da-certificacao-digital-na-auditoria-e-processo-eletronico)
-    - [Teste 543](#teste-543)
-    - [Teste 544](#teste-544)
-6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+1. [Requisitos de Segurança em Contratações de TIC no Setor Público](#1-requisitos-de-segurança-em-contratações-de-tic-no-setor-público)
+2. [1 Fases do Planejamento e Segurança da Informação](#11-fases-do-planejamento-e-segurança-da-informação)
+    1. [Teste 535](#teste-535)
+3. [2 Cláusulas Contratuais Críticas de Segurança](#12-cláusulas-contratuais-críticas-de-segurança)
+    1. [Teste 536](#teste-536)
+4. [O Marco Legal da Certificação Digital e a ICP-Brasil (MP nº 2.200-2/2001)](#2-o-marco-legal-da-certificação-digital-e-a-icp-brasil-mp-nº-2200-22001)
+5. [1 Estrutura e Atores da ICP-Brasil](#21-estrutura-e-atores-da-icp-brasil)
+    1. [Teste 537](#teste-537)
+6. [2 Tipos de Certificados Digitais ICP-Brasil (A1 vs. A3)](#22-tipos-de-certificados-digitais-icp-brasil-a1-vs-a3)
+    1. [Teste 538](#teste-538)
+7. [3 Presunção Legal de Veracidade e Validade de Assinaturas Não-ICP](#23-presunção-legal-de-veracidade-e-validade-de-assinaturas-não-icp)
+    1. [Teste 539](#teste-539)
+8. [Classificação Tripartite das Assinaturas Eletrônicas (Lei nº 14.063/2020)](#3-classificação-tripartite-das-assinaturas-eletrônicas-lei-nº-140632020)
+9. [1 Assinaturas Simples, Avançadas e Qualificadas](#31-assinaturas-simples-avançadas-e-qualificadas)
+    1. [Teste 540](#teste-540)
+    1. [Teste 541](#teste-541)
+10. [2 Princípio da Proporcionalidade e Hipóteses de Uso](#32-princípio-da-proporcionalidade-e-hipóteses-de-uso)
+    1. [Teste 542](#teste-542)
+11. [Aplicação Prática da Certificação Digital na Auditoria e Processo Eletrônico](#4-aplicação-prática-da-certificação-digital-na-auditoria-e-processo-eletrônico)
+    1. [Teste 543](#teste-543)
+    1. [Teste 544](#teste-544)
+12. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
 
@@ -60,7 +58,7 @@ A segurança da informação não pode ser um apêndice acrescentado após a ass
 flowchart TD
     ETP["Estudo Técnico Preliminar (ETP)<br/>Requisitos ISO 27001 / PSI"] --> MR["Mapa de Gerenciamento de Riscos<br/>Ameaças de Vazamento / Lock-in"]
     MR --> TR["Termo de Referência (TR)<br/>Cláusulas Mandatórias de TIC"]
-    
+  
     TR --> C1["1. Acordo de Nível de Serviço (SLA / ANS) com Glosas"]
     TR --> C2["2. Acordo de Confidencialidade (NDA) Integral"]
     TR --> C3["3. Cessão de Propriedade Intelectual e Códigos-Fonte"]
@@ -77,15 +75,15 @@ flowchart TD
 ---
 
 ### Teste 535
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O planejamento de contratações de TIC na Administração Pública exige a incorporação de requisitos de segurança da informação desde os primeiros estudos preliminares, em consonância com a Lei nº 14.133/2021 e a norma ABNT NBR ISO/IEC 27001. A respeito da segurança da informação na fase preparatória, assinale a afirmativa correta:  
 
-* **A)** A definição de requisitos de segurança cibernética deve ocorrer exclusivamente após a homologação final do software em produção, vedada a inserção de exigências no Estudo Técnico Preliminar (ETP).
-* **B)** O Mapa de Gerenciamento de Riscos deve contemplar ameaças de vazamento de dados pessoais, indisponibilidade de serviços essenciais e estratégias para evitar o aprisionamento tecnológico (*vendor lock-in*).
-* **C)** É obrigatório que o órgão público dispense a exigência de testes estáticos (SAST) e dinâmicos (DAST) de vulnerabilidades para desonerar financeiramente a licitante vencedora.
-* **D)** A Política de Segurança da Informação (PSI) do órgão contratante não possui força cogente para balizar as cláusulas do Termo de Referência de TIC.
-* **E)** Requisitos de soberania e residência de dados em território nacional para sistemas críticos são ilegais por violarem a liberdade de mercado das multinacionais de nuvem.
-
+- **A)** A definição de requisitos de segurança cibernética deve ocorrer exclusivamente após a homologação final do software em produção, vedada a inserção de exigências no Estudo Técnico Preliminar (ETP).
+- **B)** O Mapa de Gerenciamento de Riscos deve contemplar ameaças de vazamento de dados pessoais, indisponibilidade de serviços essenciais e estratégias para evitar o aprisionamento tecnológico (*vendor lock-in*).
+- **C)** É obrigatório que o órgão público dispense a exigência de testes estáticos (SAST) e dinâmicos (DAST) de vulnerabilidades para desonerar financeiramente a licitante vencedora.
+- **D)** A Política de Segurança da Informação (PSI) do órgão contratante não possui força cogente para balizar as cláusulas do Termo de Referência de TIC.
+- **E)** Requisitos de soberania e residência de dados em território nacional para sistemas críticos são ilegais por violarem a liberdade de mercado das multinacionais de nuvem.
 
 ---
 
@@ -96,7 +94,7 @@ flowchart TD
 > - **C)** Incorreta. A exigência de varreduras SAST/DAST e correção de vulnerabilidades sem ônus adicional é boa prática mandatória de fiscalização técnica.
 > - **D)** Incorreta. A contratação de TIC deve estar estritamente alinhada à PSI institucional.
 > - **E)** Incorreta. A exigência de residência e soberania de dados para informações estatais estratégicas é plenamente respaldada pela legislação nacional de segurança cibernética.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -104,7 +102,7 @@ flowchart TD
 ## 1.2 Cláusulas Contratuais Críticas de Segurança
 
 | Cláusula Contratual | Justificativa Técnica e Jurídica | Regra de Fiscalização e Controle Externo |
-|---|---|---|
+| --- | --- | --- |
 | **Acordo de Nível de Serviço (SLA / ANS)** | Define metas quantitativas mensuráveis (disponibilidade mínima de 99,8%, tempo de resposta para incidentes críticos $\le 1\text{h}$, RTO e RPO). | É **vedado o pagamento por homem-hora puro** sem atrelamento a resultados mensuráveis e qualidade (Súmula TCU nº 269). O descumprimento do SLA acarreta glosa financeira proporcional na fatura mensal. |
 | **Termo de Confidencialidade (NDA)** | Impõe dever de segredo sobre dados, infraestrutura, credenciais, topologia de rede e regras de negócio do órgão. | Deve ser assinado pela pessoa jurídica contratada **e individualmente** por cada profissional ou prestador alocado na execução do contrato. |
 | **Propriedade Intelectual e Códigos-Fonte** | Assegura que toda a solução customizada desenvolvida para a Administração pertença ao ente público. | O contrato deve obrigar a entrega periódica de commits no repositório de controle de versão do órgão (Git institucional), documentação técnica, diagramas e scripts de implantação (IaC). |
@@ -118,6 +116,7 @@ flowchart TD
 ---
 
 ### Teste 536
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O Tribunal de Contas de determinado Estado publicou edital de licitação para contratação de desenvolvimento e sustentação de sistemas de auditoria contábil. No termo de referência e na minuta contratual, a comissão de planejamento estipulou as seguintes cláusulas:  
 
@@ -131,12 +130,11 @@ IV. Ao término da vigência contratual, a contratada fica obrigada a realizar a
 
 À luz da legislação de licitações, jurisprudência do controle externo e normas de segurança da informação em TIC:  
 
-* **A)** As cláusulas I, II, III e IV estão em perfeita conformidade com as boas práticas administrativas.
-* **B)** Apenas a cláusula I é irregular perante as normas de controle externo, sendo as cláusulas II, III e IV regulares e essenciais para a segurança e governança de TIC.
-* **C)** A cláusula III é ilegal, pois a legislação de propriedade intelectual veda a transferência de direitos autorais de software para órgãos públicos contratantes.
-* **D)** A cláusula IV é prescindível e contraria o princípio da livre iniciativa por impor custos de desmobilização à contratada.
-* **E)** A cláusula II viola a presunção de boa-fé dos prestadores de serviço e não tem eficácia jurídica na esfera administrativa.
-
+- **A)** As cláusulas I, II, III e IV estão em perfeita conformidade com as boas práticas administrativas.
+- **B)** Apenas a cláusula I é irregular perante as normas de controle externo, sendo as cláusulas II, III e IV regulares e essenciais para a segurança e governança de TIC.
+- **C)** A cláusula III é ilegal, pois a legislação de propriedade intelectual veda a transferência de direitos autorais de software para órgãos públicos contratantes.
+- **D)** A cláusula IV é prescindível e contraria o princípio da livre iniciativa por impor custos de desmobilização à contratada.
+- **E)** A cláusula II viola a presunção de boa-fé dos prestadores de serviço e não tem eficácia jurídica na esfera administrativa.
 
 ---
 
@@ -147,7 +145,7 @@ IV. Ao término da vigência contratual, a contratada fica obrigada a realizar a
 > - **C)** Incorreta. A legislação de software e a Lei nº 14.133/2021 estabelecem que os direitos patrimoniais sobre códigos desenvolvidos por encomenda no âmbito de contratos públicos pertencem à Administração contratante.
 > - **D)** Incorreta. A cláusula de reversibilidade é fundamental para impedir o aprisionamento tecnológico (*vendor lock-in*).
 > - **E)** Incorreta. O termo de confidencialidade (NDA) é plenamente válido e mandatório para proteger informações estratégicas.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -179,15 +177,15 @@ flowchart TD
 ---
 
 ### Teste 537
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), instituída pela MP nº 2.200-2/2001, é estruturada de forma hierárquica. Acerca dos atores e papéis que compõem a ICP-Brasil, assinale a afirmativa correta:  
 
-* **A)** A Autoridade Certificadora Raiz (AC-Raiz) da ICP-Brasil é operada privativamente pelo Instituto Nacional de Tecnologia da Informação (ITI).
-* **B)** As Autoridades de Registro (ARs) têm como competência exclusiva a emissão e a assinatura de certificados digitais de primeiro nível na cadeia de confiança.
-* **C)** O Comitê Gestor da ICP-Brasil é um órgão composto unicamente por empresas multinacionais de software sem qualquer participação do Estado brasileiro.
-* **D)** As Autoridades de Carimbo do Tempo (ACTs) são proibidas de sincronizar seus relógios com a hora legal brasileira do Observatório Nacional.
-* **E)** Qualquer pessoa física pode atuar autonomamente como Autoridade Certificadora de primeiro nível sem necessidade de credenciamento perante o ITI.
-
+- **A)** A Autoridade Certificadora Raiz (AC-Raiz) da ICP-Brasil é operada privativamente pelo Instituto Nacional de Tecnologia da Informação (ITI).
+- **B)** As Autoridades de Registro (ARs) têm como competência exclusiva a emissão e a assinatura de certificados digitais de primeiro nível na cadeia de confiança.
+- **C)** O Comitê Gestor da ICP-Brasil é um órgão composto unicamente por empresas multinacionais de software sem qualquer participação do Estado brasileiro.
+- **D)** As Autoridades de Carimbo do Tempo (ACTs) são proibidas de sincronizar seus relógios com a hora legal brasileira do Observatório Nacional.
+- **E)** Qualquer pessoa física pode atuar autonomamente como Autoridade Certificadora de primeiro nível sem necessidade de credenciamento perante o ITI.
 
 ---
 
@@ -198,7 +196,7 @@ flowchart TD
 > - **C)** Incorreta. O Comitê Gestor da ICP-Brasil é instância colegiada pública que conta com representantes do governo federal, sociedade civil e setor acadêmico/empresarial.
 > - **D)** Incorreta. As ACTs devem obrigatoriamente referenciar-se ao Padrão de Hora Legal Brasileira fornecido pelo Observatório Nacional (ON).
 > - **E)** Incorreta. O credenciamento de ACs perante a AC-Raiz/ITI é obrigatório e envolve rigorosos requisitos de infraestrutura física, salas-cofre e auditorias de segurança.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -206,23 +204,23 @@ flowchart TD
 ## 2.2 Tipos de Certificados Digitais ICP-Brasil (A1 vs. A3)
 
 - **Certificados Tipo A (Assinatura Digital):** Destinados à comprovação de autoria, integridade e não-repúdio.
-    - **A1:** Chave privada gerada por software e armazenada diretamente no computador ou dispositivo móvel (arquivo protegido por senha, padrão PKCS#12 / extensão `.pfx` ou `.p12`). Validade máxima de **1 ano**.
-    - **A3:** Chave privada gerada e armazenada em hardware inviolável (*Smart Card*, *Token USB* criptográfico ou HSM com padrão mínimo FIPS 140-2 Level 2). A chave privada não pode ser copiada nem extraída do dispositivo. Validade de **até 3 ou 5 anos**.
+  - **A1:** Chave privada gerada por software e armazenada diretamente no computador ou dispositivo móvel (arquivo protegido por senha, padrão PKCS#12 / extensão `.pfx` ou `.p12`). Validade máxima de **1 ano**.
+  - **A3:** Chave privada gerada e armazenada em hardware inviolável (*Smart Card*, *Token USB* criptográfico ou HSM com padrão mínimo FIPS 140-2 Level 2). A chave privada não pode ser copiada nem extraída do dispositivo. Validade de **até 3 ou 5 anos**.
 - **Certificados Tipo S (Sigilo / Criptografia):** Utilizados para garantir a confidencialidade de arquivos e mensagens por meio de cifração assimétrica.
 - **Certificados Tipo T (Tempo):** Utilizados pelas ACTs para emissão de carimbos do tempo.
 
 ---
 
 ### Teste 538
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A respeito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil) instituída pela Medida Provisória nº 2.200-2/2001 e das características de seus certificados digitais:  
 
-* **A)** O certificado digital do tipo A1 possui sua chave privada armazenada de maneira inviolável em hardware criptográfico padrão FIPS 140-2 Level 3 e validade de 5 anos.
-* **B)** A Autoridade Certificadora Raiz (AC-Raiz) da ICP-Brasil é operada de forma compartilhada por um consórcio de empresas privadas de telefonia sob concessão da Anatel.
-* **C)** O certificado digital do tipo A3 armazena sua chave privada em hardware criptográfico (como cartão inteligente ou token criptográfico), impedindo sua cópia ou exportação, enquanto o certificado do tipo A1 é gerado por software e armazenado diretamente no computador ou dispositivo.
-* **D)** Documentos eletrônicos assinados fora da estrutura da ICP-Brasil são nulos de pleno direito no Brasil, mesmo que as partes envolvidas tenham acordado expressamente sobre sua validade.
-* **E)** A Autoridade de Registro (AR) possui a competência exclusiva de assinar digitalmente as Listas de Certificados Revogados (LCR) de todas as ACs subordinadas.
-
+- **A)** O certificado digital do tipo A1 possui sua chave privada armazenada de maneira inviolável em hardware criptográfico padrão FIPS 140-2 Level 3 e validade de 5 anos.
+- **B)** A Autoridade Certificadora Raiz (AC-Raiz) da ICP-Brasil é operada de forma compartilhada por um consórcio de empresas privadas de telefonia sob concessão da Anatel.
+- **C)** O certificado digital do tipo A3 armazena sua chave privada em hardware criptográfico (como cartão inteligente ou token criptográfico), impedindo sua cópia ou exportação, enquanto o certificado do tipo A1 é gerado por software e armazenado diretamente no computador ou dispositivo.
+- **D)** Documentos eletrônicos assinados fora da estrutura da ICP-Brasil são nulos de pleno direito no Brasil, mesmo que as partes envolvidas tenham acordado expressamente sobre sua validade.
+- **E)** A Autoridade de Registro (AR) possui a competência exclusiva de assinar digitalmente as Listas de Certificados Revogados (LCR) de todas as ACs subordinadas.
 
 ---
 
@@ -233,7 +231,7 @@ flowchart TD
 > - **C)** **Correta.** Distinção técnica precisa: o certificado A3 gera e armazena a chave privada em dispositivo físico inviolável (smart card, token USB ou HSM) e não permite exportação; o certificado A1 reside em arquivo protegido por senha no computador.
 > - **D)** Incorreta. O Art. 10, § 2º da MP 2.200-2/2001 garante a validade jurídica de outros meios de comprovação de autoria e integridade não vinculados à ICP-Brasil se admitidos pelas partes.
 > - **E)** Incorreta. A Autoridade de Registro (AR) realiza apenas a identificação do titular; a emissão e a assinatura de certificados e LCRs são atribuições da Autoridade Certificadora (AC).
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -249,15 +247,15 @@ flowchart TD
 ---
 
 ### Teste 539
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** No tocante à validade jurídica das assinaturas e documentos eletrônicos sob a égide da Medida Provisória nº 2.200-2/2001, assinale a afirmativa correta:  
 
-* **A)** Os documentos eletrônicos assinados digitalmente com o uso de certificados emitidos no âmbito da ICP-Brasil presumem-se verdadeiros em relação aos signatários, na forma do Código Civil.
-* **B)** A MP nº 2.200-2/2001 declarou expressamente nulo qualquer documento assinado eletronicamente por meio que não utilize certificado digital da ICP-Brasil.
-* **C)** O certificado digital da ICP-Brasil não possui prazo de validade temporal, permanecendo ativo de forma perpétua mesmo após o falecimento do signatário.
-* **D)** A assinatura digitalICP-Brasil substitui a necessidade de conexão física de cabos de fibra óptica nas redes de computadores.
-* **E)** É proibido utilizar criptografia assimétrica na composição de assinaturas digitais brasileiras.
-
+- **A)** Os documentos eletrônicos assinados digitalmente com o uso de certificados emitidos no âmbito da ICP-Brasil presumem-se verdadeiros em relação aos signatários, na forma do Código Civil.
+- **B)** A MP nº 2.200-2/2001 declarou expressamente nulo qualquer documento assinado eletronicamente por meio que não utilize certificado digital da ICP-Brasil.
+- **C)** O certificado digital da ICP-Brasil não possui prazo de validade temporal, permanecendo ativo de forma perpétua mesmo após o falecimento do signatário.
+- **D)** A assinatura digitalICP-Brasil substitui a necessidade de conexão física de cabos de fibra óptica nas redes de computadores.
+- **E)** É proibido utilizar criptografia assimétrica na composição de assinaturas digitais brasileiras.
 
 ---
 
@@ -268,7 +266,7 @@ flowchart TD
 > - **C)** Incorreta. Todo certificado digital possui período de validade determinado (ex.: 1 a 3 anos), findo o qual expira e não pode mais ser utilizado para novas assinaturas válidas.
 > - **D)** Incorreta. Certificação digital é mecanismo criptográfico lógico de segurança, sem relação com meios físicos de transmissão de dados.
 > - **E)** Incorreta. A assinatura digital baseia-se fundamentalmente em criptografia assimétrica de chave pública e privada.
-> 
+>
 > **Gabarito: A**
 
 ---
@@ -285,7 +283,7 @@ flowchart TD
         AA["2. Assinatura Eletrônica AVANÇADA"]
         AQ["3. Assinatura Eletrônica QUALIFICADA"]
     end
-    
+  
     AS -->|"Nível Baixo de Risco"| USO_S["Requerimentos simples, agendamentos, solicitações sem sigilo"]
     AA -->|"Nível Médio de Risco"| USO_A["Processos administrativos, termos de posse, defesas prévias, Gov.br Prata/Ouro"]
     AQ -->|"Nível Alto / Crítico de Risco"| USO_Q["Atos de Chefes de Poder, Notas Fiscais Eletrônicas, Transferência de Imóveis (ICP-Brasil)"]
@@ -296,7 +294,7 @@ flowchart TD
 ## 3.1 Assinaturas Simples, Avançadas e Qualificadas
 
 | Modalidade de Assinatura | Requisitos Técnicos Legais | Exemplos Práticos no Setor Público | Hipóteses de Uso Típicas e Vedações |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Simples** (Art. 3º, I) | Permite identificar o seu signatário e anexa ou associa dados a outros dados eletrônicos do signatário. | Login com usuário e senha em portal de ouvidoria; confirmação por link de e-mail ou código SMS; formulário de agendamento. | - Permitida em interações de baixo risco que não envolvam informações protegidas por sigilo.<br>- **Vedada** para transferência de bens imóveis ou atos de segurança de Estado. |
 | **Avançada** (Art. 3º, II) | a) Associada ao signatário de maneira unívoca;<br>b) Utiliza dados para criação sob controle exclusivo do signatário;<br>c) Relacionada aos dados de tal modo que qualquer alteração posterior é detectável. | Assinatura no portal **Gov.br (contas nível Prata e Ouro)**; certificados digitais corporativos emitidos pelo Tribunal para seus próprios servidores. | - Amplamente aceita em processos administrativos ordinários, manifestações processuais perante o TCE-GO e celebração de contratos comuns.<br>- **Regra preferencial** para desonerar o cidadão! |
 | **Qualificada** (Art. 3º, III) | É **obrigatoriamente** aquela gerada mediante o uso de certificado digital emitido pela **ICP-Brasil** (MP 2.200-2/2001). | Assinatura com token A3 ou arquivo A1 ICP-Brasil em acórdãos de Tribunais, decisões judiciais e emissão de notas fiscais. | - **Exigência mandatória restrita:**<br>1. Atos assinados por Chefes de Poder, Ministros e titulares de Poder;<br>2. Emissão de Notas Fiscais Eletrônicas (salvo MEI);<br>3. Transferência e registro de bens imóveis. |
@@ -304,6 +302,7 @@ flowchart TD
 ---
 
 ### Teste 540
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Analise as afirmativas a seguir sobre criptografia assimétrica, funções de resumo (*hash*) e assinaturas digitais aplicadas a sistemas de controle e processo eletrônico:  
 
@@ -313,12 +312,11 @@ III. A assinatura digital tem a propriedade de garantir a confidencialidade do c
 
 Está correto o que se afirma em:  
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** I e II, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
+- **A)** I, apenas.
+- **B)** II, apenas.
+- **C)** I e II, apenas.
+- **D)** II e III, apenas.
+- **E)** I, II e III.
 
 ---
 
@@ -327,21 +325,21 @@ Está correto o que se afirma em:
 > - **I.** **Correta.** Na criptografia assimétrica, utiliza-se um par de chaves: a privada (exclusiva do titular) e a pública (divulgada no certificado digital).
 > - **II.** **Correta.** A assinatura digital é obtida calculando o resumo criptográfico do documento (*hash*) e cifrando esse resumo com a chave privada do signatário. O destinatário decifra o resumo com a chave pública do autor e compara com o *hash* recalculado, atestando autenticidade, integridade e não repúdio.
 > - **III.** Incorreta. A assinatura digital garante **autenticidade, integridade e não repúdio**, mas **não garante a confidencialidade** (o documento pode ser lido normalmente em texto claro a menos que também seja cifrado separadamente).
-> 
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 541
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Nos termos da Lei Federal nº 14.063/2020, assinale a opção que descreve hipóteses em que é **obrigatória** a utilização da **assinatura eletrônica qualificada** (emitida por certificado digital ICP-Brasil):  
 
-* **A)** Requerimentos de agendamento de atendimento presencial em agências do trabalho e consultas cadastrais simples.
-* **B)** Nos atos normativos assinados pelos Chefes de Poder, Ministros de Estado ou titulares de Poder ou de órgão constitucionalmente autônomo de ente federativo, bem como na emissão de notas fiscais eletrônicas (com ressalvas legais para MEI) e em atos de transferência de bens imóveis.
-* **C)** Em todas as petições de esclarecimento em licitações públicas com valor estimado inferior a cinquenta mil reais.
-* **D)** No envio de currículos profissionais para processos seletivos de estágio na administração direta.
-* **E)** Exclusivamente em contratos celebrados entre particulares que versem sobre compra e venda de mercadorias no varejo.
-
+- **A)** Requerimentos de agendamento de atendimento presencial em agências do trabalho e consultas cadastrais simples.
+- **B)** Nos atos normativos assinados pelos Chefes de Poder, Ministros de Estado ou titulares de Poder ou de órgão constitucionalmente autônomo de ente federativo, bem como na emissão de notas fiscais eletrônicas (com ressalvas legais para MEI) e em atos de transferência de bens imóveis.
+- **C)** Em todas as petições de esclarecimento em licitações públicas com valor estimado inferior a cinquenta mil reais.
+- **D)** No envio de currículos profissionais para processos seletivos de estágio na administração direta.
+- **E)** Exclusivamente em contratos celebrados entre particulares que versem sobre compra e venda de mercadorias no varejo.
 
 ---
 
@@ -352,7 +350,7 @@ Está correto o que se afirma em:
 > - **C)** Incorreta. Petições administrativas ordinárias admitem amplamente assinatura eletrônica avançada (Gov.br Prata/Ouro).
 > - **D)** Incorreta. Envio de currículos dispensa assinatura qualificada.
 > - **E)** Incorreta. A lei disciplina as interações com entes públicos e estabelece a obrigatoriedade da assinatura qualificada para atos estatais solenes.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -370,16 +368,16 @@ A regra visa desonerar o cidadão do custo de adquirir certificados digitais pag
 ---
 
 ### Teste 542
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Um cidadão interessado em acompanhar as contas públicas de seu município acessa o Portal do Cidadão do Tribunal de Contas para solicitar cópia de relatórios de gestão fiscal já publicados no diário oficial. O sistema informatizado exige, para a conclusão do requerimento de acesso à informação (LAI), que o cidadão assine digitalmente o formulário utilizando obrigatoriamente um certificado digital pessoal no padrão ICP-Brasil (token A3 físico).  
 Considerando as regras sobre níveis de assinaturas eletrônicas previstas na Lei Federal nº 14.063/2020:  
 
-* **A)** A exigência do Tribunal é plenamente legal, tendo em vista que todo e qualquer ato processual perante entes públicos exige certificado digital ICP-Brasil qualificado.
-* **B)** A exigência é desproporcional e ilegal.
-* **C)** A assinatura eletrônica simples possui custo financeiro mais elevado do que a assinatura qualificada, justificando a imposição do token pelo Tribunal.
-* **D)** A Lei nº 14.063/2020 aplica-se exclusivamente a empresas privadas concessionárias de serviços públicos, não vinculando os Tribunais de Contas.
-* **E)** O cidadão só pode ser dispensado do certificado físico se outorgar procuração por instrumento público lavrada em cartório de notas.
-
+- **A)** A exigência do Tribunal é plenamente legal, tendo em vista que todo e qualquer ato processual perante entes públicos exige certificado digital ICP-Brasil qualificado.
+- **B)** A exigência é desproporcional e ilegal.
+- **C)** A assinatura eletrônica simples possui custo financeiro mais elevado do que a assinatura qualificada, justificando a imposição do token pelo Tribunal.
+- **D)** A Lei nº 14.063/2020 aplica-se exclusivamente a empresas privadas concessionárias de serviços públicos, não vinculando os Tribunais de Contas.
+- **E)** O cidadão só pode ser dispensado do certificado físico se outorgar procuração por instrumento público lavrada em cartório de notas.
 
 ---
 
@@ -390,7 +388,7 @@ Considerando as regras sobre níveis de assinaturas eletrônicas previstas na Le
 > - **C)** Incorreta. Assinaturas simples e avançadas pelo Gov.br são gratuitas; os certificados ICP-Brasil exigem compra comercial de hardware e taxas de emissão.
 > - **D)** Incorreta. A lei vincula expressamente todos os entes públicos da Federação e seus respectivos Poderes e Tribunais de Contas.
 > - **E)** Incorreta. A exigência de procuração cartorária violaria a Lei de Acesso à Informação e a Lei do Governo Digital.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -411,15 +409,15 @@ Nos sistemas informatizados de auditoria governamental e processo eletrônico do
 ---
 
 ### Teste 543
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O TCE-GO necessita implementar um mecanismo de auditoria contínua em tempo real sobre os sistemas de liquidação de despesa da Secretaria da Fazenda Estadual. Para garantir que a comunicação máquina-a-máquina entre os clusters de microsserviços de ambos os órgãos ocorra com autenticidade mútua, integridade de ponta a ponta e sem risco de ataques do tipo *Man-in-the-Middle*, a melhor prática de engenharia de segurança é:  
 
-* **A)** Implementar o protocolo HTTP plano com envio do token de autorização na URL como parâmetro de consulta (*query parameter*).
-* **B)** Configurar autenticação mútua TLS (mTLS) utilizando certificados digitais X.509 em ambas as pontas da conexão, garantindo que o cliente e o servidor comprovem suas identidades criptograficamente e trafeguem os payloads cifrados com AES-GCM.
-* **C)** Restringir o acesso unicamente por meio de verificação de cabeçalho *Referer* na camada de aplicação.
-* **D)** Dispensar criptografia de transporte e utilizar chaves de API estáticas codificadas em Base64 em tráfego aberto.
-* **E)** Utilizar assinatura eletrônica simples por e-mail para validar cada requisição JSON enviada individualmente.
-
+- **A)** Implementar o protocolo HTTP plano com envio do token de autorização na URL como parâmetro de consulta (*query parameter*).
+- **B)** Configurar autenticação mútua TLS (mTLS) utilizando certificados digitais X.509 em ambas as pontas da conexão, garantindo que o cliente e o servidor comprovem suas identidades criptograficamente e trafeguem os payloads cifrados com AES-GCM.
+- **C)** Restringir o acesso unicamente por meio de verificação de cabeçalho *Referer* na camada de aplicação.
+- **D)** Dispensar criptografia de transporte e utilizar chaves de API estáticas codificadas em Base64 em tráfego aberto.
+- **E)** Utilizar assinatura eletrônica simples por e-mail para validar cada requisição JSON enviada individualmente.
 
 ---
 
@@ -430,21 +428,21 @@ Nos sistemas informatizados de auditoria governamental e processo eletrônico do
 > - **C)** Incorreta. O cabeçalho *Referer* pode ser facilmente adulterado por atacantes e não oferece garantia criptográfica.
 > - **D)** Incorreta. Base64 é mera codificação sem segurança; em tráfego aberto, os dados são interceptados facilmente.
 > - **E)** Incorreta. Validação por e-mail é inviável tecnicamente para APIs RESTful de alta velocidade e não provê segurança ao canal de transporte.
-> 
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 544
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em sistemas de processo eletrônico e repositórios digitais confiáveis de Tribunais de Contas, a preservação e a comprovação probatória de documentos a longo prazo exigem a adoção de padrões técnicos avançados. Acerca do Carimbo do Tempo (*Time Stamping*) e das políticas de assinatura digital de longo prazo, assinale a afirmativa correta:  
 
-* **A)** O Carimbo do Tempo emitido por uma Autoridade de Carimbo do Tempo (ACT) atesta com fé pública eletrônica a data e a hora exatas em que um documento foi assinado, assegurando a validade probatória mesmo após a expiração temporal do certificado digital do signatário.
-* **B)** O Carimbo do Tempo consiste unicamente no relógio interno do sistema operacional do computador do usuário, dispensando conexão com servidores oficiais.
-* **C)** Políticas de assinatura de longo prazo (como PAdES-LTV) são proibidas em órgãos de controle externo em razão de incompatibilidade com o formato PDF.
-* **D)** A expiração natural de um certificado digital anula retroativamente e torna ilícitos todos os acórdãos e relatórios emitidos legitimamente durante sua vigência.
-* **E)** O carimbo do tempo pode ser gerado manualmente pelo próprio advogado mediante alteração das propriedades do arquivo no explorador de arquivos do Windows.
-
+- **A)** O Carimbo do Tempo emitido por uma Autoridade de Carimbo do Tempo (ACT) atesta com fé pública eletrônica a data e a hora exatas em que um documento foi assinado, assegurando a validade probatória mesmo após a expiração temporal do certificado digital do signatário.
+- **B)** O Carimbo do Tempo consiste unicamente no relógio interno do sistema operacional do computador do usuário, dispensando conexão com servidores oficiais.
+- **C)** Políticas de assinatura de longo prazo (como PAdES-LTV) são proibidas em órgãos de controle externo em razão de incompatibilidade com o formato PDF.
+- **D)** A expiração natural de um certificado digital anula retroativamente e torna ilícitos todos os acórdãos e relatórios emitidos legitimamente durante sua vigência.
+- **E)** O carimbo do tempo pode ser gerado manualmente pelo próprio advogado mediante alteração das propriedades do arquivo no explorador de arquivos do Windows.
 
 ---
 
@@ -455,18 +453,18 @@ Nos sistemas informatizados de auditoria governamental e processo eletrônico do
 > - **C)** Incorreta. PAdES (*PDF Advanced Electronic Signatures*) com LTV é o padrão internacional dominante para processos judiciais e de controle externo eletrônicos.
 > - **D)** Incorreta. A expiração da chave não invalida documentos legitimamente assinados no passado quando a validade temporal puder ser atestada por carimbo de tempo ou registros confiáveis.
 > - **E)** Incorreta. Carimbo do tempo é emitido por entidade credenciada (ACT) mediante requisição criptográfica estruturada (RFC 3161).
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ## 6. Fontes Recomendadas na Internet
 
-* [Medida Provisória nº 2.200-2/2001 (ICP-Brasil no Planalto)](https://www.planalto.gov.br/ccivil_03/mpv/antigas_2001/2200-2.htm) - Norma oficial permanente que institui a Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).
-* [Lei nº 14.063/2020 (Uso de Assinaturas Eletrônicas em Entes Públicos)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14063.htm) - Regras para aceitação e níveis de exigência de assinaturas simples, avançadas e qualificadas.
-* [Decreto nº 10.543/2020 (Níveis de Assinatura Eletrônica na Administração Pública)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10543.htm) - Regulamenta o uso das assinaturas eletrônicas nas interações com o poder público federal.
-* [Governo Digital - Guia de Boas Práticas em Assinaturas Eletrônicas](https://www.gov.br/governodigital/pt-br/assinatura-eletronica) - Orientações práticas e requisitos de validade jurídica das assinaturas eletrônicas governamentais.
-* [Cartilha de Segurança para a Internet (CERT.br) - Certificados Digitais](https://cartilha.cert.br/livro/cartilha-seguranca-internet.pdf) - Conceitos de certificação digital, hierarquia de ACs e integridade documental.
-* STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 13 - Assinaturas Digitais e Padrões de Autenticação).
-* FERNANDES, Aguinaldo Aragon; ABREU, Vladimir Ferraz de. **Implantando a Governança de TI: da Estratégia aos Processos**. 4. ed. Rio de Janeiro: Brasport, 2014. (Cap. 11 - Contratações de TIC e Gestão de Riscos Contratuais).
-* JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Cap. VII - Cláusulas de Segurança e Execução Contratual).
+- [Medida Provisória nº 2.200-2/2001 (ICP-Brasil no Planalto)](https://www.planalto.gov.br/ccivil_03/mpv/antigas_2001/2200-2.htm) - Norma oficial permanente que institui a Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).
+- [Lei nº 14.063/2020 (Uso de Assinaturas Eletrônicas em Entes Públicos)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14063.htm) - Regras para aceitação e níveis de exigência de assinaturas simples, avançadas e qualificadas.
+- [Decreto nº 10.543/2020 (Níveis de Assinatura Eletrônica na Administração Pública)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10543.htm) - Regulamenta o uso das assinaturas eletrônicas nas interações com o poder público federal.
+- [Governo Digital - Guia de Boas Práticas em Assinaturas Eletrônicas](https://www.gov.br/governodigital/pt-br/assinatura-eletronica) - Orientações práticas e requisitos de validade jurídica das assinaturas eletrônicas governamentais.
+- [Cartilha de Segurança para a Internet (CERT.br) - Certificados Digitais](https://cartilha.cert.br/livro/cartilha-seguranca-internet.pdf) - Conceitos de certificação digital, hierarquia de ACs e integridade documental.
+- STALLINGS, William. **Criptografia e Segurança de Redes: Princípios e Práticas**. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 13 - Assinaturas Digitais e Padrões de Autenticação).
+- FERNANDES, Aguinaldo Aragon; ABREU, Vladimir Ferraz de. **Implantando a Governança de TI: da Estratégia aos Processos**. 4. ed. Rio de Janeiro: Brasport, 2014. (Cap. 11 - Contratações de TIC e Gestão de Riscos Contratuais).
+- JUSTEN FILHO, Marçal. **Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021**. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Cap. VII - Cláusulas de Segurança e Execução Contratual).

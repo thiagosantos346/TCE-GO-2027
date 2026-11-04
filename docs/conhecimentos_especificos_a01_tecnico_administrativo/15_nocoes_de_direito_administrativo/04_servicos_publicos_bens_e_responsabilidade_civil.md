@@ -4,12 +4,10 @@
 > **Cargo:** A01 – Técnico de Controle Externo – Especialidade: Técnico Administrativo  
 > **Arquivo:** `04_servicos_publicos_bens_e_responsabilidade_civil.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Responsabilidade civil do Estado: evolução histórica, fundamentos e modalidades
 - Artigo 37, § 6º da Constituição Federal de 1988: responsabilidade objetiva das pessoas jurídicas de direito público e das de direito privado prestadoras de serviços públicos
 - Teoria do Risco Administrativo vs. Teoria do Risco Integral
@@ -24,32 +22,32 @@
 ## 🧭 Sumário
 
 1. [Responsabilidade Civil Extracontratual do Estado](#1-responsabilidade-civil-extracontratual-do-estado)
-    - [1.1 Evolução Histórica da Responsabilidade Estatal](#11-evolucao-historica-da-responsabilidade-estatal)
-    - [1.2 O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva](#12-o-art-37-6o-da-cf88-e-os-elementos-da-responsabilidade-objetiva)
-    - [1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes](#13-teoria-do-risco-administrativo-excludentes-e-atenuantes)
-    - [1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais](#14-teoria-do-risco-integral-e-suas-hipoteses-excepcionais)
-    - [1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica](#15-responsabilidade-por-omissao-estatal-generica-vs-especifica)
-    - [1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)](#16-acao-regressiva-e-a-teoria-da-dupla-garantia-tema-940-stf)
-    - [Teste 034](#teste-034)
-    - [Teste 035](#teste-035)
-    - [Teste 036](#teste-036)
-    - [Teste 037](#teste-037)
-2. [Regime Jurídico dos Serviços Públicos e sua Delegação](#2-regime-juridico-dos-servicos-publicos-e-sua-delegacao)
-    - [2.1 Princípios do Serviço Público Adequado](#21-principios-do-servico-publico-adequado)
-    - [2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)](#22-concessao-comum-e-permissao-de-servico-publico-lei-no-89871995)
-    - [2.3 Formas de Extinção das Concessões: Encampação vs. Caducidade](#23-formas-de-extincao-das-concessoes-encampacao-vs-caducidade)
-    - [2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)](#24-parcerias-publico-privadas-ppps-lei-no-110792004)
-    - [Teste 038](#teste-038)
-    - [Teste 039](#teste-039)
-    - [Teste 040](#teste-040)
-    - [Teste 041](#teste-041)
-3. [Bens Públicos: Classificação, Afetação e Prerrogativas](#3-bens-publicos-classificacao-afetacao-e-prerrogativas)
-    - [3.1 Classificação Quanto à Destinação (Código Civil, art. 99)](#31-classificacao-quanto-a-destinacao-codigo-civil-art-99)
-    - [3.2 Fenômeno da Afetação e Desafetação](#32-fenomeno-da-afetacao-e-desafetacao)
-    - [3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta](#33-prerrogativas-do-regime-juridico-e-a-imprescritibilidade-absoluta)
-    - [Teste 042](#teste-042)
-    - [Teste 043](#teste-043)
-    - [Teste 044](#teste-044)
+    1. [Evolução Histórica da Responsabilidade Estatal](#11-evolução-histórica-da-responsabilidade-estatal)
+    1. [O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva](#12-o-art-37--6º-da-cf88-e-os-elementos-da-responsabilidade-objetiva)
+    1. [Teoria do Risco Administrativo: Excludentes e Atenuantes](#13-teoria-do-risco-administrativo-excludentes-e-atenuantes)
+    1. [Teoria do Risco Integral e suas Hipóteses Excepcionais](#14-teoria-do-risco-integral-e-suas-hipóteses-excepcionais)
+    1. [Responsabilidade por Omissão Estatal: Genérica vs. Específica](#15-responsabilidade-por-omissão-estatal-genérica-vs-específica)
+    1. [Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)](#16-ação-regressiva-e-a-teoria-da-dupla-garantia-tema-940--stf)
+    1. [Teste 034](#teste-034)
+    1. [Teste 035](#teste-035)
+    1. [Teste 036](#teste-036)
+    1. [Teste 037](#teste-037)
+2. [Regime Jurídico dos Serviços Públicos e sua Delegação](#2-regime-jurídico-dos-serviços-públicos-e-sua-delegação)
+    1. [Princípios do Serviço Público Adequado](#21-princípios-do-serviço-público-adequado)
+    1. [Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)](#22-concessão-comum-e-permissão-de-serviço-público-lei-nº-89871995)
+    1. [Formas de Extinção das Concessões: Encampação vs. Caducidade](#23-formas-de-extinção-das-concessões-encampação-vs-caducidade)
+    1. [Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)](#24-parcerias-público-privadas---ppps-lei-nº-110792004)
+    1. [Teste 038](#teste-038)
+    1. [Teste 039](#teste-039)
+    1. [Teste 040](#teste-040)
+    1. [Teste 041](#teste-041)
+3. [Bens Públicos: Classificação, Afetação e Prerrogativas](#3-bens-públicos-classificação-afetação-e-prerrogativas)
+    1. [Classificação Quanto à Destinação (Código Civil, art. 99)](#31-classificação-quanto-à-destinação-código-civil-art-99)
+    1. [Fenômeno da Afetação e Desafetação](#32-fenômeno-da-afetação-e-desafetação)
+    1. [Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta](#33-prerrogativas-do-regime-jurídico-e-a-imprescritibilidade-absoluta)
+    1. [Teste 042](#teste-042)
+    1. [Teste 043](#teste-043)
+    1. [Teste 044](#teste-044)
 4. [Fontes Recomendadas na Internet](#4-fontes-recomendadas-na-internet)
 
 ---
@@ -78,7 +76,8 @@ flowchart TD
     INDENIZA --> REGRESSO["Ação Regressiva contra o Servidor Causador<br/>RESPONSABILIDADE SUBJETIVA (Exige DOLO ou CULPA)"]
 ```
 
-#### Elementos Indispensáveis para a Responsabilização Objetiva:
+#### Elementos Indispensáveis para a Responsabilização Objetiva
+
 1. **Conduta Estatal:** Ação ou comportamento imputável a um agente público (efetivo, comissionado, temporário ou terceiro delegatário) agindo nessa qualidade.
 2. **Dano Efetivo:** Prejuízo certo, juridicamente tutelado, de natureza patrimonial, moral ou estética.
 3. **Nexo de Causalidade:** Relação direta de causa e efeito entre a conduta oficial e o dano experimentado pela vítima (Teoria do Dano Direto e Imediato).
@@ -96,7 +95,7 @@ O ordenamento jurídico brasileiro adota como **regra geral a Teoria do Risco Ad
     3. *Fato Exclusivo de Terceiro:* Dano provocado exclusivamente por ação autônoma e imprevisível de outrem sem qualquer concurso da conduta estatal (ex.: assalto à mão armada ocorrido dentro de um ônibus coletivo com disparo de arma de fogo deflagrado pelo criminoso).
 
 - **Causas Atenuantes do Nexo de Causalidade:**
-    - *Culpa Concorrente da Vítima:* A vítima e o agente público concorreram simultaneamente para a eclosão do evento danoso. O Estado continua obrigado a indenizar, mas o montante indenizatório é **reduzido proporcionalmente** ao grau de culpa da vítima.
+  - *Culpa Concorrente da Vítima:* A vítima e o agente público concorreram simultaneamente para a eclosão do evento danoso. O Estado continua obrigado a indenizar, mas o montante indenizatório é **reduzido proporcionalmente** ao grau de culpa da vítima.
 
 ### 1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais
 
@@ -115,9 +114,9 @@ Quando o dano decorre de um não-fazer da Administração Pública, a jurisprud�
 ```mermaid
 flowchart TD
     OM["Dano Decorrente de Omissão do Estado"] --> TIPO{"Qual a natureza do dever descumprido?"}
-    
+  
     TIPO -- "Dever Geral de Polícia / Segurança Pública" --> GEN["OMISSÃO GENÉRICA<br/>• Responsabilidade SUBJETIVA<br/>• Vítima deve provar a Falta do Serviço (faute du service)<br/>• O serviço não funcionou, funcionou mal ou atrasou"]
-    
+  
     TIPO -- "Dever Específico de Custódia e Proteção" --> ESP["OMISSÃO ESPECÍFICA<br/>• Responsabilidade OBJETIVA (Tema 592 / STF)<br/>• Estado na posição de GARANTIDOR da incolumidade<br/>• Presos em presídios, alunos em escolas públicas, pacientes"]
 ```
 
@@ -130,7 +129,8 @@ O Supremo Tribunal Federal, ao julgar o RE 1.027.633 sob a sistemática da reper
 
 > *"A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, **sendo parte ilegítima para figurar no polo passivo o autor do ato**, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."*
 
-#### A Teoria da Dupla Garantia:
+#### A Teoria da Dupla Garantia
+
 1. **Primeira Garantia (Ao Cidadão Vítima):** Assegura que o particular lesionado demandará contra o Estado ou concessionária sob regime de responsabilidade objetiva (sem ter que provar a culpa do servidor) e com a certeza de solvência financeira pública.
 2. **Segunda Garantia (Ao Agente Público):** Protege o servidor contra ações temerárias de administrados inconformados, assegurando-lhe que **jamais poderá ser réu direto** na ação proposta pela vítima, nem compor litisconsórcio passivo originário com o Estado.
 
@@ -139,14 +139,15 @@ O Supremo Tribunal Federal, ao julgar o RE 1.027.633 sob a sistemática da reper
 ---
 
 ### Teste 034
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Motorista de ambulância pertencente à Secretaria de Saúde de determinado Estado da Federação, ao conduzir o veículo oficial em velocidade compatível durante o transporte regular de paciente, colidiu contra o automóvel de um particular que avançou o sinal vermelho de um cruzamento. Diante dos danos materiais causados ao particular:
 
-* **A)** O Estado responde de forma objetiva fundada no risco integral, sendo irrelevante a conduta culposa do terceiro.
-* **B)** A culpa exclusiva da vítima ou de terceiro elide o nexo causal, afastando o dever de indenizar do Estado.
-* **C)** O particular prejudicado deve ajuizar a ação indenizatória diretamente em face do servidor público condutor.
-* **D)** A responsabilidade civil do ente público condiciona-se à prévia instauração de sindicância de trânsito.
-* **E)** O Estado responde subjetivamente por danos no trânsito, cabendo ao particular lesado provar dolo do agente.
+- **A)** O Estado responde de forma objetiva fundada no risco integral, sendo irrelevante a conduta culposa do terceiro.
+- **B)** A culpa exclusiva da vítima ou de terceiro elide o nexo causal, afastando o dever de indenizar do Estado.
+- **C)** O particular prejudicado deve ajuizar a ação indenizatória diretamente em face do servidor público condutor.
+- **D)** A responsabilidade civil do ente público condiciona-se à prévia instauração de sindicância de trânsito.
+- **E)** O Estado responde subjetivamente por danos no trânsito, cabendo ao particular lesado provar dolo do agente.
 
 ---
 
@@ -159,15 +160,17 @@ Motorista de ambulância pertencente à Secretaria de Saúde de determinado Esta
 > - **E)** **Incorreto**. A responsabilidade do Estado por condutas comissivas de seus agentes públicos é estritamente objetiva.
 >
 > **Gabarito: B**
+
 ### Teste 035
+
 **(FGV – TJ/AP – 2023 – Analista Judiciario - Apoio Especializado - Tecnologia da Informacao)**  
 Na qualidade de servidora pública ocupante do cargo de analista do Tribunal de Justiça do Estado do Amapá, Marieva foi questionada acerca de qual teoria foi adotada para responsabilidade civil do Estado pela conduta dos respectivos agentes públicos, à luz do disposto no Art. 37, §6º, da Constituição da República de 1988 e as peculiaridades decorrentes de tal orientação. Nesse contexto, considerando o entendimento do Supremo Tribunal Federal acerca da matéria, Marieva respondeu, corretamente, que se tratava da:
 
-* **A)** teoria do risco administrativo, que consagra a responsabilidade subjetiva do Estado e não admite excludentes do nexo de causalidade;
-* **B)** teoria do risco integral, que consagra a responsabilidade objetiva do Estado e não admite excludentes do nexo de causalidade;
-* **C)** teoria da culpa administrativa, que consagra a responsabilidade subjetiva do Estado e não admite excludentes do nexo de causalidade;
-* **D)** teoria do risco administrativo, que consagra a responsabilidade objetiva do Estado e admite excludentes do nexo de causalidade;
-* **E)** teoria do risco integral, que consagra a responsabilidade subjetiva do Estado e admite excludentes do nexo de causalidade.
+- **A)** teoria do risco administrativo, que consagra a responsabilidade subjetiva do Estado e não admite excludentes do nexo de causalidade;
+- **B)** teoria do risco integral, que consagra a responsabilidade objetiva do Estado e não admite excludentes do nexo de causalidade;
+- **C)** teoria da culpa administrativa, que consagra a responsabilidade subjetiva do Estado e não admite excludentes do nexo de causalidade;
+- **D)** teoria do risco administrativo, que consagra a responsabilidade objetiva do Estado e admite excludentes do nexo de causalidade;
+- **E)** teoria do risco integral, que consagra a responsabilidade subjetiva do Estado e admite excludentes do nexo de causalidade.
 
 ---
 
@@ -178,20 +181,21 @@ Na qualidade de servidora pública ocupante do cargo de analista do Tribunal de 
 > - **D) CORRETA.** O ordenamento constitucional brasileiro adotou como regra geral para a responsabilidade extracontratual do Estado a **Teoria do Risco Administrativo**, a qual:
 >   1. Consagra a **responsabilidade civil OBJETIVA** das pessoas jurídicas de direito público e das de direito privado prestadoras de serviços públicos pelos danos que seus agentes, nessa qualidade, causarem a terceiros;
 >   2. **Admite a comprovação de excludentes do nexo causal** para atenuar ou afastar integralmente o dever de indenizar (como a culpa exclusiva da vítima, a força maior e o fato exclusivo de terceiro).
-> 
+>
 > **Gabarito: D**
 
 ---
 
 ### Teste 036
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante o período noturno de custódia em estabelecimento prisional estadual administrado pela Secretaria de Administração Penitenciária, um detento foi assassinado por companheiros de cela com instrumentos perfurantes artesanais. À luz do art. 5º, XLIX, da Constituição Federal e da jurisprudência vinculante do Supremo Tribunal Federal (Tema nº 592 de Repercussão Geral):
 
-* **A)** O Estado responde de forma puramente subjetiva, exigindo dos herdeiros prova cabal de dolo dos policiais penais.
-* **B)** A responsabilidade estatal é afastada sumariamente caso o preso assassinado contasse com histórico de rebeldia.
-* **C)** O Estado responde objetivamente pela morte de detento, salvo se provar que a morte decorreu de ato inoponível.
-* **D)** A indenização civil por morte de custodiado condiciona-se à prévia condenação criminal dos executores do homicídio.
-* **E)** O dever de indenizar é de responsabilidade subsidiária da empresa privada prestadora de segurança ao presídio.
+- **A)** O Estado responde de forma puramente subjetiva, exigindo dos herdeiros prova cabal de dolo dos policiais penais.
+- **B)** A responsabilidade estatal é afastada sumariamente caso o preso assassinado contasse com histórico de rebeldia.
+- **C)** O Estado responde objetivamente pela morte de detento, salvo se provar que a morte decorreu de ato inoponível.
+- **D)** A indenização civil por morte de custodiado condiciona-se à prévia condenação criminal dos executores do homicídio.
+- **E)** O dever de indenizar é de responsabilidade subsidiária da empresa privada prestadora de segurança ao presídio.
 
 ---
 
@@ -204,15 +208,17 @@ Durante o período noturno de custódia em estabelecimento prisional estadual ad
 > - **E)** **Incorreto**. A segurança penitenciária é função de polícia indelegável e de titularidade do Estado.
 >
 > **Gabarito: C**
+
 ### Teste 037
+
 **(FGV – TRT/1 – 2024 – Analista Judiciário - Área Administrativa)**  
 Josélia decidiu aprofundar os seus conhecimentos com relação à orientação do Supremo Tribunal Federal sobre Responsabilidade Civil do Estado. Ao analisar a jurisprudência da mencionada Corte Constitucional, Josélia constatou, corretamente, que:
 
-* **A)** a responsabilidade civil do Estado é fundada na teoria do risco integral;
-* **B)** o direito de regresso em relação ao agente público causador do dano em sede de responsabilidade civil é imprescritível, por se tratar de ressarcimento ao erário;
-* **C)** não é cabível o reconhecimento de causas excludentes da responsabilidade civil, diante da previsão constitucional;
-* **D)** o agente causador do dano não tem legitimidade para constar do polo passivo da ação judicial que visa à responsabilização civil do Estado;
-* **E)** tanto o Estado quanto o agente causador do dano respondem objetivamente pelos danos por este causados no exercício de suas atribuições.
+- **A)** a responsabilidade civil do Estado é fundada na teoria do risco integral;
+- **B)** o direito de regresso em relação ao agente público causador do dano em sede de responsabilidade civil é imprescritível, por se tratar de ressarcimento ao erário;
+- **C)** não é cabível o reconhecimento de causas excludentes da responsabilidade civil, diante da previsão constitucional;
+- **D)** o agente causador do dano não tem legitimidade para constar do polo passivo da ação judicial que visa à responsabilização civil do Estado;
+- **E)** tanto o Estado quanto o agente causador do dano respondem objetivamente pelos danos por este causados no exercício de suas atribuições.
 
 ---
 
@@ -223,7 +229,7 @@ Josélia decidiu aprofundar os seus conhecimentos com relação à orientação 
 > - **C) Incorreta.** A teoria do risco administrativo admite plenamente causas excludentes do nexo causal.
 > - **D) CORRETA.** O Supremo Tribunal Federal, ao julgar o **Tema 940 de Repercussão Geral** (RE 1.027.633/SP), fixou a tese vinculante: *"A teor do disposto no art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada diretamente contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo **parte ilegítima o autor do ato**, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."* Logo, veda-se o ajuizamento da ação diretamente em face do agente ou em litisconsórcio passivo facultativo com o Estado.
 > - **E) Incorreta.** O agente público responde sempre subjetivamente (necessidade de dolo ou culpa comprovados) em sede de ação regressiva.
-> 
+>
 > **Gabarito: D**
 
 ---
@@ -255,15 +261,15 @@ A diferenciação entre as modalidades de extinção contratual na Lei nº 8.987
 ```mermaid
 flowchart TD
     EXT["Extinção da Concessão de Serviço Público (Lei 8.987/95)"]
-    
+  
     EXT --> ENC["ENCAMPAÇÃO (Art. 37)<br/>• Motivo de INTERESSE PÚBLICO relevante<br/>• A concessionária NÃO cometeu nenhuma falta<br/>• Exige LEI AUTORIZATIVA específica + PRÉVIA INDENIZAÇÃO"]
-    
+  
     EXT --> CAD["CADUCIDADE (Art. 38)<br/>• Inadimplemento / Falta da Concessionária<br/>• Serviço inadequado, descumprimento contratual<br/>• Decretada unilateralmente pelo Poder Concedente"]
-    
+  
     EXT --> RES["RESCISÃO JUDICIAL (Art. 39)<br/>• Ajuizada pela CONCESSIONÁRIA em face do Estado<br/>• Inadimplemento das obrigações pelo Poder Concedente"]
-    
+  
     EXT --> ANU["ANULAÇÃO (Art. 35, IV)<br/>• Ilegalidade originária na licitação ou no contrato"]
-    
+  
     EXT --> REV["REVERSÃO (Art. 35, I c/c 36)<br/>• Término regular do prazo contratual (advento do termo)"]
 ```
 
@@ -288,14 +294,15 @@ As Parcerias Público-Privadas constituem concessões especiais destinadas a via
 ---
 
 ### Teste 038
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Sobre os princípios que informam a prestação de serviços públicos previstos na Lei Federal nº 8.987/1995 e na doutrina administrativista contemporânea, assinale a opção correta:
 
-* **A)** A continuidade veda em absoluto a interrupção do serviço, mesmo após aviso prévio por inadimplemento de fatura de água.
-* **B)** A modicidade tarifária impõe gratuidade universal aos serviços públicos, arcando o erário com o custo operacional total.
-* **C)** A mutabilidade do regime autoriza a adequação contínua do serviço às novas exigências técnicas e necessidades sociais.
-* **D)** A generalidade impede a concessão de tarifas sociais diferenciadas para atender famílias de comprovada baixa renda.
-* **E)** A atualidade restringe o emprego de tecnologias modernas para salvaguardar a estabilidade dos contratos concedidos.
+- **A)** A continuidade veda em absoluto a interrupção do serviço, mesmo após aviso prévio por inadimplemento de fatura de água.
+- **B)** A modicidade tarifária impõe gratuidade universal aos serviços públicos, arcando o erário com o custo operacional total.
+- **C)** A mutabilidade do regime autoriza a adequação contínua do serviço às novas exigências técnicas e necessidades sociais.
+- **D)** A generalidade impede a concessão de tarifas sociais diferenciadas para atender famílias de comprovada baixa renda.
+- **E)** A atualidade restringe o emprego de tecnologias modernas para salvaguardar a estabilidade dos contratos concedidos.
 
 ---
 
@@ -308,15 +315,17 @@ Sobre os princípios que informam a prestação de serviços públicos previstos
 > - **E)** **Incorreto**. O princípio da atualidade impõe a modernidade das técnicas, equipamentos e instalações.
 >
 > **Gabarito: C**
+
 ### Teste 039
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito dos regimes de delegação de serviços públicos previstos na Lei Federal nº 8.987/1995, assinale a afirmativa que apresenta distinção correta entre concessão comum e permissão de serviço público:
 
-* **A)** A concessão é outorgada a pessoa física ou jurídica, enquanto a permissão formaliza-se unicamente com pessoa jurídica.
-* **B)** A concessão outorga-se por contrato bilateral, ao passo que a permissão é formalizada a título precário por contrato.
-* **C)** A concessão dispensa procedimento de licitação, ao passo que a permissão exige modalidade estrita de pregão eletrônico.
-* **D)** A concessão tem caráter essencialmente precário, enquanto a permissão goza de prazo indeterminado e irrevogabilidade.
-* **E)** A concessão admite delegação de competências policiais sancionatórias, ao passo que a permissão restringe-se a obras.
+- **A)** A concessão é outorgada a pessoa física ou jurídica, enquanto a permissão formaliza-se unicamente com pessoa jurídica.
+- **B)** A concessão outorga-se por contrato bilateral, ao passo que a permissão é formalizada a título precário por contrato.
+- **C)** A concessão dispensa procedimento de licitação, ao passo que a permissão exige modalidade estrita de pregão eletrônico.
+- **D)** A concessão tem caráter essencialmente precário, enquanto a permissão goza de prazo indeterminado e irrevogabilidade.
+- **E)** A concessão admite delegação de competências policiais sancionatórias, ao passo que a permissão restringe-se a obras.
 
 ---
 
@@ -329,15 +338,17 @@ A respeito dos regimes de delegação de serviços públicos previstos na Lei Fe
 > - **E)** **Incorreto**. Atos de polícia punitiva geral não são passíveis de concessão nem permissão a entes mercantis privados.
 >
 > **Gabarito: B**
+
 ### Teste 040
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Estado de Goiás celebrou contrato de concessão de serviço público rodoviário com uma sociedade empresária pelo prazo de vinte anos. Transcorridos cinco anos, em razão de relevante interesse público e conveniência estratégica estadual, o Governador pretende retomar a prestação direta da rodovia antes do término contratual. Nos termos da Lei nº 8.987/1995:
 
-* **A)** O Estado pode promover a encampação unilateral mediante decreto, sem necessidade de lei ou prévia indenização.
-* **B)** A retomada é vedada pelo princípio da segurança jurídica, vinculando o Poder Concedente ao prazo de vinte anos.
-* **C)** A encampação exige autorização por lei autorizativa específica e prévio pagamento de justa indenização em dinheiro.
-* **D)** A rescisão unilateral pode ser declarada pelo Estado com base na caducidade, prescindindo de justa reparação patrimonial.
-* **E)** A reversão dos bens vinculados ao contrato fica impedida até que se opere a amortização contábil integral da obra.
+- **A)** O Estado pode promover a encampação unilateral mediante decreto, sem necessidade de lei ou prévia indenização.
+- **B)** A retomada é vedada pelo princípio da segurança jurídica, vinculando o Poder Concedente ao prazo de vinte anos.
+- **C)** A encampação exige autorização por lei autorizativa específica e prévio pagamento de justa indenização em dinheiro.
+- **D)** A rescisão unilateral pode ser declarada pelo Estado com base na caducidade, prescindindo de justa reparação patrimonial.
+- **E)** A reversão dos bens vinculados ao contrato fica impedida até que se opere a amortização contábil integral da obra.
 
 ---
 
@@ -350,15 +361,17 @@ O Estado de Goiás celebrou contrato de concessão de serviço público rodoviá
 > - **E)** **Incorreto**. A reversão dos bens ao poder concedente é decorrência da extinção contratual, apurando-se a indenização cabível.
 >
 > **Gabarito: C**
+
 ### Teste 041
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No Brasil, as Parcerias Público-Privadas (PPPs) são disciplinadas pela Lei Federal nº 11.079/2004 e contemplam duas modalidades contratuais distintas: a concessão patrocinada e a concessão administrativa. A respeito da concessão patrocinada, é correto afirmar que consiste no contrato de concessão de serviços públicos ou de obras públicas:
 
-* **A)** em que a remuneração do parceiro privado advém unicamente de subsídio orçamentário mensal pago pela Administração.
-* **B)** que envolve, adicionalmente à tarifa cobrada dos usuários, contraprestação pecuniária do parceiro público ao parceiro privado.
-* **C)** que se destina à prestação de serviços de que a Administração Pública seja a usuária direta ou indireta de modo exclusivo.
-* **D)** cujo valor financeiro total estimado para o empreendimento de infraestrutura seja inferior a dez milhões de reais.
-* **E)** pactuado por prazo de execução inferior a cinco anos para permitir a renovação periódica dos termos licitados.
+- **A)** em que a remuneração do parceiro privado advém unicamente de subsídio orçamentário mensal pago pela Administração.
+- **B)** que envolve, adicionalmente à tarifa cobrada dos usuários, contraprestação pecuniária do parceiro público ao parceiro privado.
+- **C)** que se destina à prestação de serviços de que a Administração Pública seja a usuária direta ou indireta de modo exclusivo.
+- **D)** cujo valor financeiro total estimado para o empreendimento de infraestrutura seja inferior a dez milhões de reais.
+- **E)** pactuado por prazo de execução inferior a cinco anos para permitir a renovação periódica dos termos licitados.
 
 ---
 
@@ -371,6 +384,7 @@ No Brasil, as Parcerias Público-Privadas (PPPs) são disciplinadas pela Lei Fed
 > - **E)** **Incorreto**. O prazo do contrato de PPP não pode ser inferior a 5 (cinco) anos nem superior a 35 (trinta e cinco) anos (art. 5º, I).
 >
 > **Gabarito: B**
+
 ## 3. Bens Públicos: Classificação, Afetação e Prerrogativas
 
 Conforme o art. 98 do Código Civil, são bens públicos todos aqueles pertencentes às pessoas jurídicas de direito público interno (União, Estados, DF, Municípios e suas autarquias e fundações públicas de direito público). Todos os demais são bens privados.
@@ -401,14 +415,15 @@ O regime jurídico dos bens públicos é informado por quatro prerrogativas estr
 ---
 
 ### Teste 042
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Código Civil brasileiro, em seu art. 99, classifica os bens públicos em bens de uso comum do povo, bens de uso especial e bens dominicais. A respeito do regime jurídico que recai sobre essas três categorias de bens públicos, assinale a opção correta:
 
-* **A)** Os bens de uso comum do povo e os de uso especial são inalienáveis enquanto conservarem a sua qualificação legal.
-* **B)** Os bens dominicais podem ser objeto de usucapião por particulares desde que a posse mansa supere vinte anos.
-* **C)** Os bens de uso especial podem ser penhorados judicialmente para satisfação de créditos trabalhistas e fiscais.
-* **D)** A desafetação de um bem de uso comum do povo opera-se tacitamente com a omissão da autoridade pública por dez anos.
-* **E)** Todos os bens públicos admitem oneração por garantias reais de hipoteca para obtenção de financiamento bancário.
+- **A)** Os bens de uso comum do povo e os de uso especial são inalienáveis enquanto conservarem a sua qualificação legal.
+- **B)** Os bens dominicais podem ser objeto de usucapião por particulares desde que a posse mansa supere vinte anos.
+- **C)** Os bens de uso especial podem ser penhorados judicialmente para satisfação de créditos trabalhistas e fiscais.
+- **D)** A desafetação de um bem de uso comum do povo opera-se tacitamente com a omissão da autoridade pública por dez anos.
+- **E)** Todos os bens públicos admitem oneração por garantias reais de hipoteca para obtenção de financiamento bancário.
 
 ---
 
@@ -421,15 +436,17 @@ O Código Civil brasileiro, em seu art. 99, classifica os bens públicos em bens
 > - **E)** **Incorreto**. Bens públicos não podem ser gravados com ônus reais de garantia (inonorabilidade).
 >
 > **Gabarito: A**
+
 ### Teste 043
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A afetação e a desafetação de bens públicos expressam a consagração ou a desvinculação de uma coisa pública a uma finalidade estatal específica. A respeito dos modos de afetação e desafetação e de suas repercussões para o controle patrimonial, é correto afirmar que:
 
-* **A)** A afetação exige sempre lei autorizativa específica aprovada pelo Legislativo, vedada a afetação tácita fática.
-* **B)** A desafetação de bem de uso especial para dominical transfere o bem para o comércio jurídico, admitindo alienação.
-* **C)** O bem desafetado perde a imunidade tributária e a impenhorabilidade mesmo pertencendo ao patrimônio estatal.
-* **D)** A construção de uma escola em terreno dominical consubstancia desafetação administrativa por ato formal de gestão.
-* **E)** Os bens de uso comum do povo não admitem desafetação por se tratarem de patrimônio com tutela constitucional absoluta.
+- **A)** A afetação exige sempre lei autorizativa específica aprovada pelo Legislativo, vedada a afetação tácita fática.
+- **B)** A desafetação de bem de uso especial para dominical transfere o bem para o comércio jurídico, admitindo alienação.
+- **C)** O bem desafetado perde a imunidade tributária e a impenhorabilidade mesmo pertencendo ao patrimônio estatal.
+- **D)** A construção de uma escola em terreno dominical consubstancia desafetação administrativa por ato formal de gestão.
+- **E)** Os bens de uso comum do povo não admitem desafetação por se tratarem de patrimônio com tutela constitucional absoluta.
 
 ---
 
@@ -442,15 +459,17 @@ A afetação e a desafetação de bens públicos expressam a consagração ou a 
 > - **E)** **Incorreto**. Bens de uso comum (praças, ruas) admitem desafetação mediante lei específica.
 >
 > **Gabarito: B**
+
 ### Teste 044
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada área de terras devolutas pertencente ao patrimônio do Estado de Goiás foi invadida por particulares que ali construíram residências e desenvolveram atividade agropastoril contínua e pacífica por mais de quinze anos ininterruptos. Diante do pleito de usucapião formulado pelos posseiros em face da Fazenda Pública estadual:
 
-* **A)** A pretensão é juridicamente inviável, pois a Constituição veda o usucapião de imóveis públicos de qualquer espécie.
-* **B)** O usucapião é admissível exclusivamente para terras devolutas dominicais desprovidas de afetação administrativa direta.
-* **C)** A ocupação mansa e pacífica de terra pública por mais de dez anos converte a detenção ilícita em posse de boa-fé.
-* **D)** O Estado perde a titularidade do domínio imobiliário caso não comprove a cobrança periódica de foro ou taxa de ocupação.
-* **E)** O juiz deve declarar a prescrição aquisitiva extraordinária em favor dos posseiros que exploram a função social da terra.
+- **A)** A pretensão é juridicamente inviável, pois a Constituição veda o usucapião de imóveis públicos de qualquer espécie.
+- **B)** O usucapião é admissível exclusivamente para terras devolutas dominicais desprovidas de afetação administrativa direta.
+- **C)** A ocupação mansa e pacífica de terra pública por mais de dez anos converte a detenção ilícita em posse de boa-fé.
+- **D)** O Estado perde a titularidade do domínio imobiliário caso não comprove a cobrança periódica de foro ou taxa de ocupação.
+- **E)** O juiz deve declarar a prescrição aquisitiva extraordinária em favor dos posseiros que exploram a função social da terra.
 
 ---
 
@@ -463,6 +482,7 @@ Determinada área de terras devolutas pertencente ao patrimônio do Estado de Go
 > - **E)** **Incorreto**. A função social não autoriza a aquisição por usucapião de imóveis pertencentes ao domínio do Estado.
 >
 > **Gabarito: A**
+
 ## 4. Fontes Recomendadas na Internet
 
 - [Constituição Federal de 1988 - Art. 37, § 6º, Art. 183, § 3º e Art. 191](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37)  
@@ -477,6 +497,6 @@ Determinada área de terras devolutas pertencente ao patrimônio do Estado de Go
   Classificação legal dos bens públicos de uso comum do povo, de uso especial e dominicais, e regras de inalienabilidade.
 - [STF - Tema 940 de Repercussão Geral (Teoria da Dupla Garantia na Responsabilidade Civil)](https://portal.stf.jus.br/jurisprudencia/repercussaoGeral/tema.asp?num=940)  
   Tese que consolidou a ilegitimidade passiva originária do agente público em ações indenizatórias propostas pela vítima em face do Estado.
-* DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 5, Cap. 15 e Cap. 17 - Serviços Públicos, Responsabilidade Extracontratual do Estado e Bens Públicos).
-* CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 6, Cap. 11 e Cap. 18 - Serviços Públicos, Concessões, Responsabilidade Civil do Estado e Bens Públicos).
-* OLIVEIRA, Rafael Carvalho Rezende. **Curso de Direito Administrativo**. 12. ed. Rio de Janeiro: Método, 2024. (Cap. 12, Cap. 20 e Cap. 23 - Serviços Públicos, Bens Públicos e Responsabilidade Civil Estatal).
+- DI PIETRO, Maria Sylvia Zanella. **Direito Administrativo**. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 5, Cap. 15 e Cap. 17 - Serviços Públicos, Responsabilidade Extracontratual do Estado e Bens Públicos).
+- CARVALHO FILHO, José dos Santos. **Manual de Direito Administrativo**. 38. ed. Barueri: Atlas, 2024. (Cap. 6, Cap. 11 e Cap. 18 - Serviços Públicos, Concessões, Responsabilidade Civil do Estado e Bens Públicos).
+- OLIVEIRA, Rafael Carvalho Rezende. **Curso de Direito Administrativo**. 12. ed. Rio de Janeiro: Método, 2024. (Cap. 12, Cap. 20 e Cap. 23 - Serviços Públicos, Bens Públicos e Responsabilidade Civil Estatal).

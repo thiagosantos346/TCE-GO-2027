@@ -4,12 +4,10 @@
 > **Cargo:** B02 – Técnico de Controle Externo – Especialidade: Tecnologia da Informação  
 > **Arquivo:** `03_gestao_de_projetos_pmbok_8_edicao_e_metodos_ageis.md`  
 
-
-
 ---
 
-
 ## 📌 Ementa / Itens do Edital
+
 - Fundamentos de Gestão de Projetos (PMI - Project Management Institute)
 - O padrão do Guia PMBOK (evolução de processos para Princípios e Domínios de Desempenho)
 - Sistema de Entrega de Valor (System for Value Delivery)
@@ -23,31 +21,31 @@
 
 ## 🧭 Sumário
 
-1. [Fundamentos de Gestão de Projetos e Mudança de Paradigma do PMI](#1-fundamentos-de-gestao-de-projetos-e-mudanca-de-paradigma-do-pmi)
-1. [1.1 Conceito de Projeto vs. Operação](#11-conceito-de-projeto-vs-operacao)
-    - [Teste 485](#teste-485)
-2. [1.2 Hierarquia PMI: Projetos, Programas e Portfólios de TIC](#12-hierarquia-pmi-projetos-programas-e-portfolios-de-tic)
-    - [Teste 486](#teste-486)
-3. [1.3 O Sistema de Entrega de Valor (System for Value Delivery)](#13-o-sistema-de-entrega-de-valor-system-for-value-delivery)
-    - [Teste 487](#teste-487)
-2. [Os 12 Princípios de Entrega de Projetos](#2-os-12-principios-de-entrega-de-projetos)
-    - [Teste 488](#teste-488)
-3. [Os 8 Domínios de Desempenho do Projeto](#3-os-8-dominios-de-desempenho-do-projeto)
-    - [Teste 489](#teste-489)
-4. [Ciclos de Vida: Métodos Ágeis, Abordagens Híbridas e Adaptação (Tailoring)](#4-ciclos-de-vida-metodos-ageis-abordagens-hibridas-e-adaptacao-tailoring)
-4. [4.1 Comparativo dos Ciclos de Vida (Preditivo a Adaptativo)](#41-comparativo-dos-ciclos-de-vida-preditivo-a-adaptativo)
-5. [4.2 Abordagens Híbridas na Administração Pública](#42-abordagens-hibridas-na-administracao-publica)
-    - [Teste 490](#teste-490)
-6. [4.3 Adaptação Contextual (Tailoring)](#43-adaptacao-contextual-tailoring)
-    - [Teste 491](#teste-491)
-5. [Análise de Valor Agregado (EVM / EVA)](#5-analise-de-valor-agregado-evm-eva)
-7. [5.1 Variáveis Fundamentais (VP, CR e VA)](#51-variaveis-fundamentais-vp-cr-e-va)
-    - [Teste 492](#teste-492)
-8. [5.2 Variações e Índices de Desempenho (IDP e IDC)](#52-variacoes-e-indices-de-desempenho-idp-e-idc)
-    - [Teste 493](#teste-493)
-6. [Gestão de Portfólio de TI e Governança de Programas](#6-gestao-de-portfolio-de-ti-e-governanca-de-programas)
-    - [Teste 494](#teste-494)
-6. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
+1. [Fundamentos de Gestão de Projetos e Mudança de Paradigma do PMI](#1-fundamentos-de-gestão-de-projetos-e-mudança-de-paradigma-do-pmi)
+2. [1 Conceito de Projeto vs. Operação](#11-conceito-de-projeto-vs-operação)
+    1. [Teste 485](#teste-485)
+3. [2 Hierarquia PMI: Projetos, Programas e Portfólios de TIC](#12-hierarquia-pmi-projetos-programas-e-portfólios-de-tic)
+    1. [Teste 486](#teste-486)
+4. [3 O Sistema de Entrega de Valor (System for Value Delivery)](#13-o-sistema-de-entrega-de-valor-system-for-value-delivery)
+    1. [Teste 487](#teste-487)
+5. [Os 12 Princípios de Entrega de Projetos](#2-os-12-princípios-de-entrega-de-projetos)
+    1. [Teste 488](#teste-488)
+6. [Os 8 Domínios de Desempenho do Projeto](#3-os-8-domínios-de-desempenho-do-projeto)
+    1. [Teste 489](#teste-489)
+7. [Ciclos de Vida: Métodos Ágeis, Abordagens Híbridas e Adaptação (Tailoring)](#4-ciclos-de-vida-métodos-ágeis-abordagens-híbridas-e-adaptação-tailoring)
+8. [1 Comparativo dos Ciclos de Vida (Preditivo a Adaptativo)](#41-comparativo-dos-ciclos-de-vida-preditivo-a-adaptativo)
+9. [2 Abordagens Híbridas na Administração Pública](#42-abordagens-híbridas-na-administração-pública)
+    1. [Teste 490](#teste-490)
+10. [3 Adaptação Contextual (Tailoring)](#43-adaptação-contextual-tailoring)
+    1. [Teste 491](#teste-491)
+11. [Análise de Valor Agregado (EVM / EVA)](#5-análise-de-valor-agregado-evm--eva)
+12. [1 Variáveis Fundamentais (VP, CR e VA)](#51-variáveis-fundamentais-vp-cr-e-va)
+    1. [Teste 492](#teste-492)
+13. [2 Variações e Índices de Desempenho (IDP e IDC)](#52-variações-e-índices-de-desempenho-idp-e-idc)
+    1. [Teste 493](#teste-493)
+14. [Gestão de Portfólio de TI e Governança de Programas](#6-gestão-de-portfólio-de-ti-e-governança-de-programas)
+    1. [Teste 494](#teste-494)
+15. [Fontes Recomendadas na Internet](#6-fontes-recomendadas-na-internet)
 
 ---
 
@@ -62,21 +60,21 @@ Segundo a padronização do Project Management Institute (PMI), um **Projeto** �
 - **Temporário:** Possui marco temporal de início e término definidos. O fim é alcançado quando os objetivos foram integralmente atingidos, ou quando o projeto é cancelado por inviabilidade técnica, orçamentária ou perda de alinhamento estratégico.
 - **Exclusivo (Único):** O resultado final (sistema desenvolvido, data center modernizado) difere substancialmente de qualquer outro trabalho previamente executado.
 - **Projeto versus Operação Contínua:**
-    - *Projetos:* Geram mudanças, criam ativos novos, possuem equipes multidisciplinares temporárias e encerram-se ao concluir a entrega.
-    - *Operações:* Sustentam o negócio existente, repetem processos padronizados contínuos (atendimento de chamados, manutenção de infraestrutura, rotinas de backup) e não têm data prevista para término.
+  - *Projetos:* Geram mudanças, criam ativos novos, possuem equipes multidisciplinares temporárias e encerram-se ao concluir a entrega.
+  - *Operações:* Sustentam o negócio existente, repetem processos padronizados contínuos (atendimento de chamados, manutenção de infraestrutura, rotinas de backup) e não têm data prevista para término.
 
 ---
 
 ### Teste 485
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O Guia PMBOK estabelece distinções fundamentais entre as características de um projeto e as rotinas de uma operação contínua dentro de uma organização de TI. Acerca dessa comparação, assinale a alternativa correta:  
 
-* **A)** Projetos são contínuos e repetitivos, visando unicamente manter os sistemas legados funcionando sem qualquer alteração de infraestrutura.
-* **B)** As operações são caracterizadas pela temporariedade estrita, tendo data formal de início e término com dissolução imediata da equipe ao término de cada chamado.
-* **C)** Um projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo, enquanto as operações sustentam a execução contínua do negócio.
-* **D)** A elaboração progressiva é uma característica exclusiva das operações financeiras, sendo expressamente vedada na gestão de projetos de tecnologia da informação.
-* **E)** Projetos de desenvolvimento de software prescindem de objetivos ou escopo delimitado, devendo prolongar-se indefinidamente pela vida útil da instituição.
-
+- **A)** Projetos são contínuos e repetitivos, visando unicamente manter os sistemas legados funcionando sem qualquer alteração de infraestrutura.
+- **B)** As operações são caracterizadas pela temporariedade estrita, tendo data formal de início e término com dissolução imediata da equipe ao término de cada chamado.
+- **C)** Um projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo, enquanto as operações sustentam a execução contínua do negócio.
+- **D)** A elaboração progressiva é uma característica exclusiva das operações financeiras, sendo expressamente vedada na gestão de projetos de tecnologia da informação.
+- **E)** Projetos de desenvolvimento de software prescindem de objetivos ou escopo delimitado, devendo prolongar-se indefinidamente pela vida útil da instituição.
 
 ---
 
@@ -87,7 +85,7 @@ Segundo a padronização do Project Management Institute (PMI), um **Projeto** �
 > - **C)** **Correta.** Definição clássica e canônica do PMI: Projetos são iniciativas temporárias que geram entregas exclusivas (únicas); operações são contínuas e mantêm a organização funcionando.
 > - **D)** Incorreta. A elaboração progressiva (desenvolver em etapas, com detalhes refinados à medida que o projeto avança) é característica marcante dos projetos.
 > - **E)** Incorreta. Projetos têm objetivos específicos e encerram-se ao concluir suas entregas ou quando se tornam inviáveis.
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -121,15 +119,15 @@ flowchart TD
 ---
 
 ### Teste 486
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A respeito da estrutura de governança de projetos, programas e portfólios preconizada pelas boas práticas do Project Management Institute (PMI), assinale a afirmativa correta:  
 
-* **A)** Um portfólio consiste exclusivamente em um conjunto de projetos que possuem dependências técnicas operacionais obrigatórias e sequenciais entre si.
-* **B)** O programa é caracterizado por um grupo de projetos relacionados, subsidiários e atividades correlatas gerenciados de forma coordenada para obter benefícios que não estariam disponíveis se fossem gerenciados individualmente.
-* **C)** Um projeto é uma iniciativa permanente da organização que visa executar rotinas padronizadas e contínuas para manutenção do suporte de TI.
-* **D)** O gerenciamento de portfólio foca exclusivamente no acompanhamento da velocidade diária de codificação dos desenvolvedores de sistemas.
-* **E)** A gestão de programas visa substituir os órgãos colegiados e a alta administração do Tribunal de Contas nas deliberações de planejamento estratégico considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-
+- **A)** Um portfólio consiste exclusivamente em um conjunto de projetos que possuem dependências técnicas operacionais obrigatórias e sequenciais entre si.
+- **B)** O programa é caracterizado por um grupo de projetos relacionados, subsidiários e atividades correlatas gerenciados de forma coordenada para obter benefícios que não estariam disponíveis se fossem gerenciados individualmente.
+- **C)** Um projeto é uma iniciativa permanente da organização que visa executar rotinas padronizadas e contínuas para manutenção do suporte de TI.
+- **D)** O gerenciamento de portfólio foca exclusivamente no acompanhamento da velocidade diária de codificação dos desenvolvedores de sistemas.
+- **E)** A gestão de programas visa substituir os órgãos colegiados e a alta administração do Tribunal de Contas nas deliberações de planejamento estratégico considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 
 ---
 
@@ -140,7 +138,7 @@ flowchart TD
 > - **C)** Incorreta. O projeto é por essência temporário (tem início e término) e único; tarefas contínuas e repetitivas configuram operações.
 > - **D)** Incorreta. O gerenciamento de portfólio foca no nível estratégico (seleção, priorização e retorno agregado), não na velocidade de codificação individual de programadores.
 > - **E)** Incorreta. A gestão de programas é um mecanismo executivo subordinado à governança, jamais substituindo o plenário ou a alta administração do Tribunal.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -159,15 +157,15 @@ A gestão de projetos passou a ser compreendida dentro de um **Sistema de Entreg
 ---
 
 ### Teste 487
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Nas diretrizes contemporâneas do Guia PMBOK (7ª e 8ª edições), a gestão de projetos é articulada dentro de um 'Sistema de Entrega de Valor' (*System for Value Delivery*), superando o modelo puramente prescritivo de processos mecânicos. A respeito dos princípios e desse sistema de entrega de valor, assinale a alternativa correta:  
 
-* **A)** O sistema de entrega de valor preconiza que o único objetivo do gestor de projetos é a geração burocrática de documentos e artefatos em papel, desconsiderando se o produto gerou valor ao negócio.
-* **B)** O foco da gestão contemporânea de projetos desloca-se da mera entrega física de produtos (*deliverables*) para a realização efetiva de benefícios e resultados estratégicos (*outcomes and business value*).
-* **C)** O PMBOK estabelece que a liderança em projetos deve ser autoritária e centralizadora, sendo proibida a adoção de posturas de liderança servidora em equipes ágeis.
-* **D)** O sistema de entrega de valor é restrito a empresas privadas com fins lucrativos, sendo inaplicável a órgãos públicos ou tribunais de contas.
-* **E)** O Guia PMBOK aboliu totalmente a gestão de riscos e a preocupação com a qualidade técnica das entregas de software.
-
+- **A)** O sistema de entrega de valor preconiza que o único objetivo do gestor de projetos é a geração burocrática de documentos e artefatos em papel, desconsiderando se o produto gerou valor ao negócio.
+- **B)** O foco da gestão contemporânea de projetos desloca-se da mera entrega física de produtos (*deliverables*) para a realização efetiva de benefícios e resultados estratégicos (*outcomes and business value*).
+- **C)** O PMBOK estabelece que a liderança em projetos deve ser autoritária e centralizadora, sendo proibida a adoção de posturas de liderança servidora em equipes ágeis.
+- **D)** O sistema de entrega de valor é restrito a empresas privadas com fins lucrativos, sendo inaplicável a órgãos públicos ou tribunais de contas.
+- **E)** O Guia PMBOK aboliu totalmente a gestão de riscos e a preocupação com a qualidade técnica das entregas de software.
 
 ---
 
@@ -178,7 +176,7 @@ A gestão de projetos passou a ser compreendida dentro de um **Sistema de Entreg
 > - **C)** Incorreta. Os princípios do PMBOK enfatizam a liderança colaborativa, servidora e a capacitação contínua da equipe.
 > - **D)** Incorreta. O sistema de entrega de valor aplica-se plenamente ao setor público, orientando a geração de valor público, eficiência de gastos e transparência social.
 > - **E)** Incorreta. Riscos (Domínio da Incerteza) e Qualidade continuam sendo pilares centrais de avaliação de projetos.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -205,15 +203,15 @@ Os 12 Princípios do PMBOK orientam a conduta profissional dos gestores e equipe
 ---
 
 ### Teste 488
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O padrão de gestão de projetos moderno do Guia PMBOK abandonou a estrutura estritamente processual e prescritiva, adotando uma abordagem holística estruturada em 12 Princípios de Entrega de Projetos e 8 Domínios de Desempenho. O princípio que estabelece a necessidade deliberada de ajustar e personalizar a governança, os métodos, as ferramentas e a quantidade de documentação de acordo com as características específicas, o porte e o nível de incerteza de cada projeto denomina-se:  
 
-* **A)** Stewardship (Administração Diligente).
-* **B)** Systems Thinking (Pensamento Sistêmico).
-* **C)** Tailoring (Adaptação Contextual).
-* **D)** Quality (Incorporação de Qualidade).
-* **E)** Complexity (Navegação na Complexidade).
-
+- **A)** Stewardship (Administração Diligente).
+- **B)** Systems Thinking (Pensamento Sistêmico).
+- **C)** Tailoring (Adaptação Contextual).
+- **D)** Quality (Incorporação de Qualidade).
+- **E)** Complexity (Navegação na Complexidade).
 
 ---
 
@@ -224,7 +222,7 @@ Os 12 Princípios do PMBOK orientam a conduta profissional dos gestores e equipe
 > - **C)** **Correta.** O princípio da Adaptação (*Tailoring*) preconiza que não existe um modelo universal único. A equipe do projeto deve customizar conscientemente os processos, ritos e métodos às necessidades específicas do projeto e ao contexto organizacional.
 > - **D)** Incorreta. Trata da conformidade com os requisitos de qualidade e aptidão para o uso.
 > - **E)** Incorreta. Refere-se à habilidade de lidar com volatilidade e ambiguidades no projeto.
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -259,15 +257,15 @@ flowchart TD
 ---
 
 ### Teste 489
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O Guia PMBOK define os 8 Domínios de Desempenho do Projeto (*Project Performance Domains*). O domínio que trata de atividades como o gerenciamento do fluxo de trabalho físico e digital, a alocação eficiente de recursos materiais, a remoção de impedimentos e o gerenciamento contínuo das aquisições e contratos durante o ciclo diário do projeto denomina-se:  
 
-* **A)** Domínio das Partes Interessadas (*Stakeholders*).
-* **B)** Domínio da Entrega (*Delivery*).
-* **C)** Domínio do Trabalho do Projeto (*Project Work*).
-* **D)** Domínio da Medição (*Measurement*).
-* **E)** Domínio da Incerteza (*Uncertainty*).
-
+- **A)** Domínio das Partes Interessadas (*Stakeholders*).
+- **B)** Domínio da Entrega (*Delivery*).
+- **C)** Domínio do Trabalho do Projeto (*Project Work*).
+- **D)** Domínio da Medição (*Measurement*).
+- **E)** Domínio da Incerteza (*Uncertainty*).
 
 ---
 
@@ -278,7 +276,7 @@ flowchart TD
 > - **C)** **Correta.** O Domínio de Desempenho do Trabalho do Projeto (*Project Work*) dedica-se ao estabelecimento dos processos de trabalho, gerenciamento dos recursos materiais, remoção de impedimentos ao fluxo da equipe e administração de aquisições e contratos de suporte.
 > - **D)** Incorreta. O domínio da Medição trata de métricas, indicadores e Análise de Valor Agregado (EVM).
 > - **E)** Incorreta. O domínio da Incerteza gerencia riscos, volatilidade e ambiguidades.
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -324,15 +322,15 @@ flowchart TD
 ---
 
 ### Teste 490
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** No âmbito do Domínio de Desempenho da Abordagem de Desenvolvimento e Ciclo de Vida do PMBOK, a escolha do ciclo de vida adequado para um projeto de TI deve equilibrar previsibilidade e agilidade. Ao planejar o desenvolvimento de um grande sistema previdenciário público, a equipe optou por fixar o escopo macro, o limite orçamentário e os marcos regulatórios de conformidade em um plano formal inicial, enquanto os módulos de software são implementados e homologados em sprints quinzenais por times ágeis. Essa configuração caracteriza uma abordagem:  
 
-* **A)** Preditiva pura (Cascata).
-* **B)** Híbrida.
-* **C)** Caótica descontrolada.
-* **D)** Exclusivamente iterativa sem entregas funcionais.
-* **E)** Estritamente linear sem feedback.
-
+- **A)** Preditiva pura (Cascata).
+- **B)** Híbrida.
+- **C)** Caótica descontrolada.
+- **D)** Exclusivamente iterativa sem entregas funcionais.
+- **E)** Estritamente linear sem feedback.
 
 ---
 
@@ -343,7 +341,7 @@ flowchart TD
 > - **C)** Incorreta. A abordagem híbrida é disciplinada, planejada e estruturada, não sendo caótica.
 > - **D)** Incorreta. A homologação em sprints quinzenais gera incrementos funcionais utilizáveis.
 > - **E)** Incorreta. As sprints quinzenais incorporam ciclos rápidos de feedback, contradizendo o modelo linear sem feedback.
-> 
+>
 > **Gabarito: B**
 
 ---
@@ -359,15 +357,15 @@ O princípio do **Tailoring** dita que não existe uma metodologia universal. Ca
 ---
 
 ### Teste 491
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O Guia PMBOK enfatiza o princípio da Adaptação Contextual (*Tailoring*), reconhecendo que abordagens de desenvolvimento (preditivas, ágeis ou híbridas) devem ser moldadas às características exclusivas de cada projeto e organização. Acerca do *Tailoring* e dos ciclos de vida de projetos, assinale a alternativa correta:  
 
-* **A)** Em abordagens puramente preditivas (em cascata), o escopo, prazo e custo são definidos em detalhes nas fases iniciais, visando minimizar alterações ao longo do ciclo.
-* **B)** A adaptação (*tailoring*) prescreve que todo projeto governamental de TI deve obrigatoriamente aplicar 100% de todas as ferramentas e modelos do PMBOK sem qualquer supressão ou customização.
-* **C)** Métodos ágeis recusam qualquer planejamento inicial, proibindo a definição de visões de produto ou marcos de release.
-* **D)** Em projetos com alto grau de incerteza de requisitos e tecnologias inovadoras, a abordagem mais indicada é o ciclo preditivo rígido com proibição de entregas incrementais.
-* **E)** O princípio do *tailoring* impede que organizações públicas combinem elementos de governança preditiva contratual com frameworks ágeis (como Scrum) de desenvolvimento.
-
+- **A)** Em abordagens puramente preditivas (em cascata), o escopo, prazo e custo são definidos em detalhes nas fases iniciais, visando minimizar alterações ao longo do ciclo.
+- **B)** A adaptação (*tailoring*) prescreve que todo projeto governamental de TI deve obrigatoriamente aplicar 100% de todas as ferramentas e modelos do PMBOK sem qualquer supressão ou customização.
+- **C)** Métodos ágeis recusam qualquer planejamento inicial, proibindo a definição de visões de produto ou marcos de release.
+- **D)** Em projetos com alto grau de incerteza de requisitos e tecnologias inovadoras, a abordagem mais indicada é o ciclo preditivo rígido com proibição de entregas incrementais.
+- **E)** O princípio do *tailoring* impede que organizações públicas combinem elementos de governança preditiva contratual com frameworks ágeis (como Scrum) de desenvolvimento.
 
 ---
 
@@ -378,7 +376,7 @@ O princípio do **Tailoring** dita que não existe uma metodologia universal. Ca
 > - **C)** Incorreta. Métodos ágeis planejam continuamente em múltiplos horizontes (visão, roadmap, release, sprint e dia a dia).
 > - **D)** Incorreta. Alta incerteza e inovação exigem ciclos adaptativos/ágeis com iterações curtas e entregas frequentes.
 > - **E)** Incorreta. Abordagens híbridas (muito comuns no setor público, unindo governança contratual formal da Lei 14.133/2021 à execução ágil interna) são expressamente incentivadas pelo *tailoring*.
-> 
+>
 > **Gabarito: A**
 >
 
@@ -399,15 +397,15 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 ---
 
 ### Teste 492
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Análise de Valor Agregado (EVM) fundamenta-se em três grandezas quantitativas centrais para aferir a saúde econômico-temporal de um projeto: Valor Planejado (VP), Custo Real (CR) e Valor Agregado (VA). Sobre essas variáveis, assinale a alternativa correta:  
 
-* **A)** O Valor Agregado (VA) corresponde ao montante de recursos financeiros transferido compulsoriamente aos acionistas da empresa contratada a título de dividendos.
-* **B)** O Custo Real (CR) representa o orçamento estimado ideal que deveria ter sido gasto na hipótese teórica de produtividade máxima.
-* **C)** O Valor Planejado (VP) representa o orçamento autorizado e alocado para o trabalho que estava programado para ser executado até a data da medição.
-* **D)** O Valor Agregado (VA) é calculado somando-se as notas fiscais emitidas pelo fornecedor independentemente de o serviço ter sido homologado ou entregue.
-* **E)** As métricas de EVM podem ser calculadas apenas após o encerramento formal do projeto, sendo vedado seu uso durante a fase de execução.
-
+- **A)** O Valor Agregado (VA) corresponde ao montante de recursos financeiros transferido compulsoriamente aos acionistas da empresa contratada a título de dividendos.
+- **B)** O Custo Real (CR) representa o orçamento estimado ideal que deveria ter sido gasto na hipótese teórica de produtividade máxima.
+- **C)** O Valor Planejado (VP) representa o orçamento autorizado e alocado para o trabalho que estava programado para ser executado até a data da medição.
+- **D)** O Valor Agregado (VA) é calculado somando-se as notas fiscais emitidas pelo fornecedor independentemente de o serviço ter sido homologado ou entregue.
+- **E)** As métricas de EVM podem ser calculadas apenas após o encerramento formal do projeto, sendo vedado seu uso durante a fase de execução.
 
 ---
 
@@ -418,7 +416,7 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 > - **C)** **Correta.** Definição exata de Valor Planejado (VP / PV): parcela do orçamento aprovado que deveria ter sido consumida conforme o cronograma planejado até o momento da aferição.
 > - **D)** Incorreta. O VA só contabiliza o trabalho realmente executado e aceito segundo as regras de medição aprovadas.
 > - **E)** Incorreta. O propósito primordial da EVM é o monitoramento contínuo concomitante durante a execução para permitir ações corretivas tempestivas.
-> 
+>
 > **Gabarito: C**
 
 ---
@@ -426,30 +424,32 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 ## 5.2 Variações e Índices de Desempenho (IDP e IDC)
 
 #### Variações Absolutas
+
 - **Variação de Prazos ($VPr$ ou $SV$):**
   $$VPr = VA - VP$$
-    - $VPr > 0$: Projeto adiantado.
-    - $VPr = 0$: Projeto rigorosamente no cronograma.
-    - $VPr < 0$: Projeto atrasado.
+  - $VPr > 0$: Projeto adiantado.
+  - $VPr = 0$: Projeto rigorosamente no cronograma.
+  - $VPr < 0$: Projeto atrasado.
 
 - **Variação de Custos ($VC$ ou $CV$):**
   $$VC = VA - CR$$
-    - $VC > 0$: Abaixo do orçamento (economia de recursos).
-    - $VC = 0$: Exatamente no orçamento planejado.
-    - $VC < 0$: Acima do orçamento (estouro financeiro).
+  - $VC > 0$: Abaixo do orçamento (economia de recursos).
+  - $VC = 0$: Exatamente no orçamento planejado.
+  - $VC < 0$: Acima do orçamento (estouro financeiro).
 
 #### Índices de Desempenho Relativo
+
 - **Índice de Desempenho de Prazos ($IDP$ ou $SPI$):**
   $$IDP = \frac{VA}{VP}$$
-    - $IDP > 1$: Eficiência de cronograma superior ao previsto (adiantado).
-    - $IDP = 1$: No ritmo do cronograma previsto.
-    - $IDP < 1$: Eficiência de cronograma inferior ao previsto (atrasado).
+  - $IDP > 1$: Eficiência de cronograma superior ao previsto (adiantado).
+  - $IDP = 1$: No ritmo do cronograma previsto.
+  - $IDP < 1$: Eficiência de cronograma inferior ao previsto (atrasado).
 
 - **Índice de Desempenho de Custos ($IDC$ ou $CPI$):**
   $$IDC = \frac{VA}{CR}$$
-    - $IDC > 1$: Eficiência de custos favorável (gastando menos para cada unidade de entrega).
-    - $IDC = 1$: Gastando rigorosamente o orçado.
-    - $IDC < 1$: Eficiência desfavorável (gastando mais para entregar o trabalho).
+  - $IDC > 1$: Eficiência de custos favorável (gastando menos para cada unidade de entrega).
+  - $IDC = 1$: Gastando rigorosamente o orçado.
+  - $IDC < 1$: Eficiência desfavorável (gastando mais para entregar o trabalho).
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
 > A banca FCC adora inverter os numeradores e denominadores para induzir ao erro. Grave a regra mnemônica: **O Valor Agregado ($VA$) SEMPRE fica no numerador nas fórmulas dos índices de desempenho** ($IDP = VA / VP$ e $IDC = VA / CR$).
@@ -457,6 +457,7 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 ---
 
 ### Teste 493
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em uma auditoria de acompanhamento de um projeto estratégico de desenvolvimento de software em um Tribunal de Contas, o fiscal técnico de TI apurou os seguintes valores na Análise de Valor Agregado (EVM) ao término do quinto mês:  
 
@@ -465,12 +466,11 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 - Custo Real (CR): R$ 300.000,00  
 Com base nesses valores, os cálculos do Índice de Desempenho de Prazos (IDP) e do Índice de Desempenho de Custos (IDC) demonstram que o projeto está:  
 
-* **A)** Adiantado no cronograma (IDP = 1,25) e gastando mais que o previsto (IDC = 0,75).
-* **B)** Atrasado no cronograma (IDP = 0,80) e com desempenho de custos favorável, abaixo do orçamento para o trabalho executado (IDC = 1,067).
-* **C)** Rigorosamente no prazo (IDP = 1,00) e com equilíbrio fiscal absoluto (IDC = 1,00).
-* **D)** Atrasado no cronograma (IDP = 0,80) e com prejuízo financeiro grave, estourando os custos orçados (IDC = 0,937).
-* **E)** Adiantado no cronograma (IDP = 1,33) e com custos favoráveis (IDC = 1,20).
-
+- **A)** Adiantado no cronograma (IDP = 1,25) e gastando mais que o previsto (IDC = 0,75).
+- **B)** Atrasado no cronograma (IDP = 0,80) e com desempenho de custos favorável, abaixo do orçamento para o trabalho executado (IDC = 1,067).
+- **C)** Rigorosamente no prazo (IDP = 1,00) e com equilíbrio fiscal absoluto (IDC = 1,00).
+- **D)** Atrasado no cronograma (IDP = 0,80) e com prejuízo financeiro grave, estourando os custos orçados (IDC = 0,937).
+- **E)** Adiantado no cronograma (IDP = 1,33) e com custos favoráveis (IDC = 1,20).
 
 ---
 
@@ -481,11 +481,10 @@ Com base nesses valores, os cálculos do Índice de Desempenho de Prazos (IDP) e
 > - **C)** Incorreta. Os valores de IDP e IDC não são iguais à unidade.
 > - **D)** Incorreta. O cálculo do IDC resultou em $1,067 > 1$, o que indica economia de gastos e não prejuízo financeiro.
 > - **E)** Incorreta. Os valores numéricos foram calculados erroneamente.
-> 
+>
 > **Gabarito: B**
 
 ---
-
 
 #### Tabela Diagnóstica Rápida de EVM
 
@@ -509,15 +508,15 @@ A **Gestão de Portfólio de TI** conecta a estratégia institucional do Tribuna
 ---
 
 ### Teste 494
+
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Gestão de Portfólio de TI é o elo estratégico que alinha as decisões de investimento em tecnologia às prioridades institucionais de um Tribunal de Contas. A respeito das atribuições de governança e práticas de gestão de portfólio, assinale a afirmativa correta:  
 
-* **A)** A gestão de portfólio visa garantir que a organização execute a combinação ideal de projetos e programas que maximize o valor institucional e respeite a capacidade orçamentária e operacional.
-* **B)** O portfólio de TIC deve conter exclusivamente projetos de desenvolvimento de software em linguagem Java, sendo vedada a inclusão de projetos de aquisição de infraestrutura de nuvem.
-* **C)** A priorização de projetos em um portfólio público deve basear-se exclusivamente na ordem cronológica de abertura de chamados no help desk, sem uso de modelos de pontuação estratégica.
-* **D)** A governança de portfólio determina que, uma vez aprovado pelo Comitê Estratégico, um projeto jamais pode ser cancelado ou suspenso, ainda que perca sua viabilidade técnica ou legal.
-* **E)** O gerenciamento de portfólio é atribuição privativa do estagiário de suporte técnico de primeiro nível, dispensando apreciação pelo Comitê de Governança de TI.
-
+- **A)** A gestão de portfólio visa garantir que a organização execute a combinação ideal de projetos e programas que maximize o valor institucional e respeite a capacidade orçamentária e operacional.
+- **B)** O portfólio de TIC deve conter exclusivamente projetos de desenvolvimento de software em linguagem Java, sendo vedada a inclusão de projetos de aquisição de infraestrutura de nuvem.
+- **C)** A priorização de projetos em um portfólio público deve basear-se exclusivamente na ordem cronológica de abertura de chamados no help desk, sem uso de modelos de pontuação estratégica.
+- **D)** A governança de portfólio determina que, uma vez aprovado pelo Comitê Estratégico, um projeto jamais pode ser cancelado ou suspenso, ainda que perca sua viabilidade técnica ou legal.
+- **E)** O gerenciamento de portfólio é atribuição privativa do estagiário de suporte técnico de primeiro nível, dispensando apreciação pelo Comitê de Governança de TI.
 
 ---
 
@@ -528,18 +527,18 @@ A **Gestão de Portfólio de TI** conecta a estratégia institucional do Tribuna
 > - **C)** Incorreta. A seleção e priorização utilizam modelos formais de pontuação (*scoring models*) com base em alinhamento estratégico, valor público, riscos e retorno social.
 > - **D)** Incorreta. A governança monitora continuamente o portfólio e tem o dever de cancelar, pausar ou replanejar projetos que deixem de demonstrar alinhamento ou viabilidade.
 > - **E)** Incorreta. Gestão de portfólio é prática de governança estratégica ligada à alta administração e ao Comitê Estratégico de TI.
-> 
+>
 > **Gabarito: A**
 
 ---
 
 ## 6. Fontes Recomendadas na Internet
 
-* [Scrum Guide 2020 Oficial (Português-BR)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) - Guia definitivo e oficial das regras, papéis, eventos e artefatos do framework Scrum.
-* [Kanban Guide Oficial (English)](https://kanbanguides.org/english/) - Guia oficial de definição do Kanban para equipes de desenvolvimento e gestão de fluxo de trabalho.
-* [Manifesto Ágil - Princípios do Desenvolvimento Ágil de Software](https://agilemanifesto.org/iso/ptbr/principles.html) - Valores e 12 princípios fundamentais do manifesto ágil.
-* [TCU - Governança e Boas Práticas em Gestão de Projetos](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Orientações do Tribunal de Contas da União para fiscalização e governança de projetos e contratos de tecnologia.
-* [Governo Digital - Estratégia Federal de Governo Digital (EFGD)](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/EFGD) - Diretrizes e iniciativas para entregas iterativas e governança de projetos no setor público.
-* PROJECT MANAGEMENT INSTITUTE. **Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK)**. 7. ed. Newtown Square: PMI, 2021. (Seção 1 - O Padrão de Gerenciamento de Projetos; Seção 2 - Domínios de Desempenho do Projeto).
-* KERZNER, Harold. **Gestão de Projetos: As Melhores Práticas**. 3. ed. Porto Alegre: Bookman, 2011. (Cap. 1 - Visão Geral do Gerenciamento de Projetos; Cap. 14 - Gestão do Valor Agregado - EVM).
-* SUTHERLAND, Jeff. **Scrum: A Arte de Fazer o Dobro do Trabalho na Metade do Tempo**. São Paulo: Leya, 2014. (Cap. 1 a 5 - Métodos Ágeis e Ciclos de Feedback).
+- [Scrum Guide 2020 Oficial (Português-BR)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) - Guia definitivo e oficial das regras, papéis, eventos e artefatos do framework Scrum.
+- [Kanban Guide Oficial (English)](https://kanbanguides.org/english/) - Guia oficial de definição do Kanban para equipes de desenvolvimento e gestão de fluxo de trabalho.
+- [Manifesto Ágil - Princípios do Desenvolvimento Ágil de Software](https://agilemanifesto.org/iso/ptbr/principles.html) - Valores e 12 princípios fundamentais do manifesto ágil.
+- [TCU - Governança e Boas Práticas em Gestão de Projetos](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Orientações do Tribunal de Contas da União para fiscalização e governança de projetos e contratos de tecnologia.
+- [Governo Digital - Estratégia Federal de Governo Digital (EFGD)](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/EFGD) - Diretrizes e iniciativas para entregas iterativas e governança de projetos no setor público.
+- PROJECT MANAGEMENT INSTITUTE. **Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK)**. 7. ed. Newtown Square: PMI, 2021. (Seção 1 - O Padrão de Gerenciamento de Projetos; Seção 2 - Domínios de Desempenho do Projeto).
+- KERZNER, Harold. **Gestão de Projetos: As Melhores Práticas**. 3. ed. Porto Alegre: Bookman, 2011. (Cap. 1 - Visão Geral do Gerenciamento de Projetos; Cap. 14 - Gestão do Valor Agregado - EVM).
+- SUTHERLAND, Jeff. **Scrum: A Arte de Fazer o Dobro do Trabalho na Metade do Tempo**. São Paulo: Leya, 2014. (Cap. 1 a 5 - Métodos Ágeis e Ciclos de Feedback).
