@@ -1,0 +1,18 @@
+title: TCE-GO 2027 — Guias de Estudo
+description: Guias de estudo e questões comentadas para o concurso do TCE-GO.
+markdown: GFM
+relative_links:
+  enabled: true
+  collections: false
+plugins:
+  - jekyll-relative-links
+exclude:
+  - .github
+  - data
+  - node_modules
+  - raw_docs
+  - raw_provas
+  - raw_provas_v3
+  - scratch
+  - src
+  - templates
