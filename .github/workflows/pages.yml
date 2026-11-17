@@ -23,6 +23,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
+      - name: Prepare documentation index
+        run: cp docs/README.md docs/index.md
       - name: Build site
         uses: actions/jekyll-build-pages@v1
         with:
